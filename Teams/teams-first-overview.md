@@ -31,18 +31,18 @@ En este artículo se detallan las consideraciones que debe tomar con el enfoque 
 > [!IMPORTANT]
 > Aunque Teams puede ser la primera carga de trabajo implementada en la nube de su organización, la implementación de Teams debe formar parte de la estrategia general de implementación en la nube.
 
-Si ya ha lanzado otros servicios de Microsoft 365 u Office 365 y Teams es su próxima carga de trabajo para su lanzamiento (en lugar de la primera), empiece con Cómo lanzamiento [Teams.](How-to-roll-out-teams.md)
+Si ya ha lanzado otros servicios de Microsoft 365 u Office 365 y Teams es su próxima carga de trabajo para su implementación (en lugar de la primera), comience con Cómo lanzamiento [teams.](How-to-roll-out-teams.md)
 
 ## <a name="start-here"></a>Empiece aquí
 
-Para empezar con la implementación de Teams First, debe cumplir como mínimo algunos requisitos previos. La siguiente lista mostrará lo que debe tener para su organización antes de que se pueda habilitar Teams:
+Para empezar con la implementación de Teams First deberá cumplir como mínimo algunos requisitos previos. La siguiente lista mostrará lo que debe tener para su organización antes de que se pueda habilitar Teams:
 
 1.  Una organización de Microsoft 365 u Office 365 configurada con su nombre de dominio
 
 2.  Conectividad de Azure Active Directory (conexión AAD) o una solución de sincronización de identidades en la nube similar, con todos los atributos necesarios sincronizados con tu inquilino  
-    Para comprender los atributos sincronizados con la sincronización de AAD, lea sincronización de Azure AD Connect: Atributos [sincronizados con Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+    Para comprender los atributos sincronizados con la sincronización de AAD, lea Sincronización de Azure AD Connect: Atributos [sincronizados con Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
-3.  Licencias de usuario asignadas a Teams correspondientes  
+3.  Licencias de usuario adecuadas asignadas para Teams  
     Para comprender las licencias de Teams, lea la [descripción del servicio Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 4.  Red de la organización preparada para Teams  
@@ -54,26 +54,26 @@ Para empezar con la implementación de Teams First, debe cumplir como mínimo al
 > Los inquilinos creados después del 1 de septiembre de 2019 se aprovisionan solo en modo Teams.
 > 
 > [!IMPORTANT]
-> Si tiene implementado Skype Empresarial Server y su espacio empresarial se aprovisionó después del 1 de septiembre de 2019, póngase en contacto con el soporte técnico para habilitar las capacidades de coexistencia de Teams. Asegúrese de que la "directiva de actualización para toda la organización" esté establecida en "Modo <span class="underline">Isla"</span> antes de asignar licencias de Teams a un usuario.
+> Si tiene implementado Skype Empresarial Server y su espacio empresarial se aprovisionó después del 1 de septiembre de 2019, póngase en contacto con el soporte técnico para habilitar las capacidades de coexistencia de Teams. Asegúrese de que la "directiva de actualización para toda la organización" esté establecida en "Modo <span class="underline">isla"</span> antes de asignar licencias de Teams a un usuario.
 
 ## <a name="migration-starting-points"></a>Puntos iniciales de la migración
 
-Su viaje a Microsoft 365 u Office 365 y las características disponibles en Teams según su punto de partida y la existencia de Skype Empresarial local o Lync Server. En las siguientes secciones se detallan las funcionalidades básicas y las opciones de configuración, además de los requisitos previos anteriores. Hemos desglosado los escenarios de los puntos de partida en los temas siguientes:
+Su viaje a Microsoft 365 u Office 365 y las características disponibles en Teams en función de su punto de partida y la existencia de Skype Empresarial local o Lync Server. En las siguientes secciones se detallan las capacidades básicas y las opciones de configuración, además de los requisitos previos anteriores. Hemos desglosado los escenarios de los puntos de partida en los temas siguientes:
 
 **Configuración de equipos de** espacio empresarial: los modos de inquilino y usuario se usan para controlar el comportamiento del destinatario. Esta configuración se puede asignar en el nivel de inquilino o en el nivel de usuario de una organización. Para obtener más información, lea [Coexistencia con Skype Empresarial.](coexistence-chat-calls-presence.md)
 
 **Chat/Comunicación externa en Teams:** los servicios de chat hacen referencia a conversaciones de chat de punto a punto o grupales dentro y dentro de la organización o externamente a la organización. Las comunicaciones externas también se conocen como federación en Skype Empresarial.
 
-Crear y ver reuniones en **Teams:** un usuario siempre puede crear reuniones en línea mediante el complemento De Outlook Teams y el acceso telefónico RTC está disponible en todos los escenarios una vez que el usuario tiene licencia. Teams y Skype Empresarial almacenan información de calendario en el buzón de Exchange del usuario. El servidor exchange local debe estar Exchange Server 2016 CU3 o posterior para que el cliente de Teams pueda interactuar con el buzón del usuario. Sin el acceso al buzón de Exchange no se mostrará el icono de Calendario en Teams y el usuario no podrá ver, crear o modificar reuniones en el cliente de Teams.
+Crear y ver reuniones en **Teams:** un usuario siempre puede crear reuniones en línea mediante el complemento de Outlook Teams y el acceso telefónico RTC está disponible en todos los escenarios una vez que el usuario tiene licencia. Teams y Skype Empresarial almacenan información de calendario en el buzón de Exchange del usuario. El servidor exchange local debe estar Exchange Server 2016 CU3 o posterior para que el cliente de Teams pueda interactuar con el buzón del usuario. Sin el acceso al buzón de Exchange no se mostrará el icono de Calendario en Teams y el usuario no podrá ver, crear o modificar reuniones en el cliente de Teams.
 
-**Características de llamadas VoIP/RTC** en Teams: las llamadas pueden ser de voz sobre IP (VoIP) o de red telefónica conmutada (RTC). La conectividad VoIP se produce de forma nativa entre los clientes de Teams, mientras que la conectividad con RTC se produce cuando un usuario marca un número de teléfono externo.  
+**Características de llamadas VoIP/RTC** en Teams: las llamadas pueden ser de voz a través de IP (VoIP) o de red telefónica conmutada (RTC). La conectividad VoIP se produce de forma nativa entre clientes de Teams, mientras que la conectividad con RTC se produce cuando un usuario marca un número de teléfono externo.  
 
-Los equipos admiten dos tipos de conectividad con RTC. Plan de llamadas de Microsoft, cuando Microsoft proporciona infraestructura de telefonía, incluido el número de teléfono de un usuario, o la configuración de enrutamiento directo, donde el cliente proporciona la conectividad de telefonía a través de un controlador de borde de sesión (SBC) para el usuario de Teams.  
+Teams admite dos tipos de conectividad con RTC. Plan de llamadas de Microsoft, cuando Microsoft proporciona infraestructura de telefonía, incluido el número de teléfono de un usuario, o la configuración de enrutamiento directo, donde el cliente proporciona la conectividad de telefonía a través de un controlador de borde de sesión (SBC) para el usuario de Teams.  
 Para obtener más información, [lea ¿Qué plan de llamadas es adecuado para usted?](calling-plan-landing-page.md) y enrutamiento [directo del sistema telefónico.](direct-routing-landing-page.md)
 
 **Colaboración de equipos y canales** en Teams: En Teams, los equipos son grupos de personas que se reúnen por causas de trabajo, proyectos o intereses comunes. Los equipos están configurados por canales. Cada canal se basa en un tema, como "Eventos de equipo", un nombre de departamento o solo por diversión. Los canales son los lugares donde se mantienen reuniones, se mantienen conversaciones y se trabaja conjuntamente en archivos. Durante la colaboración
 
-OneDrive para la Empresa (uso compartido de archivos **P2P)** en Teams: fuera de Teams y canales, los usuarios de Teams pueden compartir archivos de punto a punto con OneDrive para la Empresa u otros programas de archivos compartidos P2P como Archivos Citrix, Dropbox, Box y Google Drive. Para OneDrive para la Empresa, un usuario debe tener asignada una licencia de SharePoint Online.
+OneDrive para la Empresa (uso compartido de archivos **P2P)** en Teams: fuera de equipos y canales, los usuarios de Teams pueden compartir archivos de punto a punto con OneDrive para la Empresa u otros programas de archivos compartidos P2P como Archivos Citrix, Dropbox, Box y Google Drive. Para OneDrive para la Empresa, un usuario debe tener asignada una licencia de SharePoint Online.
 
 **Plataforma de** aplicaciones: las aplicaciones proporcionan herramientas integradas para que su organización obtenga más información sobre Teams. Estas aplicaciones combinan la funcionalidad de fichas, extensiones de mensajería, conectores y bots proporcionados por Microsoft, creados por un tercero o por desarrolladores de su organización.
 
@@ -100,10 +100,10 @@ Este punto de partida supone que su organización no utiliza Skype Empresarial o
 <tbody>
 <tr class="odd">
 <td>Configuración de Equipos de espacio empresarial</td>
-<td>En el modo Solo en Teams, todas las características de chat y llamada están solo en Teams.</td>
+<td>Solo en teams, todas las características de chat y llamadas están solo en Teams.</td>
 </tr>
 <tr class="even">
-<td>Chat y comunicación externa en Teams</td>
+<td>Chat/Comunicación externa en Teams</td>
 <td><p>Puede realizar comunicaciones internas (internos de Microsoft 365 u Office 365) y chats externos desde Teams.</p>
 <p><em>Nota: Las entradas DNS deben configurarse para el acceso externo. Los registros DNS de Skype Empresarial son necesarios aunque no tenga Skype Empresarial local o en Microsoft 365 u Office 365 para permitir la federación con entornos de Lync y Skype Empresarial:<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Registros del sistema de nombres de dominio externos</a></em></p></td>
@@ -112,7 +112,7 @@ Este punto de partida supone que su organización no utiliza Skype Empresarial o
 <td>Crear y ver reuniones en Teams</td>
 <td><p>Puede crear reuniones internas y externas a través del complemento de Outlook.</p>
 <p>La funcionalidad de acceso telefónico local y de salida RTC está disponible con las licencias de Audioconferencia.</p>
-<p>El acceso al calendario de Teams requiere la implementación local de CU3+ de Exchange 2016 con Exchange hybrid established: Crear una implementación híbrida <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">con el Asistente para la configuración híbrida.</a> </p>
+<p>El acceso al calendario de Teams requiere la implementación local de CU3+ de Exchange 2016 con Exchange hybrid established: Crear una implementación híbrida con <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">el Asistente para la configuración híbrida.</a> </p>
 <p>Además de la configuración híbrida de Exchange, establezca la autenticación OAuth de Exchange: Configurar la autenticación de OAuth entre organizaciones de <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> Exchange y Exchange Online".</p>
 
 </p></td>
@@ -134,7 +134,7 @@ VoIP/RTC en Teams</td>
 </tr>
 <tr class="odd">
 <td>Plataforma de aplicaciones</td>
-<td>Los usuarios podrán usar las aplicaciones designadas para ellas según las directivas de su empresa.<br />
+<td>Los usuarios podrán usar las aplicaciones designadas para ellos según las directivas de su empresa.<br />
 Más información aquí: <a href="https://docs.microsoft.com/microsoftteams/admin-settings">Configuración de administración de aplicaciones en Teams</a></td>
 </tr>
 <tr class="even">
@@ -153,9 +153,9 @@ Más información aquí: <a href="https://docs.microsoft.com/microsoftteams/admi
 
 1.  Cumpla los requisitos previos detallados en la sección anterior Comenzar aquí
 
-2.  Cambie el espacio empresarial al modo solo teams (solo para inquilinos existentes): establecer [la configuración de coexistencia y actualización.](setting-your-coexistence-and-upgrade-settings.md)
+2.  Cambie el espacio empresarial al modo solo teams (solo para inquilinos existentes): [establecer la configuración de coexistencia y actualización.](setting-your-coexistence-and-upgrade-settings.md)
 
-3.  Configure el inquilino de acuerdo con las directivas de empresa/empresa de su empresa: [Administre la configuración de Microsoft Teams para su organización.](enable-features-office-365.md)
+3.  Configure el inquilino de acuerdo con las directivas empresariales/empresariales de su empresa: administre la configuración de [Microsoft Teams para su organización.](enable-features-office-365.md)
 
 4.  Implementar el cliente de Teams a los usuarios: [Obtener clientes para Teams](get-clients.md)
 
@@ -183,7 +183,7 @@ En este punto de partida se supone que su organización utiliza Skype Empresaria
 <td>Modo de islas.</td>
 </tr>
 <tr class="even">
-<td>Chat y comunicación externa en Teams</td>
+<td>Chat/Comunicación externa en Teams</td>
 <td>Interna solo dentro de su propio espacio empresarial, la comunicación externa (federación) es a través de su implementación de Skype Empresarial o Lync Server.</td>
 </tr>
 <tr class="odd">
@@ -212,7 +212,7 @@ VoIP/RTC en Teams</td>
 </tr>
 <tr class="odd">
 <td>Plataforma de aplicaciones</td>
-<td>Los usuarios podrán usar las aplicaciones designadas para ellas según las directivas de su empresa.<br />
+<td>Los usuarios podrán usar las aplicaciones designadas para ellos según las directivas de su empresa.<br />
 Más información aquí: <a href="https://docs.microsoft.com/microsoftteams/admin-settings">Configuración de administración de aplicaciones en Teams</a></td>
 </tr>
 <tr class="even">
@@ -231,12 +231,12 @@ Más información aquí: <a href="https://docs.microsoft.com/microsoftteams/admi
 
 ### <a name="enablement-steps-for-organizations-with-skype-for-business-server"></a>Pasos de habilitación para organizaciones con Skype Empresarial Server  
 
-1.  Cumpla los requisitos previos que se detallan en la sección anterior Comenzar aquí.
+1.  Cumpla los requisitos previos detallados en la sección Anterior Comenzar aquí.
 
 2.  Cambiar el inquilino al modo Islas (para inquilinos aprovisionados DESPUÉS del 1/9/2019, ponte en contacto con el servicio de soporte técnico para realizar este cambio)  
     [Configurar su coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md)
 
-3.  Configurar el inquilino de acuerdo con las directivas empresariales/empresariales de la empresa  
+3.  Configurar el inquilino de acuerdo con las directivas de empresa/empresa de su empresa  
     [Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md)
 
 4.  Implementar el cliente de Teams  
@@ -253,23 +253,23 @@ Más información aquí: <a href="https://docs.microsoft.com/microsoftteams/admi
 
 ## <a name="closing-statement"></a>Instrucción de cierre
 
-Microsoft Teams puede permitir que su organización pueda reunir a todos los empleados, trabajadores de la información y trabajadores de la línea frontal en una sola plataforma. Puede empezar [hoy](https://products.office.com/microsoft-teams/group-chat-software) mismo. Puedes estar en contacto con todos nuestros anuncios más recientes y las actualizaciones mensuales de productos [aquí.](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog)
+Microsoft Teams puede permitir que su organización pueda reunir a todos los empleados, trabajadores de la información y trabajadores de la línea frontal en una sola plataforma. Puedes empezar [hoy](https://products.office.com/microsoft-teams/group-chat-software) mismo. Puedes estar en contacto con todos nuestros anuncios más recientes y con las actualizaciones mensuales de productos [aquí.](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog)
 
 Además, a medida que empresas de todo el mundo administran la situación actual de COVID-19, hemos creado una serie de contenido que le ayudará a usar Teams para obtener el máximo impacto en su organización.
 
   - Nuestro [compromiso con los clientes durante covid-19](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
 
-  - [2 semanas: lo que hemos aprendido sobre el trabajo remoto](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/18/making-the-switch-to-remote-work-5-things-weve-learned/)
+  - [Dentro de dos semanas: lo que hemos aprendido sobre el trabajo remoto](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/18/making-the-switch-to-remote-work-5-things-weve-learned/)
 
   - [Realizar reuniones y eventos en línea](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/delivering-online-meetings-events/)
 
   - [Ayudar a las pequeñas y medianas empresas a trabajar de forma remota con Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-  - [Transformación digital de eventos en directo: Observaciones de Bob Bejano desde la línea frontal](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/13/digital-transformation-live-events-bob-bejans-observations-frontline/)
+  - [Transformación digital de eventos en directo: observaciones de Bob Bejano desde la línea frontal](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/13/digital-transformation-live-events-bob-bejans-observations-frontline/)
 
   - [Las 9 formas principales en que TI de Microsoft permite trabajar de forma remota a sus empleados](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/).
 
-  - [Trabajar de forma remota, mantenerse seguro: sugerencias para LOS MÁSÓXOS](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/work-remotely-stay-secure-ciso-tips/)
+  - [Trabaje de forma remota, manténgase seguro: sugerencias para LOS MÁSÓXOS](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/work-remotely-stay-secure-ciso-tips/)
 
   - [Ayudar a profesores y alumnos a cambiar al aprendizaje remoto](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/11/helping-teachers-students-switch-remote-learning/)
 
@@ -297,6 +297,6 @@ Para obtener información específica sobre cada uno de los servicios enumerados
 
 [Planear la conectividad híbrida entre Skype Empresarial Server y Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
 
-[Dar soporte técnico a los trabajadores remotos mediante Teams](support-remote-work-with-teams.md)
+[Dar soporte a los trabajadores remotos mediante Teams](support-remote-work-with-teams.md)
 
 [Trabajar de forma remota con Microsoft 365](https://aka.ms/remote-work)

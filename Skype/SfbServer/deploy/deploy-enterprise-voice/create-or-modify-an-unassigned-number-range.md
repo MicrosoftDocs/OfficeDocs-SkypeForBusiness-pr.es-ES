@@ -36,7 +36,7 @@ La forma en que configure la tabla de números sin asignar depende de cómo dese
 Use uno de los siguientes procedimientos para configurar intervalos de números sin signo para la aplicación Anuncio.
   
 > [!IMPORTANT]
-> Antes de configurar la tabla de números sin signo, el sistema ya debe tener anuncios definidos o una configuración de mensajería unificada de Exchange Operador automático configuración. 
+> Antes de configurar la tabla de números sin signo, el sistema ya debe tener anuncios definidos o una configuración de mensajería unificada de Exchange Operador automático. 
   
 > [!TIP]
 > Cuando alguien llama a un número sin signo, Skype Empresarial Server busca en la tabla de números sin signo de arriba abajo y usa el primer intervalo correspondiente. Por tanto, si quiere que una determinada acción se realice como último recurso, deberá especificarla para el último intervalo en la tabla. 
@@ -169,7 +169,7 @@ Use uno de los siguientes procedimientos para configurar intervalos de números 
     > [!NOTE]
     > Para obtener más información sobre las opciones, [vea Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   

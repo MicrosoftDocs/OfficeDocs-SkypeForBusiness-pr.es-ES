@@ -27,7 +27,7 @@ ms.locfileid: "50076422"
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Usar Microsoft 365 y conectores personalizados en Microsoft Teams
 =======================================================
 
-Los conectores mantienen al equipo al día al proporcionar actualizaciones de servicio y contenido usado con frecuencia directamente en un canal. Con los conectores, los usuarios de Microsoft Teams pueden recibir actualizaciones de servicios populares como Trello, Wunderlist, GitHub y Azure DevOps Services en la secuencia de chat de su equipo.
+Los conectores mantienen actualizado a su equipo al proporcionar actualizaciones de servicio y contenido que se usan con frecuencia directamente en un canal. Con los conectores, los usuarios de Microsoft Teams pueden recibir actualizaciones de servicios populares como Trello, Wunderlist, GitHub y Azure DevOps Services en la secuencia de chat de su equipo.
 
 Cualquier miembro de un equipo puede conectar su equipo a los servicios en la nube más populares con los conectores si los permisos del equipo lo permiten y se notifica a todos los miembros del equipo las actividades de ese servicio. Los conectores seguirán funcionando incluso después de que el miembro que inicialmente ha configurado el conector haya dejado de funcionar. Cualquier miembro del equipo que tenga los permisos para agregar o quitar puede modificar la configuración de conectores por otros miembros.
 
@@ -66,7 +66,7 @@ Actualmente, puede agregar conectores mediante clientes web y de escritorio de M
 > 1. En la página de configuración de conectores, se mostrará el mensaje "Atención requerida" en el botón "Administrar" para las conexiones que deben actualizarse.
 > ![Captura de pantalla del mensaje "Atención requerida".](media/Teams_Attention_Required_message.png)
 > 2. Para los conectores de webhook entrantes, los usuarios pueden volver a crear la conexión simplemente seleccionando Dirección **URL** de actualización y usando la URL de grupo web recién generada.
-> ![Captura de pantalla del botón "Actualizar DIRECCIÓN URL".](media/Teams_update_URL_button.png)
+> ![Captura de pantalla del botón "Dirección URL de actualización".](media/Teams_update_URL_button.png)
 > 3. Para otros tipos de conector, el usuario tendría que quitar el conector y volver a crear la configuración del conector.
 > 4. Verá el mensaje "La dirección URL está actualizada" después de que la dirección URL se haya actualizado correctamente.
 > ![Captura de pantalla del mensaje "La dirección URL está actualizada".](media/Teams_URL_up_to_date.png)

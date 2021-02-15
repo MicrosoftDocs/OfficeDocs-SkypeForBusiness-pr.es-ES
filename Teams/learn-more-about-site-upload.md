@@ -48,17 +48,17 @@ Los datos de ubicaciones y etiquetas de informe que proporciona son una sola est
 
 Puede descargar una plantilla de ejemplo [aquí.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
 
-Use el siguiente ejemplo para ayudarle a crear el archivo de datos.
+Use el siguiente ejemplo para crear el archivo de datos.
 
 > [!IMPORTANT]
 > El archivo de datos no debe contener encabezados de columna (como Red, Nombre de red, etc.). Se usan aquí solamente con fines informativos. <br>
 
 |Red|Nombre de red|Intervalo de red|Nombre de edificio|Tipo de propiedad|Tipo de edificio|Tipo de oficina de edificio|Ciudad|Código postal|País|Estado|Region|Inside Corp|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0    |SVC-1|32|USCAMTV001|Contoso Arrendar re&F|Office|RE&F|Mountain View|94043|EE. UU.|CA|EE. UU.|1|1|
-|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso Arrendar re&F|Office|RE&F|Mountain View|94043|EE. UU.|CA|EE. UU.|1|1|
-|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso Arrendar re&F|Office|RE&F|Mountain View|94043|EE. UU.|CA|EE. UU.|1|1|
-|10.0.132.0    |SVC-1|32|USCAMTV001|Contoso Arrendar re&F|Office|RE&F|Mountain View|94043|EE. UU.|CA|EE. UU.|1|1|
+|10.0.128.0    |SVC-1|32|USCAMTV001|Contoso Arrendar re&F|Office|RE&F|Vista de montaña|94043|EE. UU.|CA|EE. UU.|1|1|
+|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso Arrendar re&F|Office|RE&F|Vista de montaña|94043|EE. UU.|CA|EE. UU.|1|1|
+|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso Arrendar re&F|Office|RE&F|Vista de montaña|94043|EE. UU.|CA|EE. UU.|1|1|
+|10.0.132.0    |SVC-1|32|USCAMTV001|Contoso Arrendar re&F|Office|RE&F|Vista de montaña|94043|EE. UU.|CA|EE. UU.|1|1|
 
 Para obtener más información sobre cómo dar formato al archivo de datos, vea Formato del archivo de [datos de inquilino y Crear la estructura del archivo de datos.](CQD-upload-tenant-building-data.md#upload-building-data-file)
 

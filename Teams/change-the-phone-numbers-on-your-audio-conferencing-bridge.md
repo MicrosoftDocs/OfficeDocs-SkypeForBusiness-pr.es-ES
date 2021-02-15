@@ -37,7 +37,7 @@ Cuando compra licencias **de Audioconferencia,** Microsoft hospeda el puente de 
 Además de los números de teléfono ya asignados al puente de conferencia, puede obtener números de servicio adicionales [(números](/microsoftteams/getting-service-phone-numbers) de pago y gratuitos utilizados para audioconferencias) desde otras ubicaciones y asignarlos al puente de conferencia para que pueda ampliar la cobertura para los usuarios.
   
 > [!NOTE]
-> Para poder asignar o desasignar un número de teléfono a un puente de conferencia, el número de teléfono debe ser un número *de* servicio '. Para ver el tipo de número, vaya a Números de teléfono de voz en el Centro de administración de Microsoft Teams y busque en la  >   columna **Tipo de** número. Los créditos de comunicaciones de Microsoft 365 u Office 365 deben configurarse primero para que los usuarios puedan llamar al puente desde un número gratuito.
+> Para poder asignar o desasignar un número de teléfono a un puente de conferencia, el número de teléfono debe ser un número *"servicio".* Para ver el tipo de número, vaya a Números de teléfono de voz en el Centro de administración de Microsoft Teams y busque en la  >   columna **Tipo de** número. Los créditos de comunicaciones de Microsoft 365 u Office 365 deben configurarse primero para que los usuarios puedan llamar al puente desde un número gratuito.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Pasos para asignar un número de teléfono de servicio nuevo a su puente de conferencia
 
@@ -55,11 +55,11 @@ Además de los números de teléfono ya asignados al puente de conferencia, pued
 
 El número de teléfono predeterminado del puente de conferencia define el identificador de llamada que se usará cuando un participante o el organizador realizará una llamada saliente desde dentro de una reunión.
 
-Solo se puede establecer un número de servicio de pago como número predeterminado para el puente de conferencia; los números de servicio gratuitos no se pueden establecer **como el número predeterminado del puente de conferencia.** Si asigna un número de servicio de pago y le gustaría establecerlo como el nuevo número predeterminado para el puente de audioconferencia, realice estos pasos:
+Solo se puede establecer un número de servicio de pago como número predeterminado para el puente de conferencia; **los números gratuitos del servicio no se pueden establecer como el número predeterminado del puente de conferencia.** Si asigna un número de servicio de pago y le gustaría establecerlo como el nuevo número predeterminado para el puente de audioconferencia, realice estos pasos:
 
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
-1. En el panel de navegación izquierdo, vaya **a Puentes de conferencia de**  >  **reuniones.**
+1. En el panel de navegación izquierdo, vaya **a puentes de conferencia de**  >  **reuniones.**
 
 2. Resalte el número de servicio de pago que desea configurar como predeterminado.
 
@@ -71,7 +71,7 @@ Cuando se programa una reunión, los números de teléfono predeterminados de un
 
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
-1. En el panel de navegación izquierdo, vaya **a Usuarios** y haga clic en el nombre para mostrar del usuario deseado en la lista.
+1. En el panel de navegación izquierdo, vaya **a Usuarios y** haga clic en el nombre para mostrar del usuario deseado en la lista.
 
 2. Junto a **Audioconferencia,** haga clic en **Editar.**
 
@@ -83,7 +83,7 @@ Una vez que se hayan aplicado los cambios, los nuevos números de teléfono pred
 
 Para los dos pasos siguientes, deberá iniciar la Windows PowerShell.
   
-Si ha actualizado los números de teléfono predeterminados que se incluyen en las invitaciones de reunión para algunos o todos los usuarios, puede actualizar las invitaciones de reunión que ya se enviaron a los usuarios de su organización antes de que se cambiaran sus números de teléfono predeterminados con el servicio de migración de reuniones. Para obtener información adicional, consulte [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Si ha actualizado los números de teléfono predeterminados que se incluyen en las invitaciones de reunión para algunos o todos los usuarios, opcionalmente puede actualizar las invitaciones a reuniones que ya se enviaron a los usuarios de su organización antes de que se cambiaran sus números de teléfono predeterminados con el servicio de migración de reuniones. Para obtener información adicional, consulte [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Ejecute el Servicio de migración de reuniones (MMS) para los usuarios a los que se les cambiaron los números de teléfono predeterminados en el paso 2. Para ello, ejecute el siguiente comando:
 
@@ -108,7 +108,7 @@ Para los primeros tres pasos, tendrá que iniciar Windows PowerShell. Para ver c
 
 ### <a name="step-1---update-users-who-have-the-phone-number-to-be-unassigned-as-one-of-their-default-numbers"></a>Paso 1: Actualizar los usuarios que tienen el número de teléfono para que se les desasigne como uno de sus números predeterminados
 
-Reemplace el número de teléfono gratuito o de pago predeterminado de todos los usuarios que tengan el número para el que se va a eliminar la firma como un número predeterminado e inicie el proceso de volver a programar sus reuniones. Para ello, ejecute el siguiente comando:
+Reemplace el número de teléfono gratuito o de pago predeterminado de todos los usuarios que tengan el número al que se va a eliminar la firma como un número predeterminado e inicie el proceso de volver a programar sus reuniones. Para ello, ejecute el siguiente comando:
 
 ```PowerShell
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
@@ -116,14 +116,14 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
  > [!IMPORTANT] 
  >También puede cambiar el número gratuito o de pago predeterminado de los usuarios en el Centro de administración de Microsoft Teams. No obstante, en este modo no se volverán a programar las reuniones automáticamente. 
  
- Para obtener información adicional, consulte Establecer los números de teléfono [incluidos](set-the-phone-numbers-included-on-invites-in-teams.md) en las invitaciones en Microsoft Teams o Establecer los números de teléfono incluidos en las [invitaciones en Skype Empresarial Online.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
+ Para obtener más información, consulte Establecer los números de teléfono [incluidos](set-the-phone-numbers-included-on-invites-in-teams.md) en las invitaciones en Microsoft Teams o Establecer los números de teléfono incluidos en las [invitaciones en Skype Empresarial Online.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
   > [!NOTE]
   > Dependiendo de cuál sea el tamaño de su organización, este proceso podría llevar algún tiempo.
 
 ### <a name="step-2---view-meeting-migration-status-using-windows-powershell"></a>Paso 2: Ver el estado de migración de las reuniones con Windows PowerShell
 
-Todas las reuniones se volverán a programar cuando no haya ninguna operación con *estado* pendiente o *en* curso.
+Todas las reuniones se volverán a programar cuando no haya ninguna operación *con* estado Pendiente o *En* curso.
 
 ```PowerShell
 Get-CsMeetingMigrationStatus -SummaryOnly
@@ -137,7 +137,7 @@ Para obtener más información sobre el servicio de migración de reuniones, con
 
 1. En el panel de navegación izquierdo, vaya a **Voz** > **Números de teléfono**.
 
-2. Si el número de teléfono es gratuito, selecciónelo de la lista y haga clic en **Liberar.** Si el número de teléfono es un número de pago, ponte en contacto con el soporte técnico de [Microsoft](https://go.microsoft.com/fwlink/?linkid=2091806) para que se desasigne el número de teléfono.
+2. Si el número de teléfono es gratuito, selecciónelo de la lista y haga clic en **Liberar.** Si el número de teléfono es un número de pago, póngase en contacto con el soporte técnico de [Microsoft](https://go.microsoft.com/fwlink/?linkid=2091806) para que se le desasigne el número de teléfono.
 
 3. Si el número de teléfono es gratuito, haga clic en **Sí en** la ventana de confirmación.
 
@@ -186,11 +186,11 @@ Si necesita más información, consulte Conectarse a todos los servicios de [Mic
 
 > [!NOTE]
 > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
-Si desea más información sobre cómo iniciar Windows PowerShell, consulte Conectarse a todos los servicios de [Microsoft 365 u Office 365](https://technet.microsoft.com/library/dn568015.aspx) en una única ventana de Windows PowerShell o Conectarse a Skype Empresarial [Online](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)mediante el Windows PowerShell.
+Si desea más información sobre cómo iniciar Windows PowerShell, consulte Conectarse a todos los servicios de [Microsoft 365 u Office 365](https://technet.microsoft.com/library/dn568015.aspx) en una única ventana de Windows PowerShell o Conectarse a Skype Empresarial [Online](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)mediante Windows PowerShell.
 
-### <a name="save-time-and-automate"></a>Ahorre tiempo y automatice
+### <a name="save-time-and-automate"></a>Ahorrar tiempo y automatizar
 
-Para ahorrar tiempo mediante la automatización de este proceso, puede usar [los cmdlet Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) o **Set-CsOnlineDialInConferencingUserDefaultNumber.**
+Para ahorrar tiempo mediante la automatización de este proceso, puede usar [los cmdlets Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) o **Set-CsOnlineDialInConferencingUserDefaultNumber.**
 
 - Use el cmdlet [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) para cambiar el número de pago o el número gratuito predeterminado para usuarios específicos.
 
@@ -230,7 +230,7 @@ Para ahorrar tiempo mediante la automatización de este proceso, puede usar [los
 
 **El botón Desasignación no está disponible**
 
-Quiere cancelar lasignación de un número, pero el botón no está disponible y, si al mantener el puntero sobre él, se le redirige al soporte técnico con el siguiente mensaje: "No se puede cancelar la firma de los números predeterminados o compartidos del _puente. Para desasignir números de pago dedicados, póngase en contacto con el soporte técnico._".
+Quiere cancelar lasignación de un número, pero el botón no está disponible y, si al mantener el puntero sobre él, se le redirige al soporte técnico con el siguiente mensaje: "No se puede cancelar la firma de los números predeterminados o compartidos del _puente. Para desasignir números de pago dedicados, póngase en contacto con el servicio de soporte técnico._".
 
 Para obtener más información sobre los puentes, ejecute el siguiente PowerShell:
 ```PowerShell

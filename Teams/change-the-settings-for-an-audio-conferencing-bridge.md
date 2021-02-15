@@ -45,9 +45,9 @@ El puente de conferencia responde una llamada y le pide al autor de la llamada a
 
 ## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
 
-1. En el panel de navegación izquierdo, vaya **a puentes de**  >  **conferencias de reuniones.** 
+1. En el panel de navegación izquierdo, vaya **a puentes de conferencia de**  >  **reuniones.** 
 
-2. En la parte superior de la página **Puentes de** conferencia, haga clic en **Configuración de puente.** 
+2. En la parte superior de la **página Puentes de** conferencia, haga clic en **Configuración de puente.** 
 
 3. En el **panel Configuración del** puente, seleccione: 
    - **Notificaciones de entrada y salida de la reunión** Si lo desactiva, los usuarios que ya se han unido a la reunión no serán notificados cuando alguien se una o abandone la reunión.
@@ -63,7 +63,7 @@ El puente de conferencia responde una llamada y le pide al autor de la llamada a
 4. Para establecer la longitud del PIN para las reuniones, seleccione el número de dígitos que desea para el PIN en la lista de longitud **del PIN.**
 
 5. Para especificar si desea enviar correo electrónico a sus usuarios, habilite o deshabilite el envío automático de correos electrónicos a los usuarios si cambia la configuración **de las audioconferencias.**
-    Vea los correos electrónicos enviados automáticamente a los usuarios cuando cambia la configuración de [Audioconferencia](emails-sent-to-users-when-their-settings-change-in-teams.md) en Microsoft Teams o los correos electrónicos enviados a los usuarios cuando cambia su configuración en Skype Empresarial [Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) para obtener más información.
+    Para obtener más información, vea los correos electrónicos enviados automáticamente a los usuarios cuando cambia la configuración de [Audioconferencia](emails-sent-to-users-when-their-settings-change-in-teams.md) en Microsoft Teams o los correos electrónicos que se envían a los usuarios cuando cambia su configuración en Skype Empresarial [Online.](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)
  
 6. Haga clic en **Guardar**. 
 
@@ -77,7 +77,7 @@ El puente de conferencia responde una llamada y le pide al autor de la llamada a
     
   - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tiene muchas ventajas en velocidad, sencillez y productividad con respecto al uso solo del Centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad con respecto al uso solo del Centro de administración de Microsoft 365, como cuando se están realizando cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

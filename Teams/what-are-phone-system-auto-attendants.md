@@ -36,7 +36,7 @@ ms.locfileid: "49918946"
 
 Sistema telefónico proporciona operadores automáticos, que se pueden usar para permitir que los autores de llamadas internos y externos se muevan por un sistema de menús para localizar y realizar o transferir llamadas a usuarios o departamentos de su organización.
   
-Un operador automático suele ser un nodo de un sistema y al autor de la llamada se le brinda una serie de mensajes de voz o archivos de audio que escuchan en lugar de un operador humano. Cuando las personas llaman a un número asociado con un operador automático, sus opciones pueden redirigir la llamada a un usuario o buscar a alguien de su organización y conectarse a ese usuario. Pueden expresar sus elecciones e interactuar con el sistema de menús mediante el teclado del teléfono (DTMF) o el reconocimiento de voz. Las opciones que realicen también pueden redirigir la llamada a otro operador automático o a una cola de llamadas.
+Un operador automático suele ser un nodo de un sistema y el autor de la llamada presenta una serie de mensajes de voz o archivos de audio que escuchan en lugar de un operador humano. Cuando las personas llaman a un número asociado con un operador automático, sus opciones pueden redirigir la llamada a un usuario o buscar a alguien de su organización y conectarse a ese usuario. Pueden expresar sus elecciones e interactuar con el sistema de menús mediante el teclado del teléfono (DTMF) o el reconocimiento de voz. Las opciones que realicen también pueden redirigir la llamada a otro operador automático o a una cola de llamadas.
   
 Para configurar un operador automático para Sistema telefónico, vaya a Configurar [un operador automático en la nube.](create-a-phone-system-auto-attendant.md)
   
@@ -44,8 +44,8 @@ Un operador automático de nube tiene las siguientes características:
   
 - Puede transmitir saludos corporativos o informativos.
 - Puede proporcionar menús corporativos personalizados. Estos menús se pueden personalizar para que tengan más de un nivel.
-- Proporciona una búsqueda en directorios que permite a las personas que llaman buscar un nombre en el directorio de la organización.
-- It enables someone who calls in to reach or leave a message for a person in your organization.
+- Proporciona una búsqueda en directorios que permite a las personas que llaman para buscar un nombre en el directorio de la organización.
+- Permite que alguien que llama se llame o deje un mensaje para una persona de su organización.
 - Es compatible con varios idiomas para mensajes, texto a voz y reconocimiento de voz.
 - Es compatible con la especificación de días festivos y horario laboral.
 - Admite la transferencia de llamadas a un operador, otros usuarios, colas de llamadas y operadores automáticos.
@@ -59,7 +59,7 @@ Un operador automático de nube tiene las siguientes características:
 Para comenzar a utilizar operadores automáticos, es importante recordar que:
 
 - Es necesario que un operador automático tenga una cuenta de recursos asociada. Vea [Administrar cuentas de recursos en Teams para](manage-resource-accounts.md) obtener más información sobre las cuentas de recursos. <!-- You can either use an existing resource account or create a new resource account as you set up your auto attendant. -->
-- Al asignar un número de teléfono a un operador automático, en estos casos es muy importante que lo asigne a la cuenta de recursos asociada con ese operador automático. De esta forma, se puede acceder a más de un número de teléfono a un operador automático. Con frecuencia, una cuenta de recursos usará la licencia gratuita Sistema telefónico de usuario virtual. Esta licencia proporciona funcionalidades del sistema telefónico a los números de teléfono en el nivel de la organización y le permite crear operadores automáticos y colas de llamadas.
+- Al asignar un número de teléfono a un operador automático, en términos estrictos, se asigna a la cuenta de recursos asociada con ese operador automático. De este modo, se puede acceder a más de un número de teléfono a un operador automático. Con frecuencia, una cuenta de recursos usará la licencia gratuita Sistema telefónico de usuario virtual. Esta licencia proporciona funcionalidades del sistema telefónico a los números de teléfono en el nivel de la organización y le permite crear operadores automáticos y colas de llamadas.
 
 > [!NOTE]
 > Los números de servicio de enrutamiento directo para el operador automático y las colas de llamadas solo son compatibles con los usuarios de Microsoft Teams y los agentes de llamadas.
@@ -78,11 +78,11 @@ Para comenzar a utilizar operadores automáticos, es importante recordar que:
   
 ## <a name="feature-overview"></a>Información general sobre características
 
-### <a name="searching-for-users"></a>Búsqueda de usuarios
+### <a name="searching-for-users"></a>Buscar usuarios
 
-Marcado por nombre es una característica de un operador automático que también se conoce como búsqueda en directorios. Permite que las personas que llamen a su operador automático usen las respuestas de voz (reconocimiento de voz) o el teclado numérico del teléfono (DTMF) para escribir un nombre completo o parcial en el directorio de la empresa, localizar a la persona y, a continuación, hacer que se le transfiera la llamada. No es necesario que los usuarios que desea localizar y que contacten con Marcado por nombre tengan un número de teléfono o que tengan asignado un plan de llamadas, pero deben tener una licencia de Sistema telefónico si son usuarios en línea o Telefonía IP empresarial habilitado para los usuarios de Skype Empresarial **Server.** El marcado por nombre incluso podrá buscar y transferir llamadas a usuarios de Microsoft Teams que se encuentren en diferentes países o regiones para organizaciones nacionales múltiples. Dados los requisitos previos implicados, debe habilitar explícitamente Marcado por nombre en un operador automático.
+Marcado por nombre es una característica de un operador automático que también se conoce como búsqueda en directorios. Permite que las personas que llamen a su operador automático usen las respuestas de voz (reconocimiento de voz) o el teclado numérico del teléfono (DTMF) para escribir un nombre completo o parcial en el directorio de la empresa, localizar a la persona y, a continuación, hacer que se le transfiera la llamada. No es necesario que los usuarios que desea localizar y que contacten con Marcado por nombre tengan un número de teléfono o que tengan asignado un plan de llamadas, pero deben tener una licencia de Sistema telefónico si son usuarios en línea o un Telefonía IP empresarial habilitado para los usuarios de Skype Empresarial **Server.** Marcado por nombre incluso podrá buscar y transferir llamadas a usuarios de Microsoft Teams que se encuentren en diferentes países o regiones para organizaciones nacionales múltiples. Dados los requisitos previos implicados, debe habilitar explícitamente Marcado por nombre en un operador automático.
 
-Marcar por extensión es una característica de un operador automático que también forma parte de la búsqueda en directorios. Permite que las personas que llaman a su operador automático usen las respuestas de voz (reconocimiento de voz) o del teclado del teléfono (DTMF) para que introduzcan la extensión del teléfono del usuario con el que quieren contactar y, a continuación, se les transferirá la llamada. No es necesario que los usuarios a los que desee localizar y que contacten con Marcado por extensión tengan un número de teléfono o que tengan asignado un plan de llamadas, pero deben tener una licencia de Sistema telefónico si son usuarios en línea o un Telefonía IP empresarial habilitado para los usuarios de Skype Empresarial **Server.** También necesitará tener un plan de marcado configurado correctamente para los usuarios. El marcado por extensión incluso podrá buscar y transferir llamadas a usuarios de Microsoft Teams que se hospedan en diferentes países o regiones para organizaciones nacionales múltiples. Dados los requisitos previos implicados, debe habilitar explícitamente Marcado por extensión en un operador automático.
+Marcar por extensión es una característica de un operador automático que también forma parte de la búsqueda en directorios. Permite que las personas que llaman a su operador automático usen las respuestas de voz (reconocimiento de voz) o del teclado del teléfono (DTMF) para que introduzcan la extensión del teléfono del usuario con el que quieren hablar y, a continuación, se les transferirá la llamada. No es necesario que los usuarios a los que desee localizar y que contacten con Marcado por extensión tengan un número de teléfono o que tengan asignado un plan de llamadas, pero deben tener una licencia de Sistema telefónico si son usuarios en línea o un Telefonía IP empresarial habilitado para los usuarios de Skype Empresarial **Server.** También necesitará tener un plan de marcado configurado correctamente para los usuarios. El marcado por extensión incluso podrá buscar y transferir llamadas a usuarios de Microsoft Teams hospedados en diferentes países o regiones para organizaciones nacionales múltiples. Dados los requisitos previos implicados, debe habilitar explícitamente Marcado por extensión en un operador automático.
 
 #### <a name="maximum-directory-size"></a>Tamaño máximo de directorio
 
@@ -98,9 +98,9 @@ No hay límite en el número de usuarios de Active Directory que marcan por nomb
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>Marcado por nombre: entrada mediante teclado (DTMF)
 
-Las personas que llaman pueden usar Marcado por nombre para contactar con los usuarios especificando el nombre completo o parcial de la persona con la que quieren hablar. Hay varios formatos que se pueden usar cuando se introduce el nombre.
+Las personas que llaman pueden usar Marcado por nombre para contactar con los usuarios especificando el nombre completo o parcial de la persona con la que quieren hablar. Hay varios formatos que se pueden usar al introducir el nombre.
 
-Para realizar búsquedas en el directorio de su organización, los usuarios pueden usar la tecla 0 (cero) para indicar un espacio entre el nombre y el apellidos, o viceversa. Cuando escriba el nombre, se les pedirá que finalicen la entrada con el teclado numérico con la tecla #. Por ejemplo, "Después de introducir el nombre de la persona que busca, pulse #". Si se encuentran varios nombres, se proporcionará una lista de nombres al autor de la llamada para que seleccione uno.
+Para realizar búsquedas en el directorio de su organización, los usuarios pueden usar la tecla 0 (cero) para indicar un espacio entre el nombre y el apellidos, o viceversa. Al introducir el nombre, se les pedirá que finalicen la entrada con el teclado numérico con la tecla #. Por ejemplo, "Después de introducir el nombre de la persona que busca, pulse #". Si se encuentran varios nombres, se proporcionará una lista de nombres al autor de la llamada para que seleccione uno.
   
 Las personas pueden realizar búsquedas por nombre en su organización empleando los siguientes formatos de búsqueda con el teclado del teléfono:
   
@@ -204,13 +204,13 @@ El operador se puede establecer en:
 
 ### <a name="business-hours-and-call-handling"></a>Horario laboral y administración de llamadas
 
-El horario laboral se puede establecer en cada operador automático. Si no se establecen los horarios laborales, todos los días y todas las horas del día se considerarán laborables, ya que se establece una programación las 24 horas. El horario laboral se puede establecer con saltos en el tiempo durante el día y todas las horas que no se establecen como horas de trabajo se tienen en cuenta fuera del horario laboral. Puede establecer diferentes opciones de administración de llamadas entrantes y saludos diferentes (opcionales) para el horario laboral y las horas adicionales.
+El horario laboral se puede establecer en cada operador automático. Si no se establecen los horarios laborales, todos los días y todas las horas del día se considerarán laborables, ya que se establece una programación las 24 horas. El horario laboral se puede establecer con saltos en el tiempo durante el día y todas las horas no establecidas como horas de trabajo se tienen en cuenta fuera del horario laboral. Puede establecer diferentes opciones de administración de llamadas entrantes y saludos diferentes (opcionales) para el horario laboral y las horas adicionales.
   
 Cada operador automático tiene varias opciones posibles de administración de llamadas:
   
 - La llamada se puede desconectar después de que se resalte un saludo.
 - También puede:
-  - Redirigir la llamada a un usuario  de Microsoft Teams que tenga una licencia de Sistema telefónico Telefonía IP empresarial habilitada o que tenga planes de llamadas asignados. Puede configurarlo para que se pueda enviar un correo de voz a la persona que llama. Para ello, seleccione una **persona de su empresa** y establezca que las llamadas de esta persona se desvíen de manera automática directamente al correo de voz.
+  - Redirigir la llamada a un usuario  de Microsoft Teams que tenga una licencia de Sistema telefónico Telefonía IP empresarial habilitada para llamadas o que tenga asignados planes de llamadas. Puede configurarlo para que se pueda enviar un correo de voz a la persona que llama. Para ello, seleccione una **persona de su empresa** y establezca que las llamadas de esta persona se desvíen de manera automática directamente al correo de voz.
 
   - Redirigir la llamada a una cola de llamadas. Para obtener más información sobre las colas de llamadas, consulte [Crear una cola de llamadas en la nube.](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
@@ -220,14 +220,14 @@ El operador automático expresa estas opciones al autor de la llamada cuando se 
 
 ### <a name="set-menu-options"></a>Establecer opciones de menú
 
-Los operadores automáticos de la nube le permiten crear avisos de menú ("Pulse 1 para Ventas, pulse 2 para Servicios") y configurar las opciones de menú para enrutar las llamadas en función de las selecciones de los usuarios. Las opciones de menú para un operador automático permiten a una organización proporcionar una serie de opciones que guían a los autores de llamadas a su destino más rápidamente, sin depender de un operador humano para controlar las llamadas entrantes. Las solicitudes de menú pueden crearse mediante texto a voz (mensajes generados por el sistema) o cargando un archivo de audio grabado. El reconocimiento de voz acepta comandos de voz para la navegación manos libres, pero las personas que llaman también pueden usar el teclado del teléfono para navegar por los menús.
+Los operadores automáticos de la nube le permiten crear avisos de menú ("Pulse 1 para Ventas, pulse 2 para Servicios") y configurar opciones de menú para enrutar las llamadas en función de las selecciones de los usuarios. Las opciones de menú para un operador automático permiten a una organización proporcionar una serie de opciones que guían a los autores de llamadas a su destino más rápidamente, sin depender de un operador humano para controlar las llamadas entrantes. Las solicitudes de menú pueden crearse mediante texto a voz (mensajes generados por el sistema) o cargando un archivo de audio grabado. El reconocimiento de voz acepta comandos de voz para la navegación manos libres, pero las personas que llaman también pueden usar el teclado del teléfono para navegar por los menús.
   
 Las teclas del 0 al 9 se pueden asignar a las teclas de marcado de un operador automático a través del Centro de administración de Skype Empresarial. Pueden crear conjuntos de opciones de menú diferentes para el horario laboral y el no laboral, y puede activar o desactivar Marcado por nombre en las **opciones del menú**. Se pueden asignar las teclas para transferir las llamadas a:
   
 - Un operador, que tiene asignada la tecla 0 de forma predeterminada. Sin embargo, se puede reasignar a cualquier otra tecla o quitarla del menú.
 - Una cola de llamadas.
-- Otro operador automático. Puede configurar menús de varios niveles apuntando **una** opción de menú de un operador automático a otro operador automático con su propio conjunto de opciones de menú, lo que se denomina un operador automático "anidado".
-- Un usuario de Microsoft Teams que tiene una licencia de **Sistema** telefónico que tiene Telefonía IP empresarial habilitado o que tiene planes de llamadas asignados. Puede configurarlo para que se pueda enviar un correo de voz a la persona que llama. Para ello, seleccione una **persona de su empresa** y establezca que las llamadas de esta persona se desvíen de manera automática directamente al correo de voz.
+- Otro operador automático. Puede configurar menús de varios niveles apuntando una opción de menú de un operador automático **a** otro operador automático con su propio conjunto de opciones de menú, lo que se denomina un operador automático "anidado".
+- Un usuario de Microsoft Teams que tenga una licencia de **Sistema** telefónico que tenga Telefonía IP empresarial habilitada para llamadas o que tenga asignados planes de llamadas. Puede configurarlo para que se pueda enviar un correo de voz a la persona que llama. Para ello, seleccione una **persona de su empresa** y establezca que las llamadas de esta persona se desvíen de manera automática directamente al correo de voz.
   
 El nombre de cada opción del menú se convierte en una palabra clave de reconocimiento de voz si se ha habilitado el reconocimiento de voz. Por ejemplo, las personas que llaman pueden decir "Uno" para seleccionar la opción de menú asignada a la tecla 1, o pueden decir "Ventas" para seleccionar la misma opción de menú denominada "Ventas".
   

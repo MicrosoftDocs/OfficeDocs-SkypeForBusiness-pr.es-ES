@@ -49,7 +49,7 @@ El hospedaje de eventos de Difusión de reunión de Skype se bloqueará si cualq
     
 - Fac/Staff de Office 365 Educación E1
     
-- Office 365 Educación E1 Student
+- Office 365 Educación E1 Para estudiantes
     
 - Fac/Staff de Office 365 Educación E3
     

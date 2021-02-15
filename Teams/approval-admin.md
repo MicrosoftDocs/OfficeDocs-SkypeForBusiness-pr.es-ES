@@ -50,11 +50,11 @@ Para usar la aplicación Aprobaciones, necesita permiso para los siguientes elem
 
 - Rol de administrador en el entorno de destino.
 
-- Licencia de [Power Automate,](https://docs.microsoft.com/power-automate/get-started-approvals)Office 365 o Dynamics 365.
+- Licencia para [Power Automate,](https://docs.microsoft.com/power-automate/get-started-approvals)Office 365 o Dynamics 365.
 
 ## <a name="storage-with-cds"></a>Almacenamiento con CDS
 
-El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las aplicaciones empresariales y analíticas en los CDS. Se compone de un conjunto de esquemas de datos estandarizados y extensibles publicados por Microsoft y nuestros socios que permite la coherencia de los datos y su significado en todas las aplicaciones y procesos empresariales. Obtenga más información sobre el [modelo de datos común de microsoft Power Platform.](https://docs.microsoft.com/power-automate/get-started-approvals)
+El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las aplicaciones empresariales y analíticas en los CDS. Se compone de un conjunto de esquemas de datos estandarizados y extensibles publicados por Microsoft y nuestros socios que permite la coherencia de los datos y su significado en todas las aplicaciones y procesos empresariales. Obtenga más información sobre el [modelo de datos común de Microsoft Power Platform.](https://docs.microsoft.com/power-automate/get-started-approvals)
 
 Obtenga más información sobre el flujo [de trabajo Aprobación.](https://docs.microsoft.com/power-automate/modern-approvals)
 
@@ -141,9 +141,9 @@ La auditoría puede personalizarse aún más en el Centro de seguridad y cumplim
 
 2. Seleccione **Búsqueda & investigación.**
 
-3. Busque en el registro de auditoría y seleccione la pestaña actividades de **Dynamics 365.**
+3. Busque en el registro de auditoría y seleccione la **pestaña actividades de Dynamics 365.**
 
-Más información sobre el registro de actividades de aplicaciones controladas por el modelo y los datos inversos de [Microsoft : Plataforma de energía.](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing)
+Más información sobre el registro de actividades de aplicaciones controladas por el modelo y los datos [inversos de Microsoft : Plataforma de energía.](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing)
 
 ## <a name="security"></a>Seguridad
 

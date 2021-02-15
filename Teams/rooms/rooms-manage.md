@@ -24,7 +24,7 @@ ms.locfileid: "49848842"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Administrar Salas de Microsoft Teams
 
-Si tiene dispositivos certificados para salas de Microsoft Teams en su organización, tiene opciones de administración flexibles.  Puede administrar los dispositivos usted mismo en la misma ubicación central donde administra todas las soluciones de Teams, el Centro de administración de Microsoft Teams o puede transferir la responsabilidad de administración a expertos dedicados con servicios administrados de Salas de [Microsoft Teams.](https://portal.rooms.microsoft.com)  También puede delegar el acceso de administración a un partner de su elección para cualquiera de las opciones.
+Si tiene dispositivos certificados para salas de Microsoft Teams en su organización, tiene opciones de administración flexibles.  Puede administrar los dispositivos usted mismo en la misma ubicación central en la que administra todas las soluciones de Teams, el Centro de administración de Microsoft Teams o puede transferir la responsabilidad de administración a expertos dedicados con servicios administrados de Salas de [Microsoft Teams.](https://portal.rooms.microsoft.com)  También puede delegar el acceso de administración a un partner de su elección para cualquiera de las opciones.
 
 Con el Centro de administración de Microsoft Teams, puede:
 
@@ -43,18 +43,18 @@ Para administrar dispositivos de Salas de Teams, abra el Centro [de administraci
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Realizar cambios en los dispositivos de Salas de Teams
 
-Si tiene más de un dispositivo de Salas de Teams, puede realizar la mayoría de las acciones en varios dispositivos al mismo tiempo. Por ejemplo, puede establecer la configuración de la aplicación Teams en todos los dispositivos al mismo tiempo.
+Si tiene más de un dispositivo de Salas de Teams, puede realizar la mayoría de las acciones en varios dispositivos al mismo tiempo. Por ejemplo, puede establecer la configuración de la aplicación Teams en todos sus dispositivos al mismo tiempo.
 
 ### <a name="device-settings"></a>Configuración del dispositivo
 
-Puede cambiar la configuración en uno o más dispositivos de su organización. Para cambiar la configuración, seleccione el dispositivo o dispositivos que desea administrar y, a continuación, **seleccione Editar configuración.** Se abrirá un nuevo panel con todas las opciones de configuración que puede cambiar en sus dispositivos. En la tabla siguiente se enumeran los ajustes que puede cambiar con el Centro de administración de Teams. Algunas configuraciones solo están disponibles cuando se selecciona un único dispositivo.
+Puede cambiar la configuración en uno o más dispositivos de su organización. Para cambiar la configuración, seleccione el dispositivo o dispositivos que desea administrar y, a continuación, **seleccione Editar configuración.** Se abrirá un nuevo panel con todas las opciones de configuración que puede cambiar en sus dispositivos. En la tabla siguiente se enumeran los ajustes que puede cambiar con el Centro de administración de Teams. Algunas opciones de configuración solo están disponibles cuando se selecciona un único dispositivo.
 
 Si selecciona más de un dispositivo, las opciones que admiten la edición en masa muestran las dos opciones siguientes.
 
 - **Mantener el valor existente** Si elige esta opción, no se realizará ningún cambio en la configuración de los dispositivos que ha seleccionado.
-- **Reemplazar valor existente con** Si elige esta opción, puede actualizar la configuración en los dispositivos que ha seleccionado con el valor que proporciona.
+- **Reemplazar valor existente con** Si elige esta opción, puede actualizar la configuración en los dispositivos que ha seleccionado con el valor que proporcione.
     > [!CAUTION]
-    > Los valores existentes en la configuración que elija actualizar se reemplazarán por el valor que proporcione. Si desea agregar a una lista de valores existentes, debe incluir los valores existentes con el valor que desea agregar. Por ejemplo, si una configuración tiene una lista de dominios existente y desea agregarla, el valor `contoso.com, fabrikam.com` `northwindtraders.com` que debe proporcionar `contoso.com, fabrikam.com, northwindtraders.com` sería.
+    > Los valores existentes en la configuración que elija actualizar se reemplazarán por el valor que proporcione. Si desea agregar a una lista de valores existentes, debe incluir los valores existentes con el valor que desea agregar. Por ejemplo, si una configuración tiene una lista de dominios existente de y desea agregarla, el valor que `contoso.com, fabrikam.com` `northwindtraders.com` debe proporcionar `contoso.com, fabrikam.com, northwindtraders.com` sería.
     >
     > Si selecciona varios dispositivos, la configuración en todos los dispositivos que seleccione cambiará al valor que proporcione. Si los dispositivos tienen valores diferentes para una configuración, todos se actualizarán al mismo valor.
 
@@ -96,7 +96,7 @@ Los cambios en la configuración del dispositivo solo tendrán efecto después d
 - **Reinicio inmediato** Si eliges esta opción, todos los dispositivos en los que estás haciendo cambios se reiniciarán en cuanto selecciones esta opción.
 - **Reinicio programado** Si elige esta opción, puede reiniciar los dispositivos en los que está realizando cambios a la vez que sea menos molesto para su organización.
   - **Seleccione la fecha y la hora:** elija la fecha y la hora específicas para reiniciar el dispositivo. La fecha y hora que elijas será local en el dispositivo que se reiniciará. 
-  - **Salir de la actualización para el reinicio nocturno** Los dispositivos se reinician todos los noches para realizar tareas de mantenimiento. Los cambios que realices en los dispositivos se aplicarán durante este reinicio.
+  - **Salir de la actualización para reiniciar de forma nocturna** Los dispositivos se reinician todos los noches para realizar tareas de mantenimiento. Los cambios que realices en los dispositivos se aplicarán durante este reinicio.
 
 > [!CAUTION]
 > Los dispositivos en uso en el momento de reiniciar no estarán disponibles durante el proceso de reinicio. Se desconectarán de las reuniones en curso y no estarán disponibles para unirse a nuevas reuniones.
@@ -107,7 +107,7 @@ Al quitar **un dispositivo,** este se quita de la organización y ya no aparece 
 
 Al bloquear **un** dispositivo, Teams ya no se comunica con el dispositivo. Los dispositivos bloqueados no se enviarán comandos aunque estén incluidos en un grupo de dispositivos que se están editando en masa. Todavía aparece en la lista de dispositivos de Salas de Teams con el estado **Bloqueado.**
 
-Independientemente de si un dispositivo está bloqueado o quitado, si aún está configurado con un nombre de usuario y una contraseña válidos, se volverá a agregar automáticamente a la lista de dispositivos de Salas de Teams si se conecta a Microsoft 365.
+Independientemente de si un dispositivo está bloqueado o quitado, si aún está configurado con un nombre de usuario y contraseña válidos, se volverá a agregar automáticamente a la lista de dispositivos de Salas de Teams si se conecta a Microsoft 365.
 
 Para quitar uno o más dispositivos, haga lo siguiente:
 
@@ -132,7 +132,7 @@ Puede descargar una copia de los archivos de registro de diagnóstico de un disp
 
 Para descargar registros desde un dispositivo de Salas de Teams a su equipo, haga lo siguiente:
 
-1. Vaya a **Salas** de Teams para dispositivos y seleccione el nombre del dispositivo del  >   que quiere descargar registros.
+1. Vaya a **Salas** de Teams para dispositivos y seleccione el nombre del dispositivo del  >   que desea descargar registros.
 1. Seleccione **Descargar registros de dispositivos.** Los registros del dispositivo pueden tardar varios minutos en estar disponibles.
 1. Seleccione la pestaña **Historial** y, a continuación, seleccione el vínculo del archivo de registro en **archivo de diagnóstico.** Se descargará un archivo zip que contiene los archivos de registro de diagnóstico del dispositivo en la carpeta de descargas predeterminada del explorador.
 
@@ -146,7 +146,7 @@ El panel del sistema Salas de Teams le muestra de un vistazo el estado y el esta
 
 ### <a name="device-details-view"></a>Vista de detalles del dispositivo
 
-Para ver información detallada sobre un dispositivo, seleccione su nombre de la lista de dispositivos. Cuando esté en la vista de detalles, puede ver la siguiente información sobre el dispositivo:
+Para ver información detallada sobre un dispositivo, seleccione su nombre en la lista de dispositivos. Cuando esté en la vista de detalles, puede ver la siguiente información sobre el dispositivo:
 
 - **Estado de estado** Muestra el estado general del dispositivo de Teams Room. El estado de mantenimiento puede **ser Correcto** o **Incorrecto.**
 - **Sin conexión desde** Muestra la última vez que Microsoft 365 pudo comunicarse con el dispositivo.
@@ -154,8 +154,8 @@ Para ver información detallada sobre un dispositivo, seleccione su nombre de la
 - **Periféricos** Muestra los periféricos conectados al dispositivo de la sala de Teams y su estado. El estado de mantenimiento puede **ser Conectado** **o Desconectado.**
 - **Estado** Muestra información detallada sobre los periféricos conectados al dispositivo de la sala de Teams, la conectividad de red, el estado de inicio de sesión de los servicios necesarios e información sobre la versión del software.
 - **Detalles** Muestra la información del fabricante, la dirección IP de la red y la dirección de serie o MAC del dispositivo teams room.
-- **Actividad** Muestra los detalles de reuniones pasadas, incluida la fecha y la hora de la reunión, el número de participantes, la duración y la calidad del audio. Para obtener más información sobre los detalles de la reunión, vea la sección Detalles de la [actividad de la](#meeting-activity-details) reunión más adelante en este artículo.
-- **Historial** Muestra un historial de la actividad de administración en el dispositivo de la sala de Teams, incluidas las actualizaciones de configuración, los reinicios de dispositivos y los vínculos de descarga de registros de dispositivos.
+- **Actividad** Muestra los detalles de reuniones pasadas, incluida la fecha y la hora de la reunión, el número de participantes, la duración y la calidad del audio. Para obtener más información sobre los detalles de la reunión, vea la sección Detalles de [la actividad de la](#meeting-activity-details) reunión más adelante en este artículo.
+- **Historial** Muestra un historial de la actividad de administración en el dispositivo de La sala de Teams, incluidas las actualizaciones de configuración, los reinicios del dispositivo y los vínculos de descarga de registros de dispositivos.
 
 #### <a name="meeting-activity-details"></a>Detalles de la actividad de la reunión
 
@@ -167,7 +167,7 @@ Para ver la información detallada sobre una reunión específica, seleccione la
 
 ##### <a name="participant-summary"></a>Resumen del participante
 
-La página de resumen del participante muestra todos los participantes que han participado en la reunión. Puede ver cuándo se unió cada participante a la reunión, su nombre, calidad de audio y qué características se usaron durante su sesión. Para ver los detalles de la sesión de un participante, seleccione la hora de inicio de la sesión para ese participante.
+La página de resumen del participante muestra todos los participantes que participaron en la reunión. Puede ver cuándo se unió cada participante a la reunión, su nombre, calidad de audio y qué características se usaron durante su sesión. Para ver los detalles de la sesión de un participante, seleccione la hora de inicio de la sesión para ese participante.
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Detalles de conferencias del dispositivo de la sala de Teams":::
 

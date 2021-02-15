@@ -31,9 +31,9 @@ ms.locfileid: "49848852"
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
-Los créditos de comunicaciones son una forma práctica de pagar los minutos de audioconferencia y plan de llamadas. Esto ayuda a garantizar que usted y sus usuarios nunca se encuentran en parar de lo siguiente:
+Los créditos de comunicaciones son una forma práctica de pagar los minutos de audioconferencia y plan de llamadas. Así se garantiza que usted y sus usuarios nunca se queen sin poder:
   
-- Agregue números gratuitos para usarlos con reuniones de Audioconferencia, operadores automáticos o colas de llamadas. Las llamadas gratuitas se facturan por minuto y requieren un saldo positivo de créditos de comunicaciones.
+- Agregue números gratuitos para usarlos con las reuniones de Audioconferencia, los operadores automáticos o las colas de llamadas. Las llamadas gratuitas se facturan por minuto y requieren un saldo positivo de créditos de comunicaciones.
     
 - Llamar desde una reunión de audioconferencia para agregar a otra persona de cualquier parte del mundo.
     
@@ -57,7 +57,7 @@ Si quiere saber cuál es el coste de las [](https://go.microsoft.com/fwlink/p/?L
   
 ## <a name="what-is-it"></a>¿Qué es?
 
-Para usar números gratuitos, los créditos de comunicaciones son necesarios, ya que estas llamadas se facturan por minuto. Además, le recomendamos que configure los créditos de comunicaciones para los usuarios de su plan de llamadas y audioconferencias que necesiten poder llamar a **cualquier destino de RTC.** Se incluyen muchos países o regiones, pero es posible que algunos destinos no se incluyan en los planes de llamada o audioconferencia. Si no configura créditos de comunicaciones o asigna una licencia a los usuarios y se le están a punto los minutos para su organización (según el plan de llamadas, el plan de Audioconferencia o su país o región), los usuarios no podrán realizar llamadas ni llamar desde reuniones de Audioconferencia en línea.
+Para usar números gratuitos, los créditos de comunicaciones son necesarios, ya que estas llamadas se facturan por minuto. Además, le recomendamos que configure los créditos de comunicaciones para los usuarios de su plan de llamadas y audioconferencias que necesiten poder llamar a **cualquier destino de RTC.** Se incluyen muchos países o regiones, pero es posible que algunos destinos no se incluyan en los planes de plan de llamadas o audioconferencias. Si no configura créditos de comunicaciones o asigna una licencia a los usuarios y se le están a punto los minutos para su organización (según el plan de llamadas, el plan de Audioconferencia o su país o región), los usuarios no podrán realizar llamadas ni llamar desde reuniones de Audioconferencia en línea.
   
 > [!NOTE]
 > Debes configurar Créditos de comunicaciones y, a continuación, asignar una licencia de Créditos de comunicaciones a cada usuario en el Centro de administración de **Microsoft 365** Usuarios  >    >  **activos.** Las licencias de créditos de comunicaciones aparecerán en cantidad ilimitada, ya que se usan para conceder acceso al saldo de créditos de comunicaciones para cualquier usuario al que asignes la licencia de Créditos de comunicaciones.
@@ -72,7 +72,7 @@ Puede configurar la facturación  del consumo con un pago  único del saldo de p
 En los complementos de servicios de compra de facturación del Centro de administración de **Microsoft 365,** puedes seleccionar Créditos de comunicación para agregar los créditos y puedes agregar crédito manualmente en  >    >    >   cualquier momento. Además, puede habilitar la opción de **recarga automática** para rellenar la cuenta de forma automática cuando el saldo sea inferior al límite fijado. Si decides pagar el saldo de los créditos de comunicaciones con una cantidad única y el saldo se queda sin saldo, los escenarios de llamadas adicionales anteriores ya no funcionarán, incluidos los números de teléfono gratuitos. Por lo tanto, se recomienda  usar la opción de recarga automática para evitar la interrupción del servicio en caso de que el saldo del crédito de comunicaciones llegue a cero. Puedes ver el saldo actual de créditos de comunicación yendo a **Facturación** de  >  **créditos de**  >  **comunicaciones de productos.**
 
 > [!NOTE]
->Se le enviarán correos electrónicos a **todos los usuarios con** el Administrador de servicios de Lync, Administrador de la compañía, administrador de facturación, administrador de la compañía, administrador de cuentas de usuario, administrador del departamento de soporte técnico, administrador de soporte técnico, administrador de facturación, administrador de servicios de Lync, administrador de aplicaciones, administrador de licencias, administrador de dispositivos en la nube, administrador de autenticación, administrador de la autenticación privilegiada, administrador de comunicaciones de Teams, ingeniero de soporte de comunicaciones de Teams, especialista de soporte técnico de comunicaciones de Teams, roles de administrador de servicios de Teams, cuando se completa correctamente la transacción de recarga, falla la transacción de recarga (por ejemplo, una tarjeta de crédito expirada) y el saldo de créditos de comunicaciones llega a cero.
+>Se le enviarán correos electrónicos a **todos los usuarios con** el Administrador de servicios de Lync, Administrador de la compañía, administrador de facturación, administrador de la compañía, administrador de cuentas de usuario, administrador del departamento de soporte técnico, administrador de soporte técnico, administrador de facturación, administrador de servicios de Lync, administrador de aplicaciones, administrador de licencias, administrador de dispositivos en la nube, administrador de autenticación, administrador de la autenticación privilegiada, administrador de comunicaciones de Teams, ingeniero de soporte técnico de comunicaciones de Teams, especialista de soporte técnico de comunicaciones de Teams, roles de administrador de servicios de Teams, cuando se completa correctamente la transacción de recarga, falla la transacción de recarga (por ejemplo, una tarjeta de crédito expirada) y el saldo de créditos de comunicaciones llega al 0 (cero).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
@@ -96,21 +96,21 @@ Las notificaciones importantes relacionadas con el saldo de créditos de comunic
 - Administrador de autenticación privilegiada
 - Administrador de comunicaciones de Teams
 - Ingeniero de soporte en comunicaciones de Teams
-- Especialista de soporte técnico de comunicaciones de Teams
+- Especialista de soporte de comunicaciones de Teams
 - Administrador de servicios de Teams
 
 > [!NOTE]
-> Los créditos de comunicaciones también se usan para números con tarifas premium. El autor de la llamada paga los cargos.
+> Los créditos de comunicaciones también se usan para números con tarifas premium. La persona que llama pagará los cargos.
   
 ## <a name="recommended-funding-amounts"></a>Aportaciones recomendadas
 
-Le recomendamos que empiece con una pequeña cantidad de financiación, que para las organizaciones más pequeñas podría ser incluso el mínimo de 50 $. Después de recopilar uno o dos meses de uso de RTC mediante el informe de detalles de uso de RTC, podrá ajustar las cantidades para cumplir con el uso normal de su organización.
+Le recomendamos que empiece usando una pequeña cantidad de financiación, que para las organizaciones más pequeñas podría ser incluso el mínimo de 50 $. Después de recopilar uno o dos meses de uso de RTC mediante el informe de detalles de uso de RTC, podrá ajustar las cantidades para cumplir con el uso normal de su organización.
   
 Si estás listo para configurar todo esto, consulta Configurar créditos de [comunicaciones para tu organización.](set-up-communications-credits-for-your-organization.md)
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>¿Desea obtener información acerca de los planes y los precios?
 
-Puedes ver los planes y precios visitando uno de los siguientes vínculos:
+Puede ver los planes y precios visitando uno de los siguientes vínculos:
   
 - [Planes de llamadas](https://go.microsoft.com/fwlink/?linkid=799761)
     
@@ -118,7 +118,7 @@ Puedes ver los planes y precios visitando uno de los siguientes vínculos:
     
 - [Sistema telefónico](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-También puedes ver información sobre los precios iniciando sesión en el Centro de administración de [Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a Los **Servicios de compra** de  >  **facturación.**
+También puedes ver información sobre los precios iniciando sesión en el Centro de administración de [Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a los **Servicios de compra** de  >  **facturación.**
   
 Para ver una tabla con las licencias que necesitará para cada característica, consulte licencias [de complementos de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   

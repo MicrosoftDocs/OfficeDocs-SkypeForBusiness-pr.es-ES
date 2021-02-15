@@ -47,7 +47,7 @@ Las colas de llamadas proporcionan:
 
 Obtener algunas [licencias de Sistema telefónico: Usuario](../teams-add-on-licensing/virtual-user.md) virtual si aún no las tiene. Obtenga una para cada cola de llamadas y operador automático que planee configurar. Estas licencias son gratuitas, por lo que le recomendamos que le ofrecemos unas cuantas adicionales en caso de que decida realizar cambios en su configuración en el futuro.
 
-Como los agentes de una cola de llamadas pueden llamar para devolver una llamada del cliente, considere la posibilidad de establecer el identificador de llamada de los agentes de llamadas en el número de teléfono principal o el número de un operador automático adecuado. Vea [Administrar directivas de identificador de llamada en Microsoft Teams](../caller-id-policies.md) para obtener más información.
+Como los agentes de una cola de llamadas pueden llamar para devolver una llamada del cliente, considere la posibilidad de establecer el identificador de llamada de los agentes de llamadas en el número de teléfono principal o en el número de un operador automático adecuado. Vea [Administrar directivas de identificador de llamada en Microsoft Teams](../caller-id-policies.md) para obtener más información.
 
 <a name="steps"></a>
 
@@ -80,7 +80,7 @@ Para crear un equipo
 
 # <a name="step-2brresource-accounts"></a>[Paso <br> 2: Cuentas de recursos](#tab/resource-account)
 
-Cada cola de llamadas que cree necesita una cuenta de recursos. Esto es similar a una cuenta de usuario, excepto que la cuenta está asociada a un operador automático o a una cola de llamadas en lugar de a una persona. En este paso, crearemos la cuenta, le asignaremos una licencia de Sistema telefónico de *Microsoft 365:* usuario virtual y, a continuación, la usaremos para empezar a crear la cola de llamadas.
+Cada cola de llamadas que cree necesita una cuenta de recurso. Esto es similar a una cuenta de usuario, excepto que la cuenta está asociada a un operador automático o a una cola de llamadas en lugar de a una persona. En este paso, crearemos la cuenta, le asignaremos una licencia de Sistema telefónico de *Microsoft 365:* usuario virtual y, a continuación, la usaremos para empezar a crear la cola de llamadas.
 
 ### <a name="create-a-resource-account"></a>Crear una cuenta de recurso
 
@@ -143,7 +143,7 @@ Para agregar agentes a la cola de llamadas, agregaremos el equipo que hemos crea
 
 1. Haga clic **en Agregar grupos.**
 2. Escriba el nombre del equipo que creó.
-3. Haga **clic en** Agregar y, a continuación, en **Agregar.**
+3. Haga **clic en Agregar** y, a continuación, en **Agregar.**
 
     ![Captura de pantalla de la configuración de usuarios y grupos para colas de llamadas](../media/call-queue-users-groups-smb.png)
 
@@ -153,7 +153,7 @@ Puede agregar hasta 20 agentes de forma individual y hasta 200 agentes a través
 > Cuando se agregan nuevos usuarios al equipo, la primera llamada puede tardar hasta ocho horas en llegar.
 
 > [!div class="nextstepaction"]
-> [Paso 4: Gestión de cuentas >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-routing#steps)
+> [Paso 4: Las cuentas de recursos >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-routing#steps)
 
 # <a name="step-4brcall-routing"></a>[Paso 4: <br> Enrutamiento de llamadas](#tab/call-routing)
 
@@ -165,7 +165,7 @@ Elija el método de enrutamiento de llamadas que quiera usar.
 
     - **El enrutamiento del operador** suena a todos los agentes de la cola al mismo tiempo. El primer agente de llamada que recibe la llamada recibe la llamada.
 
-    - **El enrutamiento en serie** suena a todos los agentes de llamadas uno por uno. Si un agente descarta o no acepta una llamada, la llamada llamará al siguiente agente y probará con todos los agentes hasta que se le atende o se atenten.
+    - **El enrutamiento en** serie suena a todos los agentes de llamadas uno por uno. Si un agente descarta o no acepta una llamada, la llamada llamará al siguiente agente y probará con todos los agentes hasta que se le llame o se le atende el tiempo de espera.
 
     - **Redondear robin** equilibra el enrutamiento de las llamadas entrantes para que cada agente de llamadas reciba el mismo número de llamadas de la cola. Esto puede ser deseable en un entorno de ventas entrantes para garantizar la misma oportunidad entre todos los agentes de llamadas.
 
@@ -201,7 +201,7 @@ Elija cómo quiere administrar las llamadas que superan el máximo de la cola.
 > [!div class="nextstepaction"]
 > [Paso 6: tiempo de espera de llamada >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
 
-# <a name="step-6brcall-timeout"></a>[Paso 6: tiempo de <br> espera de la llamada](#tab/call-timeout)
+# <a name="step-6brcall-timeout"></a>[Tiempo de espera de la llamada del paso 6 <br>](#tab/call-timeout)
 
 Elija lo que quiere que suceda cuando las llamadas hayan estado en la cola demasiado tiempo.
 
@@ -209,7 +209,7 @@ Elija lo que quiere que suceda cuando las llamadas hayan estado en la cola demas
 
 2. Elija lo que desea hacer cuando se resalte el tiempo de espera de una llamada. Puede desconectar la llamada o redirigirla. Le recomendamos redirigir la llamada a uno de los siguientes destinos:
     - **Persona de la organización:** una persona de la organización que puede recibir llamadas de voz
-    - **Aplicación de voz:** un operador automático u otra cola de llamadas. (Elija la cuenta de recurso asociada al operador automático o la cola de llamadas al elegir este destino).
+    - **Aplicación de voz:** un operador automático u otra cola de llamadas. (Elija la cuenta de recursos asociada con el operador automático o la cola de llamadas al elegir este destino).
     - **Número de teléfono externo:** cualquier número de teléfono. Use este formato: +[código de país][código de área][número de teléfono]
     - **Correo** de voz: puede usar el buzón de voz del equipo que creó.
 

@@ -77,7 +77,7 @@ En el ejemplo siguiente:
 - Adatum es un operador que sirve a varios clientes al proporcionar servicios de telefonía e Internet.
 - Woodgrove Bank, Contoso y Adventure Works son tres clientes que tienen dominios de Microsoft 365 u Office 365 pero reciben los servicios de telefonía de Adatum.
 
-Los **subdominios** DEBEN coincidir con el nombre FQDN del tronco que se configurará para el cliente y el FQDN en el encabezado del contacto al enviar la invitación a Microsoft 365 u Office 365. 
+Los **subdominios** DEBEN coincidir con el nombre FQDN del tronco que se configurará para el cliente y el FQDN en el encabezado de contacto al enviar la invitación a Microsoft 365 u Office 365. 
 
 Cuando llega una llamada a la interfaz de enrutamiento directo de Microsoft 365 u Office 365, la interfaz usa el encabezado de contacto para buscar el inquilino donde debe buscarse el usuario. El enrutamiento directo no usa la búsqueda de números de teléfono en la invitación, ya que es posible que algunos clientes tengan números no DID que se puedan superponer en varios inquilinos. Por lo tanto, el nombre FQDN del encabezado de contacto es necesario para identificar el inquilino exacto que debe buscar el usuario por el número de teléfono.
 
@@ -101,7 +101,7 @@ La tabla siguiente es un ejemplo de una configuración.
 |sbc3.customers.adatum.biz |   Subdominio | En un inquilino de cliente |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
 ||         |         |         |         |         |
 
-Para configurar la base y los subdominios, siga los pasos descritos a continuación. En el ejemplo, configuraremos un nombre de dominio base (customers.adatum.biz) y un subdominio para un cliente (sbc1.customers.adatum.biz en el inquilino de Woodgrove Bank).
+Para configurar la base y los subdominios, siga los pasos que se describen a continuación. En el ejemplo, configuraremos un nombre de dominio base (customers.adatum.biz) y un subdominio para un cliente (sbc1.customers.adatum.biz en el inquilino de Woodgrove Bank).
 
 > [!NOTE]
 > Use sbcX.customers.adatum.biz para habilitar la voz en el inquilino del operador. sbcX puede ser cualquier nombre de host alfanumérico único y válido.
@@ -126,7 +126,7 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
     ![Captura de pantalla que muestra la página Agregar un dominio](media/direct-routing-2-sbc-add-domain.png)
 
 3. Haga clic en **Siguiente**.
-4. En el ejemplo, el inquilino ya tiene un adatum.biz de dominio comprobado. El asistente no le pedirá comprobación adicional porque customers.adatum.biz es un subdominio del nombre ya registrado. Sin embargo, si agrega un FQDN que no se ha comprobado antes, tendrá que pasar por el proceso de comprobación. El proceso de comprobación se [describe a continuación.](#add-a-subdomain-to-the-customer-tenant-and-verify-it)
+4. En el ejemplo, el inquilino ya tiene un adatum.biz de dominio comprobado. El asistente no le pedirá comprobación adicional porque customers.adatum.biz un subdominio del nombre ya registrado. Sin embargo, si agrega un FQDN que no se ha comprobado antes, tendrá que pasar por el proceso de comprobación. El proceso de comprobación se [describe a continuación.](#add-a-subdomain-to-the-customer-tenant-and-verify-it)
 
     ![Captura de pantalla que muestra la confirmación de un nombre de dominio comprobado](media/direct-routing-3-sbc-verify-domain.png)
 
@@ -207,7 +207,7 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
 Después de registrar un nombre de dominio, debe activarlo agregando al menos un usuario y asignando una dirección SIP con la parte del FQDN de la dirección SIP que coincida con el subdominio creado en el inquilino del cliente. La licencia puede revocarse del usuario después de la activación del subdominio (pueden tardar hasta 24 horas).
 
-*Consulte Obtener ayuda con los dominios de [Microsoft 365 u Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo agregar usuarios de organizaciones de Microsoft 365 u Office 365.*
+*Consulte Obtener ayuda con dominios de [Microsoft 365 u Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo agregar usuarios de organizaciones de Microsoft 365 u Office 365.*
 
 Por ejemplo: test@sbc1.customers.adatum.biz
 
@@ -219,7 +219,7 @@ Con la versión inicial de enrutamiento directo, Microsoft requería que se agre
 
 Sin embargo, esto no ha resultado óptimo por dos razones:
  
-- **Administración de gastos generales.** Descargar o descargar un SBC, por ejemplo, cambia algunos parámetros, como habilitar o deshabilitar la omisión de medios. Para cambiar el puerto es necesario cambiar los parámetros de varios inquilinos (mediante la ejecución de Set-CSOnlinePSTNGateway), pero es, de hecho, el mismo SBC. 
+- **Administración de gastos generales.** Descargar o descargar un SBC, por ejemplo, cambia algunos parámetros, como habilitar o deshabilitar la omisión de medios. Para cambiar el puerto es necesario cambiar los parámetros de varios inquilinos (ejecutando Set-CSOnlinePSTNGateway), pero en realidad es el mismo SBC. 
 
 -  **Procesamiento de sobrecarga.** Recopilación y supervisión de datos de mantenimiento de troncos: las opciones SIP recopiladas de varios troncos lógicos que son, en realidad, el mismo SBC y el mismo tronco físico, ralentizan el procesamiento de los datos de enrutamiento.
  
@@ -233,14 +233,14 @@ Se introdujeron dos nuevas entidades:
 **Ejemplo y lógica de aprovisionamiento**
 
 -    Los operadores solo necesitan configurar y administrar un solo tronco (tronco transportista en el dominio del transportista), mediante el comando Set-CSOnlinePSTNGateway empresa. En el ejemplo anterior se muestra adatum.biz;
--    En el espacio empresarial del cliente, el operador solo necesita agregar el FQDN de tronco derivado a las directivas de enrutamiento de voz de los usuarios. No es necesario ejecutar ninguna New-CSOnlinePSTNGateway para un tronco.
--    El tronco derivado, tal como su nombre sugiere, hereda o deriva todos los parámetros de configuración del tronco transportista. Ejemplos:
+-    En el inquilino del cliente, el operador solo necesita agregar el FQDN de tronco derivado a las directivas de enrutamiento de voz de los usuarios. No es necesario ejecutar ninguna New-CSOnlinePSTNGateway para un tronco.
+-    El tronco derivado, como su nombre sugiere, hereda o deriva todos los parámetros de configuración del tronco transportista. Ejemplos:
 -    Customers.adatum.biz: el tronco transportista que debe crearse en el inquilino del transportista.
 -    Sbc1.customers.adatum.biz: el tronco derivado en un inquilino de cliente que no es necesario crear en PowerShell.  Simplemente puede agregar el nombre del tronco derivado en el inquilino del cliente en la directiva de enrutamiento de voz en línea sin crearlo.
 -   El operador tendrá que configurar el registro DNS para resolver el FQDN de tronco derivado a la dirección ip SBC del operador.
 
--    Los cambios realizados en un tronco del transportista (en el inquilino del operador) se aplican automáticamente a los troncos derivados. Por ejemplo, los operadores pueden cambiar un puerto SIP en el tronco transportista y este cambio se aplica a todos los troncos derivados. La nueva lógica para configurar los troncos simplifica la administración ya que no es necesario ir a cada inquilino y cambiar el parámetro en cada tronco.
--    Las opciones se envían solo al FQDN del tronco del operador. El estado de mantenimiento del tronco transportista se aplica a todos los troncos derivados y se usa para decisiones de enrutamiento. Más información sobre las [opciones de enrutamiento directo.](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)
+-    Los cambios realizados en un tronco del transportista (en el inquilino del operador) se aplican automáticamente a los troncos derivados. Por ejemplo, los operadores pueden cambiar un puerto SIP en el tronco carrier y este cambio se aplica a todos los troncos derivados. La nueva lógica para configurar los troncos simplifica la administración ya que no necesita ir a cada inquilino y cambiar el parámetro en cada tronco.
+-    Las opciones se envían solo al FQDN del tronco del transportista. El estado de mantenimiento del tronco transportista se aplica a todos los troncos derivados y se usa para decisiones de enrutamiento. Más información sobre las [opciones de enrutamiento directo.](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)
 -    El transportista puede descargar el tronco transportista y todos los troncos derivados también se descargarán. 
  
 
@@ -251,7 +251,7 @@ Para la migración desde la implementación actual del modelo hospedado por el o
 Recomendamos encarecidamente migrar a la nueva solución lo antes posible, ya que mejoraremos la supervisión y el aprovisionamiento con el modelo de transportista y tronco derivado.
  
 
-Consulte las instrucciones del [proveedor de SBC](#deploy-and-configure-the-sbc) sobre cómo configurar el envío del nombre fqdn de los subdominios en el encabezado de contacto.
+Consulte las instrucciones del [proveedor de SBC](#deploy-and-configure-the-sbc) sobre cómo configurar el envío del nombre del FQDN de los subdominios en el encabezado de contacto.
 
 ## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Consideraciones para configurar la conmutación por error del inquilino muti 
 
@@ -262,7 +262,7 @@ Para configurar la conmutación por error para un entorno multiempresa, tendrá 
    customer1.sbc1.contoso.com <br>
    customer1.sbc2.contoso.com <br>
 
-- En las directivas de enrutamiento de voz en línea de los usuarios, especifique ambas OSN.  Si se produce un error en un SBC, la directiva de enrutamiento enruta las llamadas al segundo SBC.
+- En las directivas de enrutamiento de voz en línea de los usuarios, especifique ambas BDC.  Si se produce un error en un SBC, la directiva de enrutamiento enruta las llamadas al segundo SBC.
 
 
 ## <a name="see-also"></a>Consulte también

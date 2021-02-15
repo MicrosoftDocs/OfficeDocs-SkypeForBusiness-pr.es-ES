@@ -55,7 +55,7 @@ Para determinar si se trataba de un problema de red, mire el delta entre los val
 Este es un ejemplo de cómo solucionar esta situación. Supongamos que hace un seguimiento de red durante una llamada y los primeros 20 minutos no se pierden paquetes, pero después hay un intervalo de 1,5 segundos de paquetes y, a continuación, es bueno para el resto de la llamada. El promedio será del <del 10 % (0,1) de pérdida de paquetes incluso en un análisis RTP de seguimiento de Wireshark. ¿Cuál fue la pérdida máxima de paquetes? 1,5 segundos en un período de 5 segundos serían 30% (0,3). ¿Esto ocurrió dentro del período de muestreo de cinco segundos (quizás, podría dividirse en el período de muestreo)?
  
 Si las métricas de red tienen un buen aspecto en los valores promedios y máximos, busque otros datos de telemetría: 
-- Compruebe la relación de eventos insuficiente de la CPU para ver si los recursos de CPU detectados eran insuficientes y estaban provocando mala calidad. 
+- Compruebe la relación de eventos insuficiente de la CPU para ver si los recursos de CPU detectados eran insuficientes y estaban generado mala calidad. 
 - ¿El dispositivo de audio estaba en el modo Dúplex medio para evitar comentarios debido a micrófonos que se acercan a los altavoces? 
 - Compruebe la relación de evento AEC a doble cara del dispositivo. ¿El dispositivo tenía problemas o el micrófono causaba ruido o problemas estáticos debido a fallos de audio USB al conectarse a un hub o a una base de acoplamiento?  
 - Compruebe las relaciones de eventos de problemas de dispositivo y micrófono. ¿Estaba funcionando correctamente el dispositivo?  
@@ -64,14 +64,14 @@ Si las métricas de red tienen un buen aspecto en los valores promedios y máxim
 
 Para obtener más información sobre las dimensiones y medidas disponibles en telemetría del CQD, lea dimensiones y medidas disponibles en el panel de calidad [de llamadas.](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-Para el ruido de fondo, compruebe la relación de silenciar el evento para ver la cantidad de tiempo que los participantes han estado silenciados.
+Para el ruido de fondo, active la relación de silenciar el evento para ver la cantidad de tiempo que los participantes han estado silenciados.
  
 Cree informes detallados en el CQD y filtre en Id. de reunión para ver todos los usuarios y las transmisiones de una reunión y agregar los campos que le interesen. Puede que un usuario que informe del problema no sea el que estaba teniendo el problema. Solo están informando de la experiencia.
  
 La telemetría no mostrará necesariamente el problema, pero puede ayudarle a comprender mejor dónde buscar e informar sobre sus decisiones. ¿Es de red, dispositivo, controlador o actualizaciones de firmware, uso o usuario?
 
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>¿Por qué veo una diferencia de hasta un 0,2 % en el número de llamadas y usuarios de las medidas y cómo obtener volúmenes más precisos? 
-Para calcular el recuento de llamadas y las medidas del recuento de usuarios, se realiza una operación countif distinta a los identificadores de llamada o de usuario del conjunto de datos. En conjuntos de datos de gran tamaño, hay un error de hasta un 0,2 % inherente con la operación Countif distinta. Para obtener el volumen más preciso, debe basarse en las medidas de recuento de transmisiones, ya que no se basan en esta distinta operación countif. Filtrar para reducir el volumen de datos puede reducir el error, pero es posible que no elimine este origen de errores en distintos recuentos de llamadas y usuarios. Consulte dimensiones [y medidas disponibles en el panel de](dimensions-and-measures-available-in-call-quality-dashboard.md) calidad de llamadas para saber qué medidas se verán afectadas.
+Para calcular el recuento de llamadas y las medidas del recuento de usuarios, se realiza una operación countif distinta a los identificadores de llamada o de usuario del conjunto de datos. En conjuntos de datos de gran tamaño, hay un error de hasta un 0,2 % inherente con la operación Countif distinta. Para obtener el volumen más preciso, debe basarse en las medidas de recuento de transmisiones, ya que no dependen de esta distinta operación countif. Filtrar para reducir el volumen de datos puede reducir el error, pero es posible que no elimine este origen de errores en distintos recuentos de llamadas y usuarios. Consulte dimensiones [y medidas disponibles en el panel de](dimensions-and-measures-available-in-call-quality-dashboard.md) calidad de llamadas para saber qué medidas se verán afectadas.
 
 
 ### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>¿Por qué los datos del CQD de Skype Empresarial son distintos de los datos del CQD de Teams? 
@@ -81,7 +81,7 @@ Para calcular el recuento de llamadas y las medidas del recuento de usuarios, se
 > Desde el 1 de julio de 2020, el antiguo CQD (CQD.lync.com) usa los datos del último CQD (CQD). Teams.microsoft.com). Los datos antiguos del CQD ya no están disponibles y no puede exportar los datos de creación o informe. Aún puede usar CQD.lync.com (disponible en el Centro de administración de Skype Empresarial), pero desactivaremos el acceso a CQD.lync.com próximamente, por lo que debe moverse al CQD. Teams.microsoft.com si aún no lo ha hecho.
 
 
-Si intenta comparar datos entre el CQD antiguo del portal heredado de Skype Empresarial (cqd.lync.com) y el último CQD del Centro de administración de Teams (cqd.teams.microsoft.com), verá que los datos no coinciden. Esto se debe a que los informes del CQD más recientes sobre muchos escenarios de llamadas adicionales. Si todavía usa informes del CQD anterior, consulte este artículo para interpretar dichos informes: Panel de calidad de llamadas [para Skype Empresarial Server.](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)
+Si intenta comparar datos entre el CQD antiguo del portal heredado de Skype Empresarial (cqd.lync.com) y el último CQD del Centro de administración de Teams (cqd.teams.microsoft.com), verá que los datos no coinciden. Esto se debe a que el último CQD informa sobre muchos escenarios de llamadas adicionales. Si todavía usa informes del CQD anterior, consulte este artículo para interpretar dichos informes: Panel de calidad de llamadas [para Skype Empresarial Server.](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)
 
 
   
@@ -89,13 +89,13 @@ Si intenta comparar datos entre el CQD antiguo del portal heredado de Skype Empr
 
 Estos roles de administrador pueden acceder al CQD, pero no pueden ver EUII (información de identificación del usuario final):
 - Lector de informes de Microsoft 365
-- Especialista de soporte técnico de comunicaciones de Teams
+- Especialista de soporte de comunicaciones de Teams
 
-Para obtener más información sobre los roles que pueden tener acceso al CQD , incluida EUII, lea Asignar [roles para acceder al CQD.](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
+Para obtener más información sobre los roles que pueden tener acceso al CQD (euii incluido), lea Asignar roles para [acceder al CQD.](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>¿Por qué veo información de Skype Empresarial en el CQD cuando he filtrado solo para Teams?
 
-Cuando se filtra por Teams solo en informes del CQD (isTeams = 1), se filtran todas las llamadas en las que el primer punto de *conexión* es Teams. Si el *segundo punto de* conexión es Skype Empresarial, esa información aparecerá en el informe del CQD.
+Cuando se filtra por Teams solo en informes del CQD (isTeams = 1), se filtran todas las llamadas en las que el *primer* punto de conexión es Teams. Si el *segundo punto de* conexión es Skype Empresarial, esa información aparecerá en el informe del CQD.
 
 CQDv2 y CQDv3 siempre tendrán recuentos totales diferentes, ya que CQDv3 tendrá nuevos escenarios que no tendrán CQDv2. Por eso, comparar los números de resumen totales o totales agregados sin filtros tendrá estas diferencias esperadas.  
 

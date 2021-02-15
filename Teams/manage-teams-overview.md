@@ -41,7 +41,7 @@ Este artículo proporciona una hoja de ruta para el contenido que necesitará pa
 
 - [Administrar directivas.](assign-policies.md) Lea este artículo para comprender cómo definir y asignar directivas para administrar los usuarios, los permisos y la funcionalidad de Teams.
 
-- [Supervisar y administrar la calidad de la llamada.](monitor-call-quality-qos.md) Lea este artículo para comprender cómo usar las herramientas disponibles para supervisar y mejorar la calidad de las llamadas para su organización.
+- [Supervise y administre la calidad de la llamada.](monitor-call-quality-qos.md) Lea este artículo para comprender cómo usar las herramientas disponibles para supervisar y mejorar la calidad de las llamadas para su organización.
 
 - [Informes en el Centro de administración de Teams](teams-analytics-and-reports/teams-reporting-reference.md) e Informes en el Centro de administración de Microsoft [365.](teams-activity-reports.md) Lea estos artículos para comprender qué informes están disponibles y cómo usar estos informes para supervisar el uso y el estado del servicio de Teams.
 

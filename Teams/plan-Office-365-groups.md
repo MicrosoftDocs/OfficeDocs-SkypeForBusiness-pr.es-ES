@@ -43,7 +43,7 @@ Hay dos escenarios que merecen cierta discusión sobre la planeación de grupos 
 Cualquier directiva de nomenclatura de Grupos de Microsoft 365 que haya establecido su administrador se aplicará en Teams cuando los usuarios creen o editan nombres de equipos. En ella se incluyen cosas como los sufijos y los prefijos obligatorios y la exclusión de palabras prohibidas.
 
 > [!NOTE]
-> Esta característica está en versión preliminar privada, lo que significa que si no forma parte de esta versión preliminar, Teams aún no cumple con esta directiva de nomenclatura de Grupos de Microsoft 365.
+> Esta característica está en versión preliminar privada, lo que significa que, si no es parte de esta versión preliminar, Teams aún no cumple con esta directiva de nomenclatura de Grupos de Microsoft 365.
 
 Para obtener más información, lea la directiva de nomenclatura de [Microsoft 365 Groups en Teams.](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 

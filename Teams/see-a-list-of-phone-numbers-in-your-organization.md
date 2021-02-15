@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Aprenda a usar el Centro de administración de Microsoft Teams para ver una lista de todos los números de teléfono de su organización y de todos los números asignados a usuarios o sin asignar.
+description: Aprenda a usar el Centro de administración de Microsoft Teams para ver una lista de todos los números de teléfono de su organización y todos los números asignados a usuarios o sin asignar.
 ms.openlocfilehash: 61e1fb59ba5b68aeb2ab2af51b2ef91202e43678
 ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "49918906"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver una lista de números de teléfono de su organización
 
-Hay diferentes tipos de números de teléfono que puede asignar a los usuarios u otros servicios (números de servicio), como para Audioconferencia en Microsoft 365 u Office 365.
+Existen diferentes tipos de números de teléfono que puede asignar a los usuarios u otros servicios (números de servicio), como para Audioconferencia en Microsoft 365 u Office 365.
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Para ver una lista de todos los números de teléfono de los que dispone para su organización
 
@@ -45,7 +45,7 @@ Hay diferentes tipos de números de teléfono que puede asignar a los usuarios u
     > [!IMPORTANT]
     > Para que vea  la opción Voz en el panel de navegación izquierdo del Centro de administración  de Skype Empresarial, primero debe comprar al menos una licencia **de Enterprise E5,** una licencia del complemento Sistema telefónico o una licencia del complemento **Audioconferencia.**
 
-3. Para ver los números de teléfono asignados, vea la **columna Estado.**
+3. Para ver los números de teléfono asignados, vea la **columna** Estado.
 
 4. Para filtrar la vista, haga clic en el icono de filtro. En el **panel** Filtro, puede usar la lista desplegable para filtrar la vista por:
 
@@ -61,7 +61,7 @@ Hay diferentes tipos de números de teléfono que puede asignar a los usuarios u
 
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Para ver todos los números de teléfono asignados a los usuarios
 
-Al configurar usuarios, es posible que solo desee ver la lista de los números de teléfono que ya están asignados a los usuarios y qué números de teléfono están disponibles para asignarles.
+Al configurar usuarios, es posible que desee ver la lista de los números de teléfono que ya están asignados a los usuarios y los números de teléfono que se les asignarán.
   
 ![Icono que muestra el logotipo de Teams ](media/teams-logo-30x30.png) **con el Centro de administración de Microsoft Teams**
 
@@ -91,7 +91,7 @@ Al configurar los usuarios de su organización para realizar y recibir llamadas 
 2. En el panel de navegación izquierdo, vaya a **Voz** > **Números de teléfono**.
 
     > [!IMPORTANT]
-    > Para que vea  la opción Voz en el panel de navegación izquierdo del Centro de administración  de Microsoft Teams, primero debe comprar al menos una licencia **de Enterprise E5,** una licencia del complemento Sistema telefónico o una licencia del complemento **Audioconferencia.**
+    > Para que vea  la opción Voz en el panel de navegación izquierdo del Centro de administración  de Microsoft Teams, primero debe comprar al menos una licencia **de Enterprise E5,** una licencia de complemento de Sistema telefónico o una licencia del complemento **Audioconferencia.**
 
 3. Haga clic en el icono de filtro para filtrar la vista por estado **de activación** Por el que puede filtrar:
 

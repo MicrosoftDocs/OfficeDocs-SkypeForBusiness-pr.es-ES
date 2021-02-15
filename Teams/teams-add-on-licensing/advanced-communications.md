@@ -35,17 +35,17 @@ Las comunicaciones avanzadas incluyen herramientas y personalización de reunion
 - **Personalizar y personalizar reuniones:** Impulse la normalización en todas las reuniones para sus escenarios internos y personalizados, con características como la sala de espera personalizada para reuniones con marca. Implemente con flexibilidad en todos los departamentos de su organización.
 - **Administre las comunicaciones de su organización:** supervise, realice un seguimiento y analice los datos de los usuarios y dispositivos para garantizar una experiencia fluida.
 
-Comunicaciones avanzadas está disponible en todos los mercados de Microsoft 365 como complemento a cualquier suscripción de pago de Microsoft 365 u Office 365. Las características incluidas en Comunicaciones avanzadas no se agregarán a otros planes de Microsoft 365 u Office 365 y no se pueden comprar por separado. Para obtener las características, debe comprar el complemento.
+Comunicaciones avanzadas está disponible en todos los mercados de Microsoft 365 como complemento a cualquier suscripción de pago de Microsoft 365 u Office 365. Las características incluidas en Advanced Communications no se agregarán a otros planes de Microsoft 365 u Office 365 y no se pueden comprar por separado. Para obtener las características, debe comprar el complemento.
 
 > [!NOTE]
-> Las características se irán lanzando a medida que estén disponibles. Visite el mapa [de ruta público de Microsoft 365 para](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) ver los intervalos de características más recientes.
+> Las características se irán lanzando a medida que estén disponibles. Visite el mapa [de ruta público de Microsoft 365 para](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) conocer los intervalos de características más recientes.
 
 > [!NOTE]
 > Advanced Communications aún no está disponible para los entornos de Microsoft 365 GCC High o Department of Defense (DoD).
 
 ## <a name="trial-offer"></a>Oferta de prueba
 
-A partir del 4 de agosto de 2020 hay disponible una prueba de 60 días. Puede obtener la versión de prueba a través del Centro de administración de Microsoft 365.
+A partir del 4 de agosto de 2020 hay disponible una versión de prueba de 60 días. Puede obtener la versión de prueba a través del Centro de administración de Microsoft 365.
 
 ## <a name="related-articles"></a>Artículos relacionados
 

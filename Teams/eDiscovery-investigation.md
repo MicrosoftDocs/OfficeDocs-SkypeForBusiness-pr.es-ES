@@ -28,9 +28,9 @@ ms.locfileid: "49980464"
 
 Las empresas grandes a menudo se exponen a procedimientos legales de alto nivel que exigen el envío de toda la información almacenada electrónicamente (ESI). El contenido de Microsoft Teams se puede buscar y usar durante las investigaciones de eDiscovery.
 
-## <a name="overview"></a>Descripción general
+## <a name="overview"></a>Información general
 
-Todos los chats grupales o de Microsoft Teams 1:1 se descargan en el diario en los buzones de los usuarios correspondientes. Todos los mensajes del canal estándar se envían en el diario al buzón del grupo que representa el equipo. Los archivos cargados en canales estándar están cubiertos por la funcionalidad de exhibición de documentos electrónicos para SharePoint Online y OneDrive para la Empresa.
+Todos los chats grupales o de Microsoft Teams 1:1 se descargan en el diario en los buzones de los usuarios correspondientes. Todos los mensajes del canal estándar se envían en el diario al buzón del grupo que representa el equipo. Los archivos cargados en canales estándar están cubiertos por la funcionalidad de eDiscovery para SharePoint Online y OneDrive para la Empresa.
 
 La exhibición de documentos electrónicos de mensajes y archivos en [canales privados](private-channels.md) funciona de forma diferente que en los canales estándar. Para obtener más información, vea [eDiscovery de canales privados.](#ediscovery-of-private-channels)
 
@@ -81,11 +81,11 @@ Para obtener más información sobre cómo llevar a cabo una investigación de e
 
 Los datos de Microsoft Teams aparecerán como mensajería instantánea o conversaciones en el resultado de la exportación de eDiscovery de Excel. Puede abrir el archivo `.pst` en Outlook para ver los mensajes después de exportarlos.
 
-Al ver el archivo .pst del equipo, todas las conversaciones se mantienen en la carpeta Chat del equipo, en Historial de conversaciones. El título del mensaje contiene el nombre del equipo y el nombre del canal. Por ejemplo, en la imagen siguiente se muestra un mensaje de Bob que le ha indicado el canal estándar de Project 7 del equipo de Especificaciones de fabricación.
+Al ver el archivo .pst para el equipo, todas las conversaciones se mantienen en la carpeta Chat del equipo, en Historial de conversaciones. El título del mensaje contiene el nombre del equipo y el nombre del canal. Por ejemplo, en la imagen siguiente se muestra un mensaje de Bob que le ha indicado el canal estándar de Project 7 del equipo de Especificaciones de fabricación.
 
 ![Captura de pantalla de una carpeta de Chat de equipo en el buzón de un usuario en Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
-Los chats privados en el buzón de un usuario se almacenan en la carpeta Chat de equipo, en Historial de conversaciones.
+Los chats privados en el buzón de un usuario se almacenan en la carpeta Chat del equipo, en Historial de conversaciones.
 
 ## <a name="ediscovery-of-private-channels"></a>Exhibición de documentos electrónicos de canales privados
 
@@ -126,7 +126,7 @@ Antes de realizar estos pasos, instale el Shell de administración de [SharePoin
 
 Antes de realizar estos pasos, asegúrese de que tiene instalada la última versión del módulo [de PowerShell de Teams.](teams-powershell-overview.md)
 
-1. Ejecute el comando siguiente para obtener una lista de canales privados en el equipo.
+1. Ejecute el siguiente comando para obtener una lista de canales privados en el equipo.
 
     ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
@@ -142,7 +142,7 @@ Antes de realizar estos pasos, asegúrese de que tiene instalada la última vers
 
 ## <a name="search-for-content-for-guest-users"></a>Buscar contenido para usuarios invitados
 
-Puede usar herramientas de exhibición de documentos electrónicos para buscar contenido de Teams relacionado con los usuarios invitados de su organización. El contenido del chat de Teams asociado a un usuario invitado se conserva en una ubicación de almacenamiento basada en la nube y se puede buscar con eDiscovery. Esto incluye buscar contenido en conversaciones de chat 1:1 y 1:N en las que un usuario invitado es un participante con otros usuarios de su organización. También puede buscar mensajes de canal privados en los que un usuario invitado sea un participante y buscar contenido en conversaciones de *chat* de invitado:invitado donde los únicos participantes son usuarios invitados.
+Puede usar herramientas de exhibición de documentos electrónicos para buscar contenido de Teams relacionado con los usuarios invitados de su organización. El contenido de chat de Teams asociado a un usuario invitado se conserva en una ubicación de almacenamiento basada en la nube y se puede buscar con eDiscovery. Esto incluye buscar contenido en conversaciones de chat 1:1 y 1:N en las que un usuario invitado es un participante con otros usuarios de su organización. También puede buscar mensajes de canal privados en los que un usuario invitado sea un participante y buscar contenido en conversaciones de *chat* de invitado:invitado donde los únicos participantes son usuarios invitados.
 
 Para buscar contenido para usuarios invitados:
 
@@ -155,7 +155,7 @@ Para buscar contenido para usuarios invitados:
    ```
 
    > [!TIP]
-   > En lugar de mostrar una lista de nombres principales de usuario en la pantalla del equipo, puede redirigir la salida del comando a un archivo de texto. Para ello, puede anexar `> filename.txt` al comando anterior. El archivo de texto con los nombres principales de usuario se guardará en la carpeta actual.
+   > En lugar de mostrar una lista de nombres principales de usuario en la pantalla del equipo, puede redirigir el resultado del comando a un archivo de texto. Para ello, puede anexar `> filename.txt` al comando anterior. El archivo de texto con los nombres principales de usuario se guardará en la carpeta actual.
 
 3. En otra ventana de Windows PowerShell, conéctese a PowerShell del Centro & seguridad. Para obtener instrucciones, [consulte Conectarse a PowerShell del Centro & seguridad.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) Puede conectarse con o sin utilizar la autenticación multifactor.
 
@@ -171,7 +171,7 @@ Para buscar contenido para usuarios invitados:
    New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
    ```
 
-    Para obtener más información sobre cómo usar PowerShell para crear búsquedas de contenido, consulta [New-ComplianceSearch.](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch)
+    Para obtener más información sobre cómo usar PowerShell para crear búsquedas de contenido, vea [New-ComplianceSearch.](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch)
 
 5. Ejecute el siguiente comando para iniciar la búsqueda de contenido que creó en el paso 4:
 
@@ -199,7 +199,7 @@ Como con otros contenidos de Teams, donde se almacena el contenido de la tarjeta
 
 Para buscar contenido de la tarjeta, puede usar las condiciones `kind:microsoftteams` de `itemclass:IPM.SkypeTeams.Message` búsqueda. Al revisar los resultados de la búsqueda, el contenido de la tarjeta generado por los bots en un canal de Teams tiene la propiedad de correo electrónico **Remitente/Autor** como, donde se encuentra el nombre de la aplicación que generó el contenido de la `<appname>@teams.microsoft.com` `appname` tarjeta. Si un usuario generó contenido de la tarjeta, el valor de **Remitente/Autor** identifica al usuario.
 
-Al ver el contenido de la tarjeta en los resultados de la búsqueda de contenido, el contenido aparece como datos adjuntos en el mensaje. El archivo adjunto se denomina `appname.html` , donde se encuentra el nombre de la aplicación que `appname` generó el contenido de la tarjeta. Las siguientes capturas de pantalla muestran cómo aparece el contenido de la tarjeta (para una aplicación denominada Asana) en Teams y en los resultados de una búsqueda.
+Al ver el contenido de la tarjeta en los resultados de búsqueda de contenido, el contenido aparece como datos adjuntos en el mensaje. El archivo adjunto se denomina `appname.html` , donde se encuentra el nombre de la aplicación que `appname` generó el contenido de la tarjeta. Las siguientes capturas de pantalla muestran cómo aparece el contenido de la tarjeta (para una aplicación denominada Asana) en Teams y en los resultados de una búsqueda.
 
 **Contenido de tarjetas en Teams**
 
@@ -220,18 +220,18 @@ Parte del contenido de Microsoft Teams también se puede buscar y conservar con 
 
 Puede ser miembro de varios equipos. Puede capturar contenido de Teams que sea relevante para estos contenidos. Para obtener instrucciones sobre el flujo de trabajo de usuario, [consulte Agregar usuarions a un caso de exhibición avanzada de documentos electrónicos.](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case)
 
-Después de agregar una a uno, haz clic en el **botón** Siguiente y, a continuación, **en el botón** Agregar. A continuación, se muestra una ventana que le pide que seleccione ubicaciones adicionales, que le mostrarán todas las pertenencias de esa persona y las correspondientes ubicaciones del sitio de SharePoint para sus datos. De todos estos orígenes de datos y equipos, puede elegir el contenido que desea usar para la exhibición de documentos electrónicos y, después, poner en espera a ese usuario y a todos los orígenes de datos que haya identificado.
+Después de agregar una cuenta, haz clic en el **botón** Siguiente y, a continuación, **en el botón** Agregar. A continuación, se muestra una ventana que le pide que seleccione ubicaciones adicionales, que le mostrarán todas las pertenencias de usuario y las correspondientes ubicaciones del sitio de SharePoint para sus datos. De todos estos orígenes de datos y equipos, puede elegir el contenido que desea usar para la exhibición de documentos electrónicos y, después, poner en espera a ese usuario y a todos los orígenes de datos que haya identificado.
 
 Puede seleccionar si desea incluir su contenido de Exchange, su contenido de OneDrive o ambos. El contenido de Exchange incluye todo el contenido de la aplicación en los buzones del usuario, como el correo electrónico, el contenido de Teams almacenado en su buzón, y así sucesivamente. El contenido de OneDrive incluye no solo el contenido del usuario, sino también todo el contenido de Teams que se almacena en OneDrive, como los chats 1:1, los chats 1:N y los archivos compartidos en chats.
 
 También tiene la opción de asociar cualquier equipo al que sea miembro el compañero para que se incluyan los mensajes de chat del canal y los archivos a los que tiene acceso el usuario. Además, cualquier otro equipo se puede asociar con un usuario.
 
 > [!NOTE]
-> La exhibición de documentos electrónicos de mensajes y archivos en [canales privados](private-channels.md) funciona de forma diferente que en los canales estándar. Para obtener más información, [vea eDiscovery de canales privados.](#ediscovery-of-private-channels)
+> La exhibición de documentos electrónicos de mensajes y archivos en [canales privados](private-channels.md) funciona de forma diferente que en los canales estándar. Para obtener más información, vea [eDiscovery de canales privados.](#ediscovery-of-private-channels)
 
 ### <a name="placing-a-data-source-on-hold"></a>Poner un origen de datos en espera
 
-Si no hay ningún usuario específico que designe como usuario de confianza, puede poner todo un origen de datos en espera. Para obtener más información sobre las retenciones, vea [Administrar retenciones en exhibición avanzada de documentos electrónicos.](https://docs.microsoft.com/microsoft-365/compliance/managing-holds)
+Si no hay ningún usuario específico que se designe como usuario de confianza, puede poner todo un origen de datos en espera. Para obtener más información sobre las retenciones, vea [Administrar retenciones en exhibición avanzada de documentos electrónicos.](https://docs.microsoft.com/microsoft-365/compliance/managing-holds)
 
 Al crear una retención de contenido de Teams, puede elegir todas las ubicaciones que desea incluir en su retención. Aunque los usuarios eliminen o cambien contenido, la retención mantendrá copias de todas las versiones anteriores de ese contenido.
 
@@ -243,9 +243,9 @@ También se puede buscar contenido de Teams. Para obtener más información sobr
 
 Al crear una consulta de búsqueda, puede elegir entre carpetas para que se busquen todos los orígenes que ya ha seleccionado. También puede buscar orígenes que no están asignados a un usuario, como un sitio de Teams. Las consultas opcionales también están disponibles para restringir la búsqueda dentro del contenido de Teams.
 
-Después de crear una búsqueda y seleccionarla, se muestra una ventana con detalles y acciones adicionales que puede realizar en la búsqueda seleccionada. Si hace clic en el botón **Estadísticas,** puede ver estadísticas sobre la búsqueda, incluidos los desgloses según los tipos de ubicación, el origen original del contenido y si el contenido se encuentra en un buzón de grupo, en el buzón de usuario individual o en un sitio de SharePoint. Por lo tanto, puede ver un desglose de los orígenes que contribuyen a los resultados de búsqueda. También hay disponible una **vista de consultas** para que pueda ver qué palabras clave individuales contribuyen a los resultados.
+Después de crear una búsqueda y seleccionarla, se muestra una ventana con detalles y acciones adicionales que puede realizar en la búsqueda seleccionada. Si hace clic en el botón **Estadísticas,** puede ver estadísticas sobre la búsqueda, incluidos los desgloses según los tipos de ubicación, el origen original del contenido y si el contenido se encuentra en un buzón de grupo, en el buzón de usuario individual o en un sitio de SharePoint. Por lo tanto, puede ver un desglose de los orígenes que contribuyen a los resultados de búsqueda. También hay disponible una **vista De consultas** para que pueda ver qué palabras clave individuales contribuyen a los resultados.
 
-Después de finalizar la búsqueda,  puede hacer clic en el botón Agregar resultados para revisar conjunto y agregarlo a un conjunto de revisión. Para obtener más información sobre los conjuntos de revisión, vea Administrar conjuntos de [revisión](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets) en el flujo de trabajo Detección avanzada y Conjuntos de revisión, [](#review-sets-workflow) más adelante en este artículo.
+Después de finalizar la búsqueda,  puede hacer clic en el botón Agregar resultados para revisar conjunto y agregarlo a un conjunto de revisión. Para obtener más información sobre los conjuntos de revisión, vea [Administrar](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets) conjuntos de revisión en el flujo de trabajo Detección avanzada y Conjuntos de revisión, [](#review-sets-workflow) más adelante en este artículo.
 
 #### <a name="normal-review-sets-and-conversation-review-sets"></a>Conjuntos de revisión normales y conjuntos de revisión de conversaciones
 
@@ -270,7 +270,7 @@ También se comprueban las marcas de tiempo de los mensajes. Si un mensaje coinc
 
 Si debe estar seguro de qué mensajes contextuales se devolverán con coincidencias con la consulta de búsqueda, no es necesario usar estas opciones. Puede recopilar todo el contenido o ampliar el intervalo de fechas de la búsqueda para que se devuelvan más mensajes como resultado de la consulta.
 
-### <a name="review-sets-workflow"></a>Flujo de trabajo de conjuntos de revisión
+### <a name="review-sets-workflow"></a>Flujo de trabajo de revisar conjuntos
 
 Puede ver conjuntos de revisión existentes o crear otros nuevos haciendo clic en la **pestaña Revisar conjuntos.** Para obtener más información sobre los conjuntos de revisión, vea [Administrar conjuntos de revisión en Exhibición avanzada de documentos electrónicos.](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets)
 
@@ -278,17 +278,17 @@ Además de documentos, puede agregar correos electrónicos, mensajes de Teams, m
 
 El **botón Administrar conjuntos de** revisión proporciona opciones adicionales como análisis, informes de resumen, cuántos conjuntos de carga se han agregado, y así sucesivamente.
 
-Para acceder a visualizaciones y  gráficos de los datos, haga clic en Vista de perfil de búsqueda de resultados \> **individuales** en la esquina superior derecha. Puede hacer clic en cuñas en estos gráficos para seleccionar de forma interactiva el tipo de contenido que desea consultar. Por ejemplo, puede elegir consultar solo el contenido de Teams. También puede guardar estas consultas del mismo modo que las consultas que escribe manualmente.
+Para acceder a visualizaciones y  gráficos de los datos, haga clic en Vista de perfil de búsqueda de resultados \> **individuales** en la esquina superior derecha. Puede hacer clic en cuñas en estos gráficos para seleccionar de forma interactiva el tipo de contenido que desea consultar. Por ejemplo, puede elegir consultar solo contenido de Teams. También puede guardar estas consultas del mismo modo que las consultas que escribe manualmente.
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>Vista resumen, vista de texto y vista Anotar
 
-Si hace clic en una conversación de Teams en el conjunto de revisión, se muestra la vista **Resumen,** que muestra una conversación de Teams completa como una lista de mensajes con los que puede interactuar individualmente. Haga clic en la flecha hacia abajo a la derecha de un mensaje para mostrar un menú contextual que le permite ver detalles del mensaje o descargar el archivo `.msg` individual. Al hacer clic en los detalles del mensaje, se mostrará un resumen de los metadatos o de los metadatos completos del mensaje.
+Si hace clic en una conversación de Teams en el conjunto de revisión, se mostrará la vista **Resumen,** que muestra una conversación de Teams completa como una lista de mensajes con los que puede interactuar individualmente. Haga clic en la flecha hacia abajo a la derecha de un mensaje para mostrar un menú contextual que le permite ver detalles del mensaje o descargar el archivo `.msg` individual. Al hacer clic en los detalles del mensaje, se mostrará un resumen de los metadatos o de los metadatos completos del mensaje.
 
 Para descargar un archivo PDF, haga clic en el botón de descarga situado en la parte superior derecha de la vista de resumen.
 
 Haga clic **en la pestaña Vista** de texto para mostrar una vista de texto sin formato del texto extraído de la conversación de Teams. Este contenido de texto sin formato es adecuado para exportación y puede trabajar fácilmente con él con otras herramientas de software.
 
-Haga clic en la **pestaña Vista Anotaciones para** acceder a las características de anotación. Esta pestaña muestra el contenido en un formato similar a una conversación de Teams, pero también hay opciones adicionales de edición. Puede usar una herramienta de lápiz para tomar notas, dibujar en el mensaje o para hacer un borrador específico con fines de redacción. También hay una herramienta **Redacción de** área que puede usar para dibujar un rectángulo que dibuje un área en negro y la marca como "Redactada".
+Haga clic en la **pestaña Vista Anotaciones para** acceder a las características de anotación. Esta pestaña muestra el contenido en un formato similar a una conversación de Teams, pero también hay opciones adicionales para editar. Puede usar una herramienta de lápiz para tomar notas, dibujar en el mensaje o para hacer un borrador específico con fines de redacción. También hay una herramienta **Redacción de** área que puede usar para dibujar un rectángulo que dibuje un área en negro y la marca como "Redactada".
 
 Este es un ejemplo de un archivo redactado para conversaciones en hilos entre usuarios.
 
@@ -297,7 +297,7 @@ Este es un ejemplo de un archivo redactado para conversaciones en hilos entre us
 
 En la parte inferior de la **pestaña vista Anotaciones** se encuentra el **botón** Etiquetar documentos, que muestra el panel de etiquetado. En este panel, puede aplicar una etiqueta a todos los mensajes de la conversación de Teams. Puede etiquetar una conversación como que responda o que no responda, tenga privilegios o no tenga privilegios, si contiene "Elementos interesantes", si debe incluirse en la exportación y si necesita una revisión posterior. También puede administrar y aplicar otras etiquetas personalizables.
 
-#### <a name="action-menu"></a>Menú de acciones
+#### <a name="action-menu"></a>Menú acción
 
 En la ventana de conjuntos de revisión, puede exportar el contenido haciendo clic en **Exportar** \> **acción.** Hay muchas opciones disponibles al exportar.
 
@@ -314,7 +314,7 @@ Puede elegir exportar a un contenedor de Azure Blob Storage proporcionado por Mi
 Cuando esté listo para comenzar el proceso de exportación, haga clic en **el botón** Exportar. Vea [Descargar trabajos de exportación](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) para obtener más información sobre cómo puede obtener acceso al contenedor de Azure Blob Storage y descargar el contenido exportado una vez completada la exportación.
 
 > [!NOTE]
-> La exportación puede llevar un largo período de tiempo. Para realizar un seguimiento del estado del proceso de exportación, salga de la pestaña **Conjuntos** de revisión y haga clic en **la pestaña** Exportaciones.
+> La exportación puede llevar un largo período de tiempo. Para realizar un seguimiento del estado del proceso de exportación, salga de la pestaña **Revisar conjuntos** y haga clic en **la pestaña** Exportaciones.
 
 ## <a name="related-topics"></a>Temas relacionados
 

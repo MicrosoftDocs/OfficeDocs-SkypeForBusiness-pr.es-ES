@@ -24,7 +24,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49937532"
 ---
-# <a name="sensitivity-labels-for-microsoft-teams"></a>Etiquetas de confidencialidad de Microsoft Teams
+# <a name="sensitivity-labels-for-microsoft-teams"></a>Etiquetas de confidencialidad para Microsoft Teams
 
 [Las etiquetas de](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) confidencialidad permiten a los administradores de Teams proteger y regular el acceso al contenido organizativo confidencial creado durante la colaboración dentro de los equipos. Después de configurar las etiquetas de confidencialidad con las directivas asociadas en el Centro de cumplimiento [de Microsoft,](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)estas etiquetas se pueden aplicar a los equipos de su organización.
 
@@ -40,7 +40,7 @@ Si actualmente usa etiquetas de clasificación, consulte la siguiente documentac
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>Escenarios de ejemplo para etiquetas de confidencialidad
 
-Escenarios de ejemplo para usar etiquetas de confidencialidad con Teams en su organización:
+Escenarios de ejemplo sobre cómo puede usar etiquetas de confidencialidad con Teams en su organización:
 
 - [Establecer el nivel de privacidad (público o privado) para los equipos](#set-the-privacy-level-for-teams)
 - [Controlar el acceso de invitados a los equipos](#control-guest-access-to-teams)
@@ -55,7 +55,7 @@ Cuando un usuario crea un equipo  y selecciona la etiqueta Confidencial, la úni
 
 ![Captura de pantalla de la etiqueta de confidencialidad confidencial](media/sensitivity-labels-confidential-example.png)
 
-De forma similar, cree y publique una etiqueta de confidencialidad denominada "General" que tenga la opción de privacidad de etiqueta configurada como **Pública.** Cuando un usuario crea un equipo, solo puede crear equipos públicos o para toda la organización al seleccionar esta etiqueta:
+De forma similar, cree y publique una etiqueta de confidencialidad denominada "General" que tenga la opción de privacidad de etiqueta configurada como **Pública.** Cuando un usuario crea un equipo nuevo, solo puede crear equipos públicos o para toda la organización cuando seleccionan esta etiqueta:
 
 ![Captura de pantalla de la etiqueta de confidencialidad general](media/sensitivity-labels-general-example.png)
 

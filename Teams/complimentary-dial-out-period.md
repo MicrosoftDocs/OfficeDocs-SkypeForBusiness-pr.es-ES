@@ -38,15 +38,15 @@ Los clientes pueden usar el plan de llamadas de Microsoft 365 u Office 365 y las
   
 ### <a name="end-of-complimentary-dial-out-period"></a>Final del período de llamada complementario
 
-La funcionalidad de llamada gratuita finalizó el 1 de diciembre de 2019. Para obtener más información, consulte llamada a una suscripción [de Audioconferencia y llámeme al beneficio.](audio-conferencing-subscription-dial-out.md) 
+La característica de llamada gratuita finalizó el 1 de diciembre de 2019. Para obtener más información, consulte llamada a una suscripción de [Audioconferencia y llámeme al beneficio.](audio-conferencing-subscription-dial-out.md) 
 
 Este cambio no se produjo para los países donde la suscripción de Audioconferencia está disponible, pero actualmente no habilitamos la configuración de créditos de comunicaciones. Estos países específicos son Rusia, Corea del Sur y Taiwán.
 
 ### <a name="complimentary-dial-out-period-details"></a>Detalles del período de llamada complementario
 
-Para los clientes que adopten nuestro servicio de Audioconferencia de Microsoft 365 u Office 365, Microsoft proporciona un beneficio adicional relacionado con las llamadas a las reuniones organizadas por los usuarios a los que se les ha asignado una licencia de suscripción a Microsoft 365 u Office 365 Audioconferencia hasta noviembre de 2019. Durante este período complementario, Microsoft permite a los organizadores de reuniones o asistentes autorizados, según se define en la configuración de la directiva de la reunión, realizar llamadas desde la reunión a números de teléfono que no son premium en los países y regiones de la zona [A](audio-conferencing-zones.md)44. Esta ventaja se aplica a las licencias de suscripción mensuales de Audioconferencia y no se amplía a las licencias de pago por minuto de Audioconferencia.
+Para los clientes que adopten nuestro servicio de Audioconferencia de Microsoft 365 u Office 365, Microsoft proporciona un beneficio adicional adicional relacionado con la llamada desde las reuniones organizadas por los usuarios a los que se les ha asignado una licencia de suscripción a Microsoft 365 u Office 365 Audioconferencia hasta noviembre de 2019. Durante este período complementario, Microsoft permite a los organizadores de reuniones o asistentes autorizados, según se define en la configuración de la directiva de la reunión, realizar llamadas desde la reunión a números de teléfono que no son premium en los países y regiones de la zona [A](audio-conferencing-zones.md)44. Esta ventaja se aplica a las licencias de suscripción mensuales de Audioconferencia y no se amplía a las licencias de pago por minuto de Audioconferencia.
 
-Además, hay un límite de 900 minutos durante el período de llamada adicional como sigue:
+Además, hay un límite de 900 minutos durante el período de llamada adicional como tal:
 
 Los usuarios con una ubicación de uso de licencia (la ubicación es la ubicación del país de usuario que se define en el área de licencias del Centro de administración de Microsoft 365) en cualquier _país_ _ pueden llamar desde una conferencia a cualquiera de los 44 países y regiones de la Zona [A.](audio-conferencing-zones.md) Cada usuario recibe 900 minutos  por usuario al mes en cualquiera de los países y regiones de la zona [A,](audio-conferencing-zones.md)que se agrupan en el nivel de inquilino. Por ejemplo, un cliente ha comprado 115 licencias de suscripción a Audioconferencia y tiene 10 usuarios en Estados Unidos, 100 usuarios en el Reino Unido y 5 usuarios en la India, todos con licencias de suscripción a Audioconferencia asignadas a sus usuarios.
 
@@ -57,11 +57,11 @@ Los usuarios con una ubicación de uso de licencia (la ubicación es la ubicaci�
 - Todas las llamadas salientes a destinos que no están en la lista de países y regiones de zona A se facturan por minuto con créditos de comunicaciones según las [tarifas publicadas](audio-conferencing-zones.md) para ese destino (el inquilino ha configurado los Créditos de comunicaciones y asignado la licencia de Créditos de comunicaciones al organizador de la reunión).
 
 > [!NOTE]
-> Puede controlar el uso del grupo de minutos de llamadas desde el Centro de administración de Skype Empresarial. En el Centro de administración & Skype de Microsoft Teams, vaya **a** Informes de grupos de minutos RTC de informes  >    >  **del portal heredado.** Este grupo de minutos complementarios se etiquetará en el informe como "Llamadas salientes a países y regiones de la zona A".
+> Puede controlar el uso del grupo de minutos de llamadas desde el Centro de administración de Skype Empresarial. En el Centro de administración & Skype de Microsoft Teams, vaya **a** Informes de grupos de minutos RTC de informes  >    >  **de portal heredado.** Este grupo de minutos complementarios se etiquetará en el informe como "Llamadas salientes a países y regiones de la zona A".
 
 Las notificaciones por correo electrónico se enviarán a todos los administradores de inquilinos de un cliente determinado cuando el uso del grupo de minutos de llamadas entrantes del inquilino haya alcanzado el 80 % y el 100 %.
 
-Para las llamadas salientes que se facturan por minuto (llamadas que superan el grupo de minutos de llamadas salientes del inquilino o llamadas a destinos que no están en la lista de países y regiones de la Zona A), las llamadas y sus [tarifas asociadas](audio-conferencing-zones.md) se basan principalmente en el destino de la llamada y no en el país o la región del organizador o el participante que inicia la llamada. Por ejemplo, una llamada a un número de teléfono en Francia se facturará con la misma tarifa si la inicia un participante de la reunión en Estados Unidos o uno en Francia.
+Para las llamadas salientes que se facturan por minuto (llamadas que superan el grupo de minutos de llamadas salientes del espacio empresarial o llamadas a destinos que no están en la lista de países y regiones de la zona A), las llamadas y sus [tarifas asociadas](audio-conferencing-zones.md) se basan principalmente en el destino de la llamada y no en el país o la región del organizador o el participante que inicia la llamada. Por ejemplo, una llamada a un número de teléfono en Francia se facturará con la misma tarifa si la inicia un participante de la reunión en Estados Unidos o uno en Francia.
 
 Para obtener más información sobre los créditos de comunicación, consulta [Créditos de comunicaciones.](what-are-communications-credits.md)
      

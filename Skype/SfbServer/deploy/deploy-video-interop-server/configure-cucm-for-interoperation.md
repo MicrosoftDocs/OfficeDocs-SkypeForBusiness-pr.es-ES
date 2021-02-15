@@ -141,6 +141,6 @@ En este punto, la puerta de enlace de vídeo de CUCM está configurada para func
 > [!NOTE]
 > Para mejorar la resistencia, es posible que desee configurar esta puerta de enlace CUCM para que funcione con un segundo servidor de interoperabilidad de vídeo o un grupo vis. Vea [los mecanismos de resistencia para](../../plan-your-deployment/video-interop-server.md#resiliency) obtener más información.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Configurar una VTC para interoperación con Skype Empresarial Server](configure-a-vtc-for-interoperation.md)

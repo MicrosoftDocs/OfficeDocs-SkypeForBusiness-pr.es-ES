@@ -27,9 +27,9 @@ ms.locfileid: "49909514"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Se ha retirado Microsoft StaffHub
 
-A partir del 30 de junio de 2020, Se ha retirado Microsoft StaffHub. Estamos creando funciones de StaffHub en Microsoft Teams. Hoy en día, Teams incluye la aplicación Turnos para la administración de programación y otras funcionalidades se irán lanzando a lo largo del tiempo.
+A partir del 30 de junio de 2020, Se ha retirado Microsoft StaffHub. Estamos creando funciones de StaffHub en Microsoft Teams. Hoy en día, Teams incluye la aplicación Turnos para la administración de programación y se irán incorporando funciones adicionales a lo largo del tiempo.
 
-Estos cambios forman parte de nuestros esfuerzos continuados para ayudar a cada empleado a usar Microsoft 365. Con las capacidades para los trabajadores de primera línea ahora en Teams, cada empleado de su organización podrá usar Teams para simplificar su día laboral, colaborar con sus compañeros y obtener acceso a información y experiencia para ayudarles a hacer su mejor trabajo.
+Estos cambios forman parte de nuestros esfuerzos continuados para ayudar a cada empleado a usar Microsoft 365. Con las funciones para los trabajadores de primera línea ahora en Teams, cada empleado de su organización podrá usar Teams para simplificar su día laboral, colaborar con sus compañeros y acceder a la información y la experiencia para ayudarles a hacer su mejor trabajo.
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
@@ -63,7 +63,7 @@ Si tenía un equipo de StaffHub asociado a un grupo de Office 365 que no movió 
 
 #### <a name="what-is-shifts"></a>¿Qué es Turnos?
 
-La aplicación Turnos en Teams es una herramienta de administración de programación que mantiene conectados y sincronizados a los Frontline Workers. Los administradores crean, actualizan y administran las programaciones de turnos de los equipos, y los miembros del equipo pueden ver sus programaciones, ver quién más está programado para el día, solicitar permutas u ofrecer turnos y solicitar un permiso, todo desde sus dispositivos móviles.  
+La aplicación Turnos en Teams es una herramienta de administración de programación que mantiene conectados y sincronizados a los Frontline Workers. Los administradores crean, actualizan y administran las programaciones de turnos de los equipos, y los miembros del equipo pueden ver sus programaciones, ver quién más está programado para el día, solicitar permutas u ofrecer turnos y solicitar permiso, todo desde sus dispositivos móviles.  
 
 #### <a name="which-plans-is-shifts-available-in"></a>¿En qué planes está disponible Turnos?
 
@@ -75,7 +75,7 @@ Si ya está en un plan que incluye Turnos, puede empezar a usar Turnos hoy como 
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>¿En qué dispositivos o plataformas está disponible Turnos?
 
-Turnos está disponible en el cliente web de Teams, el cliente para equipo de escritorio de Teams y los clientes móviles de Teams (iOS y Android).
+Turnos está disponible en el cliente web de Teams, el cliente de escritorio de Teams y los clientes móviles de Teams (iOS y Android).
  
 #### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>¿Hay diferencias entre las aplicaciones web y de escritorio de Turnos y las aplicaciones móviles (iOS y Android)?
 
@@ -92,7 +92,7 @@ La funcionalidad principal es la misma entre las aplicaciones de iOS y Android d
 Turnos funciona en todos los exploradores compatibles con Teams, que incluye las últimas versiones de Microsoft Edge, Internet Explorer, Google Chrome y Mozilla Firefox. Para obtener más información, [consulte Obtener clientes para Teams.](../../get-clients.md)
 
 > [!Note]
-> Las aplicaciones y servicios de Microsoft 365 no admitirán Internet Explorer 11 a partir del 17 de agosto de 2021 (Microsoft Teams no admitirá Internet Explorer 11 antes, a partir del 30 de noviembre de 2020). [Más información](https://aka.ms/AA97tsw). Tenga en cuenta que Internet Explorer 11 seguirá siendo un navegador compatible. Internet Explorer 11 es un componente [](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) del sistema operativo Windows y sigue la directiva del ciclo de vida del producto en el que está instalado. 
+> Los servicios y aplicaciones de Microsoft 365 no admitirán Internet Explorer 11 a partir del 17 de agosto de 2021 (Microsoft Teams no admitirá Internet Explorer 11 antes, a partir del 30 de noviembre de 2020). [Más información](https://aka.ms/AA97tsw). Tenga en cuenta que Internet Explorer 11 seguirá siendo un navegador compatible. Internet Explorer 11 es un componente [](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) del sistema operativo Windows y sigue la directiva del ciclo de vida del producto en el que está instalado. 
 
 #### <a name="what-languages-does-shifts-support"></a>¿Qué idiomas admite Turnos?
 
@@ -122,7 +122,7 @@ De forma predeterminada, Teams está habilitado para todas las organizaciones. A
 
 #### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>¿Qué sucede si actualmente tengo Skype Empresarial habilitado en mi organización pero no Teams?
 
-Teams admite la coexistencia con Skype Empresarial. Para obtener más información, consulte Las instrucciones para la coexistencia y la coexistencia de [Skype](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) Empresarial y la interoperabilidad y la migración y la interoperabilidad para las organizaciones que usan Teams junto [con Skype Empresarial.](../../migration-interop-guidance-for-teams-with-skype.md)
+Teams admite la coexistencia con Skype Empresarial. Para obtener más información, vea la guía Información sobre coexistencia e interoperabilidad de Teams y [Skype](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) Empresarial, así como las instrucciones de migración e interoperabilidad para las organizaciones que usan [Teams junto con Skype Empresarial.](../../migration-interop-guidance-for-teams-with-skype.md)
 
 #### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>¿Cada usuario necesita tener una cuenta de Microsoft 365 u Office 365 o de Azure Active Directory (Azure AD)?
 
@@ -156,7 +156,7 @@ Para obtener más información, [consulte Administrar la aplicación Turnos para
 
 Puede administrar Teams a través del módulo Microsoft Teams PowerShell y del módulo PowerShell de Skype Empresarial. Para obtener más información, consulte [Información general de PowerShell de Teams.](../../teams-powershell-overview.md) En este momento, no hay cmdlets específicos de PowerShell disponibles para administrar turnos.  
 
-Si está interesado en algo, envíenos una solicitud a través del portal de comentarios de [Teams en UserVoice.](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)
+Si está interesado en esto, envíenos una solicitud a través del portal de comentarios de [Teams en UserVoice.](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>¿Los informes están disponibles para ver el uso de Turnos en toda mi organización?
 

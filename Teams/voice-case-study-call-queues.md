@@ -1,5 +1,5 @@
 ---
-title: Caso práctico Teams voice Contoso
+title: Caso práctico de Teams voice Contoso
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Caso práctico de voz de Teams para empresas multinacionales
+description: Caso práctico de voz de Teams para una corporación multinacional
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a6ee08fa7bdeb1ded6bda384115a08048021cb67
@@ -31,7 +31,7 @@ Contoso estaba familiarizado con los operadores automáticos y las colas de llam
 
 Según el tipo de sitio, Contoso tenía las siguientes necesidades:
 
-- Tipo de sitio A: sistemas de telefonía tradicionales heredados 
+- Tipo de sitio A: Sistemas de telefonía heredados tradicionales 
 
   El tipo de sitio A es necesario para mantener el mismo número de teléfono asociado con el recepcionista que el número de sus operadores automáticos. Los departamentos clave de cada uno de estos sitios tendrían sus propias colas de llamadas que se enrutaría a los miembros del equipo. Había una combinación de sitios que usaban Sistema telefónico con enrutamiento directo y Sistema telefónico con planes de llamadas.  
 
@@ -49,7 +49,7 @@ Según el tipo de sitio, Contoso tenía las siguientes necesidades:
     A: Contoso ha decidido usar los números de teléfono existentes para asignar a la cuenta de servicio del operador automático. 
 
   - P: ¿Cuándo estará disponible el operador automático para aceptar llamadas entrantes? 
-    A: Contoso decidió establecer el horario laboral y hacer que las llamadas recibidas después del horario laboral se redirijan a un operador automático "no laborable".  
+    A: Contoso decidió establecer el horario laboral y hacer que las llamadas recibidas después del horario laboral se redirijan a un operador automático "no laboral".  
 
   - P: ¿Cómo se enrutarán las llamadas a los miembros de una cola de llamadas: enrutamiento de attendant, serial o round robin? 
     A: Contoso ha decidido usar el enrutamiento de Attendant, 
@@ -68,7 +68,7 @@ Los pasos para configurar un operador automático y una cola de llamadas incluye
 
 3. Cree la cuenta de recurso. Se requiere un operador automático o una cola de llamadas para tener una cuenta de recursos asociada. 
 
-4. Asigne el sistema telefónico o un sistema telefónico: licencia de usuario virtual a la cuenta de recursos. Para obtener más información, [consulte Sistema telefónico de Microsoft 365: licencia de usuario virtual.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user)
+4. Asignar el sistema telefónico o un sistema telefónico: licencia de usuario virtual a la cuenta de recursos. Para obtener más información, [consulte Sistema telefónico de Microsoft 365: licencia de usuario virtual.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user)
 
 5. Asigne un número de teléfono de servicio a la cuenta de recursos a la que asignó licencias. 
 

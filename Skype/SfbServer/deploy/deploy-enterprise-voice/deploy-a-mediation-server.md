@@ -36,7 +36,7 @@ La conexión entre Skype Empresarial Server (un servidor de mediación que se co
   
 ## <a name="define-a-mediation-server-in-topology-builder"></a>Definir un servidor de mediación en el Generador de topologías
 
-Puede agregar un servidor de mediación como un rol de instalación en un grupo de servidores front-end o definir un grupo de servidores de mediación independiente independiente.
+Puede agregar un servidor de mediación como rol de instalación en un grupo de servidores front-end o definir un grupo de servidores de mediación independiente independiente.
   
 ### <a name="to-add-a-mediation-server-to-a-front-end-pool"></a>Para agregar un servidor de mediación a un grupo de servidores front-end
 
@@ -101,7 +101,7 @@ Puede agregar un servidor de mediación como un rol de instalación en un grupo 
     
 ## <a name="define-the-mediation-server-listening-ports"></a>Definir los puertos de escucha del servidor de mediación
 
-Siga los pasos descritos en este tema para usar el Generador de topologías para definir los puertos de escucha que un servidor o grupo de servidores de mediación aceptará conexiones entrantes de una puerta de enlace del mismo nivel.
+Siga los pasos descritos en este tema para usar el Generador de topologías para definir los puertos de escucha que un servidor o grupo de servidores de mediación aceptará conexiones entrantes desde un sistema del mismo nivel de puerta de enlace.
   
 ### <a name="to-modify-the-mediation-server-listening-ports"></a>Para modificar los puertos de escucha del servidor de mediación
 

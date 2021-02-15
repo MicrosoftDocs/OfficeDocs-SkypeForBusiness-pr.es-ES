@@ -34,7 +34,7 @@ A continuación se muestran algunos ejemplos sobre cómo puede usar estas API de
 - **Ejemplo 1:** Si ha habilitado Microsoft Teams en su organización y desea exportar todos los mensajes de Microsoft Teams a la fecha mediante programación pasando el intervalo de fechas de un usuario o equipo determinado.
 - **Ejemplo 2:** Si desea exportar mediante programación todos los mensajes de usuario o equipo diariamente proporcionando un intervalo de fechas. Las API de exportación pueden recuperar todos los mensajes creados o actualizados durante el intervalo de fechas especificado.
 
-## <a name="what-is-supported-by-the-teams-export-apis"></a>¿Qué se admite en las API de exportación de Teams?
+## <a name="what-is-supported-by-the-teams-export-apis"></a>¿Qué es compatible con las API de exportación de Teams?
 
 - **Mensaje de exportación en masa de Teams:** Las API de exportación de Teams admiten hasta 200 RPS por aplicación por espacio empresarial y 600 RPS para una aplicación, con estos límites debería poder exportar mensajes de Teams en masa.
 - **Contexto de la** aplicación: para llamar a Microsoft Graph, la aplicación debe adquirir un token de acceso de la plataforma de identidad de Microsoft. El token de acceso contiene información sobre la aplicación y los permisos que tiene para los recursos y las API disponibles a través de Microsoft Graph. Para obtener un token de acceso, la aplicación debe estar registrada con la plataforma de identidad de Microsoft y estar autorizada por un usuario o un administrador para obtener acceso a los recursos de Microsoft Graph que necesita.
@@ -71,7 +71,7 @@ A continuación se muestran algunos ejemplos sobre cómo puede usar estas API de
 
 - Las API de exportación de Teams están actualmente en versión preliminar. Solo estará disponible para los usuarios e inquilinos que tengan las licencias [necesarias para](https://aka.ms/teams-changenotification-licenses) las API. En el futuro, Microsoft puede requerir que usted o sus clientes paguen tarifas adicionales en función de la cantidad de datos a los que se accede a través de la API.
 - Las API de Microsoft Teams en Microsoft Graph que tienen acceso a datos confidenciales se consideran API protegidas. Las API de exportación requieren que tenga validación adicional, más allá de permisos y consentimiento, para poder usarlas. Para solicitar acceso a estas API protegidas, complete el formulario [de solicitud.](https://aka.ms/teamsgraph/requestaccess)
-- Las aplicaciones que no tienen un usuario iniciado usan los permisos de aplicación; los permisos de la aplicación solo pueden ser consientes por un administrador. Son necesarios los siguientes permisos:
+- Las aplicaciones que no tienen un usuario iniciado usan los permisos de aplicación; los permisos de la aplicación solo pueden ser consientes por un administrador. Son necesarios los permisos siguientes:
 
     - *Chat.Read.All*: permite el acceso a todos los mensajes de chat grupales y uno a uno 
     - *User.Read.All:* permite el acceso a la lista de usuarios de un inquilino. 

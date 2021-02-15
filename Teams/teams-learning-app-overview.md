@@ -62,7 +62,7 @@ Para administrar la configuración de la aplicación, siga estos pasos:
 > [!NOTE]
 >  Si su organización se encuentra en el anillo 4.0 como parte del programa TAP100 de Teams, es posible que tenga que hacer lo siguiente para permitir que los usuarios aprobados en el anillo 3.0 puedan acceder a la aplicación Teams Learning (versión preliminar privada).
 
-Como parte de la versión preliminar privada, la aplicación Teams Learning (versión preliminar privada) se publica en el anillo 3.0. Si su organización se encuentra en el anillo 4.0, no verá la aplicación en la tienda de aplicaciones. Para probar la aplicación, debe crear una directiva de permisos de aplicaciones personalizada, establecerla en Permitir todas las aplicaciones y asignarla a los usuarios aprobados de Llamada 3.0.
+Como parte de la versión preliminar privada, la aplicación Teams Learning (versión preliminar privada) se publica en el anillo 3.0. Si su organización está en el anillo 4.0, no verá la aplicación en la tienda de aplicaciones. Para probar la aplicación, debe crear una directiva de permisos de aplicaciones personalizada, establecerla en Permitir todas las aplicaciones y asignarla a los usuarios aprobados de Llamada 3.0.
 
    ![Página TAP-AppsPermission-Plcy que muestra Permitir todas las aplicaciones seleccionadas](media/learning-app-tap-appspermission-plcy.png)
 
@@ -70,7 +70,7 @@ Como parte de la versión preliminar privada, la aplicación Teams Learning (ver
 
 Los administradores del Centro de administración de Microsoft 365 pueden administrar la configuración relacionada con la aplicación Teams Learning (versión preliminar privada) y pueden configurar los orígenes de contenido de aprendizaje.
 
-El administrador selecciona los orígenes de contenido de aprendizaje (como LinkedIn Learning o SharePoint) que estarán disponibles en la aplicación. A continuación, el administrador configura esos orígenes para asegurarse de que el contenido está disponible para la búsqueda y detección y puede ser examinada por los empleados que usan la aplicación.
+El administrador selecciona qué orígenes de contenido de aprendizaje (como LinkedIn Learning o SharePoint) estarán disponibles en la aplicación. A continuación, el administrador configura esos orígenes para asegurarse de que el contenido está disponible para búsqueda y detección y puede ser examinada por los empleados que usan la aplicación.
 
 ### <a name="configure-settings-for-the-learning-content-sources-for-the-app"></a>Configurar las opciones de los orígenes de contenido de aprendizaje para la aplicación
 
@@ -97,13 +97,13 @@ Entre todas las fuentes de aprendizaje que existen, algunas de ellas estarán ha
 
 Es posible que otros orígenes deba habilitarse o configurarse manualmente. Las fuentes de aprendizaje que no son de Microsoft tienen licencia por separado entre su organización y los terceros. Deberá comprobar que se ha registrado para su aprendizaje para usted y sus usuarios.
 
-Para habilitar o deshabilitar un origen de contenido de aprendizaje, active la casilla situada junto al origen. Si un origen está habilitado, se podrá ver una marca de verificación.
+Para habilitar o deshabilitar un origen de contenido de aprendizaje, active la casilla situada junto al origen. Si se habilita un origen, se podrá ver una marca de verificación.
 
 ## <a name="configure-sharepoint-as-a-learning-content-source-coming-soon"></a>Configurar SharePoint como un origen de contenido de aprendizaje (Próximamente)
 
 Configure SharePoint como un origen de contenido de aprendizaje para la aplicación Teams Learning (versión preliminar privada) en el Centro de administración de Microsoft 365.
 
-### <a name="overview"></a>Descripción general
+### <a name="overview"></a>Información general
 
 El administrador proporciona una dirección URL de sitio a la que el Servicio de aprendizaje puede crear un repositorio de contenido de aprendizaje centralizado vacío en forma de lista estructurada de SharePoint. Esta lista la puede usar la organización para hospedar vínculos a carpetas de SharePoint entre empresas que contienen contenido de aprendizaje. Los administradores son responsables de recopilar y curar una lista de direcciones URL de las carpetas. Estas carpetas solo deben incluir contenido que pueda estar disponible en la aplicación Teams Learning (versión preliminar privada).
 
@@ -113,11 +113,11 @@ Las direcciones URL de carpeta se pueden recopilar desde cualquier sitio de Shar
  
 ### <a name="learning-service"></a>Servicio de aprendizaje
 
-El Servicio de aprendizaje usa las direcciones URL de carpeta proporcionadas para obtener metadatos de todo el contenido almacenado en esas carpetas. 24 horas después de proporcionar la dirección URL de la carpeta en el repositorio centralizado, los empleados pueden buscar y usar el contenido de la empresa dentro de la aplicación. La eliminación de contenido del repositorio no es compatible en este momento. El contenido en superficie no involuntara solo se puede quitar suministrando una nueva DIRECCIÓN URL del sitio de SharePoint en el Centro de administración de Microsoft 365.
+El Servicio de aprendizaje usa las direcciones URL de carpeta proporcionadas para obtener metadatos de todo el contenido almacenado en esas carpetas. 24 horas después de proporcionar la dirección URL de la carpeta en el repositorio centralizado, los empleados pueden buscar y usar el contenido de la empresa dentro de la aplicación. En este momento no se admite la eliminación de contenido del repositorio. Solo se puede quitar el contenido en superficie involuntaramente suministrando una nueva dirección URL de sitio de SharePoint en el Centro de administración de Microsoft 365.
 
 ### <a name="configure-sharepoint-as-a-source"></a>Configurar SharePoint como origen
 
-Estos pasos los debe realizar el administrador de Microsoft 365.
+Estos pasos los realizará el administrador de Microsoft 365.
 
 1.  En el panel de navegación izquierdo del Centro de administración de Microsoft 365, vaya a **Configuración.**
  
@@ -134,7 +134,7 @@ Estos pasos los debe realizar el administrador de Microsoft 365.
    ![Navegación izquierda en SharePoint que muestra la sección Repositorio de contenido de la aplicación de aprendizaje](media/learning-app-content-repository-nav.png)
 
  
-5. En la **página Repositorio de contenido de la aplicación** de aprendizaje, rellene la lista de SharePoint con direcciones URL en las carpetas de contenido de aprendizaje.
+5. En la **página Repositorio de contenido de la aplicación** de aprendizaje, rellene la lista de SharePoint con direcciones URL para las carpetas de contenido de aprendizaje.
 
    1.   Seleccione **Nuevo** para ver el **panel Nuevo** elemento. 
 

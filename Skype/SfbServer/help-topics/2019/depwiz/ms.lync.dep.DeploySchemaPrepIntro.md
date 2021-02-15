@@ -24,6 +24,6 @@ ms.locfileid: "49836720"
 ---
 # <a name="prepare-schema-intro"></a>Preparar esquema (introducción)
  
-Para iniciar la tarea para ampliar el esquema de Skype Empresarial Server, empiece en la página **Preparar** esquema. Haga clic en **Siguiente** para continuar con la preparación del esquema.
+To start the task to extend the schema for Skype for Business Server, you begin on the **Prepare Schema** page. Haga clic en **Siguiente** para continuar con la preparación del esquema.
   
 

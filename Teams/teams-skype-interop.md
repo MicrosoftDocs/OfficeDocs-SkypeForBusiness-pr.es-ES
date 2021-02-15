@@ -24,7 +24,7 @@ ms.locfileid: "50055652"
 
 En este artículo se ofrece información general sobre las capacidades de interoperabilidad entre Microsoft Teams y Skype (consumidor). Obtenga información sobre cómo los usuarios de Teams y Skype se pueden comunicar a través de chats, llamadas y los controles de administración que se aplican.
 
-Los usuarios de Teams de su organización pueden chatear con usuarios de Skype y llamar a ellos usando su dirección de correo electrónico y viceversa.
+Los usuarios de Teams de su organización pueden chatear con usuarios de Skype y llamar a ellos mediante su dirección de correo electrónico y viceversa.
 
 - Los usuarios de Teams pueden buscar e iniciar una conversación privada solo para texto o una llamada de audio o vídeo con un usuario de Skype.
 - Los usuarios de Skype pueden buscar e iniciar una conversación privada solo para texto o una llamada de audio o vídeo con un usuario de Teams.
@@ -32,7 +32,7 @@ Los usuarios de Teams de su organización pueden chatear con usuarios de Skype y
 Estas funcionalidades están disponibles en el escritorio, en la web y en los clientes móviles (Android e iOS) tanto para Teams como para Skype. Para obtener una experiencia óptima, recomendamos la versión 8.58 de Skype y versiones posteriores.
 
 > [!NOTE]
-> Las capacidades de interoperabilidad de Teams y Skype analizadas en este artículo no están disponibles en implementaciones GCC, GCC High o DOD ni en entornos de nube privada.
+> Las funciones de interoperabilidad de Teams y Skype analizadas en este artículo no están disponibles en implementaciones GCC, GCC High o DOD, ni en entornos de nube privados.
 
 ## <a name="chat-and-calling-experience"></a>Experiencia de chat y llamadas
 
@@ -53,7 +53,7 @@ Los usuarios de Skype pueden buscar e iniciar un chat con un usuario de Teams me
 - Si el usuario de Teams selecciona Ver **mensajes,** el mensaje se muestra en Teams, lo que ayuda al usuario a decidir si desea aceptar o bloquear la conversación.
 
 > [!NOTE]
-> Si ha actualizado de Skype Empresarial a Teams y los usuarios están en modo Solo equipos, los chats y llamadas de los usuarios de Skype a los usuarios de Teams se entregan a Teams. Si los usuarios se encuentran en el modo Islas, los chats y las llamadas de los usuarios de Skype a los usuarios de Teams se entregan a Skype Empresarial.
+> Si ha actualizado de Skype Empresarial a Teams y los usuarios están en modo Solo equipos, los chats y llamadas de los usuarios de Skype a los usuarios de Teams se entregan a Teams. Si los usuarios se encuentran en el modo Islas, los chats y llamadas de los usuarios de Skype a los usuarios de Teams se entregan a Skype Empresarial.
 
 ### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>Un usuario de Teams bloquea o desbloquea un usuario de Skype
 
@@ -76,7 +76,7 @@ Los usuarios bloqueados de Skype, junto con otras personas y los números de tel
 
 Como administrador, puede usar el Centro de administración de Microsoft Teams o PowerShell para establecer la configuración de acceso externo para controlar si los usuarios de Teams de su organización pueden comunicarse con los usuarios de Skype. De forma predeterminada, esta función está activada para nuevos inquilinos. Sin embargo, hay un requisito previo para que el administrador de TI tenga que configurar el siguiente registro SRV de DNS si aún no está disponible para su dominio, por ejemplo, _sipfederationtls.contoso.com.  
 
-**Servicio**: sipfederationtls<br/>
+**Servicio:** sipfederationtls<br/>
 **Protocolo**: TCP<br/>
 **Prioridad**: 100<br/>
 **Peso**: 1<br/>
@@ -92,7 +92,7 @@ En el Centro de administración de Microsoft Teams, vaya a configuración para t
 ### <a name="using-powershell"></a>Con PowerShell
 
 Haga lo siguiente: 
-1. Use el [cmdlet Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) junto con el parámetro para controlar si los usuarios de ```EnablePublicCloudAccess``` Teams se pueden comunicar con usuarios de Skype. La configuración del parámetro permite ```true``` a los usuarios de Teams comunicarse con los usuarios de Skype. Puede usar el parámetro ```EnablePublicCloudAudioVideoAccess``` para habilitar o deshabilitar las llamadas de audio y vídeo.
+1. Use el [cmdlet Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) junto con el parámetro para controlar si los usuarios de ```EnablePublicCloudAccess``` Teams se pueden comunicar con usuarios de Skype. La configuración del parámetro permite ```true``` a los usuarios de Teams comunicarse con usuarios de Skype. Puede usar el parámetro ```EnablePublicCloudAudioVideoAccess``` para habilitar o deshabilitar las llamadas de audio y vídeo.
 
 2. Use el [cmdlet Set-CsTenantProviderprovider](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantPublicProvider) junto con el parámetro establecido en para que los usuarios de Teams puedan comunicarse ```Provider``` con los usuarios de ```"WindowsLive"``` Skype.
 

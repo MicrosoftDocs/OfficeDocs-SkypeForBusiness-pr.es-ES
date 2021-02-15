@@ -46,7 +46,7 @@ Si quiere que el operador automático enruta [](../set-up-holidays-in-teams.md) 
 
 # <a name="step-1brphone-number"></a>[Paso 1 <br> Número de teléfono](#tab/phone-number)
 
-Cada operador automático que cree requiere una cuenta de recurso. Esto es similar a una cuenta de usuario, excepto que la cuenta está asociada a un operador automático o a una cola de llamadas en lugar de a una persona. En este paso, crearemos la cuenta, le asignaremos una licencia de *Microsoft 365 Phone System - Usuario virtual* y, a continuación, asignaremos un número de servicio.
+Cada operador automático que cree requiere una cuenta de recurso. Esto es similar a una cuenta de usuario, excepto que la cuenta está asociada a un operador automático o a una cola de llamadas en lugar de a una persona. En este paso, crearemos la cuenta, le asignaremos una licencia de Sistema telefónico de *Microsoft 365:* licencia de usuario virtual y, a continuación, asignaremos un número de servicio.
 
 ### <a name="create-a-resource-account"></a>Crear una cuenta de recurso
 
@@ -136,7 +136,7 @@ Elegir las opciones de flujo de llamadas
 
     Si selecciona Redirigir **llamada, puede** elegir uno de los destinos de enrutamiento de llamadas.
 
-    Si selecciona las **opciones del** menú Reproducir, puede  elegir reproducir un archivo de **audio** o escribir un mensaje de saludo y elegir entre las opciones de menú y la búsqueda en directorios.
+    Si selecciona las **opciones del** menú Reproducir, puede elegir reproducir un archivo de **audio** o escribir un mensaje de saludo y, **después,** elegir entre las opciones de menú y la búsqueda en directorios.
 
     ![Captura de pantalla de la configuración de enrutamiento de llamadas](../media/auto-attendant-call-flow-route-call-message.png)
 
@@ -225,7 +225,7 @@ Cuando haya agregado todos los días festivos, haga clic en **Siguiente.**
 
 # <a name="step-6brdirectory-members"></a>[Paso 6: <br> Miembros del directorio](#tab/dial-scope)
 
-El *ámbito de marcado* define qué usuarios están disponibles en el directorio cuando un autor de llamada usa marcado por nombre o marcado por extensión. El valor predeterminado de **Todos los usuarios en** línea incluye todos los usuarios de su organización que son usuarios en línea con una licencia de Sistema telefónico.
+El *ámbito de marcado* define qué usuarios están disponibles en el directorio cuando un autor de llamada usa marcado por nombre o marcado por extensión. El valor predeterminado de **Todos los usuarios en línea** incluye todos los usuarios de su organización que son usuarios en línea con una licencia de Sistema telefónico.
 
 Puede incluir o excluir usuarios  específicos seleccionando  Grupo de usuarios personalizados en Incluir o Excluir y eligiendo uno o varios grupos de Microsoft 365, listas de distribución o grupos de seguridad.  Por ejemplo, es posible que desee excluir ejecutivos de su organización del directorio de marcación. (Si un usuario está en ambas listas, se excluirá del directorio).
 
@@ -245,7 +245,7 @@ Todos los operadores automáticos deben tener una cuenta de recursos asociada.  
 
 Para agregar una cuenta de recurso
 
-1. Haga **clic en Agregar** cuenta y busque la cuenta que desea agregar. Haga **clic en** Agregar y, a continuación, en **Agregar.**
+1. Haga **clic en Agregar** cuenta y busque la cuenta que desea agregar. Haga **clic en Agregar** y, a continuación, en **Agregar.**
 
     ![Captura de pantalla del panel Agregar cuentas de la cuenta de recursos](../media/auto-attendant-add-resource-account.png)
 

@@ -42,7 +42,7 @@ Puede personalizar la configuración de las directivas de un paquete de directiv
 
 ## <a name="what-is-a-policy-package"></a>¿Qué es un paquete de directivas?
 
-Los paquetes de directiva le permiten controlar las características de Teams que quiere permitir o restringir para determinados conjuntos de usuarios en toda la organización. Cada paquete de directiva en Teams está diseñado en torno a un rol de usuario e incluye directivas predefinidas y configuraciones de directiva que admiten las actividades de colaboración y comunicación típicas para ese rol.
+Los paquetes de directiva le permiten controlar las características de Teams que quiere permitir o restringir para determinados conjuntos de usuarios en toda la organización. Cada paquete de directiva en Teams está diseñado en torno a un rol de usuario e incluye directivas predefinidas y configuraciones de directiva que admiten las actividades de colaboración y comunicación que son comunes para ese rol.
 
 Los paquetes de directiva admiten los siguientes tipos de directiva de Teams:
 
@@ -67,7 +67,7 @@ Teams incluye actualmente los siguientes paquetes de directiva.
 |Administrador de frontline manager |Crea un conjunto de directivas y aplica esa configuración a los administradores de frontlines de su organización. |
 |Trabajador de la primera línea |Crea un conjunto de directivas y aplica esa configuración a los trabajadores de la línea frontal de su organización. |
 |Trabajador sanitario  |Crea un conjunto de directivas y configuraciones de directivas que proporciona a los trabajadores clínicos como enfermeras registradas, enfermeras responsables, médicos y trabajadores sociales acceso total a chat, llamadas, administración de turnos y reuniones. |
-|Trabajador de la información sanitaria  |Crea un conjunto de directivas y configuraciones de directivas que proporciona a los trabajadores de la información, como el personal de IT, el personal de informática, el personal de finanzas y los responsables de cumplimiento normativo, acceso total a chats, llamadas y reuniones.|
+|Trabajador de la información sanitaria  |Crea un conjunto de directivas y configuraciones de directivas que proporciona a los trabajadores de la información, como el personal de IT, el personal de informática, el personal financiero y los responsables de cumplimiento normativo, acceso total a chats, llamadas y reuniones.|
 |Sala de pacientes sanitarios  |Crea un conjunto de directivas y configuraciones de directivas que se aplican a las salas de pacientes de su organización sanitaria.|
 |Usuario de una empresa pequeña y mediana (Business Voice) |Crea una directiva de configuración de aplicaciones que incluye las aplicaciones para una experiencia de voz empresarial.|
 |Usuario de una empresa pequeña y mediana (sin Business Voice) |Crea una directiva de configuración de aplicación relevante para los usuarios de Teams para pequeñas y medianas empresas (experiencia que no sea de Voz empresarial).
@@ -76,7 +76,7 @@ Teams incluye actualmente los siguientes paquetes de directiva.
 > [!NOTE]
 > Agregaremos más paquetes de directivas en futuras versiones de Teams, así que vuelve a comprobar la información más actualizada.  
 
-A cada directiva individual se le da el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas.
+A cada directiva individual se le da el nombre del paquete de directiva para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas.
 Por ejemplo, al asignar el paquete de directivas educación (para profesores) a los profesores de su centro educativo, se crea una directiva denominada Education_Teacher para cada directiva del paquete.
 
 ![Captura de pantalla del paquete de directivas de Educación (para profesores)](media/policy-packages-education_teacher.png)
@@ -87,7 +87,7 @@ Por ejemplo, al asignar el paquete de directivas educación (para profesores) a 
 
 Los paquetes de directivas personalizadas te permiten agrupar tu propio conjunto de directivas para usuarios con roles similares en tu organización. Crea tus propios paquetes de directivas agregando los tipos de directiva y las directivas que necesites.
 
-Para crear un nuevo paquete de directivas personalizado:
+Para crear un nuevo paquete de directiva personalizada:
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, seleccione **Paquetes de directiva** y haga clic en **Agregar.**
     :::image type="content" source="media/policy-packages-add.png" alt-text="Captura de pantalla del botón Agregar en la página Paquetes de directivas del centro de administración":::
@@ -106,7 +106,7 @@ En los siguientes esquemas se describe cómo usar paquetes de directivas en tu o
 
     Si se elimina una directiva, aún podrá ver la configuración, pero no podrá cambiar ninguna configuración. Una directiva eliminada se vuelve a crear con la configuración predefinida al asignar el paquete de directiva.
 
-- **[Personalizar:](#customize-policies-in-a-policy-package)** personalice la configuración de directivas en el paquete de directivas para adaptarla a las necesidades de su organización.
+- **[Personalizar:](#customize-policies-in-a-policy-package)** personalice la configuración de directivas del paquete de directivas para adaptarla a las necesidades de su organización.
 
 - **[Asignar:](#assign-a-policy-package)** asigna el paquete de directiva a los usuarios.  
 
@@ -118,11 +118,11 @@ Estos son los pasos para ver, asignar y personalizar paquetes de directiva en el
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>Ver la configuración de una directiva en un paquete de directiva
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, seleccione Paquetes de directiva **y,** a continuación, seleccione un paquete de directiva haciendo clic a la izquierda del nombre del paquete.
-2. Haga clic en la directiva que quiera ver.
+2. Haga clic en la directiva que desea ver.
 
-### <a name="customize-policies-in-a-policy-package"></a>Personalizar directivas en un paquete de directiva
+### <a name="customize-policies-in-a-policy-package"></a>Personalizar directivas en un paquete de directivas
 
-Puede editar la configuración de una directiva a través de la página **Paquetes** de directiva o directamente en la página de directivas del centro de administración de Microsoft Teams.
+Puede editar la configuración de una directiva a través de la página **Paquetes** de directiva o directamente en la página de directivas del Centro de administración de Microsoft Teams.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, realice una de las siguientes acciones:
     - Haz **clic en Paquetes** de directiva y, a continuación, selecciona el paquete de directivas haciendo clic a la izquierda del nombre del paquete.

@@ -48,7 +48,7 @@ A medida que el directorio de su organización se actualiza para incluir nuevos 
 > - Si no ve la  opción para toda la organización al crear un equipo y es el administrador global, es posible que haya alcanzado el límite de cinco equipos de toda la organización o que su organización tenga más de 10 000 miembros en este momento. Buscamos aumentar este límite en el futuro. Los equipos de toda la organización aún no están disponibles para Teams educativo.
 > - Las habitaciones que no son parte de una lista de habitaciones, equipo, y cuentas de recursos pueden ser agregadas o sincronizadas con el equipo de toda la organización. Los dueños de los equipos pueden eliminar fácilmente estas cuentas del equipo.
 > - Todas las acciones del sistema para añadir o eliminar miembros se publican en el Canal general. El canal también será marcado como con nueva actividad en el cliente de Teams.
-> - Crearemos automáticamente un equipo para toda la organización si su organización es la primera vez que utiliza Teams y no tiene más de 10 000 usuarios. El nombre del equipo reflejará el nombre del inquilino y tendrá un Canal general. Los administradores globales pueden editar este equipo como cualquier otro equipo. 
+> - Crearemos automáticamente un equipo para toda la organización para su organización si su organización es nueva en Teams y no tiene más de 10 000 usuarios. El nombre del equipo reflejará el nombre del inquilino y tendrá un Canal general. Los administradores globales pueden editar este equipo como cualquier otro equipo. 
 
 ## <a name="best-practices"></a>Procedimientos recomendados
 

@@ -32,7 +32,7 @@ Para administrar el acceso a Teams en el nivel de usuario, asigne o quite una li
 
 De forma predeterminada, cuando se asigna a un usuario un plan de licencias (por ejemplo, Microsoft 365 Enterprise E3 o Microsoft 365 Business Premium), se asigna automáticamente una licencia de Teams y se habilita al usuario para Teams. Puede deshabilitar o habilitar Teams para un usuario quitando o asignando una licencia en cualquier momento.
 
-Use las directivas de mensajería, administradas desde el Centro de administración <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">de Teams,</a>para controlar las características de mensajería de canal y chat disponibles para los usuarios de Teams. Puede usar la directiva predeterminada o bien crear una o más directivas de mensajería personalizadas para los miembros de su organización. Para obtener más información, lea [Administrar directivas de mensajería en Teams](messaging-policies-in-teams.md).
+Use las directivas de mensajería, administradas desde el Centro de administración <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">de Teams,</a>para controlar las características de mensajería de canal y chat que están disponibles para los usuarios en Teams. Puede usar la directiva predeterminada o bien crear una o más directivas de mensajería personalizadas para los miembros de su organización. Para obtener más información, lea [Administrar directivas de mensajería en Teams](messaging-policies-in-teams.md).
 Puede administrar las licencias de Teams en el Centro de administración de Microsoft 365 o mediante PowerShell. Debe ser administrador global o administrador de administración de usuarios para poder administrar las licencias.
 
 > [!NOTE]
@@ -44,7 +44,7 @@ Las licencias a nivel de usuario de Teams se administran directamente a través 
 
 > [!IMPORTANT]
 > El administrador debe tener privilegios de Administrador global o Administrador de administración de usuarios para poder administrar las licencias de Microsoft Teams.
-Use el Centro de administración de Microsoft 365 para administrar las licencias de Teams para usuarios individuales o conjuntos pequeños de usuarios a la vez. Puede administrar las licencias  de Teams en la página Licencias (para un máximo de 20 usuarios a la vez) o la página **Usuarios activos.** El método que elija dependerá de si desea administrar licencias de producto para usuarios específicos o administrar licencias de usuario para productos específicos.
+Use el Centro de administración de Microsoft 365 para administrar las licencias de Teams para usuarios individuales o conjuntos pequeños de usuarios a la vez. Puede administrar las licencias  de Teams en la página Licencias (para un máximo de 20 usuarios a la vez) o la página **Usuarios activos.** El método que elija dependerá de si desea administrar las licencias de producto para usuarios específicos o administrar licencias de usuario para productos específicos.
 
 Si necesita administrar licencias de Teams para un gran número de usuarios, como cientos o miles de usuarios, [use PowerShell](#using-powershell) o licencias basadas en grupos en [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) 
 
@@ -94,7 +94,7 @@ Ejecute el siguiente comando para mostrar todos los planes de licencias disponib
 Get-MsolAccountSku
 ```
 
-Ejecute los comandos siguientes, donde se encuentra el nombre de su organización y el identificador del plan de licencias que resalte \<CompanyName:License> en el paso anterior. Por ejemplo, ContosoSchool:ENTERPRISEPACK_STUDENT.
+Ejecute los comandos siguientes, donde se encuentra el nombre de la organización y el identificador del plan de licencias que resalte \<CompanyName:License> en el paso anterior. Por ejemplo, ContosoSchool:ENTERPRISEPACK_STUDENT.
 
 ```powershell
 $acctSKU="<CompanyName:License>

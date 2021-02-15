@@ -29,7 +29,7 @@ ms.locfileid: "49944595"
 
 La aplicación Walkie-talkie de Teams proporciona comunicación instantánea de pulsar y hablar (PTT) para su equipo y ahora está disponible en Android. Walkie-talkie permite a los usuarios conectarse con su equipo usando los mismos canales subyacentes a los que son miembros. Solo los usuarios que se conectan a Walkie-talkie en un canal se convierten en participantes y pueden comunicarse entre sí mediante pulsar para hablar, de uno en uno.
 
-Con Walkie-talkie en Teams, los trabajadores de la línea frontal ahora se pueden comunicar de forma segura con una conocida experiencia PTT sin tener que transportar radios masivos, y Walkie-talkie funciona en cualquier lugar con conectividad a Internet WiFi o móvil.
+Con Walkie-talkie en Teams, los trabajadores de la línea frontal ahora se pueden comunicar de forma segura con una conocida experiencia PTT sin tener que transportar radios masivos, y Walkie-talkie funciona en cualquier lugar con conectividad a Internet wiFi o móvil.
 
 ## <a name="getting-started"></a>Introducción
 
@@ -65,7 +65,7 @@ Walkie-talkie en Teams requiere conectividad a Internet y por debajo de las cond
 
 Como se indicó anteriormente, la calidad de los medios en tiempo real sobre una red IP se encuentra muy afectada por la calidad de la conectividad de la red, pero especialmente por la cantidad de:
 
-- **Latencia:** este es el tiempo que se tarda en obtener un paquete IP desde el punto A al punto B en la red. Este retraso en la propagación de red básicamente está vinculado a la distancia física entre los dos puntos y a la velocidad de luz, incluidas las sobrecargas adicionales tomadas por los diversos enrutadores entre ellos. La latencia se mide como tiempo de ida y vuelta (RTT).
+- **Latencia:** este es el tiempo que se tarda en obtener un paquete IP desde el punto A al punto B en la red. Este retraso en la propagación por la red básicamente está vinculado a la distancia física entre los dos puntos y a la velocidad de luz, incluidas las sobrecargas adicionales tomadas por los diversos enrutadores entre ellos. La latencia se mide como tiempo de ida y vuelta (RTT).
 - **Pérdida de paquetes:** esto se suele definir como un porcentaje de paquetes que se pierden en un determinado período de tiempo. La pérdida de paquetes afecta directamente a la calidad del audio: desde pérdidas pequeñas e individuales de paquetes que apenas afecten al audio, hasta pérdidas de ráfagas completas que causen cortes completos de audio.
 - **Vibración:** este es el cambio medio de retraso entre paquetes sucesivos.
 
@@ -97,7 +97,7 @@ La aplicación Walkie-talkie se incluye en todas las licencias pagadas de Teams 
 
 - Los administradores de IT pueden mantener el control sobre quién usa Walkie-talkie a través de las directivas de aplicaciones.
 - Si su trabajador de la línea frontal usa datos móviles para comunicarse a través de Teams, Walkie-talkie usará el mismo método.
-- Walkie-talkie debe funcionar bien en situaciones de ancho de banda bajo o en situaciones en las que tu smartphone esté conectado y funcionando. Walkie-talkie no funcionará cuando no haya conectividad en absoluto.
+- Walkie-talkie debe funcionar bien en situaciones de ancho de banda bajo o en situaciones en las que tu smartphone esté conectado y funcionando. Walkie-talkie no funcionará cuando no haya conectividad.
 
 Para obtener más información sobre la experiencia del usuario final, vea:
 

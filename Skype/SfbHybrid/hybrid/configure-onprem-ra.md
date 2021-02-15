@@ -22,7 +22,7 @@ ms.locfileid: "49919016"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
-Las implementaciones híbridas de Skype Empresarial Server 2019 solo usan los servicios en la nube proporcionados por el sistema telefónico para la mensajería unificada y no se integran con Exchange Online. En Skype Empresarial Server 2019 ahora puede usar las colas de llamadas en la nube y los operadores automáticos que se describen en Esto es lo que obtiene con El sistema telefónico en [Microsoft 365 u Office 365.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+Las implementaciones híbridas de Skype Empresarial Server 2019 solo usan los servicios en la nube proporcionados por El sistema telefónico para la mensajería unificada y no se integran con Exchange Online. En Skype Empresarial Server 2019 ahora puede usar las colas de llamadas en la nube y los operadores automáticos que se describen en Esto es lo que obtiene con El sistema telefónico en [Microsoft 365 u Office 365.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 Para usar un operador automático del sistema telefónico o una cola de llamadas con Skype Empresarial Server 2019, deberá crear cuentas de recursos que actúen como extremos de la aplicación y que se puedan asignar números de teléfono y, a continuación, usar el Centro de administración de Teams en línea para configurar la cola de llamadas o el operador automático. Esta cuenta de recurso se puede hospedar en línea (vea Administrar cuentas de recursos en [Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para crear cuentas de recursos en línea) o local, como se describe en este artículo. Normalmente, tendrá varios nodos de operador automático o cola de llamadas del sistema telefónico, cada uno de los cuales se asigna a una cuenta de recursos, que se puede hospedar en línea o en Skype Empresarial Server 2019.
 
@@ -58,7 +58,7 @@ Crear una cuenta de recurso que use un número de teléfono requeriría realizar
 
 1. Portabilidad u obtener un número de servicio gratuito o de pago. El número no se puede asignar a ninguna otra cuenta de recursos o servicios de voz.
 
-   Antes de asignar un número de teléfono a una cuenta de recursos, deberá obtener o portabilidad los números de servicio de pago o gratuitos existentes. Después de obtener los números de teléfono de servicio de pago o gratuitos, se mostrarán en los números de teléfono de voz del Centro de administración de **Microsoft Teams** y el tipo de número que aparece aparecerá como Servicio - Número  >    >  gratuito.   Para obtener sus números de servicio, consulte [Obtener](/MicrosoftTeams/getting-service-phone-numbers) números de teléfono de servicio o si desea transferir un número de servicio existente, consulte Transferir números de teléfono [a Teams.](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
+   Antes de asignar un número de teléfono a una cuenta de recursos, deberá obtener o portabilidad los números de servicio de pago o gratuitos existentes. Después de obtener los números de teléfono de servicio de pago o gratuitos, se mostrarán en los números de teléfono de voz del Centro de administración de **Microsoft Teams** y el tipo de número que aparece aparecerá como  >    >   **Servicio -** Gratuito.  Para obtener sus números de servicio, consulte [Obtener](/MicrosoftTeams/getting-service-phone-numbers) números de teléfono de servicio o si desea transferir un número de servicio existente, consulte Transferir números de teléfono [a Teams.](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
 
    Si está fuera de los Estados Unidos, no puede usar el Centro de administración de Microsoft Teams para obtener números de servicio. Vaya a [Administrar números de teléfono de su organización](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) para ver cómo hacerlo desde fuera de los Estados Unidos.
 
@@ -84,14 +84,14 @@ Crear una cuenta de recurso que use un número de teléfono requeriría realizar
 
     Consulta [Start-ADSyncSyncCycle para](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) obtener más información sobre este comando.
     
-    Nota: en este punto, es posible que la cuenta se haya sincronizado, pero es posible que el aprovisionamiento no esté completo.  Compruebe el resultado [de Get-CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  Si el punto de conexión sincronizado aún no ha completado el aprovisionamiento, no aparecerá aquí.  Puede comprobar el estado de las solicitudes de aprovisionamiento en el portal de M365 en [Estado de instalación de Teams.](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning)  Esta fase de aprovisionamiento puede tardar hasta 24 horas.
+    Nota: en este punto, es posible que la cuenta se haya sincronizado, pero es posible que el aprovisionamiento no se haya completado.  Compruebe el resultado [de Get-CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  Si el punto de conexión sincronizado aún no ha completado el aprovisionamiento, no aparecerá aquí.  Puede comprobar el estado de las solicitudes de aprovisionamiento en el portal de M365 en [Estado de instalación de Teams.](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning)  Esta fase de aprovisionamiento puede tardar hasta 24 horas.
 
 5. Asignar la licencia sistema telefónico: usuario virtual o sistema telefónico a la cuenta de recurso. Consulte [Asignar licencias de complementos de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) y Asignar licencias a los [usuarios.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
 
    Si asigna un número de teléfono a una cuenta de recursos, ahora puede usar la licencia gratuita Sistema telefónico - Usuario virtual. Esto proporciona funcionalidades de Sistema telefónico a los números de teléfono en el nivel de la organización y le permite crear funciones de operador automático y cola de llamadas.
 
 
-6. Asigne el número de servicio a la cuenta del recurso. Use el comando para asignar un número de teléfono (con la `Set-CsHybridApplicationEndpoint` opción -LineURI) a la cuenta del recurso.
+6. Asigne el número de servicio a la cuenta de recurso. Use el comando para asignar un número de teléfono (con la `Set-CsHybridApplicationEndpoint` opción -LineURI) a la cuenta del recurso.
 
     ``` Powershell
     Set-CsHybridApplicationEndpoint -Identity appinstance01@contoso.com -LineURI tel:+14255550100
@@ -105,7 +105,7 @@ Crear una cuenta de recurso que use un número de teléfono requeriría realizar
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-   La cuenta de recursos necesitará un número de teléfono asignado si se asignará a un operador automático de nivel superior o a una cola de llamadas. Los números de teléfono de usuario (suscriptor) no se pueden asignar a una cuenta de recursos, solo se pueden usar números de teléfono gratuitos o de pago.
+   La cuenta de recurso necesitará un número de teléfono asignado si se asignará a un operador automático de nivel superior o a una cola de llamadas. Los números de teléfono de usuario (suscriptor) no se pueden asignar a una cuenta de recursos, solo se pueden usar números de teléfono gratuitos o de pago.
 
      Puedes asignar un enrutamiento directo o un número híbrido a tu cuenta de recurso. Para obtener más información, consulte [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) and Plan Cloud auto [attendants](plan-cloud-auto-attendant.md).
 
@@ -189,7 +189,7 @@ La migración de la mensajería unificada de Exchange al sistema telefónico req
 
    En este punto, si ya ha migrado el correo de voz de mensajería unificada, debería estar en una posición para migrar a Exchange Server 2019.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)
 

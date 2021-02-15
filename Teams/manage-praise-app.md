@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-description: Obtenga más información sobre la configuración de administración en la aplicación Elogiar en el Centro de administración de Microsoft Teams
+description: Más información sobre la configuración de administración en la aplicación Elogiar en el Centro de administración de Microsoft Teams
 ms.openlocfilehash: acb9d000aeec61daa35421c5ded389888032873f
 ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "50037856"
 
 La aplicación Elogiar en Microsoft Teams ayuda a los usuarios a mostrar su agradecimiento a los miembros de su organización o clase. Con una selección de conjuntos de distintivos entre los que elegir y la opción de crear sus propios distintivos, Elogiar está diseñado para ayudar a reconocer el esfuerzo realizado en la amplia gama de trabajo que hacen los usuarios de Teams, desde educadores hasta Trabajadores al frente. Para obtener más información, consulte [Enviar elogio a las personas.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
 
-Los administradores pueden controlar qué distintivos están disponibles para su organización desde el Centro de administración de Microsoft Teams. En el panel de navegación izquierdo, vaya **a aplicaciones de Teams > Administrar aplicaciones.** En la lista de aplicaciones, haga clic en **Elogiar** y, a continuación, **seleccione Configuración.**  Desde aquí, puede elegir habilitar los conjuntos de distintivo predeterminados e integrados y crear los distintivos personalizados.
+Los administradores pueden controlar qué distintivos están disponibles para su organización desde el Centro de administración de Microsoft Teams. En el panel de navegación izquierdo, vaya **a aplicaciones de Teams > Administrar aplicaciones.** En la lista de aplicaciones, haga clic en **Elogiar** y, a continuación, **seleccione Configuración.**  Desde aquí, puede elegir habilitar conjuntos de distintivos predeterminados e integrados y crear distintivos personalizados.
 
 ![Captura de pantalla de la pestaña Configuración de la aplicación Elogiar](media/manage-praise-app-settings.png)
 
@@ -46,7 +46,7 @@ El conjunto de distintivos predeterminado está diseñado para ayudar a los usua
 
 ### <a name="social-and-emotional-learning-badges-for-education"></a>Distintivos de aprendizaje social y emocional para la educación
 
-Los profesores pueden reconocer a alumnos individuales por sus logros y comportamientos en el aprendizaje social y emocional (SEL) con distintivos que ilustran estos conceptos.
+Los profesores pueden reconocer a alumnos individuales sus logros y comportamientos en el aprendizaje social y emocional (SEL) con distintivos que ilustran estos conceptos.
 
 ![Vista previa de los distintivos de aprendizaje social y emocional para la educación](media/sel-edu-set-praise.png)
 
@@ -68,7 +68,7 @@ Seleccione **Crear un distintivo personalizado.** Desde aquí, puede diseñar un
 3. Cargar una imagen de insignia. El tipo de archivo aceptado es . PNG. El archivo de imagen debe ser inferior a 40 KB con unas dimensiones máximas de 216 x 216 píxeles.
 ![Distintivo con los campos de fondo, texto e imagen etiquetados](media/praise-app-badge-fields.png)
 
-4. Localiza el nombre del distintivo: en **Nombres de distintivo localizados,** selecciona **Agregar.** Seleccione la configuración regional que quiera de la lista desplegable. A continuación, escriba el nombre del distintivo en el idioma designado.
+4. Localizar el nombre del distintivo: en **Nombres de distintivo localizados,** seleccione **Agregar.** Seleccione la configuración regional que quiera de la lista desplegable. A continuación, escriba el nombre del distintivo en el idioma designado.
 
 5. Excluir el distintivo de configuraciones regionales específicas: En **Excluir distintivo de estas configuraciones** regionales, seleccione **Agregar.** Seleccione las configuraciones regionales que desee excluir de la lista desplegable.
 
@@ -112,7 +112,7 @@ A continuación se muestra una lista de colores de ejemplo para empezar:
 
 **Si la imagen del distintivo no es rectangular, haga la imagen transparente.** Tendrá que hacer esto antes de cargar el archivo de imagen en Elogiar.
 
-![Left: badge with non-transparent image, right: badge with transparent image](media/praise-app-best-practices.png)
+![Izquierda: distintivo con imagen no transparente, derecha: distintivo con imagen transparente](media/praise-app-best-practices.png)
 
 ## <a name="badge-set-assets"></a>Activos del conjunto de distintivos
 
@@ -124,7 +124,7 @@ Los conjuntos de distintivos integrados no se pueden modificar, por lo que, cuan
 
 |Nombre del distintivo     |Archivo de imagen  |Color del texto | Color de fondo |
 |---------------|------------|---------- |--------|
-|Logre       |[Consigue PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
+|Logre       |[Conseguir PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
 |Increíble        |[PNG increíble](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
 |Entrenador          |[Entrenador PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
 |Insaltez        |[Png png descánso](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
@@ -151,9 +151,9 @@ Los conjuntos de distintivos integrados no se pueden modificar, por lo que, cuan
 |Empatía           |[Emática PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/empathy-badge.png)|#FFFFFF    |#650B35|
 |Objetivo de la búsqueda      |[Png de la búsqueda de objetivos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/goal-pursuit-badge.png)|#FFFFFF    |#006F95|
 |Motivación        |[Motivación PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/motivation-badge.png)|#FFFFFF    |#C52127|
-|Persistición       |[Png de persistición](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/persistence-badge.png)|#FFFFFF    |#167D3E|
+|Persistición       |[Png de persistencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/persistence-badge.png)|#FFFFFF    |#167D3E|
 |Respetar           |[Respetar PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/respect-badge.png)|#FFFFFF    |#8251A0|
 |Responsabilidad    |[PNG de responsabilidad](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/responsibility-badge.png)|#FFFFFF    |#B05DA3|
-|Conciencia de uno mismo    |[PNG de conciencia personal](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
+|Conciencia de uno mismo    |[PNG de conciencia de uno mismo](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
 |Administración por su cuenta   |[PNG de administración independiente](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
 |Ideación    |[Thought png](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|

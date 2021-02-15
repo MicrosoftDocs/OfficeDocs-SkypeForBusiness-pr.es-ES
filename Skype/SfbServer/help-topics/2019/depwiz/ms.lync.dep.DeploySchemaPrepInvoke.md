@@ -24,7 +24,7 @@ ms.locfileid: "49836710"
 ---
 # <a name="prepare-schema-invoke"></a>Preparar esquema (invocar)
  
-La **página Ejecutar comandos** muestra un resumen de los comandos emitidos para ampliar el esquema de Skype Empresarial Server. Una vez completadas las tareas, el panel de resumen indicará si las tareas se han realizado correctamente o si han fallado. Revise la pantalla de resumen y asegúrese de que el estado de **tarea:** Completado se muestra en el panel de resumen. La lista desplegable en el panel de resumen permite seleccionar y ver el archivo de registro Preparar esquema. Haga **clic en Ver registro** para revisar el archivo de registro. Si recibió errores durante la preparación del esquema, los errores detectados en la tarea se registran aquí. A continuación, puede tomar medidas para corregir cualquier error y volver a ejecutar la preparación del esquema.
+La **página Ejecutar comandos** muestra un resumen de los comandos emitidos para ampliar el esquema de Skype Empresarial Server. Una vez completadas las tareas, el panel de resumen indicará si las tareas se han realizado correctamente o si han fallado. Revise la pantalla de resumen y asegúrese de que el estado de **tarea:** Completado se muestra en el panel de resumen. La lista desplegable en el panel de resumen le permite seleccionar y ver el archivo de registro Preparar esquema. Haga **clic en Ver registro** para revisar el archivo de registro. Si recibió errores durante la preparación del esquema, los errores detectados en la tarea se registran aquí. A continuación, puede tomar medidas para corregir cualquier error y volver a ejecutar la preparación del esquema.
   
 Haga clic en **Finalizar** para completar la tarea.
   

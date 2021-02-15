@@ -63,7 +63,7 @@ Teams ofrece la posibilidad de que los organizadores puedan crear un evento con 
 ![la pantalla de Nuevos eventos en directo](../media/teams-live-events-schedule.png "Captura de pantalla de la pantalla de Nuevo evento en directo para crear y programar un nuevo evento en directo")
 
 > [!IMPORTANT]
-> Teams no permite a los usuarios programar reuniones o eventos en directo cuando están desconectados o con ancho de banda limitado.
+> Microsoft Teams no permitirá que los usuarios programen reuniones o eventos en directo cuando estén desconectados o tengan un ancho de banda limitado.
 
 ### <a name="production"></a>Producción
 

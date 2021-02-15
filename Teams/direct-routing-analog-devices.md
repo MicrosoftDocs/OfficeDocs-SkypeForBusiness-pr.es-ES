@@ -48,7 +48,7 @@ Este ejemplo le guiará por los pasos siguientes:
 6. Asigne la directiva de ruta de voz al usuario.
 7. Crea una ruta de voz para un dispositivo analógico.
 
-Para obtener información sobre cómo conectar un ATA a un SBC y configurar el SBC, consulte la guía de configuración del fabricante de SBC:
+Para obtener información sobre cómo conectar un ATA a un SBC y configurarlo, consulte la guía de configuración del fabricante de SBC:
 
 - [Documentación de configuración de AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
 

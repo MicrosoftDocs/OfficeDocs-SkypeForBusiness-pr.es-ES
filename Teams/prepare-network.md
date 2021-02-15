@@ -30,7 +30,7 @@ ms.locfileid: "50099581"
 
 ## <a name="network-requirements"></a>Requisitos de red
 
-Si ya ha optimizado su red para [Microsoft 365 u Office 365,](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)ya está listo para Microsoft Teams. En cualquier caso, y especialmente si está implementando Teams rápidamente como su primera carga de trabajo de Microsoft 365 u Office 365 para dar soporte a los trabajadores **remotos,** compruebe lo siguiente antes de comenzar la implementación de Teams:
+Si ya ha optimizado su red para [Microsoft 365 u Office 365,](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)ya está listo para Microsoft Teams. En cualquier caso, y especialmente si está implementando Teams rápidamente como su primera carga de trabajo de Microsoft 365 u Office 365 para dar soporte a los trabajadores **remotos,** compruebe lo siguiente antes de comenzar el lanzamiento de Teams:
 
 1.  ¿Todas las ubicaciones tienen acceso a Internet (para que puedan conectarse a Microsoft 365 u Office 365)? Como mínimo, además del tráfico web normal, asegúrese de que ha abierto lo siguiente, para todas las ubicaciones, para los elementos multimedia en Teams:
 
@@ -47,7 +47,7 @@ Si ya ha optimizado su red para [Microsoft 365 u Office 365,](https://docs.micro
     >|sip     |    3600     |    sipdir.online.lync.com     |
     >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
     
-2.  ¿Tiene un dominio comprobado para Microsoft 365 u Office 365 (por ejemplo, contoso.com)?
+2.  ¿Tiene un dominio comprobado de Microsoft 365 u Office 365 (por ejemplo, contoso.com)?
     
     - Si su organización no ha lanzado Microsoft 365 u Office 365, consulte [Introducción.](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365)
     - Si su organización no ha agregado o configurado un dominio comprobado para Microsoft 365 u Office 365, consulte Las preguntas más frecuentes [sobre dominios.](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)
@@ -76,11 +76,11 @@ Las siguientes tareas son opcionales y no son necesarias para implementar Teams,
 
 Es posible que quiera realizar una optimización de red adicional si:
 
-  - Teams se ejecuta lentamente (es posible que no tenga ancho de banda suficiente)
+  - Teams se ejecuta lentamente (es posible que no tenga ancho de banda insuficiente)
   - Las llamadas se siguen soltando (puede deberse a bloqueadores de proxy o firewall)
-  - Las llamadas son estáticas y cortadas, o bien las voces suenan como vibración o pérdida de paquetes.
+  - Las llamadas son estáticas y cortadas, o las voces suenan como bandeja de salida (podría ser vibración o pérdida de paquetes)
 
-Para obtener una explicación detallada de la optimización de la red, incluidas instrucciones para identificar y corregir deficiencias de red, lea Principios de conectividad de red de [Microsoft 365 y Office 365.](https://aka.ms/pnc)
+Para obtener una explicación detallada de la optimización de la red, que incluye instrucciones para identificar y corregir deficiencias de red, lea Principios de conectividad de red de [Microsoft 365 y Office 365.](https://aka.ms/pnc)
 
 <table>
 <thead>
@@ -101,14 +101,14 @@ Para obtener una explicación detallada de la optimización de la red, incluidas
 </tr>
 <tr class="odd">
 <td>Resolución de nombres externos</td>
-<td>Asegúrese de que todos los equipos que ejecutan el cliente de Teams pueden resolver consultas DNS externas para detectar los servicios proporcionados por Microsoft 365 u Office 365 y que los firewalls no están impidiendo el acceso. Para obtener información sobre cómo configurar puertos de firewall, vaya a Direcciones URL e <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">intervalos IP de Microsoft 365 y Office 365.</a></td>
+<td>Asegúrese de que todos los equipos que ejecutan el cliente de Teams pueden resolver consultas DNS externas para detectar los servicios proporcionados por Microsoft 365 u Office 365 y que sus firewalls no están impidiendo el acceso. Para obtener información sobre cómo configurar puertos de firewall, vaya a Direcciones URL e <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">intervalos IP de Microsoft 365 y Office 365.</a></td>
 </tr>
 <tr class="odd">
 <td>Mantener la conservación de las sesiones</td>
 <td>Asegúrese de que el firewall no cambia las direcciones o puertos de UDP asignados para traducción de direcciones de red (NAT).</td>
 </tr><tr class="odd">
 <td>Validar el tamaño del grupo de NAT</td>
-<td>Valide el tamaño del grupo de servidores de traducción de direcciones de red (NAT) necesario para la conectividad de usuario. Cuando varios usuarios y dispositivos acceden a Microsoft 365 u Office 365 mediante la traducción de direcciones de red (NAT) o la traducción de direcciones de puerto <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">(PAT),</a>debe asegurarse de que los dispositivos ocultos detrás de cada dirección IP enrutable públicamente no superen el número admitido. Asegúrese de que se asignan direcciones IP públicas adecuadas a los grupos NAT para evitar que se agote el puerto. El agotar el puerto hará que los usuarios internos y los dispositivos no puedan conectarse al servicio de Microsoft 365 u Office 365.</td>
+<td>Valide el tamaño del grupo de servidores de traducción de direcciones de red (NAT) necesario para la conectividad de usuario. Cuando varios usuarios y dispositivos tienen acceso a Microsoft 365 u Office 365 mediante la traducción de direcciones de red (NAT) o la traducción de direcciones de puerto <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">(PAT),</a>debe asegurarse de que los dispositivos ocultos detrás de cada dirección IP enrutable públicamente no superen el número admitido. Asegúrese de que se asignan direcciones IP públicas adecuadas a los grupos NAT para evitar que se agoten los puertos. El agotar el puerto hará que los usuarios internos y los dispositivos no puedan conectarse al servicio de Microsoft 365 u Office 365.</td>
 </tr>
 <tr class="even">
 <td>Enrutamiento a centros de datos de Microsoft</td>
@@ -116,7 +116,7 @@ Para obtener una explicación detallada de la optimización de la red, incluidas
 </tr>
 <tr class="odd">
 <td>Guía de detección de intrusión y prevención</td>
-<td>Si su entorno <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools"></a> tiene implementado un sistema de detección de intrusión o prevención (IDS/IPS) para una capa adicional de seguridad para las conexiones salientes, asegúrese de permitir todas las direcciones URL de Microsoft 365 u Office 365.</td>
+<td>Si su entorno <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools"></a> tiene implementado un sistema de detección o prevención de intrusiones (IDS/IPS) para una capa adicional de seguridad para las conexiones salientes, asegúrese de permitir todas las direcciones URL de Microsoft 365 u Office 365.</td>
 </tr>
 <tr class="even">
 <td>Configurar vpn de túnel dividido</td>
@@ -126,7 +126,7 @@ Para obtener una explicación detallada de la optimización de la red, incluidas
 <li><p>Normalmente, las VPN no están diseñadas ni configuradas para admitir medios en tiempo real.</p></li> 
 <li><p>Es posible que algunas VPN tampoco admitan UDP (lo que es necesario para Teams).</p></li> 
 <li><p>Las VPN también introducen una capa adicional de cifrado sobre el tráfico multimedia que ya está cifrado.</p></li> 
-<li><p>Es posible que la conectividad con Teams no sea eficiente debido a que el tráfico se ancla a través de un dispositivo VPN.</p></li></td>
+<li><p>Puede que la conectividad con Teams no sea eficiente debido al tráfico anclado a través de un dispositivo VPN.</p></li></td>
 </tr>
 <tr class="odd">
 <td>Implementar QoS</td>
@@ -139,7 +139,7 @@ Para obtener una explicación detallada de la optimización de la red, incluidas
 <li><p>Implemente QoS o WiFi Multimedia (WMM) para asegurarse de que el tráfico multimedia se priorice adecuadamente sobre sus redes WiFi.</p></li>
 <li><p>Planee y optimice la ubicación de las bandas WiFi y los puntos de acceso. El intervalo de 2,4 GHz puede proporcionar una experiencia adecuada según la ubicación del punto de acceso, pero los puntos de acceso suelen verse afectados por otros dispositivos de consumidor que operan en ese intervalo. El intervalo de 5 GHz es más adecuado a los medios en tiempo real debido a su rango denso, pero requiere más puntos de acceso para obtener una cobertura suficiente. Los puntos de conexión también necesitan admitir esa gama y configurarlos para poder aprovechar esas bandas de forma adecuada.</p></li>
 <li><p>Si usa redes WiFi de doble banda, considere la posibilidad de implementar la dirección de banda. <em>La dirección</em> de banda es una técnica implementada por proveedores de WiFi para influir en clientes de banda dual para usar el intervalo de 5 GHz.</p></li>
-<li><p>Cuando los puntos de acceso del mismo canal están demasiado juntos, pueden causar solapamientos de señales y competencia involuntarla, lo que provoca una mala experiencia para el usuario. Asegúrese de que los puntos de acceso que están uno junto al otro están en canales que no se superponen.</p></li>
+<li><p>Cuando los puntos de acceso del mismo canal están demasiado juntos, pueden provocar solapamientos de señales y competencia involuntarla, lo que provoca una mala experiencia para el usuario. Asegúrese de que los puntos de acceso que están uno junto al otro están en canales que no se superponen.</p></li>
 </ul>
 <p>Cada proveedor inalámbrico tiene sus propias recomendaciones para implementar su solución inalámbrica. Consulte con su proveedor de WiFi para obtener instrucciones específicas.</p></td>
 </tr>

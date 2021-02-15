@@ -33,17 +33,17 @@ ms.locfileid: "49918986"
 
 Un PIN es un código formado por números que se crea para cada usuario de Microsoft Teams que está habilitado para audioconferencias. El PIN de audioconferencia lo usa el organizador de la reunión para identificarse como tal y poder iniciar una por teléfono. Si la reunión se inicia con la aplicación de Microsoft Teams, no se necesitará el PIN. Si un usuario olvida su PIN y no lo puede encontrar en el correo electrónico que se le envió cuando se le habilitó para audioconferencias, el administrador podrá restablecer su PIN o podrá hacerlo el mismo usuario.
   
-Las reuniones se pueden iniciar cuando un usuario autenticado se une mediante la aplicación de Microsoft Teams o cuando el organizador se une con su PIN a través del teléfono. Cuando una reunión necesita un PIN para empezar, los usuarios que se unan a la reunión por teléfono se colocarán en la sala de espera y escucharán música en espera hasta que se inicie la reunión. Si el organizador de la reunión no necesita un PIN para iniciar la reunión por teléfono, a los autores de la llamada no se les pedirá un PIN cuando se unan a la reunión.
+Las reuniones se pueden iniciar cuando un usuario autenticado se une mediante la aplicación de Microsoft Teams o cuando el organizador se une con su PIN por teléfono. Cuando una reunión necesita un PIN para empezar, los usuarios que se unan a la reunión por teléfono se colocarán en la sala de espera y escucharán música en espera hasta que se inicie la reunión. Si el organizador de la reunión no necesita un PIN para iniciar la reunión por teléfono, a los autores de la llamada no se les pedirá un PIN cuando se unan a la reunión.
 
 ## <a name="reset-a-users-pin"></a>Restablecer el PIN de un usuario
 
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
-1. En el panel de navegación izquierdo, **haga clic en Usuarios** y, a continuación, seleccione el usuario en la lista de usuarios disponibles.
+1. En el panel de navegación izquierdo, haga **clic en Usuarios** y, a continuación, seleccione el usuario en la lista de usuarios disponibles.
 
 2. Haga clic **en Editar.**
 
-3. En **Audioconferencia,** haga clic **en Restablecer PIN.**
+3. En **Audioconferencia, haga** clic en **Restablecer PIN.**
 
 4. Haga clic **en Restablecer.**
  
@@ -58,15 +58,15 @@ Las reuniones se pueden iniciar cuando un usuario autenticado se une mediante la
 
 ## <a name="what-else-should-you-know-about-pins"></a>¿Qué más tiene que saber sobre los códigos PIN?
 
-- Por motivos de seguridad, el PIN solo se muestra a un administrador una vez, cuando se restablece el PIN. Después de que un administrador restablezca el PIN, aparecerá como ***********.
+- Por motivos de seguridad, el PIN solo se muestra a un administrador una vez, cuando se restablece el PIN. Una vez que un administrador restablezca el PIN, este aparecerá como ***********.
     
-- El envío automático de correos electrónicos a los usuarios está habilitado de forma predeterminada, y los usuarios recibirán un correo electrónico con su PIN cuando están habilitados para la audioconferencia o cuando se restablece el PIN. Pero si deshabilitó el envío automático de correos electrónicos, no se enviará un correo electrónico de restablecimiento de PIN al usuario y tendrá que enviar manualmente la información del PIN al usuario.
+- El envío automático de correos electrónicos a los usuarios está habilitado de forma predeterminada, y los usuarios recibirán un correo electrónico con su PIN cuando están habilitados para audioconferencia o cuando se restablece el PIN. Pero si deshabilitó el envío automático de correos electrónicos, no se enviará un correo electrónico de restablecimiento de PIN al usuario y tendrá que enviar manualmente la información del PIN al usuario.
     
 - Cuando se inicia una reunión, todos los usuarios de la sala de espera se unirán automáticamente. Por ejemplo, si dos participantes intentan unirse a una reunión antes de que se haya iniciado, se colocarán en la sala de espera y escucharán música en espera, y cuando el organizador de la reunión se una con su PIN a través del teléfono, la reunión se iniciará y los participantes de la sala de espera se unirán a la reunión.
     
 - La configuración predeterminada es no permitir que autores de llamadas anónimos puedan iniciar una reunión.
     
-- Cuando se habilita a un usuario para las audioconferencias, de forma predeterminada se envían correos electrónicos con información sobre la conferencia y su PIN. El usuario debe tener un buzón de Microsoft 365 u Office 365, porque cuando se restablece un PIN, se enviará un nuevo PIN al usuario por correo electrónico a su dirección SMTP principal (alias) configurada para el usuario.
+- Cuando habilita a un usuario para la audioconferencia, de forma predeterminada se le envían correos electrónicos con información sobre la conferencia y su PIN. El usuario debe tener un buzón de Microsoft 365 u Office 365, porque cuando se restablece un PIN, se enviará un nuevo PIN al usuario por correo electrónico a su dirección SMTP principal (alias) configurada para el usuario.
     
 - Al configurar la audioconferencia, establezca los dígitos necesarios para los NÚMEROS PIN de su organización. Los códigos PIN pueden tener de 4 a 12 dígitos (el valor predeterminado es 5). Si cambia la configuración de longitud del PIN, la configuración solo se aplicará en los nuevos PIN y no se aplicará a la configuración de PIN de los usuarios existentes habilitados para audioconferencia. Vea [Establecer la longitud del PIN para las reuniones de Audioconferencia.](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)
     

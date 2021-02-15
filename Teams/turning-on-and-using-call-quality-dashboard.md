@@ -48,7 +48,7 @@ El CQD muestra la calidad de las llamadas y reuniones, a nivel de toda la organi
 
 Asigne [roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para acceder al CQD a las personas que necesitan usarlo.
 
-Si quiere que los usuarios que no son administradores (como ingenieros de soporte técnico y agentes del departamento de soporte técnico) usen el panel de calidad de llamadas, puede asignar a esos usuarios uno de los siguientes roles, que le da acceso al panel de calidad de llamadas. 
+Si desea que los usuarios que no son administradores (como ingenieros de soporte técnico y agentes del departamento de soporte técnico) usen el panel de calidad de llamadas, puede asignar a esos usuarios uno de los siguientes roles, que le da acceso al panel de calidad de llamadas. 
 
 
 |  |Ver informes  |Ver campos EUII  |Crear informes  |Cargar datos de creación  |
@@ -65,12 +65,12 @@ Si quiere que los usuarios que no son administradores (como ingenieros de soport
 <sup>1</sup> Además de leer los informes del CQD, el Lector de informes puede ver todos los informes de actividad en el centro de administración y los informes del paquete de contenido Adopción de [Microsoft 365.](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f) [](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 > [!NOTE]
-> Si no ve [EUII (información](CQD-data-and-reports.md#euii-data) de identificación del usuario final) y tiene una de las funciones a las que se permite ver esta información, tenga en cuenta que el CQD solo mantiene EUII durante 28 días. Se elimina cualquier cosa que no sea superior a 28 días.
+> Si no ve [EUII (información](CQD-data-and-reports.md#euii-data) de identificación del usuario final) y tiene una de las funciones a las que se permite ver esta información, tenga en cuenta que el CQD solo mantiene EUII durante 28 días. Se elimina cualquier cosa que sobresala más de 28 días.
 
 Para obtener más información sobre estos roles, consulte [Acerca de los roles de administrador de Office 365.](/office365/admin/add-users/about-admin-roles)
 
 
-Después de iniciar sesión por primera vez, el CQD comenzará a recopilar y procesar datos. A partir de diciembre de 2019, aún puede acceder a la versión anterior del CQD (cqd.lync.com), aunque el portal heredado le proporciona un vínculo al último CQD (cqd.teams.microsoft.com). Finalmente, se retirará la versión anterior del CQD. A partir del 1 de julio de 2020, la versión anterior del CQD accede a los datos del último CQD.
+Después de iniciar sesión por primera vez, el CQD comenzará a recopilar y procesar datos. A partir de diciembre de 2019, aún puede acceder a la versión anterior del CQD (cqd.lync.com), aunque el portal heredado le proporciona un vínculo al último CQD (cqd.teams.microsoft.com). Finalmente, se retirará la versión anterior del CQD. Desde el 1 de julio de 2020, la versión anterior del CQD accede a los datos del último CQD.
 
 
 ## <a name="migrate-building-data-and-reports-from-previous-version-of-cqd"></a>Migrar datos e informes de creación de la versión anterior del CQD

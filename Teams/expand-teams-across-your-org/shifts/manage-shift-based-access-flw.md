@@ -1,5 +1,5 @@
 ---
-title: Administrar el acceso basado en turnos para los trabajadores de la línea frontal en Teams
+title: Administrar el acceso basado en turnos para los Trabajadores de la línea frontal en Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaku
@@ -22,12 +22,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/20/2021
 ms.locfileid: "49909474"
 ---
-# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Administrar el acceso basado en turnos para los trabajadores de la línea frontal en Teams
+# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Administrar el acceso basado en turnos para los Trabajadores de la línea frontal en Teams
 
 > [!IMPORTANT]
-> A partir del 30 de junio de 2020, Se ha retirado Microsoft StaffHub. Estamos creando funciones de StaffHub en Microsoft Teams. Hoy en día, Teams incluye la aplicación Turnos para la administración de programación y otras funcionalidades se irán lanzando a lo largo del tiempo. StaffHub dejó de funcionar para todos los usuarios el 30 de junio de 2020. Cualquier persona que intente abrir StaffHub se mostrará un mensaje que le dirigirá a descargar Teams. Para obtener más información, [vea Microsoft StaffHub se ha retirado.](microsoft-staffhub-to-be-retired.md)  
+> A partir del 30 de junio de 2020, Se ha retirado Microsoft StaffHub. Estamos creando funciones de StaffHub en Microsoft Teams. Hoy en día, Teams incluye la aplicación Turnos para la administración de programación y se irán incorporando funciones adicionales a lo largo del tiempo. StaffHub dejó de funcionar para todos los usuarios el 30 de junio de 2020. Cualquier persona que intente abrir StaffHub se mostrará un mensaje que le dirigirá a descargar Teams. Para obtener más información, [vea Microsoft StaffHub se ha retirado.](microsoft-staffhub-to-be-retired.md)  
 
-## <a name="overview"></a>Descripción general
+## <a name="overview"></a>Información general
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -43,21 +43,21 @@ Este es un ejemplo de cómo su organización puede administrar el acceso basado 
 
 Tiene trabajadores de primera línea en su organización que solo deberían pagar por las horas que trabajan en un turno que su jefe programó y aprobó. No deben pagar por el tiempo invertido en trabajar fuera de un turno programado, lo que incluye el uso de la aplicación Teams. Usted configura un mensaje personalizado que dice "Su tiempo en Teams cuando está fuera del turno no cuenta para las horas de pago", que se muestra cuando los trabajadores de la línea frontal intentan acceder a Teams cuando está fuera de turno. Si deciden usar Teams, hacen clic en **Acepto** con la idea de que no se les pagará por este momento.
 
-También tiene en su organización trabajadores con salarios y que no trabajan en turnos. Configure a los trabajadores de la información para que usen los estados de presencia predeterminados en Teams mientras proporciona la presencia basada en turnos de los Trabajadores de la línea frontal.
+También tiene en su organización trabajadores con salarios y que no trabajan en turnos. Configure a sus trabajadores de la información para que usen los estados de presencia predeterminados en Teams mientras proporciona la presencia basada en turnos de los Trabajadores de la línea frontal.
 
-## <a name="shift-based-presence-states"></a>Estados de presencia basado en turnos
+## <a name="shift-based-presence-states"></a>Estados de presencia basados en turnos
 
 Estos son los estados de presencia basados en turnos.
 
 |Aplicación configurada |Configurado por el usuario  |Más información  |
 |---------|---------|---------|
-|![Marca de verificación verde sólida, indica Al desplazarse](../../media/flw-presence-on-shift.png) En turno     |         |Establecido automáticamente al comienzo de un turno         |
+|![Marca de verificación verde sólida, indica En turno](../../media/flw-presence-on-shift.png) En turno     |         |Establecido automáticamente al comienzo de un turno         |
 |![Círculo gris con x, indica Mayús desactivado](../../media/flw-presence-off-shift.png) Mayús desactivado     |         |Establecido automáticamente al final de un turno         |
-|![Círculo rojo sólido, indica Ocupado](../../media/flw-presence-busy.png) Ocupado      | ![Círculo rojo sólido, indica Ocupado](../../media/flw-presence-busy.png) Ocupado         |Establecido automáticamente. También se puede establecer manualmente cuando el trabajador de la línea frontal está en el turno.|
+|![Círculo rojo sólido, indica Ocupado](../../media/flw-presence-busy.png) Ocupado      | ![Círculo rojo sólido, indica Ocupado](../../media/flw-presence-busy.png) Ocupado         |Establecido automáticamente. También se puede establecer manualmente cuando el trabajador de la línea frontal está en turno.|
 
-## <a name="off-shift-access-to-teams"></a>Desactivar el acceso por turnos a Teams
+## <a name="off-shift-access-to-teams"></a>Acceso por turnos desactivado a Teams
 
-Esta característica le permite administrar el acceso a Teams cuando los Trabajadores de la línea frontal están fuera de turno. Puede configurar que Teams muestre un mensaje a los trabajadores de la línea frontal si acceden a Teams cuando están fuera de turno. Los trabajadores de primera línea **deben hacer clic en Aceptar** para aceptar el mensaje antes de que puedan usar Teams.
+Esta característica le permite administrar el acceso a Teams cuando los Trabajadores de la línea frontal están fuera de turno. Puede configurar que Teams muestre un mensaje a los trabajadores de la línea frontal si acceden a Teams cuando están fuera de turno. Los trabajadores de primera línea deben **hacer clic en Aceptar** para aceptar el mensaje antes de que puedan usar Teams.
 
 Puede usar el mensaje predeterminado, elegir entre un conjunto de mensajes predefinidos o personalizar el mensaje para mostrar el texto que desee. Este es el mensaje predeterminado:
 
@@ -81,7 +81,7 @@ Por ejemplo: Para obtener información detallada sobre cada parámetro y configu
 
 ### <a name="example-1"></a>Ejemplo 1
 
-En este ejemplo, creamos un nuevo mensaje predeterminado denominado Acceso a equipos de turnos. En esta directiva, la presencia basada en turnos está activada y el mensaje predeterminado se muestra cada vez que un usuario al que se le asigna esta directiva tiene acceso a Teams cuando está desactivado. El usuario puede usar Teams cuando está fuera del turno si acepta el mensaje y el período de gracia entre el momento en que comienza o termina el último turno y cuando se restringe el acceso es de 10 minutos.  
+En este ejemplo, creamos un nuevo mensaje predeterminado denominado Acceso a equipos de turnos. En esta directiva, la presencia basada en turnos está activada y el mensaje predeterminado se muestra cada vez que un usuario al que se le asigna esta directiva tiene acceso a Teams cuando está desactivado. El usuario puede usar Teams si está desactivado si acepta el mensaje y el período de gracia entre el momento en que comienza o termina el último turno y cuando se restringe el acceso es de 10 minutos.  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType DefaultMessage -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 10

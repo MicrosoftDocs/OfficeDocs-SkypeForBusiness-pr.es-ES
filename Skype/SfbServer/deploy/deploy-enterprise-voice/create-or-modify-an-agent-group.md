@@ -25,7 +25,7 @@ ms.locfileid: "49837100"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Crear o modificar un grupo de agentes en Skype Empresarial
  
-Cree o modifique un grupo de agentes en grupo de respuesta, en Skype Empresarial Server Telefonía IP empresarial.
+Cree o modifique un grupo de agentes en Grupo de respuesta, en Skype Empresarial Server Telefonía IP empresarial.
   
 Cuando se crea un grupo de agentes, se seleccionan los agentes que se asignan al grupo y se especifica la configuración de grupo adicional, como el método de enrutamiento y si un agente puede iniciar y cerrar sesión en el grupo. 
   
@@ -57,7 +57,7 @@ Use uno de los siguientes procedimientos para crear o modificar un grupo de agen
     
    - Para modificar un grupo de agentes existente, escriba todo o parte del nombre del grupo de agentes en el campo de búsqueda. En la lista resultante, haga clic en el grupo que desee, haga clic en **Editar** y, a continuación, en **Mostrar detalles.**
     
-5. En **Nombre,** escriba un nombre de identificación para el grupo de agentes.
+5. En **Nombre,** escriba un nombre identificativo para el grupo de agentes.
     
 6. En **Descripción**, escriba una descripción para el grupo.
     
@@ -144,7 +144,7 @@ Use uno de los siguientes procedimientos para crear o modificar un grupo de agen
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
   

@@ -105,10 +105,10 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |Periféricos de la sala de Microsoft Teams|Versión de firmware certificada | La cámara admite el uso de cámara de contenido|
 |:--- |:--- | :--- |
 |[Cámara VC520 Pro + manos libres](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
-|[Aver VB342 + Barra de sonido de cámara](https://www.averusa.com/products/conference-camera/vb342plus) | Barra de sonido: 0.0.0000.97|
+|[Aver VB342 + Barra de sonido de la cámara](https://www.averusa.com/products/conference-camera/vb342plus) | Barra de sonido: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
-|[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
+|[Barra de vídeo de Vb1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Sedly Canvas](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
@@ -133,8 +133,8 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[EPS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[EPS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |
-|[EPS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
-|[EXTENDERS Expande 80T + 2 Micrófonos de extensión](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Manos libres: 4.6.55 <br/> Micrófono de extensión: 0.2.314|
+|[ABRÁS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
+|[CTRLS Expande 80T + 2 Micrófonos de extensión](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Manos libres: 4.6.55 <br/> Micrófono de extensión: 0.2.314|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
@@ -145,7 +145,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array Mic ](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 con micrófono de techo Intellimix](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array Mic ](https://www.shure.com/en-US/products/microphones/mxa310) +</br></br> [Altavoz de techo MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 Table Array mic: 4.1.41 </br> Altavoz MXN5W-C: 1.0.4 |
-|[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 con micrófono de matriz de techo de Intellimix](https://www.shure.com/en-US/products/microphones/mxa910) +</br></br> [Altavoz de techo MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MxA910 Ceiling Array mic: 4.1.41 </br> Altavoz MXN5W-C: 1.0.4 |
+|[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 con micrófono de matriz de techo de Intellimix](https://www.shure.com/en-US/products/microphones/mxa910) +</br></br> [Altavoz de techo MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> Micrófono de matriz de techo MXA910: 4.1.41 </br> Altavoz MXN5W-C: 1.0.4 |
 |[Biamp Tesira Fore AVB VT4 audio fijo DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Micrófono de techo 2 Sennheiser TeamConnect](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ A VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Micrófono de techo Biamp Parlé TCM-XA](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Altavoz montado en el techo de Biamp Desono C-IC6](https://www.biamp.com/products/tesira-speakers)| Versión de Audio FW: 3.15|
 |[Biamp TesiraFORTE A VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle LA-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Versión de Audio FW: 3.15|

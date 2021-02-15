@@ -53,7 +53,7 @@ En la siguiente lista se describen los campos de la página.
 
 - **Número de marcado E9-1-1** Especifique el número que se marca para llegar a los servicios de emergencia.
 
-- **Máscara de marcado E9-1-1** Especifique un número que marque un usuario, que luego se convierte en el número de marcado de emergencia. Por ejemplo, especifique un valor de 212 en este campo para que un usuario pueda marcar 212 para tener acceso a servicios de emergencia. Esto permite que se marquen números de emergencia alternativos y que la llamada llegue a los servicios de emergencia (por ejemplo, si alguien de un país o región con un número de emergencia diferente intenta marcar el número de ese país o región en lugar del número del país o región en el que se encuentra actualmente). Para definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212;414. La longitud máxima de la cadena es de 100 caracteres. Todos los caracteres deben ser dígitos del 0 al 9.
+- **Máscara de marcado E9-1-1** Especifique un número que marque un usuario, que luego se convierte en el número de marcado de emergencia. Por ejemplo, especifique un valor de 212 en este campo para que un usuario pueda marcar 212 para tener acceso a servicios de emergencia. Esto permite marcar números de emergencia alternativos y hacer que la llamada llegue a los servicios de emergencia (por ejemplo, si alguien de un país o región con un número de emergencia diferente intenta marcar el número de ese país o región en lugar del número del país o región en el que se encuentra actualmente). Para definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212;414. La longitud máxima de la cadena es de 100 caracteres. Todos los caracteres deben ser dígitos del 0 al 9.
 
     > [!IMPORTANT]
     > Asegúrese de que la máscara de marcado no es la misma que el número del intervalo numérico de estacionamiento de llamadas, ya que el enrutamiento de estacionamiento de llamadas prevalece sobre la conversión de cadenas de marcado de emergencia. Para ver los intervalos de  números de estacionamiento de llamadas, haga clic en Características de voz en la barra de navegación izquierda y, a continuación, haga clic en **Estacionamiento de llamadas.**
@@ -64,7 +64,7 @@ En la siguiente lista se describen los campos de la página.
 
 - **Modo de conferencia** Si especificó un valor para el **URI de** conferencia, establezca este campo en uno de los siguientes valores:
 
-  - **Un solo sentido** Especifica que el tercero solo puede escuchar la llamada entre el autor de la llamada y el operador del PSAP.
+  - **Un solo sentido** Especifica que el tercero solo puede escuchar la llamada entre el autor de la llamada y el operador de PSAP.
 
   - **Dos vías** Especifica que el tercero puede participar en la llamada entre el autor de la llamada y el operador del PSAP.
 
