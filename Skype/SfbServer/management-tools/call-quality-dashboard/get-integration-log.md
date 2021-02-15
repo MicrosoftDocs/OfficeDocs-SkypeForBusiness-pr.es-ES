@@ -33,7 +33,7 @@ La operación Obtener registro de integración devuelve una lista de entradas de
 Esta operación está deshabilitada de forma predeterminada por motivos de seguridad. Cuando se deshabilita, devuelve una cadena vacía. Para habilitar esta operación, los administradores deben configurar el web.config de la aplicación web host de la API de datos.
   
 
-|Method|**URI de solicitud**|**Versión HTTP**|
+|Método|**URI de solicitud**|**Versión HTTP**|
 |:-----|:-----|:-----|
 |GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    

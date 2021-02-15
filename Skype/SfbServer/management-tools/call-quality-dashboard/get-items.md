@@ -34,7 +34,7 @@ Get Items devuelve todos los elementos del repositorio.
 |:-----|:-----|:-----|
 |GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
    
- **Parámetros uri:** ninguno.
+ **Parámetros de URI:** ninguno.
   
  **Encabezados de solicitud:** no hay encabezados adicionales.
   
@@ -49,7 +49,7 @@ Get Items devuelve todos los elementos del repositorio.
  **Cuerpo de la** respuesta: a continuación se muestra una carga de respuesta de ejemplo en JSON.
   
 > [!NOTE]
-> Se devuelve una matriz de objetos Item. Para obtener más información sobre el objeto Item, vea Obtener elemento. 
+> Se devuelve una matriz de objetos Item. Para obtener más información acerca del objeto Item, vea Obtener elemento. 
   
 ```json
 [{

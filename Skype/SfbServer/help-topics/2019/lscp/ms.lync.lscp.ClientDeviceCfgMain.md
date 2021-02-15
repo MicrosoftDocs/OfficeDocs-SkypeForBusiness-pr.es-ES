@@ -60,6 +60,6 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
 - **Actualizar** Puedes actualizar la lista de configuración del registro de dispositivos para comprobar el estado de las opciones de toda la configuración del registro de dispositivos.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Modificar la configuración para los archivos de registro de la actividad de actualización de dispositivos](https://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)

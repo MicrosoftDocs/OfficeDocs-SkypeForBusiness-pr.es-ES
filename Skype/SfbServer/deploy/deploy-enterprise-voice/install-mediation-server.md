@@ -1,5 +1,5 @@
 ---
-title: Instalar los archivos para el servidor de mediación en Skype Empresarial Server
+title: Instalar los archivos del servidor de mediación en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -48,13 +48,13 @@ Siga los pasos de este tema para ejecutar el Asistente para la implementación d
     
 6. En la página Configurar réplica local del almacén de administración **central,** acepte el valor predeterminado **Recuperar** directamente desde el Almacén de administración central y, a continuación, haga clic en **Siguiente**.
     
-7. En la **página Ejecutar comandos,** cuando el estado de la tarea se muestra como **Completado**, haga clic **en Finalizar**.
+7. En la **página Ejecutar comandos,** cuando el estado de la tarea se muestra como **Completado**, haga clic en **Finalizar**.
     
-8. Next to **Step 2: Setup or Remove Skype for Business Server Components**, click **Run**, and then click **Next**.
+8. Junto al **paso 2: Instalar o quitar componentes** de Skype Empresarial Server , haga clic en **Ejecutar** y, a continuación, haga clic en **Siguiente.**
     
-9. En la **página Ejecutar comandos,** cuando el estado de la tarea se muestra como **Completado**, haga clic **en Finalizar**.
+9. En la **página Ejecutar comandos,** cuando el estado de la tarea se muestra como **Completado**, haga clic en **Finalizar**.
     
-10. Junto al **paso 3: Solicitar, instalar o asignar certificados,** haga clic en **Ejecutar**. Sigue las instrucciones que aparecen en pantalla y acepta la configuración predeterminada. El servidor de mediación requiere un certificado, por lo que ejecutará el paso **3** dos veces: una vez para emitir el certificado necesario y una vez más para asignarlo.
+10. Junto al **paso 3: Solicitar, instalar o** asignar certificados, haga clic en **Ejecutar**. Sigue las instrucciones que aparecen en pantalla y acepta la configuración predeterminada. El servidor de mediación requiere un certificado, por lo que ejecutará el paso **3** dos veces: una vez para emitir el certificado necesario y una vez más para asignarlo.
     
 11. Cuando el certificado se haya emitido y asignado correctamente, junto al paso **4:** Iniciar servicios, haga clic en Ejecutar y, a continuación, siga las instrucciones en pantalla.
     

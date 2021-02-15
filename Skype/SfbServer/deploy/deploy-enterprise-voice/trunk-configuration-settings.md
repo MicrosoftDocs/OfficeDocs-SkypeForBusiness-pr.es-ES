@@ -77,6 +77,6 @@ Al crear opciones de configuración de troncos SIP con el Panel de control de Sk
     
 6. En el cuadro de diálogo **Configuración de voz sin confirmar**, haga clic en **Aceptar**.
     
-7. En el cuadro de diálogo Panel de **control de Skype Empresarial Server,** haga clic en **Aceptar.**
+7. En el cuadro de diálogo Panel de control de **Skype Empresarial Server,** haga clic en **Aceptar.**
     
 

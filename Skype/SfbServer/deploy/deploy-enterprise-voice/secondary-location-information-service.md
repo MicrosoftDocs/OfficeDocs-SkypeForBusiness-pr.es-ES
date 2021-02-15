@@ -39,7 +39,7 @@ Skype Empresarial Server proporciona una interfaz de servicio web que puede usar
    Set-CsWebServiceConfiguration -SecondaryLocationSourceURL "<web service url>" 
    ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

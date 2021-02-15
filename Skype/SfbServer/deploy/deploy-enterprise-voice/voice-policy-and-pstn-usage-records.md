@@ -336,7 +336,7 @@ ms.locfileid: "49830410"
 
 12. (Opcional) Voicemail Escape detecta que el correo de voz del teléfono móvil del usuario ha respondido inmediatamente a una llamada y desconecta la llamada al correo de voz del teléfono móvil. Esto permite que la llamada siga sonando en los otros puntos de conexión del usuario, lo que da al usuario la oportunidad de responder a la llamada. Para obtener más información sobre cómo configurar una directiva de correo de voz, consulte Configurar el escape de correo de [voz en Skype Empresarial.](configure-voice-mail-escape.md)
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Ver registros de uso de RTC en Skype Empresarial](view-pstn-usage-records.md)
 

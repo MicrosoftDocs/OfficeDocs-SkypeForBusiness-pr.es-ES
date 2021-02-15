@@ -12,7 +12,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
-description: 'Resumen: obtenga información sobre la operación Obtener configuración de usuario, que forma parte del Servicio de configuración de usuario. El servicio de configuración de usuario forma parte de la API de repositorio para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
+description: 'Resumen: obtenga información sobre la operación Obtener configuración de usuario, que forma parte del servicio de configuración de usuario. El servicio de configuración de usuario forma parte de la API de repositorio para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
 ms.openlocfilehash: 82632f5de7ae215d6f34d9f0b39e500fb713a1be
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "49832490"
  
 **Resumen:** Obtenga información sobre la operación Obtener configuración de usuario, que forma parte del Servicio de configuración de usuario. El servicio de configuración de usuario forma parte de la API de repositorio para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
   
-La operación Obtener configuración de usuario forma parte del Servicio de configuración de usuario en la API de repositorio para el Panel de calidad de llamadas.
+La operación Obtener configuración de usuario forma parte del Servicio de configuración de usuario en la API de repositorio para el panel de calidad de llamadas.
   
 ## <a name="get-user-setting"></a>Obtener configuración de usuario
 
@@ -35,7 +35,7 @@ Obtener configuración de usuario devuelve una configuración de usuario único.
 |:-----|:-----|:-----|
 |GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}/setting/{key}  <br/> |HTTP/1.1  <br/> |
    
- **Parámetros uri:** ninguno.
+ **Parámetros de URI:** ninguno.
   
  **Encabezados de solicitud:** no hay encabezados adicionales.
   

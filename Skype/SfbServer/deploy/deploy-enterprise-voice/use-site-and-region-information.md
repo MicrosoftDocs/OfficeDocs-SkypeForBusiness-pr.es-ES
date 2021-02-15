@@ -57,7 +57,7 @@ A continuación, agregue subredes al sitio de red, como se describe en [Asociar 
 > [!IMPORTANT]
 > Si todavía no ha creado regiones de red y sitios de red, deberá crearlos en primer lugar para poder continuar con la implementación del desvío de medios. Para obtener más información, consulte [Implementar regiones de red, sitios y subredes en Skype Empresarial.](deploy-network.md) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Asociar una subred a un sitio de red](deploy-network.md#BKMK_AssociateSubnets)
 

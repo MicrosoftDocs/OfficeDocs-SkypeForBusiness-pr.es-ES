@@ -190,7 +190,7 @@ En esta tabla se tratan las características relacionadas con la compatibilidad 
 |Administrar grupo de respuesta/grupo de llamadas de equipo |&#x2714;||&#x2714;|||||||
 |Responder llamada de operador automático |&#x2714;||&#x2714;|||||||
 
-&#x2776; esta característica no está disponible en Skype Empresarial Online.
+&#x2776; Esta característica no está disponible en Skype Empresarial Online.
   
 ## <a name="external-users-support"></a>Compatibilidad con usuarios externos
 
@@ -282,7 +282,7 @@ Las cuentas de usuario pueden existir en línea o de forma local, lo que afectar
 - Soporte de mensajería instantánea: escalar un salón de chat persistente a una reunión de Skype Empresarial con un solo clic
 - Usuarios externos: realizar llamadas entre dos o varias entidades con usuarios externos
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 <a name="Types"> </a>
 

@@ -28,6 +28,6 @@ Para definir las direcciones IPv4 o IPv6 de la puerta de enlace IP o de red tele
 
 Si selecciona **Usar todas las direcciones IP configuradas**, se usarán todas las direcciones configuradas en la puerta de enlace. Opcionalmente, seleccione **Limitar el uso del servicio a las direcciones IP seleccionadas**, que habilita la entrada **Dirección IP de RTC**. Escriba la dirección IPv4 o IPv6 que se ha asignado para esta puerta de enlace.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planeación de las conferencias de acceso telefónico local](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)

@@ -56,7 +56,7 @@ La música en espera predeterminada se reproduce cuando se pone una llamada en e
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -DefaultMusicOnHoldFile <$x>
    ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   

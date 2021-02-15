@@ -38,7 +38,7 @@ Puede realizar las siguientes tareas en la página **Configuración de dispositi
 
 Las siguientes listas describen los menús, comandos, campos y propiedades de la página.
   
-- **Nuevo** Puedes agregar una nueva configuración de dispositivo con el ámbito siguiente:
+- **Nuevo** Puedes agregar una nueva configuración de dispositivo con el siguiente ámbito:
     
   - Global
     
@@ -46,7 +46,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
     
 - **Editar** Puedes cambiar las opciones de una configuración de dispositivo en la lista. Al usar esta opción, puede hacer lo siguiente:
     
-  - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puede cambiar las opciones para una configuración de dispositivo.
+  - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puedes cambiar las opciones de una configuración de dispositivo.
     
   - **Seleccionar todo** Esta opción selecciona todas las configuraciones de dispositivos de la lista.
     
@@ -54,7 +54,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
     
 - **Actualizar** Puedes actualizar la lista de configuraciones de dispositivos para comprobar el estado de las opciones de todas las configuraciones de dispositivo.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Configuración de dispositivo: Crear nueva o editar existente](ms.lync.lscp.ClientDeviceTestEdit.md)
 

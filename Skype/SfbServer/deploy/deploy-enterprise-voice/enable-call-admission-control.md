@@ -62,7 +62,7 @@ Después de configurar las opciones de red para la implementación del control d
   
 6. Haga clic en **Confirmar**. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   

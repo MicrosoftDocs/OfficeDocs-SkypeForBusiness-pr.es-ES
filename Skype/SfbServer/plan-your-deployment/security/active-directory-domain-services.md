@@ -114,6 +114,6 @@ Además, para permitir que las implementaciones de Microsoft Office Communicatio
 |Servidores proxy  <br/> |Skype Empresarial Server no admite la compatibilidad con versiones anteriores de servidores proxy  <br/> |
    
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Preparar Active Directory para Skype Empresarial Server](../../deploy/install/prepare-active-directory.md)

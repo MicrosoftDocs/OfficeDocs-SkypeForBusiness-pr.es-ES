@@ -64,7 +64,7 @@ La configuración del horario comercial define cuándo el flujo de trabajo está
    New-CsRgsHoursOfBusiness -Parent "ApplicationServer:Redmond.contoso.com" -Name "Help Desk Business Hours" -MondayHours1 $a -TuesdayHours1 $a -WednesdayHours1 $a -ThursdayHours1 $a -FridayHours1 $a -SaturdayHours1 $b -SaturdayHours2 $c
    ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   

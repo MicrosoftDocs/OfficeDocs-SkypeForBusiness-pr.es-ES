@@ -26,7 +26,7 @@ ms.locfileid: "49830290"
 
 Microsoft publica periódicamente un nuevo conjunto de actualizaciones de firmware de dispositivo para Skype Empresarial Phone Edition, que puede importar a los servidores y distribuir a los usuarios. Puede obtener el último conjunto de reglas de actualización de dispositivos en la página Ayuda y soporte técnico, en el sitio web de Microsoft, buscando "Phone Edition". Descargue el último paquete de actualización y extraiga los archivos en una carpeta en el PC donde se cargarán las actualizaciones. Una vez extraídos los archivos, puede usar el cmdlet **Import-CsDeviceUpdate** para importar las reglas de actualización del dispositivo que se encuentran en el archivo .CAB importado (que tendrán el mismo nombre UCUpdates.cab). Para obtener más información, [vea Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).
 
-Una vez importadas las reglas de  actualización de dispositivos, puedes usar la página Actualización de dispositivos para ver y administrar estas reglas para los dispositivos de la organización.
+Una vez importadas las reglas de actualización de dispositivos, puedes usar la página **Actualización** de dispositivos para ver y administrar estas reglas para los dispositivos de la organización.
 
 > [!TIP]
 > Puede probar las actualizaciones de firmware y, a continuación, suponiendo que las pruebas hayan sido satisfactorias, poner las actualizaciones a disposición de todos los dispositivos pertinentes usados en la organización.
@@ -62,6 +62,6 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 - **Actualizar** Puedes actualizar la lista para comprobar el estado de todas las actualizaciones de dispositivos.
 
 Para obtener más información sobre el servicio web de actualización de dispositivos, vea [View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) en la documentación de planeación.
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)

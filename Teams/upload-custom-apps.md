@@ -27,7 +27,7 @@ ms.locfileid: "49831170"
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar una aplicación personalizada cargando un paquete de aplicación
 
 > [!NOTE]
-> Cuando publica una aplicación personalizada de Teams, está disponible para los usuarios de la tienda de aplicaciones de su organización. Hay dos formas de publicar una aplicación personalizada y la forma de usarla depende de cómo obtenga la aplicación. Este artículo se centra en cómo publicar una aplicación personalizada cargando un paquete de aplicación **(en formato .zip) que le envía un desarrollador.** El otro método, al aprobar una aplicación personalizada, se usa <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> cuando un desarrollador envía una aplicación directamente a la página Administrar aplicaciones a través de la API de envío de aplicaciones de Teams. Para obtener más información sobre ese método, consulte Publicar una aplicación personalizada enviada a través <a href="https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps" target="_blank">de la API de envío de aplicaciones de Teams.</a>
+> Cuando publica una aplicación personalizada de Teams, está disponible para los usuarios de la tienda de aplicaciones de su organización. Hay dos formas de publicar una aplicación personalizada y la forma en que se usa depende de cómo obtenga la aplicación. Este artículo se centra en cómo publicar una aplicación personalizada cargando un paquete de aplicación **(en formato .zip) que le envía un desarrollador.** El otro método, al aprobar una aplicación personalizada, se usa <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> cuando un desarrollador envía una aplicación directamente a la página Administrar aplicaciones a través de la API de envío de aplicaciones de Teams. Para obtener más información sobre ese método, consulte Publicar una aplicación personalizada enviada a través <a href="https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps" target="_blank">de la API de envío de aplicaciones de Teams.</a>
 
 Este artículo proporciona instrucciones de un extremo a otro sobre cómo llevar su aplicación de Teams del desarrollo a la implementación y la detección. Esta guía se centra en los aspectos de Teams de la aplicación y está destinada a administradores y profesionales de TI. Para obtener más información sobre el desarrollo de aplicaciones de Teams, consulte la <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">documentación para desarrolladores de Teams.</a>
 
@@ -37,7 +37,7 @@ Este artículo proporciona instrucciones de un extremo a otro sobre cómo llevar
 
 ### <a name="create-your-app"></a>Crear tu aplicación
 
-La plataforma para desarrolladores de Microsoft Teams permite a los desarrolladores integrar sus propias aplicaciones y servicios para mejorar la productividad, tomar decisiones más rápidamente y crear colaboración en torno al contenido y los flujos de trabajo existentes. Las aplicaciones creadas en la plataforma Teams son puentes entre el cliente de Teams y sus servicios y flujos de trabajo, lo que las lleva directamente al contexto de su plataforma de colaboración. Para obtener más información, vaya a la documentación <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">para desarrolladores de Teams.</a>
+La plataforma para desarrolladores de Microsoft Teams facilita a los desarrolladores la integración de sus propias aplicaciones y servicios para mejorar la productividad, tomar decisiones más rápidamente y crear colaboración en torno al contenido y los flujos de trabajo existentes. Las aplicaciones creadas en la plataforma Teams son puentes entre el cliente de Teams y sus servicios y flujos de trabajo, lo que las lleva directamente al contexto de su plataforma de colaboración. Para obtener más información, vaya a la documentación <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">para desarrolladores de Teams.</a>
 
 ## <a name="validate"></a>Validar
 
@@ -49,21 +49,21 @@ Microsoft usa <a href="https://docs.microsoft.com/microsoftteams/platform/publis
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>Permitir que los usuarios de confianza carguen aplicaciones personalizadas
 
-Para comprobar que la aplicación funciona correctamente en el inquilino de producción, debe permitir que usted mismo o los usuarios de confianza carguen aplicaciones personalizadas en el inquilino de producción. Para ello, use <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">las directivas de configuración</a> de aplicaciones.
+Para comprobar que la aplicación funciona correctamente en el inquilino de producción, debe permitir que usted mismo o los usuarios de confianza carguen aplicaciones personalizadas en el inquilino de producción. Para ello, <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">use las directivas de configuración</a> de aplicaciones.
 
 > [!NOTE]
-> Si no desea cargar la aplicación en el espacio empresarial de producción para la validación, incluso para usted [](#upload) o [](#set-up-and-manage) los usuarios de confianza, puede omitir este paso y seguir los pasos indicados en las secciones Cargar, Configurar y administrar para publicar la aplicación no validada en el almacén de aplicaciones de su organización. Luego, restrinja el acceso a esa aplicación solo a usted y a los usuarios en los que confía. Estos usuarios pueden obtener la aplicación desde la tienda de aplicaciones de su organización para realizar la validación. Después de validar la aplicación, use las mismas directivas de permisos para abrir el acceso y la implementación de la aplicación para su uso en producción.
+> Si no desea cargar la aplicación en el espacio empresarial de producción para la validación, incluso para usted [](#upload) o [](#set-up-and-manage) los usuarios de confianza, puede omitir este paso y seguir los pasos indicados en las secciones Cargar, Configurar y administrar para publicar la aplicación no validada en el almacén de aplicaciones de su organización. Luego, restrinja el acceso a esa aplicación solo a usted y a los usuarios en los que confía. Después, estos usuarios pueden obtener la aplicación de la tienda de aplicaciones de su organización para realizar la validación. Después de validar la aplicación, use las mismas directivas de permisos para abrir el acceso y la implementación de la aplicación para su uso en producción.
 
 Para permitir que los usuarios de confianza carguen aplicaciones personalizadas, siga estos pasos:
 
 1. Active la opción **Permitir interacción con aplicaciones personalizadas** para toda la organización. Para ello:
-    1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Administrar aplicaciones de **Teams** y, a continuación, haga clic en Configuración  >  de aplicaciones para toda **la organización.**
+    1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Administrar aplicaciones de **Teams** y, a continuación, haga clic en Configuración de  >  aplicaciones para toda la **organización.**
     2. En **Aplicaciones personalizadas,** active Permitir interacción con aplicaciones **personalizadas** y, a continuación, haga clic en **Guardar.**
 2. Desactive la opción **Cargar aplicaciones personalizadas** en la directiva de configuración global de aplicaciones. Para ello:
     1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a directivas de configuración de aplicaciones de **Teams** y, a continuación, haga clic en la directiva  >   **global (predeterminada para toda la organización).**
     2. Desactive Cargar **aplicaciones personalizadas** y, a continuación, haga clic **en Guardar.**
-3. Cree una nueva directiva de configuración de aplicaciones que permita cargar aplicaciones personalizadas y asignarla al conjunto de usuarios de confianza. Para ello:
-    1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a las directivas de configuración de aplicaciones de **Teams** y, a continuación, haga clic  >  en **Agregar.** Asigne un nombre y una descripción a la nueva directiva, active Cargar aplicaciones **personalizadas** y, a continuación, haga clic en **Guardar.**
+3. Cree una nueva directiva de configuración de aplicaciones que permita cargar aplicaciones personalizadas y asignarla a su conjunto de usuarios de confianza. Para ello:
+    1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a directivas de configuración de aplicaciones de **Teams** y, a continuación, haga clic  >  en **Agregar.** Asigne un nombre y una descripción a la nueva directiva, active Cargar aplicaciones **personalizadas** y, a continuación, haga clic en **Guardar.**
     2. Seleccione la nueva directiva que creó y, a continuación, haga clic **en Administrar usuarios.** Busque un usuario, haga clic en **Agregar y,** a continuación, haga clic en **Aplicar.** Repita este paso para asignar la directiva a todos los usuarios de confianza.
 
         ![Captura de pantalla de la página "Agregar directiva de configuración de aplicación"](media/manage-your-lob-apps-new-app-setup-policy.png)
@@ -74,8 +74,8 @@ Para permitir que los usuarios de confianza carguen aplicaciones personalizadas,
 
 Para que la aplicación esté disponible para los usuarios de la tienda de aplicaciones de su organización, cargue la aplicación. Puede hacerlo en la página Administrar <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">aplicaciones del</a> Centro de administración de Microsoft Teams.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Administrar aplicaciones de Teams.**  >  
-2. Haz **clic en** Cargar, haz clic en **Seleccionar** un archivo y, a continuación, selecciona el paquete de aplicación que has recibido del desarrollador.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Administrar aplicaciones**  >  **de** Teams.
+2. Haga **clic en** Cargar, seleccione un archivo y, **a** continuación, seleccione el paquete de aplicación que recibió del desarrollador.
 
    ![Captura de pantalla de la carga de una aplicación en el centro de administración](media/manage-your-lob-apps-upload-new-app.png) 
 
@@ -121,7 +121,7 @@ En la mayoría de los casos, después de completar una actualización de la apli
 * Se agregó un conector nuevo
 * Se ha agregado una nueva pestaña estática
 * Se ha agregado una nueva pestaña configurable
-* Propiedades dentro de "webApplicationInfo" cambiados
+* Propiedades de "webApplicationInfo" cambiadas
 
 ![Captura de pantalla de la lista de aplicaciones, que muestra las aplicaciones que tienen una nueva versión disponible](media/manage-your-custom-apps-update1.png)
 

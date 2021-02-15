@@ -32,6 +32,6 @@ Haga clic con el **botón secundario en Servidores de Office Web Apps** y selecc
 
 - **Help** Use esta opción para obtener acceso a la Ayuda del nodo activo.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Configuración de la integración con Office Web Apps Server](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)

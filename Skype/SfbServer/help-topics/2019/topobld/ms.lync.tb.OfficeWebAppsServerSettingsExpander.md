@@ -34,6 +34,6 @@ Active la casilla **El Servidor de Office Web Apps está implementado como una r
 
 ![Expansor de configuración de Office Web Apps](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Componentes y topologías para conferencias](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

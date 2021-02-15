@@ -61,7 +61,7 @@ Puede implementar fácilmente la topología de recuperación ante desastres de g
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-11. Forzar la sincronización de los datos de usuario y conferencia de ambos grupos de servidores con los cmdlets siguientes:
+11. Fuerce la sincronización de los datos de usuario y conferencia de ambos grupos de servidores con los cmdlets siguientes:
     
     ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
@@ -84,6 +84,6 @@ Puede implementar fácilmente la topología de recuperación ante desastres de g
 > [!NOTE]
 > La **conmutación** por error automática y la conmutación por recuperación para voz y los intervalos de tiempo asociados en topology Builder solo se aplican a las características de resistencia de voz que se introdujeron en Lync Server. La selección de esta opción no implica que la conmutación por error de grupos de servidores tratada en este documento sea automática. La conmutación por error y la conmutación por recuperación de grupos de servidores siempre requieren que un administrador invoque manualmente los cmdlets de conmutación por error y de conmutación por recuperación, respectivamente.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Recuperación ante desastres del grupo de servidores front-end en Skype Empresarial Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

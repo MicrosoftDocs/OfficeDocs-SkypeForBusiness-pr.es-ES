@@ -51,7 +51,7 @@ Puede habilitar el estacionamiento de llamadas en el ámbito global, en el ámbi
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o bien como miembro del rol administrativo CsVoiceAdministrator, CsServerAdministrator o CsAdministrator.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** en Skype Empresarial **2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 3. Ejecute:
     
@@ -65,7 +65,7 @@ Puede habilitar el estacionamiento de llamadas en el ámbito global, en el ámbi
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

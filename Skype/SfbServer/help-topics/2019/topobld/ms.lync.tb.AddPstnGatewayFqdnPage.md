@@ -28,6 +28,6 @@ Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de la re
 
 Para obtener más información, consulte [Componentes de conectividad rtc en Skype Empresarial Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Opciones de implementación de la puerta de enlace RTC](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

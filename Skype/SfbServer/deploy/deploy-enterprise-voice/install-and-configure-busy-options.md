@@ -30,7 +30,7 @@ Opciones de disponibilidad es una nueva directiva de voz introducida en la actua
 
 Si Opciones de disponibilidad está habilitada para la organización, todos los usuarios de la empresa, tanto los Telefonía IP empresarial como los que no Telefonía IP empresarial, pueden usar las siguientes opciones de configuración:
 
-- Ocupado en Ocupado: en el que se rechazarán las nuevas llamadas entrantes con una señal de ocupado si el usuario está ocupado.
+- Ocupado en ocupado: en el que se rechazarán las nuevas llamadas entrantes con una señal de ocupado si el usuario está ocupado.
 
 - Correo de voz en Ocupado: en el que las nuevas llamadas entrantes se reenviarán al correo de voz si el usuario está ocupado.
 
@@ -76,14 +76,14 @@ El instalador implementará la versión más reciente de la aplicación Opciones
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
-3. A continuación, ejecute el cmdlet [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) para agregar Opciones de disponibilidad a la lista de aplicaciones de servidor, como se muestra en el siguiente ejemplo:
+3. A continuación, ejecute el cmdlet [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) para agregar Opciones de disponibilidad a la lista de aplicaciones de servidor, como se muestra en el ejemplo siguiente:
 
    ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
-    > Debe reemplazar %FQDN% por el nombre de dominio completo de un grupo de servidores específico.
+    > Debe reemplazar %FQDN% por el nombre de dominio completo de un grupo específico.
 
 4. A continuación, ejecute el cmdlet [Update-CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) para actualizar los roles de control de acceso basado en roles (RBAC) para los cmdlets Opciones de disponibilidad, como se muestra en el ejemplo siguiente:
 

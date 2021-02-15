@@ -52,7 +52,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
 Para obtener detalles sobre la configuración de directivas de movilidad, vea [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planeación de la movilidad](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 

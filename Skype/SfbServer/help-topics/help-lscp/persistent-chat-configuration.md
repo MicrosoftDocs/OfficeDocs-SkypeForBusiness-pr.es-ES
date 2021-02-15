@@ -31,7 +31,7 @@ La implementación del servidor de chat persistente puede hospedar muchos salas 
   
 Los administradores de chat persistente usan el Panel de control de Skype Empresarial Server o cmdlets Windows PowerShell para crear y administrar categorías, y para diseñar el acceso a los salón de chat para los usuarios de su organización.
   
-Los administradores de salón de chat persistente, que tienen la capacidad de administrar uno o más salas de chat, pueden usar el cliente para iniciar una aplicación web de administración de salón para crear y administrar salas (o los clientes pueden crear soluciones y flujos de trabajo personalizados para invocarlos). Chat persistente
+Los administradores de salón de chat persistente, que tienen la capacidad de administrar uno o más salas de chat, pueden usar el cliente para iniciar una aplicación web de administración de salas para crear y administrar salas (o los clientes pueden crear soluciones y flujos de trabajo personalizados para invocarlos). Chat persistente
   
 Los administradores de chat persistente también pueden usar el panel de control Windows PowerShell cmdlets para crear y administrar salas.
   
@@ -63,7 +63,7 @@ Puede realizar las siguientes tareas en la página Configuración de **chat** pe
 
 1. Desde una cuenta de usuario que se asigne al rol CsPersistentChatAdministrator o CsAdministrator, inicie sesión en cualquier PC en la implementación interna.
     
-2. En el **menú Inicio,** seleccione el Panel de control de Skype Empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración.
+2. En el **menú Inicio,** seleccione el Panel de control de Skype Empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador.
     
 3. En la barra de navegación izquierda, haga clic en **Chat persistente** y, a continuación, en **Configuración de chat persistente**.
     
@@ -89,7 +89,7 @@ Puede realizar las siguientes tareas en la página Configuración de **chat** pe
     
    - (Opcional). En **la dirección URL de administración de** sala, seleccione la dirección URL de administración de la sala. Esta es la dirección URL para una administración de salones personalizada basada en web. Si no necesita personalizar la administración de la sala y simplemente usa la configuración predeterminada, deje esta opción en blanco. Después de definir la dirección URL, se aplica como la dirección URL de administración de salones tanto internos como externos.
     
-     Si desea personalizar la experiencia de creación de salas e incluir el flujo de trabajo empresarial específico, puede crear una solución de administración de salas personalizada mediante el Kit de desarrollo de software (SDK) del servidor de chat persistente, hospedarlo en algún lugar y colocar la dirección URL aquí. Esta dirección URL se envía al cliente para que cuando un usuario intente ver o crear un salón, se le dirija a su solución de administración de salones personalizada.
+     Si desea personalizar la experiencia de creación de salas e incluir su flujo de trabajo empresarial específico, puede crear una solución de administración de salas personalizada mediante el Kit de desarrollo de software (SDK) del servidor de chat persistente, hospedarla en algún lugar y colocar la dirección URL aquí. Esta dirección URL se envía al cliente para que cuando un usuario intente ver o crear un salón, se le dirija a su solución de administración de salones personalizada.
     
 7. Haga clic en **Confirmar**.
     
@@ -120,11 +120,11 @@ Puede realizar las siguientes tareas en la página Configuración de **chat** pe
     
    - (Opcional) En **URL de administración de salón**, seleccione la dirección URL de administración del salón. Esta es la dirección URL para una implementación de administración de salones basada en web. Si no necesita personalizar la administración de la sala y simplemente usa la configuración predeterminada, deje esta opción en blanco.
     
-     Si desea personalizar la experiencia de creación de salas e incluir el flujo de trabajo empresarial específico, puede crear una solución de administración de salas personalizada mediante el Kit de desarrollo de software (SDK) del servidor de chat persistente, hospedarlo en algún lugar y colocar la dirección URL aquí. Esta dirección URL se envía al cliente para que cuando un usuario intente ver o crear un salón, se le dirija a su solución de administración de salones personalizada.
+     Si desea personalizar la experiencia de creación de salas e incluir su flujo de trabajo empresarial específico, puede crear una solución de administración de salas personalizada mediante el Kit de desarrollo de software (SDK) del servidor de chat persistente, hospedarla en algún lugar y colocar la dirección URL aquí. Esta dirección URL se envía al cliente para que cuando un usuario intente ver o crear un salón, se le dirija a su solución de administración de salones personalizada.
     
 7. Haga clic en **Confirmar**.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 Para obtener más información sobre las características y capacidades del servidor de chat persistente, consulte [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)y [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   

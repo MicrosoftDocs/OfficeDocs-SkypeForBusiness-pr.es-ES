@@ -1,5 +1,5 @@
 ---
-title: (Opcional) Comprobar la implementación del grupo de respuesta en Skype Empresarial
+title: (Opcional) Comprobar la implementación de grupos de respuesta en Skype Empresarial
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

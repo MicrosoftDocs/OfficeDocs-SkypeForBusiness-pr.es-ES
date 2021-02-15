@@ -31,7 +31,7 @@ En última instancia, el objetivo de la Herramienta de planeación es facilitar 
   
 Después de personalizar la topología con las direcciones TCP/IP y los nombres de dominio completos (FQDN) de la infraestructura, la Herramienta de planeación pone a disposición una serie de informes que cubren la nomenclatura del Sistema de nombres de dominio (DNS), las reglas de firewall, los certificados y mucho más. 
   
-El uso de esta herramienta es el primer paso para planear la implementación. El siguiente paso sería introducir los detalles de la información del sitio en la Calculadora de capacidad de Skype Empresarial [Server 2015,](https://www.microsoft.com/download/details.aspx?id=51196)ajustar según sea necesario y, a continuación, usar la Herramienta de esfuerzo y rendimiento de Skype Empresarial [Server 2015](https://www.microsoft.com/download/details.aspx?id=50367) para simular y comprobar que la implementación se adaptará a sus necesidades.
+El uso de esta herramienta es el primer paso para planear la implementación. El siguiente paso sería introducir los detalles de la información del sitio en la calculadora de capacidad de Skype Empresarial [Server 2015,](https://www.microsoft.com/download/details.aspx?id=51196)ajustar según sea necesario y, a continuación, usar la Herramienta de esfuerzo y rendimiento de Skype Empresarial [Server 2015](https://www.microsoft.com/download/details.aspx?id=50367) para simular y comprobar que la implementación se adaptará a sus necesidades.
   
 La Herramienta de planeación también permite exportar información en dos formatos:
   
@@ -57,7 +57,7 @@ Los siguientes temas presentan y detallan la Herramienta de planeación.
     
 - [Revisar los informes de administrador en Skype Empresarial Server 2015](review-the-administrator-reports.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Instalar Skype Empresarial Server 2015](../../deploy/install/install.md)
   

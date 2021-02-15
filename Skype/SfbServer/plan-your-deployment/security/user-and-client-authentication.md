@@ -50,7 +50,7 @@ Los certificados de cliente proporcionan una forma alternativa para que skype em
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Requisitos criptográficos debido a ASP .NET 4.5 
 
-A partir de Skype Empresarial Server 2015 CU5, AES no es compatible con ASP.NET 4.6 y esto puede provocar que la aplicación Reuniones de Skype no se inicie. Si un cliente usa AES como valor de validación de clave de máquina, tendrá que restablecer el valor de clave de máquina a SHA-1 u otro algoritmo admitido en el nivel de sitio de la aplicación reuniones de Skype en IIS. Si es necesario, [consulte IIS 8.0 ASP.NET Configuration Management](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) para obtener instrucciones.
+A partir de Skype Empresarial Server 2015 CU5, AES no es compatible con ASP.NET 4.6 y esto puede provocar que la aplicación Reuniones de Skype no se inicie. Si un cliente usa AES como valor de validación de clave de máquina, deberá restablecer el valor de la clave de máquina a SHA-1 u otro algoritmo admitido en el nivel de sitio de la aplicación Reuniones de Skype en IIS. Si es necesario, [consulte IIS 8.0 ASP.NET Configuration Management](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) para obtener instrucciones.
   
 Otros valores admitidos son:
   

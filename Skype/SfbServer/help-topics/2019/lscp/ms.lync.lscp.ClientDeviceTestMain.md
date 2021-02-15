@@ -55,7 +55,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 - **Actualizar** Puedes actualizar la lista de dispositivos de prueba para comprobar el estado de las opciones de todos los dispositivos de prueba.
 
 Para obtener detalles sobre cómo probar dispositivos, vea [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) en la documentación de operaciones.
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Dispositivo de prueba: Crear nuevo o editar existente](ms.lync.lscp.ClientDeviceTestEdit.md)
 

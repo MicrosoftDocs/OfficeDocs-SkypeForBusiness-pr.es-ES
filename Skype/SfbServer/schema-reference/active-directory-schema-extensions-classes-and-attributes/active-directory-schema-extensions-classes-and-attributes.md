@@ -32,7 +32,7 @@ Esta sección de referencia incluye la información siguiente:
     
 - Todos los atributos usados por Skype Empresarial Server, con una descripción de cada uno
     
-- Una lista de las clases usadas por Skype Empresarial Server, con los atributos que cada uno puede contener
+- Una lista de las clases usadas por Skype Empresarial Server, con los atributos que cada una puede contener
     
 - La configuración global y los objetos, así como los grupos universales de servicio y administración creados durante la preparación del bosque
     

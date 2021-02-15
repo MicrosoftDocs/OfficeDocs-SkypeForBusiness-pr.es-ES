@@ -25,7 +25,7 @@ En Skype Empresarial Server, las herramientas de administración se implementan 
   
 - **Topology Builder**. El Generador de topologías se usa para crear, ajustar y publicar la topología planeada, y valida la topología antes de comenzar las instalaciones del servidor. Al instalar Skype Empresarial Server en servidores individuales, los servidores leen la topología publicada como parte del proceso de instalación y el programa de instalación implementa el servidor como se indica en la topología. Después de la instalación, la información de configuración se replica automáticamente en todos los servidores. Los componentes solo se pueden agregar a la implementación mediante el Generador de topologías.
     
-- **Shell de administración de Skype Empresarial Server**. Puede usar el Shell de administración de Skype Empresarial Server para la administración completa de la línea de comandos de su implementación.
+- **Shell de administración de Skype Empresarial Server.** Puede usar el Shell de administración de Skype Empresarial Server para la administración completa de la línea de comandos de su implementación.
     
 - **Panel de control de Skype Empresarial Server.** Puede usar la interfaz de usuario del Panel de control de Skype Empresarial Server para administrar las tareas más comunes de su implementación.
     

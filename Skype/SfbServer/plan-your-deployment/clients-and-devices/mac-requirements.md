@@ -76,7 +76,7 @@ La movilidad debe implementarse correctamente para que Skype Empresarial en el c
     
 Para obtener más información, consulte: Implementar la movilidad en [Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=798224)y la Guía de movilidad de [Microsoft Lync Server 2010.](https://go.microsoft.com/fwlink//p/?LinkId=798226)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="Infrastructure"> </a>
 
 [Requisitos de DNS para Skype Empresarial Server](../../plan-your-deployment/network-requirements/dns.md)

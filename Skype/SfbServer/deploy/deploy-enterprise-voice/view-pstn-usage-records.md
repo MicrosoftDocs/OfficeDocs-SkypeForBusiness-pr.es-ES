@@ -55,7 +55,7 @@ Un registro de uso de la red telefónica conmutada (RTC) especifica una clase de
   Usage    : {Internal, Local, Long Distance}
 </pre>
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial](voice-policy-and-pstn-usage-records.md)
 

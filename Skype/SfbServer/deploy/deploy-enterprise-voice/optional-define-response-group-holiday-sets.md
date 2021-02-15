@@ -55,7 +55,7 @@ La configuración de festivos define los días que un grupo de respuesta está c
    New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2018 Holidays" -HolidayList ($a, $b)
    ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Diseño y creación de flujos de trabajo de grupo de respuesta en Skype Empresarial](designing-and-creating-response-group-workflows.md)
 

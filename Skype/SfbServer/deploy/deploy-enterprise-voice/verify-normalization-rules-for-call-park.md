@@ -32,7 +32,7 @@ Las órbitas de estacionamiento de llamadas no deben normalizarse. Compruebe los
 > [!IMPORTANT]
 > Asegúrese de que la regla de normalización predeterminada en sus planes de marcado no **contiene ^(\d \* ).** De lo contrario, la regla de normalización de estacionamiento de llamadas nunca se ejecutará.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Crear o modificar un plan de marcado en Skype Empresarial Server](dial-plans.md)
 

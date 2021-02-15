@@ -75,6 +75,6 @@ Al modificar las opciones de configuración del tronco SIP mediante el Panel de 
     
 5. En el cuadro de diálogo **Configuración de voz sin confirmar**, haga clic en **Aceptar**.
     
-6. En el cuadro de diálogo Panel de **control de Skype Empresarial Server,** haga clic en **Aceptar.**
+6. En el cuadro de diálogo Panel de control de **Skype Empresarial Server,** haga clic en **Aceptar.**
     
 

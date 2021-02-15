@@ -23,7 +23,7 @@ ms.locfileid: "49830620"
  
 Skype Empresarial Server ofrece alta disponibilidad con agrupación de servidores, recuperación ante desastres con emparejamiento de grupos de servidores y varios modos de alta disponibilidad del servidor back-end, incluidos los grupos de disponibilidad AlwaysOn, la creación de reflejo de la base de datos y los clústeres de conmutación por error SQL servidor. 
   
-La alta disponibilidad hace referencia a asegurarse de que los servicios de Skype Empresarial Server están disponibles incluso si uno o más servidores no están disponibles. La recuperación ante desastres se refiere a mantener los servicios en el caso de un desastre natural o causado por personas, y conservar tantos datos de antes del desastre como sea posible.
+La alta disponibilidad hace referencia a asegurarse de que los servicios de Skype Empresarial Server estén disponibles incluso si uno o más servidores no están disponibles. La recuperación ante desastres se refiere a mantener los servicios en caso de desastre natural o humano y conservar tantos datos de antes del desastre como sea posible.
   
 En esta sección se explica cómo implementar estas características y también se tratan los pasos que puede seguir para la alta disponibilidad y la recuperación ante desastres para algunos de los otros roles de servidor.
 
@@ -34,11 +34,11 @@ En esta sección se explica cómo implementar estas características y también 
 
 [Planear la alta disponibilidad y la recuperación ante desastres en Skype Empresarial Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Implementar un grupo de disponibilidad AlwaysOn en un servidor back-end en Skype Empresarial Server](alwayson-availability-group.md)
 
 [Implementar grupos de servidores front-end emparejados para la recuperación ante desastres en Skype Empresarial Server](front-end-pools-for-disaster-recovery.md)
   
-[Implementar SQL creación de reflejos para alta disponibilidad del servidor back-end en Skype Empresarial Server 2015](sql-mirroring-for-high-availability.md)
+[Implementar SQL creación de reflejos para la alta disponibilidad del servidor back-end en Skype Empresarial Server 2015](sql-mirroring-for-high-availability.md)
   

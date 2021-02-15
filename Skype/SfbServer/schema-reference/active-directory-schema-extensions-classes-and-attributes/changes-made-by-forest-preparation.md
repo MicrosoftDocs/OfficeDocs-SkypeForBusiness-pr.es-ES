@@ -70,7 +70,7 @@ En la tabla siguiente se describen los grupos de servicio.
 
 |**Grupo de servicio**|**Descripción**|
 |:-----|:-----|
-|RTCHSUniversalServices  <br/> |Incluye cuentas de servicio que se usan para ejecutar servidores front-end y servidores Standard Edition. Este grupo permite a los servidores acceso de lectura y escritura a la configuración global de Skype Empresarial Server y a los objetos de usuario de Active Directory.  <br/> |
+|RTCHSUniversalServices  <br/> |Incluye cuentas de servicio usadas para ejecutar servidores front-end y servidores Standard Edition. Este grupo permite a los servidores acceso de lectura y escritura a la configuración global de Skype Empresarial Server y a los objetos de usuario de Active Directory.  <br/> |
 |RTCComponentUniversalServices  <br/> |Incluye cuentas de servicio usadas para ejecutar servidores de conferencia A/V, servicios web, servidor de mediación, servidor de archivado y servidor de supervisión.  <br/> |
 |RTCProxyUniversalServices  <br/> |Incluye cuentas de servicio usadas para ejecutar servidores perimetrales de Skype Empresarial Server.  <br/> |
 |RTCUniversalConfigReplicator  <br/> |Incluye servidores que pueden participar en la replicación del almacén de administración central de Skype Empresarial Server.  <br/> |

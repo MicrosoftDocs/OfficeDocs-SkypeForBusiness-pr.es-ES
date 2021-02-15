@@ -41,7 +41,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
 Para obtener detalles sobre las directivas de movilidad, vea [Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planeación de la movilidad](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 

@@ -50,11 +50,11 @@ Los VTC compatibles actualmente son:
 - Cisco SX20
     
 > [!NOTE]
->  La versión de software de Cisco TC7.0.0 o posterior es necesaria en estos sistemas para que la integración con Skype Empresarial Server funcione según lo esperado.
+>  La versión tc7.0.0 o posterior del software de Cisco es necesaria en estos sistemas para que la integración con Skype Empresarial Server funcione según lo esperado.
   
 ## <a name="sip-trunks"></a>Troncos SIP
 
-El servidor de interoperabilidad de vídeo funciona en modo de tronco SIP, donde los VTC se siguen registrando con la infraestructura de Cisco existente, por ejemplo, Cisco Call Manager (CUCM). Un tronco SIP de vídeo se define entre CUCM y el VIS para que las llamadas se puedan enrutar entre los dos sistemas. Solo se admiten las llamadas a través del tronco SIP desde VTC al VIS. Por lo tanto, los VTC pueden llamar a una conferencia de Skype Empresarial (marcando el número de teléfono asociado con el operador automático de llamadas), pero no se pueden arrastrar ni descartar en la conferencia.
+El servidor de interoperabilidad de vídeo funciona en modo de tronco SIP, donde los VTC se siguen registrando con la infraestructura de Cisco existente, por ejemplo, Cisco Call Manager (CUCM). Un tronco SIP de vídeo se define entre CUCM y el VIS para que las llamadas se puedan enrutar entre los dos sistemas. Solo se admiten las llamadas a través del tronco SIP desde VTC al VIS. Por lo tanto, los VTC pueden llamar a una conferencia de Skype Empresarial (marcando el número de teléfono asociado con el operador automático de llamadas), pero no se pueden arrastrar ni dejar pasar a la conferencia.
   
 ![Diagrama de VIS en SfB](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
   
@@ -78,7 +78,7 @@ Este rol de servidor proporciona:
 
 Este rol de servidor tiene las siguientes limitaciones:
   
-- No se admiten nuevas llamadas desde la implementación de Skype Empresarial a los VTC a través del tronco SIP de vídeo. . Esto significa que solo se admiten llamadas nuevas desde los VTC a la implementación de Skype Empresarial a través del tronco SIP de vídeo. La presencia del sistema de vídeo compatible no estará disponible a través del tronco SIP de vídeo al VIS. 
+- No se admiten llamadas nuevas desde la implementación de Skype Empresarial a los VTC a través del tronco SIP de vídeo. . Esto significa que solo se admiten llamadas nuevas desde los VTC a la implementación de Skype Empresarial a través del tronco SIP de vídeo. La presencia del sistema de vídeo compatible no estará disponible a través del tronco SIP de vídeo al VIS. 
     
 - Solo se admite un grupo de servidores VIS independiente para el modo de tronco SIP de vídeo.
     
@@ -103,12 +103,12 @@ El VIS admite llamadas entrantes de CUCM que se llevan a través de un tronco SI
     
      ![Diagrama de conmutación por error del grupo vis](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
   
-    Un grupo de servidores VIS determinado puede tener troncos a varias puertas de enlace, pero normalmente una puerta de enlace determinada no puede tener troncos a varios grupos de servidores VIS, por lo que es necesario realizar un trucos para admitir esta conmutación por error: definir 2 FDQN en DNS que se resuelven en la misma dirección IP de una puerta de enlace de vídeo. Represente cada FQDN como una puerta de enlace de vídeo independiente en el documento de topología donde cada puerta de enlace de vídeo tiene un tronco a un grupo de VIS diferente y ahora es posible la recuperación. (Si se usa TLS, los nombres múltiples tendrán que estar en el SAN del certificado de puerta de enlace de vídeo).
+    Un grupo de servidores VIS determinado puede tener troncos a varias puertas de enlace, pero normalmente una puerta de enlace determinada no puede tener troncos a varios grupos de servidores VIS, por lo que es necesario realizar un trucos para admitir esta conmutación por error: definir 2 FDQN en DNS que se resuelven en la misma dirección IP de una puerta de enlace de vídeo. Represente cada FQDN como una puerta de enlace de vídeo independiente en el documento de topología donde cada puerta de enlace de vídeo tiene un tronco a un grupo de servidores VIS diferente y ahora es posible la recuperación. (Si se usa TLS, los nombres múltiples tendrán que estar en el SAN del certificado de puerta de enlace de vídeo).
     
     > [!NOTE]
     > VIS solo permite llamadas entrantes desde puertas de enlace configuradas en el documento de topología. 
   
-2. **Conmutación por error front-end** Si un grupo de servidores VIS recibe una llamada de CUCM pero no puede alcanzar su registrador o grupo de servidores front-end principal del próximo salto, las llamadas se enrutar a un grupo de servidores front-end de reserva.
+2. **Conmutación por error front-end** Si un grupo de servidores VIS recibe una llamada de CUCM pero no puede alcanzar su registrador o grupo de servidores front-end principal del próximo salto, las llamadas se enruta a un grupo de servidores front-end de reserva.
     
      ![Diagrama de conmutación por error front-end](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
   
@@ -130,7 +130,7 @@ Skype Empresarial Server admite que los troncos SIP de voz y vídeo usen la mism
     
 - El sistema del mismo nivel que la puerta de enlace RTC será el servidor de mediación.
     
-- Si es necesario, se pueden definir varios troncos de voz que se extienden desde una puerta de enlace RTC a varios grupos de servidores de mediación.
+- Si es necesario, se pueden definir varios troncos de voz que abarcan desde una puerta de enlace RTC a varios grupos de servidores de mediación.
     
 - Deberá definirse una puerta de enlace de vídeo en el documento de topología para el tronco SIP de vídeo con el mismo FQDN que para la puerta de enlace RTC.
     
@@ -143,7 +143,7 @@ Skype Empresarial Server admite que los troncos SIP de voz y vídeo usen la mism
 ## <a name="co-existence-of-vis-in-the-skype-for-business-release-with-previous-releases-of-lync"></a>Coexistencia de VIS en la versión de Skype Empresarial con versiones anteriores de Lync
 <a name="resiliency"> </a>
 
-El VIS solo se puede implementar como parte de la implementación de Skype Empresarial. Puede interoperar con conferencias y clientes de Lync 2013 que forman parte de una implementación existente; En esos casos, el grupo de servidores VIS tendrá que formar parte de una implementación de Skype Empresarial que incluya un grupo de registrador/FE que sea el próximo salto del grupo vis.
+El VIS solo se puede implementar como parte de la implementación de Skype Empresarial. Puede interoperar con conferencias y clientes de Lync 2013 que forman parte de una implementación existente; en esos casos, el grupo de servidores VIS tendrá que formar parte de una implementación de Skype Empresarial que incluya un grupo de registrador/FE que sea el próximo salto del grupo vis.
   
 VIS no admite la transcodificación entre RTV y H.264. No hay interoperabilidad de vídeo entre clientes anteriores a Lync 2013 y participantes de VTC en una conferencia.
   
@@ -158,7 +158,7 @@ Interoperabilidad del VIS con dispositivos que no son de escritorio (Android, Ip
 ## <a name="recovery-from-packet-loss-via-fec"></a>Recuperación de pérdida de paquetes a través de FEC
 <a name="resiliency"> </a>
 
-FEC puede estar activado para ayudar en la recuperación de la pérdida de paquetes. Si está activado, se usará un 50 % más de ancho de banda de vídeo en la dirección vis a VTC.
+FEC puede estar activado para ayudar en la recuperación de la pérdida de paquetes. Si está activado, se usará un 50 % más de ancho de banda de vídeo en la dirección de VIS a VTC.
   
 ## <a name="vis-sizing-and-transcoding-costs"></a>Costos de tamaño y transcodificación vis
 <a name="resiliency"> </a>
@@ -184,7 +184,7 @@ La compatibilidad con VTC que se unen a reuniones en línea a través del VIS lo
 
 La compatibilidad con VTC que se unen a reuniones federadas a través de VIS no forma parte de Skype Empresarial.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="resiliency"> </a>
 
 [Implementar el servidor de interoperabilidad de vídeo en Skype Empresarial Server](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)

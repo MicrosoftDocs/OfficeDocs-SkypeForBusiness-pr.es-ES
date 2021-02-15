@@ -62,7 +62,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
     
   - **Tiempo de espera de bloqueo del teléfono** Puede especificar el período mínimo de tiempo antes de que el teléfono se bloquee. El intervalo para el tiempo de espera va de 0 a 60 minutos; el valor predeterminado es de 10 minutos. Especifique el valor en el formato HH:MM:SS.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Configuración de dispositivos](ms.lync.lscp.ClientDeviceCfgMain.md)
 

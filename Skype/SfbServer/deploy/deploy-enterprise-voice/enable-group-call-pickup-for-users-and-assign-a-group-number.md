@@ -48,7 +48,7 @@ Después de agregar números de grupo de atención de llamadas a la tabla de ór
    SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
    ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Deshabilitar la recogida de grupos para usuarios](https://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
 

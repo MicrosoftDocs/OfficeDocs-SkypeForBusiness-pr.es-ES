@@ -62,7 +62,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y M
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
 
-Si los planes de llamadas no están disponibles para comprar, considere la posibilidad de usar [el enrutamiento directo.](../direct-routing-landing-page.md) Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier proveedor de servicios de telefonía.
+Si los planes de llamadas no están disponibles para comprar, considere la posibilidad de usar [enrutamiento directo.](../direct-routing-landing-page.md) Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier proveedor de servicios de telefonía.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

@@ -27,7 +27,7 @@ ms.locfileid: "49831760"
 
 **Resumen:** Elija la topología de Skype Empresarial Server. Obtenga información sobre la colocación de servidores para Skype Empresarial Server.
 
-Antes de preparar cualquier otra cosa, querrá saber que está planeando la topología adecuada para su implementación de Skype Empresarial Server. Lo primero que debe decidir es si va a tener una implementación local de Skype Empresarial Server o si va a combinar esto con una implementación de Skype Empresarial Server Online en una implementación híbrida. En ambos casos, querrá seguir leyendo, ya que aquí detallaremos las topologías locales, pero los detalles híbridos se documentan en su propia sección.
+Antes de preparar cualquier otra cosa, querrá saber que está planeando la topología adecuada para su implementación de Skype Empresarial Server. Lo primero que debe decidir es si va a tener una implementación local de Skype Empresarial Server o si va a combinar esto con una implementación de Skype Empresarial Server Online en una implementación híbrida. En cualquier caso, querrá seguir leyendo, ya que aquí detallaremos las topologías locales, pero los detalles híbridos se documentan en su propia sección.
 
 También puede ver algunas topologías de ejemplo en [topologías de referencia para Skype Empresarial Server.](reference-topologies.md)
 
@@ -75,9 +75,9 @@ Para obtener más información, un sitio central también puede tener:
 
 - Supervisión. Se usa para admitir la recopilación de datos para audio/vídeo (A/V) Calidad de la experiencia (QoE) y registro detallado de llamadas (CDR) para conferencias Telefonía IP empresarial y A/V en su implementación. Lo trataremos en detalle en el tema Planning for Monitoring.
 
-- Director o grupo de directores. No es necesario, pero es útil si desea mejorar la resistencia y habilitar el redireccionamiento de las solicitudes de usuario de Skype Empresarial al grupo de servidores principal del usuario. Si desea implementar directores, se admite un máximo de 10 por grupo de servidores. Si es algo que necesita, definitivamente continúe leyendo en el tema Planeación para directores.
+- Director o grupo de directores. No es necesario, pero es útil si desea mejorar la resistencia y habilitar la redirección de las solicitudes de usuario de Skype Empresarial al grupo de servidores principal del usuario. Si desea implementar directores, se admite un máximo de 10 por grupo de servidores. Si es algo que necesita, definitivamente continúe leyendo en el tema Planeación para directores.
 
-- Proxy inverso. No es un componente de Skype Empresarial Server, pero si desea admitir el uso compartido de contenido web para usuarios federados, si desea admitir el tráfico de movilidad, si los usuarios remotos quieren usar la libreta de direcciones, unirse a reuniones, entre otros, esto es algo que querrá tener en su entorno. Hay un tema sobre la configuración del servidor proxy inverso que puede consultar para obtener más información cuando esté listo.
+- Proxy inverso. No es un componente de Skype Empresarial Server, pero si desea admitir el uso compartido de contenido web para usuarios federados, si desea admitir el tráfico de movilidad, si los usuarios remotos desean usar la libreta de direcciones, unirse a reuniones, entre otros, esto es algo que querrá tener en su entorno. Hay un tema sobre la configuración del servidor proxy inverso que puede consultar para obtener más información cuando esté listo.
 
 A continuación encontrará información adicional sobre la colocación de estos servidores.
 
@@ -146,7 +146,7 @@ Los grupos de servidores front-end también son el lugar principal de almacenami
 
 Además, un servidor front-end de la implementación también ejecuta el servidor de administración central, que administra e implementa datos de configuración básicos en todos los servidores que ejecutan Skype Empresarial Server. El servidor de administración central también proporciona shell de administración de Lync Server y capacidades de transferencia de archivos.
 
-Los servidores back-end son servidores de bases de Microsoft SQL Server que proporcionan los servicios de base de datos para el grupo de servidores front-end. Los servidores back-end sirven como almacenes de copia de seguridad para los datos de conferencia y usuario del grupo y son los almacenes principales de otras bases de datos, como la base de datos de grupo de respuesta. Puede tener un único servidor back-end, pero se recomienda la alta disponibilidad del servidor [back-end en Skype Empresarial Server](../high-availability-and-disaster-recovery/back-end-server.md) para la conmutación por error. Los servidores back-end no ejecutan ningún software de Skype Empresarial Server.
+Los servidores back-end son servidores de bases de Microsoft SQL Server que proporcionan los servicios de base de datos para el grupo de servidores front-end. Los servidores back-end sirven como almacenes de copia de seguridad para los datos de usuario y de conferencia del grupo, y son los almacenes principales de otras bases de datos, como la base de datos de grupo de respuesta. Puede tener un único servidor back-end, pero se recomienda la alta disponibilidad del servidor [back-end en Skype Empresarial Server](../high-availability-and-disaster-recovery/back-end-server.md) para la conmutación por error. Los servidores back-end no ejecutan ningún software de Skype Empresarial Server.
 
 > [!IMPORTANT]
 > No se recomienda instalar bases de datos de Skype Empresarial Server con otras bases de datos. Si lo hace, la disponibilidad y el rendimiento pueden verse afectados.
@@ -175,7 +175,7 @@ Para obtener más información, vea [el componente del servidor de mediación en
 
 ### <a name="video-interop-server"></a>Servidor de interoperabilidad de vídeo
 
-El servidor de interoperabilidad de vídeo es un nuevo rol a partir de Skype Empresarial Server 2015. Le permite integrar su implementación de Skype Empresarial Server con determinadas soluciones VTC (Sistema de teleconferencia de vídeo) de terceros. Un VIS actúa como intermediario entre un sistema de teleconferencia de terceros y una implementación de Skype Empresarial Server. Para esta versión, VIS se centra en la interoperabilidad con los sistemas de vídeo de Cisco/Tandberg.
+El servidor de interoperabilidad de vídeo es un nuevo rol a partir de Skype Empresarial Server 2015. Le permite integrar su implementación de Skype Empresarial Server con determinadas soluciones de terceros VTC (sistema de teleconferencia de vídeo). Un VIS actúa como intermediario entre un sistema de teleconferencia de terceros y una implementación de Skype Empresarial Server. Para esta versión, VIS se centra en la interoperabilidad con los sistemas de vídeo de Cisco/Tandberg.
 
 Para obtener más información, consulte [Plan for Video Interop Server in Skype for Business Server](../../plan-your-deployment/video-interop-server.md).
 
@@ -243,7 +243,7 @@ Dado SQL Server Express se coloca en el servidor Standard Edition y no se puede 
 > [!NOTE]
 > El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no es compatible con Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si necesita usar el chat persistente, puede migrar usuarios que requieran esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015.
 
-No se pueden colocar en el servidor Standard Edition, pero pueden ir en un único servidor de base de datos propio:
+Estos no se pueden colocar en el servidor Standard Edition, pero pueden ir en un único servidor de base de datos propio:
 
 - Base de datos de supervisión
 
@@ -251,7 +251,7 @@ No se pueden colocar en el servidor Standard Edition, pero pueden ir en un únic
 
 - Cualquier base de datos back-end para un grupo de servidores front-end Enterprise Edition
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>Empresa
 
 Las siguientes bases de datos se pueden colocar en el mismo servidor back-end SQL Server:
 
@@ -295,10 +295,10 @@ El recurso compartido de archivos puede estar en un servidor independiente o pue
 
 ### <a name="keep-in-mind"></a>Recuerde
 
-- No puede colocar un servidor proxy inverso, que no es un componente de Skype Empresarial Server, y puede que ni siquiera esté en su topología. Necesitará un proxy inverso si desea admitir el uso compartido de contenido web para usuarios federados, entre muchas otras cosas. If you need to, go ahead and implement reverse proxy support for Skype for Business Server by configuring an existing reverse proxy server that's already in your organization that's being used by other applications.
+- No puede colocar un servidor proxy inverso, que no es un componente de Skype Empresarial Server, y puede que ni siquiera esté en su topología. Necesitará un proxy inverso si desea admitir el uso compartido de contenido web para usuarios federados, entre muchas otras cosas. Si es necesario, implemente la compatibilidad con proxy inverso para Skype Empresarial Server configurando un servidor proxy inverso existente que ya esté en su organización y que esté siendo usado por otras aplicaciones.
 
 - No puede colocar ningún componente de mensajería unificada de Exchange ni de SharePoint Server con ningún rol de Skype Empresarial Server.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Topologías de referencia para Skype Empresarial Server](reference-topologies.md)

@@ -39,6 +39,6 @@ En esta fase, completará los pasos siguientes:
 3. [Defina los casos de uso.](teams-adoption-define-usage-scenarios.md)
 4. [Finalizar a los participantes del programa para usuarios anticipados.](teams-adoption-onboard-early-adopters.md)
 5. [Configure sus canales de comentarios.](teams-adoption-onboard-early-adopters.md#gather-feedback)
-6. [Lleve al personal de soporte técnico a bordo.](teams-adoption-onboard-support.md)
+6. [Lleve a su personal de soporte técnico a bordo.](teams-adoption-onboard-support.md)
 
 ![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Crear su programa de campeones](teams-adoption-create-champions-program.md)

@@ -34,7 +34,7 @@ Obtener usuarios devuelve una lista de usuarios en el repositorio.
 |:-----|:-----|:-----|
 |GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user  <br/> |HTTP/1.1  <br/> |
    
- **Parámetros uri:** ninguno.
+ **Parámetros de URI:** ninguno.
   
  **Encabezados de solicitud:** no hay encabezados adicionales.
   

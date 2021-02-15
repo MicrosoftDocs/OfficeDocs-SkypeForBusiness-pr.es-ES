@@ -49,9 +49,9 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 5. En el campo de búsqueda **Seleccionar un servicio**, escriba la totalidad o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o cambiar. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
 
     > [!NOTE]
-    > Se abre la Herramienta de configuración de grupo de respuesta. También puede abrir la Herramienta de configuración de grupo de respuesta directamente desde un explorador web escribiendo la siguiente dirección URL: https:// \<webPoolFqdn\> /RgsConfig.
+    > Se abrirá la Herramienta de configuración de grupo de respuesta. También puede abrir la Herramienta de configuración de grupo de respuesta directamente desde un explorador web escribiendo la siguiente dirección URL: https:// \<webPoolFqdn\> /RgsConfig.
 
-6. Realice una de las siguientes acciones:
+6. Realice una de las acciones siguientes:
 
    - En **Crear nuevo flujo de trabajo**, junto a **Grupo de búsqueda**, haga clic en **Crear**.
 
@@ -68,7 +68,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
     > La directiva de acceso externo global se aplica a la aplicación Grupo de respuesta. Puede configurar la directiva global para la federación de grupos de respuesta con el Panel de control de Skype Empresarial Server o con el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Tenga en cuenta que la configuración de directiva global se aplicará a todos los usuarios a menos que estén asignados a un sitio o a una directiva de usuario. Por lo tanto, antes de modificar este parámetro de los grupos de respuesta, asegurese de que la configuración de federación cumple con los requisitos de su organización. Para más información sobre cómo se aplican las directivas a los usuarios, vea [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obtener más información acerca de la configuración de federación, [vea Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
-    > Los usuarios hospedados en Skype Empresarial Online no pueden realizar llamadas a grupos de respuesta hospedados en una implementación local. Esto sucede tanto en implementaciones híbridas como en los casos en los que una implementación local está federada con una implementación de Skype Empresarial Online.
+    > Los usuarios hospedados en Skype Empresarial Online no pueden realizar llamadas a grupos de respuesta hospedados en una implementación local. Esto ocurre tanto en implementaciones híbridas como en los casos en los que una implementación local está federada con una implementación de Skype Empresarial Online.
 
 9. Para ocultar la identidad de los agentes durante las llamadas, active la casilla **Habilitar anonimato de agente**.
 
@@ -244,7 +244,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. Para definir horas laborables y vacaciones, créelas antes de crear o modificar el flujo de trabajo. Para obtener más información, consulte [(Opcional)](optional-define-response-group-business-hours.md) Definir el horario comercial del grupo de respuesta en Skype Empresarial y [(opcional)](optional-define-response-group-holiday-sets.md)definir conjuntos de días festivos de grupo de respuesta en Skype Empresarial.
+6. Para definir horas laborables y vacaciones, créelas antes de crear o modificar el flujo de trabajo. Para obtener más información, consulte [(opcional)](optional-define-response-group-business-hours.md) Definir el horario comercial del grupo de respuesta en Skype Empresarial y [(opcional)](optional-define-response-group-holiday-sets.md)definir conjuntos de días festivos de grupo de respuesta en Skype Empresarial.
 
 7. Si desea tener mensajes para las llamadas que se reciben en un horario no laborable o en época de vacaciones, use el cmdlet **New-CsRgsPrompt** para definir el mensaje y el cmdlet **New-CsRgsCallAction** para definir la acción que se ejecutará después del mensaje. Para obtener más información, [consulte New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) y [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
@@ -280,7 +280,7 @@ Puede usar la respuesta interactiva de voz (IVR) para obtener información de lo
 
 La aplicación Grupo de respuesta ofrece reconocimiento de voz y capacidades de texto a voz en 26 idiomas. Puede formular preguntas al IVR mediante texto a voz o un archivo wave (.wave) o Windows Media Audio (.wma). Los autores de las llamadas pueden responder mediante voz o tono de marcado de frecuencia múltiple (DTMF).
 
-Los flujos de trabajo interactivos admiten hasta dos niveles de preguntas; cada una de las preguntas tiene dos respuestas posibles. El IVR hace una pregunta al autor de la llamada y, según la respuesta del autor de la llamada, enruta al autor de la llamada a una cola o hace una segunda pregunta. La segunda pregunta también puede tener cuatro respuestas posibles. Según la respuesta a la pregunta de segundo nivel, el autor de la llamada se enruta a la cola adecuada.
+Los flujos de trabajo interactivos admiten hasta dos niveles de preguntas; cada una de las preguntas tiene dos respuestas posibles. El IVR hace una pregunta al autor de la llamada y, según la respuesta del autor de la llamada, lo enruta a una cola o hace una segunda pregunta. La segunda pregunta también puede tener cuatro respuestas posibles. Según la respuesta a la pregunta de segundo nivel, el autor de la llamada se enruta a la cola adecuada.
 
 > [!NOTE]
 > Al diseñar flujos de llamadas mediante el Shell de administración de Skype Empresarial Server, puede definir cualquier número de niveles de preguntas de IVR y cualquier número de respuestas. Sin embargo, para mejorar la usabilidad, le recomendamos que no use más de tres niveles de preguntas, con no más de cinco respuestas por pregunta. Además, si diseña un flujo de llamadas que tiene más de dos niveles de preguntas con más de cuatro respuestas cada una, no podrá editar el flujo de llamadas mediante el Panel de control de Skype Empresarial Server.
@@ -382,7 +382,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 5. En el campo de búsqueda **Seleccionar un servicio** escriba total o parcialmente el nombre del servicio de **ApplicationServer** que hospeda el flujo de trabajo que desea crear o modificar. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
 
     > [!NOTE]
-    > Se abre la Herramienta de configuración de grupo de respuesta. También puede abrir la Herramienta de configuración de grupo de respuesta directamente desde un explorador web escribiendo la siguiente dirección URL: https:// \<webPoolFqdn\> /RgsConfig.
+    > Se abrirá la Herramienta de configuración de grupo de respuesta. También puede abrir la Herramienta de configuración de grupo de respuesta directamente desde un explorador web escribiendo la siguiente dirección URL: https:// \<webPoolFqdn\> /RgsConfig.
 
 6. Haga una de las acciones siguientes:
 
@@ -401,7 +401,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     > La directiva de acceso externo global se aplica a la aplicación Grupo de respuesta. Puede configurar la directiva global para la federación de grupos de respuesta con el Panel de control de Skype Empresarial Server o con el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Tenga en cuenta que la configuración de directiva global se aplicará a todos los usuarios a menos que estén asignados a un sitio o a una directiva de usuario. Por lo tanto, antes de modificar este parámetro de los grupos de respuesta, asegurese de que la configuración de federación cumple con los requisitos de su organización. Para más información sobre cómo se aplican las directivas a los usuarios, vea [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obtener más información sobre la configuración de federación, **consulte Set-CsExternalAccessPolicy en** la documentación.
 
     > [!NOTE]
-    > Los usuarios hospedados en Skype Empresarial Online no pueden realizar llamadas a grupos de respuesta hospedados en una implementación local. Esto sucede tanto en implementaciones híbridas como en los casos en los que una implementación local está federada con una implementación de Skype Empresarial Online.
+    > Los usuarios hospedados en Skype Empresarial Online no pueden realizar llamadas a grupos de respuesta hospedados en una implementación local. Esto ocurre tanto en implementaciones híbridas como en los casos en los que una implementación local está federada con una implementación de Skype Empresarial Online.
 
 9. Para ocultar la identidad de los agentes durante las llamadas, active la casilla **Habilitar anonimato de agente**.
 
@@ -413,7 +413,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 11. En **Nombre para mostrar**, escriba el nombre que desea mostrar para el flujo de trabajo (por ejemplo, Grupo de respuesta IVR de ventas).
 
     > [!NOTE]
-    > No incluya los \<" or "\> caracteres " " en el nombre para mostrar. No use los siguientes nombres para mostrar porque están reservados: **Observador de presencia de RGS** o **Servicio de anuncio**.
+    > No incluya los caracteres \<" or "\> " " en el nombre para mostrar. No use los siguientes nombres para mostrar porque están reservados: **Observador de presencia de RGS** o **Servicio de anuncio**.
 
 12. En **Número de teléfono**, especifique el URI de línea para el grupo de respuesta (por ejemplo, +14255550165).
 
@@ -644,7 +644,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
      > [!NOTE]
      > Todos los usuarios designados como administradores de un grupo de respuesta deben tener asignado el rol CsResponseGroupManager. De lo contrario, no podrán administrar los grupos de respuesta.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [(Opcional) Definir conjuntos de días festivos de grupo de respuesta en Skype Empresarial](optional-define-response-group-holiday-sets.md)
 

@@ -28,7 +28,7 @@ La tabla TraceRoute contiene información de enrutamiento de las llamadas. Esta 
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Principal, Externa  <br/> |Fecha y hora en que empezó la llamada.  <br/> |
 |**SessionSeq** <br/> |entero  <br/> |Principal, Externa  <br/> |Identificador único que se usa para diferenciar varias llamadas que pueden haber empezado el mismo día a la misma hora.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Principal, Externa  <br/> |Representa el tipo de línea de vídeo usada en la llamada. Los valores permitidos son:  <br/> 0- Audio  <br/> 1 - Vídeo  <br/> 2- Vídeo panorámico  <br/> 3- Uso compartido de aplicaciones y escritorio  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Principal, Externa  <br/> |Representa el tipo de línea de vídeo usada en la llamada. Los valores permitidos son:  <br/> 0 - Audio  <br/> 1 - Vídeo  <br/> 2- Vídeo panorámico  <br/> 3- Uso compartido de aplicaciones y escritorio  <br/> |
 |**FromCaller** <br/> |bit  <br/> |Principal  <br/> |Extremo que ha realizado la llamada.  <br/> |
 |**Salto** <br/> |entero  <br/> ||Salto de red.  <br/> |
 |**IPAddressKey** <br/> |entero  <br/> |Externo  <br/> |Identificador único de la dirección IP. La información de la dirección IP se almacena en la [tabla IPAddress](ipaddress.md).  <br/> |

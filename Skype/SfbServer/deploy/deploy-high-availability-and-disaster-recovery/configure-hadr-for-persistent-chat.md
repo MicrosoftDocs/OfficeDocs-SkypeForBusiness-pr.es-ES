@@ -29,11 +29,11 @@ Skype Empresarial Server admite varios modos de alta disponibilidad para los ser
 > [!NOTE]
 > Los grupos de disponibilidad AlwaysOn no son compatibles con los servidores de chat persistente. 
   
-Antes de configurar la implementación de chat persistente para la alta disponibilidad y la recuperación ante desastres, asegúrese de que está familiarizado con los conceptos de Planeación de alta disponibilidad y recuperación ante desastres para el servidor de chat persistente en [Skype Empresarial Server 2015.](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) La solución de recuperación ante desastres para el servidor de chat persistente descrita en estos temas se basa en un grupo de servidores de chat persistente extendido. El contenido de planeación describe los requisitos de recursos y la topología de grupo extendido que permite la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente, incluido el uso de la creación de reflejos de SQL Server para alta disponibilidad y el trasvase de registros de SQL Server para la recuperación ante desastres.
+Antes de configurar la implementación de chat persistente para la alta disponibilidad y la recuperación ante desastres, asegúrese de estar familiarizado con los conceptos de Planeación de alta disponibilidad y recuperación ante desastres para el servidor de chat persistente en [Skype Empresarial Server 2015.](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) La solución de recuperación ante desastres para el servidor de chat persistente descrita en estos temas se basa en un grupo de servidores de chat persistente extendido. El contenido de planeación describe los requisitos de recursos y la topología de grupo extendido que permite la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente, incluido el uso de la creación de reflejos de SQL Server para alta disponibilidad y el trasvase de registros de SQL Server para la recuperación ante desastres.
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>Uso del Generador de topologías para configurar la alta disponibilidad y la recuperación ante desastres
 
-En el Generador de topologías, siga estos pasos para configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente.
+En topology Builder, realice los siguientes pasos para configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente.
   
 1. Agregue las bases de datos reflejadas y la base de datos secundaria de trasvase de registros SQL Server almacenes.
     
@@ -146,7 +146,7 @@ Realice los siguientes pasos para que el trasvase de registros continúe si la b
     
 19. En la nueva ventana de consulta, en **Propiedades de base de datos**, haga clic en **Aceptar** para comenzar el proceso de configuración.
     
-20. Seleccione y ejecute la primera mitad de la consulta (vea el paso 18) hasta la línea: -- Fin: script que se ejecutará \* \* \* \* \* \* en el nivel principal: \* \* \* \* \* \* .
+20. Seleccione y ejecute la primera mitad de la consulta (vea el paso 18) hasta la línea: -- End: Script que se ejecutará \* \* \* \* \* \* en primary: \* \* \* \* \* \* .
     
     > [!IMPORTANT]
     > La ejecución manual de este script es necesaria porque SQL Server Management Studio no admite varias bases de datos principales en una SQL Server de trasvase de registros. 

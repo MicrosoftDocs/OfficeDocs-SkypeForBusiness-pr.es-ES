@@ -41,17 +41,17 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
    
 **Valores de las entidades de seguridad**
 
-|**ID**|**Rol**|**Descripción**|**Usuario**|
+|**Id.**|**Rol**|**Descripción**|**Usuario**|
 |:-----|:-----|:-----|:-----|
 |1   <br/> |Cualquiera  <br/> |Entidad de seguridad genérica sin tipo conocido. No se utiliza en la tabla tblPrincipal.  <br/> ||
 |2   <br/> |AnyUser  <br/> |Entidad de seguridad genérica de tipo de usuario. No se utiliza en la tabla tblPrincipal.  <br/> |Sí  <br/> |
 |3   <br/> |AnyGroup  <br/> |Entidad de seguridad genérica con semántica de grupo. No se utiliza en la tabla tblPrincipal.  <br/> ||
 |4   <br/> |SystemUser  <br/> |Entidad de seguridad usada internamente por el servidor de chat persistente.  <br/> ||
-|5   <br/> |Usuario  <br/> |Usuario habitual.  <br/> |Sí  <br/> |
+|5   <br/> |User  <br/> |Usuario habitual.  <br/> |Sí  <br/> |
 |8   <br/> |DC  <br/> |Controlador de dominio de Servicios de dominio de Active Directory.  <br/> ||
 |9   <br/> |Group  <br/> |Grupo de seguridad de Active Directory.  <br/> ||
-|10   <br/> |Folder  <br/> |Unidad organizativa o contenedor de Active Directory.  <br/> ||
+|10    <br/> |Folder  <br/> |Unidad organizativa o contenedor de Active Directory.  <br/> ||
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [tblPrincipal](tblprincipal.md)

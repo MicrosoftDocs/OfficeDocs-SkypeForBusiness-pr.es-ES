@@ -21,7 +21,7 @@ ms.locfileid: "49832280"
 ---
 # <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a>Abordar las amenazas a la infraestructura principal de Skype Empresarial Server
  
-Además de seguir los procedimientos recomendados para la implementación de Skype Empresarial Server, puede ayudar a garantizar la seguridad revisando, entendiendo y atendiendo las necesidades de áreas específicas de la implementación.
+Además de seguir los procedimientos recomendados para la implementación de Skype Empresarial Server, puede ayudar a garantizar la seguridad revisando, entendiendo y atendiendo las necesidades de áreas específicas de su implementación.
   
 ## <a name="in-this-section"></a>En esta sección
 

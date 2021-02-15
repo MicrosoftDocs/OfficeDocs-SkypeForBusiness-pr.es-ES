@@ -71,7 +71,7 @@ El objeto Item devuelto por Sub-Items operación sólo contiene los tres campos 
   
  *userId:*  id. del usuario propietario de este elemento.
   
- *type:*  el tipo de contenido. Las aplicaciones establecen este campo.
+ *type:*  el tipo de contenido. Este campo lo establecen las aplicaciones.
   
 > [!NOTE]
 >  `Content` y `subItems` los campos no se incluyen en la respuesta para reducir la cantidad de datos transmitidos a través de la red.

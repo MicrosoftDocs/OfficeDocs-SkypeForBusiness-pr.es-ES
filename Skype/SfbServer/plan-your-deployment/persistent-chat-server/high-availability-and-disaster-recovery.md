@@ -52,7 +52,7 @@ Antes de configurar el servidor de chat persistente para la alta disponibilidad 
 
 Skype Empresarial Server admite varios modos de alta disponibilidad para los servidores back-end, incluida la creación de reflejos de la base de datos. Para obtener más información, consulte [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
   
-La solución de recuperación ante desastres para el servidor de chat persistente que se describe en este tema se basa en un grupo de servidores de chat persistente extendido. No hay ningún requisito para una red de área local virtual (VLAN) estirada. Al extender un grupo de servidores de chat persistente, se configura lógicamente un grupo de servidores en la topología, pero físicamente se coloca los servidores del grupo en dos centros de datos diferentes. Configure la creación SQL Server reflejo de la base de datos de la misma manera e implemente la base de datos y el reflejo en el mismo centro de datos. Debe configurar una base de datos de copia de seguridad en el centro de datos secundario (con un reflejo opcional para proporcionar alta disponibilidad durante la recuperación ante desastres). Esta es la base de datos de copia de seguridad que se usa para la conmutación por error durante la recuperación ante desastres. 
+La solución de recuperación ante desastres para el servidor de chat persistente que se describe en este tema se basa en un grupo de servidores de chat persistente extendido. No hay ningún requisito para una red de área local virtual (VLAN) estirada. Al extender un grupo de servidores de chat persistente, se configura lógicamente un grupo de servidores en la topología, pero físicamente se coloca los servidores en el grupo en dos centros de datos diferentes. Configure la creación SQL Server reflejo de la base de datos de la misma manera e implemente la base de datos y el reflejo en el mismo centro de datos. Debe configurar una base de datos de copia de seguridad en el centro de datos secundario (con un reflejo opcional para proporcionar alta disponibilidad durante la recuperación ante desastres). Esta es la base de datos de copia de seguridad que se usa para la conmutación por error durante la recuperación ante desastres. 
   
 Para obtener más información sobre cómo configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente, consulte Configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en [Skype Empresarial Server 2015.](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) 
   
@@ -68,7 +68,7 @@ La figura 1 muestra una topología de grupo de servidores de chat persistente ex
     
   - Un grupo de chat persistente en los sitios 1 y 2 que contiene los servidores del 1 al 8.
     
-  - Un grupo de servidores front-end, una base de datos de chat persistente, una base de datos reflejada y, opcionalmente, una base de datos testigo (no se muestra en el diagrama) que reside físicamente en el sitio 1. 
+  - Un grupo de servidores front-end, una base de datos de chat persistente, una base de datos reflejada y, opcionalmente, una base de datos testigo (no mostrada en el diagrama) que reside físicamente en el sitio 1. 
     
   - Un segundo grupo de servidores front-end y una base de datos de copia de seguridad que residen físicamente en el sitio 2.
     
@@ -92,7 +92,7 @@ La figura 2 muestra una topología de grupo de servidores de chat persistente ex
     
   - Un grupo de chat persistente en los sitios 1 y 2 que contiene los servidores del 1 al 8.
     
-  - Un grupo de servidores front-end, una base de datos de chat persistente, una base de datos reflejada y, opcionalmente, una base de datos testigo (no se muestra en el diagrama) que reside físicamente en el sitio 1. 
+  - Un grupo de servidores front-end, una base de datos de chat persistente, una base de datos reflejada y, opcionalmente, una base de datos testigo (no mostrada en el diagrama) que reside físicamente en el sitio 1. 
     
   - Un segundo grupo de servidores front-end y una base de datos de copia de seguridad que residen físicamente en el sitio 2.
     

@@ -53,6 +53,6 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
     
 - **Días para conservar los archivos de registro (1-365)** Puede especificar el número de días que se conservarán los archivos de registro antes de que se purguen. El valor predeterminado es 10 días.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Configuración de registro de dispositivo](ms.lync.lscp.ClientDeviceCfgMain.md)

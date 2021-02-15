@@ -60,7 +60,7 @@ La forma en que se implementa una AG depende de si se implementa en un nuevo gru
     
    - En el **cuadro Resumen,** compruebe los errores que informe el asistente. A **continuación, haga clic** en Finalizar para completar la validación.
     
-     El asistente probablemente mostrará varias advertencias, especialmente si no usa almacenamiento compartido. No es necesario usar el almacenamiento compartido. Sin embargo, si ve algún **mensaje de error,** debe corregir esos problemas antes de continuar.
+     El asistente probablemente notirá varias advertencias, especialmente si no usa almacenamiento compartido. No es necesario usar el almacenamiento compartido. Sin embargo, si ve algún **mensaje de error,** debe corregir esos problemas antes de continuar.
     
 3. Crear el clúster de conmutación por error de Windows Server (WSFC).
     
@@ -130,13 +130,13 @@ La forma en que se implementa una AG depende de si se implementa en un nuevo gru
     
    - Abra el Generador de topologías, **seleccione Descargar topología de la implementación existente** y haga clic en **Aceptar.**
     
-   - Expanda Skype Empresarial Server, expanda la topología y expanda **SQL Server store.** Haga clic con el botón secundario en SQL almacén del nuevo grupo de disponibilidad AlwaysOn y, a continuación, haga clic **en Editar propiedades.**
+   - Expanda Skype Empresarial Server, expanda la topología y expanda **SQL Server almacenes.** Haga clic con el botón secundario en SQL almacén del nuevo grupo de disponibilidad AlwaysOn y, a continuación, haga clic **en Editar propiedades.**
     
      - En la parte inferior de la página, en el cuadro **SQL Server FQDN,** cambie el valor al FQDN del agente de escucha del GRUPO.
     
-   - Publique la topología. En el **menú Acción,** haga **clic en Topología** y, a continuación, **publique**. A continuación, en la página de confirmación, haga **clic en Siguiente**. A continuación, espere unos minutos para que se replique la nueva topología.
+   - Publique la topología. En el **menú Acción,** haga **clic en Topología** y, a **continuación, publique**. A continuación, en la página de confirmación, haga **clic en Siguiente**. A continuación, espere unos minutos para que se replique la nueva topología.
     
-   - Abra SQL Server Management Studio y vaya al GRUPO. Conmutación por error a una réplica secundaria.
+   - Abra SQL Server Management Studio y vaya al grupo de disponibilidad. Conmutación por error a una réplica secundaria.
     
    - Abra el Shell de administración de Skype Empresarial Server y escriba el siguiente cmdlet para crear SQL inicios de sesión en esta réplica:
     
@@ -170,7 +170,7 @@ La forma en que se implementa una AG depende de si se implementa en un nuevo gru
     
    - Para cada tipo de SQL almacén en el grupo de servidores, desactive la casilla SQL creación de reflejo **del** almacén.
     
-3. Publique la topología modificada. En el **menú Acción,** haga **clic en Topología** y, a continuación, **publique**. A continuación, en la página de confirmación, haga clic **en Siguiente**
+3. Publique la topología modificada. En el **menú Acción,** haga **clic en Topología** y, a **continuación, publique**. A continuación, en la página de confirmación, haga clic **en Siguiente**
     
 4. Use SQL Server Management Studio para romper el reflejo.
     
@@ -200,7 +200,7 @@ La forma en que se implementa una AG depende de si se implementa en un nuevo gru
     
    - En el **cuadro Resumen,** compruebe los errores que informe el asistente. A **continuación, haga clic** en Finalizar para completar la validación.
     
-     El asistente probablemente mostrará varias advertencias, especialmente si no usa almacenamiento compartido. No es necesario usar el almacenamiento compartido. Sin embargo, si ve algún **mensaje de error,** debe corregir esos problemas antes de continuar.
+     El asistente probablemente notirá varias advertencias, especialmente si no usa almacenamiento compartido. No es necesario usar el almacenamiento compartido. Sin embargo, si ve algún **mensaje de error,** debe corregir esos problemas antes de continuar.
     
 7. Cree el clúster de conmutación por error de Windows Server.
     
@@ -266,7 +266,7 @@ La forma en que se implementa una AG depende de si se implementa en un nuevo gru
     
 11. Cree un nuevo almacén que especifique el agente de escucha de AG y especifique la entidad de seguridad del reflejo antiguo como nodo principal del AG.
     
-    - Abra el Generador de topologías. En la topología, expanda **Componentes** compartidos, haga clic con el botón secundario **en SQL Server Almacenes** y haga clic en Nuevo almacén SQL Server **compartido.**
+    - Abra el Generador de topologías. En la topología, expanda **Componentes** compartidos, haga clic con el botón secundario **en SQL Server Almacenes** y, a continuación, haga clic en **SQL Server.**
     
     - En la página Definir nuevo almacén de  **SQL,** active primero la casilla configuración de alta disponibilidad y, a continuación, asegúrese de que SQL grupos de disponibilidad AlwaysOn aparece en el cuadro desplegable.
     
@@ -278,23 +278,23 @@ La forma en que se implementa una AG depende de si se implementa en un nuevo gru
     
     - En el Generador de topologías, haga clic con el botón secundario en el grupo de servidores que desea asociar con el GRUPO y, a continuación, haga clic **en Editar propiedades.**
     
-    - En **Asociaciones**, en el cuadro **SQL Server Tienda,** seleccione la AG. Seleccione el mismo grupo para cualquier otra base de datos del grupo de servidores que desee mover al grupo de disponibilidad.
+    - En **Asociaciones**, en el cuadro **SQL Server Tienda,** seleccione el grupo de disponibilidad. Seleccione el mismo grupo para cualquier otra base de datos del grupo de servidores que desee mover al grupo de disponibilidad.
     
     - Cuando esté seguro de que todas las bases de datos necesarias están establecidas en ag, haga clic en **Aceptar**.
     
-13. Publique la topología. En el **menú Acción,** haga **clic en Topología** y, a continuación, **publique**. A continuación, en la página de confirmación, haga **clic en Siguiente**.
+13. Publique la topología. En el **menú Acción,** haga **clic en Topología** y, a **continuación, publique**. A continuación, en la página de confirmación, haga **clic en Siguiente**.
     
 14. Realice algunos pasos finales para asegurarse de que SQL inicios de sesión en cada una de las réplicas del grupo de disponibilidad AlwaysOn.
     
     - Abra el Generador de topologías, **seleccione Descargar topología de la implementación existente** y haga clic en **Aceptar.**
     
-    - Expanda Skype Empresarial Server, expanda la topología y expanda **SQL Server store.** Haga clic con el botón secundario en SQL almacén de la nueva AG y, a continuación, haga clic **en Editar propiedades.**
+    - Expanda Skype Empresarial Server, expanda la topología y expanda **SQL Server almacenes.** Haga clic con el botón secundario en SQL almacén de la nueva AG y, a continuación, haga clic **en Editar propiedades.**
     
     - En la parte inferior de la página, en el cuadro **SQL Server FQDN,** cambie el valor al FQDN del agente de escucha del GRUPO.
     
-    - Publique la topología. En el **menú Acción,** haga **clic en Topología** y, a continuación, **publique**. A continuación, en la página de confirmación, haga **clic en Siguiente**. A continuación, espere unos minutos para que se replique la nueva topología.
+    - Publique la topología. En el **menú Acción,** haga **clic en Topología** y, a **continuación, publique**. A continuación, en la página de confirmación, haga **clic en Siguiente**. A continuación, espere unos minutos para que se replique la nueva topología.
     
-    - Abra SQL Server Management Studio y vaya al GRUPO. Conmutación por error a una réplica secundaria.
+    - Abra SQL Server Management Studio y vaya al grupo de disponibilidad. Conmutación por error a una réplica secundaria.
     
     - Abra el Shell de administración de Skype Empresarial Server y escriba el siguiente cmdlet para crear SQL inicios de sesión en esta réplica:
     
@@ -332,7 +332,7 @@ La forma en que se implementa una AG depende de si se implementa en un nuevo gru
     
    - En el **cuadro Resumen,** compruebe los errores que informe el asistente. A **continuación, haga clic** en Finalizar para completar la validación.
     
-     El asistente probablemente mostrará varias advertencias, especialmente si no usa almacenamiento compartido. No es necesario usar el almacenamiento compartido. Sin embargo, si ve algún **mensaje de error,** debe corregir esos problemas antes de continuar.
+     El asistente probablemente notirá varias advertencias, especialmente si no usa almacenamiento compartido. No es necesario usar el almacenamiento compartido. Sin embargo, si ve algún **mensaje de error,** debe corregir esos problemas antes de continuar.
     
 3. Crear el clúster de conmutación por error de Windows Server (WSFC).
     
@@ -376,7 +376,7 @@ La forma en que se implementa una AG depende de si se implementa en un nuevo gru
     
    - En la página Seleccionar bases de datos, seleccione las bases de datos que desea incluir en el grupo de disponibilidad. A continuación, haga clic en **Siguiente**.
     
-     No incluya las bases de datos **ReportServer,** **ReportServerTempDB** o Persistent Chat en la AG, ya que no se admiten en este escenario. Puede incluir todas las demás bases de datos de Skype Empresarial Server en la AG.
+     No incluya las bases de datos **ReportServer**, **ReportServerTempDB** o Persistent Chat en la AG, ya que no se admiten en este escenario. Puede incluir todas las demás bases de datos de Skype Empresarial Server en la AG.
     
    - En la **página Especificar réplicas,** haga clic en **la pestaña Réplicas.** A continuación, haga clic en el botón Agregar **réplicas** y conéctese a las demás instancias SQL que ha unido como nodos de WSFC.
     
@@ -398,7 +398,7 @@ La forma en que se implementa una AG depende de si se implementa en un nuevo gru
     
 7. Cree un nuevo almacén que especifique el agente de escucha de AG.
     
-   - Abra el Generador de topologías. En la topología, expanda **Componentes** compartidos, haga clic con el botón secundario **en SQL Server Almacenes** y haga clic en Nuevo almacén SQL Server **compartido.**
+   - Abra el Generador de topologías. En la topología, expanda **Componentes** compartidos, haga clic con el botón secundario **en SQL Server Almacenes** y, a continuación, haga clic en **SQL Server.**
     
    - En la página Definir nuevo almacén de  **SQL,** active primero la casilla configuración de alta disponibilidad y, a continuación, asegúrese de que SQL grupos de disponibilidad AlwaysOn aparece en el cuadro desplegable.
     
@@ -410,23 +410,23 @@ La forma en que se implementa una AG depende de si se implementa en un nuevo gru
     
    - En el Generador de topologías, haga clic con el botón secundario en el grupo de servidores que desea asociar con el GRUPO y, a continuación, haga clic **en Editar propiedades.**
     
-   - En **Asociaciones**, en el cuadro **SQL Server Tienda,** seleccione la AG. Seleccione el mismo grupo para cualquier otra base de datos del grupo de servidores que desee mover al grupo de disponibilidad.
+   - En **Asociaciones**, en el cuadro **SQL Server Tienda,** seleccione el grupo de disponibilidad. Seleccione el mismo grupo para cualquier otra base de datos del grupo de servidores que desee mover al grupo de disponibilidad.
     
    - Cuando esté seguro de que todas las bases de datos necesarias están establecidas en ag, haga clic en **Aceptar**.
     
-9. Publique la topología. En el **menú Acción,** haga **clic en Topología** y, a continuación, **publique**. A continuación, en la página de confirmación, haga **clic en Siguiente**.
+9. Publique la topología. En el **menú Acción,** haga **clic en Topología** y, a **continuación, publique**. A continuación, en la página de confirmación, haga **clic en Siguiente**.
     
 10. Realice algunos pasos finales para asegurarse de que los SQL inicios de sesión están en cada una de las réplicas del GRUPO.
     
     - Abra el Generador de topologías, **seleccione Descargar topología de la implementación existente** y haga clic en **Aceptar.**
     
-    - Expanda Skype Empresarial Server, expanda la topología y expanda **SQL Server store.** Haga clic con el botón secundario en SQL almacén de la nueva AG y, a continuación, haga clic **en Editar propiedades.**
+    - Expanda Skype Empresarial Server, expanda la topología y expanda **SQL Server almacenes.** Haga clic con el botón secundario en SQL almacén de la nueva AG y, a continuación, haga clic **en Editar propiedades.**
     
     - En la parte inferior de la página, en el cuadro **SQL Server FQDN,** cambie el valor al FQDN del agente de escucha del GRUPO.
     
-    - Publique la topología. En el **menú Acción,** haga **clic en Topología** y, a continuación, **publique**. A continuación, en la página de confirmación, haga **clic en Siguiente**. A continuación, espere unos minutos para que se replique la nueva topología.
+    - Publique la topología. En el **menú Acción,** haga **clic en Topología** y, a **continuación, publique**. A continuación, en la página de confirmación, haga **clic en Siguiente**. A continuación, espere unos minutos para que se replique la nueva topología.
     
-    - Abra SQL Server Management Studio y vaya al GRUPO. Conmutación por error a una réplica secundaria.
+    - Abra SQL Server Management Studio y vaya al grupo de disponibilidad. Conmutación por error a una réplica secundaria.
     
     - Abra el Shell de administración de Skype Empresarial Server y escriba el siguiente cmdlet para crear SQL inicios de sesión en esta réplica:
     
