@@ -1,5 +1,5 @@
 ---
-title: Comprar servicios para aplicaciones de terceros de Teams en el Centro de administración de Microsoft Teams
+title: Comprar aplicaciones de terceros para Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -12,18 +12,18 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: ''
-description: Obtenga información sobre cómo comprar servicios para aplicaciones de terceros de Teams en la página Administrar aplicaciones del Centro de administración de Microsoft Teams.
+description: Obtenga información sobre cómo comprar aplicaciones de terceros para Teams en el Centro de administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 8ee5b5c56a26ed054cdef559bc623b3cca4baa43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3b90af2e0fecba2d6c421a5b26547e93b18df05d
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834330"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196184"
 ---
-<a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Comprar servicios para aplicaciones de terceros de Teams en el Centro de administración de Microsoft Teams
+<a name="purchase-third-party-apps-for-teams"></a>Comprar aplicaciones de terceros para Teams
 ======================================================
 
 > [!NOTE]
@@ -31,7 +31,7 @@ ms.locfileid: "49834330"
 
 Las aplicaciones de Teams se pueden instalar de forma gratuita y algunas pueden requerir la compra de suscripciones de servicio para experimentar toda la funcionalidad y el ámbito de la aplicación. Estas suscripciones de servicio se denominan ofertas de Software como servicio (SaaS), que se pueden comprar a través de [AppSource](https://appsource.microsoft.com/) y ahora a través del Centro de administración de Microsoft Teams.
 
-La [página Administrar](manage-apps.md) aplicaciones del Centro de administración de Microsoft Teams es el lugar donde puede ver y administrar todas las aplicaciones de Teams de su organización. Por ejemplo, puede ver el estado y las propiedades de nivel de la organización de las aplicaciones, cargar nuevas aplicaciones personalizadas en la tienda de aplicaciones de su organización, bloquear o permitir aplicaciones en el nivel de la organización y administrar la configuración de aplicaciones para toda la organización.
+La [página Administrar aplicaciones](manage-apps.md) del Centro de administración de Microsoft Teams es el lugar donde puede ver y administrar todas las aplicaciones de Teams de su organización. Por ejemplo, puede ver el estado y las propiedades de nivel de la organización de las aplicaciones, cargar nuevas aplicaciones personalizadas en la tienda de aplicaciones de su organización, bloquear o permitir aplicaciones en el nivel de la organización y administrar la configuración de aplicaciones para toda la organización.
 
 Aquí, también puede comprar licencias para los servicios ofrecidos por aplicaciones de terceros para los usuarios de su organización. La **columna Licencias** de la tabla indica si una aplicación ofrece una suscripción SaaS para la compra.
 
@@ -39,7 +39,7 @@ Aquí, también puede comprar licencias para los servicios ofrecidos por aplicac
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>Buscar y comprar servicios para una aplicación de terceros
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Administrar aplicaciones**  >  **de** Teams. Debe ser administrador global o administrador de servicios de Teams para acceder a la página.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Administrar aplicaciones de Teams.**  >   Debe ser administrador global o administrador del servicio de Teams para acceder a la página.
 2. Busque la aplicación que desee. Para identificar las aplicaciones que tienen una suscripción SaaS de pago, busque en la **columna** Licencias. Cada aplicación tendrá uno de los siguientes valores:
     - **Comprar ahora:** La aplicación ofrece una suscripción SaaS y está disponible para su compra.  
     - **Comprado:** la aplicación ofrece una suscripción SaaS y ha comprado licencias para ella.
@@ -55,7 +55,7 @@ Aquí, también puede comprar licencias para los servicios ofrecidos por aplicac
 Una vez que haya comprado la oferta de SaaS asociada a la  aplicación Teams, puede ver los siguientes detalles de compra en la pestaña Planes y precios de la página de detalles de la aplicación.
 
 - **Fecha de activación de** la licencia: fecha en la que se activó la licencia. Si tu cuenta aún no está configurada, se muestra como Suscripción **pendiente de activación.**
-- **Licencias:** número de licencias que compró.
+- **Licencias:** número de licencias que ha comprado.
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Captura de pantalla de la pestaña Planes y precios de la página de detalles de la aplicación":::
 

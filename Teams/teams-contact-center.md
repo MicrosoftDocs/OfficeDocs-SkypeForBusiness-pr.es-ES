@@ -13,49 +13,50 @@ f1.keywords:
 description: Información general sobre el centro de contactos integrado como solución de servicio (CCaaS) para Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4094af6a9e79cf8bdabf17e056024c24f1802130
-ms.sourcegitcommit: 33093f90489adeddbca56a6234ecf36e59126f05
+ms.openlocfilehash: 207b39fd0ac7b879002355921d001b2bbb01070b
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107044"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196379"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integraciones del Centro de contactos para Microsoft Teams
 
-La integración de soluciones populares de centros de contactos con Microsoft Teams es una necesidad común de los clientes al implementar las capacidades de llamadas de Teams.  Este artículo proporciona información general sobre cómo se pueden integrar las soluciones del Centro de contactos con Microsoft Teams y la información adicional sobre las soluciones de asociados que participan en el programa de certificación del Centro de contactos conectado de Microsoft Teams.
+La integración de soluciones populares de centros de contactos con Microsoft Teams es una necesidad común de los clientes al implementar las capacidades de llamadas de Teams.  En este artículo se proporciona información general sobre cómo se pueden integrar las soluciones del Centro de contactos con Microsoft Teams y la información adicional sobre los proveedores de soluciones que participan en el programa de certificación del Centro de contactos conectado de Microsoft Teams.
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>¿Qué es la integración de un centro de contactos para Microsoft Teams?
 
-Los centros de contacto de hoy en día proporcionan mucho más que soporte técnico: actúan como uno de los principales vehículos para interactuar y comentarios sin filtrar sobre la experiencia de un cliente con una marca. Debido a la gran cantidad de canales que los clientes de hoy en día prefieren interactuar por teléfono, correo electrónico, texto, redes sociales y el gran volumen de puntos de contacto asociados con los procesos de compra actuales, muchas organizaciones han realizado dos realidades adicionales:
+Los centros de contacto de hoy en día proporcionan mucho más que soporte técnico: actúan como uno de los principales vehículos para interactuar y comentarios sin filtrar sobre la experiencia de un cliente con una marca. Debido a la amplia cantidad de canales que los clientes de hoy en día prefieren interactuar por teléfono, correo electrónico, texto, redes sociales y el gran volumen de puntos de contacto asociados con los procesos de compra actuales, muchas organizaciones han realizado dos realidades adicionales:
 
 1. Todos los miembros de la organización tienen el potencial de participar en la participación directa de un cliente y, por lo tanto, necesitan estar equipados con las herramientas adecuadas.
 
 2. Este ámbito ampliado de las interacciones con los clientes requiere herramientas que puedan ayudarle a impulsar la coherencia, la mejora constante y la escala.
 
-Microsoft Teams admite las transmisiones de trabajo por interacción del cliente actuando como el concentrador para la conexión de clientes internos y externos en sus modos de comunicación, incluidos el chat, las reuniones de vídeo y las llamadas. En algunas [compañías,](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)las capacidades [](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) de voz en la nube de Microsoft [Teams,](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)incluidos los operadores automáticos y las colas de llamadas, ofrecen las características y la configuración para satisfacer sus necesidades.
+Microsoft Teams admite las transmisiones de trabajo por interacción del cliente actuando como el concentrador para la conexión de clientes internos y externos en sus modos de comunicación, incluidos el chat, las reuniones de vídeo y las llamadas. Para algunas compañías, las capacidades [](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) de voz en la nube de Microsoft [Teams,](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)incluidos los operadores [automáticos](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)y las colas de llamadas, proporcionan las características y la configuración para satisfacer sus necesidades.
 
-Para otros usuarios que desean soluciones integradas con herramientas empresariales y flujos de trabajo para dirigir el viaje del cliente, Microsoft Teams también se integra con algunos de los proveedores de soluciones líderes del sector como centro de contactos como servicio (CCaaS).
+Para otros usuarios que desean soluciones integradas con herramientas empresariales y flujos de trabajo para dirigir el viaje del cliente, Microsoft Teams también se integra con algunos de los proveedores de soluciones líderes del sector centro de contactos como servicio (CCaaS).
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Centro de contactos conectado para el programa de certificación de Microsoft Teams
 
-Las API permiten a los partners desarrollar e integrar soluciones CCaaS para Teams. Además, hemos desarrollado el programa de certificación Centro de contactos conectados para Microsoft Teams para proporcionar a los clientes la garantía de que la solución de cada partner participante se ha probado y comprobado para proporcionar la calidad, la compatibilidad y la confiabilidad que esperan de las soluciones de Microsoft.
+Las API permiten a los proveedores de soluciones desarrollar e integrar soluciones CCaaS para Teams. Además, hemos desarrollado el programa de certificación Centro de contactos conectados para Microsoft Teams para proporcionar a los clientes la garantía de que la solución de cada proveedor participante se ha probado y comprobado para proporcionar la calidad, la compatibilidad y la confiabilidad que esperan de las soluciones de Microsoft.
 
-Los siguientes partners tienen una solución certificada para Microsoft Teams y están listos para atraer a los clientes:
+![Distintivo certificado.](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
-|  Partner                                                                                                                               |  Sitio web de la solución                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|  Proveedor de soluciones                                                                                                                               |  Sitio web de la solución                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 
-Los siguientes partners están en proceso de certificar su solución para Microsoft Teams y están listos para atraer a los clientes:
+### <a name="connected-contact-center-solutions-currently-in-the-certification-process"></a>Soluciones del Centro de contactos conectados que se encuentran actualmente en proceso de certificación
 
-|  Partner                                                                                                                               |  Sitio web de la solución                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|  Proveedor de soluciones                                                                                                                               |  Sitio web de la solución                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
+| `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
@@ -64,11 +65,11 @@ Los siguientes partners están en proceso de certificar su solución para Micros
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
-Esta lista se actualizará a medida que más partners se unan y cumplan los criterios de certificación.
+Esta lista se actualizará a medida que más proveedores de soluciones se unan y cumplan los criterios de certificación.
 
 ### <a name="connect"></a>Conectar
 
-Este modelo conecta a los asociados de CCaaS con la infraestructura de sistemas telefónicos de Microsoft Teams, lo que permite mejorar el enrutamiento, la configuración y la información del sistema. 
+Este modelo conecta los proveedores de soluciones CCaaS con la infraestructura de sistemas telefónicos de Microsoft Teams, lo que permite mejorar el enrutamiento, la configuración y la información del sistema. 
 
 Los agentes que usan soluciones creadas en el modelo Connect pueden recopilar información & información y, si es necesario, transferir llamadas a expertos en la materia directamente, usando la presencia de SME en Teams para garantizar su disponibilidad.
 
@@ -86,15 +87,15 @@ Aunque lo siguiente no es una lista exhaustiva de las capacidades de caracterís
 
   - API de Teams Graph y API de comunicación en la nube para la integración con Teams 
 
-  - Puede admitir la tronco SIP multiinquilino para admitir varios clientes en SBC del partner.  
+  - Capaz de admitir el tronco SIP multiinquilino para admitir varios clientes en SBC del proveedor de soluciones.  
 
-  - Partners para usar [ <span class="underline">el controlador de borde de sesión certificado de Microsoft (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Proveedores de soluciones para usar [ <span class="underline">controlador de borde de sesión certificado de Microsoft (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>Conectar y extender
 
-Este modelo amplía las experiencias de agente y personal del centro de contactos mediante la integración con el cliente de Teams mediante la plataforma del cliente de [Teams,](https://docs.microsoft.com/microsoftteams/platform/overview)las API de [Teams Graph](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) y la API de comunicaciones en la nube en [Microsoft Graph,](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) y usa el sistema telefónico de Teams para todas las llamadas y experiencias de control de llamadas del centro de contactos. En este modelo, el partner del centro de contactos actúa como operador de telefonía junto con Microsoft 365.
+Este modelo amplía las experiencias de agente y personal del centro de contactos mediante la integración con el cliente de Teams mediante la plataforma del cliente de [Teams,](https://docs.microsoft.com/microsoftteams/platform/overview)las API de [Teams Graph](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) y la API de comunicaciones en la nube en [Microsoft Graph,](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) y usa el sistema telefónico de Teams para todas las llamadas y experiencias de control de llamadas del centro de contactos. En este modelo, el proveedor de soluciones del centro de contactos actúa como operador de telefonía junto con Microsoft 365.
 
-Al usar soluciones basadas en Connect y Extend, los agentes pueden beneficiarse de notas contextuales y dinámicas que correlacionan datos de varios sistemas antes de iniciar una interacción y, a continuación, evitar el cambio de contexto costoso trabajando de forma nativa en Teams para la colaboración interna y las comunicaciones externas.
+Al usar soluciones basadas en Connect y Extend, los agentes pueden beneficiarse de notas contextuales y dinámicas que correlacionan datos de varios sistemas antes de iniciar una participación y, a continuación, evitar el cambio de contexto costoso si trabajan de forma nativa en Teams para la colaboración interna y las comunicaciones externas.
 
 Las organizaciones pueden diseñar flujos de trabajo y configuraciones avanzadas de enrutamiento de forma individual y medir la calidad de su sistema e interacciones.
 
@@ -114,17 +115,17 @@ Aunque lo siguiente no es una lista completa de las capacidades de característi
 
   - Análisis, administración de flujos de trabajo y experiencias basadas en roles para agentes dentro de la aplicación CCaaS en Teams
 
-  - Experiencias de chat y colaboración integradas con los clientes de Teams 
+  - Experiencias de chat y colaboración integradas con clientes de Teams 
 
   - Conservar el rendimiento y la calidad de las experiencias de cliente de Teams en todas las aplicaciones  
 
 ### <a name="extend-and-power"></a>Extender y encender
 
-Este modelo permite a los partners crear aplicaciones de voz nativas basadas en Azure con la infraestructura de llamadas de Teams y la plataforma de clientes para ofrecer soluciones modernas e inteligentes para la conexión colaborativa entre clientes y agentes. El objetivo de Ampliar y Power es fomentar la creatividad de los desarrolladores e impulsar la productividad de los clientes.
+Este modelo permite a los proveedores de soluciones crear aplicaciones de voz nativas basadas en Azure mediante la infraestructura de llamadas de Teams y la plataforma de clientes para ofrecer soluciones modernas e inteligentes para la conexión colaborativa entre clientes y agentes. El objetivo de Ampliar y Power es fomentar la creatividad de los desarrolladores e impulsar la productividad de los clientes.
 
-Al crear directamente en Azure, los partners pueden implementar y aprovisionar rápidamente su solución en todas las regiones y regiones geográficas de Teams, beneficiándose de nuestra red de comunicaciones global compartida y al mismo tiempo aprovechar el almacenamiento, el cálculo y el análisis de Azure & servicios cognitivas.
+Al crear directamente en Azure, los proveedores de soluciones pueden implementar y aprovisionar rápidamente su solución en todas las regiones y regiones geográficas de Teams, beneficiándose de nuestra red de comunicaciones global compartida y al mismo tiempo aprovechar el almacenamiento, el cálculo y el análisis de & servicios cognitivas.
 
-Con el modelo de integración de Extend y Power, los partners pueden proporcionar a los agentes del centro de contacto experiencias de comunicación de canal al mismo tiempo que incorpora inteligencia artificial para personalizar cómo y cuándo los participantes (u otros servicios) se comprometen a realizar una llamada aplicando la API de comunicaciones en la nube en [Microsoft Graph.](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
+Con el modelo de integración de Extend y Power, los proveedores de soluciones pueden proporcionar a los agentes del centro de contacto experiencias de comunicación de canal mediante una incorporación de inteligencia artificial para personalizar cómo y cuándo los participantes (u otros servicios) se comprometen a realizar una llamada aplicando la API de comunicaciones en la nube en [Microsoft Graph.](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
 
 **Aspectos destacados de las características:**
 
@@ -138,7 +139,7 @@ Aunque lo siguiente no es una lista exhaustiva de las funcionalidades de caracte
 
   - Control directo de la conversación e interacción con los usuarios durante las conversaciones de Teams 
 
-### <a name="comparing-connected-contact-center-integration-models"></a>Comparar modelos de integración de centros de contactos conectados
+### <a name="comparing-connected-contact-center-integration-models"></a>Comparación de modelos de integración de centros de contactos conectados
 
 Revise la tabla siguiente para obtener información general sobre los modelos de integración que admite Microsoft Teams.
 
@@ -156,17 +157,17 @@ Revise la tabla siguiente para obtener información general sobre los modelos de
 <tr class="odd">
 <td>Modelo de servicio en la nube</td>
 <td>Azure</td>
-<td>Partner</td>
-<td><p>Partner +</p>
+<td>Proveedor de soluciones</td>
+<td><p>Proveedor de soluciones +</p>
 <p>Azure</p></td>
 <td>Azure</td>
 </tr>
 <tr class="even">
 <td>¿Quién funciona con la solución?</td>
 <td>Microsoft</td>
-<td>Partner</td>
-<td>Partner</td>
-<td>Partner</td>
+<td>Proveedor de soluciones</td>
+<td>Proveedor de soluciones</td>
+<td>Proveedor de soluciones</td>
 </tr>
 <tr class="odd">
 <td>Inicio de sesión de M365</td>

@@ -1,5 +1,5 @@
 ---
-title: Interoperabilidad entre Skype empresarial y Microsoft Teams
+title: Interoperabilidad entre Skype Empresarial y Microsoft Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Detalles de las opciones de coexistencia de Skype empresarial y Microsoft Teams, así como la interoperabilidad resultante entre Skype empresarial y Teams.
+description: Detalles de las opciones de coexistencia de Skype Empresarial y Microsoft Teams, y el resultado de la interoperabilidad entre Skype Empresarial y Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,196 +20,196 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b952d11c5ebe4b2da7620cc6ed8dd650be0d6bc5
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: ea8c313d74829c00532fa3310657879f94dc2e5d
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611774"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196434"
 ---
-# <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender Microsoft Teams y la coexistencia e interoperabilidad de Skype empresarial
+# <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender la coexistencia e interoperabilidad de Microsoft Teams y Skype Empresarial
 
 ![Diagrama de itinerario de actualización, énfasis en la fase de definición del proyecto](media/upgrade-banner-project-definition.png "Fases del itinerario de la actualización, con énfasis en la fase de definición del proyecto")
 
-Este artículo forma parte de la fase de definición de proyecto de su viaje de actualización, una actividad que ha completado después de crear un Coalition de patrocinio y un equipo de proyecto y definir el ámbito, los objetivos y la visión de su proyecto. Antes de continuar, confirme que ha completado las siguientes actividades:
+Este artículo forma parte de la fase de definición del proyecto del viaje de actualización, una actividad que se completa después de crear una campaña de patrocinio y un equipo de proyecto, y que define el ámbito, los objetivos y la visión del proyecto. Antes de continuar, confirma que has completado las siguientes actividades:
 
 - [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
 - [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
 
-Si su organización usa Skype empresarial hoy y está empezando a usar Teams con Skype empresarial — o está comenzando a actualizar a Teams, es importante comprender cómo cooperan las dos aplicaciones, Cuándo y cómo interoperan, y cómo administrar la migración de los usuarios hasta su eventual actualización de Skype empresarial a los equipos.
+Si su organización usa Skype Empresarial hoy y empieza a usar Teams junto con Skype Empresarial o está empezando a actualizar a Teams, es importante comprender cómo coexisten las dos aplicaciones, cuándo y cómo interactúan, y cómo administrar la migración de los usuarios hasta su actualización final de Skype Empresarial a Teams.
 
 > [!Tip]
-> Mire la siguiente sesión para obtener información sobre la [coexistencia y la interoperabilidad](https://aka.ms/teams-upgrade-coexistence-interop).
+> Vea la siguiente sesión para obtener información sobre [coexistencia e interoperabilidad.](https://aka.ms/teams-upgrade-coexistence-interop)
 >
-> Además, puede participar en talleres interactivos y en vivo en los que compartiremos orientación, procedimientos recomendados y recursos diseñados para la planificación e implementación de la actualización de lanzamiento.
+> Además, puede unirse a nosotros en talleres interactivos y en directo en los que compartiremos orientación, procedimientos recomendados y recursos diseñados para iniciar la planeación e implementación de actualizaciones.
 >
 > Para empezar, únase en primer lugar a la sesión [Planificar la actualización](https://aka.ms/SkypeToTeamsPlanning).
 
-## <a name="coexistence-of-teams-and-skype-for-business"></a>Coexistencia de Teams y Skype empresarial
+## <a name="coexistence-of-teams-and-skype-for-business"></a>Coexistencia de Teams y Skype Empresarial
 
-Además de las capacidades de colaboración, Teams ofrece funciones de chat, llamadas y reuniones. En función de cómo decida implementar Teams, estas capacidades pueden superponerse a las capacidades que proporciona Skype empresarial para un usuario determinado. El modo predeterminado es ejecutar Teams junto con Skype empresarial con las capacidades superpuestas. sin embargo, a un usuario se le puede asignar uno de los diversos modos de coexistencia (también conocidos como modos de actualización) que se diseñaron para garantizar que estas funcionalidades no se solapen para ese usuario (en cuyo caso está disponible la interoperabilidad entre Teams y Skype empresarial). Por ejemplo, si tiene muchos activos locales de Skype empresarial Server con una compleja implementación de telefonía IP empresarial pero desea que los usuarios disfruten de las reuniones modernas lo antes posible, puede que desee evaluar las [reuniones en primer lugar](meetings-first.md) como una ruta alternativa.
+Además de las capacidades de colaboración, Teams ofrece funcionalidades de chat, llamadas y reuniones. En función de cómo elija implementar Teams, estas funcionalidades pueden superponerse a las que ofrece Skype Empresarial para un usuario determinado. El modo predeterminado es ejecutar Teams junto con Skype Empresarial con las funcionalidades superpuestas; sin embargo, se puede asignar a un usuario uno de los diferentes modos de coexistencia (también conocidos como modos de actualización) que se diseñaron para garantizar que estas capacidades no se superponen para ese usuario (en cuyo caso está disponible la interoperabilidad entre Teams y Skype Empresarial). Por ejemplo, si tiene activos locales [significativos](meetings-first.md) de Skype Empresarial Server con una implementación de Telefonía IP empresarial compleja pero desea que los usuarios disfruten de reuniones modernas lo antes posible, es posible que desee evaluar Reuniones primero como una ruta alternativa.
 
-Le recomendamos que revise los siguientes modos de coexistencia para determinar qué ruta de acceso es adecuada para su organización.
+Le recomendamos que revise los siguientes modos de coexistencia para ayudar a determinar qué ruta es la adecuada para su organización.
 
 > [!Important]
-> La presentación de nuevas tecnologías o la realización de cambios en el entorno existente de Skype para empresas, a la vez que ofrece excelentes beneficios comerciales nuevos, puede ser perjudicial para los usuarios. Tome el tiempo de evaluar la preparación del usuario e implementar un plan de comunicación y aprendizaje antes de implementar cualquiera de los cambios descritos en este artículo. Además, le recomendamos encarecidamente que planee su plan con un grupo de usuarios seleccionado antes de implementarlo en toda la organización.
+> La introducción de nueva tecnología o la realización de cambios en su entorno de Skype Empresarial existente y familiar, a la vez que ofrece nuevos beneficios empresariales excelentes, puede interrumpir a los usuarios. Dedime tiempo para evaluar la disponibilidad del usuario e implementar un plan de comunicación y aprendizaje antes de implementar cualquiera de los cambios descritos en este artículo. Además, le recomendamos encarecidamente que pilote su plan con un grupo de usuarios seleccionado antes de implementarlo en toda la organización.
 
 ### <a name="islands-mode"></a>Modo islas
 
-De forma predeterminada, los usuarios pueden ejecutar equipos junto con Skype empresarial como dos soluciones independientes que ofrecen capacidades similares y superpuestas, como presencia, chat, llamadas y reuniones. Los usuarios de Teams también pueden aprovechar las nuevas capacidades de colaboración, como los equipos y los canales, el acceso a los archivos de Microsoft 365 u Office 365 y las aplicaciones.
+De forma predeterminada, los usuarios pueden ejecutar Teams junto con Skype Empresarial como dos soluciones independientes que ofrecen funcionalidades similares y superpuestas, como presencia, chat, llamadas y reuniones. Los usuarios de Teams también pueden aprovechar las nuevas capacidades de colaboración, como los equipos y canales, el acceso a archivos en Microsoft 365 u Office 365 y las aplicaciones.
 
-En este modo de coexistencia, denominado **islas**, cada una de las aplicaciones cliente funciona como una isla independiente. Skype empresarial habla con Skype empresarial y Teams se comunica con Teams. Se espera que los usuarios ejecuten ambos clientes en todo momento y se puedan comunicar de forma nativa en el cliente desde el que se inició la comunicación. Por lo tanto, no hay necesidad de interoperabilidad en el modo **islas** .
+En este modo de coexistencia, denominado **Islas,** cada una de las aplicaciones cliente funciona como una isla independiente. Skype Empresarial habla con Skype Empresarial y teams habla con Teams. Se espera que los usuarios ejecuten ambos clientes en todo momento y que puedan comunicarse de forma nativa en el cliente desde el que se inició la comunicación. Por lo tanto, no es necesario ningún tipo de interoperabilidad en el **modo islas.**
 
-Para evitar una experiencia de Skype empresarial confusa o recargada, las comunicaciones externas (federadas), los servicios de voz RTC y las aplicaciones de voz, la integración de Office, los controles HID para dispositivos USB y otras integraciones más siguen siendo manejadas por Skype empresarial y no están disponibles en los equipos en el modo **islas** . El sistema telefónico no es compatible con equipos en el modo **islas** ; en este modo, el único cliente de voz empresarial es Skype empresarial.
+Para evitar una experiencia de Skype Empresarial confusa o regresión, comunicaciones externas (federadas), servicios de voz RTC y aplicaciones de voz, integración de Office,  controles HID para dispositivos USB y otras integraciones siguen siendo manejadas por Skype Empresarial y no están disponibles en Teams en modo de Islas. Sistema telefónico no es compatible con Teams en el **modo de** islas; en este modo, el único Telefonía IP empresarial cliente es Skype Empresarial.
 
 > [!Important]
-> En el modo **islas** , todos los mensajes y las llamadas de usuarios federados (personas de fuera de la organización) se envían a Skype empresarial. Después de actualizar a modo **solo para equipos** , todos los mensajes y las llamadas de fuera de la organización se envían a teams.
+> En **el modo** Islas, todos los mensajes y llamadas de usuarios federados (personas de fuera de su organización) se entregan a Skype Empresarial. Después de actualizar **al modo Solo** equipos, todos los mensajes y llamadas de fuera de su organización se entregan a Teams.
 
 > [!Tip]
-> La ruta recomendada para los clientes de Skype empresarial online es empezar con el modo **islas** predeterminadas, los equipos de unidades de disco adoptan la saturación de la organización y, a continuación, se desplazan rápidamente al modo de **solo equipos** . En el caso de los clientes híbridos y locales, especialmente los más complejos, pueden beneficiarse de la implementación de **Skype empresarial con** el modo de colaboración de Teams como punto de partida en lugar del modo **islas** y del progreso a **Skype empresarial con el modo de colaboración y reuniones de Teams** (es decir, las reuniones en primer lugar), si es necesario, y al modo **solo de equipos** cuando
+> La ruta recomendada por los clientes de  Skype Empresarial Online es comenzar con el modo predeterminado de islas, impulsar la saturación de adopción de Teams en la organización y, a continuación, pasar rápidamente al modo solo de **Teams.** Los clientes locales e híbridos, especialmente los más complejos, podrían beneficiarse al implementar  el modo de colaboración de Skype Empresarial con **Teams** como punto de partida en lugar  del modo Islas y avanzar desde allí hasta el modo Skype Empresarial con colaboración y reuniones de **Teams** (es decir, Reuniones en primer lugar), si corresponde, y al modo Solo equipos cuando la organización esté lista para adoptar Teams.
 
 ### <a name="teams-only"></a>Solo equipos
 
-Un usuario **solo de equipos** (también denominado usuario *actualizado* ) tiene acceso a todas las capacidades de Teams. Pueden retener el cliente de Skype empresarial para unirse a reuniones de Skype empresarial organizadas por usuarios externos o no actualizados. Un usuario actualizado puede seguir comunicándose con otros usuarios de la organización que siguen usando Skype empresarial con las funciones de interoperabilidad entre Teams y Skype empresarial (siempre que estos usuarios de Skype empresarial no estén en modo **islas** ). Sin embargo, un usuario actualizado no puede iniciar una conversación, una llamada o una reunión de Skype empresarial.
+Un **usuario solo de Teams** (también llamado usuario actualizado) tiene acceso a todas las capacidades de Teams.  Pueden conservar el cliente de Skype Empresarial para unirse a reuniones en Skype Empresarial que hayan sido organizadas por usuarios no actualizados o partes externas. Un usuario actualizado puede seguir en contacto con otros usuarios de la organización que aún usan Skype Empresarial mediante las capacidades  de interoperabilidad entre Teams y Skype Empresarial (siempre que estos usuarios de Skype Empresarial no estén en modo de Islas). Sin embargo, un usuario actualizado no puede iniciar un chat, una llamada o una reunión de Skype Empresarial.
 
-Tan pronto como su organización esté lista para que algunos o todos los usuarios usen Teams como la única herramienta de comunicación y colaboración, puede actualizar esos usuarios al modo de **solo equipos** . Si está actualizando desde el modo **islas** , le recomendamos que primero saturara la adopción de Teams en toda la organización antes de comenzar el proceso de actualización. Esto evita la ruptura de los escenarios de comunicación debido a que el modo **islas** no proporciona interoperabilidad.
+Tan pronto como su organización esté lista para que algunos o todos los usuarios usen Teams como su única herramienta de comunicaciones y colaboración, puede actualizar esos usuarios al **modo Solo** equipos. Si va a actualizar desde el modo **Islas,** le recomendamos que saturar primero la adopción de Teams en toda la organización antes de comenzar el proceso de actualización. Esto evita los escenarios de comunicación rotos debido a **que el** modo Islas no proporciona interoperabilidad.
 
-Cuando se encuentra en el modo **solo de Teams** , Teams es la aplicación predeterminada para el protocolo SIP/Tel. Esto significa que los vínculos de la tarjeta de contacto de un usuario en Outlook para la llamada o la conversación serán gestionados por Teams.
+En el **modo Solo equipos,** Teams es la aplicación predeterminada para el protocolo SIP/tel. Esto significa que Teams administra los vínculos de la tarjeta de contacto de un usuario en Outlook para llamadas o chats.
 
-Para obtener más información sobre cómo cambiar al modo **solo de Teams** , vea [consideraciones del modo solo de Teams](teams-only-mode-considerations.md).
+Para ver consideraciones adicionales sobre cómo pasar **al modo Solo** equipos, vea las consideraciones del modo Solo [equipos.](teams-only-mode-considerations.md)
 
-![Captura de pantalla del mensaje de confirmación de Teams](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Cliente de Skype empresarial que se ejecuta en un modo especial después de que el usuario se actualice como un usuario de solo equipo")
+![Captura de pantalla del mensaje de confirmación de Teams](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Cliente de Skype Empresarial que se ejecuta en un modo especial después de actualizar el usuario como usuario solo de Teams")
 
 ### <a name="skype-for-business-only"></a>Solo Skype Empresarial
 
-En este modo de coexistencia, los usuarios permanecen en Skype empresarial, no en los equipos, en las capacidades de chat, reunión y llamada, y no usan Teams para equipos y canales. Este modo está disponible hoy; sin embargo, en la implementación actual, los equipos y los canales no se desactivan automáticamente para el usuario. Esto se puede conseguir usando la Directiva de configuración de la aplicación para ocultar equipos y archivos.
+En este modo de coexistencia, los usuarios permanecen en Skype Empresarial (no Teams) para funcionalidades de chat, reuniones y llamadas, y no usan Teams para equipos y canales. Este modo está disponible hoy; sin embargo, en la implementación actual, los equipos y canales no se desactivarán automáticamente para el usuario. Esto puede lograrse usando la directiva de configuración de la aplicación para ocultar equipos y archivos.
 
-Este modo se puede usar antes de iniciar una implementación administrada de Teams para evitar que los usuarios comiencen a usar Teams por adelantado, o como una forma de habilitar la participación autenticada en reuniones de Teams para los usuarios de Skype empresarial, siempre y cuando los usuarios tengan una licencia de Teams.
+Este modo puede usarse antes de iniciar una implementación administrada de Teams para evitar que los usuarios comiencen a usar Teams antes de haber creado la preparación, o como una forma de habilitar la participación autenticada en las reuniones de Teams para los usuarios de Skype Empresarial, siempre y cuando los usuarios tengan licencia de Teams.
 
-### <a name="skype-for-business-with-teams-collaboration"></a>Skype empresarial con colaboración de Teams
+### <a name="skype-for-business-with-teams-collaboration"></a>Skype Empresarial con colaboración de Teams
 
-Use este modo para presentar equipos en su entorno mientras continúa aprovechando la inversión existente en Skype empresarial. En este modo, no se cambia Skype empresarial para las funciones de chat, llamadas y reuniones, y usted agrega capacidades de colaboración de Teams: equipos y canales, acceso a los archivos de Microsoft 365 u Office 365 y aplicaciones. Las capacidades de comunicaciones de Teams (conversación privada, llamadas y programación de reuniones) están desactivadas de forma predeterminada en este modo.
+Use este modo para presentar Teams en su entorno mientras aprovecha su inversión existente en Skype Empresarial. En este modo, no cambia Skype Empresarial para las funcionalidades de chat, llamadas y reuniones, y agrega las capacidades de colaboración de Teams: equipos y canales, acceso a archivos en Microsoft 365 u Office 365 y aplicaciones. Las capacidades de comunicación de Teams (chat privado, llamadas y programación de reuniones) están desactivadas de forma predeterminada en este modo.
 
-Las organizaciones con un punto de partida de Skype empresarial Server local o híbrido deben considerar este modo como alternativa al modo **islas** si desean ofrecer a sus usuarios la interoperabilidad y la predicción de las comunicaciones, así como disponer de un calendario predecible para su actualización a Teams (en lugar de confiar en la saturación de la adopción en el modo **islas** ).
+Las organizaciones con un punto de partida de Skype Empresarial Server  local o híbrido deben considerar este modo como una alternativa al modo islas si quieren ofrecer a sus usuarios interoperabilidad y  predictibilidad para sus comunicaciones, así como tener una escala de tiempo predecible para su actualización a Teams (en lugar de depender de la saturación de adopción en el modo islas).
 
-### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>Skype empresarial con la colaboración y las reuniones de Teams, también conocidas como reuniones en primer lugar
+### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>Skype Empresarial con colaboración y reuniones de Teams, también conocido como Reuniones en primer lugar
 
-Use este modo de coexistencia para acelerar la disponibilidad de las capacidades de reunión de los equipos de su organización, además de sus capacidades de colaboración, lo que permite a los usuarios aprovechar la experiencia de reuniones de equipos superiores: excelente calidad, capacidades innovadoras como transcripción, traducción o desenfoque de fondo, y una experiencia de usuario superior en todas las plataformas, incluidos los exploradores y dispositivos móviles
+Use este modo de coexistencia para acelerar la disponibilidad de las capacidades de reuniones de Teams en su organización, además de sus capacidades de colaboración, lo que permite a los usuarios aprovechar la gran calidad de las reuniones de Teams superiores, capacidades innovadoras como la transcripción y traducción o difuminado del fondo, y una experiencia de usuario superior en todas las plataformas, incluidos dispositivos móviles y exploradores.
 
-Junto con el uso de Teams para las conversaciones basadas en equipos y canales en este modo, los usuarios usarán Teams para programar y dirigir sus reuniones. Las llamadas y chats privados permanecen en Skype empresarial. Los equipos y Skype empresarial se benefician de una variedad de capacidades de "mejor conjunto", como la reconciliación de presencia, la retención o dessuspensión automática y la compatibilidad con dispositivos HID en ambas aplicaciones. Tenga en cuenta que es posible ocultar equipos y canales si así lo desea mediante la Directiva de permisos de aplicación.
+Además de usar Teams para conversaciones basadas en canales y equipos en este modo, los usuarios usarán Teams para programar y llevar a cabo sus reuniones. Las llamadas y chats privados permanecen en Skype Empresarial. Teams y Skype Empresarial se benefician de una gama de funcionalidades "juntos mejor", como la conciliación de presencia, la retención automática y la retención automática y la compatibilidad con dispositivos HID en ambas aplicaciones. Tenga en cuenta que es posible ocultar equipos y canales si lo desea mediante la directiva de configuración de la aplicación.
 
-Este modo de coexistencia es especialmente útil para las organizaciones con las implementaciones locales de Skype empresarial con telefonía IP empresarial, que probablemente tardarán algún tiempo en actualizarse a teams y desean beneficiarse de las reuniones superiores de los equipos tan pronto como sea posible.
+Este modo de coexistencia es especialmente útil para las organizaciones con implementaciones locales de Skype Empresarial con Telefonía IP empresarial, que es probable que den algún tiempo para actualizar a Teams y quieran aprovechar lo antes posible las reuniones superiores de Teams.
 
 > [!TIP]
-> Para ayudar a identificar el modo de actualización recomendado en función de las capacidades que desea habilitar en Teams mientras Skype empresarial aún está en uso, aproveche el [Asistente de actualización de Skype to Teams](https://aka.ms/SkypeToTeamsWizard).
+> Para ayudarle a identificar el modo de actualización recomendada en función de las funciones que desea habilitar en Teams mientras skype empresarial todavía está en uso, aproveche el Asistente para la actualización de Skype a [Teams.](https://aka.ms/SkypeToTeamsWizard)
 
-Para obtener más información sobre los modos de coexistencia, los requisitos previos y la administración, consulte [Guía de migración e interoperabilidad para las organizaciones que usan Teams junto con Skype empresarial](https://aka.ms/SkypeToTeams-Interop) y [establecer la coexistencia y la actualización de la configuración](https://aka.ms/SkypeToTeams-SetCoexistence).
+Para obtener más información sobre los modos de coexistencia, los requisitos previos y la administración, consulte la guía de migración e interoperabilidad para las organizaciones que usan Teams junto con [Skype](https://aka.ms/SkypeToTeams-Interop) Empresarial y cómo configurar su coexistencia y [actualización.](https://aka.ms/SkypeToTeams-SetCoexistence)
 
 | | | |
 |---|---|---|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Punto de decisión|<ul><li>¿Qué modo o modos de coexistencia se adaptan mejor a las necesidades de los usuarios y de su organización?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next step"/>|Paso siguiente|<ul><li>Elige el mejor enfoque para tu viaje de actualización.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Punto de decisión|<ul><li>¿Qué modo(s) de coexistencia se adapta mejor a las necesidades de su organización y de los usuarios?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next step"/>|Paso siguiente|<ul><li>Elija el mejor método para su viaje de actualización.</li></ul>|
 
-## <a name="interoperability-of-teams-and-skype-for-business"></a>Interoperabilidad de Teams y Skype empresarial
+## <a name="interoperability-of-teams-and-skype-for-business"></a>Interoperabilidad de Teams y Skype Empresarial
 
-La interoperabilidad es la capacidad de que los equipos y los usuarios de Skype empresarial de la misma organización se comuniquen entre equipos y Skype empresarial.
+La interoperabilidad es la capacidad de los usuarios de Teams y Skype Empresarial en la misma organización de comunicarse entre Teams y Skype Empresarial.
 
-La interoperabilidad está regida por el modo de coexistencia (también conocido como modo de actualización) del destinatario. No hay interoperabilidad cuando el receptor está en modo **islas** .
-
-> [!Note]
-> Cuando se implementa en cualquier modo de coexistencia excepto **islas**, los equipos y Skype empresarial pueden [interoperar](#interoperability-of-teams-and-skype-for-business), lo que permite a los usuarios conversar y llamar entre sí, y garantizar que las comunicaciones permanezcan fluidas en toda la organización durante el viaje de actualización a teams. Los modos de coexistencia rigen la interoperabilidad. El modo de coexistencia del receptor determina si estará disponible la interoperabilidad. Por ejemplo, si el receptor está en un modo en el que la conversación solo está disponible en un cliente (por ejemplo, Teams), la interoperabilidad de chat estará disponible generalmente en caso de que el iniciador use el otro cliente (en este caso, Skype empresarial) para iniciar la conversación. Por otro lado, si el receptor está en el modo en el que la conversación está disponible en ambos clientes (modo Islas), la interoperabilidad no estará disponible para el chat. El destinatario recibirá el mensaje en el mismo cliente en el que el iniciador inició la conversación. Por lo tanto, la comunicación adecuada en el modo **islas** requiere la saturación de la adopción de equipos; es decir, todos los usuarios que usan y supervisan activamente a ambos clientes.
+La interoperabilidad se rige por el modo de coexistencia (también conocido como modo de actualización) del receptor. No hay ninguna interoperabilidad cuando el receptor está en modo **islas.**
 
 > [!Note]
-> **Para tener la última experiencia de coexistencia, la versión del cliente debe ser el último cliente disponible en el canal de implementación de Office del usuario.**
+> Cuando se implementan en un modo de coexistencia excepto en las **Islas,** Teams y Skype Empresarial pueden [interactuar,](#interoperability-of-teams-and-skype-for-business)lo que permite a los usuarios chatear con ellos y llamarse entre sí, y garantizar que las comunicaciones permanezcan fluidas en toda la organización durante el viaje de actualización a Teams. Los modos de coexistencia rigen la interoperabilidad. El modo de coexistencia del receptor determina si la interoperabilidad estará disponible. Por ejemplo, si el receptor está en un modo en que el chat solo está disponible en un cliente (por ejemplo, Teams), la interoperabilidad del chat estará generalmente disponible en caso de que la conversación use el otro cliente (en este caso, Skype Empresarial) para iniciar el chat. Por otro lado, si el receptor está en el modo en que el chat está disponible en ambos clientes (modo Islas), la interoperabilidad no estará disponible para el chat. El receptor recibirá el mensaje en el mismo cliente en el que el destinatario ha iniciado el chat. Por lo tanto, la comunicación correcta **en el modo islas** requiere la saturación de la adopción de Teams; es decir, todos los usuarios usan y supervisan activamente ambos clientes.
 
-### <a name="native-interop-and-interop-escalation"></a>Interoperabilidad nativa y escalabilidad de interoperabilidad
+> [!Note]
+> **Para tener la experiencia de coexistencia más reciente, la versión del cliente debe ser el cliente disponible más reciente en el canal de implementación de Office del usuario.**
 
-Existen dos tipos de experiencias de interoperabilidad: nativas y de interoperabilidad.
+### <a name="native-interop-and-interop-escalation"></a>Interoperabilidad nativa y escalación de interoperabilidad
 
-- La experiencia de _interoperabilidad nativa_ se produce en el cliente que el usuario está usando actualmente. Un usuario estará en el cliente de Skype empresarial, el otro en Teams. Una experiencia de interoperabilidad nativa no las llevará a otro cliente para comunicarse, los usuarios podrán realizar su conversación en el cliente que actualmente están usando. Las experiencias de interoperabilidad nativas son chats uno a uno y llamadas.
-- Una experiencia de _escalado de interoperabilidad_ significa que, como parte de ayudar a los usuarios a realizar una acción avanzada (como compartir su escritorio), el cliente facilita la creación de una reunión a la que los usuarios pueden unirse para continuar con la experiencia de esa reunión. La reunión se crea en la plataforma del iniciador de la acción. El usuario o los usuarios que no se encuentren en la plataforma recibirán un vínculo de unirse a la reunión. A medida que hacen clic en este vínculo, se unen a la reunión en un cliente compatible (explorador, aplicación web o cliente completo, según la configuración). La escalabilidad de interoperabilidad de Skype empresarial requiere un cliente reciente. Ahora está disponible el escalado de interoperabilidad de Teams. Ambas son compatibles con las experiencias de interoperabilidad de en el inquilino y para los usuarios de la comunicación federada.
+Existen dos tipos de experiencias de interoperabilidad: nativa y escalación de interoperabilidad.
+
+- Una _experiencia de interoperabilidad_ nativa tiene lugar en el cliente que el usuario está usando actualmente. Un usuario estará en el cliente de Skype Empresarial y el otro en Teams. Una experiencia de interoperabilidad nativa no los llevará a otro cliente para comunicarse, los usuarios podrán dirigir la conversación en el cliente que están usando actualmente. Las experiencias de interoperabilidad nativas son llamadas y chats uno a uno.
+- Una experiencia de _escalación_ de interoperabilidad significa que, como parte de la ayuda a los usuarios a realizar una acción avanzada (como compartir el escritorio), el cliente facilita la creación de una reunión a la que los usuarios pueden unirse para continuar la experiencia en dicha reunión. La reunión se crea en la plataforma de la web donde se crea la acción. El usuario o los usuarios que no están en esa plataforma reciben un vínculo para unirse a la reunión. Al hacer clic en este vínculo, se unirán a la reunión en un cliente compatible (explorador, aplicación web o cliente completo, según la configuración). La escala de interoperabilidad de Skype Empresarial requiere un cliente reciente. Ya está disponible la escala de interoperabilidad desde Teams. Ambos son compatibles con experiencias de interoperabilidad dentro del espacio empresarial y con comunicaciones federadas entre inquilinos.
 
 ### <a name="native-interop-experiences"></a>Experiencias de interoperabilidad nativas
 
-En función de los modos de coexistencia asignados a los usuarios (como se ha descrito anteriormente), están disponibles las siguientes experiencias de interoperabilidad nativa:
+Según los modos de coexistencia asignados a los usuarios (como se ha descrito anteriormente), están disponibles las siguientes experiencias de interoperabilidad nativas:
 
-Los usuarios de Skype empresarial pueden chatear uno a uno con los usuarios de Teams, y viceversa. Un chat de interoperabilidad debe atravesar un Gateway de interoperabilidad que forma parte de los servicios en la nube de Teams (y, por lo tanto, solo está conectado). Los chats interoperativos son texto sin formato: el texto enriquecido y los emoticonos no se admiten. Se notifica a los usuarios de Teams y a Skype empresarial que la conversación es una conversación de interoperabilidad.
+Los usuarios de Skype Empresarial pueden chatear uno a uno con los usuarios de Teams y viceversa. Un chat de interoperabilidad necesita pasar por una puerta de enlace de interoperabilidad que forma parte de los servicios en la nube de Teams (y, por lo tanto, solo existe en línea). Los chats de interoperabilidad son de texto sin formato: no se admiten texto enriquecido ni emoticonos. A los usuarios de Teams y Skype Empresarial se les notifica que la conversación es una conversación interoperabilidad.
 
 <!--![Screen shot of Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
 
-Los usuarios de Skype empresarial pueden hacer llamadas y videollamadas individuales a los usuarios de Teams, y viceversa.
+Los usuarios de Skype Empresarial pueden realizar llamadas y videollamadas uno a uno a los usuarios de Teams, y viceversa.
 
 <!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> Las experiencias de interoperabilidad con una implementación local de Skype empresarial requieren que el entorno local esté en modo híbrido con Microsoft 365 u Office 365 Skype empresarial. Para obtener más información, consulte [Guía de migración e interoperabilidad](https://aka.ms/SkypeToTeams-Interop).
+> Las experiencias de interoperabilidad con una implementación local de Skype Empresarial requieren que el entorno local esté en modo híbrido con Microsoft 365 u Office 365 Skype Empresarial. Para obtener más información, [vea las instrucciones sobre migración e interoperabilidad.](https://aka.ms/SkypeToTeams-Interop)
 
-Estas experiencias de interoperabilidad están disponibles para los usuarios que tienen uno de los siguientes modos de coexistencia: **Skype empresarial con colaboración de Teams**, **Skype empresarial con colaboración y reuniones de Teams**, **solo Skype** empresarial o solo para **equipos**. No hay ninguna interoperabilidad para los usuarios en el modo **islas** .
+Estas **experiencias** de interoperabilidad están disponibles para y entre los usuarios que tienen asignados uno de los siguientes modos de coexistencia: Skype Empresarial con colaboración de **Teams,** Skype Empresarial con colaboración y reuniones de Teams, **Skype** Empresarial solo o Solo **equipos.** No hay interoperabilidad con los usuarios en el **modo Islas.**
 
 ### <a name="native-interop-experience-limitations"></a>Limitaciones de la experiencia de interoperabilidad nativa
 
-Debido a la diferencia en los protocolos y la tecnología, no es posible admitir de forma nativa todas las funciones. En concreto, las siguientes características no están disponibles:
+Debido a la diferencia en los protocolos y la tecnología, no es posible admitir todas las capacidades de forma nativa. En concreto, las siguientes funcionalidades no están disponibles:
 
-- No se admite el descuento, el texto enriquecido ni el conjunto de emoticonos completo de equipos o de Skype empresarial. No se admiten otras características nativas del cuadro de redacción en los chats de Teams.
-- La pantalla compartida (escritorio o uso compartido de aplicaciones) entre equipos y Skype empresarial no se admite de forma nativa. Sin embargo, es compatible con la escala de interoperabilidad.
-- Los chats grupales (conversaciones de varios participantes) en Teams solo pueden incluir participantes que usen Teams.
-- Las conversaciones de mensajería instantánea de varios participantes (chats grupales) en Skype empresarial solo pueden incluir participantes que usen Skype empresarial. Sin embargo, la escalabilidad de interoperabilidad a varios participantes está disponible en Skype empresarial.
-- No se admite la escala de una llamada de voz o videollamada de punto a punto continuado a una llamada de varios participantes que implique a equipos y usuarios de Skype empresarial.
-- No se admite la transferencia de archivos para chats de dos participantes o datos adjuntos en chats grupales, de equipos a Skype para empresas, y viceversa.
-- No existe una interoperabilidad con el chat persistente de Skype empresarial.
+- Markdown, el texto enriquecido y el conjunto de emoticonos completo no son compatibles ni con Teams ni con Skype Empresarial. No se admiten otras características nativas del cuadro de redacción en los chats de Teams.
+- La pantalla compartida (escritorio o uso compartido de aplicaciones) entre Teams y Skype Empresarial no se admite de forma nativa. Sin embargo, es compatible con la escala de interoperabilidad.
+- Los chats grupales (conversaciones de varios participantes) en Teams solo pueden incluir participantes que estén usando Teams.
+- Las conversaciones de mensajería instantánea de varios participantes (chats grupales) en Skype Empresarial solo pueden incluir participantes que estén usando Skype Empresarial. Sin embargo, la escala de interoperabilidad a varias partes está disponible desde Skype Empresarial.
+- No se admite escalar una llamada de punto a punto o una videollamada continua a una llamada de varios participantes que implique a usuarios de Teams y Skype Empresarial.
+- No se admite la transferencia de archivos para chats de dos participantes o datos adjuntos en chats grupales, de Teams a Skype Empresarial (y viceversa).
+- No hay ninguna interoperabilidad con el chat persistente de Skype Empresarial.
 
-Para todas estas limitaciones (excepto para conversaciones persistentes), una posible solución es que un usuario inicie una reunión e invite a otro usuario a unirse a ella.
+Para todas estas limitaciones (excepto el chat persistente), una posible solución es que un usuario inicie una reunión e invite al otro usuario a unirse a ella.
 
-Esta solución alternativa constituye la base para el escalamiento de interoperabilidad. En concreto, el uso compartido de la pantalla y la escala a varias partes no se pueden realizar de manera nativa, pero sí se admiten a través de la escala de interoperabilidad.
+Esta solución alternativa es la base para la escala de interoperabilidad. En particular, el uso compartido de la pantalla y la escala a varios partes no se pueden lograr de forma nativa, pero se admiten a través de la escala de interoperabilidad.
 
-### <a name="interop-escalation-experiences"></a>Experiencias de escala de interoperabilidad
+### <a name="interop-escalation-experiences"></a>Experiencias de escalación de interoperabilidad
 
-La escalabilidad de interoperabilidad consiste en complementar las capacidades de interoperabilidad nativas con escalas administradas para reuniones. Las reuniones ofrecen experiencias ricas a disposición de cualquier persona, independientemente del cliente que tengan.
+La escala de interoperabilidad consiste en complementar las capacidades de interoperabilidad nativa con escalaciones administradas a reuniones. Las reuniones ofrecen experiencias enriquectivas disponibles para cualquier persona, independientemente del cliente que tengan.
 
-Cuando el usuario de Teams desencadena una escala de interoperabilidad, se crea una reunión de Teams. Cuando lo desencadena el usuario de Skype empresarial, se crea una reunión de Skype empresarial. En ambos casos, la reunión creada es una reunión **reunirse ahora** , que no se refleja en el calendario del usuario.
+Cuando el usuario de Teams activa la escala de interoperabilidad, se crea una reunión de Teams. Cuando el usuario de Skype Empresarial lo activa, se crea una reunión de Skype Empresarial. En ambos casos, la reunión creada es una reunión **Reunirse** ahora, que no se refleja en el calendario del usuario.
  
-La otra persona recibe el vínculo unirse a la reunión a través de una conversación interactiva y las combinaciones haciendo clic en ese vínculo. Si el usuario de Skype empresarial tiene una cuenta de Teams y lo ha invitado el usuario de Teams, se unirán a la reunión autenticada. De lo contrario, se unirán como un participante anónimo. A la inversa, los usuarios de Teams casi siempre tienen una cuenta de Skype empresarial y un cliente de Skype empresarial que pueden usar para unirse a una reunión de Skype empresarial como participante autenticado, pero también se pueden unir como participante anónimo, por ejemplo, con la aplicación de reunión de Skype.
+La otra parte recibe el vínculo de unión a la reunión a través del chat interoperabilidad y las combinaciones haciendo clic en ese vínculo. Si el usuario de Skype Empresarial tiene una cuenta de Teams y es invitado por el usuario de Teams, se unirá a la reunión autenticada. En caso contrario, se unirán como participantes anónimos. Por el contrario, los usuarios de Teams casi siempre tienen una cuenta de Skype Empresarial y un cliente de Skype Empresarial que pueden usar para unirse a una reunión de Skype Empresarial como participante autenticado, pero también podrían unirse como participantes anónimos, por ejemplo, mediante la aplicación Reunión de Skype.
 
-Una vez que las partes se unen a la reunión, pueden realizar cualquier actividad que se admita en las reuniones, como el uso compartido de escritorio o de contenido, el uso compartido de archivos o la transferencia, agregar otros participantes, etc.
+Una vez que las partes se han unido a la reunión, pueden llevar a cabo cualquier actividad admitida en las reuniones, como compartir el escritorio o el contenido, compartir archivos o transferir, agregar otros participantes, y así sucesivamente.
 
-#### <a name="interop-escalation-from-skype-for-business"></a>Escalabilidad de interoperabilidad desde Skype empresarial
+#### <a name="interop-escalation-from-skype-for-business"></a>Escalación de interoperabilidad de Skype Empresarial
 
-La escalabilidad de interoperabilidad y interoperabilidad de Skype empresarial se actualizó en la compilación de julio de 2019 de C2R mensual. Antes, Skype empresarial no tenía conocimiento anticipado de que la persona remota estaba usando Teams. Solo surmised que de la señal recibida después de que se haya establecido una sesión.
+La interoperabilidad y la escala de interoperabilidad de Skype Empresarial se actualizó en la compilación mensual C2R de julio de 2019. Anteriormente, Skype Empresarial no tenía conocimiento anticipado de que la entidad remota estaba usando Teams. Solo superó la señalización recibida tras establecer una sesión.
 
-Cuando la señalización indicó que la respuesta procedía de la puerta de enlace de interoperabilidad (o a través de ella), mostraría la barra de empresa amarilla (banner) indicando que la otra persona no estaba usando Skype empresarial. Con la evolución de nuestro servicio, esto daba lugar a falsos positivos en los que los usuarios de Skype empresarial verían la barra de empresa cuando se conectaban al servicio de buzón de voz de nube o a otros servicios de voz en la nube, en lugar de hacerlo a un solo usuario de **equipos** reales.
+Cuando la señalización indicaba que la respuesta provenía (o a través) de la puerta de enlace interoperabilidad, se mostraría la barra de negocios amarilla (pancarta) que indicaba que la otra parte no estaba usando Skype Empresarial. Con la evolución de nuestro servicio, esto dio como resultado falsos positivos en los que los usuarios de Skype Empresarial veían la barra de negocio cuando estaban conectados al servicio de correo de voz en la nube u otros servicios de voz en la nube, en lugar de a un usuario real de **Teams Solamente.**
  
-Para evitar estos falsos positivos, el servicio de presencia está informando al cliente de Skype empresarial cuando la otra persona es un solo usuario real de **equipos** . Esto permite que Skype empresarial tenga en cuenta que necesita crear una conversación de interoperabilidad antes de que se haya creado, y la ventana de conversación para que sea específica para la interoperabilidad.
+Para evitar estos falsos positivos, el servicio de presencia ahora informa al cliente de Skype Empresarial cuando la otra parte es solo un usuario real de **Teams.** Esto permite que Skype Empresarial tenga en cuenta que necesita crear una conversación interoperabilidad antes de que se haya creado y que la ventana de conversación sea específica de interoperabilidad.
 
-![Captura de pantalla del mensaje de Teams para crear una conversación interoperativa con un usuario de Skype empresarial](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
+![Captura de pantalla del mensaje de Teams para crear una conversación interoperabilidad con un usuario de Skype Empresarial](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
 
-Si el usuario de Skype empresarial quiere compartir su escritorio por ejemplo, se le informa de que iniciaremos una reunión y se guiarán por los pasos.
+Si el usuario de Skype Empresarial desea compartir su escritorio, por ejemplo, se le informa de que iniciaremos una reunión y le guiaremos por los pasos.
 
-![Captura de pantalla del mensaje de Teams para iniciar la reunión con un usuario de Teams](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
+![Captura de pantalla del mensaje de Teams para iniciar una reunión con un usuario de Teams](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
 
-Mientras tanto, el usuario de Teams recibe un mensaje de chat entrante con el vínculo a la reunión y se le guiará para unirse.
+Mientras tanto, el usuario de Teams recibe un mensaje de chat entrante con el vínculo a la reunión y recibe instrucciones para unirse.
 
-Esta escalación a una reunión de Skype empresarial está disponible para la interoperabilidad en espacio empresarial y las llamadas y conversaciones federadas entre inquilinos. Está activada de forma predeterminada y no hay ninguna opción que el Administrador tenga que aprovisionar.
+Este escalamiento a una reunión de Skype Empresarial está disponible tanto para la interoperabilidad en el espacio empresarial como para las llamadas federadas entre inquilinos y los chats. Está disponible de forma predeterminada y no hay ninguna configuración que el administrador tenga que aprovisionar.
 
-#### <a name="interop-escalation-from-teams"></a>Escalado de interoperabilidad de Teams
+#### <a name="interop-escalation-from-teams"></a>Escalación de interoperabilidad desde Teams
 
-La escalabilidad de interoperabilidad de Teams a una reunión de Teams ahora está disponible cuando el usuario de Teams selecciona el botón compartir escritorio en un subproceso de interoperabilidad en el inquilino con un usuario de Skype empresarial o en un subproceso de Federación de intercompañía. Se admite la escalabilidad de interoperabilidad desde una conversación de chat de 1:1 o desde una llamada de 1:1.
+La escala de interoperabilidad de Teams a una reunión de Teams ahora está disponible cuando el usuario de Teams selecciona el botón compartir escritorio en un hilo de interoperabilidad dentro del espacio empresarial con un usuario de Skype Empresarial o en una conversación de federación de interoperabilidad entre inquilinos. La escala de interoperabilidad es compatible desde una conversación de chat 1:1 o desde una llamada 1:1.
 
-La funcionalidad es compatible con el cliente de escritorio de Teams para Windows, en el cliente de escritorio de Teams para Mac y en el cliente web de Teams en exploradores donde se admite el uso compartido de contenido, mientras se comunica con cualquier versión de cliente de Skype empresarial.
+Esta funcionalidad se admite en el cliente de escritorio de Teams para Windows, en el cliente de escritorio de Teams para Mac y en el cliente web de Teams en exploradores donde se admite el uso compartido de contenido, mientras que en las comunicaciones con cualquier versión del cliente de Skype Empresarial.
 
-En los subprocesos de interoperabilidad y en los subprocesos de interoperabilidad de la Federación, el usuario de Teams tiene ahora controles (botón) para iniciar el uso compartido de contenido. Cuando el usuario de Teams selecciona el botón, se le presenta un menú adicional que le informa de que para compartir contenido, necesitará iniciar una reunión de Teams.
+En conversaciones de interoperabilidad y en conversaciones de interoperabilidad de federación, el usuario de Teams ahora tiene los controles (botón) para iniciar el uso compartido de contenido. Cuando el usuario de Teams selecciona el botón, se muestra un menú adicional que le informa de que, para compartir contenido, tendrá que iniciar una reunión de Teams.
 
-Si los usuarios estuvieron en una llamada, el menú también le advierte de que su llamada actual entre Teams y Skype empresarial finalizará a medida que se pongan en una reunión de Teams. Si así lo desean, pueden avisar al usuario de Skype empresarial antes de aceptarlo.
+Si los usuarios se encontraban en una llamada, el menú también les advertirá de que su llamada actual entre Teams y Skype Empresarial finalizará cuando se pongan en una reunión de Teams. Si así lo elige, puede avisar al usuario de Skype Empresarial antes de aceptarlo.
 
-![Captura de pantalla del mensaje de Teams para compartir una reunión con un usuario de Skype empresarial](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
+![Captura de pantalla del mensaje de Teams para compartir una reunión con un usuario de Skype Empresarial](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
 
-Una vez aceptada, se ponen en la reunión de Teams; deben empezar a compartir desde la bandeja de uso compartido de la reunión.
+Tras la aceptación, se colocarán en la reunión de Teams; deben empezar a compartir desde la bandeja de uso compartido de la reunión.
  
-Mientras tanto, el usuario de Skype empresarial recibe un mensaje de chat entrante con el vínculo a la reunión y se le guiará para unirse.
+Mientras tanto, el usuario de Skype Empresarial recibe un mensaje de chat entrante con el vínculo a la reunión y recibe instrucciones para unirse.
 
-Esta escalación a una reunión de Teams está disponible para la interoperabilidad en espacio empresarial y las llamadas y conversaciones federadas entre inquilinos. Está activada de forma predeterminada y no hay ninguna opción que el Administrador tenga que aprovisionar. Sin embargo, se desactiva para el usuario si el administrador establece ``-AllowPrivateMeetNow`` en ``CsTeamsMeetingPolicy`` ``$false`` .
+Este escalamiento a una reunión de Teams está disponible tanto para la interoperabilidad en el espacio empresarial como para las llamadas federadas entre inquilinos y chats. Está disponible de forma predeterminada y no hay ninguna configuración que el administrador tenga que aprovisionar. Sin embargo, se desactivará para el usuario si el administrador ``-AllowPrivateMeetNow`` lo ``CsTeamsMeetingPolicy`` establece en ``$false`` .
 
-Después de revisar este artículo, vea [elegir las instrucciones para la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [migración e interoperabilidad](https://aka.ms/SkypeToTeams-Interop), así como la [coexistencia con Skype empresarial](coexistence-chat-calls-presence.md), y [configurar la coexistencia y la configuración de actualización para los](https://aka.ms/SkypeToTeams-SetCoexistence) detalles de implementación.
+Después de revisar este artículo, vea El recorrido de [actualización,](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)la guía [](https://aka.ms/SkypeToTeams-SetCoexistence) de migración e interoperabilidad, [](https://aka.ms/SkypeToTeams-Interop)la coexistencia con [Skype](coexistence-chat-calls-presence.md)Empresarial y la configuración de coexistencia y actualización para conocer los detalles de la implementación.
 
 ## <a name="related-links"></a>Vínculos relacionados
 
-[Vídeo: administrar la coexistencia y la interoperabilidad entre SfB y Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
+[Vídeo: Administrar coexistencia e interoperabilidad entre SfB y Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

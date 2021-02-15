@@ -20,22 +20,22 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Francia para Microsoft Teams.
-ms.openlocfilehash: 2e3af4509e900ca26904913355ae2e66fbc4bab4
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 7d9b251ec10465e1d05a42619a97a1733a682df0
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923822"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196254"
 ---
 # <a name="phone-number-management-for-france"></a>Administración de números de teléfono para Francia
 
-Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Francia para Microsoft Teams. 
+Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Francia para Microsoft Teams.
   
 Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization.md).
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos y envíenoslos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de servicio o usuario que no se enumeran en el Centro de administración de Microsoft Teams.   <br/> | Descargue uno de estos formularios. <br/> [Solicitud de nuevo número de teléfono para Francia (v.6.0) (fr-fr)](https://download.microsoft.com/download/4/e/7/4e7e9da9-f2cc-4e4d-97af-efcb85a51b0d/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [Solicitud de nuevo número de teléfono para Francia (v.5.0) (es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf?raw=true)<br/> <br/>   Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> 
+|Obtenga nuevos números de teléfono de servicio o usuario que no se enumeran en el Centro de administración de Microsoft Teams.   <br/> | Descargue uno de estos formularios. <br/> [Solicitud de nuevo número de teléfono para Francia (v.6.0) (fr-fr)](https://download.microsoft.com/download/4/e/7/4e7e9da9-f2cc-4e4d-97af-efcb85a51b0d/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [Solicitud de nuevo número de teléfono para Francia (v.5.0) (es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf?raw=true)<br/> <br/>   Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/>
 |Que nos transfieran números de teléfono.  <br/> |Descargue uno de estos formularios. <br/><br/> Para los números de teléfono de usuario:<br/>[Carta de autorización (LOA) para Francia (números geográficos) (v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.5.0)-(fr-fr).pdf?raw=true) <br/><br/>Para números de teléfono gratuitos: <br/>[Carta de autorización (LOA) para Francia (números de teléfono gratuitos) (v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.5.0)-(fr-fr).pdf?raw=true) <br/> <br/> Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
 |Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacional.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
 |Cambie el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
@@ -49,4 +49,4 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 
 [Términos y condiciones de las llamadas de emergencia](../emergency-calling-terms-and-conditions.md)
   
-[Etiqueta de declinación de responsabilidades en llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
+[Etiqueta de declinación de responsabilidades en llamadas de emergencia](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
