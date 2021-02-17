@@ -1272,12 +1272,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
               - name: Delegación de mensajes
                 href: expand-teams-across-your-org/healthcare/hc-delegates.md
-          - name: Plantillas de Teams
-            items:
-              - name: Usar las plantillas de asistencia sanitaria de Teams
-                href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-              - name: Plantillas de asistencia sanitaria de Teams
-                href: expand-teams-across-your-org/healthcare/healthcare-templates.md
+          - name: Usar las plantillas de asistencia sanitaria de Teams
+            href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
           - name: Administrar la aplicación Listas para su organización en Teams
             href: manage-lists-app.md
           - name: Administrar la aplicación Tasks para su organización
