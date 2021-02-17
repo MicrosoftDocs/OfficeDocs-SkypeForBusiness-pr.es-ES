@@ -22,12 +22,13 @@ appliesto:
 ms.reviewer: ''
 description: Use las plantillas de Microsoft Teams con Microsoft Graph para crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c2e10efbff98150b120d1c026d4d810629333f2
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ROBOTS: NOINDEX
+ms.openlocfilehash: e288bc68c8160fb80d4e56a6477437e0a79fea0a
+ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790412"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50260342"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas de Teams para organizaciones sanitarias
 
@@ -35,9 +36,9 @@ Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y s
 
 Para las organizaciones sanitarias, las plantillas pueden ser especialmente eficaces, ya que proporcionan una estructura para que los usuarios se orienten sobre cómo usar Teams de manera eficaz. Las plantillas también permiten a los administradores implementar equipos coherentes en todas sus organizaciones. Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización sanitaria.
 
-Actualmente, ofrecemos dos plantillas sanitarias de terceros que puede usar para una variedad de situaciones. Para obtener más información sobre las plantillas de equipo en general, vea Introducción [a las plantillas de Teams.](../../get-started-with-teams-templates.md)
+Actualmente, ofrecemos dos plantillas sanitarias de terceros que puede usar para una variedad de situaciones. Para obtener más información sobre las plantillas de equipo en general, vea [Introducción a las plantillas de Teams.](../../get-started-with-teams-templates.md)
 
-## <a name="ward-template"></a>Plantilla de sala
+## <a name="ward-template"></a>Plantilla de resalte
 
 La plantilla del centro está pensada para la comunicación y la colaboración dentro de un departamento, una vaina o un departamento. La plantilla se puede usar para facilitar la administración del paciente, así como las necesidades operativas de un centro de atención. Por ejemplo, los anuncios del canal Anuncios se pueden publicar en el canal *Anuncios* y los turnos se pueden administrar en *Personal.* Si quiere simplificar las operaciones de sala, esta plantilla es la adecuada para usted.
 
@@ -50,7 +51,7 @@ La plantilla del centro está pensada para la comunicación y la colaboración d
 
 ## <a name="hospital-template"></a>Plantilla hospital
 
-La plantilla hospitalaria está pensada para la comunicación y colaboración entre varios centros hospitalarios, podios y departamentos. Esta plantilla incluye varios canales de operaciones, entre los que se incluyen *Anuncios,* *Limpiezal* y *Química,* pero a continuación le proporcionamos un script que amplía la plantilla con una variedad de canales adicionales centrados en el departamento o centrados en la atención que puede agregar, eliminar o editar a su gusto. Por ejemplo, si tiene un departamento de *endocrinology,* pero no necesita un canal para *Ophologymology,* el script puede adaptarse para incluir un canal de *endocrinology* y eliminar el canal de *Ophphology.* Recomendamos que estos canales especiales o modelo de canal no se agregó como favoritos automáticamente para evitar la saturación de notificaciones. Por lo general, los usuarios son favoritos de los canales que les sean relevantes.
+La plantilla hospitalaria está pensada para la comunicación y colaboración entre varios centros hospitalarios, podios y departamentos. Esta plantilla incluye varios canales de operaciones, entre los que se incluyen *Anuncios,* *Limpiezal* y *Química,* pero a continuación le proporcionamos un script que amplía la plantilla con una variedad de canales adicionales centrados en el departamento o centrados en la atención que puede agregar, eliminar o editar a su gusto. Por ejemplo, si tiene un departamento de endocrinology, pero no necesita un canal para *la ophology,* el script puede adaptarse para incluir un canal de *endocrinology* y eliminar el canal de *Ophphology.*  Se recomienda que estos canales especiales o modelo de canal no se agregó como favoritos automáticamente para evitar la saturación de notificaciones. Por lo general, los usuarios son favoritos de los canales que les sean relevantes.
 
 |Tipo de plantilla base |baseTemplateId |Canales de plantilla de línea base|
 |:--- |:---|:---|

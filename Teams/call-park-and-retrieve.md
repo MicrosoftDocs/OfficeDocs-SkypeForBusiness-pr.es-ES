@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el parque de llamadas y recuperar para poner una llamada en espera en Microsoft Teams.
-ms.openlocfilehash: e64d9dafec0f3a4b65abc532ecfa60583fe6da84
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 7474b80975c5fc78285a8bba5a90de782f24ba5b
+ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424600"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50260332"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
@@ -34,7 +34,7 @@ La característica de estacionar y recuperar llamadas es una característica que
 
 Algunos de los escenarios comunes para usar el parque de llamadas son:
 
-- Un parque de recepciones es una llamada para alguien que trabaja en una fábrica. El recepcionista anunciará entonces la llamada y el número de código en el sistema de direcciones públicas. El usuario para el que se llama puede elegir un teléfono de Teams en la planta de fábrica y escribir el código para recuperar la llamada.
+- Un parque de recepciones es una llamada para alguien que trabaja en una fábrica. El recepcionista anunciará entonces la llamada y el número de código a través del sistema de direcciones públicas. El usuario para el que se llama puede elegir un teléfono de Teams en la planta de fábrica y escribir el código para recuperar la llamada.
 - Un parque de usuarios es una llamada en un dispositivo móvil porque la batería del dispositivo se está quedando sin energía. Después, el usuario puede escribir el código para recuperar la llamada desde un teléfono de escritorio de Teams.
 - Un representante de soporte técnico llama a un cliente y envía un anuncio en un canal de Teams para que un experto recupere la llamada y ayude al cliente. Un experto escribe el código en los clientes de Teams para recuperar la llamada
 
