@@ -21,16 +21,16 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el parque de llamadas y recuperar para poner una llamada en espera en Microsoft Teams.
-ms.openlocfilehash: 7474b80975c5fc78285a8bba5a90de782f24ba5b
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
+ms.openlocfilehash: d49e6a5a9bc25a0c7a3e25d548e2743b7f4584fb
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260332"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278720"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
-La característica de estacionar y recuperar llamadas es una característica que permite a un usuario poner una llamada en espera. Cuando una llamada está estacionada, el servicio genera un código único para la recuperación de la llamada. El usuario que estacionó la llamada o cualquier otra persona puede usar ese código con una aplicación o dispositivo compatible para recuperar la llamada. (Consulte [Estacione una llamada en Teams para](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) obtener más información).
+El estacionado de llamadas y la recuperación es una característica que permite a un usuario poner una llamada en espera. Cuando una llamada está estacionada, el servicio genera un código único para la recuperación de la llamada. El usuario que estacionó la llamada o cualquier otra persona puede usar ese código con una aplicación o dispositivo compatible para recuperar la llamada. (Consulte [Estacione una llamada en Teams para](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) obtener más información).
 
 Algunos de los escenarios comunes para usar el parque de llamadas son:
 
@@ -50,7 +50,7 @@ Debe ser administrador de Teams para configurar el parque de llamadas y recupera
 Para habilitar una directiva de parque de llamadas
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a las directivas **del parque de** llamadas de  >  **voz.**
-2. En la pestaña **Administrar directivas,** haga clic **en Agregar.**
+2. En la pestaña **Administrar directivas,** haga clic en **Agregar.**
 3. Asigne un nombre a la directiva y, a continuación, cambie Permitir el **parque de llamadas** a **Activar.**
 
     ![Captura de pantalla de la configuración de directiva de parque de llamadas](media/call-park-add-policy.png)
@@ -65,12 +65,12 @@ Para asignar una directiva de elemento de llamada a un grupo
 
 1. En la página **Directivas de parque de** llamadas, en la pestaña **Asignación de** directivas de grupo, haga clic en Agregar **grupo.**
 2. Busque el grupo que desea usar y, a continuación, haga clic en **Agregar.**
-3. Elija una clasificación en comparación con otras tareas de grupo.
+3. Elija una clasificación en comparación con otras asignaciones de grupo.
 4. En **Seleccionar una directiva,** elija la directiva a la que desea asignar este grupo.
 
-    ![](media/call-park-assign-policy-to-group.png)
+    ![imagen de directivas de parque](media/call-park-assign-policy-to-group.png)
 
-5. Haga clic en **Aplicar**.
+5. Seleccione **Aplicar.**
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6d4cb45334edb9307663eb1ffcab5e7c1085b149
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 6dd82c786c30fb4f2ac2ae70f2df6810cfe5d6ad
+ms.sourcegitcommit: 75d710e3858f79ef601cd92e435a4a29dae0aba0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923842"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50285624"
 ---
 # <a name="install-manage-and-assign-permissions-for-the-teams-learning-app-private-preview"></a>Instalar, administrar y asignar permisos para la aplicación Teams Learning (versión preliminar privada)
 
@@ -33,7 +33,7 @@ La aplicación Microsoft Teams Learning (versión preliminar privada) permite a 
 Para configurar la aplicación Teams Learning (versión preliminar privada), tendrá que implicar:
 
 -   Administrador del centro de administración de Teams
--   Administrador del Centro de administración de Microsoft 365 (es decir, administrador global)
+-   Administrador del centro de administración de Microsoft 365 (es decir, administrador global)
 
 ## <a name="manage-the-teams-learning-app-private-preview-in-the-teams-admin-center"></a>Administrar la aplicación Teams Learning (versión preliminar privada) en el Centro de administración de Teams
 
@@ -43,7 +43,7 @@ El administrador de Teams instala la aplicación Teams Learning (versión prelim
 
 Para administrar la configuración de la aplicación, siga estos pasos:
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Administrar aplicaciones de Teams.**  >  
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Administrar aplicaciones**  >  **de** Teams.
 
    ![Panel de navegación izquierdo del Centro de administración de Teams que muestra la sección Aplicaciones de Teams y Administrar aplicaciones](media/learning-app-teams-manage-apps-nav.png)
 
@@ -70,7 +70,10 @@ Como parte de la versión preliminar privada, la aplicación Teams Learning (ver
 
 Los administradores del Centro de administración de Microsoft 365 pueden administrar la configuración relacionada con la aplicación Teams Learning (versión preliminar privada) y pueden configurar los orígenes de contenido de aprendizaje.
 
-El administrador selecciona qué orígenes de contenido de aprendizaje (como LinkedIn Learning o SharePoint) estarán disponibles en la aplicación. A continuación, el administrador configura esos orígenes para asegurarse de que el contenido está disponible para búsqueda y detección y puede ser examinada por los empleados que usan la aplicación.
+El administrador puede seleccionar qué orígenes de contenido de aprendizaje adicionales (por ejemplo, SharePoint u orígenes de proveedores de contenido de terceros compatibles) estarán disponibles para los usuarios de la aplicación. A continuación, el administrador configura esos orígenes para asegurarse de que el contenido está disponible para la búsqueda y detección y puede ser examinada por los empleados que usan la aplicación.
+
+> [!NOTE]
+>  Los usuarios inician sesión en aprendizajes que no son de Microsoft y LinkedIn Learning Pro en un explorador o en un visor incrustado. Este aprendizaje configurado está sujeto a los términos de licencia, privacidad y servicio independientes entre su organización y los terceros, y no a los términos de aprendizaje (versión preliminar). Antes de seleccionar este aprendizaje en Aprendizaje (versión preliminar), compruebe que tiene un acuerdo para su organización y los usuarios.
 
 ### <a name="configure-settings-for-the-learning-content-sources-for-the-app"></a>Configurar las opciones de los orígenes de contenido de aprendizaje para la aplicación
 
@@ -97,7 +100,7 @@ Entre todas las fuentes de aprendizaje que existen, algunas de ellas estarán ha
 
 Es posible que otros orígenes deba habilitarse o configurarse manualmente. Las fuentes de aprendizaje que no son de Microsoft tienen licencia por separado entre su organización y los terceros. Deberá comprobar que se ha registrado para su aprendizaje para usted y sus usuarios.
 
-Para habilitar o deshabilitar un origen de contenido de aprendizaje, active la casilla situada junto al origen. Si se habilita un origen, se podrá ver una marca de verificación.
+Para habilitar o deshabilitar un origen de contenido de aprendizaje, active la casilla situada junto al origen. Si un origen está habilitado, se podrá ver una marca de verificación.
 
 ## <a name="configure-sharepoint-as-a-learning-content-source-coming-soon"></a>Configurar SharePoint como un origen de contenido de aprendizaje (Próximamente)
 
@@ -113,7 +116,7 @@ Las direcciones URL de carpeta se pueden recopilar desde cualquier sitio de Shar
  
 ### <a name="learning-service"></a>Servicio de aprendizaje
 
-El Servicio de aprendizaje usa las direcciones URL de carpeta proporcionadas para obtener metadatos de todo el contenido almacenado en esas carpetas. 24 horas después de proporcionar la dirección URL de la carpeta en el repositorio centralizado, los empleados pueden buscar y usar el contenido de la empresa dentro de la aplicación. En este momento no se admite la eliminación de contenido del repositorio. Solo se puede quitar el contenido en superficie involuntaramente suministrando una nueva dirección URL de sitio de SharePoint en el Centro de administración de Microsoft 365.
+El Servicio de aprendizaje usa las direcciones URL de carpeta proporcionadas para obtener metadatos de todo el contenido almacenado en esas carpetas. 24 horas después de proporcionar la dirección URL de la carpeta en el repositorio centralizado, los empleados pueden buscar y usar el contenido de la empresa dentro de la aplicación. En este momento no se admite la eliminación de contenido del repositorio. El contenido en superficie no involuntara solo se puede quitar suministrando una nueva DIRECCIÓN URL del sitio de SharePoint en el Centro de administración de Microsoft 365.
 
 ### <a name="configure-sharepoint-as-a-source"></a>Configurar SharePoint como origen
 

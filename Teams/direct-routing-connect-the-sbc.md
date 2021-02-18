@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar y conectar su SBC al enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: e20ab921e8f01d8beea15f0b1dd8a50e229f4e91
-ms.sourcegitcommit: 5c33ca450a3215b9bf3c5da8bb3c9ef1a715a1a2
+ms.openlocfilehash: 4240eb4000e813df51b2678ad2e9c37f6bc0c2ac
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50099450"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278710"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Conectar el controlador de borde de sesión (SBC) al enrutamiento directo
 
@@ -30,7 +30,7 @@ En este artículo se describe cómo configurar un controlador de borde de sesió
 - **Paso 1. Conectar el SBC con sistema telefónico y validar la conexión** (en este artículo)
 - Paso 2. [Habilitar usuarios para enrutamiento directo](direct-routing-enable-users.md)
 - Paso 3. [Configurar el enrutamiento de llamadas](direct-routing-voice-routing.md)
-- Paso 4. [Traducir números a un formato alternativo](direct-routing-translate-numbers.md) 
+- Paso 4. [Traducir números a un formato alternativo](direct-routing-translate-numbers.md)
 
 Para obtener información sobre todos los pasos necesarios para configurar el enrutamiento directo, vea [Configurar enrutamiento directo.](direct-routing-configure.md)
 
@@ -41,7 +41,7 @@ Puede usar el Centro [de administración de Microsoft Teams](#using-the-microsof
 1. En el panel de navegación izquierdo, vaya a **Enrutamiento** directo de voz y, a continuación, haga clic  >  en la pestaña **OSBC.**
 2. Haga clic en **Agregar**.
 3. Escriba un FQDN para la SBC. <br><br>Asegúrese de que la parte del nombre de dominio del FQDN coincide con un dominio que está registrado en su inquilino y tenga en cuenta que el nombre de dominio no es compatible con el nombre de dominio FQDN de `*.onmicrosoft.com` SBC. Por ejemplo, si tiene dos nombres de dominio y `contoso.com` `contoso.onmicrosoft.com` use como nombre `sbc.contoso.com` SBC. Si usa un subdominio, asegúrese de que este subdominio también está registrado en su inquilino. Por ejemplo, si desea `sbc.service.contoso.com` usarlo, debe `service.contoso.com` registrarse.
-4. Configure las siguientes opciones para el SBC en función de las necesidades de su organización. Para obtener más información sobre cada una de estas opciones de configuración, consulte [configuración SBC.](#sbc-settings)
+4. Configure las siguientes opciones para la SBC en función de las necesidades de su organización. Para obtener más información sobre cada una de estas opciones de configuración, consulte [configuración SBC.](#sbc-settings)
 
     ![Captura de pantalla de la página Agregar SBC en el Centro de administración de Microsoft Teams](media/direct-routing-add-sbc.png)
 
@@ -85,8 +85,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 ```
 
   > [!NOTE]
-  > 1. Le recomendamos que establezca un límite máximo de llamadas en el SBC con información que se pueda encontrar en la documentación de SBC. El límite desencadenará una notificación si el SBC se encuentra en el nivel de capacidad.
-  > 2. Solo puede conectar la SBC si la parte del dominio de su FQDN coincide con uno de los dominios registrados en su inquilino, excepto \* .onmicrosoft.com. El \* uso de .onmicrosoft.com nombres de dominio no es compatible con el nombre FQDN de SBC. Por ejemplo, si tiene dos nombres de dominio, **contoso.com** y **contoso**.onmicrosoft.com, puede usar sbc.contoso.con para el nombre SBC. Si intenta conectar la SBC con un nombre como sbc.contoso.abc, el sistema no le permitirá, ya que el dominio no es propiedad de este inquilino.<br/>
+  > 1. Le recomendamos que establezca un límite máximo de llamadas en el SBC con información que se pueda encontrar en la documentación del SBC. El límite desencadenará una notificación si el SBC se encuentra en el nivel de capacidad.
+  > 2. Solo puede conectar la SBC si la parte del dominio de su FQDN coincide con uno de los dominios registrados en su inquilino, excepto \* .onmicrosoft.com. El \* uso de .onmicrosoft.com nombres de dominio no es compatible con el nombre FQDN de SBC. Por ejemplo, si tiene dos nombres de dominio, **contoso.com** y **contoso**.onmicrosoft.com, puede usar sbc.contoso.com para el nombre SBC. Si intenta conectar la SBC con un nombre como sbc.contoso.abc, el sistema no le permitirá, ya que el dominio no es propiedad de este inquilino.<br/>
   > Además del dominio registrado en su inquilino, es importante que haya un usuario con ese dominio y una licencia E3 o E5 asignada. Si no es así, recibirá el siguiente error:<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 
@@ -148,7 +148,7 @@ Enabled               : True
 
 #### <a name="validate-sip-options"></a>Validar las opciones de SIP
 
-Para validar el emparejamiento mediante opciones SIP salientes, use la interfaz de administración SBC y confirme que la SBC recibe 200 respuestas de aceptar a sus mensajes de OPCIONES salientes.
+Para validar el emparejamiento mediante opciones SIP salientes, use la interfaz de administración SBC y confirme que el SBC recibe 200 respuestas de aceptar a sus mensajes de OPCIONES salientes.
 
 Cuando enrutamiento directo ve opciones entrantes, empezará a enviar mensajes de opciones SIP salientes al FQDN SBC configurado en el campo del encabezado de contacto en el mensaje OPCIONES entrantes. 
 
@@ -163,15 +163,15 @@ Esta tabla enumera las opciones que puede establecer para el SBC en el Centro de
 |Sí|**Agregar un FQDN para la SBC**|FQDN |Ninguna|Nombre de FQDN, límite de 63 caracteres|Cadena, consulte la lista de caracteres permitidos y no permitidos en las convenciones de nomenclatura en Active Directory para [equipos, dominios,](https://support.microsoft.com/help/909264) sitios y OUs|
 |No|**Habilitado**|Habilitado|Se usa para activar el SBC para las llamadas salientes. Puede usar esto para quitar temporalmente la SBC del servicio mientras se actualiza o durante el mantenimiento. |Falso|Verdadero<br/>Falso|Boolean|
 |Sí|**Puerto de señalización SIP**|SipSignalingPort |Este es el puerto de escucha que se usa para comunicarse con enrutamiento directo mediante el protocolo de capa de transporte (TLS).|Ninguna|Cualquier puerto|0 a 65535 |
-|No|**Opciones de enviar SIP**|SendSIPOptions |Define si SBC enviará mensajes de opciones SIP. Es muy recomendable que active esta configuración. Si esta configuración está desactivada, la SBC se excluye del sistema de supervisión y alertas.|True|True<br/>Falso|Boolean|
-|No|**Historial de llamadas de reenvío**|ForwardCallHistory |Indica si la información del historial de llamadas se reenvía a través del tronco. Al activar esta opción, el proxy de Microsoft 365 u Office 365 envía un encabezado con la información del historial y se le hace referencia. |Falso|Verdadero<br/>Falso|Boolean|
-|No|**Encabezado de identidad P (PAI) reenviado**|ForwardPAI|Indica si el encabezado PAI se reenvía con la llamada. El encabezado PAI proporciona un método para comprobar la identidad de la persona que realiza la llamada. Si esta configuración está en línea, también se envía el encabezado Privacy:ID.|Falso|Verdadero<br/>Falso|Boolean|
+|No|**Opciones de enviar SIP**|SendSIPOptions |Define si SBC enviará mensajes de opciones SIP. Le recomendamos encarecidamente que active esta configuración. Si esta configuración está desactivada, la SBC se excluye del sistema de supervisión y alertas.|True|True<br/>Falso|Boolean|
+|No|**Historial de llamadas de reenvío**|ForwardCallHistory |Indica si la información del historial de llamadas se reenvía a través del tronco. Al activar esta opción, el proxy de Microsoft 365 u Office 365 envía un encabezado con información del historial y referencia. |Falso|Verdadero<br/>Falso|Boolean|
+|No|**Encabezado De identidad P (PAI) reenviado**|ForwardPAI|Indica si el encabezado PAI se reenvía con la llamada. El encabezado PAI proporciona un método para comprobar la identidad de la persona que realiza la llamada. Si esta configuración está en línea, también se envía el encabezado Privacy:ID.|Falso|Verdadero<br/>Falso|Boolean|
 |No|**Capacidad de llamadas simultáneas**|MaxConcurrentSessions |Al establecer un valor, el sistema de alertas le notificará cuando el número de sesiones simultáneas sea el 90 por ciento o superior a este valor. Si no establece un valor, no se generarán alertas. Sin embargo, el sistema de supervisión informará del número de sesiones simultáneas cada 24 horas. |Nulo|Nulo<br/>De 1 a 100 000 ||
 |No|**Códigos de respuesta a conmutación por error**|FailoverResponseCodes<br>|Si el enrutamiento directo recibe un código de error 4xx o 6xx SIP en respuesta a una invitación saliente, la llamada se considera completada de forma predeterminada. Saliente significa una llamada desde un cliente de Teams a la RTC con flujo de tráfico: cliente de Teams -> Enrutamiento directo -> SBC -> red telefónica). Al especificar un código de respuesta de conmutación por error, esto obliga al enrutamiento directo a probar otro SBC (si existe otro SBC en la directiva de enrutamiento de voz del usuario) cuando reciba los códigos especificados si la SBC no puede realizar una llamada debido a problemas de red u otros problemas. Para obtener más información, consulte [Conmutación por error de códigos SIP específicos recibidos desde el controlador de borde de sesión (SBC).](direct-routing-trunk-failover-on-outbound-call.md)|408, 503, 504||Int|
-|No|**Horas de conmutación por error (segundos)**|FailoverTimeSeconds |Cuando establece un valor, las llamadas salientes que la puerta de enlace no responde dentro del tiempo establecido se enrutan al siguiente tronco disponible. Si no hay troncos adicionales, la llamada se descarta automáticamente. El valor predeterminado es 10 segundos. En una organización con redes lentas y respuestas de puerta de enlace, esto podría provocar potencialmente que las llamadas se desasejar innecesariamente.|10|Número|Int|
-|No|**País o región preferidos para el tráfico multimedia**|MediaRerouroutingLocationOverride |Se usa para configurar manualmente el país o la región que prefiera para el tráfico multimedia. Le recomendamos que lo establezca solo si los registros de llamadas indican claramente que la asignación predeterminada del centro de datos para la ruta de acceso multimedia no usa la ruta más cercana al centro de datos SBC. De forma predeterminada, enrutamiento directo asigna un centro de datos según la dirección IP pública del SBC y siempre selecciona la ruta de acceso más cercana al centro de datos SBC. Sin embargo, en algunos casos, la ruta predeterminada podría no ser la ruta óptima. Este parámetro le permite establecer manualmente la región preferida para el tráfico multimedia. |Ninguna|Códigos de país en formato ISO||
+|No|**Tiempos de conmutación por error (segundos)**|FailoverTimeSeconds |Cuando establece un valor, las llamadas salientes que la puerta de enlace no responde dentro del tiempo establecido se enrutan al siguiente tronco disponible. Si no hay troncos adicionales, la llamada se descarta automáticamente. El valor predeterminado es 10 segundos. En una organización con redes lentas y respuestas de puerta de enlace, esto podría provocar potencialmente que las llamadas se desaloen innecesariamente.|10|Número|Int|
+|No|**País o región preferidos para el tráfico multimedia**|MediaRerouroutingLocationOverride |Se usa para configurar manualmente el país o la región que prefiera para el tráfico multimedia. Le recomendamos que lo establezca solo si los registros de llamadas indican claramente que la asignación predeterminada del centro de datos para la ruta de acceso multimedia no usa la ruta más cercana al centro de datos SBC. De forma predeterminada, enrutamiento directo asigna un centro de datos según la dirección IP pública del SBC y siempre selecciona la ruta de acceso más cercana al centro de datos de SBC. Sin embargo, en algunos casos, la ruta predeterminada podría no ser la ruta óptima. Este parámetro le permite establecer manualmente la región preferida para el tráfico multimedia. |Ninguna|Códigos de país en formato ISO||
 |No|**SBC admite PIDF/LO para llamadas de emergencia**|PidfloSupported|Especifique si SBC admite el objeto de ubicación de formato de datos de información de presencia (PIDF/LO) para las llamadas de emergencia.||||
-|No|**Llamar al teléfono mientras se intenta encontrar al usuario**|GenerateRingingWhileLocatingUser|Establezca si se reproduce una señal de audio al autor de la llamada para indicar que Teams está en proceso de establecer la llamada. Esta configuración solo se aplica al enrutamiento directo en modo de omisión que no es multimedia. A veces, las llamadas entrantes desde los clientes de RTC a Teams pueden tardar más de lo esperado en establecerse. Cuando esto sucede, es posible que el autor de la llamada no oiga nada, que el cliente de Teams no suene y que algunos proveedores de telecomunicaciones cancelen la llamada. Esta configuración ayuda a evitar silencios inesperados que se pueden producir en estos escenarios.|True|True<br/>Falso|Boolean|
+|No|**Llamar al teléfono mientras se intenta encontrar al usuario**|GenerateRingingWhileLocatingUser|Establezca si se reproduce una señal de audio al autor de la llamada para indicar que Teams está en proceso de establecer la llamada. Esta configuración solo se aplica al enrutamiento directo en modo de omisión que no es multimedia. A veces las llamadas entrantes desde los clientes de RTC a Teams pueden tardar más de lo esperado en establecerse. Cuando esto sucede, es posible que el autor de la llamada no oiga nada, que el cliente de Teams no suene y que algunos proveedores de telecomunicaciones cancelen la llamada. Esta configuración ayuda a evitar silencios inesperados que se pueden producir en estos escenarios.|True|True<br/>Falso|Boolean|
 |No| - |MediaBypass|Esta configuración indica si la SBC admite la omisión de medios y si desea usarla para esta SBC. |Ninguna|Verdadero<br/>Falso|Boolean|
 
 ## <a name="see-also"></a>Consulte también

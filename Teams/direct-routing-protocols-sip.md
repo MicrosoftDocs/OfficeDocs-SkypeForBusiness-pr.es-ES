@@ -17,18 +17,33 @@ f1.keywords:
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0756860bc6fad7a470a33e00ac8452e7977ecde0
-ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
+ms.openlocfilehash: 4fe636029c3a058dc1a8d33cc191d7654888ec5e
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44859655"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278730"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo - protocolo SIP
 
 En este artículo se describe cómo el enrutamiento directo implementa el Protocolo de inicio de sesión (SIP). Para enrutar correctamente el tráfico entre un controlador de borde de sesión (SBC) y el proxy SIP, algunos parámetros SIP deben tener valores específicos. Este artículo está destinado a los administradores de voz responsables de configurar la conexión entre el SBC local y el servicio de proxy SIP.
 
 ## <a name="processing-the-incoming-request-finding-the-tenant-and-user"></a>Procesando la solicitud entrante: buscar el inquilino y el usuario
+
+Antes de que se pueda procesar una llamada entrante o saliente, los mensajes OPCIONES se intercambian entre proxy SIP y SBC. Estos mensajes DE OPCIONES permiten que el proxy SIP proporcione las capacidades permitidas a SBC. Es importante que la negociación OPCIONES tenga éxito (respuesta 200OK), lo que permite una mayor comunicación entre SBC y proxy SIP para establecer llamadas. Los encabezados SIP de los mensajes OPCIONES para proxy SIP se proporcionan como ejemplo a continuación:
+
+| Nombre del parámetro | Ejemplo del valor | 
+| :---------------------  |:---------------------- |
+| Request-URI | OPCIONES sip:sip.pstnhub.microsoft.com:5061 SIP /2.0 |
+| A través del encabezado | A través de: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
+| Max-Forwards encabezado | Reenvíos máximos:68 |
+| Desde el encabezado | Desde el encabezado de: <sip:sbc1.adatum.biz:5058> |
+| Al encabezado | Para: <sip:sip.pstnhub.microsoft.com:5061> |
+| Encabezado CSeq | CSeq: 1 INVITACIÓN | 
+| Encabezado de contacto | Contacto: <sip:sbc1.adatum.biz:50588;transport=tls> |
+
+> [!NOTE]
+> Los encabezados SIP no contienen información del usuario en el URI del SIP en uso. De acuerdo con [RFC 3261, sección 19.1.1,](https://tools.ietf.org/html/rfc3261#section-19.1.1)la parte de información del usuario de un URI es opcional y puede estar ausente cuando el host de destino no tiene una noción de usuarios o cuando el recurso que se identifica es el recurso en sí. Si el signo @ está presente en un URI del SIP, el campo de usuario NO DEBE estar vacío.
 
 En una llamada entrante, el proxy SIP necesita buscar el inquilino al que se destina la llamada y encontrar el usuario específico dentro de este inquilino. El administrador de inquilinos puede configurar números que no son DID (por ejemplo, +1001) en varios inquilinos. Por lo tanto, es importante encontrar el espacio empresarial específico en el que realizar la búsqueda de números porque los números que no son DID pueden ser los mismos en varias organizaciones de Microsoft 365 u Office 365.  
 
@@ -38,7 +53,7 @@ A continuación se muestra un ejemplo del mensaje de invitación SIP en una llam
 
 | Nombre del parámetro | Ejemplo del valor | 
 | :---------------------  |:---------------------- |
-| URI de solicitud | INVITAR sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0 |
+| Request-URI | INVITAR sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0 |
 | A través del encabezado | A través de: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards encabezado | Reenvíos máximos:68 |
 | Desde el encabezado | Desde el encabezado de: <sip:7168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
@@ -48,7 +63,7 @@ A continuación se muestra un ejemplo del mensaje de invitación SIP en una llam
 
 Al recibir la invitación, el proxy SIP realiza los siguientes pasos:
 
-1. Compruebe el certificado. En la conexión inicial, el servicio de enrutamiento directo toma el nombre FQDN que se presenta en el encabezado de contacto y lo coincide con el nombre común o el nombre alternativo del asunto del certificado presentado. El nombre de SBC debe coincidir con una de las siguientes opciones:
+1. Compruebe el certificado. En la conexión inicial, el servicio de enrutamiento directo toma el nombre FQDN que se muestra en el encabezado de contacto y lo coincide con el nombre común o el nombre alternativo del asunto del certificado presentado. El nombre de SBC debe coincidir con una de las siguientes opciones:
 
    - Opción 1. El nombre completo del FQDN que se presenta en el encabezado de contacto debe coincidir con el nombre común/asunto alternativo del certificado presentado.  
 
@@ -68,25 +83,31 @@ Al recibir la invitación, el proxy SIP realiza los siguientes pasos:
 
    Microsoft no admite tener un proxy SIP de terceros o un servidor de agente de usuario entre el proxy SIP de Microsoft y el SBC emparejado, lo que podría modificar el URI de solicitud creado por la SBC emparejada.
 
-   Los requisitos para las dos búsquedas (pasos 2 y 3) necesarios para el escenario donde un SBC está interconectado con muchos inquilinos (escenario de operador) se tratan más adelante en este artículo.
+   Los requisitos para las dos búsquedas (pasos 2 y 3) necesarios para el escenario en el que un SBC está interconectado con muchos inquilinos (escenario de operadores) se tratan más adelante en este artículo.
 
 ### <a name="detailed-requirements-for-contact-header-and-request-uri"></a>Requisitos detallados para el encabezado de contacto y el URI de solicitud
 
 #### <a name="contact-header"></a>Encabezado de contacto
 
-Para todas las llamadas entrantes al proxy SIP de Microsoft, el encabezado de contacto debe tener el FQDN de SBC emparejado en el nombre de host del URI de la siguiente manera:
+Para todos los mensajes SIP entrantes (OPCIONES, INVITAR) al proxy SIP de Microsoft, el encabezado del contacto debe tener el FQDN de SBC emparejado en el nombre de host URI de la siguiente manera:
 
 Sintaxis: Contacto: <sip:phone o sip address@FQDN de la SBC;transport=tls> 
 
-Este nombre también debe estar en los campos Nombre común o Nombre alternativo del certificado presentado. Microsoft admite el uso de valores comodín de los nombres en los campos Nombre común o Nombre alternativo del certificado.   
+Según [RFC 3261, sección 11.1,](https://tools.ietf.org/html/rfc3261#section-11.1)puede haber un campo de encabezado de contacto en un mensaje DE OPCIONES. En Enrutamiento directo es necesario el encabezado de contacto. Para los mensajes INVITAR en formato anterior, para los mensajes OPCIONES el info. usuario se puede quitar del URI del SIP y solo se puede enviar FQDN en formato como se muestra a continuación:
+
+Sintaxis: Contacto: <sip:FQDN de la cadena SBC;transport=tls>
+
+Este nombre (FQDN) también debe estar en los campos Nombre común o Nombre alternativo del certificado presentado. Microsoft admite el uso de valores comodín de los nombres en los campos Nombre común o Nombre alternativo del asunto del certificado.   
 
 La compatibilidad con los caracteres comodín se describe [en RFC 2818, sección 3.1.](https://tools.ietf.org/html/rfc2818#section-3.1) En concreto:
 
-*"Los nombres pueden contener el carácter comodín que se considera que coincide con cualquier componente o componente de un nombre \* de dominio único. Por ejemplo, .a.com coincide foo.a.com pero no bar.foo.a.com. f .com coincide foo.com \* \* pero no bar.com".*
+*"Los nombres pueden contener el carácter comodín que se considera que coincide con cualquier componente o componente de un nombre \* de dominio único. Por ejemplo, .a.com coincide foo.a.com pero no bar.foo.a.com. f.com coincide con \* foo.com pero no \* bar.com".*
 
 Si la SBC envía más de un valor en el encabezado de contacto que aparece en un mensaje SIP, solo se utiliza la parte del FQDN del primer valor del encabezado de contacto.
 
-#### <a name="request-uri"></a>URI de solicitud 
+Como regla general del enrutamiento directo, es importante que se utilice FQDN para rellenar uri de SIP en lugar de IP. Un mensaje entrante INVITAR u OPCIONES al proxy SIP con encabezado de contacto donde el nombre de host está representado por IP y no FQDN, la conexión se rechazará con 403 Prohibido.
+
+#### <a name="request-uri"></a>Request-URI 
 
 Para todas las llamadas entrantes, el URI de solicitud se usa para hacer coincidir el número de teléfono con un usuario.   
 
@@ -100,21 +121,21 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 El proxy SIP necesita calcular el FQDN del próximo salto para las nuevas transacciones del cliente en el cuadro de diálogo (por ejemplo, Bye o Re-Invite) y al responder a opciones SIP. Se usan las Record-Route contacto o las Record-Route contactos. 
 
-Según RFC 3261, el encabezado de contacto es necesario en cualquier solicitud que pueda dar como resultado un nuevo cuadro de diálogo. La Record-Route es necesaria si un proxy desea permanecer en la ruta de acceso a solicitudes futuras en un cuadro de diálogo. Si un SBC proxy está en uso con la optimización de medios locales para enrutamiento [directo,](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)se tendrá que configurar una ruta de registro ya que el SBC del proxy debe permanecer en la ruta. 
+Según [RFC 3261, sección 8.1.1.8,](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)el encabezado de contacto es necesario en cualquier solicitud que puede dar como resultado un nuevo cuadro de diálogo. La Record-Route es necesaria si un proxy desea permanecer en la ruta de acceso a solicitudes futuras en un cuadro de diálogo. Si un SBC proxy está en uso con la optimización de medios locales para enrutamiento [directo,](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)se tendrá que configurar una ruta de registro ya que el SBC del proxy debe permanecer en la ruta. 
 
 Microsoft recomienda usar solo el encabezado de contacto si no se usa un SBC proxy:
 
-- Por RFC 3261, Record-Route se usa si un proxy quiere seguir la ruta de las solicitudes futuras en un cuadro de diálogo, lo que no es esencial si no se configura el SBC del proxy ya que todo el tráfico pasa entre el proxy SIP de Microsoft y el SBC emparejado. 
+- Por [RFC 3261, sección 20.30](https://tools.ietf.org/html/rfc3261#section-20.30), Record-Route se usa si un proxy quiere seguir la ruta de solicitudes futuras en un cuadro de diálogo, lo que no es esencial si no se configura SBC del proxy ya que todo el tráfico pasa entre el proxy SIP de Microsoft y el SBC emparejado. 
 
 - El proxy SIP de Microsoft solo usa el encabezado de contacto (no Record-Route) para determinar el próximo salto al enviar opciones de ping salientes. Configurar solo un parámetro (Contacto) en lugar de dos (Contacto y Ruta de registro) simplifica la administración si no está en uso un SBC proxy. 
 
 Para calcular el próximo salto, el proxy SIP usa:
 
-- Prioridad 1. Ruta de registro de nivel superior. Si el nombre de nivel Record-Route contiene el nombre de FQDN o IP, el nombre de FQDN o IP se usa para realizar la conexión saliente en el cuadro de diálogo.
+- Prioridad 1. Ruta de registro de nivel superior. Si el nombre de nivel Record-Route contiene el nombre de FQDN, el nombre de FQDN se usa para realizar la conexión saliente en el cuadro de diálogo.
 
 - Prioridad 2. Encabezado de contacto. Si Record-Route no existe, el proxy SIP buscará el valor del encabezado de contacto para realizar la conexión saliente. (Esta es la configuración recomendada).
 
-Si se usan tanto el contacto como Record-Route, el administrador de SBC debe mantener sus valores idénticos, lo que provoca una sobrecarga administrativa. 
+Si se usan tanto contactos como Record-Route, el administrador de SBC debe mantener sus valores idénticos, lo que provoca una sobrecarga administrativa. 
 
 ### <a name="use-of-fqdn-name-in-contact-or-record-route"></a>Uso del nombre FQDN en Contacto o Record-Route
 
@@ -141,9 +162,12 @@ Un usuario de Teams puede tener varios puntos de conexión al mismo tiempo. Por 
 
 -   Progreso de la llamada: convertido por el proxy SIP en el mensaje SIP 180. Al recibir el mensaje 180, la SBC debe generar una llamada local.
 
--   Respuesta multimedia: convertida por el proxy SIP al mensaje 183 con candidatos a medios en el Protocolo de descripción de sesión (SDP). Al recibir el mensaje 183, el SBC espera conectarse a los medios candidatos recibidos en el mensaje SDP. Tenga en cuenta que, en algunos casos, es posible que no se genere la respuesta multimedia y que el punto final responda con el mensaje "Llamada aceptada".
+-   Respuesta multimedia: convertida por el proxy SIP en el mensaje 183 con candidatos a medios en el Protocolo de descripción de sesión (SDP). Al recibir el mensaje 183, el SBC espera conectarse a los medios candidatos recibidos en el mensaje SDP. 
 
--   Llamada aceptada: convertida por el proxy SIP en mensaje SIP 200 con SDP. Al recibir el mensaje 200, se espera que SBC envíe y reciba medios a los candidatos del SDP proporcionados.
+    > [!NOTE]
+    > En algunos casos, es posible que no se genere la respuesta multimedia y que el punto final responda con el mensaje "Llamada aceptada".
+
+-   Llamada aceptada: convertida por el proxy SIP en el mensaje SIP 200 con SDP. Al recibir el mensaje 200, se espera que SBC envíe y reciba medios a los candidatos del SDP proporcionados.
 
 #### <a name="multiple-endpoints-ringing-with-provisional-answer"></a>Varios puntos de conexión sonando con respuesta provisional
 
@@ -151,13 +175,14 @@ Un usuario de Teams puede tener varios puntos de conexión al mismo tiempo. Por 
 
 2.  Tras la notificación, cada punto de conexión comenzará a sonar y a enviar mensajes de "Progreso de la llamada" al proxy SIP. Como un usuario de Teams puede tener varios puntos de conexión, el proxy SIP podría recibir varios mensajes de progreso de la llamada.
 
-3.  Para cada mensaje de progreso de la llamada recibido de los clientes, el proxy SIP convierte el mensaje de progreso de la llamada en el mensaje SIP "SIP/2.0 180 Trying" (SIP SIP 180 Trying). El intervalo para enviar estos mensajes se define por el intervalo de los mensajes recibidos desde el controlador de llamada. En el siguiente diagrama, hay dos 180 mensajes generados por el proxy SIP. Estos mensajes proceden de los dos puntos de conexión de Teams del usuario. Cada uno de los clientes tiene un id. de etiqueta único.  Cada mensaje procedente de un punto de conexión diferente será una sesión independiente (el parámetro "tag" del campo "Para" será diferente). Pero es posible que un punto de conexión no genere el mensaje 180 y envíe el mensaje 183 inmediatamente como se muestra en el siguiente diagrama.
+3.  Por cada mensaje de progreso de la llamada recibido de los clientes, el proxy SIP convierte el mensaje de progreso de la llamada en el mensaje SIP "SIP/2.0 180 Trying". El intervalo para enviar estos mensajes se define por el intervalo de los mensajes recibidos desde el controlador de llamada. En el siguiente diagrama, hay dos 180 mensajes generados por el proxy SIP. Estos mensajes proceden de los dos puntos de conexión de Teams del usuario. Cada uno de los clientes tiene un id. de etiqueta único.  Cada mensaje procedente de un punto de conexión diferente será una sesión independiente (el parámetro "tag" del campo "Para" será diferente). Pero es posible que un punto de conexión no genere el mensaje 180 y envíe el mensaje 183 inmediatamente como se muestra en el siguiente diagrama.
 
-4.  Una vez que un punto de conexión genera un mensaje de Respuesta multimedia con las direcciones IP de los candidatos a medios del punto de conexión, el proxy SIP convierte el mensaje recibido en un mensaje "Progreso de sesión SIP 183" con el SDP del cliente reemplazado por el SDP desde el procesador de medios. En el siguiente diagrama, el punto de conexión de bifurcación 2 ha respondido a la llamada. Si el tronco no se omite, el mensaje SIP 183 solo se genera una vez (anillo bot o punto final del cliente). La 183 podría venir en una bifurcación existente o iniciar una nueva.
+4.  Una vez que un punto de conexión genera un mensaje de Respuesta multimedia con las direcciones IP de los candidatos multimedia del punto de conexión, el proxy SIP convierte el mensaje recibido en un mensaje "Progreso de sesión SIP 183" con el SDP del cliente reemplazado por el SDP desde el procesador de medios. En el siguiente diagrama, el punto de conexión de bifurcación 2 ha respondido a la llamada. Si el tronco no se omite, el mensaje SIP 183 solo se genera una vez (anillo bot o punto final del cliente). La 183 podría venir en una bifurcación existente o iniciar una nueva.
 
 5.  Se envía un mensaje de aceptación de llamada con los candidatos finales del punto de conexión que ha aceptado la llamada. El mensaje aceptación de la llamada se convierte en mensaje SIP 200. 
 
-![Diagrama que muestra varios puntos de conexión sonando con respuesta provisional](media/direct-routing-protocols-1.png)
+> [!div class="mx-imgBorder"]
+> ![Diagrama que muestra varios puntos de conexión sonando con respuesta provisional](media/direct-routing-protocols-1.png)
 
 #### <a name="multiple-endpoints-ringing-without-provisional-answer"></a>Varios puntos de conexión sonando sin respuesta provisional
 
@@ -165,21 +190,26 @@ Un usuario de Teams puede tener varios puntos de conexión al mismo tiempo. Por 
 
 2.  Tras la notificación, cada punto de conexión comenzará a sonar y a enviar el mensaje "Progreso de la llamada" al proxy SIP. Como un usuario de Teams puede tener varios puntos de conexión, el proxy SIP podría recibir varios mensajes de progreso de la llamada.
 
-3.  Para cada mensaje de progreso de la llamada recibido de los clientes, el proxy SIP convierte el mensaje de progreso de la llamada en el mensaje SIP "SIP/2.0 180 Trying" (SIP SIP 180 Trying).  El intervalo para enviar los mensajes se define por el intervalo de recepción de los mensajes desde el controlador de llamada. En la imagen siguiente hay dos 180 mensajes generados por el proxy SIP, lo que significa que el usuario inició sesión en tres clientes de Teams y cada cliente envía el progreso de la llamada. Cada mensaje será una sesión independiente (el parámetro "etiqueta" del campo "Para" es diferente)
+3.  Por cada mensaje de progreso de la llamada recibido de los clientes, el proxy SIP convierte el mensaje de progreso de la llamada en el mensaje SIP "SIP/2.0 180 Trying".  El intervalo para enviar los mensajes se define por el intervalo de recepción de los mensajes desde el controlador de llamada. En la imagen siguiente hay dos 180 mensajes generados por el proxy SIP, lo que significa que el usuario inició sesión en tres clientes de Teams y cada cliente envía el progreso de la llamada. Cada mensaje será una sesión independiente (el parámetro "etiqueta" del campo "Para" es diferente)
 
 4.  Se envía un mensaje de aceptación de llamada con los candidatos finales del punto de conexión que ha aceptado la llamada. El mensaje aceptación de la llamada se convierte en mensaje SIP 200. 
 
-![Diagrama que muestra varios puntos de conexión sonando sin respuesta provisional](media/direct-routing-protocols-2.png)
+> [!div class="mx-imgBorder"]
+> ![Diagrama que muestra varios puntos de conexión sonando sin respuesta provisional](media/direct-routing-protocols-2.png)
 
 ### <a name="media-bypass-flow"></a>Flujo de omisión de medios
 
 En el escenario de omisión de medios se usan los mismos mensajes (100 Trying, 180, 183). 
 
-El esquema siguiente muestra un ejemplo del flujo de llamadas de omisión. Ten en cuenta que los candidatos multimedia pueden venir de distintos puntos de conexión. 
+El esquema siguiente muestra un ejemplo del flujo de llamadas de omisión. 
 
-![Diagrama que muestra varios puntos de conexión sonando con respuesta provisional](media/direct-routing-protocols-3.png)
+> [!NOTE]
+> Los candidatos a medios pueden venir de distintos puntos de conexión. 
 
-## <a name="replaces-option"></a>Opción Reemplazar
+> [!div class="mx-imgBorder"]
+> ![Diagrama que muestra varios puntos de conexión sonando con respuesta provisional](media/direct-routing-protocols-3.png)
+
+## <a name="replaces-option"></a>Opción De reemplazo
 
 La SBC debe admitir la invitación con sustituciones.
 
@@ -196,13 +226,13 @@ El enrutamiento directo admite dos métodos para la transferencia de llamadas:
   Con esta opción, el proxy SIP finaliza la transferencia y agrega una nueva invitación. 
 
 
-- Opción 2. El proxy SIP envía el refer a la SBC y actúa como transferor como se describe en la sección 6 de RFC 5589.
+- Opción 2. El proxy SIP envía la referencia a la SBC y actúa como transferor como se describe en la sección 6 de RFC 5589.
 
   Con esta opción, el proxy SIP envía un refer a la SBC y espera que SBC controle la transferencia por completo.
 
-El proxy SIP selecciona el método en función de las capacidades que el SBC ha notificado. Si el SBC indica que admite el método "Refer", el proxy SIP usará la opción 2 para realizar transferencias de llamadas.
+El proxy SIP selecciona el método en función de las capacidades que el SBC ha notificado. Si el SBC indica que admite el método "Consultar", el proxy SIP usará la opción 2 para las transferencias de llamadas.
 
-A continuación se muestra un ejemplo de un SBC que envía el mensaje de que el método de referencia es compatible:
+El siguiente es un ejemplo de un SBC que envía el mensaje de que el método de referencia es compatible:
 
 ```console
 ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE, NOTIFY
@@ -220,9 +250,10 @@ ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
 
 Si el SBC indica que el método de referencia no es compatible, el proxy SIP actúa como árbitro. 
 
-La solicitud de referencia que procede del cliente finalizará en el proxy SIP. (La solicitud de referencia del cliente se muestra como "Transferencia de llamadas a David" en el siguiente diagrama.  Para obtener más información, consulte la sección 7.1 de [RFC 3892.](https://www.ietf.org/rfc/rfc3892.txt) 
+La solicitud de referencia que procede del cliente finalizará en el proxy SIP. (La solicitud de referencia del cliente se muestra como "Transferencia de llamada a David" en el siguiente diagrama.  Para obtener más información, consulte la sección 7.1 de [RFC 3892.](https://www.ietf.org/rfc/rfc3892.txt) 
 
-![Diagrama que muestra varios puntos de conexión sonando con respuesta provisional](media/direct-routing-protocols-4.png)
+> [!div class="mx-imgBorder"]
+> ![Diagrama que muestra varios puntos de conexión sonando con respuesta provisional](media/direct-routing-protocols-4.png)
 
 ### <a name="sip-proxy-send-the-refer-to-the-sbc-and-acts-as-a-transferor"></a>Proxy SIP envía la referencia a la SBC y actúa como transferor
 
@@ -241,9 +272,9 @@ Esta opción asume que el proxy SIP actúa como transferor y envía un mensaje d
 - La llamada se transfiere a un participante externo de RTC. 
 - La llamada se transfiere de un usuario de Teams a otro usuario de Teams en el mismo espacio empresarial a través de SBC. 
 
-Si la llamada se transfiere de un usuario de Teams a otro a través de la SBC, se espera que el SBC emita una nueva invitación (iniciar un nuevo cuadro de diálogo) para el destino de la transferencia (el usuario de Teams) con la información recibida en el mensaje de referencia. 
+Si la llamada se transfiere de un usuario de Teams a otro a través del SBC, se espera que el SBC emita una nueva invitación (iniciar un nuevo cuadro de diálogo) para el destino de la transferencia (el usuario de Teams) con la información recibida en el mensaje de referencia. 
 
-Para rellenar los campos Para/Transferir para la transacción de la solicitud internamente, el proxy SIP necesita transmitir esta información dentro de los encabezados REFER-TO/REFERRED-BY. 
+Para rellenar los campos Para/Transferir de la transacción de la solicitud internamente, el proxy SIP necesita transmitir esta información dentro de los encabezados REFER-TO/REFERRED-BY. 
 
 El proxy SIP formará el URI de REFER-TO como un URI de SIP compuesto por un FQDN de proxy SIP en el nombre de host y cualquiera de los siguientes:
 
@@ -262,7 +293,8 @@ El encabezado REFERRED-BY es un URI de SIP con MRI transferor codificado en él,
 
 El tamaño del encabezado de referencia puede tener hasta 400 símbolos en este caso. La SBC debe admitir la gestión de mensajes de referencia con tamaños de hasta 400 símbolos.
 
-![Diagrama que muestra varios puntos de conexión sonando con respuesta provisional](media/direct-routing-protocols-5.png)
+> [!div class="mx-imgBorder"]
+> ![Diagrama que muestra varios puntos de conexión sonando con respuesta provisional](media/direct-routing-protocols-5.png)
 
 ## <a name="session-timer"></a>Temporizador de sesión
 
@@ -280,13 +312,16 @@ El encabezado History-Info se usa para volver a segmentar las solicitudes SIP y 
 
 Si se envía, el History-Info está habilitado de la siguiente manera:
 
-- El proxy SIP insertará un parámetro que contiene el número de teléfono asociado en entradas individuales History-Info que componen el encabezado History-Info que se envía al controlador RTC.  Usando solo las entradas que tienen el parámetro de número de teléfono, el controlador RTC reconstruirá un nuevo encabezado History-Info y lo pasará al proveedor de troncos SIP a través de proxy SIP.
+- El proxy SIP insertará un parámetro que contiene el número de teléfono asociado en entradas de History-Info que componen el encabezado History-Info electrónico enviado al controlador RTC.  Usando solo las entradas que tienen el parámetro de número de teléfono, el controlador RTC reconstruirá un nuevo encabezado History-Info y lo pasará al proveedor de troncos SIP a través de proxy SIP.
 
 - History-Info encabezado se agregará para los casos de llamadas y de llamadas simultáneas.
 
 - History-Info encabezado no se agregará para los casos de transferencia de llamadas.
 
-- Una entrada de historial individual en el encabezado History-Info reconstruir tendrá el parámetro de número de teléfono proporcionado combinado con el FQDN de enrutamiento directo (sip.pstnhub.microsoft.com) establecido como la parte host del URI; un parámetro de 'user=phone' se agregará como parte del URI del SIP.  Cualquier otro parámetro asociado con el encabezado History-Info original, excepto los parámetros contextuales del teléfono, se pasará por el encabezado de History-Info nueva construcción.  Tenga en cuenta que las entradas que son privadas (determinadas por los mecanismos definidos en la sección 3.3 de RFC 4244) se reenviarán como se hace porque el proveedor de tronco SIP es un punto de confianza.
+- Una entrada de historial individual en el encabezado History-Info reconstruir tendrá el parámetro de número de teléfono combinado con el FQDN de enrutamiento directo (sip.pstnhub.microsoft.com) establecido como la parte host del URI; un parámetro de "user=phone" se agregará como parte del URI del SIP.  Cualquier otro parámetro asociado con el encabezado History-Info original, excepto los parámetros contextuales del teléfono, se pasará por el encabezado de History-Info nueva construcción.  
+
+  > [!NOTE]
+  > Las entradas que son privadas (según determinen los mecanismos definidos en la sección 3.3 de RFC 4244) se reenviarán como se hace porque el proveedor de tronco SIP es un punto de confianza.
 
 - Los History-Info entrantes se pasan por alto.
 

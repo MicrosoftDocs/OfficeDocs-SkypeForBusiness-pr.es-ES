@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd6959522c756f02a983742fbbc136cd2ef3174a
-ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
+ms.openlocfilehash: 3635d56b510c0ece55a0fdb9408c72a697436841
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50037806"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278560"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -77,7 +77,7 @@ Consulte [Programar reuniones con el Buscador de disponibilidad](https://support
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticación
 
-El complemento para reunión de Microsoft Teams requiere que los usuarios inicien sesión en Microsoft Teams usando la autenticación moderna. Los usuarios podrán usar el cliente de Microsoft Teams aunque no usen este método para iniciar sesión, pero no podrán programar reuniones en línea de Microsoft Teams con el complemento de Outlook. Puede solucionar este inconveniente de una de las siguientes formas:
+El complemento para reunión de Microsoft Teams requiere que los usuarios inicien sesión en Microsoft Teams usando la autenticación moderna. Si los usuarios no usan este método para iniciar sesión, aún podrán usar el cliente de Teams, pero no podrán programar reuniones en línea de [Teams](https://www.microsoft.com/microsoft-teams/online-meetings) con el complemento de Outlook. Puede solucionar este inconveniente de una de las siguientes formas:
 
 - Si la autenticación moderna no está configurada en su organización, configúrela.
 - Si la autenticación moderna está configurada, pero el usuario opta por no utilizarla en el cuadro de diálogo, pídale que vuelva a iniciar sesión usando la autenticación multifactor.
