@@ -1419,7 +1419,7 @@ items:
           - name: Teams para la infraestructura de escritorio virtualizada (VDI)
             href: teams-for-vdi.md
           - name: Teams para el entorno de Escritorio remoto (CREATIVE)
-            href: teams-for-rdp.md
+            href: teams-on-rdp.md
           - name: Implementar Microsoft Teams para Surface Hub
             href: teams-surface-hub.md
           - name: Actualizaciones del cliente de Teams
