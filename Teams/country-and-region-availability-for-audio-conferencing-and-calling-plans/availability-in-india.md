@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para India.
-ms.openlocfilehash: 7ec292a4d30db652df19a8e31c26d2bf5542a750
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 745ab3de04c33e5679e372190572ab07b87a331d
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231149"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347801"
 ---
 # <a name="availability-in-india"></a>Disponibilidad en India
 
@@ -42,10 +42,10 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y M
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |Microsoft no vende Audioconferencia en India. TATA Communications ofrece un servicio de acceso telefónico y de acceso telefónico que es compatible con las reuniones de Microsoft Teams. Para obtener más información, visite [el sitio web de TATA Communications.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Alaba<li> Bombay</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Microsoft no vende audioconferencias en India. TATA Communications ofrece un servicio de acceso telefónico y de salida que es compatible con reuniones de Microsoft Teams. Para obtener más información, visite el sitio [web de TATA Communications.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Bombay</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
-   
+
 ## <a name="phone-system"></a>Sistema telefónico
 
 |**Característica**|**Detalles**|
@@ -54,7 +54,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y M
 | Operadores automáticos <br/> |Disponible  <br/> |
 |Colas de llamadas  <br/> |Disponible  <br/> |
 |Correo de voz  <br/> |Disponible  <br/> |
-   
+
 ## <a name="calling-plans"></a>Planes de llamadas
 
 |**Característica**|**Detalles**|
@@ -64,23 +64,23 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y M
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
 
 Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el [enrutamiento directo del sistema telefónico](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier proveedor de servicios de telefonía.
-   
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |<ul><li>Alaba <li>Bombay<li>Otras ciudades [bajo solicitud](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |<ul><li>Chennai</li><li>Bombay<li>Otras ciudades [a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
-   
- Tenga en cuenta que, en india, los números de servicio solo pueden usarse para Audioconferencia. Por lo tanto, si quiere obtener números de teléfono gratuitos y de pago para Audioconferencia, consulte Obtener números de teléfono de servicio para Skype Empresarial y [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+
+ Tenga en cuenta que en india, los números de servicio solo se pueden usar para las audioconferencias. Por lo tanto, si desea obtener números de teléfono gratuitos y gratuitos para las audioconferencias, consulte Obtener números de teléfono de servicio para Skype Empresarial y [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Los créditos de comunicaciones están disponibles?  <br/> |No  <br/> |
-   
+
 Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para su organización](../set-up-communications-credits-for-your-organization.md).
   
 ## <a name="related-topics"></a>Temas relacionados
@@ -88,6 +88,3 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-
-
