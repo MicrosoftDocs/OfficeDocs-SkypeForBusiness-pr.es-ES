@@ -1481,6 +1481,10 @@ items:
             href: devices/phones-for-teams.md
           - name: Teams muestra
             href: devices/teams-displays.md
+          - name: Paneles de Microsoft Teams
+            href: devices/teams-panels.md
+          - name: Usar paneles de Microsoft Teams
+            href: devices/use-teams-panels.md
           - name: Actualización de teléfonos de Teams a las muestras de Teams
             href: devices/upgrade-phones-to-displays.md
           - name: Mostrar Teams y teléfonos de la implementación con Intune
