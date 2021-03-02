@@ -17,30 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61dc34d56ebb10dc7319d855bbd0d98184f1e54a
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: afe6b57b5b2b430c056d49b29a752e55bd4a0afe
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347851"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397545"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Herramientas para actualizar a Teams &mdash; para administradores de TI
 
-En este artículo se describen las herramientas para actualizar a Teams. Este artículo es el tercero de varios que describen conceptos de actualización e implementación para administradores de TI.  
+En este artículo se describen las herramientas para actualizar a Teams desde Skype Empresarial. 
 
-- [Información general](upgrade-to-teams-on-prem-overview.md)
-- [Métodos de actualización](upgrade-to-teams-on-prem-upgrade-methods.md)
-- **Herramientas para administrar la actualización**   (este artículo)
-- [Consideraciones adicionales para las organizaciones con Skype Empresarial local](upgrade-to-teams-on-prem-considerations.md)
-- [Implementar la actualización](upgrade-to-teams-on-prem-implement.md)
-- [Consideraciones de red telefónica conmutada (RTC)](upgrade-to-teams-on-prem-pstn-considerations.md)
-
-Además, en los artículos siguientes se describen conceptos de actualización importantes y comportamientos de coexistencia:
+Antes de comenzar la actualización, Microsoft recomienda los siguientes artículos que describen conceptos de actualización importantes y comportamientos de coexistencia:
 
 - [Coexistencia de Teams y Skype Empresarial](upgrade-to-teams-on-prem-coexistence.md)
 - [Modos de coexistencia: referencia](migration-interop-guidance-for-teams-with-skype.md)
 - [Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia](teams-client-experience-and-conformance-to-coexistence-modes.md)
-
 
 ## <a name="tools-for-managing-the-upgrade"></a>Herramientas para administrar la actualización
 
@@ -120,7 +112,7 @@ Al asignar el modo TeamsOnly en el nivel de inquilino, la migración de reunione
 
 ## <a name="related-links"></a>Vínculos relacionados
 
-[Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md) 
+[Modos de coexistencia: referencia](migration-interop-guidance-for-teams-with-skype.md) 
 
 [Configurar la conectividad híbrida entre Skype Empresarial Server y Microsoft 365 u Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 

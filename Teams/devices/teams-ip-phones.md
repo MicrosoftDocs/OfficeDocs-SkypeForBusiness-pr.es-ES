@@ -1,9 +1,9 @@
 ---
-title: Teléfonos y dispositivos para Teams
+title: Dispositivos para Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
-ms.reviewer: dvank, kponnus
+ms.reviewer: divank
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
@@ -21,30 +21,28 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados para Que Microsoft Teams produzca los mejores resultados.
-ms.openlocfilehash: e93756b1d7aaadb3027e0172d9495393be650e7b
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 7425ec0e637600e600987f43d85c7656e31919a4
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347841"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397535"
 ---
-# <a name="ip-phones-certified-for-microsoft-teams"></a>Teléfonos IP certificados para Microsoft Teams
+# <a name="microsoft-teams-certified-devices"></a>Dispositivos certificados de Microsoft Teams
 
-El programa de certificación teléfonos IP garantiza que los clientes que usan teléfonos de escritorio certificados y teléfonos de conferencia experimentarán una experiencia de reuniones y llamadas de audio de alta calidad.
+Los programas de certificación de Microsoft Teams garantizan que los clientes que usan teléfonos de escritorio y teléfonos de conferencia certificados experimentarán una experiencia de reuniones y llamadas de audio de alta calidad.
 
-## <a name="announcing-certified-for-microsoft-teams"></a>Anuncio certificado para Microsoft Teams
-
-Además de ofrecer a los clientes una gama de teléfonos IP certificados por Skype Empresarial, como parte del programa de certificación de teléfonos IP de Teams, anunciamos la disponibilidad de nuevo hardware de teléfono IP que se certificará para Microsoft Teams. Este programa de certificación garantiza una barra de calidad más alta con objetivos de rendimiento más altos y métricas de calidad de audio. Los proveedores de teléfonos están trabajando activamente para cumplir con esta barra superior y se clasificarán con los nuevos requisitos este año natural. Algunos de nuestros partners también están trabajando para proporcionar soporte técnico para el servicio de Skype Empresarial en el mismo hardware que los teléfonos IP de Teams. Las ventajas del teléfono IP certificado de Teams incluyen:
+Los programas de certificación de Microsoft Teams garantizan una barra de calidad más alta con objetivos de rendimiento más altos y métricas de calidad de audio. Los partners están trabajando activamente para cumplir con esta barra superior y son dispositivos que cumplen los requisitos de certificación. Algunos de nuestros partners también están trabajando para proporcionar soporte técnico para el servicio de Skype Empresarial en el mismo hardware que los teléfonos de Teams. Las ventajas de los dispositivos certificados de Microsoft Teams incluyen:
 
 - Experiencia de Native Teams con integración de botones de hardware y notificaciones LED
 - Integración del calendario y unirse a una reunión con un solo toque
-- Implementado y administrado a través de la solución de administración de dispositivos de Microsoft con integración de Intune
+- Implementado y administrado a través del Centro de administración de Teams con la integración de Intune
 
-## <a name="currently-certified-ip-phones"></a>Teléfonos IP certificados actualmente
+## <a name="currently-certified-teams-phones"></a>Teléfonos de Teams certificados actualmente
 
-Los siguientes teléfonos están certificados para Microsoft Teams:
+Los siguientes dispositivos están certificados en el Programa de certificación de teléfonos de Microsoft Teams:
 
-| Modelo de teléfono                            | Versión de firmware                                                                                                                                                                                                                           | Fecha de lanzamiento                 |
+|Modelo de dispositivo                         | Versión de firmware                                                                                                                                                                                                                           | Fecha de lanzamiento                 
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
 | Módulo de expansión de códigos de audio compatibles con C450HD |C450HD_TEAMS_0.225                                        | Enero de 2021                 |
 | Códigos de audio C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | Marzo de 2019                   |
@@ -67,27 +65,38 @@ Los siguientes teléfonos están certificados para Microsoft Teams:
 | Yealink CP 960| 73.15.0.20 | Diciembre de 2018|
 | Yealink T58 & serie T56 | 58.15.0.20 | Diciembre de 2018 |
 
-## <a name="currently-certified-collaboration-bars"></a>Barras de colaboración certificadas actualmente
+## <a name="currently-certified-teams-rooms-on-android"></a>Salas de Teams certificadas actualmente en Android
 
-Las siguientes barras de colaboración están certificadas para Microsoft Teams:
+Los siguientes dispositivos están certificados en el Programa de certificación Salas de Microsoft Teams para Android:
 
-| Modelo de barra de colaboración | Versión de firmware | Fecha de lanzamiento  | Tamaño del salón (hasta)                                         |
+| Modelo de dispositivo | Versión de firmware | Fecha de lanzamiento  | Tamaño del salón (hasta)                                         |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Yealink MeetingBar A30       | 133.15.0.52    | Marzo de 2021 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
+| Consola táctil CTP18 de Yealink  | 137.15.0.28    | Marzo de 2021 | Compatible con la Barra de reuniones A20 y la Barra de reuniones A30 |
 | Yealink MeetingBar A20  | 133.15.0.19      | Noviembre de 2020 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
 | Poly Studio X30         | 3.1.1.216109     | Junio de 2020     | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
 | Poly Studio X50         | 3.1.1.216109     | Junio de 2020     | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
 | Yealink VC210           | 118.15.0.14      | Febrero de 2020 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
 
-## <a name="currently-certified-teams-display"></a>Presentación de Teams certificada actualmente
-Las siguientes pantallas de Teams están certificadas para Microsoft Teams:
+## <a name="currently-certified-teams-displays"></a>Pantallas de Teams certificadas actualmente
 
-| Modelo de visualización de Teams | Versión de firmware | Fecha de lanzamiento  |                                         
+Los siguientes dispositivos están certificados en el Programa de certificación para mostrar de Microsoft Teams:
+
+| Modelo de dispositivo | Versión de firmware | Fecha de lanzamiento  |                                         
 |:------------------------|:-----------------|:--------------|
 |Vista ThinkSmart de Lenovo|CD-18781Y.201006.099|Octubre de 2020 |
 
+## <a name="currently-certified-teams-panels"></a>Paneles de Teams certificados actualmente
+Los siguientes dispositivos están certificados en el Programa de certificación de paneles de Microsoft Teams:
+
+| Modelo de dispositivo| Versión de firmware | Fecha de lanzamiento  |                                         
+|:------------------------|:-----------------|:--------------|
+|Crestron TSS-770 | 1.003.0082 |Febrero de 2021 |
+|Crestron TSS-1070 | 1.003.0082 |Febrero de 2021 |
+
 ### <a name="product-release-information-for-teams-phones"></a>Información de la versión del producto para teléfonos de Teams
 
-Las siguientes son las últimas versiones de firmware y aplicación de teléfono IP de Teams.
+Las siguientes son las últimas versiones de firmware y aplicación de teléfono de Teams.
 
 #### <a name="app-versions"></a>Versiones de la aplicación
 
@@ -116,9 +125,9 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 | Yealink VP59        | 91.15.0.50          | Actualización de 2020 #7           |
 | Yealink CP960       | 73.15.0.111       | Actualización de 2020 #7           |
 
-### <a name="product-release-information-for-collaboration-bars"></a>Información de la versión del producto para barras de colaboración
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Información de la versión del producto para salas de Teams en Android
 
-Las siguientes son las últimas versiones de firmware y aplicación de la barra de colaboración de Teams.
+A continuación se incluyen las últimas salas de Teams en las versiones de firmware y aplicación de Android.
 
 #### <a name="app-versions"></a>Versiones de la aplicación
 
@@ -138,7 +147,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 | Poly Studio X30 | 3.2.3.280012          | 2020, Actualizar #3    |
 | Poly Studio X50 | 3.2.3.280012          | 2020, Actualizar #3    |
 
-### <a name="product-release-information-for-teams-display"></a>Información de la versión del producto para la presentación de Teams
+### <a name="product-release-information-for-teams-displays"></a>Se muestra la información de la versión del producto para Teams
 
 A continuación se muestran las últimas versiones de firmware y aplicación de pantalla de Teams.
 
@@ -169,8 +178,6 @@ Para obtener más información sobre cómo obtener Teams, consulte [¿Cómo obte
 Si es un proveedor que busca unirse al programa de certificación, vea [Cómo unirse](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) para requisitos y programas disponibles.
 
 ## <a name="additional-resources"></a>Recursos adicionales
-
-Obtenga información sobre los programas de certificación de Skype Empresarial y [Microsoft Teams.](https://docs.microsoft.com/SkypeForBusiness/certification/overview)
 
 [Explore los teléfonos y dispositivos certificados de Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
 

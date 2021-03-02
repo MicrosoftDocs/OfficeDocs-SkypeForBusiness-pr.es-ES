@@ -16,14 +16,14 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se proporcionan instrucciones sobre cómo usar dispositivos de paneles de Teams.
-ms.openlocfilehash: 9ff2b9ec969336ada04ed7a872cf3c5d8ea358ab
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: eba450b42bb66dfbe202290cdd235a0d4db9e710
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50348121"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395332"
 ---
-# <a name="use-microsoft-teams-panels"></a>Usar paneles de Microsoft Teams
+# <a name="how-to-use-microsoft-teams-panels"></a>Cómo usar paneles de Microsoft Teams
 
 Los paneles de Microsoft Teams son dispositivos de pantalla digital compactos que se instalan justo fuera de los espacios de reunión, normalmente junto a las entradas. Estos paneles táctiles son dispositivos dedicados de Microsoft Teams que ofrecen una vista general sobre su espacio de reunión y la reunión programada. Con los dinámicos indicadores LED y pantalla inicio codificados por colores, puede determinar si el espacio está disponible o reservado a distancia. Puede usar paneles de Teams para reservar un espacio de reunión disponible para una reunión ad hoc, en el momento.
 
@@ -63,7 +63,7 @@ Mosaico | Descripción
 **1-Detalles de la hora, el día, la fecha y el espacio de reunión actuales** | Muestra el nombre actual de la hora, el día, la fecha y el espacio de reunión. El nombre del espacio de reunión es el nombre de la cuenta de recursos que ha iniciado sesión en los paneles.
 **Disponibilidad del espacio de dos reuniones y detalles de la reunión** | Indica la disponibilidad del espacio de reunión y muestra los detalles de la reunión. Vea [el icono Disponibilidad del espacio de reunión y detalles de la reunión.](#meeting-space-availability-and-meeting-details-tile)
 **Calendario de 3 próximas** | Muestra el calendario y la disponibilidad del espacio de reunión durante un máximo de 24 horas desde la hora actual. Desplácese hacia arriba o hacia abajo para determinar qué franjas horarias están disponibles y cuáles están reservadas.
-**4-Configuración** | Muestra el icono de configuración. Póntela para abrir la **pantalla** Configuración para informar de un problema o actualizar la configuración de dispositivo disponible.
+**4-Configuración** | Muestra el **icono Configuración.** Pón clic en él para informar de un problema o actualizar la configuración del dispositivo disponible.
 
 ### <a name="meeting-space-availability-and-meeting-details-tile"></a>Icono de disponibilidad de espacio de reunión y detalles de la reunión
 
