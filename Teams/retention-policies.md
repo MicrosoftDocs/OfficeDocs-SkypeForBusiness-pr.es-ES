@@ -19,17 +19,17 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b0197d9a5cf9ada93ac16ad083f293b573c4eed
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347660"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50401314"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Administrar directivas de retención para Microsoft Teams
 
 > [!NOTE]
-> Si es un usuario que ve un mensaje en Teams en el que se indica que los chats y mensajes se han eliminado mediante una directiva de retención, vea Mensajes de Teams sobre directivas [de retención.](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
+> Si ve un mensaje en Teams en el que se indica que los chats o mensajes se han eliminado mediante una directiva de retención, vea Mensajes de [Teams sobre directivas de retención.](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
 > 
 > La información de esta página es para los administradores de TI que administran estas directivas de retención.
 
@@ -45,12 +45,12 @@ El requisito mínimo de licencia para directivas de retención para Teams es Mic
 
 Los mensajes de chat de Teams se almacenan en una carpeta oculta en el buzón de cada usuario incluido en el chat y los mensajes del canal de Teams se almacenan en una carpeta oculta similar en el buzón de grupo del equipo. Para conservar los mensajes que están sujetos a una directiva de retención, una copia del contenido se mantiene automáticamente en una carpeta oculta denominada **SubstrateHolds** como subcarpeta en la carpeta Elementos **recuperables** de Exchange. Hasta que estos mensajes se eliminen permanentemente de la carpeta Desencuentables, seguirán siendo buscados por las herramientas de exhibición de documentos electrónicos.
 
-Para obtener información detallada sobre lo que se incluye y se excluye para las directivas de retención de Teams, y cómo funcionan estas directivas en función de la configuración de directiva, vea Obtener información sobre la retención [de Microsoft Teams.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
+Para obtener información detallada sobre lo que se incluye y se excluye para las directivas de retención de Teams y cómo funcionan estas directivas en función de la configuración de directiva, vea Obtener información sobre la retención [de Microsoft Teams.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
 
 > [!NOTE]
 > En esa página se explica por qué a veces puede ver retrasos cuando las directivas de retención eliminan mensajes. Por ejemplo, los mensajes pueden verse hasta 7 días después del período de expiración que haya configurado en la directiva de retención.
 
-Si configura varias directivas de retención de Teams con diferentes configuraciones de retención, los principios de retención resuelven cualquier conflicto. Por ejemplo:
+Si configura varias directivas de retención de Teams con diferentes configuraciones de retención, los principios de retención resuelven los conflictos. Por ejemplo:
 - Si hay un conflicto entre conservar o eliminar el mismo contenido, el contenido siempre se conserva.
 - Si hay un conflicto en cuánto tiempo se conserva el mismo contenido, se conserva durante el período de retención más largo.
 

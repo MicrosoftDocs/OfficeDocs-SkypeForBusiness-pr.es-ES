@@ -2,7 +2,7 @@
 title: Experiencia de reunión solo vista
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
 audience: admin
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed7221192fdc3588856755b8be651065fdbf15ab
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 49f65e1ff47caefd61a9b2753b12da23fd2184e9
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397565"
+ms.locfileid: "50401324"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiencia de reunión solo vista de Teams
 
 > [!Note]
-> La experiencia de reunión solo vista estará disponible a principios de marzo de 2021. Esta característica se habilitará el 1 de marzo de 2021 como desactivado predeterminado. Debe cambiar la directiva predeterminada después de esa fecha si desea que la característica sea predeterminada. Use PowerShell para habilitar la directiva `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled` .
+> La experiencia de reunión solo vista estará disponible a principios de marzo de 2021. Esta característica se habilitará el 1 de marzo de 2021 como desactivado predeterminado. Debe cambiar la directiva predeterminada después de esa fecha si desea que la característica sea predeterminada. Use PowerShell para habilitar la directiva `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` .
 
 > [!Note]
-> Hemos aumentado temporalmente la experiencia de solo visualización para 20 000 asistentes, pero revertiremos el soporte técnico a 10 000 asistentes el 30 de junio de 2021.
+> Si su reunión o seminario web alcanza la capacidad, Teams escalará sin problemas para dar cabida a una experiencia de difusión solo para 10 000 personas. Además, durante este tiempo de mayor trabajo remoto, aproveche las transmisiones de más de 20.000 personas hasta finales de este año.
 
 Microsoft Teams permite que hasta 10 000 asistentes se unan a una reunión de Teams. Una vez que se haya alcanzado la capacidad de la reunión principal, los asistentes adicionales se unirán con una experiencia de solo vista.
 
@@ -46,7 +46,7 @@ La experiencia de solo visualización está deshabilitada de forma predeterminad
 
 ## <a name="disable-teams-view-only-experience"></a>Deshabilitar la experiencia de solo vista de Teams
 
-Los administradores pueden deshabilitar la experiencia de solo vista con PowerShell.
+Los administradores pueden deshabilitar la experiencia de solo visualización con PowerShell.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
