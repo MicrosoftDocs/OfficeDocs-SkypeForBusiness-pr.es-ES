@@ -1,5 +1,5 @@
 ---
-title: Llamadas y chats con usuarios de otras organizaciones
+title: Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Obtenga información acerca de cómo buscar y agregar usuarios de fuera de la organización en Microsoft Teams, así como cómo llamarlos y chatear con ellos, mediante el acceso externo (federación) y el acceso de invitado.
-ms.openlocfilehash: 5c5eecf5ceb2228f981a7cd06b52f3b5a1b787d7
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145846"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421325"
 ---
-# <a name="call-chat-and-collaborate-with-people-outside-your-organization-in-microsoft-teams"></a>Llamadas, chat y colaboración con personas de fuera de la organización en Microsoft Teams
+# <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización
 
 Cuando necesite comunicarse y colaborar con otras personas fuera de su organización, Microsoft Teams le ofrece dos opciones:
 

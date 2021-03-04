@@ -19,16 +19,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales.
-ms.openlocfilehash: 6bbee4609bad74fb89f98debadd3a37efc9b7759
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: bf1e5083b160bf79c1abe06bffd2a68bf4c0aaab
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49908994"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421195"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 
 Con el acceso de invitado, puede proporcionar acceso a equipos, documentos de canales, recursos, chats y aplicaciones a personas que no pertenezcan a la organización, sin perder por ello el control sobre los datos corporativos.
+
+> [!NOTE]
+> Si solo quiere buscar, llamar, chatear y configurar reuniones con personas de otras organizaciones, use el [acceso externo](manage-external-access.md).
 
 Un invitado es un usuario que no es empleado, estudiante ni es un miembro de su organización. Tampoco tiene una cuenta profesional o educativa con su organización. Por ejemplo, los invitados pueden incluir socios, proveedores o consultores. Cualquier persona que no forma parte de su organización puede agregarse como invitado en Teams. Esto significa que cualquier usuario con una cuenta de empresa (es decir, una cuenta de Azure Active Directory) o una cuenta de correo electrónico de consumidor (con Outlook.com, Gmail.com u otros) puede participar como invitado en Teams con acceso a las experiencias de canales y equipos.
 
