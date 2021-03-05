@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: dbab559da8062fa30fb1b42e632baabe2c50fc63
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196794"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460450"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -36,14 +36,14 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |-----------|---------------|
 |Número de equipos que un usuario puede crear | Sujeto a un límite de 250 objetos&sup1;         |
 |Número de equipos en los que un usuario puede ser un miembro de|1 000&sup2;|
-|Número de miembros de un equipo | 10 000<sup>6</sup>     |
+|Número de miembros de un equipo | 25 000<sup>6</sup>     |
 |Número de propietarios por equipo | 100   |
 |Número de equipos de la organización que se pueden usar en un espacio empresarial | 5     |
 |Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 10 000       |
 |Número de equipos que un administrador global puede crear        |  500 000   |
 |Cantidad de equipos que puede tener una organización de Microsoft 365 y Office 365    | 500 000&sup3;     |
-|Número de canales por equipo    | 200 (incluye canales eliminados)&sup4;         |
-|Número de cadenas privadas por equipo    |30| (incluye canales eliminados)&sup4;
+|Número de canales por equipo    | 200 (incluye canales eliminados)<sup>4</sup>        |
+|Número de canales privados por equipo    |30 (incluye canales eliminados)<sup>4</sup>        |
 |Número de miembros de un canal privado    |250|
 |Tamaño máximo de lista de distribución, grupo de seguridad o grupo de Office 365 que puede importarse a un equipo    |3500|
 |Número máximo de miembros de un grupo de Office 365 que se pueden convertir en un equipo    |10 000<sup>6</sup>     |
@@ -59,7 +59,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 
 <sup>5</sup> 28 KB es un límite aproximado, ya que incluye al mensaje en sí (texto, vínculos de la imagen, etc.), las @menciones, el número de conectores y las reacciones.
 
-<sup>6</sup> Los equipos en GCC solo puede aceptar 5000 miembros y en GCCH/DoD solo puede aceptar 2500 miembros.
+<sup>6</sup> Los equipos en GCC pueden incluir 25 000 miembros pero en GCCH/DoD solo pueden incluir 2 500 miembros. Además, tenga en cuenta que las menciones de canales y equipos están bloqueadas en equipos con más de 10 000 miembros.
 
 ## <a name="messaging"></a>Mensajería 
 

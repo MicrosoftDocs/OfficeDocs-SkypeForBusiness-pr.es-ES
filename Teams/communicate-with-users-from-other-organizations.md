@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Obtenga información acerca de cómo buscar y agregar usuarios de fuera de la organización en Microsoft Teams, así como cómo llamarlos y chatear con ellos, mediante el acceso externo (federación) y el acceso de invitado.
-ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421325"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461050"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización
 
@@ -43,6 +43,9 @@ De forma predeterminada, el acceso externo está habilitado para todos los domin
 ![Captura de pantalla de la configuración de acceso externo](media/external-access-federation-settings.png)
 
 Para configurar el acceso externo, vea [Administrar el acceso externo](manage-external-access.md). 
+
+>[!NOTE]
+>Las licencias gratuitas de Microsoft Teams no admiten el acceso externo.
 
 ## <a name="guest-access"></a>Acceso de invitado
 
@@ -65,8 +68,8 @@ En las tablas siguientes se muestran las diferencias entre usar el acceso extern
 | Ver si una persona de otra organización está disponible para una llamada o chat | Sí | Sí<sup>1</sup> |
 | Buscar personas de otras organizaciones | Sí<sup>2</sup> | No |
 | Compartir archivos | No | Sí |
-| Ver el mensaje de fuera de la oficina | No | Sí |
-| Bloquear a alguien en otra organización | No | Sí |
+| Ver el mensaje de fuera de la oficina de una persona de otra organización | No | Sí |
+| Bloquear a alguien de otra organización  | No | Sí |
 | Usar las @menciones | Sí<sup>3</sup> | Sí |
 
 ### <a name="things-people-outside-your-organization-can-do"></a>Cosas que pueden hacer las personas de fuera de la organización
