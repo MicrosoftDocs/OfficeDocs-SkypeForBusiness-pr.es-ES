@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para Microsoft Teams.
-ms.openlocfilehash: deb9bf013136bb8efd9171e5562de5e2ba1b631f
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 8aabdcdd8e5f58604e8b8d09524b6d096f62f7be
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347871"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460890"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -124,7 +124,7 @@ Los usuarios que desee que estén disponibles para Marcar por extensión deben t
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-El formato necesario para escribir la extensión en el campo de número de teléfono de usuario es:
+El formato necesario para escribir la extensión en el campo de número de teléfono del usuario es:
 
 - *+\<phone number>;ext=\<extension>*
 - *+\<phone number>x\<extension>*
@@ -149,7 +149,7 @@ El horario laboral se puede establecer para cada operador automático. Si el hor
 
 Según cómo haya configurado los operadores automáticos y las colas de llamadas, es posible que solo tenga que especificar el enrutamiento de llamadas adicionales para los operadores automáticos con números de teléfono directos.
 
-Si quiere un enrutamiento de llamadas independiente para las personas que llaman fuera del horario laboral, especifique su horario laboral para cada día. Seleccione **Agregar nueva hora para** especificar varios conjuntos de horas para un día determinado, por ejemplo, para especificar un descanso para el almuerzo.
+Si quiere un enrutamiento de llamadas independiente para las personas que llaman fuera del horario laboral, especifique su horario laboral para cada día. Seleccione **Agregar nueva hora para** especificar varios conjuntos de horas para un día determinado, por ejemplo, para especificar un descanso para comer.
 
 Una vez que haya especificado el horario laboral, elija las opciones de enrutamiento de llamadas para horas adicionales. Las mismas opciones están disponibles que para el enrutamiento de llamadas en horario laboral que especificó anteriormente.
 
@@ -212,9 +212,9 @@ Cuando haya terminado de agregar cuentas de servicio, seleccione **Enviar** para
 
 Consulte Los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) para permitir que los operadores automáticos transfieran llamadas externamente.  Además:
 
-- Para una cuenta de recurso con un número [de plan](calling-plans-for-office-365.md) de llamadas, el número de teléfono de transferencia externa debe especificarse en formato E.164 (+[código de país][código de área][número de teléfono]).
+- Para una cuenta de recurso con una licencia de [Plan](calling-plans-for-office-365.md)de llamadas, el número de teléfono de transferencia externa debe especificarse en formato E.164 (+[código de país][código de área][número de teléfono]).
 
-- Para una cuenta de recurso con un número de enrutamiento directo, el formato de número de teléfono de transferencia externa depende de la configuración del controlador de borde de sesión [(SBC).](direct-routing-connect-the-sbc.md)
+- Para una cuenta de recursos con una directiva de enrutamiento de voz en línea de licencia del sistema telefónico y enrutamiento directo, el formato de número de teléfono de transferencia externa depende de la configuración del Controlador de borde de sesión [(SBC).](direct-routing-connect-the-sbc.md)
 
 El número de teléfono saliente que se muestra se determina de la siguiente manera:
 

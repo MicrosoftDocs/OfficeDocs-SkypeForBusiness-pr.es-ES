@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: 9422fd2b47ac3d460ee10e8933c45964d78282c1
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401314"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460660"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Administrar directivas de retención para Microsoft Teams
 
@@ -41,9 +41,11 @@ Para obtener más información sobre la retención y cómo puede aplicar la conf
 
 El requisito mínimo de licencia para directivas de retención para Teams es Microsoft 365 E3. Para obtener más información sobre las licencias, vea [Descripción del servicio de Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
-## <a name="how-teams-retention-policies-work"></a>Cómo funcionan las directivas de retención de Teams
+## <a name="how-teams-retentiondeletion-policies-work"></a>Cómo funcionan las directivas de retención y eliminación de Teams
 
-Los mensajes de chat de Teams se almacenan en una carpeta oculta en el buzón de cada usuario incluido en el chat y los mensajes del canal de Teams se almacenan en una carpeta oculta similar en el buzón de grupo del equipo. Para conservar los mensajes que están sujetos a una directiva de retención, una copia del contenido se mantiene automáticamente en una carpeta oculta denominada **SubstrateHolds** como subcarpeta en la carpeta Elementos **recuperables** de Exchange. Hasta que estos mensajes se eliminen permanentemente de la carpeta Desencuentables, seguirán siendo buscados por las herramientas de exhibición de documentos electrónicos.
+Los mensajes de chat de Teams se almacenan en dos ubicaciones. La copia principal se almacena en Azure, una copia secundaria, que se usa para directivas de compilación, se almacena en una carpeta oculta en el buzón de Exchange Online de cada usuario incluido en el chat y los mensajes del canal de Teams se almacenan en una carpeta oculta similar en el buzón de grupo del equipo. Cuando se aplica una directiva de eliminación de mensajes de chat a un usuario o equipo, la copia secundaria se elimina primero, seguido de la copia principal. La búsqueda de eDiscovery o Teams se basa en los mensajes almacenados en copia secundaria y, por lo tanto, los mensajes no se pueden detectar cuando se elimina la copia secundaria. 
+
+Cuando se aplica una poilcy de retención de mensajes de chat a un usuario o equipo, y si los mensajes se eliminan (ya sea debido a otra directiva de eliminación o por el propio usuario), la copia principal se elimina, por lo tanto, el cliente de **Teams** verá que el mensaje desaparece, pero la copia secundaria se mueve automáticamente a una carpeta oculta denominada **SubstrateHolds,** que es como subcarpeta en la carpeta Elementos recuperables de Exchange. Hasta que estos mensajes se eliminen permanentemente de la carpeta Desencuentables, seguirán siendo buscados por las herramientas de exhibición de documentos electrónicos.
 
 Para obtener información detallada sobre lo que se incluye y se excluye para las directivas de retención de Teams y cómo funcionan estas directivas en función de la configuración de directiva, vea Obtener información sobre la retención [de Microsoft Teams.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
 

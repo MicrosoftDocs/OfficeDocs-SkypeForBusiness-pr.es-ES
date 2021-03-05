@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afe6b57b5b2b430c056d49b29a752e55bd4a0afe
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 8c272cdd6eac98b8847b6f915d59b62444d16c97
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397545"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460440"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Herramientas para actualizar a Teams &mdash; para administradores de TI
 
@@ -30,7 +30,7 @@ En este artículo se describen las herramientas para actualizar a Teams desde Sk
 
 Antes de comenzar la actualización, Microsoft recomienda los siguientes artículos que describen conceptos de actualización importantes y comportamientos de coexistencia:
 
-- [Coexistencia de Teams y Skype Empresarial](upgrade-to-teams-on-prem-coexistence.md)
+- [Coexistencia de Teams y Skype Empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Modos de coexistencia: referencia](migration-interop-guidance-for-teams-with-skype.md)
 - [Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
@@ -43,9 +43,9 @@ Independientemente del método de actualización que elija, para los usuarios qu
 
 Tanto si realiza una transición de capacidades de selección con los modos de Skype Empresarial como si simplemente actualiza al modo TeamsOnly desde la configuración predeterminada de islas, TeamsUpgradePolicy es la herramienta principal para los usuarios que ya tienen Skype Empresarial Online. Como cualquier otra directiva de Teams, puede asignar TeamsUpgradePolicy directamente a un usuario. También puede establecer la directiva como predeterminada para todo el espacio empresarial. Cualquier asignación a un usuario tiene prioridad sobre la configuración predeterminada del inquilino.  Puede administrar la directiva en la Consola de administración de Teams y en PowerShell.
 
-También puede asignar cualquier modo de TeamsUpgradePolicy, excepto el modo TeamsOnly, a los usuarios que se aloen en Skype Empresarial local. **El modo TeamsOnly solo se puede** asignar a un usuario que ya se encuentra en Skype Empresarial Online. Esto se debe a que la interoperabilidad con los usuarios y la federación de Skype Empresarial, así como la funcionalidad del sistema telefónico de Microsoft 365 solo son posibles si el usuario se encuentra en Skype Empresarial Online. Además, no puede asignar el modo **TeamsOnly** como predeterminado para todo el espacio empresarial si tiene una implementación local de Skype Empresarial (que se detecta por la presencia de un registro DNS de detección de lync que apunta a una ubicación que no sea Office 365.
+También puede asignar cualquier modo de TeamsUpgradePolicy, excepto el modo TeamsOnly, a los usuarios que se aloen en Skype Empresarial local. **El modo TeamsOnly solo se puede** asignar a un usuario que ya esté en Skype Empresarial Online. Esto se debe a que la interoperabilidad con los usuarios y la federación de Skype Empresarial y la funcionalidad del sistema telefónico de Microsoft 365 solo son posibles si el usuario se encuentra en Skype Empresarial Online. Además, no puede asignar el modo **TeamsOnly** como predeterminado para todo el espacio empresarial si tiene una implementación local de Skype Empresarial (que se detecta por la presencia de un registro DNS de detección de lync que apunta a una ubicación que no sea Office 365.
 
-Los usuarios con cuentas de Skype Empresarial locales deben moverse en línea [(ya](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) sea a Skype Empresarial Online o directamente a Teams) con Move-CsUser en el conjunto de herramientas local de Skype Empresarial. Estos usuarios se pueden mover a TeamsOnly en 1 o 2 pasos:
+Los usuarios con cuentas de Skype Empresarial locales deben moverse en línea [(ya](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) sea a Skype Empresarial Online o directamente a Teams) con Move-CsUser en el conjunto de herramientas local de Skype Empresarial. Estos usuarios se pueden mover a TeamsOnly en uno o dos pasos:
 
 -   1 paso: Especifique el modificador -MoveToTeams en Move-CsUser. Esto requiere Skype Empresarial Server 2019 o Skype Empresarial Server 2015 con CU8 o posterior.
 
@@ -69,7 +69,7 @@ Para actualizar un usuario local de Skype Empresarial al modo TeamsOnly, use Mov
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
 ```
 
-Para cambiar el modo de todos los usuarios del espacio empresarial, excepto aquellos que tienen una concesión explícita por usuario (que tiene prioridad), ejecute el comando siguiente:
+Para cambiar el modo de todos los usuarios del espacio empresarial, excepto los que tienen una concesión explícita por usuario (que tiene prioridad), ejecute el comando siguiente:
 
 ```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: Obtenga información sobre las directivas de llamadas y voz de Teams.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d0ea4db57fbfdc3ab76e8c6c9991e032103b260
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 9056c9b81fcda9c0e7408c63b4af00c1aabbffd0
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50348095"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460590"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Administrar directivas de llamadas y voz en Microsoft Teams
 
@@ -58,7 +58,7 @@ Una [directiva de enrutamiento de](manage-voice-routing-policies.md) voz es un c
 
 ## <a name="call-park-and-retrieve-policies"></a>Parque de llamadas y directivas de recuperación
 
-[El parque de llamadas y la recuperación](call-park-and-retrieve.md) permite a los usuarios poner a otros usuarios en espera y permite que el mismo usuario o otra persona continúen con la llamada.
+[El parque de llamadas y la recuperación](call-park-and-retrieve.md) permite a los usuarios poner a otros usuarios en espera y permite al mismo usuario o a otra persona continuar la llamada.
 
 ![Captura de pantalla del parque de llamadas y la directiva de recuperación.](media/call-park-policy.png)
 
@@ -72,7 +72,7 @@ Una [directiva de enrutamiento de](manage-voice-routing-policies.md) voz es un c
 
 * [Administrar directivas de llamadas de emergencia en Microsoft Teams](manage-emergency-calling-policies.md)
 * [Administrar directivas de enrutamiento de llamadas de emergencia](manage-emergency-call-routing-policies.md)
-* [Administrar directivas de identificación de llamadas en Microsoft Teams](caller-id-policies.md)
+* [Administrar directivas del id. de llamada en Microsoft Teams](caller-id-policies.md)
 * [Administrar directivas de enrutamiento de voz](manage-voice-routing-policies.md)
 * [Directivas de llamadas en Microsoft Teams](teams-calling-policy.md)
 * [Estacionamiento y recuperación de llamadas en Microsoft Teams](call-park-and-retrieve.md)

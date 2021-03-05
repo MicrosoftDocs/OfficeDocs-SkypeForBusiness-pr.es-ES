@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
-ms.translationtype: HT
+ms.openlocfilehash: 5263880e049eb779c01f95ea58c6866bc1f3aa3c
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616954"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460560"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
@@ -51,7 +51,8 @@ La Presencia forma parte del perfil del usuario en Microsoft Teams (así como ta
 || ![Círculo gris abierto, indica estado desconocido](media/Presence_Unknown.png) Estado desconocido|
 || ![El círculo púrpura con una flecha, indica Fuera de la oficina](media/Presence_OOF.png) Fuera de la oficina. Fuera de la oficina se usa cuando se establece una respuesta automática. (Disponible solo para Outlook) |
 |||
-
+ > [!Note]
+ > Para los usuarios que se hospedan en el buzón enprem, se espera que tengan retrasos de presencia con un máximo de una hora.
 Los Estados de presencia configurados a través de la aplicación se basan en la actividad del usuario (Disponible, Ausente), en los estados del Calendario de Outlook (En una reunión) o en los estados de la aplicación Teams (En una llamada, En una presentación). Cuando se encuentre en Modo de concentración de acuerdo con su calendario, el estado que verán los demás usuarios en Teams será **Concentrado**. El Modo de concentración se mostrará como **No molestar** en los demás productos.
 
 Su estado de presencia actual cambiará a Ausente cuando bloquee el equipo o cuando entre en el modo de inactividad o de suspensión. En los dispositivos móviles, el estado de presencia cambiará a Ausente cada vez que la aplicación Teams esté en segundo plano.

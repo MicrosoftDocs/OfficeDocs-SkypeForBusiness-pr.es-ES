@@ -24,16 +24,16 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
-description: Obtenga información sobre cómo Audioconferencia en Microsoft 365 u Office 365 permite a los usuarios llamar a las reuniones desde sus teléfonos.
-ms.openlocfilehash: 542e619d9a0af586df4028c24c731082fa7bf1d0
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: Obtenga información sobre cómo las audioconferencias en Microsoft 365 u Office 365 permiten a los usuarios llamar a reuniones desde sus teléfonos.
+ms.openlocfilehash: e2103a9f1ccac8fc2a5891cc776c3faf84a29ae8
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031206"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460690"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Audioconferencia en Microsoft 365
-Audioconferencia en Microsoft 365 y Office 365 permite a los usuarios llamar a las reuniones desde sus teléfonos. La audio conferencia permite hasta 250 asistentes telefónicos.
+Las audioconferencias en Microsoft 365 y Office 365 permiten a los usuarios llamar a reuniones desde sus teléfonos. La audio conferencia permite hasta 250 asistentes telefónicos.
 
 ## <a name="what-is-audio-conferencing"></a>¿Qué es una audio conferencia?
 Llamar (marcar) a las reuniones es muy útil para los usuarios que están de viaje y no pueden asistir a una reunión utilizando la aplicación Skype Empresarial o la aplicación de Microsoft Teams en sus portátiles o dispositivos móviles. Pero hay otros escenarios en los que usar un teléfono para asistir a una reunión de Skype Empresarial o de Microsoft Teams puede ser una mejor opción que usar una aplicación en un ordenador:
@@ -50,7 +50,7 @@ Solo debe configurar las audioconferencias para los usuarios que van a programar
 Después de que los asistentes se hayan unido a la reunión, también pueden llamar e invitar a otras personas a una reunión de Skype Empresarial o de Microsoft Teams. Consulte [Llamar desde una reunión de Teams para que otras personas se unan a ella](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) o [Llamar desde una reunión de Skype Empresarial para que otras personas puedan unirse a ella](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
 ## <a name="what-does-it-cost"></a>¿Cuál es su costo?
-Para obtener información sobre precios, consulte [Precios para participar en audio conferencia.](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2)
+Para obtener información sobre precios, consulte [Precios para participar en audio conferencia.](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
 
 ## <a name="where-is-it-available"></a>¿Dónde está disponible?
 Con la audio conferencia, los usuarios pueden utilizar números de teléfono gratuitos y de pago para marcar a las reuniones Los números de pago (servicio) se asignan automáticamente como números de audio conferencia compartidos a las organizaciones cuando están habilitados para la audio conferencia. Se pueden asignar a su organización números dedicados y gratuitos de otras ciudades.
@@ -69,7 +69,7 @@ Hay dos tipos de números de teléfono de audio conferencia que pueden ser asign
   
  Los **números de teléfono dedicados** son aquellos que solo están disponibles para los usuarios de su organización. Los idiomas que se emplean cuando alguien llama a uno de estos números se pueden cambiar. Necesitará conseguir un número de teléfono de servicio para esto.
   
- **Los números de teléfono** compartidos son aquellos números de teléfono que se pueden compartir con otras cuentas de Microsoft 365 u Office 365. No es posible cambiar los idiomas que se emplean cuando alguien llama a uno de estos números.
+ **Los números de teléfono** compartidos son aquellos números de teléfono que se pueden compartir con otros Microsoft 365 u Office 365. No es posible cambiar los idiomas que se emplean cuando alguien llama a uno de estos números.
   
 Si bien el número de conferencia de acceso telefónico local que se asigna a un organizador es el único que se incluye en la invitación de la reunión, la persona que llama puede usar cualquiera de los números de teléfono que están asignados al puente de conferencia para unirse a una reunión. La lista de estos números de teléfono que se pueden usar para unirse a una reunión está disponible en el vínculo **Buscar un número local** que se incluye en cada invitación a una reunión.
 
@@ -91,7 +91,7 @@ Los números de teléfono dedicados a la audio conferencia son números de servi
 
 - **Usar el Centro de administración de Skype Empresarial** En algunos países o regiones, puede obtener los números de sus puentes de conferencia usando el centro de administración de Skype Empresarial. Consulte[Obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers)
     
-- **Portar los números existentes.** Puede transferir o transferir números existentes de su proveedor de servicios u operador telefónico actual a Microsoft 365 u Office 365. Consulte [Transferir números de teléfono a Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obtener más información que le ayude a hacer esto.  
+- **Portar los números existentes.** Puede transferir o transferir números existentes de su proveedor de servicios o operador de telefonía actual a Microsoft 365 u Office 365. Consulte [Transferir números de teléfono a Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obtener más información que le ayude a hacer esto.  
   
 - **Usar un formulario de solicitud para números nuevos.** A veces (dependiendo de su país o región) no podrá obtener sus nuevos números de teléfono a través del centro de administración de Skype Empresarial, o necesitará números de teléfono o códigos de área específicos. Si es así, tendrá que descargar un formulario y enviárselo de nuevo a nosotros. Para obtener más información, vea [Administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 

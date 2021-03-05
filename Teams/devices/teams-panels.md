@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se proporciona información general sobre las características compatibles con los paneles de Microsoft Teams.
-ms.openlocfilehash: 99c1c90734a72f6e98ee1ca9e862316445358d3c
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e22a49d4cba45507649ad5c15bbb626b77fe800a
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395342"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460510"
 ---
 # <a name="microsoft-teams-panels"></a>Paneles de Microsoft Teams
 
@@ -65,7 +65,7 @@ Para usar paneles de Teams, necesita [la licencia estándar de Salas de Microsof
 
 ## <a name="deploy-teams-panels-devices"></a>Implementar dispositivos de paneles de Teams
 
-Si está implicado en la planificación, implementación y administración de dispositivos de paneles de Teams, esta sección es para usted. Esta sección no está pensada para los usuarios finales de los paneles de Teams.
+Si está involucrado en la planeación, implementación y administración de dispositivos de paneles de Teams, esta sección es para usted. Esta sección no está pensada para los usuarios finales de los paneles de Teams.
 
 La implementación de dispositivos de paneles de Teams se puede dividir en las siguientes tareas:
 
@@ -105,7 +105,7 @@ La planificación de la configuración y la implementación abarca las siguiente
 
 ### <a name="resource-account-provisioning"></a>Aprovisionamiento de cuentas de recursos
 
-Cada dispositivo de paneles de Teams requiere una cuenta de recursos de sala de Microsoft 365. Use las credenciales de la cuenta de recursos para iniciar sesión en la aplicación Microsoft Teams en el dispositivo de paneles.
+Cada dispositivo de paneles de Teams requiere una cuenta de recursos de sala de Microsoft 365. Use las credenciales de la cuenta de recurso para iniciar sesión en la aplicación Microsoft Teams en el dispositivo de paneles.
 
 Para configurar una cuenta de recursos de Microsoft 365 para paneles de Teams, deberá comprar una licencia estándar de [Salas de Microsoft Teams.](#license-requirement) Esta licencia incluye un buzón de recursos que permite a los usuarios de su organización reservar el espacio de reunión a través de Outlook o Teams.
 
@@ -115,7 +115,9 @@ Para obtener información sobre cómo crear una cuenta de recursos y asignarle u
 >
 >- Si ya tiene una cuenta de recursos de sala configurada para el espacio de reunión donde va a instalar paneles, use la misma cuenta de recursos de sala para iniciar sesión en el dispositivo de paneles. Sin embargo, asegúrese de que la cuenta de recursos de sala tiene asignada la licencia Estándar de Salas de Microsoft Teams para usarla como cuenta de recursos de paneles.
 >
->- Si ya tiene un Microsoft Teams Rooms implementado en el espacio de reunión donde va a instalar paneles de Teams, la cuenta de recursos ya tiene la licencia salas [de Microsoft Teams.](../rooms/rooms-licensing) En estos casos, no es necesario comprar una licencia estándar de Salas de Microsoft Teams independiente para implementar paneles. El administrador inicia sesión en el dispositivo de paneles con las mismas credenciales que los salas de Microsoft Teams para el mismo espacio.
+>- Si ya tiene un Microsoft Teams Rooms implementado en el espacio de reunión donde va a instalar paneles de Teams, la cuenta de recursos ya tiene la licencia salas [de Microsoft Teams.](../rooms/rooms-licensing.md) En estos casos, no es necesario comprar una licencia estándar de Salas de Microsoft Teams independiente para implementar paneles. El administrador inicia sesión en el dispositivo de paneles con las mismas credenciales que los salas de Microsoft Teams para el mismo espacio.
+>
+>- Para espacios de reunión grandes, como salas de juntas o salas de conferencias, con varias entradas, puede montar un dispositivo de paneles en cada entrada. Varios paneles que pertenecen a un único espacio de reunión comparten la misma cuenta de recursos e inician sesión con las mismas credenciales. No es necesario crear cuentas de recursos independientes para cada panel para el mismo espacio.
 
 > [!TIP]
 > Se recomienda crear la cuenta de recursos con antelación a la instalación real de paneles de Teams.
