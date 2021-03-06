@@ -315,16 +315,12 @@ items:
         href: enable-features-office-365.md
       - name: Administrar directivas
         items:
+          - name: Información general
+            href: manage-teams-with-policies.md
           - name: Asignar directivas a los usuarios
             href: assign-policies.md
           - name: Ver las asignaciones de directivas en el registro de actividades
             href: activity-log.md
-          - name: Administrar directivas de permisos de aplicación en Teams
-            href: teams-app-permission-policies.md
-          - name: Administrar directivas de configuración de aplicación en Teams
-            href: teams-app-setup-policies.md
-          - name: Administrar configuración y directivas de aplicación personalizadas en Teams
-            href: teams-custom-app-policies-and-settings.md
           - name: Administrar las políticas de comentarios para Teams
             href: manage-feedback-policies-in-teams.md
           - name: Administrar los paquetes de directivas para Teams
@@ -773,6 +769,8 @@ items:
     items:
       - name: Planear la solución de voz de Teams
         href: cloud-voice-landing-page.md
+      - name: Administrar directivas de voz y llamadas en Teams
+        href: voice-and-calling-policies.md
       - name: Sistema telefónico
         items:
           - name: ¿Qué es el Sistema telefónico?
@@ -1273,7 +1271,9 @@ items:
         items:
           - name: Información general
             href: manage-apps.md
-          - name: Ver permisos de aplicaciones y conceder consentimiento de administrador en el Centro de administración de Microsoft Teams
+          - name: Administrar directivas de aplicación en Teams
+            href: app-policies.md
+          - name: Ver permisos de aplicaciones y conceder consentimiento de administrador
             href: app-permissions-admin-center.md
           - name: Consentimiento específico del recurso
             href: resource-specific-consent.md
@@ -1287,6 +1287,12 @@ items:
             href: Office-365-custom-connectors.md
           - name: El comportamiento de las aplicaciones de Teams para usuarios no estándar
             href: non-standard-users.md
+          - name: Administrar directivas de permisos de aplicación en Teams
+            href: teams-app-permission-policies.md
+          - name: Administrar directivas de configuración de aplicación en Teams
+            href: teams-app-setup-policies.md
+          - name: Administrar configuración y directivas de aplicación personalizadas en Teams
+            href: teams-custom-app-policies-and-settings.md
   - name: Instrucciones para sectores y gobiernos
     items:
       - name: Información general
