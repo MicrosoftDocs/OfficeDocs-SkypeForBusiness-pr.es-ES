@@ -1,5 +1,5 @@
 ---
-title: Administrar plantillas de Teams en el centro de administración
+title: Administrar plantillas de Teams en el Centro de administración
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,27 +17,25 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo administrar plantillas de Teams en el centro de administración
+description: Obtenga información sobre cómo administrar plantillas de Teams en el Centro de administración
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9704fdb92689031d44fa692383c701ec47877fc6
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: bcb99538ebd129e02e511c8260dc3bfa101bff9d
+ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145887"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50507973"
 ---
-# <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Crear y administrar plantillas de Teams en el centro de administración
+# <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Crear y administrar plantillas de Teams en el Centro de administración
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+Administre las plantillas de Teams que ven los usuarios finales creando directivas de plantillas en el Centro de administración. Dentro de cada directiva de plantilla, puede designar qué plantillas se muestran u ocultan.
+Asigne diferentes usuarios a distintas directivas de plantilla para que los usuarios solo puedan ver el subconjunto de plantillas de Teams especificadas.
 
-Administre las plantillas de Teams que se muestran a los usuarios finales creando directivas de plantillas en el centro de administración. Dentro de cada directiva de plantillas, puede designar qué plantillas se muestran u ocultan.
-Asigne diferentes usuarios a distintas directivas de plantillas para que los usuarios solo puedan ver el subconjunto de plantillas de Teams especificadas.
-
-## <a name="create-template-policies-and-assign-available-templates"></a>Crear directivas de plantillas y asignar plantillas disponibles
+## <a name="create-template-policies-and-assign-available-templates"></a>Crear directivas de plantilla y asignar plantillas disponibles
 
 1. Inicie sesión en el Centro de administración de Teams.
 
-2. Expanda las **directivas de plantillas**  >  **de** Teams.
+2. Expandir **directivas de plantillas** de Teams  >  .
 
 3. Seleccione **Agregar**.
 
@@ -51,17 +49,17 @@ Asigne diferentes usuarios a distintas directivas de plantillas para que los usu
 
 2. En la **tabla Plantillas visualizables,** seleccione las plantillas que desea ocultar y seleccione **Ocultar.**
 
-    ![Las plantillas seleccionadas con ocultar resaltado](media/template-policies-2.png)
+    ![Las plantillas seleccionadas con ocultar resaltadas](media/template-policies-2.png)
 
     Puede ver las plantillas que ha seleccionado para ocultar en la **tabla Plantillas ocultas.**
 
 1. Para mostrar determinadas plantillas, desplácese hasta la **tabla Plantillas ocultas.**
 
-1. Seleccione las plantillas que desea mostrar y, a continuación, seleccione **Mostrar.**
+1. Seleccione las plantillas que desea mostrar y, a continuación, **seleccione Mostrar.**
 
-   ![Las plantillas seleccionadas con ocultar resaltado](media/template-policies-3.png)
+   ![Las plantillas seleccionadas que no están ocultas](media/template-policies-3.png)
 
-   Las plantillas seleccionadas aparecerán en la **tabla de plantillas visualizables.**
+   Las plantillas seleccionadas aparecerán en la **tabla Plantillas visualizables.**
 3. Seleccione **Guardar**.
 
    La nueva directiva de plantilla se muestra en la **lista Directivas de** plantillas.
@@ -74,62 +72,62 @@ Los usuarios asignados a una directiva solo podrán ver las plantillas que se pu
 
 2. Escriba los usuarios que desea asignar a esta directiva.
 
-   ![Las plantillas seleccionadas con ocultar resaltado](media/template-policies-4.png)
+   ![asignar usuarios a una directiva de plantilla](media/template-policies-4.png)
 
-3. Seleccione **Aplicar.**
+3. Seleccione **Aplicar**.
 
 > [!Note]
 > La nueva directiva puede tardar hasta 24 horas en tener efecto para los usuarios finales.
 
-## <a name="size-limits-for-template-policies"></a>Límites de tamaño para las directivas de plantilla
+## <a name="size-limits-for-template-policies"></a>Límites de tamaño para directivas de plantilla
 
-Puede ocultar un máximo de 100 plantillas por directiva. El **botón** Ocultar está deshabilitado si la directiva determinada ya tiene ocultas 100 plantillas.
+Puede ocultar un máximo de 100 plantillas por directiva. El **botón** Ocultar está deshabilitado si la directiva dada ya tiene 100 plantillas ocultas.
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
 **P: ¿Puedo asignar usuarios por lotes a directivas de plantillas de equipo?**
   
-A: Sí, se admite la asignación por lotes para la directiva de plantillas en PowerShell. El tipo de directiva para esta acción es TeamsTemplatePermissionPolicy. [Aprende más](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+A: Sí, se admite la asignación por lotes para la directiva de plantilla en PowerShell. El tipo de directiva para esta acción es TeamsTemplatePermissionPolicy. [Aprende más](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
 
 **P: ¿Se pueden asignar grupos a directivas de plantillas de equipo?**
 
 A: Actualmente no. Esta funcionalidad estará disponible en el futuro.
 
-**P: Si se crea una plantilla, ¿la plantilla se incluirá en mis directivas?**
+**P: Si se crea una plantilla nueva, ¿se incluirá la plantilla en mis directivas?**
 
-A: Las nuevas plantillas estarán visibles de forma predeterminada. Puede elegir ocultar la plantilla en el centro de administración en la sección Directivas de plantillas.
+A: Las plantillas nuevas estarán visibles de forma predeterminada. Puede elegir ocultar la plantilla en el Centro de administración en la sección Directivas de plantillas.
 
-**P: ¿Qué ocurre si se elimina una plantilla?**
+**P: ¿Qué sucede si se elimina una plantilla?**
 
-A: Las plantillas eliminadas ya no estarán presentes en ninguna política de plantillas.
+A: Las plantillas eliminadas ya no estarán presentes en las directivas de plantillas.
 
 **P: ¿Puedo asignar varios usuarios a una directiva de plantilla en el Centro de administración de Teams?**
 
 A: Sí.
 
 1. En el Centro de administración, vaya a **Usuarios.**
-1. En la tabla Lista de usuarios, seleccione los usuarios que desea asignar a una directiva de plantillas determinada.
+1. En la tabla de lista Usuarios, seleccione los usuarios que desea asignar a una directiva de plantillas determinada.
 1. Seleccione Editar configuración y cambie el campo Directivas de plantillas.
 1. Seleccione Aplicar.
-   Más información [sobre cómo asignar directivas a los usuarios en Microsoft Teams: Microsoft Teams \| Microsoft Docs.](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users)
+   Más información [Asignar directivas a los usuarios en Microsoft Teams : Microsoft Teams Microsoft \| Docs.](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users)
 
 **P: ¿Cómo puedo ver todos los usuarios asignados a una directiva específica?**
 
 A: En el Centro de administración:
 
 1. Vaya a la **sección** Usuarios.
-2. Seleccione el filtro en la tabla Lista de usuarios y filtre para la directiva de plantilla de Teams.
-3. Seleccione **Aplicar.**
+2. Seleccione el filtro en la tabla de lista Usuarios y filtre para la directiva de plantilla de teams.
+3. Seleccione **Aplicar**.
 
-![Las plantillas seleccionadas con ocultar resaltado](media/template-policies-5.png)
+![Directiva de plantilla seleccionada y ver usuarios](media/template-policies-5.png)
 
 **P: ¿Puedo administrar directivas de plantillas a través de PowerShell?**
 
-A: No, esto no es compatible.
+A: No, no se admite la administración de plantillas en PowerShell.
 
-**P: ¿Las directivas de plantillas se aplican a EDU?**
+**P: ¿Son aplicables las directivas de plantillas a EDU?**
 
-A: No, esto no es compatible.
+A: No, no se admiten las directivas de plantilla para EDU.
 
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -137,10 +135,10 @@ A: No, esto no es compatible.
 
 - [Crear una plantilla de equipo personalizada](https://docs.microsoft.com/MicrosoftTeams/create-a-team-template)
 
-- [Crear una plantilla de un equipo existente](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-team)
+- [Crear una plantilla a partir de un equipo existente](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-team)
 
 - [Crear una plantilla de equipo a partir de una plantilla de equipo existente](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-template)
 
 - [Asignar directivas a los usuarios en Microsoft Teams: Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [Asignar usuarios a una directiva por lotes](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [Asignar usuarios por lotes a una directiva](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
