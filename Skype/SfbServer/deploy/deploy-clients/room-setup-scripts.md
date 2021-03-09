@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: Lea este tema para encontrar scripts de ejemplo para aprovisionar cuentas del Sistema de sala de Skype.
-ms.openlocfilehash: 0ea4466787099bfe24e6ddf53fac40073892aea8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Lea este tema para encontrar scripts de ejemplo para aprovisionar cuentas del sistema de salón de Skype.
+ms.openlocfilehash: 93a97b42f3b800011030787ea39cfb503767e42c
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820830"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569372"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="a5f6f-103">Scripts de configuración de sala del Sistema de sala de Skype</span><span class="sxs-lookup"><span data-stu-id="a5f6f-103">Skype Room System room setup scripts</span></span>
+# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="c7be6-103">Scripts de configuración de sala del Sistema de sala de Skype</span><span class="sxs-lookup"><span data-stu-id="c7be6-103">Skype Room System room setup scripts</span></span>
  
-<span data-ttu-id="a5f6f-104">Lea este tema para encontrar scripts de ejemplo para aprovisionar cuentas del Sistema de sala de Skype.</span><span class="sxs-lookup"><span data-stu-id="a5f6f-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
+<span data-ttu-id="c7be6-104">Lea este tema para encontrar scripts de ejemplo para aprovisionar cuentas del sistema de salón de Skype.</span><span class="sxs-lookup"><span data-stu-id="c7be6-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
   
-<span data-ttu-id="a5f6f-105">En esta sección se muestran scripts de ejemplo que se pueden usar para aprovisionar cuentas del Sistema de sala de Skype.</span><span class="sxs-lookup"><span data-stu-id="a5f6f-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="a5f6f-106">Estos scripts son solo para fines ilustrativos y deben usarse solo después de consultar con su experto en TI o administrador de dominio.</span><span class="sxs-lookup"><span data-stu-id="a5f6f-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
+<span data-ttu-id="c7be6-105">En esta sección se muestran scripts de ejemplo que se pueden usar para aprovisionar cuentas del sistema de salón de Skype.</span><span class="sxs-lookup"><span data-stu-id="c7be6-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="c7be6-106">Estos scripts solo son para fines ilustrativos.</span><span class="sxs-lookup"><span data-stu-id="c7be6-106">These scripts are only for illustrative purposes.</span></span> <span data-ttu-id="c7be6-107">Deben usarse solo después de consultar con su experto de TI o administrador de dominio.</span><span class="sxs-lookup"><span data-stu-id="c7be6-107">They should be used only after you consult with your IT expert or domain administrator.</span></span>
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="a5f6f-107">Script de instalación de ejemplo: Skype Empresarial y Exchange Server (local)</span><span class="sxs-lookup"><span data-stu-id="a5f6f-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="c7be6-108">Script de instalación de ejemplo: Skype Empresarial y Exchange Server (local)</span><span class="sxs-lookup"><span data-stu-id="c7be6-108">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
 
 ```powershell
 # On Exchange 
@@ -39,17 +39,17 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="a5f6f-108">Script de instalación de ejemplo: Skype Empresarial y Exchange Server Online</span><span class="sxs-lookup"><span data-stu-id="a5f6f-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="c7be6-109">Script de instalación de ejemplo: Skype Empresarial y Exchange Server Online</span><span class="sxs-lookup"><span data-stu-id="c7be6-109">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
 
-<span data-ttu-id="a5f6f-109">Asegúrese de haber revisado los siguientes requisitos previos antes de ejecutar el script:</span><span class="sxs-lookup"><span data-stu-id="a5f6f-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
+<span data-ttu-id="c7be6-110">Asegúrese de haber revisado los siguientes requisitos previos antes de ejecutar el script:</span><span class="sxs-lookup"><span data-stu-id="c7be6-110">Make sure you've reviewed the following prerequisites before running the script:</span></span>
   
-- <span data-ttu-id="a5f6f-110">Microsoft Online Services Sign-In asistente para profesionales de TI BETA</span><span class="sxs-lookup"><span data-stu-id="a5f6f-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
+- <span data-ttu-id="c7be6-111">Microsoft Online Services Sign-In asistente para profesionales de TI BETA</span><span class="sxs-lookup"><span data-stu-id="c7be6-111">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
     
-- <span data-ttu-id="a5f6f-111">Windows Azure módulo de Active Directory para Windows PowerShell (versión de 64 bits) o (versión de 32 bits)</span><span class="sxs-lookup"><span data-stu-id="a5f6f-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
+- <span data-ttu-id="c7be6-112">Windows Azure módulo de Active Directory para Windows PowerShell (versión de 64 bits) o (versión de 32 bits)</span><span class="sxs-lookup"><span data-stu-id="c7be6-112">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
     
-- <span data-ttu-id="a5f6f-112">Windows PowerShell módulo para Lync Online</span><span class="sxs-lookup"><span data-stu-id="a5f6f-112">Windows PowerShell Module for Lync Online</span></span>
+- <span data-ttu-id="c7be6-113">Módulo de PowerShell de Teams</span><span class="sxs-lookup"><span data-stu-id="c7be6-113">Teams PowerShell Module</span></span>
     
-- <span data-ttu-id="a5f6f-113">Reiniciar si es necesario</span><span class="sxs-lookup"><span data-stu-id="a5f6f-113">Reboot if needed</span></span>
+- <span data-ttu-id="c7be6-114">Reiniciar si es necesario</span><span class="sxs-lookup"><span data-stu-id="c7be6-114">Reboot if needed</span></span>
     
 ```powershell
 # Note you have to enter each command one at a time and update any bold fields for your environment
@@ -59,9 +59,9 @@ $rmURI="$rm@$org"$newpass='MyPass@word1'# This Section Signs into Remote PowerSh
 $cred=Get-Credential admin@$org
 $sess=New-PSSession -ConfigurationName microsoft.exchange -Credential $cred -AllowRedirection -Authentication basic -ConnectionUri https://ps.outlook.com/powershell
 Import-PSSession $sess
-Import-Module LyncOnlineConnector
-$cssess=New-CsOnlineSession -Credential $cred
-Import-PSSession $cssess -AllowClobber
+Import-Module MicrosoftTeams
+$credential = Get-Credential
+Connect-MicrosoftTeams -Credential $credential
 Connect-MsolService -Credential $cred# This Section Create the Calendar Mailbox and Enables it for Lync
 New-Mailbox -MicrosoftOnlineServicesID $rmURI -room -Name $rm -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
  -EnableRoomMailboxAccount $true
@@ -74,5 +74,4 @@ Get-CsOnlineUser -Identity 'admin@YourTenantName.onmicrosoft.com' | fl *registra
 Enable-CsMeetingRoom -Identity $rmURI -RegistrarPool "sippoolsn20a07.infra.lync.com" -SipAddressType EmailAddress
 # If the previous command fails with an error regarding the account name not being found you might need to wait and try again in a few minutes. If you wait too long, you'll need to sign in again to remote PowerShell as detailed above.
 ```
-
 
