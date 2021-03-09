@@ -18,15 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar plantillas de Teams en el Centro de administración
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bcb99538ebd129e02e511c8260dc3bfa101bff9d
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507973"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569016"
 ---
-# <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Crear y administrar plantillas de Teams en el Centro de administración
+# <a name="manage-team-templates-in-the-admin-center"></a>Administrar plantillas de equipo en el Centro de administración
 
 Administre las plantillas de Teams que ven los usuarios finales creando directivas de plantillas en el Centro de administración. Dentro de cada directiva de plantilla, puede designar qué plantillas se muestran u ocultan.
 Asigne diferentes usuarios a distintas directivas de plantilla para que los usuarios solo puedan ver el subconjunto de plantillas de Teams especificadas.
