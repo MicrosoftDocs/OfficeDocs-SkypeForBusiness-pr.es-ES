@@ -11,7 +11,7 @@ metadata:
   ms.date: 06/16/2020
   ms.openlocfilehash: 3a6ca55dfcc94f1370043e2fbb743b10473d106a
   ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: es-ES
   ms.lasthandoff: 03/05/2021
   ms.locfileid: "50508003"
@@ -20,7 +20,7 @@ highlightedContent:
   - title: Bienvenido a Microsoft Teams
     itemType: overview
     url: https://aka.ms/SayhelloTeams
-  - title: Aprendizaje a petición de los usuarios finales
+  - title: Formación bajo demanda del usuario final
     itemType: video
     url: https://aka.ms/TeamsOnDemand
   - title: Herramientas de adopción de Microsoft 365
@@ -30,31 +30,31 @@ productDirectory:
   items:
   - title: Introducción a Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: 'Desde chats y reuniones hasta equipos y canales, al final de esta sesión, los usuarios podrán usar Teams con confianza. (Audiencia: Todos)'
+    summary: 'Desde chats y reuniones hasta equipos y canales, al final de esta sesión, los usuarios podrán usar Teams con confianza. (Público: Todos)'
     url: https://aka.ms/GetstartedwithMSTeams
-  - title: Usar el chat y las llamadas en Teams
+  - title: Usar llamadas y chat en Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    summary: 'Obtenga información sobre cómo administrar todas las conversaciones desde una plataforma central. (Audiencia: Todos)'
+    summary: 'Obtener información sobre cómo administrar todas las conversaciones desde una plataforma central. (Público: Todos)'
     url: https://aka.ms/ChatCallingInTeams
   - title: Celebre reuniones efectivas con Teams.
     imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
-    summary: 'Obtenga información sobre cómo hacer que las reuniones sean más atractivas, productivas y significativas. (Audiencia: Todos)'
+    summary: 'Obtener información sobre cómo hacer que las reuniones resulten más interesantes, productivas y significativas. (Público: Todos)'
     url: https://aka.ms/RunmeetingsTeams
   - title: Explorar equipos y canales en Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
-    summary: 'Obtenga información acerca de cómo puede mejorar la colaboración en proyectos y grupos de trabajo. (Audiencia: Todos)'
+    summary: 'Obtenga información acerca de cómo puede mejorar la colaboración en proyectos y grupos de trabajo. (Público: Todos)'
     url: https://aka.ms/TeamsandchannelsinTeams
   - title: Crear áreas de trabajo de colaboración en Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
-    summary: 'Explore formas de determinar el mejor enfoque para crear áreas de trabajo para proyectos y grupos de trabajo. (Audiencia: Todos)'
+    summary: 'Explore formas de determinar el mejor enfoque para crear áreas de trabajo para proyectos y grupos de trabajo. (Público: Todos)'
     url: https://aka.ms/CollaborateInTeams
-  - title: Aprovechar sugerencias profesionales en Teams
+  - title: Usar consejos profesionales en Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
-    summary: 'Obtenga información sobre cómo Teams puede ayudar a organizar su día laboral y facilitar la conexión con sus compañeros. (Audiencia: Todos)'
+    summary: 'Obtenga información sobre cómo Teams puede ayudar a organizar su jornada y hacer que resulte más fácil estar conectado con los compañeros. (Público: Todos)'
     url: https://aka.ms/TeamsProTips
   - title: Domine el trabajo desde casa con Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: 'Aprenda los procedimientos recomendados para mantenerse conectado con su equipo y mantener la productividad. (Audiencia: Todos)'
+    summary: 'Obtenga más información sobre los procedimientos recomendados para permanecer conectado con su equipo y mantener la productividad. (Público: Todos)'
     url: https://aka.ms/WFHTeams
   - title: 'Teams para el ámbito educativo: seminarios web'
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
@@ -62,5 +62,5 @@ productDirectory:
     url: https://aka.ms/TeamsEduWebinars
   - title: Actualice los talleres que tenga planeados
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: 'Planee e implemente una actualización correcta a Teams. (Audiencia: profesionales de TI, administradores de cambios de adopción)'
+    summary: 'Planifique e implemente una actualización satisfactoria a Teams. (Público: profesionales de TI, administradores encargados de la adopción del cambio)'
     url: https://aka.ms/SkypetoTeamsPlanning
