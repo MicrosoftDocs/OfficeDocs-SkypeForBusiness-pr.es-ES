@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams instala un complemento en Outlook que permite a los usuarios programar reuniones de Microsoft Teams desde Outlook.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3635d56b510c0ece55a0fdb9408c72a697436841
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
-ms.translationtype: MT
+ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278560"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50614936"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -77,7 +77,7 @@ Consulte [Programar reuniones con el Buscador de disponibilidad](https://support
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticación
 
-El complemento para reunión de Microsoft Teams requiere que los usuarios inicien sesión en Microsoft Teams usando la autenticación moderna. Si los usuarios no usan este método para iniciar sesión, aún podrán usar el cliente de Teams, pero no podrán programar reuniones en línea de [Teams](https://www.microsoft.com/microsoft-teams/online-meetings) con el complemento de Outlook. Puede solucionar este inconveniente de una de las siguientes formas:
+El complemento para reunión de Microsoft Teams requiere que los usuarios inicien sesión en Microsoft Teams usando la autenticación moderna. Los usuarios podrán usar el cliente de Microsoft Teams aunque no usen este método para iniciar sesión, pero no podrán programar [reuniones en línea de Microsoft Teams](https://www.microsoft.com/microsoft-teams/online-meetings) con el complemento de Outlook. Puede solucionar este inconveniente de una de las siguientes formas:
 
 - Si la autenticación moderna no está configurada en su organización, configúrela.
 - Si la autenticación moderna está configurada, pero el usuario opta por no utilizarla en el cuadro de diálogo, pídale que vuelva a iniciar sesión usando la autenticación multifactor.

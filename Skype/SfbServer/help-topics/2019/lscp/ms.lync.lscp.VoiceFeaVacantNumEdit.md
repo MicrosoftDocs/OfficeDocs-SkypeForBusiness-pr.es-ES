@@ -1,5 +1,5 @@
 ---
-title: Número de teléfono sin signo Crear nuevo o editar existente
+title: Número de teléfono sinsignado Crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los números sin asignar son números de teléfono válidos para su organización pero que no se han asignado a un usuario o teléfono. La tabla de números sin asignar identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: a584812b32d99796259bde56838f0193c54b8fac
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9cef4ae8075bf4982ab9c3ddd857062d4fa1a824
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812100"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711737"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Número de teléfono sin asignar: Crear nuevos o editar los existentes
 
 > [!NOTE]
-> La mensajería unificada de Exchange permanece disponible en Skype Empresarial Server 2019 al integrar Skype Empresarial 2019 con Exchange 2013 o Exchange 2016. Debido a los cambios en el soporte técnico en Exchange 2019, la integración de mensajería unificada de Exchange se está haciendo menos importante a favor del correo de voz en la nube y las características de Operador automático nube.
+> La mensajería unificada de Exchange permanece disponible en Skype Empresarial Server 2019 al integrar Skype Empresarial 2019 con Exchange 2013 o Exchange 2016. Debido a los cambios en la compatibilidad con Exchange 2019, la integración de mensajería unificada de Exchange se está desmarcando a favor del correo de voz en la nube y las características Operador automático nube.
 
 Los números sin asignar son números de teléfono válidos para su organización pero que no se han asignado a un usuario o teléfono. La tabla de números sin asignar identifica cómo desea que se traten las llamadas a números sin asignar.
 
@@ -44,20 +44,20 @@ En la siguiente lista se describen los campos de la página.
 
   - Si el número inicial o final del intervalo incluye un número de extensión, ambos números del intervalo deben incluir la extensión y el número de extensión debe ser igual al número inicial y final del intervalo.
 
-  - ¿El número debe coincidir con la expresión regular (tel:)?( \+ )? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Esto significa que el número puede comenzar con la cadena tel: (si no especifica esa cadena, se agregará automáticamente), un signo más (+) y un dígito del 1 al 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ";ext=número de extensión".
+  - El número debe coincidir con la expresión regular ( `tel:` )?( \+ )? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Esto significa que el número puede comenzar con la cadena 'tel:'. Si no especifica esa cadena, se agregará automáticamente, como un signo más (+) y un dígito del 1 al 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ";ext=número de extensión".
 
-- **Servicio de anuncio** Seleccione **Anuncio** para que la aplicación Anuncio controle la llamada entrante o la mensajería unificada de **Exchange** para que una mensajería unificada de Exchange Operador automático la llamada entrante.
+- **Servicio de anuncios** Seleccione **Anuncio** para que la aplicación Anuncio controle la llamada entrante o la mensajería unificada de **Exchange** para que una mensajería unificada de Exchange Operador automático la llamada entrante.
 
 - Si ha seleccionado **Anuncio** para el servicio **Anuncio**:
 
-  - **FQDN del servidor de destino** Seleccione el id. de servicio del servicio de aplicación que ejecuta la aplicación Anuncio que controlará las llamadas entrantes a este intervalo de números sin signo.
+  - **FQDN del servidor de destino** Seleccione el identificador de servicio del servicio de aplicación que ejecuta la aplicación Anuncio que controlará las llamadas entrantes a este rango de números sinsignación.
 
-  - **Anuncio** Seleccione el anuncio que se reproducirá para este intervalo de números sin signo.
+  - **Anuncio** Seleccione el anuncio que se va a reproducir para este intervalo de números sin signo.
 
 - Si ha seleccionado **Mensajería unificada de Exchange** para el servicio **Anuncio**:
 
   - **Operador automático de teléfono** Seleccione el número de teléfono para la mensajería unificada de Exchange Operador automático.
 
-Para obtener más información sobre las características y capacidades de anuncio, consulte [Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación sobre planeación. Para obtener más detalles sobre cómo trabajar con rangos de números sin asignar, vea [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación de operaciones.
+Para obtener más información sobre las características y capacidades del anuncio, vea [Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación sobre planeación. Para obtener más detalles sobre cómo trabajar con rangos de números sin asignar, vea [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación de operaciones.
 
 

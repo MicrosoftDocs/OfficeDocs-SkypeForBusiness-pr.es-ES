@@ -1,5 +1,5 @@
 ---
-title: Número de teléfono sin signo Crear nuevo o editar existente
+title: Número de teléfono sinsignado Crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: Los números sin asignar son números de teléfono válidos para su organización pero que no se han asignado a un usuario o teléfono. La tabla de números sin asignar identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: 741068fc16c60e6cd253057a8b1487680dc32266
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 51c3f640bd9d98bcda9d5dd69406461e9c8393fd
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818800"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711747"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Número de teléfono sin asignar: Crear nuevos o editar los existentes
 
@@ -41,20 +41,20 @@ En la siguiente lista se describen los campos de la página.
 
   - Si el número inicial o final del intervalo incluye un número de extensión, ambos números del intervalo deben incluir la extensión y el número de extensión debe ser igual al número inicial y final del intervalo.
 
-  - ¿El número debe coincidir con la expresión regular (tel:)?( \+ )? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Esto significa que el número puede comenzar con la cadena tel: (si no especifica esa cadena, se agregará automáticamente), un signo más (+) y un dígito del 1 al 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ";ext=número de extensión".
+  - El número debe coincidir con la expresión regular `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` . Esto significa que el número puede comenzar por la cadena (si no especifica la cadena que se agregará automáticamente), un signo más (+) y un dígito del 1 al `tel:` 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ";ext=número de extensión".
 
-- **Servicio de anuncio** Seleccione **Anuncio** para que la aplicación Anuncio controle la llamada entrante o la mensajería unificada de **Exchange** para que una mensajería unificada de Exchange Operador automático la llamada entrante.
+- **Servicio de anuncios** Seleccione **Anuncio** para que la aplicación Anuncio controle la llamada entrante o la mensajería unificada de **Exchange** para que una mensajería unificada de Exchange Operador automático la llamada entrante.
 
 - Si ha seleccionado **Anuncio** para el servicio **Anuncio**:
 
-  - **FQDN del servidor de destino** Seleccione el id. de servicio del servicio de aplicación que ejecuta la aplicación Anuncio que controlará las llamadas entrantes a este intervalo de números sin signo.
+  - **FQDN del servidor de destino** Seleccione el identificador de servicio del servicio de aplicación que ejecuta la aplicación Anuncio que controlará las llamadas entrantes a este rango de números sinsignación.
 
-  - **Anuncio** Seleccione el anuncio que se reproducirá para este intervalo de números sin signo.
+  - **Anuncio** Seleccione el anuncio que se va a reproducir para este intervalo de números sin signo.
 
 - Si ha seleccionado **Mensajería unificada de Exchange** para el servicio **Anuncio**:
 
   - **Operador automático de teléfono** Seleccione el número de teléfono para la mensajería unificada de Exchange Operador automático.
 
-Para obtener más información sobre las características y capacidades de anuncio, consulte [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación sobre planeación. Para obtener más detalles sobre cómo trabajar con rangos de números sin asignar, vea [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación de operaciones.
+Para obtener más información sobre las características y capacidades del anuncio, vea [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación sobre planeación. Para obtener más detalles sobre cómo trabajar con rangos de números sin asignar, vea [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación de operaciones.
 
 

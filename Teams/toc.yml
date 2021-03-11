@@ -501,6 +501,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Plantillas de Teams de la categoría de fabricación
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: Administrar directivas de plantillas de Teams
+            href: templates-policies.md
       - name: Comunicación con usuarios externos
         items:
           - name: Comunicación con usuarios de otras organizaciones
@@ -547,6 +549,12 @@ items:
         items:
           - name: Información general
             href: rooms/index.md
+          - name: Servicio administrado de Salas de Microsoft Teams
+            items:
+              - name: Planeación de la administración
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: Control de acceso basado en roles
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: Plan
             items:
               - name: Información general sobre la planeación de Salas de Microsoft Teams
@@ -565,12 +573,6 @@ items:
                 href: rooms/rooms-licensing.md
               - name: Administración del plan con Azure Monitor
                 href: rooms/azure-monitor-plan.md
-              - name: Servicio de administración de Salas de Microsoft Teams
-                items:
-                  - name: Administración de planes con el servicio administrado de Salas de Microsoft Teams
-                    href: rooms/microsoft-teams-rooms-premium.md
-                  - name: Control de acceso basado en roles con el servicio de administración de Salas de Microsoft Teams
-                    href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: Implementar
             items:
               - name: Información general sobre la implementación
@@ -1328,6 +1330,8 @@ items:
             href: manage-lists-app.md
           - name: Administrar la aplicación Tasks para su organización
             href: manage-tasks-app.md
+          - name: Administrar la aplicación Aprobaciones
+            href: approval-admin.md
           - name: Turnos para Teams
             items:
               - name: Turnos para Teams
@@ -1499,7 +1503,7 @@ items:
             href: devices/collab-bar-deploy.md
           - name: Soluciones y dispositivos de salas de reuniones
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Teléfonos IP certificados para Microsoft Teams
+          - name: Dispositivos certificados por Teams
             href: devices/teams-ip-phones.md
           - name: Teléfonos para Skype Empresarial Online
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json

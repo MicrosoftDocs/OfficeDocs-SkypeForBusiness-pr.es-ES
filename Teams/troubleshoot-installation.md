@@ -18,7 +18,7 @@ search.appverid: MET150
 description: Obtenga información sobre cómo solucionar problemas de instalación y actualización de la aplicación cliente de escritorio de Teams en Windows.
 ms.openlocfilehash: 4183a04458147e63f8168f703bf16682b3bea9e0
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804560"

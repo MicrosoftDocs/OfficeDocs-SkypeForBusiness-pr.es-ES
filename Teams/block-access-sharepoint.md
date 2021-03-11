@@ -18,16 +18,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga más información sobre cómo bloquear el acceso a SharePoint para determinados usuarios
-ms.openlocfilehash: edcdb8286ff69557215a0e481b12e67b81f440fe
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: e3cda9d6443c41abc7dfa736be03555690a3b0f1
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203843"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50615086"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>Bloquear el acceso a SharePoint para determinados usuarios
 
-Aplicar cualquier directiva de acceso condicional (CA) en SharePoint en Microsoft 365 también se aplica a Teams. Sin embargo, algunas organizaciones desean bloquear el acceso a los archivos de SharePoint (cargar, descargar, ver, editar, crear), pero permiten a sus empleados utilizar los clientes de escritorio, móviles y web de Teams en dispositivos no administrados. Bajo las reglas de la directiva de la CA, bloquear a Sharepoint implicaría bloquear también a Teams. Este artículo explica cómo puede solucionar esta limitación y permitir que sus empleados sigan utilizando Teams mientras bloquean completamente el acceso a los archivos almacenados en SharePoint.
+Aplicar cualquier directiva de acceso condicional (CA) en SharePoint en Microsoft 365 también se aplica a Teams. Sin embargo, algunas organizaciones desean bloquear el acceso a los archivos de SharePoint (cargar, descargar, ver, editar, crear), pero permiten a sus empleados utilizar los clientes de escritorio, móviles y web de Teams en dispositivos no administrados. Bajo las reglas de la directiva de la CA, bloquear a SharePoint implicaría bloquear también a Teams. Este artículo explica cómo puede solucionar esta limitación y permitir que sus empleados sigan utilizando Teams mientras bloquean completamente el acceso a los archivos almacenados en SharePoint.
 
 > [!Note]
 > Bloquear o limitar el acceso a dispositivos no administrados se basa en directivas de acceso condicional de Azure AD. Obtenga información acerca de la [licencia Azure AD](https://azure.microsoft.com/pricing/details/active-directory/). Para una visión general del acceso condicional en Azure AD, vea [Acceso condicional en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Para obtener información sobre las directivas de acceso de SharePoint Online recomendadas, vea [recomendaciones de directiva para proteger los archivos y los sitios de SharePoint](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies). Si limita el acceso a dispositivos no administrados, los usuarios de los dispositivos administrados deben usar uno de las [combinaciones compatibles de SO y navegadores](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition) o bien también tendrán acceso limitado.
@@ -56,7 +56,7 @@ Cuando se bloquea el acceso, los usuarios verán un mensaje de error. Bloquear e
 
 5. Actualizar la directiva para que se destine unicamente a usuarios específicos o a un grupo.
 
-    ![el centro de administración de Sharepoint con la sección de selección de usuario resaltada.](media/no-sharepoint-access2b.png)
+    ![el centro de administración de SharePoint con la sección de selección de usuario resaltada.](media/no-sharepoint-access2b.png)
 
   > [!Note]
 > Establecer esta directiva cortará su acceso al portal de administración de SharePoint. Recomendamos que configure la directiva de exclusión y seleccione los administradores globales y de SharePoint.

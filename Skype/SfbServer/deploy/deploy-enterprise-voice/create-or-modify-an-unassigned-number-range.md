@@ -15,33 +15,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-description: Crear, modificar o eliminar intervalos de números sin signo para la aplicación Anuncio en Skype Empresarial Server Telefonía IP empresarial. Esto afecta a la forma en que se controlan las llamadas a números sin signo.
-ms.openlocfilehash: 180db35a5ea7c2c55dcdbbdcb3be70f868149d88
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Cree, modifique o elimine intervalos de números sin signo para la aplicación Announcement en Skype Empresarial Server Telefonía IP empresarial. Esto afecta al modo en que se controlan las llamadas a números sin signo.
+ms.openlocfilehash: 19a30aa4063f8ec0f4e890c4e244309347ed99c6
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837090"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711637"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Crear o modificar un intervalo de números sin signo en Skype Empresarial Server
  
-Crear, modificar o eliminar intervalos de números sin signo para la aplicación Anuncio en Skype Empresarial Server Telefonía IP empresarial. Esto afecta a la forma en que se controlan las llamadas a números sin signo.
+Cree, modifique o elimine intervalos de números sin signo para la aplicación Announcement en Skype Empresarial Server Telefonía IP empresarial. Esto afecta al modo en que se controlan las llamadas a números sin signo.
   
-Skype Empresarial Server le permite decir qué sucede con las llamadas entrantes a números de teléfono válidos para su organización, pero que no están asignados a un usuario o a un teléfono. Para controlar este tipo de llamadas, configure una tabla de números sin signo. Puede usar la tabla para enrutar las llamadas a una aplicación de anuncio o a un servidor de mensajería unificada de Exchange.
+Skype Empresarial Server permite decir lo que sucede con las llamadas entrantes a números de teléfono que son válidos para su organización, pero que no están asignados a un usuario o un teléfono. Para controlar estas llamadas, configure una tabla de números sinsignar. Puede usar la tabla para enrutar las llamadas a una aplicación de anuncio o a un servidor de mensajería unificada de Exchange.
   
 La forma en que configure la tabla de números sin asignar depende de cómo desee usarla. Puede configurar la tabla con todas las extensiones válidas para la organización, con únicamente extensiones sin asignar o bien con una combinación de ambos tipos de números. La tabla de números sin asignar puede incluir tanto números asignados como sin asignar, pero solamente se invoca cuando un autor de llamadas marca un número que no está asignado en esos momentos. Si incluye todas las extensiones válidas en la tabla de números sin asignar, puede especificar la acción que va a tener lugar siempre que alguien abandone la organización, sin necesidad de volver a configurar la tabla. Si incluye extensiones sin asignar en la tabla, puede personalizar la acción que va a tener lugar respecto a números específicos. Por ejemplo, si cambia la extensión del departamento de soporte interno, puede incluir el número antiguo de este departamento en la tabla y asignarlo a un anuncio que comunique el número nuevo.
   
-## <a name="configure-unassigned-phone-numbers"></a>Configurar números de teléfono sin signo
+## <a name="configure-unassigned-phone-numbers"></a>Configurar números de teléfono sinsignación
 
 Use uno de los siguientes procedimientos para configurar intervalos de números sin signo para la aplicación Anuncio.
   
 > [!IMPORTANT]
-> Antes de configurar la tabla de números sin signo, el sistema ya debe tener anuncios definidos o una configuración de mensajería unificada de Exchange Operador automático. 
+> Antes de configurar la tabla de números sinsignar, el sistema ya debe tener los anuncios definidos o una mensajería unificada de Exchange (MU) Operador automático configurar. 
   
 > [!TIP]
-> Cuando alguien llama a un número sin signo, Skype Empresarial Server busca en la tabla de números sin signo de arriba abajo y usa el primer intervalo correspondiente. Por tanto, si quiere que una determinada acción se realice como último recurso, deberá especificarla para el último intervalo en la tabla. 
+> Cuando alguien llama a un número sinsignar, Skype Empresarial Server busca la tabla de números sinsignar de arriba a abajo y usa el primer intervalo de coincidencias. Por tanto, si quiere que una determinada acción se realice como último recurso, deberá especificarla para el último intervalo en la tabla. 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Para usar el Panel de control de Skype Empresarial Server para configurar números de teléfono sin signo
+### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Para usar el Panel de control de Skype Empresarial Server para configurar números de teléfono sinsignación
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o como miembro del rol CsVoiceAdministrator, CsServerAdministrator, o CsAdministrator. Para obtener información detallada, consulte **Delegación de permisos de instalación**.
     
@@ -64,7 +64,7 @@ Use uno de los siguientes procedimientos para configurar intervalos de números 
     
    - Si el número inicial o final del intervalo incluye un número de extensión, ambos números del intervalo deben incluir la extensión y el número de extensión debe ser igual al número inicial y final del intervalo.
     
-   - ¿El número debe coincidir con la expresión regular (tel:)?( \+ )? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Esto significa que el número puede comenzar con la cadena tel: (si no especifica esa cadena, se agregará automáticamente), un signo más (+) y un dígito del 1 al 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ";ext=número de extensión".
+   - El número debe coincidir con la expresión regular `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` . Esto significa que el número puede comenzar por la cadena (si no especifica esa cadena, se agregará automáticamente), un signo más (+) y un dígito del 1 al `tel:` 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ";ext=número de extensión".
     
 6. En **Servicio de anuncio**, lleve a cabo uno de los siguientes procedimientos: 
     
@@ -85,15 +85,15 @@ Use uno de los siguientes procedimientos para configurar intervalos de números 
 10. En la página **Número sin asignar**, asegúrese de que los intervalos de números sin asignar se disponen según el orden que desee. Para cambiar la posición de un intervalo en la tabla, haga clic en uno o más nombres consecutivos en la lista de intervalos y, a continuación, haga clic en la flecha arriba o abajo.
     
     > [!TIP]
-    > Skype Empresarial Server busca en la tabla de números sin signo de arriba abajo y usa el primer intervalo que coincide con el número sin signo. Si tiene intervalos superpuestos y un intervalo especifica una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista. 
+    > Skype Empresarial Server busca en la tabla de números sinsignación de arriba a abajo y usa el primer intervalo que coincide con el número sin signo. Si tiene intervalos superpuestos y un intervalo especifica una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista. 
   
 11. Cuando haya ordenado el intervalo de números sin asignar según su conveniencia, haga clic en **Confirmar todo**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>Para usar el Shell de administración de Skype Empresarial Server para configurar números de teléfono sin signo
+### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>Para usar el Shell de administración de Skype Empresarial Server para configurar números de teléfono sinsignación
 
-1. Inicie sesión en el equipo donde está instalado el Shell de administración de Skype Empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en Permisos de configuración **delegados.**
+1. Inicie sesión en el equipo donde skype empresarial Server Management Shell está instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegate Setup Permissions**.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
     
 3. Use **New-CsUnassignedNumber** para crear un nuevo intervalo de números no asignados. Use **Set-CsUnassignedNumber** para modificar un intervalo de números no asignados existente.
     
@@ -150,9 +150,9 @@ Use uno de los siguientes procedimientos para configurar intervalos de números 
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>Para usar el Shell de administración de Skype Empresarial Server para eliminar un intervalo de números sin signo
 
-1. Inicie sesión en el equipo donde está instalado el Shell de administración de Skype Empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en Permisos de configuración **delegados.**
+1. Inicie sesión en el equipo donde skype empresarial Server Management Shell está instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegate Setup Permissions**.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
     
 3. En la línea de comandos, escriba lo siguiente:
     
@@ -167,7 +167,7 @@ Use uno de los siguientes procedimientos para configurar intervalos de números 
    ```
 
     > [!NOTE]
-    > Para obtener más información sobre las opciones, [vea Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
+    > Para obtener más información sobre más opciones, [vea Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
   
 ## <a name="see-also"></a>Vea también
 

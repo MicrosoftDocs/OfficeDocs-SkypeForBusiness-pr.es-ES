@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6183471d8266ff004e1028ec3102e21f73fff77
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909124"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711647"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en Microsoft Teams
 ==========================
@@ -161,7 +161,7 @@ La experiencia de inicio de sesión tiene un aspecto similar al de la experienci
 Teams requiere conectividad a Internet. Para comprender los puntos de conexión que deben ser accesibles para los clientes que usan Teams en los planes de Office 365, gobierno y otras nubes, consulte [Intervalos de la dirección IP y URL de Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!IMPORTANT]
-> En la actualidad, Teams necesita acceso (puerto TCP 443) al servicio de Google ssl.gstatic.com (<https://ssl.gstatic.com)> para todos los usuarios, esto sucede aunque no esté usando Gstatic. Teams quitará este requisito pronto (principios de 2020), y actualizaremos este artículo en consecuencia en ese momento.
+> En la actualidad, Teams necesita acceso (puerto TCP 443) al servicio de Google ssl.gstatic.com para todos los usuarios, esto sucede aunque no esté usando Gstatic. Teams quitará este requisito pronto (principios de 2020), y actualizaremos este artículo en consecuencia en ese momento.
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: d3301c8232fda2133e77f973ca0efbc13cfa571d
-ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
-ms.translationtype: MT
+ms.openlocfilehash: a0c0e40be84a1b947b5924f97c0c64556a92e249
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49903571"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711767"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
@@ -39,9 +39,9 @@ Con la unión anónima, cualquiera puede unirse a la reunión como usuario anón
 
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
-Debe ser administrador del servicio de Teams para realizar estos cambios. Consulte [Usar los roles de administrador de Teams para administrar Teams y](https://docs.microsoft.com/microsoftteams/using-admin-roles) obtener información sobre cómo obtener permisos y roles de administrador.
+Debe ser administrador de servicio de Teams para poder realizar estos cambios. Consulte [Usar los roles de administrador de Teams para administrar Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) para obtener información sobre cómo obtener roles de administrador y permisos.
 
-1. Vaya al centro de administración.
+1. Vaya al Centro de administración.
 
 2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
 
@@ -52,25 +52,25 @@ Debe ser administrador del servicio de Teams para realizar estos cambios. Consul
 > [!CAUTION]
 > Si no desea que los usuarios anónimos se unan a las reuniones programadas por los usuarios de su organización, desactive esta opción.
 
-## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Permitir que usuarios anónimos interactúen con aplicaciones en reuniones
+## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Permitir que los usuarios anónimos interactúen con las aplicaciones en las reuniones
 
-Ahora, los usuarios anónimos heredarán la directiva de permisos predeterminada global a nivel de usuario. Este control permitirá a los usuarios anónimos interactuar con aplicaciones en reuniones de Teams siempre que la directiva de permisos a nivel de usuario haya habilitado la aplicación. Tenga en cuenta que los usuarios anónimos solo pueden interactuar con aplicaciones que ya están disponibles en una reunión y que no pueden adquirir ni administrar estas aplicaciones. 
+Los usuarios anónimos ahora heredarán la directiva de permisos globales predeterminados del nivel de usuario. Este control permite a los usuarios anónimos interactuar con las aplicaciones en las reuniones de Teams siempre que la directiva de permisos del nivel de usuario haya habilitado la aplicación. Tenga en cuenta que los usuarios anónimos solo podrán interactuar con las aplicaciones que ya estén disponibles en una reunión y no podrán adquirir o administrar dichas aplicaciones. 
 
 > [!IMPORTANT]
-> De forma predeterminada, la configuración para permitir que los usuarios anónimos interactúen con las aplicaciones en reuniones está habilitada.
+> De forma predeterminada, la configuración para permitir que los usuarios anónimos interactúen con las aplicaciones en las reuniones está habilitada.
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
 
-Debe ser administrador del servicio de Teams para tener acceso a esta configuración. Consulte [Usar los roles de administrador de Teams para administrar Teams y](https://docs.microsoft.com/microsoftteams/using-admin-roles) obtener información sobre cómo obtener permisos y roles de administrador.
+Debe ser un administrador de servicio de Teams para tener acceso a esta configuración. Consulte [Usar los roles de administrador de Teams para administrar Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) para obtener información sobre cómo obtener roles de administrador y permisos.
 
-1. Vaya al centro de administración.
+1. Vaya al Centro de administración.
 
-2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
+2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de la reunión**.
 
-3. En **Participantes,** se puede cambiar la configuración **para que los usuarios anónimos** puedan interactuar con aplicaciones en reuniones.
+3. En **Participantes**, el ajuste de **Los usuarios anónimos pueden interactuar con las aplicaciones en las reuniones** se puede cambiar.
 
 > [!CAUTION]
-> Si no desea que usuarios anónimos interactúen con aplicaciones en reuniones programadas por los usuarios de su organización, desactive esta configuración.
+> Si no desea que usuarios anónimos se unan a las reuniones programadas por los usuarios en su organización, desactive esta opción.
 
 ## <a name="customize-meeting-invitations"></a>Personalice las invitaciones a reuniones
 
@@ -88,7 +88,7 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
 
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
-1. Vaya al centro de administración.
+1. Vaya al Centro de administración.
 2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
 3. En **Invitación por correo electrónico**, haga lo siguiente:
 
@@ -106,13 +106,13 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
 
 <a name="bknetwork"> </a>
 
-Si usa Calidad de servicio (QoS) para priorizar el tráfico de red, puede habilitar los marcadores de QoS y establecer intervalos de puertos para cada tipo de tráfico multimedia. Establecer los intervalos de puertos para los diferentes tipos de tráfico es sólo un paso en el manejo de los medios en tiempo real; consulte [Calidad de Servicio (QoS) en Teams](qos-in-teams.md) para más detalles.
+Si utiliza la Calidad de servicio (QoS) para priorizar el tráfico de la red, puede habilitar los marcadores QoS y establecer intervalos de puertos para cada tipo de tráfico de medios. Establecer los intervalos de puertos para los diferentes tipos de tráfico es sólo un paso en el manejo de los medios en tiempo real; consulte [Calidad de Servicio (QoS) en Teams](qos-in-teams.md) para más detalles.
 
 > [!IMPORTANT]
-> Si habilita QoS o cambia la configuración en el centro de administración [](QoS-in-Teams-clients.md) de Microsoft Teams para el servicio Teams, también deberá aplicar la configuración de coincidencia a todos los dispositivos de usuario y a todos los dispositivos de la red interna para implementar completamente los cambios en QoS en Teams.
+> Si habilita la QoS o cambia la configuración en el Centro de administración de Microsoft Teams para el servicio de Teams, también deberá [aplicar la configuración correspondiente a todos los dispositivos de usuario](QoS-in-Teams-clients.md) y a todos los dispositivos de la red interna para implementar completamente los cambios en la QoS en Teams.
 
- ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
-1. Vaya al centro de administración.
+ ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+1. Vaya al Centro de administración.
 2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
 3. En **Red**, haga lo siguiente:
 
@@ -120,10 +120,10 @@ Si usa Calidad de servicio (QoS) para priorizar el tráfico de red, puede habili
 
     - Para permitir que las marcas de DSCP se utilicen para QoS, Active **Insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Sólo tienes la opción de usar marcadores o no; no puedes establecer marcadores personalizados para cada tipo de tráfico. Consulte [Seleccionar un método de implementación de QoS ](QoS-in-Teams.md#select-a-qos-implementation-method) para más información sobre los marcadores DSCP.
         > [!NOTE]
-        > El etiquetado de DSCP normalmente se realiza a través de puertos de origen y el tráfico UDP se enruta a retransmisión de transporte con el puerto de destino 3478 de forma predeterminada. Si su empresa requiere etiquetado en puertos de destino, póngase en contacto con el soporte técnico para habilitar la comunicación con la retransmisión de transporte con los puertos UDP 3479 (Audio), 3480 (vídeo) y 3481 (uso compartido).
+        > El etiquetado DSCP normalmente se realiza a través de los puertos de origen y el tráfico UDP se redirigirá a retransmisión de transporte con el puerto de destino 3478 como valor predeterminado. Si su empresa necesita etiquetado en los puertos de destino, contacte al servicio de soporte técnico para habilitar la comunicación a la retransmisión de transporte con los puertos UDP 3479 (Audio), 3480 (Vídeo) y 3481 (Uso compartido).
     - Para especificar los intervalos de los puertos, junto a **Seleccione un rango de puertos para cada tipo de tráfico de medios en tiempo real**, seleccione **Especificar rangos de puertos** y luego, introducir los puertos inicial y final para compartir audio, video y pantalla. La selección de esta opción es necesaria para implementar la QoS. 
         > [!Note]
-        > Si los marcadores de Calidad de servicio **(QoS)** para el tráfico multimedia en tiempo real están activas, tendrá que administrar la configuración de puertos. No se administran automáticamente.
+        > Si la opción **Marcadores de Calidad del servicio (QoS) para tráfico multimedia en tiempo real** está activada, deberá administrar la configuración del puerto. No se puede administrar automáticamente.
         
         > [!IMPORTANT]
         > Si usted selecciona **Utilizar automáticamente cualquier puerto disponible**, se utilizan los puertos disponibles entre 1024 y 65535. Use esta opción sólo cuando no implemente la QoS.
@@ -132,7 +132,7 @@ Si usa Calidad de servicio (QoS) para priorizar el tráfico de red, puede habili
 
 Si no está seguro de los rangos de puertos a utilizar en su entorno, los siguientes ajustes son un buen punto de partida. Para obtener más información, consulte[Implementar la Calidad de servicio (QoS) en Microsoft Teams](QoS-in-Teams.md). Estas son las marcas DSCP requeridas y los rangos de puertos de medios correspondientes sugeridos utilizados tanto por Teams como por ExpressRoute.
 
-### <a name="port-ranges-and-dscp-markings"></a>Intervalos de puertos y marcas DSCP
+### <a name="port-ranges-and-dscp-markings"></a>Intervalos de puertos y marcas de DSCP
 
 Tipo de tráfico de medios | Rango de puertos de origen del cliente \* |Protocolo|Valor de DSCP|Clase DSCP|
 |:---             |:---                         |:---    |:---      |:---      |
@@ -141,6 +141,6 @@ Tipo de tráfico de medios | Rango de puertos de origen del cliente \* |Protocol
 |Aplicación/Compartir pantalla| 50 040 – 50 059      |TCP/UDP |18        |Desvío garantizado (AF21)|
 | | | | |
 
-\* Los intervalos de puertos asignados no se pueden superponer y deben ser adyacentes.
+\* Los rangos del puerto asignados no deben superponerse y deben ser adyacentes entre sí.
 
 Después de que la QoS se haya utilizado durante un tiempo, tendrá información de uso sobre la demanda de cada una de estas tres cargas de trabajo, y podrá elegir qué cambios realizar en función de sus necesidades específicas. [Panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md)será de gran ayuda con eso.

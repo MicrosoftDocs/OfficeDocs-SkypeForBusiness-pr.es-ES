@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre los requisitos para admitir salas de Microsoft Teams, como elegir el dispositivo, los micrófonos, los altavoces, las cámaras y las pantallas adecuados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b4966111c8d8729ad429f7b0fdd850b32155024
-ms.sourcegitcommit: 49674c122d69b5495afeb2833ecf498acf129746
+ms.openlocfilehash: e62aaa41b81550619ed670159cd071bc22e01cda
+ms.sourcegitcommit: 0a7c1f52484452f66f678b0feca1455bade4fcf3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50402856"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50716905"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -130,6 +130,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Polycom Eagle Eye Director II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
 |[Polycom Studio Soundbar](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
+|[Poly Sync 40](https://www.poly.com/us/en/products/phones/sync/sync-40)|0.0.94.1461|
 |[Polycom Trio 8500 / 8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
 |[Poly Trio C60](https://www.poly.com/us/en/products/phones/trio/trio-c60)  |5.9.5.3066|
 |[EPS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |

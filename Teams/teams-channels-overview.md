@@ -24,7 +24,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
 ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/14/2021
 ms.locfileid: "49865174"
@@ -99,7 +99,7 @@ Microsoft Teams es perfecta para eliminar la idea de los silos de la organizaci�
 |Relaciones públicas     |Comunicados de prensa<br></br>Noticias y actualizaciones<br></br>Verificación de datos         |fuente RSS<br></br>Twitter         |
 |Planificación de eventos     |Marketing<br></br>Logística y planificación<br></br>Lugar<br></br>Budget         |Twitter<br></br>Facebook<br></br>Planner<br></br>PDF         |
 |Marketing/Comercialización   |Estudio de mercado<br></br>Pilares de mensajes<br></br>Plan de comunicaciones<br></br>Lista de materiales de marketing        |YouTube<br></br>Microsoft Stream<br></br>Twitter<br></br>MailChimp         |
-|Operaciones técnicas    |Administración de incidentes<br></br>Planificación de Sprint<br></br>Elementos de trabajo<br></br>Infraestructura y operaciones         |Servicios de equipo<br></br>Jira<br></br>AzureBot         |
+|Operaciones técnicas    |Administración de incidentes<br></br>Planificación de Sprint<br></br>Elementos de trabajo<br></br>Infraestructura y operaciones         |Servicios de equipos<br></br>Jira<br></br>AzureBot         |
 |Equipo de producto      |Estrategia<br></br>Marketing<br></br>Ventas<br></br>Operations<br></br>Información<br></br>Servicios y soporte técnico         |Power BI<br></br>Servicios de equipos         |
 |Finanzas    |Fiscal actual<br></br>Planificación del año fiscal<br></br>Previsión<br></br>Cuentas por cobrar<br></br>Cuentas por pagar         |Power BI<br></br>Google Analytics         |
 |Logística     |Operaciones de almacenes<br></br>Mantenimiento de vehículos<br></br>Listas de conductores         |Servicio meteorológico<br></br>Cortes en carreteras y viajes<br></br>Planner<br></br>Tubot<br></br>UPS Bot         |
