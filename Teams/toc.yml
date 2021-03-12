@@ -765,6 +765,8 @@ items:
             href: teams-live-events/set-teams-live-events-policies-using-powershell.md
           - name: Establecer la configuración de eventos en directo en Microsoft Teams
             href: teams-live-events/configure-teams-live-events.md
+          - name: Directivas de grabación de eventos en directo
+            href: teams-live-events/live-events-recording-policies.md
   - name: 'Voz: Sistema telefónico de telefonía y conectividad RTC'
     items:
       - name: Planear la solución de voz de Teams
