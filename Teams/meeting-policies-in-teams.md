@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams. Use la configuración de directiva para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 2b148cc619da43e4033a8c503470da3e765b7d5c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 77c99516e188ecc0f42fd663a121d439b5470000
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460620"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726436"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -189,12 +189,11 @@ Esta es una directiva por usuario y se aplica antes de que se inicie la reunión
 
 ### <a name="allow-transcription"></a>Permitir transcripción
 
-Permitir transcripción es una directiva por usuario. Esta configuración controla si las reuniones de este usuario se pueden transcribir.
+Esta directiva activa la transcripción en directo. Permitir transcripción es una directiva por usuario. Esta configuración controla si se puede transcribir la reunión de este equipo específico.
 
-:::image type="content" source="media/live-transcription.png" alt-text="Captura de pantalla que muestra las opciones de transcripción":::
-Actualmente, la transcripción de las reuniones grabadas solo es compatible con los usuarios que tienen el idioma en Teams establecido en inglés y cuando se habla inglés en la reunión.
+![Opciones de transcripción en directivas de reunión](media/live-transcription.png)
 
-La transcripción en directo muestra de voz a texto el contenido hablado durante una reunión en casi tiempo real. El texto aparece junto al vídeo de la reunión, incluido el nombre del orador y una marca de tiempo. Para obtener más información, vea [Ver transcripción en directo en una reunión de Teams.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
+La transcripción en directo muestra de voz a texto el contenido hablado durante una reunión de Teams en casi tiempo real. El texto aparece junto al vídeo de la reunión, incluido el nombre del orador y una marca de tiempo. Para obtener más información, vea [Ver transcripción en directo en una reunión de Teams.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
 
 Actualmente, la transcripción en directo es compatible con el cliente de escritorio de Teams. La transcripción es compatible con el inglés hablado de Estados Unidos. La transcripción está disponible después de la reunión en el escritorio o la web de Teams.
 
@@ -202,10 +201,10 @@ Esta es la manera en que la configuración de directiva Permitir **transcripció
 
 |Permitir transcripción|Permitir la grabación en la nube|Comportamiento|
 |---------|---------|---------|
-|**Activado**|**Activado**|La **opción Iniciar transcripción** está disponible en las reuniones. El organizador de la reunión o los participantes de la reunión pueden iniciar y detener la transcripción. La **opción Iniciar grabación** está disponible en las reuniones. El organizador de la reunión o los participantes de la reunión pueden iniciar y detener la grabación. |
-|**Activado**|**Desactivado**|La **opción Iniciar transcripción** está disponible en las reuniones. La **opción Iniciar grabación** no está disponible en las reuniones. |
-|**Desactivado**|**Activado**|La **opción Iniciar grabación** está disponible en las reuniones. La **opción Iniciar transcripción** no está disponible en las reuniones.|
-|**Desactivado**|**Desactivado**|La grabación y la transcripción no están disponibles en las reuniones.  |
+|**Activado**|**Activado**|La **opción Iniciar transcripción** está disponible en las reuniones de Teams. El organizador de la reunión o los participantes de la reunión pueden iniciar y detener la transcripción. La **opción Iniciar grabación** está disponible en las reuniones de Teams. El organizador de la reunión o los participantes de la reunión pueden iniciar y detener la grabación. |
+|**Activado**|**Desactivado**|La **opción Iniciar transcripción** está disponible en las reuniones de Teams. La **opción Iniciar grabación** no está disponible en las reuniones de Teams. |
+|**Desactivado**|**Activado**|La **opción Iniciar grabación** está disponible en las reuniones de Teams. La **opción Iniciar transcripción** no está disponible en las reuniones de Teams.|
+|**Desactivado**|**Desactivado**|La grabación y la transcripción no están disponibles en las reuniones de Teams.  |
 
 ### <a name="allow-cloud-recording"></a>Permitir la grabación en la nube
 

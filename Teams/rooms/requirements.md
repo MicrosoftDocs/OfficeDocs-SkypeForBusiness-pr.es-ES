@@ -15,22 +15,22 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre los requisitos para admitir salas de Microsoft Teams, como elegir el dispositivo, los micrófonos, los altavoces, las cámaras y las pantallas adecuados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e62aaa41b81550619ed670159cd071bc22e01cda
-ms.sourcegitcommit: 0a7c1f52484452f66f678b0feca1455bade4fcf3
+ms.openlocfilehash: 78f64b5cba0d67e47fbcd31eee3bc5af8e445d39
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/11/2021
-ms.locfileid: "50716905"
+ms.locfileid: "50726351"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
-Microsoft Teams escala a diferentes tamaños de sala al usar una amplia variedad de periféricos de audio y vídeo certificados según el tamaño y el uso de la sala. Seleccionando el dispositivo y la consola principal adecuada, combinados con micrófonos, altavoces, cámaras y pantallas apropiadas para el espacio, puede implementar las salas de Microsoft Teams en espacios de cualquier tamaño, desde espacios muy pequeños para reuniones hasta espacios muy grandes para conferencias y salas de juntas.  El conjunto completo de todos los periféricos de audio y vídeo certificados disponibles que pueden ser utilizados para configurar su sala está disponible en la [Escaparate de dispositivos](https://products.office.com/microsoft-teams/across-devices).
+Las salas de Microsoft Teams se escalan a diferentes tamaños de salas. Teams Rooms usa una amplia variedad de periféricos de audio y vídeo certificados según el tamaño y el uso de la sala. Al seleccionar el dispositivo y la consola central adecuados, combinados con micrófonos, altavoces, cámaras y pantallas adecuadas para el espacio, puede implementar salas de Microsoft Teams en espacios de cualquier tamaño desde pequeños espacios de reunión hasta espacios de conferencia grandes y salas de reuniones.  El conjunto completo de todos los periféricos de audio y vídeo certificados disponibles que pueden ser utilizados para configurar su sala está disponible en la [Escaparate de dispositivos](https://products.office.com/microsoft-teams/across-devices).
 
 Este artículo resume los requisitos de implementación y configuración de los dispositivos para auxiliar a las salas de Microsoft Teams.
 
 Su implementación implica la creación de cuentas como se describe en [Implementar salas de Microsoft Teams](rooms-deploy.md) y la configuración de consolas de reunión como se describe en [Configurar una consola de salas de equipos Microsoft](console.md).
 
-Asimismo, vea:
+Consulte:
 
 - [Licencias de complemento de Skype Empresarial](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 - [Opciones de licencias en función de su plan: Salas de Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
@@ -60,26 +60,25 @@ Todos los dispositivos y paquetes actuales de la Sala de Microsoft Teams están 
    [Crestron Flex UC-B160-T con Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
   |[Crestron Flex UC-C160-T con Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
   |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
-  |[Dell OptiPlex 7080 con Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i5 & i7 |8 GB |128 GB|
+  |[Dell OptiPlex 7080 con Logitech TAP](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i5 & i7 |8 GB |128 GB|
   |[HP Elite Slice para salas de reuniones G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[HP Elite Slice G2 con audio preparado para Salas de Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
-  |[Partner de sector de HP listo con Logitech TAP]( https://www.logitech.com/en-us/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB|
+  |[Partner de sector de HP listo con Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB|
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |[Logitech Tap con Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
-  |[Logitech Tap y Lenovo ThinkSmart Tiny](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
+  |[Logitech Tap y Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T con Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |[Yealink MVC300 con Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 con Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC800 con Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
   |[Yealink MVC900 con Intel NUC](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 GB|128 GB|
-  |[Yealink MVC 300 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8 GB | 128 GB|
+  |[Yealink MVC 300 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8 GB | 128 GB|
   |[Yealink MVC400](https://www.yealink.com/product/microsoft-teams-room-system-mvc400)        |Core i5|8 GB | 128 GB|
-  |[Yealink MVC 500 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 GB | 128 GB|
-  |[Yealink MVC 800 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 GB | 128 GB|
-  |[Yealink MVC 900 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 GB | 128 GB|
+  |[Yealink MVC 500 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 GB | 128 GB|
+  |[Yealink MVC 800 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 GB | 128 GB|
+  |[Yealink MVC 900 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 GB | 128 GB|
   
-
 > [!NOTE]
 > - Los procesadores M3 no son compatibles.
 > - Necesita una unidad USB de 32 GB o superior configurada como medio de instalación de arranque Windows para Windows 10 Enterprise.

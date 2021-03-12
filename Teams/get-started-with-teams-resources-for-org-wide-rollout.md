@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df4cc9e8c71622fd8564420b31bd5a06d7ac73b2
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 41b5a0f2a09d05ba1a55ee3fcd31ce3a9c4222b2
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395292"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726211"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Iniciar la implementación de Microsoft Teams en toda la organización
 
@@ -63,6 +63,6 @@ Muchas empresas pueden implementar Teams con la [Configuración de Teams para em
 Si su organización cumple con estas características, debe completar la configuración de Teams para empresas. La configuración para empresas le ayuda a planificar la implementación y le ofrece recomendaciones sobre cómo establecer un plan de adopción del programa y así obtener el máximo provecho de usar Teams.
 
 > [!div class="nextstepaction"]
-> [Ir a la configuración para empresas](deploy-advanced.md)
+> [Ir a la configuración para empresas](deploy-enterprise-overview.md)
 
 ---

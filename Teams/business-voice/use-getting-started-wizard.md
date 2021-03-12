@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53636ada916fec05bf75ef8947cdab44e38644e2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030616"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726241"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Usar el Asistente para introducción para configurar Business Voice
 
@@ -53,7 +53,7 @@ Si no quiere personalizar nada por ahora, ya ha terminado. Puede empezar a usar 
 <table>
     <tr>
         <td>Si quiere cambiar la dirección de emergencia, haga clic en <b>Editar</b> y escriba una dirección nueva. La dirección que proporcione se validará para asegurar que es legítima y tiene el formato correcto para los servicios de respuesta de emergencia. Después, esta dirección se asigna a todos los usuarios a los que asigne un número en el siguiente paso. Si tiene empleados en más de una ubicación, consulte <a href="./customize-business-voice.md">Personalización de diseño de Business Voice</a> para agregar y asignar más direcciones de emergencia después de preparar el Asistente de introducción.</td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="wizard choose number"></td></tr>
 </table>
 
 Si quiere más información, vea [¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](../what-are-emergency-locations-addresses-and-call-routing.md)
@@ -64,7 +64,7 @@ Si quiere más información, vea [¿Qué son las ubicaciones de emergencia, las 
     <tr>
         <td>Además de un nuevo número de teléfono local, puede comprar un número gratuito o trasladar un número existente a Microsoft 365. Para configurar un número gratuito, tendrá que comprar Créditos de comunicaciones. Para migrar uno o más números a Microsoft 365, vaya al <a href="https://admin.teams.microsoft.com">Centro de administración de Teams</a> cuando finalice el asistente.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="choose number">
         </td>
     </tr>
 </table>
@@ -78,7 +78,7 @@ Si quiere más información, vea [¿Qué son las ubicaciones de emergencia, las 
     <tr>
         <td>Para asignar licencias de usuario, seleccione las personas de su organización que necesiten realizar o recibir llamadas de teléfono fuera de Teams (como llamar a un proveedor). Solo puede asignar las licencias de Business Voices que tenga disponibles. Si necesita más, puede comprar licencias adicionales cuando finalice el asistente.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400" alt="get numbers">
         </td>
     </tr>
 </table>
@@ -92,7 +92,7 @@ Si quiere más información, vea [¿Qué son las ubicaciones de emergencia, las 
     <tr>
         <td>Puede cargar un archivo de sonido (MP3 o WAV) de hasta 5 megabytes (MB) para usarlo como saludo o puede escribir el saludo y Microsoft 365 usará la función de texto a voz para leerlo al autor de la llamada. El saludo es lo primero que los autores de llamadas escuchan cuando llaman al número de teléfono de la empresa. Para la opción de texto a voz, es posible que tenga que escribir las palabras fonéticamente para que las pronunciaciones sean correctas.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400" alt="greeting">
         </td>
     </tr>
 </table>
@@ -104,7 +104,7 @@ Si quiere más información, vea [¿Qué son las ubicaciones de emergencia, las 
         <td>Se pueden reenviar todas las llamadas a un usuario específico o se puede configurar un menú de llamadas en el que el autor de la llamada puede elegir opciones. Si crea un menú de llamadas, especificará las opciones que el autor de la llamada puede seleccionar por voz o presionando un número en el teclado del teléfono. Cada opción del menú puede reenviar llamadas a un usuario específico.<br><br>
         Puede cargar un archivo de sonido (MP3 o WAV) de hasta 5 MB que proporcione instrucciones al autor de llamada, o bien puede escribir las instrucciones. Microsoft 365 usará la función de texto a voz para leer las instrucciones al autor de la llamada. Es posible que sea necesario deletrear las palabras para que las pronunciaciones sean correctas.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400" alt="call forwarding">
         </td>
     </tr>
 </table>
@@ -117,7 +117,7 @@ Si quiere más información, vea [¿Qué son las ubicaciones de emergencia, las 
         <td> <p>El Asistente de introducción toma la información que especifique y configura Business Voice. En la página de <b>Información general</b>, puede ver los números de teléfono que se asignarán a los usuarios, echar un vistazo al menú de llamadas, escuchar el saludo y mucho más.</p>
              <p>La instalación tarda varios minutos. Si selecciona <b>Listo</b>, seguiremos configurando Business Voice en segundo plano. O bien, puede esperar hasta que finalice la instalación. Cuando termine, vaya a <b>Voz</b> en el <a href="https://admin.teams.microsoft.com" target="_blank">Centro de administración de Teams</a> para configurar más características de Business Voice.</p>
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400" alt="finish page">
         </td>
     </tr>
 </table>
