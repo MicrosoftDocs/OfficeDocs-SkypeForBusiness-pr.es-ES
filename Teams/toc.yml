@@ -201,44 +201,44 @@ items:
             href: setting-your-coexistence-and-upgrade-settings.md
           - name: Reuniones primero
             href: meetings-first.md
-  - name: Conectividad híbrida
-    items:
-      - name: Planear conectividad híbrida
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-      - name: Configurar conectividad híbrida
+      - name: Conectividad híbrida
         items:
-          - name: Información general
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-          - name: "Configurar Azure\_AD\_Connect para entornos híbridos"
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-          - name: Configurar Skype Empresarial híbrido
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-      - name: Mover usuarios entre la implementación local y la nube
-        items:
-          - name: Información general
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-          - name: Mover usuarios locales a Microsoft Teams
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-          - name: Mover usuarios locales a Skype Empresarial Online
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-          - name: Mover usuarios de la nube a una implementación local
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-          - name: Administrar reunión de migración
-            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-      - name: Deshabilitar la implementación híbrida para completar la migración a la nube
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-      - name: Implementación del recurso de topología entre bosques
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-      - name: Consolidación de la nube para Teams y Skype Empresarial
-        items:
-          - name: Información general
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-          - name: Actualizar el certificado de límite
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-          - name: Actualizar AAD Connect para incluir más de un bosque
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-      - name: Integración con Exchange y SharePoint
-        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
+          - name: Planear conectividad híbrida
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+          - name: Configurar conectividad híbrida
+            items:
+              - name: Información general
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+              - name: "Configurar Azure\_AD\_Connect para entornos híbridos"
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+              - name: Configurar Skype Empresarial híbrido
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+          - name: Mover usuarios entre la implementación local y la nube
+            items:
+              - name: Información general
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+              - name: Mover usuarios locales a Microsoft Teams
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+              - name: Mover usuarios locales a Skype Empresarial Online
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+              - name: Mover usuarios de la nube a una implementación local
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+              - name: Administrar reunión de migración
+                href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+          - name: Deshabilitar la implementación híbrida para completar la migración a la nube
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+          - name: Implementación del recurso de topología entre bosques
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+          - name: Consolidación de la nube para Teams y Skype Empresarial
+            items:
+              - name: Información general
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+              - name: Actualizar el certificado de límite
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+              - name: Actualizar AAD Connect para incluir más de un bosque
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+          - name: Integración con Exchange y SharePoint
+            href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: 'Seguridad, privacidad y cumplimiento'
     items:
       - name: Información general
@@ -739,6 +739,8 @@ items:
                 href: set-the-phone-numbers-included-on-invites-in-teams.md
               - name: Iniciar una Audioconferencia por teléfono sin PIN
                 href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+              - name: Ocultar números de teléfono en las reuniones de Teams
+                href: ptsn-mask-phone-numbers.md
           - name: Disponibilidad de país y región para la Audioconferencia
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Referencia
