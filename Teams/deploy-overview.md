@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8d0b51b577ca12bc454617e60671fcefe4da03d
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 22e2f243bfde3e4671727ce737ba62bc154adb0d
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395465"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726201"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Información general de la implementación de Microsoft Teams
 
@@ -40,7 +40,7 @@ Esta es una lista de secciones entre las que puede elegir en la sección **Intro
 > Si ya tiene un Skype Empresarial Online o una implementación local de Skype Empresarial, vea los temas siguientes, además de los de la sección **Introducción**.
 >
 > - [Actualización de Skype Empresarial](upgrade-start-here.md)
-> - [Planear conectividad híbrida](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md)
+> - Planear conectividad híbrida
 
 |Sección  |Descripción  |
 |---------|---------|

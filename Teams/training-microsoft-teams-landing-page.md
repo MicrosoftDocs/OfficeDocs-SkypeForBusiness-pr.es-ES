@@ -19,20 +19,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: f1215838081d6cab919999b7ccd91d061ce87321
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: ec03bd5ca416bd0780225529dad2a6254580396d
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878354"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726251"
 ---
 # <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 
 |               |               |
 | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt-text="walkthrough-map-teams"> | **[Aprendizaje para administradores](/microsoftteams/itadmin-readiness)** </br> Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener información sobre Teams y fomentar el uso en su organización. 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Aprendizaje en directo de Teams](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Clases de aprendizaje gratuitas en línea y en directo ofrecidas por Microsoft diseñadas para empezar a trabajar con Teams. Únase a nosotros para ver Teams en acción, obtener respuestas a sus preguntas e interactuar con los profesores en directo. 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Aprendizaje en línea de Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Use estos recursos de aprendizaje autodirigido para ayudar a los usuarios de su organización a sacar el máximo provecho de Teams. |
+| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[Aprendizaje para administradores](/microsoftteams/itadmin-readiness)** </br> Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener información sobre Teams y fomentar el uso en su organización. 
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Aprendizaje en directo de Teams](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Clases de aprendizaje gratuitas en línea y en directo ofrecidas por Microsoft diseñadas para empezar a trabajar con Teams. Únase a nosotros para ver Teams en acción, obtener respuestas a sus preguntas e interactuar con los profesores en directo. 
+| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Aprendizaje en línea de Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Use estos recursos de aprendizaje autodirigido para ayudar a los usuarios de su organización a sacar el máximo provecho de Teams. |
 
 ## <a name="dont-miss-these-key-training-offerings"></a>No se pierda estas ofertas de aprendizaje esenciales
 
