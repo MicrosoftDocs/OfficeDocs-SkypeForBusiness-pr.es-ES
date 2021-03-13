@@ -17,71 +17,77 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 90345578ceb6bbf8d8752b561511d8df85023bf1
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 52b1e50cfd29aa6916f7b816f3639953d27d6526
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582667"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756246"
 ---
 <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Administrar equipos grandes en Microsoft Teams: procedimientos recomendados
 ======================================================
 
-Microsoft Teams es igualmente eficaz para facilitar las comunicaciones entre grupos pequeños con docenas de miembros y grupos grandes con miles de miembros. Revise [los límites y las especificaciones de Teams para](limits-specifications-teams.md) ver las actualizaciones de los tamaños de los equipos. Aumentar el tamaño del equipo lleva a desafíos de administración y funcionamiento únicos. En este artículo se describen los procedimientos recomendados para crear y administrar equipos grandes formados por miles de miembros.
+Microsoft Teams es igualmente eficaz para facilitar las comunicaciones entre grupos pequeños con decenas de miembros y grupos grandes con miles de miembros. Revise [Los límites y especificaciones de Teams para](limits-specifications-teams.md) obtener actualizaciones sobre el tamaño de los equipos. El aumento del tamaño del equipo lleva a desafíos operativos y de administración únicos. En este artículo se describen los procedimientos recomendados para crear y administrar equipos grandes compuestos por miles de miembros.
 
 ## <a name="value-of-large-teams"></a>Valor de los equipos grandes
 
-Los equipos de gran tamaño son muy útiles para habilitar los siguientes escenarios de colaboración:
+Los equipos grandes son muy útiles para habilitar los siguientes escenarios de colaboración:
 
-- Colaboración para todo el **departamento:** si su organización tiene varios departamentos como Finanzas, Operaciones, R&D, etc., puede crear un único equipo que incluya todos los miembros de un departamento específico. Ahora se pueden compartir todas las comunicaciones relevantes para un departamento en este equipo, que facilita el acceso instantáneo y la participación de los miembros.
+- **Colaboración** en todo el departamento: si su organización tiene varios departamentos, como Finanzas, Operaciones, R&D, etc., puede crear un único equipo que incluya a todos los miembros de un departamento específico. Ahora todas las comunicaciones relevantes para un departamento se pueden compartir en este equipo, lo que facilita el acceso instantáneo y la participación de los miembros.
 
-- **Colaboración en grupos de recursos de** empleados: las organizaciones a menudo tienen grandes grupos de personas con intereses mutuos que pertenecen a un departamento o grupo de trabajo diferente. Como ejemplo, puede haber un grupo de personas que comparten una pasión por las finanzas personales y la inversión. En muchas ocasiones, resulta difícil conectarse en una organización grande. Para desarrollar comunidades para estos grupos, los administradores de inquilinos pueden crear un gran equipo que actúa como un grupo de recursos para toda la empresa pública al que cualquier persona puede unirse y aprovechar. Finalmente, estas comunidades recopilan información que pueden disfrutar tanto los miembros nuevos como los existentes.
+- **Colaboración en grupos de recursos de** empleados: las organizaciones suelen tener grandes grupos de personas con intereses mutuos que pertenecen a un departamento o grupo de trabajo diferente. Como ejemplo, puede haber un grupo de personas que comparten una pasión por las finanzas personales y la inversión. A menudo es difícil conectarse en una organización grande. Para desarrollar comunidades para estos grupos, los administradores de inquilinos pueden crear un equipo grande que actúa como un grupo de recursos de toda la empresa pública al que cualquier usuario puede unirse y aprovechar. Con el tiempo, estas comunidades recopilan información de la que pueden disfrutar tanto los miembros nuevos como los existentes.
 
-- **Colaboración entre miembros internos** y externos: los productos más populares suelen desarrollar una comunidad de usuarios primeros que están ansiosos por probar la publicación de nuevos productos y proporcionar comentarios. Los primeros usuarios desarrollan una relación con los grupos de productos para ayudar a dar forma al producto. En estos escenarios, los administradores de inquilinos pueden configurar un gran equipo que incluya grupos de productos internos y evaluadores de productos externos para facilitar un proceso de desarrollo de productos enriquecidos. Estos equipos también pueden proporcionar asistencia al cliente a un conjunto selecto de clientes.
+- **Colaboración entre miembros** internos y externos: los productos populares a menudo desarrollan una comunidad de primeros usuarios que están ansiosos por probar nuevas versiones de productos y proporcionar comentarios. Los primeros usuarios desarrollan una relación con grupos de productos para ayudar a dar forma al producto. En estos escenarios, los administradores de inquilinos pueden configurar un equipo grande que incluya tanto grupos de productos internos como evaluadores de productos externos para facilitar un proceso de desarrollo de productos enriquecido. Estos equipos también pueden proporcionar asistencia al cliente a un conjunto selecto de clientes.
 
 ## <a name="create-teams-from-existing-groups"></a>Crear equipos a partir de grupos existentes
 
-Use grupos de contactos, grupos de seguridad o grupos de Office para iniciar su equipo. Puede importar un grupo para crear un equipo o un equipo desde un grupo de Office.
+Use grupos de contactos, grupos de seguridad u grupos de Office para iniciar el equipo. Puede importar un grupo para crear un equipo o crear un equipo desde un grupo de Office.
 
-**Importar un grupo** para crear un equipo: Al importar un grupo con hasta 3500 miembros a Teams, Teams calcula automáticamente el número total de miembros en el grupo. Se trata de una importación única y los cambios futuros en el grupo no se actualizarán automáticamente en Teams.
+**Importar un** grupo para crear un equipo: Al importar un grupo con hasta 3.500 miembros en Teams, Teams calcula automáticamente el número total de miembros del grupo. Se trata de una importación única y los cambios futuros en el grupo no se actualizarán automáticamente en Teams.
 
-Crear un equipo a partir de un grupo grande de **Microsoft 365:** al crear un equipo desde un grupo  grande de Microsoft 365, los miembros forman automáticamente parte del grupo de Microsoft 365 y del equipo. En el futuro, a medida que los miembros del equipo se unan o abandonen el grupo de Microsoft 365, se agregarán o quitarán automáticamente del equipo.
+Crear un equipo a partir de un grupo grande de **Microsoft 365:** al crear un equipo a partir de  un gran grupo de Microsoft 365, los miembros forman parte automáticamente del grupo de Microsoft 365 y del equipo. En el futuro, a medida que los miembros del equipo se unen o abandonan el grupo de Microsoft 365, se agregan o quitan automáticamente del equipo.
+
+## <a name="bulk-importexportremove-members-in-a-team"></a>Importar, exportar o quitar miembros en masa en un equipo
+
+Azure Portal permite a los usuarios importar, exportar o quitar miembros en masa en un grupo de Microsoft 365. Para obtener más información, vea [Importar en masa los miembros del grupo.](https://docs.microsoft.com/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)
+
+Como todos los equipos están con el respaldo de un grupo de Microsoft 365, puede usar Azure Portal para realizar estas operaciones en el grupo correspondiente al equipo. Las operaciones de miembro se reflejarán en el equipo en un plazo de 24 horas.
 
 ## <a name="create-channels-to-focus-discussions"></a>Crear canales para enfocar los debates
 
-Puede restringir las discusiones de grupo creando canales centrados. Consulte [Procedimientos recomendados para organizar equipos.](best-practices-organizing.md)
+Puede restringir las discusiones de grupo creando canales centrados. Vea [Procedimientos recomendados para organizar equipos.](best-practices-organizing.md)
 
 ## <a name="restrict-channel-creation"></a>Restringir la creación de canales
 
-Si cualquier miembro del equipo puede crear canales, ese equipo puede tener acceso a canal. Los propietarios del equipo deben desactivar la creación, actualización, eliminación y restauración de canales de los miembros en **Configuración > de miembro.** Consulte [Información general de los equipos y canales.](teams-channels-overview.md)
+Si se permite a cualquier miembro del equipo crear canales, ese equipo puede tener una expansión del canal. Los propietarios del equipo deben desactivar la creación, actualización, eliminación y restauración del canal para los miembros en Configuración **> permisos de miembro.** Vea [Información general sobre equipos y canales.](teams-channels-overview.md)
 
-![Imagen de pantalla que muestra la sección de permisos de miembro de la pestaña Configuración de la consola de administración.](media/no-channel-creation.png "Imagen de la sección de permisos de miembro de la pestaña Configuración de la consola de administración. Las opciones permitir que los miembros creen o eliminen canales están desactivadas.")
+![Imagen de pantalla que muestra la sección de permisos de miembro de la pestaña Configuración de la consola de administración.](media/no-channel-creation.png "Imagen de pantalla de la sección permisos de miembro de la pestaña Configuración de la consola de administración. Las opciones permitir a los miembros crear o eliminar canales están desactivadas.")
 
 ## <a name="add-favorite-channels"></a>Agregar canales favoritos
 
-Para acelerar la participación del nuevo usuario y el descubrimiento de contenido, puede seleccionar canales favoritos que están disponibles para el usuario de forma predeterminada. En el **panel Canales** del centro de administración, compruebe los canales en la **columna Mostrar para miembros.**
+Para acelerar la nueva participación del usuario y la detección de contenido, puede seleccionar los canales favoritos que están disponibles para el usuario de forma predeterminada. En el **panel Canales** del centro de administración, compruebe los canales en la **columna Mostrar para** miembros.
 
-![Imagen de pantalla que muestra el panel de canales de la consola de administración.](media/favorite-channels.png "Imagen de pantalla que muestra el panel de canales de la consola de administración. Algunos canales están activados para mostrar los miembros.")
+![Imagen de pantalla que muestra el panel de canales de la consola de administración.](media/favorite-channels.png "Imagen de pantalla que muestra el panel de canales de la consola de administración. Algunos canales están activados para Mostrar para los miembros.")
 
- Consulte [Crear sus primeros equipos y canales](get-started-with-teams-create-your-first-teams-and-channels.md) para obtener más información.
+ Vea [Crear los primeros equipos y canales para](get-started-with-teams-create-your-first-teams-and-channels.md) obtener más información.
 
-## <a name="regulate-applications-and-bots-in-large-teams"></a>Regular las aplicaciones y los bots en equipos grandes
+## <a name="regulate-applications-and-bots-in-large-teams"></a>Regular aplicaciones y bots en equipos grandes
 
-Para evitar que se agreguen bots o aplicaciones que distraigan, los propietarios del equipo pueden deshabilitar, agregar, quitar y cargar aplicaciones y conectores para los miembros del equipo. En el centro de administración, **en Configuración > de miembro,** desactive las tres opciones que permiten a los miembros agregar aplicaciones o conectores.
+Para evitar la adición de aplicaciones o bots que distraigan, los propietarios de equipos pueden deshabilitar, agregar, quitar y cargar aplicaciones y conectores para los miembros del equipo. En el Centro de administración en **Configuración > permisos** de miembro, desactive las tres opciones que permiten a los miembros agregar aplicaciones o conectores.
 
 ![Imagen de pantalla que muestra la sección Permisos de miembro del panel Configuración.](media/disable-bots-connectors.png "Imagen de pantalla que muestra la sección Permisos de miembro del panel Configuración. Las opciones para permitir que los miembros agreguen aplicaciones o conectores están desactivadas.")
 
-Vea [Aplicaciones, bots y & conectores.](deploy-apps-microsoft-teams-landing-page.md)
+Vea [Aplicaciones, bots, & conectores](deploy-apps-microsoft-teams-landing-page.md).
 
-## <a name="regulate-team-and-channel-mentions"></a>Regular las menciones de equipos y canales
+## <a name="regulate-team-and-channel-mentions"></a>Regular las menciones de equipo y canal
 
-Las menciones de canales y equipos se pueden usar para llamar la atención de todo el equipo sobre determinadas publicaciones del canal. Una vez que se usa una mención en una publicación, se envía una notificación a miles de miembros del equipo. Si las notificaciones son demasiado frecuentes, los miembros del equipo pueden sobrecargarse y podrían quejarse de los propietarios del equipo. Para evitar las menciones de canal o equipo, desactive las menciones de canal y equipo para los miembros desactivando las casillas en el panel Configuración **> @mentions** teams.
+Las menciones de equipo y canal se pueden usar para llamar la atención de todo el equipo a determinadas publicaciones del canal. Una vez que se usa una mención en una publicación, se envía una notificación a miles de miembros del equipo. Si las notificaciones son demasiado frecuentes, los miembros del equipo pueden sobrecargarse y pueden quejarse ante los propietarios del equipo. Para evitar las menciones de equipo o canal, desactive las menciones de equipo y canal para los miembros desactivando las casillas del panel Configuración **> @mentions** equipos.
 
-![Imagen de pantalla que muestra la sección En Menciones del panel Configuración.](media/no-at-mentions.png "Imagen de pantalla que muestra la sección En Menciones del panel Configuración. Las opciones para mostrar y dar acceso a los miembros en las menciones están desactivadas.")
+![Imagen de pantalla que muestra la sección En menciones del panel Configuración.](media/no-at-mentions.png "Imagen de pantalla que muestra la sección En menciones del panel Configuración. Las opciones para mostrar y dar acceso a los miembros en las menciones están desactivadas.")
 
 ## <a name="consider-setting-up-moderation-in-your-channels"></a>Considere la posibilidad de establecer la moderación en sus canales
 
-Los propietarios de los equipos pueden activar la moderación de un canal para controlar quién puede iniciar nuevos mensajes y responder a los mensajes de ese canal. Cuando establezca la moderación, puede elegir a uno o más miembros del equipo para que sean moderadores. De forma predeterminada, los propietarios de equipos son moderadores. Para obtener más información, [vea Configurar y administrar la moderación de canales.](manage-channel-moderation-in-teams.md)
+Los propietarios de los equipos pueden activar la moderación de un canal para controlar quién puede iniciar nuevos mensajes y responder a los mensajes de ese canal. Cuando establezca la moderación, puede elegir a uno o más miembros del equipo para que sean moderadores. Los propietarios de equipos son moderadores de forma predeterminada. Para obtener más información, vea [Configurar y administrar la moderación del canal.](manage-channel-moderation-in-teams.md)
 
 ## <a name="related-topics"></a>Temas relacionados
 

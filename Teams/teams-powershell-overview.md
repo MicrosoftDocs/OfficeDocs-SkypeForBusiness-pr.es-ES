@@ -13,12 +13,12 @@ ms.collection:
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c2c626d61a10437fc5bb349dd128415d64448a7
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 3ec9c9062a26442ae03a332f7cdd6f1e9b56cee5
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569026"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756165"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Información general sobre PowerShell de Microsoft Teams
 
@@ -50,7 +50,7 @@ Usará módulos de PowerShell de Teams para administrar por completo Teams:
 > [!NOTE]
 > La versión pública 1.1.6 o posterior de [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) de Teams se integra con Skype Empresarial Online Connector, lo que proporciona un único módulo para la administración de PowerShell de Teams.
 
-- [Conector de PowerShell de Skype](https://www.microsoft.com/download/details.aspx?id=39366)Empresarial: el conector de PowerShell de Skype Empresarial ahora forma parte del módulo PowerShell de Teams.
+- [Conector de PowerShell de Skype](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)Empresarial: el conector de PowerShell de Skype Empresarial ahora forma parte del módulo PowerShell de Teams.
 
 Para obtener una guía completa sobre cómo administrar Teams con estos módulos, consulte Administrar [equipos con PowerShell de Teams.](teams-powershell-managing-teams.md)
 

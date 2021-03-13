@@ -18,17 +18,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar plantillas de Teams en el Centro de administración
-ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: b32be22dc7a57e65c6ec8d901ae6e7b004ce4b6c
+ms.sourcegitcommit: 3db994f3d26b05071d84b2004892a2ca2ff26d25
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569016"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "50765833"
 ---
-# <a name="manage-team-templates-in-the-admin-center"></a>Administrar plantillas de equipo en el Centro de administración
+# <a name="manage-teams-templates-in-the-admin-center"></a>Administrar plantillas de Teams en el Centro de administración
 
 Administre las plantillas de Teams que ven los usuarios finales creando directivas de plantillas en el Centro de administración. Dentro de cada directiva de plantilla, puede designar qué plantillas se muestran u ocultan.
 Asigne diferentes usuarios a distintas directivas de plantilla para que los usuarios solo puedan ver el subconjunto de plantillas de Teams especificadas.
+
+Vea este breve vídeo para obtener información sobre cómo administrar directivas de plantilla.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyXL9]
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>Crear directivas de plantilla y asignar plantillas disponibles
 
@@ -86,7 +90,7 @@ Puede ocultar un máximo de 100 plantillas por directiva. El **botón** Ocultar 
 
 **P: ¿Puedo asignar usuarios por lotes a directivas de plantillas de equipo?**
   
-A: Sí, se admite la asignación por lotes para la directiva de plantilla en PowerShell. El tipo de directiva para esta acción es TeamsTemplatePermissionPolicy. [Aprende más](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+A: Sí, se admite la asignación por lotes para la directiva de plantilla en PowerShell. El tipo de directiva para esta acción es TeamsTemplatePermissionPolicy. [Aprende más](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **P: ¿Se pueden asignar grupos a directivas de plantillas de equipo?**
 
@@ -140,4 +144,4 @@ A: No, no se admiten las directivas de plantilla para EDU.
 
 - [Asignar directivas a los usuarios en Microsoft Teams: Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [Asignar usuarios por lotes a una directiva](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [Asignar usuarios por lotes a una directiva](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
