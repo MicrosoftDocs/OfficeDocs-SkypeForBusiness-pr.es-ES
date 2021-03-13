@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbadcd18050d098d9c602f7ba56da40ecafd89b4
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e93463b175c58e588cf982f17c8a83535c4b0c80
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395464"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726221"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Configurar Microsoft Teams para empresas pequeñas
 
@@ -51,7 +51,7 @@ El chat, los equipos y los canales son el eje central de Teams. El **chat** perm
 > [!TIP]
 > Descubra cómo administrar los roles del equipo, el acceso y las directivas de mensajería completando el módulo de [Administración de Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) en Microsoft Learn.
 
-A medida que implemente los equipos y canales, necesitará decidir quiénes pueden crearlos, si concederá acceso a los invitados fuera de la organización y mucho más. El artículo [Chat, equipos, canales y aplicaciones en Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) contiene toda la información acerca de cómo planificar los chats, los equipos y los canales; sin embargo, hay ciertos puntos clave en el artículo que debe tomar en cuenta. Haga clic en una decisión si quiere obtener más información al respecto.
+A medida que implemente los equipos y canales, necesitará decidir quiénes pueden crearlos, si concederá acceso a los invitados fuera de la organización y mucho más. El artículo [Chat, equipos, canales y aplicaciones en Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) contiene toda la información acerca de cómo planificar los chats, los equipos y los canales; sin embargo, hay ciertos puntos clave en el artículo que debe tomar en cuenta. Seleccione una decisión para obtener más información al respecto.
 
 | Decisión | Descripción |
 |--|--|
@@ -62,7 +62,7 @@ A medida que implemente los equipos y canales, necesitará decidir quiénes pued
 No necesita hacer más nada para que sus usuarios comiencen a usar el chat, los equipos y los canales. Sin embargo, existen muchas maneras de controlar la forma en que se utiliza Teams. Puede hacer los cambios ahora o esperar para ver cómo las personas usan Teams. Para obtener más información, revise los siguientes artículos:
 
 - [Administrar las directivas de mensajería en Teams](messaging-policies-in-teams.md)
-- [Configuración de Teams](enable-features-office-365#teams-settings)
+- [Configuración de Teams](enable-features-office-365.md#teams-settings)
 
 ### <a name="meetings-and-conferencing"></a>Reuniones y conferencias
 
@@ -92,7 +92,7 @@ Si le interesa probar Business Voice, consulte [¿Qué necesito para adquirir y 
 
 Cuando esté listo para que sus usuarios comiencen a usar Teams, estos pueden instalar el cliente de Teams en su equipo Windows, Mac o Linux, o en su dispositivo Android o iOS. Los usuarios pueden descargar el cliente de Teams directamente desde <https://teams.microsoft.com/downloads>.
 
-Asegúrese de que todos los usuarios que vayan a emplear Teams tengan una licencia de Teams. Para obtener más información acerca de cómo asignar una licencia de Teams, consulte [Administrar el acceso del usuario a Teams](user-access.md#using-the-microsoft-365-admin-center).
+Asegúrese de que quienes vayan a emplear Teams tengan una licencia de Teams. Para obtener más información acerca de cómo asignar una licencia de Teams, consulte [Administrar el acceso del usuario a Teams](user-access.md#using-the-microsoft-365-admin-center).
 
 > [!TIP]
 > Para obtener recomendaciones sobre cómo planear la implementación del cliente de Teams, complete el módulo [Implementar clientes de Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/) en Microsoft Learn.
