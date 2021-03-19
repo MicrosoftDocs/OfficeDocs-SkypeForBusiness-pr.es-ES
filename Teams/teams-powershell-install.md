@@ -13,18 +13,18 @@ ms.collection:
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99967df019a91460bde5fd4e3e6e7aee15444d3
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: e6ba8545159f8b18ebe39e49356f64378f946b29
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569116"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874810"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Instalar Microsoft Teams PowerShell
 
 En este artículo se explica cómo instalar el módulo PowerShell de Microsoft Teams con [PowerShellGet](/powershell/scripting/gallery/installing-psget). Estas instrucciones funcionan en [plataformas Azure Cloud Shell,](/azure/cloud-shell/overview)Linux, macOS y Windows.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Teams PowerShell requiere PowerShell 5.1 o posterior en todas las plataformas. Instale la [versión más reciente de PowerShell](/powershell/scripting/install/installing-powershell) disponible para su sistema operativo.
 
@@ -74,7 +74,7 @@ Install-Module PowerShellGet -Force -AllowClobber
 Para instalar la vista previa pública de PowerShell de Teams, ejecute el comando de PowerShell siguiente.
 
 > [!NOTE]
-> Puede encontrar la versión preliminar más reciente en la Galería de [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) o en PowerShell ejecutando "Find-Module MicrosoftTeams -AllowPrerelease"
+> Puede encontrar la versión preliminar más reciente en la Galería de [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) o en PowerShell ejecutando "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions"
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
@@ -84,7 +84,7 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 
 > [!NOTE]
 >
-> Skype Empresarial Online Connector forma parte actualmente del último módulo de PowerShell de Teams.
+> El conector en línea del cliente de Skype® Empresarial actualmente forma parte del módulo más reciente de Windows PowerShell de Teams.
 > Si usa la última versión pública de PowerShell de [Teams,](https://www.powershellgallery.com/packages/MicrosoftTeams/)no es necesario instalar Skype Empresarial Online Connector.
 
 
@@ -111,6 +111,19 @@ Connect-MicrosoftTeams -Credential $credential
 
 #Connection to Skype for Business Online and import into Ps session
 $session = New-CsOnlineSession -Credential $credential
+Import-PsSession $session
+```
+
+## <a name="sign-in-using-mfa-and-modern-authentication"></a>Iniciar sesión con MFA y autenticación moderna
+
+ Si su cuenta usa la autenticación multifactor, siga los pasos de esta sección.
+
+```powershell
+#Connect to Microsoft Teams
+Connect-MicrosoftTeams -AccountId <UPN>
+
+#Connection to Skype for Business Online and import into Ps session
+$session = New-CsOnlineSession
 Import-PsSession $session
 ```
 

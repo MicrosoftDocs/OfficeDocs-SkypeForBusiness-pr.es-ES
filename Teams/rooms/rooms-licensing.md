@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre las licencias disponibles para diferentes tipos de características de llamadas y reuniones en salas de Microsoft Teams.
-ms.openlocfilehash: 6f339136d6084046004506c30b6827aaed62971a
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: c01fafd6820b1ae62afccbfc2eab89c46c9d1598
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867129"
+ms.locfileid: "50875160"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Actualización de licencias de salas de reuniones de Teams
 
@@ -77,4 +77,6 @@ En la tabla siguiente se enumeran las características que están disponibles en
 > [!NOTE]
 > Si tiene licencias existentes asignadas para sistemas de sala, estas seguirán funcionando sin interrupciones. Debe moverse para usar la nueva SKU de la sala de reuniones cuando expiren las licencias existentes.  
 
- **Use la versión correcta de Windows 10:** Para los clientes que quieran implementar imágenes de Windows 10 en sus dispositivos, vea Configurar una consola de [Salas de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/room-systems/console) Puede obtener una copia del Centro de servicios de licencias [por volumen.](https://www.microsoft.com/Licensing/servicecenter/)
+ **Use la versión correcta de Windows 10:** Para los clientes que quieran implementar imágenes de Windows 10 en sus dispositivos, vea Configurar una consola de [Salas de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/room-systems/console) Puede obtener una copia del Centro de servicios de licencias [por volumen.](https://www.microsoft.com/Licensing/servicecenter/) 
+ 
+ Vea también [Excelentes experiencias de la](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)sala de reuniones: Conoce las nuevas salas de Microsoft Teams Estándar y Premium.

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar plantillas de Teams en el Centro de administración
-ms.openlocfilehash: b32be22dc7a57e65c6ec8d901ae6e7b004ce4b6c
-ms.sourcegitcommit: 3db994f3d26b05071d84b2004892a2ca2ff26d25
+ms.openlocfilehash: 27cf2d2d80f0e715e5ee9e9390ca86d81bd39d70
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50765833"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875140"
 ---
 # <a name="manage-teams-templates-in-the-admin-center"></a>Administrar plantillas de Teams en el Centro de administración
 
@@ -36,7 +36,7 @@ Vea este breve vídeo para obtener información sobre cómo administrar directiv
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>Crear directivas de plantilla y asignar plantillas disponibles
 
-1. Inicie sesión en el Centro de administración de Teams.
+1. Inicie la sesión en el Centro de administración de Teams
 
 2. Expandir **directivas de plantillas** de Teams  >  .
 
@@ -58,7 +58,7 @@ Vea este breve vídeo para obtener información sobre cómo administrar directiv
 
 1. Para mostrar determinadas plantillas, desplácese hasta la **tabla Plantillas ocultas.**
 
-1. Seleccione las plantillas que desea mostrar y, a continuación, **seleccione Mostrar.**
+2. Seleccione las plantillas que desea mostrar y, a continuación, **seleccione Mostrar.**
 
    ![Las plantillas seleccionadas que no están ocultas](media/template-policies-3.png)
 

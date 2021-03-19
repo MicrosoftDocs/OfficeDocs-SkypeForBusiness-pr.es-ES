@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 6fc7838ac1f3235acf576d437e3dabccfc2a0b6f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867069"
+ms.locfileid: "50875060"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiencia de reunión solo vista de Teams
 
 > [!Note]
-> Las transmisiones solo vistas estarán disponibles en Microsoft 365 E3/E5 y Microsoft 365 A3/A5. Esta característica se habilitará el 1 de marzo de 2021 como desactivado predeterminado. Esta característica en los planes G3/G5 de Microsoft 365 Government estará disponible más adelante. Debe cambiar la directiva predeterminada después de esa fecha si desea que la característica sea predeterminada. Use PowerShell para habilitar la directiva `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` .
+> Las transmisiones solo vistas están disponibles en Microsoft 365 E3/E5 y Microsoft 365 A3/A5. Esta característica se habilitará el 1 de marzo de 2021 como desactivado predeterminado. La característica de Microsoft 365 Government Community Cloud (GCC) comenzará a realizarse a finales de marzo de 2021. Government Community Cloud High (GCCH) and Department of Defense (DoD) will roll out at a later date. Debe cambiar la directiva predeterminada después de esa fecha si desea que la característica sea predeterminada. Use PowerShell para habilitar la directiva `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` .
 
 > [!Note]
 > Si su reunión o seminario web alcanza la capacidad, Teams escalará sin problemas para dar cabida a una experiencia de difusión solo para 10 000 personas. Además, durante este tiempo de mayor trabajo remoto, aproveche las transmisiones de más de 20.000 personas hasta finales de este año.

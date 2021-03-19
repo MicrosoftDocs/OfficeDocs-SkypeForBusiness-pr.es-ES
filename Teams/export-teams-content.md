@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1bca4eb70bff07e809630e1b997f377064b5e0e
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: 948b30e9494bbac78dc7cf2e3e276242feea306e
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861414"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874690"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportar contenido con las API de exportación de Microsoft Teams
 
-Las API de exportación de Teams le permiten exportar 1:1, chat grupal y canalizar mensajes de Microsoft Teams. Si su organización necesita exportar mensajes de Microsoft Teams, puede extraerlos con las API de exportación de Teams. *Mensaje de chat* representa un mensaje de chat individual dentro de [un canal](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) o [chat.](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta) El mensaje de chat puede ser un mensaje de chat raíz o parte de un hilo de respuesta definido por la **propiedad replyToId** del mensaje de chat.
+Las API de exportación de Teams le permiten exportar 1:1, chat grupal, chats de reunión y canales de mensajes de Microsoft Teams. Si su organización necesita exportar mensajes de Microsoft Teams, puede extraerlos con las API de exportación de Teams. *Mensaje de chat* representa un mensaje de chat individual dentro de [un canal](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) o [chat.](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta) El mensaje de chat puede ser un mensaje de chat raíz o parte de un hilo de respuesta definido por la **propiedad replyToId** del mensaje de chat.
 
 A continuación se muestran algunos ejemplos sobre cómo puede usar estas API de exportación:
 
@@ -41,7 +41,7 @@ A continuación se muestran algunos ejemplos sobre cómo puede usar estas API de
 
     Si ya está familiarizado con la integración de una aplicación [](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps) con la plataforma de identidad de Microsoft para obtener tokens, vea la sección Pasos siguientes para obtener información y muestras específicas de Microsoft Graph.
 - **Entorno híbrido:** Las API de exportación admiten los mensajes enviados por usuarios aprovisionados en entorno híbrido (Exchange local y Teams). Los mensajes que envíen los usuarios que estén configurados para entorno híbrido serán accesibles con Las API de exportación.
-- **Mensajes eliminados por el usuario:** Se puede acceder a los mensajes eliminados por el usuario desde el cliente de Teams mediante API de exportación hasta 30 días desde el momento de la eliminación.
+- **Mensajes eliminados por el usuario:** Se puede acceder a los mensajes eliminados por los usuarios desde el cliente de Teams mediante API de exportación hasta 21 días desde el momento de la eliminación.
 - **Datos adjuntos de mensajes:** Las API de exportación incluyen los vínculos a los datos adjuntos que se envían como parte de los mensajes. Con Exportar API puede recuperar los archivos adjuntos en los mensajes.
 - **Propiedades del mensaje de chat:** Consulte la lista completa de propiedades que admiten las API de exportación de Teams [aquí.](https://docs.microsoft.com/graph/api/resources/chatmessage?view=graph-rest-beta#properties)
 
@@ -50,19 +50,19 @@ A continuación se muestran algunos ejemplos sobre cómo puede usar estas API de
 - **Ejemplo 1** es una consulta sencilla para recuperar todos los mensajes de un usuario o equipo sin filtros:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages
     ```
      ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages
     ```
 
 - **Ejemplo 2** es una consulta de ejemplo para recuperar todos los mensajes de un usuario o equipo especificando filtros de fecha y 50 mensajes principales:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
     ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
 >La API devuelve respuesta con el vínculo de página siguiente en caso de varios resultados. Para obtener el siguiente conjunto de resultados, simplemente llame a OBTENER en la dirección URL desde @odata.nextlink. Si @odata.nextlink no está presente o es nulo, se recuperarán todos los mensajes.

@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams. Use la configuración de directiva para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 77c99516e188ecc0f42fd663a121d439b5470000
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: cdeadfd119ae0a1aa1d1f42af84d2c30ac014584
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726436"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875170"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -459,10 +459,10 @@ Esta configuración controla qué participantes de la reunión se quedan en la s
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permitir que los usuarios anónimos inicien una reunión
 
-Se trata de una directiva por organizador que permite reuniones de conferencia de acceso por marcado sin líderes. Esta configuración controla si los usuarios de acceso por marcado pueden unirse a la reunión sin que asista un usuario autenticado de la organización. De forma predeterminada, esta opción está desactivada, lo que significa que los usuarios de acceso por marcado se quedan en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión.
+Esta es una directiva por organizador que permite reuniones de conferencia sin líderes. Esta configuración controla si los usuarios anónimos pueden unirse a la reunión sin un usuario autenticado de la organización que asista. De forma predeterminada, esta configuración está desactivada, lo que significa que los usuarios anónimos esperarán en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión.
 
 > [!NOTE]
-> Si esta opción está desactivada y un usuario de marcado se une primero a la reunión y se le ubica en la sala de espera, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la sala de espera. No hay ningún control de sala de espera disponible para los usuarios con acceso de marcado.
+> Si esta configuración está desactivada y un usuario anónimo se une primero a la reunión y se coloca en la sala de espera, un usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario desde la sala de espera. No hay ningún control de sala de espera disponible para los usuarios con acceso de marcado.
 
 ### <a name="automatically-admit-people"></a>Admitir automáticamente usuarios
 

@@ -16,16 +16,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de la versión de las características de administrador de Microsoft Teams.
-ms.openlocfilehash: bda768865d3deda5dac6c0162141dfc3852d8aa3
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: d99f6c0ea90e5de0cefec3d40c6fc599e0aae9f0
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461030"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875020"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de la versión de las características de administración de Microsoft Teams
 
 Estas notas de la versión proporcionan información sobre las nuevas características de administrador de Microsoft Teams.
+
+## <a name="february-22-2021"></a>22 de febrero de 2021
+
+### <a name="custom-lob-tabs-are-available-for-dod-customers"></a>Las pestañas personalizadas (LOB) están disponibles para los clientes doD
+
+Ahora los clientes doD pueden cargar e implementar sus propias aplicaciones personalizadas (LOB) de Teams.
 
 ## <a name="february-18-2021"></a>18 de febrero de 2021
 
@@ -61,7 +67,7 @@ Teams sigue ejecutándose incluso cuando está sin conexión o ejecutándose en 
 
 ### <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
-La aplicación Aprobaciones está disponible como una aplicación personal para todos los usuarios de Microsoft Teams. La aplicación Aprobaciones proporciona una forma sencilla de llevar auditoría, cumplimiento, responsabilidad y flujos de trabajo a aprobaciones estructuradas y no estructuradas en Teams. [Más información](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
+La aplicación Aprobaciones está disponible como una aplicación personal para todos los usuarios de Microsoft Teams. La aplicación Aprobaciones ofrece una forma sencilla de ejercer las auditorías, el cumplimiento, la responsabilidad y los flujos de trabajo tanto a Aprobaciones estructuradas y no estructuradas en Teams. [Más información](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
 
 ## <a name="january-15-2021"></a>15 de enero de 2021
 
@@ -101,13 +107,13 @@ Caminos de aprendizaje le proporciona una plantilla de sitio de SharePoint Onlin
 
 Microsoft Teams ofrece una serie de características útiles para hospitales y otras organizaciones sanitarias, como:
 
-- Visitas virtuales e integración de registros electrónicos de atención sanitaria (EHR)
+- Visitas virtuales y la integración de la historia clínica electrónica (EHR)
 - Paquetes de directivas de Teams
 - Mensajería segura
 - Plantillas de Teams
-- Coordinación y colaboración en el cuidado
+- Colaboración y coordinación de atención médica
 
-Esta funcionalidad forma parte de Microsoft Cloud para el cuidado de la salud. [Más información](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc).
+Esta función forma parte de la Nube de Microsoft para el cuidado de la salud. [Más información](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc).
 
 ## <a name="october-27-2020"></a>27 de octubre de 2020
 
@@ -145,9 +151,9 @@ En la página Administrar aplicaciones del Centro de  administración de Microso
 
 ## <a name="october-1-2020"></a>1 de octubre de 2020
 
-### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint para grabaciones de reuniones
+### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint para grabar las reuniones
 
-Microsoft Teams tiene un nuevo método para guardar grabaciones de reuniones. Como primera fase de una transición de Microsoft Stream clásica a la nueva Stream, este método almacena grabaciones en Microsoft OneDrive para la Empresa y SharePoint en Microsoft 365 y ofrece muchas ventajas. [Más información](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change).
+Microsoft Teams tiene un nuevo método para guardar las grabaciones de reuniones. Como primera fase de una transición del Microsoft Stream clásico al  nuevo Stream, este método almacena grabaciones en Microsoft OneDrive para la Empresa y SharePoint en Microsoft 365 y ofrece muchas ventajas. [Más información](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change).
 
 ### <a name="free-audio-conferencing-for-small-to-medium-businesses"></a>Audioconferencia gratuita para pequeñas y medianas empresas
 
@@ -371,7 +377,7 @@ Si el usuario no ha iniciado sesión en su cuenta de Microsoft 365 en ningún ot
 
 ### <a name="monitor-shifts-with-audit-logs"></a>Supervisar turnos con registros de auditoría
 
-Puede buscar en el registro de auditoría para ver la actividad turnos en su organización. [Más información](https://docs.microsoft.com/microsoftteams/audit-log-events).
+Puede busca el registro de auditoría para ver la actividad de Turnos en su organización. [Más información](https://docs.microsoft.com/microsoftteams/audit-log-events).
 
 ## <a name="june-11-2020"></a>11 de junio de 2020
 

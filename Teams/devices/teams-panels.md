@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se proporciona información general sobre las características compatibles con los paneles de Microsoft Teams.
-ms.openlocfilehash: effbb5d76220c98aee726efe66b41954c7fceb7a
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 0d470116f5867a9d610fb376bfe2389600916c5a
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867089"
+ms.locfileid: "50875080"
 ---
 # <a name="microsoft-teams-panels"></a>Paneles de Microsoft Teams
 
@@ -59,7 +59,7 @@ Los requisitos de hardware, software y red para implementar dispositivos de pane
 Para usar paneles de Teams, necesita [la licencia estándar de Salas de Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)
 
 > [!Note]
-> Si ya tiene Microsoft Teams Rooms implementado en el espacio de reunión donde va a instalar paneles de Teams, no necesita licencia adicional para usar paneles de Teams.
+> Si ya tiene Microsoft Teams Rooms implementado en el espacio de reunión donde va a instalar paneles de Teams, no necesita una licencia adicional para usar paneles de Teams.
 
 ## <a name="deploy-teams-panels-devices"></a>Implementar dispositivos de paneles de Teams
 
@@ -90,7 +90,7 @@ Nuestras recomendaciones para los sitios de paneles de Teams son:
 
 - Cuentas de recursos dedicadas
 - Fuente de alimentación (los paneles generalmente admiten Power over Ethernet plus (PoE+) para la alimentación. Consulte la documentación del OEM para obtener información sobre los requisitos de energía específicos del dispositivo).
-- Calidad de servicio (QoS) habilitado en la red para Microsoft Teams
+
 
 Para ver las consideraciones de instalación física, consulte la documentación oem y, si tiene una, use la experiencia de su equipo de audio visual antes de instalar y montar dispositivos y ejecutar cableado.
 
@@ -105,15 +105,13 @@ La planificación de la configuración y la implementación abarca las siguiente
 
 Cada dispositivo de paneles de Teams requiere una cuenta de recursos de sala de Microsoft 365. Use las credenciales de la cuenta de recurso para iniciar sesión en la aplicación Microsoft Teams en el dispositivo de paneles.
 
-Para configurar una cuenta de recursos de Microsoft 365 para paneles de Teams, deberá comprar una licencia estándar de [Salas de Microsoft Teams.](#license-requirement) Esta licencia incluye un buzón de recursos que permite a los usuarios de su organización reservar el espacio de reunión a través de Outlook o Teams.
-
-Para obtener información sobre cómo crear una cuenta de recursos y asignarle una licencia, vea Crear una cuenta de recursos con el Centro de administración [de Microsoft 365.](resource-account-ui.md)
+Para configurar una cuenta de recursos de Microsoft 365 para paneles de Teams, le recomendamos que compre una licencia estándar de [Salas de Microsoft Teams.](#license-requirement) Para obtener información sobre cómo crear una cuenta de recursos y asignarle una licencia, vea Crear una cuenta de recursos con el Centro de administración [de Microsoft 365.](resource-account-ui.md)
 
 > [!NOTE]
 >
 >- Si ya tiene una cuenta de recursos de sala configurada para el espacio de reunión donde va a instalar paneles, use la misma cuenta de recursos de sala para iniciar sesión en el dispositivo de paneles. Sin embargo, asegúrese de que la cuenta de recursos de sala tiene asignada la licencia Estándar de Salas de Microsoft Teams para usarla como cuenta de recursos de paneles.
 >
->- Si ya tiene un Microsoft Teams Rooms implementado en el espacio de reunión donde va a instalar paneles de Teams, la cuenta de recursos ya tiene la licencia salas [de Microsoft Teams.](../rooms/rooms-licensing.md) En estos casos, no es necesario comprar una licencia estándar de Salas de Microsoft Teams independiente para implementar paneles. El administrador inicia sesión en el dispositivo de paneles con las mismas credenciales que los salas de Microsoft Teams para el mismo espacio.
+>- Si ya tiene un Salón de Microsoft Teams implementado en el espacio de reunión donde va a instalar paneles de Teams, no es necesario comprar una licencia independiente para implementar paneles. El administrador inicia sesión en el dispositivo de paneles con las mismas credenciales que los salas de Microsoft Teams para el mismo espacio.
 >
 >- Para espacios de reunión grandes, como salas de juntas o salas de conferencias, con varias entradas, puede montar un dispositivo de paneles en cada entrada. Varios paneles que pertenecen a un único espacio de reunión comparten la misma cuenta de recursos e inician sesión con las mismas credenciales. No es necesario crear cuentas de recursos independientes para cada panel para el mismo espacio.
 

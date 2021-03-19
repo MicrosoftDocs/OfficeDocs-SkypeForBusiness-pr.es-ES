@@ -20,84 +20,217 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-description: Este apéndice incluye pasos detallados para deshabilitar la implementación híbrida como parte de la consolidación de la nube para Teams y Skype Empresarial.
-ms.openlocfilehash: 93aad1ea230d9edbb81673a3ddabc7088b06d422
-ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
+description: En este artículo se incluyen pasos detallados para deshabilitar la implementación híbrida como parte de la consolidación de la nube para Teams y Skype Empresarial.
+ms.openlocfilehash: 90ec73246007542ad0215007b0da91f4fe9405e8
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277254"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874700"
 ---
-# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deshabilitar la implementación híbrida para completar la migración a la nube
+# <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>Deshabilitar la migración híbrida para completar la migración a la nube: Información general
 
-Después de mover todos los usuarios del entorno local a la nube, puede desactivar la implementación local de Skype Empresarial. Además de quitar cualquier hardware, un paso crítico es separar lógicamente esa implementación local de Microsoft 365 u Office 365 deshabilitando la implementación híbrida. La deshabilitación de la implementación híbrida consta de 3 pasos:
+Después de mover todos los usuarios del entorno local a la nube, puede desactivar la implementación local de Skype Empresarial. Aparte de quitar cualquier hardware, un paso fundamental es separar lógicamente esa implementación local de Microsoft 365 u Office 365 deshabilitando la implementación híbrida. Deshabilitar la implementación híbrida consta de tres pasos:
 
 1. Actualice los registros DNS para que apunten a Microsoft 365 u Office 365.
 
-2. Deshabilitar el dominio dividido en la organización de Microsoft 365 u Office 365.
+2. Deshabilite el espacio de direcciones sip compartido (también conocido como "dominio dividido") en la organización de Microsoft 365 u Office 365.
 
-3. Deshabilitar la capacidad local para comunicarse con Microsoft 365 u Office 365.
+3. Deshabilite la capacidad de comunicarse localmente con Microsoft 365 u Office 365.
 
-Estos pasos deben realizarse conjuntamente como una unidad. A continuación se proporcionan detalles. Además, se proporcionan directrices para administrar los números de teléfono de los usuarios migrados una vez desconectada la implementación local.
-
-Una vez completados estos pasos, los servidores locales de Skype Empresarial ya no se usan y se pueden volver a crear imágenes de estos servidores.
+Estos pasos separan lógicamente la implementación local de Skype Empresarial Server de Office 365 y deben realizarse conjuntamente como una unidad. Los detalles de cada paso se proporcionan en este artículo a continuación. Una vez completado, puede retirar la implementación local de Skype Empresarial mediante uno de los dos métodos a los que se hace referencia a continuación.
 
 > [!Important] 
->Debes seguir permitir que los atributos msRTCSIP de Active Directory se sincronicen a través de Azure AD Connect en Azure AD.  No borre ninguno de estos atributos a menos que lo indique el soporte técnico.  No ejecute Disable-CsUser en el entorno local. Si necesita modificar la dirección SIP de un usuario, haga esto en su Active Directory local y deje que este cambio se sincronice en Azure AD a través de Azure AD Connect, como se describe a continuación. De forma similar, si necesita cambiar un número de teléfono y el LineURI del usuario ya está definido localmente, debe modificarlo en el Active Directory local.
->Borrar los atributos msRTCSIP locales después de haber migrado desde local podría provocar la pérdida de servicio para los usuarios.
+>Una vez completada esta separación lógica, los atributos msRTCSIP de su Active Directory local siguen teniendo valores y seguirán sincroniciendo a través de Azure AD Connect en Azure AD. La forma de retirar el entorno local depende de si desea dejar estos atributos en su lugar o, en primer lugar, borrarlos de su Active Directory local. Tenga en cuenta que borrar los atributos msRTCSIP locales después de migrar desde local podría provocar la pérdida de servicio para los usuarios. A continuación se describen los detalles y las disociones de los dos métodos de retirada.
 
+## <a name="disable-hybrid-to-complete-migration-to-the-cloud-detailed-steps"></a>Deshabilitar híbrido para completar la migración a la nube: Pasos detallados
 
-1.  *Actualice DNS para que apunte a Microsoft 365 u Office 365.*
-El DNS externo de la organización para la organización local debe actualizarse para que los registros de Skype Empresarial apunten a Microsoft 365 u Office 365 en lugar de a la implementación local. En particular:
+1. *Actualice DNS para que apunte a Microsoft 365 u Office 365.* El DNS externo de la organización para la organización local debe actualizarse para que los registros de Skype Empresarial apunten a Microsoft 365 u Office 365 en lugar de a la implementación local. En particular:
 
-    |Tipo de registro|Nombre|TTL|Valor|
+    |Tipo de registro|Name|TTL|Valor|
     |---|---|---|---|
     |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed.online.lync. <span> com|
     |SRV|_sip._tls|3600|100 1 443 sipdir.online.lync. <span> com|
     |CNAME| lyncdiscover|   3600|   webdir.online.lync. <span> com|
     |CNAME| sip|    3600|   sipdir.online.lync. <span> com|
-    |CNAME| meet|   3600|   webdir.online.lync. <span> com|
-    |CNAME| dialin  |3600|  webdir.online.lync. <span> com|
 
-    Además, se pueden eliminar los registros CNAME para reunión o marcado (si está presente). Por último, se deben quitar todos los registros DNS de Skype Empresarial en la red interna.
+    Además, se pueden eliminar los registros CNAME para meet o dialin (si están presentes). Por último, se deben quitar los registros DNS de Skype Empresarial en la red interna.
 
     > [!Note] 
-    > En raras ocasiones, cambiar el DNS de apuntar localmente a Office 365 para su organización puede provocar que la federación con otras organizaciones deje de funcionar hasta que esa otra organización actualice su configuración de federación:
+    > En raras ocasiones, cambiar DNS de apuntar localmente a Microsoft 365 u Office 365 para su organización puede provocar que la federación con otras organizaciones deje de funcionar hasta que otra organización actualice su configuración de federación:
     >
-    > - Las organizaciones federadas que usan el antiguo modelo de federación directa (también conocido como Servidor de asociados permitidos) tendrán que actualizar las entradas de dominio permitido para que su organización quite el FQDN del proxy. Este modelo de federación heredado no se basa en los registros SRV de DNS, por lo que dicha configuración se desatendrán una vez que la organización se mueva a la nube.
+    > - Las organizaciones federadas que usan el modelo de federación directa anterior (también conocido como Servidor de partners permitidos) tendrán que actualizar las entradas de dominio permitidas para su organización para quitar el FQDN de proxy. Este modelo de federación heredado no se basa en registros SRV de DNS, por lo que dicha configuración se desatendrán una vez que la organización se mueva a la nube.
     > 
     > - Cualquier organización federada que no tenga un proveedor de hospedaje habilitado para sipfed.online.lync. <span> com tendrá que actualizar su configuración para habilitarlo. Esta situación solo es posible si la organización federada es puramente local y nunca se ha federado con ningún inquilino híbrido o en línea. En tal caso, la federación con estas organizaciones no funcionará hasta que habiliten su proveedor de hospedaje.
     >
-    > Si sospecha que alguno de sus socios federados puede estar usando direct federation o no haber federado con ninguna organización en línea o híbrida, le sugerimos que envíe una comunicación al respecto mientras se prepara para completar la migración a la nube.
+    > Si sospecha que alguno de sus socios federados puede estar usando Direct Federation o no haber federado con ninguna organización híbrida o en línea, le sugerimos que envíe una comunicación al respecto mientras se prepara para completar la migración a la nube.
 
 
-2.  *Deshabilitar el espacio de direcciones SIP compartido en la organización de Microsoft 365 u Office 365.*
-El siguiente comando debe realizarse desde una ventana de PowerShell de Skype Empresarial Online.
+2.  *Deshabilite el espacio de direcciones sip compartido en la organización de Microsoft 365 u Office 365.* El siguiente comando debe realizarse desde una ventana de PowerShell de Skype Empresarial Online.
 
-    ```PowerShell
-    Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
-    ```
+     ```PowerShell
+     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
+     ```
  
-3.  *Deshabilitar la capacidad local para comunicarse con Microsoft 365 u Office 365.*  
-El siguiente comando debe realizarse desde una ventana de PowerShell local:
+3.  *Deshabilite la capacidad de comunicarse localmente con Microsoft 365 u Office 365.* El siguiente comando debe realizarse desde una ventana de PowerShell local:
 
-    ```PowerShell
-    Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
+     ```PowerShell
+     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
+     ```
+
+## <a name="managing-attributes-after-moving-users-from-on-premises-to-the-cloud"></a>Administración de atributos después de mover usuarios de local a la nube
+
+De forma predeterminada, todos los usuarios que se habilitaron anteriormente para Skype Empresarial Server y que posteriormente se movieron a la nube aún tienen atributos msRTCSIP configurados en active directory local. Estos atributos, en particular la dirección sip (msRTCSIP-PrimaryUserAddress) y el número de teléfono potencialmente (msRTCSIP-Line), siguen sincroniciendo en Azure AD. Si se requieren cambios en cualquiera de los atributos msRTCSIP, estos cambios deben realizarse en Active Directory local y, a continuación, sincronizarse con Azure AD. Sin embargo, una vez que se haya quitado la implementación de Skype Empresarial Server, las herramientas de Skype Empresarial Server no estarán disponibles para administrar estos atributos.
+
+Hay dos opciones disponibles para controlar esta situación:
+
+1. Deje los usuarios habilitados para cuentas de servidor de Skype Empresarial tal como están y administre los atributos msRTCSIP con herramientas de Active Directory. Esto garantiza que no se pierda el servicio para los usuarios migrados y le permite quitar fácilmente la implementación de Skype Empresarial Server eliminando (por ejemplo, limpiando) los servidores, sin un desmantelamiento completo. Sin embargo, los usuarios recién con licencia no tendrán estos atributos rellenados en su Active Directory local y tendrán que administrarse en línea.
+
+2.  Borre todos los atributos msRTCSIP de los usuarios migrados en su Active Directory local y administre estos atributos con herramientas en línea. Este método permite un enfoque de administración coherente para los usuarios existentes y nuevos, pero puede provocar una pérdida temporal del servicio durante el proceso de retirada local.
+
+
+### <a name="method-1---manage-sip-addresses-and-phone-numbers-for-users-in-active-directory"></a>Método 1: administrar direcciones sip y números de teléfono para usuarios de Active Directory
+
+Los administradores pueden administrar usuarios que se movieron anteriormente de un Skype Empresarial Server local a la nube, incluso después de retirar la implementación local. Si desea realizar cambios en la dirección sip de un usuario o en el número de teléfono de un usuario (y la dirección sip o el número de teléfono ya tiene un valor en Active Directory local), debe hacerlo en Active Directory local y permitir que los valores fluyan hasta Azure AD. Esto NO requiere Skype Empresarial Server local. En su lugar, puede modificar estos atributos directamente en Active Directory local, mediante el complemento MMC usuarios y equipos de Active Directory (como se muestra a continuación) o mediante PowerShell. Si usa el complemento MMC, abra la página de propiedades del usuario, haga clic en la pestaña Editor de atributos y busque los atributos adecuados para modificar:
+
+- Para modificar la dirección sip de un usuario, modifique `msRTCSIP-PrimaryUserAddress` el archivo . Tenga en cuenta que si el atributo contiene una dirección sip, actualice `ProxyAddresses` también ese valor como procedimiento recomendado. Aunque O365 omite la dirección sip si está rellenada, otros componentes locales pueden `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` usarla.
+
+- Para modificar el número de teléfono de un usuario, modifique `msRTCSIP-Line` *si ya tiene un valor*.
+
+  ![Herramienta de equipos y usuarios de Active Directory](../media/disable-hybrid-1.png)
+  
+-  Si el usuario no tenía originalmente un valor para local antes del movimiento, puede modificar el número de teléfono mediante el parámetro - en el `msRTCSIP-Line` `onpremLineUri` cmdlet [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) del módulo PowerShell de Skype Empresarial Online.
+
+Estos pasos no son necesarios para los nuevos usuarios creados después de deshabilitar híbridos y esos usuarios se pueden administrar directamente en la nube. Si se siente cómodo con la combinación de estos métodos, así como con dejar los atributos msRTCSIP en su Active Directory local, simplemente puede volver a crear una imagen de los servidores locales de Skype Empresarial. Sin embargo, si prefiere borrar todos los atributos msRTCSIP y realizar una desinstalación tradicional de Skype Empresarial Server, use el método 2.
+
+
+### <a name="method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory"></a>Método 2: Borrar atributos de Skype Empresarial para todos los usuarios locales de Active Directory
+
+Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que los usuarios que se movieron anteriormente de un Skype Empresarial Server local a la nube deben volver a aprovisionarse. Estos usuarios se pueden clasificar en dos categorías diferentes: usuarios sin sistema telefónico y usuarios con sistema telefónico. Los usuarios con sistema telefónico experimentarán una pérdida temporal del servicio telefónico como parte de la transición del número de teléfono desde que se administra en Active Directory local a la nube. **Se recomienda realizar un piloto en el que participen un número reducido de usuarios con sistema telefónico antes de iniciar operaciones masivas de usuario.** Para implementaciones grandes, los usuarios pueden procesarse en grupos más pequeños en diferentes ventanas de tiempo. 
+
+> [!NOTE]
+> El proceso es más sencillo para los usuarios que tienen una dirección sip correspondiente y UserPrincipalName. Para las organizaciones que tienen usuarios con valores que no coinciden en estos dos atributos, se debe tener cuidado adicional como se indica a continuación para una transición sin problemas. 
+
+
+1. Confirme que el siguiente cmdlet local de PowerShell de Skype Empresarial devuelve un resultado vacío. Un resultado vacío significa que ningún usuario está internamente y se ha movido a Office 365 o se ha deshabilitado:
+
+   ```PowerShell
+   Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Select-Object Identity, SipAddress, UserPrincipalName, RegistrarPool
+   ```
+
+2. Registre el número de teléfono actual de los usuarios (LineUri), UserPrincipalName e información relacionada, ejecutando el siguiente cmdlet local de PowerShell de Skype Empresarial Server para exportar datos de usuario:
+
+   ```PowerShell
+   Get-CsUser | Select-Object SipAddress, UserPrincipalName, SamAccountName, RegistrarPool, HostingProvider, EnabledForFederation, EnabledForInternetAccess, LineUri, EnterpriseVoiceEnabled, HostedVoiceMail | Sort SipAddress | Export-Csv -Path  "c:\backup\SfbUserSettings.csv"
+   ```
+
+   > [!Important] 
+   > Antes de continuar, abra SfbUserSettings.csv archivo y confirme que todos los datos de usuario se han exportado correctamente. Se recomienda conservar una copia de este archivo.  No use este archivo en los siguientes pasos para procesar usuarios. 
+
+3. Cree un archivo con un grupo de usuarios que se usará en los pasos siguientes. Después de que el primer grupo de usuarios se haya completado correctamente, continúe con el siguiente grupo de usuarios. En el ejemplo siguiente, los grupos de usuarios se seleccionan alfabéticamente, pero puede filtrar por usuarios en función de criterios que coincidan con la forma en que desea procesar los usuarios.
+
+   ```PowerShell
+   Get-CsUser | where userprincipalname -like "abc*" | Select-Object SipAddress, UserPrincipalName, SamAccountName, RegistrarPool, HostingProvider, EnabledForFederation, EnabledForInternetAccess, LineUri, EnterpriseVoiceEnabled, HostedVoiceMail | Sort SipAddress | Export-Csv -Path "c:\data\SfbUsers.csv"
+   ```
+
+   > [!Important] 
+   > Antes de continuar, abra SfbUsers.csv archivo y confirme que los datos de usuario se han exportado correctamente. Necesitará LineUri (número de teléfono), UserPrincipalName, SamAccountName y SipAddress de este archivo en un paso posterior.
+
+4. Elimine la información de atributo relacionada con Skype Empresarial Server de Active Directory para el conjunto de usuarios que está listo para actualizar.  Hay dos pasos para este proceso, como se muestra a continuación.
+
+   > [!Important] 
+   > Después del siguiente ciclo de sincronización de AAD después de ejecutar este paso, los usuarios con sistema telefónico que se movieron previamente de un Skype Empresarial Server local a la nube perderán la capacidad de realizar y recibir llamadas hasta que el paso 8 se complete correctamente y se confirme en el paso 9. Además, asegúrese de haber guardado los números de teléfono del usuario y la información relacionada según el paso 2, ya que esa información es necesaria para ese paso.
+
+ 
+   ```PowerShell
+   $sfbusers=import-csv "c:\data\SfbUsers.csv"
+   foreach($user in $sfbusers){
+   Disable-CsUser -Identity $user.SipAddress}
+   ```
+
+   A continuación, para el mismo conjunto de usuarios, desactive el valor de msRTCSIP-DeploymentLocator con PowerShell de Active Directory local:
+
+   ```PowerShell
+   $sfbusers=import-csv "c:\data\SfbUsers.csv"
+   foreach($user in $sfbusers){
+   Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
+   ```
+
+5. Ejecute el siguiente cmdlet local de PowerShell de Skype Empresarial para agregar el valor de la dirección sip al proxy de Active Directory localAddresses. Esto evitará problemas de interoperabilidad que dependen de este atributo. 
+
+   ```PowerShell
+   $sfbusers=import-csv "c:\data\SfbUsers.csv"
+   foreach($user in $sfbusers){
+     $userUpn=$user.UserPrincipalName
+     $userSip=$user.SipAddress
+     $proxies=Get-ADUser -Filter "UserPrincipalName -eq '$userUpn'" -properties * | Select-Object @{Name="proxyAddresses";Expression={$_.proxyAddresses}}
+     if(($null -eq $proxies) -or ($proxies.proxyAddresses -NotContains $userSip))
+     {
+             Get-ADUser -Filter "UserPrincipalName -eq '$userUpn'" | Set-ADUser -Add @{"proxyAddresses"=$user.SipAddress}
+     }
+   }
+   ```
+
+6. Ejecutar Azure AD Sync
+
+   ```PowerShell
+   Start-ADSyncSyncCycle -PolicyType Delta
+   ```
+
+7. Espere a que se complete el aprovisionamiento de usuarios. Puede supervisar el progreso del aprovisionamiento de usuarios ejecutando el siguiente comando de PowerShell de Skype Empresarial Online. El siguiente comando de PowerShell de Skype Empresarial Online devuelve un resultado vacío en cuanto se complete el proceso.
+
+   ```PowerShell
+   Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
+   ```
+
+8. Ejecute el siguiente comando de PowerShell de Skype Empresarial Online para asignar números de teléfono y habilitar a los usuarios para el sistema telefónico:
+     
+   ```PowerShell
+   $sfbusers=import-csv "c:\data\SfbUsers.csv"
+   foreach($user in $sfbusers){
+   if($user.LineUri)
+        {
+                Set-CsUser -Identity $user.SipAddress -OnPremLineURI $user.LineUri -EnterpriseVoiceEnabled $True
+        }
+   }
     ```
 
-### <a name="manage-sip-addresses-and-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>Administrar direcciones SIP y números de teléfono para los usuarios que se migraron desde un entorno local
+   > [!Note]
+   >  Si todavía tiene puntos de conexión de Skype Empresarial (ya sea clientes de Skype o teléfonos de terceros), también querrá establecer -HostedVoiceMail en $true. Si su organización solo usa puntos de conexión de Teams para usuarios habilitados para voz, esta configuración no se aplica a los usuarios. 
 
-Los administradores pueden administrar los usuarios que se movieron previamente de un Skype Empresarial Server local a la nube, incluso después de retirar la implementación local. Si desea realizar cambios en la dirección SIP de un usuario o en el URI de línea de un usuario (y la dirección SIP o el URI de línea ya está definido en el Active Directory local), debe hacerlo en active directory local y permitir que los valores fluyan hasta Azure AD. Esto NO requiere Skype Empresarial Server local. En su lugar, puede modificar estos atributos directamente en el Active Directory local, mediante el complemento MMC Usuarios y equipos de Active Directory o mediante PowerShell. Si usa el complemento MMC, abra la página de propiedades del usuario, haga clic en la pestaña Editor de atributos y busque los atributos adecuados para modificar:
+9. Confirme que los usuarios con funcionalidad del sistema telefónico se han aprovisionado correctamente. El siguiente comando de PowerShell de Skype Empresarial Online devuelve un resultado vacío en cuanto se complete el proceso.
 
-- Para modificar la dirección SIP de un usuario, modifique `msRTCSIP-PrimaryUserAddress` el archivo . Además, si el atributo contiene un valor SIP, actualice ese valor SIP para que coincida `ProxyAddresses` con el nuevo valor de `msRTCSIP-PrimaryUserAddress` . Si no contiene un valor SIP, puede dejarlo en blanco.
+   ```PowerShell
+   $sfbusers=import-csv "c:\data\SfbUsers.csv"
+   foreach($user in $sfbusers)
+   {
+   if($user.LineUri)
+        {
+                $u=Get-CsOnlineUser -Identity $user.SipAddress
+                if ($u.LineURI -ne $user.LineUri -or $u.EnterpriseVoiceEnabled -ne $true)
+                {
+                Get-CsOnlineUser -Identity $user.SipAddress | fl SipAddress, InterpretedUserType, OnPremLineURI, LineURI, EnterpriseVoiceEnabled, HostedVoicemail
+                }
+        }
+   }
+   ``` 
 
-- Para modificar el número de teléfono de un usuario, modifique `msRTCSIP-Line` *si ya tiene un valor.*
+10. Repita los pasos del 3 al 9 hasta que se procese a todos los usuarios.
 
-  ![Herramienta de usuarios y equipos de Active Directory](../media/disable-hybrid-1.png)
-  
-Si el usuario no tenía originalmente un valor para local antes del traslado, puede modificar el LineURI con el parámetro - en el `LineURI` `onpremLineUri` cmdlet [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) en el módulo de PowerShell de Skype Empresarial Online.
+11. Confirme que todos los usuarios se han procesado correctamente ejecutando los dos comandos de PowerShell siguientes.
+
+    Comando de PowerShell local de Skype Empresarial Server local:
+
+    ```PowerShell
+    Get-CsUser | Select-Object SipAddress, UserPrincipalName
+    ``` 
+    Comando de PowerShell de Skype Empresarial Online:
+
+    ```PowerShell
+    Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
+    ``` 
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-[Consolidación de la nube para Teams y Skype Empresarial](cloud-consolidation.md)
+[Consolidación en la nube para Teams y Skype Empresarial](cloud-consolidation.md)

@@ -17,16 +17,16 @@ description: Obtenga información sobre cómo usar el informe de uso de RTC de T
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b6957effb494e2b7509d0e8ddc15f64baeb30be
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: a7783c3084beaa87b709ca1e9d5ab4e6932a5e59
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867059"
+ms.locfileid: "50875030"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Informe de uso de RTC de Microsoft Teams
 
-El informe de uso de RTC de Teams en el Centro de administración de Microsoft Teams le ofrece información general sobre la actividad de llamadas y audioconferencias en su organización. Puede ver la actividad de llamadas detallada para planes de llamadas si usa Microsoft como operador de telefonía y para enrutamiento directo si usa su propio operador de telefonía.
+El informe de uso de RTC (Red telefónica conmutada) de Teams en el Centro de administración de Microsoft Teams le ofrece información general sobre la actividad de llamadas y audioconferencias en su organización. Puede ver la actividad de llamadas detallada para planes de llamadas si usa Microsoft como operador de telefonía y para enrutamiento directo si usa su propio operador de telefonía.
 
 La **pestaña Planes de** llamadas muestra información que incluye el número de minutos que los usuarios han invertido en llamadas RTC entrantes y salientes y el costo de estas llamadas. La **pestaña Enrutamiento directo** muestra información, incluida la dirección SIP y las horas de inicio y finalización de las llamadas. Use la información de este informe para obtener información sobre el uso de RTC en su organización y ayudarle a investigar, planear y tomar decisiones empresariales.
 

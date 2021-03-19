@@ -1,5 +1,5 @@
 ---
-title: Implementar barras de colaboración para Microsoft Teams
+title: Implementar salas de Microsoft Teams en Android
 ms.author: mitressl
 author: flinchbot
 manager: serdars
@@ -14,63 +14,63 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Lea este artículo para obtener información sobre cómo implementar barras de colaboración para Microsoft Teams.
-ms.openlocfilehash: 41eb3335eef78f1da2c64b1df65443ba93d40159
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+description: Lea este artículo para obtener información sobre cómo implementar Salas de Microsoft Teams en Android.
+ms.openlocfilehash: bb02ff59eb473d0db276fd773e9f1ff3f1ae0007
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962911"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875010"
 ---
-# <a name="deploy-collaboration-bars-for-microsoft-teams"></a>Implementar barras de colaboración para Microsoft Teams
+# <a name="deploy-microsoft-teams-rooms-on-android"></a>Implementar salas de Microsoft Teams en Android
 
-La implementación de las barras de colaboración de Microsoft Teams se puede dividir en las siguientes fases:
+La implementación de salas de Microsoft Teams en Android se puede dividir en las siguientes fases:
 
-- **Disponibilidad del sitio** Confirme que las ubicaciones de implementación (salas) cumplen los requisitos de implementación.
-- **Disponibilidad del servicio** Crear cuentas de recursos y asignarlas a los dispositivos (consulte Crear una cuenta de recursos [mediante el Centro de administración de Microsoft 365).](resource-account-ui.md) Aunque recomendamos usar una licencia de sala dedicada, una cuenta de usuario final con licencia adecuada también puede iniciar sesión en barras de colaboración.
-- **Configuración e implementación** Configure barras de colaboración en salas y conecte los dispositivos periféricos que necesite (consulte la documentación del fabricante sobre las barras de colaboración).
+- **Preparación del sitio** Confirme que las ubicaciones de implementación (salas) cumplen los requisitos de implementación.
+- **Preparación del servicio** Cree cuentas de recursos y asígnelas a los dispositivos (vea Crear una cuenta de recursos con el Centro de administración de [Microsoft 365).](resource-account-ui.md) Aunque se recomienda usar una licencia de sala dedicada, una cuenta de usuario final con licencia adecuada también puede iniciar sesión en Salas de Teams en Android.
+- **Configuración e implementación** Configure salas de Teams y conecte los dispositivos periféricos que necesita (consulte la documentación del fabricante para obtener más información).
 
-Para administrar las barras de colaboración, debe ser administrador global, administrador del servicio de Teams o administrador de dispositivos de Teams. Para obtener más información sobre los roles de administrador, [consulte Usar roles de administrador de Microsoft Teams para administrar Teams.](../using-admin-roles.md)
+Para administrar salas de Teams, debe ser administrador global, administrador del servicio de Teams o administrador de dispositivos de Teams. Para obtener más información sobre los roles de administrador, vea [Usar roles de administrador de Microsoft Teams para administrar Teams.](../using-admin-roles.md)
 
-## <a name="site-readiness"></a>Disponibilidad del sitio
+## <a name="site-readiness"></a>Preparación del sitio
 
-Mientras los dispositivos ordenados se entregan a la organización, trabaje con sus equipos de redes, instalaciones y audio visual para asegurarse de que se cumplen los requisitos de implementación y que cada sitio y sala está preparado en términos de potencia, redes y pantalla.
+Mientras los dispositivos ordenados se entregan a su organización, trabaje con sus equipos de redes, instalaciones y audio visual para asegurarse de que se cumplen los requisitos de implementación y que cada sitio y salón está listo en términos de potencia, redes y pantalla.
 
-Nuestras recomendaciones para sitios de barras de colaboración son:
+Nuestras recomendaciones para los sitios de la barra de colaboración son:
 
-- Salas de hasta 4 personas en tamaño
+- Salas de hasta 5 personas en tamaño
 - Cuentas de recursos dedicadas
-- Pantallas táctiles
+- Pantallas táctiles habilitadas
 - Cableado Ethernet
-- Calidad de servicio (QoS) habilitada en la red para los medios de Microsoft Teams
+- Calidad de servicio (QoS) habilitado en la red para medios de Microsoft Teams
 
-Para las consideraciones de instalación física, consulte la documentación del fabricante y, si tiene una, aproveche la experiencia de su equipo de audio visual antes de instalar y montar pantallas y ejecutar el cableado.
+Para ver las consideraciones de instalación física, consulte la documentación del fabricante y, si tiene una, aproveche la experiencia de su equipo de audio visual antes de instalar y montar pantallas y ejecutar cableado.
 
 > [!TIP]
-> Asegúrese de comprobar Preparar la red para [Teams](../prepare-network.md) para planear el ancho de banda y evaluar la idoneidad de su red para el tráfico en tiempo real.
+> Asegúrese de consultar Preparar su red para [Teams](../prepare-network.md) para la planificación del ancho de banda y evaluar la idoneidad de su red para el tráfico en tiempo real.
 >
 > No se recomienda colocar servidores proxy entre dispositivos Teams e Internet. Para obtener más información sobre los servidores proxy y Teams, consulte [Servidores proxy para Teams.](../proxy-servers-for-skype-for-business-online.md)
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa los puntos de decisión](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que los sitios cumplen los requisitos de disponibilidad del sitio para las barras de colaboración de Microsoft Teams.</li><li>Confirme que ha proporcionado ancho de banda suficiente para cada sitio.</li></ul>|
-| ![Un icono que muestra los pasos siguientes](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a planear la configuración y la implementación de la barra de colaboración.</li></ul>|
+| ![Un icono que representa los puntos de decisión](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que los sitios cumplen los requisitos de preparación del sitio para las barras de colaboración de Microsoft Teams.</li><li>Confirme que ha proporcionado ancho de banda suficiente para cada sitio.</li></ul>|
+| ![Un icono que muestra los pasos siguientes](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a planear la implementación y la configuración de la barra de colaboración.</li></ul>|
 
 ## <a name="service-readiness"></a>Preparación del servicio
 
-Antes de implementar las barras de colaboración, debe decidir si usarán cuentas de recursos de Microsoft 365, cuentas de usuario final o una combinación de ambos. Las cuentas de recursos de Microsoft 365 son cuentas de buzón y de Teams que están dedicadas a recursos específicos, como una sala, proyector, entre otras. Estas cuentas de recursos pueden responder automáticamente a las invitaciones a reuniones mediante las reglas que defina cuando se crean. A menos que una barra de colaboración esté dedicada a una persona específica para su uso privado, se recomienda configurar una cuenta de recursos de Microsoft 365 para ella.
+Antes de implementar salas de Teams, debe decidir si usarán cuentas de recursos de Microsoft 365, cuentas de usuario final o una mezcla de ambas. Las cuentas de recursos de Microsoft 365 son cuentas de buzón y de Teams dedicadas a recursos específicos, como un salón, un proyector, entre otros. Estas cuentas de recursos pueden responder automáticamente a las invitaciones a reuniones mediante reglas que defina cuando se crean. A menos que Teams Rooms esté dedicado a una persona específica para su uso privado, se recomienda configurar una cuenta de recursos de Microsoft 365 para ella.
 
 ### <a name="using-a-resource-account"></a>Usar una cuenta de recursos
 
-Si decide configurar una cuenta de recursos de Microsoft 365, tendrá que comprar una licencia de Sala de reuniones para ella. La licencia de sala de reuniones incluye un buzón de recursos que permite a los usuarios de su organización reservar la sala de reuniones a través de Outlook o Teams. La licencia también habilita las videoconferencias y audioconferencias y el uso compartido de la pantalla entre los participantes de la reunión.
+Si decide configurar una cuenta de recursos de Microsoft 365, tendrá que comprar una licencia de sala de reuniones para ella. La licencia de sala de reuniones incluye un buzón de recursos que permite a los usuarios de su organización reservar la sala de reuniones a través de Outlook o Teams. La licencia también permite videoconferencias y audioconferencias y uso compartido de pantalla entre los participantes de la reunión.
 
-Si necesita recibir o realizar llamadas a un número de teléfono externo, es posible que necesite una licencia de plan de llamadas o del complemento Microsoft 365 Business [Voice.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business) Si ha habilitado el enrutamiento directo en su organización, solo necesita la SKU de la sala de reuniones.
+Si necesita recibir o realizar llamadas a o desde un número de teléfono externo, es posible que necesite un plan de llamadas o una licencia de complemento de Microsoft 365 Business [Voice.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business) Si tiene enrutamiento directo habilitado en su organización, solo necesita la SKU de la sala de reuniones.
 
-Cuando crea una cuenta de recurso, puede elegir si quiere permitir que la cuenta acepte o rechace automáticamente las solicitudes de reunión, permita reuniones periódicas, especifique con qué antelación las personas pueden reservar el recurso, y así sucesivamente.
+Al crear una cuenta de recursos, puede elegir si quiere permitir que la cuenta acepte o rechace automáticamente las solicitudes de reunión, permita reuniones periódicas, especifique con qué antelación los usuarios pueden reservar el recurso, y así sucesivamente.
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-Para obtener más información sobre las barras de colaboración de las cuentas de recursos de Microsoft 365, vea Crear una cuenta de recurso mediante el Centro de administración [de Microsoft 365.](resource-account-ui.md)
+Para obtener más información sobre las cuentas de recursos de Microsoft 365, vea Crear una cuenta de recursos con el Centro de administración [de Microsoft 365.](resource-account-ui.md)
 
 |    |     |
 |-----------|------------|
@@ -83,18 +83,18 @@ La planificación de la configuración y la implementación abarca las siguiente
 
 - Aprovisionamiento de cuentas de recursos
 - Implementación de dispositivos
-- Barras de colaboración para la aplicación Microsoft Teams y la configuración del dispositivo periférico
+- Configuración de dispositivos periféricos y aplicaciones de Teams Rooms
 -  Pruebas
 - Administración de activos
 
-### <a name="account-provisioning"></a>Aprovisionamiento de cuenta
+### <a name="account-provisioning"></a>Aprovisionamiento de cuentas
 
-Si tiene previsto usar cuentas de recursos de Microsoft 365 para permitir que los usuarios reserven barras de colaboración, siga las instrucciones de Crear una cuenta de recurso mediante el Centro de administración de [Microsoft 365](resource-account-ui.md) para crear una cuenta de recursos de Microsoft 365 para cada barra de colaboración que necesite una. Aquí también es donde deberá agregar una licencia de sala de reuniones a la cuenta del recurso y, si desea realizar o recibir llamadas a o desde números de teléfono externos, un plan de llamadas o una licencia de Business Voice si su organización no está usando enrutamiento directo.
+Si tiene previsto usar cuentas de recursos de Microsoft 365 para permitir a los usuarios reservar barras de colaboración, siga las instrucciones de Crear una cuenta de recursos con el Centro de administración de [Microsoft 365](resource-account-ui.md) para crear una cuenta de recursos de Microsoft 365 para cada barra de colaboración que necesite una. Aquí también es donde tendrá que agregar una licencia de sala de reuniones a la cuenta de recursos y, si desea realizar o recibir llamadas a o desde números de teléfono externos, una licencia de Plan de llamadas o Voz empresarial si su organización no usa enrutamiento directo.
 
-Si desea asignar barras de colaboración a usuarios individuales para su uso privado, no es necesario configurar ninguna cuenta adicional. Los usuarios pueden iniciar sesión en barras de colaboración con sus cuentas personales.
+Si desea asignar salas de Teams a usuarios individuales para su uso privado, no es necesario configurar cuentas adicionales. Los usuarios pueden iniciar sesión en barras de colaboración con sus cuentas personales.
 
 > [!TIP]
-> Haga que los nombres para mostrar de las cuentas de recursos de Microsoft 365 sea descriptivos y fáciles de entender. Estos son los nombres que verán los usuarios al buscar y agregar barras de colaboración de Microsoft Teams a las reuniones. Podría usar una convención como el nombre de la sala del sitio (capacidad máxima de la sala), por lo que, por ejemplo, Curie, una sala de reuniones para 4 personas en Londres, podría tener el nombre para mostrar - LON-CURIE(4).
+> Haga que los nombres para mostrar de sus cuentas de recursos de Microsoft 365 describen y comprendan fácilmente. Estos son los nombres que verán los usuarios al buscar y agregar salas de Teams a las reuniones. Puede usar una convención como *Nombre* del salón de sitio (capacidad máxima de la sala), por lo que, por ejemplo, Curie, una sala de reuniones de 4 personas en Londres, podría tener el nombre para mostrar - LON-CURIE(4).
 
 |    |     |
 |-----------|------------|
@@ -103,25 +103,25 @@ Si desea asignar barras de colaboración a usuarios individuales para su uso pri
 
 ### <a name="device-deployment"></a>Implementación de dispositivos
 
-A continuación, debe crear su plan para entregar los dispositivos y sus dispositivos periféricos asignados a sus salas y, después, continuar con la instalación y configuración.
+A continuación, debe crear su plan para entregar los dispositivos y sus dispositivos periféricos asignados a sus salas y, después, continuar con la instalación y la configuración.
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa los puntos de decisión](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida quién administrará la implementación de sitio por sitio.</li><li> Identifique los recursos que instalarán las barras de colaboración de Microsoft Teams en el sitio y realicen la configuración y las pruebas.</li></ul>|
-| ![Un icono que muestra los pasos siguientes](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Iniciar pruebas de dispositivo.</li></ul>|
+| ![Un icono que representa los puntos de decisión](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida quién administrará la implementación de sitio por sitio.</li><li> Identifique los recursos que instalarán Teams Rooms en el sitio y realice la configuración y las pruebas.</li></ul>|
+| ![Un icono que muestra los pasos siguientes](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Iniciar pruebas de dispositivos.</li></ul>|
 
 ### <a name="testing"></a> Pruebas
 
-Una vez que se hayan implementado las barras de colaboración de Microsoft Teams, debería probarlos. Inicie sesión en el dispositivo y compruebe que las capacidades esperadas estén funcionando en el dispositivo implementado. Se recomienda comprobar que los dispositivos aparecen  en la  sección Barras de colaboración de la pestaña Dispositivos del Centro de administración de Microsoft Teams. También es importante que realice varias llamadas de prueba y reuniones para comprobar la calidad y el rendimiento.
+Después de implementar Salas de Teams, debe probarlos. Inicie sesión en Salas de Teams y compruebe que las capacidades esperadas funcionan. Le recomendamos que compruebe que aparecen  en la sección  Barras de colaboración de la pestaña Dispositivos del Centro de administración de Microsoft Teams. También es importante que realice una serie de llamadas de prueba y reuniones para comprobar la calidad y el rendimiento.
 
-Le recomendamos que, como parte de la implementación general de Microsoft Teams, configure la creación de archivos para el panel de calidad de llamadas, supervisar tendencias de calidad y participar en el proceso de revisión de la calidad de la experiencia. Para obtener más información, vea la [Guía de revisión de la calidad de la experiencia.](https://aka.ms/qerguide)
+Le recomendamos que, como parte de la implementación general de Microsoft Teams, configure la creación de archivos para el Panel de calidad de llamadas (CQD), supervise las tendencias de calidad y participe en el proceso de revisión de calidad de la experiencia. Para obtener más información, vea la [Guía de revisión de calidad de la experiencia.](https://aka.ms/qerguide)
 
 ### <a name="asset-management"></a>Administración de activos
 
-Como parte de la implementación, tendrá que actualizar el registro de activos con el nombre del salón, la cuenta de recursos con la sesión firmada y los dispositivos periféricos asignados.
+Como parte de la implementación, querrá actualizar el registro de activos con el nombre del salón, la cuenta de recursos que ha iniciado sesión y los dispositivos periféricos asignados.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Configurar cuentas para las barras de colaboración de Microsoft Teams con el Centro de administración de Microsoft Teams](resource-account-ui.md)
+[Configurar cuentas para salas de Microsoft Teams con el Centro de administración de Microsoft Teams](resource-account-ui.md)
 
 <!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->
