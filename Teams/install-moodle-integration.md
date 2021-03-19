@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36b966748fe88b8fec803adc7f9f898e247cdec9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d51aba578de4dc5245a8d9459b160e5743b786a5
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508337"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867119"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Instalación de la integración de Moodle con Microsoft Teams
 
@@ -41,7 +41,7 @@ Para ayudar a los administradores de ti a configurar fácilmente esta integraci�
 * Instalación automática de la pestaña Moodle y el bot moodle Assistant en cada equipo sincronizado. (Próximamente)
 * Publicación con un solo clic de la aplicación de Moodle en su tienda de aplicaciones de equipos privados. (Próximamente)
 
-Para obtener más información sobre la funcionalidad que ofrece esta integración, vaya [aquí](https://education.microsoft.com/courses-and-resources/resources/microsoft-teams-moodle).
+Para obtener más información sobre la funcionalidad que proporciona esta integración, vea Instalar la integración [de Moodle con Microsoft Teams.](https://docs.microsoft.com/microsoftteams/platform/resources/moodleinstructions)
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -59,10 +59,10 @@ La integración de Moodle en Microsoft Teams está impulsada por el [conjunto de
 
 1. En primer lugar, descargue el [conjunto de complementos de Moodle](https://moodle.org/plugins/pluginversions.php?plugin=local_o365) y guárdelo en su equipo local. Tendrá que usar la versión 3,5 o posterior.
     * Al instalar el complemento local_o365, también se instalará el [auth_oidc](https://moodle.org/plugins/auth_oidc) y complementos [boost_o365Teams](https://moodle.org/plugins/pluginversions.php?plugin=theme_boost_o365teams).
-1. Inicie sesión en el servidor de Moodle como administrador y seleccione **administración del sitio** en el panel de navegación izquierdo.
+1. Inicie sesión en el servidor de Moodle como administrador y seleccione **Administración del sitio** en el panel de navegación izquierdo.
 1. Seleccione la pestaña **complementos** y, después, haga clic en **instalar complementos**.
 1. En la sección **Instalar complemento de archivo ZIP** haga clic en el botón **Elegir un archivo**.
-1. Seleccione la **Cargar un archivo** opciones en el panel de navegación izquierdo, busque el archivo que descargó anteriormente y haga clic en **Cargar este archivo**.
+1. Seleccione la **opción Cargar un archivo** en el panel de navegación izquierdo, busque el archivo que descargó anteriormente y haga clic en Cargar este **archivo.**
 1. Seleccione la opción **Administración del sitio** en el panel de navegación izquierdo para volver al panel de administración. Desplácese hacia abajo hasta el **Complementos locales** y haga clic en el vínculo **Integración con Microsoft Office 365**. Mantenga esta página de configuración abierta en una pestaña del explorador independiente, ya que la usará durante el resto de este proceso.
 
 Puede encontrar más información sobre cómo instalar complementos de Moodle en la [Documentación de Moodle](https://docs.moodle.org/34/en/Installing_plugins).
@@ -117,7 +117,7 @@ A continuación, tendrá que registrarse en Moodle como una aplicación en Azure
     * En la sección **Sincronizar usuarios con Azure AD**, active las casillas de verificación correspondientes a su entorno. Por lo general, tendría que seleccionar como mínimo:
         * Crear cuentas en Moodle para usuarios en Azure AD
         * Actualizar todas las cuentas en Moodle para los usuarios en Azure AD
-    * En la sección **Restricción de creación de usuarios** se puede configurar un filtro para limitar los usuarios de Azure AD que se sincronizarán con Moodle.
+    * En la **sección Restricción de creación de** usuarios puede configurar un filtro para limitar los usuarios de Azure AD que se sincronizarán con Moodle.
     * La sección **Asignación de campos de usuario** le permite personalizar Azure AD para Moodle asignación de campos de Perfil de usuario.
     * En la sección **Sincronizar los equipos** puede elegir crear automáticamente grupos (por ejemplo, Teams) para algunos o todos los cursos de Moodle existentes.
 1. Para validar los trabajos de cron (y ejecutarlos de forma manual si lo desea, para la primera ejecución), haga clic en la página **Administración de tareas programadas** en la sección **Sincronizar usuarios con Azure AD**. Esto le llevará a la página **Tareas programadas**.
@@ -127,7 +127,7 @@ A continuación, tendrá que registrarse en Moodle como una aplicación en Azure
     * Para habilitar OpenID Connect, haga clic en el vínculo **Administrar la autenticación** y, después, haga clic en el icono de ojo de la línea de **OpenId Connect** si está atenuada.
     * A continuación, debe habilitar la incrustación de Marcos. Haga clic en el vínculo **Seguridad HTTP** y, después, haga clic en la casilla de verificación situada junto a **Permitir incrustar marco**.
     * El siguiente paso es habilitar los servicios web que habilitarán las características de la API Moodle. Haga clic en el vínculo **Características avanzadas** y, después, asegúrese de que la casilla de verificación situada junto a **Habilitar los servicios web** está activada.
-    * Por último, tendrá que habilitar los servicios externos de Microsoft 365 u Office 365. Haga clic en el vínculo **Servicios externos** :
+    * Por último, tendrá que habilitar los servicios externos para Microsoft 365 u Office 365. Haga clic en el vínculo **Servicios externos** :
         * Haga clic en **Editar** en la fila **Moodle Webservices de Office 365**.
         * Marque la casilla de verificación situada junto a **Activada** y, a continuación, haga clic en **Guardar cambios.**
     * A continuación, tendrá que editar los permisos de usuario autenticados para permitirles crear tokens de servicio Web. Haga clic en el vínculo **Función de edición "usuario autenticado"**. Desplácese hacia abajo y busque la función **crear un token de servicio Web** y marque la casilla de verificación **Permitir**.
@@ -151,14 +151,14 @@ Para instalar el bot, en primer lugar debe registrarlo en la [Plataforma de iden
 
 1. Vuelva a la página de administración del complemento (administración de sitios > Complementos > la integración de Microsoft 365) y seleccione la pestaña **Configuración de Teams**.
 1. Haga clic en el **Portal de registro de aplicaciones de Microsoft** vínculo e inicie sesión con su ID. de Microsoft.
-1. Escriba un nombre para la aplicación (ej. MoodleBot) y haga clic en el botón **Crear**.
+1. Escriba un nombre para la aplicación (por ejemplo. MoodleBot) y haga clic en el botón **Crear**.
 1. Copie el **Identificador de la aplicación** y péguela en el campo **ID. de aplicación de robots** en la página **Configuración del equipo**.
-1. Haga clic en el botón **Generar nueva contraseña**. Copie la contraseña generada y péguela en el campo de la **Contraseña de la aplicación bot** en la página **Configuración del grupo**.
+1. Haga clic en el botón **Generar nueva contraseña**. Copie la contraseña generada y péguela en el campo **Contraseña de** la aplicación bot en la página **Configuración del** equipo.
 1. Desplácese hasta la parte inferior del formulario y haga clic en **Guardar cambios**.
 
 Ahora que ha generado el identificador de la aplicación y la contraseña, es el momento de implementar el bot en Azure. Haga clic en el botón **Implementar en Azure** y rellene el formulario con la información necesaria (el ID. de aplicación de bot, la contraseña de la aplicación de Bot y el secreto de Moodle se encuentran en la página **Configuración de equipo** y la información de Azure se encuentra en la página **instalación**). Cuando haya rellenado el formulario, haga clic en la casilla de verificación para aceptar los términos y condiciones y, a continuación, haga clic en el botón **Comprar** (todos los recursos de Azure se implementan en el nivel gratuito).
 
-Una vez que los recursos finalicen la implementación en Azure, tendrá que configurar el complemento de Moodle con el punto de conexión de mensajería de. En primer lugar, tendrá que obtener el extremo de su bot en Azure. Siga estos pasos:
+Una vez que los recursos terminen de implementarse en Azure, deberá configurar el complemento Moodle con su punto de conexión de mensajería. En primer lugar, tendrá que obtener el extremo de su bot en Azure. Siga estos pasos:
 
 1. Si aún no lo ha hecho, inicie sesión en el[Microsoft Azure Portal](https://portal.azure.com).
 2. En el panel izquierdo, seleccione **Grupos de recursos**.
@@ -179,7 +179,7 @@ Ahora que ya ha implementado el bot en Azure y está configurado para hablar con
 Antes de poder instalar la aplicación, debe asegurarse de que las aplicaciones externas y la instalación de prueba de aplicaciones estén habilitadas. Para realizar esta acción, puede seguir [estos pasos](https://docs.microsoft.com/MicrosoftTeams/admin-settings). Cuando haya asegurado de que las aplicaciones externas estén habilitadas, puede seguir los pasos que se indican a continuación para implementar la aplicación.
 
 1. Abra Microsoft Teams.
-2. Haga clic en el icono **Tienda** en la esquina inferior izquierda de la barra de navegación.
+2. Haga clic en **el icono** Tienda en la parte inferior izquierda de la barra de navegación.
 3. Haga clic en el vínculo **Cargar una aplicación personalizada** de la lista de opciones. *Nota:* si ha iniciado sesión como administrador global, tiene la opción de cargar la aplicación en la tienda de aplicaciones de su organización, de lo contrario, solo podrá cargar la aplicación de los equipos de los que forme parte ("transferencia local").
 4. Seleccione el `manifest.zip`paquete que ha descargado previamente y haga clic en **Guardar**. Si aún no ha descargado el paquete del manifiesto, puede hacerlo desde la pestaña **Configuración del equipo** de la página Configuración del complemento en Moodle.
 

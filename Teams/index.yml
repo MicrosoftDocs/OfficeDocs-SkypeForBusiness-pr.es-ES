@@ -13,12 +13,12 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 4063aca5206303a43f66dbf8c8b002cd8ae53d59
-  ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+  ms.openlocfilehash: 22420146412092326f4a93485d05c12911240e39
+  ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/01/2021
-  ms.locfileid: "50395392"
+  ms.lasthandoff: 03/18/2021
+  ms.locfileid: "50867099"
 highlightedContent:
   items:
   - title: Servicio de asistencia para trabajadores remotos con Teams
@@ -72,7 +72,7 @@ tools:
   - title: Blogs de Teams y Tech Community
     imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
     url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-  - title: UserVoice de Teams (foro de comentarios del usuario)
+  - title: Comentarios sobre los productos de Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/user.svg
     url: https://microsoftteams.uservoice.com/
   - title: Descargar Microsoft Teams

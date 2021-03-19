@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49f65e1ff47caefd61a9b2753b12da23fd2184e9
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401324"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867069"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiencia de reunión solo vista de Teams
 
 > [!Note]
-> La experiencia de reunión solo vista estará disponible a principios de marzo de 2021. Esta característica se habilitará el 1 de marzo de 2021 como desactivado predeterminado. Debe cambiar la directiva predeterminada después de esa fecha si desea que la característica sea predeterminada. Use PowerShell para habilitar la directiva `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` .
+> Las transmisiones solo vistas estarán disponibles en Microsoft 365 E3/E5 y Microsoft 365 A3/A5. Esta característica se habilitará el 1 de marzo de 2021 como desactivado predeterminado. Esta característica en los planes G3/G5 de Microsoft 365 Government estará disponible más adelante. Debe cambiar la directiva predeterminada después de esa fecha si desea que la característica sea predeterminada. Use PowerShell para habilitar la directiva `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` .
 
 > [!Note]
 > Si su reunión o seminario web alcanza la capacidad, Teams escalará sin problemas para dar cabida a una experiencia de difusión solo para 10 000 personas. Además, durante este tiempo de mayor trabajo remoto, aproveche las transmisiones de más de 20.000 personas hasta finales de este año.
@@ -65,7 +65,7 @@ Cuando se haya alcanzado la capacidad de la reunión principal, los asistentes n
 
 Cuando se haya alcanzado la capacidad de la reunión principal, el organizador de la reunión y los presentadores verán una pancarta en la que se les informará de que se ha alcanzado la capacidad de la reunión y de que los nuevos asistentes se unirán a un asistente de solo vista.
 
-  ![el cliente de Teams y el desorden de pancartas para organizadores y presentadores](media/chat-and-banner-message.png)
+  ![el mensaje de cliente y pancarta de Teams para organizadores y presentadores](media/chat-and-banner-message.png)
 
 Cuando se haya alcanzado la capacidad de la reunión principal, se informará a los asistentes de la reunión en la pantalla anterior a la unirse de que se unen en modo de solo vista.
 
@@ -84,7 +84,7 @@ Entre las limitaciones para los presentadores de reuniones se incluyen:
 - No puede quitar un asistente de solo vista de la reunión.
 
 > [!Note]
-> El recuento de asistentes solo reflejará las personas de la reunión y no las personas de la sala de desbordamiento. Por lo tanto, los presentadores no pueden obtener un recuento exacto de quién está en la experiencia de solo vista.
+> El recuento de asistentes solo reflejará las personas de la reunión y no las personas de la sala de solo vista. Por lo tanto, los presentadores no pueden obtener un recuento exacto de quién está en la experiencia de solo vista.
 
 ## <a name="experience-for-view-only-attendees"></a>Experiencia para asistentes solo vistas
 
@@ -97,8 +97,8 @@ La experiencia de solo vista de Teams permite a los asistentes:
 El asistente de solo vista no podrá experimentar las siguientes opciones en las reuniones:
 
 - Únase a la reunión si el asistente no tiene permiso para omitir la sala de espera en función de las opciones o directivas de la sala de espera establecidas.
-- Unirse a la sala de desbordamiento a través de audioconferencias.
-- Únase a la sala de desbordamiento a través del sistema de sala de Microsoft Teams o a través de los servicios de interoperabilidad de vídeo en la nube (CVI).
+- Únase a la sala de solo vista con audioconferencias.
+- Únase a la sala de solo vista con el sistema de sala de Microsoft Teams o con los servicios de interoperabilidad de vídeo en la nube (CVI).
 - Comparta su audio o vídeo.
 - Ver o participar en el chat de la reunión.
 - Vea la fuente de vídeo de los participantes de la reunión a menos que el participante sea el orador activo.
@@ -114,8 +114,3 @@ El asistente de solo vista no podrá experimentar las siguientes opciones en las
 - Los asistentes solo vistas no tendrán la misma latencia que un asistente normal. <sup>1</sup>
 
   <sup>1 Los</sup> asistentes solo vistos tendrán un retraso de vídeo y audio de 30 segundos en la reunión.  
-
-## <a name="related-topics"></a>Temas relacionados
-
-- [Complemento de comunicaciones avanzadas para Teams](teams-add-on-licensing/advanced-communications.md)
-- [Especificaciones y límites de Teams](limits-specifications-teams.md)
