@@ -24,10 +24,10 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para España.
+description: A continuación se indican los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para España.
 ms.openlocfilehash: c05ae855f7c51ab5d4a4618fb5c7934d56d2590f
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/14/2020
 ms.locfileid: "44230708"
@@ -36,7 +36,7 @@ ms.locfileid: "44230708"
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para España.
+A continuación se indican los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para España.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

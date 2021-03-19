@@ -22,20 +22,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Obtenga más información sobre cómo habilitar o deshabilitar el acceso de invitado en Microsoft Teams como administrador de Office 365.
-ms.openlocfilehash: aaf37fda456f0e48d441e78f785a3ce450f1f42c
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786782"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884524"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Active o desactive el acceso de invitado a Microsoft Teams
 
 > [!Note]
 
-> Hasta **febrero de 2021,** el acceso de invitado está desactivado de forma predeterminada. Debe habilitar el acceso de invitado para Teams antes de que los administradores o los propietarios del equipo puedan agregar invitados. Después de activar el acceso de invitado, los cambios pueden tardar unas horas en tener efecto. Si los usuarios  ven el mensaje póngase en contacto con el administrador cuando intentan agregar un invitado a su equipo, es probable que el acceso de invitado no se haya activado o que la configuración no sea eficaz todavía. 
+> Hasta **febrero de 2021,** el acceso de invitado está desactivado de forma predeterminada. Debe habilitar el acceso de invitado para Teams antes de que los administradores o los propietarios del equipo puedan agregar invitados. Después de activar el acceso de invitado, es posible que los cambios tarden unas horas en tener efecto. Si los usuarios  ven el mensaje Póngase en contacto con el administrador cuando intenten agregar un invitado a su equipo, es probable que no se haya activado el acceso de invitado o que la configuración aún no sea efectiva.
 
-> A partir de febrero de **2021,** el acceso de invitado en Microsoft Teams estará activado de forma predeterminada para los nuevos clientes & clientes existentes que no hayan configurado esta configuración. Cuando se implemente este cambio, si aún no ha configurado la funcionalidad de acceso de invitado en Microsoft Teams, esa funcionalidad se habilitará en su inquilino. Si desea que el acceso de invitado permanezca deshabilitado para su organización, tendrá  que confirmar que la configuración de acceso de invitado está desactivada en lugar del **valor predeterminado del servicio.**
+> Después de febrero de **2021,** el acceso de invitado en Microsoft Teams estará activado de forma predeterminada para los nuevos clientes & clientes existentes que no hayan configurado esta configuración. Cuando se implemente este cambio, si aún no ha configurado la capacidad de acceso de invitado en Microsoft Teams, esa capacidad se habilitará en el espacio empresarial. Si desea que el acceso de invitado permanezca deshabilitado para su organización, tendrá que confirmar que la configuración de acceso de invitado está establecida en **Desactivado** en lugar de **Servicio predeterminado.**
 
 > [!IMPORTANT]
 > El habilitar el acceso de invitado depende de las características de Azure Active Directory, Microsoft 365, SharePoint y Teams. Para obtener más información, consulte [Colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
@@ -48,7 +48,7 @@ ms.locfileid: "49786782"
 
 3. Establezca cambiar **Permitir el acceso de invitado en Microsoft Teams** en **Activado**.
 
-    ![Opción Permitir el acceso de invitado activada ](media/set-up-guests-image1.png)
+    ![Opción Permitir el acceso de invitado activada ](media/guest-access-setting.png)
 
 4. En **Llamadas**, **Reunión** y **Mensajería** seleccione **Activado** o **Desactivado** según se requiera, según las funciones que quiera permitir para los usuarios invitados.
 
@@ -66,7 +66,7 @@ ms.locfileid: "49786782"
       - **Clasificación de contenido Giphy**: seleccione una clasificación de la lista desplegable:
           - **Permitir todo el contenido**: los invitados podrán insertar todos los Giphy en chats, independientemente de la clasificación de contenido.
           - **Moderado**: los invitados pueden insertar imágenes Giphy en los chats, pero el contenido para adultos estará restringido de forma moderada.
-          - **Estricto:** los invitados pueden insertar imágenes de Giphy en los chats, pero no podrán insertar contenido para adultos.
+          - **Estricto:** los invitados pueden insertar Giphys en chats, pero no podrán insertar contenido para adultos.
       - **Use memes en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen Memes en conversaciones.
       - **Usar adhesivos en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen adhesivos en conversaciones.
 
