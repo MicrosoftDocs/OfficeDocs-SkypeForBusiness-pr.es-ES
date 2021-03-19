@@ -11,7 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Aprenda a configurar una directiva de reunión para permitir que los usuarios compartan sus escritorios en reuniones o chats de Teams.
+description: Aprenda a configurar una directiva de reuniones que permita a los usuarios compartir sus escritorios en los chats o reuniones de Teams.
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d75e540de7e40206f0b1dd15e26adc62d6f6baa7
 ms.sourcegitcommit: d27b97f012d0cb3f1690d3673d50bbaa0caae16f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/14/2020
 ms.locfileid: "47652482"
@@ -40,11 +40,11 @@ Para configurar el uso compartido de la pantalla, debe crear una nueva Directiva
 
 1. Seleccione **Reuniones** > **Directivas de reunión**.
 
-    ![Directivas de reunión seleccionadas](media/configure-desktop-sharing-image1.png)
+    ![Directivas de reuniones seleccionadas](media/configure-desktop-sharing-image1.png)
 
-2. En la **página Directivas de** reunión, seleccione **Agregar.**
+2. En la página **Directivas de reunión**, seleccione **Agregar**.
 
-    ![Mensaje directivas de reunión](media/addMeeting.png)
+    ![El mensaje de directivas de reunión](media/addMeeting.png)
 
 3. Asigne un título único a la directiva y escriba una breve descripción.
 
@@ -57,12 +57,12 @@ Para configurar el uso compartido de la pantalla, debe crear una nueva Directiva
     ![Las opciones del modo de uso compartido](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
-  > No es momento de habilitar la directiva de llamadas para que los usuarios puedan usar el uso compartido de la pantalla del chat. Sin embargo, el audio se desactivará hasta que se reanmuten. Además, el usuario que comparte la pantalla puede hacer clic **en Agregar audio** para habilitar el audio. Si la directiva de llamadas está deshabilitada, los usuarios no podrán agregar audio al recurso compartido de pantalla desde una sesión de chat.
+  > No tiene que habilitar la directiva de llamada para que los usuarios puedan usar el recurso compartido de pantalla desde el chat. Sin embargo, su audio se desactivará hasta lo activen ellos mismos. Además, el usuario que comparte la pantalla puede hacer clic en **Agregar audio** para habilitar el audio. Si la directiva de llamada está deshabilitada, los usuarios no podrán agregar audio a la pantalla compartida desde una sesión de chat.
 
 5. Activar o desactivar la siguiente configuración:
 
-    - **Permitir que un participante dé o solicite el control:** permite a los miembros del equipo ceder o solicitar el control del escritorio o la aplicación del moderador.
-    - **Permitir que un participante externo dé o solicite el control:** esta es una directiva por usuario. Que una organización haya definido esto para un usuario no controla lo que puedan hacer los participantes externos, independientemente de lo que haya configurado el organizador de la reunión. Lo que controla este parámetro es si los participantes externos pueden recibir o solicitar el control de la pantalla que comparten, en función de lo que la persona que comparte haya establecido en las directivas de reuniones de su organización.
+    - **Permitir que un participante ceda o solicite control**: permite a los miembros del equipo ceder o dar el control de la aplicación o el escritorio del presentador.
+    - **Permitir a un participante externo ceder o solicitar el control**: esta es una directiva por usuario. Que una organización haya definido esto para un usuario no controla lo que puedan hacer los participantes externos, independientemente de lo que haya configurado el organizador de la reunión. Lo que controla este parámetro es si los participantes externos pueden recibir o solicitar el control de la pantalla que comparten, en función de lo que la persona que comparte haya establecido en las directivas de reuniones de su organización.
     - **Permitir el uso compartido de PowerPoint**: permite a los usuarios crear reuniones que permiten cargar y compartir presentaciones de PowerPoint.
     - **Permitir pizarra**: permite a los usuarios compartir una pizarra.
     - **Permitir notas compartidas**: permite a los usuarios tomar notas compartidas.

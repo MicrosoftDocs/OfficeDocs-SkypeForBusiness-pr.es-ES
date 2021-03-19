@@ -1,12 +1,12 @@
-Esta tabla describe cómo Teams usa el ancho de banda. Teams siempre es conservada en relación con el uso del ancho de banda y puede ofrecer calidad de vídeo de alta definición en menos de 1,2 Mbps. El consumo de ancho de banda real en cada llamada o reunión o llamada de audio o vídeo variará en función de varios factores, como el diseño de vídeo, la resolución de vídeo y los fotogramas de vídeo por segundo. Cuando haya más ancho de banda disponible, la calidad y el uso aumentarán para ofrecer la mejor experiencia.
+Esta tabla describe cómo Teams usa el ancho de banda. Teams siempre hace un uso conservador del ancho de banda y puede ofrecer una calidad de vídeo de alta definición con menos de 1,2 Mb/s. El consumo real de ancho de banda en cada llamada de audio o vídeo o reunión varía en función de varios factores, como el diseño de vídeo, la resolución de vídeo y los fotogramas por segundo del vídeo. Cuando se disponga de más ancho de banda, la calidad y el uso se incrementarán para proporcionar la mejor experiencia.
 
 
-|Ancho de banda(arriba/abajo) |Escenarios |
+|Ancho de banda (arriba/abajo) |Escenarios |
 |---|---|
-|30 kbps |Llamadas de audio de punto a punto |
-|130 kbps |Llamadas de audio de punto a punto y pantalla compartida |
-|500 kbps |Videollamadas de calidad de punto a punto 360p a 30fps |
-|1,2 Mbps |Videollamadas de calidad HD de punto a punto con resolución HD 720p a 30fps |
-|1,5 Mbps |Videollamadas de calidad HD de punto a punto con resolución HD 1080p a 30fps |
-|500 kbps/1 Mbps |Videollamadas grupales |
-|1 Mbps/2 Mbps |Videollamadas grupales HD (vídeos de 540p en pantalla de 1080p) |
+|30 kb/s |Llamadas de audio punto a punto |
+|130 kb/s |Llamadas de audio punto a punto y uso compartido de la pantalla |
+|500 kb/s |Videollamadas de calidad de punto a punto 360p a 30 fps |
+|1,2 Mb/s |Videollamadas de calidad HD de punto a punto con resolución de HD 720p a 30 fps |
+|1,5 Mb/s |Videollamadas de calidad HD de punto a punto con resolución de HD 1080p a 30 fps |
+|500 kb/s o 1 Mb/s |Videollamadas de grupo |
+|1 Mb/s o 2 Mb/s |Videollamadas de grupo HD (vídeos de 540p en pantalla de 1080p) |
