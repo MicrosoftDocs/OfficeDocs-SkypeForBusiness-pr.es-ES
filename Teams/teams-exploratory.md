@@ -18,16 +18,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aa7b0a26e947eaa961db5d5be3b793d50474867
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: bb5e415128baae6bfc458b5d0000128010a9b5cd
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196474"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867049"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Administrar la licencia de Microsoft Teams Exploratory
 
-La experiencia de Microsoft Teams Exploratory permite a los usuarios de la organización que tienen Azure Active Directory (Azure AD) y carecen de una licencia para Teams iniciar una experiencia exploratoria de Teams. Los administradores pueden activar o desactivar esta característica para los usuarios de su organización. La versión anterior de la [Prueba en la nube comercial de Microsoft](iw-trial-teams.md) se ha reemplazado por la experiencia de Microsoft Teams Exploratory.
+La experiencia de Microsoft Teams Exploratory permite a los usuarios de su organización que tienen Azure Active Directory (Azure AD) y no tengan licencia para los Teams iniciar una experiencia exploratoria de los Teams. Los administradores pueden activar o desactivar esta característica para los usuarios de su organización. La anterior [Prueba comercial en la nube de Microsoft](iw-trial-teams.md) se ha reemplazado por la experiencia de Teams Exploratory.
+
+> [!NOTE]
+> Hay un límite de 100 licencias de Microsoft Teams Exploratory por espacio empresarial.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>¿Qué incluye la experiencia de Teams Exploratory?
 
@@ -131,8 +134,8 @@ Desactivar la licencia de la experiencia Teams Exploratory:
 
 4. En el panel de **licencias de producto**, cambie el botón de alternancia para la licencia exploratoria a **Desactivado**.
 
-    >[!Note]
-    >El botón de alternancia de Teams Exploratory aparecerá después de que el primer usuario de la organización inicie la experiencia de Teams Exploratory.
+    > [!NOTE]
+    > El botón de alternancia de Teams Exploratory aparecerá después de que el primer usuario de la organización inicie la experiencia de Teams Exploratory.
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>Administrar Teams para los usuarios que dispongan de la licencia de Teams Exploratory
 
@@ -180,4 +183,9 @@ Desde principios de 2021, Teams Exploratory está disponible como una suscripci�
 
 Al final de la suscripción de 12 meses, los administradores deberían cambiar a todos los usuarios de Teams Exploratory a una licencia de pago que incluya Teams. Es fundamental asegurarse de que se completa antes de que expire la suscripción de Teams Exploratory para evitar interrupciones en la experiencia del usuario.
 
+
+> [!NOTE]
+> Se deshabilitará a los clientes y se les impedirá que inicien nuevas licencias de prueba de Exploratory durante 3 meses pasado la fecha de expiración de la licencia de prueba de Exploratory anterior.
+
 Para más información, consulte [Actualizar usuarios desde la licencia de Teams Exploratory](#upgrade-users-from-the-teams-exploratory-license)), más arriba en este artículo.
+
