@@ -3,7 +3,6 @@ title: Plan para eventos en directo en Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +20,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc05b94fd5f375133c0682d72757eec5f90ef43e
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 26192da2b9d11a94f9d37adb7e1a170cb81d3170
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569242"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884584"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -80,13 +79,13 @@ El usuario debe tener:
 
 ### <a name="guest-to-present"></a>[Invitado a presentar](#guest-to-present)
 
-Para que un invitado pueda presentar en un evento en directo, haga lo siguiente:
+Para que un invitado pueda presentar en un evento en directo, realice las siguientes tareas:
 
 1. [Agregue el usuario como invitado a un equipo](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 2. Pida al usuario que acepte la invitación y se una al equipo.
 3. [Programe el evento en directo y agregue el invitado al grupo de eventos](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then click the link to join the event.
+Recomendamos que cree un canal para los productores y moderadores del evento en directo para que puedan chatear y compartir información antes del evento. Los invitados que no dispongan de credenciales de Microsoft 365 no podrán ver el calendario en Teams. Para que sea más fácil para ellos unirse al evento, los productores pueden publicar el vínculo del evento en el canal. Los moderadores pueden abrir Teams, ir al canal y, después, hacer clic en el vínculo para unirse al evento.
 
 ## <a name="who-can-watch-live-events"></a>¿Quién puede ver los eventos en directo?
 
@@ -165,9 +164,10 @@ You can use Teams live events in multiple regions across the world. The followin
 **Ubicación de los datos para estos países y regiones (compatibles)**
 
 - Australia
-- Canada
-- Alemania
+- Brasil
+- Canadá
 - Francia
+- Alemania
 - India
 - Japón
 - Sudáfrica
@@ -178,10 +178,9 @@ You can use Teams live events in multiple regions across the world. The followin
 
 **Estos países o regiones y estas nubes no son compatibles**
 
-- Brasil
 - Noruega
 - Government Community Cloud (GCC)-H
-- REQUISITODOD
+- Departamento de Defensa (DOD)
 
 **Exclusiones y permisos**
 
