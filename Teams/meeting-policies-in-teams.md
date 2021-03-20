@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams. Use la configuración de directiva para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: cdeadfd119ae0a1aa1d1f42af84d2c30ac014584
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 25ff47e7dee4a41be3cbdd8063654fc60c27af79
+ms.sourcegitcommit: 546f3e72880a0814a87787f997e81d9fb859c774
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875170"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929556"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -127,7 +127,7 @@ Permitir que el complemento de Outlook sea una directiva por usuario y se apliqu
 
 ![Captura de pantalla que muestra la posibilidad de programar una nueva reunión](media/meeting-policies-outlook-add-in.png)
 
-Si esta opción está desactivada, los usuarios no podrán programar reuniones de Teams cuando creen una nueva reunión en Outlook. Por ejemplo, en Outlook en Windows, la opción **Nueva reunión de Teams** no se mostrará en la cinta de opciones.
+Si desactiva esta característica, los usuarios no podrán programar. reuniones de Teams cuando creen una nueva reunión en Outlook. Por ejemplo, en Outlook en Windows, la opción **Nueva reunión de Teams** no se mostrará en la cinta de opciones.
 
 ### <a name="allow-channel-meeting-scheduling"></a>Permitir la programación de reuniones de canal
 
@@ -193,7 +193,7 @@ Esta directiva activa la transcripción en directo. Permitir transcripción es u
 
 ![Opciones de transcripción en directivas de reunión](media/live-transcription.png)
 
-La transcripción en directo muestra de voz a texto el contenido hablado durante una reunión de Teams en casi tiempo real. El texto aparece junto al vídeo de la reunión, incluido el nombre del orador y una marca de tiempo. Para obtener más información, vea [Ver transcripción en directo en una reunión de Teams.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
+La transcripción en directo muestra de voz a texto el contenido hablado durante una reunión de Teams en casi tiempo real. El texto aparece junto al vídeo de la reunión, incluido el nombre del orador y una marca de tiempo. Para obtener más información, vea [Ver transcripción en directo en una reunión de Teams.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b?storagetype=live)
 
 Actualmente, la transcripción en directo es compatible con el cliente de escritorio de Teams. La transcripción es compatible con el inglés hablado de Estados Unidos. La transcripción está disponible después de la reunión en el escritorio o la web de Teams.
 
@@ -250,7 +250,7 @@ El modo de vídeo IP es una directiva por usuario. Esta configuración controla 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
 |**Vídeo entrante y saliente activado**    | El vídeo saliente y entrante está permitido en la reunión es la configuración predeterminada. |
-|**Deshabilitado**     | El vídeo entrante y saliente en la reunión está desactivado. En los clientes para móvil de Teams, los usuarios no pueden compartir vídeos ni fotos en la reunión. <br><br>Tenga en cuenta que si está deshabilitado el **Modo para audio IP**, entonces el **Modo para vídeo IP** permanecerá también deshabilitado.  |
+|**Deshabilitado**     | El vídeo entrante y saliente en la reunión está desactivado. En los clientes para móvil de Teams, los usuarios no pueden compartir vídeos ni fotos en la reunión. <br><br>Si **el modo de audio IP** está deshabilitado, el modo de vídeo **IP** también permanecerá deshabilitado.  |
 
 Si se establece en **Deshabilitado** para un usuario, ese usuario no puede activar el vídeo o ver vídeos compartidos por otros participantes de la reunión. Los participantes de la reunión que no tengan ninguna directiva asignada (por ejemplo, los participantes anónimos) tienen esto establecido como **Vídeo de salida y entrada habilitado** de forma predeterminada.
 
