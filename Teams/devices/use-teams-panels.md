@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se proporcionan instrucciones sobre cómo usar dispositivos de paneles de Teams.
-ms.openlocfilehash: eba450b42bb66dfbe202290cdd235a0d4db9e710
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: f5afdb5ec9ec7cb6d6c7e86487dbaf27af98bafc
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395332"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997448"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Cómo usar paneles de Microsoft Teams
 
@@ -82,7 +82,7 @@ El mosaico aparece en color púrpura para un espacio de reunión reservado para 
 
 #### <a name="meeting-space-is-reserved-for-an-ad-hoc-meeting"></a>El espacio de reunión está reservado para una reunión ad hoc
 
-El mosaico aparece en color púrpura para un espacio de reunión reservado [para una reunión ad hoc.](#reserve-meeting-spaces-for-ad-hoc-meetings) Muestra Reservado **en** texto prominente y horas de inicio y finalización de la reunión. Al programar reuniones ad hoc desde el panel (en lugar de calendarios de Outlook o Teams), en realidad reserva el calendario de ese espacio de reunión. Estas reuniones se programan automáticamente como reuniones de Teams, por lo que el logotipo de Teams siempre aparece en la pantalla.
+El mosaico aparece en color púrpura para un espacio de reunión reservado [para una reunión ad hoc.](#reserve-meeting-spaces-for-ad-hoc-meetings) Muestra Reservado **en** texto prominente junto con las horas de inicio y finalización de la reunión. Las reuniones ad hoc se programan automáticamente como reuniones de Teams, por lo que el logotipo de Teams siempre aparece en la pantalla.
 
 :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Paneles de Teams Pantalla principal que muestra que el espacio de reunión está reservado para una reunión ad hoc":::
 
@@ -147,7 +147,7 @@ Para informar de un problema con el dispositivo o el espacio de reunión,  para 
 
 ### <a name="view-or-update-a-device-setting"></a>Ver o actualizar una configuración de dispositivo
 
-Hay varias opciones de configuración de dispositivo, como acerca de, accesibilidad, reinicio, directiva de privacidad que puede ver o actualizar directamente desde paneles. La configuración del dispositivo disponible puede diferir en función del Fabricante de equipos originales (OEM) de su dispositivo. Para obtener información sobre la configuración específica de su dispositivo, consulte la documentación de OEM.
+Hay varias opciones de configuración de dispositivo, como acerca de, accesibilidad, reinicio y directiva de privacidad que puede ver o actualizar directamente desde paneles. La configuración del dispositivo disponible puede diferir en función del Fabricante de equipos originales (OEM) de su dispositivo. Para obtener información sobre la configuración específica de su dispositivo, consulte la documentación de OEM.
 
 Para ver o actualizar una configuración de dispositivo:
 
@@ -170,7 +170,7 @@ Los dispositivos de paneles proporcionan dos tipos de configuración de administ
 
 ### <a name="access-panels-app-settings"></a>Configuración de la aplicación Paneles de Access
 
-Puede obtener acceso a **la configuración específica** de la aplicación Paneles mediante la opción Configuración de la aplicación **Paneles** en la configuración de administración. Los pasos para acceder a **La configuración de la aplicación Paneles** pueden diferir en función del OEM del dispositivo.
+Puede acceder a **la configuración específica** de la aplicación Paneles mediante la opción Configuración de la aplicación **Paneles** en la configuración de administración. Los pasos para acceder a **La configuración de la aplicación Paneles** pueden diferir en función del OEM del dispositivo.
 
 Para obtener acceso a **la opción Configuración de la aplicación Paneles:**
 

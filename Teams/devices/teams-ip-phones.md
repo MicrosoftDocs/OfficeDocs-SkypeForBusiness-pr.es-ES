@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados para Que Microsoft Teams produzca los mejores resultados.
-ms.openlocfilehash: 4696adad4158013dbad3bf95355d329413e2d5e2
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 2d72e9b71be6bab7c077a060a9828ad1f4175d74
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875090"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997458"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Dispositivos certificados de Microsoft Teams
 
@@ -72,10 +72,11 @@ Los siguientes dispositivos están certificados en el Programa de certificación
 | Modelo de dispositivo | Versión de firmware | Fecha de lanzamiento  | Tamaño del salón                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
 | Yealink MeetingBar A30       | 133.15.0.52    | Marzo de 2021 | Sala de tamaño medio (4,5 m x 6 m) |
-| Consola táctil CTP18 de Yealink  | 137.15.0.28    | Marzo de 2021 | Compatible con la Barra de reuniones A20 y la Barra de reuniones A30 |
+| Consola táctil CTP18 de Yealink  | 137.15.0.28    | Marzo de 2021 | Compatible con Yealink MeetingBar A20 y Yealink MeetingBar A30 |
 | Yealink MeetingBar A20  | 133.15.0.19      | Noviembre de 2020 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
 | Poly Studio X30         | 3.1.1.216109     | Junio de 2020     | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
 | Poly Studio X50         | 3.1.1.216109     | Junio de 2020     | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
+| Poly TC8                | 3.3.2.210441     | Marzo de 2021    | Compatible con Poly Studio X30 y Poly Studio X50 |
 | Yealink VC210           | 118.15.0.14      | Febrero de 2020 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
 
 ## <a name="currently-certified-teams-displays"></a>Pantallas de Teams certificadas actualmente
@@ -102,17 +103,17 @@ Las siguientes son las últimas versiones de firmware y aplicación de teléfono
 
 | Versión del producto | Fecha de lanzamiento  | Versión de la aplicación de Microsoft Teams | Versión del Portal de empresa | Versión del Agente de administración |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| Actualizar #7  | 8 de diciembre de 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (.223) |
-| Actualizar #6  | 12 de octubre de 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
-| Actualizar #5  | 31 de agosto de 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
-| Actualizar #4  | 30 de junio de 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
-| Actualizar #3  | 13 de mayo de 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
+| Actualización de 2020 #7  | 8 de diciembre de 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (.223) |
+| Actualización de 2020 #6  | 12 de octubre de 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
+| Actualización de 2020 #5  | 31 de agosto de 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
+| Actualización de 2020 #4  | 30 de junio de 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
+| Actualización de 2020 #3  | 13 de mayo de 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
 
 #### <a name="firmware-versions"></a>Versiones de firmware
 
 Al instalar una nueva versión de firmware en el dispositivo, puede determinar las versiones instaladas correspondientes de la aplicación de Microsoft Teams, el Portal de empresa y el Agente de administración. Busque la versión del producto en la **columna Versión de** producto incluida y, a continuación, busque la versión del producto en la tabla de versiones de la **aplicación** anterior.
 
-| Modelo de dispositivo        | Versión de firmware     | Versión del producto año/incluido  |
+| Modelo de dispositivo        | Versión de firmware     | Versión de producto incluida  |
 |:--------------------|:---------------------|:-------------------------|
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | Actualización de 2020 #7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | Actualización de 2020 #7           |
@@ -138,19 +139,19 @@ A continuación se incluyen las últimas salas de Teams en las versiones de firm
 
 | Versión del producto| Fecha de lanzamiento | Versión de la aplicación de Microsoft Teams | Versión del Portal de empresa | Versión del Agente de administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Actualizar #3  |24 de noviembre de 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product código de versión: 216 |
-| Actualizar #2  | 24 de agosto de 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product código de versión: 212|
-| Actualizar #1  | 13 de mayo de 2020 | .040901                     | .4715                  | .210                |
+| Actualización de 2020 #3  |24 de noviembre de 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product código de versión: 216 |
+| Actualización de 2020 #2  | 24 de agosto de 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product código de versión: 212|
+| Actualización de 2020 #1  | 13 de mayo de 2020 | .040901                     | .4715                  | .210                |
 
 #### <a name="firmware-versions"></a>Versiones de firmware
 
 Al instalar una nueva versión de firmware en el dispositivo, puede determinar la aplicación de Microsoft Teams correspondiente, el Portal de empresa y el Agente de administración, versiones que se instalan buscando la versión del producto en la columna Versión de producto **incluida.** A continuación, busque la versión del producto en la **tabla versiones de la** aplicación anterior.
 
-| Modelo de dispositivo  | Versión de firmware | Año/ Versión de producto incluida |
+| Modelo de dispositivo  | Versión de firmware | Versión de producto incluida |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 + CP900 | 118.15.0.42     | 2020, Actualizar #3    |
-| Poly Studio X30 | 3.2.3.280012          | 2020, Actualizar #3    |
-| Poly Studio X50 | 3.2.3.280012          | 2020, Actualizar #3    |
+| Yealink VC210 + CP900 | 118.15.0.42     | Actualización de 2020 #3    |
+| Poly Studio X30 | 3.2.3.280012          | Actualización de 2020 #3    |
+| Poly Studio X50 | 3.2.3.280012          | Actualización de 2020 #3    |
 
 ### <a name="product-release-information-for-teams-displays"></a>Se muestra la información de la versión del producto para Teams
 
@@ -160,15 +161,17 @@ A continuación se muestran las últimas versiones para la aplicación y el firm
 
 |Versión del producto| Fecha de lanzamiento | Versión de la aplicación de Microsoft Teams | Versión del Portal de empresa | Versión del Agente de administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|Actualizar #1  |22 de octubre de 2020 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446.product|
+|Actualización de 2021 #1  |18 de marzo de 2021 |1449/1.0.95.2021021104    |5.0.5045.0            |1.0.0.202101280722.product|
+|Actualización de 2020 #1  |22 de octubre de 2020 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446.product|
+
 
 #### <a name="firmware-versions"></a>Versiones de firmware
 
 Al instalar una nueva versión de firmware en el dispositivo, puede determinar la aplicación de Microsoft Teams correspondiente, el Portal de empresa y el Agente de administración, versiones que se instalan buscando la versión del producto en la columna Versión de producto **incluida.** A continuación, busque la versión del producto en la **tabla versiones de la** aplicación anterior.
 
-| Modelo de dispositivo  | Versión de firmware | Año/ Versión de producto incluida|
+| Modelo de dispositivo  | Versión de firmware | Versión de producto incluida|
 |:--------------|:-----------------|:-------------------------|
-|Vista ThinkSmart de Lenovo| CD-18781Y.201006.099 |2020, Actualizar #1 |
+|Vista ThinkSmart de Lenovo| CD-18781Y.210228.109 |Actualización de 2021 #1 |
 
 
 ## <a name="more-resources"></a>Más recursos

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Microsoft Phone System.
-ms.openlocfilehash: 858d57fb210765a1223a68527b0aa1b37bf7800b
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: af7e288791b85aea3beaf67b0200acd017e3e514
+ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50836997"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50999832"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -192,6 +192,9 @@ El certificado debe ser generado por una de las siguientes autoridades de certif
 - TeliaSonera 
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
+- USERTrust RSA Certification Authority
+- Hongkong Post Root CA 1,2,3
+- Sectigo Root CA
 
 Para enrutamiento directo en entornos GCCH y DoD de Office 365, el certificado debe ser generado por una de las siguientes autoridades de certificación raíz:
 - DigiCert Global Root CA
@@ -370,6 +373,6 @@ Los dispositivos que se han validado se muestran como Certificados para enrutami
 Para obtener más información sobre los SBC compatibles, vea Lista de controladores de [borde de sesión certificados para enrutamiento directo.](direct-routing-border-controllers.md)
 
  
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar el enrutamiento directo](direct-routing-configure.md)
