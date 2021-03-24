@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26d6555b82db1939b879ecafc113ced186528f80
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: 00cdb644efe9fb2c3e49973d7a539718252a7df9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50837007"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098476"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo: protocolo SIP
 
@@ -121,7 +121,7 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 El proxy SIP necesita calcular el FQDN de salto siguiente para las nuevas transacciones de cliente en el cuadro de diálogo (por ejemplo, Bye o Re-Invite) y al responder a Opciones SIP. Se usan las Record-Route contacto o las Record-Route. 
 
-Según [RFC 3261, sección 8.1.1.8,](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)el encabezado de contacto es necesario en cualquier solicitud que pueda dar como resultado un nuevo cuadro de diálogo. El Record-Route solo es necesario si un proxy desea mantenerse en la ruta de acceso de las solicitudes futuras en un cuadro de diálogo. Si un SBC proxy está en uso con optimización de medios [locales](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)para enrutamiento directo, deberá configurarse una ruta de registro ya que el SBC proxy debe permanecer en la ruta. 
+Según [RFC 3261, sección 8.1.1.8,](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)el encabezado de contacto es necesario en cualquier solicitud que pueda dar como resultado un nuevo cuadro de diálogo. El Record-Route solo es necesario si un proxy desea mantenerse en la ruta de acceso de las solicitudes futuras en un cuadro de diálogo. Si un SBC proxy está en uso con optimización de medios [locales](./direct-routing-media-optimization.md)para enrutamiento directo, deberá configurarse una ruta de registro ya que el SBC proxy debe permanecer en la ruta. 
 
 Microsoft recomienda usar solo el encabezado de contacto si no se usa un SBC proxy:
 
@@ -362,6 +362,4 @@ El reinicio en Enrutamiento directo se implementa según los párrafos siguiente
 
 *Un agente establece el resto de los campos del SDP para esta transmisión multimedia como lo haría en una oferta inicial de esta transmisión multimedia (vea sección 4.3).  Por lo tanto, el conjunto de candidatos PUEDE incluir algunos, ninguno o todos los candidatos anteriores para esa transmisión y PUEDE incluir un conjunto totalmente nuevo de candidatos reunidos como se describe en la Sección 4.1.1.*
 
-Si la llamada se estableció inicialmente con omisión multimedia y la llamada se transfiere a un cliente de Skype Empresarial, enrutamiento directo debe insertar un procesador multimedia, esto se debe a que el enrutamiento directo no se puede usar con un cliente de Skype Empresarial con omisión de medios. Enrutamiento directo inicia el proceso de reinicio del ICE cambiando el ice-pwd y ice-ufrag y ofreciendo nuevos candidatos a medios en un revite. 
-
-
+Si la llamada se estableció inicialmente con omisión multimedia y la llamada se transfiere a un cliente de Skype Empresarial, enrutamiento directo debe insertar un procesador multimedia, esto se debe a que el enrutamiento directo no se puede usar con un cliente de Skype Empresarial con omisión de medios. Enrutamiento directo inicia el proceso de reinicio del ICE cambiando el ice-pwd y ice-ufrag y ofreciendo nuevos candidatos a medios en un revite.

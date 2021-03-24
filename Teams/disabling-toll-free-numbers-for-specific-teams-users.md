@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Aprenda a controlar cómo los organizadores pueden usar números gratuitos para sus reuniones del puente de audioconferencia.
-ms.openlocfilehash: 517ffea6a15cd625320f33e3eb4911f4a250d51d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+description: Obtenga información sobre cómo controlar cómo los organizadores pueden usar números gratuitos para sus reuniones de Puente de audioconferencia.
+ms.openlocfilehash: f9ab09396778b221ad7f5c016dbf7db76fcba030
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904575"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096350"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Deshabilitar los números gratuitos para usuarios específicos de Teams
 
@@ -47,20 +47,20 @@ Cuando se deshabilitan los números gratuitos para un organizador determinado:
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar los números gratuitos para usuarios específicos 
 
-Desde el Centro **de administración de Microsoft Teams:**
+Desde el **Centro de administración de Microsoft Teams:**
 
-1. En el panel de navegación izquierdo, haga **clic en Usuarios** y, a continuación, seleccione el usuario en la lista de usuarios disponibles.
+1. En el panel de navegación izquierdo, haga clic **en Usuarios** y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
-2. Junto a **Audioconferencia**, haga clic en **Editar**.
+2. Junto a **Audioconferencia,** haga clic en **Editar.**
 
-3. Establezca **la opción "Incluir números gratuitos" en las solicitudes de reunión de este usuario en** **Desactivado.** 
+3. Establezca **Incluir números gratuitos en las solicitudes de reunión de este usuario en** **Desactivado.** 
 
-4. Haga clic en **Guardar**. 
+4. Haga clic **en Guardar.** 
 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
  
-**Uso de PowerShell**  
+**Con PowerShell**  
 
-Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
+Vea la [referencia de PowerShell de Microsoft Teams](/powershell/module/teams/?view=teams-ps) para obtener más información.

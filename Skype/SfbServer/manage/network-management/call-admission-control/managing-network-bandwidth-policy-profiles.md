@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Use los procedimientos de este artículo para ver, crear, modificar o eliminar perfiles de directiva de ancho de banda de red.
-ms.openlocfilehash: 69efe657b6df775b9e647a77bef2588cafdc5b03
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 47a4d268c24cd8d57c8aeda4deacc6b03e795c2c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816450"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096676"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Administrar perfiles de directivas de ancho de banda de red en Skype Empresarial Server
 
@@ -34,17 +34,17 @@ Como parte del control de admisión de llamadas (CAC), se usa una directiva de a
 
 3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Directiva de ancho de banda**.
 
-4.  En la página **Directiva de** ancho de banda, haga clic en el perfil de directiva de ancho de banda que desea ver.
+4.  En la página **Directiva de ancho de** banda, haga clic en el perfil de directiva de ancho de banda que desea ver.
 
 5.  En el menú **Editar**, haga clic en **Mostrar detalles**.
 
 
-### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>Visualización de información de perfil de directiva de ancho de banda de red mediante cmdlets Windows PowerShell de red
+### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>Visualización de información de perfil de directiva de ancho de banda de red mediante Windows PowerShell cmdlets
 
-Los perfiles de ancho de banda de red se pueden ver mediante Windows PowerShell y el cmdlet Get-CsNetworkBandwidthPolicyProfile web. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
+Los perfiles de ancho de banda de red se pueden ver mediante Windows PowerShell y el cmdlet Get-CsNetworkBandwidthPolicyProfile de red. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
 
 
-### <a name="to-view-network-bandwidth-policy-profile-information"></a>Para ver la información de perfil de directiva de ancho de banda de red
+### <a name="to-view-network-bandwidth-policy-profile-information"></a>Para ver la información del perfil de directiva de ancho de banda de red
 
   - Para ver información sobre todos los perfiles de directiva de ancho de banda de red, escriba el siguiente comando en el Shell de administración de Skype Empresarial Server y, a continuación, presione ENTRAR:
     
@@ -61,7 +61,7 @@ Los perfiles de ancho de banda de red se pueden ver mediante Windows PowerShell 
         Description       :
 
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
+Si desea más información, consulte el tema de ayuda relativo al cmdlet [Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
 
 
 ## <a name="create-or-modify-bandwidth-policy-profiles"></a>Crear o modificar perfiles de directiva de ancho de banda
@@ -140,16 +140,14 @@ Como parte del control de admisión de llamadas (CAC), se usa una directiva de a
     > No puede eliminar un perfil de directiva de ancho de banda que esté asociado a un sitio de red. Primero debe eliminar la asociación establecida con el sitio de red para poder eliminar el perfil. 
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 [Administración del control de admisión de llamadas para sitios](managing-call-admission-control-for-sites.md)
  
-[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
+[New-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
 
-[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
+[Set-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
 
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+[Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
 
-[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  
-  
-
+[Remove-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  

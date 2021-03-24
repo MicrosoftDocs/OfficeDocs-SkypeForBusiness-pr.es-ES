@@ -23,35 +23,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo marcar números gratuitos en Arabia Saudí, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
-ms.openlocfilehash: 5625d4f7ef04ba9365a4c0169d168e0a479fff89
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Obtenga información sobre cómo marcar números gratuitos en Arabia Saudí, incluida la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
+ms.openlocfilehash: 757db82618ecc4abcbcca65f47c15565f89de7df
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139829"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097766"
 ---
 # <a name="toll-free-dialing-restrictions-in-saudi-arabia"></a>Restricciones de marcado de número gratuito en Arabia Saudí
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
+[Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
-|Formatos de marcación  <br/> | 800 814 XXXX <br/>  800 850 XXXX <br/> |
+|¿Hay llamadas gratuitas disponibles?  <br/> |Sí  <br/> |
+|Formatos de marcado  <br/> | 800 814 XXXX <br/>  800 850 XXXX <br/> |
 |Código ISO de país o región  <br/> |SA  <br/> |
 |Isla o territorio cubierto  <br/> |No aplicable  <br/> |
 |Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de líneas cableadas/fijas  <br/> |Solo de STC.  <br/> |
+|Disponibilidad de líneas fijas o cableadas  <br/> |Solo de STC.  <br/> |
 |Disponibilidad de red móvil  <br/> |Solo de STC.  <br/> |
-|Problemas de comentarios, restricciones y acceso  <br/> |Ninguna  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

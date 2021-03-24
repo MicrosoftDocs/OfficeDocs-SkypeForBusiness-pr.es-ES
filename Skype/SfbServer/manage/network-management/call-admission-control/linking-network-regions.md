@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Puede configurar vínculos entre dos regiones de red como parte del control de admisión de llamadas. '
-ms.openlocfilehash: 0a4f5c63b4470fbfe6d2677f0e9e6f52841f7ebb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 163f214b05ba0dca3bc7dd4ec722f148cafe724e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816470"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096686"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Vincular regiones de red en Skype Empresarial Server
 
-Puede configurar vínculos entre dos regiones de red como parte del control de admisión de llamadas. Use las secciones de este artículo para ver información de vínculos de región de trabajo nuevo o configurar o eliminar vínculos de región netwrok. 
+Puede configurar vínculos entre dos regiones de red como parte del control de admisión de llamadas. Use las secciones de este artículo para ver información de vínculos de región newtwork o configurar o eliminar vínculos de región netwrok. 
 
 ## <a name="view-network-region-link-information"></a>Ver información de vínculos de región de red 
 
@@ -42,7 +42,7 @@ Puede ver enlaces entre dos regiones de red como parte de un servicio de control
 
 5.  En el menú **Editar**, seleccione **Mostrar detalles**.
 
-### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Ver información de vínculos de región de red mediante cmdlets Windows PowerShell de red
+### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Ver información de vínculos de región de red mediante Windows PowerShell cmdlets
 
 Puede ver vínculos de región de red mediante Windows PowerShell y el cmdlet **Get-CsNetworkRegionLink.** Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
 
@@ -62,7 +62,7 @@ Puede ver vínculos de región de red mediante Windows PowerShell y el cmdlet **
         NetworkRegionID2    : California
 
 
-Para obtener información detallada, vea [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
+Para obtener información detallada, vea [Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink).
 
 
 ## <a name="configure-network-region-links"></a>Configurar vínculos de región de red 
@@ -82,11 +82,11 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 5.  En **Vínculo regional nuevo**, escriba un valor en el campo **Nombre**.
  
     > [!NOTE]  
-    > Este valor debe ser único en la implementación de Skype Empresarial Server.
+    > Este valor debe ser único dentro de la implementación de Skype Empresarial Server.
 
 6.  En la lista desplegable Región de red **\# 1,** seleccione una de las dos regiones que desea vincular.
 
-7.  En la lista desplegable Región de red **\# 2,** seleccione la otra región que desea vincular. Esta región debe ser diferente de la región seleccionada para la región de red \# 1.
+7.  En la lista desplegable Región de red **\# 2,** seleccione la otra región que se va a vincular. Esta región debe ser diferente de la región seleccionada para la región \# de red 1.
 
 8.  (Opcional) Si desea establecer limitaciones de ancho de banda en llamadas de audio o vídeo entre estas regiones, seleccione un perfil de directiva de ancho de banda en la lista desplegable **Directiva de ancho de banda**.
 
@@ -131,12 +131,12 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 6.  Haga clic en **Aceptar**.
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
-[New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
+[New-CsNetworkRegionLink](/powershell/module/skype/New-CsNetworkRegionLink)  
 
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[Set-CsNetworkRegionLink](/powershell/module/skype/Set-CsNetworkRegionLink)  
 
-[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[Remove-CsNetworkRegionLink](/powershell/module/skype/Remove-CsNetworkRegionLink)  
 
-[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink)

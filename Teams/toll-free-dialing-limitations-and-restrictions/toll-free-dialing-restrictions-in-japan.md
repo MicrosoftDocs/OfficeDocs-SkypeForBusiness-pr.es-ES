@@ -23,35 +23,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo marcar números gratuitos en Japón, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
-ms.openlocfilehash: 6413f93bfe655ed52ccea187b69024e4bed1a556
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Obtenga información sobre cómo marcar números gratuitos en Japón, como la disponibilidad, la disponibilidad de la red móvil o por cable y de línea fija, y las restricciones.
+ms.openlocfilehash: 84992a40f778e3dd7319b65bbf734423b645bfda
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140359"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097976"
 ---
 # <a name="toll-free-dialing-restrictions-in-japan"></a>Restricciones de marcado de número gratuito en Japón
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
+[Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
-|Formatos de marcación  <br/> |00531 XX XXXX  <br/> |
+|¿Hay llamadas gratuitas disponibles?  <br/> |Sí  <br/> |
+|Formatos de marcado  <br/> |00531 XX XXXX  <br/> |
 |Código ISO de país o región  <br/> |JP  <br/> |
 |Isla o territorio cubierto  <br/> |No aplicable  <br/> |
 |Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de líneas cableadas/fijas  <br/> |Sí  <br/> |
+|Disponibilidad de líneas fijas o cableadas  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |Parcial. Ver comentarios.  <br/> |
-|Problemas de comentarios, restricciones y acceso  <br/> |Acceso a redes móviles: NTT Docomo, Au (KDD) y Softbank.  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |Acceso a redes móviles: NTT Docomo, Au (KDD) y Softbank.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

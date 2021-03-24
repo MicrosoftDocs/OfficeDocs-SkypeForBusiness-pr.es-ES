@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Instrucciones detalladas para migrar de Slack a Microsoft Teams.
-ms.openlocfilehash: 8b4fc90cde4bb438eee421459cf2c26672555b09
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: b1e04a0dc8c829ed938b925e498e2716529356f9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030646"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098366"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migración de Slack a Microsoft Teams
 
@@ -89,7 +89,7 @@ Es posible que los esquemas de identidad que usaba en Slack no se asignen direct
 
 Si tiene un plan de servicio de pago de Slack, puede ir a *<your Slack workspace>.slack.com/admin/stats#members* para obtener información de los miembros, como la dirección de correo electrónico y el tipo de cuenta de cada usuario (por ejemplo, invitado en uno o varios canales).
 
-El siguiente es un script que puede usar para comparar las direcciones de correo electrónico de una exportación de Slack con Azure AD para ayudarle a resolver la ambigüedad de nombres. También informará de si el usuario está habilitado para Teams. Si necesita ayuda con PowerShell, consulte [Introducción a Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps).
+El siguiente es un script que puede usar para comparar las direcciones de correo electrónico de una exportación de Slack con Azure AD para ayudarle a resolver la ambigüedad de nombres. También informará de si el usuario está habilitado para Teams. Si necesita ayuda con PowerShell, consulte [Introducción a Azure PowerShell](/powershell/azure/get-started-azureps).
 
 ```azurepowershell
 Connect-AzureAD
@@ -212,7 +212,7 @@ La mayoría de las soluciones exportarán los archivos. Sin embargo, normalmente
 
 En el caso de los archivos almacenados en Slack, una vez que haya configurado los equipos y canales en Teams, podrá copiarlos mediante programación desde Slack al canal de destino de Teams.
 
-El siguiente script recupera archivos de Slack. Realiza una búsqueda de la exportación especificada en su ordenador, crea una carpeta en cada canal de destino y descarga todos los archivos en esa ubicación. Hay soluciones de terceros que pueden extraer datos. Si necesita ayuda con PowerShell, consulte [Introducción a Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps).
+El siguiente script recupera archivos de Slack. Realiza una búsqueda de la exportación especificada en su ordenador, crea una carpeta en cada canal de destino y descarga todos los archivos en esa ubicación. Hay soluciones de terceros que pueden extraer datos. Si necesita ayuda con PowerShell, consulte [Introducción a Azure PowerShell](/powershell/azure/get-started-azureps).
 
 
 
@@ -361,7 +361,7 @@ Ahora que ha definido el plan de transición, puede empezar a crear sus equipos 
 
 Una vez que haya creado los equipos y canales, inicie la copia de archivos de los canales de Slack a Teams y configure las aplicaciones. Si utiliza una solución para conservar el historial, también puede configurarla ahora. Una vez hecho estará listo para iniciar la concesión de licencias para los usuarios (si aún no tienen licencia) y agregarlos a los equipos adecuados. Para reducir la necesidad de exportaciones y copias adicionales de archivos, considere la posibilidad de eliminar el acceso a Slack en una fecha acordada que coincida con la adición de cada usuario al equipo. Así evitará tener que volver a exportar e importar los cambios en los archivos y el historial.
 
-Siga los pasos del diagrama siguiente para implementar Teams en su organización. Para obtener más información, consulte [Cómo implementar equipos](How-to-roll-out-teams.md).
+Siga los pasos del diagrama siguiente para implementar Teams en su organización. Para obtener más información, consulte [Cómo implementar equipos](./deploy-overview.md).
 
 
 :::image type="content" source="media/migrate-slack-to-teams-image4.png" alt-text="Diagrama en el que se muestran los pasos para migrar a Teams desde Slack.":::

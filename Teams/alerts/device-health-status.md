@@ -16,18 +16,18 @@ description: Obtenga información sobre cómo usar las capacidades de supervisi�
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 03a57da7af783fa95e0bccbcb6a96f183b2fbb90
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 8c6a4ac89ddc90bcb00cf2741874e49a26ac775f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819499"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096480"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Supervisión del estado de los dispositivos de Microsoft Teams
 
 La supervisión del estado de los dispositivos en el Centro de administración de Microsoft Teams le ofrece la capacidad de supervisar proactivamente el estado de varios dispositivos de Teams. Supervise el estado sin conexión de un dispositivo y reciba alertas en tiempo real si el dispositivo supervisado de su organización se desconecta.  
 
-Antes de empezar, necesitará los permisos de creación de equipos o canales en el espacio empresarial. [Más información.](https://docs.microsoft.com/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide)
+Antes de empezar, necesitará los permisos de creación de equipos o canales en el espacio empresarial. [Más información.](/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide)
 
 ## <a name="configure-device-state-rule"></a>Configurar la regla de estado del dispositivo
 
@@ -47,7 +47,7 @@ Antes de empezar, necesitará los permisos de creación de equipos o canales en 
 |Campo |Descripción  |
 |--------|-------------|
 |**Tipo de regla**   |La regla de estado del dispositivo le ayuda a administrar de forma eficaz. Teams y se clasifica como un tipo de administración de dispositivos. En el futuro, habrá más reglas de tipo de administración de dispositivos disponibles para supervisar otras capacidades relacionadas (algunos ejemplos pueden incluir: dispositivo en mal estado y el estado de inicio de sesión del dispositivo).|
-|**Condición**   |Puede supervisar el estado de los dispositivos si se desconectan. [Obtenga más información](https://docs.microsoft.com/microsoftteams/devices/device-management) sobre la administración de dispositivos en el Centro de administración de Teams. |
+|**Condición**   |Puede supervisar el estado de los dispositivos si se desconectan. [Obtenga más información](../devices/device-management.md) sobre la administración de dispositivos en el Centro de administración de Teams. |
 |**Ámbito**   |Puede especificar la frecuencia con la que desea supervisar el estado del dispositivo mencionando la frecuencia de evaluación de la regla. De forma predeterminada, los dispositivos de equipos se supervisarán casi en tiempo real si se desconectan. |
 |**Usuarios de dispositivos**   |Puede especificar qué dispositivos necesitan una supervisión proactiva de las imágenes sin conexión seleccionándolos en función de los usuarios que han iniciado sesión. Para obtener [más información, consulte Seleccionar dispositivos](#select-devices-for-configuration) para la configuración. |
 |**Acciones**  >  **Alerta de canal**   |En la sección Acciones, puede especificar los canales de equipos para los que desea recibir alertas. Actualmente, se creará un equipo predeterminado denominado **Alertas** y notificaciones de administrador y un canal denominado **MonitoringAlerts** donde se entregarán las notificaciones. <BR/> <BR/> Los administradores globales y los administradores de Teams de su inquilino se agregarán automáticamente a este equipo predeterminado.|

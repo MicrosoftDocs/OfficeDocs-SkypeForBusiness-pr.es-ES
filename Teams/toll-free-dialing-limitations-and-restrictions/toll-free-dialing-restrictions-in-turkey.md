@@ -23,35 +23,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo marcar números gratuitos en Turquía, incluida la disponibilidad, la disponibilidad de la red móvil y de cable o fija, y las restricciones.
-ms.openlocfilehash: 0d69feb1b5a4496fef479260ebaa0f96febac6a3
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Obtenga información sobre cómo marcar números gratuitos en Turquía, incluida la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
+ms.openlocfilehash: 4e082cf2ea2ae069960136c9ab9c13d52e35f44d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139729"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097626"
 ---
 # <a name="toll-free-dialing-restrictions-in-turkey"></a>Restricciones de marcado de número gratuito en Turquía
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
+[Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
-|Formatos de marcación  <br/> |00 800 XXXX XXXXX  <br/> |
+|¿Hay llamadas gratuitas disponibles?  <br/> |Sí  <br/> |
+|Formatos de marcado  <br/> |00 800 XXXX XXXXX  <br/> |
 |Código ISO de país o región  <br/> |TR  <br/> |
 |Isla o territorio cubierto  <br/> |No aplicable  <br/> |
 |Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de líneas cableadas/fijas  <br/> | Sí, excepto de Super Online. <br/> |
+|Disponibilidad de líneas fijas o cableadas  <br/> | Sí, excepto de Super Online. <br/> |
 |Disponibilidad de red móvil  <br/> |No  <br/> |
-|Problemas de comentarios, restricciones y acceso  <br/> |Ninguna  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

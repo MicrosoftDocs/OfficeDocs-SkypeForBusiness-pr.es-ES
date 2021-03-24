@@ -20,44 +20,44 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0db2e752bb163f806c5dcba7aa56fc36bae7c2ef
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 3eb6c65d414217810c795aa72701a8e546f30643
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578363"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096034"
 ---
-# <a name="overview-of-implementing-your-upgrade"></a>Información general sobre la implementación de la actualización
+# <a name="overview-of-implementing-your-upgrade"></a>Información general sobre cómo implementar la actualización
 
-![Fases del viaje de actualización, con énfasis en la fase Implementación e Implementación](media/upgrade-banner-deployment.png "Fases del viaje de actualización, con énfasis en la fase Implementación e Implementación")
+![Fases del viaje de actualización, con énfasis en la fase implementación e implementación](media/upgrade-banner-deployment.png "Fases del viaje de actualización, con énfasis en la fase implementación e implementación")
 
-Este artículo forma parte de la fase de implementación e implementación del viaje de actualización. 
+Este artículo forma parte de la fase implementación e implementación del viaje de actualización. 
 
 
 
-## <a name="prerequisite-planning-activities"></a>Actividades de planeación de requisitos previos
+## <a name="prerequisite-planning-activities"></a>Actividades de planificación de requisitos previos
 
 > [!IMPORTANT]
-> Antes de continuar con la implementación de la actualización, confirme que ha leído el contenido de planificación empezando con [Planear](upgrade-plan-journey.md) la actualización para asegurarse de que ha completado todos los requisitos previos de las actividades de planeación.
+> Antes de continuar con la implementación de actualización, confirme que ha leído el contenido de planeación a partir de [Planear](upgrade-plan-journey.md) la actualización para asegurarse de que ha completado todas las actividades de planeación de requisitos previos.
 
 
 - [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
-- [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Ha elegido el viaje de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Piloto de usuario planeado](pilot-essentials.md)
-- [Preparado tu entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Ha preparado tu organización](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Ha definido el ámbito del proyecto](./upgrade-define-project-scope.md)
+- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Elegido el viaje de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Planear un piloto de usuario](pilot-essentials.md)
+- [Preparado el entorno](./upgrade-prepare-environment.md)
+- [Preparar la organización](./upgrade-prepare-organization.md)
 
-## <a name="choose-your-upgrade-starting-point"></a>Elegir el punto de partida de la actualización
+## <a name="choose-your-upgrade-starting-point"></a>Elegir el punto de inicio de la actualización
 
-Los pasos que debe seguir para realizar la actualización a Teams dependen de la implementación actual de Skype Empresarial:
+Los pasos que realice para realizar la actualización a Teams dependen de la implementación actual de Skype Empresarial:
 
-En función de su entorno actual, elija su punto de partida:  
+En función de su entorno actual, elija el punto de partida:  
 
-- **Si va a actualizar de Skype Empresarial Online a Teams,** siga los pasos indicados en la actualización de [Skype Empresarial Online a Teams.](https://aka.ms/SkypeToTeams-UpgradeOnline)
+- **Si va a actualizar de Skype Empresarial Online a Teams,** siga los pasos de Actualizar de [Skype Empresarial Online a Teams.](./upgrade-to-teams-execute-skypeforbusinessonline.md)
 
--  **Si** va a actualizar desde un entorno local de Skype Empresarial, deberá realizar algunos pasos adicionales para configurar la conectividad entre su entorno local y en línea antes de mover los usuarios a Teams. Para obtener más información, [consulte Actualizar Skype Empresarial local a Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
+-  Si va a actualizar desde un entorno local de **Skype Empresarial,** deberá realizar algunos pasos adicionales para configurar la conectividad entre sus entornos locales y en línea antes de mover los usuarios a Teams. Para obtener más información, vea [Actualizar Skype Empresarial local a Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
 

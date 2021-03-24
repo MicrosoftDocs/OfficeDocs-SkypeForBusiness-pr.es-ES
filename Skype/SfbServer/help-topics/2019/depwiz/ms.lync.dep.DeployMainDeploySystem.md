@@ -14,21 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para iniciar la instalación o actualizar una implementación existente de Skype Empresarial Server, haga clic en Instalar o actualizar Skype Empresarial Server. Los pasos de esta sección instalarán componentes específicos de un rol de servidor determinado, según el documento del Generador de topologías. Antes de comenzar esta serie de pasos, debe definir la implementación en topology Builder. Debe iniciar sesión en el equipo que está implementando como administrador local y como miembro del grupo Administradores de dominio en el dominio donde se encuentra el servidor. El equipo debe estar unido al dominio antes de completar este paso.
-ms.openlocfilehash: 55d6805382aac5f43e66011f79e9fc9154ab9028
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para comenzar la instalación o actualizar una implementación existente de Skype Empresarial Server, haga clic en Instalar o actualizar Skype Empresarial Server. Los pasos de esta sección instalarán componentes específicos de un rol de servidor determinado, según el documento del Generador de topologías. Antes de comenzar esta serie de pasos, debe definir la implementación en el Generador de topologías. Debe iniciar sesión en el equipo que va a implementar como administrador local y como miembro del grupo Administradores de dominio en el dominio donde se encuentra el servidor. El equipo debe estar unido al dominio antes de completar este paso.
+ms.openlocfilehash: 9d1c3fdfd8010649fb913cf792ae11faf0b8dcf5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824950"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097345"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Instalar o actualizar el sistema Skype Empresarial Server
 
-Para comenzar la instalación, o para actualizar una implementación existente de Skype Empresarial Server, haga clic en Instalar o actualizar **Skype Empresarial Server.** Los pasos de esta sección instalarán componentes específicos de un rol de servidor determinado, según el documento del Generador de topologías. Antes de comenzar esta serie de pasos, debe definir la implementación en topology Builder. Debe iniciar sesión en el equipo que está implementando como administrador local y como miembro del grupo Administradores de dominio en el dominio donde se encuentra el servidor. El equipo debe estar unido al dominio antes de completar este paso.
+Para comenzar la instalación o actualizar una implementación existente de Skype Empresarial Server, haga clic **en Instalar o actualizar Skype Empresarial Server**. Los pasos de esta sección instalarán componentes específicos de un rol de servidor determinado, según el documento del Generador de topologías. Antes de comenzar esta serie de pasos, debe definir la implementación en el Generador de topologías. Debe iniciar sesión en el equipo que va a implementar como administrador local y como miembro del grupo Administradores de dominio en el dominio donde se encuentra el servidor. El equipo debe estar unido al dominio antes de completar este paso.
 
-Si va a actualizar un servidor implementado actualmente, debe realizar los cambios que desea realizar en el Generador de topologías.
+Si va a actualizar un servidor implementado actualmente, debe realizar los cambios que tiene previsto realizar en el Generador de topologías.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-[Implementación](https://technet.microsoft.com/library/83bd43ee-c1fe-4b38-bfa7-3eb382817bf9.aspx)
-
+[Implementación](/previous-versions/office/lync-server-2013/lync-server-2013-deployment)

@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Utilice Microsoft Teams para configurar el sistema de visitas virtuales
-ms.openlocfilehash: 6daa61ea44db02d48873a6fc494974c99573d0e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875180"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096284"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuales con Teams: integración en EHR
 
@@ -57,7 +57,7 @@ Debe asegurarse de que cumple los siguientes requisitos previos para poder integ
 
 - Las organizaciones deben tener la versión de Epic de noviembre de 2018 o posterior.
 
-- Los sistemas deben cumplir todos los [requisitos previos de software y explorador web](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
+- Los sistemas deben cumplir todos los [requisitos previos de software y explorador web](../../hardware-requirements-for-the-teams-app.md).
 
 También necesitará información de las siguientes personas de la organización:
 
@@ -130,7 +130,7 @@ Después de completar los pasos del conector de EHR y la configuración de Epic,
 
 ### <a name="virtual-visit-prerequisites"></a>Requisitos previos de la visita virtual
 
-- Los sistemas deben cumplir todos los [requisitos previos de software y explorador web](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
+- Los sistemas deben cumplir todos los [requisitos previos de software y explorador web](../../hardware-requirements-for-the-teams-app.md).
 
 - La organización sanitaria debe haber completado la configuración entre la organización de Epic y la organización de Microsoft 365.
 
@@ -175,4 +175,4 @@ Características principales de la experiencia del paciente:
 
 La integración de Teams en sistemas de EHR optimiza la cantidad de datos que se usan y almacenan durante los flujos de integración y de visita virtual. La solución sigue los principios generales de privacidad y administración de datos de Teams, y las directrices estipuladas en Privacidad de Teams.
 
-El conector de EHR para Microsoft Teams no almacena ni transfiere ningún dato personal de identificación ni ningún registro médico de pacientes o proveedores sanitarios desde el sistema de EHR. El único dato que almacena el conector de EHR es la identificación única del usuario de EHR, que se usa durante la configuración de la reunión de Teams. La identificación única del usuario de EHR se almacena en una de las tres regiones geográficas que se describen en [¿Dónde se almacenan los datos de los clientes de Microsoft 365?](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies) Todos los chats, las grabaciones y demás datos que introduzcan en Teams los participantes de la reunión se almacenan según las directivas de almacenamiento existentes. Si desea obtener más información sobre la ubicación de los datos en Microsoft Teams, visite [Ubicaciones de los datos en Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams).
+El conector de EHR para Microsoft Teams no almacena ni transfiere ningún dato personal de identificación ni ningún registro médico de pacientes o proveedores sanitarios desde el sistema de EHR. El único dato que almacena el conector de EHR es la identificación única del usuario de EHR, que se usa durante la configuración de la reunión de Teams. La identificación única del usuario de EHR se almacena en una de las tres regiones geográficas que se describen en [¿Dónde se almacenan los datos de los clientes de Microsoft 365?](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies) Todos los chats, las grabaciones y demás datos que introduzcan en Teams los participantes de la reunión se almacenan según las directivas de almacenamiento existentes. Si desea obtener más información sobre la ubicación de los datos en Microsoft Teams, visite [Ubicaciones de los datos en Teams](../../location-of-data-in-teams.md).

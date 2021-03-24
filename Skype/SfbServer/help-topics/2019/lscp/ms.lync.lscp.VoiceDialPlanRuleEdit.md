@@ -1,5 +1,5 @@
 ---
-title: Regla de normalización Crear nueva o editar existente
+title: Regla de normalización Crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: c6d8026bf8f34fb7a55a9fc2fcc1bef05b9222c3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 713ced229618b47a3b05428f51e0bc5fcc579eb4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801340"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097126"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>Regla de normalización: Crear nuevos o editar los existentes
 
@@ -28,7 +28,4 @@ ms.locfileid: "49801340"
 
 - [Crear o modificar una regla de normalización en Skype Empresarial](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [Crear o modificar una regla de normalización manualmente](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
-
-
-
+- [Crear o modificar una regla de normalización manualmente](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)

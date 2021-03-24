@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: En esta sección se describe la configuración global y los objetos, así como el servicio universal y los grupos de administración, que se crean mediante el paso de preparación del bosque.
-ms.openlocfilehash: 4e8032cb91b012c710dc509708a813d55825f7a2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b304dbb12cb7e05e7bc82bdc56ffc330ce0221c7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831920"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098656"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Cambios realizados por la preparación del bosque en Skype Empresarial Server
 
@@ -26,7 +26,7 @@ En esta sección se describe la configuración global y los objetos, así como e
 
 ## <a name="active-directory-global-settings-and-objects"></a>Configuración global y objetos de Active Directory
 
-Si almacena la configuración global en el contenedor de configuración (como ocurre con todas las nuevas implementaciones de Skype Empresarial Server), la preparación del bosque usa el contenedor de servicios existente y agrega un objeto de servicio **RTC** bajo el objeto Configuration\Services. Al preparar el bosque, se agrega un objeto de **Global Settings** de tipo msRTCSIP-GlobalContainer dentro del objeto RTC Service. El objeto de configuración global contiene todas las configuraciones que se aplican a la implementación de Skype Empresarial Server. Si almacena la configuración global en el contenedor System, al preparar el bosque se usa un contenedor Microsoft dentro del contenedor System del dominio raíz y se agrega un objeto RTC Service dentro del objeto System\Microsoft.
+Si almacena la configuración global en el contenedor de configuración (como ocurre con todas las implementaciones nuevas de Skype Empresarial Server), la preparación del bosque usa el contenedor de servicios existente y agrega un objeto de servicio **RTC** en el objeto Configuration\Services. Al preparar el bosque, se agrega un objeto de **Global Settings** de tipo msRTCSIP-GlobalContainer dentro del objeto RTC Service. El objeto de configuración global contiene toda la configuración que se aplica a la implementación de Skype Empresarial Server. Si almacena la configuración global en el contenedor System, al preparar el bosque se usa un contenedor Microsoft dentro del contenedor System del dominio raíz y se agrega un objeto RTC Service dentro del objeto System\Microsoft.
 
 Al preparar el bosque, se agrega también un nuevo objeto **msRTCSIP-Domain** para el dominio raíz en el que se ejecuta el procedimiento.
 
@@ -38,9 +38,9 @@ Los grupos universales permiten a los administradores obtener acceso a la config
 
 - **Grupos administrativos** Estos grupos definen roles de administrador para una red de Skype Empresarial Server.
 
-- **Grupos de infraestructura** Estos grupos proporcionan permiso para acceder a áreas específicas de la infraestructura de Skype Empresarial Server. Funcionan como componentes de grupos administrativos. No debe modificar estos grupos ni agregar usuarios directamente.
+- **Grupos de infraestructura** Estos grupos proporcionan permiso para tener acceso a áreas específicas de la infraestructura de Skype Empresarial Server. Funcionan como componentes de grupos administrativos. No debe modificar estos grupos ni agregar usuarios directamente.
 
-- **Grupos de servicios** Estos grupos son cuentas de servicio necesarias para acceder a varios servicios de Skype Empresarial Server.
+- **Grupos de servicios** Estos grupos son cuentas de servicio necesarias para tener acceso a varios servicios de Skype Empresarial Server.
 
 En la tabla siguiente se describen los grupos administrativos.
 
@@ -62,7 +62,7 @@ En la tabla siguiente se describen los grupos de infraestructura.
 |RTCUniversalGlobalReadOnlyGroup  <br/> |Concede acceso de solo lectura a objetos de configuración global para Skype Empresarial Server.  <br/> |
 |RTCUniversalUserReadOnlyGroup  <br/> |Concede acceso de solo lectura a la configuración de usuario de Skype Empresarial Server.  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Concede acceso de solo lectura a la configuración de Skype Empresarial Server. Este grupo no tiene acceso a la configuración de nivel de grupo de servidores, sino únicamente a la configuración específica de un servidor individual.  <br/> |
-|RTCUniversalSBATechnicians  <br/> |Concede acceso de solo lectura a la configuración de Skype Empresarial Server y se coloca en el grupo Administradores locales de las aplicaciones de sucursal con funciones de supervivencia durante la instalación.  <br/> |
+|RTCUniversalSBATechnicians  <br/> |Concede acceso de solo lectura a la configuración de Skype Empresarial Server y se colocan en el grupo Administradores locales de los dispositivos de sucursal con funciones de supervivencia durante la instalación.  <br/> |
 
 En la tabla siguiente se describen los grupos de servicio.
 
@@ -74,7 +74,7 @@ En la tabla siguiente se describen los grupos de servicio.
 |RTCComponentUniversalServices  <br/> |Incluye cuentas de servicio usadas para ejecutar servidores de conferencia A/V, servicios web, servidor de mediación, servidor de archivado y servidor de supervisión.  <br/> |
 |RTCProxyUniversalServices  <br/> |Incluye cuentas de servicio usadas para ejecutar servidores perimetrales de Skype Empresarial Server.  <br/> |
 |RTCUniversalConfigReplicator  <br/> |Incluye servidores que pueden participar en la replicación del almacén de administración central de Skype Empresarial Server.  <br/> |
-|RTCSBAUniversalServices  <br/> |Concede acceso de solo lectura a la configuración de Skype Empresarial Server, pero permite la configuración para la instalación de un servidor de sucursal con funciones de supervivencia e implementación de aplicaciones de sucursal con funciones de supervivencia.  <br/> |
+|RTCSBAUniversalServices  <br/> |Concede acceso de solo lectura a la configuración de Skype Empresarial Server, pero permite la configuración para la instalación de un servidor de sucursal con funciones de supervivencia y una implementación de aplicación de sucursal con funciones de supervivencia.  <br/> |
 
 A continuación, la preparación del bosque agrega los grupos de servicio y administración a los grupos de infraestructura correspondientes del siguiente modo:
 
@@ -108,7 +108,7 @@ Durante la preparación del bosque también se crean los siguientes grupos de co
 
 - CsResponseGroupManager
 
-Para obtener información detallada sobre los roles RBAC y las tareas que cada uno de ellos puede acometer, consulte [Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) en la documentación de planeación.
+Para obtener información detallada sobre los roles RBAC y las tareas que cada uno de ellos puede acometer, consulte [Role-Based Access Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) en la documentación de planeación.
 
 La preparación del bosque crea entradas ACE privadas y públicas. Crea ACE privadas en el contenedor de configuración global usado por Skype Empresarial Server. Este contenedor solo lo usa Skype Empresarial Server y se encuentra en el contenedor de configuración o en el contenedor del sistema en el dominio raíz, en función de dónde almacene la configuración global. Las entradas ACE públicas que se crean al preparar el bosque se indican en la siguiente tabla:
 
@@ -117,8 +117,8 @@ La preparación del bosque crea entradas ACE privadas y públicas. Crea ACE priv
 
 | **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
 |:------------------------------------------------------------------------|:------------------------------------|
-| Leer el contenedor del sistema del dominio raíz (no heredado) **\\**\* <br/>        | X  <br/>                            |
-| Contenedor DisplaySpecifiers de configuración de lectura (no heredado)  <br/> | X  <br/>                            |
+| Leer el dominio raíz Contenedor del sistema (no heredado) **\\**\* <br/>        | X  <br/>                            |
+| Leer el contenedor DisplaySpecifiers de configuración (no heredado)  <br/> | X  <br/>                            |
 
 > [!NOTE]
 > <strong>\\</strong>*Las ACE que no se heredan no conceden acceso a objetos secundarios en estos contenedores. Las entradas de control de acceso que se heredan permiten el acceso a los objetos secundarios de estos contenedores.
@@ -134,5 +134,3 @@ En el contenedor Configuration, bajo el contexto de nomenclatura de configuraci�
 - Agrega **msRTCSIP-PrimaryUserAddress** en el atributo **extraColumns** de cada especificador de presentación de unidad organizativa de idioma (por ejemplo, CN=organizationalUnit-Display,CN=409,CN=DisplaySpecifiers) y copia los valores del atributo **extraColumns** de la presentación predeterminada (por ejemplo, CN=default-Display, CN=409,CN=DisplaySpecifiers).
 
 - Agrega los atributos de filtro **msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer** y **msRTCSIP-UserEnabled** en el atributo **attributeDisplayNames** de cada especificador de presentación de idioma de los objetos Users, Contacts e InetOrgPerson (por ejemplo, en inglés: CN=user-Display,CN=409,CN=DisplaySpecifiers).
-
-

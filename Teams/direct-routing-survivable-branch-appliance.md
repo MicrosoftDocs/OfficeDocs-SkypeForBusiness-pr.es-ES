@@ -1,5 +1,5 @@
 ---
-title: Enrutamiento directo SBA
+title: Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,81 +15,81 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Obtenga más información sobre enrutamiento directo, como la configuración, las decisiones básicas de implementación necesarias y las consideraciones de enrutamiento de voz.
+description: Obtenga más información sobre enrutamiento directo, como configuración, decisiones básicas de implementación necesarias y consideraciones de enrutamiento de voz.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fb8812fd025317eb9c6e3c67ce1f5fcea094978
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: edf2c2a97bec2b167f1218d983d3c9f7fa4bd667
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196494"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096430"
 ---
-# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Dispositivo de rama intercambiable (SBA) para enrutamiento directo
+# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Dispositivo de sucursal con funciones de supervivencia (SBA) para enrutamiento directo
 
 
-En ocasiones, un sitio de cliente que usa enrutamiento directo para conectarse a Microsoft Phone System puede experimentar una interrupción de Internet.
+En ocasiones, un sitio de cliente que usa Enrutamiento directo para conectarse a Microsoft Phone System puede experimentar una interrupción de Internet.
 
-Suponga que el sitio del cliente (denominado una rama) no puede conectarse temporalmente a la nube de Microsoft a través del enrutamiento directo. Sin embargo, la intranet dentro de la rama sigue siendo completamente funcional y los usuarios pueden conectarse al controlador de borde de sesión (SBC) que proporciona conectividad RTC.
+Suponga que el sitio del cliente (denominado rama) no puede conectarse temporalmente a la nube de Microsoft a través del enrutamiento directo. Sin embargo, la intranet dentro de la rama sigue siendo totalmente funcional y los usuarios pueden conectarse al controlador de borde de sesión (SBC) que proporciona conectividad RTC.
 
-En este artículo se describe cómo usar un dispositivo de sucursal fácilmente (SBA) para permitir que Microsoft Phone System siga haciendo y recibiendo llamadas de red telefónica conmutada (RTC) públicas en caso de interrupción.
+En este artículo se describe cómo usar un dispositivo de sucursal con funciones de supervivencia (SBA) para permitir que Microsoft Phone System siga haciendo y recibiendo llamadas de red telefónica conmutada (RTC) en caso de interrupción.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Microsoft distribuye el código SBA a los proveedores de SBC que después insertan código en su firmware o lo distribuyen por separado para que SBA se ejecute en una máquina virtual o hardware independiente. 
+El SBA es un código distribuible proporcionado por Microsoft a los proveedores de SBC que, a continuación, insertan código en su firmware o lo distribuyen por separado para que SBA se ejecute en una máquina virtual o hardware independiente. 
 
-Para obtener el firmware más reciente del controlador de borde de sesión con el dispositivo de rama intercambiable insertado, póngase en contacto con su proveedor de SBC. Además, es necesario lo siguiente:
+Para obtener el firmware más reciente del controlador de borde de sesión con el dispositivo de sucursal con supervivencia incrustado, póngase en contacto con su proveedor de SBC. Además, se requiere lo siguiente:
 
-- Es necesario configurar SBC para omitir medios para asegurarse de que el cliente de Microsoft Teams en el sitio de rama puede tener medios que fluyen directamente con la SBC. 
+- El SBC debe configurarse para la omisión de medios para asegurarse de que el cliente de Microsoft Teams en el sitio de sucursal puede tener los medios fluyendo directamente con el SBC. 
 
-- TLS1.2 debe estar habilitado en el sistema operativo SBA VM.
+- TLS1.2 debe estar habilitado en el sistema operativo de máquina virtual de SBA.
 
 ## <a name="supported-teams-clients"></a>Clientes de Teams compatibles
 
 La característica SBA es compatible con los siguientes clientes de Microsoft Teams: 
 
-- Escritorio de Microsoft Teams para Windows 
+- Escritorio de Microsoft Teams Windows 
 
-- Escritorio de Microsoft Teams para macOS 
+- Escritorio de Microsoft Teams macOS 
 
 ## <a name="how-it-works"></a>Cómo funciona
 
-Durante una interrupción de Internet, el cliente de Teams debe cambiar al SBA automáticamente y las llamadas en curso deberían continuar sin interrupciones. El usuario no necesita realizar ninguna acción. Tan pronto como el cliente de Teams detecta que Internet está listo y las llamadas salientes han finalizado, el cliente volverá al modo de funcionamiento normal y se conectará a otros servicios de Teams. El SBA cargará los registros de datos de llamadas recopilados en la nube y el historial de llamadas se actualizará para que el administrador de inquilinos pueda revisar esta información. 
+Durante una interrupción de Internet, el cliente de Teams debe cambiar al SBA automáticamente y las llamadas en curso deben continuar sin interrupciones. No se requiere ninguna acción del usuario. Tan pronto como el cliente de Teams detecta que Internet está listo y las llamadas salientes han finalizado, el cliente volverá al modo de funcionamiento normal y se conectará a otros servicios de Teams. El SBA cargará los registros de datos de llamadas recopilados en la nube y el historial de llamadas se actualizará para que esta información esté disponible para su revisión por el administrador de inquilinos. 
 
 Cuando el cliente de Microsoft Teams está en modo sin conexión, está disponible la siguiente funcionalidad relacionada con las llamadas: 
 
-- Realizar llamadas RTC a través de SBA/SBC local con medios que fluyen por la SBC.
+- Realizar llamadas RTC a través de SBA/SBC local con los medios que fluyen por el SBC.
 
-- Recibir llamadas RTC a través de SBA/SBC local con medios que fluyen por la SBC. 
+- Recibir llamadas RTC a través de SBA/SBC local con los medios que fluyen por el SBC. 
 
-- Retenciones y reanudación de llamadas RTC.
+- Retener y reanudar llamadas RTC.
 
 ## <a name="configuration"></a>Configuración
 
-Para que la característica SBA funcione, el cliente de Teams necesita saber qué SBA están disponibles en cada sitio de rama y qué SBA se asignan a los usuarios en ese sitio. Los pasos de configuración son los siguientes:
+Para que la característica SBA funcione, el cliente de Teams debe saber qué SBA están disponibles en cada sitio de sucursal y qué SBA se asignan a los usuarios de ese sitio. Los pasos de configuración son los siguientes:
 
-1. Crear las OSN.
-2. Cree la directiva de capacidad de ampliación de la rama de Teams.
+1. Cree los SBA.
+2. Cree la directiva de supervivencia de la rama de Teams.
 3. Asigne la directiva a los usuarios.
-4. Registrar una aplicación para el SBA con Azure Active Directory.
+4. Registre una aplicación para el SBA con Azure Active Directory.
 
-Toda la configuración se realiza con los cmdlets de PowerShell de Skype Empresarial Online. (El Centro de administración de Teams aún no admite la característica de enrutamiento directo SBA). 
+Toda la configuración se realiza con cmdlets de PowerShell de Skype Empresarial Online. (El Centro de administración de Teams aún no admite la característica SBA de enrutamiento directo). 
 
-(Para obtener información sobre cómo configurar el SBC, con vínculos a la documentación del proveedor de SBC, consulte la configuración del controlador de borde de sesión al final de este artículo).
+(Para obtener información sobre cómo configurar el SBC, con vínculos a la documentación del proveedor de SBC, vea Configuración del controlador de borde de sesión al final de este artículo).
 
-### <a name="create-the-sbas"></a>Crear las OSN
+### <a name="create-the-sbas"></a>Crear los SBA
 
-Para crear los SBA, usará el cmdlet New-CsTeamsSurvivableBranchAppliance específico. Este cmdlet tiene los siguientes parámetros:
+Para crear los SBA, usará el cmdlet New-CsTeamsSurvivableBranchAppliance. Este cmdlet tiene los siguientes parámetros:
 
 | Parámetro| Descripción |
 | :------------|:-------|
 | Identity  | La identidad del SBA  |
 | Fqdn | El FQDN del SBA |
-| Sitio | El sitio tenantNetworksite donde se encuentra el SBA |
-| Descripción | Texto con formato gratuito |
+| Sitio | El TenantNetworkSite donde se encuentra el SBA |
+| Descripción | Texto con formato libre |
 |||
 
 Por ejemplo:
@@ -102,14 +102,14 @@ Site        :
 Description : SBA 1 
 ```
 
-### <a name="create-the-teams-branch-survivability-policy"></a>Crear la directiva de idoneidad de la rama de Teams 
+### <a name="create-the-teams-branch-survivability-policy"></a>Crear la directiva de supervivencia de la rama de Teams 
 
-Para crear una directiva, use el cmdlet New-CsTeamsSurvivableBranchAppliancePolicy cmdlet. Este cmdlet tiene los parámetros siguientes. Tenga en cuenta que la directiva puede contener uno o varios SBA.
+Para crear una directiva, use el cmdlet New-CsTeamsSurvivableBranchAppliancePolicy datos. Este cmdlet tiene los siguientes parámetros. Tenga en cuenta que la directiva puede contener uno o varios SBA.
 
 | Parámetro| Descripción |
 | :------------|:-------|
 | Identity | La identidad de la directiva |
-| BranchApplianceFqdns  | El FQDN de los SBA en el sitio |
+| BranchApplianceFqdns  | El FQDN de los SBA del sitio |
 ||
 
 Por ejemplo:
@@ -120,7 +120,7 @@ Identity             : Tag:CPH
 BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
-Puede agregar o quitar OSBA de una directiva mediante el Set-CsTeamsSurvivableBranchAppliancePolicy cmdlet. Por ejemplo: 
+Puede agregar o quitar SBA de una directiva mediante el cmdlet Set-CsTeamsSurvivableBranchAppliancePolicy directiva. Por ejemplo: 
 
 ``` powershell
 Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{remove="sba1.contoso.com"} 
@@ -129,7 +129,7 @@ Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @
 
 ### <a name="assign-a-policy-to-a-user"></a>Asignar una directiva a un usuario
 
-Para asignar la directiva a usuarios individuales, usará el cmdlet Grant-CsTeamsSurvivableBranchAppliancePolicy cmdlet. Este cmdlet tiene los parámetros siguientes:
+Para asignar la directiva a usuarios individuales, usará el cmdlet Grant-CsTeamsSurvivableBranchAppliancePolicy usuario. Este cmdlet tiene los siguientes parámetros:
 
 | Parámetro| Descripción |
 | :------------|:-------|
@@ -143,7 +143,7 @@ Por ejemplo:
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user@contoso.com 
 ```
 
-Puede quitar una directiva a un usuario concediendo $Null directiva de directiva de usuario como se muestra en el siguiente ejemplo:
+Puede quitar una directiva de un usuario concediendo la $Null directiva como se muestra en el siguiente ejemplo:
 
 ``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
@@ -151,43 +151,43 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 ### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Registrar una aplicación para el SBA con Azure Active Directory
 
-Para permitir que diferentes SBA que se usan en su espacio empresarial puedan leer los datos necesarios de Microsoft 365, debe registrar una aplicación para el SBA en Azure Active Directory. 
+Para permitir que los distintos SBA usados en el espacio empresarial lean los datos necesarios de Microsoft 365, debe registrar una aplicación para el SBA con Azure Active Directory. 
 
 Para obtener más información sobre el registro de aplicaciones, vea lo siguiente:
 
-- [Desarrollo de aplicaciones de línea de negocio para Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [Desarrollar aplicaciones de línea de negocio para Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [Registra una aplicación en la plataforma de identidad de Microsoft.](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)  
+- [Registrar una aplicación con la plataforma de identidad de Microsoft.](/azure/active-directory/develop/quickstart-register-app)  
 
-Solo necesita registrar una solicitud para que la usen todos los OBA de su inquilino. 
+Solo necesita registrar una aplicación para que la usen todos los SBA en el espacio empresarial. 
 
-Para el registro SBA, necesita los siguientes valores creados por el registro: 
+Para el registro de SBA, necesita los siguientes valores creados por el registro: 
 
 - Id. de aplicación (cliente) 
-- Secreto de cliente 
+- Secreto del cliente 
 
-Para la aplicación SBA, ten en cuenta lo siguiente: 
+Para la aplicación SBA, tenga en cuenta lo siguiente: 
 
-- El nombre puede ser el que decida.  
-- Tipos de cuenta compatibles = Solo cuenta en este directorio de la organización. 
-- El Uri de redirección web = https://login.microsoftonline.com/common/oauth2/nativeclient .
-- Tokens de concesión implícita = tokens de acceso e identificador. 
-- Permisos de API = Acceso para administradores de inquilinos de Skype > -> application_access_custom_sba_appliance.
-- Secreto de cliente: puede usar cualquier descripción y expiración. 
-- Recuerde copiar el secreto de cliente inmediatamente después de crearlo. 
-- El Id. de la aplicación (cliente) se muestra en la pestaña Descripción general.
+- El nombre puede ser lo que decida.  
+- Tipos de cuenta admitidos = Solo cuenta en este directorio de la organización. 
+- Uri de redirección web = https://login.microsoftonline.com/common/oauth2/nativeclient .
+- Tokens de concesión implícitos = tokens de Access y tokens de id. 
+- Permisos de API = Acceso de administrador de inquilinos de Skype y Teams -> de la aplicación -> application_access_custom_sba_appliance.
+- Secreto del cliente: puede usar cualquier descripción y expiración. 
+- Recuerde copiar el secreto del cliente inmediatamente después de crearlo. 
+- El id. de aplicación (cliente) se muestra en la pestaña Información general.
 
 A continuación, siga estos pasos:
 
 1. Registre la aplicación.
-2. Establecer los tokens de concesión implícita.
+2. Establezca los tokens de concesión implícitos.
 3. Establezca los permisos de la API.
-4. Cree el secreto de cliente.
+4. Cree el secreto del cliente.
 
 
 ## <a name="session-border-controller-configuration"></a>Configuración del controlador de borde de sesión 
 
-Para obtener instrucciones paso a paso sobre cómo configurar el controlador de borde de sesión con el dispositivo de rama intercambiable insertado, consulte la documentación proporcionada por su proveedor de SBC: 
+Para obtener instrucciones paso a paso sobre cómo configurar el controlador de borde de sesión con el dispositivo de sucursal con supervivencia incrustado, consulte la documentación proporcionada por el proveedor de SBC: 
 
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
 
@@ -197,20 +197,20 @@ Para obtener instrucciones paso a paso sobre cómo configurar el controlador de 
 
 - [TE-Systems](https://www.anynode.de/microsoft-teams-sba/)
 
-## <a name="reporting-issues"></a>Informar de problemas
+## <a name="reporting-issues"></a>Problemas de informes
 
-Informe de cualquier problema a la organización de soporte técnico de su proveedor de SBC. Al informar del problema, indica que tienes configurado un dispositivo de rama manejable.
+Informe de cualquier problema a la organización de soporte técnico de su proveedor de SBC. Al informar del problema, indique que tiene un dispositivo de sucursal con funciones de supervivencia configurado.
 
 ## <a name="known-issues"></a>Problemas conocidos
 
-- Al agregar nuevos dispositivos de rama intercambiables, es posible que deba tardar algún tiempo antes de poder usarlos en directivas de aplicaciones de sucursal fáciles de usar.
+- Al agregar nuevos dispositivos de sucursales con funciones de supervivencia, puede tardar algún tiempo antes de poder usarlos en directivas de aplicación de sucursal con funciones de supervivencia.
 
-- Al asignar una directiva de aplicación de bifurcación intercambiable a un usuario, puede tardar algún tiempo antes de que se muestra el SBA en la salida de Get-CsOnlineUser. 
+- Al asignar una directiva de aplicación de sucursal con funciones de supervivencia a un usuario, puede que el SBA se muestra en el resultado de Get-CsOnlineUser. 
 
-- No se realiza la búsqueda inversa de números en los contactos de Azure AD. 
+- No se realiza la búsqueda inversa de números en contactos de Azure AD. 
 
 - El SBA no admite la configuración de reenvío de llamadas. 
 
 - No se admite realizar una llamada de emergencia a un número de emergencia configurado para llamadas de emergencia dinámicas (E911).
 
-- El resultado del Get-CsOnlineUser muestra TeamsBranchSur inteligenciabilityPolicy.
+- El resultado de Get-CsOnlineUser muestra TeamsBranchSurvivabilityPolicy.
