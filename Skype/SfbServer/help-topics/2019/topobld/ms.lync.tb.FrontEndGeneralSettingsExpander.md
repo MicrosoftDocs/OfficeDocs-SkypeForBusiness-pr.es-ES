@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar la configuración de un grupo de servidores front-end o un servidor Standard Edition, cuenta con las secciones siguientes:'
-ms.openlocfilehash: d1fa04d2b581fbdb359e01fc776fea8c16d9eb52
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0eff10b89c05980e5b2d425c43266fafd70461e6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833500"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101906"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de configuración general front-end
 
@@ -36,7 +36,7 @@ Para editar la configuración de un grupo de servidores front-end o un servidor 
 
 ## <a name="front-end-pool"></a>Grupo de servidores front-end
 
-Para un grupo de servidores front-end, puede configurar las opciones generales, de resistencia, servicios web y servidor de mediación. Para más información, consulte las subsecciones siguientes. Para obtener más información sobre la definición y configuración de opciones para el grupo de servidores front-end, consulte [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Para un grupo de servidores front-end, puede configurar las opciones generales, de resistencia, servicios web y servidor de mediación. Para más información, consulte las subsecciones siguientes. Para obtener más información sobre la definición y configuración de opciones para el grupo de servidores front-end, consulte [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
 
 ### <a name="general-settings"></a>Configuración general
 
@@ -50,7 +50,7 @@ Puede configurar la siguiente configuración general:
 
   - **Conferencia**. Incluye compartir recursos de audio, vídeo y aplicaciones. Tras seleccionar esta opción, puede elegir conferencia de acceso telefónico (RTC). Posteriormente, en la subsección “Configuración de servidor de mediación” que aparece aquí, puede especificar y definir una puerta de enlace de RTC.
 
-  - **Telefonía IP empresarial**. Habilita las llamadas de voz sobre IP internas a dispositivos y teléfonos calificados y clientes de Skype Empresarial. Para habilitar las funciones de llamadas externas, debe incluir un servidor de mediación. Para obtener más información, consulte la subsección “Configuración de servidor de mediación” que aparece más adelante en este tema.
+  - **Telefonía IP empresarial**. Habilita llamadas internas de voz sobre IP a dispositivos y teléfonos cualificados y clientes de Skype Empresarial. Para habilitar las funciones de llamadas externas, debe incluir un servidor de mediación. Para obtener más información, consulte la subsección “Configuración de servidor de mediación” que aparece más adelante en este tema.
 
 - En **Asociaciones**, edite o especifique lo siguiente:
 
@@ -103,7 +103,7 @@ Para editar o especificar opciones adicionales de los servicios web en el grupo 
 En **Servicios Web internos**, especifique lo siguiente:
 
 > [!CAUTION]
-> Si tiene más de un grupo de servidores front-end o un servidor front-end, el FQDN de los servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como **pool01.contoso.com**, no puede usar **pool01.contoso.com** para otro grupo de servidores front-end o servidor front-end. Si también implementa directores, el FQDN de servicios web externos definido para cualquier director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
+> Si tiene más de un grupo de servidores front-end o servidor front-end, el FQDN de servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como pool01.contoso.com **,** no puede usar **pool01.contoso.com** para otro grupo de servidores front-end o servidor front-end. Si también va a implementar directores, el FQDN de servicios web externos definido para cualquier director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
 
 - Si selecciona **FQDN de reemplazo**, puede especificar un nombre de dominio completo distinto para la identidad de los servicios **web internos** en el grupo de servidores. La configuración predeterminada es el nombre del grupo de servidores actual, según se haya definido para el grupo de servidores front-end.
 
@@ -113,7 +113,7 @@ En **Servicios Web externos**, especifique lo siguiente:
 
 - El FQDN de los servicios web externos. El FQDN especificado aquí se definirá normalmente según los requisitos de la conexión externa, como el proxy inverso.
 
-- Los puertos de escucha y publicados de HTTP y HTTPS que la implementación necesita. Los valores predeterminados de puerto 8080 para HTTP y puerto 4443 para HTTPS se definen al principio. Puede cambiar estos valores para los puertos de escucha en función de los requisitos de proxy inverso y de red externa. Los valores predeterminados de puertos publicados se definen en puerto 80 para HTTP y puerto 443 para HTTPS. Estos valores determinan los puertos que el grupo de servidores escuchará para solicitudes entrantes. Por lo general, no es necesario cambiar estas opciones, a menos que haya un conflicto de requisitos de puerto en el grupo de servidores. Se esperan puertos publicados internos y externos con los mismos valores de puerto. Esto no es un conflicto.
+- Los puertos de escucha y publicados de HTTP y HTTPS que la implementación necesita. Los valores predeterminados de puerto 8080 para HTTP y puerto 4443 para HTTPS se definen al principio. Puede cambiar estos valores para los puertos de escucha en función de los requisitos de proxy inverso y de red externa. Los valores predeterminados de puertos publicados se definen en puerto 80 para HTTP y puerto 443 para HTTPS. Estos valores determinan los puertos que el grupo de servidores escuchará para solicitudes entrantes. Por lo general, estos no necesitan cambiarse, a menos que haya un conflicto de requisitos de puerto en el grupo de servidores. Se esperan puertos publicados internos y externos con los mismos valores de puerto. Esto no es un conflicto.
 
 ### <a name="mediation-server"></a>Servidor de mediación
 
@@ -127,11 +127,11 @@ En **Servidor de mediación**, especifique lo siguiente:
 
 - Si tiene asociado más de un tronco con un servidor de mediación, puede especificar un tronco como predeterminado. Para ello, haga clic en la puerta de enlace y, a continuación, haga clic en **Convertir en predeterminada**. Para anular la selección de una puerta de enlace como predeterminada, haga clic en **Anular como predeterminada**.
 
-Para obtener más detalles sobre cómo definir y configurar las opciones del grupo de servidores front-end, consulte [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Para obtener más detalles sobre cómo definir y configurar las opciones del grupo de servidores front-end, consulte [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
 
 ## <a name="standard-edition-server"></a>Servidor Standard Edition
 
-En el caso de los servidores Standard Edition, puede configurar las opciones generales, de resistencia, de servicios web y del servidor de mediación. Para obtener información, consulte las subsecciones siguientes. Para más información sobre la definición y configuración de opciones para el servidor Standard Edition, consulte [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) y [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+En el caso de los servidores Standard Edition, puede configurar las opciones generales, de resistencia, de servicios web y del servidor de mediación. Para obtener información, consulte las subsecciones siguientes. Para más información sobre la definición y configuración de opciones para el servidor Standard Edition, consulte [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) y [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
 
 ### <a name="general-settings"></a>Configuración general
 
@@ -147,7 +147,7 @@ Puede configurar la siguiente configuración general:
 
   - **Conferencia**. Incluye compartir recursos de audio, vídeo y aplicaciones. Tras seleccionar esta opción, puede elegir **conferencia de acceso telefónico (RTC)**. Posteriormente, en la configuración del servidor de mediación puede especificar y definir una puerta de enlace de RTC.
 
-  - **Telefonía IP empresarial**. Habilita las llamadas de voz sobre IP internas a dispositivos y teléfonos calificados y clientes de Skype Empresarial. Para habilitar las funciones de llamadas externas, debe incluir un servidor de mediación. Para obtener más información, consulte la subsección “Configuración de servidor de mediación” que aparece más adelante en este tema.
+  - **Telefonía IP empresarial**. Habilita llamadas internas de voz sobre IP a dispositivos y teléfonos cualificados y clientes de Skype Empresarial. Para habilitar las funciones de llamadas externas, debe incluir un servidor de mediación. Para obtener más información, consulte la subsección “Configuración de servidor de mediación” que aparece más adelante en este tema.
 
 - En **Asociaciones** puede modificar o especificar lo siguiente:
 
@@ -206,6 +206,4 @@ Para **Servidor de mediación**, puede especificar lo siguiente:
 
 - Si tiene asociada más de una puerta de enlace con un servidor de mediación, puede especificar un puerta de enlace como predeterminada. Para ello, haga clic en la puerta de enlace y, a continuación, haga clic en **Convertir en predeterminada**. Para anular la selección de una puerta de enlace como predeterminada, haga clic en **Anular como predeterminada**.
 
-Para obtener más información, sobre la definición y configuración de opciones para el servidor Standard Edition, consulte [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) y [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
-
-
+Para obtener más información, sobre la definición y configuración de opciones para el servidor Standard Edition, consulte [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) y [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).

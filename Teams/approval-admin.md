@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909524"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103016"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
@@ -50,13 +50,13 @@ Para usar la aplicación Aprobaciones, necesita permisos para los elementos sigu
 
 - Rol de administrador en el entorno de destino.
 
-- Licencia para un [Power Automate](https://docs.microsoft.com/power-automate/get-started-approvals), un Office 365 o una Dynamics 365.
+- Licencia para un [Power Automate](/power-automate/get-started-approvals), un Office 365 o una Dynamics 365.
 
 ## <a name="storage-with-cds"></a>Almacenamiento con CDS
 
-El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las aplicaciones empresariales y de análisis en el CDS. Consiste en un conjunto de esquemas de datos estandarizados y extensibles publicados por Microsoft y nuestros asociados, que permiten la coherencia de los datos y su significado en aplicaciones y procesos empresariales. Obtenga más información sobre los [Modelos de datos común de la plataforma de Microsoft Power](https://docs.microsoft.com/power-automate/get-started-approvals).
+El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las aplicaciones empresariales y de análisis en el CDS. Consiste en un conjunto de esquemas de datos estandarizados y extensibles publicados por Microsoft y nuestros asociados, que permiten la coherencia de los datos y su significado en aplicaciones y procesos empresariales. Obtenga más información sobre los [Modelos de datos común de la plataforma de Microsoft Power](/power-automate/get-started-approvals).
 
-Obtenga más información sobre el [flujo de trabajo de Aprobación](https://docs.microsoft.com/power-automate/modern-approvals).
+Obtenga más información sobre el [flujo de trabajo de Aprobación](/power-automate/modern-approvals).
 
 ## <a name="approvals-teams-app-permissions"></a>Permisos de aplicación de Approvals Teams
 
@@ -101,7 +101,7 @@ La aplicación Aprobaciones está disponible de forma predeterminada. Puede desh
 
 ## <a name="retention-policy"></a>Directiva de retención
 
-Las aprobaciones creadas a partir de la aplicación de Aprobaciones se almacenan en el entorno de CDS predeterminado, que no admite copias de seguridad en este momento. Obtenga más información sobre cómo [Respaldar y restaurar entornos - Power Platform \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+Las aprobaciones creadas a partir de la aplicación de Aprobaciones se almacenan en el entorno de CDS predeterminado, que no admite copias de seguridad en este momento. Obtenga más información sobre cómo [Respaldar y restaurar entornos - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 ## <a name="auditing"></a>Auditoría
 
@@ -133,7 +133,7 @@ Puede buscar las actividades siguientes:
 
 - Firma electrónica agregada a la solicitud de aprobación
 
-Para tener acceso a más aprobaciones de auditoría en Flujo, habilite y configure la auditoría en el entorno predeterminado para las entidades de aprobación primaria Aprobación, solicitud de aprobación y respuesta de aprobación. Las operaciones de creación, actualización y eliminación son eventos auditables para los registros de Aprobación. Obtenga más información sobre [Datos de Auditoría y la actividad de usuario para la seguridad y el cumplimiento: Power Platform \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity).
+Para tener acceso a más aprobaciones de auditoría en Flujo, habilite y configure la auditoría en el entorno predeterminado para las entidades de aprobación primaria Aprobación, solicitud de aprobación y respuesta de aprobación. Las operaciones de creación, actualización y eliminación son eventos auditables para los registros de Aprobación. Obtenga más información sobre [Datos de Auditoría y la actividad de usuario para la seguridad y el cumplimiento: Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
 Las auditorías se pueden personalizar aún más en el [Centro de seguridad y cumplimiento de Microsoft 365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
 
@@ -143,7 +143,7 @@ Las auditorías se pueden personalizar aún más en el [Centro de seguridad y cu
 
 3. Busque en el registro de Auditoría y seleccione la pestaña **Actividades de Dynamics 365**.
 
-Obtenga más información sobre el [Registro de actividad de aplicaciones basadas en modelos y Microsoft Dataverse: Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing).
+Obtenga más información sobre el [Registro de actividad de aplicaciones basadas en modelos y Microsoft Dataverse: Power Platform](/power-platform/admin/enable-use-comprehensive-auditing).
 
 ## <a name="security"></a>Seguridad
 

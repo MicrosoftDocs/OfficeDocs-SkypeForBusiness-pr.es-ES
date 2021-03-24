@@ -16,24 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f6d4a7dca340d297543abb3620a36cdd804ca9f
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: d0403e2e804397249dfd07eb03843e6b0b38653c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196584"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102126"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>Sincronizar datos del Sistema de información de estudiantes (SIS) con Insights para Educación
 Cuando más datos introduzca en [Insights para Educación](class-insights.md), mejor podrán los formadores ayudar a los alumnos y más fácil será para los líderes educativos ayudar a los formadores.
 
-Para emplear Insights a nivel de la organización, es necesario usar [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) para conectarse al Sistema de información de estudiantes (SIS) de modo que Insights tenga la estructura jerárquica del sistema educativo asignada correctamente. 
+Para emplear Insights a nivel de la organización, es necesario usar [School Data Sync (SDS)](/SchoolDataSync) para conectarse al Sistema de información de estudiantes (SIS) de modo que Insights tenga la estructura jerárquica del sistema educativo asignada correctamente. 
 
 Para ver Insights a nivel de clase como formador de clase *no* necesita esta sincronización, ya que usamos los permisos y la estructura de clase de Teams.
 
 ## <a name="plan-your-sis-integration"></a>Planear la integración del SIS
 Los datos del SIS proporcionan la estructura jerárquica del sistema educativo y asignan adónde se destina a cada usuario.
 
-Insights funciona mejor cuando se usa el [formato de archivo de SDS V2](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format), pero también es compatible con un formato de archivo [SDS V1](https://docs.microsoft.com/schooldatasync/school-data-sync-format-csv-files-for-sds) con una funcionalidad *limitada*.
+Insights funciona mejor cuando se usa el [formato de archivo de SDS V2](/schooldatasync/sds-v2-csv-file-format), pero también es compatible con un formato de archivo [SDS V1](/schooldatasync/school-data-sync-format-csv-files-for-sds) con una funcionalidad *limitada*.
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>Diferencias entre los formatos de archivo SDS V1 y V2
 
@@ -80,7 +80,7 @@ Estos son algunos procedimientos recomendados para garantizar una implementació
     
     *   Podrá definir los permisos relevantes en función de la unidad de organización para el personal. Asegúrese de que están asociados con el nivel de unidad correcto para que reciban los permisos que necesitan. Por ejemplo, un orientador asignado a cuatro escuelas necesita ver todas las clases de estas escuelas, mientras que un director debe poder ver todas las clases de su escuela. 
     
-*   El rol es fundamental. Aunque se trata de una lista cerrada, intente hacer coincidir el rol de [la lista](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) con el rol real de cada usuario que cargue. De esta forma, puede asignar permisos basados en roles en consecuencia. Por ejemplo, proporcione permisos para que todos los directores vean las clases de su escuela, o para que todos los profesores vean su facultad. 
+*   El rol es fundamental. Aunque se trata de una lista cerrada, intente hacer coincidir el rol de [la lista](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) con el rol real de cada usuario que cargue. De esta forma, puede asignar permisos basados en roles en consecuencia. Por ejemplo, proporcione permisos para que todos los directores vean las clases de su escuela, o para que todos los profesores vean su facultad. 
 
 ### <a name="organizations"></a>Organizaciones
 
@@ -89,7 +89,7 @@ Estos son algunos procedimientos recomendados para garantizar una implementació
 * Asegúrese de que *todas las unidades de organización en el árbol de organización incluyan alumnos o clases* para agregar datos de alumnos para ellas. Le recomendamos que los alumnos estén en la rama más baja del árbol.
 
 > [!NOTE]
-> Para obtener más información sobre la implementación de SDS, visite [SDS](https://docs.microsoft.com/schooldatasync/planning-school-data-sync).
+> Para obtener más información sobre la implementación de SDS, visite [SDS](/schooldatasync/planning-school-data-sync).
 
 ## <a name="integrate-sis-using-sds"></a>Integrar SIS con SDS
 
@@ -116,7 +116,7 @@ Para sincronizar los perfiles actuales con Insights, vaya a **Sincronizar perfil
 
 :::image type="content" source="media/insights-sds-profile-sync.png" alt-text="Perfil de sincronización con botones de alternancia de Insights":::
 
-**Si aún no usa SDS**, ahora necesitará [implementarlo](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync).
+**Si aún no usa SDS**, ahora necesitará [implementarlo](/schooldatasync/deploying-school-data-sync).
 
 Durante el proceso de implementación, puede decidir si quiere usar SDS para aprovisionar usuarios y clases en Teams o solo para proporcionar datos a Insights.
 

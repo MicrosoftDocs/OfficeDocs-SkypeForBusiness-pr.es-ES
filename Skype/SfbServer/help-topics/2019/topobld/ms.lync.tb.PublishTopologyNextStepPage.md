@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Una vez publicada la topología, se muestra la página El Asistente para publicaciones ha finalizado.
-ms.openlocfilehash: 6fd650f5020507f3739576e7ef0db346c71aa739
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e938bb14f6068498e8302b97906a9ef88b27a75a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822230"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101816"
 ---
 # <a name="publish-topology-next-step"></a>Próximo paso para publicar la topología
 
@@ -35,6 +35,4 @@ Para revisar los pasos siguientes que se recomiendan para finalizar la topologí
 
 Haga clic en **Finalizar**
 
-Para obtener más información, consulte [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx).
-
-
+Para obtener más información, consulte [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology).

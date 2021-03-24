@@ -25,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: e80c54ef46c72769e7a3b0d4e6e696fba1202e70
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7175bc47cc3e9db1dde3d92c1b3024dcdcfd3e41
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030796"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102826"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>¿Qué debo comprar para usar Microsoft 365 Business Voice?
 
@@ -53,7 +53,7 @@ Hay dos tipos de licencias de Business Voice: Business Voice **con** plan de lla
 
 Para ver si su país o región admite un plan de llamadas, compruebe la [Disponibilidad del país y región para Business Voice](country-region-availability.md).
 
-Para obtener más información sobre las funciones de Business Voice, vea [Descripción del servicio de Business Voice de Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+Para obtener más información sobre las funciones de Business Voice, vea [Descripción del servicio de Business Voice de Microsoft 365](/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
 ## <a name="business-voice-with-calling-plan"></a>Business Voice con plan de llamadas
 

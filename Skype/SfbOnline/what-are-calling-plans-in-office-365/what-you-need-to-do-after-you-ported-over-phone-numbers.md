@@ -1,5 +1,5 @@
 ---
-title: ¿Qué necesita hacer después de realizar la por encima de sus números de teléfono?
+title: ¿Qué necesita hacer después de haber portado a través de sus números de teléfono?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,23 +21,23 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
-description: Vea lo que debe hacer después de realizar la pornografía de sus números de teléfono en Skype Empresarial.
-ms.openlocfilehash: b96a0f62dc6c31de744786a47a7a7ef6d26c0937
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Vea lo que tiene que hacer después de porte sus números de teléfono a Skype Empresarial.
+ms.openlocfilehash: 8dcb74cad8a745fd81b22c0aa68d4f3cedd3502a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769233"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101866"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>¿Qué necesita hacer después de realizar la por encima de sus números de teléfono?
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>¿Qué necesita hacer después de haber portado a través de sus números de teléfono?
 
-Una vez que haya enviado la solicitud de portabilidad, nos comunicaremos con su operador para trabajar con ellos los detalles. Cuando se haya establecido la fecha de la transferencia final, se lo notificaremos por correo electrónico. Sin embargo, mientras espera a que su operador acepte la orden, puede crear las direcciones de emergencia necesarias que usará con estos números.
+Una vez que haya enviado su solicitud de portabilidad, nos comunicaremos con su operador de telefonía y le facilitaremos los detalles. Cuando se haya establecido la fecha de transferencia final, se lo notificaremos por correo electrónico. Sin embargo, mientras esperas a que el operador acepte el pedido, sigue adelante y crea las direcciones de emergencia necesarias que usarás con estos números.
   
-- Obtenga más información sobre [las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas.](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+- Obtenga más información sobre [¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
     
-- Si es [necesario, puede agregar](add-or-remove-an-emergency-address-for-your-organization.md) o quitar una dirección de emergencia de su organización.
+- Puede agregar [o quitar una dirección de emergencia para su organización](/MicrosoftTeams/add-change-remove-emergency-location-organization) si es necesario.
     
-- Si los números de teléfono ya tienen una dirección de emergencia, agregue, cambie o quite una [ubicación de emergencia para su organización.](add-change-or-remove-an-emergency-location-for-your-organization.md)
+- Si los números de teléfono ya tienen una dirección de emergencia, agregue, cambie o quite una ubicación [de emergencia para su organización.](/MicrosoftTeams/add-change-remove-emergency-place-organization)
     
 - [Asignar, cambiar o quitar un teléfono móvil de un usuario](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
@@ -55,4 +55,3 @@ Una vez que haya enviado la solicitud de portabilidad, nos comunicaremos con su 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

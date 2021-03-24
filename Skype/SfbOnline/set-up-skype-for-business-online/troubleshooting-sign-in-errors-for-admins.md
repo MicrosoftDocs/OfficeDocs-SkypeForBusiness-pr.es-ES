@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Obtenga información sobre causas comunes de error en el inicio de sesión en Skype Empresarial Online y la forma de solucionar estos problemas. '
-ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164329"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103846"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Solucionar problemas de inicio de sesión en Skype Empresarial Online para administradores
 
@@ -170,7 +170,7 @@ Por último, si ya actualizó las credenciales, pero el usuario todavía no pued
 
 2. Si es necesario, active la opción de vista de carpeta **Mostrar archivos ocultos**.
 
-3. Escriba lo siguiente en la barra de direcciones del explorador de archivos: **C:\\\Documents and Settings\\UserName\\Application Data\\Microsoft\\Crypto\\RSA**, donde ***UserName*** es su nombre de inicio de sesión de Windows.
+3. Escriba lo siguiente en la barra de direcciones del explorador de archivos: **C:\\Documents and Settings\\UserName\\Application Data\\Microsoft\\Crypto\\RSA**, donde **_UserName_** es su nombre de inicio de sesión de Windows.
 
 4. Elimine todas las carpetas que empiecen con el nombre **S-1-5-21-** seguido de una cadena de números.
 
@@ -195,7 +195,7 @@ Para solucionar este problema, siga estos pasos:
 
 1. Establezca el atributo **msRTCSIP-UserEnabled** en todos los usuarios afectados como **TRUE**. 
 
-2. Vuelva a ejecutar la Herramienta de sincronización de directorios (DirSync) de Microsoft Online Services. Para más información, vea [Integración de los directorios locales con Azure Active Directory](https://technet.microsoft.com/library/hh967642.aspx) 
+2. Vuelva a ejecutar la Herramienta de sincronización de directorios (DirSync) de Microsoft Online Services. Para más información, vea [Integración de los directorios locales con Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity) 
 
 Para solucionar errores durante el inicio de sesión en Skype Empresarial Online, empiece por eliminar las causas más frecuentes de dificultades durante el inicio de sesión. Si es necesario, puede seguir pasos específicos de solución, según el tipo de error. Si, aún así, el usuario no puede iniciar sesión, recopile más información y busque más ayuda.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Usar la guía de solución de problemas del Soporte técnico de Microsoft
@@ -220,5 +220,3 @@ Para solucionar errores durante el inicio de sesión en Skype Empresarial Online
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
 [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)
-
-

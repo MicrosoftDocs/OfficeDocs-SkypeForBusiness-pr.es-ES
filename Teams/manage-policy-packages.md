@@ -20,19 +20,19 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 07e2712db52d79e8db66789fe062c8ab46854e5b
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 5713274270a7784379eb47c6dd1fa875b41e20b1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50585688"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51162663"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
 > [!NOTE]
 > Una de las características que se debate en este artículo, [paquetes](#custom-policy-packages)de directivas personalizados, se encuentra actualmente en versión preliminar privada.
 
-Un paquete de directivas en Microsoft Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a usuarios que tienen roles similares en su organización. Hemos creado paquetes de directivas para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios de toda la organización.  
+Un paquete de directivas en Microsoft Teams es una colección de directivas y configuraciones de directiva predefinidas que puede asignar a los usuarios que tienen roles similares en la organización. Hemos creado paquetes de directivas para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios de toda la organización.  
 
 Puede usar los [paquetes de directiva incluidos en Teams](#policy-packages-included-in-teams) o crear sus propios paquetes de directiva [personalizados](#custom-policy-packages) (en versión preliminar privada).
 
@@ -66,9 +66,9 @@ Teams incluye actualmente los siguientes paquetes de directivas.
 |Educación (alumno de la escuela primaria que usa el aprendizaje remoto)    |Crea un conjunto de directivas que se aplican a los alumnos de primaria para maximizar la seguridad y colaboración de los alumnos al usar la formación remota.      |
 |Administrador de primera línea |Crea un conjunto de directivas y aplica esa configuración a los administradores de frontline de su organización. |
 |Trabajador en primera línea |Crea un conjunto de directivas y aplica esa configuración a los trabajadores de Frontline de su organización. |
-|Trabajador clínico de la salud  |Crea un conjunto de directivas y configuraciones de directivas que dan a los trabajadores clínicos como enfermeras registradas, enfermeras, médicos y trabajadores sociales acceso completo a chats, llamadas, administración de turnos y reuniones. |
-|Trabajador de información sanitaria  |Crea un conjunto de directivas y configuraciones de directivas que dan a los trabajadores de la información, como el personal de INFORMÁTICA, el personal de informática, el personal de finanzas y los responsables de cumplimiento, acceso total a chats, llamadas y reuniones.|
-|Sala de pacientes sanitarios  |Crea un conjunto de directivas y configuraciones de directivas que se aplican a los salas de pacientes de su organización sanitaria.|
+|Trabajador clínico de la sanidad  |Crea un conjunto de directivas y configuraciones de directivas que proporciona a los trabajadores clínicos como los profesionales clínicos registrados, las enfermeras de cargo, los médico y los trabajadores sociales acceso completo al chat, a las llamadas, a la administración de turnos y a las reuniones. |
+|Trabajador de la información sanitaria  |Crea un conjunto de directivas y configuraciones de directivas que dan a los trabajadores de la información como el personal de TI, el personal informático, el personal del departamento financiero y los responsables de cumplimiento normativo, acceso completo a chat, llamadas y reuniones.|
+|Sala de pacientes de cuidado de la salud  |Crea un conjunto de directivas y configuraciones de directivas que se aplican a las salas de pacientes de su organización de cuidados de la salud.|
 |Usuario de pequeñas y medianas empresas (Business Voice) |Crea una directiva de configuración de aplicaciones que incluye las aplicaciones para una experiencia de voz empresarial.|
 |Usuario de pequeñas y medianas empresas (sin Business Voice) |Crea una directiva de configuración de aplicaciones relevante para usuarios de Teams para pequeñas y medianas empresas (experiencia de voz no empresarial).
 |Oficial de seguridad pública   |Crea un conjunto de directivas y configuraciones de directiva que se aplican a los responsables de seguridad pública de su organización.|
@@ -76,7 +76,7 @@ Teams incluye actualmente los siguientes paquetes de directivas.
 > [!NOTE]
 > Agregaremos más paquetes de directiva en futuras versiones de Teams, así que vuelve a comprobar la información más actualizada.  
 
-A cada directiva individual se le da el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas.
+Cada directiva individual se indica con el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas.
 Por ejemplo, cuando asigna el paquete de directivas Educación (profesor) a los profesores de su centro educativo, se crea una directiva denominada Education_Teacher para cada directiva del paquete.
 
 ![Captura de pantalla del paquete de directivas educación (profesor)](media/policy-packages-education_teacher.png)
@@ -153,7 +153,7 @@ Para obtener más información, consulte [Asignar un paquete de directivas a un 
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Asignar un paquete de directivas a un conjunto amplio (un lote) de usuarios
 
-Use la asignación de paquete de directiva por lotes para asignar un paquete de directivas a grandes grupos de usuarios de una sola vez. Use el cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar un lote de usuarios y el paquete de directivas que quiera asignar. Las asignaciones se procesan como una operación de segundo plano y se genera un identificador de operación para cada lote.
+Use la asignación de paquete de directiva por lotes para asignar un paquete de directivas a grandes grupos de usuarios de una sola vez. Use el cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar un lote de usuarios y el paquete de directivas que quiera asignar. Las asignaciones se procesan como una operación de segundo plano y se genera un identificador de operación para cada lote.
 
 Un lote puede contener hasta 5000 usuarios. Puede especificar los usuarios por su identificador de objeto, UPN, dirección SIP o dirección de correo electrónico. Para obtener más información, consulte [Asignar un paquete de directivas a un lote de usuarios](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
@@ -169,6 +169,6 @@ Esto puede ocurrir si una o más directivas del paquete no se crearon o se aplic
 
 [Paquetes de directivas de Teams para administradores de EDU](policy-packages-edu.md)
 
-[Paquetes de directivas de Teams para atención sanitaria](policy-packages-healthcare.md)
+[Paquetes de directivas de Teams para sanidad](policy-packages-healthcare.md)
 
 [Paquetes de directivas de Teams para el gobierno](policy-packages-gov.md)

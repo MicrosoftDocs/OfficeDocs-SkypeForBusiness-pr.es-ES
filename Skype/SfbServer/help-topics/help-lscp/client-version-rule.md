@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: Una directiva de versión de cliente está compuesta de un conjunto de reglas de versión de cliente. Estas reglas definen las acciones que se deben realizar cuando los usuarios intentan iniciar sesión con clientes y versiones de clientes específicos.
-ms.openlocfilehash: 14e9c0d14ce988ec89d8bb13410272c4734ae882
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4c46a93e46e1e07865a466a666a450a766c6897e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829500"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103456"
 ---
 # <a name="client-version-rule"></a>Regla de versiones de cliente
 
@@ -59,7 +59,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 |Lync 2010 para Android  <br/> |AndroidLync  <br/> |
 |Servicio de movilidad  <br/> |McxService  <br/> |
 
-- **Número de versión** Puede especificar los números de versión de los siguientes campos o usar caracteres comodín para indicar el número de versión de cliente.
+- **Número de versión** Puede especificar los números de versión de los campos siguientes o usar caracteres comodín para indicar el número de versión del cliente.
 
   - **Versión principal** Especifica el número que corresponde a la versión principal del cliente.
 
@@ -69,7 +69,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
   - **Actualizar** Especifica el número que corresponde a la versión actualizada del cliente.
 
-- **Operación de comparación** Puede especificar la operación de coincidencia para la versión de cliente que especificó en los pasos anteriores. Las siguientes operaciones están disponibles:
+- **Operación de comparación** Puede especificar la operación de coincidencia para la versión de cliente especificada en los pasos anteriores. Las siguientes operaciones están disponibles:
 
   - **Igual que**
 
@@ -83,22 +83,21 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
   - **Posterior a o igual que**
 
-- **Acción** Puede especificar la acción que se realizará cuando se cumplan los criterios de los pasos anteriores. Están disponibles las siguientes acciones:
+- **Acción** Puede especificar la acción que se debe realizar cuando se cumplan los criterios de los pasos anteriores. Están disponibles las siguientes acciones:
 
   - **Permitir** Permite que el cliente inicie sesión.
 
   - **Permitir y actualizar** Permite al cliente iniciar sesión y recibir actualizaciones de Windows Server Update Service o Microsoft Update. Esta acción solo está disponible cuando se selecciona **OC** del agente del usuario.
 
     > [!NOTE]
-    > Si selecciona esta acción, aparecerá una notificación la próxima vez que los usuarios inicien sesión en Skype Empresarial. La notificación comunica que hay una actualización disponible, aunque las actualizaciones aún no se hayan publicado en Windows Server Update Service o en Microsoft Update. Para evitar confusiones, se recomienda elegir esta acción solo después de que haya actualizaciones disponibles.
+    > Al seleccionar esta acción, aparecerá una notificación la próxima vez que los usuarios inicien sesión en Skype Empresarial. La notificación comunica que hay una actualización disponible, aunque las actualizaciones aún no se hayan publicado en Windows Server Update Service o en Microsoft Update. Para evitar confusiones, se recomienda elegir esta acción solo después de que haya actualizaciones disponibles.
 
   - **Permitir con dirección URL** Permite al cliente iniciar sesión y muestra un mensaje sobre dónde descargar otra versión de cliente. Puede especificar la dirección URL en el campo **Dirección URL**.
 
   - **Bloquear** Impide que el cliente inicia sesión.
 
-  - **Bloquear y actualizar** Impide que el cliente inicia sesión y permite que el cliente reciba actualizaciones de Windows Server Update Service o Microsoft Update. Esta acción solo está disponible cuando se selecciona **OC** del agente del usuario.
+  - **Bloquear y actualizar** Impide que el cliente se inicia sesión y permite que el cliente reciba actualizaciones del Servicio windows Server Update o Microsoft Update. Esta acción solo está disponible cuando se selecciona **OC** del agente del usuario.
 
   - **Bloquear con dirección URL**   Impide al cliente iniciar sesión y muestra un mensaje sobre dónde descargar otra versión del cliente. Puede especificar la dirección URL en el campo **Dirección URL**.
 
-Para obtener detalles sobre la interoperabilidad entre clientes y versiones de clientes, vea [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) en la documentación de planeación. Para obtener detalles sobre cómo trabajar con configuraciones de versiones de clientes, vea [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) en la documentación de operaciones.
-
+Para obtener detalles sobre la interoperabilidad entre clientes y versiones de clientes, vea [Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) en la documentación de planeación. Para obtener detalles sobre cómo trabajar con configuraciones de versiones de clientes, vea [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted) en la documentación de operaciones.

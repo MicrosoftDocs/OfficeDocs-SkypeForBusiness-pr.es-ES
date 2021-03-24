@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se proporciona información general sobre las características compatibles con los paneles de Microsoft Teams.
-ms.openlocfilehash: d0316cc54404547910557cfcf9a608e9e2614ba0
-ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
+ms.openlocfilehash: 5588448bfbde95747c7f02f150deae24de51f55a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50937857"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102146"
 ---
 # <a name="microsoft-teams-panels"></a>Paneles de Microsoft Teams
 
@@ -56,7 +56,7 @@ Los requisitos de hardware, software y red para implementar dispositivos de pane
 
 ## <a name="license-requirement"></a>Requisito de licencia
 
-Para usar paneles de Teams, necesita [la licencia estándar de Salas de Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)
+Para usar paneles de Teams, necesita [la licencia estándar de Salas de Microsoft Teams.](../rooms/rooms-licensing.md)
 
 > [!Note]
 > Si ya tiene Microsoft Teams Rooms implementado en el espacio de reunión donde va a instalar paneles de Teams, no necesita una licencia adicional para usar paneles de Teams.

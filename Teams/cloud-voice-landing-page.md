@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las características de voz en la nube de Microsoft Teams y las decisiones de implementación que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcd7ebfd4542c38bd56900c1e414dadec09bf246
-ms.sourcegitcommit: 54140f6f8f2279a0eaf2e9c79699d6cff306791c
+ms.openlocfilehash: 5d77e0b1ec6277bfeffd85d6657d14fe810aae96
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50408196"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102576"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear la solución de voz de Teams 
 
@@ -82,7 +82,7 @@ Considere cuál de estas configuraciones adicionales puede necesitar:
 
 
 > [!Important]
-> Este artículo se centra en las soluciones de voz con Microsoft Teams. Aunque las soluciones con Skype Empresarial Online siguen estando disponibles (como se describe en las soluciones de telefonía de [Microsoft),](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)es importante comprender que Skype Empresarial Online se retirará el 31 de julio de 2021.  Después de esa fecha, el servicio de Skype Empresarial Online ya no será accesible. Además, la conectividad RTC entre su entorno local, ya sea a través de Skype Empresarial Server o Cloud Connector Edition y &mdash; &mdash; Skype Empresarial Online, ya no será compatible. En este artículo se presentan las soluciones de voz de Teams y cómo puede conectar su red de telefonía local, si es necesario, a Teams mediante enrutamiento directo.
+> Este artículo se centra en las soluciones de voz con Microsoft Teams. Aunque las soluciones con Skype Empresarial Online siguen estando disponibles (como se describe en las soluciones de telefonía de [Microsoft),](/SkypeForBusiness/hybrid/msft-telephony-solutions)es importante comprender que Skype Empresarial Online se retirará el 31 de julio de 2021.  Después de esa fecha, el servicio de Skype Empresarial Online ya no será accesible. Además, la conectividad RTC entre su entorno local, ya sea a través de Skype Empresarial Server o Cloud Connector Edition y &mdash; &mdash; Skype Empresarial Online, ya no será compatible. En este artículo se presentan las soluciones de voz de Teams y cómo puede conectar su red de telefonía local, si es necesario, a Teams mediante enrutamiento directo.
 
 
 ## <a name="phone-system"></a>Sistema telefónico
@@ -176,7 +176,7 @@ Para obtener más información sobre el plan de llamadas, vea los artículos sig
 
 - [¿Qué plan de llamada es adecuado para usted?](calling-plan-landing-page.md)
 - [Cómo comprar un plan de llamadas](calling-plans-for-office-365.md)
-- [Países y regiones donde el Plan de llamadas está disponible](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+- [Países y regiones donde el Plan de llamadas está disponible](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Configurar plan de llamadas](set-up-calling-plans.md)
 
 
@@ -312,15 +312,3 @@ Para obtener más información sobre cómo implementar la migración de voz para
   - [Llamadas de emergencia](voice-case-study-emergency-calling.md)
   - [Operadores automáticos y las colas de llamadas](voice-case-study-call-queues.md)
   - [Audioconferencia](voice-case-study-audio-conferencing.md)
-
-
-
-
-
-
-
-
-
-
-
-

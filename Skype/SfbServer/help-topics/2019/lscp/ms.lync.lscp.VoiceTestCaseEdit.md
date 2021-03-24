@@ -15,20 +15,17 @@ localization_priority: Normal
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 ROBOTS: NOINDEX, NOFOLLOW
 description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
-ms.openlocfilehash: b082cfe9d78817e379cafa3aa1033f7650b1f23b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 077a625998c71b44f4aacbf936ff1557ece1572a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819940"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101946"
 ---
 # <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>Probar enrutamiento de voz: Crear nuevos o editar los existentes en situaciones de prueba
 
 UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
 
-- [Crear un caso de prueba de enrutamiento de voz](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+- [Crear un caso de prueba de enrutamiento de voz](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-voice-routing-test-case)
 
-- [Ejecutar casos de prueba de enrutamiento de voz](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
-
-
-
+- [Ejecutar casos de prueba de enrutamiento de voz](/previous-versions/office/lync-server-2013/lync-server-2013-run-voice-routing-test-cases)

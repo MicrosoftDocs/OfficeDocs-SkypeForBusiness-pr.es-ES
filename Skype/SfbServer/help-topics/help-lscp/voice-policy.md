@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: f937d708e507155a32338eea27b7532b14f6f101
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2492f6b8b0d255ac482e02eaa385621cae67d6c0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807260"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115046"
 ---
 # <a name="voice-policy"></a>Directiva de voz
 
@@ -28,7 +28,6 @@ ms.locfileid: "49807260"
 
 - [Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [Modificar una directiva de voz y configurar registros de uso de RTC](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [Modificar una directiva de voz y configurar registros de uso de RTC](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)
 
-Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
-
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Preparar e implementar la deshabilitación de TLS 1.0 y 1.1 en los entornos.
-ms.openlocfilehash: 214605f80c79d7ecb334aeca49d29210e888b511
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: b07b9b5319b858a20a8073de8c6a37dd4d3299ec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726401"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103216"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Deshabilitar TLS 1.0/1.1 en Skype Empresarial Server 2015
 
@@ -51,7 +51,7 @@ Microsoft ha producido una white paper sobre TLS disponible [aquí](https://clou
 
 - Cliente de escritorio de Lync 2013 (Skype Empresarial), MSI y C2R, incluidos basic [15.0.5023.1000 o posterior](https://support.microsoft.com/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
 - Cliente de escritorio de Skype Empresarial 2016, MSI [16.0.4678.1000 o](https://support.microsoft.com/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)posterior, incluido Basic
-- Skype Empresarial 2016 Haga clic para ejecutar Requerir las actualizaciones de abril [de 2018:](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus) 
+- Skype Empresarial 2016 Haga clic para ejecutar Requerir las actualizaciones de abril [de 2018:](/officeupdates/release-notes-office365-proplus) 
     - Mensual y Semi-Annual dirigida, 16 \. 0 \. 9126 \. 2152 o superior
     - Semi-Annual y canal diferido, 16 \. 0 \. 8431 \. 2242 o posterior
 - Skype Empresarial en Mac 16.15 o posterior
@@ -239,7 +239,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-Para SQL back-end para grupos de servidores Enterprise Edition, los requisitos previos y la deshabilitación de TLS deben tratarse como cualquier SQL actualizaciones del sistema operativo; consulte: [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+Para SQL back-end para grupos de servidores Enterprise Edition, los requisitos previos y la deshabilitación de TLS deben tratarse como cualquier SQL actualizaciones del sistema operativo; consulte: [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
 
 Aunque se pueden combinar los pasos de deshabilitación de TLS y la aplicación de requisitos previos, recomendamos encarecidamente que se apliquen todos los requisitos previos antes de continuar con la deshabilitación de TLS 1.0 y 1.1 en el nivel del sistema operativo. El método recomendado sería preparar el entorno implementando todos los requisitos previos, validando que todas las cargas de trabajo funcionen correctamente y según lo esperado y, a continuación, continuar con la deshabilitación de TLS 1.0/1.1 más adelante.
 
@@ -455,7 +455,7 @@ Como alternativa, puede usar Internet Explorer para probar conexiones TLS a serv
 
 1. Inicie Internet Explorer.
 2. Seleccione **Herramientas Opciones** de  >  **Internet**.
-3. Seleccione la **pestaña** Avanzadas.
+3. Seleccione la pestaña **Opciones avanzadas**.
 4. En **Configuración**, desplácese hasta la parte inferior.
 5. Compruebe que TLS 1.0, TLS 1.1 y TLS 1.2 están habilitados.
 6. Examine la dirección URL del servicio web interno del grupo de servidores de SfB 2015 (debe conectarse correctamente).

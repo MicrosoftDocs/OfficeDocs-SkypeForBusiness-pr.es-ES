@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
-description: 'Si necesita quitar el servidor de archivos que actualmente actúa como almacén de archivos para su implementación de Skype Empresarial Server, o si necesita realizar otros cambios que hagan que el almacén de archivos actual no esté disponible, primero debe crear un nuevo recurso compartido. A continuación, debe realizar los siguientes pasos:'
-ms.openlocfilehash: 1ea1f6f038a5d589f9a2c3f480a5c9e589c324f3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Si necesita quitar el servidor de archivos que actualmente actúa como almacén de archivos para la implementación de Skype Empresarial Server, o si necesita realizar otros cambios que hagan que el almacén de archivos actual no esté disponible, primero debe crear un nuevo recurso compartido. A continuación, debe realizar los pasos siguientes:'
+ms.openlocfilehash: dbe9d239680d592a4d309d97577c6a6bad702239
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816370"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103176"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Mover datos del almacén de archivos a un nuevo almacén de archivos en Skype Empresarial Server
 
-Si necesita quitar el servidor de archivos que actualmente actúa como almacén de archivos para su implementación de Skype Empresarial Server, o si necesita realizar otros cambios que hagan que el almacén de archivos actual no esté disponible, primero debe crear un nuevo recurso compartido. A continuación, debe realizar los siguientes pasos:
+Si necesita quitar el servidor de archivos que actualmente actúa como almacén de archivos para la implementación de Skype Empresarial Server, o si necesita realizar otros cambios que hagan que el almacén de archivos actual no esté disponible, primero debe crear un nuevo recurso compartido. A continuación, debe realizar los pasos siguientes:
 
-1. Cierre los servicios de Skype Empresarial Server que usan el almacén de archivos que planea quitar.
+1. Cierre los servicios de Skype Empresarial Server que usan el almacén de archivos que tiene previsto quitar.
 
-2. Defina el almacén de archivos en topology Builder y publique los cambios para que el nuevo almacén de archivos esté disponible para su implementación.
+2. Defina el almacén de archivos en el Generador de topologías y publique los cambios para que el nuevo almacén de archivos esté disponible para la implementación.
 
 3. Mueva los datos al nuevo almacén de archivos.
 
@@ -41,32 +41,32 @@ Si necesita quitar el servidor de archivos que actualmente actúa como almacén 
 
 3. En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **Estado**.
 
-4. Para cada grupo de directores, director, servidor Standard Edition y grupo de servidores front-end que use el almacén de archivos que desea quitar, seleccione el servidor o grupo de servidores, haga clic en Acción y, a continuación, haga clic en Detener todos los **servicios.**
+4. Para cada grupo de directores, director, servidor Standard Edition y grupo de servidores front-end que use el almacén de archivos que tiene previsto quitar, seleccione el servidor o grupo de servidores, haga clic en Acción y, a continuación, haga clic en Detener todos los **servicios**.
 
 5. Inicie sesión en el equipo en el que Topology Builder esté instalado como miembro del grupo Admins. del dominio y el grupo RTCUniversalServerAdmins.
 
-6. Inicie el Generador de topologías: **Haga** clic en Inicio, Todos los **programas,** Skype Empresarial **Server** y, a continuación, haga clic en Generador de topologías de Skype Empresarial **Server.**
+6. Iniciar generador de topologías: haga clic **en Inicio**, en **Todos** los programas, en Skype Empresarial **Server** y, a continuación, en Generador de **topologías de Skype Empresarial Server**.
 
-7. Seleccione un servidor o grupo de servidores que use el almacén de archivos y haga lo siguiente:
+7. Seleccione un servidor o grupo que use el almacén de archivos y haga lo siguiente:
 
-   a. Haga clic con el botón secundario en el servidor o grupo de servidores y, a continuación, haga clic **en Editar propiedades.**
+   a. Haga clic con el botón secundario en el servidor o grupo de servidores y, a continuación, haga clic **en Editar propiedades**.
 
-   b. En **Editar propiedades**, en **Asociaciones**, en Almacén **de archivos**, haga clic en **Nuevo**.
+   b. En **Editar propiedades**, en **Asociaciones**, en Almacén **de archivos,** haga clic en **Nuevo**.
 
-   c. En **Definir nuevo almacén de archivos,** en **FQDN** del servidor de archivos, escriba el nombre de dominio completo (FQDN) del servidor de archivos. En **Recurso compartido de** archivos, escriba el nombre de la carpeta para el nuevo recurso compartido de archivos y, a continuación, haga clic en **Aceptar**.
+   c. En **Definir nuevo almacén de archivos**, en **FQDN** del servidor de archivos, escriba el nombre de dominio completo (FQDN) del servidor de archivos. En **Recurso compartido de** archivos , escriba el nombre de la carpeta para el nuevo recurso compartido de archivos y, a continuación, haga clic en **Aceptar**.
 
      > [!IMPORTANT]
-     > Este paso define un nuevo almacén de archivos para su uso en topology Builder. Solo se define una vez, no para cada servidor. Antes de publicar la topología, deberá crear el recurso compartido de archivos definido en el servidor de archivos definido. Para obtener información detallada, consulte [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > Este paso define un nuevo almacén de archivos para su uso en el Generador de topologías. Solo se define una vez, no para cada servidor. Antes de publicar la topología, deberá crear el recurso compartido de archivos definido en el servidor de archivos definido. Para obtener información detallada, consulte [Define the File Store for the Front End](/previous-versions/office/communications/gg133895(v=ocs.14)).
 
 8. Para cada servidor o grupo que use el almacén de archivos, haga lo siguiente:
 
-   a. Haga clic con el botón secundario en el servidor o grupo de servidores y, a continuación, haga clic **en Editar propiedades.**
+   a. Haga clic con el botón secundario en el servidor o grupo de servidores y, a continuación, haga clic **en Editar propiedades**.
 
-   b. En **Editar propiedades**, en **Asociaciones**, en almacén **de archivos,** seleccione el nuevo recurso compartido de archivos y, a continuación, haga clic en **Aceptar**.
+   b. En **Editar propiedades**, en **Asociaciones**, en Almacén **de archivos**, seleccione el nuevo recurso compartido de archivos y, a continuación, haga clic en **Aceptar**.
 
-9. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Asistente para la implementación de Skype Empresarial Server según sea necesario. Para obtener más información, consulte [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
+9. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Asistente para la implementación de Skype Empresarial Server según sea necesario. Para obtener más información, consulte [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14)).
 
-10. Inicie un símbolo del sistema: haga clic **en Inicio,** en **Ejecutar** y, a continuación, escriba cmd.exe.
+10. Inicie un símbolo del sistema: haga clic **en Inicio**, en **Ejecutar** y, a continuación, escriba cmd.exe.
 
 11. Escriba lo siguiente en la línea de comandos:
 
@@ -75,18 +75,18 @@ Si necesita quitar el servidor de archivos que actualmente actúa como almacén 
     ```
 
     > [!TIP]
-    > El modificador /S copia archivos, directorios y subdirectorios. El modificador /XF omite los archivos denominados Meeting.Active. Las versiones actuales de robocopy.exe con el conmutador /MT dispara considerablemente la velocidad de copiado, debido a que usa varios subprocesos. Para el modificador /LOG, use una ruta de acceso de directorio y un nombre de archivo de registro en forma de C:\Logfiles\log.txt. Este modificador crea un archivo de registro de operaciones en la ubicación con nombre.
+    > El modificador /S copia sobre archivos, directorios y subdirectorios. El modificador /XF omite los archivos denominados Meeting.Active. Las versiones actuales de robocopy.exe con el conmutador /MT dispara considerablemente la velocidad de copiado, debido a que usa varios subprocesos. Para el modificador /LOG, use una ruta de acceso de directorio y un nombre de archivo de registro en forma de C:\Logfiles\log.txt. Este modificador crea un archivo de registro de operaciones en la ubicación con nombre.
 
-12. Una vez completada la copia de datos, en el Panel de control de Lync Server, haga clic en Topología **y,** a continuación, haga clic en **Estado.**
+12. Una vez completada la copia de datos, en el Panel de control de Lync Server, haga clic **en Topología** y, a continuación, haga clic en **Estado**.
 
-13. Para cada servidor o grupo en el que detuvo los servicios, seleccione el servidor o grupo de servidores, haga clic en Acción **y,** a continuación, haga clic **en Iniciar todos los servicios.**
+13. Para cada servidor o grupo en el que detuvo los servicios, seleccione el servidor o grupo de servidores, haga clic en Acción **y,** a continuación, haga clic **en Iniciar todos los servicios**.
 
-14. Quite el antiguo almacén de archivos de la topología y, a continuación, publique la topología. Para obtener información detallada, consulte [Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
+14. Quite el antiguo almacén de archivos de la topología y, a continuación, publique la topología. Para obtener información detallada, consulte [Remove a file store](/previous-versions/office/skype-server-2010/gg195635(v=ocs.14)).
 
 15. (Opcional) Inicie sesión como miembro del grupo Administradores local o del grupo Admins. del dominio en el equipo que contenía el almacén de archivos que acaba de eliminar y quite el directorio y el recurso compartido de archivos anteriores.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-[Reasignar un servidor a un almacén de archivos diferente](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
+[Reasignar un servidor a un almacén de archivos diferente](/previous-versions/office/skype-server-2010/gg195633(v=ocs.14))
 
-[Quitar un almacén de archivos](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
+[Quitar un almacén de archivos](/previous-versions/office/skype-server-2010/gg195635(v=ocs.14))

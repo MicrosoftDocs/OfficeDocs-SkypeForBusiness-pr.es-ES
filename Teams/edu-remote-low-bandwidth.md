@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24f34ea2e65906c648081a019d6acf8a3f8a5cd5
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: b254bfb89a96efed65e2c1fdba1c345825d81dc2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43034092"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111086"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>Ayuda para las situaciones de ancho de banda bajo para Teams para EDU
 
@@ -62,13 +62,13 @@ Entre las cosas que puede establecer mediante la directiva se incluyen:
 - Deshabilitar el vídeo completamente, para que nadie pueda habilitarlo.
 - Tasa de bits multimedia (se define por usuario).
 
-Para obtener más información sobre sus opciones, y para ver las especificaciones específicas de las directivas que necesitaría establecer para las reuniones y el vídeo, consulte [Configuración de la directiva de reuniones en Teams: audio y vídeo](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video) para obtener información detallada.
+Para obtener más información sobre sus opciones, y para ver las especificaciones específicas de las directivas que necesitaría establecer para las reuniones y el vídeo, consulte [Configuración de la directiva de reuniones en Teams: audio y vídeo](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video) para obtener información detallada.
 
 #### <a name="screen-sharing-policies"></a>Directivas de uso compartido de pantalla
 
 En otros casos, los formadores pueden compartir toda la pantalla con los alumnos, cuando el uso compartido debe limitarse a una aplicación relevante para la lección que se está impartiendo. Esto también puede establecerse con una directiva, si esa es una forma más deseable de hacerlo que hacer que los formadores tomen esa decisión individualmente.
 
-Para tener una buena idea de lo que puede hacer para limitar la pantalla el uso compartido de la pantalla con la configuración de directivas, consulte [Configuración de la directiva de reuniones en Teams: uso compartido de la pantalla](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video).
+Para tener una buena idea de lo que puede hacer para limitar la pantalla el uso compartido de la pantalla con la configuración de directivas, consulte [Configuración de la directiva de reuniones en Teams: uso compartido de la pantalla](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
 
 #### <a name="dial-in-number-for-meetings"></a>Número de acceso telefónico para una reunión
 

@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 9b084afa7730d849f221de1d297f07359d200c79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726241"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102836"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Usar el Asistente para introducción para configurar Business Voice
 
@@ -110,7 +110,7 @@ Si quiere más información, vea [¿Qué son las ubicaciones de emergencia, las 
 </table>
 
 > [!IMPORTANT]
-> El Asistente de introducción le ayuda a configurar un menú de llamadas simple para que pueda empezar a trabajar rápidamente. Si tiene varios números de teléfono en los que quiere configurar menús de llamadas, o si quiere configurar menús de llamadas más complejos (también llamados operadores automáticos), consulte [Configurar un operador automático en la nube](set-up-auto-attendants.md) después de finalizar el asistente.
+> El Asistente de introducción le ayuda a configurar un menú de llamadas simple para que pueda empezar a trabajar rápidamente. Si tiene varios números de teléfono en los que quiere configurar menús de llamadas, o si quiere configurar menús de llamadas más complejos (también llamados operadores automáticos), consulte [Configurar un operador automático en la nube](./create-a-phone-system-auto-attendant-smb.md) después de finalizar el asistente.
 
 <table>
     <tr>

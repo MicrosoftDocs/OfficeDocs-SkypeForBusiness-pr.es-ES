@@ -1,5 +1,5 @@
 ---
-title: Crear o modificar una regla de conversión para la presentación de id. llamada en Skype Empresarial Server
+title: Crear o modificar una regla de traducción para la presentación de id. denominada en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,53 +15,53 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
-description: 'Resumen: obtenga información sobre cómo definir una regla de conversión mediante la herramienta Crear una regla de conversión en Skype Empresarial Server.'
-ms.openlocfilehash: b93d271abd0ade1b178e859f2a0599464a6759e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server.'
+ms.openlocfilehash: 3f4754184e69e7b574709d0272afc9989553cfe5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804201"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103646"
 ---
-# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Crear o modificar una regla de conversión para la presentación de id. llamada en Skype Empresarial Server
+# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Crear o modificar una regla de traducción para la presentación de id. denominada en Skype Empresarial Server
 
-**Resumen:** Obtenga información sobre cómo definir una regla de conversión mediante la herramienta Crear una regla de conversión en Skype Empresarial Server.
+**Resumen:** Obtenga información sobre cómo definir una regla de traducción mediante la herramienta Crear una regla de traducción en Skype Empresarial Server.
 
-Siga estos pasos si desea definir una regla de conversión  especificando un conjunto de valores en la herramienta Crear una regla de conversión y habilitando el Panel de control de Skype Empresarial Server para generar el patrón de coincidencia y la regla de conversión correspondientes. Como alternativa, puede escribir una expresión regular manualmente para definir el patrón de coincidencia y la regla de conversión. Para obtener más información, [vea Crear o modificar una regla de conversión manualmente.](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+Siga estos pasos si desea definir una regla de traducción  especificando un conjunto de valores en la herramienta Crear una regla de traducción y habilitando el Panel de control de Skype Empresarial Server para generar el patrón y la regla de traducción correspondientes. Como alternativa, puede escribir una expresión regular manualmente para definir el patrón de coincidencia y la regla de traducción. Para obtener más información, [vea Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually).
 
-### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>Para definir una regla mediante la herramienta Crear una regla de conversión
+### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>Para definir una regla mediante la herramienta Crear una regla de traducción
 
 1. Abra el Panel de control de Skype Empresarial Server.
 
-2. Para empezar a definir una regla de conversión, siga los pasos descritos en Configurar un tronco con desvío de medios en Skype Empresarial [Server](configure-trunk-with-media-bypass.md) a través del paso 10 o Configurar un tronco sin desvío de medios en Skype [Empresarial Server](configure-trunk-without-media-bypass.md) a través del paso 9.
+2. Para empezar a definir una regla de traducción, siga los pasos descritos en Configure [a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) through step 10 o Configure a trunk without media bypass in Skype for Business [Server](configure-trunk-without-media-bypass.md) through step 9.
 
-3. En **Nombre** de la  página **Nueva regla de conversión** o Editar regla de conversión, escriba un nombre que describa el patrón de número que se va a traducir.
+3. En **Nombre** de la  página **Nueva regla de traducción** o Editar regla de traducción, escriba un nombre que describa el patrón de números que se va a traducir.
 
-4. (Opcional) En **Descripción**, escriba una descripción de la regla de conversión, por ejemplo, marcación de larga distancia internacional de EE. UU.
+4. (Opcional) En **Descripción**, escriba una descripción de la regla de traducción, por ejemplo, marcado de larga distancia internacional de ESTADOS UNIDOS.
 
-5. En la **sección Generar una regla de conversión** del cuadro de diálogo, escriba valores en los siguientes campos:
+5. En la **sección Crear una regla de traducción** del cuadro de diálogo, escriba valores en los siguientes campos:
 
-   - **Dígitos iniciales:**(opcional) Especifique los dígitos iniciales de los números que desea que coincidan con el patrón. Por ejemplo, escriba + en este campo para que coincida con los números en formato E.164 (que comienzan por +).
+   - **Dígitos iniciales**: (opcional) Especifique los dígitos iniciales de los números que desea que coincidan con el patrón. Por ejemplo, escriba + en este campo para que coincida con los números en formato E.164 (que comienzan por +).
 
-   - **Longitud:** especifique el número de dígitos en el patrón de coincidencia y seleccione si desea que el patrón coincida con los números de esta longitud exactamente, al menos esta longitud o cualquier longitud. Por ejemplo, escriba 11 y seleccione Al menos en la lista desplegable para que coincida con números de al menos 11 dígitos de longitud.
+   - **Length:** especifique el número de dígitos en el patrón de coincidencia y seleccione si desea que el patrón coincida con números que son exactamente de esta longitud, al menos esta longitud o cualquier longitud. Por ejemplo, escriba 11 y selectAt least en la lista desplegable para que coincida con números de al menos 11 dígitos de longitud.
 
-   - **Dígitos para quitar:**(opcional) Especifique el número de dígitos iniciales que se quitarán. Por ejemplo, escriba 1 para quitar el signo + del principio del número.
+   - **Dígitos para quitar**: (opcional) Especifique el número de dígitos iniciales que se quitarán. Por ejemplo, escriba 1 para quitar el + desde el principio del número.
 
-   - **Dígitos para agregar:**(opcional) Especifique los dígitos que se deben anteponer a los números traducidos. Por ejemplo, escriba 011 si desea que se antepone 011 a los números traducidos cuando se aplica la regla.
+   - **Dígitos para agregar**: (opcional) Especifique los dígitos que se deben anteponer a los números traducidos. Por ejemplo, escriba 011 si desea que 011 se anteponer a los números traducidos cuando se aplique la regla.
 
-     Los valores especificados en estos campos se reflejan en los campos **Patrón** para coincidir y Regla **de** conversión. Por ejemplo, si especifica los valores de ejemplo anteriores, la expresión regular resultante en el **campo Patrón** para que coincida es:
+     Los valores especificados en estos campos se reflejan en los campos **Patrón para** coincidir y Regla **de** traducción. Por ejemplo, si especifica los valores de ejemplo anteriores, la expresión regular resultante en el **campo Patrón para** coincidir es:
 
      ^\+(\d {9} \d+)$
 
-     El **campo de regla** de conversión especifica un patrón para el formato de los números traducidos. Este patrón tiene dos partes:
+     El **campo Regla** de traducción especifica un patrón para el formato de los números traducidos. Este patrón tiene dos partes:
 
    - Un valor (por ejemplo, $1) que representa el número de dígitos en el patrón de coincidencia
 
-   - (Opcional) Un valor que se puede anteponer entrando en el campo **Dígitos para** agregar
+   - (Opcional) Valor que puede anteponer entrando en el campo **Dígitos para agregar**
 
-     Con los valores de ejemplo anteriores, aparece 011$1 en el **campo de regla de** conversión.
+     Con los valores de ejemplo anteriores, 011$1 aparece en el **campo Regla de** traducción.
 
-     Cuando se aplica esta regla de conversión, +441235551010 pasa a ser 011441235551010.
+     Cuando se aplica esta regla de traducción, +441235551010 pasa a ser 01144123551010.
 
 6. Haga clic en **Aceptar** para guardar la regla de conversión.
 
@@ -70,17 +70,17 @@ Siga estos pasos si desea definir una regla de conversión  especificando un con
 8. En la página **Configuración de tronco**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
 
    > [!NOTE]
-   > Siempre que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [consulte Publicar cambios pendientes en la configuración](voice-route-config-changes.md) de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
+   > Siempre que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes en la](voice-route-config-changes.md) configuración de enrutamiento de voz en Skype Empresarial en la documentación sobre operaciones.
 
 ### <a name="to-define-a-translation-rule-manually"></a>Para definir una regla de conversión de forma manual
 
 1. Abrir el Panel de control de Skype Empresarial Server
 
-2. To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) through step 10 or Configure a trunk without media bypass in Skype for Business [Server](configure-trunk-without-media-bypass.md) through step 9.
+2. Para empezar a definir una regla de traducción, siga los pasos descritos en Configure [a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) through step 10 o Configure a trunk without media bypass in Skype for Business [Server](configure-trunk-without-media-bypass.md) through step 9.
 
 3. En el campo **Nombre** en las páginas **Nueva regla de conversión** o **Editar regla de conversión**, escriba un nombre que describa el patrón de número de objeto de la conversión.
 
-4. (Opcional) En **Descripción,** escriba una descripción de la regla de conversión, por ejemplo, marcación de larga distancia internacional de EE. UU.
+4. (Opcional) En **Descripción**, escriba una descripción de la regla de traducción, por ejemplo, marcación de larga distancia de US International.
 
 5. Haga clic en **Editar** en la parte inferior de la sección **Generar una regla de conversión**.
 
@@ -90,7 +90,7 @@ Siga estos pasos si desea definir una regla de conversión  especificando un con
 
    - En **Regla de conversión**, especifique un patrón para el formato de los números convertidos.
 
-     Por ejemplo, si escribe ^ (\d \d+)$ en Coincidir con este patrón y 011$1 en la regla de conversión, la regla traducirá \+ {9} +441235551010 a 011441235551010.  
+     Por ejemplo, si escribe ^ (\d \d+)$ en Coincidir con este patrón y011$1 en la regla de traducción, la regla traducirá \+ {9} +441235551010 a 01144123551010.  
 
 7. Haga clic en **Aceptar** para guardar la regla de conversión.
 
@@ -99,9 +99,9 @@ Siga estos pasos si desea definir una regla de conversión  especificando un con
 9. En la página **Configuración de tronco**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
 
     > [!NOTE]
-    > Siempre que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [consulte Publicar los cambios pendientes en la configuración](voice-route-config-changes.md) de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
+    > Siempre que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes en la](voice-route-config-changes.md) configuración de enrutamiento de voz en Skype Empresarial en la documentación sobre operaciones.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [Configurar un tronco con desvío de medios en Skype Empresarial Server](configure-trunk-with-media-bypass.md)
 
@@ -110,4 +110,3 @@ Siga estos pasos si desea definir una regla de conversión  especificando un con
 [Publicar cambios pendientes en la configuración de enrutamiento de voz en Skype Empresarial](voice-route-config-changes.md)
 
 [Implementar la omisión de medios en Skype Empresarial Server](deploy-media-bypass.md)
-

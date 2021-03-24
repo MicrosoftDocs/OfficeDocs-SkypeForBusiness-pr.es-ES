@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20c3b567fa17955df1fe621bb1cfddeae8423adc
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
-ms.translationtype: HT
+ms.openlocfilehash: 83688d6c4318aff9ef7a014a1792f52761145b4f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615076"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111036"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -37,7 +37,7 @@ ms.locfileid: "50615076"
 |Implementación a partir del 1 de marzo de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Solo GCC High y DoD**<br> Los clientes ahora pueden habilitar las grabaciones de reuniones en la nube en Microsoft Teams por primera vez. Estas grabaciones se almacenarán y reproducirán en OneDrive y SharePoint de forma predeterminada. |
 |Implementación incremental a partir del 7 de julio de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Todos los clientes (Enterprise, Educación y GCC)**<br>No se pueden guardar nuevas grabaciones de reuniones en Microsoft Stream (clásico); todos los clientes guardarán automáticamente las grabaciones de las reuniones en OneDrive para la Empresa y SharePoint incluso si han cambiado sus directivas de reuniones de Teams a Stream.<br><br> Recomendamos a los clientes que, para controlar mejor el cambio de la organización, opten por participar cuando se sientan cómodos con el cambio, en lugar de esperar a que se realice. |
 
-Microsoft Teams tiene un nuevo método para guardar las grabaciones de reuniones. Como primera fase de una transición del Microsoft Stream clásico al [ nuevo Stream](https://docs.microsoft.com/stream/streamnew/new-stream), este método almacena grabaciones en Microsoft OneDrive para la Empresa y SharePoint en Microsoft 365 y ofrece muchas ventajas.
+Microsoft Teams tiene un nuevo método para guardar las grabaciones de reuniones. Como primera fase de una transición del Microsoft Stream clásico al [ nuevo Stream](/stream/streamnew/new-stream), este método almacena grabaciones en Microsoft OneDrive para la Empresa y SharePoint en Microsoft 365 y ofrece muchas ventajas.
 
 Las ventajas de usar OneDrive para la Empresa y SharePoint para almacenar grabaciones son:
 
@@ -66,11 +66,11 @@ La opción de grabación de la reunión es una configuración en el nivel de dir
 1. Instale PowerShell para Teams.
 
    > [!NOTE]
-   > El conector en línea del cliente de Skype® Empresarial actualmente forma parte del módulo más reciente de Windows PowerShell de Teams. Si usa la versión pública más reciente de Teams PowerShell, no es necesario que instale el conector en línea de cliente de Skype® Empresarial. Consulte [Administrar Skype Empresarial Online con PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+   > El conector en línea del cliente de Skype® Empresarial actualmente forma parte del módulo más reciente de Windows PowerShell de Teams. Si usa la versión pública más reciente de Teams PowerShell, no es necesario que instale el conector en línea de cliente de Skype® Empresarial. Consulte [Administrar Skype Empresarial Online con PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide).
 
 1. Inicie PowerShell como administrador.
 
-2. Instale el [módulo de PowerShell para Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+2. Instale el [módulo de PowerShell para Teams](./teams-powershell-install.md).
 
 3. Importe el módulo MicrosoftTeams e inicie sesión como administrador de Teams.
 
@@ -83,7 +83,7 @@ La opción de grabación de la reunión es una configuración en el nivel de dir
    Connect-MicrosoftTeams -Credential $credential
 ```
 
-4. Use [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) para establecer una directiva de reunión de Teams para realizar la transición del almacenamiento de Stream a OneDrive para la Empresa y SharePoint.
+4. Use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para establecer una directiva de reunión de Teams para realizar la transición del almacenamiento de Stream a OneDrive para la Empresa y SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
@@ -156,9 +156,9 @@ Los subtítulos no son compatibles por completo si la grabación de la reunión 
 
 **¿Cómo se verá afectada mi cuota de almacenamiento?**
 
-Los archivos de las grabaciones de reuniones de Teams están en OneDrive para la Empresa y SharePoint, y se incluyen en la cuota de esos servicios. Consulte [Cuota de SharePoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) y [Cuota de OneDrive para la Empresa](https://docs.microsoft.com/onedrive/set-default-storage-space).
+Los archivos de las grabaciones de reuniones de Teams están en OneDrive para la Empresa y SharePoint, y se incluyen en la cuota de esos servicios. Consulte [Cuota de SharePoint](/sharepoint/sites/plan-site-maintenance-and-management#quotas) y [Cuota de OneDrive para la Empresa](/onedrive/set-default-storage-space).
 
-Obtenga más almacenamiento con [OneDrive para la Empresa](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits), en comparación con Stream y un almacenamiento más intercambiable con SharePoint.
+Obtenga más almacenamiento con [OneDrive para la Empresa](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits), en comparación con Stream y un almacenamiento más intercambiable con SharePoint.
 
 **¿Cómo puedo reproducir una grabación de reunión de Teams?**
 
@@ -166,12 +166,12 @@ El vídeo se reproducirá en el reproductor de vídeo de OneDrive para la Empres
 
 **Si se planea dejar de usar Stream, ¿se mantendrán como están los vídeos existentes? ¿Durante cuánto tiempo?**
 
-Stream como plataforma no quedará en desuso en un futuro próximo. Los vídeos que están actualmente en Stream permanecerán allí hasta que empecemos a migrar. Tras la migración, esos vídeos también se migrarán a OneDrive para la Empresa o SharePoint. Consulte [Migración a Stream clásico](https://docs.microsoft.com/stream/streamnew/classic-migration) para obtener más información.
+Stream como plataforma no quedará en desuso en un futuro próximo. Los vídeos que están actualmente en Stream permanecerán allí hasta que empecemos a migrar. Tras la migración, esos vídeos también se migrarán a OneDrive para la Empresa o SharePoint. Consulte [Migración a Stream clásico](/stream/streamnew/classic-migration) para obtener más información.
 
 **¿Cómo aplico una etiqueta de retención?**
 
-Consulte [Cómo aplicar automáticamente una etiqueta de retención](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+Consulte [Cómo aplicar automáticamente una etiqueta de retención](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
 
 **¿Cómo asigno directivas a mis usuarios en Microsoft Teams y qué directivas tienen prioridad?**
 
-Consulte [¿Qué directivas tienen prioridad?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence).
+Consulte [¿Qué directivas tienen prioridad?](./assign-policies.md#which-policy-takes-precedence).

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar la configuración de un grupo de servidores perimetrales de uno o varios servidores existentes, le presentamos las secciones siguientes:'
-ms.openlocfilehash: cc8e0094a601faaf89c6a932172d5b6cb3522f2d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c887ffaa16818e377035109632871b7bc7ed25d8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822440"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108806"
 ---
 # <a name="edge-settings-expander"></a>Expansor de configuración perimetral
 
@@ -43,7 +43,7 @@ Especifique el número de puerto para el **Puerto de replicación de configuraci
 
 ## <a name="next-hop-selection-settings"></a>Configuración de la selección de próximo salto
 
-Para establecer o  modificar el grupo de servidores del próximo salto que usarán los servidores perimetrales para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end en el cuadro de lista desplegable. Solo se seleccionarán los directores o front-ends que se hayan configurado en el Generador de topologías.
+Para establecer o  modificar el grupo de servidores de próximo salto que usarán los servidores perimetrales para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end en el cuadro de lista desplegable. Solo aparecerán para la selección los directores o front-ends configurados en el Generador de topologías.
 
 ## <a name="edge-server-configuration"></a>Configuración del servidor perimetral
 
@@ -61,8 +61,6 @@ Si decide que la organización va a usar una sola dirección IP y un solo nombre
 > [!IMPORTANT]
 > Si efectúa cambios en cualquiera de estas opciones, incluido el uso de FQDN y direcciones IP o puertos diferentes, debe actualizar todos los demás servicios que dependan de los valores configurados inicialmente.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-Para obtener más información sobre cómo definir y configurar las opciones de los servicios de servidores perimetrales, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
-
-
+Para obtener más información sobre cómo definir y configurar las opciones de los servicios de servidores perimetrales, consulte [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology).

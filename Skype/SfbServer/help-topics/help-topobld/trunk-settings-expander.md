@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:'
-ms.openlocfilehash: 827399a74f2af29645d77f28efe9b7f2fc5fb3ce
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5859686a6fedf8c4da15ada5c4ad92f47c24b756
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818030"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114146"
 ---
 # <a name="trunk-settings-expander"></a>Expansor de configuración de tronco
 
@@ -43,8 +43,8 @@ Para editar o modificar la configuración de un tronco SIP, efectúe las accione
 
 ![Expansor de configuración de tronco](../../media/Trunk_Settings_Expander.jpg)
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-[Lista de comprobación de implementación de enlace troncal SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[Lista de comprobación de implementación de enlace troncal SIP](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunk-deployment-checklist)
 
-[Componentes y topologías del tronco SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[Componentes y topologías del tronco SIP](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-sip-trunking)
