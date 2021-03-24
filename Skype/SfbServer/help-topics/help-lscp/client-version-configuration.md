@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: Además de especificar la versión de los clientes que desea admitir en su entorno, también puede especificar una acción predeterminada para clientes que todavía no tengan definida una directiva de versión. Esto permite restringir las versiones de cliente que se usan en su entorno, lo que puede ayudar a controlar los costes asociados con la compatibilidad con distintas versiones de cliente.
-ms.openlocfilehash: 3d821d9a31f70c0ea20342d48f28cc9ee14a2feb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 31facafd00a25993aa16f5d89b1fad5a97e566a9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829550"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095624"
 ---
 # <a name="client-version-configuration"></a>Configuración de versiones de cliente
 
@@ -30,7 +30,7 @@ Además de especificar la versión de los clientes que desea admitir en su entor
 
 Puede realizar las siguientes tareas en la página **Configuración de versión de cliente**:
 
-- Edite la configuración de **versión** de cliente predeterminada (global).
+- Edite la configuración de versión de cliente predeterminada ( **Global**).
 
 - Crear configuraciones de versión de cliente para un sitio concreto.
 
@@ -47,13 +47,12 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
 - **Editar** Puede cambiar las opciones de cualquiera de las directivas de versión de cliente. Al usar esta opción, puede hacer lo siguiente:
 
-  - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puede cambiar las opciones para una configuración de versión de cliente.
+  - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puede cambiar las opciones de una configuración de versión de cliente.
 
   - **Seleccionar todo** Esta opción selecciona todas las configuraciones de versión de cliente de la lista.
 
   - **Eliminar** Esta opción elimina todas las configuraciones de versión de cliente seleccionadas.
 
-- **Actualizar** Puede actualizar la lista de configuraciones de versión de cliente para comprobar el estado de las opciones de todas las configuraciones de versión de cliente.
+- **Actualizar** Puede actualizar la lista de configuración de versión de cliente para comprobar el estado de las opciones de todas las configuraciones de versión de cliente.
 
-Para obtener detalles sobre la interoperabilidad entre clientes y versiones de clientes, vea [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) en la documentación de planeación. Para obtener detalles sobre cómo trabajar con configuraciones de versiones de clientes, vea [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) en la documentación de operaciones.
-
+Para obtener detalles sobre la interoperabilidad entre clientes y versiones de clientes, vea [Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) en la documentación de planeación. Para obtener detalles sobre cómo trabajar con configuraciones de versiones de clientes, vea [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted) en la documentación de operaciones.

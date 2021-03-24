@@ -21,12 +21,12 @@ description: El administrador de Teams o de TI puede configurar el acceso extern
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: c41b051f7c11d27417885c9ada22d9337d50dfdb
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: f475fea52e28981e99b1456d52d291473ff8fc50
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711777"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092268"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 
@@ -50,7 +50,7 @@ Use el acceso externo si:
 El acceso externo está activado en Teams de forma predeterminada, lo que significa que su organización puede comunicarse con todos los dominios externos. Si agrega dominios bloqueados, se permitirán todos los demás dominios. Si agrega dominios permitidos, se bloquearán todos los demás dominios. La excepción a esta regla es que se permitan participantes anónimos en las reuniones. Hay tres escenarios para configurar el acceso externo en el Centro de administración de Teams (**Configuración de toda la organización** > **Acceso externo**):
 
 > [!NOTE]
-> Si desactiva el acceso externo en su organización, los usuarios externos aún podrán unirse a las reuniones mediante la participación anónima. Para más información, consulte [Administrar la configuración de las reuniones en Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
+> Si desactiva el acceso externo en su organización, los usuarios externos aún podrán unirse a las reuniones mediante la participación anónima. Para más información, consulte [Administrar la configuración de las reuniones en Teams](./meeting-settings-in-teams.md).
 
 - **Federación abierta**: es la configuración predeterminada en Teams y facilita que los usuarios de la organización puedan hacer búsquedas, llamar, chatear y organizar reuniones con usuarios externos a la organización en cualquier dominio.
 

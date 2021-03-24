@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para Microsoft Teams.
-ms.openlocfilehash: 8aabdcdd8e5f58604e8b8d09524b6d096f62f7be
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 66bebbd381fb1997e2e8770debb24c7629525f1e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460890"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092758"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -38,12 +38,12 @@ Asegúrese de que ha leído Plan para operadores [automáticos](plan-auto-attend
 Los operadores automáticos pueden dirigir las llamadas, según la entrada de los autores de llamadas, a uno de los siguientes destinos: <a name="call-routing-options" ></a>
 
 - **Operador:** el operador definido para el operador automático. Definir un operador es opcional. El operador se puede definir como cualquiera de los otros destinos de esta lista.
-- **Persona de la organización:** una persona de su organización que puede recibir llamadas de voz. Puede ser un usuario en línea o un usuario hospedado localmente con Skype Empresarial Server.
+- **Persona de la organización:** una persona de su organización que puede recibir llamadas de voz. Esta persona puede ser un usuario en línea o un usuario hospedado localmente con Skype Empresarial Server.
 - **Aplicación de voz:** otro operador automático o una cola de llamadas. (Elija la cuenta de recursos asociada con el operador automático o la cola de llamadas al elegir este destino).
 - **Correo de** voz: el buzón de voz asociado a un grupo de Microsoft 365 que especifique.
 - **Número de teléfono externo:** cualquier número de teléfono. (Vea [detalles técnicos de transferencia externa).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
-- **Anuncio:** reproducir un archivo de audio. Un mensaje de anuncio grabado que carga que se guarda como audio en . WAV, . MP3 o . Formato WMA. La grabación no puede ser superior a 5 MB. El sistema reproduce el anuncio y, a continuación, vuelve al menú operador automático.
-- **Anuncio:** escriba un mensaje. Texto que desea que lea el sistema. Puede escribir hasta 1000 caracteres. El sistema reproduce el anuncio y, a continuación, vuelve al menú operador automático.
+- **Anuncio (archivo de audio):** reproducir un archivo de audio. Un mensaje de anuncio grabado que carga que se guarda como audio en . WAV, . MP3 o . Formato WMA. La grabación no puede ser superior a 5 MB. El sistema reproduce el anuncio y, a continuación, vuelve al menú operador automático.
+- **Anuncio (con tipo):** escriba un mensaje. Texto que desea que lea el sistema. Puede escribir hasta 1000 caracteres. El sistema reproduce el anuncio y, a continuación, vuelve al menú operador automático.
 
 Se le pedirá que elija una de estas opciones en varias fases mientras configura un operador automático.
 
@@ -55,7 +55,7 @@ Para configurar un operador automático, en el Centro de administración de Team
 
 1. Escriba un nombre para el operador automático en el cuadro de la parte superior.
 
-2. Si desea designar un operador, especifique el destino de las llamadas al operador. Esto es opcional (pero recomendado). Puede establecer la opción **Operador** para permitir a los autores de llamadas salir de los menús y hablar con una persona designada.
+2. Para designar un operador, especifique el destino de las llamadas al operador. Esta designación es opcional (pero recomendada). Establezca la **opción Operador** para permitir a los autores de llamadas salir de los menús y hablar con una persona designada.
 
 3. Especifique la zona horaria para este operador automático. La zona horaria se usa para calcular el horario laboral si crea un flujo de [llamada independiente para horas 2010.](#call-flow-for-after-hours)
 
@@ -76,7 +76,7 @@ Elija si desea reproducir un saludo cuando el operador automático responda a un
 
 Si selecciona Reproducir un archivo de  **audio,** puede usar el botón Cargar archivo para cargar un mensaje de saludo grabado guardado como audio en . WAV, . MP3 o . Formato WMA. La grabación no puede ser superior a 5 MB.
 
-Si selecciona Escribir un mensaje **de** saludo, el sistema leerá el texto que escriba (hasta 1000 caracteres) cuando el operador automático responda a una llamada.
+Si selecciona **Escribir un mensaje de** saludo, el sistema leerá el texto que escriba (hasta 1000 caracteres) cuando el operador automático responda a una llamada.
 
 ![Captura de pantalla de la configuración de enrutamiento de llamadas](media/auto-attendant-call-flow-route-call-message.png)
 
@@ -92,9 +92,9 @@ Si selecciona Opciones **de menú** Reproducir, puede elegir Reproducir un archi
 
 ![Captura de pantalla de las opciones de la tecla de marcado](media/auto-attendant-call-flow-menu-options-complete.png)
 
-Para las opciones de marcado, puede asignar las teclas 0-9 del teclado telefónico a uno de los destinos de enrutamiento de llamadas. (Las teclas \* (Repetir) y \# (Atrás) están reservados por el sistema y no se pueden reasignar).
+Para las opciones de marcado, asigne las teclas 0-9 del teclado del teléfono a uno de los destinos de enrutamiento de llamadas. (Las teclas \* (Repetir) y \# (Atrás) están reservados por el sistema y no se pueden reasignar).
 
-Las asignaciones de claves no tienen que ser continuas. Por ejemplo, es posible crear un menú con las teclas 0, 1 y 3 asignadas a opciones, mientras que las dos teclas no se usan.
+Las asignaciones de claves no tienen que ser continuas. Es posible crear un menú con las teclas 0, 1 y 3 asignadas a opciones, mientras que la tecla número 2 no se usa.
 
 Se recomienda asignar la clave cero al operador si ha configurado una. Si el operador no está establecido en ninguna tecla, el comando de voz "Operador" también está deshabilitado.
 
@@ -108,15 +108,15 @@ Para cada opción de menú, especifique la siguiente configuración:
 
 ### <a name="directory-search"></a>Búsqueda de directorios
 
-Si asigna teclas de marcado a destinos, le recomendamos que elija **Ninguna para** búsqueda **de directorio.** Si un autor de la llamada intenta marcar un nombre o una extensión con claves asignadas a destinos específicos, es posible que se enruten inesperadamente a un destino antes de que terminen de escribir el nombre o la extensión. Le recomendamos que cree un operador automático independiente para la búsqueda de directorios y que tenga el vínculo del operador automático principal a él a través de una tecla de marcado.
+Si asigna teclas de marcado a destinos, le recomendamos que elija **Ninguna para** búsqueda **de directorio.** Si un autor de la llamada intenta marcar un nombre o una extensión con claves asignadas a destinos específicos, es posible que se enruten inesperadamente a un destino antes de que terminen de escribir el nombre o la extensión. Le recomendamos que cree un operador automático independiente para la búsqueda de directorios y que tenga el vínculo del operador automático principal con una tecla de marcado.
 
 Si no ha asignado las teclas de marcado, elija una opción para búsqueda **de directorios.**
 
-**Marcar por nombre:** si habilita esta opción, los autores de llamadas pueden decir el nombre del usuario o escribirlo en el teclado del teléfono. Cualquier usuario en línea o cualquier usuario hospedado local con Skype Empresarial Server, es un usuario apto y se puede encontrar con Marcado por nombre. (Puede establecer quién es y quién no está incluido en el directorio en la [página Ámbito de](#dial-scope) marcado).
+**Marcar por nombre:** si habilita esta opción, los autores de llamadas pueden decir el nombre del usuario o escribirlo en el teclado del teléfono. Cualquier usuario en línea o cualquier usuario hospedado local con Skype Empresarial Server, es un usuario apto y se puede encontrar con Marcado por nombre. (Puede establecer quién es y quién no se incluye en el directorio en la [página Ámbito de](#dial-scope) marcado).
 
-**Marcar por extensión:** si habilita esta opción, los autores de llamadas pueden conectarse con los usuarios de su organización marcando su extensión de teléfono. Cualquier usuario en línea o cualquier usuario hospedado local con Skype Empresarial Server, es un usuario apto y se puede encontrar **con Marcar por extensión.** (Puede establecer quién es y quién no está incluido en el directorio en la [página Ámbito de](#dial-scope) marcado).
+**Marcar por extensión:** si habilita esta opción, los autores de llamadas pueden conectarse con los usuarios de su organización marcando su extensión de teléfono. Cualquier usuario en línea o cualquier usuario hospedado local con Skype Empresarial Server, es un usuario apto y se puede encontrar **con Marcar por extensión.** (Puede establecer quién es y quién no se incluye en el directorio en la [página Ámbito de](#dial-scope) marcado).
 
-Los usuarios que desee que estén disponibles para Marcar por extensión deben tener una extensión especificada como parte de [](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) uno de los siguientes atributos de teléfono definidos en Active Directory o Azure Active Directory (vea Agregar usuarios individualmente o en masa para obtener más información).
+Los usuarios que desea que estén disponibles para Marcar por extensión deben tener una extensión especificada como parte de [](/microsoft-365/admin/add-users/add-users) uno de los siguientes atributos de teléfono definidos en Active Directory o Azure Active Directory (vea Agregar usuarios individualmente o en masa para obtener más información).
 
 - OfficePhone
 - HomePhone
@@ -124,7 +124,7 @@ Los usuarios que desee que estén disponibles para Marcar por extensión deben t
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-El formato necesario para escribir la extensión en el campo de número de teléfono del usuario es:
+El formato necesario para introducir la extensión en el campo de número de teléfono de usuario puede ser uno de los siguientes formatos:
 
 - *+\<phone number>;ext=\<extension>*
 - *+\<phone number>x\<extension>*
@@ -223,36 +223,36 @@ El número de teléfono saliente que se muestra se determina de la siguiente man
     - Si se establece en Deshabilitado, se muestra el número de teléfono del autor de la llamada original. Esta es la configuración predeterminada y recomendada.
     - Si se establece en Habilitado, se muestra el número de teléfono de la cuenta de recurso.
 
-En un entorno híbrido de Skype Empresarial, para transferir una llamada de operador automático a la RTC, cree un nuevo usuario local con el reenvío de llamadas establecido en el número RTC. El usuario debe estar habilitado para Telefonía IP empresarial y tener asignada una directiva de voz. Para obtener más información, vea [Transferencia automática de llamadas a RTC.](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
+En un entorno híbrido de Skype Empresarial, para transferir una llamada de operador automático a la RTC, cree un nuevo usuario local con el reenvío de llamadas establecido en el número RTC. El usuario debe estar habilitado para Telefonía IP empresarial y tener asignada una directiva de voz. Para obtener más información, vea [Transferencia automática de llamadas a RTC.](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Crear un operador automático con PowerShell
 
 También puede usar PowerShell para crear y configurar operadores automáticos. Estos son los cmdlets que necesita para administrar un operador automático:
 
-- [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
-- [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
-- [New-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
-- [New-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-- [New-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
-- [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+- [New-CsAutoAttendant](/powershell/module/skype/new-csautoattendant)  
+- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
+- [Get-CsAutoAttendant](/powershell/module/skype/get-csautoattendant)
+- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
+- [Remove-CsAutoAttendant](/powershell/module/skype/remove-csautoattendant)
+- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
+- [New-CsOnlineAudioFile](/powershell/module/skype/new-CsOnlineAudioFile)
+- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csorganizationalautoattendantholidays)
+- [New-CsOnlineTimeRange](/powershell/module/skype/new-csonlinetimerange)
+- [New-CsOnlineDateTimeRange](/powershell/module/skype/new-csonlinedatetimerange)
+- [New-CsOnlineSchedule](/powershell/module/skype/New-CsOnlineSchedule)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
+- [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Esto es lo obtiene con el Sistema telefónico](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Esto es lo obtiene con el Sistema telefónico](./here-s-what-you-get-with-phone-system.md)
 
-[Obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio](./getting-service-phone-numbers.md)
 
-[Países y regiones donde Audioconferencia y Planes de llamada están disponibles](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Países y regiones donde Audioconferencia y Planes de llamada están disponibles](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

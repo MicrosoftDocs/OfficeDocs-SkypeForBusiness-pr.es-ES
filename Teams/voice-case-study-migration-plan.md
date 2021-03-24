@@ -16,12 +16,12 @@ f1.keywords:
 description: Caso práctico de voz de Teams para una corporación multinacional
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f6d0877537a740dc867b44c3c4deb9bebb8441
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421295"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093730"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Caso práctico de Contoso: Plan de actualización de Teams
 
@@ -47,7 +47,7 @@ Contoso también asistió a la sesión Ignite 2019 Diseñando su ruta de [Skype 
 
   - Disponibilidad de la funcionalidad de colaboración en clientes de Teams 
 
-Para planear y configurar la conectividad híbrida, el primer paso para [](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) mover su entorno local a la nube, Contoso leyó Planear conectividad híbrida y [Configurar](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) conectividad híbrida para comprender cómo: 
+Para planear y configurar la conectividad híbrida, el primer paso para [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) mover su entorno local a la nube, Contoso leyó Planear conectividad híbrida y [Configurar](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) conectividad híbrida para comprender cómo: 
 
   - Configure su servicio de entorno local para federar con Office 365. 
 
@@ -57,4 +57,4 @@ Para planear y configurar la conectividad híbrida, el primer paso para [](https
 
   - Use el modo Islas durante el piloto técnico.
 
-  - Cambiar usuarios al modo TeamsOnly una vez que el usuario esté habilitado para Sistema telefónico. TeamsOnly mode is required for Calling Plan and Direct Routing. 
+  - Cambiar usuarios al modo TeamsOnly una vez que el usuario esté habilitado para Sistema telefónico. TeamsOnly mode is required for Calling Plan and Direct Routing.

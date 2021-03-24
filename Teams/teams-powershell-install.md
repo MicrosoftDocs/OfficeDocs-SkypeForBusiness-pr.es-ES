@@ -13,12 +13,12 @@ ms.collection:
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6ba8545159f8b18ebe39e49356f64378f946b29
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: e5526a7a7d782b8a30edd5b5169c3ba78953cc7c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874810"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094160"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Instalar Microsoft Teams PowerShell
 
@@ -161,6 +161,6 @@ Ahora ya está listo para administrar Teams con Teams PowerShell. Vea [Administr
 
 [Notas de la versión de PowerShell de Teams](teams-powershell-release-notes.md)
 
-[Referencia de cmdlet de Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Referencia de cmdlet de Microsoft Teams](/powershell/teams/?view=teams-ps)
 
-[Referencia de cmdlet de Skype Empresarial](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Referencia de cmdlet de Skype Empresarial](/powershell/skype/intro?view=skype-ps)

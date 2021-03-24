@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2b764e7843defac163e4d111a49b1cf9a321f27
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 2922f22ec0ea7db095c63ce05f9d37752ba134a4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874880"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094572"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción a la formación de administradores para Microsoft Teams
 
@@ -32,8 +32,8 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![Un icono que muestra una mano y una flecha hacia arriba](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [Empezar a trabajar rápidamente con un par de equipos y canales](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Un icono que muestra dos usuarios](https://docs.microsoft.com/office/media/icons/users-people.png) | [Cursos de aprendizaje para los usuarios](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![Un icono que muestra una marca de verificación](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Ver procedimientos recomendados y vídeos paso a paso en el canal Coffee in the Cloud ("Café en la nube") en YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Símbolo del Portapapeles de tareas](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Charlas de Tiza de Teams: aprenda procedimientos recomendados y instrucciones prácticas sobre escenarios populares de Teams](https://aka.ms/TeamsChalkTalks) |
+| ![Un icono que muestra una mano y una flecha hacia arriba](/office/media/icons/get-started-teams.png) | [Empezar a trabajar rápidamente con un par de equipos y canales](./get-started-with-teams-quick-start.md) | ![Un icono que muestra dos usuarios](/office/media/icons/users-people.png) | [Cursos de aprendizaje para los usuarios](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![Un icono que muestra una marca de verificación](/office/media/icons/success-teams.png) | [Ver procedimientos recomendados y vídeos paso a paso en el canal Coffee in the Cloud ("Café en la nube") en YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Símbolo del Portapapeles de tareas](/office/media/icons/task-checklist-planning-teams.png) | [Charlas de Tiza de Teams: aprenda procedimientos recomendados y instrucciones prácticas sobre escenarios populares de Teams](./chalk-talks-landing-page.yml) |
 
 <h2>Iniciar aprendizaje técnico</h2>
 
@@ -100,5 +100,5 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 <h2>Cursos</h2>
 
-- [Habilitar el trabajo en equipo con Microsoft Teams](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
-- [Especialista de adopción de servicio de Microsoft](https://aka.ms/AdoptionCert)
+- [Habilitar el trabajo en equipo con Microsoft Teams](/learn/paths/m365-manage-team-collaboration)
+- [Especialista de adopción de servicio de Microsoft](/learn/paths/m365-service-adoption/)

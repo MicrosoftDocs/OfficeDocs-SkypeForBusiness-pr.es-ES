@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Resumen: obtenga información sobre cómo crear una nueva directiva de archivado para Skype Empresarial Server.'
-ms.openlocfilehash: 3e1f538aba26025f5868a09babd3b67df36f9a3f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fe3a80708d3810a085f1814e6d16ff3cd4c6057c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817650"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095424"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Crear una nueva directiva de archivado en Skype Empresarial Server
 
@@ -37,7 +37,7 @@ Para crear una nueva directiva de archivado mediante el Panel de control:
     
 4. Haga clic en **Nuevo** y luego siga uno de estos procedimientos: 
     
-   - Para crear una directiva de archivado de nivel de sitio, haga clic en Directiva de sitio y, **a** continuación, en Seleccionar un sitio, haga clic en el sitio al que se aplicará la directiva.
+   - Para crear una directiva de archivado de nivel de sitio, haga clic en Directiva de sitio y, a continuación, en Seleccionar un sitio, haga clic en el sitio al que se va **a** aplicar la directiva.
     
    - Para crear una directiva de archivado de nivel de usuario, haga clic en **Directiva de usuario**.
     
@@ -54,11 +54,11 @@ Para crear una nueva directiva de archivado mediante el Panel de control:
 6. Haga clic en **Confirmar**.
     
     > [!IMPORTANT]
-    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener más información, [consulte Aplicar una directiva de archivado a los usuarios de Skype Empresarial Server.](apply-a-policy-to-users.md) 
+    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener más información, [vea Apply an archiving policy to users in Skype for Business Server](apply-a-policy-to-users.md). 
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Crear una nueva directiva de archivado mediante Windows PowerShell
 
-También puede crear nuevas directivas de archivado con el cmdlet **Windows PowerShell New-CsArchivingPolicy.** Para obtener más información, consulte el tema de ayuda del cmdlet [New-CsArchivingPolicy.](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
+También puede crear nuevas directivas de archivado mediante el Windows PowerShell **cmdlet New-CsArchivingPolicy.** Para obtener más información, vea el tema de ayuda del cmdlet [New-CsArchivingPolicy.](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>Para crear una nueva directiva de archivado en el nivel de sitio
 
@@ -76,9 +76,9 @@ Para crear una nueva directiva de archivado en el nivel por usuario, simplemente
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 ```
 
-### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>Para crear una nueva directiva de archivado que permita el archivado de sesiones de comunicación internas
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>Para crear una nueva directiva de archivado que permita el archivado de sesiones de comunicación interna
 
-Ya que no se especifican parámetros (excepto el parámetro obligatorio de identidad) en los comandos anteriores, las nuevas directivas usarán los valores predeterminados para todas sus propiedades. Para crear directivas que usen otros valores de propiedades, basta con incluir el parámetro y el valor de parámetro. Por ejemplo, el siguiente comando crea una directiva de archivado que permite el archivado de sesiones de mensajería instantánea internas: 
+Ya que no se especifican parámetros (excepto el parámetro obligatorio de identidad) en los comandos anteriores, las nuevas directivas usarán los valores predeterminados para todas sus propiedades. Para crear directivas que usen otros valores de propiedades, basta con incluir el parámetro y el valor de parámetro. Por ejemplo, el siguiente comando crea una directiva de archivado que permite el archivado de sesiones internas de mensajería instantánea: 
   
 ```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True

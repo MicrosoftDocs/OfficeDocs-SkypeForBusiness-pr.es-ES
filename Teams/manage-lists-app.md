@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: e0fb125ede9300395e045a0c5640abd075547562
-ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
-ms.translationtype: HT
+ms.openlocfilehash: aa26dd24fac90b023453e3834baf51da6f292082
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49944615"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092258"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Lists para su organización en Microsoft Teams
 
@@ -70,7 +70,7 @@ La aplicación Lists viene preinstalada para todos los usuarios de Teams y está
 
 Los datos de Lists se almacenan en el sitio de grupo de SharePoint Online. Para obtener más información sobre cómo interactúa SharePoint Online, vea [Cómo interactúan SharePoint Online y OneDrive para la Empresa con Teams](SharePoint-OneDrive-interact.md).
 
-Los permisos establecidos en SharePoint se aplican a las listas creadas en la aplicación Lists. De forma predeterminada, las listas heredan los permisos del sitio al que pertenecen. Estos permisos rigen los tipos de acciones que los usuarios pueden realizar, por ejemplo, si pueden crear o editar listas. Para obtener más información, vea [Niveles de permisos en SharePoint](https://docs.microsoft.com/sharepoint/understanding-permission-levels) y [Permisos de usuario y niveles de permisos en SharePoint Server](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels).
+Los permisos establecidos en SharePoint se aplican a las listas creadas en la aplicación Lists. De forma predeterminada, las listas heredan los permisos del sitio al que pertenecen. Estos permisos rigen los tipos de acciones que los usuarios pueden realizar, por ejemplo, si pueden crear o editar listas. Para obtener más información, vea [Niveles de permisos en SharePoint](/sharepoint/understanding-permission-levels) y [Permisos de usuario y niveles de permisos en SharePoint Server](/sharepoint/sites/user-permissions-and-permission-levels).
 
 En determinados escenarios, puede que quiera limitar las acciones que los usuarios pueden realizar en las listas. Por ejemplo, una persona de un equipo edita una vista de lista, que la cambia para todos los miembros del equipo, y usted quiere permitir que solo el propietario o determinados miembros del equipo puedan editar las vistas de lista. Para obtener más información, vea [Personalizar los permisos de una lista o biblioteca de SharePoint](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
@@ -105,15 +105,15 @@ Para permitir o impedir que usuarios específicos de la organización puedan usa
 
 ## <a name="search-the-audit-log-for-list-events"></a>Buscar eventos en el registro de auditoría
 
-Las listas están habilitadas con auditoría de nivel empresarial para que pueda buscar listas y eventos de elementos de lista en el registro de auditoría del Centro de seguridad y cumplimiento. Para obtener más información, vea [Buscar en el registro de auditoría del Centro de seguridad y cumplimiento](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Las listas están habilitadas con auditoría de nivel empresarial para que pueda buscar listas y eventos de elementos de lista en el registro de auditoría del Centro de seguridad y cumplimiento. Para obtener más información, vea [Buscar en el registro de auditoría del Centro de seguridad y cumplimiento](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
-Para obtener una lista de eventos de auditoría relevantes para la aplicación Lists en Teams, vea [actividades de lista de SharePoint](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
+Para obtener una lista de eventos de auditoría relevantes para la aplicación Lists en Teams, vea [actividades de lista de SharePoint](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
 
 Para que pueda buscar en el registro de auditoría, primero debe activar la característica de auditoría en el [Centro de seguridad y cumplimiento](https://protection.office.com). Tenga en cuenta que los datos de auditoría solo están disponibles desde el momento en que activó la característica de auditoría.
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>Power Automate, Power Apps y API de Graph
 
-Lists admite [Power Automate](https://docs.microsoft.com/power-automate/flow-types) para flujos de trabajo y [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) para formularios de lista. Los desarrolladores pueden usar la [API de Lists](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) para conectar datos de lista como origen a través de Microsoft Graph.
+Lists admite [Power Automate](/power-automate/flow-types) para flujos de trabajo y [Power Apps](/powerapps/maker/canvas-apps/customize-list-form) para formularios de lista. Los desarrolladores pueden usar la [API de Lists](/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) para conectar datos de lista como origen a través de Microsoft Graph.
 
 ## <a name="give-feedback-or-report-an-issue"></a>Enviar comentarios o informar de un problema
   

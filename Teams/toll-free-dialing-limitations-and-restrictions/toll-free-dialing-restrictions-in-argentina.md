@@ -23,33 +23,32 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo marcar números gratuitos en Argentina, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
-ms.openlocfilehash: 02a639ddd0d3008fa1f63278665b09eb95854fe9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Obtenga información sobre cómo marcar números gratuitos en Argentina, como la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
+ms.openlocfilehash: ebbf946832c04793454bbc3d4ed01be5ecc7f5a5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140549"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093880"
 ---
 # <a name="toll-free-dialing-restrictions-in-argentina"></a>Restricciones de marcado de número gratuito en Argentina
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
+[Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
-|Formatos de marcación  <br/> |0800 XXX XXXX  <br/> |
+|¿Hay llamadas gratuitas disponibles?  <br/> |Sí  <br/> |
+|Formatos de marcado  <br/> |0800 XXX XXXX  <br/> |
 |Código ISO de país o región  <br/> |AR  <br/> |
 |Isla o territorio cubierto  <br/> |No aplicable  <br/> |
 |Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de líneas cableadas/fijas  <br/> |Sin acceso desde Telmex (y subsidiarias)  <br/> |
+|Disponibilidad de líneas fijas o cableadas  <br/> |Sin acceso de Telmex (y subsidiarias)  <br/> |
 |Disponibilidad de red móvil  <br/> |Sí  <br/> |
-|Problemas de comentarios, restricciones y acceso  <br/> |Acceso móvil: Se cobra el tiempo de llamada.  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |Acceso móvil: Se cobra el tiempo de llamada.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

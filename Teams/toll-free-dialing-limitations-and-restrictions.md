@@ -22,21 +22,21 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo marcar números gratuitos en un país o región, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
-ms.openlocfilehash: 450f9cf2084cc93588f4dbf40d56cf5177eaaa15
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: Obtenga información sobre cómo marcar números gratuitos en un país o región, incluida la disponibilidad, la disponibilidad por cable o de línea fija y la disponibilidad de la red móvil y las restricciones.
+ms.openlocfilehash: 2d4fe611683217d058e9fb2a9a8330c4d6e2798c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322309"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093900"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Restricciones y limitaciones de marcado de número gratuito
 
-Esto le ayudará a saber cómo llamar a números gratuitos en cada país o región. Después de seleccionar el país o la región, se le llevará a una página que contiene dónde está disponible el servicio gratuito, incluidos detalles específicos, restricciones y límites. El formato o los formatos de marcación le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, le llevará a una página que contiene dónde está disponible el servicio gratuito, incluidos detalles específicos, restricciones y límites. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
   
-Si estás listo, selecciona un país o región:
+Si está listo, seleccione un país o región:
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Selecciona tu país o región para ver los códigos de marcación, las limitaciones y las restricciones.
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Seleccione su país o región para ver los códigos de marcado, limitaciones y restricciones.
 
 > [!div class="op_single_selector"]    
 > - [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -105,26 +105,25 @@ Si estás listo, selecciona un país o región:
 > - [Venezuela](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnam](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Estos son algunos aspectos importantes que debe recordar sobre los números gratuitos:
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Estas son algunas cosas importantes que debe recordar sobre los números gratuitos:
 
-- **Los números gratuitos solo funcionan en cada país o región.** Por ejemplo, los usuarios no podrán llamar a un número gratuito de Australia fuera de Australia.
+- **Los números gratuitos solo funcionan dentro de cada país o región.** Por ejemplo, los usuarios no podrán llamar a un número gratuito de Australia fuera de Australia.
     
-- **No se admite la adquisición o porción de números de teléfono gratuitos internacionales universales (UIFN).**
+- **No se admite la adquisición o porte de números de teléfono gratuitos internacionales universales (UIFN).**
     
-- **En muchos países o regiones, la agencia reguladora o telecomunicaciones en el país o región necesita cada número de teléfono gratuito para mantener al menos 100 minutos de uso al mes con el fin de conservar el número.**
+- **En muchos países o regiones, el organismo regulador/de telecomunicaciones del país o región requiere que cada número de teléfono gratuito mantenga al menos 100 minutos de uso al mes para conservar el número.**
     
     > [!NOTE]
-    > En caso de que recibas un número gratuito y el uso del número no cumpla con estos requisitos mínimos, la agencia reguladora o telecomunicaciones podría obligar a Microsoft a recuperar el número. 
+    > En el caso de que reciba un número gratuito y el uso del número no cumpla estos requisitos mínimos, microsoft puede ser obligado por la agencia reguladora o de telecomunicaciones a recuperar el número de usted. 
   
-- **El acceso a la red de telefonía móvil, la línea fija y la línea fija a números gratuitos puede estar totalmente o parcialmente restringido.** El formato de marcado describe los códigos de acceso requeridos en cada país o región para realizar llamadas con el número gratuito.
+- **El acceso a la red de telefonía fija, fija y móvil a números gratuitos puede estar totalmente o parcialmente restringido.** El formato de marcado describe los códigos de acceso requeridos en cada país o región para realizar llamadas con el número gratuito.
     
-- **Números gratuitos del plan de numeración de Norteamérica:** Las tarifas por minuto para los números gratuitos del plan de numeración de Norteamérica las determina el país de origen. La tarifa gratuita por minuto para llamadas que provienen de Estados Unidos se asigna a la tarifa definida como "Norteamérica". Sin embargo, las llamadas que se originan desde otros países de América del Norte, como Canadá, Puerto Rico, etc. tienen tarifas gratuitas específicas.
+- **Números gratuitos del Plan de numeración de Norteamérica:** El país de origen determina las tarifas por minuto para los números gratuitos del Plan de numeración de América del Norte. La tarifa gratuita por minuto para las llamadas que proceden de Estados Unidos se asigna a la tasa definida como "Norteamérica". Sin embargo, las llamadas que proceden de otros países de América del Norte como Canadá, Puerto Rico, etc. tienen tarifas gratuitas específicas.
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     
 ## <a name="related-topics"></a>Temas relacionados
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](./getting-service-phone-numbers.md)
 
   
- 

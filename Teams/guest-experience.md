@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Este artículo describe la funcionalidad de Microsoft Teams disponible para los invitados.
-ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661895"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092088"
 ---
 # <a name="guest-experience-in-teams"></a>Experiencia de invitado en Teams
 
@@ -105,8 +105,8 @@ En la tabla siguiente se muestran las características de las llamadas y las reu
 >  - La configuración **Los usuarios invitados tienen acceso limitado a las propiedades y la pertenencia a los objetos de directorio** significa que los invitados no tienen permisos para determinadas tareas de directorio, como la enumeración de usuarios, grupos u otros recursos de directorio con Microsoft Graph.
 >  - La configuración **El acceso de usuarios invitados está restringido a las propiedades y la pertenencia a sus propios objetos de directorio (más restrictiva)** significa que los invitados solo puedan tener acceso a sus propios objetos de directorio.
 >
->Para obtener más información, vea [¿Cuáles son los permisos de usuario predeterminados en Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
+>Para obtener más información, vea [¿Cuáles son los permisos de usuario predeterminados en Azure Active Directory?](/azure/active-directory/fundamentals/users-default-permissions)
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Abandonar una organización como invitado](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[Abandonar una organización como invitado](/azure/active-directory/b2b/leave-the-organization)

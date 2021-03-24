@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c736cf17d263f097e97b32f856bc83cf2fe42a35
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 6bf864fefd3ac60c7531bd339a5587c8f2f0dd72
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814559"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094240"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar equipos en el Centro de administración de Microsoft Teams
 ==========================================
@@ -38,13 +38,13 @@ Como administrador, es posible que tenga que ver o actualizar los equipos que la
 - Administrador global
 - Administrador de servicios de Teams
 
-Puede obtener más información acerca de los roles de administrador en Teams en [Usar los roles de administrador de Microsoft Teams para administrar equipos](using-admin-roles.md) y puede ver más sobre cómo usar los cmdlets de PowerShell para administrar equipos en la [referencia de cmdlets de Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
+Puede obtener más información acerca de los roles de administrador en Teams en [Usar los roles de administrador de Microsoft Teams para administrar equipos](using-admin-roles.md) y puede ver más sobre cómo usar los cmdlets de PowerShell para administrar equipos en la [referencia de cmdlets de Microsoft Teams](/powershell/teams/?view=teams-ps).
 
 
 
 ## <a name="teams-overview-grid"></a>Información general de equipos
 
-Las herramientas de administración para equipos se encuentran en el nodo **Equipos** en el centro de administración de Microsoft Teams. (En el centro de administración, seleccione **Teams**  >  **Administrar equipos).** Cada equipo cuenta con la copia de seguridad de un grupo de Microsoft 365 y este nodo proporciona una vista de los grupos que se han habilitado en Microsoft Teams en su organización.
+Las herramientas de administración para equipos se encuentran en el nodo **Equipos** en el centro de administración de Microsoft Teams. (En el centro de administración, seleccione **Teams**  >  **Administrar equipos).)** Cada equipo cuenta con el respaldo de un grupo de Microsoft 365 y este nodo proporciona una vista de los grupos habilitados para Microsoft Teams en su organización.
 
 ![Captura de pantalla de la cuadrícula de información general de equipos](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -55,11 +55,11 @@ La cuadrícula muestra las siguientes propiedades:
 - **Miembros del equipo**: un recuento de los usuarios totales, incluidos los propietarios, los invitados y los miembros de su espacio empresarial.
 - **Propietarios**: un recuento de propietarios de este equipo.
 - **Invitados**: recuento de usuarios invitados de B2B de Azure Active Directory que son miembros de este equipo.
-- **Privacidad:** visibilidad/AccessType del grupo de microsoft 365 del que se copia de seguridad.
+- **Privacidad:** el Tipo de visibilidad/access del grupo de Microsoft 365 que hace copia de seguridad.
 - **Estado**: el estado Archivado o Activo de este equipo. Obtenga más información sobre archivar equipos en [Archivar o restaurar un equipo](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
-- **Descripción:** la descripción del grupo de Microsoft 365 al que se copia de seguridad.
-- **Clasificación:** la clasificación (si se usa en su organización) asignada al grupo de copia de seguridad de Microsoft 365. Obtenga más información sobre las clasificaciones en [Crear clasificaciones para los grupos de Office de su organización](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
-- **GroupID:** el Id. de grupo único del grupo de Microsoft 365 del que se copia de seguridad.
+- **Descripción:** la descripción del grupo de Microsoft 365 que hace una copia de seguridad.
+- **Clasificación:** la clasificación (si se usa en su organización) asignada al grupo de Microsoft 365 de copia de seguridad. Obtenga más información sobre las clasificaciones en [Crear clasificaciones para los grupos de Office de su organización](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **GroupID:** el id. de grupo único del grupo de Microsoft 365 de copia de seguridad.
 
 > [!NOTE]
 > Si no ve todas estas propiedades en la cuadrícula, haga clic en el icono **Editar columnas**. En el panel **Editar columnas**, puede usar el botón de alternancia para activar o desactivar columnas en la cuadrícula. Cuando haya terminado, haga clic en **Aplicar**.
@@ -69,7 +69,7 @@ La cuadrícula muestra las siguientes propiedades:
 Para agregar un nuevo equipo, haga clic en **Agregar**. En el panel **Agregar un nuevo equipo**, otorgue un nombre y una descripción al equipo, indique si quiere convertirlo en un equipo público o privado y establezca la clasificación.
 
 > [!NOTE]
-> Los equipos recién creados se pueden administrar inmediatamente en el Centro de administración de Teams, a diferencia de la experiencia de otros clientes, como Outlook.
+> Los equipos recién creados se pueden administrar inmediatamente en el Centro de administración de Teams, a diferencia de la experiencia de otros clientes como Outlook.
 
 ### <a name="edit"></a>Editar 
 
@@ -81,7 +81,7 @@ Puede archivar un equipo. El archivado de un equipo convierte el equipo en modo 
 
 ### <a name="delete"></a>Eliminar
 
-Eliminar un equipo es una eliminación suave del equipo y del grupo de Microsoft 365 correspondiente. Para restaurar un equipo eliminado por error, siga las instrucciones de [Restaurar un grupo eliminado.](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)
+Eliminar un equipo es una eliminación suave del equipo y del grupo correspondiente de Microsoft 365. Para restaurar un equipo eliminado por error, siga las instrucciones de [Restaurar un grupo eliminado.](/microsoft-365/admin/create-groups/restore-deleted-group)
 
 ### <a name="search"></a>Buscar 
 
@@ -89,7 +89,7 @@ La búsqueda admite la cadena "Empieza por" y busca en el campo **Nombre del gru
 
 ## <a name="team-profile"></a>Perfil de equipo
 
-Puede ir a la página de perfil de equipo de cualquier equipo desde la cuadrícula principal de información general de equipos al hacer clic en el nombre del equipo. La página del perfil del equipo muestra los miembros, propietarios e invitados que pertenecen al equipo (y el grupo de Microsoft 365 que lo copia de seguridad), así como los canales y la configuración del equipo. En la página de perfil de equipo, puede:
+Puede ir a la página de perfil de equipo de cualquier equipo desde la cuadrícula principal de información general de equipos al hacer clic en el nombre del equipo. La página de perfil del equipo muestra los miembros, propietarios e invitados que pertenecen al equipo (y su grupo de Microsoft 365 de respaldo), así como los canales y la configuración del equipo. En la página de perfil de equipo, puede:
 
 - Agregar o quitar miembros y propietarios.
 - Agregar o quitar canales (tenga en cuenta que no se puede quitar el canal General).
@@ -106,7 +106,7 @@ En la página de perfil del equipo, puede cambiar los siguientes elementos de un
 - **Nombre del equipo**
 - **Descripción**
 - **Privacidad**: establezca si el equipo es público o privado.
-- **Clasificación:** esto se copia con las clasificaciones de grupo de Microsoft 365. Elija **Confidencial**, **Extremadamente confidencial** o **General**.
+- **Clasificación:** esto está a copia de seguridad de las clasificaciones de grupo de Microsoft 365. Elija **Confidencial**, **Extremadamente confidencial** o **General**.
 - **Configuración de conversaciones**: establezca si los miembros pueden editar y eliminar los mensajes enviados.
 - **Configuración de canales**: establezca si los miembros pueden crear nuevos canales y editar los existentes, y agregar, editar y quitar fichas, conectores y aplicaciones.
 
@@ -122,7 +122,7 @@ Algunos de los equipos no están en la lista de equipos de la cuadrícula inform
 
 **Resolución: configure manualmente la propiedad en el valor correcto mediante MS Graph**
 
-Reemplace **{groupid}** en la consulta para el GroupId real en cuestión, que puede obtener mediante el PowerShell de Exchange Online con el cmdlet **"[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"**, como el atributo "**ExternalDirectoryObjectId**".
+Reemplace **{groupid}** en la consulta para el GroupId real en cuestión, que puede obtener mediante el PowerShell de Exchange Online con el cmdlet **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"**, como el atributo "**ExternalDirectoryObjectId**".
 
 1. Acceder a [Probador de Graph](https://developer.microsoft.com/graph/graph-explorer).
 
@@ -138,6 +138,6 @@ Reemplace **{groupid}** en la consulta para el GroupId real en cuestión, que pu
 
 ## <a name="learn-more"></a>Más información
 
-- [Referencia de cmdlet para Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
+- [Referencia de cmdlet para Teams](/powershell/teams/?view=teams-ps)  
 - [Usar roles de administrador de Teams para administrar equipos](using-admin-roles.md)
 - [Plan para la administración del ciclo de vida en Teams](plan-teams-lifecycle.md)

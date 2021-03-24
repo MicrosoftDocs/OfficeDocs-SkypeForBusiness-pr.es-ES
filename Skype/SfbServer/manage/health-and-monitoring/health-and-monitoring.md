@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
-description: 'Resumen: obtenga información sobre las tareas de configuración de mantenimiento y supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: 443f3a959832c471142912a9f9fb36496a3432c4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn about monitoring and health configuration tasks in Skype for Business Server.'
+ms.openlocfilehash: 613df0616214e4fbe2a9504e930fcf76c4cfa8c4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823520"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095204"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Administrar el estado y la supervisión en Skype Empresarial Server
 
-**Resumen:** Obtenga información sobre las tareas de configuración de mantenimiento y supervisión en Skype Empresarial Server.
+**Resumen:** Obtenga información sobre las tareas de supervisión y configuración de estado en Skype Empresarial Server.
 
-Los temas de esta sección proporcionan procedimientos paso a paso para las tareas de configuración de mantenimiento y supervisión que puede realizar en el Panel de control de Skype Empresarial Server y en el Shell de administración de Skype Empresarial Server.
+Los temas de esta sección proporcionan procedimientos paso a paso para las tareas de supervisión y configuración de estado que puede realizar en el Panel de control de Skype Empresarial Server y el Shell de administración de Skype Empresarial Server.
 
 ## <a name="in-this-section"></a>En esta sección
 
@@ -35,11 +35,10 @@ Los temas de esta sección proporcionan procedimientos paso a paso para las tare
 
 - [Uso de informes de supervisión en Skype Empresarial Server](monitoring-reports.md)
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
-[Planeación de la supervisión](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[Planeación de la supervisión](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 
-[Implementar la supervisión](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
-
+[Implementar la supervisión](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

@@ -14,22 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
-description: Para definir un nuevo almacén de SQL, lo que significa que va a especificar una base de datos basada en SQL Server y una instancia de SQL Server (ya sea una instancia predeterminada o una instancia con nombre), especifique lo siguiente.
-ms.openlocfilehash: 79429b596eef1ed0695aeb24594ea08ce12093be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para definir un nuevo almacén de SQL, lo que significa que está especificando una base de datos basada en SQL Server y una instancia de SQL Server, ya sea una instancia predeterminada o una instancia con nombre, especifique lo siguiente.
+ms.openlocfilehash: 28018a7320bc42761a668aaff385302016781592
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833310"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095604"
 ---
 # <a name="add-sql-store"></a>Agregar almacén SQL
 
-Para definir un nuevo almacén de SQL, lo que significa que va a especificar una base de datos basada en SQL Server y una instancia de SQL Server (ya sea una instancia predeterminada o una instancia con nombre), especifique lo siguiente.
+Para definir un nuevo almacén de SQL, lo que significa que está especificando una base de datos basada en SQL Server y una instancia de SQL Server, ya sea una instancia predeterminada o una instancia con nombre, especifique lo siguiente.
 
 Especifique el nombre de dominio completo (FQDN) de la SQL Server que hospedará la instancia de base de datos que está definiendo.
 
 Especifique la instancia de SQL Server que hospedará los datos. Puede especificar la instancia predeterminada o una instancia con nombre.
 
-Es necesario comprender bien la colocación de las bases de datos en instancias específicas. Para obtener información adicional sobre la colocación del servidor y la instancia de la base de datos, consulte [Server Collocation in a Front End Pool Deployment](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) y [Server Collocation in a Standard Edition Server Deployment](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).
-
-
+Es necesario comprender bien la colocación de las bases de datos en instancias específicas. Para obtener información adicional sobre la colocación del servidor y la instancia de la base de datos, consulte [Server Collocation in a Front End Pool Deployment](/previous-versions/office/lync-server-2013/lync-server-2013-server-collocation-in-an-enterprise-edition-front-end-pool-deployment) y [Server Collocation in a Standard Edition Server Deployment](/previous-versions/office/lync-server-2013/lync-server-2013-server-collocation-in-a-standard-edition-server-deployment).

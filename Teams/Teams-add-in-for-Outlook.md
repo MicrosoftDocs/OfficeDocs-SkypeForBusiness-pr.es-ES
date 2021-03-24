@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614936"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092608"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -121,7 +121,7 @@ Solo puede aplicar esta directiva a los usuarios que se encuentren en modo de ap
 
 El complemento para reunión de Microsoft Teams sigue en proceso de desarrollo para ampliar sus funcionalidades, por lo que le recomendamos que tenga en cuenta lo siguiente:
 
-- El complemento para reunión de Microsoft Teams requiere un buzón de Exchange para el usuario principal que programa la reunión. Asegúrese de que tiene al menos un buzón de Exchange configurado en su perfil de Outlook y úselo para programar las reuniones de Microsoft Teams con el complemento. Para obtener información sobre los requisitos de Exchange, consulte [Interacción entre Exchange y Microsoft Teams](https://docs.microsoft.com/microsoftteams/exchange-teams-interact).
+- El complemento para reunión de Microsoft Teams requiere un buzón de Exchange para el usuario principal que programa la reunión. Asegúrese de que tiene al menos un buzón de Exchange configurado en su perfil de Outlook y úselo para programar las reuniones de Microsoft Teams con el complemento. Para obtener información sobre los requisitos de Exchange, consulte [Interacción entre Exchange y Microsoft Teams](./exchange-teams-interact.md).
 - Este complemento es para reuniones programadas con participantes específicos, no para reuniones en un canal. Las reuniones de canal se deben programar desde Microsoft Teams.
 - El complemento no funciona si hay un proxy de autenticación en la ruta de red entre el equipo del usuario y los servicios de Microsoft Teams.
 - Los usuarios no pueden programar eventos en directo desde Outlook. Vaya a Teams para programar eventos en directo. Para obtener más información, vea [¿Qué son los eventos en directo de Microsoft Teams?](teams-live-events/what-are-teams-live-events.md)
@@ -142,7 +142,7 @@ También puede llevar a cabo los pasos siguientes manualmente:
 
 - Los usuarios de Windows 7 deben instalar la [Actualización Universal C Runtime en Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que el complemento para reunión de Microsoft Teams funcione.
 - Compruebe que el usuario tenga una directiva de actualización de Microsoft Teams que permita programar reuniones en Microsoft Teams. Consulte [Actualización de Skype Empresarial a Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) para obtener más información.
-- Compruebe que el usuario tenga una directiva de actualización de Microsoft Teams que permita el complemento de Outlook. Consulte [Administrar directivas de reuniones en Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) para obtener más información.
+- Compruebe que el usuario tenga una directiva de actualización de Microsoft Teams que permita el complemento de Outlook. Consulte [Administrar directivas de reuniones en Microsoft Teams](./meeting-policies-in-teams.md#allow-the-outlook-add-in) para obtener más información.
 - Asegúrese de que el usuario tiene instalado el cliente de escritorio de Microsoft Teams. El complemento para reunión no se instalará cuando solo se use el cliente web de Microsoft Teams.
 - Asegúrese de que el usuario tiene instalado Outlook 2013 o una versión posterior.
 - Asegúrese de que el usuario tiene permiso para ejecutar regsvr32.exe.
@@ -175,11 +175,11 @@ Si el complemento sigue sin mostrarse, siga estos pasos para comprobar la config
 
 ### <a name="delegate-scheduling-does-not-work"></a>La programación delegada no funciona
 
-Si el administrador ha configurado Microsoft Exchange para [controlar el acceso al servidor Web de Exchange (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), el delegado no podrá programar una reunión de Teams en nombre del jefe. La solución para esta configuración está en desarrollo y se publicará en el futuro. Como solución alternativa, el administrador puede agregar la siguiente cadena a la lista de permitidos de EWS: "*SchedulingService*". 
+Si el administrador ha configurado Microsoft Exchange para [controlar el acceso al servidor Web de Exchange (EWS)](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), el delegado no podrá programar una reunión de Teams en nombre del jefe. La solución para esta configuración está en desarrollo y se publicará en el futuro. Como solución alternativa, el administrador puede agregar la siguiente cadena a la lista de permitidos de EWS: "*SchedulingService*". 
 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Solución de problemas de Teams](/MicrosoftTeams/troubleshoot/teams)
 
 - [Programar una reunión de Teams desde Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

@@ -26,12 +26,12 @@ description: Obtenga información sobre características relacionadas con el ám
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867039"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092688"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 
@@ -43,14 +43,14 @@ Microsoft Teams ofrece una serie de características de telemedicina que resulta
 - Plantillas de Teams
 - Colaboración y coordinación de atención médica
 
-Esta función forma parte de la Nube de Microsoft para el cuidado de la salud. Obtenga más información sobre esta solución, que aúna capacidades de Azure, Dynamics 365 y Microsoft 365 en la [Nube de Microsoft para el cuidado de la salud](https://docs.microsoft.com/industry/healthcare).
+Esta función forma parte de la Nube de Microsoft para el cuidado de la salud. Obtenga más información sobre esta solución, que aúna capacidades de Azure, Dynamics 365 y Microsoft 365 en la [Nube de Microsoft para el cuidado de la salud](/industry/healthcare).
 
 Vea el siguiente vídeo para obtener más información sobre el uso de la colección del cuidado de la salud para mejorar la colaboración de los equipos sanitarios en Microsoft Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
 > [!NOTE]
-> El contenido de esta sección da por sentado que ya ha implementado Teams en su organización. Si todavía no ha implementado Teams, empiece por leer [Cómo implementar Microsoft Teams](../../How-to-roll-out-teams.md).
+> El contenido de esta sección da por sentado que ya ha implementado Teams en su organización. Si todavía no ha implementado Teams, empiece por leer [Cómo implementar Microsoft Teams](../../deploy-overview.md).
 
 Los siguientes escenarios están disponibles para las organizaciones del cuidado de la salud:
 
@@ -99,7 +99,7 @@ Otro aspecto relacionado con la mensajería segura es la posibilidad de que otro
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>Plantillas de Teams para organizaciones sanitarias
 
-Se ha desarrollado nuevas plantillas para crear equipos para aplicar a hospitales, y se espera que pronto se publiquen más. Esto hace que resulte más fácil crear equipos que el personal sanitario puede usar para coordinar el cuidado de los pacientes en varios departamentos o plantas. Para más información, consulte [Introducción a las plantillas para las organizaciones sanitarias de Teams](healthcare-templates.md). Los equipos se pueden iniciar para departamentos internos como cardiología o para salas de pacientes, y se están desarrollando más plantillas.
+Se ha desarrollado nuevas plantillas para crear equipos para aplicar a hospitales, y se espera que pronto se publiquen más. Esto hace que resulte más fácil crear equipos que el personal sanitario puede usar para coordinar el cuidado de los pacientes en varios departamentos o plantas. Para más información, consulte [Introducción a las plantillas para las organizaciones sanitarias de Teams](./healthcare-templates-admin-console.md). Los equipos se pueden iniciar para departamentos internos como cardiología o para salas de pacientes, y se están desarrollando más plantillas.
 
 ## <a name="care-coordination-and-collaboration"></a>Colaboración y coordinación de atención médica
 

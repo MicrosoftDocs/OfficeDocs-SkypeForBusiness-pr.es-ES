@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67f595e6b037eb6091d3b4e03e3258a13e12a4d1
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 222cb12e38061c81a860092f90bf42d5412fdb63
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909394"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092288"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams para RealWear
 
@@ -44,8 +44,8 @@ Las licencias de Microsoft Teams forman parte de las suscripciones de Microsoft 
 
 Los dispositivos RealWear se pueden administrar mediante el modo de Administrador de dispositivos Android. El soporte técnico para la administración mediante Android Enterprise es limitado, ya que en este momento los dispositivos no tienen disponibles los servicios móviles de Google (GMS).
 
-- Para obtener más información sobre la administración de dispositivos de RealWear en Microsoft Endpoint Manager, consulte [Inscripción del administrador de dispositivos Android en Intune](https://docs.microsoft.com/mem/intune/enrollment/android-enroll-device-administrator).
-- Para obtener más información sobre las directivas, consulte [Cómo usar Intune en entornos sin Google Mobile Services](https://docs.microsoft.com/mem/intune/apps/manage-without-gms).
+- Para obtener más información sobre la administración de dispositivos de RealWear en Microsoft Endpoint Manager, consulte [Inscripción del administrador de dispositivos Android en Intune](/mem/intune/enrollment/android-enroll-device-administrator).
+- Para obtener más información sobre las directivas, consulte [Cómo usar Intune en entornos sin Google Mobile Services](/mem/intune/apps/manage-without-gms).
 
 ### <a name="third-party-enterprise-mobility-managers-emms"></a>Administradores externos de gestión de la movilidad empresarial (EMMs)
 

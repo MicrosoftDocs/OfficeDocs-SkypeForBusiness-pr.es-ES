@@ -1,5 +1,5 @@
 ---
-title: Consideraciones de unión a un dominio del Sistema de sala de Skype
+title: Consideraciones de unión de dominio del sistema de salón de Skype
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
-description: Lea este tema para obtener información sobre cómo unir un equipo de dispositivo del Sistema de sala de Skype a su dominio.
-ms.openlocfilehash: 6d6decf689b1a38615851911b42676050a823e4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Lea este tema para obtener información sobre cómo unirse a un equipo de aplicación del sistema de salón de Skype a su dominio.
+ms.openlocfilehash: cf98f98a7294ead0920b3d6b07b00879cbfe15f3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805920"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093574"
 ---
-# <a name="skype-room-system-domain-joining-considerations"></a>Consideraciones de unión a un dominio del Sistema de sala de Skype
+# <a name="skype-room-system-domain-joining-considerations"></a>Consideraciones de unión de dominio del sistema de salón de Skype
  
-Lea este tema para obtener información sobre cómo unir un equipo de dispositivo del Sistema de sala de Skype a su dominio.
+Lea este tema para obtener información sobre cómo unirse a un equipo de aplicación del sistema de salón de Skype a su dominio.
   
 ## <a name="domain-joining-considerations"></a>Consideraciones de unión de dominio
 
-Puede unir el equipo del dispositivo del Sistema de sala de Skype al dominio de Active Directory o dejarlo en un grupo de trabajo. Tenga en cuenta los siguientes puntos antes de tomar esta decisión:
+Puede unir el equipo del dispositivo del sistema de salón de Skype al dominio de Active Directory o dejarlo en un grupo de trabajo. Tenga en cuenta los siguientes puntos antes de tomar esta decisión:
   
-- Unirse a un dominio al equipo de dispositivo del Sistema de sala de Skype ayuda a importar automáticamente la cadena de certificados raíz privada de su organización.
+- La unión a un dominio del equipo del dispositivo del sistema de salón de Skype ayuda a importar automáticamente la cadena de certificados raíz privada de su organización.
     
-- La unión a un dominio del equipo de aplicación del Sistema de sala de Skype le permite conceder derechos administrativos de usuarios y grupos de dominio. Al hacerlo, no tendrá que recordar la contraseña de la cuenta de administrador de nivel de equipo local.
+- La unión a un dominio del equipo del dispositivo del sistema de salón de Skype permite conceder derechos administrativos a usuarios de dominio y grupos. Al hacerlo, no tendrá que recordar la contraseña de la cuenta de administrador de nivel de equipo local.
     
-- Cuando se une un equipo de dispositivo del Sistema de sala de Skype al dominio, es necesario que cree una unidad organizativa (OU) independiente, de modo que pueda proporcionar exclusiones de objetos de directiva de grupo (GPO) a la unidad organizativa donde residen todos los objetos del equipo del Sistema de sala de Skype. Al hacerlo, cree objetos de máquina en la unidad organizativa antes de unir el equipo de dispositivo del Sistema de sala de Skype al dominio.
+- Cuando se une un equipo de aplicación del sistema de salón de Skype al dominio, es necesario crear una unidad organizativa (OU) independiente, de modo que pueda proporcionar exclusiones de objetos de directiva de grupo (GPO) a la OU donde residen todos los objetos de máquina del sistema de salón de Skype. Al hacerlo, cree objetos de máquina en la OU antes de unir el equipo del dispositivo del sistema de salón de Skype al dominio.
     
-- Muchas organizaciones tienen los siguientes GPO, que afectan a las funciones de equipo del dispositivo del Sistema de sala de Skype. Asegúrese de invalidar o bloquear la herencia de estos GPO en la unidad organizativa del sistema de sala de Skype: 
+- Muchas organizaciones tienen los siguientes GPO, que afectan a las funciones del equipo del dispositivo del sistema de sala de Skype. Asegúrese de invalidar o bloquear la herencia de estos GPO en la OU del sistema de salón de Skype: 
     
-  - Tiempo de espera de sesiones de inicio de sesión (bloqueo automático)
+  - Tiempo de espera de las sesiones de inicio de sesión (bloqueo automático)
     
   - Directivas relacionadas con la administración de energía
     
@@ -45,15 +45,15 @@ Puede unir el equipo del dispositivo del Sistema de sala de Skype al dominio de 
     
   - Solicitar a los usuarios conexiones de red lentas
     
-  - Iniciar un determinado programa al iniciar sesión
+  - Iniciar un programa determinado al iniciar sesión
     
-  - Crea otra cuenta de usuario de dominio en todos los equipos unidos a un dominio.
+  - Cree otra cuenta de usuario de dominio en todos los equipos unidos a un dominio.
     
   - Insertar Windows Update en el sistema de sala de Skype
     
-- Como alternativa, puede decidir dejar el equipo del dispositivo en el grupo de trabajo. Al igual que con el cliente de Skype Empresarial de escritorio, esto requiere que importe manualmente la cadena de certificados raíz en el equipo de dispositivo del Sistema de sala de Skype. You're not required to import the root certificate chain if your Skype for Business deployment is using a public certificate (for example, Entrust, VeriSign, and so on). 
+- Como alternativa, puede decidir dejar el equipo del dispositivo en el grupo de trabajo. Al igual que con el cliente de Skype Empresarial de escritorio, esto requiere que importe manualmente la cadena de certificados raíz en el equipo del dispositivo sistema de salón de Skype. No es necesario importar la cadena de certificados raíz si la implementación de Skype Empresarial usa un certificado público (por ejemplo, Entrust, VeriSign, entre otros). 
     
-Si planea unir máquinas del Sistema de sala de Skype al dominio, para evitar unirse accidentalmente a una unidad organizativa no intencionada, que puede no estar libre de GPO, asegúrese de unirse a la unidad organizativa correcta. Puede usar el siguiente cmdlet desde el equipo del Sistema de sala de Skype para unirse a la unidad organizativa correcta y no recibe GPO que puedan bloquear la funcionalidad LRS. Póngase en contacto con el administrador del sistema o con el partner oem para ejecutar estos cmdlets:
+Si planea unir máquinas del sistema de sala de Skype al dominio, para evitar unirse accidentalmente a una máquina del sistema de sala de Skype a una OU no intencionada, que puede no estar libre de GPO, asegúrese de unirse a la OU correcta. Puede usar el siguiente cmdlet de la máquina sistema de salón de Skype para unirse a la OU correcta y no recibe GPO que puedan bloquear la funcionalidad de LRS. Póngase en contacto con el administrador del sistema o con el partner OEM para ejecutar estos cmdlets:
   
 ```powershell
 $username = "contso.local\LRS01"
@@ -62,12 +62,12 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-Incluso si crea una unidad organizativa independiente y bloquea la herencia, hay algunas directivas que podrían causar problemas en un nivel superior. Una configuración de directiva de grupo sin invalidación supera a una unidad organizativa con una configuración de herencia de directiva de bloqueo. Para obtener más información, consulte el artículo Sin invalidación en comparación con bloquear la herencia [de directivas](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) en la documentación de directiva de grupo.
+Incluso si crea una OU independiente y bloquea la herencia, hay algunas directivas que podrían causar problemas en un nivel superior. Una configuración de directiva de grupo sin invalidación supera a una OU con una configuración de herencia de directivas de bloqueo. Para obtener más información, consulte el artículo [No override as Compared to Block Policy Inheritance](/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) en la documentación de la directiva de grupo.
   
-Es posible que tenga varios enfoques para resolver estos problemas. Le recomendamos que consulte con los expertos de Active Directory para asegurarse de que se le proporciona una UO que tenga la configuración de GPO adecuada o al menos una OU en la que no existan las directivas descritas anteriormente. Se recomienda habilitar la calidad de servicio (QoS) para los dispositivos del Sistema de sala de Skype.
+Es posible que tenga varios enfoques para resolver estos problemas. Le recomendamos que consulte con los expertos de Active Directory para asegurarse de que se le proporciona una OU que tenga la configuración de GPO adecuada, o al menos una OU en la que no existan las directivas descritas anteriormente. Se recomienda habilitar la calidad del servicio (QoS) para dispositivos del sistema de sala de Skype.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
   
 [Configuración de dispositivo: Crear nueva o editar existente](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 
-[Administración de la calidad de servicio](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)
+[Administración de la calidad del servicio](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)
