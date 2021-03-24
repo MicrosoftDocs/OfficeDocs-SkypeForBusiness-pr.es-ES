@@ -13,21 +13,21 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 'Resumen: ver información de PIN de usuario en Skype Empresarial Server.'
-ms.openlocfilehash: fa5385c1ca318c4a41e17088368d9928fd6d0e0b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c016e6edf258f63166b930be833542bf9e730f15
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806510"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099226"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>Ver información de PIN de usuario en Skype Empresarial Server
  
 **Resumen:** Ver información de PIN de usuario en Skype Empresarial Server.
   
-Para unirse a una conferencia de acceso telefónico local como usuario autenticado, un usuario de Skype Empresarial Server con credenciales de Servicios de dominio de Active Directory (AD DS) necesita un número de identificación personal (PIN). Puede ver la información de PIN de un usuario desde el Panel de control de Skype Empresarial Server.
+Para unirse a una conferencia de acceso telefónico local como usuario autenticado, un usuario de Skype Empresarial Server con credenciales de Servicios de dominio de Active Directory (AD DS) requiere un número de identificación personal (PIN). Puede ver la información de PIN de un usuario desde el Panel de control de Skype Empresarial Server.
   
 > [!NOTE]
-> Puede ver información de estado de PIN, como si el PIN se ha establecido o cuándo se modificó por última vez, pero no puede ver el PIN actual mirando el estado del PIN. Si un usuario ha perdido su PIN, puede restablecerlo siguiendo los procedimientos descritos en Establecer el PIN de conferencia de acceso telefónico local de un usuario en [Skype Empresarial Server](set-a-user-s-dial-in-conferencing-pin.md)
+> Puede ver la información de estado del PIN, como si el PIN se ha establecido o cuándo se cambió por última vez, pero no puede ver el PIN actual mirando el estado del PIN. Si un usuario ha perdido su PIN, puede restablecerlo siguiendo los procedimientos descritos en [Set a user's dial-in conferencing PIN in Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Para ver el PIN de un usuario en el Panel de control de Skype Empresarial Server
 
@@ -61,15 +61,15 @@ Para unirse a una conferencia de acceso telefónico local como usuario autentica
     > [!NOTE]
     > Si el PIN está bloqueado, debe desbloquearlo antes de definirlo. Para desbloquear el PIN, haga clic en el usuario, en **Acción** y en **Desbloquear PIN**. 
   
-6. Haga clic en un usuario en los resultados de la búsqueda, haga clic en **Acción** y, a continuación, haga clic **en Ver estado de PIN.**
+6. Haga clic en un usuario en los resultados de búsqueda, haga clic **en Acción** y, a continuación, haga clic en Ver estado **de PIN**.
     
-## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Visualización de la información del PIN del usuario mediante Windows PowerShell cmdlets
+## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Visualización de información de PIN de usuario mediante Windows PowerShell cmdlets
 
-Puede ver la información del PIN del usuario con el cmdlet Get-CsClientPinInfo usuario. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre el uso de Windows PowerShell remoto para conectarse a Skype Empresarial Server, consulte el artículo del blog "Inicio rápido: administración de [Microsoft Lync Server 2010 con PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
+Puede ver la información del PIN del usuario mediante el cmdlet Get-CsClientPinInfo usuario. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del Windows PowerShell remoto para conectarse a Skype Empresarial Server, vea el artículo de blog "Inicio rápido: Administración de [Microsoft Lync Server 2010 mediante PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
   
-### <a name="to-view-user-pin-information"></a>Para ver la información del PIN del usuario
+### <a name="to-view-user-pin-information"></a>Para ver información de PIN de usuario
 
-Para ver la información de PIN de un usuario, escriba un comando similar al siguiente en el Shell de administración de Skype Empresarial Server y, a continuación, presione ENTRAR:
+Para ver información de PIN para un usuario, escriba un comando similar al siguiente en el Shell de administración de Skype Empresarial Server y, a continuación, presione ENTRAR:
     
   ```PowerShell
   Get-CsClientPinInfo -Identity "Ken Myer"
@@ -85,9 +85,9 @@ LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
 </pre>
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Get-CsConferenceDisclaimer.](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps)
+Para obtener más información, vea el tema de ayuda para el cmdlet [Get-CsConferenceDisclaimer.](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps)
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [Establecer el PIN de conferencia de acceso telefónico local de un usuario en Skype Empresarial Server](set-a-user-s-dial-in-conferencing-pin.md)
   

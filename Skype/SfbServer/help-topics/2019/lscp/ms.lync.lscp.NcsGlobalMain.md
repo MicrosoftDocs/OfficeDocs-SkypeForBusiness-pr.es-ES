@@ -1,5 +1,5 @@
 ---
-title: Configuración de red de configuración global
+title: Configuración de red Configuración global
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,17 @@ localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 479d7e6f81872286143b64f8e2b829c4bce1db5d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1961c43193cf6f3cd67f07fe14a98752d34066a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812180"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100346"
 ---
 # <a name="network-configuration-global-setting"></a>Configuración de red: Configuración global
 
 ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
 
-- [Habilitación del control de admisión de llamadas](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [Habilitación del control de admisión de llamadas](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-call-admission-control)
 
-- [Habilitar la omisión de medios](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
-
-
-
+- [Habilitar la omisión de medios](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-network-media-bypass)

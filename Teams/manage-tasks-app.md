@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909404"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101156"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Tasks para su organización en Microsoft Teams
 
@@ -81,7 +81,7 @@ Para anclar la aplicación Tasks para sus usuarios, puede editar la directiva gl
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>Un usuario solo podrá ver Mis tareas si tiene licencia para Exchange Online.
 
-Si no desea que un usuario vea **Mis tareas**, puede ocultarlas. Para ello, [quite la licencia del usuario de Exchange Online](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Debe saber que después de quitar una licencia de Exchange Online, el usuario ya no tendrá acceso a su buzón.  Los datos del buzón se conservarán durante 30 días. Después, se quitarán y no se podrán recuperar a menos que se aplique al buzón una [Conservación local o Suspensión legal](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+Si no desea que un usuario vea **Mis tareas**, puede ocultarlas. Para ello, [quite la licencia del usuario de Exchange Online](/microsoft-365/admin/manage/remove-licenses-from-users). Debe saber que después de quitar una licencia de Exchange Online, el usuario ya no tendrá acceso a su buzón.  Los datos del buzón se conservarán durante 30 días. Después, se quitarán y no se podrán recuperar a menos que se aplique al buzón una [Conservación local o Suspensión legal](/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 No recomendamos usar esto con sus trabajadores de TI. Sin embargo, es útil para algunas situaciones concretas, como trabajadores de primera línea que no dependan del correo electrónico.
 
@@ -123,5 +123,5 @@ Para obtener información sobre cómo configurar la jerarquía basada en equipos
 
 Tasks es compatible con las API de Power Automate para To Do y Graph para Planner. Para más información, vea:
 
-- [Introducción a la API de tareas y planes de Planner](https://docs.microsoft.com/graph/planner-concept-overview)
+- [Introducción a la API de tareas y planes de Planner](/graph/planner-concept-overview)
 - [Uso de Microsoft To Do con Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

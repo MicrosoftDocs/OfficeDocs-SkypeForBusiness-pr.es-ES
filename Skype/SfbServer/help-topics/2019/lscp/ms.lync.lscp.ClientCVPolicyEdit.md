@@ -1,5 +1,5 @@
 ---
-title: Directiva de versión de cliente Crear nueva o editar existente
+title: Directiva de versión de cliente Crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede especificar la versión de clientes que se admiten en su entorno. Cuando interactúan dos clientes que ejecutan versiones diferentes, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente.
-ms.openlocfilehash: c2d6dc4f68a7c40668db9042d420f2f341e35ca0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 57c273198a9c88ae26540518c9f892b218b96118
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824900"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100696"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>Directiva de versiones de cliente: Crear nuevos o editar los existentes
 
@@ -41,7 +41,7 @@ Puede realizar las siguientes tareas en la página **Nueva directiva de versión
 
 Las siguientes listas describen los menús, comandos, campos y propiedades de la página.
 
-- **Ámbito** Identifica el ámbito (sitio, grupo o usuario) de la directiva de versión de cliente.
+- **Ámbito** Identifica el ámbito (Sitio, Grupo de servidores o Usuario) de la directiva de versión de cliente.
 
 - **Nombre** Puede agregar o modificar el nombre de la directiva de versión de cliente.
 
@@ -55,5 +55,4 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
 - **Flechas arriba y abajo** Esta opción mueve la regla de versión de cliente seleccionada hacia arriba o hacia abajo en prioridad. Las reglas se procesan en el orden mostrado.
 
-Para obtener más información sobre la interoperabilidad entre clientes y versiones de cliente, consulte [Interoperabilidad de clientes.](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) Para obtener detalles sobre cómo trabajar con las directivas de versión de cliente, vea [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) en la documentación de operaciones.
-
+Para obtener más información sobre la interoperabilidad entre clientes y versiones de cliente, vea [Client Interoperability](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013). Para obtener detalles sobre cómo trabajar con las directivas de versión de cliente, vea [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013) en la documentación de operaciones.

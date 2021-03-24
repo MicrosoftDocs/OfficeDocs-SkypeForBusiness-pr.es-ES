@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48ec728921f545f4e8c383b16a9bc4e82c22b363
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918686"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101276"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
@@ -69,7 +69,7 @@ Para implementar las reuniones en toda la organización, asegúrese de que todas
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
-|¿Está mi red lista para la implementación de reuniones de Teams? | Para comprobar que la red está preparada, vea:<ul><li>[Preparar la red de la organización para Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Intervalos de direcciones IP y URL](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|¿Está mi red lista para la implementación de reuniones de Teams? | Para comprobar que la red está preparada, vea:<ul><li>[Preparar la red de la organización para Microsoft Teams](./prepare-network.md)</li><li>[Intervalos de direcciones IP y URL](./office-365-urls-ip-address-ranges.md)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales
@@ -83,7 +83,7 @@ Teams ofrece un conjunto de roles de administrador personalizados que pueden usa
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 |¿A quién se asignará el rol de Administrador de comunicaciones de Teams?|Para obtener más información sobre los roles de administrador de Teams, vea [Usar los roles de administrador de Microsoft Teams para administrar Teams](using-admin-roles.md).|
-|¿A quién se asignará el rol de Ingeniero de soporte en comunicaciones de Teams?|Para asignar roles de administrador, vea [asignar roles de administrador y de no administrador a los usuarios con Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
+|¿A quién se asignará el rol de Ingeniero de soporte en comunicaciones de Teams?|Para asignar roles de administrador, vea [asignar roles de administrador y de no administrador a los usuarios con Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
 |¿A quién se asignará el rol de Especialista de soporte en comunicaciones de Teams?||
 |||
 
@@ -119,7 +119,7 @@ Para obtener una experiencia óptima de reunión en Teams, considere el uso de d
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 |¿Voy a comprar dispositivos personales para mis usuarios? |Lea [Administrar los dispositivos en Teams](devices/device-management.md). |
-|¿Voy a comprar e implementar dispositivos de sistemas de sala para las salas de conferencias?|Lea [Soluciones y dispositivos de salas de reuniones](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+|¿Voy a comprar e implementar dispositivos de sistemas de sala para las salas de conferencias?|Lea [Soluciones y dispositivos de salas de reuniones](/skypeforbusiness/certification/devices-meeting-rooms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
 |||
 
 ### <a name="reporting"></a>Informes
@@ -181,7 +181,7 @@ Las organizaciones con muchas salas de conferencias pueden considerar un enfoque
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
-| ¿Qué necesito hacer para implementar los sistemas de sala de conferencias?|Consulte los artículos [Planear salas de Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+| ¿Qué necesito hacer para implementar los sistemas de sala de conferencias?|Consulte los artículos [Planear salas de Microsoft Teams](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
 |||
 
 ### <a name="cloud-video-interop"></a>Interoperabilidad de vídeos en la nube

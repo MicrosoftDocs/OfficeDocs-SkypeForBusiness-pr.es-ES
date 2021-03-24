@@ -15,23 +15,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 7bbdf32b2af4bb1f41c64f34a472a2c5720dab84
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d43559ce2d1f4b1cb5e385b53cf533adbe49a9ca
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810910"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099866"
 ---
 # <a name="external-access-policy"></a>Directiva de acceso externo
 
 ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
 
-- [Administrar el acceso de usuarios remotos](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+- [Administrar el acceso de usuarios remotos](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-remote-user-access)
 
-- [Configurar directivas para controlar el acceso de usuarios federados](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [Configurar directivas para controlar el acceso de usuarios federados](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-federated-user-access)
 
-- [Configurar directivas para controlar el acceso de los usuarios de proveedores de servicios de mensajería instantánea](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
+- [Configurar directivas para controlar el acceso de los usuarios de los proveedores de servicios de mensajería instantánea](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-public-sip-federated-providers)
 
-- [Restablecer o eliminar directivas de acceso de usuarios externos](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
-
-
+- [Restablecer o eliminar directivas de acceso de usuarios externos](/previous-versions/office/lync-server-2013/lync-server-2013-resetting-or-deleting-external-user-access-policies)

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f226b60bfc3a054166eb48596c505ccd7fa5ac9
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
-ms.translationtype: HT
+ms.openlocfilehash: e0fecf419f6fc3ac0ef15097fe54571d85018587
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424640"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101206"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Introducción a las plantillas de Teams para el comercio minorista
 
@@ -34,7 +34,7 @@ Las plantillas de Teams tienen definiciones predefinidas de estructuras de equip
 
 En este artículo, le mostraremos cada una de las plantillas de Teams y le recomendaremos cómo usarlas.
 
-Este artículo le ayudará si es responsable de planear, implementar y administrar varios equipos en toda su organización minorista. Ya ha implementado el servicio de Teams en su organización. Si todavía no ha implementado Teams, empiece por leer [Cómo implementar Microsoft Teams](How-to-roll-out-teams.md).
+Este artículo le ayudará si es responsable de planear, implementar y administrar varios equipos en toda su organización minorista. Ya ha implementado el servicio de Teams en su organización. Si todavía no ha implementado Teams, empiece por leer [Cómo implementar Microsoft Teams](./deploy-overview.md).
 
 Para obtener más información sobre las plantillas de equipo en general, consulte [Introducción a las plantillas de Teams](get-started-with-teams-templates.md).
 
@@ -68,7 +68,7 @@ Formas recomendadas de personalizar la plantilla de colaboración de encargados 
 
 ## <a name="how-to-use-first-party-templates"></a>Cómo usar plantillas propias
 
-Para usar estas plantillas, cambie la propiedad "template@odata.bind" en el cuerpo de la solicitud de "estándar" a los TemplateID anteriores.  Para obtener más información sobre cómo implementar plantillas de Teams, vea el artículo de Microsoft Graph sobre cómo [crear un equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Para usar estas plantillas, cambie la propiedad "template@odata.bind" en el cuerpo de la solicitud de "estándar" a los TemplateID anteriores.  Para obtener más información sobre cómo implementar plantillas de Teams, vea el artículo de Microsoft Graph sobre cómo [crear un equipo](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Los canales de la plantilla se crearán automáticamente en la pestaña General.

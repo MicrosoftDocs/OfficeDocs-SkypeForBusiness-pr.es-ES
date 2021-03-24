@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Si un usuario se ha habilitado para Skype Empresarial Server, puede configurar la federación SIP, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública en el Panel de control de Skype Empresarial Server aplicando las directivas adecuadas a usuarios específicos.
-ms.openlocfilehash: 25e9a63363dc4f982e142defd2164c2423471961
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Si un usuario se ha habilitado para Skype Empresarial Server, puede configurar la federación SIP, el acceso remoto de usuarios y la conectividad de mensajería instantánea pública (MI) en el Panel de control de Skype Empresarial Server aplicando las directivas adecuadas a usuarios específicos.
+ms.openlocfilehash: 45e22a0d7951bfe4d58d90a1e5190aa242f7b29a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826630"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099056"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Asignar una directiva de acceso de usuario externo a un usuario habilitado para Skype Empresarial
 
-Si un usuario se ha habilitado para Skype Empresarial Server, puede configurar la federación SIP, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública en el Panel de control de Skype Empresarial Server aplicando las directivas adecuadas a usuarios específicos. Por ejemplo, si creó una directiva para admitir el acceso de usuarios remotos, debe aplicarla al usuario para que pueda conectarse a Skype Empresarial Server desde una ubicación remota y colaborar con usuarios internos desde la ubicación remota.
+Si un usuario se ha habilitado para Skype Empresarial Server, puede configurar la federación SIP, el acceso remoto de usuarios y la conectividad de mensajería instantánea pública (MI) en el Panel de control de Skype Empresarial Server aplicando las directivas adecuadas a usuarios específicos. Por ejemplo, si creó una directiva para admitir el acceso de usuarios remotos, debe aplicarla al usuario antes de que el usuario pueda conectarse a Skype Empresarial Server desde una ubicación remota y colaborar con usuarios internos desde la ubicación remota.
 
 
 > [!NOTE]  
-> Para permitir el acceso de usuarios externos, debe habilitar la compatibilidad para cada tipo de acceso de usuarios externos que desee permitir y configurar las directivas adecuadas y otras opciones para controlar su uso. Para obtener más información, consulte [Administración de la federación y el acceso externo a Skype Empresarial Server.](../managing-federation-and-external-access.md)
+> Para permitir el acceso de usuarios externos, debe habilitar la compatibilidad para cada tipo de acceso de usuarios externos que desee permitir y configurar las directivas adecuadas y otras opciones para controlar su uso. Para obtener más información, vea [Managing federation and external access to Skype for Business Server](../managing-federation-and-external-access.md).
 
 
 Use el procedimiento descrito en este tema para aplicar una directiva de acceso de usuarios externos creada previamente a una o varias cuentas de usuario.
@@ -44,13 +44,13 @@ Use el procedimiento descrito en este tema para aplicar una directiva de acceso 
 
 4.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en  **Editar** y, a continuación, en  **Mostrar detalles**.
 
-5.  En **Editar usuario de Skype Empresarial Server** en la directiva de acceso **externo,** seleccione la directiva de usuario que desea aplicar.
+5.  En **Editar usuario de Skype Empresarial Server** en Directiva de acceso **externo,** seleccione la directiva de usuario que desea aplicar.
      
 > [!NOTE]  
 > La **\<Automatic>** configuración aplica la configuración predeterminada del servidor o la directiva global.
 
 
-## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Asignación Per-User directivas de acceso externo mediante cmdlets Windows PowerShell externos
+## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Asignar directivas Per-User de acceso externo mediante cmdlets Windows PowerShell externos
 
 Las directivas de acceso externo por usuario se pueden asignar mediante Windows PowerShell y el cmdlet Grant-CsExternalAccessPolicy usuario. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
 
@@ -63,7 +63,7 @@ Las directivas de acceso externo por usuario se pueden asignar mediante Windows 
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>Para asignar una directiva de acceso externo por usuario a varios usuarios
 
-  - Este comando asigna la directiva de acceso externo por usuario USAExternalAccessPolicy a todos los usuarios que tienen cuentas en la unidad organizativa (OU) de los Estados Unidos en Active Directory. Para obtener más información sobre el parámetro OU usado en este comando, consulte la documentación del cmdlet [Get-CsUser.](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)
+  - Este comando asigna la directiva de acceso externo por usuario USAExternalAccessPolicy a todos los usuarios que tienen cuentas en la unidad organizativa (OU) de los Estados Unidos en Active Directory. Para obtener más información sobre el parámetro OU usado en este comando, consulte la documentación del cmdlet [Get-CsUser.](/powershell/module/skype/Get-CsUser)
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
@@ -76,6 +76,4 @@ Las directivas de acceso externo por usuario se pueden asignar mediante Windows 
 
 
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Grant-CsExternalAccessPolicy.](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)
-
-
+Para obtener más información, vea el tema de ayuda del cmdlet [Grant-CsExternalAccessPolicy.](/powershell/module/skype/Grant-CsExternalAccessPolicy)

@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Puede eliminar cualquier directiva de sitio o usuario que aparezca en el Panel de control de Skype Empresarial Server en la página Directiva de acceso externo.
-ms.openlocfilehash: 0fbde98868bfe7f8dbe9f97db2350e02dba44560
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Puede eliminar cualquier sitio o directiva de usuario que aparezca en el Panel de control de Skype Empresarial Server en la página Directiva de acceso externo.
+ms.openlocfilehash: 407e90af201055f371dc92485ab258bac851a258
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817280"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099026"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Eliminar un sitio o una directiva de usuario para el acceso de usuarios externos
 
@@ -31,7 +31,7 @@ Si ha creado o configurado directivas de acceso de usuarios externos que ya no d
   - Restablezca la configuración predeterminada de la directiva global. La configuración global predeterminada deniega cualquier tipo de acceso de usuarios externos. La directiva global no puede eliminarse.
 
 
-Puede eliminar cualquier directiva de sitio o usuario que aparezca en el Panel de control de Skype Empresarial Server en la **página Directiva de acceso** externo. La eliminación de la directiva global no la elimina realmente, sino que solo la restablece según la configuración predeterminada, que no incluye compatibilidad con opciones de acceso para usuarios externos. Para obtener más información acerca del restablecimiento de la directiva global, vea Restablecer la directiva [global para el acceso de usuarios externos.](reset-the-global-policy-for-external-user-access.md)
+Puede eliminar cualquier sitio o directiva de usuario que aparezca en el Panel de control de Skype Empresarial Server en la **página Directiva de acceso** externo. La eliminación de la directiva global no la elimina realmente, sino que solo la restablece según la configuración predeterminada, que no incluye compatibilidad con opciones de acceso para usuarios externos. Para obtener más información sobre cómo restablecer la directiva global, vea [Reset the global policy for external user access](reset-the-global-policy-for-external-user-access.md).
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Para eliminar una directiva de sitio o usuario para el acceso de usuarios externos
@@ -47,9 +47,9 @@ Puede eliminar cualquier directiva de sitio o usuario que aparezca en el Panel d
 5.  Cuando se le solicite que confirme la eliminación, haga clic en **Aceptar**.
 
 
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Quitar directivas de PIN mediante cmdlets Windows PowerShell
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Quitar directivas de PIN mediante cmdlets Windows PowerShell de datos
 
-Las directivas de acceso externo se pueden eliminar mediante Windows PowerShell y el cmdlet Remove-CsExternalAccessPolicy externo. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
+Las directivas de acceso externo se pueden eliminar mediante Windows PowerShell y el cmdlet Remove-CsExternalAccessPolicy. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
 
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>Para quitar una directiva de acceso externo específica
@@ -66,11 +66,11 @@ Las directivas de acceso externo se pueden eliminar mediante Windows PowerShell 
         Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
 
-## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>Para quitar todas las directivas de acceso externo en las que el acceso de usuarios externos está deshabilitado
+## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>Para quitar todas las directivas de acceso externo donde está deshabilitado el acceso de usuarios externos
 
   - Con este comando se quitan todas las directivas de acceso externo cuando el acceso de usuarios externos se ha deshabilitado:
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsExternalAccessPolicy.](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy)
+Para obtener más información, vea el tema de ayuda del cmdlet [Remove-CsExternalAccessPolicy.](/powershell/module/skype/Remove-CsExternalAccessPolicy)

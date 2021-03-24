@@ -1,5 +1,5 @@
 ---
-title: Mensajería unificada de Exchange (Herramienta de planeación)
+title: Mensajería unificada de Exchange (herramienta de planeación)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,22 +13,22 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-description: Skype Empresarial Server 2015 admite la integración con la mensajería unificada de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería.
-ms.openlocfilehash: d19dbb774fbc9bf459e6da738b29b9b817998a94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype Empresarial Server 2015 admite la integración con la mensajería unificada (MU) de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una sola infraestructura de mensajería.
+ms.openlocfilehash: 2227f39dd8a8524019aecd23c2f48bd7e772ff40
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834800"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098646"
 ---
-# <a name="exchange-unified-messaging-planning-tool"></a>Mensajería unificada de Exchange (Herramienta de planeación)
+# <a name="exchange-unified-messaging-planning-tool"></a>Mensajería unificada de Exchange (herramienta de planeación)
 
-Skype Empresarial Server 2015 admite la integración con la mensajería unificada de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería.
+Skype Empresarial Server 2015 admite la integración con la mensajería unificada (MU) de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una sola infraestructura de mensajería.
 
 Para más información, vea:
   
-- "Plan for Exchange Unified Messaging integration in Skype for Business" en [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/integrate-with-exchange/unified-messaging](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/integrate-with-exchange/unified-messaging)
+- "Planear la integración de mensajería unificada de Exchange en Skype Empresarial" en [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/integrate-with-exchange/unified-messaging](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)
     
-- "Mensajería unificada" en [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)
+- "Mensajería unificada" en [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
     
-- "Planeación de la mensajería unificada" en [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344)
+- "Planeación de mensajería unificada" en [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help)

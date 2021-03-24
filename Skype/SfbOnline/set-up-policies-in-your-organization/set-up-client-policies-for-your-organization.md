@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '[] Las directivas de cliente ayudan a determinar las funciones de Skype Empresarial Online que estarán disponibles para los usuarios. Por ejemplo, puede dar a algunos usuarios permiso para transferir archivos, pero no a otros.'
-ms.openlocfilehash: 65a346f0f16892d5995b723431fc796e3faa1a3b
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 3706e6b4fafe15aa8b799170001af61b837968da
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569232"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100536"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Establecer directivas de cliente en su organización
 
@@ -40,8 +40,8 @@ La configuración de directiva de cliente se puede configurar en el momento en q
 ### <a name="start-windows-powershell"></a>Iniciar Windows PowerShell
 
 > [!NOTE]
-> Skype Empresarial Online Connector forma parte actualmente del último módulo de PowerShell de Teams. Si usa la última versión pública de PowerShell de Teams, no es necesario instalar Skype Empresarial Online Connector.
-1. Instale el [módulo de PowerShell de Teams.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+> El conector en línea del cliente de Skype® Empresarial actualmente forma parte del módulo más reciente de Windows PowerShell de Teams. Si usa la versión pública más reciente de Teams PowerShell, no es necesario que instale el conector en línea de cliente de Skype® Empresarial.
+1. Instale el [módulo de PowerShell de Teams.](/microsoftteams/teams-powershell-install)
     
 2. Abra un Windows PowerShell de comandos y ejecute los siguientes comandos: 
 
@@ -52,7 +52,7 @@ La configuración de directiva de cliente se puede configurar en el momento en q
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea Conectarse a todos los servicios de [Microsoft 365 u Office 365](https://technet.microsoft.com/library/dn568015.aspx) en una sola ventana de Windows PowerShell o Configurar el equipo para [Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea Conectarse a todos los servicios de [Microsoft 365 u Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) en una sola ventana de Windows PowerShell o Configurar el equipo para [Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
  
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Deshabilitar emoticonos y notificaciones de presencia y evitar el guardado de MENSAJES
 
@@ -63,7 +63,7 @@ La configuración de directiva de cliente se puede configurar en el momento en q
    New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
    ```
 
-  Más información sobre el cmdlet [New-CsClientPolicy.](https://technet.microsoft.com/library/mt779155.aspx)
+  Más información sobre el cmdlet [New-CsClientPolicy.](/powershell/module/skype/New-CsClientPolicy)
     
 - Para conceder la nueva directiva que creó a todos los usuarios de su organización, ejecute:
     
@@ -72,9 +72,9 @@ La configuración de directiva de cliente se puede configurar en el momento en q
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
    ```
 
-  Vea más sobre el cmdlet [Grant-CsClientPolicy.](https://technet.microsoft.com/library/mt779152.aspx)
+  Vea más sobre el cmdlet [Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)
     
-Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) para aplicar la configuración a los usuarios.
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>Permitir que se pueda hacer clic en las URL y los hiperenlaces en MI
 
@@ -85,7 +85,7 @@ Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https:/
    New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
    ```
 
-  Más información sobre el cmdlet [New-CsClientPolicy.](https://technet.microsoft.com/library/mt779155.aspx)
+  Más información sobre el cmdlet [New-CsClientPolicy.](/powershell/module/skype/New-CsClientPolicy)
     
 - Para conceder la nueva directiva que creó a todos los usuarios de su organización, ejecute:
     
@@ -94,9 +94,9 @@ Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https:/
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
    ```
 
-  Vea más sobre el cmdlet [Grant-CsClientPolicy.](https://technet.microsoft.com/library/mt779152.aspx)
+  Vea más sobre el cmdlet [Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)
     
-Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) para aplicar la configuración a los usuarios.
   
 ### <a name="prevent-showing-recent-contacts"></a>Impedir que se muestren los contactos recientes
 
@@ -106,7 +106,7 @@ Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https:/
    New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
    ```
 
-  Más información sobre el cmdlet [New-CsClientPolicy.](https://technet.microsoft.com/library/mt779155.aspx)
+  Más información sobre el cmdlet [New-CsClientPolicy.](/powershell/module/skype/New-CsClientPolicy)
     
 - Para conceder la nueva directiva que creó a Amos Marble, ejecute:
    
@@ -114,25 +114,25 @@ Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https:/
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
    ```
 
-  Vea más sobre el cmdlet [Grant-CsClientPolicy.](https://technet.microsoft.com/library/mt779152.aspx)
+  Vea más sobre el cmdlet [Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)
     
-  Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) para aplicar la configuración a los usuarios.
+  Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) para aplicar la configuración a los usuarios.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
 - Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario, cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Una introducción a Windows PowerShell y Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Seis razones por las que es posible que desee usar Windows PowerShell administrar Microsoft 365 u Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis razones por las que es posible que desee usar Windows PowerShell administrar Microsoft 365 u Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell tiene muchas ventajas en velocidad, sencillez y productividad sobre el uso solo del Centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Usar Windows PowerShell para administrar Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>Temas relacionados
 [Crear directivas personalizadas de acceso externo](create-custom-external-access-policies.md)
@@ -142,4 +142,3 @@ Si ya ha creado una directiva, puede usar el cmdlet [Set-CsClientPolicy](https:/
 [Configurar directivas de conferencia en su organización](set-up-conferencing-policies-for-your-organization.md)
 
   
- 

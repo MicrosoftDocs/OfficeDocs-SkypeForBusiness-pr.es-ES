@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: No se puede eliminar íntegramente una política global. Si se usa la opción **Eliminar** en la directiva global solamente se restablece la directiva global según la configuración predeterminada, que no incluye compatibilidad con opciones de acceso para usuarios externos.
-ms.openlocfilehash: be4f99c5b98ca46e7fed57781cf1661a2755a4ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6c74690d86f7a300b79b755db7c6111eec7810f3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817250"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098976"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Restablecer la directiva global para el acceso de usuarios externos en Skype Empresarial Server 
 
@@ -45,9 +45,9 @@ No se puede eliminar íntegramente una política global. Si se usa la opción **
 5.  Cuando se le solicite confirmar la eliminación, haga clic en **Aceptar**. Aparecerá un mensaje en la parte superior de la página donde se le comunica que la directiva global se ha restablecido.
 
 
-## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>Restablecimiento de la directiva de acceso externo global mediante cmdlets Windows PowerShell externos
+## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>Restablecer la directiva de acceso externo global mediante Windows PowerShell cmdlets
 
-La directiva de acceso externo global se puede restablecer mediante Windows PowerShell y el cmdlet Remove-CsExternalAccessPolicy web. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota Windows PowerShell. 
+La directiva de acceso externo global se puede restablecer mediante Windows PowerShell y el cmdlet Remove-CsExternalAccessPolicy. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota Windows PowerShell. 
 
 ## <a name="to-reset-the-global-external-access-policy"></a>Para restablecer la directiva de acceso externo global
 
@@ -55,6 +55,4 @@ La directiva de acceso externo global se puede restablecer mediante Windows Powe
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsExternalAccessPolicy.](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy)
-
-
+Para obtener más información, vea el tema de ayuda del cmdlet [Remove-CsExternalAccessPolicy.](/powershell/module/skype/Remove-CsExternalAccessPolicy)

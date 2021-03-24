@@ -10,22 +10,22 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype Empresarial Server admite llamadas mejoradas de 9-1-1 (E9-1-1) desde clientes de Skype Empresarial. Al configurar Skype Empresarial Server para E9-1-1, las llamadas de emergencia realizadas desde Skype Empresarial incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación.
-ms.openlocfilehash: c5b626763de78495a2feaa5ecb1ba77e367bd77d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype Empresarial Server admite llamadas mejoradas 9-1-1 (E9-1-1) desde clientes de Skype Empresarial. Al configurar Skype Empresarial Server para E9-1-1, las llamadas de emergencia realizadas desde Skype Empresarial incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación.
+ms.openlocfilehash: 4b786d3285b5075a13f43f3b7c7cb75b79182a9f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817480"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099066"
 ---
-# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Administrar 9-1-1 mejorado y el servicio de ubicación en Skype Empresarial Server
+# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Administrar 9-1-1 mejorado y el servicio de ubicación en Skype para Busines Server
 
-Skype Empresarial Server admite llamadas mejoradas de 9-1-1 (E9-1-1) desde clientes de Skype Empresarial. Al configurar Skype Empresarial Server para E9-1-1, las llamadas de emergencia realizadas desde Skype Empresarial incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación. Use los procedimientos de este artículo para administrar la directiva de ubicación.
+Skype Empresarial Server admite llamadas mejoradas 9-1-1 (E9-1-1) desde clientes de Skype Empresarial. Al configurar Skype Empresarial Server para E9-1-1, las llamadas de emergencia realizadas desde Skype Empresarial incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación. Use los procedimientos de este artículo para administrar la directiva de ubicación.
 
 > [!Note]
-> Para obtener más información sobre la implementación de características Telefonía IP empresarial avanzadas, como E9-1-1 y el servicio de información de ubicación, vea Implementar características avanzadas Telefonía IP empresarial [ubicación.](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)
+> Para obtener más información sobre cómo implementar características Telefonía IP empresarial avanzadas, como E9-1-1 y el servicio de información de ubicación, vea [Deploy advanced Telefonía IP empresarial features](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md).
 
-En Skype Empresarial Server, puede usar la directiva de ubicación para aplicar la configuración relacionada con la funcionalidad 9-1-1 mejorado (E9-1-1) y la configuración de ubicación para usuarios o contactos. La directiva de ubicación determina si un usuario está habilitado para E9-1-1 y, si es así, cuál es el comportamiento de una llamada de emergencia. Por ejemplo, puede usar la directiva de ubicación para definir qué número constituye una llamada de emergencia (por ejemplo, 911 en Estados Unidos), si se debe notificar automáticamente a la seguridad corporativa y cómo se debe enrutar la llamada.
+En Skype Empresarial Server, puede usar la directiva de ubicación para aplicar la configuración relacionada con la funcionalidad mejorada 9-1-1 (E9-1-1) y la configuración de ubicación para usuarios o contactos. La directiva de ubicación determina si un usuario está habilitado para E9-1-1 y, si es así, cuál es el comportamiento de una llamada de emergencia. Por ejemplo, puede usar la directiva de ubicación para definir qué número constituye una llamada de emergencia (por ejemplo, 911 en Estados Unidos), si se debe notificar automáticamente a la seguridad corporativa y cómo se debe enrutar la llamada.
 
 Puede configurar directivas de ubicación desde el grupo **Configuración de** red en el Panel de control de Skype Empresarial Server. Desde el Panel de control de Skype Empresarial Server puede ver, crear, modificar o eliminar directivas de ubicación. Use el siguiente procedimiento para ver información sobre las directivas de ubicación. 
 
@@ -69,7 +69,7 @@ En Skype Empresarial Server, puede invalidar la cantidad de tiempo predeterminad
 
 5.  Rellene los campos restantes como se muestra a continuación:
     
-      - **Habilitar servicios de emergencia mejorados**   Active esta casilla para habilitar a los usuarios asociados con esta directiva para E9-1-1. Cuando se habilitan los servicios de emergencia, los clientes de Skype Empresarial Server recuperarán la información de ubicación en el registro e incluirán esa información cuando se realiza una llamada de emergencia.
+      - **Habilitar servicios de emergencia mejorados**   Active esta casilla para habilitar los usuarios asociados con esta directiva para E9-1-1. Cuando los servicios de emergencia están habilitados, los clientes de Skype Empresarial Server recuperarán la información de ubicación en el registro e incluirán esa información cuando se realiza una llamada de emergencia.
     
       - **Ubicación**   Especifique uno de los valores siguientes:
         
@@ -77,25 +77,25 @@ En Skype Empresarial Server, puede invalidar la cantidad de tiempo predeterminad
         
           - **No obligatorio**   No se pedirá al usuario una ubicación. Al realizar una llamada sin información de ubicación, el proveedor de servicios de emergencia responderá a la llamada y solicitará que se especifique una ubicación.
         
-          - **Declinación de responsabilidades**   Esta opción es la misma que **Required,** excepto que el usuario no puede descartar el mensaje sin especificar la información de ubicación. El usuario podrá completar una llamada de emergencia, pero no podrá completarse ninguna otra llamada sin especificar la información. Además, puede mostrarse al usuario un texto de declinación de responsabilidades para alertarle sobre las consecuencias de negarse a especificar información de contacto. Para establecer el texto de declinación de responsabilidades, debe usar el Shell de administración de Skype Empresarial Server para ejecutar el cmdlet **Set-CsLocationPolicy** o el cmdlet **New-CsLocationPolicy** con el parámetro EnhancedEmergencyServiceDisclaimer. Para obtener más información, [consulte Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) o [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy).
+          - **Declinación de responsabilidades**   Esta opción es la misma que **Required,** excepto que el usuario no puede descartar el mensaje sin especificar la información de ubicación. El usuario podrá completar una llamada de emergencia, pero no podrá completarse ninguna otra llamada sin especificar la información. Además, puede mostrarse al usuario un texto de declinación de responsabilidades para alertarle sobre las consecuencias de negarse a especificar información de contacto. Para establecer el texto de declinación de responsabilidades, debe usar el Shell de administración de Skype Empresarial Server para ejecutar el cmdlet **Set-CsLocationPolicy** o el cmdlet **New-CsLocationPolicy** con el parámetro EnhancedEmergencyServiceDisclaimer. Para obtener más información, [vea Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) o [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
           
     
-      - **Usar solo la ubicación para los servicios de emergencia** Skype Empresarial puede usar la información de ubicación por diversos motivos (por ejemplo, para notificar a los compañeros de equipo de su ubicación actual). Seleccione esta casilla para garantizar que la información de ubicación solo está disponible para su uso en una llamada de emergencia.
+      - **Usar la ubicación solo para servicios de emergencia** Skype Empresarial puede usar la información de ubicación por diversos motivos (por ejemplo, para notificar a los compañeros de equipo de la ubicación actual). Seleccione esta casilla para garantizar que la información de ubicación solo está disponible para su uso en una llamada de emergencia.
     
-      - **Uso de RTC**   Uso de la red telefónica conmutada (RTC) que se usará para determinar qué ruta de voz se usará para enrutar las llamadas de emergencia de los clientes que usan este perfil. La ruta asociada con este uso debe hacer referencia a un tronco SIP dedicado a llamadas de emergencia o a una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) que desvíe las llamadas de emergencia al PSAP (Punto de respuesta de seguridad pública) más cercano.
+      - **Uso de RTC**   El uso de la red telefónica conmutada (RTC) que se usará para determinar qué ruta de voz se usará para enrutar llamadas de emergencia de clientes que usan este perfil. La ruta asociada con este uso debe hacer referencia a un tronco SIP dedicado a llamadas de emergencia o a una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) que desvíe las llamadas de emergencia al PSAP (Punto de respuesta de seguridad pública) más cercano.
     
-      - **Número de marcado de emergencia**   Número que se marca para llegar a los servicios de emergencia. En los EE. UU. el número es 911. La cadena debe estar formada por dígitos del 0 al 9 y puede contener de uno a diez dígitos.
+      - **Número de marcado de emergencia**   El número que se marca para llegar a los servicios de emergencia. En los EE. UU. el número es 911. La cadena debe estar formada por dígitos del 0 al 9 y puede contener de uno a diez dígitos.
     
-      - **Máscara de marcado de emergencia**   Número que desea convertir en el valor del número de marcado de emergencia cuando se marca. Por ejemplo, si especifica el valor "212" en este campo y el número de teléfono de emergencia tiene el valor "911", cuando un usuario marca 212, la llamada se realizará al 911. Esto permite marcar números de emergencia alternativos y seguir teniendo acceso a los servicios de emergencia (por ejemplo, si una persona de un país o una región con otro número de emergencia intenta marcar el número de su país o región, en lugar del número del país o la región donde se encuentra.) Para definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212;414. La longitud máxima de la cadena es de 100 caracteres. Todos los caracteres deben ser dígitos del 0 al 9.
+      - **Máscara de marcado de emergencia**   Un número que desea traducir al valor del valor del número de marcado de emergencia cuando se marca. Por ejemplo, si especifica el valor "212" en este campo y el número de teléfono de emergencia tiene el valor "911", cuando un usuario marca 212, la llamada se realizará al 911. Esto permite marcar números de emergencia alternativos y seguir teniendo acceso a los servicios de emergencia (por ejemplo, si una persona de un país o una región con otro número de emergencia intenta marcar el número de su país o región, en lugar del número del país o la región donde se encuentra.) Para definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212;414. La longitud máxima de la cadena es de 100 caracteres. Todos los caracteres deben ser dígitos del 0 al 9.
       
 
         > [!IMPORTANT]  
         > Compruebe que el valor de la máscara de marcado no coincide con ningún número del intervalo de la órbita de estacionamiento de llamadas. El enrutamiento del estacionamiento de llamadas tiene prioridad sobre la conversión de cadenas de marcado de emergencia. Para ver los intervalos existentes en la órbita de estacionamiento de llamadas, haga clic en  **Características de voz** en la barra de navegación izquierda y seleccione **Estacionamiento de llamadas**. 
 
     
-      - **URI de notificación**   Uno o más identificadores uniformes de recursos (URI) de SIP que se notificarán cuando se realiza una llamada de emergencia. Por ejemplo, el departamento de seguridad de la empresa puede recibir una notificación por mensajería instantánea si se realiza una llamada de emergencia. Si la ubicación del autor de la llamada está disponible, se incluirá dicha ubicación en la notificación. Se pueden incluir varios URI del SIP, separados por comas, en una lista. Por ejemplo, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". No se admiten listas de distribución. La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo "sip:". Antes de que haga clic en el campo URI de notificación aparecerá un ejemplo.
+      - **URI de notificación**   Uno o varios identificadores uniformes de recursos (URI) sip que se notificarán cuando se realiza una llamada de emergencia. Por ejemplo, el departamento de seguridad de la empresa puede recibir una notificación por mensajería instantánea si se realiza una llamada de emergencia. Si la ubicación del autor de la llamada está disponible, se incluirá dicha ubicación en la notificación. Se pueden incluir varios URI del SIP, separados por comas, en una lista. Por ejemplo, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". No se admiten listas de distribución. La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo "sip:". Antes de que haga clic en el campo URI de notificación aparecerá un ejemplo.
     
-      - **URI de conferencia**   El URI del SIP, en este caso el número de teléfono, de un tercero que se realizará una conferencia en cualquier llamada de emergencia que se haga. Por ejemplo, el departamento de seguridad de la empresa puede recibir una llamada cuando se realiza una llamada de emergencia y escuchar o participar en la conversación (según el valor proporcionado en el campo **Modo de conferencia**). La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo sip:. Aparece un ejemplo hasta que se hace clic dentro del campo.
+      - **URI de conferencia**   Uri de SIP, en este caso el número de teléfono, de un tercero que se conferencia en cualquier llamada de emergencia que se realiza. Por ejemplo, el departamento de seguridad de la empresa puede recibir una llamada cuando se realiza una llamada de emergencia y escuchar o participar en la conversación (según el valor proporcionado en el campo **Modo de conferencia**). La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo sip:. Aparece un ejemplo hasta que se hace clic dentro del campo.
     
       - **Modo de conferencia**   Si especifica un valor en el  campo **URI** de conferencia, el modo conferencia determina si un tercero puede participar en la llamada o solo puede escuchar. Especifique una de las opciones siguientes:
         
@@ -150,14 +150,14 @@ En Skype Empresarial Server, puede invalidar la cantidad de tiempo predeterminad
     > No puede eliminar la directiva de ubicación Global. Si trata de eliminar la directiva Global recibirá un mensaje de advertencia y las propiedades de dicha directiva se restablecerán a sus valores predeterminados.
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 [Crear o modificar sitios de red](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 
-[New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy)  
 
-[Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) 
+[Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 
  
-[Remove-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
+[Remove-CsLocationPolicy](/powershell/module/skype/Remove-CsLocationPolicy)  
 
-[Get-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
+[Get-CsLocationPolicy](/powershell/module/skype/Get-CsLocationPolicy)

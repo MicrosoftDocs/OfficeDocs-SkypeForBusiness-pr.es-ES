@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Obtenga información sobre qué tipo de planes de llamadas de marcado (planes de marcado de llamadas RTC) están disponibles con Teams y cómo elegir uno para su organización.  '
-ms.openlocfilehash: adb5f46296423b6339c62029d27111345c2fd646
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 86ec311a7abec9b9268555884db3ff8de7ee256b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460820"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100986"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
@@ -113,7 +113,7 @@ Dado que cualquier plan de marcado de inquilino se combina de forma efectiva con
 
 Las reglas de normalización .NET Framework expresiones regulares para especificar patrones de coincidencia numéricos que el servidor usa para traducir cadenas de marcado al formato E.164. Las reglas de normalización se pueden crear al especificar la expresión habitual para la coincidencia y la traducción que se debe realizar al encontrarla. Al terminar puede ingresar un número de prueba para verificar que la regla de normalización funcione según lo esperado.
 
-Para obtener más información sobre .NET Framework expresiones regulares, [vea .NET Framework expresiones regulares.](https://go.microsoft.com/fwlink/p/?linkId=140927)
+Para obtener más información sobre .NET Framework expresiones regulares, [vea .NET Framework expresiones regulares.](/dotnet/standard/base-types/regular-expressions)
 
 Vea [Crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear y administrar reglas de normalización para los planes de marcado de inquilino.
 

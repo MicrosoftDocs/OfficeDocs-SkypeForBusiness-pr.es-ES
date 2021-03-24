@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Al configurar directivas para admitir comunicaciones con socios federados, las directivas se aplican a los usuarios de dominios federados. '
-ms.openlocfilehash: 2b7976492fe4f789c2f3130fb51deaaef44af701
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6107615767d0360180baf9f22d5fddc6a5f8e565
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817310"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099046"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Configurar directivas para controlar el acceso de usuarios federados en Skype Empresarial Server
 
@@ -59,15 +59,15 @@ Al configurar directivas para admitir comunicaciones con socios federados, las d
 
 7.  Haga clic en **Confirmar**.
 
-Para habilitar el acceso de usuarios federados, también debe admitir una federación en la organización. Para obtener más información, consulte [Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública.](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+Para habilitar el acceso de usuarios federados, también debe admitir una federación en la organización. Para obtener más información, [vea Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública.](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
 Si se trata de una directiva de usuario, también tiene que aplicar la directiva a los usuarios que desee que puedan colaborar con usuarios federados. Para obtener más información, vea [Asignar una directiva de acceso de usuario externo.](assign-an-external-user-access-policy.md)
 
-## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para configurar una directiva existente mediante Windows PowerShell para admitir el acceso de usuarios de dominios federados
+## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para configurar una directiva existente mediante Windows PowerShell para admitir el acceso de los usuarios de dominios federados
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** en Skype Empresarial **Server** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+2.  Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los **programas,** **en Skype** Empresarial Server y, a continuación, en Shell de administración de Skype **Empresarial Server**.
 
 3.  Escriba lo siguiente en el Shell de administración de Skype Empresarial Server:
     
@@ -80,11 +80,11 @@ Si se trata de una directiva de usuario, también tiene que aplicar la directiva
     > El parámetro "EnablePublicCloudAudioVideoAccess" no tiene una selección correspondiente en el Panel de control de Skype Empresarial Server
 
 
-## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para crear una nueva directiva con Windows PowerShell para admitir el acceso de usuarios de dominios federados
+## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para crear una nueva directiva mediante Windows PowerShell para admitir el acceso de usuarios de dominios federados
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** en **Microsoft Skype Empresarial Server** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+2.  Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los **programas,** en **Microsoft Skype** Empresarial Server y, a continuación, en Shell de administración de Skype **Empresarial Server**.
 
 3.  Escriba lo siguiente en el Shell de administración de Skype Empresarial Server:
     
@@ -99,7 +99,7 @@ Si se trata de una directiva de usuario, también tiene que aplicar la directiva
     ```
 
 
-## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para eliminar o restablecer una directiva mediante Windows PowerShell para admitir el acceso de usuarios de dominios federados
+## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para eliminar o restablecer una directiva mediante Windows PowerShell para admitir el acceso de los usuarios de dominios federados
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
@@ -120,7 +120,7 @@ Si se trata de una directiva de usuario, también tiene que aplicar la directiva
     `Remove-CsExternalAccessPolicy -Identity UserEAPPolicy`
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 
 [Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 
@@ -131,10 +131,8 @@ Si se trata de una directiva de usuario, también tiene que aplicar la directiva
  
 [Administrar proveedores federados SIP para la organización](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
-[Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy)  
-[New-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsExternalAccessPolicy)  
-[Get-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy)  
-[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)  
-  
-
+[Set-CsExternalAccessPolicy](/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy)  

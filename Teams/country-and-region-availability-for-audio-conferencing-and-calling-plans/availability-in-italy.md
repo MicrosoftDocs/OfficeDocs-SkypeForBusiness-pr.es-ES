@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Italia.
-ms.openlocfilehash: 43cc354db2206eabe5b57f16758ab025f5537c2f
-ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
+ms.openlocfilehash: b34be7f560082c8f8a9415835804e4bcd8e7d16e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49570909"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101436"
 ---
 # <a name="availability-in-italy"></a>Disponibilidad en Italia
 
@@ -43,7 +43,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y M
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Milán</ul>Si quiere números de teléfono dedicados, consulte [Obtener números de teléfono de servicio.](/microsoftteams/getting-service-phone-numbers)  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Milán</ul>Si desea números de teléfono dedicados, vea [Obtener números de teléfono de servicio](../getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
 
 ## <a name="phone-system"></a>Sistema telefónico
@@ -60,7 +60,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y M
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales -O- 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></li></ul>[Transparencia transparente transparente transparente (IT)](https://www.microsoft.com/download/details.aspx?id=102426)<br>[Transparencia transparente (EN)](https://www.microsoft.com/download/details.aspx?id=102426) |
+|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales -O- 600 minutos de llamadas internacionales (lo que se alcance primero en el mes calendario)</li></li></ul>[Transparencia de tarifas (IT)](https://www.microsoft.com/download/details.aspx?id=102426)<br>[Transparencia de tarifas (EN)](https://www.microsoft.com/download/details.aspx?id=102426) |
 |¿Se pueden realizar llamadas a números premium?  <br/> | No se admite en este momento. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 
@@ -72,7 +72,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y M
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
 
- Si quiere obtener números de teléfono gratuitos y de pago para Audioconferencia, operadores automáticos y colas de llamadas, consulte Obtener números de teléfono [de servicio.](/microsoftteams/getting-service-phone-numbers)
+ Si desea obtener números de teléfono gratuitos y gratuitos para audioconferencias, operadores automáticos y colas de llamadas, vea Obtener números [de teléfono de servicio.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
@@ -84,6 +84,6 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio](../getting-service-phone-numbers.md)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

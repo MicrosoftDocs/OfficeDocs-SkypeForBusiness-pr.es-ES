@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: cf15b313ab0b9b62a2666616252c3713fe33e842
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c8af86cd81b469eaa1e4d180edd407affaf9719d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818980"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099276"
 ---
 # <a name="topology-trusted-application"></a>Topología: Aplicación de confianza
 
 ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
 
-- [Ver una lista de aplicaciones de confianza](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [Ver una lista de aplicaciones de confianza](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-trusted-applications)
 
-Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
-
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).

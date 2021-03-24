@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460500"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101106"
 ---
 # <a name="manage-teams-with-policies"></a>Administrar Teams con directivas
 
@@ -40,7 +40,7 @@ Obtenga más información sobre cómo asignar directivas [aquí.](assign-policie
 
 ## <a name="how-to-manage-policies"></a>Cómo administrar directivas
 
-Las directivas se administran con el Centro de administración de Microsoft Teams o [con PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-managing-teams#manage-policies-via-powershell)
+Las directivas se administran con el Centro de administración de Microsoft Teams o [con PowerShell.](./teams-powershell-managing-teams.md#manage-policies-via-powershell)
 
 Por ejemplo, una directiva de configuración de aplicaciones puede permitirle a los usuarios cargar aplicaciones personalizadas, instalar aplicaciones en nombre de los usuarios y anclar aplicaciones a la barra de aplicaciones de Teams. Estas directivas se configuran en el Centro de administración de Teams.
 
