@@ -23,35 +23,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo marcar números gratuitos en Japón, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
-ms.openlocfilehash: 6413f93bfe655ed52ccea187b69024e4bed1a556
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Obtenga información sobre cómo marcar números gratuitos en Japón, como la disponibilidad, la disponibilidad de la red móvil o por cable y de línea fija, y las restricciones.
+ms.openlocfilehash: 84992a40f778e3dd7319b65bbf734423b645bfda
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140359"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097976"
 ---
-# <a name="toll-free-dialing-restrictions-in-japan"></a><span data-ttu-id="0bcbc-103">Restricciones de marcado de número gratuito en Japón</span><span class="sxs-lookup"><span data-stu-id="0bcbc-103">Toll-free dialing restrictions in Japan</span></span>
+# <a name="toll-free-dialing-restrictions-in-japan"></a><span data-ttu-id="0fc4a-103">Restricciones de marcado de número gratuito en Japón</span><span class="sxs-lookup"><span data-stu-id="0fc4a-103">Toll-free dialing restrictions in Japan</span></span>
 
-<span data-ttu-id="0bcbc-104">[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.</span><span class="sxs-lookup"><span data-stu-id="0bcbc-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="0fc4a-104">[Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.</span><span class="sxs-lookup"><span data-stu-id="0fc4a-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="0bcbc-105">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="0bcbc-105">**Details**</span></span>|<span data-ttu-id="0bcbc-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="0bcbc-106">**Description**</span></span>|
+|<span data-ttu-id="0fc4a-105">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="0fc4a-105">**Details**</span></span>|<span data-ttu-id="0fc4a-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="0fc4a-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="0bcbc-107">¿Están disponibles las llamadas gratuitas?</span><span class="sxs-lookup"><span data-stu-id="0bcbc-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="0bcbc-108">Sí</span><span class="sxs-lookup"><span data-stu-id="0bcbc-108">Yes</span></span>  <br/> |
-|<span data-ttu-id="0bcbc-109">Formatos de marcación</span><span class="sxs-lookup"><span data-stu-id="0bcbc-109">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="0bcbc-110">00531 XX XXXX</span><span class="sxs-lookup"><span data-stu-id="0bcbc-110">00531 XX XXXX</span></span>  <br/> |
-|<span data-ttu-id="0bcbc-111">Código ISO de país o región</span><span class="sxs-lookup"><span data-stu-id="0bcbc-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="0bcbc-112">JP</span><span class="sxs-lookup"><span data-stu-id="0bcbc-112">JP</span></span>  <br/> |
-|<span data-ttu-id="0bcbc-113">Isla o territorio cubierto</span><span class="sxs-lookup"><span data-stu-id="0bcbc-113">Island/territory covered</span></span>  <br/> |<span data-ttu-id="0bcbc-114">No aplicable</span><span class="sxs-lookup"><span data-stu-id="0bcbc-114">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="0bcbc-115">Isla o territorio no cubierto</span><span class="sxs-lookup"><span data-stu-id="0bcbc-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="0bcbc-116">No aplicable</span><span class="sxs-lookup"><span data-stu-id="0bcbc-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="0bcbc-117">Disponibilidad de líneas cableadas/fijas</span><span class="sxs-lookup"><span data-stu-id="0bcbc-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="0bcbc-118">Sí</span><span class="sxs-lookup"><span data-stu-id="0bcbc-118">Yes</span></span>  <br/> |
-|<span data-ttu-id="0bcbc-119">Disponibilidad de red móvil</span><span class="sxs-lookup"><span data-stu-id="0bcbc-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="0bcbc-120">Parcial.</span><span class="sxs-lookup"><span data-stu-id="0bcbc-120">Partial.</span></span> <span data-ttu-id="0bcbc-121">Ver comentarios.</span><span class="sxs-lookup"><span data-stu-id="0bcbc-121">See comments.</span></span>  <br/> |
-|<span data-ttu-id="0bcbc-122">Problemas de comentarios, restricciones y acceso</span><span class="sxs-lookup"><span data-stu-id="0bcbc-122">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="0bcbc-123">Acceso a redes móviles: NTT Docomo, Au (KDD) y Softbank.</span><span class="sxs-lookup"><span data-stu-id="0bcbc-123">Mobile networks access: NTT Docomo, Au (KDD), and Softbank.</span></span>  <br/> |
+|<span data-ttu-id="0fc4a-107">¿Hay llamadas gratuitas disponibles?</span><span class="sxs-lookup"><span data-stu-id="0fc4a-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="0fc4a-108">Sí</span><span class="sxs-lookup"><span data-stu-id="0fc4a-108">Yes</span></span>  <br/> |
+|<span data-ttu-id="0fc4a-109">Formatos de marcado</span><span class="sxs-lookup"><span data-stu-id="0fc4a-109">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="0fc4a-110">00531 XX XXXX</span><span class="sxs-lookup"><span data-stu-id="0fc4a-110">00531 XX XXXX</span></span>  <br/> |
+|<span data-ttu-id="0fc4a-111">Código ISO de país o región</span><span class="sxs-lookup"><span data-stu-id="0fc4a-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="0fc4a-112">JP</span><span class="sxs-lookup"><span data-stu-id="0fc4a-112">JP</span></span>  <br/> |
+|<span data-ttu-id="0fc4a-113">Isla o territorio cubierto</span><span class="sxs-lookup"><span data-stu-id="0fc4a-113">Island/territory covered</span></span>  <br/> |<span data-ttu-id="0fc4a-114">No aplicable</span><span class="sxs-lookup"><span data-stu-id="0fc4a-114">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="0fc4a-115">Isla o territorio no cubierto</span><span class="sxs-lookup"><span data-stu-id="0fc4a-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="0fc4a-116">No aplicable</span><span class="sxs-lookup"><span data-stu-id="0fc4a-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="0fc4a-117">Disponibilidad de líneas fijas o cableadas</span><span class="sxs-lookup"><span data-stu-id="0fc4a-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="0fc4a-118">Sí</span><span class="sxs-lookup"><span data-stu-id="0fc4a-118">Yes</span></span>  <br/> |
+|<span data-ttu-id="0fc4a-119">Disponibilidad de red móvil</span><span class="sxs-lookup"><span data-stu-id="0fc4a-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="0fc4a-120">Parcial.</span><span class="sxs-lookup"><span data-stu-id="0fc4a-120">Partial.</span></span> <span data-ttu-id="0fc4a-121">Ver comentarios.</span><span class="sxs-lookup"><span data-stu-id="0fc4a-121">See comments.</span></span>  <br/> |
+|<span data-ttu-id="0fc4a-122">Comentarios, restricciones y problemas de acceso</span><span class="sxs-lookup"><span data-stu-id="0fc4a-122">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="0fc4a-123">Acceso a redes móviles: NTT Docomo, Au (KDD) y Softbank.</span><span class="sxs-lookup"><span data-stu-id="0fc4a-123">Mobile networks access: NTT Docomo, Au (KDD), and Softbank.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="0bcbc-124">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="0bcbc-124">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="0fc4a-124">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="0fc4a-124">Related topics</span></span>
 
-[<span data-ttu-id="0bcbc-125">Restricciones y limitaciones de marcado de número gratuito</span><span class="sxs-lookup"><span data-stu-id="0bcbc-125">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="0fc4a-125">Restricciones y limitaciones de marcado de número gratuito</span><span class="sxs-lookup"><span data-stu-id="0fc4a-125">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="0bcbc-126">Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="0bcbc-126">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="0fc4a-126">Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="0fc4a-126">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
- 

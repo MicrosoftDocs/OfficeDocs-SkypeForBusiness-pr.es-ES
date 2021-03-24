@@ -1,5 +1,5 @@
 ---
-title: Directiva de voz de vista de usuarios
+title: Usuarios Ver directiva de voz
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,17 @@ localization_priority: Normal
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 0130ce241337f62a6790266dd51a255146528c3f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9465dd6d20a23446594e74ce235bd65da84b2219
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808060"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097176"
 ---
-# <a name="users-view-voice-policy"></a><span data-ttu-id="4197e-104">Usuarios: Ver directiva de voz</span><span class="sxs-lookup"><span data-stu-id="4197e-104">Users: View Voice Policy</span></span>
+# <a name="users-view-voice-policy"></a><span data-ttu-id="5347a-104">Usuarios: Ver directiva de voz</span><span class="sxs-lookup"><span data-stu-id="5347a-104">Users: View Voice Policy</span></span>
 
-<span data-ttu-id="4197e-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="4197e-105">What do you want to do?</span></span> <span data-ttu-id="4197e-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="4197e-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="5347a-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="5347a-105">What do you want to do?</span></span> <span data-ttu-id="5347a-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="5347a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="4197e-107">Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="4197e-107">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [<span data-ttu-id="5347a-107">Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="5347a-107">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [<span data-ttu-id="4197e-108">Modificar una directiva de voz y configurar registros de uso de RTC</span><span class="sxs-lookup"><span data-stu-id="4197e-108">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
-
-
-
+- [<span data-ttu-id="5347a-108">Modificar una directiva de voz y configurar registros de uso de RTC</span><span class="sxs-lookup"><span data-stu-id="5347a-108">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)

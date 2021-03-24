@@ -15,23 +15,21 @@ localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 087f1683a59149ad9c6dcb717cc9048554d52cfb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7f0e501854bf51e0787522325542bb867744fb0e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820380"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095894"
 ---
-# <a name="external-access-policy-create-new-or-edit-existing"></a><span data-ttu-id="9b823-104">Directiva de acceso externo: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="9b823-104">External Access Policy: Create New or Edit Existing</span></span>
+# <a name="external-access-policy-create-new-or-edit-existing"></a><span data-ttu-id="946e4-104">Directiva de acceso externo: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="946e4-104">External Access Policy: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="9b823-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="9b823-105">What do you want to do?</span></span> <span data-ttu-id="9b823-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="9b823-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="946e4-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="946e4-105">What do you want to do?</span></span> <span data-ttu-id="946e4-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="946e4-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="9b823-107">Restablecer o eliminar directivas de acceso de usuarios externos</span><span class="sxs-lookup"><span data-stu-id="9b823-107">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
+- [<span data-ttu-id="946e4-107">Restablecer o eliminar directivas de acceso de usuarios externos</span><span class="sxs-lookup"><span data-stu-id="946e4-107">Reset or Delete External User Access Policies</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-resetting-or-deleting-external-user-access-policies)
 
-- [<span data-ttu-id="9b823-108">Configurar directivas para controlar el acceso de usuarios federados</span><span class="sxs-lookup"><span data-stu-id="9b823-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="946e4-108">Configurar directivas para controlar el acceso de usuarios federados</span><span class="sxs-lookup"><span data-stu-id="946e4-108">Configure Policies to Control Federated User Access</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-federated-user-access)
 
-- [<span data-ttu-id="9b823-109">Administrar el acceso de usuarios remotos</span><span class="sxs-lookup"><span data-stu-id="9b823-109">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+- [<span data-ttu-id="946e4-109">Administrar el acceso de usuarios remotos</span><span class="sxs-lookup"><span data-stu-id="946e4-109">Manage Remote User Access</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-remote-user-access)
 
-- [<span data-ttu-id="9b823-110">Configurar directivas para controlar el acceso de los usuarios de proveedores de servicios de mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="9b823-110">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
-
-
+- [<span data-ttu-id="946e4-110">Configurar directivas para controlar el acceso de los usuarios de los proveedores de servicios de mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="946e4-110">Configure Policies to Control Access by Users of IM Service Providers</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-public-sip-federated-providers)
