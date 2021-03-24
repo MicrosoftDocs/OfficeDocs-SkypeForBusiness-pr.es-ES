@@ -11,106 +11,105 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: 'Resumen: obtenga información sobre cómo agregar, quitar, aplicar revisiones o actualizar servidores front-end en Skype Empresarial Server.'
-ms.openlocfilehash: 16af245b3c49b21309edd3ee2843f2585814ce9e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn how to add, remove, patch, or update Front End Servers in Skype for Business Server.'
+ms.openlocfilehash: 24527a5f973b21c35e386f0565ac6deb69e15070
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826330"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103196"
 ---
-# <a name="manage-front-end-servers-in-skype-for-business-server"></a><span data-ttu-id="0f511-103">Administrar servidores front-end en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="0f511-103">Manage Front End Servers in Skype for Business Server</span></span>
+# <a name="manage-front-end-servers-in-skype-for-business-server"></a><span data-ttu-id="58c46-103">Administrar servidores front-end en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="58c46-103">Manage Front End Servers in Skype for Business Server</span></span>
  
-<span data-ttu-id="0f511-104">En este artículo se explica cómo agregar o quitar servidores front-end y cómo aplicar actualizaciones o revisiones a los servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="0f511-104">This article explains how to add or remove Front End Servers and how to apply upgrades or patches to Front End Servers.</span></span>
+<span data-ttu-id="58c46-104">En este artículo se explica cómo agregar o quitar servidores front-end y cómo aplicar actualizaciones o revisiones a los servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="58c46-104">This article explains how to add or remove Front End Servers and how to apply upgrades or patches to Front End Servers.</span></span>
 
   > [!NOTE]
-> <span data-ttu-id="0f511-105">Skype Empresarial Server 2019 no admite grupos de servidores front-end Enterprise Edition con dos servidores front-end y no permitirá que la topología se publique en ese escenario.</span><span class="sxs-lookup"><span data-stu-id="0f511-105">Skype for Business Server 2019 does not support Enterprise Edition Front End pools with two Front End Servers, and will not allow the topology to be published in that scenario.</span></span>
+> <span data-ttu-id="58c46-105">Skype Empresarial Server 2019 no admite grupos de servidores front-end Enterprise Edition con dos servidores front-end y no permitirá que la topología se publique en ese escenario.</span><span class="sxs-lookup"><span data-stu-id="58c46-105">Skype for Business Server 2019 does not support Enterprise Edition Front End pools with two Front End Servers, and will not allow the topology to be published in that scenario.</span></span>
 
-## <a name="add-or-remove-front-end-servers"></a><span data-ttu-id="0f511-106">Agregar o quitar servidores front-end</span><span class="sxs-lookup"><span data-stu-id="0f511-106">Add or remove Front End Servers</span></span>
+## <a name="add-or-remove-front-end-servers"></a><span data-ttu-id="58c46-106">Agregar o quitar servidores front-end</span><span class="sxs-lookup"><span data-stu-id="58c46-106">Add or remove Front End Servers</span></span>
   
-<span data-ttu-id="0f511-107">Cuando agrega un servidor front-end a un grupo o cuando quita un servidor front-end de un grupo, debe reiniciar el grupo.</span><span class="sxs-lookup"><span data-stu-id="0f511-107">When you add a Front End Server to a pool, or remove a Front End Server from a pool, you then need to restart the pool.</span></span> 
+<span data-ttu-id="58c46-107">Cuando agrega un servidor front-end a un grupo o cuando quita un servidor front-end de un grupo, debe reiniciar el grupo.</span><span class="sxs-lookup"><span data-stu-id="58c46-107">When you add a Front End Server to a pool, or remove a Front End Server from a pool, you then need to restart the pool.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="0f511-108">Cuando agrega o quita un servidor al grupo de servidores de la topología y, a continuación, publica la topología actualizada, hará que todos los servidores del grupo se reinicien al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="0f511-108">When you add or remove a server to the pool in your topology and then publish the updated topology, it will cause all of the servers in the pool to restart at the same time.</span></span> <span data-ttu-id="0f511-109">Mientras los servidores reinician el grupo de servidores está sin conexión, lo que interrumpirá el servicio para los usuarios conectados a ese grupo.</span><span class="sxs-lookup"><span data-stu-id="0f511-109">While the servers are restarting the pool is offline, which will interrupt service for your users connected to that pool.</span></span> <span data-ttu-id="0f511-110">Para evitar cualquier interrupción del servicio a los usuarios, planee publicar la topología con el nuevo servidor del grupo durante el horario no comercial.</span><span class="sxs-lookup"><span data-stu-id="0f511-110">To prevent any interruption of service to users, plan to publish the topology with the new server in the pool during non-business hours.</span></span> 
+> <span data-ttu-id="58c46-108">Al agregar o quitar un servidor al grupo de servidores de la topología y, a continuación, publicar la topología actualizada, hará que todos los servidores del grupo se reinicien al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="58c46-108">When you add or remove a server to the pool in your topology and then publish the updated topology, it will cause all of the servers in the pool to restart at the same time.</span></span> <span data-ttu-id="58c46-109">Mientras los servidores reinician el grupo está sin conexión, lo que interrumpirá el servicio para los usuarios conectados a ese grupo.</span><span class="sxs-lookup"><span data-stu-id="58c46-109">While the servers are restarting the pool is offline, which will interrupt service for your users connected to that pool.</span></span> <span data-ttu-id="58c46-110">Para evitar cualquier interrupción del servicio a los usuarios, planee publicar la topología con el nuevo servidor en el grupo durante el horario no comercial.</span><span class="sxs-lookup"><span data-stu-id="58c46-110">To prevent any interruption of service to users, plan to publish the topology with the new server in the pool during non-business hours.</span></span> 
   
-<span data-ttu-id="0f511-111">Puede usar el siguiente procedimiento al agregar o quitar un servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="0f511-111">You can use the following procedure when adding or removing a Front End Server.</span></span>
+<span data-ttu-id="58c46-111">Puede usar el siguiente procedimiento al agregar o quitar un servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="58c46-111">You can use the following procedure when adding or removing a Front End Server.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="0f511-112">Si va a agregar nuevos servidores al grupo de servidores, actualice los nuevos servidores del grupo para que se actualicen en el mismo nivel de actualización acumulativa que los servidores existentes en el grupo.</span><span class="sxs-lookup"><span data-stu-id="0f511-112">If you're adding new servers to the pool, update your new pool servers to be at the same Cumulative Update level as the existing servers in the Pool.</span></span> 
+> <span data-ttu-id="58c46-112">Si va a agregar nuevos servidores al grupo de servidores, actualice los nuevos servidores de grupo para que se actualicen en el mismo nivel de actualización acumulativa que los servidores existentes en el grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="58c46-112">If you're adding new servers to the pool, update your new pool servers to be at the same Cumulative Update level as the existing servers in the Pool.</span></span> 
   
-### <a name="to-add-or-remove-front-end-servers"></a><span data-ttu-id="0f511-113">Para agregar o quitar servidores front-end</span><span class="sxs-lookup"><span data-stu-id="0f511-113">To add or remove Front End Servers</span></span>
+### <a name="to-add-or-remove-front-end-servers"></a><span data-ttu-id="58c46-113">Para agregar o quitar servidores front-end</span><span class="sxs-lookup"><span data-stu-id="58c46-113">To add or remove Front End Servers</span></span>
 
-1. <span data-ttu-id="0f511-p102">Si desea quitar servidores front-end, primero detenga las nuevas conexiones a esos servidores. Para ello, puede usar el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="0f511-p102">If you are removing any Front End Servers, first stop new connections to those servers. To do so, you can use the following cmdlet:</span></span>
+1. <span data-ttu-id="58c46-p102">Si desea quitar servidores front-end, primero detenga las nuevas conexiones a esos servidores. Para ello, puede usar el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="58c46-p102">If you are removing any Front End Servers, first stop new connections to those servers. To do so, you can use the following cmdlet:</span></span>
     
    ```PowerShell
    Stop-CsWindowsService -Graceful
    ```
 
-2. <span data-ttu-id="0f511-116">Abra el Generador de topologías, y agregue o quite los servidores necesarios.</span><span class="sxs-lookup"><span data-stu-id="0f511-116">Open Topology Builder, and add or remove the necessary servers.</span></span> 
+2. <span data-ttu-id="58c46-116">Abra el Generador de topologías, y agregue o quite los servidores necesarios.</span><span class="sxs-lookup"><span data-stu-id="58c46-116">Open Topology Builder, and add or remove the necessary servers.</span></span> 
     
-3. <span data-ttu-id="0f511-117">Publique la topología.</span><span class="sxs-lookup"><span data-stu-id="0f511-117">Publish the topology.</span></span>
+3. <span data-ttu-id="58c46-117">Publique la topología.</span><span class="sxs-lookup"><span data-stu-id="58c46-117">Publish the topology.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="0f511-118">Cuando agrega o quita un servidor al grupo de servidores de la topología y, a continuación, publica la topología actualizada, hará que todos los servidores del grupo se reinicien al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="0f511-118">When you add or remove a server to the pool in your topology and then publish the updated topology, it will cause all of the servers in the pool to restart at the same time.</span></span> <span data-ttu-id="0f511-119">Mientras los servidores reinician el grupo de servidores está sin conexión, lo que interrumpirá el servicio para los usuarios conectados a ese grupo.</span><span class="sxs-lookup"><span data-stu-id="0f511-119">While the servers are restarting the pool is offline, which will interrupt service for your users connected to that pool.</span></span> <span data-ttu-id="0f511-120">Para evitar cualquier interrupción del servicio a los usuarios, planee publicar la topología con el nuevo servidor del grupo durante el horario no comercial.</span><span class="sxs-lookup"><span data-stu-id="0f511-120">To prevent any interruption of service to users, plan to publish the topology with the new server in the pool during non-business hours.</span></span> 
+    > <span data-ttu-id="58c46-118">Al agregar o quitar un servidor al grupo de servidores de la topología y, a continuación, publicar la topología actualizada, hará que todos los servidores del grupo se reinicien al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="58c46-118">When you add or remove a server to the pool in your topology and then publish the updated topology, it will cause all of the servers in the pool to restart at the same time.</span></span> <span data-ttu-id="58c46-119">Mientras los servidores reinician el grupo está sin conexión, lo que interrumpirá el servicio para los usuarios conectados a ese grupo.</span><span class="sxs-lookup"><span data-stu-id="58c46-119">While the servers are restarting the pool is offline, which will interrupt service for your users connected to that pool.</span></span> <span data-ttu-id="58c46-120">Para evitar cualquier interrupción del servicio a los usuarios, planee publicar la topología con el nuevo servidor en el grupo durante el horario no comercial.</span><span class="sxs-lookup"><span data-stu-id="58c46-120">To prevent any interruption of service to users, plan to publish the topology with the new server in the pool during non-business hours.</span></span> 
   
   > [!NOTE]
-> <span data-ttu-id="0f511-121">Además, al agregar o quitar un servidor al grupo de servidores, debe ejecutar el Asistente para la implementación de Skype Empresarial Server en cada equipo agregado o eliminado, para obtener más información, consulte Instalar Skype Empresarial [Server](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server) en servidores de la topología</span><span class="sxs-lookup"><span data-stu-id="0f511-121">Also, when you add or remove a server to the pool, you must run the Skype for Business Server Deployment Wizard on each computer added or removed, for more information, see [Install Skype for Business Server on servers in the topology](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)</span></span>
+> <span data-ttu-id="58c46-121">Además, al agregar o quitar un servidor al grupo de servidores, debe ejecutar el Asistente para la implementación de Skype Empresarial Server en cada equipo agregado o eliminado, para obtener más información, vea [Install Skype for Business Server on servers in the topology](../../deploy/install/install-skype-for-business-server.md)</span><span class="sxs-lookup"><span data-stu-id="58c46-121">Also, when you add or remove a server to the pool, you must run the Skype for Business Server Deployment Wizard on each computer added or removed, for more information, see [Install Skype for Business Server on servers in the topology](../../deploy/install/install-skype-for-business-server.md)</span></span>
   
-4. <span data-ttu-id="0f511-122">Si ha cambiado el número de servidores del grupo de servidores front-end de cualquiera de las siguientes maneras, restablezca el grupo escribiendo el siguiente cmdlet: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn</span><span class="sxs-lookup"><span data-stu-id="0f511-122">If you have changed the number of servers in your Front End pool in any of the following ways, then reset the pool with by typing the following cmdlet: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn</span></span> 
+4. <span data-ttu-id="58c46-122">Si ha cambiado el número de servidores del grupo de servidores front-end de cualquiera de las siguientes maneras, restablezca el grupo escribiendo el siguiente cmdlet: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn</span><span class="sxs-lookup"><span data-stu-id="58c46-122">If you have changed the number of servers in your Front End pool in any of the following ways, then reset the pool with by typing the following cmdlet: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn</span></span> 
     
    ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
-     - <span data-ttu-id="0f511-123">De 2 a cualquiera</span><span class="sxs-lookup"><span data-stu-id="0f511-123">2 to any</span></span>
+     - <span data-ttu-id="58c46-123">De 2 a cualquiera</span><span class="sxs-lookup"><span data-stu-id="58c46-123">2 to any</span></span>
     
-     - <span data-ttu-id="0f511-124">De uno a 2</span><span class="sxs-lookup"><span data-stu-id="0f511-124">Any to 2</span></span>
+     - <span data-ttu-id="58c46-124">Cualquiera a 2</span><span class="sxs-lookup"><span data-stu-id="58c46-124">Any to 2</span></span>
     
-     - <span data-ttu-id="0f511-125">De 3 a cualquiera</span><span class="sxs-lookup"><span data-stu-id="0f511-125">3 to any</span></span>
+     - <span data-ttu-id="58c46-125">De 3 a cualquiera</span><span class="sxs-lookup"><span data-stu-id="58c46-125">3 to any</span></span>
     
-     - <span data-ttu-id="0f511-126">De uno a 3</span><span class="sxs-lookup"><span data-stu-id="0f511-126">Any to 3</span></span>
+     - <span data-ttu-id="58c46-126">Cualquiera a 3</span><span class="sxs-lookup"><span data-stu-id="58c46-126">Any to 3</span></span>
     
-5. <span data-ttu-id="0f511-127">Reinicie el grupo escribiendo el siguiente cmdlet</span><span class="sxs-lookup"><span data-stu-id="0f511-127">Restart the pool by typing the following cmdlet</span></span>
+5. <span data-ttu-id="58c46-127">Reinicie el grupo escribiendo el siguiente cmdlet</span><span class="sxs-lookup"><span data-stu-id="58c46-127">Restart the pool by typing the following cmdlet</span></span>
     
    ```PowerShell
    Start-CsPool
    ```
 
-## <a name="patch-or-update-front-end-servers"></a><span data-ttu-id="0f511-128">Revisión o actualización de servidores front-end</span><span class="sxs-lookup"><span data-stu-id="0f511-128">Patch or update Front End Servers</span></span>
+## <a name="patch-or-update-front-end-servers"></a><span data-ttu-id="58c46-128">Revisión o actualización de servidores front-end</span><span class="sxs-lookup"><span data-stu-id="58c46-128">Patch or update Front End Servers</span></span>
 
-<span data-ttu-id="0f511-129">Cuando se revisiones los servidores de un grupo de servidores front-end, se hace de uno en uno.</span><span class="sxs-lookup"><span data-stu-id="0f511-129">When you patch the servers in a Front End pool, you do so one server at a time.</span></span> 
+<span data-ttu-id="58c46-129">Al aplicar una revisión a los servidores de un grupo de servidores front-end, lo hace de un servidor a la vez.</span><span class="sxs-lookup"><span data-stu-id="58c46-129">When you patch the servers in a Front End pool, you do so one server at a time.</span></span> 
   
-### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a><span data-ttu-id="0f511-130">Para aplicar una actualización a los servidores front-end de un grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="0f511-130">To apply an upgrade to the Front End servers in a pool</span></span>
+### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a><span data-ttu-id="58c46-130">Para aplicar una actualización a los servidores front-end de un grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="58c46-130">To apply an upgrade to the Front End servers in a pool</span></span>
 
-1. <span data-ttu-id="0f511-131">Escriba el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="0f511-131">Type the following cmdlet:</span></span>
+1. <span data-ttu-id="58c46-131">Escriba el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="58c46-131">Type the following cmdlet:</span></span>
     
    ```PowerShell
    Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
    ```
 
-     <span data-ttu-id="0f511-132">Si este cmdlet muestra las réplicas que faltan, ejecute el siguiente cmdlet para recuperar el grupo antes de aplicar las revisiones.</span><span class="sxs-lookup"><span data-stu-id="0f511-132">If this cmdlet shows any missing replicas, then run the following cmdlet to recover the pool before you apply any patches.</span></span>
+     <span data-ttu-id="58c46-132">Si este cmdlet muestra las réplicas que faltan, ejecute el siguiente cmdlet para recuperar el grupo antes de aplicar las revisiones.</span><span class="sxs-lookup"><span data-stu-id="58c46-132">If this cmdlet shows any missing replicas, then run the following cmdlet to recover the pool before you apply any patches.</span></span>
     
    ```PowerShell
    Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
    ```
 
-2. <span data-ttu-id="0f511-133">En el primer servidor que desee aplicar la revisión, ejecute el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="0f511-133">On the first server you want to patch, run the following cmdlet:</span></span>
+2. <span data-ttu-id="58c46-133">En el primer servidor que desea aplicar la revisión, ejecute el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="58c46-133">On the first server you want to patch, run the following cmdlet:</span></span>
     
    ```PowerShell
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
-    <span data-ttu-id="0f511-134">Este cmdlet mueve todos los servicios a otros servidores front-end del grupo de servidores y desconecta este servidor.</span><span class="sxs-lookup"><span data-stu-id="0f511-134">This cmdlet moves all services to other Front End Servers in the pool, and takes this server offline.</span></span>
+    <span data-ttu-id="58c46-134">Este cmdlet mueve todos los servicios a otros servidores front-end del grupo de servidores y desconecta este servidor.</span><span class="sxs-lookup"><span data-stu-id="58c46-134">This cmdlet moves all services to other Front End Servers in the pool, and takes this server offline.</span></span>
     
-3. <span data-ttu-id="0f511-135">Aplique la actualización o revisión a este servidor.</span><span class="sxs-lookup"><span data-stu-id="0f511-135">Apply the upgrade or patch to this server.</span></span>
+3. <span data-ttu-id="58c46-135">Aplique la actualización o la revisión a este servidor.</span><span class="sxs-lookup"><span data-stu-id="58c46-135">Apply the upgrade or patch to this server.</span></span>
     
-4. <span data-ttu-id="0f511-136">En el servidor actualizado, ejecute el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="0f511-136">On the upgraded server, run the following cmdlet:</span></span>
+4. <span data-ttu-id="58c46-136">En el servidor actualizado, ejecute el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="58c46-136">On the upgraded server, run the following cmdlet:</span></span>
     
    ```PowerShell
    Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
    ```
 
-    <span data-ttu-id="0f511-137">El servidor se devuelve al servicio.</span><span class="sxs-lookup"><span data-stu-id="0f511-137">The server is returned to service.</span></span>
+    <span data-ttu-id="58c46-137">El servidor se devuelve al servicio.</span><span class="sxs-lookup"><span data-stu-id="58c46-137">The server is returned to service.</span></span>
     
-5. <span data-ttu-id="0f511-138">Repita los pasos del 2 al 4 para cada servidor que necesite actualizarse.</span><span class="sxs-lookup"><span data-stu-id="0f511-138">Repeat Steps 2-4 for each server that needs to be upgraded.</span></span>
-    
+5. <span data-ttu-id="58c46-138">Repita los pasos 2 a 4 para cada servidor que necesite actualizarse.</span><span class="sxs-lookup"><span data-stu-id="58c46-138">Repeat Steps 2-4 for each server that needs to be upgraded.</span></span>

@@ -15,23 +15,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco se incluyen para referencia futura.
-ms.openlocfilehash: 7c26a5b8c69c255b65a1cd82e0d0152a3a3d41de
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: baa0dd970875c47d536f5f90c4c8dee13b5943b3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806930"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106816"
 ---
-# <a name="install-database-create-mirror-database-page"></a><span data-ttu-id="51f40-104">Instalar página de creación de base de datos de reflejo de la base de datos</span><span class="sxs-lookup"><span data-stu-id="51f40-104">Install Database Create Mirror Database Page</span></span>
+# <a name="install-database-create-mirror-database-page"></a><span data-ttu-id="e3d78-104">Instalar página de creación de base de datos de reflejo de la base de datos</span><span class="sxs-lookup"><span data-stu-id="e3d78-104">Install Database Create Mirror Database Page</span></span>
  
-<span data-ttu-id="51f40-105">Esta documentación es preliminar y está sujeta a cambios.</span><span class="sxs-lookup"><span data-stu-id="51f40-105">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="51f40-106">Los temas en blanco se incluyen para referencia futura.</span><span class="sxs-lookup"><span data-stu-id="51f40-106">Blank topics are included as placeholders.</span></span>
+<span data-ttu-id="e3d78-105">Esta documentación es preliminar y está sujeta a cambios.</span><span class="sxs-lookup"><span data-stu-id="e3d78-105">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="e3d78-106">Los temas en blanco se incluyen para referencia futura.</span><span class="sxs-lookup"><span data-stu-id="e3d78-106">Blank topics are included as placeholders.</span></span>
   
-<span data-ttu-id="51f40-107">Si optó por no instalar las bases de datos reflejadas de SQL Server durante el proceso de publicación, puede instalarlas con Install **Database** desde un clic con el botón secundario en cualquier nodo del Generador de topologías.</span><span class="sxs-lookup"><span data-stu-id="51f40-107">If you chose not to install the SQL Server mirror databases during the Publish process, you install them using **Install Database** from a right click on any node in Topology Builder.</span></span> <span data-ttu-id="51f40-108">Seleccione el almacén reflejado que desea instalar.</span><span class="sxs-lookup"><span data-stu-id="51f40-108">You select the mirror store to install.</span></span> <span data-ttu-id="51f40-109">Haga **clic en Configuración** para definir cualquier configuración avanzada.</span><span class="sxs-lookup"><span data-stu-id="51f40-109">Click **Settings** to define any advanced settings.</span></span>
+<span data-ttu-id="e3d78-107">Si optó por no instalar las bases de datos reflejadas SQL Server durante el proceso de publicación, las instalará con **Install Database** desde un clic derecho en cualquier nodo del Generador de topologías.</span><span class="sxs-lookup"><span data-stu-id="e3d78-107">If you chose not to install the SQL Server mirror databases during the Publish process, you install them using **Install Database** from a right click on any node in Topology Builder.</span></span> <span data-ttu-id="e3d78-108">Seleccione el almacén reflejado que se va a instalar.</span><span class="sxs-lookup"><span data-stu-id="e3d78-108">You select the mirror store to install.</span></span> <span data-ttu-id="e3d78-109">Haga **clic en** Configuración para definir cualquier configuración avanzada.</span><span class="sxs-lookup"><span data-stu-id="e3d78-109">Click **Settings** to define any advanced settings.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="51f40-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="51f40-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e3d78-110">Ver también</span><span class="sxs-lookup"><span data-stu-id="e3d78-110">See also</span></span>
 
-[<span data-ttu-id="51f40-111">Implementar SQL creación de reflejos para alta disponibilidad del servidor back-end en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="51f40-111">Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015</span></span>](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[<span data-ttu-id="e3d78-111">Implementar SQL creación de reflejos para la alta disponibilidad del servidor back-end en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="e3d78-111">Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015</span></span>](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 
-[<span data-ttu-id="51f40-112">Install-CsMirrorDatabase</span><span class="sxs-lookup"><span data-stu-id="51f40-112">Install-CsMirrorDatabase</span></span>](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
+[<span data-ttu-id="e3d78-112">Install-CsMirrorDatabase</span><span class="sxs-lookup"><span data-stu-id="e3d78-112">Install-CsMirrorDatabase</span></span>](/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
   
-[<span data-ttu-id="51f40-113">Install-CsDatabase</span><span class="sxs-lookup"><span data-stu-id="51f40-113">Install-CsDatabase</span></span>](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps)
+[<span data-ttu-id="e3d78-113">Install-CsDatabase</span><span class="sxs-lookup"><span data-stu-id="e3d78-113">Install-CsDatabase</span></span>](/powershell/module/skype/install-csdatabase?view=skype-ps)
