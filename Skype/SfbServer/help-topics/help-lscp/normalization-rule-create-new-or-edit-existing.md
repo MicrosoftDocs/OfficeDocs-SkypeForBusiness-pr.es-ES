@@ -1,5 +1,5 @@
 ---
-title: Regla de normalización Crear nueva o editar existente
+title: Regla de normalización Crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 7965e039f2620b6326a4644086a471705db3f9c3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ea85e934def4f7b40c3e051b88258c4cdd16de21
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803880"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099546"
 ---
-# <a name="normalization-rule-create-new-or-edit-existing"></a><span data-ttu-id="20ca4-104">Regla de normalización: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="20ca4-104">Normalization Rule: Create New or Edit Existing</span></span>
+# <a name="normalization-rule-create-new-or-edit-existing"></a><span data-ttu-id="5235e-104">Regla de normalización: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="5235e-104">Normalization Rule: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="20ca4-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="20ca4-105">What do you want to do?</span></span> <span data-ttu-id="20ca4-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="20ca4-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="5235e-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="5235e-105">What do you want to do?</span></span> <span data-ttu-id="5235e-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="5235e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="20ca4-107">Crear o modificar una regla de normalización en Skype Empresarial 2015</span><span class="sxs-lookup"><span data-stu-id="20ca4-107">Create or modify a normalization rule in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="5235e-107">Crear o modificar una regla de normalización en Skype Empresarial 2015</span><span class="sxs-lookup"><span data-stu-id="5235e-107">Create or modify a normalization rule in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [<span data-ttu-id="20ca4-108">Crear o modificar una regla de normalización manualmente</span><span class="sxs-lookup"><span data-stu-id="20ca4-108">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="5235e-108">Crear o modificar una regla de normalización manualmente</span><span class="sxs-lookup"><span data-stu-id="5235e-108">Create or Modify a Normalization Rule Manually</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)
 
-<span data-ttu-id="20ca4-109">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="20ca4-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="5235e-109">Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="5235e-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>

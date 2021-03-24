@@ -15,30 +15,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 0a363520e029015d8ca72c738a018aa16e943e39
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6b4fe394bbeacf99510a9da3d6d2f66fd859176a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829390"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099476"
 ---
-# <a name="pin-policy"></a><span data-ttu-id="7c41d-104">Directiva de PIN</span><span class="sxs-lookup"><span data-stu-id="7c41d-104">PIN Policy</span></span>
+# <a name="pin-policy"></a><span data-ttu-id="326c1-104">Directiva de PIN</span><span class="sxs-lookup"><span data-stu-id="326c1-104">PIN Policy</span></span>
 
-<span data-ttu-id="7c41d-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="7c41d-105">What do you want to do?</span></span> <span data-ttu-id="7c41d-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="7c41d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="326c1-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="326c1-105">What do you want to do?</span></span> <span data-ttu-id="326c1-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="326c1-106">Click the link to the task that you want to perform.</span></span>
 
- <span data-ttu-id="7c41d-107">**Trabajar con la directiva de PIN para teléfonos IP** Esta directiva de número de identificación personal (PIN) admite la autenticación para los usuarios que se conectan a Skype Empresarial Server mediante un teléfono IP.</span><span class="sxs-lookup"><span data-stu-id="7c41d-107">**Work with PIN policy for IP phones** This personal identification number (PIN) policy supports authentication for users who connect to Skype for Business Server by using an IP phone.</span></span>
-- [<span data-ttu-id="7c41d-108">Crear una nueva directiva de PIN en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="7c41d-108">Create a new PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/create-a-new-pin-policy.md)
+ <span data-ttu-id="326c1-107">**Trabajar con la directiva de PIN para teléfonos IP** Esta directiva de número de identificación personal (PIN) admite la autenticación para los usuarios que se conectan a Skype Empresarial Server mediante un teléfono IP.</span><span class="sxs-lookup"><span data-stu-id="326c1-107">**Work with PIN policy for IP phones** This personal identification number (PIN) policy supports authentication for users who connect to Skype for Business Server by using an IP phone.</span></span>
+- [<span data-ttu-id="326c1-108">Crear una nueva directiva de PIN en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="326c1-108">Create a new PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/create-a-new-pin-policy.md)
 
-- [<span data-ttu-id="7c41d-109">Modificar una directiva de PIN existente en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="7c41d-109">Modify an existing PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [<span data-ttu-id="326c1-109">Modificar una directiva de PIN existente en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="326c1-109">Modify an existing PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/modify-an-existing-pin-policy.md)
 
-- [<span data-ttu-id="7c41d-110">Eliminar una directiva de PIN en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="7c41d-110">Delete a PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/delete-a-pin-policy.md)
+- [<span data-ttu-id="326c1-110">Eliminar una directiva de PIN en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="326c1-110">Delete a PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/delete-a-pin-policy.md)
 
-  <span data-ttu-id="7c41d-111">**Trabajar con la directiva de PIN para conferencias de acceso telefónico local** Esta directiva de PIN permite a los usuarios que tienen credenciales de Servicios de dominio de Active Directory en su organización unirse a conferencias de acceso telefónico local como usuarios autenticados especificando un PIN.</span><span class="sxs-lookup"><span data-stu-id="7c41d-111">**Work with PIN policy for dial-in conferencing** This PIN policy allows users who have Active Directory Domain Services credentials in your organization to join dial-in conferences as authenticated users by entering a PIN.</span></span>
-- [<span data-ttu-id="7c41d-112">Crear o modificar configuración de PIN de conferencia de acceso telefónico local para un sitio o grupo de usuarios</span><span class="sxs-lookup"><span data-stu-id="7c41d-112">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+  <span data-ttu-id="326c1-111">**Trabajar con la directiva de PIN para conferencias de acceso telefónico local** Esta directiva de PIN permite a los usuarios que tienen credenciales de Servicios de dominio de Active Directory en su organización unirse a conferencias de acceso telefónico local como usuarios autenticados al escribir un PIN.</span><span class="sxs-lookup"><span data-stu-id="326c1-111">**Work with PIN policy for dial-in conferencing** This PIN policy allows users who have Active Directory Domain Services credentials in your organization to join dial-in conferences as authenticated users by entering a PIN.</span></span>
+- [<span data-ttu-id="326c1-112">Crear o modificar configuración de PIN de conferencia de acceso telefónico local para un sitio o grupo de usuarios</span><span class="sxs-lookup"><span data-stu-id="326c1-112">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-- [<span data-ttu-id="7c41d-113">Modificar la configuración predeterminada del PIN de conferencia de acceso telefónico local</span><span class="sxs-lookup"><span data-stu-id="7c41d-113">Modify the Default Dial-in Conferencing PIN Settings</span></span>](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [<span data-ttu-id="326c1-113">Modificar la configuración predeterminada del PIN de conferencia de acceso telefónico local</span><span class="sxs-lookup"><span data-stu-id="326c1-113">Modify the Default Dial-in Conferencing PIN Settings</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
 
-- [<span data-ttu-id="7c41d-114">Eliminar la configuración del PIN de conferencia de acceso telefónico local para un sitio o grupo de usuarios</span><span class="sxs-lookup"><span data-stu-id="7c41d-114">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [<span data-ttu-id="326c1-114">Eliminar la configuración del PIN de conferencia de acceso telefónico local para un sitio o grupo de usuarios</span><span class="sxs-lookup"><span data-stu-id="326c1-114">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-<span data-ttu-id="7c41d-115">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="7c41d-115">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="326c1-115">Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="326c1-115">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>

@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 728c7d7da3625f04fe0df37bc3a3729e0ceb25bc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f8c904b5bf50adc0e9eeec976963da68b09ec7f4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814480"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099256"
 ---
-# <a name="voice-route"></a><span data-ttu-id="99c61-104">Ruta de voz</span><span class="sxs-lookup"><span data-stu-id="99c61-104">Voice Route</span></span>
+# <a name="voice-route"></a><span data-ttu-id="e76a4-104">Ruta de voz</span><span class="sxs-lookup"><span data-stu-id="e76a4-104">Voice Route</span></span>
 
-<span data-ttu-id="99c61-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="99c61-105">What do you want to do?</span></span> <span data-ttu-id="99c61-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="99c61-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="e76a4-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="e76a4-105">What do you want to do?</span></span> <span data-ttu-id="e76a4-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="e76a4-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="99c61-107">Crear o modificar una ruta de voz en Skype Empresarial 2015</span><span class="sxs-lookup"><span data-stu-id="99c61-107">Create or modify a voice route in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [<span data-ttu-id="e76a4-107">Crear o modificar una ruta de voz en Skype Empresarial 2015</span><span class="sxs-lookup"><span data-stu-id="e76a4-107">Create or modify a voice route in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [<span data-ttu-id="99c61-108">Modificar una ruta de voz</span><span class="sxs-lookup"><span data-stu-id="99c61-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [<span data-ttu-id="e76a4-108">Modificar una ruta de voz</span><span class="sxs-lookup"><span data-stu-id="e76a4-108">Modify a Voice Route</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)
 
-<span data-ttu-id="99c61-109">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="99c61-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="e76a4-109">Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="e76a4-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
