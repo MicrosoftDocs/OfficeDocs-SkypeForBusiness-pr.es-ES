@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre si las audioconferencias, el sistema telefónico, los planes de llamadas, los créditos de comunicaciones y los números de teléfono gratuitos y de pago están disponibles en un país o región.
-ms.openlocfilehash: 85868a57105c53aceb43ff92221ed440329ab73f
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 050554b7a2c558aca9157fd910a2ee7a317ee9e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875130"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122274"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -161,11 +161,11 @@ Si está buscando una hoja de cálculo con todos los países y regiones, descarg
 
 ***
 
-Después de comprobar si uno de los servicios de Skype Empresarial o Microsoft Teams está disponible, puede ver licencias de complementos de Skype Empresarial y [Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) para ayudarle a comprar licencias y asignarlas a sus usuarios.
+Después de comprobar si uno de los servicios de Skype Empresarial o Microsoft Teams está disponible, puede ver licencias de complementos de Skype Empresarial y [Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para ayudarle a comprar licencias y asignarlas a sus usuarios.
 
 > [!NOTE]
 >
-> Si necesita obtener más números de teléfono para los usuarios, vea [Recepción de números de teléfono para los usuarios](/microsoftteams/getting-phone-numbers-for-your-users) o, en el caso de formularios de solicitud de números de teléfono, [Administrar números de teléfono de la organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+> Si necesita obtener más números de teléfono para los usuarios, vea [Recepción de números de teléfono para los usuarios](../getting-phone-numbers-for-your-users.md) o, en el caso de formularios de solicitud de números de teléfono, [Administrar números de teléfono de la organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## <a name="want-to-learn-more-about-these-services"></a>Desea obtener más información sobre estos servicios
 
@@ -195,7 +195,7 @@ Llamar desde una reunión a otro país o región del mundo que no se muestra a c
 
 Con Sistema telefónico, puede crear operadores automáticos y colas de llamadas (con un número gratuito o de pago) para responder a las llamadas entrantes de su organización. Al agregar un plan de llamadas para los usuarios, pueden usar Skype Empresarial para ocuparse de las tareas básicas de control de llamadas, como realizar y recibir llamadas, transferir llamadas y silenciar y desenmutar llamadas. **Los usuarios del** sistema telefónico hacen clic en un nombre en su libreta de direcciones y Skype Empresarial realizará una llamada a esa persona. Para realizar y recibir **llamadas,** los usuarios del sistema telefónico usan sus dispositivos móviles, auriculares con un portátil o pc, o uno de los muchos teléfonos IP que funcionan con Skype Empresarial.
 
-> La disponibilidad de números de teléfono de pago en algunas de estas ubicaciones puede variar en cualquier momento, según los niveles de inventario. Además de obtener números de teléfono para usuarios individuales, también es posible buscar y adquirir números de teléfono gratuitos o de pago para servicios como conferencias de audio (para puentes de conferencia), operadores automáticos y colas de llamadas. Se denominan números de servicio. Vea [Recepción de números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers) para obtener números de teléfono. Pero, para sus usuarios, después de asignarles un Plan de llamadas, puede asignar un número de teléfono de usuario para que puedan hacer y recibir llamadas de teléfono. Para encontrar estos números de teléfono, vaya a [Obtener números de teléfono para los usuarios](/microsoftteams/getting-phone-numbers-for-your-users). También puede consultar [Asignar, cambiar o quitar un número de teléfono para un usuario](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
+> La disponibilidad de números de teléfono de pago en algunas de estas ubicaciones puede variar en cualquier momento, según los niveles de inventario. Además de obtener números de teléfono para usuarios individuales, también es posible buscar y adquirir números de teléfono gratuitos o de pago para servicios como conferencias de audio (para puentes de conferencia), operadores automáticos y colas de llamadas. Se denominan números de servicio. Vea [Recepción de números de teléfono de servicio](../getting-service-phone-numbers.md) para obtener números de teléfono. Pero, para sus usuarios, después de asignarles un Plan de llamadas, puede asignar un número de teléfono de usuario para que puedan hacer y recibir llamadas de teléfono. Para encontrar estos números de teléfono, vaya a [Obtener números de teléfono para los usuarios](../getting-phone-numbers-for-your-users.md). También puede consultar [Asignar, cambiar o quitar un número de teléfono para un usuario](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 [Precios de Sistema telefónico](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -208,7 +208,7 @@ Con la lista desplegable situada en la parte superior de la página, busque un p
 
 Al igual que sucede con Sistema telefónico, con Planes de llamada los usuarios pueden hacer y recibir llamadas telefónicas. Primero obtiene un número de teléfono de usuario (suscriptor) (no un número de servicio) para asignar al usuario y, después, asigna un plan de llamadas. Hay disponibles dos tipos de planes de llamada: **nacionales** y **nacionales e internacionales**. Para obtener más información, vea [Sistema telefónico y planes de llamadas](../calling-plan-landing-page.md).
 
-También puede ver [Sistema telefónico y planes de llamadas](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) para obtener información sobre las licencias.
+También puede ver [Sistema telefónico y planes de llamadas](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obtener información sobre las licencias.
 
 > [!NOTE]
 > El país o región se basa en la ubicación de la licencia del usuario en el **Centro de administración de Microsoft 365** > **Usuarios activos** y **no** en la dirección de facturación indicada en el **Perfil de la organización** del **Centro de administración de Microsoft 365**.
@@ -219,7 +219,7 @@ Además de obtener números de teléfono para usuarios individuales, también es
   
 A continuación se muestra una lista de las capitales y las ciudades más importantes en las que puede conseguir números de servicio de pago que se pueden usar con Audioconferencia y Planes de llamada. Recibe números de servicio de pago de estas ubicaciones con el Centro de administración **de Skype Empresarial.**
   
-Si desea obtener un número de servicio gratuito o de pago, puede ver Obtener números [de teléfono de servicio](/microsoftteams/getting-service-phone-numbers). Si ya tiene un número de servicio gratuito o de pago que desea transferir de otro proveedor, vea Administrar números de teléfono [para su organización.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+Si desea obtener un número de servicio gratuito o de pago, puede ver Obtener números [de teléfono de servicio](../getting-service-phone-numbers.md). Si ya tiene un número de servicio gratuito o de pago que desea transferir de otro proveedor, vea Administrar números de teléfono [para su organización.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 Con la lista desplegable situada en la parte superior de la página, busque un país o región y los servicios que hay disponibles en cada uno.
 
@@ -231,4 +231,4 @@ Si no configura créditos de comunicaciones y asigna una licencia a los usuarios
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)

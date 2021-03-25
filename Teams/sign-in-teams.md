@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98502d623edda6117b2838d2bc71197a43baf394
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107306"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197525"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en Microsoft Teams
 ==========================
@@ -66,7 +66,7 @@ Es posible que los usuarios del equipo unido a un dominio no puedan iniciar sesi
 
 ## <a name="macos-users"></a>Usuarios de MacOS
 
-En MacOS, Teams solicitará a los usuarios que escriban el nombre de usuario y las credenciales y puede pedir la autenticación multifactor en función de la configuración de su organización. Una vez que los usuarios escriben sus credenciales, no se les pedirá que las proporcionen nuevamente. A partir de ese momento, Teams se inicia automáticamente siempre y cuando estén trabajando en el mismo equipo.
+En MacOS, Teams solicitará a los usuarios que escriban su nombre de usuario y credenciales, y también podría pedir una autenticación multifactor en función de la configuración de su organización. Una vez que los usuarios escriben sus credenciales, no se les pedirá que las proporcionen nuevamente. A partir de ese momento, Teams se inicia automáticamente siempre y cuando estén trabajando en el mismo equipo.
 
 ## <a name="teams-on-ios-and-android-users"></a>Teams para usuarios de iOS y Android
 
@@ -114,7 +114,7 @@ Para crear una directiva de configuración de la aplicación para dispositivos i
 Para crear una directiva de configuración de aplicaciones para dispositivos Android administrados, vea [Agregar directivas de configuración de aplicaciones para dispositivos Android administrados ](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>Cómo restringir el inicio de sesión en dispositivos de escritorio
-Las aplicaciones de Teams en Windows y MacOS son compatibles con las directivas de dispositivos que restringen el inicio de sesión en su organización. Las directivas se pueden establecer mediante soluciones usuales de administración de dispositivos como MDM (administración de dispositivos móviles) o GPO (objeto de directiva de grupo). 
+Las aplicaciones de Teams en Windows y macOS son compatibles con las directivas de dispositivos que restringen el inicio de sesión en su organización. Las directivas se pueden establecer mediante soluciones usuales de administración de dispositivos como MDM (administración de dispositivos móviles) o GPO (objeto de directiva de grupo). 
 
 Cuando esta directiva está configurada en un dispositivo, los usuarios solo pueden iniciar sesión con las cuentas hospedadas en un inquilino de Azure AD que se incluye en la "lista de permitidos de inquilino" definida en la directiva. La directiva se aplica a todos los inicios de sesión, entre los que se incluyen la primera cuenta y las cuentas adicionales. Si su organización abarca varios inquilinos de Azure AD, puede incluir varios Id. de inquilinos en la lista de permitidos. Es posible que los vínculos para agregar otra cuenta sigan siendo visibles en la aplicación de Teams, pero en este caso no se podrán utilizar.
 
@@ -122,7 +122,7 @@ Cuando esta directiva está configurada en un dispositivo, los usuarios solo pue
 >1. La directiva solo restringe los inicios de sesión. No restringe la capacidad de los usuarios de ser agregados como invitados en otros espacios empresariales de Azure AD o cambiar a otros espacios empresariales.
 >2. La directiva requiere Microsoft Teams para Windows versión 1.3.00.30866 o superior, y Microsoft Teams para MacOS versión 1.3.00.30882 (lanzado a mediados de noviembre de 2020).
 
-**Directivas para Windows** Los archivos de plantilla administrativa (ADMX y ADML) están disponibles en el [Centro de descargas](https://www.microsoft.com/download/details.aspx?id=49030). Además, puede establecer manualmente las teclas en el registro de Windows:
+**Las directivas para los archivos de la plantilla administrativa (ADMX/ADML) de Windows** están disponibles en el [Centro de descargas](https://www.microsoft.com/download/details.aspx?id=49030) (el nombre descriptivo de la configuración de directiva en el archivo de plantilla administrativa es "Restringir el inicio de sesión en Teams a cuentas de espacios empresariales específicos"). Además, puede establecer manualmente las teclas en el registro de Windows:
 
 - Nombre del valor: RestrictTeamsSignInToAccountsFromTenantList
 - Tipo de valor: cadena
@@ -133,7 +133,7 @@ Cuando esta directiva está configurada en un dispositivo, los usuarios solo pue
 
 Ejemplo: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID o SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 1,Tenant ID 2,Tenant ID 3
 
-**Directivas para Mac OS** Para dispositivos administrados por MacOS, use .plist para implementar restricciones de inicio de sesión. El perfil de configuración es un archivo. plist que está formado por entradas identificadas por una clave (lo que denota el nombre de la preferencia), seguido de un valor, que depende de la naturaleza de la preferencia. Los valores pueden ser sencillos (como un valor numérico) o complejos, como una lista anidada de preferencias.
+**Directivas para macOS** Para dispositivos administrados por macOS, use .plist para implementar restricciones de inicio de sesión. El perfil de configuración es un archivo. plist que está formado por entradas identificadas por una clave (lo que denota el nombre de la preferencia), seguido de un valor, que depende de la naturaleza de la preferencia. Los valores pueden ser sencillos (como un valor numérico) o complejos, como una lista anidada de preferencias.
 
 - Dominio: com.microsoft.teams
 - Key: RestrictTeamsSignInToAccountsFromTenantList

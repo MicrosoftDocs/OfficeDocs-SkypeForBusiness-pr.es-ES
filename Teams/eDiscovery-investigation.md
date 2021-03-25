@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar exhi
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3990b96981a65bb4d706cc3141abee10102c0839
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ca1a679fbdce7ca2840c41266053cf13f1452fe0
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094060"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197535"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -54,6 +54,7 @@ No todo el contenido de Teams es eDiscoverable. En la tabla siguiente se muestra
 |Reacciones (como me gusta, corazones y otras reacciones) | No | |
 |Asunto | Sí | |
 |Tablas | Sí | |
+|Notificaciones de fuentes | No | |
 |||
 
 <sup>1 Los</sup> metadatos de reunión (y llamada) incluyen lo siguiente:

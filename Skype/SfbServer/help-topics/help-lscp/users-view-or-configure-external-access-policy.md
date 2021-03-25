@@ -1,5 +1,5 @@
 ---
-title: Usuarios ver o configurar la directiva de acceso externo
+title: Usuarios Ver o configurar directiva de acceso externo
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 076cc5bb5bfc3243a6d8a253d17c56bb87b5165b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 25ab5849d102ff0dcfd0cb6482f932aaad3dfbd1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824330"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122474"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>Usuarios: Ver o configurar directiva de acceso externo
 
 ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
 
-- [Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configurar la federación, el acceso remoto de usuarios y la conectividad de mensajería instantánea pública para los usuarios](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
-Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
-
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).

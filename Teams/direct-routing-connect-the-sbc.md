@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar y conectar su SBC al enrutamiento directo del sistema telefónico.
-ms.openlocfilehash: 72075e7a7aed0196ac883d5f81069f2517c9fd9c
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 697f426b9c9dc3215d653520658282fab1787001
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875070"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122254"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Conectar el controlador de borde de sesión (SBC) al enrutamiento directo
 
@@ -57,7 +57,7 @@ Para conectar su SBC a Enrutamiento directo, tendrá que:
 
 ### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Conectarse a Skype Empresarial Online con PowerShell
 
-Puede usar una sesión de PowerShell conectada al inquilino para emparejar el SBC con la interfaz de enrutamiento directo. Para abrir una sesión de PowerShell, siga los pasos descritos en [Configurar el equipo para Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Puede usar una sesión de PowerShell conectada al inquilino para emparejar el SBC con la interfaz de enrutamiento directo. Para abrir una sesión de PowerShell, siga los pasos descritos en [Configurar el equipo para Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
  
 Después de establecer una sesión remota de PowerShell, compruebe que puede ver los comandos para administrar el SBC. Para comprobar los comandos, escriba o copie y pegue el siguiente comando en la sesión de PowerShell y, después, presione Entrar: 
 
@@ -78,7 +78,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 ### <a name="connect-the-sbc-to-the-tenant"></a>Conectar el SBC al inquilino
 
-Use el cmdlet [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) para conectar el SBC al inquilino. En una sesión de PowerShell, escriba lo siguiente y, después, presione Entrar:
+Use el cmdlet [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) para conectar el SBC al inquilino. En una sesión de PowerShell, escriba lo siguiente y, después, presione Entrar:
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true
@@ -111,7 +111,7 @@ Enabled               : True
 </pre>
 
 > [!NOTE]
-> En este ejemplo solo se muestran los parámetros mínimos necesarios. Hay parámetros adicionales que puede establecer con el cmdlet [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) durante el proceso de conexión. Para obtener más información, vea [Configuración de SBC](#sbc-settings).
+> En este ejemplo solo se muestran los parámetros mínimos necesarios. Hay parámetros adicionales que puede establecer con el cmdlet [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) durante el proceso de conexión. Para obtener más información, vea [Configuración de SBC](#sbc-settings).
  
 ### <a name="verify-the-sbc-connection"></a>Comprobar la conexión SBC
 
@@ -122,7 +122,7 @@ Para comprobar la conexión:
  
 #### <a name="check-whether-the-sbc-is-on-the-list-of-paired-sbcs"></a>Comprobar si el SBC está en la lista de SBC emparejados
 
-Después de conectar el SBC, use el cmdlet [Get-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) para comprobar que el SBC está presente en la lista de SBC emparejados. Escriba lo siguiente en una sesión remota de PowerShell y, después, presione Entrar:
+Después de conectar el SBC, use el cmdlet [Get-CsOnlinePSTNGateway](/powershell/module/skype/get-csonlinepstngateway) para comprobar que el SBC está presente en la lista de SBC emparejados. Escriba lo siguiente en una sesión remota de PowerShell y, después, presione Entrar:
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -156,7 +156,7 @@ Para validar el emparejamiento con opciones SIP entrantes, use la interfaz de ad
 
 ## <a name="sbc-settings"></a>Configuración de SBC
 
-En esta tabla se enumeran las opciones que puede establecer para el SBC en el Centro de administración de Microsoft Teams y mediante el cmdlet [New-CsOnlinePSTNGateway.](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)
+En esta tabla se enumeran las opciones que puede establecer para el SBC en el Centro de administración de Microsoft Teams y mediante el cmdlet [New-CsOnlinePSTNGateway.](/powershell/module/skype/new-csonlinepstngateway)
 
 |¿Obligatorio?|Configuración del Centro de administración de Microsoft Teams|Parámetro de PowerShell|Descripción|Valor predeterminado|Valores posibles|Tipo y restricciones|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -173,7 +173,7 @@ En esta tabla se enumeran las opciones que puede establecer para el SBC en el Ce
 |No|**SBC admite PIDF/LO para llamadas de emergencia**|PidfloSupported|Especifique si el SBC admite el objeto de ubicación de formato de datos de información de presencia (PIDF/LO) para las llamadas de emergencia.||||
 |No| - |MediaBypass|Esta configuración indica si el SBC admite la omisión de medios y si desea usarla para este SBC. |Ninguna|Verdadero<br/>Falso|Boolean|
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear el enrutamiento directo](direct-routing-plan.md)
 

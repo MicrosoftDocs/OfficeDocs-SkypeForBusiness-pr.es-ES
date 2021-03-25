@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: La región de red* son los concentradores de red o redes troncales que se usan en la configuración del control de admisión de llamadas, E9-1-1 y la omisión de medios.
-ms.openlocfilehash: 14c8004ddd14c0a37c25d700edae845ac9adfe29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: La región de red* son los concentradores de red o redes troncales usados en la configuración del control de admisión de llamadas, E9-1-1 y desvío de medios.
+ms.openlocfilehash: 2020eea2cf8bf85c915ebf88de6f86cb3a0ee9ca
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816420"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122454"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Administrar regiones de red en Skype Empresarial Server
 
@@ -35,7 +35,7 @@ Una región de red interconecta varias partes de una red a través de varias zon
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, en **Región.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Región**.
 
 4.  En la **página Región,** haga clic en la región que desea ver.
   
@@ -45,9 +45,9 @@ Una región de red interconecta varias partes de una red a través de varias zon
 5.  En el menú **Editar**, haga clic en **Mostrar detalles**.
 
 
-### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Visualización de información de región de red mediante cmdlets Windows PowerShell de red
+### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Visualización de información de región de red mediante el uso Windows PowerShell cmdlets
 
-Puede ver información de región de red mediante Windows PowerShell y el cmdlet **Get-CsNetworkRegion.** Puede ejecutar este cmdlet desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
+Puede ver la información de región de red mediante Windows PowerShell y el cmdlet **Get-CsNetworkRegion.** Puede ejecutar este cmdlet desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
 
 ### <a name="to-view-network-region-information"></a>Para ver información de región de red
 
@@ -65,12 +65,12 @@ Puede ver información de región de red mediante Windows PowerShell y el cmdlet
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Get-CsNetworkRegion.](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
+Para obtener más información, vea el tema de ayuda del cmdlet [Get-CsNetworkRegion.](/powershell/module/skype/Get-CsNetworkRegionLink)
 
 
 ## <a name="create-or-modify-network-regions"></a>Crear o modificar regiones de red 
 
-Una región de red interconecta varias partes de una red a través de varias zonas geográficas. Cada región de red debe asociarse con un sitio central. El sitio central es el sitio del centro de datos donde se está ejecutando el servicio de directiva de ancho de banda de CAC (servicio de control de admisión de llamadas). Puede usar el Panel de control de Skype Empresarial Server para configurar regiones de red. Las regiones de red incluyen valores de configuración que determinan si se permiten las rutas alterativas a través de Internet para las conexiones de audio y vídeo. Desde el Panel de control de Skype Empresarial Server, puede crear, modificar o eliminar una región de red. Siga este tema para crear y modificar regiones de red. 
+Una región de red interconecta varias partes de una red a través de varias zonas geográficas. Cada región de red debe asociarse con un sitio central. El sitio central es el sitio del centro de datos donde se está ejecutando el servicio de directiva de ancho de banda de CAC (servicio de control de admisión de llamadas). Puede usar el Panel de control de Skype Empresarial Server para configurar las regiones de red. Las regiones de red incluyen valores de configuración que determinan si se permiten las rutas alterativas a través de Internet para las conexiones de audio y vídeo. Desde el Panel de control de Skype Empresarial Server, puede crear, modificar o eliminar una región de red. Siga este tema para crear y modificar regiones de red. 
 
 ### <a name="to-create-a-network-region"></a>Para crear una región de red
 
@@ -78,11 +78,11 @@ Una región de red interconecta varias partes de una red a través de varias zon
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, en **Región.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Región**.
 
 4.  En la página **Región**, haga clic en **Nuevo**.
 
-5.  En la página **Región nueva**, escriba un valor en el campo **Nombre**. Este valor debe ser único en la implementación de Skype Empresarial Server.
+5.  En la página **Región nueva**, escriba un valor en el campo **Nombre**. Este valor debe ser único dentro de la implementación de Skype Empresarial Server.
 
 6.  En la lista desplegable **Sitio central**, seleccione el sitio central para esta región de red.
 
@@ -94,7 +94,7 @@ Una región de red interconecta varias partes de una red a través de varias zon
 
 10. Haga clic en **Confirmar**.
 
-La tabla **Sitios asociados** no se usa para crear una región de red. Un sitio se asocia a una región cuando se crea o modifica el sitio. Para obtener más información, consulte [Administración del control de admisión de llamadas para sitios.](managing-call-admission-control-for-sites.md)
+La tabla **Sitios asociados** no se usa para crear una región de red. Un sitio se asocia a una región cuando se crea o modifica el sitio. Para obtener más información, vea [Managing call admission control for sites](managing-call-admission-control-for-sites.md).
 
 ### <a name="to-modify-a-network-region"></a>Para modificar una región de red
 
@@ -102,7 +102,7 @@ La tabla **Sitios asociados** no se usa para crear una región de red. Un sitio 
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, en **Región.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Región**.
 
 4.  En la página **Región**, haga clic en el vínculo regional que desea modificar.
 
@@ -117,7 +117,7 @@ En esta página, no se pueden modificar los **Sitios asociados**. La lista de si
 
 ## <a name="delete-existing-network-regions"></a>Eliminar regiones de red existentes 
 
-Una región de red interconecta varias partes de una red a través de varias zonas geográficas. Cada región de red debe asociarse con un sitio central. El sitio central es el sitio del centro de datos donde se está ejecutando el servicio de directiva de ancho de banda de CAC (servicio de control de admisión de llamadas). Puede usar el Panel de control de Skype Empresarial Server para configurar regiones de red. Las regiones de red incluyen valores de configuración que determinan si se permiten las rutas alterativas a través de Internet para las conexiones de audio y vídeo. Desde el Panel de control de Skype Empresarial Server, puede crear, modificar o eliminar una región de red. Use este tema para eliminar las regiones de red existentes. 
+Una región de red interconecta varias partes de una red a través de varias zonas geográficas. Cada región de red debe asociarse con un sitio central. El sitio central es el sitio del centro de datos donde se está ejecutando el servicio de directiva de ancho de banda de CAC (servicio de control de admisión de llamadas). Puede usar el Panel de control de Skype Empresarial Server para configurar las regiones de red. Las regiones de red incluyen valores de configuración que determinan si se permiten las rutas alterativas a través de Internet para las conexiones de audio y vídeo. Desde el Panel de control de Skype Empresarial Server, puede crear, modificar o eliminar una región de red. Use este tema para eliminar las regiones de red existentes. 
 
 ### <a name="to-delete-a-network-region"></a>Para eliminar una región de red:
 
@@ -125,7 +125,7 @@ Una región de red interconecta varias partes de una red a través de varias zon
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, en **Región.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Región**.
 
 4.  En la página **Región**, haga clic en la región que desea eliminar.
   
@@ -141,14 +141,14 @@ Una región de red interconecta varias partes de una red a través de varias zon
     > No se puede quitar una región si está asociada a un sitio de red. Si intenta quitar una región asociada a un sitio, recibirá un mensaje de error. Para ver si una región está asociada a algún sitio, seleccione la región y haga clic en **Mostrar detalles** en el menú **Editar**.
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 [Administración de rutas de región de red](managing-network-region-routes.md)
 
-[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)  
+[New-CsNetworkRegion](/powershell/module/skype/New-CsNetworkRegion)  
 
-[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)  
+[Set-CsNetworkRegion](/powershell/module/skype/Set-CsNetworkRegion)  
 
-[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)  
+[Remove-CsNetworkRegion](/powershell/module/skype/Remove-CsNetworkRegion)  
 
-[Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink)

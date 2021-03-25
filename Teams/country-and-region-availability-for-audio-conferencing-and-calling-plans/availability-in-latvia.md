@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Letonia.
-ms.openlocfilehash: 9df5e45a6265c16a92b323adb6959082e212311e
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: e145afc81a796921d65ad588b0eaa9afbefdf062
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231019"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122304"
 ---
 # <a name="availability-in-latvia"></a>Disponibilidad en Letonia
 
@@ -43,7 +43,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y M
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Se asignan números de teléfono automáticamente para las audioconferencias?  <br/> |Los números de teléfono no se vinculan a una ciudad o ubicación específica. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|¿Se asignan números de teléfono automáticamente para las audioconferencias?  <br/> |Los números de teléfono no se vinculan a una ciudad o ubicación específica. Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicaciones  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -69,11 +69,11 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Riiga ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Riiga ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
- Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
@@ -85,10 +85,8 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 
-

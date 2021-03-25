@@ -18,12 +18,12 @@ description: Obtenga información sobre cómo configurar la característica de l
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca2fb94ff67f2efa874e670926330f8f3630cbe2
-ms.sourcegitcommit: 74f12ed15e1aa1106fa47b95597bde451b0b37f4
+ms.openlocfilehash: 73b894b0eb02b8f860a3486251dab002832f4d46
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741891"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122334"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -85,7 +85,7 @@ Actualmente, se admiten los siguientes clientes.  Vuelva a comprobarlo a menudo 
 - Teams Rooms versión 4.4.25.0 y superior
 
 > [!NOTE]
-> Las llamadas de emergencia dinámicas, incluidas las notificaciones de escritorio de seguridad, no son compatibles con el cliente web de Teams. Para evitar que los usuarios utilicen el cliente web de Teams para llamar a números RTC, puede establecer una directiva de llamadas de Teams y desactivar la configuración Permitir llamadas **RTC web.** Para obtener más información, vea [Directivas de llamadas en Teams](teams-calling-policy.md) y [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps).
+> Las llamadas de emergencia dinámicas, incluidas las notificaciones de escritorio de seguridad, no son compatibles con el cliente web de Teams. Para evitar que los usuarios utilicen el cliente web de Teams para llamar a números RTC, puede establecer una directiva de llamadas de Teams y desactivar la configuración Permitir llamadas **RTC web.** Para obtener más información, vea [Directivas de llamadas en Teams](teams-calling-policy.md) y [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps).
 
 ## <a name="assign-emergency-addresses"></a>Asignar direcciones de emergencia
 
@@ -159,10 +159,10 @@ Para que un cliente obtenga una ubicación, debe rellenar el LIS con identificad
 
 Use los cmdlets siguientes para agregar puertos, modificadores, subredes y WAP al LIS.
 
-- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
-- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
-- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
-- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
+- [Get](/powershell/module/skype/get-csonlinelissubnet?view=skype-ps), [Set](/powershell/module/skype/set-csonlinelissubnet?view=skype-ps), [Remove](/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
+- [Get](/powershell/module/skype/get-csonlinelisport?view=skype-ps), [Set](/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Remove](/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
+- [Get](/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [Set](/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Remove](/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
+- [Get](/powershell/module/skype/get-csonlinelisswitch?view=skype-ps), [Set](/powershell/module/skype/set-csonlinelisswitch?view=skype-ps), [Remove](/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
 
 >[!Important]
 >Si las subredes se usan como parte de sitios de red, deben redefinrse en el Servicio de información de ubicación para representar ubicaciones dinámicas.

@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
-description: Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta mantienen las llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
-ms.openlocfilehash: 13d680236f646e7aec3e0b0a39b3b827a34ce46f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
+ms.openlocfilehash: 4b0b4e4f34c8297702b110fea2c8aae55bb39d2a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829310"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122544"
 ---
 # <a name="response-groups-queue"></a>Cola de grupos de respuesta
 
-Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta mantienen las llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
+Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
 
 La **página Cola de grupos** de respuesta muestra una lista de todas las colas de grupo de respuesta  -   definidas para su organización.
 
@@ -44,7 +44,7 @@ En la siguiente lista se describen los comandos de la página.
 
 - **Nuevo** Inicia una nueva cola.
 
-- **Editar** Abre la cola seleccionada para editarla, selecciona todas las colas de la lista o elimina la cola seleccionada.
+- **Editar** Abre la cola seleccionada para editarla, selecciona toda la cola de la lista o elimina la cola seleccionada.
 
 - **Actualizar** Actualiza la lista de colas.
 
@@ -54,8 +54,6 @@ En la siguiente lista se describen los campos de la página.
 
 - **Servicio** El **servicio ApplicationServer** que hospeda la cola.
 
-- **Descripción** Descripción de la cola.
+- **Descripción** La descripción de la cola.
 
-Para obtener más información sobre las características y capacidades de Grupo de respuesta, consulte [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación. Para obtener más información sobre cómo trabajar con colas de grupo de respuesta, consulte [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) en la documentación de operaciones.
-
-
+Para obtener más información sobre las características y capacidades del grupo de respuesta, vea [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación. Para obtener más información sobre cómo trabajar con colas de grupo de respuesta, consulte [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) en la documentación sobre operaciones.

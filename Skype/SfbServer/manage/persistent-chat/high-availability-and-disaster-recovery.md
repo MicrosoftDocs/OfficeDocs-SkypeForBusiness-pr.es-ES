@@ -12,46 +12,46 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
-description: 'Resumen: obtenga información sobre cómo administrar la alta disponibilidad y la recuperación ante desastres del servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: 7ec7182d8fe2866499f731b43df712a69c44bc42
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn how to manage Persistent Chat Server high availability and disaster recovery in Skype for Business Server 2015.'
+ms.openlocfilehash: 4fb3a38fadf2a8a063715e389718859dcc7ddbdd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815050"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122414"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015
  
-**Resumen:** Obtenga información sobre cómo administrar la alta disponibilidad y la recuperación ante desastres del servidor de chat persistente en Skype Empresarial Server 2015.
+**Resumen:** Obtenga información sobre cómo administrar la alta disponibilidad y recuperación ante desastres del servidor de chat persistente en Skype Empresarial Server 2015.
   
-En este tema se describe cómo conmutar por error y conmutar por recuperación el servidor de chat persistente. Antes de leer este tema, asegúrese de leer [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) and [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+En este tema se describe cómo conmutar por error y devolver la conmutación por recuperación del servidor de chat persistente. Antes de leer este tema, asegúrese de leer [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) y [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
 
 > [!NOTE]
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no es compatible con Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si necesita usar el chat persistente, puede migrar usuarios que requieran esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015. 
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Introducción a la actualización de Microsoft Teams](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015. 
   
 ## <a name="fail-over-persistent-chat-server"></a>Conmutación por error del servidor de chat persistente
 
 La conmutación por error para el servidor de chat persistente está diseñada para ser principalmente un proceso manual.
   
-El procedimiento de conmutación por error se basa en la suposición de que el centro de datos secundario está en funcionamiento, pero los servicios del servidor de chat persistente donde se encuentra la base de datos de chat persistente principal no están completamente disponibles, incluidos los siguientes:
+El procedimiento de conmutación por error se basa en la suposición de que el centro de datos secundario está en funcionamiento, pero los servicios del servidor de chat persistente donde se encuentra la base de datos de chat persistente principal no están disponibles, incluidos los siguientes:
   
-- La base de datos principal del servidor de chat persistente y la base de datos reflejada del servidor de chat persistente están sin servicio.
+- La base de datos principal del servidor de chat persistente y la base de datos reflejada del servidor de chat persistente están abajo.
     
 - El servidor front-end de Skype Empresarial Server no está disponible.
     
 El procedimiento se basa en dos pasos básicos:
   
-- Recupere la base de datos de chat persistente principal (mgc).
+- Recupera la base de datos de chat persistente principal (mgc).
     
 - La creación de reflejos para la nueva base de datos principal.
     
-La base de datos de cumplimiento de chat persistente (mgccomp) no se ha conversado. Los contenidos de esta base de datos son transitorios y se purgan cuando el adaptador de conformidad procesa los datos. Es su responsabilidad, como administrador de chat persistente, administrar correctamente la salida del adaptador para evitar la pérdida de datos.
+La base de datos de cumplimiento de chat persistente (mgccomp) no se ha podido superar. Los contenidos de esta base de datos son transitorios y se purgan cuando el adaptador de conformidad procesa los datos. Es su responsabilidad, como administrador de chat persistente, administrar correctamente la salida del adaptador para evitar la pérdida de datos.
   
 Para conmutar por error el servidor de chat persistente:
   
 1. Quite el trasvase de registros de la base de datos de trasvase de registros de copia de seguridad del servidor de chat persistente.
     
-   - Mediante SQL Server Management Studio, conéctese a la instancia de base de datos donde se encuentra la base de datos mgc de copia de seguridad del servidor de chat persistente.
+   - Con SQL Server Management Studio, conéctese a la instancia de base de datos donde se encuentra la base de datos mgc de copia de seguridad del servidor de chat persistente.
     
    - Abra una ventana de consulta en la base de datos principal.
     
@@ -63,7 +63,7 @@ Para conmutar por error el servidor de chat persistente:
 
 2. Copie cualquier archivo de copia de seguridad no copiado desde el recurso compartido de copia de seguridad a la carpeta de destino de copias del servidor de copias de seguridad.
     
-3. Aplique cualquier copia de seguridad de registro de transacciones no aplicadas en secuencia con la base de datos secundaria. Para obtener más información, [consulte How to: Apply a Transaction Log Backup (Transact-SQL).](https://go.microsoft.com/fwlink/p/?linkid=247428)
+3. Aplique cualquier copia de seguridad de registro de transacciones no aplicadas en secuencia con la base de datos secundaria. Para obtener más información, [vea How to: Apply a Transaction Log Backup (Transact-SQL).](/previous-versions/sql/sql-server-2008-r2/ms187607(v=sql.105))
     
 4. Publique en línea la base de datos mgc de copia de seguridad. Utilizando la ventana de consultas que se abre en el paso 1b, realice lo siguiente:
     
@@ -75,9 +75,9 @@ Para conmutar por error el servidor de chat persistente:
     
    - Publique en línea la base de datos:
     
-   - **restaurar base de datos mgc con recuperación.**
+   - **restaurar la base de datos mgc con recuperación**.
     
-5. En el Shell de administración de Skype Empresarial Server, use el comando **Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" -PoolState FailedOver** para conmutar por error a la base de datos de copia de seguridad mgc. Asegúrese de sustituir el nombre de dominio completo del grupo de chat persistente por atl-cs-001.litwareinc.com.
+5. En el Shell de administración de Skype Empresarial Server, use el comando **Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" -PoolState FailedOver** para conmutar por error a la base de datos de copia de seguridad de mgc. Asegúrese de sustituir el nombre de dominio completo del grupo de chat persistente por atl-cs-001.litwareinc.com.
     
     La base de datos de copia de seguridad mgc funciona actualmente como base de datos principal.
     
@@ -88,24 +88,24 @@ Para conmutar por error el servidor de chat persistente:
     > [!IMPORTANT]
     > Todos los servidores activos deben estar ubicados dentro del mismo centro de datos como la nueva base de datos principal o en un centro de datos que tenga una latencia baja o un ancho de banda alto. 
   
-    En este punto, la conmutación por error de la base de datos principal del servidor de chat persistente a la base de datos de copia de seguridad del servidor de chat persistente finaliza correctamente.
+    En este momento, la conmutación por error de la base de datos principal del servidor de chat persistente a la base de datos de copia de seguridad del servidor de chat persistente se completa correctamente.
     
 ## <a name="fail-back-persistent-chat-server"></a>Conmutación por recuperación del servidor de chat persistente
 
-En este procedimiento se describen los pasos necesarios para recuperarse de un error del servidor de chat persistente y para restablecer las operaciones desde el centro de datos principal.
+En este procedimiento se describen los pasos necesarios para recuperarse de un error del servidor de chat persistente y restablecer las operaciones desde el centro de datos principal.
   
-Durante el error del servidor de chat persistente, el centro de datos principal sufre una interrupción completa y las bases de datos principal y reflejada no están disponibles. El centro de datos principal se conmuta por error al servidor de reserva.
+Durante el error del servidor de chat persistente, el centro de datos principal sufre una interrupción completa y las bases de datos principales y reflejadas no están disponibles. El centro de datos principal se conmuta por error al servidor de reserva.
   
-En el siguiente procedimiento, se restaura el funcionamiento normal después de realizar una copia de seguridad del centro de datos principal y volver a generar los servidores. El procedimiento presupone que el centro de datos principal se ha recuperado de una interrupción total y que la base de datos mgc y la base de datos mgccomp se han vuelto a generar y volver a instalar mediante el Generador de topologías.
+En el siguiente procedimiento, se restaura el funcionamiento normal después de realizar una copia de seguridad del centro de datos principal y volver a generar los servidores. El procedimiento supone que el centro de datos principal se ha recuperado de la interrupción total y que la base de datos mgc y la base de datos mgccomp se han reconstruido y reinstalado mediante el Generador de topologías.
   
-El procedimiento también supone que no se implementaron servidores reflejados y de copia de seguridad nuevos durante el período de conmutación por error y que el único servidor implementado es el servidor de copia de seguridad y su servidor reflejado, tal como se definió anteriormente en El servidor de conmutación por error de chat persistente.
+El procedimiento también supone que no se implementaron nuevos servidores reflejados y de copia de seguridad durante el período de conmutación por error y que el único servidor implementado es el servidor de copia de seguridad y su servidor reflejado, tal como se definió anteriormente en Conmutación por error sobre el servidor de chat persistente.
   
 Estos pasos están pensados para recuperar la configuración tal y como estaba antes del desastre, lo que resulta en la conmutación por error del servidor principal al servidor de copia de seguridad.
   
-1. Borre todos los servidores de la lista Active Server del servidor de chat persistente con el cmdlet **Set-CsPersistentChatActiveServer** desde el Shell de administración de Skype Empresarial Server. Esto impide que todos los servidores de chat persistente se conecten a la base de datos mgc y a la base de datos mgccomp durante la conmutación por recuperación.
+1. Borre todos los servidores de la lista Servidor de chat persistente Active Server mediante el cmdlet **Set-CsPersistentChatActiveServer** desde el Shell de administración de Skype Empresarial Server. Esto impide que todos los servidores de chat persistente se conecten a la base de datos mgc y a la base de datos mgccomp durante la conmutación por recuperación.
     
     > [!IMPORTANT]
-    > El SQL Server en el servidor back-end secundario del servidor de chat persistente debe ejecutarse con una cuenta con privilegios. En concreto, la cuenta debe incluir: 
+    > El SQL Server en el servidor back-end del servidor de chat persistente secundario debe ejecutarse con una cuenta con privilegios. En concreto, la cuenta debe incluir: 
   
    - Acceso de lectura al recurso compartido de red en el que están las copias de seguridad.
     
@@ -135,7 +135,7 @@ Estos pasos están pensados para recuperar la configuración tal y como estaba a
     
    - Puede aceptar el nombre del conjunto de copia de seguridad predeterminado que se sugiere en **Nombre**, o bien especificar otro.
     
-   -  *\<Optional\>*  En **Descripción,** escriba una descripción del conjunto de copia de seguridad.
+   -  *\<Optional\>*  En **Descripción**, escriba una descripción del conjunto de copia de seguridad.
     
    - Elimine la ubicación de copia de seguridad predeterminada de la lista de destino.
     
@@ -145,7 +145,7 @@ Estos pasos están pensados para recuperar la configuración tal y como estaba a
     
 4. Restaure la base de datos principal a partir de la copia de seguridad creada en el paso anterior.
     
-   - Mediante SQL Server Management Studio, conéctese a la instancia mgc principal.
+   - Con SQL Server Management Studio, conéctese a la instancia principal de mgc.
     
    - Haga doble clic con el botón secundario en la base de datos mgc, apunte a **Tareas**, apunte a **Restaurar** y, a continuación, haga clic en **Base de datos**. Aparecerá el cuadro de diálogo **Restaurar base de datos**.
     
@@ -163,7 +163,7 @@ Estos pasos están pensados para recuperar la configuración tal y como estaba a
     
    - Haga clic en **Aceptar** para iniciar el proceso de restauración.
     
-5. Configure SQL Server trasvase de registros para la base de datos principal. Siga los procedimientos descritos en [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) para establecer el trasvase de registros para la base de datos mgc principal.
+5. Configure SQL Server de registro para la base de datos principal. Siga los procedimientos descritos en [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) para establecer el trasvase de registros para la base de datos mgc principal.
     
 6. Establezca los servidores activos del servidor de chat persistente. Desde el Shell de administración de Skype Empresarial Server, use el cmdlet **Set-CsPersistentChatActiveServer** para establecer la lista de servidores activos.
     
@@ -176,6 +176,4 @@ Para restaurar el grupo a su estado normal, ejecute el siguiente Windows PowerSh
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Set-CsPersistentChatState.](https://docs.microsoft.com/powershell/module/skype/set-cspersistentchatstate?view=skype-ps)
-  
-
+Para obtener más información, vea el tema de ayuda para el cmdlet [Set-CsPersistentChatState.](/powershell/module/skype/set-cspersistentchatstate?view=skype-ps)

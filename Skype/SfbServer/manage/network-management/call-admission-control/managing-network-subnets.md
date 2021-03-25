@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: En la mayoría de las implementaciones de Skype Empresarial Server donde se implementa el control de admisión de llamadas (CAC), normalmente habrá un gran número de subredes. Por este razón, suele ser mejor configurar subredes desde el Shell de administración de Skype Empresarial Server.
-ms.openlocfilehash: e2ac69190ab93b4b6d81fed13538cc6fcaa91f20
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: En la mayoría de las implementaciones de Skype Empresarial Server donde se implementa el control de admisión de llamadas (CAC), normalmente habrá un gran número de subredes. Debido a esto, suele ser mejor configurar subredes desde el Shell de administración de Skype Empresarial Server.
+ms.openlocfilehash: ef771ad78f00085374038203e1049790a9179e88
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816400"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122444"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Administrar subredes de red en Skype Empresarial Server
 
-Puede usar el Panel de control de Skype Empresarial Server o el Shell de administración de Skype Empresarial Server para administrar subredes de red. En la mayoría de las implementaciones de Skype Empresarial Server donde se implementa el control de admisión de llamadas (CAC), normalmente habrá un gran número de subredes. Por este razón, suele ser mejor configurar subredes desde el Shell de administración de Skype Empresarial Server.
+Puede usar el Panel de control de Skype Empresarial Server o el Shell de administración de Skype Empresarial Server para administrar subredes de red. En la mayoría de las implementaciones de Skype Empresarial Server donde se implementa el control de admisión de llamadas (CAC), normalmente habrá un gran número de subredes. Debido a esto, suele ser mejor configurar subredes desde el Shell de administración de Skype Empresarial Server.
 
-Use las secciones de este artículo para ver la información de subred de red o crear, modificar o eliminar subredes de red. 
+Use las secciones de este artículo para ver información de subred de red o crear, modificar o eliminar subredes de red. 
 
 ## <a name="view-network-subnet-information"></a>Ver información de subred de red 
 
@@ -34,7 +34,7 @@ Puede usar el siguiente procedimiento para ver una subred de la red. Desde el Pa
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Subred.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Subred**.
 
 4.  En la página **Subred**, haga clic en la subred que desea ver.
  
@@ -43,11 +43,11 @@ Puede usar el siguiente procedimiento para ver una subred de la red. Desde el Pa
 
 5.  En el menú **Editar**, haga clic en **Mostrar detalles**.
 
-### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>Ver información de configuración de subred de red mediante cmdlets Windows PowerShell de red
+### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>Ver la información de configuración de subred de red mediante Windows PowerShell cmdlets
 
 La información de subred de red se puede ver mediante Windows PowerShell y el cmdlet Get-CsNetworkSubnet red. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
 
-### <a name="to-view-network-subnet-information"></a>Para ver la información de subred de red
+### <a name="to-view-network-subnet-information"></a>Para ver información de subred de red
 
   - Para ver información sobre todas las subredes de red, escriba el siguiente comando en el Shell de administración de Skype Empresarial Server y, a continuación, presione ENTRAR:
     
@@ -62,14 +62,14 @@ La información de subred de red se puede ver mediante Windows PowerShell y el c
         SubnetID      : 172.11.15.0
 
 
-Para más información, vea el tema de ayuda del cmdlet [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet).
+Para más información, vea el tema de ayuda del cmdlet [Get-CsNetworkSubnet](/powershell/module/skype/Get-CsNetworkSubnet).
 
 
 ## <a name="create-or-modify-network-subnets"></a>Crear o modificar subredes de red 
 
 Cada subred de red debe asociarse a un sitio de red para poder determinar la ubicación geográfica del host que pertenece a esta subred. Puede usar el Panel de control de Skype Empresarial Server para configurar subredes. Desde el Panel de control de Skype Empresarial Server, puede crear, modificar o eliminar una subred de red. 
 
-En la mayoría de las implementaciones de Skype Empresarial Server donde se implementa el control de admisión de llamadas (CAC), normalmente habrá un gran número de subredes. Por este razón, suele ser mejor configurar subredes desde el Shell de administración de Skype Empresarial Server. Desde allí, puede llamar **a New-CsNetworkSubnet** junto con el cmdlet **Windows PowerShell Import-CSV**. Con todos estos cmdlets puede leer configuraciones de subred desde un archivo .csv y crear varias subredes al mismo tiempo. Para consultar ejemplos sobre cómo crear subredes a partir de un archivo .csv, consulte [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
+En la mayoría de las implementaciones de Skype Empresarial Server donde se implementa el control de admisión de llamadas (CAC), normalmente habrá un gran número de subredes. Debido a esto, suele ser mejor configurar subredes desde el Shell de administración de Skype Empresarial Server. Desde allí, puede llamar a **New-CsNetworkSubnet** junto con Windows PowerShell cmdlet **Import-CSV**. Con todos estos cmdlets puede leer configuraciones de subred desde un archivo .csv y crear varias subredes al mismo tiempo. Para consultar ejemplos sobre cómo crear subredes a partir de un archivo .csv, consulte [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
 
 
 ### <a name="to-create-a-network-subnet"></a>Para crear una subred de red
@@ -78,7 +78,7 @@ En la mayoría de las implementaciones de Skype Empresarial Server donde se impl
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Subred.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Subred**.
 
 4.  En la página **Subred**, haga clic en **Nueva**.
 
@@ -102,7 +102,7 @@ En la mayoría de las implementaciones de Skype Empresarial Server donde se impl
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Subred.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Subred**.
 
 4.  En la página **Subred**, haga clic en la subred que desea modificar.
 
@@ -116,7 +116,7 @@ En la mayoría de las implementaciones de Skype Empresarial Server donde se impl
 
 Puede usar el procedimiento siguiente para eliminar una subred. Desde el Panel de control de Skype Empresarial Server, puede crear, modificar o eliminar una subred de red. 
 
-En la mayoría de las implementaciones de Skype Empresarial Server donde se implementa el control de admisión de llamadas (CAC), normalmente habrá un gran número de subredes. Por este razón, suele ser mejor configurar subredes desde el Shell de administración de Skype Empresarial Server. Desde allí, puede llamar **a New-CsNetworkSubnet** junto con el cmdlet **Windows PowerShell Import-CSV**. Con todos estos cmdlets puede leer configuraciones de subred desde un archivo .csv y crear varias subredes al mismo tiempo. Para ver ejemplos de cómo crear subredes desde un archivo .csv, consulte [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
+En la mayoría de las implementaciones de Skype Empresarial Server donde se implementa el control de admisión de llamadas (CAC), normalmente habrá un gran número de subredes. Debido a esto, suele ser mejor configurar subredes desde el Shell de administración de Skype Empresarial Server. Desde allí, puede llamar a **New-CsNetworkSubnet** junto con Windows PowerShell cmdlet **Import-CSV**. Con todos estos cmdlets puede leer configuraciones de subred desde un archivo .csv y crear varias subredes al mismo tiempo. Para ver ejemplos de cómo crear subredes desde un archivo .csv, consulte [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
 
 
 ### <a name="to-delete-a-network-subnet"></a>Para eliminar una subred de red:
@@ -125,7 +125,7 @@ En la mayoría de las implementaciones de Skype Empresarial Server donde se impl
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Subred.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Subred**.
 
 4.  En la página **Subred**, haga clic en la subred que desea eliminar.
  
@@ -137,12 +137,12 @@ En la mayoría de las implementaciones de Skype Empresarial Server donde se impl
 6.  Haga clic en **Aceptar**.
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
-[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)  
+[New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)  
 
-[Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSubnet)  
+[Set-CsNetworkSubnet](/powershell/module/skype/Set-CsNetworkSubnet)  
 
-[Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSubnet)  
+[Remove-CsNetworkSubnet](/powershell/module/skype/Remove-CsNetworkSubnet)  
 
-[Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet)  
+[Get-CsNetworkSubnet](/powershell/module/skype/Get-CsNetworkSubnet)

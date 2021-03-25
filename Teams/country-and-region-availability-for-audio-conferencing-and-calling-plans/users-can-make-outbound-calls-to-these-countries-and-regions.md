@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Este tema contiene todos los países y regiones en los que los usuarios pueden realizar llamadas si tienen un plan de llamadas.
-ms.openlocfilehash: 4e41235473436e326d19f42d8e838d5508becf97
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6287fb3adb1532ffa423cd9becd65b2f1028b604
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141053"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122264"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden realizar llamadas a estos países y regiones
 
@@ -93,7 +93,6 @@ ms.locfileid: "43141053"
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

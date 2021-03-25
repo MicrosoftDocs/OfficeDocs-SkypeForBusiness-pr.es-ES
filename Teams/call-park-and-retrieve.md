@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el parque de llamadas y recuperar para poner una llamada en espera en Microsoft Teams.
-ms.openlocfilehash: efc36a2bc90b64abf2e886c5e768a26704bd6550
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102806"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197585"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
@@ -61,7 +61,7 @@ Para editar la directiva, selecciónelo en la lista y haga clic en **Editar.**
 
 Para que la directiva funcione, debe asignarse a los usuarios. Puede asignar [la directiva a los usuarios individualmente](assign-policies.md) o asignarla a un grupo.
 
-Para asignar una directiva de elemento de llamada a un grupo
+Para asignar una directiva de parque de llamadas a un grupo
 
 1. En la página **Directivas de parque de** llamadas, en la pestaña **Asignación de** directivas de grupo, haga clic en Agregar **grupo.**
 2. Busque el grupo que desea usar y, a continuación, haga clic en **Agregar**.
