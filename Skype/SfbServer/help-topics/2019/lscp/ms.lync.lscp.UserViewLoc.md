@@ -1,5 +1,5 @@
 ---
-title: Usuarios ver o configurar la directiva de ubicación
+title: Usuarios Ver o configurar directiva de ubicación
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: d8ba7ebd3b509992b8f4194d0e2b135aaae144c4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8229d6283aa9ebf30b5d40737621e0bf6a8c6e97
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808120"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122004"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="83a31-104">Usuarios: Ver o configurar directiva de ubicación</span><span class="sxs-lookup"><span data-stu-id="83a31-104">Users: View or Configure Location Policy</span></span>
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="59ac9-104">Usuarios: Ver o configurar directiva de ubicación</span><span class="sxs-lookup"><span data-stu-id="59ac9-104">Users: View or Configure Location Policy</span></span>
 
-<span data-ttu-id="83a31-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="83a31-105">What do you want to do?</span></span> <span data-ttu-id="83a31-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="83a31-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="59ac9-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="59ac9-105">What do you want to do?</span></span> <span data-ttu-id="59ac9-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="59ac9-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="83a31-107">Asignar una directiva de ubicación a un usuario</span><span class="sxs-lookup"><span data-stu-id="83a31-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
-
-
-
+- [<span data-ttu-id="59ac9-107">Asignar una directiva de ubicación a un usuario</span><span class="sxs-lookup"><span data-stu-id="59ac9-107">Assign a Location Policy to a User</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)

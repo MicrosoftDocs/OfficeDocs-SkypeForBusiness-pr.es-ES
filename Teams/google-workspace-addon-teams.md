@@ -1,5 +1,5 @@
 ---
-title: Configurar el complemento para reuniones de Microsoft Teams para Google Workspace
+title: Configurar el complemento de reunión de Microsoft Teams para Google Workspace
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aravin
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar el complemento para reuniones de Microsoft Teams para Google Workspace.
+description: Obtenga información sobre cómo configurar el complemento de reunión de Microsoft Teams para Google Workspace.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -18,40 +18,40 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c86d707a4298d88d3ae0cff389bda73490390e4
-ms.sourcegitcommit: 380cd74c08cd34e1c3f73f5c0f51da4ae2674f6f
+ms.openlocfilehash: 6e1b7024190ac51b89e09fafced86ffea13f5961
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49880893"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120701"
 ---
-# <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a><span data-ttu-id="1cd02-103">Configurar el complemento para reuniones de Microsoft Teams para Google Workspace</span><span class="sxs-lookup"><span data-stu-id="1cd02-103">Set up Microsoft Teams meeting add-on for Google Workspace</span></span>
+# <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a><span data-ttu-id="68d41-103">Configurar el complemento de reunión de Microsoft Teams para Google Workspace</span><span class="sxs-lookup"><span data-stu-id="68d41-103">Set up Microsoft Teams meeting add-on for Google Workspace</span></span>
 
-<span data-ttu-id="1cd02-104">Usar el complemento para reuniones de Microsoft Teams permite a los usuarios del calendario de Google programar y unirse a una reunión de Microsoft Teams directamente desde Google Workspace.</span><span class="sxs-lookup"><span data-stu-id="1cd02-104">Using the Microsoft Teams meeting add-on lets Google calendar users schedule and join a Microsoft Teams meeting directly from Google Workspace.</span></span> <span data-ttu-id="1cd02-105">Los usuarios tendrán acceso a las características de reuniones de Teams, como videoconferencias y audioconferencias, pantalla compartida, chat de reuniones, pizarras digitales y mucho más.</span><span class="sxs-lookup"><span data-stu-id="1cd02-105">Users will get access to Teams meetings features including video and audio conferencing, screen sharing, meeting chat, digital whiteboards, and more.</span></span> <span data-ttu-id="1cd02-106">Mantente conectado y organizado para hacer más cosas juntos en el trabajo, la escuela y la vida.</span><span class="sxs-lookup"><span data-stu-id="1cd02-106">Stay connected and organized to get more done together across work, school, and life.</span></span>
+<span data-ttu-id="68d41-104">El uso del complemento de reunión de Microsoft Teams permite a los usuarios del calendario de Google programar y unirse a una reunión de Microsoft Teams directamente desde Google Workspace.</span><span class="sxs-lookup"><span data-stu-id="68d41-104">Using the Microsoft Teams meeting add-on lets Google calendar users schedule and join a Microsoft Teams meeting directly from Google Workspace.</span></span> <span data-ttu-id="68d41-105">Los usuarios tendrán acceso a las características de reuniones de Teams, como videoconferencias y audioconferencias, uso compartido de pantalla, chat de reunión, pizarras digitales y mucho más.</span><span class="sxs-lookup"><span data-stu-id="68d41-105">Users will get access to Teams meetings features including video and audio conferencing, screen sharing, meeting chat, digital whiteboards, and more.</span></span> <span data-ttu-id="68d41-106">Manténgase conectado y organizado para trabajar más juntos en el trabajo, la escuela y la vida.</span><span class="sxs-lookup"><span data-stu-id="68d41-106">Stay connected and organized to get more done together across work, school, and life.</span></span>
 
-<span data-ttu-id="1cd02-107">El complemento para reuniones de Microsoft Teams para Google Workspace debe estar habilitado por un administrador de Teams para que los usuarios inquilinos puedan acceder a la aplicación.</span><span class="sxs-lookup"><span data-stu-id="1cd02-107">The Microsoft Teams meeting add-on for Google Workspace must be enabled by a Teams admin before tenant users can access the app.</span></span>
+<span data-ttu-id="68d41-107">El complemento de reunión de Microsoft Teams para Google Workspace debe estar habilitado por un administrador de Teams para que los usuarios inquilinos puedan acceder a la aplicación.</span><span class="sxs-lookup"><span data-stu-id="68d41-107">The Microsoft Teams meeting add-on for Google Workspace must be enabled by a Teams admin before tenant users can access the app.</span></span>
 
-## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a><span data-ttu-id="1cd02-108">Habilitar o deshabilitar el complemento para reuniones de Microsoft Teams para Google Workspace en Azure Portal</span><span class="sxs-lookup"><span data-stu-id="1cd02-108">Enable or disable Microsoft Teams meeting add-on for Google Workspace in the Azure portal</span></span>
+## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a><span data-ttu-id="68d41-108">Habilitar o deshabilitar el complemento de reunión de Microsoft Teams para Google Workspace en Azure Portal</span><span class="sxs-lookup"><span data-stu-id="68d41-108">Enable or disable Microsoft Teams meeting add-on for Google Workspace in the Azure portal</span></span>
 
-<span data-ttu-id="1cd02-109">Como administrador de inquilinos, puede habilitar o deshabilitar un complemento para reuniones de Microsoft Teams para Google Workspace desde la cuenta de administrador de su organización con Azure Portal.</span><span class="sxs-lookup"><span data-stu-id="1cd02-109">As a tenant administrator, you can enable or disable a Microsoft Teams meeting add-on for Google Workspace from your organization's admin account using the Azure portal.</span></span>
+<span data-ttu-id="68d41-109">Como administrador de inquilinos, puede habilitar o deshabilitar un complemento de reunión de Microsoft Teams para Google Workspace desde la cuenta de administrador de su organización con Azure Portal.</span><span class="sxs-lookup"><span data-stu-id="68d41-109">As a tenant administrator, you can enable or disable a Microsoft Teams meeting add-on for Google Workspace from your organization's admin account using the Azure portal.</span></span>
 
-<span data-ttu-id="1cd02-110">El complemento está habilitado de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="1cd02-110">The add-on is enabled by default.</span></span>
+<span data-ttu-id="68d41-110">El complemento está habilitado de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="68d41-110">The add-on is enabled by default.</span></span>
 
-1. <span data-ttu-id="1cd02-111">Inicia sesión en Azure Portal.</span><span class="sxs-lookup"><span data-stu-id="1cd02-111">Sign in to the Azure portal.</span></span>
+1. <span data-ttu-id="68d41-111">Inicie sesión en Azure Portal.</span><span class="sxs-lookup"><span data-stu-id="68d41-111">Sign in to the Azure portal.</span></span>
 
-2. <span data-ttu-id="1cd02-112">Seleccione **Aplicaciones**  >  **empresariales Todas las aplicaciones.**</span><span class="sxs-lookup"><span data-stu-id="1cd02-112">Select **Enterprise applications** > **All applications**.</span></span>
+2. <span data-ttu-id="68d41-112">Seleccione **Aplicaciones**  >  **empresariales Todas las aplicaciones**.</span><span class="sxs-lookup"><span data-stu-id="68d41-112">Select **Enterprise applications** > **All applications**.</span></span>
 
-3. <span data-ttu-id="1cd02-113">Busque el **complemento para reuniones de Microsoft Teams para Google Workspace.**</span><span class="sxs-lookup"><span data-stu-id="1cd02-113">Search for **Microsoft Teams meeting add-on for Google Workspace**.</span></span>
+3. <span data-ttu-id="68d41-113">Busque el **complemento de reunión de Microsoft Teams para Google Workspace.**</span><span class="sxs-lookup"><span data-stu-id="68d41-113">Search for **Microsoft Teams meeting add-on for Google Workspace**.</span></span>
 
    ![Azure Portal que muestra todas las aplicaciones](media/aad-add-google-workspace.png)
 
-4. <span data-ttu-id="1cd02-115">Seleccione **Sí.**</span><span class="sxs-lookup"><span data-stu-id="1cd02-115">Select **Yes**.</span></span>
+4. <span data-ttu-id="68d41-115">Seleccione **Sí**.</span><span class="sxs-lookup"><span data-stu-id="68d41-115">Select **Yes**.</span></span>
 
    ![Azure Portal que muestra las propiedades del área de trabajo de Google](media/google-workspace-properties.png)
 
-5. <span data-ttu-id="1cd02-117">(Opcional) Para deshabilitar el complemento, seleccione **No** en lugar de **Sí** en el paso 4.</span><span class="sxs-lookup"><span data-stu-id="1cd02-117">(Optional) To disable the add-on, select **No** instead of **Yes** in Step 4.</span></span>
+5. <span data-ttu-id="68d41-117">(Opcional) Para deshabilitar el complemento, seleccione **No** en lugar de **Sí** en el paso 4.</span><span class="sxs-lookup"><span data-stu-id="68d41-117">(Optional) To disable the add-on, select **No** instead of **Yes** in Step 4.</span></span>
 
-## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a><span data-ttu-id="1cd02-118">Deshabilitar el complemento para reuniones de Microsoft Teams para Google Workspace con PowerShell</span><span class="sxs-lookup"><span data-stu-id="1cd02-118">Disable Microsoft Teams meeting add-on for Google Workspace using PowerShell</span></span>
+## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a><span data-ttu-id="68d41-118">Deshabilitar el complemento de reunión de Microsoft Teams para Google Workspace con PowerShell</span><span class="sxs-lookup"><span data-stu-id="68d41-118">Disable Microsoft Teams meeting add-on for Google Workspace using PowerShell</span></span>
 
 ```powershell
 Connect-AzureAD
@@ -73,8 +73,8 @@ if ($servicePrincipal) {
 }
 ```
 
-<span data-ttu-id="1cd02-119">Para obtener más información, vea [Crear una entidad de servicio de Azure con Azure PowerShell.](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)</span><span class="sxs-lookup"><span data-stu-id="1cd02-119">For more information, see [Create an Azure service principal with Azure PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).</span></span>
+<span data-ttu-id="68d41-119">Para obtener más información, vea Crear una entidad de [servicio de Azure con Azure PowerShell.](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)</span><span class="sxs-lookup"><span data-stu-id="68d41-119">For more information, see [Create an Azure service principal with Azure PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).</span></span>
 
-## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a><span data-ttu-id="1cd02-120">Eliminar el complemento de reunión de Microsoft Teams para Google Workspace</span><span class="sxs-lookup"><span data-stu-id="1cd02-120">Delete the Microsoft Teams meeting add-on for Google Workspace</span></span>
+## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a><span data-ttu-id="68d41-120">Eliminar el complemento de reunión de Microsoft Teams para Google Workspace</span><span class="sxs-lookup"><span data-stu-id="68d41-120">Delete the Microsoft Teams meeting add-on for Google Workspace</span></span>
 
-<span data-ttu-id="1cd02-121">Consulte la documentación de Google [Eliminar una aplicación de Google Workspace Marketplace](https://support.google.com/a/answer/6216211?hl=en) para obtener instrucciones.</span><span class="sxs-lookup"><span data-stu-id="1cd02-121">See the Google documentation [Delete a Google Workspace Marketplace app](https://support.google.com/a/answer/6216211?hl=en) for instructions.</span></span>
+<span data-ttu-id="68d41-121">Consulte la documentación de Google [Eliminar una aplicación de Google Workspace Marketplace para](https://support.google.com/a/answer/6216211?hl=en) obtener instrucciones.</span><span class="sxs-lookup"><span data-stu-id="68d41-121">See the Google documentation [Delete a Google Workspace Marketplace app](https://support.google.com/a/answer/6216211?hl=en) for instructions.</span></span>

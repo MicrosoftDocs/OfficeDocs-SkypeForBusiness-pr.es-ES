@@ -9,12 +9,12 @@ metadata:
   author: SerdarSoysal
   ms.author: serdars
   ms.date: 06/16/2020
-  ms.openlocfilehash: 3a6ca55dfcc94f1370043e2fbb743b10473d106a
-  ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
-  ms.translationtype: HT
+  ms.openlocfilehash: 3e702f300e6d2b53319b694b3d536f539ad1ff56
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/05/2021
-  ms.locfileid: "50508003"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51120621"
 highlightedContent:
   items:
   - title: Bienvenido a Microsoft Teams
@@ -63,4 +63,4 @@ productDirectory:
   - title: Actualice los talleres que tenga planeados
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
     summary: 'Planifique e implemente una actualización satisfactoria a Teams. (Público: profesionales de TI, administradores encargados de la adopción del cambio)'
-    url: https://aka.ms/SkypetoTeamsPlanning
+    url: ./upgrade-workshops-landing-page.yml

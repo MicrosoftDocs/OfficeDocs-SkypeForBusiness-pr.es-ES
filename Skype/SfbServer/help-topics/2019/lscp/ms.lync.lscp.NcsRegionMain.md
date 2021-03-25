@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: 1d3fe1f6-e987-4b21-aafd-4ceaf523027a
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 58db01d1269cb9d8ac3579c6ce3e9d11b88ab06b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7773376de2d0858083a59358d89bedee589d32c4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808550"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122094"
 ---
-# <a name="configure-a-network-region"></a><span data-ttu-id="5f297-104">Configurar una región de red</span><span class="sxs-lookup"><span data-stu-id="5f297-104">Configure a Network Region</span></span>
+# <a name="configure-a-network-region"></a><span data-ttu-id="b4a07-104">Configurar una región de red</span><span class="sxs-lookup"><span data-stu-id="b4a07-104">Configure a Network Region</span></span>
 
-<span data-ttu-id="5f297-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="5f297-105">What do you want to do?</span></span> <span data-ttu-id="5f297-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="5f297-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b4a07-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="b4a07-105">What do you want to do?</span></span> <span data-ttu-id="b4a07-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="b4a07-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="5f297-107">Configuración de regiones de red</span><span class="sxs-lookup"><span data-stu-id="5f297-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
-
-
-
+- [<span data-ttu-id="b4a07-107">Configuración de regiones de red</span><span class="sxs-lookup"><span data-stu-id="b4a07-107">Configuring Network Regions</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-regions)

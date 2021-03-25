@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Puede editar la configuración general para el servidor de chat persistente o el grupo de servidores de chat persistente mediante la configuración o definición de estas propiedades:'
-ms.openlocfilehash: 33a5f3ad5866608faff07b3e8d56776e5411628a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Para editar la configuración general del servidor de chat persistente o el grupo de servidores de chat persistente, configure o defina estas propiedades:'
+ms.openlocfilehash: 874cbb77890519bea0ff1d2b3f9399350983ec4c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819400"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121043"
 ---
-# <a name="persistent-chat-general-settings-expander"></a><span data-ttu-id="84fa9-103">Expansor de configuración general del chat persistente</span><span class="sxs-lookup"><span data-stu-id="84fa9-103">Persistent Chat General Settings Expander</span></span>
+# <a name="persistent-chat-general-settings-expander"></a><span data-ttu-id="e3ed6-103">Expansor de configuración general del chat persistente</span><span class="sxs-lookup"><span data-stu-id="e3ed6-103">Persistent Chat General Settings Expander</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="84fa9-104">El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no es compatible con Skype Empresarial Server 2019.</span><span class="sxs-lookup"><span data-stu-id="84fa9-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="84fa9-105">La misma funcionalidad está disponible en Teams.</span><span class="sxs-lookup"><span data-stu-id="84fa9-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="84fa9-106">Para obtener más información, consulte [Actualización de Skype Empresarial a Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)</span><span class="sxs-lookup"><span data-stu-id="84fa9-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="84fa9-107">Si necesita usar el chat persistente, puede migrar usuarios que requieran esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015.</span><span class="sxs-lookup"><span data-stu-id="84fa9-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="e3ed6-104">El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019.</span><span class="sxs-lookup"><span data-stu-id="e3ed6-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="e3ed6-105">La misma funcionalidad está disponible en Teams.</span><span class="sxs-lookup"><span data-stu-id="e3ed6-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="e3ed6-106">Para obtener más información, [vea Skype Empresarial to Microsoft Teams upgrade](/MicrosoftTeams/upgrade-start-here).</span><span class="sxs-lookup"><span data-stu-id="e3ed6-106">For more information, see [Skype for Business to Microsoft Teams upgrade](/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="e3ed6-107">Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015.</span><span class="sxs-lookup"><span data-stu-id="e3ed6-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
