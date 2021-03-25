@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Descargue la Guía de habilitación de sitios para planear la implementación de Teams y acelerar y optimizar la adopción del usuario, la satisfacción y la calidad.
+description: Descargue el Libro de reproducción de habilitación del sitio para planear la implementación de Teams y acelerar y optimizar la adopción del usuario, la percepción de calidad y la satisfacción.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -20,24 +20,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae9a1e6abf7dbf97e625be4eb69a0ef95b1910da
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3c3f0105a04484efcabd5ab6c55d1269c3627895
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532577"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112636"
 ---
 # <a name="deploy-my-service"></a>Implementar mis servicios
 
-En este artículo se ofrece información general sobre los requisitos para implementar correctamente los servicios de voz en la nube. Si sigue instrucciones prescriptivas para implementar servicios de voz en la nube, puede asegurarse de que cumple correctamente todos los requisitos y ofrece resultados que se pueden repetir.
+En este artículo se proporciona información general sobre los requisitos para implementar correctamente los servicios de voz en la nube. Siguiendo instrucciones prescriptivas para implementar servicios de voz en la nube, puede asegurarse de que cumple correctamente todos los requisitos y ofrece resultados repetibles.
 
-## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Guía de reproducción de habilitación de sitios para cargas de trabajo de voz de Microsoft Teams
+## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Libro de reproducción de habilitación del sitio para cargas de trabajo de voz de Microsoft Teams
 
-Use esta guía para ayudar a su organización a planear y ejecutar correctamente la implementación de las características de voz de Microsoft Teams en cada sitio.
+Use este libro de juegos para ayudar a su organización a planear y ejecutar correctamente la implementación de las características de voz de Microsoft Teams de forma individual.
 
-Con todas las actividades necesarias, las escalas de tiempo recomendadas y los vínculos a las instrucciones correspondientes de cada actividad, en esta guía se delegue una guía de un extremo a otro para garantizar una implementación de voz de Teams correcta para un sitio específico, centrándose en los factores importantes para el usuario.
+Incluyendo todas las actividades necesarias, las escalas de tiempo recomendadas y los vínculos a las instrucciones correspondientes para cada actividad, este libro de reproducción trata las instrucciones de extremo a extremo para ayudar a garantizar una implementación de voz de Teams correcta para un sitio determinado, centrándose en los factores que son importantes para el usuario.
 
-Al completar las actividades de esta guía, la organización puede:
+Al completar las actividades de este libro de juegos, su organización puede:
 
 -   Planee y programe su implementación de Teams de forma eficaz.
 
@@ -46,20 +46,20 @@ Al completar las actividades de esta guía, la organización puede:
 -   Reduzca las necesidades de soporte técnico y aumente la satisfacción del usuario.
 
 > [!NOTE]
-> Este artículo y la guía asociada no están pensados para describir todos los pasos de configuración técnica necesarios para habilitar el servicio o proporcionar un tono de marcado a un sitio específico. En su lugar, se centran en las actividades y tareas recomendadas para incorporar a los usuarios fácilmente y que empiecen a consumir cargas de trabajo de voz de Teams a través de una transición rápida y fluida con un alto índice de adopción, a la vez que minimizan los requisitos de soporte técnico. Para obtener instrucciones técnicas sobre cómo configurar mejor el entorno para teams de voz, consulte las listas de comprobación de incorporación para configurar las cargas de trabajo de voz de [Teams,](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)configurar el enrutamiento directo en [Teams,](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)las funcionalidades principales de [Teams,](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)las redes para [Teams](prepare-network.md)y habilitar [Microsoft 365 u Office 365.](onboarding-checklist-enable-office-365.md)
+> Este artículo y el libro de juegos asociados no están diseñados para describir todos los pasos de configuración técnica necesarios para la habilitación del servicio o proporcionar tono de marcado a un sitio específico. En su lugar, se centran en las actividades y tareas recomendadas para incorporar a los usuarios fácilmente y hacer que empiecen a consumir cargas de trabajo de voz de Teams mediante una transición rápida y fluida con una alta tasa de adopción, al tiempo que minimizan los requisitos de soporte técnico. Para obtener instrucciones técnicas sobre cómo configurar mejor su entorno para la voz de Teams, vea las listas de comprobación de incorporación para configurar las cargas de trabajo de voz de [Teams,](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)configurar el enrutamiento directo en [Teams,](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)las capacidades principales de [Teams,](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)las redes para [Teams](prepare-network.md)y habilitar [Microsoft 365 u Office 365.](onboarding-checklist-enable-office-365.md)
 
 <!--ENDOFSECTION-->
 
-## <a name="playbook-focus-areas"></a>Áreas en las que centrarse en playbook
+## <a name="playbook-focus-areas"></a>Áreas de foco de Playbook
 
-El foco del libro de reproducción es tratar los factores que influyen en la idea del usuario de implementar una implementación de voz de Teams. Las actividades y las tareas se agrupan en las siguientes áreas de foco:
+El foco del libro de reproducción es abordar los factores que influyen en la percepción del usuario de una implementación de voz de Teams. Las actividades y tareas se agrupan en las siguientes áreas de enfoque:
 
--   Validación de disponibilidad del servicio
+-   Validación de la preparación del servicio
     - Audioconferencia
     - Planes de llamadas
     - Enrutamiento directo
 
--   Habilitación del usuario
+-   Habilitación de usuario
 
 -   Puntos de conexión
 
@@ -67,49 +67,49 @@ El foco del libro de reproducción es tratar los factores que influyen en la ide
 
 -   Adopción
 
-El [Libro de reproducción de habilitación de sitios para voz (Guía de reproducción)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) es un libro de Microsoft Excel. Cada una de estas cinco áreas de foco es una hoja separada en el libro y cada tarea y actividad de implementación se agrupan en una de estas hojas.
+El [Libro de reproducción de habilitación del sitio para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) es un libro de Microsoft Excel. Cada una de estas cinco áreas de enfoque es una hoja independiente en el libro y cada tarea y actividad de implementación se agrupa en una de estas hojas.
 
 ![Captura de pantalla del libro de reproducción de habilitación del sitio](media/deploy-my-service-image1.png "Captura de pantalla del libro de reproducción")
 
 > [!NOTE]
-> Creará una instancia independiente del libro de reproducción para cada sitio en el ámbito de su implementación de Teams.
+> Creará una instancia independiente del libro de juegos para cada sitio en el ámbito de la implementación de Teams.
 
 <!--ENDOFSECTION-->
 
-## <a name="how-to-use-the-playbook"></a>Cómo usar la guía
+## <a name="how-to-use-the-playbook"></a>Cómo usar el libro de reproducción
 
-Independientemente del tamaño y la complejidad de la ubicación, habilitar cada sitio requiere que planee las tareas y actividades lo suficientemente pronto y las ejecute en orden óptimo antes, durante y después de la implementación del servicio real. Le recomendamos que siga estos pasos mientras planea y ejecuta su propio camino a la voz de Microsoft Teams.
+Independientemente del tamaño y la complejidad de la ubicación, la habilitación de cada sitio requiere que planee sus tareas y actividades lo suficientemente pronto como para ejecutarlas en orden óptimo, antes, durante y después de la implementación real del servicio. Le recomendamos que siga estos pasos a medida que planee y ejecute su propio viaje a La voz de Microsoft Teams.
 
-1. Descargue el Libro de reproducción para voz [(Guía de reproducción)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) para Microsoft Teams Voice.
+1. Descargue el Libro de reproducción de habilitación [del sitio para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) para Microsoft Teams Voice.
 
 2. Cree una copia independiente del libro de reproducción para cada sitio.
 
-3. En la pestaña de la hoja denominada Playbook para **{SiteName-Code},** reemplace **{SiteName-Code}** por el nombre del sitio correspondiente o el código de sitio.
+3. En la pestaña de la hoja denominada **Playbook para {SiteName-Code},** reemplace **{SiteName-Code}** por el nombre del sitio o el código de sitio correspondiente.
 
-4. Escriba el **nombre del sitio, el código de** sitio y la fecha de lanzamiento **planeada,** como se muestra a continuación. Este es un paso crítico, ya que ajusta las fechas límite recomendadas para cada actividad de la guía.
+4. Escriba el **nombre del sitio, el código del** sitio y la fecha de inicio **planificada,** como se muestra a continuación. Este es un paso crítico, ya que ajusta las fechas límite recomendadas para cada actividad del libro de reproducción.
 
-   ![Ejemplo con el nombre del sitio, el código de sitio y la fecha de lanzamiento planeada](media/deploy-my-service-image2.png "Ejemplo con el nombre del sitio de Nueva York, el código de sitio NY01 y la fecha de lanzamiento planeada del 20-mar.-18")
+   ![Ejemplo con nombre de sitio, código de sitio y fecha de inicio planeada](media/deploy-my-service-image2.png "Ejemplo con el nombre del sitio de Nueva York, el código de sitio NY01 y la fecha de lanzamiento planeada del 20 de marzo al 18")
 
-5. Revise cada actividad, tome las medidas necesarias y actualice el estado a medida que pase por la escala de tiempo. El estado se representa gráficamente, como se describe a continuación:
+5. Revise cada actividad, haga las acciones necesarias y actualice el estado a medida que pase por la escala de tiempo. El estado se representa gráficamente, como se describe a continuación:
   
-   - ![Ilustración de una marca de verificación verde Sí o no aplicable ](media/deploy-my-service-image3.png) **(verde):** La actividad se ha completado o no es aplicable a este sitio y no es necesario realizar ninguna acción.</li>
-   - ![Ilustración de un signo de exclamación amarillo: La actividad aún no ha finalizado (amarillo): La actividad no se ha completado todavía y debe actualizarse a Sí o No en ](media/deploy-my-service-image4.png) <strong></strong> su programación.</li>
-   - ![Ilustración de una X roja que indica ](media/deploy-my-service-image5.png) <strong>que no hay (rojo):</strong> la actividad no se puede completar debido a un problema y debe llevar a la reunión de estado del proyecto.</li></ul>
+   - ![Ilustración de una marca de verificación verde Sí o no aplicable ](media/deploy-my-service-image3.png) **(verde):** la actividad se ha completado o no es aplicable para este sitio y no se necesita ninguna acción adicional.</li>
+   - ![Ilustración de un signo de exclamación amarillo La actividad aún no se ha completado (amarillo): la actividad aún no se ha completado y debe actualizarse a Sí o No en ](media/deploy-my-service-image4.png) <strong></strong> su programación.</li>
+   - ![Ilustración de una X roja que indica que no ](media/deploy-my-service-image5.png) <strong>(rojo):</strong> la actividad no se puede completar debido a un problema y debe llevarse a la reunión de estado del proyecto.</li></ul>
 
-6. El estado se muestra dentro de cada sección y el encabezado de la sección tiene formato con uno de estos indicadores de estado. **El estado semanal** también se actualiza automáticamente.
+6. El estado se incluye en cada sección y el encabezado de sección tiene formato con uno de estos indicadores de estado. **El estado semanal** también se actualiza automáticamente.
 
-![Captura de pantalla de los informes de estado semanales en el libro de reproducción](media/deploy-my-service-image6.png "Captura de pantalla de los informes de estado semanales en el libro de reproducción")
+![Captura de pantalla de las actualizaciones semanales de estado en el libro de reproducción](media/deploy-my-service-image6.png "Captura de pantalla de las actualizaciones semanales de estado en el libro de reproducción")
 
 > [!TIP]
-> Repita los pasos anteriores para todas las ubicaciones que tenga.
+> Repita los pasos anteriores para todas las ubicaciones que tiene.
 
 > [!IMPORTANT]
-> Es posible que algunos pasos no sean aplicables a todas las ubicaciones y sitios. Si una actividad específica no es relevante para un sitio, debe seleccionar **No aplicable** a esta actividad. **NO ELIMINE ninguna** fila de la guía; si lo hace, las fórmulas de la lista de estado no funcionarán.<br/><br/>
-Preste atención a las actividades que podrían llevar más tiempo del planeado, como porciones de números y actividades de compra. Estas actividades pueden afectar negativamente a la escala de tiempo de implementación del sitio. Asegúrese de revisar y actualizar la lista de actividades y [](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) la escala de tiempo asociada semanalmente, y de presentarlos en reuniones del comité de dirección para asegurarse de que las partes interesadas son conscientes del estado de cada sitio y las posibles desviaciones de la programación de implementación.
+> Es posible que algunos pasos no sean aplicables a todas las ubicaciones y sitios. Si una actividad específica no es relevante para un sitio, debe seleccionar **No aplicable** a esta actividad. **DO NOT DELETE** any rows in the playbook; si lo hace, las fórmulas de succión de estado no funcionarán.<br/><br/>
+Preste atención a las actividades que pueden llevar más tiempo de lo planeado, como porción de números y actividades de compras. Estas actividades pueden afectar negativamente a la escala de tiempo de implementación del sitio. Asegúrese de revisar y actualizar la lista de actividades y [](./envision-steering-committee-complete-guide.md) la escala de tiempo asociada semanalmente y presentarlas en reuniones del comité de dirección para asegurarse de que las partes interesadas son conscientes del estado de cada sitio y de las posibles desviaciones de la programación de implementación.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida si la Guía de habilitación del sitio es necesaria para la implementación.</li><li>Decida quién será el responsable de personalizar el libro de reproducción de habilitación del sitio para Microsoft Teams en cada sitio que implemente.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Descargue el Libro de reproducción de habilitación del sitio.</a></li><li>Personalice el Libro de reproducción de habilitación del sitio para su primer sitio.</li><li>Repita el proceso según sea necesario para sitios adicionales.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida si el Playbook de habilitación del sitio es necesario para su implementación.</li><li>Decida quién será el responsable de personalizar el Playbook de habilitación del sitio para Microsoft Teams para cada sitio que implemente.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Descargue el Libro de reproducción de habilitación del sitio.</a></li><li>Personalice el Libro de reproducción de habilitación del sitio para el primer sitio.</li><li>Repita el procedimiento según sea necesario para sitios adicionales.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

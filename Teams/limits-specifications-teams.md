@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0db359fee9089a52b8d3e7a728542dba21952db7
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 98f462044fba566ecea491bc55bf8df055973701
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874530"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112296"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -49,7 +49,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Número máximo de miembros de un grupo de Office 365 que se pueden convertir en un equipo    |10 000<sup>6</sup>     |
 |Tamaño de publicación de conversación de canal | Aproximadamente 28 KB por publicación<sup>5</sup> |
 
-<sup>1</sup> Cualquier objeto del directorio de Azure Active Directory cuenta para este límite. Los administradores globales están exentos de este límite, al igual que las aplicaciones que llamen a Microsoft Graph usando los [permisos de la aplicación](https://docs.microsoft.com/graph/permissions-reference).
+<sup>1</sup> Cualquier objeto del directorio de Azure Active Directory cuenta para este límite. Los administradores globales están exentos de este límite, al igual que las aplicaciones que llamen a Microsoft Graph usando los [permisos de la aplicación](/graph/permissions-reference).
 
 <sup>2</sup> Este límite incluye equipos archivados. 
 
@@ -78,7 +78,7 @@ El chat de Teams funciona en un servidor back-end de Microsoft Exchange, por lo 
 
 <sup>1</sup> Si tiene más de 20 contactos en un chat, se desactivarán las siguientes características del chat: mensajes de respuesta automáticos de Outlook y de estado de Teams; indicador de escritura; llamadas de audio y vídeo; uso compartido; confirmaciones de lectura. El botón de "Establecer opciones de entrega" (!) también desaparece cuando hay más de 20 miembros en los chats de grupo privado.
 
-<sup>2</sup> Solo se pueden agregar a una conversación de grupo 200 miembros cada vez. [Consulte este artículo para obtener más información](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> Solo se pueden agregar a una conversación de grupo 200 miembros cada vez. [Consulte este artículo para obtener más información](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
 <sup>3</sup> Si el número de archivos adjuntos supera este límite, aparecerá un mensaje de error.
 
@@ -99,7 +99,7 @@ El chat de Teams funciona en un servidor back-end de Microsoft Exchange, por lo 
 
 <sup>2</sup> Si el número de archivos adjuntos o imágenes supera este límite, aparecerá un mensaje de error.
 
-Para más información, consulte [Límites de Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
+Para más información, consulte [Límites de Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
 > Los límites de tamaño de los mensajes, datos adjuntos e imágenes incorporadas son iguales en todas las licencias de Microsoft 365 y Office 365. Para las organizaciones GCC/GCCH/DOD de Office no es posible enviar correos electrónicos a un canal en Teams.
@@ -181,7 +181,7 @@ La presencia de Teams en Outlook es compatible con la aplicación de escritorio 
 Cada equipo de Microsoft Teams tiene un sitio de grupo en SharePoint Online y cada canal de un equipo tiene una carpeta dentro de la biblioteca de documentos del sitio de grupo predeterminado. Los archivos compartidos en un chat se agregan automáticamente a la biblioteca de documentos y los permisos y opciones de seguridad configurados en SharePonit se reflejan automáticamente en Microsoft Teams.
 
 > [!NOTE]
-> Cada [canal privado](https://docs.microsoft.com/microsoftteams/private-channels) tiene su propio sitio de SharePoint (antes llamado "colección de sitios")
+> Cada [canal privado](./private-channels.md) tiene su propio sitio de SharePoint (antes llamado "colección de sitios")
 
 Si no tiene SharePoint Online habilitado en su espacio empresarial, los usuarios de Microsoft Teams no siempre podrán compartir archivos en los equipos. Los usuarios en el chat privado tampoco podrán compartir archivos, ya que se necesita OneDrive para la Empresa (el cual está vinculado a la licencia de SharePoint) para dicha función.
 

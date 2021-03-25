@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a81b34bb028d81e7a79d771db7f0f406af364011
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 680bfad9090899ecce1f6e2be7bd9a0a25f5099a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397425"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112176"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Elegir la vía de actualización de Skype Empresarial a Teams
 
@@ -35,8 +35,8 @@ ms.locfileid: "50397425"
 Este artículo forma parte de la fase de definición de proyecto de su vía de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
 
 - [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
-- [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Ha definido el ámbito del proyecto](./upgrade-define-project-scope.md)
+- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 Como cliente existente de Skype Empresarial, la transición completa a Teams puede llevar cierto tiempo. Sin embargo, puede empezar hoy mismo a comprender el valor de Teams habilitando a sus usuarios para utilizar Teams junto con Skype Empresarial. Dado que hay algunas funciones superpuestas entre las dos aplicaciones, le recomendamos que revise los modos de coexistencia y actualización disponibles para ayudar a determinar qué ruta es la adecuada para su organización. Por ejemplo, es posible que decida permitir todas las cargas de trabajo en ambas soluciones sin interoperabilidad. O bien, puede decidir administrar la experiencia de usuario, ya sea mediante la introducción gradual de las funciones de Teams o seleccionando grupos de usuarios para ciertas funciones, hasta que la organización esté preparada para actualizar a todos sus miembros a Teams. Use el resultado de la prueba piloto para evaluar la vía adecuada para la actualización de su organización.
 
@@ -48,21 +48,21 @@ Este artículo describe los distintos modos que le permiten administrar las moda
 > [!TIP]
 > Únase a nosotros para realizar talleres interactivos en directo en los que compartiremos directrices, procedimientos recomendados y recursos diseñados para iniciar la planificación y la implementación de la actualización.
 >
->Para empezar, únase en primer lugar a la sesión [Planificar la actualización](https://aka.ms/SkypeToTeamsPlanning).
+>Para empezar, únase en primer lugar a la sesión [Planificar la actualización](./upgrade-workshops-landing-page.yml).
 
 
 ## <a name="upgrade-journey-building-blocks"></a>Bloques de construcción de la vía de actualización
 
 A fin de preparar formalmente la organización para que pase a Teams, debe empezar a planificar los escenarios de actualización que finalmente permitirán a la organización adoptar plenamente Teams como única solución de colaboración y comunicación.
 
-Para recibir orientación sobre el proceso de toma de decisiones, familiarícese con los distintos modos, conceptos y terminología relevantes para actualizar de Skype Empresarial a Teams. Para obtener más información, vea Coexistencia e interoperabilidad de Microsoft Teams y [Skype Empresarial.](https://aka.ms/SkypeToTeams-Coexist)
+Para recibir orientación sobre el proceso de toma de decisiones, familiarícese con los distintos modos, conceptos y terminología relevantes para actualizar de Skype Empresarial a Teams. Para obtener más información, vea Coexistencia e interoperabilidad de Microsoft Teams y [Skype Empresarial.](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 > [!NOTE]
 > También tendrá que tener en cuenta los escenarios de migración de voz. Phone System es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de Pbx (Private Branch Exchange) en la nube de Microsoft 365 u Office 365. Para conectar el sistema telefónico a la red telefónica conmutada (RTC) para que los usuarios puedan realizar llamadas telefónicas en todo el mundo, tiene opciones basadas en las necesidades de su empresa. Para obtener más información sobre las opciones de conectividad del sistema telefónico y RTC, vea [Voz: sistema telefónico y conectividad RTC.](cloud-voice-landing-page.md)
 
 Un usuario que ha migrado a Teams ya no usa un cliente de Skype Empresarial, salvo para incorporarse a una reunión mantenida en Skype Empresarial. Todos los chats y llamadas entrantes se aterrizó en el cliente de Teams del usuario, independientemente de si el remitente usa Teams o Skype Empresarial. Todas las reuniones nuevas organizadas por el usuario actualizado se programarán como reuniones de Teams. Si el usuario intenta usar el cliente de Skype Empresarial, se bloqueará el inicio de chats y llamadas<sup>1</sup>. Sin embargo, el usuario puede (y debe) seguir usando el cliente de Skype Empresarial para incorporarse a las reuniones a las que sea invitado.
 
-Los administradores gestionan la transición a Teams aplicando el concepto de [modo](migration-interop-guidance-for-teams-with-skype.md), que es una propiedad de [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Un usuario que se ha migrado a Teams como se describe anteriormente está en modo "TeamsOnly". En el caso de una organización que va a migrar a Teams, el objetivo final es pasar a todos los usuarios al modo TeamsOnly.
+Los administradores gestionan la transición a Teams aplicando el concepto de [modo](migration-interop-guidance-for-teams-with-skype.md), que es una propiedad de [TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Un usuario que se ha migrado a Teams como se describe anteriormente está en modo "TeamsOnly". En el caso de una organización que va a migrar a Teams, el objetivo final es pasar a todos los usuarios al modo TeamsOnly.
 
 Hay dos métodos para migrar una organización existente con Skype Empresarial (tanto en línea como local) a Teams:
 
@@ -121,13 +121,13 @@ En la tabla siguiente se resumen las ventajas e inconvenientes de usar el métod
 | :------------------ | :---------------- |
 | Permite una rápida adopción en la organización.| Existe un potencial de confusión para el usuario final debido a que existen dos clientes con funcionalidades similares pero interfaces de usuario diferentes. Además, no tienen control sobre el cliente al que llegan los mensajes de chat o llamadas entrantes. |
 | Permite a los usuarios aprender y familiarizarse con Teams y seguir teniendo acceso completo a Skype Empresarial. | Existe un potencial de insatisfacción para el usuario final debido a la pérdida de mensajes si el usuario no ejecuta los dos clientes.|
-| Mínimo esfuerzo de administración para empezar a trabajar en Teams. | Puede ser un reto el modo "salir de las islas" y pasar al modo TeamsOnly si los usuarios y aquellos con los que se comunican regularmente no usan teams activamente. Por ejemplo, una vez que un subconjunto de usuarios se actualiza al modo TeamsOnly, esos usuarios solo se enviarán en Teams. Para el resto de la población en el modo Islas, esos mensajes siempre llegarán a Teams. Pero si parte de esa población no ejecuta Teams, estos mensajes se verán como perdidos.|
+| Mínimo esfuerzo de administración para empezar a trabajar en Teams. | Puede ser un reto el modo "salir de las islas" y pasar al modo TeamsOnly si los usuarios y los usuarios con los que se comunican regularmente no usan teams activamente. Por ejemplo, una vez que un subconjunto de usuarios se actualiza al modo TeamsOnly, esos usuarios solo se enviarán en Teams. Para el resto de la población en el modo Islas, esos mensajes siempre llegarán a Teams. Pero si parte de esa población no ejecuta Teams, estos mensajes se verán como perdidos.|
 |Permite a los usuarios aprovechar funciones para mejorar el trabajo en equipo que no están disponibles en Skype Empresarial.| Un usuario que utiliza Skype Empresarial en local y Teams no podrá comunicarse desde Teams con otros usuarios que usen Skype Empresarial en local pero no dispongan de Teams.  |
 |  | Al usar Teams, los usuarios que tienen una cuenta local en Skype Empresarial Server no tienen compatibilidad de interoperabilidad o federación.  Esto puede crear confusión si tiene una combinación de usuarios de islas, algunos que se encuentran en Skype Empresarial Online y otros en Skype Empresarial local.   |
 
 <sup>2</sup> Esto es así incluso si el usuario se encuentra en una ubicación local en Skype Empresarial Server. Tanto si el usuario está en local como si está en línea, deje la licencia de Skype Empresarial Online habilitada, dado que actualmente es necesaria para la plena funcionalidad de Teams.
 
-<sup>3 Tenga</sup> en cuenta que la migración de las reuniones de Skype Empresarial a reuniones de Teams solo se desencadena al aplicar TeamsUpgradePolicy a usuarios individuales, no por inquilino. Para obtener más información, consulte [Migración de reuniones](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+<sup>3 Tenga</sup> en cuenta que la migración de las reuniones de Skype Empresarial a reuniones de Teams solo se desencadena al aplicar TeamsUpgradePolicy a usuarios individuales, no por inquilino. Para obtener más información, consulte [Migración de reuniones](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 ## <a name="select-capabilities-method-using-skype-for-business-modes"></a>Seleccionar el método de funcionalidades (con modos de Skype Empresarial)
 
@@ -200,19 +200,18 @@ En la tabla siguiente se resumen los métodos de actualización:
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul> Decida la escala de tiempo del itinerario de actualización de su organización en función de la mensajería, las reuniones y los requisitos empresariales de llamadas.<br><br> Decida el trabajo adicional que necesita para completar el itinerario de la actualización.<br><br></ul></td></tr>
 </table>
 
-Después de elegir el mejor viaje de actualización para su organización, [realice la actualización a Teams.](https://aka.ms/SkypeToTeams-Upgrade)
+Después de elegir el mejor viaje de actualización para su organización, [realice la actualización a Teams.](./upgrade-to-teams.md)
 
 ## <a name="related-links"></a>Vínculos relacionados
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Configurar la conectividad híbrida entre Skype Empresarial Server y Microsoft 365 u Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Configurar la conectividad híbrida entre Skype Empresarial Server y Microsoft 365 u Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[Mover usuarios entre la implementación local y la nube](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[Mover usuarios entre la implementación local y la nube](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [Configurar su coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[Usar el servicio de migración de reuniones (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
-
+[Usar el servicio de migración de reuniones (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

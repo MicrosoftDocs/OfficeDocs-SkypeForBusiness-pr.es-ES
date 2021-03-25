@@ -21,34 +21,34 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: b7a4ee991ff8a8e41401b3b2d2dc20aa20708b88
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 956c2fa23f61f0c0e24cd1c2a0802bd3f1397bb1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163939"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113226"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Establecer los números de teléfono incluidos en las invitaciones en Skype Empresarial Online
 
 > [!Note]
-> Para obtener información sobre los números de teléfono de las invitaciones de reunión en Microsoft Teams, vea Establecer los números de teléfono incluidos en [las invitaciones en Microsoft Teams.](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)
+> Para obtener información sobre los números de teléfono de invitación a reuniones en Microsoft Teams, vea Establecer los números de teléfono [incluidos en las invitaciones en Microsoft Teams.](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)
 
-Audioconferencia en Microsoft 365 u Office 365 permite a los usuarios de su organización crear reuniones de Skype Empresarial y luego permitir que los usuarios llamen a esas reuniones con un teléfono. En Microsoft 365 y Office 365, tiene la opción de usar un puente de audioconferencia de Microsoft o un puente de audioconferencia de terceros hospedado por un proveedor de servicios de audioconferencia (ACP) aprobado.
+Las audioconferencias en Microsoft 365 u Office 365 permiten a los usuarios de su organización crear reuniones de Skype Empresarial y, a continuación, permitir que los usuarios llamen a esas reuniones con un teléfono. En Microsoft 365 y Office 365, tiene la opción de usar un puente de audioconferencia de Microsoft o un puente de audioconferencia de terceros hospedado por un proveedor de audioconferencias (ACP) aprobado.
   
 > [!NOTE]
-> No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia. Si quiere ver si hay números de teléfono de acceso telefónico en su área, país o región, use el Centro de administración de **Skype** Empresarial, haga clic en Agregar nuevos números de  >    >   **servicio.**  Use las listas de País **o**  **región,** Estado o región y Ciudad para filtrar la búsqueda.>  Además, si busca números de servicio gratuitos, seleccione Gratuitos en la lista Estado **o** Región.
+> No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia. Si quiere ver si hay números de teléfono de acceso telefónico telefónico disponible en su área o país o región, use el Centro de administración de **Skype** Empresarial Números de teléfono de voz, haga clic en Agregar y, a continuación, en Nuevos números  >    >   **de servicio.**  Use las listas de **País/Región,** **Estado/Región** y **Ciudad** para filtrar la búsqueda.> Además, si  busca números de servicio gratuitos, seleccione Gratuito en la lista Estado **o** Región.
   
-Un puente de conferencias le proporciona un conjunto de números de teléfono de acceso telefónico local para su organización. Todos ellos se pueden usar para unirse a las reuniones que haya creado un organizador de reuniones, pero puede seleccionar los que se incluirán en las invitaciones a la reunión.
+Un puente de conferencias le proporciona un conjunto de números de teléfono de acceso telefónico local para su organización. Todas ellas se pueden usar para unirse a las reuniones que ha creado un organizador de la reunión, pero puede seleccionar las que se incluirán en sus invitaciones de reunión.
   
 > [!NOTE]
-> Puede haber un máximo de un número de pago y un número gratuito en la invitación a la reunión para el organizador de la reunión, pero también hay un vínculo en la parte inferior de cada invitación de reunión que abre la lista completa de todos los números de acceso telefónico local que se pueden usar para unirse a una reunión. 
+> Puede haber un máximo de un número de teléfono gratuito y un número de teléfono gratuito en la invitación de reunión para un organizador de la reunión, pero también hay un vínculo situado en la parte inferior de cada invitación a la reunión que abre la lista completa de todos los números de teléfono de acceso telefónico local que se pueden usar para unirse a una reunión. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Establecer el número de teléfono de acceso telefónico predeterminado para el organizador de la reunión
+## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Establecer el número de teléfono de acceso telefónico predeterminado para un organizador de la reunión
 
-1. Inicie sesión con su cuenta del trabajo o de la escuela.
+1. Inicie sesión con su cuenta de trabajo o escuela.
     
 2. Seleccione **Centros de administración** > **Skype Empresarial**.
     
@@ -58,11 +58,11 @@ Un puente de conferencias le proporciona un conjunto de números de teléfono de
   
 4. Elija los usuarios que desea editar:
     
-   - Para seleccionar un solo usuario, seleccione el nombre del usuario.
+   - Para seleccionar un único usuario, seleccione el nombre del usuario.
     
-   - Para seleccionar todos los usuarios de la página, seleccione el cuadro situado junto al nombre **para mostrar** en la parte superior de la lista.
+   - Para seleccionar todos los usuarios de la página, seleccione el cuadro situado junto a **Mostrar nombre** en la parte superior de la lista.
     
-   - Para seleccionar varios usuarios, active la casilla situada junto al nombre de cada usuario.
+   - Para seleccionar varios usuarios, seleccione el cuadro junto al nombre de cada usuario.
     
 5. En el panel derecho, elija **Editar**.
     
@@ -70,34 +70,34 @@ Un puente de conferencias le proporciona un conjunto de números de teléfono de
   
 6. Elija **Audioconferencia.**
     
-7. En la **página** Propiedades, en la **lista Nombre** del proveedor, elija el proveedor para el usuario. Según el proveedor, complete los siguientes cuadros.
+7. En la **página Propiedades,** en la **lista Nombre del** proveedor, elija el proveedor para el usuario. Según el proveedor, complete los siguientes cuadros.
     
-   - **Microsoft es el proveedor:** use  las listas **de** números gratuitos y números gratuitos predeterminados para seleccionar los números predeterminados del usuario.
+   - **Microsoft es el proveedor:** use  las listas Número de pago predeterminado y Número gratuito predeterminado para seleccionar los números predeterminados para el usuario. 
     
      > [!NOTE]
-     > Debe asignarse al menos un número gratuito al puente de conferencia antes de que se pueda establecer como el número gratuito predeterminado de un usuario. Para obtener un número gratuito, consulte Obtener números de teléfono de [servicio para Skype Empresarial.](/microsoftteams/getting-service-phone-numbers) 
+     > Se debe asignar al menos un número gratuito al puente de conferencias para poder establecerlo como el número gratuito predeterminado de un usuario. Para obtener un número gratuito, vea Obtener números de [teléfono de servicio para Skype Empresarial.](/microsoftteams/getting-service-phone-numbers) 
   
-   - **Un tercero es el proveedor:** use  los campos Número de pago y Número gratuito para introducir los números del usuario. 
+   - **Un tercero es el proveedor:** Use  los campos Número de pago y Número gratuito para escribir los números del usuario. 
 
 
-## <a name="reset-audio-conferencing-phone-numbers"></a>Restablecer los números de teléfono de audioconferencia
+## <a name="reset-audio-conferencing-phone-numbers"></a>Restablecer números de teléfono de audioconferencia
 
 1. En el **Centro de administración de Skype Empresarial,** elija **Audioconferencia.**
     
 2. En la parte superior de la página, elija **Usuarios.**
     
-3. Elija los usuarios que desea restablecer y, a continuación, en el panel de acciones, haga clic en **Borrar.**
+3. Elija los usuarios que desea restablecer y, a continuación, en el panel De acciones, haga clic en **Borrar**.
     
-De forma predeterminada, al cambiar la configuración de conferencia de un usuario, se envía un correo electrónico al usuario. Para cambiar esto, vea Habilitar o deshabilitar el envío de correos electrónicos cuando cambia la [configuración de Audioconferencia.](enable-or-disable-sending-emails-when-their-settings-change.md)
+De forma predeterminada, al cambiar la configuración de conferencia de un usuario, se envía un correo electrónico al usuario. Para cambiar esto, vea Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la [configuración de audioconferencia.](enable-or-disable-sending-emails-when-their-settings-change.md)
   
 > [!IMPORTANT]
-> Cuando cambia la configuración de audioconferencia de un usuario, las reuniones periódicas y futuras de Skype Empresarial deben actualizarse y enviarse a los asistentes. 
+> Al cambiar la configuración de audioconferencia de un usuario, las reuniones periódicas y futuras de Skype Empresarial deben actualizarse y enviarse a los asistentes. 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
-- Para ahorrar tiempo o automatizar este proceso, puede usar el cmdlet [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688).
+- Para ahorrar tiempo o automatizar este proceso, puede usar el cmdlet [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser).
     
-- Use el cmdlet [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) para cambiar el número de pago o el número gratuito predeterminado para usuarios específicos.
+- Use el cmdlet [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) para cambiar el número de pago o el número gratuito predeterminado para usuarios específicos.
     
     Para cambiar el número gratuito predeterminado de un usuario, ejecute:
     
@@ -108,7 +108,7 @@ De forma predeterminada, al cambiar la configuración de conferencia de un usuar
 - Use el cmdlet de **Set-CsOnlineDialInConferencingUserDefaultNumber** para cambiar el número de pago o el número gratuito predeterminado de los usuarios, según el número predeterminado original o la ubicación.
     
     > [!NOTE]
-    > Para buscar el Id. de puente, use el cmdlet **Get-CsOnlineDialInConferencingBridge.**
+    > Para buscar el BridgeID, use el cmdlet **Get-CsOnlineDialInConferencingBridge.**
   
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
@@ -120,13 +120,13 @@ De forma predeterminada, al cambiar la configuración de conferencia de un usuar
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
-  - Para cambiar el número gratuito predeterminado de todos los usuarios con +18005551234 como su número gratuito predeterminado a +18005551239, ejecute:
+  - Para cambiar el número gratuito predeterminado de todos los usuarios que tienen +18005551234 como su número gratuito predeterminado a +18005551239, ejecute:
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - Para establecer el número gratuito predeterminado de todos los usuarios que se encuentran en EE. UU. en +18005551234, ejecute:
+  - Para establecer el número gratuito predeterminado de todos los usuarios ubicados en EE. UU. en +18005551234, ejecute:
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
@@ -134,18 +134,18 @@ De forma predeterminada, al cambiar la configuración de conferencia de un usuar
   ## <a name="want-to-learn-more-about-windows-powershell"></a>¿Desea obtener más información sobre Windows PowerShell?
 - En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Una introducción a Windows PowerShell y Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [¿Por qué necesita usar Microsoft 365 u Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por qué necesita usar Microsoft 365 u Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso solo del Centro de administración de Microsoft 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en velocidad, sencillez y productividad sobre el uso solo del Centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Usar Windows PowerShell para administrar Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar Audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Probar o comprar audioconferencias en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
