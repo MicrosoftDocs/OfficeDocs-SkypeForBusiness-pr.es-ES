@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Una ruta de región de red define la ruta entre un par de regiones de red. Cada par de regiones de red en su implementación de control de admisión de llamadas requiere una ruta de región de red.
-ms.openlocfilehash: 23dec126511b941ff3e25b22c37cbba0854b13bc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c91f46ff45dd50f638cdb4f256fb93f2d33781ec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816440"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118559"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Administrar rutas de regiones de red en Skype Empresarial Server
 
@@ -26,7 +26,7 @@ Una *ruta de región de red* define la ruta entre un par de regiones de red. Cad
 
 Todas las regiones dentro de una configuración de control de admisión de llamadas (CAC) deben poder obtener acceso de alguna forma a todas las demás regiones. Mientras que los vínculos regionales establecen las limitaciones de ancho de banda de las conexiones entre regiones y también representan los vínculos físicos, las rutas determinan la ruta de acceso vinculada que atravesará la conexión de una región a otra. Use los siguientes procedimientos para ver las rutas de región de red existentes en el Panel de control de Skype Empresarial Server o en el Shell de administración de Skype Empresarial Server. 
 
-### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>Para ver la información de ruta de región de red en el Panel de control de Skype Empresarial Server
+### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>Para ver información de ruta de región de red en el Panel de control de Skype Empresarial Server
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
@@ -44,11 +44,11 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 5.  En el menú  **Editar**, haga clic en  **Mostrar detalles**.
 
 
-### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Visualización de la información de ruta de región de red mediante cmdlets Windows PowerShell región
+### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Visualización de la información de ruta de región de red mediante Windows PowerShell cmdlets
 
-La información de ruta de región de red se puede ver mediante Windows PowerShell y el cmdlet Get-CsNetworkInterRegionRoute región. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
+La información de ruta de región de red se puede ver mediante Windows PowerShell y el cmdlet Get-CsNetworkInterRegionRoute red. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
 
-### <a name="to-view-network-region-route-information"></a>Para ver la información de ruta de región de red
+### <a name="to-view-network-region-route-information"></a>Para ver información de ruta de región de red
 
   - Para ver información sobre todas las rutas de región de red, escriba el siguiente comando en el Shell de administración de Skype Empresarial Server y, a continuación, presione ENTRAR:
     
@@ -62,12 +62,12 @@ La información de ruta de región de red se puede ver mediante Windows PowerShe
         NetworkRegionID1          : Pacific Northwest
         NetworkRegionID2          : Northeast
 
-Para obtener más información, vea el tema de la Ayuda para el cmdlet [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute).
+Para obtener más información, vea el tema de la Ayuda para el cmdlet [Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute).
 
 
 ## <a name="create-or-modify-network-region-routes"></a>Crear o modificar rutas de región de red
 
-Todas las regiones dentro de una configuración de control de admisión de llamadas (CAC) deben poder obtener acceso de alguna forma a todas las demás regiones. Mientras que los vínculos regionales establecen las limitaciones de ancho de banda de las conexiones entre regiones y también representan los vínculos físicos, las rutas determinan la ruta de acceso vinculada que atravesará la conexión de una región a otra. Puede usar el Panel de control de Skype Empresarial Server para configurar rutas regionales de red. Desde el Panel de control de Skype Empresarial Server, puede crear, modificar o eliminar una ruta regional de red. Consulte este tema para crear o modificar una ruta regional de red. 
+Todas las regiones dentro de una configuración de control de admisión de llamadas (CAC) deben poder obtener acceso de alguna forma a todas las demás regiones. Mientras que los vínculos regionales establecen las limitaciones de ancho de banda de las conexiones entre regiones y también representan los vínculos físicos, las rutas determinan la ruta de acceso vinculada que atravesará la conexión de una región a otra. Puede usar el Panel de control de Skype Empresarial Server para configurar rutas de región de red. Desde el Panel de control de Skype Empresarial Server, puede crear, modificar o eliminar una ruta de región de red. Consulte este tema para crear o modificar una ruta regional de red. 
 
 ### <a name="to-create-a-network-region-route"></a>Para crear una ruta regional de red
 
@@ -82,11 +82,11 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 5.  En **Nueva ruta regional**, escriba un valor en el campo **Nombre**.
    
     > [!NOTE]  
-    > Este valor debe ser único en la implementación de Skype Empresarial Server.
+    > Este valor debe ser único dentro de la implementación de Skype Empresarial Server.
 
 6.  En la lista desplegable Región de red **\# 1,** seleccione una de las dos regiones que se conectarán mediante esta ruta.
 
-7.  En la lista desplegable Región de red **\# 2,** seleccione la otra región para esta ruta. Esta región debe ser diferente de la región seleccionada para la región de red \# 1.
+7.  En la lista desplegable Región de red **\# 2,** seleccione la otra región para esta ruta. Esta región debe ser diferente de la región seleccionada para la región \# de red 1.
 
 8.  Use el cuadro de lista **Vínculos de región de red** para agregar vínculos de red a la ruta. Haga clic en el botón **Agregar** para mostrar la página **Vínculo regional**. Haga clic en un vínculo regional para agregarlo a esta ruta y, a continuación, haga clic en **Aceptar**.
     
@@ -115,7 +115,7 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 ## <a name="delete-existing-network-region-routes"></a>Eliminar rutas de región de red existentes
 
-Todas las regiones dentro de una configuración de control de admisión de llamadas (CAC) deben poder obtener acceso de alguna forma a todas las demás regiones. Mientras que los vínculos regionales establecen las limitaciones de ancho de banda de las conexiones entre regiones y también representan los vínculos físicos, las rutas determinan la ruta de acceso vinculada que atravesará la conexión de una región a otra. Puede usar el Panel de control de Skype Empresarial Server para configurar rutas regionales de red. Desde el Panel de control de Skype Empresarial Server, puede crear, modificar o eliminar una ruta regional de red. Use este tema para eliminar las rutas de región de red existentes. 
+Todas las regiones dentro de una configuración de control de admisión de llamadas (CAC) deben poder obtener acceso de alguna forma a todas las demás regiones. Mientras que los vínculos regionales establecen las limitaciones de ancho de banda de las conexiones entre regiones y también representan los vínculos físicos, las rutas determinan la ruta de acceso vinculada que atravesará la conexión de una región a otra. Puede usar el Panel de control de Skype Empresarial Server para configurar rutas de región de red. Desde el Panel de control de Skype Empresarial Server, puede crear, modificar o eliminar una ruta de región de red. Use este tema para eliminar las rutas de región de red existentes. 
 
 ### <a name="to-delete-a-network-region-route"></a>Para eliminar una ruta regional de red
 
@@ -136,14 +136,14 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 [Administrar regiones de red en Skype Empresarial Server](managing-network-regions.md)
 
-[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  
+[New-CsNetworkInterRegionRoute](/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 
-[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute) 
+[Set-CsNetworkInterRegionRoute](/powershell/module/skype/Set-CsNetworkInterRegionRoute) 
  
-[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
+[Remove-CsNetworkInterRegionRoute](/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
 
-[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)  
+[Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute)

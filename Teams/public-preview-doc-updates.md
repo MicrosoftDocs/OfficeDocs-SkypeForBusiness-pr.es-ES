@@ -18,12 +18,12 @@ description: Obtenga más información sobre la versión preliminar pública en 
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: cc3dca351924daa368658a8f0c110099768e9986
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196224"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117708"
 ---
 # <a name="microsoft-teams-public-preview"></a>Versión preliminar pública en Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "50196224"
 
 La versión preliminar pública para Microsoft Teams ofrece acceso anticipado a características no publicadas en Teams. Las versiones preliminares le permiten explorar y probar las características futuras. También agradecemos sus comentarios sobre cualquier característica de la versión preliminar pública. La versión preliminar pública está habilitada por usuario de Teams, por lo que no tiene que preocuparse por si afecta a toda la organización.
 
-Para consultar una lista de elementos disponibles en la versión preliminar pública de Teams, visite [Notas de la versión para el canal actual (versión preliminar) de Office](https://docs.microsoft.com/officeupdates/current-channel-preview).
+Para consultar una lista de elementos disponibles en la versión preliminar pública de Teams, visite [Notas de la versión para el canal actual (versión preliminar) de Office](/officeupdates/current-channel-preview).
 
 ## <a name="set-the-update-policy"></a>Configure la directiva de actualización
 
@@ -58,5 +58,4 @@ Para habilitar la versión preliminar pública en un escritorio o cliente web, t
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Versión preliminar pública para desarrolladores](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
-
+[Versión preliminar pública para desarrolladores](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)

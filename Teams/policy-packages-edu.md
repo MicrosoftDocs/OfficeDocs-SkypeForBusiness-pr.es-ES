@@ -21,21 +21,23 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Más información sobre las directivas en una configuración educativa o EDU, y cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: f580d8c41fe629a1c705f650a2aef84302128c20
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 10b87a804523758df69a68ff9c5812a6ea5b448c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908619"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117798"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Directivas de Teams y paquetes de directivas para educación
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > Para más información sobre las directivas en Microsoft Teams, consulte [Asignar directivas a los usuarios en Microsoft Teams](assign-policies.md).
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>Administradores: Introducción a la administración de directivas de Microsoft Teams
 
-Microsoft Teams permite a los usuarios realizar tareas como asistir a reuniones en línea o eventos en directo, chatear, realizar llamadas y usar aplicaciones. Establecer las directivas administrativas correctas de Microsoft Teams es un paso crítico para crear un entorno de aprendizaje seguro para los estudiantes dentro de Teams. Como administrador, puede usar directivas para controlar las características de Teams que están disponibles para los usuarios de su institución educativa.  En la mayoría de los casos, es necesario ajustar las directivas para que tanto los estudiantes como los educadores mantengan un entorno seguro.  
+Microsoft Teams permite a los usuarios realizar tareas como asistir a reuniones en línea o eventos en directo, chatear, realizar llamadas y usar aplicaciones. Establecer las directivas administrativas correctas de Microsoft Teams es un paso crítico para crear un entorno de aprendizaje seguro para los estudiantes dentro de Teams. Como administrador, puede usar directivas para controlar las características de Teams que están disponibles para los usuarios de su institución educativa. En la mayoría de los casos, es necesario ajustar las directivas para que tanto los estudiantes como los educadores mantengan un entorno seguro.  
 
 Esta es una lista de las principales áreas de directivas que encontrará en Microsoft Teams. Para obtener más información sobre las directivas en cada área y las funciones que controlan, use los siguientes vínculos:
 
@@ -155,7 +157,7 @@ Cada directiva individual recibe el nombre del paquete de directivas para que pu
 
 ### <a name="view"></a>Ver
 
-Ver la configuración de cada directiva en un paquete de directivas antes de asignar un paquete. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, seleccione **Paquetes de directivas** , escoja el nombre del paquete y seleccione el nombre de la directiva.
+Ver la configuración de cada directiva en un paquete de directivas antes de asignar un paquete. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, seleccione **Paquetes de directivas**, escoja el nombre del paquete y seleccione el nombre de la directiva.
 
 Decida si los valores predefinidos son adecuados para su organización o si necesita personalizarlos para que sean más restrictivos o flexibles en función de las necesidades de su organización.
 
@@ -189,7 +191,7 @@ Para obtener más información, consulte [Asignar un paquete de directivas a un 
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Asignar un paquete de directivas a un conjunto amplio (un lote) de usuarios
 
-Use la asignación de paquete de directiva por lotes para asignar un paquete de directivas a grandes grupos de usuarios de una sola vez. Use el cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar un lote de usuarios y el paquete de directivas que quiera asignar. Las asignaciones se procesan como una operación de segundo plano y se genera un identificador de operación para cada lote.
+Use la asignación de paquete de directiva por lotes para asignar un paquete de directivas a grandes grupos de usuarios de una sola vez. Use el cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar un lote de usuarios y el paquete de directivas que quiera asignar. Las asignaciones se procesan como una operación de segundo plano y se genera un identificador de operación para cada lote.
 
 Un lote puede contener hasta 5000 usuarios. Puede especificar los usuarios por su identificador de objeto, UPN, dirección SIP o dirección de correo electrónico. Para obtener más información, consulte [Asignar un paquete de directivas a un lote de usuarios](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 

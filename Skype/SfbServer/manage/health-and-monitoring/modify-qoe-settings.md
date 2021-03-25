@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: 'Resumen: obtenga información sobre cómo especificar la retención de datos de QoE en Skype Empresarial Server.'
-ms.openlocfilehash: 18776e9b8eec9dcff6ced9f654d8153d7fa01777
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn how to specify retention of QoE data in Skype for Business Server.'
+ms.openlocfilehash: cba8b2b98aa809c0583ad7323ff846e654ca9ace
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827800"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118619"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Modificar la configuración de calidad de la experiencia en Skype Empresarial Server
 
@@ -46,9 +46,9 @@ El procedimiento siguiente describe cómo establecer la configuración de la dep
 
 7. Haga clic en **Confirmar**.
 
-## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Especificación de la retención de QoE mediante cmdlets Windows PowerShell configuración
+## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Especificación de retención de QoE mediante Windows PowerShell cmdlets
 
-Puede crear la configuración de retención de QoE mediante Windows PowerShell y el cmdlet **Set-CsQoEConfiguration.** Puede ejecutar este cmdlet desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre el uso de Windows PowerShell remoto para conectarse a Skype Empresarial Server, consulte el artículo del blog "Inicio rápido: administración de [Microsoft Lync Server 2010 con PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
+Puede crear la configuración de retención de QoE mediante Windows PowerShell y el cmdlet **Set-CsQoEConfiguration.** Puede ejecutar este cmdlet desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del Windows PowerShell remoto para conectarse a Skype Empresarial Server, vea el artículo de blog "Inicio rápido: Administración de [Microsoft Lync Server 2010 mediante PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>Para especificar la retención de la QoE de una ubicación específica
 
@@ -66,8 +66,8 @@ Puede crear la configuración de retención de QoE mediante Windows PowerShell y
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Set-CsQoEConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
+Para obtener más información, vea el tema de ayuda del cmdlet [Set-CsQoEConfiguration.](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-[Implementación de supervisión](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Implementación de supervisión](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

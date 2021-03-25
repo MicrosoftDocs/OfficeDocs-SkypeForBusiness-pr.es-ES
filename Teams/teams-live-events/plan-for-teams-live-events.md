@@ -20,12 +20,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 26192da2b9d11a94f9d37adb7e1a170cb81d3170
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 1d5c2ad8b737c8299eb04735d5df5dc2893c3568
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884584"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119159"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -45,7 +45,7 @@ Estas son las licencias que debe asignar para organizar, producir o presentar un
 - **Para organizar:** una licencia de Microsoft o de Office 365 Enterprise E1, E3 o E5 **[o]** una licencia de Office 365 Educación A3 o A5. 
 - **Para producir o presentar:** una licencia de Microsoft o de Office 365 Enterprise E1, E3 o E5 **[o]** una licencia de Office 365 Educación A1, A3 o A5. La excepción de este requisito es que los usuarios invitados pueden presentar sin una licencia si se cumplen los otros criterios para [usuarios invitados](plan-for-teams-live-events.md#guest-to-present).
 - Una licencia de Microsoft Teams: se incluye en las licencias que aparecen en la primera y la segunda viñeta.
-- Se requiere una licencia de Microsoft Stream si tiene previsto compartir el contenido en una aplicación o dispositivo externo. Consulte [licencias de Microsoft Stream](https://docs.microsoft.com/stream/license-overview).
+- Se requiere una licencia de Microsoft Stream si tiene previsto compartir el contenido en una aplicación o dispositivo externo. Consulte [licencias de Microsoft Stream](/stream/license-overview).
 
   Los usuarios no necesitarán una licencia asignada de Microsoft Stream si desea que los usuarios únicamente graben y descarguen las grabaciones. Esto significará que las grabaciones no se almacenan en Microsoft Stream, sino que se almacenan en Azure Media Services (AMS) con un límite de 180 días antes de que se eliminen. En este punto, no es algo que un administrador pueda controlar o administrar para incluir la capacidad de eliminarlo.
 
@@ -63,7 +63,7 @@ Para participar en un evento en directo como usuario autenticado se requiere una
 > [!NOTE]
 > Los eventos en directo de Teams Live están disponible para las organizaciones de la comunidad en la nube del gobierno (GCC) en los Estados Unidos.
 
-Para obtener más información sobre las licencias, vea [Licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+Para obtener más información sobre las licencias, vea [Licencias complementarias de Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 El usuario debe tener:
 

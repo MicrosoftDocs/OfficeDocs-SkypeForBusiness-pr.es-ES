@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3665f386f43d8e9b8c49a024663265c25ae96214
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: b4e87103a5325e231bb07ca56ee5c14b8f48294a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136109"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117788"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Introducción al control de directivas para Microsoft Teams
 
@@ -35,7 +35,7 @@ Este artículo ha sido diseñado para proporcionarle información acerca de los 
 Como parte de estos cambios, puede contar con una configuración de directivas y elementos de la interfaz de usuario nuevos y actualizados
 
 > [!IMPORTANT]
-> Para obtener más información, consulte la [introducción al control de directivas](https://docs.microsoft.com/deployoffice/privacy/overview-privacy-controls), contenido para M365.
+> Para obtener más información, consulte la [introducción al control de directivas](/deployoffice/privacy/overview-privacy-controls), contenido para M365.
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>Datos de diagnóstico enviados de Aplicaciones de Microsoft 365 para empresas a Microsoft.
 
@@ -91,10 +91,10 @@ Los datos de servicio requeridos son aquellos que nos permiten ofrecer estas exp
 - **Datos funcionales**, que incluyen la información que necesita una experiencia conectada para realizar la tarea, como la información de configuración de la aplicación.
 - **Datos de diagnóstico de servicio**, que son los datos necesarios para proteger el servicio y mantenerlo actualizado y funcionando según lo esperado. Dado que estos datos están estrictamente relacionados con la experiencia conectada, son independientes de los niveles de datos de diagnóstico necesarios u opcionales.
 
-Puede optar por no ofrecer esta funcionalidad a los usuarios, en cuyo caso esta información no se proporcionará a Microsoft para admitir la funcionalidad de las experiencias conectadas. Puede obtener más información acerca de los [datos de servicio necesarios](https://docs.microsoft.com/deployoffice/privacy/required-service-data).
+Puede optar por no ofrecer esta funcionalidad a los usuarios, en cuyo caso esta información no se proporcionará a Microsoft para admitir la funcionalidad de las experiencias conectadas. Puede obtener más información acerca de los [datos de servicio necesarios](/deployoffice/privacy/required-service-data).
 
 ## <a name="essential-services-for-microsoft-teams"></a>Servicios esenciales para Microsoft Teams
 
 También existe un conjunto de servicios que son esenciales para el funcionamiento de Aplicaciones de Microsoft 365 para empresas y no se pueden deshabilitar. Por ejemplo, el servicio de licencias que confirma que tiene una licencia correcta de uso de Aplicaciones de Microsoft 365 para empresas. Los datos de servicio requeridos sobre estos servicios se recopilan y envían a Microsoft, independientemente de cualquier otra configuración de directiva que haya establecido.
 
-Para obtener más información, consulte [Servicios esenciales de Office](https://docs.microsoft.com/deployoffice/privacy/essential-services).
+Para obtener más información, consulte [Servicios esenciales de Office](/deployoffice/privacy/essential-services).

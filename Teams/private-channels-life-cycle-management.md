@@ -1,5 +1,5 @@
 ---
-title: Administrar los canales privados en Microsoft Teams con la API Graph
+title: Administrar los canales privados en Microsoft Teams con Graph API
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo administrar canales privados en su organización mediante la API Graph.
-ms.openlocfilehash: 854e8721dac7d49e258db42845b84480955bfec7
-ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
+description: Obtenga información sobre cómo administrar canales privados en su organización con Graph API.
+ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772043"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117748"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Administrar el ciclo de vida de los canales privados en Microsoft Teams
 
-Aquí encontrará las instrucciones que necesita para administrar el uso de la API de Graph para administrar los canales [privados de Teams](https://docs.microsoft.com/microsoftteams/private-channels) en su organización.
+Aquí encontrará las instrucciones que necesita para administrar el uso de la API de Graph para administrar los canales privados de [Teams](./private-channels.md) en su organización.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Configurar si los propietarios y miembros pueden crear canales privados
 
@@ -44,7 +44,7 @@ PATCH /teams/<team_id>
 
 ## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>Crear un canal privado en nombre de un propietario del equipo
 
-Como administrador, puede usar la API graph para crear un canal privado en nombre de un propietario del equipo. Por ejemplo, quizá quiera hacerlo si su organización pretende centralizar la creación de canales privados.
+Como administrador, puede usar la API de Graph para crear un canal privado en nombre de un propietario del equipo. Por ejemplo, quizá quiera hacerlo si su organización pretende centralizar la creación de canales privados.
 
 ```Graph API
 POST /teams/{id}/channels
@@ -70,7 +70,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Tanto si quieres hacer una exhibición de documentos electrónicos o archivos de una suspensión por litigio en un canal privado o quieres diseñar una aplicación personalizada que ubique los archivos en ciertos canales privados, querrás una manera de consultar las únicas colecciones de sitios SharePoint que se han creado para cada canal privado.
 
-Como administrador, puede usar los comandos de API de Graph para consultar estas direcciones URL.
+Como administrador, puede usar comandos de API de Graph para consultar estas direcciones URL.
 
 Puede probar estos comandos a través del [Explorador de Graph](https://developer.microsoft.com/graph/graph-explorer).
 
@@ -211,14 +211,14 @@ Puede probar estos comandos a través del [Explorador de Graph](https://develope
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Usar la API de Microsoft Graph para trabajar con Microsoft Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+[Usar la API de Microsoft Graph para trabajar con Microsoft Teams](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
 
-[Enumerar canales](https://docs.microsoft.com/graph/api/channel-list)
+[Enumerar canales](/graph/api/channel-list)
 
-[Crear un canal](https://docs.microsoft.com/graph/api/channel-post)
+[Crear un canal](/graph/api/channel-post)
 
-[Agregar un miembro al canal](https://docs.microsoft.com/graph/api/conversationmember-add)
+[Agregar un miembro al canal](/graph/api/conversationmember-add)
 
-[Actualizar un miembro del canal](https://docs.microsoft.com/graph/api/conversationmember-update)
+[Actualizar un miembro del canal](/graph/api/conversationmember-update)
 
-[Quitar un miembro del canal](https://docs.microsoft.com/graph/api/conversationmember-delete)
+[Quitar un miembro del canal](/graph/api/conversationmember-delete)

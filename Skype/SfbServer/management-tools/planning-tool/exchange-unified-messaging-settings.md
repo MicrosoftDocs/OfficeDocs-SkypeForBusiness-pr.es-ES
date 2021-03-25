@@ -1,5 +1,5 @@
 ---
-title: Configuración de mensajería unificada de Exchange (Herramienta de planeación)
+title: Configuración de mensajería unificada de Exchange (herramienta de planeación)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,24 +13,22 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
-description: Skype Empresarial Server 2015 admite la integración con la mensajería unificada de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería.
-ms.openlocfilehash: a3595d2f5faeac247baa6ea476541fa3a6f973f3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype Empresarial Server 2015 admite la integración con la mensajería unificada (MU) de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una sola infraestructura de mensajería.
+ms.openlocfilehash: 993b95bf08839b6accbcc5fe417ecfa87f1b44b3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834850"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118549"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a>Configuración de mensajería unificada de Exchange (Herramienta de planeación)
+# <a name="exchange-unified-messaging-settings-planning-tool"></a>Configuración de mensajería unificada de Exchange (herramienta de planeación)
 
-Skype Empresarial Server 2015 admite la integración con la mensajería unificada de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería.
+Skype Empresarial Server 2015 admite la integración con la mensajería unificada (MU) de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una sola infraestructura de mensajería.
 
 Para más información, vea:
 
-- [Planeación de la integración de la mensajería unificada de Exchange](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+- [Planeación de la integración de la mensajería unificada de Exchange](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration)
 
-- "Mensajería unificada" en [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)
+- "Mensajería unificada" en [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
 
-- "Planeación de la mensajería unificada" en [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344) .
-
-
+- "Planeación de mensajería unificada" en [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help) .

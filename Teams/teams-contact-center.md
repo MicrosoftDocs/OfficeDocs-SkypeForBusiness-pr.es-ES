@@ -13,12 +13,12 @@ f1.keywords:
 description: Información general sobre el centro de contacto integrado como solución de servicio (CCaaS) para Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 470b8cb523a688be87eaef51dbb93ea7aaa59c38
-ms.sourcegitcommit: 49674c122d69b5495afeb2833ecf498acf129746
+ms.openlocfilehash: 4fd86bd7aae0e925580067c668e0e50eb8112efb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50402866"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119229"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integraciones del Centro de contactos para Microsoft Teams
 
@@ -32,7 +32,7 @@ Los centros de contacto de hoy en día ofrecen mucho más que soporte: actúan c
 
 2. Este ámbito expandido de las interacciones con los clientes requiere herramientas que pueden ayudar a impulsar la coherencia, la mejora constante y la escala.
 
-Microsoft Teams admite las transmisiones de trabajo de interacción con los clientes actuando como el concentrador para la conexión interna y externa de los clientes en sus modos de comunicación, incluidos chat, videollamadas y videollamadas. Para algunas empresas, las capacidades [](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) de voz en la nube de Microsoft [Teams,](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)incluidos los operadores [automáticos](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)y las colas de llamadas, proporcionan las características y la configuración para satisfacer sus necesidades.
+Microsoft Teams admite las transmisiones de trabajo de interacción con los clientes actuando como el concentrador para la conexión interna y externa de los clientes en sus modos de comunicación, incluidos chat, videollamadas y videollamadas. Para algunas empresas, las capacidades [](./what-are-phone-system-auto-attendants.md) de voz en la nube de Microsoft [Teams,](./cloud-voice-landing-page.md)incluidos los operadores [automáticos](./create-a-phone-system-call-queue.md)y las colas de llamadas, proporcionan las características y la configuración para satisfacer sus necesidades.
 
 Para otros usuarios que desean soluciones integradas con herramientas empresariales y flujos de trabajo para impulsar el viaje del cliente, Microsoft Teams también se integra con algunos de los proveedores de soluciones líderes del centro de contacto como servicio (CCaaS) del sector.
 
@@ -90,11 +90,11 @@ Aunque lo siguiente no es una lista completa de funcionalidades de característi
 
   - Puede admitir la conexión troncal SIP multiinquilino para admitir a varios clientes en el SBC del proveedor de soluciones.  
 
-  - Proveedores de soluciones para usar [ <span class="underline">el controlador de borde de sesión certificado por Microsoft (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Proveedores de soluciones para usar [ <span class="underline">el controlador de borde de sesión certificado por Microsoft (SBC)</span>](./direct-routing-border-controllers.md) 
 
 ### <a name="connect-and-extend"></a>Conectar y extender
 
-Este modelo amplía las experiencias de agente y personal del centro de contactos al integrar con el cliente de Teams mediante la plataforma cliente de [Teams,](https://docs.microsoft.com/microsoftteams/platform/overview)las API de [Teams Graph](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) y la API de comunicaciones en la nube en [Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) y usa el sistema telefónico de Teams para todas las llamadas y experiencias de control de llamadas del centro de contacto. En este modelo, el proveedor de soluciones del centro de contacto actúa como operador de telefonía junto con Microsoft 365.
+Este modelo amplía las experiencias de agente y personal del centro de contactos al integrar con el cliente de Teams mediante la plataforma cliente de [Teams,](/microsoftteams/platform/overview)las API de [Teams Graph](/graph/api/resources/teams-api-overview?view=graph-rest-1.0) y la API de comunicaciones en la nube en [Microsoft Graph](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) y usa el sistema telefónico de Teams para todas las llamadas y experiencias de control de llamadas del centro de contacto. En este modelo, el proveedor de soluciones del centro de contacto actúa como operador de telefonía junto con Microsoft 365.
 
 Al usar soluciones basadas en Connect y Extend, los agentes pueden beneficiarse de notas contextuales dinámicas que correlacionan datos de varios sistemas antes de iniciar una participación y, a continuación, evitar el costoso cambio de contexto trabajando de forma nativa en Teams para la colaboración interna y las comunicaciones externas.
 
@@ -126,7 +126,7 @@ Este modelo permite a los proveedores de soluciones crear aplicaciones de voz na
 
 Al crear directamente en Azure, los proveedores de soluciones pueden implementar y aprovisionar rápidamente su solución en todas las regiones y geografías de Teams, beneficiándose de nuestra red de comunicaciones globales y compartidas, al tiempo que aprovechan el almacenamiento, el proceso y los análisis de Azure & servicios cognitivos.
 
-Con el modelo de integración de Extend y Power, los proveedores de soluciones pueden proporcionar a los agentes del centro de contacto experiencias de comunicación de todos los canales, al tiempo que incorporan inteligencia artificial para personalizar cómo y cuándo los participantes ( u otros servicios ) participan en una llamada aplicando la API de comunicaciones en la nube en [Microsoft Graph.](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
+Con el modelo de integración de Extend y Power, los proveedores de soluciones pueden proporcionar a los agentes del centro de contacto experiencias de comunicación de todos los canales, al tiempo que incorporan inteligencia artificial para personalizar cómo y cuándo los participantes ( u otros servicios ) participan en una llamada aplicando la API de comunicaciones en la nube en [Microsoft Graph.](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
 
 **Características destacadas:**
 

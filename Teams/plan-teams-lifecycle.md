@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 44be1d139fe37a34cad620cb449ac8bfe10eb99b
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: 4b371d696008d7ef58ce7722e6a9f27e9c9bc970
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416916"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117808"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
@@ -100,10 +100,10 @@ Los roles de administrador de Teams determinan qué funcionalidades tiene cada t
 <tr>
 </tbody>
 <tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">Módulo PowerShell — Skype Empresarial</a> o <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Centro de administración de Microsoft Teams</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">Módulo PowerShell — Microsoft Teams</a> o <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Centro de administración de Microsoft Teams</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">Solo el <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Centro de administración de Microsoft Teams</a></td>
+<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
+">Módulo PowerShell — Skype Empresarial</a> o <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Centro de administración de Microsoft Teams</a></td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">Módulo PowerShell — Microsoft Teams</a> o <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Centro de administración de Microsoft Teams</a></td></tr>
+<tr><td align="right"><sup>3</sup></td><td colspan="3">Solo el <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Centro de administración de Microsoft Teams</a></td>
 </tr>
 </tfoot>
 </table>

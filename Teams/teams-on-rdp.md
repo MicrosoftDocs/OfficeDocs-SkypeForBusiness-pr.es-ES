@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbf8be686029aa995ac0fb8a9977d129746b0c78
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 7090aac3c5e7ff724a079e7f9d9ffe9d712cd447
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347881"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119099"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams en Servicios de escritorio remoto
 
@@ -82,18 +82,18 @@ O bien, también puede realizar los pasos siguientes:
 
 #### <a name="assign-policies-using-powershell"></a>Asignar directivas con PowerShell
 
-En el ejemplo siguiente se muestra cómo usar [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) para asignar la directiva de llamadas Desautor a un usuario.
+En el ejemplo siguiente se muestra cómo usar [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) para asignar la directiva de llamadas Desautor a un usuario.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
-Para obtener más información sobre el uso de PowerShell para administrar directivas de llamadas, vea [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
+Para obtener más información sobre el uso de PowerShell para administrar directivas de llamadas, vea [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
-En el ejemplo siguiente se muestra cómo usar [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) para asignar la directiva de reunión AllOff a un usuario.
+En el ejemplo siguiente se muestra cómo usar [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) para asignar la directiva de reunión AllOff a un usuario.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
-Para obtener más información sobre cómo usar PowerShell para administrar directivas de reunión, vea [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+Para obtener más información sobre el uso de PowerShell para administrar directivas de reunión, vea [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).

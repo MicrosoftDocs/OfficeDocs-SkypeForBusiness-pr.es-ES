@@ -14,29 +14,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Los agentes son usuarios designados para responder a llamadas de Grupo de respuesta. Los grupos de respuesta deben tener un grupo de agentes asignado que identifique a los agentes que pueden recibir llamadas para el grupo de respuesta. Una forma de crear un grupo de agentes es definir un grupo personalizado seleccionando usuarios aptos. Los usuarios elegibles están habilitados para Skype Empresarial Server y Telefonía IP empresarial.
-ms.openlocfilehash: b2eb4baa8f969c6395f51da8153c3c34f7c3684b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Los agentes son usuarios designados para responder a las llamadas del grupo de respuesta. Los grupos de respuesta deben tener un grupo de agentes asignado que identifique los agentes que pueden recibir llamadas para el grupo de respuesta. Una forma de crear un grupo de agentes es definir un grupo personalizado seleccionando usuarios elegibles. Los usuarios elegibles están habilitados para Skype Empresarial Server y Telefonía IP empresarial.
+ms.openlocfilehash: 399ad65a2fe232d217ce4891061aeed8284277b9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824670"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118789"
 ---
 # <a name="select-agents"></a>Seleccionar agentes
 
-Los agentes son usuarios designados para responder a llamadas de Grupo de respuesta. Los grupos de respuesta deben tener un grupo de agentes asignado que identifique a los agentes que pueden recibir llamadas para el grupo de respuesta. Una forma de crear un grupo de agentes es definir un grupo personalizado seleccionando usuarios aptos. Los usuarios elegibles están habilitados para Skype Empresarial Server y Telefonía IP empresarial.
+Los agentes son usuarios designados para responder a las llamadas del grupo de respuesta. Los grupos de respuesta deben tener un grupo de agentes asignado que identifique los agentes que pueden recibir llamadas para el grupo de respuesta. Una forma de crear un grupo de agentes es definir un grupo personalizado seleccionando usuarios elegibles. Los usuarios elegibles están habilitados para Skype Empresarial Server y Telefonía IP empresarial.
 
 Use el cuadro **de diálogo Seleccionar agentes** para seleccionar los usuarios que se agregarán a un grupo de agentes.
 
 ## <a name="ui-reference"></a>Referencia de la interfaz de usuario
 
-En la lista siguiente se describen los controles del cuadro **de diálogo Seleccionar** agentes.
+En la siguiente lista se describen los controles del **cuadro de diálogo Seleccionar** agentes.
 
-- **Buscar** Busca la dirección SIP o el nombre para mostrar de un usuario. Escriba la dirección o el nombre completo o parcial. Deje el cuadro de búsqueda vacío para mostrar todos los usuarios habilitados para Skype Empresarial Server y Telefonía IP empresarial.
+- **Buscar** Busca la dirección SIP o el nombre para mostrar de un usuario. Escriba todo o parte de la dirección o el nombre. Deje el cuadro de búsqueda vacío para mostrar todos los usuarios habilitados para Skype Empresarial Server y Telefonía IP empresarial.
 
-- **Número máximo de usuarios que se mostrarán** Cambia el número de resultados devueltos que se muestran. Use este contador para limitar la búsqueda si espera muchos resultados.
+- **Máximo de usuarios para mostrar** Cambia el número de resultados devueltos que se muestran. Use este contador para limitar la búsqueda si espera muchos resultados.
 
-En la lista siguiente se describen los campos del cuadro **de diálogo Seleccionar agentes.**
+En la lista siguiente se describen los campos del **cuadro de diálogo Seleccionar** agentes.
 
 - **Agente** Muestra los nombres de usuario devueltos por la búsqueda.
 
@@ -46,6 +46,4 @@ En la lista siguiente se describen los campos del cuadro **de diálogo Seleccion
 
 - **Habilitado** Muestra el valor del campo **Habilitado para Lync Server** definido para los usuarios.
 
-Para obtener detalles sobre cómo trabajar con grupos de agentes, vea [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) en la documentación de operaciones.
-
-
+Para obtener detalles sobre cómo trabajar con grupos de agentes, vea [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) en la documentación de operaciones.

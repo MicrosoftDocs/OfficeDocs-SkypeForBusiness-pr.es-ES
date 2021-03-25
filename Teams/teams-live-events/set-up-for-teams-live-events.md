@@ -20,12 +20,12 @@ description: Configure eventos en directo en Teams, como configurar su red, asig
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 108c6ba6730751c9858a3c4a45c8060c231be4a1
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: cc9f50e2f6a0b2433bbff07e674453a63854bf51
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461010"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119139"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configure los eventos en directo en Microsoft Teams
 
@@ -33,7 +33,7 @@ Debe realizar varios pasos para configurar los eventos en directo.
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Paso 1: configurar la red para los eventos en directo de Teams
 
-Los eventos en directo creados en Teams requieren de la [preparación de la red de su organización para usar Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
+Los eventos en directo creados en Teams requieren de la [preparación de la red de su organización para usar Teams](../prepare-network.md).  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Paso 2: obtener las licencias y asignarlas
 
@@ -80,14 +80,14 @@ Si ha creado una directiva personalizada de eventos en directo, asígnesela a lo
 
 Para que los usuarios programe eventos producidos con una aplicación o dispositivo externos, también debe realizar los pasos siguientes:
 
-1. Habilitar Microsoft Stream para los usuarios de la organización Stream está disponible como parte de las suscripciones elegibles de Microsoft 365 u Office 365 o como un servicio independiente. Stream no está incluido en los planes de Empresa Esenciales o Empresa Premium. Para obtener más información, vea [Información general sobre licencias de Stream](https://docs.microsoft.com/stream/license-overview)
+1. Habilitar Microsoft Stream para los usuarios de la organización Stream está disponible como parte de las suscripciones elegibles de Microsoft 365 u Office 365 o como un servicio independiente. Stream no está incluido en los planes de Empresa Esenciales o Empresa Premium. Para obtener más información, vea [Información general sobre licencias de Stream](/stream/license-overview)
 
    >[!Note]
-   > El cambio del uso de Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabaciones de reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, pero en noviembre tendrá que optar por no participar si quiere continuar usando Stream y, en algún momento, a principios de 2021, les pediremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para grabar sus nuevas reuniones. Obtenga más información sobre cómo puede asignar [**licencias a los**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) usuarios para que los usuarios puedan acceder a Stream. Asegúrese de que Stream no está bloqueado para los usuarios tal y como se define en [**este artículo.**](https://docs.microsoft.com/stream/disable-user-organization)
+   > El cambio del uso de Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabaciones de reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, pero en noviembre tendrá que optar por no participar si quiere continuar usando Stream y, en algún momento, a principios de 2021, les pediremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para grabar sus nuevas reuniones. Obtenga más información sobre cómo puede asignar [**licencias a los**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) usuarios para que los usuarios puedan acceder a Stream. Asegúrese de que Stream no está bloqueado para los usuarios tal y como se define en [**este artículo.**](/stream/disable-user-organization)
 
-2. Asegúrese de que los usuarios tengan los permisos de creación de eventos en directo de Stream Los administradores pueden crear eventos de forma predeterminada, con una aplicación o dispositivo externo El administrador de Stream puede [permitir que los usuarios adicionales puedan crear eventos en directo](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) en Stream.
+2. Asegúrese de que los usuarios tengan los permisos de creación de eventos en directo de Stream Los administradores pueden crear eventos de forma predeterminada, con una aplicación o dispositivo externo El administrador de Stream puede [permitir que los usuarios adicionales puedan crear eventos en directo](/stream/live-event-administration#enabling-and-restricting-users-to-creating) en Stream.
 
-3. Asegúrese de que los organizadores de los eventos en directo hayan consentido la directiva de empresa establecida por el administrador de Stream. Si un administrador de Stream tiene que [configurar la directiva de directrices de la empresa](https://docs.microsoft.com/stream/company-policy-and-consent) y necesita que los empleados acepten esta directiva antes de guardar el contenido, los usuarios deberán hacerlo antes de crear un evento en directo (con una aplicación o dispositivo externo) en Teams. Antes de que implemente la función de eventos en directo en la organización, asegúrese de que los usuarios que van a crear estos eventos en directo hayan consentido la directiva.
+3. Asegúrese de que los organizadores de los eventos en directo hayan consentido la directiva de empresa establecida por el administrador de Stream. Si un administrador de Stream tiene que [configurar la directiva de directrices de la empresa](/stream/company-policy-and-consent) y necesita que los empleados acepten esta directiva antes de guardar el contenido, los usuarios deberán hacerlo antes de crear un evento en directo (con una aplicación o dispositivo externo) en Teams. Antes de que implemente la función de eventos en directo en la organización, asegúrese de que los usuarios que van a crear estos eventos en directo hayan consentido la directiva.
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Paso 4: Configurar una solución para la distribución de los vídeos de los eventos en directo de Teams
 

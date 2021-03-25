@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9422fd2b47ac3d460ee10e8933c45964d78282c1
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: d7d998afb47480fa59ce936a93e20af9ac4b2a12
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460660"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117608"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Administrar directivas de retención para Microsoft Teams
 
@@ -37,9 +37,9 @@ Las directivas de retención y las etiquetas de retención de Microsoft 365 le a
 
 Teams admite directivas de retención para mensajes de canal y chat para que, como administrador, pueda decidir de forma proactiva si desea conservar estos datos, eliminarlos o conservarlo durante un período de tiempo específico y, a continuación, eliminarlos. Puede aplicar una directiva de retención de Teams a toda la organización o a usuarios y equipos específicos. Las etiquetas de retención no son compatibles con Teams.
 
-Para obtener más información sobre la retención y cómo puede aplicar la configuración de retención mediante directivas de retención o etiquetas de retención para otras cargas de trabajo en Microsoft 365, vea Más información sobre directivas de retención y etiquetas de [retención.](https://docs.microsoft.com/microsoft-365/compliance/retention)
+Para obtener más información sobre la retención y cómo puede aplicar la configuración de retención mediante directivas de retención o etiquetas de retención para otras cargas de trabajo en Microsoft 365, vea Más información sobre directivas de retención y etiquetas de [retención.](/microsoft-365/compliance/retention)
 
-El requisito mínimo de licencia para directivas de retención para Teams es Microsoft 365 E3. Para obtener más información sobre las licencias, vea [Descripción del servicio de Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+El requisito mínimo de licencia para directivas de retención para Teams es Microsoft 365 E3. Para obtener más información sobre las licencias, vea [Descripción del servicio de Microsoft Teams.](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="how-teams-retentiondeletion-policies-work"></a>Cómo funcionan las directivas de retención y eliminación de Teams
 
@@ -47,7 +47,7 @@ Los mensajes de chat de Teams se almacenan en dos ubicaciones. La copia principa
 
 Cuando se aplica una poilcy de retención de mensajes de chat a un usuario o equipo, y si los mensajes se eliminan (ya sea debido a otra directiva de eliminación o por el propio usuario), la copia principal se elimina, por lo tanto, el cliente de **Teams** verá que el mensaje desaparece, pero la copia secundaria se mueve automáticamente a una carpeta oculta denominada **SubstrateHolds,** que es como subcarpeta en la carpeta Elementos recuperables de Exchange. Hasta que estos mensajes se eliminen permanentemente de la carpeta Desencuentables, seguirán siendo buscados por las herramientas de exhibición de documentos electrónicos.
 
-Para obtener información detallada sobre lo que se incluye y se excluye para las directivas de retención de Teams y cómo funcionan estas directivas en función de la configuración de directiva, vea Obtener información sobre la retención [de Microsoft Teams.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
+Para obtener información detallada sobre lo que se incluye y se excluye para las directivas de retención de Teams y cómo funcionan estas directivas en función de la configuración de directiva, vea Obtener información sobre la retención [de Microsoft Teams.](/microsoft-365/compliance/retention-policies-teams)
 
 > [!NOTE]
 > En esa página se explica por qué a veces puede ver retrasos cuando las directivas de retención eliminan mensajes. Por ejemplo, los mensajes pueden verse hasta 7 días después del período de expiración que haya configurado en la directiva de retención.
@@ -56,7 +56,7 @@ Si configura varias directivas de retención de Teams con diferentes configuraci
 - Si hay un conflicto entre conservar o eliminar el mismo contenido, el contenido siempre se conserva.
 - Si hay un conflicto en cuánto tiempo se conserva el mismo contenido, se conserva durante el período de retención más largo.
 
-Estos dos principios de retención abordan la mayoría de los conflictos que pueden surgir cuando tiene varias directivas de retención para Teams, pero para obtener más información, vea Los principios de retención o ¿qué tiene [prioridad?](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
+Estos dos principios de retención abordan la mayoría de los conflictos que pueden surgir cuando tiene varias directivas de retención para Teams, pero para obtener más información, vea Los principios de retención o ¿qué tiene [prioridad?](/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
 
 ## <a name="when-to-use-retention-policies-for-teams"></a>Cuándo usar directivas de retención para Teams
 
@@ -68,7 +68,7 @@ Por ejemplo, en el caso de los mensajes del canal, puede aplicar una directiva d
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Crear y administrar directivas de retención para Teams
 
-Para crear una directiva de retención para chats y mensajes de canal de Teams, use las instrucciones de directiva de retención para [ubicaciones de Teams.](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
+Para crear una directiva de retención para chats y mensajes de canal de Teams, use las instrucciones de directiva de retención para [ubicaciones de Teams.](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
 
 Esa página contiene información adicional sobre cómo crear y administrar directivas de retención para otras cargas de trabajo en Microsoft 365. Por ejemplo, es posible que también desee crear una directiva de retención para grupos de Microsoft 365 para conservar y eliminar archivos a los que se tiene acceso en Teams y almacenados en OneDrive o SharePoint.  
 
@@ -94,6 +94,6 @@ Los vínculos de estos mensajes mostrados van a Mensajes [de Teams sobre directi
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Introducción a las directivas de retención y las etiquetas de retención](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-retention)
-- [Más información sobre la retención de Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
-- [Crear y configurar directivas de retención](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies)
+- [Introducción a las directivas de retención y las etiquetas de retención](/microsoft-365/compliance/get-started-with-retention)
+- [Más información sobre la retención de Microsoft Teams](/microsoft-365/compliance/retention-policies-teams)
+- [Crear y configurar directivas de retención](/microsoft-365/compliance/create-retention-policies)

@@ -1,5 +1,5 @@
 ---
-title: Preparar al personal de TI para Microsoft Teams
+title: Preparar a su personal de TI para Microsoft Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -19,30 +19,30 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 680106618d610d0adc3f93658e3a522d63850e24
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 94862d7df7151983a8570e6fc458a70618c3a3fe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578463"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119089"
 ---
-# <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar al personal de TI para Microsoft Teams
+# <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar a su personal de TI para Microsoft Teams
 
-![Diagrama de viaje de actualización, que enfatiza la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Fases del viaje de actualización, con énfasis en la fase De preparación técnica")
+![Diagrama de viaje de actualización, haciendo hincapié en la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase preparación técnica")
 
-Este artículo forma parte de la fase de preparación técnica del viaje de actualización, una actividad que se completa en paralelo con la fase De disponibilidad del usuario. Antes de continuar, confirma que has completado estas actividades desde fases anteriores:
+Este artículo forma parte de la fase preparación técnica del viaje de actualización, una actividad que se completa en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha completado estas actividades de fases anteriores:
 
 - [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
-- [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Ha elegido el viaje de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Ha definido el ámbito del proyecto](./upgrade-define-project-scope.md)
+- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Elegido el viaje de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Los administradores de Microsoft 365 u Office 365, los responsables técnicos y el departamento de soporte técnico son responsables de impulsar una experiencia de usuario de alta calidad. Esto incluye garantizar que su red esté preparada para admitir Teams, configurar Teams para sus usuarios y poder solucionar de forma eficaz los problemas que puedan surgir.
+Los administradores de la organización de Microsoft 365 u Office 365, los clientes potenciales técnicos y el servicio de soporte técnico son responsables de impulsar una experiencia de usuario de alta calidad. Esto incluye asegurarse de que su red está lista para admitir Teams, configurar Teams para sus usuarios y poder solucionar de forma eficaz los problemas que puedan surgir.
 
-Comparta los siguientes recursos con los miembros del personal de TI y confirme que están listos para ayudar a los usuarios antes de comenzar la actualización a Teams:
+Comparta los siguientes recursos con los miembros del personal de TI y confirme que están listos para admitir usuarios antes de comenzar la actualización a Teams:
 
 - [Formación de administradores para Microsoft Teams](itadmin-readiness.md)
-- [Contactar con el soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+- [Contactar con el soporte técnico para productos empresariales: ayuda para administradores](/microsoft-365/admin/contact-support-for-business-products)
 - [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
 - [Usar los archivos de registro para solucionar problemas en Microsoft Teams](log-files.md)
 
@@ -51,6 +51,6 @@ Comparta los siguientes recursos con los miembros del personal de TI y confirme 
 | | |
 |---|---|
 | ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Ha implicado a todo el personal de soporte técnico que probablemente esté implicado en la implementación y el soporte técnico de Teams?</li><li>¿Ha desarrollado un plan de aprendizaje para incorporar personal adicional a medida que avanza la actualización?</li></ul> |
-| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Compruebe que el personal de IT tenga la información que necesitan.</li><li>Revise sus planes de formación y preparación a medida que se van publicando nuevas características.</li></ul>|
+| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Compruebe que el personal de IT tiene la información que necesitan.</li><li>Revise sus planes de formación y preparación a medida que se van publicando nuevas características.</li></ul>|
 
-Una vez que haya preparado el personal de TI para Teams, compruebe que su entorno cumpla todos los [requisitos previos.](upgrade-plan-journey-prerequisites.md)
+Después de preparar a su personal de TI para Teams, compruebe que su entorno cumple todos los [requisitos previos.](upgrade-plan-journey-prerequisites.md)

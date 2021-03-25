@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Administración de Skype for Business Online
-summary: Skype Empresarial Online se retirará el 31 de julio de 2021, momento en el que finalizará el acceso al servicio. Animamos a los clientes a comenzar la actualización a Microsoft Teams, el centro para el trabajo en equipo en Microsoft 365.
+summary: Skype Empresarial Online se retirará el 31 de julio de 2021, momento en el que finalizará el acceso al servicio. Animamos a los clientes a iniciar la actualización a Microsoft Teams, el centro para el trabajo en equipo en Microsoft 365.
 metadata:
   title: Administración de Skype for Business Online
   description: Aprenda a administrar Skype for Business Online para su organización.
@@ -17,18 +17,18 @@ metadata:
   ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
   ms.date: 06/24/2020
-  ms.openlocfilehash: fe7199d98c010f1ade9dc8b2c7cc9a320aed5719
-  ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+  ms.openlocfilehash: 46c5502a9dbcdb06f16845cbaf36c04db6021393
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 07/29/2020
-  ms.locfileid: "46522972"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51118929"
 landingContent:
 - title: Acerca de Skype Empresarial Online
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Se retirará Skype Empresarial Online en 2021
+    - text: Skype Empresarial Online se retirará en 2021
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
   - linkListType: get-started
     links:
@@ -41,9 +41,9 @@ landingContent:
     - text: ¿Necesita ayuda para iniciar sesión en Skype for Business?
       url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
     - text: Solución de problemas en Skype for Business Online
-      url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+      url: ./set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online.md
     - text: Cambiar de Skype Empresarial a Teams
-      url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+      url: /MicrosoftTeams/upgrade-start-here
 - title: Novedades
   linkLists:
   - linkListType: how-to-guide
@@ -51,7 +51,7 @@ landingContent:
     - text: Configurar el Sistema telefónico en su organización
       url: /microsoftteams/setting-up-your-phone-system
     - text: Integración de terceros con Audioconferencia
-      url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+      url: ./legal-and-regulatory/end-of-integration-with-3rd-party-providers.md
     - text: Configurar Audioconferencia
       url: /microsoftteams/audio-conferencing-in-office-365
   - linkListType: overview
@@ -71,7 +71,7 @@ landingContent:
   - linkListType: how-to-guide
     links:
     - text: Administrar la configuración de la conferencia de acceso telefónico local en mi organización
-      url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+      url: ./audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md
     - text: Comparar proveedores de conferencias de acceso telefónico local
       url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
 - title: Configurar
@@ -79,17 +79,17 @@ landingContent:
   - linkListType: how-to-guide
     links:
     - text: Configurar Skype Empresarial Online
-      url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+      url: ./set-up-skype-for-business-online/set-up-skype-for-business-online.md
     - text: Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial
-      url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+      url: ./set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md
     - text: Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype
-      url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+      url: ./set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md
 - title: Licencias complementarias
   linkLists:
   - linkListType: overview
     links:
     - text: Licencias complementarias de Skype Empresarial y Microsoft Teams
-      url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+      url: ./skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md
     - text: ¿Qué son los Créditos de comunicaciones?
       url: /MicrosoftTeams/what-are-communications-credits
 - title: Planes de llamadas

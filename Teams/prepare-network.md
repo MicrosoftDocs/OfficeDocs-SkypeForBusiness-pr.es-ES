@@ -19,25 +19,25 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 9212c096323eb57754e0a8a47b61649bec42de87
-ms.sourcegitcommit: 5c33ca450a3215b9bf3c5da8bb3c9ef1a715a1a2
-ms.translationtype: HT
+ms.openlocfilehash: 1c84a753146899011fa34be56e0746cc0c600b31
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50099581"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117758"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams 
 
 ## <a name="network-requirements"></a>Requisitos de red
 
-Si ya ha [optimizado la red para Microsoft 365 u Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), probablemente estará listo para usar Microsoft Teams. En cualquier caso, y especialmente si tiene que implementar Teams en poco tiempo como su primera carga de trabajo de Microsoft 365 u Office 365 con el fin de dar cabida a **trabajadores remotos**, lea lo siguiente antes de la implementación:
+Si ya ha [optimizado la red para Microsoft 365 u Office 365](/Office365/Enterprise/assessing-network-connectivity), probablemente estará listo para usar Microsoft Teams. En cualquier caso, y especialmente si tiene que implementar Teams en poco tiempo como su primera carga de trabajo de Microsoft 365 u Office 365 con el fin de dar cabida a **trabajadores remotos**, lea lo siguiente antes de la implementación:
 
 1.  ¿Tienen todas sus ubicaciones acceso a Internet para conectarse a Microsoft 365 u Office 365? Como mínimo, además del tráfico web normal, asegúrese de que ha abierto lo siguiente para permitir el contenido multimedia en Teams en todas las ubicaciones:
 
     |  |  |
     |---------|---------|
     |Puertos     |Puertos UDP de <strong>3478</strong> a <strong>3481</strong>        |
-    |[Direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong> y <strong>52.120.0.0/14</strong>         |
+    |[Direcciones IP](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong> y <strong>52.120.0.0/14</strong>         |
 
     > [!IMPORTANT]
     > Si necesita federar con Skype Empresarial, ya sea local o en línea, tendrá que configurar algunos registros DNS adicionales.
@@ -49,20 +49,20 @@ Si ya ha [optimizado la red para Microsoft 365 u Office 365](https://docs.micros
     
 2.  ¿Tiene un dominio comprobado de Microsoft 365 u Office 365 (por ejemplo, contoso.com)?
     
-    - Si su organización no ha implementado Microsoft 365 u Office 365, consulte esta [Introducción](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
-    - Si su organización aún no ha agregado o configurado un dominio comprobado para Microsoft 365 u Office 365, consulte las [Preguntas más frecuentes de dominios](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
+    - Si su organización no ha implementado Microsoft 365 u Office 365, consulte esta [Introducción](/microsoft-365/admin/admin-overview/get-started-with-office-365).
+    - Si su organización aún no ha agregado o configurado un dominio comprobado para Microsoft 365 u Office 365, consulte las [Preguntas más frecuentes de dominios](/microsoft-365/admin/setup/domains-faq).
 
 3.  ¿Ha implementado su organización Exchange Online y SharePoint Online?
     
     - Si su organización no tiene Exchange Online, vea [Interacción entre Exchange y Microsoft Teams](exchange-teams-interact.md).
     - Si su organización no tiene SharePoint Online, vea [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](sharepoint-onedrive-interact.md).
 
-Cuando compruebe que cumple estos requisitos de red, puede que esté listo para la [Implementación de Teams](How-to-roll-out-teams.md). Tanto si está en una gran multinacional como si sabe que puede tener algunas limitaciones de red, le será útil seguir leyendo para saber cómo evaluar y optimizar su red para Teams.
+Cuando compruebe que cumple estos requisitos de red, puede que esté listo para la [Implementación de Teams](./deploy-overview.md). Tanto si está en una gran multinacional como si sabe que puede tener algunas limitaciones de red, le será útil seguir leyendo para saber cómo evaluar y optimizar su red para Teams.
 
 > [!IMPORTANT]
-> **Para instituciones educativas**: si su organización es una institución educativa y usa un Sistema de información de estudiantes (SIS), [implemente School Data Sync](https://docs.microsoft.com/schooldatasync/) antes de implementar Teams.
+> **Para instituciones educativas**: si su organización es una institución educativa y usa un Sistema de información de estudiantes (SIS), [implemente School Data Sync](/schooldatasync/) antes de implementar Teams.
 >  
-> **Ejecución local de Skype Empresarial Server**: si su organización ejecuta Skype Empresarial Server (o Lync Server) de forma local, deberá [Configurar Azure AD Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) para sincronizar su directorio local con Microsoft 365 u Office 365.
+> **Ejecución local de Skype Empresarial Server**: si su organización ejecuta Skype Empresarial Server (o Lync Server) de forma local, deberá [Configurar Azure AD Connect](/skypeforbusiness/hybrid/configure-azure-ad-connect) para sincronizar su directorio local con Microsoft 365 u Office 365.
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>Procedimiento recomendado: Supervisar su red con el Panel de calidad de llamadas y el análisis de llamadas 
 
@@ -80,7 +80,7 @@ Es posible que quiera realizar una optimización de red adicional si:
   - Las llamadas siguen desconectándose (puede deberse a firewalls o bloqueadores de proxy)
   - Las llamadas tienen distorsiones, se cortan o los interlocutores suenan como robots (puede haber fluctuaciones o pérdida de paquetes)
 
-Para obtener una explicación más detallada sobre la optimización de redes, con instrucciones para identificar y corregir los problemas de red, consulte [Principios de conectividad de red de Microsoft 365 y Office 365](https://aka.ms/pnc).
+Para obtener una explicación más detallada sobre la optimización de redes, con instrucciones para identificar y corregir los problemas de red, consulte [Principios de conectividad de red de Microsoft 365 y Office 365](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles).
 
 <table>
 <thead>
@@ -92,35 +92,35 @@ Para obtener una explicación más detallada sobre la optimización de redes, co
 <tbody>
 <tr class="odd">
 <td>Planeamiento de red</td>
-<td><p>Si necesita ayuda para evaluar la red, incluidos los cálculos de ancho de banda y los requisitos de red en las ubicaciones físicas de su organización, consulte la herramienta <a href="https://docs.microsoft.com/microsoftteams/network-planner">Planeamiento de red</a>, en el <a href="https://admin.teams.microsoft.com">Centro de administración de Teams</a>. Cuando proporciona el uso de Teams y los detalles de la red, el Planeamiento de red calcula los requisitos de red para implementar Teams y voz en la nube en las ubicaciones físicas de su organización.</p>
-<p>Para ver un escenario de ejemplo, consulte <a href="https://docs.microsoft.com/microsoftteams/tutorial-network-planner-example">Uso del Planeamiento de red: escenario de ejemplo</a>.</p></td>
+<td><p>Si necesita ayuda para evaluar la red, incluidos los cálculos de ancho de banda y los requisitos de red en las ubicaciones físicas de su organización, consulte la herramienta <a href="/microsoftteams/network-planner">Planeamiento de red</a>, en el <a href="https://admin.teams.microsoft.com">Centro de administración de Teams</a>. Cuando proporciona el uso de Teams y los detalles de la red, el Planeamiento de red calcula los requisitos de red para implementar Teams y voz en la nube en las ubicaciones físicas de su organización.</p>
+<p>Para ver un escenario de ejemplo, consulte <a href="/microsoftteams/tutorial-network-planner-example">Uso del Planeamiento de red: escenario de ejemplo</a>.</p></td>
 </tr>
 <tr class="even">
 <td>Asesor para Teams</td>
-<td>El <a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Asesor de Teams</a> forma parte del <a href="https://admin.teams.microsoft.com">Centro de administración de Teams</a>. Evalúa el entorno de Microsoft 365 u Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams.</td>
+<td>El <a href="/microsoftteams/use-advisor-teams-roll-out">Asesor de Teams</a> forma parte del <a href="https://admin.teams.microsoft.com">Centro de administración de Teams</a>. Evalúa el entorno de Microsoft 365 u Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams.</td>
 </tr>
 <tr class="odd">
 <td>Resolución de nombres externos</td>
-<td>Asegúrese de que todos los equipos cliente que ejecuten el cliente de Teams puedan resolver consultas DNS externas para detectar los servicios proporcionados por Microsoft 365 u Office 365 y de que sus firewall no evitan el acceso. Para obtener información sobre cómo configurar puertos de firewall, vaya a <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Direcciones URL e intervalos IP de Microsoft 365 y Office 365</a>.</td>
+<td>Asegúrese de que todos los equipos cliente que ejecuten el cliente de Teams puedan resolver consultas DNS externas para detectar los servicios proporcionados por Microsoft 365 u Office 365 y de que sus firewall no evitan el acceso. Para obtener información sobre cómo configurar puertos de firewall, vaya a <a href="/microsoftteams/office-365-urls-ip-address-ranges">Direcciones URL e intervalos IP de Microsoft 365 y Office 365</a>.</td>
 </tr>
 <tr class="odd">
 <td>Mantener la conservación de sesiones</td>
 <td>Asegúrese de que el firewall no cambia las direcciones o puertos de Traducción de Direcciones de Red (NAT) asignados para UDP.</td>
 </tr><tr class="odd">
 <td>Validar el tamaño del grupo NAT</td>
-<td>Valide el tamaño de grupo de Traducción de Direcciones de Red (NAT) necesario para la conectividad de usuario. Cuando varios usuarios y dispositivos obtienen acceso a Microsoft 365 u Office 365 mediante la <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">Traducción de Direcciones de Red (NAT) o la Traducción de Direcciones de Puertos (PAT)</a>, debe asegurarse de que los dispositivos que se encuentren detrás de cada dirección IP enrutable de forma pública no superen el número admitido. Asegúrese de que se asignan direcciones IP públicas adecuadas a los grupos de NAT para evitar el agotamiento de puertos. El agotamiento del puertos contribuye a que los usuarios y dispositivos internos no puedan conectarse al servicio de Microsoft 365 u Office 365.</td>
+<td>Valide el tamaño de grupo de Traducción de Direcciones de Red (NAT) necesario para la conectividad de usuario. Cuando varios usuarios y dispositivos obtienen acceso a Microsoft 365 u Office 365 mediante la <a href="/office365/enterprise/nat-support-with-office-365">Traducción de Direcciones de Red (NAT) o la Traducción de Direcciones de Puertos (PAT)</a>, debe asegurarse de que los dispositivos que se encuentren detrás de cada dirección IP enrutable de forma pública no superen el número admitido. Asegúrese de que se asignan direcciones IP públicas adecuadas a los grupos de NAT para evitar el agotamiento de puertos. El agotamiento del puertos contribuye a que los usuarios y dispositivos internos no puedan conectarse al servicio de Microsoft 365 u Office 365.</td>
 </tr>
 <tr class="even">
 <td>Enrutamiento a centros de datos de Microsoft</td>
-<td><a href="https://docs.microsoft.com/office365/enterprise/client-connectivity">Implemente el enrutamiento más eficaz a los centros de datos de Microsoft.</a> Identifique las ubicaciones que pueden usar puntos de salida locales o regionales para conectarse a la red de Microsoft de la manera más eficiente posible.</td>
+<td><a href="/office365/enterprise/client-connectivity">Implemente el enrutamiento más eficaz a los centros de datos de Microsoft.</a> Identifique las ubicaciones que pueden usar puntos de salida locales o regionales para conectarse a la red de Microsoft de la manera más eficiente posible.</td>
 </tr>
 <tr class="odd">
 <td>Detección de Intrusiones y Guía de Prevención</td>
-<td>Si su entorno tiene implementado un sistema de <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">Detección de Intrusiones</a> o un Sistema de Prevención (IDS/IPS) para obtener una capa adicional de seguridad para conexiones salientes, asegúrese de permitir todas las direcciones URL de Microsoft 365 u Office 365.</td>
+<td>Si su entorno tiene implementado un sistema de <a href="/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">Detección de Intrusiones</a> o un Sistema de Prevención (IDS/IPS) para obtener una capa adicional de seguridad para conexiones salientes, asegúrese de permitir todas las direcciones URL de Microsoft 365 u Office 365.</td>
 </tr>
 <tr class="even">
 <td>Configurar una VPN de túnel dividido</td>
-<td><p>Le recomendamos que proporcione una ruta alternativa para el tráfico de Teams que omita la red privada virtual (VPN). Esto se conoce como <a href="https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing">VPN de túnel dividido</a>. De esta forma, el tráfico de Microsoft 365 u Office 365 no pasa por la VPN, sino que va directamente a Microsoft 365 u Office 365. Esto tiene un impacto positivo en la calidad de Teams y reduce la carga desde los dispositivos VPN y la red de la organización. Para implementar una VPN de túnel dividido, consulte con su proveedor de VPN.</p>
+<td><p>Le recomendamos que proporcione una ruta alternativa para el tráfico de Teams que omita la red privada virtual (VPN). Esto se conoce como <a href="/windows/security/identity-protection/vpn/vpn-routing">VPN de túnel dividido</a>. De esta forma, el tráfico de Microsoft 365 u Office 365 no pasa por la VPN, sino que va directamente a Microsoft 365 u Office 365. Esto tiene un impacto positivo en la calidad de Teams y reduce la carga desde los dispositivos VPN y la red de la organización. Para implementar una VPN de túnel dividido, consulte con su proveedor de VPN.</p>
 <p>Otras razones por las que recomendamos omitir la VPN:
 <ul>
 <li><p>Por lo general las VPN no se diseñan ni se configuran para admitir elementos multimedia en tiempo real.</p></li> 
@@ -130,7 +130,7 @@ Para obtener una explicación más detallada sobre la optimización de redes, co
 </tr>
 <tr class="odd">
 <td>Implementar QoS</td>
-<td><a href="https://docs.microsoft.com/microsoftteams/qos-in-teams">Use Calidad del Servicio (QoS)</a> para configurar la prioridad de paquetes. Esto mejorará la calidad de la llamada en Teams y le ayudará a supervisar y solucionar problemas de calidad de llamada. QoS debe implementarse en todos los segmentos de una red administrada. Incluso si una red se aprovisionó correctamente para el ancho de banda, QoS proporciona mitigación de riesgos en caso de eventos de red inesperados. Con QoS, el tráfico de voz tiene prioridad para que los eventos inesperados no afecten negativamente a la calidad.</td>
+<td><a href="/microsoftteams/qos-in-teams">Use Calidad del Servicio (QoS)</a> para configurar la prioridad de paquetes. Esto mejorará la calidad de la llamada en Teams y le ayudará a supervisar y solucionar problemas de calidad de llamada. QoS debe implementarse en todos los segmentos de una red administrada. Incluso si una red se aprovisionó correctamente para el ancho de banda, QoS proporciona mitigación de riesgos en caso de eventos de red inesperados. Con QoS, el tráfico de voz tiene prioridad para que los eventos inesperados no afecten negativamente a la calidad.</td>
 </tr>
 <tr class="even">
 <td>Optimizar la Wi-Fi</td>
@@ -157,9 +157,9 @@ Cuando el ancho de banda *no esté* limitado, Teams optimizará la calidad multi
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Principios de conectividad de red de Microsoft 365 y Office 365](https://aka.ms/pnc)
+[Principios de conectividad de red de Microsoft 365 y Office 365](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)
 
-[Puntos de conexión a nivel mundial: Skype Empresarial Online y Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
+[Puntos de conexión a nivel mundial: Skype Empresarial Online y Teams](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 
 [Servidores proxy para Teams](proxy-servers-for-skype-for-business-online.md)
 
@@ -169,6 +169,6 @@ Cuando el ancho de banda *no esté* limitado, Teams optimizará la calidad multi
 
 [Modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md)
 
-[Cómo implementar Teams](How-to-roll-out-teams.md)
+[Cómo implementar Teams](./deploy-overview.md)
 
-[Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Solución de problemas de Teams](/MicrosoftTeams/troubleshoot/teams)

@@ -17,24 +17,24 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7d5ebd0552aafffe2eb2330e6945f99dd788b2f
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 83448f32ddfc96800a14b5a599ef9cb7af52bb9b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858635"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119239"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>Asignar licencias de Microsoft Teams para EDU
 
 Microsoft Teams es un centro digital que reúne conversaciones, contenido y aplicaciones en un solo lugar. Dado que se basa en Office 365, las escuelas se benefician de la integración con aplicaciones y los servicios de Office universalmente conocidos. Su institución puede usar Microsoft Teams para crear clases colaborativas, ponerse en contacto los unos con los otros en comunidades de aprendizaje profesional y comunicarse con el personal del centro educativo. Y todo ello a través de una sola experiencia de Office 365 para el ámbito educativo.
 
-Para empezar, los administradores de TI tienen que usar el Centro de administración de Microsoft 365 para [habilitar Microsoft Teams en su escuela](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams).
+Para empezar, los administradores de TI tienen que usar el Centro de administración de Microsoft 365 para [habilitar Microsoft Teams en su escuela](/microsoft-365/education/intune-edu-trial/enable-microsoft-teams).
 Cuando termine, debe asignar las licencias a las cuentas de usuario para que el profesor, el personal y los alumnos puedan acceder a los servicios de Office 365, como Microsoft Teams.
 
 Puede asignar licencias a las cuentas de usuario, ya sea de forma individual o automáticamente mediante la pertenencia a grupos. Este artículo le guiará por los pasos para asignar licencias de Office 365 a una persona o a un conjunto reducido de cuentas de usuario en el Centro de administración de Microsoft 365. Para asignar licencias automáticamente mediante la pertenencia a grupos, consulte uno de nuestros artículos de soporte técnico:
 
-- [PowerShell de Office 365](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
-- [Concesión de licencias basada en grupo en Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+- [PowerShell de Office 365](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Concesión de licencias basada en grupo en Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
 Puede asignar licencias a los usuarios en la página **Licencias** o en la página **Usuarios activos**. El método que use dependerá de si desea asignar licencias de producto a usuarios específicos o si quiere asignar licencias de usuarios a productos específicos.
 
@@ -44,7 +44,7 @@ Puede asignar licencias a los usuarios en la página **Licencias** o en la pági
 ## <a name="assign-licenses-to-users-on-the-licenses-page"></a>Asignar licencias a los usuarios en la página licencias
 
 > [!NOTE]
-> Debe ser un administrador global, administrador de facturación, administrador de licencias o administrador de administración de usuarios. Para obtener más información, consulte [Información sobre los roles de administrador de Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+> Debe ser un administrador global, administrador de facturación, administrador de licencias o administrador de administración de usuarios. Para obtener más información, consulte [Información sobre los roles de administrador de Office 365](/microsoft-365/admin/add-users/about-admin-roles).
 
 Al usar la página de **Licencias** para asignar licencias, asigna licencias para un producto específico a un máximo de 20 usuarios. En la página **Licencias**, verá una lista de todos los productos para los que tiene suscripciones, junto con el número total de licencias de cada producto, cuántas licencias están asignadas y cuántas están disponibles.
 

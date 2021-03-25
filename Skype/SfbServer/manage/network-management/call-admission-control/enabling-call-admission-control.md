@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: " Después de configurar la red de control de admisión de llamadas (CAC), debe habilitar el CAC para aplicar las limitaciones de ancho de banda."
-ms.openlocfilehash: 8e996b4d2272144a35f667a5d6987b2cb91af708
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 090b19282ce85289b0e79e09d58646c5bf5e81e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816510"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118579"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Habilitar el control de admisión de llamadas en Skype Empresarial Server
 
@@ -44,14 +44,14 @@ Al hacer clic en **Confirmar**, realizará una prueba de la configuración. Se c
 
 Si hace cambios en la configuración de red, puede volver a ejecutar la comprobación de validación abriendo la configuración Global y haciendo clic en **Confirmar**. No es necesario deshabilitar previamente el CAC: deje activada la casilla y haga clic en **Confirmar**. Puede hacerlo en cualquier momento aunque no haga cambios en la configuración.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
-[Planeación del control de admisión de llamadas](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) 
+[Planear el control de admisión de llamadas](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) 
  
 [Implementar el control de admisión de llamadas](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) 
 
-[Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Get-CsNetworkConfiguration](/powershell/module/skype/Get-CsNetworkConfiguration)  
 
-[Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Set-CsNetworkConfiguration](/powershell/module/skype/Set-CsNetworkConfiguration)  
 
-[Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)  
+[Remove-CsNetworkConfiguration](/powershell/module/skype/Remove-CsNetworkConfiguration)

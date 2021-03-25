@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: b93a3b5ecbe7b9edcc54034635721ee3b6db610b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918996"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119129"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -82,8 +82,8 @@ La entrada de vídeo constituye la base de un evento en directo y el método pue
 
 La plataforma de streaming de eventos en directo se compone de lo siguiente:
 
-- **Azure Media Services**: [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) ofrece servicios de streaming de vídeo de calidad para llegar a un público más amplio desde los dispositivos móviles más populares de la actualidad. Azure Media Services mejora la accesibilidad, distribución y escalabilidad y hace que resulte más fácil y rentable transmitir contenido a un público local o global, al tiempo que protege su contenido.
-- **Azure Content Delivery Network (CDN)**: La transmisión en directo la lleva a cabo [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/azure/cdn/). Azure Media Services ofrece puntos de conexión integrados de CDN para streaming. Esto permite a un público global seguir la transmisión sin almacenamiento en búfer.
+- **Azure Media Services**: [Azure Media Services](/azure/media-services/previous/) ofrece servicios de streaming de vídeo de calidad para llegar a un público más amplio desde los dispositivos móviles más populares de la actualidad. Azure Media Services mejora la accesibilidad, distribución y escalabilidad y hace que resulte más fácil y rentable transmitir contenido a un público local o global, al tiempo que protege su contenido.
+- **Azure Content Delivery Network (CDN)**: La transmisión en directo la lleva a cabo [Azure Content Delivery Network (CDN)](/azure/cdn/). Azure Media Services ofrece puntos de conexión integrados de CDN para streaming. Esto permite a un público global seguir la transmisión sin almacenamiento en búfer.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Content Delivery Network para empresas (eCDN)
 
@@ -110,7 +110,7 @@ Vaya a [Planear eventos en directo en Teams](plan-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Temas relacionados
 
-- [Eventos en directo en Microsoft 365 en Yammer, Microsoft Teams y Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365).
+- [Eventos en directo en Microsoft 365 en Yammer, Microsoft Teams y Microsoft Stream](/stream/live-event-m365).
 - [Introducción a los eventos en vivo de Microsoft Teams](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Eventos en directo en Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Eventos en directo en Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)
+- [Eventos en directo en Microsoft Stream](/stream/live-event-overview)

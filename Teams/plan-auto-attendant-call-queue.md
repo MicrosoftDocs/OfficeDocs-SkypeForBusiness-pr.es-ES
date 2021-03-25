@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre operadores automáticos y colas de llamadas y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para llegar a personas o departamentos de su organización.
-ms.openlocfilehash: 2944f7b4add49b136d56620f41a2a1afb1a30a92
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 659505c39fd6eace8cd0264aaef0a4994604e651
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460730"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117868"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear los operadores automáticos y las colas de llamadas de Teams
 
@@ -89,7 +89,7 @@ Al transferir llamadas a un número de teléfono externo, la cuenta de recursos 
 > [!NOTE]
 > Los números de servicio de enrutamiento directo para operadores automáticos y colas de llamadas solo son compatibles con los usuarios de Microsoft Teams y los agentes de llamadas.<br>
 > Las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directo no son compatibles.<br>
-> En un escenario híbrido, la cuenta de recursos debe crearse localmente. Para obtener más información, vea Planear colas [de llamadas en la nube.](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-queue)
+> En un escenario híbrido, la cuenta de recursos debe crearse localmente. Para obtener más información, vea Planear colas [de llamadas en la nube.](/skypeforbusiness/hybrid/plan-call-queue)
 
 ## <a name="business-decisions"></a>Decisiones empresariales
 

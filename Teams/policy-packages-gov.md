@@ -1,5 +1,5 @@
 ---
-title: Paquetes de directivas de Teams para administración pública
+title: Paquetes de directivas de Teams para el gobierno
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,23 +17,23 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización gubernamental.
-ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909084"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117778"
 ---
-# <a name="teams-policy-packages-for-government"></a>Paquetes de directivas de Teams para administración pública
+# <a name="teams-policy-packages-for-government"></a>Paquetes de directivas de Teams para el gobierno
 
 > [!NOTE]
-> Los paquetes de directivas no están disponibles actualmente en las implementaciones de Microsoft 365 Government GCC High o DoD.
+> Actualmente, los paquetes de directivas no están disponibles en implementaciones de Microsoft 365 Government GCC High o DoD.
 
 ## <a name="overview"></a>Información general
 
-Un [paquete de directivas](manage-policy-packages.md) en Microsoft Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a los usuarios que tienen roles similares en su organización. Los paquetes de directivas simplifican y ayudan a proporcionar consistencia al administrar directivas. Puede personalizar la configuración de las directivas del paquete para adaptarla a las necesidades de los usuarios. Al cambiar la configuración de directivas en un paquete de directivas, todos los usuarios asignados a ese paquete obtienen la configuración actualizada. Puede administrar paquetes de directivas mediante el Centro de administración de Microsoft Teams o PowerShell.
+Un [paquete de directivas](manage-policy-packages.md) en Microsoft Teams es una colección de directivas y configuraciones de directiva predefinidas que puede asignar a los usuarios que tienen roles similares en la organización. Los paquetes de directivas simplifican y ayudan a proporcionar consistencia al administrar directivas. Puede personalizar la configuración de las directivas del paquete para adaptarla a las necesidades de los usuarios. Al cambiar la configuración de las directivas de un paquete de directiva, todos los usuarios asignados a ese paquete obtienen la configuración actualizada. Puede administrar paquetes de directiva con el Centro de administración de Microsoft Teams o PowerShell.
 
-Los paquetes de directiva definen previamente directivas para las siguientes, dependiendo del paquete:
+Los paquetes de directiva pre define directivas para las siguientes directivas, dependiendo del paquete:
 
 - Mensajería 
 - Reuniones
@@ -41,19 +41,19 @@ Los paquetes de directiva definen previamente directivas para las siguientes, de
 - Configuración de la aplicación
 - Eventos en directo
 
-Teams incluye actualmente los siguientes paquetes de directiva para administración pública.
+Teams incluye actualmente los siguientes paquetes de directivas para el gobierno.
 
 |Nombre del paquete en el Centro de administración de Microsoft Teams|Recomendado para|Descripción |
 |---------|---------|---------|
-|Responsable de seguridad pública  |Responsables de seguridad pública de su organización gubernamental  |Crea un conjunto de directivas y configuraciones de directivas que se aplican a los responsables de seguridad pública de su organización. |
-|Administrador de frontline manager  |Jefes de línea frontal de su organización gubernamental |Crea un conjunto de directivas y aplica esa configuración a los administradores de frontline en su organización.|
-|Trabajador de la primera línea  |Trabajadores de primera línea de su organización gubernamental |Crea un conjunto de directivas y aplica esa configuración a los trabajadores de frontline workers de su organización.|
+|Oficial de seguridad pública  |Agentes de seguridad pública de su organización gubernamental  |Crea un conjunto de directivas y configuraciones de directiva que se aplican a los responsables de seguridad pública de su organización. |
+|Administrador de primera línea  |Administradores de primera línea en su organización gubernamental |Crea un conjunto de directivas y aplica esa configuración a los administradores de primera línea de su organización.|
+|Trabajador en primera línea  |Trabajadores de primera línea en su organización gubernamental |Crea un conjunto de directivas y aplica esa configuración a Los trabajadores de frontline de su organización.|
 
-![Captura de pantalla de paquetes de directivas sanitarias](media/policy-packages-gov.png)
+![Captura de pantalla de paquetes de directivas de cuidados de la salud](media/policy-packages-gov.png)
 
-A cada directiva individual se le da el nombre del paquete de directiva para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, al asignar el paquete de directiva de responsable de seguridad pública a los usuarios de la organización, se crea una directiva denominada PublicSafety_Officer para cada directiva del paquete.
+Cada directiva individual se indica con el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, al asignar el paquete de directiva oficial de seguridad pública a los usuarios de su organización, se crea una directiva denominada PublicSafety_Officer para cada directiva del paquete.
 
-![Captura de pantalla de las directivas del paquete de trabajadores sanitarios](media/policy-packages-public-safety-officer.png)
+![Captura de pantalla de las directivas del paquete de trabajadores clínicos sanitarios](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Administrar los paquetes de directivas
 
@@ -93,7 +93,7 @@ Para obtener más información, consulte [Asignar un paquete de directivas a un 
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Asignar un paquete de directivas a un conjunto amplio (un lote) de usuarios
 
-Use la asignación de paquete de directiva por lotes para asignar un paquete de directivas a grandes grupos de usuarios de una sola vez. Use el cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar un lote de usuarios y el paquete de directivas que quiera asignar. Las asignaciones se procesan como una operación de segundo plano y se genera un identificador de operación para cada lote.
+Use la asignación de paquete de directiva por lotes para asignar un paquete de directivas a grandes grupos de usuarios de una sola vez. Use el cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar un lote de usuarios y el paquete de directivas que quiera asignar. Las asignaciones se procesan como una operación de segundo plano y se genera un identificador de operación para cada lote.
 
 Un lote puede contener hasta 5000 usuarios. Puede especificar los usuarios por su identificador de objeto, UPN, dirección SIP o dirección de correo electrónico. Para obtener más información, consulte [Asignar un paquete de directivas a un lote de usuarios](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
@@ -101,4 +101,4 @@ Un lote puede contener hasta 5000 usuarios. Puede especificar los usuarios por s
 
 [Administrar los paquetes de directivas para Teams](manage-policy-packages.md)
 
-[Asignar directivas a los usuarios en Teams](assign-policies.md) 
+[Asignar directivas a los usuarios en Teams](assign-policies.md)

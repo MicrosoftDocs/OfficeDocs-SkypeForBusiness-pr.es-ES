@@ -20,43 +20,43 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Conozca cuáles son los pasos que hay que seguir para restablecer el Id. de conferencia de reunión de un usuario en Microsoft Teams, y obtenga los vínculos para las herramientas de migración y actualización de reuniones.
-ms.openlocfilehash: 52b547fee5bf027bcef21914e3ba3aa79b0e4e08
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+description: Obtenga información sobre los pasos para restablecer el id. de conferencia de reunión de un usuario en Microsoft Teams y obtener vínculos a herramientas de actualización y migración de reuniones.
+ms.openlocfilehash: edccab5da883c1707ade75519e96615ed3524bf3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662130"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117648"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Restablecer un Id. de conferencia para un usuario en Microsoft Teams
 
-Al final de las invitaciones de reunión se incluye un Id. de conferencia dinámico junto con los números de teléfono de acceso telefónico local que pueden usar los autores de llamada para llamar a una reunión. Cuando el usuario marque el número de teléfono, el operador automático de la reunión le pedirá al autor de la llamada que introduzca este Id. de conferencia para que pueda asistir a la reunión.
+Se incluye un id. de conferencia dinámico en la parte inferior de las invitaciones de reunión junto con los números de teléfono de acceso telefónico que pueden usar las personas que llaman para llamar a una reunión. Cuando el usuario marca el número de teléfono, el operador automático de la reunión le pedirá al autor de la llamada que escriba este id. de conferencia para que pueda asistir a la reunión.
   
 > [!NOTE]
-> Los id. de conferencia se generan automáticamente, tendrán entre 7 y 9 dígitos y se establecen cuando se habilita Audioconferencia para un usuario. **No se admiten los iD de conferencia estáticos.** 
+> Los id. de conferencia se generan automáticamente, estarán entre 7 y 9 dígitos y se establecerán al habilitar audioconferencias para un usuario. **Los IDs de conferencia estáticos no son compatibles.** 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Restablecer el id. de conferencia de un usuario
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
 
-1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
+1. En el panel de navegación izquierdo, haga clic **en Usuarios** y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
 2. Haga clic **en Editar.**
 
-3. En **Audioconferencia**, haga clic en **Restablecer Id. de conferencia**.
+3. En **Audioconferencia, haga** clic **en Restablecer id. de conferencia.**
 
-2. En la ventana **Restablecer Id. de conferencia**, haga clic en **Restablecer**. El Id. de conferencia se creará automáticamente y se enviará un correo electrónico al usuario con el Id. de conferencia nuevo. Los correos electrónicos se envían a los usuarios de forma predeterminada, aunque esto también se puede desactivar.   
+2. En la ventana **Restablecer id. de** conferencia, haga clic en **Restablecer.** Se creará automáticamente un id. de conferencia y se enviará un correo electrónico al usuario con el nuevo id. de conferencia. De forma predeterminada, los correos electrónicos se envían a los usuarios, pero esto se puede desactivar.   
 
     
 > [!NOTE]
-> Después de restablecer el Id. de conferencia, se enviará un correo electrónico al usuario con el nuevo Id. de conferencia. Este correo electrónico se enviará a la dirección de correo electrónico principal, en muchos casos, su buzón de Microsoft 365 u Office 365. El correo electrónico contiene el nuevo Id. de conferencia, los números de teléfono de acceso telefónico local predeterminados y las instrucciones para actualizar las reuniones existentes. 
+> Después de restablecer el id. de conferencia, se enviará al usuario un correo electrónico con el nuevo id. de conferencia. Este correo electrónico se enviará a la dirección de correo electrónico principal, en muchos casos, a su buzón de Microsoft 365 u Office 365. El correo electrónico contiene el nuevo id. de conferencia, los números de teléfono de acceso telefónico locales predeterminados e instrucciones para actualizar las reuniones existentes. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="what-else-should-i-know"></a>¿Qué más debo saber?
 
-- Puede enviar toda la información de la conferencia al usuario en un correo electrónico que incluya el Id. de conferencia y los números de teléfono de acceso telefónico local haciendo clic en **Enviar información de conferencia a través del correo electrónico** para el usuario en la sección **Audioconferencia**. De esta forma no se envía el PIN.
+- Puede enviar toda la información de conferencia al usuario en un correo electrónico que incluya  el id. de conferencia y los números de teléfono de acceso telefónico local haciendo clic en Enviar información de conferencia por correo electrónico para el usuario en la sección **Audioconferencia.** No envía el PIN.
     
 - El servicio de Teams crea un id. de conferencia de 7 a 9 dígitos. No puede cambiar su longitud.
     
@@ -66,13 +66,13 @@ Al final de las invitaciones de reunión se incluye un Id. de conferencia dinám
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tenga que realizar varias tareas. To get started with Windows PowerShell, see these topics:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
     
-  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](/powershell/module/teams/?view=teams-ps).
     
 ## <a name="related-topics"></a>Temas relacionados
 

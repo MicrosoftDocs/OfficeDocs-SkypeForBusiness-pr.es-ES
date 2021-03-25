@@ -14,15 +14,15 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 ROBOTS: NOINDEX, NOFOLLOW
-description: Puede usar la sección Complemento de la página chat persistente para asociar direcciones URL con los salón de chat persistente. Estas direcciones URL aparecen en el cliente en el salón de chat en el panel de extensibilidad de la conversación. Un administrador debe agregar complementos a la lista de complementos registrados, y los administradores/creadores de salas de chat deben asociar los salas con uno de los complementos registrados para que los usuarios puedan ver esta actualización en su cliente.
-ms.openlocfilehash: 87fa42ec690a46183b0121fe9504749031e14b4a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Puede usar la sección Complemento de la página Chat persistente para asociar direcciones URL con salas de chat persistente. Estas direcciones URL aparecen en el cliente en el salón de chat en el panel de extensibilidad de conversación. Un administrador debe agregar complementos a la lista de complementos registrados y los administradores o creadores de salas de chat deben asociar salas con uno de los complementos registrados antes de que los usuarios puedan ver esta actualización en su cliente.
+ms.openlocfilehash: 948a62eb7580e7a6b7f15d21048b912f62819084
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808400"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118859"
 ---
 # <a name="persistent-chat-add-in"></a>Complemento de chat persistente
 
 > [!NOTE] 
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no es compatible con Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Actualización de Skype Empresarial a Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here) Si necesita usar el chat persistente, puede migrar usuarios que requieran esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015.
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, [vea Skype Empresarial to Microsoft Teams upgrade](/MicrosoftTeams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015.

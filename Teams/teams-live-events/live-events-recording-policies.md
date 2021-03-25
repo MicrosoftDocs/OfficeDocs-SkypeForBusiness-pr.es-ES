@@ -17,18 +17,18 @@ description: Obtenga información sobre las directivas de grabación de eventos 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9fd67ce67d31effdba0d152a3d5920bb17f23b25
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615179"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119169"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Directivas de grabación de eventos en directo en Microsoft Teams
 
 Tiene varias opciones para grabar un evento en directo de Microsoft Teams. Las opciones de grabación se establecen con directivas de grabación. En este artículo se describen las distintas opciones de configuración.
 
-Las opciones de grabación se establecen con el comando de PowerShell [Set-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+Las opciones de grabación se establecen con el comando de PowerShell [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
 ## <a name="scheduling-and-option-behaviors"></a>Programación y comportamientos de opciones
 

@@ -12,25 +12,25 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: bfae335402888736c47ebe38c98cc2d30654d8af
-  ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+  ms.openlocfilehash: 4fddbad88364a26bee8c8217175080b80380ed60
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/11/2020
-  ms.locfileid: "44805555"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51119039"
 additionalContent:
   sections:
   - title: Para profesionales de TI
     items:
     - title: Skype Empresarial Online
       summary: Encuentre recursos para administrar Skype Empresarial Online en su entorno de Office 365.
-      url: /SkypeForBusiness/skype-for-business-online
+      url: ../SfbOnline/skype-for-business-online.yml
     - title: Soluciones híbridas
       summary: Obtenga información sobre cómo planificar una implementación híbrida de Skype empresarial.
-      url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+      url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
     - title: Skype Empresarial Server
       summary: Implemente y administre Skype empresarial Server para su organización.
-      url: /SkypeForBusiness/skype-for-business-server-2019
+      url: ../SfBServer2019/skype-for-business-server-2019.yml
     - title: Referencia de PowerShell para Skype Empresarial
       summary: Obtenga más información sobre los cmdlets de PowerShell que necesita para administrar Skype empresarial y Skype empresarial online.
       url: /powershell/skype/intro
@@ -45,7 +45,7 @@ additionalContent:
       url: /SkypeForBusiness/room-systems/
     - title: Programa de certificación de Skype Empresarial
       summary: Obtenga información sobre las soluciones certificadas y los dispositivos.
-      url: /SkypeForBusiness/certification/overview
+      url: ../SfbPartnerCertification/certification/overview.md
     - title: Solucionar problemas
       summary: Buscar los recursos de solución de problemas y soporte técnico para los profesionales de TI y administradores.
       url: /office/troubleshoot

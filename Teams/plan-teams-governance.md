@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38e51b85e7ecf8efc61c6ca78ca16e4366372885
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ab70daffa91b534f15b032cd0c137efe89abb438
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756236"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117818"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
@@ -43,7 +43,7 @@ Es posible que su organización requiera implementar controles estrictos sobre c
 |<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente los requisitos de su organización para la creación de equipos, los nombres, la clasificación y el acceso de invitados.</li><li>Planee implementar estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios de Teams del comportamiento que pueden esperar.</li></ul>|
 
 > [!NOTE]
-> Para ayudarle a planear con antelación, obtenga más información sobre cómo configurar [estas directivas y qué licencias requieren.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)
+> Para ayudarle a planear con antelación, obtenga más información sobre cómo configurar [estas directivas y qué licencias requieren.](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)
 > 
 > [!NOTE]
 > Limitar la creación de grupos y equipos puede ralentizar la productividad de los usuarios, ya que muchos servicios de Microsoft 365 y Office 365 requieren que se cree un grupo para que el servicio funcione. Para obtener más información, vaya a y expanda [¿Por qué controlar quién crea grupos de Microsoft 365?](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)
@@ -53,15 +53,15 @@ Es posible que su organización requiera implementar controles estrictos sobre c
 
 Después de determinar los requisitos, puede implementarlos mediante controles de Azure AD. Para obtener instrucciones técnicas sobre cómo implementar esta configuración, vea:
 
-- [Cmdlets de Azure Active Directory para configurar la configuración del grupo](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+- [Cmdlets de Azure Active Directory para configurar la configuración del grupo](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Exigir una directiva de nomenclatura para grupos de Microsoft 365 en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [Exigir una directiva de nomenclatura para grupos de Microsoft 365 en Azure Active Directory](/azure/active-directory/users-groups-roles/groups-naming-policy)
 
 - [Directiva de nomenclatura de grupos de Microsoft 365](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
-- [Usar etiquetas de confidencialidad para proteger el contenido en Microsoft Teams, grupos de Microsoft 365 y sitios de SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [Usar etiquetas de confidencialidad para proteger el contenido en Microsoft Teams, grupos de Microsoft 365 y sitios de SharePoint](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-- [Opciones de fin de ciclo de vida para grupos, equipos y Yammer](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
+- [Opciones de fin de ciclo de vida para grupos, equipos y Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Expiración, retención y archivado de grupos y equipos
 
@@ -88,7 +88,7 @@ Es posible que su organización tenga requisitos adicionales para configurar dir
 
 Para obtener instrucciones técnicas sobre cómo implementar esta configuración, vea:
 
-- [Configurar la expiración de grupos de Microsoft 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
+- [Configurar la expiración de grupos de Microsoft 365](/azure/active-directory/users-groups-roles/groups-lifecycle).
 
 - [Configurar directivas de retención de Teams](retention-policies.md).
 
@@ -98,7 +98,7 @@ Para obtener instrucciones técnicas sobre cómo implementar esta configuración
 
 La administración coherente de miembros de grupos restringidos o basados en proyectos es necesaria para los equipos que requieren la incorporación rápida y el offboarding, o usuarios e invitados. Es posible que su organización también tenga que asegurarse de que todos los miembros actuales tengan la justificación empresarial para estar en un equipo. La administración de miembros puede ser difícil porque los propietarios de los equipos pueden salir y los usuarios no suelen abandonar los grupos por su cuenta cuando termina un proyecto o cuando cambian de roles. La mejor manera de administrar la pertenencia a grupos que permite a los usuarios obtener acceso cuando sea necesario pero asegurarse de que el grupo no tiene un riesgo de acceso inadecuado es a través de dos procesos de distrito: administración de derechos y revisiones de acceso.
 
-[La administración](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) de derechos le permite delegar a alguien, como un jefe de proyecto, para recopilar todos los recursos necesarios, incluidas las pertenencias a equipos, en un único paquete. También pueden definir quién puede realizar solicitudes: ya sea usuarios de su inquilino o de otras organizaciones conectadas. El jefe de proyecto recibirá solicitudes de acceso en su correo electrónico y aprobará o denegará solicitudes en el portal de MyAccess. Los administradores pueden configurar las condiciones de acceso para incluir una fecha de expiración o un período para cuando el usuario o el invitado se quiten del equipo a menos que se renueve el acceso. Los administradores también pueden configurar los grupos asociados a los equipos para que puedan participar en las revisiones de acceso. Para [las revisiones de](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)acceso, los propietarios del grupo recibirán avisos regulares para revisar a los miembros de un equipo. Las revisiones de Access incluyen recomendaciones, lo que facilita que los propietarios del grupo puedan pasar por su proceso regular de atestación.
+[La administración](/azure/active-directory/governance/entitlement-management-overview) de derechos le permite delegar a alguien, como un jefe de proyecto, para recopilar todos los recursos necesarios, incluidas las pertenencias a equipos, en un único paquete. También pueden definir quién puede realizar solicitudes: ya sea usuarios de su inquilino o de otras organizaciones conectadas. El jefe de proyecto recibirá solicitudes de acceso en su correo electrónico y aprobará o denegará solicitudes en el portal de MyAccess. Los administradores pueden configurar las condiciones de acceso para incluir una fecha de expiración o un período para cuando el usuario o el invitado se quiten del equipo a menos que se renueve el acceso. Los administradores también pueden configurar los grupos asociados a los equipos para que puedan participar en las revisiones de acceso. Para [las revisiones de](/azure/active-directory/governance/access-reviews-overview)acceso, los propietarios del grupo recibirán avisos regulares para revisar a los miembros de un equipo. Las revisiones de Access incluyen recomendaciones, lo que facilita que los propietarios del grupo puedan pasar por su proceso regular de atestación.
 
 |-|-|-|
 |:-|:-|:-|
@@ -120,8 +120,8 @@ La administración coherente de miembros de grupos restringidos o basados en pro
 
 Para obtener instrucciones técnicas sobre cómo implementar esta configuración, vea:
 
-- [Administración de derechos](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
-- [Opiniones de Access](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
+- [Administración de derechos](/azure/active-directory/governance/entitlement-management-overview)
+- [Opiniones de Access](/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>Administración de características de Teams
 
