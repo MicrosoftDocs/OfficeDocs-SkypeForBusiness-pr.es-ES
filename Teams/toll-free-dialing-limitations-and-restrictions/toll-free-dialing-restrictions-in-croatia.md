@@ -22,35 +22,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Esto le ayudará a saber cómo llamar a números gratuitos en cada país o región. Después de seleccionar el país o la región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad del servicio gratuito en los que el servicio gratuito esté disponible. El formato o los formatos de marcación le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 568b5ddaa301d7d119ec3577c5b4c7a9630e0554
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad de servicios gratuitos en los que el servicio gratuito está disponible. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+ms.openlocfilehash: e219f1cdfad9e44f0fd51d5dec249631ef8a2a1e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707936"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116768"
 ---
-# <a name="toll-free-dialing-restrictions-in-croatia"></a><span data-ttu-id="21657-105">Restricciones de marcado de número gratuito en Croacia</span><span class="sxs-lookup"><span data-stu-id="21657-105">Toll-free dialing restrictions in Croatia</span></span>
+# <a name="toll-free-dialing-restrictions-in-croatia"></a><span data-ttu-id="68490-105">Restricciones de marcado de número gratuito en Croacia</span><span class="sxs-lookup"><span data-stu-id="68490-105">Toll-free dialing restrictions in Croatia</span></span>
 
-<span data-ttu-id="21657-106">[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.</span><span class="sxs-lookup"><span data-stu-id="21657-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="68490-106">[Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.</span><span class="sxs-lookup"><span data-stu-id="68490-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="21657-107">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="21657-107">**Details**</span></span>|<span data-ttu-id="21657-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="21657-108">**Description**</span></span>|
+|<span data-ttu-id="68490-107">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="68490-107">**Details**</span></span>|<span data-ttu-id="68490-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="68490-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="21657-109">¿Están disponibles las llamadas gratuitas?</span><span class="sxs-lookup"><span data-stu-id="21657-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="21657-110">Sí</span><span class="sxs-lookup"><span data-stu-id="21657-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="21657-111">Formatos de marcación</span><span class="sxs-lookup"><span data-stu-id="21657-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="21657-112">0800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="21657-112">0800 XXX XXX</span></span> <br/>  <span data-ttu-id="21657-113">0800 XXXX</span><span class="sxs-lookup"><span data-stu-id="21657-113">0800 XXXX</span></span> <br/> |
-|<span data-ttu-id="21657-114">Código ISO de país o región</span><span class="sxs-lookup"><span data-stu-id="21657-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="21657-115">RR. HH.</span><span class="sxs-lookup"><span data-stu-id="21657-115">HR</span></span>  <br/> |
-|<span data-ttu-id="21657-116">Isla o territorio cubierto</span><span class="sxs-lookup"><span data-stu-id="21657-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="21657-117">No aplicable</span><span class="sxs-lookup"><span data-stu-id="21657-117">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="21657-118">Isla o territorio no cubierto</span><span class="sxs-lookup"><span data-stu-id="21657-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="21657-119">No aplicable</span><span class="sxs-lookup"><span data-stu-id="21657-119">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="21657-120">Disponibilidad de líneas cableadas/fijas</span><span class="sxs-lookup"><span data-stu-id="21657-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="21657-121">Sí</span><span class="sxs-lookup"><span data-stu-id="21657-121">Yes</span></span>  <br/> |
-|<span data-ttu-id="21657-122">Disponibilidad de red móvil</span><span class="sxs-lookup"><span data-stu-id="21657-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="21657-123">Sí</span><span class="sxs-lookup"><span data-stu-id="21657-123">Yes</span></span>  <br/> |
-|<span data-ttu-id="21657-124">Problemas de comentarios, restricciones y acceso</span><span class="sxs-lookup"><span data-stu-id="21657-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="21657-125">Acceso móvil: No se cobra el tiempo de llamada.</span><span class="sxs-lookup"><span data-stu-id="21657-125">Mobile access: No airtime charged.</span></span>  <br/> |
+|<span data-ttu-id="68490-109">¿Hay llamadas gratuitas disponibles?</span><span class="sxs-lookup"><span data-stu-id="68490-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="68490-110">Sí</span><span class="sxs-lookup"><span data-stu-id="68490-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="68490-111">Formatos de marcado</span><span class="sxs-lookup"><span data-stu-id="68490-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="68490-112">0800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="68490-112">0800 XXX XXX</span></span> <br/>  <span data-ttu-id="68490-113">0800 XXXX</span><span class="sxs-lookup"><span data-stu-id="68490-113">0800 XXXX</span></span> <br/> |
+|<span data-ttu-id="68490-114">Código ISO de país o región</span><span class="sxs-lookup"><span data-stu-id="68490-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="68490-115">RR. HH.</span><span class="sxs-lookup"><span data-stu-id="68490-115">HR</span></span>  <br/> |
+|<span data-ttu-id="68490-116">Isla o territorio cubierto</span><span class="sxs-lookup"><span data-stu-id="68490-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="68490-117">No aplicable</span><span class="sxs-lookup"><span data-stu-id="68490-117">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="68490-118">Isla o territorio no cubierto</span><span class="sxs-lookup"><span data-stu-id="68490-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="68490-119">No aplicable</span><span class="sxs-lookup"><span data-stu-id="68490-119">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="68490-120">Disponibilidad de líneas fijas o cableadas</span><span class="sxs-lookup"><span data-stu-id="68490-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="68490-121">Sí</span><span class="sxs-lookup"><span data-stu-id="68490-121">Yes</span></span>  <br/> |
+|<span data-ttu-id="68490-122">Disponibilidad de red móvil</span><span class="sxs-lookup"><span data-stu-id="68490-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="68490-123">Sí</span><span class="sxs-lookup"><span data-stu-id="68490-123">Yes</span></span>  <br/> |
+|<span data-ttu-id="68490-124">Comentarios, restricciones y problemas de acceso</span><span class="sxs-lookup"><span data-stu-id="68490-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="68490-125">Acceso móvil: No se cobra el tiempo de llamada.</span><span class="sxs-lookup"><span data-stu-id="68490-125">Mobile access: No airtime charged.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="21657-126">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="21657-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="68490-126">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="68490-126">Related topics</span></span>
 
-[<span data-ttu-id="21657-127">Restricciones y limitaciones de marcado de número gratuito</span><span class="sxs-lookup"><span data-stu-id="21657-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="68490-127">Restricciones y limitaciones de marcado de número gratuito</span><span class="sxs-lookup"><span data-stu-id="68490-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="21657-128">Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="21657-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="68490-128">Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="68490-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
- 
