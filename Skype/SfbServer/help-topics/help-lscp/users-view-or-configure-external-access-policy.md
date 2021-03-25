@@ -1,5 +1,5 @@
 ---
-title: Usuarios ver o configurar la directiva de acceso externo
+title: Usuarios Ver o configurar directiva de acceso externo
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 076cc5bb5bfc3243a6d8a253d17c56bb87b5165b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 25ab5849d102ff0dcfd0cb6482f932aaad3dfbd1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824330"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122474"
 ---
-# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="82352-104">Usuarios: Ver o configurar directiva de acceso externo</span><span class="sxs-lookup"><span data-stu-id="82352-104">Users: View or Configure External Access Policy</span></span>
+# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="cb28b-104">Usuarios: Ver o configurar directiva de acceso externo</span><span class="sxs-lookup"><span data-stu-id="cb28b-104">Users: View or Configure External Access Policy</span></span>
 
-<span data-ttu-id="82352-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="82352-105">What do you want to do?</span></span> <span data-ttu-id="82352-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="82352-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="cb28b-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="cb28b-105">What do you want to do?</span></span> <span data-ttu-id="cb28b-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="cb28b-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="82352-107">Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios</span><span class="sxs-lookup"><span data-stu-id="82352-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="cb28b-107">Configurar la federación, el acceso remoto de usuarios y la conectividad de mensajería instantánea pública para los usuarios</span><span class="sxs-lookup"><span data-stu-id="cb28b-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
-<span data-ttu-id="82352-108">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="82352-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="cb28b-108">Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="cb28b-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
