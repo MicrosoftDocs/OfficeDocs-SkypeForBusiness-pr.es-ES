@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede especificar la versión de clientes que se admiten en su entorno. Cuando interactúan dos clientes que ejecutan versiones diferentes, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente.
-ms.openlocfilehash: c52921df4e68b8273a4e87af0cfe54105e8a10ca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fd3abdae41b912e63391121c740912cde80e18c2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812400"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120299"
 ---
 # <a name="client-version-policy"></a>Directiva de versiones de clientes:
 
@@ -30,7 +30,7 @@ Puede especificar la versión de clientes que se admiten en su entorno. Cuando i
 
 Puede realizar las siguientes tareas en la página **Directiva de versión de cliente**:
 
-- Edite la directiva de versión de cliente predeterminada **(global).**
+- Edite la directiva de versión de cliente predeterminada ( **Global**).
 
 - Crear directivas de versión de cliente para un grupo o sitio concreto.
 
@@ -61,5 +61,4 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
 - **Actualizar** Puede actualizar la lista de directivas de versión de cliente para comprobar el estado de las opciones de todas las directivas de versión de cliente.
 
-Para obtener más información sobre la interoperabilidad entre clientes y versiones de cliente, consulte [Interoperabilidad de](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) clientes en la documentación sobre planeación. Para obtener detalles sobre cómo trabajar con las directivas de versión de cliente, vea [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) en la documentación de operaciones.
-
+Para obtener más información sobre la interoperabilidad entre clientes y versiones de cliente, consulte [Client Interoperability](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) en la documentación sobre planeación. Para obtener detalles sobre cómo trabajar con las directivas de versión de cliente, vea [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013) en la documentación de operaciones.

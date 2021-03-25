@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: 'Resumen: use los siguientes procedimientos para administrar la autenticación y la seguridad de Skype Empresarial Server.'
-ms.openlocfilehash: 57cb9d6a94c604d155fef9bb784ff6afccbdfc2d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 08cfe113c73c3abc39e617da8340d63f758438c3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828500"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119589"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>Administrar la autenticación en Skype Empresarial Server
  
@@ -28,9 +28,9 @@ Use los siguientes procedimientos para administrar la autenticación y la seguri
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Cómo usar la autenticación moderna (ADAL) con Skype Empresarial](use-adal.md)
+- [Cómo usar la autenticación moderna (ADAL) con Skype Empresarial](/microsoft-365/enterprise/hybrid-modern-auth-overview)
     
-- [Stage AV and OAuth certificates in Skype for Business Server using -Roll in Set-CsCertificate](stage-av-and-oauth-certificates.md)
+- [Certificados de FASE AV y OAuth en Skype Empresarial Server con -Roll en Set-CsCertificate](stage-av-and-oauth-certificates.md)
     
 - [Asignar un certificado de autenticación de servidor a servidor a Skype Empresarial Server](assign-a-server-to-server-certificate.md)
 
@@ -38,12 +38,10 @@ Use los siguientes procedimientos para administrar la autenticación y la seguri
 
 - [Configurar una aplicación de socio local para Skype Empresarial Server](configure-an-on-premises-partner-app.md)
     
-- [Administrar las opciones de configuración del registrador en Skype Empresarial Server](registrar-configuration-settings.md)
+- [Administrar las opciones de configuración de registrador en Skype Empresarial Server](registrar-configuration-settings.md)
     
 - [Administrar las opciones de configuración del servicio web en Skype Empresarial Server](web-service-configuration-settings.md)
     
 - [Administrar la configuración de PIN en Skype Empresarial Server](pin-settings.md)
     
 - [Administrar la autenticación en dos fases en Skype Empresarial Server](two-factor-authentication.md)
-    
-

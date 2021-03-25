@@ -12,20 +12,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: 'Resumen: obtenga información sobre cómo ver directivas de conferencia en Skype Empresarial Server.'
-ms.openlocfilehash: 39b37a1335f8b257f9dec1fff28bea90ac7a6db9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: afe86f0a77e73c3fa7bf96339c4865598a7bc609
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817510"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119409"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>Ver directivas de conferencia en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo ver directivas de conferencia en Skype Empresarial Server.
   
-Puede ver las directivas de conferencia con el Panel de control de Skype Empresarial Server o con el Shell de administración de Skype Empresarial Server.
+Puede ver directivas de conferencia mediante el Panel de control de Skype Empresarial Server o mediante el Shell de administración de Skype Empresarial Server.
   
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Ver directivas de conferencia con el Panel de control de Skype Empresarial Server
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Ver directivas de conferencia mediante el Panel de control de Skype Empresarial Server
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
@@ -37,9 +37,9 @@ Puede ver las directivas de conferencia con el Panel de control de Skype Empresa
     
 5. En **Editar filtro de archivos,** active la casilla **Mostrar** detalles.
     
-    **Editar directiva de \<policy\> conferencia:** se abre mostrando la configuración de la directiva seleccionada.
+    **Editar directiva de \<policy\> conferencia :** abre mostrando la configuración de la directiva seleccionada.
     
-    Para obtener más información sobre cómo configurar las opciones, consulte Crear directivas de conferencia [en Skype Empresarial Server.](create-policies.md)
+    Para obtener más información sobre cómo configurar las opciones, vea [Create conferencing policies in Skype for Business Server](create-policies.md).
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Ver directivas de conferencia mediante el Shell de administración de Skype Empresarial Server
 
@@ -88,6 +88,4 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-Para obtener más información, incluida una descripción de sintaxis completa y una lista de parámetros, vea [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).
-  
-
+Para obtener más información, incluida una descripción completa de la sintaxis y una lista de parámetros, [vea Get-CsConferencingPolicy](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).

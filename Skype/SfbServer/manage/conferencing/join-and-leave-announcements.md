@@ -1,5 +1,5 @@
 ---
-title: Administrar anuncios de unirse y abandonar conferencias en Skype Empresarial Server
+title: Administrar anuncios de unirse y dejar conferencias en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 'Resumen: obtenga información sobre cómo administrar anuncios de unión y salida a conferencias en Skype Empresarial Server.'
-ms.openlocfilehash: 9ca73d3d32ce03a8119d805b5e7260c0a871eb27
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn how to manage conference join and leave announcements in Skype for Business Server.'
+ms.openlocfilehash: 796266dd3b571e525f657d5dbe712d1577779cae
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828110"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119459"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Administrar anuncios de unirse y abandonar conferencias en Skype Empresarial Server
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Administrar anuncios de unirse y dejar conferencias en Skype Empresarial Server
  
-**Resumen:** Learn how to manage conference join and leave announcements in Skype for Business Server.
+**Resumen:** Obtenga información sobre cómo administrar los anuncios de unirse y dejar conferencias en Skype Empresarial Server.
   
-Cuando los usuarios de acceso telefónico local se unen a una conferencia o la abandonan, la aplicación de anuncio de conferencia puede anunciar su entrada o salida reproduciendo un tono o diciendo su nombre. Puede cambiar el modo en que funcionan los anuncios mediante el Shell de administración de Skype Empresarial Server y el cmdlet **Set-CsDialinConferencing** con los siguientes parámetros:
+Cuando los usuarios de acceso telefónico local se unen o salen de una conferencia, la aplicación de anuncio de conferencia puede anunciar su entrada o salida reproduciendo un tono o diciendo sus nombres. Puede cambiar el modo en que funcionan los anuncios mediante el Shell de administración de Skype Empresarial Server y el cmdlet **Set-CsDialinConferencing** con los siguientes parámetros:
   
-- EnableNameRecording: determina si se pide a los participantes anónimos que graben su nombre antes de entrar en la conferencia. El valor predeterminado es "$true," lo que significa que se pide a los participantes anónimos que indiquen su nombre cuando se unan a una conferencia. (Los participantes autenticados no graban su nombre porque se usa el nombre para mostrar).
+- EnableNameRecording: determina si se pide a los participantes anónimos que registren su nombre antes de entrar en la conferencia. El valor predeterminado es "$true," lo que significa que se pide a los participantes anónimos que indiquen su nombre cuando se unan a una conferencia. (Los participantes autenticados no graban su nombre porque se usa el nombre para mostrar).
     
 - EntryExitAnnouncementsEnabledByDefault: indica si los anuncios están activados o desactivados de forma predeterminada. El valor predeterminado es "$false," lo que significa que no hay anuncios de forma predeterminada cuando los participantes se unen a una conferencia o la abandonan. El organizador de la reunión puede invalidar esta opción cuando programa una reunión.
     
-- EntryExitAnnouncementsType: indica la acción que se toma cada vez que un participante se une a una conferencia o la abandona para la que están habilitados los anuncios. El valor predeterminado es "UseNames," lo que significa que hay un anuncio parecido al siguiente: "Ken Myer se ha unido a la conferencia" cuando los anuncios están activados.
+- EntryExitAnnouncementsType: indica la acción que se hace cada vez que un participante se une o sale de una conferencia para la que se habilitan los anuncios. El valor predeterminado es "UseNames," lo que significa que hay un anuncio parecido al siguiente: "Ken Myer se ha unido a la conferencia" cuando los anuncios están activados.
     
 Puede configurar estas opciones en el ámbito global o en el ámbito del sitio. Las opciones configuradas en el ámbito del sitio tienen precedencia sobre las opciones configuradas en el ámbito global.
    
@@ -38,7 +38,7 @@ Puede configurar estas opciones en el ámbito global o en el ámbito del sitio. 
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol Cs-ServerAdministrator o CsAdministrator.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
@@ -46,7 +46,7 @@ Puede configurar estas opciones en el ámbito global o en el ámbito del sitio. 
    Get-CsDialinConferencingConfiguration
    ```
 
-Este cmdlet recupera información sobre si los participantes deben registrar su nombre al unirse a una conferencia y cómo responde Skype Empresarial Server cuando los participantes se unen a una conferencia de acceso telefónico o la abandonan.
+Este cmdlet recupera información sobre si los participantes deben registrar su nombre al unirse a una conferencia y cómo responde Skype Empresarial Server cuando los participantes se unen o salen de una conferencia de acceso telefónico local.
     
 4. Ejecute los siguientes comandos en símbolo del sistema:
     
@@ -57,7 +57,7 @@ Este cmdlet recupera información sobre si los participantes deben registrar su 
    [-EntryExitAnnouncementsType <UseNames | ToneOnly]
    ```
 
-En el siguiente ejemplo, la configuración se configura en el ámbito de sitio de Redmond. Los anuncios están activados, pero no se pide a los participantes que digan su nombre cuando se unen a una conferencia. Se reproduce un tono cuando los participantes entran o salen de una conferencia:
+En el siguiente ejemplo, la configuración se configura en el ámbito del sitio para Redmond. Los anuncios están activados, pero no se pide a los participantes que digan su nombre cuando se unen a una conferencia. Se reproduce un tono cuando los participantes entran o salen de una conferencia:
   
 ```PowerShell
 Set-CsDialinConferencingConfiguration -Identity site:Redmond
@@ -66,6 +66,4 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-Para obtener más información, incluida la sintaxis y una lista completa de parámetros, vea [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps).
-  
-
+Para obtener más información, incluida la sintaxis y una lista completa de parámetros, vea [Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps).

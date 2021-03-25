@@ -22,30 +22,30 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Obtenga información sobre qué países y regiones tienen números de conferencia de marcado, y cómo asignarlos automáticamente.
-ms.openlocfilehash: e3abae815eca6dad17fe51efaf7ec715421650ff
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 6badaf3234b174f4261d93f82239045f0d49bcff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164719"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114226"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Números de teléfono para Audioconferencia en Skype for Business Online
 
 > [!NOTE]
 > Para obtener información acerca de los números de teléfono en Microsoft Teams, vea [Números de teléfono para Audioconferencia en Microsoft Teams](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams).
 
-When you are setting up **Audio Conferencing** for Skype for Business, dial-in phone numbers are automatically assigned to your organization. You can see the phone numbers that are assigned to your audio conferencing bridge by going to the **Skype for Business admin center** > **Audio conferencing** > **Microsoft bridge**. See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers.md).
+Cuando configura **Audioconferencia** para Skype Empresarial, los números de teléfono de acceso telefónico local se asignan automáticamente a su organización. Para ver los números de teléfono que se han asignado a su puente de conferencia de acceso telefónico local, vaya al **Centro de administración de Skype Empresarial** > **Conferencia de acceso telefónico local** > **Puente de Microsoft**. Vea [Ver una lista de números de audioconferencia.](see-a-list-of-audio-conferencing-numbers.md)
   
 > [!NOTE]
-> There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. If you want to see if there are dial-in phone numbers available in your area or country/region, use the **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.
+> No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia. Si desea ver si hay números de teléfono de acceso telefónico telefónico disponible en su área o país o región, use el Centro de administración de **Skype** Empresarial Números de teléfono de voz, haga clic en Agregar y, a continuación, haga clic en Nuevos números de  >    >   **servicio.**  Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Además, si busca números de servicio gratuitos, **seleccione** Gratuito en la lista Estado **o Región.**
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Cobertura y precios de Audioconferencia
 
-For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). For pricing information, see [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Para obtener una lista completa de todos los países o regiones y ciudades donde Audioconferencia está disponible, vea [Disponibilidad de países y regiones de Audioconferencia y planes de llamada](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). Para obtener información sobre precios, consulte [Precios de Audioconferencia](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Números de teléfono de acceso telefónico local en la invitación a la reunión
 
-When a Skype for Business Online user schedules a meeting in Outlook or Outlook Web App, the default audio conferencing number that is set for the user is included in the meeting invite. If you want to select a different default number for one or more users, you can change that by going to the **Skype for Business admin center** > **Audio conferencing** > **Users**. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
+Cuando un usuario de Skype Empresarial Online programa una reunión en Outlook o Outlook Web App, el número de audioconferencia predeterminado establecido para el usuario se incluye en la invitación a la reunión. Si quiere seleccionar un número predeterminado distinto para uno o más usuarios, puede cambiarlo en el **Centro de administración de Skype Empresarial** > **Conferencia de acceso telefónico local** > **Usuarios de acceso telefónico local**. Vea [Establecer los números de teléfono incluidos en las invitaciones.](set-the-phone-numbers-included-on-invites.md)
   
 Para ver otros números de acceso telefónico local, haga clic en el vínculo **Buscar un número local** en la invitación a la reunión.
   
@@ -55,7 +55,7 @@ Existen dos tipos de números de teléfono de conferencias de acceso telefónico
   
  Los **números de teléfono dedicados** son aquellos que solo están disponibles para los usuarios de su organización. Los idiomas que se emplean cuando alguien llama a uno de estos números se pueden cambiar.
   
- **Los números de teléfono** compartidos son aquellos números de teléfono que se pueden compartir con otras cuentas de Microsoft 365 u Office 365. No puede cambiar los idiomas que se usan cuando alguien llama a uno de estos números.
+ **Los números de teléfono** compartidos son aquellos números de teléfono que se pueden compartir con otras cuentas de Microsoft 365 u Office 365. No es posible cambiar los idiomas que se emplean cuando alguien llama a uno de estos números.
   
 Si bien el número de conferencia de acceso telefónico local que se asigna a un organizador es el único que se incluye en la invitación de la reunión, la persona que llama puede usar cualquiera de los números de teléfono que están asignados al puente de conferencia para unirse a una reunión. La lista de estos números de teléfono que se pueden usar para unirse a una reunión está disponible en el vínculo **Buscar un número local** que se incluye en cada invitación a una reunión.
   
@@ -67,26 +67,26 @@ Los números de teléfono de las conferencias de acceso telefónico local compar
 > El país o la región en que se encuentra su organización se puede encontrar firmando en el Centro de administración de Microsoft 365 y mirando bajo el **Perfil de la organización**. 
   
 > [!CAUTION]
-> Debido a la disponibilidad limitada de números de teléfono de pago en Venezuela, Indonesia, Vietnam y los Emiratos Árabes Unidos, no se asignará automáticamente un número de pago de Audioconferencia a las organizaciones de estos países o regiones. Los números gratuitos de estas ubicaciones están disponibles según el inventario disponible. 
+> Debido a la disponibilidad limitada de números de teléfono de pago en Venezuela, Indonesia, Vietnam y Emiratos Árabes Unidos (EAU), las organizaciones de estos países o regiones no tendrán asignado automáticamente un número de pago de audioconferencia. Los números de pago y gratuitos de estos lugares están disponibles dependiendo del inventario disponible. 
   
-Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
+Los números de teléfono dedicados a la audio conferencia son números de servicio que puede obtener y luego ser asignados a su organización. Los números de servicio se pueden encontrar mediante el Centro de administración **de Skype Empresarial.** Para obtener más información, vea [Obtener números de teléfono de servicio.](/microsoftteams/getting-service-phone-numbers)
   
 Para ver una lista de los países o regiones en los que se asignan automáticamente números de teléfono a las organizaciones, vea [Disponibilidad de país y región para Audioconferencia y Planes de llamada](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
 ## <a name="what-else-should-you-know"></a>¿Qué más debe saber?
 
-- Para ver la lista de los idiomas admitidos para las audioconferencias, vea [Los idiomas admitidos en Audioconferencia.](/MicrosoftTeams/audio-conferencing-supported-languages)
+- Para ver la lista de idiomas admitidos para las audioconferencias, vea Idiomas compatibles con [audioconferencias.](/MicrosoftTeams/audio-conferencing-supported-languages)
     
-- Puede usar el cmdlet [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) para ver los números de teléfono dedicados para conferencia de acceso telefónico local de su organización.
+- Puede usar el cmdlet [Get-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Get-CsOnlineDialInConferencingServiceNumber) para ver los números de teléfono dedicados para conferencia de acceso telefónico local de su organización.
     
-- Puede usar el cmdlet [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) para ver los idiomas que se pueden establecer en un número de teléfono de acceso telefónico local dedicado.
+- Puede usar el cmdlet [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) para ver los idiomas que se pueden establecer en un número de teléfono de acceso telefónico local dedicado.
     
-- You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
+- Puede configurar hasta cuatro idiomas para cada número de teléfono de audioconferencia: uno principal y tres secundarios. Además, también puede establecer idiomas en un número de teléfono dedicado para conferencia de acceso telefónico local.
     
-- Para establecer el número de teléfono de acceso telefónico para un usuario, vea Establecer los números [de teléfono incluidos en las invitaciones.](set-the-phone-numbers-included-on-invites.md)
+- Para establecer el número de teléfono de acceso telefónico de un usuario, vea Establecer los números de teléfono [incluidos en las invitaciones.](set-the-phone-numbers-included-on-invites.md)
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar Audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Probar o comprar audioconferencias en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

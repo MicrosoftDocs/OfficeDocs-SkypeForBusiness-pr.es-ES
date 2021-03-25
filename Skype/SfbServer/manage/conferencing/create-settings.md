@@ -1,5 +1,5 @@
 ---
-title: Crear opciones de configuración de reuniones en Skype Empresarial Server
+title: Crear opciones de configuración de reunión en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 'Resumen: obtenga información sobre cómo crear opciones de configuración de reuniones en Skype Empresarial Server.'
-ms.openlocfilehash: edc498ed3847618b17970fb2270c21fd3f4ec025
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn how to create meeting configuration settings in Skype for Business Server.'
+ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828210"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119519"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Crear opciones de configuración de reuniones en Skype Empresarial Server
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Crear opciones de configuración de reunión en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo crear opciones de configuración de reuniones en Skype Empresarial Server.
   
-Puede crear opciones de configuración de reuniones con el Panel de control de Skype Empresarial Server o con el Shell de administración de Skype Empresarial Server.
+Puede crear opciones de configuración de reuniones mediante el Panel de control de Skype Empresarial Server o mediante el Shell de administración de Skype Empresarial Server.
   
 ## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Crear opciones de configuración de reuniones mediante el Panel de control de Skype Empresarial Server
 
@@ -31,7 +31,7 @@ Puede crear opciones de configuración de reuniones con el Panel de control de S
     
 2.  Abra el Panel de control de Skype Empresarial Server.
     
-3. En la barra de navegación izquierda, haga clic **en Conferencia** y, a continuación, haga clic en Configuración **de reunión.**
+3. En la barra de navegación izquierda, haga clic **en Conferencia y,** a continuación, haga clic en **Configuración de reunión.**
     
 4. En la página **Configuración de reunión**, haga clic en **Nueva** y después realice una de las siguientes acciones:
     
@@ -67,9 +67,9 @@ Puede crear opciones de configuración de reuniones con el Panel de control de S
     
 ## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Crear opciones de configuración de reuniones mediante el Shell de administración de Skype Empresarial Server
 
-Para crear opciones de configuración de reuniones, use el cmdlet **New-CsMeetingConfiguration.**
+Para crear opciones de configuración de reunión, use el cmdlet **New-CsMeetingConfiguration.**
   
-El siguiente comando crea un nuevo conjunto de opciones de configuración de reuniones para el sitio Redmond:
+El siguiente comando crea un nuevo conjunto de opciones de configuración de reunión para el sitio redmond:
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
@@ -83,12 +83,10 @@ Para crear configuraciones que usen valores de propiedad diferentes, solo tiene 
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-Se pueden establecer varios valores de propiedad incluyendo varios parámetros. Por ejemplo, el siguiente comando admite a todos los usuarios de una reunión como moderadores y también obliga a los usuarios de RTC a esperar en la sala de espera hasta que se les admita formalmente a la reunión:
+Se pueden establecer varios valores de propiedad mediante la inclusión de varios parámetros. Por ejemplo, el siguiente comando admite a todos los usuarios de una reunión como moderadores y también fuerza a los usuarios de RTC a esperar en la sala de espera hasta que se les admita formalmente a la reunión:
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-Para obtener más información, incluida una lista completa de parámetros, vea [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
-  
-
+Para obtener más información, incluida una lista completa de parámetros, [vea New-CsMeetingConfiguration](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).

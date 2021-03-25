@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Para editar la configuración de una Aplicación de sucursal con funciones de supervivencia o un Servidor de sucursal con funciones de supervivencia, dispone de las secciones siguientes:'
-ms.openlocfilehash: 95f842e72066f7ef19c474b10f7293f05c83cd67
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8f77a7b12800d9eba091218de92f4eec17bf2154
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833210"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119699"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de configuración general de aplicación de sucursal
 
@@ -44,20 +44,20 @@ Puede seleccionar **Usar todas las direcciones IP configuradas** o **Limitar el 
 
 En **Asociaciones**, puede editar o especificar lo siguiente:
 
-- Asociar servidor de archivado le permite seleccionar asociar un servidor de archivado con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de archivado que ya está definido, seleccione el  servidor de la lista desplegable o haga clic en Nuevo para especificar un nuevo servidor de archivado.
+- Asociar servidor de archivado permite seleccionar asociar un servidor de archivado con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de archivado ya definido, seleccione el servidor en  la lista desplegable o haga clic en Nuevo para especificar un nuevo servidor de archivado.
 
     > [!IMPORTANT]
     > Antes de publicar la topología recién definida, el servidor que especifique debe existir y se debe unir en el dominio.
 
-- El servidor de supervisión asociado permite asociar un servidor de supervisión con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Puede seleccionar un servidor de supervisión que ya está definido en la  lista desplegable o hacer clic en Nuevo para especificar un nuevo servidor de supervisión.
+- Asociar servidor de supervisión permite seleccionar asociar un servidor de supervisión con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de supervisión ya definido, seleccione el servidor de  la lista desplegable o haga clic en Nuevo para especificar un nuevo servidor de supervisión.
 
-- Asociar grupo de servidores perimetrales permite asociar un servidor perimetral o un grupo de servidores perimetrales con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Puede seleccionar un servidor perimetral o un grupo de servidores perimetrales que ya estén definidos seleccionándolos en la lista desplegable o hacer clic en **Nuevo** para especificar un servidor perimetral o grupo de servidores perimetrales nuevo.
+- Asociar grupo de servidores perimetrales permite seleccionar asociar un servidor perimetral o grupo de servidores con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Puede seleccionar un servidor perimetral o un grupo de servidores perimetrales que ya estén definidos seleccionándolos en la lista desplegable o hacer clic en **Nuevo** para especificar un servidor perimetral o grupo de servidores perimetrales nuevo.
 
 ## <a name="resiliency"></a>Resistencia
 
 La resistencia proporciona una gran disponibilidad al grupo de registradores. Al proporcionar un registrador de copia de seguridad, si el primer registrador falla, el registrador de copia de seguridad puede reemplazar al que ha fallado de modo que los usuarios puedan seguir registrándose y comunicándose. Es posible que algunos usuarios tengan una funcionalidad reducida según los sistemas que hayan fallado con el registrador principal.
 
-En la lista desplegable, seleccione el grupo de servidores front-end Enterprise Edition o el servidor front-end Standard Edition que actuará como registrador de reserva para la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. También puede habilitar intervalos de tiempo de la conmutación por error y conmutación por recuperación. Al habilitar la configuración de tiempo de la conmutación por error y la conmutación por recuperación (especificada en segundos) se habilita la detección automática de los registradores erróneos, y el tiempo de conmutación por recuperación que permite la determinación automática que el principal vuelve a estar recuperado y puede retomar el proceso del registrador.
+En la lista desplegable, seleccione el grupo de servidores front-end Enterprise Edition o el servidor front-end Standard Edition que actuará como registrador de copia de seguridad para la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. También puede habilitar intervalos de tiempo de la conmutación por error y conmutación por recuperación. Al habilitar la configuración de tiempo de la conmutación por error y la conmutación por recuperación (especificada en segundos) se habilita la detección automática de los registradores erróneos, y el tiempo de conmutación por recuperación que permite la determinación automática que el principal vuelve a estar recuperado y puede retomar el proceso del registrador.
 
 > [!IMPORTANT]
 > Al definir la detección de fallos y el intervalo de conmutación por recuperación, tenga mucho cuidado de no introducir un intervalo que provoque la ejecución de la conmutación por error y por recuperación en el caso que el registrador no logre responder durante un espacio breve de tiempo. Es posible que el registrador principal no responda durante breves periodos de tiempo en función de la carga de los grupos o servidores. Los valores predeterminados para una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia en un sitio a un grupo o servidor front-end Standard Edition son 120 segundos para la conmutación por error y 240 segundos para la reserva.
@@ -74,8 +74,6 @@ Defina las puertas de enlace de la RTC que están asociadas con el servidor de m
 
 Si tiene más de una puerta de enlace asociada con el servidor de mediación, la primera puerta de enlace asociada será la predeterminada. Si debe elegir otra puerta de enlace como predeterminada, seleccione la que desee y, a continuación, haga clic en **Convertir en predeterminada**.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-Para más información sobre cómo definir y configurar la Aplicación de sucursal con funciones de supervivencia o el Servidor de sucursal con funciones de supervivencia, consulte [Branch-Site Resiliency Solutions](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
-
-
+Para más información sobre cómo definir y configurar la Aplicación de sucursal con funciones de supervivencia o el Servidor de sucursal con funciones de supervivencia, consulte [Branch-Site Resiliency Solutions](/previous-versions/office/lync-server-2013/lync-server-2013-branch-site-resiliency-solutions).

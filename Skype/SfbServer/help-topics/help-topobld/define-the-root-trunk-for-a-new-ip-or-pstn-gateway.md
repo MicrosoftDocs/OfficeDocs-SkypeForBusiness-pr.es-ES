@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Para definir el tronco raíz de la IP o red telefónica conmutada (RTC) debe configurar lo siguiente:'
-ms.openlocfilehash: 4f437f9536b834b8b8dc69f59702bc77ce968ef2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bcb63361291d241139fb9eb126b26cd038ea8b34
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835390"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119679"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definir el tronco raíz para una nueva dirección IP o puerta de enlace RTC
 
@@ -32,14 +32,14 @@ Para definir el tronco raíz de la IP o red telefónica conmutada (RTC) debe con
 
 - **Protocolo de transporte SIP**: seleccione **TCP** o **TLS** de la lista en función de los requisitos de tronco
 
-- **Servidor de mediación asociado:** seleccione en la lista de servidores de mediación disponibles en su implementación
+- **Servidor de mediación asociado:** seleccione en la lista de servidores de mediación disponibles en la implementación
 
 - **Puerto del servidor de mediación** asociado: defina el puerto en el que escucha el servidor de mediación seleccionado
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [Configurar un tronco con desvío de medios en Skype Empresarial Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
 [Configurar un tronco sin desvío de medios en Skype Empresarial Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[Compatibilidad con conexiones de enlace troncal SIP](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[Compatibilidad con conexiones de enlace troncal SIP](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunking-support)

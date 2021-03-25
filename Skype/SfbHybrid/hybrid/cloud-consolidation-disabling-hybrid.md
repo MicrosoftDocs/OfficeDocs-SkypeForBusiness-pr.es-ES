@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: En este artículo se incluyen pasos detallados para deshabilitar la implementación híbrida como parte de la consolidación de la nube para Teams y Skype Empresarial.
-ms.openlocfilehash: 90ec73246007542ad0215007b0da91f4fe9405e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874700"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120359"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>Deshabilitar la migración híbrida para completar la migración a la nube: Información general
 
@@ -47,7 +47,7 @@ Estos pasos separan lógicamente la implementación local de Skype Empresarial S
 
 1. *Actualice DNS para que apunte a Microsoft 365 u Office 365.* El DNS externo de la organización para la organización local debe actualizarse para que los registros de Skype Empresarial apunten a Microsoft 365 u Office 365 en lugar de a la implementación local. En particular:
 
-    |Tipo de registro|Name|TTL|Valor|
+    |Tipo de registro|Nombre|TTL|Valor|
     |---|---|---|---|
     |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed.online.lync. <span> com|
     |SRV|_sip._tls|3600|100 1 443 sipdir.online.lync. <span> com|
@@ -99,7 +99,7 @@ Los administradores pueden administrar usuarios que se movieron anteriormente de
 
   ![Herramienta de equipos y usuarios de Active Directory](../media/disable-hybrid-1.png)
   
--  Si el usuario no tenía originalmente un valor para local antes del movimiento, puede modificar el número de teléfono mediante el parámetro - en el `msRTCSIP-Line` `onpremLineUri` cmdlet [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) del módulo PowerShell de Skype Empresarial Online.
+-  Si el usuario no tenía originalmente un valor para local antes del movimiento, puede modificar el número de teléfono mediante el parámetro - en el `msRTCSIP-Line` `onpremLineUri` cmdlet [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) del módulo PowerShell de Skype Empresarial Online.
 
 Estos pasos no son necesarios para los nuevos usuarios creados después de deshabilitar híbridos y esos usuarios se pueden administrar directamente en la nube. Si se siente cómodo con la combinación de estos métodos, así como con dejar los atributos msRTCSIP en su Active Directory local, simplemente puede volver a crear una imagen de los servidores locales de Skype Empresarial. Sin embargo, si prefiere borrar todos los atributos msRTCSIP y realizar una desinstalación tradicional de Skype Empresarial Server, use el método 2.
 
@@ -231,6 +231,6 @@ Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que l
     ``` 
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Consolidación en la nube para Teams y Skype Empresarial](cloud-consolidation.md)

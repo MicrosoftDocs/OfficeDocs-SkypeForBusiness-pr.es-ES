@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
-description: Una configuración de dispositivo es una colección de configuraciones que se usan para administrar dispositivos Skype Empresarial Phone Edition, ya sea de forma global o dentro de un sitio. Estos valores le permiten configurar aspectos como el modo de seguridad requerido, el nivel de registro del dispositivo, los ajustes de calidad de servicio de voz (QoS) y especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
-ms.openlocfilehash: dc44a176a5dbef7c1df5e957867f30b27b47e95b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Una configuración de dispositivo es una colección de opciones que se usan para administrar dispositivos Skype Empresarial Phone Edition, ya sea globalmente o dentro de un sitio. Estos valores le permiten configurar aspectos como el modo de seguridad requerido, el nivel de registro del dispositivo, los ajustes de calidad de servicio de voz (QoS) y especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
+ms.openlocfilehash: 60d9ab8c09b648df14758056fed6096439b7f811
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830170"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120239"
 ---
 # <a name="device-configuration"></a>Configuración de dispositivo
  
-Una configuración de dispositivo es una colección de configuraciones que se usan para administrar dispositivos Skype Empresarial Phone Edition, ya sea de forma global o dentro de un sitio. Estos valores le permiten configurar aspectos como el modo de seguridad requerido, el nivel de registro del dispositivo, los ajustes de calidad de servicio de voz (QoS) y especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad. 
+Una configuración de dispositivo es una colección de opciones que se usan para administrar dispositivos Skype Empresarial Phone Edition, ya sea globalmente o dentro de un sitio. Estos valores le permiten configurar aspectos como el modo de seguridad requerido, el nivel de registro del dispositivo, los ajustes de calidad de servicio de voz (QoS) y especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad. 
   
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
@@ -46,16 +46,16 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
     
 - **Editar** Puedes cambiar las opciones de una configuración de dispositivo en la lista. Al usar esta opción, puede hacer lo siguiente:
     
-  - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puedes cambiar las opciones de una configuración de dispositivo.
+  - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puedes cambiar las opciones de configuración de un dispositivo.
     
-  - **Seleccionar todo** Esta opción selecciona todas las configuraciones de dispositivos de la lista.
+  - **Seleccionar todo** Esta opción selecciona todas las configuraciones de dispositivo de la lista.
     
   - **Eliminar** Esta opción elimina todas las configuraciones de dispositivo seleccionadas.
     
-- **Actualizar** Puedes actualizar la lista de configuraciones de dispositivos para comprobar el estado de las opciones de todas las configuraciones de dispositivo.
+- **Actualizar** Puedes actualizar la lista de configuración del dispositivo para comprobar el estado de las opciones de todas las configuraciones de dispositivo.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [Configuración de dispositivo: Crear nueva o editar existente](ms.lync.lscp.ClientDeviceTestEdit.md)
 
-[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[Set-CsUCPhoneConfiguration](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

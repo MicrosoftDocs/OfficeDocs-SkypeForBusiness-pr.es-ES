@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: El administrador puede obtener información sobre cómo usar audioconferencias con enrutamiento directo en entornos GCCH y DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84f2789c6d4f4e9c5446ad39d6f2d50d842b92a6
-ms.sourcegitcommit: 0a7c1f52484452f66f678b0feca1455bade4fcf3
+ms.openlocfilehash: ef20f340ec0c1fb225505ece273373e40d9d5c44
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50716944"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119339"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audioconferencia con enrutamiento directo para GCC High y DoD
 
@@ -111,7 +111,7 @@ Para crear un nuevo uso de RTC en una sesión remota de PowerShell en Skype Empr
   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
   ```
 
-Para obtener más información, [vea Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage).
+Para obtener más información, [vea Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage).
 
 Para crear una nueva ruta de voz, use el siguiente comando:
 
@@ -123,7 +123,7 @@ Al definir una nueva ruta de voz para su organización, especifique una o varias
 
 El patrón de número especifica qué llamadas se enrutarán a través de la lista especificada de puertas de enlace en función del número de teléfono de destino de la llamada. En el ejemplo anterior, las llamadas a cualquier destino del mundo coincidirán con la ruta de voz. Si desea restringir los números de teléfono que se pueden marcar desde las reuniones de los usuarios de su organización, puede cambiar el patrón de número para que la ruta de voz coincida solo con los patrones de número de los destinos permitidos. Tenga en cuenta que si no hay rutas de voz que coincidan con el patrón de número del número de teléfono de destino de una llamada determinada, la llamada no se dirigirá.
 
-Para obtener más información, [vea New-CsOnlineVoiceRoute](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute).
+Para obtener más información, [vea New-CsOnlineVoiceRoute](/powershell/module/skype/new-csonlinevoiceroute).
 
 Para crear una nueva directiva de enrutamiento de voz, use el siguiente comando:
 
@@ -133,7 +133,7 @@ Para crear una nueva directiva de enrutamiento de voz, use el siguiente comando:
 
 Si se definen varios usos de RTC en la directiva de enrutamiento de voz, se evaluarán en el orden en que se definen. Se recomienda que los usos de RTC se definan en el orden de los más específicos a los más genéricos en términos de los patrones de número de las rutas de voz asociadas con los usos rtc. Por ejemplo, si se definió un uso de RTC para enrutar llamadas a Estados Unidos y se definió otro uso de RTC para enrutar llamadas a cualquier otra ubicación del mundo, el uso de RTC para llamadas a Estados Unidos debería aparecer en la directiva de enrutamiento de voz antes del uso de RTC para enrutar llamadas a cualquier otra ubicación del mundo.
 
-Para obtener más información, [vea New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
+Para obtener más información, [vea New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy).
 
 Para asignar la nueva ruta de voz a la directiva global de enrutamiento de voz de su organización, use el siguiente comando:
 
@@ -141,13 +141,13 @@ Para asignar la nueva ruta de voz a la directiva global de enrutamiento de voz d
   Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
   ```
 
-Para obtener más información, [vea Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+Para obtener más información, [vea Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
 
 Una vez definida la directiva de enrutamiento de voz global, las llamadas salientes realizadas desde reuniones organizadas por los usuarios de su organización se evaluarán en función de las rutas de voz asociadas a los usos rtc de la directiva global de enrutamiento de voz. Las llamadas salientes se enrutarán según la primera ruta de voz que coincida con el patrón de número del número de teléfono marcado.
 
 ### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Paso 5: Asignar audioconferencias con enrutamiento directo para licencias de GCC High o DoD a los usuarios
 
-Para asignar audioconferencias con enrutamiento directo para licencias de GCC High o DoD a su usuario, vea Asignar [licencias a usuarios.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+Para asignar audioconferencias con enrutamiento directo para licencias de GCC High o DoD a su usuario, vea Asignar [licencias a usuarios.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 ### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Paso 6: (opcional) Vea una lista de números de audioconferencia en Teams
 

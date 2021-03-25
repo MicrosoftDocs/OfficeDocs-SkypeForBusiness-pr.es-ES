@@ -15,21 +15,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 7e828745810bd49f9b8f3ea9e7bee1d023e4fc67
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a65cd80311aaf1d13d5d9471ff285b94545176d1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817450"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119389"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Habilitar o deshabilitar el acceso de usuarios anónimos en Skype Empresarial Server
 
-Los usuarios anónimos son usuarios que no tienen una cuenta de usuario en los Servicios de dominio de Active Directory de su organización o en un dominio federado admitido, pero se les puede invitar a participar de forma remota en una conferencia local. Al permitir la participación anónima en las reuniones, permite que los usuarios anónimos (es decir, los usuarios cuya identidad se comprueba solo a través de la clave de conferencia o reunión) se unan a las reuniones. Permitir la participación anónima requiere habilitarla para su organización.
+Los usuarios anónimos son usuarios que no tienen una cuenta de usuario en los Servicios de dominio de Active Directory de la organización o en un dominio federado compatible, pero pueden ser invitados a participar de forma remota en una conferencia local. Al permitir la participación anónima en reuniones, permite a los usuarios anónimos (es decir, usuarios cuya identidad se comprueba a través de la clave de reunión o conferencia solamente) unirse a reuniones. Permitir la participación anónima requiere habilitarla para su organización.
 
-Si más adelante desea impedir de forma temporal o permanente el acceso de usuarios anónimos, puede deshabilitarlo para su organización. Use el procedimiento descrito en esta sección para habilitar o deshabilitar el acceso de usuarios anónimos para su organización.
+Si más adelante desea impedir de forma temporal o permanente el acceso de usuarios anónimos, puede deshabilitarlo para su organización. Use el procedimiento de esta sección para habilitar o deshabilitar el acceso de usuarios anónimos para su organización.
 
 > [!NOTE]  
-> Al habilitar el acceso de usuarios anónimos para su organización, solo está especificando que los servidores que ejecutan el servicio perimetral de acceso admitan el acceso de usuarios anónimos. Los usuarios anónimos no pueden participar en ninguna reunión de su organización hasta que también configure al menos una directiva de conferencia y la aplique a uno o más usuarios o grupos de usuarios. Los únicos usuarios que pueden invitar a usuarios anónimos a reuniones son aquellos usuarios a los que se les asigna una directiva de conferencia configurada para admitir usuarios anónimos. Para obtener más información sobre cómo configurar directivas de conferencia para que admitan la invitación de usuarios anónimos, vea Administrar directivas [de conferencia.](../../conferencing/conferencing-policies.md)
+> Al habilitar el acceso de usuarios anónimos para la organización, solo se especifica que los servidores que ejecutan el servicio perimetral de acceso admiten el acceso de usuarios anónimos. Los usuarios anónimos no pueden participar en ninguna reunión de la organización hasta que también configure al menos una directiva de conferencia y la aplique a uno o varios usuarios o grupos de usuarios. Los únicos usuarios que pueden invitar a usuarios anónimos a reuniones son aquellos usuarios a los que se asigna una directiva de conferencia configurada para admitir usuarios anónimos. Para obtener más información sobre cómo configurar directivas de conferencia para admitir la invitación a usuarios anónimos, vea [Manage conferencing policies](../../conferencing/conferencing-policies.md).
 
 ## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>Para habilitar o deshabilitar el acceso de usuarios anónimos para su organización
 
@@ -43,14 +43,14 @@ Si más adelante desea impedir de forma temporal o permanente el acceso de usuar
 
 5.  En **Editar configuración perimetral de acceso**, lleve a cabo uno de los procedimientos siguientes:
     
-      - Para habilitar el acceso de usuarios anónimos para su organización, active la casilla Habilitar **comunicaciones con usuarios** anónimos.
+      - Para habilitar el acceso de usuarios anónimos para su organización, active la casilla Habilitar **comunicaciones con** usuarios anónimos.
     
       - Para deshabilitar el acceso de usuarios anónimos para su organización, desactive la casilla Habilitar **comunicaciones con usuarios** anónimos.
 
 6.  Haga clic en **Confirmar**.
 
 
-## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar el acceso de usuarios anónimos mediante cmdlets Windows PowerShell usuario
+## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar el acceso de usuarios anónimos mediante Windows PowerShell cmdlets
 
 Puede administrar el acceso de usuarios anónimos mediante Windows PowerShell y el cmdlet **Set-CsAccessEdgeConfiguration.** Puede ejecutar este cmdlet desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
 
@@ -62,12 +62,11 @@ Puede administrar el acceso de usuarios anónimos mediante Windows PowerShell y 
 
 ## <a name="to-disable-anonymous-user-access"></a>Para deshabilitar el acceso de usuarios anónimos
 
-  - Para deshabilitar el acceso de usuarios anónimos, establezca el valor de la propiedad **AllowAnonymousUsers** en False ($False):
+  - Para deshabilitar el acceso de usuarios anónimos, establezca el valor de la **propiedad AllowAnonymousUsers** en False ($False):
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
-[Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
-  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
