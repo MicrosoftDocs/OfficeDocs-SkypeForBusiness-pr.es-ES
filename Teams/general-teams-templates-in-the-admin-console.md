@@ -1,5 +1,5 @@
 ---
-title: Usar plantillas generales de Teams en el centro de administración
+title: Usar plantillas generales de Teams en el Centro de administración
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Aprenda a usar plantillas generales de Teams para crear estructuras de equipo proporcionando configuraciones predefinidas, canales y aplicaciones preinstaladas desde el Centro de administración.
+description: Obtenga información sobre cómo usar plantillas generales de Teams para crear estructuras de equipo proporcionando configuraciones predefinidas, canales y aplicaciones preinstaladas con el Centro de administración.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,46 +19,46 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caef10a4e9b659ce18e05df65bf2a441248ec493
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: bc21c4137547f34e82e22cc13f9be9e8e1bb257a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662075"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120731"
 ---
-# <a name="use-general-teams-templates-in-the-admin-center"></a>Usar plantillas generales de Teams en el centro de administración
+# <a name="use-general-teams-templates-in-the-admin-center"></a>Usar plantillas generales de Teams en el Centro de administración
 
-Las plantillas de Teams le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
+Las plantillas de Teams le permiten crear equipos de forma rápida y sencilla al proporcionar una plantilla de configuración predefinida, canales y aplicaciones preinstaladas.
 
-Las plantillas de Teams tienen definiciones predefinidas de estructuras de equipo diseñadas para necesidades financieras. También puede ampliar las plantillas de Teams para crear equipos que se adapten a sus necesidades organizativas específicas.
+Las plantillas de Teams tienen definiciones predefinidas de estructuras de equipo diseñadas en función de las necesidades financieras. También puede ampliar las plantillas de Teams para crear equipos que se adapten a las necesidades específicas de su organización.
 
-En este artículo, presentamos cada una de las plantillas de Teams y le recomendamos que las use.
+En este artículo, presentamos cada una de las plantillas de Teams y le recomendamos cómo usarlas.
 
-Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda su organización financiera. Ya ha implementado el servicio Teams en su organización. Si aún no ha lanzado Teams, empiece leyendo [cómo se lanza Microsoft Teams.](How-to-roll-out-teams.md)
+Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda su organización financiera. Ya ha implementado el servicio de Teams en su organización. Si no ha lanzado Teams, empiece leyendo el artículo [Cómo realizar Microsoft Teams.](./deploy-overview.md)
 
-Para obtener más información sobre las plantillas de equipo en general, consulte Introducción [a las plantillas de Teams.](get-started-with-teams-templates-in-the-admin-console.md)
+Para obtener más información sobre las plantillas de equipo en general, consulte [Introducción a las plantillas de Teams](get-started-with-teams-templates-in-the-admin-console.md).
 
-## <a name="global-crisis-or-event"></a>Crisis global o evento
+## <a name="global-crisis-or-event"></a>Crisis o evento global
 
-Centralice la colaboración del equipo de crisis en todas las unidades de negocio y ayude a crear planes de continuidad empresarial, comparta sugerencias de trabajo remotas, realice un seguimiento de las comunicaciones de los clientes y mantenga a todos al tanto con anuncios y noticias.
+Centralice la colaboración para su equipo de crisis en todas las unidades de negocio y ayude a crear planes de continuidad empresarial, compartir sugerencias de trabajo remotas, realizar un seguimiento de las comunicaciones de los clientes y mantener a todos al día con anuncios y noticias.
 
 | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------ |--|----------------------------------------------------------|
-| Colaborar en eventos o crisis globales |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canales: <ul><li>General<li>Anuncios</li><li>Noticias internacionales</li><li>Continuidad empresarial</li><li>Comms externos</li><li>Solicitud de aprobaciones</li><li>Trabajo remoto</li><li>Comunicación interna</li><li>Comms externos</li><li>Quejas de clientes</li><li>Kudos</li><li>Actualización ejecutiva</li></ul>Aplicaciones: <ul><li>Elogiar</li><li>Wiki</li><li>Sitio web</li><li>Planner</li></ul>|
+| Colaborar en eventos o crisis globales |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canales: <ul><li>General<li>Anuncios</li><li>Noticias del mundo</li><li>Continuidad empresarial</li><li>Comms externos</li><li>Solicitud de aprobaciones</li><li>Trabajo remoto</li><li>Comunicación interna</li><li>Comms externos</li><li>Quejas de clientes</li><li>Kudos</li><li>Actualización ejecutiva</li></ul>Aplicaciones: <ul><li>Elogiar</li><li>Wiki</li><li>Sitio web</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="adopt-office-365"></a>Adoptar Office 365
 
-Ayude a crear, aumentar y mantener la implementación de la comunidad de campeones mediante evangeliscar y ayudar a sus compañeros con la nueva tecnología.
+Ayude a crear, crecer y mantener la implementación de la comunidad champions al evangelizar y ayudar a sus compañeros con la nueva tecnología.
 
 | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------|--|-----------------------------------------------------------|
-| Adoptar Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  Canales: <ul><li>General</li> <li>Anuncios</li> <li>Esquina de campeones</li> <li>Formularios de equipo</li></ul> Aplicaciones: <ul><li>Wiki</li>  <li>Calendario</li><li>Desarrollo de aptitudes</li><li>Procesamiento del préstamo</li><li>Quejas de clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>|
+| Adoptar Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  Canales: <ul><li>General</li> <li>Anuncios</li> <li>Esquina Campeones</li> <li>Formularios de equipo</li></ul> Aplicaciones: <ul><li>Wiki</li>  <li>Calendario</li><li>Desarrollo de aptitudes</li><li>Procesamiento de préstamo</li><li>Quejas de clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>|
 ||||
 
 ## <a name="manage-a-project"></a>Administrar un proyecto
 
-Administre tareas, comparta documentos, realice reuniones de proyecto y documente riesgos y decisiones con esta plantilla para la administración general de proyectos.
+Administre tareas, comparta documentos, realice reuniones de proyecto y tome decisiones y riesgos de documentos con esta plantilla para la administración general de proyectos.
 
 | Tipo de plantilla base| baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------|--|-----------------------------------------------------------|
@@ -67,7 +67,7 @@ Administre tareas, comparta documentos, realice reuniones de proyecto y document
 
 ## <a name="manage-an-event"></a>Administrar un evento
 
-Administre tareas, documentos y colabore en todo lo que necesite para ofrecer un evento atractivo. Invite a los usuarios invitados a que tengan una colaboración segura dentro y fuera de su compañía.
+Administre tareas, documentos y colabore en todo lo que necesite para ofrecer un evento atractivo. Invite a los usuarios invitados a que tengan colaboración segura dentro y fuera de su empresa.
 
 Es posible que no tenga acceso a determinadas aplicaciones en función de la directiva de permisos de la aplicación.
 
@@ -82,12 +82,12 @@ Mejore su cultura y simplifico la incorporación de sus empleados con este equip
 
 | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------|--|-----------------------------------------------------------|
-|Incorporar empleados|`com.microsoft.teams.template.OnboardEmployees`  | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleado</li> <li>Aprendizaje</li></ul>Aplicaciones:<ul><li>Wiki</li><li>Comunidades</li><li>Planner</li></ul>|
+|Incorporar empleados|`com.microsoft.teams.template.OnboardEmployees`  | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleados</li> <li>Aprendizaje</li></ul>Aplicaciones:<ul><li>Wiki</li><li>Comunidades</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="organize-a-help-desk"></a>Organizar un servicio de ayuda
 
-Colabore en documentación, directivas y procesos que admitan a su departamento de soporte técnico. Integre su sistema de vales existente o use nuestra plantilla para administrar solicitudes.
+Colabore en documentación, directivas y procesos que admitan su departamento de soporte técnico. Integre su sistema de venta de entradas existente o use nuestra plantilla para administrar solicitudes.
 
 | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------|--|------------------------------------------------------------|

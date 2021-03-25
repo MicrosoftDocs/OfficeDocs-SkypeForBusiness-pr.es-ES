@@ -16,27 +16,27 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Descubra qué necesita para migrar al enrutamiento directo en la configuración de Skype Empresarial Online y Teams.
-ms.openlocfilehash: 11bf4ffe7e5e0f1c2fb177531c2eba36d081bf47
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: de211dfae9bf2fc20a2cd367687e0fd7c5779a5f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359426"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122204"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrar a enrutamiento directo
 
 Este artículo describe qué necesita para migrar al enrutamiento directo en la configuración de Skype Empresarial Online y Microsoft Teams. Este artículo aborda la migración desde...: 
  
 - Sistema telefónico con planes de llamadas (para Teams y Skype Empresarial Online) 
-- Sistema telefónico con conectividad con RTC local en Skype Empresarial Server (para Skype Empresarial Online)  
-- Sistema telefónico con conectividad con RTC local mediante Cloud Connector Edition (para Skype Empresarial Online)
+- Sistema telefónico con conectividad RTC local en Skype Empresarial Server (para Skype Empresarial Online)  
+- Sistema telefónico con conectividad RTC local mediante la cloud Connector Edition (para Skype Empresarial Online)
 
 
 Además de estos pasos de configuración, también debe configurar el controlador de borde de sesión (SBC) para redirigir las llamadas a la nueva ruta. Sin embargo, esto se escapa al ámbito de este documento. Si desea más información sobre este tema, consulte la documentación de su proveedor SBC.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Estado final del aprovisionamiento de usuarios para varias opciones de conectividad RTC 
 
-En la tabla siguiente se muestra el estado final de un usuario aprovisionado para las opciones de conectividad RTC seleccionadas con Sistema telefónico. Solo se muestran los atributos relevantes para los servicios de voz.
+En la tabla siguiente se muestra el estado final de un usuario aprovisionado para las opciones de conectividad RTC seleccionadas con Phone System. Solo se muestran los atributos relevantes para los servicios de voz.
 
 |Atributos de objeto de usuario |Sistema telefónico con Planes de llamada|Sistema telefónico con una conectividad RTC local en Skype Empresarial Server|Sistema telefónico con conectividad con RTC local mediante conector de nube|Sistema telefónico con conectividad RTC local mediante enrutamiento directo|
 |---|---|---|---|---|
@@ -65,9 +65,9 @@ Para más información, consulte [Guía de migración e interoperabilidad para o
 
 Para obtener más información sobre cómo migrar desde los Planes de llamadas, vea:
 
-- [Configurar planes de llamadas](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Set-CsOnlineVoice User](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
-- [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
+- [Configurar planes de llamadas](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [Set-CsOnlineVoice User](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
+- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
 Se recomienda quitar la información configurada anteriormente en el plan de licencias de la siguiente manera:
@@ -83,8 +83,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 Para más información sobre cómo migrar desde el Sistema telefónico con una conectividad RTC local en Skype Empresarial Server, vea lo siguiente:
 
-- [Planificación](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
-- [Implementación](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
+- [Planificación](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [Implementación](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 Se recomienda quitar la información configurada anteriormente en el enrutamiento de voz de la siguiente manera:
 
@@ -92,7 +92,7 @@ Se recomienda quitar la información configurada anteriormente en el enrutamient
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > [!NOTE]
-> Si se configura un CsVoiceRoutingPolicy global, se recomienda quitar todos los usos de RTC asociados a esta directiva global. 
+> Si está configurado un CsVoiceRoutingPolicy global, se recomienda quitar cualquier uso de RTC asociado a esta directiva global. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migrar desde el Sistema telefónico de Office 365 con una conectividad RTC local mediante la edición de conector en la nube 
 
@@ -101,9 +101,9 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 Para más información sobre cómo migrar desde el Sistema telefónico con una conectividad RTC local en Skype Empresarial Server, vea lo siguiente:
 
-- [Planificación](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
-- [Implementación](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
-- [Configuración de usuario](https://docs.microsoft.com/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
+- [Planificación](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [Implementación](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
+- [Configuración de usuario](/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 Se recomienda quitar la información configurada anteriormente en el enrutamiento de voz de la siguiente manera:
  
@@ -117,17 +117,16 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)
 
-[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradePolicy)
+[Get-CsTeamsUpgradePolicy](/powershell/module/skype/Get-CsTeamsUpgradePolicy)
 
-[New-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsTeamsUpgradePolicy)
+[New-CsTeamsUpgradePolicy](/powershell/module/skype/New-CsTeamsUpgradePolicy)
 
-[Remove-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
+[Remove-CsTeamsUpgradePolicy](/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
 
-[Set-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradePolicy)
+[Set-CsTeamsUpgradePolicy](/powershell/module/skype/Set-CsTeamsUpgradePolicy)
 
-[Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
+[Get-CsTeamsUpgradeConfiguration](/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
 
-[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)
-
+[Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)

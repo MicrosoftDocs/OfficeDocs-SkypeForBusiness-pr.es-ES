@@ -17,17 +17,17 @@ description: Solucionar problemas relacionados con la recepción de mensajes y l
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: af7845b5fd6d50d63be6cd21749cbfedc7669fcf
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 1c209d1acc83e63792722b00b63be5a6b9f3721a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085156"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120611"
 ---
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problemas al recibir mensajes y llamadas en sistemas heredados
 ==============================================================
 
-Los usuarios podrían tener problemas para recibir mensajes o llamadas si usan versiones anteriores de Teams o han iniciado sesión con otras aplicaciones.
+Es posible que los usuarios tengan problemas para recibir mensajes o llamadas si usan versiones anteriores de Teams o han iniciado sesión con otras aplicaciones.
 
 ## <a name="legacy-adu-setups"></a>Configuraciones de ADU heredadas
 
@@ -40,13 +40,13 @@ Los usuarios podrían tener problemas para recibir mensajes o llamadas si usan v
 > [!NOTE]
 > La opción para omitir o ignorar el rellenado previo para los nombres de usuario que terminan en ".local" o ".corp" está activada de forma predeterminada, por lo que no es necesario establecer una clave del registro para desactivarlos.
 
-Vea [Iniciar sesión en Microsoft Teams con la autenticación moderna](sign-in-teams.md) para obtener más información.
+Vea [Iniciar sesión en Microsoft Teams con autenticación moderna](sign-in-teams.md) para obtener más información.
 
-## <a name="skype-token-revocation"></a>Revocación de token de Skype
+## <a name="skype-token-revocation"></a>Revocación de tokens de Skype
 
-Al cambiar o restablecer una contraseña, los clientes antiguos no recibirán mensajes y llamadas durante un máximo de una hora. Para resolver este problema, reinicie la aplicación o muévete a clientes más recientes.
+Al cambiar o restablecer una contraseña, los clientes antiguos no recibirán mensajes y llamadas durante un máximo de una hora. Para resolver este problema, reinicie la aplicación o pase a clientes más recientes.
 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Solución de problemas de Teams](/MicrosoftTeams/troubleshoot/teams)

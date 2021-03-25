@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el centro de administración de Microsoft Teams o Windows PowerShell para crear y administrar planes de marcado (planes de marcado de llamadas RTC).
-ms.openlocfilehash: 8e1d3a102d762bef29ecd3af7998646239b5f0c2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569266"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120812"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
@@ -89,7 +89,7 @@ Para crear y administrar planes de marcado de inquilino puede utilizar un cmdlet
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Para ver otros ejemplos y parámetros, consulte [Nuevo-CsPlanMarcadoInquilinio](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).
+    Para ver otros ejemplos y parámetros, consulte [Nuevo-CsPlanMarcadoInquilinio](/powershell/module/skype/new-cstenantdialplan).
     
 - Para editar la configuración de un plan de marcado existente, ejecute:
     
@@ -98,7 +98,7 @@ Para crear y administrar planes de marcado de inquilino puede utilizar un cmdlet
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Para ver otros ejemplos y parámetros, consulte[Configurar-CsPlanMarcadoInquilino](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan).
+    Para ver otros ejemplos y parámetros, consulte[Configurar-CsPlanMarcadoInquilino](/powershell/module/skype/set-cstenantdialplan).
     
 - Para agregar usuarios a un plan de marcado, ejecute:
     
@@ -106,7 +106,7 @@ Para crear y administrar planes de marcado de inquilino puede utilizar un cmdlet
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    Para ver otros ejemplos y parámetros, consulte [Garantizar-CsPlanMarcadoInquilino](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).
+    Para ver otros ejemplos y parámetros, consulte [Garantizar-CsPlanMarcadoInquilino](/powershell/module/skype/grant-cstenantdialplan).
     
 - Para ver la configuración de un plan de marcado, ejecute:
     
@@ -114,7 +114,7 @@ Para crear y administrar planes de marcado de inquilino puede utilizar un cmdlet
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    Para ver otros ejemplos y parámetros, consulte[Obtener-CsPlanMarcadoInquilino](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
+    Para ver otros ejemplos y parámetros, consulte[Obtener-CsPlanMarcadoInquilino](/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
     
 - Para eliminar un plan de marcado, ejecute:
     
@@ -122,7 +122,7 @@ Para crear y administrar planes de marcado de inquilino puede utilizar un cmdlet
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    Para ver otros ejemplos y parámetros, consulte [Eliminar-CsPlanMarcadoInquilino](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
+    Para ver otros ejemplos y parámetros, consulte [Eliminar-CsPlanMarcadoInquilino](/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
     
 - Para ver la configuración del plan de marcado efectivo, ejecute:
     
@@ -130,7 +130,7 @@ Para crear y administrar planes de marcado de inquilino puede utilizar un cmdlet
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    Para ver otros ejemplos y parámetros, consulte [Obtener-CsPlanMarcadoEfectivoInquilino](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan).
+    Para ver otros ejemplos y parámetros, consulte [Obtener-CsPlanMarcadoEfectivoInquilino](/powershell/module/skype/get-cseffectivetenantdialplan).
     
 - Para evaluar la configuración efectiva de un plan de marcado, ejecute:
     
@@ -138,7 +138,7 @@ Para crear y administrar planes de marcado de inquilino puede utilizar un cmdlet
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    Para ver otros ejemplos y parámetros, consulte [Probar-CsPlanMarcadoEfectivoInquilino](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
+    Para ver otros ejemplos y parámetros, consulte [Probar-CsPlanMarcadoEfectivoInquilino](/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
     
 #### <a name="using-a-powershell-script"></a>Uso de un script de PowerShell
 
@@ -220,7 +220,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ## <a name="related-topics"></a>Temas relacionados
 
 - [¿Qué son los planes de marcado?](what-are-dial-plans.md)
-- [Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
+- [Preguntas comunes sobre la transferencia de números de teléfono](./phone-number-calling-plans/port-order-overview.md)
 - [Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)

@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 818e674014104178efea3e6467d2e5bfbf553c68
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 79a1a416e0d868129e2d78f305cfe32efb527d53
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874800"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120651"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de información en Microsoft Teams
 
@@ -111,7 +111,7 @@ Las directivas del IB se activan cuando se llevan a cabo los siguientes eventos 
 
 - Un usuario realiza una llamada de teléfono en **Teams:** siempre que un usuario inicia una llamada de voz (a través de VOIP) a otro usuario o grupo de usuarios, la llamada se evalúa para asegurarse de que no infringe las directivas del IB de otros miembros del equipo. Si hay alguna infracción, la llamada de voz está bloqueada.
 
-- **Los invitados de Teams:** las directivas del IB también se aplican a los invitados de Teams. Si los invitados necesitan ser reconocibles en la lista global de direcciones de su organización, vea Administrar el acceso de invitado [en Grupos de Microsoft 365.](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Una vez que los invitados se puedan descubrir, puede [definir las directivas del IB.](/office365/securitycompliance/information-barriers-policies)
+- **Los invitados de Teams:** las directivas del IB también se aplican a los invitados de Teams. Si los invitados necesitan ser reconocibles en la lista global de direcciones de su organización, vea Administrar el acceso de invitado [en Grupos de Microsoft 365.](/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Una vez que los invitados se puedan descubrir, puede [definir las directivas del IB.](/office365/securitycompliance/information-barriers-policies)
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Cómo afectan los cambios de directiva a los chats existentes
 
@@ -189,7 +189,7 @@ Cuando se crea un equipo, se aprovisiona un sitio de SharePoint y se asocia con 
 Ejemplo de directivas del IB en un sitio de **SharePoint** de un equipo: en Contoso Bank corporation, el usuario "Sesha@contosobank.onmicrosoft.com" pertenece al segmento de banca de inversión y el usuario "Nikita@contosobank.onmicrosoft.com" pertenece al segmento Asesor. La directiva IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos.
 Cuando el usuario Sesha crea un equipo para el segmento banca de inversión, el equipo y el sitio de SharePoint que lo afiance solo serán accesibles para los usuarios de banca de inversión. El usuario Nikita no puede acceder a ese sitio incluso si tiene el vínculo del sitio.
 
-Para obtener más información, vea [Usar barreras de información con SharePoint.](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
+Para obtener más información, vea [Usar barreras de información con SharePoint.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
 
 ## <a name="required-licenses-and-permissions"></a>Licencias y permisos necesarios
 

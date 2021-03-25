@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 334ecfdc387f1b3dd6d7f1312b90d81aee320df0
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
-ms.translationtype: HT
+ms.openlocfilehash: da2d330986ca2fd924df75e0fcae6fc4388c5d48
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582767"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120842"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivar o eliminar un equipo en Microsoft Teams
 ===========================================
@@ -40,7 +40,7 @@ Al eliminar un equipo, se elimina también la actividad de equipo en canales est
 
 ## <a name="archive-a-team"></a>Archivar un equipo
 
-Siga estos pasos para archivar un equipo. Debe ser administrador de servicio de Teams para realizar estos cambios. Consulte [Usar roles de administrador de Teams para administrar Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) para obtener información sobre cómo obtener roles de administrador y permisos.
+Siga estos pasos para archivar un equipo. Debe ser administrador de servicio de Teams para realizar estos cambios. Consulte [Usar roles de administrador de Teams para administrar Teams](./using-admin-roles.md) para obtener información sobre cómo obtener roles de administrador y permisos.
 
 1. En el centro de administración, seleccione **Teams**.
 2. Para que seleccione un equipo, haga clic en el nombre del equipo.
@@ -72,7 +72,7 @@ Si el equipo no va a necesitar el futuro, puede eliminarlo en lugar de archivarl
 
 Siga estos pasos para restaurar un equipo eliminado mediante la restauración del grupo de Microsoft 365 que esté asociado al equipo. Restaurar el grupo de Microsoft 365 para un equipo restaura el contenido del equipo, incluidas las pestañas, canales estándar y canales privados y sus colecciones de sitios asociadas.
 
-De forma predeterminada, un grupo eliminado de Microsoft 365 se conserva durante 30 días. Este periodo de 30 días se llama "eliminación parcial", ya que puede restaurar el grupo. Para obtener más información, consulte [restaurar un grupo eliminado](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
+De forma predeterminada, un grupo eliminado de Microsoft 365 se conserva durante 30 días. Este periodo de 30 días se llama "eliminación parcial", ya que puede restaurar el grupo. Para obtener más información, consulte [restaurar un grupo eliminado](/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Instalar el módulo AzureADPreview
 

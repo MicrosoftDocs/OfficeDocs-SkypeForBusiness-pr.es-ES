@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5eb43301dc86fce6ef4e1f383c54d5c6902e871
-ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
+ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871091"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122194"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -42,7 +42,7 @@ Puede controlar la configuración de usuario en toda la organización en el Cent
 
 ### <a name="external-access"></a>Acceso externo
 
-**Acceso externo** permite que los usuarios de Teams y Skype Empresarial se comuniquen con usuarios de fuera de su organización o dominio. Para configurar el acceso externo, vaya a [Permitir que los usuarios de Teams chateen y se comuniquen con usuarios de otra organización de Teams](let-your-teams-users-communicate-with-other-people.md).
+**Acceso externo** permite que los usuarios de Teams y Skype Empresarial se comuniquen con usuarios de fuera de su organización o dominio. Para configurar el acceso externo, vaya a [Permitir que los usuarios de Teams chateen y se comuniquen con usuarios de otra organización de Teams](./manage-external-access.md).
 
 Para agregar o bloquear un dominio:
 
@@ -69,7 +69,7 @@ Las etiquetas permiten que los usuarios se comuniquen con un subconjunto de pers
 
 #### <a name="email-integration"></a>Integración de correo electrónico
 
-Active esta característica para que los usuarios puedan enviar un correo electrónico a un canal en Microsoft Teams mediante la dirección de correo electrónico del canal. Los usuarios pueden hacer esto para cualquier canal que pertenezca a un equipo que sea de su posesión. Los usuarios también pueden enviar correos electrónicos a cualquier canal de un equipo que tenga conectores activados para los miembros del equipo. Para activar la integración del correo electrónico, asegúrese de que **Permitir que los usuarios envíen correos electrónicos a una dirección de correo electrónico de canal** esté **Activado**. Después, compruebe que el dominio de la dirección de correo electrónico del remitente no esté bloqueado en Centro de administración de Teams > Configuración de toda la organización > Configuración de Microsoft Teams > Integración de correo electrónico > **Aceptar el correo electrónico del canal desde estos dominios SMTP**. Debe estar en blanco o incluir todos los dominios de los que espera recibir correos electrónicos. A continuación, asegúrese de tener las reglas necesarias para garantizar que [el correo electrónico en la dirección de correo del canal de Teams no esté bloqueado](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
+Active esta característica para que los usuarios puedan enviar un correo electrónico a un canal en Microsoft Teams mediante la dirección de correo electrónico del canal. Los usuarios pueden hacer esto para cualquier canal que pertenezca a un equipo que sea de su posesión. Los usuarios también pueden enviar correos electrónicos a cualquier canal de un equipo que tenga conectores activados para los miembros del equipo. Para activar la integración del correo electrónico, asegúrese de que **Permitir que los usuarios envíen correos electrónicos a una dirección de correo electrónico de canal** esté **Activado**. Después, compruebe que el dominio de la dirección de correo electrónico del remitente no esté bloqueado en Centro de administración de Teams > Configuración de toda la organización > Configuración de Microsoft Teams > Integración de correo electrónico > **Aceptar el correo electrónico del canal desde estos dominios SMTP**. Debe estar en blanco o incluir todos los dominios de los que espera recibir correos electrónicos. A continuación, asegúrese de tener las reglas necesarias para garantizar que [el correo electrónico en la dirección de correo del canal de Teams no esté bloqueado](/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
 
 #### <a name="files"></a>Archivos
 
@@ -124,7 +124,7 @@ Aquí puede elegir la aplicación que utilizarán los usuarios para unirse a las
 
 #### <a name="network-planner"></a>Planificador de red
 
-El planificador de red le ayuda a determinar y organizar los requisitos de la red para conectar a los usuarios de Teams dentro de la organización.  Obtenga información acerca de cómo [Usar el Planificador de red para Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
+El planificador de red le ayuda a determinar y organizar los requisitos de la red para conectar a los usuarios de Teams dentro de la organización.  Obtenga información acerca de cómo [Usar el Planificador de red para Microsoft Teams](./network-planner.md).
 
 También puede seleccionar la opción "Descargar la aplicación Teams en segundo plano para usuarios de Skype Empresarial".  Esta configuración está seleccionada de forma predeterminada. Con esta configuración habilitada, se descargará la aplicación de Teams en segundo plano para los usuarios que ejecuten la aplicación de Skype empresarial en Windows. Esto sucede si el modo de Coexistencia del usuario es Solo Teams, o si se habilita la notificación de actualización pendiente en la aplicación de Skype Empresarial.
 

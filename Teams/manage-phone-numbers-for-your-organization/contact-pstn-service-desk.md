@@ -1,5 +1,5 @@
 ---
-title: Ponerse en contacto con el servicio de atención RTC
+title: Ponerse en contacto con el servicio rtc
 author: TonySmit
 ms.author: tonysmit
 manager: serdars
@@ -22,45 +22,45 @@ ms.custom:
 - ms.teamsadmincenter.voice.contactPSTNsupport
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
-description: Cuando recibe números de teléfono o números de portabilidad (transferencia) para su organización, es posible que necesite obtener ayuda y soporte técnico en el servicio de servicio de RTC.
-ms.openlocfilehash: b0ba69aae5c25db788279ec4e28ad306514b1974
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+description: Cuando recibe números de teléfono o números de puerto (transferencia) para su organización, es posible que tenga que obtener ayuda y soporte técnico en el servicio RTC.
+ms.openlocfilehash: 226a3c5926aa77e5bf1c73f3195fe50b73456b1f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662100"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121358"
 ---
-# <a name="pstn-service-desk-contact-information"></a>Información de contacto del Servicio de atención RTC
+# <a name="pstn-service-desk-contact-information"></a>Información de contacto de Servicio RTC
 
-Para ponerse en contacto con el equipo de servicio de RTC, envíele un correo electrónico al alias correspondiente que aparece en la tabla siguiente.
+Para ponerse en contacto con el equipo de Service Desk RTC, envíe un correo electrónico al alias correspondiente que se muestra en la tabla siguiente.
 
-| **Quiero transferir o transferir números existentes**  | **Quiero solicitar números nuevos para** |
+| **Quiero transferir o portabilidad números existentes**  | **Quiero pedir nuevos números para** |
 |:-----:|:------:|
-| [**En Los Estados Unidos o Canadá, envíanos** un correo electrónico a ptn@microsoft.com](mailto:ptn@microsoft.com)| [**Bélgica, Francia, Alemania, Gran Bretaña, Irlanda, Países Bajos, España, Suecia, Suiza,** envíanos un correo electrónico a ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
-|[**Fuera de Los Estados Unidos o Canadá,** envíanos un correo electrónico a ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**Resto del mundo, envíanos** un correo electrónico a gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
-|Debido a un pico grande de solicitudes entrantes, el equipo de **porte** de Norteamérica se ha vuelto a localizar. Estamos trabajando para borrar este trabajo pendiente de forma fifo (primero en, primero en salir) y, como resultado, nuestra respuesta a las nuevas solicitudes se **va a retrasar.**|Debido a un pico grande de solicitudes entrantes, el equipo de **porexiones** de la UE se ha quedado con problemas. Estamos trabajando para borrar este trabajo pendiente de forma fifo (primero en, primero en salir) y, como resultado, nuestra respuesta a las nuevas solicitudes se **va a retrasar.**|
+| [**Dentro de Estados Unidos o Canadá,** envíenos un correo electrónico a ptn@microsoft.com](mailto:ptn@microsoft.com)| [**Bélgica, Francia, Alemania, Gran Bretaña, Irlanda, Países Bajos, España, Suecia, Suiza,** envíenos un correo electrónico a ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
+|[**Fuera de los Estados Unidos o Canadá,** envíenos un correo electrónico a ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**Resto del mundo, envíenos** un correo electrónico a gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
+|Debido a un gran aumento en las solicitudes entrantes, el equipo de **porte** de América del Norte está retrocronado. Estamos trabajando para borrar este trabajo pendiente sobre una base FIFO (First In, First Out) y, como resultado, nuestra respuesta a las nuevas solicitudes se **retrasará.**|Debido a un gran aumento en las solicitudes entrantes, el equipo **de porte** de la UE está retrocronado. Estamos trabajando para borrar este trabajo pendiente sobre una base FIFO (First In, First Out) y, como resultado, nuestra respuesta a las nuevas solicitudes se **retrasará.**|
 
 > [!NOTE]
-> Es posible que las respuestas de Norteamérica se retrasen debido a un gran aumento de solicitudes entrantes. El trabajo pendiente se borra en base a FIFO (primero en, primero en salir).
+> Es posible que las respuestas de Norteamérica se retrasen debido a un gran aumento de las solicitudes entrantes. El trabajo pendiente se está borrando en función de FIFO (First In, First Out).
 
 ## <a name="transfer-or-port-your-existing-phone-numbers-to-microsoft-teams"></a>Transferir o transferir los números de teléfono existentes a Microsoft Teams
-Enviar correo electrónico al alias de correo electrónico adecuado de la tabla anterior. Incluya tantos detalles como sea posible, como:
-  - El [id. de la organización (id. de inquilino) o los dominios de Microsoft actualmente activos.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - Los tipos de números de teléfono con los que necesita asistencia; como el usuario, el servicio de pago o el servicio gratuito.
-  - Otros detalles importantes basados en tu solicitud.
+Enviar correo electrónico al alias de correo electrónico adecuado desde la tabla anterior. Incluya tantos detalles como sea posible, como:
+  - Su [id. de organización (id. de inquilino) o dominios de Microsoft actualmente activos.](/onedrive/find-your-office-365-tenant-id)
+  - Los tipos de números de teléfono con los que necesita ayuda; como el usuario, el servicio de pago o el servicio gratuito.
+  - Otros detalles importantes basados en su solicitud.
 
 ## <a name="get-new-phone-numbers-for-microsoft-teams"></a>Obtener nuevos números de teléfono para Microsoft Teams
-Enviar correo electrónico al alias de correo electrónico adecuado de la tabla anterior. Incluya tantos detalles como sea posible, como:
-  - El [id. de la organización (id. de inquilino) o los dominios de Microsoft actualmente activos.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - Los tipos de números de teléfono con los que necesita asistencia; como el usuario, el servicio de pago o el servicio gratuito.
-  - El número de números de teléfono que necesita y los códigos de área, o país o región, de los que desea que se originan los nuevos números de teléfono.
+Enviar correo electrónico al alias de correo electrónico adecuado desde la tabla anterior. Incluya tantos detalles como sea posible, como:
+  - Su [id. de organización (id. de inquilino) o dominios de Microsoft actualmente activos.](/onedrive/find-your-office-365-tenant-id)
+  - Los tipos de números de teléfono con los que necesita ayuda; como el usuario, el servicio de pago o el servicio gratuito.
+  - El número de números de teléfono que necesita y los códigos de área, o el país o la región, de los que desea que se originan los nuevos números de teléfono.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- Para obtener asistencia relacionada con la configuración de números, licencias, tarifas o facturación, consulte Contacto de soporte técnico para productos [empresariales: Ayuda para administradores.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
-- Para obtener información sobre los planes de llamadas que están disponibles en su país o región, consulte La disponibilidad de países y regiones para los planes de [audioconferencia y llamadas.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- Para obtener información que puede ayudarle a seleccionar los tipos de números de teléfono adecuados para su organización, consulte Diferentes tipos de números de teléfono usados para [planes de llamadas.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- Para obtener información sobre cómo configurar números de teléfono para su organización, consulte Contacto de soporte técnico para productos [empresariales: Ayuda para administradores.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
+- Para obtener ayuda relacionada con la configuración o configuración de números, licencias, tarifas o facturación, consulte Contacto de soporte técnico para productos profesionales [: Ayuda para administradores.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
+- Para obtener información sobre los planes de llamadas que están disponibles en su país o región, vea Disponibilidad de países y regiones para planes de [audioconferencias y llamadas.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- Para obtener información que puede ayudarle a seleccionar los tipos adecuados de números de teléfono para su organización, vea Diferentes tipos de números de teléfono usados para planes [de llamadas.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- Para obtener información sobre cómo configurar números de teléfono para su organización, vea Contacto de soporte técnico para productos [empresariales : Ayuda para administradores.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -69,4 +69,3 @@ Enviar correo electrónico al alias de correo electrónico adecuado de la tabla 
 [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization.md)
 
 [Términos y condiciones de las llamadas de emergencia](../emergency-calling-terms-and-conditions.md)
-  

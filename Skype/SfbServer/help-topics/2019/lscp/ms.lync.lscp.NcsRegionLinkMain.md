@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 863092934e1f868d7af3242733b1f32a2ce6642f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8d9c470cf180d8db196f6cf565516b884c0ba2f2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824690"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122104"
 ---
 # <a name="configure-a-network-region-link"></a>Configurar un vínculo de región de red
 
 ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
 
-- [Configuración de vínculos de regiones de red](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
-
-
-
+- [Configuración de vínculos de regiones de red](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-network-region-links)

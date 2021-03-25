@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5647969ccbb19599efea062d94d88b79c2d8a6f4
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 678cad1b71c9f3e8d1e79a50f5ae46aba4456b5a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819483"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120671"
 ---
 # <a name="implement-your-move-to-microsoft-teams"></a>Implementar el movimiento a Microsoft Teams
 
@@ -45,7 +45,7 @@ Se recomienda el siguiente marco para la transición:
    
 1. En primer lugar, mueva los grupos de chat a Microsoft Teams.
 1. A continuación, use aplicaciones en Teams para reemplazar las tarjetas de acción de Kaizala.
-1. Para asegurarse de que los trabajadores de primera línea están equipados, actualice a la funcionalidad De trabajadores de primera línea de Teams. Para obtener una guía de inicio rápido sobre Teams Frontline Worker, consulte Guía de inicio rápido del trabajador en primera [línea.](https://docs.microsoft.com/microsoftteams/flw-quickstart)
+1. Para asegurarse de que los trabajadores de primera línea están equipados, actualice a la funcionalidad De trabajadores de primera línea de Teams. Para obtener una guía de inicio rápido sobre Teams Frontline Worker, consulte Guía de inicio rápido del trabajador en primera [línea.](./flw-quickstart.yml)
 1. Considere la posibilidad de incorporar proveedores y partners para invitar como invitados en Teams.  
   
 **Administrar el cambio**  
@@ -96,4 +96,4 @@ Se recomienda el siguiente marco para la transición:
      
 - **Mover su organización a Teams** 
 
-    ¡Dote a su organización de una herramienta simplificada para la comunicación desde el director general a la primera línea! 
+    ¡Dote a su organización de una herramienta simplificada para la comunicación desde el director general a la primera línea!

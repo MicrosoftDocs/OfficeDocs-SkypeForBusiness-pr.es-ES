@@ -14,31 +14,29 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
-description: Seleccione las bases de datos que desee crear para la implementación. De forma predeterminada, la base de datos se creará en el SQL Server definido en el sitio definido e implementará y configurará automáticamente los archivos de base de datos en función del SQL Server en el que se colocan las bases de datos.
-ms.openlocfilehash: 36912e468b0618925b3fbeb20db829d8d19249fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Seleccione las bases de datos que desee crear para la implementación. De forma predeterminada, la base de datos se creará en el SQL Server definido en el sitio definido y se implementarán y configurarán automáticamente los archivos de base de datos en función del SQL Server en el que se colocan las bases de datos.
+ms.openlocfilehash: 3e7e2e0aaec55c595a4f538238c431feb9173152
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806940"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120932"
 ---
 # <a name="install-and-create-databases"></a>Instalar y crear bases de datos
 
-Seleccione las bases de datos que desee crear para la implementación. De forma predeterminada, la base de datos se creará en el SQL Server definido en el sitio definido e implementará y configurará automáticamente los archivos de base de datos en función del SQL Server en el que se colocan las bases de datos.
+Seleccione las bases de datos que desee crear para la implementación. De forma predeterminada, la base de datos se creará en el SQL Server definido en el sitio definido y se implementarán y configurarán automáticamente los archivos de base de datos en función del SQL Server en el que se colocan las bases de datos.
 
  **Seleccione las bases de datos que desee crear**: seleccione la casilla de verificación de todas las bases de datos que tiene la intención de implementar y configurar. Seleccione la casilla de verificación de todas las bases de datos que desee implementar.
 
 > [!CAUTION]
-> El SQL Server ya debe estar configurado para la instancia (si lo hay) y los puertos de firewall deben estar abiertos para dar cabida a la instancia en la que está implementando las bases de datos. Para más información, consulte [Configure SQL Server for Lync Server 2013 Preview](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
+> El SQL Server debe haber sido configurado para la instancia (si existe) y los puertos de firewall deben abrirse para dar cabida a la instancia en la que se implementan las bases de datos. Para más información, consulte [Configure SQL Server for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)
 
- **Avanzado:** haga clic en el  SQL Server y haga clic en el botón Avanzadas para elegir las opciones de las ubicaciones de archivos de base de datos en su SQL Server. Para más información sobre la ubicación avanzada del archivo de la base de datos, consulte [Database Installation Using Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)
+ **Avanzado:** haga clic en el SQL Server y haga clic en el **botón** Opciones avanzadas para elegir opciones para las ubicaciones de archivos de base de datos en su SQL Server. Para más información sobre la ubicación avanzada del archivo de la base de datos, consulte [Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell)
 
  **Atrás**: al hacer clic en este botón el usuario vuelve a la pantalla anterior (puede que no siempre esté disponible, en función de cómo haya llegado a este cuadro de diálogo).
 
  **Siguiente**: al hacer clic en este botón se confirma la selección del cuadro de diálogo actual y se abre el siguiente cuadro de diálogo que permite configurar la información adicional
 
- **Cancelar**: al hacer clic en este botón se sale de la configuración y se descartan los cambios. Algunas pantallas de configuración, aunque no todas, le pedirán si desea salir y descartar los cambios. Si selecciona **Sí,** se cerrará la configuración actual, se cerrará la configuración actual y se volverá al Generador de topologías. Si selecciona **No** el usuario volverá al cuadro de diálogo de configuración actual desde el que podrá continuar con la configuración.
+ **Cancelar**: al hacer clic en este botón se sale de la configuración y se descartan los cambios. Algunas pantallas de configuración, aunque no todas, le pedirán si desea salir y descartar los cambios. Si selecciona **Sí,** se cerrará la configuración actual, se cerrará la configuración actual y se devolverá al Generador de topologías. Si selecciona **No** el usuario volverá al cuadro de diálogo de configuración actual desde el que podrá continuar con la configuración.
 
  **Ayuda**: al hacer clic en el botón **Ayuda** aparece esta información de ayuda relacionada con el cuadro de diálogo de configuración actual.
-
-

@@ -1,5 +1,5 @@
 ---
-title: Configuración de tronco Crear nueva o editar existente
+title: Configuración de tronco Crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 6846491f073542c3a70015d05ea75a77e51db934
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5284d775e8b89bca45491214c58e9892124be110
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833570"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121820"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>Configuración del tronco: Crear nuevos o editar los existentes
 
@@ -30,9 +30,6 @@ ms.locfileid: "49833570"
 
 - [Configurar un tronco sin desvío de medios en Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [Crear o modificar una regla de conversión para la presentación de id. llamada en Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Crear o modificar una regla de traducción para la presentación de id. denominada en Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [Crear o modificar una regla de conversión manualmente](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
-
-
-
+- [Crear o modificar una regla de conversión manualmente](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: Obtenga información sobre cómo quitar la directiva de reunión RestrictedAnonymousAccess Teams de los usuarios de su organización.
-ms.openlocfilehash: 16158be1c0550cf1753d8984f8760e267ab4af5c
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: aab4b524ee0c9ab5cab3244a0897730fea0361a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756216"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121348"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>Quitar a los usuarios la directiva de reunión de Teams RestrictedAnonymousAccess
 
@@ -33,7 +33,7 @@ En este artículo se muestra cómo usar PowerShell para quitar la directiva de r
 
 ## <a name="before-you-start"></a>Antes de empezar
 
-Instale y conéctese al módulo [PowerShell de Skype Empresarial.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) Para obtener instrucciones paso a paso, vea [Instalar Microsoft Teams PowerShell.](teams-powershell-install.md)
+Instale y conéctese al módulo [PowerShell de Skype Empresarial.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) Para obtener instrucciones paso a paso, vea [Instalar Microsoft Teams PowerShell.](teams-powershell-install.md)
 
 ## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>Obtener las tareas de directiva de reunión de Teams para su organización
 
@@ -55,7 +55,7 @@ Count  Name                               Group
 
 ## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>Unassign the RestrictedAnonymous meeting policy from users
 
-Para quitar la directiva de reunión RestrictedAnonymous de los usuarios, puede usar el cmdlet [Grant-CSTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) si tiene un número reducido de usuarios (por ejemplo, menos de 100 usuarios). Si tiene un gran número de usuarios (por ejemplo, más de 100 usuarios), es más eficaz usar el cmdlet  [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) para enviar una operación por lotes.
+Para quitar la directiva de reunión RestrictedAnonymous de los usuarios, puede usar el cmdlet [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) si tiene un número reducido de usuarios (por ejemplo, menos de 100 usuarios). Si tiene un gran número de usuarios (por ejemplo, más de 100 usuarios), es más eficaz usar el cmdlet  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) para enviar una operación por lotes.
 
 ### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>Usar el cmdlet Grant-CsTeamsMeeting directiva
 
@@ -70,7 +70,7 @@ Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-
 Con [la asignación de directivas](assign-policies.md#assign-a-policy-to-a-batch-of-users)por lotes, el número máximo de usuarios para los que puede quitar o actualizar directivas es de 5 000 a la vez. Por ejemplo, si tiene más de 5.000 usuarios, tendrá que enviar varios lotes. Para obtener los mejores resultados, no envíe varios lotes a la vez. Permitir que los lotes completen el procesamiento antes de enviar más lotes.
 
 > [!NOTE]
-> El cmdlet [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) se encuentra en el módulo de PowerShell de Teams. Antes de seguir estos pasos, instale y conéctese al módulo [de PowerShell de Teams.](https://www.powershellgallery.com/packages/MicrosoftTeams) Para obtener instrucciones paso a paso, vea [Instalar Microsoft Teams PowerShell.](teams-powershell-install.md)
+> El cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) se encuentra en el módulo de PowerShell de Teams. Antes de seguir estos pasos, instale y conéctese al módulo [de PowerShell de Teams.](https://www.powershellgallery.com/packages/MicrosoftTeams) Para obtener instrucciones paso a paso, vea [Instalar Microsoft Teams PowerShell.](teams-powershell-install.md)
 
 Ejecute los siguientes comandos para quitar la directiva de reunión RestrictedAnonymousAccess de un lote de usuarios.
 

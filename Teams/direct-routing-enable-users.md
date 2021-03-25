@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo habilitar el enrutamiento directo de Microsoft Phone System a los usuarios.
-ms.openlocfilehash: 972bd8d5e01a050a67978560b8de272439fda40d
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421315"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122224"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar usuarios para enrutamiento directo, voz y correo de voz
 
@@ -46,7 +46,7 @@ Cuando esté listo para habilitar usuarios para enrutamiento directo, siga estos
 
 Hay dos opciones para crear un nuevo usuario en Microsoft 365 u Office 365. Sin embargo, Microsoft recomienda que su organización elija una opción para evitar problemas de enrutamiento: 
 
-- Cree el usuario en Active Directory local y sincronice el usuario con la nube. Vea [Integrar los directorios locales con Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)
+- Cree el usuario en Active Directory local y sincronice el usuario con la nube. Vea [Integrar los directorios locales con Azure Active Directory.](/azure/active-directory/connect/active-directory-aadconnect)
 - Cree el usuario directamente en el Centro de administración de Microsoft 365. Vea [Agregar usuarios individualmente o en masa a Microsoft 365 u Office 365: Ayuda para administradores.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
 
 Si su implementación de Skype Empresarial Online coexiste con Skype Empresarial 2015 o Lync 2010 o 2013 local, la única opción compatible es crear el usuario en el Active Directory local y sincronizar el usuario con la nube (opción 1). 
@@ -123,7 +123,7 @@ Enrutamiento directo le permite finalizar la llamada a un usuario y enviarla dir
 
 Enrutamiento directo requiere que los usuarios se en modo solo de Teams para garantizar que las llamadas entrantes se aterrice en el cliente de Teams. Para poner a los usuarios en modo solo de Teams, asígneles la instancia "UpgradeToTeams" de TeamsUpgradePolicy. Para obtener más información, vea [Estrategias de actualización para administradores de TI.](upgrade-to-teams-on-prem-implement.md) Si su organización usa Skype Empresarial Server o Skype Empresarial Online, vea el siguiente artículo para obtener información sobre la interoperabilidad entre Skype y Teams: Migración e interoperabilidad con [Skype Empresarial.](migration-interop-guidance-for-teams-with-skype.md)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear el enrutamiento directo](direct-routing-plan.md)
 

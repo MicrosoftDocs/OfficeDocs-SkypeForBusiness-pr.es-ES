@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d51aba578de4dc5245a8d9459b160e5743b786a5
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 60fabc107ba684afdf32c4eeeb0351f12dec883e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867119"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120641"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Instalación de la integración de Moodle con Microsoft Teams
 
@@ -41,7 +41,7 @@ Para ayudar a los administradores de ti a configurar fácilmente esta integraci�
 * Instalación automática de la pestaña Moodle y el bot moodle Assistant en cada equipo sincronizado. (Próximamente)
 * Publicación con un solo clic de la aplicación de Moodle en su tienda de aplicaciones de equipos privados. (Próximamente)
 
-Para obtener más información sobre la funcionalidad que proporciona esta integración, vea Instalar la integración [de Moodle con Microsoft Teams.](https://docs.microsoft.com/microsoftteams/platform/resources/moodleinstructions)
+Para obtener más información sobre la funcionalidad que proporciona esta integración, vea Instalar la integración [de Moodle con Microsoft Teams.](/microsoftteams/platform/resources/moodleinstructions)
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -176,7 +176,7 @@ Una vez que los recursos terminen de implementarse en Azure, deberá configurar 
 
 Ahora que ya ha implementado el bot en Azure y está configurado para hablar con el servidor Moodle, es el momento de implementar la aplicación de Microsoft Teams. Para hacerlo, debe cargar el archivo de manifiesto que ha descargado desde la página Configuración del equipo de complementos de Moodle en el paso anterior.
 
-Antes de poder instalar la aplicación, debe asegurarse de que las aplicaciones externas y la instalación de prueba de aplicaciones estén habilitadas. Para realizar esta acción, puede seguir [estos pasos](https://docs.microsoft.com/MicrosoftTeams/admin-settings). Cuando haya asegurado de que las aplicaciones externas estén habilitadas, puede seguir los pasos que se indican a continuación para implementar la aplicación.
+Antes de poder instalar la aplicación, debe asegurarse de que las aplicaciones externas y la instalación de prueba de aplicaciones estén habilitadas. Para realizar esta acción, puede seguir [estos pasos](./admin-settings.md). Cuando haya asegurado de que las aplicaciones externas estén habilitadas, puede seguir los pasos que se indican a continuación para implementar la aplicación.
 
 1. Abra Microsoft Teams.
 2. Haga clic en **el icono** Tienda en la parte inferior izquierda de la barra de navegación.

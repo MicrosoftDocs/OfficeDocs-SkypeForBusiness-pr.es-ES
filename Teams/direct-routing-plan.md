@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Microsoft Phone System.
-ms.openlocfilehash: af7e288791b85aea3beaf67b0200acd017e3e514
-ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
+ms.openlocfilehash: 5df93bb5248f6077bf0378c5ab461c6cf8856fbf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50999832"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121398"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -83,9 +83,9 @@ Los requisitos de infraestructura para los SBC, dominios y otros requisitos de c
 |Entrada DNS pública para el SBC |Una entrada DNS pública asigna el FQDN de SBC a la dirección IP pública. |
 |Certificado de confianza pública para el SBC |Un certificado para que el SBC se utilice para todas las comunicaciones con enrutamiento directo. Para obtener más información, vea [Certificado de confianza pública para el SBC.](#public-trusted-certificate-for-the-sbc)|
 |Puntos de conexión para enrutamiento directo |Los puntos de conexión para enrutamiento directo son los tres FQDN siguientes:<br/><br/>`sip.pstnhub.microsoft.com` – FQDN global, debe probarse primero.<br/>`sip2.pstnhub.microsoft.com` – FQDN secundario, se asigna geográficamente a la región de segunda prioridad.<br/>`sip3.pstnhub.microsoft.com` – FQDN terciario, se asigna geográficamente a la región de tercera prioridad.<br/><br/>Para obtener información sobre los requisitos de configuración, vea [Señalización SIP: FQDN.](#sip-signaling-fqdns)|
-|Direcciones IP de firewall y puertos para medios de enrutamiento directo |El SBC se comunica a los siguientes servicios en la nube:<br/><br/>Proxy SIP, que controla la señalización<br/>Procesador multimedia, que controla los medios ,excepto cuando la omisión de medios está en<br/><br/>Estos dos servicios tienen direcciones IP independientes en Microsoft Cloud, que se describen más adelante en este documento.<br/><br/>Para obtener más información, vea la sección [Microsoft Teams en](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) DIRECCIONES URL e [intervalos de direcciones IP.](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) |
+|Direcciones IP de firewall y puertos para medios de enrutamiento directo |El SBC se comunica a los siguientes servicios en la nube:<br/><br/>Proxy SIP, que controla la señalización<br/>Procesador multimedia, que controla los medios ,excepto cuando la omisión de medios está en<br/><br/>Estos dos servicios tienen direcciones IP independientes en Microsoft Cloud, que se describen más adelante en este documento.<br/><br/>Para obtener más información, vea la sección [Microsoft Teams en](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) DIRECCIONES URL e [intervalos de direcciones IP.](/office365/enterprise/urls-and-ip-address-ranges) |
 |Perfil de transporte multimedia|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Direcciones IP de firewall y puertos para medios de Microsoft Teams |Para obtener más información, vea [Direcciones URL e intervalos de direcciones IP.](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) |
+Direcciones IP de firewall y puertos para medios de Microsoft Teams |Para obtener más información, vea [Direcciones URL e intervalos de direcciones IP.](/office365/enterprise/urls-and-ip-address-ranges) |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Licencias y otros requisitos 
@@ -100,7 +100,7 @@ Los usuarios de Enrutamiento directo deben tener asignadas las siguientes licenc
 > El plan de Skype Empresarial no debe quitarse de ningún contrato de licencia en el que se incluya. 
 > 
 > [!IMPORTANT]
-> Los usuarios de GCC High y DoD deben deshabilitar cualquier licencia de audioconferencia incluida en G5 y esperar a habilitar cualquier conferencia de audioconferencia hasta que el enrutamiento directo se haya configurado por completo. Los usuarios deben tener configurados los números de teléfono de acceso telefónico local y un teclado de marcado en funcionamiento antes de habilitar licencias de conferencias de audio. Vea [Conferencias de audio con enrutamiento directo para GCC High y DoD](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) para obtener más información.
+> Los usuarios de GCC High y DoD deben deshabilitar cualquier licencia de audioconferencia incluida en G5 y esperar a habilitar cualquier conferencia de audioconferencia hasta que el enrutamiento directo se haya configurado por completo. Los usuarios deben tener configurados los números de teléfono de acceso telefónico local y un teclado de marcado en funcionamiento antes de habilitar licencias de conferencias de audio. Vea [Conferencias de audio con enrutamiento directo para GCC High y DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) para obtener más información.
 
 
 > [!IMPORTANT]
@@ -124,16 +124,16 @@ Enrutamiento directo también admite usuarios con licencia para Microsoft Callin
 
 Combinar la conectividad de plan de llamadas y enrutamiento directo para el mismo usuario es opcional, pero podría ser útil (por ejemplo, cuando se asigna al usuario un plan de llamadas de Microsoft, pero quiere enrutar algunas llamadas con el SBC). Uno de los escenarios más comunes son las llamadas a PBX de terceros.  Con PBX de terceros, todas las llamadas, excepto las llamadas a los teléfonos conectados a los PBX, se enruta con el Plan de llamadas de Microsoft, pero las llamadas a los teléfonos conectados a PBX de terceros van al SBC y, por lo tanto, permanecen dentro de la red empresarial y no de la RTC. 
 
-Para obtener más información sobre las licencias de Sistema telefónico, vea [Sacar el máximo partido de Las opciones](https://products.office.com/compare-all-microsoft-office-products?tab=2) de Office y [Plan.](https://technet.microsoft.com/library/office-365-plan-options.aspx) 
+Para obtener más información sobre las licencias de Sistema telefónico, vea [Sacar el máximo partido de Las opciones](https://products.office.com/compare-all-microsoft-office-products?tab=2) de Office y [Plan.](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
 
-Para obtener más información sobre las licencias del sistema telefónico, vea [Licencias de complementos de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 
+Para obtener más información sobre las licencias del sistema telefónico, vea [Licencias de complementos de Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
 
 ## <a name="supported-end-points"></a>Puntos finales admitidos 
 
 Puede usar como punto final:
 
 - Cualquier cliente de Teams. 
-- Teléfonos de área común. Consulte [Configurar la licencia de teléfono de área común para Microsoft Teams.](https://docs.microsoft.com/microsoftteams/set-up-common-area-phones) Tenga en cuenta que no necesita una licencia del plan de llamadas al configurar un teléfono de área común con enrutamiento directo.
+- Teléfonos de área común. Consulte [Configurar la licencia de teléfono de área común para Microsoft Teams.](./set-up-common-area-phones.md) Tenga en cuenta que no necesita una licencia del plan de llamadas al configurar un teléfono de área común con enrutamiento directo.
 - Teléfonos 3PIP de Skype Empresarial. Ver la compatibilidad de teléfonos de Skype Empresarial [(3PIP) con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
@@ -201,7 +201,7 @@ Para enrutamiento directo en entornos GCCH y DoD de Office 365, el certificado d
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> *Si el soporte de TLS mutuo (MTLS) está habilitado para la conexión de Teams en el SBC, debe instalar el certificado raíz de CyberTrust de Baltimore en el almacén raíz de confianza de SBC del contexto tls de Teams. (Esto se debe a que los certificados de servicio de Microsoft usan el certificado raíz de Baltimore). Para descargar el certificado raíz de Baltimore, vea Cadenas de cifrado [de Office 365.](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains)
+> *Si el soporte de TLS mutuo (MTLS) está habilitado para la conexión de Teams en el SBC, debe instalar el certificado raíz de CyberTrust de Baltimore en el almacén raíz de confianza de SBC del contexto tls de Teams. (Esto se debe a que los certificados de servicio de Microsoft usan el certificado raíz de Baltimore). Para descargar el certificado raíz de Baltimore, vea Cadenas de cifrado [de Office 365.](/microsoft-365/compliance/encryption-office-365-certificate-chains)
 
 Microsoft está trabajando en la adición de entidades de certificación adicionales en función de las solicitudes de los clientes. 
 
@@ -213,7 +213,7 @@ El enrutamiento directo se ofrece en los siguientes entornos:
 - Office 365 GCC High
 - Office 365 DoD
 
-Obtenga más información [sobre los entornos de Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) y del Gobierno de EE. UU., como GCC, GCC High y DoD.
+Obtenga más información [sobre los entornos de Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) y del Gobierno de EE. UU., como GCC, GCC High y DoD.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Entornos GCC de Microsoft 365, Office 365 y Office 365
 
@@ -297,7 +297,7 @@ En la tabla siguiente se resumen las relaciones entre centros de datos primarios
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Tráfico multimedia: Intervalos de puertos
-Tenga en cuenta que los requisitos siguientes se aplican si desea implementar enrutamiento directo sin omisión de medios. Para obtener información sobre los requisitos del firewall para la omisión de medios, consulte Planear la omisión [de medios con enrutamiento directo.](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass)
+Tenga en cuenta que los requisitos siguientes se aplican si desea implementar enrutamiento directo sin omisión de medios. Para obtener información sobre los requisitos del firewall para la omisión de medios, consulte Planear la omisión [de medios con enrutamiento directo.](./direct-routing-plan-media-bypass.md)
 
 
 

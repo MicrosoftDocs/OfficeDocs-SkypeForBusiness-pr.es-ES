@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: La identificación de llamadas se puede controlar para las llamadas entrantes y salientes de usuarios de Sistema telefónico mediante una directiva llamada CallingLineIdentity.
-ms.openlocfilehash: cd2074fec3027f1172b6ea681013f53994963cb5
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+description: El identificador de llamadas se puede controlar tanto para las llamadas entrantes como salientes para los usuarios del sistema telefónico mediante una directiva denominada CallingLineIdentity.
+ms.openlocfilehash: e723311b2780dd1d43bad4874b72133e09ff4fc3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255453"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120681"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Cómo se puede usar la identificación de llamadas en su organización
 
-La identificación de llamadas se puede controlar para las llamadas entrantes y salientes de usuarios de Sistema telefónico mediante una directiva llamada CallingLineIdentity.
+El identificador de llamadas se puede controlar tanto para las llamadas entrantes como salientes para los usuarios del sistema telefónico mediante una directiva denominada CallingLineIdentity.
   
-La funcionalidad de identificación de llamadas está disponible para todos los usuarios del sistema telefónico independientemente de la conectividad con RTC:
+La funcionalidad de identificación de llamadas está disponible para todos los usuarios del sistema telefónico independientemente de la conectividad RTC:
 
 - Planes de llamadas de Microsoft 
 
@@ -50,27 +50,27 @@ La funcionalidad de identificación de llamadas está disponible para todos los 
   
 ## <a name="outbound-caller-id"></a>Identificación de llamadas de salida
 
-Hay tres opciones disponibles para la identificación de llamadas RTC de salida:
+Hay tres opciones disponibles para el identificador de llamada RTC saliente:
   
-- El número de teléfono asignado al usuario, que es el valor predeterminado.
+- El número de teléfono asignado al usuario, que es el predeterminado.
     
-- Un número de teléfono que  está clasificado como servicio *y* número gratuito en el inventario de números de teléfono de los planes de llamadas. Normalmente, se asigna a una cola de llamadas o de operador automático organizativos.
+- Un número de teléfono que  se clasifica como servicio *y* número gratuito en el inventario de números de teléfono planes de llamadas. Normalmente, se asigna a una cola de llamadas o de operador automático organizativos.
     
 - Configurado como anónimo.
     
 Sin embargo, no es posible asignar estos tipos de números de teléfono al identificador de llamadas de salida:
   
-- Cualquier número de teléfono clasificado como usuario  *en el*  inventario de números de teléfono de planes de llamadas
+- Cualquier número de teléfono que se clasifique como  *usuario en*  el inventario de números de teléfono de planes de llamadas
     
 - Un número de teléfono de Skype Empresarial Server local.
     
-Para establecer la identificación de llamadas de salida, consulte [Establecer el identificador de llamada de un usuario](/microsoftteams/set-the-caller-id-for-a-user).
+Para establecer la identificación de llamadas de salida, consulte [Establecer el identificador de llamada de un usuario](./set-the-caller-id-for-a-user.md).
   
-### <a name="end-user-control-of-outbound-caller-id"></a>Control de usuario final de identificador de llamada saliente
+### <a name="end-user-control-of-outbound-caller-id"></a>Control de usuario final del identificador de llamada saliente
 
 El atributo EnableUserOverride permite que uno o varios usuarios cambien su configuración de identificador de llamada a **Anónimo.** Esto solo se aplica cuando una directiva de CallingLineIdentity se configura con un parámetro CallingIDSubstitute de LineURI o Substitute. El valor predeterminado de EnableUserOverride es False.
   
-Los usuarios finales pueden  establecer su  identificador de llamada en Anónimo mediante la pestaña Configuración del cliente de escritorio de Skype Empresarial, seleccionar Llamadas a un usuario final **(si** el administrador lo ha habilitado) y, a continuación, seleccionar Ocultar mi número de teléfono y la información de perfil para todas las **llamadas.** En Teams, los usuarios pueden ir a su imagen de perfil en la esquina superior derecha, seleccionar Llamadas de configuración y, a continuación, en Identificador de llamada, seleccionar Ocultar mi número de teléfono e información de perfil para todas las  >   **llamadas.** 
+Los usuarios finales pueden  establecer su  identificador de llamada en Anónimo mediante la pestaña Configuración del cliente de escritorio de Skype Empresarial, seleccionar Llamadas **a** un usuario final (si está habilitado por el administrador) y, después, seleccionar Ocultar mi número de teléfono e información de perfil para todas las **llamadas.** En Teams, los usuarios pueden ir a su imagen de perfil en la esquina superior derecha, seleccionar Llamadas de configuración y, a continuación, en Identificador de llamada, seleccione Ocultar mi número de teléfono e información de perfil para todas las  >   **llamadas.** 
   
 ||||
 |:-----|:-----|:-----|
@@ -81,24 +81,23 @@ Los usuarios finales pueden  establecer su  identificador de llamada en Anónimo
 |MSI  <br/> |Skype Empresarial  <br/> |No  <br/> |
 |Mac  <br/> |Skype Empresarial  <br/> |No  <br/> |
    
-## <a name="inbound-caller-id"></a>Identificación de llamadas entrantes
+## <a name="inbound-caller-id"></a>Id. de llamada entrante
 
-Sistema telefónico mostrará el id. de un número de teléfono externo si el número está asociado a un usuario en Azure AD. Si el número de teléfono no está en Azure AD, se mostrará el nombre para mostrar proporcionado por telco si está disponible.
+Sistema telefónico mostrará el id. llamado para un número de teléfono externo si el número está asociado con un usuario en Azure AD. Si el número de teléfono no está en Azure AD, se mostrará el nombre para mostrar proporcionado por la compañía telefónica si está disponible.
 
 El atributo BlockIncomingCallerID permite bloquear la identificación de llamadas en las llamadas RTC de entrada. Puede establecer este atributo, pero no está disponible para los usuarios finales en la página de configuración de usuario. En este momento está solo disponible con la conectividad con RTC en línea.
   
-Para establecer la identificación de llamadas de salida, consulte [Establecer el identificador de llamada de un usuario](/microsoftteams/set-the-caller-id-for-a-user).
+Para establecer la identificación de llamadas de salida, consulte [Establecer el identificador de llamada de un usuario](./set-the-caller-id-for-a-user.md).
   
 ## <a name="related-topics"></a>Temas relacionados
-[Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)
+[Preguntas comunes sobre la transferencia de números de teléfono](./phone-number-calling-plans/port-order-overview.md)
 
-[Diferentes tipos de números de teléfono que se usan para Planes de llamada](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Diferentes tipos de números de teléfono que se usan para Planes de llamada](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
+[Términos y condiciones de las llamadas de emergencia](./emergency-calling-terms-and-conditions.md)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

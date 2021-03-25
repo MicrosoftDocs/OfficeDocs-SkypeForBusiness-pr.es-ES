@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización de administración pública a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa en respuesta al ataque del COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46e2b3a713ee1c2a1f5de1f858df19dd25c5aef0
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3196796e702a458d7bbf813e5bed8166b764b0de
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583879"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121388"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Dar soporte a trabajadores remotos de la administración pública con Microsoft Teams
 
@@ -31,13 +31,13 @@ Si está ejecutando Microsoft Teams como parte de Office 365 para Administració
 
 Obtenga información sobre cómo preparar Teams en su organización:
 
-  - Asegúrese de que todos los usuarios tengan acceso a Teams con una [suscripción de pago que incluya Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
+  - Asegúrese de que todos los usuarios tengan acceso a Teams con una [suscripción de pago que incluya Teams](/office365/servicedescriptions/teams-service-description). 
 
   - Si ya tiene una suscripción, asegúrese de que **[Teams está activado](../user-access.md)** para todos los usuarios.
 
   - Para realizar una implementación rápida, visite [**Teams FastPath PowerPoint**](https://aka.ms/TeamsGovFastPath) para implementar Teams en su organización.
 
-  - Obtenga información sobre cómo puede empezar su organización a usar **[Reuniones en Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**.
+  - Obtenga información sobre cómo puede empezar su organización a usar **[Reuniones en Teams](../tutorial-meetings-in-teams.yml)**.
 
 ## <a name="end-user-communication"></a>Comunicaciones de usuarios finales
 
@@ -63,10 +63,10 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
 ## <a name="learn-more"></a>Más información
 
-  - Comience a trabajar en Teams con una serie de **[cursos de formación interactivos](https://aka.ms/TeamsLiveTraining)**, diseñados para que su organización esté lista para Teams.
+  - Comience a trabajar en Teams con una serie de **[cursos de formación interactivos](../instructor-led-training-teams-landing-page.yml)**, diseñados para que su organización esté lista para Teams.
 
   - Únase a una de nuestras **[clases en línea](../instructor-led-training-teams-landing-page.yml)** para ver cómo funciona Teams y obtener respuestas a sus preguntas.
 
   - Comparta **[vídeos de formación avanzada](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** con los usuarios que quieran aprender más.
 
-  - Lea la **[Documentación de administradores de Teams](https://docs.microsoft.com/MicrosoftTeams/)** para obtener más información sobre cómo implementar y administrar Teams.
+  - Lea la **[Documentación de administradores de Teams](../index.yml)** para obtener más información sobre cómo implementar y administrar Teams.
