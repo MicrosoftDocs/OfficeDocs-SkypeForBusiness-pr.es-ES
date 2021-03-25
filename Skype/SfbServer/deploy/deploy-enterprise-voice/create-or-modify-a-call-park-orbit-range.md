@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
-description: Cree o modifique una tabla de intervalos de órbitas de estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 6a17b4faaad026376bccad060cb421a5e2cfa1df
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Cree o modifique una tabla de rango de órbitas de estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: eab1c3e6e53eaa878546b5fe4a9684147a00c583
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805480"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106326"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Crear o modificar un intervalo de órbitas de estacionamiento de llamadas en Skype Empresarial
 
-Cree o modifique una tabla de intervalos de órbitas de estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
+Cree o modifique una tabla de rango de órbitas de estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
 
-El estacionamiento de llamadas usa órbitas para estacionar llamadas. Antes de que los usuarios puedan estacionar y recuperar llamadas, debe configurar la tabla de órbitas de estacionamiento de llamadas. Debe especificar los intervalos de números de extensión (órbitas) que su organización reservará para estacionar llamadas y definir el enrutamiento de esos intervalos especificando qué grupo de estacionamiento de llamadas controla cada intervalo. A la hora de definir intervalos de órbitas, el objetivo es tener una cantidad suficiente de órbitas, de modo que ninguna de las órbitas vuelva a usarse en seguida, pero tampoco se deben tener demasiadas órbitas porque esto limitaría el número de extensiones disponibles para los usuarios u otros servicios. Puede crear varios intervalos de órbitas de estacionamiento de llamadas para cada grupo de Skype Empresarial Server donde se implemente la aplicación Estacionamiento de llamadas. Cada intervalo de órbitas de estacionamiento de llamadas debe tener un nombre único global y un conjunto único de extensiones.
+El estacionamiento de llamadas usa órbitas para estacionar llamadas. Para que los usuarios puedan estacionar y recuperar llamadas, debe configurar la tabla de órbitas de estacionamiento de llamadas. Debe especificar los intervalos de números de extensión (órbitas) que su organización reservará para estacionar llamadas y definir el enrutamiento para esos intervalos especificando qué grupo de estacionamiento de llamadas controla cada intervalo. A la hora de definir intervalos de órbitas, el objetivo es tener una cantidad suficiente de órbitas, de modo que ninguna de las órbitas vuelva a usarse en seguida, pero tampoco se deben tener demasiadas órbitas porque esto limitaría el número de extensiones disponibles para los usuarios u otros servicios. Puede crear varios intervalos de órbitas de estacionamiento de llamadas para cada grupo de Skype Empresarial Server donde se implemente la aplicación estacionamiento de llamadas. Cada intervalo de órbitas de estacionamiento de llamadas debe tener un nombre único global y un conjunto único de extensiones.
 
 > [!IMPORTANT]
 > Un intervalo de órbitas suele estar formado por 100 órbitas o menos, pero puede ser mucho mayor, siempre que tenga menos de 10.000 órbitas (número máximo) por intervalo y que usted tenga menos de 50.000 órbitas por grupo de servidores. Si un intervalo es demasiado pequeño, las órbitas se volverán a usar con mayor rapidez.
@@ -35,11 +35,11 @@ El estacionamiento de llamadas usa órbitas para estacionar llamadas. Antes de q
 Use bloques de extensiones virtuales (extensiones que no tengan asignado ningún usuario ni teléfono) para los intervalos de órbitas.
 
 > [!NOTE]
-> No se admite la asignación de números de llamada directa a la extensión (DID) como números de órbita en la tabla de órbitas de estacionamiento de llamadas.
+> No se admite la asignación de números de marcado directo interno (DID) como números de órbita en la tabla de órbitas de estacionamiento de llamadas.
 
 Use los siguientes procedimientos para crear o modificar un intervalo de órbitas de estacionamiento de llamadas.
 
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Para usar el Panel de control de Skype Empresarial Server para crear o modificar un intervalo de números para estacionar llamadas
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Para usar el Panel de control de Skype Empresarial Server para crear o modificar un rango de números para las llamadas de estacionamiento
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o como miembro del rol CsVoiceAdministrator, CsServerAdministrator, o CsAdministrator. Para obtener información detallada, consulte **Delegación de permisos de instalación**.
 
@@ -56,7 +56,7 @@ Use los siguientes procedimientos para crear o modificar un intervalo de órbita
 
    - Para modificar un intervalo de órbitas existente, escriba todo o parte del nombre del intervalo de órbitas en el campo de búsqueda. En la lista de órbitas resultante, haga clic en la órbita que desee, seleccione **Editar** y, a continuación, haga clic en **Mostrar detalles**.
 
-5. En el primer campo **Intervalo numérico**, escriba el número inicial del intervalo de extensiones para esta órbita de estacionamiento de llamadas y en el segundo campo **Intervalo numérico**, escriba el número final del intervalo. Ten en cuenta lo siguiente:
+5. En el primer campo **Intervalo numérico**, escriba el número inicial del intervalo de extensiones para esta órbita de estacionamiento de llamadas y en el segundo campo **Intervalo numérico**, escriba el número final del intervalo. Tenga en cuenta:
 
    - El número inicial del intervalo debe ser menor o igual al número final del intervalo.
 
@@ -64,21 +64,21 @@ Use los siguientes procedimientos para crear o modificar un intervalo de órbita
 
    - El intervalo de órbitas debe ser único. Este intervalo no se puede superponer con ningún otro.
 
-   - Si el intervalo de órbitas comienza con el carácter o #, el \* intervalo debe ser mayor que 100.
+   - Si el intervalo de órbitas comienza con el carácter \* o #, el intervalo debe ser mayor que 100.
 
-   - Valores válidos: deben coincidir con la cadena de expresión regular ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Esto significa que el valor debe ser una cadena que comienza con el carácter o # o un número del 1 al 9 (el primer carácter \* no puede ser cero). Si el primer carácter es o #, el siguiente carácter debe ser un número del 1 al \* 9 (no puede ser un cero). Los caracteres subsiguientes pueden ser cualquier número del 0 al 9 hasta siete caracteres adicionales (por ejemplo, "#6000", " \* 92000", " \* 95551212" y "915551212"). Si el primer carácter no es o #, el primer carácter debe ser un número del 1 al 9 (no puede ser cero), seguido de hasta ocho caracteres, cada uno de los números del 0 al \* 9 (por ejemplo, "915551212", "41212", "300").
+   - Valores válidos: debe coincidir con la cadena de expresión regular ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Esto significa que el valor debe ser una cadena que comienza con el carácter o # o un número \* del 1 al 9 (el primer carácter no puede ser cero). Si el primer carácter es o #, el siguiente carácter debe ser un número del 1 al \* 9 (no puede ser cero). Los caracteres posteriores pueden ser cualquier número de 0 a 9 hasta siete caracteres adicionales (por ejemplo, "#6000", " \* 92000", " \* 95551212" y "915551212"). Si el primer carácter no es o #, el primer carácter debe ser un número del 1 al 9 (no puede ser cero), seguido de hasta ocho caracteres, cada uno de \* 0 a 9 (por ejemplo, "915551212", "41212", "300").
 
    - No debe tener más de 50.000 órbitas por grupo de servidores. Cada intervalo de órbitas normalmente está formado por 100 órbitas o menos, pero puede ser mucho mayor siempre que tenga menos de 10.000 órbitas. Por ejemplo, en lugar de especificar un número de inicio de "7000000" y un número de finalización de "8000000", piense en especificar un número de inicio de "7000000" y un número de finalización de "7000100".
 
-6. En **el FQDN del servidor** de destino, haga clic en el nombre de dominio completo (FQDN) o id. de servicio del servicio de aplicación que hospeda la aplicación Estacionamiento de llamadas. Todas las llamadas estacionadas en números del intervalo especificado por el número de inicio y el número de finalización de cada intervalo de órbitas se enrutarán a este servidor o grupo de servidores.
+6. En **FQDN del servidor de** destino, haga clic en el nombre de dominio completo (FQDN) o el identificador de servicio del servicio de aplicación que hospeda la aplicación estacionamiento de llamadas. Todas las llamadas estacionadas en números del intervalo especificado por el número de inicio y el número de finalización de cada intervalo de órbitas se enrutarán a este servidor o grupo de servidores.
 
 7. Haga clic en **Confirmar**.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Para usar el Shell de administración de Skype Empresarial Server para crear o modificar un intervalo de números para estacionar llamadas
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Para usar el Shell de administración de Skype Empresarial Server para crear o modificar un rango de números para las llamadas de estacionamiento
 
-1. Inicie sesión en el equipo donde está instalado el Shell de administración de Skype Empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en Permisos de configuración **delegados.**
+1. Inicie sesión en el equipo donde skype empresarial Server Management Shell está instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegate Setup Permissions**.
 
-2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
 
 3. Use **New-CsCallParkOrbit** para crear un nuevo intervalo de números de órbitas. Use **Set-CsCallParkOrbit** para modificar un intervalo de números de órbitas existente.
 
@@ -100,10 +100,10 @@ Use los siguientes procedimientos para crear o modificar un intervalo de órbita
    Set-CsCallParkOrbit -Identity "Redmond orbit 1" -NumberRangeStart 500 -NumberRangeEnd 699
    ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-[New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
-[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Set-CsCallParkOrbit](/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
-[Eliminar un intervalo de órbitas para estacionamiento de llamadas](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
+[Eliminar un intervalo de órbitas para estacionamiento de llamadas](/previous-versions/office/lync-server-2013/lync-server-2013-delete-a-call-park-orbit-range)

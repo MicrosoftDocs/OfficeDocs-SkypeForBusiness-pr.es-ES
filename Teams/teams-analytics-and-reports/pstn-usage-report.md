@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el informe de uso de RTC de T
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a7783c3084beaa87b709ca1e9d5ab4e6932a5e59
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: d870581b8921e39d50d0187120cf89067ac38819
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875030"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116868"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Informe de uso de RTC de Microsoft Teams
 
@@ -108,7 +108,7 @@ La primera fila del ARCHIVO CSV contiene nombres de columna. Todas las fechas so
  Puede exportar datos hasta un año a partir de la fecha actual, a menos que las normativas específicas del país prohíban la retención de los datos durante 12 meses.
 
 > [!div class="has-no-wrap"]  
-> | # | Nombre | [Tipo de datos (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descripción |
+> | # | Nombre | [Tipo de datos (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Descripción |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | Identificador de llamada único |
 > | 1 | Id. de llamada | `nvarchar(64)` | Identificador de llamada. No se garantiza que sea único |
@@ -136,7 +136,7 @@ La primera fila del ARCHIVO CSV contiene nombres de columna. Todas las fechas so
 Puede exportar datos hasta cinco meses (150 días) a partir de la fecha actual, a menos que las normativas específicas del país prohíban la retención de los datos durante ese período.
 
 > [!div class="has-no-wrap"]  
-> | # | Nombre | [Tipo de datos (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descripción |
+> | # | Nombre | [Tipo de datos (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Descripción |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | Identificador de llamada único |
 > | 1 | Dirección SIP | `nvarchar(128)` | La dirección del usuario o bot que realizó o recibió la llamada.<br/>Tenga en cuenta que esto es realmente UserPrincipalName (UPN, nombre de inicio de sesión) en Azure Active Directory, que suele ser el mismo que la dirección SIP |

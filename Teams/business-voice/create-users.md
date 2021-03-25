@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16827d1b90ea07fcd84be286e03f3d3b22a55bd1
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 4e3a4f440230dad7c9841f31e1b2ea03c5a50b81
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868637"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116018"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>Cree y otorgue licencias a los usuarios de Business Voice y asígneles números de teléfono
 
@@ -30,7 +30,7 @@ Para usar :::no-loc text="Microsoft 365 Business Voice":::, necesita una cuenta 
 
 ## <a name="create-and-license-users"></a>Crear y asignar licencias a los usuarios
 
-Siga los pasos en [Agregar usuarios individualmente o en bloque](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)y [Asignar licencias a los usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+Siga los pasos en [Agregar usuarios individualmente o en bloque](/microsoft-365/admin/add-users/add-users)y [Asignar licencias a los usuarios](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 > [!NOTE]
 > En el panel **Asignar licencias de producto**, seleccione **:::no-loc text="Microsoft 365 Business Voice":::**.

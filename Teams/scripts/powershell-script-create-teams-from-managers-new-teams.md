@@ -1,5 +1,5 @@
 ---
-title: 'Ejemplo de script de PowerShell: Crear nuevos equipos de administradores de personas'
+title: 'Ejemplo de script de PowerShell: crear nuevos equipos de administrador de personas'
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Use este script de PowerShell para crear un equipo para cada administrador que dirija como miembros del equipo.
+description: Use este script de PowerShell para crear un equipo para cada administrador con sus directos como miembros del equipo.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f17ccf2372b10d8b0a14e4259faf9db22fc72ce
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8343348816c1dfeb4b10f67001e3ecb3698983b7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583117"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117308"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a>Ejemplo de script de PowerShell: Crear nuevos equipos de administradores de personas
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a>Ejemplo de script de PowerShell: crear nuevos equipos de administrador de personas
 
-Use este script de PowerShell para crear un equipo para cada administrador que dirija como miembros del equipo. Antes de ejecutar este script, ejecute el script [Administradores](powershell-script-create-teams-from-managers-export-managers.md) de exportación para exportar (desde Active Directory) una lista de los administradores y sus responsables para la organización.
+Use este script de PowerShell para crear un equipo para cada administrador con sus directos como miembros del equipo. Antes de ejecutar este script, ejecute el [script](powershell-script-create-teams-from-managers-export-managers.md) Administradores de exportación para exportar (desde Active Directory) una lista de administradores y sus directos para su organización.
 
 Para obtener información sobre este script de PowerShell, lea [Crear equipos de administrador de personas.](../create-manager-directs-teams.md)
 
-Si es la primera vez que usa PowerShell y necesita ayuda para comenzar, consulte [Introducción a Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
+Si es la primera vez que usa PowerShell y necesita ayuda para comenzar, consulte [Introducción a Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).
 
 
 ## <a name="create-new-people-manager-teams"></a>Crear nuevos equipos de administradores de personas 
@@ -213,5 +213,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Info: Exiting.."
 #endregion
 
 ```
-
-

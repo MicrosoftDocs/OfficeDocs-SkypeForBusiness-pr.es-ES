@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcdae04ce87db82bd5f18e818dcf194fc7ff38c7
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: a6fa7d46a4ace2e6bc12289f9abe71362511d24c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615046"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117088"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destinos de equipo
 
@@ -74,7 +74,7 @@ Por ejemplo, en la siguiente jerarquía, Recuperar, Comunicaciones y RRHH puede 
 ## <a name="create-your-hierarchy"></a>Crear la jerarquía
 
 > [!NOTE]
-> En el resto de este artículo se describe la configuración de una jerarquía de equipos en el contexto de la publicación de tareas en los equipos destinatarios. Consulte Administrar [la aplicación Tareas](https://docs.microsoft.com/MicrosoftTeams/manage-tasks-app) de su organización en Teams para obtener información general sobre la aplicación Tareas, donde aparece la publicación de tareas cuando está habilitada.
+> En el resto de este artículo se describe la configuración de una jerarquía de equipos en el contexto de la publicación de tareas en los equipos destinatarios. Consulte Administrar [la aplicación Tareas](./manage-tasks-app.md) de su organización en Teams para obtener información general sobre la aplicación Tareas, donde aparece la publicación de tareas cuando está habilitada.
 
 El esquema que define la jerarquía se basa en un archivo de valores separados por comas (CSV). Cada fila del archivo CSV corresponde a un nodo dentro de la jerarquía de equipos. Cada fila contiene información que denomina el nodo dentro de la jerarquía, opcionalmente lo vincula a un equipo e incluye atributos que se pueden usar para filtrar equipos en aplicaciones que lo admitan.
 

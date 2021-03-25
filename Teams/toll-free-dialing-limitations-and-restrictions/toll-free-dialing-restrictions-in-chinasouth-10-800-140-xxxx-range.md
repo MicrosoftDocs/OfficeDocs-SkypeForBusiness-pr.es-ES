@@ -1,5 +1,5 @@
 ---
-title: Restricciones de marcación gratuitas en China -Sur
+title: Restricciones de marcado gratuitos en China - Sur
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,35 +23,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo marcar números gratuitos en China sur, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
-ms.openlocfilehash: 0ac72f51546d8655e4472d6392206867247a1900
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Obtenga información sobre cómo marcar números gratuitos en China sur, incluida la disponibilidad, la disponibilidad de la red móvil y por cable o de línea fija, y las restricciones.
+ms.openlocfilehash: ea2b2e535f491f57e5aad41244e56afff3490ebb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140459"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116788"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>Restricciones de marcado de número gratuito en China - Sur (intervalo 10 800 140 XXXX)
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
+[Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
-|Formatos de marcación  <br/> | 10 800 140 XXXX <br/> |
+|¿Hay llamadas gratuitas disponibles?  <br/> |Sí  <br/> |
+|Formatos de marcado  <br/> | 10 800 140 XXXX <br/> |
 |Código ISO de país o región  <br/> |CN  <br/> |
 |Isla o territorio cubierto  <br/> |Sur de China / solo red de China Netcom  <br/> |
 |Isla o territorio no cubierto  <br/> |Norte de China  <br/> |
-|Disponibilidad de líneas cableadas/fijas  <br/> |Solo de China Telecom  <br/> |
+|Disponibilidad de líneas fijas o cableadas  <br/> |Solo de China Telecom  <br/> |
 |Disponibilidad de red móvil  <br/> |Parcial. Ver comentarios.  <br/> |
-|Problemas de comentarios, restricciones y acceso  <br/> |No se puede acceder desde teléfonos públicos.  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |No se puede acceder desde teléfonos públicos.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

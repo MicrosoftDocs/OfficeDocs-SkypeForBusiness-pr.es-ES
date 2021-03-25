@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre cómo implementar salas de Microsoft Teams, incluidas las fases de implementación.
-ms.openlocfilehash: 87ded33b464d6f5248fe1fb71d579d5f191bb6b6
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 3ac6ceabd1d421551ab3b9404688bd4a9302e3d6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726311"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117468"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -140,9 +140,9 @@ Al planear la implementación de Salas de Microsoft Teams, tiene muchas opciones
 
 **Sugerencia profesional:** cada salas de Microsoft Teams debe tener un nombre de equipo válido y único en la red. Muchos sistemas de supervisión y alertas muestran el nombre del equipo como un identificador de clave, por lo que es importante desarrollar una convención de nomenclatura para las implementaciones de Salas de Microsoft Teams que permita al personal de soporte técnico localizar fácilmente los salas de Microsoft Teams que se han marcado como que requieren una acción. Un ejemplo puede ser usar un patrón de MTR-*Nombre del* salón - *de sitio* (MTR-LON-CURIE). 
 
-Como parte de la implementación, también tendrá que considerar su estrategia para administrar y configurar las cuentas [locales](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) creadas por el instalador de aplicaciones salas de Microsoft Teams.
+Como parte de la implementación, también tendrá que considerar su estrategia para administrar y configurar las cuentas [locales](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) creadas por el instalador de aplicaciones salas de Microsoft Teams.
 
-Proporcionamos instrucciones sobre cómo usar el Monitor de [Microsoft Azure](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) para supervisar la implementación de Salas de Microsoft Teams e informar sobre la disponibilidad, los errores de hardware y software y la versión de la aplicación Salas de Microsoft Teams. Si decide usar Microsoft Operations Management Suite, debe instalar el agente de Operations Management Suite como parte del proceso de instalación del software y configurar la información de conexión del área de trabajo para el área de trabajo. 
+Proporcionamos instrucciones sobre cómo usar el Monitor de [Microsoft Azure](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) para supervisar la implementación de Salas de Microsoft Teams e informar sobre la disponibilidad, los errores de hardware y software y la versión de la aplicación Salas de Microsoft Teams. Si decide usar Microsoft Operations Management Suite, debe instalar el agente de Operations Management Suite como parte del proceso de instalación del software y configurar la información de conexión del área de trabajo para el área de trabajo. 
 
 Una consideración adicional es si los salas de Microsoft Teams se unirán al dominio. Encontrará información sobre las ventajas de la unión de dominios en las consideraciones de unión a dominios de Sistema de [salón de Skype.](domain-joining-considerations.md) 
 
@@ -200,5 +200,3 @@ _Tabla de activos de ejemplo_
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
 | Sede de Londres | Curie         | Medio        |                                          |                                          |                                          |                                            |                   |
 | Sydney HQ | Hill          | Grande         |                                          |                                          |                                          |                                            |                   |
-
-

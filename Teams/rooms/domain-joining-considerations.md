@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede obtener información sobre cómo unirse a un equipo de aplicación de sistema de salón de Skype a un dominio de Active Directory, junto con las consideraciones para hacerlo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 806dcac8f73f555227c03f7612f30fe4a598812f
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: c322819fb765e05cead793c95b5e3b6af2d2a180
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997418"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117558"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -57,7 +57,7 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-Incluso si crea una unidad organizativa independiente y bloquea la herencia, hay algunas directivas que podrían causar problemas en un nivel superior. Una directiva de grupo con una configuración de no invalidación supera a un OU con una configuración de herencia de directiva de bloqueo. Para obtener más información, vea [Ninguna invalidación en comparación](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) con bloquear la herencia de directivas en la documentación de directiva de grupo.
+Incluso si crea una unidad organizativa independiente y bloquea la herencia, hay algunas directivas que podrían causar problemas en un nivel superior. Una directiva de grupo con una configuración de no invalidación supera a un OU con una configuración de herencia de directiva de bloqueo. Para obtener más información, vea [Ninguna invalidación en comparación](/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) con bloquear la herencia de directivas en la documentación de directiva de grupo.
   
 Puede tener varios enfoques para solucionar estos problemas. Le recomendamos que consulte con sus expertos de Active Directory para asegurarse de que se le proporciona una unidad organizativa que tiene la configuración de GPO adecuada o al menos una unidad organizativa en la que no existen las directivas descritas anteriormente. Recomendamos habilitar calidad de servicio (QoS) para dispositivos del sistema de sala de Skype.
 

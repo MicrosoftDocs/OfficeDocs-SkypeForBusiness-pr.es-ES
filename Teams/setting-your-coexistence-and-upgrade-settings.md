@@ -18,17 +18,17 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2dbeb4d93273aab848f1b4436b46e6b22e08e53
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 52e035f3940237309a1a8bab0211ccaad243b004
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397575"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117078"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>Establecer configuración de actualización y coexistencia
 
 
-Al actualizar los usuarios de Skype Empresarial para usar Teams, tiene varias opciones para ayudarle a que sea un proceso sin problemas para los usuarios. Tiene la opción de realizar la configuración de coexistencia y actualización para todos los usuarios de su organización a la vez, o puede realizar cambios de configuración para un único o conjunto de usuarios de su organización. Tenga en cuenta que las versiones anteriores de los clientes de Skype Empresarial pueden no respetar esta configuración. Para obtener más información sobre las versiones de cliente de Skype Empresarial, vaya a la página descargas y [actualizaciones de Skype Empresarial.](https://docs.microsoft.com/skypeforbusiness/software-updates) 
+Al actualizar los usuarios de Skype Empresarial para usar Teams, tiene varias opciones para ayudarle a que sea un proceso sin problemas para los usuarios. Tiene la opción de realizar la configuración de coexistencia y actualización para todos los usuarios de su organización a la vez, o puede realizar cambios de configuración para un único o conjunto de usuarios de su organización. Tenga en cuenta que las versiones anteriores de los clientes de Skype Empresarial pueden no respetar esta configuración. Para obtener más información sobre las versiones de cliente de Skype Empresarial, vaya a la página descargas y [actualizaciones de Skype Empresarial.](/skypeforbusiness/software-updates) 
 
 Puede comprender mejor los modos que están disponibles al leer Comprender la coexistencia e interoperabilidad de [Microsoft Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md) y Skype Empresarial o La coexistencia con Skype [Empresarial.](coexistence-chat-calls-presence.md)  
 
@@ -38,7 +38,7 @@ Puede comprender mejor los modos que están disponibles al leer Comprender la co
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>Establecer opciones de actualización para todos los usuarios de su organización
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
 
 1. En el [Centro de administración de Microsoft Teams,](https://admin.teams.microsoft.com/)en el panel de navegación izquierdo, vaya a Configuración **de** toda la organización Actualización  >  **de Teams.** 
 
@@ -59,7 +59,7 @@ Puede comprender mejor los modos que están disponibles al leer Comprender la co
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Establecer opciones de actualización para un solo usuario de la organización
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
 
 1. En el panel de navegación izquierdo, vaya **a Usuarios** y, a continuación, seleccione el usuario de la lista. 
 2. En la **pestaña Cuenta** del usuario, en Actualización **de Teams,** haga clic en **Editar.**
@@ -68,7 +68,7 @@ Puede comprender mejor los modos que están disponibles al leer Comprender la co
      - **Islas:** use esta configuración si quiere que el usuario pueda usar Skype Empresarial y Teams. 
      - **Solo Skype Empresarial:** use esta configuración si quiere que el usuario use Skype Empresarial.
      - **Colaboración de Skype Empresarial con Teams:** use esta configuración si desea que el usuario use Skype Empresarial, además de usar Teams para la colaboración grupal (canales).
-      - Skype Empresarial con la colaboración y las reuniones de **Teams:** use esta configuración si quiere que el usuario use Skype Empresarial, además de usar Teams para la colaboración de grupo (canales) y reuniones de Teams.
+      - Skype Empresarial con la colaboración y las reuniones de **Teams:** use esta configuración si quiere que el usuario use Skype Empresarial, además de usar Teams para la colaboración grupal (canales) y las reuniones de Teams.
      - **Solo Teams:** use esta configuración si desea que el usuario use solo Teams. El usuario podrá seguir unirse a las reuniones de Skype Empresarial.
 4. Si selecciona  cualquier modo de coexistencia que no sea Usar la configuración de toda la **organización,** tiene la opción de habilitar las notificaciones en la aplicación de Skype Empresarial del usuario que actualicen a Teams próximamente. Puede habilitar esta notificación para el usuario activando la opción Notificar al usuario **de Skype** Empresarial.
 5. Haga **clic en Guardar** después de realizar los cambios.

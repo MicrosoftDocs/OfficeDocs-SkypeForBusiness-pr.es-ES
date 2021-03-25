@@ -22,35 +22,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Esto le ayudará a saber cómo llamar a números gratuitos en cada país o región. Después de seleccionar el país o la región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad del servicio gratuito cuando el servicio gratuito esté disponible. El formato o los formatos de marcación le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 84ffbad7ae57030017f9263ee326009d9e30732e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad de servicios gratuitos en los que el servicio gratuito está disponible. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+ms.openlocfilehash: 13ed9b0215b6a1e5e72cac7b592f284fbfaf2386
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693365"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116648"
 ---
 # <a name="toll-free-dialing-restrictions-in-serbia"></a>Restricciones de marcado de número gratuito en Serbia
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
+[Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
-|Formatos de marcación  <br/> | 0800 XXX XXX <br/> |
+|¿Hay llamadas gratuitas disponibles?  <br/> |Sí  <br/> |
+|Formatos de marcado  <br/> | 0800 XXX XXX <br/> |
 |Código ISO de país o región  <br/> |RS  <br/> |
 |Isla o territorio cubierto  <br/> |No aplicable  <br/> |
 |Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de líneas cableadas/fijas  <br/> |Sí  <br/> |
+|Disponibilidad de líneas fijas o cableadas  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |Sí  <br/> |
-|Problemas de comentarios, restricciones y acceso  <br/> |No  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |No  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

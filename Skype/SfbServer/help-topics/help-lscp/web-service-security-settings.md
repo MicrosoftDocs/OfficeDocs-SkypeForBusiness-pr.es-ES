@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: c5c29bedf59ef74f5d980ede00457d7043cc2d5b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 02fd406e8dd324be3825d4d842cd625b65162f19
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810730"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116168"
 ---
 # <a name="web-service-security-settings"></a>Configuración de seguridad del servicio web
 
@@ -28,9 +28,8 @@ ms.locfileid: "49810730"
 
 - [Administrar las opciones de configuración del servicio web en Skype Empresarial Server 2015](../../manage/authentication/web-service-configuration-settings.md)
 
-- [Modificar un servicio web existente](https://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
+- [Modificar un servicio web existente](/previous-versions/office/lync-server-2013/lync-server-2013-modify-existing-web-service-configuration-settings)
 
-- [Eliminar un servicio web](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
+- [Eliminar un servicio web](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-web-service-configuration-settings)
 
-Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
-
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).

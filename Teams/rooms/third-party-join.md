@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: En este artículo se explica cómo configurar su organización y dispositivos teams Rooms para admitir la unión de reuniones de terceros a Cisco WebEx y Zoom.
-ms.openlocfilehash: ac4c57dc5cc743fb7b141ecaaaf3531b35912e77
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: c8f6bda7680ccd3107c313c87001902e442518c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997438"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117378"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Habilitar dispositivos de sala de Teams para unirse a reuniones de terceros
 
@@ -34,9 +34,9 @@ En las secciones siguientes se muestra cómo realizar cada uno de estos pasos.
 
 ## <a name="step-1-allow-calendar-invite-processing-for-third-party-meetings"></a>Paso 1: Permitir el procesamiento de invitaciones de calendario para reuniones de terceros
 
-Lo primero que debe hacer para habilitar una experiencia de unirse con un solo toque desde un dispositivo de salas de grupo es establecer las reglas de procesamiento del calendario para el buzón de sala de Exchange Online del dispositivo. El buzón de sala necesita permitir reuniones externas y mantener el cuerpo y el asunto del mensaje para que pueda ver la dirección URL necesaria para unirse a la reunión de terceros. Para establecer estas opciones de buzón de sala con el cmdlet [Set-CalendarProcessing,](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) haga lo siguiente:
+Lo primero que debe hacer para habilitar una experiencia de unirse con un solo toque desde un dispositivo de salas de grupo es establecer las reglas de procesamiento del calendario para el buzón de sala de Exchange Online del dispositivo. El buzón de sala necesita permitir reuniones externas y mantener el cuerpo y el asunto del mensaje para que pueda ver la dirección URL necesaria para unirse a la reunión de terceros. Para establecer estas opciones de buzón de sala con el cmdlet [Set-CalendarProcessing,](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) haga lo siguiente:
 
-1. Conéctese a Exchange Online PowerShell. Para obtener más información, vea Conectarse a [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) con autenticación básica o Conectarse a Exchange Online PowerShell con autenticación [multifactor,](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)según el método de autenticación.
+1. Conéctese a Exchange Online PowerShell. Para obtener más información, vea Conectarse a [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) con autenticación básica o Conectarse a Exchange Online PowerShell con autenticación [multifactor,](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)según el método de autenticación.
 
 2. Obtenga el nombre principal de usuario (UPN) del buzón de sala si no lo conoce ejecutando el siguiente comando:
 
@@ -52,13 +52,13 @@ Lo primero que debe hacer para habilitar una experiencia de unirse con un solo t
     Set-CalendarProcessing <UserPrincipalName> -ProcessExternalMeetingMessages $True -DeleteComments $False -DeleteSubject $False
     ```
 
-Obtenga más información sobre [Exchange Online PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell?view=exchange-ps)
+Obtenga más información sobre [Exchange Online PowerShell.](/powershell/exchange/exchange-online-powershell?view=exchange-ps)
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Paso 2: Configurar la protección contra amenazas de Office 365 y la reescritura de vínculos
 
-Para habilitar la experiencia de unirse con un solo toque, la información del vínculo de unirse a la reunión de terceros debe estar presente y legible en la invitación a la reunión. Si su organización usa la característica Vínculos seguros de protección contra amenazas avanzada de [Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) o si usa una solución de terceros que examina todas las direcciones URL entrantes y salientes en busca de amenazas, puede cambiar las direcciones URL de la reunión y hacer que la reunión no se pueda reconocer por el dispositivo Salas de Teams. Para asegurarse de que esto no suceda, debe agregar las direcciones URL del servicio de reunión de terceros a la lista de vínculos seguros de ATP "no reescribir" o a la lista de excepciones de reescritura url de terceros.
+Para habilitar la experiencia de unirse con un solo toque, la información del vínculo de unirse a la reunión de terceros debe estar presente y legible en la invitación a la reunión. Si su organización usa la característica Vínculos seguros de protección contra amenazas avanzada de [Office 365](/microsoft-365/security/office-365-security/atp-safe-links) o si usa una solución de terceros que examina todas las direcciones URL entrantes y salientes en busca de amenazas, puede cambiar las direcciones URL de la reunión y hacer que la reunión no se pueda reconocer por el dispositivo Salas de Teams. Para asegurarse de que esto no suceda, debe agregar las direcciones URL del servicio de reunión de terceros a la lista de vínculos seguros de ATP "no reescribir" o a la lista de excepciones de reescritura url de terceros.
 
-Para agregar direcciones URL de servicio de reunión de terceros a la lista vínculos seguros de ATP "no reescribir", siga los pasos de Configurar una lista de direcciones URL personalizadas de no volver a escribir con vínculos seguros [de ATP.](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide) Si usa una solución de terceros, consulte las instrucciones de esa solución para agregar direcciones URL a su lista de excepciones de reescritura de direcciones URL.
+Para agregar direcciones URL de servicio de reunión de terceros a la lista vínculos seguros de ATP "no reescribir", siga los pasos de Configurar una lista de direcciones URL personalizadas de no volver a escribir con vínculos seguros [de ATP.](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide) Si usa una solución de terceros, consulte las instrucciones de esa solución para agregar direcciones URL a su lista de excepciones de reescritura de direcciones URL.
 
 Estas son algunas entradas de ejemplo que es posible que deba agregar a la lista de vínculos seguros de ATP "no reescribir" o a la lista de excepciones de reescritura url de terceros:
 

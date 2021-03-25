@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre las licencias de complementos de Microsoft Teams y las características que obtiene con cada licencia.
-ms.openlocfilehash: ef0fd186fc3f7836e45fccacbfcdba6cb31ba60e
-ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
+ms.openlocfilehash: 3925cd7b388ec884990cfb2310e8d53b537e7a64
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50937867"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116918"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licencias de complementos de Microsoft Teams
 
@@ -404,4 +404,4 @@ Este es un resumen de las ofertas de prueba de características de voz.
 
 - [Asignar licencias de complementos de Teams](assign-teams-add-on-licenses.md)
 - [Gestionar acceso de los usuarios a Microsoft Teams](../user-access.md)
-- [Descripción del servicio de Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+- [Descripción del servicio de Teams](/office365/servicedescriptions/teams-service-description)

@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 8bd34e880cf22f4bf41968eeffe0ee9dd428cf40
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6c3535f6885bec00e353f5a58006290ef6cba6ef
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826810"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115238"
 ---
 # <a name="url-filter"></a>Filtro para direcciones URL
 
 ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
 
-- [Modificar el filtro para direcciones URL predeterminado](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [Modificar el filtro para direcciones URL predeterminado](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-url-filter)
 
-- [Crear un filtro nuevo para direcciones URL para administrar hipervínculos en conversaciones de mensajería instantánea](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+- [Crear un filtro nuevo para direcciones URL para administrar hipervínculos en conversaciones de mensajería instantánea](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations)
 
-Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
-
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).

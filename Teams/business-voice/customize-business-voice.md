@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac33cd0c815aec39855351dbd1abf16ce4f52b7f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fa77f33e82752446337bc05f33e733717fbb16f7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824828"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116008"
 ---
 # <a name="customize-microsoft-365-business-voice"></a>Personalización de Microsoft 365 Business Voice
 
@@ -33,7 +33,7 @@ Sin embargo, es probable que le interese personalizar Business Voice para satisf
 | Tarea                                                          | Descripción                                                                                          |
 |---------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [Mover números de teléfono a Business Voice](port-phone-numbers.md) | Traiga sus números de teléfono existentes a la Business Voice.                                                 |
-| [Configurar los operadores automáticos](set-up-auto-attendants.md)           | Agregue más menús de llamada para ampliar las opciones de las personas que llaman al número de teléfono principal.        |
+| [Configurar los operadores automáticos](./create-a-phone-system-auto-attendant-smb.md)           | Agregue más menús de llamada para ampliar las opciones de las personas que llaman al número de teléfono principal.        |
 | [Configurar directivas de llamadas](set-up-policies.md)                 | Controle si los usuarios pueden realizar llamadas privadas, usar el reenvío de llamadas o delegar llamadas.        |
 | [Crear usuarios adicionales](create-users.md)                    | Agregue más usuarios y asigne números de teléfono nuevos o existentes.                                     |
-| [Configurar la cola de llamadas](set-up-call-queues.md)                   | Cree una cola donde los autores de llamadas puedan esperar al siguiente agente disponible.                                  |
+| [Configurar la cola de llamadas](./create-a-phone-system-call-queue-smb.md)                   | Cree una cola donde los autores de llamadas puedan esperar al siguiente agente disponible.                                  |

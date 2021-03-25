@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Use los recursos de aprendizaje en línea para incorporar al personal de soporte técnico en la fase de experimentación de su adopción de Teams.
+description: Use recursos de aprendizaje en línea para incorporar al personal de soporte técnico a la fase de experimentación de la adopción de Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,20 +21,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d61c407e8f969084c1f3775ddd9ede9070a61dc1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3d19033ac0feb9e88b3564e725574a14a1564022
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806140"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116897"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Incorporar compatibilidad con Microsoft Teams
 
-Para asegurarse de que los equipos de primeros usuarios y campeones tendrán el soporte adecuado cuando empiecen a usar Teams, reúnase con el personal de soporte técnico y revise las capacidades de Teams. Es posible que los miembros clave de la organización de soporte técnico quieran unirse al programa de usuarios iniciales. Anime el uso de Teams en sus propios escenarios. Lleve a través de la incorporación básica del producto mediante nuestros recursos de aprendizaje en línea.  
+Para asegurarse de que los equipos iniciales de adopción y campeones tendrán el soporte adecuado a medida que empiecen a usar Teams, reúnase con el personal de soporte técnico y revise las capacidades de Teams. Es posible que los miembros clave de la organización de soporte técnico quieran unirse a su programa de adopción temprana. Anime a usar Teams en sus propios escenarios. Lleve a través de la incorporación básica del producto mediante nuestros recursos de aprendizaje en línea.  
 
-- [Foundations: componentes principales de Microsoft Teams](https://youtu.be/V6B4KraD-FM)
+- [Fundamentos: componentes principales de Microsoft Teams](https://youtu.be/V6B4KraD-FM)
 - [Solución de problemas de Teams](https://youtu.be/0KNh9KNpXcA)
-- [Problemas conocidos y solución de problemas](https://aka.ms/TeamsKnownIssues)
-- [Aprendizaje de Microsoft Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
+- [Problemas conocidos y solución de problemas](/MicrosoftTeams/troubleshoot/teams-welcome)
+- [Aprendizaje de Microsoft Teams](./training-microsoft-teams-landing-page.md)
 
-![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: Fase 3 de [adopción de Microsoft Teams: Escala.](teams-adoption-phase3-enable.md)
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: Fase 3 de [adopción de Microsoft Teams: Escala](teams-adoption-phase3-enable.md).

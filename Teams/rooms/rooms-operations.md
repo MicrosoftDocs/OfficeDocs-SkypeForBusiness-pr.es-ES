@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Lea este tema para obtener información sobre la administración de Salas de Microsoft Teams, la próxima generación de sistemas de salas de Skype.
-ms.openlocfilehash: 56468ad85b20b25d6e9310a20638ae35e941db73
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 52234f72c380c4f5af8f47fff51998fa8c3d1459
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875150"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117438"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Operaciones y mantenimiento de salas de Microsoft Teams 
  
@@ -81,7 +81,7 @@ En esta sección se trata la configuración del sistema de la que depende Salas 
 |Power Management: \> en CA, desactiva la pantalla después de 10 minutos  <br/> Power Management: \> en CA, nunca ponga el sistema en suspensión  <br/> |Habilita salas de Microsoft Teams para desactivar las pantallas adjuntas y reactivarse automáticamente  <br/> |
 |net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.  <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
    
-La transferencia de archivos mediante directivas de grupo se describe [en Configurar un elemento de archivo.](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+La transferencia de archivos mediante directivas de grupo se describe [en Configurar un elemento de archivo.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))
 
 > [!NOTE]
 > Cuando el dispositivo Salas de Microsoft Teams es compatible con la siguiente versión del sistema operativo Windows 10, el dispositivo se actualiza automáticamente a la siguiente versión a través de Windows Update. El dispositivo Salas de Microsoft Teams no debe actualizarse a la próxima versión de Windows 10 manualmente o mediante la habilitación de directivas de grupo de Windows Update para empresas (WUFB) "Seleccione el nivel de preparación de Windows para las actualizaciones que desea recibir" y "Seleccionar cuándo se reciben compilaciones de vista previa y actualizaciones de características" a través de GPO. Se sabe que un dispositivo con estas directivas de grupo habilitado tiene problemas con la actualización del sistema operativo Windows 10 mediante la aplicación Salas de Microsoft Teams.
@@ -99,7 +99,7 @@ Puede realizar las siguientes operaciones de administración de forma remota med
 - Transferir archivos (requiere un Microsoft Teams Rooms unido a un dominio)
     
 > [!NOTE]
-> Esta funcionalidad está desactivada de manera predeterminada. Debe habilitar PowerShell remoto para su entorno en el sistema salas de Microsoft Teams para realizar las siguientes operaciones. Consulte la documentación sobre **[Habilitar-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** para obtener información sobre cómo habilitar PowerShell remoto.
+> Esta funcionalidad está desactivada de manera predeterminada. Debe habilitar PowerShell remoto para su entorno en el sistema salas de Microsoft Teams para realizar las siguientes operaciones. Consulte la documentación sobre **[Habilitar-PSRemoting](/powershell/module/microsoft.powershell.core/enable-psremoting)** para obtener información sobre cómo habilitar PowerShell remoto.
   
 Por ejemplo, puede habilitar PowerShell remoto de esta manera:
   
@@ -169,7 +169,7 @@ De forma predeterminada, Salas de Microsoft Teams intenta conectarse a la Tienda
   
 De forma predeterminada, Microsoft Teams Rooms se conecta a Windows Update para recuperar las actualizaciones de firmware del dispositivo periférico USB y del sistema operativo y las instala fuera del horario laboral configurado. Para configurar horarios comerciales, puede iniciar sesión en la cuenta de administrador y ejecutar la aplicación Configuración.
   
-Si desea administrar las actualizaciones manualmente y no puede seguir el procedimiento normal de [Microsoft Store](https://businessstore.microsoft.com/store) para Empresas para distribuir aplicaciones sin [conexión,](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)puede adquirir el archivo APPX adecuado y las dependencias del [kit](https://go.microsoft.com/fwlink/?linkid=851168) de implementación (de las instrucciones para Configurar una consola de Salas de [Microsoft Teams)](console.md)que se pueden usar con Configuration Manager. La versión del kit de implementación se encuentra por detrás de la versión de store, por lo que es posible que no coincida siempre con la compilación disponible más reciente.
+Si desea administrar las actualizaciones manualmente y no puede seguir el procedimiento normal de [Microsoft Store](https://businessstore.microsoft.com/store) para Empresas para distribuir aplicaciones sin [conexión,](/microsoft-store/distribute-offline-apps)puede adquirir el archivo APPX adecuado y las dependencias del [kit](https://go.microsoft.com/fwlink/?linkid=851168) de implementación (de las instrucciones para Configurar una consola de Salas de [Microsoft Teams)](console.md)que se pueden usar con Configuration Manager. La versión del kit de implementación se encuentra por detrás de la versión de store, por lo que es posible que no coincida siempre con la compilación disponible más reciente.
   
 ### <a name="to-update-using-powershell"></a>Para actualizar con Powershell
 
@@ -223,4 +223,3 @@ La consola ha vuelto a su modo de funcionamiento normal. El procedimiento siguie
 - En el caso de que una imagen reflejada aparezca en la vista previa de la sala, el administrador de TI puede corregir desconectando y volviendo a conectar la cámara o volteando la orientación de la imagen con el control remoto de la cámara.
 - Ha habido casos de pérdida de acceso táctil a la consola. En estos casos, el problema a veces se resuelve reiniciando el sistema salas de Microsoft Teams.
 - Ha habido casos de pérdida de audio local al conectar un PC a la consola mediante una transmisión integrada. En esos casos, el problema de reproducción de audio local se puede resolver reiniciando el PC.
-    

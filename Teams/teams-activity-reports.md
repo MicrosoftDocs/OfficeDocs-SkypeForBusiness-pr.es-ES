@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ff2c013f286e6a6e64b88f74dc0685e3876f517e
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
-ms.translationtype: HT
+ms.openlocfilehash: 9c975bf4a3f2253dbc99230f85b48a9ae9cd0d65
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460640"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107196"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Use los informes de actividades de Microsoft Teams 
 ========================================
@@ -101,7 +101,7 @@ Los usuarios asignados pueden tener acceso a los informes de actividades:
 
 ### <a name="reports-reader-role"></a>Rol de lector de informes
 
-Puede asignar el rol de lector de informes a personas que no tienen derechos de administrador, pero que sean responsables de impulsar la adopción o el seguimiento del uso de licencias de Teams. Para obtener información sobre cómo asignar roles, lea [Asignar roles de administrador y de no administrador a los usuarios con Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+Puede asignar el rol de lector de informes a personas que no tienen derechos de administrador, pero que sean responsables de impulsar la adopción o el seguimiento del uso de licencias de Teams. Para obtener información sobre cómo asignar roles, lea [Asignar roles de administrador y de no administrador a los usuarios con Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## <a name="other-information-on-the-reports-dashboard"></a>Otra información en el panel de informes
 

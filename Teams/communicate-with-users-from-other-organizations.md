@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Obtenga información acerca de cómo buscar y agregar usuarios de fuera de la organización en Microsoft Teams, así como cómo llamarlos y chatear con ellos, mediante el acceso externo (federación) y el acceso de invitado.
-ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461050"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115998"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización
 
@@ -53,7 +53,7 @@ Use el acceso de invitado para agregar a una persona de fuera de su organizació
 
 Los invitados se agregan al directorio de Azure Active Directory de la organización como usuarios B2B y deben iniciar sesión en Teams con su cuenta de invitado. Esto significa que es posible que un invitado tenga que cerrar sesión en su propia organización para iniciar sesión en la suya.
 
-Para configurar el acceso de invitado para Teams, vea [Colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
+Para configurar el acceso de invitado para Teams, vea [Colaborar con invitados en un equipo](/microsoft-365/solutions/collaborate-as-team).
 
 ## <a name="compare-external-and-guest-access"></a>Comparación entre el acceso de invitado y el acceso externo
 
@@ -105,4 +105,3 @@ En las tablas siguientes se muestran las diferencias entre usar el acceso extern
 [Acceso externo a Teams](manage-external-access.md)
 
 [Acceso de invitado a Teams](guest-access.md)
-

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo planear la omisión de medios con enrutamiento directo del sistema telefónico, lo que le permite acortar la ruta de acceso al tráfico multimedia y mejorar el rendimiento.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e21007c31dca540e4f659aad627911b4aec2e456
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: bbd31a62bf6ebcd481a3cdafeabaf29bb4767f2d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460870"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115598"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -70,7 +70,7 @@ Si el usuario tiene acceso directo a la dirección IP pública del SBC, el flujo
 
 En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la omisión de medios, el cliente es interno y el cliente puede llegar a la dirección IP pública del SBC (medios directos): 
 
-- Las flechas y los valores numéricos de las rutas de acceso se ajustan a los flujos [de llamadas de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- Las flechas y los valores numéricos de las rutas de acceso se ajustan a los flujos [de llamadas de Microsoft Teams.](./microsoft-teams-online-call-flows.md)
 
 - La señalización SIP siempre toma trayectorias 4 y 4' (según la dirección del tráfico). Multimedia permanece local y toma la ruta 5b.
 
@@ -91,7 +91,7 @@ Por ejemplo, suponga que el usuario es externo y el administrador de inquilinos 
 
 En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la omisión de medios, el cliente es externo y el cliente no puede llegar a la dirección IP pública del controlador de borde de sesión (los medios se retransmiten por Teams Transport Relay).
 
-- Las flechas y los valores numéricos de las rutas de acceso se ajustan a los flujos [de llamadas de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- Las flechas y los valores numéricos de las rutas de acceso se ajustan a los flujos [de llamadas de Microsoft Teams.](./microsoft-teams-online-call-flows.md)
 
 - Los medios se retransmiten a través de las rutas 3, 3', 4 y 4'
 
@@ -106,7 +106,7 @@ En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la o
 
 En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la omisión de medios, el cliente es externo y el cliente puede llegar a la dirección IP pública del SBC (medios directos).
 
-- Las flechas y los valores numéricos de las rutas de acceso se ajustan al artículo flujos de [llamadas de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- Las flechas y los valores numéricos de las rutas de acceso se ajustan al artículo flujos de [llamadas de Microsoft Teams.](./microsoft-teams-online-call-flows.md)
 
 - La señalización SIP siempre toma trayectorias 3 y 3' (según la dirección del tráfico). Los flujos multimedia usan la ruta 2.
 
@@ -174,7 +174,7 @@ El enrutamiento directo se ofrece en los siguientes entornos de Microsoft 365 u 
 - Microsoft 365 u Office 365
 - Office 365 GCC
 - Office 365 GCC High
-- Office 365 DoD Obtenga más información sobre los entornos de [Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) y del gobierno de Estados Unidos, como GCC, GCC High y DoD.
+- Office 365 DoD Obtenga más información sobre los entornos de [Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) y del gobierno de Estados Unidos, como GCC, GCC High y DoD.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Entornos GCC de Microsoft 365, Office 365 y Office 365
 
@@ -370,8 +370,6 @@ La omisión de medios es compatible con todos los clientes de escritorio indepen
 
 Para todos los demás puntos de conexión que no admiten la omisión de medios, convertiremos la llamada en no omitir, incluso si se inició como una llamada de omisión. Esto ocurre automáticamente y no requiere ninguna acción del administrador. Esto incluye teléfonos 3PIP de Skype Empresarial y clientes web de Teams que admiten llamadas de enrutamiento directo (clientes basados en WebRTC que se ejecutan en Microsoft Edge, Google Chrome y Mozilla Firefox). 
  
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar el desvío de medios con enrutamiento directo](direct-routing-configure-media-bypass.md)
-
-

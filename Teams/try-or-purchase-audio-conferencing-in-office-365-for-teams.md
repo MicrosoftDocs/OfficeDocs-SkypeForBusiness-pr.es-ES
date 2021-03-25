@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Vea cómo probar o comprar licencias de audioconferencia (conferencias RTC) para Microsoft 365 u Office 365 para configurar las llamadas de conferencia a las que los usuarios pueden llamar. '
-ms.openlocfilehash: f93ce6306dfa4ab7b5eb198363a698a352763d93
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: b4cf789289bc1f05e9e8bba79409f204112f288b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867029"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116538"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Probar o comprar audioconferencias en Microsoft 365 para Microsoft Teams
 
@@ -51,11 +51,11 @@ Para realizar estos pasos, debe ser administrador global o [administrador](https
 
    - **Pruébalo** antes de comprarlo: puede registrarse para obtener una prueba gratuita de Office 365 Enterprise E5 que incluya audioconferencias. Vea la [versión de prueba de Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Cómpralo:** consulta [Licencias de complementos de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+   - **Cómpralo:** consulta [Licencias de complementos de Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-3. [Asigne licencias a los usuarios de](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) su organización que van a programar o dirigir reuniones.
+3. [Asigne licencias a los usuarios de](/microsoft-365/admin/manage/assign-licenses-to-users) su organización que van a programar o dirigir reuniones.
 
-4. Si compró licencias de complementos de audioconferencia y licencias de créditos de comunicaciones, asígnelas también. Para obtener instrucciones, vea [Asignar licencias de complementos de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+4. Si compró licencias de complementos de audioconferencia y licencias de créditos de comunicaciones, asígnelas también. Para obtener instrucciones, vea [Asignar licencias de complementos de Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>Para comprar y asignar licencias de audioconferencia de pago por minuto
 
@@ -70,7 +70,7 @@ Si es cliente de Volumen y licencias, puede obtener licencias de audioconferenci
     > [!IMPORTANT]
     > Si no se han configurado los créditos de comunicaciones, la audioconferencia no funcionará para ningún usuario con licencias de pago por minuto.
 
-4. [Asigne licencias a los usuarios de](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) su organización que van a programar o dirigir reuniones.
+4. [Asigne licencias a los usuarios de](/microsoft-365/admin/manage/assign-licenses-to-users) su organización que van a programar o dirigir reuniones.
 
     > [!NOTE]
     > Si tiene licencias de pago por minuto de audioconferencia, también debe asignar una licencia de créditos de comunicaciones por separado a cada usuario.
@@ -79,7 +79,7 @@ Si es cliente de Volumen y licencias, puede obtener licencias de audioconferenci
 
 Cuando asigna una licencia de **audioconferencia** a personas de su organización que no tienen Skype Empresarial integrado con un proveedor de audioconferencias de terceros, todas están configuradas y listas para empezar. (No tiene que configurar su proveedor de audioconferencias).
 
-Si tiene usuarios habilitados con un proveedor de audioconferencia de terceros, debe cambiar el proveedor de esos usuarios a Microsoft. Para cambiar el proveedor de un usuario, vea [Asignar Microsoft como el proveedor de audioconferencias.](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
+Si tiene usuarios habilitados con un proveedor de audioconferencia de terceros, debe cambiar el proveedor de esos usuarios a Microsoft. Para cambiar el proveedor de un usuario, vea [Asignar Microsoft como el proveedor de audioconferencias.](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
 
 ## <a name="step-3-other-admin-tasks"></a>Paso 3: Otras tareas de administrador
 

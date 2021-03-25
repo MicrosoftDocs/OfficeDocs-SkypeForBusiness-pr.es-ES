@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre el identificador de llamada predeterminado de Microsoft 365 y Office 365 (el número de teléfono asignado por un usuario), también conocido como Identificador de línea de llamadas. Puede cambiar o bloquear el identificador de llamada de un usuario.
-ms.openlocfilehash: 1cc6221c0f4ca1642cc9422ed81e0e07ae1bfc91
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 41883e00955cf5f39f4420fb10ead1be2e131a77
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569422"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117158"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Establecer el identificador de llamada de un usuario
 El sistema telefónico de Microsoft 365 y Office 365 proporciona un identificador de llamada predeterminado que es el número de teléfono asignado por el usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) para un usuario. Para obtener más información sobre cómo usar el identificador de llamada en su organización, vaya a ¿Cómo se puede usar el [identificador de llamada en su organización?](how-can-caller-id-be-used-in-your-organization.md)
@@ -80,7 +80,7 @@ Para obtener más información sobre esta configuración y cómo usarla, vaya [C
   ```PowerShell
   Get-CsCallingLineIdentity |fl
   ```
-  Vea más ejemplos y detalles [de Get-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793856.aspx).
+  Vea más ejemplos y detalles [de Get-CsCallingLineIdentity](/powershell/module/skype/Get-CsCallingLineIdentity).
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Crear una nueva directiva de identificación de llamadas para su organización
 
@@ -93,16 +93,16 @@ Para obtener más información sobre esta configuración y cómo usarla, vaya [C
   > [!NOTE]  
   > En todos los casos, el campo "Número de servicio" no debe incluir un "+" inicial.
 
-  Vea más ejemplos y detalles [para New-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793855.aspx).
+  Vea más ejemplos y detalles [para New-CsCallingLineIdentity](/powershell/module/skype/New-CsCallingLineIdentity).
     
 - Para aplicar la nueva directiva que creó a Amos Marble, ejecute:
     
   ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
-  Vea más sobre el [cmdlet Grant-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793857.aspx)
+  Vea más sobre el [cmdlet Grant-CsCallingLineIdentity.](/powershell/module/skype/Grant-CsCallingLineIdentity)
     
-Si ya ha creado una directiva, puede usar el cmdlet [Set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) para aplicar la configuración a los usuarios.
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Establecerlo para que el identificador de llamada entrante esté bloqueado
 
@@ -111,14 +111,14 @@ Si ya ha creado una directiva, puede usar el cmdlet [Set-CsCallingLineIdentity](
   ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  Vea más ejemplos y detalles [para Set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx).
+  Vea más ejemplos y detalles [para Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity).
     
 - Para aplicar la configuración de directiva que creó a un usuario de su organización, ejecute:
     
   ```PowerShell
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
   ```
-    Vea más sobre el [cmdlet Grant-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793857.aspx)
+    Vea más sobre el [cmdlet Grant-CsCallingLineIdentity.](/powershell/module/skype/Grant-CsCallingLineIdentity)
     
 ### <a name="remove-a-caller-id-policy"></a>Quitar una directiva de identificación de llamadas
 
@@ -136,29 +136,28 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 - Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario, cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [Seis razones por las que es posible que desee usar Windows PowerShell administrar Microsoft 365 u Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis razones por las que es posible que desee usar Windows PowerShell administrar Microsoft 365 u Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell tiene muchas ventajas en velocidad, sencillez y productividad sobre el uso solo del Centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Usar Windows PowerShell para administrar Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
   
  ## <a name="related-topics"></a>Temas relacionados
-[Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)
+[Preguntas comunes sobre la transferencia de números de teléfono](./phone-number-calling-plans/port-order-overview.md)
 
-[Diferentes tipos de números de teléfono que se usan para Planes de llamada](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Diferentes tipos de números de teléfono que se usan para Planes de llamada](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Obtener más información acerca del identificador de línea de llamada y del nombre del usuario de llamada](/skypeforbusiness/what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 
-[Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
+[Términos y condiciones de las llamadas de emergencia](./emergency-calling-terms-and-conditions.md)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
- 

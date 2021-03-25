@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711647"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107306"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en Microsoft Teams
 ==========================
@@ -109,9 +109,9 @@ Establezca los siguientes parámetros de configuración en el portal de Azure In
 
 Una vez que se haya establecido la configuración de la cuenta, Teams restringirá la posibilidad de iniciar sesión, de modo que sólo se concederá acceso a las cuentas permitidas en los dispositivos inscritos.
 
-Para crear una directiva de configuración de la aplicación para dispositivos iOS/iPad administrados, vea[Agregar directivas de configuración de la aplicación para dispositivos iOS/iPad administrados](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios).
+Para crear una directiva de configuración de la aplicación para dispositivos iOS/iPad administrados, vea[Agregar directivas de configuración de la aplicación para dispositivos iOS/iPad administrados](/mem/intune/apps/app-configuration-policies-use-ios).
 
-Para crear una directiva de configuración de aplicaciones para dispositivos Android administrados, vea [Agregar directivas de configuración de aplicaciones para dispositivos Android administrados ](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android).
+Para crear una directiva de configuración de aplicaciones para dispositivos Android administrados, vea [Agregar directivas de configuración de aplicaciones para dispositivos Android administrados ](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>Cómo restringir el inicio de sesión en dispositivos de escritorio
 Las aplicaciones de Teams en Windows y MacOS son compatibles con las directivas de dispositivos que restringen el inicio de sesión en su organización. Las directivas se pueden establecer mediante soluciones usuales de administración de dispositivos como MDM (administración de dispositivos móviles) o GPO (objeto de directiva de grupo). 
@@ -150,7 +150,7 @@ Los usuarios de dispositivos móviles pueden cerrar sesión en Teams dirigiéndo
 
 ### <a name="global-sign-in-and-sign-out"></a>Inicio de sesión y registro global
 
-La aplicación de Android de Teams ahora es compatible con el inicio y cierre de sesión globales para que los trabajadores de primera línea pueden iniciar y cerrar sesión sin problemas. Los empleados pueden elegir un dispositivo del grupo de dispositivos compartidos y realizar un inicio de sesión único para "hacerlo suyo" por la duración del turno. Una vez finalizado su turno, deberían ser capaces de realizar la sesión de forma global en el dispositivo. Este proceso quita toda su información personal y de la compañía del dispositivo para que pueda devolverlo al grupo de dispositivos. Para obtener esta funcionalidad, el dispositivo debe estar en modo compartido. Para obtener información sobre cómo configurar un dispositivo compartido, consulte [Cómo usar un modo de dispositivo compartido en Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+La aplicación de Android de Teams ahora es compatible con el inicio y cierre de sesión globales para que los trabajadores de primera línea pueden iniciar y cerrar sesión sin problemas. Los empleados pueden elegir un dispositivo del grupo de dispositivos compartidos y realizar un inicio de sesión único para "hacerlo suyo" por la duración del turno. Una vez finalizado su turno, deberían ser capaces de realizar la sesión de forma global en el dispositivo. Este proceso quita toda su información personal y de la compañía del dispositivo para que pueda devolverlo al grupo de dispositivos. Para obtener esta funcionalidad, el dispositivo debe estar en modo compartido. Para obtener información sobre cómo configurar un dispositivo compartido, consulte [Cómo usar un modo de dispositivo compartido en Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 La experiencia de inicio de sesión tiene un aspecto similar al de la experiencia de inicio de sesión estándar de Teams, mientras que el cierre de sesión tendrá un aspecto parecido al de las dos imágenes siguientes:
 
@@ -158,11 +158,11 @@ La experiencia de inicio de sesión tiene un aspecto similar al de la experienci
 
 ## <a name="urls-and-ip-address-ranges"></a>Intervalos de direcciones IP y URL
 
-Teams requiere conectividad a Internet. Para comprender los puntos de conexión que deben ser accesibles para los clientes que usan Teams en los planes de Office 365, gobierno y otras nubes, consulte [Intervalos de la dirección IP y URL de Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+Teams requiere conectividad a Internet. Para comprender los puntos de conexión que deben ser accesibles para los clientes que usan Teams en los planes de Office 365, gobierno y otras nubes, consulte [Intervalos de la dirección IP y URL de Office 365](/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!IMPORTANT]
 > En la actualidad, Teams necesita acceso (puerto TCP 443) al servicio de Google ssl.gstatic.com para todos los usuarios, esto sucede aunque no esté usando Gstatic. Teams quitará este requisito pronto (principios de 2020), y actualizaremos este artículo en consecuencia en ese momento.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Solución de problemas de Teams](/MicrosoftTeams/troubleshoot/teams)

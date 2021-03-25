@@ -1,5 +1,5 @@
 ---
-title: 'Ejemplo de script de PowerShell: Exportar los administradores y sus directos'
+title: 'Ejemplo de script de PowerShell: exportar administradores y sus directos'
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Use este script de PowerShell para exportar una lista de administradores y sus direcciones para la organización, en preparación para crear un equipo para cada administrador con sus directos como miembros del equipo.
+description: Use este script de PowerShell para exportar una lista de administradores y sus directos para su organización, en preparación para crear un equipo para cada administrador con sus directos como miembros del equipo.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a7f2217bc39ead0abec48dafb75ff3f846681f20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583127"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117318"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Ejemplo de script de PowerShell: Exportar los administradores y sus directos
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Ejemplo de script de PowerShell: exportar administradores y sus directos
 
-Use este script de PowerShell para exportar una lista de administradores y sus direcciones para la organización, en preparación para crear un equipo de administrador de personas para cada administrador con sus directos como miembros del equipo.
+Use este script de PowerShell para exportar una lista de administradores y sus directores para su organización, en preparación para crear un equipo de administrador de personas para cada administrador con sus directos como miembros del equipo.
 
 Para obtener información sobre este script de PowerShell, lea [Crear equipos de administrador de personas.](../create-manager-directs-teams.md)
 
-Si es la primera vez que usa PowerShell y necesita ayuda para comenzar, consulte [Introducción a Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
+Si es la primera vez que usa PowerShell y necesita ayuda para comenzar, consulte [Introducción a Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).
 
 
 ## <a name="export-managers-script"></a>Export-Managers script
@@ -142,5 +142,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Exported tab delimited outpu
 
 
 ```
-
-

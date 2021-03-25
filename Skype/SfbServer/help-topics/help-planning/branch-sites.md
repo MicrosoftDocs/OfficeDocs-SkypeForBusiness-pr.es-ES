@@ -1,5 +1,5 @@
 ---
-title: Sitios de sucursal (Herramienta de planeación)
+title: Sitios de sucursal (herramienta de planeación)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,16 +15,14 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
-description: Para obtener más información sobre la resistencia de sitios de sucursal, consulte Planeación de Branch-Site resistencia de voz.
-ms.openlocfilehash: 482ea9cbe7b6f96ebf2bfa34ab0db14784e8a6a5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para obtener más información acerca de la resistencia de sitios de sucursal, vea Planning for Branch-Site Voice Resiliency.
+ms.openlocfilehash: 96ef2d9afc376b5dee648f431d243ba5f67fe06b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810660"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116138"
 ---
-# <a name="branch-sites-planning-tool"></a>Sitios de sucursal (Herramienta de planeación)
+# <a name="branch-sites-planning-tool"></a>Sitios de sucursal (herramienta de planeación)
 
-Para obtener más información acerca de la resistencia de sitios de sucursal, consulte [Planeación de Branch-Site resistencia de voz.](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)
-
-
+Para obtener más información sobre la resistencia de sitios de sucursal, [vea Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).

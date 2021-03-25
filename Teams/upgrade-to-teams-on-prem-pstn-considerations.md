@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9887eec2a99fec9a6f4964899c6e631046b28897
-ms.sourcegitcommit: 54140f6f8f2279a0eaf2e9c79699d6cff306791c
+ms.openlocfilehash: 72a12cf1dbcb69af7b71bf259568e4a53d1a3a33
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50410581"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115548"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>Consideraciones RTC para actualizar a Teams desde Skype Empresarial local
 
@@ -94,7 +94,7 @@ A continuación se muestran los pasos básicos.  Los pasos 1 a 5 se muestran en 
 
 1. Si va a establecer la directiva de todo el espacio empresarial en uno de los modos de Skype Empresarial, asegúrese de que los usuarios existentes de las Islas se asignen explícitamente el modo Islas, como se ha descrito anteriormente.
 
-2. Si aún no lo ha hecho, configure la organización para [Skype Empresarial híbrido.](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+2. Si aún no lo ha hecho, configure la organización para [Skype Empresarial híbrido.](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 3. Configure el espacio empresarial para enrutamiento directo. Vea [Resumen de la configuración por inquilino de Enrutamiento directo.](#summary-of-per-tenant-configuration-of-direct-routing)
 
@@ -119,13 +119,13 @@ A continuación se muestran los pasos básicos.Los pasos 1 a 5 se muestran en la
 
 1. Si va a establecer la directiva de todo el espacio empresarial en uno de los modos de Skype Empresarial, asegúrese de que los usuarios existentes de las Islas se asignen explícitamente el modo Islas, como se ha descrito anteriormente. 
 
-2. Si aún no lo ha hecho, configure la organización para [Skype Empresarial híbrido.](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) 
+2. Si aún no lo ha hecho, configure la organización para [Skype Empresarial híbrido.](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) 
 
 3. Si lo desea, configure varias directivas de Teams para estos usuarios (por ejemplo, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). Esto se puede hacer en cualquier momento, pero si desea asegurarse de que los usuarios tienen la configuración correcta cuando se actualizan, es mejor hacerlo antes de que el usuario se actualice a TeamsOnly. 
 
 4. Asigne las licencias de Microsoft 365 u Office 365 si es necesario.El usuario debe tener teams y Skype Empresarial Online Plan 2, así como sistema telefónico. Si el Plan 2 de Skype Empresarial Online está deshabilitado, vuelva a habilitarlo.  
 
-5. Obtener números de teléfono para los usuarios. (Para obtener más información, vea [Administrar números de teléfono para su organización).](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
+5. Obtener números de teléfono para los usuarios. (Para obtener más información, vea [Administrar números de teléfono para su organización).](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
    - Si va a volver a usar los números, envíe una solicitud de porte a su operador.  
    - Como alternativa, puede adquirir nuevos números directamente desde Microsoft. 
@@ -167,13 +167,12 @@ Tanto si usa enrutamiento directo como un plan de Microsoft Calling, un usuario 
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Configurar la conectividad híbrida entre Skype Empresarial Server y Microsoft 365 u Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Configurar la conectividad híbrida entre Skype Empresarial Server y Microsoft 365 u Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[Mover usuarios entre la implementación local y la nube](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[Mover usuarios entre la implementación local y la nube](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [Configurar su coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[Usar el servicio de migración de reuniones (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
-
+[Usar el servicio de migración de reuniones (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

@@ -23,34 +23,33 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo marcar números gratuitos en Chile, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
-ms.openlocfilehash: 00aec8e288ca1424eec9754e1f74f9cec9a5e579
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Obtenga información sobre cómo marcar números gratuitos en Chile, como la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
+ms.openlocfilehash: 3b3affb2168c821e11d8aa526815384776c7971c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140479"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116808"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>Restricciones de marcado de número gratuito en Chile
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
+[Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
-|Formatos de marcación  <br/> | 123 XXXX XXXX <br/>  188 800 XXX XXX <br/> |
+|¿Hay llamadas gratuitas disponibles?  <br/> |Sí  <br/> |
+|Formatos de marcado  <br/> | 123 XXXX XXXX <br/>  188 800 XXX XXX <br/> |
 |Código ISO de país o región  <br/> |CL  <br/> |
 |Isla o territorio cubierto  <br/> |No aplicable  <br/> |
 |Isla o territorio no cubierto  <br/> |Sin acceso en la Isla de Pascua.  <br/> |
-|Disponibilidad de líneas cableadas/fijas  <br/> |Parcial. Ver comentarios.  <br/> |
+|Disponibilidad de líneas fijas o cableadas  <br/> |Parcial. Ver comentarios.  <br/> |
 |Disponibilidad de red móvil  <br/> |Parcial. Ver comentarios.  <br/> |
-|Problemas de comentarios, restricciones y acceso  <br/> |El formato de número 188 800 XXX XXX es accesible desde la red de Telefónica. El formato de número 123 XXXX XXXX solo es accesible desde la red entel. El acceso móvil es accesible desde los dos formatos de número.  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |El formato de número 188 800 XXX XXX es accesible desde la red de Telefónica. Solo se puede acceder al formato de número XXXX de 123 XXXX desde la red de Entel. El acceso móvil es accesible desde los dos formatos de número.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

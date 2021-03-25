@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams en un entorno híbrido con Exchange local.
-ms.openlocfilehash: fcf7216a4fcadee1e81ef11b5310b9d0a88e378a
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 3931ba89dd4ad0dfd994fdf27a3f209275850116
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460520"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117358"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implementar Salas de Microsoft Teams con Exchange local
 
@@ -32,7 +32,7 @@ Si su organización tiene una combinación de servicios, con algunos hospedados 
 
 Microsoft proporciona [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script que ayudará a crear nuevas cuentas de usuario o validar las cuentas de recursos existentes que tiene para ayudarle a convertirlas en cuentas de usuario compatibles de Salas de Microsoft Teams. Si lo prefiere, puede seguir los pasos que se indican a continuación para configurar las cuentas que usará el dispositivo Salas de Microsoft Teams.
   
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Antes de implementar Microsoft Teams Rooms con Exchange local, asegúrese de que ha cumplido los requisitos. Para obtener más información, vea [Requisitos de salas de Microsoft Teams.](requirements.md)
   
@@ -49,6 +49,8 @@ Si va a implementar Microsoft Teams Rooms con Exchange local, estará usando her
   - Necesitará tener Skype Empresarial Online (Plan 2) o superior en su plan de Microsoft 365 u Office 365. El plan debe admitir la funcionalidad de conferencias.
   
   - Si necesita usar Telefonía IP empresarial (telefonía RTC) con proveedores de servicios de telefonía para salas de Microsoft Teams, necesita Skype Empresarial Online (Plan 3).
+
+  - Al configurar una cuenta de salón con Microsoft Teams o Skype Empresarial Online, el número de teléfono debe asignarse antes de que la cuenta se habilite como una cuenta de salón.
   
   - Los usuarios inquilinos deben tener buzones de Exchange.
   
@@ -71,7 +73,7 @@ Si va a implementar Microsoft Teams Rooms con Exchange local, estará usando her
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Habilitar el buzón de correo remoto y establecer propiedades
 
-1. [Abra el Shell de administración de Exchange](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) o conéctese al servidor de Exchange con [PowerShell remoto.](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
+1. [Abra el Shell de administración de Exchange](/powershell/exchange/exchange-server/open-the-exchange-management-shell) o conéctese al servidor de Exchange con [PowerShell remoto.](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
 
 2. En Exchange PowerShell, cree un buzón para la cuenta (habilitar el buzón de la cuenta) ejecutando el siguiente comando:
 
@@ -79,7 +81,7 @@ Si va a implementar Microsoft Teams Rooms con Exchange local, estará usando her
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
-   Para obtener información detallada sobre la sintaxis y los parámetros, vea [Habilitar buzón.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox)
+   Para obtener información detallada sobre la sintaxis y los parámetros, vea [Habilitar buzón.](/powershell/module/exchange/mailboxes/enable-mailbox)
 
 3. En Exchange PowerShell, configure las opciones siguientes en el buzón de sala para mejorar la experiencia de la reunión:
 
@@ -103,14 +105,14 @@ Si va a implementar Microsoft Teams Rooms con Exchange local, estará usando her
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   Para obtener información detallada sobre la sintaxis y los parámetros, vea [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
+   Para obtener información detallada sobre la sintaxis y los parámetros, vea [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Asignar una licencia de Microsoft 365 u Office 365
 
-1. Conectarse a Azure Active Directory. Para obtener más información sobre Active Directory, vea [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+1. Conectarse a Azure Active Directory. Para obtener más información sobre Active Directory, vea [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) no es compatible. 
+   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) no es compatible. 
 
 2. La cuenta del dispositivo debe tener una licencia válida de Microsoft 365 u Office 365, o Exchange y Microsoft Teams no funcionarán. Si tiene la licencia, debe asignar una ubicación de uso a su cuenta de dispositivo, lo que determina qué SKU de licencia están disponibles para su cuenta. Puede usar `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar una lista de SKU disponibles.
 
@@ -132,7 +134,7 @@ Si va a implementar Microsoft Teams Rooms con Exchange local, estará usando her
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
 
-   Para obtener instrucciones detalladas, vea Asignar licencias a cuentas de usuario con PowerShell de [Office 365.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
+   Para obtener instrucciones detalladas, vea Asignar licencias a cuentas de usuario con PowerShell de [Office 365.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="enable-the-device-account"></a>Habilitar la cuenta del dispositivo
 
@@ -140,14 +142,16 @@ Skype Empresarial Online PowerShell se usa para administrar servicios para Micro
 
 1. Cree una sesión Windows PowerShell remota desde un equipo como se muestra a continuación:
 > [!NOTE]
-> Skype Empresarial Online Connector forma parte actualmente del último módulo de PowerShell de Teams.
+> El conector en línea del cliente de Skype® Empresarial actualmente forma parte del módulo más reciente de Windows PowerShell de Teams.
 >
 > Si usa la última versión pública de PowerShell de [Teams,](https://www.powershellgallery.com/packages/MicrosoftTeams/)no es necesario instalar Skype Empresarial Online Connector.
 
    ``` Powershell
-   Import-Module -Name MicrosoftTeams  
-   $cssess=New-CsOnlineSession -Credential $cred  
-   Import-PSSession $cssess -AllowClobber
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
 2. Obtener la dirección SIP de la cuenta:
@@ -156,7 +160,18 @@ Skype Empresarial Online PowerShell se usa para administrar servicios para Micro
     $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
     ```
 
-3. Para habilitar su cuenta de Salas de Microsoft Teams, ejecute este comando:
+3. **Opcional.** Si desea asignar un número de teléfono a la cuenta, la operación debe realizarse en este momento. Si desea asignar un número de teléfono de enrutamiento directo:
+
+   ``` Powershell
+    Set-CsUser -Identity $rm -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+14255550012
+    ```
+    Si va a asignar un número de teléfono proporcionado por Microsoft, use el cmdlet siguiente después de haber aprovisionado al usuario con una licencia de Plan de llamadas:
+    
+    ``` Powershell
+    Set-CsOnlineVoiceUser -Identity $rm -TelephoneNumber +14255550011 -LocationID xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    ```
+    
+4. Para habilitar su cuenta de Salas de Microsoft Teams, ejecute este comando:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress

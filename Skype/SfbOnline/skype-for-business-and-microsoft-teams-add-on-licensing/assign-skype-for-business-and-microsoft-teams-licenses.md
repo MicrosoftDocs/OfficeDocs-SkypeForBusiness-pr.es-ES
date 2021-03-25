@@ -21,48 +21,48 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo asignar licencias de Skype Empresarial para el Sistema telefónico, las Audioconferencias, los Planes de llamadas y los Créditos de Comunicaciones. '
-ms.openlocfilehash: e17050c133643d44cd4811ddc5d70852f1ad50d5
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: beb4fa46133aa7a09ce3d0de0a08392dbf2d2591
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44204851"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106496"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Asignar licencias de Skype Empresarial
 
-This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
+Este artículo ofrece sugerencias acerca de cómo asignar licencias a los usuarios para acceder a características como las Audioconferencias, el Sistema telefónico y los Planes de llamadas. También proporciona scripts para asignar varias licencias a la vez.
 
 > [!IMPORTANT]
-> Consulte las licencias de complementos de [Skype](skype-for-business-and-microsoft-teams-add-on-licensing.md) Empresarial para obtener  información sobre qué licencias debe comprar y cómo comprarlas (según el plan de Microsoft 365 u Office 365) para que los usuarios obtengan Audioconferencia, números gratuitos y la capacidad de llamar a números de teléfono externos a su empresa.
+> Consulte Licencias de complementos de [Skype](skype-for-business-and-microsoft-teams-add-on-licensing.md) Empresarial para obtener información  sobre las licencias que necesita comprar y cómo comprarlas , dependiendo de su plan de Microsoft 365 u Office 365, para que los usuarios obtengan audioconferencias, números gratuitos y la capacidad de llamar a números de teléfono fuera de su empresa.
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Sistema telefónico y Planes de llamadas: sugerencias  y scripts para la asignación de licencias
 
 Lo que necesita saber antes de asignar las licencias de Audioconferencia, Sistema telefónico y Plan de llamadas
 
-- **Using on-premises PSTN connectivity for hybrid users?** If so, you only need to assign a **Phone System** license. You should **NOT** assign a Calling Plan.
+- **¿Está usando conectividad RTC local para los usuarios híbridos?** Si es así, solo tiene que asignar una **licencia de Sistema telefónico.** NO debe **asignar** un plan de llamadas.
 
-- **Latencia** después de asignar licencias: Debido a la latencia entre Microsoft 365 u Office 365 y Skype Empresarial Online, es posible que un plan de llamadas tarde hasta 24 horas en asignarse a un usuario después de asignar una licencia. Si después de 24 horas el usuario no tiene asignado un plan de llamadas, póngase en contacto con el soporte técnico para productos [empresariales: ayuda para administradores.](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+- Latencia después de asignar **licencias:** Debido a la latencia entre Microsoft 365 u Office 365 y Skype Empresarial Online, es posible que tarde hasta 24 horas en asignar un plan de llamadas a un usuario después de asignar una licencia. Si después de 24 horas el usuario no tiene asignado un plan de llamadas, póngase en contacto con el soporte técnico para productos [empresariales: Ayuda para administradores.](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-- **Error messages**: You will get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose **Buy more**.
+- **Mensajes de error**: Recibirá un mensaje de error si no ha adquirido el número de licencias correcto. Si necesita comprar más licencias del Plan de llamadas, elija **Comprar más.**
     
-- **Next steps**: After you assign Calling Plan licenses to your users, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
+- **Pasos siguientes:** Después de asignar licencias del Plan de llamadas a los usuarios, tendrá que obtener los números de teléfono de su organización y, a continuación, asignar esos números a las personas de su organización. Para obtener instrucciones paso a paso, vea [Configurar planes de llamadas.](/microsoftteams/set-up-calling-plans)
     
-### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>Cómo asignar una licencia de sistema telefónico y plan de llamadas a un usuario
+### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>Cómo asignar una licencia de Sistema telefónico y Plan de llamadas a un usuario
 
-Los pasos son los mismos que se indican para asignar una licencia de Microsoft 365 u Office 365. Vea [Asignar o quitar licencias de Microsoft 365 para empresas.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
+Los pasos son los mismos que asignar una licencia de Microsoft 365 u Office 365. Vea [Asignar o quitar licencias de Microsoft 365 para empresas.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
 
 ### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>Cómo asignar licencias de Sistema telefónico y Plan de llamadas de forma masiva
 
-1. Install the **Microsoft Online Services Sign-In Assistant for IT Professionals RTW**. Don't have the module installed? See [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=625123) to download it.
+1. Instale el **Ayudante para el inicio de sesión de Microsoft Online Services para profesionales de TI (RTW)**. ¿No tiene instalado el módulo? Consulte [Microsoft Online Services Sign-In asistente para profesionales de TI RTW](https://go.microsoft.com/fwlink/?LinkId=625123) para descargarlo.
 
-2. Install the **Windows Azure Active Directory Module.** Don't have the module installed? See [Manage Azure AD using Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628) for download instructions and cmdlet syntax.
+2. Instale el **Módulo Microsoft Azure Active Directory**. ¿No tiene instalado el módulo? Consulte [Administrar Azure AD con Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)) instrucciones de descarga y sintaxis de cmdlets.
 
 3. Después de instalar los módulos, use el símbolo del sistema de Windows PowerShell y la sintaxis siguiente para asignar las licencias a los usuarios:
 
    En este ejemplo se asigna una **licencia Enterprise E3** junto con una licencia de **Sistema telefónico** y otra de **Plan de llamadas nacionales**.
 
-   El nombre de las licencias o nombres de los productos en el script se muestran en letra cursiva (consulte los nombres de los productos de Sistema telefónico y Plan de llamadas o SKU usados para **scripting,** después del ejemplo).
+   El nombre de las licencias o los nombres de producto del script se muestran en texto en cursiva (vea Nombres de producto de sistema telefónico y plan de llamadas o SKU usados para **scripting,** después del ejemplo).
 
    ```powershell
    #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
@@ -98,7 +98,7 @@ Los pasos son los mismos que se indican para asignar una licencia de Microsoft 3
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOPSTN1 " -ErrorAction SilentlyContinue
     }
    ```
-   ### <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>Nombres de productos o SKU de planes de llamadas y sistema telefónicos usados para scripting
+   ### <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>Nombres de productos de Sistema telefónico y Planes de llamadas o SKU usados para scripting
 
 |**Nombre del producto**|**Nombre de la parte SKU**|
 |:-----|:-----|
@@ -108,34 +108,34 @@ Los pasos son los mismos que se indican para asignar una licencia de Microsoft 3
 |Plan independiente 2 de Skype Empresarial Online  <br/> |MCOSTANDARD  <br/> |
 |Sistema telefónico  <br/> |MCOEV  <br/> |
 |Plan de llamadas internacionales  <br/> |MCOPSTN2  <br/> |
-|Plan de llamadas nacionales (3000 min ee. UU. / planes de UE de 1200 min)  <br/> |MCOPSTN1  <br/> |
-|Plan de llamadas nacionales (plan de llamadas a 120 min)  <br/> |MCOPSTN5  <br/> |
-|Plan de llamadas nacionales (plan de llamadas de 240 min)  <br/> |MCOPSTN6  <br/> |
+|Plan de llamadas nacionales (3000 min ee. UU. / 1200 min planes de la UE)  <br/> |MCOPSTN1  <br/> |
+|Plan de llamadas nacionales (plan de llamadas de 120 minutos)  <br/> |MCOPSTN5  <br/> |
+|Plan de llamadas nacionales (plan de llamadas de 240 minutos)  <br/> |MCOPSTN6  <br/> |
 |Créditos de comunicaciones  <br/> |MCOPSTNC  <br/> |
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Audioconferencia: Sugerencias y scripts para asignar licencias
 
-### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>Lo que debe saber antes de asignar licencias de Audioconferencia
+### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>Lo que necesita saber antes de asignar licencias de audioconferencia
 
-- **Proveedor** de servicios de audioconferencia de terceros: si un usuario ya está configurado para usar un proveedor de servicios de audioconferencia de terceros, al asignarle una licencia de **Audioconferencia,** se cambiará para usar Microsoft como el proveedor de servicios de audioconferencia. Puede volver a cambiar al usuario al proveedor de terceros.
+- Proveedor de servicios de **audioconferencia** de terceros: si alguien ya está configurado para usar un  proveedor de audioconferencia de terceros, al asignarle una licencia de audioconferencia, se cambiará para usar Microsoft como proveedor de audioconferencias. Puede volver a cambiar al usuario al proveedor de terceros.
 
-- Pasos siguientes: Después de asignar **licencias de Audioconferencia,** debe asignar un proveedor de servicios de audioconferencia. Consulte [Asignar a Microsoft como proveedor de audioconferencias].
+- Pasos siguientes: Después de asignar licencias de **conferencias** de audio, debe asignar un proveedor de servicios de audioconferencia. Consulte [Asignar a Microsoft como proveedor de audioconferencias].
 
-### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>Cómo asignar una licencia de Audioconferencia a un usuario
+### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>Cómo asignar una licencia de audioconferencia a un usuario
 
-Los pasos son los mismos que se indican para asignar una licencia de Microsoft 365 u Office 365. Vea [Asignar o quitar licencias de Microsoft 365 para empresas.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
+Los pasos son los mismos que asignar una licencia de Microsoft 365 u Office 365. Vea [Asignar o quitar licencias de Microsoft 365 para empresas.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
 
-### <a name="how-to-assign-audio-conferencing-licenses-in-bulk"></a>Cómo asignar licencias de Audioconferencia en masa
+### <a name="how-to-assign-audio-conferencing-licenses-in-bulk"></a>Cómo asignar licencias de audioconferencia en masa
 
-1. Descargue e instale [el Microsoft Online Services Sign-In para profesionales de TI (RTW).](https://go.microsoft.com/fwlink/?LinkId=625123)
+1. Descargar e instalar [Microsoft Online Services Sign-In asistente para profesionales de TI RTW](https://go.microsoft.com/fwlink/?LinkId=625123).
 
-2. Descargue e instale el **Módulo Microsoft Azure Active Directory**. Vea las instrucciones de descarga y la sintaxis del cmdlet en [Administrar Azure AD mediante Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628).
+2. Descargue e instale el **Módulo Microsoft Azure Active Directory**. Vea las instrucciones de descarga y la sintaxis del cmdlet en [Administrar Azure AD mediante Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)).
 
     Después de instalar los módulos, use el símbolo del sistema de Windows PowerShell y la sintaxis siguiente para asignar las licencias a los usuarios:
 
-    El nombre de las licencias o nombres de los productos en el script se muestran en letra cursiva. Consulte [los nombres de los productos de Audioconferencia o los SKU usados](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) para scripting para todos los nombres de producto.
+    El nombre de las licencias o nombres de los productos en el script se muestran en letra cursiva. Vea [Nombres de productos de audioconferencia o SKU](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) usados para scripting para todos los nombres de producto.
 
-    En este ejemplo se asigna una licencia de Enterprise E3 junto con una licencia de Audioconferencia.
+    En este ejemplo se asigna una licencia enterprise E3 junto con una licencia de audioconferencia.
 
     ```powershell
     #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
@@ -172,7 +172,7 @@ Los pasos son los mismos que se indican para asignar una licencia de Microsoft 3
         }
     ```
 
-### <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>Nombres de los productos de Audioconferencia o de los SKU usados para scripting
+### <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>Nombres de productos de audioconferencia o SKU usados para scripting
 <a name="sku"> </a>
 
 |**Nombre del producto**|**Nombre de la parte SKU**|
@@ -182,23 +182,23 @@ Los pasos son los mismos que se indican para asignar una licencia de Microsoft 3
 |Enterprise E1  <br/> |STANDARDPACK  <br/> |
 |Enterprise E3  <br/> |ENTERPRISEPACK  <br/> |
 |Enterprise E5 (sin Audioconferencia)  <br/> |ENTERPRISEPREMIUM_NOPSTNCONF  <br/> |
-|Enterprise E5 (con Audioconferencia)  <br/> |ENTERPRISEPREMIUM  <br/> |
+|Enterprise E5 (con audioconferencia)  <br/> |ENTERPRISEPREMIUM  <br/> |
 
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
-### <a name="what-you-need-to-know-before-assigning-communications-credits-licenses"></a>Lo que debe saber antes de asignar licencias de créditos de comunicaciones
+### <a name="what-you-need-to-know-before-assigning-communications-credits-licenses"></a>Lo que necesita saber antes de asignar licencias de créditos de comunicaciones
 
-- **Clientes de Enterprise E5:** Incluso si los usuarios tienen asignadas licencias Enterprise E5, se recomienda asignarles licencias de **créditos** de comunicaciones.
+- **Clientes de Enterprise E5:** Aunque a los usuarios se les asignen licencias de Enterprise E5, le recomendamos que les asigne licencias **de** créditos de comunicaciones.
     
-- **Pasos siguientes**: Después de asignar estas licencias, tendrá que obtener los números de teléfono para la organización y asignarlos a los miembros de esta. Para obtener instrucciones detalladas, consulte [Configurar planes de llamadas.](/microsoftteams/set-up-calling-plans)
+- **Pasos siguientes**: Después de asignar estas licencias, tendrá que obtener los números de teléfono para la organización y asignarlos a los miembros de esta. Para obtener instrucciones paso a paso, vea [Configurar planes de llamadas.](/microsoftteams/set-up-calling-plans)
     
-### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>Cómo asignar una licencia de Créditos de comunicaciones a un usuario
+### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>Cómo asignar una licencia de créditos de comunicaciones a un usuario
 
-Los pasos son los mismos que se indican para asignar una licencia de Microsoft 365 u Office 365. Vea [Asignar o quitar licencias de Microsoft 365 para empresas.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
+Los pasos son los mismos que asignar una licencia de Microsoft 365 u Office 365. Vea [Asignar o quitar licencias de Microsoft 365 para empresas.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
 
 ### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>Cómo asignar licencias de créditos de comunicaciones en masa
 
-Vea el script de ejemplo para asignar licencias de **Audioconferencia.** Actualífilo con la información para asignar licencias **de créditos** de comunicaciones.
+Echa un vistazo al script de ejemplo para asignar **licencias de audioconferencia.** Actualíctela con la información para asignar licencias **de créditos de** comunicaciones.
 
 ## <a name="related-topics"></a>Temas relacionados
   
@@ -207,4 +207,3 @@ Vea el script de ejemplo para asignar licencias de **Audioconferencia.** Actual�
 [Agregar fondos y administrar los créditos de comunicaciones](/microsoftteams/add-funds-and-manage-communications-credits)
   
   
- 

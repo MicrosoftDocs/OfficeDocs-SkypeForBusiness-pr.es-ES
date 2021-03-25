@@ -16,14 +16,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Administración remota de la configuración predeterminada que usa un dispositivo de Salas de Microsoft Teams, incluida la aplicación de un tema personalizado y la creación de un archivo de configuración principal.
-ms.openlocfilehash: a1634e34242a54bb93e3f61da6afd97ec35ec14e
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ecac38b0261dbf9b6c27b1b636df31ecc9b3afd7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875120"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117328"
 ---
-# <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar una configuración de consola de Salas de Microsoft Teams de forma remota con un archivo de configuración XML
+# <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar de forma remota una configuración de consola de Salas de Microsoft Teams con un archivo de configuración XML
 
 En este artículo se describe la administración remota de la configuración predeterminada que usa un dispositivo de Salas de Microsoft Teams, incluida la aplicación de un tema personalizado. Describe cómo crear un archivo de configuración principal y vínculos a discusiones sobre cómo colocarlos según sea necesario en los dispositivos administrados de forma remota.
   
@@ -163,7 +163,7 @@ Al iniciar, si una consola de Salas de Microsoft Teams encuentra un archivo XML 
 En función de cuántos dispositivos de Salas de Microsoft Teams tiene su empresa y de cómo decida configurarlos, hay varias formas de colocar el archivo de configuración XML. Una vez que el archivo se inserte en la consola, reinícielo para procesar los cambios en la configuración. El archivo XML de configuración se eliminará una vez que se procese correctamente. Los métodos de administración sugeridos para dispositivos Microsoft Teams Rooms se debatieron en:
   
 - [Configurar la directiva de grupo para salas de Microsoft Teams](rooms-operations.md#GroupPolicy)
-- [Administración remota con PowerShell](rooms-operations.md#RemotePS) y [Configurar un elemento de archivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+- [Administración remota con PowerShell](rooms-operations.md#RemotePS) y [Configurar un elemento de archivo](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))
 
 Puede utilizar el método que desee, siempre que pueda usarlo para transferir archivos y desencadenar un reinicio en el dispositivo de consola. La cuenta de usuario local del dispositivo debe poder leer, escribir y eliminar el archivo. Preferiblemente es propiedad de ese usuario y tiene privilegios completos concedidos. Si los permisos de archivo no están configurados correctamente, el software puede no aplicar la configuración, puede no eliminar el archivo al procesarlo correctamente e incluso puede bloquearse potencialmente.
   
@@ -189,10 +189,10 @@ Para localizar la ruta de acceso de la instancia:
 6. Seleccione la **pestaña Detalles** y busque la propiedad Ruta de acceso de instancia **de** dispositivo en la lista desplegable.
 7. El valor que se muestra es la ruta de la instancia de dispositivo que se establece en el archivo de configuración XML. Al especificar la ruta de acceso en XML, reemplace la yand (&) por `&amp;` .
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Cámaras de contenido](content-camera.md)
 
 [Administrar Salas de Microsoft Teams](rooms-manage.md)
 
-[Configurar un elemento de archivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+[Configurar un elemento de archivo](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))

@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Obtenga más información sobre cómo habilitar o deshabilitar el acceso de invitado en Microsoft Teams como administrador de Office 365.
-ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 34759e601f5c0cd232bcd6227ff5c7d1fef1d3fe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884524"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107406"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Active o desactive el acceso de invitado a Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "50884524"
 > Después de febrero de **2021,** el acceso de invitado en Microsoft Teams estará activado de forma predeterminada para los nuevos clientes & clientes existentes que no hayan configurado esta configuración. Cuando se implemente este cambio, si aún no ha configurado la capacidad de acceso de invitado en Microsoft Teams, esa capacidad se habilitará en el espacio empresarial. Si desea que el acceso de invitado permanezca deshabilitado para su organización, tendrá que confirmar que la configuración de acceso de invitado está establecida en **Desactivado** en lugar de **Servicio predeterminado.**
 
 > [!IMPORTANT]
-> El habilitar el acceso de invitado depende de las características de Azure Active Directory, Microsoft 365, SharePoint y Teams. Para obtener más información, consulte [Colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
+> El habilitar el acceso de invitado depende de las características de Azure Active Directory, Microsoft 365, SharePoint y Teams. Para obtener más información, consulte [Colaborar con invitados en un equipo](/microsoft-365/solutions/collaborate-as-team).
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Configurar el acceso de invitado en el centro de administración de Teams
 
@@ -80,8 +80,8 @@ ms.locfileid: "50884524"
 
 ## <a name="see-also"></a>Consulte también
 
-[Configurar la colaboración moderna con Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
+[Configurar la colaboración moderna con Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
-[Bloquear el acceso de usuarios invitados a un equipo específico](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[Bloquear el acceso de usuarios invitados a un equipo específico](/microsoft-365/solutions/per-group-guest-access)
 
-[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)
+[Set-CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)

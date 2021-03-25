@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar las propiedades de un sitio ya creado, efectúe las acciones siguientes:'
-ms.openlocfilehash: 30e11a6b580b80719ffd6f745c7c37edf2cf358e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4bcf07ef1b550fb96ce503f31b4026ccc4ae6960
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805570"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115380"
 ---
 # <a name="lync-server-site-settings-expander"></a>Expansor de configuración de sitio de Lync Server
 
@@ -32,7 +32,7 @@ Para editar las propiedades de un sitio ya creado, efectúe las acciones siguien
 
 En las propiedades del sitio se puede cambiar o modificar las opciones Nombre del sitio (obligatorio), Descripción (opcional), Ciudad (opcional), Estado o provincia (opcional) y País o región (opcional).
 
-Para obtener más información sobre las propiedades de los sitios, consulte [Agregar sucursales a la topología](https://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx).
+Para obtener más información sobre las propiedades de los sitios, consulte [Agregar sucursales a la topología](/previous-versions/office/lync-server-2013/lync-server-2013-add-branch-sites-to-your-topology).
 
 ## <a name="federation-route-properties"></a>Propiedades de la ruta de federación
 
@@ -43,8 +43,6 @@ Si se ha definido una configuración de federación del servidor o grupo de serv
 > [!CAUTION]
 > Esta configuración afectará a todos los sitios. Asegúrese de que la configuración que está configurando en este sitio es adecuada para todos los sitios.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-Para obtener información, consulte [Topologías para el acceso de usuarios externos](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).
-
-
+Para obtener información, consulte [Topologías para el acceso de usuarios externos](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-external-user-access).

@@ -23,35 +23,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo marcar números gratuitos en Hungría, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
-ms.openlocfilehash: 3bf55b9fb95110f85291fe62e81b7a9a9c2f1b7b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Obtenga información sobre cómo marcar números gratuitos en Hungría, incluida la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
+ms.openlocfilehash: 3426c294c205b761340c06979a33e191a2cd451a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140399"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116708"
 ---
 # <a name="toll-free-dialing-restrictions-in-hungary"></a>Restricciones de marcado de número gratuito en Hungría
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
+[Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
-|Formatos de marcación  <br/> | 06 800 XXX XX <br/>  06 801 XXX XX <br/> |
+|¿Hay llamadas gratuitas disponibles?  <br/> |Sí  <br/> |
+|Formatos de marcado  <br/> | 06 800 XXX XX <br/>  06 801 XXX XX <br/> |
 |Código ISO de país o región  <br/> |HU  <br/> |
 |Isla o territorio cubierto  <br/> |No aplicable  <br/> |
 |Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de líneas cableadas/fijas  <br/> |Sí  <br/> |
+|Disponibilidad de líneas fijas o cableadas  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |Sí. Disponible con tarifa Premium.  <br/> |
-|Problemas de comentarios, restricciones y acceso  <br/> |Ninguna  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

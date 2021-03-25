@@ -23,35 +23,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo marcar números gratuitos en Indonesia, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
-ms.openlocfilehash: 3f0c2e00feb99d8c7cf7ccc290593450dfd6fb09
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Obtenga información sobre cómo marcar números gratuitos en Indonesia, incluida la disponibilidad, la disponibilidad de la red móvil y por cable y de línea fija, y las restricciones.
+ms.openlocfilehash: 9089e926313d4a7859c006158523ac4aac19b324
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140379"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116698"
 ---
 # <a name="toll-free-dialing-restrictions-in-indonesia"></a>Restricciones de marcado de número gratuito en Indonesia
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
+[Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
-|Formatos de marcación  <br/> | 001 803 CCC XXXX <br/>  007 803 CCC XXXX <br/> |
+|¿Hay llamadas gratuitas disponibles?  <br/> |Sí  <br/> |
+|Formatos de marcado  <br/> | 001 803 CCC XXXX <br/>  007 803 CCC XXXX <br/> |
 |Código ISO de país o región  <br/> |ID  <br/> |
 |Isla o territorio cubierto  <br/> |No aplicable  <br/> |
 |Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de líneas cableadas/fijas  <br/> |Sí  <br/> |
+|Disponibilidad de líneas fijas o cableadas  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |Parcial. Ver comentarios.  <br/> |
-|Problemas de comentarios, restricciones y acceso  <br/> |Se proporcionan dos formatos de número para obtener mayor cobertura. Se puede acceder al formato de número 007 803 CCC XXXX desde la red PT Telkom, incluidos Telkomsel y XL mobile. El formato de número 001 803 CCC XXXX es accesible desde la red de Indosat. Para móviles: solo matriz móvil (prefijo 0855, 0858, 0815 y 0816).  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |Se proporcionan dos formatos de número para obtener mayor cobertura. El formato de número 007 803 CCC XXXX es accesible desde la red de PT Telkom, incluidos Telkomsel y XL mobile. El formato de número 001 803 CCC XXXX es accesible desde la red de Indosat. Para dispositivos móviles: matriz móvil (prefijo 0855, 0858, 0815 y 0816) solo.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

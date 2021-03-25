@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa (WFH) en respuesta al ataque COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca3c7b430469887d4ebbee3e12836e72d1204eef
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 77b40518379fd0334bce54362b07d129efe6f1a9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875100"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116948"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Dar soporte para trabajadores remotos con Microsoft Teams
 
@@ -31,7 +31,7 @@ Si es una empresa pequeña o mediana, no se pierda [Impulse a su pequeña empres
 
 ## <a name="it-admin-guidance"></a>Instrucciones para administradores de TI
 
-- Asegúrese de que todos los usuarios tengan acceso a Teams con una [suscripción de pago que incluya Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Como alternativa, las organizaciones elegibles pueden usar la **[Versión gratuita de Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** o los empleados pueden activar la experiencia de **[Teams Exploratory](teams-exploratory.md)**.
+- Asegúrese de que todos los usuarios tengan acceso a Teams con una [suscripción de pago que incluya Teams](/office365/servicedescriptions/teams-service-description). Como alternativa, las organizaciones elegibles pueden usar la **[Versión gratuita de Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** o los empleados pueden activar la experiencia de **[Teams Exploratory](teams-exploratory.md)**.
 
 -  Si ya tiene una suscripción que incluye Teams, **[actívela para todos los usuarios](user-access.md)**.
     
@@ -90,7 +90,7 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
    - Blog del 26 de marzo de 2020: [en ejecución en VPN: Cómo Microsoft mantiene conectada su fuerza de trabajo remota](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
-   - Si está en China, vea la [Optimización de rendimiento global de espacios empresariales de Microsoft 365 u Office 365 para usuarios de China](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
+   - Si está en China, vea la [Optimización de rendimiento global de espacios empresariales de Microsoft 365 u Office 365 para usuarios de China](/Office365/Enterprise/office-365-networking-china).
 
    - Si necesita ayuda para solucionar o corregir los problemas de calidad de las llamadas o reuniones, siga las instrucciones que se indican al final de este artículo en la sección [Problema conocido (China): Llamadas a las identificaciones de las conferencias de Skype Empresarial o Teams](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids).
 
@@ -102,9 +102,9 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
    - [Manténgase protegido al trabajar de forma remota: Guía para CISOs](https://www.microsoft.com/security/blog/?p=90736)
 
-   - [Las 12 tareas principales de los equipos de seguridad para dar soporte al trabajo desde casa](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   - [Las 12 tareas principales de los equipos de seguridad para dar soporte al trabajo desde casa](/microsoft-365/security/top-security-tasks-for-remote-work)
    
-   - [Optimizar la conectividad de Microsoft 365 u Office 365 para usuarios remotos que usan túnel dividido de VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [Optimizar la conectividad de Microsoft 365 u Office 365 para usuarios remotos que usan túnel dividido de VPN](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
    - [Seguridad y Teams](teams-security-guide.md) analiza todos los detalles técnicos de la seguridad de Teams, como parte de los procedimientos y prácticas recomendadas de seguridad de Microsoft 365.
 
@@ -119,7 +119,7 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
    - Comparta [vídeos de formación avanzada](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) con los usuarios que quieran aprender más.
 
-   - Lea [Cómo implementar Teams](How-to-roll-out-teams.md) para saber cómo prepararse para Teams y cómo administrarlo.
+   - Lea [Cómo implementar Teams](./deploy-overview.md) para saber cómo prepararse para Teams y cómo administrarlo.
 
     
 3. Lea nuestro nuevo contenido sobre el trabajo remoto y cómo compartirlo con los usuarios:
@@ -146,7 +146,7 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
 8. Use Teams para mantenerse en contacto con sus empleados:
 
-   - [Equipos de la organización](create-an-org-wide-team.md) y plantilla de aplicación [Comunicador de la empresa](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator)
+   - [Equipos de la organización](create-an-org-wide-team.md) y plantilla de aplicación [Comunicador de la empresa](/microsoftteams/platform/samples/app-templates#company-communicator)
     
    - Envíe información acerca de las directivas de trabajo desde casa, salud y seguridad de su organización.
     
