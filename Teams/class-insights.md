@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 68bb46beb40fdb4e5a0814a659df6af092903fc4
+ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102626"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215325"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams
 
@@ -85,7 +85,7 @@ En ambas vistas, un formador puede acceder a los datos de la clase. Con la aplic
 En el nivel de clase, si un formador es propietario de un equipo de clase, Insights está disponible sin ninguna otra acción del administrador de TI.
 
 ### <a name="education-leaders"></a>Líderes educativos
-Los líderes educativos pueden usar Insights como una aplicación personal disponible en la barra de aplicaciones izquierda de Teams.
+Los líderes educativos pueden usar Insights como una [aplicación personal ](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347)disponible en la barra de aplicaciones izquierda de Teams.
 
 En el nivel organizativo, el administrador de TI necesita conectar el Sistema de información de estudiantes y asignar permisos a cada rol para tener acceso a las escuelas o departamentos que les sean relevantes.
 
@@ -131,6 +131,7 @@ Actualmente, estos datos se recolectan de las siguientes áreas en los equipos d
 | **Tareas** | La apertura, la entrega y las calificaciones de las tareas.|
 | **El compromiso con el canal** |  Visitar un canal, crear una publicación, responder y dar me gusta a una publicación (sin incluir el contenido del chat).|
 | **Archivos** |   Cargar, descargar, acceder, modificar, comentar y compartir un archivo (sin incluir el contenido del archivo).|
+| **Bloc de notas de clase de OneNote** |  Editar una página o sección en un bloc de notas (sin incluir el contenido de la página).|
 | **Reuniones** |    Asistencia (sin incluir el contenido de la reunión).|
 
 > [!NOTE]
@@ -205,7 +206,8 @@ No dude en distribuir el siguiente material entre los **formadores**:
 *   Obtenga entrenamiento con el [curso gratuito sobre Insights](https://aka.ms/insights/course) en el Centro para formadores de Microsoft.
 *   Y por último, eche un vistazo a [este blog](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091) dedicado a Insights.
 
-El material para los **líderes educativos** se publicará pronto.
+Material para **líderes educativos**:
+*   [Página de soporte técnico de Insights para organizaciones educativas](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
 
 ## <a name="turn-insights-off-or-on"></a>Activar o desactivar Insights
 De forma predeterminada, Insights está activado. Cuando decide desactivarlo, *eliminamos todos los datos recolectados* para Insights. Vuelva a activar Insights y empezaremos a recolectar datos desde el momento en que se vuelvan a activar.
