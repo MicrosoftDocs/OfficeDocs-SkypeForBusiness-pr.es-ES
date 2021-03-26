@@ -61,7 +61,8 @@
       ],
       "feedback_system": "None",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness.es-es",
-      "feedback_product_url": "https://microsoftteams.uservoice.com"
+      "feedback_product_url": "https://microsoftteams.uservoice.com",
+      "recommendations": true
     },
     "fileMetadata": {
       "hideEdit": {
