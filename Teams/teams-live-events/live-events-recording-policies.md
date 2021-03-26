@@ -17,12 +17,12 @@ description: Obtenga información sobre las directivas de grabación de eventos 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cd54bc123b852ff34da9353dd7e250924931420d
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119169"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262662"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Directivas de grabación de eventos en directo en Microsoft Teams
 
@@ -50,9 +50,9 @@ Como parte de la directiva de difusión, hay una configuración que puede activa
 
 |                                 | Grabación disponible para productores y presentadores | Grabación disponible para los asistentes |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| Grabar siempre               | Deshabilitado y seleccionado                                | Deshabilitado y seleccionado         |
-| Organizador puede grabar o no | Habilitado y no seleccionado de forma predeterminada                  | Habilitado y no seleccionado de forma predeterminada   |
-| Nunca grabar               | Deshabilitado y no seleccionado                            | Deshabilitado y no seleccionado      |
+| Grabar siempre               | Deshabilitado y seleccionado                                | Habilitado y seleccionado         |
+| Organizador puede grabar o no | Habilitado y seleccionado de forma predeterminada                  | Habilitado y seleccionado de forma predeterminada   |
+| Nunca grabar               | Deshabilitado y no seleccionado                            | Habilitado y no seleccionado      |
 
 Cuando la directiva se establece en **Registro siempre,** la página de directiva tiene las siguientes opciones seleccionadas:
 

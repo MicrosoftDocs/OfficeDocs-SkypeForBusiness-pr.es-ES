@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre operadores automáticos y colas de llamadas y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para llegar a personas o departamentos de su organización.
-ms.openlocfilehash: 659505c39fd6eace8cd0264aaef0a4994604e651
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2e81f1d40c73cb8bcdf0a5ebd48f05c015732afe
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117868"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262645"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear los operadores automáticos y las colas de llamadas de Teams
 
@@ -217,6 +217,8 @@ Vea los artículos siguientes para obtener información sobre cómo crear operad
 
 - [Configurar un operador automático](create-a-phone-system-auto-attendant.md)
 - [Crear una cola de llamada](create-a-phone-system-call-queue.md)
+
+Si necesita funcionalidades más amplias, como la integración con flujos de trabajo, bots y SMS, considere [Azure Communication Services.](/azure/communication-services/overview)
 
 ## <a name="related-topics"></a>Temas relacionados
 

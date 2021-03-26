@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b691a9d722a82e68384f8937479c5f71d3f4c11d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b75f9bf5328b25a1ce1fd695a90163f63a61f823
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096174"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262587"
 ---
 # <a name="meetings-first"></a>Reuniones primero
 
@@ -111,7 +111,7 @@ Todas las capacidades y experiencias de usuario en Reuniones en primer lugar, in
 
 ![Captura de pantalla de la configuración de administración para habilitar Reuniones en primer lugar](media/teams-meeting-admin-settings.png)
 
-Opcionalmente, si desea ocultar la aplicación Teams y Canales de la navegación izquierda del cliente de Teams de los usuarios para centrar aún más su experiencia en reuniones, que se puede lograr mediante la directiva de permisos de [aplicación.](teams-app-permission-policies.md)
+Opcionalmente, si desea ocultar la aplicación Teams y Canales de la navegación izquierda del cliente de Teams de los usuarios para centrar aún más su experiencia en reuniones, que se puede lograr mediante la directiva de configuración de la [aplicación.](teams-app-setup-policies.md)
 
 ## <a name="reporting-and-call-analytics"></a>Informes y análisis de llamadas
 

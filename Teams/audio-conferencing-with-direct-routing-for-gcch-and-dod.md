@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: El administrador puede obtener información sobre cómo usar audioconferencias con enrutamiento directo en entornos GCCH y DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef20f340ec0c1fb225505ece273373e40d9d5c44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 577a9fe106cb5dae23049404b54433288e350b78
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119339"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262625"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audioconferencia con enrutamiento directo para GCC High y DoD
 
@@ -46,7 +46,7 @@ Para usar audioconferencias en GCC High o DoD, su organización y los usuarios d
 Se requiere una licencia de inquilino y al menos una licencia de usuario para habilitar el servicio. No puede habilitar el servicio solo con la licencia de inquilino o solo con licencias de usuario. Para obtener licencias de servicio para su inquilino y los usuarios de su organización, póngase en contacto con el equipo de la cuenta.
 
 > [!IMPORTANT]
-> Los usuarios no se pueden habilitar para las audioconferencias con enrutamiento directo hasta que se configuren los números de teléfono de acceso telefónico local y los usuarios tengan un teclado de marcado de trabajo en su cliente de Teams. Le recomendamos que no asigne audioconferencias con enrutamiento directo para licencias de GCC High o DoD a los usuarios hasta que configure los números de teléfono de acceso telefónico local como se describe en este artículo.
+> Los usuarios no se pueden habilitar para audioconferencias con enrutamiento directo hasta que se configuren los números de teléfono de acceso telefónico local. Le recomendamos que no asigne audioconferencias con enrutamiento directo para licencias de GCC High o DoD a los usuarios hasta que configure los números de teléfono de acceso telefónico local como se describe en este artículo.  Si no sigue estas instrucciones, el teclado de marcado puede faltar por completo en el cliente de Teams.
 
 ### <a name="step-2-set-up-direct-routing"></a>Paso 2: Configurar enrutamiento directo
 

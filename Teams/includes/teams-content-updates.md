@@ -10,7 +10,6 @@
 |------|------------|--------|
 | 3/15/2021 | [Supervisión y alertas de dispositivos de Microsoft Teams](../alerts/device-health-status.md) | agregado |
 | 3/15/2021 | [Supervisión y alertas de Microsoft Teams](../alerts/teams-admin-alerts.md) | agregado |
-| 3/15/2021 | [Implementar el movimiento a Microsoft Teams](../implement-your-move.md) | agregado |
 | 3/15/2021 | [Integración de correo electrónico de Teams y Outlook](../teams-outlook-email-integration.md) | modificado |
 | 3/15/2021 | [Compartir en Teams](../teams-outlook-share-teams.md) | agregado |
 | 3/16/2021 | [Crear una plantilla de equipo personalizada en Microsoft Teams](../create-a-team-template.md) | modificado |
@@ -60,11 +59,11 @@
 | 3/18/2021 | [Instalar Microsoft Teams PowerShell](../teams-powershell-install.md) | modificado |
 | 3/18/2021 | [Notas de la versión de PowerShell de Microsoft Teams](../teams-powershell-release-notes.md) | modificado |
 | 3/18/2021 | [Administrar plantillas de Teams en el Centro de administración](../templates-policies.md) | modificado |
-| 3/18/2021 | [Usar los roles de administrador de Microsoft Teams para administrar Teams](../using-admin-roles.md) | modificado |
+| 3/18/2021 | [Usar roles de administrador de Microsoft Teams para administrar Teams](../using-admin-roles.md) | modificado |
 | 3/18/2021 | [Teams para visitas virtuales](../expand-teams-across-your-org/healthcare/ehr-admin.md) | modificado |
 | 3/18/2021 | [Experiencia de reunión de solo vista](../view-only-meeting-experience.md) | modificado |
 | 3/18/2021 | [Aplicación Walkie Talkie en Microsoft Teams](../walkie-talkie.md) | modificado |
-| 3/18/2021 | [Activar o desactivar el acceso de invitados a Microsoft Teams](../set-up-guests.md) | modificado |
+| 3/18/2021 | [Activar o desactivar el acceso de invitado a Microsoft Teams](../set-up-guests.md) | modificado |
 | 3/18/2021 | [Plan para eventos en directo en Microsoft Teams](../teams-live-events/plan-for-teams-live-events.md) | modificado |
 | 3/19/2021 | [Administrar directivas de reunión](../meeting-policies-in-teams.md) | modificado |
 | 3/19/2021 | [Paneles de Microsoft Teams](../devices/teams-panels.md) | modificado |
