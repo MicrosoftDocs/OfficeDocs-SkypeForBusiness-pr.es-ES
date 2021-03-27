@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79a1a416e0d868129e2d78f305cfe32efb527d53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5137a67169198a16b62e179d32ae1779001011d
+ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120651"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51397583"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de información en Microsoft Teams
 
@@ -201,6 +201,8 @@ Para obtener más información sobre licencias y permisos, incluidos los planes 
 - Los usuarios no pueden unirse a las reuniones del canal: si las directivas del IB están **habilitadas,** los usuarios no pueden unirse a las reuniones del canal si no son miembros del equipo. La causa principal es que las comprobaciones del IB dependen de si los usuarios se pueden agregar a una lista de chat de reunión y solo cuando se pueden agregar a la lista se les permite unirse a la reunión. El hilo de chat de una reunión de canal solo está disponible para los miembros del equipo o del canal, y los que no son miembros no pueden ver ni acceder a la conversación de chat. Si IB está habilitado para el inquilino y un miembro que no es del equipo intenta unirse a una reunión del canal, ese usuario no puede unirse a la reunión. Sin embargo,  si ib no está habilitado para el inquilino y un miembro que no es del equipo intenta unirse a una reunión del canal, el usuario puede unirse a la reunión, pero no verá la opción de chat en la reunión.
 - Los propietarios de equipos no se quitan: si se aplica una nueva directiva del IB que da como resultado dos o más segmentos en conflicto presentes en un canal de Teams, los segmentos con propietarios de equipos tienen una preferencia más alta y se quitan otros usuarios del segmento. Además, en este momento, los propietarios de equipos no se quitan, incluso si están en conflicto con otros propietarios o usuarios. Los administradores de inquilinos y otros propietarios de canales tendrán que quitar los propietarios en conflicto manualmente.
 - **Número máximo de segmentos permitidos en un** espacio empresarial: cada espacio empresarial puede configurar hasta 100 segmentos al configurar directivas de IB. No hay ningún límite en el número de directivas que se pueden configurar.
+
+- **Las directivas del IB** no funcionan para usuarios federados: si permite la federación con inquilinos externos, las directivas del IB no restringirán los usuarios de esos inquilinos. Si los usuarios de su organización se unen a un chat o reunión organizado por usuarios federados externos, las directivas del IB tampoco restringirán la comunicación entre los usuarios de su organización.
 
 ## <a name="more-information"></a>Más información
 

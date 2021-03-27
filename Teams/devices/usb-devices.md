@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Vea qué dispositivos y periféricos USB (como auriculares, altavoces, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: 651f4c19e83c7a20bcf0126034064330f151eeaa
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: 61ebda3e8ef41678e6e9ca7e0c34a293ef86b81e
+ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197595"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51399157"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -79,7 +79,6 @@ Si es un fabricante y desea unirse al programa de certificación, [vea](/skypefo
 | Fabricante        | Modelo                                                     | Cualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |EPOS/Sennheiser      |Adaptar auriculares de la serie 200                                  |3/19/2021       |Certificado para Microsoft Teams                           |
-|Poly                 |Auriculares de Foco 2 de Voyager                                    |3/11/2021       |Certificado para Microsoft Teams                           |
 |Jabra                |Evolve2 30 Auriculares                                         |3/1/2021        |Certificado para Microsoft Teams                           |
 |Poly                 |Barra de vídeo de Studio P15                                       |2/1/2021        |Certificado para Microsoft Teams                           |
 |Poly                 |Sincronizar 40 altavoces                                       |1/19/2021       |Certificado para Microsoft Teams                           |
