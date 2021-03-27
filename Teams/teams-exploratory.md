@@ -18,19 +18,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 368c4dace7a7ba14cb13f3a027b9d04ee63dc17b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff84b1dc161aa5b8ab99a74509fa7a93a1a9b270
+ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119209"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51399147"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Administrar la licencia de Microsoft Teams Exploratory
 
 La experiencia de Microsoft Teams Exploratory permite a los usuarios de su organización que tienen Azure Active Directory (Azure AD) y no tengan licencia para los Teams iniciar una experiencia exploratoria de los Teams. Los administradores pueden activar o desactivar esta característica para los usuarios de su organización. La anterior [Prueba comercial en la nube de Microsoft]() se ha reemplazado por la experiencia de Teams Exploratory.
-
-> [!NOTE]
-> Hay un límite de 100 licencias de Microsoft Teams Exploratory por espacio empresarial.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>¿Qué incluye la experiencia de Teams Exploratory?
 
