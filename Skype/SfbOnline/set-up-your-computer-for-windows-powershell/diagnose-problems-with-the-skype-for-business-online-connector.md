@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Solucione problemas al crear una sesión remota de PowerShell para conectarse a Skype Empresarial Online, incluidos los errores de importación-módulo, shell simultáneo, Live ID y permisos.
-ms.openlocfilehash: 6edaa33244a3192f83289020fe12051ab5f9fb6b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7cc45c0ea09c254f05d1cdd7609faea8877f299
+ms.sourcegitcommit: 6505dd1fb891ab27fcc9f36423fda67aae6fcfd7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097256"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418748"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el conector de Skype Empresarial Online
 
@@ -40,7 +40,7 @@ En este tema se proporciona información que le ayudará a diagnosticar y resolv
     
 - [Error al cargar el módulo Live ID](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedLoad)
     
-- [Error de inicio de sesión para el usuario](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKLogonFailed)
+- [Error al iniciar sesión para el usuario](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKLogonFailed)
     
 - [El usuario no tiene permiso para administrar este espacio empresarial](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKUserPermission)
     
@@ -73,7 +73,7 @@ La directiva de ejecución de PowerShell ayuda a determinar qué archivos de con
 ## <a name="import-module-error-caused-by-incorrect-version-of-windows-powershell"></a>Import-Module error causado por una versión incorrecta de Windows PowerShell
 <a name="BKMKIncorrectVersion"> </a>
 
-El módulo Conector de Skype Empresarial Online solo se puede ejecutar en Windows PowerShell 3.0. Si intenta importar el módulo en una versión anterior de PowerShell, el proceso de importación producirá un error con un mensaje de error similar al siguiente:
+El módulo Conector de Skype Empresarial Online solo se puede ejecutar en Windows PowerShell 3.0. Si intenta importar el módulo en una versión anterior de PowerShell, el proceso de importación producirá un error con un mensaje de error similar a este mensaje:
   
   - **Error**: *Import-Module: la versión de PowerShell cargada es "2.0". El módulo 'D: Archivos comunes de programa \\ \\ \\ Módulos de Microsoft Lync Server 2013 LyncOnlineConnectorLyncOnlineConnector.psd1' requiere una versión mínima de PowerShell de \\ \\ \\ "3.0" para ejecutarse. Compruebe la instalación de PowerShell e inténtelo de nuevo.*
 
@@ -82,12 +82,15 @@ El módulo Conector de Skype Empresarial Online solo se puede ejecutar en Window
 ## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>Se produce un error en la autenticación moderna cuando se ha deshabilitado la autenticación básica de WinRM
 <a name="BKMKWinRMBasicAuth"> </a>
 
-La última versión del módulo Skype Empresarial Online Connector usa la autenticación moderna, pero el cliente subyacente de Administración remota de Windows (WinRM) debe configurarse para permitir la autenticación básica.  La autenticación moderna usa tokens de portador que normalmente se pasan en el *encabezado Authorization: Bearer.* Windows PowerShell, en el que se ha creado Skype Empresarial PowerShell, no permite la manipulación de este encabezado.  En su lugar, Skype Empresarial PowerShell usa el *encabezado Authorization: Basic* para pasar el token de portador.
+La última versión del módulo Skype Empresarial Online Connector usa la autenticación moderna, pero el cliente subyacente de Administración remota de Windows (WinRM) debe configurarse para permitir la autenticación básica.  La autenticación moderna usa tokens de portador, que normalmente se pasan en el *encabezado Authorization: Bearer.* Windows PowerShell, en el que se ha creado Skype Empresarial PowerShell, no permite la manipulación de este encabezado.  En su lugar, Skype Empresarial PowerShell usa el *encabezado Authorization: Basic* para pasar el token de portador.
 
 Vea [Descargar e instalar Windows PowerShell](./download-and-install-windows-powershell-5-1.md) instrucciones sobre cómo habilitar WinRM para autenticación básica.
 
 ## <a name="failed-to-connect-to-live-id-server"></a>Error al conectarse a Live ID Server
 <a name="BKMKFailedConnect"> </a>
+
+> [!WARNING] 
+> La autenticación de Id. en directo ha quedado en desuso para Skype Empresarial Online Connector. Use el módulo de PowerShell de Teams para administrar el espacio empresarial en línea. Al administrar entornos híbridos, actualice a la última actualización acumulativa o use la autenticación de oAuth.
 
 Normalmente, hay tres motivos por los que el intento de conexión podría fallar con el siguiente mensaje de error:
 
@@ -118,11 +121,11 @@ Uno de los requisitos previos para usar PowerShell para administrar Skype Empres
 ## <a name="logon-failed-for-the-user"></a>Error de inicio de sesión para el usuario
 <a name="BKMKLogonFailed"> </a>
 
-Cuando intenta realizar una conexión remota a Skype Empresarial Online, debe proporcionar el nombre de usuario y la contraseña de una cuenta de usuario válida de Skype Empresarial Online. Si no lo hace, el inicio de sesión producirá un error junto con un mensaje de error similar a este:
+Cuando intenta realizar una conexión remota a Skype Empresarial Online, debe proporcionar el nombre de usuario y la contraseña de una cuenta de usuario válida de Skype Empresarial Online. Si no lo hace, el inicio de sesión producirá un error junto con un mensaje de error similar a este mensaje:
 
-- **Error**: Get-CsWebTicket: Error de inicio de sesión para el usuario *'kenmyer@litwareinc.com'. Cree un nuevo objeto PSCredential y* asegúrese de que ha usado el nombre de usuario y la contraseña correctos.
+- **Error**: Get-CsWebTicket: Error de inicio de sesión para el usuario *'kenmyer@litwareinc.com'. Cree un nuevo objeto PSCredential para* asegurarse de que ha usado el nombre de usuario y la contraseña correctos.
 
-- **Resolución:** Si cree que usa una cuenta de usuario válida y que tiene la contraseña correcta, intente iniciar sesión de nuevo. Si se produce un error, use las mismas credenciales e intente iniciar sesión en [https://login.microsoftonline.com/](https://login.microsoftonline.com/) . Si no puede iniciar sesión allí, póngase en contacto con el soporte técnico de Microsoft. 
+- **Resolución:** Si cree que usa una cuenta de usuario válida y que tiene la contraseña correcta, intente iniciar sesión de nuevo. Si se produce un error, use las mismas credenciales e intente iniciar sesión en [https://login.microsoftonline.com/](https://login.microsoftonline.com/) . Si no puedes iniciar sesión allí, ponte en contacto con el soporte técnico de Microsoft. 
 
   
 ## <a name="the-user-does-not-have-permission-to-manage-this-tenant"></a>El usuario no tiene permiso para administrar este espacio empresarial
@@ -155,7 +158,7 @@ Se permite a cada administrador un máximo de tres conexiones remotas simultáne
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>Se ha superado el número máximo de shells simultáneos para este espacio empresarial en Skype Empresarial Online
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-Aunque a cada administrador se le permite tener hasta tres conexiones simultáneas a un inquilino de Skype Empresarial Online, no se permite que ningún inquilino tenga más de 20 conexiones simultáneas. Por ejemplo, es posible que seis administradores tengan tres sesiones abiertas cada una. Si un cuarto administrador intenta realizar más de 2 conexiones (lo que da como resultado un total de 21 conexiones simultáneas), este intento producirá un error, con el siguiente mensaje de error:
+Aunque a cada administrador se le permite tener hasta tres conexiones simultáneas a un inquilino de Skype Empresarial Online, no se permite que ningún inquilino tenga más de 20 conexiones simultáneas. Por ejemplo, es posible que seis administradores tengan tres sesiones abiertas cada una. Si un cuarto administrador intenta realizar más de dos conexiones (lo que da como resultado un total de 21 conexiones simultáneas), este intento producirá un error, con el siguiente mensaje de error:
   
 - **Error:** New-PSSession : [admin.vdomain.com] Error al conectarse al servidor remoto admin.vdomain.com con el siguiente mensaje de error: el servicio WS-Management no puede *procesar la solicitud. Se ha superado el número máximo de shells simultáneos para este espacio empresarial. Cierre los shells existentes o suba la cuota de este espacio empresarial. Para obtener más https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 información, vea [Solución remota de problemas](*
 

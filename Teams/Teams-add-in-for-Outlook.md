@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de3ef5f7fdd594fbc4471d3d7af4b2c3f3c683c1
+ms.sourcegitcommit: 6505dd1fb891ab27fcc9f36423fda67aae6fcfd7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092608"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418758"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -39,7 +39,7 @@ El complemento para reunión de Microsoft Teams se instala automáticamente para
 
 > [!NOTE]
 > - No hay **ninguna URL directa** que esté vinculada al complemento de Teams.
-> - Hay otras cosas que se deben tener en cuenta si en la organización se ejecutan Teams y Skype Empresarial. En determinadas circunstancias, el complemento de Teams no está disponible en Outlook. Consulte [Actualización de Skype Empresarial a Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) para obtener más información.
+> - Hay otras cosas que se deben tener en cuenta si en la organización se ejecutan Teams y Skype Empresarial. En determinadas circunstancias, el complemento de Teams no está disponible en Outlook. Consulte [Actualización de Skype Empresarial a Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview) para obtener más información.
 > - Los permisos de usuario para ejecutar el archivo regsvr32.exe son un requisito mínimo para el complemento de reuniones de Teams que se instalará en el equipo.
 > - Si los usuarios no pueden ver el complemento de Microsoft Teams, pídales que cierren Outlook y Microsoft Teams, y que luego reinicien en primer lugar el cliente de Microsoft Teams y luego el de Outlook, específicamente en ese orden.
 > - Si usa una instalación de Office Outlook de Microsoft Store, no se admite el complemento de Reuniones de Teams. Se recomienda a los usuarios que necesiten usar este complemento que instalen la versión de hacer clic y ejecutar de Office, tal como se indica en el artículo [Office en Windows 10 en modo S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).
