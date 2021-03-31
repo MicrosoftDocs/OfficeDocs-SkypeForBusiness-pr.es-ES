@@ -17,15 +17,14 @@ description: Obtenga información sobre cómo administrar las aplicaciones de Te
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d0418d3893d026aa34bfb27540d73148520e5a56
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ae060bf68b265c4e1e828d2f7a1848e1515db04e
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120601"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450627"
 ---
-<a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el Centro de administración de Microsoft Teams
-======================================================
+# <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el Centro de administración de Microsoft Teams
 
 Como administrador, la página Administrar aplicaciones del Centro de administración de Microsoft Teams es donde puede ver y administrar todas las aplicaciones de Teams para su organización. Aquí puede ver el estado y las propiedades de las aplicaciones a nivel de organización, aprobar o cargar nuevas aplicaciones personalizadas en la tienda de aplicaciones de su organización, bloquear o permitir aplicaciones en el nivel de la organización, agregar aplicaciones a equipos, comprar servicios para aplicaciones de terceros, ver los permisos solicitados por las aplicaciones, conceder consentimiento de administrador a aplicaciones y administrar la configuración de aplicaciones de toda la organización.
 
@@ -150,6 +149,10 @@ Use la configuración de aplicaciones de toda la organización para controlar si
 
 3. En **Aplicaciones personalizadas,** desactive o active **Permitir interacción con aplicaciones personalizadas.** Esta configuración controla si los usuarios pueden interactuar con aplicaciones personalizadas. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md).
 4. Haga clic en **Guardar** para que la configuración de aplicaciones para toda la organización surta efecto.
+
+## <a name="customize-an-app-in-preview"></a>Personalizar una aplicación (en vista previa)
+
+Ahora puede personalizar una aplicación para incluir un aspecto específico según las necesidades de su organización. [Personalizar aplicaciones en Teams](customize-apps.md)
 
 ## <a name="related-topics"></a>Temas relacionados
 

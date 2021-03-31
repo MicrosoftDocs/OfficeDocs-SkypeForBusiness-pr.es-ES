@@ -23,13 +23,13 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Aprenda a configurar el sistema telefónico para las colas de llamadas con Microsoft Teams, que brindan un mensaje de saludo, música en espera, redireccionamiento de llamadas y otras características.
-ms.openlocfilehash: 9bb33e5590df1af6b70dffecba64eb313838b228
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Obtenga información sobre cómo configurar Sistema telefónico para las colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
+ms.openlocfilehash: 963633ef3ba1743522dbbacb93166f20d489e8be
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092718"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450637"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -45,7 +45,7 @@ Las colas de llamadas proporcionan:
 
 - Opciones de gestión del desbordamiento de la cola y del tiempo de espera.
 
-Asegúrese de haber leído las [colas de llamadas y los asistentes automáticos de Plan for Teams](plan-auto-attendant-call-queue.md) y de haber seguido los [pasos de introducción](plan-auto-attendant-call-queue.md#getting-started) antes de seguir los procedimientos de estos artículos.
+Asegúrese de que ha leído Plan para operadores [automáticos](plan-auto-attendant-call-queue.md) de Teams y colas de llamadas y ha seguido los pasos de introducción antes de seguir los procedimientos de este artículo. [](plan-auto-attendant-call-queue.md#getting-started)
 
 Para configurar una cola de llamadas, en el centro de administración de Teams, expanda **Voz**, haga clic en **Llamar** y, después, haga clic en **Agregar**.
 
@@ -71,11 +71,21 @@ Los equipos proporcionan música predeterminada a los autores de llamadas mientr
 
 ## <a name="call-agents"></a>Llamar a agentes
 
-Consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) para poder agregar agentes a una cola de llamadas.
+Revise los [requisitos previos para agregar agentes a una cola de llamadas.](plan-auto-attendant-call-queue.md#prerequisites)
 
 ![Captura de pantalla de la configuración de usuarios y grupos para las colas de llamadas](media/call-queue-users-groups.png)
 
+##### <a name="teams-channel"></a>Canal de Teams
+
+Puede agregar hasta 200 agentes a través de un canal de Teams.
+
+Si desea usar un [canal de Teams para](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)administrar la cola, seleccione la opción Elegir **un** equipo y haga clic en Agregar **un canal.** Busque el equipo que desea usar, selecciónelo y haga clic en **Agregar**. Seleccione el canal que desea usar y haga clic en **Aplicar.**
+
+##### <a name="users-and-groups"></a>Usuarios y grupos
+
 Puede agregar hasta 20 agentes individualmente y hasta 200 agentes a través de grupos.
+
+Si desea agregar usuarios o grupos individuales a la cola, seleccione la **opción Elegir usuarios y** grupos. 
 
 Para agregar un usuario a la cola, haga clic en **Agregar usuarios**, busque el usuario, haga clic en **Agregar** y, después, haga clic en **Agregar**.
 
