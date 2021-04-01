@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Obtenga información sobre cómo configurar las colas de llamadas con Microsoft 365 Business Voice.
-ms.openlocfilehash: f4dcd38331812053df9d08c7e8417b6d8156d5af
-ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
+ms.openlocfilehash: 3e75dbb75d9edffedbf25d42f197d8723e3ef9a4
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51439735"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478370"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Crear una cola de llamadas: tutorial para pequeñas empresas
 
@@ -84,7 +84,7 @@ Para agregar un canal
 2. Escriba un nombre y una descripción para el canal y, a continuación, haga clic en **Agregar**.
 
 > [!div class="nextstepaction"]
-> [Paso 2: Cuentas de recursos >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
+> [Paso 2: Cuentas de recursos >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
 # <a name="step-2brresource-accounts"></a>[Paso 2 <br> Cuentas de recursos](#tab/resource-account)
 
@@ -143,7 +143,7 @@ A continuación, empezaremos a crear una nueva cola de llamadas y asignaremos la
 > La música predeterminada que se proporciona en las colas de llamadas de Teams no tiene que pagar ningún pago de la organización. 
 
 > [!div class="nextstepaction"]
-> [Paso 3: llamar a agentes >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
+> [Paso 3: llamar a agentes >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
 # <a name="step-3brcall-agents"></a>[Paso 3 <br> Llamar a agentes](#tab/call-agents)
 
@@ -160,7 +160,7 @@ Para agregar agentes a la cola de llamadas, los agregaremos al equipo y al canal
 > Cuando se agregan nuevos usuarios al equipo, la primera llamada puede tardar hasta ocho horas en llegar.
 
 > [!div class="nextstepaction"]
-> [Paso 4: Cuentas de recursos >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-routing#steps)
+> [Paso 4: Cuentas de recursos >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
 # <a name="step-4brcall-routing"></a>[Paso 4 <br> Enrutamiento de llamadas](#tab/call-routing)
 
@@ -189,7 +189,7 @@ Elija el método de enrutamiento de llamadas que desea usar.
     ![Captura de pantalla de configuración de enrutamiento, de baja y de hora de alerta](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [Paso 5: desbordamiento de llamadas >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
+> [Paso 5: desbordamiento de llamadas >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
 # <a name="step-5brcall-overflow"></a>[Paso 5 <br> Desbordamiento de llamadas](#tab/call-overflow)
 
@@ -206,7 +206,7 @@ Elija cómo desea controlar las llamadas que superan el máximo de la cola.
     ![Captura de pantalla de la configuración de desbordamiento de llamadas](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [Paso 6: tiempo de espera de la llamada >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
+> [Paso 6: tiempo de espera de la llamada >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
 # <a name="step-6brcall-timeout"></a>[Paso 6 <br> Tiempo de espera de llamada](#tab/call-timeout)
 

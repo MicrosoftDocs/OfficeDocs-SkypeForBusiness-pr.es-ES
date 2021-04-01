@@ -16,16 +16,51 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de la versión de las características de administrador de Microsoft Teams.
-ms.openlocfilehash: 4c7219e3850eeeb2f502431db222f531d6166c56
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e36c11ad79c2061f4a94db3af5c21e7f2be4a3d2
+ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117668"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51487234"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de la versión de las características de administración de Microsoft Teams
 
 Estas notas de la versión proporcionan información sobre las nuevas características de administrador de Microsoft Teams.
+
+## <a name="march-31-2021"></a>31 de marzo de 2021
+
+### <a name="share-to-teams-from-outlook"></a>Compartir en Teams desde Outlook
+
+Compartir en Teams desde Outlook le permite enviar una copia de mensajes de correo electrónico o conversaciones, incluidos datos adjuntos, a los chats y canales de Teams. Busque la **opción Compartir en Teams** en la cinta de opciones de Outlook o en el menú de acciones de un correo electrónico. Compartir en Teams es compatible con Outlook en la web, Outlook para Windows y el nuevo Outlook para Mac Preview. [Más información](../teams-outlook-share-teams.md).
+
+## <a name="march-30-2021"></a>30 de marzo de 2021
+
+### <a name="customize-apps-in-teams-preview"></a>Personalizar aplicaciones en Teams (vista previa)
+
+Microsoft Teams proporciona personalización de aplicaciones para mejorar la experiencia de Teams. Algunos desarrolladores de aplicaciones permiten que el administrador de Teams personalizó una aplicación. El administrador puede personalizar o cambiar el nombre de las propiedades de la aplicación en función de las necesidades de la organización con la página Administrar aplicaciones del Centro de administración de Teams. [Más información](../customize-apps.md).
+
+## <a name="march-24-2021"></a>24 de marzo de 2021
+
+### <a name="enable-live-transcripts-in-teams"></a>Habilitar transcripciones en directo en Teams
+
+Esta es una directiva por usuario y se aplica durante la reunión. Esta configuración controla si la opción Activar los subtítulos en directo está disponible para que el usuario active y desactive los subtítulos en directo en las reuniones a las que asista. [Más información](../meeting-policies-in-teams.md#enable-live-captions).
+
+## <a name="march-23-2021"></a>23 de marzo de 2021
+
+### <a name="supervised-chats"></a>Chats supervisados
+
+El chat supervisado permite a los profesores designados iniciar chats con alumnos y bloquea que los alumnos inicien nuevos chats a menos que haya un educador adecuado. Cuando la supervisión del chat está habilitada, los supervisores no pueden abandonar los chats y otros participantes no pueden quitarlos, lo que garantiza que los chats que implican a los alumnos estén debidamente supervisados.
+[Más información](../supervise-chats-edu.md).
+
+### <a name="masking-phone-numbers"></a>Enmascarar números de teléfono
+
+Hemos publicado una nueva configuración de administrador para enmascarar números de teléfono para los participantes de acceso telefónico cuando se unen a una reunión. Los administradores pueden elegir enmascarar los números de teléfono de todos los usuarios de la reunión (excepto el organizador), solo de personas externas o tienen el enmascaramiento deshabilitado. Si los administradores deciden deshabilitar esta configuración, los números de teléfono se mostrarán por completo en la reunión. [Más información](../ptsn-mask-phone-numbers.md).
+
+## <a name="march-1-2021"></a>1 de marzo de 2021
+
+### <a name="additional-golocal-support-in-teams-live-events"></a>Soporte técnico adicional de GoLocal en eventos en directo de Teams
+
+Se ha agregado soporte para Sudáfrica, Corea del Sur, Suiza, Francia, Alemania y Brasil a eventos en directo. [Aprende más](../teams-live-events/plan-for-teams-live-events.md#regional-availability)
 
 ## <a name="february-22-2021"></a>22 de febrero de 2021
 

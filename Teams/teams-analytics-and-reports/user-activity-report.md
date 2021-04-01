@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el informe de actividad de us
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5f01d71a119116268c5d03850e5e1d26a54ae8dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9122289d0765dbdded98727d2ed06912d0348f64
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116858"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478340"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Informe de actividad de usuario de Microsoft Teams
 
@@ -52,6 +52,16 @@ Debe ser administrador de servicio de Teams para poder realizar estos cambios. C
 |**9**   |Exporte el informe a un archivo CSV para analizarlo sin conexión. Seleccione **Exportar a Excel** y, a continuación, en la pestaña **Descargas,** **seleccione** Descargar para descargar el informe cuando esté listo.<br><br>![Captura de pantalla de la pestaña Descargas que muestra los informes exportados para descargar](../media/teams-reports-export-to-csv.png) <br>Cuando vea el informe en Excel, también verá una columna **Id.** que representa el Id. de usuario. Un id. de usuario suele ser una cadena alfanumérica. ||
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
+
+## <a name="make-the-user-specific-data-anonymous"></a>Convertir en anónimos los datos específicos del usuario
+
+Para que los datos del informe de actividad de usuario de Teams sean anónimos, debe ser administrador global. Esto ocultará información identificable, como el nombre para mostrar, el correo electrónico y el id. de AAD en el informe y su exportación.
+
+1. En el Centro de administración de  Microsoft 365, vaya a Configuración de la organización Configuración y, en la pestaña \> Servicios, elija **Informes.** 
+    
+2. Seleccione **Informes** y, a continuación, **elija Mostrar identificadores anónimos.** Esta configuración se aplica tanto a los informes de uso del Centro de administración de Microsoft 365 como al Centro de administración de Teams.
+  
+3. Seleccione **Guardar cambios**.
 
 ## <a name="related-topics"></a>Temas relacionados
 
