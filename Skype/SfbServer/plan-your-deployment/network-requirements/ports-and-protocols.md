@@ -17,25 +17,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumen: revise las consideraciones de uso del puerto antes de implementar Skype Empresarial Server.'
-ms.openlocfilehash: 70caf72231797c4e245ac3117ec7fcc9241185f0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f56b8545f8c60578321354bebbe5a118bf895348
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094954"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51573989"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de puerto y protocolo para servidores
  
 **Resumen:** Revise las consideraciones sobre el uso de puertos antes de implementar Skype Empresarial Server.
   
-Skype Empresarial Server requiere que se abran puertos específicos en los firewalls externos e internos. Además, si se ha implementado el protocolo de seguridad de Internet (IPSec) en la organización, IPSec debe estar deshabilitado en el intervalo de puertos usado para la entrega de audio, vídeo y vídeo panorámico. 
+Skype Empresarial Server requiere que los puertos específicos de los firewalls externos e internos estén abiertos. Además, si se ha implementado el protocolo de seguridad de Internet (IPSec) en la organización, IPSec debe estar deshabilitado en el intervalo de puertos usado para la entrega de audio, vídeo y vídeo panorámico. 
   
-Aunque esto puede parecer un poco desalentador al principio, el trabajo pesado para planear esto se puede hacer con la Herramienta de planeación de [Skype Empresarial Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725). Una vez que hayas pasado por las preguntas del asistente acerca de las características que planeas usar, para cada sitio que definas, puedes ver el Informe de firewall en el Informe de administración perimetral y usar la información que aparece allí para crear las reglas de firewall. También puede realizar ajustes en muchos de los nombres y direcciones IP usados, para obtener más información, vea [Review the Firewall Report](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Tenga en cuenta que puede exportar el informe de administración perimetral a una hoja de cálculo de Excel y el informe de firewall será una de las hojas de cálculo del archivo. 
+Aunque esto puede parecer un poco desalentador, el trabajo pesado para planear esto se puede hacer con la herramienta de planeación de [Skype Empresarial Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725). Una vez que haya pasado por las preguntas del asistente acerca de las características que tiene previsto usar, para cada sitio que defina puede ver el informe de firewall en el informe de administración perimetral y usar la información que aparece allí para crear las reglas de firewall. También puede realizar ajustes en muchos de los nombres y direcciones IP usados, para obtener más información, vea [Review the Firewall Report](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Tenga en cuenta que puede exportar el informe de administración perimetral a una hoja de cálculo de Excel y el informe de firewall será una de las hojas de cálculo del archivo. 
   
-También puede encontrar la información en estas tablas en forma de diagrama revisando el póster Cargas de trabajo de protocolo vinculado fuera del artículo Diagramas técnicos para [Skype Empresarial Server 2015.](../../technical-diagrams.md)
+Encontrará la información en estas tablas en forma de diagrama revisando el póster Cargas de trabajo de protocolo vinculado fuera del artículo Diagramas técnicos para [Skype Empresarial Server 2015.](../../technical-diagrams.md)
+
 > [!NOTE]
-> - Si está implementando Skype Empresarial Online (Microsoft 365 u Office 365) consulte Direcciones URL e intervalos de direcciones IP de [Microsoft 365 y Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) Los entornos híbridos tendrán que hacer referencia a este tema y también [planear la conectividad híbrida.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
-> - Puede tener firewalls de hardware o software, no necesitamos versiones o modelos específicos. Lo importante es qué puertos se encuentran en la lista blanca para que el firewall no desasese en el funcionamiento de Skype Empresarial Server.
+> - Si está implementando Skype Empresarial Online (Microsoft 365 u Office 365) consulte Direcciones URL e intervalos de direcciones IP de [Microsoft 365 y Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) Los entornos híbridos tendrán que hacer referencia a este tema y también [planear la conectividad híbrida.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)
+> - Puede tener firewall de hardware o software. No necesitamos modelos o versiones específicos. Lo importante es qué puertos se agregan a una lista de permitidos para que el firewall no perda el funcionamiento de Skype Empresarial Server.
   
 ## <a name="port-and-protocol-details"></a>Detalles de puerto y protocolo
 
@@ -53,7 +54,7 @@ En la tabla siguiente se enumeran los puertos que debe abrir en cada rol del ser
 |Rol de servidor|Nombre del servicio|Puerto|Protocolo|Notas|
 |:-----|:-----|:-----|:-----|:-----|
 |Todos los servidores  |Explorador SQL  |1434  |UDP  |SQL explorador para la copia replicada local de la base de datos del Almacén de administración central.  |
-|Servidores front-end  |Servicio de Front-End Skype Empresarial Server  |5060  |TCP  |Opcionalmente lo usan los servidores Standard Edition y front-end para rutas estáticas a servicios de confianza, como los servidores de control remoto de llamadas.  |
+|Front-End servidores  |Servicio de Front-End Skype Empresarial Server  |5060  |TCP  |Opcionalmente lo usan los servidores Standard Edition y front-end para rutas estáticas a servicios de confianza, como los servidores de control remoto de llamadas.  |
 |Servidores front-end  |Servicio de Front-End Skype Empresarial Server  |5061  | TCP (TLS) |Lo usan los servidores Standard Edition y los grupos de servidores front-end para todas la comunicaciones SIP internas entre los servidores (MTLS), para las comunicaciones SIP entre el cliente y del servidor (TLS) y para las comunicaciones entre los servidores front-end y los servidores de mediación (MTLS). También se usa para comunicaciones con un servidor de supervisión.  |
 | Servidores front-end |Servicio de Front-End Skype Empresarial Server  |444  | HTTPS <br/> TCP  |Se usa para la comunicación HTTPS entre el foco (el componente de Skype Empresarial Server que administra el estado de conferencia) y los servidores individuales.  <br/> Este puerto también se usa para la comunicación TCP entre los dispositivos de sucursal con funciones de supervivencia y los servidores front-end.  |
 |Servidores front-end  |Servicio de Front-End Skype Empresarial Server  |135  |DCOM y llamada a procedimiento remoto (RPC)  |Se usa para operaciones basadas en DCOM como la migración de los usuarios, la sincronización del replicador de usuarios y la sincronización de la libreta de direcciones.  |

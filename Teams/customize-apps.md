@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo personalizar aplicaciones en Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b2e924da384b5bff54e63872aa7026d2da456311
-ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
+ms.openlocfilehash: a87ce5f7dd63a78af4a7a1ea5f56aed1cad7263a
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471504"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574159"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicaciones en Microsoft Teams
 
@@ -107,9 +107,9 @@ Ahora los usuarios finales de Teams pueden abrir su cliente de Teams para ver la
 La siguiente nota incluye detalles importantes sobre cómo personalizar una aplicación.
 
 > [!Note]
-> - Al personalizar aplicaciones y cualquier descripción relacionada con una aplicación, asegúrese de que sigue las Directrices de personalización proporcionadas por el editor de aplicaciones. Usted es responsable de respetar los derechos de otras personas con respecto a las imágenes de terceros que pueda usar.
-> - Los datos de personalización proporcionados por el administrador se almacenan en el Almacén de configuración de la región más cercana. No es necesariamente en ninguna implementación de GoLocal Cloud Teams.
-> - Usted es responsable de asegurarse de que los vínculos a los términos de uso o la política de privacidad sean válidos. Debe proporcionar una administración adecuada de los cambios que realicen (o permita que se realicen) en los metadatos de la aplicación. La implementación actual le proporcionará soporte técnico para ayudarle a revertir a las direcciones URL proporcionadas por el desarrollador. No puede configurar la aplicación sin una dirección URL (si la aplicación permite la personalización de las direcciones URL).
+> - Cuando personalice las aplicaciones y cualquier descripción relacionada con una aplicación, asegúrese de que sigue las directrices de personalización si lo proporciona el editor de aplicaciones en su documentación o términos de uso. También es responsable de respetar los derechos de otras personas con respecto a las imágenes de terceros que pueda usar.
+> - Los datos de personalización proporcionados por el administrador se almacenan en la región más cercana.
+> - Usted es responsable de garantizar que los vínculos a términos de uso o a la política de privacidad sean válidos.
 > - En caso de que el editor de aplicaciones ya no permita que se pueda personalizar un campo, aparecerá un mensaje en la página de detalles de la aplicación en el que se notificará al administrador sobre los campos que ya no se pueden personalizar. Todos los cambios realizados en ese campo se revertirán a los valores originales.
 > - Los cambios en la personal de marca pueden requerir hasta 24 horas para que los usuarios vean los cambios.
 

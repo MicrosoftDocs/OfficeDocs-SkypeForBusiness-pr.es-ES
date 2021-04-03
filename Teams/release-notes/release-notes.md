@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de la versión de las características de administrador de Microsoft Teams.
-ms.openlocfilehash: db6961e0f625c5f030c71e0a38a81d281523b8f4
-ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
+ms.openlocfilehash: 709cbf8b4a5438f0f8e2447e093414de9829f161
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51495754"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574099"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de la versión de las características de administración de Microsoft Teams
 
@@ -38,6 +38,12 @@ Compartir en Teams desde Outlook le permite enviar una copia de mensajes de corr
 ### <a name="customize-apps-in-teams-preview"></a>Personalizar aplicaciones en Teams (vista previa)
 
 Microsoft Teams proporciona personalización de aplicaciones para mejorar la experiencia de Teams. Algunos desarrolladores de aplicaciones permiten que el administrador de Teams personalizó una aplicación. El administrador puede personalizar o cambiar el nombre de las propiedades de la aplicación en función de las necesidades de la organización con la página Administrar aplicaciones del Centro de administración de Teams. [Más información](../customize-apps.md).
+
+## <a name="march-29-2021"></a>29 de marzo de 2021
+
+### <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Aprovisionamiento remoto e inicio de sesión para dispositivos Android de Teams
+
+Los administradores de TI pueden aprovisionar e iniciar sesión de forma remota en un dispositivo Android de Teams. Para aprovisionar un dispositivo de forma remota, el administrador debe cargar los IDs mac de los dispositivos que se aprovisionan y crear un código de verificación. Todo el proceso se puede completar de forma remota desde el Centro de administración de Teams. [Más información](../devices/remote-provision-remote-login.md).
 
 ## <a name="march-24-2021"></a>24 de marzo de 2021
 

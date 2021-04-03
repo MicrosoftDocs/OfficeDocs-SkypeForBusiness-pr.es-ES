@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101106"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574189"
 ---
 # <a name="manage-teams-with-policies"></a>Administrar Teams con directivas
 
@@ -36,7 +36,7 @@ Las directivas se pueden asignar de varias maneras diferentes en función de lo 
 
 ![Captura de pantalla de la asignación de directivas de grupo.](media/group-policy-assignment.png)
 
-Obtenga más información sobre cómo asignar directivas [aquí.](assign-policies.md)
+Obtenga más información sobre cómo asignar directivas [aquí.](policy-assignment-overview.md)
 
 ## <a name="how-to-manage-policies"></a>Cómo administrar directivas
 
@@ -70,8 +70,8 @@ Tipo de directiva | Descripción
 
 ## <a name="related-topics"></a>Temas relacionados
 
+* [Asignar directivas en Teams: introducción](policy-assignment-overview.md)
 * [Administrar directivas de comentarios en Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Administrar directivas de equipos en Microsoft Teams](teams-policies.md)
-* [Ver asignaciones de directivas en el Registro de actividades](activity-log.md)
 * [Definir eventos en directo en Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
 * [Directivas y paquetes de directivas de Teams for Education](policy-packages-edu.md)

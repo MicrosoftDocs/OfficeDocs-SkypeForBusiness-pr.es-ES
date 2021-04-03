@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a596f2755434e7074c4a925f5c7c1dd8b1efbcaf
-ms.sourcegitcommit: fdada65628b31e4c267c87f0100e9f046b878c12
+ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50831030"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506744"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Crear una plantilla de equipo personalizada en Microsoft Teams
 
@@ -93,11 +93,15 @@ Para empezar:
 
 **Problema:** Si ha creado un equipo a partir de una plantilla personalizada que contenía pestañas personalizadas adicionales, es posible que vea pestañas en blanco en lugar de las aplicaciones de pestaña personalizadas. Las pestañas predeterminadas (como **Publicaciones,** **Archivos** y **Wiki)** aparecerán según lo esperado.
 
-**Solución:** Si ha creado un equipo a partir de una plantilla personalizada que contenía pestañas personalizadas adicionales, es posible que vea pestañas en blanco en lugar de las aplicaciones de pestaña personalizadas. Las pestañas predeterminadas (como Publicaciones, Archivos y Wiki) aparecerán según lo esperado.
-
-Para solucionar este problema, quite la pestaña personalizada y agregue una nueva pestaña con la misma aplicación. Si no tiene permisos para quitar la pestaña personalizada y agregar una nueva pestaña, póngase en contacto con el propietario del equipo para obtener ayuda.
+**Solución:** Para solucionar este problema, quite la pestaña personalizada y agregue una nueva pestaña con la misma aplicación. Si no tiene permisos para quitar la pestaña personalizada y agregar una nueva pestaña, póngase en contacto con el propietario del equipo para obtener ayuda.
 
 Actualmente estamos trabajando en una corrección para futuros equipos creados a partir de plantillas personalizadas.
+
+**Problema:** Al usar Teams en el explorador, algunos sitios web no admiten que se represente en una pestaña de Teams.
+
+![mensaje de error del explorador](media/browser-error-message.png)
+
+**Solución:** Si tiene problemas para ver el contenido de la pestaña del sitio web, se le redirigirá a abrir la pestaña en una página web independiente o a abrir Teams en la aplicación de escritorio para ver la aplicación de pestaña del sitio web.
 
 ## <a name="related-topics"></a>Temas relacionados
 

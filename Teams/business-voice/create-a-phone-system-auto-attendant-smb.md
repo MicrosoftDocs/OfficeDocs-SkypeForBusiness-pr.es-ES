@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para Microsoft 365 Business Voice.
-ms.openlocfilehash: d320c100937619960011cc378936c6954a00512a
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 7ee7dad833119778ceb64bd1e52bd30da4529ba8
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478380"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506657"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurar un operador automático : tutorial de pequeña empresa
 
@@ -93,7 +93,7 @@ Si necesita que este operador automático sea accesible mediante un número de t
 4. Haga clic en **Guardar**.
 
 > [!div class="nextstepaction"]
-> [Paso 2: Información general del operador automático >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
+> [Paso 2: Información general del operador automático >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
 
 # <a name="step-2brattendant-general-info"></a>[Paso 2 <br> Información general del operador](#tab/general-info)
 
@@ -116,7 +116,7 @@ Para configurar un operador automático
 7. Haga clic en **Siguiente**.
 
 > [!div class="nextstepaction"]
-> [Paso 3: flujo de llamadas >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
+> [Paso 3: flujo de llamadas >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
 
 # <a name="step-3brcall-flow"></a>[Paso 3 <br> Flujo de llamadas](#tab/call-flow)
 
@@ -169,7 +169,7 @@ Elegir las opciones de flujo de llamadas
 5. Una vez que haya seleccionado una opción **de búsqueda de** directorio, haga clic en **Siguiente.**
 
 > [!div class="nextstepaction"]
-> [Paso 4: flujo de llamadas después de horas >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
+> [Paso 4: flujo de llamadas después de horas >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
 
 # <a name="step-4brafter-hours"></a>[Paso 4 <br> Después de horas](#tab/after-hours)
 
@@ -186,7 +186,7 @@ Una vez que haya especificado el horario laboral, elija las opciones de enrutami
 Haga **clic en** Siguiente cuando haya terminado.
 
 > [!div class="nextstepaction"]
-> [Paso 5: flujo de llamadas navideñas >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
+> [Paso 5: flujo de llamadas navideñas >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
 
 # <a name="step-5brholidays"></a>[Paso 5 <br> Días festivos](#tab/holidays)
 
@@ -221,7 +221,7 @@ Repita el procedimiento según sea necesario para cada vacaciones adicionales.
 Cuando haya agregado todos los días festivos, haga clic en **Siguiente.**
 
 > [!div class="nextstepaction"]
-> [Paso 6: elija quién está en el directorio >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
+> [Paso 6: elija quién está en el directorio >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
 
 # <a name="step-6brdirectory-members"></a>[Paso 6 <br> Miembros del directorio](#tab/dial-scope)
 
@@ -237,7 +237,7 @@ Puede incluir o excluir usuarios  específicos seleccionando  Grupo de usuarios 
 Cuando haya terminado de configurar el ámbito de marcado, haga clic en **Siguiente.**
 
 > [!div class="nextstepaction"]
-> [Paso 7: Asignar una cuenta de recursos >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
+> [Paso 7: Asignar una cuenta de recursos >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
 
 # <a name="step-7brresource-accounts"></a>[Paso 7 <br> Cuentas de recursos](#tab/resource-accounts)
 

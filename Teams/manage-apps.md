@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo administrar las aplicaciones de Te
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ae060bf68b265c4e1e828d2f7a1848e1515db04e
-ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
+ms.openlocfilehash: b3858044c52324cb52005c70c6f3afcf91e3f617
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51450627"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574199"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el Centro de administración de Microsoft Teams
 
@@ -116,6 +116,10 @@ Use el botón **Agregar al equipo** para instalar una aplicación en un equipo. 
 2. Seleccione **Agregar al equipo**.
 3. En el **panel Agregar al** equipo, busque el equipo al que desea agregar la aplicación, seleccione el equipo y, a continuación, seleccione **Aplicar**.
 
+## <a name="customize-an-app-in-preview"></a>Personalizar una aplicación (en vista previa)
+
+Ahora puede personalizar una aplicación para incluir un aspecto específico según las necesidades de su organización. Vea [Personalizar aplicaciones en Teams.](customize-apps.md)
+
 ## <a name="purchase-services-for-third-party-apps"></a>Comprar servicios para aplicaciones de terceros
 
 Puede buscar y comprar licencias para los servicios ofrecidos por aplicaciones de terceros para los usuarios de su organización directamente desde la página Administrar aplicaciones. La **columna Licencias** de la tabla indica si una aplicación ofrece una suscripción saas de pago. Haga **clic en Comprar ahora** para ver la información de planes y precios y comprar licencias para los usuarios. Para obtener más información, vea Comprar servicios para aplicaciones de terceros de [Teams en el Centro de administración de Microsoft Teams.](purchase-third-party-apps.md)
@@ -149,10 +153,6 @@ Use la configuración de aplicaciones de toda la organización para controlar si
 
 3. En **Aplicaciones personalizadas,** desactive o active **Permitir interacción con aplicaciones personalizadas.** Esta configuración controla si los usuarios pueden interactuar con aplicaciones personalizadas. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md).
 4. Haga clic en **Guardar** para que la configuración de aplicaciones para toda la organización surta efecto.
-
-## <a name="customize-an-app-in-preview"></a>Personalizar una aplicación (en vista previa)
-
-Ahora puede personalizar una aplicación para incluir un aspecto específico según las necesidades de su organización. [Personalizar aplicaciones en Teams](customize-apps.md)
 
 ## <a name="related-topics"></a>Temas relacionados
 

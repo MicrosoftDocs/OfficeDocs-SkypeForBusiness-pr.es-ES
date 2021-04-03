@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122194"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506673"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -47,7 +47,7 @@ Puede controlar la configuración de usuario en toda la organización en el Cent
 Para agregar o bloquear un dominio:
 
 1. Seleccione **Agregar un dominio**.
-2. En el panel Agregar un dominio, escriba el nombre del dominio y haga clic en la barra espaciadora para guardar el nombre.
+2. En el panel Agregar un dominio, escriba el nombre del dominio y seleccione la barra espaciadora para guardar el nombre.
 3. Seleccione **Permitido** o **Bloqueado**.
 4. Seleccione **Listo** para guardar los cambios. 
 
@@ -94,9 +94,13 @@ Esta configuración controla el comportamiento de la cuenta del recurso para los
 La búsqueda de directorios enfocada de Microsoft Teams usa la directiva de libretas de direcciones (APB) de Exchange para permitir que las organizaciones puedan crear límites virtuales que controlen la forma en que los usuarios pueden encontrar a otros usuarios de la organización y comunicarse con ellos. Sería conveniente usar la búsqueda de directorios enfocada en estas situaciones:
 
 - La organización tiene varias compañías en su inquilino, pero prefiere mantenerlas por separado. 
-- Su centro educativo quiere limitar los chats entre el personal académico y los estudiantes. 
+- Su centro educativo quiere limitar los chats entre el personal académico y los estudiantes.
 
 **Active** esta opción para activar las búsquedas de directorios enfocadas.
+
+#### <a name="safety-and-communications"></a>Seguridad y comunicaciones
+
+El chat supervisado permite a las organizaciones y a las escuelas limitar las capacidades del chat con los permisos basados en roles. Estos permisos controlan la cantidad de supervisión que requiere un usuario al chatear con otras personas. Obtenga más información acerca del [chat supervisado](supervise-chats-edu.md).
 
 ### <a name="skype-for-business"></a>Skype Empresarial
 

@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 5713274270a7784379eb47c6dd1fa875b41e20b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 125c89505727e4fd4e6c18419b32dc1b99dfb67b
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162663"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51583116"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
@@ -130,7 +130,7 @@ Puede editar la configuración de  una directiva a través de la página Paquete
 2. Seleccione la directiva que desea editar. Las directivas vinculadas a un paquete de directivas tienen el mismo nombre que el paquete de directivas.
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar.**
 
-### <a name="assign-a-policy-package"></a>Asignar un paquete de directivas 
+### <a name="assign-a-policy-package"></a>Asignar un paquete de directivas
 
 #### <a name="assign-a-policy-package-to-one-user"></a>Asignar un paquete de directiva a un usuario
 
@@ -165,7 +165,7 @@ Esto puede ocurrir si una o más directivas del paquete no se crearon o se aplic
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Asignar directivas a los usuarios en Teams](assign-policies.md)
+[Asignar paquetes de directiva](assign-policy-packages.md)
 
 [Paquetes de directivas de Teams para administradores de EDU](policy-packages-edu.md)
 
