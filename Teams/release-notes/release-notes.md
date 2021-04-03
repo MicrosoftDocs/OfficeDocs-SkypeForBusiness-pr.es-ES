@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de la versión de las características de administrador de Microsoft Teams.
-ms.openlocfilehash: e36c11ad79c2061f4a94db3af5c21e7f2be4a3d2
-ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
+ms.openlocfilehash: db6961e0f625c5f030c71e0a38a81d281523b8f4
+ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51487234"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51495754"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de la versión de las características de administración de Microsoft Teams
 
@@ -55,6 +55,10 @@ El chat supervisado permite a los profesores designados iniciar chats con alumno
 ### <a name="masking-phone-numbers"></a>Enmascarar números de teléfono
 
 Hemos publicado una nueva configuración de administrador para enmascarar números de teléfono para los participantes de acceso telefónico cuando se unen a una reunión. Los administradores pueden elegir enmascarar los números de teléfono de todos los usuarios de la reunión (excepto el organizador), solo de personas externas o tienen el enmascaramiento deshabilitado. Si los administradores deciden deshabilitar esta configuración, los números de teléfono se mostrarán por completo en la reunión. [Más información](../ptsn-mask-phone-numbers.md).
+
+### <a name="create-a-phone-system-auto-attendant"></a>Crear un operador automático del sistema telefónico
+
+Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para hablar con el departamento adecuado, la cola de llamadas, una persona o un operador. Puede crear operadores automáticos para su organización con el Centro de administración de Microsoft Teams o con PowerShell. [Más información](../create-a-phone-system-auto-attendant.md).
 
 ## <a name="march-1-2021"></a>1 de marzo de 2021
 

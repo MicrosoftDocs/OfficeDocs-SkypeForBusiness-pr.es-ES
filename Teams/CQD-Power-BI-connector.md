@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar Power BI Connector para usar plantillas de consulta de panel de calidad de llamadas (CQD)
-ms.openlocfilehash: 7af8da203eb6a69bf5db443444c0ca35eff9bb70
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 51b989601b7ccec035bda84cc0177aca8f198d1f
+ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101526"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51495761"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar Power BI Connector para usar plantillas de consulta CQD
 
@@ -125,7 +125,7 @@ A pesar de usar Power BI, no todas las funciones de Power BI son compatibles con
 
 5. **Filtrado de datos relativos:** Es compatible con el conector CQD, pero solo con las dimensiones *Hora de* inicio y Hora *de* finalización. Aunque la *dimensión* Fecha puede ser la opción obvia para el filtrado de fecha relativo, *Fecha* no se almacena como un objeto de hora de fecha y, por lo tanto, no admite el filtrado de fecha relativo en Power BI.
 
-6. Compatibilidad con la nube de la comunidad gubernamental **(GCC):** Para los clientes del entorno GCC, el conector CQD Power BI funcionará al usar Power BI Desktop. El conector CQD Power BI es compatible con el servicio Power BI para los clientes de GCC.
+6. Compatibilidad con la nube de la comunidad gubernamental **(GCC):** Para los clientes del entorno GCC, el conector CQD Power BI no funcionará al usar Power BI Desktop. El conector de Power BI de CQD no es actualmente compatible con el servicio Power BI para los clientes de GCC.
 
 La mayoría de estos problemas son restricciones al diseño de conectores de DirectQuery en Power BI o fundamentales para el diseño del modelo de datos CQD.
 
