@@ -317,10 +317,12 @@ items:
         items:
           - name: Información general
             href: manage-teams-with-policies.md
-          - name: Asignar directivas a los usuarios
-            href: assign-policies.md
-          - name: Ver las asignaciones de directivas en el registro de actividades
-            href: activity-log.md
+          - name: 'Asignar directivas en Teams: Introducción'
+            href: policy-assignment-overview.md
+          - name: Asignar directivas a usuarios y grupos
+            href: assign-policies-users-and-groups.md
+          - name: Asignar paquetes de directivas
+            href: assign-policy-packages.md
           - name: Administrar las políticas de comentarios para Teams
             href: manage-feedback-policies-in-teams.md
           - name: Administrar los paquetes de directivas para Teams
