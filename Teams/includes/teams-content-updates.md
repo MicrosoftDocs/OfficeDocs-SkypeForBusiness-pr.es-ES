@@ -3,6 +3,57 @@
 
 
 
+## <a name="week-of-march-29-2021"></a>Semana del 29 de marzo de 2021
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 3/29/2021 | [Aprovisionamiento remoto e inicio de sesión para dispositivos Android de Teams](/MicrosoftTeams/devices/remote-provision-remote-login) | agregado |
+| 3/29/2021 | [Implementar salas de Microsoft Teams con Microsoft Endpoint Configuration Manager](/MicrosoftTeams/rooms/rooms-scale) | modificado |
+| 3/29/2021 | [Usar el complemento de reunión de Microsoft Teams en Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modificado |
+| 3/29/2021 | Autorizar el acceso de invitado en Microsoft Teams | eliminado |
+| 3/29/2021 | [Administrar directivas de retención para Microsoft Teams](/MicrosoftTeams/retention-policies) | modificado |
+| 3/30/2021 | [Configurar un operador automático para Microsoft Teams: tutorial de pequeña empresa](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modificado |
+| 3/30/2021 | [Crear una cola de llamadas en Microsoft Teams: tutorial de pequeña empresa](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modificado |
+| 3/30/2021 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 3/30/2021 | [Introducción a la grabación basada en directivas de Teams para llamadas & reuniones](/MicrosoftTeams/teams-recording-policy) | modificado |
+| 3/30/2021 | [Personalizar aplicaciones de Microsoft en Teams](/MicrosoftTeams/customize-apps) | agregado |
+| 3/30/2021 | [Configurar Microsoft Teams en su organización](/MicrosoftTeams/deploy-enterprise-setup) | modificado |
+| 3/30/2021 | [Administrar las aplicaciones en el Centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
+| 3/30/2021 | [Personalizar aplicaciones de Microsoft en Teams](/MicrosoftTeams/customize-apps) | modificado |
+| 3/30/2021 | [Salas de Microsoft Teams](/MicrosoftTeams/rooms/index) | modificado |
+| 3/31/2021 | [Configurar un operador automático para Microsoft Teams: tutorial de pequeña empresa](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modificado |
+| 3/31/2021 | [Crear una cola de llamadas en Microsoft Teams: tutorial de pequeña empresa](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modificado |
+| 3/31/2021 | [Informe de uso de dispositivos de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | modificado |
+| 3/31/2021 | [Análisis e informes de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modificado |
+| 3/31/2021 | [Informe de actividad de usuario de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modificado |
+| 3/31/2021 | [Notas de la versión de Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modificado |
+| 3/31/2021 | [Requisitos de las Salas de Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
+| 4/1/2021 | [Instalar Power BI Connector para usar plantillas de consulta CQD](/MicrosoftTeams/cqd-power-bi-connector) | modificado |
+| 4/1/2021 | [Notas de la versión de Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modificado |
+| 4/1/2021 | [Usar chats supervisados](/MicrosoftTeams/supervise-chats-edu) | modificado |
+| 4/1/2021 | [Usar OneDrive para la Empresa y SharePoint para grabar las reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
+| 4/2/2021 | [Configurar un operador automático para Microsoft Teams: tutorial de pequeña empresa](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modificado |
+| 4/2/2021 | [Crear una cola de llamadas en Microsoft Teams: tutorial de pequeña empresa](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modificado |
+| 4/2/2021 | [Crear una plantilla de equipo personalizada en Microsoft Teams](/MicrosoftTeams/create-a-team-template) | modificado |
+| 4/2/2021 | [Dispositivos para Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
+| 4/2/2021 | [Administrar la configuración de su organización](/MicrosoftTeams/enable-features-office-365) | modificado |
+| 4/2/2021 | [Administrar directivas de mensajería de Teams](/MicrosoftTeams/messaging-policies-in-teams) | modificado |
+| 4/2/2021 | [¿Qué son los eventos en directo de Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modificado |
+| 4/2/2021 | [Notas de la versión de PowerShell de Microsoft Teams](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
+| 4/2/2021 | [Asignar directivas a usuarios y grupos](/MicrosoftTeams/assign-policies-users-and-groups) | agregado |
+| 4/2/2021 | [Asignar paquetes de directiva a usuarios y grupos](/MicrosoftTeams/assign-policy-packages) | agregado |
+| 4/2/2021 | [Asignar directivas en Teams](/MicrosoftTeams/policy-assignment-overview) | agregado |
+| 4/2/2021 | [Personalizar aplicaciones de Microsoft en Teams](/MicrosoftTeams/customize-apps) | modificado |
+| 4/2/2021 | [Administrar las aplicaciones en el Centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
+| 4/2/2021 | [Administración de números de teléfono para Bélgica](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modificado |
+| 4/2/2021 | [Administrar paquetes de directivas en Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
+| 4/2/2021 | [Administrar Teams con directivas](/MicrosoftTeams/manage-teams-with-policies) | modificado |
+| 4/2/2021 | [Usar CQD para administrar la calidad de las llamadas y reuniones en Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | modificado |
+| 4/2/2021 | [Notas de la versión de Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modificado |
+| 4/2/2021 | [Centro de contacto de Teams](/MicrosoftTeams/teams-contact-center) | modificado |
+
+
 ## <a name="week-of-march-22-2021"></a>Semana del 22 de marzo de 2021
 
 

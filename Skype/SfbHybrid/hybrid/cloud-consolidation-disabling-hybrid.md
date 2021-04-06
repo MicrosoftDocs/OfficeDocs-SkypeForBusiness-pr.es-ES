@@ -21,31 +21,42 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: En este artículo se incluyen pasos detallados para deshabilitar la implementación híbrida como parte de la consolidación de la nube para Teams y Skype Empresarial.
-ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120359"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593858"
 ---
-# <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>Deshabilitar la migración híbrida para completar la migración a la nube: Información general
+# <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>Deshabilitar la configuración híbrida para completar la migración a la nube
 
-Después de mover todos los usuarios del entorno local a la nube, puede desactivar la implementación local de Skype Empresarial. Aparte de quitar cualquier hardware, un paso fundamental es separar lógicamente esa implementación local de Microsoft 365 u Office 365 deshabilitando la implementación híbrida. Deshabilitar la implementación híbrida consta de tres pasos:
+En este artículo se describe cómo deshabilitar la configuración híbrida antes de retirar el entorno local de Skype Empresarial. Este es el paso 2 de los siguientes pasos para retirar el entorno local:
 
-1. Actualice los registros DNS para que apunten a Microsoft 365 u Office 365.
+- Paso 1. [Mueva todos los usuarios y extremos de aplicación necesarios de local a en línea.](decommission-move-on-prem-users.md)
 
-2. Deshabilite el espacio de direcciones sip compartido (también conocido como "dominio dividido") en la organización de Microsoft 365 u Office 365.
+- **Paso 2. Deshabilite la configuración híbrida.** (Este artículo)
 
-3. Deshabilite la capacidad de comunicarse localmente con Microsoft 365 u Office 365.
+- Paso 3. [Quite la implementación local de Skype Empresarial](decommission-remove-on-prem.md).
 
-Estos pasos separan lógicamente la implementación local de Skype Empresarial Server de Office 365 y deben realizarse conjuntamente como una unidad. Los detalles de cada paso se proporcionan en este artículo a continuación. Una vez completado, puede retirar la implementación local de Skype Empresarial mediante uno de los dos métodos a los que se hace referencia a continuación.
+
+## <a name="overview"></a>Información general
+
+Después de actualizar todos los usuarios de Skype Empresarial local a Teams Solo en Microsoft 365, puede retirar la implementación local de Skype Empresarial. Antes de retirar la implementación local de Skype Empresarial y quitar cualquier hardware, debe separar lógicamente la implementación local de Microsoft 365 deshabilitando la implementación híbrida. La deshabilitación híbrida consta de los tres pasos siguientes:
+
+1. Actualizar los registros DNS para que apunten a Microsoft 365.
+
+2. Deshabilite el espacio de direcciones sip compartido (también conocido como "dominio dividido") en la organización de Microsoft 365.
+
+3. Deshabilite la capacidad de comunicarse localmente con Microsoft 365.
+
+Estos pasos separan lógicamente la implementación local de Skype Empresarial Server de Microsoft 365 y deben realizarse conjuntamente como una unidad. Los detalles de cada paso se proporcionan en este artículo. Una vez completado, puede retirar la implementación local de Skype Empresarial mediante uno de los dos métodos a los que se hace referencia a continuación.
 
 > [!Important] 
->Una vez completada esta separación lógica, los atributos msRTCSIP de su Active Directory local siguen teniendo valores y seguirán sincroniciendo a través de Azure AD Connect en Azure AD. La forma de retirar el entorno local depende de si desea dejar estos atributos en su lugar o, en primer lugar, borrarlos de su Active Directory local. Tenga en cuenta que borrar los atributos msRTCSIP locales después de migrar desde local podría provocar la pérdida de servicio para los usuarios. A continuación se describen los detalles y las disociones de los dos métodos de retirada.
+> Una vez completada esta separación lógica, los atributos msRTCSIP de su Active Directory local siguen teniendo valores y seguirán sincroniciendo a través de Azure AD Connect en Azure AD. La forma de retirar el entorno local depende de si desea dejar estos atributos en su lugar o, en primer lugar, borrarlos de su Active Directory local. Tenga en cuenta que borrar los atributos msRTCSIP locales después de migrar desde local podría provocar la pérdida de servicio para los usuarios. Más adelante, se describen los detalles y las transacciones de los dos enfoques de retirada.
 
-## <a name="disable-hybrid-to-complete-migration-to-the-cloud-detailed-steps"></a>Deshabilitar híbrido para completar la migración a la nube: Pasos detallados
+## <a name="detailed-steps"></a>Pasos detallados
 
-1. *Actualice DNS para que apunte a Microsoft 365 u Office 365.* El DNS externo de la organización para la organización local debe actualizarse para que los registros de Skype Empresarial apunten a Microsoft 365 u Office 365 en lugar de a la implementación local. En particular:
+1. *Actualice DNS para que apunte a Microsoft 365.* El DNS externo de la organización para la organización local debe actualizarse para que los registros de Skype Empresarial apunten a Microsoft 365 en lugar de a la implementación local. En particular:
 
     |Tipo de registro|Nombre|TTL|Valor|
     |---|---|---|---|
@@ -57,7 +68,7 @@ Estos pasos separan lógicamente la implementación local de Skype Empresarial S
     Además, se pueden eliminar los registros CNAME para meet o dialin (si están presentes). Por último, se deben quitar los registros DNS de Skype Empresarial en la red interna.
 
     > [!Note] 
-    > En raras ocasiones, cambiar DNS de apuntar localmente a Microsoft 365 u Office 365 para su organización puede provocar que la federación con otras organizaciones deje de funcionar hasta que otra organización actualice su configuración de federación:
+    > En raras ocasiones, cambiar DNS de apuntar localmente a Microsoft 365 para su organización puede provocar que la federación con otras organizaciones deje de funcionar hasta que otra organización actualice su configuración de federación:
     >
     > - Las organizaciones federadas que usan el modelo de federación directa anterior (también conocido como Servidor de partners permitidos) tendrán que actualizar las entradas de dominio permitidas para su organización para quitar el FQDN de proxy. Este modelo de federación heredado no se basa en registros SRV de DNS, por lo que dicha configuración se desatendrán una vez que la organización se mueva a la nube.
     > 
@@ -66,13 +77,13 @@ Estos pasos separan lógicamente la implementación local de Skype Empresarial S
     > Si sospecha que alguno de sus socios federados puede estar usando Direct Federation o no haber federado con ninguna organización híbrida o en línea, le sugerimos que envíe una comunicación al respecto mientras se prepara para completar la migración a la nube.
 
 
-2.  *Deshabilite el espacio de direcciones sip compartido en la organización de Microsoft 365 u Office 365.* El siguiente comando debe realizarse desde una ventana de PowerShell de Skype Empresarial Online.
+2.  *Deshabilitar el espacio de direcciones sip compartido en la organización de Microsoft 365.* El siguiente comando debe realizarse desde una ventana de PowerShell de Skype Empresarial Online.
 
      ```PowerShell
      Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
      ```
  
-3.  *Deshabilite la capacidad de comunicarse localmente con Microsoft 365 u Office 365.* El siguiente comando debe realizarse desde una ventana de PowerShell local:
+3.  *Deshabilite la capacidad de comunicarse localmente con Microsoft 365.* El siguiente comando debe realizarse desde una ventana de PowerShell local:
 
      ```PowerShell
      Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
@@ -106,13 +117,16 @@ Estos pasos no son necesarios para los nuevos usuarios creados después de desha
 
 ### <a name="method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory"></a>Método 2: Borrar atributos de Skype Empresarial para todos los usuarios locales de Active Directory
 
-Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que los usuarios que se movieron anteriormente de un Skype Empresarial Server local a la nube deben volver a aprovisionarse. Estos usuarios se pueden clasificar en dos categorías diferentes: usuarios sin sistema telefónico y usuarios con sistema telefónico. Los usuarios con sistema telefónico experimentarán una pérdida temporal del servicio telefónico como parte de la transición del número de teléfono desde que se administra en Active Directory local a la nube. **Se recomienda realizar un piloto en el que participen un número reducido de usuarios con sistema telefónico antes de iniciar operaciones masivas de usuario.** Para implementaciones grandes, los usuarios pueden procesarse en grupos más pequeños en diferentes ventanas de tiempo. 
+Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que los usuarios que se movieron previamente de un Skype Empresarial Server local a la nube deben volver a aprovisionarse. Estos usuarios se pueden clasificar en dos categorías diferentes: usuarios sin sistema telefónico y usuarios con sistema telefónico. Los usuarios con sistema telefónico experimentarán una pérdida temporal del servicio telefónico como parte de la transición del número de teléfono desde que se administra en Active Directory local a la nube. **Se recomienda realizar un piloto en el que participen un número reducido de usuarios con sistema telefónico antes de iniciar operaciones masivas de usuario.** Para implementaciones grandes, los usuarios pueden procesarse en grupos más pequeños en diferentes ventanas de tiempo. 
+
+> [!NOTE] 
+> Este proceso es más sencillo para los usuarios que tienen una dirección sip correspondiente y UserPrincipalName. Para las organizaciones que tienen usuarios con valores que no coinciden en estos dos atributos, se debe tener cuidado adicional como se indica a continuación para una transición sin problemas.
 
 > [!NOTE]
-> El proceso es más sencillo para los usuarios que tienen una dirección sip correspondiente y UserPrincipalName. Para las organizaciones que tienen usuarios con valores que no coinciden en estos dos atributos, se debe tener cuidado adicional como se indica a continuación para una transición sin problemas. 
+> Si ha configurado puntos de conexión de aplicaciones híbridas locales para operadores automáticos o colas de llamadas, asegúrese de mover estos extremos a Microsoft 365 antes de retirar Skype Empresarial Server.
 
 
-1. Confirme que el siguiente cmdlet local de PowerShell de Skype Empresarial devuelve un resultado vacío. Un resultado vacío significa que ningún usuario está internamente y se ha movido a Office 365 o se ha deshabilitado:
+1. Confirme que el siguiente cmdlet local de PowerShell de Skype Empresarial devuelve un resultado vacío. Un resultado vacío significa que ningún usuario está internamente y se ha movido a Microsoft 365 o se ha deshabilitado:
 
    ```PowerShell
    Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Select-Object Identity, SipAddress, UserPrincipalName, RegistrarPool
@@ -229,8 +243,11 @@ Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que l
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
+12. Después de completar todos los pasos del método 2, consulte [Remove your on-premises Skype for Business Server](decommission-remove-on-prem.md) para obtener pasos adicionales para quitar la implementación local de Skype Empresarial Server.
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-[Consolidación en la nube para Teams y Skype Empresarial](cloud-consolidation.md)
+- [Consolidación en la nube para Teams y Skype Empresarial](cloud-consolidation.md)
+
+- [Retirar el entorno local de Skype Empresarial](decommission-on-prem-overview.md)

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Microsoft Phone System.
-ms.openlocfilehash: 5df93bb5248f6077bf0378c5ab461c6cf8856fbf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f99801989920bf82b07aa6f15fcab9a99b2df065
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121398"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586559"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -105,6 +105,7 @@ Los usuarios de Enrutamiento directo deben tener asignadas las siguientes licenc
 
 > [!IMPORTANT]
 >  En el caso de que quiera agregar participantes externos a las reuniones programadas, ya sea marcando para ellos o proporcionando el número de acceso telefónico local, se requiere la licencia de audioconferencia.
+> Para GCC High y DoD, no asigne una licencia de audioconferencia para los usuarios de G5.  Para los usuarios de G3, no asigne una licencia de audioconferencia hasta que enrutamiento directo esté completamente configurado y el usuario tenga un teclado de marcado funcional.
 
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>Escalación de llamadas ad hoc y licencia de audioconferencia

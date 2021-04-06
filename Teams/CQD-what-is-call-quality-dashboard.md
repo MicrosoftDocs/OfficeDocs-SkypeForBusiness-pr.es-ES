@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre el Panel de calidad de llamadas (CQD) y cómo usarlo para ver informes sobre la calidad de las reuniones y las llamadas en Microsoft Teams.
-ms.openlocfilehash: c78e427ef87f7485932fac207c10add71c8bf269
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d262449394d9ad880d13897988e40e26dd98578c
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094944"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593838"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>¿Qué es el Panel de calidad de llamadas (CQD)?
 
@@ -51,12 +51,12 @@ En CQD, le recomendamos que cargue información de creación y punto de conexió
 
 No se pierda [](quality-of-experience-review-guide.md) nuestro artículo Administrar la calidad de las llamadas y reuniones, que ofrece instrucciones detalladas para el administrador de Teams o el ingeniero de soporte técnico responsable de administrar la calidad del servicio en Teams.
 
-## <a name="older-version-of-cqd-cqdlynccom"></a>Versión anterior de CQD (CQD.lync.com)
+## <a name="legacy-version-of-cqd-cqdlynccom"></a>Versión heredada de CQD (CQD.lync.com)
 
-La versión actual de CQD ( reemplaza la https://CQD.Teams.microsoft.com) versión anterior de CQD ( https://CQD.lync.com) . Todavía puede usar CQD.lync.com (disponible en el Centro de administración de Skype Empresarial), pero a partir del 1 de julio de 2020, está usando los datos de CQD. Teams.microsoft.com. Desactivaremos el acceso a CQD.lync.com, por lo que deberías moverte a CQD. Teams.microsoft.com si aún no lo ha hecho.
+La versión actual de CQD ( https://CQD.Teams.microsoft.com) ha reemplazado la versión heredada de CQD ( https://CQD.lync.com) . Todavía puede usar CQD.lync.com (disponible en el Centro de administración de Skype Empresarial), pero a partir del 1 de julio de 2020, está usando los datos de CQD. Teams.microsoft.com y ya no puede ver ni modificar los datos de creación o consulta desde el antiguo CQD (CQD.lync.com). Si aún no ha migrado estos datos desde CQD.lync.com y los sigue necesitando, registre un vale de soporte técnico.
 
 > [!IMPORTANT]
-> A partir del 1 de julio de 2020, ya no puede ver ni modificar los datos de creación o consulta desde el antiguo CQD (CQD.lync.com). Si aún no ha migrado estos datos desde CQD.lync.com y los sigue necesitando, registre un vale de soporte técnico.
+> A partir del 31 de julio de 2021, retiraremos la versión heredada de CQD (CQD.lync.com). Después de esa fecha, se le redirigirá automáticamente a CQD. Teams.microsoft.com al intentar obtener acceso a CQD.lync.com y se perderán los datos de consulta o creación no desagraciados.
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Usar Power BI para analizar datos CQD
 

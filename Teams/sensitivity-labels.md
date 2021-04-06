@@ -17,18 +17,18 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar etiquetas de confidencialidad para proteger sus equipos en Microsoft Teams.
-ms.openlocfilehash: 25c6e6a9a69f9172bebdab284754998e4acb910a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 461daf6e91f9ba276dceef1929601d1188563931
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117198"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593868"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Etiquetas de confidencialidad para Microsoft Teams
 
 [Las etiquetas de](/microsoft-365/compliance/sensitivity-labels) confidencialidad permiten a los administradores de Teams proteger y regular el acceso al contenido organizativo confidencial creado durante la colaboración en equipos. Después de configurar etiquetas de confidencialidad con sus directivas asociadas en el Centro de cumplimiento de [Microsoft,](/microsoft-365/compliance/go-to-the-securitycompliance-center)estas etiquetas se pueden aplicar a los equipos de su organización.
 
-Actualmente, las etiquetas de confidencialidad no son compatibles con los clientes que usan SKU de Teams Educación. Para obtener más información sobre las licencias, vea [Descripción del servicio de Microsoft Teams.](/office365/servicedescriptions/teams-service-description)
+Actualmente, las etiquetas de confidencialidad no son compatibles en los equipos de clase para los clientes que usan SKU de Teams Educación. Para obtener más información sobre las licencias, vea [Descripción del servicio de Microsoft Teams.](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>¿Cuál es la diferencia entre las etiquetas de confidencialidad y las etiquetas de clasificación de Teams?
 
@@ -59,8 +59,10 @@ De forma similar, cree y publique una etiqueta de confidencialidad denominada "G
 
 ![Captura de pantalla de la etiqueta confidencialidad general](media/sensitivity-labels-general-example.png)
 
-Cuando se crea el equipo, la etiqueta de confidencialidad está visible en la esquina superior derecha de los canales del equipo. Tenga en cuenta que si usa etiquetas jerárquicas secundarias primarias como "Confidencial\Finanzas", solo se mostrará la etiqueta principal en el encabezado del canal.
+Cuando se crea el equipo, la etiqueta de confidencialidad está visible en la esquina superior derecha de los canales del equipo. 
 
+> [!NOTE]
+> Si usa etiquetas jerárquicas de elementos primarios y secundarios como "Confidencial\Finanzas", solo se mostrará la etiqueta principal en el encabezado del canal.
 
 ![Captura de pantalla de la etiqueta de confidencialidad en el canal de grupo](media/sensitivity-labels-channel.png)
 
@@ -88,7 +90,7 @@ Antes de usar etiquetas de confidencialidad para Teams, tenga en cuenta las sigu
 
 - **Las etiquetas de confidencialidad no son compatibles con las API de Teams Graph, los cmdlets de PowerShell y las plantillas**
     
-    Los usuarios no podrán aplicar etiquetas de confidencialidad en equipos creados directamente a través de API de Teams Graph, cmdlets de PowerShell de Teams y plantillas de Teams.
+    Los usuarios no podrán especificar etiquetas de confidencialidad al crear equipos directamente a través de API de Teams Graph, cmdlets de PowerShell de Teams y plantillas de Teams. Sin embargo, las API de Gráfico de grupos modernos y los cmdlets de PowerShell permiten la creación de grupos con etiquetas. Para que los usuarios primero puedan crear grupos con etiquetas con API de Gráfico de grupos o cmdlets de PowerShell y, a continuación, convertir estos grupos en Teams.
 
 - **Compatibilidad con canales privados**
     

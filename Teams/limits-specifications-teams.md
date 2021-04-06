@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 98f462044fba566ecea491bc55bf8df055973701
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d14dcbcc7176a482458e23b10e4f017b28ad24ea
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112296"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586499"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -137,6 +137,9 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |Teams guarda [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream, que se pueden descargar de forma local | 20 días |
 
 ### <a name="meeting-expiration"></a>Expiración de la reunión
+
+> [!NOTE]
+> Una dirección URL de reunión nunca dejará de funcionar. La expiración solo se relaciona con los números de marcado RTC o con las directivas y configuraciones de reunión subyacentes.
 
 |Tipo de reunión  |La reunión expira después de esta cantidad de tiempo  |Cada vez que se inicia o actualiza una reunión, la expiración se extiende por este tiempo  |
 |---------|---------|---------|
