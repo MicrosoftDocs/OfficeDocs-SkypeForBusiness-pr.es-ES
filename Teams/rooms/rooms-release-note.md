@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la versión de salas de Microsoft Teams, que incluyen mejoras acumulativas en salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cfb7742cb1f25db0dec7e777bdb9a891ca009867
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a922f3fead6c33f70e7393dd536b856934ddb390
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117418"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607552"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -29,6 +29,7 @@ En este artículo se deba a las mejoras acumulativas en salas de Microsoft Teams
 
 |Versión |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
@@ -70,6 +71,16 @@ En este artículo se deba a las mejoras acumulativas en salas de Microsoft Teams
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a las salas de Microsoft Teams y resolución de problemas
+
+### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
+
+Se ha introducido en esta actualización:
+- Compatibilidad con government community cloud high (GCCH) para salas de Teams. Los clientes de GCCH con dispositivos Teams Rooms existentes pueden descargar la versión 4.8.18.0 desde actualizar manualmente un dispositivo [salas de Microsoft Teams](manual-update.md)
+- Unirse a reuniones de Zoom con mejor calidad de vídeo (soporte técnico de 720p) y recibir la galería de vídeo de los participantes
+- Se eliminó el banner de error de inicio de sesión de Skype Empresarial para el modo predeterminado de Teams. Este cambio es compatible con las organizaciones que quitan la infraestructura de Skype Empresarial
+- Las reuniones de Teams se unen al análisis de vínculos ahora controla los vínculos seguros de protección avanzada de hilos de Microsoft Defender para permitir unirse a Teams externos sin problemas
+- Corrección del problema de escalado de contenido compartido en las reuniones de Skype Empresarial cuando el equipo del sharer tiene un ppp personalizado establecido en Windows
+- Correcciones de calidad y confiabilidad
 
 ### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
 
@@ -204,7 +215,7 @@ Se ha introducido en esta actualización:
 - Actualización del tema: solo mantenga la imagen de fondo personalizada delante de las pantallas de la sala, mientras que hace que el fondo de la consola sea un color neutro para garantizar que los controles de la interfaz de usuario de la consola cumplan con el contraste de color, requisitos de accesibilidad
 - Barra universal para los controles de llamadas en la reunión para las llamadas y reuniones de Teams para proporcionar una experiencia coherente con los clientes de Microsoft Teams PC/ Web/ Mobile<sup>1</sup>
 - Clasificación de comentarios sobre la calidad de las llamadas después de las llamadas o reuniones de Teams<sup>1</sup>
-- Recieve/ render Microsoft Whiteboard on Microsoft Teams Rooms front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup> <sup>2</sup>
+- Recibir/representar Microsoft Whiteboard en la pantalla frontal de salas de Microsoft Teams cuando se comparte desde el cliente de PC/ Web/ Mobile Teams<sup>1</sup> <sup>2</sup>
 - Se ha eliminado la compatibilidad con las actualizaciones de Windows 10 versión 1809 debido a problemas de compatibilidad con el cliente salas de Microsoft Teams. La compatibilidad con Windows 10 Versión 19H1 se agregará en futuras versiones
 
 <sup>1 Implementación del</sup> servicio de Microsoft Teams con anillos de Teams. Esta característica puede estar disponible antes o después de la actualización de cliente 4.0.105.0

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom: ''
 description: Obtenga información sobre cómo usar la configuración de directiva de reunión para controlar la expiración de la reunión en Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1685da93c90d8d12cc4e8b8f2a92fd4f93391c87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6e8821781eab70696c9b24c8df18cc8dd0b46870
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115568"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598619"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Directivas de reunión y expiración de la reunión en Microsoft Teams
 
@@ -35,11 +35,11 @@ ms.locfileid: "51115568"
 
 La configuración de directiva de reunión que controla si los usuarios pueden iniciar y programar reuniones también controlan la expiración de las reuniones programadas por los usuarios. Cuando un vínculo de unirse a una reunión y el id. de conferencia de una reunión expiran, nadie puede unirse a la reunión. La siguiente configuración de directiva de reunión determina si los usuarios pueden iniciar y programar reuniones en Teams, y nos referimos a ellas en este artículo.
 
-- [Permitir reunirse ahora en canales:](meeting-policies-in-teams.md#allow-meet-now-in-channels)controla si un usuario puede iniciar una reunión improvisada en un canal.
-- [Permitir la programación de reuniones del canal:](meeting-policies-in-teams.md#allow-channel-meeting-scheduling)controla si un usuario puede programar una reunión en un canal.
-- [Permitir la programación de reuniones privadas:](meeting-policies-in-teams.md#allow-scheduling-private-meetings)controla si un usuario puede programar una reunión privada en Teams. Una reunión es privada cuando no se publica en un canal de un equipo.
-- [Permitir el complemento de Outlook:](meeting-policies-in-teams.md#allow-the-outlook-add-in)controla si un usuario puede programar una reunión privada desde Outlook. Una reunión es privada cuando no se publica en un canal de un equipo.
-- [Permitir reunirse ahora en reuniones privadas:](meeting-policies-in-teams.md#allow-meet-now-in-private-meetings)controla si un usuario puede iniciar una reunión privada improvisada.
+- [Permitir reunirse ahora en canales:](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)controla si un usuario puede iniciar una reunión improvisada en un canal.
+- [Permitir la programación de reuniones del canal:](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)controla si un usuario puede programar una reunión en un canal.
+- [Permitir la programación de reuniones privadas:](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)controla si un usuario puede programar una reunión privada en Teams. Una reunión es privada cuando no se publica en un canal de un equipo.
+- [Permitir el complemento de Outlook:](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)controla si un usuario puede programar una reunión privada desde Outlook. Una reunión es privada cuando no se publica en un canal de un equipo.
+- [Permitir reunirse ahora en reuniones privadas:](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings)controla si un usuario puede iniciar una reunión privada improvisada.
 
 De forma predeterminada, esta configuración está en. Cuando cualquiera de estas opciones de configuración está desactivada, cualquier usuario al que se le haya asignado la directiva no puede iniciar ni programar nuevas reuniones de ese tipo. Al mismo tiempo, la reunión une vínculos e id. de conferencia de todas las reuniones existentes de ese tipo que el usuario inició o programó anteriormente expiran.
 

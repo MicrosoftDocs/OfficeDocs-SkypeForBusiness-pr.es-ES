@@ -17,12 +17,12 @@ description: Obtenga un informe de asistencia a reuniones desde Teams. Este info
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fe30df1a6ab6cb81d313400e584ac9b1e519e0a1
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
-ms.translationtype: HT
+ms.openlocfilehash: 22d727adb211718e9734446f2202635e180f5fc3
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130441"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598499"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Informe de asistencia a reuniones de Microsoft Teams
 
@@ -32,7 +32,7 @@ Los organizadores de reuniones pueden ver y descargar informes de asistencia a r
 
 Para los espacios empresariales de educación, este informe es útil para realizar un seguimiento de la asistencia de los alumnos a las clases en línea. Por ejemplo, el profesor puede descargar el informe de asistencia al principio de la clase como una forma sencilla de realizar una "llamada de lanzamiento". Para obtener más información, lea [Descargar informes de asistencia en Teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 
-Como administrador, usted controla si los organizadores de reuniones pueden descargar informes de asistencia a reuniones al establecer una directiva de reuniones de Teams. De forma predeterminada, la capacidad de descargar el informe está desactivada. Para obtener información sobre cómo activar esta característica, consulte [Configuración de la directiva de reunión: Informe sobre la asistencia a reuniones](../meeting-policies-in-teams.md#meeting-policy-settings---meeting-attendance-report).
+Como administrador, usted controla si los organizadores de reuniones pueden descargar informes de asistencia a reuniones al establecer una directiva de reuniones de Teams. De forma predeterminada, la capacidad de descargar el informe está desactivada. Para obtener información sobre cómo activar esta característica, consulte [Configuración de la directiva de reunión: Informe sobre la asistencia a reuniones](../meeting-policies-in-teams-general.md#meeting-attendance-report).
 
 Si los organizadores de la reunión necesitan tener acceso a más datos de asistencia de los que obtienen del informe disponible dentro de la reunión, puede asignarles el rol *lector de informes* para que puedan obtener acceso a los informes de administración de Teams. Para obtener más información, lea [Quién tiene acceso a los informes de actividades de Teams](../teams-activity-reports.md#who-can-access-the-teams-activity-reports). 
 

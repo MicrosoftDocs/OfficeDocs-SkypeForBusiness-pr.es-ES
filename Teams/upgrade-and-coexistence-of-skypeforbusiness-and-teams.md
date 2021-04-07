@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 680bfad9090899ecce1f6e2be7bd9a0a25f5099a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 015a0f079f5e95f43c4245ff48f2d88df0e1fa74
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112176"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598309"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Elegir la vía de actualización de Skype Empresarial a Teams
 
@@ -62,7 +62,7 @@ Para recibir orientación sobre el proceso de toma de decisiones, familiarícese
 
 Un usuario que ha migrado a Teams ya no usa un cliente de Skype Empresarial, salvo para incorporarse a una reunión mantenida en Skype Empresarial. Todos los chats y llamadas entrantes se aterrizó en el cliente de Teams del usuario, independientemente de si el remitente usa Teams o Skype Empresarial. Todas las reuniones nuevas organizadas por el usuario actualizado se programarán como reuniones de Teams. Si el usuario intenta usar el cliente de Skype Empresarial, se bloqueará el inicio de chats y llamadas<sup>1</sup>. Sin embargo, el usuario puede (y debe) seguir usando el cliente de Skype Empresarial para incorporarse a las reuniones a las que sea invitado.
 
-Los administradores gestionan la transición a Teams aplicando el concepto de [modo](migration-interop-guidance-for-teams-with-skype.md), que es una propiedad de [TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Un usuario que se ha migrado a Teams como se describe anteriormente está en modo "TeamsOnly". En el caso de una organización que va a migrar a Teams, el objetivo final es pasar a todos los usuarios al modo TeamsOnly.
+Los administradores gestionan la transición a Teams aplicando el concepto de [modo](migration-interop-guidance-for-teams-with-skype.md), que es una propiedad de [TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true). Un usuario que se ha migrado a Teams como se describe anteriormente está en modo "TeamsOnly". En el caso de una organización que va a migrar a Teams, el objetivo final es pasar a todos los usuarios al modo TeamsOnly.
 
 Hay dos métodos para migrar una organización existente con Skype Empresarial (tanto en línea como local) a Teams:
 
@@ -113,7 +113,7 @@ En la tabla siguiente se resume la experiencia de Teams para los modos Islas y T
 | Chats y llamadas entrantes recibidos en:|  Teams o Skype Empresarial | Teams |
 | Llamadas RTC recibidas en: | Skype Empresarial <br>(El uso de la función RTC en equipos no es compatible con el modo Islas).     | Teams |   
  |Presencia    | La presencia en Skype Empresarial y en Teams es independiente. Los usuarios pueden ver diferentes estados para el mismo usuario en modo Islas en función del cliente que utilicen. | La presencia se basa únicamente en la actividad del usuario en Teams. El resto de usuarios, independientemente del cliente que usen, verán esta presencia. | 
- | Programación de reuniones    | Los usuarios pueden programar reuniones en Teams o en Skype Empresarial. De forma predeterminada, verán ambos complementos en Outlook. Puede establecer una directiva de reunión de Teams para controlar si los usuarios solo pueden usar el complemento Reunión de Teams o los complementos Reunión de Teams y Reunión de Skype Empresarial. Para obtener más información, vea [Establecer el proveedor de reuniones para los usuarios en modo Islas.](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode) |     Los usuarios solo pueden programar reuniones en Teams. En Outlook, solo está disponible el complemento Teams. | 
+ | Programación de reuniones    | Los usuarios pueden programar reuniones en Teams o en Skype Empresarial. De forma predeterminada, verán ambos complementos en Outlook. Puede establecer una directiva de reunión de Teams para controlar si los usuarios solo pueden usar el complemento Reunión de Teams o los complementos Reunión de Teams y Reunión de Skype Empresarial. Para obtener más información, vea [Establecer el proveedor de reuniones para los usuarios en modo Islas.](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode) |     Los usuarios solo pueden programar reuniones en Teams. En Outlook, solo está disponible el complemento Teams. | 
 
 En la tabla siguiente se resumen las ventajas e inconvenientes de usar el método de funciones superpuestas para migrar su organización a Teams.
 
@@ -212,6 +212,6 @@ Después de elegir el mejor viaje de actualización para su organización, [real
 
 [Configurar su coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true)
 
 [Usar el servicio de migración de reuniones (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

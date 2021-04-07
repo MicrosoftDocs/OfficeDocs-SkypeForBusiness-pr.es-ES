@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams y visitas virtuales con la aplicación Bookings
-ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7cb948e020d27ccee396aebb8d1b36b022160a75
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092788"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598609"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación Bookings
 
@@ -57,7 +57,7 @@ Hay varias formas de controlar quién tiene acceso a la aplicación de Bookings 
 
 ## <a name="recommended-meeting-policy-settings"></a>Configuración de directiva de reunión recomendada
 
-Para habilitar la mejor experiencia para Bookings, cree una directiva de reunión de personal para admitir automáticamente a **Todos los usuarios de su organización**. Esto permitirá al personal unirse a la cita automáticamente y habilitar la experiencia de sala de espera para los asistentes externos. Puede obtener más información sobre la [admisión automática de personas a las reuniones](meeting-policies-in-teams.md#automatically-admit-people).
+Para habilitar la mejor experiencia para Bookings, cree una directiva de reunión de personal para admitir automáticamente a **Todos los usuarios de su organización**. Esto permitirá al personal unirse a la cita automáticamente y habilitar la experiencia de sala de espera para los asistentes externos. Puede obtener más información sobre la [admisión automática de personas a las reuniones](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 ### <a name="optional-staff-approvals-setting"></a>Configuración opcional de aprobaciones para personal
 

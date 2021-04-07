@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de la versión de las características de administrador de Microsoft Teams.
-ms.openlocfilehash: 709cbf8b4a5438f0f8e2447e093414de9829f161
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 5f9020afaa230156df2927ceecfd26ae33c2c2ae
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574099"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598509"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de la versión de las características de administración de Microsoft Teams
 
@@ -49,7 +49,7 @@ Los administradores de TI pueden aprovisionar e iniciar sesión de forma remota 
 
 ### <a name="enable-live-transcripts-in-teams"></a>Habilitar transcripciones en directo en Teams
 
-Esta es una directiva por usuario y se aplica durante la reunión. Esta configuración controla si la opción Activar los subtítulos en directo está disponible para que el usuario active y desactive los subtítulos en directo en las reuniones a las que asista. [Más información](../meeting-policies-in-teams.md#enable-live-captions).
+Esta es una directiva por usuario y se aplica durante la reunión. Esta configuración controla si la opción Activar los subtítulos en directo está disponible para que el usuario active y desactive los subtítulos en directo en las reuniones a las que asista. [Más información](../meeting-policies-participants-and-guests.md#enable-live-captions).
 
 ## <a name="march-23-2021"></a>23 de marzo de 2021
 
@@ -216,7 +216,7 @@ Hemos agregado recientemente soporte técnico del plan de llamadas para Austria,
 
 ### <a name="meeting-policy-settings"></a>Configuración de la directiva de reunión
 
-Agregar dos configuraciones de directiva para audio IP y vídeo IP en directivas de reuniones de Teams: Modo de audio IP y Modo para vídeo IP. Ahora puede configurar el audio IP entrante y saliente y el vídeo IP en las directivas de reunión de Teams. [Más información](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
+Agregar dos configuraciones de directiva para audio IP y vídeo IP en directivas de reuniones de Teams: Modo de audio IP y Modo para vídeo IP. Ahora puede configurar el audio IP entrante y saliente y el vídeo IP en las directivas de reunión de Teams. [Más información](../meeting-policies-audio-and-video.md).
 
 ## <a name="september-27-2020"></a>27 de septiembre de 2020
 

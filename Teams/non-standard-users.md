@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a8c3c842b47c4575779de4c0ae8301bededb632
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6fc4f4f53262127355afa573b0fc2abec6b05e64
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098306"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607522"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Comportamiento de las aplicaciones de Microsoft Teams para usuarios no estándar
 
@@ -73,6 +73,6 @@ Los usuarios anónimos no pueden instalar, actualizar ni eliminar aplicaciones e
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportamiento y directiva de uso para usuarios anónimos
 
-Los usuarios anónimos no pueden usar directamente las aplicaciones en las reuniones. Los usuarios nativos pueden seguir usando las aplicaciones de reuniones si hay usuarios anónimos presentes. Si una aplicación envía una tarjeta adaptable en el chat, los usuarios anónimos pueden interactuar con la tarjeta.
+Los usuarios anónimos no pueden usar directamente las aplicaciones en las reuniones. Los usuarios nativos pueden seguir usando las aplicaciones de reuniones si hay usuarios anónimos presentes. Si una aplicación envía una tarjeta adaptable en el chat, los usuarios anónimos pueden interactuar con la tarjeta Para obtener más información, vea Permitir que usuarios anónimos se [unan a reuniones.](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)
 
-Los usuarios anónimos heredarán la directiva de permisos predeterminada global a nivel de usuario. Este control permite a los usuarios anónimos interactuar con aplicaciones en reuniones de Teams si la directiva de permisos de nivel de usuario ha habilitado la aplicación. Los usuarios anónimos solo pueden interactuar con aplicaciones que ya están disponibles en una reunión y que no pueden adquirir ni administrar estas aplicaciones.
+Los usuarios anónimos heredarán la directiva de permisos predeterminada global a nivel de usuario. Pueden interactuar con aplicaciones en reuniones de Teams si la directiva de permisos de nivel de usuario ha habilitado la aplicación. Los usuarios anónimos solo pueden interactuar con aplicaciones que ya están disponibles en una reunión y que no pueden adquirir ni administrar estas aplicaciones.

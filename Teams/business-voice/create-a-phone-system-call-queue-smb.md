@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Obtenga información sobre cómo configurar las colas de llamadas con Microsoft 365 Business Voice.
-ms.openlocfilehash: f60919dccd25231dbdb7e9c2991251bcb3f96700
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 40018ce331dfe8516e00c6781373d528a71e85c5
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506647"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607562"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Crear una cola de llamadas: tutorial para pequeñas empresas
 
@@ -98,7 +98,7 @@ Puede crear una cuenta de recursos en el Centro de administración de Teams.
 
 2. Haga clic en **Agregar**.
 
-3. En el **panel Agregar cuenta de** recursos, rellene **Nombre** para mostrar, **Nombre** de usuario y elija Cola **de llamadas** para el tipo de **cuenta Recurso.**
+3. En el **panel Agregar cuenta de** recursos, rellene **Nombre** para mostrar, **Nombre** de usuario y elija Cola **de llamadas** para el tipo de **cuenta Recurso.** Los agentes verán el nombre para mostrar cuando reciban una llamada entrante desde la cola.
 
     ![Captura de pantalla de la interfaz de usuario agregar cuenta de recursos](../media/resource-account-add-cq.png)
 
@@ -112,7 +112,7 @@ La nueva cuenta aparecerá en la lista de cuentas.
 
 Debe asignar una licencia de Usuario virtual de *Microsoft 365 Phone System* a la cuenta de recursos.
 
-1. En el Centro de administración de Microsoft 365, haga clic en la cuenta de recursos a la que desea asignar una licencia.
+1. En el Centro de administración de  Microsoft 365, en la lista Usuarios activos, haga clic en la cuenta de recursos a la que desea asignar una licencia.
 
 2. En la **pestaña Licencias y aplicaciones,** en **Licencias,** seleccione **Microsoft 365 Phone System - Usuario virtual.**
 
@@ -126,7 +126,7 @@ A continuación, empezaremos a crear una nueva cola de llamadas y asignaremos la
 
 1. En el Centro de administración de Teams, expanda **Voz,** haga clic en **Colas de** llamadas y, a continuación, haga clic **en Agregar.**
 
-1. Escriba un nombre descriptivo para la cola. Los agentes verán este nombre cuando reciban una llamada entrante de la cola.
+1. Escriba un nombre descriptivo para la cola.
 
 2. Haga clic en **Agregar cuentas**, busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar** y, después, haga clic en **Agregar**.
 
@@ -212,7 +212,7 @@ Elija cómo desea controlar las llamadas que superan el máximo de la cola.
 
 Elija lo que desea que suceda cuando las llamadas hayan estado esperando en la cola durante demasiado tiempo.
 
-1. Establecer el **tiempo de espera de la llamada: tiempo máximo de espera.**
+1. Establecer el **tiempo de espera máximo**.
 
 2. Elija lo que desea hacer cuando se resalte el tiempo de espera de una llamada. Puede desconectar la llamada o redirigirla. Se recomienda redirigir la llamada a uno de los siguientes destinos:
     - **Persona de la organización:** una persona de su organización que puede recibir llamadas de voz

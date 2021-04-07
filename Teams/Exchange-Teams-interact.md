@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa192472da86850a580bc981291762386f15c434
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 31f468e6e3fea0915322e632ad27f2213d5d63c7
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094642"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598369"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -122,7 +122,7 @@ He aquí algunas consideraciones adicionales para la implementación de Microsof
 
 - Controlar y proteger la configuración de directivas de cumplimiento en Teams y Exchange mediante el Acceso condicional. Para más información, consulte [¿Cómo funcionan las directivas de Acceso condicional en Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- Si su organización tiene ciertas normativas por las que se tienen que poder detectar todas las discusiones de las reuniones, debe deshabilitar las reuniones privadas si el organizador tiene un buzón de correo local de Exchange. Para más información, consulte [Permitir la programación de reuniones privadas](./meeting-policies-in-teams.md#allow-scheduling-private-meetings).
+- Si su organización tiene ciertas normativas por las que se tienen que poder detectar todas las discusiones de las reuniones, debe deshabilitar las reuniones privadas si el organizador tiene un buzón de correo local de Exchange. Para más información, consulte [Permitir la programación de reuniones privadas](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings).
 
 - En una implementación híbrida de Exchange, el contenido de los mensajes de chat se puede buscar sin importar que los participantes del chat tengan un buzón de correo basado en la nube o local. Para más información, consulte [Búsqueda de buzones basados en la nube para usuarios locales](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para más información sobre la búsqueda de contenido en Teams, consulte [Búsqueda de contenido en el Centro de cumplimiento de Microsoft 365](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
