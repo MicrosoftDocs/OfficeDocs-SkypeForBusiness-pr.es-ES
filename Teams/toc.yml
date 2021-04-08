@@ -550,9 +550,25 @@ items:
       - name: Reuniones
         items:
           - name: Administrar directivas de reunión
-            href: meeting-policies-in-teams.md
-          - name: Quitar la directiva de reunión de RestrictedAnonymousAccess de los usuarios
-            href: meeting-policies-restricted-anonymous-access.md
+            items:
+              - name: Información general
+                href: meeting-policies-overview.md
+              - name: Directivas generales
+                href: meeting-policies-in-teams-general.md
+              - name: Directivas de audio y vídeo
+                href: meeting-policies-audio-and-video.md
+              - name: Directivas de uso compartido de pantalla y contenido
+                items:
+                  - name: Uso compartido de contenido
+                    href: meeting-policies-content-sharing.md
+                  - name: Configurar uso compartido de escritorio
+                    href: configure-desktop-sharing.md
+              - name: 'Directivas de participante, invitado y acceso'
+                items:
+                  - name: Directivas de participantes e invitados
+                    href: meeting-policies-participants-and-guests.md
+                  - name: Quitar la directiva de reunión de RestrictedAnonymousAccess de los usuarios
+                    href: meeting-policies-restricted-anonymous-access.md
           - name: Administrar la configuración de reuniones
             href: meeting-settings-in-teams.md
           - name: Correos electrónicos que se envían a los usuarios cuando cambia la configuración
