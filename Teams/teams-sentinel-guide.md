@@ -19,14 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1075a2c345bd866266b175a4b62432e9f819b330
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098186"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598529"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel y Microsoft Teams
+
+> [!IMPORTANT]
+> Azure Sentinel ahora tiene un conector integrado. Para obtener más información, consulte [Conectar los registros de Office 365 a Azure Sentinel](/azure/sentinel/connect-office-365). Esta es la ruta recomendada para recopilar estos registros y sustituye los métodos de recopilación que se describen a continuación.
 
 Teams desempeña un papel fundamental tanto en la comunicación como en el uso compartido de datos en la nube de Microsoft 365. Como el servicio de los equipos toca tantas tecnologías subyacentes en la nube, se puede beneficiar de análisis humanos y automatizados no solamente cuando se trata de la *búsqueda en los registros*, sino también en *el seguimiento en tiempo real de las reuniones*. Estas soluciones las proporcionan los administradores de Azure Sentinel.
 
@@ -44,13 +47,13 @@ El presente artículo se centra en la recopilación de los registros de activida
 
 Esta sección cuenta con tres partes:
 
-1. Habilitar registros de auditoría en **Microsoft 365** (M365).
+1. Habilitación de registros de auditoría en **Microsoft 365**.
 2. Registro de una aplicación en **Microsoft Azure** para permitir la autenticación y autorización para la recopilación de registros.
-3. Registro de la suscripción a la API que permitirá la recopilación de registros a través de la API de M365 a través de **PowerShell**.
+3. Registro de la suscripción a la API que permitirá la recopilación de registros a través de la API de Microsoft 365 a través de **PowerShell**.
 
-### <a name="enable-audit-logs-in-m365"></a>Habilitar registros de auditoría en M365
+### <a name="enable-audit-logs-in-microsoft-365"></a>Habilitación de registros de auditoría en Microsoft 365
 
-Como Teams registra la actividad por M365, los registros de auditoría no se recopilan de forma predeterminada. Active esta característica mediante [estos pasos](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0). Los datos de los equipos se recopilan en la auditoría de M365, en *auditar. información general*.
+Como Teams registra la actividad por Microsoft 365, los registros de auditoría no se recopilan de forma predeterminada. Active esta característica mediante [estos pasos](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0). Los datos de los equipos se recopilan en la auditoría de Microsoft 365, en *auditar. información general*.
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>Registrar una aplicación en Microsoft Azure para la recopilación de registros
 
@@ -76,7 +79,7 @@ Autentique y autorice una aplicación de Azure Active Directory (Azure AD) para 
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>Registrar la API con PowerShell para recopilar registros de Teams
 
-El último paso de la instalación es recopilar y registrar la suscripción API para que pueda recopilar sus datos de registro. Esto se hace a través de las llamadas de REST de PowerShell a la API de Actividad de administración de M365.
+El último paso de la instalación es recopilar y registrar la suscripción API para que pueda recopilar sus datos de registro. Esto se hace a través de las llamadas de REST de PowerShell a la API de Actividad de administración de Microsoft 365.
 
 Prepárese para suministrar el **ID de la Aplicación (cliente)**, el nuevo **Secreto de Cliente**, su **Dominio URL para M365** y los valores de **ID del Directorio (inquilino)** en el cmdlet de PowerShell que aparece a continuación.
 

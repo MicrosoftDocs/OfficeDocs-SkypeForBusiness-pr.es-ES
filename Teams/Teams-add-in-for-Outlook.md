@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1def8b943070fc5c7ed1bf2fb3279e0e61a477b6
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 4ce2e7ff2822e87d3a2a4784a10d83a4c12ced8f
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593778"
+ms.locfileid: "51598389"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -115,7 +115,7 @@ Debido a algunas limitaciones de la versión inicial, Outlook para dispositivos 
 
 Como administrador, puede establecer una configuración de directiva de reuniones de Teams para controlar qué complemento para reunión de Outlook se usará para los *usuarios que estén en modo de aplicaciones aisladas*. Puede especificar si los usuarios que se encuentran en modo de aplicaciones aisladas pueden usar solamente el complemento para reunión de Microsoft Teams o los complementos para reunión de Microsoft Teams y Skype Empresarial para programar reuniones en Outlook.
 
-Solo puede aplicar esta directiva a los usuarios que se encuentren en modo de aplicaciones aisladas y tengan el parámetro **AllowOutlookAddIn** establecido en **True** en la directiva de reuniones de Microsoft Teams. Para ver los pasos para configurar esta directiva, consulte [Establecer el proveedor de reuniones para los usuarios que se encuentran en modo de aplicaciones aisladas](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
+Solo puede aplicar esta directiva a los usuarios que se encuentren en modo de aplicaciones aisladas y tengan el parámetro **AllowOutlookAddIn** establecido en **True** en la directiva de reuniones de Microsoft Teams. Para conocer los pasos para configurar esta directiva, consulte [Configuración de la directiva de reunión: general](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode).
 
 ## <a name="other-considerations"></a>Otras consideraciones
 
@@ -142,7 +142,7 @@ También puede llevar a cabo los pasos siguientes manualmente:
 
 - Los usuarios de Windows 7 deben instalar la [Actualización Universal C Runtime en Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que el complemento para reunión de Microsoft Teams funcione.
 - Compruebe que el usuario tenga una directiva de actualización de Microsoft Teams que permita programar reuniones en Microsoft Teams. Consulte [Actualización de Skype Empresarial a Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) para obtener más información.
-- Compruebe que el usuario tenga una directiva de actualización de Microsoft Teams que permita el complemento de Outlook. Consulte [Administrar directivas de reuniones en Microsoft Teams](./meeting-policies-in-teams.md#allow-the-outlook-add-in) para obtener más información.
+- Compruebe que el usuario tenga una directiva de actualización de Microsoft Teams que permita el complemento de Outlook. Consulte [Configuración de la directiva de reunión: general](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in) para obtener más información.
 - Asegúrese de que el usuario tiene instalado el cliente de escritorio de Microsoft Teams. El complemento para reunión no se instalará cuando solo se use el cliente web de Microsoft Teams.
 - Asegúrese de que el usuario tiene instalado Outlook 2013 o una versión posterior.
 - Asegúrese de que el usuario tiene permiso para ejecutar regsvr32.exe.
