@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fc4f4f53262127355afa573b0fc2abec6b05e64
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: fb4b5dfebabfcd0bc86006d93272c3901e7dcfc7
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607522"
+ms.locfileid: "51617853"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Comportamiento de las aplicaciones de Microsoft Teams para usuarios no estándar
 
@@ -32,8 +32,8 @@ En este artículo se describe cómo se comportan las aplicaciones de Teams cuand
 
 - Un **usuario externo (federado)** pertenece a otro dominio y no tiene acceso a los equipos ni a los recursos del equipo de su organización.
 
->[!Note]
-> Para obtener una comparación más detallada de los usuarios invitados frente a los externos, vea [Comunicarse con usuarios de otras organizaciones.](./communicate-with-users-from-other-organizations.md)
+  > [!Note]
+  > Para obtener una comparación más detallada de los usuarios invitados frente a los externos, vea [Comunicarse con usuarios de otras organizaciones.](./communicate-with-users-from-other-organizations.md)
 
 - Un **usuario anónimo es** un concepto en las reuniones de Teams en las que el usuario se ha unido a la reunión a través de un vínculo. El usuario no ha iniciado sesión con su cuenta de Microsoft u organización.
 

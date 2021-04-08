@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2922f22ec0ea7db095c63ce05f9d37752ba134a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f5015317fb2aff22cdc53fb30f62e6d4ea8c2237
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094572"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51617803"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción a la formación de administradores para Microsoft Teams
 
@@ -75,6 +75,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 | Título                                                                       | Abstracto                                                                                                                                                                                                               |  Vínculo a la Guía                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identidad, administración de & protección contra amenazas para Teams                   | Obtenga información sobre cómo usar los centros de administración de Microsoft y PowerShell para configurar directivas de acceso e identidad y Habilitar la protección contra amenazas avanzada de Office 365 para Teams                                                            | [Guía de seguridad de Teams](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Directivas de prevención de pérdida de datos (DLP) para Microsoft Teams                     | Obtenga información sobre cómo agregar Microsoft Teams a una directiva DLP existente, así como crear una nueva directiva, ya sea basada en una plantilla o totalmente personalizada para las necesidades de protección de datos de su organización.                        | [Guía DLP de Teams](https://aka.ms/teamsdlpguide)         |
 | Administrar el cumplimiento en Teams                                                | Use los centros de administración de Microsoft 365 Security, Microsoft 365 Compliance y Microsoft Teams, así como Windows PowerShell para administrar y configurar las directivas y la configuración de Microsoft Teams de una organización de Office 365. | [Administrar el cumplimiento en la guía de Teams](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Asesor de Teams: Implementar chats, equipos, canales y aplicaciones en Microsoft Teams | Obtenga información sobre cómo usar el asesor de Teams para evaluar su entorno y crear un plan para implementar chats, equipos, canales y aplicaciones.                                                                                         |  [Guía del Asesor de Teams](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Racionalizar la administración de Teams con PowerShell y grupos dinámicos        | Convierta un grupo de Office 365 de pertenencia estática a dinámica y use Windows PowerShell para asignar una nueva directiva de permisos de aplicación a todos los miembros.                                                                         |  [Guía de administración de Streamlining Teams](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -85,6 +86,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 | Configurar e implementar reuniones de Microsoft Teams                          | Avance por el proceso de implementación de la carga de trabajo de reuniones para Microsoft Teams.                                                                                                                                       |  [Configurar e implementar la guía de reuniones de Microsoft Teams](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Configurar audioconferencias para Microsoft Teams                            | Descubra las capacidades de las audioconferencias en Teams y aprenda a asignar puentes de conferencia y números de teléfono de acceso telefónico local.                                                                                          |  [Configurar las audioconferencias para la guía de Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | Configurar Microsoft Teams para trabajadores de primera línea                           | Obtenga información sobre cómo configurar e implementar el entorno adecuado de Microsoft Teams para su plantilla de Firstline.                                                                                                                  | [Configurar microsoft teams para la guía de trabajadores de primera línea](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Identidad de los trabajadores de primera línea: Empoderar a los empleados de TI, los administradores y los trabajadores de primera línea                    | Obtenga información sobre cómo integrar Microsoft Teams con sistemas de recursos humanos existentes, configurar la administración de identidades delegada ligera y configurar el inicio de sesión simplificado y transiciones fluidas para aquellos que usan dispositivos compartidos.                                                                                                                  | [Guía de identidad de trabajador en primera línea](https://aka.ms/FLWIdentityIG)              |
 | Implementar salas de Microsoft Teams                           | Obtenga información sobre cómo crear y configurar una cuenta para usarla con Salas de Microsoft Teams y administrar el dispositivo en el Centro de administración de Microsoft Teams.                                                                                                                  | [Implementar salas de Microsoft Teams](https://aka.ms/teamsroomslab)              |
 
 <h2>Guías de inicio rápido</h2>

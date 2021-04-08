@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Obtenga información sobre la opción de pago por minuto para habilitar las capacidades de audioconferencia para las organizaciones que usan licencias por volumen de Microsoft.
-ms.openlocfilehash: 9dd44436a557ea2685d4f6fb582bf41067d5c081
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: 93f0b6ef257e7190aa2d2f45e3ad8ead78c67b84
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607532"
+ms.locfileid: "51617792"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferencia con pago por minuto
 
@@ -77,12 +77,12 @@ Para habilitar las audioconferencias de pago por minuto para los usuarios de su 
 ## <a name="want-to-find-out-more-about-pricing"></a>¿Desea obtener más información sobre los precios?
 
  **¿Busca los precios?** Vea lo siguiente:
-  
-- [Precios de Audio Conferencia](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
+
+- [Precios de Audio Conferencia](https://www.microsoft.com/microsoft-teams/audio-conferencing)
     
-- [Precios de Sistema telefónico](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
+- [Precios de Sistema telefónico](https://www.microsoft.com/microsoft-teams/voice-calling )
     
-- [Precios de planes de llamadas](https://go.microsoft.com/fwlink/?linkid=799763)
+- [Precios de planes de llamadas](https://www.microsoft.com/microsoft-teams/voice-calling)
     
 ## <a name="related-topics"></a>Temas relacionados
   
