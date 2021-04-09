@@ -20,12 +20,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d5c2ad8b737c8299eb04735d5df5dc2893c3568
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 79142779c633aeb852826ee04f5fb5c3c9aeb07f
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119159"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637862"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -164,7 +164,6 @@ You can use Teams live events in multiple regions across the world. The followin
 **Ubicación de los datos para estos países y regiones (compatibles)**
 
 - Australia
-- Brasil
 - Canadá
 - Francia
 - Alemania
@@ -178,6 +177,7 @@ You can use Teams live events in multiple regions across the world. The followin
 
 **Estos países o regiones y estas nubes no son compatibles**
 
+- Brasil
 - Noruega
 - Government Community Cloud (GCC)-H
 - Departamento de Defensa (DOD)
