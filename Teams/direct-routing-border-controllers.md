@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: El administrador puede obtener información sobre qué controladores de borde de sesión (SBC) se han certificado para enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 31a9003015fc9f9d6f12595e313022c305faab8a
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 87c2dc7a2c3061101517ff72e7674ccc78293680
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50568936"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637852"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -87,6 +87,8 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
 |                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Controlador de borde de sesión de Atos Unify OpenScape   |     &#10004;     |          |      V10R1.2       |     |    | 
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
+|                     [Redes de Enghouse](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
+|                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |     &#10004;     |      3.19.x      |     |    |
 
 <br/>
 <br/>

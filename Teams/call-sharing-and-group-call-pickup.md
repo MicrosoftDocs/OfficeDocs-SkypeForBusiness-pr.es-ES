@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: El uso compartido de llamadas y la recogida de llamadas grupales permiten a los usuarios compartir llamadas entrantes con compañeros de trabajo para que las llamadas se puedan capturar cuando el usuario no esté disponible.
-ms.openlocfilehash: 1ec3c389bf2eb69f30e13ebbba6c7d5d1d5fe38c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 88c8d41eb0cf58413df995274bb9accd50b897c9
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102796"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637832"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartir llamadas y atender llamadas grupales en Microsoft Teams
 
@@ -43,7 +43,7 @@ Para compartir llamadas con otros usuarios, un usuario crea un grupo de llamadas
 
 ## <a name="license-required"></a>Licencia necesaria
 
-Los usuarios deben estar Telefonía IP empresarial habilitados para configurar y usar el uso compartido de llamadas y la recogida de llamadas grupales. Para obtener más información sobre el modelo de licencias, vea [Descripción del servicio de Microsoft Teams.](/office365/servicedescriptions/teams-service-description)
+Se debe asignar a los usuarios una licencia de Microsoft Teams Phone System para configurar y usar el uso compartido de llamadas y la recogida de llamadas grupales. Para obtener más información sobre el modelo de licencias, vea [Esto es lo que obtiene con Sistema telefónico.](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 ## <a name="configure-group-call-pickup"></a>Configurar la recogida de llamadas grupales
 

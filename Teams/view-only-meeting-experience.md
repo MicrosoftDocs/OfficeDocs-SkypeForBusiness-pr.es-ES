@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25cd674e5f93e4f52f0a2cecd2acff97e4844834
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 4822628288ea6e1727a68e551a725f278e4dcc6e
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215335"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637872"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiencia de reunión de solo vista para Teams
 
@@ -105,9 +105,6 @@ El asistente de solo vista no podrá experimentar las siguientes opciones en las
 - Únase a la sala de solo vista con el sistema salas de Microsoft Teams o con los servicios de interoperabilidad de vídeo en la nube (CVI).
 - Compartir su audio o vídeo.
 - Ver el chat de reunión o participar en él.
-  - Los primeros 1000 (o 300 según el límite de la reunión principal) los usuarios invitados a la reunión se agregarán al chat.
-  - Aunque los usuarios solo vistas no verán el chat en la reunión, es posible que aún puedan chatear en la aplicación principal si fueron las primeras 350 personas invitadas.
-  - Por el contrario, si un usuario interactivo no formaba parte de los primeros 350 usuarios invitados a la reunión, no tendrá acceso al chat de la reunión tanto en la aplicación principal de Teams como en la reunión.
 - Ver la fuente de vídeo de los participantes de la reunión a menos que el participante sea el orador activo.
 - Consulte Archivos de PowerPoint que se comparten con la funcionalidad de PowerPoint Live o recursos compartidos de aplicaciones individuales (distintos del uso compartido de pantalla o escritorio).
 - Levante la mano en la reunión.

@@ -18,55 +18,55 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: A continuación se describe la función Vista previa abierta para audioconferencias en red.
-ms.openlocfilehash: 1ae61034ef083c89e14c67cef0effa1c105de758
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: A continuación se describen las funciones De vista previa abierta para audioconferencias en red.
+ms.openlocfilehash: d6df81cc077c69fdeb4246d682797d2ebb26b875
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031866"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637842"
 ---
-# <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Vista previa abierta de conferencias en red para audioconferencias
+# <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Abrir vista previa de conferencias en red para audioconferencias
 
-La vista previa abierta de las conferencias en red está disponible para todos los clientes. Las conferencias en red permiten a las organizaciones enviar llamadas entrantes y salientes de Audioconferencia a números de acceso telefónico local de Microsoft a través del enrutamiento directo. Esta función no está pensada para extender la compatibilidad de Audioconferencia a números de acceso telefónico local de terceros. Las conferencias en red no se admiten si se usan para enrutar llamadas entrantes al servicio de Audioconferencia a través de números de teléfono de acceso telefónico local de terceros.
+La vista previa abierta de conferencias en red está disponible para todos los clientes. Las conferencias en red permiten a las organizaciones enviar llamadas de audioconferencia entrantes y salientes a números de acceso telefónico local de Microsoft mediante enrutamiento directo. Esta capacidad no está pensada para extender la compatibilidad de audioconferencias a números de acceso telefónico local de terceros. Las conferencias en red no son compatibles si se usan para enrutar las llamadas entrantes al servicio de audioconferencia a través de números de teléfono de acceso telefónico local de terceros o llamadas salientes a la RTC desde el puente de audioconferencia de Microsoft. 
 
-En este artículo se describen los requisitos previos y los pasos de configuración necesarios para habilitar las conferencias en la red para su organización.
+En este artículo se describen los requisitos previos y los pasos de configuración necesarios para habilitar las conferencias en red para su organización.
 
 > [!IMPORTANT]
-> Las conferencias en la red NO deben implementarse con ningún equipo de telefonía en India.
+> Las conferencias en red NO deben implementarse con ningún equipo de telefonía en india.
   
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de configurar las conferencias en la red, asegúrese de que su organización cumple los siguientes requisitos previos: 
+Antes de configurar conferencias en red, asegúrese de que su organización cumple los siguientes requisitos previos: 
 
-- Asegúrese de que todos los usuarios de su organización habilitados o habilitados para Audioconferencia usen Teams para todas las reuniones. El enrutamiento de llamadas entrantes y salientes de Audioconferencia a través de conferencias en red solo se admite para las reuniones de Teams.
+- Asegúrese de que todos los usuarios de su organización habilitados o habilitados para las audioconferencias usen Teams para todas las reuniones. El enrutamiento de las llamadas de audioconferencia entrantes y salientes a través de conferencias en red solo es compatible con las reuniones de Teams.
 
-- Asigne licencias de Audioconferencia a todos los usuarios que usarán conferencias en red.
+- Asigne licencias de conferencias de audio a todos los usuarios que usen conferencias en red.
 
-- Configure el servicio audioconferencia. Para obtener información adicional, [consulte Configurar Audioconferencia para Microsoft Teams.](set-up-audio-conferencing-in-teams.md)
+- Configure el servicio de audioconferencia. Para obtener más información, vea [Configurar audioconferencias para Microsoft Teams.](set-up-audio-conferencing-in-teams.md)
 
-- Configure el controlador de borde de sesión (SBC) para el enrutamiento directo. Para obtener más información, vea [Planear el enrutamiento directo y](direct-routing-plan.md) configurar el enrutamiento [directo.](direct-routing-configure.md) 
+- Configure el controlador de borde de sesión (SBC) para enrutamiento directo. Para obtener más información, vea [Planear enrutamiento directo](direct-routing-plan.md) y Configurar enrutamiento [directo.](direct-routing-configure.md) 
 
-  Si configura enrutamiento directo solo para los fines de Audioconferencia, solo necesita completar el "Paso 1: Conectar el SBC" para las conferencias en red.
+  Si está configurando enrutamiento directo solo para los fines de las audioconferencias, solo necesita completar "Paso 1: Conectar su SBC" para conferencias en red.
   
-## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>Habilitar el enrutamiento de llamadas de acceso telefónico local a Audioconferencia de Microsoft mediante enrutamiento directo 
+## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>Habilitar el enrutamiento de llamadas de acceso telefónico local a Las audioconferencias de Microsoft a través del enrutamiento directo 
 
-Para enrutar las llamadas de acceso telefónico local realizadas por los usuarios locales al servicio de Audioconferencia a través del enrutamiento directo, debe configurar reglas de enrutamiento apropiadas para sus SBC y las centrales de conexiones de sucursal privadas (PBX).
+Para enrutar las llamadas de acceso telefónico local realizadas por los usuarios locales al servicio de audioconferencia a través del enrutamiento directo, debe configurar reglas de enrutamiento adecuadas para los SBC y los intercambios de sucursales privados (PBX).
 
-Necesita configurar el equipo de telefonía de sus sitios para enrutar las llamadas a cualquier número de servicio del puente de conferencia de su organización a través de un tronco de enrutamiento directo.
+Debe configurar el equipamiento de telefonía de sus sitios para enrutar las llamadas a cualquier número de servicio del puente de conferencia de su organización a través de un tronco de enrutamiento directo.
 
-Encontrará los números de servicio en el Centro de administración de Teams en Reuniones **-> Puentes** de conferencia o mediante el cmdlet get-CsOnlineDialInConferencingBridge de Skype Empresarial Online. Para obtener información adicional, consulte una lista de [números de Audioconferencia en Microsoft Teams.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+Puede encontrar los números de servicio en el Centro de administración de Teams en Reuniones **-> Puentes** de conferencia o mediante el cmdlet de PowerShell de Skype Empresarial Online Get-CsOnlineDialInConferencingBridge. Para obtener información adicional, vea una lista de números [de audioconferencia en Microsoft Teams.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 
 > [!NOTE]
-> Esta característica no está disponible para los usuarios con la licencia de Audioconferencia de pago por minuto.
+> Esta característica no está disponible para los usuarios con la licencia de audioconferencia de pago por minuto.
 
-## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Habilitar el enrutamiento de llamadas salientes de reuniones de Teams a través del enrutamiento directo
+## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Habilitar el enrutamiento de llamadas de llamada de reunión de Teams a través de Enrutamiento directo
 
-Las llamadas de llamada saliente de reuniones de Teams se inician desde una reunión de su organización a números RTC, incluidas las llamadas de llamada al mes y las llamadas para que los nuevos participantes se unan a una reunión. 
+Las llamadas de acceso telefónico de reunión de Teams se inician desde una reunión de su organización a números RTC, incluidas las llamadas de llamada y las llamadas para llevar a nuevos participantes a una reunión. 
 
-Para habilitar el enrutamiento de llamada de salida a las reuniones de Teams a través del enrutamiento directo a los usuarios en la red, debe crear y asignar una directiva de enrutamiento de Audioconferencia denominada "OnlineAudioConferencingRoutingPolicy". 
+Para habilitar el enrutamiento de acceso telefónico de reunión de Teams a través del enrutamiento directo a usuarios en red, debe crear y asignar una directiva de enrutamiento de audioconferencia denominada "OnlineAudioConferencingRoutingPolicy". 
 
-La directiva OnlineAudioConferencingRoutingPolicy equivale a CsOnlineVoiceRoutingPolicy para llamadas RTC de uno a uno a través del enrutamiento directo. La directiva OnlineAudioConferencingRoutingPolicy se puede administrar con los cmdlets siguientes:
+La directiva OnlineAudioConferencingRoutingPolicy equivale a CsOnlineVoiceRoutingPolicy para llamadas RTC 1:1 a través del enrutamiento directo. La directiva OnlineAudioConferencingRoutingPolicy se puede administrar mediante los cmdlets siguientes:
 
 -   New-CsOnlineAudioConferencingRoutingPolicy
 - Set-CsOnlineAudioConferencingRoutingPolicy
@@ -74,33 +74,33 @@ La directiva OnlineAudioConferencingRoutingPolicy equivale a CsOnlineVoiceRoutin
 - Grant-CsOnlineAudioConferencingRoutingPolicy
 - Remove-CsOnlineAudioConferencingRoutingPolicy
 
-Para obtener más información sobre el enrutamiento de enrutamiento directo, vea [Configurar enrutamiento de voz para enrutamiento directo.](direct-routing-voice-routing.md)
+Para obtener más información sobre el enrutamiento para enrutamiento directo, vea [Configurar enrutamiento de voz para enrutamiento directo.](direct-routing-voice-routing.md)
 
 
-Para habilitar el enrutamiento de llamadas salientes de reuniones a través del enrutamiento directo, debe: 
+Para habilitar el enrutamiento de llamadas de llamada de reunión a través de Enrutamiento directo, debe: 
 
-- Configurar directivas de enrutamiento de Audioconferencia
+- Configurar directivas de enrutamiento de audioconferencias
 - Configurar el enrutamiento en el equipo de telefonía de su organización
 - (Opcional) Configurar un plan de marcado
 
-Las llamadas salientes de las reuniones de Teams se llegan desde el número de servicio predeterminado del puente de conferencia. Para obtener información adicional sobre el número de servicio predeterminado de su puente de Audioconferencia, vea Cambiar los números de teléfono del puente de [Audioconferencia.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+Las llamadas de llamada de las reuniones de Teams vienen del número de servicio predeterminado en el puente de conferencia. Para obtener información adicional sobre el número de servicio predeterminado de su puente de audioconferencia, vea Cambiar los números de teléfono en el puente [de audioconferencia.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
-### <a name="configure-audio-conferencing-routing-policies"></a>Configurar directivas de enrutamiento de Audioconferencia
+### <a name="configure-audio-conferencing-routing-policies"></a>Configurar directivas de enrutamiento de audioconferencias
 
-La directiva de enrutamiento de Audioconferencia OnlineAudioConferencingRoutingPolicy determina qué llamadas de llamada de salida de la reunión se enrutar a troncos de enrutamiento directo. Si está familiarizado con la directiva CsOnlineVoiceRoutingPolicy, esta directiva funciona de forma muy similar.
+La directiva de enrutamiento de audioconferencia OnlineAudioConferencingRoutingPolicy determina qué llamadas de acceso telefónico saliente de reunión se enruta a los troncos de enrutamiento directo. Si está familiarizado con la directiva CsOnlineVoiceRoutingPolicy, esta directiva funciona de forma muy similar.
 
-Para configurar las directivas de enrutamiento de Audioconferencia, es necesario seguir estos pasos:
+Para configurar las directivas de enrutamiento de audioconferencias, se necesitan los pasos siguientes:
 1.  Crear usos de RTC
 2.  Configurar rutas de voz
-3.  Crear directivas de enrutamiento de voz de Audioconferencia
+3.  Crear directivas de enrutamiento de voz de audioconferencia
 4.  Asignar una directiva a los usuarios
 
 
 #### <a name="create-pstn-usages"></a>Crear usos de RTC
 
-Los usos de RTC son colecciones de rutas de voz. Cuando se inicia una llamada de acceso telefónico local desde la reunión de un organizador determinado, las rutas de voz se usarán para determinar la ruta de enrutamiento de la llamada en función de los usos de RTC que están asociados al usuario a través de la directiva de enrutamiento de voz del usuario.
+Los usos RTC son colecciones de rutas de voz. Cuando se inicia una llamada de acceso telefónico local desde la reunión de un organizador determinado, las rutas de voz se usarán para determinar la ruta de enrutamiento de la llamada en función de los usos RTC asociados al usuario a través de la directiva de enrutamiento de voz del usuario.
 
-Puede crear un uso de RTC mediante el cmdlet "Set-CsOnlinePstnUsage". Por ejemplo:
+Puede crear un uso rtc mediante el cmdlet "Set-CsOnlinePstnUsage". Por ejemplo:
 
 ```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
@@ -108,31 +108,31 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 
 #### <a name="configure-voice-routes"></a>Configurar rutas de voz
 
-Las rutas de voz determinan la puerta de enlace RTC que se debe usar para enrutar una llamada basándose en el número de teléfono que se marca desde una reunión de Teams. Las rutas de voz determinan la puerta de enlace RTC que se debe usar para enrutar una llamada determinada haciendo coincidir el número de teléfono marcado desde una reunión de Teams con un patrón Regex. Al crear una ruta de voz, la ruta debe estar asociada a uno o varios usos de RTC.
+Las rutas de voz determinan la puerta de enlace RTC que se debe usar para enrutar una llamada en función del número de teléfono marcado desde una reunión de Teams. Las rutas de voz determinan la puerta de enlace RTC que se debe usar para enrutar una llamada determinada haciendo coincidir el número de teléfono marcado desde una reunión de Teams con un patrón regex. Al crear una ruta de voz, la ruta debe estar asociada a uno o varios usos de RTC.
 
-Puede crear una ruta de voz y definir el registro y las puertas de enlace que se asociarán con la ruta de voz mediante el cmdlet "New-CsOnlineVoiceRoute". Por ejemplo:
+Puede crear una ruta de voz y definir el regex y las puertas de enlace que se asociarán a la ruta de voz con el cmdlet "New-CsOnlineVoiceRoute". Por ejemplo:
 
 ```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
-#### <a name="create-audio-conferencing-voice-routing-policies"></a>Crear directivas de enrutamiento de voz de Audioconferencia
+#### <a name="create-audio-conferencing-voice-routing-policies"></a>Crear directivas de enrutamiento de voz de audioconferencia
 
-Las directivas de enrutamiento de voz de Audioconferencia determinan las posibles rutas que se pueden usar para enrutar una llamada que se origina a partir de las reuniones de un organizador según el número de teléfono de destino de la llamada de llamada de salida de la reunión. Las directivas de enrutamiento de voz de Audioconferencia están asociadas a uno o varios usos de RTC que, a su vez, determinan las posibles rutas que se intentarán usar para las llamadas salientes de reunión de los organizadores asociados a la directiva.
+Las directivas de enrutamiento de voz de audioconferencia determinan las posibles rutas que se pueden usar para enrutar una llamada procedente de las reuniones de un organizador en función del número de teléfono de destino de la llamada de acceso telefónico local de la reunión. Las directivas de enrutamiento de voz de audioconferencia están asociadas a uno o varios usos de RTC, que a su vez determinan las posibles rutas que se van a intentar usar para las llamadas de acceso telefónico local de reunión de los organizadores asociados a la directiva.
 
-Puede crear una directiva de enrutamiento de voz de Audioconferencia mediante el cmdlet "New- CsOnlineAudioConferencingRoutingPolicy". Por ejemplo:
+Puede crear una directiva de enrutamiento de voz de audioconferencia mediante el cmdlet "New- CsOnlineAudioConferencingRoutingPolicy". Por ejemplo:
 
 ```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
-Una vez asignada la directiva a un usuario y cuando se inicia una llamada de llamada de salida de una reunión desde una de las reuniones del usuario, se evaluarán las rutas de voz en los usos de RTC que están asociados al organizador a través de la directiva de enrutamiento de voz del usuario. Si el destino de llamada de salida de la reunión coincide con una expresión regular en una de las rutas de voz asociadas al organizador, la llamada de llamada de salida de la reunión se dirigirá a la puerta de enlace RTC definida en la ruta de voz. Si el destino de llamada de salida de la reunión no coincide con ninguna de las rutas de voz asociadas al organizador, Microsoft enruta la llamada de salida de la reunión.
+Una vez asignada la directiva a un usuario y cuando se inicia una llamada de acceso telefónico local desde una de las reuniones del usuario, se evaluarán las rutas de voz en los usos rtc asociados al organizador a través de la directiva de enrutamiento de voz del usuario. Si el destino de la llamada de acceso telefónico local de la reunión coincide con un regex en una de las rutas de voz asociadas al organizador, la llamada de acceso telefónico local de la reunión se dirigirá a la puerta de enlace RTC definida en la ruta de voz. Si el destino de la llamada de salida de reunión no coincide con ninguna de las rutas de voz asociadas al organizador, Microsoft dirigirá la llamada de llamada de salida de la reunión.
 
 #### <a name="assign-a-policy-to-your-users"></a>Asignar una directiva a los usuarios
 
-Después de definir las directivas de enrutamiento de Audioconferencia, ahora puede asignarlas a los usuarios. Una vez asignadas las directivas, se evaluarán las llamadas de llamada saliente de la reunión para determinar su ruta de enrutamiento. Las directivas de enrutamiento de Audioconferencia siempre se evalúan en función del organizador de la reunión, independientemente del usuario en la reunión que inicia una llamada de llamada de salida de la reunión.
+Una vez definidas las directivas de enrutamiento de audioconferencias, ahora puede asignarlas a los usuarios. Una vez asignadas las directivas, se evaluarán las llamadas de acceso telefónico local de la reunión para determinar su ruta de enrutamiento. Las directivas de enrutamiento de audioconferencia siempre se evalúan en función del organizador de la reunión, independientemente del usuario de la reunión que inicia una llamada de acceso telefónico local de la reunión.
 
-Puede asignar una directiva de enrutamiento de voz de Audioconferencia a un usuario mediante el cmdlet "Grant-CsOnlineAudioConferencingRoutingPolicy". Por ejemplo:
+Puede asignar una directiva de enrutamiento de voz de audioconferencia a un usuario mediante el cmdlet "Grant-CsOnlineAudioConferencingRoutingPolicy". Por ejemplo:
 
 ```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
@@ -141,26 +141,26 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>Configurar el enrutamiento en el equipo de telefonía de su organización
 
-En el equipo de telefonía de su organización, necesita asegurarse de que las llamadas de llamada saliente de la reunión enrutadas a través del enrutamiento directo se enrutar al destino previsto en la red.
+En el equipo de telefonía de su organización, debe asegurarse de que las llamadas de acceso telefónico local de la reunión enrutadas a través del enrutamiento directo se enrutan al destino previsto en la red.
 
 
 ### <a name="optional-configure-a-dial-plan"></a>(Opcional) Configurar un plan de marcado
 
-Un plan de marcado es un conjunto de reglas de normalización que traducen los números de teléfono marcados por un usuario individual a un formato alternativo (normalmente E.164) para fines de autorización y enrutamiento de llamadas.
+Un plan de marcado es un conjunto de reglas de normalización que traducen los números de teléfono marcados por un usuario individual a un formato alternativo (normalmente, E.164) para fines de autorización de llamadas y enrutamiento de llamadas.
 
-De forma predeterminada, los usuarios de Teams pueden llamar a números RTC en formato E.164, es decir, + \<country code\> \<number\> . Sin embargo, los planes de marcado pueden usarse para permitir que los usuarios marquen números de teléfono en otros formatos, por ejemplo, extensiones de 4 dígitos.
+De forma predeterminada, los usuarios de Teams pueden llamar a números RTC en formato E.164, es decir, + \<country code\> \<number\> . Sin embargo, los planes de marcado se pueden usar para permitir a los usuarios marcar números de teléfono en otros formatos, por ejemplo, extensiones de 4 dígitos.
 
-Si desea habilitar la marcación basada en extensión a través de conferencias en red, puede configurar planes de marcado para que coincidan con el patrón de marcado de extensión con los intervalos de números de teléfono del número de teléfono de su organización. Para configurar planes de marcado, vea [Crear y administrar planes de marcado.](create-and-manage-dial-plans.md)
+Si desea habilitar la marcación basada en extensiones a través de conferencias en red, puede configurar los planes de marcado para que coincidan con el patrón de marcado de extensión con los intervalos de número de teléfono del número de teléfono de su organización. Para configurar planes de marcado, vea [Crear y administrar planes de marcado.](create-and-manage-dial-plans.md)
 
 
-## <a name="known-issues-in-open-preview"></a>Problemas conocidos de Open Preview
+## <a name="known-issues-in-open-preview"></a>Problemas conocidos en Open Preview
 
-A continuación, se muestra una lista de los problemas conocidos que están presentes actualmente en la versión de Vista previa abierta de las conferencias en red. Microsoft está trabajando para solucionar estos problemas.
+A continuación se muestra una lista de los problemas conocidos que están presentes actualmente en la versión de Open Preview de las conferencias en red. Microsoft está trabajando para solucionar estos problemas.
 
 | Problema | Solución alternativa |
 | :--- | :--- |
-| Las llamadas de acceso telefónico local con identificadores de llamada anónimos u ocultos que se enrutar a través de conferencias en la red no se pueden conectar a la reunión. | Si es posible, establezca una configuración en su PBX o SBC para enviar siempre un identificador de llamada para las llamadas enrutadas a través de conferencias en red.|
-| En algunos casos, el mensaje de bienvenida que se reproduce a los usuarios al llamar al servicio ("Bienvenido al servicio de Audioconferencia...") se trunca y los usuarios no escuchan la palabra "Bienvenido".| No hay ninguna solución alternativa para este problema en este momento. |
+| Las llamadas de acceso telefónico local con identificadores de llamadas anónimos u ocultos que se enruta a través de conferencias en red no se pueden conectar a la reunión. | Si es posible, establezca una configuración en su PBX o SBC para enviar siempre un identificador de llamada para las llamadas enrutadas a través de conferencias en red.|
+| En algunos casos, el mensaje de bienvenida que se reproduce para los usuarios al llamar al servicio ("Bienvenido al servicio de audioconferencia...") se trunca y los usuarios no escuchan la palabra "Bienvenido".| No hay soluciones alternativas para este problema en este momento. |
 
 
 

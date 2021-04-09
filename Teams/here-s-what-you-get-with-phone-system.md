@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre las características, la disponibilidad y cómo planear y configurar Microsoft Phone System para su empresa. '
-ms.openlocfilehash: 3c63362b1be16a2e6ad1b55ca6090fadb81b3ee7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b26f6d72a92f0012f47d155531be523872e5a08c
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120691"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648139"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Esto es lo obtiene con el Sistema telefónico
 
@@ -67,7 +67,7 @@ Sistema telefónico proporciona las siguientes características. A menos que se 
 |[Timbre secundario](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Los usuarios con varios dispositivos de altavoz conectados a su PC pueden elegir configurar un dispositivo secundario para que suene además de su altavoz predeterminado. Por ejemplo, un usuario con auriculares conectados al equipo y altavoces de escritorio puede elegir que los altavoces de auriculares y de escritorio suene cuando se produce una llamada para que no se pierda una llamada.  |
 |[Alertas de anillo distintivo](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (solo para Teams)<br/> |Permite a los usuarios elegir tonos separados para llamadas normales, llamadas reenviadas y llamadas delegadas para que puedan distinguir el tipo de llamada.  <br/> |
 |[Apariencia de línea compartida](shared-line-appearance.md) <br/> | Permite a los usuarios compartir su línea telefónica para que otro usuario pueda realizar y recibir llamadas en su nombre.|
-|[Ocupado en Ocupado](teams-calling-policy.md) (solo Teams) <br/> | Una directiva de llamadas que le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o tiene una llamada en espera. El autor de la llamada escuchará una señal ocupada cuando el destinatario ya esté en el teléfono. El destinatario recibe una notificación de llamada perdida, pero no puede responder a las llamadas entrantes. Esta característica está deshabilitada de forma predeterminada, pero puede ser activada por el administrador de inquilinos. |
+|[Ocupado en Ocupado](teams-calling-policy.md) (solo Teams) <br/> | Una directiva de llamadas que le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o tiene una llamada en espera. El autor de la llamada oirá una señal ocupada cuando el destinatario ya esté en el teléfono o se dirigirá en consecuencia a la configuración sin responder del usuario, es decir, el autor de la llamada podría dejar un correo de voz al usuario que ya está en una llamada. El destinatario recibe una notificación de llamada perdida, pero no puede responder a las llamadas entrantes. Esta característica está deshabilitada de forma predeterminada, pero puede ser activada por el administrador de inquilinos.|
 |[Bloqueo de llamadas](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Permite a los usuarios agregar números de teléfono (RTC) a una lista bloqueada para que la siguiente llamada de ese número no suene al usuario.|
 |[Teléfonos de área común](set-up-common-area-phones.md) <br/> | Normalmente, un teléfono de área común se coloca en un área como una sala de espera o una sala de conferencias, lo que hace que esté disponible para varias personas. Los teléfonos de área común están configurados como dispositivos en lugar de como usuarios y pueden iniciar sesión automáticamente en una red.|
 |[Soporte de omisión de medios](direct-routing-plan-media-bypass.md) (solo para enrutamiento directo de Teams) <br/> | Para un mejor rendimiento, los medios se mantienen entre el controlador de borde de sesión (SBC) y el cliente en lugar de enviarlo a través del sistema telefónico de Microsoft. |

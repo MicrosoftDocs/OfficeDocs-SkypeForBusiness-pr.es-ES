@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c57b925875308b7cdd9e654103e8d11050ce082d
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 23be0069ffe862bcd5295493c8a6fc6acaa5f55d
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506683"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637822"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -38,6 +38,11 @@ ms.locfileid: "51506683"
 |Implementación incremental a partir del 7 de julio de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Todos los clientes (Enterprise, Educación y GCC)**<br>No se pueden guardar nuevas grabaciones de reuniones en Microsoft Stream (clásico); todos los clientes guardarán automáticamente las grabaciones de las reuniones en OneDrive para la Empresa y SharePoint incluso si han cambiado sus directivas de reuniones de Teams a Stream.<br><br> Recomendamos a los clientes que, para controlar mejor el cambio de la organización, opten por participar cuando se sientan cómodos con el cambio, en lugar de esperar a que se realice. |
 
 Microsoft Teams tiene un nuevo método para guardar las grabaciones de reuniones. Como primera fase de una transición del Microsoft Stream clásico al [ nuevo Stream](/stream/streamnew/new-stream), este método almacena grabaciones en Microsoft OneDrive para la Empresa y SharePoint en Microsoft 365 y ofrece muchas ventajas.
+
+> [!NOTE]
+> Si una grabación de reunión de Teams no se carga correctamente en OneDrive/SharePoint, la grabación se guardará temporalmente en Azure Media Services (AMS). Una vez almacenada en AMS, no se realizan intentos de reintentar para cargar automáticamente la grabación en OneDrive/SharePoint o Stream.
+
+Las grabaciones de reuniones almacenadas en AMS están disponibles durante 21 días antes de eliminarse automáticamente. Los usuarios pueden descargar el vídeo desde AMS si necesitan conservar una copia.
 
 Las ventajas de usar OneDrive para la Empresa y SharePoint para almacenar grabaciones son:
 
@@ -63,29 +68,29 @@ Vea "Novedades de las grabaciones de reuniones de Microsoft Teams" para obtener 
 La opción de grabación de la reunión es una configuración en el nivel de directiva de Teams. En el ejemplo siguiente se muestra cómo establecer la directiva global. Asegúrese de establecer la opción de grabación de la reunión para la directiva o las directivas que haya asignado a los usuarios.
 
 > [!Note]
-> Los cambios en las directivas de reunión de Teams pueden tardar un tiempo en propagarse. Vuelva a comprobarlo tras unas horas de configuración y, a continuación, cierre la sesión e iníciela de nuevo.
+> Los cambios en la directiva de reunión de Teams pueden tardar un tiempo en propagarse. Vuelva a comprobarlo después de unas horas de configurarlo y, a continuación, inicie sesión en la aplicación de escritorio de Teams de nuevo o simplemente reinicie el equipo.
 
 1. Instale PowerShell para Teams.
 
    > [!NOTE]
    > El conector en línea del cliente de Skype® Empresarial actualmente forma parte del módulo más reciente de Windows PowerShell de Teams. Si usa la versión pública más reciente de Teams PowerShell, no es necesario que instale el conector en línea de cliente de Skype® Empresarial. Consulte [Administrar Skype Empresarial Online con PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide).
 
-1. Inicie PowerShell como administrador.
+2. Inicie PowerShell como administrador.
 
-2. Instale el [módulo de PowerShell para Teams](./teams-powershell-install.md).
+3. Instale el [módulo de PowerShell para Teams](./teams-powershell-install.md).
 
-3. Importe el módulo MicrosoftTeams e inicie sesión como administrador de Teams.
+4. Importe el módulo MicrosoftTeams e inicie sesión como administrador de Teams.
 
 
-```powershell
-  # When using Teams PowerShell Module
-
+   ```powershell
+   # When using Teams PowerShell Module
+   
    Import-Module MicrosoftTeams
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
-```
+   ```
 
-4. Use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para establecer una directiva de reunión de Teams para realizar la transición del almacenamiento de Stream a OneDrive para la Empresa y SharePoint.
+5. Use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para establecer una directiva de reunión de Teams para realizar la transición del almacenamiento de Stream a OneDrive para la Empresa y SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
@@ -146,6 +151,10 @@ Dado que los vídeos son iguales que cualquier otro archivo de OneDrive para la 
 
 - Para las reuniones de canal, los permisos se heredan de los propietarios y miembros de la lista de miembros en el canal.
 
+> [!NOTE]
+> No recibirá un correo electrónico cuando la grabación termine de guardarse, pero la grabación aparecerá en el chat de la reunión una vez que haya terminado. Esto ocurrirá mucho más rápido que en Stream anteriormente.
+> Puede controlar con quién comparte la grabación, pero no podrá bloquear que las personas con acceso compartido descarguen la grabación.  
+
 **¿Cómo puedo administrar los subtítulos?**
 
 Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponibles durante la reproducción si el usuario tenía activada la transcripción en el momento de la grabación. Los administradores deben [activar la transcripción de la grabación a través de la directiva]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) para asegurarse de que los usuarios tengan la opción de grabar reuniones con transcripción.
@@ -155,6 +164,9 @@ Los subtítulos ayudan a crear contenido inclusivo para los espectadores de toda
 Los subtítulos son compatibles con las grabaciones de reuniones de Teams durante 60 días desde que se graba la reunión.
 
 Los subtítulos no son compatibles por completo si la grabación de la reunión de Teams se mueve o se copia desde su ubicación original en OneDrive para la Empresa o SharePoint.
+
+> [!NOTE]
+> Habrá subtítulos solo en inglés (la transcripción de la reunión aún no está disponible en GCC).
 
 **¿Cómo se verá afectada mi cuota de almacenamiento?**
 
