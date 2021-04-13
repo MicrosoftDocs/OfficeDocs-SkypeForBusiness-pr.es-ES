@@ -229,10 +229,12 @@ items:
             items:
               - name: Información general
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
-              - name: Mover usuarios y puntos de conexión a la nube
+              - name: Mover usuarios a la nube
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
               - name: Deshabilitar la implementación híbrida para completar la migración a la nube
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+              - name: Mover puntos de conexión de aplicaciones a la nube
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
               - name: Quitar la implementación de Skype Empresarial
                 href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: Implementación del recurso de topología entre bosques
