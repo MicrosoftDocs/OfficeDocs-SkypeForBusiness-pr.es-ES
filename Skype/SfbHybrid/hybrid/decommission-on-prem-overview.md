@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instrucciones sobre cómo retirar el entorno local de Skype Empresarial.
-ms.openlocfilehash: 7f5109661fc7d29d83172489dd987b96cb7e87fd
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 46848c6730d37f549a8d5ee16f066fa67c789873
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593903"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656686"
 ---
 # <a name="decommission-your-on-premises-skype-for-business-environment"></a>Retirar el entorno local de Skype Empresarial
 
@@ -33,9 +33,11 @@ Si su organización usa Teams o Skype Empresarial Online con una implementación
 
 Para completar el traslado de local a la nube y retirar el entorno local de Skype Empresarial Server, debe completar los siguientes pasos en el siguiente orden:
 
-- **Paso 1.** [Mueva todos los usuarios y extremos de aplicación necesarios de local a en línea.](decommission-move-on-prem-users.md)
+- **Paso 1.** [Mueva todos los usuarios necesarios de local a en línea.](decommission-move-on-prem-users.md)
 
 - **Paso 2.** [Deshabilite la configuración híbrida](cloud-consolidation-disabling-hybrid.md).
 
-- **Paso 3.** [Quite la implementación local de Skype Empresarial](decommission-remove-on-prem.md).
+- **Paso 3.** [Mover extremos de aplicación híbrida de local a en línea.](decommission-move-on-prem-endpoints.md)
+
+- **Paso 4.** [Quite la implementación local de Skype Empresarial](decommission-remove-on-prem.md).
 

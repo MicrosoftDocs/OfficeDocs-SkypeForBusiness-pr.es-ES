@@ -1,5 +1,5 @@
 ---
-title: Mover usuarios y puntos de conexión a la nube
+title: Mover usuarios a la nube
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,23 +16,25 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Mueva usuarios y puntos de conexión antes de retirar un entorno local de Skype Empresarial.
-ms.openlocfilehash: 130f276d07dd33be33d3c038c2ead20c7a887e6b
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+description: Mover usuarios antes de retirar un entorno local de Skype Empresarial.
+ms.openlocfilehash: f04ebeec51b739faa89f907de6c363f0ef70a78e
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593913"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656676"
 ---
-# <a name="move-required-users-and-endpoints-before-decommissioning-your-on-premises-environment"></a>Mover los usuarios y puntos de conexión necesarios antes de retirar el entorno local
+# <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>Mover usuarios necesarios antes de retirar el entorno local
 
-En este artículo se describe cómo mover usuarios y puntos de conexión de aplicaciones necesarios a la nube de Microsoft antes de retirar el entorno local de Skype Empresarial. Este es el paso 1 de los siguientes pasos para retirar el entorno local:
+En este artículo se describe cómo mover los usuarios necesarios a la nube de Microsoft antes de retirar el entorno local de Skype Empresarial. Este es el paso 1 de los siguientes pasos para retirar el entorno local:
 
-- **Paso 1. Mueva todos los usuarios y extremos de aplicación necesarios de local a en línea.** (En este artículo).
+- **Paso 1. Mueva todos los usuarios necesarios de local a online.** (Este artículo)
 
 - Paso 2. [Deshabilite la configuración híbrida](cloud-consolidation-disabling-hybrid.md).
 
-- Paso 3. [Quite la implementación local de Skype Empresarial](decommission-remove-on-prem.md).
+- Paso 3. [Mover extremos de aplicación híbrida de local a en línea.](decommission-move-on-prem-endpoints.md)
+
+- Paso 4. [Quite la implementación local de Skype Empresarial](decommission-remove-on-prem.md).
 
 
 ## <a name="move-all-required-users-from-on-premises-to-the-cloud"></a>Mover todos los usuarios necesarios de local a la nube
@@ -56,53 +58,18 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 > [!NOTE]
 > Al Disable-CsUser se quitarán todos los atributos de Skype Empresarial para todos los usuarios que cumplan los criterios de filtro. Antes de continuar, confirme que estas cuentas ya no son necesarias en el futuro.
 
-## <a name="move-on-premises-hybrid-application-endpoints-to-microsoft-365"></a>Mover puntos de conexión de aplicaciones híbridas locales a Microsoft 365
 
-1. Recupere y exporte la configuración de extremo de aplicación híbrida local ejecutando el siguiente comando local de PowerShell de Skype Empresarial Server:
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
-   ```
-2. Crear y licenciar [nuevas cuentas de](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) recursos en Microsoft 365 para reemplazar los puntos de conexión de aplicaciones híbridas locales existentes.
-
-3. Asocie las nuevas cuentas de recursos con los extremos de aplicación híbrida existentes.
-
-4. Quite los números de teléfono definidos en los extremos de la aplicación híbrida local ejecutando el siguiente comando local de PowerShell de Skype Empresarial Server:
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
-   ```
-5. Dado que es posible que los números de teléfono de estas cuentas se administraron en Microsoft 365 en lugar de local, ejecute el siguiente comando en PowerShell de Skype Empresarial Online:
-
-   ```PowerShell
-   $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
-   foreach ($endpoint in $endpoints)
-   {
-   if($endpoint.LineUri)
-       {
-           $upn = $endpoint.SipAddress.Replace("sip:","")
-           $ra=Get-CsOnlineApplicationInstance | where UserPrincipalName -eq $upn 
-           Set-CsOnlineApplicationInstance -Identity $ra.Objectid -OnpremPhoneNumber ""
-       }
-   }
-   ```
-
-6. Asigne números de teléfono a las nuevas cuentas de recursos creadas en el paso 2. Para obtener más información acerca de cómo asignar un número de teléfono a una cuenta de recurso, vea el siguiente artículo: [Asignar un número de servicio](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number).
-
-7. Elimine los extremos locales ejecutando el siguiente comando local de PowerShell de Skype Empresarial Server:
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
-   ```
 Ya está listo para deshabilitar [la configuración híbrida](cloud-consolidation-disabling-hybrid.md).
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Retirar el entorno local de Skype Empresarial](decommission-on-prem-overview.md)
 
 - [Deshabilitar la configuración híbrida](cloud-consolidation-disabling-hybrid.md)
 
-- [Quitar la implementación local de Skype Empresarial](decommission-remove-on-prem.md)
+- [Mover puntos de conexión de aplicaciones híbridas de local a online](decommission-move-on-prem-endpoints.md)
+
+- [Eliminar la implementación local de Skype Empresarial](decommission-remove-on-prem.md)
 
 
 

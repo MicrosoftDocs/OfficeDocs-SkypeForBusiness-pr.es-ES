@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e3cc466d855f55f63f34e798443fb285dc36c9e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162662"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51653950"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Directivas de llamadas en Microsoft Teams
 ===================================
@@ -94,7 +94,7 @@ Si establece este valor **en "En",** se enviarán llamadas a través de la RTC e
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>Ocupado en Ocupado está disponible mientras está en una llamada
 
-Ocupado en ocupado (Opciones de disponibilidad) es una nueva configuración que le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o tiene una llamada en espera. Las llamadas nuevas o entrantes se pueden rechazar con una señal ocupada. Puede habilitar las opciones de disponibilidad en el nivel de inquilino o en el nivel de usuario. Independientemente de cómo se configuren sus opciones de disponibilidad, los usuarios de una llamada o conferencia o aquellos con una llamada en espera no se impiden iniciar nuevas llamadas o conferencias. Esta configuración está deshabilitada de forma predeterminada.
+Ocupado en ocupado (Opciones de disponibilidad) es una nueva configuración que le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o tiene una llamada en espera. Las llamadas nuevas o entrantes se pueden rechazar con una señal de disponibilidad o se pueden enrutar en consecuencia a la configuración sin respuesta del usuario. Puede habilitar las opciones de disponibilidad en el nivel de inquilino o en el nivel de usuario. Independientemente de cómo se configuren sus opciones de disponibilidad, los usuarios de una llamada o conferencia o aquellos con una llamada en espera no se impiden iniciar nuevas llamadas o conferencias. Esta configuración está deshabilitada de forma predeterminada.
 
 ### <a name="allow-web-pstn-calling"></a>Permitir llamadas RTC web
 

@@ -17,22 +17,24 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instrucciones para retirar Skype Empresarial Server.
-ms.openlocfilehash: 668e3d5ebf5dfa03fcfb883adcc3e08fc5924bae
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 9c6051a07fc05297985b3692351c36791d8842bb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593904"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656696"
 ---
-# <a name="remove-your-on-premises-skype-for-business-deployment"></a>Quitar la implementación local de Skype Empresarial
+# <a name="remove-your-on-premises-skype-for-business-deployment"></a>Eliminar la implementación local de Skype Empresarial
 
-En este artículo se describe cómo quitar la implementación local de Skype Empresarial. Este es el paso 3 de los siguientes pasos para retirar el entorno local:
+En este artículo se describe cómo quitar la implementación local de Skype Empresarial. Este es el paso 4 de los siguientes pasos para retirar el entorno local:
 
-- Paso 1. [Mueva todos los usuarios y extremos de aplicación necesarios de local a en línea.](decommission-move-on-prem-users.md) 
+- Paso 1. [Mueva todos los usuarios necesarios de local a en línea.](decommission-move-on-prem-users.md) 
 
 - Paso 2. [Deshabilite la configuración híbrida](cloud-consolidation-disabling-hybrid.md).
 
-- **Paso 3. Quite la implementación local de Skype Empresarial.** (Este artículo)
+- Paso 3. [Mover puntos de conexión de aplicaciones híbridas de local a online](decommission-move-on-prem-endpoints.md)
+
+- **Paso 4. Quite la implementación local de Skype Empresarial.** (Este artículo)
 
 
 > [!IMPORTANT] 
@@ -77,7 +79,7 @@ Siga los pasos siguientes para limpiar estos objetos y asegúrese de que es miem
    Get-CsCallParkOrbit | Remove-CsCallParkOrbit -Force
    Get-CsVoiceRoute | Remove-CsVoiceRoute -Force
    ```
-## <a name="remove-your-on-premises-skype-for-business-deployment"></a>Quitar la implementación local de Skype Empresarial
+## <a name="remove-your-on-premises-skype-for-business-deployment"></a>Eliminar la implementación local de Skype Empresarial
 
 Después de completar todos los pasos preliminares, puede quitar la implementación de Skype Empresarial siguiendo estos pasos:
 
@@ -125,16 +127,15 @@ Después de completar todos los pasos preliminares, puede quitar la implementaci
    Disable-CsAdForest
    ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Retirar el entorno local de Skype Empresarial](decommission-on-prem-overview.md)
 
-- [Mover usuarios y puntos de conexión a la nube](decommission-move-on-prem-users.md)
+- [Mover todos los usuarios necesarios de local a online](decommission-move-on-prem-users.md)
 
 - [Deshabilitar la configuración híbrida](cloud-consolidation-disabling-hybrid.md)
 
-
-
+- [Mover puntos de conexión de aplicaciones híbridas de local a online](decommission-move-on-prem-endpoints.md)
 
 
 

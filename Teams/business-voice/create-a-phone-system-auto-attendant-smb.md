@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para Microsoft 365 Business Voice.
-ms.openlocfilehash: 7ee7dad833119778ceb64bd1e52bd30da4529ba8
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 7fb9a9509354f5f6e3a17b2323eeaf2b5872e96e
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506657"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656746"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurar un operador automático : tutorial de pequeña empresa
 
@@ -62,9 +62,9 @@ Puede crear una cuenta de recursos en el Centro de administración de Teams.
 
 4. Haga clic en **Guardar**.
 
-La nueva cuenta aparecerá en la lista de cuentas.
+    La nueva cuenta aparecerá en la lista de cuentas.
 
-![Captura de pantalla de una lista de cuentas de recursos](../media/resource-accounts-page.png)
+    ![Captura de pantalla de una lista de cuentas de recursos](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>Asignar una licencia
 
@@ -214,11 +214,11 @@ El operador automático puede tener un flujo de llamadas para cada día festivo 
 
 7. Haga clic en **Guardar**.
 
-Repita el procedimiento según sea necesario para cada vacaciones adicionales.
-
-![Captura de pantalla de la configuración de vacaciones con días festivos en la lista](../media/auto-attendant-holiday-call-settings.png)
-
-Cuando haya agregado todos los días festivos, haga clic en **Siguiente.**
+    Repita el procedimiento según sea necesario para cada vacaciones adicionales.
+    
+    ![Captura de pantalla de la configuración de vacaciones con días festivos en la lista](../media/auto-attendant-holiday-call-settings.png)
+    
+    Cuando haya agregado todos los días festivos, haga clic en **Siguiente.**
 
 > [!div class="nextstepaction"]
 > [Paso 6: elija quién está en el directorio >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
@@ -245,7 +245,7 @@ Todos los operadores automáticos deben tener una cuenta de recursos asociada.  
 
 Para agregar una cuenta de recursos
 
-1. Haga **clic en Agregar** cuenta y busque la cuenta que desea agregar. Haga **clic en Agregar** y, a continuación, haga clic en **Agregar.**
+1. Haga **clic en** Agregar y busque la cuenta que desea agregar. Haga **clic en Agregar** y, a continuación, haga clic en **Agregar.**
 
     ![Captura de pantalla del panel agregar cuentas de la cuenta de recursos](../media/auto-attendant-add-resource-account.png)
 
@@ -253,7 +253,7 @@ Para agregar una cuenta de recursos
 
     ![Captura de pantalla de la lista de cuentas de recursos que muestra la cuenta de recursos con el número de servicio asignado](../media/auto-attendant-resource-account-assigned.png)
 
-Esto completa la configuración del operador automático.
+    Esto completa la configuración del operador automático.
 
 ---
 

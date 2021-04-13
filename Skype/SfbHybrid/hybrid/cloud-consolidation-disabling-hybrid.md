@@ -21,22 +21,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: En este artículo se incluyen pasos detallados para deshabilitar la implementación híbrida como parte de la consolidación de la nube para Teams y Skype Empresarial.
-ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593858"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656706"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>Deshabilitar la configuración híbrida para completar la migración a la nube
 
 En este artículo se describe cómo deshabilitar la configuración híbrida antes de retirar el entorno local de Skype Empresarial. Este es el paso 2 de los siguientes pasos para retirar el entorno local:
 
-- Paso 1. [Mueva todos los usuarios y extremos de aplicación necesarios de local a en línea.](decommission-move-on-prem-users.md)
+- Paso 1. [Mueva todos los usuarios necesarios de local a en línea.](decommission-move-on-prem-users.md)
 
 - **Paso 2. Deshabilite la configuración híbrida.** (Este artículo)
 
-- Paso 3. [Quite la implementación local de Skype Empresarial](decommission-remove-on-prem.md).
+- Paso 3. [Mover extremos de aplicación híbrida de local a en línea.](decommission-move-on-prem-endpoints.md)
+
+- Paso 4. [Quite la implementación local de Skype Empresarial](decommission-remove-on-prem.md).
 
 
 ## <a name="overview"></a>Información general
@@ -243,11 +245,12 @@ Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que l
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-12. Después de completar todos los pasos del método 2, consulte [Remove your on-premises Skype for Business Server](decommission-remove-on-prem.md) para obtener pasos adicionales para quitar la implementación local de Skype Empresarial Server.
+12. Después de completar todos los pasos del método 2, vea Move [hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md) y Remove your [on-premises Skype for Business Server](decommission-remove-on-prem.md) para obtener pasos adicionales para quitar la implementación local de Skype Empresarial Server.
 
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Consolidación en la nube para Teams y Skype Empresarial](cloud-consolidation.md)
 
 - [Retirar el entorno local de Skype Empresarial](decommission-on-prem-overview.md)
+
