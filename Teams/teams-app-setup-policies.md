@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 94e33421043b0cad195489d78e2eb96c95bb222e
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ee50af6dec780480b8efdbf39dabb8e52ff03f3a
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756186"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697715"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -162,7 +162,7 @@ Los usuarios pueden cambiar el orden de sus aplicaciones ancladas en clientes m�
 
 #### <a name="does-user-pinning-take-precedence"></a>¿Tiene prioridad la anclación de usuario?
 
-Si la directiva de configuración de la aplicación asignada al usuario se cambia para bloquear la fijación de aplicaciones de usuario, Teams quita las aplicaciones ancladas a la barra de aplicaciones. Si la directiva se cambia para permitir la fijación de aplicaciones de usuario, los usuarios deben volver a anclar sus aplicaciones ancladas anteriormente.
+Los anclares de administrador siempre tienen prioridad. Si la **opción Permitir anclación de** usuario está activada, los usuarios conservarán sus aplicaciones ancladas debajo de las aplicaciones ancladas por el administrador. Si la **opción** Permitir anclación de usuario está desactivada, los usuarios perderán sus pasadores preexistentes y solo las aplicaciones ancladas por el administrador estarán presentes en la barra de aplicaciones.
 
 ### <a name="custom-teams-apps"></a>Aplicaciones personalizadas de Teams
 

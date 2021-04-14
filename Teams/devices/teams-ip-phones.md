@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados para Que Microsoft Teams produzca los mejores resultados.
-ms.openlocfilehash: 16e2487c1c7279b470e4938245513727ca2ad0ca
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 2cebad1c415ba717439b2c10edbf2ac367d913d0
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506707"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697645"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Dispositivos certificados de Microsoft Teams
 
@@ -145,6 +145,7 @@ A continuación se incluyen las últimas salas de Teams en las versiones de firm
 
 | Versión del producto| Fecha de lanzamiento | Versión de la aplicación de Microsoft Teams | Versión del Portal de empresa | Versión del Agente de administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Actualización de 2021 #1  |5 de abril de 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product código de versión: 223 |
 | Actualización de 2020 #3  |24 de noviembre de 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product código de versión: 216 |
 | Actualización de 2020 #2  | 24 de agosto de 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product código de versión: 212|
 | Actualización de 2020 #1  | 13 de mayo de 2020 | .040901                     | .4715                  | .210                |
@@ -155,6 +156,9 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware | Versión de producto incluida |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBar A20 | 133.15.0.54     | Actualización de 2021 #1    |
+| Yealink MeetingBar A30 | 133.15.0.54     | Actualización de 2021 #1    |
+| Yealink CTP18 | 137.15.0.30     | Actualización de 2021 #1    |
 | Yealink VC210 + CP900 | 118.15.0.42     | Actualización de 2020 #3    |
 | Poly Studio X30 | 3.2.3.280012          | Actualización de 2020 #3    |
 | Poly Studio X50 | 3.2.3.280012          | Actualización de 2020 #3    |

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: El administrador puede obtener información sobre qué controladores de borde de sesión (SBC) se han certificado para enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 87c2dc7a2c3061101517ff72e7674ccc78293680
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: 36228b1c8d9e563670bfff2d1d3cebfcc9652023
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637852"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697705"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -78,7 +78,7 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                   |     Elemento de borde unificado de Cisco (CUBO) para enrutador de servicios en la nube de la serie 1000V       |     &#10004;   | &#10004; |      Compatible con IOS XE Amsterdam 17.2.1r (recomendado 17.3.2)         |    <ul> <li> [Enrutamiento dinámico de ubicación de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencias intrado (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 |                                 |     Elemento de borde unificado de Cisco (CUBO) para enrutadores de servicios de agregación de 1000 series      |     &#10004;   | &#10004; |      Compatible con IOS XE Amsterdam 17.2.1r (recomendado 17.3.2)         |    <ul> <li> [Enrutamiento dinámico de ubicación de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencias intrado (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                                 |     Elemento de borde unificado de Cisco (CUBO) para plataformas perimetrales de Catalyst 8000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    <ul> <li> [Enrutamiento dinámico de ubicación de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencias intrado (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
-|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de borde de sesión de Avaya para empresas (ASBCE)    |     &#10004;     |           |       Versión 8.1.1       |     |    | 
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de borde de sesión de Avaya para empresas (ASBCE)    |     &#10004;     |       &#10004;     |       Versión 8.1.1 (8.1.2 para omisión de medios)      |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de borde de sesión de Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    | 
 |                     |    Controlador de borde de sesión de Nokia    |     &#10004;     |           |       20.8       |      <ul> <li> [Enrutamiento dinámico de ubicación de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencias intrado (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       Compatible con 5.0 (recomendado 5.1)     |     |    | 
@@ -88,7 +88,7 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Controlador de borde de sesión de Atos Unify OpenScape   |     &#10004;     |          |      V10R1.2       |     |    | 
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Redes de Enghouse](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
-|                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |     &#10004;     |      3.19.x      |     |    |
+|                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
 
 <br/>
 <br/>

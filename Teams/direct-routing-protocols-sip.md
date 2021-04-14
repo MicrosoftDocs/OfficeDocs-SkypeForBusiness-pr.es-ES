@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00cdb644efe9fb2c3e49973d7a539718252a7df9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8b1917408fa14ced9a490cba1559228dde924cfc
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098476"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697785"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo: protocolo SIP
 
@@ -350,7 +350,10 @@ Vea la sección Mecanismo de conmutación por error para la señalización SIP e
 
 ## <a name="retry-after"></a>Retry-After
 
-Si un centro de datos de enrutamiento directo está ocupado, el servicio puede enviar un mensaje de Retry-After con un intervalo de un segundo al SBC. Cuando el SBC recibe un mensaje 503 con un encabezado Retry-After en respuesta a una INVITACIÓN, el SBC debe finalizar esa conexión y probar el siguiente centro de datos de Microsoft disponible. 
+Si un centro de datos de enrutamiento directo está ocupado, el servicio puede enviar un mensaje de Retry-After con un intervalo de un segundo al SBC. Cuando el SBC recibe un mensaje 503 con un encabezado Retry-After en respuesta a una INVITACIÓN, el SBC debe finalizar esa conexión y probar el siguiente centro de datos de Microsoft disponible.
+
+## <a name="handling-retries-603-response"></a>Controlar los reintentos (respuesta 603)
+Si un usuario final observa varias llamadas perdidas para una llamada después de rechazar la llamada entrante, significa que el mecanismo de reintentar del proveedor troncal SBC o RTC está mal configurado. Es necesario volver a configurar el SBC para detener los esfuerzos de reintentar la respuesta 603.
 
 ## <a name="ice-restart-media-bypass-call-transferred-to-an-endpoint-that-does-not-support-media-bypass"></a>Reinicio de ICE: llamada de omisión de medios transferida a un punto de conexión que no admite la omisión de medios
 

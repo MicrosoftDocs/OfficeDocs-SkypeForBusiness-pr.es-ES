@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: aa11b21405079ab26bf1fa9572eb203560c4e461
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: 73b583493a57141fef3c120fa2eb134cbaa8a500
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802500"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697745"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
@@ -45,14 +45,14 @@ Si su organización ya usa Teams, la configuración de la aplicación que establ
 Pongamos un ejemplo. Digamos que desea bloquear todas las aplicaciones de terceros y permitir aplicaciones específicas de Microsoft para el equipo de RR. HH. de su organización. En primer lugar, tendría que ir a la página [Administrar aplicaciones](manage-apps.md) y asegurarse de que las aplicaciones que quiera permitir para el equipo de RR. HH. estén permitidas a nivel de la organización. Después, debería crear una directiva personalizada denominada Directiva de permisos de aplicación de RR. HH., configurarla para bloquear, permitir las aplicaciones que desee y asignarla a los usuarios del equipo de RR. HH.
 
 > [!NOTE]
-> Si implementó Teams en un entorno de Microsoft 365 Government Community Cloud (GCC), consulte [Administrar la Configuración de aplicaciones para toda la organización de Microsoft 365 Administración Pública](#manage-org-wide-app-settings-for-microsoft-365-government) para obtener más información sobre la configuración de aplicaciones de terceros que son únicas de GCC.
+> Si implementó Teams en un entorno de Microsoft 365 Government Community Cloud High (GCCH) y department of defense (DoD), vea Administrar la configuración de aplicaciones de toda la organización para [Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government) para obtener más información sobre la configuración de aplicaciones de terceros que son exclusivas de GCCH y DoD.
 
 ## <a name="create-a-custom-app-permission-policy"></a>Crear una directiva de permisos de aplicación personalizada
 
 Si desea controlar qué aplicaciones están disponibles para distintos grupos de usuarios de la organización, cree y asigne una o más directivas de permisos de aplicación personalizadas. Puede crear y asignar directivas personalizadas en función de si las aplicaciones se publican por Microsoft, terceros o su organización. Debe saber que después de crear una directiva personalizada, no podrá cambiarla si las aplicaciones de terceros están deshabilitadas en la configuración de la aplicación para toda la organización.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Directivas de permisos**.
-2. Haga clic en **Agregar**. <br>
+2. Haga clic en **Agregar**.<br>
     ![Captura de pantalla de la nueva directiva de permisos de aplicación](media/app-permission-policies-new-policy.png)
 3. Escriba un nombre y una descripción para la directiva.
 4. En **Aplicaciones de Microsoft**, **Aplicaciones de terceros** y **Aplicaciones personalizadas**, seleccione una de las opciones siguientes:
@@ -86,11 +86,11 @@ Puede usar el Centro de administración de Microsoft Teams para editar una direc
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Administrar la configuración de la aplicación para toda la organización para Microsoft 365 Administración Pública  
 
-En una implementación para Teams de Microsoft 365 Administración Pública - GCC, es importante conocer las siguientes peculiaridades sobre la configuración de aplicaciones de terceros, que son exclusivas de GCC.
+En una implementación de Microsoft 365 Government : GCCH y DoD de Teams, es importante conocer lo siguiente sobre la configuración de aplicaciones de terceros, que son únicas para GCCH y DoD.
 
-En GCC, todas las aplicaciones de terceros están bloqueadas de forma predeterminada. Además, verá la siguiente nota sobre la administración de aplicaciones de terceros en la página de directivas de permisos de aplicación del Centro de administración de Microsoft Teams.
+En GCCH y DoD, todas las aplicaciones de terceros están bloqueadas de forma predeterminada. Además, verá la siguiente nota sobre la administración de aplicaciones de terceros en la página de directivas de permisos de aplicación del Centro de administración de Microsoft Teams.
 
-![Captura de pantalla de la directiva de permisos de aplicación en GCC](media/app-permission-policies-gcc.png)
+![Captura de pantalla de la directiva de permisos de aplicación en GCCH y DoD](media/app-permission-policies-gcc.png)
 
 Use la configuración de aplicaciones para toda la organización para controlar si los usuarios pueden instalar aplicaciones de terceros. La configuración de aplicaciones para toda la organización rige el comportamiento de todos los usuarios e invalida cualquier otra directiva de permisos de aplicación asignada a los usuarios. Puede usarla para controlar las aplicaciones malintencionadas o problemáticas.
 
@@ -100,10 +100,10 @@ Use la configuración de aplicaciones para toda la organización para controlar 
     
 2. En **Aplicaciones de terceros**, desactive o active esta configuración para controlar el acceso a aplicaciones de terceros:
 
-    - **Permitir aplicaciones de terceros**: esto controla si los usuarios pueden usar aplicaciones de terceros. Si desactiva esta configuración, los usuarios no podrán instalar ni usar aplicaciones de terceros. En una implementación de Microsoft 365 Administración Pública - GCC de Teams, esta configuración está desactivada de manera predeterminada.
+    - **Permitir aplicaciones de terceros**: esto controla si los usuarios pueden usar aplicaciones de terceros. Si desactiva esta configuración, los usuarios no podrán instalar ni usar aplicaciones de terceros. En una implementación de Microsoft 365 Government - GCCH y DoD de Teams, esta configuración está desactivada de forma predeterminada.
     - **Permitir las nuevas aplicaciones de terceros publicadas en la tienda de forma predeterminada**: esto controla si las nuevas aplicaciones de terceros publicadas en la tienda de aplicaciones de Teams están disponibles automáticamente en Teams. Solo puede establecer esta opción si permite aplicaciones de terceros.
 
-3. En **Aplicaciones bloqueadas**, agregue las aplicaciones que quiera bloquear en toda la organización. En una implementación de Microsoft 365 Administración Pública - GCC de Teams, todas las aplicaciones de terceros se agregan a esta lista de forma predeterminada. Si desea permitir cualquier aplicación de terceros en su organización, quítela de esta lista de aplicaciones bloqueadas. Al bloquear una aplicación en toda la organización, la aplicación se bloquea automáticamente para todos los usuarios, independientemente de si está permitida en las directivas de permisos de la aplicación.
+3. En **Aplicaciones bloqueadas**, agregue las aplicaciones que quiera bloquear en toda la organización. En una implementación de Microsoft 365 Government : GCCH y DoD de Teams, todas las aplicaciones de terceros se agregan a esta lista de forma predeterminada. Si desea permitir cualquier aplicación de terceros en su organización, quítela de esta lista de aplicaciones bloqueadas. Al bloquear una aplicación en toda la organización, la aplicación se bloquea automáticamente para todos los usuarios, independientemente de si está permitida en las directivas de permisos de la aplicación.
 4. Haga clic en **Guardar** para que la configuración de aplicaciones para toda la organización surta efecto.
 
 Como se indicó anteriormente, para permitir aplicaciones de terceros, puede editar y usar la directiva global (predeterminada en toda la organización) o crear y asignar directivas personalizadas.

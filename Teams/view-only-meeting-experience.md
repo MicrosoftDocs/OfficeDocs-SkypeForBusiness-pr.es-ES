@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4822628288ea6e1727a68e551a725f278e4dcc6e
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: 09fe424dc576b6b167eec49e7cd8edf2f61d6cce
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637872"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697805"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiencia de reunión de solo vista para Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "51637872"
 > [!Note]
 > Si la reunión o el seminario web alcanzan su capacidad máxima, Teams escalará sin problemas para dar cabida a una experiencia de difusión de solo vista de 10 000 personas. Además, en estos tiempos de aumento del trabajo remoto, le ofrecemos hasta finales de año la opción de difusiones de hasta 20 000 personas.
 
-Microsoft Teams permite un máximo de 10 000 asistentes en una reunión de Teams. Una vez que se haya alcanzado la capacidad de la reunión principal (que es cuando 300 en WW o 250 en usuarios de GCC entran en una reunión), los asistentes adicionales se unirán con una experiencia de solo vista.
+Microsoft Teams permite un máximo de 10 000 asistentes en una reunión de Teams. Una vez que se haya alcanzado la capacidad de la reunión principal (que es cuando 300 usuarios entran en una reunión), otros asistentes se unirán con una experiencia de solo vista.
 
 Los asistentes que se unan a la reunión en primer lugar, hasta la capacidad de la reunión principal, recibirán toda la experiencia de reunión de Teams. Podrán compartir audio y vídeo, ver vídeos compartidos y participar en el chat de la reunión.
 
@@ -65,7 +65,7 @@ La experiencia de un usuario puede variar en función de varios factores.
 Cuando se alcance la capacidad máxima de la reunión principal, un asistente no podrá unirse a la reunión si se cumple alguno de estos requisitos:
 
 - Un administrador ha deshabilitado la experiencia de solo vista de Teams para el organizador o para todo el espacio empresarial.
-- El asistente de solo vista no puede omitir la sala de espera. Como ejemplo, si un organizador de una  reunión elige que solo las personas de mi organización omitan la sala de espera y un asistente que está fuera de la organización intenta unirse como asistente de solo vista, se rechazarán.
+- El asistente de solo vista no puede omitir la sala de espera. Como ejemplo, si un organizador de una  reunión elige que solo personas de mi organización omitan la sala de espera y un asistente que está fuera de la organización intenta unirse como asistente de solo vista, no podrá unirse.
 
 Cuando se haya alcanzado la capacidad de la reunión principal, el organizador de la reunión y los presentadores verán una pancarta en la que se les informará de que los nuevos asistentes se unirán como asistentes de solo visualización.
 
@@ -75,13 +75,13 @@ Cuando se alcance la capacidad máxima de la reunión principal, se informará a
 
   ![la pantalla previa a unirse a la reunión de Teams y el mensaje para los participantes donde se les indica que se unen en modo de solo vista](media/view-only-pre-join-screen.png)
 
-Siempre que haya espacio, un usuario podrá unirse a la reunión principal. Si la reunión principal alcanza su capacidad máxima y uno o más asistentes la dejan, esta tendrá de nuevo capacidad disponible. Los asistentes que se unan (o vuelvan a unirse) entonces a la reunión, podrán hacerlo hasta que llegue de nuevo a su capacidad máxima. No se transferirá a los asistentes en modo solo vista a la reunión principal automáticamente y, actualmente, tampoco se les puede transferir manualmente.
+Siempre que haya espacio, un usuario podrá unirse a la reunión principal. Si la reunión principal alcanza su capacidad máxima y uno o más asistentes la dejan, esta tendrá de nuevo capacidad disponible. Los asistentes que se unan (o vuelvan a unirse) entonces a la reunión, podrán hacerlo hasta que llegue de nuevo a su capacidad máxima. Los asistentes que se encuentran en la experiencia de solo visualización no se promoverán automáticamente a la reunión principal y no se pueden promover manualmente a la reunión principal.
 
-Si se han establecido roles de moderador y asistente, y un moderador intenta unirse a una reunión después de que la reunión principal de haya alcanzado la capacidad, se unirán como asistentes de solo vista y tendrán las mismas limitaciones que otros asistentes de solo vista. Soporte técnico para garantizar que todos los presentadores se unan a la reunión principal se llevará a cabo más adelante. El organizador siempre tendrá garantizado el espacio en la reunión principal.
+Si se han establecido roles de moderador y asistente y un moderador intenta unirse a una reunión después de que la reunión principal haya alcanzado la capacidad, se unirán como asistentes de solo vista y tendrán las mismas limitaciones que otros asistentes de solo vista. Soporte técnico para garantizar que todos los presentadores se unan a la reunión principal se llevará a cabo más adelante. El organizador siempre tendrá garantizado el espacio en la reunión principal.
 
-## <a name="impact-to-meeting-presenters"></a>Impacto para los presentadores de reuniones
+## <a name="impact-to-meeting-presenters-and-organizers"></a>Impacto para los presentadores y organizadores de la reunión
 
-Estas son las limitaciones para los presentadores de reuniones:
+Entre las limitaciones para los organizadores y los organizadores de la reunión se incluyen:
 
 - No tendrá información sobre el asistente de solo vista. eDiscovery no es compatible para los asistentes de solo vista.
 - Los usuarios de la reunión principal no pueden ver a los asistentes de solo vista.

@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c5137a67169198a16b62e179d32ae1779001011d
-ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
+ms.openlocfilehash: b2bae63b2a37b5c5739a988cfe69f23b7609e63b
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51397583"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697825"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de información en Microsoft Teams
 
@@ -184,12 +184,7 @@ Actualmente, los usuarios experimentan los siguientes escenarios si una directiv
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Directivas de Teams y sitios de SharePoint
 
-Cuando se crea un equipo, se aprovisiona un sitio de SharePoint y se asocia con Microsoft Teams para la experiencia de archivos. Las directivas del IB no se respetan en este sitio de SharePoint ni en los archivos de forma predeterminada. Para habilitar las directivas del IB, el administrador ya ha rellenado un formulario solicitando que las directivas del IB se habiliten en SharePoint y OneDrive (consulte la sección *Requisitos previos* en Barreras de [información).](/sharepoint/information-barriers#prerequisites) Si la directiva del IB está activada en SharePoint y OneDrive, las directivas del IB funcionarán en sitios de SharePoint que se aprovisionan cuando se crea un equipo con Microsoft Teams.
-
-Ejemplo de directivas del IB en un sitio de **SharePoint** de un equipo: en Contoso Bank corporation, el usuario "Sesha@contosobank.onmicrosoft.com" pertenece al segmento de banca de inversión y el usuario "Nikita@contosobank.onmicrosoft.com" pertenece al segmento Asesor. La directiva IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos.
-Cuando el usuario Sesha crea un equipo para el segmento banca de inversión, el equipo y el sitio de SharePoint que lo afiance solo serán accesibles para los usuarios de banca de inversión. El usuario Nikita no puede acceder a ese sitio incluso si tiene el vínculo del sitio.
-
-Para obtener más información, vea [Usar barreras de información con SharePoint.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
+Cuando se crea un equipo, se aprovisiona un sitio de SharePoint y se asocia con Microsoft Teams para la experiencia de archivos. Las directivas de barrera de información no se respetan en este sitio de SharePoint y en los archivos de forma predeterminada. Para habilitar las barreras de información en SharePoint y OneDrive, siga las instrucciones y los pasos del tema Usar barreras de [información con SharePoint.](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)
 
 ## <a name="required-licenses-and-permissions"></a>Licencias y permisos necesarios
 
