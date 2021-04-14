@@ -117,18 +117,18 @@ items:
                 href: teams-client-update.md
               - name: Solución de problemas de instalación y actualización
                 href: troubleshoot-installation.md
-          - name: Aprendizaje de Teams
-            items:
-              - name: Información general
-                href: training-microsoft-teams-landing-page.md
-              - name: Formación de administradores para Teams
-                href: itadmin-readiness.md
-              - name: Sesiones de Teams en Ignite 2020
-                href: ignite-2020-landing-page.md
-              - name: Formación en directo de Teams
-                href: instructor-led-training-teams-landing-page.yml
-              - name: Formación en línea de Teams
-                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      - name: Aprendizaje de Teams
+        items:
+          - name: Información general
+            href: training-microsoft-teams-landing-page.md
+          - name: Formación de administradores para Teams
+            href: itadmin-readiness.md
+          - name: Sesiones de Teams en Ignite 2020
+            href: ignite-2020-landing-page.md
+          - name: Formación en directo de Teams
+            href: instructor-led-training-teams-landing-page.yml
+          - name: Formación en línea de Teams
+            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: Actualizar de Skype Empresarial
     items:
       - name: Comenzar
@@ -1325,6 +1325,8 @@ items:
             href: teams-app-setup-policies.md
           - name: Administrar configuración y directivas de aplicación personalizadas en Teams
             href: teams-custom-app-policies-and-settings.md
+          - name: Personalizar aplicaciones en Teams
+            href: customize-apps.md
   - name: Instrucciones para sectores y gobiernos
     items:
       - name: Información general
