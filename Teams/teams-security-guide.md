@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92ff8b256f203549541529336396fdd44f67b12c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: edfa29dd1c2c3f5197b175f49d8d045967fc79f1
+ms.sourcegitcommit: d3c67eadf7cab167340d35b76401ff49fc7eb728
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094000"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51749488"
 ---
 # <a name="security-and-microsoft-teams"></a>Seguridad y Microsoft Teams
 
@@ -261,7 +261,7 @@ Los participantes en la reunión también se clasifican por ubicación y credenc
     b. *Usuarios remotos*: estos usuarios se unen desde fuera de la red corporativa. Pueden incluir empleados que trabajan desde casa o mientras viajan, y otros, como empleados de proveedores de confianza, a quienes se les han otorgado credenciales empresariales por sus términos de servicio. Los usuarios remotos pueden crear reuniones y unirse a ellas, así como actuar como moderadores.
 .
 2. **Usuarios que no pertenecen al inquilino** estos usuarios no tienen una credencial en Azure AD para el inquilino.
-    a. *Usuarios federados*: los usuarios federados tienen credenciales válidas con asociados federados y, por lo tanto, se tratan como autenticadas por Teams, pero siguen siendo anónimos para el inquilino del organizador de la reunión. Los usuarios federados pueden unirse a reuniones y ser promovidos a moderadores después de unirse a la reunión, pero no pueden crear reuniones en las empresas con las que se hayan federado.
+    a. *Usuarios federados*: los usuarios federados tienen credenciales válidas con asociados federados y, por lo tanto, se tratan como autenticadas por Teams, pero son externos al espacio empresarial del organizador de la reunión. Los usuarios federados pueden unirse a reuniones y ser promovidos a moderadores después de unirse a la reunión, pero no pueden crear reuniones en las empresas con las que se hayan federado.
     b. *Usuarios anónimos*: no tienen una identidad de Active Directory y no están federados con el inquilino.
 
 En muchas reuniones se incluyen usuarios externos. Esos clientes también quieren confirmar la identidad de los usuarios externos antes de permitir que se unan a una reunión. En la siguiente sección, se describe cómo Teams limita el acceso a una reunión a los tipos de usuarios permitidos y requiere que todos los tipos de usuario presenten las *credenciales* adecuadas al entrar en una reunión.

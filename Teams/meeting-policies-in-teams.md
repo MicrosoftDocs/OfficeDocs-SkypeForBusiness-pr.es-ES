@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprender a administrar las configuraciones de directivas de reunión en Teams. Utilizar configuraciones de directivas para controlar las características disponibles para sus participantes en reuniones programadas por usuarios.
-ms.openlocfilehash: c13c4222b1c6d6fc9e0c6fcdf73e614999f874e5
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 43ea3be7c8c8f99fdc762030ac526b4b068a4214
+ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617873"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51712782"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -127,7 +127,7 @@ Permitir el complemento de Outlook es una directiva por usuario y se aplica ante
 
 ![Captura de pantalla que muestra la posibilidad de programar una nueva reunión](media/meeting-policies-outlook-add-in.png)
 
-Si esta característica está desactivada, los usuarios no podrán programar. reuniones de Teams cuando creen una nueva reunión en Outlook. Por ejemplo, en Outlook en Windows, la opción **Nueva reunión de Teams** no se mostrará en la cinta de opciones.
+Si desactiva esta característica, los usuarios no podrán programar ninguna. reuniones de Teams cuando creen una nueva reunión en Outlook. Por ejemplo, en Outlook en Windows, la opción **Nueva reunión de Teams** no se mostrará en la cinta de opciones.
 
 ### <a name="allow-channel-meeting-scheduling"></a>Permitir la programación de reuniones de canal
 
@@ -451,6 +451,7 @@ Esta configuración controla qué participantes de la reunión se quedan en la s
 - [Permitir que los usuarios anónimos inicien una reunión](#let-anonymous-people-start-a-meeting)
 - [Admitir automáticamente usuarios](#automatically-admit-people)
 - [Permitir que los usuarios de acceso telefónico omitan la sala de espera](#allow-dial-in-users-to-bypass-the-lobby)
+- [Permitir que los miembros del equipo omitan la sala de espera](#allow-team-members-to-bypass-the-lobby)
 - [Activar subtítulos en directo](#enable-live-captions)
 - [Permitir el chat en las reuniones](#allow-chat-in-meetings)
 
@@ -478,9 +479,10 @@ Esta es una directiva por organizador. Esta configuración controla si los usuar
 |Valor de configuración  |Comportamiento para unirse |
 |---------|---------|
 |**Todos**   |Todos los participantes se unen a la reunión directamente sin tener que esperar en la sala de espera. Esto incluye a los usuarios autenticados, los usuarios externos de organizaciones de confianza (federados), los invitados y los usuarios anónimos.     |
-|**Todos los usuarios de su organización y de organizaciones federadas**     |Los usuarios autenticados en la organización, incluidos los usuarios invitados y los usuarios de las organizaciones de confianza, pueden unirse a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios anónimos esperan en la sala de espera.   |
-|**Todos en su organización**    |Los usuarios autenticados en la organización, incluidos los usuarios invitados, pueden unirse a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios de organizaciones de confianza y los usuarios anónimos aguardan en la sala de espera. Esta configuración es la predeterminada.           |
+|**Usuarios de mi organización y de organizaciones de confianza e invitados**     |Los usuarios autenticados en la organización, incluidos los usuarios invitados y los usuarios de las organizaciones de confianza, pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Los usuarios anónimos esperan en la sala de espera.   |
+|**Usuarios en mi organización e invitados**    |Los usuarios autenticados en la organización, incluidos los usuarios invitados, pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Los usuarios de organizaciones de confianza y los usuarios anónimos aguardan en la sala de espera. Esta configuración es la predeterminada.           |
 |**Solo organizador**    |Solo los organizadores de la reunión se pueden unir a la reunión directamente sin tener que esperar en la sala de espera. Todos los usuarios, incluidos los usuarios autenticados de la organización, los invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera.           |
+|**Usuarios en mi organización**  |Los usuarios autenticados en la organización, excluidos los usuarios invitados, pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Los invitados y los usuarios de organizaciones de confianza y los usuarios anónimos aguardan en la sala de espera.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de espera
 
@@ -488,6 +490,10 @@ Esta es una directiva por organizador. Esta opción controla si las personas que
 
 > [!NOTE]
 > Si un usuario de marcado se une a la reunión antes de que lo haga un usuario de la organización, el primero aguardará en la sala de espera hasta que el usuario de la organización se incorpore a la reunión con un cliente de Teams y le acepte. Si cambia la configuración predeterminada para cualquier usuario, se aplicará a todas las reuniones nuevas organizadas por ese usuario y las reuniones anteriores en las que el usuario no haya modificado las opciones de reunión.
+
+### <a name="allow-team-members-to-bypass-the-lobby"></a>Permitir que los miembros del equipo omitan la sala de espera
+
+Las directivas de reuniones tienen una configuración para dejar que los miembros del equipo omitan la sala de espera. Hemos añadido la opción EveryoneInCompanyExcludingGuests para que los usuarios de la organización omitan la sala de espera pero los usuarios invitados quedan excluidos y no podrán omitir la sala de espera.
 
 ### <a name="enable-live-captions"></a>Activar subtítulos en directo
 
@@ -516,7 +522,7 @@ La configuración **¿Quién puede encargarse de la moderación?** permite a los
 
 Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
 
-Para especificar el valor predeterminado de la configuración **¿Quién puede encargarse de la moderación?** de Teams, establezca el parámetro **DesignatedPresenterRoleMode** en una de las siguientes opciones:
+Para especificar el valor predeterminado de la configuración de Teams sobre **¿Quién puede encargarse de la moderación?**, establezca el parámetro **DesignatedPresenterRoleMode** en una de las siguientes configuraciones:
 
 - **EveryoneUserOverride**: todos los participantes de la reunión pueden ser moderadores. Este es el valor predeterminado. Este parámetro corresponde a la configuración **Todos** de Teams.
 - **EveryoneInCompanyUserOverride**: los usuarios autenticados en la organización, incluidos los invitados, pueden ser moderadores. Este parámetro corresponde a la configuración **Personas de mi organización** de Teams.
