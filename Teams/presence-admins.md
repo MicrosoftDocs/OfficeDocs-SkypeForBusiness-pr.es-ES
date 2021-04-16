@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: rakayala
 description: Obtenga información acerca de los Estados de presencia en Teams y la configuración administrativa para la Característica de presencia.
 ms.custom: seo-marvel-apr2020
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5263880e049eb779c01f95ea58c6866bc1f3aa3c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
-ms.translationtype: MT
+ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460560"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768419"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
@@ -52,7 +52,7 @@ La Presencia forma parte del perfil del usuario en Microsoft Teams (así como ta
 || ![El círculo púrpura con una flecha, indica Fuera de la oficina](media/Presence_OOF.png) Fuera de la oficina. Fuera de la oficina se usa cuando se establece una respuesta automática. (Disponible solo para Outlook) |
 |||
  > [!Note]
- > Para los usuarios que se hospedan en el buzón enprem, se espera que tengan retrasos de presencia con un máximo de una hora.
+ > Se espera que los usuarios cuyo buzón de correo se hospeda de forma local tengan retrasos de presencia de hasta una hora como máximo.
 Los Estados de presencia configurados a través de la aplicación se basan en la actividad del usuario (Disponible, Ausente), en los estados del Calendario de Outlook (En una reunión) o en los estados de la aplicación Teams (En una llamada, En una presentación). Cuando se encuentre en Modo de concentración de acuerdo con su calendario, el estado que verán los demás usuarios en Teams será **Concentrado**. El Modo de concentración se mostrará como **No molestar** en los demás productos.
 
 Su estado de presencia actual cambiará a Ausente cuando bloquee el equipo o cuando entre en el modo de inactividad o de suspensión. En los dispositivos móviles, el estado de presencia cambiará a Ausente cada vez que la aplicación Teams esté en segundo plano.

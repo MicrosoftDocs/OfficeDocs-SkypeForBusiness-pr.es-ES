@@ -13,12 +13,12 @@ ms.collection:
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6679cd22800307ec95ac242c190d6483411413a9
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: 002f2bc8408536d79274c5e9b001f5e2a5eb55b3
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586549"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768349"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Instalar Microsoft Teams PowerShell
 
@@ -28,8 +28,8 @@ En este artículo se explica cómo instalar el módulo PowerShell de Microsoft T
 
 Teams PowerShell requiere PowerShell 5.1 o posterior en todas las plataformas. Instale la [versión más reciente de PowerShell](/powershell/scripting/install/installing-powershell) disponible para su sistema operativo.
 
-> [!WARNING]
-> Hay problemas conocidos con PowerShell 7 y Teams PowerShell. Para obtener la mejor experiencia, le recomendamos que use PowerShell 5.1.
+> [!NOTE]
+> Para obtener la mejor experiencia, le recomendamos que use PowerShell 5.1.
 
 ## <a name="install-the-teams-powershell-module"></a>Instalar el módulo de PowerShell de Teams
 
@@ -69,10 +69,6 @@ $credential = Get-Credential
 
 #Connect to Microsoft Teams
 Connect-MicrosoftTeams -Credential $credential
-
-#Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession -Credential $credential
-Import-PsSession $session
 ```
 
 ## <a name="sign-in-using-mfa-and-modern-authentication"></a>Iniciar sesión con MFA y autenticación moderna
@@ -82,10 +78,6 @@ Import-PsSession $session
 ```powershell
 #Connect to Microsoft Teams
 Connect-MicrosoftTeams -AccountId <UPN>
-
-#Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession
-Import-PsSession $session
 ```
 
 ## <a name="update-teams-powershell"></a>Actualizar PowerShell de Teams

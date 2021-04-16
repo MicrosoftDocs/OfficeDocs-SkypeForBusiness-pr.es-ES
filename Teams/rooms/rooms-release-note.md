@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la versión de salas de Microsoft Teams, que incluyen mejoras acumulativas en salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a922f3fead6c33f70e7393dd536b856934ddb390
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607552"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768378"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -75,7 +75,7 @@ En este artículo se deba a las mejoras acumulativas en salas de Microsoft Teams
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 Se ha introducido en esta actualización:
-- Compatibilidad con government community cloud high (GCCH) para salas de Teams. Los clientes de GCCH con dispositivos Teams Rooms existentes pueden descargar la versión 4.8.18.0 desde actualizar manualmente un dispositivo [salas de Microsoft Teams](manual-update.md)
+- Compatibilidad con government community cloud high (GCCH) para salas de Teams. Los clientes de GCCH con dispositivos Teams Rooms existentes pueden descargar la versión 4.8.19.0 desde Actualizar manualmente un dispositivo [salas de Microsoft Teams](manual-update.md)
 - Unirse a reuniones de Zoom con mejor calidad de vídeo (soporte técnico de 720p) y recibir la galería de vídeo de los participantes
 - Se eliminó el banner de error de inicio de sesión de Skype Empresarial para el modo predeterminado de Teams. Este cambio es compatible con las organizaciones que quitan la infraestructura de Skype Empresarial
 - Las reuniones de Teams se unen al análisis de vínculos ahora controla los vínculos seguros de protección avanzada de hilos de Microsoft Defender para permitir unirse a Teams externos sin problemas

@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre el servicio administrado salas de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: b174f0d3f608502d74d4dfbc33aa9bac66b684d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9fdfa4a3fdb6c9058f5feada655a88abcd136b3e
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117508"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768439"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Servicio administrado de Salas de Microsoft Teams
 
@@ -91,86 +91,7 @@ Para obtener más información sobre la cobertura de soporte técnico del servic
 
 ## <a name="supported-regions"></a>Regiones admitidas
 
-El servicio administrado salas de Microsoft Teams está disponible en los siguientes países y regiones. 
-
-- Andorra
-- Australia
-- Austria
-- Bélgica
-- Isla Bouvet
-- Brasil
-- Bulgaria
-- Canadá
-- Isla de Navidad
-- Islas Cocos (Keeling)
-- Islas Cook
-- Croacia
-- Chipre
-- República Checa
-- Dinamarca
-- Estonia
-- Islas Feroe
-- Fiyi
-- Francia
-- Alemania
-- Gibraltar
-- Grecia
-- Groenlandia
-- Islas Heard e Islas McDonald
-- RAE de Hong Kong
-- Hungría
-- Islandia
-- India
-- Irlanda
-- Italia
-- Japón
-- Kiribati
-- Letonia
-- Lesoto
-- Liechtenstein
-- Lituania
-- Luxemburgo
-- RAE de Macao
-- Malta
-- Islas Marshall
-- México
-- Micronesia
-- Mónaco
-- Nauru
-- Países Bajos
-- Nueva Zelanda
-- Niue
-- Isla Norfolk
-- Islas Marianas del Norte
-- Noruega
-- Palaos
-- Papúa Nueva Guinea
-- Islas Pitcairn
-- Polonia
-- Portugal
-- Rumania
-- Rusia
-- San Pedro y Miquelón
-- Samoa
-- San Marino
-- Singapur
-- Eslovaquia
-- Eslovenia
-- Islas Salomón
-- Sudáfrica
-- España
-- Suazilandia
-- Suecia
-- Suiza
-- Taiwán
-- Tokelau
-- Tonga
-- Tuvalu
-- Reino Unido
-- Estados Unidos
-- Vanuatu
-- Ciudad del Vaticano
-- Wallis y Futuna
+El servicio administrado salas de Microsoft Teams está disponible en todos los países y regiones donde Microsoft 365 está disponible. Para obtener una lista completa de países y regiones, vea Disponibilidad internacional de [Microsoft 365.](https://www.microsoft.com/microsoft-365/business/international-availability)
 
 ## <a name="support-inclusions-and-exclusions"></a>Admitir inclusiones y exclusiones
 

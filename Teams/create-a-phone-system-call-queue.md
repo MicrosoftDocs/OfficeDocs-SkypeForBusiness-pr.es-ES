@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar Sistema telefónico para las colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 963633ef3ba1743522dbbacb93166f20d489e8be
-ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
+ms.openlocfilehash: 87c65a104b8b6921aecf2ceb860d677cfa8f7d33
+ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51450637"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760593"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -104,6 +104,9 @@ Para agregar un grupo a la cola, haga clic en **Agregar grupos**, busque el grup
   - Versión de teléfono 1449/1.0.94.2020051601 o posterior de Microsoft Teams
   
 Las cuentas de Teams de los agentes deben establecerse en modo solo Teams. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas. Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
+
+> [!NOTE]
+> El modo de conferencia no es compatible si las llamadas telefónicas se enruta a la cola desde una puerta de enlace de enrutamiento directo habilitada para enrutamiento basado en ubicación.
 
 **El método de enrutamiento** determina el orden en que los agentes reciben llamadas de la cola. Elija una de estas opciones:
 

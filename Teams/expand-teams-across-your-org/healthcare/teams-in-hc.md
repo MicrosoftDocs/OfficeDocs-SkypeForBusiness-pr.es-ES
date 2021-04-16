@@ -26,12 +26,12 @@ description: Obtenga información sobre características relacionadas con el ám
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6048d2413ea92e377358af43c7348abbbe00be1
+ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092688"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760603"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 
@@ -140,7 +140,7 @@ Para más información, consulte [Administrar la aplicación Listas para su orga
 
 ### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>Hacer un seguimiento de tareas y monitorearlas con la aplicación Tasks
 
-Use [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) en Teams para hacer un seguimiento elementos pendientes para todo el equipo sanitario. Su equipo sanitario puede crear, asignar y programar tareas, categorizar tareas y actualizar estados en cualquier momento, desde cualquier dispositivo que tenga Teams.
+Use [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) en Teams para hacer un seguimiento elementos pendientes para todo el equipo sanitario. Su equipo sanitario puede crear, asignar y programar tareas, categorizar tareas y actualizar estados en cualquier momento, desde cualquier dispositivo que tenga Teams. Los profesionales y administradores de TI también pueden publicar tareas en equipos específicos de su organización. Por ejemplo, podría publicar un conjunto de tareas para nuevos protocolos de seguridad o un nuevo paso de admisión que se usará en un hospital.
 
 Para más información, consulte [Administrar la aplicación Tasks para su organización en Microsoft Teams](../../manage-tasks-app.md)
 

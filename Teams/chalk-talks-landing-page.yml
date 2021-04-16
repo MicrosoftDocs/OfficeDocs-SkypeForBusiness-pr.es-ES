@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Charlas de tiza de Microsoft Teams
-summary: Diseñadas para profesionales de TI y responsables de la toma de decisiones, Teams Chalk Talks ofrece una oportunidad única para aprender procedimientos recomendados y instrucciones prácticas sobre algunos de los escenarios más populares y atractivos de Teams.
+summary: 'Diseñadas para profesionales de TI y responsables de la toma de decisiones, Teams Chalk Talks ofrece una oportunidad única para aprender procedimientos recomendados y instrucciones prácticas sobre algunos de los escenarios más populares y atractivos de Teams.'
 brand: teams
 metadata:
   title: Charlas de tiza de Microsoft Teams
-  description: Diseñadas para profesionales de TI y responsables de la toma de decisiones, Teams Chalk Talks ofrece una oportunidad única para aprender procedimientos recomendados y instrucciones prácticas sobre algunos de los escenarios más populares y atractivos de Teams. Facilitados por expertos en la materia, estos talleres interactivos en línea le proporcionarán información para mejorar la implementación de Teams y proporcionar valor adicional para los usuarios finales. Haz clic en cualquier título del taller a continuación para ver las fechas y horas disponibles y regístrate hoy mismo.
+  description: 'Diseñadas para profesionales de TI y responsables de la toma de decisiones, Teams Chalk Talks ofrece una oportunidad única para aprender procedimientos recomendados y instrucciones prácticas sobre algunos de los escenarios más populares y atractivos de Teams. Facilitados por expertos en la materia, estos talleres interactivos en línea le proporcionarán información para mejorar la implementación de Teams y proporcionar valor adicional para los usuarios finales. Haz clic en cualquier título del taller a continuación para ver las fechas y horas disponibles y regístrate hoy mismo.'
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -14,51 +14,53 @@ metadata:
   ms.reviewer: nsuter
   audience: admin
   f1.keywords:
-  - NOCSH
+    - NOCSH
   localization_priority: Normal
-  ROBOTS: NOINDEX, NOFOLLOW
+  ROBOTS: 'NOINDEX, NOFOLLOW'
   ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+    - Teams_ITAdmin_JourneyFromSfB
+    - M365-collaboration
   ms.custom:
-  - seo-marvel-apr2020
+    - seo-marvel-apr2020
   search.appverid: MET150
   appliesto:
-  - Microsoft Teams
-  ms.openlocfilehash: 2cd84e6eeb43816d86424f2e63919efb750cdaa5
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: es-ES
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51102706"
+    - Microsoft Teams
 productDirectory:
   summary: Haga clic en cualquier título del taller para registrarse.
   items:
-  - title: Por lo tanto... ¿Desea realizar llamadas con Teams?
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: Únase a nosotros para ver en profundidad cómo agregar funcionalidades de llamadas RTC a la implementación de Teams. Juntos, recorreremos terminología de llamadas, conceptos clave y configuraciones.
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-  - title: Tomar el control de la calidad de audio y vídeo en Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: ¿Busca asegurarse de que los usuarios tengan experiencias óptimas con las reuniones y las capacidades de voz? Trataremos herramientas, informes y procedimientos recomendados para ayudarle a administrar la calidad del servicio, desde establecer una estrategia proactiva hasta resolver problemas comunes.
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Aplicaciones en Conceptos básicos de Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
-    summary: Esta sesión básica trata las capacidades básicas, como la administración de aplicaciones y la seguridad. Obtenga información sobre cómo integrar sus flujos de trabajo, aplicaciones de productividad y los servicios que usa cada día en una única experiencia unificada.
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Sobrecargar flujos de trabajo clave con aplicaciones en Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: Conecte sus sistemas, aumente la automatización y ofrezca experiencias mejoradas para los usuarios al incorporar las aplicaciones de las que depende su organización en Teams.
-    url: https://aka.ms/ChalkTalkKeyApps
+    - title: Tomar el control de la calidad de audio y vídeo en Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/health-teams.svg'
+      summary: '¿Busca asegurarse de que los usuarios tengan experiencias óptimas con las reuniones y las capacidades de voz? Trataremos herramientas, informes y procedimientos recomendados para ayudarle a administrar la calidad del servicio, desde establecer una estrategia proactiva hasta resolver problemas comunes.'
+      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksQuality'
+    - title: Por lo tanto... ¿Desea realizar llamadas con Teams?
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
+      summary: 'Únase a nosotros para ver en profundidad cómo agregar funcionalidades de llamadas RTC a la implementación de Teams. Juntos, recorreremos terminología de llamadas, conceptos clave y configuraciones.'
+      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksCalling'
+    - title: Dinamizar sus eventos en directo con Microsoft Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-teams.svg'
+      summary: Interactúe y dinamice a su público con grandes eventos virtuales en línea con Microsoft Teams. Aprenda los procedimientos recomendados para asegurarse de que el evento se realiza correctamente.
+      url: 'https://aka.ms/ChalkTalksVirtualEvents'
+    - title: Aplicaciones en Conceptos básicos de Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
+      summary: 'Esta sesión básica trata las capacidades básicas, como la administración de aplicaciones y la seguridad. Obtenga información sobre cómo integrar sus flujos de trabajo, aplicaciones de productividad y los servicios que usa cada día en una única experiencia unificada.'
+      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksApps'
+    - title: Sobrecargar flujos de trabajo clave con aplicaciones en Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
+      summary: 'Conecte sus sistemas, aumente la automatización y ofrezca experiencias mejoradas para los usuarios al incorporar las aplicaciones de las que depende su organización en Teams.'
+      url: 'https://aka.ms/ChalkTalkKeyApps'
+    - title: Facultar a los empleados de Frontline para que hagan más cosas con Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-teams.svg'
+      summary: 'Explore los procedimientos recomendados para planear e implementar experiencias optimizadas para conversaciones productivas, uso compartido de información y administración de programación para sus trabajadores de Frontline.'
+      url: 'https://aka.ms/TeamsFLW'
 additionalContent:
   sections:
-  - items:
-    - title: ¿Sigues usando Skype Empresarial?
-      summary: Echa un vistazo a nuestra serie de Talleres de actualización.
-      url: upgrade-workshops-landing-page.yml
-    - title: Preparar a los usuarios
-      summary: Consiga que los usuarios se ejecuten con Teams Live Training.
-      url: ./instructor-led-training-teams-landing-page.yml
-    - title: ¿Nuevo en Teams?
-      summary: Obtenga más información sobre cómo empezar a usar Teams.
-      url: ./teams-overview.md
+    - items:
+        - title: ¿Sigues usando Skype Empresarial?
+          summary: Echa un vistazo a nuestra serie de Talleres de actualización.
+          url: upgrade-workshops-landing-page.yml
+        - title: Preparar a los usuarios
+          summary: Consiga que los usuarios se ejecuten con Teams Live Training.
+          url: ./instructor-led-training-teams-landing-page.yml
+        - title: ¿Nuevo en Teams?
+          summary: Obtenga más información sobre cómo empezar a usar Teams.
+          url: ./teams-overview.md
