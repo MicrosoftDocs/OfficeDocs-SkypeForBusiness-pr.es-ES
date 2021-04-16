@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre el servicio administrado salas de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 9fdfa4a3fdb6c9058f5feada655a88abcd136b3e
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: beb8c0a7cf4a2a78364b145da1da83e2ae04bd0b
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768439"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858023"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Servicio administrado de Salas de Microsoft Teams
 
@@ -91,7 +91,7 @@ Para obtener más información sobre la cobertura de soporte técnico del servic
 
 ## <a name="supported-regions"></a>Regiones admitidas
 
-El servicio administrado salas de Microsoft Teams está disponible en todos los países y regiones donde Microsoft 365 está disponible. Para obtener una lista completa de países y regiones, vea Disponibilidad internacional de [Microsoft 365.](https://www.microsoft.com/microsoft-365/business/international-availability)
+La licencia de Salas Premium de Microsoft Teams está disponible en todos los países y regiones donde Microsoft 365 está disponible. Para obtener una lista completa de países y regiones, vea Disponibilidad internacional de [Microsoft 365.](https://www.microsoft.com/microsoft-365/business/international-availability)
 
 ## <a name="support-inclusions-and-exclusions"></a>Admitir inclusiones y exclusiones
 

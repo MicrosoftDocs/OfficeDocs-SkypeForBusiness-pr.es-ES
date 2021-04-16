@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020ed67b695c10e54d43891d78a77783ab61ee81
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9688b700d900720aa9af1c0f68cadee99d7de858
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119199"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858053"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -377,10 +377,9 @@ Esta característica está disponible en teams versión 1.3.00.13565 y posterior
 ### <a name="client-deployment-installation-and-setup"></a>Implementación, instalación y configuración del cliente
 
 - Con la instalación por equipo, Teams en VDI no se actualiza automáticamente de la forma en que lo son los clientes de Teams que no son VDI. Tiene que actualizar la imagen de la máquina virtual instalando un nuevo MSI como se describe en la sección Instalar o actualizar la aplicación de escritorio de [Teams en VDI.](#install-or-update-the-teams-desktop-app-on-vdi) Debe desinstalar la versión actual para actualizar a una versión más reciente.
+- En entornos Citrix, si el usuario se desconecta de la máquina virtual mientras Teams se está ejecutando, las actualizaciones de Teams pueden hacer que el usuario esté en un estado no optimizado para AV cuando se vuelva a conectar. Se recomienda a los usuarios que abandonen Teams antes de desconectarse de Citrix Virtual Machine para evitar este escenario.
 - Teams debe implementarse por usuario o por equipo. No se admite la implementación de Teams para equipos simultáneos por usuario y por equipo. Para migrar de una máquina o de un usuario a uno de estos modos, siga el procedimiento de desinstalación y vuelva a implementarlo en ambos modos.
 - Windows Virtual Desktop y VMware no admiten clientes basados en MacOS y Linux en este momento.
-- Citrix no admite clientes MacOs en este momento.
-- Citrix no admite el uso de servidores proxy HTTP explícitos definidos en un punto de conexión.
 
 ### <a name="calling-and-meetings"></a>Llamadas y reuniones
 
@@ -396,6 +395,7 @@ Las siguientes características de llamadas y reuniones no son compatibles:
 - Cola de llamadas
 - Sonido del equipo/audio del sistema compartido
 - Desvío de medios para enrutamiento directo
+- Acercar el contenido compartido
 
 > [!NOTE]
 > Estamos trabajando en agregar características de llamadas y reuniones que actualmente solo están disponibles en entornos que no son VDI. Esto puede incluir más control de administración sobre la calidad, escenarios de uso compartido de pantalla adicionales y características avanzadas agregadas recientemente a Teams. Póngase en contacto con su representante de Teams para obtener más información sobre las próximas características.
@@ -433,5 +433,5 @@ A continuación, reinicie VDA. Para obtener más información, vea este artícul
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Instalar Microsoft Teams con MSI](msi-deployment.md)
-- [Descripción de PowerShell para Teams](teams-powershell-overview.md)
+- [Información general de PowerShell para Teams](teams-powershell-overview.md)
 - [Usar Microsoft Teams en escritorio virtual de Windows](/azure/virtual-desktop/teams-on-wvd)
