@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
 ms.reviewer: harij, rafarhi
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Aprenda a usar los distintos clientes disponibles para Microsoft Teams, que incluyen web, escritorio (Windows y Mac) y móvil (iOS y Android).
 f1.keywords:
@@ -19,40 +19,39 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff9e407edeab7d14e0d495c5f30a85abfb9ce02f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.openlocfilehash: 8385e6721a24c3ad1bd320dd2f6e5e14091181b0
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112446"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768229"
 ---
-# <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
+# <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams
 
-Microsoft Teams tiene clientes disponibles para web, escritorio (Windows, Mac y Linux) y móvil (iOS y Android). Todos estos clientes requieren una conexión a Internet activa y no admiten el modo sin conexión. 
-
-> [!Note]
-> Para obtener información detallada sobre las capacidades de cada cliente en diferentes plataformas, vea [Características de Teams por plataforma.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+Microsoft Teams tiene clientes disponibles para web, escritorio (Windows, Mac y Linux) y móvil (iOS y Android). Todos estos clientes requieren una conexión a Internet activa y no admiten el modo sin conexión.
 
 > [!NOTE]
-> A partir del 29 de noviembre de 2018, ya no podrá usar la aplicación de Microsoft Teams para Windows 10 S (versión preliminar), disponible en Microsoft Store. En su lugar, ahora puede descargar e instalar el cliente de escritorio de Teams en los dispositivos que ejecutan Windows 10 en modo S. Para descargar el cliente de escritorio, vaya a [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). Las compilaciones de MSI del cliente de escritorio de Teams aún no están disponibles para los dispositivos que ejecutan Windows 10 en modo S.
+> Para obtener más detalles sobre las capacidades de los clientes en distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 >
-> Para obtener más información sobre Windows 10 en modo S, consulte [Presentamos Windows 10 en modo S](https://www.microsoft.com/windows/s-mode). 
+> A partir del 29 de noviembre de 2018, ya no podrá usar la aplicación de Microsoft Teams para Windows 10 S (versión preliminar), disponible en Microsoft Store. En su lugar, ahora puede descargar e instalar el cliente de escritorio de Teams en los dispositivos que ejecutan Windows 10 en modo S. Para descargar el cliente de escritorio, vaya a [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=855754). Las compilaciones de MSI del cliente de escritorio de Teams aún no están disponibles para los dispositivos que ejecutan Windows 10 en modo S.
+>
+> Para obtener más información sobre Windows 10 en modo S, consulte [Presentamos Windows 10 en modo S](https://www.microsoft.com/windows/s-mode).
 
 ## <a name="desktop-client"></a>Cliente de escritorio
 
 > [!TIP]
 > Vea la sesión siguiente para conocer las ventajas del cliente de escritorio de Windows, y cómo planearlo e implementarlo: [Cliente de escritorio de Teams para Windows](https://aka.ms/teams-clients)
 
-El cliente de escritorio de Microsoft Teams es una aplicación independiente y también está disponible en Aplicaciones de [Microsoft 365 para empresas.](/deployoffice/teams-install) Teams está disponible para versiones de 32 y 64 bits de Windows (8.1 o posterior), ARM64 para Windows 10 en ARM y Windows Server (2012 R2 o posterior), así como para macOS y Linux (en `.deb` y formatos). `.rpm` En Windows, Teams requiere .NET Framework 4.5 o posterior; el instalador de Teams le ofrecerá instalarlo si no lo tiene. En Linux, los administradores de paquetes como `apt` y `yum` intentarán instalar los requisitos por usted. No obstante, si no lo hacen, deberá instalar todos los requisitos indicados antes de instalar Teams en Linux.
+El cliente de escritorio de Microsoft Teams es una aplicación independiente y está también [disponible en Aplicaciones de Microsoft 365 para empresas](/deployoffice/teams-install). Teams está disponible para las versiones de 32 bits y 64 bits de Windows (8.1 o posterior), ARM64 para Windows 10 en ARM y Windows Server (2012 R2 o posterior), así como para macOS y Linux (en los formatos `.deb` y `.rpm`). En Windows, Teams requiere .NET Framework 4.5 o posterior; el instalador de Teams le ofrecerá instalarlo si no lo tiene. En Linux, los administradores de paquetes como `apt` y `yum` intentarán instalar los requisitos por usted. No obstante, si no lo hacen, deberá instalar todos los requisitos indicados antes de instalar Teams en Linux.
 
 Los clientes de escritorio brindan asistencia en tiempo real para las comunicaciones (audio, vídeo y contenido compartido) para las reuniones de equipo, las llamadas grupales y las llamadas de uno a uno.
 
 Los usuarios pueden descargar e instalar los clientes de escritorio directamente desde [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) si tienen los permisos locales adecuados (no se requieren derechos de administrador para instalar el cliente de Teams en PC, pero sí son necesarios para Mac).
 
 > [!NOTE]
-> Para obtener más información sobre cómo instalar Teams en un Chromebook, consulte Cómo instalar y ejecutar Microsoft Office [en un Chromebook.](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)
+> Para obtener más detalles sobre cómo instalar Teams en un Chromebook, consulte [Cómo instalar y ejecutar Microsoft Office en un Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
 
-Los administradores de TI pueden elegir el método que prefieran para distribuir los archivos de instalación en los equipos de su organización. Por ejemplo: Microsoft Endpoint Configuration Manager (Windows) o Jamf Pro (macOS). Para obtener el paquete de MSI de distribución de Windows, vea [Instalar Microsoft Teams con MSI](msi-deployment.md).  
+Los administradores de TI pueden elegir el método que prefieran para distribuir los archivos de instalación en los equipos de su organización. Por ejemplo: Microsoft Endpoint Configuration Manager (Windows) o Jamf Pro (macOS). Para obtener el paquete de MSI de distribución de Windows, vea [Instalar Microsoft Teams con MSI](msi-deployment.md).
 
 > [!NOTE]
 > La distribución del cliente a través de estos mecanismos es solo para la instalación inicial de los clientes de Microsoft Teams y no para futuras actualizaciones.
@@ -79,9 +78,9 @@ Cuando los usuarios inician una llamada utilizando el cliente de Microsoft Teams
 ![Captura de pantalla de un cuadro de diálogo Alerta de seguridad de Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> La configuración del Firewall de Windows se modificará incluso cuando se descarte el mensaje seleccionando "Cancelar". Se crearán dos reglas de teams.exe con acción Permitir para protocolos TCP y UDP.
+> La configuración del Firewall de Windows se modificará incluso cuando se desecha la solicitud al seleccionar "Cancelar". Se crearán dos reglas de entrada para teams.exe con la opción Permitir acción para los protocolos TCP y UDP.
 
-Si desea evitar que Teams pida a los usuarios que creen reglas de firewall cuando los usuarios realicen su primera llamada desde Teams, use el script de PowerShell de [ejemplo:](#sample-powershell-script---inbound-firewall-rule) regla de firewall de entrada a continuación. 
+Si quiere evitar que Teams pida a los usuarios que creen reglas de firewall cuando los usuarios realicen su primera llamada desde Teams, use el [script de PowerShell de ejemplo: regla de firewall de entrada](#sample-powershell-script---inbound-firewall-rule).
 
 ### <a name="mac"></a>Mac
 
@@ -110,29 +109,29 @@ Los administradores de TI pueden usar la implementación administrada de Teams p
 
 ### <a name="linux"></a>Linux
 
-Los usuarios podrán instalar paquetes de Linux nativos en los formatos `.deb` y `.rpm`.
-Al instalar el paquete DEB o RPM, se instalará automáticamente el repositorio de paquetes.
-- DEB `https://packages.microsoft.com/repos/ms-teams stable main`
-- RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
+Los usuarios podrán instalar paquetes de Linux nativos en los formatos `.deb` y `.rpm`. Si se instala el paquete DEB o RPM, se instalará automáticamente el repositorio de paquetes.
 
-La clave de firma para habilitar la actualización automática mediante el administrador de paquetes del sistema se instala automáticamente. No obstante, también se puede encontrar en: (https://packages.microsoft.com/keys/microsoft.asc). Microsoft Teams se suministra mensualmente y, si el repositorio se ha instalado correctamente, el administrador de paquetes del sistema debería controlar la actualización automática de la misma manera que otros paquetes del sistema.
+- DEB `https://packages.microsoft.com/repos/ms-teams stable main`
+- RPM `https://packages.microsoft.com/yumrepos/ms-teams`
+
+La clave de firma para habilitar la actualización automática mediante el administrador de paquetes del sistema se instala automáticamente. No obstante, también se puede encontrar en: <https://packages.microsoft.com/keys/microsoft.asc>. Microsoft Teams se suministra mensualmente y, si el repositorio se ha instalado correctamente, el administrador de paquetes del sistema debería controlar la actualización automática de la misma manera que otros paquetes del sistema.
 
 > [!NOTE] 
-> Si encuentra un error, envíelo mediante `Report a Problem` desde el cliente. Para ver los problemas conocidos, vea [Equipos de soporte técnico de su organización.](/MicrosoftTeams/troubleshoot/teams-welcome)
+> Si encuentra un error, envíelo mediante `Report a Problem` desde el cliente. Para problemas conocidos, consulte [Soporte para Teams en la organización](/MicrosoftTeams/troubleshoot/teams-welcome).
 > Para obtener soporte técnico de Teams para Linux, puede usar el [canal de soporte del foro de Linux en Preguntas y respuestas de Microsoft](/answers/topics/teams.html). Asegúrese de usar la etiqueta `teams-linux` al publicar preguntas. 
 
 #### <a name="install-teams-using-deb-package"></a>Instalación de Teams con el paquete DEB
 
-1. Descargue el paquete desde https://aka.ms/getteams.
-2. Instálelo mediante uno de los métodos siguientes:  
+1. Descargue el paquete desde <https://aka.ms/getteams>.
+2. Instálelo mediante uno de los métodos siguientes:
     - Abra la herramienta de administración del paquete correspondiente y siga el proceso autoguiado de instalación de aplicaciones Linux.
     - O bien, si le gusta Terminal, escriba lo siguiente: `sudo dpkg -i **teams download file**`
 
-Para iniciar Teams a través de Actividades o a través de Terminal, escriba `teams`. 
+Para iniciar Teams a través de Actividades o a través de Terminal, escriba `teams`.
 
 #### <a name="install-teams-using-rpm-package"></a>Instalación de Teams con el paquete RPM
 
-1. Descargue el paquete desde https://aka.ms/getteams.
+1. Descargue el paquete desde <https://aka.ms/getteams>.
 2. Instálelo mediante uno de los métodos siguientes:
     - Abra la herramienta de administración del paquete correspondiente y siga el proceso autoguiado de instalación de aplicaciones Linux.
     - O bien, si le gusta Terminal, escriba lo siguiente: `sudo yum install **teams download file**`
@@ -145,9 +144,9 @@ Instalación manual en las distribuciones de Debian y Ubuntu:
 
 ```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
- 
+
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
- 
+
 sudo apt update
 sudo apt install teams
 ```
@@ -156,9 +155,9 @@ Instalación manual en las distribuciones basadas en RHEL, Fedora y CentOS:
 
 ```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
- 
+
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
- 
+
 sudo dnf check-update
 sudo dnf install teams
 ```
@@ -174,16 +173,16 @@ Instalación manual en las distribuciones basadas en openSUSE:
 
 ```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
- 
+
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
- 
+
 sudo zypper refresh
 sudo zypper install teams
 ```
 
-## <a name="web-client"></a>Cliente Web 
+## <a name="web-client"></a>Cliente Web
 
-El cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) es un cliente completo y funcional que puede utilizarse desde una variedad de exploradores. El cliente web es compatible con Llamadas y Reuniones mediante webRTC, por lo que no se requiere ningún complemento o descarga para ejecutar Teams en un explorador web. El explorador debe configurarse para permitir cookies de terceros. 
+El cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) es un cliente completo y funcional que puede utilizarse desde una variedad de exploradores. El cliente web es compatible con Llamadas y Reuniones mediante webRTC, por lo que no se requiere ningún complemento o descarga para ejecutar Teams en un explorador web. El explorador debe configurarse para permitir cookies de terceros.
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
@@ -191,26 +190,26 @@ El cliente web detecta la versión del explorador al conectarse con [https://tea
 
 ## <a name="mobile-clients"></a>Clientes móviles
 
-Las aplicaciones móviles de Microsoft Teams están disponibles para iOS y Android, y están pensadas para que los usuarios que no están en un lugar fijo participen en conversaciones basadas en chat y para permitir las llamadas de audio de par a par. Para las aplicaciones móviles, vaya a la tienda móvil correspondiente: Google Play y App Store de Apple. La aplicación de Windows Phone se retiró el 20 de julio de 2018 y podría dejar de funcionar. 
+Las aplicaciones móviles de Microsoft Teams están disponibles para iOS y Android, y están pensadas para que los usuarios que no están en un lugar fijo participen en conversaciones basadas en chat y para permitir las llamadas de audio de par a par. Para las aplicaciones móviles, vaya a la tienda móvil correspondiente: Google Play y App Store de Apple. La aplicación de Windows Phone se retiró el 20 de julio de 2018 y podría dejar de funcionar.
 
-Aquí puede ver cómo [obtener Teams para Android](get-teams-android-in-china.md) en China. 
+Aquí puede ver cómo [obtener Teams para Android](get-teams-android-in-china.md) en China.
 
 Las siguientes son las plataformas móviles admitidas para Microsoft Teams:
 
--   **Android**: la compatibilidad está limitada a las cuatro versiones principales más recientes de Android. Cuando se publica una nueva versión principal de Android, se admiten oficialmente la nueva versión y las tres versiones anteriores.
+- **Android**: la compatibilidad está limitada a las cuatro versiones principales más recientes de Android. Cuando se publica una nueva versión principal de Android, se admiten oficialmente la nueva versión y las tres versiones anteriores.
 
--   **iOS**: la compatibilidad está limitada a las dos versiones principales más recientes de iOS. Cuando se publica una nueva versión principal de iOS, se admiten oficialmente la nueva versión y las tres versiones anteriores de iOS.
+- **iOS**: la compatibilidad está limitada a las dos versiones principales más recientes de iOS. Cuando se publica una nueva versión principal de iOS, se admiten oficialmente la nueva versión y las tres versiones anteriores de iOS.
 
 > [!NOTE]
 > La versión móvil debe estar disponible para el público para que Teams funcione según lo esperado.
 
 Las aplicaciones móviles solamente se distribuyen y actualizan en la tienda de aplicaciones de la plataforma móvil correspondiente. Microsoft no admite la distribución de las aplicaciones móviles mediante MDM ni instalación de prueba. Una vez que se haya instalado la aplicación móvil en una plataforma móvil compatible, se admitirá la aplicación móvil de Teams, siempre y cuando la versión se encuentre dentro de los tres meses siguientes a la versión actual.
 
-
 | | | |
-|---------|---------|---------|
-|![Un icono que representa un punto de decisión](media/Get_clients_for_Microsoft_Teams_image4.png)      |Punto de decisión         |¿Hay alguna restricción que evite que los usuarios instalen el cliente de Microsoft Teams adecuado en sus dispositivos?         |
-|![Un icono que representa los siguientes pasos](media/Get_clients_for_Microsoft_Teams_image5.png)     |Pasos siguientes         |Si su organización restringe la instalación de software, asegúrese de que el proceso sea compatible con Microsoft Teams. Nota: No se requieren derechos de administrador para instalar el cliente en PC, pero sí son necesarios para Mac.         |
+|---|---|---|
+|![Un icono que representa un punto de decisión](media/Get_clients_for_Microsoft_Teams_image4.png)|Punto de decisión|¿Hay alguna restricción que evite que los usuarios instalen el cliente de Microsoft Teams adecuado en sus dispositivos?|
+|![Un icono que representa los siguientes pasos](media/Get_clients_for_Microsoft_Teams_image5.png)|Pasos siguientes|Si su organización restringe la instalación de software, asegúrese de que el proceso sea compatible con Microsoft Teams. Nota: No se requieren derechos de administrador para instalar el cliente en PC, pero sí son necesarios para Mac.|
+|
 
 ## <a name="client-update-management"></a>Administración de actualizaciones del cliente
 
@@ -228,7 +227,7 @@ En este momento, no hay opciones disponibles para que los administradores de TI 
 
 ## <a name="sample-powershell-script---inbound-firewall-rule"></a>Script de PowerShell de ejemplo: regla de firewall de entrada
 
-Este script de ejemplo, que tiene que ejecutarse en los equipos de cliente en el contexto de una cuenta de administrador con privilegios elevados, creará una nueva regla de firewall de entrada para cada carpeta de usuario que se encuentra en c:\users. Cuando Teams encuentra esta regla, impedirá que la aplicación de Teams solicite a los usuarios crear reglas de firewall cuando los usuarios realicen su primera llamada de Teams. 
+Este script de ejemplo, que tiene que ejecutarse en los equipos de cliente en el contexto de una cuenta de administrador con privilegios elevados, creará una nueva regla de firewall de entrada para cada carpeta de usuario que se encuentra en c:\users. Cuando Teams encuentra esta regla, impedirá que la aplicación de Teams solicite a los usuarios crear reglas de firewall cuando los usuarios realicen su primera llamada de Teams.
 
 ```powershell
 <#
@@ -236,8 +235,8 @@ Este script de ejemplo, que tiene que ejecutarse en los equipos de cliente en el
    Creates firewall rules for Teams.
 .DESCRIPTION
    (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
-   Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions. 
-   The script will create a new inbound firewall rule for each user folder found in c:\users. 
+   Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions.
+   The script will create a new inbound firewall rule for each user folder found in c:\users.
    Requires PowerShell 3.0.
 #>
 
