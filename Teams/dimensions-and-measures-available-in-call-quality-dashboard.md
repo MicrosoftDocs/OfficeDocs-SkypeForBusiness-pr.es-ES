@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que usa el Panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial Online.
-ms.openlocfilehash: 6e7733320331cae0f57b82615fcebe9d8d620c72
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cef151eb8941135112bab92a806b620727567bee
+ms.sourcegitcommit: b56727299d7ea47e23807114a4f5881e289c0b6a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115578"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "51880459"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en panel de calidad de llamada (CQD)
 
@@ -77,8 +77,8 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 | Second OS Filtered  | Cadena  | Nombre del sistema operativo, y la versión principal y secundaria que ha notificado el segundo punto de conexión. Esta cadena puede contener más que el nombre y la versión del sistema operativo. <br/> **Valor de ejemplo:** Windows 10  | <br/>&bull; El punto de conexión no ha comunicado esta información <br/>&bull; No se ha recibido el informe de este punto de conexión |
 | First OS Architecture  | Cadena  | Arquitectura de hardware que ha notificado el primer punto de conexión. <br/> **Valor de ejemplo:** x64  | &bull; El punto de conexión no ha comunicado esta información <br/>&bull; No se ha recibido el informe de este punto de conexión <br/>&bull; No se reconoció el formato de la arquitectura |
 | Second OS Architecture  | Cadena  | Arquitectura de hardware que ha notificado el segundo punto de conexión. <br/> **Valor de ejemplo:** x64  | &bull; El punto de conexión no ha comunicado esta información <br/>&bull; No se ha recibido el informe de este punto de conexión <br/>&bull; No se reconoció el formato de la arquitectura  |
-| First Virtualization Flag  | Enumeración <br/>**Valores posibles:** <br/> "0x00" = Ninguno " <br/> "0x01" = HiperV <br/> "0x02" = VMWare <br/> "0x04" = PC virtual <br/> "0x08" = Xen PC | Marca que indica el tipo de entorno de virtualización notificado por el primer punto de conexión. | <br/>&bull; El punto de conexión no ha notificado los datos |
-| Second Virtualization Flag  | Enumeración <br/>**Valores posibles:** <br/> "0x00" = Ninguno " <br/> "0x01" = HiperV <br/> "0x02" = VMWare <br/> "0x04" = PC virtual <br/> "0x08" = Xen PC | Marca que indica el tipo de entorno de virtualización notificado por el segundo punto de conexión.  | <br/>&bull; El punto de conexión no ha notificado los datos |
+| First Virtualization Flag  | Enumeración <br/>**Valores posibles:** <br/> "0x00" = Ninguno  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = PC virtual <br/> "0x08" = Xen PC | Marca que indica el tipo de entorno de virtualización notificado por el primer punto de conexión. | <br/>&bull; El punto de conexión no ha notificado los datos |
+| Second Virtualization Flag  | Enumeración <br/>**Valores posibles:** <br/> "0x00" = Ninguno  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = PC virtual <br/> "0x08" = Xen PC | Marca que indica el tipo de entorno de virtualización notificado por el segundo punto de conexión.  | <br/>&bull; El punto de conexión no ha notificado los datos |
 |First Endpoint Make |String |Fabricante del dispositivo, la información se lee desde un campo EndpointMake del archivo de datos de punto de conexión. | <br/>&bull; No hay ningún archivo de datos para el punto de conexión |
 | Primer modelo de punto de conexión |String|Modelo de dispositivo, la información se lee desde un campo EndpointModel de archivo de datos de punto de conexión.| <br/>&bull; No hay ningún archivo de datos para el punto de conexión |
 | Primer tipo de punto de conexión|String|Tipo de dispositivo, la información se lee desde un campo EndpointType del archivo de datos de punto de conexión.| <br/>&bull; No hay ningún archivo de datos para el punto de conexión |
@@ -91,6 +91,16 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 | Segunda etiqueta de punto de conexión 1|String| Una etiqueta personalizable, la información se lee desde un archivo de datos de punto de conexión. | <br/>&bull; No hay ningún archivo de datos para el punto de conexión |
 | Segunda etiqueta de punto de conexión 2|String|Una etiqueta personalizable, la información se lee desde un archivo de datos de punto de conexión.| <br/>&bull; No hay ningún archivo de datos para el punto de conexión|
 | Second Endpoint Label 3|String|Una etiqueta personalizable, la información se lee desde un archivo de datos de punto de conexión.| <br/>&bull; No hay ningún archivo de datos para el punto de conexión |
+| Primer ASN|String|Número de sistema autónomo para el primer punto de conexión. <br/> **Valor de ejemplo:** 8069  | <br/>&bull; Los datos de red no están disponibles para determinar el ASN del punto de conexión |
+| Segundo ASN|String|Número de sistema autónomo para el segundo punto de conexión. <br/> **Valor de ejemplo:** 8069  | <br/>&bull; Los datos de red no están disponibles para determinar el ASN del punto de conexión |
+| Primer código de país ASN|String|Código de país para el número de sistema autónomo determinado para el primer punto de conexión. <br/> **Valor de ejemplo:** EE. UU.  | <br/>&bull; Los datos de red no están disponibles para determinar el ASN del punto de conexión |
+| Segundo código de país ASN|String|Código de país para el número de sistema autónomo determinado para el segundo punto de conexión. <br/> **Valor de ejemplo:** EE. UU.  | <br/>&bull; Los datos de red no están disponibles para determinar el ASN del punto de conexión |
+| Primer país ASN|String|Nombre de país del número de sistema autónomo determinado para el primer punto de conexión. <br/> **Valor de ejemplo:** Estados Unidos  | <br/>&bull; Los datos de red no están disponibles para determinar el ASN del punto de conexión |
+| Segundo país ASN|String|Nombre de país para el número de sistema autónomo determinado para el segundo punto de conexión. <br/> **Valor de ejemplo:** Estados Unidos  | <br/>&bull; Los datos de red no están disponibles para determinar el ASN del punto de conexión |
+| First ASN City|String|Nombre de ciudad para el número de sistema autónomo determinado para el primer punto de conexión. <br/> **Valor de ejemplo:** Redmond  | <br/>&bull; Los datos de red no están disponibles para determinar el ASN del punto de conexión |
+| Second ASN City|String|Nombre de ciudad para el número de sistema autónomo determinado para el segundo punto de conexión. <br/> **Valor de ejemplo:** Redmond  | <br/>&bull; Los datos de red no están disponibles para determinar el ASN del punto de conexión |
+| Primer estado ASN|String|Nombre de estado para el número de sistema autónomo determinado para el primer punto de conexión. <br/> **Valor de ejemplo:** WA  | <br/>&bull; Los datos de red no están disponibles para determinar el ASN del punto de conexión |
+| Segundo estado ASN|String|Nombre del estado del número de sistema autónomo determinado para el segundo punto de conexión. <br/> **Valor de ejemplo:** WA  | <br/>&bull; Los datos de red no están disponibles para determinar el ASN del punto de conexión |
 |**Building**| | |
 | First Network | Cadena | Subred usada para la transmisión multimedia por el primer punto de conexión si la subred existe en subred a los datos de creación de inquilinos. <br/> **Valor de ejemplo:** 10.0.1.12.0 | &bull; El punto de conexión no ha notificado los datos de red <br/>&bull; La red no se define en los datos de asignación de subred.  |
 | First Network Name  | Cadena  | Nombre de la red usada para la transmisión multimedia por el primer punto de conexión. En función de la subred de asignación a los datos de creación de inquilinos. <br/> **Valor de ejemplo:** EE.UU./WA/REDMOND | &bull; El punto de conexión no ha notificado los datos de red <br/>&bull; La red no se define en los datos de asignación de subred  |
@@ -443,7 +453,10 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 |Vibración|Milisegundos|La variación en la hora de llegada de los paquetes RTP. Para obtener más [información, vea Clasificación de transmisiones](stream-classification-in-call-quality-dashboard.md) en el panel de calidad de llamadas.<br/>**Ejemplo:** 5,982||
 |Packet Loss Rate|Porcentaje|El porcentaje de transmisiones entre el servidor de mediación y SBC o puerta de enlace, si está disponible. Para obtener más [información, vea Clasificación de transmisiones](stream-classification-in-call-quality-dashboard.md) en el panel de calidad de llamadas.<br/>**Ejemplo:** 1,2 %||
 |Latencia (tiempo de ida y vuelta)|Milisegundos|El tiempo medio de ida y vuelta de la propagación de red por transmisión calculada. Para obtener más [información, vea Clasificación de transmisiones](stream-classification-in-call-quality-dashboard.md) en el panel de calidad de llamadas.<br/>**Ejemplo:** 3,49||
+|**Reunión**|||
+|Escenario de reunión|Enumeración <br/>**Valores posibles:** <br/> Bookings <br/> Conector EHR <br/> Desconocido |Un campo proporcionado por los equipos cliente de programación de reuniones (por ejemplo, Bookings, EHR Connector) a través de su telemetría para ayudar a distinguir sus reuniones del resto. A partir de abril de 2021, solo Bookings y EHR Connector se han registrado para proporcionar telemetría para identificar el escenario de una reunión.|El cliente de programación no ha proporcionado este parámetro a través de su telemetría.|
 ||||
+
 
 ### <a name="notes-on-dimension-data-typeunits"></a>Notas sobre unidades o tipo de datos de dimensión
 

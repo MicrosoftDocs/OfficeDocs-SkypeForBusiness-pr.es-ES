@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar Sistema telefónico para las colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 87c65a104b8b6921aecf2ceb860d677cfa8f7d33
-ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
+ms.openlocfilehash: 1202de31beddb8f70391d40d4e6218942c59cba1
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760593"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51874456"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -80,6 +80,11 @@ Revise los [requisitos previos para agregar agentes a una cola de llamadas.](pla
 Puede agregar hasta 200 agentes a través de un canal de Teams.
 
 Si desea usar un [canal de Teams para](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)administrar la cola, seleccione la opción Elegir **un** equipo y haga clic en Agregar **un canal.** Busque el equipo que desea usar, selecciónelo y haga clic en **Agregar**. Seleccione el canal que desea usar y haga clic en **Aplicar.**
+
+Los clientes siguientes son compatibles al usar un canal de Teams para las colas de llamadas: 
+
+  - Cliente de Windows de Microsoft Teams
+  - Cliente de Microsoft Teams para Mac
 
 ##### <a name="users-and-groups"></a>Usuarios y grupos
 

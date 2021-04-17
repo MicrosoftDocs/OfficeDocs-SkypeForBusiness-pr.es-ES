@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9688b700d900720aa9af1c0f68cadee99d7de858
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: b7262cc77310a9ea198a51af720e6e5117a72111
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858053"
+ms.locfileid: "51874476"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -395,7 +395,7 @@ Las siguientes características de llamadas y reuniones no son compatibles:
 - Cola de llamadas
 - Sonido del equipo/audio del sistema compartido
 - Desvío de medios para enrutamiento directo
-- Acercar el contenido compartido
+- Control de zoom 
 
 > [!NOTE]
 > Estamos trabajando en agregar características de llamadas y reuniones que actualmente solo están disponibles en entornos que no son VDI. Esto puede incluir más control de administración sobre la calidad, escenarios de uso compartido de pantalla adicionales y características avanzadas agregadas recientemente a Teams. Póngase en contacto con su representante de Teams para obtener más información sobre las próximas características.
