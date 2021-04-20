@@ -3,6 +3,52 @@
 
 
 
+## <a name="week-of-april-12-2021"></a>Semana del 12 de abril de 2021
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 4/12/2021 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 4/12/2021 | [Administrar paquetes de directivas en Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
+| 4/12/2021 | [Experiencia de reunión de solo vista](/MicrosoftTeams/view-only-meeting-experience) | modificado |
+| 4/12/2021 | [Enrutamiento directo del Sistema telefónico](/MicrosoftTeams/direct-routing-protocols-sip) | modificado |
+| 4/12/2021 | [Administrar directivas de configuración de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
+| 4/12/2021 | [Azure Sentinel y Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | modificado |
+| 4/12/2021 | [Barreras de información en Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modificado |
+| 4/13/2021 | [Administrar directivas de reunión](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
+| 4/13/2021 | [Azure Sentinel y Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | modificado |
+| 4/13/2021 | [Guía de seguridad para Microsoft Teams](/MicrosoftTeams/teams-security-guide) | modificado |
+| 4/13/2021 | [Charlas de tiza de Microsoft Teams](/MicrosoftTeams/chalk-talks-landing-page) | modificado |
+| 4/13/2021 | [Introducción a Teams para organizaciones sanitarias](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
+| 4/13/2021 | [Obtener clientes para Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
+| 4/13/2021 | [Usar análisis de llamadas para solucionar problemas de mala calidad de llamada](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | modificado |
+| 4/14/2021 | [Navegar por Microsoft Teams](/MicrosoftTeams/navigate-teams) | agregado |
+| 4/14/2021 | [Trazar el viaje de Kaizala a Teams](/MicrosoftTeams/prepare-for-teams) | agregado |
+| 4/14/2021 | [Experiencia de Teams en un entorno habilitado para varias ubicaciones geográficas de Microsoft 365](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | modificado |
+| 4/14/2021 | [Obtener clientes para Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
+| 4/14/2021 | [Requisitos de hardware para Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
+| 4/14/2021 | [Preparar la red de la organización para Microsoft Teams](/MicrosoftTeams/prepare-network) | modificado |
+| 4/14/2021 | [La presencia del usuario en Teams](/MicrosoftTeams/presence-admins) | modificado |
+| 4/14/2021 | [Canales privados en Microsoft Teams](/MicrosoftTeams/private-channels) | modificado |
+| 4/14/2021 | [Notas de la versión](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
+| 4/14/2021 | [Instalar Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install) | modificado |
+| 4/14/2021 | [Información general sobre PowerShell de Microsoft Teams](/MicrosoftTeams/teams-powershell-overview) | modificado |
+| 4/14/2021 | [Notas de la versión de PowerShell de Microsoft Teams](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
+| 4/14/2021 | [Solución de problemas de instalación y actualización de Microsoft Teams en Windows](/MicrosoftTeams/troubleshoot-installation) | modificado |
+| 4/14/2021 | [Dispositivos para Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
+| 4/14/2021 | [Servicio administrado de Salas de Microsoft Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | modificado |
+| 4/15/2021 | [Teams para la infraestructura de escritorio virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 4/15/2021 | [Configurar las llamadas de emergencia dinámicas](/MicrosoftTeams/configure-dynamic-emergency-calling) | modificado |
+| 4/15/2021 | [Servicio administrado de Salas de Microsoft Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | modificado |
+| 4/15/2021 | [Pósteres de soluciones de voz y arquitectura de TI de Microsoft Teams](/MicrosoftTeams/teams-architecture-solutions-posters) | modificado |
+| 4/16/2021 | [Instalar Power BI Connector para usar plantillas de consulta CQD](/MicrosoftTeams/cqd-power-bi-connector) | modificado |
+| 4/16/2021 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 4/16/2021 | [Teams para la infraestructura de escritorio virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 4/16/2021 | [Introducción a la grabación basada en directivas de Teams para llamadas & reuniones](/MicrosoftTeams/teams-recording-policy) | modificado |
+| 4/16/2021 | [Dimensiones y medidas: Panel de calidad de llamadas (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
+| 4/16/2021 | [Instalar, administrar y asignar permisos para Microsoft Viva Learning (versión preliminar privada)](/MicrosoftTeams/teams-learning-app-overview) | modificado |
+
+
 ## <a name="week-of-april-05-2021"></a>Semana del 05 de abril de 2021
 
 
