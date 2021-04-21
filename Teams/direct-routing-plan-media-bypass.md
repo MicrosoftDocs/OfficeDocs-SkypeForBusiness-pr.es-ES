@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo planear la omisión de medios con enrutamiento directo del sistema telefónico, lo que le permite acortar la ruta de acceso al tráfico multimedia y mejorar el rendimiento.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bbd31a62bf6ebcd481a3cdafeabaf29bb4767f2d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f2cbe739a567588b44bef87f7b852ed8de965ad3
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115598"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899101"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -30,7 +30,7 @@ ms.locfileid: "51115598"
 
 La omisión de medios le permite acortar la ruta del tráfico multimedia y reducir el número de saltos en tránsito para un mejor rendimiento. Con la omisión de medios, los medios se mantienen entre el controlador de borde de sesión (SBC) y el cliente en lugar de enviarlo a través del sistema telefónico de Microsoft. Para configurar la omisión de medios, el SBC y el cliente deben estar en la misma ubicación o red.
 
-Puede controlar la omisión de medios para cada SBC mediante el comando **Set-CSOnlinePSTNGateway** con el **parámetro -MediaBypass** establecido en verdadero o falso. Si habilita la omisión de medios, esto no significa que todo el tráfico multimedia permanezca dentro de la red corporativa. En este artículo se describe el flujo de llamadas en diferentes escenarios.    
+Puede controlar la omisión de medios para cada SBC mediante el comando **Set-CSOnlinePSTNGateway** con el **parámetro -MediaBypass** establecido en verdadero o falso. Si habilita la omisión de medios, esto no significa que todo el tráfico multimedia permanezca dentro de la red corporativa. En este artículo se describe el flujo de llamadas en diferentes escenarios.
 
 Los diagramas siguientes ilustran la diferencia en el flujo de llamadas con y sin omisión de medios.
 
@@ -126,7 +126,11 @@ Hay dos componentes en microsoft cloud que pueden estar en la ruta del tráfico 
 
    Las retransmisiones de transporte pueden o no estar en la ruta de acceso para llamadas omitida (que proceden o están destinadas a usuarios finales), dependiendo de dónde se encuentra el usuario y de cómo esté configurada la red.
 
-En el siguiente diagrama se muestran dos flujos de llamadas: uno con la omisión de medios habilitada y la segunda con la omisión de medios deshabilitada. Tenga en cuenta que el diagrama solo ilustra el tráfico que procede o está destinado a los usuarios finales.  
+En el siguiente diagrama se muestran dos flujos de llamadas: uno con la omisión de medios habilitada y la segunda con la omisión de medios deshabilitada.
+
+> [!NOTE]
+> En el diagrama solo se muestra el tráfico procedente o destinado a los usuarios finales.  
+
 - El controlador multimedia es un microservicio de Azure que asigna procesadores multimedia y crea ofertas del Protocolo de descripción de sesión (SDP).
 
 - El proxy SIP es un componente que traduce la señalización HTTP REST que se usa en Teams a SIP.    
@@ -255,7 +259,8 @@ El tráfico multimedia fluye entre el SBC y el cliente de Teams si la conectivid
 
 El cliente debe tener acceso a los puertos especificados (ver tabla) en la dirección IP pública del SBC. 
 
-Nota: Si el cliente está en una red interna, el medio fluye a la dirección IP pública del SBC. Puede configurar la fijación de pelo en el dispositivo NAT para que el tráfico nunca salga del equipo de red empresarial.
+> [!NOTE]
+> Si el cliente se encuentra en una red interna, el medio fluye a la dirección IP pública del SBC. Puede configurar la fijación de pelo en el dispositivo NAT para que el tráfico nunca salga del equipo de red empresarial.
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -274,7 +279,7 @@ Las retransmisión de transporte están en el mismo rango que los procesadores m
 
 - 52.112.0.0 /14 (direcciones IP de 52.112.0.1 a 52.115.255.254)
 
-## <a name="office-365-gcc-dod-environment"></a>Entorno doD de Office 365 GCC
+### <a name="office-365-gcc-dod-environment"></a>Entorno doD de Office 365 GCC
 
 - 52.127.64.0/21
 
@@ -314,7 +319,7 @@ El intervalo IP para el tráfico multimedia es
 
 - 52.112.0.0 /14 (direcciones IP de 52.112.0.1 a 52.115.255.254)
 
-## <a name="office-365-gcc-dod-environment"></a>Entorno doD de Office 365 GCC
+### <a name="office-365-gcc-dod-environment"></a>Entorno doD de Office 365 GCC
 
 - 52.127.64.0/21
 
@@ -349,8 +354,8 @@ En el ejemplo siguiente se muestra esta lógica.
 
 | Conjunto de usuarios | Número de usuarios | FQDN de tronco asignado en OVRP | Omisión de medios habilitada |
 | :------------ |:----------------- |:--------------|:--------------|
-Usuarios con tronco de omisión no multimedia | 980 | sbc1.contoso.com:5060 | verdadero
-Usuarios con tronco de omisión multimedia | 20 | sbc2.contoso.com:5061 | falso | 
+Usuarios con tronco de omisión no multimedia | 980 | sbc1.contoso.com:5061 | falso |
+Usuarios con tronco de omisión multimedia | 20 | sbc2.contoso.com:5060 | verdadero | 
 
 Ambos troncos pueden apuntar al mismo SBC con la misma dirección IP pública. Los puertos de señalización TLS del SBC deben ser diferentes, como se muestra en el siguiente diagrama. Tenga en cuenta que tendrá que asegurarse de que el certificado admite ambos troncos. En SAN, debe tener dos nombres **(sbc1.contoso.com** y **sbc2.contoso.com)** o tener un certificado comodín.
 

@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b1917408fa14ced9a490cba1559228dde924cfc
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 04e9507595ef721ced5d47eb58646559601c5cab
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697785"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899131"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo: protocolo SIP
 
@@ -168,6 +168,9 @@ Un usuario de Teams puede tener varios puntos de conexión al mismo tiempo. Por 
     > En algunos casos, es posible que no se genere la respuesta multimedia y que el punto final responda con el mensaje "Llamada aceptada".
 
 -   Llamada aceptada: convertida por el proxy SIP en el mensaje SIP 200 con SDP. Al recibir el mensaje 200, se espera que el SBC envíe y reciba los medios a y desde los candidatos del SDP proporcionados.
+
+    > [!NOTE]
+    > El enrutamiento directo no admite la invitación de oferta retrasada (invitación sin SDP).
 
 #### <a name="multiple-endpoints-ringing-with-provisional-answer"></a>Varios puntos de conexión que suenan con respuesta provisional
 

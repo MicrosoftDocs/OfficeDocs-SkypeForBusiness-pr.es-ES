@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: En este artículo se incluyen pasos detallados para deshabilitar la implementación híbrida como parte de la consolidación de la nube para Teams y Skype Empresarial.
-ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 08d305fa2650cffbadb0ec3122458f4a57e052a4
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656706"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899111"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>Deshabilitar la configuración híbrida para completar la migración a la nube
 
@@ -106,7 +106,10 @@ Hay dos opciones disponibles para controlar esta situación:
 
 Los administradores pueden administrar usuarios que se movieron anteriormente de un Skype Empresarial Server local a la nube, incluso después de retirar la implementación local. Si desea realizar cambios en la dirección sip de un usuario o en el número de teléfono de un usuario (y la dirección sip o el número de teléfono ya tiene un valor en Active Directory local), debe hacerlo en Active Directory local y permitir que los valores fluyan hasta Azure AD. Esto NO requiere Skype Empresarial Server local. En su lugar, puede modificar estos atributos directamente en Active Directory local, mediante el complemento MMC usuarios y equipos de Active Directory (como se muestra a continuación) o mediante PowerShell. Si usa el complemento MMC, abra la página de propiedades del usuario, haga clic en la pestaña Editor de atributos y busque los atributos adecuados para modificar:
 
-- Para modificar la dirección sip de un usuario, modifique `msRTCSIP-PrimaryUserAddress` el archivo . Tenga en cuenta que si el atributo contiene una dirección sip, actualice `ProxyAddresses` también ese valor como procedimiento recomendado. Aunque O365 omite la dirección sip si está rellenada, otros componentes locales pueden `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` usarla.
+- Para modificar la dirección sip de un usuario, modifique `msRTCSIP-PrimaryUserAddress` el archivo .
+
+    > [!NOTE]
+    > Si el `ProxyAddresses` atributo contiene una dirección SIP, actualice también ese valor como procedimiento recomendado. Aunque O365 omite la dirección sip si está rellenada, otros componentes locales pueden `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` usarla.
 
 - Para modificar el número de teléfono de un usuario, modifique `msRTCSIP-Line` *si ya tiene un valor*.
 
@@ -172,7 +175,7 @@ Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que l
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. Ejecute el siguiente cmdlet local de PowerShell de Skype Empresarial para agregar el valor de la dirección sip al proxy de Active Directory localAddresses. Esto evitará problemas de interoperabilidad que dependen de este atributo. 
+5. Ejecute el siguiente módulo local de Active Directory para Windows PowerShell cmdlet para agregar el valor de la dirección sip de nuevo al proxy de Active Directory localAddresses. Esto evitará problemas de interoperabilidad que dependen de este atributo. 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -248,7 +251,7 @@ Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que l
 12. Después de completar todos los pasos del método 2, vea Move [hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md) y Remove your [on-premises Skype for Business Server](decommission-remove-on-prem.md) para obtener pasos adicionales para quitar la implementación local de Skype Empresarial Server.
 
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Consolidación en la nube para Teams y Skype Empresarial](cloud-consolidation.md)
 

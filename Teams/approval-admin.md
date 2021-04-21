@@ -2,7 +2,7 @@
 title: Aprobaciones de disponibilidad de aplicaciones en Teams
 author: cichur
 ms.author: v-cichur
-ms.reviewer: aravin
+ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
+ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103016"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51902574"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
@@ -40,6 +40,9 @@ La primera aprobación creada a partir de la aplicación Aprobaciones desencaden
 
 En este artículo se describen los roles y requisitos de la aplicación Aprobaciones.
 
+> [!NOTE]
+> Esta característica aún no se ha publicado para los usuarios de Government Community Cloud (GCC), Government Community Cloud High (GCCH) y Department of Defense (DOD).
+
 ## <a name="required-permissions-and-licenses"></a>Permisos y licencias necesarios
 
 Para usar la aplicación Aprobaciones, necesita permisos para los elementos siguientes:
@@ -54,7 +57,7 @@ Para usar la aplicación Aprobaciones, necesita permisos para los elementos sigu
 
 ## <a name="storage-with-cds"></a>Almacenamiento con CDS
 
-El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las aplicaciones empresariales y de análisis en el CDS. Consiste en un conjunto de esquemas de datos estandarizados y extensibles publicados por Microsoft y nuestros asociados, que permiten la coherencia de los datos y su significado en aplicaciones y procesos empresariales. Obtenga más información sobre los [Modelos de datos común de la plataforma de Microsoft Power](/power-automate/get-started-approvals).
+El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las aplicaciones empresariales y de análisis en el CDS. Consiste en un conjunto de esquemas de datos estandarizados y extensibles publicados por Microsoft y nuestros partners, que permite la coherencia de los datos y su significado en todas las aplicaciones y procesos empresariales. Obtenga más información sobre los [Modelos de datos común de la plataforma de Microsoft Power](/power-automate/get-started-approvals).
 
 Obtenga más información sobre el [flujo de trabajo de Aprobación](/power-automate/modern-approvals).
 
