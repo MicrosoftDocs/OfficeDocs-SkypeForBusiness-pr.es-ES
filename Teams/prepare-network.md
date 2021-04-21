@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: ff6959319a55183f33c8998adc4a4a46c640bca4
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768389"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899091"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams 
 
@@ -42,10 +42,9 @@ Si ya ha [optimizado la red para Microsoft 365 u Office 365](/Office365/Enterpri
     > [!IMPORTANT]
     > Si necesita federar con Skype Empresarial, ya sea local o en línea, tendrá que configurar algunos registros DNS adicionales.
     >
-    >|Registros CNAME/ Nombre de host  |TTL  |Apuntar a dirección o valor  |
-    >|---------|---------|---------|
-    >|sip     |    3600     |    sipdir.online.lync.com     |
-    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+    >|Registro DNS  |Servicio  |Protocolo  |Prioridad  |Peso  |Puerto  |Destino  |
+    >|---------|---------|---------|---------|---------|---------|---------|
+    >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
     
 2.  ¿Tiene un dominio comprobado de Microsoft 365 u Office 365 (por ejemplo, contoso.com)?
     
@@ -85,8 +84,8 @@ Para obtener una explicación más detallada sobre la optimización de redes, co
 <table>
 <thead>
 <tr class="header">
-<th><strong>Tarea de optimización de la red</strong></th>
-<th><strong>Detalles</strong></th>
+<th>Tarea de optimización de red</th>
+<th>Detalles</th>
 </tr>
 </thead>
 <tbody>
