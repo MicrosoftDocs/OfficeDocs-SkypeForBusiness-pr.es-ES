@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para Microsoft Teams.
-ms.openlocfilehash: 66bebbd381fb1997e2e8770debb24c7629525f1e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9efd30eb91e9760f800dd24935724d2a3cdd97c2
+ms.sourcegitcommit: c56c87e912a4b3729c7c52d8de78fd4d24448a8d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092758"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51926056"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -46,6 +46,11 @@ Los operadores automáticos pueden dirigir las llamadas, según la entrada de lo
 - **Anuncio (con tipo):** escriba un mensaje. Texto que desea que lea el sistema. Puede escribir hasta 1000 caracteres. El sistema reproduce el anuncio y, a continuación, vuelve al menú operador automático.
 
 Se le pedirá que elija una de estas opciones en varias fases mientras configura un operador automático.
+
+> [!NOTE]
+> Al elegir correo de voz como destino, hay dos opciones adicionales disponibles:
+> - **Transcripción** (Predeterminada: Desactivado): cuando esté habilitado, el mensaje de correo de voz se transcribirá e incluirá como parte del correo electrónico.
+> - **Suprimir saludo** (predeterminado: desactivado): cuando está habilitado, el mensaje estándar del sistema "Deje un mensaje después del tono. Cuando haya terminado, cuelgue o presione la tecla hash para obtener más opciones". se suprimirá.
 
 Para configurar un operador automático, en el Centro de administración de Teams, expanda **Voz**, **seleccione Operadores automáticos** y, a continuación, **seleccione Agregar**.
 
