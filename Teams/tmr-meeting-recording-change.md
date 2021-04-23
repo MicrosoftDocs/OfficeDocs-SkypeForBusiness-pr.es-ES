@@ -2,7 +2,7 @@
 title: Usar OneDrive para la Empresa y SharePoint para grabar las reuniones
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: debhag
 manager: serdars
 ms.topic: article
 audience: admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23be0069ffe862bcd5295493c8a6fc6acaa5f55d
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: d0de88cd3295e1e04681cf6ff63bccab80e4b4a8
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637822"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948666"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -189,3 +189,8 @@ Consulte [Cómo aplicar automáticamente una etiqueta de retención](/microsoft-
 **¿Cómo asigno directivas a mis usuarios en Microsoft Teams y qué directivas tienen prioridad?**
 
 Consulte [¿Qué directivas tienen prioridad?](./assign-policies.md#which-policy-takes-precedence).
+
+**¿Dónde se encuentra la grabación si el usuario no tiene OneDrive para la Empresa o SharePoint?**
+
+La grabación llegará a nuestra ubicación de almacenamiento temporal, donde se celebrará durante 21 días. Durante ese tiempo, el organizador debe descargar la grabación. Si no se descarga en un plazo de 21 días, se eliminará la grabación.
+
