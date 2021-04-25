@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que usa el Panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial Online.
-ms.openlocfilehash: cef151eb8941135112bab92a806b620727567bee
-ms.sourcegitcommit: b56727299d7ea47e23807114a4f5881e289c0b6a
+ms.openlocfilehash: 1c91ce322e51705c9e0813b6c12a29af93319448
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "51880459"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995308"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en panel de calidad de llamada (CQD)
 
@@ -407,6 +407,8 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 | Es sesión de unirse anónima  | Boolean  | Verdadero si los usuarios que se unen a la conferencia fueron anónimos, falsos en caso contrario.   | &bull; No hay datos para determinar si el usuario se unió de forma anónima o no   |
 | Tiene blob de diagnóstico multimedia  | Boolean  | Verdadero si la sesión tenía datos de diagnóstico multimedia, falso de lo contrario.   | &bull; Algunos datos de señalización no se recopilaron para esta transmisión   |
 | Motivo del error de configuración de llamadas  | Enumeración  | Clasificación de por qué no se pudo establecer la conexión multimedia para una llamada. <br/>**Valores posibles:** <br/> **Falta la regla de** exención de inspección profunda de paquetes FW: indica que el equipo de red a lo largo de la ruta probablemente impidió que se estableciera la ruta de acceso multimedia debido a reglas de inspección de paquetes profundas. Esto puede deberse a que las reglas de proxy o firewall no se han configurado correctamente. <br/> **Falta la regla de** exención de bloqueo IP de FW: indica que el equipo de red a lo largo de la ruta probablemente impidió que se estableciera la ruta de acceso multimedia a la red de Office 365. Esto puede deberse a que las reglas de proxy o firewall no se han configurado correctamente para permitir el acceso a direcciones IP y puertos usados para el tráfico de Skype Empresarial. <br/> **Otros:** indica que no se pudo establecer la ruta de acceso multimedia para la llamada, pero no se pudo clasificar la causa raíz. <br/> No es un error multimedia: indica que no se ha detectado ningún problema con el establecimiento de la ruta de acceso multimedia.  | &bull; Error en la configuración de llamadas debido a un problema de medios desconocidos  |
+| Tipo de sesión  | Enumeración <br/>**Valores posibles:** <br/> Conf, P2P  | Indica si el tipo de sesión de llamada era una reunión (Conf) o un escenario de llamada punto a punto (P2P). <br/> **Valor de ejemplo:** Conf | |
+| Razón de respuesta cdr  | Enumeración <br/>**Valores posibles:** <br/> 0 o 200 = "Aceptar" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" | Todos los demás códigos CDR = "Otros" | Proporciona el motivo para que una sesión de llamada concluya, si la llamada se ha realizado correctamente o no, y permite diferenciar entre llamadas incompletas (sin respuesta, ocupadas, rechazadas) y llamadas con errores (establecimiento multimedia). <br/> **Valor de ejemplo:** De acuerdo | <br/>&bull; Un valor de "Otros" implica que el código de respuesta no es útil de diagnóstico fuera de los equipos de ingeniería de Microsoft |
 |**DNS**|||
 | Caché de resolución de DNS usada  | Boolean  | Verdadero si el punto de conexión usó la caché DNS para resolver la dirección de retransmisión multimedia, falso en caso contrario.    | <br/>&bull; El punto de conexión no ha notificado estos datos    |
 |**UserData**| |||

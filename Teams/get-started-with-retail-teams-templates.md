@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0fecf419f6fc3ac0ef15097fe54571d85018587
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8d72f88bb33dca16254ec09a2ea89ac90a0e7aca
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101206"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995148"
 ---
-# <a name="get-started-with-teams-templates-in-retail"></a>Introducción a las plantillas de Teams para el comercio minorista
+# <a name="create-a-team-using-teams-retail-templates"></a>Crear un equipo con plantillas de venta al por menor de Teams
 
-Las plantillas de Teams le permiten crear equipos de forma rápida y sencilla al proporcionar una plantilla de configuración predefinida, canales y aplicaciones preinstaladas.
+Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y sencilla al proporcionar una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 
 Las plantillas de Teams tienen definiciones predefinidas de estructuras de equipo diseñadas en función de las necesidades del comercio minorista. Puede usar plantillas de Teams para crear rápidamente los tipos de equipos que funcionan bien para el comercio minorista e implementarlos en toda la organización. También puede ampliar las plantillas de Teams para crear equipos que se adapten a las necesidades específicas de su organización.
 
@@ -38,7 +38,34 @@ Este artículo le ayudará si es responsable de planear, implementar y administr
 
 Para obtener más información sobre las plantillas de equipo en general, consulte [Introducción a las plantillas de Teams](get-started-with-teams-templates.md).
 
-## <a name="store-template"></a>Plantilla de tienda
+| Quién | Método de uso: |
+| ---- | --------- |
+| Administradores y profesionales de TI | [Use el Centro de administración de Teams](#use-the-teams-templates-in-the-teams-admin-center) para crear equipos basados en las plantillas minoristas de Teams.|
+| Desarrolladores e integradores de sistemas | [Use Microsoft Graph para](#use-the-teams-templates-with-the-microsoft-graph) crear equipos basados en las plantillas minoristas de Teams. |
+
+## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>Usar las plantillas de Teams en el Centro de administración de Teams
+
+### <a name="organize-a-store"></a>Organizar una tienda
+
+Reúna a sus empleados en una experiencia centralizada para administrar tareas, compartir documentos y resolver problemas de clientes. Integre aplicaciones adicionales para simplificar los procesos de inicio y finalización de turnos.
+
+| Tipo de plantilla base |baseTemplateId | Propiedades que vienen con esta plantilla base |
+| ------------------|-- |----------------------------------------------------- |
+|Organizar una tienda|`retailStore`|Canales: <ul><li>General<li>Cambio de turno</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li></ul>|
+||||
+
+### <a name="manager-collaboration"></a>Colaboración del administrador
+
+La plantilla Colaboración de administradores es ideal para crear un equipo para que un conjunto de administradores colabore entre tiendas o regiones, etc. Por ejemplo, si su organización tiene regiones, puede crear un equipo de colaboración de administradores para la región de California e incluir todos los administradores de tienda de esa región, junto con el administrador regional de esa región.
+
+| Tipo de plantilla base| baseTemplateId | Propiedades que vienen con esta plantilla base |
+| ------------------|- |----------------------------------------------------- |
+|Comercio al por menor: colaboración de administradores|`retailManagerCollaboration` |Canales: <ul><li>General<li>Operaciones</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li></ul>|
+||||
+
+## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>Usar las plantillas de Teams con Microsoft Graph
+
+### <a name="store-template"></a>Plantilla de tienda
 
 La plantilla de tienda es ideal para crear un equipo que represente la ubicación de una tienda. Con la plantilla de tienda, puede crear un equipo para cada ubicación de las tiendas de su organización.
 
@@ -53,7 +80,7 @@ Formas recomendadas para personalizar la plantilla de tienda para su organizaci�
 
 - Si su organización tiene sitios web internos (por ejemplo, un sitio de SharePoint), considere la posibilidad de anclarlos como pestañas en el canal de equipo relevante. Consulte la [Introducción a las plantillas de Teams](get-started-with-teams-templates.md) para obtener más instrucciones.
 
-## <a name="manager-collaboration-template"></a>Plantilla de colaboración de encargados
+### <a name="manager-collaboration-template"></a>Plantilla de colaboración de encargados
 
 La plantilla de colaboración de encargados es otra de las plantillas de Teams diseñadas para las necesidades del comercio minorista. La plantilla de colaboración de encargados es ideal para crear un equipo para un conjunto de encargados con el que poder colaborar en tiendas o zonas, y mucho más. Por ejemplo, si su organización se encuentra en varias zonas, puede crear un equipo de colaboración de encargados de California e incluir todos los encargados de las tiendas de esa zona, así como el encargado regional de la misma.
 
@@ -88,6 +115,3 @@ Para usar estas plantillas, cambie la propiedad "template@odata.bind" en el cuer
   ]
 }
 ```
-## <a name="relate-topic"></a>Tema relacionado
-
-[Introducción a las plantillas de Teams en el Centro de administración](get-started-with-teams-templates-in-the-admin-console.md)

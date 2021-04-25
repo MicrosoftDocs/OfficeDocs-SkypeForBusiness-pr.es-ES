@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8eac7d39835abdb05ee86be47504c3f9fecc7022
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f5b8973034f9d0b65a5b6bdc11069a1e81efc477
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117018"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995158"
 ---
 # <a name="skype-for-business-online-retirement"></a>Retirada de Skype Empresarial Online
 
@@ -96,7 +96,7 @@ Teams está disponible en muchos de los conjuntos de aplicaciones de Microsoft 3
 **¿Microsoft planea contar con actualizaciones programadas?**<br>
 Por el momento no hay planes de programar actualizaciones para los clientes de empresa. Los clientes pueden optar por pasarse a Microsoft Teams cuando sea más conveniente para sus organizaciones, pero antes de la fecha de retiro de Skype Empresarial Online del 31 de julio de 2021. Dotaremos a los administradores y usuarios de herramientas y orientación para ayudar en la transición a Teams.
 
-Para dar soporte a clientes más pequeños que pueden no tener recursos de TI dedicados, Microsoft está ayudando con las actualizaciones automatizadas de Skype Empresarial Online a Teams. Los clientes que puedan optar reciben una notificación de la actualización a través de correos electrónicos y notificaciones del Centro de mensajes. Se ofrecerán más detalles en las comunicaciones. Para obtener más información, consulte [Actualizaciones automáticas de Skype Empresarial Online a Microsoft Teams](./upgrade-automated.md).
+Para dar soporte a clientes más pequeños que pueden no tener recursos de TI dedicados, Microsoft está ayudando con las actualizaciones automatizadas de Skype Empresarial Online a Teams. Los clientes que puedan optar reciben una notificación de la actualización a través de correos electrónicos y notificaciones del Centro de mensajes. Se ofrecerán más detalles en las comunicaciones. Para obtener más información, consulte [Actualizaciones automáticas de Skype Empresarial Online a Microsoft Teams](./upgrade-assisted.md).
 
 **¿Cómo afecta el anuncio de retirada de Skype Empresarial Online a las organizaciones con configuraciones híbridas (Skype Empresarial Online y Skype Empresarial Server)?**<br>
 Los clientes híbridos con configuraciones locales y en línea tendrán que pasar a los usuarios de Skype Empresarial Online a Microsoft Teams antes de la fecha de retiro del 31 de julio de 2021. Las rutas de actualización para configuraciones híbridas creadas en torno a los principios de coexistencia e interoperabilidad se conservarán después de la retirada de Skype Empresarial Online. Para más información, consulte[Coexistencia con Skype empresarial](coexistence-chat-calls-presence.md) y [Comprender la coexistencia e interoperabilidad de Microsoft Teams y Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md).

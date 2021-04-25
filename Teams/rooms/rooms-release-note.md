@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la versión de salas de Microsoft Teams, que incluyen mejoras acumulativas en salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 609f477ef91c75cae47e6bbfd13b59cb804211c8
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768378"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995298"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -29,6 +29,7 @@ En este artículo se deba a las mejoras acumulativas en salas de Microsoft Teams
 
 |Versión |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
@@ -71,6 +72,15 @@ En este artículo se deba a las mejoras acumulativas en salas de Microsoft Teams
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a las salas de Microsoft Teams y resolución de problemas
+
+### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
+
+Se ha introducido en esta actualización:
+- Corrección de un problema por el que la información del salón en las consolas de Salas de Teams no se muestra en las cuentas de salón que están ocultas en la lista global de direcciones (GAL)
+
+> [!NOTE]
+> Los clientes de GCCH pueden descargar el paquete de actualización desde [Actualizar manualmente un dispositivo de Salas de Microsoft Teams](manual-update.md)
+
 
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 

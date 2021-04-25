@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar Sistema telefónico para las colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 1202de31beddb8f70391d40d4e6218942c59cba1
-ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
+ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51874456"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995288"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -185,6 +185,7 @@ Los siguientes clientes son compatibles con agentes de llamada en una cola de ll
   - Cliente de Skype for Business para iPad (versión 6.16.0 y posteriores)
   - Cliente de Microsoft Teams para Windows (versiones de 32 y 64 bits)
   - Cliente de Microsoft Teams para Mac
+  - Microsoft Teams en [infraestructura de escritorio virtualizada](/microsoftteams/teams-for-vdi) (Escritorio virtual de Windows, Citrix y VMware)
   - Aplicación Microsoft Teams para iPhone
   - Aplicación Microsoft Teams para Android
 
