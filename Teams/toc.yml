@@ -187,6 +187,8 @@ items:
         href: continue-journey.md
       - name: Retirada de Skype Empresarial Online
         href: skype-for-business-online-retirement.md
+      - name: Actualizaciones asistidos de Skype Empresarial Online
+        href: upgrade-assisted.md
       - name: Preguntas más frecuentes
         href: FAQ-journey.yml
       - name: Referencia
@@ -1422,8 +1424,6 @@ items:
       - name: Teams para el comercio
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: Introducción a las plantillas comerciales de Teams en la consola de administración
-            href: retail-teams-templates-in-the-admin-console.md
           - name: Introducción a las plantillas comerciales de Teams
             href: get-started-with-retail-teams-templates.md
       - name: Teams para la Administración Pública
