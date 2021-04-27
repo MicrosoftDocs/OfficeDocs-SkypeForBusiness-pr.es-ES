@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo personalizar aplicaciones en Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9e9c7d250f60c3cc100f7d95b26f662ca8af6305
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 0f61cd0d56c1c050508e9a716ba9846d99d422ad
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697795"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030158"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicaciones en Microsoft Teams
 
@@ -44,7 +44,8 @@ ms.locfileid: "51697795"
 
 Vea el [esquema Manifiesto de Teams](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) para obtener más información sobre los campos que puede personalizar.
 
-> [! NOTA Las aplicaciones de personalización no se admiten en Government Community Cloud High (GCCH) o en el Departamento de Defensa (DoD) en este momento.
+> [!NOTE]
+> La personalización de aplicaciones no es compatible con Government Community Cloud High (GCCH) o department of defense (DoD) en este momento.
 
 ## <a name="customize-the-apps-details"></a>Personalizar los detalles de la aplicación
 
@@ -102,7 +103,7 @@ Para empezar a personalizar una aplicación, siga estos pasos:
 
 Ahora los usuarios finales de Teams pueden abrir su cliente de Teams para ver la aplicación personalizada.
 
-   ![Aplicación personalizada en el cliente de Teams](media/find-customized-app.png)
+   ![Aplicación personalizada en el cliente de Teams](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>Consideraciones especiales para personalizar una aplicación
 
@@ -127,7 +128,7 @@ Es posible que quiera ver los detalles de la aplicación para revisar la informa
 
 4. Ver los detalles de la aplicación, incluido el nombre original de la aplicación **Nombre corto del editor.**
 
-   ![Personalizar el nombre de la aplicación del panel de iconos](media/app-details-original-name.png)
+   ![Personalizar el nombre de la aplicación del panel de iconos](media/original-app-version.png)
 
    El **campo Nombre corto del editor** solo está visible si ha cambiado el nombre corto de la aplicación.
 

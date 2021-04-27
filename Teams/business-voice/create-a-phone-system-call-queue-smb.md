@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Obtenga información sobre cómo configurar las colas de llamadas con Microsoft 365 Business Voice.
-ms.openlocfilehash: 40018ce331dfe8516e00c6781373d528a71e85c5
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: ded780f0793a503e4f4089c7a201e659008e9eb7
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607562"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030130"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Crear una cola de llamadas: tutorial para pequeñas empresas
 
-Las colas de llamadas proporcionan un método para enrutar llamadas a personas de su organización que pueden ayudarles con un problema o pregunta en particular. Las llamadas se distribuyen de una en una a las personas que están en la cola (que se denominan *agentes*). 
+Las colas de llamadas proporcionan un método para enrutamiento de autores de llamadas a personas de la organización que pueden ayudarle con un problema o pregunta en particular. Las llamadas se distribuyen de una en una a las personas que están en la cola (que se denominan *agentes*). 
 
 Las colas de llamadas proporcionan:
 
@@ -104,9 +104,9 @@ Puede crear una cuenta de recursos en el Centro de administración de Teams.
 
 4. Haga clic en **Guardar**.
 
-La nueva cuenta aparecerá en la lista de cuentas.
+   La nueva cuenta aparecerá en la lista de cuentas.
 
-![Captura de pantalla de una lista de cuentas de recursos](../media/resource-accounts-page.png)
+   ![Captura de pantalla de una lista de cuentas de recursos](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>Asignar una licencia
 
@@ -138,9 +138,9 @@ A continuación, empezaremos a crear una nueva cola de llamadas y asignaremos la
 
 5. Los equipos proporcionan música predeterminada a los autores de llamadas mientras están en espera en una cola. Si desea reproducir un archivo de audio específico, elija **Reproducir un archivo de audio en** y cargar un archivo MP3, WAV o WMA.
 
-> [!NOTE]
-> La grabación cargada no puede ser superior a 5 MB.
-> La música predeterminada que se proporciona en las colas de llamadas de Teams no tiene que pagar ningún pago de la organización. 
+   > [!NOTE]
+   > La grabación cargada no puede ser superior a 5 MB.
+   > La música predeterminada que se proporciona en las colas de llamadas de Teams no tiene que pagar ningún pago de la organización. 
 
 > [!div class="nextstepaction"]
 > [Paso 3: llamar a agentes >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
