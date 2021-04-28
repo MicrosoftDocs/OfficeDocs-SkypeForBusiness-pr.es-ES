@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Busque información en Skype Empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementan la conectividad RTC local con phone system (PBX en la nube).
-ms.openlocfilehash: 33d0cc6262aa0d4c7a1f984534782a9fae93ab05
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 75abeba6c97b59b4795fc3399ff6a983db57bbff
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113716"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064716"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plan for Skype for Business Cloud Connector Edition
 
@@ -34,7 +34,7 @@ ms.locfileid: "51113716"
 
 Busque información en Skype Empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementan la conectividad RTC local con phone system (PBX en la nube).
 
-Cloud Connector Edition puede ser la solución adecuada para su organización si aún no tiene una implementación existente de Lync Server o Skype Empresarial Server. Si aún está investigando qué solución del sistema telefónico es adecuada para su empresa, consulte [Soluciones de telefonía de Microsoft](../../../SfbHybrid/hybrid/msft-telephony-solutions.md).
+Cloud Connector Edition puede ser la solución adecuada para su organización si aún no tiene una implementación existente de Lync Server o Skype Empresarial Server. Si aún está investigando qué solución del sistema telefónico es adecuada para su empresa, consulte [Soluciones de telefonía de Microsoft](/microsoftteams/cloud-voice-landing-page).
 
 En este documento se describen los requisitos de Cloud Connector Edition y las topologías admitidas, y le ayuda a planear la implementación de Cloud Connector Edition. Asegúrese de leer este tema antes de configurar el entorno de Cloud Connector. Cuando esté listo para implementar y configurar Cloud Connector Edition, vea [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -61,7 +61,7 @@ Tenga en cuenta lo siguiente al planear la implementación de Cloud Connector Ed
 
 - Cloud Connector no requiere una implementación de Skype Empresarial Server local completa.
 
-    Actualmente, Cloud Connector no puede coexistir con servidores locales de Lync o Skype Empresarial. Si desea mover usuarios existentes de Lync o Skype Empresarial a Microsoft 365 y seguir proporcionando telefonía local a los usuarios, considere sistema telefónico con conectividad local mediante una implementación existente de Skype Empresarial Server. Para obtener más información, vea [Plan your Phone System (Cloud PBX) solution y](/skypeforbusiness/hybrid/msft-telephony-solutions/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) Plan Phone System with [on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
+    Actualmente, Cloud Connector no puede coexistir con servidores locales de Lync o Skype Empresarial. Si desea mover usuarios existentes de Lync o Skype Empresarial a Microsoft 365 y seguir proporcionando telefonía local a los usuarios, considere sistema telefónico con conectividad local mediante una implementación existente de Skype Empresarial Server. Para obtener más información, vea [Plan your Phone System (Cloud PBX) solution y](/microsoftteams/cloud-voice-landing-page.md) Plan Phone System with [on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 - Si tenía una implementación anterior de Skype Empresarial o Lync Server y extendió el esquema, no es necesario limpiar el esquema para la implementación de Cloud Connector, siempre que haya quitado todos los componentes de Skype Empresarial o Lync Server del entorno.
 
@@ -422,13 +422,13 @@ En este caso, todo el tráfico multimedia del punto final de Internet puede flui
 
 El equipo host debe poder llegar a recursos externos para instalar, actualizar y administrar correctamente Cloud Connector. En la tabla siguiente se muestran los destinos y puertos necesarios entre el equipo host y los recursos externos.
 
-|Dirección  <br/> |IP de origen  <br/> |IP de destino  <br/> |Puerto de origen  <br/> |Puerto de destino  <br/> |Protocolo  <br/> |Finalidad  <br/> |
+|Dirección  <br/> |IP de origen  <br/> |IP de destino  <br/> |Puerto de origen  <br/> |Puerto de destino  <br/> |Protocolo  <br/> |Objetivo  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Salida  <br/> |IP de host de Cloud Connector  <br/> |cualquiera  <br/> |cualquiera  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Salida  <br/> |IP de host de Cloud Connector  <br/> |cualquiera  <br/> |cualquiera  <br/> |80, 443  <br/> |TCP  <br/> |Lista de revocación de certificados (CRL)  <br/> |
 |Salida  <br/> |IP de host de Cloud Connectorr  <br/> |cualquiera  <br/> |cualquiera  <br/> |80, 443  <br/> |TCP  <br/> |Actualización de Cloud Connector  <br/> Skype Empresarial Online  <br/> PowerShell de administración  <br/> Windows Update  <br/> |
 
-Si se requieren reglas más restrictivas, consulte las siguientes direcciones URL de lista blanca:
+Si se requieren reglas más restrictivas, consulte las siguientes direcciones URL de lista de permitidos:
 
 - [Direcciones URL de lista de revocación de certificados](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) en direcciones URL e intervalos de [direcciones IP de Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
@@ -711,7 +711,7 @@ Cloud Connector 2.1 y versiones posteriores admite la supervisión de Cloud Conn
 
 Para obtener más información, vea los artículos siguientes: 
 
-- [Soluciones de telefonía de Microsoft](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
+- [Soluciones de telefonía de Microsoft](/microsoftteams/cloud-voice-landing-page)
 
 - [Configurar y administrar Skype Empresarial Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 

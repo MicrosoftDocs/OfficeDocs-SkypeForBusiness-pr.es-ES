@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar Sistema telefónico para las colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995288"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064806"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -48,6 +48,12 @@ Las colas de llamadas proporcionan:
 Asegúrese de que ha leído Plan para operadores [automáticos](plan-auto-attendant-call-queue.md) de Teams y colas de llamadas y ha seguido los pasos de introducción antes de seguir los procedimientos de este artículo. [](plan-auto-attendant-call-queue.md#getting-started)
 
 Para configurar una cola de llamadas, en el centro de administración de Teams, expanda **Voz**, haga clic en **Llamar** y, después, haga clic en **Agregar**.
+
+## <a name="video-demonstration"></a>Demostración de vídeo
+
+En este vídeo se muestra un ejemplo básico de cómo crear una cola de llamadas en Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## <a name="resource-account-and-language"></a>Cuenta de recursos e idioma
 

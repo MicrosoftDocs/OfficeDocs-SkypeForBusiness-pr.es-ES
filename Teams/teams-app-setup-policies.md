@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ee50af6dec780480b8efdbf39dabb8e52ff03f3a
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: ebfcff8ce7215e34e3c17e9c09f3a56d249d5b40
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697715"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52059204"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -152,7 +152,9 @@ Para ver todas las aplicaciones ancladas para un usuario, es posible que los usu
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>¿Qué necesito saber sobre la experiencia móvil de Teams?
 
-Actualmente, los clientes móviles de Teams (iOS y Android) no admiten aplicaciones personales con pestañas estáticas. Según las aplicaciones establecidas en la directiva, es posible que las aplicaciones ancladas al cliente de escritorio de Teams no aparezcan en los clientes móviles de Teams. Los bots personales seguirán apareciendo en chat en clientes móviles.
+Los clientes móviles de Teams (iOS y Android) admiten aplicaciones personales con pestañas estáticas. Las aplicaciones ancladas al cliente de escritorio de Teams aparecerán en los clientes móviles de Teams. Los bots personales aparecerán en Chat en clientes móviles.
+
+Las aplicaciones de terceros (que se pueden descargar desde la Tienda Teams) deben aprobarse antes de que se muestren en dispositivos móviles. Si un administrador ancla una aplicación, que no ha sido aprobada por Microsoft para Móviles, se mostrará en el escritorio de Teams, pero no se mostrará en dispositivos móviles. Vea [Clientes móviles](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) para obtener más información.
 
 Con los clientes móviles de Teams, los usuarios verán las aplicaciones principales de Teams, como Actividad, Chat y Teams, y puede anclar algunas aplicaciones de primer nivel de Microsoft, como Turnos.
 
