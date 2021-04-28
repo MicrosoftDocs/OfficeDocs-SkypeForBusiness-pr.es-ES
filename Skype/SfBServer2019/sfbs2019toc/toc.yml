@@ -8,7 +8,7 @@
     - name: Guía de virtualización
       href: ../virtualization-guidance.md
     - name: Soluciones de telefonía de Microsoft
-      href: ../../sfbhybrid/hybrid/msft-telephony-solutions.md
+      href: /microsoftteams/cloud-voice-landing-page.md
     - name: Descargas y actualizaciones de Skype Empresarial
       href: ../../SfbServer/software-updates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
       items:
