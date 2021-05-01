@@ -23,7 +23,7 @@ searchScope:
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización sanitaria.
 ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117768"
@@ -84,7 +84,7 @@ Tenga en cuenta que también puede cambiar la configuración de las directivas e
 
 ### <a name="assign"></a>Asignar
 
-Asigne el paquete de directivas a los usuarios. Si un usuario tiene una directiva asignada y posteriormente asigna otra directiva, la asignación más reciente tendrá prioridad.
+Asigne el paquete de directiva a los usuarios. Si un usuario tiene asignada una directiva y, después, asigna otra directiva, la asignación más reciente tendrá prioridad.
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Asignar un paquete de directivas a uno o más usuarios
 
