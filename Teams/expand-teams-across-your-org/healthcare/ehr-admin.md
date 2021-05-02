@@ -25,7 +25,7 @@ ms.reviewer: ''
 description: Utilice Microsoft Teams para configurar el sistema de visitas virtuales
 ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51096284"
@@ -66,7 +66,7 @@ También necesitará información de las siguientes personas de la organización
 - Analista de clientes de Epic
 
 > [!Note]
-> Revise la [Guía de integración de Telesalud de Epic-Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) con su especialista técnico de Epic. Asegúrese de que se han completado todos los requisitos previos. 
+> Revise la [integración de teleasistencia sanitaria de Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) con su especialista técnico profesional. Asegúrese de que se han completado todos los requisitos previos. 
 
 ## <a name="connector-setup"></a>Configuración del conector
 
@@ -144,7 +144,7 @@ Características principales de la experiencia del proveedor:
 
 - Los proveedores deben llevar a cabo el inicio de sesión de un solo uso con su cuenta de Microsoft 365 al unirse a una visita virtual por primera vez.
 
-- Después del inicio de sesión de un solo uso, se remitirá al proveedor directamente a la cita virtual en Microsoft Teams. (El proveedor debe haber iniciado sesión en Microsoft Teams).
+- Después del inicio de sesión único, el proveedor se le llevará directamente a la cita virtual en Microsoft Teams. (El proveedor debe haber iniciado sesión en Microsoft Teams).
 
 - El proveedor puede ver las actualizaciones en tiempo real de los participantes que se conectan y desconectan en una cita determinada. El proveedor puede ver cuándo se conecta el paciente a una visita virtual.
 

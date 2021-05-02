@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51101156"
@@ -121,7 +121,7 @@ Para obtener información sobre cómo configurar la jerarquía basada en equipos
 
 ## <a name="power-automate-and-graph-api"></a>Power Automate y la API de Graph
 
-Tasks es compatible con las API de Power Automate para To Do y Graph para Planner. Para más información, vea:
+Tasks es compatible con Power Automate para To Do y Graph API para Planner. Para obtener más información, vea:
 
 - [Introducción a la API de tareas y planes de Planner](/graph/planner-concept-overview)
 - [Uso de Microsoft To Do con Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
