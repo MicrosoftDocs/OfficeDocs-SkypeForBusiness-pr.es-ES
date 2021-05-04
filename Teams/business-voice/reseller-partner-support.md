@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: Obtenga información sobre cómo obtener soporte de un distribuidor o partner de Microsoft para ayudarle a configurar Microsoft 365 Business Voice sin un plan de llamadas.
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -24,19 +24,19 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 4dd06a36fca100dd74cb49e1920cd2e3d2a31ca2
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 4f48219fab34c668e16b28f781594218e9f8b3c9
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096930"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129739"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>Obtener ayuda de un partner o distribuidor de Microsoft
 
 > [!IMPORTANT]
 > La información de este artículo sólo es aplicable a Business Voice **sin tener** un plan de llamadas. Antes de leer este artículo, compruebe la [disponibilidad del país y la región de Business Voice](country-region-availability.md) para ver si su país o región admite el plan de llamadas de Business Voice.
 >
-> Si su espacio empresarial se encuentra en un país o región que admite el plan de llamadas de Business Voice, consulte la sección [Usar el asistente de inicio para configurar Business Voice](use-getting-started-wizard.md).
+> Si su espacio empresarial se encuentra en un país o región que admite Business Voice con plan de llamadas, consulte la sección [Configurar Microsoft 365 Business Voice](set-up-overview.md).
 
 La configuración del plan de Business Voice sin tener un plan de llamadas requiere de la configuración del enrutamiento directo del sistema telefónico. El Enrutamiento Directo permite la interoperabilidad entre el hardware telefónico local; el sistema telefónico de Microsoft, que es la característica principal de Business Voice; y su proveedor de Red Telefónica Pública Conmutada (RTC). Dado que el enrutamiento directo requiere de la comprensión profunda del sistema telefónico de Microsoft, la conectividad RTC, las redes y otros conocimientos técnicos, le recomendamos que utilice un partner o vendedor de Microsoft para configurarlo. Además, las licencias de Business Voice sin plan de llamadas sólo están disponibles para los partners y los distribuidores de Microsoft.
 
@@ -56,4 +56,3 @@ Deberá proporcionarle la siguiente información al ponerse en contacto con un p
 - Su conexión de Internet
 - Las características específicas sobre el diseño de su organización, así como la capacidad de soporte de los centros de llamadas, los menús de llamadas del sistema telefónico (por ejemplo, presione 1 para Ventas, presione 2 para Soporte técnico), las salas de conferencias, los quioscos telefónicos, etc.
 - Cuántas ubicaciones admite su actual sistema telefónico y cómo se establece la conectividad entre ellas
-

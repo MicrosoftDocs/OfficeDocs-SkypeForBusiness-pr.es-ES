@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para la República Checa.
-ms.openlocfilehash: 125304b032fcf899b6a77f719830196fc9162789
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para la República Checa.
+ms.openlocfilehash: 7919693bd5ed1daa631d223ac8af707e9ca3e548
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121448"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130259"
 ---
 # <a name="availability-in-the-czech-republic"></a>Disponibilidad en Chequia
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para la República Checa.
+Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para la República Checa.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -59,11 +59,10 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y M
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los planes de llamada están disponibles para la compra?  <br/> |No  <br/> |
-|Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
-|¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
-
-Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el [enrutamiento directo del sistema telefónico](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier proveedor de servicios de telefonía.
+|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
+|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales -O- 600 minutos de llamadas internacionales (lo que se alcance primero en el mes calendario)</li></li></ul>|
+|¿Se pueden realizar llamadas a números premium?  <br/> | No se admite en este momento. <br/> |
+|¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

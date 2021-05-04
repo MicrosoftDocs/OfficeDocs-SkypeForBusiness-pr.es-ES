@@ -15,7 +15,7 @@ MS.collection:
 - Teams_Business_Voice
 - m365initiative-voice
 search.appverid: MET150
-description: ''
+description: Obtenga información sobre las licencias y otros complementos que debe comprar para configurar Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -25,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 7175bc47cc3e9db1dde3d92c1b3024dcdcfd3e41
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de844a68d29e0bcb1bc7144fb3101d69a13f2966
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102826"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129869"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>¿Qué debo comprar para usar Microsoft 365 Business Voice?
 
@@ -38,7 +38,7 @@ ms.locfileid: "51102826"
 
 Para realizar o recibir llamadas de teléfono con números de teléfono *externos* en Microsoft Teams, el usuario necesita una licencia de Business Voice de Microsoft 365. La licencia proporciona acceso a todas las características que necesita para realizar o recibir llamadas de teléfono, hospedar conferencias de audio y mucho más.
 
-Los usuarios que no necesiten realizar o recibir llamadas de teléfono desde números de teléfono externos o hacia ellos solo necesitan Teams. No necesitan una licencia de Microsoft 365 Business Voice.
+Los usuarios que no necesiten realizar o recibir llamadas de teléfono desde números de teléfono externos o hacia ellos solo necesitan Teams, no necesitan una licencia de Microsoft 365 Business Voice.
 
 Pongamos un ejemplo en el que tiene 10 empleados de fábrica y 5 de oficina. Es posible que los empleados de fábrica solo necesitan llamar a otros empleados de la empresa. Además de llamar a otros empleados, los trabajadores de oficina también necesitan realizar y recibir llamadas de proveedores, asociados y clientes. En este caso, solo los 5 trabajadores de oficina necesitarán una licencia de Microsoft 365 Business Voice.
 
@@ -46,7 +46,7 @@ Pongamos un ejemplo en el que tiene 10 empleados de fábrica y 5 de oficina. Es 
 
 Hay dos tipos de licencias de Business Voice: Business Voice **con** plan de llamadas y Business Voice **sin** plan de llamadas. El tipo de licencia de Business Voice disponible para usted dependerá de la ubicación de su espacio empresarial de Microsoft 365. El tipo de licencia determina si puede configurar Business Voice por su cuenta, si necesita ayuda de un socio o revendedor de Microsoft, si administra sus números de teléfono, etc.
 
-- **Business Voice con plan de llamadas** Puede comprar Business Voice en Microsoft, utilizar el Asistente de inicio para configurar Business Voice y, a continuación, configurar o transferir sus números de teléfono existentes a Microsoft. El artículo [Usar el asistente de inicio para configurar Business Voice](use-getting-started-wizard.md) le muestra cómo configurar Business Voice para su espacio empresarial.
+- **Business Voice con plan de llamadas** Puede comprar Business Voice de Microsoft, configurarlo por su cuenta y después configurar o transferir sus números de teléfono existentes a Microsoft. En el artículo [Configurar Microsoft 365 Business Voice](set-up-overview.md) se muestra cómo configurar Business Voice para su espacio empresarial.
 
   Vea [Business Voice con plan de llamadas](#business-voice-with-calling-plan) más adelante en este artículo para obtener más información sobre la compra de licencias de Business Voice con plan de llamadas.
 - **Business Voice sin plan de llamadas** Necesita comprar Business Voice a un socio o revendedor de Microsoft que le ayude a configurar Business Voice. Sus números de teléfono actuales permanecen en su actual proveedor de servicios de telefonía. El artículo [Obtener ayuda de un revendedor o socio](reseller-partner-support.md) de Microsoft le ofrece una visión general del proceso necesario para configurar Business Voice en su espacio empresarial.

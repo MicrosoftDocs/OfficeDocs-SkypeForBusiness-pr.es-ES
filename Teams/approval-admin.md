@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
-ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
+ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51902574"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129799"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
@@ -41,7 +41,7 @@ La primera aprobación creada a partir de la aplicación Aprobaciones desencaden
 En este artículo se describen los roles y requisitos de la aplicación Aprobaciones.
 
 > [!NOTE]
-> Esta característica aún no se ha publicado para los usuarios de Government Community Cloud (GCC), Government Community Cloud High (GCCH) y Department of Defense (DOD).
+> Esta característica aún no se ha publicado para Government Community Cloud (GCC), Government Community Cloud High (GCCH) y los usuarios del Departamento de Defensa (DOD).
 
 ## <a name="required-permissions-and-licenses"></a>Permisos y licencias necesarios
 
@@ -57,7 +57,7 @@ Para usar la aplicación Aprobaciones, necesita permisos para los elementos sigu
 
 ## <a name="storage-with-cds"></a>Almacenamiento con CDS
 
-El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las aplicaciones empresariales y de análisis en el CDS. Consiste en un conjunto de esquemas de datos estandarizados y extensibles publicados por Microsoft y nuestros partners, que permite la coherencia de los datos y su significado en todas las aplicaciones y procesos empresariales. Obtenga más información sobre los [Modelos de datos común de la plataforma de Microsoft Power](/power-automate/get-started-approvals).
+El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las aplicaciones empresariales y de análisis en el CDS. Consiste en un conjunto de esquemas de datos estandarizados y extensibles publicados por Microsoft y nuestros asociados, que permiten la coherencia de los datos y su significado en aplicaciones y procesos empresariales. Obtenga más información sobre los [Modelos de datos común de la plataforma de Microsoft Power](/power-automate/get-started-approvals).
 
 Obtenga más información sobre el [flujo de trabajo de Aprobación](/power-automate/modern-approvals).
 
@@ -94,13 +94,13 @@ La aplicación Aprobaciones está disponible de forma predeterminada. Puede desh
 
   3. Busque la aplicación Aprobaciones.
 
-![muestra la navegación del Centro de administración donde se muestra Aplicaciones de Microsoft Teams > Administrar aplicaciones de forma resaltada](media/manage-approval-apps.png)
+     ![muestra la navegación del Centro de administración donde se muestra Aplicaciones de Microsoft Teams > Administrar aplicaciones de forma resaltada](media/manage-approval-apps.png)
 
   4. Seleccione Aprobaciones.
 
   5. Seleccione el botón de alternancia para deshabilitar la aplicación para su organización.
 
-![muestra los detalles de la aplicación Aprobaciones](media/approvals-details.png)
+     ![muestra los detalles de la aplicación Aprobaciones](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>Directiva de retención
 
@@ -136,6 +136,12 @@ Puede buscar las actividades siguientes:
 
 - Firma electrónica agregada a la solicitud de aprobación
 
+- Detalles de solicitud de firma electrónica vistas
+
+- Solicitud de firma electrónica revisada
+
+- Solicitud de firma electrónica cancelada
+
 Para tener acceso a más aprobaciones de auditoría en Flujo, habilite y configure la auditoría en el entorno predeterminado para las entidades de aprobación primaria Aprobación, solicitud de aprobación y respuesta de aprobación. Las operaciones de creación, actualización y eliminación son eventos auditables para los registros de Aprobación. Obtenga más información sobre [Datos de Auditoría y la actividad de usuario para la seguridad y el cumplimiento: Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
 Las auditorías se pueden personalizar aún más en el [Centro de seguridad y cumplimiento de Microsoft 365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
@@ -154,3 +160,19 @@ Desde la aplicación Aprobaciones de Teams, los usuarios tienen acceso para crea
 
 > [!Note]
 > A un usuario se le asigna un rol de visor de una solicitud si forma parte del chat o canal donde se creó la aprobación. No tendrán la capacidad de realizar acciones en la solicitud si no se les ha concedido ese rol cuando se creó la aprobación.
+
+## <a name="approvals-e-signature-integration"></a>Integración de firmas electrónicas de aprobaciones
+
+Las aprobaciones de firma electrónica creadas desde la aplicación Aprobaciones se almacenan en el entorno en la nube del proveedor seleccionado. Para obtener más información sobre el almacenamiento en torno al contrato de firma electrónica, vea la documentación de almacenamiento del proveedor seleccionado.
+
+Para usar la característica de firma electrónica de la aplicación Aprobaciones, necesita los siguientes elementos:
+
+- Licencia para el proveedor de firma electrónico específico que elija usar. Para obtener una licencia para su organización, tendrá que ir al sitio del proveedor.
+
+Para la funcionalidad de firma electrónica Aprobaciones, los partners de firma de terceros aparecerán en la aplicación Teams aprobaciones de forma predeterminada. Puede deshabilitar determinados proveedores de firma electrónica accediendo a la configuración de la aplicación en el Teams de administración.
+
+1. En el Teams de administración, en Administrar **aplicaciones,** seleccione la aplicación Aprobaciones **y** **elija Configuración**.
+
+2. Cada proveedor de firma electrónica tiene un botón de alternancia junto a él que se encuentra en la posición activa (derecha) de forma predeterminada. Deslice el botón de alternancia a la izquierda para deshabilitar un proveedor específico de firma electrónica. Si un Teams deshabilita un proveedor, los usuarios finales no verán el proveedor al crear una aprobación. Los usuarios finales tampoco podrán ver las solicitudes de firma electrónica realizadas con ese proveedor.
+
+Las aprobaciones de firma electrónica creadas desde la aplicación Aprobaciones se almacenan en la nube del proveedor seleccionado. Por lo tanto, tendrá que ir al sitio del proveedor para exportar los datos sobre firmas electrónicas. Consulte la documentación del proveedor sobre la exportación y retención de estos contratos.
