@@ -1045,20 +1045,40 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
               - name: Administración de números de teléfono para Canadá
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+              - name: Administración de números de teléfono para República Checa
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
               - name: Administración de números de teléfono para Dinamarca
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+              - name: Administración de números de teléfono para Finlandia
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
               - name: Administración de números de teléfono para Francia
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
               - name: Administración de números de teléfono para Alemania
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+              - name: Administración de números de teléfono para Hungría
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
               - name: Administración de números de teléfono para Irlanda
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
               - name: Administración de números de teléfono para Italia
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
               - name: Administración de números de teléfono para Japón
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+              - name: Administración de números de teléfono para Luxemburgo
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: Administración de números de teléfono para Nueva Zelanda
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
+              - name: Administración de números de teléfono para Noruega
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
+              - name: Administración de números de teléfono para Polonia
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
               - name: Administración de números de teléfono para Portugal
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+              - name: Administración de números de teléfono para Rumanía
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
+              - name: Administración de números de teléfono para Singapur
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
+              - name: Administración de números de teléfono para Eslovaquia
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
               - name: Administración de números de teléfono para España
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
               - name: Administración de números de teléfono para Países Bajos
@@ -1231,8 +1251,24 @@ items:
             href: business-voice/get-ready-internet.md
           - name: Preparar a los usuarios
             href: business-voice/prepare-users.md
-      - name: Ejecutar el Asistente para introducción
-        href: business-voice/use-getting-started-wizard.md
+      - name: Configurar Business Voice
+        items:
+          - name: Información general
+            href: business-voice/set-up-overview.md
+          - name: 'Paso 1: Configurar ubicaciones de emergencia'
+            href: business-voice/set-up-emergency-locations.md
+          - name: 'Paso 2: Configurar números de teléfono'
+            href: business-voice/set-up-phone-numbers.md
+          - name: 'Paso 3: Asignar licencias'
+            href: business-voice/set-up-licenses.md
+          - name: 'Paso 4: Configurar una cuenta de recursos'
+            href: business-voice/set-up-resource-account.md
+          - name: 'Paso 5: Asignar números de teléfono a los usuarios'
+            href: business-voice/set-up-assign-numbers.md
+          - name: 'Paso 6: Configurar un operador automático'
+            href: business-voice/set-up-auto-attendant.md
+          - name: Recursos posteriores a la configuración
+            href: business-voice/set-up-finish.md
       - name: Personalizar la configuración
         items:
           - name: Opciones de personalización
@@ -1383,10 +1419,12 @@ items:
             href: batch-group-policy-assignment-edu.md
           - name: Script de PowerShell para crear grupos de seguridad para educadores y estudiantes
             href: scripts/powershell-script-security-groups-edu.md
-          - name: Guía ancho de banda bajo para administradores de educación
+          - name: Guía de ancho de banda bajo para administradores de educación
             href: edu-remote-low-bandwidth.md
           - name: Asistente de directiva de Microsoft Teams para Educación
             href: easy-policy-setup-edu.md
+          - name: Aplicación de Asesor de carrera en Teams para Educación
+            href: career-coach.md
           - name: Supervisar los chats en Teams
             href: supervise-chats-edu.md
           - name: Insights para Educación
