@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 127fc2831e58e7ddea152c7754015a9126390ecc
+ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129799"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "52212173"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
@@ -55,11 +55,20 @@ Para usar la aplicación Aprobaciones, necesita permisos para los elementos sigu
 
 - Licencia para un [Power Automate](/power-automate/get-started-approvals), un Office 365 o una Dynamics 365.
 
+- La licencia de Microsoft Forms es necesaria para que los usuarios configuren nuevas plantillas de aprobación.
+
 ## <a name="storage-with-cds"></a>Almacenamiento con CDS
 
 El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las aplicaciones empresariales y de análisis en el CDS. Consiste en un conjunto de esquemas de datos estandarizados y extensibles publicados por Microsoft y nuestros asociados, que permiten la coherencia de los datos y su significado en aplicaciones y procesos empresariales. Obtenga más información sobre los [Modelos de datos común de la plataforma de Microsoft Power](/power-automate/get-started-approvals).
 
 Obtenga más información sobre el [flujo de trabajo de Aprobación](/power-automate/modern-approvals).
+
+Las aprobaciones creadas a partir de una plantilla siguen almacenando datos en CDS, como su título, detalles, id. de plantilla y mucho más. Las respuestas que se envían en la solicitud de aprobación se almacenan en Formularios. Obtenga más información sobre  [el almacenamiento de datos para Microsoft Forms.](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)
+
+>[!Note]
+>Si elimina la plantilla Formulario en el sitio de Microsoft Forms, interrumpirá la plantilla de aprobación y los usuarios no podrán iniciar la solicitud. Los usuarios recibirán un error "CDB TableNotFound" al intentar abrir una plantilla de aprobación que se ha eliminado en Microsoft Forms.
+
+Las plantillas de aprobación se almacenan en Datos de Storage (SDS), que es una plataforma de almacenamiento compatible que solo se usa internamente dentro de Microsoft. Las plantillas de ámbito de la organización se almacenan en "fragmento de espacio empresarial" de SDS y las plantillas de ámbito de equipo se almacenan en "fragmentos de grupo" de SDS. Esto significa que las plantillas de ámbito de organización comparten la misma duración del espacio empresarial y las plantillas de ámbito de grupo comparten la misma duración del equipo. Por lo tanto, la eliminación permanente del equipo elimina las plantillas relacionadas.
 
 ## <a name="approvals-teams-app-permissions"></a>Permisos de aplicación de Approvals Teams
 
@@ -84,6 +93,15 @@ La aplicación Approvals Teams le permite acceder a las características siguien
 
 - Use la información del equipo para ponerse en contacto con ellos.
 
+Permisos de plantilla de aprobación
+
+- Todos los propietarios de equipos pueden crear una plantilla de aprobación para los equipos de su propiedad.
+
+- Cuando un administrador crea una plantilla para toda su organización por primera vez, creará automáticamente un nuevo equipo de Teams para todos los administradores del inquilino, incluidos los administradores globales y de servicio del equipo. Estos administradores se agregarán como propietarios del equipo, para que puedan administrar en coadministraciones las plantillas de la organización. Los administradores que son nuevos en la organización después de crear el equipo deben agregarse manualmente como propietarios de equipos para que tengan los mismos permisos para administrar plantillas de toda la organización.
+
+> [!Note]
+> Si un administrador elimina el equipo, tiene un mes para restaurarlo en el portal Azure Active Directory (AAD) para restaurar todos los datos relacionados. Después de un mes, o si el administrador elimina este equipo dentro de la papelera de reciclaje, perderá todos los datos relacionados.
+
 ## <a name="disable-the-approvals-app"></a>Administrar la aplicación Aprobaciones
 
 La aplicación Aprobaciones está disponible de forma predeterminada. Puede deshabilitar la aplicación en el Centro de administración de Microsoft Teams.
@@ -105,6 +123,12 @@ La aplicación Aprobaciones está disponible de forma predeterminada. Puede desh
 ## <a name="retention-policy"></a>Directiva de retención
 
 Las aprobaciones creadas a partir de la aplicación de Aprobaciones se almacenan en el entorno de CDS predeterminado, que no admite copias de seguridad en este momento. Obtenga más información sobre cómo [Respaldar y restaurar entornos - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+
+Los datos almacenados en Formularios no se eliminarán hasta que los propietarios del equipo los limpien de la pestaña formularios **eliminados** en la aplicación web Microsoft Forms.
+
+## <a name="data-limitations"></a>Limitaciones de datos
+
+Cada equipo puede contener como máximo 400 plantillas de aprobaciones y cada plantilla puede recopilar un máximo de 50 000 solicitudes en función de la capacidad actual de Microsoft Forms.
 
 ## <a name="auditing"></a>Auditoría
 
@@ -141,6 +165,14 @@ Puede buscar las actividades siguientes:
 - Solicitud de firma electrónica revisada
 
 - Solicitud de firma electrónica cancelada
+
+- Crear una plantilla nueva
+
+- Editar una plantilla existente
+
+- Habilitar o deshabilitar una plantilla
+
+- Plantilla vista
 
 Para tener acceso a más aprobaciones de auditoría en Flujo, habilite y configure la auditoría en el entorno predeterminado para las entidades de aprobación primaria Aprobación, solicitud de aprobación y respuesta de aprobación. Las operaciones de creación, actualización y eliminación son eventos auditables para los registros de Aprobación. Obtenga más información sobre [Datos de Auditoría y la actividad de usuario para la seguridad y el cumplimiento: Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
