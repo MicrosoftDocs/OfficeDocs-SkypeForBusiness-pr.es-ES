@@ -19,12 +19,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
-description: 'Este es el contenido que debe publicarse para cumplir los requisitos de accesibilidad, cumplimiento y normativas para Skype Empresarial Online en Francia. '
-ms.openlocfilehash: b2b8654783c1a3484fad80dd14b57d911b1691dc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Este es el contenido que debe publicarse para cumplir los requisitos de accesibilidad, cumplimiento y normativa para Skype Empresarial Online en Francia. '
+ms.openlocfilehash: 04f723dfaf9f77594fd9beb6637a1f0acee6a887
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693105"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238662"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="9521e-103">Normativa y regulaciones</span><span class="sxs-lookup"><span data-stu-id="9521e-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="1fc1f-103">Normativa y regulaciones</span><span class="sxs-lookup"><span data-stu-id="1fc1f-103">Legal and regulatory</span></span>
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
