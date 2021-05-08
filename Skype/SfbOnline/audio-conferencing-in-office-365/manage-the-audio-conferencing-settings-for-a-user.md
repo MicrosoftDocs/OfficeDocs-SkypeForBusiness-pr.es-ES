@@ -1,5 +1,5 @@
 ---
-title: Administrar la configuración de Audioconferencia para un usuario en Skype Empresarial Online
+title: Administrar la configuración de conferencias de audio para un usuario en Skype Empresarial Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,27 +20,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Como administrador de Microsoft 365 u Office 365, puede editar la configuración de audioconferencia de Skype Empresarial Online (como el proveedor, el número gratuito o de pago predeterminado, el id. de conferencia o el PIN) de un usuario individual de su organización. '
-ms.openlocfilehash: 47ad2b0d6b5684d2a897055ad43e253e55c67109
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+description: 'Como administrador de Microsoft 365 o Office 365, puede editar la configuración de audioconferencia en línea de Skype Empresarial (como el proveedor, número de pago o gratuito predeterminado, id. de conferencia o PIN) para un usuario individual de su organización. '
+ms.openlocfilehash: f31648c9b2d50f595dc113b65318f9c6f9204e24
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943853"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237306"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Administrar la configuración de Audioconferencia para un usuario en Skype Empresarial Online
+# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Administrar la configuración de conferencias de audio para un usuario en Skype Empresarial Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Si desea administrar la configuración de usuario en Microsoft Teams, consulte Administrar la configuración de [Audioconferencia para un usuario en Microsoft Teams.](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)
+> Si desea administrar la configuración de usuario en Microsoft Teams, vea Administrar la configuración de audioconferencia para un usuario [en Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-Como administrador de Microsoft 365 u Office 365, puede editar la configuración de Audioconferencia (como el proveedor, el número de pago o gratuito predeterminado, el id. de conferencia o el PIN) de un usuario individual de su organización. Si desea editar la configuración de su organización, consulte Administrar la configuración de [Audioconferencia para mi organización.](manage-the-audio-conferencing-settings-for-my-organization.md)
+Como administrador de Microsoft 365 o Office 365, puede editar la configuración de audioconferencia (como el proveedor, número de pago o gratuito predeterminado, id. de conferencia o PIN) para un usuario individual de su organización. Si desea editar la configuración de su organización, vea Administrar la [configuración de audioconferencia de mi organización.](manage-the-audio-conferencing-settings-for-my-organization.md)
 
  
-1. Inicie sesión con su cuenta del trabajo o de la escuela.
+1. Inicie sesión con su cuenta de trabajo o escuela.
     
 2. Seleccione **Centros de administración** > **Skype Empresarial**.
     
-3. En el Centro de administración de Skype Empresarial, elija **Usuarios.**
+3. En el Skype Empresarial de administración, elija **Usuarios.**
     
 4. Seleccione el usuario para el que desea administrar la configuración y, a continuación, en el panel Acción, haga clic en **Editar**![Muestra el icono Editar](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png).
     
@@ -49,12 +51,12 @@ Como administrador de Microsoft 365 u Office 365, puede editar la configuración
 |**Setting**|**Descripción**|
 |:-----|:-----|
 |**Nombre del proveedor** <br/> |Elija su proveedor de la lista.  <br/><br/> **Nota:** Los demás valores de configuración de esta tabla se aplican solo si selecciona Microsoft como el proveedor de audioconferencia.           |
-|**Número de teléfono de pago predeterminado** (obligatorio) <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
-|**Número gratuito predeterminado** <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
+|**Número de teléfono de pago predeterminado** (obligatorio) <br/> |Para los proveedores externos, estos números de teléfono son los que le proporcionó el proveedor de audioconferencia. Si el usuario utiliza Microsoft como proveedor de audioconferencia, estos serán los números establecidos en el puente de audioconferencia. Aplicar formato a los números como desee que aparezcan en Skype Empresarial y Microsoft Teams de reunión.  <br/> |
+|**Número gratuito predeterminado** <br/> |Para los proveedores externos, estos números de teléfono son los que le proporcionó el proveedor de audioconferencia. Si el usuario utiliza Microsoft como proveedor de audioconferencia, estos serán los números establecidos en el puente de audioconferencia. Aplicar formato a los números como desee que aparezcan en Skype Empresarial y Microsoft Teams de reunión.  <br/> |
 |**Permitir el uso de los números gratuitos en el puente de Microsoft de su organización para unirse a las reuniones de este usuario** <br/> |Seleccione esta opción si desea permitir el uso de números gratuitos para unirse a reuniones.  <br/> |
-|**Enviar información de conferencia por correo electrónico** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
-|**Id. de conferencia** <br/> |Select **Reset** if you need to reset the conference ID for the user. For more information, see [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).  <br/> |
-|**PIN** <br/> |Select **Reset** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).  <br/> |
+|**Enviar información de conferencia por correo electrónico** <br/> |Haga clic en este vínculo solo si desea enviar inmediatamente un correo electrónico al usuario con su número de teléfono e Id. de conferencia. (Este correo electrónico no incluye el PIN). Vea [Enviar un correo electrónico a un usuario con su información de Audioconferencia](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
+|**Id. de conferencia** <br/> |Seleccione **Restablecer** si desea restablecer el Id. de conferencia para el usuario. Para obtener más información, consulte [Restablecer un Id. de conferencia para un usuario](reset-a-conference-id-for-a-user.md).  <br/> |
+|**PIN** <br/> |Seleccione **Restablecer** si desea restablecer el PIN para el usuario. Para obtener más información, vea [Restablecer el PIN de Audioconferencia](reset-the-audio-conferencing-pin.md).  <br/> |
 |**Permitir que los autores de llamadas sin autenticar sean las primeras personas en una reunión** <br/> |Seleccione esta opción para permitir que los autores de llamadas sin autenticar sean los primeros en unirse a las reuniones.  <br/> |
 |**Restricciones al marcado de salida desde reuniones de este usuario** <br/> |Si desea restringir el marcado de salida solo a llamadas nacionales, o si desea impedir completamente el marcado de salida de las reuniones, seleccione una opción de la lista.  <br/> |
   

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3e2c4d42d511e2a33a797099132ac42c0475d36
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f816830f24a3d1180cb33a91a3f02d30d360cfef
+ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112196"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52264880"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
 =================================================
@@ -34,7 +34,7 @@ Hay tres tipos de archivos de registro generados automáticamente por el cliente
 
 -   Registros de escritorio
 
-Al crear una solicitud de soporte técnico con soporte técnico de Microsoft, el ingeniero de soporte técnico necesitará los registros de depuración. Tener los registros de depuración a mano antes de crear la solicitud de soporte técnico permitirá a Microsoft empezar rápidamente a solucionar el problema. **Los registros** **multimedia o de** escritorio solo son necesarios si Microsoft lo solicita.
+Al crear una solicitud de soporte técnico con soporte técnico de Microsoft, el ingeniero de soporte técnico necesitará los registros de depuración. Tener los registros de depuración a mano antes de crear la solicitud de soporte técnico permitirá a Microsoft empezar rápidamente a solucionar el problema. **Los registros** multimedia **o de** escritorio solo son necesarios si Microsoft lo solicita.
 
 > [!NOTE]
 > En este artículo, el término **Registros de depuración** hace referencia a los registros que se usan para la solución de problemas. Sin embargo, los archivos que se generan para estos registros contendrán el término registros **de diagnóstico** en sus nombres.  
@@ -56,7 +56,7 @@ Para ver una lista completa de los sistemas operativos y los exploradores compat
 <a name="debug-logs"></a>Registros de depuración
 ---------------------------
 
-Estos son los registros más comunes y son necesarios para todos los casos de soporte técnico de Microsoft. Los registros de depuración los producen los clientes de escritorio de Windows y Mac, así como los clientes basados en exploradores. Los registros se basan en texto y se leen desde abajo hacia arriba. Se pueden leer con cualquier editor basado en texto y se crean nuevos registros al iniciar sesión en el cliente.
+Estos son los registros más comunes y son necesarios para todos los casos de soporte técnico de Microsoft. Los registros de depuración son producidos por Windows y mac clientes de escritorio, así como por clientes basados en explorador. Los registros se basan en texto y se leen desde abajo hacia arriba. Se pueden leer con cualquier editor basado en texto y se crean nuevos registros al iniciar sesión en el cliente.
 
 Los registros de depuración muestran los siguientes flujos de datos:
 
@@ -93,9 +93,9 @@ Los registros de depuración se descargan automáticamente en las siguientes car
 <a name="media-logs"></a>Registros de medios
 ---------------------------
 
-Los registros multimedia contienen datos de diagnóstico sobre audio, vídeo y uso compartido de pantalla en las reuniones de Teams. Son necesarios para los casos de soporte técnico vinculados a problemas relacionados con llamadas.
+Los registros multimedia contienen datos de diagnóstico sobre audio, vídeo y uso compartido de pantalla en Teams reuniones. Son necesarios para los casos de soporte técnico vinculados a problemas relacionados con llamadas.
 
-El registro multimedia está desactivado de forma predeterminada. Para registrar datos de diagnóstico para reuniones de Teams, los usuarios deben activar la opción en el cliente de Teams. Vaya a **Configuración** general , active la casilla Habilitar registro para diagnósticos de reuniones (requiere reiniciar  >   **Teams),** reinicie Teams y reproduzca el problema. 
+El registro multimedia está desactivado de forma predeterminada. Para registrar datos de diagnóstico Teams reuniones, los usuarios deben activar la opción en el Teams cliente. Vaya **a Configuración** General , active la casilla Habilitar registro para diagnósticos de reuniones (requiere reiniciar Teams), reinicie Teams y  >  reproduzca el problema. 
 
 En la tabla siguiente se describen las ubicaciones de registro multimedia. Cuando envíe los archivos de registro al soporte técnico de Microsoft, compruebe la marca de tiempo de los archivos de registro para asegurarse de que los registros cubren el período de tiempo cuando reproduzca el problema.
 
@@ -126,7 +126,7 @@ Los registros de escritorio, también conocidos como registros de arranque, cont
 
 Windows:
 
- - Haga clic con el botón derecho en **el icono de Microsoft Teams** en la bandeja del sistema y seleccione Obtener **registros.**
+ - Haga clic con el **botón Microsoft Teams** en la bandeja del sistema y seleccione **Obtener registros.**
 
 Mac OsX:
 
@@ -134,7 +134,7 @@ Mac OsX:
 
 Linux:
 
- - Haga clic en el **icono de Microsoft Teams** en la bandeja del sistema y seleccione Obtener **registros.**
+ - Haga clic en **el Microsoft Teams** en la bandeja del sistema y seleccione **Obtener registros.**
 
 |Cliente |Ubicación |
 |---------|---------|
@@ -142,6 +142,26 @@ Linux:
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
+
+<a name="browser-trace"></a>Seguimiento del explorador
+---------------------------
+
+Para algunas categorías de errores, es posible que el soporte técnico de Microsoft requiera que recopile un seguimiento del explorador. Esta información puede proporcionar detalles importantes sobre el estado del Teams cliente cuando se produce el error.
+
+Antes de iniciar el seguimiento del explorador, asegúrese de que ha iniciado sesión en Teams. Es importante hacer esto antes de iniciar el seguimiento para que el seguimiento no contenga información confidencial de inicio de sesión.
+
+Después de haber iniciado sesión, seleccione uno de los vínculos siguientes, según corresponda para el explorador, y siga los pasos proporcionados. 
+
+-   [Chrome & Edge (Chromium)](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
+
+-   [Perimetral](/azure/azure-portal/capture-browser-trace#microsoft-edge-edgehtml?preserve-view=true#resolution)
+
+-   [Safari](/azure/azure-portal/capture-browser-trace#apple-safari?preserve-view=true#resolution)
+
+-   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
+
+> [!NOTE]
+> En los pasos, reemplace todas las referencias a Azure Portal por el Teams cliente. 
 
 ## <a name="related-topics"></a>Temas relacionados
 

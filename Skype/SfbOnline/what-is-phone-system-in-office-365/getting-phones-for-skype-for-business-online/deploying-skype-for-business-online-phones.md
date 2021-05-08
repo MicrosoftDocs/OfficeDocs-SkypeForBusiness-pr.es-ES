@@ -20,19 +20,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
-description: Obtenga información sobre los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar la configuración de los teléfonos en línea de Skype Empresarial
-ms.openlocfilehash: 4c683cd2b0259c0145632c8522f3b262c686c71d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Obtenga información sobre los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar la configuración para Skype Empresarial teléfonos en línea
+ms.openlocfilehash: 1c607f0dd5c3a82c744f26432fe1c65f31263440
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097106"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237376"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implementación de teléfonos de Skype Empresarial Online
 
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
 [] Esta guía de implementación le ayudará a implementar teléfonos IP para Skype Empresarial Online.
   
-En todo tipo de empresas, tener un número de teléfono permite a los usuarios realizar y recibir llamadas de voz, y es un requisito importante para hacer negocios. Los usuarios que tengan números de teléfono podrán realizar llamadas de voz en todos los dispositivos de Skype Empresarial, incluidos teléfonos IP, EQUIPOS y dispositivos móviles. Para obtener más información sobre los teléfonos IP de Skype Empresarial, lea Obtener [teléfonos para Skype Empresarial Online.](getting-phones-for-skype-for-business-online.md)
+En todo tipo de empresas, tener un número de teléfono permite a los usuarios realizar y recibir llamadas de voz, y es un requisito importante para hacer negocios. Los usuarios que tengan números de teléfono podrán realizar llamadas de voz en todos los dispositivos Skype Empresarial, incluidos teléfonos IP, EQUIPOS y dispositivos móviles. Para obtener más información sobre cómo Skype Empresarial teléfonos IP, lea Obtener [teléfonos para Skype Empresarial en línea.](getting-phones-for-skype-for-business-online.md)
   
 ## <a name="deployment-steps-for-ip-phones"></a>Pasos para la implementación de teléfonos IP
 
@@ -42,13 +44,13 @@ Antes de comenzar, es recomendable descargar las guías para administradores y l
   
 - Para teléfonos Polycom, vea la [Biblioteca de documentación poly.](https://documents.polycom.com/category/voice)
     
-- Para teléfonos Yealink, vea Solución de teléfonos SIP HD de Skype Empresarial de [Yealink.](http://www.yealink.com/products_top_2.html)
+- Para teléfonos Yealink, vea [Yealink Skype Empresarial solución de teléfonos SIP HD.](http://www.yealink.com/products_top_2.html)
     
 - Para teléfonos AudioCodes, consulte la [Guía de administración del aprovisionamiento de AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
     
 ### <a name="step-2---make-sure-youre-purchasing-or-migrating-a-skype-for-business-supported-ip-phone-and-firmware"></a>Paso 2: asegurarse de que los teléfonos que va a comprar o a los que va a realizar la migración son teléfonos IP compatibles con Skype Empresarial y tienen el firmware adecuado
 
-Los teléfonos y el firmware compatibles con Skype Empresarial Online también lo son con Skype Empresarial Server, pero no siempre sucede lo mismo a la inversa. Para asegurarse de que compra o aprovisiona un teléfono y un firmware compatibles, vea Obtener [teléfonos para Skype Empresarial Online.](getting-phones-for-skype-for-business-online.md)
+Los teléfonos y el firmware compatibles con Skype Empresarial Online también lo son con Skype Empresarial Server, pero no siempre sucede lo mismo a la inversa. Para asegurarse de que está comprando o aprovisionando un teléfono y un firmware compatibles, vea Obtener [teléfonos para Skype Empresarial En línea.](getting-phones-for-skype-for-business-online.md)
   
 ### <a name="step-3---checking-that-the-right-firmware-is-installed-and-update-the-firmware-if-required"></a>Paso 3: comprobar que está instalado el firmware correcto y actualizarlo si es necesario
 
@@ -68,7 +70,7 @@ Comprueba la versión de firmware de tus teléfonos. Para:
 ### <a name="step-4---device-update-considerations"></a>Paso 4: consideraciones con respecto a la actualización de los dispositivos
 
 > [!NOTE]
-> El firmware polycom anterior a la 5.5.1.X tenía un mecanismo de bloqueo de dispositivo específico del fabricante que se reemplaza con una implementación de Skype Empresarial "Bloqueo de teléfono". Actualizar un teléfono de 5.4.X.X que se aseguró con "Bloqueo de dispositivo" a 5.5.1.X con "Bloqueo de teléfono" no heredará el código PIN de "Bloqueo de dispositivo", que puede dejar el teléfono sin seguridad. Los usuarios que han activado "Bloqueo de dispositivo" necesitan habilitar el siguiente parámetro de perfil de dispositivo Polycom para proporcionar a los usuarios el control del tiempo de actualización (lync.deviceUpdate.popUpSK.enabled=1). 
+> El firmware polycom anterior a la 5.5.1.X tenía un mecanismo de bloqueo de dispositivo específico del fabricante que se reemplaza por una implementación Skype Empresarial "Teléfono-Lock". Actualizar un teléfono de 5.4.X.X que estaba protegido con "Bloqueo de dispositivo" a 5.5.1.X con "Teléfono-Lock" no heredará el código PIN de "Bloqueo de dispositivo", lo que puede dejar el teléfono sin seguridad. Los usuarios que han activado "Bloqueo de dispositivo" necesitan habilitar el siguiente parámetro de perfil de dispositivo Polycom para proporcionar a los usuarios el control del tiempo de actualización (lync.deviceUpdate.popUpSK.enabled=1). 
   
 Las actualizaciones de firmware las administra el servicio de Skype for Business. Todos los firmware de teléfono certificados para Skype for Business se cargan en el servidor de actualización de Skype for Business, y la actualización del dispositivo está habilitada en todos los teléfonos de forma predeterminada. En función del tiempo de inactividad del teléfono y de los intervalos de sondeo, los teléfonos descargarán e instalarán automáticamente las últimas compilaciones certificadas. Puede deshabilitar la configuración de actualización del dispositivo mediante el cmdlet [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy) y estableciendo el _parámetro EnableDeviceUpdate_ en `false` .
   
@@ -91,13 +93,13 @@ También puede optar por administrar las actualizaciones de firmware usando un s
 
 Puede configurar las opciones y políticas más utilizadas de los teléfonos usando los cmdlets de Windows PowerShell para la administración en banda de Skype Empresarial. Consulte [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy) para obtener más información sobre estos parámetros y ajustes.
   
-Para obtener información sobre la planificación de infraestructura de red, [vea Marco de operaciones de Skype.](https://www.skypeoperationsframework.com/)
+Para obtener información sobre la planificación de infraestructura [de red, vea Skype Operations Framework](https://www.skypeoperationsframework.com/).
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>Paso 6: Preparación para que los usuarios inicien sesión
 
-Para permitir que los usuarios inicien sesión correctamente en un teléfono de Skype Empresarial Online y realicen llamadas, debe asegurarse de que los usuarios tienen asignadas las licencias correctas. Como mínimo, tendrá que asignar una licencia del sistema telefónico y un plan de llamadas. Para obtener información adicional, puede ver licencias complementarias de [Skype Empresarial](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) y Microsoft Teams y Asignar licencias de Skype Empresarial y Microsoft [Teams.](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
+Para permitir que los usuarios inicien sesión correctamente en un teléfono Skype Empresarial Online y realicen llamadas, debe asegurarse de que los usuarios tienen asignadas las licencias correctas. Como mínimo, tendrá que asignar una licencia de Sistema telefónico y un plan de llamadas. Para obtener más información, puede ver Skype Empresarial y [Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) de complementos y Asignar Skype Empresarial y [Microsoft Teams licencias.](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
   
-Para obtener más información sobre los planes de llamadas, lea [Sistema telefónico y Planes de llamadas](/microsoftteams/calling-plan-landing-page)
+Para obtener más información sobre planes de llamadas, lea [Sistema telefónico planes de llamadas](/microsoftteams/calling-plan-landing-page)
   
 - **Sign-in options** that are available for Online users are:
     
@@ -109,7 +111,7 @@ Para obtener más información sobre los planes de llamadas, lea [Sistema telef�
     
      ![Captura de pantalla que muestra el inicio de sesión de los teléfonos Yealink.](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
   
-    Para obtener más información sobre las opciones de inicio de sesión compatibles con el fabricante, vea Obtener [teléfonos para Skype Empresarial Online.](getting-phones-for-skype-for-business-online.md)
+    Para obtener información detallada sobre las opciones de inicio de sesión admitidas por el fabricante, vea Obtener [teléfonos para Skype Empresarial en línea.](getting-phones-for-skype-for-business-online.md)
     
 - **Id. de usuario**: usando el teclado del teléfono o el teclado en pantalla (si está disponible), los usuarios pueden usar el nombre de usuario y la contraseña de su organización para iniciar sesión en el teléfono. Por ejemplo, deben usar el formato UPN, como <em>amosm@contoso.com</em>  , en el nombre de usuario.
     
@@ -118,7 +120,7 @@ Para obtener más información sobre los planes de llamadas, lea [Sistema telef�
     > [!NOTE]
     > La autenticación con PIN no se admite en Skype Empresarial Online con teléfonos LPE y teléfonos IP de socios. 
   
-- **Usar un EQUIPO** Cuando el software Better Together over Ethernet (BToE) está instalado en el equipo del usuario y está habilitado, los usuarios pueden iniciar sesión en sus teléfonos con la ventana de autenticación en su aplicación de Skype Empresarial de Windows. Vea Paso 7 (opcional): si tiene emparejamiento de dispositivos y [Better Together over Ethernet (BToE)](deploying-skype-for-business-online-phones.md#BK_BTOE) para obtener más información.
+- **Usar un EQUIPO** Cuando el software Better Together over Ethernet (BToE) está instalado en el equipo del usuario y está habilitado, los usuarios pueden iniciar sesión en sus teléfonos con la ventana de autenticación en su Windows Skype Empresarial aplicación. Vea Paso 7 (opcional): si tiene emparejamiento de dispositivos y [Better Together over Ethernet (BToE)](deploying-skype-for-business-online-phones.md#BK_BTOE) para obtener más información.
     
   > [!NOTE]
   > Los usuarios deben usar el nombre de usuario y la contraseña de su organización para iniciar sesión en el teléfono. Por ejemplo, deben usar el formato UPN, como  <em>amosm@contoso.com</em>  , en el nombre de usuario.
@@ -153,7 +155,7 @@ Para obtener más información sobre los planes de llamadas, lea [Sistema telef�
     
      ![Captura de pantalla que muestra la introducción de código en la pantalla de inicio de sesión](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
-    Compruebe que el sitio muestra "[Nombre del fabricante del teléfono] Teléfono certificado de **Skype** Empresarial" y haga clic en **Continuar.**
+    Compruebe que el sitio muestra "[Teléfono nombre del fabricante] Skype Empresarial **certificado Teléfono**" y haga clic en **Continuar**.
     
      ![Captura de pantalla que muestra la verificación del nombre](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
@@ -172,7 +174,7 @@ Para obtener más información sobre los planes de llamadas, lea [Sistema telef�
     
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Skype Empresarial** <br/> |**Exchange** <br/> |**Método de inicio de sesión en el teléfono** <br/> |**Acceso de Skype Empresarial** <br/> |**Acceso a Exchange con autenticación moderna y MFA desactivados** <br/> |**Acceso a Exchange con autenticación moderna y MFA activados** <br/> |
+|**Skype Empresarial** <br/> |**Exchange** <br/> |**Método de inicio de sesión en el teléfono** <br/> |**Skype Empresarial acceso** <br/> |**Acceso a Exchange con autenticación moderna y MFA desactivados** <br/> |**Acceso a Exchange con autenticación moderna y MFA activados** <br/> |
 |En línea  <br/> |En línea  <br/> |Inicio de sesión web  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |En línea  <br/> |En línea  <br/> |Nombre de usuario y contraseña  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |En línea  <br/> |Local  <br/> |Inicio de sesión web  <br/> |Sí  <br/> |No  <br/> |No  <br/> |
@@ -181,7 +183,7 @@ Para obtener más información sobre los planes de llamadas, lea [Sistema telef�
 |Local  <br/> |En línea/local  <br/> |Nombre de usuario y contraseña  <br/> |Sí  <br/> |Sí  <br/> |N/D  <br/> |
 |Local  <br/> |En línea/local  <br/> |Inicio de sesión vía equipo (BTOE)  <br/> |Sí  <br/> |Sí  <br/> |N/D  <br/> |
    
-- **Características del teléfono** El conjunto de características puede variar ligeramente en función del partner del teléfono IP. Para obtener el conjunto de características completo y obtener más información sobre las características de cada fabricante de teléfonos, vea Obtener [teléfonos para Skype Empresarial Online.](getting-phones-for-skype-for-business-online.md)
+- **Teléfono características** El conjunto de características puede variar ligeramente en función del partner del teléfono IP. Para obtener el conjunto de características completo y para obtener más información sobre las características de cada fabricante de teléfonos, vea Obtener [teléfonos para Skype Empresarial en línea.](getting-phones-for-skype-for-business-online.md)
     
 - **Bloqueo del teléfono**: esta es una característica que se ha incorporado a los teléfonos certificados para Skype Empresarial recientemente como medida de protección del teléfono. Si está habilitado, se le pedirá a los usuarios que creen un PIN tras la autenticación correcta. Una vez creado, el teléfono se bloqueará cuando transcurra el tiempo de inactividad definido, o si el usuario bloquea manualmente el teléfono o sincroniza el bloqueo del teléfono con el de su equipo mediante la característica de emparejamiento del teléfono. Si el PIN de bloqueo de teléfono se introduce incorrectamente varias veces, el teléfono cerrará la sesión del usuario o requerirá el código de un administrador para desbloquear el teléfono, pero esto variará dependiendo del partner telefónico. El PIN del usuario debe tener entre 6 y 15 dígitos.
     
@@ -190,9 +192,9 @@ Para obtener más información sobre los planes de llamadas, lea [Sistema telef�
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>Paso 7 (opcional): si se dispone de emparejamiento de dispositivos y Better Together over Ethernet (BToE)
 <a name="BK_BTOE"> </a>
 
-BToE es un mecanismo de problemas telefónicos para teléfonos IP asociados que empareja el teléfono de un usuario con su aplicación de Skype Empresarial de Windows. BToE permite a los usuarios:
+BToE es un mecanismo de dolor de teléfono para teléfonos IP asociados que empareja el teléfono de un usuario con su Windows Skype Empresarial aplicación. BToE permite a los usuarios:
   
-- Iniciar sesión en su teléfono IP con su aplicación de escritorio de Skype Empresarial (con un equipo PC)
+- Iniciar sesión en su teléfono IP con su Skype Empresarial de escritorio (con un equipo PC)
     
 - Sincronizar Phone-Lock con el bloqueo de PC
     

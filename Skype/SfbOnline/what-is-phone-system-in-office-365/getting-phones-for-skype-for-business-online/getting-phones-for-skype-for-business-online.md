@@ -22,27 +22,29 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre qué teléfonos funcionan con Skype for Business de Polycom, HP y Mitel, y las licencias necesarias. '
-ms.openlocfilehash: 03f9a6d5cf3ac496c4828825e68f068ec98a14ef
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d6cfbfa56181d8fe8bae55ea4b1efa4680be23c7
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106446"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237366"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtener teléfonos para Skype for Business Online
 
-Skype Empresarial Online cumple los requisitos y es compatible con los teléfonos de escritorio para los usuarios que desean tener una experiencia de teléfono tradicional, en lugar de usar la aplicación de Skype Empresarial. En este tema se tratan los teléfonos y las versiones de firmware que se admiten para su uso en Skype Empresarial Online y otra información que puede ayudarle al configurar teléfonos en su organización.
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
+Skype Empresarial Online cumple los requisitos y es compatible con los teléfonos de escritorio para los usuarios que desean tener una experiencia de teléfono tradicional, en lugar de usar Skype Empresarial aplicación. En este tema se tratan los teléfonos y las versiones de firmware que se admiten para su uso en Skype Empresarial Online y otra información que puede ayudarle al configurar teléfonos en su organización.
 
 > [!NOTE]
-> Skype Empresarial se reemplazará lentamente por Microsoft Teams como el método de comunicación principal en Microsoft 365 y Office 365.  Vea [Una nueva visión para las comunicaciones inteligentes en Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) para obtener más información.
+> Skype Para empresas se reemplazará lentamente por Microsoft Teams como el método de comunicación principal en Microsoft 365 y Office 365.  Vea [Una nueva visión para las comunicaciones inteligentes en Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) para obtener más información.
 >
->Para obtener las actualizaciones más recientes y la información más actualizada en dispositivos compatibles, vea los dispositivos [de Microsoft Teams para comunicaciones inteligentes.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+>Para obtener las actualizaciones más recientes y la información más actualizada en los dispositivos compatibles, vea los Microsoft Teams para [comunicaciones inteligentes.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
   
 ## <a name="supported-phones"></a>Teléfonos compatibles
   
-Microsoft se asocia y trabaja estrechamente con Polycom, Yealink y AudioCodes para desarrollar y certificar una amplia variedad de dispositivos a través del Partner IP Phone Program (PIP) para el sistema telefónico.
+Microsoft se asocia y trabaja estrechamente con Polycom, Yealink y AudioCodes para desarrollar y certificar una amplia variedad de dispositivos a través del Partner IP Teléfono Program (PIP) para el Sistema telefónico.
   
-Al solicitar teléfonos nuevos para Skype Empresarial, es importante comprar teléfonos con el *id. de producto adecuado.* Estos IDs de producto garantizarán que los teléfonos que recibas tengan la versión calificada de Skype Empresarial Online ya instalada.
+Al solicitar teléfonos nuevos para Skype Empresarial, es importante comprar teléfonos con el *id. de producto adecuado.* Estos IDs de producto garantizarán que los teléfonos que recibas tengan la Skype Empresarial versión calificada en línea ya instalada.
   
 |||
 |:-----|:-----|
@@ -55,7 +57,7 @@ Para obtener más información sobre los teléfonos Polycom, vea [Biblioteca de 
   
 Para obtener más información sobre los teléfonos de Yealink, consulte [Teléfonos IP para Skype for Business](http://www.yealink.com/products_list_10.html#filter2).
   
-Para obtener más información sobre los teléfonos AudioCodes, vea [Teléfonos IP de Skype Empresarial.](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)
+Para obtener más información sobre los teléfonos AudioCodes, [vea Skype Empresarial teléfonos IP.](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)
   
 > [!NOTE]
 > Lync Phone Edition es compatible con Skype for Business Online, pero no con Microsoft Teams. El soporte estándar para la plataforma LPE finalizó el 10 de abril de 2014 y el soporte extendido continuará hasta el 11 de abril de 2023, coincidiendo con el ciclo de vida de soporte técnico del producto de Lync Server 2013. Consulte [Ciclo de vida de productos de Microsoft](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) para obtener detalles sobre el ciclo de vida de LPE. Los modelos LPE CAP no son compatibles con Skype for Business Online.
@@ -64,7 +66,7 @@ Para obtener más información sobre los teléfonos AudioCodes, vea [Teléfonos 
   
 ## <a name="supported-firmware"></a>Firmware compatible
 
-Esta es la versión mínima de software necesaria para que los teléfonos compatibles funcionen con El sistema telefónico:
+Esta es la versión mínima de software necesaria para que los teléfonos compatibles funcionen con Sistema telefónico:
   
 ||||
 |:-----|:-----|:-----|
@@ -74,18 +76,18 @@ Esta es la versión mínima de software necesaria para que los teléfonos compat
 |Yealink  <br/> |X.8.1.52  <br/> |Febrero de 2017  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |Diciembre de 2016  <br/> |
 
-Para obtener más información sobre las versiones de firmware certificadas actuales, vea [Teléfonos IP de Skype Empresarial.](../../../SfbPartnerCertification/certification/devices-ip-phones.md)
+Para obtener más información sobre las versiones de firmware certificadas actuales, [vea Skype Empresarial teléfonos IP.](../../../SfbPartnerCertification/certification/devices-ip-phones.md)
 
 > [!NOTE]
 > Los teléfonos Lync Phone Edition (LPE) que configure para su implementación local tienen que estar actualizados con el firmware mínimo necesario (o versiones posteriores) antes de transferir los usuarios a Skype Empresarial Online. Si transfiere los usuarios desde una implementación local a Skype Empresarial Online antes de actualizar el firmware en los teléfonos, esos teléfonos no se podrán conectar a Skype Empresarial. 
   
 ## <a name="required-licenses"></a>Licencias necesarias
 
-Skype Empresarial Online no requiere ninguna licencia adicional de Microsoft que no sea la licencia de usuario. Para obtener más información sobre las licencias de usuario necesarias, vea Licencias de complementos de [Skype Empresarial y Microsoft Teams.](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+Skype Empresarial Online no requiere ninguna licencia adicional de Microsoft que no sea la licencia de usuario. Para obtener más información sobre las licencias de usuario necesarias, [vea Skype Empresarial y Microsoft Teams de complementos.](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-Los modelos de licencias del fabricante pueden variar entre el firmware sip abierto y el firmware certificado de Skype Empresarial. Si va a reutilizar un modelo certificado con un firmware SIP abierto, tendrá que verificar los requisitos de la licencia con el fabricante.
+Los modelos de licencias del fabricante pueden variar entre sip abierto y Skype Empresarial firmware certificado. Si va a reutilizar un modelo certificado con un firmware SIP abierto, tendrá que verificar los requisitos de la licencia con el fabricante.
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>Conjunto de características de teléfonos conectados de Skype Empresarial Online
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype Empresarial Conjunto de características de teléfonos conectados en línea
 
 Para obtener características y funcionalidades completas del dispositivo, consulte las guías de usuario del fabricante.
   

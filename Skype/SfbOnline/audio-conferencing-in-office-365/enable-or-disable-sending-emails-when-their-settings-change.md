@@ -21,19 +21,21 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 6b9e67d8c87b023409b7934a944f298487f91289
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6596e3e5c52dd82f4f61ad176ae4d656a5f146c
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114256"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237326"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Habilitar o deshabilitar el envío de correos electrónicos cuando la configuración de conferencias de audio cambie en Skype Empresarial Online
 
-> [!Note]
-> Si desea habilitar o deshabilitar el envío de correos electrónicos en Microsoft Teams, vea Habilitar o deshabilitar el envío de correos electrónicos cuando la configuración de conferencias de audio cambie [en Microsoft Teams.](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Los usuarios se notifican automáticamente por correo electrónico cuando están habilitados para las audioconferencias. Sin embargo, puede haber ocasiones en las que quiera reducir el número de correos electrónicos que se envían a los usuarios de Skype Empresarial. En estos casos, puede deshabilitar el envío de correo electrónico.
+> [!Note]
+> Si desea habilitar o deshabilitar el envío de correos electrónicos en Microsoft Teams, vea Habilitar o deshabilitar el envío de correos electrónicos cuando la configuración de conferencias de audio cambie [en Microsoft Teams](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams).
+
+Los usuarios se notifican automáticamente por correo electrónico cuando están habilitados para las audioconferencias. Sin embargo, puede haber ocasiones en las que quiera reducir el número de correos electrónicos que se envían a Skype Empresarial usuarios. En estos casos, puede deshabilitar el envío de correo electrónico.
   
 Si deshabilita el envío de correos electrónicos, los correos electrónicos de audioconferencia no se enviarán a los usuarios, incluidos los correos electrónicos para cuando los usuarios estén habilitados o deshabilitados para las audioconferencias, cuando se restablezca su PIN y cuando cambie el id. de conferencia y el número de teléfono de conferencia predeterminado.
   
@@ -65,7 +67,7 @@ Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de ac
  
 ![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
     
-1. En el **Centro de administración de Skype Empresarial,** en el panel de navegación izquierdo, haga clic en **Audioconferencia.**
+1. En el **Skype Empresarial de administración**, en el panel de navegación izquierdo, haga clic en **Audioconferencia.**
     
 2. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
     
@@ -89,7 +91,7 @@ Vea **Enviar un correo electrónico a un usuario con su información de conferen
     
 ## <a name="what-else-should-you-know"></a>¿Qué más debe saber?
 
-- Cuando los correos electrónicos automáticos están deshabilitados, aún puede activar manualmente el envío de un correo electrónico con el id. de conferencia y el número de teléfono con el Centro de administración de Skype Empresarial. Sin embargo, si lo hace, el PIN no se incluirá. Si desea restablecer el PIN de audioconferencia y enviar correos electrónicos está deshabilitado, tendrá que enviarlo al usuario de otra forma.
+- Cuando los correos electrónicos automáticos están deshabilitados, todavía puede desencadenar manualmente el envío de un correo electrónico con el id. de conferencia y el número de teléfono con el Skype Empresarial de administración. Sin embargo, si lo hace, el PIN no se incluirá. Si desea restablecer el PIN de audioconferencia y enviar correos electrónicos está deshabilitado, tendrá que enviarlo al usuario de otra forma.
     
 - El envío de correos electrónicos a los usuarios se puede deshabilitar con el Centro de administración de Skype Empresarial o con Windows PowerShell.
     
@@ -105,13 +107,13 @@ Vea **Enviar un correo electrónico a un usuario con su información de conferen
     
   - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Por qué necesita usar Microsoft 365 u Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [¿Por qué necesita usar Microsoft 365 o Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso del Centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
+- Windows PowerShell tiene muchas ventajas en la velocidad, la sencillez y la productividad sobre el uso del centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

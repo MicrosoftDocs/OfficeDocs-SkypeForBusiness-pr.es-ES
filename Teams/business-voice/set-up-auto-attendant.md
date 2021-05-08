@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo configurar un operador automático (también conocido como cola de llamadas) Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3ae85545bc1f99c689477146a9b3eaa3bd9f299
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: ea18bcd84ce67dda914461c1bee08fbf8f4f4332
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130490"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282447"
 ---
 # <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a>Paso 6: Configurar un operador automático para el número de teléfono principal de su empresa
 
@@ -33,4 +33,4 @@ Un operador automático le permite configurar un menú de llamada para que las p
 Cuando haya pasado por todas las pestañas anteriores para configurar el operador automático, haga clic en el botón siguiente para ir al artículo siguiente.
 
 > [!div class="nextstepaction"]
-> [Paso siguiente: Finalizar la configuración de Business Voice](set-up-finish.md)
+> [Paso siguiente: Puerto de números de teléfono a Business Voice](port-phone-numbers.md)

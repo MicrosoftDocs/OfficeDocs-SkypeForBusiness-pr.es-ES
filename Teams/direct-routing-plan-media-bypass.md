@@ -15,26 +15,26 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Obtenga información sobre cómo planear la omisión de medios con enrutamiento directo del sistema telefónico, lo que le permite acortar la ruta de acceso al tráfico multimedia y mejorar el rendimiento.
+description: Obtenga información sobre cómo planear la omisión de medios con Sistema telefónico enrutamiento directo, lo que le permite acortar la ruta del tráfico multimedia y mejorar el rendimiento.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f2cbe739a567588b44bef87f7b852ed8de965ad3
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+ms.openlocfilehash: c65cdb4ede98fbd34c39eb941aed2c582c15b37b
+ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899101"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52264960"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
 ## <a name="about-media-bypass-with-direct-routing"></a>Acerca de la omisión de medios con enrutamiento directo
 
-La omisión de medios le permite acortar la ruta del tráfico multimedia y reducir el número de saltos en tránsito para un mejor rendimiento. Con la omisión de medios, los medios se mantienen entre el controlador de borde de sesión (SBC) y el cliente en lugar de enviarlo a través del sistema telefónico de Microsoft. Para configurar la omisión de medios, el SBC y el cliente deben estar en la misma ubicación o red.
+La omisión de medios le permite acortar la ruta del tráfico multimedia y reducir el número de saltos en tránsito para un mejor rendimiento. Con la omisión de medios, los medios se mantienen entre el controlador de borde de sesión (SBC) y el cliente en lugar de enviarlo a través del sistema Teléfono Microsoft sesión. Para configurar la omisión de medios, el SBC y el cliente deben estar en la misma ubicación o red.
 
 Puede controlar la omisión de medios para cada SBC mediante el comando **Set-CSOnlinePSTNGateway** con el **parámetro -MediaBypass** establecido en verdadero o falso. Si habilita la omisión de medios, esto no significa que todo el tráfico multimedia permanezca dentro de la red corporativa. En este artículo se describe el flujo de llamadas en diferentes escenarios.
 
 Los diagramas siguientes ilustran la diferencia en el flujo de llamadas con y sin omisión de medios.
 
-Sin omisión de medios, cuando un cliente realiza o recibe una llamada, tanto la señalización como el flujo multimedia entre el SBC, microsoft phone system y el cliente de Teams, como se muestra en el siguiente diagrama:
+Sin omisión de medios, cuando un cliente realiza o recibe una llamada, tanto la señalización como el flujo multimedia entre el SBC, el sistema Teléfono Microsoft y el cliente Teams, como se muestra en el siguiente diagrama:
 
 > [!div class="mx-imgBorder"]
 > ![Muestra la señalización y el flujo de medios sin omisión de medios](media/direct-routing-media-bypass-1.png)
@@ -46,12 +46,12 @@ Pero supongamos que un usuario está en el mismo edificio o red que el SBC. Por 
 
   El centro de datos en Europa está seleccionado porque el SBC está en Europa y Microsoft usa el centro de datos más próximo al SBC. Aunque este enfoque no afecta a la calidad de las llamadas debido a la optimización del flujo de tráfico dentro de las redes de Microsoft en la mayoría de las geografías, el tráfico tiene un bucle innecesario.     
 
-- **Con la omisión** de medios, el contenido multimedia se mantiene directamente entre el usuario de Teams y el SBC, como se muestra en el diagrama siguiente:
+- **Con la omisión** de medios, el medio se mantiene directamente entre el Teams y el SBC como se muestra en el diagrama siguiente:
 
   > [!div class="mx-imgBorder"]
   > ![Muestra la señalización y el flujo multimedia con la omisión de medios](media/direct-routing-media-bypass-2.png)
 
-La omisión de medios aprovecha los protocolos denominados Establecimiento de conectividad interactiva (ICE) en el cliente de Teams y ICE lite en el SBC. Estos protocolos permiten que el enrutamiento directo use la ruta multimedia más directa para obtener una calidad óptima. ICE y ICE Lite son estándares webRTC. Para obtener información detallada sobre estos protocolos, vea RFC 5245.
+La omisión de medios usa protocolos denominados Establecimiento de conectividad interactiva (ICE) en el cliente Teams y ICE lite en el SBC. Estos protocolos permiten que el enrutamiento directo use la ruta multimedia más directa para obtener una calidad óptima. ICE y ICE Lite son estándares webRTC. Para obtener información detallada sobre estos protocolos, vea RFC 5245.
 
 
 ## <a name="call-flow-and-firewall-planning"></a>Planificación del flujo de llamadas y del firewall
@@ -62,7 +62,7 @@ El flujo de llamadas y la planificación del firewall dependen de si el usuario 
 
 Si el usuario tiene acceso directo a la dirección IP pública del SBC, el flujo de llamadas es el siguiente:
 
-- Para la omisión de medios, el cliente de Teams debe tener acceso a la dirección IP pública del SBC incluso desde una red interna. Si no se desea usar medios directos, los medios pueden fluir a través de retransmisión de transporte.
+- Para la omisión de medios, Teams cliente debe tener acceso a la dirección IP pública del SBC incluso desde una red interna. Si no se desea usar medios directos, los medios pueden fluir a través de retransmisión de transporte.
 
 - Esta es la solución recomendada cuando un usuario está en el mismo edificio o red que el SBC: quite los componentes de Microsoft Cloud de la ruta de acceso multimedia.
 
@@ -70,7 +70,7 @@ Si el usuario tiene acceso directo a la dirección IP pública del SBC, el flujo
 
 En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la omisión de medios, el cliente es interno y el cliente puede llegar a la dirección IP pública del SBC (medios directos): 
 
-- Las flechas y los valores numéricos de las rutas de acceso se ajustan a los flujos [de llamadas de Microsoft Teams.](./microsoft-teams-online-call-flows.md)
+- Las flechas y los valores numéricos de las rutas de acceso se ajustan a [Microsoft Teams de llamadas.](./microsoft-teams-online-call-flows.md)
 
 - La señalización SIP siempre toma trayectorias 4 y 4' (según la dirección del tráfico). Multimedia permanece local y toma la ruta 5b.
 
@@ -82,16 +82,16 @@ En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la o
 
 A continuación se describe el flujo de llamadas si el usuario no tiene acceso a la dirección IP pública del SBC. 
 
-Por ejemplo, suponga que el usuario es externo y el administrador de inquilinos decidió no abrir la dirección IP pública del SBC a todos los usuarios de Internet, sino solo a Microsoft Cloud. Los componentes internos del tráfico pueden fluir a través de los Retransmisión de transporte de Teams. Tenga en cuenta lo siguiente:
+Por ejemplo, suponga que el usuario es externo y el administrador de inquilinos decidió no abrir la dirección IP pública del SBC a todos los usuarios de Internet, sino solo a Microsoft Cloud. Los componentes internos del tráfico pueden fluir a través Teams relés de transporte. Tenga en cuenta lo siguiente:
 
-- Se usan retransmisión de transporte de Teams.
+- Teams Se usan relés de transporte.
 
-- Para la omisión de medios, Microsoft usa una versión de retransmisión de transporte que requiere abrir puertos de 50 000 a 59 999 entre los retransmisión de transporte de Teams y el SBC (en el futuro planeamos pasar a la versión que solo requiere 3478 y 3479 puertos).
+- Para la omisión de medios, Microsoft usa una versión de retransmisión de transporte que requiere abrir puertos de 50 000 a 59 999 entre las retransmisiones de transporte de Teams y el SBC (en el futuro planeamos pasar a la versión que solo requiere 3478 y 3479 puertos).
 
 
-En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la omisión de medios, el cliente es externo y el cliente no puede llegar a la dirección IP pública del controlador de borde de sesión (los medios se retransmiten por Teams Transport Relay).
+En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la omisión de medios, el cliente es externo y el cliente no puede llegar a la dirección IP pública del controlador de borde de sesión (los medios se retransmiten Teams Retransmisión de transporte).
 
-- Las flechas y los valores numéricos de las rutas de acceso se ajustan a los flujos [de llamadas de Microsoft Teams.](./microsoft-teams-online-call-flows.md)
+- Las flechas y los valores numéricos de las rutas de acceso se ajustan a [Microsoft Teams de llamadas.](./microsoft-teams-online-call-flows.md)
 
 - Los medios se retransmiten a través de las rutas 3, 3', 4 y 4'
 
@@ -102,11 +102,11 @@ En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la o
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Flujo de llamadas si un usuario está fuera de la red y tiene acceso a la DIRECCIÓN IP pública del SBC
 
 > [!NOTE]
-> Esta no es una configuración recomendada porque no aprovecha los retransmisión de transporte de Teams. En su lugar, debe considerar el escenario anterior en el que el usuario no tiene acceso a la dirección IP pública del SBC. 
+> Esta no es una configuración recomendada porque no se aprovecha de Teams retransmisión de transporte. En su lugar, debe considerar el escenario anterior en el que el usuario no tiene acceso a la dirección IP pública del SBC. 
 
 En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la omisión de medios, el cliente es externo y el cliente puede llegar a la dirección IP pública del SBC (medios directos).
 
-- Las flechas y los valores numéricos de las rutas de acceso se ajustan al artículo flujos de [llamadas de Microsoft Teams.](./microsoft-teams-online-call-flows.md)
+- Las flechas y los valores numéricos de las rutas de acceso se ajustan al [artículo Microsoft Teams flujos de llamadas.](./microsoft-teams-online-call-flows.md)
 
 - La señalización SIP siempre toma trayectorias 3 y 3' (según la dirección del tráfico). Los flujos multimedia usan la ruta 2.
 
@@ -155,17 +155,17 @@ Los rangos IP son:
 
 \* Explicación de transcodificación: 
 
-- El procesador multimedia es B2BUA, lo que significa que puede cambiar un códec (por ejemplo, SILK de cliente de Teams a MP y G.711 entre MP y SBC).
+- El procesador multimedia es B2BUA, lo que significa que puede cambiar un códec (por ejemplo, SILK de cliente Teams a MP y G.711 entre MP y SBC).
 
 - Los relés de transporte no son B2BUA, lo que significa que el códec nunca se cambia entre el cliente y el SBC, incluso si el tráfico fluye a través de retransmisión.
 
-### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>Uso de procesadores multimedia de Teams si el tronco está configurado para la omisión de medios
+### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>Uso de Teams multimedia si el tronco está configurado para la omisión de medios
 
-Los procesadores multimedia de Teams siempre se insertan en la ruta de acceso multimedia en los siguientes escenarios:
+Teams Los procesadores multimedia siempre se insertan en la ruta de acceso multimedia en los siguientes escenarios:
 
 - La llamada se escala de 1:1 a una llamada grupal
-- La llamada se va a un usuario federado de Teams
-- La llamada se reenvía o se transfiere a un usuario de Skype Empresarial
+- La llamada se va a un usuario Teams federado
+- La llamada se reenvía o se transfiere a Skype Empresarial usuario
 
 Asegúrese de que su SBC tiene acceso a los rangos procesadores multimedia y retransmisión de transporte como se describe a continuación.    
 
@@ -174,17 +174,17 @@ Asegúrese de que su SBC tiene acceso a los rangos procesadores multimedia y ret
 
 Para la señalización SIP, los requisitos de FQDN y firewall son los mismos que para los casos no omitido. 
 
-El enrutamiento directo se ofrece en los siguientes entornos de Microsoft 365 u Office 365:
-- Microsoft 365 u Office 365
+El enrutamiento directo se ofrece en los siguientes Microsoft 365 o Office 365 entornos:
+- Microsoft 365 o Office 365
 - Office 365 GCC
 - Office 365 GCC High
-- Office 365 DoD Obtenga más información sobre los entornos de [Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) y del gobierno de Estados Unidos, como GCC, GCC High y DoD.
+- Office 365 DoD Obtenga más información sobre [Office 365 entornos](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) gubernamentales de Ee. UU. como GCC, GCC high y DoD.
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Entornos GCC de Microsoft 365, Office 365 y Office 365
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 y Office 365 GCC entornos
 
 Los puntos de conexión para enrutamiento directo son los tres FQDN siguientes:
 
-- **sip.pstnhub.microsoft.com:** FQDN global, debe probarse primero. Cuando el SBC envía una solicitud para resolver este nombre, los servidores DNS de Microsoft Azure devuelven una dirección IP que apunta al centro de datos de Azure principal asignado al SBC. La tarea se basa en las métricas de rendimiento de los centros de datos y la proximidad geográfica al SBC. La dirección IP devuelta corresponde al FQDN principal.
+- **sip.pstnhub.microsoft.com:** FQDN global, debe probarse primero. Cuando el SBC envía una solicitud para resolver este nombre, los servidores DNS Microsoft Azure devuelven una dirección IP que apunta al centro de datos de Azure principal asignado al SBC. La tarea se basa en las métricas de rendimiento de los centros de datos y la proximidad geográfica al SBC. La dirección IP devuelta corresponde al FQDN principal.
 
 - **sip2.pstnhub.microsoft.com:** FQDN secundario, se asigna geográficamente a la región de segunda prioridad.
 
@@ -199,21 +199,23 @@ Debe colocar estos tres FQDN para:
 
 Los FQDN **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com** y **sip3.pstnhub.microsoft.com** se resolverán en una de las siguientes direcciones IP:
 - 52.114.148.0
-- 52.114.132.46
+- 52.114.132.46 
+- 52.114.75.24 
+- 52.114.76.76 
+- 52.114.7.24 
+- 52.114.14.70
 - 52.114.16.74
 - 52.114.20.29
-- 52.114.75.24
-- 52.114.76.76
-- 52.114.7.24
-- 52.114.14.70
+- 52.114.36.156 
+- 52.114.32.169
 
 Debe abrir puertos para todas estas direcciones IP en el firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización. Si el firewall admite nombres DNS, el FQDN **sip-all.pstnhub.microsoft.com** se resuelve en todas estas direcciones IP. 
 
-### <a name="office-365-gcc-dod-environment"></a>Entorno doD de Office 365 GCC
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC doD
 
 El punto de conexión para enrutamiento directo es el siguiente FQDN:
 
-**sip.pstnhub.dod.teams.microsoft.us:** FQDN global. Dado que el entorno de DoD de Office 365 solo existe en los centros de datos de EE. UU., no hay FQDN secundarios y terciarios.
+**sip.pstnhub.dod.teams.microsoft.us:** FQDN global. Como el Office 365 DoD solo existe en los centros de datos de EE. UU., no hay FQDN secundarios y terciarios.
 
 Los FQDN: sip.pstnhub.dod.teams.microsoft.us se resolverán en una de las siguientes direcciones IP:
 
@@ -222,11 +224,11 @@ Los FQDN: sip.pstnhub.dod.teams.microsoft.us se resolverán en una de las siguie
 
 Debe abrir puertos para todas estas direcciones IP en el firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si el firewall admite nombres DNS, el FQDN sip.pstnhub.dod.teams.microsoft.us se resuelve en todas estas direcciones IP. 
 
-### <a name="office-365-gcc-high-environment"></a>Entorno alto de Office 365 GCC
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC high environment
 
 El punto de conexión para enrutamiento directo es el siguiente FQDN:
 
-**sip.pstnhub.gov.teams.microsoft.us:** FQDN global. Como el entorno GCC High solo existe en los centros de datos de EE. UU., no hay FQDN secundarios y terciarios.
+**sip.pstnhub.gov.teams.microsoft.us:** FQDN global. Como el GCC high solo existe en los centros de datos de EE. UU., no hay FQDN secundarios y terciarios.
 
 Los FQDN: sip.pstnhub.gov.teams.microsoft.us se resolverán en una de las siguientes direcciones IP:
 
@@ -237,8 +239,8 @@ Debe abrir puertos para todas estas direcciones IP en el firewall para permitir 
 
 ## <a name="sip-signaling-ports"></a>Señalización SIP: Puertos
 
-Los requisitos de puerto son los mismos para todos los entornos de Office 365 en los que se ofrece enrutamiento directo:
-- Microsoft 365 u Office 365
+Los requisitos de puerto son los mismos para todos los Office 365 en los que se ofrece enrutamiento directo:
+- Microsoft 365 o Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
@@ -253,9 +255,9 @@ SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Definido en el SBC |
 
 ## <a name="media-traffic-ip-and-port-ranges"></a>Tráfico multimedia: intervalos de IP y puertos
 
-El tráfico multimedia fluye entre el SBC y el cliente de Teams si la conectividad directa está disponible o a través de retransmisión de transporte de Teams si el cliente no puede llegar al SBC con la dirección IP pública.
+El tráfico multimedia fluye entre el SBC y el cliente Teams si la conectividad directa está disponible o a través de retransmisión de transporte de Teams si el cliente no puede llegar al SBC con la dirección IP pública.
 
-### <a name="requirements-for-direct-media-traffic-between-the-teams-client-and-the-sbc"></a>Requisitos para el tráfico multimedia directo (entre el cliente de Teams y el SBC) 
+### <a name="requirements-for-direct-media-traffic-between-the-teams-client-and-the-sbc"></a>Requisitos para el tráfico multimedia directo (entre el Teams y el SBC) 
 
 El cliente debe tener acceso a los puertos especificados (ver tabla) en la dirección IP pública del SBC. 
 
@@ -264,8 +266,8 @@ El cliente debe tener acceso a los puertos especificados (ver tabla) en la direc
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Cliente | SBC | 50 000 – 50 019  | Definido en el SBC |
-| UDP/SRTP | SBC | Cliente | Definido en el SBC | 50 000 – 50 019  |
+UDP/SRTP | Cliente | SBC | 3478-3481 y 49152 - 53247| Definido en el SBC |
+| UDP/SRTP | SBC | Cliente | Definido en el SBC | 3478-3481 y 49152 - 53247  |
 
 
 > [!NOTE]
@@ -275,20 +277,20 @@ UDP/SRTP | Cliente | SBC | 50 000 – 50 019  | Definido en el SBC |
 
 Las retransmisión de transporte están en el mismo rango que los procesadores multimedia (para casos que no se omiten): 
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Entornos GCC de Microsoft 365, Office 365 y Office 365
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 y Office 365 GCC entornos
 
 - 52.112.0.0 /14 (direcciones IP de 52.112.0.1 a 52.115.255.254)
 
-### <a name="office-365-gcc-dod-environment"></a>Entorno doD de Office 365 GCC
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC doD
 
 - 52.127.64.0/21
 
-### <a name="office-365-gcc-high-environment"></a>Entorno alto de Office 365 GCC
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC high environment
 
 - 52.127.88.0/21
 
 
-En la tabla siguiente se muestra el rango de puertos de las Retransmisión de transporte de Teams (aplicable a todos los entornos):
+El rango de puertos de Teams relés de transporte (aplicables a todos los entornos) se muestra en la tabla siguiente:
 
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
@@ -310,20 +312,20 @@ Debe abrir los puertos 3478 y 3479 para la transición. Cuando Microsoft present
 
 ### <a name="requirements-for-using-media-processors"></a>Requisitos para usar procesadores multimedia
 
-Los procesadores multimedia siempre están en la ruta de acceso multimedia para aplicaciones de voz y para clientes web (por ejemplo, clientes de Teams en Edge o Google Chrome). Los requisitos son los mismos que para la configuración sin omisión.
+Los procesadores multimedia siempre están en la ruta de acceso multimedia para aplicaciones de voz y para clientes web (por ejemplo, Teams en Edge o Google Chrome). Los requisitos son los mismos que para la configuración sin omisión.
 
 
 El intervalo IP para el tráfico multimedia es 
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Entornos GCC de Office 365 y Office 365
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 y Office 365 GCC entornos
 
 - 52.112.0.0 /14 (direcciones IP de 52.112.0.1 a 52.115.255.254)
 
-### <a name="office-365-gcc-dod-environment"></a>Entorno doD de Office 365 GCC
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC doD
 
 - 52.127.64.0/21
 
-### <a name="office-365-gcc-high-environment"></a>Entorno alto de Office 365 GCC
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC high environment
 
 - 52.127.88.0/21
 
@@ -371,9 +373,9 @@ Para obtener información sobre cómo configurar dos troncos en el mismo SBC, ve
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Extremos de cliente compatibles con la omisión de medios
 
-La omisión de medios es compatible con todos los clientes de escritorio independientes de Teams, los clientes android e iOS y los dispositivos telefónicos de Teams. 
+La omisión de medios es compatible con todos los Teams de escritorio independientes, clientes de Android e iOS y Teams Teléfono dispositivos. 
 
-Para todos los demás puntos de conexión que no admiten la omisión de medios, convertiremos la llamada en no omitir, incluso si se inició como una llamada de omisión. Esto ocurre automáticamente y no requiere ninguna acción del administrador. Esto incluye teléfonos 3PIP de Skype Empresarial y clientes web de Teams que admiten llamadas de enrutamiento directo (clientes basados en WebRTC que se ejecutan en Microsoft Edge, Google Chrome y Mozilla Firefox). 
+Para todos los demás puntos de conexión que no admiten la omisión de medios, convertiremos la llamada en no omitir, incluso si se inició como una llamada de omisión. Esto ocurre automáticamente y no requiere ninguna acción del administrador. Esto incluye Skype Empresarial teléfonos 3PIP y clientes web Teams compatibles con las llamadas de enrutamiento directo (clientes basados en WebRTC que se ejecutan en Microsoft Edge, Google Chrome y Mozilla Firefox). 
  
 ## <a name="see-also"></a>Vea también
 

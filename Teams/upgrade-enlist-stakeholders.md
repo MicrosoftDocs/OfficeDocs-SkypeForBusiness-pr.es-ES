@@ -1,13 +1,13 @@
 ---
-title: Enliste a las partes interesadas | Planeación de actualización de Skype Empresarial a Teams
-author: msdmaguire
-ms.author: dmaguire
+title: Enliste a las partes interesadas | Skype Empresarial para Teams de actualización
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Obtenga información sobre cómo estructurar las partes interesadas de su organización para asegurarse de que la actualización de Microsoft Teams sea correcta.
+description: Obtenga información sobre cómo estructurar las partes interesadas de su organización para asegurarse de que la Microsoft Teams actualización se realiza correctamente.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dc1467a221e98bfff5e3a82e6cd2702c9b530c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 81a20980530f28f20fb48fa06a2068088dc1a305
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116528"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282527"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Incorporar a las partes interesadas del proyecto
 
 ![Ilustración que muestra el estado de las partes interesadas del viaje de actualización](media/upgrade-banner-stakeholders.png "Etapas del viaje de actualización, con énfasis en reunir a su equipo de partes interesadas del proyecto")
 
-Este artículo forma parte de la fase Partes interesadas del proyecto del viaje de actualización, la primera y más esencial actividad que complete para el éxito de su proyecto.
+Este artículo forma parte de la Project stakeholders del viaje de actualización, la primera y más esencial actividad que complete para el éxito de su proyecto.
 
 Desde implementar entregas de proyectos hasta impulsar la rendición de cuentas, las partes interesadas tienen la clave del éxito del proyecto. Hay dos grupos de partes interesadas que querrá asignar:  (1) una coalición de patrocinio que incluya patrocinadores ejecutivos y de proyectos que tengan un interés e influencia en el éxito del proyecto y (2) el equipo del _proyecto,_ formado por los responsables de garantizar la preparación técnica y de los usuarios, que completarán las distintas tareas del plan de proyecto. El hilo común entre estos dos grupos es el jefe de _proyecto,_ que trabaja para asegurarse de que las tareas del proyecto se completen según la programación e informe del estado del proyecto de nuevo a la coalición.
 
@@ -42,7 +42,7 @@ Opcionalmente, puede crear un comité de dirección. A veces, proyectos grandes 
 
 | | |
 |---|---|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión | <ul><li>¿Quiénes son las personas correctas para servir como su equipo de partes interesadas para este proyecto?</li></ul> |
+| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión | <ul><li>Quién Son las personas correctas para servir como su equipo de partes interesadas para este proyecto?</li></ul> |
 | ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Tenga en cuenta el ámbito del proyecto y asigne las partes interesadas relevantes.</li><li>Use la tabla siguiente como guía, pero tenga en cuenta que esta lista no es todo incluido.<br><strong>Sugerencia</strong><br>Cree una matriz responsable-responsable-consultada-informada [(RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para distinguir aún más a los que serán responsables de aquellos que simplemente necesitan mantenerse informados en un área específica del proyecto.</li> |
 | <li>Decida si desea crear un comité de dirección y asignar roles según corresponda.</li></ul> | |
 
@@ -53,17 +53,17 @@ Opcionalmente, puede crear un comité de dirección. A veces, proyectos grandes 
 | Patrocinador empresarial | Facilita las solicitudes de nuevas tecnologías para su unidad de negocio |
 | Jefes de departamento | Representa los equipos más afectados por este cambio |
 | Administrador de recursos humanos | Es responsable de la administración de talentos |
-| Jefe de proyecto/cliente potencial | Supervisa el proyecto de transición y garantiza la finalización de todas las tareas |
-| **Equipo del proyecto** | |
+| Project Administrador/cliente potencial | Supervisa el proyecto de transición y garantiza la finalización de todas las tareas |
+| **Project equipo** | |
 | Jefe de colaboración/ Arquitecto | Crea e implementa la arquitectura de la solución |
 | Responsable de redes | Proporciona información sobre el diseño y la ejecución de la red |
 | Responsable de seguridad | Proporciona información sobre el diseño, el proceso y la implementación de seguridad |
 | Lead de comunicaciones sincrónicas | Posee herramientas de presencia como chat, reuniones y llamadas |
-| Lead de colaboración asincrónica | Posee herramientas asincrónicas como SharePoint, OneDrive, entre otras. |
+| Lead de colaboración asincrónica | Posee herramientas asincrónicas como SharePoint, OneDrive, y así sucesivamente |
 | Responsable de telefonía | Proporciona información sobre el diseño y la implementación de telefonía |
-| Propietario del servicio/ Campeón de calidad | Es el propietario del funcionamiento de Teams, incluida la calidad de la experiencia del usuario |
+| Propietario del servicio/ Campeón de calidad | Es el propietario del funcionamiento de Teams todo, incluida la calidad de la experiencia del usuario |
 | Cliente potencial de escritorio y dispositivos | Proporciona información sobre clientes, dispositivos y aplicaciones de escritorio |
-| Administrador de inquilinos/profesionales de TI | Garantiza la preparación de la red y las configuraciones del Centro de administración de Microsoft 365 |
+| Administrador de Pro de ti/inquilino | Garantiza la preparación de la red y Microsoft 365 configuraciones del Centro de administración están en su lugar |
 | Responsable del servicio de asistencia y soporte técnico | Administra la preparación de su servicio de soporte técnico |
 | Cliente potencial de administración de cambios | Supervisa la administración de cambios de usuario y el programa de adopción |
 | Cliente potencial de marketing | Diseña e implementa campañas de comunicaciones |

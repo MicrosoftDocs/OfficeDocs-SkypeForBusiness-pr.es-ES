@@ -1,5 +1,5 @@
 ---
-title: Ver una lista de usuarios habilitados para las audioconferencias en Skype Empresarial Online
+title: Ver una lista de usuarios habilitados para audioconferencias en Skype Empresarial Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,19 +21,21 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: 2cb4481f480f5be9f45064aed1fd48f9f5c28496
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 070b11c047ec90413128995196b99872a0884663
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114136"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237006"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Ver una lista de usuarios habilitados para las audioconferencias en Skype Empresarial Online
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Ver una lista de usuarios habilitados para audioconferencias en Skype Empresarial Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
-> Para obtener información sobre los usuarios habilitados en Microsoft Teams, vea Ver una lista de usuarios habilitados para [audioconferencias en Microsoft Teams.](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams)
+> Para obtener información sobre los usuarios habilitados en Microsoft Teams, vea Ver una lista de usuarios habilitados para audioconferencias [en Microsoft Teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
 
-Después de habilitar usuarios de Skype Empresarial en su organización para audioconferencias, puede ver la lista de los usuarios que se han habilitado. Cuando mire la lista, también verá para cada usuario de la lista el tipo de proveedor de audioconferencia que está usando, el número de teléfono de acceso telefónico local predeterminado para el usuario y si su organización no está habilitada para los id. de conferencia dinámicos, los id. de conferencia estáticos para las reuniones de audioconferencia que organizan.
+Después de habilitar Skype Empresarial usuarios de su organización para audioconferencias, puede ver la lista de los usuarios que se han habilitado. Cuando mire la lista, también verá para cada usuario de la lista el tipo de proveedor de audioconferencia que está usando, el número de teléfono de acceso telefónico local predeterminado para el usuario y si su organización no está habilitada para los id. de conferencia dinámicos, los id. de conferencia estáticos para las reuniones de audioconferencia que organizan.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -75,15 +77,15 @@ Después de habilitar usuarios de Skype Empresarial en su organización para aud
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario, cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario, cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Por qué necesita usar Microsoft 365 u Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [¿Por qué necesita usar Microsoft 365 o Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell tiene muchas ventajas en velocidad, sencillez y productividad sobre el uso solo del Centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso del centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -91,4 +93,4 @@ Después de habilitar usuarios de Skype Empresarial en su organización para aud
     
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencias en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Pruebe o compre Audioconferencia en Microsoft 365 o Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

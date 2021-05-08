@@ -18,40 +18,42 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Antes de que los usuarios de su organización puedan usar difusión de reunión de Skype, debe habilitarla. Para ello, debe saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un socio de Microsoft para que lleve a cabo este paso por usted.
-ms.openlocfilehash: ab59348d32ef130df6b0de6e1eb65c92d0222e04
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Antes de que los usuarios de su organización puedan Skype difusión de reunión, debe habilitarla. Para ello, debe saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un socio de Microsoft para que lleve a cabo este paso por usted.
+ms.openlocfilehash: 6cdd7f12483025697b139203907f87f9cd3dc764
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097116"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237016"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar la Difusión de reunión de Skype
 
-> [!IMPORTANT]
-> Skype Empresarial Online se retirará el 31 de julio de 2021, momento en el que finalizará el acceso al servicio. Animamos a los clientes a iniciar la actualización a Microsoft Teams, el cliente principal para las comunicaciones y el trabajo en equipo en Microsoft 365.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Antes de que los usuarios de su organización puedan usar difusión de reunión de Skype, debe habilitarla. Para ello, debe saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un [socio de Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para que lleve a cabo este paso por usted.
+> [!IMPORTANT]
+> Skype Empresarial Online se retirará el 31 de julio de 2021, momento en el que finalizará el acceso al servicio. Animamos a los clientes a comenzar la actualización a Microsoft Teams, el cliente principal para las comunicaciones y el trabajo en equipo en Microsoft 365.
+
+Antes de que los usuarios de su organización puedan Skype difusión de reunión, debe habilitarla. Para ello, debe saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un [socio de Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para que lleve a cabo este paso por usted.
 
 
 
 > [!NOTE]
-> El Centro de administración de Microsoft Teams ha sustituido al Centro de administración de Skype Empresarial (portal heredado). Todas las opciones de configuración para administrar Skype Empresarial se encuentran ahora en el Centro de administración de Teams. Debe tener asignado el rol de administrador de [Azure AD](/azure/active-directory/roles/permissions-reference) de administrador global o administrador de Skype Empresarial para administrar las características de Skype Empresarial en el Centro de administración de Teams. Para conocer más, consulte [Administrar la configuración de Skype empresarial en el Centro de administración de Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
+> El Microsoft Teams de administración ha sustituido al Skype Empresarial de administración (portal heredado). Todas las opciones de Skype Empresarial están ahora en el centro Teams administración. Debe tener asignado el rol de administrador de [Azure AD](/azure/active-directory/roles/permissions-reference) de administrador global o Skype Empresarial administrador para administrar Skype Empresarial características en el centro Teams administración. Para conocer más, consulte [Administrar la configuración de Skype empresarial en el Centro de administración de Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Habilitar Difusión de reunión de Skype mediante el Centro de administración de Skype Empresarial
 
 ![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-1. Inicie sesión con su cuenta de administrador global o con la cuenta de administrador de Skype Empresarial en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
+1. Inicie sesión con su cuenta de administrador global o Skype Empresarial cuenta de administrador en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
     
-2. En el centro de administración, vaya a Centros **de administración de**  >  **Teams.**
+2. En el centro de administración, vaya a Centros **de**  >  **administración Teams**.
     
-3. En el **Centro de administración de Teams,** vaya a **Portal** heredado En línea Reuniones de difusión de reuniones y, a  >    >  continuación, **seleccione Habilitar difusión de reunión de Skype.**
+3. En el **Teams de** administración, vaya a **Portal** heredado En línea Reuniones en línea Difundir reuniones y, a  >    >  continuación, seleccione Habilitar **Skype difusión de reunión**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Habilitar la Difusión de reunión de Skype mediante PowerShell
 
-1. Instale el [módulo de PowerShell de Teams.](/microsoftteams/teams-powershell-install)
+1. Instale el [Teams PowerShell](/microsoftteams/teams-powershell-install).
     
 2. Abra un Windows PowerShell de comandos y ejecute los siguientes comandos: 
 

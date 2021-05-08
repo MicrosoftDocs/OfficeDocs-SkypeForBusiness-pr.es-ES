@@ -20,14 +20,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar la configuración para teléfonos de área común.
-ms.openlocfilehash: 16490c10418928f875d4513c509f17e09ac4359d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4fd45f446d71e581305f7e596c7eacc62f54f8ca
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106436"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237356"
 ---
 # <a name="set-up-common-area-phones"></a>Configurar teléfonos de área común
+
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 Por lo general, un teléfono de área común (CAP) se coloca en un área como un vestíbulo u otra área que está disponible para muchas personas. Por ejemplo, un teléfono del área de recepción, un teléfono de la puerta o un teléfono de la sala de reuniones; los CAP se configuran como dispositivos en lugar de como usuarios y se conectan automáticamente a una red. En los pasos a continuación, le ayudaremos a configurar una cuenta para un sistema telefónico con planes de llamadas, de modo que pueda implementar este tipo de teléfonos en su organización.
 
 ## <a name="prerequisites-for-common-area-phones"></a>Requisitos previos de los teléfonos de área común
@@ -37,10 +39,10 @@ Lo primero que debe hacer es confirmar que tiene lo siguiente:
 - Adquiera una licencia de teléfono de área común y un plan de llamadas.
 - Busque y compre teléfonos aprobados (vea la lista [aquí](deploying-skype-for-business-online-phones.md)).
 - Actualice el firmware de sus teléfonos (consulte el firmware compatible [en este tema](getting-phones-for-skype-for-business-online.md)).  Puede verificar el firmware en su teléfono haciendo esto:
-  - **Teléfonos Polycom VVX:** Vaya a **Configuración** Estado de la aplicación  >    >  **Aplicación** Principal de  >  **la**  >  **plataforma.**
+  - **Teléfonos Polycom VVX:** Vaya **a Configuración** principal de la aplicación  >    >  **plataforma de**  >    >  **estado.**
   - **Teléfonos Yealink:** Ve a **Estado en** la pantalla principal del teléfono.
   - **AudioCodes teléfonos:** Vaya **a** La versión del firmware del estado del dispositivo  >    >  **del menú** desde la pantalla de inicio.
-  - **Teléfonos de Lync Phone Edition (LPE):** vaya a **Información del**  >  **sistema de menús** desde la pantalla de inicio.
+  - **Lync Teléfono Edition (LPE):** Vaya a **Menú**  >  **Información del sistema** desde la pantalla de inicio.
 
     Las actualizaciones de firmware las administra el servicio de Skype for Business. Todos los firmware de teléfono certificados para Skype for Business se cargan en el servidor de actualización de Skype for Business, y la actualización del dispositivo está habilitada en todos los teléfonos de forma predeterminada.
 
@@ -52,14 +54,14 @@ Tendrá que seguir estos pasos:
 ### <a name="step-1---buy-the-licenses"></a>Paso 1: comprar las licencias
 1. En el centro de administración, vaya a **Servicios de** compra  >  **de facturación** y agregue Otros **planes.**
 
-    ![Captura de pantalla de la licencia de Teléfono de área común](../../images/cap-license.png)
+    ![Captura de pantalla del área común Teléfono licencia](../../images/cap-license.png)
 2. Haga clic en **Teléfono de área común** > **Comprar ahora** > y en la página de **Pago** haga clic en **Compra ahora**.
 3. Haga clic para expandir las **Suscripciones de complementos** y luego haga clic para comprar un plan de llamadas. Elija el Plan **de llamadas nacionales** o el Plan **de llamadas nacionales e internacionales.**
 
 > [!Note]
 > No necesita una licencia de sistema telefónico. Está incluida en la licencia del **teléfono de área común**.
 
-Para obtener más información sobre licencias, vea Licencias de complementos de Skype Empresarial y [Microsoft Teams.](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+Para obtener más información sobre licencias, [vea Skype Empresarial y Microsoft Teams de complementos.](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Paso 2: crear una nueva cuenta de usuario para el teléfono y asignar las licencias
 1. En el Centro de administración, vaya **a Usuarios**  >  **usuarios activos** Agregar un  >  **usuario.**
@@ -82,9 +84,9 @@ Para más detalles, consulte [Agregar un usuario](https://support.office.com/art
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Paso 3: asignar un número de teléfono a la cuenta de usuario del teléfono de área común
 
-![Icono que muestra el logotipo de Skype Empresarial Asignar un número de teléfono al usuario con el Centro de administración ](../../images/sfb-logo-30x30.png) **de Skype Empresarial**
+![Icono que muestra el logotipo Skype Empresarial asignar un número de teléfono al usuario con el ](../../images/sfb-logo-30x30.png) **centro Skype Empresarial administración**
 
-1. En el centro de administración > **centros de administración de** Skype  >  **Empresarial.**
+1. En el centro de administración > **centros de administración**  >  **Skype Empresarial**.
 2. En el **centro de administración de Skype for Business** >  **Voz** > **Números de teléfono**.
 3. Seleccione un número de la lista de números de teléfono y haga clic en **Asignar**.
 4. En la página **Asignar**, en el cuadro **Usuario de voz** indique el nombre del usuario que se utiliza para el teléfono y luego seleccione el usuario en el desplegable **Seleccionar un usuario de voz**.
@@ -98,7 +100,7 @@ Para más detalles, consulte [Agregar un usuario](https://support.office.com/art
 
 Para más información, consulte [Obtener números de teléfono para los usuarios](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Si se lo pregunta, también puede tomar el número deteléfono que tiene con otro operador y "portabilidad" o transferirlo a Microsoft 365 u Office 365. Vea Transferir [números de teléfono a Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
+Si se lo pregunta, también puede llevar el número deteléfono que tiene con otro operador y "portabilidad" o transferirlo a Microsoft 365 o Office 365. Vea Transferir [números de teléfono a Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
 ### <a name="step-4---setting-up-your-phone"></a>Paso 4: configurar el teléfono
 
@@ -138,7 +140,7 @@ El teléfono o teléfonos que posea deben tener activado el **Modo de teléfono 
 
 
 > [!NOTE]
-> El sitio de aprovisionamiento de CAP indica que restablecerá la contraseña de la cuenta CAP a una contraseña aleatoria. Tenga en cuenta que la cuenta a la que hace referencia el CAP es la cuenta de Azure Active Directory (AAD). Solo si creó la cuenta en AAD el proceso es directo. Si ha sincronizado un Active Directory local con AAD y usa un IDP o ADFS de terceros, se producirá un error en el aprovisionamiento de CAP. En este caso, debe usar una cuenta de Microsoft 365 u Office 365/Azure Active Directory solo (por ejemplo, una cuenta con un dominio onmicrosoft.com) para que funcione el **aprovisionamiento** de CAP.
+> El sitio de aprovisionamiento de CAP indica que restablecerá la contraseña de la cuenta CAP a una contraseña aleatoria. Tenga en cuenta que la cuenta a la que hace referencia el CAP es la cuenta de Azure Active Directory (AAD). Solo si creó la cuenta en AAD el proceso es directo. Si ha sincronizado un Active Directory local con AAD y usa un IDP o ADFS de terceros, se producirá un error en el aprovisionamiento de CAP. En este caso, debe usar una cuenta Microsoft 365 o Office 365/Azure Active Directory solo (por ejemplo, una cuenta con un dominio onmicrosoft.com) para que funcione el **aprovisionamiento** de CAP.
 
 
 ### <a name="related-topics"></a>Temas relacionados

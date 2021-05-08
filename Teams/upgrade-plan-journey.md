@@ -1,7 +1,7 @@
 ---
-title: Planear la actualización de Skype Empresarial a Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+title: Planear la actualización Skype Empresarial Microsoft Teams actualización
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9438f7f8fa97507e78e64633383e29ad032c3e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5dd2fd5241533f54da3e5a06dab90df7f082fe2d
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119079"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282127"
 ---
 # <a name="plan-for-your-upgrade"></a>Planear la actualización
 
-![Diagrama del viaje de actualización de Teams](media/upgrade-banner-main.png "Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito, los objetivos y la escala de tiempo del proyecto. Confirme la disponibilidad técnica y del usuario. Ejecute el plan de implementación. Mantenga el impulso para maximizar los resultados.")
+![Diagrama del Teams de actualización](media/upgrade-banner-main.png "Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito, los objetivos y la escala de tiempo del proyecto. Confirme la disponibilidad técnica y del usuario. Ejecute el plan de implementación. Mantenga el impulso para maximizar los resultados.")
 
 Un entorno técnico saludable, la adopción sostenida del usuario y la realización de sus objetivos empresariales comienzan con una planeación adecuada. Un plan sólido le proporciona un marco para su proyecto de actualización y garantiza que todas las partes interesadas están trabajando para alcanzar los mismos objetivos. Al tomar tiempo para definir correctamente el éxito, puede medir los resultados a medida que avanza en la implementación y comprobar que está logrando los resultados que quería. Planear el viaje incluye:
 

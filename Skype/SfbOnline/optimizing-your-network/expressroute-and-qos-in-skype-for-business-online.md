@@ -20,23 +20,25 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 3ff507dc3cca5e244f6545944d062e5e32dd6175
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6f2ecbf53ab4fc7e2bb066b8eaf4e167a81f181
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100746"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237186"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute y QoS en Skype Empresarial Online
 
-Conéctese a Microsoft 365 u Office 365 a través de una conexión de red dedicada con Azure ExpressRoute para Microsoft 365 u Office 365 y Skype Empresarial Online. Una conexión dedicada para las aplicaciones de Skype Empresarial le proporcionará un rendimiento confiable y predecible, además de la privacidad que no proporciona una conexión de Internet pública. Ahora puede comprar una mejor conexión de red a Microsoft 365 u Office 365 y Skype Empresarial Online que agrega predictibilidad, confiabilidad de clase empresarial y viene con un SLA de tiempo de actividad.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Conectar Microsoft 365 o Office 365 a través de una conexión de red dedicada con Azure ExpressRoute para Microsoft 365 o Office 365 y Skype Empresarial Online. Una conexión dedicada para las aplicaciones de Skype Empresarial le proporcionará un rendimiento confiable y predecible, además de la privacidad que no proporciona una conexión de Internet pública. Ahora puede comprar una mejor conexión de red a Microsoft 365 o Office 365 y Skype Empresarial Online que agrega predictibilidad, confiabilidad de clase empresarial y viene con un SLA de tiempo de actividad.
   
 > [!NOTE]
-> Una nueva versión de la calculadora de ancho de banda está disponible: [Skype Empresarial, Calculadora de ancho de banda.](https://go.microsoft.com/fwlink/?LinkId=715766) Sin embargo, las instrucciones de este documento usan la Calculadora de ancho de banda de Lync 2010 y 2013. 
+> Hay disponible una nueva versión de la calculadora de ancho de banda: [Skype Empresarial, Calculadora de ancho de banda.](https://go.microsoft.com/fwlink/?LinkId=715766) Sin embargo, las instrucciones de este documento usan la Calculadora de ancho de banda de Lync 2010 y 2013. 
   
 ## <a name="skype-for-business-online-and-expressroute"></a>Skype Empresarial Online y ExpressRoute
 
-Trabajando con un partner de ExpressRoute de Microsoft, puede conectar una variedad de aplicaciones de Microsoft 365 y Office 365, incluido Skype Empresarial Online en la nube a través de una conexión dedicada. Sin embargo, las capacidades de comunicaciones de voz y vídeo en tiempo real para Skype Empresarial requieren servicios de red configurados específicamente para admitir estas cargas de trabajo en tiempo real de Microsoft 365 u Office 365. Esto incluye una red que tenga un ancho de banda suficiente para transferir el volumen necesario de tráfico y que sea capaz de admitir una calidad de servicio (QoS), y así poder ofrecer a sus usuarios una experiencia de categoría empresarial.
+Trabajando con un partner de ExpressRoute de Microsoft, puede conectar una variedad de aplicaciones Microsoft 365 y Office 365, incluido Skype Empresarial Online en la nube a través de una conexión dedicada. Sin embargo, las capacidades de comunicaciones de voz y vídeo en tiempo real para Skype Empresarial requieren servicios de red configurados específicamente para admitir estas cargas de trabajo Microsoft 365 o Office 365 en tiempo real. Esto incluye una red que tenga un ancho de banda suficiente para transferir el volumen necesario de tráfico y que sea capaz de admitir una calidad de servicio (QoS), y así poder ofrecer a sus usuarios una experiencia de categoría empresarial.
   
 Este documento se ha diseñado para ayudar a los clientes, a los administradores y a los ingenieros de redes a comprender los retos especiales necesarios para admitir las comunicaciones en tiempo real, las herramientas proporcionadas por Microsoft para ayudarle a diseñar una red capaz de admitir estos requisitos y guiarle en los pasos del proceso de diseño con un caso práctico. 
   
@@ -83,7 +85,7 @@ Para ofrecer servicios en tiempo real coherentes y de alta calidad para Dewey La
     
 - Además, los conmutadores y enrutadores de red también tienen que usar sistemas de alimentación ininterrumpida (SAI) para que puedan continuar funcionando durante un error de alimentación.
     
-    Tienen una Wi-Fi a sus oficinas de LAN, por lo que recomendamos encarecidamente que usen un partner certificado de infraestructura de Skype Empresarial Wi-Fi de [Skype Empresarial Solutions.](https://go.microsoft.com/fwlink/?LinkId=690281)
+    Tienen una Wi-Fi a sus oficinas de LAN, por lo que recomendamos encarecidamente que usen un partner de infraestructura Skype Empresarial Wi-Fi certificado de [Skype Empresarial Solutions.](https://go.microsoft.com/fwlink/?LinkId=690281)
     
     > [!TIP]
     >  Se recomiendan los puntos de acceso inalámbricos 802.11n y 802.11ac.
@@ -92,7 +94,7 @@ Para ofrecer servicios en tiempo real coherentes y de alta calidad para Dewey La
     
 Ahora que hemos tratado los conceptos básicos, para ofrecer servicios de voz de categoría empresarial para Dewey Law, LLC. recomendamos usar un servicio IP MPLS (conmutación por etiquetas multiprotocolo) de un partner de servicios de red que se conectará al servicio Azure ExpressRoute. MPLS proporciona un servicio IP con garantías de rendimiento en caso de retraso, vibración y pérdida de paquetes. Pero, si MPLS no está disponible, también se puede usar una conexión Ethernet conectada a uno de nuestros partners de intercambio de datos de ExpressRoute.
   
-Los proveedores de MPLS ofrecen varios niveles de clase de servicio, pero cada uno usa diferentes términos para identificarlos. Tendrá que trabajar estrechamente con su proveedor para asegurarse de que comprenden los datos que tiene en la Calculadora de ancho de banda de [Lync 2010 y 2013](https://go.microsoft.com/fwlink/?LinkID=690282) y las opciones disponibles y se recomiendan para las diferentes aplicaciones de carga de trabajo en tiempo real de Microsoft 365 y Office 365.
+Los proveedores de MPLS ofrecen varios niveles de clase de servicio, pero cada uno usa diferentes términos para identificarlos. Tendrá que trabajar estrechamente con su proveedor para asegurarse de que comprenden los datos que tiene en la Calculadora de ancho de banda de [Lync 2010 y 2013](https://go.microsoft.com/fwlink/?LinkID=690282) y las opciones disponibles y se recomiendan para las diferentes aplicaciones de carga de trabajo Microsoft 365 y Office 365 tiempo real.
   
 Hay dos opciones para asignar los datos de las aplicaciones de Skype Empresarial a las diferentes clases de servicio de MPLS:
   
@@ -122,7 +124,7 @@ Esto también necesita que la asociación de las prioridades de QoS de las capas
 
 Cuando tenga preparados los requisitos previos y los mecanismos de red de QoS para admitir ExpressRoute, el paso siguiente es realizar una solicitud de los servicios de acceso a la red de ExpressRoute. Al solicitar los servicios de acceso de ExpressRoute para Dewey Law, LLC. del proveedor de servicios de red que sea partner de Microsoft, tendrá que proporcionar dos cosas:
   
-- La cantidad total de ancho de banda necesaria para conectar cada sitio a ExpressRoute y Microsoft 365 u Office 365.
+- La cantidad total de ancho de banda necesaria para conectar cada sitio a ExpressRoute y Microsoft 365 o Office 365.
     
 - El ancho de banda total necesario para cada clase de servicio que sea necesario para admitir las aplicaciones de Skype Empresarial que se usan en Dewey Law, LLC. El requisito de ancho de banda de clase de servicio depende del volumen de tráfico que espere de las diferentes aplicaciones de Skype Empresarial, como voz, vídeo, mensajería instantánea, presencia y pantalla compartida.
     
@@ -158,7 +160,7 @@ Hemos definido tres roles para Dewey Law, LLC.: "Ejecutivo/socio", "Asociado/asi
    
 Tendrá que escribir la información en la tabla **Distribución de usuarios por ubicaciones y puestos** anterior, en la hoja de cálculo "Sitios" de la Herramienta de cálculo de ancho de banda de Skype Empresarial. Como el número de usuarios en las oficinas regionales es idéntico, se definen para un "Sitio" y se especifica que hay tres instancias de este. Se realiza lo mismo para las sucursales grandes y pequeñas donde había 24 y 50 usuarios en los sitios, respectivamente.
   
-Después de especificar la configuración para cada rol, tendrá que escribir en la hoja de cálculo "Sitios" el número de usuarios de cada rol en todos los sitios. El total de usuarios de todos los sitios se actualiza automáticamente. Puesto que no hay usuarios en la ubicación de Microsoft 365 u Office 365, todos deben especificarse en las filas "Ramas" de la hoja de cálculo. A continuación, la Herramienta de cálculo de ancho de banda de Skype Empresarial rellena las columnas "Clase de mejor esfuerzo", "Clase de tráfico de datos" y "Clase de tráfico en tiempo real" en la tabla "Clase de tráfico de WAN BW por QoS". Esto se muestra en los datos de la tabla siguiente.
+Después de especificar la configuración para cada rol, tendrá que escribir en la hoja de cálculo "Sitios" el número de usuarios de cada rol en todos los sitios. El total de usuarios de todos los sitios se actualiza automáticamente. Puesto que no hay usuarios en la ubicación Microsoft 365 o Office 365, todos deben especificarse en las filas "Ramas" de la hoja de cálculo. A continuación, la Herramienta de cálculo de ancho de banda de Skype Empresarial rellena las columnas "Clase de mejor esfuerzo", "Clase de tráfico de datos" y "Clase de tráfico en tiempo real" en la tabla "Clase de tráfico de WAN BW por QoS". Esto se muestra en los datos de la tabla siguiente.
   
 > [!TIP]
 >  La hoja de cálculo completa también incluye el número máximo de sesiones simultáneas para cada aplicación, pero hemos eliminado esas columnas para ahorrar espacio.
@@ -188,7 +190,7 @@ Es muy importante que no supere el ancho de banda de voz o la clase de servicio 
 > [!TIP]
 >  De nuevo, aunque la clase de servicio de EF ofrece las mejores garantías de rendimiento, si se supera el ancho de banda definido, se descartarán los paquetes adicionales inmediatamente.
   
- **Ancho de banda agregado por sitio por clase de tráfico de QoS ( ('Hoja de cálculo de sitios- Columnas A y ML a MR)**
+ **Ancho de banda agregado por sitio por clase de tráfico de QoS ( (hoja de cálculo de 'Sitios' - Columnas A y ML a MR)**
   
 |**Nombre del sitio**|**Clase de mejor esfuerzo (DSCP 0)**|**Clase de tráfico de datos (DSCP personalizado)**|**Clase de tráfico en tiempo real(DSCP 34, AF41)**|**Clase de tráfico prioritario(DSCP 46, EF)**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -211,7 +213,7 @@ Podemos calcular el ancho de banda total que atravesará la WAN y la cantidad de
    
 Esto significa que el tráfico de Skype Empresarial Online que atravesará Express Route será aproximadamente de 114 Mbps, por lo que Dewey necesitará al menos una suscripción de 200 Mbps para ExpressRoute. Pueden adquirirse varios circuitos de ExpressRoute en diferentes ubicaciones de intercambio de tráfico de ExpressRoute. Esto podría ser recomendable si los sitios de Dewey se encuentran en regiones geográficas diferentes, o para proporcionar resistencia en el caso de que la conexión al circuito de ExpressRoute falle. Si adquiere circuitos de ExpressRoute en varias regiones de Azure, el complemento premium de ExpressRoute será necesario para recibir una conectividad global en ExpressRoute.
   
-Ahora que tiene la cantidad total de ancho de banda necesario y los números de ancho de banda de clase de servicio (CoS), puede realizar los pedidos con los proveedores de servicios de red seleccionados. No olvide incluir las estimaciones del tráfico de otras aplicaciones y servicios. Ofrecemos instrucciones de planificación de red para otros servicios de Microsoft 365 y Office 365, incluidas calculadoras de ancho de banda para Exchange y OneDrive. La suscripción de ancho de banda para el proveedor de servicios de red será superior porque el tráfico entre sitios necesitará agregarse de nuevo. La calculadora de ancho de banda de Lync 2010 y 2013 proporciona solo una estimación del tráfico esperado, por lo que es recomendable confirmar la capacidad de la red para soportar el volumen de tráfico mediante una prueba de esfuerzo. 
+Ahora que tiene la cantidad total de ancho de banda necesario y los números de ancho de banda de clase de servicio (CoS), puede realizar los pedidos con los proveedores de servicios de red seleccionados. No olvide incluir las estimaciones del tráfico de otras aplicaciones y servicios. Ofrecemos instrucciones de planificación de red para otros Microsoft 365 y Office 365, incluidas calculadoras de ancho de banda para Exchange y OneDrive. La suscripción de ancho de banda para el proveedor de servicios de red será superior porque el tráfico entre sitios necesitará agregarse de nuevo. La calculadora de ancho de banda de Lync 2010 y 2013 proporciona solo una estimación del tráfico esperado, por lo que es recomendable confirmar la capacidad de la red para soportar el volumen de tráfico mediante una prueba de esfuerzo. 
   
 > [!TIP]
 > Es muy recomendable realizar una prueba de esfuerzo de la red al realizar una evaluación previa de la red. 
@@ -224,7 +226,7 @@ La prueba de esfuerzo proporciona algunas garantías de que la red puede admitir
 
 El servicio ExpressRoute de Microsoft proporciona una conexión dedicada a la nube de Azure, pero los servicios de comunicación de las cargas de trabajo en tiempo real de Office 365 necesitarán servicios de red con un ancho de banda suficiente para transferir el volumen de tráfico necesario y que sea capaz de admitir una calidad de servicio (QoS) para ofrecer una experiencia del servicio de categoría empresarial a sus usuarios. Es necesario configurar una conexión compatible con QoS de un extremo a otro (PC, conmutadores y enrutadores de red a la nube), ya que cualquier parte de la ruta que no sea compatible con QoS puede afectar a la calidad de toda la llamada.
   
-El propósito de esta sección es ayudarle a comprender los desafíos al admitir el tráfico en tiempo real en una red IP y configurar y admitir una implementación correcta de ExpressRoute de cargas de trabajo en tiempo real de Microsoft 365 u Office 365 con un proveedor de Exchange ExpressRoute de Microsoft o un partner de proveedor de servicios de red.
+El propósito de esta sección es ayudarle a comprender los desafíos al admitir el tráfico en tiempo real en una red IP y configurar y admitir una implementación correcta de ExpressRoute de cargas de trabajo en tiempo real de Microsoft 365 o Office 365 mediante un partner de proveedor de servicios de red o proveedor de servicios de red de Express Exchange Route de Microsoft.
   
 Solo se acepta QoS en sus redes sobre los circuitos de la red de ExpressRoute y se usa en la red de Microsoft para el tráfico de Skype Empresarial. Hoy en día, hay partes de algunas conexiones salientes de Microsoft a las que les faltan valores de DSCP para Skype Empresarial. Hasta que el tráfico saliente esté totalmente marcado con valores de DSCP, se le anima a que siga las directrices para agregar el marcado de QoS al tráfico en su límite de red, tal como se describe en la sección **Implementación de QoS con lista de control de acceso (ACL) de red** de este artículo.
   
@@ -234,7 +236,7 @@ Para prestar servicios de voz y vídeo de calidad empresarial es necesario cumpl
   
 Al conocer el impacto de los paquetes de voz perdidos, los diseñadores idearon dos enfoques para mejorar el rendimiento de la voz y vídeo sobre IP:
   
-- Hacer que la codificación y descodificación de voz sea más resistente cuando se pierdan paquetes. Esto se puede hacer mediante la corrección de errores de reenvío (FEC) para corregir un porcentaje de los errores encontrados que es una capacidad que se encuentra en Microsoft 365 u Transporte en tiempo real de Office 365, o bien diseñando sistemas de decodificación de voz que intentan enmascarar el efecto de los paquetes perdidos que es una característica de los códecs de Microsoft. 
+- Hacer que la codificación y descodificación de voz sea más resistente cuando se pierdan paquetes. Esto se puede hacer mediante la corrección de errores de reenvío (FEC) para corregir un porcentaje de los errores encontrados que es una capacidad que se encuentra en el transporte en tiempo real de Microsoft 365 o Office 365, o bien diseñando sistemas de decodificación de voz que intentan enmascarar el efecto de los paquetes perdidos que es una característica de los códecs de Microsoft. 
     
 - Usar servicios de transporte que usen mecanismos de calidad de servicio para garantizar el rendimiento de la red en relación con retrasos, pérdida de paquetes y vibración, y la variación en el retraso entre paquetes.
     
@@ -378,7 +380,7 @@ Es importante señalar que hay un error de coincidencia en la codificación de p
 
 El método alternativo para implementar QoS en una configuración de ExpressRoute es usar la lista de control de acceso (ACL) de red. Con este método, en lugar de que los extremos inserten las marcas DSCP apropiadas en el encabezado de cada paquete, el marcado lo puede realizar un enrutador de canal de subida, según el puerto UDP de origen. Es necesario configurar todos los conmutadores y enrutadores para que sean compatibles con QoS, para garantizar que se mantenga la configuración de DSCP. Lo que es más importante, el enrutador conectado a la red del proveedor de servicios tiene que mantener el DSCP en el encabezado de cada paquete, ya que el parámetro de DSCP es básicamente la instrucción para indicar al proveedor de servicios de red cómo tiene que tratar el paquete.
   
-Los intervalos de puertos recomendados para cada aplicación de Skype Empresarial se muestran en la Sección 2.6.1.1 de la Guía de planificación, supervisión y solución de problemas de red con [Lync Server.](https://go.microsoft.com/fwlink/?LinkId=690286) Es importante coordinar esto con el enfoque general de la organización en relación con QoS, y se recomienda que esté informado de diferentes directivas de QoS y de posibles errores de coincidencia de marcado de paquetes.
+Los intervalos de puertos recomendados para cada aplicación Skype Empresarial se muestran en la Sección 2.6.1.1 de la Guía de planificación, supervisión y solución de problemas de red con [Lync Server.](https://go.microsoft.com/fwlink/?LinkId=690286) Es importante coordinar esto con el enfoque general de la organización en relación con QoS, y se recomienda que esté informado de diferentes directivas de QoS y de posibles errores de coincidencia de marcado de paquetes.
   
 Aunque la principal razón por la que se usa QoS y los servicios de red MPLS es garantizar una experiencia del usuario adecuada para voz y vídeo en tiempo real, estas mismas capacidades también se pueden aplicar en las aplicaciones de datos. En lugar de considerar todas las aplicaciones por igual, las redes MPLS pueden permitir a las organizaciones otorgar prioridad a algunas aplicaciones de datos frente a otras. Con MPLS, se puede asignar prioridad a las aplicaciones en tiempo real, como transacciones con tarjeta de crédito o la pantalla compartida, frente a tráfico que no dependa tanto del tiempo, como el correo electrónico.
   
@@ -392,13 +394,13 @@ Cuando un paquete se envía a la red MPLS, el proveedor de servicios de red del 
   
 Antes de simplificar el proceso de reenvío, la otra ventaja que proporciona MPLS es que el sistema de administración de redes sabrá que las conexiones se realizan en todos los vínculos de la red. Al controlar la forma en que se enruta el tráfico a través de la red, el operador puede garantizar la QoS que proporcionará cada ruta. Por lo tanto, al contrario que el rendimiento del mejor esfuerzo de la IP tradicional o básica, los operadores de MPLS pueden proporcionar un servicio IP con un rendimiento predecible. LSP también hace que MPLS sea por definición más seguro que los servicios de Internet tradicionales. Por lo tanto, con el servicio IP básico se puede esperar que el rendimiento de la red sea lo suficientemente bueno para proporcionar voz de calidad correcta y use técnicas como FEC, además de una codificación de voz más resistente, para mejorar las probabilidades, lo que puede garantizar el uso de MPLS.
   
-Los proveedores de MPLS ofrecen varios niveles de clase de servicio, pero, desafortunadamente, cada uno usa términos distintos para identificarlos. Tendrá que trabajar estrechamente con su proveedor para asegurarse de que comprenden los resultados de la Calculadora de ancho de banda de [Lync 2010 y 2013](https://go.microsoft.com/fwlink/?LinkID=690282) y las opciones recomendadas para diferentes aplicaciones de Cargas de trabajo en tiempo real de Microsoft 365 u Office 365.
+Los proveedores de MPLS ofrecen varios niveles de clase de servicio, pero, desafortunadamente, cada uno usa términos distintos para identificarlos. Tendrá que trabajar estrechamente con su proveedor para asegurarse de que comprenden los resultados de la Calculadora de ancho de banda de [Lync 2010 y 2013](https://go.microsoft.com/fwlink/?LinkID=690282) y las opciones recomendadas para diferentes aplicaciones de cargas de trabajo Microsoft 365 o Office 365 en tiempo real.
   
 ## <a name="conclusion"></a>Conclusión
 
 Skype Empresarial mejora la forma en que se realizan las comunicaciones empresariales. En lugar de tener un teléfono conectado a un PBX, un sistema de videoconferencia independiente, una plataforma separada para el correo electrónico, un servicio externo para audioconferencia y algún vehículo para MI y presencia, Skype Empresarial puede reunir todas estas capacidades en una misma interfaz de usuario.
   
-Para proporcionar servicios de voz y vídeo en tiempo real de categoría empresarial y de manera coherente, se necesita una infraestructura de red de un extremo a otro que sea capaz de proporcionar QoS. Esto incluye tanto a servicios LAN como a servicios WAN. Microsoft proporciona herramientas como la [Herramienta de cálculo de ancho de banda de Skype Empresarial](https://go.microsoft.com/fwlink/?LinkID=690282) para calcular la capacidad de la red que necesitará para los diferentes servicios. Además, hay partners en el programa Herramientas profesionales de TI De Skype Empresarial [Solutions: Herramientas](https://go.microsoft.com/fwlink/?LinkID=690307) profesionales de TI que ofrecen herramientas para evaluar previamente la infraestructura de red y admitir la supervisión, los informes y la solución de problemas. Sin una infraestructura de red con un tamaño y una configuración correctos, existe el riesgo de tener una implementación de Skype Empresarial de ExpressRoute que no cumpla con las expectativas de los usuarios en relación con la calidad y la coherencia.
+Para proporcionar servicios de voz y vídeo en tiempo real de categoría empresarial y de manera coherente, se necesita una infraestructura de red de un extremo a otro que sea capaz de proporcionar QoS. Esto incluye tanto a servicios LAN como a servicios WAN. Microsoft proporciona herramientas como la [Herramienta de cálculo de ancho de banda de Skype Empresarial](https://go.microsoft.com/fwlink/?LinkID=690282) para calcular la capacidad de la red que necesitará para los diferentes servicios. Además, hay partners en el programa Herramientas de ti Pro Skype Empresarial [Soluciones:](https://go.microsoft.com/fwlink/?LinkID=690307) Herramientas de ti Pro que ofrecen herramientas para evaluar previamente la infraestructura de red y admitir la supervisión, los informes y la solución de problemas. Sin una infraestructura de red con un tamaño y una configuración correctos, existe el riesgo de tener una implementación de Skype Empresarial de ExpressRoute que no cumpla con las expectativas de los usuarios en relación con la calidad y la coherencia.
   
 Las herramientas empresariales eficaces tienen que producir resultados confiables y coherentes, y entregar una experiencia del usuario que anime a la adopción de usuarios. Desde un punto de vista de redes, esto equivale a tener una infraestructura de red, tanto local como de área extensa, fija y móvil, que pueda permitir esto. La planificación, el diseño, la implementación y el mantenimiento de esa infraestructura no es siempre una tarea sencilla. El hardware, las herramientas y los servicios de red para alcanzar esto están disponibles hoy en día, pero es responsabilidad de los profesionales de TI comprobar que el diseño, la implementación y el mantenimiento se realiza de forma que garantice a los usuarios un conjunto de servicios de comunicaciones y de colaboración que les permita trabajar de manera eficiente y eficaz, y que la organización pueda aprovechar al máximo todas las ventajas que puede ofrecer esta tecnología. 
   

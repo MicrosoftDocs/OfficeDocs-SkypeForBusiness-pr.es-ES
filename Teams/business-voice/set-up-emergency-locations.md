@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo configurar ubicaciones de emergencia para Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 531d1b747a86c84e99c2b6f06a83ae405527f3ba
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 9fab5fead952837e2fb272819a600381252bcbf8
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130482"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282537"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>Paso 1: Configurar una ubicación de emergencia de Business Voice
 
@@ -32,8 +32,8 @@ Si tiene usuarios en varias ubicaciones, como oficinas de hogar u oficinas en ot
 
 ## <a name="add-an-emergency-location"></a>Agregar una ubicación de emergencia
 
-1. Abra el [Microsoft Teams](https://admin.teams.microsoft.com) de administración e inicie sesión con un usuario que sea administrador global (normalmente es la cuenta que usó para registrarse para Microsoft 365).
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, haga clic en **Ubicaciones**  >  **Direcciones de emergencia.**
+1. Abra el Microsoft Teams de administración e inicie sesión con un usuario que sea administrador global (normalmente es la cuenta que usó para registrarse para Microsoft 365).
+1. En el panel de navegación izquierdo, vaya a Ubicaciones Direcciones <a href="https://admin.teams.microsoft.com/locations" target="_blank">   >  **de emergencia.**</a>
 1. Haga clic en **Agregar**.
 1. Escriba un nombre y una descripción para la ubicación.
 1. Seleccione el país o la región y, a continuación, escriba la dirección.

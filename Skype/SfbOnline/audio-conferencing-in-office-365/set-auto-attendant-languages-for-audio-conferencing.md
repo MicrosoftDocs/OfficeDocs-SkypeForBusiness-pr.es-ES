@@ -21,14 +21,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Vea cómo seleccionar los idiomas operador automático de audio conferencia para un número de audioconferencia en Skype for Business Online.
-ms.openlocfilehash: d2b4c0d9be666a6ee7de9c2bd36b8dd06cccdf32
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 714312989bc3898fea2ed0d335fed8f5f2eebbb3
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110006"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237026"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Establecer los idiomas de operador automático para audioconferencias en Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
 > Para obtener información acerca de cómo establecer el idioma de operador automático en Microsoft Teams, vea [Establecer idiomas de operador automático para audioconferencias en Microsoft Teams](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
@@ -45,9 +47,9 @@ Elija un idioma principal y hasta cuatro idiomas secundarios. El idioma principa
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Configurar la conferencia de idiomas de operador automático
 
-Para realizar este [paso, debe](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ser administrador global o administrador de [Skype](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Empresarial.
+Debe ser administrador [global o administrador Skype Empresarial](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) [para](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) realizar este paso.
     
-1. En el **Centro de administración de Skype Empresarial,** en el panel de navegación izquierdo, vaya a Portal **heredado.** Una vez en el portal heredado, seleccione **Audioconferencia y,** a continuación, haga clic en **Puente de Microsoft.**
+1. En el **Skype Empresarial de administración**, en el panel de navegación izquierdo, vaya a Portal **heredado.** Una vez en el portal heredado, seleccione **Audioconferencia y,** a continuación, haga clic en **Puente de Microsoft.**
     
 2. Seleccione el número de teléfono de audioconferencia de la lista y, en el panel Acción, haga clic **en Establecer idiomas.** Solo es posible cambiar los idiomas de los números de audioconferencia dedicados.  
     
@@ -64,14 +66,14 @@ Para realizar este [paso, debe](https://support.office.com/article/da585eea-f576
     
 - Los idiomas se pueden establecer para números de teléfono dedicados, pero no para compartidos.
     
-- Para ver una lista de países o regiones en los que las audioconferencias en Microsoft 365 u Office 365 con Microsoft como proveedor están disponibles, vea Números de teléfono para audioconferencias. [](phone-numbers-for-audio-conferencing.md)
+- Para ver una lista de países o regiones en los que las audioconferencias en Microsoft 365 [](phone-numbers-for-audio-conferencing.md)o Office 365 que usan Microsoft como proveedor están disponibles, vea Teléfono números de audioconferencia.
     
 ## <a name="want-to-use-windows-powershell"></a>¿Desea usar Windows PowerShell?
 
 Para automatizar este paso, puede usar los [cmdlets Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) y [Get-CsOnlineDialInConferencingLanguagesSupported.](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported)
   
-Para obtener más información, vea [Usar Windows PowerShell tareas comunes de](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) administración de Skype Empresarial Online
+Para obtener más información, vea [Usar Windows PowerShell para realizar tareas comunes Skype Empresarial administración en línea](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencias en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Pruebe o compre Audioconferencia en Microsoft 365 o Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

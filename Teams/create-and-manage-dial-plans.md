@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Obtenga información sobre cómo usar el centro de administración de Microsoft Teams o Windows PowerShell para crear y administrar planes de marcado (planes de marcado de llamadas RTC).
-ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Obtenga información sobre cómo usar el Microsoft Teams de administración o Windows PowerShell para crear y administrar planes de marcado (planes de marcado de llamadas RTC).
+ms.openlocfilehash: f94c847f5c75e793856c0975678e2806629e2dcd
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120812"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282367"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
-Después de planear los planes de marcado para su organización y de averiguar todas las reglas de normalización que deben crearse para el enrutamiento de llamadas, estará listo para crear los planes de marcado. Puede usar el Centro de administración de Microsoft Teams o Windows PowerShell para crear y administrar planes de marcado.  
+Después de planear los planes de marcado para su organización y de averiguar todas las reglas de normalización que deben crearse para el enrutamiento de llamadas, estará listo para crear los planes de marcado. Con una cuenta de administrador que tenga una licencia de Teams válida, puede usar el centro de administración de Microsoft Teams o Windows PowerShell para crear y administrar planes de marcado.  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
 ### <a name="create-a-dial-plan"></a>Crear un plan de marcado
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Plan **de marcado**  >  **de voz.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Plan **de marcado**  >  **de voz.**
 2. Haga **clic en** Agregar y escriba un nombre y una descripción para el plan de marcado.
     ![Captura de pantalla que muestra la página Agregar para crear un plan de marcado](media/create-dial-plan.png)
 3. En **Detalles del plan de** marcado, especifique un prefijo de marcado externo si los usuarios necesitan marcar uno o más dígitos iniciales adicionales (por ejemplo, 9) para obtener una línea externa. Para ello:
@@ -56,7 +56,7 @@ Después de planear los planes de marcado para su organización y de averiguar t
 
 ### <a name="edit-a-dial-plan"></a>Editar un plan de marcado
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Plan **de marcado**  >  **de voz.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Plan **de marcado**  >  **de voz.**
 2. Seleccione el plan de marcado haciendo clic a la izquierda del nombre del plan de marcado y, a continuación, haga clic en **Editar.**
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar.**
 
@@ -192,9 +192,9 @@ Ejecute esto para quitar cualquier TenantDialPlan asignado de todos los usuarios
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
 
-Ejecute estos para agregar el plan de marcado local existente denominado OPDP1 como un plan de marcado inquilino para su organización. Primero debe guardar el plan de marcado local en un archivo .xml y, a continuación, usarlo para crear el nuevo plan de marcado de inquilino.
+Ejecute estos para agregar el plan de marcado local existente denominado OPDP1 como un plan de marcado inquilino para su organización. Primero debe guardar el plan de marcado local en un archivo .xml local y, a continuación, usarlo para crear el nuevo plan de marcado de inquilino.
   
-Ejecute esto para guardar el plan de marcado local en el archivo .xml.
+Ejecute esto para guardar el plan de marcado local en el .xml local.
   
 ```PowerShell
 $DPName = "OPDP1"

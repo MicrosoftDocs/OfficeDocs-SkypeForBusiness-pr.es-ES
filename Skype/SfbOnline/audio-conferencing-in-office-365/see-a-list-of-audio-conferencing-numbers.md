@@ -21,14 +21,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo buscar los números de conferencia de acceso telefónico local desde Skype Empresarial Online. '
-ms.openlocfilehash: f7343010cfdc34325d2f164b5560c542af0551ef
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dfb9e0acc57019fa64b6233b37272eb7901f4dc7
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114156"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52236986"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver una lista de números de Audioconferencia de Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 > Para obtener información acerca de los números de Audioconferencia en Microsoft Teams, consulte [Ver una lista de números de Audioconferencia en Microsof Teams](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).
@@ -38,9 +40,9 @@ Cuando establece una Audioconferencia para usuarios de Skype for Business, puede
  **¿Busca los precios?** Vea [Precios para audioconferencias.](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
   
 > [!IMPORTANT]
-> **No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia.** Si quiere ver si hay números de teléfono de acceso telefónico telefónico disponible en su área o país o región, vaya al Centro de administración de **Skype** Empresarial Números de teléfono de voz, haga clic en Agregar y, a continuación, haga clic en Nuevos números de  >    >   **servicio.**  Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Además, si busca números de servicio gratuitos, **seleccione** Gratuito en la lista Estado **o Región.**
+> **No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia.** Si quiere ver si hay números de teléfono de acceso telefónico telefónico disponible en su área o país o región, vaya Skype Empresarial centro de administración Números de voz Teléfono, haga clic en Agregar **y, a continuación,** haga clic en Nuevos números de  >    >  servicio.   Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Además, si busca números de servicio gratuitos, **seleccione** Gratuito en la lista Estado **o Región.**
   
-Si solo hay un número de teléfono disponible en su organización, todos los usuarios lo usarán como número predeterminado. Cuando varios números de teléfono están disponibles, puede seleccionar el número de teléfono predeterminado para cada usuario. Este número predeterminado se incluirá en las invitaciones a reuniones de Skype Empresarial.
+Si solo hay un número de teléfono disponible en su organización, todos los usuarios lo usarán como número predeterminado. Cuando varios números de teléfono están disponibles, puede seleccionar el número de teléfono predeterminado para cada usuario. Este número predeterminado se incluirá en las invitaciones Skype Empresarial reunión.
   
 Puede ver [Establecer los números de teléfono incluidos en las invitaciones](set-the-phone-numbers-included-on-invites.md) para cambiar el número de teléfono de acceso telefónico de un solo usuario.
   
@@ -54,9 +56,9 @@ Puede ver [Establecer los números de teléfono incluidos en las invitaciones](s
 
 1. Inicie sesión con su cuenta de trabajo o escuela.
     
-2. Vaya al Centro de administración > **Skype Empresarial.**
+2. Vaya al centro de administración > **Skype Empresarial**.
     
-3. En el **Centro de administración de Skype Empresarial,** en el panel de navegación izquierdo, vaya a Puente de Microsoft de **audioconferencia**  >  y, a continuación, haga lo siguiente:
+3. En el **Skype Empresarial de administración**, en el panel de navegación izquierdo, vaya a Puente de Microsoft de **audioconferencia**  >  y, a continuación:
     
    - Puede ver los números de teléfono que están disponibles para las audioconferencias.
     
@@ -70,13 +72,13 @@ Puede ver [Establecer los números de teléfono incluidos en las invitaciones](s
 
 - Para ahorrar tiempo o automatizar este proceso, puede usar el cmdlet [Get-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Get-CsOnlineDialInConferencingServiceNumber).
     
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Por qué necesita usar Microsoft 365 u Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [¿Por qué necesita usar Microsoft 365 o Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso del Centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes:
+- Windows PowerShell tiene muchas ventajas en la velocidad, la sencillez y la productividad sobre el uso del centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -89,4 +91,4 @@ Puede ver [Establecer los números de teléfono incluidos en las invitaciones](s
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencias en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Pruebe o compre Audioconferencia en Microsoft 365 o Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

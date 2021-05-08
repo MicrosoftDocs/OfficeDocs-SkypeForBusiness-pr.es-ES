@@ -21,19 +21,21 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Envíe a los usuarios un correo electrónico con su información de audioconferencia en Skype Empresarial Online.
-ms.openlocfilehash: f070353069c937a62935e1cc570ebae6c0e981db
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4f4590fcfb9233d7ad2d58358de08db58d014ecc
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110002"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237036"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Enviar un correo electrónico a un usuario con su información de audioconferencia en Skype Empresarial Online
 
-> [!Note]
-> Para obtener información sobre cómo enviar información de audioconferencia a usuarios de Microsoft Teams, vea Enviar un correo electrónico a un usuario con su información de audioconferencia en [Microsoft Teasms.](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-A veces, es posible que los usuarios de Skype Empresarial necesiten que les envíe su información de audioconferencia. Para ello, use el Centro de administración  de **Skype Empresarial** y haga clic en Enviar información de conferencia por correo electrónico en las propiedades de un usuario. Al enviar este correo electrónico, contendrá toda la información de audioconferencia, incluidos:
+> [!Note]
+> Para obtener información sobre el envío de información de audioconferencia a usuarios de Microsoft Teams, vea Enviar un correo electrónico a un usuario con su información de audioconferencia en [Microsoft Teasms.](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)
+
+A Skype Empresarial es posible que los usuarios necesiten enviarles su información de audioconferencia. Para ello, use  el centro de Skype Empresarial  y haga clic en Enviar información de conferencia por correo electrónico en las propiedades de un usuario. Al enviar este correo electrónico, contendrá toda la información de audioconferencia, incluidos:
   
 - El número de teléfono de la conferencia o el número de teléfono de acceso telefónico local del usuario.
     
@@ -82,7 +84,7 @@ Este es un ejemplo del correo electrónico que se envía:
     
   - Cuando el proveedor de audioconferencias de un usuario se cambia a Microsoft.
     
-- De forma predeterminada, el remitente de los correos electrónicos será de Microsoft 365 u Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar mediante Windows PowerShell y el cmdlet [Set-CsOnlineDialInConferencingTenantSettings.](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings) Para realizar cambios en la dirección de correo electrónico que envía el correo electrónico a los usuarios, debe:
+- De forma predeterminada, el remitente de los correos electrónicos será de Microsoft 365 o Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar mediante Windows PowerShell y el cmdlet [Set-CsOnlineDialInConferencingTenantSettings.](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings) Para realizar cambios en la dirección de correo electrónico que envía el correo electrónico a los usuarios, debe:
     
   - Escriba la dirección de correo electrónico en el parámetro SendEmailFromAddress.
     
@@ -105,13 +107,13 @@ Este es un ejemplo del correo electrónico que se envía:
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
-- Cuando se trata de Windows PowerShell, Skype Empresarial Online se centra en la administración de usuarios y en determinar qué pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
+- Cuando se trata de Windows PowerShell, Skype Empresarial Online se centra en la administración de usuarios y en determinar qué pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Por qué necesita usar Microsoft 365 u Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [¿Por qué necesita usar Microsoft 365 o Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso del Centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
+- Windows PowerShell tiene muchas ventajas en la velocidad, la sencillez y la productividad sobre el uso del centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -124,4 +126,4 @@ Este es un ejemplo del correo electrónico que se envía:
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencias en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Pruebe o compre Audioconferencia en Microsoft 365 o Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

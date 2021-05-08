@@ -1,5 +1,5 @@
 ---
-title: Correos electrónicos enviados a los usuarios cuando cambian sus configuraciones en Skype Empresarial Online
+title: Correos electrónicos enviados a los usuarios cuando su configuración cambia en Skype Empresarial Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,25 +21,27 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre qué información se envía automáticamente a los usuarios por correo electrónico cuando la configuración de las conferencias de acceso telefónico local cambia en Skype Empresarial Online. '
-ms.openlocfilehash: 4ab95af236fdb0ef8ff3aee6004fa8b11bf313af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 75ed80ef7d686ecb649bc1d21f30a43fd115f1a3
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110036"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237346"
 ---
-# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Correos electrónicos enviados a los usuarios cuando cambian sus configuraciones en Skype Empresarial Online
+# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Correos electrónicos enviados a los usuarios cuando su configuración cambia en Skype Empresarial Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Si busca información de correo electrónico automático en Microsoft Teams, vea Correos electrónicos enviados a los usuarios cuando la configuración [cambia en Microsoft Teams.](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)
+> Si busca información de correo electrónico automática en Microsoft Teams, vea Correos electrónicos enviados a los usuarios cuando la configuración cambia [en Microsoft Teams](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams).
 
 Los correos electrónicos se enviarán automáticamente a los usuarios habilitados para [conferencias](set-up-audio-conferencing.md) de audio con Microsoft como proveedor de audioconferencias.
   
-De forma predeterminada, hay cuatro tipos de correo electrónico que se enviarán a los usuarios habilitados para audioconferencias. Pero, si quiere limitar el número de correos electrónicos que se envían a los usuarios, puede desactivarlo. Las audioconferencias en Microsoft 365 u Office 365 enviarán correo electrónico al correo electrónico de los usuarios cuando:
+De forma predeterminada, hay cuatro tipos de correo electrónico que se enviarán a los usuarios habilitados para audioconferencias. Pero, si quiere limitar el número de correos electrónicos que se envían a los usuarios, puede desactivarlo. Las conferencias de audio Microsoft 365 o Office 365 enviarán correo electrónico a los usuarios cuando:
   
 - **Se les asigna una licencia de audioconferencia o cuando cambia el proveedor de audioconferencias a Microsoft.**
     
-     Este correo electrónico incluye el id. de conferencia, el número de teléfono de conferencia predeterminado para las reuniones, el PIN de audioconferencia para el usuario, las instrucciones y el vínculo para usar la Herramienta de actualización de reuniones de Skype Empresarial Online que se usa para actualizar las reuniones existentes para el usuario. Vea [Asignar licencias de Skype Empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) o Asignar Microsoft como el proveedor de [audioconferencias.](assign-microsoft-as-the-audio-conferencing-provider.md)
+     Este correo electrónico incluye el id. de conferencia, el número de teléfono de conferencia predeterminado para las reuniones, el PIN de audioconferencia para el usuario, las instrucciones y el vínculo para usar la Herramienta de actualización de reuniones en línea de Skype Empresarial que se usa para actualizar las reuniones existentes para el usuario. Vea [Asignar Skype Empresarial licencias](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) o Asignar Microsoft como el proveedor de [audioconferencias.](assign-microsoft-as-the-audio-conferencing-provider.md)
     
     > [!NOTE]
     > Si en su organización se han habilitado los identificadores de conferencia dinámicos, todas las reuniones que se programen de un usuario tendrán identificadores de conferencia únicos. Puede configurar los [ID dinámicos de audioconferencia en su organización.](./reset-a-conference-id-for-a-user.md) 
@@ -52,7 +54,7 @@ De forma predeterminada, hay cuatro tipos de correo electrónico que se enviará
     
 - **Cambia el id. de conferencia o número de teléfono de conferencia predeterminado de un usuario.**
     
-    Este correo electrónico contiene el id. de conferencia, el número de teléfono de conferencia predeterminado, las instrucciones y el vínculo para usar la Herramienta de actualización de reuniones de Skype Empresarial Online que se usa para actualizar las reuniones existentes para el usuario. Pero este correo electrónico no incluye el PIN de audioconferencia del usuario. See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
+    Este correo electrónico contiene el id. de conferencia, el número de teléfono de conferencia predeterminado, las instrucciones y el vínculo para usar la Herramienta de actualización de reuniones en línea de Skype Empresarial que se usa para actualizar las reuniones existentes para el usuario. Pero este correo electrónico no incluye el PIN de audioconferencia del usuario. See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
     
     > [!NOTE]
     > Si en su organización se han habilitado los identificadores de conferencia dinámicos, todas las reuniones que se programen de un usuario tendrán identificadores de conferencia únicos. Puede configurar los [ID dinámicos de audioconferencia en su organización.](./reset-a-conference-id-for-a-user.md) 
@@ -74,9 +76,9 @@ De forma predeterminada, hay cuatro tipos de correo electrónico que se enviará
   
 - **Se quita la licencia de un usuario o cuando el proveedor de servicios de audioconferencia cambia de Microsoft a otro proveedor o ninguno.**
     
-    Esto ocurre  cuando la licencia de audioconferencia se quita de un usuario o al cambiar el proveedor de audioconferencia de un usuario de Microsoft a un proveedor de audioconferencia de terceros o al establecer el proveedor en **Ninguno.** Este correo electrónico contiene las instrucciones e información para que el usuario use la Herramienta de actualización de reuniones de Skype Empresarial Online para quitar información específica de las audioconferencias, como el número de teléfono de conferencia predeterminado o el id. de conferencia.
+    Esto ocurre  cuando la licencia de audioconferencia se quita de un usuario o al cambiar el proveedor de audioconferencia de un usuario de Microsoft a un proveedor de audioconferencia de terceros o al establecer el proveedor en **Ninguno.** Este correo electrónico contiene las instrucciones e información para que el usuario use la Herramienta de actualización de reuniones en línea de Skype Empresarial para quitar información específica de las audioconferencias, como el número de teléfono de conferencia predeterminado o el id. de conferencia.
     
-    Vea [Asignar o quitar licencias para aplicaciones de Microsoft 365 para empresas.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
+    Vea [Asignar o quitar licencias para Aplicaciones Microsoft 365 para negocios](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
     
     Este es un ejemplo de este correo electrónico:
     
@@ -87,7 +89,7 @@ De forma predeterminada, hay cuatro tipos de correo electrónico que se enviará
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Realizar cambios en los mensajes de correo electrónico que se les envían
 
-Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios, incluida la dirección de correo electrónico y el nombre para mostrar que se incluye en *la* información de contacto De. De forma predeterminada, el remitente de los correos electrónicos será de Microsoft 365 u Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell y el cmdlet [Set-CsOnlineDialInConferencingTenantSettings.](/previous-versions//mt228132(v=technet.10)) To make changes to the email address that is sending the email to the users, you must:
+Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios, incluida la dirección de correo electrónico y el nombre para mostrar que se incluye en *la* información de contacto De. De forma predeterminada, el remitente de los correos electrónicos será de Microsoft 365 o Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell y el cmdlet [Set-CsOnlineDialInConferencingTenantSettings.](/previous-versions//mt228132(v=technet.10)) To make changes to the email address that is sending the email to the users, you must:
   
 - Puede realizar cambios en el correo electrónico que se envía de forma automática a los usuarios, como la dirección de correo electrónico real y el nombre para mostrar de la información de contacto del remitente. De manera predeterminada, el remitente de los mensajes será de Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell y el cmdlet _Set-CsOnlineDialInConferencingTenantSettings_. Para realizar cambios en la dirección de correo electrónico que envía el correo electrónico a los usuarios:
     
@@ -110,9 +112,9 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](/previous-version
 
 Al deshabilitar el envío de correos electrónicos a los usuarios, el correo electrónico no se enviará incluso cuando se asigne una licencia a un usuario. En este caso, el ID de conferencia, el número de teléfono de conferencia predeterminado y, lo que es más importante, su PIN de audioconferencia no se enviarán al usuario. Cuando esto sucede, debe avisarle al usuario enviándole un correo electrónico independiente o llamándolo.
   
-De forma predeterminada, los correos electrónicos se enviarán a los usuarios, pero si quiere evitar que reciban correo electrónico para las audioconferencias, puede usar el Centro de administración de Skype Empresarial o Windows PowerShell. 
+De forma predeterminada, los correos electrónicos se enviarán a los usuarios, pero si quiere evitar que reciban correo electrónico para audioconferencias, puede usar el centro de administración de Skype Empresarial o Windows PowerShell. 
  
-![Un icono que muestra el logotipo de Skype Empresarial ](../images/sfb-logo-30x30.png) **Con el Centro de administración de Skype Empresarial**  
+![Un icono que muestra el Skype Empresarial ](../images/sfb-logo-30x30.png) **con el centro Skype Empresarial administración**  
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
@@ -137,7 +139,7 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](/previous-version
 
 - Para más información sobre habilitar y deshabilitar el envío de correos electrónicos de forma automática a sus usuarios, vea [Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de conferencias de Audio](enable-or-disable-sending-emails-when-their-settings-change.md).
     
-- A veces, los usuarios pierden su información de audio y necesita poder enviarles toda su información de audio. Para ello, use el Centro de administración  de Skype Empresarial y haga clic en Enviar información de conferencia por correo electrónico en las propiedades de audioconferencia de un usuario. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md). Sin embargo, esta información no incluye el PIN de audioconferencia.
+- A veces, los usuarios pierden su información de audio y necesita poder enviarles toda su información de audio. Para ello, use el centro de administración  de Skype Empresarial y haga clic en Enviar información de conferencia por correo electrónico en las propiedades de audioconferencia de un usuario. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md). Sin embargo, esta información no incluye el PIN de audioconferencia.
     
     Este es un ejemplo del correo electrónico que se les enviará:
     
@@ -145,15 +147,15 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](/previous-version
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
-- De forma predeterminada, el remitente de los correos electrónicos será de Microsoft 365 u Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell y el cmdlet [Set-CsOnlineDialInConferencingTenantSettings.](/previous-versions//mt228132(v=technet.10))
+- De forma predeterminada, el remitente de los correos electrónicos será de Microsoft 365 o Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell y el cmdlet [Set-CsOnlineDialInConferencingTenantSettings.](/previous-versions//mt228132(v=technet.10))
     
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Por qué necesita usar Microsoft 365 u Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [¿Por qué necesita usar Microsoft 365 o Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso del Centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
+- Windows PowerShell tiene muchas ventajas en la velocidad, la sencillez y la productividad sobre el uso del centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

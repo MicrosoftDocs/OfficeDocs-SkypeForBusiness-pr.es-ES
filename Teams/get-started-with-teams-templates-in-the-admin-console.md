@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c898d8b0d79eae6fb7042ab087e94a0fff5d275f
-ms.sourcegitcommit: 6c1b051c4e29a74bc15cdfd0716893a25ba18719
+ms.openlocfilehash: 56577639e62c954d430d2745f5b105e97f5c56ff
+ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52207958"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52264900"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>Introducción a las Teams en el Centro de administración
 
@@ -110,6 +110,16 @@ Las plantillas están limitadas a un número específico de canales, pestañas y
 |||
 
 Vea [Límites y especificaciones de Teams](limits-specifications-teams.md) para obtener más información.
+
+## <a name="manage-templates-in-powershell"></a>Administrar plantillas en PowerShell
+
+Use los siguientes cmdlts para administrar las plantillas en PowerShell.
+
+- [Get-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplateList](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
+- [New-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/new-csteamtemplate?view=teams-ps)
+- [Remove-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Update-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## <a name="related-topics"></a>Temas relacionados
 
