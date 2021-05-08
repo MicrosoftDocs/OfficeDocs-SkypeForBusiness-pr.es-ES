@@ -21,22 +21,24 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 956c2fa23f61f0c0e24cd1c2a0802bd3f1397bb1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 84bf0240270bfc9633f9d845130a6049d36c8cad
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113226"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237736"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Establecer los números de teléfono incluidos en las invitaciones en Skype Empresarial Online
 
-> [!Note]
-> Para obtener información sobre los números de teléfono de invitación a reuniones en Microsoft Teams, vea Establecer los números de teléfono [incluidos en las invitaciones en Microsoft Teams.](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Las audioconferencias en Microsoft 365 u Office 365 permiten a los usuarios de su organización crear reuniones de Skype Empresarial y, a continuación, permitir que los usuarios llamen a esas reuniones con un teléfono. En Microsoft 365 y Office 365, tiene la opción de usar un puente de audioconferencia de Microsoft o un puente de audioconferencia de terceros hospedado por un proveedor de audioconferencias (ACP) aprobado.
+> [!Note]
+> Para obtener información sobre los números de teléfono de invitación a reuniones en Microsoft Teams, vea Establecer los números de teléfono [incluidos](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)en las invitaciones en Microsoft Teams .
+
+Las audioconferencias en Microsoft 365 o Office 365 permiten a los usuarios de su organización crear reuniones Skype Empresarial y, a continuación, permitir que los usuarios llamen a esas reuniones con un teléfono. En Microsoft 365 y Office 365, tiene la opción de usar un puente de audioconferencia de Microsoft o un puente de audioconferencia de terceros hospedado por un proveedor de audioconferencias (ACP) aprobado.
   
 > [!NOTE]
-> No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia. Si quiere ver si hay números de teléfono de acceso telefónico telefónico disponible en su área o país o región, use el Centro de administración de **Skype** Empresarial Números de teléfono de voz, haga clic en Agregar y, a continuación, en Nuevos números  >    >   **de servicio.**  Use las listas de **País/Región,** **Estado/Región** y **Ciudad** para filtrar la búsqueda.> Además, si  busca números de servicio gratuitos, seleccione Gratuito en la lista Estado **o** Región.
+> No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia. Si quiere ver si hay números de teléfono de acceso telefónico telefónico disponible en su área o país o región, use el Centro de administración de Skype Empresarial Números de voz Teléfono , haga clic en Agregar **y, a** continuación, en Nuevos números de  >    >   **servicio.**  Use las listas de **País/Región,** **Estado/Región** y **Ciudad** para filtrar la búsqueda.> Además, si  busca números de servicio gratuitos, seleccione Gratuito en la lista Estado **o** Región.
   
 Un puente de conferencias le proporciona un conjunto de números de teléfono de acceso telefónico local para su organización. Todas ellas se pueden usar para unirse a las reuniones que ha creado un organizador de la reunión, pero puede seleccionar las que se incluirán en sus invitaciones de reunión.
   
@@ -54,7 +56,7 @@ Un puente de conferencias le proporciona un conjunto de números de teléfono de
     
 3. Seleccione **Usuarios**.
     
-    ![Muestra la selección de usuarios en el Centro de administración de Skype Empresarial](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
+    ![Muestra la selección de usuarios en el Skype Empresarial de administración](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
 4. Elija los usuarios que desea editar:
     
@@ -75,14 +77,14 @@ Un puente de conferencias le proporciona un conjunto de números de teléfono de
    - **Microsoft es el proveedor:** use  las listas Número de pago predeterminado y Número gratuito predeterminado para seleccionar los números predeterminados para el usuario. 
     
      > [!NOTE]
-     > Se debe asignar al menos un número gratuito al puente de conferencias para poder establecerlo como el número gratuito predeterminado de un usuario. Para obtener un número gratuito, vea Obtener números de [teléfono de servicio para Skype Empresarial.](/microsoftteams/getting-service-phone-numbers) 
+     > Se debe asignar al menos un número gratuito al puente de conferencias para poder establecerlo como el número gratuito predeterminado de un usuario. Para obtener un número gratuito, vea Obtener números de [teléfono de servicio para Skype Empresarial](/microsoftteams/getting-service-phone-numbers). 
   
    - **Un tercero es el proveedor:** Use  los campos Número de pago y Número gratuito para escribir los números del usuario. 
 
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Restablecer números de teléfono de audioconferencia
 
-1. En el **Centro de administración de Skype Empresarial,** elija **Audioconferencia.**
+1. En el **Skype Empresarial de administración,** elija **Audioconferencia.**
     
 2. En la parte superior de la página, elija **Usuarios.**
     
@@ -91,7 +93,7 @@ Un puente de conferencias le proporciona un conjunto de números de teléfono de
 De forma predeterminada, al cambiar la configuración de conferencia de un usuario, se envía un correo electrónico al usuario. Para cambiar esto, vea Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la [configuración de audioconferencia.](enable-or-disable-sending-emails-when-their-settings-change.md)
   
 > [!IMPORTANT]
-> Al cambiar la configuración de audioconferencia de un usuario, las reuniones periódicas y futuras de Skype Empresarial deben actualizarse y enviarse a los asistentes. 
+> Al cambiar la configuración de audioconferencia de un usuario, las reuniones periódicas y futuras Skype Empresarial deben actualizarse y enviarse a los asistentes. 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
@@ -136,11 +138,11 @@ De forma predeterminada, al cambiar la configuración de conferencia de un usuar
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Por qué necesita usar Microsoft 365 u Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [¿Por qué necesita usar Microsoft 365 o Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell tiene muchas ventajas en velocidad, sencillez y productividad sobre el uso solo del Centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso del centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -148,4 +150,4 @@ De forma predeterminada, al cambiar la configuración de conferencia de un usuar
     
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencias en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Pruebe o compre Audioconferencia en Microsoft 365 o Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

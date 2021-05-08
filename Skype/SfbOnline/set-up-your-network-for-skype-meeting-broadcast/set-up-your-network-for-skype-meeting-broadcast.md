@@ -19,23 +19,25 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: 513b6f8d677550557293855389eff29dc61c21c1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: da27110313765bb50df92e3bafb6f09ceae5f301
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106516"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237556"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurar la red para Difusión de reunión de Skype
 
-Después de [habilitar difusión de reunión de Skype](enable-skype-meeting-broadcast.md) Difusión de reunión de Skype, debe configurar su red. Realice este paso si desea celebrar seminarios web y otras difusión para personas ajenas a su empresa.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Después de [habilitar Skype difusión](enable-skype-meeting-broadcast.md) de reunión Skype difusión de reunión, debe configurar la red. Realice este paso si desea celebrar seminarios web y otras difusión para personas ajenas a su empresa.
 
 > [!IMPORTANT]
-> Skype Empresarial Online se retirará el 31 de julio de 2021, momento en el que finalizará el acceso al servicio. Animamos a los clientes a iniciar la actualización a Microsoft Teams, el cliente principal para las comunicaciones y el trabajo en equipo en Microsoft 365.
+> Skype Empresarial Online se retirará el 31 de julio de 2021, momento en el que finalizará el acceso al servicio. Animamos a los clientes a comenzar la actualización a Microsoft Teams, el cliente principal para las comunicaciones y el trabajo en equipo en Microsoft 365.
 
 Si no tiene experiencia con la configuración del firewall, analice contratar un [socio de Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para que lleve a cabo este paso por usted.
 
-Para omitir este paso y, en su lugar, agregar otra empresa a su federación para que pueda invitarlos a difusión, siga los pasos de Permitir a los usuarios ponerse en contacto con usuarios externos de [Skype Empresarial.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+Para omitir este paso y, en su lugar, agregar otra empresa a la federación para que pueda invitarlos a difusión, siga los pasos de Permitir a los usuarios ponerse en contacto con usuarios [Skype Empresarial externos.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
 ## <a name="step-1-set-up-allowed-domains"></a>Paso 1: Configurar dominios permitidos
 
@@ -45,7 +47,7 @@ Use **uno** de los siguientes métodos para configurar dominios permitidos:
 
  **Método 1: Usar el Centro de administración**
 
-1. Vaya al centro de administración y, a continuación, en la barra de navegación izquierda, haga clic en Complementos de **Servicios** de configuración y, a continuación, elija  >  **&amp;** Skype **Empresarial.**
+1. Vaya al centro de administración y, a continuación, en la navegación izquierda, haga clic en **Configuración** complementos de Servicios y, a continuación, elija  >  **&amp;** **Skype Empresarial**.
 
 2. En la **página Uso compartido** externo en Excepciones de dominio, seleccione Todos los dominios están **bloqueados** excepto **y** escriba los siguientes dominios, separados con una coma (,):
 
@@ -89,15 +91,15 @@ Use **uno** de los siguientes métodos para configurar dominios permitidos:
   Set-CsTenantFederationConfiguration -AllowedDomains $newAllowList
   ```
 
-## <a name="step-2-add-skype-meeting-broadcast-domains-urls-and-ip-addresses"></a>Paso 2: Agregar dominios de difusión de reunión de Skype, direcciones URL y direcciones IP
+## <a name="step-2-add-skype-meeting-broadcast-domains-urls-and-ip-addresses"></a>Paso 2: Agregar Skype de difusión de reunión, direcciones URL y direcciones IP
 
-El segundo paso del proceso de configuración es que primero agregue dominios necesarios y, después, agregue direcciones IP y direcciones URL necesarias para que funcione la difusión de reunión de Skype.
+El segundo paso del proceso de configuración es que primero agregue dominios necesarios y, después, agregue direcciones IP y direcciones URL necesarias para que Skype difusión de reunión funcione.
 
-- **Agregue las direcciones IP y** url de punto de conexión de Skype Empresarial Online necesarias para ver cuáles son necesarias [aquí.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)
+- **Agregue las direcciones IP Skype Empresarial** de punto de conexión en línea para ver cuáles son necesarias [aquí.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Configurar Difusión de reunión de Skype en organizaciones e implementaciones híbridas
 
-Si tiene una organización de Skype Empresarial Online y una implementación local de Lync Server 2010, Microsoft Lync Server 2013 y Skype Empresarial Server 2015 y tiene usuarios tanto en línea como local, hay otros pasos de configuración que tendrá que realizar además de los anteriores para permitir que su organización local se comunique con Skype Empresarial Online y permita que todos sus usuarios se unan a una difusión de reunión de Skype. Para ver cuáles son esos requisitos, consulte [Configurar la implementación local para la Difusión de reunión de Skype](../../SfbServer/deploy/configure-skype-meeting-broadcast.md).
+Si tiene una organización de Skype Empresarial Online y una implementación local de Lync Server 2010, Microsoft Lync Server 2013 y Skype Empresarial Server 2015 y tiene usuarios tanto en línea como local, hay otros pasos de configuración que deberá realizar además de los anteriores para permitir que su organización local se comunique con Skype Empresarial Online y permita que todos los usuarios se unan a una difusión de reunión de Skype. Para ver cuáles son esos requisitos, consulte [Configurar la implementación local para la Difusión de reunión de Skype](../../SfbServer/deploy/configure-skype-meeting-broadcast.md).
 
 ## <a name="related-topics"></a>Temas relacionados
 

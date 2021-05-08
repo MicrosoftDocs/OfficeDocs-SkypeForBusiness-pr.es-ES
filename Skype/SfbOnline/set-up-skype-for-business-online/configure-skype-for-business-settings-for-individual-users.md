@@ -23,25 +23,27 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 5ddad9b1502d0a271c20c412731c9872e247be1b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0123f285101b8d7190dd7450ddb876a136de13ce
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093394"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237536"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Configurar Skype Empresarial para usuarios individuales
 
-> [!IMPORTANT]
-> El Centro de administración de Microsoft Teams ha sustituido al Centro de administración de Skype Empresarial (portal heredado). Todas las opciones de configuración para administrar Skype Empresarial se encuentran ahora en el Centro de administración de Teams. Debe tener asignado el rol de administrador de [Azure AD](/azure/active-directory/roles/permissions-reference) de administrador global o administrador de Skype Empresarial para administrar las características de Skype Empresarial en el Centro de administración de Teams. Para conocer más, consulte [Administrar la configuración de Skype empresarial en el Centro de administración de Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-En este artículo se explica cómo los administradores configuran Skype Empresarial para un pequeño número de usuarios. Para realizar estos pasos en masa, hemos incluido vínculos a las Windows PowerShell cmdlets que puede usar.
+> [!IMPORTANT]
+> El Microsoft Teams de administración ha sustituido al Skype Empresarial de administración (portal heredado). Todas las opciones de Skype Empresarial están ahora en el centro Teams administración. Debe tener asignado el rol de administrador de [Azure AD](/azure/active-directory/roles/permissions-reference) de administrador global o Skype Empresarial administrador para administrar Skype Empresarial características en el centro Teams administración. Para conocer más, consulte [Administrar la configuración de Skype empresarial en el Centro de administración de Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
+
+En este artículo se explica cómo los administradores configuran Skype Empresarial para un pequeño número de usuarios. Para realizar estos pasos en masa, hemos incluido vínculos a los cmdlets Windows PowerShell que puede usar.
   
 Para permitir (o impedir) que todos en la empresa puedan comunicarse con personas ajenas a esta, consulte:
   
-- Permitir a los usuarios ponerse en contacto con usuarios externos de [Skype](allow-users-to-contact-external-skype-for-business-users.md)Empresarial: puede permitir que su organización use características avanzadas de Skype Empresarial (compartir escritorios, buscar quién está en línea, etc.) para comunicarse con personas de una empresa específica de confianza (federada). En el artículo también se explica cómo bloquear la comunicación con dominios específicos.
+- [](allow-users-to-contact-external-skype-for-business-users.md)Permitir a los usuarios ponerse en contacto con usuarios de Skype Empresarial externos: puede permitir que su organización use características avanzadas de Skype Empresarial (compartir escritorios, buscar quién está en línea, etc.) para comunicarse con personas de una empresa específica de confianza (federada). En el artículo también se explica cómo bloquear la comunicación con dominios específicos.
     
-- [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype.](let-skype-for-business-users-add-skype-contacts.md) Puede permitir que su organización use Skype Empresarial para buscar personas que usen la aplicación gratuita Skype y comunicarse con ellas con mensajería instantánea.
+- [Permitir Skype Empresarial usuarios agregar Skype contactos.](let-skype-for-business-users-add-skype-contacts.md) Puede permitir que su organización use Skype Empresarial para buscar personas que usen la aplicación gratuita Skype y comunicarse con ellas con mensajería instantánea.
     
 ## <a name="configure-general-settings-for-one-user"></a>Establecer la configuración general de un usuario
 <a name="__toc325019204"> </a>
@@ -69,8 +71,8 @@ Debe tener permisos [de administrador para](https://support.office.com/article/d
 |**Opción**|**Detalles**|
 |:-----|:-----|
 |Audio y vídeo HD  <br/> |Permita que esta persona grabe reuniones de audio, reuniones de audio y vídeo, o que no le permita programar ninguna reunión (ninguna).  <br/> |
-|Registrar conversaciones y reuniones  <br/> |Elija lo que puede grabar esta persona.  <br/> Esta opción no está disponible con Skype Empresarial Basic.  <br/> |
-|Para cumplir con las normativas, desactive las características no archivadas  <br/> | Elija esta opción si tiene la obligación legal de conservar la información almacenada por medios electrónicos. <br/>  Al seleccionar esta opción, se desactivan las [](/exchange/security-and-compliance/in-place-and-litigation-holds) características que no se capturan cuando tiene una retención local configurada en el Centro de administración de Exchange. Desactiva las siguientes características: <br/>  Transferencia de archivos por mensajería instantánea <br/>  Páginas de OneNote compartidas <br/>  Anotaciones de PowerPoint <br/> |
+|Registrar conversaciones y reuniones  <br/> |Elija lo que puede grabar esta persona.  <br/> Esta opción no está disponible con Skype Empresarial Básico.  <br/> |
+|Para cumplir con las normativas, desactive las características no archivadas  <br/> | Elija esta opción si tiene la obligación legal de conservar la información almacenada por medios electrónicos. <br/>  Al seleccionar esta opción, se desactivan las [](/exchange/security-and-compliance/in-place-and-litigation-holds) características que no se capturan cuando tiene una retención local configurada en el centro de administración Exchange local. Desactiva las siguientes características: <br/>  Transferencia de archivos por mensajería instantánea <br/>  Páginas de OneNote compartidas <br/>  Anotaciones de PowerPoint <br/> |
    
 Para configurar estas opciones en masa, use PowerShell. Consulte [Configurar el equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
@@ -101,8 +103,8 @@ Para configurar estas opciones en masa, use PowerShell. Consulte [Configurar el 
 |**Configuración de Audioconferencia**|**Descripción**|
 |:-----|:-----|
 |**Nombre del proveedor** <br/> |Elija su proveedor de la lista.  <br/> |
-|**Número gratuito** (obligatorio) <br/> |Para un ACP de terceros, estos números de teléfono son los que ha recibido del proveedor de servicios de audioconferencia. Si el usuario utiliza Microsoft como proveedor de audioconferencia, estos serán los números establecidos en el puente de audioconferencia. Aplicar formato a los números como desee que aparezcan en las solicitudes de reunión de Skype Empresarial y Microsoft Teams.  <br/> |
-|**Número gratuito** <br/> |Para un ACP de terceros, estos números de teléfono son los que ha recibido del proveedor de servicios de audioconferencia. Si el usuario utiliza Microsoft como proveedor de audioconferencia, estos serán los números establecidos en el puente de audioconferencia. Aplicar formato a los números como desee que aparezcan en las solicitudes de reunión de Skype Empresarial y Microsoft Teams.  <br/> |
+|**Número gratuito** (obligatorio) <br/> |Para un ACP de terceros, estos números de teléfono son los que ha recibido del proveedor de servicios de audioconferencia. Si el usuario utiliza Microsoft como proveedor de audioconferencia, estos serán los números establecidos en el puente de audioconferencia. Aplicar formato a los números como desee que aparezcan en Skype Empresarial y Microsoft Teams de reunión.  <br/> |
+|**Número gratuito** <br/> |Para un ACP de terceros, estos números de teléfono son los que ha recibido del proveedor de servicios de audioconferencia. Si el usuario utiliza Microsoft como proveedor de audioconferencia, estos serán los números establecidos en el puente de audioconferencia. Aplicar formato a los números como desee que aparezcan en Skype Empresarial y Microsoft Teams de reunión.  <br/> |
 |**Id. de conferencia y PIN** (obligatorio) <br/> |El PIN del participante, o código de conferencia, se usa para unirse a las reuniones programadas por este usuario y se proporcionan desde un proveedor de audioconferencia de terceros. Si el usuario usa Microsoft como proveedor de audioconferencias, no será necesario.  <br/> |
    
 Para configurar estas opciones en masa, use PowerShell. Vea [Establecer los números de teléfono incluidos en las invitaciones](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) Configurar el equipo para [Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).

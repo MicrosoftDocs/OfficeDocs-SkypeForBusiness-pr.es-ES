@@ -1,5 +1,5 @@
 ---
-title: Configuración de la vista previa de difusión de reunión de Skype
+title: Skype Configuración de la vista previa de difusión de reunión
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,19 @@ f1.keywords:
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetingsPreview
-description: El programa de vista previa de clientes de Skype Empresarial le proporciona acceso anticipado a nuevos productos y características. Permite a su organización echar un vistazo a lo que viene, probar las nuevas características de su propio entorno y enviar comentarios antes de publicar compilaciones de productos para el público en general. Para obtener más información, vea Vista previa de Skype Empresarial.
-ms.openlocfilehash: 37c597e2c668bcfb77c928d3c379f9109caf1c49
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: El Skype Empresarial vista previa de clientes le proporciona acceso anticipado a nuevos productos y características. Permite a su organización echar un vistazo a lo que viene, probar las nuevas características de su propio entorno y enviar comentarios antes de publicar compilaciones de productos para el público en general. Para obtener más información, vea Skype Empresarial vista previa.
+ms.openlocfilehash: d713e3225ed963beb1b201d515db558513020d39
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106506"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237506"
 ---
-# <a name="skype-meeting-broadcast-preview-settings"></a>Configuración de la vista previa de difusión de reunión de Skype
+# <a name="skype-meeting-broadcast-preview-settings"></a>Skype Configuración de la vista previa de difusión de reunión
 
-El programa de vista previa de clientes de Skype Empresarial le proporciona acceso anticipado a nuevos productos y características. Permite a su organización echar un vistazo a lo que viene, probar las nuevas características de su propio entorno y enviar comentarios antes de publicar compilaciones de productos para el público en general. Para obtener más información, vea [Vista previa de Skype Empresarial.](https://www.skypepreview.com/)
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+El Skype Empresarial vista previa de clientes le proporciona acceso anticipado a nuevos productos y características. Permite a su organización echar un vistazo a lo que viene, probar las nuevas características de su propio entorno y enviar comentarios antes de publicar compilaciones de productos para el público en general. Para obtener más información, vea [Skype Empresarial vista previa](https://www.skypepreview.com/).
 
 ## <a name="related-topics"></a>Temas relacionados
 [Introducción a Windows PowerShell y Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
