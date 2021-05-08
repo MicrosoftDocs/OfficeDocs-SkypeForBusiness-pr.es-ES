@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Use el Asesor de Teams para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 865575bf030720fcd25ae029d4b552730f05a992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093770"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240555"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
-El Asesor de Teams le guiará a través de la implementación de Microsoft Teams. Evalúa el entorno de la organización de Microsoft 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams. Después, el Asesor de Teams crea un Equipo de implementación (en Teams), con canales para cada una de las cargas de trabajo que desea implementar. Cada carga de trabajo en el Equipo de implementación viene con un plan de Planner completo que incluye todas las tareas de implementación para cada carga de trabajo.  Con este plan de Planner, podrá asignar tareas a las personas responsables de cada fase del lanzamiento, incluyendo el jefe de proyecto, administradores de servicios de Teams, personal de soporte técnico y su equipo de adopción y preparación del usuario. Cada tarea de implementación contiene todos los recursos e instrucciones que necesita para completar la tarea con éxito.
+El Asesor de Teams le guiará a través de la implementación de Microsoft Teams. Evalúa el entorno de la organización de Microsoft 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams. Después, el Asesor de Teams crea un Equipo de implementación (en Teams), con canales para cada una de las cargas de trabajo que desea implementar. Cada carga de trabajo en el Equipo de implementación viene con un plan de Planner completo que incluye todas las tareas de implementación para cada carga de trabajo.  Con este plan de Planner, podrá asignar tareas a las personas responsables de cada fase del lanzamiento, incluyendo el jefe de proyecto, administradores de Teams, personal de soporte técnico y su equipo de adopción y preparación del usuario. Cada tarea de implementación contiene todos los recursos e instrucciones que necesita para completar la tarea con éxito.
 
 El Asesor de Teams forma parte del [centro de administración de Teams](https://admin.teams.microsoft.com). Como mínimo, necesitará una licencia de Microsoft 365 Empresa Básico para poder aprovechar la integración del Asesor de Teams con Forms y Planner. Para empezar a utilizar el asesor para Teams, haga clic en el botón **Inicio** en el widget **implementar Teams de carga** de trabajo en el panel. O vaya a **Planificar** > **Asesor para Teams**.
 
@@ -41,7 +41,7 @@ Para obtener una visión general guiada de la experiencia del asesor de Teams, c
 
 ## <a name="using-advisor-for-teams"></a>Usar el Asesor de Teams
 
-**Se necesitan licencias de Teams, de Forms y de Planner para usar el Asesor para Teams.** Sin embargo, no es necesario ser un administrador de Teams para usar el Asesor de Teams: cualquier usuario de su organización puede hacerlo. Hemos establecido permisos especiales para que los usuarios que no sean administradores puedan ir al Asesor de Teams, aunque esté en el centro de administración de Teams. Usted tiene que ser un administrador de Teams, un administrador de servicio de Teams o un administrador global para abrir las evaluaciones de preparación del inquilino (esto se debe a que los roles especiales no administrativos no tienen acceso a las APIs de Microsoft Graph subyacentes a las evaluaciones).
+**Se necesitan licencias de Teams, de Forms y de Planner para usar el Asesor para Teams.** Sin embargo, no es necesario ser un administrador de Teams para usar el Asesor de Teams: cualquier usuario de su organización puede hacerlo. Hemos establecido permisos especiales para que los usuarios que no sean administradores puedan ir al Asesor de Teams, aunque esté en el centro de administración de Teams. Tiene que ser un administrador de Teams o un administrador global para abrir las evaluaciones de preparación del espacio empresarial (esto se debe a que los roles especiales no administrativos no tienen acceso a las API de Microsoft Graph subyacentes a las evaluaciones).
 
 > [!IMPORTANT]
 > Si no se muestra el **Asesor para Teams** en **Planificar** en el centro de administración de Teams, esto significa que el usuario no tiene licencia para Teams.
@@ -136,7 +136,7 @@ Una vez que asesor para Teams crea su equipo de implementación, el bot asesor e
 >
 
 > [!IMPORTANT]
-> El bot del Asesor de Teams solo se usa para enviar un mensaje de bienvenida al equipo de implementación. No se recopilan datos adicionales.
+> El bot Asesor para Teams solo se usa para enviar un mensaje de bienvenida al equipo de implementación. No se recopilan datos adicionales.
 
 > [!IMPORTANT]
 > El bot asesor de Teams está activado de forma predeterminada. No lo apague si utiliza o planea utilizar el servicio de asesor para Teams.
@@ -206,7 +206,7 @@ Como personas de contacto a las que acuden los usuarios cuando necesitan saber c
 
 Después de personalizar el sitio y elaborar los planes de aprendizaje, piense en cómo lo dará a conocer entre los usuarios con el fin de animarles a usar los caminos de aprendizaje para formarse de forma continuada.
 
-Use los canales de comunicación para promover el sitio y darlo a conocer. Por ejemplo, incluya en las comunicaciones con sus usuarios un lema estándar, como “Visite nuestro sitio de aprendizaje y soporte técnico para saber cómo aumentar la productividad con Microsoft Teams”.
+Use los canales de comunicación para promover el sitio y darlo a conocer. Por ejemplo, incluya en las comunicaciones con sus usuarios un lema estándar, como "Visite nuestro sitio de aprendizaje y soporte técnico para saber cómo aumentar la productividad con Microsoft Teams".
 
 Destaque las formas en las que pueden colaborar en Microsoft Teams para animarlos a participar y, luego, diríjalos al sitio de caminos de aprendizaje para que vean cómo pueden hacerlo.
 
@@ -252,7 +252,7 @@ El Asesor de Teams solicita su acuerdo con la recopilación de información que 
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>¿Puedo usar el Asesor para Teams con FastTrack?
 
-Sí, FastTrack aprovecha el Asesor de Teams para todos los clientes que buscan implementar Teams. Pueden ayudarle con la configuración inicial de su Equipo de implementación utilizando el Asesor de Teams (si lo requiere) y también ofrecer soporte necesario sobre temas específicos durante la implementación de Teams.
+Sí, FastTrack usa el Asesor para Teams con todos los clientes que desean implementar Teams. Puede ayudarle con la configuración inicial de su Equipo de implementación mediante el Asesor de Teams (si se requiere) y también ofrecerle el soporte necesario en temas específicos durante la implementación de Teams.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>¿Puedo usar el Asesor para Teams con un asociado?
 

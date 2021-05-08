@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4b371d696008d7ef58ce7722e6a9f27e9c9bc970
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96012732c3f8023535e67cd753a16a7aac32f913
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117808"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240500"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
@@ -78,7 +78,7 @@ Los roles de administrador de Teams determinan qué funcionalidades tiene cada t
 </thead>
 <tbody>
    <tr>
-    <td valign="top" colspan="2">Administrador de servicios de Teams</td>
+    <td valign="top" colspan="2">Administrador de Teams</td>
     <td valign="top">Administre el servicio de Teams, y cree y administre Grupos de Microsoft 365</td>
     <td valign="top">Administrar reuniones, incluidas las directivas de reunión, configuraciones y puentes de conferencia<sup>1</sup><br><br>Administrar la voz, incluidas las directivas de llamada, la asignación y el inventario de los números de teléfono, las colas de llamada y los operadores automáticos<sup>1</sup><br><br>Administrar los mensajes, incluidas las directivas de mensajería<sup>1</sup><br><br>Administrar la configuración de toda la organización, incluida la federación, la actualización de Teams y la configuración de cliente de Teams<sup>1</sup><br><br>Administrar los equipos de la organización y su configuración asociada, incluida la pertenencia<sup>2</sup><br><br>Ver la página del perfil de usuario y solucionar los problemas relacionados con la calidad de llamada de los usuarios mediante un conjunto de herramientas avanzado de solución de problemas<sup>3</sup></td>
 </tr>
@@ -117,7 +117,7 @@ Si desea más información, consulte [Plan para el control en Teams](plan-teams-
 
 ## <a name="teams-lifecycle-stages"></a>Fases del ciclo de vida de Teams
 
-Hablando en términos generales, un equipo tiene un propósito que está alineado con un proyecto o que persigue un objetivo. Incluso si un equipo se formó tomando como base un interés compartido, la pertenencia al equipo cambiará a lo largo del tiempo y el debate podría llegar a quedarse anticuado; solo para resurgir de nuevo de una forma algo diferente en un equipo distinto.
+En términos generales, un equipo tiene un propósito que está alineado con un proyecto o con el logro de una meta. Incluso si un equipo se formó tomando como base un interés compartido, la pertenencia al equipo cambiará con el tiempo y el debate podría parecer obsoleto; solo para resurgir de nuevo de una forma diferente en un equipo distinto.
 
 Cada equipo tiene un principio: cuando el equipo se crea y los canales se configuran; una parte central: cuando el equipo se utiliza y se produce la colaboración para ajustarse al ritmo del flujo de trabajo; y, en ocasiones, un final: cuando el equipo ha completado su propósito y ha llegado al final de su vida útil. 
 
@@ -139,7 +139,7 @@ Los propietarios de equipo invitan a los miembros del equipo, definen la imagen 
 Los equipos pueden formarse a partir de una gran variedad de métodos; entre ellos:
 
 -   Agregue a los miembros mediante nombres de usuario o alias de correo electrónico individuales, o bien amplíe una lista de distribución.
--   Cree el equipo a partir de un equipo existente y use como plantilla su configuración de canales y de cualquier otra aplicación. Además, también puede usar su lista de pertenencia.
+-   Cree el equipo a partir de un equipo existente y use como plantilla su configuración de canales y de cualquier otra aplicación. De manera opcional, también puede utilizar su lista de pertenencia.
 -   Agregue un equipo a un grupo de Microsoft 365 actual, que también le dé acceso al equipo al buzón de correo y el sitio de SharePoint.
 -   Las API pueden crear equipos mediante programación que se basen en los atributos de la libreta de direcciones global (como la región o el departamento) o los procesos empresariales (las interacciones con clientes o las listas de participantes de clase, por ejemplo).
 
@@ -176,7 +176,7 @@ Una vez comienza el trabajo en equipo, la pertenencia al equipo comenzará con t
 
 La confianza, la tolerancia y un espíritu de colaboración aumentan de forma orgánica a medida que las comunicaciones de grupo principales se inician y se mantienen a lo largo del tiempo en Teams. Los miembros de los equipos ven la utilidad de las conversaciones de grupo en los chats uno a uno. Cada equipo tiende a desarrollar su propia personalidad, con la ayuda de características como los Giphy y los adhesivos. Al mismo tiempo, es importante que se disuadan comportamientos superficiales o el acceso no autorizado cada vez que sucedan.
 
-Como los equipos son organismos vivos, precisan que se les revise y se les atienda de vez en cuando. Estas son las prácticas recomendadas:
+Como los equipos son organismos vivos, precisan que se les revise y se les atienda de vez en cuando. Los siguientes son algunos procedimientos recomendados:
 
 - Use expertos para mantener el nivel de uso si este empieza a caer, así como para descubrir y propagar nuevos comportamientos. 
 - Administre a los invitados con buen juicio y asegúrese de que su acceso termina cuando termine la necesidad de la empresa.

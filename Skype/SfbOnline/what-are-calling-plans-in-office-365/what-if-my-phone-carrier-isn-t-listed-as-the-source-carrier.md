@@ -21,23 +21,25 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
-description: 'Obtenga información sobre qué hacer si su operador de telefonía no aparece en la lista de Skype Empresarial. '
-ms.openlocfilehash: a8349e1bedbfbb43310debbd0fdec8414b43fbdd
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Obtenga información sobre qué hacer si su operador no aparece en Skype Empresarial. '
+ms.openlocfilehash: 4354cb05aa28b09931f8f2524de2f01c6ef57f3f
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769293"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237976"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>¿Qué sucede si mi operador de telefonía no está incluido como operador de origen?
 
-Puede resultar un poco confuso que el nombre de su operador de telefonía no aparezca en la lista. En la mayoría de los casos, si el proveedor de servicios u operador es diferente, lo más probable es que los números de teléfono que va a transferir sean propiedad de otro proveedor de servicios u operador de telefonía. Puede haber ocasiones en que el proveedor de servicios u operador de telefonía que aparece en la lista sea diferente de su proveedor de servicios actual, ya que es posible que su proveedor de servicios actual trabaje con un proveedor de servicios externo. 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+Es un poco confuso cuando ve que el nombre de su operador no aparece en la lista. En la mayoría de los casos, si el proveedor de servicios o el operador es diferente, lo más probable es que los números de teléfono que va a transferir sean propiedad de otro proveedor de servicios u operador. Puede haber ocasiones en las que el proveedor de servicios u operador que aparece en la lista podría ser diferente de su proveedor de servicios actual, ya que es posible que su proveedor de servicios actual esté trabajando con un proveedor de servicios de terceros. 
   
 Un ejemplo:
   
-- Si está porteando un número de Skype Empresarial como su operador de telefonía, es posible que vea Level3 en la lista.
+- Si va a portear el número Skype Empresarial como operador, es posible que vea Level3 en la lista.
     
-  **Para obtener instrucciones detalladas completas, consulte Transferir números [de teléfono a Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)**
+  **Para obtener instrucciones detalladas completas, vea [Transferir números de](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)teléfono a Teams .**
 
     > [!NOTE]
     > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

@@ -1,7 +1,7 @@
 ---
 title: Consideraciones RTC al actualizar a Teams desde Skype Empresarial
-author: dstrome
-ms.author: dstrome
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a454b3c23074a1ab7a750e8d282e9a562257eb
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 1d2a33b408ffbb4154ce6e872ae9e1e9bb48dd67
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282357"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240510"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>Consideraciones RTC para actualizar a Teams desde Skype Empresarial local
 

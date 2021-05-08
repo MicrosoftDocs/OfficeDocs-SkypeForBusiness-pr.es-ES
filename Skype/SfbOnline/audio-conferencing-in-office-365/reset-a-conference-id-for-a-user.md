@@ -21,31 +21,33 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre los pasos para restablecer el id. de conferencia de reunión de un usuario en Skype Empresarial Online y obtenga vínculos a herramientas de actualización y migración de reuniones. '
-ms.openlocfilehash: 424b0dfb24d6034af20c18a0172221a09bef5ecd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24037de3849ae54920777636e7eb745671ae2f57
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114216"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237776"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Restablecer un id. de conferencia para un usuario en Skype Empresarial Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!NOTE]
-> Para obtener información sobre cómo restablecer el id. de conferencia en Microsoft Teams, vea Restablecer un id. de [conferencia para un usuario en Microsoft Teams.](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams)
+> Para obtener información sobre cómo restablecer el id. de conferencia en Microsoft Teams, vea Restablecer un [id.](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams)de conferencia para un usuario en Microsoft Teams .
 
 Se incluye un id. de conferencia dinámico en la parte inferior de las invitaciones de reunión junto con los números de teléfono de acceso telefónico que pueden usar las personas que llaman para llamar a una reunión. Cuando el usuario marca el número de teléfono, el operador automático de la reunión le pedirá al autor de la llamada que escriba este id. de conferencia para que pueda asistir a la reunión.
   
 > [!NOTE]
-> Si su proveedor de conferencias es Microsoft, los IDs de conferencia de los usuarios se establecen en Solo dinámico. Esto no se puede cambiar. Los IDs de conferencia solo se establecen automáticamente para los usuarios de Skype Empresarial habilitados para audioconferencias. 
+> Si su proveedor de conferencias es Microsoft, los IDs de conferencia de los usuarios se establecen en Solo dinámico. Esto no se puede cambiar. Los IDs de conferencia se establecen automáticamente solo para los Skype Empresarial habilitados para audioconferencias. 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Restablecer el id. de conferencia de un usuario
    
-1. En el **Centro de administración de Skype Empresarial,** haga clic en **Usuarios** de audioconferencia, seleccione un usuario y, a continuación, en el panel Acción en  >   **Id.** de conferencia, haga clic en **Restablecer.**
+1. En el Skype Empresarial de administración, **haga** clic en **Usuarios** de audioconferencia, seleccione un usuario y, a continuación, en el panel Acción en  >   **Id.** de conferencia, haga clic en **Restablecer**.
     
 2. En la ventana **Restablecer Id. de conferencia?**, haga clic en **Sí**. Se creará automáticamente un id. de conferencia y se enviará un correo electrónico al usuario con el nuevo id. de conferencia. De forma predeterminada, los correos electrónicos se envían a los usuarios, pero esto se puede desactivar.
     
 > [!NOTE]
-> Después de restablecer el id. de conferencia, se enviará al usuario un correo electrónico con el nuevo id. de conferencia. Este correo electrónico se enviará a la dirección de correo electrónico principal, en muchos casos, a su buzón de Microsoft 365 u Office 365. El correo electrónico contiene el nuevo id. de conferencia, los números de teléfono de acceso telefónico locales predeterminados e instrucciones para usar la Herramienta de actualización de reuniones de Skype Empresarial para actualizar las reuniones existentes. 
+> Después de restablecer el id. de conferencia, se enviará al usuario un correo electrónico con el nuevo id. de conferencia. Este correo electrónico se enviará a la dirección de correo electrónico principal, en muchos casos, su Microsoft 365 o Office 365 buzón. El correo electrónico contiene el nuevo id. de conferencia, los números de teléfono de acceso telefónico de acceso telefónico predeterminados e instrucciones para usar la herramienta de actualización de reuniones Skype Empresarial actualizar las reuniones existentes. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -54,13 +56,13 @@ Se incluye un id. de conferencia dinámico en la parte inferior de las invitacio
 
 - Puede enviar toda la información de conferencia al usuario en un correo electrónico que incluya  el id. de conferencia y los números de teléfono de acceso telefónico local haciendo clic en Enviar información de conferencia por correo electrónico para el usuario en el panel de acciones. No envía el PIN.
     
-- Un id. de conferencia contendrá 7 dígitos y no podrá cambiar su longitud en el Centro de administración de Skype Empresarial ni mediante Windows PowerShell.
+- Un id. de conferencia contendrá 7 dígitos y no puede cambiar su longitud en el centro de administración de Skype Empresarial o mediante Windows PowerShell.
     
 - Una vez que se ha restablecido el nuevo id. de conferencia, podrá verlo en **Id. de conferencia**.
     
 - El id. de conferencia de un usuario para conferencias de audioconferencia se puede ver en la parte inferior del panel de acciones en **Audioconferencia** al seleccionar el usuario en la **página** Usuarios.
     
-- After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Los usuarios pueden usar la Herramienta de reunión de Skype Empresarial para actualizar sus reuniones existentes. Para ver cómo descargar, instalar y ejecutar la Herramienta de actualización de reuniones de Skype Empresarial, vea:
+- After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Los usuarios pueden usar Skype Empresarial de reunión para actualizar sus reuniones existentes. Para ver cómo descargar, instalar y ejecutar la Skype Empresarial actualización de reuniones, vea:
     
   - [Herramienta de actualización de reuniones para Skype y Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     
@@ -70,15 +72,15 @@ Se incluye un id. de conferencia dinámico en la parte inferior de las invitacio
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
-- En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario, cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
+- En relación con Windows PowerShell, todo se reduce a la administración de usuarios y de lo que pueden o no hacer los usuarios. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario, cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Por qué necesita usar Microsoft 365 u Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [¿Por qué necesita usar Microsoft 365 o Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
  
-- Windows PowerShell tiene muchas ventajas en velocidad, sencillez y productividad sobre el uso solo del Centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso del centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

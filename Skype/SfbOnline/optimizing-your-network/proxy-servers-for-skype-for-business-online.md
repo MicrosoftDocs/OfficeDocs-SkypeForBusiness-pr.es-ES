@@ -19,23 +19,25 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Este artículo proporciona información sobre cómo usar un servidor proxy con Skype Empresarial.
-ms.openlocfilehash: a154b36fc03dc84916d5cb4bd383ff80bef901cd
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+description: En este artículo se proporciona información sobre cómo usar un servidor proxy con Skype Empresarial.
+ms.openlocfilehash: 09ed98c5f69d6e244a5f87125e4ad607e4d16226
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863760"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240419"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Servidores proxy para Skype Empresarial Online
 
-Este artículo proporciona instrucciones sobre cómo usar un servidor proxy con Skype Empresarial.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+En este artículo se proporcionan instrucciones sobre cómo usar un servidor proxy con Skype Empresarial.
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>Se recomienda no usar un servidor proxy
 
-En cuanto al tráfico de Skype Empresarial a través de servidores proxy, Microsoft recomienda omitir servidores proxy. Los servidores proxy no hacen que Skype Empresarial sea más seguro porque el tráfico ya está cifrado.
+En lo que se refiere al tráfico de Skype Empresarial a través de servidores proxy, Microsoft recomienda omitirlos siempre que sea posible. Los servidores proxy no hacen que el Skype Empresarial sea más seguro porque el tráfico ya está cifrado.
   
-Y tener un proxy puede causar problemas. Los problemas relacionados con el rendimiento pueden introducirse en el entorno a través de la latencia y la pérdida de paquetes. Problemas como estos provocarán una experiencia negativa en los escenarios de Teams o Skype Empresarial, como el audio y el vídeo, donde las transmisiones en tiempo real son esenciales.
+Y tener un proxy puede causar problemas. Los problemas relacionados con el rendimiento se pueden introducir en el entorno a través de la latencia y la pérdida de paquetes. Problemas como estos darán como resultado una experiencia negativa en escenarios Teams o Skype Empresarial como audio y vídeo, donde las transmisiones en tiempo real son esenciales.
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>Si necesita usar un servidor proxy
 
@@ -49,7 +51,7 @@ Microsoft también recomienda:
     
 - Permitir el tráfico UDP
     
-- Siguiendo las demás recomendaciones de nuestras directrices de red:
+- Siguiendo las otras recomendaciones de nuestras directrices de redes:
     
   - [Calidad de medios y rendimiento de conectividad de la red en Skype Empresarial Online](media-quality-and-network-connectivity-performance.md)
     

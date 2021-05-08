@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Los siguientes requisitos son realmente importantes para garantizar el estado y el funcionamiento correcto a largo plazo de todas las características de Skype Empresarial Online que configure para su organización. Sabemos que algunos de nuestros usuarios son muy técnicos (y este documento es para ellos), pero hay algunos que no lo son tanto. Si necesita ayuda para configurar Skype Empresarial Online, lea este documento para familiarizarse con todo lo que debe tener en cuenta. También encontrará temas de los que podrá hablar cuando trabaje con el Centro de FastTrack de Microsoft, los equipos de servicios y cuentas de Microsoft, o los socios de Microsoft para averiguar cómo cumplir los requisitos.
-ms.openlocfilehash: ece99899400d8fca063f9b28c868ba94d4f72b99
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a32e7864a15945fc9bad64c12466aa376cb924f9
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100686"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240230"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Optimizar la red para Skype Empresarial Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 [] Los siguientes requisitos son realmente importantes para garantizar el estado y el funcionamiento correcto a largo plazo de todas las características de Skype Empresarial Online que configure para su organización. Sabemos que algunos de nuestros usuarios son muy técnicos (y este documento es para ellos), pero hay algunos que no lo son tanto. Si necesita ayuda para configurar Skype Empresarial Online, lea este documento para familiarizarse con todo lo que debe tener en cuenta. También encontrará temas de los que podrá hablar cuando trabaje con el [Centro de FastTrack de Microsoft](https://fasttrack.microsoft.com/office), los equipos de servicios y cuentas de Microsoft, o los [socios de Microsoft](https://partnercenter.microsoft.com/pcv/search) para averiguar cómo cumplir los requisitos.
 
@@ -52,7 +54,7 @@ Con Skype Empresarial, puede:
 
 La calidad de los elementos multimedia en tiempo real (audio, vídeo y uso compartido de aplicaciones) sobre IP queda afectada considerablemente por la calidad de la conectividad de la red de un extremo a otro. Para obtener una calidad multimedia óptima en Skype Empresarial Online, es importante asegurarse de que haya una conexión de alta calidad entre la red de su compañía y Skype Empresarial Online. La mejor forma de lograrla es configurar la red interna y la conectividad con la nube de acuerdo con la capacidad de su red. De esta forma, podrá adaptarse al volumen de tráfico pico de Skype Empresarial Online de todas las conexiones.
 
-Trabajando con un partner de [Microsoft,](https://partnercenter.microsoft.com/pcv/search)puede conectar una variedad de aplicaciones de Microsoft 365 u Office 365, como Skype Empresarial Online en la nube, a su red y las capacidades de comunicaciones de voz y vídeo en tiempo real para Skype Empresarial requieren que los servicios de red estén configurados específicamente para admitir estas cargas de trabajo en tiempo real de Microsoft 365 y Office 365. Esto incluye una red que tenga un ancho de banda suficiente para transferir el volumen necesario de tráfico y que sea capaz de admitir una calidad de servicio (QoS), y así poder ofrecer a sus usuarios una experiencia de categoría empresarial.
+Trabajando con un partner de [Microsoft,](https://partnercenter.microsoft.com/pcv/search)puede conectar una variedad de aplicaciones de Microsoft 365 o Office 365, como Skype Empresarial Online en la nube, a su red y las capacidades de comunicaciones de voz y vídeo en tiempo real para Skype Empresarial requieren que los servicios de red estén configurados específicamente para admitir estas cargas de trabajo de Microsoft 365 y Office 365 en tiempo real. Esto incluye una red que tenga un ancho de banda suficiente para transferir el volumen necesario de tráfico y que sea capaz de admitir una calidad de servicio (QoS), y así poder ofrecer a sus usuarios una experiencia de categoría empresarial.
 
 Junto con esta información, hay otros recursos que pueden ayudarle a planificar e implementar correctamente los servicios y las características de Skype Empresarial Online, y para garantizar que los servicios de red cumplan los requisitos:
 
@@ -64,11 +66,11 @@ Junto con esta información, hay otros recursos que pueden ayudarle a planificar
 
 ## <a name="implement-quality-of-service-qos-for-skype-for-business"></a>Implementar la calidad de servicio (QoS) para Skype Empresarial
 
-Antes de pasar a Skype Empresarial Online, deberá comprobar la capacidad de su red para gestionar el tráfico de audio, vídeo y sesiones compartidas. Al igual que con otros servicios de Microsoft 365 y Office 365, Microsoft tiene disponible para descargar la Calculadora de ancho de banda de [Skype](https://www.microsoft.com/download/details.aspx?id=19011) Empresarial que se usa para determinar el tráfico de red necesario para cada uno de los sitios de su empresa. Deberá realizar el modelado de uso, que incluye el modelado de los flujos de multimedia del tráfico de comunicación en tiempo real y la cantidad de tráfico de Skype Empresarial por cada ubicación de la compañía, el cálculo del volumen de tráfico y el análisis del impacto que tiene el tráfico en la red general. Una vez que haya realizado esto, el análisis de estos datos debería proporcionar recomendaciones de lo que se debe mejorar en su red y recomendará los tamaños de cola para ofrecer una excelente experiencia del usuario final.
+Antes de pasar a Skype Empresarial Online, deberá comprobar la capacidad de su red para gestionar el tráfico de audio, vídeo y sesiones compartidas. Al igual que con otros Microsoft 365 y Office 365, Microsoft tiene disponible para descargar la calculadora de ancho de banda de [Skype Empresarial](https://www.microsoft.com/download/details.aspx?id=19011) que se usa para determinar el tráfico de red necesario para cada uno de los sitios de su empresa. Deberá realizar el modelado de uso, que incluye el modelado de los flujos de multimedia del tráfico de comunicación en tiempo real y la cantidad de tráfico de Skype Empresarial por cada ubicación de la compañía, el cálculo del volumen de tráfico y el análisis del impacto que tiene el tráfico en la red general. Una vez que haya realizado esto, el análisis de estos datos debería proporcionar recomendaciones de lo que se debe mejorar en su red y recomendará los tamaños de cola para ofrecer una excelente experiencia del usuario final.
 
 El tráfico en tiempo real de Skype Empresarial es sensible a la pérdida de paquetes, los retrasos y la vibración, que suelen ocurrir en las redes congestionadas. La calidad de servicio (QoS), que en ocasiones se denomina Clase de servicio, también se debe implementar en las WAN externas administradas, las LAN internas administradas y las redes WiFi de la empresa. De esta manera se dará prioridad adecuadamente al tráfico en tiempo real de Skype Empresarial, tal como el audio y el vídeo sobre el tráfico que no ocurre en tiempo real en redes locales y sobre la WAN, lo que crea una mejor experiencia para los usuarios finales.
 
-El audio de Skype Empresarial debe implementarse en la cola de EF (desvío rápido - DSCP 46) y el vídeo de Skype Empresarial debe implementarse en la cola de AF41 (desvío garantizado - DSCP 34). Esto es así incluso para el tráfico de punto a punto y conferencia, independientemente de si se están implementando sistema telefónico en Microsoft 365 u Office 365 u otras características de telefonía.
+El audio de Skype Empresarial debe implementarse en la cola de EF (desvío rápido - DSCP 46) y el vídeo de Skype Empresarial debe implementarse en la cola de AF41 (desvío garantizado - DSCP 34). Esto es así incluso para el tráfico de punto a punto y conferencia, independientemente de si Sistema telefónico en Microsoft 365 o Office 365 u otras características de telefonía se están implementando.
 
 Aunque es posible que ya haya directivas de QoS en la LAN y la WAN para otros productos de telefonía IP, Skype Empresarial permite que sus usuarios puedan utilizar dispositivos móviles e ir de una ubicación a otra mientras usan el servicio. Debido a esto, las directivas de QoS deben estar marcadas en la LAN, la WAN y las redes inalámbricas para asegurarse de que todo el tráfico de Skype Empresarial tenga prioridad en las redes administradas.
 
@@ -80,30 +82,30 @@ Para obtener más información sobre la configuración y la administración de l
 
 ## <a name="bypass-proxies-and-wan-optimization-devices"></a>Omisión de servidores proxy y dispositivos de optimización de la WAN
 
-Todos los dispositivos proxy de Microsoft 365 u Office 365, incluido Skype Empresarial Online, están cifrados y normalmente no se pueden inspeccionar con dispositivos proxy. Por estos motivos, se recomienda omitir los dispositivos proxy para todo el tráfico de red de Microsoft 365 y Office 365 definido como conexiones que los usuarios hacen a direcciones URL e intervalos de direcciones IP de [Office 365.](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) Since proxy devices will likely introduce delay in real-time Skype for Business Online media streams we strongly recommend bypassing proxy devices at a minimum for that traffic.
+Todos Microsoft 365 o Office 365, incluido Skype Empresarial Online, se cifran y normalmente no se pueden inspeccionar mediante dispositivos proxy. Por estos motivos, se recomienda omitir los dispositivos proxy para todo el tráfico de red Microsoft 365 y Office 365 definido como conexiones que los usuarios hacen Office 365 direcciones URL e intervalos de direcciones [IP.](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) Since proxy devices will likely introduce delay in real-time Skype for Business Online media streams we strongly recommend bypassing proxy devices at a minimum for that traffic.
 
-Microsoft recomienda excluir direcciones URL de Microsoft 365 y Office 365 con archivos PAC para enviar tráfico de Microsoft 365 y Office 365 a un firewall.
+Microsoft recomienda excluir Microsoft 365 y Office 365 direcciones URL con archivos PAC para enviar Microsoft 365 y Office 365 tráfico a un firewall.
 
 Los siguientes recursos también pueden ser útiles:
 
-- [Ajuste del rendimiento de Microsoft 365 u Office 365 con líneas base e historial de rendimiento](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
+- [Microsoft 365 o Office 365 de rendimiento con líneas base e historial de rendimiento](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
 
-- [Planificación de red y migración para Microsoft 365 u Office 365](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
+- [Planificación de red y migración para Microsoft 365 o Office 365](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
 
 - [Generador proxy de PAC de Office 365](https://gallery.technet.microsoft.com/Office-365-Proxy-Pac-60fb28f7)
 
-- [Usar el controlador de optimización WAN o los dispositivos de tráfico e inspección con Microsoft 365 u Office 365](/office365/troubleshoot/miscellaneous/office-365-third-party-network-devices)
+- [Usar el controlador de optimización WAN o los dispositivos de tráfico e inspección con Microsoft 365 o Office 365](/office365/troubleshoot/miscellaneous/office-365-third-party-network-devices)
 
-- [Enrutamiento con ExpressRoute para Microsoft 365 u Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
+- [Enrutamiento con ExpressRoute para Microsoft 365 o Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
 
 ## <a name="bypass-double-encryption"></a>Omisión del cifrado doble
 
-Para proporcionar a los usuarios la mejor experiencia de audio y vídeo posible, debe implementar una solución que impida que los medios de Skype Empresarial (audio y vídeo) pasen por un túnel de red privada virtual (VPN). Todo el tráfico de Skype Empresarial se cifra con seguridad de capa de transporte (TLS) y las cargas de trabajo multimedia se cifran con protocolo seguro en tiempo real (SRTP). La señalización se cifra con TLS y las cargas de trabajo multimedia se cifran con SRTP. Enviar este tráfico a través del túnel VPN agrega una capa adicional de cifrado y saltos de red adicionales entre el cliente y Microsoft 365 u Office 365, lo que puede provocar una sesión degradada porque aumenta la vibración, la pérdida de paquetes y la latencia.
+Para proporcionar a los usuarios la mejor experiencia de audio y vídeo posible, debe implementar una solución que evite que los medios Skype Empresarial (audio y vídeo) pasen por un túnel de red privada virtual (VPN). Todo Skype Empresarial tráfico se cifra con seguridad de capa de transporte (TLS) y las cargas de trabajo multimedia se cifran con protocolo seguro en tiempo real (SRTP). La señalización se cifra con TLS y las cargas de trabajo multimedia se cifran con SRTP. Enviar este tráfico a través del túnel VPN agrega una capa adicional de cifrado y saltos de red adicionales entre el cliente y Microsoft 365 o Office 365, lo que puede provocar una sesión degradada porque aumenta la vibración, la pérdida de paquetes y la latencia.
 
 Una opción para impedir que el tráfico de Skype Empresarial pase por el túnel VPN sería el túnel dividido. Para implementar el túnel dividido, los clientes deben consultar al proveedor de VPN las instrucciones específicas para hacerlo con su software.
 
 > [!NOTE]
-> Esto solo es necesario para las cargas de trabajo multimedia de Skype Empresarial y no es aplicable a otros servicios de Microsoft 365 u Office 365.
+> Esto solo es necesario para las cargas Skype Empresarial de trabajo multimedia y no es aplicable a otros Microsoft 365 o Office 365 medios.
 
 Recursos adicionales:
 
@@ -115,7 +117,7 @@ Recursos adicionales:
 
 ## <a name="ensure-the-right-ports-and-protocols-are-open"></a>Asegúrese de que los puertos y los protocolos adecuados estén abiertos.
 
-Los clientes deben garantizar la capacidad de acceso de las direcciones URL y IP necesarias para el servicio de Microsoft 365 u Office 365. Para ver un listado completo de todas las direcciones IP y las URL de Skype Empresarial Online, consulte [URL de Office 365 e intervalos de direcciones IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2).
+Los clientes deben garantizar la capacidad de acceso de las direcciones URL y direcciones IP necesarias para el Microsoft 365 o Office 365 servicio. Para ver un listado completo de todas las direcciones IP y las URL de Skype Empresarial Online, consulte [URL de Office 365 e intervalos de direcciones IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2).
 
 Los clientes de Skype Empresarial usan varios puertos y protocolos. La dirección y el flujo del tráfico de red de una sesión de Skype Empresarial variará en función del tipo de interacciones (punto a punto o varios participantes) y del uso de contenido compartido y de voz/vídeo. Deberá revisar y abrir la lista de puertos y protocolos, prestando especial atención a los puertos de origen y de destino. Por ejemplo, el tráfico de audio solo usa 20 puertos (50000-50019 TCP/UDP) en el lado del cliente, pero el puerto de destino podría estar en cualquier parte de un intervalo de 10.000 puertos (50000-59999 TCP/UDP) en el lado del servicio. Esto también incluye la apertura de TCP 443 y UDP 3478 en el firewall.
 
@@ -140,7 +142,7 @@ Vea los siguientes documentos para ver más información sobre los dispositivos 
 
 El entorno y el área que rodea el lugar donde los usuarios se reúnen y utilizan dispositivos de audio y vídeo es otro gran factor a tener en cuenta para la calidad de sonido e imagen. Si los usuarios llaman desde un entorno ruidoso, se generará un audio con ecos, apagado y difuminado. Los usuarios en un entorno oscuro o con poca luz generarán vídeo con poca luminosidad y claridad de imagen. Otra cuestión determinante en la calidad de la imagen y el sonido que recibirán los participantes es la ubicación del micrófono y el dispositivo de vídeo en entornos como salas de conferencias.
 
-Para obtener una imagen más clara de la experiencia de audio y vídeo de un usuario, use la aplicación de Skype Empresarial Herramientas Opciones de dispositivo de audio o dispositivo de vídeo para realizar cambios en el dispositivo en uso y personalizar su  >    >   configuración.  También puede comprobar la calidad de audio de una llamada haciendo clic en **Comprobar calidad de llamada.** Si hacen clic **en Comprobar calidad de** llamada, pueden informar de la calidad y los problemas encontrados con la llamada de prueba.
+Para obtener una imagen más clara de la experiencia de audio y vídeo de un usuario, use la aplicación herramientas de Skype Empresarial Opciones dispositivo de audio o dispositivo de vídeo para realizar cambios en el dispositivo en uso y personalizar su  >    >   configuración.  También puede comprobar la calidad de audio de una llamada haciendo clic en **Comprobar calidad de llamada.** Si hacen clic **en Comprobar calidad de** llamada, pueden informar de la calidad y los problemas encontrados con la llamada de prueba.
 
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
 

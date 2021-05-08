@@ -1,5 +1,5 @@
 ---
-title: ¿Por qué tengo problemas para entrar en el Reino Unido? información de dirección?
+title: ¿Por qué estoy teniendo problemas cuando introduzco la información de dirección de Reino Unido?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,82 +21,84 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
-description: Estos son algunos de los motivos por los que puede tener problemas para que su dirección o direcciones se validen correctamente en el Reino Unido (UK).
-ms.openlocfilehash: ac8a5382d508d683f0467dd77742f19999628976
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Estas son algunas razones por las que es posible que tenga problemas para que su dirección o direcciones se validen correctamente en el Reino Unido (Reino Unido).
+ms.openlocfilehash: 7751f2b23ecb15140fc5ff67aa3ede90fadfaf06
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769163"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237936"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>¿Por qué tengo problemas para entrar en el Reino Unido? información de dirección?
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>¿Por qué estoy teniendo problemas cuando introduzco la información de dirección de Reino Unido?
 
-Estos son algunos de los motivos por los que puede tener problemas para que su dirección o direcciones se validen correctamente en el Reino Unido (UK).
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+Estas son algunas razones por las que es posible que tenga problemas para que su dirección o direcciones se validen correctamente en el Reino Unido (Reino Unido).
   
-## <a name="whats-wrong-with-the-company-name"></a>¿Qué problema hay con el nombre de la compañía?
+## <a name="whats-wrong-with-the-company-name"></a>¿Qué hay de malo con el nombre de la compañía?
 
-Si tiene problemas para introducir el nombre de la empresa, recuerde:
+Si tiene un problema al escribir el nombre de la empresa, recuerde:
   
 - Puede tener letras, números y los siguientes caracteres especiales: , / - + . ' &amp; " _ 
     
     > [!CAUTION]
-    > En el Reino Unido (UK), el nombre de la compañía no puede tener el signo +. 
+    > En el Reino Unido (Reino Unido), el nombre de la empresa no puede tener el signo +. 
   
-- Debe tener 80 caracteres o menos de caracteres.
+- Tiene que tener 80 caracteres o menos.
     
 - No puede empezar con un carácter especial.
     
-## <a name="whats-wrong-with-the-house-number"></a>¿Qué problema hay con el número de la casa?
+## <a name="whats-wrong-with-the-house-number"></a>¿Qué hay de malo con el número de casa?
 
-Si tiene problemas para introducir el número de la casa, recuerde:
+Si tiene un problema al introducir el número de casa, recuerde:
   
-- Puede contener letras, números y los caracteres especiales: - / [ ]
+- Puede tener letras, números y los siguientes caracteres especiales: - / [ ]
     
 - Tiene que empezar con un número.
     
-- Debe tener 20 caracteres o menos de caracteres.
+- Tiene que tener 20 caracteres o menos.
     
-- Puede tener una letra en mayúscula o minúscula.
+- Puede tener una letra mayúscula o minúscula.
     
-## <a name="whats-wrong-with-the-house-name"></a>¿Qué problema hay con el nombre de la casa?
+## <a name="whats-wrong-with-the-house-name"></a>¿Qué hay de malo con el nombre de la casa?
 
-Si tiene problemas para introducir el nombre de la casa, recuerde:
+Si tiene un problema al escribir el nombre de la casa, recuerde:
   
-- Puede contener letras, números y los caracteres especiales : , / - + . ' &amp; " _
+- Puede tener letras, números y los siguientes caracteres especiales: , / - + . ' &amp; " _
     
-- Debe tener 50 caracteres o menos de caracteres.
+- Tiene que tener 50 caracteres o menos.
     
 - No puede empezar con un carácter especial.
     
-## <a name="whats-wrong-with-the-street-name"></a>¿Qué problema hay con el nombre de la calle?
+## <a name="whats-wrong-with-the-street-name"></a>¿Qué hay de malo con el nombre de la calle?
 
-Si tiene problemas para introducir el nombre de la calle, recuerde:
+Si tiene un problema al escribir el nombre de la calle, recuerde:
   
-- Puede contener letras, números y los caracteres especiales : , / - + . ' &amp; " _ 
+- Puede tener letras, números y los siguientes caracteres especiales: , / - + . ' &amp; " _ 
     
-- Debe tener 50 caracteres o menos de caracteres.
+- Tiene que tener 50 caracteres o menos.
     
 - No puede empezar con un carácter especial. 
     
-## <a name="whats-wrong-with-the-city-or-town"></a>¿Qué problema hay con la ciudad o la ciudad?
+## <a name="whats-wrong-with-the-city-or-town"></a>¿Qué tiene de malo la ciudad o la ciudad?
 
-Si tiene problemas para escribir el nombre de la ciudad, recuerde:
+Si tiene un problema al escribir el nombre de la ciudad o la ciudad, recuerde:
   
-- Puede tener letras, números y los caracteres especiales : , / - + . ' &amp; " _
+- Puede tener letras, números y los siguientes caracteres especiales: , / - + . ' &amp; " _
     
-- Debe tener 50 caracteres o menos de caracteres.
+- Tiene que tener 50 caracteres o menos.
     
 - No puede empezar con un carácter especial. 
     
-## <a name="whats-wrong-with-the-postal-code"></a>¿Qué problema hay con el código postal?
+## <a name="whats-wrong-with-the-postal-code"></a>¿Qué hay de malo en el código postal?
 
-Si tiene problemas al escribir el código postal, recuerde:
+Si tiene un problema al escribir el código postal, recuerde:
   
 - Solo puede tener letras, números o espacios.
     
 - Debe tener 8 letras o menos, incluidos números y espacios.
     
-- Recuerde que si se encuentra en Reino Unido **,** debe colocar el código postal en uno de los siguientes formatos, donde la letra A = carácter A-Z, el signo # = un número entre 0 y 9, y _ (subrayado) = un espacio en blanco.  Estos son algunos ejemplos:
+- Recuerde que, si se encuentra en el Reino  Unido **(Reino Unido),** debe colocar el código postal en uno de los siguientes formatos, donde la letra A = carácter A-Z, el signo # = un número de 0 a 9 y _ (subrayado) = un espacio en blanco. Estos son algunos ejemplos:
     
 |**Formato**|**Ejemplo**|
 |:-----|:-----|

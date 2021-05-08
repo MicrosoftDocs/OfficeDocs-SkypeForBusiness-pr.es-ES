@@ -22,14 +22,16 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
 description: Vea lo que tiene que hacer después de porte sus números de teléfono a Skype Empresarial.
-ms.openlocfilehash: 8dcb74cad8a745fd81b22c0aa68d4f3cedd3502a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d49fea9315e44f7d126021ec8733143916f5e366
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101866"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237946"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>¿Qué necesita hacer después de haber portado a través de sus números de teléfono?
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
 Una vez que haya enviado su solicitud de portabilidad, nos comunicaremos con su operador de telefonía y le facilitaremos los detalles. Cuando se haya establecido la fecha de transferencia final, se lo notificaremos por correo electrónico. Sin embargo, mientras esperas a que el operador acepte el pedido, sigue adelante y crea las direcciones de emergencia necesarias que usarás con estos números.
   

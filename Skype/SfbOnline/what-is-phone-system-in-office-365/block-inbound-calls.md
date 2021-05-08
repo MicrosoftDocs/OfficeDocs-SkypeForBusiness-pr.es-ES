@@ -13,16 +13,18 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 7848aff5f5b4dbb56be713b9241f2ace1ee6e6b3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dae0d585df2f67904712e9220f16213a2f925369
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102076"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238036"
 ---
 # <a name="block-inbound-calls"></a>Bloquear llamadas entrantes
 
-Los planes de llamadas de Skype Empresarial Online ahora admiten el bloqueo de llamadas entrantes desde la red telefónica conmutada (RTC). Esta característica permite definir una lista global de patrones de números de inquilino para que el identificador de llamada de todas las llamadas RTC entrantes al inquilino se pueda comprobar en la lista para obtener una coincidencia. Si se realiza una coincidencia, se rechaza una llamada entrante.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Skype Empresarial Los planes de llamadas en línea ahora admiten el bloqueo de las llamadas entrantes de la red telefónica conmutada (RTC) pública. Esta característica permite definir una lista global de patrones de números de inquilino para que el identificador de llamada de todas las llamadas RTC entrantes al inquilino se pueda comprobar en la lista para obtener una coincidencia. Si se realiza una coincidencia, se rechaza una llamada entrante.
 
 Esta característica de bloqueo de llamadas entrantes solo funciona en las llamadas entrantes que proceden de la RTC y solo funciona de forma global y empresarial. No está disponible por usuario.  
 
@@ -177,4 +179,4 @@ Como se indicó anteriormente, el patrón que coincide para bloquear las persona
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Configure su equipo para administrar Skype Empresarial Online con Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- [Configure el equipo para administrar Skype Empresarial Online mediante Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
