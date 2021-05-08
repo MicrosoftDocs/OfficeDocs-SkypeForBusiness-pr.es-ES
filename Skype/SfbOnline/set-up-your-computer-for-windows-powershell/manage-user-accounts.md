@@ -18,15 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Use el cmdlet Get-CsOnlineUser en Windows PowerShell para obtener información sobre los usuarios de Skype Empresarial Online de su organización.
-ms.openlocfilehash: a4675bdb438dd81f9c72aa743134f9a444f0d1f9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Use el cmdlet Get-CsOnlineUser en Windows PowerShell para obtener información sobre los Skype Empresarial en línea de su organización.
+ms.openlocfilehash: aec79f589f6b1fb0c9d38fd4bc70421b30f66a56
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113156"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238726"
 ---
 # <a name="manage-user-accounts"></a>Administrar cuentas de usuario
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 ## <a name="manage-user-accounts"></a>Administrar cuentas de usuario
 
@@ -41,12 +43,12 @@ Este tema incluye las secciones siguientes:
 - [Devolver una lista filtrada de usuarios en Skype Empresarial Online](manage-user-accounts.md#BKMKReturnFilteredListofUsers)
 
 > [!NOTE]
-> El cmdlet **Set-CsUser** también se incluye en el conjunto de cmdlets disponibles para los administradores de Skype Empresarial Online. Sin embargo, **Set-CsUser** no se puede usar actualmente para administrar Skype Empresarial Online, excepto para establecer el _parámetro AudioVideoDisabled._ Si intenta ejecutar el cmdlet con cualquier otro parámetro, se producirá un error con un mensaje de error similar a este: No se puede establecer "SipAddress". Este parámetro está restringido en PowerShell de inquilino remoto.
+> El cmdlet **Set-CsUser** también se incluye en el conjunto de cmdlets disponibles para Skype Empresarial en línea. Sin embargo, **Set-CsUser** no se puede usar actualmente para administrar Skype Empresarial Online, excepto para establecer el _parámetro AudioVideoDisabled._ Si intenta ejecutar el cmdlet con cualquier otro parámetro, se producirá un error con un mensaje de error similar a este: No se puede establecer "SipAddress". Este parámetro está restringido en PowerShell de inquilino remoto.
 
 ### <a name="return-information-about-all-your-skype-for-business-online-users"></a>Obtener información sobre todos los usuarios de Lync Online
 <a name="BKMKReturnInfoAboutAllUsers"> </a>
 
-Para devolver información sobre todos los usuarios habilitados para Skype Empresarial Online, llame al cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) sin ningún parámetro adicional.
+Para devolver información sobre todos los usuarios que se han habilitado para Skype Empresarial Online, llame al cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) sin ningún parámetro adicional.
 
 ```PowerShell
 Get-CsOnlineUser
@@ -88,7 +90,7 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>Devolver información específica para usuarios específicos en Skype Empresarial Online
 <a name="BKMKReturninfoSpecificUsers"> </a>
 
-De forma predeterminada, el cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) devuelve una gran cantidad de información para cada cuenta de usuario de Skype Empresarial Online. Si solo está interesado en un subconjunto de esa información, canalizar los datos devueltos al cmdlet **Select-Object.** Por ejemplo, este comando devuelve todos los datos del usuario Ken Myer y, a continuación, usa el cmdlet **Select-Object** para limitar la información que se muestra en pantalla al nombre para mostrar y el plan de marcado de Ad DS de Ken.
+De forma predeterminada, el cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) devuelve una gran cantidad de información para cada Skype Empresarial cuenta de usuario en línea. Si solo está interesado en un subconjunto de esa información, canalizar los datos devueltos al cmdlet **Select-Object.** Por ejemplo, este comando devuelve todos los datos del usuario Ken Myer y, a continuación, usa el cmdlet **Select-Object** para limitar la información que se muestra en pantalla al nombre para mostrar y el plan de marcado de Ad DS de Ken.
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
@@ -100,7 +102,7 @@ El siguiente comando devuelve el nombre para mostrar y el plan de marcado para t
 Get-CsOnlineUser | Select-Object DisplayName, DialPlan
 ```
 
-Para buscar las propiedades de una cuenta de usuario de Skype Empresarial Online, use el comando siguiente.
+Para buscar las propiedades de una Skype Empresarial de usuario en línea, use el comando siguiente.
 
 ```PowerShell
 Get-CsOnlineUser | Get-Member

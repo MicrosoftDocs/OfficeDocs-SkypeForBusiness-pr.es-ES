@@ -10,42 +10,42 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Obtenga información sobre cómo administrar Microsoft Teams con Teams PowerShell.
+description: Aprenda a administrar Microsoft Teams con Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8494f7951a051f95f9b934d04f274a020446b6cd
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 71f68c813a1379c29cf64ad732eb5da1ffe4d188
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617752"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238976"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Administrar Teams con Microsoft Teams PowerShell
 
 En este artículo se muestra cómo usar Microsoft Teams PowerShell para administrar Teams y Skype Empresarial. 
 
-Use esta guía junto con la referencia del [cmdlet de Microsoft Teams y](/powershell/teams/?view=teams-ps) la referencia de cmdlet de Skype [Empresarial.](/powershell/skype/intro?view=skype-ps)
+Use esta guía junto con la referencia Microsoft Teams [cmdlet y](/powershell/teams/?view=teams-ps) Skype Empresarial [de cmdlet.](/powershell/skype/intro?view=skype-ps)
 
 ## <a name="create-and-manage-teams-using-powershell"></a>Crear y administrar equipos con PowerShell
 
-Los cmdlets para crear y administrar equipos se encuentran en el [módulo PowerShell de Microsoft Teams.](https://www.powershellgallery.com/packages/MicrosoftTeams/)
+Los cmdlets para crear y administrar equipos se encuentran en el [módulo Microsoft Teams PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams/)
 
-Los grupos de Office 365 tienen el respaldo de Teams, por lo que al crear un equipo, se crea un grupo. Hay un conjunto de cmdlets para operar en el equipo principal y su configuración ( , , ), la administración de usuarios del equipo ( , ), así como cmdlets para administrar los ``new-team`` ``get-team``  ``set-team`` ``add-teamuser`` ``remove-teamuser`` canales ``new-teamchannel`` del equipo ( , ``remove-teamchannel`` ). Todos estos cmdlets se pueden ejecutar como usuarios finales, pero solo funcionarán en los equipos de los que es propietario o de los que es miembro. Si es administrador global o administrador del servicio de Teams, podrá actuar en todos los equipos de su organización.
+Teams los grupos Office 365, por lo que al crear un equipo, crea un grupo. Hay un conjunto de cmdlets para operar en el equipo principal y su configuración ( , , ), la administración de usuarios del equipo ( , ), así como cmdlets para administrar los ``new-team`` ``get-team``  ``set-team`` ``add-teamuser`` ``remove-teamuser`` canales ``new-teamchannel`` del equipo ( , ``remove-teamchannel`` ). Todos estos cmdlets se pueden ejecutar como usuarios finales, pero solo funcionarán en los equipos de los que es propietario o de los que es miembro. Si es administrador global o administrador Teams, podrá actuar en todos los equipos de su organización.
 
 ```powershell
 New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
-> El **GroupId** usado en los cmdlets del módulo de PowerShell de Microsoft Teams es el mismo que la propiedad **Identity** devuelta en el módulo ``Get-UnifiedGroup`` de PowerShell de Exchange.
+> El **GroupId** usado en los cmdlets Microsoft Teams módulos de PowerShell es el mismo que la propiedad **Identity** devuelta por en el módulo Exchange ``Get-UnifiedGroup`` PowerShell.
 
 ## <a name="manage-policies-via-powershell"></a>Administrar directivas a través de PowerShell
 
 > [!NOTE]
-> - Skype Empresarial Online Connector se consolida en Teams PowerShell. Actualmente está disponible en versión preliminar pública. A tiempo, los cmdlets de Skype Empresarial Online que se apliquen a Teams estarán disponibles de forma nativa en el módulo de PowerShell de Teams. Los pasos de instalación están disponibles en [el artículo Instalar PowerShell de Teams.](teams-powershell-install.md)
+> - Skype Empresarial Online Connector se consolida en Teams PowerShell. Actualmente está disponible en versión preliminar pública. Con el tiempo, Skype Empresarial cmdlets en línea que se apliquen a Teams estarán disponibles de forma nativa en el módulo Teams PowerShell. Los pasos de instalación están disponibles en el [artículo Instalar Teams PowerShell.](teams-powershell-install.md)
 >
-> - Los cmdlets estarán disponibles en la sesión de PowerShell una vez que se conecte a Skype Empresarial Online. Para obtener más información, vea Administrar Skype Empresarial Online con PowerShell de [Office 365.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> - Los cmdlets estarán disponibles en la sesión de PowerShell una vez que se conecte a Skype Empresarial Online. Para obtener más información, vea [Administrar Skype Empresarial Online con Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
-Busque los cmdlets para administrar directivas en el [módulo de cmdlets de Skype Empresarial.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
+Busque los cmdlets para administrar directivas en [el módulo Skype Empresarial cmdlet](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell).
 
 Una directiva es un grupo de configuraciones que se pueden aplicar granularmente a usuarios individuales. Cada tipo de directiva tiene su propio conjunto de cmdlets para crear, ver, eliminar y actualizar las propias directivas y, después, asignar esas directivas a los usuarios. La estructura general es:
 
@@ -72,9 +72,9 @@ Parámetros comunes:
 
 ## <a name="manage-configurations-via-powershell"></a>Administrar configuraciones a través de PowerShell
 
-Busque los cmdlets para administrar la configuración en el [módulo de cmdlets de Skype Empresarial.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
+Busque los cmdlets para administrar la configuración en [el módulo Skype Empresarial cmdlet](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell).
 
-Las configuraciones son cubos de configuración que se mantienen en el servicio que no se pueden especificar a nivel de usuario. La configuración siempre se aplica en toda la organización. La configuración global es la única configuración eficaz de su organización. Cada tipo de configuración incluye dos cmdlets principales:
+Las configuraciones son cubos de configuración que se mantienen en el servicio que no se pueden especificar a nivel de usuario. Configuración aplicar siempre en toda la organización. La configuración global es la única configuración eficaz de su organización. Cada tipo de configuración incluye dos cmdlets principales:
 
 - ``Get-Cs<ConfigurationName>`` (por ejemplo, ``Get-CsTeamsClientConfiguration`` ):
 
@@ -83,16 +83,16 @@ Las configuraciones son cubos de configuración que se mantienen en el servicio 
 
 ## <a name="what-can-each-admin-role-do"></a>¿Qué puede hacer cada rol de administrador?
 
-Lea [Usar roles de administrador de Microsoft Teams para administrar Teams](using-admin-roles.md) para comprender qué roles de administrador pueden ejecutar cada cmdlet de PowerShell.
+Lea [Usar Microsoft Teams de administrador para](using-admin-roles.md) administrar Teams comprender qué roles de administrador pueden ejecutar cada cmdlet de PowerShell.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Instalación de Teams PowerShell](teams-powershell-install.md)
+[Instalar Teams PowerShell](teams-powershell-install.md)
 
-[Notas de la versión de PowerShell de Teams](teams-powershell-release-notes.md)
+[Teams Notas de la versión de PowerShell](teams-powershell-release-notes.md)
 
 [Referencia de cmdlet para Teams](/powershell/teams/?view=teams-ps)
 
-[Referencia de cmdlet de Skype Empresarial](/powershell/skype/intro?view=skype-ps)
+[Skype Empresarial referencia de cmdlet](/powershell/skype/intro?view=skype-ps)
 
 [Usar roles de administrador para administrar Teams](using-admin-roles.md)

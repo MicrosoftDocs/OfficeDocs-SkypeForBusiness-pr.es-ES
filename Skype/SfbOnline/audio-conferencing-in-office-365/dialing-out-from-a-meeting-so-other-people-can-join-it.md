@@ -1,5 +1,5 @@
 ---
-title: Llamar desde una reunión de Skype Empresarial para que otras personas puedan unirse a ella
+title: Marcar desde una reunión Skype Empresarial para que otras personas puedan unirse a ella
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,25 +21,27 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Obtenga más información sobre qué necesita y cómo los organizadores de una reunión pueden llamar a otras personas con Skype for Business.
-ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 814d753570fd2337a8e443f93c3d58748711b964
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164289"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238505"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Skype Empresarial para que otras personas puedan unirse a ella
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Marcar desde una reunión Skype Empresarial para que otras personas puedan unirse a ella
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 > Si está buscando información acerca de cómo llamar desde una reunión de Teams, vea [Llamar desde una reunión de Teams para que otras personas puedan unirse](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
-As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:
+Como organizador de la reunión, puede llamar con la Skype Empresarial para permitir que otras personas se unan a la misma reunión con su teléfono. Aunque no es necesario, cuando llama a alguien se recomienda que llame al número completo, incluido el código de región o país. Para llamar al trabajo:
   
-- Puede llamar solo si se une a una reunión con una aplicación de Skype Empresarial.
+- Solo puede llamar si se une a una reunión con una Skype Empresarial aplicación.
     
 - Como organizador de la reunión, está habilitado para las conferencias de acceso telefónico local.
 
-Para agregar a otros participantes mediante llamada a las reuniones de su organización, es necesario que al menos un usuario autenticado de la misma organización que el organizador (su organización) esté presente en la reunión para permitir la adición de otros participantes a través de la llamada. 
+Para agregar otros participantes a través del acceso telefónico a las reuniones de su organización, es necesario que al menos un usuario autenticado de la misma organización que el organizador (su organización) esté presente en la reunión para permitir la adición de otros participantes a través del acceso telefónico. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -54,11 +56,11 @@ Para agregar a otros participantes mediante llamada a las reuniones de su organi
   
 ## <a name="supported-countries-and-regions"></a>Países y regiones admitidas
 
-Dial-out is only available to some countries/regions. Para ver la lista completa, consulte Disponibilidad del país y la región para planes de [audioconferencia y llamadas.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+Dial-out is only available to some countries/regions. Para obtener una lista completa, vea [Disponibilidad de país y región para planes de audioconferencias y llamadas.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>¿Desea saber más sobre las conferencias de acceso telefónico local?
 
-[Probar o comprar Audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Pruebe o compre Audioconferencia en Microsoft 365 o Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Licencias de complemento de Skype Empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

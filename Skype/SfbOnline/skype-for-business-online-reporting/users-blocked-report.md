@@ -18,45 +18,47 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 'Este informe, junto con otros informes de Skype Empresarial, le ofrece detalles sobre la actividad, incluido el uso de RTC en toda su organización. '
-ms.openlocfilehash: d5fa69d096f5dc5f2af6f8b5a3c04a3155b8cd9e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Este informe, junto con otros Skype Empresarial, le proporciona detalles sobre la actividad, incluido el uso de RTC en toda la organización. '
+ms.openlocfilehash: 174a186b2f629dced46910fd206d33ce82b701c8
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692335"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238136"
 ---
 # <a name="users-blocked-report"></a>Informe de usuarios bloqueados
 
-El nuevo panel de informes de Skype Empresarial **le** muestra la información general de la actividad de los productos de Skype Empresarial de su organización. Le permite explorar informes individuales de nivel de producto para darle más información pormenorizados acerca de las actividades dentro de cada producto. Por ejemplo, puede usar el informe Usuarios bloqueados de **Skype** Empresarial para ver los usuarios de su organización a los que se les ha bloqueado la realización de llamadas RTC. Este informe, junto con otros informes de Skype Empresarial, le ofrece detalles sobre la actividad, incluido el uso de RTC en toda su organización.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+El nuevo panel Skype Empresarial **informes** le muestra la información general sobre la actividad en Skype Empresarial productos de su organización. Le permite profundizar en informes individuales de nivel de producto para proporcionar información más detallada sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe **Skype Empresarial usuarios** bloqueados para ver los usuarios de su organización que se han bloqueado para realizar llamadas RTC. Este informe, junto con otros Skype Empresarial, le proporciona detalles sobre la actividad, incluido el uso de RTC en toda la organización.
   
- Consulte la información [general de los informes](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para ver más informes que están disponibles.
+ Consulte información general [sobre informes](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para obtener más informes disponibles.
   
 > [!NOTE]
-> Puede ver todos los informes de Skype Empresarial al iniciar sesión como administrador en el Centro de administración de Microsoft 365. 
+> Puede ver todos los informes de Skype Empresarial al iniciar sesión como administrador en el centro Microsoft 365 administración. 
   
-## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Cómo obtener el informe usuarios bloqueados de Skype Empresarial
+## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Cómo obtener acceso al informe Skype Empresarial usuarios bloqueados
 
 ![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-- Vaya al Centro de administración > **Centro de administración de** Skype Empresarial para ver si hay usuarios  >    >    >  **bloqueados.**
+- Vaya al centro de administración > **centros de** administración Skype Empresarial centro  >  **de administración** Informa que  >  **los** usuarios están  >  **bloqueados.**
     
-## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpretar el informe usuarios bloqueados de Skype Empresarial
+## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpretar el informe Skype Empresarial usuarios bloqueados
 
-Puede obtener una vista de los usuarios bloqueados consultando cada una de las columnas que se muestran.
+Puede obtener una vista en usuarios bloqueados consultando cada una de las columnas que se muestran.
   
 Este es el aspecto del informe. 
   
 ![Informe de usuarios bloqueados](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
 
-La tabla muestra un desglose de todos los usuarios a los que no se permite realizar llamadas. Se muestran todos los usuarios que tienen asignado Sistema telefónico o Audioconferencia. Puede agregar o quitar columnas en la tabla.
+La tabla muestra un desglose de todos los usuarios que están bloqueados para realizar llamadas. Esto muestra todos los usuarios que tienen Sistema telefónico o Audioconferencia asignados a ellos. Puede agregar o quitar columnas en la tabla.
 ***
 ![Número 1](../images/sfbcallout1.png)
-*   **El id.** de usuario es el inicio de sesión del usuario.
-*   **El número** de teléfono es el número que se asigna a un usuario. 
-*   **El tiempo de acción** de bloqueo es la hora (UTC) en la que se bloqueó al usuario para que no pueda realizar llamadas.
-*   **La acción** de bloqueo es el tipo de acción que se ha realizado para bloquear al usuario.
-*   **El motivo de la acción de** bloqueo es el motivo por el que se bloqueó al usuario para que no realizara llamadas.
+*   **Id. de** usuario es el inicio de sesión del usuario.
+*   **Teléfono es** el número asignado a un usuario. 
+*   **Bloquear el tiempo de** acción es la hora (UTC) en la que el usuario no ha hecho llamadas.
+*   **Bloquear acción** es el tipo de acción que se ha realizado para bloquear al usuario.
+*   **El motivo de la acción** de bloqueo es la razón por la que el usuario se ha bloqueado para realizar llamadas.
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>
 Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
@@ -69,24 +71,24 @@ De esta forma se exportan los datos de todos los usuarios, a los que puede aplic
 
 ## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros informes de Skype Empresarial?
 
-- [Informe de actividad de Skype Empresarial](activity-report.md) Puede ver cuánto utilizan sus usuarios las sesiones de conferencia punto a punto, organizadas y participadas.
+- [Skype Empresarial actividad](activity-report.md) Puede ver cuánto usan los usuarios de punto a punto, organizados y participados en sesiones de conferencia.
     
-- [Informe de uso de dispositivos de Skype Empresarial](device-usage-report.md) Puede ver los dispositivos, incluidos los sistemas operativos basados en Windows y los dispositivos móviles que tienen la aplicación de Skype Empresarial instalada y que lo utilizan para mensajería instantánea y reuniones.
+- [Skype Empresarial de uso de dispositivos](device-usage-report.md) Puede ver los dispositivos, incluidos los sistemas operativos basados en Windows y los dispositivos móviles que tienen la aplicación Skype Empresarial instalada y la usan para mensajería instantánea y reuniones.
     
-- [Informe de actividad de organizador de conferencias de Skype Empresarial](conference-organizer-activity-report.md) Puede ver cuánto utilizan sus usuarios las conferencias que utilizan la MI, el audio/vídeo, el uso compartido de aplicaciones, la Web, las llamadas locales (terceros) y las llamadas o salidas (Microsoft).
+- [Skype Empresarial actividad del organizador de conferencias](conference-organizer-activity-report.md) Puede ver cuánto están organizando los usuarios conferencias que usan mensajería instantánea, audio/vídeo, uso compartido de aplicaciones, Web, acceso telefónico/salida - terceros y acceso telefónico local / salida - Microsoft.
     
-- [Informe de actividad de participantes de conferencias de Skype Empresarial](conference-participant-activity-report.md) Puede ver en cuántas conferencias de MI, audio/vídeo, uso compartido de aplicaciones, web y de acceso telefónico local/externo están participando los usuarios.
+- [Skype Empresarial actividad de los participantes de la conferencia](conference-participant-activity-report.md) Puede ver cuántas conferencias de mensajería instantánea, audio/vídeo, uso compartido de aplicaciones, conferencias web y de acceso telefónico local/externo están participando.
     
-- [Informe de actividad punto a punto de Skype Empresarial](peer-to-peer-activity-report.md) Puede ver cuánto utilizan sus usuarios la MI, el audio/vídeo, el uso compartido de aplicaciones y la transferencia de archivos.
+- [Skype Empresarial de actividad punto a punto](peer-to-peer-activity-report.md) Puede ver la cantidad de usuarios que usan mensajería instantánea, audio/vídeo, uso compartido de aplicaciones y transferencia de archivos.
     
-- [Informe de uso de RTC de Skype Empresarial](pstn-usage-report.md) Puede ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas.
+- [Skype Empresarial de uso de RTC](pstn-usage-report.md) Puede ver el número de minutos invertidos en llamadas entrantes y salientes y el costo de estas llamadas.
 
-- [El informe de los grupos de](pstn-minute-pools-report.md) minutos RTC de Skype Empresarial permite ver el número de minutos consumidos durante el mes actual dentro de su organización.
+- [Skype Empresarial de grupos de minutos](pstn-minute-pools-report.md) RTC puede ver el número de minutos consumidos durante el mes actual dentro de su organización.
 
-- [Informe de detalles de la sesión de Skype Empresarial](session-details-report.md) Puede ver detalles sobre las experiencias de llamada de un usuario individual.
+- [Skype Empresarial detalles de la sesión](session-details-report.md) Puede ver detalles sobre las experiencias de llamada de un usuario individual.
    
 ## <a name="related-topics"></a>Temas relacionados
-[Informes de actividades en el centro de administración](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Informes de actividad en el Centro de administración](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Obtenga información sobre causas comunes de error en el inicio de sesión en Skype Empresarial Online y la forma de solucionar estos problemas. '
-ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103846"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239408"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Solucionar problemas de inicio de sesión en Skype Empresarial Online para administradores
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Para solucionar errores durante el inicio de sesión en Skype Empresarial Online, empiece por eliminar las causas más frecuentes de dificultades durante el inicio de sesión. Si es necesario, puede seguir pasos específicos de solución, según el tipo de error. Si, aún así, el usuario no puede iniciar sesión, recopile más información y busque más ayuda.
 

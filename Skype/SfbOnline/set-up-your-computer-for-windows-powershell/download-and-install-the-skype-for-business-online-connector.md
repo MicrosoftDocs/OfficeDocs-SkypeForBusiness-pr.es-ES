@@ -1,5 +1,5 @@
 ---
-title: Descargar e instalar el módulo Conector de Skype Empresarial Online
+title: Descargar e instalar el módulo Skype Empresarial Online Connector
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,22 +18,24 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Descargue, instale y, a continuación, use el conector de Skype Empresarial Online para crear una sesión de Windows PowerShell que se conecte a Skype Empresarial Online.
-ms.openlocfilehash: 0e00b9dd18b04deaf3d2123de1fa9609040c4e2f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Descargue, instale y, a continuación, use Skype Empresarial Online Connector para crear una sesión de Windows PowerShell que se conecte a Skype Empresarial Online.
+ms.openlocfilehash: e9429b385f83f6b76e211614f953f7d439df524e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097206"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238871"
 ---
-# <a name="download-and-install-the-teams-powershell-module"></a>Descargar e instalar el módulo de PowerShell de Teams
+# <a name="download-and-install-the-teams-powershell-module"></a>Descargar e instalar el módulo Teams PowerShell
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 
-> La última versión pública de PowerShell de Teams está integrada con Skype Empresarial Online Connector, proporcionando un único módulo para la administración de [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) en línea de Teams y Skype Empresarial.
+> La última Teams versión pública de [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) se integra con Skype Empresarial Online Connector, lo que proporciona un único módulo para Teams y Skype Empresarial administración de PowerShell en línea.
 
 
-1. Instale el [módulo de PowerShell de Teams.](/microsoftteams/teams-powershell-install)
+1. Instale el [Teams PowerShell](/microsoftteams/teams-powershell-install).
     
 2. Abra un Windows PowerShell de comandos y ejecute los siguientes comandos: 
 
@@ -43,7 +45,7 @@ ms.locfileid: "51097206"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea Conectarse a todos los servicios de [Microsoft 365 u Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) en una sola ventana de Windows PowerShell o Configurar el equipo para [Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea Conectar todos los servicios de Microsoft 365 o Office 365 en una única ventana de [Windows PowerShell](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) o Configurar el equipo para [Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="related-topics"></a>Temas relacionados
 [Configurar el equipo para la administración en línea de Skype Empresarial con Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

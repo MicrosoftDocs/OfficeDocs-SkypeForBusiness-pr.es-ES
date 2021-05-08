@@ -19,17 +19,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Obtenga información sobre cómo cambiar entre las interfaces de usuario de cliente de Skype Empresarial y Lync con PowerShell en Microsoft 365 u Office 365 '
-ms.openlocfilehash: c82f2bb9877c29038a6861c00036ba92de100561
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Obtenga información sobre cómo cambiar entre Skype Empresarial y las interfaces de usuario de cliente de Lync con PowerShell en Microsoft 365 o Office 365 '
+ms.openlocfilehash: 4fad8e0953e95885e9074d62d8eb0c2a59494976
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113216"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239585"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Cambiar de la interfaz de usuario del cliente de Lync a la de Skype Empresarial
 
-Para las organizaciones de Skype Empresarial Online, puede usar el PowerShell remoto en Microsoft 365 u Office 365 para permitir que los usuarios de Skype Empresarial usen el cliente de Skype Empresarial o la interfaz de usuario de cliente de Skype Empresarial. La configuración predeterminada es que los usuarios usen la interfaz de usuario del cliente de Skype Empresarial. Si prefiere usar la experiencia de cliente de Lync, puede administrar el primer comportamiento de cliente de inicio para mostrar la interfaz de usuario de Lync siguiendo los pasos que se indican más adelante en este tema.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Para Skype Empresarial en línea, puede usar PowerShell remoto en Microsoft 365 o Office 365 para permitir que los usuarios de Skype Empresarial usen el cliente Skype Empresarial o la interfaz de usuario del cliente Skype Empresarial (Lync). La configuración predeterminada es que los usuarios usen la Skype Empresarial de usuario del cliente. Si prefiere usar la experiencia de cliente de Lync, puede administrar el primer comportamiento de cliente de inicio para mostrar la interfaz de usuario de Lync siguiendo los pasos que se indican más adelante en este tema.
   
 > [!NOTE]
 > La experiencia de cliente con Lync 2013 no está disponible en las versiones de cliente de Skype Empresarial 2016. Antes de que intente configurar su entorno de cliente para usar el cliente de Lync 2013, compruebe la versión y asegúrese de que no empieza con el número 16; por ejemplo: 16.x.x.x. 
@@ -95,7 +97,7 @@ Para permitir que varios usuarios de su organización utilicen el cliente de Sky
   
 
 ```PowerShell
-$users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
+$users = @("sip:bob@contoso.com&quot;,&quot;sip:fred@contoso.com") 
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
@@ -133,17 +135,17 @@ Esta tabla muestra la experiencia de usuario cuando la directiva se aplica prime
 |:-----|:-----|
 |La directiva no está configurada. |El usuario continuará utilizando la interfaz de usuario del cliente de Skype Empresarial.|
 |`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|El usuario continuará utilizando la interfaz de usuario del cliente de Skype Empresarial.|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|Se le pedirá al usuario que cambie a la interfaz de usuario del cliente de Skype Empresarial. Pueden realizar el cambio más tarde.|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|El usuario estará usando la interfaz de usuario del cliente de Skype Empresarial. |
-`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|Se le pedirá al usuario que cambie a la interfaz de usuario del cliente de Skype Empresarial. Un administrador puede cambiar la configuración en el futuro, por lo que cambiará la interfaz de usuario del cliente de Skype Empresarial. |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|Se le pedirá al usuario que cambie a la interfaz de usuario Skype Empresarial cliente (Lync). Pueden realizar el cambio más tarde.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|El usuario usa la interfaz de Skype Empresarial cliente. |
+`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|Se le pedirá al usuario que cambie a la interfaz de usuario Skype Empresarial cliente (Lync). Un administrador puede cambiar la configuración en el futuro, por lo que cambiará la interfaz de usuario del cliente de Skype Empresarial. |
    
 Esta tabla muestra la experiencia de usuario cuando se cambia la directiva:
   
 |**Configuración de la directiva de administrador**|**Interfaz de usuario de Skype Empresarial (Lync)**|**Interfaz de usuario de Skype Empresarial**|
 |:-----|:-----|:-----|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|Se le pedirá al usuario que cambie a la interfaz de usuario del cliente de Skype Empresarial.  <br/> |El usuario seguirá usando la interfaz de usuario del cliente de Skype Empresarial.  <br/> |
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|El usuario seguirá usando la interfaz de Skype Empresarial.  <br/> |Se le pedirá al usuario que cambie a la interfaz de usuario del cliente de Skype Empresarial.  <br/> |
-|La directiva no está configurada.  <br/> |Los usuarios nunca verán la interfaz de usuario del cliente de Skype Empresarial si la directiva no está establecida. Siempre utilizarán la interfaz de usuario del cliente de Skype Empresarial.  <br/> |El usuario seguirá usando la interfaz de usuario del cliente de Skype Empresarial.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|Se le pedirá al usuario que cambie a la Skype Empresarial de usuario del cliente.  <br/> |El usuario seguirá usando la interfaz de usuario Skype Empresarial cliente.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|El usuario seguirá usando la interfaz Skype Empresarial (Lync).  <br/> |Se le pedirá al usuario que cambie a la interfaz de usuario Skype Empresarial cliente (Lync).  <br/> |
+|La directiva no está configurada.  <br/> |Los usuarios nunca verán la Skype Empresarial de usuario del cliente (Lync) si no se establece la directiva. Siempre utilizarán la interfaz de usuario del cliente de Skype Empresarial.  <br/> |El usuario seguirá usando la interfaz de usuario Skype Empresarial cliente.  <br/> |
    
 Esta tabla muestra todas las directivas personalizadas disponibles en línea. Hay nuevas políticas creadas para dar flexibilidad a los administradores para que conserven la antigua directiva personalizada al cambiar entre las marcas EnableSkypeUI. Use los cmdlets de arriba para conceder una de las siguientes directivas a los usuarios.
   
@@ -167,9 +169,9 @@ Esta tabla muestra todas las directivas personalizadas disponibles en línea. Ha
    
 Para empezar con Windows PowerShell, vea estos temas:
   
-- [Por qué necesita usar Microsoft 365 u Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [¿Por qué necesita usar Microsoft 365 o Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 ## <a name="first-launch-client-behaviors"></a>Comportamientos del cliente en el primer inicio
 
@@ -201,7 +203,7 @@ La interfaz de usuario de Lync se mostrará ahora cuando los usuarios inicien el
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Tutorial sobre controlar cómo se muestra la pantalla de bienvenida
 
-Cuando los usuarios abren el cliente de Skype Empresarial, el comportamiento predeterminado es mostrar una pantalla de bienvenida que incluye 7 sugerencias rápidas que la mayoría de las personas *solicitan.* Puede desactivar la visualización de la pantalla de inicio de sesión, pero puede permitir que los usuarios sigan teniendo acceso al tutorial agregando el siguiente valor de registro en el equipo del cliente:
+Cuando los usuarios abren Skype Empresarial cliente, el comportamiento predeterminado es mostrar una pantalla de bienvenida que incluye 7 sugerencias rápidas que la mayoría de las personas *solicitan.* Puede desactivar la visualización de la pantalla de inicio de sesión, pero puede permitir que los usuarios sigan teniendo acceso al tutorial agregando el siguiente valor de registro en el equipo del cliente:
   
 En la clave **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0 \\Lync]**, cree un nuevo **valor DWORD (32 bits)**. El **Nombre del valor** debe ser **IsBasicTutorialSeenByUser** y los **Datos del valor** deben configurarse como **1**.
   
@@ -249,7 +251,7 @@ El procedimiento siguiente describe cómo modificar el registro de manera que la
 |:-----|:-----|
 |**Acción** <br/> |**Creación** <br/> |
 |**Subárbol** <br/> | HKEY_CURRENT_USER <br/> |
-|**Ruta de la clave** <br/> |Software \\ Microsoft \\ Office \\ Lync  <br/> |
+|**Ruta de la clave** <br/> |Software \\ microsoft \\ Office \\ Lync  <br/> |
 |**Nombre de valor** <br/> |EnableSkypeUI  <br/> |
 |**Tipo de valor** <br/> |REG_BINARY  <br/> |
 |**Datos del valor** <br/> |00000000  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Administrar organizaciones de Skype Empresarial Online
+title: Administrar Skype Empresarial en línea
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,23 +18,25 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Use Windows PowerShell y los cmdlets Get-CsTenant y Get-CsTenantLicensingConfiguration para obtener información sobre su inquilino de Skype Empresarial Online.
-ms.openlocfilehash: ed15d062bf4f2e5f2ad0f47169ac0626d2c59d20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Use Windows PowerShell y los cmdlets Get-CsTenant y Get-CsTenantLicensingConfiguration para obtener información sobre su Skype Empresarial en línea.
+ms.openlocfilehash: 2fa95bf8997dd0aff7271b1383c69d9b27c4f4a9
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113186"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238790"
 ---
-# <a name="manage-skype-for-business-online-organizations"></a>Administrar organizaciones de Skype Empresarial Online
+# <a name="manage-skype-for-business-online-organizations"></a>Administrar Skype Empresarial en línea
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 > [!NOTE]
-> La versión preliminar pública más reciente de [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) se integra con Skype Empresarial Online Connector, proporcionando un único módulo para la administración de PowerShell de Teams.
+> La versión Teams versión preliminar pública de [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) se integra con Skype Empresarial Online Connector, lo que proporciona un único módulo para Teams administración de PowerShell.
 
-Puede encontrar información sobre su espacio empresarial de Skype Empresarial Online con los **cmdlets Get-CsTenant** y **Get-CsTenantLicensingConfiguration.**
+Puede encontrar información sobre su espacio empresarial Skype Empresarial Online mediante los **cmdlets Get-CsTenant** y **Get-CsTenantLicensingConfiguration.**
   
-## <a name="manage-skype-for-business-online-tenants"></a>Administrar inquilinos de Skype Empresarial Online
+## <a name="manage-skype-for-business-online-tenants"></a>Administrar Skype Empresarial en línea
 
-Para devolver información sobre su inquilino de Skype Empresarial Online, llame al cmdlet [Get-CsTenant](/powershell/module/skype/Get-CsTenant) sin parámetros adicionales.
+Para devolver información sobre su espacio empresarial Skype Empresarial online, llame al cmdlet [Get-CsTenant](/powershell/module/skype/Get-CsTenant) sin ningún parámetro adicional.
   
 ```PowerShell
 Get-CsTenant
@@ -48,7 +50,7 @@ Get-CsTenant | Select-Object Name, TenantID
 
 El valor del parámetro _TenantID_ es necesario al ejecutar cmdlets como [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) y [Set-CsTenantFederationConfiguration.](/powershell/module/skype/Set-CsTenantFederationConfiguration)
   
-Para obtener información sobre si la información de licencias para el espacio empresarial especificado está disponible en el Centro de administración de Skype Empresarial Online, use el cmdlet [Get-CsTenantLicensingConfiguration.](/powershell/module/skype/Get-CsTenantLicensingConfiguration)
+Para obtener información sobre si la información de licencias para el espacio empresarial especificado está disponible en el centro de administración de Skype Empresarial Online, use el cmdlet [Get-CsTenantLicensingConfiguration.](/powershell/module/skype/Get-CsTenantLicensingConfiguration)
   
 ## <a name="related-topics"></a>Temas relacionados
 [Configurar el equipo para la administración en línea de Skype Empresarial con Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

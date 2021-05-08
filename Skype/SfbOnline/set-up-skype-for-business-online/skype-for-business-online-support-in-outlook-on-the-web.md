@@ -18,19 +18,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Outlook en la web (Outlook Web App) en Microsoft 365 u Office 365 ofrece un cliente web básico de Skype Empresarial en la barra de navegación. Este cliente básico está disponible para usuarios en línea cuyo administrador no ha configurado una URL mnity para Microsoft 365 y Office 365. Siempre que la cuenta del usuario esté en línea y no tenga una URL mnóster, seguirán teniendo la experiencia incluso si su organización tiene algunas cuentas de usuario que están hogaradas en local. Los usuarios que tengan cuentas de usuario locales (tengan o no una URL mnonimato) o que sean administradas por Microsoft verán la experiencia de Lync en Outlook Web App.
-ms.openlocfilehash: ab426bdaf0261dcfb3375934eb1e5a6f5bd6df79
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: Outlook en la web (Outlook Web App) en Microsoft 365 o Office 365 ofrece un cliente web Skype Empresarial básico desde la barra de navegación. Este cliente básico está disponible para usuarios en línea cuyo administrador no ha configurado una dirección URL de vanidad para sus Microsoft 365 y Office 365. Siempre que la cuenta del usuario esté en línea y no tenga una dirección URL de vanidad, seguirán teniendo la experiencia incluso si su organización tiene algunas cuentas de usuario que se encuentran en el entorno local. Los usuarios que tengan cuentas de usuario locales (independientemente de que tengan una dirección URL de vanidad o no) o estén administrados por Microsoft verán la experiencia de Lync en la Outlook web.
+ms.openlocfilehash: aa6f82f6647db1816c630486bee0d415d05b3b77
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164116"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239575"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Compatibilidad de Skype Empresarial Online en Outlook en la web
 
-Outlook en la web (Outlook Web App) en Microsoft 365 u Office 365 ofrece un cliente web básico de Skype Empresarial en la barra de navegación. Este cliente básico está disponible para usuarios en línea cuyo administrador no ha configurado una URL mnity para Microsoft 365 y Office 365. Siempre que la cuenta del usuario esté en línea y no tenga una URL mnóster, seguirán teniendo la experiencia incluso si su organización tiene algunas cuentas de usuario que están hogaradas en local. Los usuarios que tengan cuentas de usuario locales (tengan o no una URL mnonimato) o que sean administradas por Microsoft verán la experiencia de Lync en Outlook Web App.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Outlook en la web (Outlook Web App) en Microsoft 365 o Office 365 ofrece un cliente web Skype Empresarial básico desde la barra de navegación. Este cliente básico está disponible para usuarios en línea cuyo administrador no ha configurado una dirección URL de vanidad para sus Microsoft 365 y Office 365. Siempre que la cuenta del usuario esté en línea y no tenga una dirección URL de vanidad, seguirán teniendo la experiencia incluso si su organización tiene algunas cuentas de usuario que se encuentran en el entorno local. Los usuarios que tengan cuentas de usuario locales (independientemente de que tengan una dirección URL de vanidad o no) o estén administrados por Microsoft verán la experiencia de Lync en la Outlook web.
   
-En la tabla siguiente se resumen las diferentes configuraciones que puede tener y el cliente web que se utiliza.
+En la tabla siguiente se resumen las distintas configuraciones que puede tener y el cliente web que se usa.
   
 ||||
 |:-----|:-----|:-----|
@@ -41,8 +43,8 @@ En la tabla siguiente se resumen las diferentes configuraciones que puede tener 
 |Híbrida pero hospedada en línea  <br/> |Sí  <br/> |Experiencia web de Lync  <br/> |
 |Híbrida pero hospedada localmente  <br/> |No  <br/> |Experiencia web de Lync  <br/> |
 |Híbrida pero hospedada localmente  <br/> |Sí  <br/> |Experiencia web de Lync  <br/> |
-|Pura sobre la prem  <br/> |No  <br/> |Experiencia web de Lync  <br/> |
-|Pura sobre la prem  <br/> |Sí  <br/> |Experiencia web de Lync  <br/> |
+|Pure on prem  <br/> |No  <br/> |Experiencia web de Lync  <br/> |
+|Pure on prem  <br/> |Sí  <br/> |Experiencia web de Lync  <br/> |
    
 
 ## <a name="related-topics"></a>Temas relacionados

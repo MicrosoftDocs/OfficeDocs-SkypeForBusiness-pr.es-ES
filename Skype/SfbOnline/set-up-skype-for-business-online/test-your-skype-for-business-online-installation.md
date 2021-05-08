@@ -19,20 +19,22 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 378fe1ad980de5c28c9175cf7e1e918b580c257a
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164299"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239521"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Probar la instalación de Skype Empresarial Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 [] Ahorre tiempo, reduzca las llamadas de soporte técnico y aumente la satisfacción del usuario al probar su instalación de Skype Empresarial Online antes de configurarla para todos en su organización.
 
 Esto es lo que necesita:
 
-- Al menos tres cuentas de Microsoft 365 u Office 365 (la de su usuario y al menos otras dos).
+- Al menos tres Microsoft 365 o Office 365 cuentas (la de los usuarios y al menos otras dos).
 
 - Un equipo para cada cuenta de prueba. Configúrelas como una computadora común de su organización.
 
@@ -51,7 +53,7 @@ Esto es lo que necesita:
 ## <a name="set-up-test-accounts"></a>Configurar cuentas de prueba
 <a name="__toc328126910"> </a>
 
-1. Vaya a **Administrador** de Usuarios y grupos de  >  **Microsoft 365** u **Office 365** y, a continuación, seleccione Agregar y  >  escriba la información ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) necesaria.
+1. Vaya a **Administrador Microsoft 365** o Office 365 Usuarios y grupos y, a continuación, seleccione  >   Agregar y escriba la   >   ![ información ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) necesaria.
 
 2. Cuando llegue al Paso 4 (correo electrónico), escriba su propia dirección de correo electrónico. Tendrá entonces un registro del nombre y la contraseña del nuevo usuario.
 
@@ -62,7 +64,7 @@ Esto es lo que necesita:
 
 En cada equipo de prueba:
 
-1. Vaya a la página principal de Microsoft 365 u Office 365 e inicie sesión con las credenciales de una de sus cuentas de prueba.
+1. Vaya a la Microsoft 365 o Office 365 página principal e inicie sesión con las credenciales de una de las cuentas de prueba.
 
 2. Vaya a **Configuración**![Configuración: actualizar el perfil, instalar software y conectarse a la nube](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) y, a continuación, haga clic en **Instalar el software y conectarlo a la nube**.
 
@@ -79,7 +81,7 @@ Después de configurar los usuarios para las audioconferencias, estos reciben un
 
  **Para agregar información de audioconferencias a la cuenta de uno de los usuarios de prueba**
 
-1. Haga clic **en Usuarios de Audioconferencia.**  >  
+1. Haga clic **en Usuarios de audioconferencia.**  >  
 
 2. Haga clic en los nombres de los usuarios que desea configurar para conferencias de acceso telefónico y, a continuación, haga clic en **Editar**![Editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
 

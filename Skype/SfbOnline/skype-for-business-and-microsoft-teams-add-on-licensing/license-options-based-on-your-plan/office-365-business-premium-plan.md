@@ -20,40 +20,42 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Obtenga información sobre licencias de complementos, características y cómo comprar para planes de Microsoft 365 Empresa Estándar. '
-ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 'Obtenga información sobre licencias de complementos, características y cómo comprar para Microsoft 365 Empresa Estándar planes. '
+ms.openlocfilehash: e7a63c210264109eab0df1e89cf214de3cc5d827
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777415"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238488"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 Empresa Estándar
 
-Si tiene [Microsoft 365 Empresa Estándar,](https://products.office.com/en/business/office-365-business-premium)puede usar Skype Empresarial para realizar llamadas a otras personas de su empresa que están en su suscripción. Por ejemplo, si su empresa tiene 10 personas, puede llamarse y usar mensajería instantánea entre sí mediante Skype Empresarial.
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
+Si tiene [Microsoft 365 Empresa Estándar](https://products.office.com/en/business/office-365-business-premium), puede usar Skype Empresarial realizar llamadas a otras personas de su empresa que estén en su suscripción. Por ejemplo, si la empresa tiene 10 personas, podrán llamarse y enviarse mensajes instantáneos mutuamente mediante Skype Empresarial.
 
  **Para realizar y recibir llamadas de personas ajenas a la empresa, tiene dos opciones**:
 
-- **Option 1. Use the free [Skype app](https://www.skype.com/)**. If you have a very small business (for example, 1-2 people), using the Skype app is the better way to go. It's less expensive to use for domestic and international calls. You can still hold conference calls, make video calls, and share your desktop for presentations. [Check out the rates and payment options](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
+- **Opción 1. Usar la [aplicación Skype](https://www.skype.com/)**. Si tiene una empresa muy pequeña (por ejemplo, 1 o 2 personas), la aplicación de Skype es la mejor solución. Es más económica de usar para llamadas nacionales e internacionales. Aún puede retener llamadas de conferencia, realizar llamadas de vídeo y compartir el escritorio para presentaciones. [Compruebe las tarifas y las opciones de pago](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
 
     Tenga en cuenta que la aplicación de Skype no forma parte de la suite Office 365, con lo que no estará integrada con Outlook 2016 de la misma forma que Skype Empresarial. Esto significa que sus contactos de Outlook 2016 no aparecerán en Skype y deberá agregarlos usted mismo.
 
     Recomendamos empezar con la aplicación de Skype para ver si cumple sus necesidades. En caso contrario, valore la opción siguiente: actualizar su plan.
 
     > [!IMPORTANT]
-    > You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
+    > Debe establecer un botón de alternancia para permitir a los empleados usar Skype Empresarial para buscar Skype usuarios. Vea [Permitir que Skype Empresarial usuarios agreguen Skype contactos.](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)
 
 
 - **Opción 2. Actualice su plan y compre un sistema telefónico y un plan de llamadas nacional, o nacional e internacional**.
 
     > [!Important]
-    > Although Skype for Business Online Plan 2 is included with the Office Business Premium subscription, **you can’t add cloud voice calling features**. So, we recommend that you evaluate an Enterprise E5 (or Enterprise E3) plan to see if it is more cost effective.
+    > Aunque el plan 2 de Skype Empresarial Online se incluye con la suscripción a Office Empresa Premium, **no se pueden agregar características de llamada de voz de la nube**. Por lo tanto, se recomienda que evalúe un plan Enterprise E5 (o Enterprise E3) para ver si es más rentable.
 
-1. [Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.
+1. [Cambiar a otro plan de Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Se recomienda evaluar un plan Enterprise E5 para ver si es más rentable.
 
 2. Compre el complemento del **sistema telefónico**.
     
-3. Comprar un [plan de llamadas para Office 365:](/MicrosoftTeams/calling-plans-for-office-365)  solo puede comprar esto después de comprar el complemento Sistema telefónico.
+3. Comprar un [plan de llamadas para Office 365:](/MicrosoftTeams/calling-plans-for-office-365)solo puedes comprar esto después de comprar Sistema telefónico complemento. 
     
     Esta segunda opción es ideal para las empresas en que hay varias personas que realizan y reciben llamadas telefónicas externas.
 
@@ -74,8 +76,8 @@ Si tiene [Microsoft 365 Empresa Estándar,](https://products.office.com/en/busin
 
 1. Cambie al plan E1 o E3.
 
-2. Vaya al Centro de administración > **suscripciones de**  >  **facturación.**
+2. Vaya al centro de administración > **suscripciones de**  >  **facturación.**
 
-3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
+3. Elija **Complementos**. Ahora verá los precios de Sistema telefónico y la opción de comprarlo.
 
-4. Después de comprar una **licencia de Sistema** telefónico, verá el precio y la opción para comprar un plan de llamadas.
+4. Después de comprar una **Sistema telefónico,** verá el precio y la opción para comprar un plan de llamadas.

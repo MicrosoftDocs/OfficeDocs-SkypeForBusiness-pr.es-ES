@@ -1,7 +1,7 @@
 ---
 title: Teléfonos y dispositivos para Microsoft Teams
-ms.author: dmaguire
-author: msdmaguire
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Vea qué dispositivos y periféricos USB (como auriculares, altavoces, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: c3bfa8f96bf91e3b57de5a42e3c2ac0f709fe221
-ms.sourcegitcommit: f489191900709985941fc2cdc5fe46834f300b35
+ms.openlocfilehash: 13638082503d26a184143d6189a9ff35bfc53555
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52106876"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282757"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
