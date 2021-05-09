@@ -1269,14 +1269,14 @@ items:
             href: business-voice/set-up-assign-numbers.md
           - name: 'Paso 6: Configurar un operador automático'
             href: business-voice/set-up-auto-attendant.md
+          - name: 'Paso 7: Portar números de teléfono (opcional)'
+            href: business-voice/port-phone-numbers.md
           - name: Recursos posteriores a la configuración
             href: business-voice/set-up-finish.md
       - name: Personalizar la configuración
         items:
           - name: Opciones de personalización
             href: business-voice/customize-business-voice.md
-          - name: Portabilidad de números de teléfono
-            href: business-voice/port-phone-numbers.md
           - name: Configurar directivas de llamadas
             href: business-voice/set-up-policies.md
           - name: Administrar los paquetes de directivas
