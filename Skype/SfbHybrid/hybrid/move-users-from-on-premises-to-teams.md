@@ -17,61 +17,64 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 'Summary: Learn how to migrate user settings and move users to Teams.'
-ms.openlocfilehash: 4a57d802d6405652724ce28ed2d26221dcc8db0f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumen: obtenga información sobre cómo migrar la configuración de usuario y mover usuarios a Teams.'
+ms.openlocfilehash: 1d2542d3c5b67e935449b4f6fee60506b9232adc
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110656"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306024"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover usuarios locales a Microsoft Teams
 
-Cuando un usuario se mueve de local a Solo Teams, la casa de Skype Empresarial del usuario se mueve de local a online y al usuario se le asigna TeamsUpgradePolicy con mode=TeamsOnly.  Una vez que un usuario se mueve del modo local al modo TeamsOnly:
+Cuando un usuario se mueve de local a solo Teams, la casa de Skype Empresarial del usuario se mueve de local Skype Empresarial en línea y se le asigna TeamsUpgradePolicy con mode=TeamsOnly.  Una vez que un usuario se mueve del modo local al modo TeamsOnly:
 
-- Todas las llamadas entrantes y los chats de otros usuarios (ya sean enviados desde Skype Empresarial o Teams), llegarán al cliente de Teams del usuario.
+- Todas las llamadas entrantes y los chats de otros usuarios (ya sean enviados desde Skype Empresarial o Teams), llegarán al cliente de Teams usuario.
 - El usuario podrá interoperar con otros usuarios que usan Skype Empresarial (ya sea en línea o local).
 - El usuario podrá comunicarse con usuarios de organizaciones federadas.
-- Las nuevas reuniones programadas por ese usuario son reuniones de Teams.
-- El usuario todavía puede unirse a cualquier reunión de Skype Empresarial.
+- Las nuevas reuniones programadas por ese usuario se Teams reuniones.
+- El usuario aún puede unirse a Skype Empresarial reuniones.
 - Las reuniones preexistentes del usuario programadas para el futuro se migrarán de local a Teams.
 - Los contactos que existían localmente están disponibles en Teams poco después de que el usuario inicie sesión por primera vez.
-- Los usuarios no pueden iniciar llamadas o chats desde Skype Empresarial ni pueden programar nuevas reuniones en Skype Empresarial. Si intentan abrir el cliente de Skype Empresarial, se les redirigirá para que usen Teams, como se muestra a continuación. Si el cliente de Teams no está instalado, se le dirigirá a la versión web de Teams mediante su explorador.<br><br>
+- Los usuarios no pueden iniciar llamadas o chats desde Skype Empresarial, ni pueden programar nuevas reuniones en Skype Empresarial. Si intentan abrir el cliente Skype Empresarial, se les redirigirá para que usen Teams como se muestra a continuación. Si el Teams no está instalado, se dirigirá a la versión web de Teams el explorador.<br><br>
     ![Mensaje que redirige a un usuario a Teams](../media/go-to-teams-page.png)
 
-Antes de mover usuarios, asegúrese de revisar los [requisitos previos](move-users-between-on-premises-and-cloud.md#prerequisites) para mover usuarios a la nube. Asegúrese también de revisar las instrucciones de migración e interoperabilidad para las organizaciones que [usan Teams junto con Skype Empresarial.](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+Antes de mover usuarios, asegúrese de revisar los [requisitos previos](move-users-between-on-premises-and-cloud.md#prerequisites) para mover usuarios a la nube. Asegúrese también de revisar las instrucciones de migración e interoperabilidad para las organizaciones que [usan Teams junto con Skype Empresarial](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
 
 > [!NOTE]
 > El Almacén de contactos unificado debe deshabilitarse en la cuenta de SfB local para que el contacto se traslade a Teams.
 
 
-Hay dos métodos para mover un usuario localmente a Teams:
+Actualmente hay *dos* métodos para mover un usuario de local a Teams:
 
 - Si usa una versión anterior a Skype Empresarial Server 2015 CU8, el movimiento requiere dos pasos (que se pueden crear juntos como un solo paso, si lo desea):
   - [Mueva el usuario de Skype Empresarial Server (local) a Skype Empresarial Online](move-users-from-on-premises-to-skype-for-business-online.md).
-  - Una vez que el usuario se encuentra en Skype Empresarial Online, asigne al usuario TeamsUpgradePolicy con mode= TeamsOnly. Para conceder el modo TeamsOnly, ejecute el siguiente cmdlet desde una ventana de PowerShell de Skype Empresarial Online: `Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
-- Si tiene herramientas de administración de Skype Empresarial Server 2015 CU8 o posterior, puede usar el método anterior o puede realizar este movimiento en un paso como se describe a continuación. Además, también puede proporcionar una notificación dentro del cliente de Skype Empresarial antes de moverlos a Teams Only, así como, opcionalmente, hacer que el cliente de Teams descargue silenciosamente el cliente de Skype Empresarial.
+  - Una vez que el usuario se encuentra en Skype Empresarial Online, asigne al usuario TeamsUpgradePolicy con mode= TeamsOnly. Para conceder el modo TeamsOnly, ejecute el siguiente cmdlet desde una ventana Skype Empresarial PowerShell en línea:`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
+- Si tiene herramientas de administración de Skype Empresarial Server 2015 CU8 o posterior, puede usar el método anterior o puede realizar este movimiento en un paso como se describe a continuación. Además, opcionalmente, puede proporcionar una notificación dentro del cliente de Skype Empresarial antes de moverlos a Teams Only, así como, opcionalmente, que el cliente de Teams descargue silenciosamente el cliente Skype Empresarial.
 
-## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Mover un usuario directamente desde Skype Empresarial local a Solo Teams
+> [!NOTE]
+> En preparación para la próxima retirada de Skype Empresarial Online, Microsoft simplificará la forma en que las organizaciones se mueven a Teams próximamente. Al mover un usuario de local a Teams, pronto ya no será necesario especificar el cambio para mover usuarios directamente de local a `-MoveToTeams` `Move-CsUser` TeamsOnly. Actualmente, si no se especifica este modificador, los usuarios pueden pasar de hospedarse en Skype Empresarial Server local a Skype Empresarial Online y su modo permanece sin cambios. Después de retirarse, al mover un usuario de local a la nube con , se asignará automáticamente el modo TeamsOnly a los usuarios y sus reuniones desde locales se convertirán automáticamente en reuniones de Teams, igual que si el modificador , independientemente de si el modificador se especifica `Move-CsUser` `-MoveToTeams switch had been specified` realmente. Esperamos liberar esta funcionalidad antes de la retirada real del 31 de julio de 2021.
 
-Las herramientas de administración locales en Skype Empresarial Server 2015 con CU8, así como en Skype Empresarial Server 2019, permiten mover usuarios locales al modo solo de Teams en un solo paso mediante el cmdlet Move-CsUser de PowerShell o el Panel de control de Skype Empresarial Server, como se describe a continuación.
+## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Mover un usuario directamente de Skype Empresarial local a Teams solo
 
-### <a name="move-to-teams-using-move-csuser"></a>Mover a Teams mediante Move-CsUser
+Las herramientas de administración locales de Skype Empresarial Server 2015 con CU8, así como en Skype Empresarial Server 2019, permiten mover usuarios de local a modo de solo Teams en un solo paso mediante el cmdlet Move-CsUser en PowerShell o el Panel de control de Skype Empresarial Server, como se describe a continuación.
 
-Move-CsUser está disponible desde una ventana local de PowerShell del Shell de administración de Skype Empresarial. Los pasos siguientes y los permisos necesarios son los mismos que mover un usuario a Skype Empresarial Online, excepto que también debe especificar el modificador MoveToTeams y debe asegurarse de que al usuario también se le ha concedido una licencia para Teams (además de Skype Empresarial Online).
+### <a name="move-to-teams-using-move-csuser"></a>Mover a Teams con Move-CsUser
 
-Debe tener privilegios suficientes tanto en el entorno local como en el servicio en la nube (Microsoft 365 u Office 365), tal como se describe en Credenciales administrativas [necesarias.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials) Puede usar una sola cuenta que tenga privilegios en ambos entornos o puede iniciar una ventana local del Shell de administración de Skype Empresarial Server con credenciales locales y usar el parámetro para especificar las credenciales de una cuenta de `-Credential` Microsoft 365 u Office 365 con el rol administrativo necesario.
+Move-CsUser está disponible desde una ventana de PowerShell Skype Empresarial shell de administración local. Los pasos siguientes y los permisos necesarios son los mismos que mover un usuario a Skype Empresarial Online, excepto que también debe especificar el modificador MoveToTeams y debe asegurarse de que al usuario también se le haya concedido una licencia para Teams (además de Skype Empresarial Online).
 
-Para mover un usuario al modo solo de Teams con Move-CsUser:
+Debe tener privilegios suficientes tanto en el entorno local como en el servicio en la nube (Microsoft 365 o Office 365), tal como se describe en [Credenciales administrativas necesarias.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials) Puede usar una sola cuenta que tenga privilegios en ambos entornos o puede iniciar una ventana local del Shell de administración de Skype Empresarial Server con credenciales locales y usar el parámetro para especificar las credenciales de una cuenta de Microsoft 365 o Office 365 con el rol administrativo `-Credential` necesario.
+
+Para mover un usuario al modo Teams solo con Move-CsUser:
 
 - Especifique el usuario que se moverá mediante el `Identity` parámetro.
 - Especifique el parámetro -Target con el valor "sipfed.online.lync. <span> com".
 - Especifique el `MoveToTeams` modificador.
-- Si no tiene una cuenta con permisos suficientes en el servicio local y en la nube (Microsoft 365 u Office 365), use el parámetro para proporcionar una cuenta con permisos suficientes en `-credential` Office 365.
-- Si la cuenta con permisos en Microsoft 365 u Office 365 no termina en "onmicrosoft. <span> com", debe especificar el `-HostedMigrationOverrideUrl` parámetro, con el valor correcto como se describe en [Credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+- Si no tiene una cuenta con permisos suficientes tanto en el servicio local como en el servicio en la nube (Microsoft 365 o Office 365), use el parámetro para proporcionar a una cuenta permisos suficientes en `-credential` Office 365.
+- Si la cuenta con permisos en Microsoft 365 o Office 365 no termina en "onmicrosoft. <span> com", debe especificar el `-HostedMigrationOverrideUrl` parámetro, con el valor correcto como se describe en [Credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
-La siguiente secuencia de cmdlets se puede usar para mover un usuario a TeamsOnly y se supone que la credencial de Microsoft 365 u Office 365 es una cuenta independiente y se proporciona como entrada para el mensaje de Get-Credential.
+La siguiente secuencia de cmdlets se puede usar para mover un usuario a TeamsOnly y supone que la credencial Microsoft 365 o Office 365 es una cuenta independiente y se proporciona como entrada para el mensaje de Get-Credential.
 
   ```powershell
   $cred=Get-Credential
@@ -86,25 +89,25 @@ La siguiente secuencia de cmdlets se puede usar para mover un usuario a TeamsOnl
 Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -UseOAuth -HostedMigrationOverrideUrl $url
 ```
 
-### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>Mover a Teams mediante el Panel de control de Skype Empresarial Server
+### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>Pasar a Teams con Skype Empresarial Server Panel de control
 
-1. Abra la aplicación Panel de control de Skype Empresarial Server.
+1. Abre la aplicación Skype Empresarial Server panel de control.
 2. En la navegación izquierda, elija **Usuarios**.
 3. Use **Buscar** para localizar los usuarios que desea mover a Teams.
-4. Seleccione los usuarios y, a continuación, en el desplegable Acción **situado** encima de la lista, elija Mover **usuarios seleccionados a Teams**.
+4. Seleccione los usuarios y, a  continuación, en el desplegable Acción situado encima de la lista, elija Mover usuarios seleccionados **a Teams**.
 5. En el asistente, haga clic en **Siguiente**.
-6. Si se le solicita, inicie sesión en Microsoft 365 u Office 365 con una cuenta que termine en .onmicrosoft.com y tenga permisos suficientes.
+6. Si se le solicita, inicie sesión Microsoft 365 o Office 365 una cuenta que termine en .onmicrosoft.com y tenga permisos suficientes.
 7. Haga **clic en** Siguiente y, a continuación, en Siguiente una vez más para mover al usuario. 
 8. Ten en cuenta que los mensajes de estado relacionados con el éxito o el error se proporcionan en la parte superior de la aplicación principal del Panel de control, no en el asistente.
 
-## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Notificar a los usuarios locales de Skype Empresarial el próximo traslado a Teams
+## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Notifique a Skype Empresarial usuarios locales del próximo movimiento a Teams
 
-Las herramientas de administración locales en Skype Empresarial Server 2015 con CU8, así como en Skype Empresarial Server 2019, le permiten notificar a los usuarios locales de Skype Empresarial su próximo traslado a Teams. Al habilitar estas notificaciones, los usuarios verán una notificación en su cliente de Skype Empresarial (Win32, Mac, web y móvil) como se muestra a continuación. Si los usuarios hacen **clic en el** botón Pruébalo, el cliente de Teams se iniciará si está instalado; de lo contrario, los usuarios se navegarán a la versión web de Teams en su explorador. De forma predeterminada, cuando las notificaciones están habilitadas, los clientes de Skype Empresarial de Win32 descargan silenciosamente el cliente de Teams para que el cliente enriquecido esté disponible antes de mover al usuario al modo solo de Teams; sin embargo, también puede deshabilitar este comportamiento.  Las notificaciones se configuran mediante la versión local de , y la descarga silenciosa para los clientes de Win32 se controla mediante el `TeamsUpgradePolicy` `TeamsUpgradeConfiguration` cmdlet local.
+Las herramientas de administración locales de Skype Empresarial Server 2015 con CU8, así como en Skype Empresarial Server 2019, permiten notificar a los usuarios de Skype Empresarial locales su próximo traslado a Teams. Al habilitar estas notificaciones, los usuarios verán una notificación en su cliente de Skype Empresarial (Win32, Mac, web y móvil) como se muestra a continuación. Si los usuarios hacen **clic en el** botón Pruébalo, Teams se inicia el cliente si está instalado; de lo contrario, los usuarios se navegarán a la versión web de Teams en su explorador. De forma predeterminada, cuando las notificaciones están habilitadas, los clientes de Win32 Skype Empresarial descargan el cliente de Teams de forma silenciosa para que el cliente enriquecido esté disponible antes de mover al usuario al modo de solo Teams; sin embargo, también puede deshabilitar este comportamiento.  Las notificaciones se configuran mediante la versión local de , y la descarga silenciosa para los clientes de Win32 se controla mediante el `TeamsUpgradePolicy` `TeamsUpgradeConfiguration` cmdlet local.
 
 > [!TIP]
 > Es posible que algunos servidores deba reiniciar para que esto funcione en Skype Empresarial 2015 con CU8.
 
-![Notificación del próximo traslado a Teams](../media/teams-upgrade-notification.png)
+![Notificación del próximo movimiento a Teams](../media/teams-upgrade-notification.png)
 
 Para notificar a los usuarios locales que pronto se actualizarán a Teams, cree una nueva instancia de TeamsUpgradePolicy con NotifySfBUsers=true. A continuación, asigne esa directiva a los usuarios a los que desea notificar, ya sea asignando la directiva directamente al usuario o estableciendo la directiva en el sitio, grupo o nivel global. Los cmdlets siguientes crean y conceden una directiva de nivel de usuario:
 
@@ -113,7 +116,7 @@ New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
-La descarga automática de Teams a través del cliente Win32 de Skype Empresarial se controla mediante el cmdlet TeamsUpgradeConfiguration local con el parámetro DownloadTeams. Esta configuración se crea en un nivel global, de sitio y de grupo. Por ejemplo, el siguiente comando crea la configuración del sitio Redmond1:
+La descarga automática de Teams a través del Skype Empresarial cliente de Win32 se controla mediante el cmdlet TeamsUpgradeConfiguration local con el parámetro DownloadTeams. Esta configuración se crea en un nivel global, de sitio y de grupo. Por ejemplo, el siguiente comando crea la configuración del sitio Redmond1:
 
 ```powershell
 New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
