@@ -1,43 +1,45 @@
 ---
 title: Más información sobre Identificadores de línea de la llamada entrante y nombres para mostrar a la persona que llama
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
+ms.reviewer: roykuntz, jenstr
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
+- Skype for Business Online
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Obtenga información sobre por qué necesita agregar a una persona autorizada que pueda realizar cambios en la cuenta al usar el Asistente para nueva portabilidad de número local.
-ms.openlocfilehash: db64a5d1a7e7a5969f66d67d6b056ec6947d44bb
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.service: msteams
+description: Obtenga información sobre el identificador de línea de llamadas y el nombre de la parte de llamadas.
+ms.openlocfilehash: dd68327c8fb3f63bf17e0736f9d41b727efc1ff8
+ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255403"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52308319"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>Más información sobre Identificadores de línea de la llamada entrante y nombres para mostrar a la persona que llama
 
-El identificador de llamada, como se suele denominar, se compone realmente de dos partes de información identificables hacia el usuario:
-    - Un número de teléfono (generalmente denominado ID de línea de llamada o CLID) 
-    - Nombre del usuario que llama (generalmente conocido como CNAM), que puede tener hasta 15 caracteres de longitud. 
+CallerID consta de dos partes de información orientadas al usuario:
 
-Cuando se realiza una llamada, el CLID (número de teléfono) se enruta al operador de destino (también conocido como el operador de terminación). La información CNAM de la llamada se puede o no enrutar con la llamada, ya que esto depende de cómo el país haya implementado el CNAM (si es necesario). La confiabilidad de la entrega CNAM con la llamada varía según el país y los operadores que se encargan de la llamada, ya sea como transportista intermedio o de terminación. 
+- Un número de teléfono (normalmente conocido como CLID o id. de línea de llamada).
 
-Clid & transmisión CNAM es la responsabilidad del operador de terminación en la medida en que el operador de terminación debe admitir la funcionalidad CNAM de CLID & y proporcionar registros actualizados para ambos valores. Microsoft proporciona valores CLID de forma fiable al crear llamadas, pero es posible que estos valores no se mantengan intactos cuando pasen por un operador intermedio o el operador de terminación. Desafortunadamente, en el caso de que el valor de CLID cambie, se oja o truncará por el operador intermedio o de terminación, Microsoft tendrá poco o ningún recurso para corregir estos problemas en la red telefónica pública.
+- Nombre del usuario que llama (normalmente denominado CNAM). 
 
-Las incoherencias en CNAM pueden deberse a retrasos en los operadores intermedios o de terminación que actualizan información CNAM en bases de datos relevantes como en el caso de Estados Unidos. En los países donde no hay ninguna base de datos relevante para CNAM, las prácticas de operadores individuales también pueden causar problemas con la información CNAM que llega intacta con la llamada. Actualmente, Microsoft no admite información CNAM originada en países que no son Estados Unidos".
+Cuando se realiza una llamada, el CLID (número de teléfono) se enruta al operador del destino (también conocido como el operador de finalización). La información de CNAM para la llamada puede o no enrutada con la llamada, ya que esta información depende de cómo el país haya implementado CNAM (si es que lo hace). La confiabilidad de la entrega CNAM con la llamada varía según el país y los transportistas que se encargan de la llamada, ya sea como intermediario o como transportista de finalización. 
+
+Clid & transmisión CNAM es la responsabilidad del operador de terminación. El operador de terminación debe admitir & funcionalidad CNAM, así como proporcionar registros actualizados para ambos valores. Microsoft proporciona de forma fiable valores CLID al originar llamadas, pero es posible que esos valores no se conservarán intactos una vez que pasen por un operador intermedio o el operador de terminación. Si el operador intermedio o de terminación cambia, omite o trunca el valor CLID, Microsoft tiene poco o ningún recurso para corregir estos problemas en la red telefónica pública.
+
+Las incoherencias en CNAM pueden deberse a que los operadores intermedios o finales retrasan la actualización de la información de CNAM en bases de datos autoritarios, como en el caso de Estados Unidos. En los países donde no hay bases de datos autoritarias para CNAM, las prácticas de operadores individuales también pueden causar problemas con la información de CNAM que llega intacta con la llamada. Actualmente, Microsoft no admite la información CNAM de origen en países distintos de Estados Unidos.
 
 ## <a name="related-topics"></a>Temas relacionados
 

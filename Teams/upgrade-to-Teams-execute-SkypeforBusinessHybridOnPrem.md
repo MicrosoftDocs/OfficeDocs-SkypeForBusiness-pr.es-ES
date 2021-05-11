@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c45770258d452c3f84c707a51812d2e336ce48ee
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: d323760d4187730b0ae83d45021df44230a982cd
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282177"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306054"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Actualizar de Skype Empresarial local a Teams
 
@@ -99,19 +99,19 @@ Al considerar las opciones de conectividad de red telefónica conmutada (RTC), h
     - [Modos de coexistencia: referencia](migration-interop-guidance-for-teams-with-skype.md)
     - [Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
-- Configurar Skype Empresarial híbrido es un requisito previo para migrar al modo TeamsOnly. Aunque es posible usar Teams en modo islas sin híbrido, la transición al modo TeamsOnly no se puede realizar hasta que el usuario se mueve de Skype Empresarial local Skype Empresarial Skype Empresarial Online (con [Move-CsUser).](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) Para obtener más información, vea [Configurar la conectividad híbrida.](/skypeforbusiness/hybrid/configure-hybrid-connectivity)
+- Configurar Skype Empresarial híbrido es un requisito previo para migrar al modo TeamsOnly. Aunque es posible que los usuarios de Skype Empresarial Server locales usen Teams en modo islas sin híbrido, la transición al modo TeamsOnly no se puede realizar sin mover el usuario a la nube con [Move-CsUser,](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)para el que se requiere conectividad híbrida. Para obtener más información, vea [Configurar la conectividad híbrida.](/skypeforbusiness/hybrid/configure-hybrid-connectivity) Además, la próxima retirada de Skype Empresarial Online no cambiará este requisito. Para que las organizaciones se muevan de Skype Empresarial Server a Teams, deben configurar y configurar la implementación híbrida con el mismo conjunto de herramientas, exactamente igual que antes de *la retirada.*
 
-- Si su organización Skype Empresarial Server y no ha configurado la conectividad híbrida, pero todavía desea usar Teams, para administrar una funcionalidad Teams, debe usar una cuenta administrativa que tenga un dominio .onmicrosoft.com. 
+- Para mover un usuario local a la nube, use las herramientas de administración `Move-CsUser` locales. Actualmente, si no se especifica este modificador, los usuarios cambian de estar en casa en Skype Empresarial Server local a Skype Empresarial Online, su modo permanece sin cambios y las reuniones que organizaron en Skype Empresarial Server se migran a Skype Empresarial Online. Debido a la próxima retirada de Skype Empresarial Online, pronto ya no será necesario especificar el cambio para mover usuarios directamente desde el entorno local a `-MoveToTeams` `Move-CsUser` TeamsOnly.  Después de la retirada, al mover un usuario de local a la nube con , los usuarios se asignarán automáticamente al modo TeamsOnly y sus reuniones desde locales se convertirán automáticamente en reuniones de Teams, igual que si el , independientemente de si el modificador se especifica `Move-CsUser` `-MoveToTeams switch had been specified` realmente. Esperamos publicar esta funcionalidad antes de la retirada real del 31 de julio de 2021.
 
-- Teams usuarios que tienen una cuenta de Skype Empresarial local (es decir, aún no se han movido a la nube mediante Move-CsUser) no pueden interoperar con ningún usuario de Skype Empresarial, ni pueden federar con usuarios externos. Esta funcionalidad solo está disponible una vez que los usuarios se mueven a la nube (ya sea en modo Islas o como usuarios de TeamsOnly). 
+- Si su organización tiene Skype Empresarial Server y no ha configurado la conectividad híbrida, pero todavía desea usar Teams, para administrar una funcionalidad Teams debe usar una cuenta administrativa que tenga un dominio .onmicrosoft.com. Sin conectividad híbrida, las herramientas administrativas no reconocerán los dominios locales. 
 
-- Si tiene usuarios con cuentas Skype Empresarial locales, no puede asignar el modo TeamsOnly en el nivel de inquilino. Primero debe mover todos los usuarios con cuentas de Skype Empresarial locales a la nube y, después, deshabilitar la implementación híbrida para completar la migración `Move-CsUser` [a la nube.](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`no funcionará en el nivel de inquilino si se detecta un registro DNS de detección de lync que apunta a una ubicación que no sea Office 365.
+- Teams usuarios que tienen una cuenta de Skype Empresarial local (es decir, aún no se han movido a la nube mediante Move-CsUser) no pueden interoperar con ningún usuario de Skype Empresarial, ni pueden federar con usuarios externos. Esta funcionalidad solo está disponible una vez que los usuarios se mueven a la nube y son usuarios de TeamsOnly. 
+
+- Si tiene usuarios con cuentas Skype Empresarial locales o si todavía tiene un registro DNS de detección de lync para una implementación local, no puede asignar el modo TeamsOnly en el nivel de inquilino. Primero debe mover todos los usuarios con cuentas de Skype Empresarial locales Skype Empresarial a la nube y, a continuación, siga los pasos descritos en Deshabilitar la implementación híbrida para completar la migración a la nube, que incluye la eliminación de entradas `Move-CsUser` DNS. [](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`no funcionará en el nivel de inquilino si se detecta un registro DNS de detección de lync que apunta a una ubicación que no sea Office 365.
 
 - Debe asegurarse de que los usuarios estén sincronizados correctamente en Azure AD con los atributos Skype Empresarial usuario. Estos atributos son todos prefijos con "msRTCSIP-". Si los usuarios no están sincronizados correctamente con Azure AD, las herramientas de administración de Teams no podrán administrar estos usuarios. (Por ejemplo, no podrá asignar directivas de Teams a los usuarios locales a menos que sincronice correctamente estos atributos). Para obtener más información, vea [Configurar Azure AD Conectar para](/SkypeForBusiness/hybrid/configure-azure-ad-connect)Teams y Skype Empresarial .
 
 - Para crear un nuevo usuario de TeamsOnly o Skype Empresarial Online en una organización híbrida, primero debe habilitar el usuario en Skype Empresarial Server local *y, después,* mover el usuario de local a la nube con Move-CsUser.  La creación del usuario en el entorno local garantiza primero que cualquier otro usuario local que Skype Empresarial pueda dirigirse al usuario recién creado. Una vez que todos los usuarios se han movido en línea, ya no es necesario habilitar primero a los usuarios en el entorno local.
-
-- Cuando un usuario se mueve de local a la nube, las reuniones organizadas por ese usuario se migran a Skype Empresarial Online o Teams, dependiendo de si se especifica o no el modificador -MoveToTeams.
 
 - Si desea mostrar notificaciones en el cliente Skype Empresarial para usuarios locales, debe usar TeamsUpgradePolicy en el conjunto de herramientas local. Solo el parámetro NotifySfbUsers es relevante para los usuarios locales.  Los usuarios locales reciben su modo desde las instancias en línea de TeamsUpgradePolicy. Vea las notas de [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). 
 

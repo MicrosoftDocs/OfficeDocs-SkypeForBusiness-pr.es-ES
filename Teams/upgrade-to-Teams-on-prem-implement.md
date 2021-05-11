@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d01dc44b626cc2c09a92dabff7649a5e9fddc3c6
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 7e4bfb5594b64eb06041e7f761eb0d85cec8c3e5
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282507"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306044"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>Estrategias de actualización para administradores de TI
 
@@ -88,6 +88,10 @@ Notas
 - En lugar de establecer la directiva de todo el espacio empresarial en SfbWithTeamsCollab, puede establecerla en SfbWithTeamsCollabAndMeetings. Esto hace que todos los usuarios programe todas las reuniones nuevas en Teams.
 - `Move-CsUser` es un cmdlet en las herramientas locales. El `MoveToTeams` modificador requiere Skype Empresarial Server 2019 o Skype Empresarial Server 2015 con CU8 o posterior. Si usa una versión anterior, primero puede mover el usuario a Skype Empresarial Online y, después, conceder el modo TeamsOnly a ese usuario.
 - De forma predeterminada, Skype Empresarial reuniones se migran a Teams al actualizar al modo TeamsOnly o al asignar el modo SfbWithTeamsCollabAndMeetings.  
+
+> [!NOTE]
+> En preparación para la próxima retirada de Skype Empresarial Online, Microsoft simplificará la forma en que las organizaciones se desplazan a Teams en un futuro próximo. Al mover un usuario de local a Teams, pronto ya no será necesario especificar el cambio para mover usuarios directamente desde local a `-MoveToTeams` `Move-CsUser` TeamsOnly. Actualmente, si no se especifica este modificador, los usuarios pueden pasar de hospedarse en Skype Empresarial Server local Skype Empresarial Online y su modo permanece sin cambios. Después de la retirada, al mover un usuario de local a la nube con , los usuarios se asignarán automáticamente al modo TeamsOnly y sus reuniones desde locales se convertirán automáticamente en reuniones de Teams, igual que si el modificador se especifica `Move-CsUser` `-MoveToTeams switch had been specified` realmente. Esperamos publicar esta funcionalidad antes de la retirada real del 31 de julio de 2021.
+
 
 En el siguiente diagrama se muestran las fases conceptuales de la actualización de capacidades de selección para una organización sin el uso previo de Teams. El alto de las barras representa el número de usuarios. Durante cualquier fase de la actualización, todos los usuarios pueden comunicarse entre sí.  Skype Empresarial se comunican con los usuarios de TeamsOnly mediante interoperabilidad y viceversa. Los usuarios en modo Islas deben asegurarse de ejecutar ambos clientes.
 

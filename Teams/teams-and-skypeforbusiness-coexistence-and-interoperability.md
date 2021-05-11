@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8afb7738d05fd61122ac2188d049419ef41054ea
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 809de40e8c97eefbd3fc1a938e53328c3be0020f
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282767"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306034"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender Microsoft Teams y Skype Empresarial coexistencia e interoperabilidad
 
@@ -54,7 +54,7 @@ En las secciones siguientes se describen los modos de coexistencia que están di
 Le recomendamos que revise los siguientes modos de coexistencia para ayudar a determinar qué ruta es la adecuada para su organización.
 
 > [!Important]
-> La introducción de nuevas tecnologías o la realización de cambios en su entorno de Skype Empresarial existente y familiar, al tiempo que ofrece grandes ventajas empresariales, puede ser perjudicial para los usuarios. Tómese un tiempo para evaluar la preparación del usuario e implementar un plan de comunicación y aprendizaje antes de implementar cualquiera de los cambios descritos en este artículo. Además, le recomendamos encarecidamente que pilote su plan con un grupo seleccionado de usuarios antes de implementarlo en toda la organización.
+> Los modos de coexistencia seguirán existiendo después de la retirada de Skype Empresarial Online el 31 de julio de 2021, pero solo serán relevantes para las organizaciones con implementaciones locales de Skype Empresarial Server. Justo antes de la retirada, los usuarios que se aloen en la implementación local se pueden asignar a cualquier modo que no sea TeamsOnly. Sin embargo, después de retirar Skype Empresarial Online, los usuarios que se aloen en la nube solo pueden ser TeamsOnly.
 
 ### <a name="islands-mode"></a>Modo Islas
 
@@ -334,7 +334,7 @@ Teams y Skype Empresarial listas de contactos independientes. Esto significa que
 
 - Para cualquier Skype Empresarial en línea, la primera vez que inicie sesión en Teams, los contactos de Skype Empresarial se copiarán a Teams.  Este comportamiento no está disponible para los usuarios con una cuenta local en Skype Empresarial Server.  
 
-- Después de actualizar un usuario a TeamsOnly (ya sea mediante la asignación de TeamsUpgradePolicy o a través de Move-CsUser -MoveToTeams), la próxima vez que un usuario inicie sesión en Teams, los contactos existentes en Skype Empresarial se combinarán con los contactos existentes que ya están en Teams. Este comportamiento ocurre si la cuenta de Skype Empresarial usuario está en casa local o en línea. 
+- Después de actualizar un usuario a TeamsOnly (ya sea mediante la asignación de TeamsUpgradePolicy o a través de Move-CsUser -MoveToTeams), la próxima vez que un usuario inicie sesión en Teams, los contactos existentes en Skype Empresarial se combinarán con los contactos existentes que ya están en Teams. Este comportamiento ocurre si el usuario se movió a TeamsOnly desde local o en línea. 
 
 En ambos casos, la transferencia de contactos de Skype Empresarial a Teams es asíncrona, por lo que puede que sea unos minutos antes de que los contactos aparezcan en Teams. Los dos eventos anteriores son los que desencadenan la copia.  
 
