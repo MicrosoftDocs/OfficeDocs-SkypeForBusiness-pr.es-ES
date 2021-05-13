@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo desarrollar y ejecutar operaciones y mantenimiento continuos para asegurarse de que sus Salas de Microsoft Teams están disponibles para los usuarios.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: deb538c8b249faddf16096f052bca4020da6f6c0
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b95e1191201e3b5a8f234cc47c1a886cb7f0cf9a
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237986"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469602"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Administrar Salas de Microsoft Teams
 
@@ -28,7 +28,7 @@ Si tiene dispositivos Salas de Microsoft Teams certificados en su organización,
 
 Con Microsoft Teams de administración, puede:
 
-- Realizar la administración de dispositivos como reiniciar o bloquear dispositivos y descargar registros de dispositivos
+- Realizar la administración de dispositivos como reiniciar dispositivos y descargar registros de dispositivos
 - Aplicar Teams configuración específica
 - Comprobar el estado de Microsoft Teams dispositivos de sala y sus periféricos, incluidas las cámaras, las pantallas, los micrófonos, entre otros
 - Revisar la actividad de reunión actual y pasada (por ejemplo, detalles sobre la calidad de las llamadas, el estado de la red y la conectividad, y el número de participantes)
@@ -101,30 +101,16 @@ Los cambios en la configuración del dispositivo solo tendrán efecto después d
 > [!CAUTION]
 > Los dispositivos en uso en el momento de reiniciar no estarán disponibles durante el proceso de reinicio. Se desconectarán de las reuniones en curso y no estarán disponibles para unirse a nuevas reuniones.
 
-### <a name="remove-or-block-a-device"></a>Quitar o bloquear un dispositivo
+### <a name="remove-device"></a>Quitar dispositivo
 
-Al quitar **un** dispositivo, el dispositivo se quita de la organización y ya no aparece en la lista de Salas de Teams dispositivos en el centro de administración Teams usuario. 
+Al quitar un dispositivo, el dispositivo se quita de la organización y ya no aparece en la lista de Salas de Teams dispositivos en el centro de administración Teams usuario.
 
-Al bloquear **un** dispositivo, Teams ya no se comunica con el dispositivo. Los dispositivos bloqueados no se enviarán comandos incluso si están incluidos en un grupo de dispositivos que se están editando en masa. Sigue estando en la lista de Salas de Teams dispositivos con el estado **Bloqueado.**
-
-Independientemente de si un dispositivo está bloqueado o eliminado, si sigue configurado con un nombre de usuario y contraseña válidos, se volverá a agregar automáticamente a la lista de dispositivos de Salas de Teams si se conecta a Microsoft 365.
+Si quita un dispositivo y sigue configurado con un nombre de usuario y una contraseña válidos, se volverá a agregar automáticamente a la lista de dispositivos de Salas de Teams si se conecta a Microsoft 365 nuevo.
 
 Para quitar uno o varios dispositivos, haga lo siguiente:
 
 1. Vaya a  >  **Dispositivos Salas de Teams** y seleccione los dispositivos que desea quitar.
 1. Seleccione **Quitar**.
-
-Para bloquear un dispositivo, haga lo siguiente:
-
-1. Vaya a  >  **Dispositivos Salas de Teams** y seleccione el nombre del dispositivo que desea bloquear.
-1. En la página de detalles del dispositivo, seleccione **Acciones** en la esquina superior derecha de la página.
-1. Seleccione **Bloquear**.
-
-Para desbloquear un dispositivo, haga lo siguiente:
-
-1. Vaya a  >  **Dispositivos Salas de Teams** y seleccione el nombre del dispositivo que desea bloquear.
-1. En la página de detalles del dispositivo, seleccione **Acciones** en la esquina superior derecha de la página.
-1. Seleccione **Desbloquear**.
 
 ## <a name="download-device-logs"></a>Descargar registros de dispositivos
 

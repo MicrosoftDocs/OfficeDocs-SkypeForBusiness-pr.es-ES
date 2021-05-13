@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo planear la omisión de medios con Sistema telefónico enrutamiento directo, lo que le permite acortar la ruta del tráfico multimedia y mejorar el rendimiento.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9b6624a81994c1d6797ed996fbcc233fe75f8907
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 4978c7ce2a69f23164a3869dd69368b3aaad2c4e
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308359"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469632"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -296,7 +296,7 @@ El rango de puertos de Teams relés de transporte (aplicables a todos los entorn
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
 UDP/SRTP | Retransmisión de transporte | SBC | 50 000 -59 999    | Definido en el SBC |
-| UDP/SRTP | SBC | Retransmisión de transporte | Definido en el SBC | 50 000 – 59 999, 3478, 3479     |
+| UDP/SRTP | SBC | Retransmisión de transporte | Definido en el SBC | 50 000 – 59 999, 3478-3481     |
 
 
 > [!NOTE]
@@ -304,11 +304,11 @@ UDP/SRTP | Retransmisión de transporte | SBC | 50 000 -59 999    | Definido en 
 > 
 > - v4, que solo puede funcionar con el rango de puertos de 50 000 a 59 999
 > 
-> - v6, que funciona con los puertos 3478 y 3479
+> - v6, que funciona con los puertos 3478-3481
 
 En este momento, la omisión de medios solo admite la versión v4 de retransmisión de transporte. Presentaremos compatibilidad con v6 en el futuro. 
 
-Debe abrir los puertos 3478 y 3479 para la transición. Cuando Microsoft presenta compatibilidad con retransmisión de transporte v6 con omisión de medios, no tendrá que volver a configurar el equipo de red ni los SBC. 
+Debe abrir los puertos 3478-3481 para la transición. Cuando Microsoft presenta compatibilidad con retransmisión de transporte v6 con omisión de medios, no tendrá que volver a configurar el equipo de red ni los SBC. 
 
 ### <a name="requirements-for-using-media-processors"></a>Requisitos para usar procesadores multimedia
 
@@ -333,8 +333,8 @@ El rango de puertos de los procesadores multimedia (aplicable a todos los entorn
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Procesador multimedia | SBC | 3478, 3479 y 49 152 - 53 247    | Definido en el SBC |
-| UDP/SRTP | SBC | Procesador multimedia | Definido en el SBC | 3478, 3479 y 49 152 - 53 247     |
+UDP/SRTP | Procesador multimedia | SBC | 3478-3481 y 49 152 - 53 247    | Definido en el SBC |
+| UDP/SRTP | SBC | Procesador multimedia | Definido en el SBC | 3478-3481 y 49 152 - 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurar troncos independientes para la omisión de medios y la omisión no multimedia  
 

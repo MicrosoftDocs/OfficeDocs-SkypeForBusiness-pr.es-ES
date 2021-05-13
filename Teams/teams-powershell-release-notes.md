@@ -13,12 +13,12 @@ ms.collection:
 description: Obtenga información sobre los cambios más recientes en Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 382d11ba8a2a388b70df5675275f21faae5db37c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 601783d5c0b3b84470e79abbc705c4c22244581b
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130309"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469642"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams Notas de la versión de PowerShell
 
@@ -31,7 +31,7 @@ En esta página se proporcionan las últimas Teams de cambios de PowerShell para
 
 | Fecha | Versión | Actualizaciones |
 |------- | -------------------- | ------------------------------ |
-| Abril de 2021 | [2.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.0) | <li>Cmdlet agregado para obtener una región multige geográfica para usuarios y grupos</li><li>Correcciones para la autenticación integrada de Windows para usar -AccountId con Connect-MicrosoftTeams</li><li>Los cmdlets de TeamsCallHoldPolicy ya están disponibles</li><li>Actualizaciones de parámetros de entrada y formatos de salida de muchos comandos</li><li>Corrige un problema de latencia grande al ejecutar comandos de comunicación remota</li><li>Características de paquetes personalizados de GA</li>|
+| Mayo de 2021 | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>Actualizar desde . NETCore 2.1 a 3.1</li><li>Cmdlet agregado para obtener una región multige geográfica para usuarios y grupos</li><li>Correcciones para la autenticación integrada de Windows para usar -AccountId con Connect-MicrosoftTeams</li><li>Los cmdlets de TeamsCallHoldPolicy ya están disponibles</li><li>Actualizaciones de parámetros de entrada y formatos de salida de muchos comandos</li><li>Corrige un problema de latencia grande al ejecutar comandos de comunicación remota</li><li>Características de paquetes personalizados de GA</li>|
 | Abril de 2021 | [2.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>Correcciones para la autenticación Windows usuario integrada para usar -AccountId con Conectar-MicrosoftTeams.</li><li>Cmdlet agregado para obtener detalles del total de eventos de notificación de cambio que se pueden enviar a los usuarios.</li><li>Se ha agregado un cmdlet para obtener una región multige geográfica para usuarios y grupos.</li><li>El control de los valores pasados a TeamsEnvironment name distingue entre mayúsculas y minúsculas. Esto se ha corregido.</li><li>Refactorización importante de la administración remota de sesiones dentro del módulo para facilitar las pruebas de unidad. No debe haber ningún cambio funcional para los administradores de inquilinos.</li>|
 | Abril de 2021 | [2.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>Se ha corregido el formato de los cmdlets existentes (por ejemplo, Get-CsTeamsNetworkRoamingPolicy, Get-CsTeamsMeetingPolicy, Get-CsTeamsMessagingPolicy y mucho más).</li><li>Lista de parámetros actualizada de cmdlets de administración de directivas.</li>|
 | Marzo de 2021 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>Usa MSAL para la autenticación & autorización</li> <li>Connect-MicrosoftTeams es el punto de entrada de todos los cmdlets.</li><li>New-csOnlineSession ya no está disponible. Se ha sustituido por Conectar-MicrosoftTeams.</li><li>Enable-csonlinesessionforreconnection ya no es necesario. La característica se ha implementado de forma nativa en Teams módulo de PowerShell.</li> <li>Cmdlets de paquete de directivas refactorizado y agrega asignación de paquetes de grupo</li><li>Mejoras significativas de rendimiento para Get-Team cmdlet</li> <li>Opción de registro y depuración mejorada para cmdlets existentes </li> <li>Cmdlets de administración de plantillas agregados</li> <li>Desuso de New-CsOnlineSession</li>|

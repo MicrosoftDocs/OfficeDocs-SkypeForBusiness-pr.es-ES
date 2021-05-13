@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0de88cd3295e1e04681cf6ff63bccab80e4b4a8
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: 8cad935092b1b3b99209c45bf61b7ee40d285ea6
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948666"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469662"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -35,12 +35,12 @@ ms.locfileid: "51948666"
 |Implementación a partir del 7 de enero de 2021<br> *(Completar)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Todas las grabaciones de reuniones nuevas de Teams se guardarán en OneDrive para la Empresa y SharePoint, a menos que retrase este cambio modificando las directivas de reuniones de Teams de su organización y estableciéndolas explícitamente en **Stream**. Ver los informes de directivas como Stream no es suficiente. Debe establecer explícitamente el valor de la directiva en **Stream**.|
 |Implementación a partir del 11 de enero de 2021<br> *(Completar)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Solo GCC**<br> Aunque los clientes de GCC pueden dejar de participar a partir del 5 de octubre, no puede optar por participar. Esta característica se implementará para todos los clientes de GCC a partir del 11 de enero de 2021, a menos que haya optado por no participar.<br>  <br>A partir del 11 de enero de 2021, todas las grabaciones de reuniones nuevas de Teams para clientes de GCC se guardarán en OneDrive para la Empresa y SharePoint, a menos que retrase este cambio modificando las directivas de reuniones de Teams de su organización y estableciéndolas explícitamente en **Stream**. <br><br>Si ha optado por no participar, pero está listo para activar esta característica, puede hacerlo configurando explícitamente la directiva de reunión de Teams en **OneDrive para la Empresa**. |
 |Implementación a partir del 1 de marzo de 2021 <br> *(Completado)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Solo GCC High y DoD**<br> Los clientes ahora pueden habilitar las grabaciones de reuniones en la nube en Microsoft Teams por primera vez. Estas grabaciones se almacenarán y reproducirán en OneDrive y SharePoint de forma predeterminada. |
-|Implementación incremental a partir del 7 de julio de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Todos los clientes (Enterprise, Educación y GCC)**<br>No se pueden guardar nuevas grabaciones de reuniones en Microsoft Stream (clásico); todos los clientes guardarán automáticamente las grabaciones de las reuniones en OneDrive para la Empresa y SharePoint incluso si han cambiado sus directivas de reuniones de Teams a Stream.<br><br> Recomendamos a los clientes que, para controlar mejor el cambio de la organización, opten por participar cuando se sientan cómodos con el cambio, en lugar de esperar a que se realice. |
+|Implementación incremental a partir del 16 de agosto de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Todos los clientes (Enterprise, Educación y GCC)**<br>No se pueden guardar nuevas grabaciones de reuniones en Microsoft Stream (clásico); todos los clientes guardarán automáticamente las grabaciones de las reuniones en OneDrive para la Empresa y SharePoint incluso si han cambiado sus directivas de reuniones de Teams a Stream.<br><br> Recomendamos a los clientes que, para controlar mejor el cambio de la organización, opten por participar cuando se sientan cómodos con el cambio, en lugar de esperar a que se realice. |
 
 Microsoft Teams tiene un nuevo método para guardar las grabaciones de reuniones. Como primera fase de una transición del Microsoft Stream clásico al [ nuevo Stream](/stream/streamnew/new-stream), este método almacena grabaciones en Microsoft OneDrive para la Empresa y SharePoint en Microsoft 365 y ofrece muchas ventajas.
 
 > [!NOTE]
-> Si una grabación de reunión de Teams no se carga correctamente en OneDrive/SharePoint, la grabación se guardará temporalmente en Azure Media Services (AMS). Una vez almacenada en AMS, no se realizan intentos de reintentar para cargar automáticamente la grabación en OneDrive/SharePoint o Stream.
+> Si una Teams de reunión no se carga correctamente en OneDrive/SharePoint, la grabación se guardará temporalmente en Azure Media Services (AMS). Una vez almacenado en AMS, no se intenta volver a intentar cargar automáticamente la grabación en OneDrive/SharePoint o Stream.
 
 Las grabaciones de reuniones almacenadas en AMS están disponibles durante 21 días antes de eliminarse automáticamente. Los usuarios pueden descargar el vídeo desde AMS si necesitan conservar una copia.
 
@@ -59,7 +59,7 @@ Las ventajas de usar OneDrive para la Empresa y SharePoint para almacenar grabac
 
 Vea la lista completa de [características disponibles hoy y lo que puede esperar a lo largo del tiempo.](https://docs.microsoft.com/stream/streamnew/features-new-version-stream) 
 
-Vea "Novedades de las grabaciones de reuniones de Microsoft Teams" para obtener más información.
+Vea "Novedades de las grabaciones Microsoft Teams reunión" para obtener más información.
 
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
@@ -68,7 +68,7 @@ Vea "Novedades de las grabaciones de reuniones de Microsoft Teams" para obtener 
 La opción de grabación de la reunión es una configuración en el nivel de directiva de Teams. En el ejemplo siguiente se muestra cómo establecer la directiva global. Asegúrese de establecer la opción de grabación de la reunión para la directiva o las directivas que haya asignado a los usuarios.
 
 > [!Note]
-> Los cambios en la directiva de reunión de Teams pueden tardar un tiempo en propagarse. Vuelva a comprobarlo después de unas horas de configurarlo y, a continuación, inicie sesión en la aplicación de escritorio de Teams de nuevo o simplemente reinicie el equipo.
+> Teams cambios en la directiva de reunión pueden tardar un tiempo en propagarse. Vuelva a comprobarlo después de unas horas de configurarlo y, después, cerrar sesión e iniciar sesión en la aplicación de escritorio de Teams o simplemente reinicie el equipo.
 
 1. Instale PowerShell para Teams.
 

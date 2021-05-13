@@ -1,10 +1,10 @@
 ---
 title: Usar los archivos de registro para solucionar problemas en Microsoft Teams
 ms.reviewer: tejeshs
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 05/06/2021
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
@@ -13,26 +13,29 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas.
+description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudar con la supervisión y solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f816830f24a3d1180cb33a91a3f02d30d360cfef
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 58460390d9562d77ed6a4e3dfcbb3948cbe2749e
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264880"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337747"
 ---
-<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
-=================================================
+# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Use archivos de registro para supervisar y solucionar problemas Microsoft Teams
 
-Hay tres tipos de archivos de registro generados automáticamente por el cliente, que se pueden aprovechar para ayudar a solucionar problemas de Microsoft Teams:
+Hay tres tipos de archivos de registro generados automáticamente por el cliente, que se pueden aprovechar para ayudar a supervisar y solucionar problemas Teams:
 
--   Registros de depuración
+-   [Registros de depuración](#debug-logs)
 
--   Registros de medios
+-   [Registros multimedia](#media-logs)
 
--   Registros de escritorio
+-   [Registros de escritorio](#desktop-logs)
+
+En este artículo se describen los tres registros y cómo se usan. 
+
+Para obtener información sobre cómo solucionar problemas específicos, [vea: Teams solución de problemas.](/MicrosoftTeams/troubleshoot/teams) Para obtener información sobre cómo ponerse en contacto con el soporte técnico, vea [Obtener soporte técnico.](/microsoft-365/business-video/get-help-support)
 
 Al crear una solicitud de soporte técnico con soporte técnico de Microsoft, el ingeniero de soporte técnico necesitará los registros de depuración. Tener los registros de depuración a mano antes de crear la solicitud de soporte técnico permitirá a Microsoft empezar rápidamente a solucionar el problema. **Los registros** multimedia **o de** escritorio solo son necesarios si Microsoft lo solicita.
 
@@ -53,8 +56,7 @@ En la tabla siguiente se describen los distintos clientes y sus registros asocia
 
 Para ver una lista completa de los sistemas operativos y los exploradores compatibles, vea [Obtener clientes para Microsoft Teams](get-clients.md).
 
-<a name="debug-logs"></a>Registros de depuración
----------------------------
+## <a name="debug-logs"></a>Registros de depuración
 
 Estos son los registros más comunes y son necesarios para todos los casos de soporte técnico de Microsoft. Los registros de depuración son producidos por Windows y mac clientes de escritorio, así como por clientes basados en explorador. Los registros se basan en texto y se leen desde abajo hacia arriba. Se pueden leer con cualquier editor basado en texto y se crean nuevos registros al iniciar sesión en el cliente.
 
@@ -90,8 +92,7 @@ Los registros de depuración se descargan automáticamente en las siguientes car
 
 -   Explorador: Se le pedirá que guarde el registro de depuración en la ubicación predeterminada.
 
-<a name="media-logs"></a>Registros de medios
----------------------------
+## <a name="media-logs"></a>Registros de medios
 
 Los registros multimedia contienen datos de diagnóstico sobre audio, vídeo y uso compartido de pantalla en Teams reuniones. Son necesarios para los casos de soporte técnico vinculados a problemas relacionados con llamadas.
 
@@ -119,8 +120,7 @@ Esta es una lista de los archivos de registro que se generan y la información q
 |Debug-0-s2790420889.blog    | Contiene información relacionada con el agente multimedia, incluida la calidad de representación.          |
 |tscalling-0-2061129496.blog   |Registra eventos en la API de llamadas ts.       |
 
-<a name="desktop-logs"></a>Registros de escritorio
----------------------
+## <a name="desktop-logs"></a>Registros de escritorio
 
 Los registros de escritorio, también conocidos como registros de arranque, contienen datos de registro que se producen entre el cliente de escritorio y el explorador. Al igual que los registros multimedia, estos registros solo son necesarios si Microsoft lo solicita. Los registros se basan en texto y se pueden leer con cualquier editor basado en texto en un formato de arriba abajo.
 
@@ -143,8 +143,7 @@ Linux:
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
 
-<a name="browser-trace"></a>Seguimiento del explorador
----------------------------
+## <a name="browser-trace"></a>Seguimiento del explorador
 
 Para algunas categorías de errores, es posible que el soporte técnico de Microsoft requiera que recopile un seguimiento del explorador. Esta información puede proporcionar detalles importantes sobre el estado del Teams cliente cuando se produce el error.
 

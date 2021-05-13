@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que usa el Panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial Online.
-ms.openlocfilehash: 63a9bba74b1c072a9c61885db03fa85357e034e9
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 981c5811f00d2e9005bd1387a7b58d23431af848
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264950"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469742"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en panel de calidad de llamada (CQD)
 
@@ -416,12 +416,12 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 | Second User ObjectId|String|El id. de objeto de Active Directory del segundo usuario del punto de conexión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII. | |
 | Primera dirección MAC|String|La dirección de control de acceso multimedia (MAC) del primer dispositivo de red del punto de conexión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.| |
 | Segunda dirección MAC|String|La dirección de control de acceso multimedia (MAC) del segundo dispositivo de red del punto de conexión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.| |
-| First Sip Uri|String|El URI del protocolo de inicio de sesión (SIP) del primer usuario del punto de conexión. Se rellena solo para Skype Empresarial extremos. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.|
-| Second Sip Uri|String|El URI DE SIP del primer usuario del punto de conexión. Se rellena solo para Skype Empresarial extremos. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.|
-| First Teléfono Number|String|El número de teléfono del primer usuario del punto de conexión. Se rellena solo para los puntos de conexión RTC. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.|
-| Segundo Teléfono número|String|El número de teléfono del segundo usuario del punto de conexión. Se rellena solo para los puntos de conexión RTC. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.|
-| First UPN|String|El nombre principal de usuario (UPN) del primer usuario del punto de conexión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.|
-| Segundo UPN|String|El nombre principal de usuario (UPN) del segundo usuario del punto de conexión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.| <br/>&bull; No todos los UserTypes tienen UPN; incluir las dimensiones Second UserType o Second User ObjectId para obtener más información sobre estos puntos de conexión |
+| First Sip Uri|String|El URI del protocolo de inicio de sesión (SIP) del primer usuario del punto de conexión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.| &bull;Se rellena solo para Skype Empresarial extremos. <br/>&bull; El usuario no tiene permisos para ver EUII. |
+| Second Sip Uri|String|El URI DE SIP del primer usuario del punto de conexión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.| &bull;Se rellena solo para Skype Empresarial extremos.<br/>&bull; El usuario no tiene permisos para ver EUII. |
+| First Teléfono Number|String|El número de teléfono del primer usuario del punto de conexión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII. Los últimos cuatro dígitos de números RTC siempre están ofuscados en CQD independientemente de los privilegios de visualización de EUII.<br/> **Valor de ejemplo:** +1425555****| &bull; Se rellena solo para los puntos de conexión RTC. <br/>&bull; El usuario no tiene permisos para ver EUII. |
+| Segundo Teléfono número|String|El número de teléfono del segundo usuario del punto de conexión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII. Los últimos cuatro dígitos de números RTC siempre están ofuscados en CQD independientemente de los privilegios de visualización de EUII.<br/> **Valor de ejemplo:** +1425555**** | &bull; Se rellena solo para los puntos de conexión RTC.<br/>&bull; El usuario no tiene permisos para ver EUII. |
+| First UPN|String|El nombre principal de usuario (UPN) del primer usuario del punto de conexión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.| &bull; No todos los UserTypes tienen UPN; incluya las dimensiones Second UserType o Second User ObjectId para obtener más información sobre estos puntos de conexión. |
+| Segundo UPN|String|El nombre principal de usuario (UPN) del segundo usuario del punto de conexión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.| &bull; No todos los UserTypes tienen UPN; incluya las dimensiones Second UserType o Second User ObjectId para obtener más información sobre estos puntos de conexión. |
 | Primer texto de comentarios|String|Texto de comentarios textuales, si los hay, proporcionados por el primer usuario del punto de conexión al final de una llamada. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII. | |
 | Segundo texto de comentarios|String| Texto de comentarios textuales, si los hay, proporcionados por el usuario del segundo punto de conexión al final de una llamada. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.|
 | First Client Endpoint Name|String|El nombre del equipo del primer punto de conexión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.|
