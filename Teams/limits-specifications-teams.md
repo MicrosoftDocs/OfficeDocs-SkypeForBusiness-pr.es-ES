@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60ee9246df70f3f91bd5624ec9fece879b622896
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 5fbf2efa3ad1d77300138a57336b4254ea788e84
+ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697635"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52328512"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -131,7 +131,7 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 
 |Característica     | Límite máximo |
 |------------|---------------|
-|Número de personas en una reunión (pueden chatear y llamar)  | 300. **Solo lectura** permite que un máximo de 10 000 participantes solo escucharán unirse a una reunión en la que el organizador tenga una licencia para SKU de E3/E5/A3/A5, así como administración pública (GCC, GCC High, DoD). Más información sobre la [Experiencia de solo vista](view-only-meeting-experience.md).|
+|Número de personas en una reunión (pueden chatear y llamar)  | 1000, incluye CCO pero todavía no para GCCH o DoD. **Solo lectura** permite que hasta 20 000 participantes solo para escuchar se unan a una reunión en la que el organizador tenga una licencia para SKU de E3/E5/A3/A5, así como administración pública (GCC, GCC High, DoD). Más información sobre la [Experiencia de solo vista](view-only-meeting-experience.md).|
 |Cantidad de personas en una llamada de audio o vídeo desde el chat | 20 |
 |Tamaño máximo de archivo de PowerPoint | 2 GB|
 |Teams guarda [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream, que se pueden descargar de forma local | 20 días |
@@ -139,7 +139,7 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 ### <a name="meeting-expiration"></a>Expiración de la reunión
 
 > [!NOTE]
-> Una dirección URL de reunión nunca dejará de funcionar. La expiración solo se relaciona con los números de marcado RTC o con las directivas y configuraciones de reunión subyacentes.
+> Una dirección URL de reunión nunca dejará de funcionar. La expiración solo se relaciona con los números de acceso telefónico local RTC o con las directivas y configuraciones de reunión subyacentes.
 
 |Tipo de reunión  |La reunión expira después de esta cantidad de tiempo  |Cada vez que se inicia o actualiza una reunión, la expiración se extiende por este tiempo  |
 |---------|---------|---------|
