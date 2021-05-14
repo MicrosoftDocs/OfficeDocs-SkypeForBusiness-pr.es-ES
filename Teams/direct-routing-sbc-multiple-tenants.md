@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para partners de Microsoft o operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 742b02709585e9a25b170bc99aab3d1939d63f10
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8ff378d55f551cfb11bd6f185840407e20095035
+ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096536"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52486384"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -32,13 +32,13 @@ Enrutamiento directo admite la configuración de un controlador de borde de sesi
 > Este escenario está diseñado para partners de Microsoft o operadores RTC, denominados operadores más adelante en este documento. Un operador vende servicios de telefonía entregados a Microsoft Teams a sus clientes. 
 
 Un operador:
-- Implementa y administra un SBC en su centro de datos (los clientes no necesitan implementar un SBC y reciben servicios de telefonía del operador en el cliente de Teams).
+- Implementa y administra un SBC en su centro de datos (los clientes no necesitan implementar un SBC y reciben servicios de telefonía del operador en el Teams cliente).
 - Interconecta el SBC con varios inquilinos.
 - Proporciona servicios RTC a los clientes.
 - Administra la calidad de la llamada de un extremo a otro.
 - Cobra por separado los servicios RTC.
 
-Microsoft no administra operadores. Microsoft ofrece un PBX (Microsoft Phone System) y un cliente de Teams. Microsoft también certifica los teléfonos y certifica los SBC que se pueden usar con microsoft phone system. Antes de elegir un operador, asegúrese de que su elección tiene un SBC certificado y puede administrar la calidad de voz de un extremo a otro.
+Microsoft no administra operadores. Microsoft ofrece un PBX (Teléfono Microsoft system) y un Teams cliente. Microsoft también certifica los teléfonos y certifica los SBC que se pueden usar con el Teléfono Microsoft sistema. Antes de elegir un operador, asegúrese de que su elección tiene un SBC certificado y puede administrar la calidad de voz de un extremo a otro.
 
 A continuación se indican los pasos de implementación técnica para configurar el escenario.
 
@@ -52,17 +52,17 @@ A continuación se indican los pasos de implementación técnica para configurar
 2. Activar el nombre del subdominio.
 3. Configure el tronco del operador para el inquilino del cliente y aprovisione a los usuarios.
 
-*Asegúrese de comprender los conceptos básicos de DNS y cómo se administra el nombre de dominio en Microsoft 365 u Office 365. Revisar [Obtenga ayuda con dominios de Microsoft 365 u Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) antes de continuar.*
+*Asegúrese de comprender los conceptos básicos de DNS y cómo se administra el nombre de dominio en Microsoft 365 o Office 365. Revisar [Obtenga ayuda con Microsoft 365 o Office 365 dominios antes](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) de continuar.*
 
 ## <a name="deploy-and-configure-the-sbc"></a>Implementar y configurar el SBC
 
 Para obtener los pasos detallados sobre cómo implementar y configurar SBC para un escenario de hospedaje de SBC, consulte la documentación del proveedor de SBC.
 
-- **AudioCodes: Notas** de configuración de enrutamiento directo [,](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)la configuración del escenario de hospedaje de SBC descrito en "Conexión de AudioCodes SBC a Microsoft Teams Direct Routing Hosting Model Configuration Note". 
+- **AudioCodes: Notas** de configuración de enrutamiento directo [,](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)la configuración del escenario de hospedaje de SBC descrito en "Conexión de AudioCodes SBC Microsoft Teams nota de configuración del modelo de hospedaje de enrutamiento directo". 
 - **Oracle: Notas** [de configuración de enrutamiento directo,](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)la configuración del escenario de hospedaje de SBC se describe en la sección "Microsoft". 
-- **Comunicaciones de la cinta de opciones:**  Consulte la Guía de configuración de Microsoft Teams de [SBC Core](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) de Comunicaciones de la cinta de opciones para obtener documentación sobre cómo configurar SBC series básicas de cinta de opciones y en esta página Procedimientos recomendados de la cinta de opciones: Configurar operadores para [Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
-- **TE-Systems (anynode):**  Regístrese en la página comunidad [de TE-Systems](https://community.te-systems.de/) para obtener documentación y ejemplos sobre cómo configurar anynode SBC para varios inquilinos.
-- **Metaswitch:**  Regístrese en la página [Comunidad de Metaswitch](https://manuals.metaswitch.com/MAN39555) para obtener documentación sobre cómo habilitar Perimeta SBC para varios inquilinos.
+- **Comunicaciones de la cinta de opciones:**  Consulte la Guía de configuración de [SBC Core Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) de comunicaciones de la cinta de opciones para obtener documentación sobre cómo configurar SBC Edge de la serie Core de cinta de opciones y en esta página Procedimientos recomendados de la cinta de opciones: configuración de operadores para Microsoft Teams Enrutamiento directo [de SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **TE-Systems (anynode):**  Regístrese en la página de Community de [TE-Systems](https://community.te-systems.de/) para obtener documentación y ejemplos sobre cómo configurar anynode SBC para varios inquilinos.
+- **Metaswitch:**  Regístrese en la página [de Community Metaswitch](https://manuals.metaswitch.com/MAN39555) para obtener documentación sobre cómo habilitar Perimeta SBC para varios inquilinos.
 
 > [!NOTE]
 > Preste atención a cómo configurar el encabezado "Contacto". El encabezado Contacto se usa para buscar el inquilino del cliente en el mensaje de invitación entrante. 
@@ -75,13 +75,13 @@ Para el escenario de hospedaje, debe crear:
 
 En el ejemplo siguiente:
 - Adatum es un operador que ofrece servicios de telefonía y Internet a varios clientes.
-- Woodgrove Bank, Contoso y Adventure Works son tres clientes que tienen dominios de Microsoft 365 u Office 365 pero que reciben los servicios de telefonía de Adatum.
+- Woodgrove Bank, Contoso y Adventure Works son tres clientes que tienen dominios Microsoft 365 o Office 365 pero reciben los servicios de telefonía de Adatum.
 
-Los **subdominios** DEBEN coincidir con el nombre FQDN del tronco que se configurará para el cliente y el FQDN en el encabezado Contacto al enviar la Invitación a Microsoft 365 u Office 365. 
+Los subdominios **DEBEN** coincidir con el nombre FQDN del tronco que se configurará para el cliente y el FQDN en el encabezado Contacto al enviar la invitación a Microsoft 365 o Office 365. 
 
-Cuando una llamada llega a la interfaz de enrutamiento directo de Microsoft 365 u Office 365, la interfaz usa el encabezado Contacto para buscar el espacio empresarial donde se debe buscar al usuario. Enrutamiento directo no usa la búsqueda de números de teléfono en la Invitación, ya que algunos clientes pueden tener números que no son DID que pueden superponerse en varios inquilinos. Por lo tanto, el nombre FQDN del encabezado de contacto es necesario para identificar el espacio empresarial exacto para buscar al usuario por el número de teléfono.
+Cuando una llamada llega a la interfaz de enrutamiento directo Microsoft 365 o Office 365, la interfaz usa el encabezado Contacto para buscar el espacio empresarial donde se debe buscar al usuario. Enrutamiento directo no usa la búsqueda de números de teléfono en la Invitación, ya que algunos clientes pueden tener números que no son DID que pueden superponerse en varios inquilinos. Por lo tanto, el nombre FQDN del encabezado de contacto es necesario para identificar el espacio empresarial exacto para buscar al usuario por el número de teléfono.
 
-*Consulte Obtener ayuda con dominios de  [Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo crear nombres de dominio en microsoft 365 u organizaciones de Office 365.*
+*Consulte Obtener [ayuda con Office 365 dominios para](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) obtener más información sobre cómo crear nombres de dominio en Microsoft 365 o Office 365 organizaciones.*
 
 En el siguiente diagrama se resumen los requisitos para el dominio base, los subdominios y el encabezado de contacto.
 
@@ -112,15 +112,15 @@ Para configurar la base y los subdominios, siga los pasos que se describen a con
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>Asegúrese de que tiene los derechos adecuados en el inquilino del operador
 
-Solo puede agregar nuevos dominios si ha iniciado sesión en el Centro de administración de Microsoft 365 como administrador global. 
+Solo puede agregar nuevos dominios si ha iniciado sesión en el centro de Microsoft 365 como administrador global. 
 
-Para validar el rol que tiene, inicie sesión en el Centro de administración de Microsoft 365 ( , vaya a Usuarios usuarios activos y compruebe que tiene un rol de administrador https://portal.office.com)   >  global. 
+Para validar el rol que tiene, inicie sesión en el centro de administración de Microsoft 365 ( , vaya a Usuarios usuarios activos y compruebe que tiene un rol de https://portal.office.com)   >  administrador global. 
 
-Para obtener más información sobre los roles de administrador y cómo asignar un rol en Microsoft 365 u Office 365, vea Acerca de los [roles de administrador.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
+Para obtener más información sobre los roles de administrador y cómo asignar un rol en Microsoft 365 o Office 365, vea Acerca de los [roles de administrador.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Agregar un dominio base al inquilino y comprobarlo
 
-1. En el Centro de administración de Microsoft 365, vaya **a Configurar** dominios  >    >  **Agregar dominio.**
+1. En el Microsoft 365 de administración, vaya **a Configurar** dominios  >    >  **Agregar dominio.**
 2. En el **cuadro Escribir un dominio** de su propiedad, escriba el FQDN del dominio base. En el ejemplo siguiente, el dominio base se *customers.adatum.biz*.
 
     ![Captura de pantalla que muestra la página Agregar un dominio](media/direct-routing-2-sbc-add-domain.png)
@@ -130,19 +130,19 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
     ![Captura de pantalla que muestra la confirmación de un nombre de dominio comprobado](media/direct-routing-3-sbc-verify-domain.png)
 
-5. Haga **clic en** Siguiente y, en la página Actualizar configuración **dns,** seleccione **Agregaré** los registros DNS yo mismo y haga clic en **Siguiente.**
-6. En la página siguiente, desactive todos los valores (a menos que desee usar el nombre de dominio para Exchange, SharePoint o Teams/Skype Empresarial), haga clic en Siguiente y, a continuación, haga clic en **Finalizar.** Asegúrese de que el nuevo dominio se encuentra en el estado Configurar completado.
+5. Haga **clic en** Siguiente y, en la página Actualizar dns **Configuración,** seleccione Agregaré los registros DNS yo **mismo** y haga clic en **Siguiente.**
+6. En la página siguiente, desactive todos los valores (a menos que desee usar el nombre de dominio para Exchange, SharePoint o Teams/Skype Empresarial), haga clic en Siguiente y, a continuación, haga clic en **Finalizar.**  Asegúrese de que el nuevo dominio se encuentra en el estado Configurar completado.
 
     ![Captura de pantalla que muestra dominios con el estado de Configuración completada](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>Activar el nombre de dominio
 
-Después de registrar un nombre de dominio, debe activarlo agregando al menos un usuario con licencia de Sistema telefónico y asignando una dirección SIP con la parte FQDN de la dirección SIP que coincida con el dominio base creado. La licencia se puede revocar después de la activación del dominio (puede tardar hasta 24 horas).
+Después de registrar un nombre de dominio Sistema telefónico, debe activarlo agregando al menos un usuario con una licencia y asignando una dirección SIP con la parte FQDN de la dirección SIP que coincida con el dominio base creado. La licencia se puede revocar después de la activación del dominio (puede tardar hasta 24 horas).
 
 > [!NOTE]
-> El inquilino del operador debe conservar al menos una licencia del sistema telefónico asignada al inquilino para evitar la eliminación de la configuración de Skype Empresarial. 
+> El inquilino del operador debe conservar al menos Sistema telefónico licencia asignada al inquilino para evitar la eliminación de Skype Empresarial configuración. 
 
-*Consulte Obtener ayuda con dominios de [Microsoft 365 u Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo agregar usuarios en microsoft 365 u organizaciones de Office 365.*
+*Consulte [Obtener ayuda con Microsoft 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) o Office 365 para obtener más información sobre cómo agregar usuarios en Microsoft 365 o Office 365 organizaciones.*
 
 Por ejemplo: test@customers.adatum.biz
 
@@ -156,14 +156,14 @@ Tendrá que crear un nombre de subdominio único para cada cliente. En este ejem
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>Asegúrese de que tiene los derechos adecuados en el inquilino del cliente
 
-Solo puede agregar nuevos dominios si ha iniciado sesión en el Centro de administración de Microsoft 365 como administrador global. 
+Solo puede agregar nuevos dominios si ha iniciado sesión en el centro de Microsoft 365 como administrador global. 
 
-Para validar el rol que tiene, inicie sesión en el Centro de administración de Microsoft 365 ( , vaya a Usuarios usuarios activos y compruebe que tiene un rol de administrador https://portal.office.com)   >  global. 
+Para validar el rol que tiene, inicie sesión en el centro de administración de Microsoft 365 ( , vaya a Usuarios usuarios activos y compruebe que tiene un rol de https://portal.office.com)   >  administrador global. 
 
-Para obtener más información sobre los roles de administrador y cómo asignar un rol en Microsoft 365 u Office 365, vea Acerca de los [roles de administrador.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
+Para obtener más información sobre los roles de administrador y cómo asignar un rol en Microsoft 365 o Office 365, vea Acerca de los [roles de administrador.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Agregar un subdominio al inquilino del cliente y comprobarlo
-1. En el Centro de administración de Microsoft 365, vaya **a Configurar** dominios  >    >  **Agregar dominio.**
+1. En el Microsoft 365 de administración, vaya **a Configurar** dominios  >    >  **Agregar dominio.**
 2. En el **cuadro Escribir un dominio** de su propiedad, escriba el FQDN del subdominio para este inquilino. En el ejemplo siguiente, el subdominio se sbc1.customers.adatum.biz.
 
     ![Captura de pantalla de la página Agregar un dominio](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -183,7 +183,7 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
     Para obtener más información, consulte [Crear registros DNS en cualquier proveedor de hospedaje DNS.](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)
 
-7. Vuelva al Centro de administración de Microsoft 365 del cliente y haga clic en **Comprobar**. 
+7. Vuelva al centro de administración de Microsoft 365 cliente y haga clic en **Comprobar**. 
 8. En la página siguiente, seleccione **Agregaré** los registros DNS yo mismo y haga clic en **Siguiente.**
 
     ![Captura de pantalla de las opciones de la página Actualizar configuración dns](media/direct-routing-9-sbc-update-dns.png)
@@ -207,7 +207,7 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
 Después de registrar un nombre de dominio, debe activarlo agregando al menos un usuario y asignando una dirección SIP con la parte FQDN de la dirección SIP que coincida con el subdominio creado en el inquilino del cliente. La licencia se puede revocar del usuario después de la activación del subdominio (puede tardar hasta 24 horas).
 
-*Consulte Obtener ayuda con dominios de [Microsoft 365 u Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo agregar usuarios en microsoft 365 u organizaciones de Office 365.*
+*Consulte [Obtener ayuda con Microsoft 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) o Office 365 para obtener más información sobre cómo agregar usuarios en Microsoft 365 o Office 365 organizaciones.*
 
 Por ejemplo: test@sbc1.customers.adatum.biz
 
@@ -243,6 +243,8 @@ Se introdujeron dos nuevas entidades:
 -    Las opciones solo se envían al FQDN del tronco del operador. El estado del tronco del operador se aplica a todos los troncos derivados y se usa para las decisiones de enrutamiento. Más información sobre las [opciones de enrutamiento directo.](./direct-routing-monitor-and-troubleshoot.md)
 -    El operador puede vaciar el tronco del operador y todos los troncos derivados también se vaciarán. 
  
+> [!NOTE]
+> Las reglas de traducción de números aplicadas en el tronco del operador no se aplican a los troncos derivados. Este es un problema conocido. Como solución alternativa, se debe crear una regla de traducción de números para el inquilino de cada cliente.
 
 **Migración del modelo anterior al tronco del operador de transporte**
  
