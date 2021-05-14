@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909154"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469652"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Datos de diagnóstico móvil necesarios para Microsoft Teams
 
@@ -57,7 +57,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
   - Se muestra la pestaña **Actividad**.
   - Teams captura un evento de la pestaña **Actividad**.
 - **activityTypeDropdown** - Captura el uso del filtro de actividad para cambiar entre **Mi actividad** y **Fuentes**.
-- **addChannel** - Agregar un canal. Este elemento proporciona datos de éxito en torno a la creación satisfactoria de un canal.
+- **addChannel**: agregar un canal. Este elemento proporciona datos correctos en torno a la creación satisfactoria de un canal.
 - **addMember** - Activó el botón **Invitar personas** está seleccionado en el menú **Más**.
 - **addMembers** - Agregar miembros a un equipo o un canal privado.
 - **addToCalendar** - Seleccione el botón **agregar al calendario** para eventos de calendario que faltan en el calendario privado.
@@ -121,7 +121,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **BYOELiveEventJoin** - Al evento en directo BYOE (difundir su propio evento) se une un usuario.
 - **calendarLiveChatClicked** - Chat de Live Meeting en la pestaña **Programación**.
 - **calendarMeetingJoin** - **Botón** Unirse a la reunión seleccionado en un calendario.
-- **calendarTab** - Seleccione la pestaña **Reuniones** en el riel inferior. Es útil para comprender el uso del calendario y compararlo con otras aplicaciones en el riel inferior, o bien para determinar si se produjo un error al procesar el envío del calendario después de seleccionar una opción en la barra inferior.
+- **calendarTab**: seleccionar la pestaña **Reuniones** en el raíl inferior. Es útil para comprender el uso del calendario y compararlo con otras aplicaciones en el raíl inferior, o bien para determinar si se produjo un error al procesar el envío del calendario después de seleccionar una opción en la barra inferior.
 - **calendarTabClicked** - En las circunstancias que se muestran a continuación, se mostrará el uso del calendario y le permitirá comparar con otras aplicaciones de la barra de exploración en el riel inferior. Se puede usar para determinar si se produjo un error cuando:
   - Se muestra la pestaña **Programación**.
   - La pestaña **Reuniones** está seleccionada en el riel inferior.
@@ -222,7 +222,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
   - Se cambia el vídeo a desactivado.
   - El botón de vídeo fue seleccionado mientras se encontraba en una llamada o reunión en directo.
 - **callPark** - Se desencadena cuando:
-  - La **Llamada para permanecer** está seleccionada en el **...** desplegable.
+  - La **Llamada de estacionamiento** está seleccionada en el menú **...**.
   - El botón **Recuperar** está seleccionado.
   - **Recogida** está seleccionada en el cuadro de diálogo recuperar.
   - **Cancelar** está seleccionada en el cuadro de diálogo recuperar.
@@ -359,6 +359,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **composeParticipantAdded** - Cuando se agrega un participante a la aplicación Turnos.
 - **composeSearchResult** - Selección de resultados de la extensión de mensaje, lo que puede resultar útil para comprender la relevancia del resultado de búsqueda de la aplicación. También mejora el envío de mensajes de telemetría con datos de la aplicación.
 - **composeSelectExtension** - Pulse en una aplicación yo.
+- **composeSendSmartRespondly**: se hace clic en un elemento de respuesta inteligente.
 - **composeSendMessage** - Mejora el envío de mensajes de telemetría con datos de la aplicación.
 - **confirmAudioOn** - Un usuario confirma que quieren audio.
 - **confirmFileShare** - **Compartir** está seleccionado en el diálogo de confirmación.
@@ -399,7 +400,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **createPlannerTask** - Comprueba una llamada al servicio de Microsoft Planner. Confirma que una tarea se ha creado correctamente en una lista de tareas compartida.
 - **createShiftClicked** - Cuando un administrador selecciona **Crear un turno**.
 - **createShiftOrTimeOffClicked** - Desencadenada si selecciona **Crear un turno** o **Tiempo libre**.
-- **createTask** - Se usa para cuando crear errores, comprueba que se ha llamado al servicio de Planner. Confirma que se ha producido un error en la operación de creación de tareas.
+- **createTask**: se usa para cuando se produce un error en la acción de crear, comprueba que se ha llamado al servicio de Planner. Confirma un error en la operación de crear tarea.
 - **createTaskList** - Cuando un usuario navega a la vista crear plan desde la vista Inicio.
 - **createTeam** - Proporciona datos correctos en torno a la creación o descartar correctamente para la creación de nuevos equipos cuando:
   - El botón **Completado** está seleccionado en la página **Crear equipo**.
@@ -489,6 +490,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **editNavigation** - **Reordenar** está seleccionada en el menú **Más** para editar el orden de las aplicaciones de barra inferior.
 - **editRsvpMeetingOptions** - Seleccione **RSVP** para cambiar de la selección anterior.
 - **editShiftClicked** - Edite un turno.
+- **editSmartReply**: se hace clic en un elemento de respuesta inteligente.
 - **editTeam** - Un usuario pulsa un botón para editar un equipo del que es propietario o administrar.
 - **editTeam, editChannel** - Relacionada con el éxito agregado de miembros en un equipo y la creación satisfactoria de un equipo existente cuando:
   - Se selecciona el botón **Cancelar** en la página **Agregar miembros** (equipo o canal existente).
@@ -522,7 +524,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **expand/collapse** - La sección de contactos de dispositivo y contactos de la empresa.
 - **expandCollapseSection** : Pulse en un encabezado de sección para expandir o contraer una sección.
 - **Se esperaba: atMention-Android: chatSendMessage-iOS: sendMsg** - @mención de un bot en un cuadro de redacción.
-- **Se esperaba: botClickCardAction-Android: showCard-iOS: no se encuentra** - Pulsar los botones de tarjeta. Las tarjetas son construcciones clave de la plataforma y la medida del uso y el patrón es necesaria para entender el uso de la plataforma y mantener un vistazo a los posibles problemas en el lado del cliente.
+- **Expected: botClickCardAction - Android: showCard - iOS: missing**: tocar en los botones de tarjeta. Las tarjetas son construcciones clave de la plataforma y la medida del uso y el patrón es necesaria para entender el uso de la plataforma y echar un vistazo a los posibles problemas en el lado del cliente.
 - **Se esperaba: chatSendMessage-iOS: composeSendMessage** - Pulse en **responder** y responder a un bot de chat en un canal.
 - **Se esperaba: composeSendMessage-Android: replyChannel-iOS: no se encuentra** - Pulse en **responder** y responder a un chat de robots en un canal.
 - **Se esperaba: messageLike - Android: reactLike_CM** como un mensaje de un bot.
@@ -560,13 +562,13 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **galleryImage** - Imagen cargada - Galería.
 - **get_directions_clicked** - Se ha seleccionado el botón **Obtener instrucciones**.
 - **goToNotificationSettings** - Vaya a la página Configuración de notificaciones de **hemos actualizado la configuración de notificaciones** cuadro de diálogo.
-- **GPSPromptClicked** - **Permitir** o **No permitir** está seleccionada en un símbolo del sistema operativo. ya sea que permita el GPS o no.
+- **GPSPromptClicked**: **Permitir** o **No permitir** está seleccionada en un símbolo del sistema operativo. Permite o no GPS.
 - **group_map_closed** - Un usuario abre el mapa VIW desde el chat.
 - **group_map_open** - El usuario cierra la vista del mapa.
 - **groupCallJoin** - Un usuario se une a una llamada de grupo.
 - **groupClicked** - Realiza un seguimiento de la hora a la que un usuario selecciona el grupo Shift.
 - **guideMe** - Los usuarios seleccionan un banner que les informa sobre las notificaciones de bloqueo de las aplicaciones 3P y ofrece instrucciones de solución de problemas.
-- **hamburgerMenu** - Navegar al menú hamburguesa. El menú hamburguesa contiene acciones importantes, como el cambio de cuenta, la configuración de notificaciones, la configuración de datos y la configuración del perfil.
+- **hamburgerMenu**: navegar al menú Hamburguesa. El menú Hamburguesa contiene acciones importantes, como el cambio de cuenta, la configuración de notificaciones, la configuración de datos y la configuración del perfil.
 - **handoffComplete** - En este dispositivo se entrega una reunión o llamada
 - **handoffJoin** La opción de entrega de la reunión está seleccionada en la hoja de acciones.
 - **hardwareAudioOff** - Desactivar el audio por medio de los botones físicos.
@@ -635,7 +637,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **location_family_sync** - Se muestran los miembros de un grupo de familias que se crearon en la aplicación de la familia MSA. Confirma que se muestran todos los miembros de la familia que pueden conceder permiso.
 - **location_group_map_sync** - Se abre vista de mapa.
 - **location_map_load carga de vista del mapa** -Carga de vista de mapa.
-- **location_map_markers_load** - Carga de vista del mapa. Confirma que los marcadores de ubicación para todos los usuarios que comparten activamente se muestran correctamente en la vista del mapa.
+- **location_map_markers_load**: cargar vista del mapa. Confirma que los marcadores de ubicación para todos los usuarios que comparten activamente se muestran correctamente en la vista del mapa.
 - **location_message_send** - Un usuario inicia una sesión para compartir la ubicación.
 - **location_data_use_privacy_denied** - Un usuario descarta o selecciona **Ahora no** en un elemento emergente que explica el uso de los datos de ubicación por TFL.
 - **location_data_use_privacy_granted** - Un usuario selecciona **Permitir** en el menú emergente en el que se explica el uso de los datos de ubicación por TFL.
@@ -645,6 +647,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **loginFailed** - El usuario no puede iniciar sesión.
 - **loginSuccess** - El usuario pudo iniciar sesión.
 - **manageBlockedNumbers** - Obtenga acceso a números bloqueados mediante Configuración.
+- **manualSend Se**: se envía un mensaje manualmente.
 - **mapAppPicker** - Cuando un usuario selecciona la aplicación de mapas que quiere usar al pulsar en una tarjeta de ubicación.
 - **markAsRead** - Marcar como leído.
 - **markAsUnread** - Marcar como no leído.
@@ -712,7 +715,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **muteParticipant** - Silenciar al participante (ir a la hoja de acciones).
 - **my_location_button_clicked** - El usuario centra el mapa en su ubicación al seleccionar el botón **Mi ubicación**.
 - **my_location_clicked** - Un usuario centra el mapa en su ubicación al seleccionar el **punto azul** en el mapa.
-- **myShiftPickerClicked** - Solo se registra si la solicitud enviada es una cambio o una oferta. El selector de **Mi turno** está seleccionado.
+- **myShiftPickerClicked**: solo se registra si la solicitud enviada es un cambio o una oferta. Se selecciona el selector **Mi turno**.
 - **nameGroupChat** - Nombre de chat de grupo.
 - **nativeTimeClockBreak** - Un descanso en el tiempo.
 - **nativeChatLink** - Se ha seleccionado un vínculo a un chat nativo.
@@ -1003,7 +1006,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **shiftDetailsTodaysCoworkers** - En la pantalla reloj, se selecciona el botón **Inicio** o **Finalizar descanso**.
 - **shortCircuitContactCount** - El número de contactos de cortocircuito coinciden con la libreta de direcciones que se ha recibido de una recopilación de contactos.
 - **showBanner** - El número de veces que se muestra el **WiFi conectado, no hay ninguna pantalla** de Internet.
-- **showCard** - Pulse en los botones de la tarjeta. Las tarjetas son construcciones clave de la plataforma y la medida del uso y el patrón es necesaria para entender el uso de la plataforma y mantener un vistazo a los posibles problemas en el lado del cliente.
+- **showCard**: tocar en los botones de tarjeta. Las tarjetas son construcciones clave de la plataforma y la medida del uso y el patrón es necesaria para entender el uso de la plataforma y echar un vistazo a los posibles problemas en el lado del cliente.
 - **shownReadReceiptNotice** - La notificación de características que se muestra a los usuarios con opciones de configuración.
 - **signIn** - **Inicio de sesión** está seleccionada en la Página principal, o bien, el botón **Inicio de sesión** está pulsado.
 - **signUp** - **Crear una cuenta gratuita** o **Registrarse gratuitamente** están seleccionadas.
@@ -1011,6 +1014,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
   - Se configuró el destino de reenvío de llamada simultánea.
   - El desvío de llamadas simultánea está habilitado (Llamadas márcame y También llamar están habilitadas).
 - **skipVerificationForLink** - El usuario decidió omitir la comprobación.
+- **smartReply**: se hace clic en el botón de alternancia de respuesta inteligente.
 - **SMSSendMessage** - El usuario envía un mensaje SMS.
 - **sortChanged** - Se desencadena cuando el usuario cambia el criterio de ordenación mientras ve un TaskList.
 - **startEditing** -  El botón **Edición** está seleccionado.
@@ -1044,9 +1048,9 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **switchTeamsDialogTriggered** - Un usuario ve la pestaña **Cambios**.
 - **tabActionCopyLink** - Cómo detectan y usan el vínculo de copia de pestañas en dispositivos móviles.
 - **tabActionMoreOptions** Comprende el uso de puntos suspensivos (**...**) en una pestaña.
-- **tabActionOpenInBrowser** - Uso de abrir en el explorador. Esto es necesario para comprender si los usuarios prefieren abrir una pestaña fuera de Teams.
-- **tabActionOpenInBrowserFromTab** - Comprende el uso de Abrir en el explorador desde una pestaña para más opciones: detectabilidad y uso.
-- **tabActionOpenInTeams** - Uso de Abrir en Esta es una forma clave de comprender si la pestaña se puede establecer como Abrir en Teams.
+- **tabActionOpenInBrowser**: uso de abrir en el explorador. Esto es necesario para comprender si los usuarios prefieren abrir una pestaña fuera de Teams.
+- **tabActionOpenInBrowserFromTab**: comprender el uso de Abrir en el explorador desde una pestaña para más opciones: detectabilidad y uso.
+- **tabActionOpenInTeams**: uso Abrir en. Esta es una forma clave de comprender si la pestaña se puede establecer como Abrir en Teams.
 - **tabActionRemove** - Comprende cómo se detecta la opción de eliminación y el uso de la característica.
 - **tabActionRename** - Entienda cómo se cambia el nombre reconocible y el uso de la característica.
 - **tabActionSetting, Android - Fix** - Cómo los usuarios detectan y usan la configuración de pestañas en dispositivos móviles.
@@ -1065,15 +1069,15 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **tasksAppLaunchDashboardSeeAll** - La aplicación Tareas se abre desde el botón del panel **Ver todos**, comprueba el inicio de la aplicación a través del servicio MT.
 - **tasksAppLaunchDefault** - La aplicación tareas se abre desde el alimentador inferior y comprueba el inicio de la aplicación a través del servicio MT.
 - **tabCalendarClicked** - Un usuario ha elegido un equipo del selector de equipo.
-- **teamChannelChanged** - Se desencadena cuando un usuario selecciona y se desplaza a un plan a partir de una lista de planes. Solo enviado a appInsights, no Aria.
+- **teamChannelChanged**: se desencadena cuando un usuario selecciona y se desplaza a un plan a partir de una lista de planes. Solo se envía a appInsights, no a Aria.
 - **teamCreate** - Un usuario selecciona la opción para crear un nuevo equipo.
 - **teamEdit** - Un usuario edita un aspecto de un equipo del que es propietario o administra.
 - **teamNav** - Ver las opciones de menú de un equipo.
 - **teamsDeviceCallResumed** - Un usuario con un periférico conectado a Bluetooth (acoplamiento por teléfono móvil) reactiva una llamada en espera.
 - **teamSelectedClicked** - Cuando un usuario selecciona **Equipo seleccionado** para un registro de horas trabajadas.
 - **teamShiftPickerClicked** - Cuando un usuario agrega una nueva entrada de salto. El evento se registra cuando el usuario guarda los cambios.
-- **tenantSwitch** - En el cambio del espacio empresarial. La característica de métrica de éxito de la característica para MTMA (múltiples cuentas empresariales y varias), le ayuda a identificar y corregir los problemas de manera proactiva y a proporcionar una experiencia de conmutación suave.
-- **tenantSwitchUnsupportedError**: Error Espacio empresarial no respaldado (cuando un usuario ve el error). Las métricas de éxito de la característica para MTMA (múltiples espacios empresariales y cuentas múltiples), permiten la telemetría en torno a errores de la cuenta o el cambio de inquilino, de modo que podemos identificar y corregir los problemas de manera proactiva y proporcionar una experiencia de conmutación suave.
+- **tenantSwitch**: sobre conmutación de espacio empresarial. La métrica de éxito de la característica para MTMA (múltiples cuentas y varios espacios empresariales ), le ayuda a identificar y corregir los problemas de manera proactiva y a proporcionar una experiencia de conmutación suave.
+- **tenantSwitchUnsupportedError**: error de espacio empresarial no admitido (cuando un usuario ve el error). La métrica de éxito de la característica para MTMA (múltiples cuentas y varios espacios empresariales), permiten la telemetría en torno a errores de la cuenta o el cambio de espacio empresarial, de modo que podemos identificar y corregir los problemas de manera proactiva y proporcionar una experiencia de conmutación suave.
 - **timeClockClicked** - Un usuario selecciona el botón **Reloj** en la pestaña Mis turnos.
 - **timeOffReasonClicked** - Determinar si se cita el motivo del uso del horario.
 - **timesheetAddClicked** - Cuando un usuario agrega una nota a sus ediciones de ruptura. El evento se registra cuando el usuario guarda los cambios.
@@ -1109,8 +1113,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **updatePersonalTask** - Confirma que una tarea personal se ha actualizado correctamente.
 - **updatePlaybackSpeedVoicemail** - Se cambia el valor de la velocidad de reproducción del correo de voz.
 - **updateTask** - Se ha producido un error en la acción de confirmar tareas de actualización.
-- **updateTaskState** : Confirma que se ha actualizado el estado de la tarea.
-Acción
+- **updateTaskState**: confirma que se ha actualizado el estado de la tarea. Acción.
 - **actualización** - Seleccione el botón **actualizar** en el menú **Más**.
 - **uploadFile** - Un usuario selecciona **Cargar desde el dispositivo**.
 - **uploadSelectedFile** - Activado en estas circunstancias:
@@ -1186,6 +1189,9 @@ Acción
 - **load_smart_task_list** - Confirma la recopilación satisfactoria de las tareas inteligentes de una lista de tareas para la vista de lista de tareas.
 - **rename_personal_plan** - Confirma que el cambio de nombre de una lista de tareas personales se ha realizado correctamente.
 - **rename_planner_plan** - Confirma que el cambio de nombre de una lista de tareas compartida se ha realizado correctamente.
+- **smart_reply_enabled**: confirma que la respuesta inteligente está habilitada para el usuario actual.
+- **smart_reply_received** : confirma que se recibe una sugerencia de respuesta inteligente.
+- **tenantSwitchUnsupportedError**: confirma que la respuesta inteligente no se puede mostrar para el usuario actual.
 - **update_planner_task_and_nav_to_view** - Confirma la correcta actualización de un elemento de tarea compartida y cuánto tiempo tardó un usuario en llegar a la vista resultante después de la acción.
 - **update_personal_task_and_nav_to_view** - Confirma la correcta actualización de un elemento de tarea personal y el tiempo que tardó un usuario en llegar a la vista resultante después de la **updatePlannerTask** - Confirma que un usuario ha actualizado correctamente una tarea en una lista de tareas compartida.
 
