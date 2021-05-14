@@ -28,7 +28,7 @@ ms.custom:
 - seo-marvel-jun2020
 ms.openlocfilehash: f6048d2413ea92e377358af43c7348abbbe00be1
 ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/14/2021
 ms.locfileid: "51760603"
@@ -110,8 +110,8 @@ Estreche la colaboración de su equipo sanitario para coordinar el cuidado de la
 Microsoft Teams permite al personal médico, personal clínico, personal de enfermería y otros colaborar de manera eficiente con características incluidas de colaboración en Microsoft Teams, tales como:
 
 - Configurar equipos y canales para sus equipos sanitarios y personal de la información. Usar canales con pestañas para estructurar el trabajo, con la ayuda adicional que proporcionan pestañas en las que el personal puede anclar fuentes de información.
-- Pueden chatear, publicar mensajes y comunicarse. Su equipo puede comunicarse constantemente sobre diferentes pacientes que necesitan atención.
-- Pueden realizar llamadas y reunirse con miembros del equipo sanitario. Configure reuniones individuales o utilice las reuniones de canal para administrar reuniones diarias, con la tecnología de las características de Teams de audio, vídeo, pantalla compartida, grabación y transcripción.
+- Chatear, publicar mensajes y comunicarse. Su equipo puede comunicarse constantemente sobre diferentes pacientes que necesitan atención.
+- Realizar llamadas y reunirse con miembros del equipo sanitario. Configure reuniones individuales o utilice las reuniones de canal para administrar reuniones diarias, con la tecnología de las características de Teams de audio, vídeo, pantalla compartida, grabación y transcripción.
 - Almacenar y compartir archivos y documentos. Su equipo sanitario forma parte de un único equipo virtualizado que trabaja y colabora en documentos de Office.
 
 Además, su equipo puede usar aplicaciones en Teams para:
@@ -128,9 +128,9 @@ Además, su equipo puede usar aplicaciones en Teams para:
 
 La aplicación Lists en Microsoft Teams ayuda a los equipos a realizar un seguimiento de la información y a organizar el trabajo. La aplicación viene preinstalada para todos los usuarios de Teams y en una pestaña en todos los equipos y canales. Se pueden crear listas desde cero, desde plantillas predefinidas o mediante la importación de datos de Excel.
 
-Los equipos de salud pueden usar la plantilla Pacientes para empezar. Pueden crear listas para hacer un seguimiento de las necesidades y estado de los pacientes. Se pueden importar datos existentes sobre pacientes en hojas de cálculo de Excel para crear una lista en Teams. Estas listas se pueden usar para escenarios como guardias y supervisión de pacientes para coordinar el cuidado de la salud.
+Loa equipos sanitarios pueden usar la plantilla de Pacientes para empezar. Pueden crear listas para hacer un seguimiento de las necesidades y estado de los pacientes. Se pueden importar datos existentes sobre pacientes en hojas de cálculo de Excel para crear una lista en Teams. Estas listas se pueden usar para escenarios como guardias y supervisión de pacientes para coordinar el cuidado de la salud.
 
-Por ejemplo, un miembro del personal encargado de enfermería puede crear una lista de pacientes en un equipo que incluya a todos los miembros del equipo sanitario. Durante las guardias, el equipo sanitario tiene acceso a Teams en sus dispositivos móviles y puede actualizar la información de los pacientes de la lista. Todos los miembros del equipo pueden ver la lista para sincronizarse. En las sesiones de guardia en las que el equipo sanitario se reúne para evaluar métricas clave de salud para asegurarse de que un paciente vaya por buen camino para recibir el alta, pueden compartir esta información mediante Teams en una pantalla grande de visualización. los miembros del equipo sanitario que no se encuentren en el lugar de la reunión se pueden unir a distancia.
+Por ejemplo, un miembro del personal encargado de enfermería puede crear una lista de pacientes en un equipo que incluya a todos los miembros del equipo sanitario. Durante las guardias, el equipo sanitario tiene acceso a Teams en sus dispositivos móviles y puede actualizar la información de los pacientes de la lista. Todos los miembros del equipo pueden ver la lista para sincronizarse. En las sesiones de guardia en las que el equipo sanitario se reúne para comentar y evaluar métricas clave de salud para asegurarse de que un paciente vaya por buen camino para recibir el alta, pueden compartir esta información mediante Teams en una pantalla grande de visualización. Los miembros del equipo sanitario que no se encuentren en el lugar de la reunión se pueden unir a distancia.
 
 Aquí tiene una lista de muestra para guardias de pacientes.
 
@@ -140,7 +140,7 @@ Para más información, consulte [Administrar la aplicación Listas para su orga
 
 ### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>Hacer un seguimiento de tareas y monitorearlas con la aplicación Tasks
 
-Use [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) en Teams para hacer un seguimiento elementos pendientes para todo el equipo sanitario. Su equipo sanitario puede crear, asignar y programar tareas, categorizar tareas y actualizar estados en cualquier momento, desde cualquier dispositivo que tenga Teams. Los profesionales y administradores de TI también pueden publicar tareas en equipos específicos de su organización. Por ejemplo, podría publicar un conjunto de tareas para nuevos protocolos de seguridad o un nuevo paso de admisión que se usará en un hospital.
+Use [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) en Teams para hacer un seguimiento elementos pendientes para todo el equipo sanitario. Su equipo sanitario puede crear, asignar y programar tareas, categorizar tareas y actualizar estados en cualquier momento, desde cualquier dispositivo que tenga Teams. Los administradores y profesionales de TI también pueden publicar tareas en equipos específicos para su organización. Por ejemplo, podría publicar un conjunto de tareas para los nuevos protocolos de seguridad o un nuevo paso de ingreso para su uso en un hospital.
 
 Para más información, consulte [Administrar la aplicación Tasks para su organización en Microsoft Teams](../../manage-tasks-app.md)
 
