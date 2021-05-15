@@ -119,16 +119,12 @@ items:
                 href: troubleshoot-installation.md
       - name: Aprendizaje de Teams
         items:
-          - name: Información general
-            href: training-microsoft-teams-landing-page.md
           - name: Formación de administradores para Teams
             href: itadmin-readiness.md
-          - name: Sesiones de Teams en Ignite 2020
+          - name: Sesiones de Teams en Ignite
             href: ignite-2020-landing-page.md
-          - name: Formación en directo de Teams
+          - name: Formación del usuario final para Teams
             href: instructor-led-training-teams-landing-page.yml
-          - name: Formación en línea de Teams
-            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: Actualizar de Skype Empresarial
     items:
       - name: Comenzar
@@ -345,7 +341,7 @@ items:
             items:
               - name: Administrar el acceso externo
                 href: manage-external-access.md
-              - name: Chat de Teams nativo
+              - name: Chats de Teams nativos
                 href: native-chat-for-external-users.md
               - name: Interoperabilidad de Teams y Skype
                 href: teams-skype-interop.md
@@ -531,7 +527,7 @@ items:
             items:
               - name: Administrar el acceso externo
                 href: manage-external-access.md
-              - name: Chat de Teams nativo
+              - name: Chats de Teams nativos
                 href: native-chat-for-external-users.md
               - name: Interoperabilidad de Teams y Skype
                 href: teams-skype-interop.md
@@ -1289,7 +1285,7 @@ items:
             href: business-voice/set-up-policies.md
           - name: Administrar los paquetes de directivas
             href: business-voice/policy-packages.md
-          - name: Crear usuarios adicionales
+          - name: Crear más usuarios
             href: business-voice/create-users.md
           - name: Configurar una cola de llamada
             href: business-voice/create-a-phone-system-call-queue-smb.md
@@ -1495,23 +1491,6 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: Paquetes de directivas de Teams para la administración pública
             href: policy-packages-gov.md
-  - name: Solucionar problemas
-    href: /MicrosoftTeams/troubleshoot/teams
-    items:
-      - name: Solución de problemas de instalación y actualización
-        href: troubleshoot-installation.md
-      - name: Solución de problemas de conectividad con el cliente de Microsoft Teams
-        href: connectivity-issues.md
-      - name: Problemas al recibir mensajes y llamadas en sistemas heredados
-        href: legacy-login-issues.md
-      - name: Usar los archivos de registro para solucionar problemas en Teams
-        href: log-files.md
-      - name: Comprobar el estado del servicio para Microsoft Teams
-        href: service-health.md
-      - name: 'Contactar con soporte técnico para productos empresariales: ayuda para administradores'
-        href: /microsoft-365/admin/contact-support-for-business-products
-      - name: Cómo buscar el PIN de soporte técnico
-        href: support-pin.md
   - name: Referencia
     items:
       - name: Especificaciones y límites de Teams
