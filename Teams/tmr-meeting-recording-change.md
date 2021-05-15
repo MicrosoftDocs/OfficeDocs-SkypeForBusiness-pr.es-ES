@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cad935092b1b3b99209c45bf61b7ee40d285ea6
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: c92f4d0bf3e72f79687fa151567052934b49ba55
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469662"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491797"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -182,7 +182,7 @@ El vídeo se reproducirá en el reproductor de vídeo de OneDrive para la Empres
 
 Stream como plataforma no quedará en desuso en un futuro próximo. Los vídeos que están actualmente en Stream permanecerán allí hasta que empecemos a migrar. Tras la migración, esos vídeos también se migrarán a OneDrive para la Empresa o SharePoint. Consulte [Migración a Stream clásico](/stream/streamnew/classic-migration) para obtener más información.
 
-**¿Cómo aplico una etiqueta de retención?**
+**¿Cómo puedo aplicar una etiqueta de retención a Microsoft Teams de reunión?**
 
 Consulte [Cómo aplicar automáticamente una etiqueta de retención](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
 
@@ -190,7 +190,7 @@ Consulte [Cómo aplicar automáticamente una etiqueta de retención](/microsoft-
 
 Consulte [¿Qué directivas tienen prioridad?](./assign-policies.md#which-policy-takes-precedence).
 
-**¿Dónde se encuentra la grabación si el usuario no tiene OneDrive para la Empresa o SharePoint?**
+**¿Dónde se encuentra la grabación si el usuario no tiene OneDrive para la Empresa o SharePoint, o si la cuota de almacenamiento está completa?**
 
 La grabación llegará a nuestra ubicación de almacenamiento temporal, donde se celebrará durante 21 días. Durante ese tiempo, el organizador debe descargar la grabación. Si no se descarga en un plazo de 21 días, se eliminará la grabación.
 

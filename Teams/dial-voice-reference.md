@@ -21,13 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: Obtenga más información sobre las opciones De marcado y reconocimiento de voz del operador automático y de la cola de llamadas en Teams.
-ms.openlocfilehash: f62a04735d386637489d52956e6a064a2eba1e4e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Obtenga información sobre las opciones De marcado y reconocimiento de voz del operador automático y la cola de llamadas en Teams.
+ms.openlocfilehash: ee79f5024ee15fc1b8f00ecd5026f2eb5a9b4b22
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098446"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491817"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Operador automático y referencia de marcación de cola de llamadas y reconocimiento de voz
 
@@ -35,9 +35,9 @@ Marcar por nombre es una característica de un operador automático que también
 
 ## <a name="searching-for-users"></a>Buscar usuarios
 
-Los usuarios a los que desea haber localizado y alcanzado con Marcado por nombre no necesitan tener un número de teléfono o tener planes de llamadas asignados, pero deben estar Telefonía IP empresarial habilitados para los usuarios de **Skype Empresarial Server.** Marcar por nombre incluso podrá buscar y transferir llamadas a usuarios de Microsoft Teams hospedados en diferentes países o regiones para organizaciones nacionales. Dados los requisitos previos implicados, se habilita explícitamente Marcar por nombre en un operador automático.
+Los usuarios a los que desea haber localizado y alcanzado con Marcado por nombre no necesitan tener un número de teléfono o tener planes de llamadas **asignados,** pero deben estar Telefonía IP empresarial habilitados para Skype Empresarial Server usuarios. Marcar por nombre incluso podrá buscar y transferir llamadas a Microsoft Teams usuarios hospedados en diferentes países o regiones para organizaciones nacionales múltiples. Dados los requisitos previos implicados, se habilita explícitamente Marcar por nombre en un operador automático.
 
-Marcar por extensión es una característica de un operador automático que también forma parte de la búsqueda de directorios. Permite a las personas que llaman a su operador automático usar respuestas de voz (reconocimiento de voz) o del teclado del teléfono (DTMF) para escribir la extensión de teléfono del usuario al que está intentando contactar y, a continuación, hacer que la llamada se les transfiera. Los usuarios a los que desea haber localizado y alcanzado con Marcado por extensión no necesitan tener un número de teléfono o tener planes de llamadas asignados, pero deben estar Telefonía IP empresarial habilitados para los usuarios de **Skype Empresarial Server.** También necesitará tener un plan de marcado configurado correctamente para los usuarios. Marcar por extensión incluso podrá buscar y transferir llamadas a usuarios de Microsoft Teams hospedados en diferentes países o regiones para organizaciones nacionales. Dados los requisitos previos implicados, habilita explícitamente Marcar por extensión en un operador automático.
+Marcar por extensión es una característica de un operador automático que también forma parte de la búsqueda de directorios. Permite a las personas que llaman a su operador automático usar respuestas de voz (reconocimiento de voz) o del teclado del teléfono (DTMF) para escribir la extensión de teléfono del usuario al que está intentando contactar y, a continuación, hacer que la llamada se les transfiera. Los usuarios a los que desea haber localizado y alcanzado con Marcado por extensión no son necesarios para tener un número de teléfono o tener planes de llamadas asignados **a ellos,** pero deben estar Telefonía IP empresarial habilitados para Skype Empresarial Server usuarios. También necesitará tener un plan de marcado configurado correctamente para los usuarios. Marcar por extensión incluso podrá buscar y transferir llamadas a Microsoft Teams usuarios hospedados en diferentes países o regiones para organizaciones nacionales. Dados los requisitos previos implicados, habilita explícitamente Marcar por extensión en un operador automático.
 
 ### <a name="maximum-directory-size"></a>Tamaño máximo de directorio
 
@@ -80,7 +80,7 @@ En las búsquedas de personas a través del teclado del teléfono se pueden util
 
 Los usuarios pueden buscar a otras personas de su organización con su voz (reconocimiento de voz). También pueden contactar con cualquier persona de Active Directory diciendo el nombre completo o parcial de la persona a la que están intentando localizar. El uso de entradas de voz puede reconocer nombres en varios formatos, como Nombre, Apellidos, Nombre + Apellidos o Apellidos + Nombre.
   
-Puede habilitar el reconocimiento de voz para un operador automático, pero la entrada del teclado del teléfono (DTMF) no está deshabilitada. La entrada del teclado del teléfono se puede usar en cualquier momento, incluso si el reconocimiento de voz está habilitado en el operador automático.
+Puede habilitar el reconocimiento de voz para un operador automático, pero la entrada del teclado del teléfono (DTMF) no está deshabilitada. Teléfono entrada del teclado numérico se puede usar en cualquier momento, incluso si el reconocimiento de voz está habilitado en el operador automático.
   
 Al igual que con la entrada del teclado del teléfono, si se encuentran varios nombres, la persona que llama escuchará una lista de nombres entre los que seleccionar.
   
@@ -101,33 +101,9 @@ Las personas que llaman pueden decir nombres en los siguientes formatos:
   
 ## <a name="language-support"></a>Compatibilidad con idiomas
 
-Los siguientes idiomas están disponibles para texto a voz que se usan con mensajes salientes:
-  
-|-|-|-|
-|:-----|:-----|:-----|
-|Árabe (EG)  |Inglés (NZ)  |Coreano (KO)  |
-|Chino (HK)  |Inglés (Reino Unido) |Noruego (NO)  |
-|Chino (TW) |Inglés (Estados Unidos) |Polaco (PL)  |
-|Chino (ZH) |Finés (FI) |Portugués (BR) |
-|Danés (DA)  |Francés (CA)  |Portugués (PT) |
-|Neerlandés (NL)   |Francés (FR)  |Ruso (RU) |
-|Inglés (AU)  |Alemán (DE) |Español (ES)  |
-|Inglés (CA)  |Italiano (IT) |Español (MX)|
-|Inglés (IN)  |Japonés (JP) |Sueco (SV)|
+La compatibilidad con el idioma para el reconocimiento de voz y texto a voz está disponible en estos [idiomas admitidos.](create-a-phone-system-auto-attendant-languages.md)
 
-La entrada de reconocimiento de voz para operadores automáticos está disponible en los siguientes idiomas:
-  
-|-|-|
-|:-----|:-----|
-|Chino (ZH)  |Francés (FR)  |
-|Inglés (AU)  |Alemán (DE)  |
-|Inglés (CA)  |Italiano (IT)  |
-|Inglés (IN)  |Japonés (JP)  |
-|Inglés (Reino Unido)  |Portugués (BR)  |
-|Inglés (Estados Unidos)  |Español (ES)  |
-|Francés (CA)   |Español (MX)  |
-
-Los siguientes comandos de voz están disponibles en los 14 idiomas admitidos para el reconocimiento de voz:
+Los siguientes comandos de voz están disponibles para el reconocimiento de voz: 
   
 |Comando de voz| Corresponde a |
 |:-----|:-----|

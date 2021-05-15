@@ -22,27 +22,27 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para Microsoft Teams.
-ms.openlocfilehash: 9efd30eb91e9760f800dd24935724d2a3cdd97c2
-ms.sourcegitcommit: c56c87e912a4b3729c7c52d8de78fd4d24448a8d
+ms.openlocfilehash: 2aef87d1a7885df01b02a5708ac1079ea8021add
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51926056"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498795"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
-Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para hablar con el departamento adecuado, la cola de llamadas, una persona o un operador. Puede crear operadores automáticos para su organización con el Centro de administración de Microsoft Teams o con PowerShell.
+Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para hablar con el departamento adecuado, la cola de llamadas, una persona o un operador. Puede crear operadores automáticos para su organización con el Microsoft Teams de administración o con PowerShell.
 
-Asegúrese de que ha leído Plan para operadores [automáticos](plan-auto-attendant-call-queue.md) de Teams y colas de llamadas y ha seguido los pasos de introducción antes de seguir los procedimientos de este artículo. [](plan-auto-attendant-call-queue.md#getting-started)
+Asegúrese de que ha leído Planear Teams operadores [automáticos](plan-auto-attendant-call-queue.md) y [](plan-auto-attendant-call-queue.md#getting-started) colas de llamadas y ha seguido los pasos de introducción antes de seguir los procedimientos de este artículo.
 
 Los operadores automáticos pueden dirigir las llamadas, según la entrada de los autores de llamadas, a uno de los siguientes destinos: <a name="call-routing-options" ></a>
 
 - **Operador:** el operador definido para el operador automático. Definir un operador es opcional. El operador se puede definir como cualquiera de los otros destinos de esta lista.
-- **Persona de la organización:** una persona de su organización que puede recibir llamadas de voz. Esta persona puede ser un usuario en línea o un usuario hospedado localmente con Skype Empresarial Server.
+- **Persona de la organización:** una persona de su organización que puede recibir llamadas de voz. Esta persona puede ser un usuario en línea o un usuario hospedado localmente mediante Skype Empresarial Server.
 - **Aplicación de voz:** otro operador automático o una cola de llamadas. (Elija la cuenta de recursos asociada con el operador automático o la cola de llamadas al elegir este destino).
-- **Correo de** voz: el buzón de voz asociado a un grupo de Microsoft 365 que especifique.
+- **Correo de** voz: el buzón de voz asociado a Microsoft 365 grupo que especifique.
 - **Número de teléfono externo:** cualquier número de teléfono. (Vea [detalles técnicos de transferencia externa).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
-- **Anuncio (archivo de audio):** reproducir un archivo de audio. Un mensaje de anuncio grabado que carga que se guarda como audio en . WAV, . MP3 o . Formato WMA. La grabación no puede ser superior a 5 MB. El sistema reproduce el anuncio y, a continuación, vuelve al menú operador automático.
+- **Anuncio (archivo de audio):** reproducir un archivo de audio. Un mensaje de anuncio grabado que carga que se guarda como audio en . WAV, .MP3 o . Formato WMA. La grabación no puede ser superior a 5 MB. El sistema reproduce el anuncio y, a continuación, vuelve al menú operador automático.
 - **Anuncio (con tipo):** escriba un mensaje. Texto que desea que lea el sistema. Puede escribir hasta 1000 caracteres. El sistema reproduce el anuncio y, a continuación, vuelve al menú operador automático.
 
 Se le pedirá que elija una de estas opciones en varias fases mientras configura un operador automático.
@@ -52,7 +52,13 @@ Se le pedirá que elija una de estas opciones en varias fases mientras configura
 > - **Transcripción** (Predeterminada: Desactivado): cuando esté habilitado, el mensaje de correo de voz se transcribirá e incluirá como parte del correo electrónico.
 > - **Suprimir saludo** (predeterminado: desactivado): cuando está habilitado, el mensaje estándar del sistema "Deje un mensaje después del tono. Cuando haya terminado, cuelgue o presione la tecla hash para obtener más opciones". se suprimirá.
 
-Para configurar un operador automático, en el Centro de administración de Teams, expanda **Voz**, **seleccione Operadores automáticos** y, a continuación, **seleccione Agregar**.
+Para configurar un operador automático, en el centro de administración de Teams, expanda Voz **,** seleccione **Operadores automáticos** y, a continuación, **seleccione Agregar**.
+
+## <a name="video-demonstration"></a>Demostración de vídeo
+
+En este vídeo se muestra un ejemplo básico de cómo crear un operador automático en Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
 
 ## <a name="general-info"></a>Información general
 
@@ -79,7 +85,7 @@ Para configurar un operador automático, en el Centro de administración de Team
 
 Elija si desea reproducir un saludo cuando el operador automático responda a una llamada.
 
-Si selecciona Reproducir un archivo de  **audio,** puede usar el botón Cargar archivo para cargar un mensaje de saludo grabado guardado como audio en . WAV, . MP3 o . Formato WMA. La grabación no puede ser superior a 5 MB.
+Si selecciona **Reproducir un archivo de audio,** puede usar el botón **Upload** archivo para cargar un mensaje de saludo grabado guardado como audio en . WAV, .MP3 o . Formato WMA. La grabación no puede ser superior a 5 MB.
 
 Si selecciona **Escribir un mensaje de** saludo, el sistema leerá el texto que escriba (hasta 1000 caracteres) cuando el operador automático responda a una llamada.
 
@@ -117,9 +123,9 @@ Si asigna teclas de marcado a destinos, le recomendamos que elija **Ninguna para
 
 Si no ha asignado las teclas de marcado, elija una opción para búsqueda **de directorios.**
 
-**Marcar por nombre:** si habilita esta opción, los autores de llamadas pueden decir el nombre del usuario o escribirlo en el teclado del teléfono. Cualquier usuario en línea o cualquier usuario hospedado local con Skype Empresarial Server, es un usuario apto y se puede encontrar con Marcado por nombre. (Puede establecer quién es y quién no se incluye en el directorio en la [página Ámbito de](#dial-scope) marcado).
+**Marcar por nombre:** si habilita esta opción, los autores de llamadas pueden decir el nombre del usuario o escribirlo en el teclado del teléfono. Cualquier usuario en línea o cualquier usuario hospedado local que use Skype Empresarial Server, es un usuario apto y se puede encontrar con Marcado por nombre. (Puede establecer quién es y quién no se incluye en el directorio en la [página Ámbito de](#dial-scope) marcado).
 
-**Marcar por extensión:** si habilita esta opción, los autores de llamadas pueden conectarse con los usuarios de su organización marcando su extensión de teléfono. Cualquier usuario en línea o cualquier usuario hospedado local con Skype Empresarial Server, es un usuario apto y se puede encontrar **con Marcar por extensión.** (Puede establecer quién es y quién no se incluye en el directorio en la [página Ámbito de](#dial-scope) marcado).
+**Marcar por extensión:** si habilita esta opción, los autores de llamadas pueden conectarse con los usuarios de su organización marcando su extensión de teléfono. Cualquier usuario en línea o cualquier usuario hospedado local que use Skype Empresarial Server, es un usuario apto y se puede encontrar **con Marcar por extensión.** (Puede establecer quién es y quién no se incluye en el directorio en la [página Ámbito de](#dial-scope) marcado).
 
 Los usuarios que desea que estén disponibles para Marcar por extensión deben tener una extensión especificada como parte de [](/microsoft-365/admin/add-users/add-users) uno de los siguientes atributos de teléfono definidos en Active Directory o Azure Active Directory (vea Agregar usuarios individualmente o en masa para obtener más información).
 
@@ -139,7 +145,7 @@ El formato necesario para introducir la extensión en el campo de número de tel
 - Ejemplo 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+1555555678x5678"
 - Ejemplo 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-Puede establecer la extensión en el Centro [de administración de Microsoft 365](https://admin.microsoft.com/) o en el Centro de administración de Azure Active [Directory.](https://aad.portal.azure.com) Los operadores automáticos y las colas de llamadas pueden tardar hasta 12 horas en estar disponibles para los cambios.
+Puede establecer la extensión en el centro [Microsoft 365 de administración](https://admin.microsoft.com/) o en el Azure Active Directory de [administración.](https://aad.portal.azure.com) Los operadores automáticos y las colas de llamadas pueden tardar hasta 12 horas en estar disponibles para los cambios.
 
 > [!NOTE]
 > Si desea usar las  características Marcar  por nombre y Marcar por extensión, puede asignar una clave de marcado al operador automático principal para que llegue a un operador automático habilitado para Marcar **por nombre.** Dentro de ese operador automático, puede asignar la tecla 1 (que no tiene letras asociadas) para que llegue al operador automático Marcar por **extensión.**
@@ -192,7 +198,7 @@ Cuando haya agregado todos los días festivos, seleccione **Siguiente.**
 
 ![Captura de pantalla del ámbito de marcado para incluir y excluir opciones](media/auto-attendant-dial-scope.png)
 
-El *ámbito de marcado* define qué usuarios están disponibles en el directorio cuando un autor de la llamada usa marcado por nombre o marcado por extensión. El valor predeterminado de **Todos los usuarios en** línea incluye todos los usuarios de su organización que son usuarios en línea o hospedados localmente con Skype Empresarial Server.
+El *ámbito de marcado* define qué usuarios están disponibles en el directorio cuando un autor de la llamada usa marcado por nombre o marcado por extensión. El valor predeterminado de **Todos los usuarios en** línea incluye todos los usuarios de su organización que son usuarios en línea o hospedados localmente mediante Skype Empresarial Server.
 
 Puede incluir o excluir usuarios  específicos seleccionando  Grupo de usuarios personalizados en Incluir o Excluir y eligiendo uno o varios grupos de Microsoft 365, listas de distribución o grupos de seguridad.  Por ejemplo, es posible que desee excluir ejecutivos de su organización del directorio de marcado. (Si un usuario está en ambas listas, se excluirá del directorio).
 
@@ -219,7 +225,7 @@ Consulte Los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisite
 
 - Para una cuenta de recurso con una licencia de [Plan](calling-plans-for-office-365.md)de llamadas, el número de teléfono de transferencia externa debe especificarse en formato E.164 (+[código de país][código de área][número de teléfono]).
 
-- Para una cuenta de recursos con una directiva de enrutamiento de voz en línea de licencia del sistema telefónico y enrutamiento directo, el formato de número de teléfono de transferencia externa depende de la configuración del Controlador de borde de sesión [(SBC).](direct-routing-connect-the-sbc.md)
+- Para una cuenta de recursos con una directiva de enrutamiento de voz Sistema telefónico licencia y enrutamiento directo en línea, el formato de número de teléfono de transferencia externa depende de la configuración del Controlador de borde de sesión [(SBC).](direct-routing-connect-the-sbc.md)
 
 El número de teléfono saliente que se muestra se determina de la siguiente manera:
 
@@ -228,7 +234,7 @@ El número de teléfono saliente que se muestra se determina de la siguiente man
     - Si se establece en Deshabilitado, se muestra el número de teléfono del autor de la llamada original. Esta es la configuración predeterminada y recomendada.
     - Si se establece en Habilitado, se muestra el número de teléfono de la cuenta de recurso.
 
-En un entorno híbrido de Skype Empresarial, para transferir una llamada de operador automático a la RTC, cree un nuevo usuario local con el reenvío de llamadas establecido en el número RTC. El usuario debe estar habilitado para Telefonía IP empresarial y tener asignada una directiva de voz. Para obtener más información, vea [Transferencia automática de llamadas a RTC.](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
+En un Skype Empresarial híbrido, para transferir una llamada de operador automático a la RTC, cree un nuevo usuario local con el reenvío de llamadas establecido en el número RTC. El usuario debe estar habilitado para Telefonía IP empresarial y tener asignada una directiva de voz. Para obtener más información, vea [Transferencia automática de llamadas a RTC.](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Crear un operador automático con PowerShell
 
