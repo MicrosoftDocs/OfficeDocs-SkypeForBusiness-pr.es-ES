@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469652"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498775"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Datos de diagnóstico móvil necesarios para Microsoft Teams
 
@@ -385,6 +385,20 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **copyLink** - Copiar un vínculo a una publicación de canal.
 - **contactActivity** - Cuando se selecciona el botón para ver la actividad de un usuario desde la tarjeta de contacto.
 - **conversación** - Cuando un usuario navega hasta las pestañas de **Chat** o **Publicaciones**.
+- **cortanaClose** - Cuando un usuario descarta el lienzo de Cortana.
+- **cortanaEduCategorySelect** - Cuando un usuario hace clic en un elemento de categoría de sugerencias de educación.
+- **cortanaEduOpen** - Cuando se muestra la página Educación en el lienzo de Cortana.
+- **cortanaInvoke** - Cuando Cortana empieza a escuchar.
+- **cortanaKWSSwitchToggle** - Cuando un usuario pulsa en el conmutador de KWS en la página de configuración de Cortana.
+- **cortanaMicPermissionButtonClick** - Cuando un usuario concede o rechaza los permisos de micrófono en el lienzo de Cortana.
+- **cortanaOpen** - Cuando un usuario abre el lienzo de Cortana.
+- **cortanaOptionsOpen** - Cuando el usuario pulsa el botón de opciones en el lienzo de Cortana.
+- **cortanaSafetyFirstActions** - Cuando el usuario acepta la primera declaración de seguridad.
+- **cortanaSafetyFirstLaunch** - Cuando el usuario abre Cortana por primera vez después de que finalice la FRE.
+- **cortanaSettingsOpen** - Cuando un usuario abre la página de configuración de Cortana haciendo clic en el botón de configuración de Cortana en el lienzo de Cortana.
+- **cortanaStopResponding** - Cuando un usuario hace clic en el botón Cancelar en el lienzo de Cortana.
+- **cortanaUserSettingsLaunch** - Cuando el usuario abre la configuración de Cortana en la configuración de Teams.
+- **cortanaVoiceSelect** - Cuando un usuario selecciona la fuente de voz de Cortana en la página de configuración de Cortana.
 - **createChannel** - Proporciona datos correctos en torno a la creación correcta o descartar la creación de un nuevo canal cuando:
   - El botón **Completado** está seleccionado en la página **Crear canal**.
   - Se selecciona el botón **Cancelar** en la página **Crear canal**.
@@ -655,6 +669,9 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **messageBookmarkMessage** - Se guarda la tarjeta del conector. Usa la telemetría existente con datos específicos de la aplicación. O guardar un mensaje de bot.
 - **markAsLastUnread** - Menú contextual de la tarjeta del conector.
 - **maskCallerId** - Un usuario habilita o deshabilita la configuración de llamada para enmascarar la identificación de quien llama.
+- **meetingAttachmentFileClick** - Se hace clic en un elemento de datos adjuntos de una reunión.
+- **meetingAttachmentFileOpciones** - Se hace clic en las opciones de un elemento de datos adjuntos de una reunión.
+- **meetingAttachmentSeeMoreClick** - Se hace clic en el botón Ver más de los datos adjuntos de una reunión.
 - **meetingDetailCalendarList** - Página de detalles de la reunión seleccionada en calendarList o seleccione la pestaña **Detalles** en la página Detalles de la reunión.
 - **meetingDetailChatWithParticipants** - Charle con los participantes de la página de Detalles de la reunión.
 - **meetingDetailDeleteMeetingforSelf** - Eliminar una reunión de la página de detalles de la reunión para uno mismo.
@@ -662,6 +679,10 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **meetingDetailParticipants** - Ver todos los participantes de la página de detalles de la reunión.
 - **meetingDetailScheduledMeeting** - Página de detalles de la reunión seleccionada en el objeto reunión programada (**...**), o bien seleccione la pestaña **Detalles** de una reunión programada.
 - **meetingDetailSearchParticipants** Se seleccionó **Buscar** en los participantes de la reunión en la programación de reuniones.
+- **meetingInsightFileClick** - Se hace clic en un elemento de archivo relacionado con la reunión.
+- **meetingInsightFileLocatorClick** - Se hace clic en el botón de sugerencia de localizador de contenido relacionado con la reunión.
+- **meetingInsightFileOptions** - Se hace clic en las opciones de un elemento de archivo relacionado con la reunión.
+- **meetingInsightSeeMoreClick** - Se hace clic en el botón Ver más del contenido relacionado con la reunión.
 - **meetingJoinLeave** : Permanece pulsado -> **x** es pulsado después de pulsar el botón **Unirse**.
 - **meetingJoinNow** - **Unirse ahora al** VOIP seleccionada.
 - **meetingJoinNowWithCallMe** - Un usuario se une a una reunión con **Llamarme**.
@@ -1172,6 +1193,24 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 > [!NOTE]
 > Para obtener información sobre las propiedades de los eventos PanelAction, vea [Propiedades que se envían con eventos de escenario](#properties-sent-with-scenario-events).
 
+- **cortanaError** - Para supervisar el error de Cortana que se produce.
+- **cortanaView** - Para supervisar la aparición del lienzo de Cortana.
+- **cortanaRestart** - Para supervisar el reinicio de Cortana.
+- **cortanaSetNewConversation** - Para supervisar el establecimiento de una nueva conversación de Cortana.
+- **cortanaSpeechRecognization** - Para supervisar la latencia de reconocimiento de voz de Cortana.
+- **cortanaStart** - Para supervisar el inicio de backend de Cortana.
+- **cortanaStartListening** - Para supervisar cuándo Cortana empieza a escuchar.
+- **cortanaStopListening** - Para supervisar cuándo Cortana deja de escuchar.
+- **cortanaThinking** - Para supervisar el cambio de estado de Cortana a pensando (esperando por la respuesta del servicio).
+- **cortanaTokenRefresh** - Para supervisar la actualización del token de Cortana en primer plano.
+- **cortanaWarmingUp** Para supervisar el inicio de preparación de Cortana (Cortana está abierta, pero el token sigue capturando).
+- **cortana_admin_policy_refresh** - Para supervisar la actualización de la directiva de administración de Cortana.
+- **cortana_background_token_refresh** - Para supervisar la actualización del token de Cortana.
+- **cortana_initialization** - Para supervisar los pasos de inicialización de Cortana.
+- **cortana_sdk_events** - Para supervisar los eventos relacionados con la activación de Cortana.
+- **cortana_skill_action_execution** - Para supervisar la ejecución de acciones de Cortana.
+- **cortana_skill_action_delay** - Confirma el inicio de la acción de retraso.
+- **cortana_watchdog** - Para supervisar el proceso de recuperación de watchdog de Cortana.
 - **create_default_plan_and_nav_to_view** - Confirma la creación correcta de una lista de tareas compartida predeterminada y el tiempo que tardó un usuario en posicionar la vista posterior resultante en la acción.
 - **create_personal_plan_and_nav_to_view** - Confirma la creación correcta de una lista de tareas personales y el tiempo que tardó un usuario en encontrarse en la vista posterior resultante de la acción.
 - **create_personal_task** - Confirma la creación correcta de un elemento de tarea personal.
@@ -1187,6 +1226,11 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **load_personal_task_list** - Confirma la búsqueda exitosa de las tareas de una lista de tareas en la vista de lista de tareas.
 - **load_shared_task_list** - Confirma la búsqueda exitosa de las tareas de una lista de tareas compartida en la vista de lista de tareas.
 - **load_smart_task_list** - Confirma la recopilación satisfactoria de las tareas inteligentes de una lista de tareas para la vista de lista de tareas.
+- **meetingAttachmentRender** - Confirma la representación de datos adjuntos de reunión.
+- **meetingInsightFetch** - Confirma la captura de contenido relacionado con la reunión.
+- **meetingInsightLocatorRender** - Confirma la representación de la sugerencia de localizador de contenido relacionado con la reunión.
+- **meetingInsightRender** - Confirma la representación del contenido relacionado con la reunión.
+- **meetingInsightVisible** - Confirma la visibilidad del contenido relacionado con la reunión.
 - **rename_personal_plan** - Confirma que el cambio de nombre de una lista de tareas personales se ha realizado correctamente.
 - **rename_planner_plan** - Confirma que el cambio de nombre de una lista de tareas compartida se ha realizado correctamente.
 - **smart_reply_enabled**: confirma que la respuesta inteligente está habilitada para el usuario actual.
