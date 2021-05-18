@@ -17,16 +17,16 @@ description: Obtenga información sobre las directivas de grabación de eventos 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9c808e4ae4e27e48c14c45711ef80ffd1c812125
-ms.sourcegitcommit: 3fc6fb528806f967bdc80671761cd45c32db6516
+ms.openlocfilehash: f9654c139433ffa764767e0a2140896eab52204b
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51383974"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513853"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Directivas de grabación de eventos en directo en Microsoft Teams
 
-Tiene varias opciones para grabar un evento en directo de Microsoft Teams. Las opciones de grabación se establecen con directivas de grabación. En este artículo se describen las distintas opciones de configuración.
+Tiene varias opciones para grabar un evento Microsoft Teams en directo. Las opciones de grabación se establecen con directivas de grabación. En este artículo se describen las distintas opciones de configuración.
 
 Las opciones de grabación se establecen con el comando de PowerShell [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps).
 
@@ -52,17 +52,13 @@ Como parte de la directiva de difusión, hay una configuración que puede activa
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Grabar siempre               | Deshabilitado y seleccionado                                | Habilitado y seleccionado         |
 | Organizador puede grabar o no | Habilitado y seleccionado de forma predeterminada                  | Habilitado y seleccionado de forma predeterminada   |
-| Nunca grabar               | Deshabilitado y no seleccionado                            | Habilitado y no seleccionado      |
+| Nunca grabar               | Deshabilitado y no seleccionado                            | Deshabilitado y no seleccionado      |
 
-Cuando la directiva se establece en **Registro siempre,** la página de directiva tiene las siguientes opciones seleccionadas:
-
-![configuración de directiva de eventos en directo](../media/live-event-recording-policy.png "Captura de pantalla de la configuración de la directiva de eventos en directo en el centro de administración de Microsoft Teams")
-
-## <a name="storage-and-persistence-behavior"></a>Comportamiento de almacenamiento y persistencia
+## <a name="storage-and-persistence-behavior"></a>Storage y el comportamiento de persistencia
 
 | Opción                                       | Estado   | DVR                                                   | VOD                                                     | Grabación                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| Grabación disponible para productores y presentadores | Seleccionado     | DVR está disponible y el activo de Azure Media Services (AMS) se almacena durante 180 días | Los asistentes pueden acceder al evento y verlo                     |                              |
+| Grabación disponible para productores y presentadores | Seleccionado     | DVR está disponible y el Azure Media Services (AMS) se almacena durante 180 días | Los asistentes pueden acceder al evento y verlo                     |                              |
 |                                                  | No seleccionado | DVR está disponible y el activo de AMS se almacena durante 180 días | Los asistentes no án acceso al evento una vez que se ha terminado |                              |
 ||Deshabilitado (no seleccionado)|DVR está disponible y el activo de AMS se elimina después del evento|Los asistentes no án acceso al evento una vez que se ha terminado||
 | Grabación disponible para productores y presentadores | Seleccionado     |                                                           |                                                             | Se crea y almacena un MP4 |
@@ -73,4 +69,4 @@ Cuando la directiva se establece en **Registro siempre,** la página de directiv
 - [¿Qué son los eventos en directo de Teams?](what-are-teams-live-events.md)
 - [Planear eventos en directo en Teams](plan-for-teams-live-events.md)
 - [Establecer la configuración de eventos en directo de Microsoft Teams](configure-teams-live-events.md)
-- [Grabación de reuniones en la nube de Teams](../cloud-recording.md)
+- [Teams de reuniones en la nube](../cloud-recording.md)
