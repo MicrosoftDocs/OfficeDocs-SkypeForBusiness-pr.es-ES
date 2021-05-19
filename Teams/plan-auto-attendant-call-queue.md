@@ -1,5 +1,5 @@
 ---
-title: Planear los operadores automáticos y las colas de llamadas de Teams
+title: Planear Teams operadores automáticos y colas de llamadas
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre operadores automáticos y colas de llamadas y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para llegar a personas o departamentos de su organización.
-ms.openlocfilehash: 2e81f1d40c73cb8bcdf0a5ebd48f05c015732afe
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 1ccce8205afcf019fea539823c21e3a29a2fa206
+ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262645"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52517753"
 ---
-# <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear los operadores automáticos y las colas de llamadas de Teams
+# <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear Teams operadores automáticos y colas de llamadas
 
 Los operadores automáticos le permiten configurar opciones de menú para enrutar llamadas en función de la entrada de la persona que llama. Opciones de menú, como "Ventas, presione 1.  Para servicios presione 2", para un operador automático, permita que una organización proporcione una serie de opciones que guían a los autores de llamadas a su destino rápidamente, sin depender de un operador humano para controlar las llamadas entrantes.
 
@@ -70,24 +70,24 @@ Puede asignar un número de teléfono a una cola de llamadas, pero las colas de 
 Para configurar operadores automáticos y colas de llamadas, necesita los siguientes recursos:
 
 - Una cuenta de recursos para cada operador automático y cada cola de llamadas
-- Un sistema telefónico gratuito: licencia de usuario virtual para cada cuenta de recursos
+- Una Sistema telefónico: licencia de usuario virtual para cada cuenta de recursos
 - Al menos un número [de servicio de Microsoft,](getting-service-phone-numbers.md)un número de enrutamiento directo o un número híbrido para cada cuenta de recurso que desea que se pueda marcar directamente
  - El número de servicio puede ser un número gratuito o de pago
 
-Los agentes que reciban llamadas de las colas de llamadas deben estar Telefonía IP empresarial habilitados para usuarios en línea o locales. Además, si las colas de llamadas usan números de enrutamiento directo, los agentes que necesitan realizar conferencias o transferir llamadas también requieren:
+Los agentes que reciben llamadas de las colas de llamadas deben estar Telefonía IP empresarial habilitados para usuarios en línea o locales. Además, si las colas de llamadas usan números de enrutamiento directo, los agentes que necesitan realizar conferencias o transferir llamadas también requieren:
 
 - Una directiva de enrutamiento de voz en línea asignada si la cola de llamadas usa el modo de transferencia
 - Una licencia de audioconferencia o una directiva de enrutamiento de voz en línea asignada si la cola de llamadas usa el modo de conferencia
 
 Si los agentes usan la aplicación Microsoft Teams para llamadas en cola de llamadas, deben estar en modo TeamsOnly.
 
-Al transferir llamadas a un número de teléfono externo, la cuenta de recursos que realiza la transferencia (es decir, la asociada con el operador automático o la cola de llamadas) debe tener una licencia de usuario virtual de Microsoft 365 Phone System y una de las siguientes asignadas:
+Al transferir llamadas a un número de teléfono externo, la cuenta de recursos que realiza la transferencia (es decir, la asociada con el operador automático o la cola de llamadas) debe tener una licencia de usuario virtual de Microsoft 365 Sistema telefónico y una de las siguientes asignadas:
 
-- Una [licencia del plan de llamadas](calling-plans-for-office-365.md)
-- Una [directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md)
+- Una [licencia del plan de](calling-plans-for-office-365.md) llamadas y un número de teléfono asignado
+- Una [directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md) (la asignación de número de teléfono es opcional al usar enrutamiento directo)
 
 > [!NOTE]
-> Los números de servicio de enrutamiento directo para operadores automáticos y colas de llamadas solo son compatibles con los usuarios de Microsoft Teams y los agentes de llamadas.<br>
+> Los números de servicio de enrutamiento directo para operadores automáticos y colas de llamadas solo son compatibles Microsoft Teams usuarios y agentes de llamadas.<br>
 > Las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directo no son compatibles.<br>
 > En un escenario híbrido, la cuenta de recursos debe crearse localmente. Para obtener más información, vea Planear colas [de llamadas en la nube.](/skypeforbusiness/hybrid/plan-call-queue)
 
@@ -114,20 +114,20 @@ Los agentes se pueden agregar a las colas de llamadas de las siguientes maneras:
 - Usuarios individuales
 - Listas de distribución
 - Grupos de seguridad, incluidos los grupos de seguridad habilitados para correo
-- Grupos o equipos de Microsoft 365
+- Microsoft 365 Grupos o Teams
 
-Puede usar una combinación de estas opciones para cada cola si es necesario. Los grupos que tienen una dirección de correo electrónico se pueden usar para el correo de voz. El uso de Teams ofrece una serie de ventajas, como el almacenamiento de archivos compartidos y el chat entre agentes, un buzón común donde se pueden recibir correos de voz y una plataforma extensible que puede incluir la integración con su línea de aplicaciones empresariales o Power Apps.
+Puede usar una combinación de estas opciones para cada cola si es necesario. Los grupos que tienen una dirección de correo electrónico se pueden usar para el correo de voz. Usar Teams ofrece una serie de ventajas, como el almacenamiento de archivos compartidos y el chat entre agentes, un buzón común donde se pueden recibir correos de voz y una plataforma extensible que puede incluir integración con su línea de aplicaciones empresariales o Power Apps.
 
 Se recomienda elegir una estrategia para agregar agentes de llamadas a las colas antes de iniciar la configuración.
 
 Si tiene un operador automático y una infraestructura de cola de llamadas existentes y está migrando a Teams, necesitará un plan para transferir los números de teléfono existentes a los nuevos operadores automáticos y las colas de llamadas. Es posible que tenga que crear una orden [de portabilidad](phone-number-calling-plans/port-order-overview.md) para mover los números de otros proveedores. Le recomendamos que adquiera temporalmente uno o varios números de teléfono nuevos y que pruebe los flujos de la cola de llamadas y el operador automático antes de cambiarlos por los números que tiene actualmente en servicio.
 
-*El modo de* conferencia es una opción en las colas de llamadas que reduce significativamente la cantidad de tiempo que se tarda en conectar las llamadas VOIP de Teams y las llamadas RTC a un agente. Para que el modo de conferencia funcione, los agentes en la cola de llamadas deben usar uno de los siguientes clientes:
+*El modo de* conferencia es una opción en las colas de llamadas que reduce significativamente la cantidad de tiempo que se tarda en conectarse Teams llamadas VOIP y llamadas RTC a un agente. Para que el modo de conferencia funcione, los agentes en la cola de llamadas deben usar uno de los siguientes clientes:
 
 - Última versión del cliente de escritorio de Microsoft Teams, la aplicación de Android o la aplicación de iOS
   - Versión de teléfono 1449/1.0.94.2020051601 o posterior de Microsoft Teams
   
-Establezca las cuentas de Teams de los agentes en el modo solo para equipos. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas.
+Establezca las cuentas de Teams agentes en Teams modo de solo lectura. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas.
 
 Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
 
@@ -149,10 +149,10 @@ Los operadores automáticos enrutar todas las llamadas de una de las siguientes 
 
 Cuando un operador automático o una cola de llamadas redirigen las llamadas, puede elegir entre los siguientes destinos de enrutamiento de llamadas:
 
-- **Persona de la organización:** una persona de su organización que puede recibir llamadas de voz. Puede ser un usuario en línea o un usuario hospedado localmente con Skype Empresarial Server.
+- **Persona de la organización:** una persona de su organización que puede recibir llamadas de voz. Puede ser un usuario en línea o un usuario hospedado localmente mediante Skype Empresarial Server.
 - **Aplicación de voz:** otro operador automático o una cola de llamadas. Elija la cuenta de recursos asociada al destino.
 - **Número de teléfono externo:** cualquier número de teléfono. (Vea [detalles técnicos de transferencia externa).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
-- **Correo de** voz: el buzón de voz asociado a un grupo de Microsoft 365 que especifique.
+- **Correo de** voz: el buzón de voz asociado a Microsoft 365 grupo que especifique.
 - **Operador** (solo operador automático): el operador definido para el operador automático. Definir un operador es opcional. Un operador puede ser cualquiera de los otros destinos de esta lista.
 
 Los operadores automáticos ofrecen opciones de enrutamiento de llamadas independientes para las llamadas recibidas fuera del horario laboral y en días festivos. El enrutamiento de llamadas después del horario laboral permite todas las opciones enumeradas anteriormente, mientras que el enrutamiento de llamadas navideñas solo permite redirigir o desconectar una llamada, pero no opciones de clave de marcado.
@@ -199,9 +199,9 @@ Una vez que haya completado las tareas de planificación de este artículo, siga
 
 1. Obtenga los números de servicio que necesita para los operadores automáticos y las colas de llamadas a las que desea que se pueda acceder mediante el marcado directo desde fuera de su organización. Esto puede incluir [la transferencia de números de otro proveedor](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o la solicitud de nuevos números de [servicio.](getting-service-phone-numbers.md)
 
-2. Obtener un [sistema telefónico: licencia de usuario virtual](teams-add-on-licensing/virtual-user.md) para cada cuenta de recursos que tiene previsto crear. Estas licencias son gratuitas, por lo que le recomendamos obtener algunas adicionales en caso de que decida realizar cambios en sus cuentas de recursos en el futuro.
+2. Obtenga una [Sistema telefónico: licencia de usuario virtual](teams-add-on-licensing/virtual-user.md) para cada cuenta de recursos que tiene previsto crear. Estas licencias son gratuitas, por lo que le recomendamos obtener algunas adicionales en caso de que decida realizar cambios en sus cuentas de recursos en el futuro.
 
-3. [Cree una cuenta de recursos](manage-resource-accounts.md) para cada operador automático y la cola de llamadas que desee crear. Asigne a cada cuenta una licencia de Usuario virtual y, opcionalmente, un número de servicio.
+3. [Cree una cuenta de recursos](manage-resource-accounts.md) para cada operador automático y la cola de llamadas que desee crear. Asigne a cada cuenta Sistema telefónico: licencia de usuario virtual y, opcionalmente, un número de servicio.
 
 4. [Cree los días festivos](set-up-holidays-in-teams.md) para los que desea tener enrutamiento de llamadas independiente en los operadores automáticos.
 
@@ -209,7 +209,7 @@ Una vez que haya completado las tareas de planificación de este artículo, siga
 
 6. Cree los grupos que desee usar para contener los agentes de llamadas para las colas de llamadas.
 
-7. Si tiene previsto permitir el marcado por extensión, asegúrese de que ha agregado el número de extensión de los usuarios a su perfil de Azure Active Directory.
+7. Si tiene previsto permitir el marcado por extensión, asegúrese de que ha agregado el número de extensión de los usuarios a su Azure Active Directory usuario.
 
 Una vez que haya completado los pasos anteriores, estará listo para crear los operadores automáticos y las colas de llamadas. Como los operadores automáticos y las colas de llamadas pueden redirigir las llamadas entre sí, consulte el diagrama de flujo de trabajo que ha creado para determinar qué operador automático o cola de llamadas se deben crear primero. En el ejemplo del diagrama anterior, crearía las colas de llamadas de soporte técnico y ventas antes de crear el operador automático principal de Contoso, ya que el operador automático principal debe dirigir a los autores de llamadas a las colas de llamadas de soporte técnico y ventas.
 
@@ -218,7 +218,7 @@ Vea los artículos siguientes para obtener información sobre cómo crear operad
 - [Configurar un operador automático](create-a-phone-system-auto-attendant.md)
 - [Crear una cola de llamada](create-a-phone-system-call-queue.md)
 
-Si necesita funcionalidades más amplias, como la integración con flujos de trabajo, bots y SMS, considere [Azure Communication Services.](/azure/communication-services/overview)
+Si necesita capacidades más amplias, como la integración con flujos de trabajo, bots y SMS, considere [Azure Communication Services](/azure/communication-services/overview).
 
 ## <a name="related-topics"></a>Temas relacionados
 

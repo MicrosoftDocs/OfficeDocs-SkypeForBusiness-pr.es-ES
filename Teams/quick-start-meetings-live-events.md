@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cafd88594935565595a48a55c6a6b8f07d254345
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4ca2c048b28d82c7c41a7f98712264c739bce210
+ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117678"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52517743"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams
 
@@ -34,9 +34,9 @@ Hay dos maneras de reunirse con Microsoft Teams: reuniones y eventos en directo.
 > [!Note]
 > Para obtener más información sobre cómo configurar rápidamente las reuniones y los eventos de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
- - Las **reuniones** en Teams incluyen audio, vídeo y pantalla compartida para más de 300 personas. Se trata de una de las maneras clave de colaborar en Teams y no necesita ser miembro de ninguna organización (¡ni tampoco tener una cuenta en Teams!) para reunirte por Teams, pues únicamente tendrá que buscar la invitación para seguir las instrucciones de la llamada.
+ - Las **reuniones** en Teams incluyen audio, vídeo y pantalla compartida para hasta 1 000 personas. Se trata de una de las maneras clave de colaborar en Teams y no necesita ser miembro de ninguna organización (¡ni tampoco tener una cuenta en Teams!) para reunirse por Teams, pues únicamente tendrá que buscar la invitación para seguir las instrucciones de la llamada.
 
- - **Eventos en directo** es una extensión de las reuniones de Teams que le permiten programar y producir eventos que se transmiten a grandes contactos en línea, hasta 10 000 personas. Si necesita reunir a más de 300 personas, hazclo en un evento en directo.
+ - **Eventos en directo** es una extensión de las reuniones de Teams que le permiten programar y producir eventos que se transmiten a grandes audiencias en línea, hasta 10 000 personas. Si necesita reunir a más de 1 000 personas, use un evento en directo.
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obtenga licencias para reuniones y eventos en directo
 
