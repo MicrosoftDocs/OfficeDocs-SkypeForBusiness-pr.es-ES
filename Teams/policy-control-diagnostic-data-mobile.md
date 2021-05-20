@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
+ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498775"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52569238"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Datos de diagnóstico móvil necesarios para Microsoft Teams
 
@@ -1188,11 +1188,43 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **whiteboardUsed** - Un usuario anota en una pizarra (cualquiera de las acciones que se muestran en ella).
 - **wiki - No hay AS asignado** - Telemetría de uso de wiki.
 
+### <a name="panelview"></a>PanelView
+
+> [!NOTE]
+> Para obtener información sobre las propiedades de los eventos Panelview, consulte[Propiedades que se envían con los eventos panelview](#properties-sent-with-panelview-events).
+
+- **fileDeleteFailed**: se desencadena cuando se produce un error en la operación de eliminación de archivos.
+- **fileDeleteSuccess**: se desencadena cuando una operación de eliminación de archivos concluye con éxito.
+- **filePreview**: se desencadena en los escenarios siguientes:
+  - Cuando se pulsa la opción compartir en la pantalla de vista previa de archivo.
+  - Cuando se copia la opción compartir en la pantalla de vista previa de archivo.
+  - Cuando se descarga la opción compartir en la pantalla de vista previa de archivo.
+  - Cuando se carga correctamente una vista previa de archivo.
+- **file**: se desencadena en los escenarios siguientes:
+  - Cuando se muestra una vista previa de un archivo en la aplicación de Teams.
+  - Cuando la opción de carga de archivos está pulsada en la pantalla archivos de OneDrive.
+  - Cuando la opción "Copiar link" se pulsa en la pantalla de vista previa de archivo.
+  - Cuando se descarta la pantalla de uso compartido de archivos.
+  - Cuando se abre el menú de opciones de archivos o cuando se pulsa una de las opciones de ese menú.
+  - Cuando se abre la pantalla de archivos "en una llamada".
+  - Cuando se pulsa un archivo para abrirlo.
+- **filesChannel**: se desencadena cuando se abre la pantalla de archivos de canal.
+- **fileSources** : se desencadena cuando se abre el menú de opciones de archivos o cuando se pulsa una de las opciones de ese menú.
+- **filesPersonal**: se desencadena cuando un lote de archivos se carga en OneDrive o en la pantalla de archivos recientes.
+- **fileUploadDeleteTriggered**: se desencadena cuando se eliminan los datos adjuntos de un archivo o se separan del área de mensaje.
+- **fileUploadFailed**: se desencadena cuando se produce un error en la operación de carga de archivos.
+- **fileUploadIndividualNotification**: se desencadena cuando cambia el contenido de la notificación de carga de archivo o cuando se interactúa con la notificación. Las interacciones pueden incluir gestos como deslizar el dedo para descartar la notificación o pulsar la notificación, etc.
+- **fileUploadSuccess**: se desencadena cuando se resuelve un error en la operación de carga de archivos.
+- **fileUploadSummaryNotification**: se desencadena cuando cambia el contenido del resumen de carga de archivo o cuando se interactúa con la notificación. Las interacciones pueden incluir gestos como deslizar el dedo para descartar la notificación o pulsar la notificación, etc.
+- **meetingFiles**: se desencadena cuando se abre la pantalla archivos de reunión.
+- **navPersonalFiles**: se desencadena cuando se realiza la navegación a la pantalla de archivos.
+
 ### <a name="scenario"></a>Escenario
 
 > [!NOTE]
 > Para obtener información sobre las propiedades de los eventos PanelAction, vea [Propiedades que se envían con eventos de escenario](#properties-sent-with-scenario-events).
 
+- **chat_add_giphy**: confirma si la acción de representación gif de Giphy se ha hecho correctamente o con errores.
 - **cortanaError** - Para supervisar el error de Cortana que se produce.
 - **cortanaView** - Para supervisar la aparición del lienzo de Cortana.
 - **cortanaRestart** - Para supervisar el reinicio de Cortana.
@@ -1216,6 +1248,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **create_personal_task** - Confirma la creación correcta de un elemento de tarea personal.
 - **create_planner_plan_and_nav_to_view** - Confirma la creación satisfactoria de la lista de tareas compartida y la duración que tardó un usuario en la vista resultante de la acción.
 - **create_planner_task** - Confirma la creación satisfactoria de un elemento de tarea compartida.
+- **forwardExistingAmsObject** Confirma si la acción de reenvío multimedia se ha hecho correctamente o con errores.
 - **delete_personal_plan** - Confirma la eliminación correcta de una lista de tareas personales.
 - **delete_personal_task** - Confirma que un elemento de tarea personal se elimina correctamente.
 - **delete_planner_plan** - Confirma que la eliminación de la lista de tareas compartida se haya realizado correctamente.
@@ -1231,13 +1264,20 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **meetingInsightLocatorRender** - Confirma la representación de la sugerencia de localizador de contenido relacionado con la reunión.
 - **meetingInsightRender** - Confirma la representación del contenido relacionado con la reunión.
 - **meetingInsightVisible** - Confirma la visibilidad del contenido relacionado con la reunión.
+- **open_image** Confirma si la representación de imágenes a pantalla completa se ha representado correctamente o con errores.
 - **rename_personal_plan** - Confirma que el cambio de nombre de una lista de tareas personales se ha realizado correctamente.
 - **rename_planner_plan** - Confirma que el cambio de nombre de una lista de tareas compartida se ha realizado correctamente.
+- **save_image** Confirma si la imagen guarda la acción correctamente o con errores.
+- **share_image** Confirma si la imagen comparte la acción correctamente o con errores.
 - **smart_reply_enabled**: confirma que la respuesta inteligente está habilitada para el usuario actual.
 - **smart_reply_received** : confirma que se recibe una sugerencia de respuesta inteligente.
 - **tenantSwitchUnsupportedError**: confirma que la respuesta inteligente no se puede mostrar para el usuario actual.
 - **update_planner_task_and_nav_to_view** - Confirma la correcta actualización de un elemento de tarea compartida y cuánto tiempo tardó un usuario en llegar a la vista resultante después de la acción.
-- **update_personal_task_and_nav_to_view** - Confirma la correcta actualización de un elemento de tarea personal y el tiempo que tardó un usuario en llegar a la vista resultante después de la **updatePlannerTask** - Confirma que un usuario ha actualizado correctamente una tarea en una lista de tareas compartida.
+- **update_planner_task_and_nav_to_view**: confirma la correcta actualización de un elemento de tarea personal y cuánto tiempo tardó un usuario en llegar a la vista resultante después 
+- **updatePlannerTask**: confirma que un usuario ha actualizado correctamente una tarea en una lista de nombres compartidos.
+- **upload_images** Confirma si la imagen carga la acción correctamente o con errores.
+- **upload_voice_messages** Confirma si el mensaje de voz carga la acción correctamente o con errores.
+- **voiceMessageUpload** Confirma si el mensaje de voz carga la acción correctamente o con errores.
 
 ## <a name="property-lists"></a>Listas de propiedades
 
