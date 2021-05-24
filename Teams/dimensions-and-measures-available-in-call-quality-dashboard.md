@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que usa el Panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial Online.
-ms.openlocfilehash: 981c5811f00d2e9005bd1387a7b58d23431af848
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: b44323d8fd15b3e0f97269afe7459981348d977b
+ms.sourcegitcommit: d3a5efa1e11e4dad97f31d633d31aa7c9b2dee57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469742"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583929"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en panel de calidad de llamada (CQD)
 
@@ -157,7 +157,7 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 | Duration (Minutes)  | Intervalo (minutos)  | Duración de la transmisión en minutos. Los valores se agrupan en intervalos.<br/> **Valor de ejemplo:** 065: [3–4) ||
 | Duration (Seconds)  | Intervalo (segundos) | Duración de la transmisión en segundos. Los valores se agrupan en intervalos.<br/> **Valor de ejemplo:** 062: [1 -2)||
 |**Fecha**|||
-|Hora de finalización|  String| Hora del día en que finalizó la llamada.|&bull; Error en la configuración de llamadas |
+|Hora de finalización|  String| Hora del día en que finalizó la llamada.|&bull; Error en la configuración de llamadas o no se estableció (consulte Motivo de respuesta de CDR) |
 | Year  | Entero  | Año del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 2018 | |
 | Month  | Entero  | Mes del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 2 | |
 | Day  | Entero  | Día del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 1 | |
@@ -168,10 +168,10 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 | Day Of Year  | Entero  | Día del año del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 32 | |
 | Day Of Week  | Cadena  | Día de la semana del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** Miércoles | |
 | Day Number Of Week  | Entero  | Número de día de la semana del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 3 | |
-|Semana|  String  |Fecha de inicio de la semana en la que se realizó la llamada. <br/> **Valor de ejemplo:** 2019-09-01 |&bull; Error en la configuración de llamadas |
+|Semana|  String  |Fecha de inicio de la semana en la que se realizó la llamada. <br/> **Valor de ejemplo:** 2019-09-01 |&bull; Error en la configuración de llamadas o no se estableció (consulte Motivo de respuesta de CDR) |
 | Month Year  | Cadena  | Mes y año del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 2017-02 | |
 | Full Month  | Fecha y hora  | Mes completo del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 2017-02-01T00:00:00 | |
-|Hora de inicio|String  |Hora del día en que se inició la llamada.|&bull; Error en la configuración de llamadas |
+|Hora de inicio|String  |Hora del día en que se inició la llamada.|&bull; Error en la configuración de llamadas o no se estableció (consulte Motivo de respuesta de CDR) |
 |**UserAgent** | | |
 | First Domain  | Cadena  | Dominio del primer usuario del punto de conexión. Si el primer punto de conexión es un servidor de conferencias, usa el dominio del organizador de la reunión. También podría ser el dominio de las cuentas de servicio que se han utilizado en este escenario.  <br/> **Valor de ejemplo:** contoso <span></span> .com | |
 | Second Domain  | Cadena  | Dominio del segundo usuario del punto de conexión. Si el segundo punto de conexión es un servidor de conferencias, usa el dominio del organizador de la reunión. También podría ser el dominio de las cuentas de servicio que se han utilizado en este escenario. <br/> **Valor de ejemplo:** contoso <span></span> .com  | |

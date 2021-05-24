@@ -24,73 +24,73 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52569208"
 ---
-# <a name="direct-routing---definitions-and-rfc-standards"></a>Enrutamiento directo - Definiciones y estándares RFC
+# <a name="direct-routing---definitions-and-rfc-standards"></a>Enrutamiento directo: definiciones y estándares RFC
 
-En este artículo se describe cómo Teléfono Microsoft enrutamiento directo del sistema implementa los protocolos estándar RFC. Este artículo está destinado a administradores de voz que son responsables de configurar la conexión entre el controlador de borde de sesión local (SBC) y el servicio proxy del Protocolo de inicio de sesión (SIP).
+En este artículo se describe cómo Teléfono Microsoft System Direct Routing implementa protocolos estándar RFC. Este artículo está destinado a los administradores de voz responsables de configurar la conexión entre el controlador de borde de sesión local (SBC) y el servicio de proxy protocolo de inicio de sesión (SIP).
 
-El cliente SBC interactúa con los siguientes componentes en el back-end Microsoft Teams: 
+El SBC del cliente interfaces con los siguientes componentes en el back-end Microsoft Teams cliente: 
 
-- **El proxy SIP** para la señalización. Este es el componente orientado a Internet del enrutamiento directo que maneja las conexiones SIP (TLS) entre los SBC y el enrutamiento directo.
+- **El proxy SIP** para señalización. Este es el componente orientado a Internet de Enrutamiento directo que controla las conexiones SIP (TLS) entre los SBC y el enrutamiento directo.
 
-- **Los procesadores de medios** para medios. Este es el componente orientado a Internet de enrutamiento directo que controla el tráfico de medios. Este componente utiliza los protocolos SRTP y SRTCP.
+- **Los procesadores multimedia** para medios. Este es el componente orientado a Internet de Enrutamiento directo que controla el tráfico multimedia. Este componente usa protocolos SRTP y SRTCP.
 
 
-Para obtener más información acerca del enrutamiento directo, consulte [Sistema telefónico enrutamiento directo](direct-routing-landing-page.md).
+Para obtener más información sobre enrutamiento directo, [vea Sistema telefónico enrutamiento directo.](direct-routing-landing-page.md)
 
-Para obtener más información acerca de cómo el enrutamiento directo implementa el protocolo SIP, consulte [Enrutamiento directo - Protocolo SIP](direct-routing-protocols-sip.md).
+Para obtener más información sobre cómo enrutamiento directo implementa el protocolo SIP, vea [Enrutamiento directo : protocolo SIP.](direct-routing-protocols-sip.md)
 
 ## <a name="rfc-standards"></a>Estándares RFC
 
-Enrutamiento directo cumple con los estándares RFC.  El SBC conectado al enrutamiento directo también debe cumplir con los siguientes RFC (o sus sucesores). 
+El enrutamiento directo cumple con los estándares RFC.  El SBC conectado a Enrutamiento directo también debe cumplir con las siguientes RFC (o sus sucesores). 
 
-### <a name="standards-applicable-to-devices-that-support-non-media-bypass-mode"></a>Estándares aplicables a los dispositivos que admiten el modo de derivación no multimedia 
+### <a name="standards-applicable-to-devices-that-support-non-media-bypass-mode"></a>Estándares aplicables a dispositivos que admiten el modo de omisión no multimedia 
 
-Los siguientes estándares son aplicables a los dispositivos que solo admiten el modo de omisión no multimedia:
+Los siguientes estándares se aplican a los dispositivos que solo admiten el modo de omisión no multimedia:
 
-- [RFC 3261 SIP](https://tools.ietf.org/html/rfc3261): Protocolo de iniciación de sesión
-- [RFC 3325](https://www.ietf.org/rfc/rfc3325). Extensión privada al protocolo de inicio de sesión para la identidad afirmada dentro de redes de confianza: secciones sobre el control del encabezado P-Asserted-Identity. Enrutamiento directo envía P-Asserted-Identity con encabezados de ID de privacidad. 
-- [RFC 4244](https://www.ietf.org/rfc/rfc4244.txt) Una extensión al Protocolo de inicio de sesión (SIP) para la información de historial requerida. Vea también: Descripción del Protocolo SIP de ruteo para más información.
-- [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt) El mecanismo de Referred-By del Protocolo de Iniciación de Sesiones
-- [RFC 3891](https://www.ietf.org/rfc/rfc3891.txt) El encabezado "Reemplaza" del Protocolo de inicio de sesión (SIP) 
-- [RFC 6337](https://tools.ietf.org/html/rfc6337) Uso del Protocolo de inicio de sesión (SIP) del modelo de oferta/respuesta.
-  Consulte la sección "Desviaciones de RFC".
-- [RFC 3711](https://tools.ietf.org/html/rfc3711) y [RFC 4771](https://tools.ietf.org/html/rfc4771). Proteja el tráfico RTP usando el SRTP. El SBC debe poder establecer claves mediante SDES. 
-- [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) Protocolo de descripción de sesión (SDP) Ofrecer/Responder aclaraciones para rtp/RTCP multiplexing
+- [RFC 3261 SIP:](https://tools.ietf.org/html/rfc3261)Protocolo de inicio de sesión
+- [RFC 3325](https://www.ietf.org/rfc/rfc3325). Extensión privada al protocolo de inicio de sesión para la identidad afirmada en redes de confianza: secciones sobre cómo administrar el encabezado P-Asserted-Identity. Enrutamiento directo envía P-Asserted-Identity con encabezados de id. de privacidad. 
+- [RFC 4244](https://www.ietf.org/rfc/rfc4244.txt) Una extensión al Protocolo de inicio de sesión (SIP) para obtener la información de historial necesaria. Vea también: Descripción del protocolo SIP de enrutamiento para obtener más información.
+- [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt) El protocolo de inicio de sesión Referred-By mecanismo
+- [RFC 3891](https://www.ietf.org/rfc/rfc3891.txt) Encabezado "Reemplaza" del Protocolo de inicio de sesión (SIP) 
+- [RFC 6337](https://tools.ietf.org/html/rfc6337) Uso del protocolo de inicio de sesión (SIP) del modelo de oferta y respuesta.
+  Vea la sección "Desviaciones de RFC".
+- [RFC 3711](https://tools.ietf.org/html/rfc3711) y [RFC 4771](https://tools.ietf.org/html/rfc4771). Proteja el tráfico RTP con SRTP. El SBC debe poder establecer claves con SDES. 
+- [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) Ofertas y respuestas del Protocolo de descripción de sesión (SDP) para multiplexación RTP/RTCP
 
-### <a name="standards-applicable-to-devices-that-support-media-bypass-mode"></a>Estándares aplicables a los dispositivos que admiten el modo de derivación de medios
+### <a name="standards-applicable-to-devices-that-support-media-bypass-mode"></a>Estándares aplicables a dispositivos compatibles con el modo de omisión multimedia
 
-Además de los estándares enumerados como aplicables al modo de no derivación, se utilizan los siguientes estándares para el modo de derivación de medios:
+Además de los estándares enumerados como aplicables al modo de no omisión, se usan los siguientes estándares para el modo de omisión de medios:
 
-- [RFC 5245 Establecimiento interactivo de conectividad (ICE) para la omisión de medios](https://tools.ietf.org/html/rfc5245).  El SBC debe admitir lo siguiente:
-  - ICE Lite: los clientes Teams son clientes completos del ICE
-  - [El ICE reinicia](https://tools.ietf.org/html/rfc5245#section-9.1.1.1). Vea más sobre los reinicios del ICE caso de uso y ejemplos en ice restart: Media bypass call transferida a un punto final que no admite la omisión de medios   
-- [RFC RFC 5589 Protocolo de inicio de sesión (SIP) Control de llamadas – Transferencia](https://tools.ietf.org/html/rfc5589). 
-- [RFC 3960 Early Media and Ringing Tone Generation en el Session Initiation Protocol (SIP),](https://tools.ietf.org/html/rfc3960)ver secciones 3.1, Forking, y 3.2, Ringing Tone Generation 
+- [Rfc 5245 Interactive Connectivity Establishment (ICE) para la omisión de medios.](https://tools.ietf.org/html/rfc5245)  El SBC debe admitir lo siguiente:
+  - ICE Lite: los Teams son clientes completos de ICE
+  - [Ice Reinicia](https://tools.ietf.org/html/rfc5245#section-9.1.1.1). Más información sobre los casos de uso y ejemplos de los reinicios del ICE: Llamada de omisión de medios transferida a un punto de conexión que no admite la omisión de medios   
+- [Rfc RFC 5589 Session Initiation Protocol (SIP) Control de llamadas : Transferir](https://tools.ietf.org/html/rfc5589). 
+- [Rfc 3960 Early Media and Ringing Tone Generation in the Session Initiation Protocol (SIP),](https://tools.ietf.org/html/rfc3960)vea las secciones 3.1, Forking y 3.2, Ringing Tone Generation 
 - [Utilidades de recorrido de sesión RFC 5389 para NAT (STUN)](https://tools.ietf.org/html/rfc5389)
-- [RFC 5766 Traversal Usando relés alrededor de NAT (TURN): Extensiones de relé a utilidades de recorrido de sesión para NAT (STUN)](https://tools.ietf.org/html/rfc5766)
+- [Rfc 5766 Traversal Using Relays around NAT (TURN): Relay Extensions to Session Traversal Utilities for NAT (STUN)](https://tools.ietf.org/html/rfc5766)
 
-### <a name="standards-applicable-to-support-conveying-location-information-to-e911-providers"></a>Normas aplicables a la ayuda para transmitir información de ubicación a proveedores de E911
+### <a name="standards-applicable-to-support-conveying-location-information-to-e911-providers"></a>Estándares aplicables para admitir el transporte de información de ubicación a proveedores de E911
 
-- [RFC 6442, Transporte de ubicación para el Protocolo de iniciación de sesión](https://tools.ietf.org/html/rfc6442)
+- [RFC 6442, Transporte de ubicación para el protocolo de inicio de sesión](https://tools.ietf.org/html/rfc6442)
 
 ### <a name="deviations-from-the-rfcs"></a>Desviaciones de la RFC
 
-En la tabla siguiente se enumeran las secciones de las RFC en las que la implementación de Microsoft de la pila sip o media se desvía del estándar:
+En la tabla siguiente se enumeran las secciones de las RFC en las que la implementación de Microsoft de la pila sip o multimedia se desvía del estándar:
 
-| RFC y secciones | Descripción | desviación |
+| RFC y secciones | Descripción | Desviación |
 | :---------------------  |:---------------------- |:-----------------------|
-| [RFC 6337, sección 5.3 Retención y reanudación de medios](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC permite utilizar "a=inactive", "a=sendonly", a=recvonly" para realizar una llamada en espera. |El proxy SIP solo admite "a=inactive" y no entiende si el SBC envía "a=sendonly" o "a=recvonly".
-| [RFC 6337, sección 5.4 "Comportamiento al recibir SDP con c=0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requiere que un agente sea capaz de recibir el SDP con una dirección de conexión de 0.0.0.0, en cuyo caso significa que ni rtp ni RTCP deben ser enviados al par. | El proxy SIP no admite esta opción. |
+| [RFC 6337, sección 5.3 Retención y currículo de medios](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC permite usar "a=inactivo", "a=sendonly", a=recvonly" para poner una llamada en espera. |El proxy SIP solo admite "a=inactivo" y no comprende si el SBC envía "a=sendonly" o "a=recvonly".
+| [RFC 6337, sección 5.4 "Comportamiento al recibir SDP con c=0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requiere que un agente pueda recibir SDP con una dirección de conexión de 0.0.0.0, en cuyo caso significa que no se deben enviar ni RTP ni RTCP al par. | El proxy SIP no admite esta opción. |
 
 ## <a name="operational-modes"></a>Modos operativos
 
-Hay dos modos operativos para el enrutamiento directo:
+Hay dos modos operativos para enrutamiento directo:
 
-- **Sin la omisión de medios** en la que todo el tráfico RTP fluye entre el cliente Teams, los procesadores de medios, y el SBC.  
+- **Sin omisión** de medios en la que todo el tráfico RTP fluye entre el cliente Teams, los procesadores multimedia y el SBC.  
 
-- **Con el desvío de medios** en el cual todos los medios RTP fluyen entre los puntos finales Teams y el SBC. 
+- **Con la omisión** de medios en la que todos los medios RTP fluyen entre los puntos de conexión Teams y el SBC. 
 
-Observe que el tráfico SIP fluye siempre vía el proxy DEL SORBO. 
+Tenga en cuenta que el tráfico SIP siempre fluye a través del proxy SIP. 
 
-## <a name="dtmf"></a>Dtmf
-La pila de medios no admite DTMF en banda.
+## <a name="dtmf"></a>DTMF
+DTMF en banda no es compatible con la pila de medios.
