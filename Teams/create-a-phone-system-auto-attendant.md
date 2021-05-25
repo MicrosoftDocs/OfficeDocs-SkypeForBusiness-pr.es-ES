@@ -21,17 +21,20 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Obtenga información sobre cómo configurar y probar operadores automáticos para Microsoft Teams.
-ms.openlocfilehash: 2aef87d1a7885df01b02a5708ac1079ea8021add
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
+ms.openlocfilehash: 270a2e613e387b797cb70914ad400da80b15b1ca
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498795"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628949"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
 Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para hablar con el departamento adecuado, la cola de llamadas, una persona o un operador. Puede crear operadores automáticos para su organización con el Microsoft Teams de administración o con PowerShell.
+
+> [!TIP]
+> Este artículo es de grandes organizaciones. Si su organización es una gran empresa, lea Configurar un [operador automático : tutorial de pequeña empresa](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) en su lugar.
 
 Asegúrese de que ha leído Planear Teams operadores [automáticos](plan-auto-attendant-call-queue.md) y [](plan-auto-attendant-call-queue.md#getting-started) colas de llamadas y ha seguido los pasos de introducción antes de seguir los procedimientos de este artículo.
 

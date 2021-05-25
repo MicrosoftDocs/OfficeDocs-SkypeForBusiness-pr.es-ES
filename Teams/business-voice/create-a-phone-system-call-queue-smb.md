@@ -1,5 +1,5 @@
 ---
-title: 'Crear una cola de llamadas en Microsoft Teams: tutorial de pequeña empresa'
+title: Crear una cola de llamadas en Microsoft Teams - tutorial de pequeña empresa
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: Obtenga información sobre cómo configurar las colas de llamadas con Microsoft 365 Business Voice.
-ms.openlocfilehash: c7533227796fb9ae9357590993a9065dc01d5030
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+description: Obtenga información sobre cómo configurar colas de llamadas para pequeñas empresas en Microsoft 365 Business Voice.
+ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064826"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629059"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Crear una cola de llamadas: tutorial para pequeñas empresas
 
@@ -51,7 +51,7 @@ En este vídeo se muestra cómo crear una cola de llamadas en Teams.
 
 #### <a name="before-you-begin"></a>Antes de empezar
 
-Obtener algunas [licencias del sistema telefónico: licencias](../teams-add-on-licensing/virtual-user.md) de usuario virtual si aún no las tiene. Obtenga una por cada cola de llamadas y operador automático que tiene previsto configurar. Estas licencias son gratuitas, por lo que le recomendamos obtener algunas adicionales en caso de que decida realizar cambios en su configuración en el futuro.
+Obtener algunas [Sistema telefónico: licencias de usuario virtual](../teams-add-on-licensing/virtual-user.md) si aún no las tiene. Obtenga una por cada cola de llamadas y operador automático que tiene previsto configurar. Estas licencias son gratuitas, por lo que le recomendamos obtener algunas adicionales en caso de que decida realizar cambios en su configuración en el futuro.
 
 Puesto que los agentes de una cola de llamadas pueden llamar para devolver una llamada de cliente, considere la posibilidad de establecer el identificador de llamada de los agentes de llamada en su número de teléfono principal o el número de un operador automático adecuado. Consulte [administrar las directivas de identificador de llamada en Microsoft Teams](../caller-id-policies.md) obtener más información.
 
@@ -61,11 +61,11 @@ Puesto que los agentes de una cola de llamadas pueden llamar para devolver una l
 
 # <a name="step-1brcreate-a-team"></a>[Paso 1 <br> Crear un equipo](#tab/create-team)
 
-Al crear una cola de llamadas, puede agregar usuarios individuales a la cola o puede usar un grupo de seguridad existente, un grupo de Microsoft 365 o un equipo de Microsoft Teams. Se recomienda [usar un canal de grupo.](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e) Esto permite a los miembros de la cola chatear entre sí, compartir ideas y crear documentos u otros recursos para ayudarles a ayudar a sus clientes. Un equipo también proporciona un buzón de voz para que los autores de llamadas dejen un mensaje fuera del horario laboral o si la cola alcanza su capacidad máxima.
+Al crear una cola de llamadas, puede agregar usuarios individuales a la cola o puede usar un grupo de seguridad existente, Microsoft 365 grupo o Microsoft Teams grupo. Se recomienda [usar un canal de grupo.](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e) Esto permite a los miembros de la cola chatear entre sí, compartir ideas y crear documentos u otros recursos para ayudarles a ayudar a sus clientes. Un equipo también proporciona un buzón de voz para que los autores de llamadas dejen un mensaje fuera del horario laboral o si la cola alcanza su capacidad máxima.
 
 Para crear un equipo
 
-1. En primer lugar, haga clic en **Teams** en el lado izquierdo de la aplicación y, a continuación, haga clic en Unirse **o crear un** equipo en la parte inferior de la lista de equipos.
+1. En primer lugar, **haga clic Teams** en el lado izquierdo de la aplicación y, a continuación, haga clic en Unirse o crear **un** equipo en la parte inferior de la lista de equipos.
 
 2. A **continuación, haga** clic en Crear equipo (primera tarjeta, esquina superior izquierda).
 
@@ -94,13 +94,13 @@ Para agregar un canal
 
 # <a name="step-2brresource-accounts"></a>[Paso 2 <br> Cuentas de recursos](#tab/resource-account)
 
-Cada cola de llamadas que cree requiere una cuenta de recursos. Esto es similar a una cuenta de usuario, excepto que la cuenta está asociada con un operador automático o una cola de llamadas en lugar de una persona. En este paso, crearemos la cuenta, le asignaremos una licencia de *Microsoft 365 Phone System - Virtual User* y, a continuación, la usaremos para empezar a crear la cola de llamadas.
+Cada cola de llamadas que cree requiere una cuenta de recursos. Esto es similar a una cuenta de usuario, excepto que la cuenta está asociada con un operador automático o una cola de llamadas en lugar de una persona. En este paso, crearemos la cuenta, le asignaremos una *Microsoft 365 Sistema telefónico:* licencia de usuario virtual y, a continuación, la usaremos para empezar a crear la cola de llamadas.
 
 ### <a name="create-a-resource-account"></a>Crear una cuenta de recursos
 
-Puede crear una cuenta de recursos en el Centro de administración de Teams.
+Puede crear una cuenta de recursos en el centro Teams administración.
 
-1. En el Centro de administración de Teams, expanda **Configuración de toda la organización** y, a continuación, haga clic en Cuentas de **recursos.**
+1. En el Teams de administración, expanda **Configuración de** toda la organización y, a continuación, haga clic en Cuentas **de recursos.**
 
 2. Haga clic en **Agregar**.
 
@@ -116,21 +116,21 @@ Puede crear una cuenta de recursos en el Centro de administración de Teams.
 
 ### <a name="assign-a-license"></a>Asignar una licencia
 
-Debe asignar una licencia de Usuario virtual de *Microsoft 365 Phone System* a la cuenta de recursos.
+Debe asignar una licencia *Microsoft 365 Sistema telefónico usuario virtual* a la cuenta de recursos.
 
-1. En el Centro de administración de  Microsoft 365, en la lista Usuarios activos, haga clic en la cuenta de recursos a la que desea asignar una licencia.
+1. En el Microsoft 365 de administración, en la lista **Usuarios** activos, haga clic en la cuenta de recursos a la que desea asignar una licencia.
 
-2. En la **pestaña Licencias y aplicaciones,** en **Licencias,** seleccione **Microsoft 365 Phone System - Usuario virtual.**
+2. En la **pestaña Licencias y aplicaciones,** en **Licencias,** **seleccione Microsoft 365 Sistema telefónico - Usuario virtual.**
 
 3. Haga clic **en Guardar cambios.**
 
-    ![Captura de pantalla de la interfaz de usuario asignar licencias en el Centro de administración de Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
+    ![Captura de pantalla de la interfaz de usuario asignar licencias en el Microsoft 365 de administración](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>Crear una cola de llamada
 
 A continuación, empezaremos a crear una nueva cola de llamadas y asignaremos la cuenta de recursos.
 
-1. En el Centro de administración de Teams, expanda **Voz,** haga clic en **Colas de** llamadas y, a continuación, haga clic **en Agregar.**
+1. En el Teams de administración, expanda **Voz,** haga clic en **Colas de** llamadas y, a continuación, haga clic en **Agregar.**
 
 1. Escriba un nombre descriptivo para la cola.
 

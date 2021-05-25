@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumen: en una implementación local de Skype Empresarial Server habilitada para híbridos, puede mover usuarios entre el entorno local y la nube (ya sea Microsoft Teams o Skype Empresarial Online antes de su retirada).'
-ms.openlocfilehash: 8fce1799ba3e10f2e96b8beab0fbde7805c7c229
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 3140811a08f582488e672fccbfa7f34678b813d4
+ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305963"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52642090"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Mover usuarios entre la implementación local y la nube
 
@@ -40,7 +40,7 @@ Requisitos previos para mover un usuario a la nube (ya sea Teams modo solo o Sky
 
 - La organización debe tener Azure AD Conectar configurado correctamente y estar sincronizando todos los atributos relevantes para el usuario, tal como se describe en [Configure Azure AD Conectar](configure-azure-ad-connect.md).
 - Skype Empresarial debe configurarse híbrido, como se describe en [Configurar Skype Empresarial híbrido](configure-federation-with-skype-for-business-online.md).
-- Al usuario se le debe asignar una licencia para Teams y Skype Empresarial Online (Plan 2). Incluso después de la retirada de Skype Empresarial Online, el Skype Empresarial licese online aún es necesario.  Además:
+- Al usuario se le debe asignar una licencia para Teams y Skype Empresarial Online (Plan 2). Incluso después de la retirada de Skype Empresarial Online, la licencia Skype Empresarial Online sigue siendo necesaria.  Además:
     - Si el usuario está habilitado para conferencias de acceso telefónico local, de forma predeterminada, el usuario también debe tener una licencia de audioconferencia asignada en Teams antes de mover el usuario en línea. Una vez que se haya migrado a la nube, el usuario se aprovisionará para las conferencias de audio en la nube. Si por algún motivo desea mover un usuario a la nube, pero no usar la funcionalidad de audioconferencia, puede invalidar esta comprobación especificando el `BypassAudioConferencingCheck` parámetro en `Move-CsUser` .
     - Si el usuario está habilitado para Telefonía IP empresarial local, de forma predeterminada, el usuario debe tener una licencia de Sistema telefónico asignada en Teams antes de mover el usuario en línea. Una vez que se haya migrado a la nube, el usuario se aprovisionará para Sistema telefónico en la nube. Si por algún motivo desea mover un usuario a la nube pero no usar la funcionalidad Sistema telefónico, puede invalidar esta comprobación especificando el `BypassEnterpriseVoiceCheck` parámetro en `Move-CsUser` .
 
@@ -68,7 +68,7 @@ Para mover usuarios entre la nube y local (ya sea Teams o Skype Empresarial Onli
 
 Para mover usuarios entre locales y la nube, debe usar una cuenta con privilegios suficientes tanto en el entorno Skype Empresarial Server local como en la Teams organización. Puede usar una cuenta que tenga todos los privilegios necesarios o puede usar dos cuentas, en cuyo caso tendría acceso a las herramientas locales con credenciales locales y, a continuación, en esas herramientas, proporcionaría credenciales adicionales para una cuenta administrativa de Teams.  
 
-- En el entorno local, el usuario que lleva a cabo el traslado debe tener el rol CSServerAdminstrator en Skype Empresarial Server.
+- En el entorno local, el usuario que realiza el movimiento debe tener el rol CSServerAdministrator en Skype Empresarial Server.
 - En Teams, el usuario que realiza el movimiento debe cumplir uno de los siguientes criterios:
   - El usuario es miembro del rol Administrador global.
   - El usuario es miembro de los roles administrador Teams administrador y administrador de usuarios.

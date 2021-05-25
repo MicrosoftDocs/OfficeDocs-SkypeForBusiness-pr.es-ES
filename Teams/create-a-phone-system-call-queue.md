@@ -23,17 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Obtenga información sobre cómo configurar Sistema telefónico para las colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
+ms.openlocfilehash: 926e3903f0ee59271d0b4806cf61ad02a6f52088
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064806"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628939"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
 Las colas de llamadas proporcionan un método para enrutamiento de autores de llamadas a personas de la organización que pueden ayudarle con un problema o pregunta en particular. Las llamadas se distribuyen de una en una a las personas que están en la cola (que se denominan *agentes*). 
+
+> [!TIP]
+> Este artículo es de grandes organizaciones. Si su organización es una pequeña empresa, lea Crear una cola [de llamadas: tutorial de pequeña empresa](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) en su lugar.
 
 Las colas de llamadas proporcionan:
 
@@ -45,17 +48,19 @@ Las colas de llamadas proporcionan:
 
 - Opciones de gestión del desbordamiento de la cola y del tiempo de espera.
 
-Asegúrese de que ha leído Plan para operadores [automáticos](plan-auto-attendant-call-queue.md) de Teams y colas de llamadas y ha seguido los pasos de introducción antes de seguir los procedimientos de este artículo. [](plan-auto-attendant-call-queue.md#getting-started)
-
-Para configurar una cola de llamadas, en el centro de administración de Teams, expanda **Voz**, haga clic en **Llamar** y, después, haga clic en **Agregar**.
+Asegúrese de que ha leído Planear Teams operadores [automáticos](plan-auto-attendant-call-queue.md) y [](plan-auto-attendant-call-queue.md#getting-started) colas de llamadas y ha seguido los pasos de introducción antes de seguir los procedimientos de este artículo.
 
 ## <a name="video-demonstration"></a>Demostración de vídeo
 
-En este vídeo se muestra un ejemplo básico de cómo crear una cola de llamadas en Teams.
+Este vídeo muestra un ejemplo básico de cómo crear una cola de llamadas en Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
-## <a name="resource-account-and-language"></a>Cuenta de recursos e idioma
+## <a name="create-the-call-queue"></a>Crear la cola de llamadas
+
+Para configurar una cola de llamadas, en el centro de administración de Teams, expanda **Voz**, haga clic en **Llamar** y, después, haga clic en **Agregar**.
+
+### <a name="resource-account-and-language"></a>Cuenta de recursos e idioma
 
 ![Captura de pantalla de la configuración de la cuenta de recursos y de idioma](media/call-queue-name-language.png)
 
@@ -65,7 +70,7 @@ En este vídeo se muestra un ejemplo básico de cómo crear una cola de llamadas
 
 3. Elija un [idioma compatible.](create-a-phone-system-call-queue-languages.md) Este idioma se usará para los mensajes de voz generados por el sistema y la transcripción de correo de voz (si las habilita).
 
-## <a name="greetings-and-music-on-hold-in-queue"></a>Saludos y música en espera en cola
+### <a name="greetings-and-music-on-hold-in-queue"></a>Saludos y música en espera en cola
 
 Especifique si quiere reproducir un saludo a los autores de llamadas cuando lleguen a la cola. Debe cargar un archivo MP3, WAV o WMA que contenga el saludo que desea reproducir.
 
@@ -75,21 +80,21 @@ Los equipos proporcionan música predeterminada a los autores de llamadas mientr
 > La grabación cargada no puede ser superior a 5 MB.
 > La música predeterminada que se proporciona en las colas de llamadas de Teams no tiene que pagar ningún pago de la organización. 
 
-## <a name="call-agents"></a>Llamar a agentes
+### <a name="call-agents"></a>Llamar a agentes
 
 Revise los [requisitos previos para agregar agentes a una cola de llamadas.](plan-auto-attendant-call-queue.md#prerequisites)
 
 ![Captura de pantalla de la configuración de usuarios y grupos para las colas de llamadas](media/call-queue-users-groups.png)
 
-##### <a name="teams-channel"></a>Canal de Teams
+##### <a name="teams-channel"></a>Teams canal
 
-Puede agregar hasta 200 agentes a través de un canal de Teams.
+Puede agregar hasta 200 agentes a través de un Teams.
 
-Si desea usar un [canal de Teams para](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)administrar la cola, seleccione la opción Elegir **un** equipo y haga clic en Agregar **un canal.** Busque el equipo que desea usar, selecciónelo y haga clic en **Agregar**. Seleccione el canal que desea usar y haga clic en **Aplicar.**
+Si desea usar un [canal Teams](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)para administrar la  cola, seleccione la opción Elegir un equipo y haga clic **en Agregar un canal.** Busque el equipo que desea usar, selecciónelo y haga clic en **Agregar**. Seleccione el canal que desea usar y haga clic en **Aplicar.**
 
-Los clientes siguientes son compatibles al usar un canal de Teams para las colas de llamadas: 
+Los clientes siguientes son compatibles al usar un canal Teams para las colas de llamadas: 
 
-  - Cliente de Windows de Microsoft Teams
+  - Microsoft Teams Windows cliente
   - Cliente de Microsoft Teams para Mac
 
 ##### <a name="users-and-groups"></a>Usuarios y grupos
@@ -105,7 +110,7 @@ Para agregar un grupo a la cola, haga clic en **Agregar grupos**, busque el grup
 > [!NOTE]
 > Los nuevos usuarios agregados a un grupo pueden tardar hasta ocho horas en llegar a su primera llamada.
 
-## <a name="call-routing"></a>Enrutamiento de llamada
+### <a name="call-routing"></a>Enrutamiento de llamada
 
 ![Captura de pantalla de la configuración del modo de conferencia y del método de enrutamiento](media/call-queue-conference-mode-routing-method.png)
 
@@ -153,7 +158,7 @@ Se recomienda la siguiente configuración:
 > [!NOTE]
 > Si el enrutamiento basado en presencia no está habilitado y hay varias llamadas en la cola, el sistema presentará estas llamadas simultáneamente a los agentes, independientemente de su estado de presencia. Esto provocará varias notificaciones de llamada a los agentes, especialmente si algunos agentes no responden a la llamada inicial que se les ha presentado.
 
-## <a name="call-overflow-handling"></a>Gestión de desbordamiento de llamadas
+### <a name="call-overflow-handling"></a>Gestión de desbordamiento de llamadas
 
 ![Captura de pantalla de la configuración de desbordamiento de llamadas](media/call-queue-overflow-handling.png)
 
@@ -164,7 +169,7 @@ Puede elegir desconectar la llamada o redirigirla a cualquiera de los destinos d
 > [!NOTE]
 > Si el número máximo de llamadas se establece en 0, no se reproducirá el mensaje de saludo.
 
-## <a name="call-timeout-handling"></a>Gestión de la caducidad de la llamada
+### <a name="call-timeout-handling"></a>Gestión de la caducidad de la llamada
 
 ![Captura de pantalla de la configuración del tiempo de espera de la llamada](media/call-queue-timeout-handling.png)
 
@@ -191,7 +196,7 @@ Los siguientes clientes son compatibles con agentes de llamada en una cola de ll
   - Cliente de Skype for Business para iPad (versión 6.16.0 y posteriores)
   - Cliente de Microsoft Teams para Windows (versiones de 32 y 64 bits)
   - Cliente de Microsoft Teams para Mac
-  - Microsoft Teams en [infraestructura de escritorio virtualizada](/microsoftteams/teams-for-vdi) (Escritorio virtual de Windows, Citrix y VMware)
+  - Microsoft Teams infraestructura [de escritorio virtualizada](/microsoftteams/teams-for-vdi) (Windows escritorio virtual, Citrix y VMware)
   - Aplicación Microsoft Teams para iPhone
   - Aplicación Microsoft Teams para Android
 

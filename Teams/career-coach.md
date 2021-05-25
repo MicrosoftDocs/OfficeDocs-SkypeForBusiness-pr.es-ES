@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911f880ba817afff10acb2a347a5c8c776d059c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130090"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628909"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Compre, configure y habilite El entrenador profesional para Microsoft Teams
 
@@ -194,13 +194,6 @@ El documento debe estar en formato CSV con un tamaño máximo de 18 MB. El docum
 > [!NOTE]
 > Empiece con el documento [del catálogo de cursos]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) de ejemplo para empezar.
 
-##### <a name="sample-csv-file"></a>Archivo .CSV ejemplo
-
-```
-courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAltText,educationLevel,topics
-"AA-501","Analytics Foundations","https://example.com/course-id","This course equips the student with the knowledge and skills needed to conduct and present large-scale studies based on advanced analytics.","en-us","In-person","https://via.placeholder.com/360x200","Undergraduate","Alt text for the thumbnail","analytics, data science, data analysis, linear regression"
-```
-
 En la tabla siguiente se muestran los elementos que se incluirán en el catálogo de cursos:
 
 
@@ -260,6 +253,10 @@ El Entrenador profesional se puede personalizar para que sea único para su inst
   
 3. Seleccione **Aplicar**.
 
+## <a name="making-career-coach-available-to-your-organization"></a>Hacer que El entrenador profesional esté disponible para su organización
+
+Ahora que el Coach profesional se ha configurado para su organización. Siga estos pasos para asegurarse de que el Entrenador profesional está disponible para la organización en Microsoft Teams.
+
 ### <a name="enable-the-app"></a>Habilitar la aplicación
 
 Después de completar la configuración, habilite la aplicación para estudiantes y usuarios con licencia para que tengan acceso a Entrenador profesional.  
@@ -276,21 +273,37 @@ Después de completar la configuración, habilite la aplicación para estudiante
   > [!NOTE]
   > Permitido significa que la aplicación está disponible para los usuarios de su institución educativa. Bloqueado significa que la aplicación no está disponible para los alumnos.
 
-#### <a name="pin-the-app"></a>Anclar la aplicación
+### <a name="add-career-coach-as-an-installed-app"></a>Agregar Entrenador profesional como una aplicación instalada
+
+> [!NOTE]
+> En este paso se asegura 1) de que el Entrenador profesional esté configurado correctamente para su organización 2) que los alumnos encuentren Coach profesional.
+
+1. Inicie sesión en el **Teams de administración**.
+
+2. Seleccione **Teams directivas de configuración** de &gt; **aplicaciones** Su &gt; *directiva*. 
+
+3. En Aplicaciones instaladas, seleccione Agregar aplicaciones.
+
+4. En el panel Agregar aplicaciones instaladas, busque las aplicaciones que desea instalar automáticamente para los usuarios cuando inicien Teams. También puede filtrar aplicaciones por directiva de permisos de aplicación. Cuando haya elegido la lista de aplicaciones, seleccione Agregar.
+
+### <a name="pin-the-app"></a>Anclar la aplicación
 
 Anclar El entrenador profesional hará que la aplicación sea más accesible y visible para los alumnos.
 
 1. Inicie sesión en el **Teams de administración**.
 
-1. Seleccione **Teams directivas de configuración** de &gt; **aplicaciones** Su &gt; *directiva*. 
+2. Seleccione **Teams directivas de configuración** de &gt; **aplicaciones** Su &gt; *directiva*. 
 
-2. En **Aplicaciones ancladas,** elija **Agregar aplicaciones.**
+3. En **Aplicaciones ancladas,** elija **Agregar aplicaciones.**
 
-1. Busque Entrenador **profesional** y, a continuación, **seleccione Agregar**.
+4. Busque Entrenador **profesional** y, a continuación, **seleccione Agregar**.
 
-1. Elija el orden para que aparezca la aplicación y seleccione **Guardar.**
+5. Elija el orden para que aparezca la aplicación y seleccione **Guardar.**
 
-   Los alumnos recibirán una notificación en Microsoft Teams que el Entrenador profesional se ha anclado.  
+> [!NOTE]
+> Los alumnos recibirán una notificación en Microsoft Teams que el Entrenador profesional se ha anclado.
+
+Para [obtener más información,](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) haga referencia a Administrar directivas de configuración de aplicaciones en Microsoft.
 
 ## <a name="resources"></a>Recursos
 

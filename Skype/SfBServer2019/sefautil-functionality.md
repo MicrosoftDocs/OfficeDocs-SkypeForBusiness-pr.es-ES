@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Summary: Learn how to use PowerShell to obtain SEFAUtil functionality in Skype for Business Server 2019 after installing Cumulative Update 1.'
-ms.openlocfilehash: d97dd84a3d05cf18752e40dd73a8c5f7e9752d3d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to use PowerShell to obtain SEFAUtil functionality in Skype Empresarial Server 2019 after installing Cumulative Update 1.'
+ms.openlocfilehash: fa7bccaa30b559bf694274471b1f8883e8482861
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120511"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629009"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Uso de la funcionalidad SEFAUtil a través de PowerShell en Skype Empresarial Server 2019
 
-SEFAUtil (activación de características de extensión secundaria) permite a los administradores y agentes de soporte técnico de Skype Empresarial Server configurar las opciones de delegación, reenvío de llamadas y recogida de llamadas en grupo en nombre de un usuario de Skype Empresarial Server. Esta herramienta también permite a los administradores consultar la configuración de enrutamiento de llamadas que se publica para un usuario determinado. Después de instalar la actualización acumulativa de julio de Skype Empresarial Server 2019, las siguientes funciones que actualmente solo se pueden administrar a través de SEFAUtil también se podrán administrar a través de PowerShell:
+SEFAUtil (activación de características de extensión secundaria) permite Skype Empresarial Server administradores y agentes de soporte técnico configurar las opciones de delegación, reenvío de llamadas y recogida de llamadas en grupo en nombre de un Skype Empresarial Server usuario. Esta herramienta también permite a los administradores consultar la configuración de enrutamiento de llamadas que se publica para un usuario determinado. Después de instalar la actualización acumulativa de Skype Empresarial Server de julio de 2019, las siguientes funciones que actualmente solo se pueden administrar a través de SEFAUtil también se podrán administrar a través de PowerShell:
 
 - [Configuración de reenvío de llamadas](#call-forwarding-settings)
 - [Configuración de delegación](#delegation-settings)
@@ -52,7 +52,7 @@ Este cmdlet modifica la configuración de reenvío de llamadas del usuario.
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-Este cmdlet modifica la configuración de SimulRing (de nuevo, con dos ejemplos de parámetros, uno para no responder al correo de voz y el segundo sin responder a otro).
+Este cmdlet modifica la configuración de anillo simultánea (de nuevo, con dos ejemplos de parámetros, uno para no responder al correo de voz y el segundo sin responder a otro).
 
 ## <a name="delegation-settings"></a>Configuración de delegación
 
@@ -102,8 +102,8 @@ Para las implementaciones locales, los cmdlets introducidos en esta característ
 - CsVoiceAdministrator: Obtener y establecer para todos los cmdlets
 - CsHelpDesk: Obtener para todos los cmdlets
 
-Para obtener más información sobre estos roles de administrador, vea [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). El administrador puede tener acceso a estos cmdlets iniciando sesión de forma directa o remota en un equipo servidor.
-Para una implementación híbrida, los administradores de Skype Empresarial deben poder llamar a Get y Set para todos los cmdlets. Para obtener más información acerca de la lista completa de roles, vea [About admin roles](/microsoft-365/admin/add-users/about-admin-roles).
+Para obtener más información sobre estos roles de administrador, [vea Create Skype Empresarial Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). El administrador puede tener acceso a estos cmdlets iniciando sesión de forma directa o remota en un equipo servidor.
+Para una implementación híbrida, Skype Empresarial administradores deben poder llamar a Get y Set para todos los cmdlets. Para obtener más información acerca de la lista completa de roles, vea [About admin roles](/microsoft-365/admin/add-users/about-admin-roles).
 
 > [!NOTE]
 > La detección automática del servidor debe estar habilitada. No se introducirán requisitos de licencia adicionales para el uso de los cmdlets.
