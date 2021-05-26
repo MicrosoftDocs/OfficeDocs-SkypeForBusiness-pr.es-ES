@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30f5dc38b713e59b49a166694d5c760accc639be
-ms.sourcegitcommit: 326aa6375cb830cdb0f82ea791b84d570758853a
+ms.openlocfilehash: a24de985b601b1d84250863e06fed90a77699483
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2021
-ms.locfileid: "52221813"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656083"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -402,8 +402,7 @@ Las siguientes características de llamadas y reuniones no son compatibles:
 Los siguientes son problemas conocidos y limitaciones para llamadas y reuniones:
 
 - La interoperabilidad con Skype Empresarial está limitada a las llamadas de audio; no hay ninguna modalidad de vídeo.
-- Solo se admite una sola transmisión de vídeo entrante en reuniones o llamadas grupales. Cuando varias personas envían vídeo, solo se muestra el vídeo del orador dominante en un momento determinado.
-- La resolución de transmisión de vídeo entrante y saliente está limitada a una resolución de 720p. Esta es una limitación de WebRTC.
+- La resolución de transmisión de vídeo entrante y saliente está limitada a una resolución de 720p.
 - Solo se admite una transmisión de vídeo desde una cámara entrante o una transmisión de pantalla compartido. Cuando hay un recurso compartido de pantalla entrante, se muestra ese recurso compartido de pantalla, en lugar del vídeo del orador dominante.
 - Teams no cambia a usar el último dispositivo de audio que seleccionó un usuario, si el dispositivo está desconectado y, después, se vuelve a conectar.
 - Uso compartido de pantalla saliente:

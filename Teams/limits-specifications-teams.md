@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5fbf2efa3ad1d77300138a57336b4254ea788e84
-ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
+ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52328512"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628889"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -35,13 +35,13 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Característica    | Límite máximo |
 |-----------|---------------|
 |Número de equipos que un usuario puede crear | Sujeto a un límite de 250 objetos&sup1;         |
-|Número de equipos en los que un usuario puede ser un miembro de|1 000&sup2;|
+|Número de equipos en los que un usuario puede ser un miembro de|1 000&sup2;|
 |Número de miembros de un equipo | 25 000<sup>6</sup>     |
 |Número de propietarios por equipo | 100   |
 |Número de equipos de la organización que se pueden usar en un espacio empresarial | 5&sup2;     |
-|Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 10 000       |
-|Número de equipos que un administrador global puede crear        |  500 000   |
-|Cantidad de equipos que puede tener una organización de Microsoft 365 y Office 365    | 500 000&sup3;     |
+|Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 10 000       |
+|Número de equipos que un administrador global puede crear        |  500 000   |
+|Cantidad de equipos que puede tener una organización de Microsoft 365 y Office 365    | 500 000&sup3;     |
 |Número de canales por equipo    | 200 (incluye canales eliminados)<sup>4</sup>        |
 |Número de canales privados por equipo    |30 (incluye canales eliminados)<sup>4</sup>        |
 |Número de miembros de un canal privado    |250|
@@ -53,15 +53,15 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 
 <sup>2</sup> Este límite incluye equipos archivados. 
 
-<sup>3</sup> Para aumentar más el número de equipos, debe ponerse en contacto con el soporte técnico de Microsoft y solicitar un aumento en el número de objetos de Azure Active Directory del espacio empresarial. El aumento solo se realiza en escenarios de producción de la vida real.
+<sup>3</sup> Para aumentar más el número de equipos, debe ponerse en contacto con el soporte técnico de Microsoft y solicitar un aumento en el número de objetos de Azure Active Directory del espacio empresarial. El aumento solo está hecho para escenarios de producción de la vida real.
 
-<sup>4</sup> Los canales eliminados pueden ser restaurados en un plazo de 30 días. Durante esos 30 días, se sigue contando el canal eliminado dentro del límite de 200 canales o 30 canales privados por equipo. Después de 30 días, un canal eliminado y su contenido se eliminan de forma permanente y se deja de contar el canal dentro del límite por equipo.
+<sup>4</sup> Los canales eliminados se pueden restaurar en un plazo de 30 días. Durante estos 30 días, el canal eliminado seguirá contando dentro del límite de 200 canales o 30 canales privados por equipo. Después de los 30 días, el canal eliminado y su contenido serán eliminados permanentemente y el canal ya no contará para el límite por equipo.
 
 <sup>5</sup> 28 KB es un límite aproximado, ya que incluye al mensaje en sí (texto, vínculos de la imagen, etc.), las @menciones, el número de conectores y las reacciones.
 
-<sup>6</sup> Los equipos en GCC pueden incluir 25 000 miembros pero en GCCH/DoD solo pueden incluir 2 500 miembros. Además, tenga en cuenta que las menciones de canales y equipos están bloqueadas en equipos con más de 10 000 miembros.
+<sup>6</sup> Los equipos en GCC pueden incluir 25 000 miembros pero en GCCH/DoD solo pueden incluir 2 500 miembros. Además, tenga en cuenta que las menciones de canales y equipos están bloqueadas en equipos con más de 10 000 miembros.
 
-## <a name="messaging"></a>Mensajería 
+## <a name="messaging"></a>Mensajería 
 
 ### <a name="chat"></a>Chat
 
@@ -78,7 +78,7 @@ El chat de Teams funciona en un servidor back-end de Microsoft Exchange, por lo 
 
 <sup>1</sup> Si tiene más de 20 contactos en un chat, se desactivarán las siguientes características del chat: mensajes de respuesta automáticos de Outlook y de estado de Teams; indicador de escritura; llamadas de audio y vídeo; uso compartido; confirmaciones de lectura. El botón de "Establecer opciones de entrega" (!) también desaparece cuando hay más de 20 miembros en los chats de grupo privado.
 
-<sup>2</sup> Solo se pueden agregar a una conversación de grupo 200 miembros cada vez. [Consulte este artículo para obtener más información](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> Solo se pueden agregar a una conversación de grupo 200 miembros cada vez. [Vea este artículo para más información](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
 <sup>3</sup> Si el número de archivos adjuntos supera este límite, aparecerá un mensaje de error.
 
@@ -127,14 +127,14 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 >- 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial
 >- Difusión de un evento de 16 horas de duración
 >
-> Además, los eventos en directo con hasta 100 000 asistentes pueden planearse con el programa de asistencia de Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Obtenga más información](https://aka.ms/Stream/Blog/LiveEventOptions).
+> Además, los eventos en directo con hasta 100 000 asistentes pueden planearse con el programa de asistencia de Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Obtenga más información](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 |Característica     | Límite máximo |
 |------------|---------------|
-|Número de personas en una reunión (pueden chatear y llamar)  | 1000, incluye CCO pero todavía no para GCCH o DoD. **Solo lectura** permite que hasta 20 000 participantes solo para escuchar se unan a una reunión en la que el organizador tenga una licencia para SKU de E3/E5/A3/A5, así como administración pública (GCC, GCC High, DoD). Más información sobre la [Experiencia de solo vista](view-only-meeting-experience.md).|
+|Número de personas en una reunión (pueden chatear y llamar)  | 1000, incluye CCO pero todavía no para GCCH, DoD o A1 (300). **Solo lectura** permite que hasta 20 000 participantes solo para escuchar se unan a una reunión en la que el organizador tenga una licencia para SKU de E3/E5/A3/A5, así como administración pública (GCC, GCC High, DoD). Más información sobre la [Experiencia de solo vista](view-only-meeting-experience.md).|
 |Cantidad de personas en una llamada de audio o vídeo desde el chat | 20 |
 |Tamaño máximo de archivo de PowerPoint | 2 GB|
-|Teams guarda [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream, que se pueden descargar de forma local | 20 días |
+|Teams guarda [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream, que se pueden descargar de forma local | 20 días |
 
 ### <a name="meeting-expiration"></a>Expiración de la reunión
 
@@ -158,7 +158,7 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |------------|---------------|
 |Tamaño de público | 10 000 asistentes |
 |Duración del evento | 4 horas |
-|Eventos en directo simultáneos ejecutándose en una organización de Microsoft 365 y Office 365 <sup>1</sup> | 15 |
+|Eventos en directo simultáneos ejecutándose en una organización de Microsoft 365 y Office 365 <sup>1</sup> | 15 |
 
 <sup>1</sup> Puede programar todos los eventos en directo que quiera, pero solo puede ejecutar 15 a la vez. Tan pronto como el productor se una a un evento en directo, se considerará que ya está en ejecución. Si un productor intenta unirse a un decimosexto evento en directo, recibirá un mensaje de error.
 
@@ -173,7 +173,7 @@ Para obtener más información acerca de los eventos en directo y una comparaci�
 >- 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial
 >- Difusión de un evento de 16 horas de duración
 >
-> Además, los eventos en directo con hasta 100 000 asistentes pueden planearse con el programa de asistencia de Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Obtenga más información](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Además, los eventos en directo con hasta 100 000 asistentes pueden planearse con el programa de asistencia de Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Obtenga más información](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 ## <a name="presence-in-outlook"></a>Presencia en Outlook
 
@@ -192,11 +192,11 @@ Al almacenar los archivos en la biblioteca de documentos de SharePoint Online y 
 
 Como Teams se ejecuta en un servidor de back-end de SharePoint Online para el uso compartido de archivos, se aplican las limitaciones de SharePoint a la sección de Archivos en Teams. Aquí se muestran los límites de almacenamiento aplicables para SharePoint Online.
 
-|Característica                 |Microsoft 365 Empresa Básico  |Microsoft 365 Empresa Estándar   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
+|Característica                 |Microsoft 365 Empresa Básico  |Microsoft 365 Empresa Estándar   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Almacenamiento                 |1 TB por organización, además de 10 GB por cada licencia adquirida.  |1 TB por organización, además de 10 GB por cada licencia adquirida.  |1 TB por organización, además de 10 GB por cada licencia adquirida.   |1 TB por organización, además de 10 GB por cada licencia adquirida. |1 TB por organización, además de 10 GB por cada licencia adquirida.  |1 TB por organización           |
-|Almacenamiento de archivos de Teams  |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |
-|Límite de carga de archivos (por archivo)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|Almacenamiento de archivos de Teams  |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |
+|Límite de carga de archivos (por archivo)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
 
 Los canales están respaldados por carpetas dentro del sitio de SharePoint Online (antes llamado "colección de sitios") creadas para el equipo, por lo que las pestañas de archivo de los canales comparten los límites de almacenamiento del equipo al que pertenezcan.
 

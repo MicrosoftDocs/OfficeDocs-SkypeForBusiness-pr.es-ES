@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Obtenga información sobre cómo administrar directivas de seminario web para Teams reuniones.
-ms.openlocfilehash: 739c0b5494b0ecc5b9a20fd8db4756313848325b
-ms.sourcegitcommit: e5d6a2c3ad45c1285016b93ec4c7afea907d71a1
+ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275528"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656053"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurar seminarios web en Microsoft Teams
 
@@ -58,10 +58,10 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>Configurar quién puede registrarse en seminarios web
 
-Puede restringir el registro solo a los usuarios de su organización o abrirlo a todos los usuarios, tanto dentro como fuera de su inquilino. De forma predeterminada, **WhoCanRegister** está habilitado y establecido en **Todos.** Si desea desactivar el registro de la reunión, establezca **WhoCanRegister** en **False**.
+Puede restringir el registro solo a los usuarios de su organización o abrirlo a todos los usuarios, tanto dentro como fuera de su inquilino. De forma predeterminada, **WhoCanRegister** está habilitado y establecido en **Todos.** Si desea desactivar el registro de la reunión, establezca **AllowMeetingRegistration** en **False**.
 
 > [!IMPORTANT]
-> Tenga en cuenta que **AllowPrivateMeetingScheduling** debe establecerse en **True** para **que WhoCanRegister** funcione. Además, las listas de Microsoft deben configurarse en SharePoint. Para obtener más información, vea [Configuración de control de listas de Microsoft.](/sharepoint/control-lists)
+> Tenga en cuenta que **AllowPrivateMeetingScheduling** debe establecerse en **True** para **que AllowMeetingRegistration** funcione. Además, las listas de Microsoft deben configurarse en SharePoint. Para obtener más información, vea [Configuración de control de listas de Microsoft.](/sharepoint/control-lists)
 
 **Para permitir *que solo* los usuarios de su organización se registren en seminarios web, ejecute:**
 
