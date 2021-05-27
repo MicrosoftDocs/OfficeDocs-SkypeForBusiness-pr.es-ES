@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo administrar sus Teams aplicaciones
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d42c9609014e4609e74f3cf5022b350d9890ef58
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 16b139750e5a227cc6702e0f8d57cd2f4625f983
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129669"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669232"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro Microsoft Teams administración
 
@@ -149,6 +149,10 @@ Use la configuración de aplicaciones de toda la organización para controlar si
 
         > [!NOTE]
         > Cuando **Permitir aplicaciones de terceros** está desactivado, los [webhooks salientes están deshabilitados,](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) lo que significa que los usuarios no pueden crearlas. Cuando esta configuración está activada, los webhooks salientes están habilitados para todos los usuarios y puede controlarlos en el nivel de usuario al permitir o bloquear la aplicación Webhook saliente a través de directivas de permisos de [aplicación.](teams-app-permission-policies.md) <br><br>Tenga en cuenta [](teams-app-permission-policies.md) que si tiene directivas de  permisos de aplicaciones existentes para aplicaciones **de Microsoft** que usan la configuración Permitir aplicaciones específicas y bloquean todas las demás, y desea habilitar los webhooks salientes para los usuarios, agregue la aplicación Webhook saliente a la lista.
+
+        > [!NOTE]
+        > Teams usuarios pueden agregar aplicaciones cuando hospedan reuniones o chats con personas de otras organizaciones. También pueden usar aplicaciones compartidas por personas de otras organizaciones cuando se unen a reuniones o chats hospedados por dichas organizaciones. Se aplican las directivas de datos de la organización del usuario de hospedaje, así como las prácticas de uso compartido de datos de las aplicaciones de terceros compartidas por la organización de ese usuario.
+
     - **Permitir las nuevas aplicaciones de terceros publicadas en la tienda de forma predeterminada**: esto controla si las nuevas aplicaciones de terceros publicadas en la tienda de aplicaciones de Teams están disponibles automáticamente en Teams. Solo puede establecer esta opción si permite aplicaciones de terceros.
 
 3. En **Aplicaciones personalizadas,** desactive o active **Permitir interacción con aplicaciones personalizadas.** Esta configuración controla si los usuarios pueden interactuar con aplicaciones personalizadas. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md).

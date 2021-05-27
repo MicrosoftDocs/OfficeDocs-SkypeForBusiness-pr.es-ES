@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Canadá.
-ms.openlocfilehash: ebd49f2a15467504863e113f1eb06db6ba881f64
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 29bced17ee6b0dd9c5240651728f390b2f014ac3
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629019"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669222"
 ---
 # <a name="availability-in-canada"></a>Disponibilidad en Canadá
 
@@ -65,6 +65,9 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 | ¿A qué números se pueden hacer llamadas salientes?  <br/>                 | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                  |
 
 > [!Note]
+> Cuando un usuario del Plan de llamadas (nacional o nacional e internacional) de ee. UU. marca un número de teléfono en Canadá, se le tratará como una llamada nacional. Esto también ocurre cuando un usuario de Canadá marca un número de teléfono en EE. UU. Sin embargo, si también usa directivas de plan de llamadas para limitar el acceso telefónico de los usuarios a "nacionales", un usuario de EE. UU. no podrá llamar a Canadá y, del mismo modo, un usuario de Canadá no podrá llamar a un usuario de EE. UU.
+
+> [!Note]
 > Las llamadas a EE. UU. se tratan como llamadas nacionales.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
@@ -76,9 +79,6 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
 
  Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md).
-
-> [!Note]
-> Cuando un usuario del Plan de llamadas (nacional o nacional e internacional) de ee. UU. marca un número de teléfono en Canadá, se le tratará como una llamada nacional. Esto también ocurre cuando un usuario de Canadá marca un número de teléfono en EE. UU. Sin embargo, si también usa directivas de plan de llamadas para limitar el acceso telefónico de los usuarios a "nacionales", un usuario de EE. UU. no podrá llamar a Canadá y, del mismo modo, un usuario de Canadá no podrá llamar a un usuario de EE. UU.
 
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
