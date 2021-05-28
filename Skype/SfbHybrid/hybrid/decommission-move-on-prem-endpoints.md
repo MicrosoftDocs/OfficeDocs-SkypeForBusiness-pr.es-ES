@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Mueva los puntos de conexión de la aplicación hirid antes de retirar Skype Empresarial entorno local.
-ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526723"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684387"
 ---
 # <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Mover puntos de conexión de aplicaciones híbridas antes de retirar el entorno local
 
@@ -46,7 +46,7 @@ Para poder mover estos puntos de conexión a línea, debe asegurarse de que ha a
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. Cree y licencia nuevas [cuentas de](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) recursos en Microsoft 365 reemplazar los puntos de conexión de aplicación híbrida locales existentes.
+2. Cree y licencia nuevas [cuentas de](/microsoftteams/manage-resource-accounts) recursos en Microsoft 365 reemplazar los puntos de conexión de aplicación híbrida locales existentes.
 
 3. Asocie las nuevas cuentas de recursos con los extremos de aplicación híbrida existentes.
 
@@ -70,7 +70,7 @@ Para poder mover estos puntos de conexión a línea, debe asegurarse de que ha a
    }
    ```
 
-6. Asigne números de teléfono a las nuevas cuentas de recursos creadas en el paso 2. Para obtener más información acerca de cómo asignar un número de teléfono a una cuenta de recurso, vea el siguiente artículo: [Asignar un número de servicio](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number).
+6. Asigne números de teléfono a las nuevas cuentas de recursos creadas en el paso 2. Para obtener más información acerca de cómo asignar un número de teléfono a una cuenta de recurso, vea el siguiente artículo: [Asignar un número de servicio](/microsoftteams/manage-resource-accounts#assign-a-service-number).
 
 7. Elimine los extremos locales ejecutando el siguiente comando local Skype Empresarial Server PowerShell:
 

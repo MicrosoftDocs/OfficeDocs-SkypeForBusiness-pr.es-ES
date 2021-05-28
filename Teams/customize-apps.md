@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo personalizar aplicaciones en Microsoft Teams.
-ms.openlocfilehash: a43272c19c00079b5a0f0299a5630ca6e6ec78e5
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337807"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684597"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicaciones en Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "52337807"
 - Icono Esquema
 - Color de énfeño
 
-Vea el [Teams de manifiesto para](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) obtener más información sobre los campos que puede personalizar.
+Vea el [Teams de manifiesto para](/microsoftteams/platform/resources/schema/manifest-schema) obtener más información sobre los campos que puede personalizar.
 
 > [!NOTE]
 > La personalización de aplicaciones no es compatible con Government Community Cloud High (GCCH) o department of defense (DoD) en este momento.
@@ -173,3 +173,4 @@ No, la pantalla de consentimiento de permisos seguirá mostrándo el valor origi
 
 - [Administrar aplicaciones](manage-apps.md)
 - [Personalizar la tienda de aplicaciones](customize-your-app-store.md)
+- [Cambiar el nombre de las aplicaciones](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)

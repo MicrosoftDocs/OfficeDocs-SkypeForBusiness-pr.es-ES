@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628909"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684577"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Compre, configure y habilite El entrenador profesional para Microsoft Teams
 
@@ -69,7 +69,7 @@ Career Coach está disponible en todo el mundo (excepto China y Rusia) para inst
 
 ### <a name="assign-app-licenses-to-users"></a>Asignar licencias de aplicaciones a usuarios
 
-Para obtener instrucciones paso a paso, vea [Asignar licencias a usuarios.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+Para obtener instrucciones paso a paso, vea [Asignar licencias a usuarios.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 ### <a name="turn-on-linkedin-account-connections"></a>Activar las conexiones de cuentas de LinkedIn
 
@@ -303,7 +303,7 @@ Anclar El entrenador profesional hará que la aplicación sea más accesible y v
 > [!NOTE]
 > Los alumnos recibirán una notificación en Microsoft Teams que el Entrenador profesional se ha anclado.
 
-Para [obtener más información,](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) haga referencia a Administrar directivas de configuración de aplicaciones en Microsoft.
+Para [obtener más información,](/microsoftteams/teams-app-setup-policies) haga referencia a Administrar directivas de configuración de aplicaciones en Microsoft.
 
 ## <a name="resources"></a>Recursos
 

@@ -1,5 +1,5 @@
 ---
-title: Usar plantillas de gobierno de Teams en el Centro de administración
+title: Usar plantillas de equipo de gobierno en el Centro de administración
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo usar. Plantillas de Teams para crear estructuras de equipo diseñadas para las necesidades del gobierno proporcionando configuraciones predefinidas, canales y aplicaciones preinstaladas con el Centro de administración.
+description: Obtenga información sobre cómo usar plantillas de equipo para crear estructuras de equipo diseñadas para las necesidades del gobierno proporcionando configuraciones predefinidas, canales y aplicaciones preinstaladas con el Centro de administración.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,24 +19,24 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db22de142b9e7f2bead93e607dd01c9dd362ddba
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff975fc80c0b08136fa18d2b7c31cd100e405911
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092218"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684537"
 ---
-# <a name="use-teams-government-templates-in-the-admin-center"></a>Usar plantillas de gobierno de Teams en el Centro de administración
+# <a name="use-government-team-templates-in-the-admin-center"></a>Usar plantillas de equipo de gobierno en el Centro de administración
 
-Las plantillas de Teams le permiten crear equipos de forma rápida y sencilla al proporcionar una plantilla de configuración predefinida, canales y aplicaciones preinstaladas.
+Las plantillas de equipo le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 
-Las plantillas de Teams tienen definiciones predefinidas de estructuras de equipo diseñadas en función de las necesidades gubernamentales. También puede ampliar las plantillas de Teams para crear equipos que se adapten a las necesidades específicas de su organización.
+Las plantillas de equipo tienen definiciones predefinidas de estructuras de equipo diseñadas en función de las necesidades gubernamentales. También puede ampliar las plantillas de equipo para crear equipos que se adapten a sus necesidades organizativas específicas.
 
-En este artículo, presentamos cada una de las plantillas de Teams y le recomendamos cómo usarlas.
+En este artículo, presentamos cada una de las plantillas de equipo y le recomendamos cómo usarlas.
 
 Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización gubernamental. Ya ha implementado el servicio de Teams en su organización. Si todavía no ha implementado Teams, empiece por leer [Cómo implementar Microsoft Teams](./deploy-overview.md).
 
-Para obtener más información sobre las plantillas de equipo en general, consulte [Introducción a las plantillas de Teams](get-started-with-teams-templates-in-the-admin-console.md).
+Para obtener más información sobre las plantillas de equipo en general, consulte Introducción [a las plantillas de equipo.](get-started-with-teams-templates-in-the-admin-console.md)
 
 ## <a name="coordinate-incident-response"></a>Coordinar la respuesta a incidentes
 

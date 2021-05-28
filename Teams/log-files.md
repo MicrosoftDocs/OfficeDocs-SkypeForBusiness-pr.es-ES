@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudar con la supervisión y solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58460390d9562d77ed6a4e3dfcbb3948cbe2749e
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: a18dbef0441055c1202c2b77ce4f8af87040e561
+ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337747"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689698"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Use archivos de registro para supervisar y solucionar problemas Microsoft Teams
 
@@ -33,14 +33,29 @@ Hay tres tipos de archivos de registro generados automáticamente por el cliente
 
 -   [Registros de escritorio](#desktop-logs)
 
-En este artículo se describen los tres registros y cómo se usan. 
-
-Para obtener información sobre cómo solucionar problemas específicos, [vea: Teams solución de problemas.](/MicrosoftTeams/troubleshoot/teams) Para obtener información sobre cómo ponerse en contacto con el soporte técnico, vea [Obtener soporte técnico.](/microsoft-365/business-video/get-help-support)
-
-Al crear una solicitud de soporte técnico con soporte técnico de Microsoft, el ingeniero de soporte técnico necesitará los registros de depuración. Tener los registros de depuración a mano antes de crear la solicitud de soporte técnico permitirá a Microsoft empezar rápidamente a solucionar el problema. **Los registros** multimedia **o de** escritorio solo son necesarios si Microsoft lo solicita.
+En este artículo se describen estos registros y cómo se usan. Para obtener información sobre cómo solucionar problemas específicos, [vea: Teams solución de problemas.](/MicrosoftTeams/troubleshoot/teams) Para obtener información sobre cómo ponerse en contacto con el soporte técnico, vea [Obtener soporte técnico.](/microsoft-365/business-video/get-help-support) Al crear una solicitud de soporte técnico con soporte técnico de Microsoft, el ingeniero de soporte técnico necesitará los registros de depuración. Tener los registros de depuración a mano antes de crear la solicitud de soporte técnico permitirá a Microsoft empezar rápidamente a solucionar el problema. **Los registros** multimedia **o de** escritorio solo son necesarios si Microsoft lo solicita.
 
 > [!NOTE]
 > En este artículo, el término **Registros de depuración** hace referencia a los registros que se usan para la solución de problemas. Sin embargo, los archivos que se generan para estos registros contendrán el término registros **de diagnóstico** en sus nombres.  
+
+## <a name="collect-and-enable-logging"></a>Recopilar y habilitar el registro
+
+Es importante recopilar registros tan pronto como se produzca un problema. Los registros se pueden recopilar juntos con solo un par de clics.
+
+Windows: Haga clic con el botón derecho en el icono Teams en la bandeja del sistema y elija **Recopilar archivos de soporte técnico.** 
+
+Mac: seleccione el menú Ayuda y elija **Recopilar archivos de soporte técnico.**
+
+Los registros de depuración, escritorio y medios se recopilarán en una carpeta con el nombre Registro de diagnóstico de MSTeams. <local data and time> Esta carpeta se puede comprimir y compartir al abrir una solicitud de soporte técnico con el soporte técnico de Microsoft. La carpeta contendrá carpetas para escritorio, reunión (multimedia) y depuración (web). Puede recopilar los archivos con los siguientes métodos abreviados de teclado:
+
+Windows: Crtl + Alt + Mayús + 1
+
+Mac: Opción + Comando + Mayús + 1
+
+El registro multimedia está desactivado de forma predeterminada. Para habilitar el registro multimedia, los usuarios deben activar la opción en Teams cliente. Vaya a **Configuración** General y seleccione Habilitar registro para diagnósticos de reuniones  >   **(requiere reiniciar Teams).** El Teams cliente debe reiniciarse para que comience el registro.
+
+> [!NOTE]
+> Si el registro multimedia está habilitado, habrá archivos adicionales incluidos en la carpeta Reunión que son necesarios para investigar problemas de audio y vídeo. Si el registro multimedia no está habilitado, habrá un número limitado de registros disponibles.
 
 En la tabla siguiente se describen los distintos clientes y sus registros asociados. Los archivos de registro se almacenan en ubicaciones específicas del cliente y del sistema operativo.
 
@@ -58,7 +73,7 @@ Para ver una lista completa de los sistemas operativos y los exploradores compat
 
 ## <a name="debug-logs"></a>Registros de depuración
 
-Estos son los registros más comunes y son necesarios para todos los casos de soporte técnico de Microsoft. Los registros de depuración son producidos por Windows y mac clientes de escritorio, así como por clientes basados en explorador. Los registros se basan en texto y se leen desde abajo hacia arriba. Se pueden leer con cualquier editor basado en texto y se crean nuevos registros al iniciar sesión en el cliente.
+Consulte la _sección Recopilar y habilitar el registro_ para obtener Windows y Mac. Los registros de depuración son producidos por Windows y mac clientes de escritorio, así como por clientes basados en explorador. Los registros están basados en texto y se leen desde abajo hacia arriba. Se pueden leer con cualquier editor basado en texto y se crean nuevos registros al iniciar sesión en el cliente.
 
 Los registros de depuración muestran los siguientes flujos de datos:
 
@@ -68,47 +83,19 @@ Los registros de depuración muestran los siguientes flujos de datos:
 
 -   Llamada/conversación
 
-Los registros de depuración se generan con los siguientes métodos específicos del sistema operativo:
+Para recopilar registros para Linux: Método abreviado de teclado: Ctrl + Alt + Mayús + 1 Los archivos estarán disponibles en ~/Descargas
 
--   Windows:
-
-      Método abreviado de teclado: Ctrl + Alt + Mayús + 1
-
--   Mac OSX:
-
-      Método abreviado de teclado: Opción + Comando + Mayús + 1
-
--   Linux:
-
-      Método abreviado de teclado: Ctrl + Alt + Mayús + 1
-
-Los registros de depuración se descargan automáticamente en las siguientes carpetas:
-
--   Windows: %userprofile%\\Descargas
-
--   Mac OSX: ~/Descargas
-
--   Linux: ~/Descargas
-
--   Explorador: Se le pedirá que guarde el registro de depuración en la ubicación predeterminada.
+Para recopilar registros para el explorador: Método abreviado de teclado: Crtl + Alt + Mayús + 1 Los archivos estarán disponibles en %userprofile%\Downloads
 
 ## <a name="media-logs"></a>Registros de medios
 
-Los registros multimedia contienen datos de diagnóstico sobre audio, vídeo y uso compartido de pantalla en Teams reuniones. Son necesarios para los casos de soporte técnico vinculados a problemas relacionados con llamadas.
+Consulte la _sección Recopilar y habilitar el registro_ para obtener Windows y Mac. Los registros multimedia contienen datos de diagnóstico sobre audio, vídeo y uso compartido de pantalla en Teams reuniones. Son necesarios para los casos de soporte técnico vinculados a problemas relacionados con llamadas.
 
 El registro multimedia está desactivado de forma predeterminada. Para registrar datos de diagnóstico Teams reuniones, los usuarios deben activar la opción en el Teams cliente. Vaya **a Configuración** General , active la casilla Habilitar registro para diagnósticos de reuniones (requiere reiniciar Teams), reinicie Teams y  >  reproduzca el problema. 
 
-En la tabla siguiente se describen las ubicaciones de registro multimedia. Cuando envíe los archivos de registro al soporte técnico de Microsoft, compruebe la marca de tiempo de los archivos de registro para asegurarse de que los registros cubren el período de tiempo cuando reproduzca el problema.
+Cuando envíe los archivos de registro al soporte técnico de Microsoft, compruebe la marca de tiempo de los archivos de registro para asegurarse de que los registros cubren el período de tiempo cuando reproduzca el problema.
 
-|Cliente |Ubicación |
-|---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack \\ *.blog         |
-|            |%appdata%\Microsoft\Teams\skylib \\ *.blog
-|            |%appdata%\Microsoft\Teams\media-stack \\ *.etl         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack/*.blog         |
-|            |~/Library/Application Support/Microsoft/Teams/skylib/*.blog         |
-|Linux       |~/.config/Microsoft/Microsoft Teams/media-stack/*.blog         |
-|            |~/.config/Microsoft/Microsoft Teams/skylib/*.blog         |
+Para recopilar registros para Linux: los archivos estarán disponibles en ~/.config/Microsoft/Microsoft Teams/media-stack/ .blog y *~/.config/Microsoft/Microsoft Teams/skylib/*.blog.
 
 Esta es una lista de los archivos de registro que se generan y la información que contienen.
 
@@ -122,25 +109,10 @@ Esta es una lista de los archivos de registro que se generan y la información q
 
 ## <a name="desktop-logs"></a>Registros de escritorio
 
-Los registros de escritorio, también conocidos como registros de arranque, contienen datos de registro que se producen entre el cliente de escritorio y el explorador. Al igual que los registros multimedia, estos registros solo son necesarios si Microsoft lo solicita. Los registros se basan en texto y se pueden leer con cualquier editor basado en texto en un formato de arriba abajo.
+Consulte la _sección Recopilar y habilitar el registro_ para obtener Windows y Mac. Los registros de escritorio, también conocidos como registros de arranque, contienen datos de registro que se producen entre el cliente de escritorio y el explorador. Al igual que los registros multimedia, estos registros solo son necesarios si Microsoft lo solicita. Los registros están basados en texto y se pueden leer con cualquier editor basado en texto en un formato de arriba abajo.
 
-Windows:
-
- - Haga clic con el **botón Microsoft Teams** en la bandeja del sistema y seleccione **Obtener registros.**
-
-Mac OsX:
-
- - Elija **Obtener registros** en el menú desplegable Ayuda. 
-
-Linux:
-
- - Haga clic en **el Microsoft Teams** en la bandeja del sistema y seleccione **Obtener registros.**
-
-|Cliente |Ubicación |
-|---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
-|Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
+Para recopilar registros para Linux: Haga clic en el icono Microsoft Teams en la bandeja del sistema y seleccione **Obtener registros.**
+Los archivos estarán disponibles en ~/.config/Microsoft/Microsoft Teams/logs.txt.  
 
 
 ## <a name="browser-trace"></a>Seguimiento del explorador

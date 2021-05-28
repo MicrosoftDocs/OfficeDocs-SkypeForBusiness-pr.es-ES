@@ -1,5 +1,5 @@
 ---
-title: Administrar directivas de mensajería de Teams
+title: Administrar las directivas de mensajería en Teams
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -20,24 +20,24 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 800bc37ee25c073d0702c519196620faa1faf92e
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 5b202d0a1895c3fd9b4279d6a7db072cd18f72ad
+ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574169"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689788"
 ---
-# <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
+# <a name="manage-messaging-policies-in-teams"></a>Administrar las directivas de mensajería en Teams
 
 <!--- Add zone marker here--->
 
-Las directivas de mensajería se usan para controlar qué características de mensajería de chat y canal están disponibles para los usuarios [(propietarios y miembros)](assign-roles-permissions.md) en Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) que se crea automáticamente o crear y asignar directivas de mensajería personalizadas.
+Las directivas de mensajería se usan para controlar qué características de mensajería de chat y canal están disponibles para los usuarios [(propietarios](assign-roles-permissions.md) y miembros) en Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) que se crea automáticamente o crear y asignar directivas de mensajería personalizadas.
 
 Los usuarios de su organización recibirán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada. Edite la configuración de la directiva global o cree y asigne una o varias directivas personalizadas para activar o desactivar las características que desee.
 
 ## <a name="create-a-custom-messaging-policy"></a>Crear una directiva de mensajería personalizada
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas de mensajería.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a **Directivas de mensajería.**
 2. Seleccione **Agregar**.
 3. Escriba un nombre y una descripción para la directiva.
 4. Seleccione la configuración que quiera usar.
@@ -55,7 +55,7 @@ A continuación, asigne la directiva a los usuarios.
 
 Puede editar la directiva global y las directivas personalizadas que cree.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas de mensajería.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a **Directivas de mensajería.**
 2. Haga clic a la izquierda del nombre de la directiva para seleccionarla y, luego, seleccione **Editar**.
 3. A partir de aquí, realice los cambios que desee.
 4. Seleccione **Guardar**.
@@ -86,15 +86,15 @@ Estas son las opciones de configuración de directiva de mensajería que puede c
 
 - **Chat** Active esta opción si desea que los usuarios de su organización puedan chatear con otras personas con la aplicación de Teams.
 - **Usar Giphys en conversaciones**  Si activa Giphys, los usuarios pueden incluir Giphys en conversaciones de chat con otras personas. Giphy es una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir archivos GIF animados. A cada Giphy se le asigna una clasificación de contenido. Además de activar esta configuración, debe habilitar [Las](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) experiencias conectadas opcionales para permitir giphys en las conversaciones.
-- **Clasificación de contenido gipsy**
+- **Clasificación de contenido de Giphy**
     - **Sin restricciones** Esto significa que los usuarios podrán insertar cualquier giphy en los chats independientemente de la clasificación de contenido.
     - **Moderado**  Esto significa que los usuarios podrán insertar Giphys en chats, pero estarán moderadamente restringidos del contenido adulto.
     - **Estricto**  Esto significa que los usuarios podrán insertar Giphys en chats, pero estarán estrictamente restringidos al contenido de adultos.
 - **Usar memes en conversaciones** Si activa Memes, los usuarios pueden incluir Memes en conversaciones de chat con otras personas.
-- **Usar adhesivos en conversaciones. Si activa esta opción, los usuarios pueden incluir adhesivos en conversaciones de chat con otras personas.
+- **Usar adhesivos en las conversaciones** Si activa esta opción, los usuarios podrán incluir adhesivos en las conversaciones de chat que mantengan con otras personas.
 - **Permitir vistas previas de URL** Use esta opción si desea activar o desactivar la visualización previa automática de direcciones URL en los mensajes.
-- **Permitir que los usuarios traduzcan mensajes** Active esta configuración para permitir que los usuarios traduzcan automáticamente los mensajes de Teams al idioma especificado por su configuración de idioma personal para Microsoft 365 u Office 365.
-- **Permitir lector inmersivo para ver mensajes** Active esta configuración para permitir que los usuarios puedan ver mensajes en Microsoft Immersive Reader. Lector inmersivo es una herramienta de aprendizaje que proporciona una experiencia de lectura en pantalla completa para aumentar la legibilidad del texto.
+- **Permitir que los usuarios traduzcan mensajes** Active esta configuración para permitir que los usuarios traduzcan automáticamente Teams mensajes al idioma especificado por su configuración de idioma personal para Microsoft 365 o Office 365.
+- **Permitir lector inmersivo para ver mensajes** Active esta configuración para permitir que los usuarios puedan ver los mensajes en Microsoft Lector inmersivo. Lector inmersivo es una herramienta de aprendizaje que proporciona una experiencia de lectura en pantalla completa para aumentar la legibilidad del texto.
 - **Enviar mensajes urgentes con notificaciones de prioridad** Si activa esta opción, los usuarios pueden enviar mensajes con notificaciones [de prioridad.](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) Las notificaciones de prioridad notifican a los usuarios cada 2  minutos durante 20 minutos o hasta que los mensajes marcados como urgentes sean recogidos y leídos por el destinatario. Esta característica aumenta la probabilidad de que el mensaje se actúe de forma oportuna.
 - **Creación de mensajes de audio**
   > [!Important]
@@ -105,7 +105,7 @@ Estas son las opciones de configuración de directiva de mensajería que puede c
 - **En dispositivos móviles, mostrar canales favoritos por encima de chats recientes** Habilite esta configuración para mover los canales favoritos a la parte superior de la pantalla del dispositivo móvil para que un usuario no tenga que desplazarse para encontrarlos.
 - **Permitir que un usuario quite usuarios de un chat grupal** Active esta configuración para permitir que un usuario quite otros usuarios de un chat grupal. Esta característica te permite continuar un chat con un grupo más pequeño de personas sin perder el historial de chats.
 - **Habilitar respuestas sugeridas**  Active esta configuración para habilitar las respuestas sugeridas para los mensajes de chat.
-- **Rol de permisos de chat** Use esta configuración para definir el rol de chat supervisado del usuario.  Obtenga más información sobre [el chat supervisado.](supervise-chats-edu.md)
+- **Rol de permisos de chat** Use esta configuración para definir el rol de chat supervisado del usuario.  Obtenga más información acerca del [chat supervisado](supervise-chats-edu.md).
 
 > [!NOTE]
 > Algunos de estos ajustes, como giphys, también se pueden configurar en el nivel de equipo por los propietarios del equipo y en el nivel de canal privado por los propietarios de canales privados.

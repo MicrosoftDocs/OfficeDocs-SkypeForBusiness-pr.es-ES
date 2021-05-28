@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Obtenga información sobre la aplicación Pacientes para administradores de Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: HT
+ms.openlocfilehash: 2302f117564e1dd00a6f238ca23a8e36c63ae554
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803508"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697847"
 ---
 # <a name="patients-app-overview"></a>Información general de la aplicación Pacientes
 
@@ -45,7 +45,7 @@ Durante las sesiones clínicas de cada turno de las salas médicas, los médicos
 
 ## <a name="configure-patients-app"></a>Configurar la aplicación Pacientes
 
-Para obtener información sobre cómo preparar el entorno para usar la aplicación Pacientes en modo EMR, consulte [Integración de registros sanitarios electrónicos en Microsoft Teams](patients-app.md). También necesitará consultar [Administrar directivas de configuración de aplicaciones en Microsoft Teams](../../teams-app-setup-policies.md) para habilitar la aplicación Pacientes para su organización.
+Vea [Administrar directivas de configuración de aplicaciones en Microsoft Teams](../../teams-app-setup-policies.md) para habilitar la aplicación Pacientes para su organización.
 
 Para obtener información sobre cómo los usuarios finales pueden acceder a la aplicación Pacientes e instalarla en un equipo que poseen o administran, consulte [Introducción a Microsoft Teams Pacientes](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393).
 
@@ -74,6 +74,3 @@ No en este momento, aunque esta función estará disponible pronto.
 
 Sí, existe. Cada acción de IU realizada por un usuario de Microsoft Teams en la aplicación Pacientes se audita y está disponible en el centro de seguridad y cumplimiento. Los detalles se explican en los [Registros de auditoría para la aplicación Pacientes](patients-audit.md).
 
-## <a name="related-topics"></a>Temas relacionados
-
-[Integración de los registros sanitarios electrónicos en Microsoft Teams](patients-app.md)

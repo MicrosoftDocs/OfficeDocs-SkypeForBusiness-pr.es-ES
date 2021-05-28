@@ -1,5 +1,5 @@
 ---
-title: Usar Teams en el Centro de administración
+title: Usar plantillas de equipo en el Centro de administración
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,28 +11,28 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Obtenga información sobre cómo usar Teams para crear espacios de colaboración con canales para diferentes temas con plantillas preinstaladas.
+description: Obtenga información sobre cómo usar plantillas de equipo para crear espacios de colaboración con canales para diferentes temas con plantillas preinstaladas.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56577639e62c954d430d2745f5b105e97f5c56ff
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 773b97197a4f233dea9a404d87e669239b3969f6
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264900"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684457"
 ---
-# <a name="get-started-with-teams-templates-in-the-admin-center"></a>Introducción a las Teams en el Centro de administración
+# <a name="get-started-with-team-templates-in-the-admin-center"></a>Introducción a las plantillas de equipo en el Centro de administración
 
 **La capacidad de crear plantillas personalizadas aún no es compatible con los clientes de EDU.**
 
 > [!NOTE]
-> Actualmente, los canales privados y las etiquetas de confidencialidad no son compatibles Teams plantillas. La creación de canales privados no se incluye en las definiciones de plantilla. La opción de etiqueta de confidencialidad **en Crear equipo a partir** del flujo de plantillas no se aplicará al equipo.
+> Actualmente, los canales privados y las etiquetas de confidencialidad no son compatibles con las plantillas de equipo. La creación de canales privados no se incluye en las definiciones de plantilla. La opción de etiqueta de confidencialidad **en Crear equipo a partir** del flujo de plantillas no se aplicará al equipo.
 
-Teams plantillas son definiciones predefinidas de la estructura de un equipo diseñadas en torno a una necesidad empresarial o un proyecto. Use plantillas predefinidas o cree su propia plantilla. Teams plantillas le permiten crear rápidamente espacios de colaboración enriquecidos con canales para diferentes temas y preinstalar aplicaciones para extraer contenido y servicios de misión crítica. Teams plantillas proporcionan una estructura de equipo predefinida que puede ayudarle a crear fácilmente equipos coherentes en toda la organización. Actualmente puede crear un equipo a partir de una plantilla en Teams o con [Microsoft Graph](get-started-with-teams-templates.md).
+Las plantillas de equipo son definiciones predefinidas de la estructura de un equipo diseñadas en torno a una necesidad empresarial o un proyecto. Use plantillas predefinidas o cree su propia plantilla. Las plantillas de equipo le permiten crear rápidamente espacios de colaboración enriquecidos con canales para diferentes temas y preinstalar aplicaciones para obtener contenido y servicios de misión crítica. Las plantillas de equipo proporcionan una estructura de equipo predefinida que puede ayudarle a crear fácilmente equipos coherentes en toda la organización. Actualmente puede crear un equipo a partir de una plantilla en Teams o con [Microsoft Graph](get-started-with-teams-templates.md).
 
 En este artículo se describen las siguientes características:
 
@@ -42,11 +42,11 @@ En este artículo se describen las siguientes características:
 
 Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización
 
-## <a name="teams-template-capabilities"></a>Teams de plantilla
+## <a name="team-template-capabilities"></a>Capacidades de plantilla de equipo
 
-La mayoría de las propiedades de un equipo se incluyen y son compatibles con las plantillas. Pero hay algunas propiedades y características que no son compatibles actualmente. En la tabla siguiente se proporciona un resumen rápido de lo que se incluye y lo que no se incluye en Teams plantillas.
+La mayoría de las propiedades de un equipo se incluyen y son compatibles con las plantillas. Pero hay algunas propiedades y características que no son compatibles actualmente. La tabla siguiente proporciona un resumen rápido de lo que se incluye y lo que no se incluye en las plantillas de equipo.
 
-| **Propiedades de equipo compatibles con Teams plantillas** | **Las propiedades de equipo aún no son compatibles Teams plantillas** |
+| **Propiedades de equipo compatibles con plantillas de equipo** | **Las propiedades del equipo aún no son compatibles con las plantillas de equipo** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Tipo de plantilla base | Membresía de equipo |
 | Nombre del equipo | Imagen del equipo |
@@ -115,11 +115,11 @@ Vea [Límites y especificaciones de Teams](limits-specifications-teams.md) para 
 
 Use los siguientes cmdlts para administrar las plantillas en PowerShell.
 
-- [Get-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
-- [Get-CsTeamTemplateList](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
-- [Update-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -1,5 +1,5 @@
 ---
-title: Administrar plantillas de Teams en el Centro de administración
+title: Administrar plantillas de equipo en el Centro de administración
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,18 +17,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo administrar plantillas de Teams en el Centro de administración
-ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Obtenga información sobre cómo administrar plantillas de equipo en el Centro de administración
+ms.openlocfilehash: dd88f76d0f74b6a1fe48bd934e7cfc8ee9ab4ccc
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093930"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684587"
 ---
-# <a name="manage-teams-templates-in-the-admin-center"></a>Administrar plantillas de Teams en el Centro de administración
+# <a name="manage-team-templates-in-the-admin-center"></a>Administrar plantillas de equipo en el Centro de administración
 
-Administre las plantillas de Teams que ven los usuarios finales creando directivas de plantillas en el Centro de administración. Dentro de cada directiva de plantilla, puede designar qué plantillas se muestran u ocultan.
-Asigne diferentes usuarios a distintas directivas de plantilla para que los usuarios solo puedan ver el subconjunto de plantillas de Teams especificadas.
+Administre las plantillas de equipo que ven los usuarios finales creando directivas de plantillas en el Centro de administración. Dentro de cada directiva de plantilla, puede designar qué plantillas se muestran u ocultan.
+Asigne diferentes usuarios a distintas directivas de plantilla para que los usuarios solo puedan ver el subconjunto de plantillas de equipo especificadas.
 
 Vea este breve vídeo para obtener información sobre cómo administrar directivas de plantilla.
 
@@ -38,13 +38,13 @@ Vea este breve vídeo para obtener información sobre cómo administrar directiv
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. Expandir **directivas de plantillas** de Teams  >  .
+2. Expanda **Teams**  >  **de plantillas**.
 
 3. Seleccione **Agregar**.
 
     ![Las directivas de plantilla están seleccionadas y Agregar está resaltada](media/template-policies-1.png)
 
-1. En la **sección Configuración de directivas de** plantillas, complete los siguientes campos:
+1. En la **sección Directivas Configuración** plantillas, complete los siguientes campos:
 
     - Nombre de la directiva de plantillas
 
@@ -104,7 +104,7 @@ A: Las plantillas nuevas estarán visibles de forma predeterminada. Puede elegir
 
 A: Las plantillas eliminadas ya no estarán presentes en las directivas de plantillas.
 
-**P: ¿Puedo asignar varios usuarios a una directiva de plantilla en el Centro de administración de Teams?**
+**P: ¿Puedo asignar varios usuarios a una directiva de plantilla en el centro de Teams administración?**
 
 A: Sí.
 
@@ -112,14 +112,14 @@ A: Sí.
 1. En la tabla de lista Usuarios, seleccione los usuarios que desea asignar a una directiva de plantillas determinada.
 1. Seleccione Editar configuración y cambie el campo Directivas de plantillas.
 1. Seleccione Aplicar.
-   Más información [Asignar directivas a los usuarios en Microsoft Teams : Microsoft Teams Microsoft \| Docs.](./assign-policies.md#assign-a-policy-to-a-batch-of-users)
+   Más información [Asignar directivas a los usuarios en Microsoft Teams - Microsoft Teams Microsoft \| Docs](./assign-policies.md#assign-a-policy-to-a-batch-of-users).
 
 **P: ¿Cómo puedo ver todos los usuarios asignados a una directiva específica?**
 
 A: En el Centro de administración:
 
 1. Vaya a la **sección** Usuarios.
-2. Seleccione el filtro en la tabla de lista Usuarios y filtre para la directiva de plantilla de teams.
+2. Seleccione el filtro en la tabla de lista Usuarios y filtre para la directiva de plantilla de equipo.
 3. Seleccione **Aplicar**.
 
 ![Directiva de plantilla seleccionada y ver usuarios](media/template-policies-5.png)
