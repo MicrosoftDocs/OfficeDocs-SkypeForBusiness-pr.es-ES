@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684577"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699361"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Compre, configure y habilite El entrenador profesional para Microsoft Teams
 
@@ -184,9 +184,6 @@ El catálogo de cursos representa los cursos y clases ofrecidos a los alumnos po
 
 Para crear el catálogo de cursos, cree una lista de todos los cursos que se imparten en su institución educativa y cargúenlo como un archivo CSV. La aplicación se basa en el catálogo de cursos para identificar las aptitudes de un alumno de su transcripción y sugerir cursos para realizar. 
 
-> [!NOTE]
-> Vea [Ubicación de datos en Teams](location-of-data-in-teams.md) seguridad y [cumplimiento](security-compliance-overview.md) para obtener información sobre la protección de la información de los alumnos. 
-
 ##### <a name="course-catalog-documents-formatting-and-schema"></a>Formato y esquema de documentos del catálogo de cursos
 
 El documento debe estar en formato CSV con un tamaño máximo de 18 MB. El documento debe contener el título del curso de campos **obligatorios,** **el id. del** curso y la dirección URL del **curso.** Incluir los campos recomendados mejora la experiencia de los alumnos al devolver mejores resultados de búsqueda e identificación de aptitudes.
@@ -317,13 +314,9 @@ Los siguientes recursos le ayudarán a planear la aplicación Entrenador profesi
 
 - [Administrar aplicaciones en el Microsoft Teams de administración](manage-apps.md)
 
-- [Seguridad, privacidad y cumplimiento en Microsoft Teams](security-compliance-overview.md)
-
 - [Kit de orientación virtual en línea](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
 
 - [Límites y especificación de Teams canales](limits-specifications-teams.md)
-
-- [Ubicación de los datos en Microsoft Teams](location-of-data-in-teams.md)
 
 - [Introducción a la formación de administradores para Microsoft Teams](ITAdmin-readiness.md)
 
