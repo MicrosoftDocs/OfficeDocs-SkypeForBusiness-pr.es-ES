@@ -105,7 +105,7 @@ items:
                 href: Office-365-set-up.md
               - name: Cómo usa Microsoft Teams la memoria
                 href: teams-memory-usage-perf.md
-              - name: "Intervalos de direcciones IP y URL de Microsoft 365 y Office\_365."
+              - name: Intervalos de direcciones IP y URL de Microsoft 365 y Office 365.
                 href: office-365-urls-ip-address-ranges.md
               - name: Teams para la infraestructura de escritorio virtualizada (VDI)
                 href: teams-for-vdi.md
@@ -207,7 +207,7 @@ items:
             items:
               - name: Información general
                 href: /SkypeForBusiness/hybrid/configure-hybrid-connectivity
-              - name: "Configurar Azure\_AD\_Connect para entornos híbridos"
+              - name: Configurar Azure AD Connect para entornos híbridos
                 href: /SkypeForBusiness/hybrid/configure-azure-ad-connect
               - name: Configurar Skype Empresarial híbrido
                 href: /SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online
@@ -499,25 +499,25 @@ items:
         href: archive-or-delete-a-team.md
       - name: Migrar de Slack a Teams
         href: migrate-slack-to-teams.md
-      - name: Trabajar con plantillas de Teams
+      - name: Trabajar con plantillas de equipo
         items:
-          - name: Usar plantillas de Teams en la consola de administración
+          - name: Usar plantillas de equipo en el centro de administración
             href: get-started-with-teams-templates-in-the-admin-console.md
-          - name: Plantillas de Teams integradas en Graph para pequeñas y medianas empresas
+          - name: Plantillas de equipo integradas en Graph para pequeñas y medianas empresas
             href: smb-templates.md
-          - name: Crear una plantilla personalizada de Teams
+          - name: Crear una plantilla personalizada de equipo
             href: create-a-team-template.md
           - name: Crear una plantilla a partir de un equipo ya existente
             href: create-template-from-existing-team.md
           - name: Crear una plantilla a partir de una plantilla ya existente
             href: create-template-from-existing-template.md
-          - name: Plantillas de Teams de la categoría financiera
+          - name: Plantillas de equipo de la categoría financiera
             href: financial-teams-templates-in-the-admin-console.md
-          - name: Plantillas de Teams de la categoría general
+          - name: Plantillas de equipo de la categoría general
             href: general-teams-templates-in-the-admin-console.md
-          - name: Plantillas de Teams de la categoría de fabricación
+          - name: Plantillas de equipo de la categoría de fabricación
             href: manufacturing-teams-templates-in-the-admin-console.md
-          - name: Administrar directivas de plantillas de Teams
+          - name: Administrar directivas de plantillas de equipo
             href: templates-policies.md
       - name: Trabajar con personas fuera de la organización
         items:
@@ -895,7 +895,7 @@ items:
                 href: direct-routing-configure.md
               - name: 'Paso 1: conectar SBC'
                 href: direct-routing-connect-the-sbc.md
-              - name: "Paso\_2: habilitar usuarios"
+              - name: 'Paso 2: habilitar usuarios'
                 href: direct-routing-enable-users.md
               - name: 'Paso 3: configurar el enrutamiento de voz'
                 href: direct-routing-voice-routing.md
@@ -1375,7 +1375,7 @@ items:
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: Todos los sectores
         items:
-          - name: Introducción a las plantillas de Teams
+          - name: Introducción a las plantillas de equipo
             href: get-started-with-teams-templates.md
           - name: Turnos para Teams
             href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
@@ -1400,7 +1400,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
               - name: Delegación de mensajes
                 href: expand-teams-across-your-org/healthcare/hc-delegates.md
-          - name: Usar las plantillas de asistencia sanitaria de Teams
+          - name: Usar las plantillas de equipo de asistencia sanitaria
             href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
           - name: Administrar la aplicación Listas para su organización en Teams
             href: manage-lists-app.md
@@ -1470,14 +1470,14 @@ items:
       - name: Teams para el comercio
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: Introducción a las plantillas comerciales de Teams
+          - name: Introducción a las plantillas de equipo de comercio
             href: get-started-with-retail-teams-templates.md
       - name: Teams para la Administración Pública
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
         items:
           - name: Soporte técnico para trabajadores remotos (WFH)
             href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
-          - name: Introducción a las plantillas de Teams para Administración Pública
+          - name: Introducción a las plantillas de equipo para Administración Pública
             href: government-teams-templates-in-the-admin-console.md
           - name: Administrar la oferta de prueba de Office 365 G1
             href: g1-trial-license.md
@@ -1570,6 +1570,10 @@ items:
             href: devices/teams-ip-phones.md
           - name: Teléfonos para Skype Empresarial Online
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Alertas y supervisión de Teams
+            href: alerts/teams-admin-alerts.md
+          - name: Supervisión del estado de dispositivos de Teams
+            href: alerts/device-health-status.md
       - name: PowerShell para Teams
         items:
           - name: Información general
