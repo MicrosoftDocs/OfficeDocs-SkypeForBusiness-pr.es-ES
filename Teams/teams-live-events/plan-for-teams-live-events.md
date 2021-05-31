@@ -20,12 +20,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79142779c633aeb852826ee04f5fb5c3c9aeb07f
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: fbacbc4e17d08ae8e5e3a86338f764976ac34b4d
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637862"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699341"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -42,8 +42,8 @@ Para que el usuario programe un evento en directo de Teams se requieren los sigu
 
 Estas son las licencias que debe asignar para organizar, producir o presentar un evento en directo de Teams:  
 
-- **Para organizar:** una licencia de Microsoft o de Office 365 Enterprise E1, E3 o E5 **[o]** una licencia de Office 365 Educación A3 o A5. 
-- **Para producir o presentar:** una licencia de Microsoft o de Office 365 Enterprise E1, E3 o E5 **[o]** una licencia de Office 365 Educación A1, A3 o A5. La excepción de este requisito es que los usuarios invitados pueden presentar sin una licencia si se cumplen los otros criterios para [usuarios invitados](plan-for-teams-live-events.md#guest-to-present).
+- **Para organizar:** una licencia de Microsoft o de Office 365 Enterprise E1, E3 o E5 **[o]** una licencia de Office 365 Educación A3 o A5. 
+- **Para producir o presentar:** una licencia de Microsoft o de Office 365 Enterprise E1, E3 o E5 **[o]** una licencia de Office 365 Educación A1, A3 o A5. La excepción de este requisito es que los usuarios invitados pueden presentar sin una licencia si se cumplen los otros criterios para [usuarios invitados](plan-for-teams-live-events.md#guest-to-present).
 - Una licencia de Microsoft Teams: se incluye en las licencias que aparecen en la primera y la segunda viñeta.
 - Se requiere una licencia de Microsoft Stream si tiene previsto compartir el contenido en una aplicación o dispositivo externo. Consulte [licencias de Microsoft Stream](/stream/license-overview).
 
@@ -85,7 +85,7 @@ Para que un invitado pueda presentar en un evento en directo, realice las siguie
 2. Pida al usuario que acepte la invitación y se una al equipo.
 3. [Programe el evento en directo y agregue el invitado al grupo de eventos](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-Recomendamos que cree un canal para los productores y moderadores del evento en directo para que puedan chatear y compartir información antes del evento. Los invitados que no dispongan de credenciales de Microsoft 365 no podrán ver el calendario en Teams. Para que sea más fácil para ellos unirse al evento, los productores pueden publicar el vínculo del evento en el canal. Los moderadores pueden abrir Teams, ir al canal y, después, hacer clic en el vínculo para unirse al evento.
+Como mejor práctica, le recomendamos que cree un canal para los productores y presentadores del evento en vivo para que puedan chatear y compartir información antes del evento. Los invitados que no tengan credenciales de Microsoft 365 no verán el Calendario en Teams. Para facilitarles la entrada al evento, los productores pueden publicar el enlace del evento en el canal. Los presentadores pueden entonces abrir Teams, ir al canal y seleccionar el enlace para unirse al evento.
 
 ## <a name="who-can-watch-live-events"></a>¿Quién puede ver los eventos en directo?
 
@@ -106,7 +106,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 > [!IMPORTANT]
 > **Aumentamos el límite de eventos en directo de Microsoft 365**
 >
-> **Para continuar cubriendo las necesidades de nuestros clientes, hasta el 30 de junio de 2021, extenderemos los aumentos de los límites temporales para los eventos en vivo, incluyendo**:
+> **Para seguir apoyando las necesidades de nuestros clientes, hasta enero de 2022, ampliaremos los aumentos temporales de los límites para los eventos en vivo, incluyendo**:
 >
 >- Soporte de eventos de hasta 20 000 asistentes
 >- 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial
