@@ -26,7 +26,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52237386"
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="3e40a-103">Opciones de licencias en función de su plan</span><span class="sxs-lookup"><span data-stu-id="3e40a-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="cf19a-103">Opciones de licencias en función de su plan</span><span class="sxs-lookup"><span data-stu-id="cf19a-103">License options based on your plan</span></span>
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 

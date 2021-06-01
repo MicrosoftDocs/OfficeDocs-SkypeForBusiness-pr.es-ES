@@ -28,18 +28,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52239476"
 ---
-# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a><span data-ttu-id="adc0c-103">El plan de servicio Skype Empresarial online del usuario no es válido</span><span class="sxs-lookup"><span data-stu-id="adc0c-103">The user's Skype for Business Online service plan isn't valid</span></span>
+# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a><span data-ttu-id="2a324-103">El plan de servicio Skype Empresarial online del usuario no es válido</span><span class="sxs-lookup"><span data-stu-id="2a324-103">The user's Skype for Business Online service plan isn't valid</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-<span data-ttu-id="adc0c-104">Lo sentimos, Skype Empresarial plan de servicio en línea asignado a este usuario no se reconoce o no es válido.</span><span class="sxs-lookup"><span data-stu-id="adc0c-104">Sorry, the Skype for Business Online service plan assigned to this user is not recognized, or is invalid.</span></span>
+<span data-ttu-id="2a324-104">Lo sentimos, Skype Empresarial plan de servicio en línea asignado a este usuario no se reconoce o no es válido.</span><span class="sxs-lookup"><span data-stu-id="2a324-104">Sorry, the Skype for Business Online service plan assigned to this user is not recognized, or is invalid.</span></span>
   
-<span data-ttu-id="adc0c-105">Vaya al centro *Microsoft 365 de administración*\* > **usuarios** activos y asigne un plan de servicio válido a este usuario.</span><span class="sxs-lookup"><span data-stu-id="adc0c-105">Go to the *Microsoft 365 admin center*\* > **Active users** and assign a valid service plan to this user.</span></span>
+<span data-ttu-id="2a324-105">Vaya al centro *Microsoft 365 de administración*\* > **usuarios** activos y asigne un plan de servicio válido a este usuario.</span><span class="sxs-lookup"><span data-stu-id="2a324-105">Go to the *Microsoft 365 admin center*\* > **Active users** and assign a valid service plan to this user.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="adc0c-106">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="adc0c-106">Related topics</span></span>
-[<span data-ttu-id="adc0c-107">Configurar Skype Empresarial Online</span><span class="sxs-lookup"><span data-stu-id="adc0c-107">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="2a324-106">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="2a324-106">Related topics</span></span>
+[<span data-ttu-id="2a324-107">Configurar Skype Empresarial Online</span><span class="sxs-lookup"><span data-stu-id="2a324-107">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="adc0c-108">Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype</span><span class="sxs-lookup"><span data-stu-id="adc0c-108">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="2a324-108">Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype</span><span class="sxs-lookup"><span data-stu-id="2a324-108">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
   
   
  
