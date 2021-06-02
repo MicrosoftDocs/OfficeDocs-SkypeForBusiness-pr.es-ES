@@ -17,20 +17,22 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 82d9f152dbba345f876ac166bcf6833e53bab799
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768419"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718041"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
 La Presencia forma parte del perfil del usuario en Microsoft Teams (así como también para Microsoft 365 u Office 365). La Presencia indica a los demás el estado y la disponibilidad actuales del usuario. De forma predeterminada, cualquier persona de su organización que utilice Teams podrá ver (casi en tiempo real) si otros usuarios están disponibles en línea. La Presencia se actualiza en tiempo real en las versiones de escritorio y web cuando se actualiza la página en dispositivos móviles.
 
- > [!Note]
+ > [!NOTE]
  > Para obtener más información acerca de las características del perfil de usuario de Teams en las distintas plataformas, consulte [Características de Teams según la plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
+ > [!NOTE]
+ > Teams respeta su configuración de privacidad, de modo que, si tiene habilitado el modo de privacidad, su presencia no será visible para los usuarios externos.
 ## <a name="presence-states-in-teams"></a>Estados de presencia en Teams
 
 |Configurado por el usuario|Aplicación configurada|
@@ -43,16 +45,17 @@ La Presencia forma parte del perfil del usuario en Microsoft Teams (así como ta
 || ![Círculo rojo abierto, indica Ocupado](media/Presence_Busy_OOF.png) En una llamada, fuera de la oficina|
 |  ![Círculo rojo con línea blanca, indica No molestar](media/Presence_DND.png) No molestar ||
 || ![Círculo rojo con línea blanca, indica Presentando](media/Presence_DND.png) Presentando|
-|| ![Círculo rojo con línea blanca, indica Modo enfoque](media/Presence_DND.png) Modo de concentración. El estado Concentrado se produce cuando los usuarios programan el tiempo de concentración en MyAnalytics/Insights en sus calendarios.|
+|| ![Círculo rojo con línea blanca, indica Modo enfoque](media/Presence_DND.png) Concentración. El estado de concentración se produce cuando los usuarios programan el tiempo de concentración en MyAnalytics/Insights en sus calendarios.|
 | ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Ausente| ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Ausente|
 || ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Última vez visto ausente *hora*|
 |![Icono del reloj amarillo, indica que está ausente, ahora vuelvo.](media/Presence_Away.png) Ahora vuelvo| |
-|![El círculo gris con una x, indica Sin conexión](media/Presence_Offline.png) Desconectado|![El círculo gris con una x, indica Sin conexión](media/Presence_Offline.png) Desconectado.  Cuando los usuarios no inician sesión en ninguno de sus dispositivos durante unos minutos, aparecen como desconectados. | |
+|![El círculo gris con una x, indica Sin conexión](media/Presence_Offline.png) Desconectado|![El círculo gris con una x, indica Sin conexión](media/Presence_Offline.png) Desconectado. Cuando los usuarios no tienen la sesión iniciada en ninguno de sus dispositivos durante unos minutos, aparecen como desconectados. | |
 || ![Círculo gris abierto, indica estado desconocido](media/Presence_Unknown.png) Estado desconocido|
-|| ![El círculo púrpura con una flecha, indica Fuera de la oficina](media/Presence_OOF.png) Fuera de la oficina. Fuera de la oficina se usa cuando se establece una respuesta automática. (Disponible solo para Outlook) |
+|| ![El círculo púrpura con una flecha, indica Fuera de la oficina](media/Presence_OOF.png) Fuera de la oficina. Fuera de la oficina se usa cuando se establece una respuesta automática. |
 |||
- > [!Note]
- > Se espera que los usuarios cuyo buzón de correo se hospeda de forma local tengan retrasos de presencia de hasta una hora como máximo.
+ > [!NOTE]
+ > Para los usuarios que tienen su buzón hospedado en un entorno local, se esperan retrasos de una hora (como máximo) en la presencia.
+
 Los Estados de presencia configurados a través de la aplicación se basan en la actividad del usuario (Disponible, Ausente), en los estados del Calendario de Outlook (En una reunión) o en los estados de la aplicación Teams (En una llamada, En una presentación). Cuando se encuentre en Modo de concentración de acuerdo con su calendario, el estado que verán los demás usuarios en Teams será **Concentrado**. El Modo de concentración se mostrará como **No molestar** en los demás productos.
 
 Su estado de presencia actual cambiará a Ausente cuando bloquee el equipo o cuando entre en el modo de inactividad o de suspensión. En los dispositivos móviles, el estado de presencia cambiará a Ausente cada vez que la aplicación Teams esté en segundo plano.
@@ -77,7 +80,7 @@ Los estados configurados por el usuario tienen una configuración de caducidad p
 |:--- |:---|
 | No disponible|1 día|
 | No molestar|1 día|
-| Otros|7 días|
+| Otros|7 días|
 |||
 
 > [!NOTE]
