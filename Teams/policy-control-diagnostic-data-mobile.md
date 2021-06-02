@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: baea63a8ed51d2e47fa24b7602573b1dda342e93
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569238"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717991"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Datos de diagnóstico móvil necesarios para Microsoft Teams
 
@@ -109,10 +109,6 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
   - Números de la configuración.
 - **blockChat** bloquear un bot de chat. Esto mejora la telemetría actual en torno a los chats y solo agrega información de la aplicación.
 - **botClickCardAction** - Uso de la tarjeta de conexión.
-- **brbFeedback** - Relativo al rendimiento del formulario de comentarios de BRB.
-- **brbFormCancelled** - Un evento enviado cuando el formulario de comentarios BRB se cancela y el usuario vuelve a la aplicación.
-- **brbFormOpened** - Un evento enviado cuando se abre el formulario BRB.
-- **brbFormSubmit** - Un evento enviado cuando el usuario selecciona **Enviar** en el formulario de comentarios.
 - **breakStartEndClicked** - En la pantalla del reloj, se selecciona el botón **Inicio** o **Finalizar descanso**.
 - **breakStartEndTriggered** - Registrar un usuario opta por usar Iniciar o Finalizar descanso.
 - **bucketSelected** - Confirma que un depósito se ha seleccionado correctamente.
@@ -1187,6 +1183,8 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **correo de voz: no hay AS asignado** - Un orador pulsa en un elemento de correo de voz.
 - **whiteboardUsed** - Un usuario anota en una pizarra (cualquiera de las acciones que se muestran en ella).
 - **wiki - No hay AS asignado** - Telemetría de uso de wiki.
+- **poorNetworkBanner**: se muestra el banner de red deficiente.
+- **badNetworkBanner**: se muestra el banner mala conexión de red.
 
 ### <a name="panelview"></a>PanelView
 
@@ -1224,6 +1222,11 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 > [!NOTE]
 > Para obtener información sobre las propiedades de los eventos PanelAction, vea [Propiedades que se envían con eventos de escenario](#properties-sent-with-scenario-events).
 
+- **app_incremental_sync_launch**: confirma si el recuento de píldoras se actualiza correctamente para el lanzamiento en frío.
+- **app_incremental_sync_resume**: confirma si el recuento de píldoras se actualiza correctamente para el lanzamiento en caliente o tibio.
+- **app_start_cold**: para supervisar el lanzamiento de aplicaciones en frío (solo para Android).
+- **app_start_hot**: para supervisar el lanzamiento de aplicaciones en caliente (solo para Android).
+- **app_start_warm**: para supervisar el lanzamiento de aplicaciones en tibio (solo para Android).
 - **chat_add_giphy**: confirma si la acción de representación gif de Giphy se ha hecho correctamente o con errores.
 - **cortanaError** - Para supervisar el error de Cortana que se produce.
 - **cortanaView** - Para supervisar la aparición del lienzo de Cortana.
@@ -1278,6 +1281,18 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **upload_images** Confirma si la imagen carga la acción correctamente o con errores.
 - **upload_voice_messages** Confirma si el mensaje de voz carga la acción correctamente o con errores.
 - **voiceMessageUpload** Confirma si el mensaje de voz carga la acción correctamente o con errores.
+- **cancel_channel_meeting** confirma si la cancelación de una reunión de canal se hizo correctamente o no.
+- **cancel_meeting** confirma si la cancelación de una reunión se hizo correctamente o no.
+- **cancel_private_meeting** confirma si la cancelación de una reunión privada se hizo correctamente o no.
+- **edit_channel_meeting** confirma si la edición de una reunión de canal se hizo correctamente o no.
+- **edit_meeting** confirma si la operación de edición de una reunión se hizo correctamente o no.
+- **server_fetch_agenda_view** confirma si la sincronización de eventos de calendario mediante la API de nivel medio se hizo correctamente o no.
+- **server_fetch_date_picker_view** confirma si la sincronización de eventos de calendario mediante la API de REST de Outlook se hizo correctamente o no.
+- **server_fetch_agenda_view_group** confirma si la sincronización de eventos de calendario mediante la API de nivel medio para el grupo TFL se hizo correctamente o no.
+- **server_fetch_date_picker_view_incremental** confirma si la sincronización incremental de eventos de calendario mediante la API de REST de Outlook se hizo correctamente o no.
+- **meeting_details** confirma si la sincronización de detalles de la reunión se hizo correctamente o no.
+- **show_meeting_participants** confirma si la lista de participantes de la reunión se hizo correctamente o no.
+
 
 ## <a name="property-lists"></a>Listas de propiedades
 
