@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: 270a2e613e387b797cb70914ad400da80b15b1ca
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 52a9636a6a92656293e90d00563be16b500ee4ce
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628949"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717871"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
 Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para hablar con el departamento adecuado, la cola de llamadas, una persona o un operador. Puede crear operadores automáticos para su organización con el Microsoft Teams de administración o con PowerShell.
 
 > [!TIP]
-> Este artículo es de grandes organizaciones. Si su organización es una gran empresa, lea Configurar un [operador automático : tutorial de pequeña empresa](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) en su lugar.
+> Este artículo es para organizaciones grandes. Si su organización es una pequeña empresa, lea Configurar un [operador automático : tutorial de pequeña empresa](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) en su lugar.
 
 Asegúrese de que ha leído Planear Teams operadores [automáticos](plan-auto-attendant-call-queue.md) y [](plan-auto-attendant-call-queue.md#getting-started) colas de llamadas y ha seguido los pasos de introducción antes de seguir los procedimientos de este artículo.
 
@@ -77,8 +77,8 @@ En este vídeo se muestra un ejemplo básico de cómo crear un operador automát
 
 5. Elija si desea habilitar las entradas de voz. Cuando se habilita, el nombre de cada opción de menú se convierte en una palabra clave de reconocimiento de voz. Por ejemplo, los autores de llamadas pueden decir "Uno" para seleccionar la opción de menú asignada a la tecla 1, o pueden decir "Ventas" para seleccionar la opción de menú denominada "Ventas".
 
-> [!NOTE]
-> Si elige un idioma en el paso 4 que no admite entradas de voz, esta opción se deshabilitará.
+   > [!NOTE]
+   > Si elige un idioma en el paso 4 que no admite entradas de voz, esta opción se deshabilitará.
 
 6. Seleccione **Siguiente**.
 

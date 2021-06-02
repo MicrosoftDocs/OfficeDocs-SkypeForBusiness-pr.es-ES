@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e82c862810448552bb9d2dc2d721815b5db43f55
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: bb6ceacb6e7a2cc4d458c86edda96511e5230ace
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689913"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717861"
 ---
 # <a name="configure-operator-connect"></a>Configurar operador Conectar
 
@@ -76,7 +76,7 @@ Para adquirir números para nuevos Teams usuarios, siga estos pasos:
 
 4. **Adquirir números.** Vaya al sitio web de su operador para solicitar y adquirir números de teléfono. Para obtener una lista de sitios web de operadores, vea [Operadores.](#operators) Tendrá que proporcionar su id. de inquilino. Si no conoce su identificador de inquilino, vea Buscar su Microsoft 365 [inquilino para](/onedrive/find-your-office-365-tenant-id) obtener más información.
 
-5. **Asignar números.** Una vez que el operador complete el pedido, cargarán números de prueba a su inquilino. Puede ver los números y el proveedor en el centro Teams de administración yendo a Números **> Teléfono voz.** Asigne números a los usuarios mediante el centro Teams de administración o mediante PowerShell. Para obtener más información, vea [Asignar números.](#assign-numbers)
+5. **Asignar números.** Una vez que el operador complete el pedido, cargarán números a su inquilino. Puede ver los números y el proveedor en el centro Teams de administración yendo a Números **> Teléfono voz.** Asigne números a los usuarios mediante el centro Teams de administración o mediante PowerShell. Para obtener más información, vea [Asignar números.](#assign-numbers)
  
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>Mover números de planes de llamadas a operador Conectar
@@ -108,7 +108,7 @@ Para adquirir números para nuevos Teams usuarios, siga estos pasos:
 
 3. Vaya al sitio web de su operador para solicitar y adquirir números de teléfono. Para obtener una lista de sitios web de operadores, vea [Operadores.](#operators) Tendrá que proporcionar su id. de inquilino. Si no conoce su identificador de inquilino, vea Buscar su Microsoft 365 [inquilino para](/onedrive/find-your-office-365-tenant-id) obtener más información.
 
-4. Una vez que el operador complete el pedido, cargarán números de prueba a su inquilino. Puede ver los números y el proveedor en el centro Teams de administración yendo a Números **> Teléfono voz.** Asigne números Conectar operador a los usuarios mediante el centro Teams administrador o mediante PowerShell. Para obtener más información, vea [Asignar números.](#assign-numbers)
+4. Una vez que el operador complete el pedido, cargarán números a su inquilino. Puede ver los números y el proveedor en el centro Teams de administración yendo a Números **> Teléfono voz.** Asigne números Conectar operador a los usuarios mediante el centro Teams administrador o mediante PowerShell. Para obtener más información, vea [Asignar números.](#assign-numbers)
 
    
 

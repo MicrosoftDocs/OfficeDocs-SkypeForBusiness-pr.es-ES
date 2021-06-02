@@ -17,12 +17,12 @@ description: Los conectores mantienen su equipo al día haciendo llegar contenid
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e6e65c3462242b82691a292770de684b6c4404b
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: df9cdc8bb53ae55acae10b0146655f5e5f3e0346
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684247"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717611"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Use Microsoft 365 y conectores personalizados en Microsoft Teams
 
@@ -31,6 +31,9 @@ Los conectores mantienen al equipo actualizado al ofrecer actualizaciones de ser
 Cualquier miembro de un equipo puede conectar su equipo a los servicios en la nube populares con los conectores si los permisos del equipo lo permiten y se notifica a todos los miembros del equipo de las actividades de ese servicio. Los conectores seguirán funcionando incluso después de que el miembro que haya configurado inicialmente el conector se haya ido. Cualquier miembro del equipo con los permisos para agregar o quitar puede modificar los conectores configurados por otros miembros.
 
 Microsoft 365 conectores se pueden usar con grupos Microsoft Teams y Microsoft 365, lo que facilita que todos los miembros se sincronicen y reciban información relevante rápidamente. Tanto Microsoft Teams como Exchange el mismo modelo de conector, lo que le permite usar los mismos conectores en ambas plataformas. Sin embargo, vale la pena señalar que deshabilitar los conectores para el grupo de Microsoft 365 del que depende un equipo también deshabilitará la capacidad de crear conectores para ese equipo.
+
+> [!NOTE]
+> Los conectores están deshabilitados de forma predeterminada GCC entornos. Si necesita habilitarlos, establezca los parámetros ConnectorsEnabled o ConnectorsEnabledForTeams en $true con el cmdlet [Set-OrganizationConfig.](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) Anteriormente, necesita [conectarse a Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 > [!NOTE]
 > Los conectores están deshabilitados de forma predeterminada en los entornos de Community (GCC) gubernamentales. Si necesita habilitarlos, establezca los parámetros ConnectorsEnabled o ConnectorsEnabledForTeams en $true con el cmdlet [SetOrganizationConfig.](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) Anteriormente tenía que conectarse a la [Exchange Online PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)

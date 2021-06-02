@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdee4dc55d0922796e66ece87b535b953ecf1580
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 0208b8c6ad16cc42611768a25237a6e48bf60401
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684547"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717831"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Introducción a las plantillas de equipo con Microsoft Graph
 
@@ -68,14 +68,14 @@ De forma predeterminada, la plantilla base se establece en **Estándar,** que no
 
 | Tipo de plantilla base | baseTemplateId | Propiedades que vienen con esta plantilla base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | No hay aplicaciones ni propiedades adicionales |
-| Educación -<br>Equipo de clase | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Aplicaciones:<ul><li>OneNote Bloc de notas de clase (anclado a la **pestaña General)** </li><li>Aplicación Tareas (anclada a la **pestaña General)**</li></ul> Propiedades del equipo:<ul><li>Visibilidad del equipo establecida en **HiddenMembership** (no se puede invalidar)</li></ul> |
-| Educación -<br>Equipo de docentes | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Aplicaciones:<ul><li>OneNote Bloc de notas para docentes (anclado a la **pestaña General)**</li></ul> |
-|Educación -<br>Equipo de PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Aplicaciones:<ul><li>OneNote Bloc de notas plc (anclado a la **pestaña General)**</ul></li>|
-| Comercio minorista:<br>Tienda | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canales:<ul><li>Cambio de turno</li><li>Aprendizaje</li></ul>Propiedades del equipo<ul><li>Visibilidad de equipo establecida en Público</li></ul>Permisos de miembro<ul><li>Impedir que los miembros creen, actualicen o quiten canales</li><li>Impedir que los miembros agreguen o quiten aplicaciones</li><li>Impedir que los miembros creen, actualicen o quiten conectores</li></ul> |
-| Comercio minorista:<br>Colaboración del administrador | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canales:<ul><li>Aprendizaje</li><li>Operaciones</li></ul>Propiedades del equipo:<ul><li>Visibilidad de equipo establecida en Privado</li></ul>Permisos de miembro:<ul><li>Impedir que los miembros creen, actualicen o quiten canales</li><li>Impedir que los miembros agreguen o quiten aplicaciones</li><li>Impedir que los miembros creen, actualicen o quiten conectores</li></ul>|
-| Sanidad -<br>Sala |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canales: <ul><li>Anuncios\*</li><li>Reuniones\*</li><li>Rondas</li><li>Personal\*</li><li>Aprendizaje\*</li></ul>\*Canales marcados como favoritos automáticamente |
-|Sanidad -<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canales:<ul><li>Anuncios\*</li><li>Cumplimiento\*</li><li>Custodia</li><li>Recursos humanos</li></li><li>Farmacia</li></ul>\*Canal auto-favorito|
+| Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | No hay aplicaciones ni propiedades adicionales |
+| Educación -<br>Equipo de clase | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Aplicaciones:<ul><li>OneNote Bloc de notas de clase (anclado a la **pestaña General)** </li><li>Aplicación Tareas (anclada a la **pestaña General)**</li></ul> Propiedades del equipo:<ul><li>Visibilidad del equipo establecida en **HiddenMembership** (no se puede invalidar)</li></ul> |
+| Educación -<br>Equipo de docentes | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Aplicaciones:<ul><li>OneNote Bloc de notas para docentes (anclado a la **pestaña General)**</li></ul> |
+|Educación -<br>Equipo de PLC |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Aplicaciones:<ul><li>OneNote Bloc de notas plc (anclado a la **pestaña General)**</ul></li>|
+| Comercio minorista:<br>Tienda | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailStore')` | Canales:<ul><li>Cambio de turno</li><li>Aprendizaje</li></ul>Propiedades del equipo<ul><li>Visibilidad de equipo establecida en Público</li></ul>Permisos de miembro<ul><li>Impedir que los miembros creen, actualicen o quiten canales</li><li>Impedir que los miembros agreguen o quiten aplicaciones</li><li>Impedir que los miembros creen, actualicen o quiten conectores</li></ul> |
+| Comercio minorista:<br>Colaboración del administrador | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailManagerCollaboration')` | Canales:<ul><li>Aprendizaje</li><li>Operaciones</li></ul>Propiedades del equipo:<ul><li>Visibilidad de equipo establecida en Privado</li></ul>Permisos de miembro:<ul><li>Impedir que los miembros creen, actualicen o quiten canales</li><li>Impedir que los miembros agreguen o quiten aplicaciones</li><li>Impedir que los miembros creen, actualicen o quiten conectores</li></ul>|
+| Sanidad -<br>Sala |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareWard')` |Canales: <ul><li>Anuncios\*</li><li>Reuniones\*</li><li>Rondas</li><li>Personal\*</li><li>Aprendizaje\*</li></ul>\*Canales marcados como favoritos automáticamente |
+|Sanidad -<br>Hospital | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareHospital')` |Canales:<ul><li>Anuncios\*</li><li>Cumplimiento\*</li><li>Custodia</li><li>Recursos humanos</li></li><li>Farmacia</li></ul>\*Canal auto-favorito|
 |||
 
 

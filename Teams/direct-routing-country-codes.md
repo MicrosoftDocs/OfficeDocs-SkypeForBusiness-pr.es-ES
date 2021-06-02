@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Lea este artículo para buscar códigos de país de ruta de acceso multimedia para enrutamiento directo para que pueda seleccionar la ruta de acceso multimedia óptima.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 330d178c7bfa969020ffc8c26b1e05283c182ae8
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648129"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718001"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Códigos de país de ruta de acceso multimedia de enrutamiento directo
 
@@ -37,7 +37,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 Tenga en cuenta que Microsoft solo recomienda establecer este parámetro si los registros de llamadas indican claramente que la asignación predeterminada del centro de datos para la ruta de acceso multimedia no usa la ruta de acceso más cercana al centro de datos de SBC. 
 
 > [!NOTE]
-> -MediaRelayRoutingLocationOverride: este comando no está disponible para su uso en escenarios de enrutamiento directo.
+> El parámetro MediaRelayRoutingLocationOverride está reservado para su uso con operadores administrados.
  
 ## <a name="country-code-reference-table"></a>Tabla de referencia de código de país
 
@@ -233,7 +233,7 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Rusia          | RU |
 | Ruanda          | RW |
 | Saba            | XS |
-| San Bartolomé | BL |
+| San Barthélemy | BL |
 | San Cristóbal y Nieves | KN |
 | Santa Lucía     | LC |
 | San Martín    | MF |
@@ -297,4 +297,3 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Yemen           | YE |
 | Zambia          | ZM |
 | Zimbabue        | ZW |
-
