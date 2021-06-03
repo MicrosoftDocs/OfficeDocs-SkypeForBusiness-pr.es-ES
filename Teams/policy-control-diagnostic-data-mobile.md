@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baea63a8ed51d2e47fa24b7602573b1dda342e93
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717991"
+ms.locfileid: "52723571"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Datos de diagnóstico móvil necesarios para Microsoft Teams
 
@@ -344,6 +344,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **companionDismissProximity** - Descarta el banner complementario.
 - **companionJoin** - Unirse como opción complementaria está seleccionada en la hoja.
 - **companionJoinProximity** - Unido a través del banner complementario.
+- **completeVaultFRE**: el usuario completa el proceso de generación de una clave maestra, que se usa para cifrar los datos de la caja fuerte.
 - **completionStateChange** - Desencadenado cuando se activa la alternancia de filtro completada o no completada en la vista filtro de la lista de tareas.
 - **composeExpandComposer** - el botón **Formato** es pulsado.
 - **composeFilePick** - Se ha iniciado el selector de archivo nativo.
@@ -432,6 +433,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **deleteMeeting** - Seleccione el botón **Eliminar** en la página Detalles de la reunión.
 - **deletePersonalTask** - Confirma que una tarea personal se ha eliminado correctamente.
 - **deletePersonalSubtask** - Confirma que una subtarea personal se ha eliminado correctamente.
+- **deletePersonalVaultItem**: solicitudes de usuarios para eliminar su caja fuerte personal.
 - **deletePlannerTask** - Confirma que la operación de eliminación de una tarea compartida se completó correctamente.
 - **deleteShift** - Eliminación de turno.
 - **duration_picker_dismissed** - Cuando el selector de la duración se descarta.
@@ -571,6 +573,8 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **funSelectItem** - Giphy la imagen elegida. Datos de éxito de la característica de datos adjuntos de giphy en Teams.
 - **galleryImage** - Imagen cargada - Galería.
 - **get_directions_clicked** - Se ha seleccionado el botón **Obtener instrucciones**.
+- **giphyUserDisabled**: el usuario elige rechazar los términos o las condiciones de Giphy.
+- **giphyUserEnisabled**: el usuario elige aceptar los términos o las condiciones de Giphy.
 - **goToNotificationSettings** - Vaya a la página Configuración de notificaciones de **hemos actualizado la configuración de notificaciones** cuadro de diálogo.
 - **GPSPromptClicked**: **Permitir** o **No permitir** está seleccionada en un símbolo del sistema operativo. Permite o no GPS.
 - **group_map_closed** - Un usuario abre el mapa VIW desde el chat.
@@ -617,6 +621,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **labelSelected** - Confirma que una etiqueta se ha seleccionado correctamente.
 - **labelUnselected** - Confirma que una etiqueta se ha desactivado correctamente.
 - **launchLinksGallery** - Cuando un usuario entra en la galería de vínculos desde el panel.
+- **launchSlideshow**: el usuario inicia el visor de imagen a pantalla completa de presentaciones con diapositivas entre una de las tres posibles ubicaciones de característica de la aplicación. 
 - **La fuente de inicio, como directa, vínculo, appShortcut** -inicia directamente o a través de un vínculo (grabación de la administración de aplicaciones móviles (MAM) o la telemetría de la administración de dispositivos móviles (MDM) en el inicio de la aplicación para recopilar datos para usuarios activos).
 - **leaveChat** - Confirma que se deja el chat.
 - **legacyChatLink** - Se selecciona un vínculo a un chat heredado.
@@ -656,7 +661,9 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **location_sharing_stop** - Un usuario deja de compartir su ubicación en directo en un chat.
 - **loginFailed** - El usuario no puede iniciar sesión.
 - **loginSuccess** - El usuario pudo iniciar sesión.
-- **manageBlockedNumbers** - Obtenga acceso a números bloqueados mediante Configuración.
+- **logoutVault**: el usuario cierra sesión en la aplicación y en la caja fuerte. 
+- **manageBlockedNumbers**: acceda a números bloqueados mediante la Configuración.
+- **manageVaultKey**: el usuario cambia la opción para administrar la clave de su caja fuerte (MSA o autoseguimiento)
 - **manualSend Se**: se envía un mensaje manualmente.
 - **mapAppPicker** - Cuando un usuario selecciona la aplicación de mapas que quiere usar al pulsar en una tarjeta de ubicación.
 - **markAsRead** - Marcar como leído.
@@ -708,6 +715,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **meetingUserFreemium** - Un usuario freemium se ha unido a la reunión.
 - **meetingUserGuest** - Un usuario invitado se ha unido a la reunión.
 - **meetingUserTenant** - Un usuario de cuenta empresarial se ha unido a la reunión.
+- **memeGenerated**: se genera un meme a partir de la entrada con imagen y datos de texto de un usuario. 
 - **messageCopyMessage** - Copiar mensaje.
 - **messageDelete** - Eliminar mensaje.
 - **messageEditMessage** : Editar mensaje.
@@ -940,6 +948,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **requestToJoinTeam** - Solicitud de unirse al equipo (público o privado).
 - **requestToJoinTeamError** - Error con la solicitud de combinación.
 - **requestTypeClicked** - Determinar el tipo de solicitud que las personas seleccionan en el selector solicitudes.
+- **resetLocalVault**: el usuario restablece y borra todos los datos de caja fuerte del dispositivo.
 - **resolveIssue** - **Resolve** está seleccionada en el control flotante solucionador de problemas de notificaciones para ir a la aplicación bloqueador.
 - **responseClicked** - Un usuario selecciona una página de respuesta.
 - **retryButtonClicked** - El botón **Reintentar** está seleccionado.
@@ -1003,6 +1012,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **Setting/Dismiss** - Configuración de los contactos del dispositivo.
 - **settingsNavReadReceiptNotice** - El usuario se ha pasado a la configuración desde la notificación de características.
 - **settingsOpened** - Se desencadena cuando la zona horaria del dispositivo del usuario no coincide con la zona horaria del equipo y el usuario se desplaza a la configuración.
+- **setupPinVault**: el usuario guarda un elemento anclado de caja fuerte para su cuenta. 
 - **shareFile** - Se desencadena cuando **Compartir archivo** está seleccionada. También le ayuda a comprobar si:
   - El usuario pudo iniciar la operación de compartir el archivo.
   - El usuario puede compartir un archivo correctamente.
