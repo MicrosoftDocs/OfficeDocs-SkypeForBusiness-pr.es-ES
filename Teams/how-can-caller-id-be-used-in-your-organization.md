@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: El identificador de llamadas se puede controlar tanto para las llamadas entrantes como salientes para Sistema telefónico usuarios mediante una directiva denominada CallingLineIdentity.
-ms.openlocfilehash: 2a104679be84dfdaa4574353ccc79142d8a82284
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 43d3d6633ca46485aa111a7d97b9bd37b0547818
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308349"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723551"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Cómo se puede usar la identificación de llamadas en su organización
 
@@ -49,9 +49,6 @@ Puede controlar el identificador de llamadas para las llamadas entrantes y salie
 ## <a name="outbound-pstn-caller-id"></a>Identificador de llamada RTC saliente
 
 Para el identificador de llamada RTC saliente, están disponibles las siguientes opciones. 
-
-> [!NOTE]
-> Algunas opciones, que se indican a continuación, están en versión preliminar.
   
 - El número de teléfono asignado al usuario, que es el predeterminado.
 
@@ -61,9 +58,9 @@ Para el identificador de llamada RTC saliente, están disponibles las siguientes
 
   - Un número de teléfono que se clasifica como servicio y número gratuito en el inventario de números de teléfono planes de llamadas. Normalmente se asigna a un Teams Operador automático o cola de llamadas.
 
-  - **Versión preliminar.** Un número de teléfono local a través del enrutamiento directo que se asigna a una cuenta de recursos usada por una Teams Operador automático o cola de llamadas. 
+  - Un número de teléfono local a través del enrutamiento directo que se asigna a una cuenta de recursos usada por una Teams Operador automático o cola de llamadas. 
 
-- **Versión preliminar.** El nombre de la parte de llamada o CNAM establecido en la llamada RTC saliente.  
+- El nombre de la parte de llamada o CNAM establecido en la llamada RTC saliente.  
     
 Para obtener más información, vea [Establecer el identificador de llamada de un usuario.](./set-the-caller-id-for-a-user.md)
   

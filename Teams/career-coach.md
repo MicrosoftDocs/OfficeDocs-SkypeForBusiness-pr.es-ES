@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
+ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699361"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729808"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Compre, configure y habilite El entrenador profesional para Microsoft Teams
 
@@ -110,7 +110,7 @@ Use la [página Administrar aplicaciones](/microsoftteams/manage-apps) para ver 
 
 4. Seleccione **Entrenador profesional** y, a continuación, seleccione **Configuración.**  
 
-    ![muestra la aplicación Entrenador profesional seleccionada con la Configuración que se muestra](media/app-settings.png)
+    ![muestra la aplicación Entrenador profesional seleccionada con la Configuración que se muestra](media/career-coach-app.png)
 
 ### <a name="configure-the-career-coach-app-settings"></a>Configurar la configuración de la aplicación Entrenador profesional
 
@@ -133,7 +133,7 @@ Entrenador profesional tiene cinco categorías de configuración:
 
 Establezca el nombre, el logotipo y el idioma predeterminado de la institución educativa en la página de configuración de marca y preferencias.
 
-![la sección de personal de marca de Coach profesional del Centro de administración](media/brand-preferences.png)
+![la sección de personal de marca de Coach profesional del Centro de administración](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>Icono de institución educativa
 
@@ -172,7 +172,7 @@ Determine la página de LinkedIn de la institución educativa. Busque la página
 
 4. Copie la dirección URL de verificación y compártella con la documentación de administrador de página de LinkedIn del administrador de la página de [LinkedIn de su](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en)institución educativa. El vínculo de verificación expira después de 30 días.  
 
-   ![configuración de linkedin para el entrenador profesional](media/linkedin.png)  
+   ![configuración de linkedin para el entrenador profesional](media/career-coach-linked-in.png)  
 
 #### <a name="course-catalog"></a>Catálogo de cursos
 

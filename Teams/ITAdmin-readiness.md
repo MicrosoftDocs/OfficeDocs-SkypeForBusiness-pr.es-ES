@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa1224982dce5bad2d2a46cb2100bac283ef3ef
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 024da06002d6f3f4647cc48a854042320a8a5f66
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628789"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723428"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción a la formación de administradores para Microsoft Teams
 
@@ -81,7 +81,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 <h2>Teams Dispositivos Android</h2>
 
-<p>La tabla siguiente contiene vínculos a un aprendizaje de vídeo completo, con presentaciones de PowerPoint (en formato PDF), en dispositivos Android de Microsoft Teams que incluyen pantallas de Teams, teléfonos Teams, Salas de Teams para Android y paneles Teams.  
+<p>La tabla siguiente contiene vínculos a un aprendizaje completo, con PowerPoint decks (en formato PDF), en dispositivos Android de Microsoft Teams que incluyen Teams Pantallas, Teams Teléfonos, Salas de Teams para Android y Teams Paneles.  
 
 | Módulo | PowerPoint de presentación (PDF)  |
 | ------------| -------------------- |
