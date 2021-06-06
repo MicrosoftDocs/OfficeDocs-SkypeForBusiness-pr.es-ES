@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Obtenga información sobre cómo configurar colas de llamadas para pequeñas empresas en Microsoft 365 Business Voice.
-ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629059"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739690"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Crear una cola de llamadas: tutorial para pequeñas empresas
 
@@ -136,9 +136,13 @@ A continuación, empezaremos a crear una nueva cola de llamadas y asignaremos la
 
 2. Haga clic en **Agregar cuentas**, busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar** y, después, haga clic en **Agregar**.
 
+3. (Opcional) En **Asignar id. de** llamada, haga clic en **Agregar**, busque las cuentas de recursos que creó para el operador automático, haga clic en Agregar **y,** a continuación, haga clic en **Agregar.** Esto dará a los agentes de llamada el identificador de llamada de la línea principal cuando llamen.
+
+    ![Captura de pantalla de la configuración de id. de llamada](../media/call-queue-assign-calling-id.png)
+
 3. Elegir un idioma Este idioma se usará para los mensajes de voz generados por el sistema y la transcripción de correo de voz (si las habilita).
 
-    ![Captura de pantalla de la configuración de la cuenta de recursos y de idioma](../media/call-queue-name-language.png)
+    ![Captura de pantalla de la configuración de la cuenta de recursos](../media/call-queue-name-language.png)
 
 4. Especifique si quiere reproducir un saludo a los autores de llamadas cuando lleguen a la cola. Debe cargar un archivo MP3, WAV o WMA que contenga el saludo que desea reproducir.
 

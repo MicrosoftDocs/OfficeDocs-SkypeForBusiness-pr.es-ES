@@ -82,7 +82,7 @@ Para configurar un operador automático
 
 4. Especifique la zona horaria para este operador automático. La zona horaria se usa para calcular el horario laboral si crea un flujo de llamadas independiente para horas posteriores.
 
-5. Especifique un idioma para este operador automático. Este es el idioma que se usará para las solicitudes de voz generadas por el sistema.
+5. Especifique un [idioma compatible](../create-a-phone-system-auto-attendant-languages.md) para este operador automático. Este es el idioma que se usará para las solicitudes de voz generadas por el sistema. 
 
 6. Elija si desea habilitar las entradas de voz. Cuando se habilita, el nombre de cada opción de menú se convierte en una palabra clave de reconocimiento de voz. Por ejemplo, los autores de llamadas pueden decir "Uno" para seleccionar la opción de menú asignada a la tecla 1, o pueden decir "Ventas" para seleccionar la opción de menú denominada "Ventas".
 
@@ -122,7 +122,7 @@ Elegir las opciones de flujo de llamadas
     - **Persona de la organización:** una persona de su organización que puede recibir llamadas de voz.
     - **Aplicación de voz:** otro operador automático o una cola de llamadas.
     - **Número de teléfono externo:** cualquier número de teléfono. Use este formato: +[código de país][código de área][número de teléfono]
-    - **Correo de** voz: el buzón de voz asociado a Microsoft 365 grupo que especifique.
+    - **Correo de** voz: el buzón de voz asociado a Microsoft 365 grupo que especifique. Puede elegir si desea transcripciones de correo de voz y "Deje un mensaje después del tono". símbolo del sistema.
     - **Operador:** el operador definido para el operador automático. Definir un operador es opcional. El operador se puede definir como cualquiera de los otros destinos de esta lista.
 
     Se recomienda establecer 0 clave para el operador.

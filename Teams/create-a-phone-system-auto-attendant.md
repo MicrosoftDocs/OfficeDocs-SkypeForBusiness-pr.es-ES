@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: 52a9636a6a92656293e90d00563be16b500ee4ce
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: cc4d0de8fd1d6c643f23b6e8215f0f7a343b2a8f
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717871"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777811"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -43,17 +43,12 @@ Los operadores automáticos pueden dirigir las llamadas, según la entrada de lo
 - **Operador:** el operador definido para el operador automático. Definir un operador es opcional. El operador se puede definir como cualquiera de los otros destinos de esta lista.
 - **Persona de la organización:** una persona de su organización que puede recibir llamadas de voz. Esta persona puede ser un usuario en línea o un usuario hospedado localmente mediante Skype Empresarial Server.
 - **Aplicación de voz:** otro operador automático o una cola de llamadas. (Elija la cuenta de recursos asociada con el operador automático o la cola de llamadas al elegir este destino).
-- **Correo de** voz: el buzón de voz asociado a Microsoft 365 grupo que especifique.
+- **Correo de** voz: el buzón de voz asociado a Microsoft 365 grupo que especifique. Puede elegir si desea transcripciones de correo de voz y "Deje un mensaje después del tono". símbolo del sistema.
 - **Número de teléfono externo:** cualquier número de teléfono. (Vea [detalles técnicos de transferencia externa).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
 - **Anuncio (archivo de audio):** reproducir un archivo de audio. Un mensaje de anuncio grabado que carga que se guarda como audio en . WAV, .MP3 o . Formato WMA. La grabación no puede ser superior a 5 MB. El sistema reproduce el anuncio y, a continuación, vuelve al menú operador automático.
 - **Anuncio (con tipo):** escriba un mensaje. Texto que desea que lea el sistema. Puede escribir hasta 1000 caracteres. El sistema reproduce el anuncio y, a continuación, vuelve al menú operador automático.
 
 Se le pedirá que elija una de estas opciones en varias fases mientras configura un operador automático.
-
-> [!NOTE]
-> Al elegir correo de voz como destino, hay dos opciones adicionales disponibles:
-> - **Transcripción** (Predeterminada: Desactivado): cuando esté habilitado, el mensaje de correo de voz se transcribirá e incluirá como parte del correo electrónico.
-> - **Suprimir saludo** (predeterminado: desactivado): cuando está habilitado, el mensaje estándar del sistema "Deje un mensaje después del tono. Cuando haya terminado, cuelgue o presione la tecla hash para obtener más opciones". se suprimirá.
 
 Para configurar un operador automático, en el centro de administración de Teams, expanda Voz **,** seleccione **Operadores automáticos** y, a continuación, **seleccione Agregar**.
 

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
-ms.translationtype: HT
+ms.openlocfilehash: 2ce282df27a30f0741a7b95a5400fd5ba6d4e367
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865174"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739550"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 
@@ -54,12 +54,11 @@ Vea este vídeo breve para obtener más información sobre los procedimientos re
 
    > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
-<a name="membership-roles-and-settings"></a>Miembros, funciones y configuración
-------------------------------
+## <a name="membership-roles-and-settings"></a>Miembros, funciones y configuración
 
 **Membresía de equipo**
 
-Cuando Microsoft Teams se activa para toda la organización, los propietarios de equipo designados tienen la capacidad de invitar a cualquier empleado con el que trabajen para que se una al equipo. Con Microsoft Teams, los propietarios de equipo pueden agregar con facilidad personas de la organización por su nombre. En función de cuál sea la configuración de su organización, podrá agregar a sus equipos los invitados que sean miembros del equipo, pero que no pertenezcan a la organización. Vea [Acceso de invitado a Microsoft Teams](guest-access.md) para obtener más información. 
+Cuando Microsoft Teams se activa para toda la organización, los propietarios de equipo designados tienen la capacidad de invitar a cualquier empleado con el que trabajen para que se una al equipo. Con Microsoft Teams, los propietarios de equipo pueden agregar con facilidad personas de la organización por su nombre. Según la configuración de su organización, las personas de fuera de la organización se pueden agregar a sus equipos como invitados. Vea [Acceso de invitado a Microsoft Teams](guest-access.md) para obtener más información. 
 
 Los propietarios de equipos también pueden crear un equipo basado en un grupo de Microsoft 365 existente. Cualquier cambio que se realice en el grupo se sincronizarán con Microsoft Teams automáticamente. Al crear un equipo basado en un grupo existente de Microsoft 365, no solo se simplifica el proceso para invitar y administrar miembros, sino que también se sincronizan los archivos de grupo dentro de Microsoft Teams.
 
@@ -71,6 +70,9 @@ Hay dos roles principales en Microsoft Teams:
 - **Miembros del equipo**: son las personas a las que los propietarios invitaron para unirse a su equipo.
 
 Además, si se configura la moderación, los propietarios y miembros del equipo pueden tener funciones de moderador para un canal. Los moderadores pueden iniciar nuevas publicaciones en el canal y controlar si los miembros del equipo pueden responder a los mensajes de canal existentes. Los propietarios del equipo pueden asignar moderadores en un canal. (De forma predeterminada, los propietarios del equipo tienen funciones de moderador). Los moderadores de un canal pueden agregar o quitar otros moderadores de ese canal. Parara más información, consulte[Configurar y administrar la moderación de canales en Microsoft Teams](manage-channel-moderation-in-teams.md).
+
+> [!NOTE]
+> Al agregar un propietario del equipo, también se agregan como miembro, excepto cuando el equipo se crea en el centro de administración de Teams o cuando se agrega un equipo a un grupo de Microsoft 365 nuevo o existente.
 
 **Configuración del equipo** 
 
@@ -86,8 +88,7 @@ De manera predeterminada, todos los usuarios tienen permisos para crear un equip
 
 Una actividad clave de planificación inicial para animar a los usuarios a utilizar Microsoft Teams consiste en ayudarles a pensar y comprender el modo en que Teams puede mejorar la colaboración en sus actividades diarias. Hable con las personas y ayúdeles a seleccionar situaciones empresariales en las que estén colaborando en este momento de forma segmentada. Tráigalos a un canal con las fichas relevantes que les ayuden a realizar el trabajo que necesitan. Uno de los casos de uso más influyente de Teams es cualquier proceso organizativo. 
 
-<a name="example-teams"></a>Equipos de ejemplo
---------------
+## <a name="example-teams"></a>Equipos de ejemplo
 
 A continuación se muestran algunos ejemplos funcionales de cómo diferentes tipos de usuarios pueden enfocar la configuración de sus equipos, canales y aplicaciones (fichas/conectores/bots). Esto puede ser útil para ayudar a iniciar una conversación acerca de Microsoft Teams con la comunidad de usuarios. Al planear la implementación de Microsoft Teams en la organización, recuerde que puede proporcionar instrucciones sobre cómo estructurar sus equipos; sin embargo, los usuarios controlan cómo se pueden organizar automáticamente. Estos son solo ejemplos para empezar a ayudar a los equipos a pensar a través de las posibilidades.
 
@@ -100,7 +101,7 @@ Microsoft Teams es perfecta para eliminar la idea de los silos de la organizaci�
 |Planificación de eventos     |Marketing<br></br>Logística y planificación<br></br>Lugar<br></br>Budget         |Twitter<br></br>Facebook<br></br>Planner<br></br>PDF         |
 |Marketing/Comercialización   |Estudio de mercado<br></br>Pilares de mensajes<br></br>Plan de comunicaciones<br></br>Lista de materiales de marketing        |YouTube<br></br>Microsoft Stream<br></br>Twitter<br></br>MailChimp         |
 |Operaciones técnicas    |Administración de incidentes<br></br>Planificación de Sprint<br></br>Elementos de trabajo<br></br>Infraestructura y operaciones         |Servicios de equipos<br></br>Jira<br></br>AzureBot         |
-|Equipo de producto      |Estrategia<br></br>Marketing<br></br>Ventas<br></br>Operations<br></br>Información<br></br>Servicios y soporte técnico         |Power BI<br></br>Servicios de equipos         |
+|Equipo de producto      |Estrategia<br></br>Marketing<br></br>Ventas<br></br>Operaciones<br></br>Información<br></br>Servicios y soporte técnico         |Power BI<br></br>Servicios de equipos         |
 |Finanzas    |Fiscal actual<br></br>Planificación del año fiscal<br></br>Previsión<br></br>Cuentas por cobrar<br></br>Cuentas por pagar         |Power BI<br></br>Google Analytics         |
 |Logística     |Operaciones de almacenes<br></br>Mantenimiento de vehículos<br></br>Listas de conductores         |Servicio meteorológico<br></br>Cortes en carreteras y viajes<br></br>Planner<br></br>Tubot<br></br>UPS Bot         |
 |RR. HH.     |Administración de talento<br></br>Contratación<br></br>Planificación de revisión del rendimiento<br></br>Moral         |Herramientas de recursos humanos<br></br>Sitios de publicación de trabajos externos<br></br>Growbot         |

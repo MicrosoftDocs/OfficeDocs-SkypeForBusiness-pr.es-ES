@@ -14,19 +14,21 @@ search.appverid: MET150
 description: Este artículo describe las experiencias conectadas opcionales que verá en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 228a14c29d082037de1bbcd1f9f5ee45e3a35728
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 49b2cf94f660b7935ae61aadf21bdb9a7a78fb21
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094080"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777891"
 ---
 # <a name="overview-of-optional-connected-experiences-in-microsoft-teams"></a>Información general sobre las experiencias conectadas opcionales en Microsoft Teams
 
 Si tiene una cuenta profesional o educativa, el administrador de la organización puede haberle proporcionado la capacidad de utilizar uno o más servicios de respaldo en la nube (también denominados **experiencias conectadas opcionales**) al usar Microsoft Teams, como GIPHY y/o el servicio de vista previa de URL. Estos servicios de respaldo en la nube son opcionales. El uso de ellos dependerá de usted. Se le ofrecen bajo términos que difieren de los  [Términos del servicio en línea de Microsoft](https://www.microsoft.com/licensing/product-licensing/products), como se describe por separado para cada servicio opcional. Este artículo enumera nuestros servicios respaldados en la nube de Teams.
 
+Si su administrador le ha concedido la capacidad de usar experiencias conectadas opcionales en Teams, puede ir a **Configuración** > **Privacidad** en Teams y elegir si desea usar experiencias conectadas opcionales.
+
 > [!NOTE]
-> Si es un administrador, vea el artículo [Administrar controles de privacidad](/deployoffice/privacy/manage-privacy-controls) para obtener información sobre cómo conceder o restringir a los usuarios la capacidad de usar experiencias conectadas opcionales.
+> Si es administrador, puede conceder o restringir la capacidad de los usuarios para usar experiencias conectadas opcionales. Para hacerlo, puede usar el [Servicio de directivas de nube de Office](/deployoffice/overview-office-cloud-policy-service) y configurar la configuración de directiva *Permitir el uso de experiencias conectadas opcionales adicionales en Office*. 
 
 ## <a name="giphy"></a>GIPHY
 
@@ -42,8 +44,8 @@ El servicio de vista previa de URL genera automáticamente un fragmento de vista
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-- [Información general sobre los controles de privacidad de Aplicaciones de Microsoft 365 para empresas](/deployoffice/privacy/overview-privacy-controls)
 - [Información general sobre los controles de directiva para Teams](policy-control-overview.md)
 - [Privacidad y Microsoft Teams](teams-privacy.md)
+- [Información general sobre las experiencias conectadas opcionales en Office](/deployoffice/privacy/optional-connected-experiences)
 - [Datos de servicio requeridos para Office](/deployoffice/privacy/required-service-data)
 - [Configuración de privacidad de la cuenta](https://support.microsoft.com/office/3e7bc183-bf52-4fd0-8e6b-78978f7f121b)

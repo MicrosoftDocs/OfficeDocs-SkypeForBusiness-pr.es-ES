@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 73b0e0c6c73b86e544ade5a43756e2e80c60c25a
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: fe0c2863c627f728f5418cfeb9b7b17c91d246fa
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717881"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777931"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -60,17 +60,33 @@ Este vídeo muestra un ejemplo básico de cómo crear una cola de llamadas en Te
 
 Para configurar una cola de llamadas, en el centro de administración de Teams, expanda **Voz**, haga clic en **Llamar** y, después, haga clic en **Agregar**.
 
-### <a name="resource-account-and-language"></a>Cuenta de recursos e idioma
+Escriba un nombre descriptivo para la cola.
 
-![Captura de pantalla de la configuración de la cuenta de recursos y de idioma](media/call-queue-name-language.png)
+### <a name="resource-accounts"></a>Cuentas de recursos
 
-1. Escriba un nombre descriptivo para la cola.
+![Captura de pantalla de la configuración de la cuenta de recursos](media/call-queue-name-language.png)
 
-2. Haga clic en **Agregar cuentas**, busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar** y, después, haga clic en **Agregar**. (Los agentes verán el nombre de la cuenta de recurso cuando reciban una llamada entrante).
+Haga clic en **Agregar cuentas**, busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar** y, después, haga clic en **Agregar**. (Los agentes verán el nombre de la cuenta de recurso cuando reciban una llamada entrante).
 
-3. Elija un [idioma compatible.](create-a-phone-system-call-queue-languages.md) Este idioma se usará para los mensajes de voz generados por el sistema y la transcripción de correo de voz (si las habilita).
+### <a name="assign-calling-id"></a>Asignar id. de llamada
+
+![Captura de pantalla de la configuración de id. de llamada](media/call-queue-assign-calling-id.png)
+
+Si tiene previsto usar un canal Teams para los agentes de llamada, puede asignar un número de identificación de llamada saliente para los agentes especificando una o más cuentas de recursos con un número de teléfono.
+
+Haga **clic en** Agregar , busque las cuentas de recursos a las que desea permitir que los agentes llamen con fines de identificación al realizar llamadas salientes, haga clic en Agregar y, a continuación, haga clic en **Agregar.** 
+
+Si no usa un canal Teams para controlar la pertenencia al agente, considere la posibilidad de establecer directamente el identificador de llamada de los miembros de la cola de llamadas en el número de servicio de la cola de llamadas o en el operador automático adecuado. Consulte [administrar las directivas de identificador de llamada en Microsoft Teams](caller-id-policies.md) obtener más información.
+
+### <a name="language"></a>Idioma
+
+![Captura de pantalla de la configuración de idioma](media/call-queue-language.png)
+
+Elija un [idioma compatible.](create-a-phone-system-call-queue-languages.md) Este idioma se usará para los mensajes de voz generados por el sistema y la transcripción de correo de voz (si las habilita).
 
 ### <a name="greetings-and-music-on-hold-in-queue"></a>Saludos y música en espera en cola
+
+![Captura de pantalla de saludos y música en espera en la configuración de cola](media/call-queue-greetings-music.png)
 
 Especifique si quiere reproducir un saludo a los autores de llamadas cuando lleguen a la cola. Debe cargar un archivo MP3, WAV o WMA que contenga el saludo que desea reproducir.
 
@@ -136,10 +152,12 @@ Las cuentas de Teams de los agentes deben establecerse en modo solo Teams. Los a
 
 ![Captura de pantalla de configuración de enrutamiento, de baja y de hora de alerta](media/call-queue-presence-agents-time.png)
 
-
 **La red de enrutamiento basada en** usa el estado de disponibilidad de los agentes de llamada para determinar si un agente debe incluirse en la lista de enrutamiento de llamadas para el método de enrutamiento seleccionado. Los agentes de llamadas cuyo estado de disponibilidad está establecido en **Disponible** se incluyen en la lista de enrutamiento de llamadas y pueden recibir llamadas. Los agentes cuyo estado de disponibilidad se establezca en cualquier otro estado se excluyen de la lista de enrutamiento de llamadas y no recibirán llamadas hasta que el estado de disponibilidad vuelva a cambiar a **Disponible**. 
 
 Puede habilitar el enrutamiento de llamadas basado en presencia con cualquiera de los métodos de enrutamiento.
+
+> [!NOTE]
+> Cuando **el** modo inactivo más largo está seleccionado como método de enrutamiento, el enrutamiento basado  en presencia se requiere y se habilita automáticamente aunque el botón de alternancia de enrutamiento basado en presencia estará desactivado y atenuado.
 
 Si un agente opta por no recibir llamadas, no se incluirán en la lista de enrutamiento de llamadas independientemente de cómo esté configurado su estado de disponibilidad. 
 
@@ -178,10 +196,6 @@ Puede elegir desconectar la llamada o redirigirla a cualquiera de los destinos d
 Puede elegir desconectar la llamada o redirigirla a uno de los destinos de enrutamiento de llamadas. Por ejemplo, puede que el autor de llamada deje un correo de voz para los agentes en la cola. Para las transferencias externas, consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) [las transferencias de números de teléfono externos (los detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) el formato de los números).
 
 Cuando haya seleccionado las opciones del tiempo de espera de la llamada, haga clic **Guardar**.
-
-## <a name="caller-id-for-outbound-calls"></a>Identificador de llamada para llamadas salientes
-
-Como los agentes en una cola de llamadas pueden marcar para devolver una llamada de cliente, considere la posibilidad de configurar el identificador de llamada de los miembros de una cola de llamada al número de servicio de un operador automático adecuado. Consulte [administrar las directivas de identificador de llamada en Microsoft Teams](caller-id-policies.md) obtener más información.
 
 ## <a name="supported-clients"></a>Clientes compatibles
 

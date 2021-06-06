@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre operadores automáticos y colas de llamadas y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para llegar a personas o departamentos de su organización.
-ms.openlocfilehash: 1ccce8205afcf019fea539823c21e3a29a2fa206
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 51ab11603a957dad9748def3a1508de6e42577f5
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517753"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739640"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear Teams operadores automáticos y colas de llamadas
 
@@ -152,7 +152,7 @@ Cuando un operador automático o una cola de llamadas redirigen las llamadas, pu
 - **Persona de la organización:** una persona de su organización que puede recibir llamadas de voz. Puede ser un usuario en línea o un usuario hospedado localmente mediante Skype Empresarial Server.
 - **Aplicación de voz:** otro operador automático o una cola de llamadas. Elija la cuenta de recursos asociada al destino.
 - **Número de teléfono externo:** cualquier número de teléfono. (Vea [detalles técnicos de transferencia externa).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
-- **Correo de** voz: el buzón de voz asociado a Microsoft 365 grupo que especifique.
+- **Correo de** voz: el buzón de voz asociado a Microsoft 365 grupo que especifique. Puede elegir si desea transcripciones de correo de voz y "Deje un mensaje después del tono". símbolo del sistema.
 - **Operador** (solo operador automático): el operador definido para el operador automático. Definir un operador es opcional. Un operador puede ser cualquiera de los otros destinos de esta lista.
 
 Los operadores automáticos ofrecen opciones de enrutamiento de llamadas independientes para las llamadas recibidas fuera del horario laboral y en días festivos. El enrutamiento de llamadas después del horario laboral permite todas las opciones enumeradas anteriormente, mientras que el enrutamiento de llamadas navideñas solo permite redirigir o desconectar una llamada, pero no opciones de clave de marcado.

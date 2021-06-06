@@ -17,12 +17,12 @@ description: Obtenga información sobre las directivas de grabación de eventos 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9654c139433ffa764767e0a2140896eab52204b
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: 8d25f37f94a514b83bd37e44d1b022bac064a839
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513853"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739660"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Directivas de grabación de eventos en directo en Microsoft Teams
 
@@ -58,7 +58,7 @@ Como parte de la directiva de difusión, hay una configuración que puede activa
 
 | Opción                                       | Estado   | DVR                                                   | VOD                                                     | Grabación                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| Grabación disponible para productores y presentadores | Seleccionado     | DVR está disponible y el Azure Media Services (AMS) se almacena durante 180 días | Los asistentes pueden acceder al evento y verlo                     |                              |
+| Grabación disponible para los asistentes | Seleccionado     | DVR está disponible y el Azure Media Services (AMS) se almacena durante 180 días | Los asistentes pueden acceder al evento y verlo                     |                              |
 |                                                  | No seleccionado | DVR está disponible y el activo de AMS se almacena durante 180 días | Los asistentes no án acceso al evento una vez que se ha terminado |                              |
 ||Deshabilitado (no seleccionado)|DVR está disponible y el activo de AMS se elimina después del evento|Los asistentes no án acceso al evento una vez que se ha terminado||
 | Grabación disponible para productores y presentadores | Seleccionado     |                                                           |                                                             | Se crea y almacena un MP4 |
