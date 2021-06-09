@@ -832,7 +832,7 @@ items:
               - name: Cambiar el idioma predeterminado para el buzón de voz
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: Idiomas para saludos del buzón de voz y mensajes
-                href: languages-for-voicemail-greetings-and-messages-teams.md
+                href: languages-for-voicemail-greetings-and-messages.md
           - name: Id. de llamada
             items:
               - name: Cómo se puede usar el id. de llamada en la organización
