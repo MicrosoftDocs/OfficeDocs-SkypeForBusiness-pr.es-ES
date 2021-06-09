@@ -18,12 +18,12 @@ description: Obtenga información sobre cómo configurar los planes de llamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8de3dcbff637a80b871b0f758c8afcd6c7432212
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 46e9e206e82fdc535f115ab276e9cb67ba58d959
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718021"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796794"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -110,7 +110,7 @@ La configuración de red se usa para determinar la ubicación de un cliente Team
 La configuración de red incluye sitios que incluyen una colección de subredes y que se usan exclusivamente para la asignación dinámica de directivas a los usuarios. Por ejemplo, una directiva de llamadas de emergencia y una directiva de enrutamiento de llamadas de emergencia se pueden asignar al "sitio de Redmond" para que cualquier usuario que desista de casa u otra ubicación de Microsoft esté configurado con números de emergencia, enrutamiento y escritorio de seguridad específicos de Redmond.  
 
 >[!Note]
->Las subredes también se pueden definir en LIS y se pueden asociar a una ubicación de emergencia.  
+>Las subredes también se pueden definir en LIS y se pueden asociar a una ubicación de emergencia.  Las subredes LIS deben definirse mediante el id. de red que coincida con el rango IP de subred asignado a los clientes. Por ejemplo, el id. de red de un IP/máscara de cliente de 10.10.10.150/25 es **10.10.10.128.** Para obtener más información, vea Comprender los conceptos básicos de [direccionamiento TCP/IP y subred.](https://docs.microsoft.com/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
 
 Tenga en cuenta las siguientes definiciones. Para obtener más información, vea [Configuración de red para las características de voz en la nube.](cloud-voice-network-settings.md)
 

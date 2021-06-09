@@ -1,7 +1,7 @@
 ---
 title: Consideraciones RTC al actualizar a Teams desde Skype Empresarial
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d2a33b408ffbb4154ce6e872ae9e1e9bb48dd67
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f4024e62c90ef99f3280d5aec15cd718b3d2b6de
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240510"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796824"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>Consideraciones RTC para actualizar a Teams desde Skype Empresarial local
 
@@ -38,7 +38,9 @@ Además, en los artículos siguientes se describen conceptos de actualización i
 
 
  > [!NOTE]
- > - El Sistema telefónico con Teams solo es compatible cuando el usuario está en modo TeamsOnly.  Si el usuario está en modo Islas, Sistema telefónico solo es compatible con Skype Empresarial. 
+ > - Usar Sistema telefónico con Teams solo es compatible cuando se asigna a la cuenta del usuario una Teams de actualización con Teams solo.  
+ > - Usar Sistema telefónico con Skype Empresarial solo es compatible cuando se asigna a la cuenta del usuario una Teams de actualización con un modo SfB. 
+ > - Sistema telefónico no se admite cuando se asigna a la cuenta del usuario una directiva de Teams de actualización con el modo Islas.
  > - Cualquier configuración de reenvío de llamadas, grupo de llamada de equipo y delegación de Skype Empresarial no se migra y tendrá que volver a crearse para Teams.
  > - Para obtener información general sobre Microsoft Teams de voz en la nube y ayudar a decidir qué solución de voz de Microsoft es adecuada para su organización, vea Planear su solución de voz Teams [de voz.](cloud-voice-landing-page.md)
 

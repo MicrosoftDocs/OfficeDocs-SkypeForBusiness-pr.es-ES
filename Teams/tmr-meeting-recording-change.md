@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c92f4d0bf3e72f79687fa151567052934b49ba55
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: f204869bf068350bdc49801654f84856f32a44a0
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491797"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796634"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -153,7 +153,6 @@ Dado que los vídeos son iguales que cualquier otro archivo de OneDrive para la 
 
 > [!NOTE]
 > No recibirá un correo electrónico cuando la grabación termine de guardarse, pero la grabación aparecerá en el chat de la reunión una vez que haya terminado. Esto ocurrirá mucho más rápido que en Stream anteriormente.
-> Puede controlar con quién comparte la grabación, pero no podrá bloquear que las personas con acceso compartido descarguen la grabación.  
 
 **¿Cómo puedo administrar los subtítulos?**
 

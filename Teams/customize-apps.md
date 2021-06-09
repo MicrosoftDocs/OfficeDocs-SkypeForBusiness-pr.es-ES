@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo personalizar aplicaciones en Microsoft Teams.
-ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 6ef38c613151ece58591cf395add35276cb55c03
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684597"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796864"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicaciones en Microsoft Teams
 
@@ -111,6 +111,7 @@ La siguiente nota incluye detalles importantes sobre cómo personalizar una apli
 > - Los datos de personalización proporcionados por el administrador se almacenan en la región más cercana.
 > - Usted es responsable de garantizar que los vínculos a términos de uso o a la política de privacidad sean válidos.
 > - En caso de que el editor de aplicaciones ya no permita que se pueda personalizar un campo, aparecerá un mensaje en la página de detalles de la aplicación en el que se notificará al administrador sobre los campos que ya no se pueden personalizar. Todos los cambios realizados en ese campo se revertirán a los valores originales.
+> - Se recomienda probar los cambios de personalización de aplicaciones Teams inquilino de prueba antes de realizar estos cambios en el entorno de producción.
 > - Los cambios en la personal de marca pueden requerir hasta 24 horas para que los usuarios vean los cambios.
 
 ## <a name="review-app-details"></a>Revisar detalles de la aplicación

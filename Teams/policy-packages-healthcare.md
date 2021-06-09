@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización sanitaria.
-ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: 19c0fee14138b248c4e25d88a9103df4a5618598
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117768"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796814"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Paquetes de directivas de Teams para sanidad
 
@@ -86,6 +86,9 @@ Tenga en cuenta que también puede cambiar la configuración de las directivas e
 
 Asigne el paquete de directiva a los usuarios. Si un usuario tiene asignada una directiva y, después, asigna otra directiva, la asignación más reciente tendrá prioridad.
 
+> [!NOTE]
+> Cada usuario necesitará el complemento Comunicaciones avanzadas para recibir una asignación de paquete de directiva personalizada. Para obtener más información, vea [Complemento comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Asignar un paquete de directivas a uno o más usuarios
 
 Para asignar un paquete de directivas a uno o más usuarios, vaya al panel de navegación izquierdo del Centro de administración de Microsoft Teams. Allí, seleccione **Paquetes de directivas** y, después, **Administrar usuarios**.  
@@ -114,4 +117,4 @@ Un lote puede contener hasta 5000 usuarios. Puede especificar los usuarios por s
 
 [Administrar los paquetes de directivas para Teams](manage-policy-packages.md)
 
-[Asignar directivas a los usuarios en Teams](assign-policies.md)
+[Asignar paquetes de directiva a usuarios y grupos](assign-policy-packages.md)

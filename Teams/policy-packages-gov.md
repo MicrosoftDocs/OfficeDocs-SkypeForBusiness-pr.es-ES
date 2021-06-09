@@ -1,5 +1,5 @@
 ---
-title: Paquetes de directivas de Teams para el gobierno
+title: Teams paquetes de directivas para el gobierno
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,18 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización gubernamental.
-ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Obtenga información sobre cómo usar y administrar Teams paquetes de directivas para su organización gubernamental.
+ms.openlocfilehash: 41ae937323b37948c03128efd565f40c02bbd6a2
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117778"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796874"
 ---
-# <a name="teams-policy-packages-for-government"></a>Paquetes de directivas de Teams para el gobierno
+# <a name="teams-policy-packages-for-government"></a>Teams paquetes de directivas para el gobierno
 
 > [!NOTE]
-> Actualmente, los paquetes de directivas no están disponibles en implementaciones de Microsoft 365 Government GCC High o DoD.
+> Los paquetes de directivas no están disponibles actualmente en Microsoft 365 de administración pública GCC implementaciones de Alto o DoD.
 
 ## <a name="overview"></a>Información general
 
@@ -71,7 +71,10 @@ Tenga en cuenta que también puede cambiar la configuración de las directivas e
 
 ### <a name="assign"></a>Asignar
 
-Asigne el paquete de directivas a los usuarios. Si un usuario tiene una directiva asignada y posteriormente asigna otra directiva, la asignación más reciente tendrá prioridad.
+Asigne el paquete de directiva a los usuarios. Si un usuario tiene asignada una directiva y, después, asigna otra directiva, la asignación más reciente tendrá prioridad.
+
+> [!NOTE]
+> Cada usuario necesitará el complemento Comunicaciones avanzadas para recibir una asignación de paquete de directiva personalizada. Para obtener más información, vea [Complemento comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Asignar un paquete de directivas a uno o más usuarios
 
@@ -101,4 +104,4 @@ Un lote puede contener hasta 5000 usuarios. Puede especificar los usuarios por s
 
 [Administrar los paquetes de directivas para Teams](manage-policy-packages.md)
 
-[Asignar directivas a los usuarios en Teams](assign-policies.md)
+[Asignar paquetes de directiva a usuarios y grupos](assign-policy-packages.md)

@@ -14,36 +14,36 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams con Exchange Online y Skype Empresarial Server local.
-ms.openlocfilehash: 5e3446349be8aaef666c02c73370758027736181
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Lea este tema para obtener información sobre cómo implementar Salas de Microsoft Teams con Exchange Online y Skype Empresarial Server locales.
+ms.openlocfilehash: 2f92f85ddf39c5e1a813492b3092eeeef9b77e4c
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117348"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796684"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implementar Salas de Microsoft Teams con Exchange Online
 
-Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams con Exchange Online y Skype Empresarial Server local.
+Lea este tema para obtener información sobre cómo implementar Salas de Microsoft Teams con Exchange Online y Skype Empresarial Server locales.
   
-Si su organización tiene una combinación de servicios, con algunos hospedados localmente y otros hospedados en línea, la configuración dependerá de dónde se hospeda cada servicio. En este tema se tratan las implementaciones híbridas para salas de Microsoft Teams con Exchange hospedado en línea. Dado que hay muchas variaciones diferentes en este tipo de implementación, no es posible proporcionar instrucciones detalladas para todas ellas. El siguiente proceso funcionará para muchas configuraciones. Si el proceso no es adecuado para su configuración, le recomendamos que use Windows PowerShell para lograr el mismo resultado final que se documenta aquí y para otras opciones de implementación.
+Si su organización tiene una combinación de servicios, con algunos hospedados localmente y otros hospedados en línea, la configuración dependerá de dónde se hospeda cada servicio. En este tema se tratan las implementaciones híbridas para Salas de Microsoft Teams con Exchange en línea. Dado que hay muchas variaciones diferentes en este tipo de implementación, no es posible proporcionar instrucciones detalladas para todas ellas. El siguiente proceso funcionará para muchas configuraciones. Si el proceso no es adecuado para su configuración, le recomendamos que use Windows PowerShell para lograr el mismo resultado final que se documenta aquí y para otras opciones de implementación.
 
-La forma más sencilla de configurar las cuentas de usuario es configurarlas mediante la configuración Windows PowerShell. Microsoft proporciona [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script que ayudará a crear nuevas cuentas de usuario o validar las cuentas de recursos existentes que tiene para ayudarle a convertirlas en cuentas de usuario compatibles de Salas de Microsoft Teams. Si lo prefiere, puede seguir los pasos que se indican a continuación para configurar las cuentas que usará el dispositivo Salas de Microsoft Teams.
+La forma más sencilla de configurar las cuentas de usuario es configurarlas mediante el uso de Windows PowerShell. Microsoft proporciona [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script que le ayudará a crear nuevas cuentas de usuario o validar las cuentas de recursos existentes que tiene para ayudarle a convertirlas en cuentas de usuario Salas de Microsoft Teams compatibles. Si lo prefiere, puede seguir los pasos que se indican a continuación para configurar las cuentas que Salas de Microsoft Teams dispositivo usará.
 
 ## <a name="requirements"></a>Requirements
 
-Antes de implementar Salas de Microsoft Teams con Exchange Online, asegúrese de que ha cumplido los requisitos. Para obtener más información, vea [Requisitos de salas de Microsoft Teams.](requirements.md)
+Antes de implementar Salas de Microsoft Teams con Exchange Online, asegúrese de que ha cumplido los requisitos. Para obtener más información, [vea Salas de Microsoft Teams requisitos.](requirements.md)
   
-Para implementar Salas de Microsoft Teams con Exchange Online, siga los pasos que se indican a continuación. Asegúrese de tener los permisos necesarios para ejecutar los cmdlets asociados. 
+Para implementar Salas de Microsoft Teams con Exchange Online, siga los pasos siguientes. Asegúrese de tener los permisos necesarios para ejecutar los cmdlets asociados. 
 
    > [!NOTE]
-   >  El módulo Azure Active Directory para [Windows PowerShell cmdlets](/powershell/azure/active-directory/overview?view=azureadps-1.0) de esta sección (por ejemplo, Set-MsolUser) se ha probado al configurar cuentas para dispositivos de Salas de Microsoft Teams. Es posible que otros cmdlets funcionen, pero no se han probado en este escenario específico.
+   >  El Azure Active Directory de Windows PowerShell [cmdlets](/powershell/azure/active-directory/overview?view=azureadps-1.0) de esta sección (por ejemplo, Set-MsolUser) se ha probado al configurar cuentas para Salas de Microsoft Teams dispositivos. Es posible que otros cmdlets funcionen, pero no se han probado en este escenario específico.
 
 Si implementó servicios de federación de Active Directory (AD FS), es posible que tenga que convertir la cuenta de usuario en un usuario administrado antes de seguir estos pasos y, después, convertir el usuario de nuevo en un usuario federado después de completar estos pasos.
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>Crear una cuenta y configurar las propiedades de Exchange
 
-1. Inicie una sesión Windows PowerShell sesión remota en un equipo PC y conéctese a Exchange Online de la siguiente manera:
+1. Inicie una sesión Windows PowerShell sesión remota en un equipo y conéctese a Exchange Online siguiente:
 
     ``` Powershell
     Set-ExecutionPolicy Unrestricted
@@ -67,7 +67,7 @@ Si implementó servicios de federación de Active Directory (AD FS), es posible 
    New-Mailbox -MicrosoftOnlineServicesID 'PROJECT01@contoso.com' -Alias PROJECT01 -Name "Project--01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. Para mejorar la experiencia de la reunión, deberá establecer las propiedades de Exchange en la cuenta de usuario de la siguiente manera:
+3. Para mejorar la experiencia de la reunión, deberá establecer las Exchange en la cuenta de usuario de la siguiente manera:
 
    ``` Powershell
    Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
@@ -81,12 +81,12 @@ Si implementó servicios de federación de Active Directory (AD FS), es posible 
 3. Escriba la contraseña de la cuenta. Tendrá que volver a escribirla para verificarla. Asegúrese de que la casilla **La contraseña nunca expira** sea la única opción activada.
 
     > [!NOTE]
-    > Seleccionar contraseña **nunca expira es** un requisito para Skype Empresarial Server en salas de Microsoft Teams. Es posible que las reglas de dominio prohíban las contraseñas que no expiran. Si es así, deberá crear una excepción para cada cuenta de usuario de Microsoft Teams Rooms.
+    > Seleccionar **Contraseña nunca expira es** un requisito para Skype Empresarial Server en Salas de Microsoft Teams. Es posible que las reglas de dominio prohíban las contraseñas que no expiran. Si es así, deberá crear una excepción para cada cuenta Salas de Microsoft Teams usuario.
   
 4. Haga clic en **Finalizar** para crear la cuenta.
 5. Después de crear la cuenta, ejecute una sincronización de directorios. Esto se puede lograr mediante [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) en PowerShell. Cuando se complete, vaya a la página de usuarios y compruebe que las dos cuentas creadas en los pasos anteriores se han combinado.
 
-### <a name="assign-a-microsoft-365-or-office-365-license"></a>Asignar una licencia de Microsoft 365 u Office 365
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>Asignar una Microsoft 365 o Office 365 licencia
 
 1. En primer lugar, conéctese a Azure AD para aplicar algunas opciones de configuración de la cuenta. Puede ejecutar este cmdlet para conectarse. Para obtener más información sobre Active Directory, vea [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
@@ -100,8 +100,8 @@ Si implementó servicios de federación de Active Directory (AD FS), es posible 
      Connect-AzureAD -Credential $cred
      ``` -->
 
-2. La cuenta de usuario debe tener una licencia válida de Microsoft 365 u Office 365 para asegurarse de que Exchange y Skype Empresarial Server funcionen. Si tiene la licencia, debe asignar una ubicación de uso a su cuenta de usuario, esto determina qué SKU de licencia están disponibles para su cuenta. Hará la tarea en un paso siguiente.
-3. A continuación, use `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> para recuperar una lista de SKU disponibles para su organización de Microsoft 365 u Office 365.
+2. La cuenta de usuario debe tener una licencia Microsoft 365 o Office 365 para asegurarse de que Exchange y Skype Empresarial Server funcionarán. Si tiene la licencia, debe asignar una ubicación de uso a su cuenta de usuario, esto determina qué SKU de licencia están disponibles para su cuenta. Hará la tarea en un paso siguiente.
+3. A continuación, use `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> para recuperar una lista de SKU disponibles para su Microsoft 365 o Office 365 organización.
 4. Una vez que haya listado las SKU, puede agregar una licencia con el `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. En este caso, $strLicense es el código de SKU que ve (por ejemplo, contoso:STANDARDPACK). 
 
     ```PowerShell
@@ -117,12 +117,15 @@ Si implementó servicios de federación de Active Directory (AD FS), es posible 
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>Habilitar la cuenta de usuario con Skype Empresarial Server
 
-1. Cree una sesión Windows PowerShell remota desde un equipo como se muestra a continuación:
+> [!NOTE]
+> Si está configurando Salas de Teams para unirse Microsoft Teams reuniones, no es necesario que realice los pasos siguientes. Los pasos siguientes solo son necesarios si desea habilitar la compatibilidad con Skype Empresarial.
+
+1. Cree una sesión de Windows PowerShell remoto desde un equipo como se muestra a continuación:
 
 > [!NOTE]
 > El conector en línea del cliente de Skype® Empresarial actualmente forma parte del módulo más reciente de Windows PowerShell de Teams.
 >
-> Si usa la última versión pública de PowerShell de [Teams,](https://www.powershellgallery.com/packages/MicrosoftTeams/)no es necesario instalar Skype Empresarial Online Connector.
+> Si usa la versión pública más [reciente Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)no es necesario instalar el Skype Empresarial Online Connector.
 
     ``` Powershell
     # When using Teams PowerShell Module
@@ -131,38 +134,41 @@ Si implementó servicios de federación de Active Directory (AD FS), es posible 
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-2. Para habilitar su cuenta de Salas de Microsoft Teams para Skype Empresarial Server, ejecute este comando:
+2. Para habilitar su Salas de Microsoft Teams de Skype Empresarial Server, ejecute este comando:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-    Si no está seguro de qué valor usar para el parámetro RegistrarPool en su entorno, puede obtener el valor de un usuario existente de Skype Empresarial Server con este comando
+    Si no está seguro de qué valor usar para el parámetro RegistrarPool en su entorno, puede obtener el valor de un usuario Skype Empresarial Server existente con este comando
 
    ``` Powershell
    Get-CsUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Asignar una licencia de Skype Empresarial Server a su cuenta de Salas de Microsoft Teams
-
-1. Inicie sesión como administrador de inquilinos, abra el Centro de administración de Microsoft 365 y haga clic en la aplicación Administrador.
-2. Haga clic en **Usuarios y grupos** y después haga clic en **Agregar usuarios, restablecer contraseñas, y más**.
-3. Haga clic en la cuenta Salas de Microsoft Teams y, a continuación, haga clic en el icono del lápiz para editar la información de la cuenta.
-4. Haga clic en **Licencias**.
-5. En **Asignar licencias**, seleccione Skype Empresarial (plan 2) o Skype Empresarial (plan 3), según sus requisitos de licencia y de telefonía IP empresarial. Tendrá que usar una licencia de Plan 3 si desea usar Telefonía IP empresarial microsoft Teams Rooms.
-6. Haga clic en **Guardar**.
-
-Para la validación, debería poder usar cualquier cliente de Skype Empresarial para iniciar sesión en esta cuenta.
+### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Asignar una Skype Empresarial Server a su Salas de Microsoft Teams cuenta
 
 > [!NOTE]
-> Si actualmente usa SKU de E1, E3, E4 o E5 con Skype Empresarial Plan 2 con audioconferencias o con sistema telefónico y un plan de llamadas, estas seguirán funcionando. Sin embargo, debería considerar la posibilidad de cambiar a un modelo de licencias más sencillo, como se describe en Actualización de licencias de salas de reuniones de [Teams,](rooms-licensing.md)después de que expiren las licencias actuales.
+> Si está configurando Salas de Teams para unirse Microsoft Teams reuniones, no es necesario que realice los pasos siguientes. Los pasos siguientes solo son necesarios si desea habilitar la compatibilidad con Skype Empresarial.
+
+1. Inicie sesión como administrador de inquilinos, abra el Microsoft 365 de administración y haga clic en la aplicación Administrador.
+2. Haga clic en **Usuarios y grupos** y después haga clic en **Agregar usuarios, restablecer contraseñas, y más**.
+3. Haga clic en Salas de Microsoft Teams cuenta y, a continuación, haga clic en el icono del lápiz para editar la información de la cuenta.
+4. Haga clic en **Licencias**.
+5. En **Asignar licencias**, seleccione Skype Empresarial (plan 2) o Skype Empresarial (plan 3), según sus requisitos de licencia y de telefonía IP empresarial. Tendrá que usar una licencia de Plan 3 si desea usar Telefonía IP empresarial en Salas de Microsoft Teams.
+6. Haga clic en **Guardar**.
+
+Para la validación, debería poder usar cualquier Skype Empresarial cliente para iniciar sesión en esta cuenta.
+
+> [!NOTE]
+> Si actualmente usa SKU de E1, E3, E4 o E Skype Empresarial 5 con un plan 2 con audioconferencias o con Sistema telefónico y un plan de llamadas, estos seguirán funcionando. Sin embargo, debería considerar la posibilidad de cambiar a un modelo de licencias más sencillo, como se describe [en Teams Sala de reuniones actualización](rooms-licensing.md)de licencias, después de que expiren las licencias actuales.
 
 > [!IMPORTANT]
-> Si usa Skype Empresarial Plan 2, solo puede usar las salas de Microsoft Teams en el modo solo para Skype Empresarial, lo que significa que todas las reuniones serán reuniones de Skype Empresarial. Para habilitar la sala de reuniones para reuniones de Microsoft Teams, le recomendamos que compre la licencia de la sala de reuniones.
+> Si usa Skype Empresarial Plan 2, solo puede usar el Salas de Microsoft Teams en el modo solo Skype Empresarial, lo que significa que todas las reuniones se Skype Empresarial reuniones. Para habilitar la sala de reuniones Microsoft Teams reuniones, le recomendamos que compre la licencia Sala de reuniones reunión.
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Configurar cuentas para salas de Microsoft Teams](rooms-configure-accounts.md)
+[Configurar cuentas para Salas de Microsoft Teams](rooms-configure-accounts.md)
 
 [Plan para Salas de Microsoft Teams](rooms-plan.md)
   
