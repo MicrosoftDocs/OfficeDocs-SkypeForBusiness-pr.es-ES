@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Obtenga información sobre las directivas de llamadas y voz de Teams.
+description: Obtenga información sobre Teams de llamadas y llamadas.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -22,19 +22,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 03/05/2021
 ms.locfileid: "50460590"
 ---
-# <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Administrar directivas de llamadas y voz en Microsoft Teams
+# <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Administrar directivas de llamadas y llamadas en Microsoft Teams
 
-Las directivas de llamadas y voz se usan para controlar la voz y las llamadas en Microsoft Teams.
+Las directivas de voz y llamadas se usan para controlar la voz y las llamadas en Microsoft Teams.
 
 ## <a name="emergency-calling-policies"></a>Directivas de llamadas de emergencia
 
-Use directivas [de llamadas de emergencia](manage-emergency-calling-policies.md) para configurar lo que ocurre cuando un usuario de su organización realiza una llamada de emergencia. Estas directivas se administran en el Centro de administración de Teams o mediante Windows PowerShell.
+Use directivas [de llamadas de emergencia](manage-emergency-calling-policies.md) para configurar lo que ocurre cuando un usuario de su organización realiza una llamada de emergencia. Estas directivas se administran en el Teams de administración o mediante Windows PowerShell.
 
 ![Captura de pantalla de la directiva de llamadas de emergencia.](media/emergency-calling-policy2.png)
 
 ## <a name="emergency-call-routing-policies"></a>Directivas de enrutamiento de llamadas de emergencia
 
-Si su organización ha implementado enrutamiento directo [](manage-emergency-call-routing-policies.md) del sistema **telefónico,** puede usar directivas de enrutamiento de llamadas de emergencia para determinar dónde se enruten las llamadas de emergencia, si los servicios de emergencia mejorados están habilitados y qué números se usan para los servicios de emergencia. Estas directivas se administran con PowerShell o en el Centro de administración de Microsoft Teams.
+Si su organización ha implementado **Sistema telefónico** enrutamiento directo, puede usar directivas de enrutamiento de llamadas de emergencia para determinar dónde se enruten las llamadas de emergencia, si los servicios de emergencia mejorados están habilitados y qué números se usan para los servicios de emergencia. [](manage-emergency-call-routing-policies.md) Estas directivas se administran con PowerShell o en el centro Microsoft Teams administración.
 
 ![Captura de pantalla de la directiva de enrutamiento de llamadas de emergencia.](media/emergency-call-routing-policy.png)
 
@@ -46,7 +46,7 @@ Si su organización ha implementado enrutamiento directo [](manage-emergency-cal
 
 ## <a name="voice-routing-policies"></a>Directivas de enrutamiento de voz
 
-Una [directiva de enrutamiento de](manage-voice-routing-policies.md) voz es un contenedor para los registros de uso de red telefónica conmutada (RTC). Puede usar estas directivas si su organización ha implementado **enrutamiento directo del sistema telefónico.** Las directivas de enrutamiento de voz se pueden administrar con PowerShell o en el Centro de administración de Teams.
+Una [directiva de enrutamiento de](manage-voice-routing-policies.md) voz es un contenedor para los registros de uso de red telefónica conmutada (RTC). Puede usar estas directivas si su organización ha implementado **Sistema telefónico enrutamiento directo.** Las directivas de enrutamiento de voz se pueden administrar con PowerShell o en el Teams de administración.
 
 ![Captura de pantalla de la directiva de enrutamiento de voz.](media/voice-routing-policy.png)
 
@@ -64,7 +64,7 @@ Una [directiva de enrutamiento de](manage-voice-routing-policies.md) voz es un c
 
 ## <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
-[Los planes de marcado](create-and-manage-dial-plans.md) traducen los números de teléfono marcados para la autorización de llamadas y el enrutamiento. Puede crear y administrar planes de marcado a través de PowerShell o en el Centro de administración de Microsoft Teams.
+[Los planes de marcado](create-and-manage-dial-plans.md) traducen los números de teléfono marcados para la autorización de llamadas y el enrutamiento. Puede crear y administrar planes de marcado a través de PowerShell o en el Microsoft Teams de administración.
 
 ![Captura de pantalla del plan de marcado.](media/dial-plans.png)
 

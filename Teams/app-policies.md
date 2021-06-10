@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Obtenga información sobre las directivas de aplicación de Teams.
+description: Obtenga información sobre Teams de aplicaciones.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -28,19 +28,19 @@ Las directivas de aplicación se usan para controlar las aplicaciones en Microso
 
 ## <a name="app-permission-policies"></a>Directivas de permisos de aplicación
 
-**Las directivas de permisos de** aplicación se usan para controlar qué aplicaciones están disponibles para los usuarios. Como administrador, puede permitir o bloquear aplicaciones específicas que los usuarios instalen desde la tienda de aplicaciones de Teams. [Las directivas de permisos de](teams-app-permission-policies.md) aplicaciones se administran a través del Centro de administración de Microsoft Teams.
+**Las directivas de permisos de** aplicación se usan para controlar qué aplicaciones están disponibles para los usuarios. Como administrador, puede permitir o bloquear aplicaciones específicas que los usuarios instalan desde la Teams de aplicaciones. [Las directivas de permisos de](teams-app-permission-policies.md) aplicación se administran a través Microsoft Teams de administración.
 
 ![Captura de pantalla de la directiva de permisos de la aplicación.](media/app-permission-policy.png)
 
 ## <a name="app-setup-policies"></a>Directivas de configuración de aplicaciones
 
-**Las directivas de configuración de** aplicaciones le permiten anclar e instalar aplicaciones en nombre de los usuarios y controlar esta configuración para su organización. [Las directivas de configuración de](teams-app-setup-policies.md) aplicaciones se administran en el Centro de administración de Teams.
+**Las directivas de configuración de** aplicaciones le permiten anclar e instalar aplicaciones en nombre de los usuarios y controlar esta configuración para su organización. [Las directivas de configuración de](teams-app-setup-policies.md) aplicaciones se administran en Teams de administración.
 
-![Captura de pantalla de la directiva de configuración de aplicaciones en el Centro de administración de Teams.](media/app-setup-policy.png)
+![Captura de pantalla de la directiva de configuración de la aplicación Teams centro de administración.](media/app-setup-policy.png)
 
 ## <a name="custom-app-policies"></a>Directivas de aplicaciones personalizadas
 
-Puede controlar quién puede cargar aplicaciones personalizadas en Teams con **directivas de aplicación personalizadas.** [Las directivas y la configuración de aplicaciones](teams-custom-app-policies-and-settings.md) personalizadas se administran a través del Centro de administración de Microsoft Teams.
+Puede controlar quién puede cargar aplicaciones personalizadas a Teams con **directivas de aplicación personalizadas.** [Las directivas y la configuración](teams-custom-app-policies-and-settings.md) de aplicaciones personalizadas se administran a través Microsoft Teams de administración.
 
 ![Captura de pantalla de la directiva de aplicación personalizada.](media/custom-app-policy.png)
 

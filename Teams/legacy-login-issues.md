@@ -27,7 +27,7 @@ ms.locfileid: "51120611"
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problemas al recibir mensajes y llamadas en sistemas heredados
 ==============================================================
 
-Es posible que los usuarios tengan problemas para recibir mensajes o llamadas si usan versiones anteriores de Teams o han iniciado sesión con otras aplicaciones.
+Los usuarios pueden tener problemas para recibir mensajes o llamadas si usan versiones anteriores de Teams o han iniciado sesión con otras aplicaciones.
 
 ## <a name="legacy-adu-setups"></a>Configuraciones de ADU heredadas
 
@@ -40,9 +40,9 @@ Es posible que los usuarios tengan problemas para recibir mensajes o llamadas si
 > [!NOTE]
 > La opción para omitir o ignorar el rellenado previo para los nombres de usuario que terminan en ".local" o ".corp" está activada de forma predeterminada, por lo que no es necesario establecer una clave del registro para desactivarlos.
 
-Vea [Iniciar sesión en Microsoft Teams con autenticación moderna](sign-in-teams.md) para obtener más información.
+Vea [Iniciar sesión para Microsoft Teams la autenticación moderna](sign-in-teams.md) para obtener más información.
 
-## <a name="skype-token-revocation"></a>Revocación de tokens de Skype
+## <a name="skype-token-revocation"></a>Skype revocación de tokens
 
 Al cambiar o restablecer una contraseña, los clientes antiguos no recibirán mensajes y llamadas durante un máximo de una hora. Para resolver este problema, reinicie la aplicación o pase a clientes más recientes.
 

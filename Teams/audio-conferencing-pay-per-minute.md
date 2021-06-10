@@ -55,14 +55,14 @@ Mientras que la oferta de licencia de Audioconferencia por usuario incluye el us
 > Puede encontrar las tarifas de acceso telefónico local y de acceso  telefónico local asociadas a este tipo de llamadas revisando la sección Ver tarifas para dónde desea llamar en [Audioconferencia.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
   
   
-El pago por minuto requiere que su organización tenga configurados los [créditos de](what-are-communications-credits.md) comunicaciones. Si desea obtener más información, vea [Configurar créditos de comunicaciones](set-up-communications-credits-for-your-organization.md) para su organización o licencias de complementos [de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+El pago por minuto requiere que su organización tenga configurados los [créditos de](what-are-communications-credits.md) comunicaciones. Si desea obtener más información, vea Configurar créditos [de](set-up-communications-credits-for-your-organization.md) comunicaciones para su organización o Microsoft Teams [de complementos.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
   
-Para habilitar las audioconferencias de pago por minuto para los usuarios de su organización, vea Probar o comprar conferencias de audio en [Microsoft Office 365 u Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+Para habilitar las audioconferencias de pago por minuto para los usuarios de su [organización,](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)vea Probar o comprar conferencias de audio en Microsoft Office 365 o Office 365 .
 
 ## <a name="why-is-it-best-for-you"></a>¿Por qué es mejor para ti?
 
-- El pago por minuto solo se cobrará por minuto por cada llamada entrante o saliente realizada por cada asistente durante una reunión programada (las tarifas varían para llamadas gratuitas o de pago y por destino) en lugar de usar la aplicación Skype Empresarial o Teams en un dispositivo móvil o PC.
+- El pago por minuto solo se cobrará por minuto por cada llamada entrante o saliente realizada por cada asistente durante una reunión programada (las tarifas varían para llamadas gratuitas o de pago y por destino) en lugar de usar una aplicación Skype Empresarial o Teams en un dispositivo móvil o PC.
 
 - Capacidad para administrar los costos, ya que los administradores pueden controlar para restringir los tipos de llamadas (internacionales y nacionales) que se pueden realizar desde las reuniones de un organizador. Consulte [Directivas de restricción de llamadas salientes para audioconferencias y llamadas RTC de usuario](./outbound-calling-restriction-policies.md)
 

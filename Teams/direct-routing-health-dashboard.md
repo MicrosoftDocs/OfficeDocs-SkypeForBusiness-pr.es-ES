@@ -32,7 +32,7 @@ Panel de estado supervisa dos niveles de información:
 - Estado general de los SBC conectados
 - Información detallada sobre los SBC conectados
 
-Puede ver el Panel de estado en Microsoft Teams y en el Centro de administración de Skype Empresarial.
+Puede ver el Panel de estado en el centro Microsoft Teams y Skype Empresarial administración.
 
 ## <a name="overall-health"></a>Estado general
 
@@ -98,7 +98,7 @@ La vista detallada muestra los siguientes parámetros adicionales:
 
 - **Llamada simultánea:** muestra cuántas llamadas simultáneas ha manipulado el SBC. Esta información es útil para predecir el número de canales simultáneos que necesita y ver la tendencia. Puede deslizar los datos por número de días y dirección de llamada (entrante/saliente/Todas las transmisiones).
 
-- **Parámetros de red:** todos los parámetros de red se miden desde la interfaz de enrutamiento directo hasta el controlador de borde de sesión. Para obtener información sobre los valores recomendados, vea Preparar la red de su organización para [Microsoft Teams](./prepare-network.md)y consulte los valores recomendados de Cliente perimetral a Microsoft Edge.
+- **Parámetros de red:** todos los parámetros de red se miden desde la interfaz de enrutamiento directo hasta el controlador de borde de sesión. Para obtener información sobre los valores recomendados, vea Preparar la red de su organización para Microsoft Teams [y](./prepare-network.md)consulte el Perímetro del cliente para Microsoft Edge valores recomendados.
 
    - Vibración: es la medida de milisegundos de variación en el tiempo de retraso de propagación de red que se calcula entre dos puntos de conexión mediante RTCP (el protocolo de control RTP).
 

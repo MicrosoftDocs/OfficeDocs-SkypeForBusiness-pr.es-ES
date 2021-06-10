@@ -38,7 +38,7 @@ Puede usar la directiva global (predeterminada para toda la organización) que s
 
 Siga estos pasos para crear una directiva de llamadas personalizada.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas de llamadas** de  >  **voz.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a **Directivas de llamadas** de  >  **voz.**
 2. Seleccione **Agregar**.
 3. Active o desactive las características que desea usar en la directiva de llamadas.
 4. Para controlar si los usuarios pueden enrutar las llamadas entrantes al correo de voz, seleccione **Habilitado** o **Controlado por el usuario.** Para evitar el enrutamiento al correo de voz, seleccione **Deshabilitado.**
@@ -48,7 +48,7 @@ Siga estos pasos para crear una directiva de llamadas personalizada.
 
 Siga estos pasos para editar una directiva de llamadas existente.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, seleccione **Directivas de llamadas** de  >  **voz.**
+1. En el panel de navegación izquierdo del centro Microsoft Teams de administración, seleccione **Directivas de llamadas** de  >  **voz.**
 2. Haga clic junto a la directiva que desea modificar y, a continuación, seleccione **Editar**.
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar.**
 
@@ -62,7 +62,7 @@ Esta es la configuración que puede configurar para las directivas de llamadas.
 
 ### <a name="make-private-calls"></a>Realizar llamadas privadas
 
-Esta configuración controla todas las capacidades de llamadas en Teams. Desactive esta opción para desactivar todas las funciones de llamadas en Teams.
+Esta configuración controla todas las capacidades de llamadas de Teams. Desactive esta opción para desactivar todas las funciones de llamadas en Teams.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Reenvío de llamadas y llamadas simultáneas a personas de su organización
 
@@ -98,7 +98,7 @@ Ocupado en ocupado (Opciones de disponibilidad) es una nueva configuración que 
 
 ### <a name="allow-web-pstn-calling"></a>Permitir llamadas RTC web
 
-Esta configuración permite a los usuarios llamar a números RTC con el cliente web de Teams.
+Esta configuración permite a los usuarios llamar a números RTC con el Teams web.
 
 ### <a name="allow-music-on-hold"></a>Permitir música en espera
 

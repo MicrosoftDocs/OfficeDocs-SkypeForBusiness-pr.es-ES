@@ -30,7 +30,7 @@ ms.locfileid: "51598764"
 
 <a name="bkgeneral"> </a>
 
-En este artículo se describen las siguientes opciones de configuración de directiva general para las reuniones de Teams:
+En este artículo se describen las siguientes opciones de configuración de directiva general Teams reuniones:
 
 - [Permitir la opción Reunirse ahora en canales](#allow-meet-now-in-channels)
 - [Permitir el complemento de Outlook](#allow-the-outlook-add-in)
@@ -43,7 +43,7 @@ En este artículo se describen las siguientes opciones de configuración de dire
 
 ## <a name="allow-meet-now-in-channels"></a>Permitir la opción Reunirse ahora en canales
 
-Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión ad hoc en un canal de Teams. Si activa esta opción, los  usuarios pueden hacer clic en el botón Reunirse para iniciar una reunión ad hoc o programar una reunión en el canal. El valor predeterminado es True.
+Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión ad hoc en un canal Teams usuario. Si activa esta opción, los  usuarios pueden hacer clic en el botón Reunirse para iniciar una reunión ad hoc o programar una reunión en el canal. El valor predeterminado es True.
 
 [![Captura de pantalla que muestra el icono Reunirse ahora debajo de un mensaje ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -53,7 +53,7 @@ Esta es una directiva por usuario y se aplica antes de que se inicie la reunión
 
 ![Captura de pantalla que muestra la posibilidad de programar una nueva reunión](media/meeting-policies-outlook-add-in.png)
 
-Si desactiva esta opción, los usuarios no podrán programar reuniones de Teams cuando creen una nueva reunión en Outlook. Por ejemplo, en Outlook en Windows, la opción **Nueva reunión de Teams** no se mostrará en la cinta de opciones.
+Si desactiva esta opción, los usuarios no podrán programar Teams reuniones cuando creen una nueva reunión en Outlook. Por ejemplo, en Outlook en Windows, la opción **Nueva reunión de Teams** no se mostrará en la cinta de opciones.
 
 ## <a name="allow-channel-meeting-scheduling"></a>Permitir la programación de reuniones de canal
 
@@ -90,7 +90,7 @@ En el Centro de administración:
 
 La aplicación Calendario de canal se mostrará en la sección **Aplicaciones de Microsoft** en la página de directivas de permisos de la aplicación.
 
-![Captura de pantalla que muestra la directiva de permisos de la aplicación en el Centro de administración de Teams.](media/manage-microsoft-apps-policy.png)
+![Captura de pantalla que muestra la directiva de permisos de la aplicación en el Teams de administración.](media/manage-microsoft-apps-policy.png)
 
 ## <a name="allow-scheduling-private-meetings"></a>Permitir la programación de reuniones privadas
 
@@ -147,7 +147,7 @@ Para especificar qué complemento de la reunión desea que esté disponible para
 
 La configuración AllowMeetingReactions solo se puede aplicar con PowerShell. No hay ninguna opción para activar o desactivar AllowMeetingReactions desde el Centro de administración de Teams.
 
-Las reacciones a las reuniones están desactivadas de forma predeterminada. Desactivar las reacciones de un usuario no significa que un usuario no pueda usar las reacciones en las reuniones que programe. El organizador de la reunión puede activar las reacciones desde la página de opciones de reunión, independientemente de la configuración predeterminada.
+Las reacciones a la reunión están desactivadas de forma predeterminada. Desactivar las reacciones a un usuario no significa que un usuario no pueda usar las reacciones en las reuniones que programe. El organizador de la reunión puede activar las reacciones desde la página de opciones de la reunión, independientemente de la configuración predeterminada.
 
 
 ## <a name="related-topics"></a>Temas relacionados

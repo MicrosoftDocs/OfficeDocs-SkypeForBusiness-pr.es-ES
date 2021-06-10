@@ -32,7 +32,7 @@ Una vez que haya elegido sus partners de interoperabilidad de vídeo en la [nube
 
 ## <a name="plan"></a>Plan
 
-Consulte [Interoperabilidad de vídeo en la nube para Microsoft Teams](cloud-video-interop.md) para obtener información sobre cómo identificar un partner o partners para usarlos en su organización. 
+Vea [Interoperabilidad de](cloud-video-interop.md) vídeo en la nube para obtener Microsoft Teams información sobre cómo identificar un partner o partners para usarlo en su organización. 
 
 Para planear la habilitación de todo el sitio/ simultánea o basada en el usuario: 
 
@@ -80,7 +80,7 @@ Tendrá que ejecutar los siguientes cmdlets para aprovisionar la clave de inquil
 
 Tendrá que proporcionar permiso para que los dispositivos de videoconferencia (VTC) se unan a las reuniones de su organización a través del servicio de partners. Este vínculo de consentimiento también será proporcionado por tu partner.  
  
-Cuando se completen estos pasos, los usuarios habilitados individualmente a través del cmdlet Grant anterior, o todos los usuarios de la organización si el espacio empresarial está habilitado, tendrán coordenadas VTC en todas las reuniones de Teams que programe. Cualquier VTC puede unirse a estas reuniones a través de esas coordenadas.
+Cuando se completen estos pasos, los usuarios que estén habilitados individualmente a través del cmdlet Grant anterior, o todos los usuarios de la organización si el espacio empresarial está habilitado, tendrán coordenadas VTC en todas las reuniones Teams que programe. Cualquier VTC puede unirse a estas reuniones a través de esas coordenadas.
 
 
 |Nombre|Descripción breve del permiso de aplicación| Descripción|
@@ -92,21 +92,21 @@ Cuando se completen estos pasos, los usuarios habilitados individualmente a trav
 
 ## <a name="schedule"></a>Programar
 
-A continuación, programe la reunión de Teams con las coordenadas de interoperabilidad de vídeo. El usuario habilitado puede programar reuniones de equipos a través de:
-- [Complemento Reunión de Teams para Outlook](teams-add-in-for-outlook.md)
-- Escritorio y dispositivos móviles del cliente de Teams
+A continuación, programe Teams reunión con coordenadas de interoperabilidad de vídeo. El usuario habilitado puede programar reuniones de equipos a través de:
+- [Teams Complemento de reunión para Outlook](teams-add-in-for-outlook.md)
+- Teams cliente de escritorio y móvil
 
 
 ## <a name="join"></a>Join
 
-Puede unirse a reuniones de Teams con sus dispositivos VTC de las siguientes maneras:
+Puede unirse a Teams reuniones con sus dispositivos VTC de las siguientes maneras:
  
 - IVR (respuesta de voz interactiva)
     - Puede llamar al IVR del partner con el tenantkey@domain. 
-    - Una vez que esté en el IVR asociado, se le pedirá que escriba el id. de conferencia de VTC, que le conectará a la reunión de Teams.
+    - Una vez que esté en el IVR asociado, se le pedirá que escriba el id. de conferencia de VTC, que le conectará a la reunión Teams asociado.
 - Marcado directo
     - Puede llamar directamente a la reunión de Teams sin interactuar con el IVR del partner mediante la característica de marcado directo con la cadena completa de tenantkey. VTC ConferenceId@domain.
 - Marcado con un solo toque
     - Si tiene un salón de Teams integrado, puede usar las capacidades de marcado de un solo toque que ofrece su partner (sin tener que escribir ninguna cadena de marcado).
 
-Por último, interactúe con los usuarios de Teams en sus reuniones mediante el uso compartido de audio, vídeo y contenido.
+Por último, interactúe con Teams usuarios en sus reuniones mediante el uso compartido de audio, vídeo y contenido.

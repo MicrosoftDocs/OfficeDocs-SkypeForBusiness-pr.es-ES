@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar la característica Llamarme en Teams para que los usuarios puedan unirse a la parte de audio por teléfono al usar su equipo para el audio es posible que no sea posible.
+description: Obtenga información sobre cómo configurar la característica Llamarme en Teams para que los usuarios puedan unirse a la parte de audio por teléfono al usar su equipo para el audio podría no ser posible.
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -39,11 +39,11 @@ En Microsoft Teams, la característica **Llamarme** ofrece a los usuarios una fo
 
 ### <a name="join-a-meeting-by-using-phone-for-audio"></a>Unirse a una reunión usando el teléfono para el audio
 
-Haga **clic en** Unirse para unirse a una reunión, a continuación, audio de **teléfono** en la pantalla Elegir las opciones de vídeo y **audio** y haga clic **en Unirse ahora.** Desde aquí, los usuarios pueden hacer la llamada de reunión y unirse a ellas o llamar manualmente a la reunión.
+Haga **clic en** Unirse para unirse a una reunión, Teléfono **audio** en la pantalla Elegir las opciones de vídeo y **audio** y haga clic **en Unirse ahora.** Desde aquí, los usuarios pueden hacer la llamada de reunión y unirse a ellas o llamar manualmente a la reunión.
 
-![Captura de pantalla de la opción audio del teléfono](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
+![Captura de pantalla de la Teléfono de audio](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
-**Permitir que la llamada de reunión de Teams**
+**Permitir que la Teams llamada de reunión**
 
 En la **pantalla Usar teléfono para audio,** el usuario escribe su número de teléfono y, a continuación, hace clic en **Llamarme.** La reunión llama al usuario y los une a la reunión.
 
@@ -63,14 +63,14 @@ Este es un ejemplo del  mensaje y la opción Llamarme atrás que se muestra cuan
 
 ![Captura de pantalla de la opción Llamarme atrás](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-El usuario hace clic **en Llamarme** de nuevo, que muestra la **pantalla Usar teléfono para audio.** Desde aquí, pueden escribir su número de teléfono y hacer que la llamada de reunión de Teams y unirse a ella a la reunión o llamar manualmente a la reunión.
+El usuario hace clic **en Llamarme** de nuevo, que muestra la **pantalla Usar teléfono para audio.** Desde aquí, pueden escribir su número de teléfono y tener la llamada Teams reunión y unirse a la reunión o llamar manualmente a la reunión.
 
 ## <a name="set-up-the-call-me-feature"></a>Configurar la característica Llamarme
 
 Para habilitar la característica Llamarme para los usuarios de su organización, debe configurarse lo siguiente:
 
-- Las audioconferencias están habilitadas para los usuarios de su organización que programan reuniones (organizadores de reuniones). Para obtener más información, vea Configurar audioconferencias para [Teams](set-up-audio-conferencing-in-teams.md) y Administrar la configuración de [audioconferencia para un usuario en Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+- Las audioconferencias están habilitadas para los usuarios de su organización que programan reuniones (organizadores de reuniones). Para obtener más información, vea Configurar audioconferencias [para Teams](set-up-audio-conferencing-in-teams.md) y Administrar la configuración de [conferencias](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)de audio para un usuario en Teams .
 
-- El organizador de la reunión puede llamar desde reuniones. Para obtener más información, vea [Administrar la configuración de audioconferencias para un usuario en Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+- El organizador de la reunión puede llamar desde reuniones. Para obtener más información, vea [Administrar la configuración de audioconferencia](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)para un usuario en Teams .
 
-Si el organizador de la reunión no tiene habilitada la llamada desde las reuniones, la opción Audio del teléfono de la pantalla Elegir las opciones de **vídeo** y **audio** no está disponible para nadie y otros usuarios no pueden recibir una llamada para unirse a ella. Para los usuarios con acceso telefónico habilitado, una vez que se han unido a la reunión, pueden unirse a otros marcando su número desde el icono **Mostrar participantes.**
+Si el organizador de la reunión no tiene habilitada la opción de acceso telefónico de las reuniones, la opción de **audio de Teléfono** de la pantalla Elegir las opciones de vídeo y **audio** no está disponible para nadie y otros usuarios no pueden recibir una llamada para unirse a la reunión. Para los usuarios con acceso telefónico habilitado, una vez que se han unido a la reunión, pueden unirse a otros marcando su número desde el icono **Mostrar participantes.**

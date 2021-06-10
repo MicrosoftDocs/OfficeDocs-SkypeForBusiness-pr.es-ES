@@ -28,7 +28,7 @@ ms.locfileid: "51120581"
 
 Antes de seguir los pasos de este artículo, asegúrese de que ha leído [Plan de enrutamiento Location-Based](location-based-routing-plan.md) para enrutamiento directo y ha completado los pasos de Configurar la configuración de red para Location-Based [enrutamiento.](location-based-routing-configure-network-settings.md)
 
-En este artículo se describe cómo habilitar Location-Based enrutamiento directo. Después de implementar enrutamiento directo del sistema telefónico y configurar regiones de red, sitios y subredes, ya está listo para habilitar el enrutamiento Location-Based teléfono. Para completar los pasos de este artículo, necesitará familiarizarse con los cmdlets de PowerShell. Para obtener más información, vea [Información general de PowerShell de Teams.](teams-powershell-overview.md)
+En este artículo se describe cómo habilitar Location-Based enrutamiento directo. Después de implementar Sistema telefónico enrutamiento directo y configurar regiones de red, sitios y subredes, ya está listo para habilitar Location-Based enrutamiento. Para completar los pasos de este artículo, necesitará familiarizarse con los cmdlets de PowerShell. Para obtener más información, [vea Teams información general de PowerShell](teams-powershell-overview.md).
 
  Debe habilitar Location-Based enrutamiento para lo siguiente:
 - Usuarios
@@ -48,11 +48,11 @@ Puede usar el Centro [de administración de Microsoft Team](#using-the-microsoft
     - Use los usos rtc asociados a las rutas de voz que usan una puerta de enlace RTC ubicada en una región donde no se necesitan Location-Based restricciones de enrutamiento.
 2. Asigne la directiva de enrutamiento de voz a los usuarios que requieran que se exijan restricciones de enrutamiento.
 
-Para obtener más información sobre cómo crear directivas de enrutamiento de voz y asignarlas a los usuarios, vea Administrar directivas de enrutamiento de voz [en Microsoft Teams.](manage-voice-routing-policies.md)
+Para obtener más información sobre cómo crear directivas de enrutamiento de voz y asignarlas a los usuarios, vea Administrar directivas de enrutamiento de voz [en Microsoft Teams](manage-voice-routing-policies.md).
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>Habilitar Location-Based enrutamiento para sitios de red
 
-Habilite Location-Based enrutamiento para los sitios que necesitan aplicar restricciones de enrutamiento. Para ello, en la navegación izquierda del Centro de administración de Microsoft Teams, vaya a Topología de red de ubicaciones, seleccione un sitio de red, haga clic en Editar y, a continuación, active Enrutamiento basado en  >   **ubicación.**   
+Habilite Location-Based enrutamiento para los sitios que necesitan aplicar restricciones de enrutamiento. Para ello, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a Topología de red de ubicaciones, seleccione un sitio de red, haga clic en Editar y, a continuación, active Enrutamiento basado en  >   **ubicación.**   
 
 Para obtener más información, vea [Administrar la topología de red.](manage-your-network-topology.md)
 
@@ -70,7 +70,7 @@ Habilite Location-Based enrutamiento a puertas de enlace que enrute llamadas a p
 
 Para exigir Location-Based enrutamiento para usuarios específicos, configure la directiva de llamadas del usuario para evitar la omisión de pago RTC. Para ello, active la configuración Evitar la omisión **de** pago en la directiva de llamadas.
 
-Para obtener más información, vea [Directivas de llamadas en Teams.](teams-calling-policy.md)
+Para obtener más información, vea [Directivas de llamadas en Teams](teams-calling-policy.md).
 
 ## <a name="using-powershell"></a>Con PowerShell
 
@@ -192,4 +192,4 @@ Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "Us
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Configuración de red para características de voz en la nube en Teams](cloud-voice-network-settings.md)
+- [Configuración de red para las características de voz en la nube en Teams](cloud-voice-network-settings.md)

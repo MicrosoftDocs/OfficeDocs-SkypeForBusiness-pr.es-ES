@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723571"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863251"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Datos de diagnóstico móvil necesarios para Microsoft Teams
 
 El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y listas de propiedades que recopila cada evento.
+
+Para más información sobre los datos de diagnóstico, incluido cómo controlar los datos de diagnóstico que se envían a Microsoft, vea [Datos de diagnóstico enviados desde la aplicación de Microsoft Teams a Microsoft](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft). Para ver los datos de diagnóstico que se envían a Microsoft, puede usar el [Visor de datos de diagnóstico](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 
 ## <a name="events"></a>Eventos
 
@@ -109,6 +111,8 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
   - Números de la configuración.
 - **blockChat** bloquear un bot de chat. Esto mejora la telemetría actual en torno a los chats y solo agrega información de la aplicación.
 - **botClickCardAction** - Uso de la tarjeta de conexión.
+- **brbFormOpened** - El usuario solicitó enviar comentarios.
+- **brbFormSubmit** - El usuario envió comentarios.
 - **breakStartEndClicked** - En la pantalla del reloj, se selecciona el botón **Inicio** o **Finalizar descanso**.
 - **breakStartEndTriggered** - Registrar un usuario opta por usar Iniciar o Finalizar descanso.
 - **bucketSelected** - Confirma que un depósito se ha seleccionado correctamente.
@@ -461,6 +465,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **dialOutDialog** - **Nuevo número** está seleccionado en la hoja de acciones.
 - **dialOutFailRetry** - **Reintento** está seleccionado en un banner de error.
 - **Teclado marcado** - Se selecciona el botón **Teclado de marcación** de la lista de llamadas.
+- **directShare** - Compartió un vínculo de invitación a una aplicación nativa de SMS o correo electrónico.
 - **disableCategory** - Deshabilita un tipo de notificación o deshabilita las notificaciones de llamadas entrantes.
 - **deshabilitar** - **Omitir notificaciones** está seleccionado en la experiencia de primera ejecución (FRE). Esto proporciona datos clave para el éxito para omitir la notificación en el flujo del FRE.
 - **disableQuietDays** - Días silenciosos deshabilitados. Característica de telemetría de éxito para los días no molestas.
@@ -577,7 +582,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **giphyUserEnisabled**: el usuario elige aceptar los términos o las condiciones de Giphy.
 - **goToNotificationSettings** - Vaya a la página Configuración de notificaciones de **hemos actualizado la configuración de notificaciones** cuadro de diálogo.
 - **GPSPromptClicked**: **Permitir** o **No permitir** está seleccionada en un símbolo del sistema operativo. Permite o no GPS.
-- **group_map_closed** - Un usuario abre el mapa VIW desde el chat.
+- **group_map_closed** - Un usuario abre la vista de mapa desde el chat.
 - **group_map_open** - El usuario cierra la vista del mapa.
 - **groupCallJoin** - Un usuario se une a una llamada de grupo.
 - **groupClicked** - Realiza un seguimiento de la hora a la que un usuario selecciona el grupo Shift.
@@ -625,6 +630,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **La fuente de inicio, como directa, vínculo, appShortcut** -inicia directamente o a través de un vínculo (grabación de la administración de aplicaciones móviles (MAM) o la telemetría de la administración de dispositivos móviles (MDM) en el inicio de la aplicación para recopilar datos para usuarios activos).
 - **leaveChat** - Confirma que se deja el chat.
 - **legacyChatLink** - Se selecciona un vínculo a un chat heredado.
+- **link** - Un usuario ha iniciado el canje de un vínculo de invitación entrando a la aplicación de Teams.
 - **likeAppDismiss** - Cuando se pregunta si un usuario le gusta la aplicación o no se descarta sin respuesta.
 - **likeAppNo** - Cuando aparece el mensaje en el que se pregunta si el usuario le gusta la aplicación recibe la respuesta no.
 - **likeAppYes** - Cuando aparece el mensaje en el que se pregunta si el usuario le gusta la aplicación recibe una respuesta de sí.
@@ -650,6 +656,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **location_active_tracking** - El dispositivo de un usuario se cambia a un seguimiento activo.
 - **locationCard** - Seleccione una tarjeta de ubicación.
 - **location_family_sync** - Se muestran los miembros de un grupo de familias que se crearon en la aplicación de la familia MSA. Confirma que se muestran todos los miembros de la familia que pueden conceder permiso.
+- **location_data_use_privacy_denied** - El usuario ha denegado la aceptación de los términos de privacidad.
 - **location_group_map_sync** - Se abre vista de mapa.
 - **location_map_load carga de vista del mapa** -Carga de vista de mapa.
 - **location_map_markers_load**: cargar vista del mapa. Confirma que los marcadores de ubicación para todos los usuarios que comparten activamente se muestran correctamente en la vista del mapa.
@@ -855,6 +862,9 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **pinChannel** - Ancla un canal para mostrarlo por sobre la lista de equipos y canales.
 - **pinSelf** - Anclar a mi mismo desde la hoja de acciones.
 - **el pinUs** - Anclar un usuario de la hoja de acciones.
+- **place_created** - El usuario creó un lugar compartido.
+- **place_deleted** - El usuario eliminó un lugar compartido.
+- **place_edited** - El usuario editó un lugar compartido.
 - **reproducir** - Reproducir la grabación.
 - **playVoicemail** - **Reproducir** es pulsado en el elemento de correo de voz.
 - **plusButtonClicked** - Selecciona el botón **Más** (**+**).
@@ -918,6 +928,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **reactRemoved_HB** - Cuando un usuario retira la reacción de la experiencia de la página de resumen de la reacción.
 - **readReceipts** - Característica habilitada por el usuario.
 - **redeemInvite** - En el canje de la aplicación.
+- **redeemLinkInAppStart** - El usuario ha iniciado el canje de un vínculo de invitación desde la aplicación de Teams.
 - **refreshCalendarList** - Tire hacia abajo para actualizar la vista Agenda.
 - **refreshLinksGallery** - Cuando un usuario desliza el dedo hacia abajo para actualizar la galería de vínculos.
 - **removeAssignee** - Confirma que una tarea asignada se elimina de la vista selector de la asignación (en lugar de *assignmentRemoved* que se activa al seleccionar **x** fuera de la vista del selector de asignaciones).
@@ -958,6 +969,8 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **saveEditMeeting** - Seleccione el botón **Guardar** mientras se encuentre en la página programador de reuniones después de actualizar una reunión.
 - **saveNewMeeting** - Seleccione el botón **Guardar** mientras se encuentre en la página programador de reuniones. Para registrar reuniones guardadas correctamente y el porcentaje de reuniones que no se pudieron crear debido a un error del lado del cliente o del servicio.
 - **savePlanClicked** - El desencadenador **Crear** se ha seleccionado en el nuevo creador del plan de la apertura predeterminada de la aplicación.
+- **scenarioChannelDashboard** - El usuario navega a un icono en el panel.
+- **scenarioDashboardNav** - El usuario navega a la pestaña del panel en una conversación (pestaña del mismo nivel que la del chat).
 - **scheduledMeetingJoin** - Se selecciona el botón **Unirse a la reunión** en el objeto reunión programada.
 - **scrollCalendarList** - Mide el desplazamiento en el calendario.
 - **scrollDatePicker** - Se desplaza por el control selector de fecha del calendario.
@@ -1013,6 +1026,8 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **settingsNavReadReceiptNotice** - El usuario se ha pasado a la configuración desde la notificación de características.
 - **settingsOpened** - Se desencadena cuando la zona horaria del dispositivo del usuario no coincide con la zona horaria del equipo y el usuario se desplaza a la configuración.
 - **setupPinVault**: el usuario guarda un elemento anclado de caja fuerte para su cuenta. 
+- **shareCharmCompleted** - El usuario ha terminado de compartir un vínculo de invitación mediante el acceso para compartir de la aplicación.
+- **shareCharmOpened** - El usuario ha empezado a compartir un vínculo de invitación mediante el acceso para compartir de la aplicación. 
 - **shareFile** - Se desencadena cuando **Compartir archivo** está seleccionada. También le ayuda a comprobar si:
   - El usuario pudo iniciar la operación de compartir el archivo.
   - El usuario puede compartir un archivo correctamente.
@@ -1112,7 +1127,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **timesheetBreakEdited** - Cuando un usuario confirma su registro de horas trabajadas. El evento se registra cuando el usuario llega a la confirmación en la moda.
 - **timesheetBreakNoteAdded** - Cuando un usuario elimina su parte de horas. El evento se registra cuando el usuario confirma la eliminación en la moda.
 - **timesheetClockAdded** - Cuando un usuario selecciona Editar para un registro de horas trabajadas.
-- **timesheetClockEdited**  Cuando un usuario selecciona Guardar en un registro  editado de horas trabajadas.
+- **timesheetClockEdited** - Cuando un usuario selecciona Guardar en un registro  de horas trabajadas editado.
 - **timesheetConfirmed** - Cuando un usuario agrega una nota a las modificaciones de su parte de horas. El evento se registra cuando el usuario guarda los cambios.
 - **timesheetDeleted** - Si un usuario tiene o no tiene un recordatorio de turno establecido y la cantidad de minutos previos a un turno en la que un usuario quiere ser alertado.
 - **timesheetEditClicked** - Telemetría de configuración de usuario.
@@ -1127,6 +1142,8 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
   - El destino de transferencia se configura para un usuario.
   - El destino de transferencia está establecido en un número de teléfono.
 - **translateFailed** - Error de traducción (excepto sin conexión). Presentar métricas de éxito para la función de traducción de mensajes.
+- **trigger_created** - El usuario creó una geovalla.
+- **trigger_deleted** - El usuario eliminó una geovalla.
 - **unansweredCallForward** - Se ha establecido un destino de reenvío de llamada sin responder. También permite el desvío de llamadas no respondidas (Llámame está habilitado y Si no hay respuesta está habilitado).
 - **unblockCaller** - Desbloquear:
   - Un contacto o un número de la hoja de acciones.
@@ -1225,6 +1242,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **fileUploadSuccess**: se desencadena cuando se resuelve un error en la operación de carga de archivos.
 - **fileUploadSummaryNotification**: se desencadena cuando cambia el contenido del resumen de carga de archivo o cuando se interactúa con la notificación. Las interacciones pueden incluir gestos como deslizar el dedo para descartar la notificación o pulsar la notificación, etc.
 - **meetingFiles**: se desencadena cuando se abre la pantalla archivos de reunión.
+- **meetNowActionSheet**: se activa cuando el usuario crea una reunión Reunirse ahora.
 - **navPersonalFiles**: se desencadena cuando se realiza la navegación a la pantalla de archivos.
 
 ### <a name="scenario"></a>Escenario
@@ -1287,7 +1305,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **tenantSwitchUnsupportedError**: confirma que la respuesta inteligente no se puede mostrar para el usuario actual.
 - **update_planner_task_and_nav_to_view** - Confirma la correcta actualización de un elemento de tarea compartida y cuánto tiempo tardó un usuario en llegar a la vista resultante después de la acción.
 - **update_planner_task_and_nav_to_view**: confirma la correcta actualización de un elemento de tarea personal y cuánto tiempo tardó un usuario en llegar a la vista resultante después 
-- **updatePlannerTask**: confirma que un usuario ha actualizado correctamente una tarea en una lista de nombres compartidos.
+- **updatePlannerTask**: confirma que un usuario ha actualizado correctamente una tarea en una lista de tareas compartida.
 - **upload_images** Confirma si la imagen carga la acción correctamente o con errores.
 - **upload_voice_messages** Confirma si el mensaje de voz carga la acción correctamente o con errores.
 - **voiceMessageUpload** Confirma si el mensaje de voz carga la acción correctamente o con errores.

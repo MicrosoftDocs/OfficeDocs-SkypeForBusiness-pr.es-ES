@@ -1,5 +1,5 @@
 ---
-title: Usar NDI en Microsoft Teams
+title: Use NDI en Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -23,13 +23,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51598469"
 ---
-# <a name="use-ndi-technology-in-microsoft-teams"></a>Usar la tecnología ® NDI en Microsoft Teams
+# <a name="use-ndi-technology-in-microsoft-teams"></a>Use la tecnología ® NDI en Microsoft Teams
 
  La tecnología newtek NDI® (interfaz de dispositivo de red) es una solución moderna para conectar dispositivos multimedia (como una cámara de estudio y un mezclador). En lugar de usar conexiones físicas, la tecnología NDI® permite la conectividad a través de una intranet local, incluso en un equipo local.
 
 La tecnología ® NDI se ha convertido en una solución estándar del sector para producir contenido en directo para transmisiones y ha adquirido una conciencia y adopción significativas en el mundo de la difusión profesional.
 
-Skype agregó anteriormente la funcionalidad de ® de salida a Skype a finales de 2018. Microsoft Teams usa esta funcionalidad para mejorar la experiencia de la reunión.
+Skype funcionalidad de ® de salida a Skype a finales de 2018. Microsoft Teams esta funcionalidad para mejorar la experiencia de la reunión.
 
 La tecnología ® NDI está limitada a una red local y solo debe considerarse una parte del flujo de trabajo de producción, no una solución de difusión.
 
@@ -43,13 +43,13 @@ La tecnología ® NDI requiere dos pasos para estar activado para un usuario.
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
-2. Una vez que se haya rellenado este cambio, el usuario final debe activar la tecnología NDI® para su cliente específico desde **Permisos**  >  **de configuración.**
+2. Una vez que se haya rellenado este cambio, el usuario final debe activar la tecnología NDI® para su cliente específico desde **Configuración**  >  **permisos.**
 
 Cuando un usuario se une a una reunión, verá un mensaje que le notifica que la reunión se está difundiendo. Si los usuarios no quieren incluirse en la difusión, necesitarán abandonar la reunión.
 
-La siguiente imagen muestra el mensaje de banner que un usuario ve en una reunión de Teams.
+La siguiente imagen muestra el mensaje de banner que un usuario ve en una Teams reunión.
 
-![he NDI® de tecnología que se muestra en una reunión de Teams.](media/NDI-disclosure.png)
+![he NDI® banner de tecnología que se muestra en una Teams reunión.](media/NDI-disclosure.png)
 
 El banner tiene un vínculo a la directiva [de privacidad de Microsoft.](https://aka.ms/teamsprivacy)
 

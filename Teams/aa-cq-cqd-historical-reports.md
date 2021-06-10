@@ -21,7 +21,7 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Obtenga información sobre cómo usar el informe Power BI del panel de calidad de llamadas para ver los datos históricos Operador automático y Cola de llamadas.
+description: Obtenga información sobre cómo usar el panel de calidad de Power BI para ver los datos históricos Operador automático y Cola de llamadas.
 ms.openlocfilehash: d3c8bd7181bab9ee7c199aedbac8a6fcc4c78d75
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51121548"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Operador automático & histórico de cola de llamadas
 
-La plantilla de Power BI Operador automático & informe histórico de cola de llamadas de CQD Teams proporciona los siguientes tres informes:
+La plantilla de Teams Operador automático & histórico de cola de llamadas Power BI CQD proporciona los tres informes siguientes:
 
 - Operador automático: muestra análisis de las llamadas que llegan a los Operadores automáticos.
 - Cola de llamadas: muestra análisis de las llamadas que llegan a las colas de llamadas.
@@ -41,7 +41,7 @@ Estos informes usan [](CQD-Power-BI-query-templates.md) datos del almacén de da
 
 ## <a name="what-are-the-requirements"></a>¿Cuáles son los requisitos? 
 
-Debe tener Instalado Power BI Desktop. Puede instalarlo desde microsoft [Windows Store.](https://aka.ms/pbidesktopstore)
+Debe tener Power BI Desktop instalado. Puede instalarlo desde Microsoft [Windows Store.](https://aka.ms/pbidesktopstore)
 
 Puede usar la versión gratuita de Power BI Desktop. La versión mínima compatible es 2.85.681.0 (septiembre de 2020).
 
@@ -51,21 +51,21 @@ La cuenta que usa para ver el informe histórico de AA & CQ Analytics debe tener
 
 ## <a name="installation"></a>Instalación 
 
-En los pasos siguientes se supone que ya ha instalado Power BI Desktop en el equipo y que su cuenta tiene los permisos necesarios para obtener acceso a la canalización de datos CQD.
+Los pasos siguientes suponen que ya ha instalado Power BI Desktop en el equipo y que su cuenta tiene los permisos necesarios para obtener acceso a la canalización de datos CQD.
 
 Siga estos pasos:
 
-- Descargue las plantillas de consulta de Power BI de [CQD](https://www.microsoft.com/download/details.aspx?id=102291) y guarde el archivo zip en un directorio del equipo.
+- Descargue el [archivo CQD Power BI de consulta](https://www.microsoft.com/download/details.aspx?id=102291) y guarde el archivo zip en un directorio del equipo.
 
 - Haga doble clic en el archivo zip para abrirlo.
 
-- Haga doble clic en el archivo de plantilla "CQ y AA combined Analytics 20201105.pbit" y power BI Desktop debería iniciarse.
+- Haga doble clic en el archivo de plantilla "CQ y AA combinado Analytics 20201105.pbit" y Power BI Desktop iniciar.
 
 - Se le pedirá que seleccione la región de canalización de datos CQD. Seleccione la región donde se encuentra el inquilino.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de pantalla que selecciona la región de canalización de datos CQD":::
 
- - Puede ver la región con el cmdlet de PowerShell de Skype Empresarial Online (Get-CsTenant). Resultado de ServiceInstance. 
+ - Puede ver la región con el cmdlet Skype Empresarial PowerShell en línea (Get-CsTenant). Resultado de ServiceInstance. 
  La región se mostrará después del /me gusta en este ejemplo:
 
    microsoftcommunicationsonline/noam-4a-s7 donde la región es noam.
@@ -116,7 +116,7 @@ Siga estos pasos:
 |Operador automático de búsqueda de directorios  |cadena                   |Método de búsqueda de la última libreta de direcciones        |
 |Operador automático acción Transferir          |cadena                   |Tipo de destino de transferencia de llamadas<br>valores posibles:<br>§ desconocido: no se especificó el tipo de entidad<br>§ usuario: entidad de usuario<br>§ orgaa: entidad Operador automático organización<br>§ hunt_group : entidad Cola de llamadas<br>§ aplicación: entidad de aplicación de voz<br>§ external_pstn - entidad RTC externa<br>§ shared_voicemail: entidad de correo de voz compartido|
 |Operador automático de llamada              |cadena                   |Resultado de la llamada:<br>§ desconocido<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|Operador automático de llamadas                |cadena                   |Encapsula los distintos estados de Operador automático llamada<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>Anuncio de §|
+|Operador automático llamada Flow                |cadena                   |Encapsula los distintos estados de Operador automático llamada<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>Anuncio de §|
 |Está Operador automático implicado              |Boolean                  |Se indica si AA participa en la llamada |
 |Operador automático de acciones de llamada      |int                      |Recuento de acciones usadas por el autor de la llamada         |
 |Operador automático duración de cadena segundos   |int                      |Duración de la llamada en AA                 |
@@ -131,7 +131,7 @@ Siga estos pasos:
 |¿Está involucrada la cola de llamadas?                  |Boolean                  |Si la cola de llamadas está involucrada en esta llamada es igual a 1 |
 
 
-### <a name="power-bi-data-model-dimensions"></a>Dimensiones del modelo de datos de Power BI
+### <a name="power-bi-data-model-dimensions"></a>Power BI dimensiones del modelo de datos
 
 |Nombre                                    |Tipo de datos                |Descripción                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
@@ -162,7 +162,7 @@ Siga estos pasos:
 |Duración media de la llamada( segundos)         |int                      |Duración total de las llamadas en cola de llamadas en segundos     |
 
 
-### <a name="power-bi-graph-description-auto-attendant"></a>Descripción de gráficos de Power BI Operador automático
+### <a name="power-bi-graph-description-auto-attendant"></a>Power BI de gráfico Operador automático
 
 |Nombre                                      |Descripción                            |
 |:---------------------------------------|:--------------------------------------|

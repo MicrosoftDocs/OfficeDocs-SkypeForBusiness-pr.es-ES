@@ -27,16 +27,16 @@ ms.locfileid: "51122204"
 
 Este artículo describe qué necesita para migrar al enrutamiento directo en la configuración de Skype Empresarial Online y Microsoft Teams. Este artículo aborda la migración desde...: 
  
-- Sistema telefónico con planes de llamadas (para Teams y Skype Empresarial Online) 
-- Sistema telefónico con conectividad RTC local en Skype Empresarial Server (para Skype Empresarial Online)  
-- Sistema telefónico con conectividad RTC local mediante la cloud Connector Edition (para Skype Empresarial Online)
+- Sistema telefónico con planes de llamadas (para Teams y Skype Empresarial online) 
+- Sistema telefónico con conectividad RTC local en Skype Empresarial Server (para Skype Empresarial online)  
+- Sistema telefónico con conectividad RTC local mediante cloud Connector Edition (para Skype Empresarial Online)
 
 
 Además de estos pasos de configuración, también debe configurar el controlador de borde de sesión (SBC) para redirigir las llamadas a la nueva ruta. Sin embargo, esto se escapa al ámbito de este documento. Si desea más información sobre este tema, consulte la documentación de su proveedor SBC.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Estado final del aprovisionamiento de usuarios para varias opciones de conectividad RTC 
 
-En la tabla siguiente se muestra el estado final de un usuario aprovisionado para las opciones de conectividad RTC seleccionadas con Phone System. Solo se muestran los atributos relevantes para los servicios de voz.
+En la tabla siguiente se muestra el estado final de un usuario aprovisionado para las opciones de conectividad RTC seleccionadas con Sistema telefónico. Solo se muestran los atributos relevantes para los servicios de voz.
 
 |Atributos de objeto de usuario |Sistema telefónico con Planes de llamada|Sistema telefónico con una conectividad RTC local en Skype Empresarial Server|Sistema telefónico con conectividad con RTC local mediante conector de nube|Sistema telefónico con conectividad RTC local mediante enrutamiento directo|
 |---|---|---|---|---|

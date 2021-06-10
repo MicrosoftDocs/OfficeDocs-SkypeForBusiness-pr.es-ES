@@ -17,7 +17,7 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Obtenga información sobre cómo administrar tareas en el Centro de administración de Microsoft Teams en Teams para el sector educativo.
+description: Obtenga información sobre cómo administrar tareas en el centro Microsoft Teams administración de Teams para el sector educativo.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
@@ -32,27 +32,27 @@ ms.locfileid: "51121378"
 
 Las características Tareas y calificaciones de Teams para el sector educativo permiten a los profesores asignar tareas, trabajos o cuestionarios a sus alumnos. Los formadores pueden administrar las escalas de tiempo de las tareas, las instrucciones, agregar recursos para entregar, calificar con las indicaciones y mucho más. También pueden realizar un seguimiento del progreso de clase y de alumno individual en la pestaña Calificaciones.
 
-[Obtenga más información sobre tareas y calificaciones en Teams para el sector educativo.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[Obtenga más información sobre Tareas y calificaciones en Teams para el sector educativo.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
 > [!Note]
-> Para obtener más información sobre las tareas de Teams en diferentes plataformas, vea [Características de Teams por plataforma.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+> Para obtener más información Teams tareas en diferentes plataformas, [vea Teams características por plataforma.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
 
-## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Integraciones de tareas en el Centro de administración de Microsoft Teams
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Integraciones de tareas en el centro Microsoft Teams administración
 
-Con la configuración de administrador del Centro de administración de Microsoft Teams, puede activar o desactivar las características para los profesores de su organización y sus alumnos. A continuación se muestra la configuración relacionada con Tareas:
+Con la configuración de administrador del centro Microsoft Teams administración, puede activar o desactivar las características para los profesores de su organización y sus alumnos. A continuación se muestra la configuración relacionada con Tareas:
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Resumen de correo electrónico de tutor semanal
 
 
-Los correos electrónicos de los tutores se envían cada fin de semana a los padres o tutores. El correo electrónico contiene información sobre las tareas de la semana anterior y de la semana siguiente. La sincronización de padres y tutores se puede configurar con [School Data Sync.](/schooldatasync/parent-contact-sync)
+Los correos electrónicos de los tutores se envían cada fin de semana a los padres o tutores. El correo electrónico contiene información sobre las tareas de la semana anterior y de la semana siguiente. La sincronización de padres y tutores se puede configurar [con School Data Sync](/schooldatasync/parent-contact-sync).
 
 1. Importar la información de contacto de los padres a través de La sincronización de padres y tutores en SDS. Para obtener instrucciones sobre cómo habilitar la sincronización de padres y tutores, vea Habilitar la sincronización de padres [y tutores.](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)
 
-2. Active la configuración de Tutor en el Centro de administración de Microsoft Teams, ya que la configuración está desactivada de forma predeterminada. Esto permitirá a los profesores enviar un resumen semanal.
+2. Active la configuración del tutor en el centro Microsoft Teams administrador, ya que la configuración está desactivada de forma predeterminada. Esto permitirá a los profesores enviar un resumen semanal.
 
    > [!NOTE]
-   > Los profesores pueden optar por no participar en el resumen anulando la selección de la configuración dentro de su propio equipo personal de clase (Configuración de tareas > correo electrónico de padres **y tutores).**
+   > Los profesores pueden optar por no participar en el resumen anulando la selección de la configuración dentro de su propio equipo personal de clase (Tareas Configuración > correo electrónico de **padres/tutores).**
 
 Para comprobar que los padres recibirán el correo electrónico, los tres elementos siguientes deben ser verdaderos:
 
@@ -73,7 +73,7 @@ MakeCode es un producto de Microsoft que está sujeto a las condiciones de uso [
 
 La configuración predeterminada para esta característica es - **Desactivado**.
 
-Para habilitar las asignaciones de MakeCode en Teams,  vaya al Centro de administración de **Teams,** vaya a la sección Tareas y active la opción de alternancia MakeCode en **Activar**. Haga clic en **Guardar**. Espere unas horas para que esta configuración suba a efecto.
+Para habilitar las asignaciones de MakeCode en Teams, vaya al Centro  de administración de **Teams,** vaya a la sección Tareas y active la opción de alternancia MakeCode en **Activar**. Haga clic en **Guardar**. Espere unas horas para que esta configuración suba a efecto.
 
 Para obtener más información sobre cómo funciona esta característica, vea esta [demostración en vídeo.](https://makecode.com/blog/teams/teams-assignments)
 
@@ -102,7 +102,7 @@ Seleccione **Integraciones en** el menú lateral, seleccione **Agregar integraci
 
 ![Captura de pantalla que muestra cómo agregar una nueva integración](./educationImages/Assignments_mopo_turnitin2.png)
 
-El **TurnitinApiKey** se le dará después de seguir las indicaciones. Copie la clave de API y péguela en el Centro de administración de Microsoft Teams.  Esta es la única vez que puede ver la clave.
+El **TurnitinApiKey** se le dará después de seguir las indicaciones. Copie la clave de API y péguela en el Microsoft Teams de administración.  Esta es la única vez que puede ver la clave.
 
 ![Captura de pantalla que muestra cómo copiar la clave de API](./educationImages/Assignments_mopo_turnitin3.png)
 

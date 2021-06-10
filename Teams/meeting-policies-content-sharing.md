@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
-description: Aprenda a administrar la configuración de directiva de reunión en Teams para compartir contenido.
+description: Aprenda a administrar la configuración de directiva de reunión en Teams para el uso compartido de contenido.
 ms.openlocfilehash: 7b318ad0025d6c68b041c65d8fbb78cbfbc87723
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
@@ -68,7 +68,7 @@ Si esta configuración está activada para el usuario, la opción **Ceder el con
 
 ![Captura de pantalla que muestra la opción Ceder el control](media/meeting-policies-give-control.png)
 
-Si la configuración está desactivada para el usuario, la **opción Dar control** no está disponible.
+Si la configuración está desactivada para el usuario, la opción **Ceder el control** no estará disponible.
 
 ![Captura de pantalla que muestra que la opción Ceder el control no está disponible](media/meeting-policies-give-control-not-available.png)
 

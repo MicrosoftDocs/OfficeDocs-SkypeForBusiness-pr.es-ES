@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Consulte Pasos de Microsoft Teams para asignar una licencia de conferencia de acceso telefónico local y un id. de conferencia a un usuario y muchas otras opciones de configuración de conferencias de acceso telefónico local. '
+description: 'Consulte Microsoft Teams pasos para asignar una licencia de conferencia de acceso telefónico local e id. de conferencia a un usuario y muchas otras opciones de configuración de conferencias de acceso telefónico local. '
 ms.openlocfilehash: 96a8995b995340642c6b58be9d5062eacd3cd29c
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "51101096"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para su organización en Microsoft Teams
 
-Es posible que le resulte más fácil ver todas las opciones de configuración de audioconferencia para Microsoft Teams en un solo lugar. 
+Es posible que le resulte más fácil ver todas las opciones de configuración de audioconferencia Microsoft Teams en un solo lugar. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -40,20 +40,20 @@ Es posible que le resulte más fácil ver todas las opciones de configuración d
 ## <a name="assign-an-audio-conferencing-license"></a>Asignar una licencia de conferencia de acceso telefónico local
 
 > [!NOTE]
-> No puede asignar licencias con Teams. Debe usar el Centro de administración de Microsoft 365. Vea [Asignar licencias de complementos de Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
+> No puede asignar licencias con Teams. Debe usar el centro Microsoft 365 administración. Vea [Asignar Microsoft Teams de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
   
  **To assign a license for a user**
   
 1. Inicie sesión en Microsoft 365 con su cuenta de trabajo o escuela.
     
-2. En la navegación izquierda del Centro de administración de **Microsoft 365,** vaya a Usuarios usuarios activos y, a continuación, seleccione el usuario o los usuarios de la lista de  >  usuarios disponibles.
+2. En el panel de navegación izquierdo del Microsoft 365 de administración, vaya a Usuarios usuarios activos y, **a** continuación, seleccione el usuario o los usuarios de la lista  >  de usuarios disponibles.
     
     > [!NOTE]
     > Si va a asignar licencias a un máximo de 20 usuarios al mismo tiempo, puede usar el menú desplegable **Seleccionar una vista** y, luego, elegir una de las opciones o crear su propia vista. Luego, haga clic en **Editar**, haga clic dos veces en **Siguiente**, seleccione la licencia y haga clic en **Enviar**.  
   
 3. En el panel de acciones, en **Licencia asignada**, haga clic en **Editar**. 
     
-4. En la página **Asignar licencia**, active **Conferencias RTC de Skype Empresarial** y haga clic en **Guardar**. Para obtener más información sobre las licencias, vea [Licencias de complementos de Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+4. En la página **Asignar licencia**, active **Conferencias RTC de Skype Empresarial** y haga clic en **Guardar**. Para obtener más información sobre las [licencias, vea Microsoft Teams de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
    > [!NOTE]
    > Después de asignar la licencia, puede que Microsoft no aparezca en el menú desplegable como un proveedor de servicios de conferencia de acceso telefónico local. Si esto sucede, cierre sesión en el centro de administración o presione CTRL+F5 para actualizar la ventana del explorador. 
@@ -73,11 +73,11 @@ Es posible que le resulte más fácil ver todas las opciones de configuración d
     
 Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
   
-Vea la [referencia de PowerShell de Microsoft Teams](/powershell/module/teams/?view=teams-ps) para obtener más información.
+Vea la [Microsoft Teams referencia de PowerShell](/powershell/module/teams/?view=teams-ps) para obtener más información.
   
 ## <a name="reset-the-meeting-conference-id"></a>Reset the meeting conference ID
 
-![Icono que muestra el logotipo de Teams ](media/teams-logo-30x30.png) **Con el Centro de administración de Microsoft Teams**
+![Un icono que muestra el Teams ](media/teams-logo-30x30.png) **con el Microsoft Teams de administración**
 
 1. En el panel de navegación izquierdo, haga clic **en Usuarios** y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
@@ -217,11 +217,11 @@ Vea [Ver una lista de números de audioconferencia.](see-a-list-of-audio-confere
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Por qué necesita usar Microsoft 365 u Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [¿Por qué necesita usar Microsoft 365 o Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](/powershell/module/teams/?view=teams-ps).
   

@@ -24,18 +24,18 @@ ms.locfileid: "51891287"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destinos de equipo
 
-Configurar una jerarquía de segmentación de equipos permitirá a su organización publicar contenido en un gran conjunto de equipos. La jerarquía de segmentación de equipos define cómo todos los equipos de la jerarquía están relacionados entre sí, qué usuarios pueden publicar tareas y en qué equipos los usuarios tienen permisos para publicar. Las características de publicación están deshabilitadas para todos los usuarios, a menos que se configure una jerarquía de segmentación de equipos para su organización. Para configurar una jerarquía de segmentación de equipos, deberá crear un archivo que defina la jerarquía y, después, cargarlo en Teams para aplicarlo a su organización. Después de cargar el esquema, las aplicaciones de Teams pueden usarla.
+Configurar una jerarquía de segmentación de equipos permitirá a su organización publicar contenido en un gran conjunto de equipos. La jerarquía de segmentación de equipos define cómo todos los equipos de la jerarquía están relacionados entre sí, qué usuarios pueden publicar tareas y en qué equipos los usuarios tienen permisos para publicar. Las características de publicación están deshabilitadas para todos los usuarios, a menos que se configure una jerarquía de segmentación de equipos para su organización. Para configurar una jerarquía de segmentación de equipos, deberá crear un archivo que defina la jerarquía y, después, cargarlo en Teams para aplicarlo a su organización. Después de cargar el esquema, las aplicaciones de Teams pueden usarlo.
 
 > [!IMPORTANT]
 > Para la versión inicial, solo la aplicación Tareas admite equipos jerárquicos.  Aplicar una jerarquía de segmentación de equipos a su organización habilitará la publicación [de tareas](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) en la aplicación Tareas. No verá una jerarquía de equipos en otras áreas de Microsoft Teams.
 
-Este es un ejemplo de cómo se representa la jerarquía en la aplicación Tareas de Teams. Después de crear una lista de tareas, los miembros del equipo de publicación pueden seleccionar los equipos destinatarios a los que enviar (publicar) la lista de tareas. Al seleccionar equipos, el equipo de publicación puede filtrar por jerarquía, por atributos o por una combinación de ambos.<br>
+Este es un ejemplo de cómo se representa la jerarquía en la aplicación Tareas en Teams. Después de crear una lista de tareas, los miembros del equipo de publicación pueden seleccionar los equipos destinatarios a los que enviar (publicar) la lista de tareas. Al seleccionar equipos, el equipo de publicación puede filtrar por jerarquía, por atributos o por una combinación de ambos.<br>
 
 ![Captura de pantalla de la publicación de tareas](media/manage-tasks-app-publish.png)
 
 ## <a name="terminology"></a>Terminología
 
-Los siguientes términos serán importantes a medida que navegue por las jerarquías. Teams se denominará **nodos.**
+Los siguientes términos serán importantes a medida que navegue por las jerarquías. Teams se denominarán **nodos.**
 
 * **Los nodos raíz** son los nodos superiores de la jerarquía. En el ejemplo, Retail Communications es un nodo raíz.
 * **Los nodos principales** y **los nodos secundarios** son términos que representan una relación entre dos nodos conectados. En el ejemplo, el Distrito 01 es un nodo secundario del área 1.
@@ -74,7 +74,7 @@ Por ejemplo, en la siguiente jerarquía, Recuperar, Comunicaciones y RRHH puede 
 ## <a name="create-your-hierarchy"></a>Crear la jerarquía
 
 > [!NOTE]
-> En el resto de este artículo se describe la configuración de una jerarquía de equipos en el contexto de la publicación de tareas en los equipos destinatarios. Consulte Administrar [la aplicación Tareas](./manage-tasks-app.md) de su organización en Teams para obtener información general sobre la aplicación Tareas, donde aparece la publicación de tareas cuando está habilitada.
+> En el resto de este artículo se describe la configuración de una jerarquía de equipos en el contexto de la publicación de tareas en los equipos destinatarios. Consulte Administrar [la aplicación Tareas](./manage-tasks-app.md) de su organización en Teams para obtener información general sobre la aplicación Tareas, donde la publicación de tareas aparece cuando está habilitada.
 
 El esquema que define la jerarquía se basa en un archivo de valores separados por comas (CSV). Cada fila del archivo CSV corresponde a un nodo dentro de la jerarquía de equipos. Cada fila contiene información que denomina el nodo dentro de la jerarquía, opcionalmente lo vincula a un equipo e incluye atributos que se pueden usar para filtrar equipos en aplicaciones que lo admitan.
 
@@ -104,7 +104,7 @@ Después de agregar las tres columnas necesarias, puede agregar columnas de atri
 
 Al agregar una columna de atributo, tenga en cuenta lo siguiente:
 
-* El nombre de columna que especifique o el nombre de columna que especifique antes de los dos puntos (:) se convierte en el nombre del atributo. Este valor se mostrará en las aplicaciones de Teams que usan la jerarquía.
+* El nombre de columna que especifique o el nombre de columna que especifique antes de los dos puntos (:) se convierte en el nombre del atributo. Este valor se mostrará en las aplicaciones Teams que usan la jerarquía.
 * Puede tener hasta 50 columnas de atributo en la jerarquía.
 * El nombre de columna puede tener hasta 100 caracteres de longitud y contener solo los caracteres A-Z, a-z y 0-9 y espacios. Los nombres de columna deben ser únicos.
 
@@ -116,7 +116,7 @@ Al clasificar los elementos de trabajo una vez de forma centralizada, el equipo 
 
 Al agregar una columna de cubo, tenga en cuenta lo siguiente:
 
-* El nombre de columna se convierte en el nombre del cubo. Cada cubo que especifique aparecerá en la lista Cubos en las aplicaciones de Teams que usan la jerarquía.
+* El nombre de columna se convierte en el nombre del cubo. Cada cubo que especifique aparecerá en la lista Cubos en las Teams aplicaciones que usan la jerarquía.
 * Le recomendamos que no incluya información confidencial en los nombres de los cubos. En este momento, los equipos de publicación no pueden quitar un cubo a través de la publicación después de crearlo.
 * El nombre de la columna debe ir precedido de un hashtag (#). Puede tener hasta 100 caracteres de longitud y contener solo los caracteres A-Z, a-z y 0-9. Por ejemplo, #Operations y #Frozen bienes.
 * Una jerarquía puede contener hasta 25 columnas de cubo. Tenemos previsto trabajar con los clientes para aumentar este límite para organizaciones más grandes.
@@ -150,7 +150,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 
 ## <a name="apply-your-hierarchy"></a>Aplicar la jerarquía
 
-Una vez que haya definido la jerarquía en el archivo CSV del esquema, estará listo para cargarlo en Teams. Para ello, ejecute el siguiente comando. Para realizar este paso, debe ser administrador global o administrador del servicio de Teams.
+Una vez que haya definido la jerarquía en el archivo CSV del esquema, estará listo para cargarlo en Teams. Para ello, ejecute el siguiente comando. Debe ser administrador global o administrador Teams de servicio para realizar este paso.
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
@@ -173,7 +173,7 @@ El comando devolverá los siguientes campos:
 Campo|Descripción
 -----|------------
 Id. | El id. único para la carga.
-Estado | Estado de carga. Los valores **incluyen Inicio,** **Validación,** **Correcto** y **Error**
+Estado | Upload estado. Los valores **incluyen Inicio,** **Validación,** **Correcto** y **Error**
 ErrorDetails | Detalles si hay un error de carga. Para obtener más información sobre los detalles del error, vea la sección Solución de problemas. Si no hay ningún error, este campo está en blanco.
 LastUpdatedAt | Marca de tiempo y fecha de la última actualización del archivo.
 LastModifiedBy | El id. del último usuario que modificó el archivo.
@@ -193,14 +193,14 @@ Al confirmar la eliminación, el mensaje de estado seguirá presentando el esque
 
 ## <a name="create-a-sample-hierarchy"></a>Crear una jerarquía de ejemplo
 
-### <a name="install-the-teams-powershell-module"></a>Instalar el módulo de PowerShell de Teams
+### <a name="install-the-teams-powershell-module"></a>Instalar el Teams PowerShell
 
 > [!IMPORTANT]
-> Para realizar este paso, debe instalar y usar el módulo de vista previa pública de PowerShell de Teams desde la [Galería de PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams/) Para ver los pasos sobre cómo instalar el módulo, vea [Instalar PowerShell de Teams.](teams-powershell-install.md)
+> Para realizar este paso, debe instalar y usar el módulo Teams vista previa pública de PowerShell desde la [Galería de PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams/) Para ver los pasos sobre cómo instalar el módulo, vea [Instalar Teams PowerShell](teams-powershell-install.md).
 
 ### <a name="sample-script"></a>Ejemplo de script
 
-El siguiente script se puede usar para crear los equipos y cargar un archivo .csv en el espacio empresarial de Microsoft Teams. Si tiene una jerarquía existente, este script lo reemplazará.
+El siguiente script se puede usar para crear los equipos y cargar un archivo de .csv a su Microsoft Teams inquilino. Si tiene una jerarquía existente, este script lo reemplazará.
 
 #### <a name="create-teams-for-a-simple-hierarchy"></a>Crear equipos para una jerarquía sencilla
 
@@ -227,14 +227,14 @@ $csvOutput = $csvOutput + $tm6.DisplayName + "," + $tm5.DisplayName + "," + $tm6
 $csvOutput = $csvOutput + $tm7.DisplayName + "," + $tm5.DisplayName + "," + $tm7.GroupID 
 ```
 
-#### <a name="save-output-to-a-csv-file-in-the-downloads-folder"></a>Guardar el resultado en un archivo .csv en la **carpeta Descargas**
+#### <a name="save-output-to-a-csv-file-in-the-downloads-folder"></a>Guardar el resultado en un archivo .csv en la **carpeta** Descargas
 
 ```powershell
 $csvOutputPath = $env:USERPROFILE + "\downloads\testhierarchy-" + (Get-Date -Format "yyyy-MM-dd-hhmmss") + ".csv" 
 $csvOutput | Out-File $csvOutputPath
 ```
 
-#### <a name="upload-the-hierarchy"></a>Cargar la jerarquía
+#### <a name="upload-the-hierarchy"></a>Upload la jerarquía
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath $csvOutputPath
@@ -264,13 +264,13 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-Compruebe que está usando el IdDe Equipo correcto para el equipo en el archivo CSV de esquema. El id. de equipo debe ser el mismo que el id. de grupo del grupo de Microsoft 365 que hace una copia de seguridad del equipo. Puede buscar el id. de grupo del equipo en el Centro de administración de Microsoft Teams.
+Compruebe que está usando el IdDe Equipo correcto para el equipo en el archivo CSV de esquema. El id. de equipo debe ser el mismo que el id. de grupo del grupo Microsoft 365 que hace una copia de seguridad del equipo. Puede buscar el id. de grupo del equipo en el Microsoft Teams de administración.
 
-1. En el panel de navegación izquierdo del Centro de administración de [Microsoft Teams,](https://admin.teams.microsoft.com/)vaya a Administrar equipos de   >  **Teams.**
+1. En el panel de navegación izquierdo [del Microsoft Teams de administración,](https://admin.teams.microsoft.com/)vaya a **Teams**  >  **Administrar equipos.**
 2. Si la **columna Id.** de grupo no se muestra en la tabla, seleccione **Editar** columnas en la esquina superior derecha de la tabla y, después, active Id. **de grupo.**
 3. Busque el equipo en la lista y, a continuación, busque el id. de grupo.
 
-Asegúrese de que el id. de equipo del archivo CSV del esquema coincida con el id. de grupo que se muestra en el Centro de administración de Microsoft Teams.
+Asegúrese de que el id. de equipo del archivo CSV del esquema coincida con el id. de grupo que se muestra en el centro de administración Microsoft Teams esquema.
 
 ## <a name="related-topics"></a>Temas relacionados
 

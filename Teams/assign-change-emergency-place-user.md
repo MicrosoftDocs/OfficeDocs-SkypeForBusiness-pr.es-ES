@@ -29,15 +29,15 @@ ms.locfileid: "51120832"
 
 Cada número de teléfono activo debe tener una ubicación de emergencia asociada al asignar el número de teléfono a un usuario. (Se asocia la dirección al obtener un número de teléfono en Office 365 o al transferir un número de teléfono). Al asociar el número a una ubicación de emergencia, también puede agregar un lugar para proporcionar una ubicación más exacta dentro de una ubicación física. Un lugar puede ser el piso, el ala del edificio u número de oficina donde se encuentra el usuario. Puede tener un número ilimitado de lugares para una ubicación de emergencia determinada y puede cambiar el lugar si el usuario se mueve a otra oficina o edificio. Por ejemplo, si el usuario se mueve del piso 34 al piso 35.
   
-Para obtener información sobre cómo obtener planes de llamadas y cuánto cuestan, vea [Licencias de complementos de Teams.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Para obtener información sobre cómo obtener planes de llamadas y cuánto cuestan, consulte Teams [licencias de complementos.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 Puede asignar o cambiar el lugar de una ubicación de emergencia para un usuario en el centro de administración de Microsoft Teams o mediante PowerShell.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, haga clic en **Números de teléfono** de  >  **voz.**
+1. En el panel de navegación izquierdo del centro Microsoft Teams de administración, haga **clic**  >  **en Teléfono números.**
 
-2. En la **página Números de** teléfono, haga clic en la pestaña **Números,** seleccione un número de usuario en la lista y, a continuación, haga clic en **Editar.**
+2. En la **Teléfono números,** haga  clic en la pestaña Números, seleccione un número de usuario en la lista y, a continuación, haga clic en **Editar.**
 
 3. En el **panel Editar,** en **Ubicación de emergencia**, realice una de las siguientes acciones:
 

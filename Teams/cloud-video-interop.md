@@ -10,7 +10,7 @@ search.appverid: MET150
 ms.reviewer: naforer
 f1.keywords:
 - NOCSH
-description: Use la interoperabilidad de vídeo en la nube como una solución intermedia para permitir que los dispositivos de salas de reuniones de terceros se unan a reuniones de Microsoft Teams.
+description: Use la interoperabilidad de vídeo en la nube como una solución intermedia para permitir que los dispositivos de salas de reuniones de terceros se unan a Microsoft Teams reuniones.
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -29,31 +29,31 @@ ms.locfileid: "51122364"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidad de vídeos en la nube para Microsoft Teams
 
-Cloud Video Interop (CVI) es una solución de terceros calificada por Microsoft que permite que las salas de reuniones de terceros (telepresencia) y los dispositivos de vídeo personales (VTCs) se unan a las reuniones de Microsoft Teams.
+Cloud Video Interop (CVI) es una solución de terceros calificada por Microsoft que permite que las salas de reuniones de terceros (telepresencia) y los dispositivos de vídeo personales (VTCs) se unan a Microsoft Teams reuniones.
  
 Con Microsoft Teams, obtiene colaboración de contenido en línea enriquecido en reuniones que incluyen audio, vídeo y uso compartido de contenido. Esto se puede disfrutar a través del cliente de escritorio y web, así como a través de muchos dispositivos asociados que se integran de forma nativa con Microsoft Teams. Sin embargo, muchos clientes ya han invertido en dispositivos de videoconferencia y videoconferencia personal, lo que puede resultar costoso de actualizar. La interoperabilidad de vídeo en la nube proporciona una solución sencilla que le permite seguir usando las soluciones existentes hasta que esté listo para actualizar.
 
-Con la interoperabilidad de vídeo en la nube, Microsoft Teams ofrece una experiencia de reunión nativa para todos los participantes: en salas de reuniones o dentro de clientes de Teams.
+Con la interoperabilidad de vídeo en la nube, Microsoft Teams ofrece una experiencia de reunión nativa para todos los participantes: en salas de reuniones o dentro de Teams clientes.
 
 ### <a name="is-cloud-video-interop-for-me"></a>¿La interoperabilidad de vídeo en la nube es para mí?
 
-La interoperabilidad de vídeo en la nube proporciona un servicio intermedio mientras se pasa a una solución nativa completa de Microsoft Teams, con puntos de conexión de Teams. El servicio proporcionado debe formar parte de la ruta de migración.
+La interoperabilidad de vídeo en la nube proporciona un servicio intermedio mientras se pasa a una solución nativa completa Microsoft Teams, con Teams de conexión. El servicio proporcionado debe formar parte de la ruta de migración.
 
 La interoperabilidad de vídeo en la nube está destinada a los clientes que cumplen los siguientes criterios:
 
-- Tener una gran implementación de dispositivos de sala de reuniones e implementación de dispositivos de vídeo personales (más de 50 dispositivos) que no están cualificados para la integración directa con Microsoft Teams
+- Tener una gran implementación de dispositivos de sala de reuniones e implementación de dispositivos de vídeo personal (más de 50 dispositivos) que no están cualificados para la integración directa con Microsoft Teams
 - Son compatibles con uno de nuestros partners de interoperabilidad de vídeo en la nube
-- Desea conservar el valor de su inversión en sus dispositivos actuales de la sala de reuniones y dispositivos de vídeo personales durante la migración a una solución nativa de Microsoft Teams
+- Desea conservar el valor de su inversión en sus dispositivos actuales de la sala de reuniones y dispositivos de vídeo personales durante la migración a una solución nativa Microsoft Teams reunión
 
-Aunque la interoperabilidad de vídeo en la nube ofrece una excelente solución intermedia, animamos a nuestros clientes a que busquen nuestras soluciones nativas de reuniones de Teams, como Sistemas de salas de Teams, a largo plazo. 
+Aunque la interoperabilidad de vídeo en la nube proporciona una excelente solución intermedia, animamos a nuestros clientes a que busquen nuestras soluciones nativas de reuniones de Teams, como Teams Room Systems, a largo plazo. 
 
-### <a name="office-365-us-government-and-third-party-services"></a>Office 365 Us Government and third-party services
+### <a name="office-365-us-government-and-third-party-services"></a>Office 365 Servicios gubernamentales y de terceros de EE. UU.
 
-Office 365 ofrece la capacidad de integrar aplicaciones de terceros en sitios de SharePoint Online, Skype Empresarial, Teams, aplicaciones de Office incluidas en aplicaciones de Microsoft 365 para empresas (como Word, Excel, PowerPoint y Outlook) y Outlook Web App. Además, Office 365 admite la integración con proveedores de servicios de terceros. Estas aplicaciones y servicios de terceros pueden implicar almacenar, transmitir y procesar datos de clientes de su organización en sistemas de terceros que están fuera de la infraestructura de Office 365 y, por lo tanto, no están cubiertos por los compromisos de cumplimiento y protección de datos de Office 365. **Se recomienda revisar las declaraciones de privacidad y cumplimiento proporcionadas por los terceros al evaluar el uso adecuado de estos servicios para su organización.**
+Office 365 permite integrar aplicaciones de terceros en sitios de SharePoint Online, Skype Empresarial, Teams y Office incluidas en Aplicaciones Microsoft 365 para empresas (como Word, Excel, PowerPoint y Outlook) y Outlook Web App. Además, Office 365 la integración con proveedores de servicios de terceros. Estas aplicaciones y servicios de terceros pueden implicar almacenar, transmitir y procesar los datos de clientes de su organización en sistemas de terceros que están fuera de la infraestructura de Office 365 y, por lo tanto, no están cubiertos por los compromisos de cumplimiento y protección de datos de Office 365. **Se recomienda revisar las declaraciones de privacidad y cumplimiento proporcionadas por los terceros al evaluar el uso adecuado de estos servicios para su organización.**
 
 
 
-### <a name="partners-certified-for-microsoft-teams"></a>Partners certificados para Microsoft Teams
+### <a name="partners-certified-for-microsoft-teams"></a>Partners Certificados para Microsoft Teams
 
 Los siguientes partners tienen soluciones de interoperabilidad de vídeo para Microsoft Teams. Su empresa puede elegir trabajar con cualquier combinación de estos partners dentro de su empresa. 
 
@@ -66,13 +66,13 @@ Los siguientes partners tienen soluciones de interoperabilidad de vídeo para Mi
 
 ### <a name="cloud-video-interop-overview"></a>Información general sobre la interoperabilidad de vídeo en la nube
 
-Cloud Video Interop es un servicio de terceros que ofrecen nuestros partners para proporcionar interoperabilidad entre las soluciones de videoconferencia y dispositivos de vídeo personales existentes en las instalaciones y Microsoft Teams.
+La interoperabilidad de vídeo en la nube es un servicio de terceros que ofrecen nuestros partners para proporcionar interoperabilidad entre las soluciones existentes de videoconferencias y dispositivos de vídeo personales en las instalaciones y Microsoft Teams.
 
 Las soluciones ofrecidas por nuestros partners consisten en componentes que se pueden implementar ya sea basados en la nube o parcial o totalmente locales. 
      
 En el siguiente diagrama se muestra la arquitectura de alto nivel de nuestras soluciones de partners.
 
-![Diagrama que describe una solución de partner de interoperabilidad de vídeo en la nube de Teams](media/teams-cloud-video-interop-partner-solution.png)
+![Diagrama que describe una solución Teams partner de interoperabilidad de vídeo en la nube](media/teams-cloud-video-interop-partner-solution.png)
 
 
 ## <a name="deploy-cloud-video-interop"></a>Implementar la interoperabilidad de vídeo en la nube
@@ -83,7 +83,7 @@ Al implementar una solución de interoperabilidad de vídeo en la nube, es impor
 
 ### <a name="plan"></a>Plan
 
-Durante la fase del plan, debe identificar los dispositivos que no reemplazará con un dispositivo nativo de Teams y buscar un partner de interoperabilidad de vídeo en la nube que pueda admitir estos dispositivos.  
+Durante la fase del plan, debe identificar los dispositivos que no reemplazará con un dispositivo Teams nativo y buscar un partner de interoperabilidad de vídeo en la nube que pueda admitir estos dispositivos.  
 
 También es importante comprender que necesitará una licencia para cada usuario que programe reuniones en las que desee que se una un dispositivo habilitado para interoperabilidad de vídeo en la nube. Tenga en cuenta que los requisitos de licencia exactos se pueden obtener del partner de interoperabilidad de vídeo en la nube. Asegúrese de que esto está claro antes de iniciar la implementación.
 
@@ -93,7 +93,7 @@ El partner que haya elegido para la implementación de CVI le proporcionará un 
 
 ### <a name="provision"></a>Aprovisionar  
 
-Durante la fase de aprovisionamiento, asignará licencias a los usuarios adecuados según la guía de configuración del partner. También tendrá que pasar por el proceso de consentimiento de Azure para proporcionar al partner acceso a su entorno de Teams. Consulte [Permisos y consentimiento en el punto](/azure/active-directory/develop/v2-permissions-and-consent) de conexión de la plataforma de identidad de Microsoft para obtener más información sobre el proceso de consentimiento de Azure.
+Durante la fase de aprovisionamiento, asignará licencias a los usuarios adecuados según la guía de configuración del partner. También tendrá que pasar por el proceso de consentimiento de Azure para proporcionar al partner acceso a su Teams usuario. Vea [Permisos y consentimiento en el punto de conexión Plataforma de identidad de Microsoft para](/azure/active-directory/develop/v2-permissions-and-consent) obtener más información sobre el proceso de consentimiento de Azure.
 
 ### <a name="schedule"></a>Programar
 
@@ -105,7 +105,7 @@ Según la solución de partner, hay varias formas de unirse a una reunión habil
 
 - IVR (respuesta de voz interactiva) 
   - Puede llamar al IVR del partner con el tenantkey@domain.
-  - Cuando se encuentra en el IVR asociado, se le pedirá que escriba el id. de conferencia de VTC, que le conectará a la reunión de Teams.
+  - Cuando se encuentra en el IVR asociado, se le pedirá que escriba el id. de conferencia de VTC, que le conectará a la reunión Teams asociado.
 - Marcado directo 
   - Puede llamar directamente a la reunión de Teams sin interactuar con el IVR del partner mediante la característica de marcado directo, con la cadena completa de tenantkey. VTC ConferenceId@domain.
 - Marcado con un solo toque 
@@ -119,7 +119,7 @@ Los informes también están disponibles directamente desde la interfaz administ
 
 ### <a name="troubleshooting-cloud-video-interop"></a>Solución de problemas de interoperabilidad de vídeo en la nube
 
-Cloud Video Interop es un servicio proporcionado por un asociado. Si tiene problemas, el primer paso es conectar un dispositivo que tiene el cliente de Teams instalado y conectarlo al mismo segmento que el dispositivo de interoperabilidad de vídeo en la nube que está causando problemas. 
+Cloud Video Interop es un servicio proporcionado por un asociado. Si experimenta problemas, el primer paso es conectar un dispositivo con el cliente de Teams instalado y conectarlo al mismo segmento que el dispositivo de interoperabilidad de vídeo en la nube que está causando problemas. 
 
 Si Teams funciona correctamente en este segmento y también ha seguido todas las directrices de configuración y redes que ha proporcionado el partner, tendrá que ponerse en contacto con el partner para obtener más solución de problemas. 
 

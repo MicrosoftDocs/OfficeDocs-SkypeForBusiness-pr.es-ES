@@ -21,7 +21,7 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: Use detalles de análisis de llamadas por usuario sobre dispositivos, redes y conectividad para solucionar problemas de usuario con llamadas y reuniones de Microsoft Teams.
+description: Use detalles de análisis de llamadas por usuario sobre dispositivos, redes y conectividad para solucionar problemas de usuario con Microsoft Teams llamadas y reuniones.
 ms.openlocfilehash: 4732cf68624b824a452455fc779b22ae7eb32d56
 ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
@@ -31,23 +31,23 @@ ms.locfileid: "51760569"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar análisis de llamadas para solucionar problemas de mala calidad de llamada
 
-En este artículo se explica cómo usar el análisis de llamadas para solucionar problemas de mala calidad de llamadas o reuniones de Microsoft Teams para usuarios individuales si es administrador de Teams o es un especialista o ingeniero de soporte técnico de comunicaciones de Teams.
+Microsoft Teams En este artículo se explica cómo usar el análisis de llamadas para solucionar problemas de mala calidad de una llamada o reunión para usuarios individuales si es un administrador de Teams o un ingeniero de soporte técnico de Teams comunicaciones de Teams.
 
 ## <a name="call-analytics-permissions"></a>Permisos de Análisis de llamadas
 
-En este artículo se presupone que ya ha configurado el análisis de llamadas. Si no lo ha hecho, lea [Configurar análisis de llamadas para Teams.](set-up-call-analytics.md)
+En este artículo se presupone que ya ha configurado el análisis de llamadas. Si no lo ha hecho, lea Configurar [análisis de llamadas para Teams](set-up-call-analytics.md).
 
 ## <a name="introduction-to-call-analytics"></a>Introducción al análisis de llamadas
 
-El análisis de llamadas muestra información detallada sobre las llamadas y reuniones de Teams para cada usuario de su cuenta de Office 365. Incluye información sobre dispositivos, redes, conectividad y calidad de llamadas (cualquiera de ellos puede ser un factor de mala calidad de las llamadas o reuniones). Si carga información de edificio, sitio e inquilino, esta información también se mostrará para cada llamada y reunión. Use el análisis de llamadas para ayudarle a averiguar por qué un usuario tuvo una mala experiencia de llamada o reunión.
+El análisis de llamadas muestra información detallada sobre Teams llamadas y reuniones para cada usuario de su Office 365 cuenta. Incluye información sobre dispositivos, redes, conectividad y calidad de llamadas (cualquiera de ellos puede ser un factor de mala calidad de las llamadas o reuniones). Si carga información de edificio, sitio e inquilino, esta información también se mostrará para cada llamada y reunión. Use el análisis de llamadas para ayudarle a averiguar por qué un usuario tuvo una mala experiencia de llamada o reunión.
 
-El análisis de llamadas muestra cada tramo de una llamada o reunión, por ejemplo, de un participante a un segundo participante. Al analizar estos detalles, un administrador de Teams puede aislar áreas problemáticas e identificar la causa principal de mala calidad.
+El análisis de llamadas muestra cada tramo de una llamada o reunión, por ejemplo, de un participante a un segundo participante. Al analizar estos detalles, un administrador Teams puede aislar áreas problemáticas e identificar la causa raíz de mala calidad.
 
-Como administrador de Teams, obtiene acceso completo a todos los datos de análisis de llamadas para cada usuario. Además, puede asignar roles de Azure Active Directory al personal de soporte técnico. Para obtener más información sobre estos roles, lea Conceder [permiso al personal de soporte técnico y soporte técnico.](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff) No se pierda ¿Qué hace cada rol de [soporte técnico de Teams?](#what-does-each-teams-support-role-do) a continuación.
+Como administrador Teams, obtiene acceso completo a todos los datos de análisis de llamadas para cada usuario. Además, puede asignar roles Azure Active Directory al personal de soporte técnico. Para obtener más información sobre estos roles, lea Conceder [permiso al personal de soporte técnico y soporte técnico.](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff) No se pierda ¿Qué hace cada Teams de soporte técnico? a [continuación.](#what-does-each-teams-support-role-do)
 
 ## <a name="where-to-find-per-user-call-analytics"></a>Dónde buscar análisis de llamadas por usuario
 
-Para ver toda la información de llamada y los datos de un usuario, vaya al Centro [de administración de Teams.](https://admin.teams.microsoft.com) En **Usuarios,** seleccione un usuario y, a continuación, abra la pestaña Reuniones **& llamadas** en la página de perfil del usuario. Aquí encontrará todas las llamadas y reuniones de ese usuario durante los últimos 30 días.
+Para ver toda la información de llamada y los datos de un usuario, vaya al [centro de Teams de administración.](https://admin.teams.microsoft.com) En **Usuarios,** seleccione un usuario y, a continuación, abra la pestaña Reuniones **& llamadas** en la página de perfil del usuario. Aquí encontrará todas las llamadas y reuniones de ese usuario durante los últimos 30 días.
 
 ![Captura de pantalla de todos los datos de usuario de análisis](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
@@ -55,11 +55,11 @@ Para obtener información adicional sobre una sesión determinada, incluidos los
 
 ![Captura de pantalla de los datos de sesión de usuario de análisis de llamadas](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
-## <a name="what-does-each-teams-support-role-do"></a>¿Qué hace cada rol de soporte técnico de Teams?
+## <a name="what-does-each-teams-support-role-do"></a>¿Qué hace cada Teams de soporte técnico?
 
-El **especialista en soporte de comunicaciones de Teams** (soporte técnico de nivel 1) se encarga de los problemas básicos de calidad de las llamadas. No investigan problemas con las reuniones. En su lugar, recopilan información relacionada y luego se escalan a un ingeniero de soporte técnico de comunicaciones.
+El **Teams de soporte técnico de comunicaciones** (soporte técnico de nivel 1) se encarga de los problemas básicos de calidad de las llamadas. No investigan problemas con las reuniones. En su lugar, recopilan información relacionada y luego se escalan a un ingeniero de soporte técnico de comunicaciones.
 
-El **ingeniero de soporte técnico** de comunicaciones de Teams (soporte técnico de nivel 2) ve información en registros de llamadas detallados que se ocultan al especialista en soporte técnico de comunicaciones de Teams. En la tabla siguiente se muestra la información disponible para cada rol de soporte técnico de comunicaciones de Teams.
+El **Teams** de soporte técnico de comunicaciones (soporte técnico de nivel 2) ve información en registros de llamadas detallados que están ocultos del Teams de soporte técnico de comunicaciones. En la tabla siguiente se muestra la información disponible para cada Teams de soporte técnico de comunicaciones.
 
 En la tabla siguiente se indica qué información por usuario está disponible para cada rol de soporte técnico de comunicaciones.
 
@@ -78,7 +78,7 @@ En la tabla siguiente se indica qué información por usuario está disponible p
 
 ## <a name="troubleshoot-user-call-quality-problems"></a>Solucionar problemas de calidad de llamadas de usuario
 
-1. Abra el Centro de administración de Teams ( ) e inicie sesión con el soporte técnico de comunicaciones de <https://admin.teams.microsoft.com> Teams o las credenciales de administrador de Teams.
+1. Abra el Teams de administración ( ) e inicie sesión con su Teams de comunicaciones o <https://admin.teams.microsoft.com> Teams de administrador.
 
 2. En el **panel**, en **Búsqueda** de usuario, empiece a escribir el nombre o  la dirección SIP del usuario cuyas llamadas desea solucionar, o seleccione Ver usuarios para ver una lista de usuarios.
 

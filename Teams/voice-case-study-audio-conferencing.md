@@ -1,5 +1,5 @@
 ---
-title: Caso práctico de Contoso de voz de Teams
+title: Teams caso práctico de Contoso de voz
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Caso práctico de voz de Teams para una corporación multinacional
+description: Teams caso de voz para empresas multinacionales
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 085c9994bc2522d1ab56abc1670113e22d35f642
@@ -25,7 +25,7 @@ ms.locfileid: "51121308"
 ---
 # <a name="contoso-case-study-audio-conferencing"></a>Caso práctico de Contoso: Audioconferencia
 
-Para comprender lo que es la audioconferencia, lo que cuesta, la disponibilidad y cómo funciona Contoso revisó &mdash; &mdash; Audioconferencia en Office [365.](deploy-audio-conferencing-teams-landing-page.md) 
+Para comprender lo que es la audioconferencia, lo que cuesta, la disponibilidad y cómo funciona Contoso revisó &mdash; &mdash; [Audioconferencia](deploy-audio-conferencing-teams-landing-page.md)en Office 365 . 
 
 ## <a name="overview"></a>Información general 
 
@@ -37,18 +37,18 @@ En función de su investigación, Contoso tomó las siguientes decisiones:
 
 - Contoso usaría números de teléfono dedicados y portabilidad de sus números existentes para usarlos con audioconferencias.   
 
-Como los usuarios de Contoso usaban Skype Empresarial y los buzones de todos los usuarios residen en línea, muchos usuarios tienen reuniones existentes programadas. Contoso leyó Usar el servicio de migración de reuniones [(MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) para saber que las reuniones existentes se actualizan automáticamente para Contoso cuando cambian el usuario final al modo TeamsOnly.  
+Dado que los usuarios de Contoso Skype Empresarial y todos los buzones de los usuarios residen en línea, muchos usuarios tienen reuniones existentes programadas. Contoso leyó Usar el servicio de migración de reuniones [(MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) para saber que las reuniones existentes se actualizan automáticamente para Contoso cuando cambian el usuario final al modo TeamsOnly.  
 
 
 ## <a name="configuration"></a>Configuración
 
-Los números de teléfono asociados a las audioconferencias se denominan números de servicio dentro del sistema telefónico. 
+Teléfono los números asociados a las audioconferencias se denominan números de servicio dentro de Sistema telefónico. 
 
 - Para ubicaciones que usan planes de llamadas, para portabilidad de sus números de teléfono existentes de su operador de teléfono a Office 365, Contoso siguió los pasos de Obtener números [de teléfono de servicio.](getting-service-phone-numbers.md)
 
 - Para asignar la licencia de Conferencias de audio al usuario final en el piloto técnico, el administrador de Contoso siguió los pasos descritos en Administrar la configuración de [audioconferencia de su organización.](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md) 
 
-- Para el piloto empresarial y la migración, Contoso usó licencias basadas en grupos siguiendo los pasos de Asignar licencias a usuarios por pertenencia a grupos [en Azure Active Directory.](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
+- Para el piloto empresarial y la migración, Contoso usó licencias [basadas](/azure/active-directory/users-groups-roles/licensing-groups-assign)en grupos siguiendo los pasos de Asignar licencias a los usuarios por pertenencia a grupos en Azure Active Directory .  
 
  
 

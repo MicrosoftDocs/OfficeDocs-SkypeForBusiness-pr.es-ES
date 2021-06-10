@@ -27,17 +27,17 @@ ms.locfileid: "51102986"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Asignar o cambiar la ubicación de emergencia de un usuario
 
-Cuando configura planes de llamadas, debe asignar una ubicación de emergencia a cada número de teléfono o usuario. En los países europeos, la ubicación de emergencia está asociada con el número de teléfono cuando se obtiene desde Microsoft 365 u Office 365 o al transferir un número de teléfono a Microsoft 365 u Office 365. En Estados Unidos, la ubicación de emergencia está asociada con el número de teléfono cuando se asigna al usuario. La dirección de emergencia se puede cambiar si el usuario al que está asignada se mueve a una nueva ubicación. Para obtener más información sobre las direcciones y ubicaciones de emergencia, vea ¿Qué son las ubicaciones de emergencia, los lugares [y el enrutamiento de llamadas?](./what-are-emergency-locations-addresses-and-call-routing.md).
+Cuando configura planes de llamadas, debe asignar una ubicación de emergencia a cada número de teléfono o usuario. En los países europeos, la ubicación de emergencia está asociada con el número de teléfono cuando lo obtiene de Microsoft 365 o Office 365 o al transferir un número de teléfono a Microsoft 365 o Office 365. En Estados Unidos, la ubicación de emergencia está asociada con el número de teléfono cuando se asigna al usuario. La dirección de emergencia se puede cambiar si el usuario al que está asignada se mueve a una nueva ubicación. Para obtener más información sobre las direcciones y ubicaciones de emergencia, vea ¿Qué son las ubicaciones de emergencia, los lugares [y el enrutamiento de llamadas?](./what-are-emergency-locations-addresses-and-call-routing.md).
   
-Para obtener información sobre cómo obtener un plan de llamadas y cuánto cuestan, vea [Licencias de complementos de Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Para obtener información sobre cómo obtener un plan de llamadas y cuánto cuestan, consulte Teams [licencias de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-Puede asignar o cambiar una ubicación de emergencia para un usuario en el centro de administración de Microsoft Teams o mediante PowerShell.
+Puede asignar o cambiar una ubicación de emergencia para un usuario en el centro de Microsoft Teams o mediante PowerShell.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, haga clic en **Números de teléfono** de  >  **voz.**
+1. En el panel de navegación izquierdo del centro Microsoft Teams de administración, haga **clic**  >  **en Teléfono números.**
 
-2. En la **página Números de** teléfono, haga clic en la pestaña **Números,** seleccione un número de usuario en la lista y, a continuación, haga clic en **Editar.**
+2. En la **Teléfono números,** haga  clic en la pestaña Números, seleccione un número de usuario en la lista y, a continuación, haga clic en **Editar.**
 
 3. En el **panel Editar,** en **Ubicación de emergencia**, realice una de las siguientes acciones:
 

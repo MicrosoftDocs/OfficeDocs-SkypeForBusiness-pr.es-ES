@@ -73,7 +73,7 @@ Esta es una directiva por usuario. Esta configuración controla si se puede acti
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
-|**Audio entrante y saliente activado**    |Se permite el audio entrante y saliente en la reunión. Esta configuración es la predeterminada. |
+|**Audio entrante y saliente activado**    |De forma predeterminada, se permiten en la reunión el vídeo y audio entrantes y salientes. |
 |**Deshabilitado**     |El audio entrante y saliente en la reunión está desactivado.     |
 
 Si se establece en **Deshabilitado** para un usuario, el usuario podrá seguir programando y organizando reuniones, pero no podrá usar el audio. Para unirse a una reunión, tendrá que marcar para acceder a través de la red telefónica conmutada (RTC) o hacer que se llame a la reunión y unirse por teléfono a ella. Los participantes de la reunión que no tengan ninguna directiva asignada (por ejemplo, los participantes anónimos) tienen esto establecido como **Audio de salida y entrada habilitado** de forma predeterminada. Si esta opción está deshabilitada en los clientes móviles de Teams, el usuario tendrá que marcar para acceder a la reunión a través de la RTC.
@@ -106,7 +106,7 @@ Para obtener más información, consulte [Administrar el audio y el vídeo de lo
 
 ### <a name="allow-ip-video"></a>Permitir vídeo IP
 
-Esta es una combinación de directiva por organizador y por usuario. El vídeo es un componente clave de las reuniones. En algunas organizaciones, los administradores pueden querer disponer de más control sobre qué reuniones de usuarios tienen vídeo. Esta configuración controla si se puede activar el vídeo en reuniones hospedadas por un usuario y en llamadas 1:1 y de grupo iniciadas por un usuario. En los clientes móviles de Teams, esta configuración controla si los usuarios pueden compartir fotos y vídeos en una reunión. 
+Esta es una combinación de directiva por organizador y por usuario. El vídeo es un componente clave de las reuniones. En algunas organizaciones, los administradores pueden querer disponer de más control sobre qué reuniones de usuarios tienen vídeo. Esta configuración controla si se puede activar el vídeo en reuniones hospedadas por un usuario y en llamadas 1:1 y de grupo iniciadas por un usuario. En Teams móviles, esta configuración controla si los usuarios pueden compartir fotos y vídeos en una reunión. 
 
 Las reuniones organizadas por un usuario que tiene habilitada esta configuración de directiva, permiten el uso compartido de vídeo en la reunión por parte de los participantes de la reunión, si estos también tienen la configuración de directiva habilitada. Los participantes de la reunión a los que no se les ha asignado ninguna directiva (por ejemplo, los participantes anónimos y federados) heredan la directiva del organizador de la reunión.
 
@@ -134,7 +134,7 @@ Para obtener más información, consulte [Administrar el audio y el vídeo de lo
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>¿Qué configuración de directiva de vídeo IP tiene prioridad?
 
-Para un usuario, la configuración de directiva más restrictiva para el vídeo tiene prioridad. Por ejemplo:
+Para un usuario, la configuración de directiva más restrictiva para el vídeo tiene prioridad. Estos son algunos ejemplos.
 
 |Permitir vídeo IP|Modo de vídeo IP|Experiencia de reunión|
 |---------|---------|---------|
@@ -174,7 +174,7 @@ Para las reuniones que necesitan una experiencia de vídeo de mayor calidad, com
 
 <a name="bkvideofilters"> </a>
 
-Esta es una directiva por usuario. Esta configuración controla si los usuarios pueden personalizar su fondo de vídeo en una reunión.
+Esta configuración se aplica por participante. Esta configuración controla si los usuarios pueden personalizar su fondo de vídeo en una reunión.
 
 Actualmente, solo puede usar PowerShell para establecer esta directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
 

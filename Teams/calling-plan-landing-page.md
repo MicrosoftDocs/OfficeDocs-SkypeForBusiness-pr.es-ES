@@ -14,7 +14,7 @@ f1.keywords:
 - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: Determine qué plan de llamadas de Microsoft Phone System servirá mejor a su organización en Voz en la nube en Teams.
+description: Determine qué Teléfono Microsoft plan de llamadas del sistema servirá mejor a su organización en Cloud Voice en Teams.
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
@@ -27,23 +27,23 @@ ms.locfileid: "51102736"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>¿Qué plan de llamada es adecuado para usted? 
 
-Ha completado la [introducción.](get-started-with-teams-quick-start.md) Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Puede que haya implementado Reuniones [& conferencias.](deploy-meetings-microsoft-teams-landing-page.md) Ahora ya está listo para agregar cargas de trabajo de voz en la nube y ha decidido usar Microsoft Phone System con plan de llamadas para conectarse a la red telefónica conmutada (RTC). 
+Ha completado la [introducción.](get-started-with-teams-quick-start.md) Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Puede que haya implementado Reuniones [& conferencias.](deploy-meetings-microsoft-teams-landing-page.md) Ahora ya está listo para agregar cargas de trabajo de voz en la nube y ha decidido usar Teléfono Microsoft System con plan de llamadas para conectarse a la red telefónica conmutada (RTC). 
 
-En este artículo se describen las decisiones básicas de implementación de planes de llamadas, así como consideraciones adicionales que puede que desee configurar, en función de las necesidades de su organización. También debe leer Voz en [la nube en Microsoft Teams](cloud-voice-landing-page.md) para obtener más información sobre las ofertas de voz en la nube de Microsoft.
+En este artículo se describen las decisiones básicas de implementación de planes de llamadas, así como consideraciones adicionales que puede que desee configurar, en función de las necesidades de su organización. También debe leer Voz en la [nube en Microsoft Teams](cloud-voice-landing-page.md) para obtener más información sobre las ofertas de voz en la nube de Microsoft.
 
 
 ## <a name="learn-more-about-calling-plans"></a>Más información sobre planes de llamadas
 
 En los artículos siguientes se proporciona más información sobre la implementación y el uso de planes de llamadas de Microsoft:
 
-- [Sistema telefónico en Microsoft 365 u Office 365](what-is-phone-system-in-office-365.md)
-- [Planes de llamadas para Microsoft 365 u Office 365](calling-plans-for-office-365.md)
+- [Sistema telefónico en Microsoft 365 o Office 365](what-is-phone-system-in-office-365.md)
+- [Planes de llamadas para Microsoft 365 o Office 365](calling-plans-for-office-365.md)
 - [Configurar planes de llamadas](set-up-calling-plans.md)
 
 
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales
 
-Para usar Microsoft como operador de telefonía, debe obtener licencias del Plan de llamadas y asignarlas a los usuarios del sistema telefónico. 
+Para usar Microsoft como operador de telefonía, debe obtener licencias del Plan de llamadas y asignarlas a sus Sistema telefónico usuarios. 
 
 Hay dos tipos de planes de llamadas disponibles:
 
@@ -53,19 +53,19 @@ Hay dos tipos de planes de llamadas disponibles:
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
 |¿Hay planes de llamadas disponibles en mi área? ¿Qué ubicaciones de usuario tendrán servicio plan de llamadas? | Para obtener más información, vea [Disponibilidad de país y región para planes de audioconferencias y llamadas.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | 
-¿Mis usuarios necesitan llamadas internacionales? | Para obtener más información, vea [Planes de llamadas para Microsoft 365 u Office 365.](calling-plans-for-office-365.md) |
+¿Mis usuarios necesitan llamadas internacionales? | Para obtener más información, vea [Planes de Microsoft 365 o Office 365](calling-plans-for-office-365.md). |
 ¿Mis usuarios tienen licencias de planes de llamadas? | Para comprar y asignar licencias, vea [Paso 2: Comprar y asignar licencias.](set-up-calling-plans.md#step-2-buy-and-assign-licenses) |
 ¿Mis usuarios tienen cada uno un número de teléfono de marcado directo hacia adentro (DID)? | Para obtener números de teléfono, vea [Paso 3: Obtener números de teléfono.](set-up-calling-plans.md#step-3-get-phone-numbers) |
 |||
 
-### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Transferir números de teléfono a Microsoft 365 u Office 365
+### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Transferir números de teléfono a Microsoft 365 o Office 365
 
-Es fácil transferir los números de teléfono de su proveedor de servicios actual a Teams. Después de portabilidad de los números de teléfono a Teams, Microsoft se convertirá en su proveedor de servicios y le facturará esos números de teléfono. Para obtener más información, vea [Transferir números de teléfono a Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+Es fácil transferir los números de teléfono de su proveedor de servicios actual a Teams. Después de portabilidad de los números de teléfono a Teams, Microsoft se convertirá en su proveedor de servicios y le facturará esos números de teléfono. Para obtener más información, vea [Transferir números de teléfono a Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>Números de teléfono y ubicaciones de emergencia
 
-Con planes de llamadas en Microsoft 365 u Office 365, todos los usuarios de su organización deben tener un número de teléfono de llamada directa (DID) único y una dirección de emergencia validada correspondiente. También puede especificar una ubicación de emergencia dentro de la dirección de emergencia (por ejemplo, un número de oficina o un número de planta). 
+Con planes de llamadas en Microsoft 365 o Office 365, todos los usuarios de su organización deben tener un número de teléfono de marcado directo (DID) único y una dirección de emergencia validada correspondiente. También puede especificar una ubicación de emergencia dentro de la dirección de emergencia (por ejemplo, un número de oficina o un número de planta). 
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|

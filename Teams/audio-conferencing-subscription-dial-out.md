@@ -31,7 +31,7 @@ ms.locfileid: "51617772"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Beneficio de minutos de la suscripción de audioconferencia "Dial-Out"/"Call Me At"
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Audioconferencia RTC de Microsoft Teams y Skype Empresarial
+## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams y Skype Empresarial de audioconferencia RTC
 
 Cada suscripción de audioconferencia proporciona 60 minutos por usuario al mes que se pueden usar para llamar a números que no sean premium en CUALQUIERA de los países de zona A como se describe en este documento. El tamaño del grupo de minutos de acceso telefónico de tu inquilino se basa en *las licencias adquiridas.* Esta ventaja es aplicable a  las licencias de suscripción mensuales de Audioconferencia y no se extiende a las licencias de pago por minuto para conferencias de audio.
 
@@ -76,11 +76,11 @@ Tenga en cuenta el siguiente ejemplo. Un cliente ha comprado 115 licencias de su
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>¿Cómo puedo supervisar minutos el uso de mi grupo?
 
-- Puede supervisar el uso del grupo de minutos de acceso telefónico en el Centro de administración de Microsoft Teams. En el panel de navegación izquierdo, vaya a **Análisis & informes de** uso y, a continuación, seleccione Grupos de minutos  >   **RTC.** El grupo de minutos de acceso telefónico local de zona A se etiquetará en el informe como "Llamadas salientes a países de la zona A".
+- Puede supervisar el uso del grupo de minutos de acceso telefónico en el Microsoft Teams de administración. En el panel de navegación izquierdo, vaya a **Análisis & informes de** uso y, a continuación, seleccione Grupos de minutos  >   **RTC.** El grupo de minutos de acceso telefónico local de zona A se etiquetará en el informe como "Llamadas salientes a países de la zona A".
 - Las notificaciones por correo electrónico se enviarán a los siguientes administradores cuando el uso del grupo de minutos de acceso telefónico de su organización haya alcanzado el 80 por ciento y el 100 por ciento:
 
   - Administrador de facturación
-  - Administrador de Skype Empresarial
+  - Skype Empresarial Administrador
   - Administrador global 
   - Administrador de usuarios
   - Administrador del departamento de soporte técnico
@@ -93,7 +93,7 @@ Tenga en cuenta el siguiente ejemplo. Un cliente ha comprado 115 licencias de su
   - Administrador de autenticación con privilegios
   - Administrador de comunicaciones de Teams
   - Ingeniero de soporte en comunicaciones de Teams
-  - Especialista en soporte técnico de Comunicaciones de Teams
+  - Teams Especialista en soporte técnico de comunicaciones
   - Administrador de Teams
 
 Para obtener información adicional sobre créditos de comunicación, vea [Créditos de comunicaciones.](what-are-communications-credits.md)

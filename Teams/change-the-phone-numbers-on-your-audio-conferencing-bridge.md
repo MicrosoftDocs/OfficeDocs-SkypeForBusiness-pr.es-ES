@@ -32,12 +32,12 @@ ms.locfileid: "51102666"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
-Al comprar licencias **de audioconferencia,** Microsoft hospeda el puente de audioconferencia para su organización. El puente de audioconferencia proporciona números de teléfono de acceso telefónico local de diferentes ubicaciones para que los organizadores y participantes de la reunión puedan usarlos para unirse a reuniones de Skype Empresarial o Microsoft Teams con un teléfono.
+Al comprar licencias **de audioconferencia,** Microsoft hospeda el puente de audioconferencia para su organización. El puente de audioconferencia proporciona números de teléfono de acceso telefónico local de diferentes ubicaciones para que los organizadores y participantes de la reunión puedan usarlos para unirse Skype Empresarial o Microsoft Teams reuniones con un teléfono.
   
 Además de los números de teléfono ya asignados al puente de conferencias, puede obtener números de servicio adicionales [(números](./getting-service-phone-numbers.md) gratuitos y de pago usados para audioconferencias) de otras ubicaciones y, después, asignarlos al puente de conferencias para que pueda expandir la cobertura para los usuarios.
   
 > [!NOTE]
-> Para poder asignar o desasignar un número de teléfono para un puente de conferencias, el número de teléfono debe ser un número *de "servicio".* Para ver el tipo de número que es, vaya a Números de teléfono de voz en el Centro de administración de Microsoft Teams y busque en  >   la columna **Tipo de** número. Los créditos de comunicaciones de Microsoft 365 u Office 365 deben configurarse primero para que los usuarios puedan llamar al puente en un número gratuito.
+> Para poder asignar o desasignar un número de teléfono para un puente de conferencias, el número de teléfono debe ser un número *de "servicio".* Para ver el tipo de número que es, vaya a Números de Teléfono en el centro de administración de Microsoft Teams y busque en la  >   columna **Tipo de** número. Microsoft 365 o Office 365 créditos de comunicaciones deben configurarse primero para que los usuarios puedan llamar al puente en un número gratuito.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Pasos para asignar un número de teléfono de servicio nuevo a su puente de conferencia
 
@@ -45,7 +45,7 @@ Además de los números de teléfono ya asignados al puente de conferencias, pue
 
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
 
-1. En el panel de navegación izquierdo, vaya a **Números de teléfono** de  >  **voz.**
+1. En el panel de navegación izquierdo, vaya **a Números** de  >  **Teléfono voz.**
 
 2. Seleccione el número de teléfono de la lista y haga clic en **Editar.**
 
@@ -67,7 +67,7 @@ Solo se puede establecer un número de pago de servicio como el número predeter
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Paso 3: Cambiar los números de teléfono predeterminados que se incluyen en las invitaciones de reunión de los usuarios (opcional)
 
-Los números de teléfono predeterminados de un usuario son los que se incluyen en las invitaciones de reunión cuando programan una reunión. Para obtener más información, incluido cómo se asignan los números de teléfono predeterminados a los nuevos usuarios, vea Establecer los números de teléfono [incluidos](set-the-phone-numbers-included-on-invites-in-teams.md) en las invitaciones en Microsoft Teams o Establecer los números de teléfono incluidos en las invitaciones en [Skype Empresarial Online.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
+Los números de teléfono predeterminados de un usuario son los que se incluyen en las invitaciones de reunión cuando programan una reunión. Para obtener más información, incluido cómo se asignan los números de teléfono predeterminados a los nuevos usuarios, vea Establecer los números de teléfono [incluidos](set-the-phone-numbers-included-on-invites-in-teams.md) en las invitaciones en Microsoft Teams o Establecer los números de teléfono incluidos en las invitaciones [en Skype Empresarial Online.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
 
@@ -81,7 +81,7 @@ Una vez aplicados los cambios, los nuevos números de teléfono predeterminados 
 
 ### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Paso 4: Actualizar las invitaciones de reunión existentes de los usuarios con el servicio de migración de reuniones (opcional)
 
-Para los dos pasos siguientes, deberá iniciar Windows PowerShell.
+Para los dos pasos siguientes, tendrá que iniciar Windows PowerShell.
   
 Si actualizó los números de teléfono predeterminados que se incluyen en las invitaciones de reunión para algunos o todos los usuarios, opcionalmente puede actualizar las invitaciones a reuniones que ya se enviaron a los usuarios de su organización antes de cambiar sus números de teléfono predeterminados con el Servicio de migración de reuniones. Para obtener información adicional, consulte [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
@@ -114,9 +114,9 @@ Reemplace el número de pago o gratuito predeterminado para todos los usuarios q
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
- >También puede cambiar el número predeterminado de usuarios gratuitos o de pago en el Centro de administración de Microsoft Teams. No obstante, en este modo no se volverán a programar las reuniones automáticamente. 
+ >También puede cambiar el número de usuarios de pago o gratuito predeterminado en el centro Microsoft Teams administración. No obstante, en este modo no se volverán a programar las reuniones automáticamente. 
  
- Para obtener más información, vea Establecer los números de teléfono [incluidos](set-the-phone-numbers-included-on-invites-in-teams.md) en las invitaciones en Microsoft Teams o Establecer los números de teléfono incluidos en las invitaciones [en Skype Empresarial Online.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
+ Para obtener información adicional, vea Establecer los números de teléfono [incluidos](set-the-phone-numbers-included-on-invites-in-teams.md) en las invitaciones en Microsoft Teams o Establecer los números de teléfono incluidos en las [invitaciones en Skype Empresarial En línea.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
   > [!NOTE]
   > Dependiendo de cuál sea el tamaño de su organización, este proceso podría llevar algún tiempo.
@@ -180,7 +180,7 @@ Para ahorrar tiempo automatizando este proceso, puede usar los [cmdlets Set-CsOn
   ```
 
     > [!NOTE]
-    > La ubicación que se usa anteriormente debe coincidir con la información de contacto de los usuarios que se establece en el Centro de administración de Microsoft 365.
+    > La ubicación que se usa anteriormente debe coincidir con la información de contacto de los usuarios que se establece en el centro Microsoft 365 administración.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
@@ -202,15 +202,15 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 ## <a name="about-windows-powershell"></a>Acerca de Windows PowerShell
 
-Con Windows PowerShell puede administrar los usuarios y lo que pueden o no pueden hacer. Windows PowerShell puede ayudarle a administrar Microsoft 365 u Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario, especialmente cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
+Con Windows PowerShell puede administrar los usuarios y lo que pueden o no pueden hacer. Windows PowerShell puede ayudarle a administrar Microsoft 365 o Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario, especialmente cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
 
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell tiene muchas ventajas en velocidad, sencillez y productividad sobre el uso solo del Centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso del centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
 
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

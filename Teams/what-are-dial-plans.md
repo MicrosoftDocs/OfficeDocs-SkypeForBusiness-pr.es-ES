@@ -39,13 +39,13 @@ Vea [Crear y administrar planes de marcado](create-and-manage-dial-plans.md) par
 
 ## <a name="tenant-dial-plan-scope"></a>Alcance de un plan de marcado inquilino
 
-El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. Los clientes obtienen el plan de marcado adecuado mediante la configuración de aprovisionamiento que se proporciona automáticamente cuando los usuarios inician sesión en Teams. Como administrador, puede administrar y asignar niveles de ámbito del plan de marcado mediante el Centro de administración de Microsoft Teams o PowerShell remoto.
+El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. Los clientes obtienen el plan de marcado adecuado mediante la configuración de aprovisionamiento que se proporciona automáticamente cuando los usuarios inician sesión en Teams. Como administrador, puede administrar y asignar niveles de ámbito del plan de marcado mediante el centro de administración Microsoft Teams o PowerShell remoto.
 
-En Teams, hay dos tipos de planes de marcado: ámbito de servicio y ámbito de inquilino (que es para su organización). Se define un plan de marcado con ámbito de servicio para todos los países o regiones en los que el sistema telefónico esté disponible. A cada usuario se le asigna automáticamente el plan de marcado país de servicio que coincide con la ubicación de uso asignada al usuario. No puede cambiar el plan de marcado de país de servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumenten el plan de marcado de país de servicio. A medida que se aprovisionan los clientes, obtienen un "plan de marcado efectivo", que es una combinación del plan de marcado de país de servicio y el plan de marcado de inquilinos con el ámbito adecuado. Por lo tanto, no es necesario definir todas las reglas de normalización de los planes de marcado de inquilino ya que es posible que existan en el plan de marcado del país de servicio.
+En Teams, hay dos tipos de planes de marcado: ámbito de servicio y ámbito de inquilino (que es para su organización). Se define un plan de marcado de ámbito de servicio para todos los países o regiones en los que Sistema telefónico disponible. A cada usuario se le asigna automáticamente el plan de marcado país de servicio que coincide con la ubicación de uso asignada al usuario. No puede cambiar el plan de marcado de país de servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumenten el plan de marcado de país de servicio. A medida que se aprovisionan los clientes, obtienen un "plan de marcado efectivo", que es una combinación del plan de marcado de país de servicio y el plan de marcado de inquilinos con el ámbito adecuado. Por lo tanto, no es necesario definir todas las reglas de normalización de los planes de marcado de inquilino ya que es posible que existan en el plan de marcado del país de servicio.
 
 Los planes de marcado de inquilinos se pueden dividir en dos ámbitos: espacio empresarial o ámbito de usuario. Si un inquilino define y asigna un plan de marcado de ámbito de usuario, ese usuario recibirá un plan de marcado efectivo del plan de marcado de país de servicio del usuario y el plan de marcado de usuario asignado. Si un inquilino define un plan de marcado de ámbito empresarial pero no asigna un plan de marcado de ámbito de usuario, ese usuario se aprovisionará con un plan de marcado efectivo del plan de marcado de país de servicio del usuario y el plan de marcado de inquilino.
 
-A continuación se muestra el modelo de herencia de planes de marcado en Teams.
+A continuación se muestra el modelo de herencia de los planes de marcado en Teams.
 
 ![Cómo se heredan los planes de marcado en Teams](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
@@ -111,9 +111,9 @@ Dado que cualquier plan de marcado de inquilino se combina de forma efectiva con
 ### <a name="creating-normalization-rules"></a>Crear reglas de normalización
 <a name="createrule"> </a>
 
-Las reglas de normalización .NET Framework expresiones regulares para especificar patrones de coincidencia numéricos que el servidor usa para traducir cadenas de marcado al formato E.164. Las reglas de normalización se pueden crear al especificar la expresión habitual para la coincidencia y la traducción que se debe realizar al encontrarla. Al terminar puede ingresar un número de prueba para verificar que la regla de normalización funcione según lo esperado.
+Las reglas de normalización .NET Framework expresiones regulares para especificar patrones numéricos de coincidencia que usa el servidor para traducir cadenas de marcado al formato E.164. Las reglas de normalización se pueden crear al especificar la expresión habitual para la coincidencia y la traducción que se debe realizar al encontrarla. Al terminar puede ingresar un número de prueba para verificar que la regla de normalización funcione según lo esperado.
 
-Para obtener más información sobre .NET Framework expresiones regulares, [vea .NET Framework expresiones regulares.](/dotnet/standard/base-types/regular-expressions)
+Para obtener más información sobre .NET Framework expresiones regulares, vea [.NET Framework expresiones regulares.](/dotnet/standard/base-types/regular-expressions)
 
 Vea [Crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear y administrar reglas de normalización para los planes de marcado de inquilino.
 

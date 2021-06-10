@@ -45,7 +45,7 @@ Antes de que se pueda procesar una llamada entrante o saliente, los mensajes OPT
 > [!NOTE]
 > Los encabezados SIP no contienen userinfo en el URI de SIP en uso. Según [RFC 3261, sección 19.1.1,](https://tools.ietf.org/html/rfc3261#section-19.1.1)la parte userinfo de un URI es opcional y puede estar ausente cuando el host de destino no tiene un concepto de usuarios o cuando el propio recurso está identificado. Si el signo @ está presente en un URI SIP, el campo de usuario NO DEBE estar vacío.
 
-En una llamada entrante, el proxy SIP debe buscar el espacio empresarial al que está destinada la llamada y encontrar el usuario específico dentro de este espacio empresarial. El administrador de inquilinos puede configurar números que no son DID, por ejemplo +1001, en varios inquilinos. Por lo tanto, es importante buscar el espacio empresarial específico en el que realizar la búsqueda de números porque los números que no son DID pueden ser los mismos en varias organizaciones de Microsoft 365 u Office 365.  
+En una llamada entrante, el proxy SIP debe buscar el espacio empresarial al que está destinada la llamada y encontrar el usuario específico dentro de este espacio empresarial. El administrador de inquilinos puede configurar números que no son DID, por ejemplo +1001, en varios inquilinos. Por lo tanto, es importante buscar el espacio empresarial específico en el que realizar la búsqueda de números porque los números que no son DID pueden ser los mismos en varias Microsoft 365 o Office 365 organizaciones.  
 
 En esta sección se describe cómo el proxy SIP encuentra el inquilino y el usuario, y realiza la autenticación del SBC en la conexión entrante.
 
@@ -71,11 +71,11 @@ Al recibir la invitación, el proxy SIP realiza los pasos siguientes:
 
 2. Intente buscar un inquilino con el nombre completo fqdn que se muestra en el encabezado Contacto.  
 
-   Compruebe si el nombre FQDN del encabezado de contacto (sbc1.adatum.biz) está registrado como nombre DNS en cualquier organización de Microsoft 365 u Office 365. Si se encuentra, la búsqueda del usuario se realiza en el espacio empresarial que tiene el FQDN de SBC registrado como nombre de dominio. Si no se encuentra, se aplica el paso 3.   
+   Compruebe si el nombre FQDN del encabezado de contacto (sbc1.adatum.biz) está registrado como nombre DNS en cualquier Microsoft 365 o Office 365 organización. Si se encuentra, la búsqueda del usuario se realiza en el espacio empresarial que tiene el FQDN de SBC registrado como nombre de dominio. Si no se encuentra, se aplica el paso 3.   
 
 3. El paso 3 solo se aplica si se ha fallado el paso 2. 
 
-   Quite la parte del host del FQDN, que se muestra en el encabezado De contacto (FQDN: sbc12.adatum.biz, después de quitar la parte del host: adatum.biz) y compruebe si este nombre está registrado como nombre DNS en cualquier organización de Microsoft 365 u Office 365. Si se encuentra, la búsqueda de usuario se realiza en este espacio empresarial. Si no se encuentra, se produce un error en la llamada.
+   Quite la parte del host del FQDN, que se muestra en el encabezado Contacto (FQDN: sbc12.adatum.biz, después de quitar la parte del host: adatum.biz) y compruebe si este nombre está registrado como nombre DNS en cualquier organización Microsoft 365 o Office 365. Si se encuentra, la búsqueda de usuario se realiza en este espacio empresarial. Si no se encuentra, se produce un error en la llamada.
 
 4. Con el número de teléfono presentado en el URI de solicitud, realice la búsqueda de número inverso dentro del espacio empresarial que se encuentra en los pasos 2 o 3. Coincida con el número de teléfono presentado con un URI SIP de usuario dentro del espacio empresarial encontrado en el paso anterior.
 
@@ -158,7 +158,7 @@ En la siguiente tabla se resumen las diferencias y similitudes de flujo de llama
 
 ###  <a name="non-media-bypass-flow"></a>Flujo de omisión no multimedia
 
-Un usuario de Teams puede tener varios puntos de conexión al mismo tiempo. Por ejemplo, cliente de Teams para Windows, cliente de Teams para iPhone y Teams Phone (cliente Android de Teams). Cada punto de conexión puede indicar un reposo HTTP de la siguiente manera:
+Un Teams usuario puede tener varios puntos de conexión al mismo tiempo. Por ejemplo, Teams para Windows cliente, Teams para iPhone cliente y Teams Teléfono (Teams cliente Android). Cada punto de conexión puede indicar un reposo HTTP de la siguiente manera:
 
 -   Progreso de la llamada: convertido por el proxy SIP al mensaje SIP 180. Al recibir el mensaje 180, el SBC debe generar una llamada local.
 
@@ -176,9 +176,9 @@ Un usuario de Teams puede tener varios puntos de conexión al mismo tiempo. Por 
 
 1.  Al recibir la primera invitación desde el SBC, el proxy SIP envía el mensaje "SIP SIP/2.0 100 Trying" y notifica a todos los extremos del usuario final sobre la llamada entrante. 
 
-2.  Tras la notificación, cada punto de conexión empezará a sonar y a enviar mensajes de "Progreso de llamada" al proxy SIP. Como un usuario de Teams puede tener varios puntos finales, el proxy SIP puede recibir varios mensajes de progreso de llamada.
+2.  Tras la notificación, cada punto de conexión empezará a sonar y a enviar mensajes de "Progreso de llamada" al proxy SIP. Dado que Teams usuario puede tener varios puntos finales, el proxy SIP puede recibir varios mensajes de progreso de llamada.
 
-3.  Por cada mensaje de progreso de llamada recibido de los clientes, el proxy SIP convierte el mensaje de progreso de llamada en el mensaje SIP "SIP SIP/2.0 180 Trying". El intervalo para enviar estos mensajes se define por el intervalo de los mensajes de recepción desde el controlador de llamadas. En el siguiente diagrama, hay dos 180 mensajes generados por el proxy SIP. Estos mensajes proceden de los dos puntos de conexión de Teams del usuario. Cada uno de los clientes tiene un id. de etiqueta único.  Cada mensaje procedente de un punto de conexión diferente será una sesión independiente (el parámetro "etiqueta" en el campo "Para" será diferente). Sin embargo, es posible que un punto de conexión no genere el mensaje 180 y envíe el mensaje 183 inmediatamente, como se muestra en el siguiente diagrama.
+3.  Por cada mensaje de progreso de llamada recibido de los clientes, el proxy SIP convierte el mensaje de progreso de llamada en el mensaje SIP "SIP SIP/2.0 180 Trying". El intervalo para enviar estos mensajes se define por el intervalo de los mensajes de recepción desde el controlador de llamadas. En el siguiente diagrama, hay dos 180 mensajes generados por el proxy SIP. Estos mensajes proceden de los dos Teams de conexión del usuario. Cada uno de los clientes tiene un id. de etiqueta único.  Cada mensaje procedente de un punto de conexión diferente será una sesión independiente (el parámetro "etiqueta" en el campo "Para" será diferente). Sin embargo, es posible que un punto de conexión no genere el mensaje 180 y envíe el mensaje 183 inmediatamente, como se muestra en el siguiente diagrama.
 
 4.  Una vez que un punto de conexión genera un mensaje de respuesta multimedia con las direcciones IP de los candidatos multimedia del punto de conexión, el proxy SIP convierte el mensaje recibido en un mensaje "Progreso de sesión SIP 183" con el SDP del cliente reemplazado por el SDP desde el procesador multimedia. En el siguiente diagrama, el punto de conexión de Bifurcación 2 respondió a la llamada. Si el tronco no se omite, el mensaje SIP 183 solo se genera una vez (anillo bot o punto final del cliente). El 183 puede venir en una bifurcación existente o iniciar una nueva.
 
@@ -191,9 +191,9 @@ Un usuario de Teams puede tener varios puntos de conexión al mismo tiempo. Por 
 
 1.  Al recibir la primera invitación desde el SBC, el proxy SIP envía el mensaje "SIP SIP/2.0 100 Trying" y notifica a todos los extremos del usuario final sobre la llamada entrante. 
 
-2.  Tras la notificación, cada punto de conexión empezará a sonar y a enviar el mensaje "Progreso de la llamada" al proxy SIP. Como un usuario de Teams puede tener varios puntos finales, el proxy SIP puede recibir varios mensajes de progreso de llamada.
+2.  Tras la notificación, cada punto de conexión empezará a sonar y a enviar el mensaje "Progreso de la llamada" al proxy SIP. Dado que Teams usuario puede tener varios puntos finales, el proxy SIP puede recibir varios mensajes de progreso de llamada.
 
-3.  Por cada mensaje de progreso de llamada recibido de los clientes, el proxy SIP convierte el mensaje de progreso de llamada en el mensaje SIP "SIP SIP/2.0 180 Trying".  El intervalo para enviar los mensajes se define por el intervalo de recepción de los mensajes desde el controlador de llamadas. En la imagen siguiente hay dos 180 mensajes generados por el proxy SIP, lo que significa que el usuario ha iniciado sesión en tres clientes de Teams y cada cliente envía el progreso de la llamada. Cada mensaje será una sesión independiente (el parámetro "etiqueta" en el campo "Para" es diferente)
+3.  Por cada mensaje de progreso de llamada recibido de los clientes, el proxy SIP convierte el mensaje de progreso de llamada en el mensaje SIP "SIP SIP/2.0 180 Trying".  El intervalo para enviar los mensajes se define por el intervalo de recepción de los mensajes desde el controlador de llamadas. En la imagen siguiente hay dos 180 mensajes generados por el proxy SIP, lo que significa que el usuario ha iniciado sesión en tres clientes Teams y cada cliente envía el progreso de la llamada. Cada mensaje será una sesión independiente (el parámetro "etiqueta" en el campo "Para" es diferente)
 
 4.  Se envía un mensaje de aceptación de llamadas con los candidatos finales del punto de conexión que aceptaron la llamada. El mensaje Aceptación de llamadas se convierte en mensaje SIP 200. 
 
@@ -273,7 +273,7 @@ El estándar se explica en la sección 6 de RFC 5589. Las RFC relacionadas son:
 Esta opción supone que el proxy SIP actúa como transferor y envía un mensaje De referencia al SBC. El SBC actúa como transferible y controla la referencia para generar una nueva oferta de transferencia. Hay dos casos posibles:
 
 - La llamada se transfiere a un participante RTC externo. 
-- La llamada se transfiere de un usuario de Teams a otro usuario de Teams en el mismo espacio empresarial a través del SBC. 
+- La llamada se transfiere de un Teams a otro Teams en el mismo espacio empresarial a través del SBC. 
 
 Si la llamada se transfiere de un usuario de Teams a otro a través del SBC, se espera que el SBC emita una nueva invitación (iniciar un nuevo cuadro de diálogo) para el destino de transferencia (el usuario de Teams) con la información recibida en el mensaje Referencia. 
 
@@ -311,7 +311,7 @@ Microsoft recomienda aplicar siempre el parámetro user=phone para simplificar e
 
 ## <a name="history-info-header"></a>History-Info encabezado
 
-El encabezado History-Info se usa para volver a dirigir solicitudes SIP y "proporcionar un mecanismo estándar para capturar la información del historial de solicitudes para habilitar una amplia variedad de servicios para redes y usuarios finales". Para obtener más información, [vea RFC 4244 - Sección 1.1](http://www.ietf.org/rfc/rfc4244.txt). Para Microsoft Phone System, este encabezado se usa en escenarios de simulring y reenvío de llamadas.  
+El encabezado History-Info se usa para volver a dirigir solicitudes SIP y "proporcionar un mecanismo estándar para capturar la información del historial de solicitudes para habilitar una amplia variedad de servicios para redes y usuarios finales". Para obtener más información, [vea RFC 4244 - Sección 1.1](http://www.ietf.org/rfc/rfc4244.txt). Para Teléfono Microsoft, este encabezado se usa en escenarios de simulring y reenvío de llamadas.  
 
 Si envía, el History-Info está habilitado de la siguiente manera:
 
@@ -368,4 +368,4 @@ El reinicio en Enrutamiento directo se implementa según los párrafos siguiente
 
 *Un agente establece el resto de los campos del SDP para esta transmisión multimedia como lo haría en una oferta inicial de esta transmisión multimedia (vea sección 4.3).  Por lo tanto, el conjunto de candidatos PUEDE incluir algunos, ninguno o todos los candidatos anteriores para esa transmisión y PUEDE incluir un conjunto totalmente nuevo de candidatos reunidos como se describe en la Sección 4.1.1.*
 
-Si la llamada se estableció inicialmente con omisión multimedia y la llamada se transfiere a un cliente de Skype Empresarial, enrutamiento directo debe insertar un procesador multimedia, esto se debe a que el enrutamiento directo no se puede usar con un cliente de Skype Empresarial con omisión de medios. Enrutamiento directo inicia el proceso de reinicio del ICE cambiando el ice-pwd y ice-ufrag y ofreciendo nuevos candidatos a medios en un revite.
+Si la llamada se estableció inicialmente con omisión de medios y la llamada se transfiere a un cliente de Skype Empresarial, enrutamiento directo debe insertar un procesador multimedia, esto se debe a que el enrutamiento directo no se puede usar con un cliente Skype Empresarial con omisión de medios. Enrutamiento directo inicia el proceso de reinicio del ICE cambiando el ice-pwd y ice-ufrag y ofreciendo nuevos candidatos a medios en un revite.

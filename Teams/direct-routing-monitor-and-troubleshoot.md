@@ -79,7 +79,7 @@ Puede usar las siguientes herramientas para supervisar la configuración:
 
 El servicio de enrutamiento directo tiene códigos de error muy descriptivos notificados a Análisis de llamadas o a los registros de SBC. 
 
-El Panel de calidad de llamadas proporciona información sobre la calidad y la confiabilidad de las llamadas. Para obtener más información sobre cómo solucionar problemas con El análisis de llamadas, vea Activar y usar el panel de calidad de llamadas para Microsoft Teams y [Skype Empresarial Online](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) y Usar El análisis de llamadas para solucionar problemas de mala calidad de [llamada.](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) 
+El Panel de calidad de llamadas proporciona información sobre la calidad y la confiabilidad de las llamadas. Para obtener más información sobre cómo solucionar problemas con Análisis de llamadas, vea Activar y usar el panel de calidad de llamadas para Microsoft Teams y [Skype Empresarial Online](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) y Usar Análisis de llamadas para solucionar problemas de mala calidad de [llamada.](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) 
 
 En caso de errores de llamada, Análisis de llamadas proporciona códigos SIP estándar para ayudarle con la solución de problemas. 
 
