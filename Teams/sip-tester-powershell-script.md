@@ -1,5 +1,5 @@
 ---
-title: Script de PowerShell para probar las conexiones del controlador de borde de sesión de enrutamiento directo
+title: Script de PowerShell para probar conexiones del controlador de borde de sesión de enrutamiento directo
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,22 +23,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834280"
 ---
-# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a><span data-ttu-id="42292-103">Script de PowerShell para probar las conexiones del controlador de borde de sesión de enrutamiento directo</span><span class="sxs-lookup"><span data-stu-id="42292-103">PowerShell script to test Direct Routing Session Border Controller connections</span></span>
+# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a><span data-ttu-id="6bd16-103">Script de PowerShell para probar conexiones del controlador de borde de sesión de enrutamiento directo</span><span class="sxs-lookup"><span data-stu-id="6bd16-103">PowerShell script to test Direct Routing Session Border Controller connections</span></span>
 
-<span data-ttu-id="42292-104">El cliente evaluador SIP es un script de PowerShell de ejemplo que puede usar para probar conexiones del controlador de borde de sesión de enrutamiento directo (SBC) en Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="42292-104">SIP Tester client is a sample PowerShell script that you can use to test Direct Routing Session Border Controller (SBC) connections in Microsoft Teams.</span></span> <span data-ttu-id="42292-105">Este script prueba la funcionalidad básica de un tronco sip (Protocolo de inicio de sesión emparejado por el cliente) con enrutamiento directo.</span><span class="sxs-lookup"><span data-stu-id="42292-105">This script tests basic functionality of a customer-paired Session Initiation Protocol (SIP) trunk with Direct Routing.</span></span>
+<span data-ttu-id="6bd16-104">El cliente probador SIP es un script de PowerShell de ejemplo que puede usar para probar conexiones del controlador de borde de sesión de enrutamiento directo (SBC) en Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="6bd16-104">SIP Tester client is a sample PowerShell script that you can use to test Direct Routing Session Border Controller (SBC) connections in Microsoft Teams.</span></span> <span data-ttu-id="6bd16-105">Este script prueba la funcionalidad básica de un tronco del Protocolo de inicio de sesión (SIP) emparejado por el cliente con enrutamiento directo.</span><span class="sxs-lookup"><span data-stu-id="6bd16-105">This script tests basic functionality of a customer-paired Session Initiation Protocol (SIP) trunk with Direct Routing.</span></span>
 
-<span data-ttu-id="42292-106">El script envía una prueba SIP al ejecutor de pruebas, espera el resultado y, a continuación, lo presenta en un formato legible para la persona.</span><span class="sxs-lookup"><span data-stu-id="42292-106">The script submits an SIP test to the test runner, waits for the result, and then presents it in a human-readable format.</span></span> <span data-ttu-id="42292-107">Puede usar este script para probar los siguientes escenarios:</span><span class="sxs-lookup"><span data-stu-id="42292-107">You can use this script to test the following scenarios:</span></span>
+<span data-ttu-id="6bd16-106">El script envía una prueba SIP al participante de la prueba, espera el resultado y, a continuación, lo presenta en un formato legible por el ser humano.</span><span class="sxs-lookup"><span data-stu-id="6bd16-106">The script submits an SIP test to the test runner, waits for the result, and then presents it in a human-readable format.</span></span> <span data-ttu-id="6bd16-107">Puede usar este script para probar los siguientes escenarios:</span><span class="sxs-lookup"><span data-stu-id="6bd16-107">You can use this script to test the following scenarios:</span></span>
 
-- <span data-ttu-id="42292-108">Llamadas salientes y entrantes</span><span class="sxs-lookup"><span data-stu-id="42292-108">Outbound and inbound calls</span></span>
-- <span data-ttu-id="42292-109">Llamada simultánea</span><span class="sxs-lookup"><span data-stu-id="42292-109">Simultaneous ring</span></span>
-- <span data-ttu-id="42292-110">Escalación multimedia</span><span class="sxs-lookup"><span data-stu-id="42292-110">Media escalation</span></span>
-- <span data-ttu-id="42292-111">Transferencia consultiva</span><span class="sxs-lookup"><span data-stu-id="42292-111">Consultative transfer</span></span>
+- <span data-ttu-id="6bd16-108">Llamadas salientes y entrantes</span><span class="sxs-lookup"><span data-stu-id="6bd16-108">Outbound and inbound calls</span></span>
+- <span data-ttu-id="6bd16-109">Anillo simultáneo</span><span class="sxs-lookup"><span data-stu-id="6bd16-109">Simultaneous ring</span></span>
+- <span data-ttu-id="6bd16-110">Escalación de medios</span><span class="sxs-lookup"><span data-stu-id="6bd16-110">Media escalation</span></span>
+- <span data-ttu-id="6bd16-111">Transferencia consultiva</span><span class="sxs-lookup"><span data-stu-id="6bd16-111">Consultative transfer</span></span>
 
-## <a name="download-the-script-and-documentation"></a><span data-ttu-id="42292-112">Descargar el script y la documentación</span><span class="sxs-lookup"><span data-stu-id="42292-112">Download the script and documentation</span></span>
+## <a name="download-the-script-and-documentation"></a><span data-ttu-id="6bd16-112">Descargar el script y la documentación</span><span class="sxs-lookup"><span data-stu-id="6bd16-112">Download the script and documentation</span></span>
 
-<span data-ttu-id="42292-113">Descargue la [documentación y el script del cliente del evaluador de SIP.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="42292-113">Download the [SIP Tester client script and documentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true).</span></span>
+<span data-ttu-id="6bd16-113">Descargue el script y la documentación del cliente de Prueba [SIP.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="6bd16-113">Download the [SIP Tester client script and documentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true).</span></span>
 
   > [!NOTE]
-  > <span data-ttu-id="42292-114">El script del cliente de evaluador SIP solo adal.ps versión 3.19.8.1.</span><span class="sxs-lookup"><span data-stu-id="42292-114">SIP Tester client script only supports adal.ps version 3.19.8.1.</span></span> <span data-ttu-id="42292-115">Se devolverá un error si se usa una versión posterior del adal.ps datos.</span><span class="sxs-lookup"><span data-stu-id="42292-115">An error will be returned if a later version of the adal.ps is used.</span></span>
+  > <span data-ttu-id="6bd16-114">El script de cliente probador SIP solo admite adal.ps versión 3.19.8.1.</span><span class="sxs-lookup"><span data-stu-id="6bd16-114">SIP Tester client script only supports adal.ps version 3.19.8.1.</span></span> <span data-ttu-id="6bd16-115">Se devolverá un error si se usa una versión posterior del adal.ps.</span><span class="sxs-lookup"><span data-stu-id="6bd16-115">An error will be returned if a later version of the adal.ps is used.</span></span>
   
   

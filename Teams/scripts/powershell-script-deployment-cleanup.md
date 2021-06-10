@@ -1,5 +1,5 @@
 ---
-title: 'Ejemplo de script de PowerShell: limpieza de implementación de Teams'
+title: 'Ejemplo de script de PowerShell: Teams de implementación'
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -24,12 +24,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117298"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a><span data-ttu-id="ef6ac-103">Ejemplo de script de PowerShell: limpieza de la implementación de Teams</span><span class="sxs-lookup"><span data-stu-id="ef6ac-103">PowerShell script sample - Teams deployment clean up</span></span>
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a><span data-ttu-id="a2568-103">Ejemplo de script de PowerShell: Teams de implementación</span><span class="sxs-lookup"><span data-stu-id="a2568-103">PowerShell script sample - Teams deployment clean up</span></span>
 
-<span data-ttu-id="ef6ac-104">Use este script para quitar Teams.</span><span class="sxs-lookup"><span data-stu-id="ef6ac-104">Use this script to remove Teams.</span></span> <span data-ttu-id="ef6ac-105">Este script desinstala Teams y quita la carpeta Teams para un usuario.</span><span class="sxs-lookup"><span data-stu-id="ef6ac-105">This script uninstalls Teams and removes the Teams folder for a user.</span></span> <span data-ttu-id="ef6ac-106">Ejecute este script para cada perfil de usuario en el que Teams se instaló en un equipo.</span><span class="sxs-lookup"><span data-stu-id="ef6ac-106">Run this script for each user profile in which Teams was installed on a computer.</span></span>
+<span data-ttu-id="a2568-104">Use este script para quitar Teams.</span><span class="sxs-lookup"><span data-stu-id="a2568-104">Use this script to remove Teams.</span></span> <span data-ttu-id="a2568-105">Este script desinstala Teams y quita la carpeta Teams para un usuario.</span><span class="sxs-lookup"><span data-stu-id="a2568-105">This script uninstalls Teams and removes the Teams folder for a user.</span></span> <span data-ttu-id="a2568-106">Ejecute este script para cada perfil de usuario en el que Teams instalado en un equipo.</span><span class="sxs-lookup"><span data-stu-id="a2568-106">Run this script for each user profile in which Teams was installed on a computer.</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="ef6ac-107">Ejemplo de script</span><span class="sxs-lookup"><span data-stu-id="ef6ac-107">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="a2568-107">Ejemplo de script</span><span class="sxs-lookup"><span data-stu-id="a2568-107">Sample script</span></span>
 
 ````powershell
 <#
@@ -62,7 +62,7 @@ catch
 
 ````
 
-## <a name="related-topics"></a><span data-ttu-id="ef6ac-108">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="ef6ac-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="a2568-108">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="a2568-108">Related topics</span></span>
 
-- [<span data-ttu-id="ef6ac-109">Instalar Microsoft Teams con Microsoft Endpoint Configuration Manager</span><span class="sxs-lookup"><span data-stu-id="ef6ac-109">Install Microsoft Teams using Microsoft Endpoint Configuration Manager</span></span>](../msi-deployment.md)
-- [<span data-ttu-id="ef6ac-110">Implementar Teams con aplicaciones de Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="ef6ac-110">Deploy Teams with Microsoft 365 Apps</span></span>](/deployoffice/teams-install)
+- [<span data-ttu-id="a2568-109">Instalar Microsoft Teams con Microsoft Endpoint Configuration Manager</span><span class="sxs-lookup"><span data-stu-id="a2568-109">Install Microsoft Teams using Microsoft Endpoint Configuration Manager</span></span>](../msi-deployment.md)
+- [<span data-ttu-id="a2568-110">Implementar Teams con Aplicaciones Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="a2568-110">Deploy Teams with Microsoft 365 Apps</span></span>](/deployoffice/teams-install)

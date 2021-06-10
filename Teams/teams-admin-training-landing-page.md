@@ -1,7 +1,7 @@
 ---
 title: Formación de administradores para Microsoft Teams
 ms.reviewer: ''
-description: Obtenga la formación y el soporte técnico de administrador que necesita para administrar Microsoft Teams en su organización.
+description: Obtenga la formación y el soporte técnico de administradores que necesita para administrar Microsoft Teams en su organización.
 author: cichur
 manager: serdars
 audience: admin
@@ -43,7 +43,7 @@ Obtenga información sobre cómo administrar Teams para su organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NUEVO: Aprendizaje dirigido por un instructor para Teams</h3>
+                        <h3>NUEVO: Aprendizaje dirigido por el instructor para Teams</h3>
                     </div>
                 </div>
             </div>
