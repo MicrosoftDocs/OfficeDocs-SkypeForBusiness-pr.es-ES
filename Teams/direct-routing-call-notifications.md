@@ -27,27 +27,27 @@ ms.locfileid: "42341805"
 ---
 # <a name="manage-call-notifications"></a>Administrar notificaciones perdidas
 
-En este artículo se describe cómo administrar las notificaciones de llamadas de los usuarios. Puede configurar los puntos de conexión de llamada tanto en Teams como en una central de conmutación (PBX) privada de terceros o en un controlador de borde de sesión (SBC).  Esto resulta útil, por ejemplo, si quiere enviar una llamada a los teléfonos móviles y de escritorio de un usuario al mismo tiempo.   
+En este artículo se describe cómo administrar las notificaciones de llamadas para los usuarios. Puede configurar puntos de conexión de llamadas tanto en Teams como en una sucursal privada de terceros Exchange (PBX) o controlador de borde de sesión (SBC).  Esto es útil, por ejemplo, si desea enviar una llamada a los teléfonos móviles y de escritorio de un usuario al mismo tiempo.   
 
-En el siguiente diagrama, el usuario Irena tiene dos puntos de conexión:
+En el diagrama siguiente, el usuario Irena tiene dos puntos de conexión:
 
-- Un punto de conexión de Teams
+- Un punto Teams de conexión
 - Un teléfono SIP conectado a un SBC de terceros
 
-Cuando llega una llamada, SBC bifurca la llamada entre el enrutamiento directo del sistema telefónico y el SBC de terceros.
+Cuando llega una llamada, el SBC bifurca la llamada entre Sistema telefónico enrutamiento directo y el SBC de terceros.
 
 
-![Diagrama que muestra puntos de conexión de Teams bifurcados](media/direct-routing-call-notification-1.png)
+![Diagrama que muestra puntos de conexión Teams bifurcados](media/direct-routing-call-notification-1.png)
 
-Si se acepta la llamada en la bifurcación 2 (por el SBC de terceros), Teams generará una notificación de "Llamada perdida".  
+Si la llamada se acepta en Bifurcación 2 (por el SBC de terceros), Teams generará una notificación de "Llamada perdida".  
 
-Puede evitar la notificación "Llamada perdida" configurando el SBC para enviar una cancelación en bifurcación 1 como se explica a continuación:
+Puede evitar la notificación "Llamada perdida" configurando el SBC para enviar una Cancelación en bifurcación 1 de la siguiente manera:
 
-RAZÓN: SIP; cause=200;text"Llamada completada en otro lugar" 
+MOTIVO: SIP; cause=200;text"Llamada completada en otro lugar" 
 
-Tenga en cuenta que la llamada no se registrará en los registros de detalles de la llamada de Microsoft Phone System como una llamada correcta. La llamada se registrará como un "Intento" con código SIP final "487", subcodificación final de Microsoft "540200" y frase final de código SIP "Llamada completada en otro lugar".  (Para ver los registros de detalles de las llamadas, vaya al Portal de administración de Teams, Análisis e informes, Informes de uso y seleccione Uso de RTC).
+Tenga en cuenta que la llamada no se registrará en los registros de detalles de llamada de Teléfono Microsoft System como una llamada correcta. La llamada se registrará como un "Intento" con el código SIP final "487", el subcódigo final de Microsoft "540200" y la frase de código SIP final "Llamada completada en otro lugar".  (Para ver los registros de detalles de llamadas, vaya al portal de administración de Teams, Análisis e informes, Informes de uso y seleccione Uso de RTC).
 
 
-En el diagrama siguiente se muestra la bifurcación SIP para bifurcación 1, se explica el flujo de llamadas y el motivo esperado en el mensaje de cancelación. 
+En el diagrama siguiente se muestra la escala SIP de Bifurcación 1, se explica el flujo de llamadas y la RAZÓN esperada en el mensaje Cancelar. 
 
-![Diagrama que muestra puntos de conexión de Teams bifurcados](media/direct-routing-call-notification-2.png)
+![Diagrama que muestra puntos de conexión Teams bifurcados](media/direct-routing-call-notification-2.png)

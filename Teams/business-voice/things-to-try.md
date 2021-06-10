@@ -1,5 +1,5 @@
 ---
-title: Cosas que puede probar después de configurar Business Voice
+title: Cosas que debe probar después de configurar Business Voice
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -25,6 +25,6 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41827368"
 ---
-# <a name="things-to-try-after-setting-up-business-voice"></a>Cosas que puede probar después de configurar Business Voice
+# <a name="things-to-try-after-setting-up-business-voice"></a>Cosas que debe probar después de configurar Business Voice
 
 <!-- This topic will be populated in the future. Intentionally left out of the TOC>

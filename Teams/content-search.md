@@ -14,27 +14,26 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Obtenga información sobre cómo usar la búsqueda de contenido en el centro de cumplimiento de Microsoft 365 para buscar contenido de Microsoft Teams almacenado en Exchange Online, SharePoint Online, OneDrive para la Empresa y OneNote.
+description: Obtenga información sobre cómo usar la búsqueda de contenido en el centro de cumplimiento de Microsoft 365 para buscar contenido Microsoft Teams almacenado en Exchange Online, SharePoint Online, OneDrive para la Empresa y OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3758f96dc4755303ce8ccf3cae4443deb2a5cd99
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cb63f3668ef03cdaf760a24ae1df0a815e7f282d
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094290"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855809"
 ---
-<a name="use-content-search-in-microsoft-teams"></a>Usar la búsqueda de contenido en Microsoft Teams
-=====================================
+# <a name="use-content-search-in-microsoft-teams"></a>Usar la búsqueda de contenido en Microsoft Teams
 
 > [!NOTE]
 > La búsqueda de contenido de mensajes y archivos en [canales privados](private-channels.md) funciona de forma diferente que en los canales estándar. Para obtener más información, vea [Búsqueda de contenido de canales privados.](#content-search-of-private-channels)
 
-La búsqueda de contenido proporciona una forma de consultar información de Microsoft Teams que abarca Exchange, SharePoint Online y OneDrive para la Empresa.
+La búsqueda de contenido proporciona una forma de consultar Microsoft Teams información que abarca Exchange, SharePoint en línea y OneDrive para la Empresa.
 
-Para obtener más información, vea [Búsqueda de contenido en Microsoft 365.](/microsoft-365/compliance/content-search)
+Para obtener más información, vea [Búsqueda de contenido en Microsoft 365](/microsoft-365/compliance/content-search).
 
-Por ejemplo,  con la búsqueda de contenido en el buzón de Especificaciones de fabricación y el sitio de SharePoint de Especificaciones de fabricación, puede buscar en las conversaciones de canal estándar de Teams de Exchange, las cargas de archivos y las modificaciones de SharePoint Online y los cambios de OneNote.
+Por ejemplo,  con la búsqueda de contenido en su buzón de especificaciones de fabricación y en el sitio de Especificaciones de fabricación SharePoint Teams, puede buscar en conversaciones de canal estándar de Exchange, cargas de archivos y modificaciones de SharePoint Online y OneNote cambios.
 
 También puede agregar criterios de consulta a la búsqueda **de contenido** para restringir los resultados devueltos. En el ejemplo anterior, puede buscar contenido donde se usaron las palabras clave **"Nuevas** especificaciones de fábrica".
 
@@ -45,7 +44,7 @@ También puede agregar criterios de consulta a la búsqueda **de contenido** par
 
 Los registros de los mensajes enviados en un canal privado se entregan en el buzón de todos los miembros del canal privado, en lugar de hacerlo en un buzón de grupo. Los títulos de los registros tienen un formato que indica desde qué canal privado fueron enviados.
 
-Dado que cada canal privado tiene su propia colección de sitios de SharePoint independiente del sitio de grupo principal, los archivos de un canal privado se administran independientemente del equipo principal.
+Dado que cada canal privado tiene su propia colección de sitios SharePoint independiente del sitio de grupo principal, los archivos de un canal privado se administran independientemente del equipo principal.
 
 Teams no admite la búsqueda de contenido de un solo canal, por lo que se debe buscar a todo el equipo. Para realizar una búsqueda de contenido de un canal privado, busque en todo el equipo, la colección de sitios asociada con el canal privado (para incluir archivos) y los buzones de los miembros del canal privado (para incluir mensajes).
 
@@ -53,14 +52,14 @@ Siga estos pasos para identificar archivos y mensajes en un canal privado para i
 
 ### <a name="include-private-channel-files-in-a-content-search"></a>Incluir archivos de canal privado en una búsqueda de contenido
 
-Antes de realizar estos pasos, instale el [Shell de administración de SharePoint Online y conéctese a SharePoint Online.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+Antes de realizar estos pasos, instale SharePoint Shell de administración en línea [y conéctese a SharePoint Online.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
-1. Ejecute lo siguiente para obtener una lista de todas las colecciones de sitios de SharePoint asociadas con canales privados en el equipo.
+1. Ejecute lo siguiente para obtener una lista de todas SharePoint colecciones de sitios asociadas con canales privados en el equipo.
 
     ```PowerShell
     Get-SPOSite
     ```
-2. Ejecute el siguiente script de PowerShell para obtener una lista de todas las direcciones URL de la colección de sitios de SharePoint asociadas con canales privados en el equipo y el id. de grupo de grupo principal.
+2. Ejecute el siguiente script de PowerShell para obtener una lista de todas las direcciones URL de la colección de sitios SharePoint asociadas con canales privados en el equipo y el id. de grupo de grupo principal.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -76,7 +75,7 @@ Antes de realizar estos pasos, instale el [Shell de administración de SharePoin
 
 ### <a name="include-private-channel-messages-in-a-content-search"></a>Incluir mensajes de canal privado en una búsqueda de contenido
 
-Antes de realizar estos pasos, asegúrese de que tiene instalada la versión más reciente del módulo [de PowerShell de Teams.](teams-powershell-overview.md)
+Antes de realizar estos pasos, asegúrese de que tiene instalada la versión más reciente [Teams módulo de PowerShell.](teams-powershell-overview.md)
 
 1. Ejecute lo siguiente para obtener una lista de canales privados en el equipo.
 
@@ -92,4 +91,4 @@ Antes de realizar estos pasos, asegúrese de que tiene instalada la versión má
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Casos de exhibición de documentos electrónicos en el Centro de cumplimiento de Microsoft 365](/Office365/SecurityCompliance/ediscovery-cases)
+- [Casos de exhibición de documentos electrónicos en el Centro Microsoft 365 cumplimiento](/Office365/SecurityCompliance/ediscovery-cases)

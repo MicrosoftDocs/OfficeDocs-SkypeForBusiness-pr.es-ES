@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e445fd6c5d26a64005ff1c285d8e9d843ca0211
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: 9c19a0569fe56e9bf8c822b1418ac2fe0685532b
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656063"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855939"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Actualizaciones asistidos de Skype Empresarial Online a Microsoft Teams
 
@@ -96,11 +96,11 @@ Cuando se complete la actualización asistido, el modo **de coexistencia** para 
             >Los contactos deben migrarse dentro de los 90 días posteriores a la finalización de la actualización.
         - Las Skype Empresarial en línea existentes se convierten en Teams reuniones
             > [!IMPORTANT]
-            > Los clientes con configuraciones Skype Empresarial Online necesitan usar el Servicio de migración de reuniones (MMS) para migrar las reuniones Skype Empresarial online existentes a Teams reuniones. Se recomienda usar MMS antes de la fecha de actualización asistida. Para obtener más información sobre MMS, vea [Usar el servicio de migración de reuniones (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+            > Los clientes con configuraciones Skype Empresarial Online necesitan usar el Servicio de migración de reuniones (MMS) para migrar las reuniones Skype Empresarial online existentes a Teams reuniones. Se recomienda usar MMS antes de la fecha de actualización asistida. Para obtener más información sobre MMS, vea [Usar el servicio de migración de reuniones (MMS).](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
     :::column-end:::
 :::row-end:::
 
-Una vez completada la actualización, las organizaciones con implementaciones híbridas pueden mover usuarios de local a Teams o movidos de Teams a locales.  
+Si tiene una implementación Skype Empresarial Server y una actualización a Teams, puede mover usuarios entre Skype Empresarial Server y Teams una vez completada la actualización.
 
 ## <a name="related-content"></a>Contenido relacionado
 

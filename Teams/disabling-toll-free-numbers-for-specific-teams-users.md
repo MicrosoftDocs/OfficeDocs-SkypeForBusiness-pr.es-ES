@@ -47,7 +47,7 @@ Cuando se deshabilitan los números gratuitos para un organizador determinado:
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar los números gratuitos para usuarios específicos 
 
-Desde el **Centro de administración de Microsoft Teams:**
+Desde el **Microsoft Teams de administración:**
 
 1. En el panel de navegación izquierdo, haga clic **en Usuarios** y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
@@ -63,4 +63,4 @@ Desde el **Centro de administración de Microsoft Teams:**
  
 **Con PowerShell**  
 
-Vea la [referencia de PowerShell de Microsoft Teams](/powershell/module/teams/?view=teams-ps) para obtener más información.
+Vea la [Microsoft Teams referencia de PowerShell](/powershell/module/teams/?view=teams-ps) para obtener más información.

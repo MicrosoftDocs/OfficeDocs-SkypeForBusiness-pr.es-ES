@@ -22,15 +22,15 @@ ms.locfileid: "44221644"
 ---
 # <a name="how-to-look-up-your-support-pin"></a>Cómo buscar el PIN de soporte técnico
 
-Para buscar el PIN de soporte técnico, que habilita el soporte técnico al cliente de Microsoft por teléfono, siga estos pasos: 
+Para buscar el PIN de soporte técnico, que permite el soporte al cliente de Microsoft a través del teléfono, siga estos pasos: 
 
-1. Inicie sesión en el Centro [de administración de Office.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage) 
+1. Inicie sesión en el [Office de administración](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage). 
 
 2. Haga clic en el icono de engranaje.
 
 3. El PIN de soporte técnico se mostrará en el panel inferior derecho. También puede volver a generar el PIN si es necesario.  
 
-   ![Diagrama que muestra el PIN de compatibilidad](media/support-pin.png)
+   ![Diagrama que muestra el PIN de soporte técnico](media/support-pin.png)
 
 
 

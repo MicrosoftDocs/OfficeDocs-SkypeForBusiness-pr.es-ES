@@ -27,18 +27,18 @@ ms.locfileid: "51094748"
 ---
 # <a name="plan-my-service-management"></a>Planificar la administración de mis servicios
 
-En este artículo se ofrece información general sobre los requisitos necesarios para ofrecer y mantener una implementación de Microsoft Teams de alta calidad. Para garantizar que la implementación se desarrolle correctamente, es necesario planificar la calidad y la administración de los servicios durante la fase de Enfoque, antes del primer piloto o implementación de producción.
+En este artículo se proporciona información general sobre los requisitos necesarios para ofrecer y mantener una implementación de Microsoft Teams alta calidad. Para garantizar que la implementación se desarrolle correctamente, es necesario planificar la calidad y la administración de los servicios durante la fase de Enfoque, antes del primer piloto o implementación de producción.
 
 ## <a name="service-management-for-teams"></a>Administración de servicios para Teams
 
-La administración de servicios es un tema muy amplio que cubre las operaciones del día a día del servicio de Microsoft Teams una vez que se ha implementado y habilitado para los usuarios. El servicio de Teams abarca Microsoft 365 u Office 365 y los componentes de infraestructura que se implementan localmente (por ejemplo, redes).
+La administración de servicios es un tema muy amplio que cubre las operaciones del día a día del servicio de Microsoft Teams una vez que se ha implementado y habilitado para los usuarios. El Teams incluye Microsoft 365 o Office 365 y los componentes de infraestructura que se implementan localmente (por ejemplo, redes).
 
 Seguramente, el concepto de "administración de servicios" no es nuevo para la mayoría de organizaciones. Probablemente ya ha implementado procesos y tareas asociados a los servicios que ya ofrece. De este modo, es posible que baste con aumentar lo que ya tiene cuando planifique la administración de servicios que respaldarán a Microsoft Teams más adelante.
 
-En la administración de servicios se incluyen todas las actividades y procesos que se ven implicados en la administración de Microsoft Teams de un extremo a otro. Algunos componentes de la administración de servicios (los componentes de infraestructura que comprende el servicio de Microsoft 365 u Office 365) son responsabilidad de Microsoft, mientras que el cliente es responsable ante sus usuarios de administrar los distintos aspectos de Teams, la red y los puntos de conexión que proporcionan.
-Para obtener una discusión completa sobre la responsabilidad del cliente en la administración de servicios de Teams y cómo se relaciona con los componentes clave que sustentan la calidad de la experiencia del usuario, vea Planear la administración y la calidad del [servicio.](./prepare-network.md)
+En la administración de servicios se incluyen todas las actividades y procesos que se ven implicados en la administración de Microsoft Teams de un extremo a otro. Algunos componentes de la administración de servicios (los componentes de infraestructura que comprende el servicio de Microsoft 365 o Office 365) son responsabilidad de Microsoft, mientras que el cliente es responsable ante sus usuarios de administrar los distintos aspectos de Teams, la red y los puntos de conexión que proporcionan.
+Para obtener una discusión completa sobre la responsabilidad del cliente para la administración de servicios Teams y cómo se relaciona con los componentes clave que sustentan la calidad de la experiencia del usuario, vea [Planear](./prepare-network.md)la administración y la calidad del servicio.
 
-![Diagrama de los tres componentes de calidad](media/plan-my-service-management-image1.png "Diagrama de los tres componentes de calidad (servicio, red y puntos de conexión de Microsoft 365 u Office 365) y cómo la administración de servicios se superpone a los tres.")
+![Diagrama de los tres componentes de calidad](media/plan-my-service-management-image1.png "Diagrama de los tres componentes de calidad (Microsoft 365 o Office 365, red y puntos de conexión) y cómo la administración de servicios se superpone a los tres.")
 
 <!--ENDOFSECTION-->
 
@@ -72,7 +72,7 @@ En la Guía de operaciones se incluye una lista de las tareas comunes asignadas 
 |Equipo de cliente y puntos de conexión|Administrar implementaciones de escritorio|Por añadir|Por añadir|
 |Operaciones de identidad|Administrar infraestructura de identidades (Active Directory, Servicios de federación de Active Directory, Azure AD)|Por añadir|Por añadir|
 |Administración de cambios y adopción|Administrar el conocimiento, la formación y la adopción de la solución|Por añadir|Por añadir|
-|Operaciones de Exchange|Administrar el entorno de Exchange|Por añadir|Por añadir|
+|Operaciones de Exchange|Administrar el Exchange de datos|Por añadir|Por añadir|
 |Operaciones de telefonía|Administrar los SBC y los números de teléfono|Por añadir|Por añadir|
 
 <!--ENDOFSECTION-->

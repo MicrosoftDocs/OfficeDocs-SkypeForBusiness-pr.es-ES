@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Use el informe de enrutamiento directo RTC (CQD) del Panel de calidad de llamadas de Microsoft Teams para supervisar y solucionar problemas de llamadas RTC en Microsoft Teams.
+description: Use el Microsoft Teams de enrutamiento directo RTC (CQD)) para supervisar y solucionar las llamadas RTC en Microsoft Teams.
 ms.openlocfilehash: f2b63f991f42aa4de9e0e4474137f7f992f95c53
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "51094984"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Usar el informe de enrutamiento directo RTC de CQD
 
-Como novedad en marzo de 2020, hemos agregado un informe de enrutamiento directo RTC (CQD) del Panel de calidad de llamadas (CQD) de Microsoft Teams a nuestras plantillas de consulta de Power BI descargables para [CQD.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true) 
+Como novedad en marzo de 2020, hemos agregado un informe de enrutamiento directo RTC (CQD) del Panel de calidad de llamadas (CQD) de Microsoft Teams a nuestras plantillas de consulta de Power BI para [CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)descargables. 
 
 
 El informe de enrutamiento directo RTC CQD (CQD RTC Direct Routing Report.pbit) le ayuda a comprender los patrones de uso y la calidad de los servicios RTC. Use este informe para supervisar el uso del servicio, información sobre el controlador de borde de sesión (SBC), el servicio de telefonía, los parámetros de red y los detalles de la relación de eficacia de red. Esta información puede ayudarle a identificar problemas, incluido el motivo de las llamadas que se han eliminado. Por ejemplo, podrá ver cuándo baja el volumen o cuántas llamadas se ven afectadas y por qué motivo.
@@ -40,7 +40,7 @@ El informe de enrutamiento directo RTC de CQD tiene cuatro secciones:
 
   - [Parámetros de red](#network-parameters)
 
-## <a name="highlights"></a>Resaltados
+## <a name="highlights"></a>Momentos
 
 1. Analizar por tipo de llamada, SBC, autor de la llamada y país de destinatario
 
@@ -125,7 +125,7 @@ En la Tendencia buena por hora porcentual de NER, puede encontrar que la caída 
 
 ## <a name="network-parameters"></a>Parámetros de red
 
-Todos los parámetros de red se miden desde la interfaz de enrutamiento directo al controlador de borde de sesión. Para obtener información sobre los valores recomendados, vea Preparar la red de su organización para [Microsoft Teams](prepare-network.md)y consulte los valores recomendados de Cliente perimetral a Microsoft Edge.
+Todos los parámetros de red se miden desde la interfaz de enrutamiento directo al controlador de borde de sesión. Para obtener información sobre los valores recomendados, vea Preparar la red de su organización para Microsoft Teams [y](prepare-network.md)consulte el Perímetro del cliente para Microsoft Edge valores recomendados.
 
   - **Vibración:** es la medida de milisegundos de variación en el tiempo de retraso de propagación de red que se calcula entre dos puntos de conexión mediante RTCP (el protocolo de control RTP).
 
@@ -145,6 +145,6 @@ Si ve un pico en cualquiera de los cuatro gráficos (Latencia, Vibración, Tasa 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Usar Power BI para analizar datos CQD para Microsoft Teams](CQD-PSTN-report.md)
+[Use Power BI datos CQD para Microsoft Teams](CQD-PSTN-report.md)
 
 [Solución de problemas de Teams](/MicrosoftTeams/troubleshoot/teams)

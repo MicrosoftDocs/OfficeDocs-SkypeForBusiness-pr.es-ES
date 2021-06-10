@@ -95,7 +95,7 @@ Este es un resumen basado en el plan de licencias.
 <td></td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 Empresa Básico<br />
+<td>Microsoft 365 Empresa Básico<br />
 Microsoft 365 Empresa Estándar Microsoft 365 Empresa Premium</td>
 <td>Microsoft 365 Empresa Voice<br>Plan de llamadas internacionales <br />(opcional) Créditos de comunicación </td><td>O bien</td>
 <td>Microsoft 365 Business Voice sin plan de llamadas<br />

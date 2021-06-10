@@ -33,7 +33,7 @@ Para empezar:
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. En el panel de navegación izquierdo, expanda **Plantillas de equipo** de  >  **Teams.**
+2. En el panel de navegación izquierdo, expanda **Teams**  >  **plantillas de equipo.**
 
 3. Seleccione **Agregar**.
 
@@ -97,11 +97,11 @@ Para empezar:
 
 Actualmente estamos trabajando en una corrección para futuros equipos creados a partir de plantillas personalizadas.
 
-**Problema:** Al usar Teams en el explorador, algunos sitios web no admiten que se represente en una pestaña de Teams.
+**Problema:** Al usar Teams en el explorador, algunos sitios web no admiten que se represente dentro de una Teams pestaña.
 
 ![mensaje de error del explorador](media/browser-error-message.png)
 
-**Solución:** Si tiene problemas para ver el contenido de la pestaña del sitio web, se le redirigirá a abrir la pestaña en una página web independiente o a abrir Teams en la aplicación de escritorio para ver la aplicación de pestaña del sitio web.
+**Solución:** Si tiene problemas para ver el contenido de la pestaña del sitio web, se le redirigirá a abrir la pestaña en una página web independiente o a abrir Teams en la aplicación de escritorio en su lugar para ver la aplicación de pestaña del sitio web.
 
 ## <a name="related-topics"></a>Temas relacionados
 

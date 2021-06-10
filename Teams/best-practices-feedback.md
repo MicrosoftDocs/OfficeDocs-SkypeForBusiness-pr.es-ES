@@ -1,5 +1,5 @@
 ---
-title: Procedimientos recomendados para métodos de comentarios de usuarios
+title: Procedimientos recomendados para los métodos de comentarios de los usuarios
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -18,25 +18,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 85a03967b9ea7facb5f7a69090b1b5902b601f64
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6656871e2232df82f81bfea4568cf857e4271d79
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581391"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855909"
 ---
-<a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
-===========================================================
+# <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
 
-La adopción de una nueva experiencia de colaboración consiste en cambiar el comportamiento de los usuarios. Los cambios de los humanos requieren formación, motivación y ejemplos positivos. Es fundamental que la gente se sienta escuchada durante la transición. Si ya ha establecido métodos de comentarios adecuados en su organización, puede ampliarlos para que incluyan la implementación de sus equipos. Si no lo ha hecho antes, puede seguir uno de estos enfoques:
+La adopción de una nueva experiencia de colaboración se trata de cambiar el comportamiento de los usuarios. El cambio humano requiere aprendizaje, ánimo y ejemplos positivos. También es fundamental que las personas se sientan escuchadas durante la transición. Si ha establecido previamente métodos de comentarios correctos en su organización, considere la posibilidad de expandirlos para incluir su Teams implementación. Si no lo ha hecho antes, tenga en cuenta uno de los siguientes métodos:
 
--   Crear un equipo público en Microsoft Teams al que pueda unirse cualquier usuario para proporcionar comentarios sobre su experiencia (teniendo en cuenta que los grupos públicos están limitados a 5000 usuarios).
+- Cree un equipo público en Microsoft Teams que cualquier usuario pueda unirse para proporcionar comentarios sobre su experiencia (tenga en cuenta que los grupos públicos están limitados a 5000 usuarios).
 
--   El uso de Yammer para proporcionar una comunidad abierta para las prácticas recomendadas y la compatibilidad de la experiencia.
+- Use Yammer para proporcionar una comunidad abierta para los procedimientos recomendados y el soporte técnico para la experiencia.
 
-Los métodos de comentarios generados por la comunidad requieren la participación de los expertos y los propietarios del servicio. Recomendamos que se cree un programa de supervisión que gire en torno a estos miembros. Una de las prácticas recomendadas consiste en crear un equipo aparte en Microsoft Teams como lugar en el que estos expertos de la comunidad puedan colaborar, compartir recursos y ofrecer prácticas recomendadas antes de compartir todo esto con el equipo completo. Los expertos realizan un rol asesor para los usuarios que adopten el nuevo servicio, proporcionan una cara humana y amistosa al cambio y colaboran con otros miembros del equipo de implementación para detectar y resolver problemas.
+Community los métodos de comentarios basados en el cliente requieren la participación de los defensores y los propietarios de servicios. Se recomienda crear una programación de supervisión que gire entre estos miembros. Una sugerencia es crear un equipo independiente dentro de Microsoft Teams como un lugar donde estos campeones puedan colaborar, compartir recursos y procedimientos recomendados antes de compartirlos con el equipo más amplio. Los expertos desempeñan un rol de asesor para los usuarios que adopten el nuevo servicio, proporcionan una cara amigable y humana al cambio y colaboran con otros miembros del equipo de implementación para plantear y resolver problemas.
 
-<a name="showcases"></a>Casos destacados
----------
+## <a name="showcases"></a>Casos destacados
 
-A medida que continúa este viaje, encontrará casos especiales en su propio entorno de empleados cuya creatividad con Microsoft Teams le sorprenderá y deleitará. Le recomendamos que comparta estos casos en general. Esto animará a otros a ser innovadores, enseñará a los usuarios que pueden estar más atrás en la curva de adopción y recompensará a aquellos que han tomado el tiempo para pensar en cómo aprovechar mejor el uso de Microsoft Teams en su entorno. Establecer un objetivo mensurable para identificar un número determinado de casos concretos cada trimestre es útil para mantener el impulso de la adopción.
+A medida que continúe a lo largo de este viaje, encontrará vitrinas en su propio entorno de empleados cuya creatividad con Microsoft Teams le sorprenderá y deleitará. Comparta estas presentaciones de forma general. Esto animará a otros usuarios a ser innovadores, educará a los usuarios que pueden estar antes en la curva de adopción y recompensará a aquellos que se han tomado el tiempo para pensar en cómo usar mejor Microsoft Teams en su entorno. Establecer un objetivo mensurable de identificar un número determinado de vitrinas cada trimestre es útil para mantener el impulso de adopción.

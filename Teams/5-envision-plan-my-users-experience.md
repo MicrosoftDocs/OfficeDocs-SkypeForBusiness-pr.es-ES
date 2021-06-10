@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Elija aplicaciones cliente de Teams, planee la calidad del punto de conexión, obtenga recomendaciones para implementar Wi-Fi y elegir dispositivos de audio.
+description: Elija Teams cliente, planee la calidad del punto de conexión, obtenga recomendaciones para implementar Wi-Fi y elegir dispositivos de audio.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -31,7 +31,7 @@ En este artículo se proporciona información general sobre los requisitos para 
 
 ## <a name="client-deployment"></a>Implementación de cliente
 
-Microsoft Teams tiene clientes disponibles para web, escritorio (Windows y Mac) y móviles (Android e iOS). Para obtener más información sobre cómo se instalan los clientes de escritorio (Windows y Mac) y móviles, vea Obtener [clientes para Microsoft Teams.](./get-clients.md)
+Microsoft Teams tiene clientes disponibles para web, escritorio (Windows y Mac) y móviles (Android e iOS). Para obtener más información sobre cómo se instalan el escritorio (Windows y Mac) y los clientes móviles, vea Obtener clientes [para Microsoft Teams](./get-clients.md).
 
 ## <a name="client-updates"></a>Actualizaciones del cliente
 
@@ -45,20 +45,20 @@ Como puede ver en el siguiente diagrama, los puntos de conexión son un bloque d
 
 ![Diagrama que describe los tres componentes de calidad](media/plan-my-users-experience-image1.png "Diagrama que describe los tres componentes de calidad y cómo la administración de servicios se superpone a los tres componentes. Con un foco en los puntos de conexión.")
 
-Los puntos de conexión de Teams se pueden ejecutar en muchos dispositivos, incluidos equipos PC, Mac, tabletas y dispositivos móviles. Parte de la experiencia no solo abarca el dispositivo, sino cómo un usuario se conecta al dispositivo, por ejemplo, con el micrófono o altavoz integrado del dispositivo, auriculares o auriculares optimizados. El uso de un auricular con micrófono optimizado, se puede enriquecer la experiencia general del usuario.
+Teams pueden ejecutarse en muchos dispositivos, incluidos equipos PC, Mac, tabletas y dispositivos móviles. Parte de la experiencia no solo abarca el dispositivo, sino cómo un usuario se conecta al dispositivo, por ejemplo, con el micrófono o altavoz integrado del dispositivo, auriculares o auriculares optimizados. El uso de un auricular con micrófono optimizado, se puede enriquecer la experiencia general del usuario.
 
 Las siguientes directrices sobre la planificación de los puntos de conexión le ayudarán a garantizar que su organización tenga una experiencia de incorporación con Teams correcta.
 
 ## <a name="endpoint-capability"></a>Funcionalidad de puntos de conexión
 
-La primera parte de la planificación es garantizar que todos los equipos y otros dispositivos de su organización puedan ejecutar Teams. Esto no solo implica comprobar los requisitos de hardware, sino también conocer qué más hace el PC en segundo plano. Muchas organizaciones ejecutan otro software, incluidos sistemas de detección de intrusiones y software antimalware, que puede afectar al rendimiento básico de un dispositivo.
+La primera parte de la planificación es garantizar que todos los equipos y otros dispositivos de su organización puedan ejecutarse Teams. Esto no solo implica comprobar los requisitos de hardware, sino también conocer qué más hace el PC en segundo plano. Muchas organizaciones ejecutan otro software, incluidos sistemas de detección de intrusiones y software antimalware, que puede afectar al rendimiento básico de un dispositivo.
 
-Para obtener información sobre los requisitos de software para los clientes de Teams en cada plataforma (web, escritorio y móvil), vea Obtener [clientes para Microsoft Teams.](./get-clients.md)
+Para obtener información sobre los requisitos de software para Teams en cada plataforma (web, escritorio y móvil), vea Obtener clientes [para Microsoft Teams](./get-clients.md).
 
 ## <a name="endpoint-firewalls"></a>Firewalls para los puntos de conexión
 
 Los firewalls del cliente pueden repercutir de forma significativa en la experiencia de usuario.
-Los firewalls del cliente pueden afectar a la calidad de las llamadas, además de impedir que la llamada se establezca. Configure las exclusiones adecuadas en el firewall de cliente en función de la información de las direcciones URL e intervalos de direcciones IP de [Microsoft 365 u Office 365.](/microsoft-365/enterprise/urls-and-ip-address-ranges) Su proveedor de terceros debe tener instrucciones específicas para saber cómo se crean las exclusiones.
+Los firewalls del cliente pueden afectar a la calidad de las llamadas, además de impedir que la llamada se establezca. Configure las exclusiones adecuadas en el firewall de cliente en función de la información de Microsoft 365 o Office 365 direcciones URL e [intervalos de direcciones IP.](/microsoft-365/enterprise/urls-and-ip-address-ranges) Su proveedor de terceros debe tener instrucciones específicas para saber cómo se crean las exclusiones.
 
 >[!NOTE]
 > Microsoft Teams actualizará automáticamente el firewall de Windows con una configuración de firewall adecuada.
@@ -87,11 +87,11 @@ Algunas organizaciones prefieren evitar las redes Wi-Fi en general. En ocasiones
 
 ### <a name="80211-power-save-protocol"></a>802.11 Protocolo de Power Save
 
-Si su organización usa puntos de acceso inalámbricos o enrutadores que no admiten el protocolo Power Save 802.11, es posible que experimente llamadas o mala calidad de llamada en Microsoft Teams que se ejecute en dispositivos Windows. Si no es posible actualizar su enrutador o su punto de acceso inalámbrico, debe actualizar la configuración del Plan de energía de Windows en los dispositivos que se ejecutan con ahorro de energía. Podrá encontrar más detalles e instrucciones de configuración en el siguiente [artículo de soporte](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
+Si su organización usa puntos de acceso inalámbricos o enrutadores que no admiten el protocolo Power Save 802.11, es posible que experimente llamadas o mala calidad de llamada en Microsoft Teams que se ejecute en Windows dispositivos. Si no es posible actualizar su enrutador o su punto de acceso inalámbrico, debe actualizar la configuración del Plan de energía de Windows en los dispositivos que se ejecutan con ahorro de energía. Podrá encontrar más detalles e instrucciones de configuración en el siguiente [artículo de soporte](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Qué clientes de Teams se implementarán en su organización?</li><li>¿Cómo implementará inicialmente los clientes de Teams a los usuarios?</li><li>¿Quién es el responsable de evaluar los puntos de conexión y los dispositivos para validar que cumplen los requisitos de Teams para una experiencia de calidad?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Documente el proceso que se seguirá para implementar clientes de Teams.</li><li>Evalúe los puntos de conexión y los dispositivos y realice y corrija los requisitos.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Teams clientes se implementarán en su organización?</li><li>¿Cómo implementará inicialmente Teams clientes a los usuarios?</li><li>Quién es responsable de evaluar los puntos de conexión y dispositivos para validar que cumplen Teams requisitos para una experiencia de calidad?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Documente el proceso que se seguirá para implementar Teams clientes.</li><li>Evalúe los puntos de conexión y los dispositivos y realice y corrija los requisitos.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -108,7 +108,7 @@ Habría que completar un ejercicio de asignación de persona a dispositivo como 
 Una vez que se seleccionen los dispositivos, se deben incluir en el plan de prueba piloto para su validación final. Utilice encuestas durante el piloto para recopilar comentarios con los que se pueda garantizar que su estrategia de dispositivo sea la adecuada.
 
 > [!NOTE]
-> En este momento, recomendamos usar dispositivos de audio que se hayan certificado mediante el programa de certificación de Skype Empresarial. Para buscar dispositivos certificados en este programa, vea los dispositivos [de Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices) y los dispositivos de audio y vídeo [USB.](/SkypeForBusiness/certification/devices-usb-devices)
+> En este momento, recomendamos usar dispositivos de audio que se hayan certificado mediante el programa de certificación de Skype Empresarial. Para buscar dispositivos certificados en este programa, vea los Microsoft Teams [y](https://products.office.com/microsoft-teams/across-devices/devices) dispositivos [de audio y vídeo USB.](/SkypeForBusiness/certification/devices-usb-devices)
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Implementar salas de Microsoft Teams con Microsoft Endpoint Configuration Manager
+title: Implementar Salas de Microsoft Teams con Microsoft Endpoint Configuration Manager
 author: dstrome
 ms.author: dstrome
 ms.reviewer: Turgayo
@@ -16,7 +16,7 @@ ms.custom:
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
-description: Obtenga información sobre cómo implementar Salas de Microsoft Teams en implementaciones a gran escala con Microsoft Endpoint Configuration Manager.
+description: Obtenga información sobre cómo implementar Salas de Microsoft Teams implementaciones a gran escala con Microsoft Endpoint Configuration Manager.
 no-loc:
 - Microsoft
 - Microsoft Corporation
@@ -41,38 +41,38 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 03/29/2021
 ms.locfileid: "51410116"
 ---
-# <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implementar salas de Microsoft Teams con Microsoft Endpoint Configuration Manager
+# <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implementar Salas de Microsoft Teams mediante Microsoft Endpoint Configuration Manager
 
-En este artículo se proporciona toda la información necesaria para crear las implementaciones de Salas de Microsoft Teams mediante Microsoft Endpoint Configuration Manager.
+En este artículo se proporciona toda la información necesaria para crear Salas de Microsoft Teams implementaciones mediante Microsoft Endpoint Configuration Manager.
 
 Con los métodos fáciles de usar proporcionados por Configuration Manager, puede implementar el sistema operativo y otras aplicaciones en varios dispositivos de destino.
 
 Use el método que se muestra a continuación para guiarlo por la configuración de Configuration Manager y personalizar los paquetes y scripts de ejemplo proporcionados a lo largo de esta guía según sea necesario para su organización.
 
-![Proceso de implementación de Salas de Microsoft Teams con Configuration Manager](../media/room-systems-scale-image1.png)
+![Salas de Microsoft Teams de implementación con Configuration Manager](../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
-> Esta solución solo se ha probado con implementaciones basadas en Surface Pro. Sigue las directrices del fabricante para las configuraciones que no se basan en Surface Pro.
+> Esta solución solo se ha probado con Surface Pro implementaciones basadas en aplicaciones. Siga las directrices del fabricante para las configuraciones que no se basan en Surface Pro.
 
 ## <a name="validate-prerequisites"></a>Validar requisitos previos
 
-Para implementar Microsoft Teams Rooms con Configuration Manager, asegúrese de que cumple los siguientes requisitos previos y requisitos.
+Para implementar Salas de Microsoft Teams con Configuration Manager, asegúrese de que cumple los siguientes requisitos previos y requisitos.
 
-### <a name="microsoft-endpoint-configuration-manager-requirements"></a>Requisitos de Microsoft Endpoint Configuration Manager
+### <a name="microsoft-endpoint-configuration-manager-requirements"></a>Microsoft Endpoint Configuration Manager requisitos
 
--   La versión de Microsoft Endpoint Configuration Manager debe tener al menos 1706 o versiones posteriores. Se recomienda usar 1710 o posterior. Consulte Soporte [técnico para Windows 10 en El Administrador de](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) configuración para obtener información sobre las versiones de Windows 10 compatibles con Configuration Manager.
+-   Microsoft Endpoint Configuration Manager versión debe ser como mínimo 1706 o superior. Se recomienda usar 1710 o posterior. Consulte Soporte [técnico para Windows 10 en Configuration Manager](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) para obtener información sobre las Windows 10 compatibles con Configuration Manager.
 
--   Debe instalarse una versión compatible del Kit de implementación y evaluación de Windows (ADK) para Windows 10. Consulte las versiones del ADK de [Windows 10](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) que puede usar con diferentes versiones de Configuration Manager y asegúrese de que la implementación incluye la versión correcta.
+-   Debe instalarse una versión compatible Windows de evaluación e implementación (ADK) para Windows 10 instalación. Consulte las versiones del [Windows 10 ADK](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) que puede usar con diferentes versiones de Configuration Manager y asegúrese de que la implementación incluye la versión correcta.
 
 -   Los servidores del sistema de sitio deben tener asignado el rol de punto de distribución y las imágenes de inicio deben estar habilitadas para la compatibilidad con el entorno de ejecución previa al inicio [(PXE)](/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) para habilitar las implementaciones iniciadas por la red. Si la compatibilidad con PXE no está habilitada, puede usar medios [de inicio](/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) para las implementaciones.
 
 -   Se debe configurar una cuenta de acceso de red para admitir nuevos escenarios de implementación de equipos (sin formato). Para obtener más información sobre la configuración de una cuenta de acceso de red, vea [Cuentas usadas en Configuration Manager.](/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)
 
--   Le recomendamos que habilite la compatibilidad con [multidifusión](/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)si es probable que implemente la misma imagen de Salas de Microsoft Teams en varias unidades al mismo tiempo.
+-   Le recomendamos que habilite la compatibilidad con [multidifusión](/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)si es probable que implemente la misma imagen Salas de Microsoft Teams en varias unidades al mismo tiempo.
 
 ### <a name="networking-requirements"></a>Requisitos de red
 
--   La red debe tener un servidor de Protocolo de configuración dinámica de host (DHCP), configurado para la distribución automática de direcciones IP en las subredes donde se implementarán las unidades de Salas de Microsoft Teams.
+-   La red debe tener un servidor de Protocolo de configuración dinámica de host (DHCP), configurado para la distribución automática de direcciones IP en las subredes donde se implementarán Salas de Microsoft Teams unidades.
 
     > [!NOTE]
     > La duración de la concesión de DHCP debe establecerse en un valor mayor que la duración de la implementación de la imagen. En caso contrario, la implementación podría producir un error.
@@ -80,11 +80,11 @@ Para implementar Microsoft Teams Rooms con Configuration Manager, asegúrese de 
 -   La red, incluidos los modificadores y las LAN virtuales (VLAN), debe configurarse para admitir PXE. Consulte a su proveedor de red para obtener más información sobre ayuda IP y configuración PXE. Como alternativa, puede usar medios [de](/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) inicio para las implementaciones, si la compatibilidad con PXE no está habilitada.
 
     > [!NOTE]
-    > Para dispositivos Surface Pro, el inicio desde la red (arranque PXE) solo es compatible cuando usas un adaptador Ethernet o una estación de acoplamiento de Microsoft. Los adaptadores Ethernet de terceros no admiten el arranque PXE con Surface Pro. Vea [Adaptadores Ethernet e implementación de Surface](/surface/ethernet-adapters-and-surface-device-deployment) para obtener más información.
+    > Para Surface Pro dispositivos, el inicio desde la red (arranque PXE) solo es compatible cuando se usa un adaptador Ethernet o una estación de acoplamiento de Microsoft. Los adaptadores Ethernet de terceros no admiten el arranque PXE con Surface Pro. Vea [Adaptadores Ethernet e implementación de Surface](/surface/ethernet-adapters-and-surface-device-deployment) para obtener más información.
 
 ## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>Configurar Microsoft Endpoint Configuration Manager para la implementación del sistema operativo
 
-En este artículo se supone que ya tiene una implementación de Configuration Manager en buen estado y no detalla todos los pasos necesarios para implementar y configurar Configuration Manager desde cero. La [documentación y las instrucciones de configuración](/configmgr/) de Microsoft Endpoint Configuration Manager son un gran recurso; Le recomendamos que empiece con estos recursos si aún no ha implementado Configuration Manager.
+En este artículo se supone que ya tiene una implementación de Configuration Manager en buen estado y no detalla todos los pasos necesarios para implementar y configurar Configuration Manager desde cero. La [documentación y las instrucciones de configuración](/configmgr/) del Microsoft Endpoint Configuration Manager es un gran recurso; Le recomendamos que empiece con estos recursos si aún no ha implementado Configuration Manager.
 
 Use las siguientes instrucciones para comprobar que las características de implementación del sistema operativo (OSD) están configuradas correctamente.
 
@@ -94,7 +94,7 @@ Use las siguientes instrucciones para comprobar que las características de impl
 
 2.  Compruebe la compilación instalada y las actualizaciones aplicables que aún no se han instalado.
 
-3.  Revisar [el soporte técnico de Windows 10 en El Administrador de configuración;](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) si necesita actualizar la implementación, seleccione la actualización que desea instalar y, a continuación, **seleccione Descargar**.
+3.  Revisar [el soporte técnico Windows 10 en Configuration Manager](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client); si necesita actualizar la implementación, seleccione la actualización que desea instalar y, a continuación, **seleccione Descargar**.
 
 4.  Una vez completada la descarga, seleccione la actualización y, a continuación, **seleccione Instalar paquete de actualización.**
 
@@ -102,7 +102,7 @@ Use las siguientes instrucciones para comprobar que las características de impl
 
 1.  En la consola de Configuration Manager, vaya a **Puntos de distribución** de \> **administración.**
 
-2.  Seleccione el servidor de punto de distribución que servirá a la implementación salas de Microsoft Teams y, a continuación, seleccione **Propiedades.**
+2.  Seleccione el servidor de punto de distribución que servirá a la Salas de Microsoft Teams y, a continuación, seleccione **Propiedades.**
 
 3.  Seleccione la **pestaña PXE** y asegúrese de que las opciones de configuración siguientes están habilitadas:
     -   Habilitar la compatibilidad con PXE para clientes
@@ -117,7 +117,7 @@ Use las siguientes instrucciones para comprobar que las características de impl
 
 1.  En la consola de Configuration Manager, vaya a Sitios **de** configuración del sitio \> **de** \> **administración** y, a continuación, seleccione el sitio.
 
-2.  En el **grupo Configuración,** seleccione **Configurar la distribución** de software de componentes del \> **sitio.**
+2.  En el **Configuración,** seleccione **Configurar la distribución** de software de componentes \> **del sitio.**
 
 3.  Seleccione la **pestaña Cuenta de acceso a la** red. Configure una o más cuentas y, a continuación, seleccione **Aceptar.**
 
@@ -152,21 +152,21 @@ Para obtener más información, vea [Administrar imágenes de inicio con Configu
 ## <a name="create-configuration-manager-packages"></a>Crear paquetes de Configuration Manager
 
 > [!IMPORTANT]
-> La versión del sistema operativo necesaria para cada versión del instalador SRS cambia con cada versión de MSI. Para determinar la mejor versión del sistema operativo para un MSI determinado, ejecute el script de configuración de la consola una vez. Para obtener más información, vea [Implementar salas de Microsoft Teams con Microsoft Endpoint Configuration Manager.](rooms-scale.md)
+> La versión del sistema operativo necesaria para cada versión del instalador SRS cambia con cada versión de MSI. Para determinar la mejor versión del sistema operativo para un MSI determinado, ejecute el script de configuración de la consola una vez. Para obtener más información, vea [Implementar Salas de Microsoft Teams mediante Microsoft Endpoint Configuration Manager](rooms-scale.md).
 
-Configuration Manager requiere una serie de paquetes para implementar y configurar las unidades salas de Microsoft Teams.
+Configuration Manager requiere una serie de paquetes para implementar y configurar las Salas de Microsoft Teams unidades.
 
 Debe crear y configurar los paquetes siguientes y, a continuación, distribuirlos a los sistemas de sitio de Configuration Manager a los que se les ha asignado el rol de servidor de punto de distribución.
 
 | **Nombre del paquete**                     | **Tipo**               | **Descripción**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
-| SRS v2 : paquete de aplicaciones SRS     | Paquete de software       | Paquete para el kit de implementación salas de Microsoft Teams                                      |
-| SRS v2 : paquete sysprep             | Paquete de software       | Paquete para el Unattended.xml para configurar unidades de salas de Microsoft Teams            |
+| SRS v2 : paquete de aplicaciones SRS     | Paquete de software       | Paquete para el kit Salas de Microsoft Teams implementación                                      |
+| SRS v2 : paquete sysprep             | Paquete de software       | Paquete para el Unattended.xml personalizado para configurar Salas de Microsoft Teams unidades            |
 | SRS v2: Set-SRSComputerName paquete | Paquete de software       | Paquete para la aplicación HTML (HTA) para asignar un nombre de equipo durante la implementación    |
-| SRS v2: Configurar la configuración de SRS         | Paquete de software       | Paquete para configurar la implementación de la aplicación Salas de Microsoft Teams                          |
+| SRS v2: Configurar la configuración de SRS         | Paquete de software       | Paquete para configurar la implementación de la Salas de Microsoft Teams aplicación                          |
 | SRS v2: paquete de actualizaciones del sistema operativo          | Paquete de software       | Paquete para implementar actualizaciones obligatorias del sistema operativo                                      |
 | SRS v2: paquete de certificado raíz    | Paquete de software       | Opcional: paquete para implementar el certificado raíz (no necesario para unidades unidas a dominios)  |
-| SRS v2: paquete del agente de supervisión de Microsoft | Paquete de software       | Opcional: paquete para implementar y configurar el agente de Microsoft Operations Management Suite|
+| SRS v2: Microsoft Monitoring Agent paquete | Paquete de software       | Opcional: paquete para implementar y configurar el agente de Microsoft Operations Management Suite|
 | SRS v2: paquete de fondo de WinPE    | Paquete de software       | Paquete para que la imagen de fondo personalizada se use con imágenes de inicio                           |
 | Windows 10 Enterprise                | Imagen del sistema operativo | Paquete para el archivo de instalación del sistema operativo (install.wim)                          |
 | Surface Pro                          | Paquete de controladores         | Paquete para los controladores de dispositivo y firmware para Microsoft Surface Pro                     |
@@ -178,9 +178,9 @@ Para obtener más información, vea [Paquetes y programas en Configuration Manag
 
 Configuration Manager requiere que los archivos de origen de paquetes se organice en una estructura de carpetas específica cuando se crean por primera vez y cuando se actualizan.
 
-Cree la siguiente estructura de carpetas en el sitio de administración central o en el sitio principal de Microsoft Endpoint Configuration Manager, o en un recurso compartido de servidor que usa para hospedar archivos de origen de paquetes:
+Cree la siguiente estructura de carpetas en el Microsoft Endpoint Configuration Manager de administración central o en un sitio principal, o en un recurso compartido de servidor que usa para hospedar archivos de origen de paquetes:
 
--   SRS v2: paquete del agente de supervisión de Microsoft
+-   SRS v2: Microsoft Monitoring Agent paquete
 -   SRS v2: paquete de actualizaciones del sistema operativo
 -   SRS v2: paquete de certificado raíz
 -   SRS v2: Set-SRSComputerName paquete
@@ -200,19 +200,19 @@ Cree la siguiente estructura de carpetas en el sitio de administración central 
 
 1. Descargue el agente de supervisión desde <https://go.microsoft.com/fwlink/?LinkId=828603> .
 
-2. Para extraer el paquete en la carpeta Paquete de agente de supervisión de **Microsoft SRS v2,** abra una ventana del símbolo del sistema y escribaMMASetup-AMD64.exe **/C:**     en el símbolo del sistema.
+2. Extraiga el paquete en **srs v2 - Microsoft Monitoring Agent carpeta** paquete abriendo una ventana del símbolo del sistema yMMASetup-AMD64.exe **/C:** en el símbolo del sistema.
 
 3. En la consola de Configuration Manager, vaya a **Paquetes** de administración de aplicaciones de biblioteca de software y, a \>  \> continuación, **seleccione Crear paquete.**
 
 4. Escriba la siguiente información para crear el paquete:
 
-   - Nombre<strong>: SRS v2 - Paquete del agente de supervisión de Microsoft</strong>
+   - Nombre:<strong>SRS v2 - Microsoft Monitoring Agent paquete</strong>
 
    - Fabricante:<strong>Microsoft Corporation</strong>
 
    - Versión:<strong>8.1.11081.0</strong> (escriba la versión del archivo de instalación descargado)
 
-   - Active la casilla Este paquete contiene archivos **de origen,** escriba la ruta de acceso a la carpeta Paquete del agente de supervisión de **Microsoft SRS v2** y, a continuación, **seleccione Siguiente.**
+   - Active la casilla Este paquete contiene archivos **de origen,** escriba la ruta de acceso a la **carpeta SRS v2 - Microsoft Monitoring Agent Paquete** y, a continuación, seleccione **Siguiente**.
 
 5. Seleccione **No crear un programa y, a** continuación, seleccione **Siguiente**.
 
@@ -238,9 +238,9 @@ Cree la siguiente estructura de carpetas en el sitio de administración central 
      Wait-Process -name wusa
    }
    ```
-3. Descargue los paquetes obligatorios de Windows Update en la misma carpeta.
+3. Descargue los paquetes de actualización Windows obligatorios en la misma carpeta.
    > [!NOTE]
-   > En el momento en que se publicó este artículo, solo se requería [KB4056892.](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) Compruebe [Configurar una consola de Salas de Microsoft Teams](console.md)para ver si se necesitan otras actualizaciones.
+   > En el momento en que se publicó este artículo, solo se requería [KB4056892.](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) Active [Configurar una Salas de Microsoft Teams de](console.md)datos para ver si se necesitan otras actualizaciones.
 
 4. En la consola de Configuration Manager, vaya a **Paquetes** de administración de aplicaciones de biblioteca de software y, a \>  \> continuación, **seleccione Crear paquete.**
 
@@ -260,7 +260,7 @@ Cree la siguiente estructura de carpetas en el sitio de administración central 
 
 Cree este paquete para distribuir el certificado raíz para dispositivos que no se unirán a un dominio de Active Directory. Cree este paquete solo si se aplican las dos condiciones siguientes:
 -   Su implementación incluye Lync local o Skype Empresarial Server.
--   Las unidades salas de Microsoft Teams están configuradas para trabajar en un grupo de trabajo en lugar de en un miembro del dominio.
+-   Salas de Microsoft Teams unidades están configuradas para trabajar en un grupo de trabajo en lugar de en un miembro del dominio.
 
 1.  Copie el certificado raíz en la carpeta Paquete de certificado raíz **SRS v2.**
 
@@ -278,11 +278,11 @@ Cree este paquete para distribuir el certificado raíz para dispositivos que no 
 
 6.  Seleccione **Cerrar**.
 
-### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>Crear el paquete de kit de implementación salas de Microsoft Teams
+### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>Crear el paquete Salas de Microsoft Teams kit de implementación
 
-1.  Descargue la versión más reciente del kit de implementación salas de **Microsoft Teams** desde y <https://go.microsoft.com/fwlink/?linkid=851168> instálela en una estación de trabajo.
+1.  Descargue la última versión del Salas de Microsoft Teams **de implementación de** e <https://go.microsoft.com/fwlink/?linkid=851168> inscártelo en una estación de trabajo.
 
-2.  Copie el contenido de **C: \\ Program Files (x86) \\ Skype Room System Deployment Kit** en la carpeta SRS v2 - PAQUETE DE APLICACIONES **SRS.**
+2.  Copie el contenido de C: Archivos de programa **\\ \\ (x86)** Skype kit de implementación del sistema de sala en la carpeta Paquete de aplicaciones **SRS v2 - SRS.**
 
 3.  En la consola de Configuration Manager, vaya a **Paquetes** de administración de aplicaciones de biblioteca de software y, a \>  \> continuación, **seleccione Crear paquete.**
 
@@ -476,15 +476,15 @@ Cree este paquete para distribuir el certificado raíz para dispositivos que no 
 
 7. Seleccione **Cerrar**.
 
-### <a name="create-the-windows-10-enterprise-package"></a>Crear el paquete de Windows 10 Enterprise
+### <a name="create-the-windows-10-enterprise-package"></a>Crear el Windows 10 Enterprise paquete
 
-1.  Obtenga un medio x64 de Windows 10 Enterprise y copie el **archivo install.wim** en la carpeta **Sistemas operativos Windows \\ 10 Enterprise.**
+1.  Obtenga un Windows 10 Enterprise x64 y copie el **archivo install.wim** en la carpeta **Windows 10 Enterprise \\ sistemas** operativos.
 
 2.  En la consola de Configuration Manager, vaya a Biblioteca de **software** Imágenes del sistema operativo Sistemas operativos y, a continuación, \>  \> seleccione Agregar **imagen de sistema operativo.**
 
 3.  Especifique la ruta de acceso al **archivo install.wim** que acaba de copiar y, a continuación, seleccione **Siguiente**.
 
-4.  Actualice el **campo** Versión para que coincida con el número de compilación de la imagen de Windows 10 Enterprise y, después, seleccione **Siguiente.**
+4.  Actualice el **campo** Versión para que coincida con el número de compilación de la Windows 10 Enterprise y, después, seleccione **Siguiente.**
 
 5.  Revise la **página Detalles** y, a continuación, **seleccione Siguiente.**
 
@@ -492,16 +492,16 @@ Cree este paquete para distribuir el certificado raíz para dispositivos que no 
 
 Para obtener más información, vea [Administrar imágenes del sistema operativo con Configuration Manager.](/configmgr/osd/get-started/manage-operating-system-images)
 
-### <a name="create-surface-pro-device-driver-packages"></a>Crear paquetes de controladores de dispositivos Surface Pro
+### <a name="create-surface-pro-device-driver-packages"></a>Crear Surface Pro paquetes de controlador de dispositivo
 
-Microsoft Teams Rooms es compatible con Surface Pro y Surface Pro 4. Debes crear un paquete de controlador para cada modelo de Surface Pro que tienes en tu entorno.
+Salas de Microsoft Teams es compatible tanto con Surface Pro como Surface Pro 4. Debe crear un paquete de controlador para cada Surface Pro modelo que tenga en su entorno.
 
 > [!IMPORTANT]
-> Los controladores deben ser compatibles con la compilación de Windows 10 Enterprise y la versión del kit de implementación de Microsoft Teams Rooms. Para obtener más información, vea Descargar el firmware y los controladores más recientes para [dispositivos Surface](/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) y [Configurar una consola.](console.md)
+> Los controladores deben ser compatibles con la Windows 10 Enterprise y la Salas de Microsoft Teams del kit de implementación. Para obtener más información, vea Descargar el firmware y los controladores más recientes para [dispositivos Surface](/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) y [Configurar una consola.](console.md)
 
 1.  Descargue los controladores y el firmware más recientes.
-    -   Para Surface Pro: <https://www.microsoft.com/download/details.aspx?id=55484>
-    -   Para Surface Pro 4: <https://www.microsoft.com/download/details.aspx?id=49498>
+    -   Para Surface Pro:<https://www.microsoft.com/download/details.aspx?id=55484>
+    -   Para Surface Pro 4:<https://www.microsoft.com/download/details.aspx?id=49498>
 
 2.  Extraiga el controlador y el firmware descargados. Abra una ventana del símbolo del sistema y, en el símbolo del sistema, escriba uno de los siguientes comandos:
     -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\Drivers\Surface Pro"`
@@ -509,7 +509,7 @@ Microsoft Teams Rooms es compatible con Surface Pro y Surface Pro 4. Debes crear
 
 3.  En la consola de Configuration Manager, vaya **a Controladores** de sistemas operativos de biblioteca de software y, a \>  \> continuación, seleccione **Importar controlador.**
 
-4.  Seleccione Importar todos los controladores en la siguiente ruta de red **(UNC),** seleccione la carpeta de origen (por ejemplo, C: \\ _Sources Drivers Surface Pro) y, a continuación, \\ \\ seleccione **Siguiente**.
+4.  Seleccione Importar todos los controladores en la siguiente ruta de red **(UNC),** seleccione la carpeta de origen (por ejemplo, C: _Sources Controladores Surface Pro) y, a continuación, seleccione \\ \\ \\ **Siguiente**.
 
 5.  En la **página Especificar los detalles** de los controladores importados, seleccione todos los controladores enumerados y, a continuación, seleccione Habilitar estos controladores y permita que los equipos los **instalen.**
 
@@ -517,20 +517,20 @@ Microsoft Teams Rooms es compatible con Surface Pro y Surface Pro 4. Debes crear
 
 7.  Seleccione **Nuevo paquete**.
 
-8.  Especifique el nombre del paquete que coincida con el modelo de Surface Pro, escriba una ruta de carpeta en la que almacenar los archivos del paquete del controlador, seleccione Aceptar **y,** a continuación, **seleccione Siguiente.**
+8.  Especifique el nombre del paquete que coincida con el modelo Surface Pro, escriba una ruta de carpeta en la que almacenar los archivos del paquete del controlador, seleccione Aceptar **y,** a continuación, **seleccione Siguiente**.
 
 9.  En la **página imágenes de** inicio, asegúrese de que no se selecciona ninguna imagen de inicio y, a continuación, seleccione **Siguiente.**
 
 10. Seleccione **Cerrar**.
 
-11. Vaya a Controladores de sistemas operativos de biblioteca de **software,** seleccione Crear carpeta y escriba un nombre de carpeta que coincida con el modelo de Surface Pro para el que acaba de importar \>  \> los controladores. **\>**
+11. Vaya a **Controladores** de sistemas operativos de biblioteca de software, seleccione Crear carpeta y escriba un nombre de carpeta que coincida con el modelo de Surface Pro para el que acaba de importar \>  \> los controladores. **\>**
 
 12. Mueva todos los controladores importados a la carpeta recién creada para facilitar la navegación y el funcionamiento.
 
 > [!NOTE]
-> Repita los mismos pasos para otros modelos de Surface Pro que pueda tener. Para obtener más información, vea [Administrar controladores en Configuration Manager.](/configmgr/osd/get-started/manage-drivers)
+> Repita los mismos pasos para otros Surface Pro modelos que pueda tener. Para obtener más información, vea [Administrar controladores en Configuration Manager.](/configmgr/osd/get-started/manage-drivers)
 
-### <a name="create-microsoft-teams-rooms-configuration-package"></a>Paquete de configuración Crear salas de Microsoft Teams
+### <a name="create-microsoft-teams-rooms-configuration-package"></a>Crear Salas de Microsoft Teams de configuración
 
 1.  En la consola de Configuration Manager, vaya a **Paquetes** de administración de aplicaciones de biblioteca de software y, a \>  \> continuación, **seleccione Crear paquete.**
 
@@ -589,13 +589,13 @@ Todos los paquetes deben distribuirse a los servidores a los que se les ha asign
 > [!NOTE]
 > La distribución de paquetes puede tardar algún tiempo, según el tamaño del paquete, la jerarquía de Configuration Manager, el número de servidores de puntos de distribución y el ancho de banda disponible en la red.
 > 
-> Todos los paquetes deben distribuirse antes de empezar a implementar una unidad salas de Microsoft Teams.
+> Todos los paquetes deben distribuirse antes de empezar a implementar una Salas de Microsoft Teams unidad.
 > 
 > Para revisar el estado de la distribución de paquetes en la consola de Configuration Manager, vaya **a** Supervisar el estado \> **del contenido de** \> **la distribución.**
 
 ## <a name="configuration-manager-task-sequences"></a>Secuencias de tareas de Configuration Manager
 
-Use secuencias de tareas con Configuration Manager para automatizar los pasos para implementar una imagen de sistema operativo en un equipo de destino. Para implementar una unidad de Salas de Microsoft Teams de forma automatizada, cree una secuencia de tareas que haga referencia a la imagen de inicio usada para iniciar el equipo de Microsoft Teams Rooms de destino, la imagen del sistema operativo Windows 10 Enterprise que desea instalar y cualquier otro contenido adicional, como otras aplicaciones o actualizaciones de software.
+Use secuencias de tareas con Configuration Manager para automatizar los pasos para implementar una imagen de sistema operativo en un equipo de destino. Para implementar una unidad Salas de Microsoft Teams de forma automatizada, cree una secuencia de tareas que haga referencia a la imagen de inicio usada para iniciar el equipo Salas de Microsoft Teams de destino, la imagen del sistema operativo Windows 10 Enterprise que desea instalar y cualquier otro contenido adicional, como otras aplicaciones o actualizaciones de software.
 
 ### <a name="import-the-sample-task-sequence"></a>Importar la secuencia de tareas de ejemplo
 
@@ -604,7 +604,7 @@ Puede descargar e importar fácilmente una secuencia de tareas de ejemplo y pers
 1.  [**Descargue**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) la secuencia de tareas de ejemplo y copie el archivo zip descargado en una ubicación compartida.
 2.  En la consola de Configuration Manager, vaya a **Secuencias** de tareas de sistemas operativos de biblioteca de software y, a \>  \> continuación, seleccione **Importar secuencia de tareas.**
 
-3.  Seleccione **Examinar,** vaya a la ubicación de carpeta compartida que usó en el paso 1, seleccione el archivo **Microsoft Teams Rooms Deployment (EN-US).zip** y, a continuación, seleccione **Siguiente.**
+3.  Seleccione **Examinar,** vaya a la ubicación de carpeta compartida que usó en el paso 1, seleccione el archivo Salas de Microsoft Teams **Implementación (EN-EE.UU.).zipy, a** continuación, seleccione **Siguiente**.
 
 4.  Establezca **Acción** en **Crear nuevo** y, a continuación, seleccione **Siguiente.**
 
@@ -616,7 +616,7 @@ Puede descargar e importar fácilmente una secuencia de tareas de ejemplo y pers
 
 1. Seleccione la secuencia de tareas importada y, a continuación, **seleccione Editar**.
 
-    El Editor de secuencias de tareas se abre y muestra cada paso secuencial que necesita para implementar y configurar una unidad salas de Microsoft Teams.
+    El Editor de secuencias de tareas se abre y muestra cada paso secuencial que necesita para implementar y configurar una unidad Salas de Microsoft Teams tarea.
 
 2. Siga cada paso y complete las actualizaciones recomendadas:
 
@@ -629,50 +629,50 @@ Puede descargar e importar fácilmente una secuencia de tareas de ejemplo y pers
       -  Compruebe que el **paquete SRS v2 - Set-SRSComputerName** está seleccionado. Si no es así, busque el paquete y selecciónelo.
 
    4. **Aplicar sistema operativo:** en este paso se especifica la imagen del sistema operativo que se va a implementar y el archivo de respuesta desatendida sysprep que se va a usar.
-      -  Compruebe que el archivo de imagen del sistema operativo Windows 10 Enterprise correcto está seleccionado.
+      -  Compruebe que el archivo de imagen Windows 10 Enterprise sistema operativo correcto está seleccionado.
       -  Compruebe que usar un archivo de respuesta desatendida o **Sysprep** para una instalación personalizada está habilitado y el **paquete SRS v2 - Sysprep** está seleccionado. Asegúrese también de que **nombre de** archivo está establecido **enunattend.xml**.
 
-   5. **Aplicar la configuración de Windows:** este paso recopila información sobre la instalación de Windows.
+   5. **Aplicar Windows Configuración:** este paso recopila información sobre la Windows instalación.
       -  Proporcione información de licencias y registro, incluida la clave de producto, la contraseña de la cuenta de administrador local y la zona horaria (según sus necesidades).
 
-   6. **Aplicar configuración de** red: este paso le permite especificar un grupo de trabajo o un nombre de dominio de Active Directory y una unidad organizativa.
+   6. **Aplicar Configuración** de red: este paso le permite especificar un grupo de trabajo o un nombre de dominio de Active Directory y una unidad organizativa.
       > [!NOTE]
-      > Consulte [Consideraciones de unirse](domain-joining-considerations.md) al dominio sistema de salas de Skype para conocer las acciones recomendadas que debe realizar al implementar unidades de salas de Microsoft Teams como miembros de un dominio de Directorio de Actve.
-   7. **Aplicar controladores:** Este paso y sus subescalones se usan para implementar controladores de dispositivo y firmware aplicables en función del modelo de Surface Pro que tenga. Actualice cada paso para especificar el paquete de controladores relevante asociado a esta implementación.
-      -   Cada paquete de controlador está configurado para aprovechar los filtros de instrumentación de administración de Windows (WMI) para implementar controladores y firmware relevantes en función de la marca y el modelo de Surface Pro.
+      > Consulte Skype de unirse a un dominio de room system para ver las acciones [recomendadas](domain-joining-considerations.md) que debe realizar en la implementación de Salas de Microsoft Teams unidades como miembros de un dominio de Directorio de Actve.
+   7. **Aplicar controladores:** Este paso y sus subescalones se usan para implementar controladores de dispositivo y firmware aplicables en función del Surface Pro modelo que tiene. Actualice cada paso para especificar el paquete de controladores relevante asociado a esta implementación.
+      -   Cada paquete de controlador está configurado para aprovechar Windows de instrumentación de administración (WMI) para implementar controladores y firmware relevantes en función de la Surface Pro y el modelo.
       -   Le recomendamos encarecidamente que no altere la configuración de estos controladores, de lo contrario, podría producirse un error en la implementación.
 
    8. **Configurar Windows y Configuration Manager:** este paso implementa y configura el cliente de Configuration Manager. Actualice este paso para especificar el paquete de cliente integrado de Configuration Manager.
 
    9. **Instalar certificado raíz:** este paso distribuye el certificado raíz para dispositivos que no están unidos a un dominio y, por lo tanto, es opcional y está deshabilitado de forma predeterminada.
-      -   Habilite este paso si necesita implementar un certificado raíz en las unidades salas de Microsoft Teams.
+      -   Habilite este paso si necesita implementar un certificado raíz en las Salas de Microsoft Teams unidades.
       -   Si necesita realizar este paso, compruebe que el **SRS v2 :** paquete de certificado raíz y deshabilitar el redireccionamiento del sistema de archivos de **64** bits están seleccionados.
 
    10. **Instalar y configurar** el agente de supervisión: este paso instala la versión de 64 bits del agente de Microsoft Azure Monitor y configura el agente para conectarse al área de trabajo de Log Analytics.
-       -   Este paso está deshabilitado de forma predeterminada. Habilite este paso solo si va a usar el Agente de supervisión para supervisar el estado de las unidades de salas de Microsoft Teams.
+       -   Este paso está deshabilitado de forma predeterminada. Habilite este paso solo si va a usar el Agente de supervisión para supervisar el estado de sus Salas de Microsoft Teams unidades.
        -   Edite este paso y actualice los parámetros de la línea de comandos para especificar el **id. del** área de trabajo y la clave **del área de trabajo.**
        -   Consulte [Configurar dispositivos de prueba para Azure Monitoring](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) para obtener más información sobre cómo obtener el id. del área de trabajo del conjunto de tareas de administración de operaciones y la clave principal.
-       -   Compruebe que el **paquete SRS v2 : paquete de Microsoft Monitoring Agent** y deshabilitar el redireccionamiento del sistema de archivos de **64** bits están seleccionados.
-       -   Para obtener más información sobre cómo supervisar el estado de la implementación de salas de Microsoft Teams, vea Planear la administración de salas de Microsoft Teams con [Azure Monitor,](azure-monitor-plan.md)Implementar la administración de salas de Microsoft Teams con [Azure Monitor](azure-monitor-deploy.md) y Administrar dispositivos de Salas de Microsoft Teams con Azure [Monitor.](azure-monitor-manage.md)
+       -   Compruebe que el redireccionamiento del sistema de archivos **SRS v2 Microsoft Monitoring Agent y** Deshabilitar el redireccionamiento del sistema de archivos de **64** bits están seleccionados.
+       -   Para obtener más información sobre cómo supervisar el estado de la implementación de Salas de Microsoft Teams, vea Planear la administración Salas de Microsoft Teams con [Azure Monitor,](azure-monitor-plan.md)Implementar una administración Salas de Microsoft Teams con [Azure Monitor](azure-monitor-deploy.md) y Administrar dispositivos Salas de Microsoft Teams con [Azure Monitor.](azure-monitor-manage.md)
 
-   11. **Copiar archivos de configuración de SRS v2:** este paso copia los archivos de configuración y configuración necesarios del kit de implementación salas de Microsoft Teams en el disco duro local. No se requiere personalización para este paso.
+   11. **Copiar archivos de configuración srs v2:** este paso copia los archivos de configuración y configuración necesarios del kit de implementación de Salas de Microsoft Teams en la unidad de disco duro local. No se requiere personalización para este paso.
        -   Compruebe que el redireccionamiento del sistema de archivos **SRS v2: PAQUETE DE APLICACIONES SRS** y Deshabilitar el redireccionamiento del sistema de archivos de **64** bits están seleccionados.
 
-   12. **Install-SRSv2-OS-Updates:** este paso implementa las actualizaciones obligatorias del sistema operativo necesarias con la implementación de Salas de Microsoft Teams. Haga lo siguiente:
-       -   Compruebe [Configurar una consola de Salas de Microsoft Teams](console.md) para ver qué actualizaciones son necesarias.
+   12. **Install-SRSv2-OS-Updates:** este paso implementa las actualizaciones obligatorias del sistema operativo necesarias con la Salas de Microsoft Teams implementación. Haga lo siguiente:
+       -   Active [Configurar una Salas de Microsoft Teams para](console.md) ver qué actualizaciones son necesarias.
        -   Compruebe que el paquete de actualizaciones del sistema operativo **SRS v2** incluye todas las actualizaciones necesarias.
        -   Compruebe que el **paquete SRS v2 – Actualizaciones del sistema operativo** está seleccionado.
        -   Compruebe que la directiva de ejecución de PowerShell está establecida en **Omitir**.
 
    13. **Reiniciar equipo:** este paso reinicia el equipo después de instalar las actualizaciones obligatorias del sistema operativo. No se requiere personalización para este paso.
 
-   14. **Configurar componentes de Windows:** este paso configura las características de Windows necesarias. No se requiere personalización para este paso.
+   14. **Configurar Windows componentes:** este paso configura las características Windows necesarias. No se requiere personalización para este paso.
 
-   15. **Reiniciar equipo:** este paso reinicia el equipo después de configurar las características de Windows. No se requiere personalización para este paso.
+   15. **Reiniciar equipo:** este paso reinicia el equipo después de Windows se configuran las características. No se requiere personalización para este paso.
 
-   16. **Agregar usuario local de Skype:** este paso crea la cuenta local de Skype que se usa para iniciar sesión automáticamente en Windows e iniciar la aplicación Salas de Microsoft Teams. Este paso no tiene ningún paquete de software asociado y no se requiere personalización para él.
+   16. **Agregar usuario Skype** local: este paso crea la cuenta de Skype local que se usa para iniciar sesión automáticamente en Windows e iniciar la Salas de Microsoft Teams aplicación. Este paso no tiene ningún paquete de software asociado y no se requiere personalización para él.
 
-   17. **Configurar y configurar la aplicación SRS:** este paso configura la instalación de la aplicación Salas de Microsoft Teams para el siguiente arranque del sistema operativo.
+   17. **Configurar y configurar la aplicación SRS:** este paso configura la Salas de Microsoft Teams de la aplicación para el siguiente inicio del sistema operativo.
        -   Compruebe que el **SRS v2: configurar** el paquete de configuración SRS y deshabilitar el redireccionamiento del sistema de archivos de **64** bits están seleccionados.
 
 > [!IMPORTANT]
@@ -696,7 +696,7 @@ Puede descargar e importar fácilmente una secuencia de tareas de ejemplo y pers
    > [!WARNING]
    > Es muy importante que **Purpose** se establezca en **Disponible.** Asegúrese de que **El propósito** **no está** establecido en **Obligatorio.** Asegúrese también de seleccionar Solo multimedia **y PXE** en **el cuadro Hacer disponible para los siguientes**.
    >
-   > Establecer estos valores en otra cosa puede hacer que todos los equipos obtengan la imagen de implementación de Salas de Microsoft Teams al iniciarse.
+   > Establecer estos valores en otra cosa puede hacer que todos los equipos obtengan la Salas de Microsoft Teams de implementación al iniciar.
 7. No especifique ninguna programación y seleccione **Siguiente**.
 
 8. No cambie nada en la sección **Experiencia de usuario** y seleccione **Siguiente.**
@@ -712,9 +712,9 @@ Puede descargar e importar fácilmente una secuencia de tareas de ejemplo y pers
 <a name="validate-and-troubleshoot-the-solution"></a>Validar y solucionar problemas de la solución
 --------------------------------------
 
-Después de completar las secuencias de tareas de Microsoft Endpoint Configuration Manager, tendrá que realizar una ejecución de prueba para validar que la secuencia de tareas puede implementar y configurar unidades de salas de Microsoft Teams.
+Después de completar las Microsoft Endpoint Configuration Manager de tareas, deberá realizar una ejecución de prueba para validar que la secuencia de tareas puede implementar y configurar Salas de Microsoft Teams unidades.
 
-1.  Conecta el dispositivo de prueba a la red cableada con uno de los adaptadores Ethernet compatibles o con surface dock. Si la funcionalidad de inicio PXE no se ha configurado para su [](/configmgr/osd/deploy-use/create-bootable-media) entorno, puede usar la imagen de inicio en la unidad flash USB que creó anteriormente para iniciar desde USB y conectarse a Configuration Manager.
+1.  Conectar el dispositivo de prueba a la red cableada con uno de los adaptadores Ethernet compatibles o con surface dock. Si la funcionalidad de inicio PXE no se ha configurado para su [](/configmgr/osd/deploy-use/create-bootable-media) entorno, puede usar la imagen de inicio en la unidad flash USB que creó anteriormente para iniciar desde USB y conectarse a Configuration Manager.
 
 2.  Acceda al firmware e inicie el arranque PXE:
 
@@ -741,17 +741,17 @@ Después de completar las secuencias de tareas de Microsoft Endpoint Configurati
 
 6.  Seleccione la secuencia de tareas que importó anteriormente y, a continuación, seleccione **Siguiente.**
 
-7.  Después de aplicar la configuración del disco, se le pedirá que especifique un nombre de equipo para el dispositivo. La interfaz de usuario mostrará un nombre de equipo recomendado basado en el número de serie del dispositivo Surface Pro. Puede aceptar el nombre propuesto o especificar uno nuevo. Siga las instrucciones en la pantalla de asignación de nombres de equipo. Al seleccionar **Aceptar,** comienza la implementación.
+7.  Después de aplicar la configuración del disco, se le pedirá que especifique un nombre de equipo para el dispositivo. La interfaz de usuario mostrará un nombre de equipo recomendado en función del número de serie del Surface Pro dispositivo. Puede aceptar el nombre propuesto o especificar uno nuevo. Siga las instrucciones en la pantalla de asignación de nombres de equipo. Al seleccionar **Aceptar,** comienza la implementación.
 
 8.  El resto del proceso de implementación es automático y no pide más entradas de usuario.
 
-9.  Cuando la secuencia de tareas de implementación termine de configurar el dispositivo, verá la siguiente pantalla de configuración que le pide que configure la configuración de la aplicación Salas de Microsoft Teams.
+9.  Cuando la secuencia de tareas de implementación termine de configurar el dispositivo, verá la siguiente pantalla de configuración en la que se le pedirá que configure la configuración Salas de Microsoft Teams aplicación.
 
-    ![Pantalla de configuración inicial para la aplicación Salas de Microsoft Teams](../media/room-systems-scale-image2.png)
+    ![Pantalla de configuración inicial para Salas de Microsoft Teams aplicación](../media/room-systems-scale-image2.png)
 
-10.  Conecta Surface Pro a la consola salas de Microsoft Teams y configura la configuración de la aplicación.
+10.  Conecta el Surface Pro a la Salas de Microsoft Teams y configura la configuración de la aplicación.
 
-11.  Valide que las funcionalidades enumeradas en la ayuda de [Salas de Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) están trabajando en el dispositivo implementado.
+11.  Valide que las funcionalidades [enumeradas Salas de Microsoft Teams ayuda](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) estén trabajando en el dispositivo implementado.
 
 
 Para solucionar un error de instalación, compruebe el archivo **SMSTS.log,** que registra todos los pasos ejecutados en una secuencia de tareas de Configuration Manager.
@@ -761,7 +761,7 @@ El archivo SMSTS.log se almacena en una de varias rutas de acceso, dependiendo d
 
 | **Fase de implementación**                                                            | **Ruta de registro de secuencia de tareas**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
-| WinPE, antes del formato DISCO DURO                                                        | X: \\ \\ \\ Smstslog \\ smsts.log temp de Windows             |
+| WinPE, antes del formato DISCO DURO                                                        | X: \\ Windows \\ \\ smstslog \\ smsts.log temp             |
 | WinPE, después del formato DISCO DURO                                                         | C: \\ _SMSTaskSequence \\ registros \\ smstslog \\ smsts.log    |
 | Sistema operativo implementado antes de instalar el agente de Configuration Manager | c: \\ _SMSTaskSequence \\ registros \\ Smstslog \\ smsts.log    |
 | Sistema operativo y el agente de Configuration Manager implementado                   | %windir% \\ System32 \\ ccm registra \\ \\ Smstslog \\ smsts.log |
@@ -776,4 +776,4 @@ Para solucionar problemas de inicio pxe, compruebe los dos archivos de registro 
 
 -   **Smspxe.log**, ubicado en el directorio de registros de Puntos de administración (MP) de Configuration Manager
 
-Para obtener una lista completa de los archivos de registro que puede usar para solucionar más problemas de instalación de Configuration Manager, vea la referencia de archivo de registro de Microsoft Endpoint Configuration [Manager.](/configmgr/core/plan-design/hierarchy/log-files)
+Para obtener una lista completa de los archivos de registro que puede usar para solucionar más problemas con la instalación de Configuration Manager, vea la referencia Microsoft Endpoint Configuration Manager [archivo de registro.](/configmgr/core/plan-design/hierarchy/log-files)
