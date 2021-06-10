@@ -1,5 +1,5 @@
 ---
-title: Configurar una organización híbrida de Exchange
+title: Configurar una Exchange híbrida
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
-description: Obtenga información sobre cómo configurar una organización híbrida de Exchange para usarla con Microsoft Teams para asegurarse de que se sincronizan las pertenencias a grupos.
+description: Obtenga información sobre cómo configurar una Exchange híbrida para su uso con Microsoft Teams asegurarse de que las pertenencias a grupos se sincronizan.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -25,7 +25,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51094612"
 ---
-<a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a><span data-ttu-id="be82e-103">Configurar una organización híbrida de Exchange para usarla con Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="be82e-103">Configure an Exchange hybrid organization for use with Microsoft Teams</span></span>
+<a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a><span data-ttu-id="d955c-103">Configurar una organización híbrida de Exchange para usarla con Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d955c-103">Configure an Exchange hybrid organization for use with Microsoft Teams</span></span>
 ======================================================================
 
-<span data-ttu-id="be82e-104">Por lo general, no debe tener que configurar ninguna funcionalidad de Exchange Online para su uso con Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="be82e-104">Generally, you should not have to configure any Exchange Online functionality for use with Microsoft Teams.</span></span> <span data-ttu-id="be82e-105">Sin embargo, para escenarios híbridos de Exchange, hay pasos necesarios para asegurarse de que las pertenencias a grupos se sincronizan entre Exchange Server (local) y Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="be82e-105">However, for Exchange Hybrid scenarios, there are steps necessary to ensure Group memberships are synchronized between Exchange Server (on-premises) and Exchange Online.</span></span> <span data-ttu-id="be82e-106">Esto implica la habilitación de la funcionalidad de reescribición de grupo en Azure AD Connect junto con varios scripts de inicialización: Configurar grupos de [Microsoft 365](/exchange/hybrid-deployment/set-up-microsoft-365-groups)con exchange híbrido local.</span><span class="sxs-lookup"><span data-stu-id="be82e-106">This involves enablement of Group Writeback functionality in Azure AD Connect along with various initialization scripts: [Configure Microsoft 365 Groups with on-premises Exchange hybrid](/exchange/hybrid-deployment/set-up-microsoft-365-groups).</span></span>
+<span data-ttu-id="d955c-104">Por lo general, no debe tener que configurar ninguna funcionalidad Exchange Online para su uso con Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="d955c-104">Generally, you should not have to configure any Exchange Online functionality for use with Microsoft Teams.</span></span> <span data-ttu-id="d955c-105">Sin embargo, Exchange escenarios híbridos, hay pasos necesarios para asegurarse de que las pertenencias a grupos se sincronizan entre Exchange Server (local) y Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="d955c-105">However, for Exchange Hybrid scenarios, there are steps necessary to ensure Group memberships are synchronized between Exchange Server (on-premises) and Exchange Online.</span></span> <span data-ttu-id="d955c-106">Esto implica la habilitación de la funcionalidad de reescribición de grupo en Azure AD Conectar junto con varios scripts de inicialización: Configurar Microsoft 365 grupos con aplicaciones locales [Exchange híbrida.](/exchange/hybrid-deployment/set-up-microsoft-365-groups)</span><span class="sxs-lookup"><span data-stu-id="d955c-106">This involves enablement of Group Writeback functionality in Azure AD Connect along with various initialization scripts: [Configure Microsoft 365 Groups with on-premises Exchange hybrid](/exchange/hybrid-deployment/set-up-microsoft-365-groups).</span></span>

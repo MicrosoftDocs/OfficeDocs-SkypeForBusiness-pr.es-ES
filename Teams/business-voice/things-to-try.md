@@ -1,5 +1,5 @@
 ---
-title: Cosas que puede probar después de configurar Business Voice
+title: Cosas que debe probar después de configurar Business Voice
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -25,6 +25,6 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41827368"
 ---
-# <a name="things-to-try-after-setting-up-business-voice"></a><span data-ttu-id="b800e-102">Cosas que puede probar después de configurar Business Voice</span><span class="sxs-lookup"><span data-stu-id="b800e-102">Things to try after setting up Business Voice</span></span>
+# <a name="things-to-try-after-setting-up-business-voice"></a><span data-ttu-id="2eebc-102">Cosas que debe probar después de configurar Business Voice</span><span class="sxs-lookup"><span data-stu-id="2eebc-102">Things to try after setting up Business Voice</span></span>
 
 <!-- This topic will be populated in the future. Intentionally left out of the TOC>
