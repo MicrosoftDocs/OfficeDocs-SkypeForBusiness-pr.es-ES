@@ -130,6 +130,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ocv-translation-feedback": true,
       "searchScope": [
         "Skype for Business"
       ],

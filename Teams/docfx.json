@@ -39,6 +39,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ocv-translation-feedback": true,
       "searchScope": [
         "Microsoft Teams"
       ],
