@@ -29,11 +29,11 @@ ms.locfileid: "51092908"
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> Para obtener más información sobre cómo asignar directivas en Microsoft Teams, vea [Asignar directivas a los usuarios en Teams.](assign-policies.md)
+> Para obtener más información sobre cómo asignar directivas en Microsoft Teams, vea Asignar directivas a [los usuarios en Teams](assign-policies.md).
 
 ## <a name="overview"></a>Información general
 
-¿Necesita dar a sus alumnos y profesores acceso a diferentes características en Microsoft Teams? Puede identificar rápidamente los usuarios de su organización por tipo de licencia y, a continuación, asignarles la directiva adecuada. En este tutorial se muestra cómo asignar una directiva de reunión a grandes conjuntos de usuarios de su centro educativo. Puede asignar directivas con el Centro de administración de Microsoft Teams y PowerShell y le mostraremos ambas formas.
+¿Necesita dar a sus alumnos y profesores acceso a diferentes características en Microsoft Teams? Puede identificar rápidamente los usuarios de su organización por tipo de licencia y, a continuación, asignarles la directiva adecuada. En este tutorial se muestra cómo asignar una directiva de reunión a grandes conjuntos de usuarios de su centro educativo. Puede asignar directivas con el centro Microsoft Teams administración y PowerShell y le mostraremos ambas formas.
 
 Puede asignar una directiva de reunión a un grupo de seguridad del que los usuarios son miembros o directamente a los usuarios a escala a través de una asignación de directiva por lotes. Aprenderá a:
 
@@ -41,7 +41,7 @@ Puede asignar una directiva de reunión a un grupo de seguridad del que los usua
 
 - **Use [la asignación de directivas por](assign-policies.md#assign-a-policy-to-a-batch-of-users) lotes para asignar una directiva de reunión directamente a los usuarios en masa.** Puede asignar una directiva para un máximo de 5.000 usuarios a la vez. Si tiene más de 5.000 usuarios, puede enviar varios lotes. Con este método, cuando tenga nuevos usuarios, tendrá que volver a ejecutar la asignación por lotes para asignar la directiva a esos nuevos usuarios.
 
-Recuerde que en Teams, los usuarios obtienen automáticamente la directiva global (predeterminada para toda la organización) para un tipo de directiva de Teams a menos que cree y asigne una directiva personalizada. Dado que la población de estudiantes suele ser el mayor conjunto de usuarios y a menudo reciben la configuración más restrictiva, le recomendamos que haga lo siguiente:
+Recuerde que en Teams, los usuarios obtienen automáticamente la directiva global (predeterminada para toda la organización) para un tipo de directiva Teams a menos que cree y asigne una directiva personalizada. Dado que la población de estudiantes suele ser el mayor conjunto de usuarios y a menudo reciben la configuración más restrictiva, le recomendamos que haga lo siguiente:
 
 - Cree una directiva personalizada que permita funcionalidades básicas, como chat privado y programación de reuniones, y asigne la directiva a su personal y profesores.
 - Asigne la directiva personalizada a su personal y profesores.
@@ -51,7 +51,7 @@ Tenga en cuenta que la directiva global se aplicará a todos los usuarios de su 
 
 En este tutorial, los alumnos recibirán la directiva de reunión global y asignaremos una directiva de reunión personalizada denominada EducatorMeetingPolicy a docentes y docentes. Suponemos que ha editado la directiva global para adaptar la configuración de la reunión [a](policy-packages-edu.md) los alumnos y ha creado una directiva personalizada que define la experiencia de la reunión para el personal y los profesores.
 
-![Captura de pantalla de la página Directivas de reunión en el Centro de administración de Teams](media/batch-group-policy-assignment-edu-meeting-policies.png)
+![Captura de pantalla de la página Directivas de reunión en el Teams de administración](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## <a name="assign-a-policy-to-a-group"></a>Asignar una directiva a un grupo
 
@@ -74,7 +74,7 @@ Deberá completar todos estos pasos para que el personal y los profesores herede
 
 En primer lugar, cree un grupo de seguridad para el personal y los profesores.
 
-Con [School Data Sync](/SchoolDataSync/) (SDS), puede crear fácilmente grupos de seguridad para profesores y [alumnos](/SchoolDataSync/edu-security-groups) de su centro educativo. Le recomendamos que use SDS para crear los grupos de seguridad que necesita para administrar las directivas de su centro educativo.
+Con [School Data Sync](/SchoolDataSync/) (SDS), puede crear fácilmente grupos de seguridad [educadores y alumnos](/SchoolDataSync/edu-security-groups) de su escuela. Le recomendamos que use SDS para crear los grupos de seguridad que necesita para administrar las directivas de su centro educativo.
 
 Si no puede implementar SDS en su entorno, use este script de [PowerShell](scripts/powershell-script-security-groups-edu.md) para crear dos grupos de seguridad, uno para todos los docentes y docentes que tengan asignada una licencia de profesorado y otro para todos los alumnos que tengan asignada una licencia de Estudiante. Tendrá que ejecutar este script de forma rutinaria para mantener los grupos actualizados y actualizados.
 
@@ -83,7 +83,7 @@ Si no puede implementar SDS en su entorno, use este script de [PowerShell](scrip
 #### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
 > [!NOTE]
-> Actualmente, la asignación de directivas a grupos que usan el Centro de administración de Microsoft Teams solo está disponible para la directiva de llamadas de Teams, la directiva de parque de llamadas de Teams, la directiva de Teams, la directiva de eventos en directo de Teams, la directiva de reunión de Teams y la directiva de mensajería de Teams. Para otros tipos de directiva, use PowerShell.
+> Actualmente, la asignación de directivas a grupos que usan el Centro de administración de Microsoft Teams Teams solo está disponible para una directiva de llamadas Teams, una directiva de parque de llamadas, una directiva de Teams Teams, una directiva de eventos en directo Teams, una directiva de reunión y una directiva de mensajería Teams. Para otros tipos de directiva, use PowerShell.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Reuniones** > **Directivas de reunión**.
 2. Seleccione la **pestaña Asignación de directivas de** grupo.
@@ -102,11 +102,11 @@ Para cambiar la clasificación de una asignación de grupo, primero debe quitar 
 #### <a name="using-powershell"></a>Con PowerShell
 
 > [!NOTE]
-> Actualmente, la asignación de directivas a grupos que usan PowerShell no está disponible para todos los tipos de directivas de Teams. Vea [New-CsGroupPolicyAssignment para](/powershell/module/teams/new-csgrouppolicyassignment) obtener la lista de tipos de directiva admitidos.
+> Actualmente, la asignación de directivas a grupos que usan PowerShell no está disponible para todos los Teams de directiva. Vea [New-CsGroupPolicyAssignment para](/powershell/module/teams/new-csgrouppolicyassignment) obtener la lista de tipos de directiva admitidos.
 
-##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo De PowerShell de Microsoft Teams
+##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo Microsoft Teams PowerShell
 
-Ejecute lo siguiente para instalar el módulo [de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams) (si aún no está instalado). Asegúrese de instalar la versión 1.0.5 o posterior.
+Ejecute lo siguiente para instalar el [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (si aún no está instalado). Asegúrese de instalar la versión 1.0.5 o posterior.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -136,9 +136,9 @@ Para obtener más información, vea [Qué necesita saber sobre la asignación de
 
 Siga estos pasos para quitar la directiva de reunión que se asignó directamente a su personal y profesores.
 
-#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo De PowerShell de Microsoft Teams
+#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo Microsoft Teams PowerShell
 
-Ejecute lo siguiente para instalar el módulo [de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams) (si aún no está instalado). Asegúrese de instalar la versión 1.0.5 o posterior.
+Ejecute lo siguiente para instalar el [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (si aún no está instalado). Asegúrese de instalar la versión 1.0.5 o posterior.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -193,13 +193,13 @@ Siga estos pasos para asignar una directiva de reunión personalizada denominada
 
 ### <a name="using-powershell"></a>Con PowerShell
 
-#### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Conectarse al módulo Azure AD PowerShell para Graph y al módulo de PowerShell de Teams
+#### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Conectar el módulo PowerShell de Azure AD para Graph y el módulo Teams PowerShell
 
-Antes de realizar los pasos de este artículo, tendrá que instalar y conectarse al módulo Azure AD PowerShell para Graph (para identificar usuarios por sus licencias asignadas) y al módulo PowerShell de Microsoft Teams (para asignar las directivas a esos usuarios).
+Antes de realizar los pasos de este artículo, deberá instalar y conectarse al módulo Azure AD PowerShell para Graph (para identificar usuarios por sus licencias asignadas) y al módulo de PowerShell de Microsoft Teams (para asignar las directivas a esos usuarios).
 
-##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Instalar y conectarse al módulo Azure AD PowerShell para Graph
+##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Instalar y conectarse a Azure AD PowerShell para Graph módulo
 
-Abra un símbolo Windows PowerShell símbolo del sistema (ejecute Windows PowerShell como administrador) y, a continuación, ejecute lo siguiente para instalar el módulo PowerShell para Graph de Azure Active Directory.
+Abra un símbolo Windows PowerShell símbolo del sistema (ejecute Windows PowerShell como administrador) y, a continuación, ejecute lo siguiente para instalar el Azure Active Directory PowerShell para Graph módulo.
 
 ```powershell
 Install-Module -Name AzureAD
@@ -213,11 +213,11 @@ Connect-AzureAD
 
 Cuando se le solicite, inicie sesión con sus credenciales de administrador.
 
-Para obtener más información, vea [Conectarse con el módulo Azure Active Directory PowerShell para Graph.](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Para obtener más información, [vea Conectar con el Azure Active Directory PowerShell para Graph módulo](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
-##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo De PowerShell de Microsoft Teams
+##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo Microsoft Teams PowerShell
 
-Ejecute lo siguiente para instalar el módulo [de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams) (si aún no está instalado). Asegúrese de instalar la versión 1.0.5 o posterior.
+Ejecute lo siguiente para instalar el [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (si aún no está instalado). Asegúrese de instalar la versión 1.0.5 o posterior.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -314,7 +314,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 **No estoy familiarizado con PowerShell para Teams. ¿Dónde puedo obtener más información?**
 
-Para obtener información general sobre el uso de PowerShell para administrar Teams, vea Información general sobre [PowerShell de Teams.](teams-powershell-overview.md) Para obtener más información sobre los cmdlets usados en este artículo, vea:
+Para obtener información general sobre cómo usar PowerShell para administrar Teams, vea Teams [información general de PowerShell.](teams-powershell-overview.md) Para obtener más información sobre los cmdlets usados en este artículo, vea:
 
 - [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
 - [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment)
@@ -325,5 +325,5 @@ Para obtener información general sobre el uso de PowerShell para administrar Te
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Asignar directivas a los usuarios](assign-policies.md)
-- [Directivas y paquetes de directivas de Teams para Educación](policy-packages-edu.md)
+- [Directivas de Teams y paquetes de directivas para educación](policy-packages-edu.md)
 - [Administración de directivas de reunión en Teams](meeting-policies-in-teams.md)

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Sri Lanka.
+description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Sri Lanka.
 ms.openlocfilehash: 4e7f7b767df2f7b4baa89dd15b4d81195ba6d2be
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,14 +36,14 @@ ms.locfileid: "51096470"
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Sri Lanka.
+Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Sri Lanka.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Se asignan números de teléfono automáticamente para las audioconferencias?  <br/> | Los números de teléfono no se vinculan a una ciudad o ubicación específica. Si quiere números de teléfono dedicados, vea Obtener números de teléfono de[servicio para Skype Empresarial y Microsoft Teams.](../getting-service-phone-numbers.md)  <br/> |
+|¿Se asignan números de teléfono automáticamente para las audioconferencias?  <br/> | Los números de teléfono no se vinculan a una ciudad o ubicación específica. Si desea números de teléfono dedicados, vea Obtener números de teléfono de servicio para Skype Empresarial[y Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicaciones  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico

@@ -1,6 +1,6 @@
 ---
 title: Turnos para Teams
-description: Obtenga las instrucciones de administrador que necesita para configurar y administrar Turnos, la herramienta de administración de programación, en Teams.
+description: Obtenga las instrucciones de administración que necesita para configurar y administrar Turnos, la herramienta de administración de programación, en Teams.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -30,7 +30,7 @@ ms.locfileid: "51092558"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 
-Teams proporciona a los trabajadores de frontline de su organización las herramientas que necesitan para comunicarse y colaborar de forma eficaz. En este artículo se muestra cómo configurar y administrar. Turnos y usar la herramienta de administración de programación en Teams.
+Teams proporciona a los trabajadores de Frontline de su organización las herramientas que necesitan para comunicarse y colaborar de forma eficaz. En este artículo se muestra cómo configurar y administrar. Turnos y use la herramienta de administración de programación en Teams.
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Configurar y administrar turnos para su organización
 
@@ -42,8 +42,8 @@ Teams proporciona a los trabajadores de frontline de su organización las herram
 
 |               |               |
 | ------------- | ------------- |
-| ![api](../media/api-small.svg) | **[API de Mayús Graph](/graph/api/resources/shift?view=graph-rest-1.0)** Las API de Gráfico de turnos le permiten integrar los datos de Turnos con sistemas de administración de fuerza de trabajo externos. Tendrá la flexibilidad de crear experiencias personalizadas de Turnos en el back-end, a la vez que ofrece a los usuarios una experiencia de front-end enriqueciendo en Teams.             |
-| ![api](../media/api-small.svg) | **[Integraciones de administración de fuerza laboral](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Si usa sistemas de administración de fuerza de trabajo de terceros, como Kronos y JDA, para programación, tiempo y asistencia, puede integrar directamente con las API de Graph de Turnos a Turnos y el SDK con integraciones de código abierto. |
+| ![api](../media/api-small.svg) | **[Mayús Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** Los cambios Graph API le permiten integrar los datos de Turnos con sistemas de administración de fuerza de trabajo externos. Tendrá la flexibilidad de crear experiencias personalizadas de Turnos en el back-end, a la vez que ofrece a los usuarios una experiencia de front-end enriqueciendo Teams.             |
+| ![api](../media/api-small.svg) | **[Integraciones de administración de fuerza laboral](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Si usa sistemas de administración de fuerza de trabajo de terceros, como Kronos y JDA, para programación, tiempo y asistencia, puede integrar directamente con Turnos a turnos Graph API y SDK con integraciones de código abierto. |
 | ![api](../media/process-flow-teams-small.svg) | **[Turnos + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Turnos + Power Automate le permite tomar información de Turnos y crear flujos de trabajo personalizados con otras aplicaciones y realizar operaciones a escala. Automatice procesos clave con poco o ningún código. Los desencadenadores y plantillas admiten una variedad de escenarios, como habilitar aprobaciones automáticas para solicitudes de turno cuando no es necesaria la aprobación de un administrador. |
 
 ## <a name="featured-training"></a>Aprendizaje destacado

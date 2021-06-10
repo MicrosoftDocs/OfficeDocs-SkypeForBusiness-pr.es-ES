@@ -1,4 +1,4 @@
 > [!IMPORTANT]
-> Las cuentas de recursos de Microsoft 365 no son lo mismo que las cuentas de recursos de Teams. Las cuentas de recursos de Teams se pueden usar con colas de llamadas y operadores automáticos para aceptar llamadas telefónicas de números de teléfono externos. Las cuentas de recursos de Microsoft 365 están vinculadas a un buzón de Exchange Online y permiten reservar recursos compartidos, como salas, proyectores, entre otros.
+> Microsoft 365 cuentas de recursos no son lo mismo que Teams de recursos. Teams cuentas de recursos pueden usarse con colas de llamadas y operadores automáticos para aceptar llamadas telefónicas de números de teléfono externos. Microsoft 365 cuentas de recursos están vinculadas Exchange Online un buzón de correo y permiten la reserva de recursos compartidos, como salas, proyectores, entre otros.
 >
-> Si desea obtener más información sobre las cuentas de recursos de Teams, consulte [Administrar cuentas de recursos en Microsoft Teams.](../manage-resource-accounts.md)
+> Si desea obtener más información sobre Teams recursos, vea Administrar cuentas de recursos [en Microsoft Teams](../manage-resource-accounts.md).

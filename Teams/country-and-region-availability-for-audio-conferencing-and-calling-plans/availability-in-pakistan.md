@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Pakistán.
+description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Pakistán.
 ms.openlocfilehash: fffe7a36d457953045bec415cd436d70c51f8b73
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51102316"
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Pakistán.
+Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Pakistán.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -73,7 +73,7 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
    
- Tenga en cuenta que, en Pakistán, los números de servicio solo se pueden usar para las audioconferencias. Por lo tanto, si desea obtener números gratuitos y gratuitos para las audioconferencias, vea Obtener números de teléfono de servicio para Skype Empresarial y [Microsoft Teams.](../getting-service-phone-numbers.md)
+ Tenga en cuenta que, en Pakistán, los números de servicio solo se pueden usar para las audioconferencias. Por lo tanto, si desea obtener números gratuitos y gratuitos para las audioconferencias, vea Obtener números de teléfono de servicio para Skype Empresarial y [Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 

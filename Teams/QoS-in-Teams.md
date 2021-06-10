@@ -29,7 +29,7 @@ ms.locfileid: "51092618"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar calidad de servicio (QoS) en Microsoft Teams
 
-La calidad del servicio (QoS) en Microsoft Teams permite que el tráfico de red en tiempo real que sea sensible a los retrasos de red (por ejemplo, transmisiones de voz o vídeo) se "corte en línea" frente al tráfico que sea menos confidencial (como descargar una nueva aplicación, donde un segundo adicional para descargar no es un gran negocio). QoS usa objetos de directiva de grupo de Windows y listas de control de acceso basadas en puertos para identificar y marcar todos los paquetes en transmisiones en tiempo real. Esto ayuda a su red a dar a las transmisiones de voz, vídeo y uso compartido de pantalla una parte dedicada del ancho de banda de red.
+La calidad del servicio (QoS) en Microsoft Teams permite que el tráfico de red en tiempo real que sea sensible a los retrasos de red (por ejemplo, transmisiones de voz o vídeo) se "corte en línea" frente al tráfico que sea menos confidencial (como descargar una nueva aplicación, donde un segundo adicional para descargar no es un gran negocio). QoS usa Windows de directiva de grupo y listas de control de acceso basadas en puertos para identificar y marcar todos los paquetes en transmisiones en tiempo real. Esto ayuda a su red a dar a las transmisiones de voz, vídeo y uso compartido de pantalla una parte dedicada del ancho de banda de red.
 
 Si es compatible con un gran grupo de usuarios que están experimentando cualquiera de los problemas descritos en este artículo, es probable que tenga que implementar QoS. Es posible que una pequeña empresa con pocos usuarios no necesite QoS, pero incluso allí debería ser útil.
 
@@ -41,11 +41,11 @@ Sin algún tipo de QoS, es posible que vea los siguientes problemas de calidad e
 
 La forma menos compleja de abordar estos problemas es aumentar el tamaño de las conexiones de datos, tanto interna como externamente a Internet. Dado que esto suele ser prohibitivo para los costos, QoS proporciona una forma de administrar de forma más eficaz los recursos que tiene en lugar de agregar ancho de banda. Para solucionar problemas de calidad, le recomendamos que primero use QoS y, después, agregue ancho de banda solo cuando sea necesario.
 
-Para que QoS sea eficaz, debe aplicar una configuración de QoS coherente en toda la organización. Cualquier parte de la ruta que no sea compatible con sus prioridades de QoS puede degradar la calidad de las llamadas, el vídeo y el uso compartido de pantalla. Esto incluye aplicar la configuración a todos los equipos o dispositivos de usuario, modificadores de red, enrutadores a Internet y el servicio de Teams.
+Para que QoS sea eficaz, debe aplicar una configuración de QoS coherente en toda la organización. Cualquier parte de la ruta que no sea compatible con sus prioridades de QoS puede degradar la calidad de las llamadas, el vídeo y el uso compartido de pantalla. Esto incluye la aplicación de la configuración a todos los equipos o dispositivos de usuario, modificadores de red, enrutadores a Internet y el servicio Teams usuario.
 
-_Figura 1. La relación entre las redes de una organización y los servicios de Microsoft 365 u Office 365_
+_Figura 1. La relación entre las redes de una organización y Microsoft 365 servicios Office 365 organización_
 
-![Ilustración de la relación entre redes y servicios](media/Qos-in-Teams-Image1.png "La relación entre las redes de una organización y los servicios de Microsoft 365 u Office 365: la red local y los dispositivos se conectan con una red interconectada, que a su vez se conecta con los servicios de voz en la nube y audioconferencia de Microsoft 365 u Office 365.")
+![Ilustración de la relación entre redes y servicios](media/Qos-in-Teams-Image1.png "La relación entre las redes de una organización y los servicios Microsoft 365 o Office 365: la red local y los dispositivos se conectan con una red de interconexión, que a su vez se conecta con los servicios de audioconferencia y voz en la nube de Microsoft 365 o Office 365.")
 
 ## <a name="qos-implementation-checklist"></a>Lista de comprobación de implementación de QoS
 
@@ -64,13 +64,13 @@ En un nivel alto, haga lo siguiente para implementar QoS:
       > [!IMPORTANT]
       > Se recomienda implementar estas directivas de QoS con los puertos de origen del cliente y una dirección IP de origen y destino de "cualquiera". Esto detectará el tráfico multimedia entrante y saliente en la red interna.  
 
-   3. [Establezca cómo desea administrar el tráfico multimedia de las reuniones de Teams.](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+   3. [Establezca cómo desea administrar el tráfico multimedia para Teams reuniones.](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
 
-5. [Valide la implementación de QoS](#validate-your-qos-implementation) analizando el tráfico de Teams en la red.
+5. [Valide la implementación de QoS](#validate-your-qos-implementation) analizando Teams tráfico en la red.
 
 Cuando se prepare para implementar QoS, tenga en cuenta las siguientes directrices:
 
-- La ruta más corta a Microsoft 365 es la mejor.
+- La ruta más corta para Microsoft 365 es la mejor.
 - El cierre de puertos solo provocará una degradación de la calidad.
 - No se recomiendan los obstáculos entre ellos, como servidores proxy.
 - Limitar el número de saltos:
@@ -78,13 +78,13 @@ Cuando se prepare para implementar QoS, tenga en cuenta las siguientes directric
   - ISP a Microsoft network edge: 3 saltos
   - Perímetro de red de Microsoft al destino final: irrelevante
 
-Para obtener información sobre cómo configurar puertos de firewall, vaya a Direcciones [URL e intervalos IP de Office 365.](office-365-urls-ip-address-ranges.md)
+Para obtener información sobre cómo configurar puertos de firewall, vaya [a Office 365 url e intervalos IP.](office-365-urls-ip-address-ranges.md)
 
 ## <a name="make-sure-your-network-is-ready"></a>Asegúrese de que la red está lista
 
 Si está pensando en una implementación de QoS, ya debería haber determinado los requisitos de ancho de banda y otros [requisitos de red.](prepare-network.md)
   
-La congestión del tráfico en una red afectará enormemente a la calidad de los medios. La falta de ancho de banda provoca una degradación del rendimiento y una mala experiencia de usuario. A medida que aumenta la adopción y el uso de Teams, use [informes,](use-call-analytics-to-troubleshoot-poor-call-quality.md)análisis de llamadas por usuario y Panel de calidad de llamadas [(CQD)](turning-on-and-using-call-quality-dashboard.md) para identificar problemas y, después, realizar ajustes con QoS y adiciones selectivas de ancho de banda.
+La congestión del tráfico en una red afectará enormemente a la calidad de los medios. La falta de ancho de banda provoca una degradación del rendimiento y una mala experiencia de usuario. A medida que Teams uso y adopción, use [informes,](use-call-analytics-to-troubleshoot-poor-call-quality.md)análisis de llamadas por usuario y Panel de calidad de llamadas [(CQD)](turning-on-and-using-call-quality-dashboard.md) para identificar problemas y, después, realizar ajustes con QoS y adiciones selectivas de ancho de banda.
 
 ### <a name="vpn-considerations"></a>Consideraciones de VPN
 
@@ -108,7 +108,7 @@ Una analogía simple es que QoS crea "carriles de uso compartido de coches" virt
 
 ## <a name="select-a-qos-implementation-method"></a>Seleccionar un método de implementación de QoS
 
-Puede implementar QoS mediante etiquetado basado en puertos, con listas de control de acceso (ACL) en los enrutadores de su red. El etiquetado basado en puertos es el método más confiable, ya que funciona en entornos mixtos de Windows, Mac y Linux y es el más fácil de implementar. Los clientes móviles no proporcionan un mecanismo para marcar el tráfico mediante valores DSCP, por lo que necesitarán este método.  
+Puede implementar QoS mediante etiquetado basado en puertos, con listas de control de acceso (ACL) en los enrutadores de su red. El etiquetado basado en puertos es el método más confiable, ya que funciona en entornos mixtos Windows, Mac y Linux y es el más fácil de implementar. Los clientes móviles no proporcionan un mecanismo para marcar el tráfico mediante valores DSCP, por lo que necesitarán este método.  
 
 Con el etiquetado basado en puertos, el enrutador de la red examina un paquete entrante y, si el paquete llegó con un determinado puerto o rango de puertos, lo identifica como un tipo de medio determinado y lo coloca en la cola para ese tipo, agregando una marca [DSCP](https://tools.ietf.org/html/rfc2474) predeterminada al encabezado de paquete IP para que otros dispositivos puedan reconocer su tipo de tráfico y darle prioridad en su cola.
 
@@ -118,7 +118,7 @@ Aunque el etiquetado basado en puertos funciona en todas las plataformas, solo m
 
 También puede implementar QoS mediante un objeto de directiva de grupo (GPO) para dirigir los dispositivos cliente a insertar un marcador DSCP en encabezados de paquetes IP que lo identifiquen como tipo particular de tráfico (por ejemplo, voz). Los enrutadores y otros dispositivos de red se pueden configurar para reconocerlo y colocar el tráfico en una cola independiente de mayor prioridad.
 
-Aunque este escenario es totalmente válido, solo funcionará para clientes de Windows unidos a un dominio. Cualquier dispositivo que no sea un cliente de Windows unido a un dominio no se habilitará para el etiquetado de DSCP. Otros clientes, como los que ejecutan macOS, tienen etiquetas codificadas y siempre etiquetarán el tráfico.
+Aunque este escenario es totalmente válido, solo funcionará para clientes Windows dominio. Cualquier dispositivo que no esté unido a un dominio Windows cliente no se habilitará para el etiquetado de DSCP. Otros clientes, como los que ejecutan macOS, tienen etiquetas codificadas y siempre etiquetarán el tráfico.
 
 En el lado más, controlar el marcado DSCP a través de GPO garantiza que todos los equipos unidos al dominio reciban la misma configuración y que solo un administrador pueda administrarlos. Los clientes que pueden usar GPO se etiquetarán en el dispositivo de origen y, después, los dispositivos de red configurados pueden reconocer la transmisión en tiempo real mediante el código DSCP y darle una prioridad adecuada.
 
@@ -128,7 +128,7 @@ Se recomienda una combinación de marcas DSCP en el punto de conexión y ACL bas
 
 Las marcas DSCP se pueden igualar a las estampillas postales que indican a los trabajadores postales lo urgente que es la entrega y la mejor manera de ordenarla para una entrega rápida. Una vez que haya configurado la red para dar prioridad a las transmisiones multimedia en tiempo real, los paquetes perdidos y los paquetes retrasados deberían disminuir considerablemente.
 
-Una vez que todos los dispositivos de la red usan las mismas clasificaciones, marcas y prioridades, es posible reducir o eliminar retrasos, paquetes eliminados y vibración cambiando el tamaño de los rangos de puerto asignados a las colas usadas para cada tipo de tráfico. Desde la perspectiva de Teams, el paso de configuración más importante es la clasificación y el marcado de paquetes. Sin embargo, para que el QoS de un extremo a otro tenga éxito, también debe alinear cuidadosamente la configuración de la aplicación con la configuración de red subyacente. Una vez que QoS está completamente implementado, la administración en curso es una cuestión de ajustar los intervalos de puertos asignados a cada tipo de tráfico en función de las necesidades y el uso real de su organización.
+Una vez que todos los dispositivos de la red usan las mismas clasificaciones, marcas y prioridades, es posible reducir o eliminar retrasos, paquetes eliminados y vibración cambiando el tamaño de los rangos de puerto asignados a las colas usadas para cada tipo de tráfico. Desde la Teams, el paso de configuración más importante es la clasificación y el marcado de paquetes. Sin embargo, para que el QoS de un extremo a otro tenga éxito, también debe alinear cuidadosamente la configuración de la aplicación con la configuración de red subyacente. Una vez que QoS está completamente implementado, la administración en curso es una cuestión de ajustar los intervalos de puertos asignados a cada tipo de tráfico en función de las necesidades y el uso real de su organización.
 
 ## <a name="choose-initial-port-ranges-for-each-media-type"></a>Elegir rangos de puertos iniciales para cada tipo de medio
 
@@ -149,7 +149,7 @@ Tenga en cuenta lo siguiente cuando use esta configuración:
 
 - Si tiene previsto implementar ExpressRoute en el futuro y aún no ha implementado QoS, le recomendamos que siga las instrucciones para que los valores de DSCP sean los mismos de remitente a receptor.
 
-- Todos los clientes, incluidos los clientes móviles y los dispositivos de Teams, usarán estos rangos de puertos y se verán afectados por cualquier directiva DSCP que implemente que use estos rangos de puertos de origen. Los únicos clientes que seguirán usando puertos dinámicos son los clientes basados en exploradores (clientes que permiten a los participantes unirse a reuniones con sus exploradores).
+- Todos los clientes, incluidos los clientes móviles y Teams dispositivos, usarán estos rangos de puertos y se verán afectados por cualquier directiva DSCP que implemente que use estos rangos de puertos de origen. Los únicos clientes que seguirán usando puertos dinámicos son los clientes basados en exploradores (clientes que permiten a los participantes unirse a reuniones con sus exploradores).
 
 - Aunque el cliente mac usa los mismos rangos de puertos, también usa valores codificados de forma codificada para audio (EF) y vídeo (AF41). Estos valores no son configurables.
 
@@ -157,7 +157,7 @@ Tenga en cuenta lo siguiente cuando use esta configuración:
 
 ## <a name="migrate-qos-to-teams"></a>Migrar QoS a Teams
 
-Si anteriormente implementó Skype Empresarial Online, incluido el etiquetado de QoS y los intervalos de puertos, y ahora está implementando. Teams, Teams respetará la configuración existente y usará los mismos intervalos de puertos y etiquetado que el cliente de Skype Empresarial. En la mayoría de los casos, no se necesita ninguna configuración adicional.
+Si anteriormente ha implementado Skype Empresarial Online, incluidos los intervalos de etiquetado y puertos de QoS, y ahora está implementando. Teams, Teams respetará la configuración existente y usará los mismos intervalos de puertos y etiquetado que el Skype Empresarial cliente. En la mayoría de los casos, no se necesita ninguna configuración adicional.
 
 > [!NOTE]
 > Si usa el etiquetado qoS de nombre de aplicación a través de la directiva de grupo, debe agregar Teams.exe como el nombre de la aplicación.
@@ -182,14 +182,14 @@ new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "Teams.exe" -IPP
 new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040 -IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
 ```
 
-## <a name="managing-source-ports-in-the-teams-admin-center"></a>Administrar puertos de origen en el Centro de administración de Teams
+## <a name="managing-source-ports-in-the-teams-admin-center"></a>Administrar puertos de origen en el Teams de administración
 
-En Teams, los puertos de origen de QoS usados por las diferentes cargas de trabajo deben administrarse activamente y ajustarse según sea necesario. Haciendo referencia a la tabla en [Elegir rangos](#choose-initial-port-ranges-for-each-media-type)de puerto iniciales para cada tipo de medios, los rangos de puertos son ajustables, pero las marcas DSCP no son configurables. Una vez que haya implementado esta configuración, es posible que encuentre que se necesitan más o menos puertos para un tipo de medio determinado. [](use-call-analytics-to-troubleshoot-poor-call-quality.md) El análisis de llamadas por usuario y el Panel de calidad de llamadas [(CQD)](turning-on-and-using-call-quality-dashboard.md) deben usarse para tomar una decisión para ajustar los intervalos de puertos después de implementar Teams y, periódicamente, según las necesidades cambien.
+En Teams, los puertos de origen de QoS usados por las diferentes cargas de trabajo deben administrarse activamente y ajustarse según sea necesario. Haciendo referencia a la tabla en [Elegir rangos](#choose-initial-port-ranges-for-each-media-type)de puerto iniciales para cada tipo de medios, los rangos de puertos son ajustables, pero las marcas DSCP no son configurables. Una vez que haya implementado esta configuración, es posible que encuentre que se necesitan más o menos puertos para un tipo de medio determinado. [](use-call-analytics-to-troubleshoot-poor-call-quality.md) El análisis de llamadas por usuario y el Panel de calidad de llamadas [(CQD)](turning-on-and-using-call-quality-dashboard.md) deben usarse para tomar la decisión de ajustar los intervalos de puertos después de que Teams se haya implementado y, periódicamente, según las necesidades cambien.
 
 > [!NOTE]
-> Si ya configuró QoS en función de los intervalos de puertos de origen y las marcas DSCP para Skype Empresarial Online, se aplicará la misma configuración a Teams y no será necesario realizar más cambios de cliente o red en la asignación, aunque es posible que tenga que establecer los [intervalos usados](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) en Teams para que coincidan con lo que se configuró para Skype Empresarial Online.
+> Si ya ha configurado QoS en función de los intervalos de puertos de origen y las marcas DSCP para Skype Empresarial Online, se aplicará la misma configuración a Teams y no se requieren más cambios de cliente o red en la asignación, aunque es posible que tenga que establecer los [rangos usados](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) en Teams para que coincidan con lo que se configuró para Skype Empresarial Online.
 
-Si ya implementó Skype Empresarial Server localmente, es posible que tenga que volver a examinar las directivas de QoS. Ajustar las directivas para que coincidan con la configuración del intervalo de puertos que haya comprobado proporciona una experiencia de usuario de calidad para Teams.
+Si ha implementado previamente Skype Empresarial Server local, es posible que tenga que volver a examinar las directivas de QoS. Ajustar las directivas para que coincidan con la configuración del intervalo de puertos que haya comprobado proporciona una experiencia de usuario de calidad para Teams.
 
 ## <a name="validate-your-qos-implementation"></a>Validar la implementación de QoS
 
@@ -213,4 +213,4 @@ Lea estos temas para obtener información sobre cómo implementar QoS para Intun
 
 - [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
 
-- [Implementar QoS en el cliente de Teams](QoS-in-Teams-clients.md)
+- [Implementar QoS en el Teams cliente](QoS-in-Teams-clients.md)

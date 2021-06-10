@@ -33,15 +33,15 @@ ms.locfileid: "51094210"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Administrar directivas de equipos en Microsoft Teams
 
-Como administrador, puede usar directivas de equipos en Microsoft Teams para controlar lo que los usuarios de su organización pueden hacer en equipos y canales. Por ejemplo, puede establecer si los usuarios pueden crear canales privados.
+Como administrador, puede usar directivas de equipos en Microsoft Teams controlar lo que los usuarios de su organización pueden hacer en equipos y canales. Por ejemplo, puede establecer si los usuarios pueden crear canales privados.
 
-Para administrar directivas de equipos, vaya a Directivas de **Teams**  >  **Teams** en el Centro de administración de Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada.
+Para administrar directivas de equipos, **vaya a Teams** Teams directivas  >  **en** el centro Microsoft Teams administración. Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada.
 
 Puede editar la directiva global o crear y asignar una directiva personalizada. Después de editar la directiva global o asignar una directiva, los cambios pueden tardar unas horas en tener efecto.
 
 ## <a name="create-a-custom-teams-policy"></a>Crear una directiva de equipos personalizada
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas de Teams**  >  **Teams.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya **a Teams**  >  **Teams directivas.**
 2. Haga clic en **Agregar**.
 3. Escriba un nombre y una descripción para la directiva.
 
@@ -54,7 +54,7 @@ Puede editar la directiva global o crear y asignar una directiva personalizada. 
 
 Puede editar la directiva global o las directivas personalizadas que cree.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas de Teams**  >  **Teams.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya **a Teams**  >  **Teams directivas.**
 2. Haga clic a la izquierda del nombre de la directiva para seleccionarla y, luego, en **Editar**.
 3. Active o desactive la configuración que desee y, a continuación, haga clic en **Guardar.**
 

@@ -1,6 +1,6 @@
 ---
 title: Teams para Administración Pública
-description: Obtenga información sobre cómo planear e implementar Teams en entornos gubernamentales de Microsoft 365.
+description: Obtenga información sobre cómo planear e implementar Teams en Microsoft 365 entornos gubernamentales.
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -22,11 +22,11 @@ ms.locfileid: "51092408"
 ---
 # <a name="teams-for-government"></a>Teams para Administración Pública
 
-Use estos recursos para obtener información sobre consideraciones específicas para implementar Teams en entornos de Microsoft 365 Government. Cuando esté listo, siga la misma ruta de implementación recomendada para Teams como se describe en Cómo [implementar Microsoft Teams.](../deploy-overview.md)
+Use estos recursos para obtener información sobre consideraciones específicas para implementar Teams en Microsoft 365 entornos gubernamentales. Cuando esté listo, siga la misma ruta de implementación recomendada para Teams como se describe en Cómo implementar [Microsoft Teams](../deploy-overview.md).
 
 |               |               |
 | ------------- | ------------- |
-| ![Captura de pantalla del icono de lista numerada](../media/list-123-teams.svg)  |  [Planear las implementaciones de Microsoft 365 Government - GCC](../plan-for-government-gcc.md) |
+| ![Captura de pantalla del icono de lista numerada](../media/list-123-teams.svg)  |  [Plan para Microsoft 365 administración local: GCC implementaciones](../plan-for-government-gcc.md) |
 | ![Captura de pantalla del Portapapeles con una lista de tareas icono](../media/tasks-teams.svg) | [Plan de Microsoft 365 Administración pública - GCC High](../plan-for-government-gcc-high.md) |
-| ![Captura de pantalla del icono de elementos de lista con viñetas](../media/task-list-planning-teams.svg)  |  [Planear las implementaciones de Microsoft 365 Government - DOD](../plan-for-government-dod.md) |
+| ![Captura de pantalla del icono de elementos de lista con viñetas](../media/task-list-planning-teams.svg)  |  [Plan para Microsoft 365 administración local: implementaciones de DOD](../plan-for-government-dod.md) |
 | ![Captura de pantalla del icono de flecha derecha](../media/arrow-right-2-teams.svg)  |  [Audioconferencia con enrutamiento directo para GCC High y DoD](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |

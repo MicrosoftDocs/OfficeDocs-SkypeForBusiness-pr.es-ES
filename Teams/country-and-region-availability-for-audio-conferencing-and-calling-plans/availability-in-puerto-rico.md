@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Puerto Rico.
+description: Estas son las Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Puerto Rico.
 ms.openlocfilehash: 3f4933b1b6ea0ca85a7b6235e77b5eb7c50e40fc
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51092658"
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Puerto Rico.
+Estas son las Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Puerto Rico.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

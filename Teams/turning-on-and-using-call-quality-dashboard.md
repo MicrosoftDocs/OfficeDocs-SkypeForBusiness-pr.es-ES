@@ -54,7 +54,7 @@ Si desea que los usuarios que no son administradores (como ingenieros de soporte
 |  |Ver informes  |Ver campos EUII  |Crear informes  |Upload datos de creación  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |Administrador global     |Sí         |Sí         |Sí         |Sí         |
-|Teams Administrador     |Sí         |Sí         |Sí         |Sí         |
+|Administrador de Teams     |Sí         |Sí         |Sí         |Sí         |
 |Administrador de comunicaciones de Teams     |Sí         |Sí         |Sí         |Sí         |
 |Ingeniero de soporte en comunicaciones de Teams     |Sí         |Sí         |Sí         |No         |
 |Teams Especialista en soporte técnico de comunicaciones     |Sí         |No         |Sí         |No         |

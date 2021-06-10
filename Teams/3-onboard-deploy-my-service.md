@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Descargue el Libro de reproducción de habilitación del sitio para planear la implementación de Teams y acelerar y optimizar la adopción del usuario, la percepción de calidad y la satisfacción.
+description: Descargue el Playbook de habilitación del sitio para planear Teams implementación y acelerar y optimizar la adopción del usuario, la percepción de calidad y la satisfacción.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -31,28 +31,28 @@ ms.locfileid: "51112636"
 
 En este artículo se proporciona información general sobre los requisitos para implementar correctamente los servicios de voz en la nube. Siguiendo instrucciones prescriptivas para implementar servicios de voz en la nube, puede asegurarse de que cumple correctamente todos los requisitos y ofrece resultados repetibles.
 
-## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Libro de reproducción de habilitación del sitio para cargas de trabajo de voz de Microsoft Teams
+## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Libro de reproducción de habilitación del sitio para Microsoft Teams de voz
 
-Use este libro de juegos para ayudar a su organización a planear y ejecutar correctamente la implementación de las características de voz de Microsoft Teams de forma individual.
+Use este libro de reproducción para ayudar a su organización a planear y ejecutar correctamente la implementación de Microsoft Teams de voz de forma individual.
 
-Incluyendo todas las actividades necesarias, las escalas de tiempo recomendadas y los vínculos a las instrucciones correspondientes para cada actividad, este libro de reproducción trata las instrucciones de extremo a extremo para ayudar a garantizar una implementación de voz de Teams correcta para un sitio determinado, centrándose en los factores que son importantes para el usuario.
+Incluyendo todas las actividades necesarias, las escalas de tiempo recomendadas y los vínculos a las instrucciones correspondientes para cada actividad, este libro de juegos trata instrucciones de un extremo a otro para ayudar a garantizar una implementación de voz de Teams correcta para un sitio determinado, centrándose en los factores que son importantes para el usuario.
 
 Al completar las actividades de este libro de juegos, su organización puede:
 
--   Planee y programe su implementación de Teams de forma eficaz.
+-   Planee y programe su Teams implementación de forma eficaz.
 
 -   Acelere y optimice la adopción de usuarios.
 
 -   Reduzca las necesidades de soporte técnico y aumente la satisfacción del usuario.
 
 > [!NOTE]
-> Este artículo y el libro de juegos asociados no están diseñados para describir todos los pasos de configuración técnica necesarios para la habilitación del servicio o proporcionar tono de marcado a un sitio específico. En su lugar, se centran en las actividades y tareas recomendadas para incorporar a los usuarios fácilmente y hacer que empiecen a consumir cargas de trabajo de voz de Teams mediante una transición rápida y fluida con una alta tasa de adopción, al tiempo que minimizan los requisitos de soporte técnico. Para obtener instrucciones técnicas sobre cómo configurar mejor su entorno para la voz de Teams, vea las listas de comprobación de incorporación para configurar las cargas de trabajo de voz de [Teams,](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)configurar el enrutamiento directo en [Teams,](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)las capacidades principales de [Teams,](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)las redes para [Teams](prepare-network.md)y habilitar [Microsoft 365 u Office 365.](onboarding-checklist-enable-office-365.md)
+> Este artículo y el libro de juegos asociados no están diseñados para describir todos los pasos de configuración técnica necesarios para la habilitación del servicio o proporcionar tono de marcado a un sitio específico. En su lugar, se centran en las actividades y tareas recomendadas para incorporar a los usuarios fácilmente y hacer que empiecen Teams consumir cargas de trabajo de voz Teams través de una transición rápida y suave con una alta tasa de adopción, al tiempo que minimizan los requisitos de soporte técnico. Para obtener instrucciones técnicas sobre cómo configurar mejor su entorno para voz Teams, consulte las listas de comprobación de incorporación para configurar cargas de trabajo de voz de [Teams,](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)configurar enrutamiento directo en [Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), funcionalidades básicas de [Teams,](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)redes para [Teams](prepare-network.md)y habilitar Microsoft 365 [o Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
 ## <a name="playbook-focus-areas"></a>Áreas de foco de Playbook
 
-El foco del libro de reproducción es abordar los factores que influyen en la percepción del usuario de una implementación de voz de Teams. Las actividades y tareas se agrupan en las siguientes áreas de enfoque:
+El foco del libro de reproducción es abordar los factores que influyen en la percepción del usuario de una Teams de voz. Las actividades y tareas se agrupan en las siguientes áreas de enfoque:
 
 -   Validación de la preparación del servicio
     - Audioconferencia
@@ -67,20 +67,20 @@ El foco del libro de reproducción es abordar los factores que influyen en la pe
 
 -   Adopción
 
-El [Libro de reproducción de habilitación del sitio para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) es un libro de Microsoft Excel. Cada una de estas cinco áreas de enfoque es una hoja independiente en el libro y cada tarea y actividad de implementación se agrupa en una de estas hojas.
+El [Libro de reproducción de habilitación del sitio para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) es un libro Microsoft Excel usuario. Cada una de estas cinco áreas de enfoque es una hoja independiente en el libro y cada tarea y actividad de implementación se agrupa en una de estas hojas.
 
 ![Captura de pantalla del libro de reproducción de habilitación del sitio](media/deploy-my-service-image1.png "Captura de pantalla del libro de reproducción")
 
 > [!NOTE]
-> Creará una instancia independiente del libro de juegos para cada sitio en el ámbito de la implementación de Teams.
+> Creará una instancia independiente del libro de reproducción para cada sitio en el ámbito de Teams implementación.
 
 <!--ENDOFSECTION-->
 
 ## <a name="how-to-use-the-playbook"></a>Cómo usar el libro de reproducción
 
-Independientemente del tamaño y la complejidad de la ubicación, la habilitación de cada sitio requiere que planee sus tareas y actividades lo suficientemente pronto como para ejecutarlas en orden óptimo, antes, durante y después de la implementación real del servicio. Le recomendamos que siga estos pasos a medida que planee y ejecute su propio viaje a La voz de Microsoft Teams.
+Independientemente del tamaño y la complejidad de la ubicación, la habilitación de cada sitio requiere que planee sus tareas y actividades lo suficientemente pronto como para ejecutarlas en orden óptimo, antes, durante y después de la implementación real del servicio. Le recomendamos que siga estos pasos a medida que planee y ejecute su propio viaje para Microsoft Teams voz.
 
-1. Descargue el Libro de reproducción de habilitación [del sitio para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) para Microsoft Teams Voice.
+1. Descargue el Libro de reproducción de habilitación del sitio para [voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) para Microsoft Teams voz.
 
 2. Cree una copia independiente del libro de reproducción para cada sitio.
 
@@ -108,7 +108,7 @@ Independientemente del tamaño y la complejidad de la ubicación, la habilitaci�
 Preste atención a las actividades que pueden llevar más tiempo de lo planeado, como porción de números y actividades de compras. Estas actividades pueden afectar negativamente a la escala de tiempo de implementación del sitio. Asegúrese de revisar y actualizar la lista de actividades y [](./envision-steering-committee-complete-guide.md) la escala de tiempo asociada semanalmente y presentarlas en reuniones del comité de dirección para asegurarse de que las partes interesadas son conscientes del estado de cada sitio y de las posibles desviaciones de la programación de implementación.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida si el Playbook de habilitación del sitio es necesario para su implementación.</li><li>Decida quién será el responsable de personalizar el Playbook de habilitación del sitio para Microsoft Teams para cada sitio que implemente.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida si el Playbook de habilitación del sitio es necesario para su implementación.</li><li>Decida quién será el responsable de personalizar el Playbook de habilitación del sitio Microsoft Teams para cada sitio que implemente.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Descargue el Libro de reproducción de habilitación del sitio.</a></li><li>Personalice el Libro de reproducción de habilitación del sitio para el primer sitio.</li><li>Repita el procedimiento según sea necesario para sitios adicionales.</li></ul></td></tr>
 </table>
 

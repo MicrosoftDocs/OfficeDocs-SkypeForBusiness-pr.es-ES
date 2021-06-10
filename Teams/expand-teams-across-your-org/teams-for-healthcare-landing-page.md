@@ -1,6 +1,6 @@
 ---
 title: Teams para sanidad
-description: Obtenga información sobre los recursos de administración disponibles para administrar Teams para equipos de salud de su organización.
+description: Obtenga información sobre los recursos de administración disponibles para administrar Teams para los equipos de salud de su organización.
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -25,7 +25,7 @@ ms.locfileid: "51092518"
 ---
 # <a name="teams-for-healthcare"></a>Teams para sanidad
 
-Teams ofrece a los equipos de salud y a los profesionales de la salud una forma segura de comunicarse, coordinar la atención al paciente y mejorar la eficiencia operativa. Aquí encontrará los recursos de administrador que necesita para administrar Teams para equipos de salud de su organización.
+Teams proporciona a los equipos de salud y a los profesionales de la salud una forma segura de comunicarse, coordinar la atención al paciente y mejorar la eficiencia operativa. Aquí encontrará los recursos de administrador que necesita para administrar Teams para los equipos de salud de su organización.
 
 |               |               |
 | ------------- | ------------- |

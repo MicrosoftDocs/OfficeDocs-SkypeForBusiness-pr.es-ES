@@ -1,5 +1,5 @@
 ---
-title: Caso práctico de Contoso de voz de Teams
+title: Teams caso práctico de Contoso de voz
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,7 +14,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Caso práctico de voz de Teams para una corporación multinacional
+description: Teams caso de voz para empresas multinacionales
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 19200ec5ab1556b0f2b4fda2f389e60bc236015b
@@ -24,13 +24,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51097496"
 ---
-# <a name="contoso-case-study-teams-voice-migration-overview"></a>Caso práctico de Contoso: Información general sobre migración de voz de Teams
+# <a name="contoso-case-study-teams-voice-migration-overview"></a>Caso práctico de Contoso: información Teams de migración de voz
 
-En este artículo se presenta un caso práctico sobre cómo una corporación multinacional ficticia, Contoso, implementó una solución de voz de Teams para su organización.
+En este artículo se presenta un caso práctico sobre cómo una corporación multinacional ficticia, Contoso, implementó una solución Teams voz para su organización.
 
-Contoso ha implementado Microsoft 365 Enterprise y ha abordado las principales decisiones de diseño y los detalles de implementación para lo siguiente: redes, identidad, Windows 10 Enterprise, Office 365 ProPlus, administración de dispositivos móviles, protección de la información, seguridad, actualización de Skype Empresarial a Teams, sistema telefónico y audioconferencia.  
+Contoso ha implementado Microsoft 365 Enterprise y ha abordado decisiones de diseño importantes y detalles de implementación para lo siguiente: redes, identidad, Windows 10 Enterprise, Office 365 ProPlus, administración de dispositivos móviles, protección de la información, seguridad, actualización de Skype Empresarial a Teams, Sistema telefónico y audioconferencia.  
 
-Este artículo se centra en cómo Contoso migró sus usuarios locales a Teams para una comunicación unificada, colaboración y voz. Para obtener información básica sobre cómo Contoso aceleró su transformación digital mediante los servicios en la nube de Microsoft, vea todos los artículos principales que comienzan con la información general sobre [casos prácticos de Contoso.](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)
+Este artículo se centra en cómo Contoso ha migrado sus usuarios locales a Teams para una comunicación unificada, colaboración y voz. Para obtener información básica sobre cómo Contoso aceleró su transformación digital mediante los servicios en la nube de Microsoft, vea todos los artículos principales que comienzan con la información general sobre [casos prácticos de Contoso.](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)
 
 https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
 
@@ -43,31 +43,31 @@ En los artículos principales, encontrará información sobre lo siguiente:
 - Office 365 Pro Plus
 - Administración de dispositivos móviles
 - Protección de la información
-- Resumen de la seguridad de Microsoft 365 Enterprise
+- Resumen de la Microsoft 365 Enterprise seguridad
 - Equipo para un proyecto secreto
-- Sitio de SharePoint Online para activos digitales altamente confidenciales
+- SharePoint Sitio en línea para activos digitales altamente confidenciales
 
-Para obtener información sobre cómo planear una actualización, querrá empezar con Introducción [a la actualización de Microsoft Teams.](upgrade-start-here.md)
+Para obtener información sobre cómo planear una actualización, querrá empezar con Introducción a la [actualización Microsoft Teams actualización.](upgrade-start-here.md)
 
 ## <a name="contoso-business-goals-for-teams"></a>Objetivos empresariales de Contoso para Teams
 
-Para migrar sus usuarios locales a Teams para una comunicación unificada, colaboración y voz, Contoso decidió los siguientes objetivos empresariales:
+Para migrar sus usuarios locales a Teams para la comunicación unificada, la colaboración y la voz, Contoso decidió los siguientes objetivos empresariales:
 
-- Habilitación de Teams 
+- Teams habilitación 
 
-  El equipo de colaboración y comunicación unificada de Contoso habilitó Teams con las directivas correctas para gobernar y habilitar la colaboración interna y externa segura. 
+  El equipo de colaboración y comunicación unificada de Contoso ha Teams con las directivas correctas para gobernar y habilitar la colaboración interna y externa segura. 
 
 - Actualización de Skype Empresarial a Microsoft Teams 
 
-  Skype Empresarial se implementó ampliamente en Contoso. Con la necesidad de salir de los sistemas heredados, Contoso decidió actualizar sus usuarios de Skype Empresarial a Teams. Para obtener más información, vea [Caso práctico de Contoso: Plan de actualización de Teams.](voice-case-study-migration-plan.md)
+  Skype Empresarial se implementó ampliamente en Contoso. Con la necesidad de salir de los sistemas heredados, Contoso decidió actualizar sus Skype Empresarial usuarios a Teams. Para obtener más información, vea [Caso práctico de Contoso: Teams plan de actualización](voice-case-study-migration-plan.md).
 
 - Sistema telefónico  
 
-  Skype Empresarial con voz empresarial se implementó ampliamente en Contoso. Con la necesidad de salir de los sistemas heredados que eran el siguiente salto para sus servidores de mediación, Contoso migró sus usuarios de voz empresariales de Skype Empresarial al sistema telefónico. Los sitios de Contoso usaron Microsoft Calling Plan, Phone System Direct Routing o una combinación de ambos. Para obtener más información, vea [Caso práctico de Contoso: Sistema telefónico.](voice-case-study-phone-system.md)
+  Skype Empresarial con voz empresarial se implementó ampliamente en Contoso. Con la necesidad de quitar los sistemas heredados que eran el siguiente salto para sus servidores de mediación, Contoso migró sus Skype Empresarial de voz empresariales a Sistema telefónico. Los sitios de Contoso usaron Microsoft Calling Plan, Sistema telefónico enrutamiento directo o una combinación de ambos. Para obtener más información, vea [Caso práctico de Contoso: Sistema telefónico](voice-case-study-phone-system.md).
 
 - Enrutamiento basado en ubicación 
 
-  Con ubicaciones de oficina en países regulados por telefonía, Contoso necesitaba volver a crear el enrutamiento de Location-Based que estaba presente en Skype Empresarial en su implementación del sistema telefónico. Para obtener más información, vea [Caso práctico de Contoso: Location-Based enrutamiento](voice-case-study-location-based-routing.md).
+  Con ubicaciones de oficina en países regulados por telefonía, Contoso necesitaba volver a crear el enrutamiento de Location-Based que estaba presente en Skype Empresarial en su Sistema telefónico implementación. Para obtener más información, vea [Caso práctico de Contoso: Location-Based enrutamiento](voice-case-study-location-based-routing.md).
 
 - Llamadas de emergencia 
 
@@ -79,7 +79,7 @@ Para migrar sus usuarios locales a Teams para una comunicación unificada, colab
 
 - Optimización de medios locales 
 
-  Contoso aprovechaba la optimización de medios locales en ubicaciones en las que tenían un tronco de ruta directa a Microsoft Phone System que se aprovechaba con sitios remotos. Para obtener más información, vea [Planear la optimización de medios locales](direct-routing-media-optimization.md) y Configurar la [optimización de medios locales.](direct-routing-media-optimization-configure.md)
+  Contoso se ha aprovechado de la optimización de medios locales en ubicaciones en las que tenían un tronco de ruta directa para Teléfono Microsoft sistema que se aprovechaba con sitios remotos. Para obtener más información, vea [Planear la optimización de medios locales](direct-routing-media-optimization.md) y Configurar la [optimización de medios locales.](direct-routing-media-optimization-configure.md)
 
 - Operadores automáticos y colas de llamadas
 
