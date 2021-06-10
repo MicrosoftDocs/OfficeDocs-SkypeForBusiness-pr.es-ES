@@ -26,7 +26,7 @@ ms.locfileid: "51948688"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solución de problemas con el acceso de invitado en Microsoft Teams
 
-- Para ver si conocemos el problema, consulte [Equipos de soporte técnico de su organización.](/MicrosoftTeams/troubleshoot/teams-welcome)
+- Para ver si conocemos el problema, consulte Soporte [técnico Teams en su organización.](/MicrosoftTeams/troubleshoot/teams-welcome)
 - Para comprobar si hay problemas de soporte técnico actuales relacionados con el acceso de invitados en Teams, vaya a [Solución de problemas de Teams](/MicrosoftTeams/troubleshoot/).
 - Los invitados son personas de fuera de su organización. Si alguien se encuentra en su organización (incluidos los empleados, los contratistas in situ o los agentes in situ), no se pueden agregar como invitados. Esto mismo se aplica a las filiales.
 - Obtenga más información sobre las próximas características de acceso de invitados nuevas o actualizadas en la [Hoja de ruta de Teams](https://aka.ms/teamsroadmap).
@@ -39,12 +39,12 @@ ms.locfileid: "51948688"
 El acceso de invitado en Teams usa Azure Active Directory (Azure AD) negocio a negocio (B2B) y el modelo de licencia. El acceso de invitados está incluido en todas las suscripciones de Microsoft 365 Empresa Estándar, Office 365 Enterprise y Office 365 Education. No se necesita ninguna otra licencia de Microsoft 365 u Office 365.
 
 > [!NOTE]
-> Teams debe estar habilitado en el inquilino principal de un invitado para que los invitados puedan iniciar sesión y usar Teams como invitado en otro espacio empresarial (recurso).
+> Teams estar habilitado en el espacio empresarial de un invitado para que los invitados puedan iniciar sesión y usar Teams como invitado en otro espacio empresarial (recurso).
 
 Si ve errores de licencia, asegúrese de leer el modelo de facturación de identidades externas de [Azure AD](/azure/active-directory/external-identities/external-identities-pricing) para determinar los requisitos de licencias para satisfacer sus necesidades de acceso de invitado en su organización.
 
 - Las licencias de invitado se cuentan contra la organización que invita. Considere esto al calcular el número de licencias que necesita.
-- Las licencias se cuentan en su organización tanto si los invitados invitados proceden de otra organización de Microsoft 365 como si usan sus direcciones de correo electrónico personales.
+- Las licencias se cuentan en su organización tanto si los invitados invitados proceden de otra organización Microsoft 365 como si usan sus direcciones de correo electrónico personales.
 
 ## <a name="support-for-b2b-user-types"></a>Soporte técnico para los tipos de usuario B2B
 

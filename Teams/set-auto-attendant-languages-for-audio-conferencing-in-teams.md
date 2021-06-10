@@ -63,12 +63,12 @@ Elija un idioma principal y hasta cuatro idiomas secundarios. El idioma principa
     
 - Los idiomas se pueden establecer para números de teléfono dedicados, pero no para compartidos.
     
-- Para ver una lista de países o regiones en los que las audioconferencias en Microsoft 365 u Office 365 con Microsoft como proveedor están disponibles, vea Números de teléfono para audioconferencias. [](phone-numbers-for-audio-conferencing-in-teams.md)
+- Para ver una lista de países o regiones en los que las audioconferencias en Microsoft 365 [](phone-numbers-for-audio-conferencing-in-teams.md)o Office 365 que usan Microsoft como proveedor están disponibles, vea Teléfono números de audioconferencia.
     
 ## <a name="want-to-use-windows-powershell"></a>¿Desea usar Windows PowerShell?
 
-Vea la [referencia de PowerShell de Microsoft Teams](/powershell/module/teams/?view=teams-ps) para obtener más información.
+Vea la [Microsoft Teams referencia de PowerShell](/powershell/module/teams/?view=teams-ps) para obtener más información.
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencias en Microsoft 365 u Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Pruebe o compre Audioconferencia en Microsoft 365 o Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

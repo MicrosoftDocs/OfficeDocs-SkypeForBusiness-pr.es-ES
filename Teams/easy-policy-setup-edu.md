@@ -1,5 +1,5 @@
 ---
-title: Asistente para directivas de Teams para educación para aplicar fácilmente directivas para un aprendizaje seguro
+title: Teams asistente para directivas de educación para aplicar fácilmente directivas para un aprendizaje seguro
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo usar el asistente de directivas de Teams para el sector educativo para aplicar fácilmente directivas a alumnos y profesores para mantener su entorno de aprendizaje seguro.
+description: Obtenga información sobre cómo usar el Teams de directivas de educación para aplicar fácilmente directivas para estudiantes y profesores para mantener su entorno de aprendizaje seguro.
 f1keywords: ''
 ms.openlocfilehash: 7eca1fca8a4c054d2787b205c5e57ced274416da
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -24,15 +24,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51111096"
 ---
-# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Usar el Asistente para directivas de Teams para educación para aplicar fácilmente directivas para un entorno de aprendizaje seguro
+# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Teams de directivas de educación para aplicar fácilmente directivas para un entorno de aprendizaje seguro
 
 ## <a name="overview"></a>Información general
 
-El Asistente para directivas de Microsoft Teams para el sector educativo simplifica la administración de directivas para los alumnos y los profesores. Úsese para aplicar fácilmente y rápidamente el conjunto más importante de directivas relevantes para crear una experiencia de aprendizaje segura y productiva.
+El Microsoft Teams de directivas de educación simplifica la administración de directivas para los alumnos y los profesores. Úsese para aplicar fácilmente y rápidamente el conjunto más importante de directivas relevantes para crear una experiencia de aprendizaje segura y productiva.
 
-Las directivas de Teams le permiten controlar el comportamiento de Teams en su entorno y qué características están disponibles para los usuarios. Por ejemplo, hay directivas de llamadas, directivas de reunión y directivas de mensajería, por nombrar algunas, y cada área de directiva se puede personalizar para satisfacer las necesidades de su organización.
+Las directivas de Teams le permiten controlar cómo Teams se comporta en su entorno y qué características están disponibles para los usuarios. Por ejemplo, hay directivas de llamadas, directivas de reunión y directivas de mensajería, por nombrar algunas, y cada área de directiva se puede personalizar para satisfacer las necesidades de su organización.
 
-Para mantener un entorno de aprendizaje seguro y centrado, es importante establecer directivas para controlar lo que los alumnos pueden hacer en Teams. Por ejemplo, puede usar directivas para controlar quién puede usar chat privado y llamadas privadas, quién puede programar reuniones y qué tipos de contenido se pueden compartir. También puede usar directivas para activar las características de Teams que enriquecen la experiencia de aprendizaje.
+Para mantener un entorno de aprendizaje seguro y centrado, es importante establecer directivas para controlar lo que los alumnos pueden hacer en Teams. Por ejemplo, puede usar directivas para controlar quién puede usar chat privado y llamadas privadas, quién puede programar reuniones y qué tipos de contenido se pueden compartir. También puede usar directivas para activar Teams características que enriquecen la experiencia de aprendizaje.
 
 Las directivas deben ajustarse tanto para los alumnos como para los profesores para mantener la experiencia de aprendizaje segura. Las directivas para los alumnos deben ser más restrictivas para reducir el riesgo de recibir niveles de acceso inadecuados. Los profesores y el personal necesitan un conjunto independiente de directivas que puedan ser más permisivas para que puedan tener éxito. Por ejemplo, permita que los profesores programe reuniones y restrinja a los alumnos que lo hacen.
 
@@ -41,9 +41,9 @@ Las directivas deben ajustarse tanto para los alumnos como para los profesores p
 En este artículo se explica cómo ejecutar el asistente.
 
 > [!IMPORTANT]
-> Las directivas aplicadas por el asistente satisfarán las necesidades de la mayoría de los clientes de Teams para el sector educativo. El asistente ajusta la definición global (predeterminada para toda la organización) de un conjunto principal de directivas con la configuración que se recomienda para la seguridad de los alumnos y se aplica a los alumnos. El asistente también crea y asigna un conjunto de directivas personalizadas a profesores y docentes. La mayoría de los clientes de Teams for Education no necesitarán usar otros métodos de asignación de directivas después de ejecutar este asistente. Use otros métodos de asignación *de directivas solo* si desea crear y administrar directivas manualmente para los alumnos, los profesores y el personal.
+> Las directivas aplicadas por el asistente satisfarán las necesidades de la mayoría de los Teams para los clientes de Educación. El asistente ajusta la definición global (predeterminada para toda la organización) de un conjunto principal de directivas con la configuración que se recomienda para la seguridad de los alumnos y se aplica a los alumnos. El asistente también crea y asigna un conjunto de directivas personalizadas a profesores y docentes. La mayoría Teams los clientes de Educación no necesitarán usar otros métodos de asignación de directivas después de ejecutar este asistente. Use otros métodos de asignación *de directivas solo* si desea crear y administrar directivas manualmente para los alumnos, los profesores y el personal.
 
-## <a name="teams-for-education-policy-wizard"></a>Asistente para directivas de Teams para educación
+## <a name="teams-for-education-policy-wizard"></a>Teams asistente para directivas de educación
 
 <a name="polwiz_intro"> </a>
 
@@ -67,7 +67,7 @@ Ahora, empecemos.
 
 Siga estos pasos para ejecutar el asistente.
 
-1. Si es nuevo en Teams, el asistente se iniciará automáticamente. En caso contrario, puede iniciar el asistente en cualquier momento desde el panel. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Panel y, **a** continuación, en el icono Configuración de directivas fácil para un entorno de aprendizaje seguro, seleccione **Configuración rápida.**
+1. Si no es nuevo en Teams, el asistente se iniciará automáticamente. En caso contrario, puede iniciar el asistente en cualquier momento desde el panel. En la navegación izquierda del centro de administración de Microsoft Teams, vaya a Panel y, **a** continuación, en el icono Configuración de directivas fácil para un entorno de aprendizaje seguro, seleccione **Configuración rápida.**
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de pantalla del asistente en el panel":::
 
@@ -95,15 +95,15 @@ Siga estos pasos para ejecutar el asistente.
 ### <a name="step-1-remove-existing-policy-assignments-that-conflict-with-policies-applied-by-the-wizard"></a>Paso 1: Quitar las asignaciones de directivas existentes que entren en conflicto con las directivas aplicadas por el asistente
 
 > [!IMPORTANT]
-> **Complete este paso solo si tiene directivas existentes  asignadas** a alumnos, profesores y personal antes de que se haya ejecutado el asistente. Si es nuevo en Teams y no tiene ninguna directivas existente que no sea las directivas creadas por el asistente, omita esto y vaya al paso 2.
+> **Complete este paso solo si tiene directivas existentes  asignadas** a alumnos, profesores y personal antes de que se haya ejecutado el asistente. Si es nuevo en Teams y no tiene ninguna directivas existentes que no sea las directivas creadas por el asistente, omita esto y vaya al paso 2.
 
-En Teams, para un área de directiva determinada, se puede aplicar una directiva a un usuario de las siguientes maneras:
+En Teams, para un área de directiva determinada, una directiva se puede aplicar a un usuario de las siguientes maneras:
 
 - Asignación directa al usuario
 - Asignación a un grupo del que el usuario es miembro
 - Si el usuario no tiene asignada directamente una directiva o no es miembro de ningún grupo al que se ha asignado una directiva, el usuario obtiene automáticamente la directiva Global (predeterminada para toda la organización)
 
-Si existen más de una de estas asignaciones de directivas para un usuario, Teams usa el siguiente orden para determinar qué asignación de directiva entra en vigor. Para obtener más información, vea [¿Qué directiva tiene prioridad?](assign-policies.md#which-policy-takes-precedence) y [Reglas de prioridad.](assign-policies.md#precedence-rules)
+Si existen más de una de estas asignaciones de directivas para un usuario, Teams el siguiente orden para determinar qué asignación de directiva entra en vigor. Para obtener más información, vea [¿Qué directiva tiene prioridad?](assign-policies.md#which-policy-takes-precedence) y [Reglas de prioridad.](assign-policies.md#precedence-rules)
 
 |Asignaciones de directivas de un usuario|Directiva que entra en vigor |
 |---------|---------|
@@ -129,7 +129,7 @@ Por ejemplo, asignó una directiva de reunión directamente a los profesores y l
 
 El asistente ajusta y aplica automáticamente [estas directivas.](#policies-applied-by-the-wizard) Hay pocas medidas adicionales, que es posible que desee tomar en función de las necesidades de su institución para mantenerse seguro.
 
-Consulte [Mantener a los alumnos seguros mientras usan Teams para el aprendizaje a distancia](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) para obtener recomendaciones de seguridad adicionales.
+Vea [Mantener a los alumnos seguros mientras usan Teams aprendizaje a distancia](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) para obtener recomendaciones de seguridad adicionales.
 
 <a name="polwiz_mc"> </a>
 
@@ -137,7 +137,7 @@ Consulte [Mantener a los alumnos seguros mientras usan Teams para el aprendizaje
 
 Actualmente, el asistente aplica nuestras directivas recomendadas al ejecutarlo. Es importante saber que, a medida que las nuevas directivas están disponibles en Teams, el asistente no agrega automáticamente la configuración global (predeterminada para toda la organización) para la seguridad de los alumnos. Esta funcionalidad estará disponible en una versión futura.
 
-Hasta que esta funcionalidad esté disponible, compruebe el Centro de mensajes [(en](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) el Centro de administración de Microsoft 365) con frecuencia para mantenerse al día sobre las nuevas directivas y la configuración de directivas en Teams. A medida que las nuevas características estén disponibles, es posible que tenga que actualizar manualmente las directivas para mantener su entorno de aprendizaje seguro.
+Hasta que esta funcionalidad esté disponible, compruebe el Centro de mensajes [(en](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) el Centro de administración de Microsoft 365) con frecuencia para mantenerse al día sobre las nuevas directivas y la configuración de directiva en Teams. A medida que las nuevas características estén disponibles, es posible que tenga que actualizar manualmente las directivas para mantener su entorno de aprendizaje seguro.
 
 ## <a name="make-changes-in-the-wizard"></a>Realizar cambios en el asistente
 
@@ -145,7 +145,7 @@ Hasta que esta funcionalidad esté disponible, compruebe el Centro de mensajes [
 
 Si necesita realizar cambios después de ejecutar el asistente, puede volver a ejecutarlo y cambiar las selecciones.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Panel y, **a** continuación, en el icono Configuración de directivas fácil para un entorno de aprendizaje seguro, **seleccione Cambiar.**
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a Panel y, **a** continuación, en el icono Configuración de directivas fácil para un entorno de aprendizaje seguro, seleccione **Cambiar.**
 2. Desde aquí, continúe por cada página del asistente para realizar los cambios. Puede cambiar el tipo de institución, el grupo de profesores y el personal al que desea asignar directivas, o ambos.
 
 En la tabla siguiente se resume lo que ocurre al realizar un cambio en el asistente.
@@ -162,7 +162,7 @@ En la tabla siguiente se resume lo que ocurre al realizar un cambio en el asiste
 
 ### <a name="policy-areas"></a>Áreas de directiva
 
-Estas son las áreas de directiva y los nombres de directiva correspondientes cubiertos por el asistente. Para buscar estas directivas, vaya al Centro de administración de Microsoft Teams y, a continuación, en el panel de navegación izquierdo, vaya a cada página del área de directiva.
+Estas son las áreas de directiva y los nombres de directiva correspondientes cubiertos por el asistente. Para buscar estas directivas, vaya al centro de administración Microsoft Teams y, a continuación, en el panel de navegación izquierdo, vaya a cada página del área de directiva.
 
 #### <a name="students"></a>[**Estudiantes**](#tab/students/)
 
@@ -210,7 +210,7 @@ Esta es una lista de las definiciones de directivas globales (predeterminadas pa
 |  |       |Permitir vídeo IP         |Activado         |Activado|
 |  |       |Permitir la transmisión NDI         |Desactivado         |Desactivado|
 |  |       |Velocidad de bits multimedia (kb/s)         |50 000         |50 000|
-|  |Uso compartido de contenido       |Modo de uso compartido de pantalla         |Toda la pantalla         |Toda la pantalla|
+|  |Uso compartido de contenido       |Modo de uso compartido de la pantalla         |Toda la pantalla         |Toda la pantalla|
 |  |       |Permitir a un participante ceder o solicitar el control         |Activado         |Activado|
 |  |       |Permitir a un participante externo ceder o solicitar el control         |Activado         |Activado|
 |  |       |Permitir uso compartido de PowerPoint        |Activado         |Activado|
@@ -246,7 +246,7 @@ Esta es una lista de las definiciones de directivas globales (predeterminadas pa
 |Directiva de permisos de aplicación  |       |Aplicaciones de Microsoft         |Bloquear aplicaciones específicas y permitir que todos los demás > Walkie Talkie bloqueado         |Permitir todas las aplicaciones|
 |  |       |Aplicaciones de terceros         |Permitir todas las aplicaciones         |Permitir todas las aplicaciones|
 |  |       |Aplicaciones personalizadas         |Permitir todas las aplicaciones         |Permitir todas las aplicaciones|
-|Directiva de configuración de aplicaciones  |           |Cargar aplicaciones personalizadas           |Desactivado         |Desactivado|
+|Directiva de configuración de aplicaciones  |           |Upload aplicaciones personalizadas           |Desactivado         |Desactivado|
 |  |       |Permitir la anclación de usuario |Activado         |Activado|
 |  |       |Aplicaciones instaladas         |Ninguna         |Ninguna|
 |  |       |Aplicaciones ancladas         |Actividad, Calendario, Teams         |Actividad, Chats, Teams, Calendario, Llamadas, Archivo
@@ -278,7 +278,7 @@ Esta es una lista de las definiciones de directiva personalizadas asignadas al g
 |  |       |Permitir vídeo IP         |Activado         |Activado|
 |  |       |Permitir la transmisión NDI         |Desactivado         |Desactivado|
 |  |       |Velocidad de bits multimedia (kb/s)         |50 000         |50 000|
-|  |Uso compartido de contenido       |Modo de uso compartido de pantalla         |Toda la pantalla         |Toda la pantalla|
+|  |Uso compartido de contenido       |Modo de uso compartido de la pantalla         |Toda la pantalla         |Toda la pantalla|
 |  |       |Permitir a un participante ceder o solicitar el control         |Activado         |Activado|
 |  |       |Permitir a un participante externo ceder o solicitar el control         |Activado         |Activado|
 |  |       |Permitir uso compartido de PowerPoint        |Activado         |Activado|
@@ -325,6 +325,6 @@ Esta es una lista de las definiciones de directiva personalizadas asignadas al g
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Directivas y paquetes de directivas de Teams para Educación](policy-packages-edu.md)
+- [Directivas de Teams y paquetes de directivas para educación](policy-packages-edu.md)
 - [Asignar directivas a grandes conjuntos de usuarios de la escuela](batch-group-policy-assignment-edu.md)
-- [Mantener a los alumnos seguros mientras usan Teams para el aprendizaje a distancia](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
+- [Mantener a los alumnos seguros mientras usan Teams aprendizaje a distancia](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)

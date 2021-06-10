@@ -1,5 +1,5 @@
 ---
-title: Configurar la confirmación de llamada de salida de reunión para los usuarios en Microsoft Teams
+title: Configurar la confirmación de llamada de salida de la reunión para los usuarios en Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: oscarr
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar Teams para solicitar una confirmación de acceso telefónico para evitar que los sistemas de correo de voz se conecten a las reuniones cuando la persona llamada no pueda responder a la llamada.
+description: Obtenga información sobre cómo configurar Teams solicitar una confirmación de acceso telefónico para evitar que los sistemas de correo de voz se conecten a reuniones cuando la persona llamada no pueda responder a la llamada.
 localization_priority: Normal
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
@@ -24,7 +24,7 @@ ms.locfileid: "51117098"
 
 Los accesos telefónicos a reuniones y las llamadas llamarme son formas muy útiles de invitar a los participantes a unirse a una reunión y para que los participantes existentes se unan a una reunión con un teléfono móvil o tradicional. Sin embargo, cuando la persona llamada no puede responder a la llamada y un sistema de correo de voz responde a la llamada, el sistema de correo de voz está conectado a la reunión y los participantes podrán escucharla hasta que se quite de la reunión.
 
-Para evitar que los sistemas de correo de voz se conecten a las reuniones cuando se envía una llamada de llamada a un número de teléfono y la persona llamada no puede responder a la llamada, puede configurar Teams para solicitar una confirmación a la persona llamada para que se una a la reunión. Si la persona llamada no puede responder a la llamada y un sistema de correo de voz responde a la llamada, el sistema de correo de voz no se conectará a la reunión porque no proporcionará una confirmación para unirse a ella.
+Para evitar que los sistemas de correo de voz se conecten a reuniones cuando se envía una llamada de salida a un número de teléfono y la persona llamada no puede responder a la llamada, puede configurar Teams para solicitar una confirmación a la persona llamada para que se una a la reunión. Si la persona llamada no puede responder a la llamada y un sistema de correo de voz responde a la llamada, el sistema de correo de voz no se conectará a la reunión porque no proporcionará una confirmación para unirse a ella.
 
 Cuando esta funcionalidad está habilitada, las personas que reciben una llamada de salida o llamada llamarme deben confirmar que quieren unirse a la reunión presionando 1 en su teléfono móvil o tradicional.
 

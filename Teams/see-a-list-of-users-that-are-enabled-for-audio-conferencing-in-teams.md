@@ -31,14 +31,14 @@ ms.locfileid: "51117228"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Consultar una lista de usuarios que se han habilitado para Audioconferencia en Microsoft Teams
 
-Después de habilitar usuarios de Microsoft Teams en su organización para audioconferencias, puede ver la lista de los usuarios que se han habilitado. 
+Después de habilitar Microsoft Teams usuarios de su organización para las audioconferencias, puede ver la lista de los usuarios que se han habilitado. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Ver una lista de los usuarios
 
-- En el Centro de administración de Microsoft Teams, en el panel de navegación izquierdo, haga clic en **Usuarios.**
+- En el Microsoft Teams de administración, en el panel de navegación izquierdo, haga clic en **Usuarios.**
 
 
 ## <a name="what-else-should-i-know"></a>¿Qué más debo saber?
@@ -52,14 +52,14 @@ Después de habilitar usuarios de Microsoft Teams en su organización para audio
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](/powershell/module/teams/?view=teams-ps).
     
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencias en Microsoft 365 u Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Pruebe o compre Audioconferencia en Microsoft 365 o Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

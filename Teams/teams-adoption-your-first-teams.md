@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo impulsar la adopción de Teams administrando su implementación de Microsoft 365 u Office 365 con Teams, incluido cómo anclar recursos clave como pestañas en los canales adecuados.
+description: Obtenga información sobre cómo impulsar Teams adopción mediante la administración de su implementación de Microsoft 365 o Office 365 con Teams, incluido cómo anclar recursos clave como pestañas en los canales adecuados.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,40 +30,40 @@ ms.locfileid: "51116878"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Crear sus primeros equipos en Microsoft Teams
 
-La mejor manera de impulsar la adopción de Teams es usar el producto. Le recomendamos que administre su implementación de Microsoft 365 u Office 365 con Teams. También debe crear una comunidad de empleados que estén centrados en el trabajo en equipo y la productividad. (Estos equipos iniciales pueden cambiar con el tiempo). Algunos equipos sugeridos son:
+La mejor manera de impulsar la adopción de Teams es usar el producto. Le recomendamos que administre su Microsoft 365 o Office 365 con Teams. También debe crear una comunidad de empleados que estén centrados en el trabajo en equipo y la productividad. (Estos equipos iniciales pueden cambiar con el tiempo). Algunos equipos sugeridos son:
 
 | Nombre del equipo | Nombres de canal propuestos |
 | --------- | ---------------------- |
-| Conocer Teams | General</br> Saludad</br> ¿Cómo puedo hacerlo?</br>Comentarios </br> Ideas para equipos futuros </br> Soporte técnico |
-| Implementación de Microsoft Teams | General <br/> Concienciación y adopción <br/> Compromiso empresarial <br/> Early Adopter Program <br/> Comentarios e información <br/> Seguridad y cumplimiento <br/> Estrategia y planificación <br/> Estado del servicio e incidentes <br/> Aprendizaje <br/> Watercooler Chat |
+| Conozca Teams | General</br> Saludad</br> ¿Cómo puedo hacerlo?</br>Comentarios </br> Ideas para equipos futuros </br> Soporte técnico |
+| Microsoft Teams Implementación | General <br/> Concienciación y adopción <br/> Compromiso empresarial <br/> Early Adopter Program <br/> Comentarios e información <br/> Seguridad y cumplimiento <br/> Estrategia y planificación <br/> Estado del servicio e incidentes <br/> Aprendizaje <br/> Watercooler Chat |
 | Campeones de trabajo en equipo | General <br/> Procedimientos recomendados, aprendizaje y procedimientos <br/> Esquina de campeón <br/> Comentarios y soporte técnico <br/> Clientes potenciales del programa <br/> Social Hub |
 
-En Microsoft Teams, la galería de pestañas le proporciona acceso a todas las aplicaciones de Microsoft 365 u Office 365 y de terceros que ha activado el administrador. [](/microsoftteams/platform/concepts/tabs/tabs-overview) Para obtener el máximo valor de su producto, le recomendamos que anclar recursos clave como pestañas en cada uno de los canales adecuados. Vea el ejemplo siguiente.
+En Microsoft Teams, la [](/microsoftteams/platform/concepts/tabs/tabs-overview) galería de pestañas le proporciona acceso a todas las aplicaciones Microsoft 365 o Office 365 y de terceros que ha activado el administrador. Para obtener el máximo valor de su producto, le recomendamos que anclar recursos clave como pestañas en cada uno de los canales adecuados. Vea el ejemplo siguiente.
 
 ![Captura de pantalla que muestra pestañas predeterminadas y personalizadas](media/teams-adoption-tab-example.png)
 
-En los equipos iniciales, le recomendamos que anclar los siguientes elementos para facilitar la referencia en los canales de su equipo. Estos activos se sume a las secciones del bloc de notas de OneNote. Si está trabajando con nuestro equipo de FastTrack, le ayudarán a configurar estos primeros equipos. 
+En los equipos iniciales, le recomendamos que anclar los siguientes elementos para facilitar la referencia en los canales de su equipo. Estos activos se sume a las secciones OneNote bloc de notas. Si está trabajando con nuestro equipo de FastTrack, le ayudarán a configurar estos primeros equipos. 
 
 |Nombre del equipo o del canal | Pestaña anclada |
 |----------------- | ---------- |
-| **Implementación de Microsoft Teams** ||
-| General | Pestaña Web: [Documentación de Teams](./index.yml) |
-| Concienciación y adopción | [Centro de adopción de Teams](https://aka.ms/DriveTeamsAdoption)<br/>[Kit para el éxito del cliente de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
-| Compromiso empresarial | Wiki: guía de participación<br/>Formulario: solicitud de consulta de Teams<br/>Lista: solicitudes de participación |
-|Primeros adoptantes | Comunidad de comentarios anclados <br/> OneNote para preguntas más frecuentes y temas comunes |
-| Comentarios e informes | Informe de uso de Microsoft 365 u Office 365 anclado (solo para administradores de Microsoft 365 u Office 365) |
+| **Microsoft Teams Implementación** ||
+| General | Pestaña Web: [Teams documentación](./index.yml) |
+| Concienciación y adopción | [Teams Centro de adopción](https://aka.ms/DriveTeamsAdoption)<br/>[Kit para el éxito del cliente de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
+| Compromiso empresarial | Wiki: guía de participación<br/>Formulario: solicitud de Teams consulta<br/>Lista: solicitudes de participación |
+|Primeros adoptantes | Comunidad de comentarios anclados <br/> OneNote preguntas más frecuentes y temas comunes |
+| Comentarios e informes | Pinned Microsoft 365 o Office 365 de uso (solo para Microsoft 365 o Office 365 administradores) |
 | Seguridad y cumplimiento | Portal de confianza de Microsoft <br/> [Documentación de seguridad y cumplimiento](/office365/securitycompliance/index)<br/> [Mapa de ruta (Roadmap)](/office365/securitycompliance/security-roadmap) |
-| Estrategia y planificación | Colaboración North Star PowerPoint <br/> Plan de proyecto de adopción de servicios |
-| Aprendizaje | Portal de aprendizaje personalizado <br/> [Aprendizaje en línea de Teams](https://aka.ms/TeamsTraining) |
+| Estrategia y planificación | Colaboración estrella del norte PowerPoint <br/> Plan de adopción Project servicio |
+| Aprendizaje | Aprendizaje personalizado de aprendizaje <br/> [Aprendizaje en línea de Teams](https://aka.ms/TeamsTraining) |
 | **Campeones de trabajo en equipo**|  |
 | General | Usar para anuncios de programa <br/> Información general del programa de campeón anclar |
-| Procedimientos recomendados | Procedimientos recomendados para equipos, canales y chats de PowerPoint <br/> Ciclo de vida del equipo |
+| Procedimientos recomendados | Procedimientos recomendados para equipos, canales y chats PowerPoint <br/> Ciclo de vida del equipo |
 | Esquina de campeón | Notas y presentaciones de la reunión |
-| Social Hub | Conector RSS: blog de Teams e impulso del blog de adopción |
+| Social Hub | Conector RSS: Teams blog e impulsar el blog de adopción |
 | Aprendizaje y cómo hacerlo | Vínculo del portal de aprendizaje |
 
 ## <a name="making-the-switch-to-microsoft-teams"></a>Cambiar a Microsoft Teams
 
-A medida que empiece a usar Teams, será importante que usted y el resto del equipo del proyecto se comprometan a usar el chat, los canales y los recursos de Teams para ejecutar el proyecto. Su propio uso de Teams es fundamental para la calidad del proyecto de adopción. Le recomendamos que se resista a fragmentar el proyecto continuando con conversaciones con el equipo principal del proyecto en el correo electrónico. Al cambiar a Teams, modelará el comportamiento que desea que adopte en última instancia sus empleados. Establezca el tono, vaya primero y empiece a disfrutar de la información de su proyecto en un solo lugar.  
+A medida que empiece Teams Teams, será importante que usted y el resto del equipo del proyecto se comprometan a usar un chat, canales y recursos para ejecutar el proyecto. Su propio uso de Teams es fundamental para la calidad del proyecto de adopción. Le recomendamos que se resista a fragmentar el proyecto continuando con conversaciones con el equipo principal del proyecto en el correo electrónico. Al cambiar a Teams, modelará el comportamiento que desea que adopte en última instancia sus empleados. Establezca el tono, vaya primero y empiece a disfrutar de la información de su proyecto en un solo lugar.  
 
-![Un icono que muestra el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: ¿Qué tan lista está su organización para Microsoft [Teams?](teams-adoption-assess-readiness.md)
+![Un icono que muestra el siguiente paso Siguiente: ¿Qué tan lista está ](media/teams-adoption-next-icon.png) [su organización para Microsoft Teams?](teams-adoption-assess-readiness.md)

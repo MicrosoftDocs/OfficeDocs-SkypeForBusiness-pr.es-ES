@@ -1,5 +1,5 @@
 ---
-title: Crear cuentas de recursos de Microsoft Teams para barras de colaboración para Microsoft Teams con PowerShell
+title: Crear Microsoft Teams de recursos para barras de colaboración para Microsoft Teams usar PowerShell
 ms.author: mitressl
 author: flinchbot
 manager: ericwe
@@ -23,28 +23,28 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51115608"
 ---
-# <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Crear una cuenta de recursos de Microsoft 365 con PowerShell
+# <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Crear una Microsoft 365 de recursos con PowerShell
 
-Lea este tema para obtener información sobre cómo crear cuentas de recursos para barras de colaboración para Microsoft Teams con PowerShell.
+Lea este tema para obtener información sobre cómo crear cuentas de recursos para barras de colaboración Microsoft Teams usar PowerShell.
 
-La forma más sencilla de crear una cuenta de recursos es mediante el Centro de administración de Microsoft 365. [Vea este artículo sobre cómo hacerlo](resource-account-ui.md).
+La forma más sencilla de crear una cuenta de recursos es mediante el centro Microsoft 365 administración. [Vea este artículo sobre cómo hacerlo](resource-account-ui.md).
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 ## <a name="requirements"></a>Requirements
 
-Antes de implementar Microsoft Teams Rooms con Office 365, asegúrese de que ha cumplido los requisitos. Para obtener más información, vea [Implementar barras de colaboración para Microsoft Teams.](collab-bar-deploy.md)
+Antes de implementar Salas de Microsoft Teams con Office 365, asegúrese de que ha cumplido los requisitos. Para obtener más información, vea [Implementar barras de colaboración para Microsoft Teams](collab-bar-deploy.md).
 
-- Si necesita funcionalidades RTC para la barra de colaboración, necesitará licencia del sistema telefónico.
+- Si necesita funcionalidades RTC para la barra de colaboración, necesitará Sistema telefónico licencia.
 
-- Las cuentas de recursos deben tener buzones de Exchange. Como se trata de cuentas de recursos, no se requiere ninguna licencia de Exchange. Se recomienda el uso de la licencia salas de reuniones para cuentas de recursos.
+- Las cuentas de recursos deben tener Exchange buzones de correo. Como se trata de cuentas de recursos, no Exchange licencia. Se recomienda el uso de la licencia salas de reuniones para cuentas de recursos.
 
 
 ### <a name="add-a-resource-account"></a>Agregar una cuenta de recursos
 
-1. Conéctese a Exchange Online PowerShell. Para obtener instrucciones, vea [Conectarse a Exchange Online PowerShell](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module).
+1. Conectar para Exchange Online PowerShell. Para obtener instrucciones, [vea Conectar para Exchange Online PowerShell](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module).
 
-2. En Exchange Online PowerShell, cree un nuevo buzón de sala o modifique un buzón de sala existente.
+2. En Exchange Online PowerShell, cree un buzón de sala o modifique un buzón de sala existente.
 
    - Para crear un buzón de sala nuevo, use la sintaxis siguiente:
 
@@ -81,7 +81,7 @@ Antes de implementar Microsoft Teams Rooms con Office 365, asegúrese de que ha 
    Para obtener información detallada sobre la sintaxis y los parámetros, vea [Nuevo buzón](/powershell/module/exchange/mailboxes/new-mailbox) y Conjunto [de buzones.](/powershell/module/exchange/mailboxes/set-mailbox)
 
 
-3. En Exchange Online PowerShell, configure las siguientes opciones de configuración en el buzón de sala para mejorar la experiencia de la reunión:
+3. En Exchange Online PowerShell, configure las siguientes opciones en el buzón de sala para mejorar la experiencia de la reunión:
 
    - AutomateProcessing: AutoAccept (Los organizadores de la reunión reciben la decisión de reserva de sala directamente sin intervención humana: gratis = aceptar; ocupado = rechazar).
 
@@ -95,7 +95,7 @@ Antes de implementar Microsoft Teams Rooms con Office 365, asegúrese de que ha 
 
    - AddAdditionalResponse: $true (El texto especificado por el parámetro AdditionalResponse se agrega a las solicitudes de reunión).
 
-   - AdditionalResponse: "Esta sala tiene una barra de colaboración para Microsoft Teams". (El texto adicional que se agregará a la solicitud de reunión).
+   - AdditionalResponse: "Esta sala tiene una barra de colaboración para Microsoft Teams!" (El texto adicional que se agregará a la solicitud de reunión).
 
    En este ejemplo se configuran estas opciones en el buzón de sala llamado Huddle-Room-01.
 
@@ -105,7 +105,7 @@ Antes de implementar Microsoft Teams Rooms con Office 365, asegúrese de que ha 
 
    Para obtener información detallada sobre la sintaxis y los parámetros, vea [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Conéctese a MS Online PowerShell para realizar la configuración de Active Directory ejecutando el `Connect-MsolService -Credential $cred` cmdlet de powershell.   Para obtener más información sobre Active Directory, vea [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Conectar PowerShell de MS Online para realizar la configuración de Active Directory ejecutando el `Connect-MsolService -Credential $cred` cmdlet de powershell.   Para obtener más información sobre Active Directory, vea [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) no es compatible. 
@@ -116,7 +116,7 @@ Antes de implementar Microsoft Teams Rooms con Office 365, asegúrese de que ha 
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. La cuenta de recursos debe tener una licencia válida de Office 365, preferiblemente la SKU de la sala de reuniones. También debe asignar una ubicación de uso a su cuenta de dispositivo, lo que determina qué SKU de licencia están disponibles para su cuenta. Puede usarlo para recuperar una lista de SKU disponibles para su inquilino de `Get-MsolAccountSku` Office 365.
+6. La cuenta de recursos debe tener una licencia Office 365, preferiblemente la SKU Sala de reuniones recursos. También debe asignar una ubicación de uso a su cuenta de dispositivo, lo que determina qué SKU de licencia están disponibles para su cuenta. Puede usarlo para recuperar una lista de SKU disponibles `Get-MsolAccountSku` para su Office 365 inquilino.
 
       ``` Powershell
       Get-MsolAccountSku
@@ -128,13 +128,13 @@ Antes de implementar Microsoft Teams Rooms con Office 365, asegúrese de que ha 
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -UsageLocation "US"
       Set-MsolUserLicense -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -AddLicenses contoso:meeting_room
       ```
-   Para obtener instrucciones detalladas, vea Asignar licencias a cuentas de usuario con PowerShell de [Office 365.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
+   Para obtener instrucciones [detalladas,](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)vea Asignar licencias a cuentas de usuario con Office 365 PowerShell.
 
 
 
 
-[Configurar cuentas para barras de colaboración de Microsoft Teams con PowerShell](resource-account-ps.md)
+[Configurar cuentas para barras de colaboración para Microsoft Teams usar PowerShell](resource-account-ps.md)
 
 [Implementar barras de colaboración para Microsoft Teams](collab-bar-deploy.md)
 
-[Barras de colaboración para licencias de Microsoft Teams](../rooms/rooms-licensing.md)
+[Barras de colaboración para Microsoft Teams licencias](../rooms/rooms-licensing.md)

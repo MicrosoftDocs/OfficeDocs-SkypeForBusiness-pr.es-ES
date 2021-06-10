@@ -1,5 +1,5 @@
 ---
-title: Plantillas de Teams para pequeñas y medianas empresas creadas con Microsoft Graph
+title: Teams plantillas para pequeñas y medianas empresas creadas con Microsoft Graph
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -15,7 +15,7 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: Use plantillas predefinidas de Microsoft Teams integradas en Microsoft Graph para crear equipos para pequeñas y medianas empresas de forma rápida y sencilla.
+description: Use Microsoft Teams plantillas predefinidas integradas en Microsoft Graph crear equipos para pequeñas y medianas empresas de forma rápida y sencilla.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: e3d29dca0bbdbd7b3487ac1738b84396a3d41117
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -24,13 +24,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116998"
 ---
-# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Plantillas de Teams integradas en Microsoft Graph para pequeñas y medianas empresas
+# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Teams plantillas integradas en Microsoft Graph para pequeñas y medianas empresas
 
 Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y sencilla al proporcionar una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 
-Para pequeñas y medianas empresas, las plantillas pueden ser especialmente eficaces, ya que ayudan a los administradores a implementar teams rápidamente en toda su organización. Las plantillas también ayudan a orientar a los usuarios y a empezar a usar Teams de forma eficaz. Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización.
+Para pequeñas y medianas empresas, las plantillas pueden ser especialmente eficaces, ya que ayudan a los administradores a implementar rápidamente Teams toda su organización. Las plantillas también ayudan a orientar a los usuarios y a empezar a usar Teams eficaz. Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización.
 
-Actualmente ofrecemos tres plantillas SMB de primer nivel que puede aprovechar para una variedad de situaciones. Todas las plantillas crearán *Equipos privados.* Una vez que haya creado Teams y esté listo para su implementación en su organización, puede establecer la privacidad en *Org-Wide* o *Public*, según corresponda. Para obtener más información sobre las plantillas de equipo en general, vea [Introducción a las plantillas de Teams](get-started-with-teams-templates.md).
+Actualmente ofrecemos tres plantillas SMB de primer nivel que puede aprovechar para una variedad de situaciones. Todas las plantillas crearán *Teams.* Una vez que haya creado el Teams y esté listo para su organización, puede establecer la privacidad en *Org-Wide* o *Public*, según corresponda. Para obtener más información sobre las plantillas de equipo en general, vea [Introducción a las plantillas de Teams](get-started-with-teams-templates.md).
 
 ## <a name="company-wide-template"></a>Company-Wide plantilla
 La Company-Wide está pensada para la comunicación y la colaboración que son relevantes para toda la empresa. Puede usar el canal General para anuncios de toda la empresa, noticias del sector o publicaciones ejecutivas. El canal recursos humanos es un excelente lugar para consolidar todas las actividades relacionadas con recursos humanos, como puestos de trabajo, incorporación de nuevos empleados, formación y desarrollo. El canal Cosas divertidas proporciona una plataforma social para todas las publicaciones aleatorias y divertidas.
@@ -41,7 +41,7 @@ La Company-Wide está pensada para la comunicación y la colaboración que son r
 
 *Canales auto favoritos 
 
-Para crear el Company-Wide de trabajo tomando valores predeterminados de la plantilla predefinida, proporcione la representación JSON del objeto de grupo en el cuerpo de la solicitud. Para obtener más información sobre cómo implementar plantillas de Teams, vea el artículo de Microsoft Graph [sobre cómo crear un equipo.](/graph/api/team-post?view=graph-rest-beta)
+Para crear el Company-Wide de trabajo tomando valores predeterminados de la plantilla predefinida, proporcione la representación JSON del objeto de grupo en el cuerpo de la solicitud. Para obtener más información sobre cómo implementar Teams plantillas, vea el artículo de Microsoft Graph [sobre cómo crear un equipo.](/graph/api/team-post?view=graph-rest-beta)
 
 #### <a name="request"></a>Solicitud 
 ```http 
@@ -65,7 +65,7 @@ La plantilla de equipo ejecutivo es ideal para crear un equipo para que los ejec
 
 *Canales auto favoritos<br>
 
-Para crear el equipo ejecutivo tomando valores predeterminados de la plantilla predefinida, proporcione la representación JSON del objeto de equipo en el cuerpo de la solicitud. Para obtener más información sobre cómo implementar plantillas de Teams, vea el artículo de Microsoft Graph [sobre cómo crear un equipo.](/graph/api/team-post?view=graph-rest-beta)
+Para crear el equipo ejecutivo tomando valores predeterminados de la plantilla predefinida, proporcione la representación JSON del objeto de equipo en el cuerpo de la solicitud. Para obtener más información sobre cómo implementar Teams plantillas, vea el artículo de Microsoft Graph [sobre cómo crear un equipo.](/graph/api/team-post?view=graph-rest-beta)
 
 #### <a name="request"></a>Solicitud 
 ```http 
@@ -89,7 +89,7 @@ La plantilla de equipo departamental se puede usar para crear un equipo para dep
 
 *Canales auto favoritos
 
-Para crear el equipo de Finanzas tomando valores predeterminados de la plantilla predefinida, proporcione la representación JSON del objeto de equipo en el cuerpo de la solicitud. Para obtener más información sobre cómo implementar plantillas de Teams, vea el artículo de Microsoft Graph [sobre cómo crear un equipo.](/graph/api/team-post?view=graph-rest-beta)
+Para crear el equipo de Finanzas tomando valores predeterminados de la plantilla predefinida, proporcione la representación JSON del objeto de equipo en el cuerpo de la solicitud. Para obtener más información sobre cómo implementar Teams plantillas, vea el artículo de Microsoft Graph [sobre cómo crear un equipo.](/graph/api/team-post?view=graph-rest-beta)
 
 #### <a name="request"></a>Solicitud 
 ```http 
@@ -176,6 +176,6 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Introducción a las plantillas de Teams en la consola de administración](get-started-with-teams-templates-in-the-admin-console.md)
+- [Introducción a las Teams en la consola de administración](get-started-with-teams-templates-in-the-admin-console.md)
 - [Introducción a las plantillas de Teams](get-started-with-teams-templates.md)
 - [Crear equipo](/graph/api/team-post?view=graph-rest-beta) (en vista previa)

@@ -38,7 +38,7 @@ Puede usar los [paquetes de directiva incluidos en Teams](#policy-packages-inclu
 Puede personalizar la configuración de las directivas de un paquete de directivas para adaptarla a las necesidades de los usuarios. Al cambiar la configuración de directivas de un paquete, todos los usuarios que están asignados a ese paquete obtienen la configuración actualizada. Puede administrar paquetes de directivas mediante el centro Microsoft Teams de administración o PowerShell.
 
 > [!NOTE]
-> Cada usuario necesitará el complemento Comunicaciones avanzadas para recibir una asignación de paquete de directiva personalizada. Para obtener más información, vea [Complemento comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+> Cada usuario necesitará el complemento de Comunicaciones avanzadas para recibir una tarea de paquete personalizado de directiva. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="what-is-a-policy-package"></a>¿Qué es un paquete de directivas?
 

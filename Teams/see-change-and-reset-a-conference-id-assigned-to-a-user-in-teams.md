@@ -30,11 +30,11 @@ ms.locfileid: "51117213"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Ver y restablecer un id. de conferencia asignado a un usuario en Microsoft Teams
 
-Un id. de conferencia se asigna automáticamente a un usuario de Microsoft Teams cuando se configura para conferencias de audio en Microsoft 365 u Office 365 y usa Microsoft como proveedor de audioconferencias. El id. de conferencia asignado se envía en la invitación a la reunión cuando se programa la reunión. Se asignará un Id. de conferencia único a cada reunión que programe un usuario. 
+Un id. de conferencia se asigna automáticamente a un usuario de Microsoft Teams cuando se configura para conferencias de audio en Microsoft 365 o Office 365 y usa Microsoft como proveedor de audioconferencias. El id. de conferencia asignado se envía en la invitación a la reunión cuando se programa la reunión. Se asignará un Id. de conferencia único a cada reunión que programe un usuario. 
   
-Aunque un id. de conferencia se creará automáticamente y se asignará a un usuario, es posible que haya ocasiones en las que un usuario no quiera usar este y quiera establecerlo en un número determinado, o cuando los usuarios no puedan recordar o haber perdido su id. de conferencia. Puede usar el Centro de administración de Microsoft Teams o Windows PowerShell para ver, cambiar y restablecer su id. de conferencia.
+Aunque un id. de conferencia se creará automáticamente y se asignará a un usuario, es posible que haya ocasiones en las que un usuario no quiera usar este y quiera establecerlo en un número determinado, o cuando los usuarios no puedan recordar o haber perdido su id. de conferencia. Puede usar Microsoft Teams centro de administración o Windows PowerShell para ver, cambiar y restablecer su id. de conferencia.
   
-Se enviará un correo electrónico al usuario con el Id. de conferencia y los números de teléfono de audioconferencia predeterminados, o si restablece el Id. de conferencia, se enviará un correo electrónico diferente que incluirá el Id. de conferencia, pero no un PIN. Vea [Restablecer un id. de conferencia para un usuario en Microsoft Teams](reset-a-conference-id-for-a-user-in-teams.md) para obtener más información sobre cómo restablecer el PIN de un organizador de conferencias. 
+Se enviará un correo electrónico al usuario con el Id. de conferencia y los números de teléfono de audioconferencia predeterminados, o si restablece el Id. de conferencia, se enviará un correo electrónico diferente que incluirá el Id. de conferencia, pero no un PIN. Vea [Restablecer un id. de](reset-a-conference-id-for-a-user-in-teams.md) conferencia para un usuario en Microsoft Teams para obtener más información sobre cómo restablecer el PIN de un organizador de conferencias. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -56,7 +56,7 @@ Se enviará un correo electrónico al usuario con el Id. de conferencia y los n�
   
 Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
 
-Vea la [referencia de PowerShell de Microsoft Teams](/powershell/module/teams/?view=teams-ps) para obtener más información.
+Vea la [Microsoft Teams referencia de PowerShell](/powershell/module/teams/?view=teams-ps) para obtener más información.
     
   
 ### <a name="to-reset-the-conference-id"></a>Para restablecer el id. de conferencia
@@ -75,7 +75,7 @@ Puede restablecer un Id. de conferencia para un usuario si, por ejemplo, este lo
   
 Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
 
-Vea la [referencia de PowerShell de Microsoft Teams](/powershell/module/teams/?view=teams-ps) para obtener más información.
+Vea la [Microsoft Teams referencia de PowerShell](/powershell/module/teams/?view=teams-ps) para obtener más información.
 
 
 ## <a name="what-else-should-you-know"></a>¿Qué más debe saber?
@@ -89,14 +89,14 @@ Vea la [referencia de PowerShell de Microsoft Teams](/powershell/module/teams/?v
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](/powershell/module/teams/?view=teams-ps).
     
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencias en Microsoft 365 u Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Pruebe o compre Audioconferencia en Microsoft 365 o Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

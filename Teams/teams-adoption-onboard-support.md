@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Use recursos de aprendizaje en línea para incorporar al personal de soporte técnico a la fase de experimentación de la adopción de Teams.
+description: Use recursos de aprendizaje en línea para incorporar al personal de soporte técnico a la fase de experimentación de su Teams adopción.
 f1.keywords:
 - CSH
 ms.custom:
@@ -33,8 +33,8 @@ ms.locfileid: "51116897"
 Para asegurarse de que los equipos iniciales de adopción y campeones tendrán el soporte adecuado a medida que empiecen a usar Teams, reúnase con el personal de soporte técnico y revise las capacidades de Teams. Es posible que los miembros clave de la organización de soporte técnico quieran unirse a su programa de adopción temprana. Anime a usar Teams en sus propios escenarios. Lleve a través de la incorporación básica del producto mediante nuestros recursos de aprendizaje en línea.  
 
 - [Fundamentos: componentes principales de Microsoft Teams](https://youtu.be/V6B4KraD-FM)
-- [Solución de problemas de Teams](https://youtu.be/0KNh9KNpXcA)
+- [Solución de problemas Teams](https://youtu.be/0KNh9KNpXcA)
 - [Problemas conocidos y solución de problemas](/MicrosoftTeams/troubleshoot/teams-welcome)
 - [Aprendizaje de Microsoft Teams](./training-microsoft-teams-landing-page.md)
 
-![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: Fase 3 de [adopción de Microsoft Teams: Escala](teams-adoption-phase3-enable.md).
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Microsoft Teams fase de adopción 3: Escala](teams-adoption-phase3-enable.md).

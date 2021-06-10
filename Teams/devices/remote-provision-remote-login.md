@@ -1,5 +1,5 @@
 ---
-title: Aprovisionamiento remoto e inicio de sesión para dispositivos Android de Teams
+title: Aprovisionamiento remoto e inicio de sesión para Teams dispositivos Android
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo aprovisionar e iniciar sesión de forma remota en dispositivos Android de Teams
+description: Obtenga información sobre cómo aprovisionar e iniciar sesión de forma remota Teams dispositivos Android
 ms.openlocfilehash: f39b93a048cee84cf6890d063e272edbef5edb4e
 ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
@@ -25,9 +25,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52059194"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Aprovisionamiento remoto e inicio de sesión para dispositivos Android de Teams
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Aprovisionamiento remoto e inicio de sesión para Teams dispositivos Android
 
-Los administradores de TI pueden aprovisionar e iniciar sesión de forma remota en un dispositivo Android de Teams. Para aprovisionar un dispositivo de forma remota, el administrador debe cargar los IDs mac de los dispositivos que se aprovisionan y crear un código de verificación. Todo el proceso se puede completar de forma remota desde el Centro de administración de Teams.
+Los administradores de TI pueden aprovisionar e iniciar sesión de forma remota en Teams dispositivo Android. Para aprovisionar un dispositivo de forma remota, el administrador debe cargar los IDs mac de los dispositivos que se aprovisionan y crear un código de verificación. Todo el proceso se puede completar de forma remota desde el Teams de administración.
 
 ## <a name="review-the-supported-devices"></a>Revisar los dispositivos compatibles
 
@@ -35,14 +35,14 @@ En la lista siguiente se muestran los requisitos de firmware del dispositivo And
 
 |Categoría de dispositivo|Modelo de dispositivo|Versión de firmware|
 |-|-|-|
-|Teléfonos de Teams|Yealink T55/T56/T58|58.15.0.124|
-|Teléfonos de Teams|Yealink VP59|91.15.0.58|
-|Teléfonos de Teams|Yealink CP960|73.15.0.117|
-|Teléfonos de Teams|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teléfonos de Teams|Crestron UC-2|1.0.3.52|
-|Teléfonos de Teams|  Poly Trio C60|  7.0.2.1071|
-|Teléfonos de Teams|  CCX400/CCX500/CCX600    |7.0.2.1072|
-|Teléfonos de Teams|  Códigos de audio C448HD/C450HD/C470HD|   1.10.120|
+|Teams teléfonos|Yealink T55/T56/T58|58.15.0.124|
+|Teams teléfonos|Yealink VP59|91.15.0.58|
+|Teams teléfonos|Yealink CP960|73.15.0.117|
+|Teams teléfonos|Yealink MP56/MP54/MP58|122.15.0.36|
+|Teams teléfonos|Crestron UC-2|1.0.3.52|
+|Teams teléfonos|  Poly Trio C60|  7.0.2.1071|
+|Teams teléfonos|  CCX400/CCX500/CCX600    |7.0.2.1072|
+|Teams teléfonos|  Códigos de audio C448HD/C450HD/C470HD|   1.10.120|
 
 ## <a name="add-a-device-mac-address"></a>Agregar una dirección MAC del dispositivo
 
@@ -64,12 +64,12 @@ En la **ventana Aprovisionar nuevos dispositivos,** puede agregar la dirección 
 1. Escriba una ubicación que ayude a los técnicos a identificar dónde instalar los dispositivos.
 1. Seleccione **Aplicar** cuando haya terminado.
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>Cargar un archivo para agregar una dirección MAC del dispositivo
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>Upload un archivo para agregar una dirección MAC del dispositivo
 
-1. En la **pestaña Activación en** espera, seleccione Cargar los **IDs mac.**
+1. En la **pestaña Activación en** espera, seleccione Upload de **MAC.**
 2. Descargue la plantilla de archivo.
 3. Escriba el id. y la ubicación de MAC y, después, guarde el archivo.
-4. **Seleccione archivo** y, a continuación, **seleccione Cargar**.
+4. **Seleccione archivo** y, a continuación, **seleccione Upload**.
 
 ## <a name="generate-a-verification-code"></a>Generar un código de verificación
 
@@ -82,9 +82,9 @@ Necesita un código de verificación para los dispositivos. El código de verifi
 
 ## <a name="provision-the-device"></a>Aprovisionar el dispositivo
 
-Cuando el dispositivo está encendido y conectado a la red, el técnico aprovisiona el dispositivo. Estos pasos se completan en el dispositivo de Teams.
+Cuando el dispositivo está encendido y conectado a la red, el técnico aprovisiona el dispositivo. Estos pasos se completan en Teams dispositivo.
 
-1. El técnico selecciona **Aprovisionar dispositivo** en **configuración.**  
+1. El técnico selecciona **Aprovisionar dispositivo** en **el Configuración**.  
 
    ![Opción Aprovisionar nuevo dispositivo desde la pestaña Acciones](../media/provision-device1.png)
   
@@ -111,4 +111,4 @@ El dispositivo aprovisionado aparece en la **pestaña Esperando inicio de sesió
 ## <a name="related-article"></a>Artículo relacionado
 
 - [Administrar los dispositivos en Teams](device-management.md)
-- [Actualizar dispositivos de Teams de forma remota](remote-update.md)
+- [Actualizar Teams dispositivos de forma remota](remote-update.md)

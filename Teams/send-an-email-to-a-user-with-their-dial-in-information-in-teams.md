@@ -31,7 +31,7 @@ ms.locfileid: "51117218"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar un correo electrónico a un usuario con su información de Audioconferencia en Microsoft Teams
 
-A veces, es posible que los usuarios de Microsoft Teams necesiten enviarles su información de audioconferencia. Para ello, haga clic en Enviar información **de conferencia por correo electrónico** en las propiedades de un usuario. Al enviar este correo electrónico, contendrá toda la información de audioconferencia, incluidos:
+A Microsoft Teams es posible que los usuarios necesiten enviarles su información de audioconferencia. Para ello, haga clic en Enviar información **de conferencia por correo electrónico** en las propiedades de un usuario. Al enviar este correo electrónico, contendrá toda la información de audioconferencia, incluidos:
   
 - El número de teléfono de la conferencia o el número de teléfono de acceso telefónico local del usuario.
     
@@ -74,15 +74,15 @@ Este es un ejemplo del correo electrónico que se envía:
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](/powershell/module/teams/?view=teams-ps).
     
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencias en Microsoft 365 u Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Pruebe o compre Audioconferencia en Microsoft 365 o Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

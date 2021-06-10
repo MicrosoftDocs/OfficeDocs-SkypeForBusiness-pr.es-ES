@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Obtenga información sobre la expiración y renovación del equipo y cómo usar la directiva de expiración del grupo de Microsoft 365 para limpiar automáticamente los equipos sin usar en Microsoft Teams.
+description: Obtenga información sobre la expiración y renovación del equipo y cómo usar Microsoft 365 directiva de expiración de grupo para limpiar automáticamente los equipos sin usar en Microsoft Teams.
 f1.keywords:
 - NOCSH
 appliesto:
@@ -27,7 +27,7 @@ ms.locfileid: "51116958"
 
 Las organizaciones con un gran número de equipos a menudo tienen equipos que nunca se usan realmente. Esto puede ocurrir debido a varios motivos, como la experimentación de productos, la colaboración de equipo a corto plazo o la salida de los propietarios de equipos de la organización. Con el tiempo, estos equipos pueden acumular y crear una carga para los recursos del inquilino.  
 
-Para reducir el número de equipos sin usar, como administrador, puede usar la directiva de expiración del grupo [de Microsoft 365](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) para limpiar automáticamente los equipos sin usar. Dado que los grupos tienen una copia de seguridad de los equipos, las directivas de expiración del grupo también se aplican automáticamente a los equipos.
+Para reducir el número de equipos sin usar, [](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) como administrador, puede usar la directiva de expiración de Microsoft 365 grupo para limpiar automáticamente los equipos sin usar. Dado que los grupos tienen una copia de seguridad de los equipos, las directivas de expiración del grupo también se aplican automáticamente a los equipos.
 
 Cuando aplica una directiva de expiración a un equipo, el propietario del equipo recibe una notificación para la renovación del equipo 30 días, 15 días y 1 día antes de la fecha de expiración del equipo. Cuando el propietario del equipo reciba la notificación, puede hacer clic en Renovar **ahora** en la configuración del equipo para renovar el equipo.
 

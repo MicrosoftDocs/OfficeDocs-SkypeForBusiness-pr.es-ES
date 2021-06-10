@@ -1,5 +1,5 @@
 ---
-title: Usar el informe de Power BI de CQD para ver Operador automático & histórico de cola de llamadas
+title: Usar el informe Power BI CQD para ver Operador automático & histórico de cola de llamadas
 ms.author: colongma
 author: clyvr
 manager: roykuntz
@@ -22,7 +22,7 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: Obtenga información sobre cómo usar el informe Power BI del panel de calidad de llamadas para ver los datos históricos Operador automático y Cola de llamadas.
+description: Obtenga información sobre cómo usar el panel de calidad de Power BI para ver los datos históricos Operador automático y Cola de llamadas.
 ms.openlocfilehash: cfd72d0397407205aef729188c630e99148f154c
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/23/2021
 ms.locfileid: "51111516"
 ---
 # <a name="what-are-the-requirements"></a>¿Cuáles son los requisitos? 
-Debe tener Instalado Power BI Desktop. Puede instalarlo desde microsoft [Windows Store.](https://aka.ms/pbidesktopstore)
+Debe tener Power BI Desktop instalado. Puede instalarlo desde Microsoft [Windows Store.](https://aka.ms/pbidesktopstore)
 
 Puede usar la versión gratuita de Power BI Desktop. La versión mínima compatible es 2.85.681.0 (septiembre de 2020).
 
@@ -39,18 +39,18 @@ Puede usar la versión gratuita de Power BI Desktop. La versión mínima compati
 La cuenta que usa para ver el informe histórico de AA & CQ Analytics debe tener permisos para obtener acceso a la canalización de datos de CQD. Consulte el rol [de acceso CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) para obtener más información.
 
 ## <a name="installation"></a>Instalación 
-En los pasos siguientes se supone que ya ha instalado Power BI Desktop en el equipo y que su cuenta tiene los permisos necesarios para obtener acceso a la canalización de datos CQD.
+Los pasos siguientes suponen que ya ha instalado Power BI Desktop en el equipo y que su cuenta tiene los permisos necesarios para obtener acceso a la canalización de datos CQD.
 
 Siga estos pasos:
 - Descargue la [plantilla CQD Teams Operador automático & informe](./aa-cq-cqd-historical-reports.md) histórico de cola de llamadas y guárdela en un directorio del equipo.
 
-- Haga doble clic en la plantilla y Power BI Desktop debería iniciarse.
+- Haga doble clic en la plantilla y Power BI Desktop iniciar.
 
 - Se le pedirá que seleccione la región de canalización de datos CQD. Seleccione la región donde se encuentra el inquilino.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas en el Centro de administración de Teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración":::
 
- - Puede ver la región con el cmdlet ps de Skype Empresarial Online (Get-CsTenant). Resultado de ServiceInstance. 
+ - Puede ver la región con el cmdlet Skype Empresarial PS en línea (Get-CsTenant). Resultado de ServiceInstance. 
  La región se mostrará después del /me gusta en este ejemplo: 
  
    microsoftcommunicationsonline/noam-4a-s7 donde la región es noam.
@@ -59,11 +59,11 @@ Siga estos pasos:
  
  - Para ver sus propios datos, haga clic en **Actualizar** en la pestaña Inicio en Consultas en Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas en el Centro de administración de Teams":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración":::
 
 - A continuación, se le pedirá que inicie sesión. Seleccione **Cuenta de la organización** y, a continuación, seleccione Iniciar **sesión.**
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas en el Centro de administración de Teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración":::
 
 - Seleccione **Conectar** y vea la actualización de datos.
 
@@ -83,11 +83,11 @@ En los pasos siguientes se supone que ya ha completado los pasos de instalación
 Siga estos pasos:
 - Seleccione **la pestaña Vista** en la cinta de opciones.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas en el Centro de administración de Teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración":::
 
 - Seleccione el esquema de color de la lista desplegable.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas en el Centro de administración de Teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración":::
 
 
 ## <a name="cqd-fields-description"></a>Descripción de campos CQD
@@ -99,7 +99,7 @@ Siga estos pasos:
 |Operador automático de búsqueda de directorios  |cadena                   |Método de búsqueda de la última libreta de direcciones        |
 |Operador automático acción Transferir          |cadena                   |Tipo de destino de transferencia de llamadas<br>Valores posibles:<br>§ desconocido: no se especificó el tipo de entidad<br>§ usuario: entidad de usuario<br>§ orgaa: entidad Operador automático organización<br>§ hunt_group : entidad Cola de llamadas<br>§ aplicación: entidad de aplicación de voz<br>§ external_pstn - entidad RTC externa<br>§ shared_voicemail: entidad de correo de voz compartido|
 |Operador automático de llamada              |cadena                   |Resultado de la llamada:<br>§ desconocido<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|Operador automático de llamadas                |cadena                   |Encapsula los distintos estados de Operador automático llamada<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>Anuncio de §|
+|Operador automático llamada Flow                |cadena                   |Encapsula los distintos estados de Operador automático llamada<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>Anuncio de §|
 |Está Operador automático implicado              |Boolean                  |Se indica si AA participa en la llamada |
 |Operador automático de acciones de llamada      |int                      |Recuento de acciones usadas por el autor de la llamada         |
 |Operador automático duración de cadena segundos   |int                      |Duración de la llamada en AA                 |
@@ -145,7 +145,7 @@ Siga estos pasos:
 |Duración media de la llamada( segundos)         |int                      |Duración total de las llamadas en cola de llamadas en segundos     |
 
 
-### <a name="power-bi-graph-description-auto-attendant"></a>Descripción de gráficos de Power BI Operador automático
+### <a name="power-bi-graph-description-auto-attendant"></a>Power BI de gráfico Operador automático
 
 |Nombre                                      |Descripción                            |
 |:---------------------------------------|:--------------------------------------|

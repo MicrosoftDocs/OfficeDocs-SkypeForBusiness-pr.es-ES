@@ -32,7 +32,7 @@ Con los equipos de la organización, los administradores globales pueden crear f
 
 ![Captura de pantalla de la opción de crear un equipo de la organización](media/create-org-wide-team.png "Captura de pantalla de la opción Toda la organización para crear un equipo de la organización")
 
-Cuando se crea un equipo de toda la organización, todos los administradores globales y los administradores del servicio de Teams se agregan como propietarios del equipo y todos los usuarios activos se agregan como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, se le asigna una licencia exploratoria de Microsoft Teams. Para obtener más información sobre la licencia exploratoria, consulte Administrar [la licencia exploratoria](teams-exploratory.md)de Microsoft Teams. 
+Cuando se crea un equipo de toda la organización, todos los administradores globales y Teams administradores de servicios se agregan como propietarios del equipo y todos los usuarios activos se agregan como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, al usuario se le asigna una Microsoft Teams licencia exploratoria. Para obtener más información sobre la licencia exploratoria, consulte Administrar [la Microsoft Teams de Exploración.](teams-exploratory.md) 
 
 Este tipo de cuentas no se añadirán a su equipo de la organización:
 
@@ -48,7 +48,7 @@ A medida que el directorio de su organización se actualiza para incluir nuevos 
 > - Si no ve la  opción para toda la organización al crear un equipo y es administrador global, es posible que haya alcanzado el límite de cinco equipos de toda la organización o que su organización tenga más del límite de tamaño actual de 10 000 miembros. Buscamos aumentar este límite en el futuro. Los equipos de toda la organización aún no están disponibles para Teams educativo.
 > - Las habitaciones que no son parte de una lista de habitaciones, equipo, y cuentas de recursos pueden ser agregadas o sincronizadas con el equipo de toda la organización. Los dueños de los equipos pueden eliminar fácilmente estas cuentas del equipo.
 > - Todas las acciones del sistema para añadir o eliminar miembros se publican en el Canal general. El canal también será marcado como con nueva actividad en el cliente de Teams.
-> - Crearemos automáticamente un equipo para toda la organización para su organización si su organización es nueva en Teams y no tiene más de 10 000 usuarios. El nombre del equipo reflejará el nombre del inquilino y tendrá un Canal general. Los administradores globales pueden editar este equipo como cualquier otro equipo. 
+> - Crearemos automáticamente un equipo de toda la organización para su organización si su organización es nueva en Teams y no tiene más de 10 000 usuarios. El nombre del equipo reflejará el nombre del inquilino y tendrá un Canal general. Los administradores globales pueden editar este equipo como cualquier otro equipo. 
 
 ## <a name="best-practices"></a>Procedimientos recomendados
 
@@ -92,4 +92,4 @@ Las plantillas de equipo no se pueden usar para crear un equipo de toda la organ
 
 ## <a name="see-also"></a>Vea también
 
-Vea un vídeo sobre [cómo crear un equipo de toda la empresa en Microsoft Teams.](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)
+Vea un vídeo sobre [cómo crear un equipo de toda la empresa en Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
