@@ -23,10 +23,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51092498"
 ---
-# <a name="teams-for-retail"></a><span data-ttu-id="d7b63-103">Teams para el comercio</span><span class="sxs-lookup"><span data-stu-id="d7b63-103">Teams for Retail</span></span>
+# <a name="teams-for-retail"></a><span data-ttu-id="7c7e3-103">Teams para el comercio</span><span class="sxs-lookup"><span data-stu-id="7c7e3-103">Teams for Retail</span></span>
 
-<span data-ttu-id="d7b63-104">Use los recursos de administrador para administrar y sacar el máximo partido de Teams para sus tiendas minoristas y recursos.</span><span class="sxs-lookup"><span data-stu-id="d7b63-104">Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.</span></span>
+<span data-ttu-id="7c7e3-104">Use los recursos de administrador para administrar y sacar el máximo partido de Teams para sus tiendas minoristas y recursos.</span><span class="sxs-lookup"><span data-stu-id="7c7e3-104">Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.</span></span>
 
 |               |               |
 | ------------- | ------------- |
-| ![tutorial-mapas-equipos](../media/walkthrough-map-teams-small.svg)  |  [<span data-ttu-id="d7b63-106">Introducción a las plantillas comerciales de Teams</span><span class="sxs-lookup"><span data-stu-id="d7b63-106">Get started with Retail Teams templates</span></span>](../get-started-with-retail-teams-templates.md) |
+| ![tutorial-mapas-equipos](../media/walkthrough-map-teams-small.svg)  |  [<span data-ttu-id="7c7e3-106">Introducción a las plantillas comerciales de Teams</span><span class="sxs-lookup"><span data-stu-id="7c7e3-106">Get started with Retail Teams templates</span></span>](../get-started-with-retail-teams-templates.md) |
