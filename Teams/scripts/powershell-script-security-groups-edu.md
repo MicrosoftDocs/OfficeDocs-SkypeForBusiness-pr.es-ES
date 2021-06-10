@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: Use este script de PowerShell para crear los grupos de seguridad que necesita para administrar directivas de Teams para profesores y alumnos de su escuela.
+description: Use este script de PowerShell para crear los grupos de seguridad que necesita para administrar las directivas de Teams para los profesores y alumnos de su escuela.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -26,7 +26,7 @@ ms.locfileid: "51117288"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Ejemplo de script de PowerShell: crear grupos de seguridad para profesores y alumnos en la escuela
 
-Use este script de PowerShell para crear los grupos de seguridad que necesita para administrar las directivas de Microsoft Teams en su centro educativo. La [característica de asignación](../assign-policies.md#assign-a-policy-to-a-group) de directivas a grupos de Teams le permite asignar una directiva a un grupo de usuarios, como un grupo de seguridad. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente.
+Use este script de PowerShell para crear los grupos de seguridad que necesita para administrar Microsoft Teams directivas de su centro educativo. La [característica de asignación](../assign-policies.md#assign-a-policy-to-a-group) de directivas a grupos Teams permite asignar una directiva a un grupo de usuarios, como un grupo de seguridad. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente.
 
 Este script de PowerShell crea dos grupos de seguridad, uno para docentes y docentes y otro para los alumnos de su escuela, según el tipo de licencia. A continuación, puede asignar directivas a los grupos de seguridad que ha creado. Para obtener más información sobre el uso de este script, vea Asignar directivas a grandes [conjuntos de usuarios de su centro educativo.](../batch-group-policy-assignment-edu.md)
 
@@ -43,9 +43,9 @@ Tendrá que ejecutar este script periódicamente para mantener los grupos de seg
 
 ## <a name="before-you-start"></a>Antes de empezar
 
-Descargue e instale el [módulo PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)de Skype Empresarial Online y reinicie el equipo si se le solicita.
+Descargue e instale el [Skype Empresarial de PowerShell en](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)línea y, a continuación, reinicie el equipo si se le solicita.
 
-Para obtener más información, vea Administrar Skype Empresarial Online con PowerShell de [Office 365](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) y [Información general de PowerShell de Teams.](../teams-powershell-overview.md)
+Para obtener más información, vea Administrar Skype Empresarial En línea [con Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) y [Teams de PowerShell.](../teams-powershell-overview.md)
 
 
 ## <a name="sample-script"></a>Ejemplo de script

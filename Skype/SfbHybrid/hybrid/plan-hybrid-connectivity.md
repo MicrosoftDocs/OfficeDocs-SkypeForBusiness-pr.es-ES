@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Planee implementar la conectividad híbrida entre Skype Empresarial Server y Teams o Skype Empresarial Online mediante la configuración Skype Empresarial modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 4b38e5aa046224572da485a63bd651b705c83011
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 7d886016495d194997ebf99361916c9c387e5d1f
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308329"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856339"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planear la conectividad híbrida entre Skype Empresarial Server y Teams
 
@@ -54,11 +54,12 @@ Sin embargo, después de la retirada de Skype Empresarial Online, las organizaci
 - Usuarios locales (Quién o pueden usar Teams, pero no en modo TeamsOnly)
 - Teams Solo usuarios. 
 
-Para que las organizaciones pasen de Skype Empresarial Server o Lync Server 2013 a Teams, deben configurar y configurar híbridos con el mismo conjunto de *herramientas,* exactamente igual que antes de la retirada. Lo que cambiará es al mover un usuario de local a Teams, pronto ya no será necesario especificar el cambio para mover usuarios directamente desde local a `-MoveToTeams` `Move-CsUser` TeamsOnly. Actualmente, si no se especifica este modificador, los usuarios pueden pasar de hospedarse en Skype Empresarial Server local a Skype Empresarial Online y su modo permanece sin cambios. Después de retirarse, al mover un usuario de local a la nube con , los usuarios se asignarán automáticamente al modo TeamsOnly y sus reuniones desde locales se convertirán automáticamente en reuniones de Teams, igual que si el modificador , independientemente de si el modificador se especifica `Move-CsUser` `-MoveToTeams switch had been specified` realmente. (Esto incluye las migraciones de Lync Server 2013, que nunca tuvieron el `MoveToTeams` modificador).  Esperamos liberar esta funcionalidad (que no requiere fechas de actualización locales) antes de la retirada real el 31 de julio de 2021.
+Para que las organizaciones pasen de Skype Empresarial Server o Lync Server 2013 a Teams, deben configurar y configurar híbridos con el mismo conjunto de *herramientas,* exactamente igual que antes de la retirada. Lo que ha cambiado es al mover un usuario de local a Teams, ya no es necesario especificar el cambio para mover usuarios directamente de local a `-MoveToTeams` `Move-CsUser` TeamsOnly. Anteriormente, si no se especificaba este modificador, los usuarios pasaron de hospedarse en Skype Empresarial Server local a Skype Empresarial Online y su modo permaneció sin cambios. En preparación para la retirada, al mover un usuario de local a la nube con , ahora los usuarios se asignan automáticamente al modo TeamsOnly y sus reuniones de locales se convierten automáticamente en reuniones de Teams, igual que si se hubiera especificado el modificador, independientemente de si el modificador se especifica `Move-CsUser` `-MoveToTeams` realmente. (Esto incluye las migraciones de Lync Server 2013, que nunca tuvieron el `MoveToTeams` modificador). 
 
 Los modos de coexistencia seguirán existiendo después de la retirada de Skype Empresarial Online. Al igual que antes, a los usuarios con cuentas Skype Empresarial Server local se les puede asignar cualquier modo de coexistencia excepto TeamsOnly. Sin embargo, después de retirarse, los usuarios en línea solo pueden ser TeamsOnly (en contraste con el presente donde Skype Empresarial usuarios en línea pueden ser cualquier modo).  
 
-[!Important] Las organizaciones híbridas existentes con usuarios que se encuentran en Skype Empresarial Online que no son TeamsOnly deben centrarse en actualizar estos usuarios al modo de solo Teams tan pronto como sea posible, pero no más tarde de la retirada el 31 de julio de 2021. Si su organización todavía tiene usuarios en Skype Empresarial Online que no son TeamsOnly, es posible que se programe una actualización asistido por Microsoft para realizar la transición de estos usuarios a TeamsOnly. Esto no afectará a los usuarios que se encuentran en Skype Empresarial Server local. Las notificaciones de programación se enviarán por adelantado a clientes híbridos con usuarios que se encuentran en Skype Empresarial Online antes de que estos usuarios que no sean de TeamsOnly se actualicen a Teams.
+> [!Important]
+> Las organizaciones híbridas existentes con usuarios que se encuentran en Skype Empresarial Online que no son TeamsOnly deben centrarse en actualizar estos usuarios al modo de solo Teams tan pronto como sea posible, pero no más tarde de la retirada el 31 de julio de 2021. Si su organización todavía tiene usuarios en Skype Empresarial Online que no son TeamsOnly, es posible que se programe una actualización asistido por Microsoft para realizar la transición de estos usuarios a TeamsOnly. Esto no afectará a los usuarios que se encuentran en Skype Empresarial Server local. Las notificaciones de programación se enviarán por adelantado a clientes híbridos con usuarios que se encuentran en Skype Empresarial Online antes de que estos usuarios que no sean de TeamsOnly se actualicen a Teams.
 
 
 ## <a name="about-shared-sip-address-space-functionality"></a>Acerca de la funcionalidad de espacio de direcciones SIP compartido

@@ -27,7 +27,7 @@ ms.locfileid: "51117748"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Administrar el ciclo de vida de los canales privados en Microsoft Teams
 
-Aquí encontrará las instrucciones que necesita para administrar el uso de la API de Graph para administrar los canales privados de [Teams](./private-channels.md) en su organización.
+Aquí encontrará las instrucciones que necesita para administrar el uso de la API de Graph para administrar Teams [canales privados](./private-channels.md) de su organización.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Configurar si los propietarios y miembros pueden crear canales privados
 
@@ -44,7 +44,7 @@ PATCH /teams/<team_id>
 
 ## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>Crear un canal privado en nombre de un propietario del equipo
 
-Como administrador, puede usar la API de Graph para crear un canal privado en nombre de un propietario del equipo. Por ejemplo, quizá quiera hacerlo si su organización pretende centralizar la creación de canales privados.
+Como administrador, puede usar la API Graph para crear un canal privado en nombre de un propietario del equipo. Por ejemplo, quizá quiera hacerlo si su organización pretende centralizar la creación de canales privados.
 
 ```Graph API
 POST /teams/{id}/channels
@@ -70,7 +70,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Tanto si quieres hacer una exhibición de documentos electrónicos o archivos de una suspensión por litigio en un canal privado o quieres diseñar una aplicación personalizada que ubique los archivos en ciertos canales privados, querrás una manera de consultar las únicas colecciones de sitios SharePoint que se han creado para cada canal privado.
 
-Como administrador, puede usar comandos de API de Graph para consultar estas direcciones URL.
+Como administrador, puede usar Graph API para consultar estas direcciones URL.
 
 Puede probar estos comandos a través del [Explorador de Graph](https://developer.microsoft.com/graph/graph-explorer).
 
@@ -138,7 +138,7 @@ Puede probar estos comandos a través del [Explorador de Graph](https://develope
 
 Quizá quiera extraer una lista de los propietarios y los miembros de un canal privado para decidir si necesita ascender a ciertos miembros de un canal privado al rol de propietario. Esto puede ocurrir cuando tienes propietarios de canales privados que han dejado la organización y el canal privado requiere ayuda administrativa para reclamar la propiedad del mismo.
 
-Como administrador, puede usar la API de Graph para realizar estas acciones.
+Como administrador, puede usar la API Graph para realizar estas acciones.
 
 Puede probar estos comandos a través del [Explorador de Graph](https://developer.microsoft.com/graph/graph-explorer).
 

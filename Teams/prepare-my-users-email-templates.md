@@ -1,5 +1,5 @@
 ---
-title: Plantillas de correo electrónico de notificación de usuario para la implementación de sistema telefónico en línea
+title: Plantillas de correo electrónico de notificación de usuario para la implementación del sistema de teléfonos en línea
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,13 +23,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812650"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción por parte del usuario de su nuevo sistema telefónico en línea
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción por el usuario de su nuevo sistema telefónico en línea
 
-Un teléfono puede ser la línea de vida de un usuario. Cambiar de un sistema telefónico tradicional a un sistema telefónico en línea representa un cambio significativo en la forma de trabajar de los usuarios y puede afectar negativamente a la productividad. Tomar tiempo para informar, guiar y apoyar a los usuarios mediante este cambio puede ayudar a garantizar una experiencia de usuario positiva y maximizar el retorno de la inversión.
+Un teléfono puede ser el salvavidas de un usuario. Cambiar de un sistema telefónico tradicional a un sistema telefónico en línea representa un cambio significativo en la forma de trabajar de los usuarios y puede afectar negativamente a la productividad. Tomar tiempo para informar, guiar y apoyar a los usuarios a través de este cambio puede ayudar a garantizar una experiencia de usuario positiva y maximizar el retorno de la inversión.
 
-Este artículo contiene plantillas de correo electrónico personalizables para ayudar a informar a los usuarios sobre su nuevo sistema telefónico. Personalice y envíe los correos electrónicos apropiados para que se ajusten a su implementación de voz específica. Hemos usado corchetes para indicar las secciones para facilitar la personalización, pero le recomendamos que agregue mensajería específica de la organización para que el anuncio sea más relevante para los usuarios. Si procede para su implementación, reemplace todas las referencias a "Teams" por "Skype Empresarial".
+Este artículo contiene plantillas de correo electrónico personalizables para ayudar a informar a los usuarios sobre su nuevo sistema telefónico. Personalice y envíe los correos electrónicos adecuados para alinearse con su implementación de voz específica. Hemos usado corchetes para indicar secciones para facilitar la personalización, pero le recomendamos que agregue mensajería específica de la organización para que el anuncio sea más relevante para los usuarios. Si es aplicable para la implementación, reemplace todas las referencias a "Teams" por "Skype Empresarial".
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>Correo electrónico número 1: Enviar tres semanas antes del lanzamiento
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Número de correo electrónico 1: Enviar tres semanas antes del inicio
 
 Línea de asunto:
 
@@ -94,7 +94,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>Correo electrónico número 2: Enviar una semana antes del lanzamiento
+## <a name="email-number-2-send-one-week-before-launch"></a>Número de correo electrónico 2: Enviar una semana antes del inicio
 
 Línea de asunto:
 
@@ -138,7 +138,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>Correo electrónico número 3: Enviar el día del lanzamiento
+## <a name="email-number-3-send-on-launch-day"></a>Número de correo electrónico 3: Enviar el día de lanzamiento
 
 Línea de asunto:
 
@@ -175,7 +175,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>Número de correo electrónico 4: Enviar dos semanas después del lanzamiento
+## <a name="email-number-4-send-two-weeks-after-launch"></a>Número de correo electrónico 4: Enviar dos semanas después del inicio
 
 Línea de asunto:
 

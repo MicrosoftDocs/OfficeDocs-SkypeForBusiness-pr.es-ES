@@ -1,5 +1,5 @@
 ---
-title: 'Ejemplo de script de PowerShell: limpieza de implementación de Teams'
+title: 'Ejemplo de script de PowerShell: Teams de implementación'
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -24,9 +24,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117298"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Ejemplo de script de PowerShell: limpieza de la implementación de Teams
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Ejemplo de script de PowerShell: Teams de implementación
 
-Use este script para quitar Teams. Este script desinstala Teams y quita la carpeta Teams para un usuario. Ejecute este script para cada perfil de usuario en el que Teams se instaló en un equipo.
+Use este script para quitar Teams. Este script desinstala Teams y quita la carpeta Teams para un usuario. Ejecute este script para cada perfil de usuario en el que Teams instalado en un equipo.
 
 
 ## <a name="sample-script"></a>Ejemplo de script
@@ -65,4 +65,4 @@ catch
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Instalar Microsoft Teams con Microsoft Endpoint Configuration Manager](../msi-deployment.md)
-- [Implementar Teams con aplicaciones de Microsoft 365](/deployoffice/teams-install)
+- [Implementar Teams con Aplicaciones Microsoft 365](/deployoffice/teams-install)

@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga más información sobre la estructuración de equipos y canales en Microsoft Teams y cómo usar Teams para impulsar la colaboración entre organizaciones.
+description: Obtenga más información sobre cómo estructurar equipos y canales en Microsoft Teams y cómo usar Teams para impulsar la colaboración entre organizaciones.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,13 +30,13 @@ ms.locfileid: "49831210"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Descripción de los equipos y canales en Microsoft Teams
 
-Los conceptos de los equipos y los canales son fundamentales para una implementación de Microsoft Teams en buen estado y productivo. 
+Los conceptos de equipos y canales son fundamentales para una implementación sana y productiva de Microsoft Teams. 
 
-- Un equipo es una colección de personas, contenido y herramientas que trabajan conjuntamente para generar un resultado empresarial para su empresa. Los equipos se construyen sobre Grupos de Microsoft 365 y los cambios que se realicen en la pertenencia a grupos de Microsoft 365 se sincronizarán con el equipo.
+- Un equipo es una colección de personas, contenido y herramientas que trabajan conjuntamente para producir un resultado empresarial para su empresa. Los equipos se construyen sobre Grupos de Microsoft 365 y los cambios que se realicen en la pertenencia a grupos de Microsoft 365 se sincronizarán con el equipo.
 
 - Los canales son los espacios de colaboración dentro de un equipo en el que se realiza el trabajo real. 
 
-Para obtener más información sobre los equipos y canales, consulte la [información general de los equipos y canales en Microsoft Teams.](teams-channels-overview.md) Para obtener instrucciones completas de adopción de Teams, obtenga la [Guía de adopción de Teams.](https://aka.ms/teamstoolkit) Para obtener más información sobre Teams y Grupos de Microsoft 365, consulte Grupos de [Microsoft 365](office-365-groups.md) y Microsoft Teams, y más información sobre grupos de [Microsoft 365.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+Para obtener más información sobre los equipos y canales, vea información general [sobre los equipos y](teams-channels-overview.md)canales en Microsoft Teams . Para obtener instrucciones Teams adopción, obtenga la [guía Teams adopción.](https://aka.ms/teamstoolkit) Para obtener más información sobre Teams y Microsoft 365, vea Microsoft 365 [y Microsoft Teams](office-365-groups.md) y Más información sobre [Microsoft 365 grupos.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 
 |  |  |
@@ -49,16 +49,16 @@ Los tipos de acceso de equipo determinan quién puede unirse a un equipo:
 
 - Los equipos *privados* están restringidos a los miembros del equipo que han aprobado los propietarios del equipo. Es la configuración típica en equipos de proyecto y equipos virtuales de una organización de gran tamaño.
 
-- *Los* equipos públicos están abiertos a cualquier persona de la organización y los usuarios pueden unirse a ellos directamente. Los equipos públicos son útiles para colaborar en temas de interés general para personas de diferentes departamentos o personas que están trabajando en diferentes proyectos. Suele ser una configuración predeterminada para organizaciones más pequeñas.
+- *Los* equipos públicos están abiertos a cualquier persona de la organización y los usuarios pueden unirse a ellos directamente. Los equipos públicos son útiles para la colaboración en temas de interés general para personas de diferentes departamentos o para personas que están trabajando en diferentes proyectos. Suele ser una configuración predeterminada para organizaciones más pequeñas.
 
 ## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Usar Teams para impulsar la colaboración entre organizaciones
 
-Es un procedimiento recomendado usar equipos para mejorar la colaboración entre organizaciones, y muchos proyectos se prestarán a este modelo. Además, los líderes o divisiones dentro de una organización podrían desear un equipo dedicado para sus propias personas. Tenga en cuenta los modelos organizativos y de proyecto que se muestran en la siguiente ilustración.
+Es una práctica recomendada usar equipos para mejorar la colaboración entre organizaciones y muchos proyectos se prestarán a este modelo. Además, los líderes o divisiones dentro de una organización pueden querer un equipo dedicado para sus propios usuarios. Tenga en cuenta los modelos de organización y proyecto que se muestran en la siguiente ilustración.
 
 ![Modelos de organización y proyecto](media/teams-adoption-organization-project.png)
 
-En un equipo de la organización (que se muestra a la izquierda), se puede compartir información clave sobre la forma en que la organización administra su negocio, los eventos de equipo, las estrategias básicas y otra información de operaciones, como las revisiones empresariales. Para el equipo que se muestra a la derecha, la información del distrito se divide en canales que representan las categorías de trabajo que ese equipo está logrando. Los miembros de este equipo pueden o no informarse a la misma persona, pero todos están involucrados en la conducción de los resultados para el distrito.
+En un equipo de la organización (que se muestra a la izquierda), se puede compartir información clave sobre la forma en que la organización ejecuta su negocio, los eventos de grupo, las estrategias principales y otra información operativa, como las revisiones empresariales. Para el equipo que se muestra a la derecha, la información del distrito se divide en canales que representan las categorías de trabajo que realiza ese equipo. Los miembros de este equipo pueden o no informar a la misma persona, pero todos se dedican a impulsar los resultados del distrito.
   
-Trabajará más en la estructura de sus equipos en la [fase 2](teams-adoption-phase2-experiment.md) de su implementación.
+Trabajará más en la estructura de los equipos en [la fase 2](teams-adoption-phase2-experiment.md) de la implementación.
 
-![Un icono que muestra el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Crear sus primeros equipos](teams-adoption-your-first-teams.md)
+![Un icono que muestra el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Crear los primeros equipos](teams-adoption-your-first-teams.md)

@@ -1,5 +1,5 @@
 ---
-title: Idiomas admitidos en el operador automático de Microsoft Teams
+title: Microsoft Teams idiomas admitidos por el operador automático
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Idiomas admitidos en el operador automático de Microsoft Teams
+description: Microsoft Teams idiomas admitidos por el operador automático
 ms.openlocfilehash: 8a55b1613aaf1c14989d1626966ca6051d7015d9
 ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
@@ -29,19 +29,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 02/12/2021
 ms.locfileid: "50197109"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Idiomas admitidos en el operador automático de Microsoft Teams
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams idiomas admitidos por el operador automático
 
 El operador automático admite los siguientes idiomas para texto a voz (TTS) y reconocimiento de voz:
 
 |Idioma                                |Texto a voz (TTS)     |Reconocimiento de voz                     |
 |:---------------------------------------|:-----------------------:|:-------------------------------------:|
 |Árabe (Egipto)                          |v                        |                                       |
-|Catalán                       |v                        |v                                      |
+|Catalán (catalán)                       |v                        |v                                      |
 |Chino (simplificado, PRC)               |v                        |v                                      |
 |Chino (tradicional, Hong Kong)        |v                        |                                       |
 |Chino (tradicional, Taiwán)           |v                        |                                       |    
 |Croata (Croacia)                      |v                        |                                       |    
-|Checo (República de Czeck)                  |v                        |                                       |    
+|Checo (República Checa)                  |v                        |                                       |    
 |Danés (Dinamarca)                        |v                        |                                       |    
 |Neerlandés (Países Bajos)                     |v                        |                                       |    
 |Inglés (Australia)                     |v                        |v                                      |
@@ -75,7 +75,7 @@ El operador automático admite los siguientes idiomas para texto a voz (TTS) y r
 |Vietnamita (Vietnam)                    |v                        |                                       |    
 
 > [!NOTE]
-> Si elige un idioma que no sea compatible con el reconocimiento de voz, se deshabilitará la opción de entrada de voz en el menú y el marcado por nombre solo estará limitado a usar la entrada mediante teclado (DTMF). Consulte la entrada [marcado por nombre (DTMF)](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) para obtener más información.
+> Al elegir un idioma que no admita el reconocimiento de voz, se deshabilitará la opción de entradas de voz dentro del menú y el marcado por nombre solo se limitará al uso de la entrada del teclado numérico (DTMF). Para obtener más información, consulte Marcar por nombre: entrada del [Teclado numérico (DTMF).](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry)
 
 > [!NOTE]
-> Al usar Texto a voz, el texto debe especificarse en el idioma seleccionado ya que el sistema no realiza la traducción.
+> Al usar Texto a voz, el texto debe introducirse en el idioma seleccionado, ya que el sistema no realiza la traducción.

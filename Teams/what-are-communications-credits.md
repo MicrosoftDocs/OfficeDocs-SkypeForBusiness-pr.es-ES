@@ -97,7 +97,7 @@ Las notificaciones importantes relacionadas con el saldo de créditos de comunic
 - Administrador de comunicaciones de Teams
 - Ingeniero de soporte en comunicaciones de Teams
 - Teams Especialista en soporte técnico de comunicaciones
-- Teams Administrador
+- Administrador de Teams
 
 > [!NOTE]
 > Los créditos de comunicaciones también se usan para números de tarifa premium. El autor de la llamada paga los cargos.

@@ -25,11 +25,11 @@ ms.locfileid: "51117268"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Ejemplo de script de PowerShell: restablecer la configuración de inicio automático en Teams
 
-Use este script para restablecer la configuración de inicio automático de Teams por usuario. Esto incluye los valores establecidos por el usuario o la aplicación teams. De forma predeterminada, Teams se inicia automáticamente cuando un usuario inicia sesión en su equipo después de instalarlo.
+Use este script para restablecer la configuración Teams inicio automático por usuario. Esto incluye los valores establecidos por el usuario o la Teams aplicación. De forma predeterminada, Teams se inicia automáticamente cuando un usuario inicia sesión en su equipo después de instalarlo.
 
-Si ya ha implementado Teams y desea establecer la configuración Impedir que [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) se inicie automáticamente después de la instalación directiva de grupo para deshabilitar el inicio automático de Teams, primero tendrá que establecer la configuración de directiva de grupo en el valor que desee y, a continuación, ejecutar este script.
+Si ya ha implementado Teams y desea establecer la configuración Impedir [que Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) Teams se inicie automáticamente después de instalar la configuración de directiva de grupo para deshabilitar un inicio automático, primero deberá establecer la configuración de directiva de grupo en el valor que desee y, después, ejecutar este script.
 
-Después de iniciar Teams para un usuario, la configuración de inicio automático no se puede deshabilitar con la directiva de grupo.
+Después Teams inicio para un usuario, la configuración de inicio automático no se puede deshabilitar con la directiva de grupo.
 
 ## <a name="sample-script"></a>Ejemplo de script
 
@@ -150,4 +150,4 @@ if($null -eq $teamsProc) {
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Instalar Teams con MSI](../msi-deployment.md)
-- [Implementar Teams con aplicaciones de Microsoft 365 para empresas](/deployoffice/teams-install)
+- [Implementar Teams con Aplicaciones Microsoft 365 para empresas](/deployoffice/teams-install)

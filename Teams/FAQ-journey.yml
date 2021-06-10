@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1f23be9a2324bc3fe51f19440562cdcc31df8ad0
-  ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+  ms.openlocfilehash: a753374ec71014352b04721f2019f5e9a6425acd
+  ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/08/2021
-  ms.locfileid: "52282707"
+  ms.lasthandoff: 06/09/2021
+  ms.locfileid: "52856279"
 title: 'Preguntas frecuentes: actualizar Skype Empresarial a Microsoft Teams'
 summary: ''
 sections:
@@ -35,17 +35,21 @@ sections:
   - question: ¿Existe un plazo concreto para que los clientes pasen de Skype Empresarial Online a Microsoft Teams?
     answer: >
       Sí. [Skype Empresarial Online se retirará](skype-for-business-online-retirement.md) el 31 de julio de 2021, momento en el que ya no será accesible. Recomendamos a los clientes de Skype Empresarial Online que comiencen a usar Teams y a planear las actualizaciones ahora para que tengan el tiempo suficiente de completarlas antes de la fecha de retirada.
+  - question: ¿Necesitan Skype Empresarial Server clientes locales actualizar a Microsoft Teams cuando Skype Empresarial Online se retire?
+    answer: "No. La retirada de Skype Empresarial Online no afecta a los usuarios que se alocuban en el entorno local. Aunque animamos a todos los clientes a aprovechar las ofertas de funcionalidad y rendimiento Microsoft Teams ampliadas, es posible que algunos clientes de Skype Empresarial Server necesiten usar el producto independiente o como parte de una configuración híbrida con Microsoft Teams. Consulte el sitio [directiva de ciclo de vida de Microsoft](https://docs.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server) para obtener fechas de soporte técnico para las versiones de Skype Empresarial Server. \n"
   - question: ¿Skype difusión de reunión se retirará al mismo tiempo que Skype Empresarial en línea?
     answer: "Sí. Teams Eventos en directo es la solución sucesora Skype difusión de reunión.    \n"
   - question: ¿Cuánto tardará la actualización de mi organización a Microsoft Teams?
     answer: >
-      El propio usuario puede definir el trayecto de su organización de Skype Empresarial a Microsoft Teams. Para ayudarle en su planificación y ejecución, hemos desarrollado una completa guía de actualización basada en un marco de trabajo de probada eficacia diseñado para ayudarle a navegar por los elementos técnicos y organizativos del cambio. Comience su viaje y familiarícese con nuestro [marco de actualización realizado de forma exitosa](upgrade-framework.md) y los recursos asociados que necesitará para cambiar de Skype Empresarial a Teams.
+      El camino que lleve el camino de Skype Empresarial a Teams variará en función de las características de su organización, como complejidad técnica, aptitud para el cambio, integraciones de aplicaciones personalizadas y flujos de trabajo, entre otras. Para ayudarle en su planificación y ejecución, hemos desarrollado una completa guía de actualización basada en un marco de trabajo de probada eficacia diseñado para ayudarle a navegar por los elementos técnicos y organizativos del cambio. Comience su viaje y familiarícese con nuestro [marco de actualización realizado de forma exitosa](upgrade-framework.md) y los recursos asociados que necesitará para cambiar de Skype Empresarial a Teams.
   - question: ¿Hay una ruta de actualización recomendada para Skype Empresarial?
     answer: >
       Se recomienda a los clientes que planifiquen su cambio de Skype Empresarial a Teams aprovechando la orientación y los recursos en[aka.ms/SkypetoTeams](upgrade-start-here.md) y participen de un [taller de planificación para la actualización](upgrade-workshops-landing-page.yml) gratuito para identificar e implementar la ruta de actualización que mejor se adapte a las necesidades de su organización.
   - question: ¿Dónde puedo obtener más información sobre los modos de coexistencia en el Centro de administración de Microsoft Teams?
+    answer: "En el centro de administración de Microsoft Teams, verá las opciones de los modos de coexistencia, que le permita a su organización administrar el recorrido de Skype Empresarial a Teams que sea adecuado para su organización. Obtenga más información sobre los [modos de coexistencia y actualización](teams-and-skypeforbusiness-coexistence-and-interoperability.md).\n      \n"
+  - question: ¿Planea Microsoft las actualizaciones asistidos?
     answer: >
-      En el centro de administración de Microsoft Teams, verá las opciones de los modos de coexistencia, que le permita a su organización administrar el recorrido de Skype Empresarial a Teams que sea adecuado para su organización. Obtenga más información sobre los [modos de coexistencia y actualización](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+      Sí. Skype Empresarial Es posible que los clientes en línea se programe para las actualizaciones asistidos Microsoft Teams. Este programa se diseñó para ayudar a los clientes con los elementos técnicos de actualizar un espacio empresarial Skype Empresarial online a Teams solo. Los clientes programados para las actualizaciones asistidos recibirán notificaciones tanto en el centro de administración de Teams como en el Centro de mensajes de Microsoft 365 90 días antes de la fecha de actualización para permitir tiempo para la preparación técnica y del usuario.  Para obtener más información, vea [Actualizaciones asistidos de Skype Empresarial Online a Microsoft Teams](upgrade-assisted.md).
   - question: ¿Qué debo hacer para prepararme para la actualización?
     answer: >
       Una actualización exitosa incluirá la validación de la preparación técnica además de la preparación de aceptación del usuario. Incluso si determina que su organización no está preparada para actualizar a Teams, puede comenzar el proceso de planificación hoy mismo. Además, puede comenzar a darse cuenta del valor de Teams al habilitar Teams junto a Skype Empresarial. Comience con su[Recorrido de Skype a Teams](./upgrade-start-here.md) hoy.
@@ -79,8 +83,6 @@ sections:
   - question: ¿Qué significa esto desde una perspectiva de licencias? ¿Cómo pagarán los clientes las funcionalidades como las conferencias de audio y las llamadas en Teams?
     answer: >
       Microsoft Teams está disponible en los conjuntos de aplicaciones de Microsoft 365 y Office 365. Las funcionalidades que son cargas de trabajo premium en Skype Empresarial Online hoy seguirán considerándose del mismo modo en Microsoft Teams. Los clientes que ya tengan licencias las mantendrán en Microsoft Teams. Por ejemplo, si un cliente ha comprado audio conferencia independiente o como parte de E5 con Skype Empresarial, la audio conferencia se habilitará en Teams en cuanto esté disponible hoy.
-  - question: ¿Planea Microsoft las actualizaciones asistidos?
-    answer: "Con la retirada el 31 de julio de 2021 del servicio en línea de Skype Empresarial en vista, Microsoft se dedica a ayudar a los clientes a realizar una transición correcta a Teams proporcionando instrucciones de actualización, talleres en línea, así como formación de usuarios y administradores. \n\nSkype Empresarial Es posible que los clientes en línea se programe para las actualizaciones asistidos Microsoft Teams. Este programa se diseñó para ayudar a los clientes con los elementos técnicos de actualizar un espacio empresarial Skype Empresarial online a Teams solo. Los clientes programados para las actualizaciones asistidos recibirán notificaciones tanto en el centro de administración de Teams como en el Centro de mensajes de Microsoft 365 90 días antes de la fecha de actualización para permitir tiempo para la preparación técnica y del usuario.  Para obtener más información, vea [Actualizaciones asistidos de Skype Empresarial Online a Microsoft Teams](upgrade-assisted.md).\n"
   - question: ¿Cuáles son las ventajas de la infraestructura de back-end de Teams?
     answer: >
       Teams está construido para la nube en una arquitectura de micro servicios altamente escalable que es eficiente en el consumo de ancho de banda, proporciona una mayor telemetría, y permite el mantenimiento y las actualizaciones con una mínima interrupción. Como resultado, los usuarios podrán unirse a las reuniones con mayor rapidez y mejorará su experiencia de uso del explorador sin necesidad de descargar complementos. Esta moderna infraestructura permite acceder fácilmente a Microsoft Cognitive Services, que cuenta con funciones de transcripción, traducción, reconocimiento de voz y aprendizaje automático, además de tener la capacidad de optimizar la sencillez y la eficacia de la comunicación y la colaboración.

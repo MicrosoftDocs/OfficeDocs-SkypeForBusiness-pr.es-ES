@@ -31,9 +31,9 @@ ms.locfileid: "51117638"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Restablecer el PIN de Audioconferencia en Microsoft Teams
 
-Un PIN es un código que se crea con números para cada usuario de Microsoft Teams habilitado para las audioconferencias. Los organizadores de la reunión usan los PIN de audioconferencia para identificar que son el organizador de la reunión y permitirles iniciar una reunión por teléfono. Si usan la aplicación Microsoft Teams para iniciar la reunión, no se requiere un PIN. Si los usuarios olvidan su PIN y no pueden encontrarlo en el correo electrónico que se les envió cuando se habilitaron para las audioconferencias, un administrador puede restablecer su PIN o puede restablecer su propio PIN.
+Un PIN es un código integrado por números que se crea para cada usuario Microsoft Teams que está habilitado para las audioconferencias. Los organizadores de la reunión usan los PIN de audioconferencia para identificar que son el organizador de la reunión y permitirles iniciar una reunión por teléfono. Si usan la aplicación Microsoft Teams para iniciar la reunión, no se requiere un PIN. Si los usuarios olvidan su PIN y no pueden encontrarlo en el correo electrónico que se les envió cuando se habilitaron para las audioconferencias, un administrador puede restablecer su PIN o puede restablecer su propio PIN.
   
-Las reuniones se pueden iniciar cuando un usuario autenticado se une con la aplicación de Microsoft Teams o cuando el organizador se une con su PIN por teléfono. Cuando una reunión necesita un PIN para empezar, los usuarios que se unan a la reunión por teléfono se colocarán en la sala de espera y escucharán música en espera hasta que se inicie la reunión. Si el organizador de la reunión no necesita un PIN para iniciar la reunión por teléfono, a los autores de la llamada no se les pedirá un PIN cuando se unan a la reunión.
+Las reuniones se pueden iniciar cuando un usuario autenticado se une con la aplicación Microsoft Teams o cuando el organizador se une con su PIN por teléfono. Cuando una reunión necesita un PIN para empezar, los usuarios que se unan a la reunión por teléfono se colocarán en la sala de espera y escucharán música en espera hasta que se inicie la reunión. Si el organizador de la reunión no necesita un PIN para iniciar la reunión por teléfono, a los autores de la llamada no se les pedirá un PIN cuando se unan a la reunión.
 
 ## <a name="reset-a-users-pin"></a>Restablecer el PIN de un usuario
 
@@ -68,21 +68,21 @@ Las reuniones se pueden iniciar cuando un usuario autenticado se une con la apli
     
 - La configuración predeterminada es no permitir que los autores de llamadas anónimos puedan iniciar una reunión.
     
-- Cuando habilita a un usuario para las audioconferencias, de forma predeterminada se envían correos electrónicos que incluyen información de conferencias y su PIN. El usuario debe tener un buzón de Microsoft 365 u Office 365, ya que cuando se restablezca un PIN, se enviará un nuevo PIN al usuario por correo electrónico a su dirección SMTP principal (alias) establecida para el usuario.
+- Cuando habilita a un usuario para las audioconferencias, de forma predeterminada se envían correos electrónicos que incluyen información de conferencias y su PIN. El usuario debe tener un buzón de Microsoft 365 o Office 365, ya que cuando se restablece un PIN, se enviará un nuevo PIN al usuario por correo electrónico a su dirección SMTP principal (alias) establecida para el usuario.
     
 - Al configurar las audioconferencias, se establecen los dígitos necesarios para los PIN de su organización. Los códigos PIN pueden tener de 4 a 12 dígitos (el valor predeterminado es 5). Si cambia la configuración de longitud del PIN, la configuración solo se aplica a los PIN generados recientemente y no se aplica a la configuración de PIN para los usuarios existentes habilitados para las audioconferencias. Vea Establecer la longitud del PIN para las reuniones [de audioconferencia.](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)
     
-- El correo electrónico de forma predeterminada se establecerá en la dirección SMTP principal de Microsoft 365 u Office 365 del usuario. Puede enviar un correo electrónico a una dirección que no sea de Microsoft 365 o que no sea de Office 365, como una dirección de correo electrónico de Hotmail MSN. Puede invalidar la dirección de correo electrónico predeterminada mediante Windows PowerShell. Esto es útil si los usuarios no tienen un buzón de Exchange en Microsoft 365 u Office 365.
+- De forma predeterminada, el correo electrónico se establecerá en Microsoft 365 o Office 365 dirección SMTP principal del usuario. Puede enviar un correo electrónico a una dirección no Microsoft 365 o no Office 365 como una dirección de correo electrónico Hotmail MSN. Puede invalidar la dirección de correo electrónico predeterminada mediante Windows PowerShell. Esto es útil si los usuarios no tienen un buzón Exchange en Microsoft 365 o Office 365.
 
     
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](/powershell/module/teams/?view=teams-ps).
   

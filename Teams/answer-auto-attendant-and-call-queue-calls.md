@@ -19,17 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cca068ab1194a48eb775550e4bf3f99826d82d2a
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 3e1656af8ee457cb4c112d229c2dee03d2590ece
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874670"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856379"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder al operador automático y llamar a la cola de llamadas directamente desde Teams
-===========================================================
+# <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder al operador automático y llamar a la cola de llamadas directamente desde Teams
 
-Los usuarios de Teams pueden recibir y responder llamadas de operadores automáticos de la nube y colas de llamadas directamente desde su cliente de Teams.
+Teams usuarios pueden recibir y responder llamadas de operadores automáticos de la nube y colas de llamadas directamente desde su Teams cliente.
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>¿Qué son los operadores automáticos y las colas de llamadas?
 
@@ -63,7 +62,7 @@ El soporte para llamadas automáticas y de cola de llamadas está disponible en 
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar el operador automático y la cola de llamadas para Microsoft Teams
 
-Para recibir llamadas de cola de llamadas y operadores automáticos en Microsoft Teams, debe configurar la directiva de interoperabilidad y la directiva de actualización. Revise Migración [e interoperabilidad para organizaciones que usan Teams junto con Skype Empresarial.](migration-interop-guidance-for-teams-with-skype.md) Si no tiene configurado el operador automático o la cola de [](create-a-phone-system-auto-attendant.md) llamadas y quiere hacerlo, vea Configurar un operador automático en la nube y Crear una cola de llamadas en la [nube.](create-a-phone-system-call-queue.md)
+Para recibir llamadas automáticas de operador y cola de llamadas Microsoft Teams, debe configurar la directiva de interoperabilidad y la directiva de actualización. Revise Migración [e interoperabilidad para las organizaciones](migration-interop-guidance-for-teams-with-skype.md)que usan Teams junto con Skype Empresarial . Si no tiene configurado el operador automático o la cola de [](create-a-phone-system-auto-attendant.md) llamadas y quiere hacerlo, vea Configurar un operador automático en la nube y Crear una cola de llamadas en la [nube.](create-a-phone-system-call-queue.md)
 
 ## <a name="known-issues"></a>Problemas conocidos
 
@@ -72,7 +71,7 @@ Cuando un agente de la cola de llamadas recibe una llamada en su dispositivo mó
 
 ## <a name="related-topics"></a>Temas relacionados
 
--    [Qué es Sistema telefónico en Microsoft 365 u Office 365](what-is-phone-system-in-office-365.md)
+-    [¿Qué Sistema telefónico en Microsoft 365 o Office 365](what-is-phone-system-in-office-365.md)
 -    [Crear una cola de llamadas en la nube](create-a-phone-system-call-queue.md)
 -    [¿Qué son los operadores automáticos en la nube?](what-are-phone-system-auto-attendants.md)
 -    [Configurar un operador automático en la nube](create-a-phone-system-auto-attendant.md)

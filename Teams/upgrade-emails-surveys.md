@@ -1,5 +1,5 @@
 ---
-title: Las encuestas y los correos electrónicos de transición de Microsoft Teams | Actualización básica
+title: Microsoft Teams Mensajes de correo electrónico y encuestas de transición | Actualización básica
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Muestra de correos electrónicos y encuestas para usar en conjunción con el plan de acción acelerada de diez pasos para actualizar de Skype Empresarial a Teams
+description: Correos electrónicos y encuestas de ejemplo para usar en conjunto con el plan de acción acelerado de diez pasos para actualizar de Skype Empresarial a Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -25,13 +25,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49809080"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Mensajes de correo electrónico de ejemplo y encuestas para comunicaciones de Upgrade Basic
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Mensajes de correo electrónico de ejemplo y encuestas para actualizar las comunicaciones básicas
 
-## <a name="sample-emails"></a>Correos electrónicos de ejemplo
+## <a name="sample-emails"></a>Mensajes de correo electrónico de ejemplo
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a>Correo electrónico de la parte interesada, para el paso 1
+### <a name="stakeholder-email-for-step-1"></a>Correo electrónico de las partes interesadas, para el paso 1
 
 Línea de asunto:
 
@@ -53,7 +53,7 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>Notificar a los usuarios por correo electrónico, para el paso 4
+### <a name="notify-users-email-for-step-4"></a>Notificar a los usuarios el correo electrónico, para el paso 4
 
 Línea de asunto:
 
@@ -82,9 +82,9 @@ If you have questions or need help, please reach out to <<insert company support
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>Recordar correos electrónicos a los usuarios, para el paso 6
+### <a name="remind-users-email-for-step-6"></a>Recordar a los usuarios el correo electrónico, para el paso 6
 
-Línea de asunto: AVISO: Prepárese para la actualización a Teams
+Línea de asunto: RECORDATORIO: Prepárese para la actualización a Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -148,7 +148,7 @@ Regards,
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a>Correo electrónico de facturación, para el paso 9
+### <a name="check-in-email-for-step-9"></a>Correo electrónico de check-in, para el paso 9
 
 Línea de asunto:
 
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Correo electrónico para pedir a los usuarios que prueben equipos y canales en el paso 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Correo electrónico para pedir a los usuarios que prueben equipos y canales para el paso 10
 
 Línea de asunto:
 
@@ -201,29 +201,29 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Encuestas de ejemplo
 
-Indique cuáles son sus aptitudes para realizar las siguientes actividades en Teams y si hay una o más actividades sobre las que le gustaría obtener más información.
+Indique qué aptitudes tiene para realizar las siguientes actividades en Teams y si hay una o más actividades sobre las que le gustaría obtener más información.
 
-| &nbsp; | Muy cualificados | Algo capacitado | Nada capacitado | ¿Desea obtener más información? | N/D | No está seguro/no está seguro | | | | |
+| &nbsp; | Muy cualificado | Algo cualificado | No está capacitado para nada | Desea obtener más información | N/D | No está seguro o no está familiarizado | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Usar Teams para mensajería instantánea o chatear con otras personas | | | | | | | | | | |
+| Usar Teams mensajería instantánea o chatear con otras personas | | | | | | | | | | |
 | Usar Teams para reuniones en línea | | | | | | | | | | |
-| Usar Teams para la colaboración (equipos y canales) | | | | | | | | | | |
+| Usar Teams colaboración (equipos y canales) | | | | | | | | | | |
 | Usar Teams en mi dispositivo móvil | | | | | | | | | | |
 
-| **¿Qué, en su caso, le impide usar Microsoft Teams?** | **Seleccionar todas las opciones que se apliquen** |
+| **¿Qué, si hay algo, le impide usar Microsoft Teams?** | **Seleccionar todo lo que se aplique** |
 |---|---|
 | Nunca he oído hablar de ello | &#9744; |
-| No la tengo instalada en mi equipo | &#9744; |
+| No lo tengo instalado en mi equipo | &#9744; |
 | No entiendo cómo me beneficiaría a mí o a las personas con las que trabajo | &#9744; |
-| No he tenido tiempo para evaluarlo según mis necesidades | &#9744; |
+| No he tenido tiempo de evaluarlo para mis necesidades | &#9744; |
 | Ya uso otras aplicaciones que satisfacen mis necesidades de comunicación y colaboración | &#9744; |
-| Necesito aprendizaje antes de usarlo | &#9744; |
+| Necesito formación antes de usarlo | &#9744; |
 | He intentado usarlo, pero he tenido problemas técnicos o una mala experiencia | &#9744; |
-| Nuestro servicio de soporte técnico no pudo ayudarme con mis preguntas | &#9744; |
+| Nuestro servicio de soporte técnico no me ha podido ayudar con mis preguntas | &#9744; |
 | Nada, actualmente lo uso | &#9744; |
 | Otros (especifique) | &#9744; |
 
-**¿Qué probabilidad hay de que recomiendes Microsoft Teams a un amigo o compañero de trabajo? (0=Muy probable... 10=Muy probable)**
+**¿Qué probabilidad hay de que recomiendes Microsoft Teams a un amigo o compañero de trabajo? (0=No es probable... 10=Muy probable)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

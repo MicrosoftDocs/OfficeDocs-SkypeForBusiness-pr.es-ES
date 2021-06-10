@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: Obtenga información sobre la experiencia del cliente de Teams y la conformidad con los modos de coexistencia (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
+description: Obtenga información sobre Teams cliente y la conformidad con los modos de coexistencia (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -31,26 +31,26 @@ ms.locfileid: "51119259"
 
 <a name="about-upgrade-basic"></a>
 
-El propósito de los modos de coexistencia de Skype Empresarial (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) es proporcionar una experiencia sencilla y predecible para los usuarios finales a medida que las organizaciones transición de Skype Empresarial a Teams.  Para una organización que  se mueve a Teams, el modo Solo para equipos es el destino final para cada usuario, aunque no todos los usuarios deben tener asignados Solo Teams **(o** cualquier otro modo) al mismo tiempo.  Antes de que los usuarios lleguen al modo TeamsOnly, las organizaciones pueden usar  cualquiera de los modos de coexistencia de Skype Empresarial para garantizar una comunicación predecible entre los usuarios que son Solo Teams y los que aún no lo están. 
+El propósito de los modos de coexistencia Skype Empresarial (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) es proporcionar una experiencia sencilla y predecible para los usuarios finales a medida que las organizaciones transición de Skype Empresarial a Teams.  Para una organización que se mueve a Teams, el modo **solo Teams** es el destino final para cada usuario, aunque no todos los usuarios tienen que asignarse **Teams** Solo (o cualquier otro modo) al mismo tiempo.  Antes de que los usuarios lleguen al modo TeamsOnly, las organizaciones pueden usar cualquiera de los modos de coexistencia de Skype Empresarial para garantizar una comunicación predecible entre los usuarios que son **Teams Only** y los que aún no lo están. 
 
-Cuando un usuario está en cualquiera de los modos de Skype Empresarial, todos los chats y llamadas entrantes se enruta al cliente de Skype Empresarial del usuario. Para evitar confusiones de los usuarios finales y asegurarse de que la funcionalidad de enrutamiento, llamadas y chats del cliente de Teams está deshabilitada cuando un usuario está en cualquiera de los modos de Skype Empresarial. De forma similar, la programación de reuniones en Teams se deshabilita explícitamente cuando los usuarios están en los modos SfBOnly o SfBWithTeamsCollab y se habilita explícitamente cuando un usuario está en el modo SfBWithTeamsCollabAndMeetings.
+Cuando un usuario está en cualquiera de los modos Skype Empresarial, todos los chats y llamadas entrantes se enruta al cliente Skype Empresarial usuario. Para evitar confusiones de los usuarios finales y asegurarse de que la funcionalidad de enrutamiento, llamadas y chats del cliente de Teams está deshabilitada cuando un usuario está en cualquiera de los Skype Empresarial modos. De forma similar, la programación de reuniones en Teams se deshabilita explícitamente cuando los usuarios están en los modos SfBOnly o SfBWithTeamsCollab y se habilita explícitamente cuando un usuario está en el modo SfBWithTeamsCollabAndMeetings.
 
-Como la presencia es una indicación de la capacidad de acceso a través del chat y las llamadas, cuando el chat y las llamadas están deshabilitados, la presencia propia en Teams (es decir, la presentación de su propia presencia en el cliente de Teams en la imagen del usuario) también está oculta. 
+Como la presencia es una indicación de la capacidad de acceso a través del chat y las llamadas, cuando el chat y las llamadas están deshabilitados, la presencia personal en Teams (es decir, la presentación de su propia presencia en el cliente de Teams en la imagen del usuario) también está oculta. 
 
-## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Cómo cambia la funcionalidad disponible en el cliente de Teams en función del modo
+## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Cómo cambia la funcionalidad disponible Teams cliente en función del modo
 
-La funcionalidad disponible en Teams depende del modo de coexistencia del usuario, tal y como establece TeamsUpgradePolicy. En la tabla siguiente se resume el comportamiento:
+La funcionalidad disponible en Teams depende del modo de coexistencia del usuario, establecido por TeamsUpgradePolicy. En la tabla siguiente se resume el comportamiento:
 
-|Modo efectivo del usuario|Experiencia en el cliente de Teams|
+|Modo efectivo del usuario|Experiencia en Teams cliente|
 |---|---|
-|Cualquier modo de Skype Empresarial|Las llamadas, el chat y la presencia propia están deshabilitadas.|
+|Cualquier Skype Empresarial de datos|Las llamadas, el chat y la presencia propia están deshabilitadas.|
 |SfBWithTeamsCollabAndMeetings|La programación de reuniones está disponible|
 |SfBWithTeamsCollab o SfBOnly<sup>1</sup>|La programación de reuniones no está disponible|
 |||
 
-Las siguientes capturas de pantalla ilustran la diferencia entre el modo **Solo teams** o **Islas** y el resto de modos. Tenga en cuenta que los iconos de chat  y llamadas están disponibles de forma predeterminada con el modo **Solo** teams o Islas (captura de pantalla izquierda), pero no con los otros modos (captura de pantalla derecha):
+Las siguientes capturas de pantalla ilustran la **diferencia entre Teams modo Solo** o Islas y todos los demás modos.  Tenga en cuenta que los iconos de chat y  llamadas están disponibles de forma predeterminada con el modo **solo Teams** o Islas (captura de pantalla izquierda), pero no con los otros modos (captura de pantalla derecha):
 
-![Comparación en paralelo de los modos de Teams](media/teams-mode-comparison.png)
+![Una comparación en paralelo de los Teams modos](media/teams-mode-comparison.png)
 
 Además, la presencia personal no está disponible en los otros modos, como se muestra aquí.
 
@@ -61,7 +61,7 @@ Además, la presencia personal no está disponible en los otros modos, como se m
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Impacto del modo en otras configuraciones de directiva
-Como se ha descrito anteriormente, el modo de coexistencia de un usuario afecta a la funcionalidad que está disponible en el cliente de Teams del usuario. Esto significa que el valor del modo puede tener prioridad sobre el valor de otras configuraciones de directiva, dependiendo del modo. En concreto, el modo de coexistencia afecta a si se respetan las siguientes configuraciones de directiva:
+Como se ha descrito anteriormente, el modo de coexistencia de un usuario afecta a la funcionalidad que está disponible en el cliente de Teams usuario. Esto significa que el valor del modo puede tener prioridad sobre el valor de otras configuraciones de directiva, dependiendo del modo. En concreto, el modo de coexistencia afecta a si se respetan las siguientes configuraciones de directiva:
 
 |**Modalidad (aplicación)**|**Policy.Setting**|
 |---|---|

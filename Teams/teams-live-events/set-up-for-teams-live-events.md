@@ -16,7 +16,7 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: Configure eventos en directo en Teams, como configurar su red, asignar licencias, habilitar características y programación de eventos en directo y soluciones de distribución de vídeo.
+description: Configure eventos en directo en Teams, incluyendo configurar su red, asignar licencias, habilitar características y programación de eventos en directo y soluciones de distribución de vídeo.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -50,7 +50,7 @@ Las directivas de los eventos en directo se usan para controlar qué usuarios de
 
 <a name="bkcreatepolicy"> </a>
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas de** eventos en directo  >  **de Reuniones.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a **Directivas de** eventos en directo  >  **de reuniones.**
 2. Realice una de las siguientes opciones:
 
     - Si desea editar la directiva predeterminada actual, elija **Global (predeterminado para toda la organización)**.
@@ -80,7 +80,7 @@ Si ha creado una directiva personalizada de eventos en directo, asígnesela a lo
 
 Para que los usuarios programe eventos producidos con una aplicación o dispositivo externos, también debe realizar los pasos siguientes:
 
-1. Habilitar Microsoft Stream para los usuarios de la organización Stream está disponible como parte de las suscripciones elegibles de Microsoft 365 u Office 365 o como un servicio independiente. Stream no está incluido en los planes de Empresa Esenciales o Empresa Premium. Para obtener más información, vea [Información general sobre licencias de Stream](/stream/license-overview)
+1. Habilitar Microsoft Stream para los usuarios de la organización Stream está disponible como parte de las Microsoft 365 o Office 365 o como un servicio independiente. Stream no está incluido en los planes de Empresa Esenciales o Empresa Premium. Para obtener más información, vea [Información general sobre licencias de Stream](/stream/license-overview)
 
    >[!Note]
    > El cambio del uso de Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabaciones de reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, pero en noviembre tendrá que optar por no participar si quiere continuar usando Stream y, en algún momento, a principios de 2021, les pediremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para grabar sus nuevas reuniones. Obtenga más información sobre cómo puede asignar [**licencias a los**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) usuarios para que los usuarios puedan acceder a Stream. Asegúrese de que Stream no está bloqueado para los usuarios tal y como se define en [**este artículo.**](/stream/disable-user-organization)
@@ -93,7 +93,7 @@ Para que los usuarios programe eventos producidos con una aplicación o disposit
 
 La reproducción de vídeos de eventos en directo usa el streaming con velocidad de bits adaptable (ABR), aunque se trata de una secuencia de unidifusión, lo cual significa que cada espectador recibe su propia secuencia de video a través de Internet. Para los eventos o vídeos en directo de su organización, podría haber una cantidad significativa de ancho de banda de Internet consumido por los espectadores. Las soluciones para las organizaciones que desean reducir este tráfico de Internet en los evento en directo deben integrarse con los partners de entrega de vídeo de confianza de Microsoft, los cuales ofrecen redes definidas por software (SDN) o redes de entrega de contenido empresarial (eCDN). Estas plataformas de SDN y eCDN permiten que las organizaciones optimicen el ancho de banda de la red sin sacrificar la experiencia final de visualización del usuario. Nuestros socios le pueden ayudar a habilitar una distribución de vídeo más eficaz y escalable a través de la red empresarial.
 
-**Comprar y configurar la solución fuera de Teams** obtenga asistencia experta para ampliar la distribución de vídeo aprovechando los partners de confianza de Microsoft para la entrega de vídeo. Antes de poder habilitar un proveedor de entrega de vídeo para usarse con Teams, debe comprar y configurar la solución SDN/eCDN fuera y independiente de Teams.
+**Comprar y configurar la solución fuera de Teams** obtenga asistencia experta para ampliar la distribución de vídeo aprovechando los partners de confianza de Microsoft para la entrega de vídeo. Antes de habilitar un proveedor de entrega de vídeo para usarse con Teams, debe comprar y configurar la solución SDN/eCDN fuera y independiente de Teams.
 
 Las siguientes soluciones de SDN y eCDN están preintegradas y pueden ser configuradas para usarse en Stream.
 
@@ -103,7 +103,7 @@ Las siguientes soluciones de SDN y eCDN están preintegradas y pueden ser config
 
 - **Tabla OmniCache** proporciona una distribución en red de nueva generación y garantiza una entrega de contenido de vídeo sin problemas a través de las redes WAN globales, ayudando a los productores de eventos a optimizar el ancho de banda de la red y el soporte de difusión de eventos en directo y las transmisiones a petición. La compatibilidad de la tabla OmniCache con los eventos en directo creados de Teams estará disponible próximamente. [Más información](https://rampecdn.com).
 
-- **Riverbed,** el estándar del sector en optimización de red, está extendiendo sus soluciones de aceleración a Microsoft Teams y Stream.  Ahora los clientes de Microsoft 365 pueden acelerar el tráfico 365 con confianza, incluidos Teams y Stream, junto con una gran cantidad de otros servicios SaaS empresariales líderes para aumentar la productividad de la fuerza laboral desde cualquier lugar. La aceleración de Teams y Stream se puede habilitar mediante una configuración sin esfuerzo que viene con toda la garantía del soporte de clase mundial de Riverbed y la inversión en curso.
+- **Riverbed,** el estándar del sector en optimización de red, está extendiendo sus soluciones de aceleración a Microsoft Teams y Stream.  Ahora Microsoft 365 clientes pueden acelerar el tráfico 365 con confianza, incluidos Teams y Stream, junto con una gran cantidad de otros servicios SaaS empresariales líderes para aumentar la productividad de la fuerza laboral desde cualquier lugar. Teams y la aceleración de stream se pueden habilitar mediante una configuración sin esfuerzo que viene con toda la garantía del soporte de clase mundial de Riverbed y la inversión continua.
 
 > [!NOTE]
 > La solución de SDN y eCDN elegida estará sujeta a los **términos de servicio y a la directiva de privacidad del proveedor de terceros** y controlará el uso de la solución del proveedor. El uso de la solución del proveedor no estará sujeto a los términos de la licencia por volumen de Microsoft ni a los términos de servicios en línea. Si no está de acuerdo con los **términos del proveedor de terceros**, entonces no necesita habilitar la solución en Teams.

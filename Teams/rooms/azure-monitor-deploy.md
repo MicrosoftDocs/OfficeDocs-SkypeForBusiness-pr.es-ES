@@ -1,5 +1,5 @@
 ---
-title: Implementar la administración de salas de Microsoft Teams con Azure Monitor
+title: Implementar Salas de Microsoft Teams de administración con Azure Monitor
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: En este artículo se describe cómo implementar la administración de dispositivos Microsoft Teams Rooms de forma integrada y de un extremo a otro con Azure Monitor.
+description: En este artículo se describe cómo implementar la administración de Salas de Microsoft Teams de forma integrada y de un extremo a otro con Azure Monitor.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 7046fc0010a4337ea14854e356600ccf3428f9d0
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -30,7 +30,7 @@ Puede configurar dentro para proporcionar telemetría básica y alertas :::no-lo
 
 Siguiendo esta guía, puede usar un panel como el siguiente ejemplo para obtener informes de estado detallados sobre la disponibilidad del dispositivo, el estado de las aplicaciones y el hardware, y la distribución de versiones de aplicaciones y sistemas :::no-loc text="Microsoft Teams Rooms"::: operativos.
 
-![Captura de pantalla de la vista de análisis de registro de ejemplo para salas de Microsoft Teams](../media/Deploy-Azure-Monitor-1.png "Vista Análisis de registro de ejemplo para salas de Microsoft Teams")
+![Captura de pantalla de la vista de análisis de registro de ejemplo para Salas de Microsoft Teams](../media/Deploy-Azure-Monitor-1.png "Vista Análisis de registro de ejemplo para Salas de Microsoft Teams")
 
 A un mayor nivel, debe realizar las siguientes tareas:
 
@@ -77,7 +77,7 @@ Debe prepararse :::no-loc text="Log Analytics"::: para poder supervisar eventos 
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>Instalar :::no-loc text="Microsoft Monitoring"::: agentes para probar dispositivos
 
-Implemente el agente en los dispositivos de prueba mediante las instrucciones proporcionadas :::no-loc text="Microsoft Monitoring"::: en Conectar equipos al servicio [ :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: en :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows). En este artículo se proporciona información detallada sobre los pasos para implementar el Agente para , instrucciones para obtener el id. de área de trabajo _ y la clave _ principal * para conectar dispositivos a la implementación y los pasos para comprobar la conectividad del agente a la :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: instancia.
+Implemente el agente en los dispositivos de prueba mediante las instrucciones proporcionadas :::no-loc text="Microsoft Monitoring"::: en Conectar equipos en el servicio [ :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: :::no-loc text="Azure"::: en ](/azure/azure-monitor/platform/agent-windows). En este artículo se proporciona información detallada sobre los pasos para implementar el Agente para , instrucciones para obtener el id. de área de trabajo _ y la clave _ principal * para conectar dispositivos a la implementación y los pasos para comprobar la conectividad del agente a la :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: instancia.
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>Generar eventos de :::no-loc text="Microsoft Teams Rooms"::: ejemplo
 
@@ -161,7 +161,7 @@ Después de recopilar datos y asignar campos personalizados, puede usar el Dise�
 > [!NOTE]
 > Los pasos anteriores de esta guía deberían haber sido completados para que los mosaicos del panel funcionen correctamente.
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>Crear un panel de Salas de Microsoft Teams con el método de importación
+### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>Crear un panel Salas de Microsoft Teams mediante el método de importación
 
 Puede importar un panel y empezar a :::no-loc text="Microsoft Teams Rooms"::: supervisar sus dispositivos rápidamente. Siga estos pasos para importar el panel:
 
@@ -171,7 +171,7 @@ Puede importar un panel y empezar a :::no-loc text="Microsoft Teams Rooms"::: su
 4.  Seleccione **Importar** y, a continuación, **seleccione el SkypeRoomSystems_v2.omsview.**
 5.  Seleccione **Guardar**.
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Crear manualmente un panel de Salas de Microsoft Teams
+### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Crear manualmente Salas de Microsoft Teams panel
 
 Como alternativa, puede crear su propio panel y agregar solo los mosaicos que desee supervisar.
 
@@ -258,7 +258,7 @@ Como alternativa, puede crear su propio panel y agregar solo los mosaicos que de
     **Operación:** Suma
 5.  Definir las **propiedades de** lista.<br>
     **Consulta de lista:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
-    **Ocultar gráfico:** Seleccionado<br>
+    **Ocultar Graph:** Seleccionado<br>
     **Habilitar minigráficos:** No seleccionado
 6.  Definir **títulos de columna**.<br>
     **Nombre:** Nombre del equipo<br>
@@ -282,7 +282,7 @@ Como alternativa, puede crear su propio panel y agregar solo los mosaicos que de
     **Operación:** Suma
 5.  Definir las **propiedades de** lista.<br>
     **Consulta de lista:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
-    **Ocultar gráfico:** Seleccionado<br>
+    **Ocultar Graph:** Seleccionado<br>
     **Habilitar minigráficos:** No seleccionado
 6.  Definir **títulos de columna**.<br>
     **Nombre:** Nombre del equipo<br>
@@ -377,9 +377,9 @@ Configure una regla de alerta que comprueba si hay dispositivos que han :::no-lo
 7. Configurar grupos de acciones:
     1.  Seleccione **Crear nuevo**
     2.  Proporcione nombres adecuados para los *campos Nombre del grupo acción* y *Nombre* corto.
-    3.  Especifique un nombre *de acción único y* seleccione Correo **electrónico/SMS/Push/Voice** y, a continuación, **seleccione Editar detalles.**
+    3.  Especifique un nombre *de acción único* y seleccione Correo **electrónico/SMS/Push/Voice** y, a continuación, **seleccione Editar detalles.**
     4.  Seleccione la **casilla Correo** electrónico y proporcione la dirección de correo electrónico de la persona o grupo que recibirá las alertas.
-    5.  También puede proporcionar su número de teléfono para recibir una notificación con SMS, una llamada de voz o ambos.
+    5.  También puede proporcionar su número de teléfono para recibir notificaciones con SMS, una llamada de voz o ambas.
     6. Seleccione **Aceptar**.
 
 8. **Personalice acciones** si desea invalidar la línea de asunto de los correos electrónicos de alerta.
@@ -438,7 +438,7 @@ Si ya implementó los dispositivos antes de implementarlo, puede usar el script 
 6.  Configurar el script de inicio:
     1.  Copie el siguiente script y guárdelo como Install-MMAgent.ps1.
     2.  Modifique los parámetros WorkspaceId, WorkspaceKey y SetupPath para que coincidan con la configuración.
-    3.  Edite el mismo objeto de directiva de grupo y vaya a Scripts de configuración de directivas de configuración \\ \\ :::no-loc text="Windows"::: del equipo \\ (inicio/apagado)
+    3.  Edite el mismo objeto de directiva de grupo y vaya a Directivas de configuración del \\ \\ :::no-loc text="Windows"::: equipo Configuración scripts \\ (inicio/apagado)
     4.  Haga doble clic para seleccionar **Inicio** y, a continuación, seleccione **Scripts de PowerShell**.
     5.  Seleccione **Mostrar archivos** y, a continuación, copie el **Install-MMAgent.ps1** archivo en esa carpeta.
     6.  Seleccione **Agregar** y, a continuación, **Examinar**.

@@ -28,16 +28,16 @@ ms.locfileid: "51117278"
 
 Use este script de PowerShell para crear una directiva de mensajería en Microsoft Teams y asignarla a los usuarios. 
 
-Para obtener más información sobre el uso de este script de PowerShell, vea [Inicio rápido: Teams para el sector educativo.](../teams-quick-start-edu.yml)
+Para obtener más información sobre el uso de este script de PowerShell, vea [Inicio rápido : Teams para el sector educativo.](../teams-quick-start-edu.yml)
 
-Este script usa el cmdlet [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) que se encuentra en el módulo de PowerShell de Skype Empresarial Online. Vea [Información general de Teams PowerShell](../teams-powershell-overview.md) para obtener más información sobre cómo administrar Teams con PowerShell.
+Este script usa el cmdlet [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) que se encuentra en el módulo de PowerShell Skype Empresarial en línea. Vea [Teams información general de PowerShell](../teams-powershell-overview.md) para obtener más información sobre cómo administrar Teams con PowerShell.
 
 
 ## <a name="before-you-start"></a>Antes de empezar
 
-Descargue e instale el [módulo PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)de Skype Empresarial Online y reinicie el equipo si se le solicita.
+Descargue e instale el [Skype Empresarial de PowerShell en](https://www.microsoft.com/download/details.aspx?id=39366)línea y, a continuación, reinicie el equipo si se le solicita.
 
-Para obtener más información, vea Administrar Skype Empresarial Online con PowerShell de [Office 365.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+Para obtener más información, vea [Administrar Skype Empresarial Online con Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="sample-script"></a>Ejemplo de script
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> También puede asignar una directiva de mensajería directamente a los usuarios a escala a través de una asignación de directiva por lotes o a un grupo del que los usuarios son miembros. Para obtener más información, vea [Asignar directivas a grandes conjuntos](../batch-group-policy-assignment-edu.md) de usuarios de la escuela y Asignar directivas a los usuarios en [Teams.](../assign-policies.md)
+> También puede asignar una directiva de mensajería directamente a los usuarios a escala a través de una asignación de directiva por lotes o a un grupo del que los usuarios son miembros. Para obtener más información, vea Asignar [directivas a](../batch-group-policy-assignment-edu.md) grandes conjuntos de usuarios de la escuela y Asignar directivas a los usuarios [en Teams](../assign-policies.md).

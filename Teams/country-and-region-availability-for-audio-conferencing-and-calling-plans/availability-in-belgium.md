@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Bélgica.
+description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Bélgica.
 ms.openlocfilehash: 1e305a1109fa9c4b05007575d2644d325fe118f4
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51118369"
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Bélgica.
+Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Bélgica.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -72,7 +72,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y M
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
- Si desea obtener números de teléfono gratuitos y gratuitos para audioconferencias, operadores automáticos y colas de llamadas, vea Obtener números de teléfono de servicio para Skype Empresarial y [Microsoft Teams.](../getting-service-phone-numbers.md)
+ Si desea obtener números de teléfono gratuitos y gratuitos para audioconferencias, operadores automáticos y colas de llamadas, vea Obtener números de teléfono de servicio para Skype Empresarial y [Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 

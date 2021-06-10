@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Los organizadores de la reunión pueden aprender a llamar con la aplicación Teams para permitir que otras personas se unan a la misma reunión con sus teléfonos.
+description: Los organizadores de la reunión pueden aprender a llamar con la Teams para permitir que otras personas se unan a la misma reunión con sus teléfonos.
 ms.openlocfilehash: 55cbd5ccc9e9c364bcb829d9a392f61cbdd2f7f8
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -57,7 +57,7 @@ Dial-out is only available to some countries/regions. Para obtener una lista com
 
 ## <a name="allow-users-to-dial-in"></a>Permitir que los usuarios llamen
 
-Si está buscando instrucciones sobre cómo permitir que los usuarios llamen a una reunión de Teams, consulte Números de teléfono para [audioconferencias en Microsoft Teams.](phone-numbers-for-audio-conferencing-in-teams.md)
+Si está buscando instrucciones sobre cómo permitir que los usuarios llamen a una reunión de Teams, consulte Teléfono números de [audioconferencia](phone-numbers-for-audio-conferencing-in-teams.md)en Microsoft Teams .
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>¿Desea saber más sobre las conferencias de acceso telefónico local?
 

@@ -18,19 +18,19 @@ description: Obtenga información sobre las diferentes formas de asignar paquete
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: e70d5e2bf0db6cb7dfd93e35a8207fce61fa75fd
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 820cc280e7168dee5a0e059005a1b7e6cebf5ff1
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796834"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856429"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Asignar paquetes de directiva a usuarios y grupos
 
 En este artículo se revisan las diferentes formas de asignar paquetes de directiva a usuarios y grupos en Microsoft Teams. Antes de leer, asegúrese de que ha leído Asignar directivas [en Teams: introducción.](policy-assignment-overview.md)
 
 > [!NOTE]
-> Cada usuario necesitará el complemento Comunicaciones avanzadas para recibir una asignación de paquete de directiva personalizada. Para obtener más información, vea [Complemento comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+> Cada usuario necesitará el complemento de Comunicaciones avanzadas para recibir una tarea de paquete personalizado de directiva. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="assign-a-policy-package-to-users"></a>Asignar un paquete de directiva a los usuarios
 
@@ -92,7 +92,7 @@ Para obtener instrucciones paso a paso, vea [Instalar Teams PowerShell](teams-po
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>Asignar un paquete de directiva a un grupo de usuarios
 
-Use el cmdlet [Grant-CsGroupPolicyPackageAssignment](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) para asignar un paquete de directiva a un grupo. Puede especificar un grupo con el id. de objeto, la dirección SIP o la dirección de correo electrónico. Al asignar el paquete de directiva, especifique una ( clasificación de asignaciones de[grupo)](assign-policies-users-and-groups.md#group-assignment-ranking)para cada tipo de directiva en el paquete de directiva.
+Use el cmdlet [Grant-CsGroupPolicyPackageAssignment](/powershell/module/teams/grant-csgrouppolicypackageassignment) para asignar un paquete de directiva a un grupo. Puede especificar un grupo con el id. de objeto, la dirección SIP o la dirección de correo electrónico. Al asignar el paquete de directiva, especifique una ( clasificación de asignaciones de[grupo)](assign-policies-users-and-groups.md#group-assignment-ranking)para cada tipo de directiva en el paquete de directiva.
 
 En este ejemplo, asignamos el paquete de directiva de Education_Teacher a un grupo con una clasificación de asignaciones de 1 para TeamsAppSetupPolicy y TeamsMeetingBroadcastPolicy y una clasificación de 2 para TeamsMeetingPolicy.
 
@@ -102,7 +102,7 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 
 ## <a name="assign-a-policy-package-to-a-batch-of-users"></a>Asignar un paquete de directiva a un lote de usuarios
 
-Con la asignación de paquetes de directivas por lotes, puede asignar un paquete de directiva a grandes conjuntos de usuarios a la vez sin tener que usar un script. Use el cmdlet [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) para enviar un lote de usuarios y el paquete de directiva que desea asignar. Las asignaciones se procesan como una operación de segundo plano y se genera un identificador de operación para cada lote. A continuación, puede usar el cmdlet [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation) para realizar un seguimiento del progreso y el estado de las asignaciones en un lote.
+Con la asignación de paquetes de directivas por lotes, puede asignar un paquete de directiva a grandes conjuntos de usuarios a la vez sin tener que usar un script. Use el cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para enviar un lote de usuarios y el paquete de directiva que desea asignar. Las asignaciones se procesan como una operación de segundo plano y se genera un identificador de operación para cada lote. A continuación, puede usar el cmdlet [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) para realizar un seguimiento del progreso y el estado de las asignaciones en un lote.
 
 Especifique los usuarios por su id. de objeto o dirección del Protocolo de inicio de sesión (SIP). La dirección SIP de un usuario suele tener el mismo valor que el nombre principal de usuario (UPN) o la dirección de correo electrónico, pero esto no es necesario. Si se especifica un usuario con su UPN o correo electrónico, pero tiene un valor diferente de su dirección SIP, la asignación de directivas no se realizará correctamente para el usuario. Si un lote incluye usuarios duplicados, los duplicados se quitarán del lote antes de procesar y el estado solo se proporciona para los usuarios únicos que permanecen en el lote.
 
@@ -126,7 +126,7 @@ Cuando se le solicite, inicie sesión con sus credenciales de administrador.
 
 ### <a name="assign-policy-packages-to-a-batch-of-users"></a>Asignar paquetes de directiva a un lote de usuarios
 
-En este ejemplo, usamos el cmdlet [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) para asignar el paquete de directiva Education_PrimaryStudent un lote de usuarios.
+En este ejemplo, usamos el cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para asignar el paquete de directiva Education_PrimaryStudent un lote de usuarios.
 
 ```powershell
 New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
@@ -146,7 +146,7 @@ Si el resultado muestra que se ha producido un error, ejecute lo siguiente para 
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
 ```
 
-Para obtener más información, [vea Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation).
+Para obtener más información, [vea Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation).
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -32,33 +32,33 @@ En este artículo se describen los requisitos y limitaciones para usar Microsoft
 
 Infraestructura de escritorio virtual (VDI) es una tecnología de virtualización que hospeda un sistema operativo de escritorio y aplicaciones en un servidor centralizado en un centro de datos. Esto permite una experiencia de escritorio totalmente personalizada para los usuarios con un origen centralizado totalmente protegido y compatible.
 
-Microsoft Teams en un entorno virtualizado admite chat y colaboración. Además, con las plataformas escritorio virtual de Windows, Citrix y VMware, también se admiten las llamadas y las funciones de reunión.
+Microsoft Teams en un entorno virtualizado admite chat y colaboración. Además, con las Windows escritorio virtual, Citrix y VMware, también se admite la funcionalidad de llamadas y reuniones.
 
 Teams en un entorno virtualizado admite varias configuraciones. Estos incluyen modos VDI, dedicado, compartido, persistente y no persistente. Las características están en desarrollo continuo y se agregan de forma periódica, y la funcionalidad se expandirá en los próximos meses y años.
 
-El uso de Teams en un entorno virtualizado puede ser algo diferente del uso de Teams en un entorno no virtualizado. Por ejemplo, es posible que algunas características avanzadas no estén disponibles en un entorno virtualizado y que la resolución de vídeo sea diferente.
+Usar Teams en un entorno virtualizado puede ser algo diferente del uso de Teams en un entorno no virtualizado. Por ejemplo, es posible que algunas características avanzadas no estén disponibles en un entorno virtualizado y que la resolución de vídeo sea diferente.
 
 Para garantizar una experiencia de usuario óptima, siga las instrucciones de este artículo.
 
 > [!Note]
-> Para obtener más información sobre Teams VDI en distintas plataformas, vea [Características de Teams por plataforma.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+> Para obtener más información sobre Teams VDI en diferentes plataformas, [vea Teams características por plataforma.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
 
-## <a name="teams-on-vdi-components"></a>Teams en componentes VDI
+## <a name="teams-on-vdi-components"></a>Teams componentes de VDI
 
-El uso de Teams en un entorno virtualizado requiere los siguientes componentes.
+El Teams en un entorno virtualizado requiere los siguientes componentes.
 
 - **Agente de virtualización:** el administrador de recursos y conexiones del proveedor de virtualización, como Azure
-- **Escritorio virtual:** la pila de máquina virtual (VM) que ejecuta Microsoft Teams
+- **Escritorio virtual:** la pila de máquina virtual (VM) que se ejecuta Microsoft Teams
 - **Cliente ligero:** el punto de conexión con el que el usuario se interfaz físicamente
-- **Aplicación de escritorio de Teams:** la aplicación cliente de escritorio de Teams
+- **Teams de escritorio:** la Teams cliente de escritorio
 
-## <a name="teams-on-vdi-requirements"></a>Requisitos de Teams en VDI
+## <a name="teams-on-vdi-requirements"></a>Teams requisitos de VDI
 
 ### <a name="virtualization-provider-requirements"></a>Requisitos del proveedor de virtualización
 
-La aplicación de escritorio de Teams se validó con los proveedores de soluciones de virtualización líderes. Con varios proveedores de mercado, le recomendamos que consulte a su proveedor de soluciones de virtualización para asegurarse de que cumple los requisitos mínimos.
+La Teams de escritorio se validó con los principales proveedores de soluciones de virtualización. Con varios proveedores de mercado, le recomendamos que consulte a su proveedor de soluciones de virtualización para asegurarse de que cumple los requisitos mínimos.
   
-Actualmente, Teams en VDI con optimización de audio/vídeo (AV) está certificado con Escritorio virtual de Windows, Citrix y VMware. Revise la información de esta sección para asegurarse de que cumple todos los requisitos para la funcionalidad adecuada.
+Actualmente, Teams en VDI con optimización de audio/vídeo (AV) está certificado con Windows escritorio virtual, Citrix y VMware. Revise la información de esta sección para asegurarse de que cumple todos los requisitos para la funcionalidad adecuada.
 
 ### <a name="platforms-certified-for-teams"></a>Plataformas certificadas para Teams
 
@@ -66,17 +66,17 @@ Las siguientes plataformas tienen soluciones de infraestructura de escritorio vi
 
 |Plataforma|Solución|
 |----|---|
-|![El logotipo que representa a Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Escritorio virtual de Windows</a> |
+|![El logotipo que representa a Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Escritorio virtual</a> |
 |![El logotipo que representa Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Aplicaciones virtuales y equipos de escritorio de Citrix</a> |
 |![El logotipo que representa VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
-### <a name="windows-virtual-desktop"></a>Escritorio virtual de Windows
+### <a name="windows-virtual-desktop"></a>Windows Escritorio virtual
 
-Escritorio virtual de Windows proporciona optimización av para Teams en VDI. Para obtener más información sobre los requisitos y la instalación, vea [Usar Teams en escritorio virtual de Windows.](/azure/virtual-desktop/teams-on-wvd)
+Windows Escritorio virtual proporciona optimización AV para Teams en VDI. Para obtener más información sobre los requisitos y la instalación, [vea Usar Teams en Windows escritorio virtual.](/azure/virtual-desktop/teams-on-wvd)
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Requisitos de Citrix Virtual Apps y Escritorios
 
-Citrix Virtual Apps and Desktops (anteriormente conocido como XenApp y XenDesktop) proporciona optimización av para Teams en VDI. Con Citrix Virtual Apps y Equipos de escritorio, Teams en VDI admite la funcionalidad de llamadas y reuniones, además de chat y colaboración.
+Citrix Virtual Apps and Desktops (anteriormente conocido como XenApp y XenDesktop) proporciona optimización av para Teams en VDI. Con Citrix Virtual Apps y Desktops, Teams en VDI admite la funcionalidad de llamadas y reuniones, además de chat y colaboración.
 
 Puede descargar la versión más reciente de Citrix Virtual Apps and Desktops en [el sitio de descargas de Citrix.](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/) (Primero tendrá que iniciar sesión). Los componentes necesarios se agrupan en la aplicación [Citrix Workspace (CWA)](https://www.citrix.com/downloads/workspace-app/) y el Agente de entrega virtual (VDA) de forma predeterminada. No es necesario instalar componentes o complementos adicionales en CWA o en el VDA.
 
@@ -90,21 +90,21 @@ Puede descargar la versión más reciente de VMware Horizon desde la [página De
 
 Para obtener los requisitos e instrucciones más recientes sobre cómo configurar la optimización de medios para Teams, vea [este sitio web de VMware.](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)
 
-## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Instalar o actualizar la aplicación de escritorio de Teams en VDI
+## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Instalar o actualizar la Teams de escritorio en VDI
 
-Puede implementar la aplicación de escritorio de Teams para VDI con una instalación por equipo o una instalación por usuario con el paquete MSI. Decidir qué enfoque usar depende de si usa una configuración persistente o no persistente y las necesidades de funcionalidad asociadas de su organización.
+Puede implementar la aplicación Teams escritorio para VDI con una instalación por equipo o una instalación por usuario con el paquete MSI. Decidir qué enfoque usar depende de si usa una configuración persistente o no persistente y las necesidades de funcionalidad asociadas de su organización.
 
-Para una configuración persistente dedicada, cualquiera de los dos métodos funcionaría. Sin embargo, para una configuración no persistente, Teams requiere una instalación por equipo para funcionar de forma eficiente. Vea la [sección Configuración no persistente.](#non-persistent-setup)
+Para una configuración persistente dedicada, cualquiera de los dos métodos funcionaría. Sin embargo, para una configuración no persistente, Teams requiere una instalación por equipo para poder funcionar de forma eficiente. Vea la [sección Configuración no persistente.](#non-persistent-setup)
 
-Con la instalación por equipo, las actualizaciones automáticas están deshabilitadas. Esto significa que para actualizar la aplicación Teams, debe desinstalar la versión actual para actualizar a una versión más reciente. Con la instalación por usuario, las actualizaciones automáticas están habilitadas. Para la mayoría de las implementaciones de VDI, le recomendamos que implemente Teams con la instalación por equipo.
+Con la instalación por equipo, las actualizaciones automáticas están deshabilitadas. Esto significa que para actualizar la aplicación Teams, debe desinstalar la versión actual para actualizar a una versión más reciente. Con la instalación por usuario, las actualizaciones automáticas están habilitadas. Para la mayoría de las implementaciones de VDI, le recomendamos que implemente Teams mediante la instalación por equipo.
 
-Para actualizar a la versión más reciente de Teams, empiece con el procedimiento de desinstalación seguido de la implementación de la versión más reciente de Teams.
+Para actualizar a la versión Teams, empiece con el procedimiento de desinstalación seguido de la implementación Teams versión.
 
-Para que la optimización av de Teams en entornos VDI funcione correctamente, el punto de conexión de cliente ligero debe tener acceso a Internet. Si el acceso a Internet no está disponible en el punto de conexión de cliente ligero, el inicio de optimización no se realiza correctamente. Esto significa que el usuario se encuentra en un estado multimedia no optimizado.
+Para Teams av en entornos VDI funcione correctamente, el punto de conexión de cliente ligero debe tener acceso a Internet. Si el acceso a Internet no está disponible en el punto de conexión de cliente ligero, el inicio de optimización no se realiza correctamente. Esto significa que el usuario se encuentra en un estado multimedia no optimizado.
 
 #### <a name="dedicated-persistent-setup"></a>Configuración persistente dedicada
 
-En una configuración persistente dedicada, los cambios del sistema operativo local de los usuarios se conservan después de que los usuarios cierren sesión. Para la configuración persistente, Teams admite la instalación por usuario y por equipo.
+En una configuración persistente dedicada, los cambios del sistema operativo local de los usuarios se conservan después de que los usuarios cierren sesión. Para la configuración persistente, Teams es compatible con la instalación por usuario y por equipo.
 
 A continuación se muestra la configuración mínima de vm recomendada.
 
@@ -118,14 +118,14 @@ A continuación se muestra la configuración mínima de vm recomendada.
 
 En una configuración no persistente, los cambios del sistema operativo local de los usuarios no se conservan después de que los usuarios cierren sesión. Estas configuraciones son sesiones compartidas de varios usuarios. La configuración de la máquina virtual varía según el número de usuarios y los recursos de cuadro físico disponibles.
 
-Para una configuración no persistente, la aplicación de escritorio de Teams debe instalarse por equipo en la imagen dorada. (Para obtener más información, vea la sección Instalar o actualizar la aplicación [de escritorio de Teams en VDI).](#install-or-update-the-teams-desktop-app-on-vdi) Esto garantiza un inicio eficaz de la aplicación Teams durante una sesión de usuario.
+Para una configuración no persistente, la Teams de escritorio debe instalarse por equipo en la imagen dorada. (Para obtener más información, vea la sección Instalar o actualizar Teams [aplicación de escritorio en VDI).](#install-or-update-the-teams-desktop-app-on-vdi) Esto garantiza un inicio eficaz de la aplicación Teams durante una sesión de usuario.
 
-El uso de Teams en una configuración no persistente también requiere un administrador de almacenamiento en caché de perfiles, para una sincronización eficiente de datos en tiempo de ejecución de Teams. La sincronización eficiente de datos garantiza que la información específica del usuario adecuada (como los datos, el perfil o la configuración de un usuario) se almacena en caché durante la sesión del usuario. Asegúrese de que los datos de estas dos carpetas están sincronizados:<br>
+Usar Teams en una configuración no persistente también requiere un administrador de almacenamiento en caché de perfiles, para una sincronización de datos eficaz Teams tiempo de ejecución. La sincronización eficiente de datos garantiza que la información específica del usuario adecuada (como los datos, el perfil o la configuración de un usuario) se almacena en caché durante la sesión del usuario. Asegúrese de que los datos de estas dos carpetas están sincronizados:<br>
 - C:\Usuarios\nombreusuario\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
 - C:\Usuarios\nombreusuario\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
 > [!NOTE]
-> Se requiere una carpeta itinerante (o, si usa el redireccionamiento de carpetas, un administrador de almacenamiento en caché) para asegurarse de que la aplicación teams tiene los datos y archivos en tiempo de ejecución necesarios para ejecutar la aplicación. Esto es necesario para mitigar problemas de latencia de red o problemas de red, lo que de lo contrario causaría errores de aplicación y una experiencia lenta debido a datos y archivos no disponibles.
+> Se requiere una carpeta itinerante (o, si usa el redireccionamiento de carpetas, un administrador de almacenamiento en caché) para asegurarse de que la aplicación Teams tiene los datos y archivos en tiempo de ejecución necesarios para ejecutar la aplicación. Esto es necesario para mitigar problemas de latencia de red o problemas de red, lo que de lo contrario causaría errores de aplicación y una experiencia lenta debido a datos y archivos no disponibles.
 
 Hay una variedad de soluciones de administrador de almacenamiento en caché disponibles. Por ejemplo, [FSLogix](/fslogix/overview). Consulte a su proveedor de administrador de almacenamiento en caché para obtener instrucciones de configuración específicas.
 

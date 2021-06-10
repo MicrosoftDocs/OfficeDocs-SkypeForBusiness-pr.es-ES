@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: Ejemplos de cómo usar PowerShell para establecer directivas en Teams para controlar quién puede contener eventos en directo en su organización y las características disponibles en los eventos.
+description: Ejemplos de cómo usar PowerShell para establecer directivas en Teams controlar quién puede celebrar eventos en directo en su organización y las características disponibles en los eventos.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -37,7 +37,7 @@ Puede usar los siguientes cmdlets Windows PowerShell para establecer y asignar l
 Estos son algunos ejemplos.
 
 > [!NOTE]
-> Antes de poder ejecutar estos cmdlets, debe estar conectado a PowerShell de Skype Empresarial Online. Para obtener más información, vea [Administrar Skype Empresarial Online con Microsoft 365 u Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Antes de poder ejecutar estos cmdlets, debe estar conectado a Skype Empresarial PowerShell en línea. Para obtener más información, vea [Administrar Skype Empresarial Online con Microsoft 365 o Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="allow-users-to-schedule-live-events"></a>Permitir a los usuarios programar eventos en directo 
 

@@ -19,19 +19,19 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020875ca5e0938fce322654be0e4a7b3e032ebf6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4083c0cf50062e69554218dd090a14812b29a6c0
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118489"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856389"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 
 > [!NOTE]
-> Para ver información general sobre cómo realizar la transición al aprendizaje remoto y recursos para ayudarle a empezar, consulte la [página principal del aprendizaje remoto](https://www.microsoft.com/education/remote-learning).
+> Para ver información general sobre cómo realizar la transición al aprendizaje remoto y recursos para ayudarle a empezar, consulte la [página principal del aprendizaje remoto](/education/remote-learning).
 
-Si desea poner en marcha Teams a partir de chat, equipos & canales y reuniones, use nuestra guía prescriptiva [Introducción,](get-started-with-teams-quick-start.md)que está diseñada para poner en marcha rápidamente. Si es una organización grande con una configuración híbrida o local de Skype Empresarial, o si desea realizar características de voz (como planes de llamadas de Microsoft 365 u Office 365 o un sistema telefónico), puede empezar con nuestras instrucciones de introducción, pero necesitará las instrucciones adicionales a continuación, en Guía de adopción más [profunda.](#deeper-adoption-guidance)
+Si desea realizar la implementación de Teams a partir del chat, los canales de & de teams y las reuniones, use nuestra guía prescriptiva [Introducción,](get-started-with-teams-quick-start.md)que está diseñada para que se inicie y ejecute rápidamente. Si es una organización grande con una configuración de Skype Empresarial híbrida o local, o si desea agregar características de voz (como planes de llamadas de Microsoft 365 o Office 365 o un sistema telefónico), puede empezar con nuestras instrucciones de introducción, pero necesitará las instrucciones adicionales a continuación, en Guía de adopción más [profunda.](#deeper-adoption-guidance)
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
@@ -40,7 +40,7 @@ Si desea poner en marcha Teams a partir de chat, equipos & canales y reuniones, 
 
 ### <a name="deeper-adoption-guidance"></a>[Instrucciones de adopción más profundas](#deeper-adoption-guidance)
 
-Los planes de adopción pueden ser fáciles de complejos, dependiendo de su entorno. Para implementaciones a gran escala, pase por las instrucciones siguientes para asegurarse de que su organización tiene una transición fluida a Teams.
+Los planes de adopción pueden ser fáciles de complejos, dependiendo de su entorno. Para implementaciones a gran escala, pase por las instrucciones siguientes para asegurarse de que su organización tiene una transición suave a Teams.
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Las siguientes son algunas de las principales preguntas que tenemos de nuestros clientes que quieren usar audioconferencias.
-ms.openlocfilehash: 48450dad380294503fdffc9210e225777ad60bb3
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282756"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856419"
 ---
 # <a name="audio-conferencing-common-questions"></a>Preguntas frecuentes sobre Audioconferencia
 
@@ -129,12 +129,21 @@ Estamos trabajando en una solución que permitirá al usuario acceder y restable
   
 ## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>¿Qué comandos del teclado de marcado son compatibles en una reunión?
 
-- *6 (desactivar o reactivar el audio propio)
-    
-- *1 (Reproduce las descripciones de los comandos de teclado de marcado que están disponibles) 
+Para participantes y organizadores de la reunión:
 
-- *2, *21, *22 (notificaciones de entrada y sala de espera)
-    
+| Nombre del comando | Teclas de comando | Descripción                                                     |
+|--------------|--------------|-----------------------------------------------------------------|
+| Menú comando | \*1          | Presione 1 para reproducir las descripciones de los comandos de teclado de \* marcado que están disponibles. |
+| Silenciar o activar la función  | \*6          | Presione \* 6 para silenciar o activar el audio.                         |
+
+Solo para organizadores de reuniones:
+
+| Nombre del comando                   | Teclas de comando | Descripción                                                 |
+|--------------------------------|--------------|-------------------------------------------------------------|
+| Admitir todo                      | \*21         | Presione \* 21 para admitir a todos los participantes que esperan en la sala de espera.  |
+| Silenciar todo                       | \*22         | Presione \* 21 para silenciar a todos los participantes (excepto el organizador). |
+| Activar o desactivar el anuncio de entrada y salida | \*23         | Presione \* 23 para habilitar o deshabilitar el anuncio de entrada y salida.    |
+
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>¿Pueden los asistentes llamar a números de teléfono internacionales cuando están en una reunión Skype Empresarial o Microsoft Teams reunión?
 
 Sí, los asistentes pueden llamar internacionalmente e invitar a otros autores de llamadas a una Skype Empresarial o Microsoft Teams reunión. Consulte [Llamar desde una](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) reunión Microsoft Teams para que otras personas puedan unirse a ella o Llamar desde una reunión de Skype Empresarial Online para que otras personas puedan [unirse a ella.](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)
@@ -150,7 +159,7 @@ Programar una reunión a la que se unirán todos los asistentes que usan un tel�
 - **Opción #1:** De forma predeterminada, si el organizador de la reunión y todos los participantes se unen a una reunión con un teléfono, el organizador de la reunión debe introducir su PIN de audioconferencia para iniciarla. A los autores de llamadas se les pregunta si quieren autenticarse como organizadores de una reunión determinada cuando marcan el número de teléfono de una reunión en línea. Todos los participantes que se unan a la reunión a través del acceso telefónico antes de que comience el organizador se colocarán en la sala de espera y escucharán música en espera. Para Skype Empresarial reuniones, una vez que el organizador la inicie al introducir su PIN de audioconferencia, todos los participantes de la sala de espera se unirán automáticamente a la reunión. Para Microsoft Teams reuniones, los participantes se unirán a la reunión según el valor de la configuración admitir automáticamente a personas en la directiva de reunión del organizador.
 
 - **Opción #2:** la configuración "Permitir que los autores de llamadas no autenticados sean las primeras personas de una reunión" está deshabilitada de forma predeterminada. Si la configuración está habilitada para un organizador determinado, todas las reuniones programadas por ese organizador se pueden iniciar antes de que el organizador introduzca el PIN de audioconferencia. Cuando esta configuración está habilitada, la reunión se iniciará tan pronto como el primer participante se una a ella a través de un número de teléfono de acceso telefónico y el primer participante no se colocará en la sala de espera. Para obtener más información, vea Administrar la configuración de conferencias de audio para un usuario en [Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) o Administrar la configuración de conferencias de audio para un usuario en [Skype Empresarial en línea.](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
-   
+  
 ## <a name="related-topics"></a>Temas relacionados
 
 [Configurar Skype Empresarial Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)

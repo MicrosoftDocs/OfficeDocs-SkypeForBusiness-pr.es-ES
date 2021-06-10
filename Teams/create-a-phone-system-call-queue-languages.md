@@ -1,5 +1,5 @@
 ---
-title: Idiomas admitidos en la cola de llamadas de Microsoft Teams
+title: Microsoft Teams idiomas admitidos en la cola de llamadas
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Idiomas admitidos en la cola de llamadas de Microsoft Teams
+description: Microsoft Teams idiomas admitidos en la cola de llamadas
 ms.openlocfilehash: 0d5e587c8a90c11a2b6b3234a98510101e2cb94c
 ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
@@ -29,19 +29,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 02/12/2021
 ms.locfileid: "50197108"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Idiomas admitidos en la cola de llamadas de Microsoft Teams
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams idiomas admitidos en la cola de llamadas
 
-La cola de llamadas admite los siguientes idiomas para texto a voz (TTS):
+La cola de llamadas admite los siguientes idiomas para Texto a voz (TTS):
 
 |Idioma                                |
 |:---------------------------------------|
 |Árabe (Egipto)                          |
-|Catalán                       |
+|Catalán (catalán)                       |
 |Chino (simplificado, PRC)               |
 |Chino (tradicional, Hong Kong)        |
 |Chino (tradicional, Taiwán)           |
 |Croata (Croacia)                      |
-|Checo (República de Czeck)                  |
+|Checo (República Checa)                  |
 |Danés (Dinamarca)                        |
 |Neerlandés (Países Bajos)                     |
 |Inglés (Australia)                     |
@@ -75,4 +75,4 @@ La cola de llamadas admite los siguientes idiomas para texto a voz (TTS):
 |Vietnamita (Vietnam)                    |
 
 > [!NOTE]
-> Al usar Texto a voz, el texto debe especificarse en el idioma seleccionado ya que el sistema no realiza la traducción.
+> Al usar Texto a voz, el texto debe introducirse en el idioma seleccionado, ya que el sistema no realiza la traducción.

@@ -92,20 +92,20 @@ La présente attestation de conformé à la norme [EN 301 549 v2.1.2](http://www
 
 ## <a name="section-7-tic-avec-fonctions-vido"></a>Sección 7 TIC avec fonctions vidéo
 
-Sección Cette ne s'applique pas à Microsoft Teams.
+Cette section ne s'applique pas à Microsoft Teams.
 
 
 ## <a name="section-8-matriel-informatique"></a>Sección 8 Información de Matériel
 
-Sección Cette ne s'applique pas à Microsoft Teams.
+Cette section ne s'applique pas à Microsoft Teams.
 
 ## <a name="section-9-web"></a>Sección 9 Web
 
-Sección Cette ne s'applique pas à Microsoft Teams.
+Cette section ne s'applique pas à Microsoft Teams.
 
 ## <a name="section-10-documents-non-bass-dans-le-web"></a>Sección 10 Documentos non basés dans le Web 
 
-Sección Cette ne s'applique pas à Microsoft Teams.
+Cette section ne s'applique pas à Microsoft Teams.
 
 ## <a name="section-11-logiciel"></a>Sección 11 Logiciel
 
@@ -152,7 +152,7 @@ Sección Cette ne s'applique pas à Microsoft Teams.
 |**11.3.3.3 Etiquettes ou instrucciones**<br/>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès WCAG 2.1 indiqués dans le Tableau 3.2.2 Étiquettes ou instructions.<br/>|Pris en charge<br/>| |
 |**11.3.3.3 Sugerencia après une erreur**<br/>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès WCAG 2.1 indiqués dans le Tableau 3.3.3 Suggestion après une erreur.<br/>|Pris en charge<br/>| |
 |**11.3.3.4 Prévention des erreurs (juridiques, financières, de données)**<br/>Pour les logiciels qui entraînent des obligations légales ou des transactions financières de la part de l'utilisateur, qui modifient ou effacent des données contrôlables par l'utilisateur dans des systèmes de stockages de données ou qui enregistrent les réponses de l'utilisateur à des tests, au moins l'une des conditions suivantes est vraie:<br/><ol><li>Réversibilité: les soumissions sont réversibles.</li><li>Vérification: les données saisies par l'utilisateur sont vérifiées au niveau des erreurs de saisie et la possibilité est donnée à l'utilisateur de les corriger.</li><li>Confirmación: un mécanisme est disponible pour examiner, confirmer et corriger les informations avant de finaliser leur soumission.</li></ol>|No aplicable<br/>| |
-|**11.4.1.1.1 Analizar sintaxisique**<br/>Pour un logiciel qui utilise des suivis de modification de langue de telle manière que le suivi est indiqué séparément et à la disposition des technologies d'assistance et caractéristiques d'accessibilité du logiciel ou d'un agent utilisateur sélectionnable par un utilisateur, les éléments ont des suivis de modification de début et de fin complètes, ils sont imbriqués conformément à leurs spécifications, ils ne contiennent pas d'attributs dupliqués et chaque ID est unique , sauf dans le cas où les spécifications autorisent ces caractéristiques.<br/>|Pris en charge<br/>| |    
+|**11.4.1.1.1 Analizar sintaxisique**<br/>Pour un logiciel qui utilise des suivis de modification de langue de telle manière que le suivi est indiqué séparément et à la disposition des technologies d'assistance et caractéristiques d'accessibilité du logiciel ou d'un agent utilisateur sélectionnable par un utilisateur, les éléments ont des suivis de modification de début et de fin complètes, ils sont imbriqués conformément à leurs spécifications , ils ne contiennent pas d'attributs dupliqués et chaque ID est unique, sauf dans le cas où les spécifications autorisent ces caractéristiques.<br/>|Pris en charge<br/>| |    
 |**11.4.1.2.1 Nom, rôle et valeur** <br/>Pour tout composant d'une interface utilisateur (et notamment des éléments de formulaire, liens et composants générés par des scripts), le nom et le rôle peuvent être déterminés par un program informatique; les états, les propriétés et les valeurs qui peuvent être paramétrés par l'utilisateur peuvent être définis par un program informatique; et la notification des changements de ces éléments est mise à la disposition des agents utilisateurs, et notamment des technologies d'assistance.<br/>|Pris en charge avec des exceptions<br/>|La sélection « état de la réunion » depuis la liste de réunion n'est pas apparente du point de vue de la programmation. Il convient d'utiliser le bon contenu de l'application ou le bon titre de la fenêtre pour vérifier.<br/><ul><li>Certaines des informations complémentaires résultant de l'action de l'utilisateur lors d'une réunion ne sont pas automatiquement lues par les lecteurs.</li><li>La possibilité d'ajouter du texte alt. à une image n'est pas supportée</li><li>Le contenu d'iFrame/webview n'est pas accessible avec les lecteurs d'écran. Utilisez plutôt Teams web.</li></ul>|
 |**11.5.2.2.1 Prise en charge du service d'accessibilité de la plate-forme pour les logiciels qui fournissent une interface utilisateur**<br/>Les logiciels de plate-forme fournissent un ensemble de services de plate-forme documentés qui permettent aux logiciels qui fournissent une interface utilisateur fonctionnant sur le logiciel de plate-forme d'interagir avec la technologie d'assistance.<br/><br/>Le logiciel de la plate-forme devrait prendre en charge les exigences 11.5.2.5 à 11.5.2.2.17, sauf que, lorsqu'un concept d'interface utilisateur correspondant à l'une des clauses 11.5.2.5 à 11.5.2.17 n'est pas pris en charge par l'environnement logiciel, ces exigences ne sont pas applicables. Par exemple, les attributs de sélection de 11.5.2.14 (Modification des attributs de focalisation et de sélection) peuvent ne pas exister dans les environnements qui ne permettent pas la sélection, qui est le plus souvent associée au copier-coller.<br/>|No aplicable<br/>| |    
 |**11.5.2.2 Prise en charge des services d'accessibilité de la plate-forme les technologies d'assistance**<br/>Le logiciel de la plate-forme fournit un ensemble de services d'accessibilité de plate-forme documentés qui permettent aux technologies d'assistance d'interagir avec un logiciel doté d'une interface utilisateur fonctionnant sur le logiciel de la plate-forme.<br/><br/>Le logiciel de la plate-forme doit être compatible avec les exigences des clauses 11.5.2.5 à 11.5.2.17 étant toutefois entendu que, dans le cas où le concept d'une interface utilisateur qui correspond à l'une des clauses 11.5.2.5 à 11.5.2.17 n'est pas compatible avec l'environnement logiciel, ces exigences ne s'appliquent pas. Par exemple, les attributs de sélection du 11.5.2.14 (Modification du focus et attributs de sélection) peuvent ne pas exister dans les environnements qui ne permettent pas la sélection, ce qui est le souvent le cas de la fonction copier-coller.<br/>|No aplicable<br/>| |
@@ -179,7 +179,7 @@ Sección Cette ne s'applique pas à Microsoft Teams.
 |**11.8.4 Asistencia à la réparation**<br/>Si la fonctionnalité de contrôle de l'accessibilité d'un système auteur peut détecter que le contenu ne remplit pas une exigence des clauses 9 (Web) ou 10 (Documents non-web) selon le cas, alors le système auteur présente une ou plusieurs suggestions de réparation.<br/>No aplicable<br/>| |
 |**1186.5 Modèles**<br/>Quand un système auteur propose des modèles, au moins un modèle prenant en charge la création de contenu conforme aux exigences des clauses 9 (Web) ou 10 (Documents non-web), selon le cas, est disponible et identifié comme tel.<br/>|No aplicable<br/>| |
 
-**Sección 11 Logiciels - Fonctionnalité fermée** Sección Cette ne s'applique pas à Microsoft Teams.
+**Sección 11 Logiciels - Fonctionnalité fermée** Cette section ne s'applique pas à Microsoft Teams.
 
 ## <a name="section-12-documentation-et-services-dassistance"></a>Sección 12 Documentación y servicios de asistencia
 
@@ -188,12 +188,12 @@ Sección Cette ne s'applique pas à Microsoft Teams.
 |**12.1.1 Caractéristiques d'accessibilité et de compatibilité**<br/>La documentation produit fournie avec la TIC, qu'elle soit fournie séparément ou intégrée dans la TIC, dresse la liste des caractéristiques d'accessibilité et de compatibilité de la TIC et explique comment les utiliser.<br/>|Pris en charge<br/> | |
 |**12.1.2 Documentación accesible**<br/>La documentation produit fournie avec la TIC est mise à disposition dans au moins un des formats électroniques suivants :<br/>a) un format web qui est conforme à la clause 9, ou<br/>b) un format non-web qui est conforme à la clause 10.<br/>|Pris en charge<br/> | |
 |**12.2.2 Información sur les caractéristiques d'accessibilité et de compatibilité**<br/>Les services d'assistance de la TIC communiquent des informations sur les caractéristiques d'accessibilité et de compatibilité qui sont mentionnées dans la documentation produit.<br/>|Pris en charge<br/> | |
-|**12.2.3 Eficacia de la comunicación**<br/>Les services d'assistance de la TIC répondent aux besoins en communication des personnes porteuses de handicap directement ou depuis un point de référence.<br/>|Pris en charge<br/> |[Answer Desk para personas con discapacidad](https://support.microsoft.com/answerdesk/accessibility) |
+|**12.2.3 Eficacia de la comunicación**<br/>Les services d'assistance de la TIC répondent aux besoins en communication des personnes porteuses de handicap directement ou depuis un point de référence.<br/>|Pris en charge<br/> |[Discapacidad Answer Desk](https://support.microsoft.com/answerdesk/accessibility) |
 |**12.2.4 Documentación accesible**<br/>La documentation fournie par les services d'assistance est mise à disposition dans au moins un des formats électroniques suivants :<br/>a) un formato Web qui est conforme à la clause 9, ou <br/>b) un format non-web qui est conforme à la clause 10.<br/>|Pris en charge<br/> | |
 
 ## <a name="section-13-tic-assurant-le-relais-ou-laccs--des-services-durgence"></a>Sección 13 TIC assurant le relais ou l'accès à des services d'urgence
 
-Sección Cette ne s'applique pas à Microsoft Teams.
+Cette section ne s'applique pas à Microsoft Teams.
 
 
 &copy; 2019 Microsoft Corporation. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication. Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.

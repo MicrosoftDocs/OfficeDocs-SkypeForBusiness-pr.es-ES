@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d323760d4187730b0ae83d45021df44230a982cd
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: dd1d519f8be0c82a202417b6271878b9e70e3ae3
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52306054"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856399"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Actualizar de Skype Empresarial local a Teams
 
@@ -70,9 +70,7 @@ Según sus requisitos, puede asignar el modo de coexistencia adecuado en funció
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>Paso 3: Mover usuarios de Skype Empresarial local a Teams solo
 
-En última instancia, querrá mover los usuarios al modo TeamsOnly. Esto puede implicar uno o dos pasos dependiendo de su entorno local.  
-
-Para obtener más información, vea [Mover usuarios](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) entre locales y la nube y Mover usuarios de local a [Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
+Microsoft ha simplificado recientemente el proceso para mover usuarios a TeamsOnly y ahora es un solo paso, independientemente de la versión de Skype Empresarial Server o Lync Server 2013 que esté usando.  Para obtener más información, vea [Mover usuarios](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) entre locales y la nube y Mover usuarios de local a [Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
 
 ## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>Paso 4: Deshabilitar la implementación híbrida para completar la migración a la nube
 
@@ -101,7 +99,7 @@ Al considerar las opciones de conectividad de red telefónica conmutada (RTC), h
 
 - Configurar Skype Empresarial híbrido es un requisito previo para migrar al modo TeamsOnly. Aunque es posible que los usuarios de Skype Empresarial Server locales usen Teams en modo islas sin híbrido, la transición al modo TeamsOnly no se puede realizar sin mover el usuario a la nube con [Move-CsUser,](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)para el que se requiere conectividad híbrida. Para obtener más información, vea [Configurar la conectividad híbrida.](/skypeforbusiness/hybrid/configure-hybrid-connectivity) Además, la próxima retirada de Skype Empresarial Online no cambiará este requisito. Para que las organizaciones se muevan de Skype Empresarial Server a Teams, deben configurar y configurar la implementación híbrida con el mismo conjunto de herramientas, exactamente igual que antes de *la retirada.*
 
-- Para mover un usuario local a la nube, use las herramientas de administración `Move-CsUser` locales. Actualmente, si no se especifica este modificador, los usuarios cambian de estar en casa en Skype Empresarial Server local a Skype Empresarial Online, su modo permanece sin cambios y las reuniones que organizaron en Skype Empresarial Server se migran a Skype Empresarial Online. Debido a la próxima retirada de Skype Empresarial Online, pronto ya no será necesario especificar el cambio para mover usuarios directamente desde el entorno local a `-MoveToTeams` `Move-CsUser` TeamsOnly.  Después de la retirada, al mover un usuario de local a la nube con , los usuarios se asignarán automáticamente al modo TeamsOnly y sus reuniones desde locales se convertirán automáticamente en reuniones de Teams, igual que si el , independientemente de si el modificador se especifica `Move-CsUser` `-MoveToTeams switch had been specified` realmente. Esperamos publicar esta funcionalidad antes de la retirada real del 31 de julio de 2021.
+- Para mover un usuario local a la nube, use las herramientas de administración `Move-CsUser` locales. Ya no es necesario especificar el cambio para mover usuarios directamente desde local `-MoveToTeams` a TeamsOnly. Al mover un usuario de local a la nube con , ahora los usuarios se asignan automáticamente al modo TeamsOnly y sus reuniones desde locales se convierten automáticamente en reuniones de Teams, igual que si el modificador se especifica `Move-CsUser` `-MoveToTeams switch had been specified` realmente.
 
 - Si su organización tiene Skype Empresarial Server y no ha configurado la conectividad híbrida, pero todavía desea usar Teams, para administrar una funcionalidad Teams debe usar una cuenta administrativa que tenga un dominio .onmicrosoft.com. Sin conectividad híbrida, las herramientas administrativas no reconocerán los dominios locales. 
 

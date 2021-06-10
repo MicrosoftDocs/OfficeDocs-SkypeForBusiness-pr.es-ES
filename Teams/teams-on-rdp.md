@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Obtenga información sobre cómo usar Microsoft Teams con servicios de escritorio remoto.
+description: Obtenga información sobre cómo usar Microsoft Teams con los servicios de escritorio remoto.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -32,28 +32,28 @@ En este artículo se describen los requisitos y limitaciones para usar Microsoft
 
 Servicios de escritorio remoto (RDS) es la plataforma de elección para crear soluciones de virtualización para cada necesidad del cliente final. RDS le permite ofrecer aplicaciones virtualizadas individuales, proporcionar acceso de escritorio remoto y móvil seguro y proporcionar a los usuarios finales la capacidad de ejecutar sus aplicaciones y escritorios desde la nube.
 
-RDS ofrece flexibilidad de implementación, eficiencia de costos y extensibilidad. RDS se entrega a través de una variedad de opciones de implementación, como Windows Server 2016 para implementaciones locales, Microsoft Azure para implementaciones en la nube y una sólida matriz de soluciones de partners.
+RDS ofrece flexibilidad de implementación, eficiencia de costos y extensibilidad. RDS se entrega a través de una variedad de opciones de implementación, incluidas Windows Server 2016 para implementaciones locales, Microsoft Azure para implementaciones en la nube y una sólida matriz de soluciones de partners.
 Según su entorno y preferencias, puede configurar la solución RDS para la virtualización basada en sesión, como una infraestructura de escritorio virtual (VDI)
 
 Actualmente, Teams en un entorno de servicios de escritorio remoto está disponible con soporte para la colaboración y la funcionalidad de chat. Para garantizar una experiencia de usuario óptima, siga las instrucciones de este artículo.
 
-## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams en RDS con chat y colaboración
+## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams rds con chat y colaboración
 
-Si su organización solo quiere usar las características de chat y colaboración en Teams, puede establecer directivas de nivel de usuario para desactivar la funcionalidad de llamadas y reuniones en Teams.
+Si su organización solo desea usar las características de chat y colaboración en Teams, puede establecer directivas de nivel de usuario para desactivar la funcionalidad de llamadas y reuniones en Teams.
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>Establecer directivas para desactivar la funcionalidad de llamadas y reuniones
 
-Puede establecer directivas mediante el Centro de administración de Microsoft Teams o PowerShell. Los cambios de directiva pueden tardar algún tiempo (unas horas) en propagarse. Si no ve cambios para una cuenta determinada inmediatamente, inténtelo de nuevo en unas horas.
+Puede establecer directivas mediante el centro Microsoft Teams de administración o PowerShell. Los cambios de directiva pueden tardar algún tiempo (unas horas) en propagarse. Si no ve cambios para una cuenta determinada inmediatamente, inténtelo de nuevo en unas horas.
 
 [**Directivas de llamadas:**](teams-calling-policy.md)Teams incluye la directiva de llamadas Desautorizado integrada, en la que todas las características de llamadas están desactivadas. Asigne la directiva DisallowCalling a todos los usuarios de su organización que usen Teams en un entorno virtualizado.
 
-[**Directivas de reunión:**](meeting-policies-in-teams.md)Teams incluye la directiva de reunión de AllOff integrada, en la que todas las características de la reunión están desactivadas. Asigne la directiva AllOff a todos los usuarios de su organización que usen Teams en un entorno virtualizado.
+[**Directivas de**](meeting-policies-in-teams.md)reunión: Teams incluye la directiva de reunión de AllOff integrada, en la que todas las características de la reunión están desactivadas. Asigne la directiva AllOff a todos los usuarios de su organización que usen Teams en un entorno virtualizado.
 
-#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Asignar directivas con el Centro de administración de Microsoft Teams
+#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Asignar directivas con el Centro Microsoft Teams administración
 
 Para asignar la directiva de llamadas Desautorizado y la directiva de reunión AllOff a un usuario:
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a **Usuarios.**
 2. Seleccione el usuario seleccionando a la izquierda del nombre de usuario y, a continuación, **seleccione Editar configuración.**
 3. Siga estos pasos:
 
@@ -71,7 +71,7 @@ Para asignar una directiva a varios usuarios a la vez:
 
 O bien, también puede realizar los pasos siguientes:
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la directiva que desea asignar. Por ejemplo:
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a la directiva que desea asignar. Por ejemplo:
 
     - Vaya a **Directivas de**  >  **llamadas de** voz y, a continuación, seleccione No permitir la **llamada.**
     - Vaya a **Directivas de reunión** de  >  **reuniones** y, a continuación, seleccione **AllOff**.

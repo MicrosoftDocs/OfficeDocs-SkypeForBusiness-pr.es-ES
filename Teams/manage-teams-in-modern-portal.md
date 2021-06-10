@@ -36,7 +36,7 @@ Este artículo proporciona una descripción general de las herramientas de admin
 Como administrador, es posible que tenga que ver o actualizar los equipos que la organización configuró para la colaboración, o es posible que tenga que llevar a cabo acciones de corrección, como la asignación de propietarios a equipos sin propietario. Puede administrar los equipos que se usan en la organización tanto en el módulo de PowerShell para Microsoft Teams como en el centro de administración de Microsoft Teams. Puede acceder al centro de administración en <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . Para obtener todas las funciones de administración con estos dos conjuntos de herramientas, debe asegurarse de que tiene asignado uno de los roles siguientes:
 
 - Administrador global
-- Teams Administrador
+- Administrador de Teams
 
 Puede obtener más información acerca de los roles de administrador en Teams en [Usar los roles de administrador de Microsoft Teams para administrar equipos](using-admin-roles.md) y puede ver más sobre cómo usar los cmdlets de PowerShell para administrar equipos en la [referencia de cmdlets de Microsoft Teams](/powershell/teams/?view=teams-ps).
 

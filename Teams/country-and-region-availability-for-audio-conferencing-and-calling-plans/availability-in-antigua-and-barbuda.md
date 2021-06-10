@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Antigua y Barbuda.
+description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Antigua y Barbuda.
 ms.openlocfilehash: 31eba4812e0c0d323236663258986663c5390b10
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -35,7 +35,7 @@ ms.locfileid: "51118439"
 
 [Busque otro país o región,](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)o obtenga más información sobre la disponibilidad de país y región para planes de audioconferencias y llamadas.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Antigua y Barbuda.
+Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Antigua y Barbuda.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

@@ -30,7 +30,7 @@ ms.locfileid: "51117258"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Buscar números de teléfono para los usuarios
 
-Cuando configura usuarios de su organización para realizar y recibir llamadas telefónicas, debe usar el Centro de administración de **Microsoft Teams** y primero obtener números de teléfono que se pueden asignar a los usuarios. El número de teléfono que asigne a un usuario será un número de teléfono que haya elegido para su organización y aparecerá en la lista desplegable al editar las propiedades del usuario y haga clic en **Asignar**.
+Cuando configura usuarios de su organización para realizar y recibir llamadas telefónicas, debe usar el centro de administración de Microsoft Teams y primero obtener números de teléfono que se pueden asignar **a** los usuarios. El número de teléfono que asigne a un usuario será un número de teléfono que haya elegido para su organización y aparecerá en la lista desplegable al editar las propiedades del usuario y haga clic en **Asignar**.
   
 Antes de poder asignar números de teléfono  a los usuarios, debe usar la página Obtener nuevos números para buscar números disponibles en un área. Puede buscar por **País o región** , **Tipo** de número y Ubicación y, a continuación, escriba el número de números de teléfono que necesitará para los usuarios. 
   
@@ -40,14 +40,14 @@ Si necesita ayuda con la introducción de los números de teléfono, puede ver [
 
 **Para buscar números de teléfono para los usuarios**
 
-![Icono que muestra el logotipo de Teams ](media/teams-logo-30x30.png) **Con el Centro de administración de Microsoft Teams**
+![Un icono que muestra el Teams ](media/teams-logo-30x30.png) **con el Microsoft Teams de administración**
   
-1. Vaya al Centro **de administración de Microsoft Teams.**
+1. Vaya al centro **Microsoft Teams de administración.**
 
-2. En el panel de navegación izquierdo, seleccione **Números de** teléfono  >  **de voz** Obtener nuevos  >  **números.**
+2. En el panel de navegación **izquierdo,** seleccione  >  **Teléfono de voz**  >  **Obtener nuevos números.**
   
     > [!IMPORTANT]
-    > Para que vea  la opción Voz en el panel de navegación izquierdo del Centro de administración  de Microsoft Teams, primero debe comprar al menos una licencia **de Enterprise E5,** una licencia de complemento sistema telefónico o una licencia de complemento de conferencias de **audio.**  
+    > Para que vea  la opción Voz en el panel de navegación izquierdo del centro de administración de Microsoft Teams,  primero debe comprar al menos  una licencia **de Enterprise E5,** una licencia de complemento de Sistema telefónico o una licencia de complemento de audioconferencia.  
 
 3. En la **página Seleccionar ubicación y cantidad,** seleccione una ubicación de la **lista** desplegable País o región.
 
@@ -69,7 +69,7 @@ Si necesita ayuda con la introducción de los números de teléfono, puede ver [
 
 9. En la **página Confirmación,** compruebe las opciones y, a continuación, haga clic **en Realizar pedido.**
 
-10. Cuando vuelva a  la página Números de teléfono, seleccione el número  de teléfono o los números que desea asignar y, a continuación, haga clic en Editar para asignarlo a un usuario.  
+10. Cuando vuelva a la **página Teléfono números,** seleccione el número de teléfono o  los números que desea asignar y, después, haga clic en Editar para asignarlo a un usuario.  
 
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](./phone-number-calling-plans/port-order-overview.md)

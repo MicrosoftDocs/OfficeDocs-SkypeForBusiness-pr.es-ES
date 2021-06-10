@@ -24,9 +24,9 @@ ms.locfileid: "51117628"
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-El consentimiento específico de los recursos en Microsoft Teams permite a los propietarios de equipos dar su consentimiento a las aplicaciones para obtener acceso a los datos del equipo. Algunos ejemplos de este acceso son la capacidad de leer mensajes de canal, crear y eliminar canales, así como crear y quitar pestañas de canal.
+El consentimiento específico de los recursos en Microsoft Teams permite a los propietarios del equipo dar su consentimiento a las aplicaciones para obtener acceso a los datos del equipo. Algunos ejemplos de este acceso son la capacidad de leer mensajes de canal, crear y eliminar canales, así como crear y quitar pestañas de canal.
 
-Como administrador, puede controlar si los propietarios de equipos de su organización pueden dar su consentimiento a través de la configuración que configure mediante el módulo PowerShell de Azure Active Directory (Azure AD) o el Portal de Azure y el Centro de administración de Microsoft Teams.  
+Como administrador, puede controlar si los propietarios de equipos de su organización pueden dar su consentimiento a través de la configuración que configure mediante el módulo de PowerShell de Azure Active Directory (Azure AD) o azure portal y el centro de administración de Microsoft Teams.  
 
 ## <a name="set-whether-team-owners-can-give-consent-to-apps"></a>Establecer si los propietarios de equipos pueden dar consentimiento a las aplicaciones
 
@@ -43,8 +43,8 @@ Las dos opciones siguientes determinan si los propietarios de equipos pueden dar
 
 Esta configuración controla si los usuarios de su organización pueden dar su consentimiento a las aplicaciones en su nombre. Para permitir que los propietarios de equipos den su consentimiento, esta configuración debe establecerse en **Sí.** Para administrar esta configuración, haga lo siguiente:
 
-1. En Azure Portal, vaya a **Configuración de usuario de aplicaciones**  >  **empresariales.**
-2. En **Aplicaciones empresariales,** establezca **Que los usuarios puedan** dar su consentimiento para que las aplicaciones accedan a los datos de la empresa en su nombre **en No** o **Sí.**
+1. En Azure Portal, vaya a Enterprise **configuración de** usuario de  >  **las aplicaciones.**
+2. En **Enterprise ,** establezca Que los usuarios **puedan** dar su consentimiento para que las aplicaciones accedan a los datos de la compañía en su nombre **en No** o **Sí.**
 
 También puede administrar esta configuración con PowerShell. Para obtener más información, vea [Configurar contenido de usuario en aplicaciones.](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications)
 
@@ -52,7 +52,7 @@ También puede administrar esta configuración con PowerShell. Para obtener más
 
 Esta configuración controla si los usuarios de su organización pueden dar su consentimiento para que las aplicaciones accedan a los datos de la empresa para los grupos que poseen. Esta configuración debe estar habilitada para que los propietarios del equipo den su consentimiento. Para obtener pasos sobre cómo administrar esta configuración mediante PowerShell, vea Configurar el consentimiento del propietario del grupo para que [las aplicaciones accedan a datos de grupo.](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data)
 
-### <a name="settings-in-the-microsoft-teams-admin-center"></a>Configuración en el Centro de administración de Microsoft Teams
+### <a name="settings-in-the-microsoft-teams-admin-center"></a>Configuración en el centro Microsoft Teams administración
 
 Además de la configuración de Azure [AD,](manage-apps.md#manage-org-wide-app-settings) la configuración de la aplicación para toda [](manage-apps.md#allow-and-block-apps) la organización en [](teams-app-permission-policies.md) la página Administrar aplicaciones, si una aplicación está bloqueada o está permitida en la página Administrar aplicaciones, y la directiva de permisos de aplicación asignada al propietario del equipo determina si el propietario del equipo puede dar su consentimiento. [](manage-apps.md)
 
@@ -63,10 +63,10 @@ Además de la configuración de Azure [AD,](manage-apps.md#manage-org-wide-app-s
 
 Esta configuración de aplicación para toda la organización controla si los usuarios de su organización pueden usar aplicaciones de terceros. Esta configuración debe estar activa para permitir que los propietarios de equipos den su consentimiento. Para administrar esta configuración, haga lo siguiente:
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Aplicaciones de **Teams** Administrar aplicaciones y, a continuación, haga clic en Configuración de aplicaciones  >  para toda la **organización.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams aplicaciones Administrar aplicaciones y, **a** continuación, haga clic en Configuración de aplicaciones para toda la  >   **organización.**
 2. En **Aplicaciones de terceros,** desactiva o activa Permitir **aplicaciones de terceros.**
 
-    ![Captura de pantalla de la configuración "Permitir aplicaciones de terceros en Teams"](media/resource-specific-consent-org-wide-setting.png)
+    ![Captura de pantalla de la configuración "Permitir aplicaciones de terceros Teams"](media/resource-specific-consent-org-wide-setting.png)
 
 Es posible que tenga que esperar hasta 24 horas para que sus cambios surtan efecto.
 
@@ -83,7 +83,7 @@ Al bloquear o permitir una [](manage-apps.md#allow-and-block-apps) aplicación e
 
 Los propietarios de equipos solo pueden dar consentimiento a las aplicaciones que su directiva de permisos de aplicación les permite ejecutar. Para ver y administrar la directiva de permisos de aplicación asignada a un propietario del equipo, haga lo siguiente:
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a **Usuarios.**
 2. Haga doble clic en el nombre para mostrar del propietario del equipo y, a continuación, haga clic en **Directivas.**
 3. La directiva asignada al propietario del equipo se muestra en **Directiva de permisos de aplicación.**
     - Para asignar una directiva diferente, haga clic **en Editar** y, a continuación, seleccione la directiva que desea asignar.
@@ -97,5 +97,5 @@ Al cargar una aplicación personalizada (también conocida como sideloading) que
 
 - [Permisos de RSC disponibles](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
-- [Administrar las aplicaciones en el Centro de administración de Microsoft Teams](manage-apps.md)
+- [Administrar las aplicaciones en el centro Microsoft Teams administración](manage-apps.md)
 - [Administrar directivas de permisos de aplicación en Teams](teams-app-permission-policies.md)

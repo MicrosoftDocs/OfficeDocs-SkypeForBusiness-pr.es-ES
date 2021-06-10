@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo usar las revisiones del estado del servicio en su adopción de Teams para compartir información sobre el uso, el estado, la capacidad/plan del proyecto y otras actualizaciones.
+description: Obtenga información sobre cómo usar las revisiones de estado del servicio Teams adopción para compartir información sobre el uso, el estado, la capacidad o la hoja de ruta del proyecto, y otras actualizaciones.
 f1.keywords:
 - CSH
 ms.custom: Adopt
@@ -29,11 +29,11 @@ ms.locfileid: "49806100"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Programar revisiones de estado del servicio para su adopción de Microsoft Teams
 
-En colaboración con su equipo de implementación técnica, planee la realización de revisiones mensuales del estado del servicio para Teams. En estas opiniones, compartirá información sobre las siguientes medidas:
+En colaboración con su equipo de implementación técnica, planee la realización de revisiones mensuales del estado del servicio para Teams. En estas revisiones compartirá información sobre las siguientes medidas:
 
 - **Uso del servicio:** datos de uso activo y puede incluir información sobre servicios en desuso o consumo reducido como resultado de pasar a Teams. Normalmente dirigido por el administrador de servicios o el propietario del producto para los servicios de colaboración.
-- **Estado del servicio:** calidad de las llamadas, estado de las reuniones y estado general del servicio. Revise los incidentes de soporte técnico y los niveles de vales del departamento de soporte técnico. Temas de seguridad y gobierno. Normalmente dirigido por equipos de protección de información y soporte técnico. 
-- **Mapa de ruta de capacidad/proyecto:** ¿Cuál es la programación de proyectos de incorporación de empleados restantes o de mejora de la colaboración? ¿Qué características adicionales va a habilitar su organización? Normalmente dirigido por el administrador de servicios o el propietario del producto para los servicios de colaboración en colaboración con las principales partes interesadas empresariales.
-- **Actualización de campaña de concienciación y de medición de éxito de aprendizaje:** incluye alcance, participación, temas clave de comentarios y problemas abiertos. Incluya historias clave de éxito y victorias. 
+- **Estado del servicio:** calidad de las llamadas, estado de las reuniones y estado general del servicio. Revise los incidentes de soporte técnico y los niveles de incidencias del departamento de soporte técnico. Temas de seguridad y gobernanza. Normalmente dirigidos por equipos de protección de información y soporte técnico. 
+- **Plan de capacidad/proyecto:** ¿Cuál es la programación de proyectos de incorporación de empleados restantes o proyectos de mejora de la colaboración? ¿Qué características adicionales va a habilitar su organización? Normalmente dirigido por el administrador de servicios o el propietario del producto para servicios de colaboración en colaboración con partes interesadas empresariales clave.
+- **Actualización de la medición** de éxito de la campaña de concienciación y del aprendizaje: incluye alcance, participación, temas clave de comentarios y problemas abiertos. Incluya las victorias clave y los casos de éxito. 
 
-Esta revisión mensual puede ser bastante formal en grandes organizaciones o virtual en compañías más pequeñas. Es importante compartir y supervisar estos datos para garantizar una implementación de Microsoft Teams en buen estado y cada vez más dinámica. 
+Esta revisión mensual puede ser bastante formal en grandes organizaciones o virtual en empresas más pequeñas. Es importante compartir y supervisar estos datos para garantizar una implementación saludable y cada vez más dinámica de Microsoft Teams. 
