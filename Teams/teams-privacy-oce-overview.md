@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Este artículo describe las experiencias conectadas opcionales que verá en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b2cf94f660b7935ae61aadf21bdb9a7a78fb21
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 588dd904794ce79cfdcdbfa7fb9e17275f1d3661
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777891"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863241"
 ---
 # <a name="overview-of-optional-connected-experiences-in-microsoft-teams"></a>Información general sobre las experiencias conectadas opcionales en Microsoft Teams
 
@@ -28,7 +28,7 @@ Si tiene una cuenta profesional o educativa, el administrador de la organizació
 Si su administrador le ha concedido la capacidad de usar experiencias conectadas opcionales en Teams, puede ir a **Configuración** > **Privacidad** en Teams y elegir si desea usar experiencias conectadas opcionales.
 
 > [!NOTE]
-> Si es administrador, puede conceder o restringir la capacidad de los usuarios para usar experiencias conectadas opcionales. Para hacerlo, puede usar el [Servicio de directivas de nube de Office](/deployoffice/overview-office-cloud-policy-service) y configurar la configuración de directiva *Permitir el uso de experiencias conectadas opcionales adicionales en Office*. 
+> Si es administrador, puede conceder o restringir la capacidad de los usuarios para usar experiencias conectadas opcionales. Para hacerlo, puede usar el [Servicio de directivas de nube de Office](/deployoffice/overview-office-cloud-policy-service) y configurar la configuración de directiva *Permitir el uso de experiencias conectadas opcionales adicionales en Office*. Esta es la misma configuración de directiva que controla si hay experiencias conectadas opcionales disponibles para los usuarios en las aplicaciones de Office (como Word, Excel y PowerPoint) que se incluyen con Aplicaciones de Microsoft 365 para empresas.
 
 ## <a name="giphy"></a>GIPHY
 

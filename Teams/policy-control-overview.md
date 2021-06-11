@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777910"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863221"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Introducción al control de directivas para Microsoft Teams
 
@@ -84,7 +84,7 @@ Para elegir el nivel de datos de diagnóstico que se nos envía, use el [Servici
 
 Los usuarios no podrán cambiar el nivel de datos de diagnóstico para sus dispositivos si han iniciado sesión en Teams con sus credenciales de la organización (su cuenta profesional o educativa).
 
-Estos datos de diagnóstico no incluyen los nombres de los usuarios, sus direcciones de correo electrónico o el contenido de sus archivos de Office. El sistema crea un identificador único que asocia a los datos de diagnóstico de los usuarios. Cuando recibimos datos de diagnóstico en los que se muestra que la aplicación Teams se ha bloqueado 100 veces, este identificador único nos permite determinar si se trata de un único usuario que ha tenido el problema 100 veces o si se trata de 100 usuarios diferentes que lo han tenido una vez. No usamos este identificador único para identificar a un usuario específico.
+Estos datos de diagnóstico no incluyen nombres de usuarios, sus direcciones de correo electrónico ni otro contenido de usuario, como archivos de Office compartidos en Teams, un mensaje de chat enviado en Teams o el texto de una publicación realizada en un canal de Teams. El sistema crea un identificador único que asocia a los datos de diagnóstico de los usuarios. Cuando recibimos datos de diagnóstico en los que se muestra que la aplicación Teams se ha bloqueado 100 veces, este identificador único nos permite determinar si se trata de un único usuario que ha tenido el problema 100 veces o si se trata de 100 usuarios diferentes que lo han tenido una vez. No usamos este identificador único para identificar a un usuario específico.
 
 Para ver los datos de diagnóstico que se envían a Microsoft, puede usar el Visor de datos de diagnóstico, que puede descargar e instalar de forma gratuita desde la Microsoft Store. Para obtener más información, consulte [Usar el Visor de datos de diagnóstico con Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 

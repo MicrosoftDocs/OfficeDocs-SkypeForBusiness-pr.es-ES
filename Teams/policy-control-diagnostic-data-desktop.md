@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbac20caa3f1eff0ead7ef0bf7f11d55b7718903
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136116"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863231"
 ---
 # <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Datos de diagnóstico de escritorio necesarios para Microsoft Teams
 
 El artículo siguiente contiene una lista de eventos de Microsoft Teams para escritorio, y listas de propiedades que recopila cada evento.
+
+Para más información sobre los datos de diagnóstico, incluido cómo controlar los datos de diagnóstico que se envían a Microsoft, vea [Datos de diagnóstico enviados desde la aplicación de Teams a Microsoft](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft). Para ver los datos de diagnóstico que se envían a Microsoft, puede usar el [Visor de datos de diagnóstico](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 
 ## <a name="events"></a>Eventos
 
@@ -97,7 +99,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams para esc
 - **desktop_app_quit_exception**: se ha bloqueado la aplicación mientras se intentaba cerrar.
 - **desktop_blankScreenDetected**: registra la información necesaria para determinar los errores cuando la aplicación de escritorio muestra una pantalla en blanco.
 - **desktop_blankScreenDetectedAfterRepaint**: se detectó que la página se puso en blanco al detectar el intento de renderización.
-- **desktop_blankScreenRecoveredAfterRepaint**: se recuperó de un problema de renderización en el que la pantalla no se renderizó de manera previa.
+- **desktop_blankScreenRecoveredAfterRepaint**: se recuperó de un problema de renderización en el que la pantalla no se renderizó previamente.
 - **desktop_configuration_failed_to_save**: recopila la información necesaria para determinar los errores de configuración cuando la configuración del escritorio no se guarda.
 - **desktop_navigation_error_recovery**: recopila la información necesaria para determinar los errores de navegación de escritorio cuando una página no se carga después de cinco intentos.
 - **desktop_previous_gpu_crashed**: registra la información necesaria para determinar los errores de la unidad de procesamiento gráfico cuando el escritorio se bloquea.
@@ -144,9 +146,9 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams para esc
 
 | Nombre de la propiedad                              | Descripción                                                        |
 |--------------------------------------------|--------------------------------------------------------------------|
-| EventInfo_Time                             | Hora de generación del evento:                                              |
-| EventInfo_Name                             | Nombre del evento: se usa para diferenciar entre los tipos de evento             |
-| EventInfo_BaseType/name                    | Nombre del evento: se usa para diferenciar entre los tipos de evento en un evento |
+| EventInfo_Time                             | Hora de generación de evento                                              |
+| EventInfo_Name                             | Nombre del evento - Se usa para diferenciar entre los tipos de evento             |
+| EventInfo_BaseType/Name                    | Nombre del evento: se usa para diferenciar entre los tipos de evento en un evento |
 | EventInfo_Sequence                         | Secuencia del evento                                              |
 | userAgent                                  | Cadena del agente del explorador                                               |
 | userpdclevel                               | Configuración de control de datos de privacidad del usuario                           |
@@ -205,7 +207,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams para esc
 | Session_DesktopId                 | Id. de sesión único                                                                  |
 | machineLocked                     | Captura si el equipo se bloqueó o no                                          |
 | windowIsVisible                   | Captura si la ventana de la aplicación fue visible para el uso                                      |
-| appStates/webAppStates            | registra una lista de estados de la aplicación por los que ha pasado la aplicación. Esto ayuda con la investigación acerca del bloqueo, ya que podemos ver cuál era el estado de la aplicación |
+| appStates/webAppStates            | registra una lista de estados de la aplicación por los que pasó la aplicación de escritorio. Esto sirve para las investigaciones sobre bloqueos, ya que muestra cuál era el estado de la aplicación de escritorio |
 | crashDesktopSession               | Captura el Id. de la sesión bloqueada                                                 |
 | appRuntime                        | Captura el tiempo de ejecución de la aplicación                                                        |
 | diagnosticEvents                  | Últimos 50 eventos de diagnóstico de la aplicación web antes del bloqueo de la aplicación                                 |
@@ -309,43 +311,43 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams para esc
 
 | Propiedad           | Description                                              |
 |--------------------|----------------------------------------------------------|
-| Panel_Uri          | Uri del panel entregado al usuario                   |
-| Panel_Type         | Tipo de panel al que accedió el usuario                          |
-| Team_Id            | Id. del equipo en el que el usuario ha realizado la acción |
-| Thread_Id          | Id.del hilo al que obtuvo acceso el usuario               |
-| Panel_PreviousUri  | URI del panel anterior                                |
+| Panel_Uri          | URL del panel entregado al usuario                   |
+| Panel_Type         | Tipo de panel al que obtuvo acceso el usuario.                          |
+| Team_Id            | Identificación del equipo en el que el usuario ha realizado la acción |
+| Thread_Id          | Identificador de la conversación al que obtuvo acceso el usuario.               |
+| Panel_PreviousUrl  | URL del panel anterior                                |
 | Panel_Region       | Región donde se hospeda el panel en la aplicación             |
-| Panel_LaunchMethod | Método a través del cual se inició el panel              |
-| Panel_PreviousType | Tipo de panel anterior                               |
-| Thread_Type        | Tipo de hilo al que tuvo acceso el usuario                          |
+| Panel_LaunchMethod | Método mediante el que se inició el panel              |
+| Panel_PreviousType | Tipo del panel anterior                               |
+| Thread_Type        | Tipo de hilo al que tiene acceso el usuario.                          |
 | Panel_LaunchSource | Información de origen del panel que se inició        |
-| Tab_Type           | Tipo de ventana a la que tuvo acceso el usuario                         |
+| Tab_Type           | Tipo de la pestaña a la que obtiene acceso el usuario.                         |
 | Team_Type          | Tipo de equipo al que accedió el usuario                            |
 
 ### <a name="properties-sent-with-userbi-panelaction-events"></a>Propiedades enviadas con eventos UserBI panelaction
 
 | Nombre de la propiedad         | Descripción                                                        |
 |-----------------------|--------------------------------------------------------------------|
-| Action_DestinationUri | Uri del recurso al que tiene acceso la acción del usuario                  |
-| Panel_Uri             | Uri del panel entregado al usuario                             |
+| Action_DestinationUri | URL del recurso al que tiene acceso la acción del usuario                  |
+| Panel_Url             | URL del panel entregado al usuario                             |
 | Action_Gesture        | Tipo de gesto que realiza el usuario en la aplicación                       |
 | Action_ScenarioType   | Agrupación de características que está relacionada con la métrica empresarial de la característica       |
-| Panel_Type            | Tipo de panel al que accedió el usuario                                    |
-| Action_Outcome        | Resultado de la acción que realizó el usuario                            |
-| Team_Id               | Id. del equipo en el que el usuario ha realizado la acción           |
+| Panel_Type            | Tipo de panel al que obtuvo acceso el usuario.                                    |
+| Action_Outcome        | Resultado de la acción efectuada por el usuario                            |
+| Team_Id               | Identificación del equipo en el que el usuario ha realizado la acción           |
 | Module_Type           | Tipo de módulo que ha alojado la acción del usuario                        |
-| Module_Name           | Nombre de módulo que ha alojado la acción del usuario                        |
+| Module_Name           | Nombre del módulo que ha alojado la acción del usuario                        |
 | Module_Summary        | Resumen del módulo que ha alojado la acción del usuario                       |
-| Thread_Id             | Id.del hilo al que obtuvo acceso el usuario                         |
-| Panel_PreviousUri     | URI del panel anterior                                          |
+| Thread_Id             | Identificador de la conversación al que obtuvo acceso el usuario.                         |
+| Panel_PreviousUrl     | URL del panel anterior                                          |
 | Panel_Region          | Región donde se hospeda el panel en la aplicación                       |
-| Panel_LaunchMethod    | Método a través del cual se inició el panel                        |
-| Panel_PreviousType    | Tipo de panel anterior                                         |
-| Thread_Type           | Tipo de hilo al que tuvo acceso el usuario                                    |
-| Module_State          | Estado del módulo al que tiene acceso el usuario                               |
-| Action_Scenario       | Característica en un grupo de características que está relacionada con la métrica empresarial |
+| Panel_LaunchMethod    | Método mediante el que se inició el panel                        |
+| Panel_PreviousType    | Tipo del panel anterior                                         |
+| Thread_Type           | Tipo de hilo al que tiene acceso el usuario.                                    |
+| Module_State          | Estado del módulo al que tiene acceso el usuario.                               |
+| Action_Scenario       | Característica en un grupo de características que está relacionada con el sistema métrico de la empresa |
 | Panel_LaunchSource    | Información de origen del panel que se inició                  |
-| Tab_Type              | Tipo de ventana a la que tuvo acceso el usuario                                   |
+| Tab_Type              | Tipo de la pestaña a la que obtiene acceso el usuario.                                   |
 | Team_Type             | Tipo de equipo al que accedió el usuario                                      |
 
 ### <a name="properties-sent-with-outlook-addin-events"></a>Propiedades enviadas con los eventos del complemento de Outlook
@@ -397,6 +399,6 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams para esc
 | TeamsRing                       | Anillo del usuario actual conectado al cliente de Teams                            |
 | TeamsVersion                    | Captura la versión de la aplicación Teams                                            |
 | TelemetrySetupCompletedTime     | Hora de finalización de la configuración de telemetría                                   |
-| UpnMismatch                     | Si no existe una coincidencia UPN entre Outlook y Teams                  |
+| UpnMismatch                     | Si no existe una coincidencia de UPN entre Outlook y Teams                  |
 | UserDomain                      | Dominio del usuario                                                       |
 | ViewUpdatedTime                 | Hora en la que se actualizó la vista                                           |
