@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: 9306646cf76485ba06828f7dad2113912ec28b55
+ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863251"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52873847"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Datos de diagnóstico móvil necesarios para Microsoft Teams
 
@@ -1303,6 +1303,8 @@ Para más información sobre los datos de diagnóstico, incluido cómo controlar
 - **smart_reply_enabled**: confirma que la respuesta inteligente está habilitada para el usuario actual.
 - **smart_reply_received** : confirma que se recibe una sugerencia de respuesta inteligente.
 - **tenantSwitchUnsupportedError**: confirma que la respuesta inteligente no se puede mostrar para el usuario actual.
+- **park_call_for_hold_v2**: confirma si poner la llamada en espera con el estacionamiento de llamadas se realizó con o sin éxito.
+- **unpark_call_for_hold_v2**: confirma si continuar la llamada sin el estacionamiento de llamadas se realizó con o sin éxito. 
 - **update_planner_task_and_nav_to_view** - Confirma la correcta actualización de un elemento de tarea compartida y cuánto tiempo tardó un usuario en llegar a la vista resultante después de la acción.
 - **update_planner_task_and_nav_to_view**: confirma la correcta actualización de un elemento de tarea personal y cuánto tiempo tardó un usuario en llegar a la vista resultante después 
 - **updatePlannerTask**: confirma que un usuario ha actualizado correctamente una tarea en una lista de tareas compartida.
