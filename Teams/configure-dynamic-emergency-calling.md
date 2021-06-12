@@ -18,12 +18,12 @@ description: Obtenga información sobre cómo configurar los planes de llamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c0578496c2ce8d66c7292ac7d7030a1abdd8f88
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: ee730c737d105572c9c34c6f329b04de4f8f8472
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856459"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910052"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -85,7 +85,11 @@ Actualmente, se admiten los siguientes clientes.  Vuelva a comprobarlo a menudo 
 - Salas de Teams versión 4.4.25.0 y posterior
 
 > [!NOTE]
-> Las llamadas de emergencia dinámicas, incluidas las notificaciones de escritorio de seguridad, no se admiten en el Teams web. Para evitar que los usuarios utilicen el cliente web Teams llamar a números RTC, puede establecer una directiva de llamadas Teams y desactivar la configuración Permitir llamadas **RTC web.** Para obtener más información, vea [Directivas de llamadas en Teams](teams-calling-policy.md) y [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Se admiten subredes y AP WiFi. El conmutador/puerto Ethernet es compatible en Windows 8.1 y más adelante en este momento. 
+> Las llamadas de emergencia dinámicas, incluidas las notificaciones de escritorio de seguridad, no se admiten en el Teams web. Para evitar que los usuarios utilicen el cliente web Teams llamar a números RTC, puede establecer una directiva de llamadas Teams y desactivar la configuración Permitir llamadas **RTC web.** Para obtener más información, vea [Directivas de llamadas en Teams](teams-calling-policy.md) y [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). 
+
+> [!NOTE]
+> Las ubicaciones basadas en Subred y WiFi son compatibles con todos Teams clientes. <br>
+> Ethernet/Switch (LLDP) solo es compatible en Windows y solo en Windows versiones 8.1 y posteriores en este momento.
 
 ## <a name="assign-emergency-addresses"></a>Asignar direcciones de emergencia
 

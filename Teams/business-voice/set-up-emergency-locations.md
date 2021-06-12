@@ -17,18 +17,22 @@ search.appverid: MET150
 description: Obtenga información sobre cómo configurar ubicaciones de emergencia para Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fab5fead952837e2fb272819a600381252bcbf8
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: e8f740034a67e1f2199b5a18aa34d67e16df43e2
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282537"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52907766"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>Paso 1: Configurar una ubicación de emergencia de Business Voice
 
 Se usa una ubicación de emergencia cuando alguien de su organización llama a servicios de emergencia como fuego, policía o una ambulancia. Cuando una persona llama a un servicio de emergencia, la dirección configurada como dirección de emergencia de su organización se envía al servicio. Este paso configura la ubicación de emergencia principal de su organización. Esta ubicación se asociará con el número de teléfono principal de su empresa en un paso posterior.
 
 Si tiene usuarios en varias ubicaciones, como oficinas de hogar u oficinas en otras ciudades, puede configurar ubicaciones de emergencia adicionales. Incluso puede configurar lugares específicos dentro de una ubicación. Los lugares pueden ser edificios, pisos, oficinas u otros lugares donde los usuarios puedan estar en una ubicación. Se pueden agregar ubicaciones y lugares adicionales después de completar la configuración inicial de Business Voice.
+
+En el siguiente vídeo se muestra cómo completar estos pasos en el centro Teams administración.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEZGE]
 
 ## <a name="add-an-emergency-location"></a>Agregar una ubicación de emergencia
 

@@ -16,16 +16,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
-ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
+ms.openlocfilehash: 93223a9d8077241cf8a36c3d216fcc78b5db3dc7
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52729808"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910072"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Compre, configure y habilite El entrenador profesional para Microsoft Teams
 
 Entrenador profesional es una aplicación Microsoft Teams para el sector educativo con tecnología de LinkedIn que proporciona orientación personalizada para que los estudiantes de educación superior puedan navegar por su trayectoria profesional. Career Coach ofrece a las instituciones educativas una solución profesional unificada para que los alumnos descubran su trayectoria profesional, aumenten las aptitudes del mundo real y construyan su red en un solo lugar.
+
+## <a name="supported-languages"></a>Idiomas admitidos
+El Entrenador profesional se localiza en los siguientes idiomas:
+
+  - Chino (simplificado, China continental)
+  - Chino (tradicional, Taiwán)
+  - Inglés (Estados Unidos)
+  - Inglés (Reino Unido)
+  - Francés (Canadá)
+  - Francés (Francia)
+  - Alemán (Alemania)
+  - Japonés (Japón)
+  - Portugués (Brasil)
+  - Español (España)
+  - Español (México)
 
 Más información sobre [El entrenador profesional.](https://aka.ms/career-coach)
 
