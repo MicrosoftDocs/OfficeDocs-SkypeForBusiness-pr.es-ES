@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9306646cf76485ba06828f7dad2113912ec28b55
-ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
+ms.openlocfilehash: 7d040a6e592ead9f29dcc7f23efe069b041ccf07
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52873847"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901947"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Datos de diagnóstico móvil necesarios para Microsoft Teams
 
@@ -979,18 +979,11 @@ Para más información sobre los datos de diagnóstico, incluido cómo controlar
   - La búsqueda se ha realizado correctamente o si el usuario ha abandonado la búsqueda.
   - Una consulta de búsqueda se ha realizado correctamente.
 - **searchContacts** - Buscar en la lista de llamadas.
-- **searchIcon** - Determina:
-  - Si se puede desencadenar la búsqueda.
-  - El origen de un desencadenador de búsqueda.
-  - Si los resultados relevantes se detectan correctamente.
 - **searchInitiated** - Determina si se puede desencadenar la búsqueda y el origen del desencadenador de búsqueda.
 - **searchMeetingParticipants** - Buscar participantes para agregarlos en el formulario del programador. Para distinguir entre el número de citas creadas frente al número de reuniones creadas.
 - **searchResultsClicked** - Determina:
   - Si se pueden encontrar resultados relevantes correctamente.
   - Si los resultados de búsqueda provienen de la ficha todas en lugar de un dominio individual.
-- **searchTab** - Determina:
-  - Información del dominio del resultado de la búsqueda: contactos, chat, mensajes y archivos.
-  - Si los resultados de la búsqueda provienen de todas las pestañas y del dominio individual.
 - **searchTabClicked** - Determina:
   - Información del dominio del resultado de la búsqueda: contactos, chat, mensajes y archivos.
   - Si los resultados relevantes se detectan correctamente.
@@ -1322,7 +1315,7 @@ Para más información sobre los datos de diagnóstico, incluido cómo controlar
 - **server_fetch_date_picker_view_incremental** confirma si la sincronización incremental de eventos de calendario mediante la API de REST de Outlook se hizo correctamente o no.
 - **meeting_details** confirma si la sincronización de detalles de la reunión se hizo correctamente o no.
 - **show_meeting_participants** confirma si la lista de participantes de la reunión se hizo correctamente o no.
-
+- **search** Confirma que la sesión de búsqueda completa se ha realizado correctamente o ha fallado.
 
 ## <a name="property-lists"></a>Listas de propiedades
 
