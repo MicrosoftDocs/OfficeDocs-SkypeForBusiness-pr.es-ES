@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de la versión Microsoft Teams características de administrador.
-ms.openlocfilehash: 6d634d89c5b810b0df149385e020ab0944def475
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: 94213748d55e91022f19e29a48dab7f4fe6e5199
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705264"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947612"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de la versión para Microsoft Teams de administrador
 
@@ -31,13 +31,13 @@ Estas notas de la versión proporcionan información sobre las nuevas caracterí
 
 ### <a name="career-coach"></a>Entrenador profesional
 
-Entrenador profesional es una aplicación Microsoft Teams para el sector educativo con tecnología de LinkedIn que proporciona orientación personalizada para que los estudiantes de educación superior puedan navegar por su trayectoria profesional. Career Coach ofrece a las instituciones educativas una solución profesional unificada para que los alumnos descubran su trayectoria profesional, aumenten las aptitudes del mundo real y construyan su red en un solo lugar. [Más información](../career-coach.md).
+Asesor de carrera es una aplicación Microsoft Teams para Educación con tecnología de LinkedIn que proporciona orientación personalizada para que los estudiantes de educación superior puedan navegar por su trayectoria profesional. Asesor de carrera ofrece a las instituciones educativas una solución profesional unificada para que los alumnos descubran su trayectoria profesional, aumenten las aptitudes del mundo real y construyan su red en un solo lugar. [Más información](../career-coach.md).
 
 ## <a name="march-31-2021"></a>31 de marzo de 2021
 
 ### <a name="share-to-teams-from-outlook"></a>Compartir a Teams desde Outlook
 
-Compartir a Teams desde Outlook le permite enviar una copia de mensajes de correo electrónico o conversaciones, incluidos los datos adjuntos, a Teams chats y canales. Busque la **opción Compartir Teams** en la cinta Outlook o en el menú de acciones de un correo electrónico. Compartir en Teams admite Outlook en la web, Outlook para Windows y el nuevo Outlook para Mac Preview. [Más información](../teams-outlook-share-teams.md).
+Compartir a Teams desde Outlook le permite enviar una copia de mensajes de correo electrónico o conversaciones, incluidos los datos adjuntos, a Teams chats y canales. Busque la **opción Compartir Teams** en la cinta Outlook o en el menú de acciones de un correo electrónico. Compartir en Teams admite Outlook en la Web, Outlook para Windows y el nuevo Outlook para Mac Preview. [Más información](../teams-outlook-share-teams.md).
 
 ## <a name="march-30-2021"></a>30 de marzo de 2021
 
@@ -146,7 +146,7 @@ Un centro de tarifas es el término del sector de un área geográfica que defin
 
 ## <a name="december-9-2020"></a>9 de diciembre de 2020
 
-### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Asesor para Teams con Microsoft 365 de aprendizaje
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Asesor para Teams con Microsoft 365 Learning rutas
 
 Caminos de aprendizaje de Microsoft 365 es una solución de aprendizaje a petición que puede personalizar para formar a los usuarios, así como para aumentar el uso y la adopción de Microsoft Teams en la organización. Use los caminos de aprendizaje junto con el Asesor para Teams para fomentar la adopción y que los usuarios puedan empezar a trabajar rápidamente.
 
@@ -180,7 +180,7 @@ Puede administrar la Skype Empresarial de Skype Empresarial usuarios de su organ
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>Administrar Skype Empresarial configuración de la organización
 
-Puede administrar las Skype Empresarial de Skype Empresarial usuarios de su organización en el centro Microsoft Teams administración. Vaya a **Configuración de toda** la organización  >  **Skype Empresarial**. Desde aquí, puede administrar Skype de reunión, presencia y notificaciones móviles. [Más información](../skype-for-business-settings.md).
+Puede administrar las Skype Empresarial de Skype Empresarial usuarios de su organización en el centro Microsoft Teams administración. Vaya a **Configuración de toda** la organización  >  **Skype Empresarial**. Desde aquí, puede administrar Reunión de Skype de difusión, presencia y notificaciones móviles. [Más información](../skype-for-business-settings.md).
 
 ## <a name="october-16-2020"></a>16 de octubre de 2020
 
@@ -258,7 +258,7 @@ Use la configuración de eventos en directo de Teams para establecer la configur
 
 ### <a name="skype-for-business-online-connector-integrated-to-teams-powershell-module"></a>Skype Empresarial Conector en línea integrado Teams módulo de PowerShell
 
-La última versión Teams pública de PowerShell está integrada con Skype Empresarial Online Connector, lo que proporciona un único módulo para Teams administración de PowerShell. [Más información](../teams-powershell-overview.md#manage-teams-with-powershell).
+La última versión Teams pública de PowerShell está integrada con Skype Empresarial Online Connector, lo que proporciona un único módulo para Teams administración de PowerShell.  [Más información](../teams-powershell-overview.md).
 
 ## <a name="september-8-2020"></a>8 de septiembre de 2020
 
@@ -298,11 +298,11 @@ Con esta característica, a los usuarios se les asignan automáticamente etiquet
 
 ## <a name="august-14-2020"></a>14 de agosto de 2020
 
-### <a name="cortana-voice-skills-in-teams"></a>Habilidades de voz de Cortana en Teams
+### <a name="cortana-voice-skills-in-teams"></a>Cortana de voz en Teams
 
-Las aptitudes de voz de Cortana en Teams aplicación móvil ayudan a los usuarios a realizar tareas de reunión, comunicación y colaboración simplemente con el lenguaje natural hablado. Los usuarios pueden hablar con Cortana haciendo clic en el botón del micrófono en la aplicación de Teams y realizar solicitudes como "Llamar a Megan" o "Enviar un mensaje a mi próxima reunión" si necesitan conectarse con alguien mientras hacen malabares con las tareas domésticas, caminan con el perro o generalmente en cualquier lugar. Los usuarios pueden unirse a reuniones simplemente diciendo "Unirse a mi próxima reunión" o comprobar su calendario preguntándole "qué tengo esta mañana". Una vez en una reunión o una llamada, pueden invocar Cortana desde el menú de desbordamiento de la fase de reunión y realizar tareas típicas en la reunión como agregar personas por nombre o número ("Agregar Megan a la llamada"), presentación del deck ("presentar el panel de revisión trimestral") o navegar por diapositivas ("Ir a la diapositiva del apéndice"). Otras cosas que admite la característica son buscar y compartir archivos, buscar y navegar dentro de la aplicación de Teams ("Abrir mi chat con Juan, Ir a mi actividad no leída, Ir a mis menciones, etc.).
+Cortana de voz en Teams aplicación móvil ayudan a los usuarios a realizar tareas de reunión, comunicación y colaboración simplemente con el lenguaje natural hablado. Los usuarios pueden hablar con Cortana haciendo clic en el botón del micrófono en la aplicación de Teams y realizar solicitudes como "Llamar a Megan" o "Enviar un mensaje a mi próxima reunión" si necesitan conectarse con alguien mientras hacen malabares con las tareas domésticas, caminan con el perro o generalmente en cualquier lugar. Los usuarios pueden unirse a reuniones simplemente diciendo "Unirse a mi próxima reunión" o comprobar su calendario preguntándole "qué tengo esta mañana". Una vez en una reunión o una llamada, pueden invocar Cortana desde el menú de desbordamiento de la fase de reunión y realizar tareas típicas en la reunión, como agregar personas por nombre o número ("Agregar Megan a la llamada"), presentación del deck ("presentar el deck de revisión trimestral") o navegar por diapositivas ("Ir a la diapositiva del apéndice"). Otras cosas que admite la característica son buscar y compartir archivos, buscar y navegar dentro de la aplicación de Teams ("Abrir mi chat con Juan, Ir a mi actividad no leída, Ir a mis menciones, etc.).
 
-Cortana en Teams cumple las mismas promesas de privacidad, seguridad y cumplimiento a nivel empresarial para los servicios empresariales de Cortana, como se refleja en los Términos de servicios en línea [(OST).](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [Más información](../cortana-in-teams.md).
+Cortana en Teams cumple las mismas promesas de privacidad, seguridad y cumplimiento a nivel empresarial para los servicios empresariales de Cortana, tal y como se refleja en los Términos de servicios en línea [(OST).](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [Más información](../cortana-in-teams.md).
 
 ### <a name="teams-devices-administrator"></a>Teams Administrador de dispositivos
 

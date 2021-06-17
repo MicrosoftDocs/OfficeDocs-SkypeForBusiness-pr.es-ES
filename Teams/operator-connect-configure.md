@@ -1,5 +1,5 @@
 ---
-title: Configurar operador Conectar
+title: Configurar Operator Connect
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -15,29 +15,29 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Obtenga más información sobre cómo configurar operador Conectar.
+description: Obtenga más información sobre cómo configurar Operator Connect.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb6ceacb6e7a2cc4d458c86edda96511e5230ace
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: c4f4ec3d1d7cf39402da562e5939d794ac9f1624
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717861"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947582"
 ---
-# <a name="configure-operator-connect"></a>Configurar operador Conectar
+# <a name="configure-operator-connect"></a>Configurar Operator Connect
 
 >[!NOTE]
->El Conectar operador solo está disponible actualmente en **la vista previa pública.** La vista previa pública le permite probar las próximas características y proporcionar comentarios. Es posible que las características incluidas en la vista previa pública no se completen, que se someten a cambios y que no se admiten en Office 365 Administración Pública nubes.
+>Operator Connect solo está disponible actualmente en **versión preliminar pública.** La vista previa pública le permite probar las próximas características y proporcionar comentarios. Es posible que las características incluidas en la versión preliminar pública no estén completas, que puedan sufrir cambios y que no sean compatibles con las nubes de Office 365 Government.
 
-En este artículo se describe cómo configurar operador Conectar. Antes de configurar Conectar operador, asegúrese de leer Plan para operadores [Conectar](operator-connect-plan.md) información sobre requisitos previos y licencias.
+En este artículo se describe cómo configurar Operator Connect. Antes de configurar Operator Connect, asegúrese de leer [Plan para Conexión de](operator-connect-plan.md) operadores para obtener información sobre los requisitos previos y las licencias.
 
 ## <a name="enable-an-operator"></a>Habilitar un operador
 
-Puede habilitar, editar y quitar operadores en el Centro Teams administración. En el panel de navegación izquierdo, vaya **a Operadores de > voz.**
+Puede habilitar, editar y quitar operadores en el Centro de administración de Teams. En el panel de navegación izquierdo, vaya **a Operadores de > voz.**
 
 Para habilitar un operador:
 
@@ -45,7 +45,7 @@ Para habilitar un operador:
 
 2. **Seleccione países.** En **Configuración del operador,** seleccione los países que desea habilitar con el operador seleccionado.
 
-3. **Proporcionar información de contacto (opcional).** Si desea que los operadores se pondrán en contacto con usted con información adicional sobre Conectar operador, active la casilla y proporcione su información de contacto.  
+3. **Proporcionar información de contacto (opcional).** Si desea que los operadores se pondrán en contacto con usted con información adicional sobre Conexión del operador, active la casilla y proporcione su información de contacto.  
 
 4. **Aceptar el aviso de transferencia de datos.**
 
@@ -55,40 +55,40 @@ Para habilitar un operador:
 
 La forma de configurar los números de teléfono depende de si está configurando números para nuevos usuarios o moviendo números existentes desde Planes de llamadas de Microsoft o Enrutamiento directo.
 
-- Si necesita adquirir números de teléfono para nuevos usuarios, vea Adquirir números para nuevos [Teams usuarios.](#acquire-numbers-for-new-teams-users)
+- Si necesita adquirir números de teléfono para nuevos usuarios, vea [Adquirir números para nuevos usuarios de Teams.](#acquire-numbers-for-new-teams-users)
 
-- Si desea mover números existentes de planes de llamadas a Conectar, vea Mover números de planes de llamadas a [operador Conectar](#move-numbers-from-calling-plans-to-operator-connect).
+- Si desea mover números existentes de Planes de llamadas a Conexión de operadores, vea Mover números de planes [de llamadas a Conexión de operador.](#move-numbers-from-calling-plans-to-operator-connect)
 
-- Si desea mover números existentes de Enrutamiento directo a Operador Conectar, vea Mover números de enrutamiento directo a [operador Conectar](#move-numbers-from-direct-routing-to-operator-connect).
+- Si desea mover números existentes de Enrutamiento directo a Conexión del operador, vea Mover números de [Enrutamiento directo a Conexión del operador.](#move-numbers-from-direct-routing-to-operator-connect)
 
 >[!IMPORTANT]
->**Direcciones de emergencia:** Las direcciones de emergencia asociadas a un número adquirido del operador se administran directamente con el operador. Póngase en contacto con el operador para realizar cualquier cambio.
+>**Direcciones de emergencia:** El operador administra los números de teléfono asociados con las direcciones de emergencia. Una vez que cree direcciones de emergencia en el Centro de administración de Teams, el operador asignará números de teléfono a esas direcciones de emergencia. Para realizar cambios en las direcciones de emergencia y sus números de teléfono asignados, póngase en contacto con su operador.
 
-### <a name="acquire-numbers-for-new-teams-users"></a>Adquirir números para nuevos Teams usuarios
+### <a name="acquire-numbers-for-new-teams-users"></a>Adquirir números para nuevos usuarios de Teams
 
-Para adquirir números para nuevos Teams usuarios, siga estos pasos:
+Para adquirir números para nuevos usuarios de Teams, siga estos pasos:
 
-1. **Asigne una Sistema telefónico licencia.** Puede asignar una licencia de Sistema telefónico a los usuarios desde el centro de administración de Microsoft 365 o mediante PowerShell. Para obtener más información, vea [Asignar Teams de complementos a los usuarios.](teams-add-on-licensing/assign-teams-add-on-licenses.md)
+1. **Asignar una licencia de Sistema telefónico.** Puede asignar una licencia de Sistema telefónico a los usuarios desde el Centro de administración de Microsoft 365 o mediante PowerShell. Para obtener más información, vea [Asignar licencias de complementos de Teams a los usuarios.](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 
-2. **Asegúrese de que está en modo TeamsOnly.** Para comprobarlo, en el Teams de administración, vaya a Configuración de toda **la organización > Teams actualización.** El modo de coexistencia debe establecerse en Teams solo.
+2. **Asegúrese de que solo está en modo Teams.** Para comprobar si su organización solo está en modo Teams, en el Centro de administración de Teams, vaya a Configuración de toda la **organización > actualización de Teams.** Para comprobar si un usuario solo está en modo Teams, vaya a **Usuarios** y seleccione una cuenta de usuario. En la **pestaña Cuenta,** en **Actualización de Teams, compruebe** que el modo de coexistencia está establecido en "Solo Teams".
 
-3. **Crear y validar direcciones de emergencia.** En el Teams de administración, vaya a Ubicaciones **> de** emergencia para configurar direcciones de emergencia. Para obtener más información, vea [Agregar, cambiar o quitar una ubicación de emergencia para su organización.](add-change-remove-emergency-location-organization.md)
+3. **Crear y validar direcciones de emergencia.** En el Centro de administración de Teams, vaya a **Ubicaciones > direcciones de emergencia para** configurar las direcciones de emergencia. Para obtener más información, vea [Agregar, cambiar o quitar una ubicación de emergencia para su organización.](add-change-remove-emergency-location-organization.md)
 
-4. **Adquirir números.** Vaya al sitio web de su operador para solicitar y adquirir números de teléfono. Para obtener una lista de sitios web de operadores, vea [Operadores.](#operators) Tendrá que proporcionar su id. de inquilino. Si no conoce su identificador de inquilino, vea Buscar su Microsoft 365 [inquilino para](/onedrive/find-your-office-365-tenant-id) obtener más información.
+4. **Adquirir números.** Vaya al sitio web de su operador para solicitar y adquirir números de teléfono. Para obtener una lista de sitios web de operadores, vea [Operadores.](#operators) Tendrá que proporcionar su id. de inquilino. Si no conoce su id. de inquilino, vea Buscar su id. de inquilino de [Microsoft 365](/onedrive/find-your-office-365-tenant-id) para obtener más información.
 
-5. **Asignar números.** Una vez que el operador complete el pedido, cargarán números a su inquilino. Puede ver los números y el proveedor en el centro Teams de administración yendo a Números **> Teléfono voz.** Asigne números a los usuarios mediante el centro Teams de administración o mediante PowerShell. Para obtener más información, vea [Asignar números.](#assign-numbers)
+5. **Asignar números.** Una vez que el operador complete el pedido, cargarán números a su inquilino. Puede ver los números y el proveedor en el Centro de administración de Teams yendo a Números **de > de teléfono.** Asigne números a los usuarios mediante el Centro de administración de Teams o mediante PowerShell. Para obtener más información, vea [Asignar números.](#assign-numbers)
  
 
-### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>Mover números de planes de llamadas a operador Conectar
+### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>Mover números de planes de llamadas a Operador Connect
 
-1. Póngase en contacto con su operador para portabilidad de los números a Operador Conectar. Consulte [Operadores](#operators) para buscar el sitio web del operador.
+1. Póngase en contacto con su operador para portabilidad de los números a Operador Connect. Consulte [Operadores](#operators) para buscar el sitio web del operador.
 
 2. Después de que el operador complete el pedido de porte, puede quitar los números de teléfono del Plan de llamadas de los usuarios y quitar la licencia del plan de llamadas. A continuación, el operador puede cargar los números en el espacio empresarial.
 
-3. Asigne números Conectar operador a los usuarios mediante el centro Teams administrador o mediante PowerShell. Para obtener más información, vea [Asignar números.](#assign-numbers)
+3. Asignar números de Conexión de operador a los usuarios mediante el Centro de administración de Teams o mediante PowerShell. Para obtener más información, vea [Asignar números.](#assign-numbers)
 
  
-### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>Mover números de Enrutamiento directo a Operador Conectar
+### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>Mover números de Enrutamiento directo a Conexión del operador
 
 1. Quite el número de teléfono existente del usuario de la siguiente manera:  
 
@@ -106,17 +106,17 @@ Para adquirir números para nuevos Teams usuarios, siga estos pasos:
 
 2. Quite cualquier RTC asociado a los usuarios, de lo contrario, las llamadas se enrutarán a la puerta de enlace especificada en el uso de RTC. Para obtener información sobre cómo quitar el uso de RTC, vea [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps).
 
-3. Vaya al sitio web de su operador para solicitar y adquirir números de teléfono. Para obtener una lista de sitios web de operadores, vea [Operadores.](#operators) Tendrá que proporcionar su id. de inquilino. Si no conoce su identificador de inquilino, vea Buscar su Microsoft 365 [inquilino para](/onedrive/find-your-office-365-tenant-id) obtener más información.
+3. Vaya al sitio web de su operador para solicitar y adquirir números de teléfono. Para obtener una lista de sitios web de operadores, vea [Operadores.](#operators) Tendrá que proporcionar su id. de inquilino. Si no conoce su id. de inquilino, vea Buscar su id. de inquilino de [Microsoft 365](/onedrive/find-your-office-365-tenant-id) para obtener más información.
 
-4. Una vez que el operador complete el pedido, cargarán números a su inquilino. Puede ver los números y el proveedor en el centro Teams de administración yendo a Números **> Teléfono voz.** Asigne números Conectar operador a los usuarios mediante el centro Teams administrador o mediante PowerShell. Para obtener más información, vea [Asignar números.](#assign-numbers)
+4. Una vez que el operador complete el pedido, cargarán números a su inquilino. Puede ver los números y el proveedor en el Centro de administración de Teams yendo a Números **de > de teléfono.** Asignar números de Conexión de operador a los usuarios mediante el Centro de administración de Teams o mediante PowerShell. Para obtener más información, vea [Asignar números.](#assign-numbers)
 
    
 
 ### <a name="assign-numbers"></a>Asignar números
 
-Tanto si va a agregar nuevos Teams usuarios o mover usuarios existentes a Operador Conectar, los pasos para asignar números son los siguientes:
+Tanto si va a agregar nuevos usuarios de Teams como si mueve usuarios existentes a Operator Connect, los pasos para asignar números son los siguientes:
 
-Para asignar números mediante el centro Teams administración, vaya a **Teléfono números.** Los pasos son los mismos que asignar números para planes de llamadas. Para obtener más información, vea [Asignar un número de teléfono a un usuario.](assign-change-or-remove-a-phone-number-for-a-user.md)
+Para asignar números mediante el Centro de administración de Teams, vaya a **Números de teléfono.** Los pasos son los mismos que asignar números para planes de llamadas. Para obtener más información, vea [Asignar un número de teléfono a un usuario.](assign-change-or-remove-a-phone-number-for-a-user.md)
 
 Para asignar números mediante PowerShell, use el cmdlet Set-CsOnlineVoiceUser siguiente:
 

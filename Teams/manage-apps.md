@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo administrar sus Teams aplicaciones
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 16b139750e5a227cc6702e0f8d57cd2f4625f983
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: 2930b3c0b0ec149d5f18fa6f5fd6db2bd7b4c149
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669232"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947601"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro Microsoft Teams administración
 
@@ -49,22 +49,18 @@ Puede ver todas las aplicaciones, incluida la siguiente información sobre cada 
 - **Publisher:** Nombre del editor.
 - **Estado de publicación:** Estado de publicación de aplicaciones personalizadas.
 - **Estado:** Estado de la aplicación en el nivel de organización, que puede ser uno de los siguientes:
-
-    - **Permitido:** la aplicación está disponible para todos los usuarios de su organización.
-    
-    - **Bloqueado:** la aplicación está bloqueada y no está disponible para los usuarios de su organización.
-    
-    - **Bloqueado en toda la organización:** la aplicación está bloqueada en la configuración de la aplicación para toda la organización.
-    
-      Es importante saber que esta columna representa el estado permitido y bloqueado de las aplicaciones que anteriormente estaban en el panel **de configuración de toda la** organización. Ahora puede ver, bloquear y permitir aplicaciones en toda la organización en la **página** Administrar aplicaciones. 
+- **Permitido:** la aplicación está disponible para todos los usuarios de su organización.
+- **Bloqueado:** la aplicación está bloqueada y no está disponible para los usuarios de su organización.
+  - **Bloqueado en toda la organización:** la aplicación está bloqueada en la configuración de la aplicación para toda la organización.
+      Es importante saber que esta columna representa el estado permitido y bloqueado de las aplicaciones que anteriormente estaban en el panel **de configuración de toda la** organización. Ahora puede ver, bloquear y permitir aplicaciones en toda la organización en la **página** Administrar aplicaciones.
 - **Licencias:** indica si una aplicación ofrece una suscripción de Software como Servicio (SaaS) para la compra. Esta columna solo se aplica a aplicaciones de terceros. Cada aplicación de terceros tendrá uno de los siguientes valores:
-    - **Comprar ahora:** la aplicación ofrece una suscripción SaaS y está disponible para comprar.  
-    - **Comprado:** la aplicación ofrece una suscripción SaaS y ha comprado licencias para ella.
-    - **- -**: La aplicación no ofrece una suscripción de SaaS.
+- **Comprar ahora:** la aplicación ofrece una suscripción SaaS y está disponible para comprar.  
+- **Comprado:** la aplicación ofrece una suscripción SaaS y ha comprado licencias para ella.
+- **- -**: La aplicación no ofrece una suscripción de SaaS.
 - **Aplicación personalizada:** si la aplicación es una aplicación personalizada.
 - **Permisos:** indica si una aplicación de terceros o personalizada que está registrada en Azure Active Directory (Azure AD) tiene permisos que necesitan consentimiento. Verá uno de los siguientes valores:
-    - **Ver detalles:** la aplicación tiene permisos que requieren consentimiento para que la aplicación pueda acceder a los datos. 
-    - **- -**: La aplicación no tiene permisos que necesiten consentimiento.
+- **Ver detalles:** la aplicación tiene permisos que requieren consentimiento para que la aplicación pueda acceder a los datos.
+- **- -**: La aplicación no tiene permisos que necesiten consentimiento.
 - **Categorías:** Categorías que se aplican a la aplicación.
 - **Versión:** versión de la aplicación.
 
@@ -77,7 +73,7 @@ Use la página Administrar aplicaciones para publicar aplicaciones creadas espec
 - [Aprobar una aplicación personalizada:](#approve-a-custom-app)use este método si el desarrollador envía la aplicación directamente a la página Administrar aplicaciones con la API de envío de Teams aplicación. A continuación, puede revisar y publicar (o rechazar) la aplicación directamente desde la página de detalles de la aplicación.
 - [Upload un paquete de aplicación:](#upload-an-app-package)Use este método si el desarrollador le envía el paquete de la aplicación .zip formato. Para publicar la aplicación, cargue el paquete de la aplicación.
 
-###  <a name="approve-a-custom-app"></a>Aprobar una aplicación personalizada
+### <a name="approve-a-custom-app"></a>Aprobar una aplicación personalizada
 
 El **widget Pendientes de** aprobaciones de la página Administrar aplicaciones le notifica cuando un desarrollador envía una aplicación mediante la API de envío de Teams aplicación. Una aplicación enviada recientemente aparece en la lista con un estado **de publicación** de **Enviado** y un **estado de** **Bloqueado.** Vaya a la página de detalles de la aplicación para ver más información sobre la aplicación y, a continuación, para publicarla, establezca **Estado de publicación** en **Publicar.**
 
@@ -116,7 +112,7 @@ Use el botón **Agregar al equipo** para instalar una aplicación en un equipo. 
 2. Seleccione **Agregar al equipo**.
 3. En el **panel Agregar al** equipo, busque el equipo al que desea agregar la aplicación, seleccione el equipo y, a continuación, seleccione **Aplicar**.
 
-## <a name="customize-an-app"></a>Personalizar una aplicación 
+## <a name="customize-an-app"></a>Personalizar una aplicación
 
 Ahora puede personalizar una aplicación para incluir un aspecto específico según las necesidades de su organización. Vea [Personalizar aplicaciones en Teams](customize-apps.md).
 
@@ -142,7 +138,7 @@ Use la configuración de aplicaciones de toda la organización para controlar si
 1. En la página Administrar aplicaciones, seleccione **Configuración de la aplicación para toda la organización.** Después, podrá configurar las opciones que desee en el panel.
 
     ![Captura de pantalla de Configuración de aplicaciones para toda la organización](media/manage-apps-org-wide-app-settings.png)
-    
+
 2. En **Aplicaciones de terceros**, desactive o active esta configuración para controlar el acceso a aplicaciones de terceros:
 
     - **Permitir aplicaciones de terceros**: esto controla si los usuarios pueden usar aplicaciones de terceros. Si desactiva esta configuración, los usuarios no podrán instalar ni usar aplicaciones de terceros y el estado  de la aplicación de estas aplicaciones se muestra como Bloqueado en toda la organización en la tabla.
@@ -157,6 +153,24 @@ Use la configuración de aplicaciones de toda la organización para controlar si
 
 3. En **Aplicaciones personalizadas,** desactive o active **Permitir interacción con aplicaciones personalizadas.** Esta configuración controla si los usuarios pueden interactuar con aplicaciones personalizadas. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md).
 4. Seleccione **Guardar para** la configuración de la aplicación de toda la organización para que su efecto se haga efectivo.
+
+## <a name="view-security-and-compliance-information-for-microsoft-365-certified-apps"></a>Ver la información de seguridad y cumplimiento de Microsoft 365 aplicaciones certificadas
+
+Al evaluar una aplicación para su organización, los administradores pueden usar agentes de seguridad de acceso a la nube (CASB) independientes, como Microsoft Cloud App Security (MCAS), para buscar información sobre la seguridad y los comportamientos de una aplicación. El Teams de administración incluye información de seguridad y cumplimiento de MCAS para aplicaciones certificadas de Microsoft 365 para que tenga más información sobre si la aplicación cumple o no sus necesidades.
+
+> [!NOTE]
+> Esta característica está disponible para todos los administradores, independientemente de si su organización tiene o no una licencia compatible con MCAS.
+
+Para obtener acceso a la información de MCAS, siga estos pasos:
+
+1. En el Teams de administración, seleccione **Administrar aplicaciones en** Teams **aplicaciones.**
+1. Seleccione **Certificación** para ordenar aplicaciones y Microsoft 365 aplicaciones certificadas en la parte superior de la tabla.
+1. Elija una Microsoft 365 certificada.
+1. Seleccione la **pestaña Seguridad y** cumplimiento.
+
+![Captura de pantalla de Teams de seguridad y cumplimiento del centro de administración](media/mcas.png)
+
+En esta pestaña, encontrará información sobre seguridad, cumplimiento y protección de datos. También puede expandir cada lista desplegable para obtener más detalles sobre qué capacidades son compatibles con la aplicación seleccionada.
 
 ## <a name="related-topics"></a>Temas relacionados
 
