@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Hungría para Microsoft Teams.
-ms.openlocfilehash: b052da954fe59d6c802cbe485d3c722492299a23
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 5e590a861c7a68b15dd65a3ce304373fe49525d8
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130515"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993953"
 ---
 # <a name="phone-number-management-for-hungary"></a>Teléfono de números para Hungría
 
@@ -37,7 +37,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Microsoft Teams de administración.<br/> |En Hungría, puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y [enviándonoslo.](mailto:ptneu@microsoft.com)<br/><br/>[Nueva solicitud de número de teléfono para Hungría (v.1.0) (hu-hu).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)<br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y enviarlo a nosotros.<br/><br>Los nuevos pedidos pueden tardar de dos a tres semanas en completarse en este mercado.  |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Microsoft Teams de administración.<br/> |En Hungría, puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y [enviándonoslo.](mailto:ptneu@microsoft.com)<br/><br/>[Nueva solicitud de número de teléfono para Hungría (v.1.0) (hu-hu).](https://download.microsoft.com/download/f/7/7/f7782f40-8a64-49b6-b97d-89bfb111f1ea/Know%20your%20customer%20for%20Hungary.pdf)<br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y enviarlo a nosotros.<br/><br>Los nuevos pedidos pueden tardar de dos a tres semanas en completarse en este mercado.  |
 |Consigue que nos transfieran números de teléfono.<br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Hungría (todos los números) (v.1.0) (hu-hu)](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com). <br/><br/>Transferir números puede tardar de dos a tres semanas en completarse en este mercado. <br/><br/>Estos números no se pueden usar para conferencias en este momento.   |
 |Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacionales.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
 |Cambie el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |

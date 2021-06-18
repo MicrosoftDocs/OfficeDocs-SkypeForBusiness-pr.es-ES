@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams para audio y vídeo.
-ms.openlocfilehash: 3f7a557555d6846c4ada792ceb05da43ce91ed0f
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: e599948a78baa96849e9ddaedf6eb2a4a131ebf4
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598779"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004189"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configuración de directiva de reunión para audio & vídeo
 
@@ -35,11 +35,12 @@ En este artículo se describen las configuraciones de directiva de reunión espe
 
 - [Permitir transcripción](#allow-transcription)
 - [Permitir la grabación en la nube](#allow-cloud-recording)
-- [Modo de audio IP](#mode-for-ip-audio) 
-- [Modo de vídeo IP](#mode-for-ip-video) 
+- [Modo de audio IP](#mode-for-ip-audio)
+- [Modo de vídeo IP](#mode-for-ip-video)
 - [Permitir vídeo IP](#allow-ip-video)
 - [Velocidad de bits multimedia (kb/s)](#media-bit-rate-kbs)
-- [Modo de vilters de vídeo](#video-filters-mode)
+- [Modo filtros de vídeo](#video-filters-mode)
+- [Permitir la configuración de fondo personalizada](#allow-custom-background-settings)
 
 ### <a name="allow-transcription"></a>Permitir transcripción
 
@@ -95,7 +96,7 @@ Esta es una directiva por usuario. Esta configuración controla si se puede acti
 
 Si se establece en **Deshabilitado** para un usuario, ese usuario no puede activar el vídeo o ver vídeos compartidos por otros participantes de la reunión. Los participantes de la reunión que no tengan ninguna directiva asignada (por ejemplo, los participantes anónimos) tienen esto establecido como **Vídeo de salida y entrada habilitado** de forma predeterminada.
 
-Esta configuración no se aplica a los dispositivos de la sala de conferencias, como los dispositivos de Surface Hub y Salas de Microsoft Teams. 
+Esta configuración no se aplica a los dispositivos de la sala de conferencias, como los dispositivos de Surface Hub y Salas de Microsoft Teams.
 
 Esta configuración aún no está disponible para entornos de Microsoft 365 Government Community Cloud (GCC), GCC High o Department of Defense (DoD).
 
@@ -106,7 +107,7 @@ Para obtener más información, consulte [Administrar el audio y el vídeo de lo
 
 ### <a name="allow-ip-video"></a>Permitir vídeo IP
 
-Esta es una combinación de directiva por organizador y por usuario. El vídeo es un componente clave de las reuniones. En algunas organizaciones, los administradores pueden querer disponer de más control sobre qué reuniones de usuarios tienen vídeo. Esta configuración controla si se puede activar el vídeo en reuniones hospedadas por un usuario y en llamadas 1:1 y de grupo iniciadas por un usuario. En Teams móviles, esta configuración controla si los usuarios pueden compartir fotos y vídeos en una reunión. 
+Esta es una combinación de directiva por organizador y por usuario. El vídeo es un componente clave de las reuniones. En algunas organizaciones, los administradores pueden querer disponer de más control sobre qué reuniones de usuarios tienen vídeo. Esta configuración controla si se puede activar el vídeo en reuniones hospedadas por un usuario y en llamadas 1:1 y de grupo iniciadas por un usuario. En Teams móviles, esta configuración controla si los usuarios pueden compartir fotos y vídeos en una reunión.
 
 Las reuniones organizadas por un usuario que tiene habilitada esta configuración de directiva, permiten el uso compartido de vídeo en la reunión por parte de los participantes de la reunión, si estos también tienen la configuración de directiva habilitada. Los participantes de la reunión a los que no se les ha asignado ninguna directiva (por ejemplo, los participantes anónimos y federados) heredan la directiva del organizador de la reunión.
 
@@ -150,7 +151,7 @@ Para un usuario, la configuración de directiva más restrictiva para el vídeo 
 |---------|---------|
 |Deshabilitar el audio y el vídeo para los participantes en reuniones  |Modo de audio IP: **Deshabilitado**<br> Modo de vídeo IP: **Deshabilitado**<br>Permitir vídeo IP: N/D       |
 |Habilitar solo vídeo y audio entrante para participantes en reuniones  |Modo de audio IP: **Audio entrante y saliente activado**<br> Modo de vídeo IP: **Vídeo entrante y saliente activado**<br>Permitir vídeo IP: **Activado**       |
-|Deshabilitar el vídeo para los participantes en reuniones (los participantes solo tienen audio)|  Modo de audio IP: **Activar el audio entrante y saliente**<br> Modo de vídeo IP: **Deshabilitado**<br>Permitir vídeo IP: N/D        
+|Deshabilitar el vídeo para los participantes en reuniones (los participantes solo tienen audio)|  Modo de audio IP: **Activar el audio entrante y saliente**<br> Modo de vídeo IP: **Deshabilitado**<br>Permitir vídeo IP: N/D
 |Habilitar el audio y el vídeo para los participantes en reuniones    |Modo de audio IP: **Audio entrante y saliente activado** (predeterminado)<br> Modo de vídeo IP: **Vídeo entrante y saliente activado** (predeterminado)<br>Permitir vídeo IP: **Activado** (predeterminado)    |
 
 Se aplica la directiva más restrictiva entre la directiva del organizador de la reunión y la del usuario. Por ejemplo, si un organizador tiene una directiva que restringe el vídeo y la directiva de un usuario no restringe el vídeo, los participantes de la reunión heredan la directiva del organizador de la reunión y no tienen acceso al vídeo en las reuniones. Esto significa que solo podrán unirse a la reunión con audio.
@@ -160,7 +161,7 @@ Se aplica la directiva más restrictiva entre la directiva del organizador de la
 
 #### <a name="teams-mobile-clients"></a>Clientes de móvil de Teams
 
-Para los usuarios de clientes de móvil de Teams, la capacidad para compartir fotos y vídeos durante una reunión también está determinada por el valor **Permitir el vídeo IP** o **Modo de vídeo de IP**. En función de la configuración de directiva que tenga prioridad, la capacidad para compartir vídeos y fotos no estará disponible. Esto no afecta al uso compartido de la pantalla, que se configura con el modo de [Uso compartido de pantalla](meeting-policies-content-sharing.md#screen-sharing-mode). Asimismo, puede establecer una directiva de movilidad de [Teams](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) para evitar que los usuarios móviles utilicen vídeo IP sobre una conexión móvil, lo que significa que deben usar una conexión Wi-Fi.
+Para los usuarios de clientes de móvil de Teams, la capacidad para compartir fotos y vídeos durante una reunión también está determinada por el valor **Permitir el vídeo IP** o **Modo de vídeo de IP**. En función de la configuración de directiva que tenga prioridad, la capacidad para compartir vídeos y fotos no estará disponible. Esto no afecta al uso compartido de la pantalla, que se configura con el modo de [Uso compartido de pantalla](meeting-policies-content-sharing.md#screen-sharing-mode). Asimismo, puede establecer una directiva de movilidad de [Teams](/powershell/module/skype/new-csteamsmobilitypolicy) para evitar que los usuarios móviles utilicen vídeo IP sobre una conexión móvil, lo que significa que deben usar una conexión Wi-Fi.
 
 ### <a name="media-bit-rate-kbs"></a>Velocidad de bits multimedia (kb/s)
 
@@ -176,7 +177,7 @@ Para las reuniones que necesitan una experiencia de vídeo de mayor calidad, com
 
 Esta configuración se aplica por participante. Esta configuración controla si los usuarios pueden personalizar su fondo de vídeo en una reunión.
 
-Actualmente, solo puede usar PowerShell para establecer esta directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
+Actualmente, solo puede usar PowerShell para establecer esta directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
 
 Para especificar si los usuarios pueden personalizar su fondo de vídeo en una reunión, establezca el parámetro **VideoFiltersMode** como se indica a continuación:
 
@@ -190,13 +191,41 @@ Para especificar si los usuarios pueden personalizar su fondo de vídeo en una r
 > [!NOTE]
 > Teams no puede filtrar las imágenes cargadas por los usuarios. Al usar la configuración **AllFilters**, debe tener directivas de organización internas para evitar que los usuarios puedan cargar imágenes ofensivas, inadecuadas, o para las cuales la organización no tenga derechos de uso en el contexto de fondos para reuniones de Teams.
 
+### <a name="allow-custom-background-settings"></a>Permitir la configuración de fondo personalizada
 
+Puede agregar imágenes de fondo personalizadas para que se utilicen por espacio empresarial. Esta característica permite a las empresas aplicar la personal de marca corporativa a Teams reuniones.
 
+1. Inicie la sesión en el Centro de administración de Teams
 
+2. Seleccione **Directivas de reunión Personalizar** imágenes de  >  **reunión.**
 
+   ![La selección de directivas de reunión con el botón Personalizar imágenes de reunión resaltado](media/custom-background-image-button.png)
+
+3. Seleccione **Activar en** imágenes de fondo ancho de la **organización.**
+
+4. Seleccione **+ Agregar imágenes**.
+
+5. En el panel Administrar fondos, seleccione **Agregar imagen.**
+
+6. Asegúrese de que las imágenes cumplen estos requisitos:
+  
+   - Tamaño mínimo 360 px
+   - Tamaño máximo 2048 px
+   - Tipo de archivo de PNG, JPG o BMP
+   - Se pueden cargar un máximo de 50 imágenes
+
+7. Obtenga una vista previa de las imágenes que ha seleccionado y, a continuación, seleccione **Cerrar.**
+
+8. Revise las imágenes y agregue más según sea necesario.
+
+9. Seleccione **Guardar**.
+
+Los asistentes a la reunión verán una selección de imágenes de fondo que pueden usar cuando asistan a una reunión.
+
+> [!NOTE]
+> Los cambios pueden tardar hasta 24 horas en tener efecto.
 
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 - [Asignar directivas a los usuarios en Teams](assign-policies.md)
-

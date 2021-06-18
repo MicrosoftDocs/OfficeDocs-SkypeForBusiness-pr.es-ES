@@ -1,5 +1,5 @@
 ---
-title: Guía para administradores de TI para Reflect en Microsoft Teams
+title: Guía para administradores de TI para Reflect en Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb7dc36dc08677d0f6dd1e849383b7e146c972b
-ms.sourcegitcommit: bbf44378373668899d338d56cde4c92cc31202c4
+ms.openlocfilehash: 981061e4892f679dac2a4e4f47fdcc929e6a02fb
+ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52070656"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52997709"
 ---
-# <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guía para administradores de TI para Reflect en Microsoft Teams
+# <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guía para administradores de TI para Reflect en Microsoft Teams
 
 Este documento ofrece información referente a [Reflect](https://aka.ms/reflect): una parte esencial de [Insights para Educación en Microsoft Teams](class-insights.md). Reflect ayuda a los estudiantes a reconocer y explorar sus emociones ofreciéndoles oportunidades periódicas para que las compartan y las escuchen. Reflect puede ayudar a ampliar el vocabulario emocional de los alumnos y a ser más empáticos con sus compañeros, a la vez que proporciona comentarios valiosos a los educadores para conseguir una comunidad de aula saludable.
 
@@ -33,7 +33,7 @@ Esta aplicación de repositorios utiliza emoticonos y granularidad emocional bas
 ## <a name="privacy-and-security"></a>Privacidad y seguridad
 Reflect sigue los mismos estándares de privacidad y seguridad que Insights para Educación para proteger la información confidencial de los estudiantes.
 
-La información que se recolecta y se muestra a través de Reflect cumple con [más de 90 estándares normativos y del sector](/compliance/regulatory/offering-home), incluidos [RGPD](/compliance/regulatory/gdpr) y la [Ley de Derechos Educativos y Privacidad de la Familia (FERPA)](/compliance/regulatory/offering-ferpa) para la seguridad de los alumnos y niños, así como otras normas similares y orientadas a la privacidad.
+La información que se recolecta y se muestra a través de Reflect cumple con [más de 90 estándares normativos y del sector](/compliance/regulatory/offering-home), incluidos [RGPD](/compliance/regulatory/gdpr) y la [Ley de Derechos Educativos y Privacidad de la Familia (FERPA)](/compliance/regulatory/offering-ferpa) para la seguridad de los alumnos y niños, así como otras normas similares y orientadas a la privacidad.
 
 Les estudiantes *nunca* ven los nombres de los demás estudiantes, solo si les responden. Aunque pueden ver la distribución de las respuestas, *no pueden* ver los nombres asociados a cada reflexión. 
 
@@ -45,7 +45,7 @@ Los datos pertenecen a la institución educativa y Microsoft solo los recolecta 
 
 Los datos se almacenan en Insights para Educación. De forma predeterminada, Insights para Educación está activada. Cuando decide desactivarlo, **eliminamos todos los datos recolectados para Reflect**. Vuelva a activar Insights para Educación y empezaremos a recolectar datos desde el momento en que se vuelvan a activar.
 
-En [Guía para administradores de TI para Insights para Educación](class-insights.md), puede leer cómo funciona Insights para Educación (y las ubicaciones de almacenamiento) y [cómo activar o desactivar Insights para Educación](class-insights.md#turn-insights-off-or-on) cuando quiera eliminar la información o habilitar el servicio.
+En [Guía para administradores de TI para Insights para Educación](class-insights.md), puede leer cómo funciona Insights para Educación (y las ubicaciones de almacenamiento) y [cómo activar o desactivar Insights para Educación](class-insights.md#turn-insights-on-or-off) cuando quiera eliminar la información o habilitar el servicio.
 
 La información que se recopila de los estudiantes en Reflect, no se recopila a través de datos de invitados. **Si un estudiante se define como un invitado, no se recopilarán sus datos.** 
 

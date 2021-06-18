@@ -17,22 +17,22 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Obtenga información sobre cómo administrar tareas en el centro Microsoft Teams administración de Teams para el sector educativo.
+description: Obtenga información sobre cómo administrar tareas en el centro Microsoft Teams administración en Teams para Educación.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 410f5d32dd8af4775639a080725cd5680b6a70c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: abf17b12e8555ce12642627093d856f917dce439
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121378"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004152"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 
-Las características Tareas y calificaciones de Teams para el sector educativo permiten a los profesores asignar tareas, trabajos o cuestionarios a sus alumnos. Los formadores pueden administrar las escalas de tiempo de las tareas, las instrucciones, agregar recursos para entregar, calificar con las indicaciones y mucho más. También pueden realizar un seguimiento del progreso de clase y de alumno individual en la pestaña Calificaciones.
+Las características Tareas y calificaciones de Teams para Educación permiten a los profesores asignar tareas, trabajos o cuestionarios a sus alumnos. Los formadores pueden administrar las escalas de tiempo de las tareas, las instrucciones, agregar recursos para entregar, calificar con las indicaciones y mucho más. También pueden realizar un seguimiento del progreso de clase y de alumno individual en la pestaña Calificaciones.
 
-[Obtenga más información sobre Tareas y calificaciones en Teams para el sector educativo.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[Obtenga más información sobre Tareas y calificaciones en Teams para Educación](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
 
 > [!Note]
 > Para obtener más información Teams tareas en diferentes plataformas, [vea Teams características por plataforma.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
@@ -107,3 +107,10 @@ El **TurnitinApiKey** se le dará después de seguir las indicaciones. Copie la 
 ![Captura de pantalla que muestra cómo copiar la clave de API](./educationImages/Assignments_mopo_turnitin3.png)
 
 Al hacer clic en **el botón** Guardar del Centro de administración para esta configuración, espere unas horas para que esta configuración suba a efecto.
+
+### <a name="removing-assignments-and-grades"></a>Quitar tareas y calificaciones
+Puede usar directivas Teams para quitar tareas y calificaciones para un usuario específico o para todo el espacio empresarial. 
+
+Para quitar tareas y calificaciones para un usuario individual, vaya al  Centro de administración de Teams y vaya **a** Teams aplicaciones > directivas de permisos para crear una nueva definición de directiva de permisos de aplicación.  Al crear la nueva definición de  directiva, establezca la directiva  de aplicaciones de **Microsoft** en Bloquear aplicaciones específicas, permitir a todos los demás y agregar Asignaciones a la lista de aplicaciones bloqueadas. Una vez guardada la nueva definición de directiva, asígnela a los usuarios adecuados.
+
+Para quitar tareas y calificaciones para todo el espacio empresarial, vaya al Centro de administración de **Teams,** vaya  **Teams** aplicaciones > Administrar aplicaciones y busque y seleccione Tareas en la lista de aplicaciones. Cambie la configuración de estado dentro de la página Configuración de la aplicación Asignación a _Bloqueado._ 
