@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el Microsoft Teams de administración o Windows PowerShell para crear y administrar planes de marcado (planes de marcado de llamadas RTC).
-ms.openlocfilehash: f94c847f5c75e793856c0975678e2806629e2dcd
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 59867dfe49436635f690ff9f5d56a2be36e553ec
+ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282367"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "53046237"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
@@ -49,7 +49,7 @@ Después de planear los planes de marcado para su organización y de averiguar t
 5. Organice las reglas de normalización en el orden que desee. Haga **clic en Subir** o **Bajar** para cambiar la posición de las reglas de la lista.
 
     > [!NOTE]
-    > Teams atraviesa la lista de reglas de normalización desde arriba hacia abajo y usa la primera regla que coincide con el número marcado. Si configura un plan de marcado para que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas se ordenan por encima de las menos restrictivas.
+    > Teams atraviesa la lista de reglas de normalización desde arriba hacia abajo y usa la primera regla que coincide con el número marcado. Si configura un plan de marcado para que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas se ordenan por encima de las menos restrictivas. Si configura un plan de marcado que normaliza un número marcado sin un "+", el servicio de llamadas intentará normalizar el número de nuevo con las reglas del inquilino y del plan de marcado regional. Para evitar la doble normalización, se recomienda que todas las reglas de normalización den como resultado números empezando por un "+". Los clientes de Enrutamiento directo pueden usar [reglas de traducción troncal](direct-routing-translate-numbers.md) para quitar el "+" si es necesario. 
 
 6. Haga clic en **Guardar**.
 7. Si desea probar el plan de marcado, en Plan de marcado de **prueba,** escriba un número de teléfono y, a continuación, haga clic en **Probar.**

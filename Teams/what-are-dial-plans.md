@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Obtenga información sobre qué tipo de planes de llamadas de marcado (planes de marcado de llamadas RTC) están disponibles con Teams y cómo elegir uno para su organización.  '
-ms.openlocfilehash: 86ec311a7abec9b9268555884db3ff8de7ee256b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 010065c32135d893b15bcc692e84a1b59269650d
+ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100986"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "53046227"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
@@ -60,7 +60,7 @@ Los siguientes son los posibles planes de marcado efectivos:
 Vea [Crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear sus planes de marcado de inquilino.
 
 > [!NOTE]
-> En el escenario en el que no se aplican reglas de normalización del plan de marcado a un número marcado, la cadena de marcado sigue normalizada para anteponer "+CC" donde CC es el código de país de la ubicación de uso del usuario de marcado. Esto se aplica a planes de llamadas, enrutamiento directo y escenarios de acceso telefónico local de conferencia RTC.
+> En el escenario en el que no se aplican reglas de normalización del plan de marcado a un número marcado, la cadena de marcado sigue normalizada para anteponer "+CC" donde CC es el código de país de la ubicación de uso del usuario de marcado. Esto se aplica a planes de llamadas, enrutamiento directo y escenarios de acceso telefónico local de conferencia RTC. Además, si una regla de normalización del plan de marcado de inquilino da como resultado un número que no comienza con "+", el servicio de llamadas intentará normalizar el número recibido del cliente de Teams en función del plan de marcado de inquilino y, si no coincide, en el plan de marcado de región. Para evitar la doble normalización, se recomienda que los clientes de Enrutamiento directo normalicen los números para incluir un signo + y, después, quite el signo + con las reglas de traducción troncal. 
 
 ## <a name="planning-for-tenant-dial-plans"></a>Diseño de planes de marcado de inquilino
 
