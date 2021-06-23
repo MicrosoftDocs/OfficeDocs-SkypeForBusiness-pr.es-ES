@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre si audioconferencia, Sistema telefónico, planes de llamadas, créditos de comunicaciones y números de teléfono gratuitos y gratuitos están disponibles en un país o región.
-ms.openlocfilehash: 3890fa79173dd6327830cc995bf41d79a0b2dde0
-ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
+ms.openlocfilehash: 099548bc9b88293dcb1fcc0acddd49ac295ab56e
+ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52873827"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53069369"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -157,7 +157,7 @@ Puede seleccionar un país o una región para ver las características de voz en
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-Si está buscando una hoja de cálculo con todos los países y regiones, descargue y guarde la hoja de cálculo de disponibilidad de región o país de la característica de voz **[en la nube.](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-05252021)-(en-us).xlsx)**
+Si está buscando una hoja de cálculo con todos los países y regiones, descargue y guarde la hoja de cálculo de disponibilidad de región o país de la característica de voz **[en la nube.](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-06162021)-(en-us).xlsx)**
 
 ***
 

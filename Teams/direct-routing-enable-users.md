@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo habilitar a los Teléfono Microsoft System Direct Routing.
-ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d2b7c4b5d6268d1498a47537e0edbbf892198aa
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122224"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075373"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar usuarios para enrutamiento directo, voz y correo de voz
 
@@ -47,7 +47,7 @@ Cuando esté listo para habilitar usuarios para enrutamiento directo, siga estos
 Hay dos opciones para crear un nuevo usuario en Microsoft 365 o Office 365. Sin embargo, Microsoft recomienda que su organización elija una opción para evitar problemas de enrutamiento: 
 
 - Cree el usuario en Active Directory local y sincronice el usuario con la nube. Vea [Integrar los directorios locales con Azure Active Directory](/azure/active-directory/connect/active-directory-aadconnect).
-- Cree el usuario directamente en el Microsoft 365 de administración. Vea Agregar usuarios individualmente o en masa [a Microsoft 365 o Office 365- Ayuda para administradores.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
+- Cree el usuario directamente en el Centro de administración de Microsoft 365. Vea Agregar usuarios individualmente o en masa [a Microsoft 365 o Office 365- Ayuda para administradores.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
 
 Si su implementación de Skype Empresarial Online coexiste con Skype Empresarial 2015 o Lync 2010 o 2013 local, la única opción compatible es crear el usuario en el Active Directory local y sincronizar el usuario con la nube (opción 1). 
 
@@ -102,8 +102,8 @@ Para agregar el número de teléfono y habilitar el correo de voz:
     Si los usuarios "Spencer Low" y "Stacy Quinn" comparten el mismo número base con extensiones únicas, escriba lo siguiente
     
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
     Se recomienda, pero no necesario, que el número de teléfono usado esté configurado como un número de teléfono E.164 completo con código de país. Es compatible con configurar números de teléfono con extensiones que se usarán para buscar usuarios cuando la búsqueda en el número base devuelva más de un resultado. Esto permite a las empresas configurar números de teléfono con el mismo número base y extensiones únicas. Para que la búsqueda se realice correctamente, la invitación debe incluir el número completo con la extensión de la siguiente manera:

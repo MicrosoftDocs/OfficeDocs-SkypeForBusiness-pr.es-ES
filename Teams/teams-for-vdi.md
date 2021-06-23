@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39150cc5ff6a64c17bad660b4df4b74610399cd1
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: a6eba4f1da849a2cf8e355454fd1ba794a3496db
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717741"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075393"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -396,9 +396,10 @@ Las siguientes características de llamadas y reuniones no son compatibles:
 - Efectos y desenfoque de fondo
 - Roles de productor y moderador de eventos en directo y de difusión
 - Location-Based enrutamiento (LBR)
-- Estacionar llamada
+- Tono de llamada RTC
 - Sonido del equipo/audio del sistema compartido
 - Desvío de medios para enrutamiento directo
+- Estacionar llamada
 - Control de zoom 
 
 > [!NOTE]

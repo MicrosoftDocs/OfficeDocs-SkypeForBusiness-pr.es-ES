@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo restablecer el PIN de audioconferencia de un usuario en Microsoft Teams y obtenga información importante sobre los PIN.
-ms.openlocfilehash: 7ea380fbeb722337eaec598823b12dbe18f49918
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ece69ec231408cc860f2fad803d92d22feaca781
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117638"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075383"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Restablecer el PIN de Audioconferencia en Microsoft Teams
 
 Un PIN es un código integrado por números que se crea para cada usuario Microsoft Teams que está habilitado para las audioconferencias. Los organizadores de la reunión usan los PIN de audioconferencia para identificar que son el organizador de la reunión y permitirles iniciar una reunión por teléfono. Si usan la aplicación Microsoft Teams para iniciar la reunión, no se requiere un PIN. Si los usuarios olvidan su PIN y no pueden encontrarlo en el correo electrónico que se les envió cuando se habilitaron para las audioconferencias, un administrador puede restablecer su PIN o puede restablecer su propio PIN.
   
-Las reuniones se pueden iniciar cuando un usuario autenticado se une con la aplicación Microsoft Teams o cuando el organizador se une con su PIN por teléfono. Cuando una reunión necesita un PIN para empezar, los usuarios que se unan a la reunión por teléfono se colocarán en la sala de espera y escucharán música en espera hasta que se inicie la reunión. Si el organizador de la reunión no necesita un PIN para iniciar la reunión por teléfono, a los autores de la llamada no se les pedirá un PIN cuando se unan a la reunión.
+Las reuniones se pueden iniciar cuando un usuario autenticado se une con la aplicación Microsoft Teams o cuando el organizador se une con su PIN por teléfono. Cuando una reunión requiere un PIN para iniciarse, los usuarios que se unan por teléfono se colocarán en la sala de espera y escucharán música en espera hasta que el organizador los admita. Si el organizador de la reunión no necesita un PIN para iniciar la reunión por teléfono, a los autores de la llamada no se les pedirá un PIN cuando se unan a la reunión.
 
 ## <a name="reset-a-users-pin"></a>Restablecer el PIN de un usuario
 
