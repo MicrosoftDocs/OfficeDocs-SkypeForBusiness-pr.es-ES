@@ -57,7 +57,7 @@ productDirectory:
     - title: Actualice los talleres que tenga planeados
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
       summary: 'Planifique e implemente una actualización satisfactoria a Teams. (Público: profesionales de TI, administradores encargados de la adopción del cambio)'
-      url: ./upgrade-workshops-landing-page.yml
+      url: 'https://aka.ms/upgradeworkshops'
 additionalContent:
   sections:
     - title: Cursos
