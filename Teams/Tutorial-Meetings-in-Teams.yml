@@ -13,19 +13,19 @@ metadata:
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Normal
+  localization_priority: Priority
   search.appverid: MET150
   ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 2eb31f71b67ecd53ac36f8999f593098661f9ed9
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.openlocfilehash: c82cf782c73825b3d80cfb24c1fecb022eb1aab9
+  ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51113576"
+  ms.lasthandoff: 06/23/2021
+  ms.locfileid: "53096184"
 items:
 - durationInMinutes: 1
   content: >
