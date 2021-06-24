@@ -445,6 +445,8 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Informe de uso de eventos en directo de Teams
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
+              - name: Informe de licencia de la protección de la información de Microsoft Teams.
+                href: teams-analytics-and-reports/information-protection-license-report.md
       - name: 'Archivos de registro, estado del servicio y soporte técnico'
         items:
           - name: Usar archivos de registro para supervisar y solucionar problemas de Teams
