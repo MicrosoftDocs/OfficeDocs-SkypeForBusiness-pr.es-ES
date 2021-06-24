@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Vea qué dispositivos y periféricos USB (como auriculares, altavoces, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: 6ff7a0678f7b68796f5236b44760ba92d2612a37
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: f8caa5a2d4ef374ce834e801f80370e5cb4251ac
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705234"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105132"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -47,7 +47,7 @@ Los usuarios no necesitan reemplazar dispositivos certificados previamente al ac
 
 Examinar [dispositivos certificados para Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
 
-## <a name="end-user-experience"></a>Experiencia de usuario final
+## <a name="end-user-experience"></a>Experiencia del usuario final
 
 ### <a name="new-teams-certification-benefits"></a>Nuevas Teams de certificación
 
@@ -74,10 +74,11 @@ Si es un fabricante y desea unirse al programa de certificación, [vea](/skypefo
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabla actualizada en mayo de 2021*
+*Tabla actualizada en junio de 2021*
 
 | Fabricante        | Modelo                                                     | Cualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |Cámara web ultrasharp WB7022                                   |6/16/2021       |Certificado para Microsoft Teams                           |
 |NEC                  |Wd551 Windows colaboración                        |5/21/2021       |Certificado para Microsoft Teams                           |
 |Logitech             |Cámara web C920e                                               |4/22/2021       |Certificado para Microsoft Teams                           |
 |Poly                 |Cámara web de Studio P5                                           |4/22/2021       |Certificado para Microsoft Teams                           |

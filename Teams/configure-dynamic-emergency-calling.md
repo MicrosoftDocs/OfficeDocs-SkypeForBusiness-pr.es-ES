@@ -18,12 +18,12 @@ description: Obtenga información sobre cómo configurar los planes de llamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee730c737d105572c9c34c6f329b04de4f8f8472
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 5454eff6e09e923a6db8de1ba8c9e9fe47c3f0f2
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910052"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096314"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -113,8 +113,11 @@ La configuración de red se usa para determinar la ubicación de un cliente Team
 
 La configuración de red incluye sitios que incluyen una colección de subredes y que se usan exclusivamente para la asignación dinámica de directivas a los usuarios. Por ejemplo, una directiva de llamadas de emergencia y una directiva de enrutamiento de llamadas de emergencia se pueden asignar al "sitio de Redmond" para que cualquier usuario que desista de casa u otra ubicación de Microsoft esté configurado con números de emergencia, enrutamiento y escritorio de seguridad específicos de Redmond.  
 
->[!Note]
->Las subredes también se pueden definir en LIS y se pueden asociar a una ubicación de emergencia.  Las subredes LIS deben definirse mediante el id. de red que coincida con el rango IP de subred asignado a los clientes. Por ejemplo, el id. de red de un IP/máscara de cliente de 10.10.10.150/25 es **10.10.10.128.** Para obtener más información, vea Comprender los conceptos básicos de [direccionamiento TCP/IP y subred.](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
+> [!Note]
+> Las subredes también se pueden definir en LIS y se pueden asociar a una ubicación de emergencia.  Las subredes LIS deben definirse mediante el id. de red que coincida con el rango IP de subred asignado a los clientes. Por ejemplo, el id. de red de un IP/máscara de cliente de 10.10.10.150/25 es **10.10.10.128.** Para obtener más información, vea Comprender los conceptos básicos de [direccionamiento TCP/IP y subred.](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
+
+> [!Important]
+> Las búsquedas de configuración de red no son compatibles con implementaciones de servicio de proxy en la nube que modifican las direcciones IP de origen Teams clientes.
 
 Tenga en cuenta las siguientes definiciones. Para obtener más información, vea [Configuración de red para las características de voz en la nube.](cloud-voice-network-settings.md)
 

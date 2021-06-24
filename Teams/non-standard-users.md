@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7b79371cdc8ff5109bf67b1c78639106a83a95e
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 23551c102ec8fc0684a979bf85717a02d82e5142
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796654"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096274"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams de aplicaciones para usuarios no estándar
 
@@ -80,6 +80,6 @@ Los usuarios anónimos no pueden instalar, actualizar ni eliminar aplicaciones e
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportamiento y directiva de uso para usuarios anónimos
 
-Los usuarios anónimos no pueden usar directamente las aplicaciones en las reuniones. Los usuarios nativos pueden seguir usando las aplicaciones de reuniones si hay usuarios anónimos presentes. Si una aplicación envía una tarjeta adaptable en el chat, los usuarios anónimos pueden interactuar con la tarjeta. Para obtener más información, lea [Permitir que usuarios anónimos se unan a reuniones.](/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)
+Los usuarios anónimos no pueden usar directamente las aplicaciones en las reuniones. Los usuarios nativos pueden seguir usando las aplicaciones de reuniones si hay usuarios anónimos presentes. Si una aplicación envía una tarjeta adaptable en el chat, los usuarios anónimos pueden interactuar con la tarjeta. Para obtener más información, lea [Permitir que usuarios anónimos se unan a reuniones.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
 
 Los usuarios anónimos heredarán la directiva de permisos predeterminada global a nivel de usuario. Pueden interactuar con las aplicaciones en Teams reuniones si la directiva de permisos de nivel de usuario ha habilitado la aplicación. Los usuarios anónimos solo pueden interactuar con aplicaciones que ya están disponibles en una reunión y que no pueden adquirir ni administrar estas aplicaciones.

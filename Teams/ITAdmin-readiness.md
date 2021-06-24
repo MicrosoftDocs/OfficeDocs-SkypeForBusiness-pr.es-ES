@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 024da06002d6f3f4647cc48a854042320a8a5f66
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 664e9649d5fab01fb40124aa383943ec496ce452
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723428"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105032"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción a la formación de administradores para Microsoft Teams
 
@@ -87,7 +87,8 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 | ------------| -------------------- |
 | Módulo 1: Introducción a Microsoft Teams dispositivos Android  |[Presentación de diapositivas](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
 | Módulo 2: Planeación Microsoft Teams dispositivos Android|[Presentación de diapositivas](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
-|Módulo 3: Características de Microsoft Teams dispositivos Android |[Presentación de diapositivas](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+|Módulo 3: Características de Microsoft Teams dispositivos Android |[Presentación de diapositivas](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|Módulo 4: Administrar Microsoft Teams dispositivos Android|[Presentación de diapositivas](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
 
 <h2>Guías interactivas</h2>
 
@@ -107,6 +108,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 | Configurar Microsoft Teams para los trabajadores de primera línea                           | Obtenga información sobre cómo configurar e implementar el entorno Microsoft Teams adecuado para su plantilla de Firstline.                                                                                                                  | [Configuración de Microsoft Teams guía para trabajadores de primera línea](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | Identidad de los trabajadores de primera línea: Empoderar a los empleados de TI, los administradores y los trabajadores de primera línea                    | Obtenga información sobre cómo integrar Microsoft Teams con sistemas de recursos humanos existentes, configurar la administración de identidades delegada ligera y configurar el inicio de sesión simplificado y transiciones fluidas para aquellos que usan dispositivos compartidos.                                                                                                                  | [Guía de identidad de trabajador en primera línea](https://aka.ms/FLWIdentityIG)              |
 | Implementar Salas de Microsoft Teams                           | Obtenga información sobre cómo crear y configurar una cuenta para usar con Salas de Microsoft Teams y administrar el dispositivo en Microsoft Teams centro de administración.                                                                                                                  | [Implementar Salas de Microsoft Teams](https://aka.ms/teamsroomslab)              |
+|Trabajar con Teams dispositivos Android certificados|Obtenga información sobre cómo administrar y actualizar Microsoft Teams teléfonos, Microsoft Teams pantallas, Salas de Microsoft Teams y Microsoft Teams paneles.|[Trabajar con Microsoft Teams dispositivos Android certificados](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>Guías de inicio rápido</h2>
 

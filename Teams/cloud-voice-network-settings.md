@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 10547a99b0e63585ae39cc90a5b0cf573a9c94e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e97ddf7f6b7410e83a5e2257d7df6ae2ad27cb7f
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834340"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096287"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Configuración de red para las características de voz en la nube en Microsoft Teams
 
@@ -61,3 +61,6 @@ Las direcciones IP de confianza son las direcciones IP externas de Internet de l
 Si la dirección IP externa del usuario coincide con una dirección IP que está en la lista de direcciones IP de confianza, la característica de voz de la nube comprueba la subred interna donde se encuentra el punto de conexión del usuario. Se puede hacer una coincidencia con direcciones IP IPv4 o IPv6 y depende del formato del paquete IP enviado a la configuración de red. (Si una dirección IP pública tiene IPv4 e IPv6, debe agregar ambas como direcciones IP de confianza).
 
 Si la dirección IP externa del usuario no coincide con una dirección IP que está en la lista de direcciones IP de confianza, el punto de conexión se clasifica como en una ubicación desconocida.
+
+> [!Important]
+> Las búsquedas de configuración de red no son compatibles con implementaciones de servicio de proxy en la nube que modifican las direcciones IP de origen Teams clientes.

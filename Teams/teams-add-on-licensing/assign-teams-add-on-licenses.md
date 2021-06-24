@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Obtenga información sobre cómo asignar Teams de complementos a los usuarios para características como audioconferencias, Sistema telefónico y planes de llamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240672b125190492a036bc9dfa3f7a42070e8320
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b30df309412d159b878b4b57655787c9b4b292a8
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116938"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53095584"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Asignar Teams de complementos a los usuarios
 
@@ -30,7 +30,7 @@ Las licencias de complementos son licencias para características específicas d
 > [!NOTE]
 > Consulte [Teams de complementos para](./microsoft-teams-add-on-licensing.md) Teams características disponibles con licencias de complementos. También encontrará información sobre qué licencias necesita comprar y cómo comprarlas (según su plan), para que los usuarios puedan obtener características como Audioconferencia, números gratuitos y la capacidad de llamar a números de teléfono fuera de su organización. Después de decidir qué características desea para los usuarios, asígneles las licencias.
 
-Puede usar el centro Microsoft 365 de administración o PowerShell para asignar licencias a los usuarios de su organización. Debe ser administrador global o administrador de administración de usuarios para administrar licencias.
+Puede usar el Centro de administración de Microsoft 365 PowerShell para asignar licencias a los usuarios de su organización. Debe ser administrador global o administrador de administración de usuarios para administrar licencias.
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>Lo que necesita saber antes de asignar licencias de Sistema telefónico, plan de llamadas y créditos de comunicación
 
@@ -46,9 +46,9 @@ Antes de empezar, revise los siguientes requisitos:
 
 - Después de asignar licencias de planes de llamadas o créditos de comunicación a los usuarios, tendrá que obtener números de teléfono para su organización y, a continuación, asignar esos números a los usuarios. Para obtener instrucciones paso a paso, vea [Configurar planes de llamadas.](../set-up-calling-plans.md)
 
-## <a name="using-the-microsoft-365-admin-center"></a>Usar el Microsoft 365 de administración
+## <a name="using-the-microsoft-365-admin-center"></a>Usar el Centro de administración de Microsoft 365
 
-Use el Microsoft 365 de administración para asignar licencias a usuarios individuales o conjuntos pequeños de usuarios a la vez. Asigne licencias en la página **Licencias** (para un máximo de 20 usuarios a la vez) o en la **página Usuarios activos.** El método que elija depende de si desea administrar licencias de productos para usuarios específicos o administrar licencias de usuario para productos específicos.
+Use la Centro de administración de Microsoft 365 para asignar licencias a usuarios individuales o conjuntos pequeños de usuarios a la vez. Asigne licencias en  la página Licencias (para un máximo de 20 usuarios a la vez) o en la página Usuarios activos (para un máximo de 40 usuarios a la vez).  El método que elija depende de si desea administrar licencias de productos para usuarios específicos o administrar licencias de usuario para productos específicos.
 
 Para obtener instrucciones paso a paso, vea [Asignar licencias a usuarios.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
