@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo restablecer el PIN de audioconferencia de un usuario en Microsoft Teams y obtenga información importante sobre los PIN.
-ms.openlocfilehash: ece69ec231408cc860f2fad803d92d22feaca781
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 6470085fed25a83c1a8dc46ab45e8c6ea57b5603
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075383"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114029"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Restablecer el PIN de Audioconferencia en Microsoft Teams
 
@@ -64,7 +64,7 @@ Las reuniones se pueden iniciar cuando un usuario autenticado se une con la apli
     
 - El envío automático de correos electrónicos a los usuarios está habilitado de forma predeterminada y los usuarios recibirán un correo electrónico con su PIN cuando se habiliten para audioconferencias o cuando se restablezca el PIN. Pero si ha deshabilitado el envío automático de correos electrónicos, no se enviará un correo electrónico de restablecimiento de PIN a un usuario y tendrá que enviar manualmente la información del PIN al usuario.
     
-- Cuando se inicia una reunión, todos los usuarios de la sala de espera se unirán automáticamente. Por ejemplo, si dos participantes intentan unirse a una reunión antes de que se haya iniciado, se colocarán en la sala de espera y escucharán música en espera, y cuando el organizador de la reunión se una con su PIN por teléfono, se iniciará la reunión y los participantes de la sala de espera se unirán a la reunión.
+- Cuando se inicia una reunión, el organizador debe admitir a todos los usuarios de RTC en la sala de espera para unirse a la reunión. Por ejemplo, si dos participantes RTC intentan unirse a una reunión antes de que haya comenzado, se colocarán en la sala de espera y escucharán música en espera, y cuando el organizador de la reunión se una con su PIN por teléfono, la reunión se iniciará y el organizador puede usar el comando en la reunión (presione *21) para admitir a todos los usuarios de RTC en la sala de espera.
     
 - La configuración predeterminada es no permitir que los autores de llamadas anónimos puedan iniciar una reunión.
     

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo habilitar a los Teléfono Microsoft System Direct Routing.
-ms.openlocfilehash: 7d2b7c4b5d6268d1498a47537e0edbbf892198aa
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075373"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129330"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar usuarios para enrutamiento directo, voz y correo de voz
 
@@ -42,7 +42,7 @@ Cuando esté listo para habilitar usuarios para enrutamiento directo, siga estos
 3. Configure el número de teléfono y habilite la voz empresarial y el correo de voz. 
 4. Asignar Teams solo a los usuarios.
 
-## <a name="create-a-user-and-assign-the-license"></a>Crear un usuario y asignar la licencia 
+## <a name="create-a-user-and-assign-the-license"></a>Crear un usuario y asignar la licencia
 
 Hay dos opciones para crear un nuevo usuario en Microsoft 365 o Office 365. Sin embargo, Microsoft recomienda que su organización elija una opción para evitar problemas de enrutamiento: 
 
@@ -53,9 +53,9 @@ Si su implementación de Skype Empresarial Online coexiste con Skype Empresarial
 
 Para obtener información sobre los requisitos de licencia, vea [Licencias y otros requisitos](direct-routing-plan.md#licensing-and-other-requirements) en [Plan de enrutamiento directo.](direct-routing-plan.md)
 
-## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Asegúrese de que el usuario está conectado y que el número de teléfono no se sincroniza desde el entorno local (aplicable Skype Empresarial Server Telefonía IP empresarial los usuarios habilitados que se migran Teams enrutamiento directo)
+## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Asegúrese de que el usuario está conectado (aplicable para Skype Empresarial Server Telefonía IP empresarial usuarios habilitados que se migran a Teams enrutamiento directo)
 
-Enrutamiento directo requiere que el usuario esté conectado. Para comprobarlo, consulte el parámetro RegistrarPool, que debe tener un valor en el infra.lync.com usuario. El parámetro OnPremLineUriManuallySet también debe establecerse en True. Esto se consigue configurando el número de teléfono y habilitando la voz empresarial y el correo de voz con Skype Empresarial PowerShell en línea.
+Enrutamiento directo requiere que el usuario esté conectado. Para comprobarlo, consulte el parámetro RegistrarPool, que debe tener un valor en el infra.lync.com usuario. También se recomienda, pero no necesario, cambiar la administración de LineURI de local a online al migrar usuarios a Teams enrutamiento directo. 
 
 1. Conectar una sesión Skype Empresarial PowerShell en línea.
 
@@ -64,13 +64,16 @@ Enrutamiento directo requiere que el usuario esté conectado. Para comprobarlo, 
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    En caso de que OnPremLineUriManuallySet se establezca en False y LineUri se rellene con un número de teléfono de <E.164>, limpie los parámetros con el Shell de administración local de Skype Empresarial, antes de configurar el número de teléfono con Skype Empresarial PowerShell en línea. 
+    En caso de que OnPremLineUriManuallySet se establezca en False y LineUri se rellene con un número de teléfono de <E.164>, el número de teléfono se asignó localmente y se sincronizó en O365. Si desea administrar el número de teléfono en línea, limpie el parámetro con el Shell de administración local de Skype Empresarial y sincronice con O365, antes de configurar el número de teléfono con Skype Empresarial PowerShell en línea. 
 
 1. Desde Skype Empresarial Shell de administración emite el comando: 
 
    ```PowerShell
-   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+   Set-CsUser -Identity "<User name>" -LineUri $null
     ``` 
+ > [!NOTE]
+ > No establezca EnterpriseVoiceEnabled en False, ya que no es necesario hacerlo y esto puede provocar problemas de normalización del plan de marcado si los teléfonos Skype Empresarial heredados están en uso y la configuración híbrida de Inquilino se establece con UseOnPremDialPlan $True. 
+    
    Después de que los cambios se sincronicen Office 365 el resultado esperado `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` sería:
 
    ```console
@@ -79,16 +82,22 @@ Enrutamiento directo requiere que el usuario esté conectado. Para comprobarlo, 
    OnPremLineURI                        : 
    LineURI                              : 
    ```
+ > [!NOTE]
+ > Todos los atributos de teléfono del usuario deben administrarse en línea antes [de descomissionr](/skypeforbusiness/hybrid/decommission-on-prem-overview)su entorno Skype Empresarial local. 
 
-## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>Configurar el número de teléfono y habilitar la voz y el correo de voz empresariales 
+## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>Configurar el número de teléfono y habilitar la voz empresarial y el correo de voz en línea 
 
-Después de crear el usuario y asignar una licencia, el siguiente paso es configurar el número de teléfono y el correo de voz del usuario. 
+Después de crear el usuario y asignar una licencia, el siguiente paso es configurar la configuración del teléfono en línea del usuario. 
 
-Para agregar el número de teléfono y habilitar el correo de voz:
  
 1. Conectar una sesión Skype Empresarial PowerShell en línea. 
 
-2. Publique el comando: 
+2. Si administra el número de teléfono del usuario local, ejecute el comando: 
+
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
+3. Si administra el número de teléfono del usuario en línea, ejecute el comando: 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>

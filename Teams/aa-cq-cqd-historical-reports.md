@@ -21,45 +21,46 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Obtenga información sobre cómo usar el informe Power BI del panel de calidad de llamadas para ver los datos históricos Operador automático y Cola de llamadas.
-ms.openlocfilehash: 77b74eb48a16992f7f601bd6cccf3c61b421fc30
-ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
+description: Obtenga información sobre cómo usar el panel de calidad de Power BI para ver los datos históricos Operador automático y Cola de llamadas.
+ms.openlocfilehash: 994e135cfd579d473da02879adde0d3603ab0ed2
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53023251"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129340"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Operador automático & histórico de cola de llamadas
 
-La plantilla de Power BI Operador automático & informe histórico de cola de llamadas de CQD Teams proporciona los siguientes tres informes:
+La plantilla de Teams Operador automático & histórico de cola de llamadas Power BI CQD proporciona los tres informes siguientes:
 
-- Operador automático: muestra análisis de las llamadas que llegan a los Operadores automáticos.
-- Cola de llamadas: muestra análisis de las llamadas que llegan a las colas de llamadas.
-- Escala de tiempo del agente: muestra una vista de escala de tiempo de los agentes que están activos en las llamadas de cola de llamadas.
+- [Operador automático:](media/cqd-teams-aa-cq-historical-report-sample-aa.png) muestra análisis de las llamadas que llegan a los Operadores automáticos.
+- [Cola de llamadas:](media/cqd-teams-aa-cq-historical-report-sample-cq.png) muestra análisis de las llamadas que llegan a las colas de llamadas.
+- [Escala de tiempo del](media/cqd-teams-aa-cq-historical-report-sample-at.png) agente: muestra una vista de escala de tiempo de los agentes que están activos en las llamadas de cola de llamadas.
 
 Estos informes usan datos del almacén de datos Panel [de calidad de](CQD-Power-BI-query-templates.md) llamadas. Permiten a las organizaciones informar sobre el número de llamadas que están procesando los operadores automáticos y las colas de llamadas.  También proporcionan información sobre el rendimiento del agente en las colas de llamadas.
 
-## <a name="what-are-the-requirements"></a>¿Cuáles son los requisitos? 
+## <a name="prerequisites"></a>Requisitos previos
 
-Debe tener Instalado Power BI Desktop. Puede instalarlo desde microsoft [Windows Store.](https://aka.ms/pbidesktopstore)
+### <a name="power-bi-desktop"></a>Power BI Desktop
+Debe tener Power BI Desktop instalado. Puede instalarlo desde Microsoft [Windows Store.](https://aka.ms/pbidesktopstore)
 
 Puede usar la versión gratuita de Power BI Desktop. La versión mínima compatible es 2.85.681.0 (septiembre de 2020).
 
-## <a name="permissions-to-access-the-cqd-pipeline"></a>Permisos para obtener acceso a la canalización de CQD
+### <a name="permissions-to-access-the-cqd-pipeline"></a>Permisos para obtener acceso a la canalización de CQD
 
 La cuenta que usa para ver el informe histórico de AA & CQ Analytics debe tener permisos para obtener acceso a la canalización de datos de CQD. Para obtener más información, vea [Rol de acceso CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ## <a name="installation"></a>Instalación 
 
-En los pasos siguientes se supone que ya ha instalado Power BI Desktop en el equipo y que su cuenta tiene los permisos necesarios para obtener acceso a la canalización de datos CQD.
+Los pasos siguientes suponen que ya ha instalado Power BI Desktop en el equipo y que su cuenta tiene los permisos necesarios para obtener acceso a la canalización de datos CQD.
 
 Realice los pasos siguientes:
 
-- Descargue las plantillas de consulta de Power BI de [CQD](https://www.microsoft.com/download/details.aspx?id=102291) y guarde el archivo zip en un directorio del equipo.
+- Descargue el [archivo CQD Power BI de consulta](https://www.microsoft.com/download/details.aspx?id=102291) y guarde el archivo zip en un directorio del equipo.
 
 - Haga doble clic en el archivo zip para abrirlo.
 
-- Haga doble clic en el archivo de plantilla "CQ y AA combined Analytics 20201105.pbit" y power BI Desktop debería iniciarse.
+- Haga doble clic en el archivo de plantilla "CQ y AA combinado Analytics 20201105.pbit" y Power BI Desktop iniciar.
 
 - Se le pedirá que seleccione la región de canalización de datos CQD. Seleccione la región donde se encuentra el inquilino.
 

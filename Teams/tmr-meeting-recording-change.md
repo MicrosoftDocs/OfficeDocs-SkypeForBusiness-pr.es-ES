@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4824e24eb1e648d2ffc2d52fbdc1fa8593bbe9d9
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 72c65de4892a25889fb456c73406126d34335f9a
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096304"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114019"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -57,7 +57,7 @@ Las ventajas de usar OneDrive para la Empresa y SharePoint para almacenar grabac
 - Soporte para Multi-Geo: las grabaciones se almacenan en una región específica de ese usuario
 - Soporte para Bring your own key (BYOK)
 
-Vea la lista completa de [características disponibles hoy y lo que puede esperar a lo largo del tiempo.](https://docs.microsoft.com/stream/streamnew/features-new-version-stream) 
+Vea la lista completa de [características disponibles hoy y lo que puede esperar a lo largo del tiempo.](/stream/streamnew/features-new-version-stream) 
 
 Vea "Novedades de las grabaciones Microsoft Teams reunión" para obtener más información.
 
@@ -142,7 +142,7 @@ De forma predeterminada, todos los archivos de grabación se guardan en la cuent
 
 **¿Cómo administro las grabaciones de antiguos empleados?**
 
-Dado que los vídeos son iguales que cualquier otro archivo de OneDrive para la Empresa y SharePoint, el control de la propiedad y la retención después de que un empleado se va seguirá el proceso normal de [OneDrive para la Empresa y SharePoint]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+Dado que los vídeos son iguales que cualquier otro archivo de OneDrive para la Empresa y SharePoint, el control de la propiedad y la retención después de que un empleado se va seguirá el proceso normal de [OneDrive para la Empresa y SharePoint](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
 
 **¿Quién tiene los permisos para ver la grabación de la reunión?**
 
@@ -155,7 +155,7 @@ Dado que los vídeos son iguales que cualquier otro archivo de OneDrive para la 
 
 **¿Cómo puedo administrar los subtítulos?**
 
-Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponibles durante la reproducción si el usuario tenía activada la transcripción en el momento de la grabación. Los administradores deben [activar la transcripción de la grabación a través de la directiva]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) para asegurarse de que los usuarios tengan la opción de grabar reuniones con transcripción.
+Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponibles durante la reproducción si el usuario tenía activada la transcripción en el momento de la grabación. Los administradores deben [activar la transcripción de la grabación a través de la directiva](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) para asegurarse de que los usuarios tengan la opción de grabar reuniones con transcripción.
 
 Los subtítulos ayudan a crear contenido inclusivo para los espectadores de todas las capacidades. Como propietario, puede ocultar los subtítulos en la grabación de la reunión, aunque la transcripción de la reunión seguirá estando disponible en Teams a menos que la elimine allí. 
 

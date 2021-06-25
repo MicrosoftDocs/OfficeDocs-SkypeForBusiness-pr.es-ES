@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Obtenga información sobre cómo configurar colas de llamadas para pequeñas empresas en Microsoft 365 Business Voice.
-ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739690"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126926"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Crear una cola de llamadas: tutorial para pequeñas empresas
 
@@ -118,13 +118,13 @@ Puede crear una cuenta de recursos en el centro Teams administración.
 
 Debe asignar una licencia *Microsoft 365 Sistema telefónico usuario virtual* a la cuenta de recursos.
 
-1. En el Microsoft 365 de administración, en la lista **Usuarios** activos, haga clic en la cuenta de recursos a la que desea asignar una licencia.
+1. En la Centro de administración de Microsoft 365, en la **lista Usuarios** activos, haga clic en la cuenta de recursos a la que desea asignar una licencia.
 
 2. En la **pestaña Licencias y aplicaciones,** en **Licencias,** **seleccione Microsoft 365 Sistema telefónico - Usuario virtual.**
 
 3. Haga clic **en Guardar cambios.**
 
-    ![Captura de pantalla de la interfaz de usuario asignar licencias en el Microsoft 365 de administración](../media/resource-account-assign-virtual-user-license.png)
+    ![Captura de pantalla de la interfaz de usuario asignar licencias en el Centro de administración de Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -157,7 +157,7 @@ A continuación, empezaremos a crear una nueva cola de llamadas y asignaremos la
 
 # <a name="step-3brcall-agents"></a>[Paso 3 <br> Llamar a agentes](#tab/call-agents)
 
-Para agregar agentes a la cola de llamadas, los agregaremos al equipo y al canal que creamos anteriormente.
+Para agregar agentes a la cola de llamadas, los agregaremos al equipo y al canal que creamos anteriormente. Para ello, debe ser miembro del equipo.
 
 1. Seleccione la **opción Elegir un equipo** y haga clic en Agregar un **canal.**
 2. Escriba el nombre del equipo que creó, selecciónelo y haga clic en **Agregar**.

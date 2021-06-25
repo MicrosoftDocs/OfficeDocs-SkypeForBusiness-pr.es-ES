@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimización de medios locales para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aab38cb7f844764faac0e9c19bc03110adac9c10
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 36d42310b056d0b7774dfddd04f63e4f871851fe
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469672"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129350"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>Optimización de medios locales para enrutamiento directo
 
@@ -35,7 +35,7 @@ Optimización de medios locales para enrutamiento directo le permite administrar
 
 Optimización de medios locales admite dos escenarios:
 
-- Centralización de todos los troncos locales a través de un SBC centralizado conectado al tronco principal del Protocolo de inicio de sesión (SIP), proporcionando servicios de telefonía a todas las sucursales locales de la compañía.
+- Centralización de todos los troncos locales a través de un SBC centralizado conectado al tronco principal del Protocolo de inicio de sesión (SIP), proporcionando servicios de telefonía a todas las sucursales locales de la empresa.
 
 -   Crear una topología de red virtual de SBC, donde los SBC de las sucursales locales están conectados a un SBC proxy centralizado que es visible para Teléfono Microsoft System a través de su dirección IP externa. En una topología de red virtual, los SBC descendentes se comunican a través de IP internas y no son directamente visibles para Sistema telefónico.
 
@@ -78,7 +78,8 @@ Para crear una solución en la que se proporcionan servicios RTC a todas las suc
 
 - Cuando un usuario está fuera de la red corporativa, el SBC proporciona la IP externa (pública) del SBC.
 
-Nota: Todos los valores de ejemplos, tablas o diagramas se presentan solo con fines ilustrativos.
+> [!NOTE]
+> Todos los valores de ejemplos, tablas o diagramas solo se presentan con fines ilustrativos.
 
 Tabla 1. Parámetros de red de ejemplo para SBC 
 
@@ -152,7 +153,8 @@ En el siguiente diagrama se muestra el flujo de tráfico de alto nivel para el e
 
 - El SBC descendente de la sucursal local no es visible para Sistema telefónico directamente, pero se asigna dentro de la topología de red virtual definida por el administrador de Contoso al configurar optimización de medios locales.
 
-Nota: El comportamiento puede ser diferente para usuarios locales y usuarios no locales dependiendo del modo de optimización de medios locales configurado. 
+> [!NOTE]
+> El comportamiento puede ser diferente para usuarios locales y usuarios no locales en función del modo de optimización de medios locales configurado. 
 
 Para obtener más información sobre los posibles modos y el comportamiento relevante, vea Configurar la optimización de medios locales.
 
@@ -188,8 +190,8 @@ Optimización de medios locales admite dos modos:
 
 Para distinguir entre los modos de optimización de medios locales, el administrador de inquilinos debe establecer el parámetro -BypassMode en "Always" o "OnlyForLocalUsers" para cada SBC mediante el cmdlet Set-CSonlinePSTNGateway. Para obtener más información, vea [Configurar la optimización de medios locales.](direct-routing-media-optimization-configure.md)  
 
- > [!NOTE]
-  > Cuando los usuarios son internos, se requiere conectividad multimedia entre el usuario y el SBC a través de la dirección IP **interna.** No hay ningún retroceso en los retransmisión de transporte público para medios en este caso, ya que el SBC estará proporcionando una IP interna para la conectividad de medios. 
+> [!NOTE]
+> Cuando los usuarios son internos, se requiere conectividad multimedia entre el usuario y el SBC a través de la dirección IP **interna.** No hay ningún retroceso en los retransmisión de transporte público para medios en este caso, ya que el SBC estará proporcionando una IP interna para la conectividad de medios. 
 
 ### <a name="mode-1-always-bypass"></a>Modo 1: Omitir siempre
 
@@ -331,7 +333,7 @@ A continuación se muestra una lista de los problemas conocidos que están prese
 
 | Problema | Solución alternativa |
 | :--- | :--- |
-| Teams cliente no se identifica **como** interno cuando Teams cliente IP pública coincide con la lista IP de confianza del cliente. | Optimización de medios locales requiere que la subred Teams cliente coincida con una subred de red [configurada por el inquilino](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
+| Teams cliente no se identifica **como** interno cuando Teams cliente IP pública coincide con la lista IP de confianza del cliente. | Optimización de medios locales requiere que la subred Teams cliente coincida con una subred de red [configurada por el inquilino](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
 | Las escalaciones de llamadas resultan en llamadas descartadas cuando el Teams se identifica como interno.| Deshabilite la optimización de medios locales en el SBC de enrutamiento directo.|
 | Escalaciones de llamadas de 1 a 1 llamada entre clientes internos a llamadas multipartes con el resultado de cliente o recurso externo en llamadas descartadas | Trabajar en curso en una corrección. Como alternativa, deshabilite la optimización de medios locales en el SBC de enrutamiento directo.|
 | Teams usuario pone la llamada en espera. Música se reproduce en el extremo RTC y la optimización de medios locales funciona. El Teams reanudará la llamada. La llamada a RTC se reanuda, pero la optimización de medios locales no funciona y la llamada continúa a través de SBC central (proxy) | Cuando un usuario aparca una llamada para iniciar la música en espera (MoH), el controlador de llamadas está escalando de 1:1 a una llamada multiparte para invocar el controlador multimedia y el procesador multimedia (que sirve como mezclador AVMCU) a través del cual el MoH llega a un usuario que se ha puesto en espera. La desescalación a una llamada de 1:1 después de reanudar la llamada nunca se produce según el diseño. Deshabilite la optimización de medios locales en el SBC de enrutamiento directo.|

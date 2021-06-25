@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: Información sobre el cumplimiento de las comunicaciones, parte del conjunto de soluciones de riesgo de Insider, desde la perspectiva Microsoft Teams (esto forma parte de la funcionalidad de cumplimiento de comunicaciones M365).
+description: Learning sobre el cumplimiento de las comunicaciones, parte del conjunto de soluciones de riesgo de insider, desde la perspectiva Microsoft Teams (esto forma parte de la funcionalidad de cumplimiento de comunicaciones M365).
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf032669edc7255571e2501774ac0d0ee0df47d8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5957e8900a9b3d9915a88e3ad8bf5e18c7a08b3
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121538"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126906"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Cumplimiento de comunicaciones con Microsoft Teams
 
 El cumplimiento de las comunicaciones es una solución de riesgo de insider en Microsoft 365 que ayuda a minimizar los riesgos de comunicación al ayudarle a detectar, capturar y actuar en mensajes inadecuados en su organización.
 
-Por Microsoft Teams, el cumplimiento de [](/microsoft-365/compliance/communication-compliance-feature-reference) las comunicaciones ayuda a identificar los siguientes tipos de contenido inadecuado en Teams canales o en chats grupales y de 1:1:
+Por Microsoft Teams, el cumplimiento de [](/microsoft-365/compliance/communication-compliance-feature-reference) las comunicaciones ayuda a identificar los siguientes tipos de contenido inadecuado en canales de Teams, canales de Teams privados o en chats grupales de 1:1:
 
 - Lenguaje ofensivo, profano y acosante
 - Imágenes de adultos, radas y peludos
@@ -46,7 +46,7 @@ Empezar a trabajar con el cumplimiento [](/microsoft-365/compliance/communicatio
 Teams administradores pueden configurar directivas de cumplimiento de comunicaciones en los siguientes niveles:
 
 - **Nivel de usuario:** las directivas de este nivel se aplican a un usuario Teams usuario o se pueden aplicar a todos los Teams usuarios de su organización. Estas directivas cubren los mensajes que estos usuarios pueden enviar en chats grupales o 1:1. Las comunicaciones de chat para los usuarios se supervisan automáticamente en todos los Microsoft Teams donde los usuarios son miembros.
-- **Teams:** las directivas de este nivel se aplican a un canal de Microsoft Team. Estas directivas abarcan solo los mensajes enviados Teams canal.
+- **Teams:** las directivas de este nivel se aplican a un canal de Microsoft Team, incluido un canal privado. Estas directivas abarcan solo los mensajes enviados Teams canal.
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Actuar sobre mensajes inadecuados en Microsoft Teams
 
