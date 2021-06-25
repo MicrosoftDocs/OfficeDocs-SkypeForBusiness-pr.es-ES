@@ -21,42 +21,42 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: 8f196e1539085966c22a775a784913ced417c9cb
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 0d1d453e0d9d6575ec108b4bc17cdce1f4dac839
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506727"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096334"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
 ## <a name="overview"></a>Información general
 
-Con Teams vida, los usuarios de su organización pueden difundir contenido de vídeo y reunión a grandes audiencias en línea.
+Con los eventos en directo de Teams, los usuarios de su organización pueden difundir contenido de vídeo y reuniones a un amplio público en línea.
 
 Los eventos en directo de Microsoft 365 llevan el streaming de vídeo en directo a otro nivel. Los eventos en directo promueven la conexión durante todo el ciclo de vida de interacción con los participantes antes, durante y tras los eventos en directo. Puede crear un evento en directo dondequiera que se encuentre el público, el equipo o la comunidad, con Microsoft Stream, Teams o Yammer.  
 
-Teams ofrece colaboración basada en el chat, llamadas, reuniones y eventos en directo, para que pueda ampliar el público de sus reuniones. Los eventos en directo de Teams son una extensión de las reuniones de Teams que permiten a los usuarios difundir contenido de vídeo y de reuniones a un público en línea más amplio. Los eventos en directo están pensados para las comunicaciones de una persona con varias personas; en dichas comunicaciones, el organizador del evento dirige las interacciones y la participación del público consiste principalmente en visualizar el contenido que el organizador comparte. Los asistentes pueden ver el evento en directo o grabado en Yammer, Teams o Stream y pueden interactuar con los moderadores con preguntas y respuestas moderadas & A o una conversación Yammer usuario.
+Teams ofrece colaboración basada en el chat, llamadas, reuniones y eventos en directo, para que pueda ampliar el público de sus reuniones. Los eventos en directo de Teams son una extensión de las reuniones de Teams que permiten a los usuarios difundir contenido de vídeo y de reuniones a un público en línea más amplio. Los eventos en directo están pensados para las comunicaciones de una persona con varias personas; en dichas comunicaciones, el organizador del evento dirige las interacciones y la participación del público consiste principalmente en visualizar el contenido que el organizador comparte. Los asistentes pueden ver el evento en directo o grabado en Yammer, Teams o Stream, y pueden interactuar con los moderadores con Preguntas y respuestas moderadas o una conversación de Yammer.
 
-Los eventos en directo de Teams se consideran la nueva versión de Difusión de reunión de Skype y en algún momento sustituirán las funciones de Difusión de reunión de Skype. En estos momentos, Microsoft seguirá ofreciendo compatibilidad con Difusión de reunión de Skype para los usuarios que empleen Skype Empresarial en sus organizaciones, y no tendrá lugar una interrupción del servicio en eventos nuevos o futuros. Sin embargo, le recomendamos que pruebe Teams eventos en directo para usar todas las características nuevas y emocionantes, incluido el uso compartido de pantalla y la compatibilidad con codificadores de hardware o software externos.
+Los eventos en directo de Teams se consideran la nueva versión de Difusión de reunión de Skype y en algún momento sustituirán las funciones de Difusión de reunión de Skype. En estos momentos, Microsoft seguirá ofreciendo compatibilidad con Difusión de reunión de Skype para los usuarios que empleen Skype Empresarial en sus organizaciones, y no tendrá lugar una interrupción del servicio en eventos nuevos o futuros. Sin embargo, animamos a los usuarios a probar los eventos en directo de Teams para usar todas las nuevas e interesantes características que ofrece, incluida la opción de pantalla compartida y la compatibilidad con codificadores externos de hardware o software.
 
-Empecemos. En primer lugar, echemos un vistazo al siguiente diagrama, que muestra los componentes de alto nivel presentes en los eventos en directo de Microsoft 365 y cómo están conectados.
+Así que, empecemos. En primer lugar, echemos un vistazo al siguiente diagrama, que muestra los componentes de alto nivel presentes en los eventos en directo de Microsoft 365 y cómo están conectados.
 
 ![Componentes clave de los eventos en directo](../media/live-event-flow-diagram.png  "Componentes clave de eventos en directo, programación, producción, plataforma de Stream, proveedores de terceros certificados de eCDN")
 
 > [!Note]
-> Nos gustaría enfatizar que Teams eventos en directo, dada la naturaleza de la tecnología de difusión, a menudo superan las poblaciones normales (internas) de reuniones.
+> Nos gustaría destacar que los eventos en directo de Teams, dada la naturaleza de la tecnología de difusión, a menudo superan las audiencias de reuniones normales (internas).
 >
-> Como es el caso de otros servicios de difusión multimedia de mayor alcance, dependemos de las redes de entrega de contenido para entregar el contenido de su evento en directo a los destinatarios. Este contenido está protegido por métodos de cifrado y sujeto a la autorización de los tokens de acceso que solo se emiten a los destinatarios en función de la configuración de la reunión de eventos en directo.
+> Como sucede con otros servicios de difusión multimedia de gran alcance, dependemos de redes de entrega de contenido para entregar el contenido de su evento en directo a los destinatarios. Este contenido está protegido por métodos de cifrado y sujeto a la autorización por tokens de acceso que solo se emiten a los destinatarios en función de la configuración de la reunión de eventos en directo.
 >
-> Debe tenerse especial cuidado en asegurarse de que el contenido de la reunión es adecuado para una audiencia tan grande o de que la audiencia se reduzca adecuadamente para el contenido confidencial.  
+> Se debe prestar especial atención a que el contenido de la reunión sea adecuado para un público de dimensiones tan grandes o a que el público se reduzca apropiadamente cuando se difunda contenido confidencial.  
 >
-> Como es habitual en el sector, los compromisos con otros elementos de su seguridad, como el personal o la infraestructura, podrían afectar a la seguridad de sus eventos en directo. Las organizaciones deben considerar incluir eventos en directo y otros servicios de difusión en sus ejercicios y planificación de seguridad.
+> Como es habitual en el sector, los riesgos de otros elementos de la seguridad (como la seguridad personal o de infraestructuras), podrían afectar a la seguridad de los eventos en directo. Las organizaciones deben considerar la posibilidad de incluir eventos en directo y otros servicios de difusión en sus ejercicios y planes de seguridad.
 
 ### <a name="event-group-roles"></a>Roles de grupo para eventos
 
-Los eventos en directo Teams varios roles (organizador, productor, moderador y asistente) para difundir y participar correctamente en un evento. Para más información, consulte [Roles de grupo para eventos](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
+Los eventos en directo en Teams posibilitan múltiples roles (organizador, productor, moderador y asistente) para difundir y participar en un evento con éxito. Para más información, consulte [Roles de grupo para eventos](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
 
 ## <a name="key-components"></a>Componentes clave
 
