@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el parque de llamadas y recuperar para poner una llamada en espera en Microsoft Teams.
-ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197585"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147188"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
@@ -46,6 +46,8 @@ Para estacionar y recuperar llamadas, un usuario debe ser Telefonía IP empresar
 ## <a name="configure-call-park-and-retrieve"></a>Configurar el parque de llamadas y recuperar
 
 Debe ser un administrador Teams configurar el parque de llamadas y recuperarlo. Está deshabilitado de forma predeterminada. Puede habilitarlo para los usuarios y crear grupos de usuarios con la directiva de parque de llamadas. Al aplicar la misma directiva a un conjunto de usuarios, pueden estacionar y recuperar llamadas entre ellos.
+
+El rango de números de recogida de llamadas está predefinido entre 10 y 99 y no se puede modificar. La primera llamada estacionada se representará con un código de recogida de 10, la siguiente llamada estacionada se representará con un código de recogida de 11, etc. hasta que 99 se represente como un código de recogida. Después de lo cual, los códigos de recogida representados comienzan de nuevo a partir de las 10.  Si hay más de 89 llamadas activas aparcados, los códigos de recogida representados seguirán incrementándose más allá de 99, de modo que la 90.ª llamada activa estacionada se representaría en 100 para un código de recogida, la llamada activa 91 se representaría en un código de recogida de 101.
 
 Para habilitar una directiva de parque de llamadas
 

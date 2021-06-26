@@ -1,11 +1,11 @@
 ---
-title: Restricciones de marcado de número gratuito en México
-ms.author: crowe
-author: CarolynRowe
-manager: serdars
+title: Restricciones de marcado gratuitos en Canadá
+ms.author: v-lsaldanha
+author: lovina-saldanha
+manager: dansimp
 ms.reviewer: mikedav, oscarr
 ms.topic: reference
-ms.assetid: 576e0cc3-0a1a-43bf-a6fc-3a28e47ecd58
+ms.assetid: 4e3ffa25-762e-4066-acb2-15634818b586
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,15 +23,15 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo marcar números gratuitos en México, como la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
-ms.openlocfilehash: 93a7a92d15860519fe9a599cfb247982be1b0ac3
+description: Obtenga información sobre cómo marcar números gratuitos en Canadá, incluida la disponibilidad, la disponibilidad de la red móvil o por cable y de línea fija, y las restricciones.
+ms.openlocfilehash: 85ac884050c69e5be64c99c9c07df7549b2b2a9a
 ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142836"
+ms.locfileid: "53142934"
 ---
-# <a name="toll-free-dialing-restrictions-in-mexico"></a>Restricciones de marcado de número gratuito en México
+# <a name="toll-free-dialing-restrictions-in-canada"></a>Restricciones de marcado gratuitos en Canadá
 
 [Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
 
@@ -39,7 +39,7 @@ ms.locfileid: "53142836"
 |:-----|:-----|
 |¿Hay llamadas gratuitas disponibles?  <br/> |Sí  <br/> |
 |Formatos de marcado  <br/> | 844<br/>833<br/>855<br/>800<br/>866<br/>877<br/>888<br/>|
-|Código ISO de país o región  <br/> |MX  <br/> |
+|Código ISO de país o región  <br/> |CAN  <br/> |
 |Isla o territorio cubierto  <br/> |Samoa americana, Anguilla, Antigua y Barbuda, Bahamas, Barbados, Bermudas, Islas Vírgenes Británicas, Canadá, Islas Caimán, Dominica, República Dominicana, Granada, Guam, Jamaica, Montserrat, Islas Marianas del Norte, Puerto Rico, San Cristóbal y Nieves, Santa Lucía, San Vicente y las Granadinas, Sint Maarten, Trinidad y Tobago, Islas Turcas y Caicos, Estados Unidos, Islas Vírgenes de Estados Unidos <br/> |
 |Disponibilidad de líneas fijas o cableadas  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |Sí  <br/> |

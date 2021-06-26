@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Portugal para Microsoft Teams.
-ms.openlocfilehash: a7df7688e4d2f7178d794158506560944923e265
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: db9c80bd36e6fbceede52beafc8787513ea5c7e2
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461040"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147138"
 ---
 # <a name="phone-number-management-for-portugal"></a>Teléfono de números para Portugal
 
@@ -35,7 +35,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos y envíenoslos**|
 |:-----|:-----|
 |Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Microsoft Teams de administración.   <br/> |Descargue uno de estos formularios. <br/>  [Nueva solicitud de número de teléfono para Portugal (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [Nueva solicitud de número de teléfono para Portugal (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).<br/><br/> También debe rellenar un contrato de tres partes, firmarlo y [enviarlo a nosotros.](mailto:ptneu@microsoft.com) Este formulario se le enviará por nuestro equipo de servicio RTC después de realizar un pedido para obtener nuevos números de teléfono. <br/><br/>|
-|Consigue que nos transfieran números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Portugal (todos los números) (v.5.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.5.0)-(pt-pt).pdf) <br/> <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com). <br/><br/> También debe rellenar un contrato de tres partes, firmarlo y [enviarlo a nosotros.](mailto:ptneu@microsoft.com) Este formulario se le enviará por nuestro equipo de servicio RTC después de realizar un pedido para transferir números de teléfono.<br/><br/>|
+|Consigue que nos transfieran números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Portugal (todos los números) (v.6.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.6.0)-(pt-pt).pdf) <br/> <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com). <br/><br/> También debe rellenar un contrato de tres partes, firmarlo y [enviarlo a nosotros.](mailto:ptneu@microsoft.com) Este formulario se le enviará por nuestro equipo de servicio RTC después de realizar un pedido para transferir números de teléfono.<br/><br/>|
 |Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacionales.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía.      <br/> |
 |Cambie el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
 |Realizar actualizaciones del servicio de directorio para números de cola de llamadas o operadores automáticos|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto [con el servicio rtc.](contact-pstn-service-desk.md) |
