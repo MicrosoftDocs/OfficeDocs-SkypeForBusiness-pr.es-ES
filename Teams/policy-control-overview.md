@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863221"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142816"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Introducción al control de directivas para Microsoft Teams
 
@@ -35,7 +35,7 @@ Este artículo ha sido diseñado para proporcionarle información acerca de los 
 Como parte de estos cambios, puede contar con una configuración de directivas y elementos de la interfaz de usuario nuevos y actualizados
 
 > [!IMPORTANT]
-> Para obtener más información, consulte el contenido sobre [Introducción al control de directivas](/deployoffice/privacy/overview-privacy-controls) para Microsoft 365.
+> Para más información, consulte [Información general sobre los controles de privacidad de Aplicaciones de Microsoft 365 para empresas](/deployoffice/privacy/overview-privacy-controls).
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>Datos de diagnóstico enviados de Aplicaciones de Microsoft 365 para empresas a Microsoft.
 
