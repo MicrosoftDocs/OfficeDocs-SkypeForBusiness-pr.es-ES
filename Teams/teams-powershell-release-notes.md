@@ -13,12 +13,12 @@ ms.collection:
 description: Obtenga información sobre los cambios más recientes en Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 986aebf2ae86e463976f4480fbd2f7dde440f0a1
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 4ba94e0c0fe466ab742e5b9ccfb42daf63e552a9
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684377"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186919"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams Notas de la versión de PowerShell
 
@@ -34,7 +34,7 @@ En esta página se proporcionan las últimas Teams de cambios de PowerShell para
 | Mayo de 2021 | [2.3.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.2-preview) |<li>Compatibilidad con el inicio de sesión de AccessToken con Conectar-MicrosoftTeams. Se ha agregado el parámetro -AccessTokens que acepta la matriz de token. MSGraph y Teams de recursos son necesarios al usar el parámetro AccessTokens.</li><li>Se han quitado los parámetros AadAccessToken y MsAccessToken.</li>|
 | Mayo de 2021 | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>Actualizar desde . NETCore 2.1 a 3.1</li><li>Cmdlet agregado para obtener una región multige geográfica para usuarios y grupos</li><li>Correcciones para la autenticación integrada de Windows para usar -AccountId con Connect-MicrosoftTeams</li><li>Los cmdlets de TeamsCallHoldPolicy ya están disponibles</li><li>Actualizaciones de parámetros de entrada y formatos de salida de muchos comandos</li><li>Corrige un problema de latencia grande al ejecutar comandos de comunicación remota</li><li>Características de paquetes personalizados de GA</li>|
 | Abril de 2021 | [2.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>Correcciones para la autenticación Windows usuario integrada para usar -AccountId con Conectar-MicrosoftTeams.</li><li>Cmdlet agregado para obtener detalles del total de eventos de notificación de cambio que se pueden enviar a los usuarios.</li><li>Se ha agregado un cmdlet para obtener una región multige geográfica para usuarios y grupos.</li><li>El control de los valores pasados a TeamsEnvironment name distingue entre mayúsculas y minúsculas. Esto se ha corregido.</li><li>Refactorización importante de la administración remota de sesiones dentro del módulo para facilitar las pruebas de unidad. No debe haber ningún cambio funcional para los administradores de inquilinos.</li>|
-| Abril de 2021 | [2.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>Se ha corregido el formato de los cmdlets existentes (por ejemplo, Get-CsTeamsNetworkRoamingPolicy, Get-CsTeamsMeetingPolicy, Get-CsTeamsMessagingPolicy y mucho más).</li><li>Lista de parámetros actualizada de cmdlets de administración de directivas.</li>|
+| Abril de 2021 | [2.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>Se ha corregido el formato de salida de algunos cmdlets de comunicación remota (por ejemplo, Get-CsTeamsNetworkRoamingPolicy, Get-CsTeamsMeetingPolicy, Get-CsTeamsMessagingPolicy y mucho más).</li><li>Lista de parámetros actualizada de cmdlets de administración de directivas.</li>|
 | Marzo de 2021 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>Usa MSAL para la autenticación & autorización</li> <li>Connect-MicrosoftTeams es el punto de entrada de todos los cmdlets.</li><li>New-csOnlineSession ya no está disponible. Se ha sustituido por Conectar-MicrosoftTeams.</li><li>Enable-csonlinesessionforreconnection ya no es necesario. La característica se ha implementado de forma nativa en Teams módulo de PowerShell.</li> <li>Cmdlets de paquete de directivas refactorizado y agrega asignación de paquetes de grupo</li><li>Mejoras significativas de rendimiento para Get-Team cmdlet</li> <li>Opción de registro y depuración mejorada para cmdlets existentes </li> <li>Cmdlets de administración de plantillas agregados</li> <li>Desuso de New-CsOnlineSession</li>|
 | Febrero de 2021 | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>Cmdlets de administración de plantillas agregados</li><li>Mejoras de mezzo y procesamiento por lotes para Get-Team cmdlet</li> <li>Opción de registro y depuración mejorada para cmdlets existentes </li> <li>Cmdlets de paquete de directivas refactorizado</li>|
 | Diciembre de 2020 | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>Actualizaciones del cmdlet New-team con mayores reintentos y duración de suspensión</li>|

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a9cf6cab1bfb50c17c8546a65ad50e41759edc
-ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
+ms.openlocfilehash: a801ae905ac7c384399aea5ccdf3bcf6f4e4200f
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51891287"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203619"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destinos de equipo
 
@@ -149,6 +149,12 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ```
 
 ## <a name="apply-your-hierarchy"></a>Aplicar la jerarquía
+
+> [!NOTE] 
+> Para realizar este paso, debe instalar y usar el módulo Teams vista previa pública de PowerShell desde la Galería de PowerShell. Para ver los pasos sobre cómo instalar el módulo, vea Instalar Teams PowerShell.
+
+> [!NOTE]
+> Government Community Cloud (GCC) los clientes deben usar la versión preliminar del [cmdlet 2.4.0 o](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) posterior para asegurarse de que los datos se enruta al entorno de GCC, en lugar del entorno de nube pública.
 
 Una vez que haya definido la jerarquía en el archivo CSV del esquema, estará listo para cargarlo en Teams. Para ello, ejecute el siguiente comando. Debe ser administrador global o administrador Teams de servicio para realizar este paso.
 

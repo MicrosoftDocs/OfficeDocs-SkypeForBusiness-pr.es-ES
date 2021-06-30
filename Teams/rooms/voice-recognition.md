@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b4a8a5d0b866a3eb278ffdba575966f97c549d6
-ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
+ms.openlocfilehash: 96f82b398ff75cdaf651eb841c412c502c5108d4
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52997773"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203589"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar controles de tecnología de reconocimiento de voz para un altavoz inteligente
 
@@ -83,7 +83,7 @@ Las siguientes son las directivas necesarias para establecer un altavoz intelige
 |-|-|-|
 |enrollUserOverride|Se usa para establecer la captura de perfil de voz o la inscripción en Teams configuración de un inquilino. |**Deshabilitado**<br><ul><li> Los usuarios que nunca se han inscrito no pueden ver, inscribirse o volver a inscribirse.<li>El punto de entrada al flujo de inscripción se ocultará.<li>Si los usuarios seleccionan un vínculo a la página de inscripción, verán un mensaje que indica que esta característica no está habilitada para su organización.  <li>Los usuarios que se han inscrito pueden ver y quitar su perfil de voz en la Teams configuración. Una vez que quiten su perfil de voz, no podrán ver, acceder ni completar el flujo de inscripción.</li></ul><br>**Habilitado**<br><ul><li> Los usuarios pueden ver, acceder y completar el flujo de inscripción.<li>El punto de entrada se mostrará en la Teams de configuración de la pestaña **Reconocimiento.**</li></ul>|
 |roomAttributeUserOverride|Controle la identificación de usuario basada en voz en salas de reuniones. Esta configuración es necesaria para Salas de Teams cuentas.| **Desactivado**<br><ul><li>El Salas de Teams no enviará el ancho de banda de almacenamiento en secuencias de audio desde la sala. <li>Los usuarios de salas de reuniones no se atribuirán ni distinguirán y sus firmas de voz no se recuperarán ni se usarán en absoluto.<li>Se desconocen los usuarios de la sala de reuniones.</li></ul> <br>**Atributo**<br><ul><li>Los usuarios de salas se atribuirán en función de su estado de inscripción.<li>Los usuarios inscritos se muestran con su nombre en la transcripción.  <li>Los usuarios que no están inscritos se muestran como Altavoz n.<li>El Salas de Teams de audio enviará siete transmisiones de audio desde la sala.</ul> <br>**Distinguir**<br> *Esta configuración estará disponible más adelante.*|
-|enabletranscription|Necesario para cuentas de Teams y salas.|**Verdadero** y **Falso**|
+|AllowTranscription|Necesario para cuentas de Teams y salas.|**Verdadero** y **Falso**|
 ||||
 
 En el Teams de administración, establezca la **directiva Permitir transcripción.** Configuración están **desactivados** de forma predeterminada.
@@ -100,7 +100,7 @@ Los datos de perfil de voz se almacenan en Office 365 nube con contenido de usua
 
 La directiva de retención general se indica en información general [sobre la retención de datos.](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) Además, los datos de perfil de voz de un usuario se eliminarán después de 3 años si el usuario no está invitado a ninguna reunión con un orador inteligente dentro de ese período de 3 años. Los datos no se usan en ninguna reunión para los empleados existentes. Si un empleado ha abandonado la empresa, los datos de perfil de voz se consideran contenido de usuario y se tratan como tales Office 365 directiva de retención de datos descrita en información general sobre retención [de datos.](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)
 
-**¿Se usan datos de perfil de voz en servicios de Microsoft?**
+**¿Se usan datos de perfil de voz en servicios Microsoft?**
 
 No, los datos de perfil de voz solo se usan para el propósito para el que el usuario ha dado su consentimiento. Microsoft no usará los datos de perfil de voz excepto en Teams escenarios de reconocimiento de voz.
 

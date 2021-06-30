@@ -1,7 +1,7 @@
 ---
 title: Teams para la infraestructura de escritorio virtualizada
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6eba4f1da849a2cf8e355454fd1ba794a3496db
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7d498f66241de3edc46a86ae884b615384508b84
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075393"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203629"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -121,6 +121,7 @@ En una configuración no persistente, los cambios del sistema operativo local de
 Para una configuración no persistente, la Teams de escritorio debe instalarse por equipo en la imagen dorada. (Para obtener más información, vea la sección Instalar o actualizar Teams [aplicación de escritorio en VDI).](#install-or-update-the-teams-desktop-app-on-vdi) Esto garantiza un inicio eficaz de la aplicación Teams durante una sesión de usuario.
 
 Usar Teams en una configuración no persistente también requiere un administrador de almacenamiento en caché de perfiles, para una sincronización de datos eficaz Teams tiempo de ejecución. La sincronización eficiente de datos garantiza que la información específica del usuario adecuada (como los datos, el perfil o la configuración de un usuario) se almacena en caché durante la sesión del usuario. Asegúrese de que los datos de estas dos carpetas están sincronizados:<br>
+
 - C:\Usuarios\nombreusuario\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
 - C:\Usuarios\nombreusuario\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
@@ -186,6 +187,7 @@ Para obtener más información sobre Teams y Aplicaciones Microsoft 365 para emp
         ```console
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
+
         Este proceso agrega una clave de registro necesaria al equipo que permite al Teams de instalación saber que es una instancia de VDI.  Sin él, se producirá un error en el instalador, que indica: "Se ha producido un error en la instalación.  No se puede instalar para todos los usuarios cuando no se detecta un entorno VDI".
 
         ```console
@@ -256,7 +258,7 @@ Teams en el explorador Chrome no proporciona un reemplazo para la aplicación de
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>Teams en VDI con chat y colaboración
 
-Si su organización solo desea usar las características de chat y colaboración en Teams, puede establecer directivas de nivel de usuario para desactivar la funcionalidad de llamadas y reuniones en Teams. 
+Si su organización solo desea usar las características de chat y colaboración en Teams, puede establecer directivas de nivel de usuario para desactivar la funcionalidad de llamadas y reuniones en Teams.
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>Establecer directivas para desactivar la funcionalidad de llamadas y reuniones
 
@@ -273,8 +275,8 @@ Para asignar la directiva de llamadas Desautorizado y la directiva de reunión A
 1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a **Usuarios.**
 2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
 3. Haga lo siguiente:
-    1.  En **Directiva de llamadas,** haga clic **en No permitir la llamada.**
-    2.  En **Directiva de reunión,** haga clic **en AllOff**.
+    1. En **Directiva de llamadas,** haga clic **en No permitir la llamada.**
+    2. En **Directiva de reunión,** haga clic **en AllOff**.
 4. Haga clic en **Aplicar**.
 
 Para asignar una directiva a varios usuarios a la vez:
@@ -318,7 +320,7 @@ Si tiene una implementación existente de Teams en VDI con chat y colaboración 
 
 Puede usar el centro de Microsoft Teams o PowerShell para establecer y asignar directivas de llamadas y reuniones a los usuarios. Los cambios de directiva pueden tardar algún tiempo (unas horas) en propagarse. Si no ve cambios para una cuenta determinada inmediatamente, vuelva a intentarlo después de unas horas.
 
-[**Directivas de llamadas:**](teams-calling-policy.md)las directivas de llamadas Teams controlar qué características de llamadas están disponibles para los usuarios. Teams incluye la directiva de llamadas AllowCalling integrada, en la que todas las características de llamadas están activadas. Para activar todas las características de llamadas, asigne la directiva AllowCalling. O bien, cree una directiva de llamadas personalizada para activar las características de llamada que desee y asígnela a los usuarios. 
+[**Directivas de llamadas:**](teams-calling-policy.md)las directivas de llamadas Teams controlar qué características de llamadas están disponibles para los usuarios. Teams incluye la directiva de llamadas AllowCalling integrada, en la que todas las características de llamadas están activadas. Para activar todas las características de llamadas, asigne la directiva AllowCalling. O bien, cree una directiva de llamadas personalizada para activar las características de llamada que desee y asígnela a los usuarios.
 
 [**Directivas de**](meeting-policies-in-teams.md)reunión: las directivas de reunión de Teams controlan los tipos de reuniones que los usuarios pueden crear y las características que están disponibles para los participantes de la reunión programadas por los usuarios de su organización. Teams incluye la directiva de reunión de AllOn integrada, en la que todas las características de la reunión están activadas. Para activar todas las características de la reunión, asigne la directiva AllOn. O bien, cree una directiva de reunión personalizada para activar las características de la reunión que desee y asígnele usuarios.
 
@@ -329,8 +331,8 @@ Para asignar la directiva de llamadas AllowCalling y la directiva de reunión Al
 1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a **Usuarios.**
 2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
 3. Haga lo siguiente:
-    1.  En **Directiva de llamadas,** haga clic **en Permitir llamada.**
-    2.  En **Directiva de reunión,** haga clic **en AllOn**.
+    1. En **Directiva de llamadas,** haga clic **en Permitir llamada.**
+    2. En **Directiva de reunión,** haga clic **en AllOn**.
 4. Haga clic en **Aplicar**.
 
 Para asignar una directiva a varios usuarios a la vez:
@@ -377,6 +379,90 @@ Para deshabilitar el modo de reserva, establezca el valor en **1**. Para habilit
 
 Esta característica está disponible en Teams versión 1.3.00.13565 y posteriores.
 
+## <a name="disable-audio-and-video-settings-for-vdi"></a>Deshabilitar la configuración de audio y vídeo para VDI
+
+Teams Las directivas VDI están disponibles en Microsoft Teams módulo. Estas directivas se aplican y se aplican en entornos VDI no optimizados.
+
+- New-CsTeamsVdiPolicy  
+- Grant-CsTeamsVdiPolicy
+- Remove-CsTeamsVdiPolicy
+- Set-CsTeamsVdiPolicy
+
+> [!NOTE]
+> Esto es solo para entornos no optimizados.
+
+### <a name="update-a-module-name"></a>Actualizar el nombre de un módulo
+
+update-Module -Name MicrosoftTeams -AllowPrerelease
+
+```PowerShell
+<# Import and connect to online (CSOnline runs the policies) #>
+Import-Module microsoftTeams
+if( -not $sess){
+    $session = New-CsOnlineSession
+    $pss = Import-PSSession $session
+}
+<# Check out the commands #>
+Get-Command -Noun *VDI*
+<#
+```
+
+### <a name="set-policies-to-limit-calling-features"></a>Establecer directivas para limitar las características de llamadas
+
+Cuando los usuarios con esta configuración de directiva de VDI -DisableCallsAndMeetings $true iniciar sesión en Teams en VDI, no deberían poder:
+
+- Realizar llamadas.
+- Unirse a reuniones.
+- Haz un recurso compartido de pantalla desde el chat.
+
+Todos los tipos de llamadas deben estar deshabilitados.
+
+> [!NOTE]
+> Esto es solo para entornos no optimizados.
+
+```PowerShell
+#>
+New-CsTeamsVdiPolicy -Identity DisableCallsAndMeetingsTrue -DisableCallsAndMeetings $true -DisableAudioVideoInCallsAndMeetings $false
+<# Assign Policy #>
+$user = 'meganb@jvteams.xyz'
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName DisableCallsAndMeetingsTrue
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<#
+Show all Policies  
+#>
+Get-CsTeamsVdiPolicy | FT Iden*, Disable*
+<#
+```
+
+Cuando los usuarios con la configuración de directiva VDI -DisableAudioVideoInCallsAndMeetings $true iniciar sesión en Teams en VDI, deberían poder:
+
+- Haz un recurso compartido de pantalla desde el chat.
+- Unirse a una reunión y compartir una pantalla. Mover el audio a un teléfono.
+- Los usuarios no deberían poder realizar una llamada de audio y vídeo de persona a persona desde VDI.
+
+> [!NOTE]
+> Esto es solo para entornos no optimizados.
+
+```powershell
+#>
+$PolName = "DisableCallsAndMeetingsAV"
+New-CsTeamsVdiPolicy -Identity $PolName -DisableCallsAndMeetings $false -DisableAudioVideoInCallsAndMeetings $true
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $PolName
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<# ## Cleanup afterwards #>
+$cleanup = $false
+if($cleanup){
+    "Doing cleanup"
+    # de-assign policy from user  
+    Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $null
+    get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+    # remove Policies
+    Get-CsTeamsVdiPolicy | ?{$_.identity -ne 'Global'} | remove-csTeamsVdiPolicy
+}
+```
+
 ## <a name="known-issues-and-limitations"></a>Problemas y limitaciones conocidos
 
 ### <a name="client-deployment-installation-and-setup"></a>Implementación, instalación y configuración del cliente
@@ -400,7 +486,7 @@ Las siguientes características de llamadas y reuniones no son compatibles:
 - Sonido del equipo/audio del sistema compartido
 - Desvío de medios para enrutamiento directo
 - Estacionar llamada
-- Control de zoom 
+- Control de zoom
 
 > [!NOTE]
 > Estamos trabajando en agregar características de llamadas y reuniones que actualmente solo están disponibles en entornos que no son VDI. Esto puede incluir más control de administración sobre la calidad, escenarios de uso compartido de pantalla adicionales y características avanzadas agregadas recientemente a Teams. Póngase en contacto Teams representante para obtener más información sobre las próximas características.
