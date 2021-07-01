@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca53c75d12964de2d4d458b240878b14fd2ad04b
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 4f3546983c3d783c8eb08e0fc371cb9a9feb84f8
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699351"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219117"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiencia de reunión de solo vista para Teams
 
@@ -44,7 +44,16 @@ Los asistentes podrán unirse a la experiencia de solo visualización a través 
 
 ## <a name="teams-view-only-experience-controls"></a>Teams de experiencia de solo vista
 
-Puede habilitar la experiencia de solo vista con PowerShell.
+Puede habilitar la experiencia de solo vista con el cmdlet desde el módulo [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) [de PowerShell de SkypeForBusiness](/powershell/module/skype/?view=skype-ps) o al menos la versión 2.0.0 del módulo [MicrosoftTeams.](https://www.powershellgallery.com/packages/MicrosoftTeams)
+
+Para usar el módulo `MicrosoftTeams` recomendado:
+
+```PowerShell
+Install-Module -Name "MicrosoftTeams" -MinimumVersion 2.0.0
+Connect-MicrosoftTeams
+```
+
+Para habilitar la experiencia de solo vista, puede usar el siguiente fragmento de PowerShell:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled

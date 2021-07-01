@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre Teléfono Microsoft system direct routing le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Teléfono Microsoft system.
-ms.openlocfilehash: b7d065cd8e89e07203d50e4e21a4ac5eb2ccd843
-ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
+ms.openlocfilehash: 6474d9a4d7d4dfd3b970fdd9b189ecbfa85a00a9
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926762"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230617"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -333,7 +333,7 @@ Ubicación de los procesadores multimedia:
 Ubicaciones en las que se implementaron tanto los componentes del proxy SIP como del procesador multimedia:
 - EE. UU. (dos en centros de datos de EE. UU. Oeste y Este de EE. UU.)
 - Europa (centros de datos de Ámsterdam y Dublín)
-- Asia (centros de datos de Singapur y Hong Kong)
+- Asia (centro de datos de Singapur)
 - Japón (centros de datos de JP East y West)
 - Australia (centros de datos de Este y Sureste de AUSTRALIA)
 

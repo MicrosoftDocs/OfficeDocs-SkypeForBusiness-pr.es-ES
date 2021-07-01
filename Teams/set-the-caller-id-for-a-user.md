@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre Microsoft 365 y Office 365 de llamada predeterminada (número de teléfono asignado por un usuario), también conocido como Identificador de línea de llamada. Puede cambiar o bloquear el identificador de llamada de un usuario.
-ms.openlocfilehash: dbbb48952264d82ca24bdd82dbb45538b0428368
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308339"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230607"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Establecer el identificador de llamada de un usuario
 
@@ -39,6 +39,7 @@ De forma predeterminada, la siguiente configuración de identificador de llamada
     
   > [!NOTE]
   > Si desea usar el parámetro *Servicio,* debe especificar un número de servicio válido.
+  > Debe usar los cmdlets de PowerShell para el número de cuenta de recursos si no se ven en la lista desplegable.
   
 - **Bloquear el identificador de llamada saliente.** Puede bloquear el identificador de llamada saliente para que no se envíe en las llamadas RTC salientes de un usuario. Al hacerlo, se bloqueará el número de teléfono para que no se muestre en el teléfono de la persona que llama.
     
@@ -138,7 +139,7 @@ Windows PowerShell se centra en la administración de usuarios y en las acciones
     
 - [Seis motivos por los que es posible que desee usar Windows PowerShell administrar Microsoft 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso del centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en la velocidad, la simplicidad y la productividad en lugar de usar solo el Centro de administración de Microsoft 365 como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
 - [Las mejores formas de administrar Microsoft 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

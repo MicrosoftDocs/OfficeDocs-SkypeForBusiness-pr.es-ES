@@ -1,5 +1,5 @@
 ---
-title: Notas de la versión para Microsoft Teams
+title: Notas de la versión para Microsoft Teams de administrador
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de la versión Microsoft Teams características de administrador.
-ms.openlocfilehash: 94213748d55e91022f19e29a48dab7f4fe6e5199
-ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
+ms.openlocfilehash: 7cade0f9fb007a0eacc64999fb29974faec0b613
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52947612"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219167"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de la versión para Microsoft Teams de administrador
 
@@ -180,7 +180,7 @@ Puede administrar la Skype Empresarial de Skype Empresarial usuarios de su organ
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>Administrar Skype Empresarial configuración de la organización
 
-Puede administrar las Skype Empresarial de Skype Empresarial usuarios de su organización en el centro Microsoft Teams administración. Vaya a **Configuración de toda** la organización  >  **Skype Empresarial**. Desde aquí, puede administrar Reunión de Skype de difusión, presencia y notificaciones móviles. [Más información](../skype-for-business-settings.md).
+Puede administrar las Skype Empresarial de Skype Empresarial usuarios de su organización en el centro Microsoft Teams administración. Vaya a **Configuración de toda** la organización  >  **Skype Empresarial**. Desde aquí, puede administrar Skype de reunión, presencia y notificaciones móviles. [Más información](../skype-for-business-settings.md).
 
 ## <a name="october-16-2020"></a>16 de octubre de 2020
 

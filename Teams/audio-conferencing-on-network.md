@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: A continuación se describen las funciones De vista previa abierta para audioconferencias en red.
-ms.openlocfilehash: d6df81cc077c69fdeb4246d682797d2ebb26b875
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+description: A continuación se describen las conferencias en red para audioconferencias.
+ms.openlocfilehash: b7851bd2457debe8ee0de3144e24a15edb521222
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637842"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230567"
 ---
-# <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Abrir vista previa de conferencias en red para audioconferencias
+# <a name="on-network-conferencing-for-audio-conferencing"></a>Conferencias en red para audioconferencias
 
-La vista previa abierta de conferencias en red está disponible para todos los clientes. Las conferencias en red permiten a las organizaciones enviar llamadas de audioconferencia entrantes y salientes a números de acceso telefónico local de Microsoft mediante enrutamiento directo. Esta capacidad no está pensada para extender la compatibilidad de audioconferencias a números de acceso telefónico local de terceros. Las conferencias en red no son compatibles si se usan para enrutar las llamadas entrantes al servicio de audioconferencia a través de números de teléfono de acceso telefónico local de terceros o llamadas salientes a la RTC desde el puente de audioconferencia de Microsoft. 
+Las conferencias en red permiten a las organizaciones enviar llamadas de audioconferencia entrantes y salientes a números de acceso telefónico local de Microsoft mediante enrutamiento directo. Esta capacidad no está pensada para extender la compatibilidad de audioconferencias a números de acceso telefónico local de terceros. Las conferencias en red no son compatibles si se usan para enrutar las llamadas entrantes al servicio de audioconferencia a través de números de teléfono de acceso telefónico local de terceros o llamadas salientes a la RTC desde el puente de audioconferencia de Microsoft. 
 
 En este artículo se describen los requisitos previos y los pasos de configuración necesarios para habilitar las conferencias en red para su organización.
 
@@ -151,19 +151,6 @@ Un plan de marcado es un conjunto de reglas de normalización que traducen los n
 De forma predeterminada, Teams usuarios pueden llamar a números RTC en formato E.164, es decir, + \<country code\> \<number\> . Sin embargo, los planes de marcado se pueden usar para permitir a los usuarios marcar números de teléfono en otros formatos, por ejemplo, extensiones de 4 dígitos.
 
 Si desea habilitar la marcación basada en extensiones a través de conferencias en red, puede configurar los planes de marcado para que coincidan con el patrón de marcado de extensión con los intervalos de número de teléfono del número de teléfono de su organización. Para configurar planes de marcado, vea [Crear y administrar planes de marcado.](create-and-manage-dial-plans.md)
-
-
-## <a name="known-issues-in-open-preview"></a>Problemas conocidos en Open Preview
-
-A continuación se muestra una lista de los problemas conocidos que están presentes actualmente en la versión de Open Preview de las conferencias en red. Microsoft está trabajando para solucionar estos problemas.
-
-| Problema | Solución alternativa |
-| :--- | :--- |
-| Las llamadas de acceso telefónico local con identificadores de llamadas anónimos u ocultos que se enruta a través de conferencias en red no se pueden conectar a la reunión. | Si es posible, establezca una configuración en su PBX o SBC para enviar siempre un identificador de llamada para las llamadas enrutadas a través de conferencias en red.|
-| En algunos casos, el mensaje de bienvenida que se reproduce para los usuarios al llamar al servicio ("Bienvenido al servicio de audioconferencia...") se trunca y los usuarios no escuchan la palabra "Bienvenido".| No hay soluciones alternativas para este problema en este momento. |
-
-
-
 
 ## <a name="related-topics"></a>Temas relacionados
 

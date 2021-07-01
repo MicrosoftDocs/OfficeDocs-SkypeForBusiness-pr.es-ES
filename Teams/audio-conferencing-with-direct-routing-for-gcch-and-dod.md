@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: El administrador puede obtener información sobre cómo usar audioconferencias con enrutamiento directo en entornos GCCH y DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 577a9fe106cb5dae23049404b54433288e350b78
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 4daea8636ce99ed711d7fd982cd42eb9aa8c6b93
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262625"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230587"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audioconferencia con enrutamiento directo para GCC High y DoD
 
@@ -170,8 +170,6 @@ Para cambiar el conjunto de números de teléfono que se incluyen en las invitac
 A continuación se descuido de las funcionalidades de audioconferencia que no son compatibles con audioconferencias con enrutamiento directo para GCC high y doD:
 
 - Notificaciones de entrada y salida con la grabación de nombres. Para las audioconferencias con enrutamiento directo, las notificaciones de entrada y salida se reproducen en la reunión como tonos.
-
-- Directivas de restricción de llamadas salientes para audioconferencias. Los controles de nivel de usuario para restringir las llamadas salientes no se aplican a las llamadas de acceso telefónico local de reuniones enrutadas a través del enrutamiento directo.
 
 - Deshabilite el uso de números gratuitos para el organizador específico de las reuniones. Los controles de nivel de usuario para restringir el uso de números gratuitos para unirse a las reuniones de su organización no se aplican a las llamadas enrutadas a través del enrutamiento directo.
 

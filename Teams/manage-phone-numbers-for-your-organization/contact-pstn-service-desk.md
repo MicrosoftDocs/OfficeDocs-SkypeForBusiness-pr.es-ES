@@ -23,16 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cuando recibe números de teléfono o números de puerto (transferencia) para su organización, es posible que tenga que obtener ayuda y soporte técnico en el servicio RTC.
-ms.openlocfilehash: 226a3c5926aa77e5bf1c73f3195fe50b73456b1f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afbf6c9beed27f907c28743937053bb08ae5dee6
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121358"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219157"
 ---
 # <a name="pstn-service-desk-contact-information"></a>Información de contacto de Servicio RTC
 
 Para ponerse en contacto con el equipo de Service Desk RTC, envíe un correo electrónico al alias correspondiente que se muestra en la tabla siguiente.
+
+> [!NOTE]
+> Próximamente, habrá un nuevo proceso para interactuar con el servicio rtc. En ese momento, el sistema de correo electrónico actual se retirará. El nuevo proceso le permitirá abrir entradas, realizar un seguimiento de su comunicación y ver los vales de su empresa en un único lugar integrado con el Centro de administración de Teams empresa. Se seguirán más actualizaciones durante las próximas semanas.
+<br>
 
 | **Quiero transferir o portabilidad números existentes**  | **Quiero pedir nuevos números para** |
 |:-----:|:------:|
