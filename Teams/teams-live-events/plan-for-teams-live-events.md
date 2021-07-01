@@ -20,12 +20,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e3baf6a27b98d9f8b3fb30572391cd3442530c3d
-ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
+ms.openlocfilehash: e1d7def6710d98e2a77358abfcc43ec80fa89bb8
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53069363"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203599"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -43,7 +43,7 @@ Para que el usuario programe un evento en directo de Teams se requieren los sigu
 Estas son las licencias que debe asignar para organizar, producir o presentar un evento en directo de Teams:  
 
 - **Para organizar:** una licencia de Microsoft o de Office 365 Enterprise E1, E3 o E5 **[o]** una licencia de Office 365 Educación A3 o A5. 
-- **Para producir o introducir:** una licencia de Microsoft u Office 365 Enterprise E1, E3, o E5 **[o]** una licencia de Microsoft Office 365 para el ámbito de la educación A1, A3 o A5. La excepción a este requisito es que los usuarios invitados pueden presentar sin una licencia si se cumplen[otros criterios](plan-for-teams-live-events.md#guest-to-present) para los usuarios invitados.
+- **Para producir o introducir:** una licencia de Microsoft u Office 365 Enterprise E1, E3, o E5 **[o]** una licencia de Microsoft Office 365 para el ámbito de la educación A1, A3 o A5. La excepción a este requisito es que los usuarios invitados pueden presentar sin una licencia si se cumplen [otros criterios](plan-for-teams-live-events.md#guest-to-present) para los usuarios invitados.
 - Una licencia de Microsoft Teams: se incluye en las licencias que aparecen en la primera y la segunda viñeta.
 - Se requiere una licencia de Microsoft Stream si tiene previsto compartir el contenido en una aplicación o dispositivo externo. Consulte [licencias de Microsoft Stream](/stream/license-overview).
 
@@ -106,7 +106,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 > [!IMPORTANT]
 > **Aumentamos el límite de eventos en directo de Microsoft 365**
 >
-> **Para continuar cubriendo las necesidades de nuestros clientes, hasta el 31 de diciembre de 2021, extenderemos los aumentos de los límites temporales para los eventos en vivo, incluyendo**:
+> **Para seguir admitiendo las necesidades de nuestros clientes ampliaremos los aumentos de límite temporal para los eventos en directo hasta el 31 de diciembre de 2021, incluidos**:
 >
 >- Soporte de eventos de hasta 20 000 asistentes
 >- 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial
@@ -139,7 +139,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Subtítulos en directo y otros subtítulos |&#x2714; |&#x2714; |&#x274C; |
 |Subtítulos para las grabaciones de eventos en directo |&#x2714; |&#x2714; |&#x2714; |
 |Controles DVR de los asistentes (pausa, retroceso) |&#x2714; |&#x2714; |&#x2714; |
-|Soporte técnico eCDN Partner |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
+|Soporte técnico eCDN Partner |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |Informe de asistencia posterior a la difusión para los productores |&#x2714; |&#x2714; |&#x274C; |
 |Análisis de opiniones de los asistentes: votación y sondeos en directo |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

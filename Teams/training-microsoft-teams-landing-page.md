@@ -3,8 +3,8 @@ title: Formación de administradores de Microsoft Teams
 ms.reviewer: ''
 description: Use estos recursos impartidos por los usuarios finales, administradores e instructores y los vídeos tutoriales para sacar el máximo provecho de Microsoft Teams en su organización.
 ms.topic: overview
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ff718bda9b1713621a7c63ab2f8bf1adf4e179ad
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 1d88448851cdb81226eaae06ee5120555d498b6b
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648119"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186909"
 ---
 # <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 
@@ -61,8 +61,7 @@ Vuelve a menudo para ver las novedades. Esta lista se actualiza para que estés 
 
 :::row:::
    :::column:::
-   **[Certificación de especialista de adopción](/learn/paths/m365-service-adoption/)** </br>
-   El curso de certificación de especialista de adopción de servicios Microsoft incluye Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.
+   **[Certificación de especialista de adopción](/learn/paths/m365-service-adoption/)** </br> El curso de certificación de especialista de adopción de servicios Microsoft usa Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.
 
    :::column-end:::
 
