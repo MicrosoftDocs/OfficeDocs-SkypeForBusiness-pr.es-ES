@@ -557,6 +557,8 @@ items:
         href: cortana-in-teams.md
       - name: Configurar la jerarquía de destinos de equipo
         href: set-up-your-team-hierarchy.md
+      - name: Chat supervisado para espacios empresariales no educativos
+        href: supervised-chat-non-edu.md
   - name: 'Reuniones, conferencias y eventos en directo'
     items:
       - name: 'Inicio rápido: reuniones y eventos en vivo'
