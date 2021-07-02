@@ -18,12 +18,12 @@ description: Obtenga más información sobre la versión preliminar pública en 
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b0719e68dcbf1c73c15ee58e8c7d6be08f359aa5
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: e2724901a2a1b534053e2145da442e989aed4e6c
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863261"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230547"
 ---
 # <a name="microsoft-teams-public-preview"></a>Versión preliminar pública en Microsoft Teams
 
@@ -46,7 +46,7 @@ La versión preliminar pública está habilitada para cada usuario y la opción 
 3. Seleccione **Agregar**.
 4. Asigne un nombre a la directiva de actualización, agregue una descripción y active **Mostrar características de versión preliminar**.
 
-También puede establecer la directiva con PowerShell usando el cmdlet de `CsTeamsUpdateManagementPolicy`.
+También puede establecer la directiva mediante PowerShell mediante el cmdlet `Set-CsTeamsUpdateManagementPolicy` con el parámetro booleano `-AllowPreview`.
 
 ## <a name="enable-public-preview"></a>Habilite la versión preliminar pública
 
