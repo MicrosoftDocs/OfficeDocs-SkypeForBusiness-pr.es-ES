@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ec6b257f91c7e5003a4a69079e37b20b5f338528
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
-ms.translationtype: HT
+ms.openlocfilehash: c99fc4bfb185ec291a98a96572167b389b3e6252
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617762"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252655"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Administrar directivas de retención de Microsoft Teams
 
@@ -63,13 +63,17 @@ Estos dos principios de retención abordan la mayoría de los conflictos que pue
 
 En muchos casos, las organizaciones consideran que los datos de chat privados son más una responsabilidad que los mensajes de canal, que generalmente son conversaciones más relacionadas con el proyecto.
 
-Puede establecer directivas de retención distintas para chats privados (1 a 1 o 1 a muchos chats) y mensajes de canal. También puede configurar directivas únicas para aplicarlas a determinados usuarios o equipos de la organización. En el caso de chats de Teams, puede seleccionar a qué usuarios aplicar la directiva. En el caso de los mensajes de canal de Teams, puede seleccionar a qué equipos aplicar la directiva.
+Puede configurar de forma muy eficaz una única directiva de retención para todos los Teams mensajes. O bien, para obtener un control más preciso, puede:
 
-Por ejemplo, para los mensajes de canal puede aplicar una directiva de retención a equipos específicos de su organización, y esa directiva se configura con una acción de eliminación 1 año después. A continuación aplique otra directiva de retención a todos los demás equipos, y esa directiva se configura con una acción de eliminación 3 años después.
+- Tenga directivas de retención independientes para chats privados (chats 1:1 o 1:many), mensajes de canales estándar o mensajes de canales privados.
+
+- Aplique las directivas solo a usuarios o equipos específicos de su organización. Para Teams chats y canales privados, puede seleccionar a qué usuarios se aplica la directiva. En el caso de los mensajes de canal de Teams, puede seleccionar a qué equipos aplicar la directiva.
+
+Por ejemplo, para los mensajes de canal estándar: Cree una directiva de retención para equipos específicos de su organización y configure esa directiva con una acción de eliminación después de 1 año. A continuación, cree otra directiva de retención para los mensajes de canal estándar para todos los demás equipos y configure esa directiva con una acción de eliminación después de 3 años.
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Crear y administrar directivas de retención en Teams
 
-Para crear o editar una directiva de retención para chats y mensajes de canal de Teams siga las instrucciones de [Directiva de retención para ubicaciones de Teams](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations).
+Para crear o editar una directiva de retención para Teams mensajes, use las instrucciones de la directiva de retención [para Teams ubicación.](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
 
 Esa página contiene información adicional sobre cómo crear y administrar directivas de retención para otras cargas de trabajo en Microsoft 365. Por ejemplo, es posible que también desee crear una directiva de retención para Grupos de Microsoft 365 para conservar y eliminar archivos a los que se accede en Teams y que se almacenan en OneDrive o SharePoint.  
 
@@ -91,7 +95,7 @@ En el caso de los mensajes de canal, los usuarios (miembros del canal) verán qu
 > [!NOTE]
 > Los mensajes que se muestran a los usuarios como resultado de los mensajes eliminados no se pueden configurar en este momento.
 
-Los vínculos de estos mensajes que se muestran llevan a [Mensajes de Teams sobre directivas de retención](https://support.microsoft.com/es-ES/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b). Esta documentación para los usuarios finales ayuda a responder a preguntas básicas sobre por qué se han eliminado sus mensajes. Sin embargo, como parte de la implementación de la directiva de retención, asegúrese de comunicar a los usuarios y al departamento de soporte técnico el impacto de las opciones configuradas.
+Los vínculos de estos mensajes que se muestran llevan a [Mensajes de Teams sobre directivas de retención](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b). Esta documentación para los usuarios finales ayuda a responder a preguntas básicas sobre por qué se han eliminado sus mensajes. Sin embargo, como parte de la implementación de la directiva de retención, asegúrese de comunicar a los usuarios y al departamento de soporte técnico el impacto de las opciones configuradas.
 
 ## <a name="related-topics"></a>Temas relacionados
 
