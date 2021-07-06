@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Administrar Microsoft Teams configuración en Surface Hub con Microsoft Intune y Windows Diseñador de configuración
-ms.openlocfilehash: 9c16fa4875febd3c9e0a8457626db5e09bf90545
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d368bed6db1d86e9c97d849d462edd1ff0a21c6d
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117388"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278473"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>Administrar Microsoft Teams configuración en Surface Hub
 
@@ -91,7 +91,7 @@ Por último, después de crear el paquete de aprovisionamiento, haga lo siguient
 
 1. Guardar el paquete de aprovisionamiento que creó anteriormente en una unidad USB
 2. Inserte la unidad USB en su Surface Hub
-3. En el Surface Hub, abra el menú Inicio, seleccione Todas las **aplicaciones** y, a continuación, **seleccione Configuración**
+3. En el Surface Hub, abra el menú Inicio, seleccione Todas las aplicaciones **y,** a continuación, **seleccione Configuración**
 4. Proporcione su nombre de usuario y contraseña de administrador y, a continuación, seleccione **Sí**
 5. Vaya a **Surface Hub**, **Administración de dispositivos,** Agregar o quitar un paquete de **aprovisionamiento** y, a continuación, **Agregar un paquete**
 6. En **Seleccionar un paquete,** seleccione **Agregar** junto al paquete de aprovisionamiento y, a continuación, reinicie el Surface Hub
@@ -130,7 +130,7 @@ Quite Teams configuración de Surface Hub con Windows de configuración o Micros
 
 Si aplicó Teams configuración a un Surface Hub mediante un paquete de aprovisionamiento creado por el Diseñador de configuración de Windows, siga estos pasos para quitar el paquete y su configuración:
 
-1. En el Surface Hub, abra el menú Inicio, seleccione Todas las **aplicaciones** y, a continuación, **seleccione Configuración**
+1. En el Surface Hub, abra el menú Inicio, seleccione Todas las aplicaciones **y,** a continuación, **seleccione Configuración**
 2. Proporcione su nombre de usuario y contraseña de administrador y, a continuación, seleccione **Sí**
 3. Vaya a **Surface Hub**, **Administración de dispositivos** y, a **continuación, Agregar o quitar un paquete de aprovisionamiento**
 4. Junto al paquete de aprovisionamiento que quiera quitar, seleccione **Quitar**
@@ -150,7 +150,7 @@ Si aplicó Teams configuración a un Surface Hub con Microsoft Intune en Microso
 
 Después de quitar el perfil de configuración que contenía la configuración de reunión coordinada para su Surface Hub, siga estos pasos para restablecer la aplicación Teams en el Surface Hub:
 
-1. En el Surface Hub, abra el menú Inicio, seleccione Todas las **aplicaciones** y, a continuación, **seleccione Configuración**
+1. En el Surface Hub, abra el menú Inicio, seleccione Todas las aplicaciones **y,** a continuación, **seleccione Configuración**
 2. Proporcione su nombre de usuario y contraseña de administrador y, a continuación, seleccione **Sí**
 3. Vaya a **Surface Hub** y, a continuación, **Aplicaciones & características**
 4. Busque **Microsoft Teams para Surface Hub y, a** continuación, seleccione Opciones **avanzadas**

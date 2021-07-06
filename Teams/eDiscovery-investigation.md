@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar exhi
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca1a679fbdce7ca2840c41266053cf13f1452fe0
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: ebc1bb12b8a864e65cf6cb26b3d2022ae2e1563b
+ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197535"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53275689"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -82,7 +82,7 @@ Para obtener más información sobre cómo llevar a cabo una investigación de e
 
 Microsoft Teams datos aparecerán como mensajería instantánea o Conversaciones en el Excel de exportación de exhibición de documentos electrónicos. Puede abrir el `.pst` archivo en Outlook ver esos mensajes después de exportarlos.
 
-Al ver el archivo .pst para el equipo, todas las conversaciones se mantienen en la carpeta Chat de grupo en Historial de conversaciones. El título del mensaje contiene el nombre del equipo y el nombre del canal. Por ejemplo, en la imagen siguiente se muestra un mensaje de Bob que envía un mensaje al canal Project 7 estándar del equipo de Especificaciones de fabricación.
+Al ver el archivo .pst para el equipo, todas las conversaciones se encuentran en la carpeta Chat de grupo en Historial de conversaciones. El título del mensaje contiene el nombre del equipo y el nombre del canal. Por ejemplo, en la imagen siguiente se muestra un mensaje de Bob que envía un mensaje al canal Project 7 estándar del equipo de Especificaciones de fabricación.
 
 ![Captura de pantalla de una carpeta chat de grupo en el buzón de un usuario en Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 

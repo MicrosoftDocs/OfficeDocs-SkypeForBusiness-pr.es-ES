@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Vea qué dispositivos y periféricos USB (como auriculares, altavoces, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: f8caa5a2d4ef374ce834e801f80370e5cb4251ac
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: e3225490e52b527e02449796d614107221853554
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105132"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278513"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -74,10 +74,11 @@ Si es un fabricante y desea unirse al programa de certificación, [vea](/skypefo
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabla actualizada en junio de 2021*
+*Tabla actualizada en julio de 2021*
 
 | Fabricante        | Modelo                                                     | Cualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Certificado para Microsoft Teams                           |
 |Dell                 |Cámara web ultrasharp WB7022                                   |6/16/2021       |Certificado para Microsoft Teams                           |
 |NEC                  |Wd551 Windows colaboración                        |5/21/2021       |Certificado para Microsoft Teams                           |
 |Logitech             |Cámara web C920e                                               |4/22/2021       |Certificado para Microsoft Teams                           |

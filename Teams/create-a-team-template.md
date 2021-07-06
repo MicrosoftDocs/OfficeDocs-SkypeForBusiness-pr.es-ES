@@ -16,18 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 5e4fc9b8ace3cec2161008cffe61a8b312e61f39
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506744"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278463"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Crear una plantilla de equipo personalizada en Microsoft Teams
 
 **Las plantillas personalizadas aún no son compatibles con los clientes de EDU.**
 
 Una plantilla de equipo personalizada es una estructura de equipo predefinida con un conjunto de canales, pestañas y aplicaciones. Puede desarrollar una plantilla que le ayude a crear rápidamente el espacio de colaboración adecuado. La plantilla de equipo personalizada usa la configuración que prefiera.  
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4P5rx]
+
 
 Para empezar:
 
@@ -64,7 +69,7 @@ Para empezar:
 La nueva plantilla se muestra en la lista **Plantillas de** equipo. La plantilla se puede usar para crear un equipo en Teams.
 
 > [!Note]
-> Los usuarios de equipos pueden tardar hasta 24 horas en ver una plantilla personalizada en la galería.
+> Los usuarios de equipos pueden tardar hasta 24 horas en ver un cambio de plantilla personalizado en la galería.
 
 ## <a name="customizing-website-tab-apps"></a>Personalizar aplicaciones de pestaña Sitio web
 

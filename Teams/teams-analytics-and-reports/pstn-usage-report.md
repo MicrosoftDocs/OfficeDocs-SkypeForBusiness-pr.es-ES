@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el Teams de uso de RTC en el 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 402e602e9f15beef30f0c44901398fa22b63c807
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: af904400b7a20befe650977c4baea035f998cf86
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262672"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278523"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams Informe de uso de RTC
 
@@ -140,7 +140,7 @@ Puede exportar datos hasta cinco meses (150 días) a partir de la fecha actual, 
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | Identificador de llamada único |
 > | 1 | Dirección SIP | `nvarchar(128)` | La dirección del usuario o bot que realizó o recibió la llamada.<br/>Tenga en cuenta que esto es realmente UserPrincipalName (UPN, nombre de inicio de sesión) en Azure Active Directory, que suele ser el mismo que la dirección SIP |
-> | 2 | Nombre para mostrar | `nvarchar(128)` | El nombre de un usuario o un bot de llamadas (por ejemplo, Cola de llamadas o Operador automático) tal y como se establece en Microsoft 365 centro de administración |
+> | 2 | Nombre para mostrar | `nvarchar(128)` | El nombre de un usuario o un bot de llamadas (por ejemplo, Cola de llamadas o Operador automático) tal como se establece en Centro de administración de Microsoft 365 |
 > | 3 | País de usuario | `nvarchar(2)` | Código de país del usuario, [ISO 3166-1 alfa-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 4 | Hora de invitación | `datetimeoffset` | Cuando la invitación inicial envía una llamada saliente desde un usuario o bot Teams la SBC, o se recibe en la llamada entrante Teams o bot por el componente proxy SIP de Enrutamiento directo desde el SBC |
 > | 5 | Hora de inicio | `datetimeoffset` | Hora en la que el proxy SIP recibió la respuesta final (mensaje SIP "200 Aceptar") desde el SBC en la salida (Teams/Bot a un usuario RTC), o después de que el proxy SIP envíe la Invitación Teams al siguiente salto dentro de un back-end en una llamada entrante (Usuario RTC a un Teams/Bot).<br/>Para las llamadas con errores y sin respuesta, puede ser igual a la hora de invitación o de error |

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: El nuevo Skype Empresarial de informes del Centro de administración muestra la actividad de llamadas y audioconferencias en su organización. Le permite explorar en profundidad los informes para proporcionar información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles de uso de RTC de audioconferencia, incluido el costo de la llamada para que pueda comprender los detalles de facturación de llamadas y uso para determinar el uso dentro de su organización.
-ms.openlocfilehash: b806c0b3a471f862de6d69c6ed9b5220441c4257
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 2c6a0410611919662f5eaf37a03bfcca11b543be
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238208"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278453"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -37,7 +37,7 @@ Consulte información general [sobre informes](https://support.office.com/articl
 Este informe, junto con el resto de Skype Empresarial, le proporciona detalles sobre la actividad, incluido el uso de llamadas en toda la organización. Estos detalles son muy útiles al investigar, planear y tomar otras decisiones empresariales para su organización y para configurar créditos [de comunicaciones.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Puede ver todos los informes Skype Empresarial al iniciar sesión como administrador en el centro de Microsoft 365 administración. 
+> Puede ver todos los informes Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Cómo acceder al informe Detalles de uso de RTC de Skype Empresarial
 

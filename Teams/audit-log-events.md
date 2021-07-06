@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el centro Microsoft 365 cumplimiento normativo.
+description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el Centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4398ed1c89b1ece93bf2e1ca31947f6fadf7afa
-ms.sourcegitcommit: ea2ccf77ba86c3cc10184a2c8a2eceafc6842d1b
+ms.openlocfilehash: 027d3691a5e5c501beb69448a4d4060de4a7fad9
+ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52091677"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53275679"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -127,37 +127,55 @@ Estamos trabajando para integrar Teams eventos en directivas de detección de an
 
 Esta es una lista de todos los eventos que se registran para las actividades de usuario y administrador en Teams en el registro Microsoft 365 auditoría. La tabla incluye el nombre descriptivo que  se muestra en la columna Actividades y el nombre de la operación correspondiente que aparece en la información detallada de un registro de auditoría y en el archivo CSV al exportar los resultados de la búsqueda.
 
-|Nombre descriptivo  |Operación|Descripción |
-|---------|---------|---------|
+|Nombre descriptivo  |Operación |Descripción |
+|:---------|:---------|:---------|
 |Bot agregado al equipo   |BotAddedToTeam        |Un usuario agrega un bot a un equipo.        |
 |Agregación de canales   |Canal agregado         |Un usuario agrega un canal a un equipo.         |
 |Conector agregado  |Conector agregado          |Un usuario agrega un conector a un canal.        |
 |Miembros agregados    |Miembro agregado         |El propietario de un equipo agrega miembros a un equipo, canal o chat grupal.         |
 |Pestaña Agregado    |Pestaña Agregada         |Un usuario agrega una pestaña a un canal.        |
 |Configuración del canal cambiada    |ChannelSettingChanged         |La operación ChannelSettingChanged se registra cuando un miembro del equipo realiza las siguientes actividades. Para cada una de estas actividades, se muestra una descripción de la configuración  que se ha cambiado (se muestra entre paréntesis en la columna Elemento en los resultados de búsqueda del registro de auditoría. <ul><li>Cambia el nombre de un canal de grupo (**nombre del canal**)</li><li>Cambiar la descripción de un canal de grupo (**Descripción del canal**)</li> </ul>      |
-|Configuración de la organización cambiada   |TeamsTenantSettingChanged         |La operación TeamsTenantSettingChanged se registra cuando un administrador global realiza las siguientes actividades en el centro Microsoft 365 administración. Estas actividades afectan a la configuración de Teams organización. Para obtener más información, vea [Administrar Teams configuración de su organización.](enable-features-office-365.md) <br>Para cada una de estas actividades, se muestra una descripción de la configuración  que se modificó (se muestra entre paréntesis) en la columna Elemento en los resultados de la búsqueda del registro de auditoría.<ul><li>Habilita o deshabilita Teams para la organización (**Microsoft Teams**).</li><li>Habilita o deshabilita la interoperabilidad entre Microsoft Teams y Skype Empresarial para la organización **(Skype Empresarial interoperabilidad).**</li><li>Habilita o deshabilita la vista organigrama en Microsoft Teams **(vista Organigrama).**</li><li>Habilita o deshabilita la posibilidad de que los miembros del equipo programe reuniones privadas **(programación de reuniones privadas).**</li><li>Habilita o deshabilita la capacidad de los miembros del equipo para programar reuniones del canal **(programación de reuniones del canal).**</li><li>Habilita o deshabilita las videollamadas en Teams reuniones **(Vídeo para Skype reuniones).**</li><li>Habilita o deshabilita el uso compartido de pantalla en Microsoft Teams reuniones de la organización (uso compartido de pantalla **para Skype reuniones).**</li><li>Habilita o deshabilita esa capacidad para agregar imágenes animadas (denominadas Giphys) a Teams conversaciones **(imágenes animadas).**</li><li>Cambia la configuración de clasificación de contenido de la organización (**Clasificación de contenido**). La clasificación de contenido restringe el tipo de imagen animada que se puede mostrar en las conversaciones.</li><li>Habilita o deshabilita la posibilidad de que los miembros del equipo agreguen imágenes personalizables (denominadas memes personalizados) desde Internet a las conversaciones del equipo (imágenes personalizables **desde Internet).**</li><li>Habilita o deshabilita la posibilidad de que los miembros del equipo agreguen imágenes editables (denominadas adhesivos) a las conversaciones del equipo **(imágenes editables).**</li><li>Habilita o deshabilita esa capacidad para que los miembros del equipo usen bots en Microsoft Teams chats y canales **(bots** para toda la organización).</li><li>Habilita bots específicos para Microsoft Teams. Esto no incluye el T-Bot, que es Teams bot de ayuda que está disponible cuando los bots están habilitados para la organización **(bots individuales).**</li><li>Habilita o deshabilita la posibilidad de que los miembros del equipo agreguen extensiones o pestañas **(extensiones o pestañas).**</li><li>Habilita o deshabilita la carga lateral de bots propietarios para Microsoft Teams **(carga lateral de bots).**</li><li>Habilita o deshabilita la capacidad de los usuarios para enviar mensajes de correo electrónico a un canal Microsoft Teams **(correo electrónico del canal).**</li></ul>|
+|Configuración de la organización cambiada   |TeamsTenantSettingChanged         |La operación TeamsTenantSettingChanged se registra cuando un administrador global realiza las siguientes actividades en el Centro de administración de Microsoft 365. Estas actividades afectan a la configuración de Teams organización. Para obtener más información, vea [Administrar Teams configuración de su organización.](enable-features-office-365.md) <br>Para cada una de estas actividades, se muestra una descripción de la configuración  que se modificó (se muestra entre paréntesis) en la columna Elemento en los resultados de la búsqueda del registro de auditoría.<ul><li>Habilita o deshabilita Teams para la organización (**Microsoft Teams**).</li><li>Habilita o deshabilita la interoperabilidad entre Microsoft Teams y Skype Empresarial para la organización **(Skype Empresarial interoperabilidad).**</li><li>Habilita o deshabilita la vista organigrama en Microsoft Teams **(vista Organigrama).**</li><li>Habilita o deshabilita la posibilidad de que los miembros del equipo programe reuniones privadas **(programación de reuniones privadas).**</li><li>Habilita o deshabilita la capacidad de los miembros del equipo para programar reuniones del canal **(programación de reuniones del canal).**</li><li>Habilita o deshabilita las videollamadas en Teams reuniones **(Vídeo para Skype reuniones).**</li><li>Habilita o deshabilita el uso compartido de pantalla en Microsoft Teams reuniones de la organización (uso compartido de pantalla **para Skype reuniones).**</li><li>Habilita o deshabilita esa capacidad para agregar imágenes animadas (denominadas Giphys) a Teams conversaciones **(imágenes animadas).**</li><li>Cambia la configuración de clasificación de contenido de la organización (**Clasificación de contenido**). La clasificación de contenido restringe el tipo de imagen animada que se puede mostrar en las conversaciones.</li><li>Habilita o deshabilita la posibilidad de que los miembros del equipo agreguen imágenes personalizables (denominadas memes personalizados) desde Internet a las conversaciones del equipo (imágenes personalizables **desde Internet).**</li><li>Habilita o deshabilita la posibilidad de que los miembros del equipo agreguen imágenes editables (denominadas adhesivos) a las conversaciones del equipo **(imágenes editables).**</li><li>Habilita o deshabilita esa capacidad para que los miembros del equipo usen bots en Microsoft Teams chats y canales **(bots** para toda la organización).</li><li>Habilita bots específicos para Microsoft Teams. Esto no incluye el T-Bot, que es Teams bot de ayuda que está disponible cuando los bots están habilitados para la organización **(bots individuales).**</li><li>Habilita o deshabilita la posibilidad de que los miembros del equipo agreguen extensiones o pestañas **(extensiones o pestañas).**</li><li>Habilita o deshabilita la carga lateral de bots propietarios para Microsoft Teams **(carga lateral de bots).**</li><li>Habilita o deshabilita la capacidad de los usuarios para enviar mensajes de correo electrónico a un canal Microsoft Teams **(correo electrónico del canal).**</li></ul>|
 |Rol cambiado de los miembros del equipo    |MemberRoleChanged         |El propietario de un equipo cambia el rol de los miembros de un equipo. Los siguientes valores indican el tipo de rol asignado al usuario. <br><br>**1:** indica el rol de miembro.<br>**2:** indica el rol propietario.<br>**3:** indica el rol de invitado.<br><br>La propiedad Miembros también incluye el nombre de su organización y la dirección de correo electrónico del miembro.        |
 |Configuración de equipo cambiada    |TeamSettingChanged        |La operación TeamSettingChanged se registra cuando un propietario del equipo realiza las siguientes actividades. Para cada una de estas actividades, se muestra una descripción de la configuración  que se modificó (se muestra entre paréntesis) en la columna Elemento en los resultados de la búsqueda del registro de auditoría.<ul><li>Cambia el tipo de acceso de un equipo. Teams puede establecerse como privada o pública **(tipo de acceso de equipo).** Cuando un equipo es privado (la configuración predeterminada), los usuarios solo pueden acceder al equipo por invitación. Cuando un equipo es público, es reconocible por cualquier persona.</li><li>Cambia la clasificación de información de un equipo **(clasificación de equipo).** Por ejemplo, los datos de grupo se pueden clasificar como impacto empresarial alto, impacto empresarial medio o bajo impacto empresarial.</li><li>Cambia el nombre de un equipo **(nombre del equipo).**</li><li>Cambia la descripción del equipo **(descripción del equipo).**</li><li>Cambios realizados en la configuración del equipo. Para acceder a esta configuración, el propietario del equipo puede hacer clic con el botón derecho en un equipo, seleccionar Administrar equipo **y,** a continuación, hacer clic **en Configuración** pestaña. Para estas actividades, el nombre de la configuración  que se modificó se muestra en la columna Elemento en los resultados de búsqueda del registro de auditoría.</li></ul>         |
+|Crear un chat <sup>1</sup>|   ChatCreado|    Se Teams un chat de Teams usuario.|
 |Equipo creado    |TeamCreated         |Un usuario crea un equipo.         |
 |Se eliminaron todas las aplicaciones de la organización|DeletedAllOrganizationApps           |Eliminó todas las aplicaciones de la organización del catálogo.     |
 |Aplicación eliminada |AppDeletedFromCatalog           |Se ha eliminado una aplicación del catálogo.     |
 |Canal eliminado     |ChannelDeleted         |Un usuario elimina un canal de un equipo.         |
 |Equipo eliminado  |TeamDeleted            |El propietario de un equipo elimina un equipo.      |
 |Editó un mensaje con un vínculo url en Teams     |MessageEditedHasLink         |Un usuario edita un mensaje y agrega un vínculo url a él en Teams.         |
+|Mensajes exportados <sup>1</sup> |   MensajesExportados |Se exportaron mensajes de chat o canal|.
+|Chats obtenidos <sup>1</sup> |ChatRetrieved  |Se Microsoft Teams un chat de Microsoft Teams.|
+|Capturar todo el contenido hospedado de un mensaje<sup>1</sup>    |MessageHostedContentsListed    |Se ha recuperado todo el contenido hospedado en un mensaje, como imágenes o fragmentos de código.|
 |Aplicación instalada |AppInstalled         |Se instaló una aplicación.   |
 |Acción realizada en la tarjeta|PerformedCardAction|Un usuario realizó acciones en una tarjeta adaptable dentro de un chat. Los bots suelen usar las tarjetas adaptables para permitir la visualización enriquecida de información e interacción en chats. <br/><br/>**Nota:** Solo las acciones de entrada en línea en una tarjeta adaptable dentro de un chat estarán disponibles en el registro de auditoría. Por ejemplo, cuando un usuario envía una respuesta de sondeo en una conversación de canal en una tarjeta adaptable generada por un bot de sondeo. Las acciones de usuario como "Ver resultado", que abrirá un cuadro de diálogo, o las acciones de usuario dentro de los cuadros de diálogo no estarán disponibles en el registro de auditoría.|
+|Publicado un nuevo mensaje <sup>1</sup>  |MensajeSent Un nuevo mensaje se publicó en un chat o canal.|
 |Aplicación publicada |AppPublishedToCatalog           |Se ha agregado una aplicación al catálogo.     |
+|Leer un mensaje <sup>1</sup>    |MessageRead    |Se ha recuperado un mensaje de un chat o canal.|
+|Leer contenido hospedado de un mensaje <sup>1</sup>  |MessageHostedContentRead   |Se ha recuperado el contenido hospedado en un mensaje, como una imagen o un fragmento de código.|
 |Bot quitado del equipo   |BotRemovedFromTeam         |Un usuario quita un bot de un equipo.       |
 |Conector quitado     |ConnectorRemoved         |Un usuario quita un conector de un canal.         |
 |Miembros eliminados    |MemberRemoved        |El propietario de un equipo quita los miembros de un equipo, canal o chat grupal.         |
 |Pestaña Quitado    |TabRemoved         |Un usuario quita una pestaña de un canal.         |
+|Mensajes recuperados <sup>1</sup>    |MensajesListed |Se recuperaron los mensajes de un chat o canal.|
 |Se ha enviado un mensaje con un vínculo url en Teams |MessageCreatedHasLink|Un usuario envía un mensaje que contiene un vínculo url en Teams.|
+|Notificación de cambio enviada para la creación <sup>de mensajes 1</sup> |MessageCreatedNotification |Se envió una notificación de cambio para notificar un mensaje nuevo a una aplicación de escucha suscrita.|
+|Notificación de cambio enviada para la eliminación <sup>de mensajes 1</sup> |MessageDeletedNotification |Se envió una notificación de cambio para notificar a una aplicación de escucha suscrita de un mensaje eliminado.|
+|Notificación de cambio enviada para la actualización <sup>de mensajes 1</sup>   |MessageUpdatedNotification |Se envió una notificación de cambio para notificar un mensaje actualizado a una aplicación de escucha suscrita.|
+|Suscribirse a las notificaciones de cambio de mensajes <sup>1</sup>    |SubscribedToMessages   |Una aplicación de escucha creó una suscripción para recibir notificaciones de cambio de mensajes.|
 |Aplicación desinstalada |AppUninstalled           |Se ha desinstalado una aplicación.     |
 |Aplicación actualizada |AppUpdatedInCatalog           |Se actualizó una aplicación en el catálogo.     |
+|Actualizado un chat <sup>1</sup>    |ChatUpdated    |Se ha Teams un chat de Teams.|
+|Se ha actualizado un mensaje <sup>1</sup> |MessageUpdated |Se actualizó un mensaje de un chat o canal.|
 |Conector actualizado    |ConnectorUpdated         |Un usuario modificó un conector en un canal.         |
 |Pestaña Actualizada   |TabUpdated         |Un usuario modificó una pestaña en un canal.         |
 |Aplicación actualizada |AppUpgraded           |Una aplicación se actualizó a su versión más reciente del catálogo.     |
 |El usuario ha iniciado sesión en Teams     |TeamsSessionStarted         |Un usuario inicia sesión en un Microsoft Teams usuario. Este evento no captura las actividades de actualización de tokens.         |
+||||
+
+> [!NOTE]
+> <sup>1</sup> Un registro de auditoría para este evento solo se registra cuando la operación se realiza llamando a una API Graph Microsoft. Si la operación se realiza en el Teams, no se registrará un registro de auditoría
 
 ## <a name="shifts-in-teams-activities"></a>Turnos en Teams actividades
 
@@ -205,4 +223,4 @@ Los cambios de pertenencia a Teams (como usuarios agregados o eliminados) realiz
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Buscar en el registro de auditoría en el Microsoft 365 de cumplimiento normativo](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Busque el registro de auditoría en el Centro de cumplimiento de Microsoft 365](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
