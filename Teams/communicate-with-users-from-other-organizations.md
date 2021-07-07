@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Obtenga información acerca de cómo buscar y agregar usuarios de fuera de la organización en Microsoft Teams, así como cómo llamarlos y chatear con ellos, mediante el acceso externo (federación) y el acceso de invitado.
-ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bda5652aedd8d071984334a3851e50ba52400943
+ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115998"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53302005"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización
 
@@ -77,7 +77,7 @@ En las tablas siguientes se muestran las diferencias entre usar el acceso extern
 | Las personas de fuera de la organización pueden | Usuarios de acceso externo | Invitados |
 |---------|-----------------------|--------------------|
 | Acceder a los recursos de Teams | No | Sí |
-| Agregarse a un chat grupal | No | Sí |
+| Agregarse a un chat grupal | Sí | Sí |
 | Invitarse a una reunión | Sí | Sí |
 | Realizar llamadas privadas | Sí | Sí<sup>5</sup> |
 | Ver el número de teléfono de los participantes de la reunión por acceso telefónico | No<sup>4</sup> | Sí |
