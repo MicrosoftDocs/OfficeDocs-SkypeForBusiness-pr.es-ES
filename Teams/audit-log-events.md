@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el Centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 027d3691a5e5c501beb69448a4d4060de4a7fad9
-ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
+ms.openlocfilehash: d130ea4e72b6343def4bfe232934063e0385b72d
+ms.sourcegitcommit: 08bcad09296c96354f0e6203a623dc548e827aa2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275679"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53324463"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -69,7 +69,7 @@ Estas son sugerencias para buscar Teams actividades en el registro de auditoría
 
   ![Captura de pantalla de la búsqueda del registro de auditoría](media/audit-log-search.png)
 
-- Para mostrar los eventos de las actividades que se ejecutan con cmdlets, seleccione **Mostrar resultados para todas** las actividades de la **lista** Actividades. Si conoce el nombre de la operación para estas actividades, busque todas las actividades y, después, filtre los resultados escribiendo el nombre de la operación en el cuadro de la columna **Actividad.** Para obtener más información, vea [Paso 3: Filtrar los resultados de la búsqueda.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)
+- Para mostrar los eventos de las actividades que se ejecutan con cmdlets, seleccione **Mostrar resultados para todas** las actividades de la **lista** Actividades. Si conoce el nombre de la operación para estas actividades, busque todas las actividades y, después, filtre los resultados escribiendo el nombre de la operación en el cuadro de la columna **Actividad.** Para obtener más información, vea [Paso 3: Filtrar los resultados de la búsqueda.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)
 
 - Para borrar los criterios de búsqueda actuales, haga clic en **Borrar**. El intervalo de fechas vuelve al valor predeterminado de los últimos siete días. También puede hacer clic en **Borrar todo para mostrar los resultados** de todas las actividades para cancelar todas las actividades seleccionadas.
 
@@ -87,13 +87,13 @@ Después de establecer una directiva de detección de actividad, comienza a gene
 
 Un escenario en el que puede que desee estar atento, desde una perspectiva empresarial, es la adición de usuarios externos a su entorno Teams empresa. Si los usuarios externos están habilitados, supervisar su presencia es una buena idea.  Puede usar [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) identificar amenazas potenciales.
 
-![Captura de pantalla de una lista de eventos desencadenados por eliminaciones masivas](media/TeamsExternalUserAddPolicy.png)
+![Directiva para supervisar la adición de usuarios externos](media/TeamsExternalUserAddPolicy.png)
 
 La captura de pantalla de esta directiva para supervisar la adición de usuarios externos le permite nombrar la directiva, establecer la gravedad según las necesidades de su empresa, establecerla como (en este caso) una sola actividad y, a continuación, establecer los parámetros que supervisarán específicamente solo la adición de usuarios no internos y limitar esta actividad a Teams.
 
 Los resultados de esta directiva se pueden ver en el registro de actividades:
 
-![Captura de pantalla de una lista de eventos desencadenados por eliminaciones masivas](media/TeamsExternalUserList.png)
+![Eventos desencadenados por la directiva de usuarios externos](media/TeamsExternalUserList.png)
 
 Aquí puede revisar coincidencias con la directiva que ha establecido y realizar los ajustes necesarios, o exportar los resultados para usarlos en otro lugar.
 
@@ -101,13 +101,13 @@ Aquí puede revisar coincidencias con la directiva que ha establecido y realizar
 
 Como se mencionó anteriormente, puede supervisar escenarios de eliminación. Es posible crear una directiva que supervise la eliminación masiva de Teams sitios. En este ejemplo, se configura una directiva basada en alertas para detectar la eliminación masiva de equipos en un intervalo de 30 minutos.
 
-![Captura de pantalla de la página de creación de directivas que muestra la configuración de una directiva para la detección masiva de eliminación de equipos](media/TeamsMassDeletePolicy.png)
+![Directiva que muestra la configuración de una directiva para la detección masiva de eliminación de equipos](media/TeamsMassDeletePolicy.png)
 
 Como se muestra en la captura de pantalla, puede establecer muchos parámetros diferentes para esta directiva para supervisar las eliminaciones de Teams, incluida la gravedad, la acción única o repetida, y los parámetros que limitan esto Teams la eliminación del sitio. Esto se puede hacer independientemente de una plantilla, o es posible que tenga una plantilla creada para basar esta directiva en, dependiendo de las necesidades de la organización.
 
 Después de establecer una directiva que funcione para su empresa, puede revisar los resultados del registro de actividades a medida que se desencadenan los eventos:
 
-![Captura de pantalla de una lista de eventos desencadenados por eliminaciones masivas](media/TeamsMassDeleteList.png)
+![Eventos de captura de pantalla desencadenados por eliminaciones masivas](media/TeamsMassDeleteList.png)
 
 Puede filtrar hacia abajo hasta la directiva que haya establecido para ver los resultados de esa directiva. Si los resultados que está obteniendo en el registro de actividades no son satisfactorios (tal vez está viendo una gran cantidad de resultados, o nada en absoluto), esto puede ayudarle a ajustar la consulta para que sea más relevante para lo que necesita que haga.
 
@@ -146,7 +146,7 @@ Esta es una lista de todos los eventos que se registran para las actividades de 
 |Equipo eliminado  |TeamDeleted            |El propietario de un equipo elimina un equipo.      |
 |Editó un mensaje con un vínculo url en Teams     |MessageEditedHasLink         |Un usuario edita un mensaje y agrega un vínculo url a él en Teams.         |
 |Mensajes exportados <sup>1</sup> |   MensajesExportados |Se exportaron mensajes de chat o canal|.
-|Chats obtenidos <sup>1</sup> |ChatRetrieved  |Se Microsoft Teams un chat de Microsoft Teams.|
+|Chat de captura <sup>1</sup>  |ChatRetrieved  |Se Microsoft Teams un chat de Microsoft Teams.|
 |Capturar todo el contenido hospedado de un mensaje<sup>1</sup>    |MessageHostedContentsListed    |Se ha recuperado todo el contenido hospedado en un mensaje, como imágenes o fragmentos de código.|
 |Aplicación instalada |AppInstalled         |Se instaló una aplicación.   |
 |Acción realizada en la tarjeta|PerformedCardAction|Un usuario realizó acciones en una tarjeta adaptable dentro de un chat. Los bots suelen usar las tarjetas adaptables para permitir la visualización enriquecida de información e interacción en chats. <br/><br/>**Nota:** Solo las acciones de entrada en línea en una tarjeta adaptable dentro de un chat estarán disponibles en el registro de auditoría. Por ejemplo, cuando un usuario envía una respuesta de sondeo en una conversación de canal en una tarjeta adaptable generada por un bot de sondeo. Las acciones de usuario como "Ver resultado", que abrirá un cuadro de diálogo, o las acciones de usuario dentro de los cuadros de diálogo no estarán disponibles en el registro de auditoría.|

@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: En este artículo, aprenderá sobre la tecnología Sistema telefónico en Microsoft 365 y Office 365.
-ms.openlocfilehash: 0c750a4abe92b9fee83a3d152db92c767147d295
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a0b05c5e0f3fe0f684f160e75e62cec2f36fc86b
+ms.sourcegitcommit: 70f47cc2333e790c15c3f9f209302afdbb5a07d7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100926"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53333094"
 ---
 # <a name="what-is-phone-system"></a>¿Qué Sistema telefónico?
 
@@ -55,7 +55,7 @@ Sistema telefónico puede conectarse a la RTC de dos maneras:
 
   Para los Teams, puede conectar su infraestructura de telefonía local a Sistema telefónico mediante enrutamiento directo. Para obtener más información, [vea Sistema telefónico enrutamiento directo.](direct-routing-landing-page.md)
 
-  Para obtener más información sobre todas las soluciones de telefonía de Microsoft, vea [Soluciones de telefonía de Microsoft.](/SkypeForBusiness/hybrid/msft-telephony-solutions)
+  Para obtener más información sobre todas las soluciones de telefonía de Microsoft, vea [Planear su Teams de voz.](cloud-voice-landing-page.md)
 
 
 ## <a name="phone-system-with-services"></a>Sistema telefónico con servicios
