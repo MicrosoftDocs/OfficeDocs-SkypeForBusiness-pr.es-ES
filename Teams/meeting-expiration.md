@@ -17,23 +17,18 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Obtenga información sobre cómo usar la configuración de directiva de reunión para controlar la expiración de la reunión en Microsoft Teams.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6e8821781eab70696c9b24c8df18cc8dd0b46870
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: e201348ba1734539844a76b0fee2e2f072757e87
+ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598619"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53337819"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Directivas de reunión y expiración de la reunión en Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-## <a name="overview"></a>Información general
-
 [Las directivas](meeting-policies-in-teams.md) de reunión de Microsoft Teams se usan para controlar si los usuarios de su organización pueden iniciar y programar reuniones y las características que están disponibles para los participantes de las reuniones programadas por los usuarios. Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Puede administrar directivas de reunión en el centro de administración de Microsoft Teams o mediante [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell cmdlets.
 
-La configuración de directiva de reunión que controla si los usuarios pueden iniciar y programar reuniones también controlan la expiración de las reuniones programadas por los usuarios. Cuando un vínculo de unirse a una reunión y el id. de conferencia de una reunión expiran, nadie puede unirse a la reunión. La siguiente configuración de directiva de reunión determina si los usuarios pueden iniciar y programar reuniones en Teams, y nos referimos a ellas a lo largo de este artículo.
+La configuración de directiva de reunión que controla si los usuarios pueden iniciar y programar reuniones, así como controlar la expiración de las reuniones programadas por los usuarios. Cuando un vínculo de unirse a una reunión y el id. de conferencia de una reunión expiran, nadie puede unirse a la reunión. La siguiente configuración de directiva de reunión determina si los usuarios pueden iniciar y programar reuniones en Teams. En este artículo se explica la configuración de la reunión.
 
 - [Permitir reunirse ahora en canales:](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)controla si un usuario puede iniciar una reunión improvisada en un canal.
 - [Permitir la programación de reuniones del canal:](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)controla si un usuario puede programar una reunión en un canal.
@@ -63,14 +58,14 @@ Al cambiar una configuración de directiva de reunión de **Desactivado** a **Ac
 
 ## <a name="meeting-expiration-scenarios"></a>Escenarios de expiración de la reunión
 
-Este es un resumen de cómo funciona la expiración de la reunión para cada una de las configuraciones de directiva de reunión que se debate en este artículo. 
+Este es un resumen de cómo funciona la expiración de la reunión para cada una de las configuraciones de directiva de reunión que se debate en este artículo.
 
-|Si quiere... |Haga esto  |Comportamiento de unirse a la reunión  |
-|---------|---------|---------|
-|Expire channel Meet now meetings started by a user  |Desactive Permitir **reunirse ahora en canales.**|Nadie puede unirse al canal Reunirse ahora las reuniones iniciadas por el usuario.         |
-|Expirar reuniones del canal programadas por un usuario   |Desactive Permitir **la programación de reuniones del canal.**         |Nadie puede unirse a las reuniones del canal programadas por el usuario. Esto impide que las personas se unan a lo siguiente:<ul><li>Reuniones del canal que se produjeron en el pasado.</li> <li>Reuniones de canal que están programadas para el futuro y que aún no se han producido.</li><li>Futuras instancias de reuniones periódicas del canal.</li></ul>       |
-|Expirar reuniones privadas programadas por un usuario    |Desactive **Permitir la programación de reuniones privadas** *y* desactive Permitir **Outlook complemento**.          |Nadie puede unirse a reuniones privadas programadas por el usuario. Esto impide que las personas se unan a lo siguiente: <ul><li>Reuniones privadas que tuvieron lugar en el pasado.</li> <li>Reuniones privadas programadas para el futuro y que aún no se han producido.</li><li>Futuras instancias de reuniones privadas periódicas.</li></ul> Tanto **Permitir la programación** de reuniones privadas como Permitir **Outlook** complemento deben estar desactivados para expirar las reuniones privadas programadas por un usuario. Si una configuración está desactivada y la otra está activada, los vínculos de combinación de reuniones y los IDs de conferencia de las reuniones existentes permanecen activos y no expirarán.      |
-|Expirar reuniones privadas de Reunirse ahora iniciadas por un usuario  |Desactive **Permitir reunirse ahora en reuniones privadas.**          |Nadie puede unirse a reuniones privadas de Reunirse ahora iniciadas por el usuario.         |
+|Si desea...&nbsp;&nbsp; |Haga esto&nbsp;&nbsp;&nbsp;&nbsp;  |Comportamiento de unirse a la reunión&nbsp;&nbsp;&nbsp;&nbsp;  |
+|---------------------------|---------------------|---------|
+|Expirar reuniones privadas de Reunirse ahora iniciadas por un usuario&nbsp;&nbsp;|Desactive **Permitir reunirse ahora en reuniones privadas.**&nbsp;&nbsp;|Nadie puede unirse a reuniones **privadas de Reunirse** ahora iniciadas por el usuario.|
+|Expirar reuniones privadas programadas por un usuario&nbsp;&nbsp;|Desactive **Permitir la programación de reuniones privadas** _y_ desactive Permitir **Outlook complemento**. &nbsp;&nbsp;|Nadie puede unirse a reuniones privadas programadas por el usuario. Esto impide que las personas se unan a las siguientes reuniones:<ul><li>Reuniones privadas que tuvieron lugar en el pasado.</li><li>Reuniones privadas programadas para el futuro y que aún no se han producido.</li><li>Futuras instancias de reuniones privadas periódicas.</li></ul><br>Tanto **Permitir la programación** de reuniones privadas como Permitir **Outlook** complemento deben estar desactivados para expirar las reuniones privadas programadas por un usuario. Si una configuración está desactivada y la otra está activada, los vínculos de combinación de reuniones y los IDs de conferencia de las reuniones existentes permanecen activos y no expirarán.|
+|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Desactive Permitir **reunirse ahora en canales** _y_ desactive Permitir **la programación de reuniones del canal.**&nbsp;&nbsp;|Nadie puede unirse al canal **Reunirse ahora** las reuniones iniciadas por el usuario.|
+|Expirar reuniones del canal programadas por un usuario&nbsp;&nbsp;|Desactive Permitir **la programación de reuniones del canal.**&nbsp;&nbsp;|Nadie puede unirse a las reuniones del canal programadas por el usuario. Esto impide que las personas se unan a las siguientes reuniones:<ul><li>Reuniones del canal que se produjeron en el pasado.</li><li>Reuniones de canal que están programadas para el futuro y que aún no se han producido.</li><li>Futuras instancias de reuniones periódicas del canal.</li></ul>|
 
 Si desea que los usuarios accedan a las reuniones programadas o iniciadas previamente por un usuario determinado, puede:
 
