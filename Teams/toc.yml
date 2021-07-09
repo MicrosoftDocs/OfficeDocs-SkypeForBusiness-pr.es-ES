@@ -587,6 +587,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: Quitar la directiva de reunión de RestrictedAnonymousAccess de los usuarios
                     href: meeting-policies-restricted-anonymous-access.md
+          - name: Directivas y expiración de reuniones
+            href: meeting-expiration.md
           - name: Administrar la configuración de reuniones
             href: meeting-settings-in-teams.md
           - name: Correos electrónicos que se envían a los usuarios cuando cambia la configuración
