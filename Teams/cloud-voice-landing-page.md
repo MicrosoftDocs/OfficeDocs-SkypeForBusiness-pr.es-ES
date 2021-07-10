@@ -24,19 +24,16 @@ search.appverid: MET150
 description: Obtenga más información sobre las Microsoft Teams de voz en la nube y las decisiones de implementación que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 391b8e2f30aa5e64fcb4b9e418af49341c2b9042
-ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
+ms.openlocfilehash: 95b8f60f9d664432fbb68c48ee61d6f26902eeae
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52901937"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354386"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear su Teams de voz 
 
 Este artículo le ayuda a decidir qué solución de voz de Microsoft es la adecuada para su organización. Una vez que lo haya decidido, el artículo proporciona una hoja de ruta al contenido que le permitirá implementar la solución elegida.
-
-> [!NOTE]
-> Para obtener instrucciones sobre la planeación de una solución de voz Teams como parte de su plan general para actualizar Teams a Teams desde Skype Empresarial Server, vea Consideraciones rtc para actualizar Teams a Skype Empresarial [local.](upgrade-to-teams-on-prem-pstn-considerations.md)
 
 Es posible que desee la solución más &mdash; sencilla Sistema telefónico con Plan de llamadas. Esta es la solución todo en la nube de Microsoft que proporciona funcionalidades de Exchange de sucursal privada (PBX) y llamadas a la red telefónica conmutada (RTC), como se muestra en el siguiente diagrama. Con esta solución, Microsoft es su operador RTC.
 
@@ -66,7 +63,7 @@ Sin embargo, es posible que su situación sea más compleja. Por ejemplo, es pos
 | [**Sistema telefónico**](#phone-system) | Tecnología de Microsoft para habilitar el control de llamadas y las capacidades de Exchange de sucursales privadas (PBX) en la nube Microsoft 365 con Microsoft Teams. |
 | [**Opciones de conectividad de red telefónica conmutada (RTC)**](#public-switched-telephone-network-connectivity-options) | Una opción entre usar Microsoft como operador de telefonía o conectar su propio operador de telefonía a Microsoft Teams mediante enrutamiento directo u operador Conectar. Combinadas Sistema telefónico, las opciones de conectividad RTC permiten a los usuarios realizar llamadas telefónicas en todo el mundo.|
 
-**Según sus requisitos.** Algunas de las secciones de este artículo son pertinentes en función de la implementación y los requisitos existentes. Por ejemplo, Location-Based enrutamiento directo solo es necesario para los clientes de Enrutamiento directo en ubicaciones geográficas que no permiten la omisión de peaje.
+**Según sus requisitos.** Algunas de las secciones de este artículo y artículos relacionados son pertinentes en función de la implementación y los requisitos existentes. Por ejemplo, Location-Based enrutamiento directo solo es necesario para los clientes de Enrutamiento directo en ubicaciones geográficas que no permiten la omisión de peaje.
 
 Considere cuál de estas configuraciones adicionales puede necesitar:
 
@@ -74,24 +71,22 @@ Considere cuál de estas configuraciones adicionales puede necesitar:
 
 | Según sus requisitos | Descripción |
 | :------------|:-------|
-| [**Teléfono de Microsoft**](#phone-numbers-from-microsoft) | Cómo obtener y administrar números de teléfono de Microsoft y cómo transferir números existentes a Microsoft. Lea esto si necesita obtener números de teléfono para Microsoft Calling Plan, transferir números existentes, obtener números de servicio, y así sucesivamente. |
-| [**Planes de marcado y enrutamiento de llamadas**](#dial-plans-and-call-routing) | Cómo configurar y administrar planes de marcado que traducen los números de teléfono marcados a un formato alternativo (normalmente formato E.164) para la autorización de llamadas y el enrutamiento de llamadas. Lea esto si necesita comprender qué son los planes de marcado y si necesita especificar planes de marcado para su organización.|
-| [**Llamadas de emergencia**](#emergency-calling) | Cómo administrar y configurar las llamadas de emergencia &mdash; en función de la opción de conectividad RTC. Lea esta sección si usa microsoft calling plan o enrutamiento directo y necesita comprender cómo administrar las llamadas de emergencia para su organización. |
-| [**Enrutamiento basado en la ubicación para enrutamiento directo**](#location-based-routing-for-direct-routing) |Cómo usar el Location-Based de pago (LBR) para restringir la omisión de peaje para Microsoft Teams usuarios en función de su ubicación geográfica. Lea esta sección si su organización usa enrutamiento directo en una ubicación que no permite la omisión de peaje.
-| [**Topología de red para características de voz en la nube**](#network-topology-for-voice-features) | Si su organización está implementando Location-Based Enrutamiento (LBR) para enrutamiento directo o llamadas de emergencia dinámicas, debe configurar la configuración de red para usarla con estas características en Microsoft Teams. Lea esta sección si está implementando LBR para enrutamiento directo o si está implementando llamadas de emergencia dinámicas con Plan de llamadas o Enrutamiento directo. |
+| [**Teléfono de números**](pstn-connectivity.md#phone-number-management) | La forma de obtener y administrar números de teléfono varía según la opción de conectividad RTC. Lea esta sección si necesita obtener números de teléfono, transferir números existentes, obtener números de servicio, y así sucesivamente. |
+| [**Planes de marcado y enrutamiento de llamadas**](pstn-connectivity.md#call-routing-and-dial-plans) | Cómo configurar y administrar planes de marcado que traducen los números de teléfono marcados a un formato alternativo (normalmente formato E.164) para la autorización de llamadas y el enrutamiento de llamadas. Lea esta sección si necesita comprender qué son los planes de marcado y si necesita especificar planes de marcado para su organización.|
+| [**Llamadas de emergencia**](pstn-connectivity.md#emergency-calling) | La manera de administrar y configurar las llamadas de emergencia varía en función de la opción de conectividad RTC. Lea esta sección si necesita comprender cómo administrar las llamadas de emergencia para su organización. |
+| [**Enrutamiento basado en la ubicación para enrutamiento directo**](pstn-connectivity.md#location-based-routing-for-direct-routing) |Cómo usar el Location-Based de pago (LBR) para restringir la omisión de peaje para Microsoft Teams usuarios en función de su ubicación geográfica. Lea esta sección si su organización usa enrutamiento directo en una ubicación que no permite la omisión de peaje.
+| [**Topología de red para características de voz en la nube**](pstn-connectivity.md#network-topology-for-voice-features) | Si su organización está implementando Location-Based Enrutamiento (LBR) para enrutamiento directo o llamadas de emergencia dinámicas, debe configurar la configuración de red para usarla con estas características en Microsoft Teams. Lea esta sección si está implementando LBR para enrutamiento directo o si está implementando llamadas de emergencia dinámicas con Plan de llamadas o Enrutamiento directo. |
 | [**Migrar la solución de voz existente**](#migrate-your-existing-voice-solution-to-teams) | Qué debe pensar al migrar la solución de voz a Teams.  Lea esta sección si va a migrar desde una solución de voz existente a Teams. 
 
-
-
 > [!Important]
-> Este artículo se centra en las soluciones de voz con Microsoft Teams. Aunque las soluciones con Skype Empresarial Online siguen estando disponibles (como se describe en las soluciones de telefonía de [Microsoft),](/SkypeForBusiness/hybrid/msft-telephony-solutions)es importante comprender que Skype Empresarial Online se retirará el 31 de julio de 2021.  Después de esa fecha, el Skype Empresarial online ya no será accesible. Además, la conectividad RTC entre su entorno local ya sea a través de Skype Empresarial Server o Cloud Connector Edition y &mdash; Skype Empresarial Online ya no será &mdash; compatible. En este artículo se Teams soluciones de voz y cómo puede conectar su red de telefonía local, si es necesario, a Teams mediante enrutamiento directo u operador Conectar.
+> Este artículo se centra en las soluciones de voz con Microsoft Teams. Aunque las soluciones con Skype Empresarial Online siguen estando disponibles, es importante comprender que Skype Empresarial Online se retirará el 31 de julio de 2021.  Después de esa fecha, el Skype Empresarial online ya no será accesible. Además, la conectividad RTC entre su entorno local ya sea a través de Skype Empresarial Server o Cloud Connector Edition y &mdash; Skype Empresarial Online ya no será &mdash; compatible. En este artículo se Teams soluciones de voz y cómo puede conectar su red de telefonía local, si es necesario, a Teams mediante enrutamiento directo u operador Conectar.
 
 
 ## <a name="phone-system"></a>Sistema telefónico
 
-Sistema telefónico es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de Exchange de sucursales privadas (PBX) en la nube Microsoft 365 o Office 365 con Microsoft Teams.
+Sistema telefónico es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de Exchange sucursales privadas (PBX) en la nube Microsoft 365 con Microsoft Teams.
 
-Sistema telefónico funciona con Teams o Skype Empresarial clientes y dispositivos certificados. Sistema telefónico permite reemplazar el sistema PBX existente con un conjunto de características directamente entregado desde Microsoft 365 o Office 365. 
+Sistema telefónico funciona con Teams o Skype Empresarial clientes y dispositivos certificados. Sistema telefónico permite reemplazar el sistema PBX existente con un conjunto de características directamente entregadas desde Microsoft 365. 
 
 Las llamadas entre usuarios de su organización se controlan internamente dentro de Sistema telefónico y nunca van a la Red telefónica conmutada (RTC). Esto se aplica a las llamadas entre usuarios de su organización ubicados en diferentes áreas geográficas, lo que elimina los costos de larga distancia en estas llamadas internas.
 
@@ -146,146 +141,21 @@ De forma predeterminada, todas las llamadas salientes usan el número de teléfo
 
 Sistema telefónico proporciona funcionalidades de PBX completas para su organización. Sin embargo, para permitir a los usuarios realizar llamadas fuera de su organización, debe conectarse Sistema telefónico a la red telefónica conmutada (RTC). Para conectar Sistema telefónico a la RTC, puede elegir una de las siguientes opciones:
 
-- [**Sistema telefónico con Plan de llamadas**](#phone-system-with-calling-plan). Una solución todo en la nube con Microsoft como operador rtc.
+- [**Sistema telefónico con Plan de llamadas**](pstn-connectivity.md#phone-system-with-calling-plan). Una solución todo en la nube con Microsoft como operador rtc.
 
-- [**Sistema telefónico con su propio operador RTC**](#phone-system-with-own-pstn-carrier-with-direct-routing) mediante enrutamiento directo para conectar su entorno local a Teams.
+- [**Sistema telefónico con su propio operador RTC**](pstn-connectivity.md#phone-system-with-direct-routing) mediante enrutamiento directo para conectar su entorno local a Teams.
 
 - [**Sistema telefónico con su propio**](operator-connect-plan.md)operador RTC mediante operador Conectar , que actualmente solo está disponible en **versión preliminar pública.**  Con Operador Conectar, si el operador existente es un participante en el programa operador de Microsoft Conectar, pueden administrar el servicio para llevar llamadas RTC a Teams. Para obtener información sobre las ventajas y requisitos de Operador Conectar y para obtener una lista de operadores que participan en este programa, vea [Plan operador Conectar](operator-connect-plan.md).
 
 También puede elegir una combinación de opciones, que le permite diseñar una solución para un entorno complejo o administrar una migración de varios pasos (más información sobre la migración más adelante).
 
-### <a name="phone-system-with-calling-plan"></a>Sistema telefónico con plan de llamadas 
+La mayoría Sistema telefónico características son las mismas, independientemente de la opción de conectividad RTC que elija. Sin embargo, hay algunas diferencias en la funcionalidad que afectan a la forma en que se configuran determinadas Sistema telefónico, como el enrutamiento de llamadas y las llamadas de emergencia. Para obtener más información sobre las opciones de conectividad RTC y estas consideraciones de configuración, vea [Opciones de conectividad RTC.](pstn-connectivity.md)
 
-Como se describe anteriormente en este artículo, Sistema telefónico con plan de llamadas es la solución de voz todo en la nube de Microsoft para Teams usuarios. Esta es la opción más sencilla que conecta Teléfono Microsoft System a la red telefónica conmutada (RTC) pública para habilitar las llamadas a fijos y teléfonos móviles de todo el mundo. Con esta opción, Microsoft proporciona funcionalidad de Exchange (PBX) privadas para su organización y actúa como operador RTC, como se muestra en el siguiente diagrama:
-
-![El diagrama 4 muestra Sistema telefónico operadores automáticos, colas de llamadas, identificador de llamada y mucho más, y Microsoft como operador RTC](media/voice-solution-microsoft-complete.png)
-
-Si responde sí a lo siguiente, Sistema telefónico con Plan de llamadas es la solución adecuada para usted:
-
-- Plan de llamadas está disponible en su región.
-- No es necesario conservar el operador RTC actual.
-- Desea usar el acceso administrado por Microsoft a la RTC.
-
-Con esta opción: 
-
-- Obtiene un Teléfono Microsoft con planes de llamadas nacionales o internacionales agregados que permiten llamar a teléfonos de todo el mundo (dependiendo del nivel de servicio que se esté autorizando).
-
-- No requiere la implementación o el mantenimiento de una implementación local porque el plan de llamadas funciona Microsoft 365 &mdash; o Office 365.
-
-- Nota: Si es necesario, puede elegir conectar un controlador de borde de sesión (SBC) compatible a través del enrutamiento directo para la interoperabilidad con PBX de terceros, dispositivos analógicos y otros equipos de telefonía de terceros compatibles con el SBC.
-
-Esta opción requiere una conexión sin interrupciones a Microsoft 365 o Office 365.
-
-Para obtener más información sobre el plan de llamadas, vea los artículos siguientes:
-
-- [¿Qué plan de llamada es adecuado para usted?](calling-plan-landing-page.md)
-- [Cómo comprar un plan de llamadas](calling-plans-for-office-365.md)
-- [Países y regiones donde el Plan de llamadas está disponible](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- [Configurar plan de llamadas](set-up-calling-plans.md)
-
-
-### <a name="phone-system-with-own-pstn-carrier-with-direct-routing"></a>Sistema telefónico con un operador RTC propio con enrutamiento directo
-
-Esta opción conecta Teléfono Microsoft sistema a su red de telefonía mediante enrutamiento directo, como se muestra en el siguiente diagrama: 
-
-![Diagrama 5 muestra Sistema telefónico con enrutamiento directo](media/voice-solution-with-direct-routing.png)
-
-Si responde sí a las siguientes preguntas, Sistema telefónico enrutamiento directo es la solución adecuada para usted:
-
-- Desea usar Teams con Sistema telefónico.
-- Debe conservar el operador RTC actual.
-- Desea mezclar el enrutamiento, con algunas llamadas pasando por el Plan de llamadas, otras a través de su operador.
-- Necesita interoperar con PBX y/o equipos de terceros, como los paginadores generales, dispositivos analógicos, entre otros.
-
-Con esta opción:
-
-- Conecta su propio SBC compatible con Teléfono Microsoft system sin necesidad de software local adicional.
-
-- Puede usar prácticamente cualquier operador de telefonía con Teléfono Microsoft System.
-
-- Puede configurar y administrar esta opción, o puede configurarla y administrarla su operador o partner (pregunte si su operador o partner proporciona esta opción).
-
-- Puede configurar la interoperabilidad entre los equipos de telefonía, como pbx de terceros y &mdash; dispositivos analógicos &mdash; y Teléfono Microsoft sistema.
-
-
-Esta opción requiere lo siguiente:
-
-- Conexión ininterrumpida a Microsoft 365 o Office 365.
-
-- Implementar y mantener un SBC compatible.
-
-- Un contrato con un operador de terceros.
-  (A menos que se implemente como una opción para proporcionar conexión a PBX de terceros, dispositivos analógicos u otro equipo de telefonía para los usuarios que están en Sistema telefónico con plan de llamadas).
-
-Para obtener más información sobre enrutamiento directo, vea los artículos siguientes:
-
-- [Enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
-- [Planear el enrutamiento directo](direct-routing-plan.md)
-- [Configurar el enrutamiento directo](direct-routing-configure.md)
-- [Administrar directivas de enrutamiento de voz para su uso con Enrutamiento directo](manage-voice-routing-policies.md)
-- [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)
-- [Lista de controladores de borde de sesión certificados para el enrutamiento directo](direct-routing-border-controllers.md)
-
-## <a name="phone-numbers-from-microsoft"></a>Teléfono de Microsoft
-
-Microsoft tiene dos tipos de números de teléfono *disponibles:* números de suscriptor (usuario), que se pueden asignar a los usuarios de su organización, y números de servicio, disponibles como números de servicio gratuitos y de pago.  Los números de servicio tienen mayor capacidad de llamada simultánea que los números de suscriptor y se pueden asignar a servicios como Audioconferencia, Operadores automáticos o Colas de llamadas.
-
-Tendrá que decidir lo siguiente:
-
-- ¿Qué ubicaciones de usuario necesitan nuevos números de teléfono de Microsoft?
-- ¿Qué tipo de número de teléfono (suscriptor o servicio) necesito? 
-- ¿Cómo puedo portabilidad de números de teléfono existentes a Teams?
-
-Para obtener más información sobre cómo administrar números de teléfono en su organización, como obtener números nuevos o transferir números de salida, vea los siguientes artículos:
-
-- [Administrar los números de teléfono de la organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
-- [Diferentes tipos de números de teléfono usados para el plan de llamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [Obtener números de teléfono para los usuarios](getting-phone-numbers-for-your-users.md)
-- [Transferir números de teléfono a Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
-
-## <a name="dial-plans-and-call-routing"></a>Planes de marcado y enrutamiento de llamadas
-
-Un plan de marcado es un conjunto de reglas de normalización que traducen los números de teléfono marcados a un formato alternativo (normalmente formato E.164) para la autorización de llamadas y el enrutamiento de llamadas.
-
-Tendrá que decidir lo siguiente: 
-
-- ¿Mi organización necesita un plan de marcado personalizado?
-- ¿Qué usuarios requieren un plan de marcado personalizado?
-- ¿Qué plan de marcado de inquilino se debe asignar a cada usuario?
-
-Para obtener más información, vea los artículos siguientes: 
-
-- [¿Qué son los planes de marcado?](what-are-dial-plans.md)
-- [Planear planes de marcado de inquilinos](what-are-dial-plans.md#planning-for-tenant-dial-plans)
-- [Crear y administrar planes de marcado](create-and-manage-dial-plans.md)
-
-## <a name="emergency-calling"></a>Llamadas de emergencia
-
-La forma en que configura las llamadas de emergencia varía en función de la opción de conectividad RTC: Plan de llamadas de Microsoft o Enrutamiento directo. Las llamadas de emergencia dinámicas para Microsoft Calling Plan y Sistema telefónico Direct Routing ofrecen la capacidad de configurar y enrutar llamadas de emergencia y notificar al personal de seguridad en función de la ubicación actual del Teams cliente. Para obtener más información sobre conceptos y terminología de llamadas de emergencia y cómo configurar llamadas de emergencia dinámicas, vea los siguientes artículos:
-
-- [Administrar llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md)
-- [Planear y configurar las llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md)
-- [Caso práctico de Contoso: Llamadas de emergencia](voice-case-study-emergency-calling.md)<br>
-  Describe cómo una corporación multinacional ficticia, Contoso, implementó llamadas de emergencia para su organización.
-
-## <a name="location-based-routing-for-direct-routing"></a>Location-Based enrutamiento directo
-
-En algunos países y regiones, es ilegal omitir el proveedor de red telefónica conmutada (RTC) para reducir los costos de llamadas de larga distancia. Location-Based enrutamiento directo le permite restringir la omisión de peaje para Microsoft Teams usuarios en función de su ubicación geográfica. Para obtener más información sobre cómo planear y configurar Location-Based enrutamiento (LBR), vea los siguientes artículos:
-
-- [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)
-- [Configuración de red de enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
-- [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
-- [Caso práctico de Contoso: Location-Based enrutamiento](voice-case-study-location-based-routing.md)<br>
-  Describe cómo una corporación multinacional ficticia, Contoso, implementó Location-Based enrutamiento para su organización.
-
-## <a name="network-topology-for-voice-features"></a>Topología de red para características de voz
-
-Si va a implementar llamadas de emergencia dinámicas o Location-Based enrutamiento directo, debe configurar la configuración de red para usarla con estas características en Microsoft Teams. Para obtener información sobre cómo configurar la configuración de red para regiones de red, sitios de red, subredes de red y direcciones IP de confianza, vea los siguientes artículos:
-
-- [Configuración de red para las características de voz en la nube Microsoft Teams: conceptos y terminología](cloud-voice-network-settings.md)
-- [Administre la topología de red para las características de voz en la nube en Microsoft Teams](manage-your-network-topology.md)
 
 ## <a name="migrate-your-existing-voice-solution-to-teams"></a>Migrar la solución de voz existente a Teams
+
+> [!NOTE]
+> Para obtener instrucciones sobre la planeación de una solución de voz Teams como parte de su plan general para actualizar Teams a Teams desde Skype Empresarial Server, vea Consideraciones rtc para actualizar Teams a Skype Empresarial [local.](upgrade-to-teams-on-prem-pstn-considerations.md)
 
 Para una organización que está actualizando a Teams, el objetivo final es mover todos los usuarios al modo TeamsOnly. El Sistema telefónico con Teams solo es compatible cuando el usuario está en modo TeamsOnly. Si necesita información básica sobre cómo actualizar a Teams, empiece aquí:
 

@@ -1,7 +1,7 @@
 ---
-title: Administrar directivas de enrutamiento de llamadas de emergencia
-author: cichur
-ms.author: v-cichur
+title: Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -21,16 +21,16 @@ description: Obtenga información sobre cómo usar y administrar directivas de e
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 0fb3a80bf5c1a064435754c4f999f6a62214b021
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86f73bed2e086efee666e5592ca3f42e9756096c
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096184"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354310"
 ---
-# <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Administrar directivas de enrutamiento de llamadas de emergencia en Microsoft Teams
+# <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo
 
-Si ha implementado [](direct-routing-landing-page.md) Sistema telefónico enrutamiento directo en su organización, puede usar directivas de enrutamiento de llamadas de emergencia en Microsoft Teams para configurar números de emergencia y especificar cómo se enruten las llamadas de emergencia. Una directiva de enrutamiento de llamadas de emergencia determina si los servicios de emergencia mejorados están habilitados para los usuarios a los que se les asignó la directiva, los números usados para llamar a servicios de emergencia (por ejemplo, 911 en Estados Unidos) y cómo se enrutar las llamadas a los servicios de emergencia.
+Si ha implementado [](direct-routing-landing-page.md) Sistema telefónico enrutamiento directo en su organización, puede usar directivas de enrutamiento de llamadas de emergencia en Microsoft Teams para configurar números de emergencia y especificar cómo se enruten las llamadas de emergencia. Una directiva de enrutamiento de llamadas de emergencia determina si los servicios de emergencia mejorados están habilitados para los usuarios a los que se les ha asignado la directiva, los números usados para llamar a servicios de emergencia (por ejemplo, 911 en Estados Unidos) y cómo se enrutar las llamadas a los servicios de emergencia.
 
 Para administrar las directivas de enrutamiento de llamadas de emergencia, vaya a Directivas de emergencia de voz en el centro de administración de Microsoft Teams o mediante  >   Windows PowerShell. Las directivas se pueden asignar a usuarios y sitios [de red.](cloud-voice-network-settings.md)
 

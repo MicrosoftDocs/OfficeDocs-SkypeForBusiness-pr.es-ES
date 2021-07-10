@@ -1,7 +1,7 @@
 ---
-title: Administrar directivas de enrutamiento de voz en Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: Administrar directivas de enrutamiento de voz para enrutamiento directo
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo crear y administrar directivas de enrutamiento de voz en Microsoft Teams.
-ms.openlocfilehash: ac856ef05d425208af43307ebe12ff0c4776ca51
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7023100850eb34d6adf61c99de5f3568afed6aeb
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101076"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354290"
 ---
-# <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Administrar directivas de enrutamiento de voz en Microsoft Teams
+# <a name="manage-voice-routing-policies-for-direct-routing"></a>Administrar directivas de enrutamiento de voz para enrutamiento directo
 
 Si ha implementado Sistema telefónico Enrutamiento directo en su organización, use directivas de enrutamiento de voz para permitir que los usuarios de Teams y Skype Empresarial Online reciban y realicen llamadas telefónicas [a](direct-routing-landing-page.md) la red telefónica conmutada (RTC) con su infraestructura de telefonía local.
 

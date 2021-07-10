@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo habilitar a los Teléfono Microsoft System Direct Routing.
-ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
-ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
+ms.openlocfilehash: 6dab88312634a0dc3c595fec109905b308acbdaa
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/09/2021
-ms.locfileid: "53345716"
+ms.locfileid: "53354300"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar usuarios para enrutamiento directo, voz y correo de voz
 
@@ -126,7 +126,7 @@ Después de crear el usuario y asignar una licencia, el siguiente paso es config
     > Si el número de teléfono del usuario se administra localmente, use el Shell de administración local o el Panel de control Skype Empresarial local para configurar el número de teléfono del usuario. 
 
 
-## <a name="configuring-sending-calls-directly-to-voicemail"></a>Configurar el envío de llamadas directamente al correo de voz
+## <a name="configure-sending-calls-directly-to-voicemail"></a>Configurar el envío de llamadas directamente al correo de voz
 
 Enrutamiento directo le permite finalizar la llamada a un usuario y enviarla directamente al correo de voz del usuario. Si desea enviar la llamada directamente al correo de voz, adjunte opaque=app:voicemail al encabezado Solicitar URI. Por ejemplo, "sip:user@yourdomain.com;opaque=app:voicemail". En este caso, Teams usuario no recibirá la notificación de llamada, la llamada se conectará directamente al correo de voz del usuario.
 
