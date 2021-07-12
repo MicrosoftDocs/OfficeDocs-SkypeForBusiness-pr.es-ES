@@ -3,8 +3,8 @@ title: 'Inicio rápido de administración: reuniones y eventos en directo en Mic
 ms.reviewer: ''
 description: Una guía de inicio rápido para que los administradores obtengan las respectivas licencias, implementen y configuren reuniones en línea y eventos en directo en Microsoft Teams.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.service: msteams
 audience: admin
@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ca2c048b28d82c7c41a7f98712264c739bce210
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 03611f2d166883ce960e272e2f3b11300cd20c54
+ms.sourcegitcommit: 616b6d0d5be2b333519b79ab59a4117036ba647e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517743"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363585"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams
 
@@ -34,23 +34,17 @@ Hay dos maneras de reunirse con Microsoft Teams: reuniones y eventos en directo.
 > [!Note]
 > Para obtener más información sobre cómo configurar rápidamente las reuniones y los eventos de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
- - Las **reuniones** en Teams incluyen audio, vídeo y pantalla compartida para hasta 1 000 personas. Se trata de una de las maneras clave de colaborar en Teams y no necesita ser miembro de ninguna organización (¡ni tampoco tener una cuenta en Teams!) para reunirse por Teams, pues únicamente tendrá que buscar la invitación para seguir las instrucciones de la llamada.
+ - Las **reuniones** en Teams incluyen audio, vídeo y pantalla compartida para hasta 1 000 personas. Se trata de una de las maneras clave de colaborar en Teams y no necesita ser miembro de ninguna organización (¡ni tampoco tener una cuenta en Teams!) para reunirse por Teams, pues únicamente tendrá que buscar la invitación para seguir las instrucciones de la llamada.
 
- - **Eventos en directo** es una extensión de las reuniones de Teams que le permiten programar y producir eventos que se transmiten a grandes audiencias en línea, hasta 10 000 personas. Si necesita reunir a más de 1 000 personas, use un evento en directo.
+ - **Eventos en directo** es una extensión de las reuniones de Teams que le permiten programar y producir eventos que se transmiten a grandes audiencias en línea, hasta 10 000 personas. Si necesita reunir a más de 1 000 personas, use un evento en directo.
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obtenga licencias para reuniones y eventos en directo
 
 Cualquiera puede participar en una reunión o un evento en directo en Teams de panera gratuita y sin ninguna licencia. Los asistentes se unen a las reuniones y los eventos en directo en Teams haciendo clic en el botón **Unirse** de Teams o de la invitación a la reunión. El audio forma parte de las reuniones en Teams, pero si quieres que la gente pueda acceder a la reunión marcando un número por teléfono, tendrá que darles su número de acceso telefónico.
 
-Quienes vayan a organizar, programar y ser los anfitriones de reuniones o eventos en directo necesitarán una de las licencias de Microsoft 365 u Office 365 que aparecen en la siguiente tabla. Si ya ha usado Teams, probablemente tenga la licencia que necesita para organizar e invitar a otros a reuniones y eventos en directo.
+Las personas que organizarán, programarán y hospedarán reuniones o eventos en directo necesitarán uno de los planes de licencias descritos en la [descripción del servicio Microsoft Teams](/office365/servicedescriptions/teams-service-description). 
 
-:::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Tabla con las licencias necesarias para reuniones o eventos en directo en Teams":::
-
-> <sup>1</sup>  Los organizadores de las reuniones deben tener una [licencia del complemento de audioconferencia](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para enviar una invitación que incluya una conferencia de acceso telefónico local.
->
-> <sup>2</sup> La llamada de acceso telefónico de la reunión [**a través de un** número de teléfono](set-up-the-call-me-feature-for-your-users.md) requiere que los organizadores tengan una licencia E5 o una [licencia del complemento de audioconferencia](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). También es posible que se necesite un [plan de marcado](what-are-dial-plans.md).
-
-Para más información sobre las licencias, consulte [Descripción del servicio de Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+Si ya está usando Teams, es probable que tenga la licencia que necesita para organizar y hospedar reuniones y eventos en directo.
 
 ## <a name="make-sure-your-networks-ready"></a>Asegúrese de que la red esté disponible
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98502d623edda6117b2838d2bc71197a43baf394
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: d58d9aaecd2c5d07922a96e0d5b0cb1ead4ba25b
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197525"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345706"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en Microsoft Teams
 ==========================
@@ -39,13 +39,13 @@ La autenticación moderna es un proceso que permite a Teams saber si un usuario 
 
 La autenticación moderna está disponible para cualquier organización que use Teams. Si los usuarios no pueden completar el proceso, puede haber un problema subyacente en la configuración de Azure AD de su organización. Para obtener más información, vea [¿por qué tengo problemas para iniciar sesión en Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
-- Si los usuarios ya han iniciado sesión en Windows o en otras aplicaciones de Office con su cuenta profesional o educativa, cuando inicien Teams, se les dirigirá directamente a la aplicación. No es necesario que introduzcan sus credenciales.
+- Si los usuarios ya han iniciado sesión en Windows o en otras aplicaciones de Office con su cuenta profesional o educativa, cuando inicien Teams, se les dirigirá directamente a la aplicación. No es necesario que escriban sus credenciales.
 
 - Microsoft recomienda usar la versión 1903 o posterior de Windows 10 para disfrutar de la mejor experiencia de inicio de sesión único.
 
-- Si los usuarios no han iniciado sesión en su cuenta profesional o educativa de Microsoft en ningún otro lugar, cuando inicien Teams, se les pedirá que proporcionen la autenticación multifactor o de un solo factor (MFA o SFA). Este proceso depende de los requerimientos que su organización haya decidido establecer para el procedimiento de inicio de sesión.
+- Si los usuarios no han iniciado sesión en su cuenta profesional o educativa de Microsoft en ningún otro lugar, cuando inicien Teams, se les pedirá que proporcionen la autenticación multifactor o de un solo factor (SFA o MFA). Este proceso depende de lo que su organización haya decidido que quiere que requiera el procedimiento de inicio de sesión.
 
-- Si los usuarios inician sesión en un equipo unido a un dominio, cuando inicien Teams, es posible que se le pida que realicen un paso de autenticación más, en función de si la organización decidió requerir MFA o si el equipo ya requiere MFA para iniciar sesión. Si su equipo ya requiere MFA para iniciar sesión, cuando abran Teams, la aplicación se iniciará automáticamente.
+- Si los usuarios han iniciado sesión en un equipo unido a un dominio, al iniciar Teams, es posible que se les pida que realicen un paso de autenticación más, en función de si su organización optó por requerir MFA o si su equipo ya requiere MFA para iniciar sesión. Si su equipo ya requiere MFA para iniciar sesión, cuando abra Teams, la aplicación se iniciará automáticamente.
 
 - En equipos unidos a un dominio, cuando el SSO no es posible, Teams puede rellenar previamente la pantalla de inicio de sesión con el nombre de usuario principal (UPN). Hay casos en los que es posible que no quiera esto, especialmente si su organización usa diferentes UPN locales y en Azure Active Directory. Si ese es el caso, puede usar la siguiente clave del registro de Windows para desactivar el rellenado previo del UPN:
 
@@ -72,7 +72,7 @@ En MacOS, Teams solicitará a los usuarios que escriban su nombre de usuario y c
 
 Al iniciar sesión, los usuarios de dispositivos móviles verán una lista de todas las cuentas de Microsoft 365 que tengan la sesión actualmente iniciada o que hayan iniciado sesión anteriormente en su dispositivo. Los usuarios pueden pulsar en cualquiera de las cuentas para iniciar sesión. Hay dos escenarios para el inicio de sesión en los móviles:
 
-1. Si la cuenta seleccionada está actualmente conectada a otras aplicaciones de Office 365 o Microsoft 365, entonces el usuario será llevado directamente a Teams. No es necesario que el usuario introduzca sus credenciales.
+1. Si la cuenta seleccionada está actualmente conectada a otras aplicaciones de Office 365 o Microsoft 365, entonces el usuario será llevado directamente a Teams. No es necesario que el usuario escriba sus credenciales.
 
 2. Si el usuario no ha iniciado sesión en su cuenta de Microsoft 365 en ningún otro lugar, se le pedirá que proporcione una autenticación de factor único o una autenticación multifactor (SFA o MFA), dependiendo de las directivas de inicio de sesión desde un dispositivo móvil configuradas para la organización.
 
@@ -89,7 +89,7 @@ Las siguientes imágenes muestran cómo los usuarios pueden agregar varias cuent
 
 ## <a name="restrict-sign-in-to-teams"></a>Restringir el inicio de sesión en Teams
 
-Para ello, es posible que la organización quiera restringir el uso de aplicaciones aprobadas por la empresa en los dispositivos administrados, por ejemplo, para restringir la capacidad de los estudiantes o empleados de acceder a los datos de otras organizaciones e incluso utilizar aplicaciones aprobadas por la empresa para situaciones personales. Estas restricciones se pueden aplicar al establecer directivas de dispositivos que reconozcan las aplicaciones de equipo.   
+Es posible que la organización quiera restringir el uso de aplicaciones aprobadas por la empresa en los dispositivos administrados, por ejemplo, para restringir la capacidad de los estudiantes o empleados de acceder a los datos de otras organizaciones e incluso utilizar aplicaciones aprobadas por la empresa para situaciones personales. Estas restricciones se pueden aplicar al establecer directivas de dispositivos que reconozcan las aplicaciones de equipo.   
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Cómo restringir el inicio de sesión en dispositivos móviles
 
@@ -119,7 +119,7 @@ Las aplicaciones de Teams en Windows y macOS son compatibles con las directivas 
 Cuando esta directiva está configurada en un dispositivo, los usuarios solo pueden iniciar sesión con las cuentas hospedadas en un inquilino de Azure AD que se incluye en la "lista de permitidos de inquilino" definida en la directiva. La directiva se aplica a todos los inicios de sesión, entre los que se incluyen la primera cuenta y las cuentas adicionales. Si su organización abarca varios inquilinos de Azure AD, puede incluir varios Id. de inquilinos en la lista de permitidos. Es posible que los vínculos para agregar otra cuenta sigan siendo visibles en la aplicación de Teams, pero en este caso no se podrán utilizar.
 
 > [!NOTE]
->1. La directiva solo restringe los inicios de sesión. No restringe la capacidad de los usuarios de ser agregados como invitados en otros espacios empresariales de Azure AD o cambiar a otros espacios empresariales.
+>1. La directiva solo restringe los inicios de sesión. No restringe la capacidad de los usuarios de ser agregados como invitados en otros espacios empresariales de Azure AD o cambiar a otros espacios empresariales (donde se ha invitado a los usuarios como invitados).
 >2. La directiva requiere Microsoft Teams para Windows versión 1.3.00.30866 o superior, y Microsoft Teams para MacOS versión 1.3.00.30882 (lanzado a mediados de noviembre de 2020).
 
 **Las directivas para los archivos de la plantilla administrativa (ADMX/ADML) de Windows** están disponibles en el [Centro de descargas](https://www.microsoft.com/download/details.aspx?id=49030) (el nombre descriptivo de la configuración de directiva en el archivo de plantilla administrativa es "Restringir el inicio de sesión en Teams a cuentas de espacios empresariales específicos"). Además, puede establecer manualmente las teclas en el registro de Windows:
@@ -158,7 +158,7 @@ La experiencia de inicio de sesión tiene un aspecto similar al de la experienci
 
 ## <a name="urls-and-ip-address-ranges"></a>Intervalos de direcciones IP y URL
 
-Teams requiere conectividad a Internet. Para comprender los puntos de conexión que deben ser accesibles para los clientes que usan Teams en los planes de Office 365, gobierno y otras nubes, consulte [Intervalos de la dirección IP y URL de Office 365](/office365/enterprise/urls-and-ip-address-ranges).
+Teams requiere conectividad a Internet. Para comprender los puntos de conexión que deben ser accesibles para los clientes que usan Teams en los planes de Office 365, gobierno y otras nubes, consulte [Intervalos de la dirección IP y URL de Office 365](/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!IMPORTANT]
 > En la actualidad, Teams necesita acceso (puerto TCP 443) al servicio de Google ssl.gstatic.com para todos los usuarios, esto sucede aunque no esté usando Gstatic. Teams quitará este requisito pronto (principios de 2020), y actualizaremos este artículo en consecuencia en ese momento.
