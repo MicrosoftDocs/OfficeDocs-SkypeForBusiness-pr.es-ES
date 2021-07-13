@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre Microsoft 365 y Office 365 de llamada predeterminada (número de teléfono asignado por un usuario), también conocido como Identificador de línea de llamada. Puede cambiar o bloquear el identificador de llamada de un usuario.
-ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 2e94dde2c3271e2b31e4c679c5e020c121d28c25
+ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230607"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53388655"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Establecer el identificador de llamada de un usuario
 
@@ -35,11 +35,11 @@ Sistema telefónico en Microsoft 365 proporciona un identificador de llamada pre
   
 De forma predeterminada, la siguiente configuración de identificador de llamada **está desactivada.** Esto significa que el Teams de teléfono del usuario puede verse cuando ese usuario realiza una llamada a un teléfono RTC. Puede cambiar esta configuración de la siguiente manera:
   
-- **Identificador de llamada saliente** Puede reemplazar el identificador de llamada de un usuario, que de forma predeterminada es su número de teléfono, por otro número de teléfono. Por ejemplo, puede cambiar el identificador de llamada del usuario de su número de teléfono a un número de teléfono principal de la empresa, o bien cambiar el identificador de línea de llamada del usuario de su número de teléfono a un número de teléfono principal del departamento jurídico. Puede cambiar el número de identificación de llamadas a cualquier número de servicio en línea (de pago o gratuito). También puede cambiar el número de id. de llamada a un número de teléfono local mediante enrutamiento directo asignado a una cuenta de recursos usada por una Operador automático o cola de llamadas.
+- **Identificador de llamada saliente** Puede reemplazar el identificador de llamada de un usuario, que de forma predeterminada es su número de teléfono, por otro número de teléfono. Por ejemplo, puede cambiar el identificador de llamada del usuario de su número de teléfono a un número de teléfono principal para su empresa o a un número de teléfono principal para el departamento legal. Además, puede establecer el número id. de llamada en cualquier número de servicio en línea (gratuito o gratuito) o en un número de teléfono local mediante enrutamiento directo asignado a una cuenta de recursos usada por un Operador automático o una cola de llamadas.
     
   > [!NOTE]
   > Si desea usar el parámetro *Servicio,* debe especificar un número de servicio válido.
-  > Debe usar los cmdlets de PowerShell para el número de cuenta de recursos si no se ven en la lista desplegable.
+  > Debe usar los cmdlets de PowerShell New-CsCallingLineIdentity o Set-CsCallingLineIdentity en el módulo de PowerShell de Teams 2.3.1 o posterior para el número de cuenta de recurso si no está visible en la lista desplegable.
   
 - **Bloquear el identificador de llamada saliente.** Puede bloquear el identificador de llamada saliente para que no se envíe en las llamadas RTC salientes de un usuario. Al hacerlo, se bloqueará el número de teléfono para que no se muestre en el teléfono de la persona que llama.
     
@@ -90,7 +90,7 @@ Connect-MicrosoftTeams -Credential $credential
 3. Aplique la nueva directiva que creó con el cmdlet Grant-CsCallingIdentity usuario. Por ejemplo, en el ejemplo siguiente se aplica la nueva directiva al usuario Amos Marble.
     
      ```PowerShell
-      Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
+     Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
      ```
    Para obtener más información, vea [Cmdlet Grant-CsCallingLineIdentity.](/powershell/module/skype/Grant-CsCallingLineIdentity)
     
