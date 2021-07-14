@@ -1,5 +1,5 @@
 ---
-title: Mover puntos de conexión de aplicaciones híbridas a la nube
+title: Migrar puntos de conexión de aplicaciones híbridas a la nube
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,30 +16,30 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Mueva los puntos de conexión de la aplicación hirid antes de retirar Skype Empresarial entorno local.
-ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+description: Migre los puntos de conexión de la aplicación hirid antes de retirar Skype Empresarial entorno local.
+ms.openlocfilehash: 7315ee807bb79b9186cd92ccc19074021b2fcfa1
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684387"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420805"
 ---
-# <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Mover puntos de conexión de aplicaciones híbridas antes de retirar el entorno local
+# <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Migrar puntos de conexión de aplicaciones híbridas antes de retirar el entorno local
 
 En este artículo se describe cómo mover puntos de conexión de aplicación híbrida necesarios a la nube de Microsoft antes de retirar el entorno Skype Empresarial local. Este es el paso 3 de los siguientes pasos para retirar el entorno local:
 
 - Paso 1. [Mover todos los usuarios necesarios de local a online](decommission-move-on-prem-users.md)
 
-- Paso 2. [Deshabilite la configuración híbrida](cloud-consolidation-disabling-hybrid.md).
+- Paso 2. [Deshabilite la configuración híbrida](cloud-consolidation-disabling-hybrid.md).
 
-- **Paso 3. Mueva los puntos de conexión de aplicaciones híbridas de local a online.** (Este artículo)
+- **Paso 3. Migre los puntos de conexión de aplicaciones híbridas de local a online.** (Este artículo)
 
 - Paso 4. [Quite la implementación Skype Empresarial local.](decommission-remove-on-prem.md)
 
 
-## <a name="move-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>Mover todos los extremos de aplicación híbrida necesarios de local a online
+## <a name="migrate-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>Migrar todos los extremos de aplicación híbrida necesarios de local a online
 
-Para poder mover estos puntos de conexión a línea, debe asegurarse de que ha actualizado los registros DNS para que apunten a Microsoft 365 para todos los dominios sip usados por los puntos de conexión. No es posible crear cuentas de recursos en línea si los registros DNS apuntan a local. Para obtener más información, vea [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
+Para poder mover estos puntos de conexión a línea, debe asegurarse de que ha actualizado los registros DNS para que apunten a Microsoft 365 para todos los dominios sip usados por los puntos de conexión. Tenga en cuenta que una vez que actualice DNS para que apunte a Microsoft 365, los puntos de conexión de aplicaciones híbridas existentes ya no se podrán detectar hasta que complete este paso. Dado que este paso (crear cuentas de recursos en línea) no es posible si los registros DNS apuntan a local, debe planear realizar los pasos 2 y 3 en la misma ventana de mantenimiento. Para obtener más información, vea [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
 1. Recupere y exporte la configuración de extremo de aplicación híbrida local ejecutando el siguiente comando de PowerShell Skype Empresarial Server local:
 
