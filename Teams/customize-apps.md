@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo personalizar aplicaciones en Microsoft Teams.
-ms.openlocfilehash: 6ef38c613151ece58591cf395add35276cb55c03
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: e2a217648abbcec4075e942b303542621f7d317a
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796864"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408749"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicaciones en Microsoft Teams
 
@@ -43,6 +43,7 @@ Vea el [Teams de manifiesto para](/microsoftteams/platform/resources/schema/mani
 
 > [!NOTE]
 > La personalización de aplicaciones no es compatible con Government Community Cloud High (GCCH) o department of defense (DoD) en este momento.
+> Actualmente, esta característica no está disponible para las aplicaciones Microsoft Teams carga lateral.
 
 ## <a name="customize-the-apps-details"></a>Personalizar los detalles de la aplicación
 

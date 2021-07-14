@@ -16,20 +16,20 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se proporciona información general sobre las características compatibles con Microsoft Teams pantallas.
-ms.openlocfilehash: 178f8c594f8953c56a2d354806e86f4a19de028f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ee5b536aaadaf458b6edf9b32dea299a3ecad9a0
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120782"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420825"
 ---
 # <a name="deploy-teams-phones-and-teams-displays-using-intune"></a>Implementar Teams teléfonos y Teams pantallas con Intune
 
-En este artículo se proporciona información general sobre cómo implementar Teams teléfonos y Teams pantallas con Intune.
+En este artículo se ofrece información general sobre cómo implementar. Teams teléfonos y Teams pantalla con Intune.
 
 ## <a name="conditional-access"></a>Acceso condicional
 
-El acceso condicional es una característica Azure Active Directory (Azure AD) que le ayuda a garantizar que los dispositivos que obtienen acceso Office 365 los recursos se administran correctamente y son seguros.  Si aplica directivas de acceso condicional al servicio Teams, los dispositivos Android (incluidos los teléfonos Teams y las pantallas Teams) que Teams de acceso deben estar inscritos en Intune y su configuración debe cumplir con sus directivas.  Si el dispositivo no está inscrito en Intune o si está inscrito, pero su configuración no cumple con las directivas, Acceso condicional impedirá que un usuario inicie sesión en o use la aplicación Teams en el dispositivo.
+El acceso condicional es una característica Azure Active Directory (Azure AD) que le ayuda a garantizar que los dispositivos que obtienen acceso Office 365 los recursos se administran correctamente y son seguros.  Si aplica directivas de acceso condicional al servicio Teams, los dispositivos Android (incluidos los teléfonos Teams y las pantallas Teams) que accedan Teams deben estar inscritos en Intune y su configuración debe cumplir con las directivas.  Si el dispositivo no está inscrito en Intune o si está inscrito, pero su configuración no cumple con las directivas, Acceso condicional impedirá que un usuario inicie sesión en o use la aplicación Teams en el dispositivo.
 
 Normalmente, las directivas de cumplimiento definidas en Intune se asignan a grupos de usuarios.  Esto significa que, si asigna una directiva de cumplimiento de Android a user@contoso.com, dicha directiva se aplicará por igual a su smartphone Android y a cualquier dispositivo de Teams basado en Android en el que user@contoso.com sesión.
 
@@ -40,12 +40,28 @@ Si usa acceso condicional, que requiere que se aplique la inscripción de Intune
 
 ## <a name="configure-intune-to-enroll-teams-android-based-devices"></a>Configurar Intune para inscribir Teams dispositivos basados en Android
 
-Teams Los dispositivos basados en Android se administran en Intune a través de la administración del administrador de dispositivos Android (DA). Antes de que los dispositivos se puedan inscribir en Intune, hay algunos pasos básicos para realizar.  Si ya está administrando dispositivos con Intune hoy, es probable que ya haya hecho todas estas cosas.  Si no es así, esto es lo que debe hacer:
+Teams Intune administra los dispositivos basados en Android a través de la administración del administrador de dispositivos Android (DA). Antes de que los dispositivos se puedan inscribir en Intune, hay algunos pasos básicos para realizar.  Si ya está administrando dispositivos con Intune hoy, es probable que ya haya hecho todas estas cosas.  Si no es así, esto es lo que debe hacer:
 
-1. Establecer Intune MDM (administración de dispositivos móviles) Autoridad.  Si nunca ha usado Intune antes, debe establecer la autoridad mdma antes de poder inscribir dispositivos. Para obtener más información, vea Establecer la autoridad de administración [de dispositivos móviles.](/intune/fundamentals/mdm-authority-set)  Este es un paso único que debe realizarse al crear un nuevo inquilino de Intune.
-2. Habilitar la inscripción del administrador de dispositivos Android. Los dispositivos Teams basados en Android se administran como dispositivos de administrador de dispositivos con Intune.  La inscripción del administrador de dispositivos está desactivada de forma predeterminada para los inquilinos recién creados.  Para obtener más información, vea Inscripción [del administrador de dispositivos Android.](/intune/enrollment/android-enroll-device-administrator)
-3. Asignar licencias a los usuarios. Los usuarios Teams dispositivos que se inscriban en Intune deben tener asignada una licencia válida de Intune. Para obtener más información, vea Asignar licencias a los usuarios [para que puedan inscribir dispositivos en Intune.](/intune/fundamentals/licenses-assign)
-4. Asignar directivas de cumplimiento del administrador de dispositivos.  Cree una directiva de cumplimiento del administrador de dispositivos Android y asígnela al grupo de Azure Active Directory que contiene los usuarios que iniciarán sesión en los Teams dispositivos. Para obtener más información, vea Usar directivas de cumplimiento para establecer reglas para [dispositivos que administra con Intune.](/mem/intune/protect/device-compliance-get-started)
+> [!NOTE]
+> - Si los administradores de inquilinos quieren que los teléfonos de área común se inscriba en Intune, deben agregar una licencia de Intune a la cuenta y seguir los pasos para la inscripción de Intune.
+> - Si la cuenta de usuario usada para iniciar sesión en un dispositivo Teams no tiene licencia para Intune, las directivas de cumplimiento de Intune y las restricciones de inscripción deben deshabilitarse para la cuenta.
+
+
+
+1. Establecer Intune MDM (administración de dispositivos móviles) Autoridad.  
+
+   Si nunca ha usado Intune antes, debe establecer la autoridad mdma antes de poder inscribir dispositivos. Para obtener más información, vea Establecer la autoridad de administración [de dispositivos móviles.](/intune/fundamentals/mdm-authority-set)  Este es un paso único que debe realizarse al crear un nuevo inquilino de Intune.
+1. Habilitar la inscripción del administrador de dispositivos Android.
+  
+   Los dispositivos Teams basados en Android se administran como dispositivos de administrador de dispositivos con Intune.  La inscripción del administrador de dispositivos está desactivada de forma predeterminada para los inquilinos recién creados. Consulte Inscripción [del administrador de dispositivos Android.](/intune/enrollment/android-enroll-device-administrator)
+1. Asignar licencias a los usuarios. 
+ 
+   Los usuarios Teams dispositivos que se inscriban en Intune deben tener asignada una licencia válida de Intune. Para obtener más información, vea Asignar licencias a los usuarios [para que puedan inscribir dispositivos en Intune.](/intune/fundamentals/licenses-assign)
+1. Asignar directivas de cumplimiento del administrador de dispositivos.  
+
+   a. Crear una directiva de cumplimiento del administrador de dispositivos Android.
+
+   b. Asígnelo al grupo Azure Active Directory que contiene los usuarios que iniciarán sesión en los Teams dispositivos. Vea [Usar directivas de cumplimiento para establecer reglas para los dispositivos que administra con Intune.](/mem/intune/protect/device-compliance-get-started)
 
 ## <a name="see-also"></a>Vea también
 
