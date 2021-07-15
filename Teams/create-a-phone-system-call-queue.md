@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: b3a17343b21f0dcb35ba2f2d6bb99178bdafffd0
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: a8dbcddbbc7b0717678f56a2876b617d06f49187
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420855"
+ms.locfileid: "53428206"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -111,6 +111,9 @@ Los clientes siguientes son compatibles al usar un canal Teams para las colas de
 
   - Microsoft Teams Windows cliente
   - Cliente de Microsoft Teams para Mac
+
+> [!NOTE]
+> Si usa esta opción, la cola de llamadas puede tardar hasta 24 horas en estar completamente operativa.
 
 ##### <a name="users-and-groups"></a>Usuarios y grupos
 

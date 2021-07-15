@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899091"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420835"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams 
 
@@ -32,12 +32,7 @@ ms.locfileid: "51899091"
 
 Si ya ha [optimizado la red para Microsoft 365 u Office 365](/Office365/Enterprise/assessing-network-connectivity), probablemente estará listo para usar Microsoft Teams. En cualquier caso, y especialmente si tiene que implementar Teams en poco tiempo como su primera carga de trabajo de Microsoft 365 u Office 365 con el fin de dar cabida a **trabajadores remotos**, lea lo siguiente antes de la implementación:
 
-1.  ¿Tienen todas sus ubicaciones acceso a Internet para conectarse a Microsoft 365 u Office 365? Como mínimo, además del tráfico web normal, asegúrese de que ha abierto lo siguiente para permitir el contenido multimedia en Teams en todas las ubicaciones:
-
-    |  |  |
-    |---------|---------|
-    |Puertos     |Puertos UDP de <strong>3478</strong> a <strong>3481</strong>        |
-    |[Direcciones IP](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong> y <strong>52.120.0.0/14</strong>         |
+1.  ¿Tienen todas sus ubicaciones acceso a Internet para conectarse a Microsoft 365 u Office 365? Además del tráfico web normal, asegúrese de que ha abierto los puertos TCP y las direcciones IP que aparecen para Teams en [Intervalos de direcciones IP y URL de Office 365](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
     > [!IMPORTANT]
     > Si necesita federar con Skype Empresarial, ya sea local o en línea, tendrá que configurar algunos registros DNS adicionales.
@@ -136,7 +131,7 @@ Para obtener una explicación más detallada sobre la optimización de redes, co
 <td><p>Como sucede con las redes VPN, las redes Wi-Fi no se han diseñado ni configurado necesariamente para admitir archivos multimedia en tiempo real. Planificar una red Wi-Fi u optimizarla para que admita Teams es un aspecto muy relevante en la implementación de calidad. Tenga en cuenta los siguientes factores:</p>
 <ul>
 <li><p>Implementar QoS o WiFi Multimedia (WMM) le asegura que el tráfico multimedia reciba la prioridad adecuada a través de las redes Wi-Fi.</p></li>
-<li><p>Planear y optimizar las bandas Wi-Fi y la ubicación del punto de acceso. El intervalo de 2,4 GHz puede proporcionar una experiencia adecuada en función de la ubicación del punto de acceso, pero a los puntos de acceso normalmente también les afectan otros dispositivos de consumidores que funcionan en esa gama. El intervalo de 5 GHz es mejor para los medios en tiempo real, debido a su rango denso, pero requiere más puntos de acceso para conseguir suficiente cobertura. Los puntos de conexión también necesitan admitir esa gama y se deben configurar para poder aprovechar esas bandas de forma adecuada.</p></li>
+<li><p>Planear y optimizar las bandas Wi-Fi y la ubicación del punto de acceso. El intervalo de 2,4 GHz puede proporcionar una experiencia adecuada en función de la ubicación del punto de acceso, pero a los puntos de acceso normalmente también les afectan otros dispositivos de consumidores que funcionan en esa gama. El intervalo de 5 GHz es mejor para los medios en tiempo real, debido a su rango denso, pero requiere más puntos de acceso para conseguir suficiente cobertura. Los puntos de conexión también necesitan admitir esa gama y se deben configurar para poder aprovechar esas bandas de forma adecuada.</p></li>
 <li><p>Si usa redes Wi-Fi de doble banda, considere la posibilidad de implementar "band steering". <em>Band steering</em> es una técnica que implementan los proveedores Wi-Fi para que los clientes de doble banda usen el intervalo de 5 GHz.</p></li>
 <li><p>Cuando los puntos de acceso del mismo canal están demasiado cerca entre sí, pueden generar superposición de señales y competir sin pretenderlo, lo que daría lugar a una mala experiencia para el usuario. Asegúrese de que los puntos de acceso que están próximos entre ellos se encuentran en canales que no se superponen.</p></li>
 </ul>
@@ -149,10 +144,173 @@ Para obtener una explicación más detallada sobre la optimización de redes, co
 
 Teams está concebido para ofrece las mejores posibilidades de uso compartido de audio, vídeo y contenido, independientemente de las condiciones de su red. Dicho esto, cuando el ancho de banda es insuficiente, Teams da prioridad a la calidad de audio sobre la de vídeo.
 
-Cuando el ancho de banda *no esté* limitado, Teams optimizará la calidad multimedia con hasta 1080p de resolución de vídeo, 30 fps para vídeo y 15 fps para el contenido y el audio de alta fidelidad. 
+Cuando el ancho de banda no está limitado, Teams optimiza la calidad multimedia, incluido el audio de alta fidelidad, una resolución de vídeo de hasta 1080p y hasta 30 fps (fotogramas por segundo) para vídeo y contenido.
 
-[!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
+Esta tabla describe cómo Teams usa el ancho de banda. Teams siempre hace un uso conservador del ancho de banda y puede ofrecer una calidad de vídeo de alta definición con menos de 1,5 Mb/s. El consumo real de ancho de banda en cada llamada de audio o vídeo o reunión varía en función de varios factores, como el diseño de vídeo, la resolución de vídeo y los fotogramas por segundo del vídeo. Cuando se disponga de más ancho de banda, la calidad y el uso se incrementarán para proporcionar la mejor experiencia.
 
+:::row:::
+   :::column span="":::
+      **Modalidad**
+   :::column-end:::
+   :::column span="3":::
+      **Requisitos de ancho de banda (velocidad de bits KB/s subida/bajada)**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+   :::column-end:::
+   :::column span="":::
+      **Mínimo**
+   :::column-end:::
+   :::column span="":::
+      **Recomendado**
+   :::column-end:::
+   :::column span="":::
+      **Mejor rendimiento**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Audio**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Uno a uno
+   :::column-end:::
+   :::column span="":::
+        10/10
+   :::column-end:::
+   :::column span="":::
+        58/58
+   :::column-end:::
+   :::column span="":::
+        76/76
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Reuniones
+   :::column-end:::
+   :::column span="":::
+        10/10
+   :::column-end:::
+   :::column span="":::
+        58/58
+   :::column-end:::
+   :::column span="":::
+        76/76
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Vídeo**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Uno a uno
+   :::column-end:::
+   :::column span="":::
+        150/150
+   :::column-end:::
+   :::column span="":::
+        1 500/1 500
+   :::column-end:::
+   :::column span="":::
+        4 000/4 000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Reuniones
+   :::column-end:::
+   :::column span="":::
+        150/200
+   :::column-end:::
+   :::column span="":::
+        2 500/4 000
+   :::column-end:::
+   :::column span="":::
+        4 000/4 000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Pantalla compartida**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Uno a uno
+   :::column-end:::
+   :::column span="":::
+        200/200
+   :::column-end:::
+   :::column span="":::
+        1 500/1 500
+   :::column-end:::
+   :::column span="":::
+        4 000/4 000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Reuniones
+   :::column-end:::
+   :::column span="":::
+        250/250
+   :::column-end:::
+   :::column span="":::
+        2 500/2 500
+   :::column-end:::
+   :::column span="":::
+        4 000/4 000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Modo conferencia**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Uno a uno
+   :::column-end:::
+   :::column span="":::
+        N/D
+   :::column-end:::
+   :::column span="":::
+        N/D
+   :::column-end:::
+   :::column span="":::
+        N/D
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Reuniones
+   :::column-end:::
+   :::column span="":::
+        1 000/1 500
+   :::column-end:::
+   :::column span="":::
+        1 500/2 500
+   :::column-end:::
+   :::column span="":::
+        2 500/4 000
+   :::column-end:::
+:::row-end:::
+
+Los requisitos de ancho de banda **mínimos**, **recomendados** y para **mejor rendimiento** se basan en el uso por punto de conexión. Normalmente, hay un punto de conexión por usuario, como un equipo o un dispositivo móvil. Sin embargo, si un usuario se une a una reunión de Teams en *ambos*, un equipo *y* un dispositivo móvil, se asocian dos puntos de conexión a ese usuario.
+
+- Los requisitos **mínimos** de ancho de banda para videollamadas son una resolución de hasta 240p, velocidades de fotogramas de contenido de uso compartido de pantalla adaptables de 1,875 a 7,5 fps y vídeo en modo conferencia o galería grande con una resolución de hasta 540p.  
+
+- Los requisitos de ancho de banda **recomendados** para las videollamadas son una resolución de hasta 1080p<sup>\*</sup>, velocidades de fotogramas de contenido de uso compartido de pantalla adaptables de 7,5 a 30 fps y vídeo en modo conferencia o galería grande con una resolución de hasta 1080p<sup>\*</sup>.  
+
+- Las instrucciones de **mejor rendimiento** permiten vídeo de mayor fidelidad para reuniones de más asistentes, entornos de pérdida alta y mayor contenido de movimiento con velocidades de fotogramas de contenido de uso compartido de pantalla adaptables de 15 a 30 fps.
+
+<sup>\*</sup>Espere una calidad de hasta 1080p, pero en función de las condiciones de la red, la resolución y la calidad del vídeo se optimizarán en consecuencia.  
 
 ## <a name="related-topics"></a>Temas relacionados
 

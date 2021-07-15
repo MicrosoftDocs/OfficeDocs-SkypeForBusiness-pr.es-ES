@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e4bfb5594b64eb06041e7f761eb0d85cec8c3e5
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: f11d14bc7bf302a864afe3062ef8f2bb8eccd7da
+ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52306044"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437647"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>Estrategias de actualización para administradores de TI
 
@@ -86,12 +86,10 @@ Estos son los comandos de clave:
 Notas
  
 - En lugar de establecer la directiva de todo el espacio empresarial en SfbWithTeamsCollab, puede establecerla en SfbWithTeamsCollabAndMeetings. Esto hace que todos los usuarios programe todas las reuniones nuevas en Teams.
-- `Move-CsUser` es un cmdlet en las herramientas locales. El `MoveToTeams` modificador requiere Skype Empresarial Server 2019 o Skype Empresarial Server 2015 con CU8 o posterior. Si usa una versión anterior, primero puede mover el usuario a Skype Empresarial Online y, después, conceder el modo TeamsOnly a ese usuario.
 - De forma predeterminada, Skype Empresarial reuniones se migran a Teams al actualizar al modo TeamsOnly o al asignar el modo SfbWithTeamsCollabAndMeetings.  
 
 > [!NOTE]
-> En preparación para la próxima retirada de Skype Empresarial Online, Microsoft simplificará la forma en que las organizaciones se desplazan a Teams en un futuro próximo. Al mover un usuario de local a Teams, pronto ya no será necesario especificar el cambio para mover usuarios directamente desde local a `-MoveToTeams` `Move-CsUser` TeamsOnly. Actualmente, si no se especifica este modificador, los usuarios pueden pasar de hospedarse en Skype Empresarial Server local Skype Empresarial Online y su modo permanece sin cambios. Después de la retirada, al mover un usuario de local a la nube con , los usuarios se asignarán automáticamente al modo TeamsOnly y sus reuniones desde locales se convertirán automáticamente en reuniones de Teams, igual que si el modificador se especifica `Move-CsUser` `-MoveToTeams switch had been specified` realmente. Esperamos publicar esta funcionalidad antes de la retirada real del 31 de julio de 2021.
-
+> En preparación para la próxima retirada de Skype Empresarial Online, Microsoft ha simplificado la forma en que las organizaciones se mueven a Teams. Ya no es necesario especificar el cambio para mover los usuarios directamente desde el entorno `-MoveToTeams` `Move-CsUser` local directamente a TeamsOnly. Anteriormente, si no se especificaba este modificador, los usuarios pasaron de estar en casa en Skype Empresarial Server local Skype Empresarial Online y su modo no se cambió. Ahora, al mover un usuario de local a la nube con , los usuarios se asignan automáticamente al modo TeamsOnly y sus reuniones desde locales se convierten automáticamente en reuniones de Teams, igual que si el modificador se especifica `Move-CsUser` `-MoveToTeams switch had been specified` realmente. Este comportamiento está disponible en todas las versiones de Skype Para Empresas Server y Lync Server 2013 (que nunca tuvieron soporte para `-MoveToTeams` ).
 
 En el siguiente diagrama se muestran las fases conceptuales de la actualización de capacidades de selección para una organización sin el uso previo de Teams. El alto de las barras representa el número de usuarios. Durante cualquier fase de la actualización, todos los usuarios pueden comunicarse entre sí.  Skype Empresarial se comunican con los usuarios de TeamsOnly mediante interoperabilidad y viceversa. Los usuarios en modo Islas deben asegurarse de ejecutar ambos clientes.
 
@@ -104,7 +102,7 @@ Si algunos usuarios de su organización usan activamente Teams modo Islas, es pr
 
 1. Busque usuarios que estén activos en Teams como se muestra a continuación:
 
-   1. Desde el Microsoft 365 de administración, en el panel de navegación izquierdo, vaya a Informes y, a continuación, Uso. 
+   1. En la Centro de administración de Microsoft 365, en el panel de navegación izquierdo, vaya a Informes y, a continuación, Uso. 
    2. En el menú desplegable "Seleccionar un informe", elija Microsoft Teams y, a continuación, Actividad del usuario. Esto proporcionará una tabla exportable de usuarios que han estado activos en Teams. 
    3. Haga clic en Exportar, abra Excel y filtre para mostrar solo los usuarios que están activos en Teams.
 
