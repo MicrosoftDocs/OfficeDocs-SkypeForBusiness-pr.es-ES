@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instrucciones para retirar Skype Empresarial Server.
-ms.openlocfilehash: a69ba2d9a3bbdce8bee342c3554b758138ad1d87
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: e96c4cd37d09fc62fbfbe34a8b8d61c79ea08289
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420795"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454343"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Eliminar la implementación local de Skype Empresarial
 
@@ -38,7 +38,7 @@ En este artículo se describe cómo quitar la implementación Skype Empresarial 
 
 
 > [!IMPORTANT] 
-> Los pasos de este artículo solo se aplican si usa el método 2 para administrar atributos de usuario, como se describe [aquí](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory). Si usa el método 1, no use los pasos descritos en este artículo para quitar los Skype Empresarial servidores. En su lugar, puede volver a crear una imagen de los servidores.
+> Los pasos de este artículo solo se aplican si usa el método 2 para administrar atributos de usuario, como se describe [aquí](cloud-consolidation-managing-attributes.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory). Si usa el método 1, no use los pasos descritos en este artículo para quitar los Skype Empresarial servidores. En su lugar, puede volver a crear una imagen de los servidores.
 
 Para completar los pasos de este artículo, necesita privilegios tanto para el grupo Administradores de esquema como para el grupo Enterprise administración. Necesitará estos privilegios para deshacer el esquema Skype Empresarial Server y los cambios de nivel de bosque en los Servicios de dominio de Active Directory. También tendrá que ser miembro del grupo RTCUniversalServerAdmins.
 
@@ -127,7 +127,7 @@ Después de completar todos los pasos preliminares, puede quitar la Skype Empres
    Disable-CsAdForest
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Retirar el entorno local de Skype Empresarial](decommission-on-prem-overview.md)
 
