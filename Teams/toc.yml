@@ -229,10 +229,16 @@ items:
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuarios a la nube
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
-              - name: Deshabilitar la implementación híbrida para completar la migración a la nube
-                href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+              - name: Deshabilitar híbrido para completar la migración solo a Teams
+                items:
+                  - name: Deshabilitar híbrido para completar la migración solo a Teams
+                    href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
+                  - name: Actualizar entradas DNS
+                    ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                  - name: Decidir cómo administrar atributos después de la retirada
+                    href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: Mover puntos de conexión de aplicaciones a la nube
-                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints
               - name: Quitar la implementación de Skype Empresarial
                 href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: Implementación del recurso de topología entre bosques
@@ -1558,8 +1564,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams
             href: sharepoint-onedrive-interact.md
-          - name: Experiencia de Teams en un espacio empresarial de Microsoft 365 u Office 365 con capacidades multigeográficas
-            href: teams-experience-o365odb-spo-multi-geo.md
       - name: Dispositivos admitidos
         items:
           - name: Administrar los dispositivos en Teams
