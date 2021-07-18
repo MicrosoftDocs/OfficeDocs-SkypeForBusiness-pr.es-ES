@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbff25ff4f241b18baa6b313977c687c73c8262
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: cd4d8b4136639a057250bf72aa969e13f8619e1d
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219127"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454353"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -161,9 +161,9 @@ Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponi
 
 Los subtítulos ayudan a crear contenido inclusivo para los espectadores de todas las capacidades. Como propietario, puede ocultar los subtítulos en la grabación de la reunión, aunque la transcripción de la reunión seguirá estando disponible en Teams a menos que la elimine allí. 
 
-Los subtítulos son compatibles con las grabaciones de reuniones de Teams durante 60 días desde que se graba la reunión.
+Hoy los subtítulos del archivo de vídeo de grabación están vinculados a la transcripción Teams reunión. Este vínculo permanecerá durante la duración del archivo en la mayoría de los casos, pero a veces se puede romper por ejemplo si el archivo de vídeo se copia dentro del mismo sitio de OneDrive o SharePoint, lo que provocaría que los subtítulos no estén disponibles en el nuevo archivo de vídeo de grabación.
 
-Los subtítulos no son compatibles por completo si la grabación de la reunión de Teams se mueve o se copia desde su ubicación original en OneDrive para la Empresa o SharePoint.
+Los cambios futuros se aclararán aquí y en las notificaciones del centro de mensajes, y garantizarán que los archivos de grabación con menos de 60 días de antigüedad muestren la transcripción de la reunión como subtítulos durante cualquier período de migración.
 
 > [!NOTE]
 > Habrá subtítulos solo en inglés (la transcripción de la reunión aún no está disponible en GCC).
