@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: En este artículo se describe cómo administrar atributos después de retirar el entorno local.
-ms.openlocfilehash: d8c61e1a5a76206cadd8ab4ae3ed51de77badc74
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 32cd4c6da893e4ba336007d3f5d5f3f8fdb5ca90
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510651"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574325"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Decidir cómo administrar atributos después de la retirada
 
@@ -59,7 +59,7 @@ Si desea realizar cambios en la dirección sip de un usuario o en el número de 
 
   ![Herramienta de equipos y usuarios de Active Directory](../media/disable-hybrid-1.png)
   
--  Si el usuario no tenía originalmente un valor para local antes del movimiento, puede modificar el número de teléfono mediante el parámetro - en el `msRTCSIP-Line` `onpremLineUri` cmdlet [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) en el módulo de PowerShell de Skype Empresarial Online.
+-  Si el usuario no tenía originalmente un valor para local antes del movimiento, puede modificar el número de teléfono mediante el parámetro - en el `msRTCSIP-Line` `onpremLineUri` cmdlet [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) del módulo Teams PowerShell.
 
 Estos pasos no son necesarios para los nuevos usuarios creados después de deshabilitar híbridos y esos usuarios se pueden administrar directamente en la nube. Si se siente cómodo con la combinación de estos métodos, así como con dejar los atributos msRTCSIP en su Active Directory local, simplemente puede volver a crear una imagen de los servidores Skype Empresarial locales. Sin embargo, si prefiere borrar todos los atributos msRTCSIP y realizar una desinstalación tradicional de Skype Empresarial Server, use el método 2.
 
@@ -140,13 +140,13 @@ Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que e
    Start-ADSyncSyncCycle -PolicyType Delta
    ```
 
-7. Espere a que se complete el aprovisionamiento de usuarios. Para supervisar el progreso del aprovisionamiento de usuarios, ejecute el siguiente comando Skype Empresarial PowerShell en línea. El siguiente Skype Empresarial de PowerShell en línea devuelve un resultado vacío en cuanto se complete el proceso.
+7. Espere a que se complete el aprovisionamiento de usuarios. Puede supervisar el progreso del aprovisionamiento de usuarios ejecutando el siguiente Teams de PowerShell. El siguiente Teams comando de PowerShell devuelve un resultado vacío en cuanto se complete el proceso.
 
    ```PowerShell
    Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
-8. Ejecute el siguiente comando Skype Empresarial PowerShell en línea para asignar números de teléfono y habilitar a los usuarios para Sistema telefónico:
+8. Ejecute el siguiente comando Teams PowerShell para asignar números de teléfono y habilitar a los usuarios para Sistema telefónico:
      
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -161,7 +161,7 @@ Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que e
    > [!Note]
    >  Si todavía tiene Skype Empresarial extremos (ya sea Skype o teléfonos de terceros), también querrá establecer -HostedVoiceMail en $true. Si su organización solo usa puntos Teams para usuarios habilitados para voz, esta configuración no se aplica a los usuarios. 
 
-9. Confirme que los usuarios Sistema telefónico funcionalidad se han aprovisionado correctamente. El siguiente Skype Empresarial de PowerShell en línea devuelve un resultado vacío en cuanto se complete el proceso.
+9. Confirme que los usuarios Sistema telefónico funcionalidad se han aprovisionado correctamente. El siguiente Teams comando de PowerShell devuelve un resultado vacío en cuanto se complete el proceso.
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -187,11 +187,13 @@ Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que e
     ```PowerShell
     Get-CsUser | Select-Object SipAddress, UserPrincipalName
     ``` 
-    Skype Empresarial Comando de PowerShell en línea:
+
+    Teams Comando de PowerShell:
 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
+
 12. Después de completar todos los pasos del método 2, vea Move [hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md) y Remove your [on-premises Skype Empresarial Server](decommission-remove-on-prem.md) for additional steps to remove your Skype Empresarial Server on-premises deployment.
 
 

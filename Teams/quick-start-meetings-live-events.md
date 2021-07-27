@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7c55d6192c4c3aa8aa9b00def41b998410bcb60
-ms.sourcegitcommit: 3173bb338a4b79f9443941a3def4223360e45f61
+ms.openlocfilehash: 88a9f86ae72bcc86ba2a1c7d252950c6b11cbf36
+ms.sourcegitcommit: 0c3ff4933360813b9c6d78adea02f42688dea997
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53479057"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463303"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Inicio rápido: reuniones, seminarios web y eventos en vivo 
 
@@ -42,7 +42,8 @@ En este artículo, destinado a administradores y profesionales de TI, se describ
 
 Los distintos tipos de reuniones también tienen diferentes límites de participantes y de capacidades de los participantes. 
 
-En la tabla siguiente se resumen brevemente los tres tipos de reuniones, el número de participantes recomendados y cómo éstos pueden interactuar en la reunión. Si quiere obtener más información sobre cada tipo de reunión, utilice a la tabla.<br><br>
+En la tabla siguiente se resumen brevemente los tres tipos de reuniones, el número de participantes recomendados y cómo pueden los participantes interactuar en la reunión. Para obtener más información sobre cada tipo de reunión, siga la tabla.
+<br><br>
 
 | Tipo de reunión | Número de participantes | Interacción | Registro admitido |
 |----------|--------|--------|-----|
@@ -53,7 +54,7 @@ En la tabla siguiente se resumen brevemente los tres tipos de reuniones, el núm
 
 *Los 10 000 habituales se incrementan a 20 000 hasta el 31 de diciembre de 2021.<br>
 
-**Los 10 000 habituales se incrementan a 20 000 hasta el 31 de diciembre de 2021. Puede programar reuniones para incluso más asistentes con eventos en directo en Yammer o Microsoft Stream. Para obtener más información, consulte [Eventos en directo en todo Microsoft 365](/stream/live-event-m365).  Tenga en cuenta que los eventos de más de 20 000 asistentes requieren el [Programa de asistencia de eventos en directo](/stream/live-events-assistance). 
+**Los 10 000 habituales se incrementan a 20 000 hasta el 31 de diciembre de 2021. Puede programar reuniones para incluso más asistentes con eventos en directo en Yammer o Microsoft Stream. Para obtener más información, consulte [Eventos en directo en todo Microsoft 365](https://docs.microsoft.com/stream/live-event-m365).  Tenga en cuenta que los eventos de más de 20 000 asistentes requieren el [Programa de asistencia de eventos en directo](https://docs.microsoft.com/stream/live-events-assistance). 
 
 Para obtener la mejor experiencia en reuniones grandes, Microsoft recomienda usar el cliente de escritorio o los clientes móviles de Teams. Los moderadores de reuniones grandes deben usar el cliente de escritorio de Teams. Para obtener más consejos sobre cómo organizar reuniones grandes, consulte [Prácticas recomendadas para una reunión grande de equipos](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
 
@@ -140,7 +141,7 @@ Para generar eventos virtuales a mayor escala, revise la [guía de eventos virtu
 
 ## <a name="apps-for-meetings"></a>Aplicaciones para reuniones
 
-Microsoft le permite sacar el máximo partido a las reuniones mediante la integración y utilización de diversas aplicaciones de reuniones. Por ejemplo, la integración de pizarras en reuniones de Teams se basa en la aplicación web Whiteboard, que permite a los participantes de la reunión de Teams dibujar, esbozar y escribir todos juntos en un lienzo digital compartido.
+Microsoft le permite mejorar las experiencias de reunión mediante la integración y el uso de aplicaciones de reuniones. Por ejemplo, la integración de pizarras en reuniones de Teams se basa en la aplicación web Whiteboard, que permite a los participantes de la reunión de Teams dibujar, esbozar y escribir todos juntos en un lienzo digital compartido.
 
 Puede agregar aplicaciones de reuniones a su implementación de Teams con las aplicaciones que le proporciona Teams, con plantillas y aplicaciones de terceros certificadas, o creando sus propias aplicaciones personalizadas. 
 

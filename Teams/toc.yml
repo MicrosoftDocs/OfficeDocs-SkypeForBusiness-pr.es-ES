@@ -1487,13 +1487,13 @@ items:
             href: sku-reference-edu.md
       - name: Teams para los trabajadores de primera línea
         items:
-          - name: Inicio rápido para los trabajadores de primera línea
+          - name: Guía de inicio rápido de Trabajador de primera línea
             href: flw-quickstart.yml
           - name: Implementación mediante scripts para trabajadores de primera línea
             href: flw-scripted-deployment.md
           - name: Administrar el acceso de trabajadores de primera línea en función de sus turnos
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: RealWear para Microsoft Teams
+          - name: RealWear para Teams
             href: flw-realwear.md
           - name: Walkie-talkie
             href: walkie-talkie.md
