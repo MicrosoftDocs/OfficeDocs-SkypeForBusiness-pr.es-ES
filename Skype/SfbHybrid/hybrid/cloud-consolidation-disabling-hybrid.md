@@ -1,5 +1,5 @@
 ---
-title: Deshabilitar híbrido para completar la migración a Teams solo
+title: Deshabilitar híbrido para completar la migración solo a Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,14 +21,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: En este artículo se incluyen pasos detallados para deshabilitar la implementación híbrida como parte de la consolidación de la nube Teams y Skype Empresarial.
-ms.openlocfilehash: 87bd1f6e0dcabed067174972dd0f0fc51149beb0
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453649"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510511"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>Deshabilitar la configuración híbrida para completar la migración a Teams solo 
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 En este artículo se describe cómo deshabilitar la configuración híbrida antes de retirar el entorno Skype Empresarial local. Este es el paso 2 de los siguientes pasos para retirar el entorno local:
 

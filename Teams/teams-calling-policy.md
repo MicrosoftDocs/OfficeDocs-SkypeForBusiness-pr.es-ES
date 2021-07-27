@@ -1,5 +1,5 @@
 ---
-title: Directivas de llamadas en Microsoft Teams
+title: 'Directivas de llamadas en Microsoft Teams: Características de llamadas y reenvío de llamadas'
 author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
@@ -20,15 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51653950"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596621"
 ---
-<a name="calling-policies-in-microsoft-teams"></a>Directivas de llamadas en Microsoft Teams
-===================================
+#  <a name="calling-and-call-forwarding-in-teams"></a>Llamadas y reenvío de llamadas en Teams
 
 En Microsoft Teams, las directivas de llamadas controlan qué características de llamadas y de reenvío de llamadas están disponibles para los usuarios. Las directivas de llamadas determinan si un usuario puede realizar llamadas privadas, usar el reenvío de llamadas o llamadas simultáneas a otros usuarios o números de teléfono externos, dirigir llamadas al correo de voz, enviar llamadas a grupos de llamadas, usar la delegación para llamadas entrantes y salientes, y así sucesivamente.
 
@@ -106,6 +105,6 @@ Esta configuración le permite activar o desactivar la música en espera cuando 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 [Asignar directivas a los usuarios en Teams](assign-policies.md)

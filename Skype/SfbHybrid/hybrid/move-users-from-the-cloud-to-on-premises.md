@@ -17,19 +17,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: Obtenga información sobre cómo mover usuarios de Skype Empresarial Online a locales.
-ms.openlocfilehash: 78e86e48e9f409c9e2a9f348cada9c24f30c6279
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: Obtenga información sobre cómo mover usuarios de Teams a locales.
+ms.openlocfilehash: db1557c3929bdf62557e31a7fce78050569016ee
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509791"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574095"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Mover usuarios de la nube a local 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Si es necesario, puede volver a mover un usuario que se ha migrado previamente de local a la nube (ya sea mediante Skype Empresarial Online o Teams Only) a la nube local. Para volver a mover usuarios del modo Skype Empresarial Online o TeamsOnly a una implementación local de Skype Empresarial Server, use el cmdlet Move-CsUser o el Panel de control de Skype Empresarial Server, que son herramientas locales. Al volver a mover un usuario a una implementación local, debe decidir a qué grupo de servidores mover el usuario.
+Si es necesario, puede mover un usuario que se migró previamente de local a Teams a local. Para volver a mover usuarios del modo Skype Empresarial Online o TeamsOnly a una implementación local de Skype Empresarial Server, use el cmdlet Move-CsUser o el Panel de control de Skype Empresarial Server, que son herramientas locales. Al volver a mover un usuario a una implementación local, debe decidir a qué grupo de servidores mover el usuario.
 
 > [!Important]
 > Si el usuario estaba anteriormente en modo TeamsOnly y usa una versión anterior a Skype Empresarial Server 2015 con CU8, también debe quitar la asignación de modo TeamsOnly de TeamsUpgradePolicy para ese usuario. Los usuarios locales no deben tener mode= TeamsOnly.  Las versiones posteriores Skype Empresarial Server quitarán automáticamente esta asignación. Para obtener más información, [vea Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy).

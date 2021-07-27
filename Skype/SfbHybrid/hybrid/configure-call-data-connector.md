@@ -11,17 +11,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: Instrucciones para configurar Call Data Connector, que permite que la telemetría de Skype Empresarial local se vea con herramientas de Skype Empresarial Online.
-ms.openlocfilehash: f78d59d02964bd826fc705bc193cae3e21b293a5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Instrucciones para configurar Call Data Connector, que permite que la telemetría de Skype Empresarial local se vea con Skype Empresarial online.
+ms.openlocfilehash: 28a9ba2f00a071ff5b1c0781240cf54a2de929e8
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118999"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510601"
 ---
 # <a name="configure-call-data-connector"></a>Configurar el conector de datos de llamada
 
-En este artículo se describe cómo configurar El conector de datos de llamadas: un único conjunto de herramientas que permite ver datos de calidad de llamadas de Skype Empresarial Server con las herramientas panel de calidad de llamadas (CQD) y análisis de llamadas (CA) de Skype Empresarial Online.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+
+En este artículo se describe cómo configurar El conector de datos de llamadas: un único conjunto de herramientas que permite ver datos de calidad de llamadas Skype Empresarial Server través de herramientas del Panel de calidad de llamadas en línea (CQD) y análisis de llamadas (CA) de Skype Empresarial.
 
 Para obtener más información acerca de las ventajas y requisitos previos de Call Data Connector, como los requisitos de roles y la configuración de la conectividad híbrida, vea [Plan Call Data Connector](plan-call-data-connector.md).
 
@@ -49,14 +52,14 @@ Para configurar y habilitar Call Data Connector, usará los cmdlets siguientes:
 
 ### <a name="configure-your-environment"></a>Configurar el entorno 
 
-Para configurar el entorno para habilitar un recopilador de datos en línea, primero debe iniciar sesión en PowerShell de Skype Empresarial Online como administrador. Para obtener más información, vea [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+Para configurar el entorno para habilitar un recopilador de datos en línea, primero debe iniciar sesión en Skype Empresarial PowerShell en línea como administrador. Para obtener más información, [vea Manage Skype Empresarial Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
-Hay dos métodos para iniciar sesión en PowerShell de Skype Empresarial Online:
+Hay dos métodos para iniciar sesión en Skype Empresarial PowerShell en línea:
 
-- Desde el Shell de administración de Skype Empresarial Server 2019 (método recomendado)
+- Desde el Skype Empresarial Server de administración de 2019 (método recomendado)
 - Desde otra sesión de PowerShell
 
-#### <a name="log-in-to-skype-for-business-online-powershell-from-the-skype-for-business-server-management-shell-recommended-method"></a>Inicie sesión en PowerShell de Skype Empresarial Online desde el shell de administración de Skype Empresarial Server (método recomendado)
+#### <a name="log-in-to-skype-for-business-online-powershell-from-the-skype-for-business-server-management-shell-recommended-method"></a>Inicie sesión en Skype Empresarial PowerShell en línea desde el shell Skype Empresarial Server administración (método recomendado)
 
 1. Si habilita el conector por primera vez, ejecute el siguiente comando:
 
@@ -71,7 +74,7 @@ Hay dos métodos para iniciar sesión en PowerShell de Skype Empresarial Online:
    ```
 
 
-#### <a name="log-in-to-skype-for-business-online-powershell-from-another-powershell-session-optional-method"></a>Inicie sesión en PowerShell de Skype Empresarial Online desde otra sesión de PowerShell (método opcional)
+#### <a name="log-in-to-skype-for-business-online-powershell-from-another-powershell-session-optional-method"></a>Inicie sesión en Skype Empresarial PowerShell en línea desde otra sesión de PowerShell (método opcional)
 
 1.  Si habilita el conector por primera vez, ejecute el siguiente comando: 
 
@@ -87,7 +90,7 @@ Hay dos métodos para iniciar sesión en PowerShell de Skype Empresarial Online:
 
 El resultado de los comandos anteriores contiene un valor de token, que necesitará al configurar el entorno local de la siguiente manera:
 
-Desde el shell de administración de Skype Empresarial Server, especifique el siguiente comando:
+Desde dentro del shell Skype Empresarial Server administración, especifique el siguiente comando:
 
 ```PowerShell
 Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <token-copied-from-online>
@@ -95,7 +98,7 @@ Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <toke
 
 ### <a name="configure-the-scope"></a>Configurar el ámbito
 
-Puede habilitar Call Data Connector para un sitio determinado o para toda la implementación de Skype Empresarial Server mediante el cmdlet Set-CsCloudCallDataConnectorConfiguration desde el shell de administración de Skype Empresarial Server. Por ejemplo, el siguiente comando habilita Call Data Connector en el ámbito global:
+Puede habilitar Call Data Connector para un sitio determinado o para toda la implementación de Skype Empresarial Server mediante el cmdlet Set-CsCloudCallDataConnectorConfiguration desde el shell de administración Skype Empresarial Server administración. Por ejemplo, el siguiente comando habilita Call Data Connector en el ámbito global:
 
 ```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
@@ -122,9 +125,9 @@ Los valores de la configuración más usada por Call Data Connector se muestran 
 
 ## <a name="disable-call-data-connector"></a>Deshabilitar El conector de datos de llamadas
 
-Deshabilitar El conector de datos de llamadas no desasocia el almacén de supervisión del grupo de servidores front-end, ni desinstala o afecta de otro modo a la base de datos de supervisión back-end. Al deshabilitar Call Data Connector, se detiene que Skype Empresarial Server cargue datos de llamadas en la nube. 
+Deshabilitar El conector de datos de llamadas no desasocia el almacén de supervisión del grupo de servidores front-end, ni desinstala o afecta de otro modo a la base de datos de supervisión back-end. Al deshabilitar El conector de datos de llamadas, Skype Empresarial Server de cargar datos de llamadas a la nube. 
 
-Para deshabilitar Call Data Connector, use el cmdlet Set-CsCloudCallDataConnectorConfiguration desde el shell de administración de Skype Empresarial Server. Por ejemplo, el siguiente comando deshabilita Call Data Connector en el ámbito global estableciendo la propiedad EnableCallDataConnector en $False:
+Para deshabilitar Call Data Connector, use el cmdlet Set-CsCloudCallDataConnectorConfiguration desde el shell Skype Empresarial Server administración. Por ejemplo, el siguiente comando deshabilita Call Data Connector en el ámbito global estableciendo la propiedad EnableCallDataConnector en $False:
 
 ```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
@@ -138,11 +141,11 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>Ver datos locales a través del panel en línea
 
- Una vez habilitado el conector de datos de llamadas, puede ver los datos de llamadas locales en el panel análisis de llamadas o en el Panel de calidad de llamadas, como se describe en [Usar](/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) análisis de llamadas para solucionar problemas de mala calidad y Activar y usar el Panel de calidad de llamadas para Microsoft Teams y [Skype Empresarial Online.](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)
+ Una vez habilitado el conector de datos de llamadas, puede ver los datos de llamadas locales en el panel análisis de llamadas o en el Panel de calidad de llamadas, tal como se describe en [Usar](/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) análisis de llamadas para solucionar problemas de mala calidad y Activar y usar el Panel de calidad de llamadas para Microsoft Teams y [Skype Empresarial Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard).
 
 ## <a name="for-more-information"></a>Más información
 
-Para obtener más información sobre los cmdlets, puede usar el comando Get-Help desde el Shell de administración de Skype Empresarial Server. Por ejemplo:
+Para obtener más información sobre los cmdlets, puede usar el comando Get-Help desde el Shell Skype Empresarial Server administración. Por ejemplo:
 
 Get-Help Get-CsCloudCallDataConnector | más
 

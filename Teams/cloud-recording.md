@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ad5cb2c6bd1abd394d23d68c6636274a6cd1447
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
+ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486150"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53565716"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -179,6 +179,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Quiero que la transcripción de la grabación se deshabilite al 100%. |<ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowTranscription = False. <li>A todos los usuarios se les ha otorgado la CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowTranscription = False. </ol>|
 |Quiero que la transcripción esté deshabilitada para la mayoría de los usuarios, pero permitir de forma selectiva que determinados usuarios puedan transcribir. |<ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowCloudRecording = False. <li>A la mayoría de los usuarios se les ha otorgado la CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False. <li>Todos los demás usuarios tienen asignada una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True. </ol>|
 
+### <a name="terms-of-use-acceptance"></a>Aceptación de los Términos de uso
+Si su organización tiene una directiva de grabación de reuniones que desea que los usuarios acepten antes de grabar una reunión, utilice la función de [Términos de uso de Azure Active Directory.](/azure/active-directory/conditional-access/terms-of-use) Esta característica permite a los usuarios aceptar los términos de la directiva de usuario de su organización antes de obtener acceso a Microsoft Teams. Esta función no es específica para hacer clic en el botón de grabación, sino que está relacionada con el uso de Teams u otras aplicaciones de Microsoft 365 en general. Nuestra sugerencia es agregar la información de grabación de la reunión a los Términos de uso generales para usar Teams o Microsoft 365. 
 
 ## <a name="permissions-and-storage"></a>Permisos y almacenamiento
 
@@ -264,7 +266,7 @@ Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponi
 
 Los subtítulos ayudan a crear contenido inclusivo para espectadores de todas las capacidades. Como propietario, puede ocultar los subtítulos en la grabación de la reunión, aunque la transcripción de la reunión seguirá estando disponible en Teams a menos que la elimine de allí.
 
-En estos momentos, los subtítulos del archivo de vídeo de la grabación están vinculados a la transcripción de la reunión de Teams. En la mayoría de los casos, este vínculo se conservará mientras que el archivo siga existiendo, pero se puede romper si el archivo de vídeo se copia en el mismo OneDrive para la Empresa o sitio de SharePoint Online, lo que provocaría que los subtítulos no estén disponibles en el archivo de vídeo copiado.
+En estos momentos, los subtítulos del archivo de vídeo de la grabación están vinculados a la transcripción de la reunión de Teams. Este vínculo se conservará mientras que el archivo siga existiendo, pero se puede romper si el archivo de vídeo se copia en el mismo OneDrive para la Empresa o sitio de SharePoint Online, lo que provocaría que los subtítulos no estuvieran disponibles en el archivo de vídeo copiado.
 
 Cualquier cambio futuro que se realice en el vínculo entre la transcripción en Teams y la grabación se explica aquí y en las notificaciones del centro de mensajes. Si se realiza cualquier cambio en el futuro, nos aseguraremos de que los archivos de grabación con menos de 60 días de antigüedad muestren la transcripción de la reunión como subtítulos.
 

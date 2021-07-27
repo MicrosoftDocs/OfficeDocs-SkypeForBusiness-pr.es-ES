@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instrucciones para retirar Skype Empresarial Server.
-ms.openlocfilehash: e96c4cd37d09fc62fbfbe34a8b8d61c79ea08289
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: bdd38578d8ee98c26e6515c1cd4baa0ef8a825cf
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454343"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510791"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Eliminar la implementación local de Skype Empresarial
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 En este artículo se describe cómo quitar la implementación Skype Empresarial local. Este es el paso 4 de los siguientes pasos para retirar el entorno local:
 

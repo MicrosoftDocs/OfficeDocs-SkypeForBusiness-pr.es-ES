@@ -1,5 +1,5 @@
 ---
-title: Planeación de la conexión híbrida | Skype Empresarial Server 2019 y Teams
+title: Planear la conectividad híbrida | Skype Empresarial Server 2019 y Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,28 +16,28 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Planee implementar la conectividad híbrida entre Skype Empresarial Server y Teams o Skype Empresarial Online mediante la configuración Skype Empresarial modo híbrido.
+description: Planee implementar la conectividad híbrida entre Skype Empresarial Server y Teams mediante la configuración Skype Empresarial modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: d8f1468d4278c905779a5cbb31e98bd4d0ffa6a4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: acfd94d78609ef3428029832ffaf030ca0f34b64
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509831"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574265"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planear la conectividad híbrida entre Skype Empresarial Server y Teams
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Lea este tema para obtener información sobre cómo planear la conectividad híbrida entre Skype Empresarial Server y Teams (o Skype Empresarial Online hasta el 31 de julio de 2021). Configurar la conectividad híbrida es el primer paso para trasladar el entorno local a la nube.
+Lea este tema para obtener información sobre cómo planear la conectividad híbrida entre Skype Empresarial Server y Teams. Configurar la conectividad híbrida es el primer paso para trasladar el entorno local a la nube.
 
 Si tiene usuarios locales de Skype Empresarial que también usan Teams (en paralelo), estos usuarios no pueden interoperar con los usuarios de Skype Empresarial desde el cliente de Teams, ni comunicarse con los usuarios de las organizaciones federadas desde el cliente de Teams. Para obtener esta funcionalidad en Teams, estos usuarios deben trasladarse de Skype Empresarial local a la nube, lo que requiere configurar el modo híbrido de Skype Empresarial. Además, para obtener la mejor experiencia, estos usuarios deben estar en modo de solo Teams, lo que garantiza que todas las llamadas entrantes y los chats de cualquier usuario aterrice en el cliente de Teams usuario.
 
 También hay que configurar la conectividad híbrida y trasladar a todos los usuarios a la nube antes de que se retire la implementación de Skype Empresarial local.  Con la configuración de conectividad híbrida, puede mover a los usuarios a la nube según la programación y sus necesidades empresariales. Con el enrutamiento directo, puede aprovechar su infraestructura de voz local mientras se desplaza a la nube y después de que se complete la migración.
 
-En este tema se describen los requisitos de infraestructura y sistema que necesitará para configurar la conectividad híbrida entre la implementación local Skype Empresarial Server y Teams o Skype Empresarial Online.
+En este tema se describen los requisitos de infraestructura y del sistema que necesitará para configurar la conectividad híbrida entre la implementación local existente Skype Empresarial Server y Teams.
 
-Después de leer este tema y estar listo para configurar la conectividad híbrida, vea [Configure hybrid connectivity between Skype Empresarial Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md). Los temas de configuración proporcionan instrucciones paso a paso para configurar la conectividad híbrida entre la implementación local y Teams o Skype Empresarial Online.
+Después de leer este tema y estar listo para configurar la conectividad híbrida, vea [Configure hybrid connectivity between Skype Empresarial Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md). Los temas de configuración proporcionan instrucciones paso a paso para configurar la conectividad híbrida entre la implementación local y Teams.
 
 > [!Important]
 > Skype Empresarial Online se retirará el 31 de julio de 2021 después de lo cual el servicio ya no será accesible.  Además, ya no se admite la conectividad RTC entre el entorno local mediante Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
@@ -70,9 +70,9 @@ Los modos de coexistencia seguirán existiendo después de la retirada de Skype 
 
 <a name="BKMK_Overview"> </a>
 
- Con la conectividad híbrida configurada entre una implementación local de Skype Empresarial Server y Teams o Skype Empresarial Online, puede tener algunos usuarios ubicados localmente y algunos usuarios en línea.
+ Con la conectividad híbrida configurada entre una implementación local de Skype Empresarial Server y Teams, puede tener algunos usuarios ubicados localmente y algunos usuarios en línea.
 
-Este tipo de configuración se basa en la funcionalidad de espacio de direcciones SIP compartida y a veces se conoce como "dominio dividido", lo que significa que los usuarios de un dominio, como contoso.com, se dividen entre usar Skype Empresarial Server localmente y Teams o Skype Empresarial Online, como se muestra en el siguiente diagrama:
+Este tipo de configuración se basa en la funcionalidad de espacio de direcciones SIP compartida y a veces se conoce como "dominio dividido", lo que significa que los usuarios de un dominio, como contoso.com, se dividen entre usar Skype Empresarial Server local y Teams, como se muestra en el diagrama siguiente:
 
 ![Skype Empresarial Hybrid: dominio dividido](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
@@ -101,16 +101,16 @@ Para implementar la conectividad híbrida entre el entorno local y Microsoft 365
 - Azure Active Directory Conectar sincronizar el directorio local con Microsoft 365 o Office 365. Para obtener más información, vea [Azure AD Conectar: Cuentas y permisos](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
 - Skype Empresarial Server administrativas. Estos son necesarios para mover usuarios de local a la nube. Estas herramientas deben instalarse en un servidor con acceso a la implementación local y a Internet.
-- Herramientas administrativas en línea. Puede usar el Centro de administración Teams o Windows PowerShell para administrar Teams y Skype Empresarial Online. Para usar PowerShell para administrar Teams o Skype Empresarial Online, descargue e instale el módulo Teams PowerShell. (El Skype Empresarial Online Connector se ha retirado).
+- Herramientas administrativas en línea. Puede usar el Centro de administración Teams o Windows PowerShell para administrar Teams. Para usar PowerShell para administrar Teams, descargue e instale el módulo Teams PowerShell. (El Skype Empresarial Online Connector se ha retirado).
 - El espacio de direcciones SIP compartido debe estar habilitado y la implementación local debe configurarse para usar Microsoft 365 o Office 365 como proveedor de hospedaje. Para obtener más información acerca de los pasos necesarios para configurar la conectividad híbrida, vea [Configure hybrid connectivity](configure-hybrid-connectivity.md).
 
-Después de configurar la conectividad híbrida, puede mover usuarios a Teams o Skype Empresarial Online. Para obtener más información, vea [Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md) and Move users from on premises to Skype Empresarial [Online](move-users-from-on-premises-to-skype-for-business-online.md).
+Después de configurar la conectividad híbrida, puede mover usuarios a Teams. Para obtener más información, vea [Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md).
 
 ## <a name="server-version-requirements"></a>Requisitos de versión del servidor
 
 <a name="BKMK_Topology"> </a>
 
-Para configurar la implementación para híbrido con **Teams o Skype Empresarial Online,** debe tener una de las siguientes topologías admitidas:
+Para configurar la implementación para la implementación híbrida **Teams,** debe tener una de las siguientes topologías admitidas:
 
 - Una implementación de Skype Empresarial Server 2019 con todos los servidores que ejecuten Skype Empresarial Server 2019.
 - Una implementación de Skype Empresarial Server 2015 con todos los servidores que ejecuten Skype Empresarial Server 2015.
@@ -120,7 +120,7 @@ Para configurar la implementación para híbrido con **Teams o Skype Empresarial
   - Lync Server 2013 y Skype Empresarial Server 2019
   - Lync Server 2013 y Skype Empresarial Server 2015
 
-*Si se desea* una voz híbrida en cualquier topología, tanto el servidor perimetral designado como el servidor perimetral de federación como el grupo asociado a la federación SIP deben ejecutarse Skype Empresarial 2015 o posterior. Los usuarios pueden permanecer en un grupo de Lync 2013 si existe uno. Para obtener más información, [vea Plan Sistema telefónico with PSTN Connectivity in Skype Empresarial Server](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
+*Si se desea* una voz híbrida en cualquier topología, tanto el servidor perimetral designado como el servidor perimetral de federación como el grupo asociado a la federación SIP deben ejecutarse Skype Empresarial 2015 o posterior. Los usuarios pueden permanecer en un grupo de Lync 2013 si existe uno. Para obtener más información, vea [Plan your voice solution](/MicrosoftTeams/cloud-voice-landing-page.md).
 
 Las siguientes topologías que incluyen **Lync Server 2010** se admiten con Skype Empresarial Online para mensajería instantánea y reuniones. Las topologías que **incluyen Lync Server 2010 no se** admiten para la voz híbrida ni para Teams .
 

@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo activar y usar el Panel de calidad de llamadas y obtener informes de resumen de la calidad de las llamadas.
-ms.openlocfilehash: c71cb25732a99f207467a988ad0db54c959d15f4
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8c720a9ef99537be517f29a8b558db8912ea6a75
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52254307"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596627"
 ---
-# <a name="set-up-call-quality-dashboard-cqd"></a>Configurar el panel de calidad de llamadas (CQD)
+# <a name="how-to-set-up-call-quality-dashboard"></a>Cómo configurar el panel de calidad de llamadas
 
 Abra el Panel de calidad de llamadas de Microsoft (CQD) en [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (inicie sesión con sus credenciales de administrador). O bien, vaya al centro Teams de administración y seleccione **Panel de calidad de llamadas.** 
 
@@ -51,7 +51,7 @@ Asigne [roles](/microsoft-365/admin/add-users/about-admin-roles) para obtener ac
 Si desea que los usuarios que no son administradores (como ingenieros de soporte técnico y agentes de soporte técnico) usen el Panel de calidad de llamadas, puede asignar a esos usuarios uno de los siguientes roles, lo que da acceso a CQD. 
 
 
-|  |Ver informes  |Ver campos EUII  |Crear informes  |Upload datos de creación  |
+|&nbsp;  |Ver informes  |Ver campos EUII  |Crear informes  |Upload datos de creación  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |Administrador global     |Sí         |Sí         |Sí         |Sí         |
 |Administrador de Teams     |Sí         |Sí         |Sí         |Sí         |

@@ -1,5 +1,5 @@
 ---
-title: Decidir cómo administrar atributos después del desmantelamiento
+title: Decidir cómo administrar atributos después de la retirada
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,14 +21,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: En este artículo se describe cómo administrar atributos después de retirar el entorno local.
-ms.openlocfilehash: 1c862e8c0055fc2eb40efcc7d26bb9a1166ae550
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: d8c61e1a5a76206cadd8ab4ae3ed51de77badc74
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53459008"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510651"
 ---
-# <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Decidir cómo administrar atributos después del desmantelamiento
+# <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Decidir cómo administrar atributos después de la retirada
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 De forma predeterminada, todos los usuarios que se habilitaron anteriormente para Skype Empresarial Server y posteriormente se movieron a la nube todavía tienen atributos msRTCSIP configurados en active directory local. 
 

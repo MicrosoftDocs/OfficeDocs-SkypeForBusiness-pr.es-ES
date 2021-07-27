@@ -1,7 +1,7 @@
 ---
 title: Cómo usa Microsoft Teams la memoria
 author: msdmaguire
-ms.author: dmaguire
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: d218c71a0e3ecdde40559d67e1ad3a408d65a5d9
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: d3e694dcba73cd90b2faa131776210c5d3faf4d5
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878724"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587319"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Cómo usa Microsoft Teams la memoria
 

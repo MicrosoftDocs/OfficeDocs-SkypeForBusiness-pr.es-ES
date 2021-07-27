@@ -15,12 +15,12 @@ description: Use esta guía para Microsoft Teams como su primera Microsoft 365 o
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81ecf9a0f963a1be577149c585424c140df2abd5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 89fb1ac43e199b3c8081735705a7d05bfcae710b
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119359"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587369"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Implementación en Microsoft Teams Primero
 
@@ -113,7 +113,8 @@ Este punto de partida supone que su organización no usa Skype Empresarial o Lyn
 <td><p>Puede crear reuniones internas y externas a través Outlook complemento.</p>
 <p>La capacidad de marcado RTC y de marcado de salida está disponible con las licencias de audioconferencia.</p>
 <p>Teams de calendario requiere Exchange 2016 CU3 Exchange+ local implementado con una implementación híbrida establecida: Crear una implementación híbrida con el Asistente para configuración <a href="/exchange/hybrid-deployment/deploy-hybrid">híbrida.</a> </p>
-<p>Además de Exchange configuración híbrida, establezca Exchange autenticación de OAuth: Configurar la autenticación de OAuth entre Exchange y <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> Exchange Online organizaciones".</p>
+
+Además de la Exchange híbrida, establezca Exchange autenticación de OAuth: Configurar la autenticación de OAuth entre Exchange y [Exchange Online organizaciones.](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help) 
 
 </p></td>
 </tr>
@@ -192,7 +193,7 @@ Este punto de partida supone que su organización usa Skype Empresarial servidor
 <p>La capacidad de marcado RTC y de marcado de salida está disponible con las licencias de audioconferencia.</p>
 <p>Teams acceso de calendario requiere Exchange 2016 CU3+ local implementado con Exchange híbrido establecido:<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">Cree una implementación híbrida con el Asistente para configuración híbrida.</a></p>
-<p>El administrador puede controlar el complemento Skype Empresarial Outlook mediante el atributo PreferredMeetingProviderForIslandsMode de la directiva de reunión de Teams:<a href="/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps"> set-csteamsmeetingpolicy</a>.</p> 
+<p>El administrador puede controlar el complemento Skype Empresarial Outlook mediante el atributo PreferredMeetingProviderForIslandsMode de la directiva de reunión de Teams:<a href="/powershell/module/skype/set-csteamsmeetingpolicy"> set-csteamsmeetingpolicy</a>.</p> 
 </td>
 </tr>
 <tr class="even">

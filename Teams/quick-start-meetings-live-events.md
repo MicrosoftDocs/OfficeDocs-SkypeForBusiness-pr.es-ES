@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66fe753e289cb989b354a27e1f0eccad0d3327ea
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: f7c55d6192c4c3aa8aa9b00def41b998410bcb60
+ms.sourcegitcommit: 3173bb338a4b79f9443941a3def4223360e45f61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506339"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53479057"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Inicio rápido: reuniones, seminarios web y eventos en vivo 
 
@@ -46,27 +46,20 @@ En la tabla siguiente se resumen brevemente los tres tipos de reuniones, el núm
 
 | Tipo de reunión | Número de participantes | Interacción | Registro admitido |
 |----------|--------|--------|-----|
-| Reuniones  | Hasta 20 000* <br> | - Los participantes hasta llegar a 1000 tienen capacidades de reunión totalmente interactivas e idénticas. <br> - Los participantes de 1000 hasta 20 000 tienen capacidades de [solo vista](view-only-meeting-experience.md).  | No |
-| Seminarios web | - Hasta 1000<br>- Próximamente se aumentarán los límites con capacidades de [solo vista](view-only-meeting-experience.md). |- Los participantes hasta llegar a 1000 tienen capacidades de reunión totalmente interactivas. <br> - Interacción de audiencia configurable. <br> - Puede especificar moderadores. | Sí |
-| Eventos en directo | Hasta 20 000** |- Difusión a grandes audiencias. <br>- Preguntas y respuestas moderadas para la interacción del público. <br> - Permite especificar productores y moderadores, incluidos moderadores externos.<br>- Admite funcionalidades de producción más avanzadas. | No |
+| Reuniones  | Hasta 20 000* <br> | - Los participantes hasta llegar a 1000 tienen capacidades de reunión totalmente interactivas e idénticas <br> - Los participantes de más de 1000 hasta 20 000 tienen capacidades de [solo vista](view-only-meeting-experience.md)  | No |
+| Seminarios web | Hasta 20 000* |- Los participantes hasta llegar a 1000 tienen capacidades de reunión totalmente interactivas <br> - Los participantes de más de 1000 hasta 20 000 tienen capacidades de [solo vista](view-only-meeting-experience.md)  <br> - Interacción de audiencia configurable <br> - Puede especificar moderadores | Sí |
+| Eventos en directo | Hasta 20 000** |- Difusión a grandes audiencias <br>- Preguntas y respuestas moderadas para la interacción del público <br> - Permite especificar productores y moderadores, incluidos moderadores externos<br>- Admite funcionalidades de producción más avanzadas | No |
 ||||
 
 *Los 10 000 habituales se incrementan a 20 000 hasta el 31 de diciembre de 2021.<br>
 
 **Los 10 000 habituales se incrementan a 20 000 hasta el 31 de diciembre de 2021. Puede programar reuniones para incluso más asistentes con eventos en directo en Yammer o Microsoft Stream. Para obtener más información, consulte [Eventos en directo en todo Microsoft 365](/stream/live-event-m365).  Tenga en cuenta que los eventos de más de 20 000 asistentes requieren el [Programa de asistencia de eventos en directo](/stream/live-events-assistance). 
 
-**Consideraciones para seminarios web, eventos en directo y reuniones de gran tamaño**: al hospedar reuniones de gran tamaño, tenga en cuenta lo siguiente.
-
-- Para obtener la mejor experiencia con seminarios web, eventos en directo y reuniones de gran tamaño, Microsoft recomienda usar el cliente de escritorio o los clientes móviles de Teams. 
-
-- Los moderadores de seminarios web, eventos en directo y reuniones de gran tamaño deben usar el cliente de escritorio de Teams. 
-
-- Para obtener más consejos sobre cómo organizar reuniones grandes, consulte [Prácticas recomendadas para una reunión grande de equipos](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+Para obtener la mejor experiencia en reuniones grandes, Microsoft recomienda usar el cliente de escritorio o los clientes móviles de Teams. Los moderadores de reuniones grandes deben usar el cliente de escritorio de Teams. Para obtener más consejos sobre cómo organizar reuniones grandes, consulte [Prácticas recomendadas para una reunión grande de equipos](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
 
 Para obtener información sobre la experiencia de reunión de solo vista, vea [Experiencia de reunión de solo vista de Teams](view-only-meeting-experience.md).
 
 Tenga en cuenta que NDI es totalmente compatible con reuniones, seminarios web y eventos en directo, lo que le permite producir la difusión mediante herramientas como OBS y Wirecast. Para más información, vea [Usar tecnología NDI® en Microsoft Teams](use-ndi-in-meetings.md).
-
 
 ### <a name="meetings"></a>Reuniones
 

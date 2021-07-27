@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 07/01/2019
 ms.service: msteams
 audience: admin
+ms.topic: article
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_JourneyFromSfB
@@ -19,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f87375db770db8ef6df85989dd228a4ccb376b02
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec5580e98f22ea597ea7639bdfbc17c7c5104b9f
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515877"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587359"
 ---
 # <a name="teams-in-30"></a>Teams en 30
 <div id="main" class="v2">

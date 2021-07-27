@@ -17,18 +17,18 @@ description: Obtenga información sobre las directivas de grabación de eventos 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8d25f37f94a514b83bd37e44d1b022bac064a839
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: c0f5f089bf4f1a0dc2c28a0b718d89b9200a4676
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739660"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587339"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Directivas de grabación de eventos en directo en Microsoft Teams
 
 Tiene varias opciones para grabar un evento Microsoft Teams en directo. Las opciones de grabación se establecen con directivas de grabación. En este artículo se describen las distintas opciones de configuración.
 
-Las opciones de grabación se establecen con el comando de PowerShell [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps).
+Las opciones de grabación se establecen con el comando de PowerShell [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy).
 
 ## <a name="scheduling-and-option-behaviors"></a>Programación y comportamientos de opciones
 
@@ -48,7 +48,7 @@ Hay dos opciones de organizador al programar una grabación de eventos en direct
 
 Como parte de la directiva de difusión, hay una configuración que puede activar o desactivar para activar o desactivar la grabación de un evento en directo.
 
-|                                 | Grabación disponible para productores y presentadores | Grabación disponible para los asistentes |
+| &nbsp;| Grabación disponible para productores y presentadores | Grabación disponible para los asistentes |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Grabar siempre               | Deshabilitado y seleccionado                                | Habilitado y seleccionado         |
 | Organizador puede grabar o no | Habilitado y seleccionado de forma predeterminada                  | Habilitado y seleccionado de forma predeterminada   |

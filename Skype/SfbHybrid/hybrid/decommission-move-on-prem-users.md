@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Mueva usuarios antes de retirar un Skype Empresarial entorno local.
-ms.openlocfilehash: 992f2dd479e0b8ca8a3f11f069e8ef049259ad9c
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: bc98ebfcfb7ad4d4b2c64942b5f84500a98cdc84
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420815"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510721"
 ---
 # <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>Mover usuarios necesarios antes de retirar el entorno local
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 En este artículo se describe cómo mover los usuarios necesarios a la nube de Microsoft antes de retirar el entorno Skype Empresarial local. Este es el paso 1 de los siguientes pasos para retirar el entorno local:
 
@@ -61,7 +63,7 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 
 Ya está listo para deshabilitar [la configuración híbrida](cloud-consolidation-disabling-hybrid.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Retirar el entorno local de Skype Empresarial](decommission-on-prem-overview.md)
 
