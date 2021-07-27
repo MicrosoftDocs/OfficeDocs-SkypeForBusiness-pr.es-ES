@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2b805f4cfddce18f1fa055b7de96a4afcaa47fb
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: c68965bb658328646b5308ad85092ce23bc0ab02
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684567"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574055"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Usar plantillas generales de equipo en el Centro de administración
 
@@ -34,7 +34,7 @@ Las plantillas de equipo tienen definiciones predefinidas de estructuras de equi
 
 En este artículo, presentamos cada una de las plantillas de equipo y le recomendamos cómo usarlas.
 
-Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda su organización financiera. Ya ha implementado el servicio de Teams en su organización. Si aún no ha Teams, empiece leyendo la página [Cómo](./deploy-overview.md)Microsoft Teams .
+Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización. Ya ha implementado el servicio de Teams en su organización. Si aún no ha Teams, empiece leyendo la página [Cómo](./deploy-overview.md)Microsoft Teams .
 
 Para obtener más información sobre las plantillas de equipo en general, consulte Introducción [a las plantillas de equipo.](get-started-with-teams-templates-in-the-admin-console.md)
 

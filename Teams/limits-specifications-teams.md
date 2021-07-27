@@ -1,7 +1,7 @@
 ---
 title: Límites y especificaciones para Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: microsoftheidi
+ms.author: heidip
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: abff04e9fd51f0d7e399b8619442dbf9e3070c43
-ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
+ms.openlocfilehash: f28e9f1b0fcc4d8855b0c053dbd71ee30cf58747
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53345726"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506349"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -120,14 +120,14 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 
 |Característica     | Límite máximo |
 |------------|---------------|
-|Número de personas en una reunión (pueden chatear y llamar)  | 1000, incluye GCC, GCCH y DoD, pero no A1 (300). **Solo lectura** permite que hasta 20 000 participantes solo para escuchar se unan a una reunión en la que el organizador tenga una licencia para SKU de E3/E5/A3/A5, así como administración pública (GCC, GCC High, DoD). Más información sobre la [Experiencia de solo vista](view-only-meeting-experience.md).<sup>1,2</sup>|
+|Número de personas en una reunión (pueden chatear y llamar)  | 1000, incluye GCC, GCCH y DoD, pero no A1 (300). **Solo lectura** permite que hasta 20 000 participantes solo para escuchar se unan a una reunión en la que el organizador tenga una licencia para SKU de E3/E5/A3/A5, así como administración pública (GCC, GCC High, DoD). La experiencia de solo vista pronto también estará disponible para los seminarios web. Más información sobre la [Experiencia de solo vista](view-only-meeting-experience.md).<sup>1,2</sup>|
 |Cantidad de personas en una llamada de audio o vídeo desde el chat | 20 |
 |Tamaño máximo de archivo de PowerPoint | 2 GB|
 |Teams guarda [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream, que se pueden descargar de forma local | 20 días |
   
-<sup>1</sup> Para obtener la mejor experiencia en reuniones grandes, se recomienda usar el cliente de escritorio de Teams o los clientes móviles de Teams.
+<sup>1</sup> Para obtener la mejor experiencia con seminarios web, eventos en directo y reuniones de gran tamaño, Microsoft recomienda usar el cliente de escritorio o los clientes móviles de Teams.
   
-<sup>2</sup> En reuniones grandes, se recomienda que los ponentes usen el cliente de escritorio de Teams. Para obtener más consejos sobre cómo organizar reuniones grandes, consulte [Prácticas recomendadas para una reunión grande de equipos](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+<sup>2</sup> Los moderadores de seminarios web, eventos en directo y reuniones de gran tamaño deben usar el cliente de escritorio de Teams. Para obtener más consejos sobre cómo organizar reuniones grandes, consulte [Prácticas recomendadas para una reunión grande de equipos](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
   
 > [!NOTE]
 > Las salas para sesión de subgrupo solo se pueden crear en reuniones con menos de 300 asistentes. Además, la creación de salas para sesión de subgrupo en una reunión limita automáticamente el número de asistentes de la reunión a 300. Aconseje a los usuarios finales que no inicien salas para sesión de subgrupo en reuniones en las que esperen más de 300 participantes. Para más información sobre las reuniones de gran tamaño de Teams, comparta las instrucciones [Procedimientos recomendados para reuniones de gran tamaño de Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) con los usuarios finales. 

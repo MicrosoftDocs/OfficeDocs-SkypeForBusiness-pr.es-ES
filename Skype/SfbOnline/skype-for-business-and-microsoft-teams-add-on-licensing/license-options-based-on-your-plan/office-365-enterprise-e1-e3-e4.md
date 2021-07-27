@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre características y licencias adicionales, y cómo comprar planes de Office 365 Enterprise, E1, E3 y E4. '
-ms.openlocfilehash: 54b24f2e3debf58305214bbc48dac56babcfc681
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 44f55fff23a048a85ad220e03a24af58f099833e
+ms.sourcegitcommit: 05b46fc512678f39c345f15f3369e05d9c2efb3d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238478"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53495170"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 y E4
 
@@ -40,8 +40,10 @@ Si ya ha comprado el plan [Office 365 Enterprise E1](https://products.office.com
 |**Audioconferencia** <br/> Compre 1 **licencia de audioconferencia** para cada persona que vaya a programar o hospedar una reunión de acceso telefónico local. Los asistentes no necesitan licencias. <br/> |Complemento de **audioconferencia** <br/>Una vez adquirida la licencia, Microsoft será su proveedor de audioconferencias. |
 |**Números gratuitos para el acceso telefónico a las reuniones y la posibilidad de llamar desde una reunión para agregar a alguien llamando a cualquier número de teléfono del mundo** <br/> |[Créditos de comunicaciones](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**Sistema telefónico** <br/> |1. Complemento del **Sistema telefónico de Office 365** <br/> 2. Planes de llamadas: compre un [plan de llamadas](/MicrosoftTeams/calling-plans-for-office-365) en Office 365. <br/>  O bien, use el [servicio telefónico de su proveedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Correo de voz en la nube** <br/> |Para los planes E1 y E4, adquiera Exchange Online Plan 2. <br/>Alternativamente, cambie a una suite de Office que incluya Exchange Online Plan 2, como Office 365 E3. |
+|**Correo de voz en la nube**<sup>1</sup> <br/> |Para los planes E1 y E4, adquiera Exchange Online Plan 2. <br/>Alternativamente, cambie a una suite de Office que incluya Exchange Online Plan 2, como Office 365 E3. |
 |**Planes de llamadas** <br/> |1. Complemento del **sistema telefónico** <br/> 2. [Plan de llamadas](/MicrosoftTeams/calling-plans-for-office-365): solo puede comprar esto tras adquirir el complemento del **sistema telefónico**. <br/> |
+
+<sup>1</sup> Para usuarios locales. Para obtener más información, vea [Planear Correo de voz en la nube para usuarios locales.](/skypeforbusiness/hybrid/plan-cloud-voicemail)
    
  > [!IMPORTANT]
  > Office 365 Las licencias E4 se han retirado oficialmente. Consulte Información [importante para Office 365 Enterprise E4 clientes para](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) obtener más información.
@@ -71,7 +73,7 @@ El plan E3 forma parte de su Action Pack. Para comprar los complementos de **sis
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>¿Por qué no veo la opción de comprar complementos?
 <a name="bkmk_how"> </a>
 
-En algunas situaciones, no verá la opción de comprar Skype Empresarial complementos en el Microsoft 365 de administración.
+En algunas situaciones, no verá la opción de comprar Skype Empresarial complementos en el Centro de administración de Microsoft 365.
 
 - **Ha comprado Microsoft 365 Empresa Estándar a través de GoDaddy.** En este caso, no podrá comprar complementos de Skype Empresarial. Debe cambiar al plan E3 (que GoDaddy no vende) y, a continuación, puede comprarlos. [Contactar con el soporte técnico para productos empresariales: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

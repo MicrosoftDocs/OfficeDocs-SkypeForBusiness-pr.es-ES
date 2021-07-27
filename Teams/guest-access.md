@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales.
-ms.openlocfilehash: d927c601380223b3381a65e09549a632ed32903e
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598539"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536836"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 
-Con el acceso de invitado, puede proporcionar acceso a equipos, documentos de canales, recursos, chats y aplicaciones a personas que no pertenezcan a la organización, sin perder por ello el control sobre los datos corporativos. Consulte [Configurar la colaboración segura con Microsoft 365 y Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
+Con el acceso de invitado, puede proporcionar acceso a equipos, documentos de canales, recursos, chats y aplicaciones a personas que no pertenezcan a la organización, sin perder por ello el control sobre los datos corporativos. Consulte [Configurar la colaboración segura con Microsoft 365 y Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
 
 > [!NOTE]
 > Si solo quiere buscar, llamar, chatear y configurar reuniones con personas de otras organizaciones, use el [acceso externo](manage-external-access.md).
@@ -40,7 +40,7 @@ Los invitados de Teams están protegidos por los mismos cumplimientos normativos
 La experiencia de invitado tiene limitaciones deliberadamente establecidas. Para obtener una lista completa de qué puede y no puede hacer un invitado en Teams, vea la [comparación entre las funciones de los miembros del equipo y los invitados](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 > [!IMPORTANT]
-> Los invitados siguen la configuración a nivel de organización en Teams para el modo de Actualización en coexistencia. Esto no se puede cambiar.
+> Los invitados siguen la configuración a nivel de organización en Teams para el Modo de actualización en coexistencia.
 
 Para configurar el acceso de invitado, consulte [Colaborar con invitados en un equipo](/microsoft-365/solutions/collaborate-as-team). 
 
@@ -72,10 +72,7 @@ Los invitados pueden dejar el equipo en cualquier momento dentro de Teams. Para 
 
 ## <a name="licensing-for-guest-access"></a>Licencias para el acceso de invitado
 
-El acceso de invitado está incluido en todas las suscripciones de Microsoft 365 Empresa Estándar, Microsoft 365 Enterprise y Microsoft 365 Educación. No se necesita ninguna otra licencia de Microsoft 365. Teams no limita el número de invitados que se pueden agregar. Sin embargo, es posible que el número total de invitados que se pueden agregar a su espacio empresarial esté restringido por las características de pago de Azure AD. Para obtener más información, consulte el [Modelo de facturación para Azure AD External Identities](/azure/active-directory/b2b/licensing-guidance).
-
-> [!NOTE]
-> Los usuarios de la organización que solo tengan planes de suscripción de Microsoft 365 independientes, como Exchange Online (plan 2), no pueden participar como invitados en la organización porque Teams considera que esos usuarios pertenecen a la misma organización. Para que esos usuarios puedan usar Teams, deben tener asignada una suscripción de Microsoft 365 Empresa Estándar, Office 365 Enterprise u Office 365 Educación. 
+El acceso de invitado está incluido en todas las suscripciones de Microsoft 365 Empresa Estándar, Microsoft 365 Enterprise y Microsoft 365 Educación. No se necesita ninguna otra licencia de Microsoft 365. El [modelo de facturación para Azure AD External Identities](/azure/active-directory/b2b/licensing-guidance) se aplica a los invitados de Microsoft 365. Solo las personas fuera de la organización pueden ser invitadas como invitados.
 
 ## <a name="guest-access-reviews"></a>Revisiones de accesos de invitado
 

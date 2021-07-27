@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 76a4d88cc82379911f6f4716f199bb2424328959
-ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
+ms.openlocfilehash: b531f6bb3a6a097f1480b3bcbfc938cdf20a8ec4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53408769"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510351"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams dispositivos certificados
 
@@ -169,6 +169,7 @@ Las siguientes son las últimas Salas de Teams versiones de firmware y aplicacio
 
 | Versión del producto| Fecha de lanzamiento | Microsoft Teams de la aplicación | Portal de empresa versión | Versión del Agente de administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Actualización de 2021 #2A | 15 de julio de 2021  |1449/1.0.96.2021070803|  5.0.5088.0 |   1.0.0.202104280345.product código de versión: 262 |
 | Actualización de 2021 #2 | 28 de junio de 2021  |1449/1.0.96.2021051904|  5.0.5088.0 |   1.0.0.202104280345.product código de versión: 262 |
 | Actualización de 2021 #1A  |12 de mayo de 2021  |1449/1.0.96.2021042903 |5.0.4927.0     |1.0.0.202010121132.product código de versión: 223 |
 | Actualización de 2021 #1  |5 de abril de 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product código de versión: 223 |
@@ -182,6 +183,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware | Versión de producto incluida |
 |:--------------|:-----------------|:-------------------------|
+| AudioCodes RXV80 |1.13.356   | Actualización de 2021 #2 |
 | Yealink VC210 |118.15.0.54   | Actualización de 2021 #2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | Actualización de 2021 #2    |
 | Yealink MeetingBar A30 | 133.15.0.60    | Actualización de 2021 #2    |

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b462488bd9faa1ef52e2e610a0ed7892898018
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6071d567972babbe16bae8ce00852be713199ef0
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809080"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586989"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Mensajes de correo electrónico de ejemplo y encuestas para actualizar las comunicaciones básicas
 
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indique qué aptitudes tiene para realizar las siguientes actividades en Teams y si hay una o más actividades sobre las que le gustaría obtener más información.
 
-| &nbsp; | Muy cualificado | Algo cualificado | No está capacitado para nada | Desea obtener más información | N/D | No está seguro o no está familiarizado | | | | |
+| &nbsp; | Muy cualificado | Algo cualificado | No está capacitado para nada | Desea obtener más información | N/D | No está seguro o no está familiarizado |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Usar Teams mensajería instantánea o chatear con otras personas | | | | | | | | | | |
 | Usar Teams para reuniones en línea | | | | | | | | | | |

@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f86d40772eb067a561708c6170ef2354bae521b
-ms.sourcegitcommit: 05411575d07d3eadc79d872d1cf81b36aae25621
+ms.openlocfilehash: c1e7391163ec41d385b99cab4ae6d135892284e2
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52479077"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536736"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación Walkie Talkie en Microsoft Teams
 
 La aplicación Walkie Talkie de Teams proporciona una comunicación instantánea push-to-talk (PTT) para su equipo y ahora está disponible en Android. Walkie Talkie permite a los usuarios conectarse con su equipo con los mismos canales subyacentes de los que son miembros. Solo los usuarios que se conectan a Walkie Talkie en un canal se convierten en participantes y pueden comunicarse entre sí mediante push-to-talk, de uno en uno.
 
-Con Walkie Talkie en Teams, los trabajadores de Frontline ahora pueden comunicarse de forma segura con una experiencia PTT familiar sin tener que llevar radios voluminosos, y Walkie Talkie funciona en cualquier lugar con conexión WiFi o conexión a Internet móvil.
+Con Walkie Talkie en Teams, los trabajadores de primera línea ahora pueden comunicarse de forma segura con una experiencia de PTT familiar sin necesidad de llevar radios abultantes, y Walkie Talkie funciona en cualquier lugar con conexión a Internet WiFi o telefonía móvil.
 
 ## <a name="getting-started"></a>Introducción
 
@@ -96,7 +96,7 @@ La aplicación Walkie Talkie se incluye en todas las licencias de pago de Teams 
 ## <a name="further-information"></a>Más información
 
 - Los administradores de IT pueden mantener el control sobre quién usa Walkie Talkie a través de directivas de aplicaciones.
-- Si el trabajador de Frontline usa datos móviles para comunicarse Teams, Walkie Talkie usará el mismo método.
+- Si el trabajador de primera línea usa datos móviles para comunicarse Teams, Walkie Talkie usará el mismo método.
 - Walkie Talkie debe funcionar bien en situaciones de ancho de banda bajos o situaciones en las que el smartphone está conectado y funcionando. Walkie Talkie no funcionará cuando no haya ninguna conectividad.
 
 Para obtener más información sobre la experiencia del usuario final, vea:

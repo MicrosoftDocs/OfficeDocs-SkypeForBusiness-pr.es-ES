@@ -20,15 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38202fcbb4c2147baae3f745bc2455da6fdff3e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d65f94b3f1e71a59ac2debc04828c5fa25f000f7
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093940"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587009"
 ---
-<a name="deploy-microsoft-teams-for-surface-hub"></a>Implementar Microsoft Teams para Surface Hub
-======================================
+# <a name="deploy-microsoft-teams-for-surface-hub"></a>Implementar Microsoft Teams para Surface Hub
 
 Antes de instalar Teams para Surface Hub, asegúrese de hacer lo siguiente:
 

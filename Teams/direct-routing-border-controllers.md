@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: El administrador puede obtener información sobre qué controladores de borde de sesión (SBC) se han certificado para enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 33df0f9d00d0c02d28c5f69ef26ae151586803d2
-ms.sourcegitcommit: 9b794b579e57d478e5e4bd76b8ca79fdea6f90c4
-ms.translationtype: MT
+ms.openlocfilehash: af721c97d809204eacc897c09a6f504a0d6d5722
+ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53465388"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53482333"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -93,7 +93,7 @@ Si tiene alguna pregunta sobre el programa de certificación SBC para enrutamien
 |                     [M5 Technologies (anteriormente conocido como Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Serie Centinela de Mediatrix   |     &#10004;     |         |      DGW 48.0.2340 (DGW recomendado 48.1.2503)      |     |    |
 |                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Controlador de borde de sesión de Ekinops (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
 |                     |    Controlador de borde de sesión virtual de Ekinops (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
-|                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Voz hiperconvergida   |     &#10004;     |         |      HCVoice 1.0.6       |     |    |
+|                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Voz hiperconvergida   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
 
 <br/>
 

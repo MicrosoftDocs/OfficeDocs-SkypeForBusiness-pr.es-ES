@@ -1,5 +1,5 @@
 ---
-title: Teams caso práctico de Contoso de voz
+title: 'Teams caso práctico de Contoso de voz: Enrutamiento basado en ubicación'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams caso de voz para empresas multinacionales
+description: 'Teams caso de voz para la corporación multinacional: Enrutamiento basado en la ubicación'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ba92794b2ba17cc23e1bca55800c9307707636
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: b9c63cfc4df61303ce5181c09e7e8b949ffb51b1
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786073"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587159"
 ---
 # <a name="contoso-case-study-location-based-routing"></a>Caso práctico de Contoso: Location-Based enrutamiento
 
@@ -47,11 +47,11 @@ En los diagramas siguientes se muestran las implementaciones antes y después de
 
 **Implementación original**
 
-![Diagrama que se muestra antes del estado](media/voice-case-study-5.png)
+![Diagrama que se muestra antes del estado.](media/voice-case-study-5.png)
 
 **Implementación con enrutamiento directo**
 
-![Diagrama que se muestra antes del estado](media/voice-case-study-6.png)
+![Diagrama 2 que se muestra antes del estado.](media/voice-case-study-6.png)
 
 
 ## <a name="configuration"></a>Configuración: 

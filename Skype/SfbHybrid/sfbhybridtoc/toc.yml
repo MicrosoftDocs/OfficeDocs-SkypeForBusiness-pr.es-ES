@@ -5,7 +5,7 @@
     - name: Configurar conectividad híbrida
       href: ../hybrid/configure-hybrid-connectivity.md
       items:
-        - name: "Configurar Azure\_AD\_Connect para entornos híbridos"
+        - name: Configurar Azure AD Connect para entornos híbridos
           href: ../hybrid/configure-azure-ad-connect.md
         - name: Configurar Skype Empresarial híbrido
           href: ../hybrid/configure-federation-with-skype-for-business-online.md
@@ -26,8 +26,14 @@
           href: ../hybrid/decommission-on-prem-overview.md
         - name: Mover usuarios a la nube
           href: ../hybrid/decommission-move-on-prem-users.md
-        - name: Deshabilitar la implementación híbrida para completar la migración a la nube
-          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: Deshabilitar híbrido para completar la migración solo a Teams
+          items:
+            - name: Deshabilitar híbrido para completar la migración solo a Teams
+              href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+            - name: Actualizar entradas DNS
+              href: ../hybrid/decommission-manage-dns-entries.md
+            - name: Decidir cómo administrar atributos después de la retirada
+              href: ../hybrid/cloud-consolidation-managing-attributes.md
         - name: Mover puntos de conexión de aplicaciones a la nube
           href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: Eliminar la implementación local de Skype Empresarial

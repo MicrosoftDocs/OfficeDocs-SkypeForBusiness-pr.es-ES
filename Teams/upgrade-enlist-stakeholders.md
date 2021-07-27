@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81a20980530f28f20fb48fa06a2068088dc1a305
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 8fc726dbe05358844c23a3ee90a8885e8b97f54d
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282527"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586969"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Incorporar a las partes interesadas del proyecto
 
@@ -40,7 +40,7 @@ Desde implementar entregas de proyectos hasta impulsar la rendición de cuentas,
 
 Opcionalmente, puede crear un comité de dirección. A veces, proyectos grandes o más complejos terminan con "demasiados cocineros en la cocina", lo que provoca desconexiones entre los grupos de partes interesadas. Para estos proyectos, es posible que desee formar un comité de dirección. Un comité de dirección es responsable de impulsar decisiones, proporcionar supervisión estratégica, apoyar las iniciativas del proyecto y, cuando sea necesario, eliminar bloqueadores. Encontrará más información sobre cómo implementar un comité de dirección en la [guía del comité de dirección.](./envision-steering-committee-complete-guide.md)
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión | <ul><li>Quién Son las personas correctas para servir como su equipo de partes interesadas para este proyecto?</li></ul> |
 | ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Tenga en cuenta el ámbito del proyecto y asigne las partes interesadas relevantes.</li><li>Use la tabla siguiente como guía, pero tenga en cuenta que esta lista no es todo incluido.<br><strong>Sugerencia</strong><br>Cree una matriz responsable-responsable-consultada-informada [(RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para distinguir aún más a los que serán responsables de aquellos que simplemente necesitan mantenerse informados en un área específica del proyecto.</li> |
@@ -63,7 +63,7 @@ Opcionalmente, puede crear un comité de dirección. A veces, proyectos grandes 
 | Responsable de telefonía | Proporciona información sobre el diseño y la implementación de telefonía |
 | Propietario del servicio/ Campeón de calidad | Es el propietario del funcionamiento de Teams todo, incluida la calidad de la experiencia del usuario |
 | Cliente potencial de escritorio y dispositivos | Proporciona información sobre clientes, dispositivos y aplicaciones de escritorio |
-| Administrador de Pro de ti/inquilino | Garantiza la preparación de la red y Microsoft 365 configuraciones del Centro de administración están en su lugar |
+| Administrador de Pro de ti/inquilino | Garantiza la preparación de la red y Centro de administración de Microsoft 365 configuraciones están en su lugar |
 | Responsable del servicio de asistencia y soporte técnico | Administra la preparación de su servicio de soporte técnico |
 | Cliente potencial de administración de cambios | Supervisa la administración de cambios de usuario y el programa de adopción |
 | Cliente potencial de marketing | Diseña e implementa campañas de comunicaciones |

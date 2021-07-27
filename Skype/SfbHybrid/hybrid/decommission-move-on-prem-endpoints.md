@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Migre los puntos de conexión de la aplicación hirid antes de retirar Skype Empresarial entorno local.
-ms.openlocfilehash: 7315ee807bb79b9186cd92ccc19074021b2fcfa1
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: ee437f7f6c35ee67168c81e8e8ad440b1b0ba824
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420805"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574245"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Migrar puntos de conexión de aplicaciones híbridas antes de retirar el entorno local
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 En este artículo se describe cómo mover puntos de conexión de aplicación híbrida necesarios a la nube de Microsoft antes de retirar el entorno Skype Empresarial local. Este es el paso 3 de los siguientes pasos para retirar el entorno local:
 
@@ -55,7 +57,7 @@ Para poder mover estos puntos de conexión a línea, debe asegurarse de que ha a
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. Dado que es posible que los números de teléfono de estas cuentas se administraron en Microsoft 365 en lugar de local, ejecute el siguiente comando en Skype Empresarial PowerShell en línea:
+5. Dado que es posible que los números de teléfono de estas cuentas se administraron en Microsoft 365 en lugar de local, ejecute el siguiente comando en Teams PowerShell:
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
@@ -79,7 +81,7 @@ Para poder mover estos puntos de conexión a línea, debe asegurarse de que ha a
    ```
 Ya está listo para [quitar la implementación Skype Empresarial local.](decommission-remove-on-prem.md)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Retirar el entorno local de Skype Empresarial](decommission-on-prem-overview.md)
 

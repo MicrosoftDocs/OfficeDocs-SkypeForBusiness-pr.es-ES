@@ -1,5 +1,5 @@
 ---
-title: Teams caso práctico de Contoso de voz
+title: 'Caso práctico de Contoso: Sistema telefónico para una corporación multinacional'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,17 +13,17 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams caso de voz para empresas multinacionales
+description: 'Teams caso de voz para la corporación multinacional: sistema telefónico'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995b4ddf9c07dea57c8d4de9940776d5137c2d02
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ee15ef9bb42a28023c86963dd9100797c51edc3
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101036"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587149"
 ---
-# <a name="contoso-case-study-phone-system"></a>Caso práctico de Contoso: Sistema telefónico
+# <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Caso práctico de Contoso: Sistema telefónico para una corporación multinacional
 
 Según la ubicación geográfica y otros factores, Contoso tenía oficinas con las siguientes soluciones de telefonía:
 
@@ -54,17 +54,17 @@ Los hábitos de marcado del usuario eran marcar a un usuario en el sistema de te
 
 Contoso basó su decisión en las siguientes preguntas:
 
-- P. ¿Necesitamos conservar la funcionalidad proporcionada por nuestra implementación local?<br>
+- Q. ¿Necesitamos conservar la funcionalidad proporcionada por nuestra implementación local?<br>
   A. No 
 
-- P. ¿Necesitamos interoperar con sistemas PBX de terceros y otros equipos de telefonía?<br>
+- Q. ¿Necesitamos interoperar con sistemas PBX de terceros y otros equipos de telefonía?<br>
   A. No 
 
-- P. ¿Necesitamos conservar nuestro operador de terceros actual?<br> A. Sí (países regulados) y No 
+- Q. ¿Necesitamos conservar nuestro operador de terceros actual?<br> A. Sí (países regulados) y No 
 
-- P. ¿Necesitamos implementar el ROI en SBC?<br> A. Sí y No  
+- Q. ¿Necesitamos implementar el ROI en SBC?<br> A. Sí y No  
 
-- P. ¿Los planes de llamadas RTC de Microsoft están disponibles en esta región?<br> A. Sí y No 
+- Q. ¿Los planes de llamadas RTC de Microsoft están disponibles en esta región?<br> A. Sí y No 
 
 En función de las respuestas a sus preguntas, Contoso decidió:
 
@@ -74,7 +74,7 @@ En función de las respuestas a sus preguntas, Contoso decidió:
 
 En el siguiente diagrama se muestran las Skype Empresarial Telefonía IP empresarial iniciales y cómo se ha migrado esta implementación a planes de llamadas de Microsoft y enrutamiento directo:
 
-![Diagrama que muestra los estados antes y después](media/voice-case-study-1.png)
+![Diagrama muestra los estados antes y después.](media/voice-case-study-1.png)
 
 ## <a name="site-type-b-traditional-legacy-telephony-systems"></a>Tipo de sitio B: Sistemas de telefonía heredados tradicionales
 
@@ -82,14 +82,14 @@ Contoso tenía muchas oficinas que aprovechaban sistemas de telefonía heredados
 
 Contoso basó su decisión en las siguientes preguntas:
 
-- P. ¿Necesitamos conservar la funcionalidad proporcionada por nuestra implementación local?<br>
+- Q. ¿Necesitamos conservar la funcionalidad proporcionada por nuestra implementación local?<br>
   A. No 
 
-- P. ¿Necesitamos interoperar con sistemas PBX de terceros y otros equipos de telefonía?<br> A. Sí
+- Q. ¿Necesitamos interoperar con sistemas PBX de terceros y otros equipos de telefonía?<br> A. Sí
 
-- P. ¿Necesitamos conservar nuestro operador de terceros actual?<br> A. No 
+- Q. ¿Necesitamos conservar nuestro operador de terceros actual?<br> A. No 
 
-- P. ¿El Plan de llamadas RTC de Microsoft está disponible en nuestra región?<br> A. Sí y No 
+- Q. ¿El Plan de llamadas RTC de Microsoft está disponible en nuestra región?<br> A. Sí y No 
 
 En función de las respuestas a sus preguntas, Contoso decidió: 
 
@@ -102,12 +102,12 @@ En función de las respuestas a sus preguntas, Contoso decidió:
 En los diagramas siguientes se muestra la implementación original del sistema heredado con sitios remotos y la migración a una implementación de enrutamiento directo con optimización de medios locales:
 
 **Implementación heredada original**  
- ![ Diagrama que muestra los estados antes y después](media/voice-case-study-2.png)
+ ![ Un diagrama muestra los estados antes y después.](media/voice-case-study-2.png)
 
 
 **Implementación con enrutamiento directo**
 
-![Diagrama que muestra los estados antes y después](media/voice-case-study-3.png)
+![Un diagrama que muestra los estados antes y después.](media/voice-case-study-3.png)
  
 ## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>Tipo de sitio C: Combinación de Skype Empresarial Telefonía IP empresarial y sistemas de telefonía heredados tradicionales
 
@@ -115,16 +115,16 @@ Contoso Skype Empresarial Telefonía IP empresarial los números de los usuarios
 
 Contoso basó su decisión en las siguientes preguntas:
 
-- P. ¿Necesitamos conservar la funcionalidad proporcionada por nuestra implementación local?<br>
+- Q. ¿Necesitamos conservar la funcionalidad proporcionada por nuestra implementación local?<br>
   A. No 
 
-- P. ¿Necesitamos interoperar con sistemas PBX de terceros y otros equipos de telefonía?<br> A. No 
+- Q. ¿Necesitamos interoperar con sistemas PBX de terceros y otros equipos de telefonía?<br> A. No 
 
-- P. ¿Necesitamos conservar nuestro operador de terceros actual?<br> A. No 
+- Q. ¿Necesitamos conservar nuestro operador de terceros actual?<br> A. No 
 
-- P. ¿Necesitamos implementar el ROI en SBC?<br> A. Sí y No  
+- Q. ¿Necesitamos implementar el ROI en SBC?<br> A. Sí y No  
 
-- P. ¿El Plan de llamadas RTC de Microsoft está disponible en esta región?<br> A. No 
+- Q. ¿El Plan de llamadas RTC de Microsoft está disponible en esta región?<br> A. No 
 
 En función de las respuestas a sus preguntas, Contoso decidió lo siguiente: 
 
@@ -137,21 +137,21 @@ En función de las respuestas a sus preguntas, Contoso decidió lo siguiente:
 Los diagramas siguientes muestran la implementación original Skype Empresarial Telefonía IP empresarial sistema de telefonía heredado y la migración a una implementación mixta mediante enrutamiento directo:
 
 **Implementación mixta original** 
- ![ Diagrama que se muestra antes del estado](media/voice-case-study-4.png)
+ ![ Diagrama 1 que muestra el estado anterior.](media/voice-case-study-4.png)
 
 **Implementación mixta con enrutamiento directo** 
- ![ Diagrama que se muestra antes del estado](media/voice-case-study-4a.png)
+ ![ Diagrama 2 que muestra el estado anterior.](media/voice-case-study-4a.png)
 
 
 ## <a name="calling-plans"></a>Planes de llamadas
 
 Para determinar los requisitos de configuración de los planes de llamadas, Contoso revisó las decisiones de implementación [principales del plan de llamadas.](calling-plan-landing-page.md#core-deployment-decisions) Se tomaron las decisiones resultantes: 
 
-- P. ¿Mis usuarios necesitan llamadas internacionales?<br> A. Sí 
+- Q. ¿Mis usuarios necesitan llamadas internacionales?<br> A. Sí 
 
-- P. ¿Mis usuarios tienen cada uno un número de teléfono did directo hacia adentro?<br> A. Hoy no. Todos los usuarios habilitados recibirán un DID. 
+- Q. ¿Mis usuarios tienen cada uno un número de teléfono did directo hacia adentro?<br> A. Hoy no. Todos los usuarios habilitados recibirán un DID. 
 
-- P. ¿Quiero enmascarar o deshabilitar el identificador de llamada?<br> A. El identificador de llamada de un usuario se enmascarará con el número local de Contoso. 
+- Q. ¿Quiero enmascarar o deshabilitar el identificador de llamada?<br> A. El identificador de llamada de un usuario se enmascarará con el número local de Contoso. 
 
 
 ## <a name="direct-routing"></a>Enrutamiento directo

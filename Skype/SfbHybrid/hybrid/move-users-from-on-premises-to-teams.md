@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumen: obtenga información sobre cómo migrar la configuración de usuario y mover usuarios a Teams.'
-ms.openlocfilehash: b9b21dafc2290dfff5522f5d54c0872121294dd9
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 1df8c617d40b88813074319d7eb041995ff71ca5
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856309"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509781"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover usuarios locales a Microsoft Teams
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Cuando un usuario se mueve de local a solo Teams, la casa de Skype Empresarial del usuario se mueve de local Skype Empresarial en línea y se le asigna TeamsUpgradePolicy con mode=TeamsOnly.  Una vez que un usuario se mueve del modo local al modo TeamsOnly:
 

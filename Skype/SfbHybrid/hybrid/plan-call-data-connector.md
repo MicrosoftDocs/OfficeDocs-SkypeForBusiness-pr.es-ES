@@ -12,16 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Introducción al uso de Skype Empresarial de telemetría en línea para supervisar una implementación local en un escenario híbrido.
-ms.openlocfilehash: 7b6076224280446b7fc52c505fe5fc3ab8d41be4
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 5d14e5000b18680592084c45c798f7eead82a917
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856359"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509771"
 ---
 # <a name="plan-call-data-connector"></a>Plan del conector de datos de llamada
 
 ## <a name="overview"></a>Información general
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 En este tema se describen las ventajas, consideraciones de planeación y requisitos para implementar Skype Empresarial Server Call Data Connector. Para obtener más información sobre la configuración de Call Data Connector, vea [Configure Call Data Connector](configure-call-data-connector.md).
 

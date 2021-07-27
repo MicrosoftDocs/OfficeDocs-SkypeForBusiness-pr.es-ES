@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las Microsoft Teams de voz en la nube y las decisiones de implementación que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95b8f60f9d664432fbb68c48ee61d6f26902eeae
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: ad80bbdaa5a51540d8444ca97fa72c087f2f1763
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354386"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486130"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear su Teams de voz 
 
@@ -61,7 +61,7 @@ Sin embargo, es posible que su situación sea más compleja. Por ejemplo, es pos
 | Obligatorio para todos | Descripción |
 | :------------|:-------|
 | [**Sistema telefónico**](#phone-system) | Tecnología de Microsoft para habilitar el control de llamadas y las capacidades de Exchange de sucursales privadas (PBX) en la nube Microsoft 365 con Microsoft Teams. |
-| [**Opciones de conectividad de red telefónica conmutada (RTC)**](#public-switched-telephone-network-connectivity-options) | Una opción entre usar Microsoft como operador de telefonía o conectar su propio operador de telefonía a Microsoft Teams mediante enrutamiento directo u operador Conectar. Combinadas Sistema telefónico, las opciones de conectividad RTC permiten a los usuarios realizar llamadas telefónicas en todo el mundo.|
+| [**Opciones de conectividad de red telefónica conmutada (RTC)**](#public-switched-telephone-network-connectivity-options) | Una opción entre usar Microsoft como operador de telefonía o conectar su propio operador de telefonía a Microsoft Teams mediante operador Conectar o enrutamiento directo. Combinadas Sistema telefónico, las opciones de conectividad RTC permiten a los usuarios realizar llamadas telefónicas en todo el mundo.|
 
 **Según sus requisitos.** Algunas de las secciones de este artículo y artículos relacionados son pertinentes en función de la implementación y los requisitos existentes. Por ejemplo, Location-Based enrutamiento directo solo es necesario para los clientes de Enrutamiento directo en ubicaciones geográficas que no permiten la omisión de peaje.
 
@@ -143,9 +143,9 @@ Sistema telefónico proporciona funcionalidades de PBX completas para su organiz
 
 - [**Sistema telefónico con Plan de llamadas**](pstn-connectivity.md#phone-system-with-calling-plan). Una solución todo en la nube con Microsoft como operador rtc.
 
-- [**Sistema telefónico con su propio operador RTC**](pstn-connectivity.md#phone-system-with-direct-routing) mediante enrutamiento directo para conectar su entorno local a Teams.
-
 - [**Sistema telefónico con su propio**](operator-connect-plan.md)operador RTC mediante operador Conectar , que actualmente solo está disponible en **versión preliminar pública.**  Con Operador Conectar, si el operador existente es un participante en el programa operador de Microsoft Conectar, pueden administrar el servicio para llevar llamadas RTC a Teams. Para obtener información sobre las ventajas y requisitos de Operador Conectar y para obtener una lista de operadores que participan en este programa, vea [Plan operador Conectar](operator-connect-plan.md).
+
+- [**Sistema telefónico con su propio operador RTC**](pstn-connectivity.md#phone-system-with-direct-routing) mediante enrutamiento directo para conectar su entorno local a Teams.
 
 También puede elegir una combinación de opciones, que le permite diseñar una solución para un entorno complejo o administrar una migración de varios pasos (más información sobre la migración más adelante).
 

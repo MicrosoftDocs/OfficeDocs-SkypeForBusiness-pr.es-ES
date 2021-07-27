@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Planee implementar la conectividad híbrida entre Skype Empresarial Server y Teams o Skype Empresarial Online mediante la configuración Skype Empresarial modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 277e592df24a03f50d09ebca21bad0211e6c8c57
-ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
+ms.openlocfilehash: d8f1468d4278c905779a5cbb31e98bd4d0ffa6a4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53437657"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509831"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planear la conectividad híbrida entre Skype Empresarial Server y Teams
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Lea este tema para obtener información sobre cómo planear la conectividad híbrida entre Skype Empresarial Server y Teams (o Skype Empresarial Online hasta el 31 de julio de 2021). Configurar la conectividad híbrida es el primer paso para trasladar el entorno local a la nube.
 

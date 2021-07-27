@@ -21,22 +21,22 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 889c3f4149489f6bcea44acde93d897a7f2e50e1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d4901258f7e0422b373553beba509bdfa0673d96
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092558"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536716"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 
-Teams proporciona a los trabajadores de Frontline de su organización las herramientas que necesitan para comunicarse y colaborar de forma eficaz. En este artículo se muestra cómo configurar y administrar. Turnos y use la herramienta de administración de programación en Teams.
+Teams proporciona a los trabajadores de primera línea de su organización las herramientas que necesitan para comunicarse y colaborar de forma eficaz. Vea los siguientes recursos para obtener más información sobre cómo configurar y administrar Turnos, la herramienta de administración de programación en Teams.
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Configurar y administrar turnos para su organización
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Administrar turnos en su organización](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![diseño](../media/Help-small.svg)  | **[Ayuda de Turnos para los trabajadores de primera línea](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Administrar turnos en su organización](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![diseño](../media/Help-small.svg)  | **[Ayuda de turnos para los trabajadores de primera línea](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Extensiones de turnos
 

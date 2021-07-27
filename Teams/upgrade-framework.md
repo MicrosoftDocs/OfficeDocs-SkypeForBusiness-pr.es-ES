@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78215457177689b549112a19a9477fdd01c91de2
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: d0184198d7e419642a582f8642b312238900f1f8
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282517"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586999"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 
@@ -55,7 +55,7 @@ Para ayudar a demostrar cómo podría desarrollarse el viaje de actualización, 
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Plan: Cree un plan de actualización para asegurarse de que su organización está configurada para el éxito a largo plazo
 
-| Paso |  | Resumen | Recurso |
+| Paso |&nbsp;| Resumen | Recurso |
 |------|--|---------|----------|
 | **1** | **Definir las partes interesadas** | Asigne a los miembros del equipo del proyecto responsables de impulsar el éxito de la actualización. | [Enliste a las partes interesadas](upgrade-enlist-stakeholders.md) |
 | **2** | **Definir la visión y el ámbito del proyecto** | Diseñe su visión "global" y el ámbito actual del proyecto para crear un plan para su viaje de actualización. | [Project visión](upgrade-define-project-scope.md#project-vision) <br> <br>[Project de datos](upgrade-define-project-scope.md#project-scope) |
@@ -67,7 +67,7 @@ Para ayudar a demostrar cómo podría desarrollarse el viaje de actualización, 
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>Preparar: Evalúe la preparación de su organización para Teams
 
-| Paso |  | Resumen | Recurso |
+| Paso |&nbsp;  | Resumen | Recurso |
 |------|--|---------|----------|
 | **1** | **Evaluar su entorno y completar Teams incorporación técnica** | Asegúrese de que su entorno está listo Teams para ayudar a optimizar la experiencia del usuario y facilitar la actualización a lo largo del tiempo. | [Evalúe su entorno antes de actualizar a Teams](upgrade-plan-journey-evaluate-environment.md).<br><br> [Preparar el servicio para actualizar a Teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **Optimizar la red para Teams, especialmente para escenarios multimedia en tiempo real** | Si va a implementar audio, vídeo o reuniones, siga estos pasos adicionales para optimizar la red para esa funcionalidad. | [Preparar la red para actualizar a Teams](prepare-network.md) |
@@ -78,7 +78,7 @@ Para ayudar a demostrar cómo podría desarrollarse el viaje de actualización, 
 
 ### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>Piloto: Ejecute un piloto para confirmar que su organización está lista e informar de su viaje óptimo para Teams
 
-| Paso |  | Resumen | Recurso |
+| Paso | &nbsp; | Resumen | Recurso |
 |------|--|---------|----------|
 | **1** | **Esquema de logística piloto** | Defina la logística piloto formal para ayudar a validar la preparación de su organización para actualizar o coexistir. | [Esquema de logística piloto](pilot-essentials.md#1-outline-pilot-logistics) |
 | **2** | **Seleccionar los participantes piloto y escenarios de prueba** | Identifique usuarios que pueden ayudar a validar escenarios de trabajo en equipo y comprobar Teams preparación. | [Seleccionar los participantes piloto y escenarios de prueba](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
@@ -89,7 +89,7 @@ Para ayudar a demostrar cómo podría desarrollarse el viaje de actualización, 
 
 ### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>Implementar: Ejecute Teams en coexistencia con Skype Empresarial
 
-| Paso |  | Resumen | Recurso |
+| Paso |&nbsp;  | Resumen | Recurso |
 |------|--|---------|----------|
 | **1** | **Anunciar el lanzamiento oficial de Teams** | Genere emoción e impulso enviando un anuncio de lanzamiento oficial cuando Teams esté listo. | [Kit de éxito de actualización](https://aka.ms/UpgradeSuccessKit) |
 | **2** | **Implementar la actualización** | Los pasos que siga dependen de la implementación actual de Skype Empresarial. | [Implementar la actualización](upgrade-to-teams.md) |
@@ -102,7 +102,7 @@ Para ayudar a demostrar cómo podría desarrollarse el viaje de actualización, 
 
 ### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>Actualizar: Implemente la actualización de Skype Empresarial a Teams
 
-| Paso |  | Resumen | Recurso |
+| Paso |&nbsp;  | Resumen | Recurso |
 |------|--|---------|----------|
 | **1** | **Confirme que ha completado las actividades anteriores a la actualización descritas anteriormente** | Ayude a garantizar el éxito de la actualización confirmando la finalización de todas las actividades de planificación y preparación. | Todo lo anterior |
 | **2** | **Iniciar comunicaciones a usuarios del primer grupo de actualización** | Notifique a los usuarios que las actualizaciones se están iniciando y manténlas informadas durante todo el proceso. | [Preparar un plan de preparación del usuario](upgrade-user-readiness.md) <br><br> [Kit de éxito de actualización](https://aka.ms/UpgradeSuccessKit) |
@@ -116,7 +116,7 @@ Para ayudar a demostrar cómo podría desarrollarse el viaje de actualización, 
 
 ### <a name="operate-measure-the-success-of-your-upgrade"></a>Operar: Medir el éxito de la actualización
 
-| Paso |  | Resumen | Recurso |
+| Paso | &nbsp; | Resumen | Recurso |
 |------|--|---------|----------|
 | **1** | **Evaluar el éxito inicial de la actualización** | Evalúe el progreso con los objetivos establecidos en la fase previa a la actualización. | [Project objetivos](upgrade-define-project-scope.md#project-goals) |
 | **2** | **Implementar un plan de mitigación para los objetivos que no están en el buen camino** | Defina estrategias de mitigación o corrección del curso para los objetivos que no se están cumplindo. | [Project objetivos](upgrade-define-project-scope.md#project-goals) |

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6ad3c5062a96a4becff32136c551a3247aa660f
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 949c3189b80e9843b4b256f8d3f65cc3b52e2d1a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282593"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586979"
 ---
 # <a name="define-your-project-scope"></a>Definir el ámbito del proyecto
 
@@ -37,7 +37,7 @@ Este artículo forma parte de la fase de definición de Project del viaje de act
 
 Tomar tiempo para definir la visión, el ámbito, los objetivos y el gobierno del proyecto ayudará a garantizar que todas las partes interesadas del proyecto estén alineadas y trabajando para obtener los mismos resultados finales. Esto es especialmente crítico dado que el equipo de preparación técnica y el equipo de preparación del usuario trabajarán de forma independiente para juntar sus respectivas partes. Después de completar esta sección, consulte esta sección en todo el proyecto para asegurarse de que está en el buen camino para lograr el estado final que quería. Use los objetivos que identifique a continuación para medir los resultados y mitigar según sea necesario.
 
-| | |
+| &nbsp;| &nbsp;|
 |---|---|
 | ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué desea lograr con este proyecto (es decir, por qué lo está haciendo)?</li><li>¿Cómo es el éxito?</li><li>¿Cuáles son los riesgos y cuál es su plan para mitigar esos riesgos?</li></ul> |
 | ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Hable sobre las siguientes secciones con el equipo del proyecto y los patrocinadores.</li><li>Documente su visión, ámbito, objetivos y riesgos para este proyecto.</li><li>Vuelva a visitar el equipo del proyecto para validar que ha contratado al equipo adecuado.</li></ul>|

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Francia para Microsoft Teams.
-ms.openlocfilehash: cd8a66e620f194fbc4da8387cf251299161342dd
-ms.sourcegitcommit: 0a7c1f52484452f66f678b0feca1455bade4fcf3
+ms.openlocfilehash: 81f0e3abda408d7e229c3a9066a668e182d47488
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50716915"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510161"
 ---
 # <a name="phone-number-management-for-france"></a>Administración de números de teléfono para Francia
 
@@ -35,10 +35,10 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos y envíenoslos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Microsoft Teams de administración.   <br/> | Descargue uno de estos formularios. <br/> [Nueva solicitud de número de teléfono para Francia (v.6.0) (fr-fr)](https://download.microsoft.com/download/4/e/7/4e7e9da9-f2cc-4e4d-97af-efcb85a51b0d/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [Nueva solicitud de número de teléfono para Francia (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf?raw=true)<br/> <br/>   Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/>
-|Consigue que nos transfieran números de teléfono.  <br/> |Descargue uno de estos formularios. <br/><br/> Para números de teléfono de usuario:<br/>[Carta de autorización (LOA) para Francia (números geográficos) (v.5.0) (fr-fr)](https://download.microsoft.com/download/1/2/f/12f54bab-b024-42aa-864a-7a9873509ffc/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.6.0)-(fr-fr).pdf) <br/><br/>Para números de teléfono gratuitos: <br/>[Carta de autorización (LOA) para Francia (números de teléfono gratuitos) (v.6.0) (fr-fr)](https://download.microsoft.com/download/b/5/0/b502c0e2-80d1-4d5c-8914-12617a173933/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.6.0)-(fr-fr).pdf) <br/> <br/> Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
-|Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacionales.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Microsoft Teams de administración.   <br/> | Descargue uno de estos formularios. <br/> [Nueva solicitud de número de teléfono para Francia (v.6.0) (fr-fr)](https://download.microsoft.com/download/4/e/7/4e7e9da9-f2cc-4e4d-97af-efcb85a51b0d/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [Nueva solicitud de número de teléfono para Francia (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf?raw=true)<br/> <br/>   Rellene y póngase [en contacto con PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/>
+|Consigue que nos transfieran números de teléfono.  <br/> |Descargue uno de estos formularios. <br/><br/> Para números de teléfono de usuario:<br/>[Carta de autorización (LOA) para Francia (números geográficos) (v.5.0) (fr-fr)](https://download.microsoft.com/download/1/2/f/12f54bab-b024-42aa-864a-7a9873509ffc/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.6.0)-(fr-fr).pdf) <br/><br/>Para números de teléfono gratuitos: <br/>[Carta de autorización (LOA) para Francia (números de teléfono gratuitos) (v.6.0) (fr-fr)](https://download.microsoft.com/download/b/5/0/b502c0e2-80d1-4d5c-8914-12617a173933/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.6.0)-(fr-fr).pdf) <br/> <br/> Rellene y póngase [en contacto con PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> |
+|Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacionales.  <br/> |[Póngase en contacto con PTSN para](contact-pstn-service-desk.md) obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con PTSN para](contact-pstn-service-desk.md) obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
 |Realizar actualizaciones del servicio de directorio para números de cola de llamadas o operadores automáticos|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto [con el servicio rtc.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Temas relacionados

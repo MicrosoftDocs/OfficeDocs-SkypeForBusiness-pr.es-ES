@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Irlanda para Microsoft Teams.
-ms.openlocfilehash: def8a47ff77510597fc1f5a43cc1dd08509f7084
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 4050ea64677bad9f6481025feea52a8b593b4fa6
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196814"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510011"
 ---
 # <a name="phone-number-management-for-ireland"></a>Administración de números de teléfono para Irlanda
 
@@ -35,10 +35,10 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Microsoft Teams de administración. <br/> |En Irlanda, no puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. Debe enviar una solicitud de número de teléfono nuevo. <br/><br/>Descargue este formulario.<br/>[Nueva solicitud de número de teléfono para Irlanda (v.5.0) (en-us).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Relléneselo y [envíenoslo.](mailto:ptneu@microsoft.com)  <br/> |
-|Consigue que nos transfieran números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Irlanda (todos los números) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com). <br/> |
-|Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacionales.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Microsoft Teams de administración. <br/> |En Irlanda, no puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. Debe enviar una solicitud de número de teléfono nuevo. <br/><br/>Descargue este formulario.<br/>[Nueva solicitud de número de teléfono para Irlanda (v.5.0) (en-us).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Rellene y póngase en contacto [con PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> |
+|Consigue que nos transfieran números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Irlanda (todos los números) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Rellene y póngase [en contacto con PTSN para obtener instrucciones.](contact-pstn-service-desk.md) <br/> |
+|Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacionales.  <br/> |[Póngase en contacto con PTSN para](contact-pstn-service-desk.md) obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con PTSN para](contact-pstn-service-desk.md) obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
 |Realizar actualizaciones del servicio de directorio para números de cola de llamadas o operadores automáticos|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto [con el servicio rtc.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Temas relacionados

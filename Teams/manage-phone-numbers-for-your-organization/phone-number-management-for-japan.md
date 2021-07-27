@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Japón para Microsoft Teams.
-ms.openlocfilehash: 3c16d05a1160e95777f6ee981ca7332a4555f10a
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 68bb6a33741c1508765c0808b69934073e220445
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196684"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510001"
 ---
 # <a name="phone-number-management-for-japan"></a>Teléfono de números para Japón
 
@@ -39,7 +39,7 @@ Para obtener más información, vea [Administrar números de teléfono para su o
 |**¿Qué acción desea realizar?**|**Siga estos pasos y descargue los formularios correctos**|
 |:-----|:-----|
 |Obtener nuevos números de teléfono de usuario para planes de llamadas en Japón.|Ponte en contacto [con Llamadas de SoftBank](https://aka.ms/SoftBankVoicePlan) para obtener nuevos números de teléfono para los usuarios. A continuación, va a agregar dichos números a su organización para que pueda asignarlos a los usuarios. <br/>
-|Obtenga nuevos números de teléfono de servicio para audioconferencias, operadores automáticos y colas de llamadas en Japón.|[Por favor, póngase en contacto con nosotros](mailto:ptnapac@microsoft.com).|
+|Obtenga nuevos números de teléfono de servicio para audioconferencias, operadores automáticos y colas de llamadas en Japón.|[Póngase en contacto con PTSN para obtener instrucciones.](contact-pstn-service-desk.md)|
 |Transferir números de teléfono a Microsoft 365 o Office 365 **usuarios** en Japón.|Ponte en contacto [con Llamadas de SoftBank](https://aka.ms/SoftBankVoicePlan) para transferir números de teléfono de usuario. A continuación, agregará los números a la organización.  <br/> |
 |Transferir números de teléfono a Microsoft 365 o Office 365 para las **colas de llamadas** en Japón.|Ponte en contacto [con Llamadas de SoftBank](https://aka.ms/SoftBankVoicePlan) para transferir números de teléfono de servicio. A continuación, agregará los números a la organización.|
 |Cambie la dirección de emergencia asignada a los usuarios que tienen un número de teléfono del Plan de llamadas.|Póngase en contacto [con Llamadas de SoftBank](https://aka.ms/SoftBankVoicePlan) para realizar cambios en la dirección de emergencia. Pueden actualizar esta información por usted.|

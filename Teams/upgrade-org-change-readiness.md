@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6131883d4d3711b99006b3b54d51dd50ee37daa
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 3e18ecaf8d4149542008d2e1bba719d2ddaf7da6
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282327"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587279"
 ---
 # <a name="assess-organizational-change-readiness"></a>Evaluar si la organización está preparada para el cambio
 
@@ -46,7 +46,7 @@ Después de proteger el equipo del proyecto y definir su visión, ámbito y obje
 > [!Note]
 > Puede adaptar las actividades de evaluación que se indican a continuación a cualquier iniciativa de cambio de su organización. Solo tiene que abordar las preguntas en función del ámbito del proyecto. En las siguientes discusiones, se puede aplicar "nueva solución" a las llamadas de audio, las audioconferencias o la actualización de Skype Empresarial a Teams.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cuál es la cultura de su organización cuando se trata de cambiar?</li><li>¿Cómo puede la nueva tecnología optimizar la forma de trabajar de los usuarios?</li><li>¿Qué usuarios probablemente requieran especial atención para que cambien su forma de trabajar?</li></ul> |
 | ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Use las siguientes instrucciones y actividades asociadas para capturar el perfil de preparación del usuario de su organización.</li></ul>|
@@ -106,7 +106,7 @@ Comprender cómo trabajan los usuarios y cómo se unen puede ayudar a los usuari
 
 Para sacar el máximo partido de Teams, cree una estrategia de trabajo en equipo que incluya ambos escenarios, ayudando a los usuarios a comprender cómo Teams pueden trabajar para ellos.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>¿Qué escenarios de trabajo en equipo relacionables empleará para ayudar a acelerar la adopción de Teams usuarios y facilitar la actualización desde Skype Empresarial?</li></ul> |
 | ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Use los ejemplos siguientes para crear sus propios escenarios de trabajo en equipo. Documente en el [libro actualizar](https://aka.ms/upgradesuccesskit).</li><li>Para ver ejemplos y escenarios adicionales, vaya a la [Biblioteca de productividad](https://www.microsoft.com/microsoft-365/success/)</li></ul>|

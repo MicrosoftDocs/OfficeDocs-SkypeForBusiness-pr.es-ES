@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e1656af8ee457cb4c112d229c2dee03d2590ece
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 6e7f20bc34b22449a115b0742a7cfdac88792f4c
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856379"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506399"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder al operador automático y llamar a la cola de llamadas directamente desde Teams
 
@@ -59,6 +59,8 @@ El soporte para llamadas automáticas y de cola de llamadas está disponible en 
 -    Cliente de Microsoft Teams para Mac
 -    Aplicación Microsoft Teams para iPhone
 -    Aplicación Microsoft Teams para Android
+
+El Teams solo es compatible con un modo [de coexistencia de Teams solo](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar el operador automático y la cola de llamadas para Microsoft Teams
 

@@ -1,5 +1,5 @@
 ---
-title: Teams caso práctico de Contoso de voz
+title: Teams información general sobre casos prácticos de Contoso de voz
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams caso de voz para empresas multinacionales
+description: 'Teams caso de voz para la corporación multinacional: Información general sobre migración de voz'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19200ec5ab1556b0f2b4fda2f389e60bc236015b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ae8a09ab48215b1915c06e46b3d6a3a693958621
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097496"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587179"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Caso práctico de Contoso: información Teams de migración de voz
 
@@ -30,9 +30,9 @@ En este artículo se presenta un caso práctico sobre cómo una corporación mul
 
 Contoso ha implementado Microsoft 365 Enterprise y ha abordado decisiones de diseño importantes y detalles de implementación para lo siguiente: redes, identidad, Windows 10 Enterprise, Office 365 ProPlus, administración de dispositivos móviles, protección de la información, seguridad, actualización de Skype Empresarial a Teams, Sistema telefónico y audioconferencia.  
 
-Este artículo se centra en cómo Contoso ha migrado sus usuarios locales a Teams para una comunicación unificada, colaboración y voz. Para obtener información básica sobre cómo Contoso aceleró su transformación digital mediante los servicios en la nube de Microsoft, vea todos los artículos principales que comienzan con la información general sobre [casos prácticos de Contoso.](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)
+Este artículo se centra en cómo Contoso ha migrado sus usuarios locales a Teams para una comunicación unificada, colaboración y voz. Para obtener información básica sobre cómo Contoso aceleró su transformación digital mediante los servicios en la nube de Microsoft, vea todos los artículos principales que comienzan con la información general sobre [casos prácticos de Contoso.](/microsoft-365/enterprise/contoso-case-study)
 
-https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
+[https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study](/microsoft-365/enterprise/contoso-case-study) 
 
 En los artículos principales, encontrará información sobre lo siguiente:  
 
