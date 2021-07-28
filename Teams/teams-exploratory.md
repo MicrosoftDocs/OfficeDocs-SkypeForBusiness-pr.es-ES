@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 946847793ea90e549a555cd9d100cd1ae2809fa3
-ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
+ms.openlocfilehash: 571bc53925bb807d11c16d72f25ad247fe9496b3
+ms.sourcegitcommit: f781600a40e174cfc522e29375a4820b1142e23a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53408759"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596398"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Administrar la licencia de Microsoft Teams Exploratory
 
@@ -157,7 +157,7 @@ Consulte [Información de la suscripción a Microsoft 365](/microsoft-365/commer
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>¿Cuánto tiempo dura la experiencia de Teams Exploratory?
 
-Desde principios de 2021, Teams Exploratory está disponible como una suscripción de 12 meses (desde el registro inicial del usuario) para todos los clientes nuevos. La nueva suscripción de Teams Exploratory comienza cuando el primer usuario de una organización se registra en Teams Exploratory y expirará después de 12 meses. La fecha de expiración se aplicará a todos los usuarios del mismo espacio empresarial que el período de 12 meses que comienza en la fecha de registro del primer usuario.
+Teams Exploratory está disponible como una suscripción de 12 meses (desde el registro inicial del usuario) para todos los clientes nuevos. La nueva suscripción de Teams Exploratory comienza cuando el primer usuario de una organización se registra en Teams Exploratory y expirará después de 12 meses. La fecha de expiración se aplicará a todos los usuarios del mismo espacio empresarial que el período de 12 meses que comienza en la fecha de registro del primer usuario.
 
 > [!NOTE]
 > La fecha de finalización de la experiencia se configura en un nivel de organización, lo que significa que se aplicará a todos los usuarios de la misma organización. Por ejemplo, el usuario 1 se registra en la suscripción el 1 de enero de 2021. Esto inicia una fecha de finalización de la suscripción del 31 de diciembre de 2021. Otro usuario, el usuario 2, se registra en la suscripción el 1 de octubre de 2021. El usuario 2 puede usar Teams Exploratory durante dos meses, ya que su fecha de finalización será el 31 de diciembre de 2021, porque está en la misma suscripción de organización que el usuario 1.

@@ -1471,6 +1471,8 @@ items:
                 href: class-insights.md
               - name: Sincronizar datos de SIS con Insights
                 href: education-insights-sis-data-sync.md
+              - name: Administrar el acceso de los usuarios a Insights
+                href: education-insights-manage-access.md
               - name: Introducción a Reflect
                 href: reflect.md
           - name: Tareas en Teams para Educación
