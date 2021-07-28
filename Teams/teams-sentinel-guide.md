@@ -19,17 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3b2c37f7f3731b34abb5337bf954250e0c3564d
-ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
+ms.openlocfilehash: 55307637e18f81775229bb46db51a6f5738cce7c
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51712772"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587049"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel y Microsoft Teams
 
 > [!IMPORTANT]
-> Azure Sentinel ahora tiene un conector integrado. Para obtener más información, consulte [Conectar los registros de Office 365 a Azure Sentinel](/azure/sentinel/connect-office-365). Esta es la ruta recomendada para recopilar estos registros y sustituye los métodos de recopilación que se describen a continuación.
+> Azure Sentinel ahora tiene un conector integrado. Para obtener más información, consulte [Conectar los registros de Office 365 a Azure Sentinel](/azure/sentinel/connect-office-365). Esta es la ruta recomendada para recopilar estos registros y sustituye los métodos de recopilación que se describen a continuación.
 
 Teams desempeña un papel fundamental en la comunicación y en el uso compartido de datos en la nube de Microsoft 365. Dado que Teams toca tantas tecnologías en la nube, puede beneficiarse de análisis humanos y automatizados. Esto se aplica tanto a la *búsqueda en registros* como a la *supervisión de reuniones en tiempo real*. Estas soluciones las proporcionan los administradores de Azure Sentinel.
 
@@ -40,7 +40,7 @@ Teams desempeña un papel fundamental en la comunicación y en el uso compartido
 
 El presente artículo se centra en la recopilación de los registros de actividad de los equipos en Azure Sentinel.
 
-Sentinel permite a los administradores realizar la gestión de la seguridad en un solo lugar. Esto incluye administrar:
+Sentinel permite a los administradores realizar la gestión de la seguridad en un solo lugar. Esto incluye:
 
 - Dispositivos de terceros
 - Protección contra amenazas de Microsoft
@@ -53,7 +53,7 @@ Los libros de trabajo y runbooks de Sentinel pueden hacer que la supervisión de
 
 ## <a name="step-1-collect-teams-logs-enable-audit-logs-in-microsoft-365"></a>Paso 1: Recopilar registros de Microsoft Teams: Habilitar registros de auditoría en Microsoft 365
 
-Dado que Teams registra la actividad a través de Microsoft 365, los registros de auditoría no se recopilan de forma predeterminada. Active esta característica con [estos pasos](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). Los datos de Microsoft Teams se recopilan en la auditoría de Microsoft 365, en *Audit.General*.
+Dado que Teams registra la actividad a través de Microsoft 365, los registros de auditoría no se recopilan de forma predeterminada. Active esta característica con [estos pasos](/microsoft-365/compliance/turn-audit-log-search-on-or-off). Los datos de Microsoft Teams se recopilan en la auditoría de Microsoft 365, en *Audit.General*.
 
 ## <a name="step-2-connect-office-365-logs-to-azure-sentinel"></a>Paso 2: Conectar los registros de Office 365 a Azure Sentinel
 
@@ -228,6 +228,6 @@ También debería unirse a la [comunidad de Azure Sentinel](https://github.com/A
 
 [Registro de la aplicación en Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0).
 
-[Activar o desactivar la búsqueda de registros de auditoría](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+[Activar o desactivar la búsqueda de registros de auditoría](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 [¿Qué es Azure Sentinel?](/azure/sentinel/overview)
