@@ -27,7 +27,8 @@
           "**/*.vsdx",
           "**/*.zip",
           "**/*.pptx",
-          "**/*.psd"
+          "**/*.psd",
+          "**/*.csv"
         ],
         "exclude": [
           "**/obj/**",
@@ -43,20 +44,33 @@
       ],
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "ocv-translation-feedback": true,
+      "uhfHeaderId": "MSDocsHeader-M365-IT",
       "ms.suite": "office",
       "titleSuffix": "Microsoft Teams",
-      "bilingual_type": "hover over",
       "contributors_to_exclude": [
         "daswifty",
-        "MikePlumleyMSFT"
+        "MikePlumleyMSFT",
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
       ],
-      "feedback_system": "GitHub",
+      "feedback_system": "None",
+      "hide_comments": true,
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
-      "feedback_product_url": "https://microsoftteams.uservoice.com"
+      "feedback_product_url": "https://microsoftteams.uservoice.com",
+      "recommendations": true
     },
     "fileMetadata": {
       "hideEdit": {
         "country-and-region-availability-for-audio-conferencing-and-calling-plans/**/*.md": true
+      },
+      "recommendations": {
+      "country-and-region-availability-for-audio-conferencing-and-calling-plans/**/*.md": false
       }
     },
     "template": [],
