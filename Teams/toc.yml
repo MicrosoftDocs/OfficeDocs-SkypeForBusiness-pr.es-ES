@@ -1867,4 +1867,4 @@ items:
       - name: Cuestionario de detección de actualización
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Notas de la versión de las características de administración de Teams
-        href: release-notes/release-notes.md
+        href: /OfficeUpdates/teams-admin

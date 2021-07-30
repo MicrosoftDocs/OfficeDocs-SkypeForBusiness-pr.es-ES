@@ -14,8 +14,6 @@
       items:
         - name: Mover usuarios locales a Microsoft Teams
           href: ../hybrid/move-users-from-on-premises-to-teams.md
-        - name: Mover usuarios locales a Skype Empresarial Online
-          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
         - name: Mover usuarios de la nube a una implementación local
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
         - name: Administrar reunión de migración

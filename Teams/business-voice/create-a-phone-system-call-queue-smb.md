@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Obtenga información sobre cómo configurar colas de llamadas para pequeñas empresas en Microsoft 365 Business Voice.
-ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: 0e0f6dde164f270987d4b01c6bc3528f8799a662
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126926"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646491"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Crear una cola de llamadas: tutorial para pequeñas empresas
 
@@ -87,7 +87,9 @@ Para agregar un canal
 
 1. En Teams, busque el equipo que acaba de crear, haga clic en **Más opciones** (...)y, a continuación, haga clic en **Agregar canal.**
 
-2. Escriba un nombre y una descripción para el canal y, a continuación, haga clic en **Agregar**.
+2. Escriba un nombre y una descripción para el canal.
+
+3. En **Privacidad,** elija **Estándar: accesible para todos** los usuarios del equipo y, a continuación, haga clic en **Agregar.**
 
 > [!div class="nextstepaction"]
 > [Paso 2: Cuentas de recursos >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
@@ -122,7 +124,7 @@ Debe asignar una licencia *Microsoft 365 Sistema telefónico usuario virtual* a 
 
 2. En la **pestaña Licencias y aplicaciones,** en **Licencias,** **seleccione Microsoft 365 Sistema telefónico - Usuario virtual.**
 
-3. Haga clic **en Guardar cambios.**
+3. Haga clic en **Guardar cambios**.
 
     ![Captura de pantalla de la interfaz de usuario asignar licencias en el Centro de administración de Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
 

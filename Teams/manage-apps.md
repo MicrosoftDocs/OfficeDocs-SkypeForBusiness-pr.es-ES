@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo administrar sus Teams aplicaciones
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 6ea09ae40068277c5e450c19b6e258d04fd40fdc
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: e237fc1e511694b80cb9b98ca4e1f9c36f1eba25
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126916"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646471"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro Microsoft Teams administración
 
@@ -51,7 +51,7 @@ Puede ver todas las aplicaciones, incluida la siguiente información sobre cada 
 - **Estado:** Estado de la aplicación en el nivel de organización, que puede ser uno de los siguientes:
 - **Permitido:** la aplicación está disponible para todos los usuarios de su organización.
 - **Bloqueado:** la aplicación está bloqueada y no está disponible para los usuarios de su organización.
-  - **Bloqueado en toda la organización:** la aplicación está bloqueada en la configuración de la aplicación para toda la organización.
+- **Bloqueado en toda la organización:** la aplicación está bloqueada en la configuración de la aplicación para toda la organización.
       Es importante saber que esta columna representa el estado permitido y bloqueado de las aplicaciones que anteriormente estaban en el panel **de configuración de toda la** organización. Ahora puede ver, bloquear y permitir aplicaciones en toda la organización en la **página** Administrar aplicaciones.
 - **Licencias:** indica si una aplicación ofrece una suscripción de Software como Servicio (SaaS) para la compra. Esta columna solo se aplica a aplicaciones de terceros. Cada aplicación de terceros tendrá uno de los siguientes valores:
 - **Comprar ahora:** la aplicación ofrece una suscripción SaaS y está disponible para comprar.  
@@ -63,6 +63,7 @@ Puede ver todas las aplicaciones, incluida la siguiente información sobre cada 
 - **- -**: La aplicación no tiene permisos que necesiten consentimiento.
 - **Categorías:** Categorías que se aplican a la aplicación.
 - **Versión:** versión de la aplicación.
+- **El administrador puede instalar en reuniones:** indica si los administradores pueden instalar una aplicación en reuniones de grupo. [Más información](teams-app-setup-policies.md#install-apps)
 
 Para ver la información que desea en la tabla, seleccione **Editar** columna en la esquina superior derecha para agregar o quitar columnas a la tabla.
 

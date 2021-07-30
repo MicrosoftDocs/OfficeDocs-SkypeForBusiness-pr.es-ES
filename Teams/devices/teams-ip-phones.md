@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: b531f6bb3a6a097f1480b3bcbfc938cdf20a8ec4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 467192fbf3635d7ef478b246e9376dfbc3d16829
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510351"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646231"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams dispositivos certificados
 
@@ -129,8 +129,8 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo        | Versión de firmware     | Versión de producto incluida  |
 |:--------------------|:---------------------|:-------------------------|
-| Poly Trio C60   | 7.0.3.0342  | Actualización de 2021 #2                        |
-| Poly CCX400/CCX500/CCX600   | 7.0.3.0347 | Actualización de 2021 #2                     |
+| Poly Trio C60   | 7.0.3.0517  | Actualización de 2021 #2                        |
+| Poly CCX400/CCX500/CCX600   | 7.0.3.0515 | Actualización de 2021 #2                     |
 | Códigos de audio C448HD/C450HD/C470HD   | 1.10.143  | Actualización de 2021 #2           |
 | Yealink T55/T56/T58   | 58.15.0.131  | Actualización de 2021 #2                       |
 | Yealink VP59   | 91.15.0.63  | Actualización de 2021 #2                               |
@@ -183,7 +183,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware | Versión de producto incluida |
 |:--------------|:-----------------|:-------------------------|
-| AudioCodes RXV80 |1.13.356   | Actualización de 2021 #2 |
+| AudioCodes RXV80 |1.13.361   | Actualización de 2021 #2 |
 | Yealink VC210 |118.15.0.54   | Actualización de 2021 #2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | Actualización de 2021 #2    |
 | Yealink MeetingBar A30 | 133.15.0.60    | Actualización de 2021 #2    |

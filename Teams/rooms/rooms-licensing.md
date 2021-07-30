@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre las licencias disponibles para diferentes tipos de llamadas y características de reunión en Salas de Microsoft Teams.
-ms.openlocfilehash: f538d6adc0e07f30ee4fe5c0ea3613ea962838c5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 03557d1e833241b36bb1bc5df3a5ef36ff2ca450
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117458"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646691"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Sala de reuniones de licencias
 
@@ -35,7 +35,7 @@ ms.locfileid: "51117458"
 
 Microsoft tiene dos SKU dedicadas para licencias de reuniones y llamadas por dispositivo para dispositivos de salas de reuniones (como Salas de Microsoft Teams, Microsoft Surface Hub y barras de colaboración para Microsoft Teams).
 
-||Salas de Microsoft Teams Estándar |Salas de Microsoft Teams Premium |
+|&nbsp;|Salas de Microsoft Teams Estándar |Salas de Microsoft Teams Premium |
 |:--- |:---: |:---: |
 |Skype Empresarial |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
@@ -64,7 +64,7 @@ En la tabla siguiente se enumeran las características que están disponibles en
 > [!NOTE]
 > La sala que se configura debe ser un objeto de usuario y disponer de las licencias asignadas.
 
-|  | Tiene Microsoft Teams o Skype Empresarial online <br/> Esto es lo que debe comprar:   |Tiene una Skype Empresarial Server 2015/2019 (local o híbrida). <br/> Esto es lo que debe comprar:|
+| &nbsp; | Tiene Microsoft Teams o Skype Empresarial online <br/> Esto es lo que debe comprar:   |Tiene una Skype Empresarial Server 2015/2019 (local o híbrida). <br/> Esto es lo que debe comprar:|
 |:-----|:-----|:-----|
 |Unirse a una reunión programada  | Salas de Microsoft Teams Estándar o Premium  |Skype Empresarial Servidor Standard CAL  |
 |Iniciar una reunión ad hoc | Salas de Microsoft Teams Estándar o Premium  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Enterprise CAL|

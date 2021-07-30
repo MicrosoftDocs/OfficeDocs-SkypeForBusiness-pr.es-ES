@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre las licencias de complementos para Microsoft Teams y las características que obtiene con cada licencia.
-ms.openlocfilehash: ff5c9ca199a017406b46061daea99658157318e5
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: 968ec222b32a14d85ffac5f66c9a1d87b0b4fa43
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491786"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646851"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams de complementos
 
@@ -37,9 +37,9 @@ Las licencias de complementarias son licencias para características específica
 
 Esta es una lista de características que puede agregar con Teams de complementos. Las opciones de licencias de complementos disponibles dependen de Microsoft 365 o Office 365 plan que tenga.
 
-|||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
-|**Característica** <br/> |**Descripción** <br/> |**Pequeña empresa (<300 usuarios)**|**Grandes empresas (>300 usuarios)**|
+|Característica|Descripción|Pequeña empresa (<300 usuarios)|Grandes empresas (>300 usuarios)|
 **Microsoft 365 Empresa Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) es una solución de telefonía diseñada para pequeñas y medianas empresas de hasta 300 usuarios que agrupa Sistema telefónico, audioconferencias, un plan de llamadas nacionales y mucho más. Sistema telefónico de voz, id. de llamada, parque de llamadas, reenvío de llamadas, operadores automáticos y colas de llamadas. <br> Para saber si Business Voice está disponible en su país o región, vea Disponibilidad de país y [región para Business Voice.](../business-voice/country-region-availability.md) Para obtener información sobre precios, vea [Precios para Business Voice.](https://go.microsoft.com/fwlink/?linkid=2127221) <br/> |&#x2713;||
 |**Audioconferencia** <br/> |A veces, los usuarios de su organización tendrán que usar un teléfono para llamar a una reunión Teams en su equipo. Configurar [audioconferencias para](../audio-conferencing-in-office-365.md) usuarios que programe o lidere reuniones. <br/> Para averiguar si la audioconferencia está disponible en su país o región, vea [Disponibilidad de país y región para las audioconferencias y los planes de llamadas](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para obtener información sobre precios, consulte [Precios para participar en audio conferencia.](https://go.microsoft.com/fwlink/?linkid=799762)  <br/> <br/>Si es una pequeña o mediana empresa con hasta 300 usuarios y actualmente no tiene licencias de audioconferencia, puede obtener Conferencias de audio gratis durante un año. A partir del 1 de octubre de 2020, la oferta gratuita de audioconferencia está disponible para los usuarios que tengan Microsoft 365 Empresa Básico, Business Standard, Business Premium, Enterprise E1 o Enterprise licencias de E3. Para obtener más información, vea [Configurar audioconferencias para pequeñas y medianas empresas.](../audio-conferencing-smb.md)|&#x2713;|&#x2713;|
 |**Números gratuitos** |Si desea números gratuitos para audioconferencias, operadores automáticos o colas de llamadas, debe configurar [créditos de comunicaciones.](../set-up-communications-credits-for-your-organization.md) <br/> |&#x2713;|&#x2713;|
@@ -48,7 +48,7 @@ Esta es una lista de características que puede agregar con Teams de complemento
 |**Salas de Microsoft Teams** <br/> |[Salas de Microsoft Teams](../rooms/index.md) no es un complemento, sino una característica que proporciona vídeo, audio y uso compartido de contenido a las salas de conferencias. Vea [Teams Sala de reuniones licencias](../rooms/rooms-licensing.md).  <br/> |&#x2713;|&#x2713;|
 |**Comunicaciones avanzadas** <br/> |[Comunicaciones avanzadas](advanced-communications.md) incluye personalización de reuniones avanzadas y herramientas para administrar las directivas de comunicación de su organización. Entre las características adicionales se incluyen la sala de espera de reuniones personalizada de marca para adaptar las reuniones y herramientas para supervisar, realizar un seguimiento y analizar datos en usuarios y dispositivos.   |&#x2713;|&#x2713;|
 
-<sup>1</sup> Si es una pequeña o mediana empresa que tiene un [plan](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) de Microsoft 365 Enterprise, todavía puede comprar licencias de complementos para estas características de voz, pero le recomendamos que considere un plan Microsoft 365 Empresa y [Business Voice.](https://www.microsoft.com/microsoft-365/business/business-voice)
+<sup>1</sup> Si es una pequeña o mediana empresa que tiene un plan de Microsoft 365 Enterprise, todavía puede comprar licencias de complementos para estas características de voz, pero le recomendamos que considere un plan de [Microsoft 365 Empresa](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) y [Business Voice.](https://www.microsoft.com/microsoft-365/business/business-voice)
 
 ## <a name="what-voice-features-are-available-with-my-plan"></a>¿Qué características de voz están disponibles con mi plan?
 
@@ -60,7 +60,7 @@ Dependiendo de las características de voz que desee, le recomendamos que compar
 
 Si es una pequeña o mediana empresa (menos de 300 usuarios), tiene cuatro formas de obtener características de voz:
 
-- Compra un plan Microsoft 365 Empresa y Microsoft 365 Business Voice.
+- Compre un plan Microsoft 365 empresa y Microsoft 365 Business Voice.
 - Compra un Enterprise plan E1 o E3 y Microsoft 365 Business Voice.
 - Compre un Enterprise plan E1 o E3 y agregue características de voz individualmente.
 - Compre un Enterprise plan E5, que incluye características de voz.
@@ -121,7 +121,7 @@ Créditos de comunicación de audioconferencia </td><td>O bien</td>
 
 Si las audioconferencias no son compatibles en su país o región, tiene la opción de obtener un Microsoft 365 Enterprise E5 sin un plan de conferencias de audio o un Office 365 Enterprise E5 sin un plan de conferencias de audio.
 
-Si ya tiene un plan Microsoft 365 Enterprise o Office 365 Enterprise, aún puede comprar licencias de complementos para características de voz individuales. Sin embargo, tiene la opción de cambiar a un plan [Microsoft 365 Empresa](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) y [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). En algunos casos, dependiendo de las características que desee, puede ser más rentable obtener un plan Microsoft 365 Empresa con Microsoft 365 Business Voice.
+Si ya tiene un plan Microsoft 365 Enterprise o Office 365 Enterprise, aún puede comprar licencias de complementos para características de voz individuales. Sin embargo, tiene la opción de cambiar a un plan [Microsoft 365 empresa](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) y [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). En algunos casos, dependiendo de las características que desee, puede ser más rentable obtener un plan Microsoft 365 empresa con Microsoft 365 Business Voice.
 
 > [!NOTE]
 > Si necesita usar un servicio telefónico de [terceros,](../direct-routing-landing-page.md) enrutamiento directo se implementa en su organización, o si los planes de llamadas no están disponibles en su país o región, debe usar enrutamiento directo para las características de voz.
@@ -310,7 +310,7 @@ Este es un resumen, basado en el plan de licencias.
 <td></td>
 </tr>
 <tr class="odd">
-<td>Microsoft 365 Ong E5<br>Office 365 para ONG E5</td>
+<td>Microsoft 365 Ong E5<br>Office 365 Nonprofit E5</td>
 <td>Plan de llamadas nacional<br>Plan de llamadas nacionales e internacionales (opcional)<br>Créditos de comunicación</td>
 <td></td>
 <td></td>
@@ -384,7 +384,7 @@ Este es un resumen de las ofertas de prueba de características de voz.
 </tbody>
 </table>
 
- El plan base no tiene por qué ser una oferta de prueba para usar ninguna de estas pruebas para las características de voz. Puede usar un plan Microsoft 365 Empresa o un plan Enterprise, gubernamental, educativo o sin ánimo de lucro con cualquiera de las ofertas de prueba para características de voz. Para ver las ofertas de prueba y los complementos disponibles, en el Centro de administración de Microsoft 365, vaya a Servicios de compra de facturación, seleccione Otras categorías que le puedan interesar y, a continuación, seleccione  >   **Complementos.** 
+ El plan base no tiene por qué ser una oferta de prueba para usar ninguna de estas pruebas para las características de voz. Puede usar un plan Microsoft 365 empresa o un plan Enterprise, gubernamental, educativo o sin ánimo de lucro con cualquiera de las ofertas de prueba para las características de voz. Para ver las ofertas de prueba y los complementos disponibles, en el Centro de administración de Microsoft 365, vaya a Servicios de compra de facturación, seleccione Otras categorías que le puedan interesar y, a continuación, seleccione  >   **Complementos.** 
 
   Para cada una de estas opciones de voz y [conferencia,](../set-up-communications-credits-for-your-organization.md) los créditos de comunicaciones son necesarios si tiene números gratuitos o si necesita agregar minutos adicionales para que los usuarios llamen desde reuniones o para que los usuarios realicen llamadas RTC nacionales e internacionales.
 

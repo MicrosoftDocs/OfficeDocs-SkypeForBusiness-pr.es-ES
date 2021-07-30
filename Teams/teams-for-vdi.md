@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d498f66241de3edc46a86ae884b615384508b84
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: b4ed46623d741d0bf370203a90a24e5bbaa0750f
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203629"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646531"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -32,7 +32,7 @@ En este artículo se describen los requisitos y limitaciones para usar Microsoft
 
 Infraestructura de escritorio virtual (VDI) es una tecnología de virtualización que hospeda un sistema operativo de escritorio y aplicaciones en un servidor centralizado en un centro de datos. Esto permite una experiencia de escritorio totalmente personalizada para los usuarios con un origen centralizado totalmente protegido y compatible.
 
-Microsoft Teams en un entorno virtualizado admite chat y colaboración. Además, con las Windows escritorio virtual, Citrix y VMware, también se admite la funcionalidad de llamadas y reuniones.
+Microsoft Teams en un entorno virtualizado admite chat y colaboración. Además, con las plataformas Azure Virtual Desktop, Citrix y VMware, también se admiten las funciones de llamadas y reuniones.
 
 Teams en un entorno virtualizado admite varias configuraciones. Estos incluyen modos VDI, dedicado, compartido, persistente y no persistente. Las características están en desarrollo continuo y se agregan de forma periódica, y la funcionalidad se expandirá en los próximos meses y años.
 
@@ -58,7 +58,7 @@ El Teams en un entorno virtualizado requiere los siguientes componentes.
 
 La Teams de escritorio se validó con los principales proveedores de soluciones de virtualización. Con varios proveedores de mercado, le recomendamos que consulte a su proveedor de soluciones de virtualización para asegurarse de que cumple los requisitos mínimos.
   
-Actualmente, Teams en VDI con optimización de audio/vídeo (AV) está certificado con Windows escritorio virtual, Citrix y VMware. Revise la información de esta sección para asegurarse de que cumple todos los requisitos para la funcionalidad adecuada.
+Actualmente, Teams en VDI con optimización de audio/vídeo (AV) está certificado con Azure Virtual Desktop, Citrix y VMware. Revise la información de esta sección para asegurarse de que cumple todos los requisitos para la funcionalidad adecuada.
 
 ### <a name="platforms-certified-for-teams"></a>Plataformas certificadas para Teams
 
@@ -66,13 +66,13 @@ Las siguientes plataformas tienen soluciones de infraestructura de escritorio vi
 
 |Plataforma|Solución|
 |----|---|
-|![El logotipo que representa a Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Escritorio virtual</a> |
+|![El logotipo que representa a Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Escritorio virtual de Azure</a> |
 |![El logotipo que representa Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Aplicaciones virtuales y equipos de escritorio de Citrix</a> |
 |![El logotipo que representa VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
-### <a name="windows-virtual-desktop"></a>Windows Escritorio virtual
+### <a name="azure-virtual-desktop"></a>Escritorio virtual de Azure
 
-Windows Escritorio virtual proporciona optimización AV para Teams en VDI. Para obtener más información sobre los requisitos y la instalación, [vea Usar Teams en Windows escritorio virtual.](/azure/virtual-desktop/teams-on-wvd)
+Azure Virtual Desktop proporciona optimización av para Teams en VDI. Para obtener más información sobre los requisitos y la instalación, [vea Usar Teams escritorio virtual de Azure.](/azure/virtual-desktop/teams-on-wvd)
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Requisitos de Citrix Virtual Apps y Escritorios
 
@@ -470,7 +470,7 @@ if($cleanup){
 - Con la instalación por equipo, Teams en VDI no se actualiza automáticamente de la forma en que no son clientes Teams VDI. Tiene que actualizar la imagen de la máquina virtual instalando un nuevo MSI como se describe en la sección Instalar o actualizar la aplicación de escritorio Teams [en VDI.](#install-or-update-the-teams-desktop-app-on-vdi) Debe desinstalar la versión actual para actualizar a una versión más reciente.
 - En entornos Citrix, si el usuario se desconecta de la máquina virtual mientras Teams se está ejecutando, las actualizaciones de Teams pueden hacer que el usuario esté en un estado no optimizado para AV cuando se vuelva a conectar. Se recomienda a los usuarios que Teams antes de desconectarse de Citrix Virtual Machine para evitar este escenario.
 - Teams debe implementarse por usuario o por equipo. No se Teams la implementación de Teams por usuario y por equipo. Para migrar de una máquina o de un usuario a uno de estos modos, siga el procedimiento de desinstalación y vuelva a implementarlo en ambos modos.
-- Windows El escritorio virtual no es compatible con macOS y clientes basados en Linux en este momento.
+- Azure Virtual Desktop no es compatible con macOS y clientes basados en Linux en este momento.
 
 ### <a name="calling-and-meetings"></a>Llamadas y reuniones
 
@@ -523,5 +523,5 @@ A continuación, reinicie VDA. Para obtener más información, vea este artícul
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Instalar Microsoft Teams con MSI](msi-deployment.md)
-- [Información general de PowerShell para Teams](teams-powershell-overview.md)
-- [Usar Microsoft Teams en Windows escritorio virtual](/azure/virtual-desktop/teams-on-wvd)
+- [Descripción de PowerShell para Teams](teams-powershell-overview.md)
+- [Usar Microsoft Teams escritorio virtual de Azure](/azure/virtual-desktop/teams-on-wvd)

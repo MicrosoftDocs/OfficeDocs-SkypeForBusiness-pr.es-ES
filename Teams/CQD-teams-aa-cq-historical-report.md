@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el panel de calidad de Power BI para ver los datos históricos Operador automático y Cola de llamadas.
-ms.openlocfilehash: cfd72d0397407205aef729188c630e99148f154c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd6214871a471341ed2d3836e72c5f729e3f6a9f
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111516"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660698"
 ---
 # <a name="what-are-the-requirements"></a>¿Cuáles son los requisitos? 
 Debe tener Power BI Desktop instalado. Puede instalarlo desde Microsoft [Windows Store.](https://aka.ms/pbidesktopstore)
@@ -98,7 +98,7 @@ Siga estos pasos:
 |Operador automático hora de inicio de cadena         |datetime                 |Hora de inicio de la cadena AA                    |
 |Operador automático de búsqueda de directorios  |cadena                   |Método de búsqueda de la última libreta de direcciones        |
 |Operador automático acción Transferir          |cadena                   |Tipo de destino de transferencia de llamadas<br>Valores posibles:<br>§ desconocido: no se especificó el tipo de entidad<br>§ usuario: entidad de usuario<br>§ orgaa: entidad Operador automático organización<br>§ hunt_group : entidad Cola de llamadas<br>§ aplicación: entidad de aplicación de voz<br>§ external_pstn - entidad RTC externa<br>§ shared_voicemail: entidad de correo de voz compartido|
-|Operador automático de llamada              |cadena                   |Resultado de la llamada:<br>§ desconocido<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|Operador automático de llamada              |cadena                   |Resultado de la llamada:<br>§ desconocido: la llamada no se pudo configurar o transferir y el servicio no ha recibido ningún motivo de error significativo <br>§ transferred_to_user: llamada transferida a un usuario a través de Marcado por nombre/extensión o opción de menú configurada <br>§ transferred_to_operator: la llamada se ha transferido a un operador configurado, por ejemplo, si AA está configurado con un operador para fuera del horario laboral <br>§ failover_to_operator- Reserva al operador cuando se produce un error en la transferencia o el reconocimiento de nombres no funciona después de tres intentos<br>§ user_terminated: el autor de la llamada ha finalizado la llamada <br>§ service_declined: la llamada rechazada por el servicio, esto podría ocurrir si el servicio no obtiene Operador automático configuración <br>§ service_terminated: el servicio back-end rescindió la llamada, posiblemente si se ha fallado una transferencia al destino y ningún operador está configurado como reserva. <br>§ failed_to_establish_media: error en el establecimiento multimedia entre la persona que llama y el servicio <br>§ terminated_no_operator: el reconocimiento de nombres falló después de tres intentos y no se configuró ningún operador <br>§ terminated_transfer_failed: error en la transferencia al destino y no se configura ningún operador <br>§ terminated_automatic_selection: si no se configura ninguna acción durante o fuera del horario laboral, la llamada finalizará de forma predeterminada <br>§ transferred_to_shared_voicemail: llamada transferida al correo de voz compartido si está configurada como destino <br>§ oaa_chain_too_long: cuando una cadena de Operador automático supera los cinco Operadores automáticos seguidos, la llamada finalizará para evitar posibles bucles de llamada <br>§ oaa_session_too_long: la llamada superó la duración máxima de la sesión permitido y ha superado el tiempo de espera. |
 |Operador automático llamada Flow                |cadena                   |Encapsula los distintos estados de Operador automático llamada<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>Anuncio de §|
 |Está Operador automático implicado              |Boolean                  |Se indica si AA participa en la llamada |
 |Operador automático de acciones de llamada      |int                      |Recuento de acciones usadas por el autor de la llamada         |

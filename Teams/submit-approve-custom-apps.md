@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo aprobar las aplicaciones personalizadas que se envían con Teams API de envío de aplicaciones en Microsoft Teams.
-ms.openlocfilehash: e544fdc12e17fc8917a2d3b9ce01dfc5985261de
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: 19d0378376e1abbc57d4a992a37c5c0286b9b29f
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337797"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646631"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar una aplicación personalizada enviada a través de la API Teams de envío de aplicaciones
 
@@ -50,9 +50,9 @@ La Microsoft Teams de desarrolladores facilita a los desarrolladores integrar su
 
 ### <a name="submit-the-app"></a>Enviar la aplicación
 
-Cuando la aplicación esté lista para su uso en producción, el desarrollador puede enviar la aplicación mediante la API de envío de aplicaciones de Teams Graph, que se puede llamar desde una <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">API,</a>un entorno de desarrollo integrado (IDE) como Visual Studio Code o una plataforma como Power Apps y Power Virtual Agents. Al hacerlo, la aplicación <a href="/microsoftteams/manage-apps" target="_blank"></a> está disponible en la página Administrar aplicaciones del Centro de administración de Microsoft Teams, donde usted, el administrador, puede revisarla y aprobarla.esto
+Cuando la aplicación esté lista para su uso en producción, el desarrollador puede enviar la aplicación mediante la API de envío de aplicaciones de Teams Graph, que se puede llamar desde una [API,](/graph/api/teamsapp-publish)un entorno de desarrollo integrado (IDE) como Visual Studio Code o una plataforma como Power Apps y Power Virtual Agents. Al hacerlo, la aplicación <a href="/microsoftteams/manage-apps" target="_blank"></a> está disponible en la página Administrar aplicaciones del Centro de administración de Microsoft Teams, donde usted, el administrador, puede revisarla y aprobarla.esto
 
-La API de envío de aplicaciones de Teams, integrada en <a href="/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph,</a>permite que su organización se desarrolle en la plataforma de su elección y automatiza el proceso de envío a aprobación para aplicaciones personalizadas en Teams.
+La API de envío de aplicaciones de Teams, integrada en <a href="/graph/api/teamsapp-publish" target="_blank">Microsoft Graph,</a>permite que su organización se desarrolle en la plataforma de su elección y automatiza el proceso de envío a aprobación para aplicaciones personalizadas en Teams.
 
 Este es un ejemplo de la apariencia de este paso de envío de aplicaciones en Visual Studio Code:
 
@@ -60,7 +60,7 @@ Este es un ejemplo de la apariencia de este paso de envío de aplicaciones en Vi
 
 Tenga en cuenta que esto todavía no publica la aplicación en la tienda de aplicaciones de su organización. Este paso envía la aplicación al centro de administración de Microsoft Teams donde puede aprobarla para su publicación en la tienda de aplicaciones de su organización.
 
-Para obtener más información sobre cómo usar la API Graph enviar aplicaciones, vea <a href="/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">aquí</a>.
+Para obtener más información sobre cómo usar la API Graph enviar aplicaciones, vea <a href="/graph/api/teamsapp-publish" target="_blank">aquí</a>.
 
 ## <a name="validate"></a>Validar
 
@@ -74,7 +74,7 @@ Haga clic en el nombre de la aplicación para ir a la página de detalles de la 
 
 ![página de detalles de la aplicación para una aplicación enviada](media/custom-app-lifecycle-app-details.png)
 
-Para obtener más información sobre cómo usar la API Graph para comprobar el estado **de publicación,** vea <a href="/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">aquí</a>.
+Para obtener más información sobre cómo usar la API Graph para comprobar el estado **de publicación,** vea <a href="/graph/api/appcatalogs-list-teamsapps" target="_blank">aquí</a>.
 
 ## <a name="publish"></a>Publicar
 
@@ -132,7 +132,7 @@ Tenga en cuenta lo siguiente:
 - Cuando se aprueba una aplicación, cualquiera puede enviar una actualización a la aplicación. Esto significa que otros desarrolladores, incluido el desarrollador que envió originalmente la aplicación, pueden enviar una actualización a la aplicación.
 - Cuando un desarrollador envía una aplicación y la solicitud está pendiente, solo ese mismo desarrollador puede enviar una actualización a la aplicación. Otros desarrolladores pueden enviar una actualización solo después de aprobar la aplicación.
 
-Para obtener más información sobre el uso de la API Graph para actualizar aplicaciones, vea <a href="/graph/api/teamsapp-update?view=graph-rest-beta#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">aquí</a>.
+Para obtener más información sobre el uso de la API Graph para actualizar aplicaciones, vea <a href="/graph/api/teamsapp-update">aquí</a>.
 
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -141,4 +141,4 @@ Para obtener más información sobre el uso de la API Graph para actualizar apli
 - [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md)
 - [Administrar directivas de permisos de aplicación en Teams](teams-app-permission-policies.md)
 - [Administrar directivas de configuración de aplicación en Teams](teams-app-setup-policies.md)
-- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">API Graph Microsoft para Teams aplicaciones</a>
+- <a href="/graph/api/resources/teamsapp" target="_blank">API Graph Microsoft para Teams aplicaciones</a>

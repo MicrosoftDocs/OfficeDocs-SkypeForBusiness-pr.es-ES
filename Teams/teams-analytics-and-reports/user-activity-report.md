@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el informe Teams actividad de
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 071b5eaa37cd2b6a5d353b2f0309a338d28ce971
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: 13d2d261358fc5c373304c46b48684d1f116fc06
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669242"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646061"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Informe de actividad de usuario de Microsoft Teams
 
@@ -42,7 +42,7 @@ Debe ser administrador de servicio de Teams para poder realizar estos cambios. C
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 
-|Globo |Descripción  |
+| Globo |Descripción  |
 |--------|-------------|
 |**1**   |El Teams de actividad del usuario se puede ver para ver las tendencias de los últimos 7 días, 30 o 90 días. |
 |**2**   |Cada informe tiene la fecha del momento en que se generó. Los informes suelen reflejar una latencia de 24 horas desde el momento de la actividad. |
@@ -60,9 +60,9 @@ Debe ser administrador de servicio de Teams para poder realizar estos cambios. C
 
 Para que los datos de Teams de actividad de usuario sean anónimos, debe ser administrador global. Esto ocultará información identificable, como el nombre para mostrar, el correo electrónico y el id. de AAD en el informe y su exportación.
 
-1. En Microsoft 365 centro de administración,  vaya a la Configuración organización Configuración y, en la pestaña \> Servicios, elija **Informes.** 
+1. En Centro de administración de Microsoft 365, vaya a  la Configuración de Configuración y, en la pestaña \> Servicios, elija **Informes.** 
     
-2. Seleccione **Informes** y, a continuación, **elija Mostrar identificadores anónimos.** Esta configuración se aplica tanto a los informes de uso Microsoft 365 centro de administración como Teams de administración.
+2. Seleccione **Informes** y, a continuación, **elija Mostrar identificadores anónimos.** Esta configuración se aplica tanto a los informes de uso de Centro de administración de Microsoft 365 como Teams de administración.
   
 3. Seleccione **Guardar cambios**.
 

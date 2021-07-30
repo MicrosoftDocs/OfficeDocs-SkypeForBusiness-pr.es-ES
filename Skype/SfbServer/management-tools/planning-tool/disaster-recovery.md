@@ -1,5 +1,5 @@
 ---
-title: Recuperación ante desastres (Herramienta de planeación)
+title: Herramienta de planeación de recuperación ante desastres
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,18 +13,18 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
-description: Skype Empresarial Server 2015 incluye medidas de recuperación ante desastres al permitirle emparejar grupos de servidores front-end ubicados en dos centros de datos.
-ms.openlocfilehash: e1137b339c9b49002242428917143283940748a4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype Empresarial Server 2015 incluye medidas de recuperación ante desastres al habilitar el emparejamiento de grupos de servidores front-end ubicados en dos centros de datos.
+ms.openlocfilehash: 7e6c0084f424de781c42d4afaebdb827627ed280
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834930"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646071"
 ---
-# <a name="disaster-recovery-planning-tool"></a>Recuperación ante desastres (Herramienta de planeación)
+# <a name="disaster-recovery-planning-tool"></a>Herramienta de planeación de recuperación ante desastres
  
 Skype Empresarial Server 2015 incluye medidas de recuperación ante desastres al permitirle emparejar grupos de servidores front-end ubicados en dos centros de datos.
   
-Para obtener más información sobre cómo preparar su entorno para la recuperación ante desastres, consulte [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Para obtener más información sobre cómo preparar el entorno para la recuperación ante desastres, vea [Plan for high availability and disaster recovery in Skype Empresarial Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 

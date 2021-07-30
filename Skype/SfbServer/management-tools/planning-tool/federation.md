@@ -1,5 +1,5 @@
 ---
-title: Federación (herramienta de planeación)
+title: Herramienta de planeación de federación
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,15 +13,15 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
-description: Los servidores perimetrales se pueden configurar para permitir que los usuarios internos y externos accedan a los contactos en organizaciones o servicios asociados.
-ms.openlocfilehash: 0ca870518bc373a251f9db5a4255f8f55f1cf4b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Puede configurar los servidores perimetrales para permitir que los usuarios internos y externos puedan acceder a los contactos en organizaciones o servicios asociados.
+ms.openlocfilehash: d0f7526a8cbe2822bbbf6350ced81ca16063cfb7
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095184"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646291"
 ---
-# <a name="federation-planning-tool"></a>Federación (herramienta de planeación)
+# <a name="federation-planning-tool"></a>Herramienta de planeación de federación
  
 Los servidores perimetrales se pueden configurar para permitir que los usuarios internos y externos accedan a los contactos en organizaciones o servicios asociados.
   

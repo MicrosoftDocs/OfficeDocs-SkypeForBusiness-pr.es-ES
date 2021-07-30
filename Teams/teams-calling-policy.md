@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 061573176da10c48dc5cbee72a49f22eb4994c09
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53596621"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53661893"
 ---
 #  <a name="calling-and-call-forwarding-in-teams"></a>Llamadas y reenvío de llamadas en Teams
 
@@ -79,11 +79,11 @@ Esta configuración permite que las llamadas entrantes se envíen al correo de v
 - **Deshabilitado**  El correo de voz no está disponible para las llamadas entrantes.
 - **Controlado por el usuario** Los usuarios pueden determinar si quieren que el correo de voz esté disponible.
 
-### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Las llamadas entrantes se pueden enrutar a grupos de llamadas 
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Las llamadas entrantes se pueden enrutar a grupos de llamadas
 
 Esta configuración controla si las llamadas entrantes se pueden reenviar a un grupo de llamadas.
 
-### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>Permitir la delegación de llamadas entrantes y salientes
+### <a name="delegation-for-inbound-and-outbound-calls"></a>Delegación para llamadas entrantes y salientes
 
 Esta configuración permite enrutar las llamadas entrantes a los delegados, lo que permite a los delegados realizar llamadas salientes en nombre de los usuarios para los que tienen permisos delegados. Para obtener más información, vea [Compartir una línea telefónica con un delegado.](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
@@ -91,19 +91,23 @@ Esta configuración permite enrutar las llamadas entrantes a los delegados, lo q
 
 Si establece este valor **en "En",** se enviarán llamadas a través de la RTC e incurrirá en cargos en lugar de enviarlos a través de la red y omitir los peajes.
 
-### <a name="busy-on-busy-is-available-while-in-a-call"></a>Ocupado en Ocupado está disponible mientras está en una llamada
+### <a name="busy-on-busy-is-available-when-in-a-call"></a>Ocupado en ocupado está disponible cuando se está en una llamada
 
-Ocupado en ocupado (Opciones de disponibilidad) es una nueva configuración que le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o tiene una llamada en espera. Las llamadas nuevas o entrantes se pueden rechazar con una señal de disponibilidad o se pueden enrutar en consecuencia a la configuración sin respuesta del usuario. Puede habilitar las opciones de disponibilidad en el nivel de inquilino o en el nivel de usuario. Independientemente de cómo se configuren sus opciones de disponibilidad, los usuarios de una llamada o conferencia o aquellos con una llamada en espera no se impiden iniciar nuevas llamadas o conferencias. Esta configuración está deshabilitada de forma predeterminada.
+Ocupado en Ocupado (Opciones de disponibilidad) le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o tiene una llamada en espera. Las llamadas nuevas o entrantes se pueden rechazar con una señal de disponibilidad o se pueden enrutar en consecuencia a la configuración sin respuesta del usuario. Puede habilitar las opciones de disponibilidad en el nivel de inquilino o en el nivel de usuario. Independientemente de cómo se configuren sus opciones de disponibilidad, los usuarios de una llamada o conferencia o aquellos con una llamada en espera no se impiden iniciar nuevas llamadas o conferencias. Esta configuración está deshabilitada de forma predeterminada.
 
-### <a name="allow-web-pstn-calling"></a>Permitir llamadas RTC web
+### <a name="web-pstn-calling"></a>Llamadas RTC web
 
 Esta configuración permite a los usuarios llamar a números RTC con el Teams web.
+
+### <a name="incoming-meeting-invites-are-automatically-answered"></a>Las invitaciones a reuniones entrantes se responden automáticamente
+
+Esta configuración controla si las invitaciones a reuniones entrantes se responden automáticamente. Está desactivado por defecto. Tenga en cuenta que esta configuración solo se aplica a las invitaciones a reuniones entrantes. No se aplica a otros tipos de llamadas.
 
 ### <a name="allow-music-on-hold"></a>Permitir música en espera
 
 Esta configuración le permite activar o desactivar la música en espera cuando un autor de la llamada RTC está en espera. Está activada de forma predeterminada. Esta configuración no se aplica a las características de parque de llamadas y delegado jefe, y actualmente solo está disponible a través de PowerShell.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 

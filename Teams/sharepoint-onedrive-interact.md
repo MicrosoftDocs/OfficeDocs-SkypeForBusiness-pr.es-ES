@@ -18,19 +18,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 21abc840ddc740d7d842767c6c864d8ff5b598dd
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 99667735c6e0e71532084f3aff6771df4408f892
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855959"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646211"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Cómo SharePoint y OneDrive interactúan con Microsoft Teams
 
 > [!Tip]
 > Vea la siguiente sesión para obtener información sobre Teams interactúa con Azure Active Directory (AAD), Microsoft 365 Groups, Exchange, SharePoint y OneDrive: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
 
-Cada equipo de Microsoft Teams tiene un sitio de grupo en SharePoint y cada canal estándar de un equipo obtiene una carpeta dentro de la biblioteca de documentos de sitio de grupo predeterminada. Cada [canal privado](private-channels.md) obtiene su propio sitio de SharePoint independiente.
+Cada equipo de Microsoft Teams tiene un sitio de grupo en SharePoint y cada canal estándar de un equipo obtiene una carpeta dentro de la biblioteca de documentos de sitio de grupo predeterminada. Cada [canal privado](private-channels.md) obtiene su propio sitio de SharePoint independiente. Para obtener más información sobre estos sitios de grupo y sitios de canal, vea Administrar Teams [sitios conectados y sitios de canal.](/sharepoint/teams-connected-sites)
 
 Los archivos compartidos dentro de una conversación se agregan automáticamente a la biblioteca de documentos y los permisos y las opciones de seguridad de archivos establecidas en SharePoint se reflejan automáticamente en Teams. Para ver el impacto de cambiar una dirección de sitio en SharePoint, lea [Cambiar una dirección de sitio](/sharepoint/change-site-address).
 
