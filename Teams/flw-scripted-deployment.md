@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 384c7d98dbbae5fa1c471130f8699c9c570c79ac
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: 452fd19bdd89ced22a3e233fc851c52395e48e9b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536826"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646481"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Cómo proporcionar Teams a escala para trabajadores de primera línea
 
@@ -211,7 +211,7 @@ La aplicaciones se anclan a la barra de aplicaciones. Esta es la barra situada e
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>Cree la directiva de configuración de la aplicación de administradores de primera línea
 
-Se pueden personalizar las siguientes configuraciones para satisfacer las necesidades de su empresa. Hemos elegido algunas opciones recomendadas basándonos en las prácticas recomendadas y mejorar la facilidad de incorporación de nuevos usuarios a escala. Para obtener más información, haga clic [here](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
+Se pueden personalizar las siguientes configuraciones para satisfacer las necesidades de su empresa. Hemos elegido algunas opciones recomendadas basándonos en las prácticas recomendadas y mejorar la facilidad de incorporación de nuevos usuarios a escala. Para obtener más información, haga clic [here](teams-app-setup-policies.md).
 
 1. En el panel de navegación izquierda del centro de administración de Microsoft Teams, vaya a  **Directivas de** > **configuración de aplicaciones de Teams**.
 2. Haga clic en **Agregar**.  
@@ -238,7 +238,7 @@ Se pueden personalizar las siguientes configuraciones para satisfacer las necesi
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>Cree la directiva de configuración de la aplicación para los trabajadores de primera línea
 
-Se pueden personalizar las siguientes configuraciones para satisfacer las necesidades de su empresa. Hemos elegido algunas opciones recomendadas basándonos en las prácticas recomendadas y mejorar la facilidad de incorporación de nuevos usuarios a escala. Para obtener más información, haga clic [here](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
+Se pueden personalizar las siguientes configuraciones para satisfacer las necesidades de su empresa. Hemos elegido algunas opciones recomendadas basándonos en las prácticas recomendadas y mejorar la facilidad de incorporación de nuevos usuarios a escala. Para obtener más información, haga clic [here](teams-app-setup-policies.md).
 
 1. En el panel de navegación izquierda del centro de administración de Microsoft Teams, vaya a  **Directivas de** > **configuración de aplicaciones de Teams**.
 2. Haga clic en **Agregar**.
