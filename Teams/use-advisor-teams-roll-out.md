@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Use el Asesor de Teams para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b86ade0aa067e895ebf21b912801c761e7657ba
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240555"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646621"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -71,8 +71,16 @@ El asesor de Teams proporciona actualmente los siguientes planes:
     - Encuesta de usuario de Forms
     - Asesor de los Teams bot
     - Diseñado para clientes que actualmente usan Skype Empresarial Online o entornos locales de Skype Empresarial, el plan de actualización de Skype Empresarial le ayudará a evitar las conjeturas en el proceso de la actualización. Aprovechando un marco de éxito comprobado para implementar el cambio, el plan le guiará a través del proceso paso a paso, tanto si acaba de empezar a usar Teams como si ya usa Teams junto a Skype Empresarial o si está listo para actualizar. El plan también le conectará con [instrucciones en línea y procedimientos recomendados](./upgrade-start-here.md), [activos descargables](https://aka.ms/UpgradeSuccessKit), [en directo 1: muchos talleres de planificación](./upgrade-workshops-landing-page.yml) y recursos adicionales para dar soporte a su éxito.
+1. Educación (visible solo para organizaciones educativas)
+    - Evaluación de los inquilinos
+    - Plan de Planner, incluidas las tareas de adopción
+    - Encuesta de usuario de Forms
+    - Asesor de los Teams bot
+    - El plan educación se ha diseñado para organizaciones educativas y le ayudará a implementar, adoptar y administrar Teams en la suya.
 
-Te recomendamos que empieces con el plan de chat, equipos, canales y aplicaciones. Cuando haya terminado de implementar esa carga de trabajo, vuelva al Asesor para Teams y haga clic en **Agregar canal** para iniciar la siguiente carga de trabajo.
+En el caso de las organizaciones comerciales, se recomienda empezar con el plan de chat, equipos, canales y aplicaciones. En el caso de las organizaciones educativas, se recomienda empezar con el plan de educación. Cuando haya terminado de implementar esa carga de trabajo, vuelva al Asesor para Teams y haga clic en **Agregar canal** para iniciar la siguiente carga de trabajo.
+
+
 
 ## <a name="tenant-assessment"></a>Evaluación del inquilino
 

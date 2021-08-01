@@ -1,6 +1,6 @@
 ---
 title: Límites y especificaciones para Microsoft Teams
-author: microsoftheidi
+author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
 ms.topic: reference
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f28e9f1b0fcc4d8855b0c053dbd71ee30cf58747
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 08b6686a640e039cbd84d95196824d4b35fb9f35
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506349"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646041"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -125,12 +125,12 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |Tamaño máximo de archivo de PowerPoint | 2 GB|
 |Teams guarda [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream, que se pueden descargar de forma local | 20 días |
   
-<sup>1</sup> Para obtener la mejor experiencia con seminarios web, eventos en directo y reuniones de gran tamaño, Microsoft recomienda usar el cliente de escritorio o los clientes móviles de Teams.
-  
+<sup>1</sup> Para obtener la mejor experiencia con seminarios web, eventos en directo y reuniones de gran tamaño, Microsoft recomienda usar la última versión del cliente de escritorio o los clientes móviles de Teams.
+
 <sup>2</sup> Los moderadores de seminarios web, eventos en directo y reuniones de gran tamaño deben usar el cliente de escritorio de Teams. Para obtener más consejos sobre cómo organizar reuniones grandes, consulte [Prácticas recomendadas para una reunión grande de equipos](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
-  
+
 > [!NOTE]
-> Las salas para sesión de subgrupo solo se pueden crear en reuniones con menos de 300 asistentes. Además, la creación de salas para sesión de subgrupo en una reunión limita automáticamente el número de asistentes de la reunión a 300. Aconseje a los usuarios finales que no inicien salas para sesión de subgrupo en reuniones en las que esperen más de 300 participantes. Para más información sobre las reuniones de gran tamaño de Teams, comparta las instrucciones [Procedimientos recomendados para reuniones de gran tamaño de Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) con los usuarios finales. 
+> Las salas para sesión de subgrupo solo se pueden crear en reuniones con menos de 300 asistentes. Además, la creación de salas para sesión de subgrupo en una reunión limita automáticamente el número de asistentes de la reunión a 300. Aconseje a los usuarios finales que no inicien salas para sesión de subgrupo en reuniones en las que esperen más de 300 participantes. Para más información sobre las reuniones de gran tamaño de Teams, comparta las instrucciones [Procedimientos recomendados para reuniones de gran tamaño de Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) con los usuarios finales.
 
 ### <a name="meeting-expiration"></a>Expiración de la reunión
 
@@ -169,7 +169,7 @@ Para obtener más información acerca de los eventos en directo y una comparaci�
 >- 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial
 >- Difusión de un evento de 16 horas de duración
 >
-> Además, los eventos en directo con hasta 100 000 asistentes pueden planearse con el programa de asistencia de Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Obtenga más información](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Además, los eventos en directo con hasta 100 000 asistentes pueden planearse con el programa de asistencia de Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Obtenga más información](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 ## <a name="presence-in-outlook"></a>Presencia en Outlook
 

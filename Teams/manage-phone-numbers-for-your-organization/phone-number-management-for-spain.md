@@ -20,27 +20,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en España para Microsoft Teams.
+description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en España para Microsoft Teams.
 ms.openlocfilehash: 45d3630183bba781eead2ddba1624ee4b64a4118
 ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/21/2021
 ms.locfileid: "53510381"
 ---
 # <a name="phone-number-management-for-spain"></a>Administración de números de teléfono para España
 
-Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en España para Microsoft Teams.
+Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en España para Microsoft Teams.
   
 Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization.md).
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Microsoft Teams de administración.   <br/> | Descargue uno de estos formularios.</br> [Nueva solicitud de número de teléfono para España (v.5.0) (es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.5.0)-(es-es).pdf?raw=true) <br/>  [Nueva solicitud de número de teléfono para España (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>    Rellene y póngase [en contacto con PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> |
-|Consigue que nos transfieran números de teléfono.  <br/> |Descargue este formulario. <br/>[Carta de autorización (LOA) para España (todos los números) (v.5.0)(es-es)](https://download.microsoft.com/download/e/8/b/e8bd034a-c5fa-4da2-8fd6-3dd13988b834/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf)<br/><br/> Rellene y póngase [en contacto con PTSN para obtener instrucciones.](contact-pstn-service-desk.md)[](mailto:ptneu@microsoft.com) <br/> |
-|Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacionales.  <br/> |[Póngase en contacto con PTSN para](contact-pstn-service-desk.md) obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con PTSN para](contact-pstn-service-desk.md) obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o operadores automáticos|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto [con el servicio rtc.](contact-pstn-service-desk.md) |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.   <br/> | Descargue uno de estos formularios.</br> [Solicitud de nuevo número de teléfono solicitado para España (v.5.0) (es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.5.0)-(es-es).pdf?raw=true) <br/>  [Solicitud de nuevo número de teléfono solicitado para España (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>    Rellene y [póngase en contacto con la RTC para obtener instrucciones](contact-pstn-service-desk.md).  <br/> |
+|Transferirnos números de teléfono.  <br/> |Descargue este formulario. <br/>[Carta de autorización (LOA) para España (todos los números) (v.5.0)(es-es)](https://download.microsoft.com/download/e/8/b/e8bd034a-c5fa-4da2-8fd6-3dd13988b834/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf)<br/><br/> Rellene y [póngase en contacto con la RTC para obtener instrucciones](contact-pstn-service-desk.md)[enviárnoslo](mailto:ptneu@microsoft.com). <br/> |
+|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con la RTC para obtener instrucciones](contact-pstn-service-desk.md) sobre la lista de números de teléfono que quiere publicar o de la que quiere cancelar la publicación. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con la RTC para obtener instrucciones](contact-pstn-service-desk.md) sobre la lista de números de usuario que quiere convertir en números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas u operadores automáticos, póngase en contacto con [el servicio de asistencia de RTC](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>Temas relacionados
 
