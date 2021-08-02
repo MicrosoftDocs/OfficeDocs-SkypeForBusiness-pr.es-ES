@@ -21,24 +21,125 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: a753374ec71014352b04721f2019f5e9a6425acd
-  ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+  ms.openlocfilehash: e02aca3c02f73bbb2835bc1ff2d949b1e3415a96
+  ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 06/09/2021
-  ms.locfileid: "52856279"
+  ms.lasthandoff: 08/01/2021
+  ms.locfileid: "53679765"
 title: 'Preguntas frecuentes: actualizar Skype Empresarial a Microsoft Teams'
 summary: ''
 sections:
-- name: Omitido
+- name: Retirada de Skype Empresarial Online
   questions:
   - question: ¿Existe un plazo concreto para que los clientes pasen de Skype Empresarial Online a Microsoft Teams?
     answer: >
       Sí. [Skype Empresarial Online se retirará](skype-for-business-online-retirement.md) el 31 de julio de 2021, momento en el que ya no será accesible. Recomendamos a los clientes de Skype Empresarial Online que comiencen a usar Teams y a planear las actualizaciones ahora para que tengan el tiempo suficiente de completarlas antes de la fecha de retirada.
+  - question: ¿Por qué Skype Empresarial online se retira?
+    answer: >
+      Desde su introducción, Skype Empresarial Online ha sido una herramienta valiosa para millones de personas de todo el mundo. Al combinar mensajería instantánea, llamadas y vídeo en una sola aplicación, Skype Empresarial Online estableció nuevas posibilidades para las comunicaciones empresariales. Microsoft Teams es el siguiente capítulo de esa visión.
+
+
+      Las capacidades de Microsoft Teams van más allá de las de Skype Empresarial Online. Al combinar chat, vídeo, llamadas, colaboración de documentos e integración de aplicaciones en una única experiencia, Teams forma de trabajar totalmente noticias. Además, la innovación y el desarrollo continuos de la plataforma Teams los usuarios se benefician de un rendimiento, funcionalidad, flexibilidad y seguridad más completos.
+
+
+      Teams no es solo una actualización para Skype Empresarial Online, es una herramienta eficaz que permite a las empresas, escuelas y organizaciones ser más ágiles y mejorar la eficiencia de los flujos de trabajo clave. Obtenga más información sobre las ventajas potenciales de Teams para su organización en las white paper de Forrester, [The Total Economic Impact™ of Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1).
+  - question: ¿Qué significa esto para Skype Empresarial clientes?
+    answer: >
+      Después Skype Empresarial Online se retirará el 31 de julio de 2021, el servicio ya no será accesible. Hasta entonces, los clientes Skype Empresarial online no experimentarán ningún cambio en el servicio. A partir del 1 de septiembre de 2019, todos los nuevos Microsoft 365 clientes se han incorporado directamente a Teams para chat, reuniones y llamadas.
+
+
+      El tiempo necesario para actualizar completamente a Teams variará en función de las características únicas de la organización, incluido el número de usuarios, la complejidad técnica y la capacidad de adaptación interna para cambiar. Le recomendamos encarecidamente que comience la actualización a Teams hoy. Al iniciar la actualización hoy, tendrá tiempo suficiente para finalizarla antes de la fecha de retirada. A partir de agosto, Microsoft proporcionará un proceso de actualización asistido para ayudarte a mover los usuarios Skype Empresarial online a Teams solo.
+
+
+      Teams está disponible en la mayoría Microsoft 365 planes de negocios y Enterprise, y las inversiones de licencias existentes se llevan a cabo Teams. Las funcionalidades que son cargas de trabajo premium en Skype Empresarial Online hoy seguirán considerándose del mismo modo en Microsoft Teams. Por ejemplo, si ha comprado Conferencias de audio de forma independiente o como parte de E5 con Skype Empresarial, audioconferencia se habilitará en Teams.
+
+
+      El Skype de consumidores y Skype Empresarial Server no se ven afectados por la retirada de Skype Empresarial Online.
+
+
+      [Lea preguntas más frecuentes](FAQ-journey.yml) sobre el proceso de actualización a Teams y el mapa de ruta Teams capacidades.
   - question: ¿Necesitan Skype Empresarial Server clientes locales actualizar a Microsoft Teams cuando Skype Empresarial Online se retire?
     answer: "No. La retirada de Skype Empresarial Online no afecta a los usuarios que se alocuban en el entorno local. Aunque animamos a todos los clientes a aprovechar las ofertas de funcionalidad y rendimiento Microsoft Teams ampliadas, es posible que algunos clientes de Skype Empresarial Server necesiten usar el producto independiente o como parte de una configuración híbrida con Microsoft Teams. Consulte el sitio [directiva de ciclo de vida de Microsoft](https://docs.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server) para obtener fechas de soporte técnico para las versiones de Skype Empresarial Server. \n"
+  - question: ¿Qué está haciendo Microsoft para ayudar a los clientes a actualizar a Teams?
+    answer: >
+      Le recomendamos encarecidamente que comience la actualización de Skype Empresarial Online a Teams hoy. Al iniciar la actualización hoy, tendrá tiempo suficiente para finalizarla antes de la fecha de retirada.
+
+
+      Aproveche los recursos disponibles para ayudar a planear su Teams y actualizar desde Skype Empresarial:
+
+
+      - [Teams de implementación y actualización:](upgrade-start-here.md) guía técnica gratuita para administradores de TI.
+
+
+      - Teams talleres de planeación de actualizaciones: talleres [interactivos](./upgrade-workshops-landing-page.yml) gratuitos de planeación de actualizaciones, donde recibirá instrucciones, procedimientos recomendados y recursos diseñados para ayudarle a planear e implementar la actualización a Teams.
+
+
+      - [Actualizaciones asistidos de Skype Empresarial Online a Microsoft Teams:](upgrade-assisted.md) programa automatizado que le ayuda con los pasos técnicos para actualizar Skype Empresarial usuarios en línea a Teams.
+
+
+      - [FastTrack para Microsoft 365:](https://www.microsoft.com/fasttrack/microsoft-365) Teams de implementación disponible para los planes que califiquen.
+
+
+      - [Teams en directo:](./instructor-led-training-teams-landing-page.yml) clases de aprendizaje en línea gratuitas diseñadas para que su organización esté en marcha con Teams.
+
+
+      - [Teams tiza:](./chalk-talks-landing-page.yml) talleres en línea gratuitos para profesionales de TI y responsables de la toma de decisiones que comparten prácticas recomendadas para algunos de los escenarios más populares y atractivos de Teams.
+
+
+      - [Partners de Microsoft:](https://www.microsoft.com/solution-providers/home) los proveedores de soluciones de Microsoft pueden ayudarle a aprovechar al máximo Teams.
+
+
+      - [Microsoft Teams blog:](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) obtenga las últimas Teams sobre nuevas características, recursos de adopción y uso, Teams dispositivos e integración con otras aplicaciones de productividad empresarial.
+
+
+      Si es un cliente actual de Skype Empresarial Online, empiece a planear la actualización a Teams hoy mismo. Estamos encantados de que experimente sus potentes capacidades de comunicación y colaboración, y nos comprometemos a ayudar en el camino.
+  - question: ¿Qué sucede después de Skype Empresarial Online se retira?
+    answer: >
+      Microsoft proporcionará actualizaciones asistidos para Skype Empresarial en línea que no se Teams modo solo en el momento de la retirada. Los clientes recibirán notificaciones tanto en el centro de administración de Teams como en el Centro de mensajes de Microsoft 365, 90 días antes de la fecha de actualización programada para dar tiempo a la preparación técnica y de usuario.
+
+
+      Una vez completada la actualización asistido, todos los usuarios en línea estarán en Teams modo solo. Los usuarios Teams modo solo reciben chats y llamadas entrantes, y programan reuniones, en Teams. Los usuarios Teams modo solo de usuario no podrán iniciar chats o llamadas ni programar reuniones en Skype Empresarial Online. Teams Solo los usuarios podrán unirse a las Skype Empresarial programadas por los usuarios que aún usan Skype Empresarial Server.
+
+
+      Para obtener más información, vea [Actualizaciones asistidos de Skype Empresarial Online a Microsoft Teams](upgrade-assisted.md).
   - question: ¿Skype difusión de reunión se retirará al mismo tiempo que Skype Empresarial en línea?
     answer: "Sí. Teams Eventos en directo es la solución sucesora Skype difusión de reunión.    \n"
+  - question: ¿Qué pueden esperar las organizaciones con configuraciones híbridas (Skype Empresarial Online y Skype Empresarial Server local) cuando Skype Empresarial Online se retire?
+    answer: >
+      Los clientes híbridos con configuraciones locales y en línea tendrán que actualizar usuarios en línea de Skype Empresarial Online a Microsoft Teams antes de la fecha de retirada del 31 de julio de 2021.
+
+      Microsoft proporcionará actualizaciones asistidos para ayudar a actualizar a los usuarios Skype Empresarial online a Teams modo solo después de la fecha de retirada.
+
+
+      Las organizaciones con una configuración híbrida pueden seguir usando Skype Empresarial y Teams en paralelo hasta que estén listas para pasar al modo Teams solo. Después de la Skype Empresarial de retirada en línea, cuando un usuario Skype Empresarial Server se mueve a la nube, ese usuario estará en Teams modo solo.
+
+
+      Para más información, consulte[Coexistencia con Skype empresarial](coexistence-chat-calls-presence.md) y [Comprender la coexistencia e interoperabilidad de Microsoft Teams y Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+  - question: ¿Cómo afectará la retirada de Skype Empresarial Online a las organizaciones con configuraciones de Skype Empresarial híbridas para la conectividad de red telefónica conmutada (RTC) local y las capacidades de Sistema telefónico en línea?
+    answer: >
+      Algunas organizaciones han dividido usuarios entre el hogar local para la conectividad RTC y el hogar en línea para Sistema telefónico funcionalidades. Una vez que finalice el acceso a Skype Empresarial Online, las organizaciones tendrán que actualizar los usuarios en línea para Microsoft Teams y conectar su red de telefonía local a Teams a través del [enrutamiento directo.](./direct-routing-landing-page.md)
+
+
+      Se recomienda a los clientes con suscripciones para ello que participen en [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) para recibir asistencia en la incorporación a Teams.
+  - question: ¿Los clientes de todas las nubes estarán sujetos a actualizaciones asistidos por Microsoft al retirarse de Skype Empresarial Online?
+    answer: >
+      Algunos entornos de nube, como GCC High, DoD, 21Vianet y Microsoft Cloud Germany requieren experiencias de actualización únicas y no se incluirán en las actualizaciones asistidos por Microsoft a Teams al retirarse de Skype Empresarial Online.
+  - question: ¿Cuál es el futuro de Skype Empresarial Server?
+    answer: >
+      Reconocemos que los clientes pueden necesitar usar Skype Empresarial Server para algunos usuarios o geografías debido a sus requisitos. En estos casos, animamos a las organizaciones a adoptar Microsoft Teams junto con Skype Empresarial Server para impulsar el trabajo en equipo y la colaboración. La última versión de Skype Empresarial Server 2019 se publicó en octubre de 2018 con soporte estándar planeado hasta el 9 de enero de 2024.
+  - question: ¿Qué significa esto para el Skype consumidor?
+    answer: >
+      La retirada de Skype Empresarial Online no afectará al Skype de consumidores.
+  - question: ¿Qué significa esto para los clientes Microsoft 365 existentes?
+    answer: "Hemos llevado el conjunto clave de funcionalidades de Skype Empresarial Online a Teams, junto con nuevas e innovadoras funciones para voz, vídeo y reuniones. Animamos a todos Microsoft 365 clientes a empezar a usar Teams hoy, de forma independiente o en paralelo con Skype Empresarial Server.\n       \n"
+  - question: ¿Cómo puedo obtener Teams licencias de mi organización?
+    answer: >
+      Teams está disponible en muchas de las Microsoft 365 suites. Las funcionalidades que son cargas de trabajo premium en Skype Empresarial Online hoy seguirán considerándose del mismo modo en Microsoft Teams. Los clientes que ya tengan licencias las mantendrán en Microsoft Teams. Por ejemplo, si un cliente ha comprado audio conferencia independiente o como parte de E5 con Skype Empresarial, la audio conferencia se habilitará en Teams en cuanto esté disponible hoy.
+  - question: ¿Qué ocurre con los clientes con audioconferencia de terceros (ACP) una vez que Skype Empresarial Online se retira?
+    answer: "Creemos que la mejor experiencia de audioconferencia para los clientes que usan Teams es a través de nuestros servicios de audioconferencia. Por este motivo, no tenemos planes para admitir proveedores de audioconferencia de terceros en Teams. El soporte para la integración de proveedores de audioconferencia de terceros en Skype Empresarial Online finalizará el 31 de julio de 2021, junto con Skype Empresarial Online.\n         \n"
+- name: Actualizar a Teams
+  questions:
   - question: ¿Cuánto tardará la actualización de mi organización a Microsoft Teams?
     answer: >
       El camino que lleve el camino de Skype Empresarial a Teams variará en función de las características de su organización, como complejidad técnica, aptitud para el cambio, integraciones de aplicaciones personalizadas y flujos de trabajo, entre otras. Para ayudarle en su planificación y ejecución, hemos desarrollado una completa guía de actualización basada en un marco de trabajo de probada eficacia diseñado para ayudarle a navegar por los elementos técnicos y organizativos del cambio. Comience su viaje y familiarícese con nuestro [marco de actualización realizado de forma exitosa](upgrade-framework.md) y los recursos asociados que necesitará para cambiar de Skype Empresarial a Teams.
@@ -83,15 +184,19 @@ sections:
   - question: ¿Qué significa esto desde una perspectiva de licencias? ¿Cómo pagarán los clientes las funcionalidades como las conferencias de audio y las llamadas en Teams?
     answer: >
       Microsoft Teams está disponible en los conjuntos de aplicaciones de Microsoft 365 y Office 365. Las funcionalidades que son cargas de trabajo premium en Skype Empresarial Online hoy seguirán considerándose del mismo modo en Microsoft Teams. Los clientes que ya tengan licencias las mantendrán en Microsoft Teams. Por ejemplo, si un cliente ha comprado audio conferencia independiente o como parte de E5 con Skype Empresarial, la audio conferencia se habilitará en Teams en cuanto esté disponible hoy.
-  - question: ¿Cuáles son las ventajas de la infraestructura de back-end de Teams?
+  - question: ¿Cuáles son las instrucciones para los clientes que ya han implementado Sistema telefónico (PBX en la nube) en Skype Empresarial Online?
+    answer: "Microsoft Teams abarca todo lo que necesita para sus llamadas. Animamos a todos Microsoft 365 clientes a empezar a usar Teams tan pronto como sea posible. Usar Teams le ayudará a garantizar que todas las cargas de trabajo críticas estén habilitadas para Teams antes de la retirada del servicio Skype Empresarial Online.           \n"
+  - question: ¿Cuáles son las instrucciones para los clientes que usan hoy Telefonía IP empresarial y quieren cambiarse a Teams y usar las funciones de llamada?
     answer: >
-      Teams está construido para la nube en una arquitectura de micro servicios altamente escalable que es eficiente en el consumo de ancho de banda, proporciona una mayor telemetría, y permite el mantenimiento y las actualizaciones con una mínima interrupción. Como resultado, los usuarios podrán unirse a las reuniones con mayor rapidez y mejorará su experiencia de uso del explorador sin necesidad de descargar complementos. Esta moderna infraestructura permite acceder fácilmente a Microsoft Cognitive Services, que cuenta con funciones de transcripción, traducción, reconocimiento de voz y aprendizaje automático, además de tener la capacidad de optimizar la sencillez y la eficacia de la comunicación y la colaboración.
-  - question: ¿Cómo pueden saber los clientes cuándo están disponibles las funcionalidades de Skype Empresarial en Microsoft Teams?
+      Los clientes interesados en incorporar su servicio telefónico a Microsoft Teams pueden hacerlo ahora con la disponibilidad general de [Enrutamiento directo](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359). Enrutamiento directo y Planes de llamada son las dos opciones de tono de marcado en Microsoft Teams.
+  - question: ¿La cobertura de Audioconferencia de Microsoft Teams es diferente de la de Skype Empresarial?
     answer: >
-      Consulte la [hoja de ruta de Microsoft 365](https://aka.ms/O365Roadmap).
-  - question: ¿Qué API y SDK estarán disponibles para Microsoft Teams?
+      No habrá ningún cambio en la cobertura de Audioconferencia a consecuencia de su disponibilidad en Microsoft Teams. La cobertura actual de más de 90 países y más de 400 ciudades se mantendrá en ambos productos. Para ver la lista actual, consulte [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+  - question: ¿La última generación de Sistemas de salas de Skype (V2) admitirá reuniones en Teams?
     answer: >
-      Visite la [Plataforma de desarrollo de Microsoft Teams](/microsoftteams/platform/) para ver información sobre las API y los SDK disponibles.
+      Hemos cambiado el nombre de Skype Room Systems Salas de Microsoft Teams que admite completamente las reuniones de Microsoft Teams y ofrece una ruta de migración fácil de Skype Empresarial Teams con solo habilitar Teams en el dispositivo. Además de la capacidad para que los usuarios identifiquen Salas de Microsoft Teams cercanos con la detección de proximidad, las reuniones de Teams se pueden unir con un solo clic, soporte de pantalla doble, Microsoft Whiteboard y seguimos incorporando características innovadoras como una cámara de contenido con captura inteligente.
+- name: General
+  questions:
   - question: ¿Se admitirán desarrollos de terceros en Microsoft Teams?
     answer: >
       Sí, la integración de aplicaciones es una de las principales ventajas que tiene adoptar Teams. Actualmente admitimos bots, conectores y extensiones de terceros en Microsoft Teams. Además, tenemos un gran ecosistema de complementos disponibles en la tienda de aplicaciones de Microsoft Teams.
@@ -103,19 +208,14 @@ sections:
   - question: ¿Cuál es el plan para las capacidades de voz en línea de Microsoft?
     answer: >
       Lo primordial de nuestra solución de voz es el Sistema telefónico, el que está disponible actualmente. Los clientes también pueden agregar un Plan de llamadas de Microsoft que proporcione soporte técnico completo para las llamadas, incluida la adquisición y asignación de números de forma directa en Microsoft 365. Los clientes que quieran mantener sus líneas troncales de telecomunicaciones pueden usar enrutamiento directo, incluido dentro del Sistema telefónico. Mezcle y combine ambas cosas como considere oportuno para las necesidades de su organización de tener una solución de voz completa.
-  - question: ¿Cuáles son las instrucciones para los clientes que ya han implementado Sistema telefónico (PBX en la nube) en Skype Empresarial Online?
-    answer: "Microsoft Teams abarca todo lo que necesita para sus llamadas. Animamos a todos Microsoft 365 clientes a empezar a usar Teams tan pronto como sea posible. Usar Teams le ayudará a garantizar que todas las cargas de trabajo críticas estén habilitadas para Teams antes de la retirada del servicio Skype Empresarial Online. \n"
-  - question: ¿Cuáles son las instrucciones para los clientes que usan hoy Telefonía IP empresarial y quieren cambiarse a Teams y usar las funciones de llamada?
+  - question: ¿Qué API y SDK estarán disponibles para Microsoft Teams?
     answer: >
-      Los clientes interesados en incorporar su servicio telefónico a Microsoft Teams pueden hacerlo ahora con la disponibilidad general de [Enrutamiento directo](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359). Enrutamiento directo y Planes de llamada son las dos opciones de tono de marcado en Microsoft Teams.
-  - question: ¿La cobertura de Audioconferencia de Microsoft Teams es diferente de la de Skype Empresarial?
+      Visite la [Plataforma de desarrollo de Microsoft Teams](/microsoftteams/platform/) para ver información sobre las API y los SDK disponibles.
+  - question: ¿Cuáles son las ventajas de la infraestructura de back-end de Teams?
     answer: >
-      No habrá ningún cambio en la cobertura de Audioconferencia a consecuencia de su disponibilidad en Microsoft Teams. La cobertura actual de más de 90 países y más de 400 ciudades se mantendrá en ambos productos. Para ver la lista actual, consulte [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-  - question: ¿Los proveedores de servicios de audioconferencia (ACP) externos son compatibles en Microsoft Teams?
+      Teams está construido para la nube en una arquitectura de micro servicios altamente escalable que es eficiente en el consumo de ancho de banda, proporciona una mayor telemetría, y permite el mantenimiento y las actualizaciones con una mínima interrupción. Como resultado, los usuarios podrán unirse a las reuniones con mayor rapidez y mejorará su experiencia de uso del explorador sin necesidad de descargar complementos. Esta moderna infraestructura permite acceder fácilmente a Microsoft Cognitive Services, que cuenta con funciones de transcripción, traducción, reconocimiento de voz y aprendizaje automático, además de tener la capacidad de optimizar la sencillez y la eficacia de la comunicación y la colaboración.
+  - question: ¿Cómo pueden saber los clientes cuándo están disponibles las funcionalidades de Skype Empresarial en Microsoft Teams?
     answer: >
-      No hay planes para el soporte de proveedores de servicios de audioconferencia (ACP) externos en Microsoft Teams. Creemos que los clientes que usen Microsoft Teams y Skype Empresarial obtendrán la mejor experiencia en sus audioconferencias con nuestros servicios de audioconferencia. Los clientes que necesiten la compatibilidad con proveedores de servicios de audioconferencia en las reuniones de Skype Empresarial pueden continuar usando su cliente de Skype Empresarial para unirse a las reuniones de Skype Empresarial. Las reuniones programadas en Teams deberán usar los servicios de audioconferencia de Microsoft 365. Con el fin de ofrecer un tiempo adicional de transición, el soporte técnico para la integración de proveedores de audioconferencias de terceros (ACP) en Skype Empresarial Online se ha ampliado hasta el 31 de julio de 2021, con compatibilidad limitada para los espacios empresariales restantes. Es una actualización de la escala de tiempo para los ACP que se anunció en abril de 2018.
+      Consulte la [hoja de ruta de Microsoft 365](https://aka.ms/O365Roadmap).
   - question: ¿Cuál es el plan para el soporte de interoperabilidad de video para las reuniones de Teams?
-    answer: >
-      Los [dispositivos de las salas de reuniones](https://products.office.com/microsoft-teams/across-devices) tienen un papel fundamental en la idea que tenemos para los lugares de trabajo modernos. Estamos preparando los [servicios de interoperabilidad de vídeo en la nube](./cloud-video-interop.md) para ofrecer soporte a las reuniones de Teams con sistemas VTC existentes a través de nuestros partners Pexip, Polycom y Blue Jeans.
-  - question: ¿La última generación de Sistemas de salas de Skype (V2) admitirá reuniones en Teams?
-    answer: Hemos cambiado el nombre de Skype Room Systems Salas de Microsoft Teams que admite completamente las reuniones de Microsoft Teams y ofrece una ruta de migración fácil de Skype Empresarial Teams con solo habilitar Teams en el dispositivo. Además de la capacidad para que los usuarios identifiquen Salas de Microsoft Teams cercanos con la detección de proximidad, las reuniones de Teams se pueden unir con un solo clic, soporte de pantalla doble, Microsoft Whiteboard y seguimos incorporando características innovadoras como una cámara de contenido con captura inteligente.
+    answer: Los [dispositivos de las salas de reuniones](https://products.office.com/microsoft-teams/across-devices) tienen un papel fundamental en la idea que tenemos para los lugares de trabajo modernos. Estamos preparando los [servicios de interoperabilidad de vídeo en la nube](./cloud-video-interop.md) para ofrecer soporte a las reuniones de Teams con sistemas VTC existentes a través de nuestros partners Pexip, Polycom y Blue Jeans.

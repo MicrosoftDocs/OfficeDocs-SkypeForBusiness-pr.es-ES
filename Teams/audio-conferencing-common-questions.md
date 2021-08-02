@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Las siguientes son algunas de las principales preguntas que tenemos de nuestros clientes que quieren usar audioconferencias.
-ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: c8c5ea445e9c8d01f869a9340934fe75fe92a329
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856419"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679755"
 ---
 # <a name="audio-conferencing-common-questions"></a>Preguntas frecuentes sobre Audioconferencia
 
@@ -131,10 +131,11 @@ Estamos trabajando en una solución que permitirá al usuario acceder y restable
 
 Para participantes y organizadores de la reunión:
 
-| Nombre del comando | Teclas de comando | Descripción                                                     |
-|--------------|--------------|-----------------------------------------------------------------|
-| Menú comando | \*1          | Presione 1 para reproducir las descripciones de los comandos de teclado de \* marcado que están disponibles. |
-| Silenciar o activar la función  | \*6          | Presione \* 6 para silenciar o activar el audio.                         |
+| Nombre del comando    | Teclas de comando | Descripción                                                                 |
+|--------------   |--------------|-----------------------------------------------------------------------------|
+| Menú comando    | \*1          | Presione 1 para reproducir las descripciones de los comandos de teclado de \* marcado que están disponibles. |
+| Subir o bajar la mano| \*5          | Presione \* 5 para subir o bajar la mano.                                           |  
+| Silenciar o activar la función     | \*6          | Presione \* 6 para silenciar o activar el audio.                                     |
 
 Solo para organizadores de reuniones:
 
