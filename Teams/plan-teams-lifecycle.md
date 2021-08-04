@@ -19,7 +19,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 6776631ec79f3f5d4f96756f1cf5ee119319171f
 ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/14/2021
 ms.locfileid: "53428226"

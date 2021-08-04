@@ -21,7 +21,7 @@ ms.custom:
 description: 'Obtenga información sobre causas comunes de error en el inicio de sesión en Skype Empresarial Online y la forma de solucionar estos problemas. '
 ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52239408"

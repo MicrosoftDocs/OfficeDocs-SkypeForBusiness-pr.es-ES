@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e51d472bbf3310b03fea6344b354fc307c8ce08a
 ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/26/2021
 ms.locfileid: "53587379"

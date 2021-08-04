@@ -21,7 +21,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 08b6686a640e039cbd84d95196824d4b35fb9f35
 ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/29/2021
 ms.locfileid: "53646041"
@@ -45,7 +45,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Número de canales por equipo    | 200 (incluye canales eliminados)<sup>4</sup>        |
 |Número de canales privados por equipo    |30 (incluye canales eliminados)<sup>4</sup>        |
 |Número de miembros de un canal privado    |250|
-|Tamaño máximo de lista de distribución, grupo de seguridad o grupo de Office 365 que puede importarse a un equipo    |3500|
+|Tamaño máximo de lista de distribución, grupo de seguridad o grupo de Office 365 que puede importarse a un equipo    |3,500|
 |Número máximo de miembros de un grupo de Office 365 que se pueden convertir en un equipo    |10 000<sup>6</sup>     |
 |Tamaño de publicación de conversación de canal | Aproximadamente 28 KB por publicación<sup>5</sup> |
 

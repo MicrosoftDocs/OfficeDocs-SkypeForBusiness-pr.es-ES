@@ -22,7 +22,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51101276"
@@ -228,4 +228,4 @@ Es importante que comprenda el estado general del servicio de Teams para que pue
 - [Impulsar la adopción](adopt-microsoft-teams-landing-page.md) de reuniones y conferencias en toda la organización.
 - [Agregar audioconferencia](deploy-audio-conferencing-teams-landing-page.md)
 - [Implementar voz en la nube](cloud-voice-landing-page.md)
-- Incluya aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Agregue otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que impulsa la adopción de Teams.
+- Incluya aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Agregue otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que fomenta el uso de Teams.

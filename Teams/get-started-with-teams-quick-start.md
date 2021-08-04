@@ -21,7 +21,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: c59220fe886d7301491909c0e099b8cd4c15ae75
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51092248"
@@ -47,9 +47,9 @@ Recomendamos implementar Teams por fases, con una carga de trabajo cada vez, en 
 
 Si tiene una organización mediana o grande, [use el Asesor para Teams para implementar Microsoft Teams](use-advisor-teams-roll-out.md) y planificar la implementación de estas cargas de trabajo en toda la organización. El Asesor para Teams usa al mismo Teams para crear las tareas del plan y asignarlas a sus respectivos propietarios, compartir documentos y habilitar discusiones entre los miembros de su equipo de implementación.
 
-## <a name="make-sure-youre-ready"></a>Asegúrese de estar preparado
+## <a name="make-sure-youre-ready&quot;></a>Asegúrese de estar preparado
 
-Para prepararse para la implementación de Teams, esto es lo que debe hacer, independientemente de si Teams es la primera carga de trabajo ("Teams primero") o la siguiente carga de trabajo de una implementación existente de Microsoft 365 u Office 365:
+Para prepararse para la implementación de Teams, esto es lo que debe hacer, independientemente de si Teams es la primera carga de trabajo (&quot;Teams primero") o la siguiente carga de trabajo de una implementación existente de Microsoft 365 u Office 365:
 
 - [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
   - Esto incluye la configuración del dominio de Microsoft 365 u Office 365, SharePoint Online, Exchange Online y OneDrive para la Empresa.
@@ -74,7 +74,7 @@ Siga los pasos a continuación para configurar un par de equipos e incorporar a 
 
 ## <a name="upgrade-or-migrate-from-skype-for-business"></a>Actualizar o migrar desde Skype Empresarial
 
-Si migra a Teams desde Skype Empresarial (en línea o local) o si necesita una configuración híbrida, también debe seguir la ruta anteriormente recomendada para implementar Teams, aunque primero debe realizar algunos pasos de planificación adicionales. Comience por revisar las instrucciones de la siguiente tabla que se apliquen al perfil de su organización.
+Si migra a Teams desde Skype Empresarial (en línea o local) o si necesita una configuración híbrida, podría interesarle seguir la ruta recomendada anterior para implementar Teams, pero necesitará hacer una planificación adicional. Empiece por revisar las instrucciones de la siguiente tabla que se aplique al perfil de su organización.
 
 |  |Perfil de su organización|Instrucciones  |
 |---------|---------|---------|

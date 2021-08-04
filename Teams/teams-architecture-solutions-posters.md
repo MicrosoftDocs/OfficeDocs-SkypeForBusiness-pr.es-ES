@@ -18,7 +18,7 @@ f1.keywords:
 description: 'Resumen: Obtenga información sobre la arquitectura lógica de los servicios de productividad en Microsoft 365, una de las más destacadas gracias a Microsoft Teams. Obtenga también información sobre las soluciones de voz de Teams.'
 ms.openlocfilehash: 75f1a4a2be0cc2669537a6f7afd031468d246a1a
 ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/02/2021
 ms.locfileid: "52717971"

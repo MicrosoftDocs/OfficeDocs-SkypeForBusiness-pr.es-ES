@@ -22,7 +22,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2fbc1e3c26cfa6afa4835fc2da1a0aae55a21b17
 ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/19/2021
 ms.locfileid: "53482343"
@@ -55,7 +55,7 @@ Todos los requisitos de las siguientes secciones se aplican tanto a la aplicaci�
 |Memoria     |   4,0 GB de RAM (Teams requiere 4 GB de RAM dedicados además de los otros requisitos del sistema)     |
 |Disco duro    |   1.5 GB de espacio en disco disponible      |
 |Pantalla    | resolución de 1280 × 800 o superior    |
-|Sistema operativo  |    Una de las tres últimas versiones de macOS. Puede obtener más ifnormación sobre las últimas versiones de macOS y cómo actualizar su versión de macOS [aquí](https://support.apple.com/es-ES/HT201260). Por ejemplo, si se publica una nueva versión de macOS, la nueva versión y las dos que inmediatamente anteriores serán las versiones admitidas.      |
+|Sistema operativo  |    Una de las tres últimas versiones de macOS. Puede obtener más ifnormación sobre las últimas versiones de macOS y cómo actualizar su versión de macOS [aquí](https://support.apple.com/en-us/HT201260). Por ejemplo, si se publica una nueva versión de macOS, la nueva versión y las dos que inmediatamente anteriores serán las versiones admitidas.      |
 |Vídeo  |    Cámara web compatible     |
 |Voz    |  Micrófono y altavoces compatibles, auriculares con micrófono o dispositivo equivalente       |
 |Reuniones y llamadas de vídeo | <ul><li>Requiere un procesador de 2 núcleos. Para una mayor resolución de vídeo o de pantalla compartida y tasa de encuadre, se recomienda un procesador de 4 núcleos o mejor. </li><li>Unirse a una reunión usando la detección de proximidad en una Sala de Microsoft Teams no está disponible en macOS.</li></ul>

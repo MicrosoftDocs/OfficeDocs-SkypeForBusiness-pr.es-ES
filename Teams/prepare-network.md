@@ -21,7 +21,7 @@ ms.custom:
 - seo-marvel-mar2020
 ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
 ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/14/2021
 ms.locfileid: "53420835"
@@ -306,7 +306,7 @@ Los requisitos de ancho de banda **mínimos**, **recomendados** y para **mejor r
 
 - Los requisitos **mínimos** de ancho de banda para videollamadas son una resolución de hasta 240p, velocidades de fotogramas de contenido de uso compartido de pantalla adaptables de 1,875 a 7,5 fps y vídeo en modo conferencia o galería grande con una resolución de hasta 540p.  
 
-- Los requisitos de ancho de banda **recomendados** para las videollamadas son una resolución de hasta 1080p<sup>\*</sup>, velocidades de fotogramas de contenido de uso compartido de pantalla adaptables de 7,5 a 30 fps y vídeo en modo conferencia o galería grande con una resolución de hasta 1080p<sup>\*</sup>.  
+- Los requisitos de ancho de banda **recomendados** para las videollamadas son una resolución de hasta 1080p <sup>\*</sup>, velocidades de fotogramas de contenido de uso compartido de pantalla adaptables de 7,5 a 30 fps y vídeo en modo conferencia o galería grande con una resolución de hasta 1080p <sup>\*</sup>.  
 
 - Las instrucciones de **mejor rendimiento** permiten vídeo de mayor fidelidad para reuniones de más asistentes, entornos de pérdida alta y mayor contenido de movimiento con velocidades de fotogramas de contenido de uso compartido de pantalla adaptables de 15 a 30 fps.
 

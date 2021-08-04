@@ -26,7 +26,7 @@ ms.custom:
 description: Descubra cómo administrar la configuración de directiva de reunión en Teams. Use la configuración de directiva para controlar las características disponibles para los participantes de la reunión en las reuniones programadas por los usuarios.
 ms.openlocfilehash: 09d821eb4a0ae6f1315ff5ff817c4b702512a974
 ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/08/2021
 ms.locfileid: "52282797"

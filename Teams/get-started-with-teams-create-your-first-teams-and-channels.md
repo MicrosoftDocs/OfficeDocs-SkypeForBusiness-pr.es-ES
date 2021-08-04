@@ -20,7 +20,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 33efab40cb8c2579712a06ad6c2d7dcbf58fbdde
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49809550"
@@ -65,7 +65,7 @@ En el lado izquierdo de Teams, haga clic en **Equipos**, en la parte inferior de
 
 Una vez que haya creado el equipo, invite a personas a unirse a él. Puede agregar usuarios individuales, grupos e incluso un grupo entero de contactos (anteriormente conocido como "lista de distribución"). 
 
-![Captura de pantalla de un equipo de ejemplo, que muestra el nombre del equipo y la descripción](media/get-started-with-teams-create-team.png "Captura de pantalla de un equipo "Familiarizarse con Teams" de ejemplo, que muestra el nombre del equipo y la descripción") 
+![Captura de pantalla de un equipo de ejemplo, que muestra el nombre del equipo y la descripción](media/get-started-with-teams-create-team.png "Captura de pantalla de un equipo &quot;Familiarizarse con Teams&quot; de ejemplo, que muestra el nombre del equipo y la descripción") 
 
 ### <a name="add-a-team-owner"></a>Agregar propietario del equipo
 Busque el equipo que ha creado, haga clic en **Más opciones** > **Administrar equipo**. Después, vaya a la pestaña **Miembros**. Busque las personas que desea designar como propietarios del equipo. En **Rol**, haga clic en **Propietario**.
@@ -81,7 +81,7 @@ Como propietario de un equipo, puede marcar canales favoritos automáticamente p
 
 Este es un ejemplo del canal "¿Cómo..." en el equipo "Familiarizarse con Teams", que muestra pestañas ancladas que vinculan a páginas web de Teams (vínculos de descarga de Teams, centro de ayuda de Teams y vídeos de aprendizaje de Teams). 
 
-![Captura de pantalla de las pestañas ancladas en el equipo de ejemplo](media/get-started-with-teams-add-tabs.png "Captura de pantalla de pestañas ancladas en el equipo de ejemplo "Familiarizarse con Teams".") 
+![Captura de pantalla de las pestañas ancladas en el equipo de ejemplo](media/get-started-with-teams-add-tabs.png "Captura de pantalla de pestañas ancladas en el equipo de ejemplo &quot;Familiarizarse con Teams&quot;.") 
 
 ## <a name="next-steps"></a>Siguientes pasos
 Vaya a [Incorporar primeros usuarios](get-started-with-teams-onboard-early-adopters.md).

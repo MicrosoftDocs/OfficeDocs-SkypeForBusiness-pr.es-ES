@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51598579"
@@ -215,7 +215,7 @@ Con PowerShell, puede escribir un script para crear equipos, canales y configura
 
 #### <a name="manual-team-creation"></a>Creación de equipos manual
 
-Los alumnos y los formadores podrán sacar el máximo partido a Teams cuando puedan usarlo con barreras mínimas y dispongan de la flexibilidad para adaptarlo a sus necesidades. Una forma en que los usuarios pueden adaptar su experiencia de Teams consiste en contar con la capacidad de crear equipos. Los formadores configuran su propio equipo de clase e invitan a alumnos como se muestra [aquí](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Los formadores pueden invitar a los alumnos[agregando alumnos al equipo](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [compartiendo un código de unión](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f) o [compartiendo un vínculo al equipo](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Si es posible, es mejor que los formadores agreguen a los alumnos al equipo para asegurarse de que los alumnos obtengan acceso y se les notifique que se les ha agregado a un equipo.
+Los alumnos y los formadores podrán sacar el máximo partido a Teams cuando puedan usarlo con barreras mínimas y dispongan de la flexibilidad para adaptarlo a sus necesidades. Una forma en que los usuarios pueden adaptar su experiencia de Teams consiste en contar con la capacidad de crear equipos. Los formadores configuran su propio equipo de clase e invitan a alumnos como se muestra [aquí](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Los formadores pueden invitar a los alumnos[agregando alumnos al equipo](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [compartiendo un código de unión](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f) o [compartiendo un vínculo al equipo](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Si es posible, es mejor que los formadores agreguen a los alumnos al equipo para asegurarse de que los alumnos obtengan acceso y se les notifique que se les ha agregado a un equipo.
 
 ##### <a name="benefits"></a>Ventajas
 
