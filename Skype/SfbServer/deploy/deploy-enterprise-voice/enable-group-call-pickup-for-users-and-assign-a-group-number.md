@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: Habilite a los usuarios para la recogida de llamadas en grupo en Skype Empresarial Server Telefonía IP empresarial y asigne un número de grupo.
-ms.openlocfilehash: 5469e9634e16b855993518092114184a2dca7359
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Habilite a los usuarios para la recogida de llamadas de grupo Skype Empresarial Server Telefonía IP empresarial y asigne un número de grupo.
+ms.openlocfilehash: 6765cfab12cd888bb5e86f7b1c9b709b8edc7a8855d35de071ebb25619e48ce8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111836"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305912"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Habilitar la recogida de llamadas de grupo para los usuarios y asignar un número de grupo en Skype Empresarial
 
-Habilite a los usuarios para la recogida de llamadas en grupo en Skype Empresarial Server Telefonía IP empresarial y asigne un número de grupo.
+Habilite a los usuarios para la recogida de llamadas de grupo Skype Empresarial Server Telefonía IP empresarial y asigne un número de grupo.
 
 Después de agregar números de grupo de recogida de llamadas a la tabla de órbitas de estacionamiento de llamadas, use la herramienta SEFAUtil para asignar los números de grupo a los usuarios y habilitar la recogida de llamadas de grupo para ellos.
 
@@ -48,6 +48,6 @@ Después de agregar números de grupo de recogida de llamadas a la tabla de órb
    SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
    ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Deshabilitar la recogida de grupos para usuarios](/previous-versions/office/lync-server-2013/lync-server-2013-disable-group-call-pickup-for-users)

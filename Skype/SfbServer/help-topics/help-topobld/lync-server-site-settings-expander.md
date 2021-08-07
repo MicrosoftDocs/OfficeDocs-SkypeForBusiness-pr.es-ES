@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 'Para editar las propiedades de un sitio ya creado, efectúe las acciones siguientes:'
-ms.openlocfilehash: aedb248bf229af754d2ef8eb9c5e3837c69c808d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9ace8cc0975e971e7f3c3fe55c89324330816f62d78b0ee5c9b23d16e9ff9689
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305472"
 ---
 # <a name="lync-server-site-settings-expander"></a>Expansor de configuración de sitio de Lync Server
 
@@ -43,6 +43,6 @@ Si se ha definido una configuración de federación del servidor o grupo de serv
 > [!CAUTION]
 > Esta configuración afectará a todos los sitios. Asegúrese de que la configuración que está configurando en este sitio es adecuada para todos los sitios.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 Para obtener información, consulte [Topologías para el acceso de usuarios externos](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-external-user-access).

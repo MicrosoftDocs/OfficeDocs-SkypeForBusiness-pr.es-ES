@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
 description: tblSystemRevision contiene el número de revisión que se utiliza con la tabla tblAdminLock para conseguir coherencia entre varios clientes de administrador.
-ms.openlocfilehash: 5bbcf547d6e6f31cc3e9d71415fed6f351c82910
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dfe2de9b16aa7433e3047d012d4e4a29966ed3f6a303d78f49e4ca6d810ea2a5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831420"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305362"
 ---
 # <a name="tblsystemrevision"></a>tblSystemRevision
  

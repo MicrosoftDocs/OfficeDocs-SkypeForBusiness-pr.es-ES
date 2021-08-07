@@ -1,5 +1,5 @@
 ---
-title: Modificar las opciones de configuración del tronco SIP en Skype Empresarial Server
+title: 'Skype Empresarial Server: Modificar las opciones de configuración del tronco SIP'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
-description: 'Summary: Learn how to modify SIP trunk configuration settings by using the Skype for Business Server Control Panel.'
-ms.openlocfilehash: 34db4126f8f91ecfd7d68f0f982be5c81769b455
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to modify SIP trunk configuration settings by using the Skype Empresarial Server Control Panel.'
+ms.openlocfilehash: 1f7ef7c237295cc9a308a468b8f05424ebfe9d38
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772551"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar las opciones de configuración del tronco SIP en Skype Empresarial Server
+# <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>Skype Empresarial Server: Modificar las opciones de configuración del tronco SIP 
  
-**Resumen:** Obtenga información sobre cómo modificar las opciones de configuración del tronco SIP mediante el Panel de control de Skype Empresarial Server.
+**Resumen:** Obtenga información sobre cómo modificar las opciones de configuración del tronco SIP mediante el Panel Skype Empresarial Server control.
   
 Las opciones de configuración del tronco SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de red telefónica conmutada (RTC), una central de conmutación (PBX) de sucursal de IP-Public o un controlador de borde de sesión (SBC) en el proveedor de servicios. Estos valores determinan lo siguiente:
   
@@ -35,16 +35,16 @@ Las opciones de configuración del tronco SIP definen la relación y las capacid
     
 - Se requiere o no cifrado de Protocolo de transporte en tiempo real seguro (SRTP) en cada tronco.
     
-Al instalar Skype Empresarial Server, se crea una colección global de opciones de configuración de tronco SIP. Los administradores también pueden crear colecciones de valores personalizadas en el ámbito del sitio o servicio (solo para el servicio de puerta de enlace de RTC). Cualquiera de estas colecciones se puede modificar más adelante mediante el Panel de control de Skype Empresarial Server o el Shell de administración de Skype Empresarial Server.
+Al instalar Skype Empresarial Server, se crea una colección global de opciones de configuración de tronco SIP. Los administradores también pueden crear colecciones de valores personalizadas en el ámbito del sitio o servicio (solo para el servicio de puerta de enlace de RTC). Cualquiera de estas colecciones se puede modificar más adelante mediante el Panel de control Skype Empresarial Server o el Shell Skype Empresarial Server administración.
   
-Al modificar las opciones de configuración del tronco SIP mediante el Panel de control de Skype Empresarial Server, las siguientes opciones están disponibles.
+Al modificar las opciones de configuración del tronco SIP Skype Empresarial Server panel de control, las siguientes opciones están disponibles.
   
 |**Valor de IU**|**Parámetro de PowerShell**|**Descripción**|
 |:-----|:-----|:-----|
 |Nombre  <br/> |Identidad  <br/> |Identificador único para la colección. Esta propiedad es de solo lectura; no puede cambiar la Identidad de una colección o las opciones de configuración de troncos.  <br/> |
 |Descripción  <br/> |Descripción  <br/> |Proporciona una manera para que los administradores almacenen información adicional acerca de la configuración (por ejemplo, el propósito de la configuración de troncos).  <br/> |
 |Cantidad máxima de cuadros de diálogo admitidos  <br/> |MaxEarlyDialogs  <br/> |La cantidad máxima de respuestas bifurcadas que puede recibir una puerta de enlace RTC, IP-PBX o SBC en el proveedor de servicio para una invitación enviada al Servidor de mediación.  <br/> |
-|Nivel de compatibilidad con el cifrado  <br/> |SRTPMode  <br/> | Indica el nivel de apoyo para proteger el tráfico de medios entre el Servidor de mediación y la puerta de enlace RTC, IP-PBX, o SBC en el proveedor de servicio. Para los casos de desvío de medios, este valor debe ser compatible con la configuración de EncryptionLevel en la configuración de medios. La configuración de medios se establece mediante los [cmdlets New-CsMediaConfiguration](/powershell/module/skype/new-csmediaconfiguration?view=skype-ps) y [Set-CsMediaConfiguration.](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps) <br/>  Los valores permitidos son: <br/>  Requeridos: debe usarse el cifrado SRTP. <br/>  Opcional: el SRTP se utilizará si la puerta de enlace lo admite. <br/>  No admitido: el cifrado SRTP no está admitido y, por lo tanto, no se utilizará. <br/>  El SRTPMode se utiliza solo si la puerta de enlace está configurada para usar la Seguridad de la capa de transporte (TLS). Si la puerta de enlace está configurada con el Protocolo de control de transporte (TCP) como transporte, el SRTPMode se configura internamente como No admitido.<br/> |
+|Nivel de compatibilidad con el cifrado  <br/> |SRTPMode  <br/> | Indica el nivel de apoyo para proteger el tráfico de medios entre el Servidor de mediación y la puerta de enlace RTC, IP-PBX, o SBC en el proveedor de servicio. Para los casos de desvío de medios, este valor debe ser compatible con la configuración de EncryptionLevel en la configuración de medios. La configuración de medios se establece mediante los [cmdlets New-CsMediaConfiguration](/powershell/module/skype/new-csmediaconfiguration) y [Set-CsMediaConfiguration.](/powershell/module/skype/set-csmediaconfiguration) <br/>  Los valores permitidos son: <br/>  Requeridos: debe usarse el cifrado SRTP. <br/>  Opcional: el SRTP se utilizará si la puerta de enlace lo admite. <br/>  No admitido: el cifrado SRTP no está admitido y, por lo tanto, no se utilizará. <br/>  El SRTPMode se utiliza solo si la puerta de enlace está configurada para usar la Seguridad de la capa de transporte (TLS). Si la puerta de enlace está configurada con el Protocolo de control de transporte (TCP) como transporte, el SRTPMode se configura internamente como No admitido.<br/> |
 |Hacer referencia al soporte  <br/> |Enable3pccRefer  <br/> EnableReferSupport  <br/> |Si se configura en **Habilitar enviar referencia a la puerta de enlace**, indica que el tronco admite la recepción de Solicitudes de referencia desde el Servidor de mediación.  <br/> Si está establecido como **Habilitar la referencia mediante un control de llamadas de terceros**, indica que el protocolo 3pcc puede ser utilizado para permitir llamadas transferidas para desviar el sitio hospedado. 3pcc también se conoce como "control de terceros" y ocurre cuando un tercero se utiliza para conectar un par de personas que llaman (por ejemplo, un operador que realiza una llamada de la persona A a una persona B).<br/> |
 |Habilitar el desvío de medios  <br/> |EnableBypass  <br/> |Indica si la omisión de medios se encuentra habilitado para este tronco. La omisión de medios solo puede estar habilitada si el **Procesamiento de medios centralizado** también está habilitado.<br/> |
 |Procesamiento de medios centralizado  <br/> |ConcentratedTopology  <br/> |Indica si existe un punto de terminación de medios conocido. (Un ejemplo de punto de terminación de medios conocido puede ser una puerta de enlace RTC donde una terminación de medios tiene la misma IP que la terminación de señal).  <br/> |
@@ -61,11 +61,11 @@ Al modificar las opciones de configuración del tronco SIP mediante el Panel de 
 |Número llamado  <br/> |N/D  <br/> |Indica que el número de teléfono que se debe probar es el número telefónico de la persona llamada.  <br/> |
    
 > [!NOTE]
-> Los cmdlets CsTrunkConfiguration de Lync Server admiten propiedades adicionales que no se muestran en el Panel de control de Lync Server. Para obtener más información, vea el tema de ayuda para el cmdlet [Set-CsTrunkConfiguration.](/powershell/module/skype/set-cstrunkconfiguration?view=skype-ps)
+> Los cmdlets CsTrunkConfiguration de Lync Server admiten propiedades adicionales que no se muestran en el Panel de control de Lync Server. Para obtener más información, vea el tema de ayuda para el cmdlet [Set-CsTrunkConfiguration.](/powershell/module/skype/set-cstrunkconfiguration)
   
-### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para modificar las opciones de configuración del tronco SIP mediante el Panel de control de Skype Empresarial Server
+### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para modificar las opciones de configuración del tronco SIP mediante Skype Empresarial Server Panel de control
 
-1. En el Panel de control de Skype Empresarial Server, haga clic en **Enrutamiento** de voz y, a continuación, haga clic en **Configuración de tronco.**
+1. En Skype Empresarial Server panel de control, haga clic en **Enrutamiento de** voz y, a continuación, haga clic en Configuración **del tronco**.
     
 2. En la pestaña **Configuración de tronco** haga doble clic en las opciones de configuración de troncos que se modificarán. Tenga en cuenta que solo puede editar un grupo de opciones de configuración a la vez. Si desea realizar los mismos cambios en varias colecciones, utilice Windows PowerShell.
     
@@ -75,4 +75,4 @@ Al modificar las opciones de configuración del tronco SIP mediante el Panel de 
     
 5. En el cuadro de diálogo **Configuración de voz sin confirmar**, haga clic en **Aceptar**.
     
-6. En el **cuadro de diálogo Panel de control de Skype Empresarial Server,** haga clic en **Aceptar**.
+6. En el **cuadro Skype Empresarial Server panel de control,** haga clic en **Aceptar**.

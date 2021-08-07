@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 'Resumen: obtenga información sobre la configuración de calidad de la experiencia (QoE) en Skype Empresarial Server.'
-ms.openlocfilehash: 8cce0731112166ae232b6273b556d37d693564e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2f9c233b46588bd70566606f538451063802f5f3d35c4ffef59a8d0f7e6d85f9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305442"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Crear opciones de configuración de calidad de la experiencia en Skype Empresarial Server
  
@@ -27,7 +27,7 @@ Las métricas de calidad de la experiencia (QoE) realizan un seguimiento de la c
   
 Al instalar Skype Empresarial Server, se crea una única colección global de opciones de configuración de QoE. Los administradores pueden también crear una configuración personalizada en el ámbito de sitio. Cuando se usa esta configuración en el ámbito del sitio, predomina sobre la configuración global. Por ejemplo, si crea una configuración de ámbito de sitio para el sitio redmond, dicha configuración (en lugar de la configuración global) se usará para administrar QoE en Redmond.
   
-Las opciones de configuración de QoE se pueden crear mediante el Panel de control de Skype Empresarial Server o el cmdlet [New-CsQoEConfiguration.](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) Si usa el Panel de control de Skype Empresarial Server para crear una nueva configuración, estarán disponibles las siguientes opciones:
+Las opciones de configuración de QoE se pueden crear mediante Skype Empresarial Server Panel de control o el cmdlet [New-CsQoEConfiguration.](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) Si usa el Panel Skype Empresarial Server control para crear una nueva configuración, estarán disponibles las siguientes opciones:
   
 |**Configuración de la interfaz de usuario**|**Parámetro de PowerShell**|**Descripción**|
 |:-----|:-----|:-----|
@@ -37,13 +37,13 @@ Las opciones de configuración de QoE se pueden crear mediante el Panel de contr
 |Conservar los datos de QoE durante la duración máxima (días)  <br/> |KeepQoEDataForDays  <br/> |Número de días que se almacenarán los datos de QoE antes de purgarse de la base de datos. Este valor se omite si la depuración está deshabilitada.  <br/> |
    
 > [!NOTE]
-> El cmdlet New-CsQoEConfiguration incluye opciones adicionales que no están disponibles en el Panel de control de Skype Empresarial Server. Para obtener más información, vea el tema de ayuda [New-CsQoEConfiguration.](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)
+> El cmdlet New-CsQoEConfiguration incluye opciones adicionales que no están disponibles en Skype Empresarial Server Panel de control. Para obtener más información, vea el tema de ayuda [New-CsQoEConfiguration.](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)
   
-### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para crear opciones de configuración de QoE mediante el Panel de control de Skype Empresarial Server
+### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para crear opciones de configuración de QoE mediante Skype Empresarial Server Panel de control
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o como miembro del rol CsVoiceAdministrator, CsServerAdministrator, o CsAdministrator. Para obtener información detallada, consulte **Delegación de permisos de instalación**.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.  
     
 3. En la barra de navegación izquierda, haga clic en **Configuración y archivado** y, a continuación, en **Datos sobre la calidad de la experiencia**.
     
@@ -61,9 +61,9 @@ Las opciones de configuración de QoE se pueden crear mediante el Panel de contr
     
 7. Haga clic en **Confirmar**.
     
-## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Creación de opciones de configuración de QoE mediante Windows PowerShell cmdlets
+## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Creación de configuraciones de QoE Configuración mediante cmdlets Windows PowerShell configuración
 
-Puede crear opciones de configuración de QoE mediante Windows PowerShell y el cmdlet New-CsQoEConfiguration. Puede ejecutar este cmdlet desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del Windows PowerShell remoto para conectarse a Skype Empresarial Server, vea el artículo de blog "Inicio rápido: Administración de [Microsoft Lync Server 2010 mediante PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
+Puede crear opciones de configuración de QoE mediante Windows PowerShell y el cmdlet New-CsQoEConfiguration usuario. Puede ejecutar este cmdlet desde el Shell de administración Skype Empresarial Server desde una sesión remota de Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell para conectarse a Skype Empresarial Server, vea el artículo de blog "Inicio rápido: Administración de [Microsoft Lync Server 2010 mediante PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
   
 ### <a name="to-create-a-new-collection-of-qoe-configuration-settings"></a>Para crear una nueva colección de opciones de configuración de QoE
 

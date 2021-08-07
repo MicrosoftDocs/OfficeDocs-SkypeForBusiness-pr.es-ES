@@ -1,5 +1,5 @@
 ---
-title: Eliminar opciones de configuración de calidad de la experiencia en Skype Empresarial Server
+title: Eliminar las opciones de configuración de calidad de la experiencia en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,15 +11,15 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
-description: 'Summary: Learn how to delete Quality of Experience (QoE) settings in Skype for Business Server.'
-ms.openlocfilehash: b48ddb9af715cd33b11d3c2f1c7ea90b3746aa4a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to delete Quality of Experience (QoE) settings in Skype Empresarial Server.'
+ms.openlocfilehash: 8f97ed5fc1a59b68a4087406c14ad4414cc106ad25401322f025101f09aabe4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095284"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305432"
 ---
-# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Eliminar opciones de configuración de calidad de la experiencia en Skype Empresarial Server
+# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Eliminar las opciones de configuración de calidad de la experiencia en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo eliminar la configuración de calidad de la experiencia (QoE) en Skype Empresarial Server.
   
@@ -29,13 +29,13 @@ Al instalar Skype Empresarial Server, se crea una única colección global de op
   
 Tenga en cuenta que también puede "eliminar" la configuración global. Sin embargo, esta no se quitará realmente. En su lugar, todas las propiedades de dicha colección se restablecerán a sus valores predeterminados. Por ejemplo, la depuración predeterminada está habilitada en una colección de opciones de configuración de QoE. Supongamos que modifica la colección global y la purga se deshabilita. Si más adelante elimina la configuración global, todas las propiedades se restablecerán a sus valores predeterminados. En este caso, eso significa que la purga volverá a estar habilitada.
   
-Puede quitar las opciones de configuración de QoE mediante el Panel de control de Skype Empresarial Server o mediante el cmdlet [Remove-CsQoEConfiguration.](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)
+Puede quitar las opciones de configuración de QoE mediante el Panel de control Skype Empresarial Server o mediante el cmdlet [Remove-CsQoEConfiguration.](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)
   
-### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para eliminar las opciones de configuración de QoE mediante el Panel de control de Skype Empresarial Server
+### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para eliminar las opciones de configuración de QoE mediante Skype Empresarial Server Panel de control
 
 1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o como miembro del rol CsVoiceAdministrator, CsServerAdministrator, o CsAdministrator. Para obtener información detallada, consulte **Delegación de permisos de instalación**.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.  
     
 3. En la barra de navegación izquierda, haga clic en **Configuración y archivado** y, a continuación, en **Datos sobre la calidad de la experiencia**.
     
@@ -43,9 +43,9 @@ Puede quitar las opciones de configuración de QoE mediante el Panel de control 
     
 5. Haga clic en **Aceptar**.
     
-## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Quitar las opciones de configuración de QoE mediante Windows PowerShell cmdlets
+## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Quitar la configuración de QoE Configuración mediante Windows PowerShell cmdlets
 
-Puede eliminar las opciones de configuración de QoE mediante Windows PowerShell y el cmdlet **Remove-CsQoEConfiguration.** Puede ejecutar este cmdlet desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del Windows PowerShell remoto para conectarse a Skype Empresarial Server, vea el artículo de blog "Inicio rápido: Administración de [Microsoft Lync Server 2010 mediante PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
+Puede eliminar las opciones de configuración de QoE mediante Windows PowerShell y el cmdlet **Remove-CsQoEConfiguration.** Puede ejecutar este cmdlet desde el Shell de administración Skype Empresarial Server desde una sesión remota de Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell para conectarse a Skype Empresarial Server, vea el artículo de blog "Inicio rápido: Administración de [Microsoft Lync Server 2010 mediante PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
   
 ### <a name="to-remove-a-specified-collection-of-qoe-configuration-settings"></a>Para quitar un conjunto concreto de configuraciones de QoE
 
@@ -73,6 +73,6 @@ Puede eliminar las opciones de configuración de QoE mediante Windows PowerShell
 
 Para obtener más información, [vea Remove-CsQoEConfiguration](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Purgar manualmente el registro detallado de llamadas y las bases de datos de calidad de la experiencia en Skype Empresarial Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)

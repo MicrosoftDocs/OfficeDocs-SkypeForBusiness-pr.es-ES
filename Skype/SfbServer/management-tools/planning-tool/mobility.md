@@ -1,5 +1,5 @@
 ---
-title: Mobility (Planning Tool)
+title: Herramienta de planeación de movilidad
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,16 +13,16 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
-description: La característica de movilidad de Skype Empresarial Server 2015 admite la funcionalidad de Skype Empresarial en dispositivos móviles.
-ms.openlocfilehash: 8b1459b88b8163a0c8c2b2a56f8052e5d95527fc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: La Skype Empresarial Server movilidad de 2015 admite funciones en dispositivos móviles.
+ms.openlocfilehash: fad847cf870a06931dcc678741ce957406852e77
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802960"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725143"
 ---
-# <a name="mobility-planning-tool"></a>Mobility (Planning Tool)
+# <a name="mobility-planning-tool"></a>Herramienta de planeación de movilidad
  
-La característica de movilidad de Skype Empresarial Server 2015 admite la funcionalidad de Skype Empresarial en dispositivos móviles.
+La característica de movilidad de Skype Empresarial Server 2015 admite Skype Empresarial funcionalidad en dispositivos móviles.
   
-La funcionalidad de movilidad es la misma que en Lync Server 2013. Para obtener más información acerca de cómo preparar el entorno para la movilidad, consulte [Plan for Mobility for Skype for Business Server](../../plan-your-deployment/mobility.md).
+La funcionalidad de movilidad es la misma que en Lync Server 2013. Para obtener más información acerca de cómo preparar el entorno para la movilidad, vea [Plan for Mobility for Skype Empresarial Server](../../plan-your-deployment/mobility.md).

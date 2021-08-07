@@ -1,5 +1,5 @@
 ---
-title: Administrar la asignación de claves para comandos DTMF en Skype Empresarial Server
+title: Administrar la asignación de teclas para comandos DTMF en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,15 +11,15 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 'Summary: Learn how to manage key mapping of dual-tone multi-frequency (DTMF) commands in Skype for Business Server.'
-ms.openlocfilehash: 6b409ccce10128fdd7776e3ea77d6ee17d4a49f4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to manage key mapping of dual-tone multi-frequency (DTMF) commands in Skype Empresarial Server.'
+ms.openlocfilehash: 106cd301826792ec494df4d490a6b953baf3badd1740d9cfd2de12e6de966d09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276855"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Administrar la asignación de claves para comandos DTMF en Skype Empresarial Server
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Administrar la asignación de teclas para comandos DTMF en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo administrar la asignación de teclas de comandos de tono dual multifrecuencia (DTMF) en Skype Empresarial Server.
   
@@ -33,7 +33,7 @@ Cuando se crea una configuración de DTMF para sitios, la configuración de siti
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol Cs-ServerAdministrator o CsAdministrator.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 3. Para ver la configuración dtmf usada para conferencias de acceso telefónico local, ejecute el siguiente comando en el símbolo del sistema :
     

@@ -1,5 +1,5 @@
 ---
-title: Datos de calidad de la experiencia (QoE) Crear nuevos o editar los existentes
+title: Datos de calidad de la experiencia (QoE) Crear nuevos o editar existentes
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: bcda542dce245b0a69e6b751790befe8a67f5518
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5182b66b3fa70ddf21c0f4e39b8b935636ea2721b0414ca341e657768d854cd8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812300"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305772"
 ---
 # <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Datos referentes a la calidad de la experiencia (QoE): Crear nuevos o editar los existentes
  
@@ -32,7 +32,7 @@ ms.locfileid: "49812300"
     
 - [Crear opciones de configuración de calidad de la experiencia en Skype Empresarial Server](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-- [Eliminar opciones de configuración de calidad de la experiencia en Skype Empresarial Server](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
+- [Eliminar las opciones de configuración de calidad de la experiencia en Skype Empresarial Server](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
     
  
 

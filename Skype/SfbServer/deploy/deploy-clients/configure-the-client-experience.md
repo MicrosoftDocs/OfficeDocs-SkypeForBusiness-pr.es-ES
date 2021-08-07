@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
-description: 'Summary: Read this topic to learn how to configure the client experience for Skype for Business users.'
-ms.openlocfilehash: 1816ff9af6c8c6e28ca72420f843d224587b2c70
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Read this topic to learn how to configure the client experience for Skype Empresarial users.'
+ms.openlocfilehash: 4ad311917ef868a8eea55fab88e7aad6dd854dfe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096014"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772691"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar la experiencia del cliente con Skype Empresarial 2015
  
-**Resumen:** Lea este tema para obtener información sobre cómo configurar la experiencia de cliente para los usuarios de Skype Empresarial 2015.
+**Resumen:** Lea este tema para obtener información sobre cómo configurar la experiencia del cliente Skype Empresarial usuarios de 2015.
   
-Skype Empresarial 2015 proporciona una nueva experiencia de usuario basada en la experiencia del producto de consumidor de Skype. Además de todas las características de Lync, Skype Empresarial proporciona nuevas características con controles simplificados e iconos conocidos. Para obtener información detallada sobre la nueva experiencia del cliente, vea [Explorar Skype Empresarial](https://go.microsoft.com/fwlink/?LinkId=529022).
+Skype Empresarial 2015 proporciona una nueva experiencia de usuario basada en la experiencia Skype producto de consumidor. Además de todas las características de Lync, Skype Empresarial nuevas características con controles simplificados e iconos conocidos. Para obtener información detallada acerca de la nueva experiencia del cliente, vea [Explorar Skype Empresarial](https://go.microsoft.com/fwlink/?LinkId=529022).
   
-Skype Empresarial Server admite la nueva experiencia de cliente de Skype Empresarial, así como la experiencia de cliente de Lync. Como administrador, puede elegir la experiencia de cliente preferida para los usuarios. Por ejemplo, es posible que desee implementar la experiencia de cliente de Lync hasta que los usuarios de su organización estén totalmente formados en la nueva experiencia de Skype Empresarial. O bien, si aún no ha actualizado todos los usuarios a Skype Empresarial Server, es posible que desee que todos los usuarios tengan la misma experiencia de cliente hasta que todos se actualicen al nuevo servidor.
+Skype Empresarial Server admite la nueva experiencia Skype Empresarial cliente, así como la experiencia de cliente de Lync. Como administrador, puede elegir la experiencia de cliente preferida para los usuarios. Por ejemplo, es posible que desee implementar la experiencia de cliente de Lync hasta que los usuarios de su organización estén totalmente capacitados en la nueva Skype Empresarial cliente. O bien, si aún no ha actualizado todos los usuarios a Skype Empresarial Server, es posible que desee que todos los usuarios tengan la misma experiencia de cliente hasta que todos se actualicen al nuevo servidor.
   
 > [!IMPORTANT]
-> Si su organización tiene implementados Skype Empresarial Server y Lync Server, la experiencia del cliente predeterminada variará en función de las versiones del servidor y la configuración de la interfaz de usuario. Cuando los usuarios inicien Skype Empresarial por primera vez, siempre verán la interfaz de usuario de Skype Empresarial, incluso si ha seleccionado la experiencia de cliente de Lync. Después de varios minutos, se pide a los usuarios que cambien al modo Lync. Para obtener más información, vea **First launch client behavior** later in this topic.
+> Si su organización tiene implementados Skype Empresarial Server y Lync Server, la experiencia de cliente predeterminada variará en función de las versiones del servidor y la configuración de la interfaz de usuario. Cuando los usuarios inician Skype Empresarial por primera vez, siempre verán la interfaz Skype Empresarial usuario, incluso si ha seleccionado la experiencia del cliente de Lync. Después de varios minutos, se pide a los usuarios que cambien al modo Lync. Para obtener más información, vea **First launch client behavior** later in this topic.
   
 > [!NOTE]
-> La experiencia de cliente de Lync 2013 no es una opción para las versiones de cliente de Skype Empresarial 2016 o versiones posteriores. Antes de intentar configurar el entorno de cliente para que use el cliente de Lync 2013, compruebe la versión del cliente para asegurarse de que no comienza con el número 16; por ejemplo: 16.x.x.x. 
+> La experiencia de cliente de Lync 2013 no es una opción Skype Empresarial versiones de cliente de 2016 o posteriores. Antes de intentar configurar el entorno de cliente para que use el cliente de Lync 2013, compruebe la versión del cliente para asegurarse de que no comienza con el número 16; por ejemplo: 16.x.x.x. 
   
 ## <a name="configure-the-client-experience"></a>Configurar la experiencia del cliente
 
@@ -43,7 +43,7 @@ Set-CsClientPolicy  [-Identity <XdsIdentity] [-EnableSkypeUI <$true | $false>]
 
 donde XdsIdentity hace referencia a la directiva global o a una directiva de sitio con nombre.
   
-El siguiente comando selecciona la experiencia de cliente de Skype Empresarial para todos los usuarios de la organización afectados por la directiva global (recuerde que las directivas específicas del sitio o del usuario invalidan la directiva global): 
+El siguiente comando selecciona la experiencia Skype Empresarial cliente para todos los usuarios de la organización afectados por la directiva global (recuerde que las directivas específicas del sitio o del usuario invalidan la directiva global): 
   
 ```powershell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
@@ -55,7 +55,7 @@ El siguiente comando selecciona la experiencia de cliente de Lync para todos los
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 ```
 
-El siguiente comando selecciona la experiencia del cliente de Skype Empresarial para todos los usuarios del sitio redmond:
+El siguiente comando selecciona la experiencia Skype Empresarial cliente para todos los usuarios del sitio redmond:
   
 ```powershell
 Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
@@ -63,7 +63,7 @@ Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 
 Si desea configurar la experiencia de cliente para usuarios específicos de la organización, puede crear una nueva directiva de usuario mediante el cmdlet **New-CsClientPolicy** y, a continuación, asignar la directiva a usuarios específicos mediante el cmdlet **Grant-CsClientPolicy.**
   
-Por ejemplo, el siguiente comando crea una nueva directiva de cliente, SalesClientUI, que selecciona la experiencia de cliente de Skype Empresarial:
+Por ejemplo, el siguiente comando crea una nueva directiva de cliente, SalesClientUI, que selecciona la Skype Empresarial cliente:
   
 ```powershell
 New-CsClientPolicy -Identity SalesClientUI -EnableSkypeUI $true
@@ -77,13 +77,13 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
 
 ## <a name="first-launch-client-behaviors"></a>Comportamientos de cliente de primer inicio
 
-De forma predeterminada, cuando los usuarios inician Skype Empresarial 2015 por primera vez, siempre verán la interfaz de usuario de Skype Empresarial, incluso si ha seleccionado la experiencia de cliente de Lync estableciendo el valor del parámetro EnableSkypeUI en $False como se describió anteriormente. Después de varios minutos, se pedirá a los usuarios que cambien al modo Lync.
+De forma predeterminada, cuando los usuarios inician Skype Empresarial 2015 por primera vez, siempre verán la interfaz de usuario de Skype Empresarial, incluso si ha seleccionado la experiencia del cliente lync estableciendo el valor del parámetro EnableSkypeUI en $False como se describió anteriormente. Después de varios minutos, se pedirá a los usuarios que cambien al modo Lync.
   
 Si desea mostrar la interfaz de usuario de Lync cuando los usuarios inician el cliente de Skype Empresarial por primera vez, siga estos pasos antes de que el cliente se inicie por primera vez después de actualizarse:
   
 1. Confirme que el valor de está establecido en $False en la directiva que está usando como  `EnableSkypeUI` se describió anteriormente.
     
-2. Actualice el Registro del sistema en el equipo del usuario. Debe hacerlo antes de que la primera vez que los usuarios inicien el cliente de Skype Empresarial y solo debe hacerlo una vez. Para obtener información sobre cómo crear un objeto de directiva de grupo para actualizar el Registro en un equipo unido a un dominio, vea la sección más adelante en el tema.
+2. Actualice el Registro del sistema en el equipo del usuario. Debe hacerlo antes de que la primera vez que los usuarios inicien el Skype Empresarial cliente y solo debe hacerlo una vez. Para obtener información sobre cómo crear un objeto de directiva de grupo para actualizar el Registro en un equipo unido a un dominio, vea la sección más adelante en el tema.
     
     En la **clave [HKEY_CURRENT_USER\Software\Microsoft\Office\Lync],** cree un nuevo **valor Binario.**
     
@@ -99,11 +99,11 @@ Si desea mostrar la interfaz de usuario de Lync cuando los usuarios inician el c
    "EnableSkypeUI"=hex:00,00,00,00
    </pre>
 
-La interfaz de usuario de Lync se mostrará ahora cuando los usuarios inicien el cliente de Skype Empresarial por primera vez.
+La interfaz de usuario de Lync se mostrará ahora cuando los usuarios inicien el Skype Empresarial cliente por primera vez.
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Controlar la presentación del tutorial de pantalla de bienvenida
 
-Cuando los usuarios abren el cliente de Skype Empresarial, el comportamiento predeterminado es mostrar una pantalla de bienvenida que incluye 7 sugerencias rápidas que la mayoría de las  *personas piden*. Puedes desactivar la presentación de la pantalla de bienvenida pero permitir que los usuarios accedan al tutorial agregando el siguiente valor del Registro en el equipo cliente:
+Cuando los usuarios abren el Skype Empresarial, el comportamiento predeterminado es mostrar una pantalla de bienvenida que incluye 7 sugerencias rápidas que la mayoría de las personas *piden*. Puedes desactivar la presentación de la pantalla de bienvenida pero permitir que los usuarios accedan al tutorial agregando el siguiente valor del Registro en el equipo cliente:
   
 En la **clave [HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync],** cree un nuevo **valor DWORD (32 bits).** El **nombre del valor** debe ser **IsBasicTutorialSeenByUser** y los **datos value** deben establecerse en **1**.
   
@@ -127,31 +127,31 @@ Puede volver a activar el tutorial estableciendo los **datos de valor** en **1**
   
 ## <a name="default-client-behaviors"></a>Comportamientos de cliente predeterminados
 
-Si su organización tiene implementados Skype Empresarial Server y Lync Server, la experiencia del cliente variará según las versiones del servidor y la configuración de la interfaz de usuario de Skype. En la tabla siguiente se muestra la experiencia de cliente inicial basada en la versión del servidor y la configuración de la interfaz de usuario:
+Si su organización tiene implementados Skype Empresarial Server y Lync Server, la experiencia del cliente variará según las versiones del servidor y la configuración Skype interfaz de usuario. En la tabla siguiente se muestra la experiencia de cliente inicial basada en la versión del servidor y la configuración de la interfaz de usuario:
   
 
 |**Versión del servidor**|**Configuración de EnableSkypeUI**|**Experiencia del cliente**|
 |:-----|:-----|:-----|
 |Skype Empresarial Server |Predeterminado  <br/> |Skype Empresarial  <br/> |
 |Skype Empresarial Server  |Verdadero  <br/> |Skype Empresarial  <br/> |
-|Skype Empresarial Server  |False  <br/> |El usuario solicitó cambiar al modo Lync (el usuario puede cambiar a Skype Empresarial más adelante si cambia la configuración de la interfaz de usuario a $true)  <br/> |
+|Skype Empresarial Server  |Falso  <br/> |El usuario solicitó cambiar al modo Lync (el usuario puede cambiar a Skype Empresarial más adelante si cambia la configuración de la interfaz de usuario a $true)  <br/> |
 |Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |Predeterminado  <br/> |El usuario solicitó cambiar al modo Lync (el usuario puede cambiar a Skype Empresarial más adelante si cambia la configuración de la interfaz de usuario a $true)  <br/> |
 |Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |Verdadero  <br/> |Skype Empresarial  <br/> |
-|Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |False  <br/> |El usuario solicitó cambiar al modo Lync (el usuario puede cambiar a Skype Empresarial más adelante si cambia la configuración de la interfaz de usuario a $true)  <br/> |
-|Lync Server 2010 o Lync Server 2013 (sin revisiones)  <br/> |Predeterminado  <br/> |Usuario solicitado para cambiar al modo Lync (el usuario no puede cambiar a Skype Empresarial más adelante)  <br/> |
+|Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |Falso  <br/> |El usuario solicitó cambiar al modo Lync (el usuario puede cambiar a Skype Empresarial más adelante si cambia la configuración de la interfaz de usuario a $true)  <br/> |
+|Lync Server 2010 o Lync Server 2013 (sin revisiones)  <br/> |Predeterminado  <br/> |El usuario solicitó cambiar al modo Lync (el usuario no puede cambiar a Skype Empresarial más adelante)  <br/> |
    
-En la siguiente tabla se muestra la experiencia del cliente cuando el administrador cambia la configuración inicial de la experiencia de la interfaz de usuario de Skype:
+En la tabla siguiente se muestra la experiencia del cliente cuando el administrador cambia la configuración inicial de la Skype interfaz de usuario:
   
 
 |**Versión del servidor**|**Configuración de EnableSkypeUI**|**Interfaz de usuario de cliente = Lync**|**Interfaz de usuario de cliente = Skype Empresarial**|
 |:-----|:-----|:-----|:-----|
-|Skype Empresarial Server |Verdadero  <br/> |Usuario solicitado para cambiar a Skype Empresarial  <br/> |Skype Empresarial  <br/> |
-|Skype Empresarial Server |False  <br/> |Modo Lync  <br/> |Usuario solicitado para cambiar al modo Lync  <br/> |
-|Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |Verdadero  <br/> |Usuario solicitado para cambiar a Skype Empresarial  <br/> |Skype Empresarial  <br/> |
-|Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |False  <br/> |Modo Lync  <br/> |Usuario solicitado para cambiar al modo Lync  <br/> |
+|Skype Empresarial Server |Verdadero  <br/> |El usuario solicitó cambiar a Skype Empresarial  <br/> |Skype Empresarial  <br/> |
+|Skype Empresarial Server |Falso  <br/> |Modo Lync  <br/> |Usuario solicitado para cambiar al modo Lync  <br/> |
+|Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |Verdadero  <br/> |El usuario solicitó cambiar a Skype Empresarial  <br/> |Skype Empresarial  <br/> |
+|Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |Falso  <br/> |Modo Lync  <br/> |Usuario solicitado para cambiar al modo Lync  <br/> |
 |Lync Server 2010 o Lync Server 2013 (sin revisiones)  <br/> |Predeterminado  <br/> |Modo Lync (no se puede cambiar a Skype Empresarial)  <br/> |Modo Lync (no se puede cambiar a Skype Empresarial)  <br/> |
    
-Las versiones de revisión necesarias para administrar la configuración del cliente de Skype Empresarial son:
+Las versiones de revisión necesarias para administrar la configuración del Skype Empresarial cliente son:
   
 - Lync Server 2010: actualización acumulativa de febrero de 2015 (4.0.7577.710) para Lync Server 2010. Para obtener información, vea [Updates for Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771)
     
@@ -159,9 +159,9 @@ Las versiones de revisión necesarias para administrar la configuración del cli
     
 ## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>Crear un objeto de directiva de grupo para modificar el Registro en un equipo unido a un dominio
 
-La actualización del Registro para mostrar la experiencia del cliente lync la primera vez que un usuario inicia el cliente de Skype Empresarial 2015 debe realizarse solo una vez. Si usa un objeto de directiva de grupo (GPO) para actualizar el Registro, debe definir el objeto para crear un nuevo valor en lugar de actualizar los datos value. Cuando se aplica el GPO, si el nuevo valor no existe, el GPO lo creará y establecerá los datos value en 0. 
+La actualización del Registro para mostrar la experiencia del cliente lync la primera vez que un usuario inicia el Skype Empresarial 2015 debe realizarse solo una vez. Si usa un objeto de directiva de grupo (GPO) para actualizar el Registro, debe definir el objeto para crear un nuevo valor en lugar de actualizar los datos value. Cuando se aplica el GPO, si el nuevo valor no existe, el GPO lo creará y establecerá los datos value en 0. 
   
-En el siguiente procedimiento se describe cómo modificar el Registro para que se muestre la experiencia del cliente lync la primera vez que un usuario inicia el cliente de Skype Empresarial 2015. También puede usar este procedimiento para actualizar el Registro para deshabilitar el tutorial de pantalla de bienvenida como se describió anteriormente.
+El siguiente procedimiento describe cómo modificar el Registro para que se muestre la experiencia del cliente lync la primera vez que un usuario inicia el Skype Empresarial 2015. También puede usar este procedimiento para actualizar el Registro para deshabilitar el tutorial de pantalla de bienvenida como se describió anteriormente.
   
 ### <a name="to-create-the-gpo"></a>Para crear el GPO
 
@@ -175,7 +175,7 @@ En el siguiente procedimiento se describe cómo modificar el Registro para que s
     
 4. Haga clic con el botón secundario en el nuevo GPO que acaba de crear y, a continuación, **seleccione Editar** en el menú.
     
-5. En el **Editor de administración de directivas de** grupo, expanda Configuración **de** usuario, **Expanda** Preferencias, Expanda Configuración de **Windows** y, a continuación, seleccione **el nodo** Registro.
+5. En el **Editor de administración de directivas de** grupo, expanda **Configuración** de usuario, Expanda Preferencias, expanda **Windows Configuración** y, a continuación, seleccione el **nodo** Registro. 
     
 6. Haga clic con el botón secundario en **el nodo Registro** y, a continuación, seleccione Nuevo **elemento** del  >  **Registro**.
     
@@ -183,7 +183,7 @@ En el siguiente procedimiento se describe cómo modificar el Registro para que s
     
    |**Field**|**Valor para seleccionar o escribir**|
    |:-----|:-----|
-   |**Acción** <br/> |**Create** <br/> |
+   |**Acción** <br/> |**Crear** <br/> |
    |**Subárbol** <br/> | HKEY_CURRENT_USER <br/> |
    |**Ruta de acceso clave** <br/> |Software\Microsoft\Office\Lync  <br/> |
    |**Nombre del valor** <br/> |EnableSkypeUI  <br/> |
@@ -202,12 +202,10 @@ A continuación, deberá vincular el GPO que creó al grupo de usuarios a los qu
     
 3. En el equipo del usuario de destino, abra un símbolo del sistema y escriba el siguiente comando:
        
-```console
-gpupdate /target:user
-```
-
-    
-    The message "Updating policy..." is displayed while the GPO is applied. When it is completed, the message "User Policy update has completed successfully" is displayed.
+   ```console
+   pupdate /target:user
+   ```
+     El mensaje "Actualizar directiva..." se muestra mientras se aplica el GPO. Cuando se completa, se muestra el mensaje "La actualización de directiva de usuario se ha completado correctamente".
     
 4. En el símbolo del sistema, escriba el siguiente comando:
     

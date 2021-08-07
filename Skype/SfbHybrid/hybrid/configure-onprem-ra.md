@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurar una cuenta de recurso para Skype Empresarial Server 2019.
-ms.openlocfilehash: 312947b379f62686e16718cc40f2be69b9eb6474
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 87db9779a6f90730d6aa53e3084a2014a71bad5aba91844d2e545f7d78ae37cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304702"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
@@ -191,7 +191,7 @@ La migración Exchange de mensajería unificada a Sistema telefónico requiere v
 
    En este momento, si ya ha migrado el correo de voz de mensajería unificada, debería estar en posición de migrar a Exchange Server 2019.
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)
 

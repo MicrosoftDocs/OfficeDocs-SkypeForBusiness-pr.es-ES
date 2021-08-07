@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Consulte Skype Empresarial en línea para asignar una licencia de conferencia de acceso telefónico local e id. de conferencia a un usuario y a muchas otras opciones de configuración de conferencias de acceso telefónico local. '
-ms.openlocfilehash: 3a0f6d37612c345c8561fbd2a64b4c90fdb27957
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0bed95f9f5b8429dce52333046cd8c732c4bc0e9d94539d92c1e96f2d3284172
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237252"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306243"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Administrar la configuración de Audioconferencia de mi organización en Skype for Business Online
 
@@ -41,7 +41,7 @@ Es posible que le resulte más fácil ver todas las opciones de configuración d
 ## <a name="assign-an-audio-conferencing-license"></a>Asignar una licencia de conferencia de acceso telefónico local
 
 > [!NOTE]
-> You can't assign licenses using the **Skype for Business admin center**. Debe usar el centro Microsoft 365 administración. Consulte [Asignar licencias de Skype Empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> You can't assign licenses using the **Skype for Business admin center**. Debe usar el Centro de administración de Microsoft 365. Consulte [Asignar licencias de Skype Empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  **To assign a license for a user**
 

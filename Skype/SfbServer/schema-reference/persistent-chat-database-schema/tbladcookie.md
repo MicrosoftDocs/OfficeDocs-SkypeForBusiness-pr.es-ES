@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
 description: tblADCookie contiene las cookies actuales de sincronización del Protocolo ligero de acceso a directorios (LDAP).
-ms.openlocfilehash: 78a477399da811e674bb5a4493e61100acdd4782
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 19914e31819ea38df6de39e5b0afebcb6bb59fdb15b8d2fbe7d7d59b30271a38
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814760"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276595"
 ---
 # <a name="tbladcookie"></a>tblADCookie
  
@@ -36,7 +36,7 @@ tblADCookie contiene las cookies actuales de sincronización del Protocolo liger
    
 **Keys**
 
-|**Columnas**|**Descripción**|
+|**Columna(s)**|**Description**|
 |:-----|:-----|
 |prinGuid  <br/> |Clave principal.  <br/> |
 |prinGuid  <br/> |Clave externa con búsqueda en la tabla Principal.prinGuid.  <br/> |

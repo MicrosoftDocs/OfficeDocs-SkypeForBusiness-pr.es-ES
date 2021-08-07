@@ -1,5 +1,5 @@
 ---
-title: Equilibrador de carga (Herramienta de planeación)
+title: Equilibrador de carga (herramienta de planeación)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Si tiene grupos de servidores front-end, grupos de directores o grupos de servidores perimetrales, debe implementar el equilibrio de carga para estos grupos. El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores Para más información, vea:'
-ms.openlocfilehash: 59a77b4c3e02d2b1df45284ffba0e0dffd366898
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6996a28861d37be21b13350e2109676df6a6a74d96de4c2acb1acc7e72e721c2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277275"
 ---
-# <a name="load-balancer-planning-tool"></a>Equilibrador de carga (Herramienta de planeación)
+# <a name="load-balancer-planning-tool"></a>Equilibrador de carga (herramienta de planeación)
  
 Si tiene grupos de servidores front-end, grupos de directores o grupos de servidores perimetrales, debe implementar el equilibrio de carga para estos grupos. El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores Para más información, vea:
   

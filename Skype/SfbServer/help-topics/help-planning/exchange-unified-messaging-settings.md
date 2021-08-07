@@ -1,5 +1,5 @@
 ---
-title: Configuración de mensajería unificada de Exchange (herramienta de planeación)
+title: Skype Empresarial Server Exchange de planeación Configuración mensajería unificada
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
-description: Skype Empresarial Server 2015 admite la integración con la mensajería unificada (MU) de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una sola infraestructura de mensajería.
-ms.openlocfilehash: 7f73e3ea6f7033103242c9ff8ee425963e9f6729
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype Empresarial Server la integración con Exchange mensajería unificada para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería.
+ms.openlocfilehash: e17be4642c2d9d09cc0468a49fde024f2ccd19fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116118"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772591"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a>Configuración de mensajería unificada de Exchange (herramienta de planeación)
+# <a name="skype-for-business-server-exchange-unified-messaging-settings-planning-tool"></a>Skype Empresarial Server Exchange de planeación Configuración mensajería unificada
 
-Skype Empresarial Server 2015 admite la integración con la mensajería unificada (MU) de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una sola infraestructura de mensajería.
+Skype Empresarial Server 2015 admite la integración con Exchange mensajería unificada (UM) para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería.
 
 Para más información, vea:
 

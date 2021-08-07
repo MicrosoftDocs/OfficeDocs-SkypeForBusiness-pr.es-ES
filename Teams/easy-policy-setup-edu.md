@@ -1,5 +1,5 @@
 ---
-title: Teams asistente para directivas de educación para aplicar fácilmente directivas para un aprendizaje seguro
+title: Teams para Educación Asistente para directivas para aplicar fácilmente directivas para un aprendizaje seguro
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,20 +15,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo usar el Teams de directivas de educación para aplicar fácilmente directivas para estudiantes y profesores para mantener su entorno de aprendizaje seguro.
+description: Obtenga información sobre cómo usar el Teams para Educación de directivas de aprendizaje para aplicar fácilmente directivas a alumnos y profesores para mantener su entorno de aprendizaje seguro.
 f1keywords: ''
-ms.openlocfilehash: 7eca1fca8a4c054d2787b205c5e57ced274416da
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2824ed511f1c2f5a5a7389760de9d50559e5da2a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111096"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772411"
 ---
-# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Teams de directivas de educación para aplicar fácilmente directivas para un entorno de aprendizaje seguro
+# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Asistente Teams para Educación directivas para aplicar fácilmente directivas para un entorno de aprendizaje seguro
 
 ## <a name="overview"></a>Información general
 
-El Microsoft Teams de directivas de educación simplifica la administración de directivas para los alumnos y los profesores. Úsese para aplicar fácilmente y rápidamente el conjunto más importante de directivas relevantes para crear una experiencia de aprendizaje segura y productiva.
+El Microsoft Teams para Educación de directivas simplifica la administración de directivas para los alumnos y los profesores. Úsese para aplicar fácilmente y rápidamente el conjunto más importante de directivas relevantes para crear una experiencia de aprendizaje segura y productiva.
 
 Las directivas de Teams le permiten controlar cómo Teams se comporta en su entorno y qué características están disponibles para los usuarios. Por ejemplo, hay directivas de llamadas, directivas de reunión y directivas de mensajería, por nombrar algunas, y cada área de directiva se puede personalizar para satisfacer las necesidades de su organización.
 
@@ -41,9 +41,9 @@ Las directivas deben ajustarse tanto para los alumnos como para los profesores p
 En este artículo se explica cómo ejecutar el asistente.
 
 > [!IMPORTANT]
-> Las directivas aplicadas por el asistente satisfarán las necesidades de la mayoría de los Teams para los clientes de Educación. El asistente ajusta la definición global (predeterminada para toda la organización) de un conjunto principal de directivas con la configuración que se recomienda para la seguridad de los alumnos y se aplica a los alumnos. El asistente también crea y asigna un conjunto de directivas personalizadas a profesores y docentes. La mayoría Teams los clientes de Educación no necesitarán usar otros métodos de asignación de directivas después de ejecutar este asistente. Use otros métodos de asignación *de directivas solo* si desea crear y administrar directivas manualmente para los alumnos, los profesores y el personal.
+> Las directivas aplicadas por el asistente satisfarán las necesidades de la mayoría de Teams para Educación clientes. El asistente ajusta la definición global (predeterminada para toda la organización) de un conjunto principal de directivas con la configuración que se recomienda para la seguridad de los alumnos y se aplica a los alumnos. El asistente también crea y asigna un conjunto de directivas personalizadas a profesores y docentes. La mayoría Teams para Educación clientes no necesitarán usar otros métodos de asignación de directivas después de ejecutar este asistente. Use otros métodos de asignación *de directivas solo* si desea crear y administrar directivas manualmente para los alumnos, los profesores y el personal.
 
-## <a name="teams-for-education-policy-wizard"></a>Teams asistente para directivas de educación
+## <a name="teams-for-education-policy-wizard"></a>Teams para Educación Asistente para directivas
 
 <a name="polwiz_intro"> </a>
 
@@ -55,6 +55,8 @@ El asistente configura directivas basadas en el tipo de institución educativa *
 - **Profesores y docentes:** el asistente crea un conjunto de definiciones de directiva personalizadas para cada área de directiva que cubre el asistente con una configuración adaptada a las necesidades de los profesores y el personal. Después, asigna las definiciones de directiva al grupo de profesores y docentes que elija. De esta forma, los profesores y el personal obtienen un conjunto más permisivo de directivas para que puedan tener éxito.
 
 Solo necesita ejecutar el asistente una vez. Los nuevos alumnos obtienen automáticamente las definiciones de directiva global (predeterminada para toda la organización) aplicadas por el asistente y los nuevos docentes que agregue al grupo seleccionado se asignarán automáticamente a las directivas personalizadas.
+
+Además, siempre que se agrega una nueva característica a Teams, el valor predeterminado correspondiente de EDU correspondiente de la directiva para esa característica se agregará automáticamente al global (predeterminado para toda la organización) sin requerir ninguna intervención del administrador. Esto ayuda a garantizar que se han puesto en marcha las directivas adecuadas para mantener a los alumnos seguros y comprometidos.
 
 > [!NOTE]
 > Vea [Directivas aplicadas por el asistente](#policies-applied-by-the-wizard) para obtener una lista detallada de las definiciones de directiva aplicadas por el asistente.
@@ -135,9 +137,9 @@ Vea [Mantener a los alumnos seguros mientras usan Teams aprendizaje a distancia]
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>Paso 3: Buscar actualizaciones de directivas en el Centro de mensajes
 
-Actualmente, el asistente aplica nuestras directivas recomendadas al ejecutarlo. Es importante saber que, a medida que las nuevas directivas están disponibles en Teams, el asistente no agrega automáticamente la configuración global (predeterminada para toda la organización) para la seguridad de los alumnos. Esta funcionalidad estará disponible en una versión futura.
+Actualmente, el asistente aplica nuestras directivas recomendadas al ejecutarlo. Es importante saber que a medida que las nuevas directivas están disponibles en Teams, el asistente actualiza automáticamente la configuración global (predeterminada para toda la organización) para la seguridad de los alumnos. 
 
-Hasta que esta funcionalidad esté disponible, compruebe el Centro de mensajes [(en](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) el Centro de administración de Microsoft 365) con frecuencia para mantenerse al día sobre las nuevas directivas y la configuración de directiva en Teams. A medida que las nuevas características estén disponibles, es posible que tenga que actualizar manualmente las directivas para mantener su entorno de aprendizaje seguro.
+Pero compruebe el [Centro](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) de mensajes (en el Centro de administración de Microsoft 365) con frecuencia para mantenerse al día sobre las nuevas características y sus directivas y la configuración de directivas en Teams. 
 
 ## <a name="make-changes-in-the-wizard"></a>Realizar cambios en el asistente
 

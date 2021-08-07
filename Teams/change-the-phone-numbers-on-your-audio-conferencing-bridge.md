@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Obtenga información sobre los pasos necesarios para asignar un nuevo número de teléfono de servicio al puente de conferencias para expandir la cobertura para los usuarios.
-ms.openlocfilehash: f477c583db36e6dee514a84f32de202361d01c11
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4514c9cf34049f9c9b92be697176c7897e560605
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102666"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724513"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
@@ -133,13 +133,14 @@ Para obtener más información sobre el servicio de migración de reuniones, con
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Paso 3: Desasignar el número de teléfono antiguo del puente de audioconferencia
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+Use el cmdlet Unregister-CsOnlineDialInConferencingServiceNumber para anular el registro de un número de pago o gratuito de un puente de conferencia
 
-1. En el panel de navegación izquierdo, vaya a **Voz** > **Números de teléfono**.
+```PowerShell
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll number to be removed" -bridgeId "Conference Bridge ID"
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number to be removed" -bridgeId "Conference Bridge ID"
+```
+Nota: Para buscar el id. de puente de conferencia, ejecute el siguiente PowerShell: Get-CsOnlineDialInConferencingBridge.
 
-2. Si el número de teléfono es un número gratuito, seleccione el número de teléfono de la lista y haga clic en **Liberar.** Si el número de teléfono es un número de pago, ponte en contacto con el soporte técnico [de Microsoft](/microsoft-365/admin/contact-support-for-business-products) para que el número de teléfono no esté desasignado.
-
-3. Si el número de teléfono es un número gratuito, haga clic **en Sí** en la ventana de confirmación.
 
    > [!IMPORTANT]
    > Después de que un número de teléfono no se haya desasignado de un puente de audioconferencia, el número de teléfono ya no estará disponible para que los usuarios se unan a reuniones nuevas o existentes.
@@ -180,7 +181,7 @@ Para ahorrar tiempo automatizando este proceso, puede usar los [cmdlets Set-CsOn
   ```
 
     > [!NOTE]
-    > La ubicación que se usa anteriormente debe coincidir con la información de contacto de los usuarios que se establece en el centro Microsoft 365 administración.
+    > La ubicación que se usa anteriormente debe coincidir con la información de contacto de los usuarios que se establece en el Centro de administración de Microsoft 365.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
@@ -195,7 +196,7 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 
 El resultado, aparte de otra información como Identidad, Nombre y Región, también debe contener defaultservicenumber.
 
-**Ejemplo**, para desasignar, defaultServiceNumber "8005551234"
+**Ejemplo**, para desasignar, defaultservicenumber "8005551234"
 ```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
@@ -208,7 +209,7 @@ Con Windows PowerShell puede administrar los usuarios y lo que pueden o no puede
 
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso del centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+Windows PowerShell tiene muchas ventajas en la velocidad, la simplicidad y la productividad en lugar de usar solo el Centro de administración de Microsoft 365 como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
 
   - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 

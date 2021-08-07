@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 6a7ad229-31f3-477e-b254-f45858213fa8
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 7296373f75c3eda39d6bf96bfac7c9d90d5a1db4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7fdcc492d117eabc50d01cc60df110cab96e56bf8082d538808f177b5c6cec5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109396"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277405"
 ---
 # <a name="bandwidth-policy-profile"></a>Perfil de directivas de ancho de banda
 

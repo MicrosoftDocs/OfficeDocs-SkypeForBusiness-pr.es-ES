@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
-description: En este artículo se le guían los pasos para configurar una instalación existente de Skype Empresarial Server para usar el servicio de movilidad, lo que permite que los dispositivos móviles puedan aprovechar las características de Movilidad de Skype Empresarial Server.
-ms.openlocfilehash: 2ba0a81350dac6e47f4e909b4cfba256ee90de18
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: En este artículo se le guían los pasos para configurar una instalación de Skype Empresarial Server existente para usar el servicio de movilidad, lo que permite que los dispositivos móviles puedan aprovechar las características de Skype Empresarial Server Mobility.
+ms.openlocfilehash: 4e2cbb49d74347082bf3db02bba4a01de7f31ca187867b8e95474e88ec01fcbb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103866"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306042"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Implementar y configurar la movilidad para Skype Empresarial Server  
  
-En este artículo se le guían los pasos para configurar una instalación existente de Skype Empresarial Server para usar el servicio de movilidad, lo que permite que los dispositivos móviles puedan aprovechar las características de Movilidad de Skype Empresarial Server.
+En este artículo se le guían los pasos para configurar una instalación de Skype Empresarial Server existente para usar el servicio de movilidad, lo que permite que los dispositivos móviles puedan aprovechar las características de Skype Empresarial Server Mobility.
   
-Una vez revisado el artículo [Plan for Mobility for Skype for Business Server,](../plan-your-deployment/mobility.md) debe estar listo para continuar con los pasos siguientes para implementar la movilidad en su entorno de Skype Empresarial Server. Los pasos son los siguientes (y estamos incluyendo en esta tabla una lista de permisos):
+Una vez revisado el artículo [Plan for Mobility for Skype Empresarial Server,](../plan-your-deployment/mobility.md) debe estar listo para continuar con los pasos siguientes para implementar Mobility en su entorno Skype Empresarial Server web. Los pasos son los siguientes (y estamos incluyendo en esta tabla una lista de permisos):
   
 |**Fase**|**Permisos**|
 |:-----|:-----|
@@ -38,12 +38,12 @@ Una vez revisado el artículo [Plan for Mobility for Skype for Business Server,]
 Todas las secciones siguientes contienen pasos que suponen que ha leído el tema Planeación. If anything's confusing you, feel free to check out the information there.
 
 > [!NOTE]
-> La compatibilidad con MCX (Servicio de movilidad) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes móviles de Skype Empresarial actuales ya usan la API web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (MI), la presencia y los contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
+> La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes Skype Empresarial móviles ya usan la API web de comunicaciones unificadas (UCWA) para admitir mensajería instantánea (MI), presencia y contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
   
 ## <a name="create-dns-records"></a>Crear registros DNS
 <a name="CreateDNSRec"> </a>
 
-Es posible que ya las tenga como parte de su entorno de Skype Empresarial Server, pero debe crear los siguientes registros para que la detección automática funcione:
+Es posible que ya las tenga como parte del entorno Skype Empresarial Server, pero debe crear los siguientes registros para que la detección automática funcione:
   
 - Un registro DNS interno para admitir usuarios móviles que se conectan desde la red de su organización.
     
@@ -55,13 +55,13 @@ Estos registros pueden ser nombres A (host) o registros CNAME (no es necesario r
 
 1. Inicie sesión en un servidor DNS de la red que sea miembro del grupo **Administradores** de dominio o del **grupo DnsAdmins.**
     
-2. Haga **clic en** Inicio , Elija  Herramientas administrativas **(puede** que tenga que buscarla si no es una opción del menú Inicio) y, a continuación, haga clic en **DNS** para abrir el complemento administrativo dns.
+2. Haga **clic** en Inicio , Elija  Herramientas administrativas **(es** posible que deba buscarla si no es una opción de la menú Inicio) y, a continuación, haga clic en **DNS** para abrir el complemento administrativo dns.
     
-3. En el panel izquierdo de la ventana de la consola, tendrá que ir al dominio que es el hogar  de los servidores front-end de Skype Empresarial Server y expandir las zonas de búsqueda directa allí.
+3. En el panel izquierdo de la ventana de la consola, tendrás que ir al dominio que es el hogar  de los servidores front-end de Skype Empresarial Server y expandir las zonas de búsqueda directa allí.
     
 4. Tómese un momento para ver cuál de las siguientes opciones tiene:
     
-   - Cualquier registro A o AAAA de host para el servidor front-end (estándar o enterprise) o los grupo(s) front-end.
+   - Cualquier registro A o AAAA de host para el servidor front-end (estándar o Enterprise) o grupo(s) front-end.
     
    - Cualquier host A o aaaa registros para un director o grupo de directores (una configuración opcional que puede tener en la implementación).
     
@@ -71,17 +71,17 @@ Estos registros pueden ser nombres A (host) o registros CNAME (no es necesario r
     
 7. En el nombre de dominio completo **(FQDN** para el host de destino), deberá escribir o examinar el FQDN interno de servicios web para el grupo de servidores front-end (o un solo servidor front-end, o grupo de directores o director), identificado en el paso 4 anterior. Haga clic en Aceptar cuando se haya escrito esto.
     
-8. Deberá crear un nuevo registro CNAME de detección automática en la zona de búsqueda directa para cada dominio SIP admitido en su entorno de Skype Empresarial Server.
+8. Deberá crear un nuevo registro CNAME de detección automática en la zona de búsqueda directa para cada dominio SIP admitido en el entorno Skype Empresarial Server usuario.
     
 ### <a name="create-an-external-dns-cname-record"></a>Crear un registro CNAME DNS externo
 
 1. Estos pasos son genéricos, ya que no podemos saber qué proveedor de DNS público puede usar, pero aún queremos ayudarle. Inicie sesión en su proveedor de DNS público con una cuenta que podrá crear nuevos registros DNS allí.
     
-2. En este momento, ya debería existir un dominio SIP para Skype Empresarial Server. Expanda la **zona de búsqueda directa** para este dominio SIP o, de lo contrario, ábrala.
+2. En este momento, ya debe existir un dominio SIP para Skype Empresarial Server. Expanda la **zona de búsqueda directa** para este dominio SIP o, de lo contrario, ábrala.
     
 3. Tómese un momento para ver cuál de las siguientes opciones tiene:
     
-   - Cualquier registro A o AAAA de host para el servidor front-end (estándar o enterprise) o los grupo(s) front-end.
+   - Cualquier registro A o AAAA de host para el servidor front-end (estándar o Enterprise) o grupo(s) front-end.
     
    - Cualquier host A o aaaa registros para un director o grupo de directores (una configuración opcional que puede tener en la implementación).
     
@@ -91,19 +91,19 @@ Estos registros pueden ser nombres A (host) o registros CNAME (no es necesario r
     
 6. A continuación, debe haber un área para especificar un **FQDN** para el host de destino , este debe ser el FQDN del grupo de servidores front-end (o un solo servidor front-end, o grupo de directores o director), identificado en el paso 3 anterior.
     
-7. Es posible que tenga que guardar aquí, o si necesita crear registros CNAME adicionales en la zona de búsqueda directa de cada dominio SIP en su entorno de Skype Empresarial Server, debe hacerlo, pero una vez que esté listo, guarde el trabajo.
+7. Puede que tenga que guardar aquí, o si necesita crear registros CNAME adicionales en la zona de búsqueda directa de cada dominio SIP en su entorno de Skype Empresarial Server, debe hacerlo, pero una vez que esté listo, guarde el trabajo.
     
 ### <a name="create-an-internal-dns-a-record"></a>Crear un registro A de DNS interno
 
 1. Inicie sesión en un servidor DNS de la red que sea miembro del grupo **Administradores** de dominio o del **grupo DnsAdmins.**
     
-2. Haga **clic en** Inicio , Elija  Herramientas administrativas **(puede** que tenga que buscarla si no es una opción del menú Inicio) y, a continuación, haga clic en **DNS** para abrir el complemento administrativo dns.
+2. Haga **clic** en Inicio , Elija  Herramientas administrativas **(es** posible que deba buscarla si no es una opción de la menú Inicio) y, a continuación, haga clic en **DNS** para abrir el complemento administrativo dns.
     
-3. En el panel izquierdo de la ventana de la consola, tendrá que ir al dominio que es el hogar  de los servidores front-end de Skype Empresarial Server y expandir las zonas de búsqueda directa allí.
+3. En el panel izquierdo de la ventana de la consola, tendrás que ir al dominio que es el hogar  de los servidores front-end de Skype Empresarial Server y expandir las zonas de búsqueda directa allí.
     
 4. Tómese un momento para ver cuál de las siguientes opciones tiene:
     
-   - Cualquier registro A o AAAA de host para el servidor front-end (estándar o enterprise) o los grupo(s) front-end.
+   - Cualquier registro A o AAAA de host para el servidor front-end (estándar o Enterprise) o grupo(s) front-end.
     
    - Cualquier host A o aaaa registros para un director o grupo de directores (una configuración opcional que puede tener en la implementación).
     
@@ -115,7 +115,7 @@ Estos registros pueden ser nombres A (host) o registros CNAME (no es necesario r
     
 8. Cuando esto termine, haga clic **en Agregar host** y, a continuación, haga clic en **Aceptar**.
     
-9. Deberá crear nuevos registros A o AAAA de detección automática en la zona de búsqueda directa para cada dominio SIP admitido en su entorno de Skype Empresarial Server. Para ello, repita los pasos del 6 al 8 tantas veces como sea necesario.
+9. Deberá crear nuevos registros A o AAAA de detección automática en la zona de búsqueda directa para cada dominio SIP admitido en el entorno Skype Empresarial Server usuario. Para ello, repita los pasos del 6 al 8 tantas veces como sea necesario.
     
 10. Cuando haya terminado, haga clic en **Listo**.
     
@@ -123,11 +123,11 @@ Estos registros pueden ser nombres A (host) o registros CNAME (no es necesario r
 
 1. Estos pasos son genéricos, ya que no podemos saber qué proveedor de DNS público puede usar, pero aún queremos ayudarle. Inicie sesión en su proveedor de DNS público con una cuenta que podrá crear nuevos registros DNS allí.
     
-2. En este momento, ya debería existir un dominio SIP para Skype Empresarial Server. Expanda la **zona de búsqueda directa** para este dominio SIP o, de lo contrario, ábrala.
+2. En este momento, ya debe existir un dominio SIP para Skype Empresarial Server. Expanda la **zona de búsqueda directa** para este dominio SIP o, de lo contrario, ábrala.
     
 3. Tómese un momento para ver cuál de las siguientes opciones tiene:
     
-   - Cualquier registro A o AAAA de host para el servidor front-end (estándar o enterprise) o los grupo(s) front-end.
+   - Cualquier registro A o AAAA de host para el servidor front-end (estándar o Enterprise) o grupo(s) front-end.
     
    - Cualquier host A o aaaa registros para un director o grupo de directores (una configuración opcional que puede tener en la implementación).
     
@@ -137,12 +137,12 @@ Estos registros pueden ser nombres A (host) o registros CNAME (no es necesario r
     
 6. A continuación, debe haber un área para especificar una dirección **IP,** que tendrá que ser la DIRECCIÓN IP del grupo de servidores front-end (o un solo servidor front-end, o grupo de directores o director), identificado en el paso 3 anterior.
     
-7. Es posible que tenga que guardar aquí, o si necesita crear registros A o AAAA adicionales en la zona de búsqueda directa de cada dominio SIP para su entorno de Skype Empresarial Server, debe hacerlo, pero una vez que esté listo, guarde el trabajo.
+7. Puede que tenga que guardar aquí, o si necesita crear registros A o AAAA adicionales en la zona de búsqueda directa de cada dominio SIP para su entorno de Skype Empresarial Server, debe hacerlo, pero una vez que esté listo, guarde el trabajo.
     
 ## <a name="modify-certificates"></a>Modificar certificados
 <a name="ModCerts"> </a>
 
-If you have questions about Planning around certificates, we've documented that in our [Plan for Mobility for Skype for Business Server](../plan-your-deployment/mobility.md) article. Una vez que hayas revisado esto, te haremos un recorrido por lo siguiente:
+If you have questions about Planning around certificates, we've documented that in our [Plan for Mobility for Skype Empresarial Server](../plan-your-deployment/mobility.md) article. Una vez que hayas revisado esto, te haremos un recorrido por lo siguiente:
   
 - ¿Necesito certificados nuevos?
     
@@ -154,9 +154,9 @@ If you have questions about Planning around certificates, we've documented that 
     
 ### <a name="do-i-need-new-certificates"></a>¿Necesito certificados nuevos?
 
-1. En primer lugar, es posible que deba comprobar y ver qué certificados están en su lugar y si tienen o no las entradas que necesita. Para ello, deberá iniciar sesión en su Skype Empresarial Server con una cuenta que sea un administrador local. Es posible que esta cuenta también necesite tener derechos sobre la entidad emisora de certificados (CA), para algunos de estos pasos.
+1. En primer lugar, es posible que deba comprobar y ver qué certificados están en su lugar y si tienen o no las entradas que necesita. Para ello, deberá iniciar sesión en su cuenta Skype Empresarial Server una cuenta que sea un administrador local. Es posible que esta cuenta también necesite tener derechos sobre la entidad emisora de certificados (CA), para algunos de estos pasos.
     
-2. Abra el Shell de administración de Skype Empresarial Server (puede usar la búsqueda para encontrarlo si no lo tiene anclado a su menú Inicio o barra de tareas).
+2. Abra el Shell Skype Empresarial Server de administración (puede usar la búsqueda para encontrarlo si no lo tiene anclado a la barra de tareas o menú Inicio de tareas).
     
 3. Será esencial que sepa qué certificados se han asignado antes de intentar agregar un certificado actualizado. Por lo tanto, en el comando, escriba:
     
@@ -170,7 +170,7 @@ If you have questions about Planning around certificates, we've documented that 
     
 ### <a name="request-a-new-certificate-or-certificates-from-your-certificate-authority-ca"></a>Solicitar un nuevo certificado o certificados a la entidad de certificación (CA)
 
-1. Después de comprobar qué entradas de SAN tiene, sabe que tiene un solo certificado **(después** de comprobar los pasos anteriores) y ha aprendido que no tiene todas las entradas que necesita. Es necesario realizar una nueva solicitud de certificado a la entidad de certificación. Abra PowerShell de Skype Empresarial Server:
+1. Después de comprobar qué entradas de SAN tiene, sabe que tiene un solo certificado **(después** de comprobar los pasos anteriores) y ha aprendido que no tiene todas las entradas que necesita. Es necesario realizar una nueva solicitud de certificado a la entidad de certificación. Abra el Skype Empresarial Server PowerShell:
     
    - Para un SAN de servicio de detección automática que falta (reemplazando el parámetro -Ca por su propia ruta de acceso de entidad de certificación):
     
@@ -184,7 +184,7 @@ If you have questions about Planning around certificates, we've documented that 
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
-2. O bien, después de comprobar qué entradas de SAN tiene, encontró que tiene varios certificados que no tienen todas las entradas que necesita.  Es necesario realizar una nueva solicitud de certificado a la entidad de certificación. Abra PowerShell de Skype Empresarial Server:
+2. O bien, después de comprobar qué entradas de SAN tiene, encontró que tiene varios certificados que no tienen todas las entradas que necesita.  Es necesario realizar una nueva solicitud de certificado a la entidad de certificación. Abra el Skype Empresarial Server PowerShell:
     
    - Para un SAN de servicio de detección automática que falta (reemplazando el parámetro -Ca por su propia ruta de acceso de entidad de certificación):
     
@@ -204,7 +204,7 @@ If you have questions about Planning around certificates, we've documented that 
 
    - Una vez que la ca haya generado los nuevos certificados, tendrá que asignarlos.
     
-### <a name="assign-certificates-using-skype-for-business-server-management-shell"></a>Asignar certificados con el Shell de administración de Skype Empresarial Server
+### <a name="assign-certificates-using-skype-for-business-server-management-shell"></a>Asignar certificados mediante Skype Empresarial Server Shell de administración
 
 - En función de lo que encontró en la sección ¿Necesito nuevas certificaciones? anterior, debe ejecutar **una** de las siguientes opciones.
     
@@ -386,13 +386,13 @@ Tenemos que tener en cuenta dos aspectos principales:
 ## <a name="configure-autodiscover-for-mobility-with-hybrid-deployments"></a>Configurar detección automática para movilidad con implementaciones híbridas
 <a name="ConfigAutoD"> </a>
 
-Los entornos híbridos en Skype Empresarial Server son entornos que combinan un entorno local y O365. Cuando Skype Empresarial Server trabaja en un entorno híbrido, el servicio de detección automática debe poder localizar a un usuario de cualquiera de estos entornos.
+Los entornos híbridos Skype Empresarial Server son entornos que combinan un entorno local y O365. Cuando haya Skype Empresarial Server en un entorno híbrido, el servicio de detección automática debe poder localizar a un usuario de cualquiera de estos entornos.
   
 Para que los clientes móviles descubran dónde se encuentra un usuario, el servicio de detección automática debe configurarse con un nuevo localizador uniforme de recursos (URL). Estos pasos son:
   
-1. Abra El Shell de administración de Skype Empresarial Server.
+1. Abra Skype Empresarial Server Shell de administración.
     
-2. Ejecute lo siguiente para obtener el valor del atributo **ProxyFQDN** para su entorno de Skype Empresarial Server:
+2. Ejecute lo siguiente para obtener el valor del atributo **ProxyFQDN** para el entorno Skype Empresarial Server usuario:
     
    ```powershell
    Get-CsHostingProvider
@@ -409,18 +409,18 @@ Para que los clientes móviles descubran dónde se encuentra un usuario, el serv
 ## <a name="test-your-mobility-deployment"></a>Probar la implementación de movilidad
 <a name="TestMobility"> </a>
 
-Una vez implementado el servicio de movilidad de Skype Empresarial Server y el servicio de detección automática de Skype Empresarial Server, querrá ejecutar una transacción de prueba para asegurarse de que la implementación funciona correctamente. Puede ejecutar **Test-CsUcwaConference** para probar la capacidad de dos usuarios para crear, unirse y comunicarse en una conferencia. Necesitará dos usuarios (reales o de prueba) y sus credenciales completa para realizar esta prueba. Este comando funcionará tanto para clientes de Skype Empresarial como para clientes de Lync Server 2013.
+Una vez que haya implementado Skype Empresarial Server Mobility Service y Skype Empresarial Server Autodiscover Service, querrá ejecutar una transacción de prueba para asegurarse de que la implementación funciona correctamente. Puede ejecutar **Test-CsUcwaConference** para probar la capacidad de dos usuarios para crear, unirse y comunicarse en una conferencia. Necesitará dos usuarios (reales o de prueba) y sus credenciales completa para realizar esta prueba. Este comando funcionará tanto para clientes Skype Empresarial como para clientes de Lync Server 2013.
   
 Para los clientes de Lync Server 2010 en Skype Empresarial Server 2015, deberá ejecutar **Test-CsMcxP2PIM** para probar. Los usuarios de Lync Server 2010 seguirán teniendo que ser usuarios reales o usuarios de prueba predefinidos, y necesitará sus credenciales de contraseña.
 
 > [!NOTE]
-> La compatibilidad con MCX (Servicio de movilidad) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes móviles de Skype Empresarial actuales ya usan la API web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (MI), la presencia y los contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
+> La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes Skype Empresarial móviles ya usan la API web de comunicaciones unificadas (UCWA) para admitir mensajería instantánea (MI), presencia y contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
   
-### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>Probar conferencias para clientes móviles de Skype Empresarial y Lync 2013
+### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>Probar conferencias para Skype Empresarial y clientes móviles de Lync 2013
 
-1. Inicie sesión como miembro del rol **CsAdministrator** en cualquier equipo donde esté instalado el Shell de administración de **Skype Empresarial Server** y **Ocscore.**
+1. Inicie sesión como miembro del rol **CsAdministrator** en cualquier equipo donde **Skype Empresarial Server Shell** de administración y **Ocscore** estén instalados.
     
-2. Inicie el Shell de administración de **Skype Empresarial Server** (puede escribir el nombre en la búsqueda o ir a Todos los **programas** y elegirlo).
+2. Inicie el **Skype Empresarial Server de administración** (puede escribir el nombre en la búsqueda o ir a Todos los **programas** y elegirlo).
     
 3. En la línea de comandos, escriba:
     
@@ -441,11 +441,11 @@ Para los clientes de Lync Server 2010 en Skype Empresarial Server 2015, deberá 
 ### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>Probar conferencias para clientes móviles de Lync 2010
 
 > [!NOTE]
-> La compatibilidad con MCX (Servicio de movilidad) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes móviles de Skype Empresarial actuales ya usan la API web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (MI), la presencia y los contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
+> La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes Skype Empresarial móviles ya usan la API web de comunicaciones unificadas (UCWA) para admitir mensajería instantánea (MI), presencia y contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
 
-1. Inicie sesión como miembro del rol **CsAdministrator** en cualquier equipo donde esté instalado el Shell de administración de **Skype Empresarial Server** y **Ocscore.**
+1. Inicie sesión como miembro del rol **CsAdministrator** en cualquier equipo donde **Skype Empresarial Server Shell** de administración y **Ocscore** estén instalados.
     
-2. Inicie el Shell de administración de **Skype Empresarial Server** (puede escribir el nombre en la búsqueda o ir a Todos los **programas** y elegirlo).
+2. Inicie el **Skype Empresarial Server de administración** (puede escribir el nombre en la búsqueda o ir a Todos los **programas** y elegirlo).
     
 3. En la línea de comandos, escriba:
     
@@ -468,23 +468,23 @@ Para revisar los procedimientos de comando más adelante, puede consultar [Test-
 ## <a name="configure-for-push-notifications"></a>Configurar notificaciones de inserción
 <a name="ConfigPush"> </a>
 
-Las notificaciones push, en forma de distintivos, iconos o alertas, se pueden enviar a un dispositivo móvil incluso cuando la aplicación de Skype o Lync está inactiva. Pero, ¿qué son las notificaciones de inserción? Son alertas de eventos, como una invitación de mensajería instantánea nueva o perdida, o para un correo de voz recibido. El servicio de movilidad de Skype Empresarial Server envía estas notificaciones al Servicio de notificaciones push de Skype Empresarial Server basado en la nube, que envía las notificaciones al Servicio de notificaciones push (MSNS) de Microsoft para usuarios de Windows Phone.
+Las notificaciones push, en forma de distintivos, iconos o alertas, se pueden enviar a un dispositivo móvil incluso cuando la aplicación Skype o Lync está inactiva. Pero, ¿qué son las notificaciones de inserción? Son alertas de eventos, como una invitación de mensajería instantánea nueva o perdida, o para un correo de voz recibido. El servicio de movilidad de Skype Empresarial Server envía estas notificaciones al servicio de notificaciones de inserción de Skype Empresarial Server basado en la nube, que envía las notificaciones al Servicio de notificaciones de inserción de Microsoft (MSNS) para Windows Phone usuarios.
   
 Esta funcionalidad no cambia respecto a Lync Server 2013, pero si tiene un Skype Empresarial Server, querrá hacer lo siguiente:
   
-- Para un servidor perimetral de Skype Empresarial Server, agregue un nuevo proveedor de hospedaje, Microsoft Skype Empresarial Online y, a continuación, configure la federación de proveedores de hospedaje entre su organización y Skype Empresarial Online.
+- Para un servidor perimetral Skype Empresarial Server, agregue un nuevo proveedor de hospedaje, Microsoft Skype Empresarial Online y, a continuación, configure la federación de proveedores de hospedaje entre su organización y Skype Empresarial Online.
     
 - Habilite las notificaciones de inserción ejecutando el cmdlet **Set-CsPushNotificationConfiguration.** De manera predeterminada, las notificaciones de inserción están desactivadas.
     
 - Pruebe la configuración de federación y las notificaciones de inserción.
     
-### <a name="configure-your-skype-for-business-edge-server-for-push-notifications"></a>Configurar el servidor perimetral de Skype Empresarial para notificaciones push
+### <a name="configure-your-skype-for-business-edge-server-for-push-notifications"></a>Configurar el servidor perimetral Skype Empresarial para notificaciones de inserción
 
-1. Inicie sesión, con una cuenta que sea miembro del rol **CsAdministrator,** en un equipo donde esté instalado el Shell de administración de **Skype Empresarial Server** y **Ocscore.**
+1. Inicie sesión, con una cuenta que sea miembro del rol **CsAdministrator,** en un equipo donde Skype Empresarial Server **Shell** de administración y **Ocscore** estén instalados.
     
-2. Inicie el **Shell de administración de Skype Empresarial Server**.
+2. Inicie el **Shell Skype Empresarial Server administración**.
     
-3. Agregar un proveedor de hospedaje en línea de Skype Empresarial Server.
+3. Agregue un Skype Empresarial Server de hospedaje en línea.
     
    ```powershell
    New-CsHostingProvider -Identity <unique identifier for hosting provider> -Enabled $True -ProxyFQDN <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
@@ -499,7 +499,7 @@ Esta funcionalidad no cambia respecto a Lync Server 2013, pero si tiene un Skype
     > [!NOTE]
     > No puede tener más de una relación de federación con un único proveedor de hospedaje. Por lo tanto, si ya ha configurado un proveedor de hospedaje que tiene una relación de federación con sipfed.online.lync.com, no agregue otro proveedor de hospedaje para él, incluso si la identidad del proveedor de hospedaje es otra que SkypeOnline. 
   
-4. Configure la federación de proveedores de hospedaje entre su organización y el Servicio de notificaciones de inserción en Skype Empresarial Online. En la línea de comandos, deberá escribir:
+4. Configure la federación de proveedores de hospedaje entre su organización y el servicio de notificaciones de inserción en Skype Empresarial Online. En la línea de comandos, deberá escribir:
     
    ```powershell
     New-CsAllowedDomain -Identity "push.lync.com"
@@ -507,9 +507,9 @@ Esta funcionalidad no cambia respecto a Lync Server 2013, pero si tiene un Skype
 
 ### <a name="enable-push-notifications"></a>Habilitar notificaciones de inserción
 
-1. Inicie sesión, con una cuenta que sea miembro del rol **CsAdministrator,** en un equipo donde esté instalado el Shell de administración de **Skype Empresarial Server** y **Ocscore.**
+1. Inicie sesión, con una cuenta que sea miembro del rol **CsAdministrator,** en un equipo donde Skype Empresarial Server **Shell** de administración y **Ocscore** estén instalados.
     
-2. Inicie el **Shell de administración de Skype Empresarial Server**.
+2. Inicie el **Shell Skype Empresarial Server administración**.
     
 3. Habilitar notificaciones de inserción:
     
@@ -525,9 +525,9 @@ Esta funcionalidad no cambia respecto a Lync Server 2013, pero si tiene un Skype
 
 ### <a name="test-federation-and-push-notifications"></a>Notificaciones de inserción y federación de pruebas
 
-1. Inicie sesión, con una cuenta que sea miembro del rol **CsAdministrator,** en un equipo donde esté instalado el Shell de administración de **Skype Empresarial Server** y **Ocscore.**
+1. Inicie sesión, con una cuenta que sea miembro del rol **CsAdministrator,** en un equipo donde Skype Empresarial Server **Shell** de administración y **Ocscore** estén instalados.
     
-2. Inicie el **Shell de administración de Skype Empresarial Server**.
+2. Inicie el **Shell Skype Empresarial Server administración**.
     
 3. Probar la configuración de federación:
     
@@ -575,13 +575,13 @@ Para que los usuarios puedan usar La llamada a través del trabajo, también deb
 - Se asignó una directiva de movilidad que **tiene el enableOutsideVoice** establecido en **True**.
     
 > [!NOTE]
-> Los usuarios que no estén habilitados para Telefonía IP empresarial pueden usar sus dispositivos móviles para realizar llamadas VoIP de Skype a Skype o pueden unirse a conferencias mediante el vínculo Hacer clic para unirse mientras están en sus dispositivos móviles, si se establecen las opciones adecuadas para la directiva de voz a la que están asociados. Hay más detalles en el tema PLANNING. 
+> Los usuarios que no están habilitados para Telefonía IP empresarial pueden usar sus dispositivos móviles para hacer Skype Skype llamadas VoIP o pueden unirse a conferencias mediante el vínculo Hacer clic para unirse mientras están en sus dispositivos móviles, si se establecen las opciones adecuadas para la directiva de voz a la que están asociados. Hay más detalles en el tema PLANNING. 
   
 ### <a name="modify-global-mobility-policy"></a>Modificar la directiva global de movilidad
 
-1. Inicie sesión, con una cuenta que sea miembro del rol **CsAdministrator,** en un equipo donde esté instalado el Shell de administración de **Skype Empresarial Server** y **Ocscore.**
+1. Inicie sesión, con una cuenta que sea miembro del rol **CsAdministrator,** en un equipo donde Skype Empresarial Server **Shell** de administración y **Ocscore** estén instalados.
     
-2. Inicie el **Shell de administración de Skype Empresarial Server**.
+2. Inicie el **Shell Skype Empresarial Server administración**.
     
 3. Desactiva el acceso a Movilidad y Llamar a través del trabajo globalmente escribiendo:
     
@@ -596,9 +596,9 @@ Para que los usuarios puedan usar La llamada a través del trabajo, también deb
     
 ### <a name="modify-mobility-policy-by-site"></a>Modificar la directiva de movilidad por sitio
 
-1. Inicie sesión, con una cuenta que sea miembro del rol **CsAdministrator,** en un equipo donde esté instalado el Shell de administración de **Skype Empresarial Server** y **Ocscore.**
+1. Inicie sesión, con una cuenta que sea miembro del rol **CsAdministrator,** en un equipo donde Skype Empresarial Server **Shell** de administración y **Ocscore** estén instalados.
     
-2. Inicie el **Shell de administración de Skype Empresarial Server**.
+2. Inicie el **Shell Skype Empresarial Server administración**.
     
 3. Puede crear una directiva de nivel de sitio, desactivar VoIP y vídeo, habilitar Requerir WiFi para audio IP y Requerir WiFi para vídeo IP por sitio. Tipo:
     
@@ -610,9 +610,9 @@ Para que los usuarios puedan usar La llamada a través del trabajo, también deb
     
 ### <a name="modify-mobility-policy-by-user"></a>Modificar la directiva de movilidad por usuario
 
-1. Inicie sesión, con una cuenta que sea miembro del rol **CsAdministrator,** en un equipo donde esté instalado el Shell de administración de **Skype Empresarial Server** y **Ocscore.**
+1. Inicie sesión, con una cuenta que sea miembro del rol **CsAdministrator,** en un equipo donde Skype Empresarial Server **Shell** de administración y **Ocscore** estén instalados.
     
-2. Inicie el **Shell de administración de Skype Empresarial Server**.
+2. Inicie el **Shell Skype Empresarial Server administración**.
     
 3. Cree directivas de movilidad de nivel de usuario y desactive Movilidad y Llamar a través del trabajo por usuario. Tipo:
     

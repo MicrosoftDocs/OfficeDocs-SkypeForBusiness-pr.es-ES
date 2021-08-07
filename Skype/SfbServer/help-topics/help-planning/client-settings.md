@@ -1,5 +1,5 @@
 ---
-title: Configuración de cliente (herramienta de planeación)
+title: Skype Empresarial Server Herramienta de planeación Configuración cliente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,14 +15,14 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
-description: La característica de movilidad de Skype Empresarial Server 2015 admite la funcionalidad de Skype Empresarial en dispositivos móviles. Para obtener más información, consulte Planning for Mobility.
-ms.openlocfilehash: cb8929468840f1e26bc216196eaa46b5cc4ab4d2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: La característica Skype Empresarial Server de movilidad admite Skype funcionalidad en dispositivos móviles. Para obtener más información, consulte Planning for Mobility.
+ms.openlocfilehash: b2c5a573e010c1003fab185a24f7867c66261d4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116128"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772931"
 ---
-# <a name="client-settings-planning-tool"></a>Configuración de cliente (herramienta de planeación)
+# <a name="skype-for-business-server-client-settings-planning-tool"></a>Skype Empresarial Server Herramienta de planeación Configuración cliente
 
-La característica de movilidad de Skype Empresarial Server 2015 admite la funcionalidad de Skype Empresarial en dispositivos móviles. Para obtener más información, vea [Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).
+La característica de movilidad de Skype Empresarial Server 2015 admite Skype Empresarial funcionalidad en dispositivos móviles. Para obtener más información, vea [Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).

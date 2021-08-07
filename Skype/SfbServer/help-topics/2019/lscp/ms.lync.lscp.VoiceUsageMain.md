@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 8835213636b539ca4321513d0bad7d883adb1b10
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 08dd1b5684d8862cac8bb03ad852921e9db152b669632836eb31f85b3ae9d4ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277285"
 ---
 # <a name="pstn-usage"></a>Uso de RTC
 

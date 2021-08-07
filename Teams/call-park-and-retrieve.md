@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el parque de llamadas y recuperar para poner una llamada en espera en Microsoft Teams.
-ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
-ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
+ms.openlocfilehash: 751101a250c7a3f38ac7ba51dc8a22cc91d4d7b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53147188"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772611"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
@@ -53,7 +53,7 @@ Para habilitar una directiva de parque de llamadas
 
 1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Directivas de **parque**  >  **de llamadas de voz.**
 2. En la **pestaña Administrar directivas,** haga clic en **Agregar.**
-3. Asigne un nombre a la directiva y, a continuación, cambie **Permitir parque de llamadas** a **Activar**.
+3. Asigne un nombre a la directiva y, a continuación, cambie **Permitir parque de llamadas** a **Activar**. (El intervalo de recogida de llamadas y el tiempo de espera no se pueden personalizar).
 
     ![Captura de pantalla de la configuración de directiva de parque de llamadas](media/call-park-add-policy.png)
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: a24388bbc04e9823328c15a9f67dd227eb001915
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e51d9a284596d7b2d987eb499687b8de6a1639bc525c1fd8fba6b5438a5b5cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305732"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Directiva de PIN: Crear nuevos o editar los existentes
 
@@ -34,6 +34,6 @@ ms.locfileid: "51118759"
 
 - [Crear o modificar configuración de PIN de conferencia de acceso telefónico local para un sitio o grupo de usuarios](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-- [Modificar la configuración predeterminada del PIN de conferencia de acceso telefónico local](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
+- [Modificar el PIN de conferencia de acceso telefónico local predeterminado Configuración](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
 
-- [Eliminar la configuración del PIN de conferencia de acceso telefónico local para un sitio o grupo de usuarios](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
+- [Eliminar pin de conferencia de acceso telefónico Configuración un sitio o grupo de usuarios](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)

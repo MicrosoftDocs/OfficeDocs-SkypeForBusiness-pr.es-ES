@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudar con la supervisión y solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a18dbef0441055c1202c2b77ce4f8af87040e561
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: d6baa1b7cbaff690899945ac554d1a3bcf9ff170
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689698"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724963"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Use archivos de registro para supervisar y solucionar problemas Microsoft Teams
 
@@ -48,7 +48,7 @@ Mac: seleccione el menú Ayuda y elija **Recopilar archivos de soporte técnico.
 
 Los registros de depuración, escritorio y medios se recopilarán en una carpeta con el nombre Registro de diagnóstico de MSTeams. <local data and time> Esta carpeta se puede comprimir y compartir al abrir una solicitud de soporte técnico con el soporte técnico de Microsoft. La carpeta contendrá carpetas para escritorio, reunión (multimedia) y depuración (web). Puede recopilar los archivos con los siguientes métodos abreviados de teclado:
 
-Windows: Crtl + Alt + Mayús + 1
+Windows: Ctrl + Alt + Mayús + 1
 
 Mac: Opción + Comando + Mayús + 1
 
@@ -85,7 +85,7 @@ Los registros de depuración muestran los siguientes flujos de datos:
 
 Para recopilar registros para Linux: Método abreviado de teclado: Ctrl + Alt + Mayús + 1 Los archivos estarán disponibles en ~/Descargas
 
-Para recopilar registros para el explorador: Método abreviado de teclado: Crtl + Alt + Mayús + 1 Los archivos estarán disponibles en %userprofile%\Downloads
+Para recopilar registros para el explorador: Método abreviado de teclado: Ctrl + Alt + Mayús + 1 Los archivos estarán disponibles en %userprofile%\Downloads
 
 ## <a name="media-logs"></a>Registros de medios
 

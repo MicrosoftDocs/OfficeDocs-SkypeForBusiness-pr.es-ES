@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la Salas de Microsoft Teams, que incluyen mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ad710ab42548ab5a143c6cc001fadd152b0808d2
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: f870f746a5ff085fc997d9071ba243e43a8046b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772731"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión de Salas de Microsoft Teams
 
@@ -90,7 +90,7 @@ Se ha introducido en esta actualización:
 - Windows 10 compatibilidad con 20H2 
 
 > [!NOTE]
-> Hp Elite Slice y Crestron UC-Engine (fecha de la versión del BIOS que contiene "KYSKLi") Salas de Teams tienen problemas de compatibilidad y los controladores actualizados serán proporcionados por los OEM del sistema en un futuro próximo. Windows 10 20H2 no se ofrecerán a estos dispositivos. Para obtener más información sobre la compatibilidad Windows versión, [vea Windows 10 versión.](./rooms-lifecycle-support.md#windows-10-release-support)
+> Crestron UC-Engine (fecha de la versión del BIOS que contiene "KYSKLi") Salas de Teams problemas de compatibilidad y los controladores actualizados serán proporcionados por los OEM del sistema en un futuro próximo. Windows 10 20H2 no se ofrecerán a estos dispositivos. Para obtener más información sobre la compatibilidad Windows versión, [vea Windows 10 versión.](./rooms-lifecycle-support.md#windows-10-release-support)
 
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 
