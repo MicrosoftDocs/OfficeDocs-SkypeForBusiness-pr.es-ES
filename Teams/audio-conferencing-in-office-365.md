@@ -25,15 +25,15 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo las conferencias de audio en Microsoft 365 o Office 365 permiten a los usuarios llamar a reuniones desde sus teléfonos.
-ms.openlocfilehash: bce9aee26fa1fa9cfd8a365074bd67fcc79bde6f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 166ec76e8f63373056f73efd647b6810818a53ca410594ca06dc2f137e6ece02
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111276"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799071"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Conferencias de audio en Microsoft 365
-Las conferencias de audio Microsoft 365 y Office 365 permiten a los usuarios llamar a reuniones desde sus teléfonos. La audio conferencia permite hasta 250 asistentes telefónicos.
+Las conferencias de audio Microsoft 365 y Office 365 permiten a los usuarios llamar a reuniones desde sus teléfonos. Las audioconferencias permiten hasta 1000 asistentes telefónicos.
 
 ## <a name="what-is-audio-conferencing"></a>¿Qué es una audio conferencia?
 Llamar (marcar) a las reuniones es muy útil para los usuarios que están de viaje y no pueden asistir a una reunión utilizando la aplicación Skype Empresarial o la aplicación de Microsoft Teams en sus portátiles o dispositivos móviles. Pero hay otros escenarios en los que usar un teléfono para asistir a una reunión de Skype Empresarial o de Microsoft Teams puede ser una mejor opción que usar una aplicación en un ordenador:

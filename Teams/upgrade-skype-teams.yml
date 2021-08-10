@@ -88,8 +88,8 @@ additionalContent:
   sections:
     - title: ¿Necesita ayuda adicional?
     - items:
-        - title: Contratar FastTrack para obtener asistencia de implementación
-          summary: 'Cuando Teams proyectos de implementación requieren asistencia más implicada, los clientes con suscripciones elegibles pueden contratar FastTrack para obtener soporte técnico.'
+        - title: Participar FastTrack asistencia de implementación
+          summary: 'Cuando Teams proyectos de implementación requieren asistencia más implicada, los clientes con suscripciones elegibles pueden participar FastTrack para obtener soporte técnico.'
           url: 'https://www.microsoft.com/fasttrack'
         - title: Buscar un partner de Microsoft
           summary: ¿Necesita instrucciones adicionales? Los proveedores de soluciones de Microsoft pueden ayudarle a administrar la logística y técnica de la actualización.

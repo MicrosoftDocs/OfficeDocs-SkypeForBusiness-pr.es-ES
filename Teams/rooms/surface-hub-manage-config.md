@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Administrar Microsoft Teams configuración en Surface Hub con Microsoft Intune y Windows Diseñador de configuración
-ms.openlocfilehash: d368bed6db1d86e9c97d849d462edd1ff0a21c6d
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 6bcf1d8780c1214637e1c12d5830edd3f2534ffd86898b14095f573bb08932b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275996"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>Administrar Microsoft Teams configuración en Surface Hub
 

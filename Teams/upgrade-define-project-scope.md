@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 949c3189b80e9843b4b256f8d3f65cc3b52e2d1a
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: a1d1e887f34a9c2f058f04b6feee6b86af2869c09977d63ef01f9fff2ab0c4f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53586979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275986"
 ---
 # <a name="define-your-project-scope"></a>Definir el ámbito del proyecto
 

@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7946d6c098979d478f91d8ef67a3214c11823d7d
-ms.sourcegitcommit: dba7984f899f8921b462a56d158fa0a1cc2c2a8b
+ms.openlocfilehash: 0ee333cd789b908851358f537e940c77543210e48feb86b2174cb9e289a2d160
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929326"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304902"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de información en Microsoft Teams
 

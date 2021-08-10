@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d908373cf3e8df6429823d9245cf53a52fbf901
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: e2088272756886b210ae99b32f8c3148d237b10ccb367702745f0327cc4e2896
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796544"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590784"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -45,12 +45,12 @@ La siguiente tabla ofrece una referencia rápida y útil de la disponibilidad de
 
 **Acciones compatibles:**
 
-| El buzón del usuario se hospeda en:                                        | eDiscovery       | Legal&nbsp;Hold    | Retención  | Administración de equipos y canales | Crear y ver reuniones en Teams | Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Acceder a contactos de Outlook | Correo de voz  | Agregar y configurar conectores | Agregar y configurar fichas | Agregar y configurar bots |
-|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                 | Sí<sup>1</sup> | Sí <sup>1</sup>   | Sí        | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí<sup>6</sup>        | Sí        | Sí                          | Sí                    | Sí                    |
-| **Exchange Online Dedicated vNext**                                 | Sí<sup>1</sup> | Sí <sup>1</sup>   | Sí        | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí<sup>6</sup>        | Sí        | Sí                          | Sí                    | Sí                    |
-| **Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)  | Sí<sup>1</sup> | Sí<sup>1,2</sup> | Sí<sup>3</sup> | Sí                   | No                                | No                          | Sí          | Sí             | No                      | Sí <sup>4</sup> | Sí<sup>5</sup>                   | Sí                    | Sí                    |
-| **Exchange local** (Sincronizar con Azure AD) | Sí <sup>1,9</sup> | Sí<sup>1</sup>   | Sí<sup>3</sup> | Sí                   | Sí<sup>8</sup>         | Sí                          | Sí          | Sí             | No                      | Sí <sup>4</sup> | Sí<sup>5</sup>                   | Sí                    | Sí                    |
+| El buzón del usuario se hospeda en:                                       | eDiscovery         | Legal&nbsp;Hold    | Retención        | Administración de equipos y canales | Crear y ver reuniones en Teams | Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Acceder a contactos de Outlook | Correo de voz        | Agregar y configurar conectores | Agregar y configurar fichas | Agregar y configurar bots |
+|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                | Sí<sup>1</sup>   | Sí <sup>1</sup>   | Sí              | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí<sup>6</sup>        | Sí              | Sí                          | Sí                    | Sí                    |
+| **Exchange Online Dedicated vNext**                                | Sí<sup>1</sup>   | Sí <sup>1</sup>   | Sí              | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí<sup>6</sup>        | Sí              | Sí                          | Sí                    | Sí                    |
+| **Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD) | Sí<sup>1</sup>   | Sí<sup>1,2</sup> | Sí<sup>3</sup> | Sí                   | No                                | No                          | Sí          | Sí             | No                      | Sí <sup>4</sup> | Sí<sup>5</sup>             | Sí                    | Sí                    |
+| **Exchange local** (Sincronizar con Azure AD)                        | Sí <sup>1,9</sup> | Sí<sup>1</sup>   | Sí<sup>3</sup> | Sí                   | Sí<sup>8</sup>                  | Sí<sup>10</sup>            | Sí          | Sí             | No                      | Sí <sup>4</sup> | Sí<sup>5</sup>             | Sí                    | Sí                    |
 
 <sup>1</sup> eDiscovery y la suspensión legal para el cumplimiento en los mensajes de canal se admiten en todas las opciones de hospedaje.
 
@@ -64,11 +64,13 @@ La siguiente tabla ofrece una referencia rápida y útil de la disponibilidad de
 
 <sup>6</sup> Solo los contactos en la carpeta predeterminada de contactos. No se admite el acceso a otras carpetas o subcarpetas de contactos.
 
-<sup>7</sup> Teams respeta la configuración de la [directiva de buzón de Outlook en la Web](/powershell/module/exchange/client-access/set-owamailboxpolicy) que está configurada por los administradores de espacios empresariales para controlar si los usuarios pueden cambiar su imagen de perfil. Si la configuración **-SetPhotoEnabled** está desactivada en la directiva, los usuarios no pueden agregar, cambiar o quitar su imagen de perfil, por lo que la imagen de porfile no se sincronizará con los equipos si el administrador cambia la foto.
+<sup>7</sup> Teams respeta la configuración de la [directiva de buzón de Outlook en la Web](/powershell/module/exchange/client-access/set-owamailboxpolicy) que está configurada por los administradores de espacios empresariales para controlar si los usuarios pueden cambiar su imagen de perfil. Si la configuración **-SetPhotoEnabled** está desactivada en la directiva, los usuarios no pueden agregar, cambiar o quitar su imagen de perfil, por lo que la imagen de perfil no se sincronizará con los equipos si el administrador cambia la foto.
 
 <sup>8</sup> Deberá cumplir los requisitos enumerados en la sección [Requisitos para crear y ver reuniones para buzones de correo hospedados en el entorno local](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises).
 
 <sup>9</sup> También se requiere un mínimo Exchange Online licencia del Plan 1. Para obtener más información, vea [Buscar Teams de chat para usuarios locales.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
+
+<sup>10</sup> Los usuarios locales pueden usar Teams para actualizar su imagen de perfil incluso si la Outlook en la directiva de buzón web `SetPhotoEnabled` está establecida en `false` .
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Requisitos para sacar el máximo provecho de Microsoft Teams
 

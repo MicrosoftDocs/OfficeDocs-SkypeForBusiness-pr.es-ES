@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se proporciona información general sobre las características compatibles con Microsoft Teams paneles.
-ms.openlocfilehash: 5588448bfbde95747c7f02f150deae24de51f55a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fcb482303eb82990936ee090be6d8d78146f57c1f9ba78f967803bd3f37a599b
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102146"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591124"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams paneles
 
@@ -48,7 +48,7 @@ Para obtener más información sobre estas características y cómo usarlas, vea
 Puede adquirir sus dispositivos Teams paneles electrónicos de uno de los siguientes partners:
 
 - Crestron
-- (Próximamente) Yealink
+- Yealink
 
 ## <a name="teams-panels-requirements"></a>Teams requisitos de paneles
 
@@ -105,7 +105,7 @@ La planificación de la configuración y la implementación abarca las siguiente
 
 Cada Teams de paneles requiere una Microsoft 365 de recursos de sala. Use las credenciales de la cuenta de recurso para iniciar sesión Microsoft Teams aplicación en el dispositivo de paneles.
 
-Para configurar una cuenta Microsoft 365 de recursos para Teams paneles, le recomendamos que compre una Salas de Microsoft Teams [licencia estándar.](#license-requirement) Para obtener información sobre cómo crear una cuenta de recursos y asignarle una licencia, vea Crear una cuenta de recursos con el centro de administración [Microsoft 365 recursos.](resource-account-ui.md)
+Para configurar una cuenta Microsoft 365 de recursos para Teams paneles, le recomendamos que compre una Salas de Microsoft Teams [licencia estándar.](#license-requirement) Para obtener información sobre cómo crear una cuenta de recursos y asignarle una licencia, vea Crear una cuenta de recursos [con el Centro de administración de Microsoft 365](resource-account-ui.md).
 
 > [!NOTE]
 >

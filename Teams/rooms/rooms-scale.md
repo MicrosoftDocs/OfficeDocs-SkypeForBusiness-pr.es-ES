@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 1dabc8e4b3f2e238945bf68fdbad73cebebd7fd5
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: a0f0e6442b0350adc0e32ba95584544cee9cb4c17099a4c49e0263c5db3901e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276106"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implementar Salas de Microsoft Teams mediante Microsoft Endpoint Configuration Manager
 

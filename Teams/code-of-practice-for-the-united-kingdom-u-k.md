@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Obtenga información sobre el código de práctica de los planes de llamadas RTC para Skype Empresarial Reino Unido, incluidos dónde obtener ayuda y cómo enviar quejas y resolver disputas.
-ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306571"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Planes de llamadas en Microsoft 365- Código de práctica para el Reino Unido (Reino Unido)
 
@@ -44,7 +44,7 @@ Si tiene preguntas sobre las ventas, la facturación o el soporte técnico, pón
 
 Número de teléfono gratuito: 0800 032 6417
 
-En línea: Inicie sesión en el Microsoft 365 de administración y envíe una solicitud de servicio seleccionando Nueva solicitud **de servicio** en **Soporte técnico.**
+En línea: Inicie sesión en el Centro de administración de Microsoft 365 y envíe una solicitud de servicio seleccionando Nueva solicitud **de servicio en** Soporte **técnico.**
 
 El horario comercial normal es de lunes a viernes, de 9:00 a.m. a 5:00 p.m.
 

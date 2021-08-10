@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams idiomas admitidos por el operador automático
-ms.openlocfilehash: 8a55b1613aaf1c14989d1626966ca6051d7015d9
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 85b472a274789b4358afebf0293b303e8f49b4efe9176e010e25faeca673fbae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50197109"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276555"
 ---
 # <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams idiomas admitidos por el operador automático
 

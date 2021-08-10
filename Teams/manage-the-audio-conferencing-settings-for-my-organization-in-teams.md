@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Consulte Microsoft Teams pasos para asignar una licencia de conferencia de acceso telefónico local e id. de conferencia a un usuario y muchas otras opciones de configuración de conferencias de acceso telefónico local. '
-ms.openlocfilehash: 96a8995b995340642c6b58be9d5062eacd3cd29c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24d779a0740e5f0a8c0b305e4b441c01b628571f9ddf3292a1d92cd6c2d3ecb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101096"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276416"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para su organización en Microsoft Teams
 
@@ -40,13 +40,13 @@ Es posible que le resulte más fácil ver todas las opciones de configuración d
 ## <a name="assign-an-audio-conferencing-license"></a>Asignar una licencia de conferencia de acceso telefónico local
 
 > [!NOTE]
-> No puede asignar licencias con Teams. Debe usar el centro Microsoft 365 administración. Vea [Asignar Microsoft Teams de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
+> No puede asignar licencias con Teams. Debe usar el Centro de administración de Microsoft 365. Vea [Asignar Microsoft Teams de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
   
  **To assign a license for a user**
   
 1. Inicie sesión en Microsoft 365 con su cuenta de trabajo o escuela.
     
-2. En el panel de navegación izquierdo del Microsoft 365 de administración, vaya a Usuarios usuarios activos y, **a** continuación, seleccione el usuario o los usuarios de la lista  >  de usuarios disponibles.
+2. En la navegación izquierda de la  **Centro de administración de Microsoft 365**, vaya a Usuarios usuarios activos y, a continuación, seleccione el usuario o los usuarios de  >  la lista de usuarios disponibles.
     
     > [!NOTE]
     > Si va a asignar licencias a un máximo de 20 usuarios al mismo tiempo, puede usar el menú desplegable **Seleccionar una vista** y, luego, elegir una de las opciones o crear su propia vista. Luego, haga clic en **Editar**, haga clic dos veces en **Siguiente**, seleccione la licencia y haga clic en **Enviar**.  

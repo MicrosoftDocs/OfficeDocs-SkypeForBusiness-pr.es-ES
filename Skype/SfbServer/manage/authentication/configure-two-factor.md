@@ -13,26 +13,26 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Resumen: configure la autenticación en dos fases en Skype Empresarial Server.'
-ms.openlocfilehash: 8651be3fbc07bb890637bc8d1c7c99a827d1ea1e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 304b8e288954e14b251bf17f628e3206b79aedb3888f957456fca9fafb59e0fc
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096826"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590734"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurar la autenticación en dos fases en Skype Empresarial Server
 
-**Resumen:** Configure la autenticación en dos fases en Skype Empresarial Server.
+**Resumen:** Configure la autenticación en dos fases Skype Empresarial Server.
 
 En las secciones siguientes se describen los pasos necesarios para configurar la autenticación en dos fases para la implementación. Para obtener más información acerca de la autenticación en dos [fases, vea Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
 
-## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Configurar una entidad de certificación raíz de empresa para admitir la autenticación de tarjeta inteligente
+## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Configurar una entidad de Enterprise raíz para admitir la autenticación de tarjeta inteligente
 
-Los siguientes pasos describen cómo configurar una CA raíz de empresa para admitir la autenticación de tarjeta inteligente:
+Los siguientes pasos describen cómo configurar una entidad de certificación raíz Enterprise para admitir la autenticación de tarjeta inteligente:
 
-Para obtener información sobre cómo instalar una ENTIDAD de certificación raíz de empresa, vea [Install an Enterprise Root Certification Authority](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10)).
+Para obtener información sobre cómo instalar una ca raíz Enterprise, vea [Install an Enterprise Root Certification Authority](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10)).
 
-1. Inicie sesión en el equipo de ca de empresa con una cuenta de administrador de dominio.
+1. Inicie sesión en el equipo Enterprise ca con una cuenta de administrador de dominio.
 
 2. Inicie el Administrador del sistema y compruebe que el rol de inscripción web de entidad de certificación está instalado.
 
@@ -62,17 +62,17 @@ Para obtener información sobre cómo instalar una ENTIDAD de certificación ra�
 
     - Agregar el grupo Usuarios de dominio con permisos de lectura/inscripción (permitir)
 
-## <a name="configure-windows-8-for-virtual-smart-cards"></a>Configurar Windows 8 para tarjetas inteligentes virtuales
+## <a name="configure-windows-8-for-virtual-smart-cards"></a>Configurar Windows 8 tarjetas inteligentes virtuales
 
-Un factor a tener en cuenta al implementar la autenticación en dos fases y la tecnología de tarjetas inteligentes es el costo de implementación. Windows 8 proporciona una serie de nuevas funcionalidades de seguridad y una de las nuevas características más interesantes es la compatibilidad con tarjetas inteligentes virtuales.
+Un factor a tener en cuenta al implementar la autenticación en dos fases y la tecnología de tarjetas inteligentes es el costo de implementación. Windows 8 proporciona una serie de nuevas funcionalidades de seguridad y una de las características nuevas más interesantes es la compatibilidad con tarjetas inteligentes virtuales.
 
-Para los equipos equipados con un chip de módulo de plataforma segura (TPM) que cumple con la versión 1.2 de la especificación, las organizaciones ahora pueden obtener las ventajas del inicio de sesión con tarjeta inteligente sin realizar ninguna inversión adicional en hardware. Para obtener más información, consulta [Usar tarjetas inteligentes virtuales con Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
+Para los equipos equipados con un chip de módulo de plataforma segura (TPM) que cumple con la versión 1.2 de la especificación, las organizaciones ahora pueden obtener las ventajas del inicio de sesión con tarjeta inteligente sin realizar ninguna inversión adicional en hardware. Para obtener más información, vea [Using Virtual Smart Cards with Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
 
-### <a name="to-configure-windows-8-for-virtual-smart-cards"></a>Para configurar Windows 8 para tarjetas inteligentes virtuales
+### <a name="to-configure-windows-8-for-virtual-smart-cards"></a>Para configurar Windows 8 tarjetas inteligentes virtuales
 
-1. Inicie sesión en el equipo con Windows 8 con las credenciales de un usuario habilitado para Skype Empresarial.
+1. Inicie sesión en el equipo Windows 8 con las credenciales de un usuario Skype Empresarial habilitado para correo.
 
-2. En la pantalla Inicio de Windows 8, mueve el cursor a la esquina inferior derecha de la pantalla.
+2. En la Windows 8 inicio, mueva el cursor a la esquina inferior derecha de la pantalla.
 
 3. Seleccione la **opción Buscar** y, a continuación, busque Símbolo del sistema.
 
@@ -80,9 +80,9 @@ Para los equipos equipados con un chip de módulo de plataforma segura (TPM) que
 
 5. Abra la consola de administración del módulo de plataforma segura (TPM) ejecutando el siguiente comando:
 
-  ```console
-  Tpm.msc
-  ```
+   ```console
+   Tpm.msc
+   ```
 
 6. Desde la consola de administración de TPM, compruebe que la versión de especificación del TPM es al menos 1.2
 
@@ -97,8 +97,8 @@ Para los equipos equipados con un chip de módulo de plataforma segura (TPM) que
   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
   ```
 
-    > [!NOTE]
-    > Para proporcionar un valor de PIN personalizado al crear la tarjeta inteligente virtual, use /pin prompt en su lugar.
+   > [!NOTE]
+   > Para proporcionar un valor de PIN personalizado al crear la tarjeta inteligente virtual, use /pin prompt en su lugar.
 
 9. En el símbolo del sistema, abra la consola de administración de equipos ejecutando el siguiente comando:
 
@@ -120,14 +120,14 @@ Para obtener más información sobre la inscripción en nombre de los usuarios c
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>Para inscribir usuarios para autenticación con tarjeta inteligente
 
-1. Inicie sesión en la estación de trabajo de Windows 8 con las credenciales de un usuario habilitado para Skype Empresarial.
+1. Inicie sesión en la estación Windows 8 de trabajo con las credenciales de un Skype Empresarial usuario habilitado.
 
 2. Inicie Internet Explorer.
 
 3. Vaya a la **página Inscripción web de entidad de** certificación (por ejemplo, https://MyCA.contoso.com/certsrv) .
 
     > [!NOTE]
-    > Si usa Internet Explorer 10, es posible que deba ver este sitio web en modo de compatibilidad.
+    > Si usas Internet Explorer 10, es posible que deba ver este sitio web en modo de compatibilidad.
 
 4. En la **página de** bienvenida, seleccione Solicitar **un certificado**.
 
@@ -143,7 +143,7 @@ Para obtener más información sobre la inscripción en nombre de los usuarios c
 
     - Para **CSP,** seleccione Proveedor criptográfico **de tarjeta inteligente de Microsoft Base**
 
-    - Para **Uso de clave,** **seleccione Exchange** (esta es la única opción disponible).
+    - Para **Uso de** clave, seleccione **Exchange** (esta es la única opción disponible).
 
     - Para **Tamaño de clave**, escriba 2048
 
@@ -172,17 +172,16 @@ Para obtener más información sobre la inscripción en nombre de los usuarios c
 
     > [!NOTE]
     >  Si se produce un error en la solicitud de certificado con el error "Este explorador web no admite la generación de solicitudes de certificado", hay tres maneras posibles de resolver el problema:
-
-        a. Enable Compatibility View in Internet Explorer
-        b. Enable the Turn on Intranet settings option in Internet Explorer
-        c. Select the Reset all zones to default level setting under the Security tab in the Internet Explorer options menu.
+    >- Habilitar la vista compatibilidad en Internet Explorer.
+    >- Habilita la opción Activar configuración de intranet en Internet Explorer.
+    >- Seleccione la opción Restablecer todas las zonas al nivel predeterminado en la pestaña Seguridad del menú opciones de Internet Explorer.
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>Configurar servicios de federación de Active Directory (AD FS 2.0)
 
 En la siguiente sección se describe cómo configurar los Servicios de federación de Active Directory (AD FS 2.0) para admitir la autenticación multifactor. Para obtener información sobre cómo instalar AD FS 2.0, vea [AD FS 2.0 Step-by-Step y How To Guides](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10)).
 
 > [!NOTE]
-> Al instalar AD FS 2.0, no use el Administrador de Windows Server para agregar el rol Servicios de federación de Active Directory. En su lugar, descargue e instale el paquete de Servicios de federación [de Active Directory 2.0 RTW](https://go.microsoft.com/fwlink/p/?LinkId=313375).
+> Al instalar AD FS 2.0, no use el administrador Windows servidor para agregar el rol Servicios de federación de Active Directory. En su lugar, descargue e instale el paquete de Servicios de federación [de Active Directory 2.0 RTW](https://go.microsoft.com/fwlink/p/?LinkId=313375).
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>Para configurar AD FS para la autenticación en dos fases
 
@@ -208,7 +207,7 @@ En la siguiente sección se describe cómo configurar los Servicios de federaci�
 
 7. Compruebe que se ha creado una nueva confianza para su Skype Empresarial Server.
 
-8. Cree y asigne una regla de autorización de emisión para su confianza de usuario de confianza Windows PowerShell mediante la ejecución de los siguientes comandos:
+8. Cree y asigne una regla de autorización de emisión para su confianza de usuario de confianza mediante Windows PowerShell mediante la ejecución de los siguientes comandos:
 
   ```PowerShell
   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
@@ -255,11 +254,11 @@ Con la autenticación basada en formularios, puede desarrollar una página web q
 
 4. Realice una copia de seguridad del archivo web.config existente.
 
-5. Abra el archivo web.config con el Bloc de notas.
+5. Abra el archivo de web.config existente mediante Bloc de notas.
 
 6. En la barra de menús, **seleccione Editar** y, a continuación, **seleccione Buscar**.
 
-7. Buscar \<localAuthenticationTypes\> .
+7. Busque \<localAuthenticationTypes\>.
 
     Tenga en cuenta que hay cuatro tipos de autenticación enumerados, uno por línea.
 
@@ -275,31 +274,31 @@ Con la autenticación basada en formularios, puede desarrollar una página web q
   IISReset /Restart /NoForce
   ```
 
-## <a name="configuring-skype-for-business-server-passive-authentication"></a>Configuración de la autenticación pasiva de Skype Empresarial Server
+## <a name="configuring-skype-for-business-server-passive-authentication"></a>Configuración de Skype Empresarial Server autenticación pasiva
 
-En la siguiente sección se describe cómo configurar Skype Empresarial Server para admitir la autenticación pasiva. Una vez habilitado, los usuarios habilitados para la autenticación en dos fases tendrán que usar una tarjeta inteligente física o virtual y un PIN válido para iniciar sesión con el cliente de Skype Empresarial.
+En la siguiente sección se describe cómo configurar Skype Empresarial Server para admitir la autenticación pasiva. Una vez habilitado, los usuarios habilitados para la autenticación en dos fases tendrán que usar una tarjeta inteligente física o virtual y un PIN válido para iniciar sesión con el Skype Empresarial cliente.
 
 > [!NOTE]
 > Se recomienda encarecidamente que los clientes habiliten la autenticación pasiva para registrar y los servicios web en el nivel de servicio. Si la autenticación pasiva está habilitada para registrador y servicios web en el nivel global, probablemente provocará errores de autenticación en toda la organización para los usuarios que no inicien sesión con el cliente de escritorio compatible.
 
 ### <a name="web-service-configuration"></a>Configuración del servicio web
 
-En los pasos siguientes se describe cómo crear una configuración de servicio web personalizada para directores, grupos de servidores de empresa y servidores Standard Edition que se habilitarán para la autenticación pasiva.
+En los pasos siguientes se describe cómo crear una configuración de servicio web personalizada para directores, grupos de servidores Enterprise y servidores Standard Edition que se habilitarán para la autenticación pasiva.
 
 ### <a name="to-create-a-custom-web-service-configuration"></a>Para crear una configuración de servicio web personalizada
 
-1. Inicie sesión en el servidor front-end de Skype Empresarial Server con una cuenta de administrador de Skype Empresarial.
+1. Inicie sesión en el Skype Empresarial Server front-end con una cuenta Skype Empresarial administrador.
 
-2. Inicie el Shell de administración de Skype Empresarial Server.
+2. Inicie el Shell Skype Empresarial Server administración.
 
-3. Desde la línea de comandos del Shell de administración de Skype Empresarial Server, cree una nueva configuración de servicio web para cada servidor director, grupo de empresas y Standard Edition que se habilitará para la autenticación pasiva ejecutando el siguiente comando:
+3. Desde la línea de comandos del Shell de administración de Skype Empresarial Server, cree una nueva configuración de servicio web para cada director, grupo de servidores de Enterprise y servidor Standard Edition que se habilitará para la autenticación pasiva ejecutando el siguiente comando:
 
   ```PowerShell
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
   ```
 
-    > [!CAUTION]
-    > El valor del FQDN WsFedPassiveMetadataUri es el nombre del servicio de federación del servidor de AD FS 2.0. El valor nombre del servicio de federación se puede encontrar en la Consola de administración de AD FS 2.0 haciendo clic con el botón secundario en **Servicio** en el panel de navegación y, a continuación, seleccionando Editar propiedades del servicio **de federación**.
+   > [!CAUTION]
+   > El valor del FQDN WsFedPassiveMetadataUri es el nombre del servicio de federación del servidor de AD FS 2.0. El valor nombre del servicio de federación se puede encontrar en la Consola de administración de AD FS 2.0 haciendo clic con el botón secundario en **Servicio** en el panel de navegación y, a continuación, seleccionando Editar propiedades del servicio **de federación**.
 
 4. Compruebe que los valores UseWsFedPassiveAuth y WsFedPassiveMetadataUri se han establecido correctamente ejecutando el siguiente comando:
 
@@ -307,7 +306,7 @@ En los pasos siguientes se describe cómo crear una configuración de servicio w
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
-5. Para los clientes, la autenticación pasiva es el método de autenticación menos preferido para la autenticación de webticket. Para todos los servidores directores, grupos de servidores de empresa y Standard Edition que se habilitarán para la autenticación pasiva, todos los demás tipos de autenticación deben deshabilitarse en Skype Empresarial Web Services ejecutando el siguiente cmdlet:
+5. Para los clientes, la autenticación pasiva es el método de autenticación menos preferido para la autenticación de webticket. Para todos los directores, Enterprise grupos de servidores y servidores Standard Edition que se habilitarán para la autenticación pasiva, todos los demás tipos de autenticación deben deshabilitarse en Skype Empresarial Web Services ejecutando el siguiente cmdlet:
 
   ```PowerShell
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
@@ -321,13 +320,13 @@ En los pasos siguientes se describe cómo crear una configuración de servicio w
 
 ### <a name="proxy-configuration"></a>Configuración de proxy
 
-Cuando la autenticación de certificados está deshabilitada para Skype Empresarial Web Services, el cliente de Skype Empresarial usará un tipo de autenticación menos preferido, como Kerberos o NTLM, para autenticarse en el servicio de registrador. La autenticación de certificados sigue siendo necesaria para permitir que el cliente recupere un webticket, sin embargo, Kerberos y NTLM deben deshabilitarse para el servicio de registrador.
+Cuando se deshabilita la autenticación de certificados para Skype Empresarial Web Services, el cliente de Skype Empresarial usará un tipo de autenticación menos preferido, como Kerberos o NTLM, para autenticarse en el servicio de registrador. La autenticación de certificados sigue siendo necesaria para permitir que el cliente recupere un webticket, sin embargo, Kerberos y NTLM deben deshabilitarse para el servicio de registrador.
 
-En los pasos siguientes se describe cómo crear una configuración de proxy personalizada para grupos de servidores perimetrales, grupos de servidores empresariales y servidores Standard Edition que se habilitarán para la autenticación pasiva.
+En los pasos siguientes se describe cómo crear una configuración de proxy personalizada para grupos de servidores perimetrales, grupos de servidores Enterprise y servidores Standard Edition que se habilitarán para la autenticación pasiva.
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>Para crear una configuración de proxy personalizada
 
-1. Desde la línea de comandos del Shell de administración de Skype Empresarial Server, cree una nueva configuración de proxy para cada grupo perimetral de Skype Empresarial Server, grupo de servidores empresarial y servidor Standard Edition que se habilitará para la autenticación pasiva ejecutando los siguientes comandos:
+1. Desde la línea de comandos del Shell de administración de Skype Empresarial Server, cree una nueva configuración de proxy para cada grupo de servidores perimetrales de Skype Empresarial Server, un grupo de servidores Enterprise y un servidor Standard Edition que se habilitará para la autenticación pasiva ejecutando los siguientes comandos:
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
@@ -343,8 +342,8 @@ En los pasos siguientes se describe cómo crear una configuración de proxy pers
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Administrar la autenticación en dos fases en Skype Empresarial Server](two-factor-authentication.md)
 
-[Usar la autenticación en dos fases con el cliente de Skype Empresarial y Skype Empresarial Server](use-two-factor.md)
+[Use la autenticación en dos fases Skype Empresarial cliente y Skype Empresarial Server](use-two-factor.md)

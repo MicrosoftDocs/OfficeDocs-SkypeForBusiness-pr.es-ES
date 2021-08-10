@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar canales para la moderación en Microsoft Teams, incluido cómo agregar miembros del equipo como moderadores de canal.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 81e5159cf0e64a4c5b88afea51de528c299daf80
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: c0aa2035a23a82d0a73009c379b99d34e9ccf7ff1b1b3dd0806dd7d6d0afcdf7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304852"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurar y administrar la moderación del canal en Microsoft Teams
 
@@ -52,9 +52,9 @@ El equipo de marketing usa un canal específico para compartir anuncios y entreg
 
 En este escenario, el propietario del equipo agrega clientes potenciales de marketing como moderadores para que puedan publicar anuncios en el canal y desactiva la posibilidad de que los miembros del equipo respondan a mensajes en ese canal.
 
-### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Usar un canal para las discusiones de clase en Teams educación
+### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Usar un canal para las discusiones de clase en Teams para Educación
 
-En Teams educación, un profesor de ciencia quiere usar un canal para involucrar a los alumnos en discusiones centradas en temas específicos del aula.
+En Teams para Educación, un profesor de ciencia quiere usar un canal para involucrar a los alumnos en discusiones centradas en temas específicos del aula.
 
 En este escenario, el profesor permite a sus asistentes de enseñanza moderar el canal. Los asistentes de enseñanza pueden crear nuevas publicaciones para iniciar e impulsar discusiones con los alumnos.
 

@@ -16,17 +16,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
-description: Obtenga información sobre el control de admisión de llamadas, que puede impedir que las llamadas tengan lugar si tienen mala calidad de medios, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: a802babc1b97eaf73b338f56c8c0a2b6c1f0efd6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Obtenga información sobre el control de admisión de llamadas, que puede impedir que las llamadas tengan lugar si tendrían mala calidad de medios, en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: ee51e83c8c797a958ce520e0215b438927a65005d8cb1b3caf4c75793cb55f99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105316"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306911"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planear el control de admisión de llamadas en Skype Empresarial Server
 
-Obtenga información sobre el control de admisión de llamadas, que puede impedir que las llamadas tengan lugar si tienen mala calidad de medios, en Skype Empresarial Server Telefonía IP empresarial.
+Obtenga información sobre el control de admisión de llamadas, que puede impedir que las llamadas tengan lugar si tendrían mala calidad de medios, en Skype Empresarial Server Telefonía IP empresarial.
 
 En el caso de las aplicaciones basadas en IP, como telefonía, vídeo y uso compartido de aplicaciones, el ancho de banda disponible de las redes empresariales no suele considerarse un factor limitante en entornos LAN. Sin embargo, en los vínculos WAN que interconectan sitios, el ancho de banda de red puede ser limitado.
 
@@ -53,7 +53,7 @@ Si una sesión de vídeo o voz nueva supera los límites de ancho de banda que s
 
 El CAC controla el tráfico en tiempo real solo para voz y vídeo. No controla el tráfico de datos.
 
-Los administradores definen directivas de CAC, que son aplicadas por el servicio de directivas de ancho de banda que se instala con cada grupo de servidores front-end. La configuración del CAC se propaga automáticamente a todos los servidores front-end de Skype Empresarial Server de la red.
+Los administradores definen directivas de CAC, que son aplicadas por el servicio de directivas de ancho de banda que se instala con cada grupo de servidores front-end. La configuración del CAC se propaga automáticamente a todos los Skype Empresarial Server front-end de la red.
 
 Para las llamadas en las que se produce un error debido a las directivas del CAC, el orden de prioridad para desviar la llamada es el siguiente:
 
@@ -78,7 +78,7 @@ El servicio de directivas de ancho de banda proporciona alta disponibilidad dent
 
 ### <a name="network-considerations"></a>Consideraciones relacionadas con la red
 
-Aunque el servicio de directivas de ancho de banda de Skype Empresarial Server aplica la restricción de ancho de banda para audio y vídeo, esta restricción no se aplica en el enrutador de red (capa 2 y 3). El CAC no puede impedir que una aplicación de datos, por ejemplo, consuma todo el ancho de banda de red en un vínculo WAN, incluido el ancho de banda reservado para audio y vídeo por la directiva de CAC. Para proteger el ancho de banda necesario en la red, puede implementar un protocolo de calidad de servicio (QoS) como Servicios diferenciados (DiffServ). Por lo tanto, un procedimiento recomendado es coordinar las directivas de ancho de banda de CAC que defina con cualquier configuración de QoS que pueda implementar.
+Aunque el servicio de directivas de ancho de banda aplica la restricción de ancho de banda para audio y vídeo en Skype Empresarial Server, esta restricción no se aplica en el enrutador de red (capa 2 y 3). El CAC no puede impedir que una aplicación de datos, por ejemplo, consuma todo el ancho de banda de red en un vínculo WAN, incluido el ancho de banda reservado para audio y vídeo por la directiva de CAC. Para proteger el ancho de banda necesario en la red, puede implementar un protocolo de calidad de servicio (QoS) como Servicios diferenciados (DiffServ). Por lo tanto, un procedimiento recomendado es coordinar las directivas de ancho de banda de CAC que defina con cualquier configuración de QoS que pueda implementar.
 
 ### <a name="media-and-signaling-paths-over-vpn"></a>Rutas de señalización y medios sobre VPN
 
@@ -86,13 +86,13 @@ Si su empresa admite medios a través de VPN, asegúrese de que tanto la secuenc
 
 ### <a name="call-admission-control-of-outside-users"></a>Control de admisión de llamadas de usuarios externos
 
-El control de admisión de llamadas no se aplica más allá de los límites de la organización de Skype Empresarial Server. El CAC no se puede aplicar al tráfico multimedia que atraviesa Internet, que no está administrado por Skype Empresarial Server. Las comprobaciones de CAC se realizarán en la parte de la llamada que fluye a través de la red empresarial si el extremo llamado pertenece a la organización y el servidor perimetral se ha agregado a la configuración de red, como se describe en Implementación del control de admisión de [llamadas:](../../deploy/deploy-enterprise-voice/final-checklist.md)lista de comprobación final para Skype Empresarial Server . Si el extremo llamado no pertenece a la organización, como un usuario federado o PIC, no se realizan comprobaciones de directiva de ancho de banda y la llamada saliente omitirá las restricciones de CAC.
+El control de admisión de llamadas no se aplica más allá de los límites de la Skype Empresarial Server organización. El CAC no se puede aplicar al tráfico multimedia que atraviesa Internet, que no se administra mediante Skype Empresarial Server. Las comprobaciones de CAC se realizarán en la parte de la llamada que fluye a través de la red empresarial si el extremo llamado pertenece a la organización y el servidor perimetral se ha agregado a la configuración de red, como se describe en Implementación del control de admisión de [llamadas:](../../deploy/deploy-enterprise-voice/final-checklist.md)lista de comprobación final para Skype Empresarial Server . Si el extremo llamado no pertenece a la organización, como un usuario federado o PIC, no se realizan comprobaciones de directiva de ancho de banda y la llamada saliente omitirá las restricciones de CAC.
 
 ### <a name="call-admission-control-of-pstn-connections"></a>Control de admisión de llamadas de conexiones RTC
 
-El control de admisión de llamadas es exigible en el servidor de mediación independientemente de si está conectado a una IP/PBX, una puerta de enlace RTC o un tronco SIP. Dado que el servidor de mediación es un agente de usuario back-to-back (B2BUA), termina los medios. Tiene dos lados de conexión: un lado que está conectado a Skype Empresarial Server y un lado de puerta de enlace, que está conectado a puertas de enlace RTC, IP/PBX o troncos SIP. Para obtener más información acerca de las conexiones RTC, vea [Plan for PSTN connectivity in Skype for Business Server](pstn-connectivity-0.md).
+El control de admisión de llamadas es exigible en el servidor de mediación independientemente de si está conectado a una IP/PBX, una puerta de enlace RTC o un tronco SIP. Dado que el servidor de mediación es un agente de usuario back-to-back (B2BUA), termina los medios. Tiene dos lados de conexión: un lado que está conectado a Skype Empresarial Server y un lado de puerta de enlace, que está conectado a puertas de enlace RTC, IP/PBX o troncos SIP. Para obtener más información acerca de las conexiones RTC, vea [Plan for PSTN connectivity in Skype Empresarial Server](pstn-connectivity-0.md).
 
-El CAC se puede aplicar a ambos lados del servidor de mediación a menos que se habilite la omisión de medios. Si la omisión de medios está habilitada, el tráfico multimedia no atraviesa el servidor de mediación, sino que fluye directamente entre el cliente de Skype Empresarial y la puerta de enlace. En este caso, el CAC no es necesario. Para obtener más información, vea [Plan for media bypass in Skype for Business](media-bypass.md).
+El CAC se puede aplicar a ambos lados del servidor de mediación a menos que se habilite la omisión de medios. Si la omisión de medios está habilitada, el tráfico multimedia no atraviesa el servidor de mediación, sino que fluye directamente entre el Skype Empresarial y la puerta de enlace. En este caso, el CAC no es necesario. Para obtener más información, vea [Plan for media bypass in Skype Empresarial](media-bypass.md).
 
 En la siguiente figura se muestra cómo se aplica el CAC a las conexiones RTC con el desvío de medios habilitado e inhabilitado.
 
@@ -113,7 +113,7 @@ La planeación del servicio de control de admisión de llamadas (CAC) requiere i
 4. Determine los límites de ancho de banda para cada vínculo WAN.
 
     > [!NOTE]
-    > Los límites de ancho de banda hacen referencia a la cantidad de ancho de banda en un vínculo WAN que se asigna al tráfico Telefonía IP empresarial audio y vídeo. Cuando un vínculo WAN se describe como "restringido por ancho de banda", el vínculo WAN tiene un límite de ancho de banda inferior al tráfico máximo esperado sobre el vínculo.
+    > Los límites de ancho de banda hacen referencia a la cantidad de ancho de banda en un vínculo WAN que se asigna al tráfico de audio y vídeo y Telefonía IP empresarial de audio y vídeo. Cuando un vínculo WAN se describe como "restringido por ancho de banda", el vínculo WAN tiene un límite de ancho de banda inferior al tráfico máximo esperado sobre el vínculo.
 
 5. Identifique las subredes IP asignadas a cada sitio de red.
 
@@ -126,7 +126,7 @@ Para explicar estos conceptos, usaremos la topología de red de ejemplo que se m
 > [!NOTE]
 > Todos los sitios de red están asociados a una región de red. Por ejemplo, Portland, Reno y Albuquerque están incluidos en la región Norteamérica. En esta figura, solo se muestran los vínculos WAN que tienen aplicadas directivas de CAC con límites de ancho de banda. Los sitios de red Chicago, Nueva York y Detroit aparecen dentro del óvalo regional Norteamérica debido a que no tienen ancho de banda restringido y, por lo tanto, no precisan directivas de CAC.
 
-Los componentes de esta topología de ejemplo se explican en las siguientes secciones. Para obtener más información sobre cómo se planeó esta topología, incluidos los límites de ancho de banda, vea [Ejemplo:](example-gathering-requirements.md)recopilación de requisitos para el control de admisión de llamadas en Skype Empresarial Server .
+Los componentes de esta topología de ejemplo se explican en las siguientes secciones. Para obtener más información sobre cómo se planeó esta topología, incluidos los límites de ancho de banda, vea [Ejemplo:](example-gathering-requirements.md)Recopilación de requisitos para el control de admisión de llamadas en Skype Empresarial Server .
 
 ### <a name="identify-network-regions"></a>Identificar regiones de red
 
@@ -138,10 +138,10 @@ Nuestra topología de ejemplo tiene tres regiones de red: Norteamérica, EMEA y 
 
 ### <a name="associating-a-central-site-with-each-network-region"></a>Asociación de un sitio central con cada región de red
 
-El CAC requiere que se defina un sitio central de Skype Empresarial Server para cada región de red. El sitio central está seleccionado con la mejor conectividad de red y el mayor ancho de banda respecto al resto de sitios dentro de esa región de la red. El anterior ejemplo de topología de red muestra tres regiones de la red, cada uno con un sitio central que administra las decisiones de CAC. En el ejemplo anterior, la asociación correspondiente se muestra en la siguiente tabla.
+El CAC requiere que se defina Skype Empresarial Server sitio central para cada región de red. El sitio central está seleccionado con la mejor conectividad de red y el mayor ancho de banda respecto al resto de sitios dentro de esa región de la red. El anterior ejemplo de topología de red muestra tres regiones de la red, cada uno con un sitio central que administra las decisiones de CAC. En el ejemplo anterior, la asociación correspondiente se muestra en la siguiente tabla.
 
 > [!NOTE]
-> Los sitios centrales no corresponden necesariamente a sitios de red. En los ejemplos de esta documentación, algunos sitios centrales (Chicago, Londres y Beijing) comparten el mismo nombre que algunos sitios de red. Sin embargo, incluso si un sitio central y un sitio de red comparten el mismo nombre, el sitio central es un elemento de la topología de Skype Empresarial Server, mientras que el sitio de red forma parte de la red general en la que reside la topología de Skype Empresarial Server.
+> Los sitios centrales no corresponden necesariamente a sitios de red. En los ejemplos de esta documentación, algunos sitios centrales (Chicago, Londres y Beijing) comparten el mismo nombre que algunos sitios de red. Sin embargo, incluso si un sitio central y un sitio de red comparten el mismo nombre, el sitio central es un elemento de la topología de Skype Empresarial Server, mientras que el sitio de red forma parte de la red general en la que reside la topología Skype Empresarial Server.
 
 **Regiones de red, sitios centrales y sitios de red**
 
@@ -185,15 +185,15 @@ Las directivas de ancho de banda del CAC pueden definir cualquiera de las siguie
 > Todos los valores de ancho de banda cac representan los límites  *máximos de ancho*  de banda unidireccional.
 
 > [!NOTE]
-> Las características de la directiva de voz de Skype Empresarial Server proporcionan la capacidad de invalidar las comprobaciones de directivas de ancho de banda para las llamadas entrantes al usuario (no para las llamadas salientes realizadas por el usuario). Una vez establecida la sesión, se justificará detalladamente el consumo de ancho de banda. Esta configuración se debe usar con moderación. Para obtener más información, vea [Create or modify a voice policy and configure PSTN usage records in Skype for Business](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) o Modify a Voice Policy y Configure [PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) en la documentación sobre implementación.
+> Las Skype Empresarial Server de directiva de voz proporcionan la capacidad de invalidar las comprobaciones de directivas de ancho de banda para las llamadas entrantes al usuario (no para las llamadas salientes realizadas por el usuario). Una vez establecida la sesión, se justificará detalladamente el consumo de ancho de banda. Esta configuración se debe usar con moderación. Para obtener más información, vea Crear o modificar una directiva de voz y configurar registros de uso de RTC en [Skype Empresarial](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) o Modificar una directiva de voz y Configurar registros de uso de [RTC](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) en la documentación de implementación.
 
 Para optimizar la utilización del ancho de banda por sesión, tenga en cuenta el tipo de códecs de audio y vídeo que se van a usar. En concreto, evite una asignación insuficiente de ancho de banda a un códec que prevea que se va a usar con frecuencia. Por el contrario, si desea evitar que los medios usen un códec que precisa mayor ancho de banda, deberá establecer un ancho de banda máximo por sesión lo suficientemente bajo para disuadir de su uso. En lo que respecta al audio, no todos los códecs están disponibles para todos los escenarios. Por ejemplo:
 
-- Las llamadas de audio punto a punto entre puntos de conexión de Skype Empresarial usarán RTAudio (8 kHz) o RTAudio (16 kHz) cuando se tiene en cuenta el ancho de banda y la priorización de códecs.
+- Las llamadas de audio punto a punto entre puntos de conexión de Skype Empresarial usarán RTAudio (8 kHz) o RTAudio (16 kHz) cuando se tiene en cuenta el ancho de banda y la priorización de los códecs.
 
-- Las llamadas de conferencia entre los puntos de conexión de Skype Empresarial y el servicio de conferencia A/V usarán G.722 o Siren.
+- Las llamadas de conferencia entre Skype Empresarial y el servicio de conferencia A/V usarán G.722 o Siren.
 
-- Las llamadas a la red telefónica conmutada (RTC) desde o hacia puntos de conexión de Skype Empresarial usarán G.711 o RTAudio (8kHz).
+- Las llamadas a la red telefónica conmutada (RTC) desde o hacia los puntos de conexión Skype Empresarial usarán G.711 o RTAudio (8kHz).
 
 Use la tabla que aparece a continuación para optimizar la configuración de ancho de banda máximo por sesión.
 
@@ -214,7 +214,7 @@ Use la tabla que aparece a continuación para optimizar la configuración de anc
 
 Los códecs G.722.1 y Siren son similares, pero ofrecen diferentes velocidades de bits.
 
-G.722, el códec predeterminado para conferencias de Skype Empresarial Server, es completamente diferente de los códecs G.722.1 y Siren.
+G.722, el códec predeterminado para Skype Empresarial Server conferencia, es completamente diferente de los códecs G.722.1 y Siren.
 
 El códec Siren se usa en Skype Empresarial Server en las siguientes situaciones:
 
@@ -229,7 +229,7 @@ El códec Siren se usa en Skype Empresarial Server en las siguientes situaciones
 |Llamadas de audio de punto a punto  <br/> |45 kbps  <br/> |62 kbps  <br/> |91 kbps  <br/> |
 |Llamadas de conferencia  <br/> |53 kbps  <br/> |101 kbps  <br/> |165 kbps  <br/> |
 |Llamadas RTC (entre Skype Empresarial y puerta de enlace RTC, con desvío de medios)  <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
-|Llamadas RTC (entre Skype Empresarial y Servidor de mediación, sin desvío de medios)  <br/> |45 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
+|Llamadas RTC (entre Skype Empresarial y servidor de mediación, sin desvío de medios)  <br/> |45 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
 |Llamadas RTC (entre el servidor de mediación y la puerta de enlace RTC, sin desvío de medios)  <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
 |Skype Empresarial: llamadas polycom  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |
 
@@ -240,7 +240,7 @@ Para cada sitio de red, tendrá que trabajar con el administrador de la red para
 En nuestro ejemplo, el sitio Nueva York de la región Norteamérica tiene asignadas las siguientes subredes IP: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Demos por supuesto que Bob, que normalmente trabaja en Detroit, viaja a la oficina de Nueva York para recibir formación. Cuando encienda su equipo y se conecte a la red, su equipo obtendrá una dirección IP de uno de los cuatro rangos reservados a Nueva York, por ejemplo, 172.29.80.103.
 
 > [!CAUTION]
-> Las subredes IP especificadas durante la configuración de red del servidor deben coincidir con el formato que proporcionan los equipos cliente para que se puedan usar adecuadamente para el desvío de medios. Un cliente de Skype Empresarial toma su dirección IP local y enmascara la dirección IP con la máscara de subred asociada. Al determinar el identificador de omisión asociado a cada cliente, el registrador comparará la lista de subredes IP asociadas con cada sitio de red con la subred indicada por el cliente para comprobar que coincidan exactamente. Por este motivo, es importante que las subredes introducidas durante la configuración de la red del servidor sean subredes reales y no virtuales. (Si implementa el control de admisión de llamadas, pero no la omisión de medios, el control de admisión de llamadas funcionará correctamente incluso si configura subredes virtuales). Por ejemplo, si un cliente inicia sesión en un equipo con una dirección IP de 172.29.81.57 con una máscara de subred IP de 255.255.255.0, Skype Empresarial solicitará el identificador de omisión asociado a la subred 172.29.81.0. Si la red se define como 172.29.0.0/16, aunque el cliente pertenezca a una subred virtual, el registrador no lo considerará una coincidencia debido a que el registrador está buscando específicamente la subred 172.29.81.0. Por lo tanto, es importante que el administrador escriba subredes exactamente como proporcionan los clientes de Skype Empresarial (que se aprovisionan con subredes durante la configuración de red de forma estática o mediante DHCP).
+> Las subredes IP especificadas durante la configuración de red del servidor deben coincidir con el formato que proporcionan los equipos cliente para que se puedan usar adecuadamente para el desvío de medios. Un Skype Empresarial toma su dirección IP local y enmascara la dirección IP con la máscara de subred asociada. Al determinar el identificador de omisión asociado a cada cliente, el registrador comparará la lista de subredes IP asociadas con cada sitio de red con la subred indicada por el cliente para comprobar que coincidan exactamente. Por este motivo, es importante que las subredes introducidas durante la configuración de la red del servidor sean subredes reales y no virtuales. (Si implementa el control de admisión de llamadas, pero no la omisión de medios, el control de admisión de llamadas funcionará correctamente incluso si configura subredes virtuales). Por ejemplo, si un cliente inicia sesión en un equipo con una dirección IP de 172.29.81.57 con una máscara de subred IP de 255.255.255.0, Skype Empresarial solicitará el identificador de omisión asociado con la subred 172.29.81.0. Si la red se define como 172.29.0.0/16, aunque el cliente pertenezca a una subred virtual, el registrador no lo considerará una coincidencia debido a que el registrador está buscando específicamente la subred 172.29.81.0. Por lo tanto, es importante que el administrador escriba subredes exactamente como proporcionan los clientes de Skype Empresarial (que se aprovisionan con subredes durante la configuración de red de forma estática o mediante DHCP).
 
 ## <a name="best-practices-for-call-admission-control"></a>Procedimientos recomendados para el control de admisión de llamadas
 

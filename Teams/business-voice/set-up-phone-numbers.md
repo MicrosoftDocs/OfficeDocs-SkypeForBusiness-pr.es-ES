@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo configurar Microsoft 365 Business Voice de teléfono para los usuarios y servicios de su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89cb3764e30fa0bf4fcfa9d6a18d29ca69786cef
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: b8c4201930866c844a967c1f236222f7e9611602e5f9990c986a9700b5191d19
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306581"
 ---
 # <a name="step-2-set-up-business-voice-phone-numbers"></a>Paso 2: Configurar números de teléfono de Business Voice
 

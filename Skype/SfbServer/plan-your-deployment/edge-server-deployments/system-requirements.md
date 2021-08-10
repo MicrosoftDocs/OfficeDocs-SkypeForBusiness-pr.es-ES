@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumen: obtenga información sobre los requisitos del sistema para el servidor perimetral en Skype Empresarial Server.'
-ms.openlocfilehash: d5003a265a53c3603892133077a961f54c974401
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dc1541604a4a26c9af3c184282648ef2f96469fa4346a6b6cc379eed2f5f023f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112746"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306981"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos del sistema del servidor perimetral en Skype Empresarial Server
  
@@ -50,20 +50,20 @@ A continuación, tenemos más detalles sobre cada uno de estos:
 ### <a name="edge-servers"></a>Servidores perimetrales
 <a name="EdgeServers"> </a>
 
-Estos son los servidores de Skype Empresarial implementados en el entorno perimetral. Su función es enviar y recibir tráfico de red a usuarios externos para los servicios ofrecidos por la implementación interna de Skype Empresarial Server. Para hacerlo correctamente, cada servidor perimetral se ejecuta:
+Estos son los Skype Empresarial implementados en el entorno perimetral. Su función es enviar y recibir tráfico de red a usuarios externos para los servicios ofrecidos por la implementación Skype Empresarial Server interna. Para hacerlo correctamente, cada servidor perimetral se ejecuta:
   
 - **Servicio perimetral de** acceso: proporciona un único punto de conexión de confianza para el tráfico de protocolo de inicio de sesión (SIP) saliente y entrante.
     
-- **Servicio perimetral de conferencia web:** permite a los usuarios externos unirse a reuniones hospedadas en el entorno interno de Skype Empresarial Server.
+- **Servicio perimetral de conferencia web:** permite a los usuarios externos unirse a reuniones hospedadas en el entorno Skype Empresarial Server interno.
     
 - **Servicio perimetral A/V:** hace que el audio, el vídeo, el uso compartido de aplicaciones y la transferencia de archivos estén disponibles para usuarios externos.
     
 - **Servicio de proxy XMPP:** acepta y envía mensajes de protocolo extensible de mensajería y presencia (XMPP) a y desde socios federados XMPP configurados.
     
-Los usuarios externos autorizados pueden usar los servidores perimetrales para conectarse a la implementación interna de Skype Empresarial Server, pero, de lo contrario, no proporcionan ningún otro acceso a la red interna para nadie.
+Los usuarios externos autorizados pueden usar los servidores perimetrales para conectarse a la implementación Skype Empresarial Server interna, pero, de lo contrario, no proporcionan ningún otro acceso a la red interna para nadie.
   
 > [!NOTE]
-> Los servidores perimetrales se implementan para proporcionar conexiones para clientes de Skype Empresarial habilitados y otros servidores perimetrales (en escenarios de federación). No puede conectarse desde otros tipos de cliente o servidor de punto final. El servidor de puerta de enlace XMPP puede permitir conexiones con socios XMPP configurados. Pero, de nuevo, estos son los únicos tipos de cliente y federación que funcionarán. 
+> Los servidores perimetrales se implementan para proporcionar conexiones para clientes Skype Empresarial y otros servidores perimetrales (en escenarios de federación). No puede conectarse desde otros tipos de cliente o servidor de punto final. El servidor de puerta de enlace XMPP puede permitir conexiones con socios XMPP configurados. Pero, de nuevo, estos son los únicos tipos de cliente y federación que funcionarán. 
 
 > [!NOTE]
 > Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype Empresarial Server 2015, pero ya no se admiten en Skype Empresarial Server 2019. Consulte [Migración de federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obtener más información.
@@ -71,7 +71,7 @@ Los usuarios externos autorizados pueden usar los servidores perimetrales para c
 ### <a name="reverse-proxies"></a>Proxy inversos
 <a name="ReverseProxies"> </a>
 
-Un servidor de proxy inverso (RP) no tiene ningún rol de Skype Empresarial Server, pero es un componente esencial de una implementación de servidor perimetral. Un proxy inverso permite a los usuarios externos:
+Un servidor de proxy inverso (RP) no tiene Skype Empresarial Server función, pero es un componente esencial de una implementación de servidor perimetral. Un proxy inverso permite a los usuarios externos:
   
 - conectarse a reuniones o conferencias de acceso telefónico mediante direcciones URL sencillas.
     
@@ -89,9 +89,9 @@ Y para dispositivos móviles:
   
 - les permite detectar automáticamente los servidores front-end que ofrecen servicios de movilidad.
     
-- habilita las notificaciones de inserción de Microsoft 365 u Office 365 a dispositivos móviles.
+- habilita las notificaciones de inserción desde Microsoft 365 o Office 365 a dispositivos móviles.
     
-Nuestras recomendaciones de proxy inverso actuales se pueden encontrar en la página [Infraestructura de telefonía para Skype](../../../SfbPartnerCertification/certification/infra-gateways.md) Empresarial. Por lo tanto, el proxy inverso:
+Nuestras recomendaciones de proxy inverso actuales se pueden encontrar en la página Infraestructura de telefonía [para Skype Empresarial](../../../SfbPartnerCertification/certification/infra-gateways.md) servidor. Por lo tanto, el proxy inverso:
   
 - debe poder usar la seguridad de la capa de transporte (TLS) que se introduce en el entorno a través de certificados públicos para conectarse a los servicios web externos publicados de:
     
@@ -129,24 +129,24 @@ Debe colocar la implementación perimetral detrás de un firewall externo, pero 
 ### <a name="directors"></a>Directores
 <a name="Directors"> </a>
 
-Este es un rol opcional. Puede ser un único servidor o un grupo de servidores que ejecuten el rol Director. Es un rol que se encuentra en el entorno interno de Skype Empresarial Server.
+Este es un rol opcional. Puede ser un único servidor o un grupo de servidores que ejecuten el rol Director. Es un rol que se encuentra en el entorno Skype Empresarial Server interno.
   
-El Director es un servidor interno del próximo salto que recibe tráfico SIP entrante de los servidores perimetrales destinados a los servidores internos de Skype Empresarial Server. Autentica previamente las solicitudes entrantes y las redirige al servidor o grupo de servidores principal de un usuario. Esta autenticación previa permite colocar solicitudes de cuenta de usuario no identificadas.
+El Director es un servidor interno del próximo salto que recibe tráfico SIP entrante de los servidores perimetrales destinados a Skype Empresarial Server servidores internos. Autentica previamente las solicitudes entrantes y las redirige al servidor o grupo de servidores principal de un usuario. Esta autenticación previa permite colocar solicitudes de cuenta de usuario no identificadas.
   
-¿Por qué es importante? Una función importante para un director es proteger los servidores Standard Edition y los servidores front-end o grupos de servidores front-end contra el tráfico malintencionado, como los ataques de denegación de servicio (DoS). Si la red está inundada de tráfico externo no válido, el tráfico se detiene en el Director.
+¿Por qué es importante? Una función importante para un director es proteger Standard Edition servidores y servidores front-end o grupos de servidores front-end contra tráfico malintencionado, como ataques de denegación de servicio (DoS). Si la red está inundada de tráfico externo no válido, el tráfico se detiene en el Director.
   
 ### <a name="load-balancers"></a>Equilibradores de carga
 <a name="LoadBalancers"> </a>
 
-La topología perimetral consolidada a escala de Skype Empresarial Server está optimizada para el equilibrio de carga DNS para nuevas implementaciones, y se recomienda esto. Si necesita alta disponibilidad, se recomienda usar un equilibrador de carga de hardware para una situación específica:
+La Skype Empresarial Server perimetral consolidada a escala está optimizada para el equilibrio de carga DNS para las implementaciones nuevas, y se recomienda esto. Si necesita alta disponibilidad, se recomienda usar un equilibrador de carga de hardware para una situación específica:
   
-- Mensajería unificada de Exchange para usuarios remotos que usan mensajería unificada de Exchange **antes** de Exchange 2013.
+- Exchange Mensajería unificada para usuarios remotos que usan Exchange um **antes** de Exchange 2013.
     
 > [!IMPORTANT]
-> Es fundamental tener en cuenta que no puede mezclar equilibradores de carga. En el entorno de Skype Empresarial Server, todas las interfaces deben usar DNS o HLB. 
+> Es fundamental tener en cuenta que no puede mezclar equilibradores de carga. En el Skype Empresarial Server todas las interfaces deben usar DNS o HLB. 
   
 > [!NOTE]
-> Nat de devolución directa de servidor (DSR) no es compatible con Skype Empresarial Server. 
+> Nat de devolución directa de servidor (DSR) no se admite para Skype Empresarial Server. 
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>requisitos del equilibrador de carga de hardware para servidores perimetrales servidores perimetrales que ejecutan el servicio perimetral A/V
 
@@ -164,7 +164,7 @@ Para cualquier servidor perimetral que ejecute el servicio perimetral A/V, estos
     
 #### <a name="hlb-requirements"></a>Requisitos de HLB
 
-Skype Empresarial Server no tiene muchos requisitos de afinidad basados en cookies. Por lo tanto, no es necesario usar una persistencia basada en cookies a menos **que** (y esto es Específico de Skype Empresarial Server 2015) vaya a tener servidores front-end de Lync Server 2010 o grupos de servidores front-end en su entorno de Skype Empresarial Server. Necesitarán afinidad basada en cookies en el método de configuración recomendado para Lync Server 2010.
+Skype Empresarial Server no tiene muchos requisitos de afinidad basados en cookies. Por lo tanto, no es necesario usar una persistencia basada en cookies a menos que **(y** esto es Skype Empresarial Server específico de 2015) vaya a tener servidores front-end de Lync Server 2010 o grupos de servidores front-end en su entorno Skype Empresarial Server. Necesitarán afinidad basada en cookies en el método de configuración recomendado para Lync Server 2010.
   
 > [!NOTE]
 > Si decide activar la afinidad basada en cookies para su HLB, no habrá ningún problema al hacerlo, incluso si el entorno no lo necesita. 
@@ -186,7 +186,7 @@ Para implementaciones que **necesitan** afinidad basada en cookies:
 - La cookie del  equilibrador de carga de hardware debe establecerse en todas las respuestas HTTP para las que la solicitud HTTP entrante no tenía una cookie, independientemente de si una respuesta HTTP anterior en esa misma conexión TCP había obtenido una cookie. Si el equilibrador de carga de hardware optimiza la inserción de cookies para que solo se produzca una vez por conexión TCP, no se debe usar **esa** optimización.
     
 > [!NOTE]
-> Es típico que las configuraciones de HLB usen afinidad de origen y duración de sesión TCP de 20 minutos, lo que es adecuado para Skype Empresarial Server y sus clientes, ya que el estado de sesión se mantiene a través del uso del cliente o la interacción de la aplicación. 
+> Es típico que las configuraciones de HLB usen afinidad de origen y duración de sesión TCP de 20 minutos, lo que es bueno para Skype Empresarial Server y sus clientes, ya que el estado de sesión se mantiene a través del uso del cliente o la interacción de la aplicación. 
   
 Si va a implementar dispositivos móviles, el HLB debe poder equilibrar la carga de las solicitudes individuales dentro de una sesión TCP (en efecto, debe ser capaz de equilibrar la carga de una solicitud individual en función de la dirección IP de destino).
   
@@ -195,7 +195,7 @@ Si va a implementar dispositivos móviles, el HLB debe poder equilibrar la carga
   
 Estos son los requisitos de HLB para los servicios web de grupo de servidores front-end (opcionales) y (obligatorios):
   
-- Para las VIP internas de servicios web, establezca Source_addr persistencia (puerto interno 80, 443) en el HLB. Para Skype Empresarial Server, Source_addr persistencia significa que varias conexiones procedentes de una única dirección IP siempre se envían a un servidor, para mantener el estado de sesión.
+- Para las VIP internas de servicios web, establezca Source_addr persistencia (puerto interno 80, 443) en el HLB. Por Skype Empresarial Server, Source_addr persistencia significa que varias conexiones procedentes de una única dirección IP siempre se envían a un servidor, para mantener el estado de sesión.
     
 - Use un tiempo de espera de inactividad tcp de 1800 segundos.
     
@@ -205,9 +205,9 @@ Estos son los requisitos de HLB para los servicios web de grupo de servidores fr
 
 |**Ubicación de cliente/usuario**|**Requisitos de afinidad del FQDN de servicios web externos**|**Requisitos de afinidad FQSN de servicios web internos**|
 |:-----|:-----|:-----|
-|Aplicación web de Skype Empresarial (usuarios internos y externos)  <br/> Dispositivo móvil (usuarios internos y externos  <br/> |Sin afinidad  <br/> |Afinidad de direcciones de origen  <br/> |
-|Aplicación web de Skype Empresarial (solo usuarios externos)  <br/> Dispositivo móvil (usuarios internos y externos  <br/> |Sin afinidad  <br/> |Afinidad de direcciones de origen  <br/> |
-|Skype Empresarial Web App (solo usuarios internos)  <br/> Dispositivo móvil (no implementado)  <br/> |Sin afinidad  <br/> |Afinidad de direcciones de origen  <br/> |
+|aplicación web de Skype Empresarial (usuarios internos y externos)  <br/> Dispositivo móvil (usuarios internos y externos  <br/> |Sin afinidad  <br/> |Afinidad de direcciones de origen  <br/> |
+|aplicación web de Skype Empresarial (solo usuarios externos)  <br/> Dispositivo móvil (usuarios internos y externos  <br/> |Sin afinidad  <br/> |Afinidad de direcciones de origen  <br/> |
+|aplicación web de Skype Empresarial (solo usuarios internos)  <br/> Dispositivo móvil (no implementado)  <br/> |Sin afinidad  <br/> |Afinidad de direcciones de origen  <br/> |
    
 #### <a name="port-monitoring-for-hlbs"></a>Supervisión de puertos para HLB
 
@@ -220,8 +220,8 @@ Se define la supervisión de puertos en los equilibradores de carga de hardware 
    
 ## <a name="hardware-and-software-requirements"></a>Requisitos de hardware y software
 
-Hemos cubierto los requisitos de hardware y software del servidor perimetral en nuestros requisitos generales del servidor para [Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) y los requisitos del sistema para la documentación de [Skype Empresarial Server 2019.](../../../SfBServer2019/plan/system-requirements.md)
+Hemos cubierto los requisitos de hardware y software del servidor perimetral en nuestros requisitos generales de servidor para [Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) y requisitos del sistema para Skype Empresarial Server documentación de [2019.](../../../SfBServer2019/plan/system-requirements.md)
   
 ## <a name="collocation"></a>Colocación
 
-Hemos cubierto la colocación de servidores perimetrales en nuestra documentación [de Topology Basics for Skype for Business Server.](../../plan-your-deployment/topology-basics/topology-basics.md)
+Hemos cubierto la colocación de servidores perimetrales en nuestros [conceptos](../../plan-your-deployment/topology-basics/topology-basics.md) básicos de topología para obtener Skype Empresarial Server documentación.

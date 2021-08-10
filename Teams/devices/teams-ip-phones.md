@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 467192fbf3635d7ef478b246e9376dfbc3d16829
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 17e9a1c0e6fd35787ee451c0fc96f57da0a1dcaf736155d38aedcec05f90ae41
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646231"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799051"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams dispositivos certificados
 
@@ -183,6 +183,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware | Versión de producto incluida |
 |:--------------|:-----------------|:-------------------------|
+| EPOS EXPAND Vision 3T |1.2.2.21182.10   | Actualización de 2021 #2 |
 | AudioCodes RXV80 |1.13.361   | Actualización de 2021 #2 |
 | Yealink VC210 |118.15.0.54   | Actualización de 2021 #2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | Actualización de 2021 #2    |
