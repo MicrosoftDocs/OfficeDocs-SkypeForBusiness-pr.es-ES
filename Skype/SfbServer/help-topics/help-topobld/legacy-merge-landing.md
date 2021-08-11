@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6dd2227a-1fbd-4133-b27f-227b0fe47805
 description: La página sobre configuración perimetral permite configurar la información heredada del servidor perimetral. Haga clic en Agregar para especificar la versión heredada del servidor perimetral de la implementación de Office Communications Server. Si no tiene ningún servidor perimetral en el entorno heredado, haga clic en Siguiente para continuar.
-ms.openlocfilehash: e462bd2d577f838250aa76b4721b7aaf91f3451b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2133705d17ca4cefdfe746ab4e0959415faee077c52f0fbbacc9f941360dc131
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800160"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307141"
 ---
 # <a name="legacy-merge-landing"></a>Destino de combinación heredada
  

@@ -106,7 +106,7 @@
             - name: Telefonía IP empresarial
               href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
-                - name: "Componentes necesarios de la Telefonía\_IP empresarial"
+                - name: Componentes necesarios de la Telefonía IP empresarial
                   href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Servidor de mediación

@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Si necesita quitar el servidor de archivos que actualmente actúa como almacén de archivos para la implementación de Skype Empresarial Server 2015 o si necesita realizar otros cambios que hagan que el almacén de archivos actual no esté disponible, primero debe crear un nuevo recurso compartido. A continuación, debe realizar los pasos siguientes:'
-ms.openlocfilehash: 2d65e517b10a76013fbeb332b183b5b816e99083
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d57bfe10df36f200f927d4a2c9850eee0d21e9cf38724f31cc62bf84f76708e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119649"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307121"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Mover datos del almacén de archivos a un nuevo almacén de archivos en Skype Empresarial Server 2015
 
 Si necesita quitar el servidor de archivos que actualmente actúa como almacén de archivos para la implementación de Skype Empresarial Server 2015 o si necesita realizar otros cambios que hagan que el almacén de archivos actual no esté disponible, primero debe crear un nuevo recurso compartido. A continuación, debe realizar los pasos siguientes:
 
-1. Cierre los servicios de Skype Empresarial Server 2015 que usan el almacén de archivos que tiene previsto quitar.
+1. Cierre los servicios Skype Empresarial Server 2015 que usan el almacén de archivos que tiene previsto quitar.
 
 2. Defina el almacén de archivos en el Generador de topologías y publique los cambios para que el nuevo almacén de archivos esté disponible para la implementación.
 
@@ -36,17 +36,17 @@ Si necesita quitar el servidor de archivos que actualmente actúa como almacén 
 
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>Para mover los datos de un almacén de archivos a otro nuevo
 
-1. Inicie sesión en un equipo como miembro del grupo RTCUniversersalServerAdmins o CsServerAdministrator donde está instalado Skype Empresarial Server 2015, Administrative Tools.
+1. Inicie sesión en un equipo como miembro del grupo RTCUniversersalServerAdmins o CsServerAdministrator donde se instalan las herramientas administrativas de Skype Empresarial Server 2015.
 
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.
 
 3. En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **Estado**.
 
-4. Para cada grupo de directores, director, servidor Standard Edition y grupo de servidores front-end que use el almacén de archivos que tiene previsto quitar, seleccione el servidor o grupo de servidores, haga clic en Acción y, a continuación, haga clic en Detener todos los **servicios**.
+4. Para cada grupo de directores, director, servidor Standard Edition y grupo de servidores front-end que usa el almacén de archivos que tiene previsto quitar, seleccione el servidor o grupo de servidores, haga clic en Acción y, a continuación, haga clic en Detener todos los **servicios**.
 
 5. Inicie sesión en el equipo en el que Topology Builder esté instalado como miembro del grupo Admins. del dominio y el grupo RTCUniversalServerAdmins.
 
-6. Iniciar generador de topologías: haga clic en Inicio **,** en Todos los **programas,** en Skype Empresarial **Server 2015** y, a continuación, en **Skype Empresarial Server 2015Topology Builder**.
+6. Iniciar generador de topologías: haga clic en Inicio **,** todos los **programas,** haga clic en **Skype Empresarial Server 2015** y, a continuación, haga clic en **Skype Empresarial Server 2015Topology Builder**.
 
 7. Seleccione un servidor o grupo que use el almacén de archivos y haga lo siguiente:
 
@@ -65,7 +65,7 @@ Si necesita quitar el servidor de archivos que actualmente actúa como almacén 
 
 13. En **Editar propiedades**, en **Asociaciones**, en Almacén **de archivos**, seleccione el nuevo recurso compartido de archivos y, a continuación, haga clic en **Aceptar**.
 
-14. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Asistente para la implementación de Skype Empresarial Server según sea necesario. Para obtener más información, consulte [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14)).
+14. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Asistente Skype Empresarial Server implementación según sea necesario. Para obtener más información, consulte [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14)).
 
 15. Inicie un símbolo del sistema: haga clic **en Inicio**, en **Ejecutar** y, a continuación, escriba cmd.exe.
 
@@ -86,7 +86,7 @@ Si necesita quitar el servidor de archivos que actualmente actúa como almacén 
 
 20. (Opcional) Inicie sesión como miembro del grupo Administradores local o del grupo Admins. del dominio en el equipo que contenía el almacén de archivos que acaba de eliminar y quite el directorio y el recurso compartido de archivos anteriores.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Reasignar un servidor a un almacén de archivos diferente](/previous-versions/office/skype-server-2010/gg195633(v=ocs.14))
 

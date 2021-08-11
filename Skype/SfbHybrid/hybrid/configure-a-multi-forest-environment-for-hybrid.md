@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Las siguientes secciones descrbien cómo configurar un entorno que tiene varios bosques en un modelo de bosque de recursos o usuarios para proporcionar funcionalidad en un escenario híbrido.
-ms.openlocfilehash: 84014d7564265de5c2fb87ef91deb0ba291ccff0
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: d622b225c03002e96c7f613a25d31fc047a52b5d8eb751364c62e9ad608d3edd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660728"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277455"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implementación del recurso de topología entre bosques
 

@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Documentación de Skype Empresarial Server 2019
+title: Skype Empresarial Server de 2019
 summary: Obtenga información sobre cómo implementar Skype Empresarial Server 2019.
 metadata:
-  title: Documentación de Skype Empresarial Server 2019
+  title: Skype Empresarial Server de 2019
   description: Obtenga información sobre cómo implementar Skype Empresarial Server 2019.
   ms.service: skype-for-business-online
   ms.topic: landing-page
@@ -10,14 +10,14 @@ metadata:
   author: LanaChin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: d5c02d51c74a5aeb4a9d61c7b8ebdd0d2752b6d7
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.openlocfilehash: 40ab8a1c20ebae6732f1dff8fada7ad5db3c80c65931cc86bae7fd5a0d76d16c
+  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51120491"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "54277595"
 landingContent:
-- title: Acerca de Skype Empresarial Server 2019
+- title: Acerca Skype Empresarial Server 2019
   linkLists:
   - linkListType: whats-new
     links:
@@ -61,7 +61,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Documentación de Skype Empresarial Server 2015
+    - text: Skype Empresarial Server de 2015
       url: ../SfbServer/skype-for-business-server-2015.yml
     - text: Documentación de Lync Server 2013
       url: /lyncserver/microsoft-lync-server-2013

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: La página ClientesDirectiva de movilidad muestra las directivas de movilidad disponibles en su implementación.
-ms.openlocfilehash: 4ea7e3113a1a2b12920f83d2d8c5a3e5d0df0a97
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 20012db7c679e3145f8fda348afc2b242bc3531420675abe31eec068b1b5980a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103445"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307429"
 ---
 # <a name="clients-mobility-policy"></a>Clientes: directiva de movilidad
 
@@ -51,7 +51,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
 Para obtener detalles sobre la configuración de directivas de movilidad, vea [Configuring Mobility Policy](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-mobility-policy).
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Planeación de la movilidad](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 

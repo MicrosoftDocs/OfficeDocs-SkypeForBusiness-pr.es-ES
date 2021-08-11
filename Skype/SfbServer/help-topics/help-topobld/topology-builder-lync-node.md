@@ -14,12 +14,12 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20c61a2a-4955-42b9-897f-b180ffc226d6
-ms.openlocfilehash: 5d38dc39643876705fe95942f4db60b584e880c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2ceb1ec71becd2a8356abea5e3a5f9f0094eef01db3cabd8c6ca95098b6d03fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818080"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307101"
 ---
 # <a name="topology-builder-lync-node"></a>Nodo Lync del Generador de topologías
  
