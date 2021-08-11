@@ -14,13 +14,13 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'La página Ejecutando comandos muestra un resumen de las tareas a medida que se ejecutan. Examine la pantalla de resumen, asegúrese de que las tareas se hayan ejecutado correctamente y que no haya errores. Examine las advertencias para comprobar que sean las previstas. Debajo del panel de resumen, el estado de la tarea debería ser: Completado. En la lista desplegable, en principio debe aparecer el archivo de registro Preparar el bosque. Si no está, seleccione el archivo de registro y haga clic en Ver registro para examinar las acciones en detalle y el resultado de las tareas. Haga clic en Finalizar para completar la preparación del bosque.'
-ms.openlocfilehash: 49e1cb3b3fdd5cf0c32fc48bbb4c4abc7b4318f2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'La página Ejecutando comandos muestra un resumen de las tareas a medida que se ejecutan. Examine la pantalla de resumen, asegúrese de que las tareas se hayan ejecutado correctamente y que no haya errores. Examine las advertencias para comprobar que sean las previstas. Debajo del panel de resumen, debería ver: Estado de la tarea: completado. En la lista desplegable, debería estar visible el archivo de registro Preparar el bosque. Si no está, seleccione el archivo de registro y haga clic en Ver registro para examinar las acciones en detalle y el resultado de las tareas. Haga clic en Finalizar para completar la preparación del bosque.'
+ms.openlocfilehash: 879e2b12a5e7c1d61fd8820ce6dd743f4cdcc0a810b1a75c7119c7c7aad95090
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825130"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337090"
 ---
 # <a name="prepare-current-forrest-invoke"></a>Preparar bosque actual (invocar)
  

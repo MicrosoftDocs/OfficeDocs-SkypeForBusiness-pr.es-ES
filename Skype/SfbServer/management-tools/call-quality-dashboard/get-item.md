@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
-description: 'Resumen: obtenga información sobre la operación Obtener elemento, que forma parte del servicio de elementos. El servicio de elementos forma parte de la API de repositorio para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 896540c4572fb3991356ce055f01690ed702c6f2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumen: obtenga información sobre la operación Obtener elemento, que forma parte del servicio de elementos. El servicio de elementos forma parte de la API de repositorio para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
+ms.openlocfilehash: fa82d158b41826a950a852633e6c039e9262543d4aabece5c04397eba40be8ae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278448"
 ---
 # <a name="get-item"></a>Obtener elemento
  
-**Resumen:** Obtenga información sobre la operación Obtener elemento, que forma parte del servicio de elementos. El servicio de elementos forma parte de la API de repositorio para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
+**Resumen:** Obtenga información sobre la operación Obtener elemento, que forma parte del servicio de elementos. El servicio de elementos forma parte de la API de repositorio para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
   
-La operación Obtener elemento forma parte del servicio de elementos en la API de repositorio para el panel de calidad de llamadas.
+La operación Obtener elemento forma parte del servicio de elementos de la API de repositorio para el Panel de calidad de llamadas.
   
 ## <a name="get-item"></a>Obtener elemento
 
-Obtener elemento devuelve un elemento específico en el repositorio.
+Get Item devuelve un elemento específico en el repositorio.
   
 |**Método**|**URI de solicitud**|**Versión HTTP**|
 |:-----|:-----|:-----|
@@ -42,7 +42,7 @@ Obtener elemento devuelve un elemento específico en el repositorio.
   
  **Respuesta:** la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
   
- **Código de estado:** una operación correcta devuelve el código de estado 200 (Correcto). Si no se encuentra un identificador de elemento especificado, devuelve el código de estado 404 (No encontrado).
+ **Código de estado:** una operación correcta devuelve el código de estado 200 (Aceptar). Si no se encuentra un identificador de elemento especificado, devuelve el código de estado 404 (No encontrado).
   
  **Encabezados de respuesta:** no hay encabezados adicionales.
   
@@ -60,12 +60,12 @@ Obtener elemento devuelve un elemento específico en el repositorio.
 
  *itemId:*  id. del elemento.
   
- *userId:*  identificador del usuario propietario de este elemento.
+ *userId:*  id. del usuario propietario de este elemento.
   
- *contenido:*  contenido específico de la aplicación.
+ *content:*  el contenido específico de la aplicación.
   
- *type:*  el tipo de contenido. Las aplicaciones establecen este campo.
+ *type:*  el tipo del contenido. Las aplicaciones establecen este campo.
   
- *subItemIds:*  los id. de los subelementos, si los hay. Se trata de un corto circuito de la operación Get Sub-Items para guardar una llamada. Las aplicaciones también pueden obtener la misma información mediante la operación Get Sub-Items.
+ *subItemIds:*  los id. de los subelementos, si los hay. Se trata de un corto circuito de Obtener Sub-Items operación para guardar una llamada. Las aplicaciones también pueden obtener la misma información mediante Obtener Sub-Items operación.
   
 

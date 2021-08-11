@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9453ad770b7ca21b5300b193cbafb932ea7645a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24e13e7f1a47f993b6afc1d7e51496040c91c0ffb4ed1b0eff39ac47d62e2f3b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120531"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300766"
 ---
 # <a name="upgrade-basic"></a>Actualizar Basic
 
@@ -115,7 +115,7 @@ Es posible que los usuarios que se adopten profundamente en Skype Empresarial ne
 Proporcionar un aviso amplio a los usuarios les dará tiempo para familiarizarse con Teams sin afectar negativamente a su productividad, lo que resulta en una experiencia de usuario más positiva. Envíe una comunicación para decirles qué está cambiando, por qué está cambiando y cómo pueden prepararse para ello.
 
 > [!Note]
-> Si es necesario, puede habilitar Teams usuarios a través del centro Microsoft 365 administración en este momento.
+> Si es necesario, puede habilitar Teams usuarios a través de la Centro de administración de Microsoft 365 en este momento.
 
 **Recursos:**
 

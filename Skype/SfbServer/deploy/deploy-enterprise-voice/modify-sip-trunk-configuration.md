@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Summary: Learn how to modify SIP trunk configuration settings by using the Skype Empresarial Server Control Panel.'
-ms.openlocfilehash: 1f7ef7c237295cc9a308a468b8f05424ebfe9d38
+ms.openlocfilehash: fb590a53a510b73251a7cc47d0f66c20c5ed81cf104d626a0b4dd38e8937b43c
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772551"
+ms.locfileid: "54283772"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>Skype Empresarial Server: Modificar las opciones de configuración del tronco SIP 
  

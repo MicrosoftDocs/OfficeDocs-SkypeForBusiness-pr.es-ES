@@ -1,5 +1,5 @@
 ---
-title: Configurar las opciones de archivado para Skype Empresarial Server
+title: Configurar opciones de archivado para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
-description: 'Resumen: lea este tema para obtener información sobre cómo configurar las opciones de archivado iniciales para Skype Empresarial Server. Las configuraciones de archivado se establecen inicialmente al implementar el archivado, pero puede cambiar, agregar y eliminar configuraciones después de la implementación.'
-ms.openlocfilehash: 0a4803b821ee082a548b9f429b9596fd8019500f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumen: lea este tema para obtener información sobre cómo configurar las opciones de archivado iniciales para Skype Empresarial Server. Inicialmente, configura las configuraciones de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar configuraciones después de la implementación.'
+ms.openlocfilehash: d3bc24edc4c4b130094541eb6bde00c63c8977910f8a45106c43032be32c2fb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312138"
 ---
-# <a name="configure-archiving-options-for-skype-for-business-server"></a>Configurar las opciones de archivado para Skype Empresarial Server
+# <a name="configure-archiving-options-for-skype-for-business-server"></a>Configurar opciones de archivado para Skype Empresarial Server
  
-**Resumen:** Lea este tema para obtener información sobre cómo configurar las opciones de archivado iniciales para Skype Empresarial Server. Las configuraciones de archivado se establecen inicialmente al implementar el archivado, pero puede cambiar, agregar y eliminar configuraciones después de la implementación.
+**Resumen:** Lea este tema para obtener información sobre cómo configurar las opciones de archivado iniciales para Skype Empresarial Server. Inicialmente, configura las configuraciones de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar configuraciones después de la implementación.
   
-Para configurar las configuraciones de archivado iniciales, use el Panel de control de Skype Empresarial Server para especificar lo siguiente:
+Para configurar las configuraciones de archivado iniciales, use Skype Empresarial Server Panel de control para especificar lo siguiente:
   
 - Configuración de nivel global que se crea de forma predeterminada al implementar Skype Empresarial Server
     
@@ -31,34 +31,34 @@ Para configurar las configuraciones de archivado iniciales, use el Panel de cont
     
 - Configuraciones opcionales de nivel de grupo que especifican cómo se implementa el archivado para un grupo específico
     
-Tendrá que configurar las opciones para lo siguiente:
+Deberá configurar opciones para lo siguiente:
   
 - Si se habilita o deshabilita el archivado
     
-- Si se archivarán las sesiones de mensajería instantánea
+- Si se archivarán sesiones de mensajería instantánea
     
-- Si se archivarán las sesiones de conferencia web
+- Si se archivarán sesiones de conferencia web
     
 - Si se va a bloquear la actividad cuando el archivado no está disponible
     
-- Si se va a usar la integración de Exchange
+- Si se va a usar Exchange integración
     
-- Cómo configurar la purga y exportación de datos
+- Cómo configurar la depuración y exportación de datos
     
 > [!NOTE]
 > Debe especificar todas las opciones adecuadas antes de habilitar el archivado. 
   
-Para obtener más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md). Para obtener más información sobre cómo administrar las configuraciones después de la implementación con el Panel de control o con Windows PowerShell, consulte Administrar las opciones de archivado [en Skype Empresarial Server.](../../manage/archiving/options.md)
+Para obtener más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, vea [Plan for archiving in Skype Empresarial Server](../../plan-your-deployment/archiving/archiving.md). Para obtener información detallada sobre cómo administrar configuraciones después de la implementación mediante el Panel de control o mediante Windows PowerShell, vea [Manage archiving options in Skype Empresarial Server](../../manage/archiving/options.md).
   
-## <a name="configure-global-level-archiving-options"></a>Configurar las opciones de archivado de nivel global
+## <a name="configure-global-level-archiving-options"></a>Configurar opciones de archivado de nivel global
 
-Cuando agrega archivado a la topología y publica la topología, Skype Empresarial Server crea una configuración global para el archivado. De forma predeterminada, no hay opciones de archivado habilitadas en la configuración global. La configuración global controla qué opciones se habilitan para su completa implementación, a menos que realice configuraciones de sitio o grupo de servidores, que omiten la configuración global.
+Al agregar archivado a la topología y publicar la topología, Skype Empresarial Server crea una configuración global para el archivado. De forma predeterminada, no hay opciones de archivado habilitadas en la configuración global. La configuración global controla qué opciones se habilitan para su completa implementación, a menos que realice configuraciones de sitio o grupo de servidores, que omiten la configuración global.
   
 Para configurar las opciones de archivado en el nivel global:
   
 1. Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, a continuación, haga clic en **Configuración de archivado**.
     
@@ -76,7 +76,7 @@ Para configurar las opciones de archivado en el nivel global:
     
    - Para bloquear la actividad cuando el archivado no está disponible, active la casilla **Bloquear las sesiones de mensajería instantánea (MI) o conferencias web si se produce algún error en el archivado**.
     
-   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de **integración de Microsoft Exchange.**
+   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de Exchange **integración de Microsoft.**
     
    - Para habilitar la purga de datos, active la casilla **Habilitar purga de los datos de archivado** y realice una de las siguientes acciones:
     
@@ -86,17 +86,17 @@ Para configurar las opciones de archivado en el nivel global:
     
 7. Haga clic en **Confirmar**.
     
-## <a name="configure-site-level-archiving-options"></a>Configurar las opciones de archivado de nivel de sitio
+## <a name="configure-site-level-archiving-options"></a>Configurar opciones de archivado de nivel de sitio
 
 Puede especificar opciones de archivado para un sitio específico. Una configuración de sitio invalida la configuración global, pero solo para el sitio especificado en la configuración del sitio. 
   
 1. Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, a continuación, haga clic en **Configuración de archivado**.
     
-4. En la página **Configuración de** archivado, haga clic **en Nuevo** y, a continuación, en Configuración **del sitio.**
+4. En la página **Configuración de archivado,** haga clic **en Nuevo** y, a continuación, haga clic en Configuración **del sitio**.
     
 5. En **Seleccionar un sitio**, seleccione el sitio que debe configurarse para el archivado.
     
@@ -104,7 +104,7 @@ Puede especificar opciones de archivado para un sitio específico. Una configura
     
    - Para habilitar el archivado solo para las sesiones de mensajería instantánea, haga clic en **Archivar sesiones de mensajería instantánea**.
     
-   - Para habilitar el archivado para sesiones de mensajería instantánea y conferencias, haga clic en Archivar sesiones de mensajería instantánea **y conferencia web.**
+   - Para habilitar el archivado para sesiones de mensajería instantánea y conferencias, haga clic en Archivar **sesiones de mensajería** instantánea y conferencia web .
     
    - Para deshabilitar el archivado para la directiva, haga clic en **Deshabilitar archivado**.
     
@@ -112,7 +112,7 @@ Puede especificar opciones de archivado para un sitio específico. Una configura
     
    - Para bloquear la actividad cuando el archivado no está disponible, active la casilla **Bloquear las sesiones de mensajería instantánea (MI) o conferencias web si se produce algún error en el archivado**.
     
-   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de **integración de Microsoft Exchange.**
+   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de Exchange **integración de Microsoft.**
     
    - Para habilitar la purga de datos, active la casilla **Habilitar purga de los datos de archivado** y realice una de las siguientes acciones:
     
@@ -122,13 +122,13 @@ Puede especificar opciones de archivado para un sitio específico. Una configura
     
 8. Haga clic en **Confirmar**.
     
-## <a name="configure-pool-level-archiving-options"></a>Configurar las opciones de archivado de nivel de grupo
+## <a name="configure-pool-level-archiving-options"></a>Configurar opciones de archivado de nivel de grupo
 
-Puede especificar las opciones de archivado para un grupo específico. La configuración de un grupo de servidores anula la configuración global y de sitio, pero únicamente para el grupo de servidores especificad en la configuración del grupo de servidores.
+Puede especificar opciones de archivado para un grupo específico. La configuración de un grupo de servidores anula la configuración global y de sitio, pero únicamente para el grupo de servidores especificad en la configuración del grupo de servidores.
   
 1. Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, a continuación, haga clic en **Configuración de archivado**.
     
@@ -148,7 +148,7 @@ Puede especificar las opciones de archivado para un grupo específico. La config
     
    - Para bloquear la actividad cuando el archivado no está disponible, active la casilla  **Bloquear las sesiones de mensajería instantánea (MI) o conferencias si se produce algún error en el archivado**.
     
-   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de **integración de Microsoft Exchange.**
+   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de Exchange **integración de Microsoft.**
     
    - Para habilitar la purga de datos, active la casilla **Habilitar purga de los datos de archivado** y realice una de las siguientes acciones:
     

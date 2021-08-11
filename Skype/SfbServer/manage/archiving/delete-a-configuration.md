@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Resumen: obtenga información sobre cómo eliminar una configuración de archivado en Skype Empresarial Server.'
-ms.openlocfilehash: 43913485ce18660b6c7fa7ce747ceeaaebd49923
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6a8aec925bf6bfb7914b6cf830ee6e38751ed7187c862ca2d26104ca3384f39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095414"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320262"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Eliminar una configuración de archivado en Skype Empresarial Server
 
@@ -31,7 +31,7 @@ Para eliminar una configuración de archivado mediante el Panel de control:
   
 1. Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, a continuación, haga clic en **Configuración de archivado**.
     
@@ -42,7 +42,7 @@ Para eliminar una configuración de archivado mediante el Panel de control:
   
 5. Haga clic en **Confirmar**.
     
-## <a name="delete-an-archiving-configuration-by-using-windows-powershell"></a>Elimine una configuración de archivado mediante Windows PowerShell
+## <a name="delete-an-archiving-configuration-by-using-windows-powershell"></a>Eliminar una configuración de archivado mediante Windows PowerShell
 
 También puede eliminar una configuración de archivado mediante el cmdlet **Remove-CsArchivingConfiguration.**
   
@@ -58,7 +58,7 @@ El siguiente comando quita todas las opciones de configuración de archivado apl
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
-El siguiente comando quita todas las opciones de configuración de archivado en las que se ha deshabilitado el archivado de Exchange:
+El siguiente comando quita todas las opciones de configuración de archivado Exchange se ha deshabilitado el archivado:
   
 ```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration

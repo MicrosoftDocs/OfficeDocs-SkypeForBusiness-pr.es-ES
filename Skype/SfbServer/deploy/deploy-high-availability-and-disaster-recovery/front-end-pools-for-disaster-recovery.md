@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
-description: Puede decidir usar grupos de servidores front-end emparejados para proporcionar protección de recuperación ante desastres, pero no es un requisito.
-ms.openlocfilehash: 7d066de60bf3ab98d73d8aeee08044803fad983c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Puede decidir usar grupos de servidores front-end emparejados para proporcionar protección de recuperación ante desastres, pero hacerlo no es un requisito.
+ms.openlocfilehash: bc061e05931c6a4b58d754623bde580e35c2c51367228a05126783d83d3fd27a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830610"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312058"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Implementar grupos de servidores front-end emparejados para la recuperación ante desastres en Skype Empresarial Server
  
-Puede decidir usar grupos de servidores front-end emparejados para proporcionar protección de recuperación ante desastres, pero no es un requisito.
+Puede decidir usar grupos de servidores front-end emparejados para proporcionar protección de recuperación ante desastres, pero hacerlo no es un requisito.
   
-Puede implementar fácilmente la topología de recuperación ante desastres de grupos de servidores front-end emparejados mediante topology Builder. 
+Puede implementar fácilmente la topología de recuperación ante desastres de grupos de servidores front-end emparejados mediante el Generador de topologías. 
   
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>Para implementar un par de grupos de servidores front-end
 
-1. Si los grupos de servidores son nuevos y aún no están definidos, use el Generador de topologías para crear los grupos.
+1. Si los grupos de servidores son nuevos y aún no están definidos, use el Generador de topologías para crear los grupos de servidores.
     
-2. En el Generador de topologías, haga clic con el botón secundario en uno de los dos grupos de servidores y, a continuación, haga clic **en Editar propiedades.**
+2. En el Generador de topologías, haga clic con el botón secundario en uno de los dos grupos de servidores y, a continuación, haga clic **en Editar propiedades**.
     
 3. Haga clic en **Resistencia** en el panel izquierdo y, a continuación, seleccione **Grupo de servidores de copia de seguridad asociado** en el panel derecho.
     
@@ -39,11 +39,11 @@ Puede implementar fácilmente la topología de recuperación ante desastres de g
     
     Cuando visualice los detalles sobre este grupo, el grupo asociado aparecerá en el panel derecho bajo **Resistencia**. 
     
-6. Use topology Builder para publicar la topología.
+6. Use el Generador de topologías para publicar la topología.
     
 7. Si los dos grupos aún no se han implementado, impleméntelos ahora y se completará la configuración. Puede omitir los pasos finales de este procedimiento.
     
-    Sin embargo, si los grupos ya se implementaron antes de definir la relación emparejada, debe completar los pasos finales siguientes.
+    Sin embargo, si los grupos de servidores ya se implementaron antes de definir la relación emparejada, debe completar los siguientes pasos finales.
     
 8. En cada servidor front-end de ambos grupos, ejecute lo siguiente:
     
@@ -53,15 +53,15 @@ Puede implementar fácilmente la topología de recuperación ante desastres de g
 
     Esto configura otros servicios necesarios para que el emparejamiento de copia de seguridad funcione correctamente.
     
-9. Una vez que Bootstrapper termine de instalar los componentes necesarios para el emparejamiento de copias de seguridad en cada servidor front-end de ambos grupos de servidores, asegúrese de volver a aplicar cualquier actualización acumulativa existente que se haya aplicado anteriormente en estos servidores front-end en ambos grupos de servidores y, a continuación, continúe con el siguiente paso.
+9. Una vez que Bootstrapper termine de instalar los componentes necesarios para el emparejamiento de copias de seguridad en todos los servidores front-end de ambos grupos de servidores, asegúrese de volver a aplicar cualquier actualización acumulativa existente que se haya aplicado anteriormente en estos servidores front-end en ambos grupos de servidores y, a continuación, continúe con el paso siguiente.
 
-10. Desde un símbolo del sistema del Shell de administración de Skype Empresarial Server, ejecute lo siguiente: 
+10. Desde un Skype Empresarial Server de comandos del Shell de administración, ejecute lo siguiente: 
     
    ```powershell
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-11. Fuerce la sincronización de los datos de usuario y conferencia de ambos grupos de servidores con los cmdlets siguientes:
+11. Forzar que los datos de usuario y conferencia de ambos grupos se sincronicen entre sí con los cmdlets siguientes:
     
     ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
@@ -71,7 +71,7 @@ Puede implementar fácilmente la topología de recuperación ante desastres de g
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     ```
 
-    La sincronización de los datos puede tardar algún tiempo. Puede usar los siguientes cmdlets para comprobar el estado. Asegúrese de que el estado en ambas direcciones sea estable.
+    La sincronización de los datos puede tardar algún tiempo. Puede usar los cmdlets siguientes para comprobar el estado. Asegúrese de que el estado en ambas direcciones está en estado estable.
     
     ```powershell
     Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -82,8 +82,8 @@ Puede implementar fácilmente la topología de recuperación ante desastres de g
     ```
 
 > [!NOTE]
-> La **conmutación** por error automática y la conmutación por recuperación para voz y los intervalos de tiempo asociados en topology Builder solo se aplican a las características de resistencia de voz que se introdujeron en Lync Server. La selección de esta opción no implica que la conmutación por error de grupos de servidores tratada en este documento sea automática. La conmutación por error y la conmutación por recuperación de grupos de servidores siempre requieren que un administrador invoque manualmente los cmdlets de conmutación por error y de conmutación por recuperación, respectivamente.
+> La **opción Conmutación por** error automática y conmutación por recuperación de voz y los intervalos de tiempo asociados en el Generador de topologías solo se aplican a las características de resistencia de voz que se introdujeron en Lync Server. La selección de esta opción no implica que la conmutación por error de grupos de servidores tratada en este documento sea automática. La conmutación por error y la conmutación por recuperación de grupos de servidores siempre requieren que un administrador invoque manualmente los cmdlets de conmutación por error y de conmutación por recuperación, respectivamente.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-[Recuperación ante desastres del grupo de servidores front-end en Skype Empresarial Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[Recuperación ante desastres del grupo front-end en Skype Empresarial Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

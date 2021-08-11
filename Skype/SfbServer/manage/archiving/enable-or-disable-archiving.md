@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: 'Resumen: obtenga información sobre cómo habilitar o deshabilitar el archivado en Skype Empresarial Server.'
-ms.openlocfilehash: 6d8f6f24bd4b10f7d33a00e218a494d6e8a823d1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 83ed391ed482d3bd744e963e1589726729a52b6e3f1c65a776b213a809eabed4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283382"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Habilitar o deshabilitar el archivado en Skype Empresarial Server
 
@@ -27,7 +27,7 @@ ms.locfileid: "49817600"
 
 1. Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, a continuación, haga clic en **Configuración de archivado**.
     
@@ -41,9 +41,9 @@ ms.locfileid: "49817600"
     
 5. Haga clic en **Confirmar**.
     
-## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>Habilite o deshabilite el archivado mediante Windows PowerShell
+## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>Habilitar o deshabilitar el archivado mediante Windows PowerShell
 
-También puede habilitar o deshabilitar el archivado con el cmdlet **Set-CsArchivingConfiguration.** Por ejemplo, el siguiente comando modifica todas las opciones de configuración de archivado para que solo se archiven las sesiones de mensajería instantánea. El comando llama al cmdlet **Get-CsArchivingConfiguration** sin ningún parámetro para devolver todas las opciones de configuración de archivado actualmente en uso en la organización. A continuación, esta colección se canaliza al cmdlet **Where-Object,** que selecciona solo las configuraciones en las que la propiedad EnableArchiving es igual a (-eq) "ImAndWebConf". A continuación, la recopilación filtrada se canaliza al cmdlet **Set-CsArchivingConfiguration,** que toma cada elemento de la colección y cambia el valor de EnableArchiving a "ImOnly":
+También puede habilitar o deshabilitar el archivado mediante el cmdlet **Set-CsArchivingConfiguration.** Por ejemplo, el siguiente comando modifica todas las opciones de configuración de archivado para que solo se archiven las sesiones de mensajería instantánea. El comando llama al cmdlet **Get-CsArchivingConfiguration** sin ningún parámetro para devolver todas las opciones de configuración de archivado que se usan actualmente en la organización. A continuación, esta colección se canaliza al cmdlet **Where-Object,** que selecciona solo aquellas configuraciones en las que la propiedad EnableArchiving es igual a (-eq) "ImAndWebConf". A continuación, la colección filtrada se canaliza al cmdlet **Set-CsArchivingConfiguration,** que toma cada elemento de la colección y cambia el valor de EnableArchiving a "ImOnly":
   
 ```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableArchiving -eq "ImAndWebConf"} | Set-CsArchivingConfiguration -EnableArchiving "ImOnly"

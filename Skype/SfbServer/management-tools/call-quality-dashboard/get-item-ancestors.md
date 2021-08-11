@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
-description: 'Resumen: obtenga información sobre la operación Obtener antecesores de elemento, que forma parte del servicio de elementos. El servicio de elementos forma parte de la API de repositorio para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 59fcd10f620b32151346e8732e67ae6151a258ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumen: obtenga información sobre la operación Obtener antecesores de elementos, que forma parte del servicio de elementos. El servicio de elementos forma parte de la API de repositorio para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
+ms.openlocfilehash: bb756e35ff835d889ef8d8c8f613529ab7d6a5c08de339fe7892779921367997
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278658"
 ---
 # <a name="get-item-ancestors"></a>Obtener predecesores del elemento
  
-**Resumen:** Obtenga información sobre la operación Obtener antecesores de elemento, que forma parte del servicio de elementos. El servicio de elementos forma parte de la API de repositorio para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
+**Resumen:** Obtenga información sobre la operación Obtener antecesores de elementos, que forma parte del servicio de elementos. El servicio de elementos forma parte de la API de repositorio para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
   
-La operación Obtener antecesores de elemento forma parte del servicio de elementos en la API de repositorio para el panel de calidad de llamadas.
+La operación Obtener antecesores de elementos forma parte del servicio de elementos de la API de repositorio para el Panel de calidad de llamadas.
   
 ## <a name="get-item-ancestors"></a>Obtener predecesores del elemento
 
-Obtener antecesores de elemento devuelve un elemento específico antecesor del repositorio.
+Get Item Ancestors devuelve un elemento específico antecesor del repositorio.
   
 
 |**Método**|**URI de solicitud**|**Versión HTTP**|
@@ -43,7 +43,7 @@ Obtener antecesores de elemento devuelve un elemento específico antecesor del r
   
  **Respuesta:** la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
   
- **Código de estado:** una operación correcta devuelve el código de estado 200 (Correcto). Si no se encuentra un identificador de usuario especificado, devuelve el código de estado 404 (No encontrado).
+ **Código de estado:** una operación correcta devuelve el código de estado 200 (Aceptar). Si no se encuentra un identificador de usuario especificado, devuelve el código de estado 404 (No encontrado).
   
  **Encabezados de respuesta:** no hay encabezados adicionales.
   

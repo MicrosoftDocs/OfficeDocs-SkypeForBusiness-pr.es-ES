@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: La tabla AppSharingStream contiene métricas de calidad de la experiencia de los flujos de red utilizados para el uso compartido de las aplicaciones. Esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: d95e0d78175f8e17363dc558d82cafefba36ce28
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 68f43e9d783cd0f30d89bf9f4f13c0fe5329bbf3755e6b2c3eba897b86ead6c5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120882"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329355"
 ---
 # <a name="appsharingstream-table"></a>Tabla AppSharingStream
  
@@ -123,6 +123,6 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 |**OutgoingFrameRateGapDuration** <br/> |float  <br/> ||Duración de intervalos en la tasa de tramas de salida para el remitente.  <br/> |
 |**AverageRectangleHeight** <br/> |Entero  <br/> ||Promedio de altura de resolución de vídeo en píxeles.  <br/> |
 |**AverageRectangleWidth** <br/> |Entero  <br/> ||Promedio de anchura de resolución de vídeo en píxeles.  <br/> |
-|**Entrada** <br/> |bit  <br/> ||Tasa de tramas de promedio (en tramas por segundo) para las transmisiones de entrada.  <br/> |
-|**Saliente** <br/> |bit  <br/> ||Tasa de tramas de promedio (en tramas por segundo) para las transmisiones de salida.  <br/> |
+|**Entrante** <br/> |bit  <br/> ||Tasa de tramas de promedio (en tramas por segundo) para las transmisiones de entrada.  <br/> |
+|**Salida** <br/> |bit  <br/> ||Tasa de tramas de promedio (en tramas por segundo) para las transmisiones de salida.  <br/> |
 |**SenderIsCallerPAI** <br/> |bit  <br/> ||1 significa que la dirección de la secuencia va desde el autor de la llamada hasta el destinatario.  <br/> 0 indica que la dirección de la secuencia va del destinatario de la llamada al autor de la llamada.  <br/> |

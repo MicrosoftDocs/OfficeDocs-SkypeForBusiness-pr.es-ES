@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddac2cb17ce132af624274abc052ed3eefabe155
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f4e12f5cb4018930dcfd342844a807987678c3ad44eb3c948408a3f34e883410
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809070"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300746"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Sacar el máximo partido de Teams después de actualizar
 
@@ -37,7 +37,7 @@ En este artículo se proporciona información general sobre los requisitos para 
 
 Una vez que haya implementado correctamente Teams en su organización y esté operando el servicio con calidad y confiabilidad, el siguiente paso es evaluar periódicamente si tiene alguna oportunidad para mejorar sus servicios. Esta es una parte de la planificación de mejora continua del servicio que es un estándar moderno para la administración de servicios en la nube.
 
-Una forma excelente de asegurarse de que siempre está obteniendo el máximo partido de sus servicios es supervisar las hojas de ruta públicas de [Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para obtener nuevas mejoras de características que puedan ser de interés para su organización. Si tiene acceso al centro de administración de Microsoft 365, recibirá actualizaciones periódicas de nosotros sobre nuevas y cambiantes características a través de nuestro Centro de mensajes.
+Una forma excelente de asegurarse de que siempre está obteniendo el máximo partido de sus servicios es supervisar las hojas de ruta públicas de [Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para obtener nuevas mejoras de características que puedan ser de interés para su organización. Si tiene acceso a la Centro de administración de Microsoft 365, recibirá actualizaciones periódicas de nosotros sobre nuevas y cambiantes características a través de nuestro Centro de mensajes.
 
 Cuando vea oportunidades para mejorar el servicio, tómese el tiempo para hacerlo correctamente. Revise [Implementar chat, equipos, canales](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplicaciones en Microsoft Teams y nuestras [fases](deploy-chat-teams-channels-microsoft-teams-landing-page.md) de implementación y aplique las mismas instrucciones de extremo a extremo. Al realizar pequeños cambios incrementales, es poco probable que necesite completar todas las actividades y tareas en su totalidad, pero debe asegurarse de evaluar cada actividad y tarea en el camino para darnos la mejor oportunidad de obtener un resultado exitoso.
 

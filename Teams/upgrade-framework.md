@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0184198d7e419642a582f8642b312238900f1f8
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: ca14aaf3e0d61977abf0d03735fa2d5ec0f6995375e773931088f0979cba395c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53586999"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300726"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 

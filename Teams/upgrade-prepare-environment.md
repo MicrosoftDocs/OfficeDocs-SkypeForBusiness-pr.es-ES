@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e154dc5844c4b8f3994c8c7bc00865c494a4c8c6
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 957f84ca8629dbc9effb440211220465f6be0640633638e70306c6e3dec6d0ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282147"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300736"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Preparar el entorno para actualizar a Teams
 

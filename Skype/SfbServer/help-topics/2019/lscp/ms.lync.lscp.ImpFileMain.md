@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 6178d9e5-a919-4a7d-9633-d5f155556306
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 9b3e97adc2a72b76fef619d5c070635c97b57769
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b1b3db7419b4ae3f2a43a557aa972a59ed647ded7dfada40d3f2a3637e1aadff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120219"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337140"
 ---
 # <a name="file-filter"></a>Filtro de archivo
 

@@ -20,12 +20,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1d7def6710d98e2a77358abfcc43ec80fa89bb8
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
-ms.translationtype: MT
+ms.openlocfilehash: 38d2bf49d91f830a03f78f4d4b691b79c09f1f8c189ed4859e60c3dd46feffc6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203599"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300996"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
