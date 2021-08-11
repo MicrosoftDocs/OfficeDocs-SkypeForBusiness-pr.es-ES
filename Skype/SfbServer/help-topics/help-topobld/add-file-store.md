@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
 description: 'Para definir un nuevo almacén de archivos, especifique lo siguiente:'
-ms.openlocfilehash: a07f28e26fba9f798e857b767008efcb24ec5537
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fa0f0e3916cf41cfb93909a9c13df444fc3a93616116b665d830a0f35448bb84
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824270"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321782"
 ---
 # <a name="add-file-store"></a>Agregar almacén de archivos
  

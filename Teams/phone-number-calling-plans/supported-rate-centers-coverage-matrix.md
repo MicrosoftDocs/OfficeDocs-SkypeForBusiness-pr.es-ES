@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Enumera los centros de tasas admitidos y la cobertura de planes de llamadas.
-ms.openlocfilehash: dbf0280bf26452d6bfdf40e669f43dbf131cc88b
-ms.sourcegitcommit: 67dac7a8c9c5d0151b94db81c979e2f6bafe28c3
+ms.openlocfilehash: 7c294f01e84c7b846da81d1e685673ba309fd9398f0fe34513d292c01589e32a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49724522"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339488"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Centros de tarifas y cobertura admitidos para planes de llamadas
 
@@ -35,8 +35,8 @@ Si está recibiendo nuevos números y no tenemos los números que ha solicitado,
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Administrar los números de teléfono de la organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-- [Diferentes tipos de números de teléfono que se usan para planes de llamadas](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Administrar los números de teléfono para su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Diferentes tipos de números de teléfono que se usan para Planes de llamada](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Obtener números de teléfono para los usuarios](../getting-phone-numbers-for-your-users.md)
 - [Obtener números de teléfono de servicio](../getting-service-phone-numbers.md)

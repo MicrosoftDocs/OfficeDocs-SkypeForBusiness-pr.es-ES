@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
-description: En la página Ejecución de comandos, revise la información del resumen del certificado importado. En la lista desplegable, seleccione el archivo de registro de importación de certificados. Asegúrese de que el archivo de registro importar certificado esté visible en la lista desplegable. Haga clic en Ver registro para ver los detalles de la importación del certificado. Una vez examinados el resumen y el archivo de registro, haga clic en Finalizar.
-ms.openlocfilehash: 907342d422f71d84fab9e2e4bcf2cce5fa46ce49
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: En la página Ejecución de comandos, revise la información del resumen del certificado importado. En la lista desplegable, seleccione el archivo de registro de importación de certificados. Asegúrese de que el archivo de registro Importar certificado esté visible en la lista desplegable. Haga clic en Ver registro para ver los detalles de la importación del certificado. Una vez examinados el resumen y el archivo de registro, haga clic en Finalizar.
+ms.openlocfilehash: 40f325a537c052fa2b1dd5bcf7391954bdc19407622040ac353b2a61eecab985
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827260"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285130"
 ---
 # <a name="import-certificate-invoke"></a>Importar certificado (invocar)
  
-En la página **Ejecución de comandos**, revise la información del resumen del certificado importado. En la lista desplegable, seleccione el archivo de registro de importación de certificados. Asegúrese de que el archivo de registro importar certificado esté visible en la lista desplegable. Haga clic en **Ver registro** para ver los detalles de la importación del certificado. Una vez examinados el resumen y el archivo de registro, haga clic en **Finalizar**.
+En la página **Ejecución de comandos**, revise la información del resumen del certificado importado. En la lista desplegable, seleccione el archivo de registro de importación de certificados. Asegúrese de que el archivo de registro Importar certificado esté visible en la lista desplegable. Haga clic en **Ver registro** para ver los detalles de la importación del certificado. Una vez examinados el resumen y el archivo de registro, haga clic en **Finalizar**.
   
 

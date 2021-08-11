@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use este asistente para definir un nuevo grupo de servidores front-end para un sitio. Cada sitio debe tener como mínimo un grupo de servidores Enterprise Edition o un servidor Standard Edition. Para obtener más información sobre los requisitos relativos al uso del asistente para crear un grupo de servidores front-end Enterprise Edition, consulte Definir y configurar un grupo de servidores front-end en la documentación sobre implementación.
-ms.openlocfilehash: 606c190c32338fed26b519de9383665955be45dd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e9b3ff567b8ab540aab3620c9d3066660347be4addc4de0edd6aeb29072be1a4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101896"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302784"
 ---
 # <a name="front-end-start-page"></a>Página de inicio del front-end
 

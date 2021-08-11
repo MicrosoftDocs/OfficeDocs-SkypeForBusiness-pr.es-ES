@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: En estas secciones se detallan las columnas de cada una de las tablas de esquema de base de datos de calidad de la experiencia (QoE).
-ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: En estas secciones se detallan las columnas de cada una de las tablas de esquema de base de datos calidad de la experiencia (QoE).
+ms.openlocfilehash: 42085494d2d302742c2a18b5af17506ba8f79a3ff9812f86b817506ea401d98f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815760"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321602"
 ---
 # <a name="qoe-table-details"></a>Detalles de la tabla de QoE
  
-En estas secciones se detallan las columnas de cada una de las tablas de esquema de base de datos de calidad de la experiencia (QoE).
+En estas secciones se detallan las columnas de cada una de las tablas de esquema de base de datos calidad de la experiencia (QoE).
   
 - [Tabla AppliedBandwidthSource](appliedbandwidthsource.md)
     
@@ -38,15 +38,15 @@ En estas secciones se detallan las columnas de cada una de las tablas de esquema
     
 - [Tabla CodecDescription](codecdescription.md)
     
-- [Tabla Conference](conference.md)
+- [Tabla de conferencias](conference.md)
     
-- [Tabla Device](device.md)
+- [Tabla de dispositivos](device.md)
     
 - [Tabla DeviceDriver](devicedriver.md)
     
-- [Tabla dialog](dialog.md)
+- [Tabla de diálogo](dialog.md)
     
-- [Tabla Endpoint](endpoint.md)
+- [Tabla de extremo](endpoint.md)
     
 - [Tabla EndpointSubnet](endpointsubnet.md)
     
@@ -64,23 +64,23 @@ En estas secciones se detallan las columnas de cada una de las tablas de esquema
     
 - [Tabla PayloadDescription](payloaddescription.md)
     
-- [Tabla Pool](pool.md)
+- [Tabla de grupo](pool.md)
     
 - [Tabla PurgeSettings (QoE)](purgesettings-qoe.md)
     
-- [Tabla Region](region.md)
+- [Tabla región](region.md)
     
-- [Tabla Server](server.md)
+- [Tabla de servidor](server.md)
     
-- [Tabla Session](session.md)
+- [Tabla de sesión](session.md)
     
 - [Tabla SessionCorrelation](sessioncorrelation.md)
     
-- [Tabla Subnet](subnet.md)
+- [Tabla subred](subnet.md)
     
 - [Tabla TraceRoute](traceroute.md)
     
-- [Tabla User](user-0.md)
+- [Tabla de usuario](user-0.md)
     
 - [Tabla UserAgent](useragent.md)
     

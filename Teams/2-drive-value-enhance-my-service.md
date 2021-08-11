@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b91045dae26d14ca1e902812a705e8fa99bdd164
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa5102934cdeadf6b2418ab437bc0be28764307cda075139bfc6435c9d61948e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278248"
 ---
 # <a name="enhance-my-service"></a>Mejorar mis servicios
 
@@ -32,7 +32,7 @@ En este artículo se proporciona información general sobre los requisitos para 
 ## <a name="enhance-my-service-overview"></a>Mejorar la información general del servicio
 Después de implementar correctamente audioconferencias o Sistema telefónico con servicios de planes de llamadas en su organización y esté operando el servicio con calidad y confiabilidad, el siguiente paso es evaluar periódicamente si tiene alguna oportunidad para mejorar sus servicios. Esta es una parte de la planificación de mejora continua del servicio que es un estándar moderno para la administración de servicios en la nube. 
 
-Una forma excelente de asegurarse de que siempre está obteniendo el máximo partido de sus servicios es supervisar las hojas de ruta públicas de [Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para obtener nuevas mejoras de características que puedan ser de interés para su organización. Si tiene acceso al centro de Microsoft 365 de administración, recibirá actualizaciones periódicas de nosotros sobre nuevas y cambiantes características a través de nuestro Centro de mensajes. 
+Una forma excelente de asegurarse de que siempre está obteniendo el máximo partido de sus servicios es supervisar las hojas de ruta públicas de [Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para obtener nuevas mejoras de características que puedan ser de interés para su organización. Si tiene acceso a la Centro de administración de Microsoft 365 recibirá actualizaciones periódicas de nosotros sobre las nuevas y cambiantes características a través de nuestro Centro de mensajes. 
 
 Además, como las organizaciones crecen y cambian, debe tardar tiempo en revisar y actualizar los casos de uso empresarial a intervalos regulares para asegurarse de que el servicio está configurado para satisfacer las necesidades actuales de su organización.  Asegúrese de recibir comentarios del mundo real de los usuarios y los defensores internos estableciendo canales de comentarios en su organización. Pueden ser conversaciones informales, reuniones periódicas o a través de un canal Teams o Yammer comunidad. 
 

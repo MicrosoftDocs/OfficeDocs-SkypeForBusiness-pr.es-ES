@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en Canadá, incluida la disponibilidad, la disponibilidad de la red móvil o por cable y de línea fija, y las restricciones.
-ms.openlocfilehash: 85ac884050c69e5be64c99c9c07df7549b2b2a9a
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
+ms.openlocfilehash: c3b39e327780e2a949a51eb85473714a1875a39a4e80f636bb234140bfedd710
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142934"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339348"
 ---
 # <a name="toll-free-dialing-restrictions-in-canada"></a>Restricciones de marcado gratuitos en Canadá
 

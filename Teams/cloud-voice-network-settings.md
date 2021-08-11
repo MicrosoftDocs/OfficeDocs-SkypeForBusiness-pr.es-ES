@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e97ddf7f6b7410e83a5e2257d7df6ae2ad27cb7f
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 54739ca0f5b1d7191df326ca75f4e868c5e1e65251ebe3c81800fe425a4f5a1e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331062"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Configuración de red para las características de voz en la nube en Microsoft Teams
 

@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a78fa8c12f2eb0db4cedd97a765e6445788c3382
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 064255bc958f9c1b59ca105cb943dca766f7715e59c71a5f1d1e0dee8620e868
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804270"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285160"
 ---
 # <a name="mediation-server-general-settings-expander"></a>Expansor de configuración general del servidor de mediación
  
@@ -29,7 +29,7 @@ ms.locfileid: "49804270"
 
 Nombre de dominio completo (FQDN) del servidor de mediación o el grupo de servidores de mediación. Edite el nombre de dominio completo del servidor que se va a cambiar. Debe tener un registro host (A) de DNS que coincida con el nuevo valor.
   
-En la sección **Asociaciones**, seleccione un servidor perimetral o un grupo de servidores perimetrales para asociar con el servidor de mediación o el grupo de servidores de mediación. Seleccione el servidor perimetral que usarán los componentes multimedia del servidor de mediación para el usuario Telefonía IP empresarial.
+En la sección **Asociaciones**, seleccione un servidor perimetral o un grupo de servidores perimetrales para asociar con el servidor de mediación o el grupo de servidores de mediación. Seleccione el servidor perimetral que los componentes multimedia del servidor de mediación usarán para los usuarios externos Telefonía IP empresarial.
   
 Si no tiene definido ningún servidor perimetral y necesita asociar el servidor de mediación con un servidor perimetral, haga clic en **Nuevo** y defina el nuevo servidor perimetral o el grupo de servidores perimetrales en el asistente para definir un nuevo grupo de servidores perimetrales.
   

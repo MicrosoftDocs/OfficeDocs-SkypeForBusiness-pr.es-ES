@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
-description: 'Puede configurar opciones avanzadas para la ubicación de los archivos de base de datos y registro en su SQL Server. Las opciones disponibles son:'
-ms.openlocfilehash: 392db6eb9b882ff66a9f15e1f5c4f0918cb140a5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Puede configurar opciones avanzadas para la colocación de archivos de base de datos y registro en su SQL Server. Las opciones disponibles son:'
+ms.openlocfilehash: 6b9ad2dc1dd91eeb0834c43394f00221d687d0d66058c5037e6d90c83cd10bad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321722"
 ---
 # <a name="install-database-options-page"></a>Página de opción Instalar base de datos
 
-Puede configurar opciones avanzadas para la ubicación de los archivos de base de datos y registro en su SQL Server. Las opciones disponibles son:
+Puede configurar opciones avanzadas para la colocación de archivos de base de datos y registro en su SQL Server. Las opciones disponibles son:
 
 > [!IMPORTANT]
 > Seleccione la opción que mejor se adapte a sus requisitos y directivas relacionados con la ubicación de datos y archivos de registro en los SQL Server equipos.
@@ -33,7 +33,7 @@ Puede configurar opciones avanzadas para la ubicación de los archivos de base d
 
  **Usar SQL Server de instancia:** seleccione esta opción para colocar archivos de base de datos y archivos de registro en función de la configuración de la instancia en SQL Server. El administrador de la base de datos es quien administra y configura normalmente las opciones.
 
- **Us these path on target SQL Server:** Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.
+ **Us these path on target SQL Server**: Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.
 
 > [!IMPORTANT]
 > Las rutas de acceso que se introducen pueden modificarse según los algoritmos de optimización del rendimiento durante la instalación. Para obtener más información, consulte [Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell).
@@ -44,6 +44,6 @@ Puede configurar opciones avanzadas para la ubicación de los archivos de base d
 
  **Ayuda**: haga clic en el botón Ayuda para obtener acceso a esta página de Ayuda.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Colocación del archivo de registro y los datos de SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement)

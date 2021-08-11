@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec5580e98f22ea597ea7639bdfbc17c7c5104b9f
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 45856ed0e452c6ed1c04e0d724551a17316112a95b1f3cefcda5b481b8868e6b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587359"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339398"
 ---
 # <a name="teams-in-30"></a>Teams en 30
 <div id="main" class="v2">

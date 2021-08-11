@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para definir los equipos que forman el grupo de servidores perimetrales, escriba el nombre de dominio completo (FQDN) de al menos un equipo que forma parte del grupo perimetral consolidado con equilibrio de carga heredado.
-ms.openlocfilehash: 3db1c55674549f5773351f027db2a957bdcb255e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para definir los equipos que forman el grupo de servidores perimetrales, escriba el nombre de dominio completo (FQDN) de al menos un equipo que forma parte del grupo perimetral consolidado y equilibrado de carga heredado.
+ms.openlocfilehash: aafe22223e7da6d68c2d57e0f404046f9e0303df8e55d841574d4586409a93e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805730"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285150"
 ---
 # <a name="legacy-merge-add-machine"></a>Combinación heredada de Agregar equipo
  
-Para definir los equipos que forman el grupo de servidores perimetrales, escriba el nombre de dominio completo (FQDN) de al menos un equipo que forma parte del grupo perimetral consolidado con equilibrio de carga heredado. 
+Para definir los equipos que forman el grupo de servidores perimetrales, escriba el nombre de dominio completo (FQDN) de al menos un equipo que forma parte del grupo perimetral consolidado y equilibrado de carga heredado. 
   
 

@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 379455f036876a36944bc4fc9c762f5ed98b6ec3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1d12d859f2d6d828db0ad5cfb9aa474143d89c94ddfa4a0b6ccc0d9233fb256c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312718"
 ---
 # <a name="user-feedback-surveys"></a>Encuestas de comentarios de usuarios 
 

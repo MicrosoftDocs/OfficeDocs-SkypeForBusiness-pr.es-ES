@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cada grupo de servidores front-end y cada aplicación de sucursal con funciones de supervivencia solo pueden tener asociado un servidor de supervisión. Si se ha habilitado la supervisión en el sitio, el servidor de supervisión proporciona datos e informes del registro de detalles de las llamadas (CDR) y de calidad de la experiencia (QoE).
-ms.openlocfilehash: 51335126c64d17d2ea6c8cfafe3c8cab0c9fad17
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f338cd75d44c1c90dc57092b3e7ea06261b964900c9e3625ee4092fbd041b75c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811350"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285270"
 ---
 # <a name="associate-front-end-with-monitoring"></a>Asociar front-end con supervisión
  

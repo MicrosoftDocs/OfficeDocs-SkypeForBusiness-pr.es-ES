@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78282b464dd1d9cb25c5d4d2b338c74a2c91d374
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 719f97e72f099edb4d14c22ef9d5a3de0f787ea7411f42f1d777ea842bcc4e27
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855929"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339648"
 ---
 # <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Desactivar la traducción de mensajes en línea en Microsoft Teams
 
@@ -47,4 +47,4 @@ Desactive la directiva con el cmdlet [Set-CsTeamsMessagingPolicy.](/powershell/m
 En el centro de administración  **de Microsoft Teams**, seleccione Directivas de mensajería en el panel de  navegación izquierdo, cree una directiva nueva o edite una directiva existente y establezca la opción Traducir mensajes en **Desactivado.**
 
 > [!NOTE]
-> El servicio realiza la traducción y la entrega al cliente sin ningún efecto en el contenido capturado en los registros de cumplimiento. Para obtener más información sobre la traducción, vea [¿Qué es Microsoft Traductor?](/azure/cognitive-services/translator/translator-info-overview)
+> El servicio realiza la traducción y la entrega al cliente sin ningún efecto en el contenido capturado en los registros de cumplimiento. Para obtener más información sobre la traducción, vea [¿Qué Traductor de Microsoft?](/azure/cognitive-services/translator/translator-info-overview)

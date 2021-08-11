@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo Grupos de servidores de mediación contiene los nodos de mediación de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: f806cb62f4e56b3676e0e379ea619da4a627af60
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b6497fb26d8c50ee6d1e5fa6233211cf60d9642d4ec4efce0489c432c4865852
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804240"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302774"
 ---
 # <a name="mediation-servers-scope-node"></a>Nodo de ámbito de servidores de mediación
  
@@ -30,7 +30,7 @@ El nodo **Grupos de servidores de mediación** contiene los nodos de mediación 
     
 Además de las opciones de los grupos de servidores de mediación, puede efectuar las tareas generales siguientes:
   
-- **Topología**. Puede usar esta opción para definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
+- **Topología**. Puede usar esta opción para definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
     
 - **Ver**. Use esta opción para personalizar la vista del Generador de topologías seleccionando los elementos que se deben mostrar y ocultar en las vistas de árbol de consola.
     

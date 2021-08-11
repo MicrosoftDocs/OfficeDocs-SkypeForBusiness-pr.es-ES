@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 'Summary: Learn how to create meeting configuration settings in Skype for Business Server.'
-ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to create meeting configuration settings in Skype Empresarial Server.'
+ms.openlocfilehash: 11871685d51a73f5f2e9dbcbaa2835060d8a7cdc59958af1785d689c3c9246ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119519"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321698"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Crear opciones de configuración de reunión en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo crear opciones de configuración de reuniones en Skype Empresarial Server.
   
-Puede crear opciones de configuración de reuniones mediante el Panel de control de Skype Empresarial Server o mediante el Shell de administración de Skype Empresarial Server.
+Puede crear opciones de configuración de reuniones mediante Skype Empresarial Server Panel de control o mediante Skype Empresarial Server Shell de administración.
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Crear opciones de configuración de reuniones mediante el Panel de control de Skype Empresarial Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Crear opciones de configuración de reunión mediante Skype Empresarial Server Panel de control
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2.  Abra el Panel de control de Skype Empresarial Server.
+2.  Abra Skype Empresarial Server Panel de control.
     
 3. En la barra de navegación izquierda, haga clic **en Conferencia y,** a continuación, haga clic en **Configuración de reunión.**
     
@@ -65,7 +65,7 @@ Puede crear opciones de configuración de reuniones mediante el Panel de control
     
 10. Haga clic en **Confirmar**.
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Crear opciones de configuración de reuniones mediante el Shell de administración de Skype Empresarial Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Crear opciones de configuración de reuniones mediante Skype Empresarial Server Shell de administración
 
 Para crear opciones de configuración de reunión, use el cmdlet **New-CsMeetingConfiguration.**
   

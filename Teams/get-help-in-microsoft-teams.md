@@ -17,12 +17,12 @@ description: Obtenga información sobre temas de ayuda, vídeos, notas de la ver
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdc4365e000eab7ff4c91cbcb0f44d985bb13c33
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3cf562ae3ead64d263681cb29bc97264af1e319bd5be36610468182c721a1b54
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583217"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339658"
 ---
 <a name="get-help-in-microsoft-teams"></a>Obtener ayuda en Microsoft Teams
 ============================================

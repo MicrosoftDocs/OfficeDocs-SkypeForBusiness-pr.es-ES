@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd649507c0108e9a3d500f4d30cae46a3181d75d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 318ea793a037ecf47d48663e94b1c19e09fb2bcb8556b9f401f314d0bb9e998d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117858"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339478"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>Planear Office 365 Administración Pública: implementaciones de DoD
 
@@ -90,7 +90,7 @@ Determine sus requisitos de gobernanza y cómo puede cumplirlos. Vaya a [Planear
 
 Después de que se haya incorporado a Office 365 Administración Pública– DoD, siga la ruta de implementación recomendada que se describe en Cómo implementar [Microsoft Teams](./deploy-overview.md). Asegúrese de participar con su equipo de adopción y administración de cambios y con Teams usuarios.
 
-También puede trabajar con [FastTrack](https://www.microsoft.com/fasttrack) o su partner elegido para incorporar el servicio.
+También puede trabajar con [FastTrack](https://www.microsoft.com/fasttrack) su partner elegido para incorporar el servicio.
 
 > [!NOTE]
 > El cliente Teams Mac para entornos DOD aún no es compatible.
