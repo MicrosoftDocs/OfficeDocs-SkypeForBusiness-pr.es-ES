@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
-description: Después de completar los pasos para implementar y configurar Skype Empresarial Cloud Connector Edition, compruebe que puede realizar y recibir llamadas.
-ms.openlocfilehash: fb46c9b48367760d2c29e4ed7330e28c92f20f09
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Después de completar los pasos para implementar y configurar Skype for Business Edición de conector de nube, compruebe que puede realizar y recibir llamadas.
+ms.openlocfilehash: 1cbfed0716ef88bf48f8dadf0214c48bcd2031e34343da0ce59bd84d6d82d2b2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279926"
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>Validar la implementación de Cloud Connector
 
 > [!Important]
-> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams enrutamiento [directo](/MicrosoftTeams/direct-routing-landing-page).
  
-Después de completar los pasos para implementar y configurar Skype Empresarial Cloud Connector Edition, compruebe que puede realizar y recibir llamadas.
+Después de completar los pasos para implementar y configurar Skype for Business Edición de conector de nube, compruebe que puede realizar y recibir llamadas.
   
 ## <a name="validate-the-deployment"></a>Validar la implementación
 
-1. Inicie sesión en su cliente de Skype Empresarial con una cuenta de usuario que acaba de configurar.
+1. Inicie sesión en el Skype Empresarial con una cuenta de usuario que acaba de configurar.
     
 2. Llama a un número RTC desde el cliente y confirma que la llamada se realiza correctamente.
     
-3. Use el teléfono u otro dispositivo asociado con el número RTC para llamar a su cliente de Skype Empresarial y confirmar que la llamada se realiza correctamente.
+3. Usa el teléfono u otro dispositivo asociado con el número RTC para llamar a tu Skype Empresarial cliente y confirmar que la llamada se realiza correctamente.
     
     > [!NOTE]
     > Debe confirmar que puede realizar llamadas correctamente después de agregar sitios adicionales o convertir sitios para habilitar la compatibilidad con HA. 

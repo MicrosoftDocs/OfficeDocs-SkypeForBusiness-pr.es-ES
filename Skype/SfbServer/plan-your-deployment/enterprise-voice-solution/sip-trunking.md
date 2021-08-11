@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Obtenga información sobre el enlace troncal SIP en Skype Empresarial Server Telefonía IP empresarial
-ms.openlocfilehash: ca3e30c8974e5ac26c2d9c395da228f85c92bac0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8254df8366fdbfd03dd5ad0aa2f3253e5f4284b8248d26b131f056d28714bd77
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110666"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289738"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Enlace troncal SIP en Skype Empresarial Server
 
@@ -51,9 +51,9 @@ Como los troncos SIP se conectan directamente al proveedor del servicio, se pued
 
 ### <a name="expanded-voip-services"></a>Servicios de VoIP ampliados
 
-Con frecuencia, las características de voz constituyen la principal motivación para implementar un enlace troncal SIP, si bien la compatibilidad de voz es solo el primer paso. Con el enlace troncal SIP, puede ampliar las capacidades de VoIP y permitir que Skype Empresarial Server ofrezca un conjunto de servicios más enriquecido. Por ejemplo:
+Con frecuencia, las características de voz constituyen la principal motivación para implementar un enlace troncal SIP, si bien la compatibilidad de voz es solo el primer paso. Con el enlace troncal SIP, puede ampliar las capacidades de VoIP y Skype Empresarial Server ofrecer un conjunto de servicios más enriquecido. Por ejemplo:
 
-- La detección de presencia mejorada para dispositivos que no ejecutan Skype Empresarial Server puede proporcionar una mejor integración con teléfonos móviles, lo que permite ver cuándo un usuario está en una llamada de teléfono móvil.
+- La detección de presencia mejorada para dispositivos que no se ejecutan Skype Empresarial Server puede proporcionar una mejor integración con los teléfonos móviles, lo que permite ver cuándo un usuario está en una llamada de teléfono móvil.
 
 - Las llamadas de emergencia E9-1-1 permiten a las autoridades que responden a las llamadas al 911 determinar la ubicación del autor de la llamada desde su número de teléfono.
 
@@ -62,17 +62,17 @@ Con frecuencia, las características de voz constituyen la principal motivación
 
 ### <a name="sip-trunks-vs-direct-sip-connections"></a>Troncos SIP y conexiones SIP directas
 
-El término tronco deriva de la tecnología de circuitos conmutados. Se refiere a una línea física dedicada que conecta el equipo de conmutación telefónica. Al igual que su predecesora, los troncos de multiplexación de división de tiempo (TDM), los troncos SIP son conexiones entre dos redes SIP independientes: la empresa de Skype Empresarial Server y el ITSP. A diferencia de los troncos de circuitos conmutados, los enlaces troncales SIP son conexiones virtuales que se pueden establecer sobre cualquiera de los tipos de conexión de enlaces troncales SIP compatibles.
+El término tronco deriva de la tecnología de circuitos conmutados. Se refiere a una línea física dedicada que conecta el equipo de conmutación telefónica. Al igual que su predecesora, los troncos de multiplexación de división de tiempo (TDM), los troncos SIP son conexiones entre dos redes SIP independientes: la empresa Skype Empresarial Server y el ITSP. A diferencia de los troncos de circuitos conmutados, los enlaces troncales SIP son conexiones virtuales que se pueden establecer sobre cualquiera de los tipos de conexión de enlaces troncales SIP compatibles.
 
-Por otra parte, las conexiones SIP directas son conexiones SIP que no cruzan los límites de la red local (es decir, que se conectan a central de conmutación (PBX) o a una red telefónica conmutada (RTC) dentro de su red local). Para obtener más información sobre cómo puede usar conexiones SIP directas con Skype Empresarial Server, vea [Direct SIP connections in Skype for Business Server](direct-sip.md).
+Por otra parte, las conexiones SIP directas son conexiones SIP que no cruzan los límites de la red local (es decir, que se conectan a central de conmutación (PBX) o a una red telefónica conmutada (RTC) dentro de su red local). Para obtener más información sobre cómo puede usar conexiones SIP directas con Skype Empresarial Server, vea [Direct SIP connections in Skype Empresarial Server](direct-sip.md).
 
 ## <a name="how-do-i-implement-sip-trunking"></a>¿Cómo implemento el enlace troncal SIP?
 
-Para implementar el enlace troncal SIP, debe enrutar la conexión a través de un servidor de mediación, que actúa como proxy para las sesiones de comunicaciones entre clientes de Skype Empresarial Server y el proveedor de servicios y transcodifica medios, cuando sea necesario.
+Para implementar el enlace troncal SIP, debe enrutar la conexión a través de un servidor de mediación, que actúa como proxy para las sesiones de comunicaciones entre los clientes de Skype Empresarial Server y el proveedor de servicios y transcodifica los medios, cuando sea necesario.
 
 Cada servidor de mediación tiene una interfaz de red interna y una interfaz de red externa. La interfaz interna se conecta a los servidores front-end. La interfaz externa se denomina comúnmente interfaz de puerta de enlace porque tradicionalmente se ha usado para conectar el servidor de mediación a una puerta de enlace de red telefónica conmutada (RTC) o a una IP-PBX. Para implementar un tronco SIP, debe conectar la interfaz externa del servidor de mediación al componente perimetral externo del ITSP. El componente perimetral externo del ITSP puede ser un controlador SBC (controlador de borde de sesión), un enrutador o una puerta de enlace.
 
-Para obtener más información acerca de los servidores de mediación, vea [Mediation Server component in Skype for Business Server](mediation-server.md).
+Para obtener más información acerca de los servidores de mediación, vea [Mediation Server component in Skype Empresarial Server](mediation-server.md).
 
 ### <a name="centralized-vs-distributed-sip-trunking"></a>Enlace troncal SIP centralizado y distribuido
 
@@ -94,10 +94,10 @@ Según la ubicación geográfica de los sitios y la cantidad de tráfico que pre
 
 - ¿Qué números de llamada directa a la extensión (DID) reciben más llamadas en cada sitio?
 
-Para saber si compensa implementar un enlace troncal SIP centralizado o distribuido, se necesita un análisis de costo-beneficio. En algunos casos, puede ser mejor decantarse por el modelo de implementación distribuido aunque no sea necesario. En las implementaciones totalmente centralizadas, todo el tráfico de las sucursales se enruta a través de vínculos WAN. En lugar de pagar por el ancho de banda necesario para la vinculación WAN, es posible que prefiera usar el enlace troncal SIP distribuido. Por ejemplo, es posible que desee implementar un servidor Standard Edition en un sitio de sucursal con federación en el sitio central, o puede que desee implementar una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia con una puerta de enlace pequeña.
+Para saber si compensa implementar un enlace troncal SIP centralizado o distribuido, se necesita un análisis de costo-beneficio. En algunos casos, puede ser mejor decantarse por el modelo de implementación distribuido aunque no sea necesario. En las implementaciones totalmente centralizadas, todo el tráfico de las sucursales se enruta a través de vínculos WAN. En lugar de pagar por el ancho de banda necesario para la vinculación WAN, es posible que prefiera usar el enlace troncal SIP distribuido. Por ejemplo, es posible que desee implementar un servidor de Standard Edition en un sitio de sucursal con federación en el sitio central, o puede que desee implementar una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia con una puerta de enlace pequeña.
 
 > [!NOTE]
-> Para obtener más información sobre el enlace troncal SIP distribuido, vea [Branch site SIP trunking in Skype for Business Server](branch-site.md).
+> Para obtener más información sobre el enlace troncal SIP distribuido, vea [Branch site SIP trunking in Skype Empresarial Server](branch-site.md).
 
 ### <a name="supported-sip-trunking-connection-types"></a>Tipos de conexión de enlace troncal SIP compatibles
 
@@ -107,7 +107,7 @@ Skype Empresarial Server admite los siguientes tipos de conexión para el enlace
 
 - En general, las conexiones privadas sin otro tipo de tráfico (por ejemplo, una línea de T1 o una conexión de fibra óptica alquilada) son el tipo de conexión más seguro y fiable. Este tipo de conexión ofrece la mayor capacidad de transferencia de llamadas, pero suele ser el más caro. No se necesita VPN. Las conexiones privadas son adecuadas para las organizaciones que tienen un gran volumen de llamadas o requisitos de seguridad y disponibilidad muy estrictos.
 
-- Internet es el tipo de conexión menos costoso, pero también el menos fiable. La conexión a Internet es el único tipo de conexión troncal SIP de Skype Empresarial Server que requiere VPN.
+- Internet es el tipo de conexión menos costoso, pero también el menos fiable. La conexión a Internet es Skype Empresarial Server tipo de conexión troncal SIP que requiere VPN.
 
 #### <a name="selecting-a-connection-type"></a>Selección de un tipo de conexión
 
@@ -130,7 +130,7 @@ Ancho de banda máximo del tronco SIP = Nº máx. de llamadas simultáneas x (64
 
 ### <a name="codec-support"></a>Compatibilidad de códecs
 
-Skype Empresarial Server solo admite los siguientes códecs:
+Skype Empresarial Server admite solo los siguientes códecs:
 
 - G.711 Ley A (que se usa principalmente fuera de Norteamérica)
 
@@ -183,6 +183,6 @@ Si usa un servidor de VPN, se recomienda seguir estas instrucciones:
 
 - Cifre los datos de la VPN mediante encapsulación de enrutamiento genérico (GRE).
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Enlace troncal SIP del sitio de sucursal en Skype Empresarial Server](branch-site.md)

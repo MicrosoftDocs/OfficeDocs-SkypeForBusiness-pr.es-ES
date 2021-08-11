@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los ajustes de configuración de reunión definen la experiencia de unión de los usuarios a conferencias programadas por usuarios. Estas opciones solo se aplican a reuniones programadas. No se aplican a reuniones ad hoc creadas haciendo clic en la opción Reunirse ahora en el cliente.
-ms.openlocfilehash: 3d37b1894531a62f605f083cbe1e2f36953f2ff2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4038f4175849481c43d2d8a9fc0849f44f0530906c3702580a892cd0edb17871
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326496"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuración de reuniones: Crear nuevos o editar los existentes
 
@@ -44,7 +44,7 @@ En la siguiente lista se describen los campos de la página.
 
   - **Todos** Seleccione esta opción para designar automáticamente a cualquiera para que sea moderador.
 
-- **Tipo de conferencia asignado de forma predeterminada** Esta configuración controla si el Complemento de conferencias de Outlook siempre programa conferencias mediante la conferencia asignada del organizador, lo que significa que las conferencias programadas siempre tienen la misma dirección URL de unión y la misma información de audio. Active esta casilla para que las conferencias programadas siempre usen la misma dirección URL. Desactívela para usar una dirección URL distinta para cada conferencia.
+- **Tipo de conferencia asignado de forma predeterminada** Esta configuración controla si Outlook Conferencing Addin siempre programa conferencias mediante la conferencia asignada del organizador, lo que significa que las conferencias programadas siempre tienen la misma dirección URL de unión y la misma información de audio. Active esta casilla para que las conferencias programadas siempre usen la misma dirección URL. Desactívela para usar una dirección URL distinta para cada conferencia.
 
 - **Admitir usuarios anónimos de forma predeterminada** Active esta casilla si los usuarios anónimos (es decir, no autenticados) pueden asistir a conferencias de forma predeterminada. Desactívela si los usuarios anónimos no pueden asistir a conferencias de forma predeterminada.
 
@@ -56,4 +56,4 @@ En la siguiente lista se describen los campos de la página.
 
 - **Texto de pie de página personalizado** Escriba el texto que se usará en invitaciones de conferencia personalizadas.
 
-Para obtener detalles sobre cómo trabajar con configuraciones de reunión, vea [Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings) en la documentación de operaciones. Para obtener detalles sobre cómo configurar configuraciones de reuniones para reuniones grandes, vea [Setting Up Support for Large Meetings](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-support-for-large-meetings) en la documentación de planeación.
+Para obtener detalles sobre cómo trabajar con configuraciones de reuniones, vea [Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings) en la documentación de operaciones. Para obtener detalles sobre cómo configurar configuraciones de reuniones para reuniones grandes, vea [Setting Up Support for Large Meetings](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-support-for-large-meetings) en la documentación de planeación.

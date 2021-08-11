@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
-description: Skype Empresarial Server usa TLS y MTLS para cifrar mensajes instantáneos. Todo el tráfico de servidor a servidor requiere MTLS, independientemente de si el tráfico se limita a la red interna o si atraviesa el perímetro de red interno. Al conectar Skype Empresarial Server a sistemas IPPBX de terceros o troncos SIP TLS es opcional, pero se recomienda encarecidamente entre el servidor de mediación y la puerta de enlace multimedia. Si TLS está configurado en este vínculo, se requiere MTLS. Por lo tanto, la puerta de enlace debe configurarse con un certificado de una CA de confianza del servidor de mediación.
-ms.openlocfilehash: 269a5394f5438802c68dabed17081c71a353a2b5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype Empresarial Server TLS y MTLS para cifrar mensajes instantáneos. Todo el tráfico de servidor a servidor requiere MTLS, independientemente de si el tráfico se limita a la red interna o si atraviesa el perímetro de red interno. Al conectar Skype Empresarial Server a sistemas IPPBX de terceros o troncos SIP TLS es opcional, pero se recomienda encarecidamente entre el servidor de mediación y la puerta de enlace multimedia. Si TLS está configurado en este vínculo, se requiere MTLS. Por lo tanto, la puerta de enlace debe configurarse con un certificado de una CA de confianza del servidor de mediación.
+ms.openlocfilehash: a315b26f14db16759eb2c6c6fc9d6d6562060221efdd1b642f259aeecffadc7b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104236"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289538"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Cifrado para Skype Empresarial Server
  
-Skype Empresarial Server usa TLS y MTLS para cifrar mensajes instantáneos. Todo el tráfico de servidor a servidor requiere MTLS, independientemente de si el tráfico se limita a la red interna o si atraviesa el perímetro de red interno. Al conectar Skype Empresarial Server a sistemas IPPBX de terceros o troncos SIP TLS es opcional, pero se recomienda encarecidamente entre el servidor de mediación y la puerta de enlace multimedia. Si TLS está configurado en este vínculo, se requiere MTLS. Por lo tanto, la puerta de enlace debe configurarse con un certificado de una CA de confianza del servidor de mediación.
+Skype Empresarial Server TLS y MTLS para cifrar mensajes instantáneos. Todo el tráfico de servidor a servidor requiere MTLS, independientemente de si el tráfico se limita a la red interna o si atraviesa el perímetro de red interno. Al conectar Skype Empresarial Server a sistemas IPPBX de terceros o troncos SIP TLS es opcional, pero se recomienda encarecidamente entre el servidor de mediación y la puerta de enlace multimedia. Si TLS está configurado en este vínculo, se requiere MTLS. Por lo tanto, la puerta de enlace debe configurarse con un certificado de una CA de confianza del servidor de mediación.
   
 > [!NOTE]
 > En 2014 se publicó un aviso de seguridad sobre SSL 3.0. Deshabilitar SSL 3.0 en Skype Empresarial Server 2015 es una opción compatible. Para obtener más información sobre el asesoramiento de seguridad, vea [Deshabilitar SSL 3.0 en Lync Server 2013 y Skype Empresarial Server 2015](/archive/blogs/uclobby/disabling-ssl-3-0-in-lync-server-2013).<br/>
@@ -52,4 +52,4 @@ El tráfico de medios se cifra mediante RTP seguro (SRTP), que es un protocolo d
   
 ## <a name="fips"></a>FIPS
 
-Skype Empresarial Server y Microsoft Exchange Server 2016 funcionan con compatibilidad con los algoritmos 140-2 del Estándar federal de procesamiento de información (FIPS) si los sistemas operativos Windows Server están configurados para usar los algoritmos FIPS 140-2 para criptografía del sistema. Para implementar la compatibilidad con FIPS, debe configurar cada servidor que ejecute Skype Empresarial Server para admitirlo.
+Skype Empresarial Server y Microsoft Exchange Server 2016 funcionan con compatibilidad con los algoritmos 140-2 del Estándar federal de procesamiento de información (FIPS) si los sistemas operativos Windows Server están configurados para usar los algoritmos FIPS 140-2 para criptografía del sistema. Para implementar la compatibilidad con FIPS, debe configurar cada servidor que Skype Empresarial Server para admitirlo.

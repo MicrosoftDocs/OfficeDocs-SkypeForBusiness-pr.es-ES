@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 'Resumen: obtenga información sobre los informes de uso del sistema en Skype Empresarial Server.'
-ms.openlocfilehash: acebebaa88c95a879b4287c5bc9dd5eebdeb7b67
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 05704b507e52785e0b34c69616fce338a0e6c3a271e72d4f15eb5a126771bb11
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280065"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Informes de uso del sistema en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre los informes de uso del sistema en Skype Empresarial Server.
+**Resumen:** Obtenga información sobre los Informes de uso del sistema en Skype Empresarial Server.
   
-Los informes de uso del sistema proporcionan información de uso del sistema basada en los datos del registro detallado de llamadas (CDR) recopilados por Skype Empresarial Server.
+Los Informes de uso del sistema proporcionan información de uso del sistema basada en datos de registro detallado de llamadas (CDR) recopilados por el Skype Empresarial Server.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Informe de registro de usuarios en Skype Empresarial Server](user-registration-report.md)
+- [Informe de registro de usuario en Skype Empresarial Server](user-registration-report.md)
     
-    Proporciona un resumen de la conectividad de usuario a la implementación de Skype Empresarial Server en función de eventos de registro, como inicios de sesión de usuario. El informe proporciona una forma de ver los inicios de sesión internos y externos, así como comparar el número de usuarios que iniciaron sesión en Skype Empresarial Server con el número de usuarios que realmente usaron el servicio mientras iniciaban sesión.
+    Proporciona un resumen de la conectividad del usuario a la Skype Empresarial Server basada en eventos de registro, como inicios de sesión de usuario. El informe proporciona una forma de ver los inicios de sesión internos y externos y comparar el número de usuarios que iniciaron sesión en Skype Empresarial Server con el número de usuarios que realmente usaron el servicio mientras iniciaban sesión.
     
 - [Informe de resumen de actividad punto a punto en Skype Empresarial Server](peer-to-peer-activity-summary-report.md)
     
@@ -47,9 +47,9 @@ Los informes de uso del sistema proporcionan información de uso del sistema bas
     
     Proporciona un resumen del uso del grupo de respuesta. La aplicación Grupo de respuesta proporciona una forma de enrutar automáticamente las llamadas telefónicas a entidades como un servicio de asistencia o una línea de soporte al cliente.
     
-- [Informe de inventario de teléfono IP en Skype Empresarial Server](ip-phone-inventory-report.md)
+- [Informe Teléfono inventario de IP en Skype Empresarial Server](ip-phone-inventory-report.md)
     
-    Proporciona información acerca de los teléfonos IP que actualmente se usan en la organización. El informe se basa en los inicios de sesión y los registros del teléfono. No se debe tratar como un inventario completo. Por ejemplo, es posible que ya no utilice teléfonos que aún se mencionan en el informe (porque iniciaron sesión al menos una vez). Del mismo modo, es posible que también tenga teléfonos nuevos que no se muestren en el informe simplemente porque los usuarios aún no han iniciado sesión en Skype Empresarial Server con sus nuevos teléfonos.
+    Proporciona información acerca de los teléfonos IP que actualmente se usan en la organización. El informe se basa en los inicios de sesión y los registros del teléfono. No se debe tratar como un inventario completo. Por ejemplo, es posible que ya no utilice teléfonos que aún se mencionan en el informe (porque iniciaron sesión al menos una vez). Del mismo modo, es posible que también tenga nuevos teléfonos que no se muestran en el informe simplemente porque los usuarios no han iniciado sesión en Skype Empresarial Server con sus nuevos teléfonos todavía.
     
 - [Informe de control de admisión de llamadas en Skype Empresarial Server](call-admission-control-report.md)
     

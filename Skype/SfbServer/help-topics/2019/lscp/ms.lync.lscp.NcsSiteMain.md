@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: f52e660125b040c67d93ebfc52aee4c52baa08f1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 11e96ba16ea1edfddfddbaf2a43792968e40cd79fadd75b4a0859d43c9937f52
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335620"
 ---
 # <a name="configure-a-network-site"></a>Configurar un sitio de red
 

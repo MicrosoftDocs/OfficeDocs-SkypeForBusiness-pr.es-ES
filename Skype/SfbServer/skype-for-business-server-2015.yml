@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Documentación de Skype Empresarial Server 2015
+title: Skype Empresarial Server de 2015
 summary: Obtenga información sobre cómo implementar Skype Empresarial Server 2015.
 metadata:
-  title: Documentación de Skype Empresarial Server 2015
+  title: Skype Empresarial Server de 2015
   description: Obtenga información sobre cómo implementar Skype Empresarial Server 2015.
   ms.service: skype-for-business-online
   audience: ITPro
@@ -11,14 +11,14 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: cdd61230fc047091d30aa1cc6eebb20057e9288c
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.openlocfilehash: eac647429a962ae1d6797f1ec9a21b5992c4323ee3f3573cc2096f53d5b6617a
+  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51118509"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "54279886"
 landingContent:
-- title: Acerca de Skype Empresarial Server 2015
+- title: Acerca Skype Empresarial Server 2015
   linkLists:
   - linkListType: overview
     links:
@@ -44,7 +44,7 @@ landingContent:
       url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
     - text: Planeación de clientes y dispositivos
       url: ./plan-your-deployment/clients-and-devices/clients-and-devices.md
-    - text: Planeación de Telefonía IP empresarial solución
+    - text: Planear la solución Telefonía IP empresarial solución
       url: ./plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
 - title: Instalar y administrar
   linkLists:
@@ -58,7 +58,7 @@ landingContent:
       url: ./deploy/upgrade-to-skype-for-business-server.md
     - text: Implementar la telefonía IP empresarial
       url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
-    - text: Configurar la implementación local para difusión de reunión de Skype
+    - text: Configurar la implementación local para la difusión Skype reunión
       url: ./deploy/configure-skype-meeting-broadcast.md
   - linkListType: how-to-guide
     links:
@@ -68,9 +68,9 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Serie de preparación de Skype Empresarial
+    - text: Skype Empresarial de preparación
       url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
-    - text: Documentación de Skype Empresarial Server 2019
+    - text: Skype Empresarial Server de 2019
       url: ../SfBServer2019/skype-for-business-server-2019.yml
     - text: Documentación de Lync Server 2013
       url: /lyncserver/microsoft-lync-server-2013

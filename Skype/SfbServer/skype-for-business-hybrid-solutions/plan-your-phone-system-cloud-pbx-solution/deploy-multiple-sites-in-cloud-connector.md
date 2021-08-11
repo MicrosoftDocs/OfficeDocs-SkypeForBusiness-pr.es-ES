@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Obtenga información sobre cómo implementar varios sitios RTC en Cloud Connector Edition.
-ms.openlocfilehash: 059b9a39a082e876b1dd9cd772a235c384a29107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cccef5ee25ec5f902ea40e39c923bf0c7394631cf8508d6b178e166f08aff709
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098406"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289388"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implementar varios sitios en Cloud Connector
 
 > [!Important] 
-> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams enrutamiento [directo](/MicrosoftTeams/direct-routing-landing-page).
 
 Obtenga información sobre cómo implementar varios sitios RTC en Cloud Connector Edition.
   
@@ -34,7 +34,7 @@ En esta sección se describe cómo implementar varios sitios de red telefónica 
   
 ## <a name="multiple-public-switched-telephone-network-pstn-sites"></a>Varios sitios de red telefónica conmutada (RTC)
 
-A continuación se muestra un ejemplo de configuración para implementar Skype Empresarial Cloud Connector Edition para diferentes sitios RTC. Asegúrese de que las opciones de configuración son correctas antes de iniciar una implementación.
+A continuación se muestra un ejemplo de configuración para implementar Skype for Business Edición de conector de nube para diferentes sitios RTC. Asegúrese de que las opciones de configuración son correctas antes de iniciar una implementación.
   
 Sitio RTC 1
   

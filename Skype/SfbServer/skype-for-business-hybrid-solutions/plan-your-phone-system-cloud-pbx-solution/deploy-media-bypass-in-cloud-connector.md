@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lea este tema para obtener información sobre los pasos para implementar la omisión de medios con Cloud Connector Edition versión 2.0 y versiones posteriores.
-ms.openlocfilehash: c9dc79a3079fd27e8901d31abf1a27310d18ed28
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ce46df02295810367556e735897cd9ce912b4c7e8aa15f6db5ffb66d38d4574
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119369"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289438"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implementar la omisión de medios en Cloud Connector Edition
  
 > [!Important]
-> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams enrutamiento [directo](/MicrosoftTeams/direct-routing-landing-page).
 
 Lea este tema para obtener información sobre los pasos para implementar la omisión de medios con Cloud Connector Edition versión 2.0 y versiones posteriores. 
   
@@ -38,7 +38,7 @@ Para habilitar la omisión de medios, debe configurar el nombre DNS del servicio
   
 Un administrador de inquilinos debe configurar un registro DNS A en la producción interna de Active Directory. Si tiene un entorno complejo de varios sitios, vea el ejemplo de Ejemplo: registros DNS de sitios web de omisión de medios [en entornos complejos de varios sitios](deploy-media-bypass-in-cloud-connector.md#Example). El registro DNS solo debe resolverse para clientes de red internos; no debe resolverse para clientes de red externos.
   
-Después de configurar DNS, conéctese a Skype Empresarial Online mediante PowerShell remoto con credenciales de administrador de Skype Empresarial. Para obtener más información, [vea Configurar el equipo para Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
+Después de configurar DNS, conéctese a Skype Empresarial Online mediante PowerShell remoto con Skype Empresarial de administrador. Para obtener más información, vea [Configurar el equipo para Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
   
 En la sesión de PowerShell, escriba los siguientes comandos para habilitar la omisión de medios:
   
@@ -69,7 +69,7 @@ Para comprobar la replicación local, conéctese a los servidores de mediación 
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-Para comprobar la configuración del cliente, salga del cliente de Skype Empresarial, vuelva a iniciar sesión y confirme que el cliente ha recibido la dirección URL del servicio de la siguiente manera:
+Para comprobar la configuración del cliente, salga del cliente Skype Empresarial, vuelva a iniciar sesión y confirme que el cliente ha recibido la dirección URL del servicio de la siguiente manera:
   
 1. Abra %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog. 
     
@@ -118,11 +118,11 @@ Un administrador también tendrá que quitar las direcciones web para la omisió
 ## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>Ejemplo: registros DNS de sitios web de desvío de medios en entornos complejos de varios sitios
 <a name="Example"> </a>
 
-Los clientes recibirán la dirección web del servicio web de desvío de medios desde un servidor DNS interno. El nombre del servicio web será el mismo en todos los dispositivos de Cloud Connector y en los sitios RTC de Cloud Connector. En un entorno complejo de varios sitios, se recomienda usar la directiva DNS de Windows 2016 para la administración de tráfico basada en Geo-Location, para que los clientes se puedan redirigir al servicio web que es local para su red. 
+Los clientes recibirán la dirección web del servicio web de desvío de medios desde un servidor DNS interno. El nombre del servicio web será el mismo en todos los dispositivos de Cloud Connector y en los sitios RTC de Cloud Connector. En un entorno complejo de varios sitios, se recomienda usar la directiva DNS de Windows 2016 para una administración de tráfico basada en Geo-Location, para que los clientes puedan redirigirse al servicio web que es local para su red. 
   
 Fore more information about Windows 2016 DNS Policies, see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](/windows-server/networking/dns/deploy/primary-geo-location).
   
-A continuación se muestra un ejemplo de configuración para una empresa con varios sitios que usan la directiva DNS de Windows 2016 para la administración Geo-Location de tráfico basado en aplicaciones.
+A continuación se muestra un ejemplo de configuración para una empresa con varios sitios que usan Windows de DNS de 2016 para la administración Geo-Location de tráfico basado en aplicaciones.
   
 El nombre del servicio de omisión es "hybridvoice.adatum.biz".
   
@@ -190,7 +190,7 @@ En este momento, los clientes que hacen consultas DNS desde la subred de Ámster
 > Si el dispositivo CCE no parece obtener la configuración actualizada, compruebe si el dispositivo puede ponerse en contacto con el inquilino a través de PowerShell remoto. Puede usar PowerShell remoto para comprobar el estado del dispositivo con Get-CsHybridPSTNAppliance o usar PowerShell en el host CCE para comprobar el estado con Get-CcApplianceStatus.
 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 <a name="Example"> </a>
 
 [Plan para la omisión de medios en Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)

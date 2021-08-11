@@ -16,12 +16,12 @@ ms.reviewer: ''
 description: Guía de artículos sobre cómo administrar y supervisar Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1682565d015d104ca4a60d2770e526453bea535a
-ms.sourcegitcommit: 3500faff11f76fdff7c645931e6704f2d33f36a3
+ms.openlocfilehash: e3c30bb4aeba2866bcce042c3ce11840ec8e9d68e73386bfcb4f3b434a136506
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071052"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279707"
 ---
 # <a name="manage-and-monitor-teams"></a>Administrar y supervisar Teams
 
@@ -43,7 +43,7 @@ En este artículo se proporciona una guía del contenido que necesitará para ad
 
 - [Supervisar y administrar la calidad de la llamada.](monitor-call-quality-qos.md) Lea este artículo para comprender cómo usar las herramientas disponibles para supervisar y mejorar la calidad de las llamadas para su organización.
 
-- [Informes en el centro Teams de administración](teams-analytics-and-reports/teams-reporting-reference.md) e Informes en el centro Microsoft 365 [administración.](teams-activity-reports.md) Lea estos artículos para comprender qué informes están disponibles y cómo usar estos informes para supervisar el Teams y el estado del servicio.
+- [Informes en el Teams de administración](teams-analytics-and-reports/teams-reporting-reference.md) e Informes en el [Centro de administración de Microsoft 365](teams-activity-reports.md). Lea estos artículos para comprender qué informes están disponibles y cómo usar estos informes para supervisar el Teams y el estado del servicio.
 
 - [Operar el servicio y](teams-analytics-and-reports/teams-reporting-reference.md) [mejorar el servicio](upgrade-enhance-my-service.md). Lea estos artículos para obtener instrucciones y hojas de ruta para saber cómo operar y mejorar su Teams servicio.
 

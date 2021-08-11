@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Cree o modifique un grupo de agentes en grupo de respuesta, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 0c0e7d54008ba6affa2bae5bd3228c93e430a114
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3d4be038b156152a16059b717ae872962177478df888f151e95c89e32281f274
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105816"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298710"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Crear o modificar un grupo de agentes en Skype Empresarial
  
@@ -29,7 +29,7 @@ Cree o modifique un grupo de agentes en grupo de respuesta, en Skype Empresarial
   
 Cuando se crea un grupo de agentes, se seleccionan los agentes que se asignan al grupo y se especifica la configuración de grupo adicional, como el método de enrutamiento y si un agente puede iniciar y cerrar sesión en el grupo. 
   
-Un agente que debe iniciar y cerrar sesión en el grupo, que es diferente de iniciar o salir de Skype Empresarial, se denomina agente formal. Los agentes formales deben iniciar sesión en el grupo para poder recibir llamadas enrutadas al grupo. Esto puede resultar útil para los agentes que atienden llamadas del grupo a media jornada. Los agentes formales inician y cierran sesión en sus grupos haciendo clic en un elemento de menú de Skype Empresarial para abrir el explorador de Internet de Windows Internet Explorer y mostrar una consola de página web.
+Un agente que debe iniciar y cerrar sesión en el grupo, que es diferente de iniciar o salir de Skype Empresarial, se denomina agente formal. Los agentes formales deben iniciar sesión en el grupo para poder recibir llamadas enrutadas al grupo. Esto puede resultar útil para los agentes que atienden llamadas del grupo a media jornada. Los agentes formales inician y cierran sesión en sus grupos haciendo clic en un elemento de menú de Skype Empresarial para abrir el explorador de Internet Windows Internet Explorer y mostrar una consola de página web.
   
 Un agente que no inicia ni cierra sesión en el grupo recibe el nombre de agente informal. Los agentes informales inician sesión automáticamente en el grupo cuando inician sesión en Skype Empresarial y no pueden cerrar sesión en el grupo.
   
@@ -40,14 +40,14 @@ Use uno de los siguientes procedimientos para crear o modificar un grupo de agen
 > [!IMPORTANT]
 > Cuando asigne usuarios como agentes de grupo de respuesta, indíqueles que, si tienen habilitado el modo de privacidad, deberán buscar contactos de "Observador de presencia de RGS" y agregarlos a su lista de contactos. Los agentes que tengan el modo de privacidad habilitado, pero que no tengan "Observador de presencia RGS" en su lista de contactos no podrán recibir llamadas en el grupo de respuesta. Los agentes que no tengan habilitado el modo de privacidad, no se verán afectados. 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Para usar el Panel de control de Skype Empresarial Server para crear o modificar un grupo de agentes
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Para usar Skype Empresarial Server panel de control para crear o modificar un grupo de agentes
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
     > [!NOTE]
     > Si es uno de los administradores de grupos de respuesta delegados para un flujo de trabajo administrado, puede crear grupos y usarlos en los flujos de trabajo que administre. 
   
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.  
     
 3. En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y, a continuación, en **Grupo**.
     
@@ -117,11 +117,11 @@ Use uno de los siguientes procedimientos para crear o modificar un grupo de agen
     
 11. Haga clic en **Confirmar**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>Para usar el Shell de administración de Skype Empresarial Server para crear o modificar un grupo de agentes
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>Para usar Skype Empresarial Server Shell de administración para crear o modificar un grupo de agentes
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 3. Use **New-CsRgsAgentGroup para** crear un nuevo grupo de agentes. Use **Set-CsRgsAgentGroup para** modificar un grupo de agentes existente. En la línea de comandos, ejecute:
     
@@ -138,13 +138,13 @@ Use uno de los siguientes procedimientos para crear o modificar un grupo de agen
     > [!IMPORTANT]
     > La configuración de hora de alerta del agente no puede superar los 180 segundos. Si el tiempo de alerta del agente es superior a 180 segundos, la aplicación cliente rechaza la llamada porque el temporizador de transacción SIP alcanza su tiempo máximo de espera. 
   
-4. Confirme que se ha creado el grupo de agentes. Ejecute: 
+4. Confirme que se ha creado el grupo de agentes. Ejecutar:
     
    ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps)
   

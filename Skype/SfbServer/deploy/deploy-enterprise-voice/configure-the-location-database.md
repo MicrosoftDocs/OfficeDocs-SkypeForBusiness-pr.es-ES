@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: Configure, rellene y publique la base de datos de ubicación E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 70158864446c12b2e7636a2962aced05d87c49a0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Configure, rellene y publique la base de datos de ubicación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: 9e97c959af9dc88ff43fd93e734e21bae051583206be3dd89390dcae59c6ca0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804090"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326606"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar la base de datos de ubicación en Skype Empresarial Server
  
-Configure, rellene y publique la base de datos de ubicación E9-1-1 en Skype Empresarial Server Telefonía IP empresarial. 
+Configure, rellene y publique la base de datos de ubicación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial. 
   
 Para habilitar clientes de modo que detecten automáticamente su ubicación dentro de una red, primero tiene que configurar la base de datos de ubicaciones. 
   
@@ -120,7 +120,7 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>Para validar direcciones ubicadas en la base de datos de ubicaciones
 
-1.  Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+1.  Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 2. Para configurar la conexión de proveedor de servicios de emergencia, ejecute los siguientes cmdlets.
     
@@ -141,11 +141,11 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
 
 Las nuevas ubicaciones agregadas a la base de datos de ubicaciones no estarán disponibles para el cliente mientras no se hayan publicado.
   
-Si usa puertas de enlace de número de identificación de ubicación de emergencia (ELIN), cargue también los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC). Probablemente el proveedor de RTC le solicite que use un formato específico para los registros de ELIN. Póngase en contacto con el proveedor de RTC para más información. Puede exportar los registros de la base de datos del servicio de información de ubicación y dar formato según sea necesario.
+Si usa puertas de enlace de número de identificación de ubicación de emergencia (ELIN), cargue también los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC). Probablemente el proveedor de RTC le solicite que use un formato específico para los registros de ELIN. Póngase en contacto con el proveedor de RTC para más información. Puede exportar los registros desde la base de datos del servicio de información de ubicación y dar formato según sea necesario.
   
 ### <a name="to-publish-the-location-database"></a>Para publicar la base de datos de ubicaciones
 
--  Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+-  Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 - Ejecute el cmdlet siguiente para publicar la base de datos de ubicaciones.
     

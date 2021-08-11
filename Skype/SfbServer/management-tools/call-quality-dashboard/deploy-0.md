@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumen: obtenga información sobre el proceso de implementación del Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 1f59209575284035fcdca52e4f18220aa05337af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: eaabfe4700a2466c469776fcd839beab358ed763ede49c96a72d0be5f10f660c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114116"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278748"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implementar panel de calidad de llamadas para Skype Empresarial Server
  
@@ -58,7 +58,7 @@ La implementación del Panel de calidad de llamadas implica configurar la infrae
 
 1. Copie el CallQualityDashboard.msi en el equipo donde se va a instalar el componente de base de datos de archivo de CQD (este es el equipo que SQL Server instalado). 
     
-2. Ejecute msi (Windows pedirá que se ejecute con privilegios de administrador, así que). 
+2. Ejecute msi (Windows pedirá que se ejecute con privilegios de administrador, así que. 
     
 3. Aceptar el CLUF.
     
@@ -68,7 +68,7 @@ La implementación del Panel de calidad de llamadas implica configurar la infrae
     
 6. En la página Configuración de archivo qoE, proporcione la siguiente información:
     
-   - **Métricas de QoE SQL Server:** SQL Server de instancia para el lugar donde se encuentra la base de datos de métricas qoE (este será el origen de datos).
+   - **Métricas de QoE SQL Server: SQL Server** nombre de instancia donde se encuentra la base de datos de métricas de QoE (este será el origen de datos).
     
    - **Nombre de archivo SQL Server QoE:** Este campo es de solo lectura y se fija en el nombre de dominio completo del equipo local. La base de datos de archivo solo se puede instalar en el equipo local.
     
@@ -78,56 +78,56 @@ La implementación del Panel de calidad de llamadas implica configurar la infrae
     
    - **Directorio de archivos de base de datos:** Ruta de acceso a donde deben colocarse los archivos de base de datos (.mdf y .ldf) de la base de datos de archivo. Debe estar en una unidad (HDD2 en la configuración de hardware recomendada) independiente del sistema operativo. Tenga en cuenta que, dado que los nombres de archivo están fijos en la instalación, para evitar posibles conflictos, se recomienda usar un directorio en blanco sin archivos.
     
-   - **Usar varias particiones:** El valor predeterminado se establece en "Partición múltiple", que requiere business intelligence edition o enterprise edition de SQL Server. En Standard edition, selecciona la opción "Partición única". Tenga en cuenta que el rendimiento del procesamiento del cubo puede afectarse si se usa una sola partición.
+   - **Usar varias particiones:** El valor predeterminado se establece en "Partición múltiple", que requiere business intelligence edition o Enterprise edición de SQL Server. En Standard edition, selecciona la opción "Partición única". Tenga en cuenta que el rendimiento del procesamiento del cubo puede afectarse si se usa una sola partición.
     
      > [!NOTE]
      > La selección de la opción Usar varias particiones no se puede cambiar una vez completada la instalación. Para cambiarla, la característica Cubo debe desinstalarse primero y volver a instalarse con la opción "Cambiar" en el Panel de control. 
   
    - **Directorio de archivos de partición:** Ruta de acceso a donde deben colocarse las particiones de la base de datos de archivos qoE. Debe estar en una unidad (HDD3 en la configuración de hardware recomendada) independiente de la unidad del sistema operativo y de SQL de archivos de registro de base de datos. Tenga en cuenta que, dado que los nombres de archivo están fijos en la instalación, para evitar posibles conflictos, se recomienda usar un directorio en blanco sin archivos.
     
-   - **SQL de trabajo del agente: nombre de usuario &amp; Contraseña:** nombre de cuenta de servicio de dominio y contraseña (enmascarada) que se usarán para ejecutar el paso "Datos de archivo qoE" del trabajo del agente de SQL Server (que ejecutará el procedimiento almacenado para capturar datos de la base de datos de métricas de QoE en la base de datos de archivo, por lo que esta cuenta debe tener acceso de lectura a la base de datos de métricas de QoE, tal como se indica en la sección Cuentas. Esta cuenta también debe tener un inicio de sesión en la instancia de QoE Archive SQL Server Instance).
+   - **SQL de trabajo del agente: nombre de usuario &amp; Contraseña:** nombre de cuenta de servicio de dominio y contraseña (enmascarada) que se usarán para ejecutar el paso "Datos de archivo qoE" del trabajo del agente de SQL Server (que ejecutará el procedimiento almacenado para capturar datos de la base de datos de métricas de QoE en la base de datos de archivo, por lo que esta cuenta debe tener acceso de lectura a la base de datos de métricas de QoE, tal como se indica en la sección Cuentas. Esta cuenta también debe tener un inicio de sesión en el archivo qoE SQL Server instancia).
     
      > [!NOTE]
-     > La cuenta en la que se ejecuta la instancia de SQL Server, como NT SERVICE\MSSQLSERVER, debe tener acceso o permiso a los directorios anteriores para que la instalación se ejecute correctamente. Para obtener más información, vea [Configure File System Permissions for Database Engine Access](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
+     > La cuenta en la que se ejecuta la instancia de SQL Server, como NT SERVICE\MSSQLSERVER, debe tener acceso o permiso a los directorios anteriores para que la instalación se ejecute correctamente. Para obtener más información, vea [Configure File System Permissions for Motor de base de datos Access](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
   
 7. Al hacer clic en siguiente, el instalador realizará comprobaciones de requisitos previos e informe si se encuentra algún problema. Cuando pasen todas las comprobaciones previas, el instalador irá a la página Configuración del cubo. 
     
     > [!NOTE]
-    > Si el instalador muestra un mensaje de advertencia de que el servicio de agente de SQL Server para la instancia de QoE Archive SQL Server actualmente no se está ejecutando, la instalación puede continuar, pero después de la instalación, asegúrese de que se está ejecutando el servicio de agente de SQL y establezca el tipo de inicio en Automático para que se ejecute el trabajo programado. 
+    > Si el instalador muestra un mensaje de advertencia de que el servicio de agente de SQL Server para la instancia de archivo de QoE SQL Server no se está ejecutando actualmente, la instalación puede continuar, pero después de la instalación, asegúrese de que se está ejecutando el servicio de agente de SQL y establezca el tipo de inicio en Automático para que se ejecute el trabajo programado. 
   
 8. En la página Configuración del cubo, proporcione la siguiente información:
     
    - **Nombre de archivo SQL Server QoE:** Este campo es de solo lectura y se fija en el nombre de dominio completo del equipo local. El cubo solo se puede instalar desde la máquina que tiene la base de datos de archivos qoE (nota. El cubo en sí puede instalarse en un equipo remoto. Vea a continuación)
     
-   - **Instancia de archivo SQL Server QoE:** SQL Server de instancia para el lugar donde se encuentra la base de datos de archivo qoE. Para especificar una instancia SQL Server predeterminada, deje este campo en blanco. Para especificar una instancia SQL Server nombre, escriba el nombre de instancia (por ejemplo, el nombre después de " \" ). Si se seleccionó el componente de archivo qoE para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de archivo de QoE.
+   - **QoE Archive SQL Server Instance:** SQL Server instance name for where the QoE Archive DB is located. Para especificar una instancia SQL Server predeterminada, deje este campo en blanco. Para especificar una instancia SQL Server nombre, escriba el nombre de instancia (por ejemplo, el nombre después de " \" ). Si se seleccionó el componente de archivo qoE para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de archivo de QoE.
     
-   - **Cube Analysis Server:** SQL Server de instancia de Analysis Service para donde se va a crear el cubo. Puede ser un equipo diferente, pero el usuario de instalación debe ser miembro de los administradores de servidor de la instancia de SQL Server Analysis Service de destino.
+   - **Cube Analysis Server: SQL Server** nombre de instancia de Analysis Service para el lugar donde se va a crear el cubo. Puede ser un equipo diferente, pero el usuario de instalación debe ser miembro de los administradores del servidor de la instancia de SQL Server Analysis Service.
     
      > [!NOTE]
      >  Para obtener más información acerca de la configuración de permisos de administrador de Analysis Services Server, vea [Grant Server Administrator Permissions (Analysis Services)](/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance?viewFallbackFrom=sql-server-ver15)
   
-   - **Usar varias particiones:** El valor predeterminado se establece en "Partición múltiple", que requiere business intelligence edition o enterprise edition de SQL Server. En Standard edition, selecciona la opción "Partición única". Tenga en cuenta que el rendimiento del procesamiento del cubo puede afectar si se usa una sola partición .
+   - **Usar varias particiones:** El valor predeterminado se establece en "Partición múltiple", que requiere business intelligence edition o Enterprise edición de SQL Server. En Standard edition, selecciona la opción "Partición única". Tenga en cuenta que el rendimiento del procesamiento del cubo puede afectar si se usa una sola partición .
     
      > [!NOTE]
      >  La selección de la opción Usar varias particiones no se puede cambiar una vez completada la instalación. Para cambiarla, la característica Cubo debe desinstalarse primero y volver a instalarse con la opción "Cambiar" en el Panel de control.
   
-   - **Usuario del cubo: nombre de usuario &amp; Contraseña: nombre** de cuenta de servicio de dominio y contraseña (enmascarada) que desencadenarán el procesamiento del cubo. Si se seleccionó el componente archivo qoE para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de archivo para el usuario de trabajo del agente de SQL, pero se recomienda especificar una cuenta de servicio de dominio diferente para que el programa de instalación pueda concederle el privilegio menos necesario.
+   - **Usuario del cubo: nombre de usuario &amp; Contraseña: nombre** de cuenta de servicio de dominio y contraseña (enmascarada) que desencadenarán el procesamiento del cubo. Si se seleccionó el componente archivo qoE para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de archivo para el usuario de trabajo de agente de SQL, pero se recomienda especificar una cuenta de servicio de dominio diferente para que el programa de instalación pueda concederle el privilegio menos necesario.
     
 9. Al hacer clic en siguiente, se realizará otra ronda de validación y se notifica cualquier problema. Una vez completada correctamente la validación, el instalador irá a la página Configuración del portal. 
     
 10. En la página Configuración del portal, proporcione la siguiente información:
     
-    - **QoE Archive SQL Server:** SQL Server de instancia para dónde se encuentra la base de datos de archivos qoE. Tenga en cuenta que, a diferencia de la página Configuración de archivo de QoE y la página Configuración del cubo, el nombre de la máquina no es fijo y debe proporcionarse. Si se seleccionó el componente de archivo qoE para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de archivo de QoE.
+    - **QoE Archive SQL Server: SQL Server** nombre de instancia donde se encuentra la base de datos de archivos qoE. Tenga en cuenta que, a diferencia de la página Configuración de archivo de QoE y la página Configuración del cubo, el nombre de la máquina no es fijo y debe proporcionarse. Si se seleccionó el componente de archivo qoE para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de archivo de QoE.
     
-    - **Cube Analysis Server:** SQL Server de instancia de Analysis Service para el lugar donde se encuentra el cubo. Si se seleccionó el componente Cube para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración del cubo.
+    - **Cube Analysis Server: SQL Server** nombre de instancia de Analysis Service para el lugar donde se encuentra el cubo. Si se seleccionó el componente Cube para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración del cubo.
     
-    - **Repositorio SQL Server:** SQL Server de instancia donde se va a crear la base de datos de repositorio. Si el nombre de instancia de SQL Server donde se encuentra la base de datos de archivos qoE se ha proporcionado anteriormente en la instalación (en otros componentes), este campo se rellenará previamente con el nombre de instancia de archivo de QoE SQL Server instancia. Puede ser cualquier SQL Server instancia.
+    - **Repositorio SQL Server: SQL Server** de instancia donde se va a crear la base de datos de repositorio. Si el nombre de instancia de SQL Server donde se encuentra la base de datos de archivos qoE se ha proporcionado anteriormente en la instalación (en otros componentes), este campo se rellenará previamente con el nombre de instancia de base de datos de archivo de QoE SQL Server. Puede ser cualquier instancia SQL Server de datos.
     
     - **Base de datos de repositorio:** De forma predeterminada, la opción se establece en "Crear nueva base de datos". Dado que no se admite la actualización de base de datos de repositorio, la única circunstancia en la que se puede usar la opción "Usar base de datos existente" es si la base de datos de repositorio existente tiene el mismo esquema que la compilación que se va a instalar.
     
     - **Usuario del grupo de aplicaciones de IIS: nombre de usuario &amp; Contraseña: la** cuenta en la que debe ejecutarse el grupo de aplicaciones de IIS. Los campos Nombre de usuario y Contraseña se atenuarán si se seleccionan cuentas del sistema integradas. Estos campos solo se habilitarán si "Other" está seleccionado en el cuadro desplegable para que el usuario pueda escribir la información de la cuenta de servicio de dominio.
     
-11. Al hacer clic en siguiente, se realizará la última ronda de validación para asegurarse de que las instancias SQL Server son accesibles con las credenciales proporcionadas y que IIS está disponible en el equipo. Una vez completada correctamente la validación, el instalador continuará con la instalación. 
+11. Al hacer clic en siguiente, se realizará la ronda final de validación para asegurarse de que las instancias de SQL Server son accesibles con las credenciales proporcionadas y que IIS está disponible en el equipo. Una vez completada correctamente la validación, el instalador continuará con la instalación. 
     
 Cuando el instalador haya terminado, lo más probable es que el trabajo SQL Server agente esté en curso, realizando la carga inicial de los datos de QoE y el procesamiento del cubo. Según la cantidad de datos de QoE, el portal no tendrá datos disponibles para su visualización todavía. Para comprobar el estado de la carga de datos y el procesamiento del cubo, vaya a  `http://<machinename>/CQD/#/Health` . 
 > [!NOTE]
@@ -219,7 +219,7 @@ En raras ocasiones, el instalador no puede crear la configuración correcta en I
     
      ![Implementar el panel de calidad de llamadas](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
-3. Para "Autenticación de Windows", haz clic en Configuración avanzada en el lado derecho.
+3. Para "Windows autenticación", haga clic en Advanced Configuración en el lado derecho.
     
      ![Implementar el panel de calidad de llamadas](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
@@ -278,7 +278,7 @@ Ejemplos
   
 - Headquarters
     
-- Oficina remota
+- Acceso Office
     
 - Ubicación de la empresa conjunta
     
@@ -388,7 +388,7 @@ Importar edificios le ofrece la capacidad de obtener información específica de
 > [!NOTE]
 > Este paso es opcional, pero recomendado.
   
-Importe subredes y asignelas a los edificios importados en el último paso. Si decidió no rellenar NetworkName, asegúrese de que cada entrada de esta tabla usa un NetworkNameID de 0. Para obtener más información SQL sintaxis y parámetros para el Panel de calidad de llamadas, vea [Use Call Quality Dashboard for Skype for Business Server](./use.md).
+Importe subredes y asignelas a los edificios importados en el último paso. Si decidió no rellenar NetworkName, asegúrese de que cada entrada de esta tabla usa un NetworkNameID de 0. Para obtener más información sobre SQL sintaxis y parámetros para el Panel de calidad de llamadas, vea [Use Call Quality Dashboard for Skype Empresarial Server](./use.md).
   
  **Sintaxis SQL ejemplo**
   

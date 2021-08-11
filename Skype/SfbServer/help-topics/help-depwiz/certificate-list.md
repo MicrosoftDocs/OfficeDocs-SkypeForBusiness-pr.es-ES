@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
-description: Para asignar un certificado, seleccione un certificado del almacén de certificados local. Haga clic en Siguiente para continuar.
-ms.openlocfilehash: b63117ceb0c9caa896ba39adf7b44e1e764d1817
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para asignar un certificado, seleccione un certificado en el almacén de certificados local. Haga clic en Siguiente para continuar.
+ms.openlocfilehash: d2a9d267542acb537f999e6946c406ca8e4c66a6617eca3da49366c9f8449814
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827380"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278888"
 ---
 # <a name="certificate-list"></a>Lista de certificados
  
-Para asignar un certificado, seleccione un certificado del almacén de certificados local. Haga clic en **Siguiente** para continuar.
+Para asignar un certificado, seleccione un certificado en el almacén de certificados local. Haga clic en **Siguiente** para continuar.
   
 El certificado o los certificados que figuran en el panel **Seleccionar un certificado en el almacén de certificados local.** son certificados válidos que pueden asignarse al uso de certificados que necesita. Haga clic en el botón **Ver detalles del certificado** para confirmar que el certificado que selecciona sea el correcto. En la pestaña **Detalles** de los datos del certificado, puede ver el nombre del sujeto y los nombres alternativos del sujeto designados tal como se configuran en el certificado.
   

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Canadá.
-ms.openlocfilehash: 29bced17ee6b0dd9c5240651728f390b2f014ac3
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: b1b28b9caa3479de81d64639a0d638e3d5eada59967e1328f806b55993363472
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669222"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279777"
 ---
 # <a name="availability-in-canada"></a>Disponibilidad en Canadá
 

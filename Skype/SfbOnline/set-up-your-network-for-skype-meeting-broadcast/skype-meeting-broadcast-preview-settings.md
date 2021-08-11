@@ -21,12 +21,12 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetingsPreview
 description: El Skype Empresarial vista previa de clientes le proporciona acceso anticipado a nuevos productos y características. Permite a su organización echar un vistazo a lo que viene, probar las nuevas características de su propio entorno y enviar comentarios antes de publicar compilaciones de productos para el público en general. Para obtener más información, vea Skype Empresarial vista previa.
-ms.openlocfilehash: d713e3225ed963beb1b201d515db558513020d39
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b372fcdbe23ed5fcd663cf7af0a0d4aea1cd684277d670308daab120625d2238
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237506"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298740"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Skype Configuración de la vista previa de difusión de reunión
 

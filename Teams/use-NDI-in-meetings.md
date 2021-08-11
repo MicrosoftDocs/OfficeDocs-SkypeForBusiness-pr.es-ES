@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e26c6a7ad92353e083c67d0dad777e980a83fdfe
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: eebbea6ce5d632d38e94465f05fd9f60a3300a4e060106e7ba2f6218433c5e8b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598469"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335820"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Use la tecnología ® NDI en Microsoft Teams
 

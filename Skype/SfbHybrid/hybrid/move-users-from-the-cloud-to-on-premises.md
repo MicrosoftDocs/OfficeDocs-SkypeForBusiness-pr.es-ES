@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Obtenga información sobre cómo mover usuarios de Teams a locales.
-ms.openlocfilehash: 782fd16fb4ad5c8567600ffcf781410a4532c213
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: 0ecfc5ab89fc8ed1e9f0a9c0d7dbc854049e3424bc6f689a329af31cde443850
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310299"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Mover usuarios de la nube a local 
 
@@ -89,6 +89,6 @@ Para quitar la asignación del usuario de TeamsUpgradePolicy, ejecute el siguien
 Como alternativa, para asignar otra instancia de TeamsUpgradePolicy que no tiene mode=TeamsOnly, puede especificar el nombre de la instancia deseada como el valor del parámetro PolicyName en el cmdlet. Para ver una lista de instancias disponibles de TeamsUpgradePolicy, ejecute Get-CsTeamsUpgradePolicy.
 
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 [Move-CsUser](/powershell/module/skype/move-csuser)

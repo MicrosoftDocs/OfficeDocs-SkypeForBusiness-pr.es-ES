@@ -16,12 +16,12 @@ f1.keywords:
 description: 'Teams caso de voz para la corporación multinacional: Audioconferencia'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9f4dd4781a8ea6a60528aaa3e4b208efc1a8f5e
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: f25fa2e81244365d1c0c3dfcacf918f1b35a6fa71d2b619eaaa55c8aa219c310
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335800"
 ---
 # <a name="contoso-case-study-audio-conferencing"></a>Caso práctico de Contoso: Audioconferencia
 

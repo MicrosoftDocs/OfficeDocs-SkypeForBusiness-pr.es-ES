@@ -18,34 +18,34 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: Obtenga información sobre cómo habilitar los servicios de voz del sistema telefónico para los usuarios de Skype Empresarial.
-ms.openlocfilehash: f1c59505073a7113407f28b7ebbe3a323724782e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Obtenga información sobre cómo habilitar Sistema telefónico de voz para los Skype Empresarial usuarios.
+ms.openlocfilehash: fea5da3bb82281c05edd73ce8e69c7164440513080b7aa804b31abc5d4c65ba7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098576"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289078"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Habilitar a los usuarios para telefonía IP empresarial en línea y Sistema telefónico en correo de voz
  
 > [!Important]
-> Skype Empresarial Online se retirará el 31 de julio de 2021 después de lo cual el servicio ya no será accesible.  Además, la conectividad RTC entre el entorno local ya no se admite a través de Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo.](/MicrosoftTeams/direct-routing-landing-page)
+> Skype Empresarial Online se retirará el 31 de julio de 2021 después de lo cual el servicio ya no será accesible.  Además, ya no se admite la conectividad RTC entre el entorno local mediante Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
 
-Obtenga información sobre cómo habilitar los servicios de voz del sistema telefónico para los usuarios de Skype Empresarial.
+Obtenga información sobre cómo habilitar Sistema telefónico de voz para los Skype Empresarial usuarios.
   
-El último paso para implementar el sistema telefónico con conectividad RTC local es habilitar a los usuarios para el sistema telefónico y el correo de voz. Para habilitar estas funcionalidades, debe ser un usuario con el rol Administrador global y poder ejecutar PowerShell remoto. Debe seguir los pasos descritos en este tema para todas las cuentas de usuario que aún no tienen Telefonía IP empresarial para Skype Empresarial Online.
+El último paso en la implementación de Sistema telefónico con conectividad RTC local es habilitar a los usuarios para Sistema telefónico correo de voz. Para habilitar estas funcionalidades, debe ser un usuario con el rol Administrador global y poder ejecutar PowerShell remoto. Debe seguir los pasos de este tema para todas las cuentas de usuario que aún no tienen Telefonía IP empresarial habilitadas para Skype Empresarial Online.
   
-## <a name="enable-phone-system-voice-services"></a>Habilitar servicios de voz del sistema telefónico
+## <a name="enable-phone-system-voice-services"></a>Habilitar Sistema telefónico de voz
 
-Para habilitar un usuario para voz del sistema telefónico y correo de voz, deberá realizar algunos pasos iniciales, como comprobar si Skype Empresarial Online Connector se implementa en los servidores y habilitar a los usuarios para el correo de voz hospedado.
+Para habilitar un usuario para Sistema telefónico Voice y correo de voz, deberá realizar algunos pasos iniciales, como comprobar si Skype Empresarial Online Connector se implementa en los servidores y habilitar a los usuarios para el correo de voz hospedado.
   
-### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Para habilitar a los usuarios para voz y correo de voz del sistema telefónico
+### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Para habilitar a los usuarios para Sistema telefónico voz y correo de voz
 
 > [!NOTE]
-> Skype Empresarial Online Connector forma parte actualmente del último módulo de PowerShell de Teams.
-> Si usa la versión pública más reciente de PowerShell de [Teams,](https://www.powershellgallery.com/packages/MicrosoftTeams/)no es necesario instalar Skype Empresarial Online Connector.
+> Skype Empresarial Online Connector forma parte actualmente de la versión Teams módulo de PowerShell.
+> Si usa la versión pública Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)más reciente, no es necesario instalar el Skype Empresarial Online Connector.
 
-1. Antes de empezar, compruebe que el módulo de PowerShell de Teams está instalado en los servidores front-end. Si no es así, instale con las instrucciones de Instalación del módulo [de PowerShell de Teams](/microsoftteams/teams-powershell-install).
+1. Antes de empezar, compruebe que el Teams de PowerShell está instalado en los servidores front-end. Si no es así, instale con las instrucciones Teams [instalación del módulo de PowerShell](/microsoftteams/teams-powershell-install).
     
 2. Inicie Windows PowerShell como administrador.
     
@@ -75,30 +75,30 @@ Para habilitar un usuario para voz del sistema telefónico y correo de voz, debe
     > [!NOTE]
     > También puede especificar un usuario por su dirección SIP, nombre principal de usuario (UPN), nombre de dominio y nombre de usuario (dominio\nombredeusuario) y nombre para mostrar en Active Directory ("Bob Kelly"). 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>Actualizar el URI de línea y el plan de marcado para los usuarios habilitados para el sistema telefónico
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>Actualizar el URI de línea y el plan de marcado para los usuarios habilitados para Sistema telefónico
 
-En esta sección se describe cómo actualizar el URI de línea y el plan de marcado para los usuarios habilitados para sistema telefónico. 
+En esta sección se describe cómo actualizar el URI de línea y el plan de marcado para los usuarios habilitados para Sistema telefónico. 
   
 ### <a name="to-update-the-line-uri"></a>Para actualizar el URI de línea
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Use el menú Inicio o el acceso directo de escritorio para abrir el Panel de control de Skype Empresarial Server.
+2. Use el acceso directo menú Inicio o de escritorio para abrir el panel de control Skype Empresarial Server usuario.
     
     > [!NOTE]
-    > También puede abrir una ventana del explorador y, a continuación, escribir la dirección URL del administrador para abrir el Panel de control de Skype Empresarial Server. 
+    > También puede abrir una ventana del explorador y, a continuación, escribir la dirección URL del administrador para abrir el panel Skype Empresarial Server control. 
   
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
 4. En el cuadro **Buscar usuarios**, escriba la primera parte del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea de la cuenta de usuario que desee habilitar y, a continuación, haga clic en **Buscar**.
     
-5. En la tabla, haga clic en la cuenta de usuario de Skype Empresarial que desea cambiar el URI de línea.
+5. En la tabla, haga clic en Skype Empresarial cuenta de usuario que desea cambiar el URI de línea.
     
 6. Haga **clic en URI** de línea y escriba un número de teléfono único normalizado (por ejemplo, tel:+14255550200). A continuación, haga clic **en Confirmar**.
     
 ## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Actualizar el plan de marcado con cmdlets de Windows PowerShell locales
 
-Puede asignar planes de marcado por usuario con Windows PowerShell y el cmdlet [Grant-CsDialPlan.](/powershell/module/skype/grant-csdialplan?view=skype-ps) Puede ejecutar este cmdlet desde Skype Empresarial Server 2015 o desde una sesión remota de Windows PowerShell.
+Puede asignar planes de marcado por usuario con Windows PowerShell y el cmdlet [Grant-CsDialPlan.](/powershell/module/skype/grant-csdialplan?view=skype-ps) Puede ejecutar este cmdlet desde el Skype Empresarial Server 2015 o desde una sesión remota de Windows PowerShell.
   
 ### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>Para asignar un plan de marcado por usuario a un solo usuario
 
@@ -129,12 +129,12 @@ Puede asignar planes de marcado por usuario con Windows PowerShell y el cmdlet [
 
 ## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>Actualizar las directivas de enrutamiento de voz con cmdlets Windows PowerShell locales
 
-En esta sección se describe cómo actualizar las directivas de enrutamiento de voz para los usuarios habilitados para el sistema telefónico.
+En esta sección se describe cómo actualizar las directivas de enrutamiento de voz para los usuarios habilitados para Sistema telefónico.
   
-Los usuarios del sistema telefónico deben tener asignada una directiva de enrutamiento de voz para que las llamadas se enruten correctamente. Esto difiere de los usuarios locales de voz empresarial que requieren que se les asigne una directiva de voz para permitir que las llamadas se enruten correctamente. La directiva de enrutamiento de voz debe contener usos de RTC que definan las llamadas y rutas autorizadas para los usuarios del sistema telefónico. Puede copiar estos usos de RTC de directivas de voz existentes a nuevas directivas de enrutamiento de voz. Para obtener más información, [vea New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Sistema telefónico usuarios deben tener asignada una directiva de enrutamiento de voz para que las llamadas se enruten correctamente. Esto difiere de los usuarios locales de voz empresarial que requieren que se les asigne una directiva de voz para permitir que las llamadas se enruten correctamente. La directiva de enrutamiento de voz debe contener usos de RTC que definan las llamadas y rutas autorizadas para Sistema telefónico usuarios. Puede copiar estos usos de RTC de directivas de voz existentes a nuevas directivas de enrutamiento de voz. Para obtener más información, [vea New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> A todos los usuarios del sistema telefónico se les asigna la misma directiva de voz en línea denominada BusinessVoice que define las características de llamada permitidas; por ejemplo, Permitir anillo simultáneo. 
+> A Sistema telefónico usuarios se les asigna la misma directiva de voz en línea denominada BusinessVoice que define las características de llamada permitidas; por ejemplo, Permitir anillo simultáneo. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Para asignar una directiva de enrutamiento de voz por usuario a un solo usuario
 

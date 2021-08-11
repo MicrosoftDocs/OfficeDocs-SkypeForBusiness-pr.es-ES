@@ -11,53 +11,53 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 'Resumen: obtenga información sobre la característica Calificar mi llamada en Skype Empresarial Server.'
-ms.openlocfilehash: 597a8213576e7aa2316ace68ed91288475df2a0d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn about the Rate My Call feature in Skype Empresarial Server.'
+ms.openlocfilehash: 6623729dced8128e010ac0a61dfd2fccd95f1c558deda1342b0db92936f0b31f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814340"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326436"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Calificar mi llamada en Skype Empresarial Server
 
 **Resumen:** Obtenga información sobre la característica Calificar mi llamada en Skype Empresarial Server.
 
-Rate My Call was a new feature in Skype for Business 2015 and 2016 clients on Windows that provides enterprises a way to get feedback from their end-users.
+Rate My Call fue una nueva característica de Skype Empresarial clientes de 2015 y 2016 en Windows que proporciona a las empresas una forma de obtener comentarios de sus usuarios finales.
 
-La ventana Calificar mi llamada ofrece un sistema de clasificación "star" y tokens predefinidos para llamadas de audio y vídeo. Además, los administradores pueden habilitar un campo personalizado para proporcionar comentarios.
+La ventana Calificar mi llamada ofrece un sistema de clasificación "estrella" y tokens predefinidos para llamadas de audio y vídeo. Además, los administradores pueden habilitar un campo personalizado para proporcionar comentarios.
 
-Los datos recopilados de Calificar mi llamada no se incluyen actualmente en ningún informe de supervisión existente, pero tiene un informe de supervisión independiente. Los datos se recopilan SQL tablas a las que se puede tener acceso ejecutando SQL consultas.
+Los datos recopilados de Mi llamada no se incluyen actualmente en ningún informe de supervisión existente, pero tiene un informe de supervisión independiente. Los datos se recopilan SQL tablas a las que se puede obtener acceso ejecutando SQL consultas.
 
 ## <a name="rate-my-call-prerequisites"></a>Calificar mis requisitos previos de llamada
 
-Antes de que los usuarios de la implementación de Skype Empresarial Server puedan acceder a la funcionalidad De mi llamada, se debe implementar y configurar el siguiente conjunto de componentes:
+Para que los usuarios de la implementación Skype Empresarial Server puedan tener acceso a la funcionalidad de Tasar mi llamada, se debe implementar y configurar el siguiente conjunto de componentes:
 
--  Debe tener instalado Skype Empresarial Server (versión 9160 o posterior).
+-  Debe tener Skype Empresarial Server instalado (versión 9160 o posterior).
 
-- Haga que los usuarios instalen y actualicen a la versión más reciente de Skype Empresarial y también pídales que usen la interfaz de usuario de Skype Empresarial.
+- Pida a los usuarios que instalen y actualicen a la versión más reciente de Skype Empresarial y también pídales que usen la interfaz Skype Empresarial usuario.
 
-- Los usuarios deben estar en el grupo de servidores front-end de Skype Empresarial Server.
+- Los usuarios deben estar en el grupo Skype Empresarial Server front-end.
 
-- Debe tener una base de datos de supervisión de Skype Empresarial Server implementada y asociada a los grupos de Skype Empresarial Server.
+- Debe tener una base de Skype Empresarial Server de supervisión implementada y asociada a los grupos Skype Empresarial Server usuario.
 
 - Se recomienda implementar el Panel de calidad de llamadas (CQD).
 
-## <a name="configure-rate-my-call"></a>Configurar La velocidad de mi llamada
+## <a name="configure-rate-my-call"></a>Configurar la velocidad de mi llamada
 
 La característica Calificar mi llamada está habilitada de forma predeterminada en la directiva de cliente con la siguiente configuración:
 
-- Porcentaje de presentación de mi llamada: 10 %
+- Rate My Call Display Percentage - 10%
 
-- Calificar mi llamada permitir comentarios de usuario personalizados: deshabilitado
+- Calificar mi llamada Permitir comentarios de usuario personalizados: deshabilitado
 
-Sin embargo, no es necesario realizar ninguna acción para habilitar la característica base, pero si quieres comentarios personalizados, deberás habilitarla por separado. El siguiente Windows PowerShell cmdlet es un ejemplo de cómo habilitar los comentarios personalizados del usuario final y cambiar el intervalo del 10 % al 80 %.
+Sin embargo, no es necesario realizar ninguna acción para habilitar la característica base, pero si quieres comentarios personalizados, deberás habilitarla por separado. El siguiente cmdlet Windows PowerShell es un ejemplo de habilitar los comentarios personalizados del usuario final y cambiar el intervalo del 10 % al 80 %.
 
 ```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a>Obtener acceso a la tasa de datos de mis llamadas
+## <a name="accessing-rate-my-call-data"></a>Acceso a la tasa de datos de mis llamadas
 
 Los datos de los usuarios se recopilan en dos tablas de la base de datos de supervisión.
 
@@ -65,13 +65,13 @@ Los datos de los usuarios se recopilan en dos tablas de la base de datos de supe
 
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** - Esta tabla contiene definiciones de token.
 
-Las definiciones de tokens se codifican de la siguiente manera:
+Las definiciones de token se codifican de la siguiente manera:
 
 |||
 |:-----|:-----|
-|1   <br/> |DistortedSpeech  <br/> |
-|2   <br/> | ElectronicFeedback <br/> |
-|3   <br/> | BackgroundNoise <br/> |
+|1  <br/> |DistortedSpeech  <br/> |
+|2  <br/> | ElectronicFeedback <br/> |
+|3  <br/> | BackgroundNoise <br/> |
 |4   <br/> |MuffledSpeech  <br/> |
 |5   <br/> |Echo  <br/> |
 | 21  <br/> | FrozenVideo <br/> |
@@ -108,9 +108,9 @@ Las definiciones de tokens se codifican de la siguiente manera:
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
 
- **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Esta tabla contiene los resultados de sondeo de la votación "Estrella" y los comentarios de los clientes si están habilitados.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Esta tabla contiene los resultados de sondeo de la votación "Star" y los comentarios de los clientes si están habilitados.
 
-Se puede llamar a los datos de las tablas mediante una consulta de selección de **\* [Table.Name]** o mediante Microsoft SQL Server Management Studio.
+Se puede llamar a los datos de las tablas mediante una selección de una consulta **\* [Table.Name]** o mediante Microsoft SQL Server Management Studio.
 
 Se pueden SQL siguientes consultas:
 
@@ -188,9 +188,9 @@ SELECT
             Caller.UserKey = CallerCqf.FromURI
 ```
 
-## <a name="updating-token-definitions"></a>Actualización de definiciones de tokens
+## <a name="updating-token-definitions"></a>Actualización de definiciones de token
 
-The latest Skype for Business clients report new problem token IDs ( \> 100) that may not be present in your [QoeMetrics].[ dbo]. Tabla [CallQualityFeedbackTokenDef]. Para actualizar la tabla de base de datos con las definiciones de token más recientes, el siguiente comando SQL puede ejecutarse en la base de datos de supervisión mediante Microsoft SQL Server Management Studio. Este comando reemplazará todas las entradas de [QoeMetrics]. [dbo]. Tabla [CallQualityFeedbackTokenDef].
+Los últimos Skype Empresarial informan de nuevos identificadores de token de problema ( 100) que pueden no estar \> presentes en su [QoeMetrics].[ dbo]. Tabla [CallQualityFeedbackTokenDef]. Para actualizar la tabla de base de datos con las definiciones de token más recientes, el siguiente comando SQL puede ejecutarse en la base de datos de supervisión mediante Microsoft SQL Server Management Studio. Este comando reemplazará todas las entradas de [QoeMetrics]. [dbo]. Tabla [CallQualityFeedbackTokenDef].
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

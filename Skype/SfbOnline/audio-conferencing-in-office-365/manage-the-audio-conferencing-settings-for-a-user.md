@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Como administrador de Microsoft 365 o Office 365, puede editar la configuración de audioconferencia en línea de Skype Empresarial (como el proveedor, número de pago o gratuito predeterminado, id. de conferencia o PIN) para un usuario individual de su organización. '
-ms.openlocfilehash: f31648c9b2d50f595dc113b65318f9c6f9204e24
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 648bb27ce8e6745d765b8fc400494188fd43b5e866ecf0cf927f36fd4d7ca676
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237306"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335720"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Administrar la configuración de conferencias de audio para un usuario en Skype Empresarial Online
 

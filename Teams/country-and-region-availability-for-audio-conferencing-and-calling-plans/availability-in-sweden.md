@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Suecia.
-ms.openlocfilehash: 4be5746cf2449ded9ffb80f633a407b3a0da2199
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 52fdebc33f561cfb8921dc1f1d0371997c856050c138b3f5fb97fb4fe97e5b7b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104156"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279757"
 ---
 # <a name="availability-in-sweden"></a>Disponibilidad en Suecia
 

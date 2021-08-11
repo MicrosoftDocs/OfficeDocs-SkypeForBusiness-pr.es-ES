@@ -17,20 +17,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: Lea este tema para obtener información sobre cómo planear la apariencia de línea compartida (SLA) en Skype Empresarial Server 2015, actualización acumulativa de noviembre de 2015.
-ms.openlocfilehash: d7fa13b36c232e37c79e8509de71b4ac29ceff72
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cabd5a9f6780371a8345bd95c5686829e74ad3c18e875ec85decf6ab0ca2f789
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813350"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289728"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Planear la apariencia de línea compartida en Skype Empresarial Server 2015
  
 Lea este tema para obtener información sobre cómo planear la apariencia de línea compartida (SLA) en Skype Empresarial Server 2015, actualización acumulativa de noviembre de 2015. 
   
-La apariencia de línea compartida es una característica de Skype Empresarial para controlar varias llamadas en un número específico denominado número compartido. Sla can configure any enterprise voice enabled Skype for Business user as a shared number with multiple lines to respond to multiple calls. En realidad, las llamadas no se reciben en el número compartido, sino que se reenvían a los usuarios que actúan como delegados del número compartido. Cualquiera de los delegados puede recibir la llamada mientras que el resto de los delegados recibe una notificación en su teléfono sobre quién ha recibido la llamada y qué línea está ocupada como resultado. Tanto el número de líneas como los delegados se pueden configurar para un número compartido en SLA. Además, las opciones avanzadas, como BusyOption (lo que sucede en una situación en la que todas las líneas están ocupadas) y MissedCallOption (el caso en el que ninguno de los delegados selecciona una llamada), también se pueden configurar para un número compartido.
+La apariencia de línea compartida es una característica Skype Empresarial para controlar varias llamadas en un número específico denominado número compartido. SLA puede configurar cualquier voz de empresa habilitada Skype Empresarial usuario como un número compartido con varias líneas para responder a varias llamadas. En realidad, las llamadas no se reciben en el número compartido, sino que se reenvían a los usuarios que actúan como delegados del número compartido. Cualquiera de los delegados puede recoger la llamada mientras el resto de los delegados recibe una notificación en su teléfono sobre quién ha recogido la llamada y qué línea se ha ocupado como resultado. Tanto el número de líneas como los delegados se pueden configurar para un número compartido en SLA. Además, las opciones avanzadas, como BusyOption (lo que sucede en una situación en la que todas las líneas están ocupadas) y MissedCallOption (el caso en el que ninguno de los delegados recoge una llamada), también se pueden configurar para un número compartido.
   
-Sla is supported only on the following phone devices (it is not supported for Skype for Business clients on computers, mobile phones, or other devices): 
+SLA solo se admite en los siguientes dispositivos telefónicos (no se admite para Skype Empresarial en equipos, teléfonos móviles u otros dispositivos): 
   
 - Polycom VVX300 con actualización de firmware 5.4.1
     
@@ -42,7 +42,7 @@ Sla is supported only on the following phone devices (it is not supported for Sk
     
 SLA es una nueva característica de Skype Empresarial Server, actualización acumulativa de noviembre de 2015. 
   
-Para obtener información acerca de la implementación de SLA, vea [Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
+Para obtener información sobre la implementación de SLA, vea [Deploy Shared Line Appearance in Skype Empresarial Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
   
 ## <a name="feature-list"></a>Lista de características
 
@@ -52,12 +52,12 @@ La configuración de un grupo de SLA permite lo siguiente:
     
 - Los delegados pueden retener y recoger llamadas.
     
-- Los delegados pueden transferir llamadas a un número fuera del grupo de SLA.
+- Los delegados pueden transferir llamadas a un número fuera del grupo sla.
     
-- Los delegados pueden ver cuántas llamadas hay actualmente en el número compartido y ver el estado de cada una de esas llamadas.
+- Los delegados pueden ver cuántas llamadas se encuentran actualmente en el número compartido y ver el estado de cada una de esas llamadas.
     
-- Puede configurar un número máximo de llamadas simultáneas para el número compartido. También puede establecer cómo desea que se controle otras llamadas después de alcanzar este máximo. El exceso de llamadas puede rechazarse con una señal de disponibilidad, reenviarse a un número alternativo o reenviarse al correo de voz.
+- Puede configurar un número máximo de llamadas simultáneas para el número compartido. También puede establecer cómo desea que se controle el número de llamadas adicionales después de alcanzar este máximo. El exceso de llamadas puede rechazarse con una señal de disponibilidad, reenviarse a un número alternativo o reenviarse al correo de voz.
     
-- Puede configurar cómo desea que se controle las llamadas perdidas (las llamadas no se seleccionan después de un tiempo determinado). Si habilita el correo de voz para la identidad del grupo, las llamadas perdidas se enviarán automáticamente al correo de voz. Si no tiene habilitado el correo de voz para la identidad del grupo (número compartido), puede elegir que las llamadas perdidas se rechacen con una señal de disponibilidad, se reenvían a un número alternativo o se desconecten.
+- Puede configurar cómo desea que se controle las llamadas perdidas (llamadas no recogidas después de un tiempo determinado). Si habilita el correo de voz para la identidad del grupo, las llamadas perdidas irán automáticamente al correo de voz. Si no tiene habilitado el correo de voz para la identidad del grupo (número compartido), puede elegir que las llamadas perdidas se rechacen con una señal de disponibilidad, se reenvían a un número alternativo o se desconectaran.
     
 

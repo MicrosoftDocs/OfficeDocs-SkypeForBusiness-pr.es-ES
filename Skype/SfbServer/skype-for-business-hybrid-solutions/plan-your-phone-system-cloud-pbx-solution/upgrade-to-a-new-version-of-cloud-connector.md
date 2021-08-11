@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Obtenga información sobre cómo actualizar la implementación de Cloud Connector Edition.
-ms.openlocfilehash: fea78c6b1b6ba3b2e644fef71d78b94aa3a244b7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2670557f3f5ab44545c511b759971a457bd37e333d01b323ad6cc35d82526858
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109136"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279976"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Actualizar a una versión nueva de Cloud Connector
 
 > [!Important]
-> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams enrutamiento [directo](/MicrosoftTeams/direct-routing-landing-page).
  
 Obtenga información sobre cómo actualizar la implementación de Cloud Connector Edition.
   
-Si ha configurado una cuenta de inquilino de administración en línea y ha habilitado actualizaciones automáticas, la implementación existente de Skype Empresarial Cloud Connector Edition se actualizará automáticamente a la versión más reciente, según la configuración automática de la ventana de tiempo de actualización. También puede realizar una actualización manual. 
+Si ha configurado una cuenta de inquilino de administración en línea y ha habilitado actualizaciones automáticas, la implementación existente de Skype for Business Edición de conector de nube se actualizará a la versión más reciente automáticamente, según la configuración de la ventana de tiempo de actualización automática. También puede realizar una actualización manual. 
   
 Cloud Connector Edition versiones 1.4.1 y posteriores realizan actualizaciones automáticas de forma predeterminada. Si desea actualizar manualmente a la versión más reciente (2.1), consulte [Upgrade a single site to a new version](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) later in this topic.
   
@@ -54,11 +54,11 @@ La actualización automática requiere que se esté ejecutando el servicio de Cl
     
   - Descargue y compruebe el archivo de versión desde el sitio de descarga.
     
-  - Descargue el archivo .msi de la nueva versión. 
+  - Descargue la nueva versión .msi archivo. 
     
   - Desinstale el archivo msi antiguo; instalar el nuevo archivo msi.
     
-  - Descargue la nueva versión de los bits de Skype Empresarial.
+  - Descargue la nueva versión de Skype Empresarial bits.
     
   - Registre el dispositivo llamando a Register-CcAppliance.
     
@@ -106,7 +106,7 @@ Si solo hay un dispositivo en el sitio que desea actualizar, haga lo siguiente:
 
 Si hay más de un dispositivo en el sitio, siga los pasos anteriores para actualizar cada dispositivo uno por uno.
   
-Si desea actualizar las credenciales de administrador de dominio, administrador de máquina virtual, administrador de modo seguro y administrador de inquilinos, puede ejecutar el cmdlet con el parámetro  _UpdateAllCredentials_ para restablecer todas las credenciales:
+Si desea actualizar las credenciales de administrador de dominio, de máquina virtual, de modo Caja fuerte y de administrador de inquilinos, puede ejecutar el cmdlet con el parámetro _UpdateAllCredentials_ para restablecer todas las credenciales:
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials

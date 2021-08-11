@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
-description: tblPrincipalMeta contiene las entidades de seguridad que deben actualizarse desde los Servicios de dominio de Active Directory.
-ms.openlocfilehash: e10b56a8a3a1c25f73cd1a07f4fdcde18c6f1215
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblPrincipalMeta contiene las entidades de seguridad que deben actualizarse desde servicios de dominio de Active Directory.
+ms.openlocfilehash: a2cc7ef5313be8abdf50c6cebc5bb8999bf153eeeba0a188cd2d34d2c4608546
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831550"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289428"
 ---
 # <a name="tblprincipalmeta"></a>tblPrincipalMeta
  
-tblPrincipalMeta contiene las entidades de seguridad que deben actualizarse desde los Servicios de dominio de Active Directory.
+tblPrincipalMeta contiene las entidades de seguridad que deben actualizarse desde servicios de dominio de Active Directory.
   
 **Columns**
 
@@ -32,7 +32,7 @@ tblPrincipalMeta contiene las entidades de seguridad que deben actualizarse desd
 |prinAffiliationsDirty  <br/> |bit, no NULL  <br/> |True si hay que actualizar las afiliaciones de la entidad de seguridad.  <br/> |
 |prinAttributesDirty  <br/> |bit, no NULL  <br/> |True si hay que actualizar los atributos de la entidad de seguridad.  <br/> |
 |prinDeleted  <br/> |bit, no NULL  <br/> |True si la entidad de seguridad se ha eliminado.  <br/> |
-|tryCount  <br/> |entero  <br/> |Número de intentos realizados hasta la fecha para actualizar la entidad de seguridad de AD DS.  <br/> |
+|tryCount  <br/> |Entero  <br/> |Número de intentos realizados hasta la fecha para actualizar la entidad de seguridad de AD DS.  <br/> |
 |lastTry  <br/> |datetime  <br/> |Marca de tiempo del último intento por actualizar la entidad de seguridad. Puede ser null si aún no se ha realizado ninguna actualización.  <br/> |
 |nextTry  <br/> |datetime  <br/> |Marca de tiempo de la siguiente actualización programada. Puede ser NULL si no se han programado más actualizaciones.  <br/> |
    
