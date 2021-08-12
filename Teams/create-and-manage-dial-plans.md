@@ -21,16 +21,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el Microsoft Teams de administración o Windows PowerShell para crear y administrar planes de marcado (planes de marcado de llamadas RTC).
-ms.openlocfilehash: b578533bfd2b903fd29563897a2f9ed917b369c38955e631b4aba0cefaa025fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849205"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
-Después de planear los planes de marcado para su organización y de averiguar todas las reglas de normalización que deben crearse para el enrutamiento de llamadas, estará listo para crear los planes de marcado. Con una cuenta de administrador que tenga una licencia de Teams válida, puede usar el centro de administración de Microsoft Teams o Windows PowerShell para crear y administrar planes de marcado.  
+Después de planear los planes de marcado para su organización y de averiguar todas las reglas de normalización que deben crearse para el enrutamiento de voz, ya está listo para crear los planes de marcado. Con una cuenta de administrador que tenga una licencia de Teams válida, puede usar el centro de administración de Microsoft Teams o Windows PowerShell para crear y administrar planes de marcado.  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 

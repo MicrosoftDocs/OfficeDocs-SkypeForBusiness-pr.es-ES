@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre Teléfono Microsoft system direct routing le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Teléfono Microsoft system.
-ms.openlocfilehash: 54c3ad54bfe3ba677ed9e087f9b30bb19fd21e06b030faf8c1c332fbc1cfd500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f8c7fae1cd8853400ce102b453758780da6ac27351ad1879fc0824c4a1e8d2d
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848935"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -242,7 +242,7 @@ Debe abrir puertos para todos estos intervalos de direcciones IP en el firewall 
 > [!IMPORTANT]
 > Como parte de Teams expansión y mejora del servicio de enrutamiento directo, hemos implementado nuevas instancias de infraestructura de enrutamiento directo en Japón en mayo de 2021. Esto se refleja en dos direcciones IP adicionales (52.114.36.156 y 52.114.32.169) a las que se resolverán los siguientes FQDN para los clientes japoneses: sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com y sip3.pstnhub.microsoft.com. Debe asegurarse de que estas dos direcciones IP (52.114.36.156 y 52.114.32.169) están permitidas en las listas de control de acceso IP (ACL) y los puertos están abiertos para todas estas direcciones IP del firewall para permitir el tráfico entrante y saliente a y desde las direcciones para la señalización.
 
-### <a name="office-365-gcch-and-dod-environment"></a>Office 365 Entorno de GCCH y DoD
+### <a name="office-gcc-dod-environment"></a>Office GCC doD
 
 El punto de conexión para enrutamiento directo es el siguiente FQDN:
 
@@ -262,7 +262,7 @@ El punto de conexión para enrutamiento directo es el siguiente FQDN:
 
 El fqdn sip.pstnhub.gov.teams.microsoft.us se resolverá en una dirección IP de la siguiente subred:
 
-- 52.127.64.0/21
+- 52.127.88.0/21
 
 Debe abrir puertos para todas estas direcciones IP en el firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización. Si el firewall admite nombres DNS, el FQDN **sip-all.pstnhub.gov.teams.microsoft.us** se resuelve en todas estas direcciones IP. Este FQDN también se puede usar como FQDN federado para la clasificación de llamadas entrantes.
 

@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) de este Microsoft SQL Server y la instancia de SQL Server en ese servidor, y los grupos o servidores que usan este SQL Server. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 4c152cdcc9fd29f25573749934d7a7197360be9d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1abf5a3cf011d90f8efc81531d5f7fa052a57941ec7484b00435d285364ec134
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338168"
 ---
 # <a name="sql-instance-scope-node"></a>Nodo de ámbito de instancia SQL
  
 Este nodo muestra el nombre de dominio completo (FQDN) de este Microsoft SQL Server y la instancia de SQL Server en ese servidor, y los grupos o servidores que usan este SQL Server. Puede realizar las acciones siguientes:
   
-- **Editar propiedades**. Abre **la** página Editar propiedades de este servidor, donde puede cambiar el FQDN del servidor (si la topología aún no está publicada) y la instancia de SQL Server que se va a usar.
+- **Editar propiedades**. Abre la **página Editar** propiedades de este servidor, donde puede cambiar el FQDN del servidor (si la topología aún no está publicada) y la instancia de SQL Server que se va a usar.
     
 - **Eliminar** Elimina el servidor de la topología.
     

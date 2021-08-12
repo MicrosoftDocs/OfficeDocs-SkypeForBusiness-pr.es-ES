@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Obtenga información sobre las llamadas de emergencia, incluida la información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: 4f2ef86d05537a147a459fd6bc121f0680b534bd
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: e6904139d73b8fe671c8013af7cac5917fe88305d81af5fd33501d92b81e2d61
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031606"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316586"
 ---
 # <a name="manage-emergency-calling"></a>Administrar llamadas de emergencia
 
@@ -133,7 +133,7 @@ Para obtener más información, vea:
 
 - [Planes de llamadas](calling-plan-landing-page.md)
 
-- [Diferentes tipos de números de teléfono que se usan para planes de llamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 - [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 

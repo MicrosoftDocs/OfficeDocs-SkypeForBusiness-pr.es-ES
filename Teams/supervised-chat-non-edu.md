@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre los chats supervisados para inquilinos no educativos en Microsoft Teams reuniones.
-ms.openlocfilehash: 9d3e7707632a384f82a89a965f6db51f786f9d66
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: 7876267b7c107c0be3fa920d4807408342e36a9944eca13a6ced70d5eb7210ae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203736"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337908"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Chats supervisados para inquilinos no educativos
 

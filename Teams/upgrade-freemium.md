@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c4b95081be4c7a0e900099dd4c81a1807a30bfb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c64e4ffc576bea4a68c8eac41d0cb533aad7e9fa55a97dd5f59d9d2fcb54df27
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337898"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Actualizar Microsoft Teams versión de suscripción gratuita
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumen: revise las consideraciones de equilibrio de carga antes de implementar Skype Empresarial Server.'
-ms.openlocfilehash: 7a3851b73443db6be12ef2fd1a875b034eafff74
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 867c9454aec26e3803447dec8565f210b243db6cf5a2997d18ca08e363eb6c43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095014"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338078"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de equilibrio de carga para Skype Empresarial
  
@@ -39,17 +39,17 @@ Decida por sí mismo qué solución de equilibrio de carga es adecuada para cada
     
 Si decide usar el equilibrio de carga DNS para un grupo pero aún tiene que implementar equilibradores de carga de hardware para tráfico como el tráfico HTTP, la administración de los equilibradores de carga de hardware será mucho más sencilla. Por ejemplo, la configuración del equilibrador de carga de hardware será más sencilla, ya que solo administrará el tráfico HTTP y HTTPS, mientras que el equilibrio de carga dns administrará todos los demás protocolos. Para obtener información detallada, consulte [DNS Load Balancing](load-balancing.md#BKMK_DNSLoadBalancing). 
   
-Para el tráfico de servidor a servidor, Skype Empresarial Server usa el equilibrio de carga para topologías. Los servidores leen la topología publicada en el almacén de administración central para obtener los FQDN de los servidores de la topología y distribuir automáticamente el tráfico entre los servidores. Los administradores no necesitan configurar ni administrar este tipo de equilibrio de carga. 
+Para el tráfico de servidor a servidor, Skype Empresarial Server el equilibrio de carga para topologías. Los servidores leen la topología publicada en el almacén de administración central para obtener los FQDN de los servidores de la topología y distribuir automáticamente el tráfico entre los servidores. Los administradores no necesitan configurar ni administrar este tipo de equilibrio de carga. 
   
 Si usa el equilibrio de carga DNS y necesita bloquear el tráfico a un equipo específico, no basta con quitar las entradas de dirección IP del FQDN del grupo. También debe quitar la entrada DNS del equipo. 
   
 ## <a name="hardware-load-balancer-requirements"></a>Requisitos del equilibrador de carga de hardware
 
-La topología perimetral consolidada a escala de Skype Empresarial Server está optimizada para el equilibrio de carga DNS para nuevas implementaciones federadas principalmente con otras organizaciones que usan Skype Empresarial Server o Lync Server. En caso de que se necesite una gran disponibilidad en cualquiera de los siguientes escenarios, se deberá usar un equilibrador de carga de hardware en grupos de servidores perimetrales: 
+La Skype Empresarial Server perimetral consolidada a escala está optimizada para el equilibrio de carga DNS para nuevas implementaciones federadas principalmente con otras organizaciones que usan Skype Empresarial Server o Lync Server. En caso de que se necesite una gran disponibilidad en cualquiera de los siguientes escenarios, se deberá usar un equilibrador de carga de hardware en grupos de servidores perimetrales: 
   
 - Federación con organizaciones que usan Office Communications Server 2007 R2 o Office Communications Server 2007
     
-- Mensajería unificada de Exchange para usuarios remotos que usan mensajería unificada de Exchange antes de Exchange 2010 con SP1
+- Exchange Mensajería unificada para usuarios remotos que usan Exchange um antes de Exchange 2010 con SP1
     
 - Conectividad con usuarios de mensajería instantánea pública
     
@@ -60,9 +60,9 @@ La topología perimetral consolidada a escala de Skype Empresarial Server está 
 > Si usa un equilibrador de carga de hardware, el equilibrador de carga que se haya implementado para las conexiones con la red interna deberá configurarse de modo que solo equilibre la carga del tráfico de los servidores que ejecuten el servicio perimetral de acceso y el servicio perimetral A/V. No puede equilibrar la carga del tráfico al servicio perimetral de conferencia web interno o al servicio proxy XMPP interno. 
   
 > [!NOTE]
-> La NAT de devolución directa de servidor (DSR) no se admite con Skype Empresarial Server. 
+> La NAT de devolución directa del servidor (DSR) no se admite con Skype Empresarial Server. 
   
-Para determinar si el equilibrador de carga de hardware admite las características necesarias necesarias para Skype Empresarial Server, vea [Infrastructure for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md). 
+Para determinar si el equilibrador de carga de hardware admite las características necesarias Skype Empresarial Server, consulte [Infrastructure for Skype Empresarial](../../../SfbPartnerCertification/certification/infra-gateways.md). 
   
 ### <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>Requisitos de equilibrador de carga de hardware para servidores perimetrales que ejecutan el servicio perimetral A/V
 
@@ -82,7 +82,7 @@ Estos son los requisitos del equilibrador de carga de hardware para los servidor
     
 ### <a name="other-hardware-load-balancer-requirements"></a>Otros requisitos del equilibrador de carga de hardware
 
-Los requisitos de afinidad basados en cookies se reducen en gran medida en Skype Empresarial Server para servicios web. Si va a implementar Skype Empresarial Server y no conservará ningún servidor front-end de Lync Server 2010 o grupos de servidores front-end, no necesita persistencia basada en cookies. Sin embargo, si conservará temporal o permanentemente los servidores front-end de Lync Server 2010 o grupos de servidores front-end, seguirá utilizando la persistencia basada en cookies mientras se implementa y configura para Lync Server 2010. 
+Los requisitos de afinidad basados en cookies se reducen considerablemente Skype Empresarial Server para los servicios web. Si va a implementar Skype Empresarial Server y no conservará ningún servidor front-end de Lync Server 2010 o grupos de servidores front-end, no necesita persistencia basada en cookies. Sin embargo, si conservará temporal o permanentemente los servidores front-end de Lync Server 2010 o grupos de servidores front-end, seguirá utilizando la persistencia basada en cookies mientras se implementa y configura para Lync Server 2010. 
   
 > [!NOTE]
 > **La utilización de la afinidad basada en cookies pese a que su implementación no la necesite** no tiene repercusiones. 
@@ -112,11 +112,11 @@ Si se implementan dispositivos móviles, el equilibrador de carga de hardware de
 > Si va a implementar dispositivos móviles, el equilibrador de carga de hardware debe poder equilibrar individualmente cada solicitud dentro de una conexión TCP. Las últimas aplicaciones móviles que utilizan el sistema Apple iOS requieren el uso seguridad de capa de transporte (TLS), versión 1.2.  
   
 > [!CAUTION]
-> Para obtener más información sobre equilibradores de carga de hardware de terceros, vea [Infrastructure for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md).  
+> Para obtener información detallada sobre equilibradores de carga de hardware de terceros, vea [Infrastructure for Skype Empresarial](../../../SfbPartnerCertification/certification/infra-gateways.md).  
   
 A continuación se muestran los requisitos del equilibrador de carga de hardware para servicios web de grupo de directores y de servidores front-end:
   
-- Para VIPS de servicios web internos, configure la persistencia Source_addr (puerto interno 80, 443) en el equilibrador de carga de hardware. Para Skype Empresarial Server, Source_addr persistencia significa que varias conexiones procedentes de una única dirección IP siempre se envían a un servidor para mantener el estado de sesión.
+- Para VIPS de servicios web internos, configure la persistencia Source_addr (puerto interno 80, 443) en el equilibrador de carga de hardware. Por Skype Empresarial Server, la Source_addr significa que varias conexiones procedentes de una única dirección IP siempre se envían a un servidor para mantener el estado de sesión.
     
 - Use un tiempo de espera de inactividad TCP de 1.800 segundos.
     
@@ -151,7 +151,7 @@ Es necesario definir la supervisión de puertos en los equilibradores de carga d
 ## <a name="dns-load-balancing"></a>Equilibrio de carga de DNS
 <a name="BKMK_DNSLoadBalancing"> </a>
 
-Skype Empresarial Server habilita el equilibrio de carga DNS, una solución de software que puede reducir en gran medida la sobrecarga de administración para el equilibrio de carga en la red. El equilibrio de carga dns equilibra el tráfico de red que es único para Skype Empresarial Server, como el tráfico SIP y el tráfico multimedia.
+Skype Empresarial Server equilibrio de carga DNS, una solución de software que puede reducir en gran medida la sobrecarga de administración para el equilibrio de carga en la red. El equilibrio de carga DNS equilibra el tráfico de red que es único Skype Empresarial Server, como el tráfico SIP y el tráfico multimedia.
   
 Si implementa el equilibrio de carga DNS, se minimizará la sobrecarga de administración de la organización para los equilibradores de carga de hardware. Además, se evitará la solución de problemas complejos asociados a errores de configuración de equilibradores de carga del tráfico SIP. También puede impedir que se establezcan conexiones de servidores para poder desconectar servidores. El equilibrio de carga de DNS también garantiza que los problemas relacionados con los equilibradores de carga de hardware no afecten a elementos de tráfico SIP, como el enrutamiento de llamadas básico.
 
@@ -161,15 +161,15 @@ En el siguiente diagrama se muestra un ejemplo que incluye equilibrio de carga D
 
 ![ejemplo de diagrama de red DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-Si se utiliza el equilibrio de carga de DNS también podría adquirir equilibradores de carga de hardware a un precio más económico que si usa equilibradores de carga de hardware para todos los tipos de tráfico. Debe usar equilibradores de carga que han pasado las pruebas de cualificación de interoperabilidad con Skype Empresarial Server. Para obtener más información sobre las pruebas de interoperabilidad del equilibrador de carga, vea [Lync Server 2010 Load Balancer Partners](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). El contenido allí se aplica a Skype Empresarial Server.
+Si se utiliza el equilibrio de carga de DNS también podría adquirir equilibradores de carga de hardware a un precio más económico que si usa equilibradores de carga de hardware para todos los tipos de tráfico. Debe usar equilibradores de carga que han pasado las pruebas de cualificación de interoperabilidad con Skype Empresarial Server. Para obtener más información sobre las pruebas de interoperabilidad del equilibrador de carga, vea [Lync Server 2010 Load Balancer Partners](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). El contenido que se aplica a Skype Empresarial Server.
   
 El equilibro de carga de DNS es compatible con los grupos front-end, los grupos de servidores perimetrales, los grupos de director y los grupos del servidor de mediación independientes.
   
-El equilibrio de carga de DNS suele implementarse en el nivel de la aplicación. La aplicación (por ejemplo, un cliente que ejecuta Skype Empresarial), intenta conectarse a un servidor de un grupo de servidores conectándose a una de las direcciones IP devueltas desde la consulta de registro DNS A y AAAA (si se usa el direccionamiento IPv6) para el nombre de dominio completo (FQDN) del grupo. 
+El equilibrio de carga de DNS suele implementarse en el nivel de la aplicación. La aplicación (por ejemplo, un cliente que ejecuta Skype Empresarial), intenta conectarse a un servidor de un grupo de servidores conectándose a una de las direcciones IP devueltas de la consulta de registro DNS A y AAAA (si se usa direccionamiento IPv6) para el nombre de dominio completo (FQDN) del grupo. 
   
 Por ejemplo, si hay tres servidores front-end en un grupo de servidores denominado pool01.contoso.com, pasará lo siguiente:
   
-- Clientes que ejecutan DNS de consulta de Skype Empresarial para pool01.contoso.com. La consulta devuelve tres direcciones IP y las almacena en caché de la siguiente manera (no necesariamente en este orden):
+- Los clientes que Skype Empresarial consulta DNS para pool01.contoso.com. La consulta devuelve tres direcciones IP y las almacena en caché de la siguiente manera (no necesariamente en este orden):
     
     pool01.contoso.com 192.168.10.90
     
@@ -181,7 +181,7 @@ Por ejemplo, si hay tres servidores front-end en un grupo de servidores denomina
     
 - Si la conexión TCP se realiza correctamente, el cliente negocia TLS para conectarse al registrador principal en pool01.contoso.com.
     
-- Si el cliente intenta todas las entradas almacenadas en caché sin una conexión correcta, se notificará al usuario que no hay servidores que ejecuten Skype Empresarial Server en este momento.
+- Si el cliente intenta todas las entradas almacenadas en caché sin una conexión correcta, se notificará al usuario que no hay servidores que ejecuten Skype Empresarial Server están disponibles en este momento.
     
 > [!NOTE]
 > El equilibrio de carga basado en DNS es distinto al round robin de DNS (DNS RR), que normalmente hace referencia al equilibrio de carga usando el DNS para proporcionar un orden distinto de direcciones IP correspondientes a los servidores de un grupo de servidores. Por lo general, DNS RR solo habilita la distribución de carga, pero no habilita la conmutación por error. Por ejemplo, si se produce un error en la conexión a la única dirección IP devuelta por la consulta DNS A y AAAA (si usa el direccionamiento IPv6), se produce un error en la conexión. Por tanto, el round robin de DNS por sí solo es menos fiable que el equilibrio de carga basado en DNS. Puede usar el round robin de DNS junto con el equilibrio de carga de DNS. 
@@ -218,11 +218,11 @@ A pesar de que seguirá necesitando equilibradores de carga de hardware para eso
   
 #### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>Equilibrio de carga DNS y compatibilidad con clientes y servidores más antiguos
 
-El equilibrio de carga DNS solo admite la conmutación por error automática para servidores que ejecutan Skype Empresarial Server o Lync Server 2010, y para clientes de Lync 2013 y Skype Empresarial. Las versiones anteriores de clientes y Office Communications Server aún pueden conectarse a grupos que ejecutan equilibrio de carga DNS, pero si no pueden establecer una conexión con el primer servidor al que se refiere el equilibrio de carga DNS, no podrán conmutar por error a otro servidor del grupo. 
+El equilibrio de carga dns solo admite la conmutación por error automática para servidores que ejecutan Skype Empresarial Server o Lync Server 2010, y para lync 2013 y Skype Empresarial cliente. Las versiones anteriores de clientes y Office Communications Server aún pueden conectarse a grupos que ejecutan equilibrio de carga DNS, pero si no pueden establecer una conexión con el primer servidor al que el equilibrio de carga DNS hace referencia, no podrán conmutar por error a otro servidor del grupo. 
   
-Además, si usa la mensajería unificada de Exchange, debe usar un mínimo de Exchange 2010 SP1 para obtener compatibilidad con el equilibrio de carga dns de Skype Empresarial Server. Si usa una versión anterior de Exchange, los usuarios no tendrán capacidades de conmutación por error para estos escenarios de mensajería unificada de Exchange:
+Además, si usa una mensajería unificada Exchange, debe usar un mínimo de Exchange 2010 SP1 para obtener compatibilidad con el equilibrio Skype Empresarial Server carga dns. Si usa una versión anterior de Exchange, los usuarios no tendrán capacidades de conmutación por error para estos Exchange escenarios de mensajería unificada:
   
-- Reproducir el correo de voz de enterprise en su teléfono
+- Reproducir su correo Enterprise correo de voz en su teléfono
     
 - Transferir llamadas de un operador automático de la mensajería unificada de Exchange
     
@@ -255,9 +255,9 @@ El uso del equilibrio de carga DNS en los servidores perimetrales provoca una p�
     
 Estos escenarios funcionarán siempre que se ejecuten correctamente todos los servidores perimetrales del grupo de servidores pero, si un servidor perimetral no está disponible, fallarán todas las solicitudes de estos escenarios que se envíen a él, en lugar de enrutarse a otro servidor perimetral.
   
- Si usa la mensajería unificada de Exchange, debe usar un mínimo de Exchange 2013 para obtener compatibilidad con el equilibrio de carga DNS de Skype Empresarial Server en Edge. Si usa una versión anterior de Exchange, los usuarios remotos no tendrán capacidades de conmutación por error para estos escenarios de mensajería unificada de Exchange:
+ Si usa la mensajería unificada Exchange, debe usar un mínimo de Exchange 2013 para obtener compatibilidad con Skype Empresarial Server equilibrio de carga dns en edge. Si usa una versión anterior de Exchange, los usuarios remotos no tendrán capacidades de conmutación por error para estos Exchange escenarios de mensajería unificada:
   
-- Reproducir el correo de voz de enterprise en su teléfono
+- Reproducir su correo Enterprise correo de voz en su teléfono
     
 - Transferir llamadas de un operador automático de la mensajería unificada de Exchange
     
@@ -289,4 +289,4 @@ Para implementar el equilibrio de carga DNS en un grupo de servidores de mediaci
 
 Si usa el equilibrio de carga DNS y necesita bloquear el tráfico a un equipo específico, no basta con quitar las entradas de dirección IP del FQDN del grupo. También debe quitar la entrada DNS del equipo. 
   
-Tenga en cuenta que para el tráfico de servidor a servidor, Skype Empresarial Server usa el equilibrio de carga para topologías. Los servidores leen la topología publicada en el almacén de administración central para obtener los FQDN de los servidores de la topología y distribuir automáticamente el tráfico entre los servidores. Para impedir que un servidor reciba tráfico de servidor a servidor, debe quitar el servidor de la topología. 
+Tenga en cuenta que para el tráfico de servidor a servidor, Skype Empresarial Server el equilibrio de carga para topologías. Los servidores leen la topología publicada en el almacén de administración central para obtener los FQDN de los servidores de la topología y distribuir automáticamente el tráfico entre los servidores. Para impedir que un servidor reciba tráfico de servidor a servidor, debe quitar el servidor de la topología. 

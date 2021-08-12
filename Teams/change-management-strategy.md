@@ -15,15 +15,14 @@ description: Cree una estrategia de administración de cambios para Microsoft Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff37db12707ff1cf7db4fe350ab1a6673db3f76a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fb5e47ef6a50e78ca92903e7b362cd9367823efb1eaedfccefd0473dfd7468c4
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848875"
 ---
-<a name="create-a-change-management-strategy-for-microsoft-teams"></a>Crear una estrategia de administración de cambios para Microsoft Teams
-=======================================================
+# <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Crear una estrategia de administración de cambios para Microsoft Teams
 
 Contar con una estrategia de gestión de cambios para la concientización y adopción de nuevas tecnologías es fundamental para el lanzamiento exitoso de cualquier nueva tecnología en una organización. La correcta finalización de este esfuerzo garantizará la adopción y la satisfacción de los usuarios con respecto a la nueva experiencia.  Los pasos que se identifican a continuación se pueden alterar en función del tamaño de su organización, pero sirven para garantizar un nivel de comunicación sostenido con las partes interesadas, los expertos, los administradores de TI y los usuarios, un elemento clave para el éxito del cambio.  
 
@@ -53,8 +52,7 @@ Procedimientos recomendados para la administración de los cambios de Teams:
 
 7.  Ajuste los mensajes y los métodos en función de los comentarios, repita.
 
-<a name="identify-key-stakeholders-champions-and-user-profiles"></a>Identificar las partes interesadas clave, los expertos y los perfiles de usuario
------------------------------------------------
+## <a name="identify-key-stakeholders-champions-and-user-profiles"></a>Identificar las partes interesadas clave, los expertos y los perfiles de usuario
 
 La primera regla para que la adopción se realice correctamente es crear un equipo dinámico compuesto por las partes interesadas clave y las personas adecuadas que puedan impulsar y operar cambios en los demás. Una estrategia de adopción exitosa comienza con un equipo de individuos comprometidos que representen una sección transversal de la organización. Los roles de las partes interesadas clave incluyen un patrocinador ejecutivo, propietarios de servicios, profesionales de TI y expertos.
 
@@ -72,15 +70,13 @@ Recomendamos una reunión periódica de estas partes interesadas para mantenerla
 > [!TIP]
 > Aquellas personas que representan los mayores obstáculos para el cambio podrían convertirse en sus mejores aliados en una implementación de este tipo. Lo alentamos a que se comunique con estos miembros de la organización de forma temprana y con frecuencia para escuchar sus preocupaciones y problemas. A menudo, tendrán comentarios valiosos que ayudarán a que su campaña sea más exitosa.
 
-<a name="user-profiles"></a>Perfiles de usuarios
--------------
+## <a name="user-profiles"></a>Perfiles de usuarios
 
 Es igualmente importante comprender los tipos de usuarios de su entorno. ¿Tiene usuarios que fundamentalmente utilizan la versión móvil? ¿Algunos están constantemente en reuniones o realizando presentaciones? ¿Sabe qué usuarios tienen la mayor dificultad con las soluciones de colaboración existentes? La segmentación de la comunidad de usuarios puede ayudarlo a encontrar los grupos que están más abiertos al cambio. Generalmente, estos constituyen el mejor público para probar los pilotos empresariales y sus comentarios son extremadamente valiosos.
 
 Comprender el día a día de los usuarios le ayudará a dar prioridad a los resultados empresariales, diseñar metas de adopción adecuadas para su implementación y mantener el uso a lo largo del tiempo.
 
-<a name="champions"></a>Expertos
----------
+## <a name="champions"></a>Expertos
 
 Identificar a los individuos que podrán convertirse en expertos de colaboración le proporcionará un equipo de apoyo ampliado para su implementación. Cree una comunidad al brindarles información anticipada y comentarios sobre sus planes. Las inversiones que realice en esta comunidad, ya sea de tiempo, atención o recompensas, serán retribuidas a su implementación a través del apoyo y la colaboración de sus miembros.
 
@@ -88,8 +84,7 @@ Identificar a los individuos que podrán convertirse en expertos de colaboració
 
 Para aprender a crear un programa de expertos, consiga [Crear un programa para expertos](https://go.microsoft.com/fwlink/?linkid=854665).
 
-<a name="identify-and-select-your-business-scenarios"></a>Identificar y seleccionar los escenarios empresariales
----------------------------------------------------------------
+## <a name="identify-and-select-your-business-scenarios"></a>Identificar y seleccionar los escenarios empresariales
 
 Una vez que haya identificado las partes interesadas clave y los segmentos de usuarios, le será mucho más fácil identificar los escenarios empresariales. He aquí algunos ejemplos de resultados empresariales:
 
@@ -107,8 +102,7 @@ También es aconsejable tener en cuenta a los usuarios que están integrados en 
 
 Los proyectos de tecnología se ven comprometidos cuando se presta poca o ninguna atención a los requisitos de gestión de los cambios humanos. Al seguir estas recomendaciones, mejorará sus posibilidades de éxito.
 
-<a name="design-launch-and-manage-your-adoption-campaign"></a>Diseñar, lanzar y gestionar la campaña de adopción
--------------------------------------------------
+## <a name="design-launch-and-manage-your-adoption-campaign"></a>Diseñar, lanzar y gestionar la campaña de adopción
 
 Tanto para los pilotos iniciales, como para su eventual lanzamiento en toda la empresa, sus comunicaciones internas deben ser una prioridad. Estas incluyen:
 
@@ -142,12 +136,11 @@ Al igual que en cualquier campaña de comunicaciones y adopción, querrá identi
 
 -   Asistencia en los eventos de aprendizaje
 
-<a name="measure-and-share-success"></a>Medir y compartir el éxito
--------------------------------------------------
+## <a name="measure-and-share-success"></a>Medir y compartir el éxito
 
-En su equipo de proyecto debe haber administradores de TI de su organización. Estas personas tendrán acceso a los informes Microsoft 365 o Office 365 Microsoft Teams de uso integrados en la experiencia Microsoft 365 centro de administración. Esta información muestra el uso que se hace de Microsoft Teams en su empresa. También recomendamos recopilar comentarios directamente de los usuarios en relación con su experiencia de Teams y otras ideas que puedan tener sobre su uso. Compartir estos ejemplos reales de su propia empresa es muy valioso para lograr un cambio sostenido a largo plazo en su comunidad de usuarios.  
+En su equipo de proyecto debe haber administradores de TI de su organización. Estas personas tendrán acceso a los Microsoft 365 o Office 365 Microsoft Teams de uso integrados en la experiencia Centro de administración de Microsoft 365 usuario. Esta información muestra el uso que se hace de Microsoft Teams en su empresa. También recomendamos recopilar comentarios directamente de los usuarios en relación con su experiencia de Teams y otras ideas que puedan tener sobre su uso. Compartir estos ejemplos reales de su propia empresa es muy valioso para lograr un cambio sostenido a largo plazo en su comunidad de usuarios.  
 
-Obtenga más información sobre los Microsoft Teams de uso en el centro Microsoft 365 administración [aquí](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+Obtenga más información sobre los Microsoft Teams de uso en el Centro de administración de Microsoft 365 [aquí](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
 > [!TIP]
 > Use su equipo público o la comunidad de Yammer para recopilar información sobre el uso. Compártala con la etiqueta #TeamsStories para poder recuperarla con facilidad.  Comparta una historia de #TeamsStory al mes en su intranet para resaltar qué empleados están adoptando el cambio para lograr aumentar la productividad y la colaboración en su entorno.  

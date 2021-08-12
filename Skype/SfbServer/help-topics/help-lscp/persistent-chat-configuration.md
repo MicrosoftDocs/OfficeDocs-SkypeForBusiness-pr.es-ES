@@ -15,25 +15,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: La implementación del servidor de chat persistente puede hospedar muchos salas de chat persistente simultáneas. Los salones de chat se pueden organizar en un conjunto de categorías en el servidor. Cada salón de chat pertenece a una categoría, y hereda alguna configuración de esa categoría. Esta configuración crea una estructura útil para identificar conversaciones, en función de su propósito empresarial, y facilita la delegación y simplificación de la administración.
-ms.openlocfilehash: ca059cd739093840028a6e9b952e12566ccfa5c0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 43f8329a5eb3165671474638d0d9a63d2aa1dc516200c58f306c9ce21317bd4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829400"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346996"
 ---
 # <a name="persistent-chat-configuration"></a>Configuración de chat persistente
  
 La implementación del servidor de chat persistente puede hospedar muchos salas de chat persistente simultáneas. Los salones de chat se pueden organizar en un conjunto de categorías en el servidor. Cada salón de chat pertenece a una categoría, y hereda alguna configuración de esa categoría. Esta configuración crea una estructura útil para identificar conversaciones, en función de su propósito empresarial, y facilita la delegación y simplificación de la administración.
   
 > [!NOTE]
-> Aunque muchas de las características de administración de los salón de chat están disponibles en equipos que ejecutan chat persistente para el usuario, los administradores de chat persistente (en el rol **cspersistentchatadministrator)** deben usar el panel de control o los cmdlets del Shell de administración para crear o administrar categorías.
+> Aunque muchas de las características de administración de los salas de chat están disponibles en equipos que ejecutan chat persistente para el usuario, los administradores de chat persistente (en el rol **cspersistentchatadministrator)** deben usar el panel de control o los cmdlets del shell de administración para crear o administrar categorías.
   
-Los administradores de chat persistente usan el Panel de control de Skype Empresarial Server o cmdlets Windows PowerShell para crear y administrar categorías, y para diseñar el acceso a los salón de chat para los usuarios de su organización.
+Los administradores de chat persistente usan Skype Empresarial Server panel de control o cmdlets Windows PowerShell para crear y administrar categorías y para diseñar el acceso a los salas de chat para los usuarios de su organización.
   
-Los administradores de salón de chat persistente, que tienen la capacidad de administrar uno o más salas de chat, pueden usar el cliente para iniciar una aplicación web de administración de salas para crear y administrar salas (o los clientes pueden crear soluciones y flujos de trabajo personalizados para invocarlos). Chat persistente
+Los administradores de salas de chat persistente, que tienen la capacidad de administrar uno o varios salas de chat, pueden usar el cliente para iniciar una aplicación web de administración de salas para crear y administrar salas (o los clientes pueden crear soluciones y flujos de trabajo personalizados que se invocarán). Chat persistente
   
-Los administradores de chat persistente también pueden usar el panel de control Windows PowerShell cmdlets para crear y administrar salas.
+Los administradores de chat persistente también pueden usar el panel de control o los cmdlets Windows PowerShell para crear y administrar salas.
   
 Los administradores de salones pueden hacer cambios en todas las propiedades de salones de chat, excepto en la categoría del salón. No pueden tener restricciones para realizar las siguientes acciones:
   
@@ -63,16 +63,16 @@ Puede realizar las siguientes tareas en la página Configuración de **chat** pe
 
 1. Desde una cuenta de usuario que se asigne al rol CsPersistentChatAdministrator o CsAdministrator, inicie sesión en cualquier PC en la implementación interna.
     
-2. En el **menú Inicio,** seleccione el Panel de control de Skype Empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador.
+2. En el **menú** Inicio, seleccione Skype Empresarial Server Panel de control o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración.
     
 3. En la barra de navegación izquierda, haga clic en **Chat persistente** y, a continuación, en **Configuración de chat persistente**.
     
-4. En la página **Configuración de chat persistente,** haga clic en **Nuevo y,** a continuación, en **Configuración del sitio.**
+4. En la **página Configuración de chat persistente,** haga clic en Nuevo **y, a continuación,** haga clic en **Configuración del sitio**.
     
     > [!IMPORTANT]
-    > Elija esta opción si desea que la configuración se aplique a todos los grupos de servidores de chat persistente implementados en el sitio. Haga **clic en Configuración** del grupo de servidores si desea que la configuración se aplique a un grupo de servidores de chat persistente específico.
+    > Elija esta opción si desea que la configuración se aplique a todos los grupos de servidores de chat persistente implementados en el sitio. Haga **clic en** Configuración del grupo si desea que la configuración se aplique a un grupo de servidores de chat persistente específico.
   
-5. En **Seleccionar un sitio,** seleccione el sitio que se configurará para la configuración del sitio del servidor de chat persistente.
+5. En **Seleccionar un sitio**, seleccione el sitio que se va a configurar para la configuración del sitio del servidor de chat persistente.
     
 6. En **Nueva configuración de chat persistente**, haga lo siguiente:
     
@@ -81,13 +81,13 @@ Puede realizar las siguientes tareas en la página Configuración de **chat** pe
    - En **Historial de chat predeterminado**, defina el número de mensajes de chat que se procesarán para cada salón tras la primera solicitud. De forma predeterminada, el número es 30. Esta es la configuración global, y los administradores pueden deshabilitar el historial de chat por categoría.
     
      > [!IMPORTANT]
-     > El servidor de chat persistente almacenará estos mensajes en la memoria caché, por lo que si aumenta este número, se almacenarán más mensajes en caché. SIempre puede obtener acceso al contenido histórico mediante búsqueda. El número predeterminado simplemente determina el número máximo de mensajes que ve inicialmente al conectarse a un salón de chat. 
+     > El servidor de chat persistente almacenará en caché estos mensajes en la memoria, por lo que si aumenta este número, se almacenarán más mensajes en caché. SIempre puede obtener acceso al contenido histórico mediante búsqueda. El número predeterminado simplemente determina el número máximo de mensajes que ve inicialmente al conectarse a un salón de chat. 
   
    - En **Tamaño máximo de archivo (KB)**, seleccione el tamaño máximo de archivo para cada historial de chat. De forma predeterminada, el número es 20 MB (20 000 KB). Este es el tamaño máximo para un archivo que se puede cargar en cualquier salón de chat en el sistema (para el cual las cargas de archivos están habilitadas mediante la configuración de su correspondiente **Categoría**).
     
-   - En **Límite de actualización de participantes**, seleccione el límite de actualizaciones de participantes. El servidor de chat persistente envía información de lista (que está conectado a un salón de chat) a todos los participantes hasta que el número de usuarios conectados alcanza este número. De forma predeterminada, el número es 75. Este límite indica el número máximo de participantes en un salón determinado más allá del cual el servidor de chat persistente deja de enviar actualizaciones de listas a los clientes conectados sobre quién está presente en la sala.
+   - En **Límite de actualización de participantes**, seleccione el límite de actualizaciones de participantes. El servidor de chat persistente envía información de lista (que está conectado a un salón de chat) a todos los participantes hasta que el número de usuarios conectados alcanza este número. De forma predeterminada, el número es 75. Este límite indica el número máximo de participantes en una sala determinada más allá de la cual el servidor de chat persistente deja de enviar actualizaciones de lista a los clientes conectados acerca de quién está presente en la sala.
     
-   - (Opcional). En **la dirección URL de administración de** sala, seleccione la dirección URL de administración de la sala. Esta es la dirección URL para una administración de salones personalizada basada en web. Si no necesita personalizar la administración de la sala y simplemente usa la configuración predeterminada, deje esta opción en blanco. Después de definir la dirección URL, se aplica como la dirección URL de administración de salones tanto internos como externos.
+   - (Opcional). En **Dirección URL de administración de sala,** seleccione la dirección URL de administración de sala. Esta es la dirección URL para una administración de salones personalizada basada en web. Si no necesita personalizar la administración de sala y simplemente usa la configuración predeterminada, deje esta opción en blanco. Después de definir la dirección URL, se aplica como la dirección URL de administración de salones tanto internos como externos.
     
      Si desea personalizar la experiencia de creación de salas e incluir su flujo de trabajo empresarial específico, puede crear una solución de administración de salas personalizada mediante el Kit de desarrollo de software (SDK) del servidor de chat persistente, hospedarla en algún lugar y colocar la dirección URL aquí. Esta dirección URL se envía al cliente para que cuando un usuario intente ver o crear un salón, se le dirija a su solución de administración de salones personalizada.
     
@@ -97,7 +97,7 @@ Puede realizar las siguientes tareas en la página Configuración de **chat** pe
 
 1. Desde una cuenta de usuario que se asigne al rol CsPersistentChatAdministrator o CsAdministrator, inicie sesión en cualquier PC en la implementación interna.
     
-2. En el **menú Inicio,** seleccione el Panel de control de Skype Empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador.
+2. En el **menú** Inicio, seleccione Skype Empresarial Server Panel de control o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración.
     
 3. En la barra de navegación izquierda, haga clic en **Chat persistente** y, a continuación, en **Configuración de chat persistente**.
     
@@ -112,20 +112,20 @@ Puede realizar las siguientes tareas en la página Configuración de **chat** pe
    - En **Historial de chat predeterminado**, defina el número de mensajes de chat que se procesarán para cada salón tras la primera solicitud. De forma predeterminada, el número es 30. Esta es la configuración global, y los administradores pueden deshabilitar el historial de chat por categoría.
     
      > [!IMPORTANT]
-     > El servidor de chat persistente almacenará estos mensajes en la memoria caché, por lo que si aumenta este número, se almacenarán más mensajes en caché. SIempre puede obtener acceso al contenido histórico mediante búsqueda. El número predeterminado simplemente determina el número máximo de mensajes que ve inicialmente al conectarse a un salón de chat. 
+     > El servidor de chat persistente almacenará en caché estos mensajes en la memoria, por lo que si aumenta este número, se almacenarán más mensajes en caché. SIempre puede obtener acceso al contenido histórico mediante búsqueda. El número predeterminado simplemente determina el número máximo de mensajes que ve inicialmente al conectarse a un salón de chat. 
   
    - En **Tamaño máximo de archivo (KB)**, seleccione el tamaño máximo de archivo para cada historial de chat. De forma predeterminada, el número es 20 MB (20 000 KB). Este es el tamaño máximo para un archivo que se puede cargar en cualquier salón de chat en el sistema (para el cual las cargas de archivos están habilitadas mediante la configuración de su correspondiente **Categoría**).
     
-   - En **Límite de actualización de participantes**, seleccione el límite de actualizaciones de participantes. El servidor de chat persistente envía información de lista (que está conectado a un salón de chat) a todos los participantes hasta que el número de usuarios conectados alcanza este número. De forma predeterminada, el número es 75. Este límite indica el número máximo de participantes en un salón determinado más allá del cual el servidor de chat persistente deja de enviar actualizaciones de listas a los clientes conectados sobre quién está presente en la sala.
+   - En **Límite de actualización de participantes**, seleccione el límite de actualizaciones de participantes. El servidor de chat persistente envía información de lista (que está conectado a un salón de chat) a todos los participantes hasta que el número de usuarios conectados alcanza este número. De forma predeterminada, el número es 75. Este límite indica el número máximo de participantes en una sala determinada más allá de la cual el servidor de chat persistente deja de enviar actualizaciones de lista a los clientes conectados acerca de quién está presente en la sala.
     
-   - (Opcional) En **URL de administración de salón**, seleccione la dirección URL de administración del salón. Esta es la dirección URL para una implementación de administración de salones basada en web. Si no necesita personalizar la administración de la sala y simplemente usa la configuración predeterminada, deje esta opción en blanco.
+   - (Opcional) En **URL de administración de salón**, seleccione la dirección URL de administración del salón. Esta es la dirección URL para una implementación de administración de salones basada en web. Si no necesita personalizar la administración de sala y simplemente usa la configuración predeterminada, deje esta opción en blanco.
     
      Si desea personalizar la experiencia de creación de salas e incluir su flujo de trabajo empresarial específico, puede crear una solución de administración de salas personalizada mediante el Kit de desarrollo de software (SDK) del servidor de chat persistente, hospedarla en algún lugar y colocar la dirección URL aquí. Esta dirección URL se envía al cliente para que cuando un usuario intente ver o crear un salón, se le dirija a su solución de administración de salones personalizada.
     
 7. Haga clic en **Confirmar**.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-Para obtener más información sobre las características y capacidades del servidor de chat persistente, consulte [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)y [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Para obtener más información sobre las características y capacidades del servidor de chat persistente, vea [Plan for Persistent Chat Server in Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), Deploy Persistent Chat Server in Skype Empresarial Server [2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)y [Manage Persistent Chat Server in Skype Empresarial Server 2015](../../manage/persistent-chat/persistent-chat.md).
   
 

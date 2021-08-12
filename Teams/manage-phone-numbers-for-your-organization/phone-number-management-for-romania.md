@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para encontrar información sobre cómo obtener y administrar números de teléfono en Rumania para Microsoft Teams.
-ms.openlocfilehash: 9ebaa6efb0772ee20a65bc7d7eb8503c097b4d6e
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: a6038343c177333617f70bbe6e9931b36e868d40a0f403501af7f23722c49997
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848885"
 ---
 # <a name="phone-number-management-for-romania"></a>Teléfono de números de Rumania
 
@@ -37,11 +37,11 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Microsoft Teams de administración. <br/> |En Rumania, puede obtener números de teléfono para su organización mediante el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y póngase en contacto con [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)<br/><br/>[Nueva solicitud de número de teléfono para Rumania (v.1.0) (rm-rm).](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf) <br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y ponerse en contacto con [PTSN para](contact-pstn-service-desk.md)obtener instrucciones.<br/><br/>Los nuevos pedidos pueden tardar de dos a tres semanas en completarse en este mercado. |
-|Consigue que nos transfieran números de teléfono.<br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Rumania (todos los números) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>Rellene y póngase [en contacto con PTSN para obtener instrucciones.](contact-pstn-service-desk.md)<br/><br/>Transferir números puede tardar entre cuatro y cinco semanas en completarse en este mercado. <br/><br/>Estos números no se pueden usar para conferencias en este momento.  <br/> |
-|Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacionales.  <br/> |[Póngase en contacto con PTSN para](contact-pstn-service-desk.md) obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con PTSN para](contact-pstn-service-desk.md) obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o operadores automáticos|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto [con el servicio rtc.](contact-pstn-service-desk.md) |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams. <br/> |En Rumania, puede obtener números de teléfono para su organización mediante el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y ponerse en contacto con el Servicio de atención al cliente de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)<br/><br/>[Nueva solicitud de número de teléfono para Rumania (v.1.0) (rm-rm).](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf) <br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y ponerse en contacto con el Servicio de asistencia de [PTSN](contact-pstn-service-desk.md)para obtener instrucciones.<br/><br/>Los nuevos pedidos pueden tardar de dos a tres semanas en completarse en este mercado. |
+|Transferirnos números de teléfono.<br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Rumania (todos los números) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)<br/><br/>Transferir números puede tardar entre cuatro y cinco semanas en completarse en este mercado. <br/><br/>Estos números no se pueden usar para conferencias en este momento.  <br/> |
+|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de soporte técnico de PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de asistencia de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) |
    
 ## <a name="related-topics"></a>Temas relacionados
 

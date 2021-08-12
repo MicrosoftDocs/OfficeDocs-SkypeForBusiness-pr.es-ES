@@ -303,6 +303,8 @@ items:
             href: teams-privacy.md
           - name: Ubicación de los datos en Teams
             href: location-of-data-in-teams.md
+          - name: Privacidad de los comentarios de Microsoft Teams
+            href: teams-privacy-feedback.md
           - name: Bloquear el acceso a SharePoint Online para determinados usuarios
             href: block-access-sharepoint.md
           - name: Información general sobre el control de directivas
@@ -1479,6 +1481,8 @@ items:
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Recursos de Teams para administradores de educación
             href: resources-teams-edu.md
+          - name: Dispositivos de Teams para el ámbito educativo
+            href: devices-for-education.md
           - name: Preguntas frecuentes de la administración de Microsoft Education para administradores
             href: plan-teams-governance-edu.md
           - name: Instalar la integración Moodle
@@ -1585,9 +1589,13 @@ items:
           - name: Teams muestra
             href: devices/teams-displays.md
           - name: Paneles de Microsoft Teams
-            href: devices/teams-panels.md
-          - name: Usar paneles de Microsoft Teams
-            href: devices/use-teams-panels.md
+            items:
+              - name: Paneles de Microsoft Teams
+                href: devices/teams-panels.md
+              - name: Usar paneles de Microsoft Teams
+                href: devices/use-teams-panels.md
+              - name: Compatibilidad con aplicaciones en paneles de Teams
+                href: app-support-on-Teams-panels.md
           - name: Actualización de teléfonos de Teams a las muestras de Teams
             href: devices/upgrade-phones-to-displays.md
           - name: Mostrar Teams y teléfonos de la implementación con Intune

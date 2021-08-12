@@ -1,5 +1,5 @@
 ---
-title: Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo
+title: Administrar directivas de enrutamiento de voz de emergencia para enrutamiento directo
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -17,28 +17,28 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo usar y administrar directivas de enrutamiento de llamadas de emergencia en Microsoft Teams configurar números de emergencia y especificar cómo se enrutar las llamadas de emergencia.
+description: Obtenga información sobre cómo usar y administrar directivas de enrutamiento de voz de emergencia en Microsoft Teams configurar números de emergencia y especificar cómo se enrutar las llamadas de emergencia.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 86f73bed2e086efee666e5592ca3f42e9756096c
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: e83b33d7e6b9c13b178a7481f5061615836d0c94c4bfcc7c97ec42a3b8250777
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848905"
 ---
-# <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo
+# <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>Administrar directivas de enrutamiento de voz de emergencia para enrutamiento directo
 
-Si ha implementado [](direct-routing-landing-page.md) Sistema telefónico enrutamiento directo en su organización, puede usar directivas de enrutamiento de llamadas de emergencia en Microsoft Teams para configurar números de emergencia y especificar cómo se enruten las llamadas de emergencia. Una directiva de enrutamiento de llamadas de emergencia determina si los servicios de emergencia mejorados están habilitados para los usuarios a los que se les ha asignado la directiva, los números usados para llamar a servicios de emergencia (por ejemplo, 911 en Estados Unidos) y cómo se enrutar las llamadas a los servicios de emergencia.
+Si ha implementado [](direct-routing-landing-page.md) Sistema telefónico enrutamiento directo en su organización, puede usar directivas de enrutamiento de voz de emergencia en Microsoft Teams para configurar números de emergencia y especificar cómo se enruten las llamadas de emergencia. Una directiva de enrutamiento de voz de emergencia determina si los servicios de emergencia mejorados están habilitados para los usuarios a los que se les ha asignado la directiva, los números usados para llamar a servicios de emergencia (por ejemplo, 911 en Estados Unidos) y cómo se enrutar las llamadas a los servicios de emergencia.
 
-Para administrar las directivas de enrutamiento de llamadas de emergencia, vaya a Directivas de emergencia de voz en el centro de administración de Microsoft Teams o mediante  >   Windows PowerShell. Las directivas se pueden asignar a usuarios y sitios [de red.](cloud-voice-network-settings.md)
+Para administrar las directivas de enrutamiento de voz de emergencia, vaya a Directivas de emergencia de voz en el centro de administración de Microsoft Teams o mediante  >   Windows PowerShell. Las directivas se pueden asignar a usuarios y sitios [de red.](cloud-voice-network-settings.md)
 
 Para los usuarios, puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios recibirán automáticamente la directiva global a menos que cree y asigne una directiva personalizada. Tenga en cuenta que puede editar la configuración de la directiva global, pero no puede cambiar el nombre ni eliminarlo. Para los sitios de red, cree y asigne directivas personalizadas.
 
-Si asignó una directiva de enrutamiento de llamadas de emergencia a un sitio de red y a un usuario y si ese usuario se encuentra en ese sitio de red, la directiva asignada al sitio de red reemplaza la directiva asignada al usuario.
+Si asignó una directiva de enrutamiento de voz de emergencia a un sitio de red y a un usuario y si ese usuario se encuentra en ese sitio de red, la directiva asignada al sitio de red reemplaza la directiva asignada al usuario.
 
-## <a name="create-a-custom-emergency-call-routing-policy"></a>Crear una directiva de enrutamiento de llamadas de emergencia personalizada
+## <a name="create-a-custom-emergency-voice-routing-policy"></a>Crear una directiva de enrutamiento de voz de emergencia personalizada
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
@@ -62,7 +62,7 @@ Si asignó una directiva de enrutamiento de llamadas de emergencia a un sitio de
 
 Vea [New-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/new-csteamsemergencycallroutingpolicy).
 
-## <a name="edit-an-emergency-call-routing-policy"></a>Editar una directiva de enrutamiento de llamadas de emergencia
+## <a name="edit-an-emergency-voice-routing-policy"></a>Editar una directiva de enrutamiento de voz de emergencia
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
@@ -76,13 +76,13 @@ Puede editar la directiva global o las directivas personalizadas que cree.
 
 Vea [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/set-csteamsemergencycallroutingpolicy).
 
-## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>Asignar una directiva de enrutamiento de llamadas de emergencia personalizada a los usuarios
+## <a name="assign-a-custom-emergency-voice-routing-policy-to-users"></a>Asignar una directiva de enrutamiento de voz de emergencia personalizada a los usuarios
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 Vea también [Grant-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
 
-## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>Asignar una directiva de enrutamiento de llamadas de emergencia personalizada a un sitio de red
+## <a name="assign-a-custom-emergency-voice-routing-policy-to-a-network-site"></a>Asignar una directiva de enrutamiento de voz de emergencia personalizada a un sitio de red
 
 Use el cmdlet [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) para asignar una directiva de enrutamiento de llamadas de emergencia a un sitio de red.
 

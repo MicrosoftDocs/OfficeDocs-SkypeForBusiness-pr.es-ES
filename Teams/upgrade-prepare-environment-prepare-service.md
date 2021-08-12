@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ad5887c50b15efc2dcddd000a8f117c2f350ac5
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: da6ccd1283eda3bd96fd9b4b2856c6318d79c1f36573a62394d1a4d404123ca5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282197"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337858"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Preparar el servicio para actualizar a Teams
 

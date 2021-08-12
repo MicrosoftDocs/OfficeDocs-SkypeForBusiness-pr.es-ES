@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 description: Seleccione los idiomas que desee usar para el número de acceso para conferencia de acceso telefónico local. Para obtener información detallada, consulte Crear o modificar un número de acceso para conferencias de acceso telefónico local.
-ms.openlocfilehash: d7768b36de7789d3a564c03c036cc1602063ce40
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a97127c7f2875cab0d98e295db1da137031d0ceb6ccc1eac5b50452e61a986a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301586"
 ---
 # <a name="select-languages"></a>Seleccionar idiomas
 

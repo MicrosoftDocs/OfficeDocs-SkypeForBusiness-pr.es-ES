@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para preparar el bosque de Servicios de dominio de Active Directory, debe extender correctamente el esquema, tal como se describe en el tema Running Schema Preparation, y asegurarse de que el esquema se haya replicado.
-ms.openlocfilehash: 3a143ebc58fe14712c194abb18eb9de98c2ca2cb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bf84512443e95b8f9c4391cf9ff223edd067d040bb29af85367ee4a146e5e220
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097326"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337828"
 ---
 # <a name="prepare-current-forest"></a>Preparar bosque actual
 
 Para preparar el bosque de Servicios de dominio de Active Directory, debe extender correctamente el esquema, tal como se describe en el tema [Running Schema Preparation](/previous-versions/office/lync-server-2013/lync-server-2013-preparing-the-active-directory-schema), y asegurarse de que el esquema se haya replicado.
 
-Después de completar estos requisitos previos, puede comenzar **el paso 3: Preparar el bosque actual**. Para preparar el bosque, inicie sesión en un equipo de la raíz del bosque como miembro de administradores de dominio en la raíz del bosque o como miembro de los administradores de empresa para el bosque que está preparando.
+Después de completar estos requisitos previos, puede comenzar **el paso 3: Preparar el bosque actual**. Para preparar el bosque, inicie sesión en un equipo de la raíz del bosque como miembro de administradores de dominio en la raíz del bosque o como miembro de los administradores de Enterprise para el bosque que está preparando.
 
 1. En el Asistente para implementación **del paso 3: Preparar el bosque actual,** haga clic **en Ejecutar**.
 
