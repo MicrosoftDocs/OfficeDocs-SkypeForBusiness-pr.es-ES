@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72cb35b2927dfb8cc1db65018d107bc209fd7ed2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: af0d35bf1c7183926607ec2aa6b35d0e74c67133a97fb8eb7de57b5acc45c053
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301975"
 ---
 # <a name="how-do-i-get-my-users-ready-for-microsoft-365-business-voice"></a>¿Cómo preparo a mis usuarios para Microsoft 365 Business Voice?
 

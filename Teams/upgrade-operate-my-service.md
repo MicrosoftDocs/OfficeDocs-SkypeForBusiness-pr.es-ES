@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ccc2d3a346f7b18b64950f2c2b52370ea7ecca8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b2d546465497a18791c0a3e31367622d09b8c6d16e81d5141cf5be338dd33ac
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237566"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327496"
 ---
 # <a name="operate-your-service"></a>Ejecutar los servicios
 
@@ -116,25 +116,25 @@ En las secciones siguientes se describen las [](/office365/servicedescriptions/o
 
 | Herramienta de supervisión | Ventajas | Cuándo usar |
 |---|---|---|
-| Microsoft 365 de administración | Disponible desde cualquier dispositivo con un explorador compatible. | Úsese cuando no necesite notificaciones en tiempo real. |
-| Microsoft 365 Aplicación de administración | Proporciona notificaciones push a su dispositivo móvil. | Úselo cuando necesite recibir una notificación de incidentes de servicio mientras se encuentra desoyéndolo. |
+| Centro de administración de Microsoft 365 | Disponible desde cualquier dispositivo con un explorador compatible. | Úsese cuando no necesite notificaciones en tiempo real. |
+| Administración de Microsoft 365 aplicación | Proporciona notificaciones push a su dispositivo móvil. | Úselo cuando necesite recibir una notificación de incidentes de servicio mientras se encuentra desoyéndolo. |
 | Microsoft System Center | Integración con Microsoft System Center. | Úse cuando necesite funciones avanzadas de supervisión y soporte de notificaciones. |
 | Microsoft 365 API de comunicaciones de servicio | Acceso mediante programación a Microsoft 365 o Office 365 del servicio. | Úsese cuando necesite integración con una herramienta de supervisión de terceros o quiera crear su propia solución. |
 
 > [!NOTE]
 > Solo las personas a las  que se les asigna el **rol de administrador global** o administrador del servicio pueden ver el estado del servicio.
 
-### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Supervisión con el centro Microsoft 365 administración
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Supervisión con el Centro de administración de Microsoft 365
 
-El [Microsoft 365 de](https://portal.office.com/) administración proporciona [](https://portal.office.com/adminportal/home#/servicehealth) un panel de estado del servicio donde puede ver el estado actual del servicio Teams, además de los servicios dependientes.
+El [Centro de administración de Microsoft 365](https://portal.office.com/) proporciona un panel [estado](https://portal.office.com/adminportal/home#/servicehealth) del servicio donde puede ver el estado actual del servicio de Teams, además de los servicios dependientes.
 
 ### <a name="monitoring-with-the-mobile-app"></a>Supervisión con la aplicación móvil
 
-La Microsoft 365 de administración está disponible en Apple iOS, Android y Windows (PC y móvil). La aplicación proporciona a los administradores información sobre el estado del servicio y los próximos cambios. La aplicación admite notificaciones push que pueden avisarte casi inmediatamente después de que se haya publicado un aviso. Esto le ayuda a mantenerse al día sobre el estado, el estado y los próximos cambios en el servicio. El soporte de notificaciones lo convierte en la herramienta de supervisión recomendada para los administradores. Para obtener más información, vea:
+La Administración de Microsoft 365 está disponible en Apple iOS, Android y Windows (PC y móvil). La aplicación proporciona a los administradores información sobre el estado del servicio y los próximos cambios. La aplicación admite notificaciones push que pueden avisarte casi inmediatamente después de que se haya publicado un aviso. Esto le ayuda a mantenerse al día sobre el estado, el estado y los próximos cambios en el servicio. El soporte de notificaciones lo convierte en la herramienta de supervisión recomendada para los administradores. Para obtener más información, vea:
 
-[Microsoft 365 Aplicación móvil de administración](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Administración de Microsoft 365 Aplicación móvil](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
-[Descargar la aplicación móvil Microsoft 365 administrador](https://products.office.com/business/manage-office-365-admin-app)
+[Descargar la aplicación Administración de Microsoft 365 móvil](https://products.office.com/business/manage-office-365-admin-app)
 
 ### <a name="monitoring-with-microsoft-system-center"></a>Supervisión con Microsoft System Center
 
@@ -245,7 +245,7 @@ Revisar el uso con frecuencia al principio de la implementación le ofrece la op
 
 Si el uso no es lo que espera, esto podría deberse a un problema de implementación, o el plan de adopción no se está ejecutó correctamente o a algún otro problema. Según el motivo real detrás del bajo uso, el administrador debe colaborar con los equipos relacionados para ayudar a eliminar las barreras de uso.
 
-### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Medir el uso con el centro Microsoft 365 administración
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Medir el uso con la Centro de administración de Microsoft 365
 
 Los datos de uso Teams están disponibles en el panel Informes. Teams datos de uso se pueden encontrar en tres informes diferentes. El primer informe proporciona una vista entre productos de cómo los usuarios se comunican y colaboran mediante los distintos servicios de Microsoft 365 o Office 365. Este informe se puede encontrar aquí: Microsoft 365 en el Centro de [administración : Usuarios activos](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -286,9 +286,9 @@ En primer lugar, identifique si se trata de un problema técnico o de adopción.
 
 ### <a name="references"></a>Referencias
 
-[Acerca de la Microsoft 365 de administración](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[Acerca de la Centro de administración de Microsoft 365](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Informes de actividad en el centro Microsoft 365 administración](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Informes de actividad en la Centro de administración de Microsoft 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

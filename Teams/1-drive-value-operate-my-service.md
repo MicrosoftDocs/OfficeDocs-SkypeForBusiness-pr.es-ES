@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5684ad62107fa61af7c9f2f22c6f15b4bfe1da30
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 222d983a3fc67323ea3d7942c681a3c2ec3b41f00f597ead360869880881e83b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112656"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302124"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 
@@ -112,7 +112,7 @@ En las secciones siguientes se describen las [](/office365/servicedescriptions/o
 
 | Herramienta de supervisión                       | Ventajas                                            | Cuándo usar                                                                                  |
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Microsoft 365 de administración                     | Disponible desde cualquier dispositivo con un explorador compatible. | Úsese cuando no necesite notificaciones en tiempo real.                                          |
+| Centro de administración de Microsoft 365                     | Disponible desde cualquier dispositivo con un explorador compatible. | Úsese cuando no necesite notificaciones en tiempo real.                                          |
 | Microsoft 365 o Office 365 Admin aplicación                  | Proporciona notificaciones push a su dispositivo móvil.  | Úselo cuando necesite recibir una notificación de incidentes de servicio mientras se encuentra desoyéndolo.                  |
 | Microsoft System Center               | Integración con Microsoft System Center.           | Úse cuando necesite funciones avanzadas de supervisión y soporte de notificaciones.                       |
 | Microsoft 365 o Office 365 API de comunicaciones de servicio | Acceso mediante programación a Microsoft 365 o Office 365 del servicio.   | Úsese cuando necesite integración con una herramienta de supervisión de terceros o quiera crear su propia solución. |
@@ -120,9 +120,9 @@ En las secciones siguientes se describen las [](/office365/servicedescriptions/o
 > [!NOTE]
 > Solo las personas a las  que se les asigna el **rol de administrador global** o administrador del servicio pueden ver el estado del servicio.
 
-### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Supervisión con el centro Microsoft 365 administración
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Supervisión con el Centro de administración de Microsoft 365
 
-El [Microsoft 365 de](https://portal.office.com/) administración proporciona [](https://portal.office.com/adminportal/home#/servicehealth) un panel de estado del servicio donde puede ver el estado actual del servicio Teams, además de los servicios dependientes.
+El [Centro de administración de Microsoft 365](https://portal.office.com/) proporciona un panel [estado](https://portal.office.com/adminportal/home#/servicehealth) del servicio donde puede ver el estado actual del servicio de Teams, además de los servicios dependientes.
 
 ### <a name="monitoring-with-the-mobile-app"></a>Supervisión con la aplicación móvil
 
@@ -241,7 +241,7 @@ Revisar el uso con frecuencia al principio de la implementación le ofrece la op
 
 Si el uso no es lo que espera, esto podría deberse a un problema de implementación, o el plan de adopción no se está ejecutó correctamente o a algún otro problema. Según el motivo real detrás del bajo uso, el administrador del servicio debe colaborar con los equipos relacionados para ayudar a eliminar las barreras de uso.
 
-### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Medir el uso con el centro Microsoft 365 administración
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Medir el uso con la Centro de administración de Microsoft 365
 
 Los datos de uso Teams están disponibles en el panel Informes. Teams datos de uso se pueden encontrar en tres informes diferentes. El primer informe proporciona una vista entre productos de cómo los usuarios se comunican y colaboran mediante los distintos servicios de Office 365. Este informe se puede encontrar aquí: Office 365 [informe de usuarios activos](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -281,9 +281,9 @@ En primer lugar, identifique si se trata de un problema técnico o de adopción.
 
 ### <a name="references"></a>Referencias 
 
-[Acerca de la Microsoft 365 de administración](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[Acerca de la Centro de administración de Microsoft 365](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Informes de actividad en el centro Microsoft 365 administración](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Informes de actividad en la Centro de administración de Microsoft 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

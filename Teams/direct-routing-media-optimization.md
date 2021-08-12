@@ -1,5 +1,5 @@
 ---
-title: Optimización de medios locales de enrutamiento directo
+title: Optimización de medios locales para la promocionación directa
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimización de medios locales para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36d42310b056d0b7774dfddd04f63e4f871851fe
-ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
+ms.openlocfilehash: 1e77f070d55cb7d74ff4757e7deba04855f855a4f1cb54be29dbc56d0ed77980
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53129350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849345"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>Optimización de medios locales para enrutamiento directo
 
@@ -83,11 +83,12 @@ Para crear una solución en la que se proporcionan servicios RTC a todas las suc
 
 Tabla 1. Parámetros de red de ejemplo para SBC 
 
+
 | Ubicación | SBC FQDN | Subred interna | NAT externa (IP de confianza) | Dirección IP externa de SBC | Dirección IP interna de SBC |
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | Ámsterdam | centralsbc.contoso.com | 192.168.5.0/24 | 172.16.76.73 | 172.16.76.71 | 192.168.5.5 |
 | Alemania | No implementado | 192.168.6.0/24 | 172.16.76.74 | No implementado |  No implementado |
-| Francia | No implementado | 192.168.7.0/24 | 172.16.76.75 | No implementado |  No implementado ||||
+| Francia | No implementado | 192.168.7.0/24 | 172.16.76.75 | No implementado |  No implementado |
 
 
 ### <a name="internal-user"></a>Usuario interno
@@ -104,7 +105,7 @@ Mientras se encuentra en el entorno local, el usuario se asigna a la sucursal lo
 
 Diagrama 1. Flujo de tráfico cuando el usuario se encuentra en el sitio "hogar" con un SBC centralizado y con un tronco SIP centralizado conectado
 
-![Diagrama que muestra la optimización de medios locales del flujo de tráfico](media/direct-routing-media-op-1.png "Flujo de tráfico cuando el usuario está en un sitio &quot;hogar&quot; con SBC centralizado con tronco SIP centralizado conectado")
+![Diagrama que muestra la optimización de medios locales del flujo de tráfico.](media/direct-routing-media-op-1.png "Flujo de tráfico cuando el usuario está en un sitio &quot;hogar&quot; con SBC centralizado con tronco SIP centralizado conectado")
 
 
 ### <a name="external-user"></a>Usuario externo
@@ -121,7 +122,7 @@ En este caso, el comportamiento es similar si el usuario es local en la sucursal
 
 Diagrama 2. Flujo de tráfico cuando el usuario es externo con un SBC centralizado y con un tronco SIP centralizado conectado
 
-![Diagrama que muestra la optimización de medios locales del flujo de tráfico](media/direct-routing-media-op-2.png "Flujo de tráfico cuando el usuario es externo en caso de SBC centralizado con tronco SIP centralizado conectado")
+![Diagrama muestra la optimización de medios locales del flujo de tráfico.](media/direct-routing-media-op-2.png "Flujo de tráfico cuando el usuario es externo en caso de SBC centralizado con tronco SIP centralizado conectado")
 
 ## <a name="proxy-sbc-with-connected-downstream-sbcs"></a>SBC proxy con SBC descendente conectado
 
@@ -160,7 +161,7 @@ Para obtener más información sobre los posibles modos y el comportamiento rele
 
 Diagrama 3. Flujo de tráfico cuando el usuario está en la red "doméstica" con un SBC proxy y con SBC descendente conectado 
 
-![Diagrama que muestra la optimización de medios locales del flujo de tráfico](media/direct-routing-media-op-3.png "Flujo de tráfico en caso de SBC proxy con SBC descendente conectado cuando el usuario está en la red &quot;doméstica&quot;.")
+![Diagrama que muestra de nuevo la optimización de medios locales del flujo de tráfico.](media/direct-routing-media-op-3.png "Flujo de tráfico en caso de SBC proxy con SBC descendente conectado cuando el usuario está en la red &quot;doméstica&quot;.")
 
 ### <a name="external-user"></a>Usuario externo
 
@@ -178,7 +179,7 @@ En el siguiente diagrama se muestra el flujo de tráfico cuando un usuario está
 
 Diagrama 4. Flujo de tráfico cuando el usuario es externo con un SBC proxy y con SBC descendente conectado
 
-![Diagrama que muestra la optimización de medios locales del flujo de tráfico](media/direct-routing-media-op-4.png "Flujo de tráfico en caso de SBC proxy con SBC descendente conectado cuando el usuario es externo")
+![Diagrama muestra de nuevo la optimización de medios locales del flujo de tráfico](media/direct-routing-media-op-4.png "Flujo de tráfico en caso de SBC proxy con SBC descendente conectado cuando el usuario es externo")
 
 ## <a name="local-media-optimization-modes"></a>Modos de optimización de medios locales
 
@@ -232,7 +233,7 @@ En el siguiente diagrama se muestra el flujo de tráfico de alto nivel para el u
 
 Diagrama 5.  Flujo de tráfico con el modo "Omitir siempre" y el usuario se encuentra en el sitio "inicio"
 
-![Diagrama que muestra la optimización de medios locales del flujo de tráfico](media/direct-routing-media-op-5.png "Flujo de tráfico con el modo &quot;Omitir siempre&quot; y el usuario se encuentra en el sitio &quot;inicio&quot;")
+![Diagrama que muestra la optimización de medios locales del flujo de tráfico.](media/direct-routing-media-op-5.png "Flujo de tráfico con el modo &quot;Omitir siempre&quot; y el usuario se encuentra en el sitio &quot;inicio&quot;")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Escenario 2: El usuario y las puertas de enlace están en sitios diferentes
@@ -255,7 +256,7 @@ En el siguiente diagrama se muestra el flujo de tráfico de alto nivel cuando el
 
 Diagrama 6.  Flujo de tráfico con el modo "Omitir siempre" y el usuario no está en el sitio "inicio", sino en la red interna
 
-![Diagrama que muestra la optimización de medios locales del flujo de tráfico](media/direct-routing-media-op-6.png "El flujo de tráfico con el modo &quot;Omitir siempre&quot; y el usuario no está en el sitio &quot;inicio&quot;, sino en la red interna")
+![Un diagrama muestra la optimización de medios locales del flujo de tráfico](media/direct-routing-media-op-6.png "El flujo de tráfico con el modo &quot;Omitir siempre&quot; y el usuario no está en el sitio &quot;inicio&quot;, sino en la red interna")
 
 ### <a name="mode-2-only-for-local-users"></a>Modo 2: Solo para usuarios locales
 
@@ -295,7 +296,7 @@ En el siguiente diagrama, un usuario asignado a la sucursal local en Vietnam, mi
 
 Diagrama 7. Flujo de tráfico con el modo "Solo para usuarios locales" y el usuario se encuentra en el sitio "inicio".
 
-![Diagrama que muestra la optimización de medios locales del flujo de tráfico](media/direct-routing-media-op-7.png "Flujo de tráfico con el modo &quot;Solo para usuarios locales&quot; y el usuario está en el sitio &quot;inicio&quot;")
+![Otro diagrama que muestra la optimización de medios locales del flujo de tráfico.](media/direct-routing-media-op-7.png "Flujo de tráfico con el modo &quot;Solo para usuarios locales&quot; y el usuario está en el sitio &quot;inicio&quot;")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Escenario 2. El usuario y las puertas de enlace están en sitios diferentes
@@ -325,7 +326,7 @@ En el siguiente diagrama, el usuario interno, mientras se encuentra en las insta
 
 Diagrama 8.  Flujo de tráfico con el modo "Solo para usuarios locales" y el usuario no se encuentra en el sitio "inicio", sino en la red interna
 
-![Diagrama que muestra la optimización de medios locales del flujo de tráfico](media/direct-routing-media-op-8.png "Flujo de tráfico con el modo &quot;Solo para usuarios locales&quot;, el usuario no está en el sitio &quot;inicio&quot;, sino en la red interna")
+![Otro diagrama muestra la optimización de medios locales del flujo de tráfico.](media/direct-routing-media-op-8.png "Flujo de tráfico con el modo &quot;Solo para usuarios locales&quot;, el usuario no está en el sitio &quot;inicio&quot;, sino en la red interna")
 
 ## <a name="known-issues"></a>Problemas conocidos
 
@@ -333,7 +334,7 @@ A continuación se muestra una lista de los problemas conocidos que están prese
 
 | Problema | Solución alternativa |
 | :--- | :--- |
-| Teams cliente no se identifica **como** interno cuando Teams cliente IP pública coincide con la lista IP de confianza del cliente. | Optimización de medios locales requiere que la subred Teams cliente coincida con una subred de red [configurada por el inquilino](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
+| Teams cliente no se identifica **como** interno cuando Teams cliente IP pública coincide con la lista IP de confianza del cliente. | Optimización de medios locales requiere que la subred Teams cliente coincida con una subred de red [configurada por el inquilino](/powershell/module/skype/new-cstenantnetworksubnet)|
 | Las escalaciones de llamadas resultan en llamadas descartadas cuando el Teams se identifica como interno.| Deshabilite la optimización de medios locales en el SBC de enrutamiento directo.|
 | Escalaciones de llamadas de 1 a 1 llamada entre clientes internos a llamadas multipartes con el resultado de cliente o recurso externo en llamadas descartadas | Trabajar en curso en una corrección. Como alternativa, deshabilite la optimización de medios locales en el SBC de enrutamiento directo.|
 | Teams usuario pone la llamada en espera. Música se reproduce en el extremo RTC y la optimización de medios locales funciona. El Teams reanudará la llamada. La llamada a RTC se reanuda, pero la optimización de medios locales no funciona y la llamada continúa a través de SBC central (proxy) | Cuando un usuario aparca una llamada para iniciar la música en espera (MoH), el controlador de llamadas está escalando de 1:1 a una llamada multiparte para invocar el controlador multimedia y el procesador multimedia (que sirve como mezclador AVMCU) a través del cual el MoH llega a un usuario que se ha puesto en espera. La desescalación a una llamada de 1:1 después de reanudar la llamada nunca se produce según el diseño. Deshabilite la optimización de medios locales en el SBC de enrutamiento directo.|

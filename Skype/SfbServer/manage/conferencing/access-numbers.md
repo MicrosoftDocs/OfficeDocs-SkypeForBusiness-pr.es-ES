@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: 'Summary: Learn how to manage dial-in conferencing access numbers in Skype for Business Server.'
-ms.openlocfilehash: 4008293015beaa684f9a3d9fa0ec0dedf05e5b2b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumen: obtenga información sobre cómo administrar los números de acceso a conferencias de acceso telefónico local en Skype Empresarial Server.'
+ms.openlocfilehash: 58e4de5a2c429a5e36a43f90793fc1e12939b1d235b846ae8db372a2b13d8135
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099156"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302504"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Administrar números de acceso a conferencias de acceso telefónico local en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo administrar los números de acceso a conferencias de acceso telefónico local en Skype Empresarial Server.
   
-Al implementar conferencias de acceso telefónico local, debe configurar los números de teléfono que los usuarios pueden marcar desde la red telefónica conmutada (RTC) para unirse a la parte de audio de las conferencias. Estos números de acceso telefónico local aparecen en las invitaciones a reuniones y en la página web Configuración de conferencia de acceso telefónico local. 
+Al implementar conferencias de acceso telefónico local, debe configurar los números de teléfono que los usuarios pueden marcar desde la red telefónica conmutada (RTC) para unirse a la parte de audio de las conferencias. Estos números de acceso telefónico local aparecen en las invitaciones a reuniones y en la página web de conferencias Configuración acceso telefónico local. 
   
-En este tema se describe cómo ver, modificar o eliminar números de acceso a conferencias de acceso telefónico local existentes. Para obtener más información acerca de cómo crear números de acceso telefónico local iniciales, vea [Configure dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+En este tema se describe cómo ver, modificar o eliminar números de acceso a conferencias de acceso telefónico local existentes. Para obtener más información acerca de cómo crear números de acceso telefónico local iniciales, vea [Configure dial-in conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>Ver números de acceso a conferencias de acceso telefónico local
 
-Puede ver los números de acceso a conferencias de acceso telefónico local mediante el Panel de control de Skype Empresarial Server o mediante el Shell de administración de Skype Empresarial Server.
+Puede ver los números de acceso a conferencias de acceso telefónico local mediante Skype Empresarial Server Panel de control o mediante Skype Empresarial Server Shell de administración.
   
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Ver números de acceso telefónico local mediante el Panel de control de Skype Empresarial Server
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Ver números de acceso telefónico mediante Skype Empresarial Server Panel de control
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2.  Abra el Panel de control de Skype Empresarial Server.
+2.  Abra Skype Empresarial Server Panel de control.
     
 3. En la barra de navegación de la izquierda, haga clic en **Conferencias** y, a continuación, en **Número de acceso telefónico**.
     
@@ -43,7 +43,7 @@ Puede ver los números de acceso a conferencias de acceso telefónico local medi
     
 5. En **Editar**, active la **casilla Mostrar** detalles.
     
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Ver números de acceso telefónico local mediante el Shell de administración de Skype Empresarial Server
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Ver números de acceso telefónico mediante Skype Empresarial Server Shell de administración
 
 Para ver información sobre los números de acceso telefónico local, use el cmdlet **Get-CsDialInConferencingAccessNumber.**
   
@@ -74,13 +74,13 @@ Para obtener más información, [vea Get-CsDialInConferencingAccessNumber](/powe
   
 ## <a name="modify-dial-in-conferencing-access-numbers"></a>Modificar números de acceso a conferencias de acceso telefónico local
 
-Puede modificar los números de acceso telefónico local mediante el Panel de control de Skype Empresarial Server o mediante el Shell de administración de Skype Empresarial Server.
+Puede modificar los números de acceso telefónico mediante Skype Empresarial Server Panel de control o mediante Skype Empresarial Server Shell de administración.
   
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Modificar los números de acceso telefónico local mediante el Panel de control de Skype Empresarial Server
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Modificar los números de acceso telefónico mediante Skype Empresarial Server Panel de control
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2.  Abra el Panel de control de Skype Empresarial Server.
+2.  Abra Skype Empresarial Server Panel de control.
     
 3. En la barra de navegación de la izquierda, haga clic en **Conferencias** y, a continuación, en **Número de acceso telefónico**.
     
@@ -91,9 +91,9 @@ Puede modificar los números de acceso telefónico local mediante el Panel de co
   
 5. En **Número de pantalla**, escriba el número de teléfono que los usuarios telefónicos de la red telefónica conmutada (RTC) marcan para unirse a una conferencia. 
     
-    Este número se muestra en invitaciones a reuniones y en la página web Configuración de conferencia de acceso telefónico local.
+    Este número se muestra en las invitaciones a reuniones y en la página web de conferencias Configuración acceso telefónico local.
     
-6. En **Nombre para mostrar,** escriba una descripción para el número de acceso telefónico. Este es el nombre asociado al número de acceso telefónico en los resultados de búsqueda de Skype Empresarial.
+6. En **Nombre para mostrar,** escriba una descripción para el número de acceso telefónico. Este es el nombre asociado al número de acceso telefónico en los resultados Skype Empresarial búsqueda.
     
     Este nombre se muestra en el cliente cuando un usuario llama al número de acceso. 
     
@@ -109,16 +109,16 @@ Puede modificar los números de acceso telefónico local mediante el Panel de co
     > [!NOTE]
     > Otro número de acceso de conferencia de acceso telefónico local no puede reutilizar el mismo URI de SIP. El URI de SIP no se puede modificar después de crear el número de acceso. La única forma de cambiar el URI de SIP es eliminar y volver a crear el número de acceso. 
   
-   En el cuadro de lista desplegable, haga clic en el dominio de la aplicación operador de conferencia que admite este número de acceso telefónico local.
+   En el cuadro de lista desplegable, haga clic en el dominio del aplicación Operador de conferencia que admite este número de acceso telefónico local.
     
-9. En **Grupo** de servidores, haga clic en el grupo que ejecuta la instancia de Operador de conferencia que admite este número de acceso telefónico local.
+9. En **Grupo**, haga clic en el grupo que ejecuta la instancia de Operador de conferencia que admite este número de acceso telefónico.
     
     > [!NOTE]
     > Si necesita cambiar el grupo después de crear el número de acceso, debe usar el cmdlet **Move-CsApplicationEndpoint** o eliminar y volver a crear el número de acceso.
   
 10. En **Idioma principal,** haga clic en el idioma en el que se reproducen los mensajes de este número de acceso telefónico local. 
     
-    El idioma principal es el idioma que usa el operador de conferencia para responder a la llamada. Los idiomas admitidos se muestran junto con cada número de teléfono de acceso en la página web Configuración de conferencia de acceso telefónico local.
+    El idioma principal es el idioma que el Operador de conferencia usa para responder a la llamada. Los idiomas admitidos se muestran junto con cada número de teléfono de acceso en la página web de conferencias Configuración acceso telefónico local.
     
 11. (Opcional) En **Idiomas** secundarios (máximo de cuatro), haga clic en Agregar **,** seleccione uno o más idiomas adicionales que desee admitir para los autores de llamadas a este número de acceso telefónico local y, a continuación, haga clic en **Aceptar**. 
     
@@ -130,7 +130,7 @@ Puede modificar los números de acceso telefónico local mediante el Panel de co
     
 14. Haga clic en **Confirmar**.
     
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Modificar los números de acceso telefónico local mediante el Shell de administración de Skype Empresarial Server
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Modificar los números de acceso telefónico mediante Skype Empresarial Server Shell de administración
 
 Para modificar los números de acceso telefónico local, use el cmdlet **Set-CsDialInConferencingAccessNumber.**
   
@@ -150,13 +150,13 @@ Para obtener más información, [vea Set-CsDialInConferencingAccessNumber](/powe
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>Eliminar un número de acceso de conferencia de acceso telefónico local
 
-Puede eliminar un número de acceso a conferencias de acceso telefónico local mediante el Panel de control de Skype Empresarial Server o mediante el Shell de administración de Skype Empresarial Server.
+Puede eliminar un número de acceso a conferencias de acceso telefónico local mediante Skype Empresarial Server Panel de control o mediante Skype Empresarial Server Shell de administración.
   
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Eliminar un número de acceso a conferencias de acceso telefónico local mediante el Panel de control de Skype Empresarial Server
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Eliminar un número de acceso a conferencias de acceso telefónico local mediante Skype Empresarial Server Panel de control
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes) o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que implementó Skype Empresarial Server.
     
-2.  Abra el Panel de control de Skype Empresarial Server.
+2.  Abra Skype Empresarial Server Panel de control.
     
 3. En la barra de navegación de la izquierda, haga clic en **Conferencias** y, a continuación, en **Número de acceso telefónico**.
     
@@ -164,7 +164,7 @@ Puede eliminar un número de acceso a conferencias de acceso telefónico local m
     
 5. Haga clic en **Aceptar**.
     
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Eliminar un número de acceso a conferencias de acceso telefónico local mediante el Shell de administración de Skype Empresarial Server
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Eliminar un número de acceso de conferencia de acceso telefónico local mediante Skype Empresarial Server Shell de administración
 
 Para eliminar un número de acceso a conferencias de acceso telefónico local, use **remove-CsDialInConferencingAccessNumber**.
   

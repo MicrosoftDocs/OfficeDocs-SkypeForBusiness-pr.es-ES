@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96f3c7f6d9d9fa52edd09b7ecf690f43d6730367
-ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
+ms.openlocfilehash: e542a763127af08344d3d409c5211ff627985124cc191863cf0305e571d55ad5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53428196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316836"
 ---
 # <a name="powershell-script-sample---teams-deployment-clean-up"></a>Ejemplo de script de PowerShell: Teams de implementación
 

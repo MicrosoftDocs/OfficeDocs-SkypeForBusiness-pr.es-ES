@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e0c4f3e4c328dc6f90dddf66a7004b70c66a84e
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 09a85edf34f77fb48b998371de3f6bbe2fd4678665c0037358bd32e7c26f2516
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288458"
 ---
 # <a name="manage-app-policies-in-microsoft-teams"></a>Administrar directivas de aplicaciones en Microsoft Teams
 

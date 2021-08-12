@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: c82cf782c73825b3d80cfb24c1fecb022eb1aab9
-  ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+  ms.openlocfilehash: ce170e3580e2ab573ff141022cb176c482c8244096dedf89aadab2f4cb2a0c81
+  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 06/23/2021
-  ms.locfileid: "53096184"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "54302035"
 items:
 - durationInMinutes: 1
   content: >

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar Power BI connector para usar plantillas de consulta de panel de calidad de llamadas (CQD)
-ms.openlocfilehash: 388dddc683340238ccff968261595bd46d4bfc65e323cfd1929f699d3c5eed83
-ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
+ms.openlocfilehash: 535a1d067dff81c8019a1c08d1a2a617019300989f515f97f89f471e845ca885
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "57799061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288508"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Instalar el conector de calidad de llamadas de Microsoft para Power BI usar plantillas de consulta de panel de calidad de llamadas
 
@@ -85,9 +85,6 @@ Una vez completada la configuración, verá los nombres de varios cientos de dim
 3. A continuación, seleccione las dimensiones que quiera filtrar y arrástrelas al campo Filtros de este *campo visual* en el *panel* Filtros. El conector de calidad de llamada de Microsoft admite actualmente filtrado básico (valores de selección de una lista de posibles valores de dimensión), filtrado  avanzado  (especificar manualmente valores y operandos para filtrar, similar al Panel de calidad de llamada) y filtrado de fecha relativa *(solo* disponible para las dimensiones Hora de finalización e Hora de inicio).   El filtrado según *la parte superior N* no es compatible con el Panel de calidad de llamadas.
 
     ![Captura de pantalla: Power BI Connector](media/CQD-power-bi-connector5-resize.png)
-
-    > [!IMPORTANT]
-    > Los filtros solo son compatibles cuando se aplican a Dimensiones. El filtrado de los valores de Medidas no es compatible con el Panel de calidad de llamadas.
 
 4. Por último, seleccione la *pestaña* Formato en el *panel Visualizaciones* para aplicar estilo y formato a la consulta.
 

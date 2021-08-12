@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
-description: Seleccione cada característica que desee habilitar para el grupo de servidores front-end. Como mínimo, debe implementar la mensajería instantánea, que siempre está habilitada y no se puede anular su selección. También tiene la opción de implementar otras características, como conferencia, Telefonía IP empresarial y control de admisión de llamadas (CAC). Algunas características dependen de la topología.
-ms.openlocfilehash: 12fb968a9ed0b1f9c88419158c8774fd0dc9f25c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Seleccione cada característica que desee habilitar para el grupo de servidores front-end. Como mínimo, debe implementar la mensajería instantánea, que siempre está habilitada y no se puede anular su selección. También tiene la opción de implementar otras características, como conferencias, Telefonía IP empresarial y control de admisión de llamadas (CAC). Algunas características dependen de la topología.
+ms.openlocfilehash: 82b67016b4e7902e258b73889134f60c59b0cabf59a125d3f1e8bde88011f355
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118719"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291458"
 ---
 # <a name="add-front-end-features"></a>Agregar características front-end
 
-Seleccione cada característica que desee habilitar para el grupo de servidores front-end. Como mínimo, debe implementar la mensajería instantánea, que siempre está habilitada y no se puede anular su selección. También tiene la opción de implementar otras características, como conferencia, Telefonía IP empresarial y control de admisión de llamadas (CAC). Algunas características dependen de la topología.
+Seleccione cada característica que desee habilitar para el grupo de servidores front-end. Como mínimo, debe implementar la mensajería instantánea, que siempre está habilitada y no se puede anular su selección. También tiene la opción de implementar otras características, como conferencias, Telefonía IP empresarial y control de admisión de llamadas (CAC). Algunas características dependen de la topología.
 
 - Conferencias
 
@@ -39,4 +39,4 @@ Seleccione cada característica que desee habilitar para el grupo de servidores 
 > [!NOTE]
 > Si desea habilitar cac en la implementación, debe habilitar cac en exactamente un grupo por sitio central. Se recomienda el CAC si está implementando características de voz o conferenciaS/V.
 
-Para obtener más información sobre cómo especificar características para un grupo de servidores enterprise Edition, consulte Definir y configurar un grupo de servidores [front-end](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) en la documentación sobre implementación.
+Para obtener más información sobre cómo especificar características para un grupo Enterprise Edition, vea Definir y configurar un grupo de servidores [front-end](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) en la documentación sobre implementación.

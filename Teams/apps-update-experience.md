@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo actualizar aplicaciones en Microsoft Teams.
-ms.openlocfilehash: b39b831b644b19038b8f4574acf3e5bc5c50d73c
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: e271af73800e87ddf5c0f83009fbd85002fc059e8da3f2479198de9ae64ea698
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337834"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288408"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Actualizar aplicaciones en Microsoft Teams
 

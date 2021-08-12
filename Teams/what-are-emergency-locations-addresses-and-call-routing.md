@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Obtenga información sobre las llamadas de emergencia, incluida la información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: e6904139d73b8fe671c8013af7cac5917fe88305d81af5fd33501d92b81e2d61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef3f9bcf3a8eab2edc4cff4d99c31a1eb4028cb26a32f40adf4e0eaaa68deeee
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849085"
 ---
 # <a name="manage-emergency-calling"></a>Administrar llamadas de emergencia
 
@@ -149,7 +149,7 @@ Puede asignar una directiva de enrutamiento de llamadas de emergencia a Teams cu
 
 - Si una directiva de enrutamiento de llamadas de emergencia está asociada al sitio, la directiva de sitio se usa para configurar las llamadas de emergencia.
 
-- Si no hay ninguna directiva de enrutamiento de llamadas de emergencia asociada al sitio o si el cliente está conectado en un sitio no definido, la directiva de enrutamiento de llamadas de emergencia asociada a la cuenta de usuario se usa para configurar las llamadas de emergencia. 
+- Si no hay ninguna directiva de enrutamiento de llamadas de emergencia asociada al sitio, si el cliente está conectado en un sitio no definido o si el número marcado no coincide con ninguno de los números de emergencia definidos en la directiva de enrutamiento de llamadas de emergencia asociada al sitio, la directiva de enrutamiento de llamadas de emergencia asociada a la cuenta de usuario se usa para configurar las llamadas de emergencia. 
 
 - Si el Teams no puede obtener una directiva de enrutamiento de llamadas de emergencia, el usuario no está habilitado para las llamadas de emergencia.
 

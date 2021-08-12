@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: c10035729ebb69d101b9a901b7dc427fea9d5f95
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9997a63ca3d53df1350eca65dba92a098492f6d5aef0b8b33e5cd573822f81f4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338378"
 ---
 # <a name="quality-of-experience-qoe-data"></a>Datos referentes a la calidad de la experiencia (QoE)
  
@@ -32,5 +32,5 @@ ms.locfileid: "49819230"
     
 - [Crear opciones de configuración de calidad de la experiencia en Skype Empresarial Server 2015](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype Empresarial Server 2015](../../manage/manage.md).
 

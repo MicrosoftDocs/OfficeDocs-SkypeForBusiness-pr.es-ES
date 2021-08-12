@@ -15,18 +15,16 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fbc1e51c22fbc2efc5ab286b1082f1169c14e89c2abae573ae810a8be04dd63
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e7e1b8eb064b273bbc41b823fba6dae40a83bedbc3085a156cd6770578cd3c53
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849355"
 ---
-<a name="manage-the-office-365-e1-trial"></a>Administrar la Prueba de Office 365 E1
-==============================
+# <a name="manage-the-office-365-e1-trial"></a>Administrar la Prueba de Office 365 E1
 
 A partir del 1 de julio de 2020, la licencia de prueba de Office 365 E1 ya no está disponible. Si necesita obtener una licencia de Microsoft Teams para los usuarios, consulte la [descripción del servicio de Microsoft Teams](/office365/servicedescriptions/teams-service-description) para obtener una lista de suscripciones de pago que incluyan Teams. Como alternativa, las organizaciones elegibles pueden usar la **[versión gratuita de Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** o los empleados pueden activar la experiencia de **[Teams Exploratory](teams-exploratory.md)**.
-
 
 Si es cliente de Teams para el ámbito educativo, consulte la [licencia de Microsoft Office 365 A1](teams-edu-licensing.md) gratuita.
 
@@ -39,7 +37,7 @@ No se pierda todas nuestras instrucciones para [dar soporte a los trabajadores r
 Después de activar la Prueba de Office 365 E1, active la licencia para todos los usos necesarios. Para obtener más información, vea [Administrar el acceso de los usuarios a Teams](user-access.md).
 
 
-Una vez que haya activado la Prueba de E1 para los usuarios que la necesitan, administre estos usuarios igual que administraría los usuarios con una licencia de pago. Para más información, vea [Administrar la configuración de Teams para su organización](enable-features-office-365.md).
+Una vez que haya activado la Prueba de E1 para los usuarios que la necesitan, administre a estos usuarios igual que administraría los usuarios con una licencia de pago. Para obtener más información, vea [Administrar la configuración de Teams para su organización](enable-features-office-365.md)
 
 
 

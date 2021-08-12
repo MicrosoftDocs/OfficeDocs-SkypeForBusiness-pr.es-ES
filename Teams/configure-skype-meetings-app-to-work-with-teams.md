@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29887ee89c8db36e6d5116118e0ec4fbc2a3e0ff
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 9973df9bc36319cfcac465363875398bb3e87aeeb6324e6e550c3356be9ace54
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347265"
 ---
 # <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar la aplicación de Reuniones de Skype para trabajar con Teams
 

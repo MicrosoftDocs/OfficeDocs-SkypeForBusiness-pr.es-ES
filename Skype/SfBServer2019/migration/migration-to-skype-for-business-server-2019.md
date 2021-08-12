@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Los temas de esta sección le guiarán por el proceso de migración a Skype Empresarial Server 2019.
-ms.openlocfilehash: 860fce550de33ed726bbbe723c8c7677ff09fc1c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Los temas de esta sección le guían a través del proceso de migración a Skype Empresarial Server 2019.
+ms.openlocfilehash: 1014fe5d491823c427eb588aac86757afb997578b519abf2249f481c91a3d4aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752622"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303404"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>Migración a Skype Empresarial Server 2019
 
-Los temas de esta sección le guiarán por el proceso de migración a Skype Empresarial Server 2019. En este artículo se describe la migración de Lync Server 2013 o Skype Empresarial Server 2015 a Skype Empresarial Server 2019.
+Los temas de esta sección le guían a través del proceso de migración a Skype Empresarial Server 2019. En este artículo se trata la migración de Lync Server 2013 o Skype Empresarial Server 2015 a Skype Empresarial Server 2019.
 
 > [!IMPORTANT]
-> En todo el contenido,  usamos el término heredado para hacer referencia a Lync Server 2013 heredado o Skype Empresarial Server 2015 que va a migrar a Skype Empresarial Server 2019.
+> En todo el contenido,  usamos el término heredado para hacer referencia al Lync Server 2013 o Skype Empresarial Server 2015 heredado que está migrando a Skype Empresarial Server 2019.
   
 > [!IMPORTANT]
 > En esta guía se describen los pasos generalmente necesarios para realizar cada fase de migración. No aborda toda la topología de implementación heredada posible o cada posible escenario de migración. Por lo tanto, dependiendo de su implementación, es posible que no necesite realizar cada paso descrito o también es posible que necesite realizar pasos adicionales. Esta guía también proporciona ejemplos de pasos de comprobación. Estos pasos de verificación se ofrecen para ayudarle a entender lo que necesita buscar para garantizar que cada fase finalice correctamente mientras progresa a lo largo de la migración. Individualice estos pasos de verificación para su proceso de migración particular. 
   
-Esta guía le ofrece información específica para actualizar su implementación existente. No explica cómo cambiar su topología existente. Tampoco aborda la implementación de nuevas características. Cuando se documenta un procedimiento detallado en otro lugar, esta guía le dirige a la sección de artículo o artículo. 
+Esta guía le ofrece información específica para actualizar su implementación existente. No explica cómo cambiar su topología existente. Tampoco aborda la implementación de nuevas características. Cuando se documenta un procedimiento detallado en otro lugar, esta guía le dirige a la sección de artículos o artículos. 
   
 En este artículo se definen los términos especificados en la siguiente lista.
   
 **migración:** Mover la implementación de producción de Lync Server 2013 o Skype Empresarial Server 2015 a Skype Empresarial Server 2019.
     
-**coexistencia:** El entorno temporal que existe durante la migración cuando algunas funciones se han migrado a Skype Empresarial Server 2019 y otras permanecen en una versión anterior.
+**coexistencia:** El entorno temporal que existe durante la migración cuando algunas funciones se han migrado a Skype Empresarial Server 2019 y otras funciones permanecen en una versión anterior.
     
 **interoperabilidad:** La capacidad de la implementación para funcionar correctamente durante el período de coexistencia.
 
-**heredado:** El sistema desde el que va a migrar, que es Lync Server 2013 o Skype Empresarial Server 2015.
+**heredado:** El sistema desde el que está migrando, que es Lync Server 2013 o Skype Empresarial Server 2015.
     
 ## <a name="in-this-section"></a>En esta sección
 

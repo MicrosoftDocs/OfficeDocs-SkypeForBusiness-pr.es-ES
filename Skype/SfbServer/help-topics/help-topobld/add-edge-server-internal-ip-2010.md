@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 661dd74e-c42a-4905-a9c6-6efe02acc5f8
 description: Utilice esta página para especificar la dirección IP interna y el nombre de dominio completo (FQDN) del servidor perimetral.
-ms.openlocfilehash: c8e6c7fb4722d7d6e8b9b01057dc38d64cfe557e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7c4951ec7e2c906ea7913ab8d3942310942c9091f25e5b3d1ecc88d85d93e14a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103346"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302574"
 ---
 # <a name="add-edge-server-internal-ip-2010"></a>Agregar IP interna de servidor perimetral 2010
 

@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Obtenga información sobre el período de acceso telefónico gratuito para Microsoft 365 o Office 365 de llamadas y Office 365 audioconferencia en Microsoft Teams.
-ms.openlocfilehash: 0f40e35e30de5698ffcb4bf9592868685d8223ed
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bf82b9ffc24000244a2666dedf2bb3ff8cd280cb476d6550747807411a4b9475
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918886"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347395"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
@@ -48,7 +48,7 @@ Para los clientes que adopten nuestro servicio de audioconferencia de Microsoft 
 
 Además, hay un límite de 900 minutos durante el período de salida gratuita como tal:
 
-Los usuarios con una ubicación de uso de licencia (la ubicación es la ubicación de país de usuario que se define en el área de licencias del centro de administración de Microsoft 365) en cualquier _país_ _ pueden llamar desde una conferencia a cualquiera de los 44 países y regiones de zona [A.](audio-conferencing-zones.md) Cada usuario recibe 900 minutos  por usuario al mes en cualquiera de los países y regiones de zona [A,](audio-conferencing-zones.md)que se agrupan en el nivel de inquilino. Por ejemplo, un cliente ha comprado 115 licencias de suscripción de audioconferencia y tiene 10 usuarios en Estados Unidos, 100 usuarios en el Reino Unido y 5 usuarios en la India, todos con licencias de suscripción de audioconferencia asignadas a sus usuarios.
+Los usuarios con una ubicación de uso de licencia (la ubicación es la ubicación de país de usuario que se define en el área de licencias del Centro de administración de Microsoft 365) en cualquier _país_ _ pueden llamar desde una conferencia a cualquiera de los 44 países y regiones de la zona [A.](audio-conferencing-zones.md) Cada usuario recibe 900 minutos  por usuario al mes en cualquiera de los países y regiones de zona [A,](audio-conferencing-zones.md)que se agrupan en el nivel de inquilino. Por ejemplo, un cliente ha comprado 115 licencias de suscripción de audioconferencia y tiene 10 usuarios en Estados Unidos, 100 usuarios en el Reino Unido y 5 usuarios en la India, todos con licencias de suscripción de audioconferencia asignadas a sus usuarios.
 
 - Los 115 usuarios comparten un grupo de (115 usuarios X 900 min) = 103.500 minutos de acceso telefónico local por mes calendario, que se pueden usar para realizar llamadas salientes a cualquiera de los países y regiones de la zona [A.](audio-conferencing-zones.md)
 

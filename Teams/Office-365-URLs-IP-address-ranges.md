@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a29984b0b389bacb50a9aa6512a9ccc8bfe07de
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e5925a8896667adde58d71d01a062d975ea2fe1c5c1aec629af8db88c79b623
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094522"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302045"
 ---
 <a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 y Office 365 direcciones URL e intervalos de direcciones IP
 =======================================================

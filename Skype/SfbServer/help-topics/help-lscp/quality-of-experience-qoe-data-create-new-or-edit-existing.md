@@ -1,5 +1,5 @@
 ---
-title: Datos de calidad de la experiencia (QoE) Crear nuevos o editar los existentes
+title: Datos de calidad de la experiencia (QoE) Crear nuevos o editar existentes
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 7b45e50b457fb13c0c585d6c146afecdebe27a77
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4eb93594f4cd7c294898f70da60498d4a543805506da9b2c8a670049b83631a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819240"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338388"
 ---
 # <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Datos referentes a la calidad de la experiencia (QoE): Crear nuevos o editar los existentes
  
@@ -34,5 +34,5 @@ ms.locfileid: "49819240"
     
 - [Eliminar opciones de configuración de calidad de la experiencia en Skype Empresarial Server 2015](../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
     
-Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype Empresarial Server 2015](../../manage/manage.md).
 

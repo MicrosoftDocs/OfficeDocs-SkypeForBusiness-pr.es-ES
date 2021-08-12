@@ -18,12 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar paquete
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 820cc280e7168dee5a0e059005a1b7e6cebf5ff1
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 6fb97dd96718b7ba909a05161a36092600d47b38ad1478f8608919861c6e1c91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288349"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Asignar paquetes de directiva a usuarios y grupos
 

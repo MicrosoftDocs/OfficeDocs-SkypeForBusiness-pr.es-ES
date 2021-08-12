@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Dinamarca para Microsoft Teams.
-ms.openlocfilehash: fc9864ea8e5f74fdc29848f8e9bbbfaf38f7809d
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 1a11743a1602a52f7e1a8e22b205e72017f9ba4498442ca065a332ddf2951a09
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849305"
 ---
 # <a name="phone-number-management-for-denmark"></a>Teléfono de números para Dinamarca
 
@@ -34,11 +34,11 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos y envíenoslos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario y servicio que no se muestran en el Microsoft Teams de administración.   <br/> |Descargue uno de estos formularios. <br/>  [Nueva solicitud de número de teléfono para Dinamarca (v.5.0) (da-dk)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[Nueva solicitud de número de teléfono para Dinamarca (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Rellene y póngase [en contacto con PTSN para obtener instrucciones.](contact-pstn-service-desk.md)
-|Consigue que nos transfieran números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Dinamarca (todos los números) (v.5.0) (da-dk)](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>Rellene y póngase [en contacto con PTSN para obtener instrucciones.](contact-pstn-service-desk.md) <br/> |
-|Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacionales.  <br/> |[Póngase en contacto con PTSN para](contact-pstn-service-desk.md) obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación.      <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con PTSN para](contact-pstn-service-desk.md) obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o operadores automáticos|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto [con el servicio rtc.](contact-pstn-service-desk.md) |
+|Obtenga nuevos números de teléfono de usuario y servicio que no se muestran en el Microsoft Teams de administración.   <br/> |Descargue uno de estos formularios. <br/>  [Nueva solicitud de número de teléfono para Dinamarca (v.5.0) (da-dk)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[Nueva solicitud de número de teléfono para Dinamarca (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)
+|Transferirnos números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Dinamarca (todos los números) (v.5.0) (da-dk)](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) <br/> |
+|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de soporte técnico de PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación.      <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de [asistencia RTC para obtener instrucciones.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Temas relacionados
 
