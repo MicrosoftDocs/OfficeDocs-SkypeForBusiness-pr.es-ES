@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: Crear y administrar salas de chat persistente es mucho más fácil con el uso correcto de categorías. Un administrador de chat persistente puede definir AllowedMembers y Creators para cada categoría y también puede definir la configuración y comportamientos predeterminados del salón de chat que se aplicarán a todos los salón de chat creados en la categoría. Los administradores de chat persistente crean y administran categorías mediante el panel de control o Windows PowerShell cmdlets.
-ms.openlocfilehash: 47abbec64f6799a85f3f6123a898eeae00becbdb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3f757d7c25a429279bbde3c63e717af9d1930cb9ea40076ac9aa5b9d9567356a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107996"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342175"
 ---
 # <a name="select-allowed-members"></a>Seleccionar los miembros permitidos
 
@@ -36,7 +36,7 @@ Puede realizar las siguientes tareas en la página **Seleccionar los miembros pe
 
 - [Nuevas características de servidor de conversaciones en grupo](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype Empresarial Server 2015](../../manage/manage.md).
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorías para salones de chat
 
@@ -45,6 +45,6 @@ En **Pertenencia**,  en la sección Miembros permitidos, agregue o quite usuario
 
 Para obtener más información sobre las características y capacidades del servidor de chat persistente, consulte [Overview of Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) en la documentación sobre planeación. Para obtener más información sobre cómo trabajar con configuraciones de servidor de chat persistente, consulte [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) en la documentación sobre implementación y [Managing Lync Server 2013, Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) en la documentación sobre operaciones.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Descripción de la pertenencia a chat persistente](/previous-versions/office/lync-server-2013/understanding-persistent-chat-membership)

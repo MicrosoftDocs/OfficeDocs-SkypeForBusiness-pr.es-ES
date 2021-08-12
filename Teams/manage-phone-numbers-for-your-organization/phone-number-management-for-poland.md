@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para encontrar información sobre cómo obtener y administrar números de teléfono en Polonia para Microsoft Teams.
-ms.openlocfilehash: b49ea2281d507f7b7559f95f6f3c7ade9bb45d1fe65b1a013be997a3ab322e08
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f4ed3f403c57b9a66d5febc6c46bff9b6379d3371986cfacaba309cfba244d82
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848535"
 ---
 # <a name="phone-number-management-for-poland"></a>Teléfono de números para Polonia
 
@@ -40,11 +40,11 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.  |En Polonia, puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y póngase en contacto con [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)<br/><br/>[Nueva solicitud de número de teléfono para Polonia (v.1.0) (pl-pl).](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf) <br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y ponerse en contacto con [PTSN para](contact-pstn-service-desk.md)obtener instrucciones.<br/><br/>Teléfono números se ordenarán en bloques de diez. Los clientes solo se cobrarán por las licencias del plan de llamadas suscritas.<br/><br/>Los nuevos pedidos pueden tardar entre cuatro y seis semanas en completarse en este mercado. |
-|Transferirnos números de teléfono.| Descargue este formulario. <br/>[Carta de autorización (LOA) para Polonia (todos los números) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>Rellene y [póngase en contacto con la RTC para obtener instrucciones](contact-pstn-service-desk.md). <br/><br/>Transferir números puede tardar entre cuatro y seis semanas en completarse en este mercado. <br/><br/> Estos números no se pueden usar para conferencias en este momento.    |
-|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con PTSN para obtener instrucciones](contact-pstn-service-desk.md) sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con la RTC para obtener instrucciones](contact-pstn-service-desk.md) sobre la lista de números de usuario que quiere convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas u operadores automáticos, póngase en contacto con [el servicio de asistencia de RTC](contact-pstn-service-desk.md). |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.  |En Polonia, puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y ponerse en contacto con el Servicio de atención al cliente de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)<br/><br/>[Nueva solicitud de número de teléfono para Polonia (v.1.0) (pl-pl).](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf) <br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y ponerse en contacto con el Servicio de asistencia de [PTSN](contact-pstn-service-desk.md)para obtener instrucciones.<br/><br/>Teléfono números se ordenarán en bloques de diez. Los clientes solo se cobrarán por las licencias del plan de llamadas suscritas.<br/><br/>Los nuevos pedidos pueden tardar entre cuatro y seis semanas en completarse en este mercado. |
+|Transferirnos números de teléfono.| Descargue este formulario. <br/>[Carta de autorización (LOA) para Polonia (todos los números) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) <br/><br/>Transferir números puede tardar entre cuatro y seis semanas en completarse en este mercado. <br/><br/> Estos números no se pueden usar para conferencias en este momento.    |
+|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de asistencia de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) |
 
    
 ## <a name="related-topics"></a>Temas relacionados

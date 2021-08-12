@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: a8047318619c15aaed3c82eaf23761f75b02cc0b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f439d5f89add255f065fffd6d58b16779328854ab5cabc4e43f1b46db7c1637c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095754"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331612"
 ---
 # <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>Perfil de directivas de ancho de banda: Crear nuevos o editar los existentes
 
@@ -28,4 +28,4 @@ ms.locfileid: "51095754"
 
 - [Configuración del perfil de directiva de ancho de banda](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-bandwidth-policy-profiles)
 
-Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype Empresarial Server 2015](../../manage/manage.md).

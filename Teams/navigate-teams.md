@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: bc05be5d107c2394c959b56866b2a5cda143278d
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 7790714434dfa3fb6de6bf5808ec7f8f3097a50fdd79c540e0ef7ee70fc0861b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278673"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350562"
 ---
 # <a name="navigate-microsoft-teams"></a>Navegar Microsoft Teams
 

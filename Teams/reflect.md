@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 981061e4892f679dac2a4e4f47fdcc929e6a02fb
-ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
+ms.openlocfilehash: c4affe52e1cb442ceaa121491f241b032ff986e186978ac25c82771e9dd1d702
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52997709"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350492"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guía para administradores de TI para Reflect en Microsoft Teams
 

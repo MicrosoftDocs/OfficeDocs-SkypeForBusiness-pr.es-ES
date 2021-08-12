@@ -12,33 +12,33 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
-description: 'Resumen: use los siguientes procedimientos para administrar la autenticación y la seguridad de Skype Empresarial Server.'
-ms.openlocfilehash: 08cfe113c73c3abc39e617da8340d63f758438c3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumen: use los siguientes procedimientos para administrar la Skype Empresarial Server seguridad y autenticación.'
+ms.openlocfilehash: ce142b4f28c40e13d17e8990696d88a24e8e212bfbfe2b4f0c2635131b35f352
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119589"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341915"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>Administrar la autenticación en Skype Empresarial Server
  
-**Resumen:** Use los siguientes procedimientos para administrar la autenticación y la seguridad de Skype Empresarial Server.
+**Resumen:** Use los siguientes procedimientos para administrar Skype Empresarial Server seguridad y autenticación.
   
-Use los siguientes procedimientos para administrar la autenticación y la seguridad de Skype Empresarial Server.
+Use los siguientes procedimientos para administrar Skype Empresarial Server seguridad y autenticación.
   
 ## <a name="in-this-section"></a>En esta sección
 
 - [Cómo usar la autenticación moderna (ADAL) con Skype Empresarial](/microsoft-365/enterprise/hybrid-modern-auth-overview)
     
-- [Certificados de FASE AV y OAuth en Skype Empresarial Server con -Roll en Set-CsCertificate](stage-av-and-oauth-certificates.md)
+- [Stage AV and OAuth certificates in Skype Empresarial Server using -Roll in Set-CsCertificate](stage-av-and-oauth-certificates.md)
     
 - [Asignar un certificado de autenticación de servidor a servidor a Skype Empresarial Server](assign-a-server-to-server-certificate.md)
 
-- [Configurar la autenticación de servidor a servidor para un entorno híbrido de Skype Empresarial Server.](configure-a-hybrid-environment.md)
+- [Configure la autenticación de servidor a servidor para un Skype Empresarial Server híbrido.](configure-a-hybrid-environment.md)
 
-- [Configurar una aplicación de socio local para Skype Empresarial Server](configure-an-on-premises-partner-app.md)
+- [Configurar una aplicación de asociado local para Skype Empresarial Server](configure-an-on-premises-partner-app.md)
     
-- [Administrar las opciones de configuración de registrador en Skype Empresarial Server](registrar-configuration-settings.md)
+- [Administrar las opciones de configuración del registrador en Skype Empresarial Server](registrar-configuration-settings.md)
     
 - [Administrar las opciones de configuración del servicio web en Skype Empresarial Server](web-service-configuration-settings.md)
     

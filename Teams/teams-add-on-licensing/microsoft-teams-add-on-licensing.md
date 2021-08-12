@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre las licencias de complementos para Microsoft Teams y las características que obtiene con cada licencia.
-ms.openlocfilehash: 968ec222b32a14d85ffac5f66c9a1d87b0b4fa43
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 568ff0edd9dea24bca6eba02f0972f04990721cc4d68522fd6c9d6d76adc2bc0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646851"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350432"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams de complementos
 

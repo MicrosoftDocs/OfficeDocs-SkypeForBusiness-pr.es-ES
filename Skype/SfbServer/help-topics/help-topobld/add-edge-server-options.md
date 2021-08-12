@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: 'Seleccione cada una de las funciones que desea habilitar para el grupo de servidores perimetrales. De forma predeterminada, el grupo de servidores perimetrales admite usuarios remotos de la organización que inician sesión desde fuera del firewall mediante una red privada virtual (VPN). También tiene las siguientes opciones de función del grupo de servidores perimetrales:'
-ms.openlocfilehash: bccc753a2dd568e88a86c347ca0e962afdeac4d3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2b373f1821b754ee274dcd67d5c5812792f2dac6cb65d235a212f40aedbee63f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101726"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311108"
 ---
 # <a name="add-edge-server-options"></a>Agregar opciones de servidor perimetral
 
@@ -38,4 +38,4 @@ Seleccione cada una de las funciones que desea habilitar para el grupo de servid
 
 - Habilitar la federación XMPP. Seleccione esta opción si desea admitir la comunicación entre usuarios internos y socios XMPP de confianza.
 
-Puede permitir que los usuarios externos tengan acceso al implementar la topología inicial o después. Para obtener más información sobre cómo agregar servidores perimetrales a una topología ya creada, consulte [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology) en la documentación sobre implementación de servidores perimetrales.
+Puede añadir compatibilidad para el acceso de usuarios externos al implementar la topología inicial o más adelante. Para más información sobre cómo añadir servidores perimetrales a una topología existente, consulte [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology) en la documentación sobre implementación de servidores perimetrales.

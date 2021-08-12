@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 description: 'El nodo Grupos de servidores perimetrales contiene los nodos perimetrales de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: eb7c71e95364087f094e22fa4d9337ed93f69f5e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 490d24a99c64d5fe0263bd8e8eabe8074ff2d2af3cb162482252bf86f356ffeb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818420"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286899"
 ---
 # <a name="edge-servers-scope-node"></a>Nodo de ámbito de servidores perimetrales
  
@@ -30,7 +30,7 @@ El nodo **Grupos de servidores perimetrales** contiene los nodos perimetrales de
     
 Además de las opciones de los grupos de servidores perimetrales, puede efectuar las tareas generales siguientes:
   
-- **Topología**. Puede usar esta opción para definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
+- **Topología**. Puede usar esta opción para definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
     
 - **Ver**. Use esta opción para personalizar la vista del Generador de topologías seleccionando los elementos que se deben mostrar y ocultar en las vistas de árbol de consola.
     

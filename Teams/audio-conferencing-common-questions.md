@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Las siguientes son algunas de las principales preguntas que tenemos de nuestros clientes que quieren usar audioconferencias.
-ms.openlocfilehash: c8c5ea445e9c8d01f869a9340934fe75fe92a329
-ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+ms.openlocfilehash: 3770807d9cd5ea69152a4c5039651c94411a8b801f80c3e7804acba195342614
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2021
-ms.locfileid: "53679755"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295257"
 ---
 # <a name="audio-conferencing-common-questions"></a>Preguntas frecuentes sobre Audioconferencia
 

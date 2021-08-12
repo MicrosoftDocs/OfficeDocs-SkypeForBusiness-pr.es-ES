@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir un nuevo un tronco de protocolo de inicio de sesión (SIP) proporcione la información siguiente:'
-ms.openlocfilehash: 540076814d2916f74a5e11be42f99b57711da2b7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 49411ca6416a99d30d7a889aca0151f3ef89b9f7a8b7e559c39366c585144378
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295427"
 ---
 # <a name="define-a-new-trunk"></a>Definir un nuevo tronco
 
@@ -38,7 +38,7 @@ Para definir un nuevo un tronco de protocolo de inicio de sesión (SIP) proporci
 
 - **Puerto del servidor de mediación** asociado: establezca el valor de puerto igual al valor de puerto TCP o TLS del servidor de mediación que usará este tronco SIP
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Tronco M:N en Skype Empresarial Server](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 

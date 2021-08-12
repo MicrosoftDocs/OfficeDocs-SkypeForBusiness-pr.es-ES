@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a801ae905ac7c384399aea5ccdf3bcf6f4e4200f
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: 7cff5f74d5ece9cf28887783ed07b9bfc8e5cd32287a96aeb2efbfaf29bce515
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203619"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350452"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destinos de equipo
 

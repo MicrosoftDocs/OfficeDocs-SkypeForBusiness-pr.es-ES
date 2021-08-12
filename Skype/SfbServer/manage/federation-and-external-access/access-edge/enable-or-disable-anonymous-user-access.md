@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: a65cd80311aaf1d13d5d9471ff285b94545176d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Cómo habilitar y deshabilitar el acceso de usuarios anónimos en Skype Empresarial Server.
+ms.openlocfilehash: c06135c0678309c527ec4bda341c17de2d643ce4d6b947077a3a2d02d71dea55
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848705"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Habilitar o deshabilitar el acceso de usuarios anónimos en Skype Empresarial Server
 
@@ -56,17 +56,13 @@ Puede administrar el acceso de usuarios anónimos mediante Windows PowerShell y 
 
 ## <a name="to-enable-anonymous-user-access"></a>Para habilitar el acceso de usuarios anónimos
 
-  - Para habilitar el acceso de usuarios anónimos, establezca el valor de la **propiedad AllowAnonymousUsers** en True ($True):
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - Para habilitar el acceso de usuarios anónimos, establezca el valor de la **propiedad AllowAnonymousUsers** en True ($True):<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>Para deshabilitar el acceso de usuarios anónimos
 
-  - Para deshabilitar el acceso de usuarios anónimos, establezca el valor de la **propiedad AllowAnonymousUsers** en False ($False):
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - Para deshabilitar el acceso de usuarios anónimos, establezca el valor de la **propiedad AllowAnonymousUsers** en False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Vea también
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

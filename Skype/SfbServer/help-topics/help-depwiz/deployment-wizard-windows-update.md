@@ -1,5 +1,5 @@
 ---
-title: Asistente para implementación de Windows Update
+title: Actualización del Asistente Windows implementación
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
-description: Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server 2015, consulte Instalar Skype Empresarial Server 2015.
-ms.openlocfilehash: 0e990d6882e837e1c0815d41ee78ac47cb61bb1e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para obtener más información sobre cómo usar el Asistente para la implementación Skype Empresarial Server 2015, vea Install Skype Empresarial Server 2015.
+ms.openlocfilehash: 806c4e93625906caac126ca4f5bd2ab04550307ff443e8b7b85d7f8d8d05ea68
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827300"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287169"
 ---
 # <a name="deployment-wizard-windows-update"></a>Asistente para la implementación: Windows Update
  
-Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server 2015, consulte [Instalar Skype Empresarial Server 2015.](../../deploy/install/install.md)
+Para obtener más información sobre cómo usar el Asistente para implementación para instalar Skype Empresarial Server 2015, vea [Install Skype Empresarial Server 2015](../../deploy/install/install.md).
   
 

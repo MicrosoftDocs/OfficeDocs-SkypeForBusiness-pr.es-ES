@@ -12,21 +12,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 'Resumen: obtenga información sobre cómo asignar una directiva de archivado a los usuarios de Skype Empresarial Server.'
-ms.openlocfilehash: 1fce0dbd0cc7b0595dcf3cd91baeba9ed364e28a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7dbd8a4222065c2bc53029b75672d6905dcd73b3a79e0d35ebfc6ce980f9865
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095494"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311098"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Aplicar una directiva de archivado a los usuarios de Skype Empresarial Server
 
 **Resumen:** Obtenga información sobre cómo asignar una directiva de archivado a los usuarios de Skype Empresarial Server.
   
-Si ha creado una o varias directivas de usuario para el archivado para usuarios que se aloban en Skype Empresarial Server, puede implementar la compatibilidad de archivado para usuarios específicos aplicando las directivas adecuadas a esos usuarios o grupos de usuarios. Por ejemplo, si crea una directiva para admitir el archivado de comunicaciones internas, puede aplicarla al menos a un usuario o grupo de usuarios para admitir el archivado de las comunicaciones de Skype Empresarial Server del usuario.
+Si ha creado una o varias directivas de usuario para el archivado para los usuarios que se hospedaron en Skype Empresarial Server, puede implementar la compatibilidad de archivado para usuarios específicos aplicando las directivas adecuadas a esos usuarios o grupos de usuarios. Por ejemplo, si crea una directiva para admitir el archivado de comunicaciones internas, puede aplicarla al menos a un usuario o grupo de usuarios para admitir el archivado de las comunicaciones de Skype Empresarial Server usuario.
   
 > [!NOTE]
-> Si ha habilitado la integración de Microsoft Exchange para la implementación, las directivas de retención de Exchange In-Place controlan si el archivado está habilitado para los usuarios que se encuentran en Exchange y tienen sus buzones en espera In-Place espera. Para obtener más información, vea [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) y Configure integration with Exchange storage for Skype for Business [Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Si ha habilitado la integración de Microsoft Exchange para la implementación, las directivas de retención de Exchange In-Place controlan si el archivado está habilitado para los usuarios que se encuentran en Exchange y tienen sus buzones en espera In-Place. Para obtener más información, vea [Plan for archiving in Skype Empresarial Server](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for [Skype Empresarial Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Aplicar una directiva de usuario mediante el Panel de control
 
@@ -34,7 +34,7 @@ Para aplicar una directiva de usuario mediante el Panel de control:
   
 1. Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios** y, a continuación, busque la cuenta de usuario que quiera configurar. 
     

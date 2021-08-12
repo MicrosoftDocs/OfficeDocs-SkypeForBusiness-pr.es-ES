@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el Centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d130ea4e72b6343def4bfe232934063e0385b72d
-ms.sourcegitcommit: 08bcad09296c96354f0e6203a623dc548e827aa2
+ms.openlocfilehash: 1203f394f9469fbe86a173d60c73280253011b70e4dd21da5290bd40b1e9df22
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53324463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310908"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 

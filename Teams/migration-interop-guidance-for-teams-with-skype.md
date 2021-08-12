@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96aeda2b14d2aa3dedd810317865f3d02e29f68a
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 909c7ca03a2c998e785763b4e1beb09f1f5d0993a286b94d34e2e4d38f6e9b68
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350672"
 ---
 # <a name="coexistence-modes---reference"></a>Modos de coexistencia: referencia
 

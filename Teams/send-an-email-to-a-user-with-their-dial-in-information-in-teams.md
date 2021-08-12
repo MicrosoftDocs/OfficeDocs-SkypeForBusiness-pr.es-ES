@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo enviar a los usuarios un correo electrónico con su información de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: 13c566884c5bc3e8d5de873696541c4b88fcb271
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.openlocfilehash: 58524f6a6f4fe8ad8aefb559ae4f9748ffbf506394cf0bf446aa38ae9740d608
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004202"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350482"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar un correo electrónico a un usuario con su información de Audioconferencia en Microsoft Teams
 

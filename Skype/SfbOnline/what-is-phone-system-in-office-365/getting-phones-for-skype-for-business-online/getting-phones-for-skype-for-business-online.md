@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre qué teléfonos funcionan con Skype for Business de Polycom, HP y Mitel, y las licencias necesarias. '
-ms.openlocfilehash: d6cfbfa56181d8fe8bae55ea4b1efa4680be23c7
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: de18fdc6d7b945987efdde8eaffd8db0c0e5154cf4d1c758572db5696b23f617
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237366"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320962"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtener teléfonos para Skype for Business Online
 
