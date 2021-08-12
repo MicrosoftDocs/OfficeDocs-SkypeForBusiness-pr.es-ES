@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
-description: tblServerIdentity contiene los servidores de chat activos en el grupo de servidores de chat persistente.
-ms.openlocfilehash: 7fa8c1b804432b3a9368785682f45e9ce8d7898e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblServerIdentity contiene los servidores de chat activos del grupo de servidores de chat persistente.
+ms.openlocfilehash: 092331f275ef76372ad1bd2d2462acb9eb7848eea263d59c2276d7a4b6a83779
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831500"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303663"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  
-tblServerIdentity contiene los servidores de chat activos en el grupo de servidores de chat persistente.
+tblServerIdentity contiene los servidores de chat activos del grupo de servidores de chat persistente.
   
 **Columns**
 

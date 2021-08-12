@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Lea este tema para obtener información sobre cómo planear los sitios RTC de Cloud Connector Edition para garantizar un enrutamiento de llamadas eficaz y rentable.
-ms.openlocfilehash: b42f9109a52b5c30996abc3e42ef4ff0aa5f31dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 51bc6c0b7bf536849ebc9d6b1338faa6db8800fee86c4515db4c5f15bf9115b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096234"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339966"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Plan de sitios de RTC con Cloud Connector Edition
 
 > [!Important]
-> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams enrutamiento [directo](/MicrosoftTeams/direct-routing-landing-page).
  
 Lea este tema para obtener información sobre cómo planear los sitios RTC de Cloud Connector Edition para garantizar un enrutamiento de llamadas eficaz y rentable.
   
-En este tema se describe lo que necesita saber acerca de Cloud Connector Edition y el enrutamiento de llamadas para poder planear los sitios RTC de Cloud Connector. Un sitio RTC es una combinación de dispositivos de Cloud Connector, implementados en la misma ubicación y con puertas de enlace RTC comunes conectadas a ellos. Este tema se centra en cómo configurar la topología de sitio de Cloud Connector para garantizar que los sitios de Cloud Connector puedan controlar el enrutamiento entrante y saliente para todos los usuarios asignados a un sitio de la manera más rentable y eficaz posible. Para obtener más información acerca de Cloud Connector y las ventajas de los sitios RTC, asegúrese de leer [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md). 
+En este tema se describe lo que necesita saber acerca de Cloud Connector Edition y el enrutamiento de llamadas para poder planear los sitios RTC de Cloud Connector. Un sitio RTC es una combinación de dispositivos de Cloud Connector, implementados en la misma ubicación y con puertas de enlace RTC comunes conectadas a ellos. Este tema se centra en cómo configurar la topología de sitio de Cloud Connector para garantizar que los sitios de Cloud Connector puedan controlar el enrutamiento entrante y saliente para todos los usuarios asignados a un sitio de la manera más rentable y eficaz posible. Para obtener más información acerca de Cloud Connector y las ventajas de los sitios RTC, asegúrese de leer [Plan for Skype for Business Edición de conector de nube](plan-skype-for-business-cloud-connector-edition.md). 
   
 ## <a name="cloud-connector-pstn-sites-and-call-routing"></a>Sitios RTC de Cloud Connector y enrutamiento de llamadas
 

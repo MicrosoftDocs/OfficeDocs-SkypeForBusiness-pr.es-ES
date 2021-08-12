@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44d66895672c6fe14e3f524064e58aac504a12d7
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 1c7665cb48b77733ff3a49a8cc1abb66f3609a6459092f43448e7cb0df202cb8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282567"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329225"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Cómo usar Microsoft Teams eficaz
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Cree o modifique rutas interregionales de red, que se usan Telefonía IP empresarial control de admisión de llamadas en Skype Empresarial Server.
-ms.openlocfilehash: d9ea8def930a075c93effede73ddb3f12d999334
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4d3451d43d364e5b9506289e7909456c8bdc657b8ac575dfea360a960352b8d8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093128"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294897"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Crear rutas interregionales de red en Skype Empresarial Server
  
@@ -33,11 +33,11 @@ Aunque los vínculos de región establecen limitaciones de ancho de banda en las
   
 En la topología de ejemplo, las rutas interregionales de red deben definirse para cada uno de los tres pares de regiones: Norteamérica/EMEA, EMEA/APAC y Norteamérica/APAC. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Para crear rutas interregionales de red mediante el Shell de administración de Skype Empresarial Server
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Para crear rutas interregionales de red mediante Skype Empresarial Server Shell de administración
 
-1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
-2. Ejecute el cmdlet **New-CsNetworkInterRegionRoute** para definir las rutas necesarias. Por ejemplo, ejecute:
+2. Ejecute el cmdlet **New-CsNetworkInterRegionRoute** para definir las rutas necesarias. Por ejemplo, ejecute lo siguiente:
     
    ```powershell
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -54,9 +54,9 @@ En la topología de ejemplo, las rutas interregionales de red deben definirse pa
     > [!NOTE]
     > La ruta interregional de red de Norteamérica/APAC requiere dos vínculos de región de red porque no hay ningún vínculo de región de red directo entre ellos. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>Para crear rutas interregionales de red mediante el Panel de control de Skype Empresarial Server
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>Para crear rutas interregionales de red mediante Skype Empresarial Server Panel de control
 
-1. Abra el Panel de control de Skype Empresarial Server.
+1. Abra Skype Empresarial Server Panel de control.
     
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
     
@@ -79,7 +79,7 @@ En la topología de ejemplo, las rutas interregionales de red deben definirse pa
     
 10. Para terminar de crear rutas interregionales de red para la topología, repita los pasos del 4 al 9 con la configuración de otras rutas interregionales de red.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [New-CsNetworkInterRegionRoute](/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   

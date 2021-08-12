@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Información general sobre la interoperación del escáner antivirus con Skype Empresarial Server.
-ms.openlocfilehash: 64646304b98de075fd9af0a82096da8c0bff2f12
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Información general sobre la interoperación del antivirus con Skype Empresarial Server.
+ms.openlocfilehash: 2f44b5a07bf62f06f3363b2f6938e48d9f5866626be44626bd0bd3cb4cf3a2d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104246"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347821"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusiones de análisis antivirus para Skype Empresarial Server
 
-Información general sobre la interoperación del escáner antivirus con Skype Empresarial Server.
+Información general sobre la interoperación del antivirus con Skype Empresarial Server.
 
-Para asegurarse de que el escáner antivirus no interfiera con el funcionamiento de Skype Empresarial Server, debe excluir procesos y directorios específicos para cada servidor o rol de servidor de Skype Empresarial Server en el que ejecute un escáner antivirus. Estos son los procesos y directorios en cuestión:
+Para asegurarse de que el analizador antivirus no interfiera con el funcionamiento de Skype Empresarial Server, debe excluir procesos y directorios específicos para cada rol de servidor o servidor de Skype Empresarial Server en el que ejecute un escáner antivirus. Estos son los procesos y directorios en cuestión:
 
 > [!NOTE]
-> Las ubicaciones de carpetas y archivos que se enumeran a continuación son las ubicaciones predeterminadas de Skype Empresarial Server. En el caso de haya ubicaciones especificadas para la organización que no sean las predeterminadas, exclúyalas en lugar de las ubicaciones predeterminadas mencionadas en este tema.
+> Las ubicaciones de carpetas y archivos que se enumeran a continuación son las ubicaciones predeterminadas para Skype Empresarial Server. En el caso de haya ubicaciones especificadas para la organización que no sean las predeterminadas, exclúyalas en lugar de las ubicaciones predeterminadas mencionadas en este tema.
 
 > [!IMPORTANT]
 > Tenga en cuenta que algunos programas antivirus pueden necesitar rutas absolutas, no relativas, para su lista de exclusión.
 
-- Procesos de Skype Empresarial Server:
+- Skype Empresarial Server procesos:
 
   - ABServer.exe
 
@@ -82,7 +82,7 @@ Para asegurarse de que el escáner antivirus no interfiera con el funcionamiento
 
   - XmppTGW.exe
 
-- Procesos del servicio host de Windows Fabric:
+- Windows Fabric Procesos de servicio de host:
 
   - Fabric.exe
 
@@ -113,7 +113,7 @@ Para asegurarse de que el escáner antivirus no interfiera con el funcionamiento
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe
 
-  - Instancia RTC de instalación de Standard Edition
+  - Standard Edition Instancia RTC de instalación
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe
 
@@ -126,15 +126,15 @@ Para asegurarse de que el escáner antivirus no interfiera con el funcionamiento
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
-    > Tenga en cuenta que estas rutas de acceso son específicas de la versión de Skype Empresarial Server.
+    > Tenga en cuenta que estas rutas de acceso son específicas Skype Empresarial Server versión.
 
   - %programfiles%\Skype Empresarial Server 2015
 
-  - %programfiles%\Common Files\Skype for Business Server 2015\Watcher Node
+  - %programfiles%\Common Files\Skype Empresarial Server 2015\Watcher Node
 
-  - %programfiles%\Common Files\Skype for Business Server 2015
+  - %programfiles%\Common Files\Skype Empresarial Server 2015
 
-  - %programfiles%\Common Files\Skype for Business Online
+  - %programfiles%\Common Files\Skype Empresarial Online
 
   - %SystemDrive%\RtcReplicaRoot
 
@@ -142,4 +142,4 @@ Para asegurarse de que el escáner antivirus no interfiera con el funcionamiento
 
   - Datos y archivos de registro de SQL Server, incluidos los relativos a la base de datos back-end, el almacén de usuarios, el almacén de archivado, el almacén de supervisión y el almacén de aplicaciones. Las bases de datos y los archivos de registro se pueden especificar en el Generador de topologías. Para obtener información detallada sobre los datos y los archivos de registro de cada base de datos (incluidos los nombres predeterminados), consulte [SQL Server Data and Log File Placement](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) en la documentación de implementación.
 
-  - SQL Server datos y archivos de registro, incluidos los de la base de datos front-end, el almacén de Skype Empresarial y el almacén RtcDatabase. Normalmente están en %localdrive%\CSData.
+  - SQL Server datos y archivos de registro, incluidos los de la base de datos front-end, el Skype Empresarial y el almacén RtcDatabase. Normalmente están en %localdrive%\CSData.

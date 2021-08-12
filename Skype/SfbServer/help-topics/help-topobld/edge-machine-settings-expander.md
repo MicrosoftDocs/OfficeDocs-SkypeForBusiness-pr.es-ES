@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 description: 'Para editar las propiedades de un servidor en un grupo de servidores perimetrales, efectúe las acciones siguientes:'
-ms.openlocfilehash: 7c3b3d45617d8feeee062bb16e1c7222b71118d8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 05a1c00e852fb2ac2f43e3310f8752484d2ee73d25f9eb36c2bc612828f1671a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807130"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319193"
 ---
 # <a name="edge-machine-settings-expander"></a>Expansor de configuración de equipo perimetral
  

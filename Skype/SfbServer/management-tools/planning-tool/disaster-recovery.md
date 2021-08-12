@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Skype Empresarial Server 2015 incluye medidas de recuperación ante desastres al habilitar el emparejamiento de grupos de servidores front-end ubicados en dos centros de datos.
-ms.openlocfilehash: 7e6c0084f424de781c42d4afaebdb827627ed280
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: b4867772fdca270cf0d71ee225799406fe1a98f50fe0d626f090f2e42e402db7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646071"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347925"
 ---
 # <a name="disaster-recovery-planning-tool"></a>Herramienta de planeación de recuperación ante desastres
  

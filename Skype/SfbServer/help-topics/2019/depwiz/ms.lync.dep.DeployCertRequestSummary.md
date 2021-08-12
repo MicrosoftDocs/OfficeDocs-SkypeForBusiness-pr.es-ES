@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 ROBOTS: NOINDEX, NOFOLLOW
-description: La página Resumen de solicitud de certificado muestra un resumen de todas las opciones y configuraciones del certificado. El resumen representa el contenido de la solicitud del certificado y, posteriormente, la forma en que se emitirá el certificado. Debe revisar detenidamente el resumen para asegurarse de que todas las entradas y opciones que seleccionó sean correctas. Si las selecciones son correctas, haga clic en Siguiente para continuar con la generación de la solicitud y prepararla para enviarla a la entidad de certificación (CA).
-ms.openlocfilehash: 216465d78caed2ab2a181faf9bc5a67202f479bf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: La página Resumen de solicitud de certificado muestra un resumen de todas las opciones y configuraciones del certificado. El resumen representa el contenido de la solicitud del certificado y, posteriormente, la forma en que se emitirá el certificado. Debe revisar detenidamente el resumen para asegurarse de que todas las entradas y opciones seleccionadas sean correctas. Si las selecciones son correctas, haga clic en Siguiente para continuar con la generación de la solicitud y prepararla para enviarla a la entidad de certificación (CA).
+ms.openlocfilehash: 03d44be1be21d6af860b03a256f9be67f7589f365051e79edfd94503a153683f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291698"
 ---
 # <a name="certificate-request-summary"></a>Solicitud de certificados (resumen)
  
-La página **Resumen de solicitud de certificado** muestra un resumen de todas las opciones y configuraciones del certificado. El resumen representa el contenido de la solicitud del certificado y, posteriormente, la forma en que se emitirá el certificado. Debe revisar detenidamente el resumen para asegurarse de que todas las entradas y opciones que seleccionó sean correctas. Si las selecciones son  correctas, haga clic en Siguiente para continuar con la generación de la solicitud y prepararla para enviarla a la entidad de certificación (CA).
+La página **Resumen de solicitud de certificado** muestra un resumen de todas las opciones y configuraciones del certificado. El resumen representa el contenido de la solicitud del certificado y, posteriormente, la forma en que se emitirá el certificado. Debe revisar detenidamente el resumen para asegurarse de que todas las entradas y opciones seleccionadas sean correctas. Si las selecciones son correctas, haga **clic** en Siguiente para continuar con la generación de la solicitud y prepararla para enviarla a la entidad de certificación (CA).
   
 

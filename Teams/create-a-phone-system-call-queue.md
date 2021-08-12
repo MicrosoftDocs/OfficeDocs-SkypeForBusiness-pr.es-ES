@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 2b07275b75fdb9e915fad026e8ef1c96dcb3ec89
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: d7072871bfc6e1a2c510824276e6918ccbe5a0eeade865158deac78701b87f11
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848655"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -143,7 +143,7 @@ Las cuentas de Teams de los agentes deben establecerse en modo solo Teams. Los a
 > El modo de conferencia no es compatible si las llamadas telefónicas se enruta a la cola desde una puerta de enlace de enrutamiento directo habilitada para enrutamiento basado en ubicación.
 
 > [!TIP]
-> Establecer **el modo de conferencia** en **Automático** es la configuración recomendada.
+> Establecer **el modo de conferencia** en **On** es la configuración recomendada.
 
 **El método de enrutamiento** determina el orden en que los agentes reciben llamadas de la cola. Elija una de estas opciones:
 
@@ -206,7 +206,7 @@ Cuando haya seleccionado las opciones del tiempo de espera de la llamada, haga c
 
 Se recomienda la siguiente configuración:
 
-- **Modo de conferencia** a **automático**
+- **Modo de conferencia** en **On**
 - **Método de enrutamiento** a **distribución equilibrada** o **inactividad mayor**
 - **Enrutamiento basado en presencia** a **Activado**
 - **Hora de alerta de agente:** a **20 segundos**

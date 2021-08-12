@@ -18,21 +18,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 50c6845eabb56ea270e6eafa699fbba57d0639e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 09a231690815be5be2109b1079195bdeb8100ca935a6b2bdcd06962cc4c08c92
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848115"
 ---
-<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Detección ambiental para una Microsoft Teams implementación
-===================================================
+# <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Detección ambiental para una Microsoft Teams implementación
 
 La detección es uno de los primeros pasos clave que debe seguir al planear su viaje a Microsoft Teams.
 
 Realice una detección detallada de su entorno para comprender mejor su estado actual y para revelar cualquier dificultad o, incluso más, posibles bloqueadores para la ejecución de su Teams implementación.
 
-## <a name="discovery-questionnaire"></a>Cuestionario de la detección
+## <a name="discovery-questionnaire"></a>Cuestionario de detección
 
 El cuestionario de ejemplo siguiente le guiará a través de un conjunto de preguntas para confirmar que su organización está lista para la implementación correcta de audioconferencias y Sistema telefónico con las capacidades planes de llamadas en Teams.
 
@@ -43,8 +42,7 @@ El cuestionario se divide en varias secciones para confirmar la preparación de 
 > [!TIP]
 > Puede empezar copiando el cuestionario en un Microsoft Word documento. Intenta responder a todas las preguntas y capturar todos los detalles a medida que avanzas.
 
-<a name="project-team"></a>Project equipo
----
+### <a name="project-team"></a>Project equipo
 
 Capture información detallada sobre las partes interesadas clave de Teams proyecto de implementación. Tenga en cuenta que una persona puede desempeñar varios roles en todo el proyecto.
 
@@ -67,8 +65,7 @@ Capture información detallada sobre las partes interesadas clave de Teams proye
 > | Responsable del equipo de vídeo | | | |
 > | Clientes potenciales de unidades de negocio | | | |
 
-<a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 o Office 365 de la organización
----
+## <a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 o Office 365 de la organización
 
 Le recomendamos que tenga una organización Microsoft 365 o Office 365 mientras trabaja con este cuestionario. Si aún no ha activado o configurado una Microsoft 365 o Office 365 organización, vea Planear la configuración de [Microsoft 365 para empresas.](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)
 
@@ -88,8 +85,7 @@ Use la tabla siguiente para capturar información sobre la Microsoft 365 o Offic
 > | Si actualmente mantiene una cuenta Microsoft 365<br/>o Office 365 inquilino, es el dominio SMTP/SIP de <br/>los usuarios dirigidos asociados con el inquilino? | <input type="checkbox">N/A: sin Microsoft 365 o<br/>&nbsp;&nbsp; &nbsp; Office 365 inquilino en su lugar <br/> <input type="checkbox"> No, SMTP/SIP de los usuarios <br/>&nbsp;&nbsp; &nbsp; dominio no está asociado <br/>&nbsp;&nbsp; &nbsp; con todos los inquilinos en <br/>&nbsp;&nbsp; &nbsp; Microsoft 365 o Office 365<br/> <input type="checkbox"> Sí, SMTP/SIP de los usuarios <br/>&nbsp;&nbsp; &nbsp; dominio está asociado <br/>&nbsp;&nbsp; &nbsp; con un inquilino existente en <br/>&nbsp;&nbsp; &nbsp; Microsoft 365 o Office 365 | |
 > | ¿Coinciden los UPN de usuario con su dirección SMTP principal? | <input type="checkbox"> Sí <br/> <input type="checkbox"> No <br/> <input type="checkbox"> Incoherente | |
 
-<a name="existing-collaboration-platform-summary"></a>Resumen de la plataforma de colaboración existente
----
+## <a name="existing-collaboration-platform-summary"></a>Resumen de la plataforma de colaboración existente
 
 Use la tabla siguiente para capturar información sobre la implementación de la plataforma de colaboración existente.
 
@@ -105,8 +101,7 @@ Use la tabla siguiente para capturar información sobre la implementación de la
 > | ¿Cuál es la solución de telefonía y conferencias actual? <br/>de los usuarios que están en el ámbito de esta iniciativa? | | |
 > | ¿Tiene [SBC que admiten enrutamiento directo](./direct-routing-plan.md#supported-session-border-controllers-sbcs) implementado? <br/>para sus oficinas que están en el ámbito de esta iniciativa? Si es así,<br/>tenga en cuenta los detalles de la columna Comentarios.| <input type="checkbox"> Sí <br/> <input type="checkbox"> No ||
 
-<a name="collaboration-platform-deployment-details"></a>Detalles de implementación de la plataforma de colaboración
----
+## <a name="collaboration-platform-deployment-details"></a>Detalles de implementación de la plataforma de colaboración
 
 ### <a name="microsoft-teams-if-applicable"></a>Microsoft Teams (si corresponde)
 
@@ -149,8 +144,7 @@ Si procede, capture los detalles de su Skype Empresarial mediante la tabla de ej
 > | Seleccione los servicios que su rol de Edge proporciona hoy. | <input type="checkbox"> Acceso de usuario externo (usuarios corporativos) <br/> <input type="checkbox"> Acceso de usuario remoto (anónimo) <br/>&nbsp;&nbsp; &nbsp; participantes externos de la reunión) <br/> <input type="checkbox"> Federación <br/> <input type="checkbox"> Retransmisión multimedia | |
 > | ¿Cuál de las siguientes características de llamadas de voz le permite <br/>actualmente tiene dependencias en? <br/>Tenga en cuenta las dependencias adicionales en los comentarios <br/>columna. | <input type="checkbox"> Opciones de disponibilidad <br/> <input type="checkbox"> Parque de llamadas <br/> <input type="checkbox"> Recogida de llamadas o recogida de llamadas grupales <br/> <input type="checkbox"> Teléfonos de área común o "hot desking" <br/> <input type="checkbox"> Grupos de respuesta o grupos de búsqueda <br/> <input type="checkbox"> Apariencia de línea compartida <br/> <input type="checkbox"> Línea privada <br/> <input type="checkbox"> Correo de voz <br/> <input type="checkbox"> Llamar a través del trabajo <br/> <input type="checkbox"> Números de emergencia o de información <br/>&nbsp;&nbsp; &nbsp; (911, 811, 411) <br/> <input type="checkbox"> Marcación de extensión <br/> <input type="checkbox"> Operador automático <br/> <input type="checkbox"> Acceso de suscriptor <br/> <input type="checkbox"> Dispositivos analógicos <br/> <input type="checkbox"> Fax <br/> <input type="checkbox"> Identificador de llamada que enmascara o modifica <br/> <input type="checkbox"> Enrutamiento basado en ubicación <br/> <input type="checkbox"> Enrutamiento de menor coste <br/> <input type="checkbox"> Teléfonos con ascensor | |
 
-<a name="networking-and-access-to-microsoft-365-and-office-365-services"></a>Redes y acceso a Microsoft 365 y Office 365 servicios
----
+## <a name="networking-and-access-to-microsoft-365-and-office-365-services"></a>Redes y acceso a Microsoft 365 y Office 365 servicios
 
 Use la tabla siguiente para capturar los detalles de red de su organización y cómo los usuarios están (o estarán) conectados a Microsoft 365 y Office 365 servicios.
 
@@ -166,8 +160,7 @@ Use la tabla siguiente para capturar los detalles de red de su organización y c
 > | ¿Puede priorizar Teams tráfico de audio y vídeo? <br/>para impulsar una experiencia de alta calidad? | <input type="checkbox"> Sí <br/> <input type="checkbox"> No | |
 > | Hacer que todas las ubicaciones de una región tengan salida de Internet, <br/>o está centralizada la salida de Internet para toda la región? | <input type="checkbox"> Acceso regional a Internet <br/> <input type="checkbox"> Acceso centralizado a la <br/>&nbsp;&nbsp; &nbsp; Internet | |
 
-<a name="endpoints"></a>Puntos de conexión
----
+## <a name="endpoints"></a>Puntos de conexión
 
 Use la tabla siguiente para capturar los detalles de los clientes y puntos de conexión en uso.
 
@@ -180,8 +173,7 @@ Use la tabla siguiente para capturar los detalles de los clientes y puntos de co
 > | ¿Cómo se proporcionan los dispositivos móviles? <br/>Seleccione todas las que se apliquen. | <input type="checkbox"> Dispositivos corporativos <br/> <input type="checkbox"> Traer su propio dispositivo | |
 > | ¿Qué dispositivos usan actualmente los usuarios para obtener acceso? <br/>servicios de voz y conferencias <br/>(auriculares, auriculares, teléfonos, vídeo)? | | |
 
-<a name="operations"></a>Operaciones
----
+## <a name="operations"></a>Operaciones
 
 Use la tabla siguiente para capturar los detalles de los aspectos operativos de su entorno.
 
@@ -196,8 +188,7 @@ Use la tabla siguiente para capturar los detalles de los aspectos operativos de 
 > | ¿Experimenta problemas de calidad de llamadas? | <input type="checkbox"> Sí<br/> <input type="checkbox"> No | |
 > | ¿Cómo y cuándo proporcionas formación a tu <br/>departamento de soporte técnico sobre nuevos servicios y capacidades? | | |
 
-<a name="adoption-and-readiness"></a>Adopción y preparación
----
+## <a name="adoption-and-readiness"></a>Adopción y preparación
 
 Use la tabla siguiente y capture el estado actual de adopción y preparación de su organización.
 

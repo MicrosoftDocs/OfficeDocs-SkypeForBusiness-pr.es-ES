@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a57a34d23cc779efd1c6c596bc27f2e23d968e89
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 7d08f9363f3848a61602f00a92a98b672f999b73f13427ad014a0748a1bc0a09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230715"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347905"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Actualizar los usuarios de la versión de prueba de Teams Exploratory
 

@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede usar la página Directiva de chat persistente del grupo chat persistente para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o más directivas de usuario y sitio adicionales para la implementación. Si el servidor de chat persistente está habilitado para un usuario por directiva, el entorno del servidor de chat persistente aparece en su cliente.
-ms.openlocfilehash: 336e2942d1da8b296b983f974a5f02431db6d639
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8d034c142dbfd07b63ec4a612970f6647e196bd025d78733a75fd80b8943467e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291618"
 ---
 # <a name="persistent-chat-policy"></a>Directiva de chat persistente
 
 > [!NOTE] 
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, [vea Skype Empresarial to Microsoft Teams upgrade](/MicrosoftTeams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015.
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, [vea Skype Empresarial para Microsoft Teams actualización](/MicrosoftTeams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad para Teams o seguir usando Skype Empresarial Server 2015.

@@ -1,5 +1,5 @@
 ---
-title: Enrutamiento directo del sistema telefónico
+title: Teléfono sistema de enrutamiento directo en Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,20 +15,20 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Obtenga más información sobre enrutamiento directo, como configuración, decisiones básicas de implementación necesarias y consideraciones de enrutamiento de voz.
+description: Obtenga información sobre la configuración de enrutamiento directo, las decisiones básicas de implementación necesarias y las consideraciones de enrutamiento de voz.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cfa0f6aecf2dfeb708d51ff6ebd98f13a36167125f295329f3e37b2e39c0daf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55676d855d3e15c3f767203da981a4fae241f3128a270f5656d770a229f00059
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848075"
 ---
-# <a name="phone-system-direct-routing"></a>Enrutamiento directo del sistema telefónico
+# <a name="phone-system-direct-routing"></a>Teléfono sistema de enrutamiento directo
 
 Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Puede que haya implementado Reuniones [& conferencias.](deploy-meetings-microsoft-teams-landing-page.md) Ahora ya está listo para agregar cargas de trabajo de voz en la nube y ha decidido usar su propio operador de telefonía para la conectividad de red telefónica conmutada (RTC) mediante Sistema telefónico enrutamiento directo. Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier proveedor de servicios de telefonía.
 

@@ -20,15 +20,14 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: fedd643cd597ee3c8819273fcd98a27996e8502bb3e5cb59d51e6693a6914881
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e34df0eebb9f6f8bee224c70c37504413115db7f3003359b1060f85ca17bec86
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848275"
 ---
-<a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Planear grupos Microsoft 365 al crear equipos en Microsoft Teams
-==========================================================
+# <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Planear grupos Microsoft 365 al crear equipos en Microsoft Teams
 
 Al considerar el uso de grupos de Microsoft 365 o al crear equipos, tenga en cuenta para qué se usará el equipo, quién debe tener acceso y qué resultados espera lograr el equipo. Preste especial atención al número de canales que cree, ya que los usuarios pueden desbordarse rápidamente por el contenido extendido demasiado fino (en demasiados canales).
 

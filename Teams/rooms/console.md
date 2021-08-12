@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar y configurar la Salas de Microsoft Teams y sus periféricos.
-ms.openlocfilehash: 4caa2677eea01ecc96e426692b536aec8563c473
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 470230a9c855be3e0bacfefc9fc13087943fa9893488c97a118b91423ebf26e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117578"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328985"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar una consola de sala de Microsoft Teams
 

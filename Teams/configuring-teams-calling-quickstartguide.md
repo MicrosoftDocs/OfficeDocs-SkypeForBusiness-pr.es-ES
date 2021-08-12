@@ -19,28 +19,27 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6420fdff102533c44bdd3ccb2ab503a646c354b8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5fc2a18d2a7199bf35e2a06ae8cce2b781b570846014443cbc30b393e39e52aa
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848435"
 ---
-<a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
-==============================================================
+# <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 
 Esta guía le ayudará a poner en marcha un conjunto de usuarios para que puedan explorar planes de llamadas en Teams.
 
 Lea el anuncio del 12 de diciembre de 2017 sobre planes de llamadas en Teams: [Comunicaciones inteligentes](https://aka.ms/ipyqus) da el siguiente paso con las llamadas en Teams
 
 > [!NOTE]
-> Le recomendamos que, en paralelo con esta [](calling-plan-landing-page.md) guía de inicio rápido, lea Sistema telefónico planes de llamadas y [FastTrack](https://aka.ms/cloudvoice) para planear e impulsar una implementación correcta.
+> Le recomendamos que, en paralelo con esta [](calling-plan-landing-page.md) guía de inicio rápido, lea Sistema telefónico planes de llamadas y FastTrack para planear e impulsar una implementación correcta. [](https://aka.ms/cloudvoice)
 
 Al agregar planes de llamadas , una característica de Microsoft 365 y Office 365 con tecnología de Skype Empresarial, ahora puede usar Teams para realizar y recibir llamadas telefónicas desde o hacia líneas terrestres y teléfonos móviles a través de la red telefónica conmutada (RTC).
 
 ![Captura de pantalla que muestra la página Contactos en Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Requisitos previos para habilitar la **pestaña** Llamadas en Teams
-Para habilitar  la pestaña Llamadas en Teams los usuarios deben tener las llamadas 1:1 habilitadas en Teams y usar un cliente de Teams compatible con las llamadas Teams 1:1. Para obtener información sobre cómo administrar las llamadas 1:1 en Teams, lea [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Para saber qué clientes admiten llamadas, lea [Límites y especificaciones para Microsoft Teams](./limits-specifications-teams.md).
+Para habilitar  la pestaña Llamadas en Teams los usuarios deben tener las llamadas 1:1 habilitadas en Teams y usar un cliente de Teams compatible con las llamadas Teams 1:1. Para obtener información sobre cómo administrar las llamadas 1:1 en Teams, lea [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy). Para saber qué clientes admiten llamadas, lea [Límites y especificaciones para Microsoft Teams](./limits-specifications-teams.md).
 
 > [!NOTE]
 > Actualmente, el correo de voz no estará disponible en la pestaña Llamadas a menos que el usuario esté habilitado para las llamadas RTC. 

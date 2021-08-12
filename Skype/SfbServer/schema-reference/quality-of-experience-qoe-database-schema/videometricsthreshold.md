@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
 description: La tabla VideoMetricsThreshold contiene valores óptimos y aceptables para las métricas de Calidad de experiencia utilizadas con videollamadas.
-ms.openlocfilehash: 15bf482412973fe4b3a0178be6ecdcc593c762e7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1885e1d5bfbea10ffed518aaedcc8bf47a2b5217c333c187eaf2a2ee0dc7b0d2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821380"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340006"
 ---
 # <a name="videometricsthreshold-table"></a>Tabla VideoMetricsThreshold
  
@@ -27,7 +27,7 @@ La tabla VideoMetricsThreshold contiene valores óptimos y aceptables para las m
 
 | **Columna**                                               | **Tipo de datos**       | **Clave/índice**  | **Detalles**                          |
 |:---------------------------------------------------------|:--------------------|:---------------|:-------------------------------------|
-| **CallType** <br/>                                       | entero  <br/>          | Principal  <br/> | Tipo de llamada realizada.  <br/> |
+| **CallType** <br/>                                       | Entero  <br/>          | Principal  <br/> | Tipo de llamada realizada.  <br/> |
 | **VideoPostFECPLROptimal** <br/>                         | decimal(5,2)  <br/> |                | El valor predeterminado es 0,05.  <br/>    |
 | **VideoPostFECPLRAcceptable** <br/>                      | decimal(5,2)  <br/> |                | El valor predeterminado es 0,10.  <br/>    |
 | **VideoLocalFrameLostPercentageAverageOptimal** <br/>    | decimal(5,2)  <br/> |                | El valor predeterminado es 5,0.  <br/>     |

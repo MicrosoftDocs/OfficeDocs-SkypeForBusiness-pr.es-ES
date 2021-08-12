@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre las licencias disponibles para diferentes tipos de llamadas y características de reunión en Salas de Microsoft Teams.
-ms.openlocfilehash: 03557d1e833241b36bb1bc5df3a5ef36ff2ca450
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: ff6c36d0ded93ffa2231b6fd54a32658ce477d143c2fab4812446c4b88d50cd0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646691"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328975"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Sala de reuniones de licencias
 

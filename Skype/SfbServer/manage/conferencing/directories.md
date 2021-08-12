@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 'Resumen: obtenga información sobre cómo crear directorios de conferencias en Skype Empresarial Server.'
-ms.openlocfilehash: e4d73cc73a5c3c343e8a4734923cf80fb2590211
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumen: obtenga información sobre cómo crear directorios de conferencia en Skype Empresarial Server.'
+ms.openlocfilehash: b1b1a09b00a7b0c87caff474d52e000db1e95a4a79ba8e54cb4a15a3f4ca32de
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319113"
 ---
 # <a name="create-conference-directories-in-skype-for-business-server"></a>Crear directorios de conferencia en Skype Empresarial Server
  

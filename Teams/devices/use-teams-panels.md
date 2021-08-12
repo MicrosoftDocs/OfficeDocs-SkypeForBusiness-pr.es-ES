@@ -1,6 +1,6 @@
 ---
 title: Cómo usar dispositivos Microsoft Teams paneles
-ms.author: v-mdhiman
+ms.author: serdars
 author: ManikaDhiman
 manager: serdars
 ms.reviewer: weizxue
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se proporcionan instrucciones sobre cómo usar Teams dispositivos de paneles.
-ms.openlocfilehash: f5afdb5ec9ec7cb6d6c7e86487dbaf27af98bafc
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: d7f7e34bec83d8d1debeed39eeed162e98d011ac3656517025005ce31db24b65
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848085"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Cómo usar Microsoft Teams paneles
 
@@ -212,7 +212,7 @@ Los administradores pueden elegir rojo o púrpura como color LED para indicar qu
 :::image type="content" source="../media/panels-led-settings.png" alt-text="Esta captura de pantalla muestra la configuración de estado ocupado del color DEL LED":::
 4. Vuelva a la pantalla Inicio y compruebe que el color del LED para el estado ocupado está actualizado. Si el espacio de reunión está disponible actualmente, intente programar una reunión de prueba para comprobar el cambio en el color del LED para el estado ocupado.
 
-## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 Encuentre respuestas a las preguntas más frecuentes sobre los Teams paneles.
 

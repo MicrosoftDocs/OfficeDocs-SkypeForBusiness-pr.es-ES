@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: 'Resumen: obtenga información sobre el informe de resumen de actividad punto a punto en Skype Empresarial Server.'
-ms.openlocfilehash: b1dddaefc7e824bc7b4387d13c92143e253d69f2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn about the Peer-to-Peer Activity Summary Report in Skype Empresarial Server.'
+ms.openlocfilehash: da8d23a0a51b23ccfbe0e15b7e2c79f81c88bf3559deb7005dc5d4f75f512ad2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286799"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Informe de resumen de actividad punto a punto en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre el informe de resumen de actividad punto a punto en Skype Empresarial Server.
+**Resumen:** Obtenga información sobre el Informe de resumen de actividad punto a punto en Skype Empresarial Server.
   
-El Informe de resumen de actividad punto a punto proporciona una vista general de las sesiones de comunicación punto a punto. Una sesión punto a punto normalmente implica solo dos usuarios y no requiere el uso de los servicios de conferencia de Skype Empresarial Server. En comparación, una conferencia suele implicar a más de dos usuarios y requiere el uso de los servicios de conferencia de Skype Empresarial Server. La actividad de la conferencia se notifica en el Informe de resumen de conferencia.
+El Informe de resumen de actividad punto a punto proporciona una vista general de las sesiones de comunicación punto a punto. Una sesión punto a punto suele implicar solo dos usuarios y no requiere el uso de los servicios de conferencia Skype Empresarial Server punto. En comparación, una conferencia suele implicar a más de dos usuarios y requiere el uso de Skype Empresarial Server servicios de conferencia. La actividad de la conferencia se notifica en el Informe de resumen de conferencia.
   
 Con el Informe de resumen de actividad punto a punto le será más fácil responder a preguntas como la siguiente:
   
 - ¿Cuántos mensajes instantáneos de punto a punto envían habitualmente mis usuarios en un día normal?
     
-- ¿Alguno de mis usuarios aprovecha realmente las capacidades de uso compartido de aplicaciones y transferencia de archivos de Skype Empresarial Server?
+- ¿Alguno de mis usuarios aprovecha realmente las Skype Empresarial Server de uso compartido de aplicaciones y transferencia de archivos?
     
 - Los usuarios se han estado quejando de que en determinados momentos del día, parece que la red va más lenta. ¿Cuántos minutos se dedican a las sesiones de audio o vídeo en esos períodos de tiempo?
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Acceder al Informe de resumen de actividad punto a punto
 
-Acceda al Informe de resumen de actividad punto a punto desde la página inicial de los informes de supervisión. Para abrir el informe de mensajería instantánea punto a punto [en Skype Empresarial Server,](im-report.md) haga clic en cualquiera de las métricas siguientes:
+Acceda al Informe de resumen de actividad punto a punto desde la página inicial de los informes de supervisión. Para abrir el informe de mensajería instantánea punto [a punto en Skype Empresarial Server](im-report.md) haga clic en cualquiera de las siguientes métricas:
   
 - Total de sesiones de MI punto a punto
     
@@ -65,9 +65,9 @@ En la siguiente tabla se enumeran los filtros que puede utilizar con el Informe 
 
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|**From** <br/> |Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:  <br/> 17/7/12015 13:00  <br/> Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/17/12015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/13/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
-|**Para** <br/> |Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:  <br/> 17/7/12015 13:00  <br/> Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/17/12015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/13/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
-|**Intervalo de** <br/> | Intervalo de tiempo. Seleccione una de las siguientes opciones: <br/>  Cada hora (se puede ver un máximo de 25 horas) <br/>  Cada día (se puede ver un máximo de 31 días) <br/>  Cada semana (se puede ver un máximo de 12 semanas) <br/>  Cada mes (se puede ver un máximo de 12 meses) <br/>  Si las fecha de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solo se mostrará la cantidad máxima de valores (comenzando en la fecha de inicio). Por ejemplo, si selecciona el intervalo diario con una fecha de inicio del 17/7/12015 y una fecha de finalización del 28/2/2015, los datos se muestran para los días 8/7/12015 de 12:00 a 9/7/12015 12:00 AM (es decir, un total de 31 días de datos). <br/> |
+|**From** <br/> |Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:  <br/> 17/17/12015 1:00 PM  <br/> Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/17/12015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/13/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
+|**To** <br/> |Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:  <br/> 17/17/12015 1:00 PM  <br/> Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/17/12015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/13/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
+|**Intervalo de** <br/> | Intervalo de tiempo. Seleccione una de las siguientes opciones: <br/>  Cada hora (se puede ver un máximo de 25 horas) <br/>  Cada día (se puede ver un máximo de 31 días) <br/>  Cada semana (se puede ver un máximo de 12 semanas) <br/>  Cada mes (se puede ver un máximo de 12 meses) <br/>  Si las fecha de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solo se mostrará la cantidad máxima de valores (comenzando en la fecha de inicio). Por ejemplo, si selecciona el intervalo diario con una fecha de inicio del 17/12015 y una fecha de finalización del 28/28/2015, los datos se muestran para los días 8/7/12015 12:00 am a 9/7/12015 12:00 AM (es decir, un total de 31 días de valor de datos). <br/> |
    
 ## <a name="metrics"></a>Métricas
 
@@ -75,9 +75,9 @@ En la tabla siguiente se muestra la información que recoge el Informe de resume
   
 **Métricas del Informe de resumen de actividad punto a punto**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
-|**Cada hora** <br/> **Diario** <br/> **Semanal** <br/> **Mensualmente** <br/> |No  <br/> |Indica el intervalo temporal que ha seleccionado en la barra de herramientas para filtros. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si usa el intervalo Diario y hace clic en 17/7/12015, verá un desglose por horas de la actividad de registro de usuario para esa fecha.  <br/> |
+|**Cada hora** <br/> **Diario** <br/> **Semanal** <br/> **Mensualmente** <br/> |No  <br/> |Indica el intervalo temporal que ha seleccionado en la barra de herramientas para filtros. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si usa el intervalo Diario y hace clic en 7/17/12015, verá un desglose por hora de la actividad de registro de usuarios para esa fecha.  <br/> |
 |**Total de sesiones punto a punto** <br/> |No  <br/> |Número total de sesiones punto a punto realizadas, independientemente del tipo de sesión.  <br/> |
 |**Total de sesiones de MI punto a punto** <br/> |No  <br/> |Número total de sesiones de mensajería instantánea punto a punto. Cuando se hace clic en este elemento, el informe muestra el Informe de MI punto a punto para el período de tiempo seleccionado.  <br/> |
 |**Total de mensajes instantáneos punto a punto** <br/> |No  <br/> |Número total de mensajes instantáneos enviados en sesiones punto a punto. Cuando se hace clic en este elemento, el informe muestra el Informe de MI punto a punto para el período de tiempo seleccionado.  <br/> |

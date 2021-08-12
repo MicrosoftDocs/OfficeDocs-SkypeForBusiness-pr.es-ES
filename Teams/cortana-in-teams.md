@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 368cb8b0c2d34e985d10adf11a405fb0603f1aff
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: a6f411826b399c0fdbda5f4a6f23ebbcf68da10eca5f705bc88175bc27d97f5b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646421"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329215"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana de voz en Teams
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Túnez.
-ms.openlocfilehash: c95a143b6f5f76c37d9e9578a2b676adb91a58eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a1c57233dd904d23e25bf24f53dda10b9488120ea4ad69417609b52b8dc4c20f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303643"
 ---
 # <a name="availability-in-tunisia"></a>Disponibilidad en Túnez
 

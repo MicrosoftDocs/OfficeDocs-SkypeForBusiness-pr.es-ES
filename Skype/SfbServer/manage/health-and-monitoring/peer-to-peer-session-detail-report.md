@@ -1,5 +1,5 @@
 ---
-title: Informe de detalles de sesiones punto a punto en Skype Empresarial Server
+title: Informe de detalles de sesión punto a punto en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 'Resumen: obtenga información sobre el informe de detalles de sesiones punto a punto en Skype Empresarial Server.'
-ms.openlocfilehash: 4dfa2b87b1fbba72282b52fa2ca58ca0f1e70630
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn about the Peer-to-Peer Session Detail Report in Skype Empresarial Server.'
+ms.openlocfilehash: 14df5ae82706a719086c31a3c8582009ed48d85b825057ab49ce6e92fa258116
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286809"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Informe de detalles de sesiones punto a punto en Skype Empresarial Server
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Informe de detalles de sesión punto a punto en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre el informe de detalles de sesiones punto a punto en Skype Empresarial Server.
+**Resumen:** Obtenga información sobre el Informe de detalles de sesión punto a punto en Skype Empresarial Server.
   
 El informe de detalles de sesiones punto a punto devuelve información detallada sobre una sesión punto a punto. Por ejemplo, si selecciona una sesión de mensajería instantánea, el informe reflejará el número de mensajes enviado por cada usuario durante la sesión.
   
@@ -37,7 +37,7 @@ Se puede acceder al informe de detalles de sesiones punto a punto desde cualquie
     
 - Informe de lista de errores 
     
-Desde el Informe de detalles de sesiones punto a punto, puede obtener acceso al informe de diagnóstico en [Skype Empresarial Server](diagnostic-report.md) haciendo clic en la métrica Informe de diagnóstico (detalles). También se puede acceder al informe de errores principales haciendo clic en cualquiera de estas dos métricas:
+Desde dentro del Informe de detalles de sesión punto a [punto,](diagnostic-report.md) puede obtener acceso al Informe de diagnóstico en Skype Empresarial Server haciendo clic en la métrica Informe de diagnóstico (detalles). También se puede acceder al informe de errores principales haciendo clic en cualquiera de estas dos métricas:
   
 - Respuesta
     
@@ -88,7 +88,7 @@ En la siguiente tabla se recoge la información que el informe de detalles de se
   
 **Métricas de modalidades**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Modalidades** <br/> |No  <br/> |Modalidades usadas en la sesión (por ejemplo, mensajería instantánea o transferencia de archivos).  <br/> |
 |**Mensajes del remitente** <br/> |No  <br/> |Número de mensajes que envió el usuario que inició la sesión.  <br/> |
@@ -100,7 +100,7 @@ En la siguiente tabla se recoge la información que el informe de detalles de se
   
 **Métricas de informes de diagnóstico**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Detalle** <br/> |No  <br/> |Cuando se hace clic en este elemento, el informe muestra el informe de diagnóstico correspondiente a la sesión.  <br/> |
 |**Hora del informe** <br/> |No  <br/> |Fecha y hora en que se registró el informe.  <br/> |

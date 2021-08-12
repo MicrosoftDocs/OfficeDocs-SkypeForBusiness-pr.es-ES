@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para empezar a asignar un certificado para usarlo en Skype Empresarial Server, haga clic en Siguiente.
-ms.openlocfilehash: feb180c2fbfc6e52b4f3d6be0cfa4885c695f4c6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para empezar a asignar un certificado para su uso en Skype Empresarial Server, haga clic en Siguiente.
+ms.openlocfilehash: 0c43f828e45ea2cbaae429c2d8c979e731ce80d67bbe6a6d30b68558f8a1b643
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820500"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291908"
 ---
 # <a name="certificate-assignment-intro"></a>Asignación de certificados (introducción)
  
-Para empezar a asignar un certificado para su uso en Skype Empresarial Server, haga clic **en Siguiente.**
+Para empezar a asignar un certificado para su uso en Skype Empresarial Server, haga clic en **Siguiente**.
   
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Para definir el tronco raíz de la IP o red telefónica conmutada (RTC) debe configurar lo siguiente:'
-ms.openlocfilehash: bcb63361291d241139fb9eb126b26cd038ea8b34
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ad9f98eae7220294ab18e48d49b01ee2fdcb6a97ce95fab28f2165760762a416
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119679"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303723"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definir el tronco raíz para una nueva dirección IP o puerta de enlace RTC
 
@@ -36,7 +36,7 @@ Para definir el tronco raíz de la IP o red telefónica conmutada (RTC) debe con
 
 - **Puerto del servidor de mediación** asociado: defina el puerto en el que escucha el servidor de mediación seleccionado
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Configurar un tronco con desvío de medios en Skype Empresarial Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
