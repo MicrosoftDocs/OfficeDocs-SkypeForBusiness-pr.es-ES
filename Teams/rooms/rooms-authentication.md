@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo configurar la autenticación moderna para Salas de Microsoft Teams
-ms.openlocfilehash: 93577c74005c8ad266739da0991f31e384a57ba6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f8e0f8897d553e1ef856772577c93bf4f2ee60347088c64039f986b9bc99bbfb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117488"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308511"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Autenticación en Salas de Microsoft Teams
 

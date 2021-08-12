@@ -1,5 +1,5 @@
 ---
-title: Telefonía IP empresarial (Herramienta de planeación)
+title: Telefonía IP empresarial (herramienta de planeación)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
-description: Con Telefonía IP empresarial, Skype Empresarial Server ofrece una oferta independiente de voz sobre ip (VoIP) para mejorar o reemplazar los sistemas tradicionales de central de conmutación (PBX).
-ms.openlocfilehash: 8842d1e869f09cf22841de418cd51538b457854a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Con Telefonía IP empresarial, Skype Empresarial Server ofrece una oferta independiente de voz sobre protocolo de Internet (VoIP) para mejorar o reemplazar sistemas tradicionales de central de conmutación (PBX).
+ms.openlocfilehash: 01a66e09aa8736c9f7ff35d170d64a3f1ab58abd392851a7c5ffdd173bb212c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280145"
 ---
-# <a name="enterprise-voice-planning-tool"></a>Telefonía IP empresarial (Herramienta de planeación)
+# <a name="enterprise-voice-planning-tool"></a>Telefonía IP empresarial (herramienta de planeación)
  
-Con Telefonía IP empresarial, Skype Empresarial Server ofrece una oferta independiente de voz sobre ip (VoIP) para mejorar o reemplazar los sistemas tradicionales de central de conmutación (PBX). Telefonía IP empresarial usuarios pueden llamar a compañeros en la red VoIP o PBX de su organización, y pueden llamar a números de teléfono tradicionales fuera de su organización. La solución Telefonía IP empresarial incluye características comunes de llamadas como responder, reenviar, transferir, retener, desviar, liberar y estacionar, y llamadas 9-1-1 mejoradas (E9-1-1) (E9-1-1 solo está disponible en Estados Unidos). Telefonía IP empresarial también admite una amplia gama de dispositivos IP y USB actuales y antiguos.
+Con Telefonía IP empresarial, Skype Empresarial Server ofrece una oferta independiente de voz sobre protocolo de Internet (VoIP) para mejorar o reemplazar sistemas tradicionales de central de conmutación (PBX). Telefonía IP empresarial usuarios pueden llamar a compañeros en la red VoIP o PBX de su organización, y pueden llamar a números de teléfono tradicionales fuera de la organización. La solución Telefonía IP empresarial incluye características comunes de llamadas como responder, reenviar, transferir, retener, desviar, liberar y estacionar, y llamadas mejoradas 9-1-1 (E9-1-1) (E9-1-1 solo está disponible en Los Estados Unidos). Telefonía IP empresarial también admite una amplia variedad de dispositivos IP y USB actuales y antiguos.
   
-Para obtener más información acerca de la planeación Telefonía IP empresarial, consulte [Plan for Telefonía IP empresarial in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md). Para obtener más información acerca de la implementación de un servidor de mediación independiente, consulte Implementar un servidor de mediación en [topology Builder en Skype Empresarial Server.](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)
+Para obtener más información acerca de la planeación Telefonía IP empresarial, vea [Plan for Telefonía IP empresarial in Skype Empresarial Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md). Para obtener más información acerca de la implementación de un servidor de mediación independiente, vea [Deploy a Mediation Server in Topology Builder in Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

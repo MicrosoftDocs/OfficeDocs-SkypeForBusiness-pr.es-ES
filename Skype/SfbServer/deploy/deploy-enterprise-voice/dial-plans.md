@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
-description: 'Resumen: obtenga información sobre cómo crear o modificar un plan de marcado mediante el Panel de control de Skype Empresarial Server.'
-ms.openlocfilehash: 718d0733aa5fabc072991708d09983ce8cb4267d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to create or modify a dial plan by using the Skype Empresarial Server Control Panel.'
+ms.openlocfilehash: 3b2a1e9189f2e54eff0db79ea11732ba5175f4fc6825bb7a71615422b2f9f4dc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104906"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281273"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Crear o modificar un plan de marcado en Skype Empresarial Server
 
-**Resumen:** Obtenga información sobre cómo crear o modificar un plan de marcado mediante el Panel de control de Skype Empresarial Server.
+**Resumen:** Obtenga información sobre cómo crear o modificar un plan de marcado mediante el panel Skype Empresarial Server control.
 
 ### <a name="to-create-a-dial-plan"></a>Para crear un plan de marcado
 
-1. Abra el Panel de control de Skype Empresarial Server.
+1. Abra Skype Empresarial Server Panel de control.
 
 2. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, en **Plan de marcado**.
 
@@ -70,7 +70,7 @@ ms.locfileid: "51104906"
 
     - Para elegir una o más reglas de una lista de todas las reglas de normalización disponibles en la implementación Telefonía IP empresarial, haga clic en **Seleccionar**. En **Seleccionar reglas de normalización**, resalte las reglas que desee asociar al plan de marcado y, a continuación, haga clic en **Aceptar**.
 
-   - Para definir una regla de normalización nueva y asociarla con el plan de marcado, haga clic en **Nuevo**. Para obtener más información sobre cómo definir una nueva regla, vea [Create or modify a normalization rule in Skype for Business](normalization-rules.md).
+   - Para definir una regla de normalización nueva y asociarla con el plan de marcado, haga clic en **Nuevo**. Para obtener más información sobre cómo definir una nueva regla, vea [Create or modify a normalization rule in Skype Empresarial](normalization-rules.md).
 
    - Para editar una regla de normalización que ya esté asociada al plan de marcado, resalte el nombre de la regla y haga clic en **Mostrar detalles**.
 
@@ -79,7 +79,7 @@ ms.locfileid: "51104906"
    - Para quitar una regla de normalización del plan de marcado, resalte el nombre de la regla y haga clic en **Eliminar**.
 
      > [!NOTE]
-     > Cada plan de marcado debe tener al menos una regla de normalización asociada. Para obtener información sobre cómo determinar todas las reglas de normalización que requiere un plan de marcado, vea [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) en la documentación sobre planeación.
+     > Cada plan de marcado debe tener al menos una regla de normalización asociada. Para obtener información sobre cómo determinar todas las reglas de normalización que requiere un plan de marcado, vea [Plan for outbound voice routing in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) en la documentación de planeación.
 
 10. Compruebe que las reglas de normalización del plan de marcado están organizadas en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en la flecha arriba o abajo.
 
@@ -93,13 +93,13 @@ ms.locfileid: "51104906"
 13. En la página **Plan de marcado**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
 
     > [!NOTE]
-    > Siempre que cree un plan de marcado, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes en la](voice-route-config-changes.md) configuración de enrutamiento de voz en Skype Empresarial en la documentación sobre operaciones.
+    > Siempre que cree un plan de marcado, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes](voice-route-config-changes.md) en la configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
 ### <a name="to-modify-a-dial-plan"></a>Para modificar un plan de marcado
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o como miembro del rol CsVoiceAdministrator, CsServerAdministrator, o CsAdministrator. Para obtener información detallada, consulte **Delegación de permisos de instalación**.
 
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.
 
 3. En la barra de navegación izquierda, haga clic en  **Enrutamiento de voz** y, a continuación, en  **Plan de marcado**.
 
@@ -129,7 +129,7 @@ ms.locfileid: "51104906"
 
    - Para elegir una o más reglas de una lista de todas las reglas de normalización disponibles en la implementación Telefonía IP empresarial, haga clic en **Seleccionar**. En el cuadro de diálogo **Seleccionar reglas de normalización**, resalte las reglas que desee asociar al plan de marcado y, a continuación, haga clic en **Aceptar**.
 
-   - Para definir una regla de normalización nueva y asociarla con el plan de marcado, haga clic en **Nuevo**. Para obtener más información sobre cómo definir una nueva regla, vea [Create or modify a normalization rule in Skype for Business](normalization-rules.md).
+   - Para definir una regla de normalización nueva y asociarla con el plan de marcado, haga clic en **Nuevo**. Para obtener más información sobre cómo definir una nueva regla, vea [Create or modify a normalization rule in Skype Empresarial](normalization-rules.md).
 
    - Para editar una regla de normalización que ya esté asociada al plan de marcado, resalte el nombre de la regla y haga clic en **Mostrar detalles**.
 
@@ -138,7 +138,7 @@ ms.locfileid: "51104906"
    - Para quitar una regla de normalización del plan de marcado, resalte el nombre de la regla y haga clic en **Eliminar**.
 
      > [!NOTE]
-     > Cada plan de marcado debe tener al menos una regla de normalización asociada. Para obtener más información sobre cómo determinar todas las reglas de normalización que requiere un plan de marcado, vea [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) en la documentación sobre planeación.
+     > Cada plan de marcado debe tener al menos una regla de normalización asociada. Para obtener información detallada sobre cómo determinar todas las reglas de normalización que requiere un plan de marcado, consulte [Plan for outbound voice routing in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) en la documentación sobre planeación.
 
 10. Compruebe que las reglas de normalización del plan de marcado están organizadas en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en la flecha arriba o abajo.
 
@@ -155,8 +155,8 @@ ms.locfileid: "51104906"
 13. En la página **Plan de marcado**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
 
     > [!NOTE]
-    > Siempre que cree o modifique un plan de marcado, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes en la](voice-route-config-changes.md) configuración de enrutamiento de voz en Skype Empresarial en la documentación sobre operaciones.
+    > Siempre que cree o modifique un plan de marcado, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes](voice-route-config-changes.md) en la configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Publicar cambios pendientes en la configuración de enrutamiento de voz en Skype Empresarial](voice-route-config-changes.md)

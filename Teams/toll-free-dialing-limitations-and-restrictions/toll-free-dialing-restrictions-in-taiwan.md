@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en Taiwán, como la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
-ms.openlocfilehash: 81a5afeb80316454b816f2803c2beb440d80a301
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 80858d3fea2928239543210c2bbe8f814b4f39e42d122a34158d035bd8ab406a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097666"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308311"
 ---
 # <a name="toll-free-dialing-restrictions-in-taiwan"></a>Restricciones de marcado de número gratuito en Taiwán
 

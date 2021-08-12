@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Honduras.
-ms.openlocfilehash: 9fb8d25c683f55b36d524ca623ebfcf20706aae6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 91b9741d04a8352090730766571d3a92e18c3bb8094e16a855e01ad5ae316f9b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118028"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308879"
 ---
 # <a name="availability-in-honduras"></a>Disponibilidad en Honduras
 

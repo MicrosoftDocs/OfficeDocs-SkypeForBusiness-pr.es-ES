@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 99667735c6e0e71532084f3aff6771df4408f892
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: e550acd5d47c0199318c820f595253eb8f2477421f62d90e3a7d16ced2336d05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646211"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308491"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Cómo SharePoint y OneDrive interactúan con Microsoft Teams
 

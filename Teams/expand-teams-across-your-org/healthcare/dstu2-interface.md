@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: Obtenga información sobre la especificación de interfaz DSTU2 en Teams, incluida la configuración o reconfiguración de un servidor FHIR para que funcione con la aplicación Microsoft Teams pacientes.
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 12833ea55977cf7e8d18ee5c10b1f17d898b27b3
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: 8ec2b1a88d99937e83bc8553f7dbcdd8d92f78b5a8e5708301147a26f0cffe4a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803488"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308769"
 ---
 # <a name="dstu2-interface-specification"></a>Especificación de la interfaz DSTU2
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Para editar la configuración de un grupo de servidores perimetrales de uno o varios servidores existentes, le presentamos las secciones siguientes:'
-ms.openlocfilehash: 5b4bbb302f76a38a5a485d17ad6df5c0d1db1c6b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 28d998986f21e089b34c9a58b9acb238c2aa8ab3108296566ce14210c87220d7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119659"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281123"
 ---
 # <a name="edge-settings-expander"></a>Expansor de configuración perimetral
 
@@ -64,6 +64,6 @@ Si decide que la organización va a usar una sola dirección IP y un solo nombre
 > [!IMPORTANT]
 > Si efectúa cambios en cualquiera de estas opciones, incluido el uso de FQDN y direcciones IP o puertos diferentes, debe actualizar todos los demás servicios que dependan de los valores configurados inicialmente.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 Para obtener más información sobre cómo definir y configurar las opciones de los servicios de servidores perimetrales, consulte [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology).

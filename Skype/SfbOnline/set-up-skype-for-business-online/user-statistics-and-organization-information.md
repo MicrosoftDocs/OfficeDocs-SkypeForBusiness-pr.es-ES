@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 description: Obtenga información Skype las estadísticas de usuarios profesionales disponibles, como el número de usuarios habilitados, los usuarios habilitados para conferencias o los usuarios que están habilitados para Microsoft 365 o Office 365.
-ms.openlocfilehash: bb784b89810189be498caa464357f64df2990fcc
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a3a34fb81cdceea09a88ddb0540403cb1b0fae66b2876cd6350099d829ad495a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281323"
 ---
 # <a name="user-statistics-and-organization-information"></a>Estadísticas del usuario e información de la organización
 

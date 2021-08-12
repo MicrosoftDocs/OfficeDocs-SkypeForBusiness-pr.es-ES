@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
-description: 'Summary: Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server.'
-ms.openlocfilehash: 3f4754184e69e7b574709d0272afc9989553cfe5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumen: aprenda a definir una regla de traducción mediante la herramienta Crear una regla de traducción en Skype Empresarial Server.'
+ms.openlocfilehash: 0f8f511996c8d3a578087c9f4252492fa03ef4237688bcaf68a04f09ed944116
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281293"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Crear o modificar una regla de traducción para la presentación de id. denominada en Skype Empresarial Server
 
-**Resumen:** Obtenga información sobre cómo definir una regla de traducción mediante la herramienta Crear una regla de traducción en Skype Empresarial Server.
+**Resumen:** Aprenda a definir una regla de traducción mediante la herramienta Crear una regla de traducción en Skype Empresarial Server.
 
-Siga estos pasos si desea definir una regla de traducción  especificando un conjunto de valores en la herramienta Crear una regla de traducción y habilitando el Panel de control de Skype Empresarial Server para generar el patrón y la regla de traducción correspondientes. Como alternativa, puede escribir una expresión regular manualmente para definir el patrón de coincidencia y la regla de traducción. Para obtener más información, [vea Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually).
+Siga estos pasos si desea definir una regla de traducción  especificando un conjunto de valores en la herramienta Crear una regla de traducción y habilitando Skype Empresarial Server Panel de control para generar el patrón y la regla de traducción correspondientes. Como alternativa, puede escribir una expresión regular manualmente para definir el patrón de coincidencia y la regla de traducción. Para obtener más información, [vea Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually).
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>Para definir una regla mediante la herramienta Crear una regla de traducción
 
-1. Abra el Panel de control de Skype Empresarial Server.
+1. Abra Skype Empresarial Server Panel de control.
 
-2. Para empezar a definir una regla de traducción, siga los pasos descritos en Configure [a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) through step 10 o Configure a trunk without media bypass in Skype for Business [Server](configure-trunk-without-media-bypass.md) through step 9.
+2. Para empezar a definir una regla de traducción, siga los pasos descritos en Configure [a trunk with media bypass in Skype Empresarial Server](configure-trunk-with-media-bypass.md) through step 10 o Configure a trunk without media bypass in [Skype Empresarial Server](configure-trunk-without-media-bypass.md) through step 9.
 
 3. En **Nombre** de la  página **Nueva regla de traducción** o Editar regla de traducción, escriba un nombre que describa el patrón de números que se va a traducir.
 
@@ -61,7 +61,7 @@ Siga estos pasos si desea definir una regla de traducción  especificando un con
 
      Con los valores de ejemplo anteriores, 011$1 aparece en el **campo Regla de** traducción.
 
-     Cuando se aplica esta regla de traducción, +441235551010 pasa a ser 01144123551010.
+     Cuando se aplica esta regla de traducción, +441235551010 pasa a 011441235551010.
 
 6. Haga clic en **Aceptar** para guardar la regla de conversión.
 
@@ -70,13 +70,13 @@ Siga estos pasos si desea definir una regla de traducción  especificando un con
 8. En la página **Configuración de tronco**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
 
    > [!NOTE]
-   > Siempre que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes en la](voice-route-config-changes.md) configuración de enrutamiento de voz en Skype Empresarial en la documentación sobre operaciones.
+   > Siempre que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes](voice-route-config-changes.md) en la configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
 ### <a name="to-define-a-translation-rule-manually"></a>Para definir una regla de conversión de forma manual
 
-1. Abrir el Panel de control de Skype Empresarial Server
+1. Abrir Skype Empresarial Server panel de control
 
-2. Para empezar a definir una regla de traducción, siga los pasos descritos en Configure [a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) through step 10 o Configure a trunk without media bypass in Skype for Business [Server](configure-trunk-without-media-bypass.md) through step 9.
+2. Para empezar a definir una regla de traducción, siga los pasos descritos en Configure [a trunk with media bypass in Skype Empresarial Server](configure-trunk-with-media-bypass.md) through step 10 o Configure a trunk without media bypass in [Skype Empresarial Server](configure-trunk-without-media-bypass.md) through step 9.
 
 3. En el campo **Nombre** en las páginas **Nueva regla de conversión** o **Editar regla de conversión**, escriba un nombre que describa el patrón de número de objeto de la conversión.
 
@@ -90,7 +90,7 @@ Siga estos pasos si desea definir una regla de traducción  especificando un con
 
    - En **Regla de conversión**, especifique un patrón para el formato de los números convertidos.
 
-     Por ejemplo, si escribe ^ (\d \d+)$ en Coincidir con este patrón y011$1 en la regla de traducción, la regla traducirá \+ {9} +441235551010 a 01144123551010.  
+     Por ejemplo, si escribe ^ (\d \d+)$ en Coincidir con este patrón \+ {9} y011$1  en la regla de traducción, la regla traducirá +441235551010 a 011441235551010.
 
 7. Haga clic en **Aceptar** para guardar la regla de conversión.
 
@@ -99,9 +99,9 @@ Siga estos pasos si desea definir una regla de traducción  especificando un con
 9. En la página **Configuración de tronco**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
 
     > [!NOTE]
-    > Siempre que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes en la](voice-route-config-changes.md) configuración de enrutamiento de voz en Skype Empresarial en la documentación sobre operaciones.
+    > Siempre que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes](voice-route-config-changes.md) en la configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Configurar un tronco con desvío de medios en Skype Empresarial Server](configure-trunk-with-media-bypass.md)
 

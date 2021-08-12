@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: Esto documenta el esquema de la base de datos de chat persistente en Skype Empresarial Server.
-ms.openlocfilehash: ba50f4391ce35d8a938318e96e1483bbfe0e3dfa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bc314413d2bb7a3d5916396f1e8f281d2217e9058d087dcec8bcc486ee7f172f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280933"
 ---
 # <a name="persistent-chat-database-schema"></a>Esquema de la base de datos de chat persistente
  
 Esto documenta el esquema de la base de datos de chat persistente en Skype Empresarial Server.
   
-La base de datos de chat persistente hace referencia a la base de datos correspondiente a los roles del servidor back-end de Skype Empresarial Server **PersistentChatStore** (correspondiente a la base de datos mgc) y **PersistentChatComplianceStore** (correspondiente a la base de datos mgccomp). El objetivo de publicar este esquema es permitirle crear consultas y obtener información sobre cómo crear informes útiles sobre el uso de chat, las salas activas, los pósteres principales, entre otros.
+La base de datos de chat persistente hace referencia a la base de datos correspondiente a los roles de servidor back-end de Skype Empresarial Server **PersistentChatStore** (correspondiente a la base de datos mgc) y **PersistentChatComplianceStore** (correspondiente a la base de datos mgccomp). El objetivo de publicar este esquema es permitirle crear consultas y obtener información sobre cómo crear informes útiles sobre el uso de chat, salas activas, pósteres principales, entre otros.
   
 > [!IMPORTANT]
 > Nos reservamos el derecho de desarrollar este esquema. Microsoft no ofrece ninguna garantía para mantener la compatibilidad total con versiones anteriores con este esquema publicado. 
@@ -35,7 +35,7 @@ Siga estos procedimientos recomendados:
     
 - No se admiten modificaciones de esquema generadas por el usuario.
     
-- No se admiten operaciones de escritura.
+- No se admite ninguna operación de escritura.
     
 - Pruebe las consultas que cree en bases de datos de tamaño representativo para asegurarse de que las consultas pueden realizarse en un nivel que satisfaga sus necesidades.
     

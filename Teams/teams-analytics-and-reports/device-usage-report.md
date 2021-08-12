@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el Teams de uso de dispositiv
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d47888884ce86bfa56546a9df600ce958380e0d
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 15dfe1fe7e79e909b11093c019ac38c6cb5d967e46146d4ce0262499ca880018
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308381"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Informe de uso de dispositivos de Microsoft Teams
 
@@ -51,9 +51,9 @@ El Teams de uso de dispositivos del centro de administración de Microsoft Teams
 
 Para que los datos de Teams informe de uso de dispositivos sean anónimos, debe ser administrador global. Esto ocultará información identificable, como el nombre para mostrar, el correo electrónico y el id. de AAD en el informe y su exportación.
 
-1. En Microsoft 365 centro de administración,  vaya a la Configuración organización Configuración y, en la pestaña \> Servicios, elija **Informes.** 
+1. En Centro de administración de Microsoft 365, vaya a  la Configuración de Configuración y, en la pestaña \> Servicios, elija **Informes.** 
     
-2. Seleccione **Informes** y, a continuación, **elija Mostrar identificadores anónimos.** Esta configuración se aplica tanto a los informes de uso de Microsoft 365 centro de administración como Teams centro de administración.
+2. Seleccione **Informes** y, a continuación, **elija Mostrar identificadores anónimos.** Esta configuración se aplica tanto a los informes de uso de Centro de administración de Microsoft 365 como a Teams centro de administración.
   
 3. Seleccione **Guardar cambios**.
 

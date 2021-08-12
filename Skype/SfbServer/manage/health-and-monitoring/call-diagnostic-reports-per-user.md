@@ -1,5 +1,5 @@
 ---
-title: Informes de diagnósticos de llamadas (por usuario) en Skype Empresarial Server
+title: Informes de diagnóstico de llamadas (por usuario) en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Resumen: obtenga información sobre los informes de diagnóstico de llamadas por usuario usados en Skype Empresarial Server.'
-ms.openlocfilehash: bcf59c63e98bb7c701b52fd6df564da16fd3761d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b04050b2d2efb94781d310983083c2c3b8e86c30965a3467cc5fcabfc2aa00fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817100"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280973"
 ---
-# <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Informes de diagnósticos de llamadas (por usuario) en Skype Empresarial Server
+# <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Informes de diagnóstico de llamadas (por usuario) en Skype Empresarial Server
   
-Los informes de diagnósticos de llamadas ofrecen información usuario por usuario sobre sesiones de conferencia y punto a punto con errores. En este momento solo hay un informe, el informe **de actividad de usuario**.
+Los informes de diagnósticos de llamadas ofrecen información usuario por usuario sobre sesiones de conferencia y punto a punto con errores. En este momento solo hay un informe, el **Informe de actividad del usuario**.
 
 El Informe de actividad de usuario proporciona una lista detallada de sesiones de conferencia y de punto a punto realizadas por sus usuarios en un período determinado. A diferencia de muchos de los Informes de supervisión, el Informe de actividad de usuario une cada llamada a usuarios individuales. Por ejemplo, las sesiones de punto a punto especifican los URI del SIP de la persona que inició la llamada (el usuario De) y la persona a la que se realizó la llamada (el usuario Para). Si expande la información de una conferencia, verá una lista de todos los participantes de la conferencia y el rol que desempeñaban en esa conferencia.
 
 Al Informe de actividad de usuario a veces se lo conoce como "informe de asistencia técnica", debido a que a menudo el personal de asistencia técnica lo utiliza para recuperar información de sesión para un usuario específico. Es posible establecer filtros para llamadas realizadas a o por un usuario particular con tan solo escribir el URI del SIP del usuario en el cuadro de prefijo de URI del usuario.
 
-Si lo hace, el informe de actividad de usuario devolverá información de cualquier usuario cuyo URI de SIP comience con la cadena especificada. Por ejemplo, si escribe **ken en** el cuadro URI, el informe de actividad de usuario buscará **a Ken**. Myer@litwareinc.com. Sin embargo, también buscará estos usuarios:
+Si lo hace, el Informe de actividad del usuario devolverá información para cualquier usuario cuyo URI de SIP comience con la cadena especificada. Por ejemplo, si escribe **ken en** el cuadro URI, el Informe de actividad de usuario localizará **Ken**. Myer@litwareinc.com. Sin embargo, también localizará estos usuarios:
 
 - **ken** azi@litwareinc.com
 
@@ -37,20 +37,20 @@ Si lo hace, el informe de actividad de usuario devolverá información de cualqu
 
 - **Ken** nedy@litwareinc.com
 
-Para asegurarse de que solo se devuelve información para Ken Myer, escriba su URI completo (Ken.Myer@litwareinc.com) en el cuadro de búsqueda o al menos suficiente tipo de URI de Ken para distinguirlo de forma exclusiva de otros usuarios de su organización. Por ejemplo:
+Para asegurarse de que solo se devuelve información para Ken Myer, escriba su URI completo (Ken.Myer@litwareinc.com) en el cuadro de búsqueda o al menos suficiente tipo de URI de Ken para distinguirlo de forma exclusiva de otros usuarios de la organización. Por ejemplo:
 
 Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>Acceso al informe de actividad de usuario
 
-Para acceder al Informe de actividad de usuario hay que ir a la página de inicio de Informes de supervisión. También puede obtener acceso al Informe de actividad de usuario haciendo clic en la métrica URI de usuario en el informe de inventario de teléfono [IP en Skype Empresarial Server.](ip-phone-inventory-report.md) Desde el Informe de actividad de usuario, puede hacer clic en el URI de conferencia (para una conferencia) para acceder al Informe de detalles de conferencia. De forma similar, al hacer clic en la métrica Detalle de una llamada punto a punto, podrá ver el informe de detalles de sesiones punto a punto en [Skype Empresarial Server.](peer-to-peer-session-detail-report.md)
+Para acceder al Informe de actividad de usuario hay que ir a la página de inicio de Informes de supervisión. También puede llegar al Informe de actividad de usuario haciendo clic en la métrica URI de usuario en el Informe de inventario de ip [Teléfono en Skype Empresarial Server](ip-phone-inventory-report.md). Desde el Informe de actividad de usuario, puede hacer clic en el URI de conferencia (para una conferencia) para acceder al Informe de detalles de conferencia. Del mismo modo, al hacer clic en la métrica Detail de una llamada punto a punto, se muestra el Informe de detalles de sesión punto a [punto en Skype Empresarial Server](peer-to-peer-session-detail-report.md).
 
-## <a name="making-the-best-use-of-the-user-activity-report"></a>Aprovechar al máximo el informe de actividad de usuario
+## <a name="making-the-best-use-of-the-user-activity-report"></a>Aprovechar al máximo el informe de actividad del usuario
 
-Aunque hay mucha información buena en el Informe de actividad de usuario, esa información puede a veces ser difícil de encontrar. Por ejemplo, toda la actividad de usuario que tiene lugar en la organización durante un período especificado se incluye en el Informe de actividad de usuario; esto significa que, en el informe, hay información sobre qué usuarios usaron realmente Skype Empresarial Server de alguna manera.
+Aunque hay mucha información buena en el Informe de actividad de usuario, esa información puede a veces ser difícil de encontrar. Por ejemplo, toda la actividad de usuario que tiene lugar en la organización durante un período especificado se incluye en el Informe de actividad del usuario; esto significa que, enterrada, dentro del informe hay información sobre qué usuarios usaron realmente Skype Empresarial Server de alguna manera.
 
 > [!NOTE]
-> Técnicamente, es posible que algunas actividades de usuario no se puedan grabar: mientras Skype Empresarial Server intenta mantener información sobre todas las llamadas de teléfono, es posible que se haya realizado una llamada sin que la información sobre esa llamada se escriba en la base de datos. Skype Empresarial Server está diseñado para ofrecer una apariencia extremadamente precisa, pero no necesariamente perfecta, de cómo se usa Skype Empresarial Server. (El hecho de que no haya ninguna garantía de que se registra el 100 % de todas las llamadas explica por qué la supervisión de Skype Empresarial Server no debe usarse como sistema de facturación). En segundo lugar, un informe de supervisión solo puede mostrar, como máximo, 1.000 registros. Según la cantidad de actividad de usuario que tenga y según el período de tiempo con el que trabaje, eso significa que su consulta podría no devolverle todos los datos realmente almacenados en la base de datos. 
+> Técnicamente, es posible que alguna actividad del usuario no se haya registrado: mientras Skype Empresarial Server se esfuerza por mantener la información sobre todas las llamadas de teléfono, es posible que una llamada se hubiera realizado sin que la información sobre esa llamada se escribiera en la base de datos. Skype Empresarial Server está diseñado para ofrecer una mirada extremadamente precisa, pero no necesariamente perfecta, de cómo Skype Empresarial Server se está utilizando. (El hecho de que no haya ninguna garantía de que se grabe el 100 % de todas las llamadas explica por qué la supervisión Skype Empresarial Server no debe usarse como sistema de facturación). En segundo lugar, un informe de supervisión solo puede mostrar, como máximo, 1.000 registros. Según la cantidad de actividad de usuario que tenga y según el período de tiempo con el que trabaje, eso significa que su consulta podría no devolverle todos los datos realmente almacenados en la base de datos. 
 
 - ¿Qué usuarios utilizaron en realidad el sistema durante este período?
 
@@ -58,13 +58,13 @@ Aunque hay mucha información buena en el Informe de actividad de usuario, esa i
 
 - ¿Los usuarios que realizan la mayor cantidad de llamadas telefónicas también son los usuarios que participan en la mayoría de las sesiones de mensajería instantánea?
 
-Si necesita responder preguntas como estas, puede exportar los datos recuperados por los Informes de supervisión a una hoja de cálculos de Excel. Luego utiliza esa hoja de cálculos y/o un archivo de valores separados por comas para analizar los datos del modo en que no permite el Informe de actividad de usuario. Por ejemplo, imaginemos que ha exportado los datos del informe a Excel y luego a un archivo de valores separados por comas. En ese momento, puede importar los datos desde el archivo . Archivo CSV Windows PowerShell mediante un comando similar al siguiente:
+Si necesita responder preguntas como estas, puede exportar los datos recuperados por los Informes de supervisión a una hoja de cálculos de Excel. Luego utiliza esa hoja de cálculos y/o un archivo de valores separados por comas para analizar los datos del modo en que no permite el Informe de actividad de usuario. Por ejemplo, imaginemos que ha exportado los datos del informe a Excel y luego a un archivo de valores separados por comas. En ese momento, puede importar los datos del archivo .CSV a Windows PowerShell mediante un comando similar al siguiente:
 
 ```PowerShell
 $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 ```
 
-Una vez importados los datos, puede usar comandos de Windows PowerShell sencillos para ayudar a responder sus preguntas. Por ejemplo, este comando devuelve una lista de usuarios únicos que han tenido el rol de "usuario De" en al menos una sesión:
+Después de importar los datos, puede usar comandos Windows PowerShell sencillos para ayudar a responder a sus preguntas. Por ejemplo, este comando devuelve una lista de usuarios únicos que han tenido el rol de "usuario De" en al menos una sesión:
 
 ```PowerShell
 $x | Group-Object "From user" | Select Name | Sort-Object Name
@@ -119,11 +119,11 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de acti
 
 | **Nombre**   | **Descripción**  |
 |:-----------|:--------|
-| **From** <br/>             | Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:  <br/> 17/7/12015 13:00  <br/> Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/17/12015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/13/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/>                                                      |
-| **Para** <br/>               | Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:  <br/> 17/7/12015 13:00  <br/> Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/17/12015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/13/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/>                                                             |
-| **Tipo de actividad** <br/>    | Tipo de actividad. Seleccione una de las siguientes opciones: <br/>  [Todos] <br/>  Punto a punto <br/>  Conferencia <br/>      |
-| **Modalidad** <br/>         | La modalidad disponible varía en función del tipo de actividad seleccionado. Si el tipo de actividad es punto a punto, puede seleccionar MI; Transferencia de archivos; Uso compartido de aplicaciones; Voz; o Vídeo como modalidad.  <br/> Si el tipo de actividad es Conferencia, puede seleccionar conferencia de teléfono de mensajería instantánea; Conferencia web; Uso compartido de aplicaciones; Conferencia de voz y vídeo; o conferencia de telefonía.  <br/>         |
-| **Categoría de sesión** <br/> | Indica si la actividad correspondiente se desarrolló correctamente o causó errores. Seleccione una de las siguientes opciones: <br/>  [Todos] <br/>  Correcto <br/>  Error esperado <br/>  Error inesperado <br/>  Un "error esperado" es aquel que se espera que se produzca; por ejemplo, si un usuario ha establecido su estado en No molestar, se espera que se produzca un error en cualquier llamada dirigida a dicho usuario. Un "error inesperado" es aquel que se produce en un sistema que está aparentemente en buen estado. Por ejemplo, una llamada no debería finalizar si el autor de la llamada está en espera. De ser así, dicha situación se identificaría como un error inesperado. <br/> |
+| **From** <br/>             | Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:  <br/> 17/17/12015 1:00 PM  <br/> Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/17/12015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/13/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/>                                                      |
+| **To** <br/>               | Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:  <br/> 17/17/12015 1:00 PM  <br/> Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/17/12015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/13/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/>                                                             |
+| **Tipo de actividad** <br/>    | Tipo de actividad. Seleccione una de las siguientes opciones: <br/>  [All] <br/>  Punto a punto <br/>  Conferencia <br/>      |
+| **Modalidad** <br/>         | La modalidad disponible varía según el tipo de actividad seleccionado. Si el tipo de actividad es punto a punto, puede seleccionar MI; Transferencia de archivos; Uso compartido de aplicaciones; Voz; o Vídeo como modalidad.  <br/> Si el tipo de actividad es Conference, puede seleccionar MI Teléfono conferencia; Conferencia web; Uso compartido de aplicaciones; Conferencia de voz y vídeo; o conferencia de telefonía.  <br/>         |
+| **Categoría de sesión** <br/> | Indica si la actividad correspondiente se desarrolló correctamente o causó errores. Seleccione una de las siguientes opciones: <br/>  [All] <br/>  Correcto <br/>  Error esperado <br/>  Error inesperado <br/>  Un "error esperado" es aquel que se espera que se produzca; por ejemplo, si un usuario ha establecido su estado en No molestar, se espera que se produzca un error en cualquier llamada dirigida a dicho usuario. Un "error inesperado" es aquel que se produce en un sistema que está aparentemente en buen estado. Por ejemplo, una llamada no debería finalizar si el autor de la llamada está en espera. De ser así, dicha situación se identificaría como un error inesperado. <br/> |
 | **Prefijo de URI de usuario** <br/>  | Dirección SIP del usuario. Para ver únicamente registros del usuario Ken Myer debe introducir la dirección SIP de Ken Myer. Por ejemplo:  <br/> sip:kenmyer@litwareinc.com  <br/>
 
 ## <a name="metrics-for-peer-to-peer-sessions"></a>Métricas de las sesiones punto a punto
@@ -132,7 +132,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 
 **Métricas de las sesiones punto a punto**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Detalle** <br/> |No  <br/> |Al hacer clic en este elemento, el informe le muestra el informe de detalles de sesiones punto a punto correspondiente a la sesión seleccionada.  <br/> |
 |**Remitente** <br/> |Sí  <br/> |Dirección SIP del usuario que inició la sesión punto a punto.  <br/> |
@@ -149,7 +149,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 
 **Métricas de las sesiones de conferencia**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**URI de conferencia** <br/> |Sí  <br/> |Identificador único de la conferencia. Al hacer clic en este elemento, el informe le muestra el informe de detalles de conferencia de la sesión seleccionada. Al desplegar este elemento, el informe le muestra información sobre los participantes en la conferencia. Para obtener más información, consulte la sección "Métricas de los participantes en las conferencias" en este mismo tema.  <br/> |
 |**Organizador** <br/> |Sí  <br/> |Dirección SIP del usuario que organizó la conferencia  <br/> |
@@ -163,7 +163,7 @@ En la tabla siguiente se muestra la información que recoge el informe de activi
 
 **Métricas de los participantes en conferencias**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Rol** <br/> |No  <br/> |Rol del usuario en la conferencia (por ejemplo, moderador).  <br/> |
 |**Participante** <br/> |No  <br/> |Dirección SIP del usuario.  <br/> |

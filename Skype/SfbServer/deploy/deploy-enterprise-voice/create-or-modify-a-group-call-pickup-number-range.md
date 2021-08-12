@@ -1,5 +1,5 @@
 ---
-title: Crear o modificar un intervalo de números de recogida de llamadas en grupo en Skype Empresarial
+title: Crear o modificar un intervalo de números de recogida de llamadas de grupo en Skype Empresarial
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Cree o modifique un intervalo de números de recogida de llamadas de grupo en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: e71915519014b1fa4cfffa3172327e9949ed73a2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 73c2c0b74c27fd59d94d97c5ee05e0da88219601e839d42dc12e0ec659db0aa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100426"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307881"
 ---
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Crear o modificar un intervalo de números de recogida de llamadas en grupo en Skype Empresarial
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Crear o modificar un intervalo de números de recogida de llamadas de grupo en Skype Empresarial
 
 Cree o modifique un intervalo de números de recogida de llamadas de grupo en Skype Empresarial Server Telefonía IP empresarial.
 
@@ -34,7 +34,7 @@ Al igual que los números de órbita de estacionamiento de llamadas, los número
 Use el siguiente procedimiento para crear o modificar un intervalo de números de grupo de recogida de llamadas en la tabla de órbitas de estacionamiento de llamadas.
 
 > [!NOTE]
-> Debe usar el Shell de administración de Skype Empresarial Server para crear, modificar, quitar y ver intervalos de números de recogida de llamadas de grupo en la tabla de órbitas de estacionamiento de llamadas. Los intervalos de números de recogida de llamadas de grupo no están disponibles en el Panel de control de Skype Empresarial Server.
+> Debe usar el Shell Skype Empresarial Server administración para crear, modificar, quitar y ver intervalos de números de recogida de llamadas de grupo en la tabla de órbitas de estacionamiento de llamadas. Los intervalos de números de recogida de llamadas de grupo no están disponibles en Skype Empresarial Server Panel de control.
 
 Los intervalos de números de grupo de recogida de llamadas deben cumplir las siguientes reglas:
 
@@ -46,13 +46,13 @@ Los intervalos de números de grupo de recogida de llamadas deben cumplir las si
 
 - Si el intervalo de números comienza con el carácter \* o #, el intervalo debe ser mayor que 100.
 
-- Valores válidos: debe coincidir con la cadena de expresión regular ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Esto significa que el valor debe ser una cadena que comienza con el carácter o # o un número \* del 1 al 9 (el primer carácter no puede ser cero). Si el primer carácter es o #, el siguiente carácter debe ser un número del 1 al \* 9 (no puede ser cero). Los caracteres posteriores pueden ser cualquier número de 0 a 9 hasta siete caracteres adicionales (por ejemplo, "#6000", " \* 92000", " \* 95551212" y "915551212"). Si el primer carácter no es o #, el primer carácter debe ser un número del 1 al 9 (no puede ser cero), seguido de hasta ocho caracteres, cada uno de \* 0 a 9 (por ejemplo, "915551212", "41212", "300").
+- Valores válidos: debe coincidir con la cadena de expresión regular ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Esto significa que el valor debe ser una cadena que comienza con el carácter o # o un número \* del 1 al 9 (el primer carácter no puede ser cero). Si el primer carácter es o #, el siguiente carácter debe ser un número del 1 al \* 9 (no puede ser cero). Los caracteres posteriores pueden ser cualquier número de 0 a 9 hasta siete caracteres adicionales (por ejemplo, "#6000", " \* 92000", " 95551212" y \* "915551212"). Si el primer carácter no es o #, el primer carácter debe ser un número del 1 al 9 (no puede ser cero), seguido de hasta ocho caracteres, cada uno de \* 0 a 9 (por ejemplo, "915551212", "41212", "300").
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>Para crear o modificar un intervalo de grupos de recogida de llamadas
 
-1. Inicie sesión en el equipo donde skype empresarial Server Management Shell está instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegate Setup Permissions**.
+1. Inicie sesión en el equipo donde Skype Empresarial Server Shell de administración está instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegate Setup Permissions**.
 
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
 
 3. Use **New-CsCallParkOrbit para** crear un nuevo intervalo de números de grupo de recogida de llamadas. Use **Set-CsCallParkOrbit para** modificar un intervalo existente de números de recogida de llamadas.
 
@@ -77,7 +77,7 @@ Los intervalos de números de grupo de recogida de llamadas deben cumplir las si
     > [!IMPORTANT]
     > Use este cmdlet para cambiar el tipo asignado a intervalos de números solo si inicialmente especificó el tipo incorrecto y el intervalo de grupos aún no está en uso. Si cambia el intervalo de números de CallPark a GroupPickup o viceversa y el intervalo de números ya está en uso, el estacionamiento de llamadas o la recogida de llamadas de grupo dejarán de funcionar para ese intervalo de números. Por ejemplo, si cambia un intervalo de números de CallPark a GroupPick, la aplicación estacionamiento de llamadas ya no puede usar ese rango de órbitas para estacionar llamadas.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 

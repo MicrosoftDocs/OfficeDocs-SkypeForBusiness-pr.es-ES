@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: En el panel Informes se muestra la información general sobre la actividad en Microsoft 365 o Office 365 productos de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto.
-ms.openlocfilehash: 8b861cc863603a8ab51451e9906cd62313bd9cf9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 522a82bf9b93a590f8f319d59e805b23ba34d4665b34eb05541aa18d1b9ba89e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238225"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308021"
 ---
 # <a name="session-details-report"></a>Informe de detalles de la sesión
 
@@ -37,7 +37,7 @@ Consulte Información [general de informes](https://support.office.com/article/0
 Este informe, junto con los demás informes Skype Empresarial le ofrece detalles sobre la actividad, incluidos los detalles de la sesión en toda la organización. Estos detalles son muy útiles al investigar, planear y tomar otras decisiones empresariales para su organización y para configurar créditos [de comunicaciones.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Puede ver todos los informes Skype Empresarial al iniciar sesión como administrador en el centro de Microsoft 365 administración. 
+> Puede ver todos los informes Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Cómo obtener acceso al informe Skype Empresarial detalles de la sesión
 

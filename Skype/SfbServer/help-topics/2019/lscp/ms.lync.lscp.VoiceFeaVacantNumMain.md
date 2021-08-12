@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los números sin asignar son números de teléfono válidos para su organización pero que no se han asignado a un usuario o teléfono. La tabla de números sin asignar identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: 135072c7128ac14e4073e95297fa2b5e4e1a8e5a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9dbb95d66fda093d8a094e92a84201b12a3baa6f2b454a75e2e3f7ab7b90a37c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097046"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280165"
 ---
 # <a name="unassigned-phone-number"></a>Número de teléfono sin asignar
 
 > [!NOTE]
-> La mensajería unificada de Exchange permanece disponible en Skype Empresarial Server 2019 al integrar Skype Empresarial 2019 con Exchange 2013 o Exchange 2016. Debido a los cambios en la compatibilidad con Exchange 2019, la integración de mensajería unificada de Exchange se está desmarcando a favor del correo de voz en la nube y las características Operador automático nube.
+> Exchange La mensajería unificada permanece disponible Skype Empresarial Server 2019 al integrar Skype Empresarial 2019 con Exchange 2013 o Exchange 2016. Debido a los cambios en la compatibilidad en Exchange 2019, Exchange la integración de mensajería unificada se está haciendo hincapié en las características de Correo de voz en la nube y cloud Operador automático.
 
 Los números sin asignar son números de teléfono válidos para su organización pero que no se han asignado a un usuario o teléfono. La tabla de números sin asignar identifica cómo desea que se traten las llamadas a números sin asignar.
 
@@ -56,10 +56,10 @@ En la siguiente lista se describen los comandos de la página.
 
 - **Editar** Abre el intervalo de números sin signo seleccionado para su edición, selecciona todos los intervalos de números sin signo de la lista o elimina el intervalo de números sin signo seleccionado.
 
-- **Subir** Mueve el intervalo de números sinsignar seleccionado hacia arriba en la lista para que Skype Empresarial Server lo encuentre antes y aplique la acción especificada antes de aplicar las acciones especificadas para otros rangos de la lista.
+- **Subir** Mueve el intervalo de números sin signo seleccionado hacia arriba en la lista para que Skype Empresarial Server lo encuentre antes y aplique la acción especificada antes de aplicar acciones especificadas para otros rangos de la lista.
 
     > [!NOTE]
-    > Skype Empresarial Server busca en la tabla de números sinsignación de arriba a abajo y usa el primer intervalo que coincide con el número sin signo. Por ejemplo, si tiene un intervalo que especifique una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista.
+    > Skype Empresarial Server busca en la tabla de números sin signo de arriba a abajo y usa el primer intervalo que coincide con el número sin signo. Por ejemplo, si tiene un intervalo que especifique una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista.
 
 - **Bajar** Mueve el intervalo de números sin signo seleccionado hacia abajo en la lista.
 
@@ -84,4 +84,4 @@ En la siguiente lista se describen los campos de la página.
 
 - **Anuncio** El anuncio que se reproducirá para este rango de números sin signo.
 
-Para obtener más información sobre las características y capacidades del anuncio, vea [Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación sobre planeación. Para obtener más detalles sobre cómo trabajar con rangos de números sin asignar, vea [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) en la documentación de operaciones.
+Para obtener más información sobre las características y capacidades del anuncio, consulte [Plan for the Announcement application in Skype Empresarial](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación de planeación. Para obtener más detalles sobre cómo trabajar con rangos de números sin asignar, vea [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) en la documentación de operaciones.

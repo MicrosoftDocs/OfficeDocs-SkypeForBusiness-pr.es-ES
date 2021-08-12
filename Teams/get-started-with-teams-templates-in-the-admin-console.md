@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf5a601cfe373f1afa995b1dcd8b1f9adff05877
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: ebbc1e2b26fdd5f0ff6816d456e0f2a2dc9d02275b8c81089a0c0a1ef299e64f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856299"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308719"
 ---
 # <a name="get-started-with-team-templates-in-the-admin-center"></a>Introducción a las plantillas de equipo en el Centro de administración
 

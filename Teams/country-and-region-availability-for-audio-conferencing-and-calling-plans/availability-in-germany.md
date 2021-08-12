@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Alemania.
-ms.openlocfilehash: 2bf89b622423610e35d2e118c2a5ab1f51ce7c0b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 53a775c6fa661c7222acb1370cd9426c0536890496c03eed128e2446788c5968
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308899"
 ---
 # <a name="availability-in-germany"></a>Disponibilidad en Alemania
 
