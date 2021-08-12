@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
-description: El cmdlet Get-CcApplianceStatus proporciona información de diagnóstico para el dispositivo de Skype Empresarial Cloud Connector Edition.
-ms.openlocfilehash: 65fc14301d85fd4826479eabcdf238b85dff54ab
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: El cmdlet Get-CcApplianceStatus proporciona información de diagnóstico para el Skype for Business Edición de conector de nube dispositivo.
+ms.openlocfilehash: 5d40c6e4d1d6f18669fdc9fe54954fe8ace386daa1cf0d4d1fc7065e8dcd974f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800590"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347585"
 ---
 # <a name="get-ccappliancestatus"></a>Get-CcApplianceStatus
  
-El cmdlet Get-CcApplianceStatus proporciona información de diagnóstico para el dispositivo de Skype Empresarial Cloud Connector Edition.
+El cmdlet Get-CcApplianceStatus proporciona información de diagnóstico para el Skype for Business Edición de conector de nube dispositivo.
   
-Este cmdlet se aplica a Skype Empresarial Cloud Connector Edition 2.1.
+Este cmdlet se aplica a Skype for Business Edición de conector de nube 2.1.
   
 ```
     Get-CcApplianceStatus 
@@ -32,7 +32,7 @@ Este cmdlet se aplica a Skype Empresarial Cloud Connector Edition 2.1.
 
 ## <a name="detailed-description"></a>Descripción detallada
 
-El cmdlet Get-CcApplianceStatus, cuando se ejecuta en el equipo host de Cloud Connector, proporciona información de diagnóstico para el dispositivo de Skype Empresarial Cloud Connector.
+El cmdlet Get-CcApplianceStatus, cuando se ejecuta en el equipo host de Cloud Connector, proporciona información de diagnóstico para el Skype Empresarial Cloud Connector.
   
 ## <a name="parameters"></a>Parámetros
 
@@ -40,7 +40,7 @@ Ninguno
   
 ## <a name="input-types"></a>Tipos de entrada
 
-Ninguno. El Get-CcApplianceStatus no acepta entradas canalizadas.
+Ninguno. El cmdlet Get-CcApplianceStatus no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 847c5d1017739a403c064b26b106c88164f79e68800fdc772f99ccfaaa9b6432
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512817"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314326"
 ---
 # <a name="document-my-success-plan"></a>Documentar el plan de éxito
 
@@ -108,7 +108,7 @@ A continuación se muestra un ejemplo de un plan de ejecución trimestral para l
 
 ## <a name="communications-and-governance-plan"></a>Plan de gobernanza y comunicaciones
 
-Para mantener a las partes interesadas del proyecto actualizadas con el progreso de la implementación, debe establecer un plan sobre cómo tendrán lugar las comunicaciones entre los miembros principales del equipo del proyecto y con las partes interesadas para discutir asuntos relacionados con el estado del proyecto, hitos clave, bloqueadores y varias revisiones del proyecto en relación con las KSIs establecidas , métricas operativas y objetivos estratégicos.
+Para mantener a las partes interesadas del proyecto actualizadas con el progreso de la implementación, debe establecer un plan sobre cómo tendrán lugar las comunicaciones entre los miembros principales del equipo del proyecto y con las partes interesadas para discutir asuntos relacionados con el estado del proyecto, hitos clave, bloqueadores y varias revisiones del proyecto en relación con las KSIs establecidas,  métricas operativas y objetivos estratégicos.
 
 A continuación se muestra un ejemplo de un plan de gobernanza y comunicaciones que puede aprovechar en el proyecto de implementación de voz en la nube.
 

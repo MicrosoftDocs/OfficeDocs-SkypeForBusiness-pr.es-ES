@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en EE. UU., como la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
-ms.openlocfilehash: 1fa2f86fa06755754dc9ef01bfdfc8647ea91aa0
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
+ms.openlocfilehash: b46823d7ee88b980e1da3babb6aaa6e54384e8348ebe9b17d54f29e2a77a2394
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335830"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-unites-states"></a>Restricciones de marcado gratuitos en los Estados Unidos
 

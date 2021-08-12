@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Solucione problemas al crear una sesión remota de PowerShell para conectarse a Skype Empresarial Online, incluidos problemas de importación-módulo, shell simultáneo, Id. de live y permisos.
-ms.openlocfilehash: eb2eb90c978b54999e04277d0c77cbdfb7ef54c7
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: cb9268efc5e35ec5f25ed93314a77347b4a9363f038744c4de9a934528ae371f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725393"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295957"
 ---
 # <a name="diagnose-connection-problems-using-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con Skype Empresarial Online Connector
 

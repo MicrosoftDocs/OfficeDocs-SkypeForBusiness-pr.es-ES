@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo asignar un id. de conferencia a un usuario en Microsoft Teams y cuáles deben ser los parámetros de id. de conferencia.
-ms.openlocfilehash: b57a419266ceca09a73fc4bf75bb12153e41ea91
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3086ff06d2a59028fd8b7c41aea8819cea733179e4596b036dc54d5eba927c91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117213"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323962"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Ver y restablecer un id. de conferencia asignado a un usuario en Microsoft Teams
 

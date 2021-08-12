@@ -237,7 +237,7 @@
             - name: Telefonía IP empresarial
               href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md
               items:
-                - name: "Componentes necesarios de la Telefonía\_IP empresarial"
+                - name: Componentes necesarios de la Telefonía IP empresarial
                   href: ../plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md
                   items:
                     - name: Servidor de mediación
@@ -1864,9 +1864,9 @@
               href: ../help-topics/help-depwiz/deployment-wizard-using-the-admin-tools.md
             - name: 'Asistente para la implementación: Herramientas administrativas'
               href: ../help-topics/help-depwiz/deployment-wizard-admin-tools.md
-            - name: "Asistente para la implementación: Ruta de acceso al instalador\_MSI"
+            - name: 'Asistente para la implementación: Ruta de acceso al instalador MSI'
               href: ../help-topics/help-depwiz/deployment-wizard-path-to-msi-installer.md
-            - name: "Asistente para la implementación: Windows\_Update"
+            - name: 'Asistente para la implementación: Windows Update'
               href: ../help-topics/help-depwiz/deployment-wizard-windows-update.md
             - name: 'Asistente para la implementación: API de comunicaciones unificadas'
               href: ../help-topics/help-depwiz/deployment-wizard-unified-communications-api.md
@@ -2206,7 +2206,7 @@
               href: ../help-topics/help-lscp/hybrid-wizard-move-user.md
             - name: Asistente para la administración híbrida
               href: ../help-topics/help-lscp/hybrid-manageability-wizard.md
-            - name: "Asistente híbrido: Inicio de sesión en Office\_365"
+            - name: 'Asistente híbrido: Inicio de sesión en Office 365'
               href: ../help-topics/help-lscp/hybrid-wizard-sign-in-to-office-365.md
         - name: Help-Planning
           items:

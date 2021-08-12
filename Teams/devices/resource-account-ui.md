@@ -1,24 +1,24 @@
 ---
-title: Crear una cuenta de recursos con el centro Microsoft 365 administración
-description: Si prefiere usar una interfaz gráfica de usuario, puede crear una cuenta de recursos para su Salas de Microsoft Teams y barras de colaboración para Microsoft Teams mediante el Centro de administración de Microsoft 365.
+title: Crear una cuenta de recurso con el Centro de administración de Microsoft 365
+description: Si prefiere usar una interfaz gráfica de usuario, puede crear una cuenta de recursos para su Salas de Microsoft Teams y barras de colaboración para Microsoft Teams el Centro de Administración de Microsoft 365 gráfico.
 ms.reviewer: payurevi
 manager: serdars
 audience: ITPro
-keywords: crear una cuenta de dispositivo, Microsoft 365 interfaz de usuario, Microsoft 365 centro de administración
+keywords: crear una cuenta de dispositivo, Microsoft 365 interfaz de usuario, Centro de administración de Microsoft 365
 ms.sitesec: library
 ms.service: msteams
 author: flinchbot
 ms.author: mitressl
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 1137f462b9c21455f3a65a87075fd653b5c081b9
-ms.sourcegitcommit: f0ccafb7e9c2d382ab4545e085657e8129024f1d
+ms.openlocfilehash: 014c51182213ec17e940f466ddd5fa0cc13185be561e3670277430ce78a054c2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314096"
 ---
-# <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>Crear una Microsoft 365 de recursos con el centro Microsoft 365 administración
+# <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>Crear una Microsoft 365 de recursos con la Centro de administración de Microsoft 365
 
 Microsoft 365 de recursos son cuentas de buzón y Teams que están dedicadas a recursos específicos, como un salón, un proyector, y así sucesivamente. Estas cuentas de recursos pueden responder automáticamente a las invitaciones a reuniones mediante reglas que defina cuando se crean. Por ejemplo, si tiene un recurso común como una sala de conferencias, puede configurar una cuenta de recursos para esa sala de conferencias que aceptará o rechazará automáticamente las invitaciones a reuniones según la disponibilidad del calendario.
 
@@ -35,15 +35,15 @@ Antes de crear una Microsoft 365 de recursos, compruebe qué tipo de licencia ne
 
 Para obtener más información sobre Sala de reuniones, Sistema telefónico y licencias de Business Voice, vea Microsoft Teams [de](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) complementos
 
-## <a name="create-a-resource-account-in-the-microsoft-365-admin-center"></a><a href="" id="create-device-acct-m365-admin-ctr"></a>Crear una cuenta de recursos en el centro Microsoft 365 administración
+## <a name="create-a-resource-account-in-the-microsoft-365-admin-center"></a><a href="" id="create-device-acct-m365-admin-ctr"></a>Crear una cuenta de recurso en el Centro de administración de Microsoft 365
 
 1. Inicie sesión en Microsoft 365 visitandohttps://admin.microsoft.com
-2. Proporcione las credenciales de administrador para su Microsoft 365 inquilino. Esto le llevará a su centro de Microsoft 365 de administración.
+2. Proporcione las credenciales de administrador para su Microsoft 365 inquilino. Esto le llevará a su Centro de administración de Microsoft 365.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Microsoft 365 de administración":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Centro de administración de Microsoft 365":::
 3. En el centro de administración, vaya a **Recursos** en  el panel izquierdo (es posible que tenga que seleccionar Mostrar todo primero) y, a continuación, seleccione **Salas & equipo**.
 
-:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Microsoft 365 de administración: recursos":::
+:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Centro de administración de Microsoft 365: recursos":::
 4. Seleccione **Agregar un buzón de recursos** para crear una nueva cuenta de salón. Escriba un nombre para mostrar y una dirección de correo electrónico para la cuenta, seleccione **Agregar** y, a continuación, **seleccione Cerrar.** Se recomienda estandarizar una convención de nomenclatura para todas las cuentas de recursos.
 
 > [!NOTE]
@@ -55,16 +55,16 @@ Para obtener más información sobre Sala de reuniones, Sistema telefónico y li
 >   - Duración máxima (horas): 24
 > - Aceptar automáticamente las solicitudes de reunión
 
-:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Microsoft 365 de administración: agregar recursos":::
+:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Centro de administración de Microsoft 365: agregar recursos":::
 5. Vaya a la **sección Usuarios** del Centro de administración y, en la **lista Usuarios** activos, verá el salón que acaba de crear.
 
-:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Microsoft 365 de administración: ver usuarios activos":::
+:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Centro de administración de Microsoft 365: ver usuarios activos":::
 6. Seleccione el nombre del salón y aparecerá un panel de propiedades de la cuenta a la derecha.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Microsoft 365 de administración: propiedades de usuario":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Centro de administración de Microsoft 365: propiedades de usuario":::
 7. Ahora debe asignar una contraseña a la cuenta de recursos. En el panel, puede ver las propiedades de la cuenta y varias acciones opcionales. Seleccione el **icono Restablecer clave de** contraseña debajo del nombre de usuario para cambiar la contraseña. Anular la **selección Requerir que este usuario cambie su contraseña al iniciar sesión por primera vez.** No es posible cambiar la contraseña a través del proceso de inicio de sesión del dispositivo. Seleccione **Restablecer**.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Microsoft 365 de administración: Restablecer contraseña":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Centro de administración de Microsoft 365: Restablecer contraseña":::
 8. En la **sección Licencias y aplicaciones,** establezca **Seleccionar ubicación** en el país o región donde se instalará el dispositivo. Desplácese hacia abajo y active la casilla situada junto a la licencia que se va a asignar (por ejemplo, Sala de reuniones) y, a continuación, **seleccione Guardar cambios.** La licencia puede variar según su organización.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Microsoft 365 de administración: Asignar licencia":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Centro de administración de Microsoft 365: Asignar licencia":::

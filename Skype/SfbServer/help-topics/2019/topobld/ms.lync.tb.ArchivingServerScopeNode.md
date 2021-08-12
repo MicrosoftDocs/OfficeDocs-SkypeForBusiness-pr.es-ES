@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 ROBOTS: NOINDEX, NOFOLLOW
-description: En el Generador de topologías, puede realizar tareas relacionadas con el servidor que ejecuta el archivado haciendo clic con el botón secundario en el grupo en el árbol de consola y seleccionando Editar propiedades. En la página Editar propiedades puede cambar el nombre de dominio completo (FQDN) del servidor que ejecuta el Archivado, la base de datos del SQL Server de archivado y el almacén de archivos para el archivado.
-ms.openlocfilehash: 1ee80d5727e5059f3bb4e36e08b103e7120db800
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: En el Generador de topologías, puede realizar tareas relacionadas con el servidor que ejecuta archivado haciendo clic con el botón secundario en el grupo en el árbol de consola y seleccionando Editar propiedades. En la página Editar propiedades puede cambar el nombre de dominio completo (FQDN) del servidor que ejecuta el Archivado, la base de datos del SQL Server de archivado y el almacén de archivos para el archivado.
+ms.openlocfilehash: 430a472a2cca1889c329fb8db9bcbdd119fcf895ce131b3becae2188f5edc2f4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313578"
 ---
 # <a name="archiving-server-scope-node"></a>Nodo de ámbito de servidor de archivado
  
-En el Generador de topologías, puede realizar tareas relacionadas con el servidor que ejecuta el archivado haciendo clic con el botón secundario en el grupo en el árbol de consola y **seleccionando Editar propiedades.** En la página **Editar propiedades** puede cambar el nombre de dominio completo (FQDN) del servidor que ejecuta el Archivado, la base de datos del SQL Server de archivado y el almacén de archivos para el archivado.
+En el Generador de topologías, puede realizar tareas relacionadas con el servidor que ejecuta archivado haciendo clic con el botón secundario en el grupo en el árbol de consola y **seleccionando Editar propiedades**. En la página **Editar propiedades** puede cambar el nombre de dominio completo (FQDN) del servidor que ejecuta el Archivado, la base de datos del SQL Server de archivado y el almacén de archivos para el archivado.
   
 

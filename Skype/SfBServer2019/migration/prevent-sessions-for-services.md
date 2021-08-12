@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Puede usar el Panel de control de instalación heredada para evitar nuevas sesiones para todos los servicios heredados que se ejecutan en un equipo específico o para evitar nuevas sesiones para un servicio heredado específico.
-ms.openlocfilehash: c5cc8846febaf690376e01c36b9fa023b8377970
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 6ee7f33e01118297b5a86878ded8a0bb89aadc84524839a41fbacd0c9d699633
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752292"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313848"
 ---
 # <a name="prevent-sessions-for-services"></a>Impedir sesiones para servicios
 
@@ -26,7 +26,7 @@ Puede usar el Panel de control de instalación heredada para evitar nuevas sesio
 
 1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes) o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que implementó Skype Empresarial Server 2019.
     
-2. Abra el Panel de control de Skype Empresarial.
+2. Abra Skype Empresarial Panel de control.
     
 3. En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **Estado**.
     
@@ -40,7 +40,7 @@ Puede usar el Panel de control de instalación heredada para evitar nuevas sesio
 
 1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes) o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que implementó Skype Empresarial Server 2019.
     
-2. Abra el Panel de control de Skype Empresarial.
+2. Abra Skype Empresarial Panel de control.
     
 3. En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **Estado**.
     

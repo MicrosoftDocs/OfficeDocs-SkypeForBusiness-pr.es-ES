@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: En este artículo, aprenderá a crear, editar y administrar cuentas de recursos en Microsoft Teams.
-ms.openlocfilehash: 21824c360e26e568ae47a9729960fca01a100ae8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd366e59e99b41386d4f5e7a9373401ca67381cf0cf08f44dae1763e401dff53
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094250"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324110"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -47,7 +47,7 @@ Cada cuenta de recurso requiere una licencia para trabajar con operadores autom�
 
 Tratamos cómo asignar la licencia a una cuenta de recursos más adelante en este artículo.
 
-Para obtener la licencia de usuario virtual, en el Centro de administración de Microsoft 365, vaya a Suscripciones de complementos de servicios de compra de facturación y desplácese hasta el final , verá Sistema telefónico - Licencia de usuario  >    >   *virtual.* Selecciona **Comprar ahora**. Hay un coste cero, pero debe seguir estos pasos para adquirir la licencia.
+Para obtener la licencia de usuario virtual, en el Centro de administración de Microsoft 365, vaya a Suscripciones de complemento de servicios de compra de facturación y desplácese hasta el final , verá Sistema telefónico - Licencia de usuario  >    >   *virtual.* Selecciona **Comprar ahora**. Hay un coste cero, pero debe seguir estos pasos para adquirir la licencia.
 
 ### <a name="obtain-service-numbers"></a>Obtener números de servicio
 
@@ -79,13 +79,13 @@ Puede crear una cuenta de recursos en el centro Teams administración.
 
 Para cada cuenta de recurso, debe asignar una *Microsoft 365 Sistema telefónico: licencia* de usuario virtual *o Sistema telefónico* usuario.
 
-![Captura de pantalla de la interfaz de usuario asignar licencias en el Microsoft 365 de administración](media/resource-account-assign-virtual-user-license.png)
+![Captura de pantalla de la interfaz de usuario asignar licencias en el Centro de administración de Microsoft 365](media/resource-account-assign-virtual-user-license.png)
 
-1. En el Microsoft 365 de administración, haga clic en la cuenta de recursos a la que desea asignar una licencia.
+1. En el Centro de administración de Microsoft 365, haga clic en la cuenta de recursos a la que desea asignar una licencia.
 
 2. En la **pestaña Licencias y aplicaciones,** en **Licencias,** **seleccione Microsoft 365 Sistema telefónico - Usuario virtual.**
 
-3. Haga clic **en Guardar cambios.**
+3. Haga clic en **Guardar cambios**.
 
 ## <a name="assign-a-service-number"></a>Asignar un número de servicio
 
@@ -120,7 +120,7 @@ Puede editar la cuenta de recursos Nombre para **mostrar** y **Tipo de** cuenta 
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Cambiar una cuenta de recurso existente para usar una licencia de usuario virtual
 
-Si decide cambiar las licencias de su cuenta de recursos existente de una licencia de **Sistema telefónico a** una licencia de usuario virtual, tendrá que adquirir la licencia de usuario virtual gratuita y, a continuación, siga los pasos del Centro de administración de Microsoft 365 para mover usuarios a una [suscripción](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)diferente.
+Si decide cambiar las licencias de su cuenta de recursos existente de una licencia **de Sistema telefónico a** una licencia de usuario virtual, tendrá que adquirir la licencia de usuario virtual gratuita y, a continuación, siga los pasos del Centro de administración de Microsoft 365 para mover usuarios [a](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)otra suscripción.
 
 > [!WARNING]
 > Quite siempre una licencia Sistema telefónico licencia completa y asigne la licencia de usuario virtual en la misma actividad de licencia. Si quita la licencia antigua, guarda los cambios de la cuenta, agrega la nueva licencia y, a continuación, vuelve a guardar la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto sucede, le recomendamos que cree una nueva cuenta de recursos para la licencia de usuario virtual y quite la cuenta de recursos rota.
@@ -150,7 +150,7 @@ Para implementaciones que son híbridas con Skype Empresarial Server:
 
 Asegúrese de disociar el número de teléfono de la cuenta de recursos antes de eliminarlo, para evitar que el número de servicio se atasca en el modo pendiente.
 
-Después de hacerlo, puede eliminar la cuenta de recursos en el centro Microsoft 365 administración, en la pestaña Usuarios.
+Después de hacerlo, puede eliminar la cuenta de recursos en el Centro de administración de Microsoft 365, en la pestaña Usuarios.
 
 Para desasociar un número de teléfono de enrutamiento directo de la cuenta de recursos, use el siguiente cmdlet:
 

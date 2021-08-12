@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Belice.
-ms.openlocfilehash: 362a8bccb8d52e97b52dfc45929b99b5abe39c0e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d70de62d3bcf394053bd79be9bf46229316b5bc8acebe7669fec72c84134b08
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118359"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314116"
 ---
 # <a name="availability-in-belize"></a>Disponibilidad en Belice
 

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: En este apéndice se incluyen pasos detallados para actualizar los Conectar AAD para incluir más de un bosque como parte de la consolidación de la nube para Teams y Skype Empresarial.
-ms.openlocfilehash: 5ca5789ca50f24266ce5fccf16bcf06118e42742
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 885e37b2131d455cc4c114f99bb4a95e7aa4896f2d43b55b398e543dc3674e55
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510531"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295937"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>Actualizar AAD Connect para incluir más de un bosque
 

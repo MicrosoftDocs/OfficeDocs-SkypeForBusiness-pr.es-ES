@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5514e550bb8ba259779f390b1a87d74dcb7e3e3f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 175b08fa5121d158ad89740cff096ba8bd1d34fa73e4c65027def7f031e5c349
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335880"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Crear sus primeros equipos en Microsoft Teams
 
@@ -35,14 +35,14 @@ La mejor manera de impulsar la adopción de Teams es usar el producto. Le recome
 | Nombre del equipo | Nombres de canal propuestos |
 | --------- | ---------------------- |
 | Conozca Teams | General</br> Saludad</br> ¿Cómo puedo hacerlo?</br>Comentarios </br> Ideas para equipos futuros </br> Soporte técnico |
-| Microsoft Teams Implementación | General <br/> Concienciación y adopción <br/> Compromiso empresarial <br/> Early Adopter Program <br/> Comentarios e información <br/> Seguridad y cumplimiento <br/> Estrategia y planificación <br/> Estado del servicio e incidentes <br/> Aprendizaje <br/> Watercooler Chat |
+| Microsoft Teams Implementación | General <br/> Concienciación y adopción <br/> Compromiso empresarial <br/> Early Adopter Program <br/> Comentarios y Ideas <br/> Seguridad y cumplimiento <br/> Estrategia y planificación <br/> Estado del servicio e incidentes <br/> Aprendizaje <br/> Watercooler Chat |
 | Campeones de trabajo en equipo | General <br/> Procedimientos recomendados, aprendizaje y procedimientos <br/> Esquina de campeón <br/> Comentarios y soporte técnico <br/> Clientes potenciales del programa <br/> Social Hub |
 
 En Microsoft Teams, la [](/microsoftteams/platform/concepts/tabs/tabs-overview) galería de pestañas le proporciona acceso a todas las aplicaciones Microsoft 365 o Office 365 y de terceros que ha activado el administrador. Para obtener el máximo valor de su producto, le recomendamos que anclar recursos clave como pestañas en cada uno de los canales adecuados. Vea el ejemplo siguiente.
 
 ![Captura de pantalla que muestra pestañas predeterminadas y personalizadas](media/teams-adoption-tab-example.png)
 
-En los equipos iniciales, le recomendamos que anclar los siguientes elementos para facilitar la referencia en los canales de su equipo. Estos activos se sume a las secciones OneNote bloc de notas. Si está trabajando con nuestro equipo de FastTrack, le ayudarán a configurar estos primeros equipos. 
+En los equipos iniciales, le recomendamos que anclar los siguientes elementos para facilitar la referencia en los canales de su equipo. Estos activos se sume a las secciones OneNote bloc de notas. Si trabaja con nuestro equipo de FastTrack, le ayudarán a configurar estos primeros equipos. 
 
 |Nombre del equipo o del canal | Pestaña anclada |
 |----------------- | ---------- |

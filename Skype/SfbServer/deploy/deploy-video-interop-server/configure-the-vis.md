@@ -13,24 +13,24 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Resumen: configure el rol servidor de interoperabilidad de vídeo (VIS) en Skype Empresarial Server.'
-ms.openlocfilehash: 8d5da36d07583cc1c20407d842b94531062947ba
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8f32be864e950d100faa0e3b5f5065d12018c5752610f5c1684aa2c73c84c73b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313688"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar el servidor de interoperabilidad de vídeo en Skype Empresarial Server
  
 **Resumen:** Configure el rol Servidor de interoperabilidad de vídeo (VIS) en Skype Empresarial Server.
   
- Configure las opciones que el VIS asociará a los troncos de vídeo mediante Windows PowerShell. Una configuración de tronco de vídeo con ámbito global se crea una vez instalado el servicio VIS. El VIS aplica esta configuración de tronco de vídeo a todos los troncos que no tienen una configuración de tronco de vídeo con un ámbito más específico. Tenga en cuenta que la configuración del tronco de vídeo es una colección de opciones que se aplican a los troncos de vídeo.
+ Configure la configuración que el VIS asociará a los troncos de vídeo mediante Windows PowerShell. Una configuración de tronco de vídeo con ámbito global se crea una vez instalado el servicio VIS. El VIS aplica esta configuración de tronco de vídeo a todos los troncos que no tienen una configuración de tronco de vídeo con un ámbito más específico. Tenga en cuenta que la configuración del tronco de vídeo es una colección de opciones que se aplican a los troncos de vídeo.
   
 ## <a name="configure-video-trunk-and-dial-plan"></a>Configurar el tronco de vídeo y el plan de marcado
 
 Use los siguientes comandos Windows PowerShell para especificar la configuración del tronco de vídeo y el plan de marcado que se asociarán con los troncos recién definidos definidos en el documento de topología entre el VIS y todas las puertas de enlace de vídeo. Todas estas opciones de configuración se pueden establecer en los niveles Global, Site o Service (Video Gateway). 
   
-Se crea un plan de marcado con ámbito global por implementación de Skype Empresarial Server. Vis aplica este plan de marcado a todos los troncos que no tienen ningún plan de marcado con un ámbito más específico. 
+Se crea un plan de marcado con ámbito global Skype Empresarial Server implementación. Vis aplica este plan de marcado a todos los troncos que no tienen ningún plan de marcado con un ámbito más específico. 
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>Configurar el VIS mediante Windows PowerShell
 
@@ -52,13 +52,13 @@ Se crea un plan de marcado con ámbito global por implementación de Skype Empre
    Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-    Para quitar una configuración de tronco de vídeo determinada, use el siguiente cmdlet Windows PowerShell (tenga en cuenta que la configuración del tronco de vídeo de ámbito global se aplicará si no hay una configuración de tronco de vídeo con ámbito más específico para un tronco concreto):
+    Para quitar una configuración de tronco de vídeo en particular, use el siguiente cmdlet Windows PowerShell (tenga en cuenta que la configuración del tronco de vídeo de ámbito global se aplicará si no hay una configuración de tronco de vídeo con ámbito más específico para un tronco concreto):
     
    ```powershell
    Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-2. Establezca un plan de marcado para asociarlo con el tronco, mediante los siguientes cmdlets Windows PowerShell:
+2. Establezca un plan de marcado para asociarlo con el tronco, mediante los siguientes cmdlets Windows PowerShell de marcado:
     
    ```powershell
    New-CsDialPlan -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -SimpleName "TrunkTestDialPlan" 
@@ -86,6 +86,6 @@ Los cmdlets Windows PowerShell para la configuración del tronco de vídeo menci
   
  **ForwardErrorCorrectionType** Este parámetro se usa para determinar si la corrección de errores de reenvío (FEC) para secuencias de vídeo se va a aplicar en el tramo entre el servidor de interoperabilidad de vídeo y una puerta de enlace de vídeo. Al establecer ForwardErrorCorrectionType en "None" se desactiva FEC entre VIS y Video Gateway/VTC. Al establecer ForwardErrorCorrectionType en "Cisco" se habilita FEC compatible con las puertas de enlace de vídeo de Cisco, como Cisco Unified Communications Manager (CUCM). El valor predeterminado es **Ninguno**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Configurar CUCM para interoperación con Skype Empresarial Server](configure-cucm-for-interoperation.md)

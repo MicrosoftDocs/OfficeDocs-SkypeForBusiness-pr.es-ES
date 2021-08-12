@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Presentar una queja para Skype de llamadas profesionales (llamadas RTC en el Reino Unido), plazos de respuestas y resolución de disputas para quejas no resueltas.
-ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780279"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347415"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Planes de llamadas en Microsoft 365: código de gestión de quejas para el Reino Unido (Reino Unido)
 
@@ -40,7 +40,7 @@ La satisfacción de los clientes es una prioridad de Skype Empresarial. Sin emba
 
 - Número de teléfono gratuito: 0800 032 6417
 
-- En línea: Inicie sesión en el Microsoft 365 de administración y envíe una solicitud de servicio seleccionando Nueva solicitud **de servicio** en **Soporte técnico.**
+- En línea: Inicie sesión en el Centro de administración de Microsoft 365 y envíe una solicitud de servicio seleccionando Nueva solicitud **de servicio en** Soporte **técnico.**
 
 ## <a name="timelines"></a>Escalas de tiempo
 

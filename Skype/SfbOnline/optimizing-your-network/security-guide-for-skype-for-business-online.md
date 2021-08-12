@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Security
 description: Guía de seguridad para Skype Empresarial Online <add description>
-ms.openlocfilehash: 5b99744b9b798f7748870f9155b48bff16ad2b24
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0100eaab0a06cdbc618f39bd02ae832dca71abd5ac0498143fd51e8da9ea0e3e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240446"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295947"
 ---
 # <a name="security-and-skype-for-business-online"></a>Seguridad y Skype Empresarial online
 
@@ -83,7 +83,7 @@ Un ataque de reproducción se produce cuando se intercepta y retransmite una tra
 El término inglés "spim" hace referencia a los mensajes instantáneos comerciales no deseados o a las solicitudes de suscripción de presencia no deseadas. Si bien estos mensajes por sí mismos no son un peligro para la seguridad de la red, son como mínimo molestos, pueden reducir la disponibilidad y la productividad de los recursos, y podrían llegar a poner en peligro la red. Un ejemplo de ello es el caso de usuarios que se envían solicitudes no deseadas entre sí. Los usuarios pueden bloquearse entre sí para evitarlo, pero con la federación, si se establece un ataque coordinado de este tipo, puede ser difícil de solucionar a menos que se deshabilite la federación para el asociado.
 
 ### <a name="viruses-and-worms"></a>Virus y gusanos
-Un virus es una unidad de código cuyo propósito es reproducir otras unidades de código similares. Para que funcione, un virus necesita un anfitrión, como un archivo, un correo electrónico o un programa. Al igual que un virus, un gusano es una unidad de código que está codificada para reproducir unidades de código adicionales similares, pero que, a diferencia de un virus, no necesita un host. Los virus y los gusanos suelen aparecer principalmente durante las transferencias de archivo entre clientes o cuando otros usuarios envían direcciones URL. Si hay un virus en su equipo, podrá, por ejemplo, usar su identidad y enviar mensajes instantáneos en su nombre. Las medidas estándar de seguridad de cliente como los análisis periódicos en busca de virus pueden mitigar este problema. 
+Un virus es una unidad de código que tiene por objeto reproducir más unidades de código similares. Los virus necesitan un host, como un archivo, un correo electrónico o un programa, para poder funcionar. Un gusano también es una unidad de código cuyo propósito es reproducir más unidades de código similares, pero no necesita un host. Los virus y los gusanos suelen aparecer principalmente durante las transferencias de archivo entre clientes o cuando otros usuarios envían direcciones URL. Si hay un virus en su equipo, podrá, por ejemplo, usar su identidad y enviar mensajes instantáneos en su nombre. Para mitigar este problema, el usuario medio debería seguir los procedimientos de seguridad recomendados como, por ejemplo, examinar periódicamente el equipo en busca de virus. 
 
 ## <a name="personally-identifiable-information"></a>Información de identificación personal
 SfBO tiene el potencial de revelar información a través de una red pública que podría estar vinculada a un individuo. Dicha información se puede desglosar en dos categorías:
@@ -132,7 +132,7 @@ En esta sección se proporciona información general sobre los elementos fundame
 En los temas de esta sección se describe cómo funciona cada uno de estos elementos fundamentales para mejorar la seguridad del servicio SfBO.
  
 ### <a name="azure-active-directory"></a>Azure Active Directory
-Azure Active Directory funciona como el servicio de directorio para Microsoft 365 y Office 365. Almacena todas las asignaciones de directivas y la información de directorio de usuario. 
+Azure Active Directory funciona como el servicio de directorio para Microsoft 365 y Office 365. Almacena todas las asignaciones de directivas y la información de directorio de usuario. 
 
 ### <a name="public-key-infrastructure-for-sfbo"></a>Infraestructura de clave pública para SfBO
 El servicio SfBO se basa en certificados para la autenticación de servidor y para establecer una cadena de confianza entre clientes y servidores y entre los distintos roles de servidor. La infraestructura de claves públicas (PKI, Public Key Infrastructure) de Windows Server proporciona la infraestructura para establecer y validar esta cadena de confianza.

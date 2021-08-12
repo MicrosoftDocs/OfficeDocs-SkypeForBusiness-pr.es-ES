@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en la India, incluida la disponibilidad, la disponibilidad de la red móvil y por cable o de línea fija, y las restricciones.
-ms.openlocfilehash: 3e8dc705b5a8f762899433e0fbd2cc4bfe3aba94
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dae597170f8ea4a56a908087a85a1b12777341ba277e72e3a1ca599037a393e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098086"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335890"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restricciones de marcado de número gratuito en India
 

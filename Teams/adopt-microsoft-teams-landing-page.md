@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4083c0cf50062e69554218dd090a14812b29a6c0
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 80b1799ac64bfd5818c6c53965921696b8e60b9710dbd842594353cee2957998
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856389"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314306"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 

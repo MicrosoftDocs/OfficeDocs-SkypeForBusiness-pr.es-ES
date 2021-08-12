@@ -16,12 +16,12 @@ description: Obtenga información sobre las Teams de alertas y notificaciones di
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: c99cc9af08fb1353e0c94e6f8bf156df04327d49
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 1afe0ae7c8045b6a7e1c8b6eaf6f0e179e76a59e674c3a21b323eb9f123fd810
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314276"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams y alertas
 

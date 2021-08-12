@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para generar el PIN del usuario, seleccione Generar automáticamente un PIN válido.
-ms.openlocfilehash: a57fee990e6732ba13a87d7f1de064a5e526b238
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0cd2cf54d6138353e19ff2314d84663d1aabb5f6c8817ea15c561ae5f437ec7c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324339"
 ---
 # <a name="set-pin"></a>Establecer PIN
 
@@ -30,6 +30,6 @@ Para crear su propio PIN, seleccione **Introducir manualmente un PIN determinado
 
 
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [PIN de usuario](/previous-versions/office/lync-server-2013/lync-server-2013-managing-user-pins)

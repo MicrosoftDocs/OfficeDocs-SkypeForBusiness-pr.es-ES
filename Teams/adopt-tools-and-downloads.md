@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c21f7f8ea1ea4f4e9f84e81cd720acfbeccab59
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 052ab1111c2f090b1e0d107b082ffd95c166186e092742f35ef2a88aa7ed327c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726231"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314286"
 ---
 # <a name="tools-for-driving-adoption"></a>Herramientas para impulsar la adopción 
 

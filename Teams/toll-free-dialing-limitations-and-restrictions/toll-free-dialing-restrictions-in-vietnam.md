@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en Vietnam, incluida la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
-ms.openlocfilehash: 52228a24a54ac090499f33a7af66deee83d48cec
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 533f221518c422ab1d0bcb132cca2cfddf737d1f7a956dc1c560052b5a68af66
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116558"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335840"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>Restricciones de marcado de número gratuito en Vietnam
 

@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
-description: El Set-CcCredential establece la credencial de la implementación actual de Skype Empresarial Cloud Connector Edition.
-ms.openlocfilehash: 3717eb0dcaa46bb6708f40ecb7f94869f24774a2
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: El cmdlet Set-CcCredential establece la credencial de la implementación Skype for Business Edición de conector de nube actual.
+ms.openlocfilehash: 330326790f20add51dcaeb4468b17438c302c353c08076402e15f4d32985c117
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324140"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
-El Set-CcCredential establece la credencial de la implementación actual de Skype Empresarial Cloud Connector Edition. 
+El cmdlet Set-CcCredential establece la credencial de la implementación Skype for Business Edición de conector de nube actual. 
   
-Con Cloud Connector versión 2.0 y versiones posteriores, este cmdlet también puede establecer la información de la cuenta para el administrador de la máquina virtual y para el administrador de dominio.
+Con Cloud Connector versión 2.0 y versiones posteriores, este cmdlet también puede establecer la información de cuenta para el administrador de la máquina virtual y para el administrador de dominio.
   
 ```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
@@ -44,7 +44,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El Set-CcCredential establece el nombre de cuenta y la contraseña del administrador de inquilinos. Para las versiones anteriores a 2.0, este administrador debe ser un administrador global. Cloud Connector usa esta cuenta para obtener información de configuración, establecer parámetros de configuración y actualizar el estado del dispositivo a la configuración de la organización de Microsoft 365 u Office 365. Con la versión 2.0 y versiones posteriores, también puede usar este cmdlet para actualizar las contraseñas de las cuentas VmAdmin y DomainAdmin.
+El cmdlet Set-CcCredential establece el nombre de cuenta y la contraseña del administrador de inquilinos. Para las versiones anteriores a la 2.0, este administrador debe ser un administrador global. Cloud Connector usa esta cuenta para obtener información de configuración, establecer parámetros de configuración y actualizar el estado del dispositivo al Microsoft 365 o Office 365 de la organización. Con la versión 2.0 y versiones posteriores, también puede usar este cmdlet para actualizar las contraseñas de las cuentas VmAdmin y DomainAdmin.
   
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>
@@ -56,14 +56,14 @@ El Set-CcCredential establece el nombre de cuenta y la contraseña del administr
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguno. El Set-CcCredential no acepta entradas canalizadas.
+Ninguno. El cmdlet Set-CcCredential no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
 
 Ninguno
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
 [Get-CcCredential](get-cccredential.md)

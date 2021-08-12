@@ -18,12 +18,12 @@ description: Determine qué Teléfono Microsoft plan de llamadas del sistema ser
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b88af706f79dd195e2f9363ff45e586a1123686f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c71c52f8209cc0030ee978b8c8b051c5d8101a55700f80f9dbe52fe36e84b3c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102736"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347535"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>¿Qué plan de llamada es adecuado para usted? 
 

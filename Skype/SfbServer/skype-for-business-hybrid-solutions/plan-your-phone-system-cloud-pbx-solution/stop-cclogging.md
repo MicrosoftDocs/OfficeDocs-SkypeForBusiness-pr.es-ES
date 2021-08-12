@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
-description: El Stop-CcLogging cmdlet deja de generar el registro de llamadas entrantes y salientes para un dispositivo de Skype Empresarial Cloud Connector Edition.
-ms.openlocfilehash: 8a012e9b1a94c3698cc61da4326eb0ccbb27bca2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: El cmdlet Stop-CcLogging deja de generar el registro de llamadas entrantes y salientes para un Skype for Business Edición de conector de nube dispositivo.
+ms.openlocfilehash: 7813acf9867829cadaa26d84a0e8a6c33f825ef45b9fca781840a44f94574930
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347565"
 ---
 # <a name="stop-cclogging"></a>Stop-CcLogging
  
-El Stop-CcLogging cmdlet deja de generar el registro de llamadas entrantes y salientes para un dispositivo de Skype Empresarial Cloud Connector Edition.
+El cmdlet Stop-CcLogging deja de generar el registro de llamadas entrantes y salientes para un Skype for Business Edición de conector de nube dispositivo.
   
 ```powershell
 Stop-CcLogging [-RemoveCache]
@@ -33,7 +33,7 @@ Stop-CcLogging [-RemoveCache]
 
 ### <a name="example-1"></a>Ejemplo 1
 
-En el siguiente ejemplo se detiene la generación del registro de llamadas entrantes y salientes: 
+En el siguiente ejemplo se deja de generar el registro de llamadas entrantes y salientes: 
   
 ```powershell
 Stop-CcLogging
@@ -41,7 +41,7 @@ Stop-CcLogging
 
 ### <a name="example-2"></a>Ejemplo 2
 
-En el siguiente ejemplo se detiene la generación del registro de llamadas entrantes y salientes y se limpian los archivos de caché:
+El siguiente ejemplo deja de generar el registro de llamadas entrantes y salientes y limpia los archivos de caché:
   
 ```powershell
 Stop-CcLogging -RemoveCache
@@ -50,7 +50,7 @@ Stop-CcLogging -RemoveCache
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El Stop-CcLogging cmdlet detiene el registro de llamadas entrantes y salientes en un dispositivo. De forma predeterminada, el registro se detendrá automáticamente después de cuatro horas.
+El cmdlet Stop-CcLogging detiene el registro de llamadas entrantes y salientes en un dispositivo. De forma predeterminada, el registro se detendrá automáticamente después de cuatro horas.
   
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>
@@ -62,14 +62,14 @@ El Stop-CcLogging cmdlet detiene el registro de llamadas entrantes y salientes e
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguno. El Stop-CcLogging no acepta entradas canalizadas.
+Ninguno. El cmdlet Stop-CcLogging no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
 
 Ninguno
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
 [Search-CcLog](search-cclog.md)
