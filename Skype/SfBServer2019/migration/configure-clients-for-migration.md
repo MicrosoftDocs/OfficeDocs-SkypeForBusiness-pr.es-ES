@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Este tema contiene los pasos de implementación de cliente recomendados que debe realizar antes de migrar a Skype Empresarial Server 2019. Estos cambios de configuración deben realizarse en Lync Server 2013 o Skype Empresarial Server 2015.
-ms.openlocfilehash: 46a193e3896b6e7ad2dddd405eda413a2544fe3f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2eae39832a88e0dcbc9b56308718478ab801d5efc262cbfe78e5be756e08970b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105116"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281383"
 ---
 # <a name="configure-clients-for-migration"></a>Configurar los clientes para la migración
 
@@ -28,7 +28,7 @@ Este tema contiene los pasos de implementación de cliente recomendados que debe
     
 2. En la versión anterior de Skype Empresarial Server, use el filtrado de versiones de cliente para permitir solo los clientes con las actualizaciones más actuales instaladas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Configuración nueva y modificada para Lync 2013](/previous-versions/office/lync-server-2013/lync-server-2013-new-and-changed-settings-for-lync-2013) 
  

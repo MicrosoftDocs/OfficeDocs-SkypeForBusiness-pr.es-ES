@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: c40d1e8eb81b832acc6b8e59aafd416fe0bfbb78
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1aebaf461fb21b356bff2b0119bc281f968d6815b8877040e896672d817e6415
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099876"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309599"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>Directiva de acceso externo: Crear nuevos o editar los existentes
 

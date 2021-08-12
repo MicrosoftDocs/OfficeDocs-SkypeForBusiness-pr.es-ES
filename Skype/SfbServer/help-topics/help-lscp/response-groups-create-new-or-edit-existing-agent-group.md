@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: Los grupos de agentes definen quién puede responder las llamadas a un grupo de respuesta (conocido como agentes) y la configuración que se aplica a todos los agentes del grupo.
-ms.openlocfilehash: 10e7790ae993baf18693cba300c3d2b479624a29
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86dca2b0db3f0daa58c892f36fc09c7f2ea4869dc0d867a8084a16d626b327f6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309469"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Grupos de respuesta: Crear nuevos o editar los grupos de agentes existentes
 
@@ -56,7 +56,7 @@ En la siguiente lista se describen los campos de la página.
 
 - **Agentes** Seleccione los usuarios que deben ser agentes para el grupo de respuesta de una de las siguientes maneras:
 
-  - Seleccione **Usar una lista de distribución de correo electrónico existente** para usar una lista de distribución de Exchange. Escriba la dirección de correo electrónico de la lista de distribución en **Dirección de la lista de distribución**.
+  - Seleccione **Usar una lista de distribución de correo electrónico existente** para usar una Exchange de distribución. Escriba la dirección de correo electrónico de la lista de distribución en **Dirección de la lista de distribución**.
 
     > [!NOTE]
     > Solo puede seleccionar una lista de distribución por grupo de agentes. Si la lista de distribución incluye listas de distribución anidadas, estas no se incluirán en el grupo de agentes.
@@ -65,10 +65,10 @@ En la siguiente lista se describen los campos de la página.
     > El orden en que los agentes se muestran en la lista de distribución afecta al orden en que los agentes reciben llamadas para round robin y el enrutamiento en serie.
 
     > [!NOTE]
-    > Las pertenencias ocultas o listas ocultas pueden ser visibles para los administradores o usuarios del grupo de respuesta. Para obtener más información, [vea Create or modify an agent group in Skype for Business 2015](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).
+    > Las pertenencias ocultas o listas ocultas pueden ser visibles para los administradores o usuarios del grupo de respuesta. Para obtener más información, [vea Create or modify an agent group in Skype Empresarial 2015](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).
 
   - Seleccione **Definir un grupo de agentes personalizado** para seleccionar los usuarios que desee asignar como agentes para el grupo de respuesta. Haga clic en **Seleccionar** para agregar un agente a la lista. Haga clic en **Quitar** para eliminar un agente seleccionado de la lista.
 
     Las flechas arriba y abajo mueven un agente seleccionado hacia arriba y hacia abajo en la lista de agentes. El orden de los agentes afecta al orden en que los agentes reciben llamadas para round robin y el enrutamiento en serie.
 
-Para obtener más información sobre las características y capacidades del grupo de respuesta, vea [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación. Para obtener detalles sobre cómo trabajar con grupos de agentes, vea [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) en la documentación de operaciones.
+Para obtener más información sobre las características y capacidades del grupo de respuesta, [vea Plan for the Response Group application in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación. Para obtener detalles sobre cómo trabajar con grupos de agentes, vea [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) en la documentación de operaciones.

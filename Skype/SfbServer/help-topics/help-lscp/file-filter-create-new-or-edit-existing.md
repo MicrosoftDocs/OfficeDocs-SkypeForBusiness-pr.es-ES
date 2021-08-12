@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: bcd41554d7c18f4b77abc74eb17f307623df619a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b85a9b95362d3a9a2122eae02144c8ba959b4b7586420e6225b54ca5a26c1b7a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099816"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309509"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>Filtro de archivo: Crear nuevos o editar los existentes
 
@@ -30,4 +30,4 @@ ms.locfileid: "51099816"
 
 - [Crear un filtro de transferencia de archivos nuevo para un sitio específico](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site)
 
-Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype Empresarial Server 2015](../../manage/manage.md).

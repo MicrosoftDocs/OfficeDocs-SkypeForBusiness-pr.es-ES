@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar la configuración de un Director existente, le presentamos las secciones siguientes:'
-ms.openlocfilehash: 62dc9b855937d360a975e5e4035d662da276ce02
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c102041c064ee21256264d3a84334e9d2199546daf5cfffa7350325762522d1c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822630"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281983"
 ---
 # <a name="director-general-settings-expander"></a>Expansor de configuración general de director
  
@@ -51,7 +51,7 @@ Para editar o especificar una configuración adicional de los servicios web en e
 En el caso de los **servicios web internos** puede especificar lo siguiente:
   
 > [!CAUTION]
-> Si tiene más de un grupo de servidores front-end o un servidor front-end, el FQDN de los servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como **pool01.contoso.com**, no puede usar **pool01.contoso.com** para otro grupo de servidores front-end o servidor front-end. Si también implementa directores, el FQDN de servicios web externos definido para cualquier director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
+> Si tiene más de un grupo de servidores front-end o servidor front-end, el FQDN de servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como pool01.contoso.com **,** no puede usar **pool01.contoso.com** para otro grupo de servidores front-end o servidor front-end. Si también va a implementar directores, el FQDN de servicios web externos definido para cualquier director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
   
 Si selecciona FQDN de reemplazo, puede especificar un FQDN distinto para la identidad de los servicios web internos en el grupo. De forma predeterminada, la configuración del nombre de grupo actual la define el grupo de directores.
   

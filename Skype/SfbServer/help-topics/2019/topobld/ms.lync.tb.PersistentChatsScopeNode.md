@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Haga clic con el botón secundario en Grupo de chat persistente en el Generador de topologías para realizar lo siguiente:'
-ms.openlocfilehash: 87512ae3ecba6eab5bb3e896b16c9c33a1716786
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b9c5849fbf841d026b33a9deb0a68acffc18188977d75a8316297b4569b7571a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115390"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281883"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Crear nodo de ámbito de servidores de chat persistente
 
 > [!NOTE] 
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, [vea Skype Empresarial to Microsoft Teams upgrade](/MicrosoftTeams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015.
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, [vea Skype Empresarial para Microsoft Teams actualización](/MicrosoftTeams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad para Teams o seguir usando Skype Empresarial Server 2015.

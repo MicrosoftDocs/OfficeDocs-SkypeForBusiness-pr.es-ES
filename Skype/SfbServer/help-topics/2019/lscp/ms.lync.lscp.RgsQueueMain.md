@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
-ms.openlocfilehash: a59cab44df89a6091f463d677a5771983166a42b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a04d80d3ecea5d10c85c11cf4705b481daa1b12b3a9b152fd87430f8cb23c355
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118799"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309889"
 ---
 # <a name="response-groups-queue"></a>Cola de grupos de respuesta
 
@@ -56,4 +56,4 @@ En la siguiente lista se describen los campos de la página.
 
 - **Descripción** La descripción de la cola.
 
-Para obtener más información sobre las características y capacidades del grupo de respuesta, vea [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación. Para obtener más información sobre cómo trabajar con colas de grupo de respuesta, consulte [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) en la documentación sobre operaciones.
+Para obtener más información sobre las características y capacidades del grupo de respuesta, vea [Plan for the Response Group application in Skype Empresarial Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación. Para obtener más información sobre cómo trabajar con colas de grupo de respuesta, consulte [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) en la documentación sobre operaciones.

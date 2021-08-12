@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo personalizar aplicaciones en Microsoft Teams.
-ms.openlocfilehash: e2a217648abbcec4075e942b303542621f7d317a
-ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
+ms.openlocfilehash: bd598bed231c0d9d6ab2a58d87f04ab2eecfad8df64d0446ee3c63a884b25e67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53408749"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281633"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicaciones en Microsoft Teams
 

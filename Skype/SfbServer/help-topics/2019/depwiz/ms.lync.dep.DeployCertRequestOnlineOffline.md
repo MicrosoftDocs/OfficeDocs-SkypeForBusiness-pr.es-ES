@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para crear una solicitud retrasada o una sin conexión, seleccione Prepare ahora la solicitud, pero envíela más tarde (solicitud de certificado sin conexión). Para crear una solicitud inmediata a una entidad de certificación en línea (normalmente un sistema interno de la infraestructura de clave pública de la organización), seleccione Enviar la solicitud inmediatamente a una entidad de certificación en línea.
-ms.openlocfilehash: a132f24ad3066643695e5d9ecdf0f3b257682cb2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para crear una solicitud retrasada o una sin conexión, seleccione Prepare ahora la solicitud, pero envíela más tarde (solicitud de certificado sin conexión). Para crear una solicitud inmediata a una entidad de certificación en línea (normalmente un sistema interno en la infraestructura de clave pública de la organización), seleccione Enviar la solicitud inmediatamente a una entidad de certificación en línea.
+ms.openlocfilehash: 96a18d804894bad1b3359d1af33a726b04d3d563724b7b605ae52fbaf5dc5c0b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836820"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309979"
 ---
 # <a name="certificate-request-online-offline"></a>Solicitud de certificados (en línea o sin conexión)
  
-Para crear una solicitud retrasada o una sin conexión, seleccione **Prepare ahora la solicitud, pero envíela más tarde (solicitud de certificado sin conexión)**. Para crear una solicitud inmediata a una entidad de certificación en línea (normalmente un sistema interno en la infraestructura de clave pública de la organización), seleccione Enviar la solicitud inmediatamente a una entidad de **certificación en línea.**
+Para crear una solicitud retrasada o una sin conexión, seleccione **Prepare ahora la solicitud, pero envíela más tarde (solicitud de certificado sin conexión)**. Para crear una solicitud inmediata a una entidad de certificación en línea (normalmente un sistema interno en la infraestructura de clave pública de la organización), seleccione Enviar la solicitud inmediatamente a una entidad de **certificación en línea**.
   
 Tras haber efectuado la selección pertinente, haga clic en **Siguiente** para continuar. Si desea cancelar sin aplicar los cambios, haga clic en **Cancelar**. Haga clic en **Atrás** para retroceder al paso anterior.
   

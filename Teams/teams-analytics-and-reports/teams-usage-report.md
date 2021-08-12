@@ -17,12 +17,12 @@ description: Aprenda a usar el informe de uso de Teams en el centro de administr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 37f0a69a5e6a6a3e2c54ae7c60effc0f1639bbef
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
+ms.openlocfilehash: 344a263d2512914571877f7761843f0cf85810335a234e154e9a7f3c021d0644
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114043"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282543"
 ---
 # <a name="microsoft-teams-usage-report"></a>Informe de uso de Microsoft Teams
 

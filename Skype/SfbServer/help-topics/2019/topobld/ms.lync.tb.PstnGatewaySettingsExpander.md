@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar o modificar la configuración de una puerta de enlace de la red telefónica conmutada (RTC), modifique los campos siguientes:'
-ms.openlocfilehash: c54acc930400f66bb04009a6c40dbcf0a1233100
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: da993cc36cfbb4195df68417cb16db5909c6baa5e21fed9f6316337dd1fd0d21
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822310"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281863"
 ---
 # <a name="pstn-gateway-settings-expander"></a>Expansor de configuración de puerta de enlace de RTC
  

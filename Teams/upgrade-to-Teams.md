@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1774b8bebc1330e69a611e64d4f0a8e01f05febb
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: c0794e855fac3f911b028c049289beaa13a571473f32f84509c6d219d92bdd78
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282483"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>Información general sobre cómo implementar la actualización
 

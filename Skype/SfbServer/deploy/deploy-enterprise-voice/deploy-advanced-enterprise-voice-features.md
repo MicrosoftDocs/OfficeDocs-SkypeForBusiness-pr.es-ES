@@ -16,24 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: Implemente características Telefonía IP empresarial avanzadas en Skype Empresarial Server.
-ms.openlocfilehash: c3c551e7c0ba7dc8871791141e55d666578a411c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cbbf1fb2bde9de6de050addbbe7365e6f35772cbbec1576debab5ee6713f055a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282373"
 ---
 # <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Implementar características Telefonía IP empresarial avanzadas en Skype Empresarial Server
  
 Implemente características Telefonía IP empresarial avanzadas en Skype Empresarial Server.
   
-Después de configurar la funcionalidad Telefonía IP empresarial básica para su organización, puede implementar opcionalmente una o más características avanzadas de Telefonía IP empresarial siguiendo los procedimientos descritos en esta sección. 
+Después de configurar la funcionalidad Telefonía IP empresarial básica para su organización, puede implementar opcionalmente una o más características Telefonía IP empresarial avanzadas siguiendo los procedimientos descritos en esta sección. 
   
 - [Planear la omisión de medios en Skype Empresarial](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
 - [Planear el control de admisión de llamadas en Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [Planear los servicios de emergencia en Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [Planeación de servicios de emergencia en Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
 ## <a name="in-this-section"></a>En esta sección
 

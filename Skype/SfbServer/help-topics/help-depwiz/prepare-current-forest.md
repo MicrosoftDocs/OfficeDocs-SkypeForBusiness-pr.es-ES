@@ -15,25 +15,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Para preparar el bosque de Servicios de dominio de Active Directory, debe extender correctamente el esquema, tal como se describe en el tema Running Schema Preparation, y asegurarse de que el esquema se haya replicado.
-ms.openlocfilehash: 94d41a993b2fe976ef7ede885d277c00417ff7dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6b02ae0139c4ac813dd8562b237022112f76201d79e82b856e5bfe7e8d6972e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103466"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309655"
 ---
 # <a name="prepare-current-forest"></a>Preparar bosque actual
 
 Para preparar el bosque de Servicios de dominio de Active Directory, debe extender correctamente el esquema, tal como se describe en el tema [Running Schema Preparation](/previous-versions/office/lync-server-2013/lync-server-2013-preparing-the-active-directory-schema), y asegurarse de que el esquema se haya replicado.
 
-Después de completar estos requisitos previos, puede comenzar **el paso 3: Preparar el bosque actual**. Para preparar el bosque, inicie sesión en un equipo de la raíz del bosque como miembro de administradores de dominio en la raíz del bosque o como miembro de los administradores de empresa para el bosque que está preparando.
+Después de completar estos requisitos previos, puede comenzar **el paso 3: Preparar el bosque actual**. Para preparar el bosque, inicie sesión en un equipo de la raíz del bosque como miembro de administradores de dominio en la raíz del bosque o como miembro de los administradores de Enterprise para el bosque que está preparando.
 
 1. En el Asistente para implementación **del paso 3: Preparar el bosque actual,** haga clic **en Ejecutar**.
 
 2. En la página **Preparar bosque,** haga clic **en Siguiente**.
 
     > [!NOTE]
-    > La preparación del bosque permite elegir dónde colocar los grupos universales para Skype Empresarial Server 2015. Elija una ubicación que respete los requisitos de su organización.
+    > Preparación del bosque permite elegir dónde colocar los grupos universales para Skype Empresarial Server 2015. Elija una ubicación que respete los requisitos de su organización.
 
 3. En la página **Ejecución de comandos**, busque **Estado de la tarea: completado** y, a continuación, haga clic en **Ver registro**. Asegúrese de que no hay errores. Revise las advertencias para determinar si se esperan y son típicas para la infraestructura.
 
