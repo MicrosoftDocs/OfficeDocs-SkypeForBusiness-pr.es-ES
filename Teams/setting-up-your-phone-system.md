@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Guía paso a paso que detalla cómo configurar Sistema telefónico (PBX en la nube) para su organización en Microsoft 365 o Office 365.
-ms.openlocfilehash: c00b628716a54adcb19c3dd1f00e8e9e2b6f4c40
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 1fd75870b53dafa5ade4db4f66a82593cce81836994cd4b5e01f1f1bda4864b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701218"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293007"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar Sistema telefónico en su organización
 
@@ -147,7 +147,7 @@ Si no configura la facturación de créditos de comunicaciones y asigna una lice
 ## <a name="related-topics"></a>Temas relacionados
 [Esto es lo que obtiene con Sistema telefónico en Microsoft 365 o Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Administrar los números de teléfono de la organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](getting-service-phone-numbers.md)
 

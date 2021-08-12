@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Diseñe y cree flujos de trabajo de grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial. Se tratan los flujos de trabajo de grupo de extensiones y los flujos de trabajo interactivos.
-ms.openlocfilehash: 678dcb25f5f802f101016a2a289015a60e48ba88
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ac77753e82acc2a7733fb5d273a55b4c9fd0d0fd5466262fec6fdc9a2c223030
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105786"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303124"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Diseño y creación de flujos de trabajo de grupo de respuesta en Skype Empresarial
 
@@ -40,18 +40,18 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
 
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.
 
 3. En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y, a continuación, en **Flujo de trabajo**.
 
 4. En la página **Flujo de trabajo**, haga clic en **Crear o editar flujo de trabajo**.
 
-5. En el campo de búsqueda **Seleccionar un servicio**, escriba la totalidad o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o cambiar. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
+5. En el campo de búsqueda **Seleccionar un servicio**, escriba la totalidad o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o cambiar. En la lista de servicios obtenida, haga clic en el servicio que desee y después en **Aceptar**.
 
     > [!NOTE]
     > Se abre la Herramienta de configuración de grupo de respuesta. También puede abrir la Herramienta de configuración de grupo de respuesta directamente desde un explorador web escribiendo la siguiente dirección URL: https:// \<webPoolFqdn\> /RgsConfig.
 
-6. Realiza una de las siguientes acciones:
+6. Realice una de las siguientes acciones:
 
    - En **Crear nuevo flujo de trabajo**, junto a **Grupo de búsqueda**, haga clic en **Crear**.
 
@@ -65,10 +65,10 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 8. Para permitir que los usuarios federados puedan llamar al grupo, active la casilla **Habilitar para federación**. También debe tener una directiva de acceso externo que se aplique a la aplicación grupo de respuesta configurada para la federación.
 
     > [!NOTE]
-    > La directiva de acceso externo global se aplica a la aplicación grupo de respuesta. Puede configurar la directiva global para la federación de grupos de respuesta mediante el Panel de control de Skype Empresarial Server o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Tenga en cuenta que la configuración de directiva global se aplicará a todos los usuarios a menos que estén asignados a un sitio o a una directiva de usuario. Por lo tanto, antes de modificar este parámetro de los grupos de respuesta, asegurese de que la configuración de federación cumple con los requisitos de su organización. Para más información sobre cómo se aplican las directivas a los usuarios, vea [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obtener más información acerca de la configuración de federación, [vea Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+    > La directiva de acceso externo global se aplica a la aplicación grupo de respuesta. Puede configurar la directiva global para la federación de grupos de respuesta mediante Skype Empresarial Server Panel de control o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Tenga en cuenta que la configuración de directiva global se aplicará a todos los usuarios a menos que estén asignados a un sitio o a una directiva de usuario. Por lo tanto, antes de modificar este parámetro de los grupos de respuesta, asegurese de que la configuración de federación cumple con los requisitos de su organización. Para más información sobre cómo se aplican las directivas a los usuarios, vea [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obtener más información acerca de la configuración de federación, [vea Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
-    > Los usuarios hospedados en Skype Empresarial Online no pueden realizar llamadas a grupos de respuesta hospedados en una implementación local. Esto ocurre tanto en implementaciones híbridas como en los casos en que una implementación local está federada con una implementación de Skype Empresarial Online.
+    > Los usuarios hospedados en Skype Empresarial Online no pueden realizar llamadas a grupos de respuesta hospedados en una implementación local. Esto ocurre tanto en implementaciones híbridas como en los casos en que una implementación local está federada con una Skype Empresarial online.
 
 9. Para ocultar la identidad de los agentes durante las llamadas, active la casilla **Habilitar anonimato de agente**.
 
@@ -112,7 +112,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
     - Para usar una grabación en archivo de audio de wave o Windows Media para el mensaje de bienvenida, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo de audio que desea utilizar y, a continuación, haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
     > [!NOTE]
-    > Todos los archivos de audio suministrados por el usuario deben cumplir determinados requisitos. Para más información sobre los formatos admitidos, vea [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
+    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para más información sobre los formatos admitidos, vea [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 18. En **Paso 4 Especificar horario de oficina**, en el cuadro **Su zona horaria**, haga clic en la zona horaria para el flujo de trabajo.
 
@@ -124,7 +124,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
     - Para utilizar una programación predefinida de horario de oficina, haga clic en **Utilizar una programación preestablecida** y, a continuación, seleccione el horario que desea utilizar en la lista desplegable.
 
       > [!NOTE]
-      > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener más información, [vea (Opcional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md).
+      > Debe definir al menos una programación preestablecida previamente para poder seleccionar esta opción. Puede definir programaciones preestablecidas con el cmdlet **New-CSRgsHoursOfBusiness**. Para obtener más información, [vea (Opcional) Define Response Group business hours in Skype Empresarial](optional-define-response-group-business-hours.md).
 
       > [!NOTE]
       > Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
@@ -148,7 +148,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
     - Para utilizar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea utilizar y, a continuación, haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
       > [!NOTE]
-      > Todos los archivos de audio suministrados por el usuario deben cumplir determinados requisitos. Para más información sobre de los formatos de archivo de audio compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
+      > Todos los archivos de audio que proporciona el usuario deben cumplir ciertos requisitos. Para más información sobre de los formatos de archivo de audio compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 23. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
 
@@ -175,7 +175,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
     - Para utilizar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea utilizar y, a continuación, haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
       > [!NOTE]
-      > Todos los archivos de audio suministrados por el usuario deben cumplir determinados requisitos. Para más información sobre de los formatos de archivo de audio compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
+      > Todos los archivos de audio que proporciona el usuario deben cumplir ciertos requisitos. Para más información sobre de los formatos de archivo de audio compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 26. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
 
@@ -196,15 +196,15 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
     - Para usar una grabación en un archivo de audio para la música en espera, haga clic en **Seleccionar una música**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **un archivo de música**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea utilizar y, a continuación, haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
       > [!NOTE]
-      > Todos los archivos de audio suministrados por el usuario deben cumplir determinados requisitos. Para más información sobre los formatos de audio admitidos, vea [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
+      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para más información sobre los formatos de audio admitidos, vea [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 29. Haga clic en **Implementar**.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>Para usar el Shell de administración de Skype Empresarial Server para crear o modificar un flujo de trabajo de grupo de extensiones
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>Para usar Skype Empresarial Server Shell de administración para crear o modificar un flujo de trabajo de grupo de extensiones
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
 
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
 
 3. Cree el mensaje de bienvenida que se reproducirá y guárdelo en una variable. En la línea de comandos, ejecute:
 
@@ -244,7 +244,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. Para definir horas laborables y vacaciones, créelas antes de crear o modificar el flujo de trabajo. Para obtener más información, [vea (Opcional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md) y [(Optional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md).
+6. Para definir horas laborables y vacaciones, créelas antes de crear o modificar el flujo de trabajo. Para obtener más información, vea [(Opcional) Definir](optional-define-response-group-business-hours.md) horario comercial del grupo de respuesta en Skype Empresarial y [(opcional) Definir](optional-define-response-group-holiday-sets.md)conjuntos de días festivos de grupo de respuesta en Skype Empresarial .
 
 7. Si desea tener mensajes para las llamadas que se reciben en un horario no laborable o en época de vacaciones, use el cmdlet **New-CsRgsPrompt** para definir el mensaje y el cmdlet **New-CsRgsCallAction** para definir la acción que se ejecutará después del mensaje. Para obtener más información, [vea New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) y [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
@@ -283,7 +283,7 @@ La aplicación Grupo de respuesta ofrece reconocimiento de voz y capacidades de 
 Los flujos de trabajo interactivos admiten hasta dos niveles de preguntas; cada una de las preguntas tiene dos respuestas posibles. El IVR hace una pregunta al autor de la llamada y, según la respuesta del autor de la llamada, enruta al autor de la llamada a una cola o hace una segunda pregunta. La segunda pregunta también puede tener cuatro respuestas posibles. Según la respuesta a la pregunta de segundo nivel, el autor de la llamada se enruta a la cola adecuada.
 
 > [!NOTE]
-> Al diseñar flujos de llamadas mediante el Shell de administración de Skype Empresarial Server, puede definir cualquier número de niveles de preguntas de IVR y cualquier número de respuestas. Sin embargo, para mejorar la usabilidad, le recomendamos que no use más de tres niveles de preguntas, con no más de cinco respuestas por pregunta. Además, si diseña un flujo de llamadas que tiene más de dos niveles de preguntas con más de cuatro respuestas cada una, no podrá editar el flujo de llamadas mediante el Panel de control de Skype Empresarial Server.
+> Al diseñar flujos de llamadas mediante Skype Empresarial Server Shell de administración, puede definir cualquier número de niveles de preguntas IVR y cualquier número de respuestas. Sin embargo, para mejorar la usabilidad, le recomendamos que no use más de tres niveles de preguntas, con no más de cinco respuestas por pregunta. Además, si diseña un flujo de llamadas que tiene más de dos niveles de preguntas con más de cuatro respuestas cada una, no puede editar el flujo de llamadas mediante el panel de control Skype Empresarial Server de llamadas.
 
 Las preguntas IVR y las respuestas del autor de la llamada se proporcionan al agente que responde que acepta la llamada.
 
@@ -373,7 +373,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
 
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.
 
 3. En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y, a continuación, en **Flujo de trabajo**.
 
@@ -398,10 +398,10 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 8. Para permitir que los usuarios federados puedan llamar al grupo, active la casilla **Habilitar para federación**. También debe tener una directiva de acceso externo que se aplique a la aplicación grupo de respuesta configurada para la federación.
 
     > [!NOTE]
-    > La directiva de acceso externo global se aplica a la aplicación grupo de respuesta. Puede configurar la directiva global para la federación de grupos de respuesta mediante el Panel de control de Skype Empresarial Server o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Tenga en cuenta que la configuración de directiva global se aplicará a todos los usuarios a menos que estén asignados a un sitio o a una directiva de usuario. Por lo tanto, antes de modificar este parámetro de los grupos de respuesta, asegurese de que la configuración de federación cumple con los requisitos de su organización. Para más información sobre cómo se aplican las directivas a los usuarios, vea [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obtener más información sobre la configuración de federación, **consulte Set-CsExternalAccessPolicy** en la documentación.
+    > La directiva de acceso externo global se aplica a la aplicación grupo de respuesta. Puede configurar la directiva global para la federación de grupos de respuesta mediante Skype Empresarial Server Panel de control o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Tenga en cuenta que la configuración de directiva global se aplicará a todos los usuarios a menos que estén asignados a un sitio o a una directiva de usuario. Por lo tanto, antes de modificar este parámetro de los grupos de respuesta, asegurese de que la configuración de federación cumple con los requisitos de su organización. Para más información sobre cómo se aplican las directivas a los usuarios, vea [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obtener más información sobre la configuración de federación, **consulte Set-CsExternalAccessPolicy** en la documentación.
 
     > [!NOTE]
-    > Los usuarios hospedados en Skype Empresarial Online no pueden realizar llamadas a grupos de respuesta hospedados en una implementación local. Esto ocurre tanto en implementaciones híbridas como en los casos en que una implementación local está federada con una implementación de Skype Empresarial Online.
+    > Los usuarios hospedados en Skype Empresarial Online no pueden realizar llamadas a grupos de respuesta hospedados en una implementación local. Esto ocurre tanto en implementaciones híbridas como en los casos en que una implementación local está federada con una Skype Empresarial online.
 
 9. Para ocultar la identidad de los agentes durante las llamadas, active la casilla **Habilitar anonimato de agente**.
 
@@ -419,7 +419,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
 13. En **Número para mostrar**, escriba el número tal como desea que aparezca para el grupo de respuesta (por ejemplo, +1 (425) 555-0165).
 
-14. (Opcional) En **Descripción**, escriba una descripción del flujo de trabajo que desea que aparezca en la tarjeta de contacto en Skype Empresarial.
+14. (Opcional) En **Descripción**, escriba una descripción para el flujo de trabajo que desea que aparezca en la tarjeta de contacto en Skype Empresarial.
 
 15. En **Tipo de flujo de trabajo**, seleccione **Administrado** si un administrador de grupos de respuesta va a administrar este flujo de trabajo. Haga lo siguiente para asignar administradores de grupo de respuesta al flujo de trabajo:
 
@@ -442,7 +442,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para utilizar una grabación en archivo de Wave o Windows Media para el mensaje de bienvenida, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo de audio que desea utilizar y, a continuación, haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
     > [!NOTE]
-    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para más información sobre los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
+    > Todos los archivos de audio que proporciona el usuario deben cumplir ciertos requisitos. Para más información sobre los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 18. En **Paso 4 Especificar horario de oficina**, en el cuadro **Su zona horaria**, haga clic en la zona horaria del flujo de trabajo.
 
@@ -454,7 +454,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para utilizar una programación predefinida de horario de oficina, haga clic en **Utilizar una programación preestablecida** y, a continuación, seleccione el horario que desea utilizar en la lista desplegable.
 
       > [!NOTE]
-      > Debe haber definido al menos una programación preestablecida con anterioridad para poder seleccionar esta opción. Las programaciones preestablecidas se definen mediante el cmdlet **New-CsRgsHoursOfBusiness.** Para obtener más información, [vea (Opcional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md). Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
+      > Debe haber definido al menos una programación preestablecida con anterioridad para poder seleccionar esta opción. Las programaciones preestablecidas se definen mediante el cmdlet **New-CsRgsHoursOfBusiness.** Para obtener más información, [vea (Opcional) Define Response Group business hours in Skype Empresarial](optional-define-response-group-business-hours.md). Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
 
     - Para utilizar una programación personalizada que se aplique únicamente a este flujo de trabajo, haga clic en **Usar programación personalizada**.
 
@@ -475,7 +475,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para utilizar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea utilizar y, a continuación, haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
     > [!NOTE]
-    > Todos los archivos de audio suministrados por el usuario deben cumplir determinados requisitos. Para más información sobre los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
+    > Todos los archivos de audio que proporciona el usuario deben cumplir ciertos requisitos. Para más información sobre los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 23. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
 
@@ -502,7 +502,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para utilizar una grabación en un archivo de audio para el mensaje, haga clic en **Seleccionar una grabación**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **una grabación**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea utilizar y, a continuación, haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
       > [!NOTE]
-      > Todos los archivos de audio suministrados por el usuario deben cumplir determinados requisitos. Para más información sobre de los formatos de archivo de audio compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
+      > Todos los archivos de audio que proporciona el usuario deben cumplir ciertos requisitos. Para más información sobre de los formatos de archivo de audio compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 26. Especifique cómo abordar las llamadas tras la reproducción del mensaje (si se ha configurado uno):
 
@@ -521,7 +521,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para utilizar una grabación en un archivo de audio para la música en espera, haga clic en **Seleccionar una música**. Si desea cargar un archivo de audio nuevo, haga clic en el vínculo **un archivo de música**. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo que desea utilizar y, a continuación, haga clic en **Abrir**. Haga clic en **Cargar** para cargar el archivo de audio.
 
     > [!NOTE]
-    > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para más información sobre los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
+    > Todos los archivos de audio que proporciona el usuario deben cumplir ciertos requisitos. Para más información sobre los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 28. En **Paso 7 Configurar respuesta de voz interactiva**, bajo el encabezado **El usuario oirá el siguiente texto o mensaje grabado**, especifique la pregunta que se va a formular a los autores de las llamadas de la siguiente forma:
 
@@ -533,10 +533,10 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     > [!NOTE]
     > El motor de síntesis de texto a voz traduce el símbolo "#" como la palabra "número". Si necesita hacer referencia a la tecla # en el mensaje, debe usar el nombre de la tecla, en lugar del símbolo. Por ejemplo, "Para hablar con el departamento de ventas, presione la tecla almohadilla".
 
-    - Para utilizar un archivo de audio pregrabado que contenga la pregunta, haga clic en **Seleccionar una grabación** y, a continuación, en el vínculo **una grabación** para cargar el archivo. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo de audio y, a continuación, haga clic en **Abrir**. Haga **clic** en Cargar para cargar el archivo y, opcionalmente, puede escribir la pregunta en el cuadro de texto (esto permite que la pregunta y la respuesta del autor de la llamada se reenvían al agente que responde).
+    - Para utilizar un archivo de audio pregrabado que contenga la pregunta, haga clic en **Seleccionar una grabación** y, a continuación, en el vínculo **una grabación** para cargar el archivo. En la nueva ventana del explorador, haga clic en **Examinar**, seleccione el archivo de audio y, a continuación, haga clic en **Abrir**. Haga **clic Upload** para cargar el archivo y, opcionalmente, puede escribir la pregunta en el cuadro de texto (esto permite que la pregunta y la respuesta del autor de la llamada se reenvían al agente que responde).
 
       > [!NOTE]
-      > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para más información sobre los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
+      > Todos los archivos de audio que proporciona el usuario deben cumplir ciertos requisitos. Para más información sobre los formatos de archivo compatibles, consulte [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 29. En **Respuesta 1**, especifique la primera respuesta posible a la pregunta de la siguiente manera:
 
@@ -560,11 +560,11 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
 32. Haga clic en **Implementar**.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>Para usar el Shell de administración de Skype Empresarial Server para crear o modificar un flujo de trabajo interactivo
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>Para usar Skype Empresarial Server Shell de administración para crear o modificar un flujo de trabajo interactivo
 
 1.  Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
 
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
 
 3. Recupere el nombre del servicio para el servicio del grupo de respuesta y asígnelo a una variable. En la línea de comandos, ejecute:
 
@@ -644,11 +644,11 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
      > [!NOTE]
      > Todos los usuarios designados como administradores de un grupo de respuesta deben tener asignado el rol CsResponseGroupManager. De lo contrario, no podrán administrar los grupos de respuesta.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-[(Opcional) Definir conjuntos de días festivos de grupo de respuesta en Skype Empresarial](optional-define-response-group-holiday-sets.md)
+[(Opcional) Definir conjuntos de días festivos de grupo de respuesta Skype Empresarial](optional-define-response-group-holiday-sets.md)
 
-[(Opcional) Definir horario comercial del grupo de respuesta en Skype Empresarial](optional-define-response-group-business-hours.md)
+[(Opcional) Definir el horario comercial del grupo de respuesta en Skype Empresarial](optional-define-response-group-business-hours.md)
 
 [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 

@@ -1,5 +1,5 @@
 ---
-title: Aprovisionamiento de la topología para ejecutar la carga en escenarios de esfuerzo y rendimiento
+title: Aprovisionamiento de la topología para ejecutar la carga en escenarios de estrés y rendimiento
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,35 +13,35 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
-description: El aprovisionamiento o los cambios en la topología de Skype Empresarial Server 2015 permiten a los usuarios ejecutar correctamente la herramienta Stress and Performance.
-ms.openlocfilehash: 8d422497d11c9e56e4d5b205269a09f96dffc136
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype Empresarial Server la topología de 2015 o el aprovisionamiento para permitir que los usuarios ejecuten correctamente la herramienta De esfuerzo y rendimiento.
+ms.openlocfilehash: 750a53882344d4a1df357b049fbd1dcbf01c3368fb903552bc5f398761cce66a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814940"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328115"
 ---
-# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Aprovisionamiento de la topología para ejecutar la carga en escenarios de esfuerzo y rendimiento
+# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Aprovisionamiento de la topología para ejecutar la carga en escenarios de estrés y rendimiento
  
-El aprovisionamiento o los cambios en la topología de Skype Empresarial Server 2015 permiten a los usuarios ejecutar correctamente la herramienta Stress and Performance.
+Skype Empresarial Server la topología de 2015 o el aprovisionamiento para permitir que los usuarios ejecuten correctamente la herramienta De esfuerzo y rendimiento.
   
-Según la configuración y la configuración existentes para la implementación de Skype Empresarial Server 2015, es posible que deba realizar algunos cambios en su entorno. A continuación se muestra una lista de los cambios:
+Según la configuración y la configuración existentes para la implementación de Skype Empresarial Server 2015, es posible que deba realizar algunos cambios en el entorno. A continuación se muestra una lista de estos cambios:
   
-1. Establezca la directiva Windows PowerShell ejecución en Sin restricciones. Si no está seguro de a qué está configurado actualmente, puede abrir el Shell de administración de Skype Empresarial Server y ejecutar este comando:
+1. Establezca la directiva Windows PowerShell ejecución en Sin restricciones. Si no está seguro de a qué está establecido actualmente, puede abrir el Shell de administración de Skype Empresarial Server y ejecutar este comando:
     
    ```PowerShell
    Get-ExecutionPolicy
    ```
 
-   Si no se devuelve el valor Sin restricciones, tendrá que ejecutar lo siguiente:
+   Si no se devuelve el valor Unrestricted, tendrá que ejecutar lo siguiente:
     
    ```PowerShell
    Set-ExecutionPolicy -Unrestricted
    ```
 
-2. Para configurar Skype Empresarial Server de forma eficaz, tendrá que:
+2. Para configurar Skype Empresarial Server, deberás:
     
-    - Familiarícese con la topología de Skype Empresarial Server 2015 (como nombres de equipo, instancias de servicio, nombres de sitio y directivas).
+    - Familiarícese con Skype Empresarial Server topología de 2015 (como nombres de equipo, instancias de servicio, nombres de sitio y directivas).
     
     - Asigne algunos de los usuarios que se crean a grupos, como grupos de extensiones de grupo de respuesta (por ejemplo, URI de SIP).
     
@@ -51,7 +51,7 @@ Según la configuración y la configuración existentes para la implementación 
    PowerShell.exe -file <path to the file>
    ```
 
-4. Normalmente, después de ejecutar un script desde este paquete, los seguimientos resultantes se almacenarán en un archivo en la misma ruta de acceso desde donde se ha ejecutado el script. También hay un formato de nomenclatura, \<scriptname\> $h$m$s.txt. Por lo tanto, si ejecutó la ArchivingPolicy.ps1 a las 12:15 p. m., verá un archivo de registro denominado ArchivingPolicy121500.txt.
+4. Normalmente, después de ejecutar un script desde este paquete, los seguimientos resultantes se almacenarán en un archivo en la misma ruta de acceso desde la que se ha ejecutado el script. También hay un formato de nomenclatura, $h \<scriptname\> $m$s.txt. Por lo tanto, si ejecutó el ArchivingPolicy.ps1 a las 12:15 p. m., tendrá un archivo de registro denominado ArchivingPolicy121500.txt.
     
 5. Aunque hemos proporcionado estos ejemplos para la configuración del servidor, es su función modificar la configuración y restaurarla o revertirla una vez que haya terminado de ejecutar las pruebas de carga.
     

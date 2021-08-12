@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en Hong Kong, incluida la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
-ms.openlocfilehash: 459fbe7d8f98a5196973cf24ad797cad42778bb1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8638547b7d9eae45d74a678e66b00dd9e2e75f6f420baa472afaae13fb0a1a56
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098096"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345209"
 ---
 # <a name="toll-free-dialing-restrictions-in-hong-kong"></a>Restricciones de marcado de número gratuito en RAE de Hong Kong
 

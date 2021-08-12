@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Uganda.
-ms.openlocfilehash: 43782abdd29212f76c1e7ba35e20334f4f38446e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d8c6ce7c33ba3e0fdb8ee4b28e3bf120f7431affbd7466a06fdeb35633332ce6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094532"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293877"
 ---
 # <a name="availability-in-uganda"></a>Disponibilidad en Uganda
 

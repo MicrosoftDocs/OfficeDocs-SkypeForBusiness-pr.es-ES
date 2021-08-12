@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar el enrutamiento de voz con Teléfono Microsoft System Direct Routing.
-ms.openlocfilehash: 9330c3bf8200ed84fa9f7c534e794af887097b8d
-ms.sourcegitcommit: 3fc6fb528806f967bdc80671761cd45c32db6516
+ms.openlocfilehash: 80a182e4dfb01225fcbb172931dea0f9ccd5af308f0d894a913c9485ad9f68da
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51383984"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337428"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>Configurar el enrutamiento de voz para enrutamiento directo
 

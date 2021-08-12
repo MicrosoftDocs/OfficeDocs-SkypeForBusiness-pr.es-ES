@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Japón para Microsoft Teams.
-ms.openlocfilehash: 68bb6a33741c1508765c0808b69934073e220445
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 2d4d64232d0422a4ff0c2857f10cf7f2dbb2ea6fb9b2f0a258dc06fb1a7a5263
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510001"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293797"
 ---
 # <a name="phone-number-management-for-japan"></a>Teléfono de números para Japón
 
@@ -44,7 +44,7 @@ Para obtener más información, vea [Administrar números de teléfono para su o
 |Transferir números de teléfono a Microsoft 365 o Office 365 para las **colas de llamadas** en Japón.|Ponte en contacto [con Llamadas de SoftBank](https://aka.ms/SoftBankVoicePlan) para transferir números de teléfono de servicio. A continuación, agregará los números a la organización.|
 |Cambie la dirección de emergencia asignada a los usuarios que tienen un número de teléfono del Plan de llamadas.|Póngase en contacto [con Llamadas de SoftBank](https://aka.ms/SoftBankVoicePlan) para realizar cambios en la dirección de emergencia. Pueden actualizar esta información por usted.|
 |Cambie un número de usuario a un número de servicio. |Actualmente no es compatible al usar llamadas de SoftBank.|
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o operadores automáticos|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto [con el servicio rtc.](contact-pstn-service-desk.md) |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas u operadores automáticos, póngase en contacto con [el servicio de asistencia de RTC](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>Temas relacionados
 

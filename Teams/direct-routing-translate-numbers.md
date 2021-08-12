@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar Teléfono Microsoft system direct routing.
-ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff560ca9417e5386819a90961562520da94d5cfcd65bd5348bd7718601610bf1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096380"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337418"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Traducir números de teléfono a un formato alternativo
 
@@ -72,7 +72,7 @@ En los ejemplos siguientes, hay dos usuarios, Alicia y Bob. Alice es un Teams cu
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Ejemplo 1: Llamada entrante a un número de diez dígitos
 
-Bob llama a Alicia con un número de diez dígitos que no es de E.164. Bob marca 2065550100 para llegar a Alicia.
+Bob llama a Alicia con un número de diez dígitos que no es de E.164. Bob marca 2065550100 llegar a Alicia.
 SBC usa 2065550100 en los encabezados RequestURI y To y 4255550100 en el encabezado De.
 
 

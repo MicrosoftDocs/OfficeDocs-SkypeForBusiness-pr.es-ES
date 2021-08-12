@@ -21,12 +21,12 @@ description: Obtenga información sobre cómo administrar tareas en el centro Mi
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abf17b12e8555ce12642627093d856f917dce439
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.openlocfilehash: 93cf5efd46170bf345fc098c8775e145e5b204c83b6c38434f485f2ccea9a994
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337398"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 

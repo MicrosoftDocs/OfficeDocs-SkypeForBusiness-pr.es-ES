@@ -1,5 +1,5 @@
 ---
-title: Configurar la lista de contactos inteligentes en clientes de Skype Empresarial
+title: Configurar la lista de contactos inteligentes Skype Empresarial clientes
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
-description: 'Resumen: obtenga información sobre cómo activar la característica lista de contactos inteligentes en el cliente de Skype Empresarial.'
-ms.openlocfilehash: 1f049493d591cd561b87611f8a34f9176ace165a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to turn on the Smart contacts list feature in the Skype Empresarial client.'
+ms.openlocfilehash: 99658b9f4460970f00da829327c85227637ffbab9d5ffeb0a5c3f071a889d91d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095804"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303154"
 ---
-# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Configurar la lista de contactos inteligentes en clientes de Skype Empresarial
+# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Configurar la lista de contactos inteligentes Skype Empresarial clientes
 
-**Resumen:** Obtenga información sobre cómo activar la característica lista de contactos inteligentes en el cliente de Skype Empresarial.
+**Resumen:** Obtenga información sobre cómo activar la característica lista de contactos inteligentes en el Skype Empresarial cliente.
 
-La característica lista de contactos inteligentes permite la población automática de listas de contactos para los usuarios finales. Al usar Primero Skype Empresarial, los usuarios verán automáticamente a su administrador y a otras personas de su equipo. Esta característica está activada de forma predeterminada para los usuarios de Microsoft 365 y Office 365, pero debe habilitar explícitamente esta característica para los usuarios locales mediante la configuración de la directiva de cliente.
+La característica lista de contactos inteligentes permite la población automática de listas de contactos para los usuarios finales. Al usar primero Skype Empresarial, los usuarios verán automáticamente a su administrador y a otras personas de su equipo. Esta característica está activada de forma predeterminada para los usuarios de Microsoft 365 y Office 365, pero debe habilitar explícitamente esta característica para los usuarios locales mediante la configuración de la directiva de cliente.
 
 Tenga en cuenta lo siguiente al configurar esta característica:
 
 - Los usuarios, hasta 13, se agregan automáticamente a la lista de contactos inteligentes en el siguiente orden:
 
-  1. Manager
+  1. Administrador
 
   2. Dirige en orden alfabético
 
@@ -82,8 +82,8 @@ Si la lista de contactos inteligentes no funciona como se esperaba, compruebe lo
 
 - Confirme que la información de la organización de AD está rellenada.
 
-- Recopilar los registros de cliente de Skype Empresarial en un nuevo usuario para su análisis posterior.
+- Recopile Skype Empresarial los registros de cliente en un nuevo usuario para su análisis posterior.
 
-- Confirme que la interfaz de usuario del cliente de Skype Empresarial no muestra un mensaje que no pueda conectarse a la libreta de direcciones. Para confirmar la conectividad de la libreta de direcciones, realice una búsqueda de un usuario en la barra de búsqueda de cliente de Skype Empresarial.
+- Confirme que la Skype Empresarial de cliente no muestra un mensaje que no se puede conectar a la libreta de direcciones. Para confirmar la conectividad de la libreta de direcciones, realice una búsqueda de un usuario en la Skype Empresarial de búsqueda de cliente.
 
-- Los problemas de replicación de AD DS podrían hacer que los contactos no se resuelvan cuando un usuario inicia sesión por primera vez en Skype Empresarial.
+- Los problemas de replicación de AD DS pueden hacer que los contactos no se resuelvan cuando un usuario inicia sesión por primera vez en Skype Empresarial.

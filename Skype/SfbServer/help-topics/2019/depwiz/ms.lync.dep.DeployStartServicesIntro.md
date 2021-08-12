@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para iniciar servicios en el servidor de roles de Skype Empresarial Server que está implementando, revise la pantalla de introducción. Observe que los comandos emitidos para iniciar Skype Empresarial Server no esperan a que se inicie el servicio. Es el modo más eficaz de iniciar los servicios; se recomienda comprobar el estado actual de los servicios usando Windows Services Microsoft Management Console (MMC). Haga clic en Siguiente para comenzar la tarea Iniciar servicios.
-ms.openlocfilehash: 0a74a7bf02ec03098c7c8f6449ce17961d1cd665
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para iniciar los servicios en el Skype Empresarial Server de roles que va a implementar, revise la pantalla de introducción. Observe que los comandos emitidos para iniciar el Skype Empresarial Server no esperan a que se inicie el servicio. Es el modo más eficaz de iniciar los servicios; se recomienda comprobar el estado actual de los servicios usando Windows Services Microsoft Management Console (MMC). Haga clic en Siguiente para comenzar la tarea Iniciar servicios.
+ms.openlocfilehash: 11c407602fe351b79ec90ceb59b88a940238a3beb9f10fdde69587d7dd803e63
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294767"
 ---
 # <a name="startservices-intro"></a>StartServices (introducción)
  
-Para iniciar servicios en el servidor de roles de Skype Empresarial Server que está implementando, revise la pantalla de introducción. Observe que los comandos emitidos para iniciar Skype Empresarial Server no esperan a que se inicie el servicio. Es el modo más eficaz de iniciar los servicios; se recomienda comprobar el estado actual de los servicios usando Windows Services Microsoft Management Console (MMC). Haga clic en **Siguiente** para comenzar la tarea **Iniciar servicios**.
+Para iniciar los servicios en el Skype Empresarial Server de roles que va a implementar, revise la pantalla de introducción. Observe que los comandos emitidos para iniciar el Skype Empresarial Server no esperan a que se inicie el servicio. Es el modo más eficaz de iniciar los servicios; se recomienda comprobar el estado actual de los servicios usando Windows Services Microsoft Management Console (MMC). Haga clic en **Siguiente** para comenzar la tarea **Iniciar servicios**.
   
 

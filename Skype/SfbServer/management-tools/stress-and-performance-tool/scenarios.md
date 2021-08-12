@@ -1,5 +1,5 @@
 ---
-title: Escenarios de rendimiento para la herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015
+title: Escenarios de rendimiento para la Skype Empresarial Server de esfuerzo y rendimiento de 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,24 +13,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
-description: Tareas que deberá realizar para configurar Skype Empresarial Server 2015 para realizar pruebas de carga y rendimiento con la Herramienta de esfuerzo y rendimiento.
-ms.openlocfilehash: e0a3cc3767cf7652bda9bfacb14ced6632e32d87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Tareas que tendrás que hacer para configurar Skype Empresarial Server 2015 para realizar pruebas de carga y rendimiento con la Herramienta de esfuerzo y rendimiento.
+ms.openlocfilehash: cb018f4c12ad967acf9364dabb62ce5eabf07412a46abe912dbffba5fe656422
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105376"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328105"
 ---
-# <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Escenarios de rendimiento para la herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015
+# <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Escenarios de rendimiento para la Skype Empresarial Server de esfuerzo y rendimiento de 2015
  
-Tareas que deberá realizar para configurar Skype Empresarial Server 2015 para realizar pruebas de carga y rendimiento con la Herramienta de esfuerzo y rendimiento.
+Tareas que tendrás que hacer para configurar Skype Empresarial Server 2015 para realizar pruebas de carga y rendimiento con la Herramienta de esfuerzo y rendimiento.
   
-Para ejecutar la herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015 (LyncPerfTool), la topología de Skype Empresarial Server 2015 debe configurarse primero para escenarios relevantes para usted. Si Skype Empresarial Server 2015 no está configurado o está configurado incorrectamente, es muy probable que la simulación de carga falle. Con la Herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015, proporcionamos scripts del Shell de administración de Skype Empresarial Server y archivos de recursos básicos como parte de la descarga de la [herramienta](https://www.microsoft.com/download/details.aspx?id=50367). Se pueden usar como punto de partida para configurar la implementación de Skype Empresarial Server. En este artículo se describen los Windows PowerShell ejemplos proporcionados.
+Para ejecutar la herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015 (LyncPerfTool), la topología de Skype Empresarial Server 2015 primero debe configurarse para escenarios relevantes para usted. Si Skype Empresarial Server 2015 no está configurado o está configurado incorrectamente, es muy probable que la simulación de carga falle. Con la Skype Empresarial Server stress and performance tool de 2015, proporcionamos ejemplos de scripts del Shell de administración de Skype Empresarial Server y archivos de recursos básicos como parte de la descarga [de la herramienta](https://www.microsoft.com/download/details.aspx?id=50367). Estos se pueden usar como punto de partida para configurar la implementación Skype Empresarial Server implementación. En este artículo se describen los Windows PowerShell ejemplos proporcionados.
   
 > [!NOTE]
-> Este tema no le ayudará a describir cómo configurar Skype Empresarial Server 2015 en general, tenemos otros temas de planeación e implementación para eso. Para obtener más información sobre cómo Windows PowerShell en Skype Empresarial Server 2015, vea la documentación del Shell de administración de Skype Empresarial Server en Insertar introducción AQUÍ. 
+> Este tema no le ayudará a describir cómo configurar Skype Empresarial Server 2015 en general, tenemos otros temas de planeación e implementación para ello. Para obtener más información sobre cómo Windows PowerShell en Skype Empresarial Server 2015, vea la documentación del Shell de administración Skype Empresarial Server en Insertar introducción AQUÍ. 
   
-## <a name="about-running-skype-for-business-server-management-shell-scripts"></a>Acerca de cómo ejecutar scripts de shell de administración de Skype Empresarial Server
+## <a name="about-running-skype-for-business-server-management-shell-scripts"></a>Acerca de la ejecución Skype Empresarial Server scripts del shell de administración
 
 Proporcionamos scripts de PowerShell de ejemplo que puede usar para preparar las simulaciones de carga. Dado que estos scripts están diseñados para la simulación de carga, encontrará que son simples y permisivos. Puede que no sea apropiado para el entorno de producción. Una vez más, subrayamos que estos scripts son ejemplos, deberá revisarlos y, en muchos casos, realizar cambios relevantes para su entorno antes de poder hacer un uso práctico de ellos. Como mínimo, esperaríamos que deba modificar el script de grupo de servicio de respuesta (RSG) con la topología en mente (para especificar los agentes asignados a los grupos de agentes). Pero no es necesario ejecutarlo, si no es necesario.
   
@@ -43,7 +43,7 @@ Es posible que deba configurar la directiva de comprobación de versiones de cli
   
 La Herramienta de esfuerzo y rendimiento usa las siguientes versiones del agente de usuario de forma predeterminada al comunicarse con Skype Empresarial Server 2015:
   
-- LSPT/15.0.0.0 (Herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015)
+- LSPT/15.0.0.0 (Skype Empresarial Server 2015 Stress and Performance Tool)
     
 - OCPHONE/.0.522
     

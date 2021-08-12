@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración general de la directiva de reunión en Teams.
-ms.openlocfilehash: fb5f537e5cc96ba363fb4aa68bbfff2af513db6b
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: ecbdceefa5d60ca3c7d5b09aaa094054b88f60f915b17934a734fa07bdf3da23
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293297"
 ---
 # <a name="meeting-policy-settings---general"></a>Configuración de la directiva de reunión. Aspectos generales
 

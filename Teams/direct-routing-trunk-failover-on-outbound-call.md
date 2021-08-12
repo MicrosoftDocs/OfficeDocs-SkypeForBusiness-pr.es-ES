@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lea este tema para obtener información sobre cómo controlar las conmutación por error del tronco en las llamadas salientes desde Teams al controlador de borde de sesión (SBC).
-ms.openlocfilehash: c88394cba0a98316ac272901a6ab2972e9eaf3c8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 874372c27a88a912d575317fa9ab960ff9b2d4ccfe8eb7e280425667826e9f1f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293857"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Conmutación por error de tronco en llamadas salientes
 

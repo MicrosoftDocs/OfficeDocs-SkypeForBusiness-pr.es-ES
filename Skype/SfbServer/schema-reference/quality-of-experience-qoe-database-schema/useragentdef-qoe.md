@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: La tabla UserAgentDef asigna identificadores de agente de usuario a los nombres descriptivos del agente. Los agentes de usuario son clientes de software que se usan para conectarse a Skype Empresarial Server.
-ms.openlocfilehash: 2398601df248310a9482c797fcd8e98cef8f7e76
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9bba40cf33aa69203499ddcbe3555b41d563394f6d7ef12d7b34ca8b2b7db846
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799933"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337548"
 ---
 # <a name="useragentdef-table-qoe"></a>Tabla UserAgentDef (QoE)
  
@@ -26,8 +26,8 @@ La tabla UserAgentDef asigna identificadores de agente de usuario a los nombres 
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
-|1   <br/> |MediationServer  <br/> |MediationServer  <br/> |
-|2   <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
+|1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
+|2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
 |4   <br/> |OC  <br/> |OC  <br/> |
 |8   <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |16   <br/> |LMC  <br/> |LMC  <br/> |

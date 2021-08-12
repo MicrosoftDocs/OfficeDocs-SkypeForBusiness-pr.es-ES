@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: 5eec57f295dbb45649fea6590147798881297a1b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0675d9c24f85fa66e3d1eec2e470af2ffcf3d3e6a77719c63130320ce7e89fbe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303344"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configurar la presencia en Skype Empresarial Online
 

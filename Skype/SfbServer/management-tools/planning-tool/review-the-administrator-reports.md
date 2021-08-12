@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Los informes de administrador consisten en información detallada acerca de la implementación y las diversas operaciones. Los informes se generan en función de las selecciones marcadas en Sitios de diseño. El diseñador puede seguir incorporando valor agregado a los informes de administrador; para ello, puede editar los diagramas de red y definir todas las direcciones IP y los nombres de dominio completos (FQDN) de servidores, grupos y equilibradores de carga.
-ms.openlocfilehash: dbef33351e7032e769e1d5ee68c5f0d582317eb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c74237f5d92d54a1a421ede7707565bba59582141e00d1a944a88c2e8c096c88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104326"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293977"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Revisar los informes de administrador en Skype Empresarial Server 2015
 
@@ -38,7 +38,7 @@ La característica Informes de administrador le permite:
 ## <a name="review-the-summary-report"></a>Revisar el informe de resumen
 <a name="Summary_report"> </a>
 
-El Informe de administrador de Skype Empresarial es el primero de cuatro informes valiosos que documentan el diseño en detalle. La información de este informe y los otros tres informes asociados es útil para los equipos de tecnología de la información:
+El informe Skype Empresarial administrador es el primero de cuatro informes valiosos que documentan el diseño en detalle. La información de este informe, y los otros tres informes asociados, es útil para la tecnología de la información Teams:
 
 ![Informe de administración de resumen general](../../media/General_Summary_Report_Admin_Report.png)
 
@@ -57,7 +57,7 @@ También puede ver informes más detallados:
 ## <a name="review-the-certificates-report"></a>Revisar el informe de certificados
 <a name="Certificates_Report"> </a>
 
-El informe de certificados contiene todos los certificados necesarios en la implementación recomendada de Skype Empresarial Server 2015. La herramienta de planeación tiene en cuenta los nombres de sujeto y los nombres alternativos de sujeto que se introducen. El texto predeterminado que se deja sin editar puede representar un posible desafío para el equipo responsable de solicitar y emitir los certificados. La información de certificados contiene también información sobre dónde puede emitirse normalmente el certificado. Si la infraestructura no dispone de una infraestructura de clave pública (PKI) interna, todos los certificados se pueden solicitar a través de un proveedor de certificados público. Los campos Uso mejorado de clave (EKU) y Asignar a del informe son muy útiles para comprender el objetivo y la ubicación en la que debe estar cada certificado.
+El informe de certificados contiene todos los certificados necesarios en la implementación Skype Empresarial Server 2015. La herramienta de planeación tiene en cuenta los nombres de sujeto y los nombres alternativos de sujeto que se introducen. El texto predeterminado que se deja sin editar puede representar un posible desafío para el equipo responsable de solicitar y emitir los certificados. La información de certificados contiene también información sobre dónde puede emitirse normalmente el certificado. Si la infraestructura no dispone de una infraestructura de clave pública (PKI) interna, todos los certificados se pueden solicitar a través de un proveedor de certificados público. Los campos Uso mejorado de clave (EKU) y Asignar a del informe son muy útiles para comprender el objetivo y la ubicación en la que debe estar cada certificado.
 
 ![Informe de administración de certificados](../../media/Certificates_Report_Admin_Report.png)
 
@@ -85,7 +85,7 @@ El informe DNS, que forma parte del informe de administrador, detalla todas las 
 
 Debe hacer que el equipo de administración de DNS revise exhaustivamente el informe dns para asegurarse de que no hay errores que puedan causar dificultades durante la implementación o que puedan complicar una sesión de solución de problemas.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 <a name="DNS_Report"> </a>
 
 [Revisión de los informes del administrador](/previous-versions/office/lync-server-2013/lync-server-2013-reviewing-the-administrator-reports)

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab70daffa91b534f15b032cd0c137efe89abb438
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f55183b114919048776b7fcb6f39ae6a084c29832652c32f87b97d258fb7f835
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293077"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
@@ -75,14 +75,14 @@ Es posible que su organización tenga requisitos adicionales para configurar dir
 > [!TIP]
 > Use la tabla siguiente para capturar los requisitos de su organización.
 
-|Funcionalidad |Detalles |Se requiere una Premium de Azure AD |Decision |
+|Funcionalidad |Detalles |Azure AD Premium licencia necesaria |Decision |
 |---------|---------|---------|---------|
 |Directiva de expiración |Administre el ciclo de vida de Microsoft 365 grupos configurando una directiva de expiración. |P1 |TBD|
 |Directiva de retención |Retenga o elimine datos durante un período de tiempo específico estableciendo directivas de retención para Teams en el Centro de cumplimiento de & seguridad. **Nota:** Usar esta característica requiere licencias de Microsoft 365 o Office 365 Enterprise E3 o superior. |No |TBD |
 |Archivar y restaurar |Archive un equipo cuando ya no esté activo, pero desea mantenerlo como referencia o reactivar en el futuro. |No |TBD |
 
 > [!Note]
-> La expiración del grupo es una característica Premium Azure AD. Para que esta característica esté disponible, el inquilino debe tener una suscripción a Azure AD Premium y licencias para el administrador que configura la configuración y los miembros de los grupos afectados.
+> La expiración del grupo es Azure AD Premium característica. Para que esta característica esté disponible, el inquilino debe tener una suscripción a Azure AD Premium y licencias para el administrador que configura la configuración y los miembros de los grupos afectados.
 
 #### <a name="additional-information"></a>Información adicional
 
@@ -108,7 +108,7 @@ La administración coherente de miembros de grupos restringidos o basados en pro
 > [!TIP]
 > Use la tabla siguiente para capturar los requisitos de su organización.
 
-| Funcionalidad | Detalles | Se requiere una Premium de Azure AD | Decision |
+| Funcionalidad | Detalles | Azure AD Premium licencia necesaria | Decision |
 |:-|:-|:-|:-|
 | Opiniones de Access | Configurar revisiones de acceso para volver a certificar la pertenencia de equipos específicos a intervalos regulares | P2 | TBD |
 | Administración de derechos | Paquete de acceso de configuración para permitir que usuarios e invitados soliciten acceso a los equipos | P2 | TBD |
