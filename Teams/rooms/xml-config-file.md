@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Administración remota de la configuración predeterminada que usa un dispositivo Salas de Microsoft Teams, incluida la aplicación de un tema personalizado y la creación de un archivo de configuración principal.
-ms.openlocfilehash: 3e8056b0faa992d8eaa0babd5959e2444e4705ce
+ms.openlocfilehash: 29a93d54c024fac19a4180a68688172cb314005b4c9a795b0b866377bbf1b475
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772421"
+ms.locfileid: "54345359"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar de forma remota una configuración de consola de Salas de Microsoft Teams con un archivo de configuración XML
 

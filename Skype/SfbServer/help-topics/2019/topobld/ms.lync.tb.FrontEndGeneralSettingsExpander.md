@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar la configuración de un grupo de servidores front-end o un servidor Standard Edition, cuenta con las secciones siguientes:'
-ms.openlocfilehash: 0eff10b89c05980e5b2d425c43266fafd70461e6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b4dd6cee4c612cf929c1c058001b79dcfad0e9c88c055a78351297e125c40e90
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101906"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323372"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de configuración general front-end
 
@@ -50,7 +50,7 @@ Puede configurar la siguiente configuración general:
 
   - **Conferencia**. Incluye compartir recursos de audio, vídeo y aplicaciones. Tras seleccionar esta opción, puede elegir conferencia de acceso telefónico (RTC). Posteriormente, en la subsección “Configuración de servidor de mediación” que aparece aquí, puede especificar y definir una puerta de enlace de RTC.
 
-  - **Telefonía IP empresarial**. Habilita llamadas internas de voz sobre IP a dispositivos y teléfonos cualificados y clientes de Skype Empresarial. Para habilitar las funciones de llamadas externas, debe incluir un servidor de mediación. Para obtener más información, consulte la subsección “Configuración de servidor de mediación” que aparece más adelante en este tema.
+  - **Telefonía IP empresarial**. Habilita las llamadas internas de voz a través de IP a dispositivos y teléfonos cualificados y Skype Empresarial clientes. Para habilitar las funciones de llamadas externas, debe incluir un servidor de mediación. Para obtener más información, consulte la subsección “Configuración de servidor de mediación” que aparece más adelante en este tema.
 
 - En **Asociaciones**, edite o especifique lo siguiente:
 
@@ -147,7 +147,7 @@ Puede configurar la siguiente configuración general:
 
   - **Conferencia**. Incluye compartir recursos de audio, vídeo y aplicaciones. Tras seleccionar esta opción, puede elegir **conferencia de acceso telefónico (RTC)**. Posteriormente, en la configuración del servidor de mediación puede especificar y definir una puerta de enlace de RTC.
 
-  - **Telefonía IP empresarial**. Habilita llamadas internas de voz sobre IP a dispositivos y teléfonos cualificados y clientes de Skype Empresarial. Para habilitar las funciones de llamadas externas, debe incluir un servidor de mediación. Para obtener más información, consulte la subsección “Configuración de servidor de mediación” que aparece más adelante en este tema.
+  - **Telefonía IP empresarial**. Habilita las llamadas internas de voz a través de IP a dispositivos y teléfonos cualificados y Skype Empresarial clientes. Para habilitar las funciones de llamadas externas, debe incluir un servidor de mediación. Para obtener más información, consulte la subsección “Configuración de servidor de mediación” que aparece más adelante en este tema.
 
 - En **Asociaciones** puede modificar o especificar lo siguiente:
 

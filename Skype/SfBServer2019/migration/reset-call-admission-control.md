@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Si un grupo de servidores front-end heredado hospeda el control de admisión de llamadas (CAC), debe mover el hospedaje de CAC a un grupo de Skype Empresarial Server 2019 antes de poder quitar el grupo de servidores front-end heredado.
-ms.openlocfilehash: 850ab5c13483d024d52c483c63ef09468f8374b3
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Si un grupo de servidores front-end heredado hospeda el control de admisión de llamadas (CAC), debe mover el hospedaje de CAC a un grupo de servidores de Skype Empresarial Server 2019 antes de poder quitar el grupo de servidores front-end heredado.
+ms.openlocfilehash: c3ebb748d877e88060b699b1599c39038124565df361c5032533260e4c5643e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334572"
 ---
 # <a name="reset-call-admission-control"></a>Restablecer el control de admisión de llamadas
 
-Si un grupo de servidores front-end heredado hospeda el control de admisión de llamadas (CAC), debe mover el hospedaje de CAC a un grupo de Skype Empresarial Server 2019 antes de poder quitar el grupo de servidores front-end heredado.
+Si un grupo de servidores front-end heredado hospeda el control de admisión de llamadas (CAC), debe mover el hospedaje de CAC a un grupo de servidores de Skype Empresarial Server 2019 antes de poder quitar el grupo de servidores front-end heredado.
   
 ### <a name="to-reset-cac"></a>Para restablecer el CAC
 
@@ -30,7 +30,7 @@ Si un grupo de servidores front-end heredado hospeda el control de admisión de 
     
 3. En el parámetro **Control de admisión de llamadas**, asegúrese de que **Habilitar control de admisión de llamadas** esté activado. 
     
-4. En el grupo de servidores front-end para ejecutar el control de admisión de llamadas **(CAC),** seleccione el grupo de Skype Empresarial Server 2019 que va a hospedar el CAC y, a continuación, haga clic en **Aceptar.**
+4. En **Grupo de servidores front-end** para ejecutar el control de admisión de llamadas (CAC), seleccione el grupo de servidores de Skype Empresarial Server 2019 que va a hospedar cac y, a continuación, haga clic en **Aceptar**.
     
 5. Publique la topología.
     

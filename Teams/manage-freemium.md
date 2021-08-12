@@ -20,15 +20,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6c779499a03538fe245ef458892530cfe5eaf0e
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 457085b2280af58a5f63f1f9e361c654ead30313d71dda920831f463c521f1c6
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849915"
 ---
-<a name="manage-the-free-version-of-microsoft-teams"></a>Administrar la versión gratuita de Microsoft Teams
-==========================================
+# <a name="manage-the-free-version-of-microsoft-teams"></a>Administrar la versión gratuita de Microsoft Teams
 
 En la versión gratuita de Microsoft Teams, la primera persona que se suscribe a su organización tiene un rol de administrador limitado. La persona que tiene este rol limitado puede agregar y quitar miembros del equipo y especificar si alguien puede invitar a miembros adicionales, pero este usuario no tiene capacidades administrativas avanzadas ni acceso al centro de administración de Microsoft Teams. Para obtener más información, lea Invitar [a Teams (gratis).](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)
 

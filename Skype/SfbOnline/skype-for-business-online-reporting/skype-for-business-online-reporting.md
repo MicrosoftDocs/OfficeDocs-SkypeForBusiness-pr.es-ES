@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: e9ef3d9090ff494afe8595c139bcc9206215435b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3eb1228e06dbf5880789ea5a8175d325a5439d9aefc7642c045963884fde70c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238146"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334442"
 ---
 # <a name="skype-for-business-online-reporting"></a>Creación de informes en Skype Empresarial Online
 
@@ -32,7 +32,7 @@ ms.locfileid: "52238146"
 
 Como administrador de su organización, sería útil tener una lista completa de todos los informes disponibles en Skype Empresarial Online. Esta lista incluye todos los informes disponibles y la información que recibe con cada uno de ellos.
   
-Para obtener acceso a Skype Empresarial en línea, inicie sesión en el centro de Microsoft 365 con su cuenta de usuario y contraseña. Para poder visualizar los informes, la cuenta que use para iniciar sesión tiene que tener asignado el rol Administrador global, o bien tener delegado el rol Administrador de servicios de Skype Empresarial.
+Para obtener acceso a Skype Empresarial en línea, inicie sesión en el Centro de administración de Microsoft 365 con su cuenta de usuario y contraseña. Para poder visualizar los informes, la cuenta que use para iniciar sesión tiene que tener asignado el rol Administrador global, o bien tener delegado el rol Administrador de servicios de Skype Empresarial.
   
 > [!NOTE]
 > Para comprobar los permisos, en el centro de administración > **Usuarios**  >  **activos.** A continuación, haga clic en **Editar** y, en la página de propiedades de la cuenta, haga clic en **Roles**.

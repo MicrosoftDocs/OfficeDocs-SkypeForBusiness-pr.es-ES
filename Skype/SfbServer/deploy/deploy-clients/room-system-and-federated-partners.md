@@ -1,5 +1,5 @@
 ---
-title: Sistema de sala de Skype y socios federados de Skype Empresarial
+title: Skype Sistema de sala y Skype Empresarial asociados federados
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
-description: Lea este tema para obtener información sobre cómo configurar el Sistema de sala de Skype para socios federados de Skype Empresarial.
-ms.openlocfilehash: ac0203479907f830f1bc6cec6831f8804906e669
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Lea este tema para obtener información sobre cómo configurar Skype room system para Skype Empresarial asociados federados.
+ms.openlocfilehash: ba31d945425c2f5e32bc09e6b97c6204e492f414b5ca6b2e5ceaf3e65d0de3be
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820810"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294917"
 ---
-# <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Sistema de sala de Skype y socios federados de Skype Empresarial
+# <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Sistema de sala y Skype Empresarial asociados federados
  
-Lea este tema para obtener información sobre cómo configurar el Sistema de sala de Skype para socios federados de Skype Empresarial.
+Lea este tema para obtener información sobre cómo configurar Skype room system para Skype Empresarial asociados federados.
   
-## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Sistema de sala de Skype y socios federados de Skype Empresarial
+## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Sistema de sala y Skype Empresarial asociados federados
 
-El Sistema de salas de Skype se basa en el vínculo Unirse a una reunión de Skype Empresarial en la solicitud de reunión del calendario. El vínculo de unión suele encontrarse en el cuerpo de una solicitud de reunión. Sin embargo, el Sistema de sala de Skype depende de que este vínculo esté presente en las propiedades MAPI del mensaje. Cuando esta solicitud de reunión se envía a organizaciones remotas (socios federados de Skype Empresarial), de forma predeterminada el Sistema de salas de Skype de la organización remota no mostrará el vínculo para unirse a la reunión en el calendario. De hecho, los usuarios de Outlook de la organización remota no podrán unirse a la reunión de Skype Empresarial con un clic con el botón derecho del elemento del calendario o desde el aviso de la reunión. Deben abrir la invitación a la reunión y hacer clic en Unirse a una reunión de Skype Empresarial en el cuerpo del mensaje. 
+Skype El sistema de salas se basa en el vínculo Unirse Skype Empresarial reunión en la solicitud de reunión del calendario. El vínculo de unión suele encontrarse en el cuerpo de una solicitud de reunión. Sin embargo, Skype room system depende de que este vínculo esté presente en las propiedades MAPI del mensaje. Cuando esta solicitud de reunión se envía Skype Empresarial organizaciones remotas (asociados federados), de forma predeterminada, el sistema de salas de Skype de la organización remota no mostrará el vínculo de unión a la reunión en el calendario. De hecho, los Outlook usuarios de la organización remota no podrán unirse a la reunión de Skype Empresarial con un clic con el botón derecho del elemento del calendario o desde dentro del aviso de la reunión. Deben abrir la invitación a la reunión y hacer clic en Unirse Skype Empresarial reunión en el cuerpo del mensaje. 
   
-El motivo de esta limitación es que Outlook y Microsoft Exchange no usan un método especial para empaquetar información para enviar mensajes a través de Internet. Este método, denominado Formato de encapsulamiento neutro de transporte (TNEF), está deshabilitado de forma predeterminada para los mensajes enviados externamente desde una organización de Exchange. Para que un vínculo de participación en una reunión aparezca en un sistema remoto de salas de Skype, la organización de envío debe habilitar TNEF mediante el siguiente comando:
+La razón de esta limitación es que Outlook y Microsoft Exchange no usan un método especial para empaquetar información para enviar mensajes a través de Internet. Este método, denominado Transport Neutral Encapsulation Format (TNEF), está deshabilitado de forma predeterminada para los mensajes enviados externamente desde una Exchange organización. Para que un vínculo de unión a una reunión aparezca en un sistema de salas Skype remoto, la organización de envío debe habilitar TNEF mediante el siguiente comando:
   
 ```powershell
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```
 
-Después de habilitar TNEF para la organización remota, cualquier mensaje enviado a través de Internet a la organización se envía como datos adjuntos en formato TNEF. Con TNEF habilitado, cuando se envía una solicitud de reunión de Skype Empresarial al socio federado de Skype Empresarial, el Sistema de salas de Skype podrá representar la reunión de Skype Empresarial y los usuarios remotos podrán unirse a reuniones de Skype Empresarial. 
+Después de habilitar TNEF para la organización remota, cualquier mensaje enviado a través de Internet a la organización se envía como datos adjuntos en formato TNEF. Con TNEF habilitado, cuando se envía una solicitud de reunión de Skype Empresarial al asociado federado de Skype Empresarial, el sistema de salas de Skype podrá representar la reunión unirse Skype Empresarial y los usuarios remotos podrán unirse Skype Empresarial reuniones. 

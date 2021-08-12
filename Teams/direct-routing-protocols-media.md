@@ -1,5 +1,5 @@
 ---
-title: Enrutamiento directo del sistema telefónico
+title: Teléfono de enrutamiento directo del sistema
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Protocolos de enrutamiento directo
+description: hHw Direct Routing admite la omisión de medios con un controlador de borde de sesión habilitado para ICE Lite.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 550836275a1ea060d6004c75e0f2bf301f3094a7752ae80ad44dc2c91bbf96bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15ec422b59cfb19e63acb0c8b2768792d0e4387dc3200db720ec9c0d8d00f67b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849535"
 ---
 # <a name="overview"></a>Información general
 

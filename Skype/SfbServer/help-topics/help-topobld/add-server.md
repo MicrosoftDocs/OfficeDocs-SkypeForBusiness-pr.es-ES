@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 'Para agregar un nuevo servidor a un grupo de servidores ya creado que puede ser uno de los siguientes:'
-ms.openlocfilehash: e40cf71b0ab52e66a3a28e0362de4f9106ddd831
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4a0b06f12a53d933388770fe658712cd73162bbd0a003be38876e735c783b60d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818630"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344919"
 ---
 # <a name="add-server"></a>Agregar servidor
  

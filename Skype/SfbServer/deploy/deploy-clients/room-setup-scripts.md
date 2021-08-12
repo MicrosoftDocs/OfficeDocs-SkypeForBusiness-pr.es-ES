@@ -1,5 +1,5 @@
 ---
-title: Scripts de configuración de sala del Sistema de sala de Skype
+title: Skype Scripts de configuración de sala del sistema de sala de sala
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: Lea este tema para encontrar scripts de ejemplo para aprovisionar cuentas del sistema de salón de Skype.
-ms.openlocfilehash: 93a97b42f3b800011030787ea39cfb503767e42c
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+description: Lea este tema para encontrar scripts de ejemplo para aprovisionar Skype de sistema de sala.
+ms.openlocfilehash: b485a8d08dc5b121d43545ab89ce9c992b4a5860eb874ba806b57c4ac09cfbe3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294937"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Scripts de configuración de sala del Sistema de sala de Skype
+# <a name="skype-room-system-room-setup-scripts"></a>Skype Scripts de configuración de sala del sistema de sala de sala
  
-Lea este tema para encontrar scripts de ejemplo para aprovisionar cuentas del sistema de salón de Skype.
+Lea este tema para encontrar scripts de ejemplo para aprovisionar Skype de sistema de sala.
   
-En esta sección se muestran scripts de ejemplo que se pueden usar para aprovisionar cuentas del sistema de salón de Skype. Estos scripts solo son para fines ilustrativos. Deben usarse solo después de consultar con su experto de TI o administrador de dominio.
+En esta sección se muestran scripts de ejemplo que se pueden usar para aprovisionar Skype del sistema de sala. Estos scripts solo son para fines ilustrativos. Deben usarse solo después de consultar con su experto de TI o administrador de dominio.
   
 ## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Script de instalación de ejemplo: Skype Empresarial y Exchange Server (local)
 
@@ -45,9 +45,9 @@ Asegúrese de haber revisado los siguientes requisitos previos antes de ejecutar
   
 - Microsoft Online Services Sign-In asistente para profesionales de TI BETA
     
-- Windows Azure módulo de Active Directory para Windows PowerShell (versión de 64 bits) o (versión de 32 bits)
+- Windows Azure Active Directory módulo para Windows PowerShell (versión de 64 bits) o (versión de 32 bits)
     
-- Módulo de PowerShell de Teams
+- Teams Módulo de PowerShell
     
 - Reiniciar si es necesario
     

@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: Skype Empresarial Server la integración con Exchange mensajería unificada para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería.
-ms.openlocfilehash: e17be4642c2d9d09cc0468a49fde024f2ccd19fb
+ms.openlocfilehash: 0f2ec30af94f9626c3cca8463f58f827cb7015766f6e99eff5fd31f755a53105
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772591"
+ms.locfileid: "54344959"
 ---
 # <a name="skype-for-business-server-exchange-unified-messaging-settings-planning-tool"></a>Skype Empresarial Server Exchange de planeación Configuración mensajería unificada
 

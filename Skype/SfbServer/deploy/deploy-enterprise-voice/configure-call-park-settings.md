@@ -1,5 +1,5 @@
 ---
-title: Configurar la configuración del estacionamiento de llamadas en Skype Empresarial
+title: Configurar las opciones de estacionamiento de llamadas en Skype Empresarial
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modifique la configuración de estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: c1eecd55dac398752915ccb63886bbf85858fe47
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 09888fd0d22ce182688a2fbd0456ce7e5cc6564e1b33ebb1b957ebb0f23b02df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111916"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294907"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>Configurar la configuración del estacionamiento de llamadas en Skype Empresarial
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Configurar las opciones de estacionamiento de llamadas en Skype Empresarial
 
 Modifique la configuración de estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
 
@@ -44,16 +44,16 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
 
 ### <a name="to-configure-call-park-settings"></a>Para configurar la configuración del estacionamiento de llamadas
 
-1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
 
-2. Ejecute: 
+2. Ejecutar:
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
    ```
 
    > [!TIP]
-   > Use el cmdlet **Get-CsSite** para identificar el sitio. Para obtener más información, vea la documentación del Shell de administración de Skype Empresarial Server.
+   > Use el cmdlet **Get-CsSite** para identificar el sitio. Para obtener más información, consulte Skype Empresarial Server del Shell de administración.
 
     Por ejemplo:
 

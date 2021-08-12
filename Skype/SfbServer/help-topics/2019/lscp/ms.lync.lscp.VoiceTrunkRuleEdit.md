@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 74955797a104841aca77ff533e55523edc56511e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8d1712f0348e03017fcac2e6c6eda20b9896047d08807fd193f02d1974e2fa95
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291496"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>Regla de conversión: Crear nuevos o editar los existentes
 

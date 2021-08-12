@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7f2217bc39ead0abec48dafb75ff3f846681f20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 120ee0fe4b0211d929722685700b3bbdbc4df2231b0bf5c9e3f53c5d423c2f75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117318"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345339"
 ---
 # <a name="powershell-script-sample---export-managers-and-their-directs"></a>Ejemplo de script de PowerShell: exportar administradores y sus directos
 

@@ -1,5 +1,5 @@
 ---
-title: Skype Empresarial Server Herramienta de planeación de directores
+title: Herramienta de planeación de director de Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: Un director es un servidor que Skype Empresarial Server software de comunicaciones de 2015 que puede autenticar solicitudes de usuario, pero que no alberga cuentas de usuario.
-ms.openlocfilehash: fa55cfb04684cd363e6be8a6e7d02f281c9eeed8
+description: Un director es un servidor que ejecuta el software de comunicaciones de Skype Empresarial Server 2015 que puede autenticar solicitudes de usuario, pero que no alberga cuentas de usuario.
+ms.openlocfilehash: 969b45a39da201a1de31fe1cf3261dce2cb20070de454770691a9d6c85dcae3a
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772701"
+ms.locfileid: "54344970"
 ---
-# <a name="skype-for-business-server-director-planning-tool"></a>Skype Empresarial Server Herramienta de planeación de directores
+# <a name="skype-for-business-server-director-planning-tool"></a>Herramienta de planeación de director de Skype Empresarial Server
  
-Un director es un servidor que Skype Empresarial Server software de comunicaciones de 2015 que puede autenticar solicitudes de usuario, pero que no alberga cuentas de usuario. 
+Un director es un servidor que ejecuta el software de comunicaciones de Skype Empresarial Server 2015 que puede autenticar solicitudes de usuario, pero que no alberga cuentas de usuario. 
   
 Este rol es opcional, elegiría implementar un director en los dos escenarios siguientes:
   

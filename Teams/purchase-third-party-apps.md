@@ -16,15 +16,14 @@ description: Obtenga información sobre cómo comprar aplicaciones de terceros p
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dc46ea58421901a4d11f20160c2e9528a5311794bb084291c3c72e5e006ddc18
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5fa6c57b009ce7a7d6fef7ce1dd353ae32521a690fda254e469159cf0661dcd0
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849681"
 ---
-<a name="purchase-third-party-apps-for-teams"></a>Comprar aplicaciones de terceros para Teams
-======================================================
+# <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicaciones de terceros para Teams
 
 > [!NOTE]
 > Actualmente, esta característica solo está disponible en Estados Unidos.

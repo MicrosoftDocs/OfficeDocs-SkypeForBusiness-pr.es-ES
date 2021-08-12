@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: Una vez publicada la topología, se muestra la página El Asistente para publicaciones ha finalizado.
-ms.openlocfilehash: 318eec747fd812bc411a9d900e917bce0fc4a7d4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e5b48d10af7464b1098e74ef4f4e2469b735ab03924851416024e26ae63473ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119619"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313268"
 ---
 # <a name="publish-topology-next-step"></a>Próximo paso para publicar la topología
 

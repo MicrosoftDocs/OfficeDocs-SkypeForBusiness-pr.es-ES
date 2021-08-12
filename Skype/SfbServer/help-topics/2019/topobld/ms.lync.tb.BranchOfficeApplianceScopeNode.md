@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Este nodo muestra el nombre de dominio completo (FQDN), los servidores y grupos asociados e información de resistencia sobre esta aplicación de sucursal con funciones de supervivencia. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 3d40ebefe5966985f2f755bff68190d989654457
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Este nodo muestra el nombre de dominio completo (FQDN), los grupos y servidores asociados y la información de resistencia sobre esta aplicación de sucursal con funciones de supervivencia. Puede realizar las acciones siguientes:'
+ms.openlocfilehash: 1783194430b8bbbf44f79d97f118dc89ccb32b498bb7471a4aebefe1f16d8ce5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323352"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nodo de ámbito de aplicación de sucursal
  
-Este nodo muestra el nombre de dominio completo (FQDN), los servidores y grupos asociados e información de resistencia sobre esta aplicación de sucursal con funciones de supervivencia. Puede realizar las acciones siguientes:
+Este nodo muestra el nombre de dominio completo (FQDN), los grupos y servidores asociados y la información de resistencia sobre esta aplicación de sucursal con funciones de supervivencia. Puede realizar las acciones siguientes:
   
-- **Editar propiedades**. Abre la página **Editar** propiedades de esta aplicación de sucursal con funciones de supervivencia, donde puede cambiar el FQDN (si la topología aún no está publicada), las asociaciones y la configuración de resistencia.
+- **Editar propiedades**. Abre la **página Editar** propiedades de esta aplicación de sucursal con funciones de supervivencia, donde puede cambiar el FQDN (si la topología aún no está publicada), las asociaciones y la configuración de resistencia.
     
 - **Eliminar** Elimina el servidor de la topología.
     
