@@ -21,12 +21,12 @@ f1.keywords:
 description: Obtenga información sobre cómo medir los resultados y el éxito de la habilitación a gran escala de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f53c39611e28bde40ccf8bab0f92635383b11e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ef85a84c247c18528b8c13181943d970afe05d1c5c72976739b4b79a77cf8c6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834200"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332432"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir resultados y el éxito de su adopción de Microsoft Teams
 
@@ -81,7 +81,7 @@ Teams es una tecnología transformadora, por lo que dependiendo del tamaño de s
 | Dirigir la implementación en la nube con Teams | Habilitar el escenario de colaboración con Teams | Todos los empleados de Teams y de toda la organización | Habilitar Teams y Skype Empresarial | Migrar usuarios de Skype Empresarial a Teams |
 | - Aplicable a clientes nuevos o de Microsoft 365 o Office 365 usuarios <br/>- Cliente potencial con Teams escenario específico del cliente <br/>- Resaltar la experiencia de usuario integrada y acelerar el tiempo de valor de Microsoft 365 o Office 365 <br/>- Realizar juntos la habilitación de carga de trabajo de planificación para evitar la implementación en serie | - Habilitar Teams junto con OneDrive y SharePoint online <br/>- Crear una intranet de empresa para compartir recursos de noticias y vídeo con Microsoft Stream<br/>**Mejor juntos:** <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- Para clientes con menos de 5000 puestos (limitación actual)<br/>- Habilitar la colaboración entre organizaciones con un equipo para todos<br/>- Automatizar tareas comunes (solicitudes de vacaciones, encuestas de empleados, compromiso ejecutivo) |- Usar Teams principales para acelerar la colaboración<br/>- Resaltar la guía del escenario de reunión según el tamaño y el conjunto de características necesarios</br>- Usar Skype Empresarial para llamadas empresariales, interoperabilidad y escenarios híbridos<br/>- Usar plan de ruta público para la planificación de capacidades. |- Planear el cambio a Teams desde Skype Empresarial mediante la creación de un plan de estrategia de servicio para el cliente<br/>- Adjuntar a la programación de la versión de características<br/>- Recomendamos incluir en paralelo y Teams núcleo para facilitar la transición
 
-Las siguientes son nuestras recomendaciones para la mayoría de las organizaciones de clientes. Sin embargo, hay excepciones. Para obtener instrucciones sobre cualquier escenario no cubierto aquí, haga sus preguntas en nuestra comunidad de adopción de conducción o consulte al equipo de FastTrack o a la red de partners de Microsoft.
+Las siguientes son nuestras recomendaciones para la mayoría de las organizaciones de clientes. Sin embargo, hay excepciones. Para obtener instrucciones sobre cualquier escenario que no se trata aquí, haga sus preguntas en nuestra comunidad de adopción de conducción o consulte al equipo de FastTrack o a la red de partners de Microsoft.
 
 - **Elija Teams primero o Teams principal:** la mayoría de las organizaciones tienen una inversión existente en la tecnología de Microsoft. Es posible que esté habilitando más de una carga de trabajo a la vez, como Exchange Online, OneDrive para la Empresa o SharePoint. En estos casos, seleccionar Teams Primero o Teams Core es una elección acertada. Permitirá a los usuarios acostumbrarse a la experiencia de colaboración mejorada de Teams. A continuación, el equipo del proyecto de colaboración puede planear la implementación de capacidades adicionales y el aprendizaje y el soporte necesarios para que se puedan realizar correctamente. 
 

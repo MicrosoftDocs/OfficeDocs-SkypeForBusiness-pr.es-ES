@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55a2feebce0d54d2ad0a0df943f5b55b0e9a9a55
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 68367cc1879ae514e430b26d46aeb5e830f5d5e3af69a7a60404cc3fe5333a33
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312438"
 ---
 # <a name="prepare-your-organization"></a>Preparar la organización
 

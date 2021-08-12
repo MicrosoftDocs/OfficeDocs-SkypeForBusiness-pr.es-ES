@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Obtenga información sobre las capacidades de interoperabilidad entre Teams usuarios de su organización y Skype (consumidor).
 localization_priority: Normal
-ms.openlocfilehash: e3203c03043dbcdb04370cf3aa26b435fad4a728
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 42a6631a70156cf150e175b7c5dd1cd661a84c77f0523e61c9d7b9313e4f81e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312468"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams y Skype interoperabilidad
 

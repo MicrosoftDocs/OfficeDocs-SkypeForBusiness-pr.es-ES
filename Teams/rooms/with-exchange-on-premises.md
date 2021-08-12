@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lea este tema para obtener información sobre cómo implementar Salas de Microsoft Teams en un entorno híbrido con Exchange local.
-ms.openlocfilehash: 3931ba89dd4ad0dfd994fdf27a3f209275850116
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5424e670dcea86aff5f3c8842e2ab3e61cfecf480922ac664ac055ea502dbb09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117358"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296657"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implementar Salas de Microsoft Teams con Exchange local
 
@@ -69,7 +69,7 @@ Si va a implementar Salas de Microsoft Teams con Exchange local, va a usar las h
     > [!NOTE]
     > Seleccionar **Contraseña nunca expira es** un requisito para Skype Empresarial Server en Salas de Microsoft Teams. Es posible que las reglas de dominio prohíban las contraseñas que no expiran. Si es así, deberá crear una excepción para cada cuenta Salas de Microsoft Teams dispositivo.
   
-4. Tras crear la cuenta, ejecute una sincronización de directorios. Cuando haya finalizado, vaya a la página usuarios de su centro de administración de Microsoft 365 y compruebe que la cuenta creada en los pasos anteriores se ha combinado con la en línea.
+4. Tras crear la cuenta, ejecute una sincronización de directorios. Cuando haya finalizado, vaya a la página de usuarios de su Centro de administración de Microsoft 365 y compruebe que la cuenta creada en los pasos anteriores se ha combinado con la conexión.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Habilitar el buzón de correo remoto y establecer propiedades
 
@@ -185,7 +185,7 @@ Skype Empresarial PowerShell en línea se usa para administrar servicios para Mi
 
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Asignar una licencia a su Salas de Microsoft Teams cuenta
 
-1. Inicie sesión como administrador de inquilinos, abra el Microsoft 365 de administración y haga clic en la aplicación Administrador.
+1. Inicie sesión como administrador de inquilinos, abra el Centro de administración de Microsoft 365 y haga clic en la aplicación Administrador.
 2. Haga clic en **Usuarios y grupos** y después haga clic en **Agregar usuarios, restablecer contraseñas, y más**.
 3. Haga clic en Salas de Microsoft Teams cuenta y, a continuación, haga clic en el icono del lápiz para editar la información de la cuenta.
 4. Haga clic en **Licencias**.

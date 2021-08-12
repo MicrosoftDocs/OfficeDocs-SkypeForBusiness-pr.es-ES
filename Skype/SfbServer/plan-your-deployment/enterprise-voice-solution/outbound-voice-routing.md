@@ -16,20 +16,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Obtenga información sobre el enrutamiento de voz saliente en Skype Empresarial Server Telefonía IP empresarial, incluida la configuración de enrutamiento de llamadas, los planes de marcado, las reglas de normalización, las directivas de voz, los registros de uso de RTC y las rutas de voz.
-ms.openlocfilehash: 70681e995068a0999324694a78806421e0f2d129
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 75fcefae34cfcb100a095dd83a162fec1baac1d4b17f5077611cf88635ce9ed5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101286"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349962"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planear el enrutamiento de voz saliente en Skype Empresarial Server
  
 Obtenga información sobre el enrutamiento de voz saliente en Skype Empresarial Server Telefonía IP empresarial, incluida la configuración de enrutamiento de llamadas, los planes de marcado, las reglas de normalización, las directivas de voz, los registros de uso de RTC y las rutas de voz.
   
-El enrutamiento de llamadas salientes se aplica Telefonía IP empresarial llamadas que están destinadas a una puerta de enlace de red telefónica conmutada (RTC), un tronco o una central de conmutación privada (PBX). Cuando un usuario de Skype Empresarial hace una llamada, el servidor normaliza el número de teléfono al formato E.164, si es necesario, e intenta hacerlo coincidir con un URI de SIP. Si el servidor no puede establecer la coincidencia, aplicará la lógica de enrutamiento de llamadas realizadas basándose en la cadena de marcado proporcionada. Dicha lógica se define con la configuración de las opciones de servidor que se describe en la siguiente tabla.
+El enrutamiento de llamadas salientes se aplica Telefonía IP empresarial llamadas que están destinadas a una puerta de enlace de red telefónica conmutada (RTC), un tronco o una central de conmutación privada (PBX). Cuando un Skype Empresarial hace una llamada, el servidor normaliza el número de teléfono al formato E.164, si es necesario, e intenta hacer coincidirlo con un URI de SIP. Si el servidor no puede establecer la coincidencia, aplicará la lógica de enrutamiento de llamadas realizadas basándose en la cadena de marcado proporcionada. Dicha lógica se define con la configuración de las opciones de servidor que se describe en la siguiente tabla.
   
-**Configuración de enrutamiento de llamadas salientes de Skype Empresarial Server**
+**Skype Empresarial Server Enrutamiento de llamadas salientes Configuración**
 
 |**Object**|**Descripción**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ Las reglas de normalización definen la forma en que los números de teléfono e
 
 El ámbito de un plan de marcado determina el nivel jerárquico al que se puede aplicar el plan de marcado. En Skype Empresarial Server, se puede asignar a un usuario un plan de marcado específico por usuario. Si no se asigna un plan de marcado de usuario, se aplica el plan de marcado del grupo de servidores front-end. Si no hay ningún plan de marcado de grupo de servidores front-end, se aplica el plan de marcado de sitio. Por último, si no hay otro plan de marcado aplicable al usuario, se aplica el plan de marcado global.
   
-Los clientes obtienen niveles de ámbito del plan de marcado a través de la configuración de aprovisionamiento en banda que se proporciona cuando los usuarios inician sesión en Skype Empresarial. Como administrador, puede administrar y asignar niveles de ámbito del plan de marcado mediante el Panel de control de Skype Empresarial Server.
+Los clientes obtienen niveles de ámbito del plan de marcado a través de la configuración de aprovisionamiento en banda que se proporciona cuando los usuarios inician sesión en Skype Empresarial. Como administrador, puede administrar y asignar niveles de ámbito del plan de marcado mediante Skype Empresarial Server Panel de control.
   
 > [!NOTE]
 > El plan de marcado de puerta de enlace de red telefónica conmutada (RTC) de nivel de servicio se aplica a las llamadas entrantes de una puerta de enlace determinada. 
@@ -84,11 +84,11 @@ Para planear un plan de marcado, siga estos pasos:
     
     Si su organización mantiene un plan de marcado único en varias ubicaciones, es posible que deba crear un plan de marcado independiente para los usuarios de Telefonía IP empresarial que están migrando desde una central de conmutación (PBX) privada y que necesitan conservar sus extensiones existentes.
     
-- Decida si los planes de marcado por usuario son necesarios. Por ejemplo, si tiene usuarios en un sitio de sucursal que están registrados en el sitio central o si tiene usuarios registrados en una aplicación de sucursal con funciones de supervivencia, puede considerar escenarios de marcado especiales para dichos usuarios mediante planes de marcado por usuario y reglas de normalización. Para obtener más información, [vea Plan for Telefonía IP empresarial resiliency in Skype for Business Server](enterprise-voice-resiliency.md).
+- Decida si los planes de marcado por usuario son necesarios. Por ejemplo, si tiene usuarios en un sitio de sucursal que están registrados en el sitio central o si tiene usuarios registrados en una aplicación de sucursal con funciones de supervivencia, puede considerar escenarios de marcado especiales para dichos usuarios mediante planes de marcado por usuario y reglas de normalización. Para obtener más información, vea [Plan for Telefonía IP empresarial resiliency in Skype Empresarial Server](enterprise-voice-resiliency.md).
     
 - Determine el ámbito del plan de marcado (como se describió anteriormente en este tema).
     
-Para crear un plan de marcado, debe especificar valores en los siguientes campos, según sea necesario, mediante el Panel de control de Skype Empresarial Server o el Shell de administración de Skype Empresarial Server.
+Para crear un plan de marcado, especifique valores en los siguientes campos, según sea necesario, mediante el uso de Skype Empresarial Server Panel de control o Skype Empresarial Server Shell de administración.
   
 #### <a name="name-and-simple-name"></a>Nombre y Nombre simple
 
@@ -135,7 +135,7 @@ Los siguientes campos numéricos están entre los que deben tener en cuenta las 
     
 #### <a name="creating-normalization-rules"></a>Creación de reglas de normalización
 
-Las reglas de normalización usan .NET Framework expresiones regulares para especificar patrones numéricos de coincidencia que el servidor usa para traducir cadenas de marcado al formato E.164 con el fin de realizar búsquedas de números inversos. Para crear reglas de normalización en el Panel de control de Skype Empresarial Server, escriba las expresiones manualmente o escriba los dígitos iniciales y la longitud de las cadenas de marcado que deben coincidir y permitir que el Panel de control de Skype Empresarial Server genere la expresión regular correspondiente. De cualquier manera, cuando termine, puede escribir un número de prueba para comprobar que la regla de normalización funciona según lo esperado.
+Las reglas de normalización usan .NET Framework expresiones regulares para especificar patrones numéricos de coincidencia que el servidor usa para traducir cadenas de marcado al formato E.164 con el fin de realizar búsquedas de números inversos. Para crear reglas de normalización en el Panel de control de Skype Empresarial Server, escriba las expresiones manualmente o escriba los dígitos iniciales y la longitud de las cadenas de marcado para que coincidan y permitir que el Panel de control de Skype Empresarial Server genere la expresión regular correspondiente. De cualquier manera, cuando termine, puede escribir un número de prueba para comprobar que la regla de normalización funciona según lo esperado.
   
 Para obtener más información sobre .NET Framework expresiones regulares, vea [".NET Framework Regular Expressions"](/dotnet/standard/base-types/regular-expressions).
   
@@ -148,11 +148,11 @@ En la siguiente tabla se muestran ejemplos de reglas de normalización escritas 
 
 |**Nombre de regla**|**Descripción**|**Patrón de número**|**Conversión**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|:-----|
-|4digitExtension  <br/> |Convierte extensiones de 4 dígitos  <br/> |^(\d {4} )$  <br/> |+1425555$1  <br/> |0100 se convierte en +14255550100  <br/> |
+|4digitExtension  <br/> |Convierte extensiones de 4 dígitos  <br/> |^(\d{4})$  <br/> |+1425555$1  <br/> |0100 se convierte en +14255550100  <br/> |
 |5digitExtension  <br/> |Convierte extensiones de 5 dígitos  <br/> |^5(\d {4} )$  <br/> |+1425555$1  <br/> |50100 se convierte en +14255550100  <br/> |
-|7digitcallingRedmond  <br/> |Convierte números de 7 dígitos en números locales de Redmond  <br/> |^(\d {7} )$  <br/> |+1425$1  <br/> |5550100 se convierte en +14255550100  <br/> |
-|7digitcallingDallas  <br/> |Convierte números de 7 dígitos en números locales de Dallas  <br/> |^(\d {7} )$  <br/> |+1972$1  <br/> |5550100 se convierte en +19725550100  <br/> |
-|10digitcallingUS  <br/> |Convierte números de 10 dígitos en los Estados Unidos  <br/> |^(\d {10} )$  <br/> |+1$1  <br/> |2065550100 se convierte en +12065550100  <br/> |
+|7digitcallingRedmond  <br/> |Convierte números de 7 dígitos en números locales de Redmond  <br/> |^(\d{7})$  <br/> |+1425$1  <br/> |5550100 se convierte en +14255550100  <br/> |
+|7digitcallingDallas  <br/> |Convierte números de 7 dígitos en números locales de Dallas  <br/> |^(\d{7})$  <br/> |+1972$1  <br/> |5550100 se convierte en +19725550100  <br/> |
+|10digitcallingUS  <br/> |Convierte números de 10 dígitos en los Estados Unidos  <br/> |^(\d{10})$  <br/> |+1$1  <br/> |2065550100 se convierte en +12065550100  <br/> |
 |LDCallingUS  <br/> |Convierte los números con prefijos de larga distancia de Estados Unidos  <br/> |^1(\d {10} )$  <br/> |+$1  <br/> |12145550100 se convierte en +2145550100  <br/> |
 |IntlCallingUS  <br/> |Convierte los números con prefijos internacionales de Estados Unidos  <br/> |^011(\d \* )$  <br/> |+$1  <br/> |01191445550100 se convierte en +91445550100  <br/> |
 |RedmondOperator  <br/> |Convierte 0 al operador de Redmond  <br/> |^0$  <br/> |+14255550100  <br/> |0 se convierte en +14255550100  <br/> |
@@ -180,7 +180,7 @@ En la tabla siguiente se muestra un plan de marcado de ejemplo para Redmond, Was
   
 ## <a name="voice-policies"></a>Directivas de voz
 
-Las directivas de voz de Skype Empresarial Server definen lo siguiente para cada usuario, sitio u organización que tiene asignada la directiva:
+Skype Empresarial Server de voz definen lo siguiente para cada usuario, sitio u organización a la que se asigna la directiva:
   
 - Un conjunto de características de llamada que se pueden habilitar o deshabilitar para determinar la Telefonía IP empresarial funcionalidad disponible para los usuarios.
     
@@ -231,9 +231,9 @@ Puede habilitar o deshabilitar las siguientes características de llamada para c
     
 - El **reemplazo de directiva de ancho de banda** permite a los administradores reemplazar las decisiones de la directiva de control de admisión de llamadas para un usuario concreto. Deshabilitado de forma predeterminada.
     
-- **El seguimiento de llamadas** malintencionadas permite a los usuarios notificar llamadas malintencionadas mediante el cliente de Skype Empresarial y, a continuación, marca dichas llamadas en los registros de detalles de llamadas. Deshabilitado de forma predeterminada.
+- **El seguimiento de llamadas** malintencionadas permite a los usuarios notificar llamadas malintencionadas mediante el Skype Empresarial cliente y, a continuación, marca dichas llamadas en los registros de detalles de llamadas. Deshabilitado de forma predeterminada.
     
-- **El escape** de correo de voz evita que las llamadas se enrutan inmediatamente al sistema de correo de voz del teléfono móvil del usuario cuando se configura la llamada simultánea y el teléfono está apagado, sin batería o fuera de intervalo, y se basa en un valor de temporizador. Esta opción habilita y deshabilita el temporizador, y establece su valor. Solo se puede configurar mediante el Shell de administración de Skype Empresarial Server. Deshabilitado de forma predeterminada.
+- **El escape** de correo de voz evita que las llamadas se enrutan inmediatamente al sistema de correo de voz del teléfono móvil del usuario cuando se configura la llamada simultánea y el teléfono está apagado, sin batería o fuera de intervalo, y se basa en un valor de temporizador. Esta opción habilita y deshabilita el temporizador, y establece su valor. Solo se puede configurar mediante el Shell Skype Empresarial Server administración. Deshabilitado de forma predeterminada.
     
 - El reenvío de llamadas y los usos de RTC de llamadas simultáneas permiten a los administradores especificar el mismo uso de RTC que la directiva de voz para el reenvío de llamadas y llamadas simultáneas, restringir el reenvío de llamadas y las llamadas **simultáneas** solo a usuarios internos de Skype Empresarial o especificar un uso de RTC personalizado que sea diferente del uso de RTC de la directiva de voz. La opción predeterminada es usar el mismo uso de RTC que la directiva de voz para el desvío de llamadas y las llamadas simultáneas.
     
@@ -244,7 +244,7 @@ Cada directiva de voz debe tener uno o más registros de uso de RTC asociados. L
 > [!NOTE]
 > El orden de los usos de RTC es fundamental ya que, al asociar usuarios a rutas, la función de enrutamiento saliente compara los usos de RTC desde el principio hasta el final. Si el primer uso coincide con la ruta de la llamada, se usa la ruta. En caso contrario, la función de enrutamiento saliente pasa al siguiente uso de RTC de la lista y sigue así hasta que encuentra alguna coincidencia. De hecho, los usos de RTC siguientes se usan a modo de reserva si el primero de la lista no está disponible. 
   
-## <a name="pstn-usage-records"></a>Registros de uso de RTC
+## <a name="pstn-usage-records"></a>Registros de uso de la RTC
 
 La planeación de registros de uso de RTC consiste principalmente en enumerar todos los permisos de llamadas que están actualmente en vigor en su organización, desde el director ejecutivo hasta los trabajadores temporales, los consultores y el personal contingente. Este proceso también ofrece la oportunidad de volver a examinar los permisos de llamadas existentes y revisarlos. Solo puede crear registros de uso de RTC para los permisos de llamada que se aplican a los usuarios de Telefonía IP empresarial previstos, pero una mejor solución de largo alcance podría ser crear registros de uso de RTC para todos los permisos de llamada, independientemente de si algunos no se pueden aplicar actualmente al grupo de usuarios que se habilitarán para Telefonía IP empresarial. Si cambian los permisos de llamadas o se agregan nuevos usuarios con permisos de llamada diferentes, ya habrá creado los registros de uso de RTC necesarios.
   
@@ -252,7 +252,7 @@ En la tabla siguiente se muestra una tabla de uso típica de RTC.
   
 **Registros de uso de RTC**
 
-|**Atributo Phone**|**Descripción**|
+|**Teléfono atributo**|**Description**|
 |:-----|:-----|
 |Local  <br/> |Llamadas locales  <br/> |
 |Long-Distance  <br/> |Llamadas de larga distancia  <br/> |
@@ -270,7 +270,7 @@ Por sí mismos, los registros de uso de RTC no hacen nada. Para que funcionen, d
     
 ## <a name="voice-routes"></a>Rutas de voz
 
-Las rutas de llamada especifican cómo Skype Empresarial Server controla las llamadas salientes realizadas por Telefonía IP empresarial usuarios. Cuando un usuario marca un número, el servidor front-end normaliza la cadena de marcado al formato E.164, si es necesario, e intenta hacerlo coincidir con un URI de SIP. Si el servidor no puede hacer la coincidencia, aplica la lógica de enrutamiento de llamadas salientes en función del número. El último paso para definir esa lógica es crear una ruta de llamada con nombre independiente para cada conjunto de números de teléfono de destino que se enumeran en cada plan de marcado.
+Las rutas de llamada especifican cómo Skype Empresarial Server las llamadas salientes realizadas por Telefonía IP empresarial usuarios. Cuando un usuario marca un número, el servidor front-end normaliza la cadena de marcado al formato E.164, si es necesario, e intenta hacerlo coincidir con un URI de SIP. Si el servidor no puede hacer la coincidencia, aplica la lógica de enrutamiento de llamadas salientes en función del número. El último paso para definir esa lógica es crear una ruta de llamada con nombre independiente para cada conjunto de números de teléfono de destino que se enumeran en cada plan de marcado.
   
 Antes de definir rutas de llamadas salientes, debe completar los siguientes pasos:
   
@@ -294,7 +294,7 @@ Para cada ruta, debe especificar:
     
 - Los registros de uso de RTC que los usuarios deben tener para llamar a números que coincidan con la expresión regular del número de teléfono de destino.
     
-Puede especificar rutas de llamada en el Panel de control de Skype Empresarial Server. Estas rutas de llamada rellenan la tabla de enrutamiento del servidor, que Skype Empresarial Server usa para enrutar las llamadas destinadas a la RTC.
+Puede especificar rutas de llamada en el Panel Skype Empresarial Server control. Estas rutas de llamada rellenan la tabla de enrutamiento del servidor, que Skype Empresarial Server usa para enrutar las llamadas destinadas a la RTC.
   
 ### <a name="mn-trunk-support"></a>Compatibilidad con troncos M:N
 
@@ -304,7 +304,7 @@ Skype Empresarial Server proporciona flexibilidad en la forma en que se enrutan 
 
 La capacidad de especificar los troncos a los que se enrutan varios números permite determinar qué rutas conllevan los costos más bajos e implementarlas en consecuencia. La regla general al seleccionar troncos es elegir el tronco con la puerta de enlace más cercana a la ubicación del número de destino para minimizar los cargos de larga distancia. Por ejemplo, si está en Nueva York y llama a un número en Roma, llevará la llamada a través de la red IP al tronco con la puerta de enlace en su oficina de Roma, lo que conlleva un cargo solo para una llamada local.
   
-Para obtener un ejemplo de cómo se puede usar el enrutamiento de menor costo, tenga en cuenta lo siguiente: Fabrikam decide permitir que los usuarios alemanes marquen números de Estados Unidos mediante el tronco de Estados Unidos. Fabrikam también desea configurar el sistema para que todas las llamadas de los usuarios de Skype Empresarial Server a Alemania y países o regiones adyacentes finalicen en el tronco con la puerta de enlace en Alemania. Este enrutamiento ahorrará dinero, ya que una llamada de Alemania a Austria, por ejemplo, es menos costosa que una llamada de Estados Unidos a Austria.
+Para obtener un ejemplo de cómo se puede usar el enrutamiento de menor costo, tenga en cuenta lo siguiente: Fabrikam decide permitir que los usuarios alemanes marquen números de Estados Unidos mediante el tronco de Estados Unidos. Fabrikam también desea configurar el sistema para que todas las llamadas de los Estados Unidos Skype Empresarial Server usuarios a Alemania y países o regiones adyacentes finalicen en el tronco con la puerta de enlace en Alemania. Este enrutamiento ahorrará dinero, ya que una llamada de Alemania a Austria, por ejemplo, es menos costosa que una llamada de Estados Unidos a Austria.
   
 ### <a name="translating-outbound-dial-strings"></a>Traducción de cadenas de marcado salientes
 
@@ -316,7 +316,7 @@ Al planear los troncos que asocian pares gateway:port con pares de servidor de m
   
 ### <a name="configuring-caller-id"></a>Configuración del identificador de autor de la llamada
 
-Skype Empresarial Server proporciona una forma de manipular el identificador de autor de la llamada para las llamadas salientes. Por ejemplo, si una organización quiere enmascarar las extensiones de marcado directo de los empleados y reemplazarlas por el número corporativo o departamental genérico, un administrador puede hacerlo mediante el Panel de control de Skype Empresarial Server para suprimir el identificador de autor de la llamada y reemplazarlo por un identificador de llamador alternativo especificado. Al planear la lógica de enrutamiento, tenga en cuenta para qué personas, grupos, sitios deseará esta opción, tal vez, incluso para todos los empleados.
+Skype Empresarial Server proporciona una forma de manipular el identificador de autor de la llamada para las llamadas salientes. Por ejemplo, si una organización quiere enmascarar las extensiones de marcado directo de los empleados y reemplazarlas por el número corporativo o departamental genérico, un administrador puede hacerlo mediante el Panel de control de Skype Empresarial Server para suprimir el identificador de autor de la llamada y reemplazarlo por un identificador de autor de llamada alternativo especificado. Al planear la lógica de enrutamiento, tenga en cuenta para qué personas, grupos, sitios deseará esta opción, tal vez, incluso para todos los empleados.
   
 > [!NOTE]
 > En el caso de las llamadas que se reenrutan a través de la RTC, se mostrará el identificador de autor de la llamada genérico en lugar del identificador de autor de la llamada original. Esto puede hacer que la llamada omita la configuración de privacidad o No molestar que haya configurado el destinatario de la llamada. 

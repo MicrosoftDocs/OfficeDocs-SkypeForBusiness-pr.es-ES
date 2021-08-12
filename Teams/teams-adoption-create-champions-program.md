@@ -21,12 +21,12 @@ f1.keywords:
 description: Aprenda a formar a un equipo de campeones para promover Teams adopción mediante concienciación, adopción y educación en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a81e143d0b8d9d026c2e24a0469bc6d241d840f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a29e99a85e0759ca67cb94bd690dac3e690b07fd1269b33aa76e4ca315207d0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825310"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296627"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 

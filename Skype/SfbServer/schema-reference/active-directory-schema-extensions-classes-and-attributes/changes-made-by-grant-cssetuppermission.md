@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
-description: Para delegar la instalación, puede conceder permisos al grupo universal RTCUniversalServerAdmins para una unidad organizativa (OU) específica de Active Directory, lo que permite a los miembros del grupo RTCUniversalServerAdmins de esa unidad organizativa instalar Skype Empresarial Server en el dominio especificado sin ser miembros del grupo Administradores de dominio.
-ms.openlocfilehash: 3f6de30e7068f9f44ca6d958f8ca30af866b536a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para delegar la instalación, puede conceder permisos al grupo universal RTCUniversalServerAdmins para una unidad organizativa (OU) de Active Directory específica, lo que permite que los miembros del grupo RTCUniversalServerAdmins en esa UNIDAD organizativa instalen Skype Empresarial Server en el dominio especificado sin ser miembros del grupo Administradores de dominio.
+ms.openlocfilehash: 32c0d48c5b6c63a38ff48e7808b8009c3ef265e6f0b6eb739094f797e47ace4d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831840"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349712"
 ---
 # <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>Cambios realizados por Grant-CsSetupPermission en Skype Empresarial Server
  
-Para delegar la instalación, puede conceder permisos al grupo universal RTCUniversalServerAdmins para una unidad organizativa (OU) específica de Active Directory, lo que permite a los miembros del grupo RTCUniversalServerAdmins de esa unidad organizativa instalar Skype Empresarial Server en el dominio especificado sin ser miembros del grupo Administradores de dominio. 
+Para delegar la instalación, puede conceder permisos al grupo universal RTCUniversalServerAdmins para una unidad organizativa (OU) de Active Directory específica, lo que permite que los miembros del grupo RTCUniversalServerAdmins en esa UNIDAD organizativa instalen Skype Empresarial Server en el dominio especificado sin ser miembros del grupo Administradores de dominio. 
   
 El cmdlet **Grant-CsSetupPermission** otorga los permisos del grupo RTCUniversalServerAdmins en una unidad organizativa, como se especifica en la siguiente tabla:
   

@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo buscar el PIN de soporte técnico.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d9fbc7805adb2bec12625daea4d0745ffd80472
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: b2c222b74a5fb539b3a492aac833070573775a08629025e3a23f71f8ff76905f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332412"
 ---
 # <a name="how-to-look-up-your-support-pin"></a>Cómo buscar el PIN de soporte técnico
 

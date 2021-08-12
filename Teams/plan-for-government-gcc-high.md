@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e5f8df087ca7ad999a9756467925be68c60e96f
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: bf66e1d14ab283839de2b07f584386dbe542a60b20341f129a275a22b75c8e0f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296707"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Planear Office 365 Administración Pública: GCC implementaciones altas
 
@@ -90,4 +90,4 @@ Determine sus requisitos de gobernanza y cómo puede cumplirlos. Vaya a [Planear
 
 Después de que se haya incorporado a Office 365 Administración Pública: GCC alta, siga la ruta de implementación recomendada que se describe en Cómo implementar [Microsoft Teams](./deploy-overview.md). Asegúrese de participar con su equipo de adopción y administración de cambios y con Teams usuarios.
 
-También puede trabajar con [FastTrack](https://www.microsoft.com/fasttrack) o su partner elegido para incorporar el servicio.
+También puede trabajar con [FastTrack](https://www.microsoft.com/fasttrack) su partner elegido para incorporar el servicio.

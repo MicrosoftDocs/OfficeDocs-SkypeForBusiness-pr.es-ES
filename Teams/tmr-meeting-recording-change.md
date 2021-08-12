@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c53cc427c1db87a2d0296384d5d0c67e7e7996a
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
-ms.translationtype: HT
+ms.openlocfilehash: bbde1b4d5425b0bbcf904528f0ddb232f27a2ba4b15fb0755639ef01b1f5f09f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506329"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312448"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-online-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint Online o Stream para grabar las reuniones
 
@@ -72,7 +72,7 @@ Vea "Novedades de las grabaciones de reuniones de Microsoft Teams" para obtener 
 La opción de grabación de la reunión es una configuración en el nivel de directiva de Teams. En el ejemplo siguiente se muestra cómo establecer la directiva global. Asegúrese de establecer la opción de grabación de la reunión para la directiva o las directivas que haya asignado a los usuarios.
 
 > [!Note]
-> Los cambios en las directivas de reunión de Teams pueden tardar un tiempo en propagarse. Vuelva a echar un vistazo unas horas después de aplicarlos, cierre la sesión e iníciela otra vez en la aplicación de escritorio de Teams, o simplemente reinicie el equipo.
+> Los cambios en la directiva de reunión de Teams tardan un tiempo en propagarse. Vuelva a comprobarlo después de unas horas de configuración, cierre la sesión y vuelva a iniciar sesión en la aplicación de escritorio de Teams o simplemente reinicie el equipo.
 
 1. Instale PowerShell para Teams.
 

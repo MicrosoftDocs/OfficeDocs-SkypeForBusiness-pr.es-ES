@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c99fc4bfb185ec291a98a96572167b389b3e6252
-ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
+ms.openlocfilehash: a122bd1d0bb3c8cba450293b43f7532f36c510831bd301ed30d9955a9a1f8d31
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53252655"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296697"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Administrar directivas de retención de Microsoft Teams
 

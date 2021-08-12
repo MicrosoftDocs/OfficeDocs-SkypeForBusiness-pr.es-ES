@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: En el momento en que implementa los servidores perimetrales y habilita la federación para la organización, debe especificar si se va a admitir la detección automática de los dominios de socios federados.
-ms.openlocfilehash: e1f076b725dff149f024a3fd59f9f7d52da4e6a8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c66dd9750c8fdd36af5fad75f40b6939a04b0971cec4c9e57fe97bd06047ed9d
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849195"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Habilitar o deshabilitar la detección de socios de federación en Skype Empresarial Server
 
@@ -33,7 +33,7 @@ En el momento en que implementa los servidores perimetrales y habilita la federa
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.
 
 3.  En el barra de navegación izquierda, haga clic en **Acceso para usuarios externos** y en **Configuración perimetral de acceso**.
 
@@ -43,24 +43,20 @@ En el momento en que implementa los servidores perimetrales y habilita la federa
 
 6.  Haga clic en **Confirmar**.
 
-Para permitir que los usuarios federados colaboren con usuarios en su implementación de Skype Empresarial Server, también debe haber configurado al menos una directiva de acceso externo para admitir el acceso de usuarios federados. Para obtener más información, consulte [Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública.](enable-or-disable-federation-and-public-im-connectivity.md) Para obtener más información sobre cómo controlar el acceso a dominios federados específicos, consulte Administrar dominios [federados SIP](../sip-domains/manage-sip-federated-domains-for-your-organization.md) y [Administrar proveedores federados SIP.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+Para permitir que los usuarios federados colaboren con los usuarios en la implementación Skype Empresarial Server, también debe haber configurado al menos una directiva de acceso externo para admitir el acceso de usuarios federados. Para obtener más información, [vea Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública.](enable-or-disable-federation-and-public-im-connectivity.md) Para obtener más información sobre cómo controlar el acceso para dominios federados específicos, vea [Manage SIP federated domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md) and Manage SIP [federated providers](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
 
 
-## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar la detección de socios de federación mediante cmdlets Windows PowerShell federación
+## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar la detección de asociados de federación mediante cmdlets Windows PowerShell servidores
 
-La detección de socios de federación se puede administrar mediante Windows PowerShell y el cmdlet Set-CsAccessEdgeConfiguration federación. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
+La detección de asociados de federación se puede administrar mediante Windows PowerShell y el cmdlet Set-CsAccessEdgeConfiguration federación. Este cmdlet se puede ejecutar desde el Shell Skype Empresarial Server administración o desde una sesión remota de Windows PowerShell. 
 
 
 ## <a name="to-enable-discovery-of-federation-partners"></a>Para habilitar la detección de socios de federación
 
-  - Para habilitar la detección de socios federados, establezca el valor de la propiedad **EnablePartnerDiscovery** en True ($True). Tenga en cuenta que debe habilitar el enrutamiento SRV de DNS para poder cambiar el valor de esta propiedad.
-    
-        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
+  - Para habilitar la detección de socios federados, establezca el valor de la propiedad **EnablePartnerDiscovery** en True ($True). Tenga en cuenta que debe habilitar el enrutamiento SRV de DNS para poder cambiar el valor de esta propiedad.<br/><br/>Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
 
 
 ## <a name="to-disable-discovery-of-federation-partners"></a>Para deshabilitar la detección de socios de federación
 
-  - Para deshabilitar la detección de socios federados, establezca el valor de la propiedad **EnablePartnerDiscovery** en False ($False).
-    
-        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
+  - Para deshabilitar la detección de socios federados, establezca el valor de la propiedad **EnablePartnerDiscovery** en False ($False).<br/><br/>Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para islas Turcas y Caicos.
-ms.openlocfilehash: 93efa68fbdd5d7ce8855cc39658cdcfb222242df
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d581113c242174483a36b3637bbe7fde01fde1c1f4459c1215bd1974fba05746
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119279"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322722"
 ---
 # <a name="availability-in-turks-and-caicos-islands"></a>Disponibilidad en islas Turcas y Caicos
 

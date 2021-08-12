@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5c2f6029b0c5314c507de7734abf8c479af709
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 073f5ecf262d51853aecf14f982af144434791b19be617887f4ac788f11b301c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098226"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312508"
 ---
 # <a name="share-to-teams-from-outlook"></a>Compartir a Teams desde Outlook
 
@@ -49,9 +49,9 @@ Para habilitar el complemento para Outlook uso compartido para Teams, ejecute el
 
 ## <a name="browsers-and-single-sign-on"></a>Exploradores y inicio de sesión único
 
-Compartir a Teams, tanto en Outlook web como en Outlook de escritorio, se basa en un explorador WebView. Vea [Exploradores usados por Office complementos para](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) obtener información detallada sobre qué clientes usan los exploradores específicos. 
+Compartir con Teams, tanto en Outlook en la Web como Outlook de escritorio, se basa en un explorador WebView. Vea [Exploradores usados por Office complementos para](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) obtener información detallada sobre qué clientes usan los exploradores específicos. 
 
 > [!IMPORTANT]
 > Compartir a Teams requiere que las cookies de terceros y el acceso de almacenamiento local se habiliten para los exploradores de los usuarios.
 
-Compartir en Teams usa inicio de sesión único (SSO), lo que significa que los usuarios no necesitan proporcionar sus credenciales al usar el complemento a través de Compartir a Teams. SSO para Outlook en la web admite https://outlook.office365.com/owa/extSSO.aspx y responde direcciones URL de forma https://outlook.office.com/owa/extSSO.aspx predeterminada. Para los dominios de vanidad, los administradores deben agregar la dirección URL Azure Active Directory respuesta.
+Compartir en Teams usa inicio de sesión único (SSO), lo que significa que los usuarios no necesitan proporcionar sus credenciales al usar el complemento a través de Compartir a Teams. SSO para Outlook en la Web https://outlook.office365.com/owa/extSSO.aspx admite y responder url de forma https://outlook.office.com/owa/extSSO.aspx predeterminada. Para los dominios de vanidad, los administradores deben agregar la dirección URL Azure Active Directory respuesta.

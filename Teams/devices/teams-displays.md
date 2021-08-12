@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se proporciona información general sobre las características compatibles con Microsoft Teams pantallas.
-ms.openlocfilehash: 8b91667265531833920e31a5ab99fca307d151d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a812aad7b26758ce41052672b20e5031da0729e7d1b1b802513ed2b311353b30
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322682"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams pantallas
 
@@ -70,4 +70,4 @@ Teams pantallas es la evolución de Teams teléfonos. Puede actualizar Teams tel
 
 [Actualizar teléfonos IP a Teams pantallas](upgrade-phones-to-displays.md)
 
-[Asistencia de voz de Cortana en Teams](../cortana-in-teams.md)
+[Cortana de voz en Teams](../cortana-in-teams.md)

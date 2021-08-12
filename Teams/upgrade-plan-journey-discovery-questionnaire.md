@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3d1349cf32e652cc308bb85c187db90303aa959
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 32687604a0ad531ab06b67401d27001ab9559eb95f77fabaaea5ef57dc9e2b9a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332342"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>Cuestionario de detección: evaluar el entorno
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Marruecos.
-ms.openlocfilehash: ee6cea4fa3d5995fe99086667f8e5d6e83878dab
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 70fb0596e9ba9c8d78fffb659dba58c996977382b587c18869fddd746b4fd539
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102436"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296907"
 ---
 # <a name="availability-in-morocco"></a>Disponibilidad en Marruecos
 

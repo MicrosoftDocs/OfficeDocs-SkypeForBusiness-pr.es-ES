@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Obtenga las instrucciones que necesita para que los números de teléfono se Microsoft Teams.
-ms.openlocfilehash: bb63e22b7cc3aa787ddb984f82180937c5aaf9fc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 17ceb8270d9474a64b2a4f2a55e7f015585dacd5ba376708092f1fcf96f57722
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296717"
 ---
 # <a name="more-information-about-porting"></a>Más información sobre la pornografía
 

@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: 'Obtenga información acerca de cómo configurar las conferencias de acceso telefónico local o de audio para las personas de su empresa que necesitan usar un teléfono para unirse a llamadas de conferencia. '
-ms.openlocfilehash: ce5d80b8be0fe2e6983229be8185bcdf02e06ab6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 48ce96b4b2ab6ad87054784bea93d8a7a45638ee6f2d86938cca1be60f30d442
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341096"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurar conferencias de audio para Skype Empresarial
 
@@ -133,7 +133,7 @@ Debe hacer esto para todas las personas de su organización que coordinen o prog
 
 ![Un icono que muestra el logotipo de Skype empresarial](../images/sfb-logo-30x30.png)**con el centro de administración de Skype empresarial:**
 
-1. Vaya al centro **Microsoft 365 administración Teams** portal  >    >  **heredado.**
+1. Vaya a la **Centro de administración de Microsoft 365**  >  **Teams**  >  **portal heredado.**
 2. Seleccione **Usuarios de audioconferencia** y, a continuación,  >  seleccione el usuario de la lista y haga clic en **Editar.** 
 
 Si necesita más detalles, vea [Asignar a Microsoft como proveedor de audioconferencias](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).

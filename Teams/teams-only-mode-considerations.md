@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2232d4774a31f3b081b2410371a5903debe9123
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: da61c6fdda511375010375a785fc06c3549883bf56396fc87daaadb4472cf2af
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239017"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312548"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 

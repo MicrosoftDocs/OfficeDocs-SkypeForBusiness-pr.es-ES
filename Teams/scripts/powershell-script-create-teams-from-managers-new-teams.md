@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8343348816c1dfeb4b10f67001e3ecb3698983b7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 939b18a5f3dc137fb3953f48d9289a007933baca6c1975c91764bcfe999c833a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117308"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341206"
 ---
 # <a name="powershell-script-sample---create-new-people-manager-teams"></a>Ejemplo de script de PowerShell: crear nuevos equipos de administrador de personas
 

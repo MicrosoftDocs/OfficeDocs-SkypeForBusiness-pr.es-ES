@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: El nuevo Skype Empresarial de informes del Centro de administración muestra la actividad de llamadas y audioconferencias en su organización. Le permite explorar en profundidad los informes para proporcionar información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Skype Empresarial grupos de minutos RTC para ver el número de minutos consumidos durante el mes actual dentro de su organización.
-ms.openlocfilehash: d82f360c48b6e7478ef552826ee80ecaf508db0f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: dae86688a5fb0204802f62d28504c3454613bb3d7f7d23f17d09972b94303390
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850255"
 ---
 # <a name="pstn-minute-pools-report"></a>Informe de grupos de minutos de RTC
 
@@ -40,7 +40,7 @@ Consulte información general [sobre informes](https://support.office.com/articl
 Este informe, junto con el resto de Skype Empresarial, le proporciona detalles sobre la actividad en toda la organización. Estos detalles son muy útiles al investigar, planear y tomar otras decisiones empresariales para su organización y para configurar créditos [de comunicaciones](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Puede ver todos los informes Skype Empresarial al iniciar sesión como administrador en el centro de Microsoft 365 administración. 
+> Puede ver todos los informes Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Cómo obtener acceso al informe de Skype Empresarial de minutos RTC
 
@@ -56,8 +56,6 @@ Este informe, junto con el resto de Skype Empresarial, le proporciona detalles s
 Puede obtener una vista en los grupos de Skype Empresarial minutos del usuario consultando cada una de las columnas que se muestran.
   
 Este es el aspecto del informe.
-  
-## 
 
 ![Skype Empresarial Informe de grupos de minutos RTC](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
