@@ -15,30 +15,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 'Para Definir el almacén de SQL Server de supervisión, configure las propiedades siguientes:'
-ms.openlocfilehash: 5f8a3ccb22aea1efde0b214b9afa61c140e63014
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: db0956b14f7fa4f594c752bfe16a366b166ac7274abc303d947e2511b334378d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803550"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290768"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Página Agregar almacén de supervisión de front-end
  
 Para **Definir el almacén de SQL Server de supervisión**, configure las propiedades siguientes:
   
-- **Supervisión SQL Server almacén:** seleccione un SQL Server de dominio completo (y, opcionalmente, una instancia) de la lista.
+- **Supervisión SQL Server almacén:** seleccione SQL Server nombre de dominio completo (y, opcionalmente, una instancia) de la lista.
     
     Haga **clic en** Nuevo para crear una nueva definición SQL Server FQDN y, opcionalmente, un nombre de instancia para el almacén del servidor de supervisión.
     
-- Active la **casilla SQL Server creación** de reflejo del almacén si desea agregar la creación de reflejos de la base de datos para el servidor de supervisión.
+- Active la **casilla Habilitar SQL Server creación** de reflejo del almacén si desea agregar creación de reflejo de la base de datos para el servidor de supervisión.
     
     Seleccione el **Reflejo del almacén SQL Server de supervisión** existente de la lista.
     
-    Haga **clic** en Nuevo para crear una SQL Server de FQDN y, opcionalmente, un nombre de instancia para el almacén reflejado.
+    Haga **clic en** Nuevo para crear una nueva definición SQL Server FQDN y, opcionalmente, un nombre de instancia para el almacén reflejado.
     
-- Si seleccionó Habilitar la creación de reflejos del almacén de SQL Server **SQL Server,** opcionalmente seleccione Usar un testigo de creación de reflejo para habilitar la conmutación por error automática para seleccionar un almacén testigo de creación de reflejo de SQL Server en la lista. 
+- Si seleccionó Habilitar la **creación** de reflejos  de SQL Server almacén, seleccione usar un testigo de creación de reflejos SQL Server habilitar la conmutación por error automática para seleccionar un almacén testigo de creación SQL Server reflejo de la lista.
     
-    Haga **clic** en Nuevo para crear una nueva SQL Server FQDN y, opcionalmente, un nombre de instancia para el almacén testigo de creación de reflejo.
+    Haga **clic en** Nuevo para crear una nueva definición SQL Server FQDN y, opcionalmente, un nombre de instancia para el almacén testigo de creación de reflejo.
     
 Haga clic en **Atrás** para volver al cuadro de diálogo anterior de definición del grupo de servidores.
   
@@ -48,6 +48,6 @@ Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asiste
   
 Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Asociar un almacén de supervisión con un grupo de servidores front-end en Skype Empresarial Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

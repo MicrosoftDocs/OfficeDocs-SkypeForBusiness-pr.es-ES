@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para comprobar que la extensión de esquema se haya replicado correctamente en el bosque de Servicios de dominio de Active Directory, haga lo siguiente:'
-ms.openlocfilehash: 4e4bfdf4fb50366f831f029d8f331551ba906969
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Para comprobar que la extensión de esquema se ha replicado correctamente en el bosque de servicios de dominio de Active Directory, haga lo siguiente:'
+ms.openlocfilehash: 9da233460dd20548acd36bd90ef699359c77e4144eaea80576e1209df6a5c7fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300226"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Comprobar la replicación de la partición del esquema
  
-Para comprobar que la extensión de esquema se haya replicado correctamente en el bosque de Servicios de dominio de Active Directory, haga lo siguiente:
+Para comprobar que la extensión de esquema se ha replicado correctamente en el bosque de servicios de dominio de Active Directory, haga lo siguiente:
   
-1. Inicie sesión en un controlador de dominio (que no sea el controlador de dominio que contiene el rol de maestro de esquema) en el bosque de Servicios de dominio de Active Directory, donde las extensiones de esquema se aplicaron como miembro del grupo Administradores de organización.
+1. Inicie sesión en un controlador de dominio (que no sea el controlador de dominio que contiene el rol de patrón de esquema) en el bosque de Servicios de dominio de Active Directory, donde se aplicaron las extensiones de esquema como miembro del grupo administradores de Enterprise.
     
 2. Abra el Editor ADSI: haga clic en **Inicio**, en **Herramientas administrativas** y en **Editor ADSI**.
     
@@ -42,6 +42,6 @@ Para comprobar que la extensión de esquema se haya replicado correctamente en e
 6. En el contenedor de esquema, busque CN=ms-RTC-SIP-SchemaVersion. Si este objeto existe y el valor del atributo **rangeUpper** es 1150 y el valor del atributo **rangeLower** es 3, el esquema se ha actualizado y replicado correctamente. Si este objeto no existe o el valor de los atributos **rangeUpper** y **rangeLower** es distinto de lo que se ha especificado, el esquema no se ha modificado o no se ha replicado.
     
 > [!NOTE]
-> Si la comprobación de la replicación del esquema aún no muestra una replicación correcta, espere aproximadamente 15 minutos y vuelva a comprobarlo. La replicación de Active Directory se basa en un modelo de coherencia flexible y puede producirse cierta latencia de replicación, en función de una serie de factores en el servidor y la infraestructura. 
+> Si la comprobación de la replicación del esquema aún no muestra una replicación correcta, espere aproximadamente 15 minutos y vuelva a comprobarlo. La replicación de Active Directory se basa en un modelo de coherencia suelta y puede producirse cierta latencia de replicación, en función de una serie de factores en el servidor y la infraestructura. 
   
 

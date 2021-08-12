@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Lea este tema para obtener información sobre cómo planear varios números de emergencia en Skype Empresarial Server.
-ms.openlocfilehash: 47ac1a93a39a95710bf1581aace0ec12a39caec6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1db97627ef783e5fa69bb7a186940c589f4aae40039563c3155c7cb29d5166aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101606"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329554"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planear varios números de emergencia en Skype Empresarial Server
  
@@ -35,14 +35,14 @@ Esta característica también es útil para los proveedores de atención médica
 
 Para configurar las llamadas de emergencia, cree directivas de ubicación que definan cómo se implementarán las llamadas de emergencia. La directiva de ubicación se usa para definir qué número constituye una llamada de emergencia( por ejemplo, 911 en los Estados Unidos; 999 y 112 en el Reino Unido. La directiva de ubicación determina si un usuario está habilitado para llamadas de emergencia y, si es así, cuál es el comportamiento de una llamada de emergencia. También puede definir si se debe notificar automáticamente a la seguridad corporativa y cómo se debe enrutar la llamada.
   
-Para obtener más información sobre cómo definir y modificar una directiva de ubicación, vea [Plan location policies for Skype for Business Server](location-policies.md) y Create location policies in Skype for Business [Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). En estos temas se describen conceptos sobre directivas de ubicación; sin embargo, debe seguir las instrucciones de [Configurar varios números](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) de emergencia en Skype Empresarial para configurar varios números de emergencia.
+Para obtener más información acerca de cómo definir y modificar una directiva de ubicación, vea [Plan location policies for Skype Empresarial Server](location-policies.md) y Create location policies in [Skype Empresarial Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). En estos temas se describen conceptos sobre directivas de ubicación; sin embargo, debe seguir las instrucciones de Configurar varios números de [emergencia en Skype Empresarial](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) configurar varios números de emergencia.
   
 Al planear varios números de emergencia, tenga en cuenta lo siguiente:
   
 - Con la actualización acumulativa de junio de 2016, puede definir hasta 5 números de emergencia para una directiva de ubicación determinada. Con la actualización acumulativa de noviembre de 2016, este número aumenta a 100.
     
     > [!NOTE]
-    > Si aún no ha actualizado a la actualización acumulativa de noviembre de 2016, vea Actualizaciones de [Skype Empresarial Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
+    > Si aún no ha actualizado a la actualización acumulativa de noviembre de 2016, vea [Updates to Skype Empresarial Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
   
 - Para cada número de emergencia, puede especificar cero o más máscaras de marcado de emergencia, que son únicas para una directiva de ubicación determinada.
     
@@ -52,10 +52,10 @@ Al planear varios números de emergencia, tenga en cuenta lo siguiente:
     
 - Si una directiva de ubicación tiene definidos los parámetros EmergencyNumbers y DialString y el cliente admite varios números de emergencia, el número de emergencia tiene prioridad. Si el cliente no admite varios números de emergencia, se usa la cadena de marcado de emergencia.
     
-- Para obtener información acerca de qué clientes de Skype Empresarial y Lync admiten la recepción de varios números de emergencia, máscaras de marcado y usos de red telefónica conmutada (RTC), vea [Client support](multiple-emergency-numbers.md#BKMK_Clients).
+- Para obtener información sobre qué clientes de Skype Empresarial y Lync admiten la recepción de varios números de emergencia, máscaras de marcado y usos de la red telefónica conmutada (RTC), vea [Client support](multiple-emergency-numbers.md#BKMK_Clients).
     
 > [!NOTE]
-> No puede configurar varios números de emergencia mediante el Panel de control de Skype Empresarial. Debe usar PowerShell para configurar varios números de emergencia. 
+> No puede configurar varios números de emergencia mediante el Panel Skype Empresarial control. Debe usar PowerShell para configurar varios números de emergencia. 
   
 Antes de configurar varios números de emergencia, tenga en cuenta lo siguiente:
   
@@ -69,7 +69,7 @@ Antes de configurar varios números de emergencia, tenga en cuenta lo siguiente:
     
 - Si los usuarios marcarán un número que coincida con la cadena de marcado, no se requiere ninguna máscara de marcado. Por ejemplo, si el número que marca un usuario es 911, la cadena de marcado es 911 y no se requiere máscara. 
     
-Para obtener más información acerca de la configuración de varios números de emergencia, vea [Configure multiple emergency numbers in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
+Para obtener más información acerca de la configuración de varios números de emergencia, vea [Configure multiple emergency numbers in Skype Empresarial](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
   
 En la tabla siguiente se muestran directivas de ubicación de ejemplo (para fines del ejemplo, no se muestran todos los atributos):
   
@@ -101,9 +101,9 @@ En la tabla siguiente se muestra la compatibilidad del cliente con varios númer
 ||DC (Canal diferido) publicado el 11 de octubre de 2016 - Versión 1605 (compilación 6965.2092)  <br/> |
 |**MSI** <br/> |Actualización del 7 de junio: [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac e iOS** <br/> |**Versión** <br/> |
-||Versión 16.9 del cliente de Skype Empresarial Mac  <br/> Versión 6.16 del cliente de Skype Empresarial iOS  <br/> |
+||Skype Empresarial Versión 16.9 del cliente Mac  <br/> Skype Empresarial cliente de iOS 6.16  <br/> |
 |**Android** <br/> |**Versión** <br/> |
-||Versión 6.17 del cliente Android de Skype Empresarial  <br/> |
+||Skype Empresarial Versión 6.17 del cliente Android  <br/> |
 |**Lync Phone Edition** <br/> |**Versión** <br/> |
 || Teléfonos Aastra 6721ip y Aastra 6725ip - Actualización acumulativa de septiembre de 2016 (compilación 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || Teléfonos HP 4110 y HP 4120: actualización acumulativa de septiembre de 2016 (compilación 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |

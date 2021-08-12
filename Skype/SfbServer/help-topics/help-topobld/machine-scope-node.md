@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del servidor y la configuración de la dirección IP del servidor. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 13661a59712bb59c608cb706e0e5592d3800da1f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5c1bde7bc9f00c3d1706f6f55beaeb5c6af1c969ffa78009f220fbf709bc5079
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803280"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329654"
 ---
 # <a name="machine-scope-node"></a>Nodo de ámbito de equipo
  

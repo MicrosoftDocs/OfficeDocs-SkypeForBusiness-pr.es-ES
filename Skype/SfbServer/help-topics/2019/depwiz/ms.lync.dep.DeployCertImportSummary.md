@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 ROBOTS: NOINDEX, NOFOLLOW
 description: En la página Importar resumen de certificado, figura un resumen con el nombre de archivo, la ruta y una clave privada. Tras haber examinado el resumen, haga clic en Siguiente para continuar.
-ms.openlocfilehash: f2300d19f68fcf4f9b5c3cc6d0e376ebe7d769e0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cd6ee9a68171fec3b6e1cab5dfa96eaad930772ebb3f343cfd59231c154c9778
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837020"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279291"
 ---
 # <a name="import-certificate-summary"></a>Importar certificado (resumen)
  

@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17f1445d19961cc6f7825fc613dfde453900bf82
-ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+ms.openlocfilehash: ba3f7efa43377cb69b0142e319d079b6aa2a26b9d923111fe2833cc337176129
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2021
-ms.locfileid: "53679775"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280585"
 ---
 # <a name="skype-for-business-online-retirement"></a>Retirada de Skype Empresarial Online
 
@@ -61,7 +61,7 @@ Aproveche los recursos disponibles para ayudar a planear su Teams y actualizar d
 
 - [Actualizaciones asistidos de Skype Empresarial Online a Microsoft Teams:](upgrade-assisted.md) programa automatizado que le ayuda con los pasos técnicos para actualizar Skype Empresarial usuarios en línea a Teams.
 
-- [FastTrack para Microsoft 365:](https://www.microsoft.com/fasttrack/microsoft-365) Teams de implementación disponible para los planes que califiquen.
+- [FastTrack para Microsoft 365:](https://www.microsoft.com/fasttrack/microsoft-365) Teams asistencia de implementación disponible para los planes que califiquen.
 
 - [Teams en directo:](./instructor-led-training-teams-landing-page.yml) clases de aprendizaje en línea gratuitas diseñadas para que su organización esté en marcha con Teams.
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 description: 'Para editar las propiedades de los almacenes de archivos definidos:'
-ms.openlocfilehash: ad4e8b82da279d8799f1d16b042713fc839f4a62
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 931cba407404c142f9dd02d745be487ed4762bd09c869f0ab30ad52f867cfde7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804750"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329684"
 ---
 # <a name="file-store-settings-expander"></a>Expansor de configuración de almacén de archivos
  

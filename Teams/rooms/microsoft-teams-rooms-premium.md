@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre el Salas de Microsoft Teams administrado.
 f1keywords: ''
-ms.openlocfilehash: beb8c0a7cf4a2a78364b145da1da83e2ae04bd0b
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: c6ec09b889272b7efb02e6e2f0223f8fc3bf6da3f4332c4bfb50b58895c90bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280705"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salas de Microsoft Teams administrado
 
@@ -41,7 +41,7 @@ A continuación se ofrece información general sobre las capacidades del Salas d
 |**Planeación y implementación de sala**   |Capacidades de planeación de sala que le permiten comprender el inventario de equipamiento de la sala y tomar decisiones sobre los estándares de equipamiento para implementaciones de sala nuevas.         |
 |**Supervisión y solución de problemas**  |Supervisión del estado de la sala que detecta problemas con el sistema de sala y periféricos y proporciona una respuesta proactiva de administración de incidentes controlada por Microsoft.         |
 |**Administración de actualizaciones**    |Administración y entrega de actualizaciones de firmware y aplicaciones para sistemas de sala y sus periféricos realizadas por Microsoft.         |
-|**Conclusiones y recomendaciones**     |Información sobre el estado del cliente, el uso, la utilización y la confiabilidad del equipo.         |
+|**Ideas y recomendaciones**     |Ideas el estado, el uso, la utilización y la confiabilidad del equipo del cliente.         |
 |**Cumplimiento y certificaciones**   |Cumple todos los estándares aplicables para Microsoft Online Services.         |
 |**Soporte técnico al cliente**   |Soporte técnico de vales 24x7x365 a través del Centro de operaciones de Salas de Microsoft Teams de servicios administrados (SOC) dedicado. Escalamiento en su nombre a otros proveedores principales cuando corresponda. Para obtener más información, vea [Asistencia al cliente.](#customer-support)|
 |**Dispositivos admitidos**    |Sistemas Salas de Microsoft Teams y sus periféricos certificados.<br>*Surface Hub soporte técnico en la segunda mitad de 2021*        |
@@ -60,7 +60,7 @@ Este es un resumen de las características importantes que el Salas de Microsoft
 |**Supervisión**    |Supervisión del estado de la aplicación, el sistema operativo, los periféricos y el firmware. Detección automatizada de incidentes para problemas que afectan a las experiencias de reunión debido a problemas como el estado periférico. Información general sobre el estado de todo el sector inmobiliario e incidentes de la sala a través del Salas de Microsoft Teams de servicio administrado.|
 |**Solución de problemas y corrección**     |Diagnóstico automatizado y corrección automática cuando corresponda. Salas de Microsoft Teams de incidentes asistidos por SOC del servicio administrado para casos no automatizados. Integración de Service Now para la coordinación de incidentes.         |
 |**Administración de actualizaciones**   |Organización automatizada de actualización de firmware y aplicación de reunión basada en anillos de implementación configurables por el cliente         |
-|**Conclusiones y recomendaciones**   |Uso, incidentes, estado y informes generales (vistas históricas)         |
+|**Ideas y recomendaciones**   |Uso, incidentes, estado y informes generales (vistas históricas)         |
 
 ## <a name="service-prerequisites"></a>Requisitos previos del servicio
 

@@ -12,20 +12,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: 'Resumen: obtenga información sobre cómo asignar directivas de conferencia en Skype Empresarial Server.'
-ms.openlocfilehash: 61082a9189b085c852e7593207fc86dcc6509139
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aae4f76f333adef8e54eaa6627157d7424e11ee01c0b62ff9dc1eb24634fc604
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099166"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329584"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Asignar directivas de conferencia en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo asignar directivas de conferencia en Skype Empresarial Server.
   
-Puede asignar directivas de conferencia a los usuarios mediante el Shell de administración de Skype Empresarial Server y el cmdlet **Grant-CsConferencingPolicy.**
+Puede asignar directivas de conferencia a los usuarios mediante Skype Empresarial Server Shell de administración y el cmdlet **Grant-CsConferencingPolicy.**
   
-## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Asignar directivas de conferencia mediante el Shell de administración de Skype Empresarial Server
+## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Asignar directivas de conferencia mediante Skype Empresarial Server Shell de administración
 
 En el siguiente ejemplo, la directiva SalesConferencingPolicy se asigna al usuario con la identidad "Ken Myer":
   

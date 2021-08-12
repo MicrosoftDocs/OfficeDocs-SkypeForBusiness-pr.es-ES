@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: Esta sección contiene consultas de ejemplo para la base de datos de chat persistente.
-ms.openlocfilehash: 74cb6c1029cdeaabcd74a34898731b44c71f05a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0b79d7753d6fca7ef27c2274416d17793c9c886ab05bad6b485b899700a3df51
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337648"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Consultas de base de datos del chat persistente de ejemplo
  
 Esta sección contiene consultas de ejemplo para la base de datos de chat persistente.
   
-Use el siguiente ejemplo para obtener una lista de los salón de chat persistente más activos después de una fecha determinada.
+Use el siguiente ejemplo para obtener una lista de los salas de chat persistente más activos después de una fecha determinada.
   
 ```SQL
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages

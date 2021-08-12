@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
-description: Obtenga información sobre cómo garantizar la alta disponibilidad de los recursos compartidos de archivos en Skype Empresarial Server mediante DFS.
-ms.openlocfilehash: f47d8207969063472af23d898ef8a52c2383df0d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Obtenga información sobre cómo garantizar la alta disponibilidad de los recursos compartidos de Skype Empresarial Server, mediante DFS.
+ms.openlocfilehash: c707a1049bf1c54302c4dde270856379e4731fd4e23b1e886b3144445b4e2aaf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093098"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337768"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Alta disponibilidad de uso compartido de archivos en Skype Empresarial Server
  
-Obtenga información sobre cómo garantizar la alta disponibilidad de los recursos compartidos de archivos en Skype Empresarial Server mediante DFS.
+Obtenga información sobre cómo garantizar la alta disponibilidad de los recursos compartidos de Skype Empresarial Server, mediante DFS.
   
-Para garantizar la alta disponibilidad para el uso compartido de archivos en la implementación de Skype Empresarial Server, puede usar el Sistema de archivos distribuido (DFS). DFS admite la conmutación por error de un servidor de archivos a otro del mismo centro de datos. Para una implementación a gran escala, recomendamos que use servidores de archivos dedicados que se emparejen mediante DFS. Para obtener más información sobre DFS en Windows Server 2012, consulta [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) . Para obtener información sobre DFS en Windows Server 2008, consulta [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) .
+Para garantizar la alta disponibilidad para el uso compartido de archivos Skype Empresarial Server implementación, puede usar el Sistema de archivos distribuido (DFS). DFS admite la conmutación por error de un servidor de archivos a otro del mismo centro de datos. Para una implementación a gran escala, recomendamos que use servidores de archivos dedicados que se emparejen mediante DFS. Para obtener más información sobre DFS en Windows Server 2012, vea [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) . Para obtener información sobre DFS en Windows Server 2008, vea [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) .
   
 En función del tamaño de la red y de la cantidad de resistencia que desee, puede usar un par de servidores para hospedar todos los recursos compartidos de archivos de un sitio o usar un par por grupo de servidores front-end.
   

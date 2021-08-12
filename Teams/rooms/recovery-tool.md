@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: En este artículo se explica cómo usar la herramienta de recuperación para Salas de Microsoft Teams, que se usaría para poner un sistema des actualizado en un estado compatible.
-ms.openlocfilehash: 9a856312229ae326b4adbfd039ee0553213ca09c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 65cb123de9284d4b65b461390a325ce413d069f381b2c075a137cedfb0121aca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117498"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280695"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Usar la herramienta de recuperación de Sala de Microsoft Teams
 
@@ -38,7 +38,7 @@ Descargue el último [Salas de Microsoft Teams de](https://go.microsoft.com/fwli
 3) Ejecutar `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` .
 4) Para realizar una restauración de fábrica:
    1. Cuando se le solicite por el script, seleccione la opción 2: **Restablecer**.
-   2. Si BitLocker, siga las instrucciones proporcionadas al final de la salida del script para deshabilitarlo.
+   2. Si BitLocker está en, siga las instrucciones proporcionadas al final de la salida del script para deshabilitarlo.
    3. Realice la restauración de fábrica.
       1. Abra la **Configuración** y seleccione **Actualizar & seguridad**
       2. Vaya a la **pestaña Recuperación.**

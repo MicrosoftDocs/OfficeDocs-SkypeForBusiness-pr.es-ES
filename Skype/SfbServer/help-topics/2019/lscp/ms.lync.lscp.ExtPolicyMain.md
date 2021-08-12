@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 61aeabe7852395123dbac9bbaa559ae463d301ef
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0c149817bb7e8e11a96c6b91c787aa6b73e1f4cecd64fc8ccc840f409a6f1e69
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095844"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300176"
 ---
 # <a name="external-access-policy"></a>Directiva de acceso externo
 

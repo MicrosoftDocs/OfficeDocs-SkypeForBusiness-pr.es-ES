@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Vea cómo seleccionar los idiomas de operador automático de audioconferencia para un número de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: 0a27015fefe8c290f8e122f5d9edf46aa3c8583f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1238cebfa9be1c37e6754234338273738f06e07a8e495631361cb76fdcbc63cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117188"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280645"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Establecer idiomas de operador automático para Audioconferencia en Microsoft Teams
 

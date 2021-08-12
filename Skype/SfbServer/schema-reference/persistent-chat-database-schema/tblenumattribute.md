@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
 description: tblEnumAttribute es una tabla codificada de forma rígida que contiene los atributos Visibility y Behavior que se utilizan en la tabla Node.
-ms.openlocfilehash: 698eda1e6e815ad4de4042312be1738a3a41d1f2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6996c95ca170082ec89ac7d8fd92648b60c933b1fd72515bb7c3974df8cd5e92
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809720"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337590"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
@@ -41,9 +41,9 @@ tblEnumAttribute es una tabla codificada de forma rígida que contiene los atrib
 
 |**attributeID**|**attributeName**|
 |:-----|:-----|
-|1   <br/> |Visibilidad.  <br/> |
-|2   <br/> |Comportamiento.  <br/> |
+|1  <br/> |Visibilidad.  <br/> |
+|2  <br/> |Comportamiento.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [tblNode](tblnode.md)

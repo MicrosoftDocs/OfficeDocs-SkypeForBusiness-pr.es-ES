@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) y los grupos dependientes de este almacén de archivos. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 4fd675b972e1bcbd4e6543773bb2c142a018d560
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0d37bb084f4c25a95b4739e0dd19372b1a20905b2c9430fd360117279a8f9f4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804760"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329704"
 ---
 # <a name="file-store-scope-node"></a>Nodo de ámbito del almacén de archivo
  
