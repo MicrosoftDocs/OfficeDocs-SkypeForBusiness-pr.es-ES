@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37bd749e44c2020d35a927491553662c74bff01f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 0b5aed539e7d32db7650bb1b9778c912d0065b411832337438c251177d88e809
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286069"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>Compruebe la conexión a Internet para Business Voice
 
@@ -81,11 +81,11 @@ Cuando selecciona **Generar informe**, Microsoft 365 u Office 365 crean un infor
 
 ![Detalles del informe de Planeamiento de red](../media/network-planner-report.png)
 
-El número resaltado muestra qué proporción de su conexión a Internet usarán Teams y Business Voice. Se recomienda que este número no supere el 30 por ciento de la velocidad total de conexión a Internet. Por ejemplo, si su conexión a Internet es de 60 Mbps, Teams y Business Voice no deberían usar más de 18 Mbps.
+El número resaltado muestra qué proporción de su conexión a Internet usarán Teams y Business Voice. Se recomienda que este número no supere el 30 por ciento de la velocidad total de conexión a Internet. Por ejemplo, si su conexión a Internet es de 60 Mbps, Teams y Business Voice no deberían usar más de 18 Mbps.
 
 Use esta ecuación para determinar la velocidad mínima de conexión a Internet: *\<highlighted number> / 0,3*. Con el número que está resaltado en la imagen anterior, el cálculo es *4,6875 / 0,3 = 15,6*. En este caso, la velocidad de la conexión a Internet debe ser al menos de 15,6 Mbps.
 
-Si Teams y Business Voice usarán más de un 30 por ciento de la velocidad total de conexión a Internet, el número resaltado aparecerá en rojo. En ese caso, es posible que tenga que actualizar la conexión a Internet.
+Si Teams y Business Voice usarán más de un 30 por ciento de la velocidad total de conexión a Internet, el número resaltado aparecerá en rojo. En ese caso, es posible que tenga que actualizar la conexión a Internet.
 
 ![Advertencia de velocidad de conexión](../media/network-planner-report-speed-warning.png)
 
@@ -106,7 +106,7 @@ La forma más sencilla de comprobar si el firewall permite la comunicación en e
 
    * Si la llamada se conecta y escucha su mensaje, significa que el firewall está configurado correctamente.
    * Si la llamada se conecta pero no puede escuchar las instrucciones o su mensaje, asegúrese de que los altavoces y el micrófono estén configurados correctamente y vuelva a intentarlo.
-   * Si la llamada no se conecta o si lo hace pero no escucha su mensaje, es posible que necesite actualizar el firewall para permitir el acceso a los puertos de red necesarios. Consulte la documentación del firewall o póngase en contacto con un especialista de TI para obtener ayuda.
+   * Si la llamada no se conecta o se conecta, pero no puede escuchar el mensaje, es posible que tenga que actualizar el firewall para permitir el acceso a los puertos de red necesarios. Consulte la documentación del firewall o póngase en contacto con un especialista de TI para obtener ayuda.
 
  Si es un profesional de TI y desea obtener más información sobre cómo preparar redes más grandes o más complejas para que sean compatibles con Business Voice, consulte [Evaluar mi entorno](../3-envision-evaluate-my-environment.md). Este artículo proporciona información sobre los requisitos de ancho de banda, proxy y firewall, y sobre cómo usar la [Herramienta de evaluación de red](../3-envision-evaluate-my-environment.md#test-the-network) para probar la red.
 

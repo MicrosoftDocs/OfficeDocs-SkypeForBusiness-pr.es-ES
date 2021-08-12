@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
-description: Planificación de directivas de ubicación para una implementación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 586aabe919ea4236dc724446da717b5f300d88e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Planeación de directivas de ubicación para una implementación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: b56b3fa2205939b458635d5a461dc4f8d55134cf2703ce1872a2be2141d5d635
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286509"
 ---
 # <a name="assign-location-policy-scope-in-skype-for-business-server"></a>Asignar ámbito de directiva de ubicación en Skype Empresarial Server
  
-Planificación de directivas de ubicación para una implementación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
+Planeación de directivas de ubicación para una implementación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
   
-Al igual que con otras directivas de Skype Empresarial Server, las directivas de ubicación se pueden asignar en varios niveles de ámbito: global, de sitio y de usuario. Sin embargo, el ámbito de las directivas de ubicación de nivel de usuario se comporta de forma un poco diferente que con otras directivas de Skype Empresarial Server. No solo se pueden aplicar directivas de ubicación por usuario a objetos de extremo (como usuarios y objetos de contacto de teléfono de área común), sino que también se pueden aplicar a los sitios de red de Skype Empresarial Server. Los sitios de red son agrupaciones de subredes de clientes asociadas con una ubicación geográfica (pero no es necesario que sean todas las subredes de un sitio central o sitio de sucursal completo). Los clientes conectados a las subredes de un sitio de red escogen automáticamente la directiva de ubicación asignada a dicho sitio de red. Si la directiva de ubicación en el nivel de usuario se asigna tanto a un usuario como a un sitio de red, la directiva de ubicación basada en sitio de la red sustituye a cualquier otra configuración de directiva de usuario.
+Al igual que con otras Skype Empresarial Server, las directivas de ubicación se pueden asignar en varios niveles de ámbito: global, de sitio y de usuario. Sin embargo, el ámbito de las directivas de ubicación de nivel de usuario se comporta de forma un poco diferente que con otras directivas Skype Empresarial Server usuario. No solo se pueden aplicar directivas de ubicación por usuario a objetos de punto de conexión (como usuarios y objetos de contacto Teléfono área común), sino que también se pueden aplicar Skype Empresarial Server sitios de red. Los sitios de red son agrupaciones de subredes de clientes asociadas con una ubicación geográfica (pero no es necesario que sean todas las subredes de un sitio central o sitio de sucursal completo). Los clientes conectados a las subredes de un sitio de red escogen automáticamente la directiva de ubicación asignada a dicho sitio de red. Si la directiva de ubicación en el nivel de usuario se asigna tanto a un usuario como a un sitio de red, la directiva de ubicación basada en sitio de la red sustituye a cualquier otra configuración de directiva de usuario.
   
 Cada sitio de red tiene asignada una directiva de ubicación, y cada directiva tendrá asignados valores diferentes de Uso de RTC, URI de notificación y URI de conferencia.
   

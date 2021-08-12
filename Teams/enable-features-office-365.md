@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
-ms.translationtype: MT
+ms.openlocfilehash: 1e08ad6cb5962c447b3fb42e3ab4aa3c02f50fa1fa6f07e0348714f380b670cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506673"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322582"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 

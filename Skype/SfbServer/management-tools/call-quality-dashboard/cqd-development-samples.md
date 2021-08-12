@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: 'Resumen: revise un tutorial y ejemplos de desarrollo para el Panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 193a03662d6f771b19c57017d909cc6574a755ef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumen: revise un tutorial y ejemplos de desarrollo para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
+ms.openlocfilehash: b0b4811e38d50f871e023757220a2a3f0108be349c55eaf78e39ab243954c5dd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832730"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331298"
 ---
 # <a name="cqd-development-samples"></a>Ejemplos de desarrollo del Panel de calidad de llamadas
 
-**Resumen:** Revise un tutorial y ejemplos de desarrollo para el Panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
+**Resumen:** Revise un tutorial y ejemplos de desarrollo para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
 
 En este artículo se proporciona un tutorial y ejemplos sobre el desarrollo del Panel de calidad de llamadas (CQD).
 
@@ -30,37 +30,37 @@ En este artículo se proporciona un tutorial y ejemplos sobre el desarrollo del 
 
 Tutorial: Creación de una presentación de informes personalizada con las API del servicio de datos de CQD y del servicio de repositorio.
 
-### <a name="introduction-to-cqd"></a>Introducción al CQD
+### <a name="introduction-to-cqd"></a>Introducción a CQD
 
-El CQD ofrece un acceso rápido y fácil a la información de calidad de llamadas agregada para las implementaciones locales de Skype Empresarial Server. El CQD consta de tres componentes: la base de datos de archivo qoE, el cubo y el portal. El portal es la capa de presentación principal y se puede dividir en los tres componentes siguientes:
+CQD ofrece acceso rápido y fácil a la información de calidad de llamadas agregada para implementaciones Skype Empresarial Server locales. CQD consta de tres componentes: la base de datos de archivos qoE, el cubo y el portal. El Portal es la capa de presentación principal y se puede dividir aún más en los tres componentes siguientes:
 
-1. Servicio de datos, que es accesible para los usuarios autenticados a través de la API de datos para el Panel de calidad de llamadas [(CQD) en Skype Empresarial Server.](data-api.md)
+1. Servicio de datos, accesible para usuarios autenticados a través de la API de datos para el Panel de calidad de llamadas [(CQD) en Skype Empresarial Server](data-api.md).
 
-2. Servicio de repositorio, que es accesible para los usuarios autenticados a través de la API de repositorio para el Panel de calidad de llamadas [(CQD) en Skype Empresarial Server.](repository-api.md)
+2. Servicio de repositorio, que es accesible para los usuarios autenticados a través de la API de repositorio para el Panel de calidad de llamadas [(CQD) en Skype Empresarial Server](repository-api.md).
 
-3. Portal web, que es la interfaz basada en HTML5 con la que los usuarios del CQD ven e interactúan. Esto es accesible para los usuarios autenticados.
+3. Portal web, que es la interfaz basada en HTML5 con la que los usuarios de CQD ven e interactúan. Esto es accesible para usuarios autenticados.
 
-Los informes que se muestran en el portal web se agrupan en "conjuntos de informes". La figura muestra un conjunto de informes con dos informes. Cada informe de este panel siguiente muestra los resultados de la consulta sobre el número de llamadas buenas, llamadas deficientes y porcentaje de llamadas deficientes durante varios meses, con varios filtros aplicados. 
+Los informes que se muestran en el portal web se agrupan en "conjuntos de informes". La figura muestra un conjunto de informes con dos informes. Cada informe de este panel siguiente muestra los resultados de la consulta sobre el número de llamadas buenas, llamadas deficientes y un porcentaje de llamadas deficiente durante varios meses, con varios filtros aplicados. 
 
-![Informe de ejemplo de CQD](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
+![Informe de ejemplo CQD](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
-El CQD se crea siguiendo la Metodología de calidad de llamadas (CQM), por lo que el conjunto predeterminado de informes está diseñado para alinearse con el flujo de investigación introducido por CQM. Los usuarios también tienen la flexibilidad de editar o crear informes personalizados para satisfacer sus necesidades. Sin embargo, dado que hay varias formas de visualizar los datos, la visualización proporcionada por el CQD puede no satisfacer completamente las necesidades de cada usuario. En estas situaciones, un usuario puede aprovechar las API de datos y las API de repositorio para crear páginas de informes personalizadas. Vamos a ver una serie de ejemplos en este tutorial.
+CQD se crea siguiendo la metodología de calidad de llamadas (CQM), por lo que el conjunto predeterminado de informes está diseñado para alinearse con el flujo de investigación introducido por CQM. Los usuarios también tienen la flexibilidad de editar o crear informes personalizados para satisfacer sus necesidades. Sin embargo, dado que hay varias formas de visualizar los datos, es posible que la visualización proporcionada por CQD no se alome completamente a las necesidades de cada usuario. En tales situaciones, un usuario puede aprovechar las API de datos y las API de repositorio para crear páginas de informe personalizadas. Vamos a ver una serie de ejemplos en este tutorial.
 
-### <a name="how-the-dashboard-consumes-the-data-service"></a>Cómo usa el panel el servicio de datos
+### <a name="how-the-dashboard-consumes-the-data-service"></a>Cómo el panel consume el servicio de datos
 
-Al navegar a la página principal del CQD (por ejemplo, el conjunto de informes y los informes correspondientes de un usuario autenticado y autorizado se recuperarán del servicio http://localhost/cqd) de repositorio. Se construirá una dirección URL completa a partir del identificador del conjunto de informes y el año-mes (el identificador del conjunto de informes es el número entero después de la sección "/#/" en la dirección URL y, de forma predeterminada, el año-mes actual se anexa al final del identificador del conjunto de informes después de la barra diagonal). Las definiciones de informe se almacenan en formato JSON y, cuando se recuperan del servicio de repositorio, se usarán como entrada para el servicio de datos. El servicio de datos genera consultas de expresiones multi dimension (MDX) basadas en la entrada y, a continuación, ejecuta estas consultas MDX en el cubo para recuperar datos para cada informe. 
+Al navegar a la página principal de CQD (por ejemplo, el conjunto de informes y los informes correspondientes para un usuario autenticado y autorizado se recuperarán del http://localhost/cqd) Servicio de repositorio. Se construirá una dirección URL completa a partir del identificador del conjunto de informes y el año-mes (el identificador del conjunto de informes es el número entero después de la sección "/#/" en la dirección URL y, de forma predeterminada, el año-mes actual se anexa al final del identificador del conjunto de informes después de la barra diagonal). Las definiciones de informe se almacenan en formato JSON y, cuando se recuperan desde el servicio de repositorio, se usarán como entrada en el servicio de datos. El servicio de datos genera consultas de expresiones multi dimension (MDX) basadas en la entrada y, a continuación, ejecuta estas consultas MDX en el cubo para recuperar datos de cada informe. 
 
 ### <a name="building-customized-reports"></a>Creación de informes personalizados
 
-El CQD ya tiene mucha flexibilidad a la hora de personalizar informes, pero puede haber situaciones en las que los usuarios quieran agregar datos en varios informes creados en el CQD. Por ejemplo, podría ser necesario crear un informe que muestre los porcentajes de llamadas deficientes de todas las combinaciones posibles de llamadas cableadas en una tabla (un resultado como la figura):
+CQD ya tiene mucha flexibilidad en la personalización de informes, pero puede haber situaciones en las que los usuarios quieran agregar datos en varios informes creados en CQD. Por ejemplo, podría ser necesario crear un informe que muestre los porcentajes de llamadas deficientes de todas las combinaciones posibles de llamadas cableadas en una tabla (un resultado como la figura):
 
 ![Tabla CQD](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
-Con el Portal proporcionado por el CQD, un usuario tendría que navegar a varios informes para extraer y registrar el porcentaje de llamadas deficientes para cada uno de ellos, lo que puede ser laborioso si hay muchos puntos de datos que deben recopilarse. Las API de datos proporcionan a los usuarios una forma de hacerlo mediante programación, mediante la recuperación de datos del servicio de datos (por ejemplo, a través de llamadas AJAX). 
+Con el Portal proporcionado por CQD, un usuario tendría que navegar a varios informes para extraer y registrar el porcentaje de llamadas deficientes para cada uno, lo que puede ser laborioso si hay muchos puntos de datos que deben recopilarse. Las API de datos proporcionan a los usuarios una forma programática de lograrlo mediante la recuperación de datos del servicio de datos (por ejemplo, a través de llamadas AJAX). 
 
- **Ejemplo 1: ejemplo de informe simple**
+ **Ejemplo 1: Ejemplo de informe simple**
 
-Veamos un ejemplo sencillo en primer lugar. Si queremos mostrar el recuento de secuencias de audio buena y mala de audio de febrero de 2015 en una página HTML como la figura:
+En primer lugar, tomemos un ejemplo sencillo. Si queremos mostrar el recuento de secuencias audio buena y mala de audio de febrero de 2015 en una página HTML como la figura:
 
 ![Informe de ejemplo de CQD](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
@@ -106,9 +106,9 @@ Este ejemplo se puede desconstruir en tres pasos:
 
    b. Cero o más filtros. Cada filtro tiene:
 
-   - DataModelName (la dimensión que tendrá el conjunto de filtros).
+   - DataModelName (dimensión que tendrá el conjunto de filtros).
 
-   - Valor (el valor que comparará el operando).
+   - Value (el valor que comparará el operando).
 
    - Operando (tipo de comparación, 0 significa "Igual").
 
@@ -118,21 +118,21 @@ Este ejemplo se puede desconstruir en tres pasos:
 
    a. url (que debe ser http://[ServerName]/QoEDataService/RunQuery).
 
-   b. (esta es la representación de cadena del objeto JSON definido en la variable 'query'). El servicio de datos devolverá los resultados de la consulta como parámetro de la función de devolución de llamada para que se devuelva correctamente.
+   b. data (esta es la representación de cadena del objeto JSON definido en la variable 'query'). El servicio de datos devolverá los resultados de la consulta como parámetro de la función de devolución de llamada correctamente.
 
-   c. (para QoEDataService, RunQuery solo acepta solicitudes "POST").
+   c. tipo (para QoEDataService, RunQuery solo acepta solicitudes "POST").
 
-   d. asincrónico (una marca que indica si la llamada AJAX debe ser sincrónica o asincrónica).
+   d. async (una marca que indica si la llamada AJAX debe ser sincrónica o asincrónica).
 
    e. contentType (debe ser "application/json").
 
    f. correcto (función de des llamada cuando la llamada AJAX finaliza correctamente).
 
-   g. error (función de control de errores cuando se produce un error en la llamada AJAX).
+   g. error (función de control de errores para cuando se produce un error en la llamada AJAX).
 
-3. Coloque los datos en elementos div en el código HTML (en el ejemplo del código, esto se realiza a través de la llamada de función anónima después de que la solicitud AJAX se complete correctamente).
+3. Coloque los datos en elementos div en el CÓDIGO HTML (en el ejemplo del código, esto se realiza a través de la llamada a la función anónima después de que la solicitud AJAX se haya completado correctamente).
 
-Si se incluye el código JavaScript en una página HTML, la página mostrará un informe como el que se muestra en la figura. El html completo es el siguiente:
+Al encier el código JavaScript en una página HTML, la página mostrará un informe como el que se muestra en la figura. El html completo es el siguiente:
 
 ```javascript
 <!DOCTYPE html>
@@ -191,19 +191,19 @@ Si se incluye el código JavaScript en una página HTML, la página mostrará un
 </html>
 ```
 
-Hasta ahora, el informe sigue siendo muy sencillo. El usuario puede agregar más medidas, dimensiones o filtros para personalizar el informe. Por ejemplo, si quieres mostrar el porcentaje de llamadas deficientes de AppSharing, debe agregarse una nueva medida relativa a AppSharing. Si desea mostrar todas las llamadas TCP v.s. Llamadas UDP, debe agregarse una nueva dimensión en relación con el tipo de transporte. Si desea mostrar el número de llamadas deficientes dentro de un edificio específico, debe agregarse un nuevo filtro para seleccionar las llamadas a y desde ese edificio.
+Hasta ahora, el informe sigue siendo muy sencillo. El usuario puede agregar más medidas, dimensiones o filtros para personalizar el informe. Por ejemplo, si desea mostrar el porcentaje de llamadas deficientes de AppSharing, debe agregarse una nueva medida con respecto a AppSharing. Si desea mostrar todas las llamadas TCP v.s. Llamadas UDP, se debe agregar una nueva dimensión con respecto al tipo de transporte. Si desea mostrar el número de llamadas deficientes dentro de un edificio específico, se debe agregar un nuevo filtro para seleccionar las llamadas a y desde ese edificio.
 
- **Ejemplo 2: ejemplo de definición de informe**
+ **Ejemplo 2: Ejemplo de definición de informe**
 
-Puede ser difícil para alguien averiguar cómo escribir la lista completa de medidas, dimensiones/filtros y sus valores correspondientes al construir una consulta. En este caso, puede ir al Portal, crear un informe con el editor de informes, ver la cadena JSON de la definición del informe y, a continuación, copiar la definición en un informe personalizado. 
+Puede ser difícil para alguien averiguar cómo escribir la lista completa de medidas, dimensiones o filtros y sus valores correspondientes al crear una consulta. En este caso, puede ir al Portal, crear un informe con el editor de informes y ver la cadena JSON de la definición del informe y, a continuación, copiar la definición en un informe personalizado. 
 
 En este ejemplo, crearemos una página web como la que se muestra en la figura donde un usuario puede escribir el identificador de cualquier conjunto de informes existente (o informe) y mostrar la definición del conjunto de informes o informe en la página web. A continuación, el usuario puede conectar la cadena JSON de cada informe en un código similar al que se muestra en el ejemplo 1 y crear cualquier informe personalizado que el usuario desee. 
 
 ![Ejemplo de CQD](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
-Para crear la herramienta visor de definiciones de informes, necesitamos enviar llamadas al servicio de repositorio para recuperar las representaciones de cadena JSON de las definiciones de cada conjunto de informes que queremos. La API de repositorio devolverá la definición del conjunto de informes en función de un identificador de conjunto de informes determinado. 
+Para crear la herramienta visor de definiciones de informe, debemos enviar llamadas al Servicio de repositorio para recuperar las representaciones de cadena JSON de las definiciones de cada conjunto de informes que queremos. La API de repositorio devolverá la definición del conjunto de informes en función de un identificador de conjunto de informes determinado. 
 
-Un ejemplo rápido es el siguiente, el código contiene un bloque que es un ejemplo sencillo para enviar una consulta al servicio repositorio para obtener el contenido de un elemento de repositorio en función de su identificador. Y la siguiente parte del código (método processReportSetData) es enviar llamadas AJAX para obtener la definición de cada informe dentro de ese conjunto de informes. Dado que el identificador del portal web de CQD es el identificador de un conjunto de informes, la llamada AJAX devolverá un elemento del conjunto de informes. Encontrará más información sobre la API de repositorio y, específicamente, GetItems, en [Obtener elementos.](get-items.md) 
+Un ejemplo rápido es el siguiente, el código contiene un bloque que es un ejemplo sencillo para enviar una consulta al servicio repositorio para obtener el contenido de un elemento de repositorio en función de su identificador. Y la siguiente parte del código (método processReportSetData) envía llamadas AJAX para obtener la definición de cada informe dentro de ese conjunto de informes. Dado que el identificador del portal web CQD es el identificador de un conjunto de informes, la llamada AJAX devolverá un elemento de conjunto de informes. Encontrará más detalles en la API de repositorio y, específicamente, GetItems, en [Get Items](get-items.md). 
 
 ```html
 <!DOCTYPE html>
@@ -312,27 +312,27 @@ Un ejemplo rápido es el siguiente, el código contiene un bloque que es un ejem
 </html>
 ```
 
-Lo anterior dará como resultado una página web como la de la figura (sin la definición del informe tras la visita inicial). Obtener el identificador del conjunto de informes del portal CQD (es después del inicio de sesión "/#/" en la dirección URL del portal CQD (por ejemplo, en la primera figura, el identificador del conjunto de informes es 3024) y coloque este identificador del conjunto de informes en la sección de entrada de esta página web. Presione el botón "cargar" y vea la definición completa (medidas, dimensiones, listas de filtros) del conjunto de informes.
+Lo anterior dará como resultado una página web como la de la figura (sin la definición del informe en la visita inicial). Obtenga el identificador del conjunto de informes del portal CQD (es después del inicio de sesión "/#/" en la dirección URL del portal CQD (por ejemplo. en la primera figura, el identificador del conjunto de informes es 3024) y coloque este identificador de conjunto de informes en la sección de entrada de esta página web. Presione el botón "cargar" y vea la definición completa (medidas, dimensiones, listas de filtros) del conjunto de informes.
 
 En resumen, para obtener rápidamente la definición completa de un conjunto de informes o informes. Estos pasos son:
 
-1. Vaya al Portal y use el editor de consultas para personalizar un informe (haga clic en el botón "Editar" situado encima de un informe para editar, agregar, quitar medidas, dimensiones/filtros y, a continuación, guardar el informe).
+1. Vaya al Portal y use el editor de consultas para personalizar un informe (haga clic en el botón "Editar" encima de un informe para editar, agregar, quitar medidas, dimensiones o filtros y, a continuación, guardar el informe).
 
-2. Obtener el identificador del conjunto de informes de la dirección URL (el entero después de la dirección URL de inicio de sesión "/#/").
+2. Obtener el identificador del conjunto de informes de la dirección URL (el entero después de la dirección URL de inicio de sesión de '/#/').
 
-3. Inicie esta página web de definición de informe creada en el ejemplo 2 y escriba el identificador del conjunto de informes y recupere la definición completa de un conjunto de informes (para usarla en llamadas api de datos).
+3. Inicie esta página web de definición de informe creada en el ejemplo 2 y escriba el identificador del conjunto de informes y recupere la definición completa de un conjunto de informes (para usarlo en llamadas a la API de datos).
 
-   **Ejemplo 3: ejemplo de cuadro de mandos**
+   **Ejemplo 3: Ejemplo de cuadro de mandos**
 
-Hora de una tarea más complicada. ¿Qué ocurre si queremos crear una página web como la figura? Es necesario actualizar el ejemplo 1 (con la ayuda de la página web generada en el ejemplo 2 para recuperar la definición completa de cualquier informe) para poder controlar una mayor cantidad de datos.
+Tiempo para una tarea más complicada. ¿Qué sucede si queremos crear una página web como la figura? Debemos actualizar el ejemplo 1 (con la ayuda de la página web generada en el ejemplo 2 para recuperar la definición completa de cualquier informe) para poder controlar una mayor cantidad de datos.
 
 En este caso, necesitamos actualizar la lista de medidas y dimensiones. La forma de averiguar cómo agregar o editar una medida o una dimensión es seguir las instrucciones del ejemplo 2 y recuperar la definición completa del informe, incluidas las listas completas de medidas y dimensiones. Conecte la definición completa del informe en el código de ejemplo. 
 
-Estos son los pasos detallados para ir a la página del cuadro de mandos en la figura del ejemplo proporcionado en el ejemplo 1:
+Estos son los pasos detallados para llegar a la página del cuadro de mandos en la figura del ejemplo proporcionado en el ejemplo 1:
 
 1. Actualizar medidas en la variable "consulta" de  `[Measures].[Audio Good Streams JPDR Count]` y `[Measures].[Audio Poor Streams JPDR Count]` a `[Measures].[AudioPoorJPDRPercentage]` . 
 
-2. Actualice los filtros. Los datos JSON de filtros del ejemplo 1 tienen un filtro, que se establece en la dimensión  `[StartDate].[Month]` . Dado que Filters es una matriz JSON, se pueden agregar dimensiones adicionales a la lista de filtros. Por ejemplo, para obtener el servidor-cliente dentro de llamadas cableadas para el "currentMonth", debemos tener los siguientes filtros:
+2. Actualice los filtros. Los datos JSON de Filters del ejemplo 1 tienen un filtro, que se establece en la dimensión  `[StartDate].[Month]` . Dado que Filters es una matriz JSON, se pueden agregar dimensiones adicionales a la lista de filtros. Por ejemplo, para obtener el cliente-servidor dentro de llamadas cableadas para el "currentMonth", debemos tener los filtros siguientes:
 
    ```javascript
    Filters: [
@@ -349,14 +349,14 @@ Estos son los pasos detallados para ir a la página del cuadro de mandos en la f
    ],
    ```
 
-   Aquí la dimensión  `[Scenarios].[ScenarioPair]` se establece en igual `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` . Se  `[Scenario.][ScenarioPair]` trata de una dimensión especial creada para simplificar la creación de informes. Tiene seis valores correspondientes a `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` . Por lo tanto, en lugar de usar una combinación de 6 filtros para definir un escenario, solo necesitamos usar 1 filtro. En nuestro ejemplo, el valor se traduce en el escenario donde: primero es el servidor, el segundo no es el servidor, el primero está dentro, el segundo está dentro, el primer tipo de conexión está cableado y el segundo tipo de conexión está cableado, que es la definición exacta de  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` "Server-Client-Inside Wired".
+   Aquí la dimensión  `[Scenarios].[ScenarioPair]` se establece en igual `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` . Se  `[Scenario.][ScenarioPair]` trata de una dimensión especial creada para simplificar la creación de informes. Tiene seis valores correspondientes a `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` . Por lo tanto, en lugar de usar una combinación de 6 filtros para definir un escenario, solo necesitamos usar 1 filtro. En nuestro ejemplo, el valor se traduce en el escenario en el que: primero es servidor, segundo no es servidor, primero está dentro, segundo está dentro, el primer tipo de conexión está cableado y el segundo tipo de conexión está cableado, que es la definición exacta de  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` "Servidor-cliente-dentro cableado".
 
-3. Cree un conjunto de filtros por escenario. Cada fila del cuadro de mandos, en la figura, representa un escenario diferente, que será un filtro diferente (mientras que las dimensiones y medidas permanecen iguales). 
+3. Cree un conjunto de filtros por escenario. Cada fila del cuadro de mandos, en la figura, representa un escenario diferente, que será un filtro diferente (mientras que las dimensiones y las medidas permanecen iguales). 
 
-4. Analizar los resultados de las llamadas AJAX y colocarlos en la posición correcta de la tabla. Dado que esto es principalmente manipulación de HTML y JavaScript, no entraremos en los detalles aquí. En su lugar, el código se proporciona en el Apéndice A.
+4. Analice los resultados de las llamadas AJAX y colójalos en la posición correcta de la tabla. Dado que se trata principalmente de manipulación de HTML y JavaScript, no entraremos en los detalles aquí. En su lugar, el código se proporciona en el Apéndice A.
 
     > [!NOTE]
-    >  Si el uso compartido de recursos entre orígenes (CORS) está habilitado, los usuarios pueden encontrar errores como "No hay ningún encabezado "Access-Control-Allow-Origin" en el recurso solicitado. Por lo tanto, no se permite el acceso al origen 'null'". Para resolver el problema, coloque el archivo HTML en la carpeta donde está instalado el Portal (de forma predeterminada, debe ser `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` . A continuación, obtenga acceso al html a través de cualquier explorador con la dirección  `http://<servername>/cqd/<html_file_name>` URL. (La dirección URL predeterminada para el panel CQD local es  `http://<servername>/cqd.` ) 
+    >  Si el uso compartido de recursos entre orígenes (CORS) está habilitado, los usuarios pueden encontrar errores como "Ningún encabezado 'Access-Control-Allow-Origin' está presente en el recurso solicitado. Origin 'null' is therefore not allowed access". Para resolver el problema, coloque el archivo HTML debajo de la carpeta donde está instalado el Portal (de forma predeterminada, debe ser `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` . A continuación, acceda al html a través de cualquier explorador con la dirección URL  `http://<servername>/cqd/<html_file_name>` . (La dirección URL predeterminada del panel CQD local es  `http://<servername>/cqd.` ) 
 
 ### <a name="appendix-a"></a>Apéndice A
 

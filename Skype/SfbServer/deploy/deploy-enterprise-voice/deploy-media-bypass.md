@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Implementar la omisión de medios en Skype Empresarial Server Telefonía IP empresarial. Incluye requisitos previos y lista de comprobación del proceso de implementación.
-ms.openlocfilehash: be29d86dc9e7bd627a83b41d4666eacfcb6d46a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 35b6ec05fe1ca410b51cf9d573e003774904d875182d195d8d221e45be42b9bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097086"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322462"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>Implementar la omisión de medios en Skype Empresarial Server
  
 Implementar la omisión de medios en Skype Empresarial Server Telefonía IP empresarial. Incluye requisitos previos y lista de comprobación del proceso de implementación.
   
-En este tema se supone que ya ha publicado y configurado al menos uno o más servidores de mediación y al menos un punto de puerta de enlace para proporcionar conectividad RTC. Para obtener más información sobre estas tareas, vea [Deploy a Mediation Server in Topology Builder in Skype for Business Server](deploy-a-mediation-server.md) y Define a gateway in [Topology Builder in Skype for Business Server](define-a-gateway.md).
+En este tema se supone que ya ha publicado y configurado al menos uno o más servidores de mediación y al menos un punto de puerta de enlace para proporcionar conectividad RTC. Para obtener más información sobre estas tareas, vea [Deploy a Mediation Server in Topology Builder in Skype Empresarial Server](deploy-a-mediation-server.md) y Define a gateway in [Topology Builder in Skype Empresarial Server](define-a-gateway.md).
   
  Si el sistema del mismo nivel al que se conecta es el SBC de un proveedor de enlace troncal SIP, asegúrese de que el proveedor es un proveedor cualificado y de que el proveedor admite la omisión de medios. Por ejemplo, muchos proveedores de servicios de enlace troncal SIP solo permiten a sus SCN recibir tráfico del servidor de mediación. De ser así, el desvío no debe habilitarse para el tronco en cuestión. Además, no puede habilitar el desvío de medios a menos que la organización revele sus direcciones IP de redes internas al proveedor de servicios de enlace troncal SIP.
   
@@ -48,5 +48,5 @@ En la tabla siguiente se proporciona información general sobre el proceso de im
 |**Fase**|**Pasos**|**Roles**|**Documentación de implementación**|
 |:-----|:-----|:-----|:-----|
 |Configurar troncos para desvío de medios  <br/> |Si aún no lo ha hecho, configure uno o varios troncos para la omisión de medios.  <br/> | Miembro del grupo RTCUniversalServerAdmins o miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator <br/> |[Configurar un tronco con desvío de medios en Skype Empresarial Server](configure-trunk-with-media-bypass.md) <br/> |
-|Configurar la omisión de medios globalmente  <br/> |Configure la omisión de medios para todas las llamadas a la RTC o determinadas llamadas basadas en sitios de red y regiones de red.  <br/> | Miembro del grupo RTCUniversalServerAdmins o miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator <br/> |[Configurar la omisión de medios en Skype Empresarial Server para omitir siempre el servidor de mediación](bypass-the-mediation-server.md) <br/> [Configurar la omisión de medios de configuración global en Skype Empresarial Server para usar información de sitio y región](use-site-and-region-information.md) <br/> |
+|Configurar la omisión de medios globalmente  <br/> |Configure la omisión de medios para todas las llamadas a la RTC o determinadas llamadas basadas en sitios de red y regiones de red.  <br/> | Miembro del grupo RTCUniversalServerAdmins o miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator <br/> |[Configurar la omisión de medios Skype Empresarial Server para omitir siempre el servidor de mediación](bypass-the-mediation-server.md) <br/> [Configurar la omisión de medios de configuración global Skype Empresarial Server para usar información de sitio y región](use-site-and-region-information.md) <br/> |
 |Asociar subredes con sitios de red, si es necesario  <br/> |Si configura la omisión de medios para usar información de sitio y región, debe asociar las subredes de la implementación con sitios y regiones de red (si aún no lo ha hecho para otra característica de voz).  <br/> | Miembro del grupo RTCUniversalServerAdmins o miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator <br/> |[Asociar una subred a un sitio de red](deploy-network.md#BKMK_AssociateSubnets) <br/> |

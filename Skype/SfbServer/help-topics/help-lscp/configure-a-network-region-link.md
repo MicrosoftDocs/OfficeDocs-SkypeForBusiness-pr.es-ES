@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 850bbd648e85f17417e6f2fb3e3106301ed79a5b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e99021381d843bb953e2df8771682c2bab531fef9ecacc97b60046b38488bdc1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122601"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331584"
 ---
 # <a name="configure-a-network-region-link"></a>Configurar un vínculo de región de red
 
@@ -28,4 +28,4 @@ ms.locfileid: "51122601"
 
 - [Configuración de vínculos de regiones de red](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-network-region-links)
 
-Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype Empresarial Server 2015](../../manage/manage.md).

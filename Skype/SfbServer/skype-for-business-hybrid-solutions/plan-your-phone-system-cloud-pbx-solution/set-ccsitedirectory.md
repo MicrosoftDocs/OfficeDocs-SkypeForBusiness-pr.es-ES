@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
-description: El cmdlet Set-CcSiteDirectory establece el directorio donde se almacenarán los archivos de configuración de nivel de sitio para Skype Empresarial Cloud Connector Edition. La carpeta contendrá el VHD base y los archivos de configuración de Cloud Connector.
-ms.openlocfilehash: 1e66c735e888fe9d5701b8f71baf462ec449acd4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: El cmdlet Set-CcSiteDirectory establece el directorio donde se almacenarán los archivos de configuración de nivel Skype for Business Edición de conector de nube sitio. La carpeta contendrá los archivos de configuración de VHD base y Cloud Connector.
+ms.openlocfilehash: 9642c91e811e62b08f2b0e219b5eaa7b9ac7359fcdb6114c028735851280da59
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286249"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
-El cmdlet Set-CcSiteDirectory establece el directorio donde se almacenarán los archivos de configuración de nivel de sitio para Skype Empresarial Cloud Connector Edition. La carpeta contendrá el VHD base y los archivos de configuración de Cloud Connector.
+El cmdlet Set-CcSiteDirectory establece el directorio donde se almacenarán los archivos de configuración de nivel Skype for Business Edición de conector de nube sitio. La carpeta contendrá los archivos de configuración de VHD base y Cloud Connector.
   
-Este cmdlet se aplica a Skype Empresarial Cloud Connector Edition 1.4.1, 1.4.2.
+Este cmdlet se aplica a Skype for Business Edición de conector de nube 1.4.1, 1.4.2.
   
 ```powershell
 Set-CcSiteDirectory [[-Path] <string>]
@@ -44,28 +44,28 @@ Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-Para proporcionar afinidad de puerta de enlace y alta disponibilidad, los dispositivos de Cloud Connector se pueden combinar en sitios. Los usuarios se asignan a sitios en lugar de dispositivos de Cloud Connector. Cada sitio tiene una carpeta compartida donde se almacenan los archivos base de instalación de VHD y Cloud Connector. Los dispositivos usan esta carpeta durante la implementación. Esta carpeta debe compartirse con todos los demás dispositivos de un sitio de Cloud Connector.
+Para proporcionar afinidad de puerta de enlace y alta disponibilidad, los dispositivos de Cloud Connector se pueden combinar en sitios. Los usuarios se asignan a sitios en lugar de dispositivos de Cloud Connector. Cada sitio tiene una carpeta compartida donde se almacenan los archivos de instalación de VHD base y Cloud Connector. Los dispositivos usan esta carpeta durante la implementación. Esta carpeta debe compartirse con el resto de dispositivos de un sitio de Cloud Connector.
   
-La carpeta predeterminada es C:\Users \% userprofile%\CloudConnector\SiteRoot. La ruta de acceso se puede ver con el cmdlet Get-CcSiteDirectory búsqueda.
+La carpeta predeterminada es C:\Users \% userprofile%\CloudConnector\SiteRoot. La ruta de acceso se puede ver mediante el cmdlet Get-CcSiteDirectory.
   
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>
 
 |**Parámetro**|**Required**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| Path <br/> | Obligatorio <br/> | System.String <br/> |Proporciona la ruta de acceso a la carpeta donde se almacenarán los archivos del sitio de Cloud Connector.  <br/> |
+| Path <br/> | Obligatorio <br/> | System.String <br/> |Proporciona la ruta de acceso a la carpeta donde se almacenarán los archivos de sitio de Cloud Connector.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguno. El Set-CcSiteDirectory no acepta entradas canalizadas.
+Ninguno. El cmdlet Set-CcSiteDirectory no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
 
 Ninguno
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
 [Get-CcSiteDirectory](get-ccsitedirectory.md)

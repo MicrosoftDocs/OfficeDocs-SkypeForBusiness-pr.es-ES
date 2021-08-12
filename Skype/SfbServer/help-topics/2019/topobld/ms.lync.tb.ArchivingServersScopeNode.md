@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
-description: En el Generador de topologías, puede realizar tareas relacionadas con un servidor de archivado individual haciendo clic con el botón secundario en el servidor de archivado del árbol de consola, haciendo clic en Acción en la barra de herramientas, o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en la siguiente opción del servidor de archivado.
-ms.openlocfilehash: 415456751b4ec553b63201ce547fff39e5663808
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: En el Generador de topologías, puede realizar tareas relacionadas con un servidor de archivado individual haciendo clic con el botón secundario en el servidor de archivado del árbol de consola, haciendo clic en Acción en la barra de herramientas o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en la siguiente opción servidor de archivado.
+ms.openlocfilehash: 36a174164857ba11cd938ff49f171a74df6ddcea75052c49c75ef0536365304c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811510"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298540"
 ---
 # <a name="archiving-servers-scope-node"></a>Nodo de ámbito de servidores de archivado
  
-En el Generador de topologías, puede realizar tareas relacionadas con  un servidor de archivado  individual haciendo clic con el botón secundario en el servidor de archivado del árbol de consola, haciendo clic en Acción en la barra de herramientas, o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en la siguiente opción del servidor de archivado.
+En el Generador de topologías, puede realizar tareas relacionadas con  un servidor de archivado  individual haciendo clic con el botón secundario en el servidor de archivado del árbol de consola, haciendo clic en Acción en la barra de herramientas o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en la siguiente opción servidor de archivado.
   
 - **Nuevo servidor de archivado**. Inicia el Asistente para **definir nuevo servidor de archivado**; en él, se especifican las opciones de configuración de un nuevo servidor de archivado, por ejemplo el nombre de dominio completo (FQDN), la base de datos SQL Server de archivado, el almacén de archivos de archivado y la asociación de grupos se servidores.
     

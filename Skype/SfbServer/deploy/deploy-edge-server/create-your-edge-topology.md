@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Resumen: obtenga información sobre cómo crear, publicar y exportar la topología del servidor perimetral en Skype Empresarial Server.'
-ms.openlocfilehash: 8dff318b5d198eb1e8d59ef465bf648125f31327
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: da0ec9709f53e22122a911015e94484fc673c6741ba5122fa796e7dded0105b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804400"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322472"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Crear la topología perimetral para Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo crear, publicar y exportar la topología del servidor perimetral en Skype Empresarial Server.
   
-Topology Builder es la herramienta que necesita usar para crear la topología del servidor perimetral, tal como se usa para cualquier componente de topología para Skype Empresarial Server. Antes de seguir los pasos siguientes, deberá haber configurado al menos un grupo de servidores front-end o un servidor Standard Edition.
+Topology Builder es la herramienta que necesita usar para crear la topología del servidor perimetral, tal como se usa para cualquier componente de topología para Skype Empresarial Server. Antes de seguir los pasos siguientes, deberá haber configurado al menos un grupo de servidores front-end o un Standard Edition servidor.
   
 Tratamos los siguientes temas de este artículo:
   
@@ -37,7 +37,7 @@ Tratamos los siguientes temas de este artículo:
 - Exportar la topología del servidor perimetral
     
   > [!NOTE]
-  > Para seguir los pasos siguientes, tendrá que iniciar sesión en los servidores de dominio mencionados a continuación como un usuario miembro de los siguientes grupos de dominio: 
+  > Para seguir los pasos siguientes, tendrá que iniciar sesión en los servidores de dominio mencionados a continuación como un usuario que sea miembro de los siguientes grupos de dominios: 
   
 - RTCUniversalServerAdmins
     
@@ -45,37 +45,37 @@ Tratamos los siguientes temas de este artículo:
     
 ## <a name="build-your-edge-server-topology"></a>Crear la topología del servidor perimetral
 
-El primer paso de implementación consiste en crear la topología del servidor perimetral de Skype Empresarial Server, que consta de una de las tres opciones siguientes:
+El primer paso de implementación es crear la topología Skype Empresarial Server servidor perimetral, que consta de una de tres opciones:
   
 - Un único servidor perimetral
     
 - Un grupo de servidores perimetrales con equilibrio de carga DNS (uno o más servidores)
     
-- Un grupo de servidores perimetrales con equilibrio de carga de hardware (uno o más servidores)
+- Un grupo perimetral equilibrado de carga de hardware (uno o más servidores)
     
-Si no está seguro de lo que necesita, antes de empezar a seguir estos pasos, es un buen momento para ver la documentación de planeación. De lo contrario, empecemos.
+Si no está seguro de lo que necesita, antes de empezar a seguir estos pasos, es un buen momento para rebaúr la documentación de planeación. De lo contrario, empecemos.
   
-### <a name="defining-the-topology-for-a-single-edge-server"></a>Definición de la topología para un único servidor perimetral
+### <a name="defining-the-topology-for-a-single-edge-server"></a>Definición de la topología de un solo servidor perimetral
 
-1. Inicie sesión en el servidor Standard Edition de Skype Empresarial Server o en un grupo de servidores front-end de Skype Empresarial Server.
+1. Inicie sesión en el Skype Empresarial Server Standard Edition o en un grupo Skype Empresarial Server front-end.
     
-2. Una vez allí, abra el Generador de **topologías de Skype Empresarial Server.**
+2. Una vez allí, **abra Skype Empresarial Server Generador de topologías**.
     
 3. En el árbol de consola, expanda el sitio en el que va a implementar el servidor perimetral.
     
-4. Haga clic con el botón **secundario en Grupos de servidores perimetrales** y, a continuación, haga clic en Nuevo grupo de servidores **perimetrales.**
+4. Haga clic con el botón secundario en **Grupos perimetrales** y, a continuación, haga clic **en Nuevo grupo de servidores perimetrales.**
     
-5. Haga clic en **Siguiente en** la pantalla Definir nuevo grupo de **servidores perimetrales.**
+5. Haga clic en **Siguiente en** la pantalla Definir nuevo grupo **de servidores** perimetrales.
     
-6. En la pantalla Definir el **FQDN** del grupo de servidores perimetrales, escriba el nombre de dominio completo  (FQDN) interno que va a usar el servidor perimetral y seleccione Grupo de servidores de un solo equipo haciendo clic en Siguiente cuando haya terminado.
+6. En la pantalla Definir **el FQDN** del grupo de servidores perimetrales, escriba el nombre de dominio completo  (FQDN) interno que va a usar el servidor perimetral y seleccione Grupo de servidores de un solo **equipo,** haciendo clic en Siguiente cuando haya terminado.
     
-7. En la **pantalla Seleccionar** características, puede elegir:
+7. En la **pantalla Seleccionar características,** tienes una opción:
     
-   - Es posible que tenga la intención de usar el mismo FQDN y dirección IP para el servicio de acceso SIP, el servicio de conferencia web de Skype Empresarial Server y el servicio perimetral A/V. Si es así, debe seleccionar la casilla Usar un **solo FQDN** y dirección IP (y tenga esto en cuenta para el paso 9 a continuación)
+   - Es posible que tenga la intención de usar el mismo FQDN y dirección IP para el servicio de acceso SIP, el servicio de conferencia web de Skype Empresarial Server y el servicio perimetral A/V. Si es así, debe elegir la casilla Usar un **solo FQDN** y dirección IP (y tenga esto en cuenta para el paso 9 siguiente)
     
-   - Si tiene previsto habilitar la federación, seleccione la casilla Habilitar federación para este grupo de servidores perimetrales **(puerto 5061).**
+   - Si planea habilitar la federación, seleccione la casilla Habilitar federación para este grupo de servidores perimetrales **(puerto 5061).**
     
-8. Una vez que haya hecho clic en **Siguiente,** se encontrará en la pantalla **Opciones de IP.** Las opciones son las siguientes:
+8. Una vez que hayas hecho clic en **Siguiente,** te encontrarás en la pantalla **Opciones de IP.** Las opciones son las siguientes:
     
    - Habilitar IPv4 en la interfaz interna
     
@@ -85,59 +85,59 @@ Si no está seguro de lo que necesita, antes de empezar a seguir estos pasos, es
     
    - Habilitar IPv6 en la interfaz externa
     
-   Estas son bastante fáciles de explicar, tanto si usa direcciones IPv4 o IPv6 como si las está aplicando en el servidor perimetral interna o externamente (tendrá que tener esto en cuenta en el paso 10). También tiene la opción de configurar el servidor perimetral o el grupo de servidores perimetrales para usar una dirección de traducción de direcciones de red (NAT) para la dirección IP externa. Para ello, seleccione la dirección IP externa de este grupo de servidores perimetrales mediante la casilla **NAT.** Haga **clic en Siguiente** cuando esté listo.
+   Estas son bastante explicativas, ya sea que estés usando direcciones IPv4 o IPv6 y estés aplicando esas direcciones en el servidor perimetral de forma interna o externa (tendrás que tener esto en cuenta para el paso 10). También tiene la opción de configurar el servidor perimetral o el grupo de servidores perimetrales para usar una dirección de traducción de direcciones de red (NAT) para la dirección IP externa. Para ello, seleccione la casilla de verificación La dirección IP externa de este grupo de servidores perimetrales se traduce mediante **NAT.** Haga **clic en Siguiente** cuando esté listo.
     
 9. En la pantalla FQDN externos, las opciones dependen de la selección realizada en el paso 7 anterior.
     
-   - Si ha activado la casilla **Usar un solo FQDN** y una dirección IP, debe escribir el FQDN externo único en el cuadro acceso **SIP.** A continuación, tendrá que escribir números de puerto diferentes para cada servicio perimetral para permitir que todos se conecten de forma independiente. Se recomienda 5061 para el servicio perimetral de acceso **SIP,** 444 para el servicio perimetral de conferencia **web** y 443 para el servicio perimetral **A/V.** Seleccione **Siguiente** cuando termine.
+   - Si ha activado la casilla Usar un **solo FQDN** y dirección IP, debe escribir el FQDN externo único en el cuadro **Acceso SIP.** A continuación, deberá escribir números de puerto diferentes para cada servicio perimetral para permitir que todos se conecten de forma independiente. Se recomienda 5061 para el servicio perimetral de acceso **SIP,** 444 para el servicio perimetral de conferencia **web** y 443 para el servicio perimetral **A/V.** Seleccione **Siguiente** cuando termine.
     
-   - Si no ha marcado la casilla Usar un **solo FQDN** y dirección IP, ahora tendrá que escribir los tres FQDN externos para el servicio perimetral de acceso **SIP,** el servicio perimetral de conferencia **web** y el servicio perimetral **A/V.** Seleccione **Siguiente** cuando termine.
+   - Si no ha marcado la casilla Usar un solo FQDN y dirección **IP,** ahora deberá escribir los tres FQDN externos para el servicio perimetral de acceso **SIP,** el servicio perimetral de conferencia **web** y el servicio perimetral **A/V.** Seleccione **Siguiente** cuando termine.
     
-10. Ahora está en la pantalla Definir **la dirección IP** interna. Aquí escribirá la dirección IP del servidor perimetral en los cuadros de texto Dirección **IPv4** interna e **IPv6** interna, en función de las elecciones que realizó en el paso 8. Haga **clic en Siguiente** cuando esté listo.
+10. Ahora está en la pantalla **Definir la dirección IP** interna. Aquí escribirá la dirección IP del servidor perimetral en los cuadros de texto Dirección **IPv4** interna y Dirección **IPv6** interna, en función de las opciones que ha tomado en el paso 8. Haga **clic en Siguiente** cuando esté listo.
     
-11. En la **pantalla Definir la dirección IP externa,** tiene algunas opciones en función de las opciones anteriores:
+11. En la **pantalla Definir la dirección IP externa,** tiene algunas opciones según las opciones anteriores:
     
-    - Puede que esté usando un solo FQDN para todos los servicios. Si es así, escriba su dirección IPv4 o IPv6 externa (lo que use) en el cuadro de texto **Acceso SIP** y, a continuación, haga clic en **Siguiente**.
+    - Puede que esté usando un solo FQDN para todos los servicios. Si es así, escriba la dirección IPv4 o IPv6 externa (independientemente de lo que use) en el cuadro de texto **Acceso SIP** y, a continuación, haga clic en **Siguiente**.
     
-    - Puede que haya elegido usar tres FQDN y direcciones IP independientes para los servicios. Si ese es el caso, escriba las direcciones IPv4 o IPv6 externas para el servicio perimetral de acceso **SIP,** el servicio perimetral de conferencia **web** y el servicio perimetral **A/V** y, a continuación, haga clic en **Siguiente.**
-    
-    > [!NOTE]
-    > Si no ha elegido previamente habilitar y asignar direcciones IPv6, no verá este cuadro de diálogo. Eso es normal, solo tienes que ir al paso siguiente. 
-  
-12. Si decidió volver a usar NAT en el paso 8, ahora verá una pantalla con un cuadro de texto **de dirección IP** pública. Deberá escribir la dirección IPv4 o IPv6 pública que haya establecido para el servicio perimetral A/V, para que NAT la traduzca. A continuación, haga clic en **Siguiente**.
-    
-13. La siguiente pantalla es **Definir el próximo salto.** En el **cuadro Grupo de servidores del** próximo salto, seleccione el nombre del grupo interno, que puede ser un grupo de servidores front-end o un grupo independiente. Si tiene un director en su entorno, debe elegir el director. A continuación, haga clic en **Siguiente**.
-    
-14. En la **pantalla** Asociar grupos de servidores front-end, deberá especificar uno o más grupos de servidores internos, incluidos los grupos de servidores front-end y los servidores Standard Edition, para asociar con este servidor perimetral. Solo tiene que elegir los nombres de los grupos de servidores internos que desee usar este servidor perimetral para comunicarse con usuarios externos compatibles. Haga clic en **Siguiente**.
+    - Es posible que haya elegido usar tres FQDN y direcciones IP independientes para los servicios. Si ese es el caso, escriba las direcciones IPv4 o IPv6 externas para el servicio perimetral de acceso **SIP,** el servicio perimetral de conferencia **web** y el servicio perimetral **A/V** y, a continuación, haga clic en **Siguiente**.
     
     > [!NOTE]
-    > Algo que se debe tener en cuenta aquí es que, si los grupos de servidores internos o los servidores independientes ya usan un servidor perimetral de Skype Empresarial Server diferente, no pueden tener varias asociaciones. Si elige un grupo de servidores interno o un servidor independiente que se encuentra en esa situación, verá una advertencia que le indica sobre el otro servidor perimetral y puede decidir si desea continuar o no. Si continúa con esta nueva asociación, se detendrá la conexión con el otro servidor perimetral. 
+    > Si no ha elegido anteriormente habilitar y asignar direcciones IPv6, no verá este cuadro de diálogo. Eso es normal, simplemente vaya al paso siguiente. 
   
-15. Haga **clic en Finalizar** en la siguiente pantalla.
+12. Si optó por volver a usar NAT en el paso 8, ahora tendrá una pantalla con un cuadro de texto **dirección IP** pública. Deberá escribir la dirección IPv4 o IPv6 pública que haya establecido para el servicio perimetral A/V, que NAT traducirá. A continuación, haga clic en **Siguiente**.
     
-16. Ahora podrá publicar esta tecnología actualizada y seguir las instrucciones de Implementar servidores perimetrales en Skype Empresarial [Server](deploy-edge-servers.md) para implementar en el servidor perimetral desde aquí.
+13. La siguiente pantalla hacia arriba **es Definir el próximo salto**. En el **cuadro Grupo de servidores de próximo** salto, seleccione el nombre del grupo interno, que puede ser un grupo de servidores front-end o un grupo independiente. Si tiene un director en su entorno, debe elegir el director. A continuación, haga clic en **Siguiente**.
     
-### <a name="defining-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>Definición de la topología para un grupo de servidores perimetrales con equilibrio de carga DNS
+14. En la **pantalla** Asociar grupos de servidores front-end, deberá especificar uno o varios grupos de servidores internos, incluidos los grupos de servidores front-end y los servidores Standard Edition, para asociarlo con este servidor perimetral. Simplemente elija los nombres de los grupos de servidores internos que desea usar este servidor perimetral para comunicarse con usuarios externos compatibles. Haga clic en **Siguiente**.
+    
+    > [!NOTE]
+    > Algo que hay que tener en cuenta aquí es que, si los grupos de servidores internos o los servidores independientes ya usan un servidor perimetral Skype Empresarial Server, no pueden tener varias asociaciones. Si elige un grupo interno o un servidor independiente que se encuentra en esa situación, verá una advertencia que le avisará sobre el otro servidor perimetral y podrá decidir si desea continuar o no. Si continúa con esta nueva asociación, se detendrá la conexión con el otro servidor perimetral. 
+  
+15. Haga **clic en** Finalizar en la siguiente pantalla.
+    
+16. Ahora podrá publicar esta tecnología actualizada y seguir las instrucciones de Implementar servidores perimetrales en [Skype Empresarial Server](deploy-edge-servers.md) implementar en el servidor perimetral desde aquí.
+    
+### <a name="defining-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>Definición de la topología de un grupo de servidores perimetrales con equilibrio de carga DNS
 
-1. Inicie sesión en el servidor Standard Edition de Skype Empresarial Server o en un servidor front-end de Skype Empresarial Server.
+1. Inicie sesión en el Skype Empresarial Server Standard Edition o en un Skype Empresarial Server front-end.
     
-2. Una vez allí, abra el Generador de **topologías de Skype Empresarial Server.**
+2. Una vez allí, **abra Skype Empresarial Server Generador de topologías**.
     
 3. En el árbol de consola, expanda el sitio en el que va a implementar el servidor perimetral.
     
-4. Haga clic con el botón **secundario en Grupos de servidores perimetrales** y, a continuación, haga clic en Nuevo grupo de servidores **perimetrales.**
+4. Haga clic con el botón secundario en **Grupos perimetrales** y, a continuación, haga clic **en Nuevo grupo de servidores perimetrales.**
     
-5. Haga clic en **Siguiente en** la pantalla Definir nuevo grupo de **servidores perimetrales.**
+5. Haga clic en **Siguiente en** la pantalla Definir nuevo grupo **de servidores** perimetrales.
     
-6. En la pantalla Definir el **FQDN** del grupo de servidores perimetrales, escriba el nombre de dominio completo  (FQDN) interno que va a usar el grupo de servidores perimetrales y seleccione Grupo de varios equipos haciendo clic en Siguiente cuando haya terminado.
+6. En la pantalla Definir **el FQDN** del grupo de servidores perimetrales, escriba el nombre de dominio completo  (FQDN) interno que va a usar el grupo de servidores perimetrales y seleccione Grupo de servidores de varios **equipos,** haciendo clic en Siguiente cuando haya terminado.
     
-7. En la **pantalla Seleccionar** características, puede elegir:
+7. En la **pantalla Seleccionar características,** tienes una opción:
     
-    - Es posible que tenga la intención de usar el mismo FQDN y dirección IP para el servicio de acceso SIP, el servicio de conferencia web de Skype Empresarial Server y el servicio perimetral A/V. Si es así, debe seleccionar la casilla Usar un **solo FQDN** y dirección IP (y tenga esto en cuenta para el paso 9 a continuación)
+    - Es posible que tenga la intención de usar el mismo FQDN y dirección IP para el servicio de acceso SIP, el servicio de conferencia web de Skype Empresarial Server y el servicio perimetral A/V. Si es así, debe elegir la casilla Usar un **solo FQDN** y dirección IP (y tenga esto en cuenta para el paso 9 siguiente)
     
-    - Si tiene previsto habilitar la federación, seleccione la casilla Habilitar federación para este grupo de servidores perimetrales **(puerto 5061).**
+    - Si planea habilitar la federación, seleccione la casilla Habilitar federación para este grupo de servidores perimetrales **(puerto 5061).**
     
-8. Una vez que haya hecho clic en **Siguiente,** se encontrará en la pantalla **Opciones de IP.** Las opciones son las siguientes:
+8. Una vez que hayas hecho clic en **Siguiente,** te encontrarás en la pantalla **Opciones de IP.** Las opciones son las siguientes:
     
     - Habilitar IPv4 en la interfaz interna
     
@@ -147,65 +147,65 @@ Si no está seguro de lo que necesita, antes de empezar a seguir estos pasos, es
     
    - Habilitar IPv6 en la interfaz externa
     
-     Estas son bastante fáciles de explicar, tanto si usa direcciones IPv4 o IPv6 como si las está aplicando en el servidor perimetral interna o externamente (tendrá que tener esto en cuenta en el paso 11). También tiene la opción de configurar el servidor perimetral o el grupo de servidores perimetrales para usar una dirección de traducción de direcciones de red (NAT) para la dirección IP externa. Para ello, seleccione la dirección IP externa de este grupo de servidores perimetrales mediante la casilla **NAT.** Haga **clic en Siguiente** cuando esté listo.
+     Estas son bastante explicativas, ya sea que estés usando direcciones IPv4 o IPv6 y estés aplicando esas direcciones en el servidor perimetral de forma interna o externa (tendrás que tener esto en cuenta para el paso 11). También tiene la opción de configurar el servidor perimetral o el grupo de servidores perimetrales para usar una dirección de traducción de direcciones de red (NAT) para la dirección IP externa. Para ello, seleccione la casilla de verificación La dirección IP externa de este grupo de servidores perimetrales se traduce mediante **NAT.** Haga **clic en Siguiente** cuando esté listo.
     
 9. En la pantalla FQDN externos, las opciones dependen de la selección realizada en el paso 7 anterior.
     
-   - Si ha activado la casilla **Usar un solo FQDN** y una dirección IP, debe escribir el FQDN externo único en el cuadro acceso **SIP.** A continuación, tendrá que escribir números de puerto diferentes para cada servicio perimetral para permitir que todos se conecten de forma independiente. Se recomienda 5061 para el servicio perimetral de acceso **SIP,** 444 para el servicio perimetral de conferencia **web** y 443 para el servicio perimetral **A/V.** Seleccione **Siguiente** cuando termine.
+   - Si ha activado la casilla Usar un **solo FQDN** y dirección IP, debe escribir el FQDN externo único en el cuadro **Acceso SIP.** A continuación, deberá escribir números de puerto diferentes para cada servicio perimetral para permitir que todos se conecten de forma independiente. Se recomienda 5061 para el servicio perimetral de acceso **SIP,** 444 para el servicio perimetral de conferencia **web** y 443 para el servicio perimetral **A/V.** Seleccione **Siguiente** cuando termine.
     
-   - Si no ha marcado la casilla Usar un **solo FQDN** y dirección IP, ahora tendrá que escribir los tres FQDN externos para el servicio perimetral de acceso **SIP,** el servicio perimetral de conferencia **web** y el servicio perimetral **A/V.** Seleccione **Siguiente** cuando termine.
+   - Si no ha marcado la casilla Usar un solo FQDN y dirección **IP,** ahora deberá escribir los tres FQDN externos para el servicio perimetral de acceso **SIP,** el servicio perimetral de conferencia **web** y el servicio perimetral **A/V.** Seleccione **Siguiente** cuando termine.
     
-10. Ahora has llegado a Definir los **equipos en la pantalla de este** grupo de servidores. Haga clic en el botón **Agregar**.
+10. Ahora has llegado a la **pantalla Definir los equipos de este** grupo de servidores. Haga clic en el botón **Agregar**.
     
-11. Ahora está en la pantalla Definir **la dirección IP** interna. Aquí escribirá la dirección IP del servidor perimetral en los cuadros de texto Dirección **IPv4** interna e **IPv6** interna, en función de las elecciones que realizó en el paso 8. Haga **clic en Siguiente** cuando esté listo.
+11. Ahora está en la pantalla **Definir la dirección IP** interna. Aquí escribirá la dirección IP del servidor perimetral en los cuadros de texto Dirección **IPv4** interna y Dirección **IPv6** interna, en función de las opciones que ha tomado en el paso 8. Haga **clic en Siguiente** cuando esté listo.
     
-12. En la **pantalla Definir la dirección IP externa,** tiene algunas opciones en función de las opciones anteriores:
+12. En la **pantalla Definir la dirección IP externa,** tiene algunas opciones según las opciones anteriores:
     
-    - Puede que esté usando un solo FQDN para todos los servicios. Si es así, escriba su dirección IPv4 o IPv6 externa (lo que use) en el cuadro de texto **Acceso SIP** y, a continuación, haga clic en **Siguiente**.
+    - Puede que esté usando un solo FQDN para todos los servicios. Si es así, escriba la dirección IPv4 o IPv6 externa (independientemente de lo que use) en el cuadro de texto **Acceso SIP** y, a continuación, haga clic en **Siguiente**.
     
-    - Puede que haya elegido usar tres FQDN y direcciones IP independientes para los servicios. Si ese es el caso, escriba las direcciones IPv4 o IPv6 externas para el servicio perimetral de acceso **SIP,** el servicio perimetral de conferencia **web** y el servicio perimetral **A/V** y, a continuación, haga clic en **Siguiente.**
-    
-    > [!NOTE]
-    > Si no ha elegido previamente habilitar y asignar direcciones IPv6, no verá este cuadro de diálogo. Eso es normal, solo tienes que ir al paso siguiente. 
-  
-13. Haga clic en **Finalizar**. El servidor perimetral que acaba de crear debería aparecer ahora en el cuadro de diálogo Definir **los equipos de este** grupo de servidores.
-    
-14. Mientras se  encuentra en la pantalla Definir  los equipos de este grupo de servidores, haga clic en el botón Agregar de nuevo y repita los pasos del 11 al 13 hasta que haya agregado todos los servidores perimetrales que desea tener en este grupo de servidores. Cuando finalice, haga clic en **Siguiente**.
-    
-15. Si decidió volver a usar NAT en el paso 8, ahora verá una pantalla con un cuadro de texto **de dirección IP** pública. Deberá escribir la dirección IPv4 o IPv6 pública que haya establecido para el servicio perimetral A/V, para que NAT la traduzca. A continuación, haga clic en **Siguiente**.
-    
-16. La siguiente pantalla es **Definir el próximo salto.** En el **cuadro Grupo de servidores del** próximo salto, seleccione el nombre del grupo interno, que puede ser un grupo de servidores front-end o un grupo independiente. Si tiene un director en su entorno, debe elegir el director. A continuación, haga clic en **Siguiente**.
-    
-17. En la **pantalla** Asociar grupos de servidores front-end, deberá especificar uno o más grupos de servidores internos, incluidos los grupos de servidores front-end y los grupos de servidores Standard Edition, para asociarlo a este servidor perimetral. Solo tiene que elegir los nombres de los grupos de servidores internos que desee usar este servidor perimetral para comunicarse con usuarios externos compatibles. Haga clic en **Siguiente**.
+    - Es posible que haya elegido usar tres FQDN y direcciones IP independientes para los servicios. Si ese es el caso, escriba las direcciones IPv4 o IPv6 externas para el servicio perimetral de acceso **SIP,** el servicio perimetral de conferencia **web** y el servicio perimetral **A/V** y, a continuación, haga clic en **Siguiente**.
     
     > [!NOTE]
-    > Algo que se debe tener en cuenta aquí es que, si los grupos de servidores internos o los servidores independientes ya usan un servidor perimetral de Skype Empresarial Server diferente, no pueden tener varias asociaciones. Si elige un grupo de servidores interno o un servidor independiente que se encuentra en esa situación, verá una advertencia que le indica sobre el otro servidor perimetral y puede decidir si desea continuar o no. Si continúa con esta nueva asociación, se detendrá la conexión con el otro servidor perimetral. 
+    > Si no ha elegido anteriormente habilitar y asignar direcciones IPv6, no verá este cuadro de diálogo. Eso es normal, simplemente vaya al paso siguiente. 
   
-18. Haga **clic en Finalizar** en la siguiente pantalla.
+13. Haga clic en **Finalizar**. El servidor perimetral que acaba de crear debería aparecer en el cuadro de diálogo **Definir los equipos de este** grupo de servidores.
     
-19. Ahora podrá publicar esta tecnología actualizada y seguir las instrucciones de Implementar servidores perimetrales en Skype Empresarial [Server](deploy-edge-servers.md) para implementar en el servidor perimetral desde aquí.
+14. Mientras sigue  en la pantalla Definir los  equipos de este grupo de servidores, haga clic de nuevo en el botón Agregar y repita los pasos del 11 al 13 hasta que haya agregado todos los servidores perimetrales que desea tener en este grupo de servidores. Cuando se complete, haga clic en **Siguiente**.
     
-### <a name="defining-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>Definición de la topología para un grupo de servidores perimetrales con equilibrio de carga de hardware
+15. Si optó por volver a usar NAT en el paso 8, ahora tendrá una pantalla con un cuadro de texto **dirección IP** pública. Deberá escribir la dirección IPv4 o IPv6 pública que haya establecido para el servicio perimetral A/V, que NAT traducirá. A continuación, haga clic en **Siguiente**.
+    
+16. La siguiente pantalla hacia arriba **es Definir el próximo salto**. En el **cuadro Grupo de servidores de próximo** salto, seleccione el nombre del grupo interno, que puede ser un grupo de servidores front-end o un grupo independiente. Si tiene un director en su entorno, debe elegir el director. A continuación, haga clic en **Siguiente**.
+    
+17. En la **pantalla** Asociar grupos de servidores front-end, deberá especificar uno o varios grupos de servidores internos, incluidos los grupos de servidores front-end y los grupos de servidores Standard Edition, para asociarlo con este servidor perimetral. Simplemente elija los nombres de los grupos de servidores internos que desea usar este servidor perimetral para comunicarse con usuarios externos compatibles. Haga clic en **Siguiente**.
+    
+    > [!NOTE]
+    > Algo que hay que tener en cuenta aquí es que, si los grupos de servidores internos o los servidores independientes ya usan un servidor perimetral Skype Empresarial Server, no pueden tener varias asociaciones. Si elige un grupo interno o un servidor independiente que se encuentra en esa situación, verá una advertencia que le avisará sobre el otro servidor perimetral y podrá decidir si desea continuar o no. Si continúa con esta nueva asociación, se detendrá la conexión con el otro servidor perimetral. 
+  
+18. Haga **clic en** Finalizar en la siguiente pantalla.
+    
+19. Ahora podrá publicar esta tecnología actualizada y seguir las instrucciones de Implementar servidores perimetrales en [Skype Empresarial Server](deploy-edge-servers.md) implementar en el servidor perimetral desde aquí.
+    
+### <a name="defining-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>Definición de la topología de un grupo de servidores perimetrales con equilibrio de carga de hardware
 
-1. Inicie sesión en el servidor Standard Edition de Skype Empresarial Server o en un servidor front-end de Skype Empresarial Server.
+1. Inicie sesión en el Skype Empresarial Server Standard Edition o en un Skype Empresarial Server front-end.
     
-2. Una vez allí, abra el Generador de **topologías de Skype Empresarial Server.**
+2. Una vez allí, **abra Skype Empresarial Server Generador de topologías**.
     
 3. En el árbol de consola, expanda el sitio en el que va a implementar el servidor perimetral.
     
-4. Haga clic con el botón **secundario en Grupos de servidores perimetrales** y, a continuación, haga clic en Nuevo grupo de servidores **perimetrales.**
+4. Haga clic con el botón secundario en **Grupos perimetrales** y, a continuación, haga clic **en Nuevo grupo de servidores perimetrales.**
     
-5. Haga clic en **Siguiente en** la pantalla Definir nuevo grupo de **servidores perimetrales.**
+5. Haga clic en **Siguiente en** la pantalla Definir nuevo grupo **de servidores** perimetrales.
     
-6. En la pantalla Definir el **FQDN** del grupo de servidores perimetrales, escriba el nombre de dominio completo  (FQDN) interno que va a usar el grupo de servidores perimetrales y seleccione Grupo de varios equipos haciendo clic en Siguiente cuando haya terminado.
+6. En la pantalla Definir **el FQDN** del grupo de servidores perimetrales, escriba el nombre de dominio completo  (FQDN) interno que va a usar el grupo de servidores perimetrales y seleccione Grupo de servidores de varios **equipos,** haciendo clic en Siguiente cuando haya terminado.
     
-7. En la **pantalla Seleccionar** características, puede elegir:
+7. En la **pantalla Seleccionar características,** tienes una opción:
     
-   - Es posible que tenga la intención de usar el mismo FQDN y dirección IP para el servicio de acceso SIP, el servicio de conferencia web de Skype Empresarial Server y el servicio perimetral A/V. Si es así, debe seleccionar la casilla Usar un **solo FQDN** y dirección IP (y tenga esto en cuenta para el paso 9 a continuación)
+   - Es posible que tenga la intención de usar el mismo FQDN y dirección IP para el servicio de acceso SIP, el servicio de conferencia web de Skype Empresarial Server y el servicio perimetral A/V. Si es así, debe elegir la casilla Usar un **solo FQDN** y dirección IP (y tenga esto en cuenta para el paso 9 siguiente)
     
-   - Si tiene previsto habilitar la federación, seleccione la casilla Habilitar federación para este grupo de servidores perimetrales **(puerto 5061).**
+   - Si planea habilitar la federación, seleccione la casilla Habilitar federación para este grupo de servidores perimetrales **(puerto 5061).**
     
-8. Una vez que haya hecho clic en **Siguiente,** se encontrará en la pantalla **Opciones de IP.** Las opciones son las siguientes:
+8. Una vez que hayas hecho clic en **Siguiente,** te encontrarás en la pantalla **Opciones de IP.** Las opciones son las siguientes:
     
    - Habilitar IPv4 en la interfaz interna
     
@@ -215,52 +215,52 @@ Si no está seguro de lo que necesita, antes de empezar a seguir estos pasos, es
     
    - Habilitar IPv6 en la interfaz externa
     
-     Estas son bastante fáciles de explicar, tanto si usa direcciones IPv4 o IPv6 como si las está aplicando en el servidor perimetral interna o externamente (tendrá que tener esto en cuenta en el paso 11).
+     Estas son bastante explicativas, ya sea que estés usando direcciones IPv4 o IPv6 y estés aplicando esas direcciones en el servidor perimetral de forma interna o externa (tendrás que tener esto en cuenta para el paso 11).
     
      > [!NOTE]
-     > A diferencia de las otras dos opciones de  topología, al usar un equilibrador de carga de hardware, NO DEBE seleccionar la opción La dirección IP externa del grupo de servidores perimetrales se traduce **mediante NAT.** Esto no **es compatible.**
+     > A diferencia de las otras dos opciones de  topología, al usar un equilibrador de carga de hardware, NO debe seleccionar la opción La dirección IP externa del grupo de servidores perimetrales se traduce mediante **NAT**. No se **admite**.
   
 9. En la pantalla FQDN externos, las opciones dependen de la selección realizada en el paso 7 anterior.
     
-   - Si ha activado la casilla **Usar un solo FQDN** y una dirección IP, debe escribir el FQDN externo único en el cuadro acceso **SIP.** A continuación, tendrá que escribir números de puerto diferentes para cada servicio perimetral para permitir que todos se conecten de forma independiente. Se recomienda 5061 para el servicio perimetral de acceso **SIP,** 444 para el servicio perimetral de conferencia **web** y 443 para el servicio perimetral **A/V.** Seleccione **Siguiente** cuando termine.
+   - Si ha activado la casilla Usar un **solo FQDN** y dirección IP, debe escribir el FQDN externo único en el cuadro **Acceso SIP.** A continuación, deberá escribir números de puerto diferentes para cada servicio perimetral para permitir que todos se conecten de forma independiente. Se recomienda 5061 para el servicio perimetral de acceso **SIP,** 444 para el servicio perimetral de conferencia **web** y 443 para el servicio perimetral **A/V.** Seleccione **Siguiente** cuando termine.
     
-   - Si no ha marcado la casilla Usar un **solo FQDN** y dirección IP, ahora tendrá que escribir los tres FQDN externos para el servicio perimetral de acceso **SIP,** el servicio perimetral de conferencia **web** y el servicio perimetral **A/V.** Seleccione **Siguiente** cuando termine.
+   - Si no ha marcado la casilla Usar un solo FQDN y dirección **IP,** ahora deberá escribir los tres FQDN externos para el servicio perimetral de acceso **SIP,** el servicio perimetral de conferencia **web** y el servicio perimetral **A/V.** Seleccione **Siguiente** cuando termine.
     
-10. Ahora has llegado a Definir los **equipos en la pantalla de este** grupo de servidores. Haga clic en el botón **Agregar**.
+10. Ahora has llegado a la **pantalla Definir los equipos de este** grupo de servidores. Haga clic en el botón **Agregar**.
     
-11. Ahora está en la pantalla Definir **la dirección IP** interna. Aquí escribirá la dirección IP del servidor perimetral en los cuadros de texto Dirección **IPv4** interna e **IPv6** interna, en función de las elecciones que realizó en el paso 8. Haga **clic en Siguiente** cuando esté listo.
+11. Ahora está en la pantalla **Definir la dirección IP** interna. Aquí escribirá la dirección IP del servidor perimetral en los cuadros de texto Dirección **IPv4** interna y Dirección **IPv6** interna, en función de las opciones que ha tomado en el paso 8. Haga **clic en Siguiente** cuando esté listo.
     
-12. En la **pantalla Definir la dirección IP externa,** tiene algunas opciones en función de las opciones anteriores:
+12. En la **pantalla Definir la dirección IP externa,** tiene algunas opciones según las opciones anteriores:
     
-    - Puede que esté usando un solo FQDN para todos los servicios. Si es así, escriba su dirección IPv4 o IPv6 externa (lo que use) en el cuadro de texto **Acceso SIP** y, a continuación, haga clic en **Siguiente**.
+    - Puede que esté usando un solo FQDN para todos los servicios. Si es así, escriba la dirección IPv4 o IPv6 externa (independientemente de lo que use) en el cuadro de texto **Acceso SIP** y, a continuación, haga clic en **Siguiente**.
     
-    - Puede que haya elegido usar tres FQDN y direcciones IP independientes para los servicios. Si ese es el caso, escriba las direcciones IPv4 o IPv6 externas para el servicio perimetral de acceso **SIP,** el servicio perimetral de conferencia **web** y el servicio perimetral **A/V** y, a continuación, haga clic en **Siguiente.**
-    
-    > [!NOTE]
-    > Si no ha elegido previamente habilitar y asignar direcciones IPv6, no verá este cuadro de diálogo. Eso es normal, solo tienes que ir al paso siguiente. 
-  
-13. Haga clic en **Finalizar**. El servidor perimetral que acaba de crear debería aparecer ahora en el cuadro de diálogo Definir **los equipos de este** grupo de servidores.
-    
-14. Mientras se  encuentra en la pantalla Definir  los equipos de este grupo de servidores, haga clic en el botón Agregar de nuevo y repita los pasos del 11 al 13 hasta que haya agregado todos los servidores perimetrales que desea tener en este grupo de servidores. Cuando finalice, haga clic en **Siguiente**.
-    
-15. La siguiente pantalla es **Definir el próximo salto.** En el **cuadro Grupo de servidores del** próximo salto, seleccione el nombre del grupo interno, que puede ser un grupo de servidores front-end o un grupo independiente. Si tiene un director en su entorno, debe elegir el director. A continuación, haga clic en **Siguiente**.
-    
-16. En la **pantalla** Asociar grupos de servidores front-end, deberá especificar uno o más grupos de servidores internos, incluidos los grupos de servidores front-end y los grupos de servidores Standard Edition, para asociarlo a este servidor perimetral. Solo tiene que elegir los nombres de los grupos de servidores internos que desee usar este servidor perimetral para comunicarse con usuarios externos compatibles. Haga clic en **Siguiente**.
+    - Es posible que haya elegido usar tres FQDN y direcciones IP independientes para los servicios. Si ese es el caso, escriba las direcciones IPv4 o IPv6 externas para el servicio perimetral de acceso **SIP,** el servicio perimetral de conferencia **web** y el servicio perimetral **A/V** y, a continuación, haga clic en **Siguiente**.
     
     > [!NOTE]
-    > Algo que se debe tener en cuenta aquí es que, si los grupos de servidores internos o los servidores independientes ya usan un servidor perimetral de Skype Empresarial Server diferente, no pueden tener varias asociaciones. Si elige un grupo de servidores interno o un servidor independiente que se encuentra en esa situación, verá una advertencia que le indica sobre el otro servidor perimetral y puede decidir si desea continuar o no. Si continúa con esta nueva asociación, se detendrá la conexión con el otro servidor perimetral. 
+    > Si no ha elegido anteriormente habilitar y asignar direcciones IPv6, no verá este cuadro de diálogo. Eso es normal, simplemente vaya al paso siguiente. 
   
-17. Haga **clic en Finalizar** en la siguiente pantalla.
+13. Haga clic en **Finalizar**. El servidor perimetral que acaba de crear debería aparecer en el cuadro de diálogo **Definir los equipos de este** grupo de servidores.
     
-18. Ahora podrá publicar esta tecnología actualizada y seguir las instrucciones de Implementar servidores perimetrales en Skype Empresarial [Server](deploy-edge-servers.md) para implementar en el servidor perimetral desde aquí.
+14. Mientras sigue  en la pantalla Definir los  equipos de este grupo de servidores, haga clic de nuevo en el botón Agregar y repita los pasos del 11 al 13 hasta que haya agregado todos los servidores perimetrales que desea tener en este grupo de servidores. Cuando se complete, haga clic en **Siguiente**.
+    
+15. La siguiente pantalla hacia arriba **es Definir el próximo salto**. En el **cuadro Grupo de servidores de próximo** salto, seleccione el nombre del grupo interno, que puede ser un grupo de servidores front-end o un grupo independiente. Si tiene un director en su entorno, debe elegir el director. A continuación, haga clic en **Siguiente**.
+    
+16. En la **pantalla** Asociar grupos de servidores front-end, deberá especificar uno o varios grupos de servidores internos, incluidos los grupos de servidores front-end y los grupos de servidores Standard Edition, para asociarlo con este servidor perimetral. Simplemente elija los nombres de los grupos de servidores internos que desea usar este servidor perimetral para comunicarse con usuarios externos compatibles. Haga clic en **Siguiente**.
+    
+    > [!NOTE]
+    > Algo que hay que tener en cuenta aquí es que, si los grupos de servidores internos o los servidores independientes ya usan un servidor perimetral Skype Empresarial Server, no pueden tener varias asociaciones. Si elige un grupo interno o un servidor independiente que se encuentra en esa situación, verá una advertencia que le avisará sobre el otro servidor perimetral y podrá decidir si desea continuar o no. Si continúa con esta nueva asociación, se detendrá la conexión con el otro servidor perimetral. 
+  
+17. Haga **clic en** Finalizar en la siguiente pantalla.
+    
+18. Ahora podrá publicar esta tecnología actualizada y seguir las instrucciones de Implementar servidores perimetrales en [Skype Empresarial Server](deploy-edge-servers.md) implementar en el servidor perimetral desde aquí.
     
 ## <a name="publish-your-edge-server-topology"></a>Publicar la topología del servidor perimetral
 
-Una vez que haya terminado los pasos anteriores, es el momento de publicar esta nueva topología, que también le permitirá exportarla a su servidor perimetral o grupo de servidores perimetrales de Skype Empresarial Server. Siga estos pasos:
+Una vez que haya terminado los pasos anteriores, es el momento de publicar esta nueva topología, que también le permitirá exportarla al servidor perimetral de Skype Empresarial Server o grupo de servidores perimetrales. Siga estos pasos:
   
-1. Inicie **topology Builder** (si aún no se ha iniciado desde el procedimiento anterior).
+1. Inicie **el Generador de** topologías (si aún no se ha iniciado desde el procedimiento anterior).
     
-2. En **el Generador de topologías,** en el árbol de consola, haga clic con el botón secundario en Skype Empresarial **Server** y, a continuación, haga clic en Generador de topologías de Skype Empresarial **Server.**
+2. En **el Generador de topologías**, en el árbol de consola, haga clic con el botón secundario en **Skype Empresarial Server** y, a continuación, haga clic Skype Empresarial Server Generador **de topologías**.
     
 3. En la página **principal** del Asistente, haga clic en **Siguiente**.
     
@@ -274,16 +274,16 @@ Una vez que haya terminado los pasos anteriores, es el momento de publicar esta 
     
 ## <a name="export-your-edge-server-topology"></a>Exportar la topología del servidor perimetral
 
-Para implementar correctamente, el Asistente para la implementación de Skype Empresarial Server necesita acceso a los datos del almacén de administración central. En el caso de los servidores internos de su dominio o bosque, esto suele ser sencillo. Los servidores perimetrales están fuera del dominio, por lo que es necesario exportar manualmente el archivo de topología a la ubicación del servidor perimetral, normalmente en un medio físico. Esta exportación se realiza a través de PowerShell:
+Para implementarse correctamente, el Asistente Skype Empresarial Server de implementación necesita acceso a los datos del almacén de administración central. En el caso de los servidores internos de su dominio o bosque, esto suele ser sencillo. Los servidores perimetrales están fuera del dominio, por lo que es necesario exportar manualmente el archivo de topología a la ubicación del servidor perimetral, normalmente en un medio físico. Esta exportación se realiza a través de PowerShell:
   
-1. Inicie el **Shell de administración de Skype Empresarial Server.**
+1. Inicie el **Shell Skype Empresarial Server administración**.
     
-2. En el **Shell de administración de Skype Empresarial Server,** ejecute lo siguiente:
+2. En el **Shell Skype Empresarial Server administración**, ejecute lo siguiente:
     
    ```powershell
    Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
    ```
 
-3. Copia el archivo exportado a medios externos (por ejemplo, una unidad USB o un recurso compartido de red al que puedas acceder desde la ubicación del servidor perimetral).
+3. Copie el archivo exportado a medios externos (por ejemplo, una unidad USB o un recurso compartido de red al que pueda llegar desde la ubicación del servidor perimetral).
     
 

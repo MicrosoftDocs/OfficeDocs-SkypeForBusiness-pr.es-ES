@@ -14,21 +14,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: Obtenga información sobre cómo instalar y configurar opciones de disponibilidad en Skype Empresarial Server.
-ms.openlocfilehash: 04690e9f2c7fbf16b67432526fe5c8fd6e5b95af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Obtenga información sobre cómo instalar y configurar las opciones de disponibilidad en Skype Empresarial Server.
+ms.openlocfilehash: aa7dc18d2c535b96cfca06a28aff85f8ab5bc738c4eef94babd9048450bfb897
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106316"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322402"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Instalar y configurar opciones de disponibilidad para Skype Empresarial Server
 
-Obtenga información sobre cómo instalar y configurar opciones de disponibilidad en Skype Empresarial Server.
+Obtenga información sobre cómo instalar y configurar las opciones de disponibilidad en Skype Empresarial Server.
 
 Opciones de disponibilidad es una nueva directiva de voz introducida en la actualización acumulativa de julio de 2016 que permite configurar cómo se controlan las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o tiene una llamada en espera. Las llamadas nuevas o entrantes se pueden rechazar con una señal de disponibilidad o reenviarse al correo de voz.
 
-Si las opciones de disponibilidad están habilitadas para la organización, todos los usuarios de enterprise, tanto Telefonía IP empresarial como los que no Telefonía IP empresarial, pueden usar las siguientes opciones de configuración:
+Si las opciones de disponibilidad están habilitadas para la organización, todos los usuarios de la Enterprise, tanto los usuarios Telefonía IP empresarial como los que no Telefonía IP empresarial, pueden usar las siguientes opciones de configuración:
 
 - Ocupado en ocupado: en el que las nuevas llamadas entrantes se rechazarán con una señal de disponibilidad si el usuario está ocupado.
 
@@ -36,11 +36,11 @@ Si las opciones de disponibilidad están habilitadas para la organización, todo
 
 Independientemente de cómo se configuren sus opciones de disponibilidad, los usuarios de una llamada o conferencia, o aquellos con una llamada en espera, no se les impide iniciar nuevas llamadas o conferencias.
 
-Para obtener más información acerca de la característica Opciones de disponibilidad, vea [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
+Para obtener más información acerca de la característica Opciones de disponibilidad, vea [Plan for Busy Options for Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
 
 ## <a name="install"></a>Instalar
 
-Asegúrese de que tiene instalada la versión más reciente de Skype Empresarial Server y de que ha instalado la revisión más reciente. Para ello, primero detenga todos los servicios y, a continuación, ejecute el instalador de actualización de Skype Empresarial Server de la siguiente manera:
+Asegúrese de tener instalada la versión más reciente Skype Empresarial Server y de haber instalado la revisión más reciente. Para ello, primero detenga todos los servicios y, a continuación, ejecute el instalador Skype Empresarial Server actualización de la siguiente manera:
 
 1. Ejecute el Stop-CsWindowsService.
 
@@ -91,7 +91,7 @@ El instalador implementará la versión más reciente de la aplicación Opciones
    Update-CsAdminRole
    ```
 
-5. Por último, inicie los servicios de Windows de Skype Empresarial Server en todos los servidores front-end de todos los grupos donde se instalaron y habilitaron las opciones de disponibilidad ejecutando el comando [Start-CsWindowsService:](/powershell/module/skype/start-cswindowsservice?view=skype-ps)
+5. Por último, inicie los servicios Skype Empresarial Server Windows en todos los servidores front-end de todos los grupos de servidores donde se instalaron y habilitaron las opciones de disponibilidad ejecutando el comando [Start-CsWindowsService:](/powershell/module/skype/start-cswindowsservice?view=skype-ps)
 
    ```powershell
    Start-CsWindowsService
@@ -154,4 +154,4 @@ ScriptName :
 Script     :
 </pre>
 
-También puedes usar el Visor de eventos de Windows para comprobar que la instalación de Opciones de disponibilidad se ha realizado correctamente y que Skype Empresarial Server cargó correctamente las opciones de disponibilidad. Para comprobar las opciones de disponibilidad, abra visor de eventos - Registros de aplicaciones y servicios **\> - Skype \> (o Lync) Server** y busque identificador de evento = 30253.
+También puede usar el visor Windows eventos para comprobar que la instalación de Opciones de disponibilidad se ha realizado correctamente y que Skype Empresarial Server correctamente las opciones de disponibilidad. Para comprobar las opciones de disponibilidad, abra visor de eventos - Registros de aplicaciones y servicios **\> - Skype \> (o Lync) Server** y busque identificador de evento = 30253.

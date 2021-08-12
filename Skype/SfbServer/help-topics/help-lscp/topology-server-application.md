@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: La página TopologíaAplicación de servidor muestra las aplicaciones de servidor disponibles en su implementación.
-ms.openlocfilehash: f2bd087fd8e586396bb13ed876537bd5eb83eeea
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4b3dee13c3282daa2f91fe280e3f947b5b933818dfc0f10efaae989caacf87ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099296"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331562"
 ---
 # <a name="topology-server-application"></a>Topología: Aplicación de servidor
 
@@ -36,7 +36,7 @@ Puede realizar las siguientes tareas en la página **Topología**: **Aplicación
 
 - Seleccionar o deseleccionar una aplicación como crítica
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Habilitar o deshabilitar una aplicación de servidor de lenguaje de procesamiento de protocolo de inicio de sesión de Microsoft (MSPL)](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application)
 

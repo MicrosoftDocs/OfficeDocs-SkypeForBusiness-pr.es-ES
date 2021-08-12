@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0208b8c6ad16cc42611768a25237a6e48bf60401
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 8bee4379eb82d577104d2d69ff2e11c168f2de62d3e903fcff196d45293c2365
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717831"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322562"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Introducción a las plantillas de equipo con Microsoft Graph
 

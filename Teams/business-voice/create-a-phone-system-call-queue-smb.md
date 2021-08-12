@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Obtenga información sobre cómo configurar colas de llamadas para pequeñas empresas en Microsoft 365 Business Voice.
-ms.openlocfilehash: 0e0f6dde164f270987d4b01c6bc3528f8799a662
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 7c374819fd142d86d53c92b32f2799b861833006371ee4038a4769eaeb396f0a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646491"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286189"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Crear una cola de llamadas: tutorial para pequeñas empresas
 

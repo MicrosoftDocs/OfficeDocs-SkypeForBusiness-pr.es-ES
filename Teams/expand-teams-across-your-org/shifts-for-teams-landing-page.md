@@ -21,12 +21,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: d4901258f7e0422b373553beba509bdfa0673d96
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: a182c825be8d8111533e7cdea8fb127b273173bb57584569f4c3780dad91f178
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536716"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339668"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3a4f440230dad7c9841f31e1b2ea03c5a50b81
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 838843e7c1c6a1c588dfd7e83ee5f4ba774a913da848d43e9dcd4a264e138af4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116018"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286169"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>Cree y otorgue licencias a los usuarios de Business Voice y asígneles números de teléfono
 
