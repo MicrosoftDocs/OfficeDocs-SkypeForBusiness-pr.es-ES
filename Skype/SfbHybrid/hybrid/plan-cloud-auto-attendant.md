@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre cómo usar un operador automático de nube Skype Empresarial Server 2019
-ms.openlocfilehash: 61ffefab04dc70167d768332132217ebd6564e31
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 0a9eaa3498541371314f268f2d4dfaef2200ab457267fe98f631430ce7c2f035
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315056"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Plan de los operadores automáticos en la nube
 
@@ -45,7 +45,7 @@ Consulte también:
 - [Configurar un operador automático en la nube](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Contestar y enrutar automáticamente las llamadas entrantes](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Los siguientes requisitos suponen que ya Skype Empresarial Server 2019 implementado en una topología compatible.  Los requisitos dependen del escenario:
 
@@ -98,7 +98,7 @@ Cuando tenga una estructura sólida que satisfaga sus necesidades y un script qu
 > [!CAUTION]
 > Como se mencionó en [KB4480742,](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)no se recomienda mover Exchange operadores automáticos de mensajería unificada creados en server 2015 a servidores que ejecutan Server 2019. De momento, tendrías que mantenerlos en un grupo de servidores Skype Empresarial Server 2015 en modo de coexistencia.
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 [Planificar la migración de Skype Empresarial Server y Exchange Server](plan-um-migration.md)
 

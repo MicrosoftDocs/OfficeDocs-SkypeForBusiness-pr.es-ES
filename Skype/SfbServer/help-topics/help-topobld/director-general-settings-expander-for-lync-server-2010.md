@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
 description: 'Para configurar las propiedades generales del director o un grupo de directores:'
-ms.openlocfilehash: e31dcf72297bfcbc9afd4f45e232de71c5620b7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7f0e7e80f024c3245907750deeb5c7f30bf3fd7b27c5f9283dd2e49544495a3a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333712"
 ---
 # <a name="director-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general de director para Lync Server 2010
  
@@ -34,9 +34,9 @@ Para configurar las **propiedades generales** del director o un grupo de directo
   
 Haga clic en **Nuevo** para definir un nuevo almacén de archivos
   
-Active la casilla **Asociar servidor de supervisión** y seleccione un servidor de supervisión de la lista
+Active la **casilla Asociar servidor de supervisión** y seleccione un servidor de supervisión de la lista
   
-Haga **clic en Nuevo** para definir un nuevo servidor de supervisión
+Haga **clic en** Nuevo para definir un nuevo servidor de supervisión
   
  **Aceptar** Acepta y confirma los cambios realizados en el cuadro de diálogo.
   

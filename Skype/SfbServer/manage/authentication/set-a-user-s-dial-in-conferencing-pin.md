@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Resumen: establezca el PIN de conferencia de acceso telefónico local de un usuario para Skype Empresarial Server.'
-ms.openlocfilehash: c34e895471fdffb13a4cdb10806bd07146474e44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3470e17600a89696e7fa9a54986ae6e3a98e27c5ebf0f66ae27dcca3d8040b78
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119559"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341905"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Establecer el PIN de conferencia de acceso telefónico local de un usuario en Skype Empresarial Server
  
-**Resumen:** Establecer el PIN de conferencia de acceso telefónico local de un usuario para Skype Empresarial Server.
+**Resumen:** Establezca el PIN de conferencia de acceso telefónico local de un usuario para Skype Empresarial Server.
   
-Para unirse a una conferencia de acceso telefónico local como usuario autenticado, un usuario de Skype Empresarial Server con credenciales de Servicios de dominio de Active Directory (AD DS) requiere un número de identificación personal (PIN). Si un usuario olvida el PIN de conferencia de acceso telefónico local o no ha establecido el PIN mediante Skype Empresarial Server, puede establecer el PIN del usuario desde el Panel de control de Skype Empresarial Server. Puede generar el PIN automáticamente o crear uno de forma manual.
+Para unirse a una conferencia de acceso telefónico local como usuario autenticado, un usuario de Skype Empresarial Server con credenciales de Servicios de dominio de Active Directory (AD DS) requiere un número de identificación personal (PIN). Si un usuario olvida el PIN de conferencia de acceso telefónico local o no ha establecido el PIN mediante Skype Empresarial Server, puede establecer el PIN del usuario desde Skype Empresarial Server Panel de control. Puede generar el PIN automáticamente o crear uno de forma manual.
   
 > [!NOTE]
 > Las características específicas del PIN como, por ejemplo, su longitud mínima, pueden configurarse como una directiva. Además de la directiva global, puede configurar una directiva de PIN para sitios o usuarios individuales. 
@@ -33,7 +33,7 @@ Para unirse a una conferencia de acceso telefónico local como usuario autentica
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.  
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
@@ -65,7 +65,7 @@ Para unirse a una conferencia de acceso telefónico local como usuario autentica
     
 7. En el cuadro de diálogo **Establecer PIN**, realice una de las siguientes acciones:
     
-   - Para permitir que Skype Empresarial Server genere el PIN del usuario, seleccione **Generar automáticamente** un PIN válido (valor predeterminado).
+   - Para permitir Skype Empresarial Server generar el PIN del usuario, seleccione **Generar automáticamente** un PIN válido (valor predeterminado).
     
    - Para crear su propio PIN, haga clic en **Introducir manualmente un PIN específico**, haga clic en el cuadro de texto y escriba un PIN que cumpla los requisitos de PIN especificados en la configuración de la directiva de PIN.
     
@@ -79,9 +79,9 @@ Para unirse a una conferencia de acceso telefónico local como usuario autentica
     
 10. Haga clic en **Cerrar**.
     
-## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Asignar un PIN de usuario mediante Windows PowerShell cmdlets
+## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Asignar un PIN de usuario mediante cmdlets Windows PowerShell usuario
 
-También puede asignar números de PIN mediante el cmdlet Set-CsClientPin. Puede ejecutar este cmdlet desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del Windows PowerShell remoto para conectarse a Skype Empresarial Server, vea el artículo de blog "Inicio rápido: Administración de [Microsoft Lync Server 2010 mediante PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server. 
+También puede asignar números de PIN mediante el cmdlet Set-CsClientPin. Puede ejecutar este cmdlet desde el Shell de administración Skype Empresarial Server desde una sesión remota de Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell para conectarse a Skype Empresarial Server, vea el artículo de blog "Inicio rápido: Administración de [Microsoft Lync Server 2010 mediante PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server. 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Para asignar automáticamente un número de PIN a un usuario
 

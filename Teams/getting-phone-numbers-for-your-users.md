@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo obtener números nuevos, portabilidad o transferir números existentes para Teams y cómo mostrar los cambios a los usuarios. '
-ms.openlocfilehash: c80f7a54af697322665c110c14aeccaf5fa4f667
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: cb74b070e9c9c74c71e98309e9a06e3f9a85021872a2072f4852f89de52cbd01
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586569"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315286"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 

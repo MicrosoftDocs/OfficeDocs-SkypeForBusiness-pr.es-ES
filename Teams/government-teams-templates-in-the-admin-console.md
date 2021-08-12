@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff975fc80c0b08136fa18d2b7c31cd100e405911
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: b915daab744bd764a9ac9e1d0be000357a051a2719e9e544bfff8b5a5c26e5a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684537"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315256"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>Usar plantillas de equipo de gobierno en el Centro de administración
 

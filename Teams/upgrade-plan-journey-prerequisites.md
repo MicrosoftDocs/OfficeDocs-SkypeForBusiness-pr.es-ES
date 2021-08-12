@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9924c24f19da3cf17f8e8a124a03acc294c24b4
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 66a0bdeac2830fc6a3ebe9f5eae2f382187f384538f2d57c9cf27b56fbdd651a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282167"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323752"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Requisitos previos y dependencias ambientales para Teams
 

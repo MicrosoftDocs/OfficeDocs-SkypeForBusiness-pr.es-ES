@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 'Summary: Learn how to manage conference join and leave announcements in Skype for Business Server.'
-ms.openlocfilehash: 796266dd3b571e525f657d5dbe712d1577779cae
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to manage conference join and leave announcements in Skype Empresarial Server.'
+ms.openlocfilehash: 597bf27f574413364f1d16efc31704abe3c107f143f95d9469234d84d245628b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119459"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290388"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Administrar anuncios de unirse y dejar conferencias en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre cómo administrar los anuncios de unirse y dejar conferencias en Skype Empresarial Server.
+**Resumen:** Obtenga información sobre cómo administrar la unión a conferencias y dejar anuncios en Skype Empresarial Server.
   
-Cuando los usuarios de acceso telefónico local se unen o salen de una conferencia, la aplicación de anuncio de conferencia puede anunciar su entrada o salida reproduciendo un tono o diciendo sus nombres. Puede cambiar el modo en que funcionan los anuncios mediante el Shell de administración de Skype Empresarial Server y el cmdlet **Set-CsDialinConferencing** con los siguientes parámetros:
+Cuando los usuarios de acceso telefónico telefónico se unen o salen de una conferencia, el aplicación Anuncio de conferencia puede anunciar su entrada o salida tocando un tono o diciendo sus nombres. Puede cambiar el modo en que funcionan los anuncios mediante Skype Empresarial Server Shell de administración y el cmdlet **Set-CsDialinConferencing** con los siguientes parámetros:
   
 - EnableNameRecording: determina si se pide a los participantes anónimos que registren su nombre antes de entrar en la conferencia. El valor predeterminado es "$true," lo que significa que se pide a los participantes anónimos que indiquen su nombre cuando se unan a una conferencia. (Los participantes autenticados no graban su nombre porque se usa el nombre para mostrar).
     
@@ -38,7 +38,7 @@ Puede configurar estas opciones en el ámbito global o en el ámbito del sitio. 
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol Cs-ServerAdministrator o CsAdministrator.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
@@ -46,7 +46,7 @@ Puede configurar estas opciones en el ámbito global o en el ámbito del sitio. 
    Get-CsDialinConferencingConfiguration
    ```
 
-Este cmdlet recupera información sobre si los participantes deben registrar su nombre al unirse a una conferencia y cómo responde Skype Empresarial Server cuando los participantes se unen o salen de una conferencia de acceso telefónico local.
+Este cmdlet recupera información sobre si los participantes deben registrar su nombre al unirse a una conferencia y cómo Skype Empresarial Server responde cuando los participantes se unen o salen de una conferencia de acceso telefónico.
     
 4. Ejecute los siguientes comandos en símbolo del sistema:
     

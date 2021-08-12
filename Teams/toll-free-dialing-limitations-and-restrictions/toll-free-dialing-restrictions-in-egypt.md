@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en Egipto, como la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
-ms.openlocfilehash: a324691f3dbda9c594afceea726dd25a08613bb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 52cb32676c604f76af3128042689faee8a1701760efba97025b11c121161d3ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098146"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323812"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Restricciones de marcado de número gratuito en Egipto
 

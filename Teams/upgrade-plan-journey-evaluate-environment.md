@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aeb236edddea69c1c112b695c9323de19da46092
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 57bf9c10638fa9d037927eb38e604ab75a17ee1f989f5114b4e1c27606b71cfe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282207"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323762"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Evalúe su entorno antes de actualizar a Teams
 

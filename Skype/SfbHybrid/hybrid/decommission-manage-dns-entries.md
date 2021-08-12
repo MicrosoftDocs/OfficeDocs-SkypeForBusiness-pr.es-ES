@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instrucciones para administrar las entradas DNS al retirar el entorno Skype Empresarial local.
-ms.openlocfilehash: a5321aa187a88505b3973c3e5418f4a88e1e6f69
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 0dabf9790b1e579d136fef459308af450e879b110474b2877513855c8e78cf29
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486250"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315176"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>Actualizar entradas DNS para permitir que la organización sea Teams solo
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Las organizaciones que anteriormente tenían implementaciones locales de Skype Empresarial Server o Lync Server aún pueden tener entradas DNS que apunten a una implementación Skype Empresarial local. Estos registros son necesarios si su organización incluye usuarios Skype Empresarial local. Sin embargo, una vez que la organización ya no tiene usuarios locales de Skype Empresarial o Lync Server, estos registros originales ya no son necesarios para la implementación local y estas entradas DNS deben actualizarse para que apunten Microsoft 365 (o en algunos casos **eliminados)** como parte de la migración de local a solo Teams. *Microsoft no puede actualizar estos registros DNS en su nombre.*
 

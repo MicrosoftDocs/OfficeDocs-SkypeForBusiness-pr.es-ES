@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: 'Summary: Learn how to add, remove, patch, or update Front End Servers in Skype for Business Server.'
-ms.openlocfilehash: 24527a5f973b21c35e386f0565ac6deb69e15070
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to add, remove, patch, or update Front End Servers in Skype Empresarial Server.'
+ms.openlocfilehash: b091f1fd74cfd2c3d93ee14e9ea6f1b584ec4111443b99f881786e94e038d8b2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290308"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Administrar servidores front-end en Skype Empresarial Server
  
 En este artículo se explica cómo agregar o quitar servidores front-end y cómo aplicar actualizaciones o revisiones a los servidores front-end.
 
   > [!NOTE]
-> Skype Empresarial Server 2019 no admite grupos de servidores front-end Enterprise Edition con dos servidores front-end y no permitirá que la topología se publique en ese escenario.
+> Skype Empresarial Server 2019 no admite grupos de servidores front-end de Enterprise Edition con dos servidores front-end y no permitirá que la topología se publique en ese escenario.
 
 ## <a name="add-or-remove-front-end-servers"></a>Agregar o quitar servidores front-end
   
@@ -54,7 +54,7 @@ Puede usar el siguiente procedimiento al agregar o quitar un servidor front-end.
     > Al agregar o quitar un servidor al grupo de servidores de la topología y, a continuación, publicar la topología actualizada, hará que todos los servidores del grupo se reinicien al mismo tiempo. Mientras los servidores reinician el grupo está sin conexión, lo que interrumpirá el servicio para los usuarios conectados a ese grupo. Para evitar cualquier interrupción del servicio a los usuarios, planee publicar la topología con el nuevo servidor en el grupo durante el horario no comercial. 
   
   > [!NOTE]
-> Además, al agregar o quitar un servidor al grupo de servidores, debe ejecutar el Asistente para la implementación de Skype Empresarial Server en cada equipo agregado o eliminado, para obtener más información, vea [Install Skype for Business Server on servers in the topology](../../deploy/install/install-skype-for-business-server.md)
+> Además, al agregar o quitar un servidor al grupo de servidores, debe ejecutar el Asistente para la implementación de Skype Empresarial Server en cada equipo agregado o quitado, para obtener más información, vea [Install Skype Empresarial Server on servers in the topology](../../deploy/install/install-skype-for-business-server.md)
   
 4. Si ha cambiado el número de servidores del grupo de servidores front-end de cualquiera de las siguientes maneras, restablezca el grupo escribiendo el siguiente cmdlet: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     

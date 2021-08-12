@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
-description: 'Resumen: obtenga información sobre cómo modificar directivas de conferencia en Skype Empresarial Server.'
-ms.openlocfilehash: 6bbba82c9785e074da492eb66cbdd943dc0cea35
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to modify conferencing policies in Skype Empresarial Server.'
+ms.openlocfilehash: 5676a6bc0970a98fa76357deb1403c6b2337920273262c0a76a465b33d5d18c4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290358"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Modificar directivas de conferencia en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo modificar directivas de conferencia en Skype Empresarial Server.
   
-Puede modificar directivas de conferencia mediante el Panel de control de Skype Empresarial Server o mediante el Shell de administración de Skype Empresarial Server.
+Puede modificar directivas de conferencia mediante Skype Empresarial Server Panel de control o mediante Skype Empresarial Server Shell de administración.
   
-## <a name="modify-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Modificar directivas de conferencia mediante el Panel de control de Skype Empresarial Server
+## <a name="modify-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Modificar directivas de conferencia mediante Skype Empresarial Server Panel de control
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2.  Abra el Panel de control de Skype Empresarial Server.
+2.  Abra Skype Empresarial Server Panel de control.
     
 3. En la barra de navegación izquierda, haga clic **en Conferencia** y, a continuación, haga clic en Directiva **de conferencia.**
     
@@ -39,7 +39,7 @@ Puede modificar directivas de conferencia mediante el Panel de control de Skype 
     
 6. Haga clic en **Confirmar**.
     
-## <a name="modify-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Modificar directivas de conferencia mediante el Shell de administración de Skype Empresarial Server
+## <a name="modify-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Modificar directivas de conferencia mediante Skype Empresarial Server Shell de administración
 
 Para modificar directivas de conferencia, use el cmdlet **Set-CsConferencingPolicy.**
   

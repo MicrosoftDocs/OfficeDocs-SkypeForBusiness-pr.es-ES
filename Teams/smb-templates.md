@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Use Microsoft Teams plantillas predefinidas integradas en Microsoft Graph crear equipos para pequeñas y medianas empresas de forma rápida y sencilla.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e3d29dca0bbdbd7b3487ac1738b84396a3d41117
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 971b7b0d3be009938a05b7b8fd38105cc273d6158309c69c30cb7c22c51d3fce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116998"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323942"
 ---
 # <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Teams plantillas integradas en Microsoft Graph para pequeñas y medianas empresas
 

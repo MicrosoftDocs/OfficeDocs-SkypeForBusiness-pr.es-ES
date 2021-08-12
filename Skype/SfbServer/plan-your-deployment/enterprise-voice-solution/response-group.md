@@ -1,5 +1,5 @@
 ---
-title: Plan for the Response Group application in Skype for Business Server
+title: Planear la aplicación grupo de respuesta en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planeación de grupos de respuesta en Skype Empresarial Server Telefonía IP empresarial, lo que permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos de archivo de audio.
-ms.openlocfilehash: b27f3d1c40a384bd7465e7d2c8843a0523687d19
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6efc867a38ef919488786da908facb840e40725eaf36e60a3acbad3b72b4a3ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114606"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290088"
 ---
-# <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Plan for the Response Group application in Skype for Business Server
+# <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planear la aplicación grupo de respuesta en Skype Empresarial Server
 
 Planeación de grupos de respuesta en Skype Empresarial Server Telefonía IP empresarial, lo que permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos de archivo de audio.
 
@@ -54,7 +54,7 @@ Para dar cabida al rol Administrador, la aplicación grupo de respuesta usa **un
 
 **Grupos de respuesta administrados y no administrados**
 
-|**Tipo de grupo de respuesta**|**Descripción**|
+|**Tipo de grupo de respuesta**|**Description**|
 |:-----|:-----|
 |No administrado  <br/> | Los grupos de respuesta no administrados no tienen ningún director asignado. Solo el administrador del grupo de respuesta puede configurar estos grupos de respuesta. <br/>  Varios grupos de respuesta no administrados pueden compartir un grupo de agentes o una cola. <br/>  Al migrar grupos de respuesta de una versión anterior a Skype Empresarial Server, el tipo se establece en No administrado. <br/> |
 |Administrados  <br/> | Los administradores de grupos de respuesta pueden configurar cualquier aspecto de los grupos de respuesta administrados. <br/>  Los administradores de grupos de respuesta no pueden ver ni modificar grupos de respuesta que no se les han asignado explícitamente. <br/>  Los administradores de grupos de respuesta solo pueden configurar algunas opciones para los grupos de respuesta que se les han asignado explícitamente. <br/>  Los grupos de respuesta administrados no pueden compartir grupos de agentes ni colas con otros grupos de respuesta, ya sean administrados o no administrados. <br/> |
@@ -72,13 +72,13 @@ Los administradores de grupos de respuesta pueden usar las siguientes herramient
 - Panel de control de Skype Empresarial Server
 
     > [!NOTE]
-    > Los administradores de grupos de respuesta solo pueden administrar la configuración del grupo de respuesta con esta herramienta. Otras opciones de configuración de Skype Empresarial Server no están disponibles para los administradores.
+    > Los administradores de grupos de respuesta solo pueden administrar la configuración del grupo de respuesta con esta herramienta. Otros Skype Empresarial Server configuración no están disponibles para los administradores.
 
 - Herramienta de configuración de grupo de respuesta
 
 - Shell de administración de Skype Empresarial Server
 
-El grupo de respuesta escala bien a entornos departamentales o de grupo de trabajo (para obtener más información, vea [Capacity Planning for Response Group)](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)y se puede implementar en instalaciones de telefonía totalmente nuevas. Admite llamadas entrantes desde la Telefonía IP empresarial y desde la red de portadora local. Los agentes pueden usar Skype Empresarial, Lync 2013, Lync 2010, Lync 2010 Attendant o Lync Phone Edition para realizar las llamadas enrutadas a ellos.
+El grupo de respuesta escala bien a entornos departamentales o de grupo de trabajo (para obtener más información, vea [Capacity Planning for Response Group)](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)y se puede implementar en instalaciones de telefonía totalmente nuevas. Admite llamadas entrantes desde la Telefonía IP empresarial y desde la red de operador local. Los agentes pueden usar Skype Empresarial, Lync 2013, Lync 2010, Operador de Lync 2010 o Lync Teléfono Edition para realizar las llamadas que se les enrutan.
 
 ## <a name="deployment-and-requirements"></a>Implementación y requisitos
 
@@ -88,7 +88,7 @@ La aplicación grupo de respuesta se habilita automáticamente al implementar Te
 
 La aplicación grupo de respuesta tiene los mismos requisitos de hardware, requisitos del sistema operativo y requisitos previos de software que los servidores front-end.
 
-Si usas archivos de Audio de Windows Media (.wma) para anuncios y música de grupo de respuesta, todos los servidores front-end o los servidores Standard Editions que ejecuten la aplicación grupo de respuesta deben tener instalado Windows Media Format Runtime para servidores que ejecuten Windows Server 2008 R2 o Microsoft Media Foundation para servidores que ejecuten Windows Server 2012 o Windows Server 2012 R2. Para Windows Server 2008 R2, Windows Media Format Runtime se instala como parte de la experiencia de escritorio de Windows.
+Si usa archivos de audio multimedia (.wma) de Windows para anuncios y música de grupo de respuesta, todos los servidores front-end o standard editions que ejecuten la aplicación grupo de respuesta deben tener el tiempo de ejecución de formato multimedia de Windows instalado para servidores que ejecuten Windows Server 2008 R2 o Microsoft Media Foundation para servidores que ejecuten Windows Server 2012 o Windows Server 2012 R2. Para Windows Server 2008 R2, Windows Media Format Runtime se instala como parte de Windows experiencia de escritorio.
 
 Grupo de respuesta usa **paquetes de** idioma para admitir el reconocimiento de voz y texto a voz. Estas tecnologías de voz se usan al configurar mensajes, como el mensaje de bienvenida y otros mensajes, y preguntas y respuestas interactivas de voz (IVR). De forma predeterminada, los 26 paquetes de idioma admitidos se instalan al implementar Skype Empresarial Server.
 
@@ -104,13 +104,13 @@ La aplicación grupo de respuesta usa los siguientes puertos:
     > Este puerto se usa para el servicio Match Making y es necesario cuando la aplicación grupo de respuesta se implementa en un grupo que tiene más de un servidor front-end.
 
    > [!NOTE]
-   > Estos puertos son configuraciones predeterminadas que se pueden cambiar mediante el cmdlet **Set-CsApplicationServer**. Para obtener más información acerca de este cmdlet, consulte la documentación del Shell de administración de Skype Empresarial Server.
+   > Estos puertos son configuraciones predeterminadas que se pueden cambiar mediante el cmdlet **Set-CsApplicationServer**. Para obtener más información acerca de este cmdlet, consulte la Skype Empresarial Server del Shell de administración.
 
 ### <a name="audio-file-requirements"></a>Requisitos de archivos de audio
 
-La aplicación grupo de respuesta admite formato de archivo wave (.wav) y formato de archivo de audio de Windows Media (.wma) para mensajes de grupo de respuesta, música en espera o preguntas interactivas de respuesta de voz (IVR).
+La aplicación grupo de respuesta admite el formato de archivo wave (.wav) y el formato de archivo de audio multimedia (.wma) de Windows para mensajes de grupo de respuesta, música en espera o preguntas de respuesta de voz interactiva (IVR).
 
-El formato de archivo de audio de Windows Media requiere que Windows Media Format Runtime esté instalado en servidores front-end que ejecuten Windows Server 2008 R2 y Windows Server 2008. Para más información, vea "Requisitos de software" anteriormente en esta sección.
+El formato de archivo de audio Windows Media requiere que Windows Media Format Runtime esté instalado en servidores front-end que ejecuten Windows Server 2008 R2 y Windows Server 2008. Para más información, vea "Requisitos de software" anteriormente en esta sección.
 
 #### <a name="supported-wave-file-formats"></a>Formatos de archivo wave compatibles
 
@@ -148,7 +148,7 @@ La herramienta de configuración de grupo de respuesta admite las combinaciones 
 |Windows Server 2008 con SP2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 con Service Pack 1  <br/> |Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows Server 2012  <br/> ||
-|Windows Server 2012 R2  <br/> ||
+|Windows Server 2012 R2  <br/> ||
 
 ### <a name="response-group-agent-console"></a>Consola del agente del grupo de respuesta
 
@@ -166,13 +166,13 @@ La consola de agente admite combinaciones de los sistemas operativos y los explo
 |Windows Server 2008 con Service Pack 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 con Service Pack 1  <br/> |Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
 |Windows Server 2012  <br/> |
-|Windows Server 2012 R2  <br/> |
+|Windows Server 2012 R2  <br/> |
 
 ## <a name="client-support"></a>Compatibilidad con clientes
 
 La aplicación Grupo de respuesta admite los siguientes clientes:
 
-- Cliente de escritorio de Skype Empresarial
+- Skype Empresarial cliente de escritorio
 
 - Cliente de escritorio de Lync 2013
 
@@ -191,23 +191,23 @@ El cliente específico que puede usar depende del tipo de usuario del grupo de r
 
 - Los **autores de llamadas** pueden llamar a un grupo de respuesta mediante cualquiera de los clientes de la lista anterior y a través de un teléfono normal por la red telefónica conmutada (RTC).
 
-- **Los agentes informales** (agentes que no inician sesión y no inician sesión en sus grupos para aceptar llamadas) pueden aceptar llamadas mediante Attendant, Lync o Lync Phone Edition. Los agentes informales inician sesión automáticamente en sus grupos cuando inician sesión en Skype Empresarial Server mediante uno de estos clientes.
+- **Los agentes informales** (agentes que no inician sesión y no inician sesión en sus grupos para aceptar llamadas) pueden aceptar llamadas mediante Attendant, Lync o Lync Teléfono Edition. Los agentes informales inician sesión automáticamente en sus grupos cuando inician sesión Skype Empresarial Server mediante uno de estos clientes.
 
 - Los agentes **formales** (agentes que deben iniciar y cerrar sesión en sus grupos para aceptar llamadas) pueden aceptar llamadas usando Skype Empresarial y accediendo a la consola del agente desde el elemento de menú, o usando Attendant y accediendo a la consola del agente directamente desde Internet Explorer.
 
-## <a name="capacity-planning"></a>Planeamiento de capacidad
+## <a name="capacity-planning"></a>Planeamiento de la capacidad
 
 En la tabla siguiente se describe el modelo de usuario grupo de respuesta que puede usar como base para los requisitos de planeación de capacidad.
 
 > [!NOTE]
-> Los números de la tabla siguiente suponen que se usan archivos Wave (.wav) de 16 kHz, mono y 16 bits para todos los archivos de audio del grupo de respuesta. Si usas otros formatos de archivo, como Windows Media Audio (.wma), los números pueden variar.
+> Los números de la tabla siguiente suponen que se usan archivos Wave (.wav) de 16 kHz, mono y 16 bits para todos los archivos de audio del grupo de respuesta. Si usa otros formatos de archivo, como Windows Media Audio (.wma), los números pueden variar.
 
 > [!IMPORTANT]
 > Tenga en cuenta que, para planear la capacidad de recuperación ante desastres, cada grupo de un grupo emparejado debe poder controlar las cargas de trabajo de todos los grupos de respuesta de ambos grupos.
 
 **Modelo de usuario de grupo de respuesta**
 
-|**Métrica**|**Por grupo de servidores Enterprise Edition  <br/> (con 8 servidores front-end)**|**Por servidor Standard Edition**|
+|**Métrica**|**Por Enterprise Edition de <br/> servidores (con 8 servidores front-end)**|**Por Standard Edition servidor**|
 |:-----|:-----|:-----|
 |Llamadas entrantes por segundo  <br/> |16   <br/> |2  <br/> |
 |Llamadas simultáneas conectadas a IVR o MoH  <br/> |480  <br/> |60  <br/> |

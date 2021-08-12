@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6146b6d4a7ca3d988c5dc1042a7f75848cf4fc7b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9fbc1e51c22fbc2efc5ab286b1082f1169c14e89c2abae573ae810a8be04dd63
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092668"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315296"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Administrar la Prueba de Office 365 E1
 ==============================
@@ -56,7 +56,7 @@ Para que sus usuarios mejoren a una suscripción de pago de E1:
 Para más información, consulte [Descripción del servicio de Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
-> Cuando termine el período de Prueba de E1 y el usuario no se actualice inmediatamente a una suscripción que incluya Teams, los datos del usuario no se eliminarán. El usuario seguirá existiendo en Azure Active Directory y todos los datos dentro de Teams se conservarán. Cuando una nueva licencia se asigne al usuario para volver a habilitar las funciones de Teams, todo el contenido seguirá existiendo. 
+> Si la licencia exploratoria E1 de Teams finaliza y un usuario no se actualiza inmediatamente a una suscripción que incluye Teams, la información del usuario no se quitará. El usuario aún existe en Azure Active Directory y toda la información dentro de Team aún permanece. Una vez que al usuario le es asignada una nueva licencia para volver a habilitar la funcionalidad de Teams, todo el contenido continuará existiendo. 
 
 ### <a name="remove-an-office-365-e1-trial-license"></a>Quitar una licencia de Prueba de Office 365 E1
 

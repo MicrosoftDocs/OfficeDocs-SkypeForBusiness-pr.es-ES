@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7977aae272f13a0ffe59ccd9febad2b501dbd54
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: 415d3f31c499dc7d52398f8873a1c047b69b382fce3216618a169c352a657e9a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536706"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315276"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams para RealWear
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Puede editar las propiedades de una implementación existente con las secciones siguientes:'
-ms.openlocfilehash: a49fe0872d83011c433d011e1bb5ce7a348f1bd2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 79a2ab248e27037edf62ade9a3e9689d06be50c90a5fff33ab5b61acdaa5c355
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106876"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333722"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de configuración de implementación
 
@@ -73,8 +73,8 @@ El servidor de administración central se puede cambiar de un grupo de servidore
 > [!IMPORTANT]
 > Cuando haya definido, publicado e implementado el almacén de administración central de la infraestructura ya no podrá cambiarlo de ubicación sin recolocarlo a otro front-end mediante un proceso externo.
 
-Para obtener más información sobre cómo mover el almacén de administración central, consulte [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) en la referencia Windows PowerShell cmdlet.
+Para obtener más información sobre cómo mover el almacén de administración central, vea [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) en la referencia Windows PowerShell cmdlet.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 Para más información sobre cómo definir y configurar estas opciones, consulte [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology).

@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: En este tema se resaltan las opciones de configuración que debe conocer antes de implementar el servidor perimetral de Skype Empresarial Server 2019. Los procesos de implementación y configuración de Skype Empresarial Server 2019 son muy similares a Skype Empresarial Server 2015. En esta sección solo se detallan los aspectos clave que hay que considerar al implementar el grupo piloto. Para conocer los pasos detallados, consulte La implementación del acceso de usuarios externos en Skype Empresarial Server 2019 en la documentación sobre implementación, que describe el proceso de implementación y también proporciona información de configuración para el acceso de usuarios externos.
-ms.openlocfilehash: 00c371b917f2649dba9011fbbce6162b153822d1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: En este tema se resaltan las opciones de configuración que debe tener en cuenta antes de implementar Skype Empresarial Server servidor perimetral de 2019. Los procesos de implementación y configuración de Skype Empresarial Server 2019 son muy similares a Skype Empresarial Server 2015. En esta sección solo se detallan los aspectos clave que hay que considerar al implementar el grupo piloto. Para obtener pasos detallados, vea Deploying external user access in Skype Empresarial Server 2019 en la documentación sobre implementación, que describe el proceso de implementación y también proporciona información de configuración para el acceso de usuarios externos.
+ms.openlocfilehash: 24202bc84be67453eeff321b268f44769d5b11a8eafcd6d93098db7c7b8537fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315086"
 ---
 # <a name="deploy-pilot-edge-server"></a>Implementar el servidor perimetral piloto
 
-En este tema se resaltan las opciones de configuración que debe conocer antes de implementar el servidor perimetral de Skype Empresarial Server 2019. Los procesos de implementación y configuración de Skype Empresarial Server 2019 son muy similares a Skype Empresarial Server 2015. En esta sección solo se detallan los aspectos clave que hay que considerar al implementar el grupo piloto. <!-- For detailed steps, see 
+En este tema se resaltan las opciones de configuración que debe tener en cuenta antes de implementar Skype Empresarial Server servidor perimetral de 2019. Los procesos de implementación y configuración de Skype Empresarial Server 2019 son muy similares a Skype Empresarial Server 2015. En esta sección solo se detallan los aspectos clave que hay que considerar al implementar el grupo piloto. <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
   
 Al navegar por el asistente **Definir nuevo grupo de servidores perimetrales**, repase las principales opciones de configuración recogidas en cada paso. Observe que solo se muestran unas cuantas páginas deeste asistente. 
@@ -29,22 +29,22 @@ Al navegar por el asistente **Definir nuevo grupo de servidores perimetrales**, 
 
 1. Inicie sesión en el equipo en el que Topology Builder esté instalado como miembro del grupo Admins. del dominio y el grupo RTCUniversalServerAdmins.
     
-2. Vaya al nodo de Skype Empresarial Server 2019. haga clic con el botón secundario en **Grupos de servidores perimetrales** y en **Nuevo grupo de servidores perimetrales**.
+2. Vaya al nodo Skype Empresarial Server 2019. haga clic con el botón secundario en **Grupos de servidores perimetrales** y en **Nuevo grupo de servidores perimetrales**.
     
-     ![Definir el cuadro de diálogo Nuevo grupo de servidores perimetrales](../media/migration_ocs_topo_edgepool_page1.JPG)
+     ![Definir el cuadro de diálogo Nuevo grupo perimetral](../media/migration_ocs_topo_edgepool_page1.JPG)
   
 3. Un grupo de servidores perimetrales puede ser un **Grupo de varios equipos** o un **Grupo de un solo equipo**.
     
      ![Definir el cuadro de diálogo FQDN del grupo de servidores perimetrales](../media/migration_ocs_topo_edgepool_page2.JPG)
   
-4. En la página **Seleccionar características**, no habilite la federación ni la federación XMPP. La federación y la federación XMPP se enrutar actualmente a través del servidor perimetral heredado. Estas características se configurarán en una fase posterior de la migración. 
+4. En la página **Seleccionar características**, no habilite la federación ni la federación XMPP. La federación y la federación XMPP se enrutan actualmente a través del servidor perimetral heredado. Estas características se configurarán en una fase posterior de la migración. 
 
   
-5. Siga completando las siguientes páginas del asistente: **FQDN externos,** definir la **dirección IP** interna y definir la dirección **IP externa.**
+5. Siga completando las siguientes páginas del asistente: **FQDN externos**, Definir la **dirección IP** interna y Definir la dirección **IP externa**.
     
-6. En la **página Definir el servidor del** próximo salto, seleccione el director para el próximo salto del grupo de servidores perimetrales heredado. 
+6. En la **página Definir el servidor del** próximo salto, seleccione director para el próximo salto del grupo perimetral heredado. 
     
-     ![Definir el cuadro de diálogo Próximo salto](../media/migration_ocs_topo_edgepool_page7.JPG)
+     ![Definir el cuadro de diálogo Siguiente salto](../media/migration_ocs_topo_edgepool_page7.JPG)
   
 7. En la página Asociar grupos de servidores **front-end** o de mediación, no asocie un grupo con este grupo de servidores perimetrales en este momento. El tráfico de medios externos se enruta actualmente a través del servidor perimetral heredado. Definiremos esta configuración en una fase posterior de la migración. 
     
@@ -55,9 +55,9 @@ Al navegar por el asistente **Definir nuevo grupo de servidores perimetrales**, 
 9. Siga los pasos de la documentación de implementación para instalar los archivos en el nuevo servidor perimetral, configurar certificados e iniciar los servicios. 
 <!-- [Install Edge Servers for Skype for Business Server 2019](../deployment/deploying-external-user-access/install-edge-servers.md) in -->
     
-Es muy importante que siga las directrices de los temas de la documentación sobre implementación. En esta sección solo se ha proporcionado cierta orientación sobre las opciones de configuración al instalar estos roles de servidor. 
+Es muy importante que siga las directrices de los temas de la documentación de implementación. En esta sección solo se ha proporcionado cierta orientación sobre las opciones de configuración al instalar estos roles de servidor. 
 <!-- [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) -->
   
-Ahora debería tener un servidor perimetral heredado implementado en paralelo con una implementación de servidor perimetral de Skype Empresarial Server 2019. Antes de pasar a la siguiente fase, confirme que ambas implementaciones funcionan correctamente, que los servicios se han iniciado y que puede administrar cada una de las implementaciones. 
+Ahora debe tener un servidor perimetral heredado implementado en paralelo con una Skype Empresarial Server de servidor perimetral de 2019. Antes de pasar a la siguiente fase, confirme que ambas implementaciones funcionan correctamente, que los servicios se han iniciado y que puede administrar cada una de las implementaciones. 
   
 

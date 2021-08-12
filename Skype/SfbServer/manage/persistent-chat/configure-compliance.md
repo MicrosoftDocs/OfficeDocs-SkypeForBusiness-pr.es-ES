@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Resumen: obtenga información sobre cómo configurar el servicio de cumplimiento del servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: ee7dbc3ad8e7eedcadcc60850e35b753c5fadb43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ff49a32009b60447823675b90ee4b633ff8f0cb7cfdf3529a3afc26f3c067f79
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815070"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349312"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar el servicio de cumplimiento para el servidor de chat persistente en Skype Empresarial Server 2015
 
 **Resumen:** Obtenga información sobre cómo configurar el servicio de cumplimiento del servidor de chat persistente en Skype Empresarial Server 2015.
 
-El cumplimiento de chat persistente permite a los administradores mantener un archivo de mensajes de chat persistente, así como actividades. El servicio de cumplimiento registra y archiva datos relacionados con cada conversación del servidor de chat persistente, incluido el momento en que un participante:
+El cumplimiento de chat persistente permite a los administradores mantener un archivo de mensajes de chat persistente, así como actividades. El servicio de cumplimiento registra y archiva los datos relacionados con cada conversación del servidor de chat persistente, incluso cuando un participante:
 
 - Se une a un salón de chat persistente
 
@@ -38,14 +38,14 @@ El cumplimiento de chat persistente permite a los administradores mantener un ar
 
 - Descarga un archivo
 
-Esta información se puede recuperar de la base de datos de cumplimiento SQL según sea necesario. 
+Esta información se puede recuperar de la base de datos de SQL cumplimiento según sea necesario. 
 
 > [!NOTE]
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no es compatible con Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si necesita usar el chat persistente, puede migrar usuarios que requieran esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015. 
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configurar el servicio de cumplimiento mediante Windows PowerShell
 
-Una vez habilitado el servicio de cumplimiento mediante el Generador de topologías, puede configurar el servicio con el cmdlet **Set-CsPersistenChatComplianceConfiguration:**
+Después de habilitar el servicio de cumplimiento mediante el Generador de topologías, puede configurar el servicio mediante el cmdlet **Set-CsPersistenChatComplianceConfiguration:**
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
@@ -63,27 +63,27 @@ Puede establecer los siguientes parámetros:
 
 - OneChatRoomPerOutputFile: este parámetro le permite especificar que se crearán informes independientes para cada salón de chat.
 
-- AddChatRoomDetails: cuando se habilita, este parámetro registra detalles adicionales sobre cada salón de chat de la base de datos. Dado que esta configuración puede aumentar considerablemente el tamaño de la base de datos, está deshabilitada de forma predeterminada.
+- AddChatRoomDetails: cuando está habilitado, este parámetro registra detalles adicionales sobre cada salón de chat de la base de datos. Dado que esta configuración puede aumentar considerablemente el tamaño de la base de datos, está deshabilitada de forma predeterminada.
 
 - AddUserDetails: cuando está habilitado, este parámetro registra detalles adicionales sobre cada usuario del salón de chat en la base de datos. Dado que esta configuración puede aumentar considerablemente el tamaño de la base de datos, está deshabilitada de forma predeterminada.
 
-- Identidad: este parámetro permite establecer el ámbito de la configuración de cumplimiento para una colección determinada, incluidos los niveles global, de sitio y de servicio. El valor predeterminado es el nivel global. 
+- Identity: este parámetro permite establecer el ámbito de la configuración de cumplimiento para una colección determinada, incluidos los niveles global, de sitio y de servicio. El valor predeterminado es el nivel global. 
 
 - RunInterval: este parámetro determina la cantidad de tiempo antes de que el servidor cree el siguiente archivo de salida de cumplimiento (el valor predeterminado es 15 minutos).
 
 ## <a name="use-a-customized-compliance-adapter"></a>Usar un adaptador de cumplimiento personalizado
 
-Puede escribir un adaptador personalizado en lugar de usar El XmlAdapter que se instala con el servidor de chat persistente. Para ello, debe proporcionar un ensamblado de .NET Framework que contenga una clase pública que implemente la **interfaz IComplianceAdapter.** Debe colocar este ensamblado en la carpeta de instalación del servidor de chat persistente de cada servidor del grupo de servidores de chat persistente. Cualquiera de los servidores de cumplimiento puede proporcionar datos de cumplimiento al adaptador, pero los servidores de cumplimiento no proporcionarán datos de cumplimiento duplicados a varias instancias del adaptador.
+Puede escribir un adaptador personalizado en lugar de usar el XmlAdapter que se instala con el servidor de chat persistente. Para ello, debe proporcionar un ensamblado .NET Framework que contenga una clase pública que implemente la **interfaz IComplianceAdapter.** Debe colocar este ensamblado en la carpeta de instalación del servidor de chat persistente de cada servidor del grupo de servidores de chat persistente. Cualquiera de los servidores de cumplimiento puede proporcionar datos de cumplimiento al adaptador, pero los servidores de cumplimiento no proporcionarán datos de cumplimiento duplicados a varias instancias del adaptador.
 
 La interfaz se define en el ensamblado Compliance.dll en el espacio de nombres  `Microsoft.Rtc.Internal.Chat.Server.Compliance` . La interfaz define dos métodos que el adaptador personalizado debe implementar.
 
-El servidor de cumplimiento de chat persistente llamará al método siguiente cuando el adaptador se cargue por primera vez. Contiene  `AdapterConfig` la configuración de cumplimiento de chat persistente que es relevante para el adaptador de cumplimiento:
+El servidor de cumplimiento de chat persistente llamará al siguiente método cuando se cargue por primera vez el adaptador. Contiene  `AdapterConfig` la configuración de cumplimiento de chat persistente que es relevante para el adaptador de cumplimiento:
 
 ```cpp
 void SetConfig(AdapterConfig config)
 ```
 
-El servidor de cumplimiento de chat persistente llama al siguiente método a intervalos periódicos, siempre y cuando haya nuevos datos para traducir. Este intervalo de tiempo es igual al establecido en la  `RunInterval` configuración de cumplimiento de chat persistente:
+El servidor de cumplimiento de chat persistente llama al siguiente método a intervalos periódicos siempre que haya nuevos datos que traducir. Este intervalo de tiempo es igual al  `RunInterval` establecido en la configuración de cumplimiento de chat persistente:
 
 ```cpp
 void Translate(ConversationCollection conversations)
@@ -97,7 +97,7 @@ Los datos de cumplimiento se entregan como XML, que puede transformar en el form
 
 ### <a name="output-format"></a>Formato de salida
 
-El resultado del servicio de cumplimiento se clasifica por conversación (el elemento Conversation) y, a continuación, por mensaje (el elemento Messages), como se muestra en el siguiente ejemplo de código:
+El resultado del servicio de cumplimiento se clasifica por conversación (el elemento Conversation) y, a continuación, por mensaje (el elemento Messages), como se muestra en el ejemplo de código siguiente:
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -123,7 +123,7 @@ Un elemento Conversation contiene cuatro elementos (Channel, FirstMessage, Start
 </FirstMessage>
 ```
 
-Un elemento Message contiene dos elementos (Sender y DateTimeUTC) y tres atributos (Type, Content e ID). El elemento Sender representa el usuario que envía el mensaje y el elemento DateTimeUTC representa cuándo se produce un evento, como se muestra en el siguiente ejemplo de código:
+Un elemento Message contiene dos elementos (Sender y DateTimeUTC) y tres atributos (Type, Content e ID). El elemento Sender representa al usuario que envía el mensaje y el elemento DateTimeUTC representa cuándo se produce un evento, como se muestra en el ejemplo de código siguiente:
 
 ```xml
 <Message type="JOIN" content="" id="0">
@@ -149,10 +149,10 @@ Cada elemento Sender contiene cinco atributos: nombre de usuario, Id., correo el
 |**Atributo**|**Descripción**|**Opcional/Obligatorio**|
 |:-----|:-----|:-----|
 |Nombre de usuario  <br/> |El nombre de la regla.  <br/> |Opcional  <br/> |
-|ID  <br/> |Identificador único del remitente.  <br/> |Obligatorio  <br/> |
-|Correo electrónico  <br/> |La dirección de correo electrónico del remitente.  <br/> |Opcional  <br/> |
+|ID  <br/> |Id. único del remitente.  <br/> |Obligatorio  <br/> |
+|Correo electrónico  <br/> |Dirección de correo electrónico del remitente.  <br/> |Opcional  <br/> |
 |Interno  <br/> |Determina si el usuario es un usuario interno o un usuario federado. Si el valor está establecido en true, el usuario es interno.  <br/> |Opcional  <br/> |
-|Uri  <br/> |URI del SIP del usuario.  <br/> |Obligatorio  <br/> |
+|Uri  <br/> |URI de SIP del usuario.  <br/> |Obligatorio  <br/> |
 
 En los ejemplos siguientes se muestran los tipos de mensaje que puede contener el elemento Messages. Contiene ejemplos también de la forma en la que se usa cada elemento.
 
@@ -165,7 +165,7 @@ Unirse: un usuario se une a un salón de chat.
 </Message
 ```
 
-Parte: un usuario sale de un salón de chat.
+Parte: un usuario deja un salón de chat.
 
 ```xml
 <Message type="PART" content="" id="0">
@@ -210,7 +210,7 @@ Descarga de archivos: un usuario descarga un archivo.
 </Message>
 ```
 
-### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>XSD de salida de chat persistente predeterminado y transformación XSL de ejemplo
+### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Xsd de salida de chat persistente predeterminada y transformación XSL de ejemplo
 
 El ejemplo de código siguiente contiene el resultado predeterminado del servidor de cumplimiento:
 

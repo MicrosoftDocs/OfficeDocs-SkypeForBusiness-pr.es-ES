@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6071d567972babbe16bae8ce00852be713199ef0
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 7c94094720a68bf14c0c6b3f66d8b45c4a7a3251cd1159645b1226a711d562a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53586989"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323782"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Mensajes de correo electrónico de ejemplo y encuestas para actualizar las comunicaciones básicas
 

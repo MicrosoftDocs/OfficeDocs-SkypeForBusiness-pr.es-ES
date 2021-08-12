@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
-description: El cmdlet Get-CcSiteLogDirectory muestra el directorio actual donde se almacenan los registros de nivel de sitio para Skype Empresarial Cloud Connector Edition.
-ms.openlocfilehash: cace3ce3757294adbb3c55db24c619925f55ce5a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: El cmdlet Get-CcSiteLogDirectory muestra el directorio actual donde se almacenan los registros de nivel Skype for Business Edición de conector de nube sitio.
+ms.openlocfilehash: 7c15d0b715384fd18522122571da69f58a83ed337d46420e83f7ac35cfd0c018
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349522"
 ---
 # <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  
-El cmdlet Get-CcSiteLogDirectory muestra el directorio actual donde se almacenan los registros de nivel de sitio para Skype Empresarial Cloud Connector Edition. 
+El cmdlet Get-CcSiteLogDirectory muestra el directorio actual donde se almacenan los registros de nivel Skype for Business Edición de conector de nube sitio. 
   
-Este cmdlet se aplica a Skype Empresarial Cloud Connector Edition 1.4.1, 1.4.2.
+Este cmdlet se aplica a Skype for Business Edición de conector de nube 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcSiteLogDirectory
@@ -53,14 +53,14 @@ La carpeta predeterminada es C:\Users \% userprofile%\CloudConnector\SiteRoot\Lo
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguno. El Get-CcSiteLogDirectory no acepta entradas canalizadas.
+Ninguno. El cmdlet Get-CcSiteLogDirectory no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
 
 El comando devuelve una ruta de acceso de archivo.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
 [Set-CcSiteDirectory](set-ccsitedirectory.md)

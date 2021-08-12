@@ -17,24 +17,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: Lea este tema para obtener información sobre cómo implementar la apariencia de línea compartida (SLA) en Skype Empresarial Server 2015, actualización acumulativa de noviembre de 2015. SLA es una característica para controlar varias llamadas en un número específico denominado número compartido.
-ms.openlocfilehash: 7758354b7c4be123cb9b5a482af3304b069931a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de0b0d54fed0b76c1e20b67b743dfef2c4f784589b2eb3867529201493242e32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104916"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314916"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Implementar la apariencia de línea compartida en Skype Empresarial Server 2015
 
 Lea este tema para obtener información sobre cómo implementar la apariencia de línea compartida (SLA) en Skype Empresarial Server 2015, actualización acumulativa de noviembre de 2015. SLA es una característica para controlar varias llamadas en un número específico denominado número compartido.
 
-Para obtener más información acerca de esta característica, vea [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
+Para obtener más información acerca de esta característica, vea [Plan for Shared Line Appearance in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
 
 Apariencia de línea compartida (SLA) es una nueva característica de Skype Empresarial Server, actualización acumulativa de noviembre de 2015. Para habilitar esta característica, primero debe haber implementado esta actualización acumulativa.
 
 ### <a name="install-shared-line-appearance"></a>Instalar apariencia de línea compartida
 
-1. Después de implementar Skype Empresarial Server, actualización acumulativa de noviembre de 2015, ejecute la revisión en cada  `SkypeServerUpdateInstaller.exe` servidor front-end del grupo.
+1. Después Skype Empresarial Server, se implementa la actualización acumulativa de noviembre de 2015, ejecute la revisión en cada `SkypeServerUpdateInstaller.exe` servidor front-end del grupo.
 
 2. El instalador implementará la versión más reciente de la aplicación SLA, pero la aplicación no está habilitada de forma predeterminada. Se habilita siguiendo los pasos descritos a continuación:
 
@@ -68,7 +68,7 @@ Apariencia de línea compartida (SLA) es una nueva característica de Skype Empr
 
     El cmdlet Set-CsSlaConfiguration marca la cuenta Telefonía IP empresarial SLAGroup1 como una entidad SLA y el número de SLAGroup1 se convierte en el número del grupo sla. Todas las llamadas a SLAGroup1 llamarán a todo el grupo de SLA.
 
-    En el siguiente ejemplo se crea un grupo sla para un usuario de Telefonía IP empresarial existente, SLAGroup1, y se usa el número asignado para SLAGroup1 como el número de línea principal de SLA.
+    En el ejemplo siguiente se crea un grupo de SLA para un usuario de Telefonía IP empresarial existente, SLAGroup1, y se usa el número asignado para SLAGroup1 como número de línea principal de SLA.
 
     El comando establece el número máximo de llamadas simultáneas para el nuevo grupo sla en 3, y para las llamadas que supere eso para escuchar una señal de ocupado:
 
@@ -79,7 +79,7 @@ Apariencia de línea compartida (SLA) es una nueva característica de Skype Empr
     Puede usar Set-CsSlaConfiguration para crear un nuevo grupo de SLA o modificar uno existente.
 
     > [!NOTE]
-    > Tenga en cuenta que lo que especifique debe ser una cuenta de usuario  `-Identity` Telefonía IP empresarial cuenta de usuario habilitada.
+    > Tenga en cuenta que lo que especifique debe ser una cuenta de usuario `-Identity` Telefonía IP empresarial cuenta de usuario habilitada.
 
 2. Agregue delegados al grupo mediante el cmdlet [Add-CsSlaDelegates:](/powershell/module/skype/add-cssladelegates?view=skype-ps)
 
@@ -88,7 +88,7 @@ Apariencia de línea compartida (SLA) es una nueva característica de Skype Empr
           <NameOfDelegate@domain>
    ```
 
-    En el ejemplo siguiente se agrega un usuario al grupo SLA. Cada usuario agregado al grupo debe ser un usuario Telefonía IP empresarial habilitado para la aplicación:
+    En el ejemplo siguiente se agrega un usuario al grupo SLA. Cada usuario agregado al grupo debe ser un usuario Telefonía IP empresarial usuario habilitado para la aplicación:
 
    ```powershell
    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com

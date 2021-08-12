@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 035fee7625ce391f477a159e47f66f3b7a2cdfb0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d5083eefec20eeb2d3f2b6f03cac4e08c0ac4494efefb15fc321a2c14abef750
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092498"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349492"
 ---
 # <a name="teams-for-retail"></a>Teams para el comercio
 

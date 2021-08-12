@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088b36f546cebe67e10d840075e601e96a6df6e2
-ms.sourcegitcommit: 39d26edd43b6066d5a6dee2a5ad1354a1e560a0d
+ms.openlocfilehash: adc229264513d7ec4ca692dca1731d7390b80dc243b4571757607c1c76b7cacb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323952"
 ---
 # <a name="plan-for-operator-connect"></a>Plan para operadores Conectar
 
