@@ -1,5 +1,5 @@
 ---
-title: Configurar un tronco con desvío de medios en Skype Empresarial Server
+title: 'Skype Empresarial Server: configurar un tronco con desvío de medios'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Siga estos pasos para configurar un tronco con la omisión de medios habilitada. '
-ms.openlocfilehash: 861a57c50aa7092bf654fb626d4f1e94e3b3449539d33ead72b4925f8b102f4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Cómo configurar un tronco con la omisión de medios habilitada. "
+ms.openlocfilehash: 51456576091c1d9dba88aceec7835fb2a86e53cb8983631341c5ab8b8f4c3c23
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849965"
 ---
-# <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configurar un tronco con desvío de medios en Skype Empresarial Server
+# <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>Skype Empresarial Server: configurar un tronco con desvío de medios 
 
 Siga estos pasos para configurar un tronco con la omisión de medios habilitada. Para configurar un tronco con desvío de medios deshabilitado, vea [Configure a trunk without media bypass in Skype Empresarial Server](configure-a-trunk-without-media-bypass.md). El desvío de medios es útil para minimizar la cantidad de servidores de mediación implementados. En general, un grupo de servidores de mediación se implementa en un sitio central y controla puertas de enlace en los sitios de sucursal. Habilitar el desvío de medios permite que las llamadas de red telefónica conmutada (RTC) desde clientes en sitios de sucursal se dirijan directamente a través de las puertas de enlace a esos sitios. Skype Empresarial Server rutas de llamadas salientes y directivas de Telefonía IP empresarial deben configurarse correctamente para que las llamadas RTC de clientes en un sitio de sucursal se enrutan a la puerta de enlace adecuada.
 

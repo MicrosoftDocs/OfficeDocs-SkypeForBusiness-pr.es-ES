@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: Los agentes son usuarios designados para responder a las llamadas del grupo de respuesta. Los grupos de respuesta deben tener un grupo de agentes asignado que identifique los agentes que pueden recibir llamadas para el grupo de respuesta. Una forma de crear un grupo de agentes es definir un grupo personalizado seleccionando usuarios elegibles. Los usuarios elegibles están habilitados para Skype Empresarial Server y Telefonía IP empresarial.
-ms.openlocfilehash: c245ea9816d60fc8448eeeb00bdfc8351e345784
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 59575537fd95a08fc457fedc39bf95b42f8890bd39d651735f0030658b37f8cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108006"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313408"
 ---
 # <a name="select-agents"></a>Seleccionar agentes
 
@@ -32,7 +32,7 @@ Use el cuadro **de diálogo Seleccionar agentes** para seleccionar los usuarios 
 
 En la siguiente lista se describen los controles del **cuadro de diálogo Seleccionar** agentes.
 
-- **Buscar** Busca la dirección SIP o el nombre para mostrar de un usuario. Escriba todo o parte de la dirección o el nombre. Deje el cuadro de búsqueda vacío para mostrar todos los usuarios habilitados para Skype Empresarial Server y Telefonía IP empresarial.
+- **Buscar** Busca la dirección SIP o el nombre para mostrar de un usuario. Escriba todo o parte de la dirección o el nombre. Deje el cuadro de búsqueda vacío para mostrar todos los usuarios que están habilitados para Skype Empresarial Server y Telefonía IP empresarial.
 
 - **Máximo de usuarios para mostrar** Cambia el número de resultados devueltos que se muestran. Use este contador para limitar la búsqueda si espera muchos resultados.
 

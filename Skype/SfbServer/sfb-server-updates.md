@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones para Skype Empresarial Server 2015/2019 y Lync 2013 en un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
-ms.openlocfilehash: d59037f500bff249ab814632fef100821d63b7b7
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 615efffd595120f7833c3c51d585a381b46f5cc856f11620d60da532dca37334
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574125"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341525"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
@@ -30,7 +30,7 @@ Para obtener las últimas Skype Empresarial online y Microsoft 365 actualizacion
 
 Kb 4470124 es el KB principal de Skype Empresarial Server 2019 que tiene toda la lista histórica de todas las actualizaciones acumulativas y revisiones que se han publicado. 
 
-|Nombre de paquete|Número de KB|Fecha de lanzamiento|
+|Nombre del paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
 |Skype Empresarial Server 2019 Actualización acumulativa 4 |[Kb 4470124](https://support.microsoft.com/kb/4470124)| Septiembre de 2020 |
 |Skype Empresarial Server 2019 Actualización acumulativa 3 Revisión 1 |[Kb 4470124](https://support.microsoft.com/kb/4470124)| Julio de 2020 |
@@ -42,7 +42,7 @@ Kb 4470124 es el KB principal de Skype Empresarial Server 2019 que tiene toda la
 
 ### <a name="skype-for-business-server-2019-tools"></a>Skype Empresarial Server 2019
 
-|Nombre de paquete |Fecha de lanzamiento|
+|Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |
 |[UCMA 6.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Junio de 2019       |
 |[Tiempo de ejecución de la API administrada de comunicaciones unificadas 5.0](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | Junio de 2018        |
@@ -54,7 +54,7 @@ Kb 4470124 es el KB principal de Skype Empresarial Server 2019 que tiene toda la
 
 [Kb 3061064](https://support.microsoft.com/kb/3061064) todas las actualizaciones acumulativas que se han publicado. 
 
-|Nombre de paquete|Número de KB|Fecha de lanzamiento|
+|Nombre del paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
 |Skype Empresarial Server 2015 Actualización acumulativa 11 Revisión 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Julio de 2020 |
 |Skype Empresarial Server 2015 Actualización acumulativa 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 de mayo de 2020 |
@@ -78,7 +78,7 @@ Kb 4470124 es el KB principal de Skype Empresarial Server 2019 que tiene toda la
 
 ### <a name="skype-for-business-server-2015-tools"></a>Skype Empresarial Server de 2015
 
-|Nombre de paquete |Fecha de lanzamiento|
+|Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |
 |[UCMA 5.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Mayo de 2015       |
 |[Tiempo de ejecución de la API administrada de comunicaciones unificadas 5.0](https://www.microsoft.com/download/details.aspx?id=47344)     |   Mayo de 2015      |
@@ -89,7 +89,7 @@ Kb 4470124 es el KB principal de Skype Empresarial Server 2019 que tiene toda la
 
 [Kb 2809243](https://support.microsoft.com/kb/2809243) contiene todas las actualizaciones acumulativas que se han publicado.
 
-|Nombre de paquete|Número de KB|Fecha de lanzamiento|
+|Nombre del paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
 |Actualización acumulativa de Lync Server 2013 10 Revisión 4 |[Kb 4515509](https://support.microsoft.com/kb/4515509)|Julio de 2020|
 |Actualización acumulativa de Lync Server 2013 10 Revisión 3 |[Kb 4515509](https://support.microsoft.com/kb/4515509)|Septiembre de 2019|
@@ -123,7 +123,7 @@ Kb 4470124 es el KB principal de Skype Empresarial Server 2019 que tiene toda la
 
 ### <a name="lync-server-2013-dev-tools"></a>Herramientas de desarrollo de Lync Server 2013
 
-|Nombre de paquete|Fecha de lanzamiento|
+|Nombre del paquete|Fecha de lanzamiento|
 |:--- |:--- |
 | Actualización acumulativa de api administrada de comunicaciones unificadas 4.0 |Julio de 2013 |
 | SDK de Lync Server 2013 |Febrero de 2013|
@@ -138,7 +138,7 @@ Kb 4470124 es el KB principal de Skype Empresarial Server 2019 que tiene toda la
 
 La topología completa consta de 7 máquinas virtuales que le permiten evaluar completamente las API de microsoft Lync 2013, Microsoft Exchange 2013, SharePoint 2013 y la plataforma de desarrolladores de UC (incluidas el SDK de Microsoft Lync 2013, la API administrada de servicios web 2.0 de Exchange, el SDK de Microsoft Lync Server 2013 y la API administrada de comunicaciones unificadas de Microsoft 4.0).
 
-Nombre de paquete |Fecha de lanzamiento|
+Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |
 |[Unidad de prueba - Lync Server 2013: parte 1 de 3](https://www.microsoft.com/download/details.aspx?id=40266) |Septiembre de 2013 |
 |[Unidad de prueba - Lync Server 2013: parte 2 de 3](https://www.microsoft.com/download/details.aspx?id=40267) |Septiembre de 2013 |
@@ -146,7 +146,7 @@ Nombre de paquete |Fecha de lanzamiento|
 
 ### <a name="lync-2013-tools"></a>Herramientas de Lync 2013
 
-|Nombre de paquete |Fecha de lanzamiento|
+|Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |
 | Analizador de conectividad de Lync (32 bits) RETIRADO |Junio de 2017 |
 | Lync Connectivity Analyzer (64 bits) RETIRED |Junio de 2017 |
@@ -165,7 +165,7 @@ Nombre de paquete |Fecha de lanzamiento|
 
 ### <a name="lync-2013-downloadable-documentation"></a>Documentación descargable de Lync 2013
 
-Nombre de paquete |Fecha de lanzamiento|
+Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |
 |[Archivo de ayuda de documentación de Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35405)|Agosto de 2015 |
 
@@ -175,7 +175,7 @@ Nombre de paquete |Fecha de lanzamiento|
 
 [La 2493736 KB](https://support.microsoft.com/kb/2493736) contiene todas las actualizaciones acumulativas que se han publicado.
 
-|Nombre de paquete|Número de KB|Fecha de lanzamiento|
+|Nombre del paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
 |Actualización acumulativa de Lync Server 2010 18 Revisión 1 | Kb 2493736 |Junio de 2019|
 |Actualización acumulativa 18 de Lync Server 2010| Kb 2493736 |Enero de 2019|
@@ -199,7 +199,7 @@ Nombre de paquete |Fecha de lanzamiento|
 
 ### <a name="group-chat-2010-updates"></a>Actualizaciones de Chat en grupo de 2010
 
-|Nombre de paquete|Número de KB|Fecha de lanzamiento|
+|Nombre del paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
 |Actualización acumulativa para Lync Server 2010, Chat en grupo |[Kb 2884623](https://support.microsoft.com/kb/2884623) |Octubre de 2013|
 |Actualización acumulativa para Lync Server 2010, Herramienta de administración de chat en grupo |[KB 2884631](https://support.microsoft.com/kb/2884631) |Octubre de 2013|
@@ -207,7 +207,7 @@ Nombre de paquete |Fecha de lanzamiento|
 
 ### <a name="lync-2010-dev-tools"></a>Herramientas de desarrollo de Lync 2010
 
-|Nombre de paquete |Fecha de lanzamiento|
+|Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |
 | SDK de Lync Server 2010 |Noviembre de 2010 |
 | Lync 2010 SDK |Marzo de 2011 |
@@ -218,7 +218,7 @@ Nombre de paquete |Fecha de lanzamiento|
 
 ### <a name="lync-2010-tools"></a>Herramientas de Lync 2010
 
-|Nombre de paquete |Fecha de lanzamiento|
+|Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |
 | MI un experto para Microsoft Lync Server 2010 |Marzo de 2012 |
 | Analizador de procedimientos recomendados de Lync Server 2010 |Febrero de 2011 |
@@ -231,7 +231,7 @@ Nombre de paquete |Fecha de lanzamiento|
 
 ### <a name="lync-2010-downloadable-documentation"></a>Documentación descargable de Lync 2010
 
-Nombre de paquete |Fecha de lanzamiento|
+Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |
 |[Archivo de ayuda de documentación de Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|Marzo de 2012 |
 |[Página de bienvenida de Lync Server 2010](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|Octubre de 2012 |
@@ -247,7 +247,7 @@ Visite el sitio de descarga del Kit de recursos de [Microsoft Lync Server 2010](
 
 ### <a name="group-chat"></a>Group Chat
 
-Nombre de paquete |Fecha de lanzamiento|
+Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |
 | Chat en grupo de Lync Server 2010 |Noviembre de 2010 |
 | Herramienta de administración de chat en grupo de Lync Server 2010 |Noviembre de 2010 |

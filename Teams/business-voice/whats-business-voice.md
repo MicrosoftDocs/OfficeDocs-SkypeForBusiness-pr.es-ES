@@ -19,12 +19,12 @@ description: Microsoft 365 Business Voice es una opción económica de llamadas 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 6071264efda73f129890ce4c43131a7580fe0595
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.openlocfilehash: 3f6f37a19ef1a9892ad5bbaa95c19b79500ad1d7dd09841a0a2cc9cfac1729d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102816"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332962"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>¿Qué es Microsoft 365 Empresa Voice?
 
@@ -41,7 +41,7 @@ Business Voice es para usted si su organización tiene 300 o menos empleados y t
 - Microsoft 365 Empresa Básico
 - Microsoft 365 Empresa Estándar
 - Microsoft 365 Empresa Premium
-- Microsoft 365 F1
+- Microsoft 365 F1
 - Microsoft 365 F3
 - Office 365 F3
 - Microsoft y Office 365 Enterprise E1 o E3

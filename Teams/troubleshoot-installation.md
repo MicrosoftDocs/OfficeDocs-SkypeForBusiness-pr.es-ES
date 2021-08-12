@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Obtenga información sobre cómo solucionar problemas de instalación y actualización de la aplicación cliente de escritorio de Teams en Windows.
-ms.openlocfilehash: 6235bd6336940d7d36a7de526eaaf1fbb93f5323
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
-ms.translationtype: MT
+ms.openlocfilehash: 7b482daae7378027418896fee718ae5beb88f02f0bcccc9ed8ce6fc988cf8ab6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768379"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350198"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Solución de problemas de instalación y actualización de Microsoft Teams en Windows
 
@@ -52,7 +52,7 @@ Si SquirrelSetup.log no indica la causa o si necesita más información para sol
 Cuando Teams se instala correctamente, la ubicación del registro cambia de %LocalAppData%\SquirrelTemp a %LocalAppData%\Microsoft\Teams. En esta ubicación, hay dos archivos de registro interesantes, SquirrelSetup.log y logs.txt.
 
 - El archivo SquirrelSetup.log en esta ubicación está escrito por Update.exe, que es un archivo ejecutable que se aplica a la aplicación Teams.
-- El archivo Logs.txt se usa en la aplicación Teams (especialmente en Teams.exe) para registrar eventos de aplicación importantes. Es probable que contenga información de error.
+- El archivo Logs.txt se usa en la aplicación Teams (especialmente en Teams.exe) para registrar eventos de aplicación importantes. Es probable que contenga información sobre fallos.
 
 Estos archivos de registro contienen información de identificación personal (PII), por lo que no se envían a Microsoft.
 
@@ -80,7 +80,7 @@ En esta sección, se describe cómo recopilar y analizar los registros del siste
         ```console
         cd /d %TEMP%
         ```
-    2. Copie los registros de la aplicación y de configuración. Tenga en cuenta que, en función del momento del error, es posible que algunos de estos registros no estén presentes.
+    2. Copie los registros de configuración y de aplicación. Tenga en cuenta que, en función del momento del error, es posible que algunos de estos registros no estén presentes.
 
         ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log

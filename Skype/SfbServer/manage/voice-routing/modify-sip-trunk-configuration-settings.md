@@ -1,5 +1,5 @@
 ---
-title: Modificar las opciones de configuración del tronco SIP en Skype Empresarial Server
+title: Skype Empresarial Configuración del tronco SIP serverModify
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Los valores de configuración de tronco SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de la Red telefónica conmutada (RTC), una central de conmutación pública de IP (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios. '
-ms.openlocfilehash: e426f2d9980f49a5203bec2cb47555f94f7551f3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Las opciones de configuración del tronco SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de red telefónica conmutada, una central de conmutación IP (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios. '
+ms.openlocfilehash: 7f6a0d0bd39ff466b279bbef3b5727e1d3ea17e3285e71f646b26ff2689fa760
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849925"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar las opciones de configuración del tronco SIP en Skype Empresarial Server
+# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype Empresarial Configuración del tronco SIP serverModify
 
 Los valores de configuración de tronco SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de la Red telefónica conmutada (RTC), una central de conmutación pública de IP (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios. Estos valores determinan lo siguiente:
 
@@ -26,9 +26,9 @@ Los valores de configuración de tronco SIP definen la relación y las capacidad
 - Las condiciones en las que se envían los paquetes de protocolo de control de transporte en tiempo real (RTCP).
 - Si se requiere o no el cifrado del protocolo de tiempo real seguro (SRTP) en cada tronco.
 
-Al instalar Skype Empresarial Server, se crea una colección global de opciones de configuración de tronco SIP. Los administradores también pueden crear colecciones de valores personalizadas en el ámbito del sitio o servicio (solo para el servicio de puerta de enlace de RTC). Cualquiera de estas colecciones se puede modificar más adelante mediante el Panel de control de Skype Empresarial Server o Windows PowerShell.
+Al instalar Skype Empresarial Server, se crea una colección global de opciones de configuración de tronco SIP. Los administradores también pueden crear colecciones de valores personalizadas en el ámbito del sitio o servicio (solo para el servicio de puerta de enlace de RTC). Cualquiera de estas colecciones se puede modificar más adelante mediante el Panel de control Skype Empresarial Server o Windows PowerShell.
 
-Al modificar las opciones de configuración del tronco SIP mediante el Panel de control del servidor de Skype Empresarial Server, hay disponibles las siguientes opciones:
+Al modificar las opciones de configuración del tronco SIP mediante el Panel de control Skype Empresarial Server servidor, hay disponibles las siguientes opciones:
 
 |Valor de IU |Parámetro de PowerShell |Descripción |
 |--|--|--|
@@ -53,13 +53,13 @@ Al modificar las opciones de configuración del tronco SIP mediante el Panel de 
 |||
 
 > [!Note]
-> Los cmdlets CsTrunkConfiguration de Skype Empresarial Server admiten propiedades adicionales que no se muestran en el Panel de control de Skype Empresarial Server. Para obtener más información, vea el tema de ayuda para el cmdlet [Set-CsTrunkConfiguration.](/powershell/module/skype/Set-CsTrunkConfiguration) 
+> Los cmdlets Skype Empresarial Server CsTrunkConfiguration admiten propiedades adicionales que no se muestran en el Panel Skype Empresarial Server control. Para obtener más información, vea el tema de ayuda para el cmdlet [Set-CsTrunkConfiguration.](/powershell/module/skype/Set-CsTrunkConfiguration) 
 
-**Para modificar las opciones de configuración del tronco SIP mediante el Panel de control de Skype Empresarial Server**
+**Para modificar las opciones de configuración del tronco SIP mediante el Panel Skype Empresarial Server control**
 
-1. En el Panel de control de Skype Empresarial Server, haga clic en **Enrutamiento** de voz y, a continuación, haga clic en **Configuración de tronco.**
+1. En el Panel Skype Empresarial Server control, haga clic en **Enrutamiento** de voz y, a continuación, haga clic en **Configuración de tronco.**
 2. En la pestaña **Configuración de tronco** haga doble clic en las opciones de configuración de troncos que se modificarán. Tenga en cuenta que solo puede editar un grupo de opciones de configuración a la vez. Si desea realizar los mismos cambios en varias colecciones, utilice Windows PowerShell.
 3. En el **cuadro de diálogo Editar** configuración de tronco, realice las selecciones adecuadas y, a continuación, haga clic en **Aceptar**.
 4. La propiedad Estado de la recopilación se actualizará a Sin confirmar. Para confirmar los cambios y eliminar la colección, haga clic **en Confirmar** y, a continuación, haga clic en **Confirmar todo**.
 5. En el **cuadro de diálogo Configuración de voz** no confirmada, haga clic en **Aceptar**.
-6. En el **cuadro de diálogo Panel de control de Skype Empresarial Server,** haga clic en **Aceptar**.
+6. En el **cuadro Skype Empresarial Server panel de control,** haga clic en **Aceptar**.

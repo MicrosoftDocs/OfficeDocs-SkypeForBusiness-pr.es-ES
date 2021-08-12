@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 description: tblLastChatId contiene el último id. de chat generado (y usado en la tabla tblChat) para cada usuario.
-ms.openlocfilehash: 80664d6b296fce9b4909674f9d21b1aa13285826
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ecd707a8e6c9dbec220f137c69042c22ac6e1d8a4e46a46e4c2d8a6f035c8a0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816010"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322942"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
@@ -38,6 +38,6 @@ tblLastChatId contiene el último id. de chat generado (y usado en la tabla tblC
 |\<nodeID, lastChatID\>  <br/> |Clave principal (nodeID es suficiente para el procesamiento).  <br/> |
 |nodeID  <br/> |Clave externa con búsqueda en la tabla tblNode.nodeID.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [tblChat](tblchat.md)

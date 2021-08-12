@@ -1,5 +1,5 @@
 ---
-title: Crear una nueva colección de opciones de configuración de tronco en Skype Empresarial Server
+title: 'Skype Empresarial Server: crear una nueva colección de opciones de configuración de tronco'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Los valores de configuración de tronco SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de la Red telefónica conmutada (RTC), una central de conmutación pública de IP (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios.
-ms.openlocfilehash: a1be9ff54da001b1d59cdc2bda47c8bd3611418a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Las opciones de configuración del tronco SIP definen la relación entre un servidor de mediación y la puerta de enlace de red telefónica conmutada (RTC), una central de conmutación IP (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios.
+ms.openlocfilehash: 4e9e6164b7776181b85478c5d420f0bf5e296ac4c02fc23494c5af8808474566
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849945"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Crear una nueva colección de opciones de configuración de tronco en Skype Empresarial Server
+# <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype Empresarial Server: crear una nueva colección de opciones de configuración de tronco
 
 Los valores de configuración de tronco SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de la Red telefónica conmutada (RTC), una central de conmutación pública de IP (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios. Estos valores determinan lo siguiente:
 - Si se debe habilitar el desvío de medios en los troncos.
@@ -52,14 +52,14 @@ Al crear opciones de configuración de tronco SIP con el Panel de control deSkyp
 ||||
 
 > [!Note]
-> Los cmdlets CsTrunkConfiguration de Skype Empresarial Server admiten propiedades adicionales que no se muestran en el Panel de control de Skype Empresarial Server. Para obtener más información, vea el tema de ayuda para el cmdlet [New-CsTrunkConfiguration.](/powershell/module/skype/New-CsTrunkConfiguration) 
+> Los cmdlets Skype Empresarial Server CsTrunkConfiguration admiten propiedades adicionales que no se muestran en Skype Empresarial Server Panel de control. Para obtener más información, vea el tema de ayuda para el cmdlet [New-CsTrunkConfiguration.](/powershell/module/skype/New-CsTrunkConfiguration) 
 
-**Para crear nuevas opciones de configuración de tronco mediante el Panel de control de Skype Empresarial Server**
+**Para crear nuevas opciones de configuración de tronco mediante Skype Empresarial Server Panel de control**
 
-1. En el Panel de control de Skype Empresarial Server, haga clic en **Enrutamiento** de voz y, a continuación, haga clic en **Configuración de tronco.**
+1. En el Panel Skype Empresarial Server control, haga clic en **Enrutamiento** de voz y, a continuación, haga clic en **Configuración de tronco.**
 2. En la pestaña **Configuración de tronco**, haga clic en **Nuevo** y luego haga clic en **Tronco de sitio** para crear el nuevo parámetro en el ámbito del sitio o en **Tronco de grupo** para crear el nuevo parámetro en el ámbito del servicio.
 3. En el cuadro de diálogo Seleccionar un sitio o Seleccionar un servicio (el cuadro de diálogo que aparece dependerá de si va **a** crear opciones de ámbito de sitio o de ámbito de servicio), seleccione la ubicación de las nuevas opciones de configuración y, **a** continuación, haga clic en **Aceptar**. Si el cuadro de diálogo está en blanco, significa que no hay ningún lugar para crear la nueva configuración; por ejemplo, si el cuadro de diálogo Seleccionar un sitio está en blanco, significa que ya se ha asignado **a** todos los sitios una colección de sitios de configuración de tronco y cada sitio (y cada servicio) solo puede hospedar una de estas colecciones. En ese caso, puede eliminar la colección existente y crear una nueva o simplemente cambiar la colección existente.
 4. En el cuadro de diálogo **Nueva configuración de tronco**, relacione las selecciones adecuadas y haga clic en **Aceptar**.
 5. La propiedad **Estado** de la colección se actualizará a **No confirmado**. Para confirmar los cambios y eliminar la colección, haga clic en **Confirmar** y luego en **Confirmar todo**.
 6. En el cuadro de diálogo **Configuración de voz sin confirmar**, haga clic en **Aceptar**.
-7. En el cuadro de diálogo Panel de control de **Skype Empresarial,** haga clic en **Aceptar**.
+7. En el **cuadro Skype Empresarial panel de control,** haga clic en **Aceptar**.

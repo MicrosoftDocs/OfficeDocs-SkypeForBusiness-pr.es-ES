@@ -12,20 +12,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
-description: En la tabla siguiente se enumeran los cmdlets de Skype Empresarial Cloud Connector Edition con una breve descripción y vínculos a más información.
-ms.openlocfilehash: 3739518dd8ddcd17bce8108228d0d643ebaa79a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: En la tabla siguiente se enumeran Skype for Business Edición de conector de nube cmdlets con una breve descripción y vínculos a más información.
+ms.openlocfilehash: a5a29003db50f79440b6bd0393bce63b8597d90df35cded4b7b6c0114b165b97
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092938"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341495"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>Referencia de cmdlets de Cloud Connector
  
 > [!Important]
-> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams enrutamiento [directo](/MicrosoftTeams/direct-routing-landing-page).
 
-En la tabla siguiente se enumeran los cmdlets de Skype Empresarial Cloud Connector Edition con una breve descripción y vínculos a más información.
+En la tabla siguiente se enumeran Skype for Business Edición de conector de nube cmdlets con una breve descripción y vínculos a más información.
   
 > [!NOTE]
 > Debe ejecutar todos los cmdlets en el equipo host de Cloud Connector y debe ejecutar la sesión de PowerShell como administrador. 
@@ -33,11 +33,11 @@ En la tabla siguiente se enumeran los cmdlets de Skype Empresarial Cloud Connect
 |**Nombre de cmdlet**|**Descripción**|
 |:-----|:-----|
 |[Backup-CcCertificationAuthority](backup-cccertificationauthority.md) <br/> Versión 1.4.2 y versiones posteriores  <br/> |Copia de seguridad del servicio de entidad de certificación en un archivo y lo guarda en la carpeta ca en el directorio de recurso compartido del sitio.     <br/> |
-|[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |Crea un archivo de disco duro virtual base (VHDX) con un archivo ISO de Windows Server 2012 R2 proporcionado por el cliente. El archivo VHDX se usará durante la implementación deCloud Connector.  <br/> |
+|[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |Crea un archivo de disco duro virtual base (VHDX) mediante un archivo ISO Windows Server 2012 cliente. El archivo VHDX se usará durante la implementación deCloud Connector.  <br/> |
 |[Enter-CcUpdate](enter-ccupdate.md) <br/> |Prepara el servidor host de Cloud Connector para el proceso de actualización poniéndolo en modo de mantenimiento. El dispositivo está "drenado"; es decir, se completarán todas las llamadas existentes, pero se rechazarán las llamadas nuevas.  <br/> |
 |[Exit-CcUpdate](exit-ccupdate.md) <br/> |Sale del modo de mantenimiento de actualización en el servidor host de Cloud Connector.  <br/> |
-|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | Exporta una configuración de Skype Empresarial Cloud Connector Edition a un archivo local en el servidor host de Skype Empresarial Cloud Connector Edition. <br/> |
-|[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |Exporta un archivo de configuración de ejemplo de Cloud Connector (.ini) al directorio de dispositivos de un dispositivo de Cloud Connector. Puede modificar y cambiar el nombre del archivo que se usará para la implementación.  <br/> |
+|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | Exporta una Skype for Business Edición de conector de nube a un archivo local en el Skype for Business Edición de conector de nube host. <br/> |
+|[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |Exporta un archivo de configuración de ejemplo de Cloud Connector (.ini) al directorio del dispositivo de un dispositivo de Cloud Connector. Puede modificar y cambiar el nombre del archivo que se usará para la implementación.  <br/> |
 |[Export-CcRootCertificate](export-ccrootcertificate.md) <br/> Versión 1.4.2 y versiones posteriores  <br/> |Exporta el certificado de ca raíz a un archivo local en el servidor host de Cloud Connector.  <br/> |
 |[Get-CcApplianceDirectory](get-ccappliancedirectory.md) <br/> |Recupera el directorio de trabajo en el servidor host de Cloud Connector. Todos los archivos de implementación se almacenan en este directorio.  <br/> |
 |[Get-CcApplianceLogDirectory](get-ccappliancelogdirectory.md) <br/> |Muestra el directorio actual donde se almacenan los registros de un dispositivo de Cloud Connector.  <br/> |
@@ -47,7 +47,7 @@ En la tabla siguiente se enumeran los cmdlets de Skype Empresarial Cloud Connect
 |[Get-CcSiteDirectory](get-ccsitedirectory.md) <br/> |Muestra el directorio actual donde se almacenan los archivos de configuración de nivel de sitio. La carpeta contiene los archivos de instalación de VHD base y Cloud Connector. Esta carpeta debe compartirse con todos los demás dispositivos de un sitio de Cloud Connector.  <br/> |
 |[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md) <br/> |Muestra el directorio actual donde se almacenan los registros de nivel de sitio para Cloud Connector.  <br/> |
 |[Get-CcVersion](get-ccversion.md) <br/> Versión 2.0 y posterior  <br/> |Devuelve la versión en la instancia de Cloud Connector. Get-CCVersion solo se puede usar en el equipo host de Cloud Connector.  <br/> |
-|[Import-CcConfiguration](import-ccconfiguration.md) <br/> Versión 2.0 y posterior  <br/> |Importa la configuración de Skype Empresarial Cloud Connector Edition desde un archivo local al servidor host de Cloud Connector.  <br/> |
+|[Import-CcConfiguration](import-ccconfiguration.md) <br/> Versión 2.0 y posterior  <br/> |Importa la Skype for Business Edición de conector de nube de un archivo local al servidor host de Cloud Connector.  <br/> |
 |[Install-CcAppliance](install-ccappliance.md) <br/> |Instala el dispositivo de Cloud Connector (incluidas las máquinas virtuales AD, Central Management Store, Mediation Server y Edge Server) en el servidor host.  <br/> |
 |[Publish-CcAppliance](publish-ccappliance.md) <br/> | Obtiene información de alta disponibilidad de la configuración del espacio empresarial en línea y la publica en el dispositivo de Cloud Connector en el servidor host. <br/> |
 |[Register-CcAppliance](register-ccappliance.md) <br/> | Registra la información del dispositivo en un sitio RTC en una configuración de inquilino en línea. Un dispositivo debe registrarse para poder implementarse y administrarse mediante el servicio de administración de Cloud Connector. <br/> |

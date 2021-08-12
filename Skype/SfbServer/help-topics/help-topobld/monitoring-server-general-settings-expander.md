@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: 'En el Generador de topologías, puede editar las propiedades de un servidor de supervisión individual haciendo clic con el botón secundario en el servidor de supervisión del árbol de consola y, a continuación, haciendo clic en Acción en la barra de herramientas, o haciendo clic en una tarea del panel Acciones y, a continuación, haciendo clic en Editar propiedades y cambiando cualquiera de las siguientes opciones:'
-ms.openlocfilehash: f5543b4ead3f496cd2ae37841a37a317b87f8d9c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'En el Generador de topologías, puede editar las propiedades de un servidor de supervisión individual haciendo clic con el botón secundario en el servidor de supervisión del árbol de consola y, a continuación, haciendo clic en Acción en la barra de herramientas, o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en Editar propiedades y cambiando cualquiera de las siguientes opciones:'
+ms.openlocfilehash: 27b29b62980c7df7e1fea24102b73b3acc0957c63104c5df5ddd9ec027c6b77e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298220"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expansor de configuración general del servidor de supervisión
  
-En el Generador de topologías, puede editar las propiedades de un servidor de supervisión  individual haciendo clic con el botón secundario en el servidor de supervisión del árbol de consola y, a continuación, haciendo clic en Acción en la barra de herramientas, o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en Editar propiedades **y** cambiando cualquiera de las siguientes opciones:
+En el Generador de topologías, puede editar las propiedades de un servidor de supervisión  individual haciendo clic con el botón secundario en el servidor de supervisión del árbol de consola y, a continuación, haciendo clic en Acción en la barra de herramientas, o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en **Editar** propiedades y cambiando cualquiera de las siguientes opciones:
   
 - **FQDN**, para cambiar el nombre de dominio completo (FQDN) del servidor que desea implementar como servidor de supervisión.
     

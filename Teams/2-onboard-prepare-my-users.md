@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2a98c2b847844de38608782c8feabf754ed25187d5cf4f041bcdf14a8dda8d56
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825088"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322882"
 ---
 # <a name="prepare-my-users"></a>Preparar a mis usuarios
 
@@ -92,7 +92,7 @@ La preparación de la organización ayuda a determinar qué tan receptivos (o no
 
  
 > [!TIP]
-> El aprendizaje no es único. Al comprender cómo los usuarios aprenden mejor, puede crear un programa de aprendizaje sólido para ayudarles a acelerar su aprendizaje. Si muchos usuarios están motivados por sí solos, es posible que sea suficiente vincular a vídeos y guías de usuario. Para aquellos que necesitan atención especializada, asegúrese de programar algunas tareas de uno a uno o de reclutar a sus campeones para ayudar a esos usuarios en la curva &mdash; de aprendizaje.
+> Learning no es de un solo tamaño. Al comprender cómo los usuarios aprenden mejor, puede crear un programa de aprendizaje sólido para ayudarles a acelerar su aprendizaje. Si muchos usuarios están motivados por sí solos, es posible que sea suficiente vincular a vídeos y guías de usuario. Para aquellos que necesitan atención especializada, asegúrese de programar algunas tareas de uno a uno o de reclutar a sus campeones para ayudar a esos usuarios en la curva &mdash; de aprendizaje.
 
 <!--ENDOFSECTION-->
 
@@ -140,7 +140,7 @@ Para cada caso de uso, hable de lo siguiente con el equipo del proyecto:
 
 -   ¿Cómo optimizará la experiencia de usuario la nueva solución?
 
-Para ver ejemplos de casos de uso, visite la [Biblioteca de productividad de FastTrack.](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)
+Para ver ejemplos de casos de uso, visite [la biblioteca FastTrack productividad.](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)
 
 <!--ENDOFSECTION-->
 

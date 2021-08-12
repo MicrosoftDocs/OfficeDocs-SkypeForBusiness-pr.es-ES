@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo mover los números de teléfono existentes de su proveedor actual a Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26f686197963f53f20477ccd9a16935c86a16d9f
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 230b49c60376fa63df6955c5946be0b0cfdfdd9805882d260f9e3c6ec3b6ce60
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282617"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341465"
 ---
 # <a name="step-7-port-phone-numbers-to-business-voice-optional"></a>Paso 7: Portar números de teléfono a Business Voice (opcional)
 

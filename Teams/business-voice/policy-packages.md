@@ -17,11 +17,11 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcd5eaf6d4a8418e756bd72b83c698feda931f8e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: a30bd356a391d38c854119c4be3001c99cc329a3ef21496ea201f6610e172026
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824768"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341475"
 ---
 [!INCLUDE [manage-policy-packages](../manage-policy-packages.md)]

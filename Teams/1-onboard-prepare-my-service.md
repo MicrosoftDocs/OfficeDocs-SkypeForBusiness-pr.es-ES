@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 42ded974ba5f4400bdcb5796410a8277fbed4488
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a8aa2818cb2b4be85054f8804fa6a11112c4e8a68cc171e9b9f7191e3f3a5bfd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103976"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322922"
 ---
 # <a name="prepare-my-service"></a>Preparar mis servicios
 
@@ -56,7 +56,7 @@ Aunque le recomendamos que siga las listas de comprobación en orden, la secuenc
 Cuando está incorporando usuarios en cada sitio, le recomendamos encarecidamente que use el Playbook de habilitación del sitio para voz [(Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) como guía complementaria de estas listas de comprobación.
 
 >[!NOTE]
->La mayoría de las opciones de configuración son comunes entre Teams y Skype Empresarial online. Use el Centro Microsoft 365 administración y Microsoft Teams de administración para configurar dichas opciones.
+>La mayoría de las opciones de configuración son comunes entre Teams y Skype Empresarial online. Use el Centro de Administración de Microsoft 365 y Microsoft Teams administrador para configurar dichas opciones.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Quién será responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>

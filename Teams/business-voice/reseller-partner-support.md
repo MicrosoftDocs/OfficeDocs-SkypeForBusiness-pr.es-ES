@@ -24,12 +24,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 4f48219fab34c668e16b28f781594218e9f8b3c9
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 8ff4c2dd21e04f10023d5bd038b303eb6dac40355df4af1a50867029ac77e093
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129739"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341455"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>Obtener ayuda de un partner o distribuidor de Microsoft
 
