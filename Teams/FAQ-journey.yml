@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: e02aca3c02f73bbb2835bc1ff2d949b1e3415a96
-  ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+  ms.openlocfilehash: a1733e76c93b7be0a4a4d34da53beafa89325edf891cc39df66526769937397e
+  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 08/01/2021
-  ms.locfileid: "53679765"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "54282952"
 title: 'Preguntas frecuentes: actualizar Skype Empresarial a Microsoft Teams'
 summary: ''
 sections:
@@ -78,7 +78,7 @@ sections:
       - [Actualizaciones asistidos de Skype Empresarial Online a Microsoft Teams:](upgrade-assisted.md) programa automatizado que le ayuda con los pasos técnicos para actualizar Skype Empresarial usuarios en línea a Teams.
 
 
-      - [FastTrack para Microsoft 365:](https://www.microsoft.com/fasttrack/microsoft-365) Teams de implementación disponible para los planes que califiquen.
+      - [FastTrack para Microsoft 365:](https://www.microsoft.com/fasttrack/microsoft-365) Teams asistencia de implementación disponible para los planes que califiquen.
 
 
       - [Teams en directo:](./instructor-led-training-teams-landing-page.yml) clases de aprendizaje en línea gratuitas diseñadas para que su organización esté en marcha con Teams.

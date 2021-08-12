@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el Microsoft Teams de administración o Windows PowerShell para crear y administrar planes de marcado (planes de marcado de llamadas RTC).
-ms.openlocfilehash: 59867dfe49436635f690ff9f5d56a2be36e553ec
-ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
+ms.openlocfilehash: b578533bfd2b903fd29563897a2f9ed917b369c38955e631b4aba0cefaa025fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2021
-ms.locfileid: "53046237"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282873"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 

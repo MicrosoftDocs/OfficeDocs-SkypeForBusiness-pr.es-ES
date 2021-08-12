@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el Teams de uso de eventos en
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 971e9bc846ad1a7134c1877a1716fc535ae65e4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5953951400fbb1e888aec4c3c3e003aa5312a1b96abe13050a049d758c9902eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809290"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285649"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams de uso de eventos en directo
 
@@ -61,4 +61,4 @@ Si su organización está habilitada para el eCDN de [Hive](https://www.hivestre
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Análisis e informes de Teams](teams-reporting-reference.md)
-- [¿Qué son los eventos en directo de Teams?](../teams-live-events/what-are-teams-live-events.md)
+- [¿Qué son los eventos en directo en Teams?](../teams-live-events/what-are-teams-live-events.md)

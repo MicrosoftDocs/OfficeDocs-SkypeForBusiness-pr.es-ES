@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización de administración pública a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa en respuesta al ataque del COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3196796e702a458d7bbf813e5bed8166b764b0de
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7e132251623de86ad9635b03b13b9eb6dbc0aed40752fb916fcff23b9fd4ede1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284121"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Dar soporte a trabajadores remotos de la administración pública con Microsoft Teams
 

@@ -18,26 +18,26 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
-description: 'Summary: Read this topic to learn how to assign a voice policy for users using Phone System with on-premises PSTN connectivity.'
-ms.openlocfilehash: 43e2b560cc0886bacd6faaec6c113ee1f237eff7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Read this topic to learn how to assign a voice policy for users using Sistema telefónico with on-premises PSTN connectivity.'
+ms.openlocfilehash: f01fcc314cd618150df2c67a2de8b4ea3ee8f9bd7fdb5f4a4c8b3ae24537ee3f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092968"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283002"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Asignar una directiva de enrutado de voz
  
 > [!Important]
-> Skype Empresarial Online se retirará el 31 de julio de 2021 después de lo cual el servicio ya no será accesible.  Además, la conectividad RTC entre el entorno local ya no se admite a través de Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo.](/MicrosoftTeams/direct-routing-landing-page)
+> Skype Empresarial Online se retirará el 31 de julio de 2021 después de lo cual el servicio ya no será accesible.  Además, ya no se admite la conectividad RTC entre el entorno local mediante Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
 
-**Resumen:** Lea este tema para obtener información sobre cómo asignar una directiva de voz para los usuarios que usan Phone System con conectividad RTC local. 
+**Resumen:** Lea este tema para obtener información sobre cómo asignar una directiva de voz para los usuarios que usan Sistema telefónico con conectividad RTC local. 
   
-Una vez que un usuario está en Skype Empresarial Online y usa el sistema telefónico con conectividad RTC local, se les aplicarán dos directivas de voz. Una es una directiva de enrutamiento de voz local que se asignará localmente. Esta directiva puede ser global o específica del usuario y define qué registros de uso de RTC están asociados con el usuario. En este tema se explica cómo asignar esta directiva.
+Una vez que un usuario está en Skype Empresarial Online y Sistema telefónico con conectividad RTC local, se aplicarán dos directivas de voz a ellos. Una es una directiva de enrutamiento de voz local que se asignará localmente. Esta directiva puede ser global o específica del usuario y define qué registros de uso de RTC están asociados con el usuario. En este tema se explica cómo asignar esta directiva.
   
-La otra directiva de voz define qué características de llamada están disponibles para el usuario; Microsoft define esta directiva de voz y es idéntica para todos los sistemas telefónicos con usuarios de conectividad RTC locales. Se asigna automáticamente a los usuarios del sistema telefónico.
+La otra directiva de voz define qué características de llamada están disponibles para el usuario; Microsoft define esta directiva de voz y es idéntica para todos los Sistema telefónico con usuarios de conectividad RTC locales. Se asigna automáticamente a Sistema telefónico usuarios.
   
-||**Usuario local**|**Sistema telefónico con usuario de conectividad RTC local**|
+||**Usuario local**|**Sistema telefónico con el usuario de conectividad RTC local**|
 |:-----|:-----|:-----|
 |Características de llamada definidas en  <br/> |Directiva de voz  <br/> |Directiva de voz predefinida, asignada automáticamente cuando el usuario tiene licencia para Sistema telefónico.  <br/> |
 |Registros de uso de RTC asociados con  <br/> |Directiva de voz  <br/> |Directiva de enrutamiento de voz, asignada mientras el usuario aún está interno.  <br/> |
@@ -46,13 +46,13 @@ Realice los siguientes pasos con la implementación local, mientras que el usuar
   
 ## <a name="using-a-global-voice-routing-policy"></a>Uso de una directiva de enrutamiento de voz global
 
-Antes de usar una directiva de enrutamiento de voz global para el sistema telefónico con usuarios de conectividad RTC locales, debe agregar registros de uso de RTC a la directiva.
+Antes de usar una directiva de enrutamiento de voz global para su Sistema telefónico con usuarios de conectividad RTC locales, debe agregar registros de uso de RTC a la directiva.
   
 ### <a name="to-assign-pstn-usage-records-to-the-global-voice-routing-policy"></a>Para asignar registros de uso de RTC a la directiva de enrutamiento de voz global
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 3. Agregue los registros de uso de RTC a la directiva:
     
@@ -72,7 +72,7 @@ Antes de usar una directiva de enrutamiento de voz global para el sistema telef�
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 3. Crear una nueva directiva de enrutamiento de voz:
     
@@ -96,7 +96,7 @@ Independientemente de si usa la directiva de enrutamiento de voz global o las es
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 3. Asignar una directiva de voz existente a un usuario:
     
@@ -112,4 +112,4 @@ Independientemente de si usa la directiva de enrutamiento de voz global o las es
 
 En este ejemplo, el usuario con el nombre para mostrar Bob Kelly se asigna a la directiva de voz creada anteriormente con el nombre HybridVoice.
   
-Para obtener más información acerca de las directivas de enrutamiento de voz, vea Create [or modify a voice policy y configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)y [Grant-CsVoicePolicy](/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).
+Para obtener más información acerca de las directivas de enrutamiento de voz, vea Create [or modify a voice policy y configure PSTN usage records in Skype Empresarial 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)y [Grant-CsVoicePolicy](/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).

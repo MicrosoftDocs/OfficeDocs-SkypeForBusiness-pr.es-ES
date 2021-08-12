@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar Teléfono Microsoft System Direct Routing para conectar su infraestructura de telefonía local a Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ecd8579ccd092e6b82deb06aa670901cdfc3b023
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f903511dd4adc439705513f6ef10ed9648d1bbb4aab42ac6dec1aa7bef6064e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284181"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 

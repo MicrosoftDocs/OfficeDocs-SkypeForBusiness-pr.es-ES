@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d6342f41b3cd4bfad690794c0b6474ca45e78c8
-ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
+ms.openlocfilehash: 3ee0e8e7da6410b26f9c4fc256a12c563f15e9bed1562823792bda73c1c29d70
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52589244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282673"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Dispositivo de sucursal con funciones de supervivencia (SBA) para enrutamiento directo
 

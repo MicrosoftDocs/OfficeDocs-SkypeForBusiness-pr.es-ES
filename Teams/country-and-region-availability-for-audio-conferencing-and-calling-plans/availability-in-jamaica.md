@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Jamaica.
-ms.openlocfilehash: 7fb194609f75a1c3901dfa9a862b97b067b550da
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cc8063c9162e7a12c83ac6613d3024c56dfb41a261e2ff21dc0956b950c0ba6d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117958"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284440"
 ---
 # <a name="availability-in-jamaica"></a>Disponibilidad en Jamaica
 

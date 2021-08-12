@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: Resume los pasos necesarios para habilitar E9-1-1 en Skype Empresarial Server Telefonía IP empresarial, en función de si tiene un proveedor de servicios E9-1-1 de tronco SIP o una puerta de enlace ELIN.
-ms.openlocfilehash: 8efd38657a80bee1ecd979e8730feacfb980053e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 881bb361598d63b3222a3391ff88327a148f55d9d2d680c7ade0ecb1c19f31b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825820"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283102"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Definir los requisitos para llamadas de emergencia en Skype Empresarial Server
  
 Resume los pasos necesarios para habilitar E9-1-1 en Skype Empresarial Server Telefonía IP empresarial, en función de si tiene un proveedor de servicios E9-1-1 de tronco SIP o una puerta de enlace ELIN.
   
-Antes de comenzar una implementación de Skype Empresarial Server E9-1-1, primero debería poder responder a las preguntas detalladas en las secciones siguientes. La planeación que necesite dependerá del tipo de solución E9-1-1 que haya decidido implementar, ya sea un proveedor de servicios E9-1-1 mediante troncales SIP o una puerta de enlace de número de identificación de ubicación de emergencia (ELIN). En la tabla siguiente se identifican las secciones de este libro de planeación que deberá revisar para cada una de esas soluciones.
+Antes de comenzar una Skype Empresarial Server implementación de E9-1-1, primero debería poder responder a las preguntas detalladas en las secciones siguientes. La planeación que necesite dependerá del tipo de solución E9-1-1 que haya decidido implementar, ya sea un proveedor de servicios E9-1-1 mediante troncales SIP o una puerta de enlace de número de identificación de ubicación de emergencia (ELIN). En la tabla siguiente se identifican las secciones de este libro de planeación que deberá revisar para cada una de estas soluciones.
   
 **Pasos de planeación por tipo de E9-1-1**
 
@@ -38,9 +38,9 @@ Antes de comenzar una implementación de Skype Empresarial Server E9-1-1, primer
 |[Habilitar usuarios para E9-1-1 en Skype Empresarial Server](enable-users.md) <br/> |[Habilitar usuarios para E9-1-1 en Skype Empresarial Server](enable-users.md) <br/> |
 |[Administrar ubicaciones para proveedores de servicios troncales SIP en Skype Empresarial Server](manage-locations.md) <br/> |[Administrar ubicaciones para puertas de enlace ELIN en Skype Empresarial Server](elin-gateways.md) <br/> |
 |[Definir la experiencia del usuario para adquirir manualmente una ubicación en Skype Empresarial Server](manually-acquiring-a-location.md) <br/> |[Definir la experiencia del usuario para adquirir manualmente una ubicación en Skype Empresarial Server](manually-acquiring-a-location.md) <br/> |
-|[Diseñar el tronco SIP para E9-1-1 en Skype Empresarial Server](design-the-sip-trunk.md) <br/> |[Incluir el servicio de seguridad en Skype Empresarial Server](security-desk.md) <br/> |
-|[Incluir el servicio de seguridad en Skype Empresarial Server](security-desk.md) <br/> |[Planear directivas de ubicación para Skype Empresarial Server](location-policies.md) <br/> |
-|[Elegir un proveedor de servicios E9-1-1 para Skype Empresarial Server](choose-a-service-provider.md) <br/> |[Asignar ámbito de directiva de ubicación en Skype Empresarial Server](location-policy-scope.md) <br/> |
+|[Diseñar el tronco SIP para E9-1-1 en Skype Empresarial Server](design-the-sip-trunk.md) <br/> |[Incluye el escritorio de seguridad en Skype Empresarial Server](security-desk.md) <br/> |
+|[Incluye el escritorio de seguridad en Skype Empresarial Server](security-desk.md) <br/> |[Planear directivas de ubicación para Skype Empresarial Server](location-policies.md) <br/> |
+|[Elija un proveedor de servicios E9-1-1 para Skype Empresarial Server](choose-a-service-provider.md) <br/> |[Asignar ámbito de directiva de ubicación en Skype Empresarial Server](location-policy-scope.md) <br/> |
 |[Planear directivas de ubicación para Skype Empresarial Server](location-policies.md) <br/> ||
 |[Asignar ámbito de directiva de ubicación en Skype Empresarial Server](location-policy-scope.md) <br/> ||
    

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Estonia.
-ms.openlocfilehash: e949aa569c0f71bb01a2d0a854f7b49c4247ed74
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ac26a6bf9d9fa20f7e2fe2b81a7bea3164e67688bbb9a74a0e666a55be1506b6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118148"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284460"
 ---
 # <a name="availability-in-estonia"></a>Disponibilidad en Estonia
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Decisiones necesarias para planear la omisión de medios en Skype Empresarial Server Telefonía IP empresarial. Incluye interoperación con el control de admisión de llamadas (CAC).
-ms.openlocfilehash: 62a3c1605c7a54043539bc94892fdb8e3923f21a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 386272fd2a20d2d780f146c8eb03d75878cdf69cdfa27145d42c0421ba4ba91f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101396"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284709"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planear la omisión de medios en Skype Empresarial
 
@@ -41,13 +41,13 @@ La siguiente ilustración muestra las rutas de señalización y los medios bási
 
 ![Aplicación de conexión de desvío de medios cac de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
-El desvío de medios es útil para minimizar la cantidad de servidores de mediación implementados. En general, un grupo de servidores de mediación se implementa en un sitio central y controla puertas de enlace en los sitios de sucursal. Habilitar el desvío de medios permite que las llamadas de red telefónica conmutada (RTC) desde clientes en sitios de sucursal se dirijan directamente a través de las puertas de enlace a esos sitios. Las rutas de llamadas salientes de Skype Empresarial Server y las directivas de Telefonía IP empresarial deben configurarse correctamente para que las llamadas RTC de los clientes de un sitio de sucursal se enrutan a la puerta de enlace adecuada.
+El desvío de medios es útil para minimizar la cantidad de servidores de mediación implementados. En general, un grupo de servidores de mediación se implementa en un sitio central y controla puertas de enlace en los sitios de sucursal. Habilitar el desvío de medios permite que las llamadas de red telefónica conmutada (RTC) desde clientes en sitios de sucursal se dirijan directamente a través de las puertas de enlace a esos sitios. Skype Empresarial Server rutas de llamadas salientes y directivas de Telefonía IP empresarial deben configurarse correctamente para que las llamadas RTC de clientes en un sitio de sucursal se enrutan a la puerta de enlace adecuada.
 
 Las redes Wi-Fi suelen tener más pérdidas de paquetes que las redes por cable. En general, las puertas de enlace no pueden asumir la recuperación de la pérdida de paquetes. Por lo tanto, antes de decidir si debe habilitarse el desvío de medios para una subred inalámbrica, se recomienda evaluar la calidad de una red Wi-Fi. La reducción de latencia presenta unas contrapartidas respecto a la recuperación de pérdida de paquetes que también deben tenerse en cuenta. RTAudio, un códec disponible para llamadas que no desvían el servidor de mediación, es más apropiado para ocuparse de la pérdida de paquetes.
 
 ## <a name="planning-your-media-bypass-deployment"></a>Planeación de la implementación de desvío de medios
 
-Una vez que Telefonía IP empresarial estructura, la planeación de la omisión de medios es sencilla.
+Una vez que Telefonía IP empresarial estructura, planear la omisión de medios es sencillo.
 
 - Si tiene una topología centralizada sin vínculos WAN a redes de sucursal, puede habilitar un desvío de medios global porque no se necesita control ajustado.
 
@@ -114,6 +114,6 @@ Puede emplearse el desvío de medios cuando se reúnen los siguientes requisitos
 
 - Un servidor de mediación del mismo nivel debe admitir las capacidades necesarias para la omisión de medios, siendo lo más importante la capacidad de controlar varias respuestas bifurcadas (conocidas como "cuadros de diálogo iniciales"). Póngase en contacto con el fabricante de su puerta de enlace, sistema PBX o ITSP para obtener el valor del número máximo de diálogos iniciales que la puerta de enlace, el sistema PBX o el SBC puede aceptar.
 
-- El mismo nivel del servidor de mediación debe aceptar el tráfico de medios directamente desde los puntos de conexión de Skype Empresarial. Muchos ITSP permiten que su SBC reciba tráfico solo desde el servidor de mediación. Póngase en contacto con su ITSP para determinar si su SBC acepta tráfico de medios directamente desde puntos de conexión de Skype Empresarial.
+- El mismo nivel del servidor de mediación debe aceptar el tráfico de medios directamente Skype Empresarial extremos. Muchos ITSP permiten que su SBC reciba tráfico solo desde el servidor de mediación. Póngase en contacto con su ITSP para determinar si su SBC acepta el tráfico multimedia directamente desde Skype Empresarial extremos.
 
-- Los clientes de Skype Empresarial y un servidor de mediación del mismo nivel deben estar bien conectados, lo que significa que se encuentran en la misma región de red o en sitios de red que se conectan a la región a través de vínculos WAN que no tienen restricciones de ancho de banda
+- Skype Empresarial clientes y un servidor de mediación del mismo nivel deben estar bien conectados, lo que significa que se encuentran en la misma región de red o en sitios de red que se conectan a la región a través de vínculos WAN que no tienen restricciones de ancho de banda

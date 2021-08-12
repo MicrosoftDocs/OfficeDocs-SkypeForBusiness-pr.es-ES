@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.custom: httpsfix
 description: En el siguiente tema se proporcionan instrucciones para actualizar las entradas DNS, mover el servidor de administración de contenido, retirar grupos de servidores y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos de esta sección son obligatorios. Lea la documentación y determine qué procedimiento utilizar.
-ms.openlocfilehash: b1080c68e3b4075ce92aaef497854855135dc47d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7b96639b07ee8788f109a08f38265f4c0c27e0f035b1a7729488d4064ec31208
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113246"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285520"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Fase 8: retirar los grupos de servidores heredados
 
@@ -40,6 +40,6 @@ Para obtener un artículo fechado pero exhaustivo sobre la eliminación de servi
 > 
 > [Quitar la asociación del servidor de supervisión](remove-the-monitoring-server-association.md)
 > 
-> [Quitar el servidor front-end Enterprise Edition o el servidor front-end Standard Edition](remove-the-front-end-server.md)
+> [Quitar el Enterprise Edition front-end o Standard Edition servidor front-end](remove-the-front-end-server.md)
 > 
 > [Quitar instancias de SQL Server y bases de datos en el servidor back-end](remove-sql-server-instances-and-databases-on-the-back-end-server.md)

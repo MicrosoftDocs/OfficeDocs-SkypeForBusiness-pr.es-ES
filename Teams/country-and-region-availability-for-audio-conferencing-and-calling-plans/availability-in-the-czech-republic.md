@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para la República Checa.
-ms.openlocfilehash: 7919693bd5ed1daa631d223ac8af707e9ca3e548
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: c83d93f501f595923a71cd8f6655c631be0f332f8b1308ab4aae4d3d9df8607d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130259"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284261"
 ---
 # <a name="availability-in-the-czech-republic"></a>Disponibilidad en Chequia
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa7c82ec584791107e5d269ee40bccba272d20b4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ce7fb0a34f202481df0062367ec7a905b84848d21e7a2e5e4bce73bea4073eac
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094416"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282813"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>Crear equipos de administradores de personas en Microsoft Teams
 

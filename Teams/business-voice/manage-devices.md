@@ -17,11 +17,11 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee52c99cd789f0d6b188f711bd8b98d43725a60a
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 486dd3f8bca74078c38f84efeb95283bd8b7893ae9377fde56fb0867e7364e99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286059"
 ---
 [!INCLUDE [device-management](../devices/device-management.md)]

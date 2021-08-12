@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48fedc9050b397e3c14f76a240e34f192b9d7565
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7801e2a80f65e90a26cd99124047f229c04222a8b4d846acf53bd46a9d8510f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285669"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimizar los comentarios y los informes sobre su adopción de Microsoft Teams
 
-Asegúrese de que está recibiendo señales de su servicio y sus empleados siguiendo nuestros procedimientos recomendados para los comentarios de los usuarios y los informes de estado del servicio.  En algunos casos, es posible que necesite derechos de administrador para obtener acceso a determinados informes de estado y uso del servicio. Si no es el administrador Microsoft 365 o Office 365 de su organización, trabaje con esa persona para que se le conceda el rol de lector de informes en el centro de administración de Microsoft 365 para obtener acceso Microsoft 365 algunos de estos datos.
+Asegúrese de que está recibiendo señales de su servicio y sus empleados siguiendo nuestros procedimientos recomendados para los comentarios de los usuarios y los informes de estado del servicio.  En algunos casos, es posible que necesite derechos de administrador para obtener acceso a determinados informes de estado y uso del servicio. Si no es el administrador Microsoft 365 o Office 365 de su organización, trabaje con esa persona para que se le conceda el rol de lector de informes en el Centro de administración de Microsoft 365 para obtener acceso a algunos de estos datos.
 
 ## <a name="incorporating-feedback"></a>Incorporar comentarios 
 

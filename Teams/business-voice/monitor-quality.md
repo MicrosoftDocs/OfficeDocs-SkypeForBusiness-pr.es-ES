@@ -17,11 +17,11 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56da0aecf3d146d40e546dafafaa5ac8e9312847
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: e8b43ae5e466f63116beb403434641acf7df8c32c13cbb19b5e0bf1b2131f856
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085939"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286049"
 ---
 [!INCLUDE [monitor-call-quality-qos](../monitor-call-quality-qos.md)]

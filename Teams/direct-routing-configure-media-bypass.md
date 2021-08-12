@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar la omisión de medios con Sistema telefónico enrutamiento directo para Microsoft Teams cambiando todos los usuarios a la vez o implementando un enfoque por fases (recomendado).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41e5aae3f91c13653119b04fb88364ce93a4d90c
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 74cfdb0d0bd92849b062d84df20e4ca1428f4034b2e8864bfc89ff70b77c6c3c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284191"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurar el desvío de medios con enrutamiento directo
 

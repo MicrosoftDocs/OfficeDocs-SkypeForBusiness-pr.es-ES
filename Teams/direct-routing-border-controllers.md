@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: El administrador puede obtener información sobre qué controladores de límites de sesión (CLS) se han certificado para Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d7103ecb4183674fe1e92c7d7e3a37182c0d50
-ms.sourcegitcommit: beb66bc2ce70edbaf6c77eee6d8c050c5cb37fe1
+ms.openlocfilehash: 1a672bb436b24e49391ec637c40597611764ef6fd6a301af1128976c044a90bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53515175"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284221"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
