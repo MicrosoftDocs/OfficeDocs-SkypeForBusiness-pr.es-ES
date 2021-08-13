@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para iniciar la tarea para ampliar el esquema de Skype Empresarial Server, empiece en la página Preparar esquema. Haga clic en Siguiente para continuar con la preparación del esquema.
-ms.openlocfilehash: bc78b854de98a86def5c06787292b174629b2ac7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para iniciar la tarea para ampliar el esquema de Skype Empresarial Server, comience en la página Preparar esquema. Haga clic en Siguiente para continuar con la preparación del esquema.
+ms.openlocfilehash: f5a98b05ed2ead2bdcbf954d003111f5a4d0fff61eaa09eba024beed20b710a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836720"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324469"
 ---
 # <a name="prepare-schema-intro"></a>Preparar esquema (introducción)
  
-To start the task to extend the schema for Skype for Business Server, you begin on the **Prepare Schema** page. Haga clic en **Siguiente** para continuar con la preparación del esquema.
+Para iniciar la tarea para ampliar el esquema de Skype Empresarial Server, comience en la página **Preparar esquema.** Haga clic en **Siguiente** para continuar con la preparación del esquema.
   
 

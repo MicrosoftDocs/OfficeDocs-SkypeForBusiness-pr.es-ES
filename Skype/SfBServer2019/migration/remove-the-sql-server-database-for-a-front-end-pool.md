@@ -10,31 +10,31 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Después de quitar un grupo de servidores front-end o volver a configurarlo para que use una base de datos diferente, puede quitar las bases de datos de SQL Server que hospedaban los datos del grupo. Use los siguientes procedimientos para quitar las definiciones del Generador de topologías y, a continuación, quite la base de datos y los archivos de registro del servidor de bases de datos.
-ms.openlocfilehash: 9047486708b92c07e6ec099fce43ec4c708fa900
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Después de quitar un grupo de servidores front-end o volver a configurar el grupo para que use una base de datos diferente, puede quitar las bases de datos SQL Server que hospedaban los datos del grupo. Use los siguientes procedimientos para quitar las definiciones del Generador de topologías y, a continuación, quite los archivos de base de datos y registro del servidor de bases de datos.
+ms.openlocfilehash: 01a28beabb85aa7cda25043680537f519872d58654dee5418f03ae9f5f702a19
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340326"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Quitar la base de datos de SQL Server para un grupo de servidores front-end
 
-Después de quitar un grupo de servidores front-end o volver a configurarlo para que use una base de datos diferente, puede quitar las bases de datos de SQL Server que hospedaban los datos del grupo. Use los siguientes procedimientos para quitar las definiciones del Generador de topologías y, a continuación, quite la base de datos y los archivos de registro del servidor de bases de datos.
+Después de quitar un grupo de servidores front-end o volver a configurar el grupo para que use una base de datos diferente, puede quitar las bases de datos SQL Server que hospedaban los datos del grupo. Use los siguientes procedimientos para quitar las definiciones del Generador de topologías y, a continuación, quite los archivos de base de datos y registro del servidor de bases de datos.
   
-## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>Para quitar la base SQL Server de datos mediante topology Builder
+## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>Para quitar la base SQL Server de datos mediante el Generador de topologías
 
-1. Desde el servidor front-end de Skype Empresarial Server 2019, abra el Generador de topologías y descargue la topología existente. 
+1. Desde el Skype Empresarial Server front-end de 2019, abra el Generador de topologías y descargue la topología existente. 
     
-2. En el Generador de  topologías, vaya a Componentes compartidos y, SQL Server **Almacenes,** haga clic con el botón secundario en la instancia de SQL Server asociada con el grupo de servidores front-end quitado o reconfigurado y, a continuación, haga clic en Eliminar **.**
+2. En el Generador de topologías, vaya a **Componentes** compartidos y, SQL Server **Almacenes,** haga clic con el botón secundario en la instancia de SQL Server asociada con el grupo de servidores front-end eliminado o reconfigurado y, a continuación, haga clic en **Eliminar**.
     
 3. Publique la topología y compruebe el estado de replicación. 
     
-## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a>Para quitar bases de datos de usuarios y aplicaciones del servidor SQL cliente
+## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a>Para quitar bases de datos de usuarios y aplicaciones del SQL servidor
 
-1. Para quitar las bases de datos del servidor SQL, debe ser miembro del grupo sysadmins de SQL Server para el servidor de SQL en el que va a quitar los archivos de base de datos. 
+1. Para quitar las bases de datos en el servidor SQL, debe ser miembro del grupo sysadmins de SQL Server para el servidor SQL donde va a quitar los archivos de base de datos. 
     
-2. Abra el Shell de administración de Skype Empresarial Server.
+2. Abra Skype Empresarial Server Shell de administración.
     
 3. Para quitar la base de datos correspondiente al almacén de usuarios del grupo, escriba lo siguiente:
     
@@ -42,7 +42,7 @@ Después de quitar un grupo de servidores front-end o volver a configurarlo para
    Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
-    Donde está el nombre de dominio completo (FQDN) del servidor de base de datos y es la instancia de base de datos con nombre (es decir, si se  _\<FQDN\>_  _\<instance\>_ definió una). 
+    Donde es el nombre de dominio completo (FQDN) del servidor de base de datos y es la instancia de base de datos con nombre (es decir, si se  _\<FQDN\>_  _\<instance\>_ definió uno). 
     
 4. Para quitar la base de datos correspondiente al almacén de aplicaciones del grupo, escriba lo siguiente:
     
@@ -50,8 +50,8 @@ Después de quitar un grupo de servidores front-end o volver a configurarlo para
    Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
-    Dónde está el FQDN del servidor de bases de datos y es la instancia de base de datos con nombre  _\<FQDN\>_  _\<instance\>_ (es decir, si se definió una). 
+    Donde es el FQDN del servidor de base de datos y es la instancia de base de datos con nombre  _\<FQDN\>_  _\<instance\>_ (es decir, si se definió una). 
     
-5. Cuando el cmdlet **Uninstall-CsDataBase** le pida que confirme las acciones, lea la información y, a continuación, presione Y (o Entrar) para continuar, o presione N y, a continuación, escriba si desea detener el cmdlet (si hay errores). 
+5. Cuando el cmdlet **Uninstall-CsDataBase** le pida que confirme las acciones, lea la información y, a continuación, presione Y (o Entrar) para continuar, o presione N y, a continuación, Escriba si desea detener el cmdlet (si hay errores). 
     
 

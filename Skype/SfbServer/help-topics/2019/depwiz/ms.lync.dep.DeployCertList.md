@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para asignar un certificado, seleccione un certificado del almacén de certificados local. Haga clic en Siguiente para continuar.
-ms.openlocfilehash: 0165afc7a90983855dab8f5a0a2d1c7e44385318
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para asignar un certificado, seleccione un certificado en el almacén de certificados local. Haga clic en Siguiente para continuar.
+ms.openlocfilehash: c0519e476b281b47d40aefa5436b3bc5a91b4130e7c8cb9a5ab15bc561915677
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808920"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323492"
 ---
 # <a name="certificate-list"></a>Lista de certificados
  
-Para asignar un certificado, seleccione un certificado del almacén de certificados local. Haga clic en **Siguiente** para continuar.
+Para asignar un certificado, seleccione un certificado en el almacén de certificados local. Haga clic en **Siguiente** para continuar.
   
 El certificado o los certificados que figuran en el panel **Seleccionar un certificado en el almacén de certificados local.** son certificados válidos que pueden asignarse al uso de certificados que necesita. Haga clic en el botón **Ver detalles del certificado** para confirmar que el certificado que selecciona sea el correcto. En la pestaña **Detalles** de los datos del certificado, puede ver el nombre del sujeto y los nombres alternativos del sujeto designados tal como se configuran en el certificado.
   

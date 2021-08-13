@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Use el cuadro de diálogo Seleccionar extensiones de tipos de archivo para seleccionar las extensiones de tipos de archivo que desea bloquear o permitir: marque (para bloquear) o desmarque (para permitir) las casillas junto a las extensiones en las categorías de Extensiones de tipos de archivo. Haga clic en la flecha para ampliar una categoría y ver todas las extensiones de tipos de archivo de esa categoría. Si desea seleccionar todas las extensiones de tipos de archivo de una categoría, seleccione el nombre de la categoría.'
-ms.openlocfilehash: 08709a2ff2504081ccf0172d3c6d559d6e2693b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 161b56adf12386d4510d91a83404af68058d3e590a1193c290813f89918c1f65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801490"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324409"
 ---
 # <a name="select-file-type-extensions"></a>Seleccionar extensiones de tipo de archivo
  

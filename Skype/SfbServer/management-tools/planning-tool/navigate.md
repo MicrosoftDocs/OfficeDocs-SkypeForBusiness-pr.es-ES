@@ -13,29 +13,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-description: Puede navegar por la Herramienta de planeación de Skype Empresarial Server 2015 mediante una combinación de una barra de herramientas, botones y vínculos específicos de página y paneles específicos del contexto. Los paneles específicos del contexto proporcionan información de diseño para la planeación y la capacidad que es relevante para las opciones de selección de una página específica.
-ms.openlocfilehash: 80e455abcd1534cc37ed9747e801b81fd778cf25
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Puede navegar por la Skype Empresarial Server planeación de 2015 mediante una combinación de una barra de herramientas, botones y vínculos específicos de página y paneles específicos del contexto. Los paneles específicos del contexto proporcionan información de diseño para la planeación y la capacidad que es relevante para las opciones de selección de una página específica.
+ms.openlocfilehash: ea73545643b8023ea0e6866b78669757bd663d60327ec614e6d1a256542fd595
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104376"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320153"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navegar por la herramienta de planeación en Skype Empresarial Server 2015
 
-Puede navegar por la Herramienta de planeación de Skype Empresarial Server 2015 mediante una combinación de una barra de herramientas, botones y vínculos específicos de página y paneles específicos del contexto. Los paneles específicos del contexto proporcionan información de diseño para la planeación y la capacidad que es relevante para las opciones de selección de una página específica.
+Puede navegar por la Skype Empresarial Server planeación de 2015 mediante una combinación de una barra de herramientas, botones y vínculos específicos de página y paneles específicos del contexto. Los paneles específicos del contexto proporcionan información de diseño para la planeación y la capacidad que es relevante para las opciones de selección de una página específica.
 
-Al iniciar la herramienta de planeación, un diseñador ve primero la página Bienvenido a la herramienta de planeación para **Skype Empresarial Server 2015.**
+Al iniciar la herramienta de planeación, un diseñador ve primero la página Bienvenido a la herramienta de planeación **para Skype Empresarial Server 2015.**
 
 ![Página principal de la herramienta de planeación](../../media/Planning_Tool_Welcome.png)
 
-En la página de bienvenida, el diseñador elige **Introducción,** **Sitios de diseño** o **Mostrar**. Para obtener más información, [vea Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md).
+En la página de bienvenida, el diseñador **elige Introducción**, **Sitios de diseño** o **Mostrar**. Para obtener más información, vea [Create the initial topology design for Skype Empresarial Server 2015](create-the-initial-design.md).
 
 En la parte superior de la herramienta de planeación hay una barra de herramientas que proporciona un fácil acceso a las funciones usadas con frecuencia. La barra de herramientas se muestra aquí como referencia y cada función se tratará en temas relacionados.
 
 ![Barra de herramientas de herramienta de planeación](../../media/Planning_Tool_Toolbar_Annotated.jpg)
 
-La herramienta de planeación tiene una sección Vínculos externos en el lado izquierdo de la herramienta. Desde aquí, el diseñador puede acceder fácilmente a la información de planeación e implementación, así como a otros recursos técnicos como, por ejemplo, formación, blogs técnicos, foros y otros recursos descargables. También en la sección Vínculos externos hay un vínculo Comentarios al equipo de herramientas de planeación de Skype Empresarial Server 2015.
+La herramienta de planeación tiene una sección Vínculos externos en el lado izquierdo de la herramienta. Desde aquí, el diseñador puede acceder fácilmente a la información de planeación e implementación, así como a otros recursos técnicos como, por ejemplo, formación, blogs técnicos, foros y otros recursos descargables. También en la sección Vínculos externos hay un vínculo Comentarios al equipo Skype Empresarial Server herramienta de planeación de 2015.
 
 ![Cuadro de diálogo Vínculos externos de la herramienta de planeación](../../media/Planning_Tool_External_Links_Dialog.jpg)
 
@@ -45,7 +45,7 @@ Además, se muestra información sobre el hardware en la información general de
 
 ![Panel de acciones de la herramienta de planeación](../../media/Planning_Tool_Actions_Pane.jpg)
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Crear el diseño de topología inicial para Skype Empresarial Server 2015](create-the-initial-design.md)
 

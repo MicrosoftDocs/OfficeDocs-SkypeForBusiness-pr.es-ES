@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: En este artículo se describen las ventajas, consideraciones de planeación y requisitos para implementar el Correo de voz en la nube de Microsoft servicio. Para obtener información sobre cómo configurar Correo de voz en la nube, vea Configuring Correo de voz en la nube.
-ms.openlocfilehash: cfde9867bcdd4c2b7492f8b50df782a5ca6fe34b
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: f12bd29c51b2ce08c0b4d29a6bce56e3dc22dddca7188cb046e59daaba7cf329
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323682"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planeación Correo de voz en la nube servicio para usuarios locales
 
@@ -64,7 +64,7 @@ Las llamadas sin respuesta se controlan de la siguiente manera:
 3. A continuación, el servicio deposita el correo de voz en el Exchange del usuario, independientemente de si el buzón es local o en línea.  
 4. Los usuarios pueden acceder a su correo de voz desde su Skype Empresarial o Outlook cliente.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Los siguientes requisitos suponen que ya Skype Empresarial Server implementado en una topología compatible.  Los requisitos dependen del escenario:
 

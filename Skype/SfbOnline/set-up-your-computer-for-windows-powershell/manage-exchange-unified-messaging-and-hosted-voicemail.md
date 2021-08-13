@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Use PowerShell para administrar Exchange de mensajería unificada, como Operador automático acceso de suscriptores y correo de voz hospedado en Skype Empresarial Online.
-ms.openlocfilehash: 1a841b377fbc84d85f085dc9d479fa05cc0b2be4
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 88ee063b644a24dd2cc0922be5df049af4949699745bb2f6cb27f4d3c8203a57
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323562"
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Administrar la mensajería unificada de Exchange y el correo de voz hospedado
 

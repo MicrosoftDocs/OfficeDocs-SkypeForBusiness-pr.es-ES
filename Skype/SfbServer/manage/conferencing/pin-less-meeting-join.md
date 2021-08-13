@@ -1,5 +1,5 @@
 ---
-title: Configurar una reunión sin PIN en Skype Empresarial Server
+title: Configurar la unión a reuniones sin PIN en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: 'Summary: Learn how to configure the PIN-less meeting join option in Skype for Business Server.'
-ms.openlocfilehash: 76a2fb401c684e0eb685b733cb1b0a63ecbd9907
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to configure the PIN-less meeting join option in Skype Empresarial Server.'
+ms.openlocfilehash: b6e31c3befbabacac26595ea0cd73d8ca575816013d30f17ae4b2ea785934f28
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119399"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320212"
 ---
-# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurar una reunión sin PIN en Skype Empresarial Server
+# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurar la unión a reuniones sin PIN en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre cómo configurar la opción de unión a reuniones sin PIN en Skype Empresarial Server.
+**Resumen:** Obtenga información sobre cómo configurar la opción de combinación de reuniones sin PIN en Skype Empresarial Server.
   
 Cuando un autor de llamada de acceso telefónico intenta unirse a una reunión, el servicio de conferencia Operador automático (CAA) coloca al autor de la llamada en un lápiz de retención que es diferente del &#x2014; de la sala de espera si un moderador no está ya en una llamada y el autor de la llamada de acceso telefónico no ha escrito un PIN de líder. La opción de combinación de reuniones sin PIN permite a los autores de llamadas de acceso telefónico que se unan a una reunión sin escribir un PIN de líder incluso si son la primera persona en una llamada. 
   

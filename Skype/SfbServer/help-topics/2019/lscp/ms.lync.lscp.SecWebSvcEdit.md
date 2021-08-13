@@ -1,5 +1,5 @@
 ---
-title: Configuración de seguridad del servicio web Crear nuevo o modificar existente
+title: Web Service Security Configuración Create New or Modify Existing
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: c10a8ed947145b19cb3ce616423978ecec2e5b35
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ecdff1463b68f0c5dc26c1ef179b7e05bedc62f1b49776531bcdf75a3dc0f56a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109156"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338638"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Configuración de seguridad del servicio web: Crear nuevos o modificar los existentes
 

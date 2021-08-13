@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Desafortunadamente, hay ciertas licencias de usuario que se bloquean cuando el usuario va a y desea usar Skype https://broadcast.skype.com difusión de reunión. Si un usuario ve este mensaje, tiene una de las licencias bloqueadas asignadas. Si aún quiere que lo usen, asígneles otra Office 365 licencia.
-ms.openlocfilehash: a29bdca6deaea9fc622ec34996f9f2ac8be3b023
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: d60b945cdcbf050fd869520c0fa9ff86d39d88f0a41d29e34d4be03f0b3bfc2b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237046"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339278"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Licencias de usuario bloqueadas para hospedar Skype difusión de reunión
 
@@ -61,7 +61,7 @@ El Skype eventos de difusión de reunión se bloqueará si se asigna alguna de l
     
 - Office 365 A1 beneficio de uso de estudiantes
     
-- Microsoft 365 A1 beneficios de uso de estudiantes
+- Microsoft 365 A1 estudiantes usan ventajas
 
     
 ## <a name="related-topics"></a>Temas relacionados

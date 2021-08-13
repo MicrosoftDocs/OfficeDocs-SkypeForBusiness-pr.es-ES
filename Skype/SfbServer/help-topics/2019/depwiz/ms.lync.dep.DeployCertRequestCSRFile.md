@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para crear una solicitud sin conexión, antes debe crear una solicitud de firma de certificado (CSR). Escriba la ruta de acceso y el nombre de archivo del CSR en el cuadro de texto Nombre de archivo. Haga clic en Examinar para buscar la ubicación donde crear la solicitud de firma de certificado. Haga clic en Siguiente para continuar.
-ms.openlocfilehash: b100737e230a5ea627cfbe1759d010da88fb3eca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para crear una solicitud sin conexión, antes debe crear una solicitud de firma de certificado (CSR). Escriba la ruta de acceso y el nombre de archivo de CSR en el cuadro de texto Nombre de archivo. Haga clic en Examinar para buscar la ubicación donde crear la solicitud de firma de certificado. Haga clic en Siguiente para continuar.
+ms.openlocfilehash: 7883380ecf17c5fdb514c249f598fa231110fac4773af179b4c908ca8a70b8ea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338688"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Solicitud de certificados (solicitud de firma de certificado)
  
-Para crear una solicitud sin conexión, antes debe crear una solicitud de firma de certificado (CSR). Escriba la ruta de acceso y el nombre de archivo del CSR en el cuadro **de texto Nombre** de archivo. Haga clic en **Examinar** para buscar la ubicación donde crear la solicitud de firma de certificado. Haga clic en **Siguiente** para continuar.
+Para crear una solicitud sin conexión, antes debe crear una solicitud de firma de certificado (CSR). Escriba la ruta de acceso y el nombre de archivo de CSR en el **cuadro de texto Nombre** de archivo. Haga clic en **Examinar** para buscar la ubicación donde crear la solicitud de firma de certificado. Haga clic en **Siguiente** para continuar.
   
 Haga clic en **Atrás** para retroceder a la pantalla anterior. Haga clic en **Cancelar** para salir sin aplicar los cambios en el sistema.
   

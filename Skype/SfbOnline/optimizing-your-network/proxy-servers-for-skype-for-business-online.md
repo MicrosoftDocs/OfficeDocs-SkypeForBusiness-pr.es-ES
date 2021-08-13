@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: En este artículo se proporciona información sobre cómo usar un servidor proxy con Skype Empresarial.
-ms.openlocfilehash: 09ed98c5f69d6e244a5f87125e4ad607e4d16226
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c6c094bad366cf6a7febb092d471dd0723ce219b90664963a5e58a2ce64d70ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240419"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323522"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Servidores proxy para Skype Empresarial Online
 

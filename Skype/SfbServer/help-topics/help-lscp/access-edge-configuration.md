@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 9f42f4ec8244b9b57eedac1ec598b42e6040691e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2cdac6225967634ae4f560775c3467b267d3814f8761f71fceca2334610b1ca4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099966"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321972"
 ---
 # <a name="access-edge-configuration"></a>Configuración perimetral de acceso
 

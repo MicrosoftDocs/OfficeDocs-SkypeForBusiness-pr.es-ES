@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Cree o modifique una cola de grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: b355cde0d8a99938538488152276a6c8eb4c6d4b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d8b875063d37d38ece7a6ec59c9b0bffbb16ee091e31f67087eb2cc0b52616e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103586"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338748"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Crear o modificar una cola en Skype Empresarial
  
@@ -31,14 +31,14 @@ Las colas contienen autores de la llamada hasta que un agente atiende la llamada
   
 Use uno de los siguientes procedimientos para crear o modificar una cola.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Para usar el Panel de control de Skype Empresarial Server para crear o modificar una cola
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Para usar Skype Empresarial Server panel de control para crear o modificar una cola
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
     > [!NOTE]
     > Si es uno de los administradores de grupos de respuesta delegados para un flujo de trabajo administrado, puede crear o modificar colas de grupo de respuesta y asignarlas a los flujos de trabajo que administre. 
   
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.  
     
 3. En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y, a continuación, en **Cola**.
     
@@ -52,7 +52,7 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
     
 6. En **Descripción**, escriba una descripción para la cola.
     
-7. En **Grupos,** especifique los grupos que desea asignar a la cola. Realiza una de las siguientes acciones: 
+7. En **Grupos,** especifique los grupos que desea asignar a la cola. Realice una de las siguientes acciones: 
     
    - Para agregar un grupo a la cola, haga clic en **Seleccionar**. En **el** campo de búsqueda Seleccionar grupos, escriba todo o parte del nombre del grupo de agentes que desea asignar a la cola, haga clic en el grupo de agentes que desee y, a continuación, haga clic en **Aceptar**.
     
@@ -99,14 +99,14 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
     
 10. Haga clic en **Confirmar**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Para usar el Shell de administración de Skype Empresarial Server para crear o modificar una cola
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Para usar Skype Empresarial Server Shell de administración para crear o modificar una cola
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
     > [!NOTE]
     > Si es uno de los administradores de grupos de respuesta delegados para un flujo de trabajo administrado, podrá crear grupos de agentes y colas y asignar grupos de agentes a colas. 
   
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 3. Cree el mensaje que se reproducirá cuando se alcance el umbral de tiempo de espera de cola y guárdelo en una variable. En la línea de comandos, ejecute:
     
@@ -195,13 +195,13 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
    $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
    ```
 
-10. Confirme que se ha creado la cola. Ejecute: 
+10. Confirme que se ha creado la cola. Ejecutar:
     
     ```powershell
     Get-CsRgsQueue -Name "Help Desk"
     ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
