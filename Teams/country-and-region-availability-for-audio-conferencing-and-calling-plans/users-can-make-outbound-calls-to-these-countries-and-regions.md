@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Este tema contiene todos los países y regiones en los que los usuarios pueden realizar llamadas si tienen un plan de llamadas.
-ms.openlocfilehash: 6287fb3adb1532ffa423cd9becd65b2f1028b604
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2ced238a1e339015cfec9b0263d78d1aa39cc1f5a704e1540d5b125e519f1fd7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299338"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden realizar llamadas a estos países y regiones
 

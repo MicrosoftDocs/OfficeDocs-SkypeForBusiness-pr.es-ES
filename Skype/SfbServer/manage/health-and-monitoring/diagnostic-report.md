@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 'Resumen: obtenga información sobre el informe de diagnóstico en Skype Empresarial Server.'
-ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn about the Diagnostic Report in Skype Empresarial Server.'
+ms.openlocfilehash: ef930870e918cd11f2525914e6f5716d7d685bfec224480c1eb88b3a280e3fa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297226"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico en Skype Empresarial Server
  
@@ -33,7 +33,7 @@ El informe de diagnóstico proporciona información de diagnóstico y solución 
     
 ## <a name="accessing-the-diagnostic-report"></a>Acceso al informe de diagnóstico
 
-Para obtener acceso al informe de diagnóstico, haga clic en la métrica Informe de diagnóstico (detalle) en el Informe de detalles de sesión punto a punto en Skype Empresarial [Server](peer-to-peer-session-detail-report.md) o en el Informe de detalles de conferencia.
+Para obtener acceso al informe de diagnóstico, haga clic en la métrica Informe de diagnóstico (detalle) en el Informe de detalles de sesión punto [a punto](peer-to-peer-session-detail-report.md) en Skype Empresarial Server o en el Informe de detalles de conferencia.
   
 ## <a name="filters"></a>Filtros
 
@@ -45,7 +45,7 @@ En la tabla siguiente se muestra la información proporcionada en el Informe de 
   
 **Métricas de informe de diagnóstico**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Hora del informe** <br/> |No  <br/> |Fecha y hora en que se registró el informe.  <br/> |
 |**Código de respuesta** <br/> |No  <br/> |Código de respuesta SIP enviado cuando se produjo un error en la sesión.  <br/> |

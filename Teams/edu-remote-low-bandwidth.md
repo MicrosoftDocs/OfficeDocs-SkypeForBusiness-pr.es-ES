@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17520645f23500550c6bc991c9d25ad2f72b2b6e
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 87f1be3a538d708c62aef46dd673e7fd3ed5c1156c3e50c986fc9ec0753cad39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299249"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>Ayuda para las situaciones de ancho de banda bajo para Teams para EDU
 
-Intervienen muchos elementos de red al trabajar con Microsoft Teams que pueden afectar el rendimiento. El ancho de banda bajo es una de las situaciones que pueden resultar completamente fuera de su control. Tenga en cuenta las siguientes situaciones:
+Hay muchos elementos de red cuando se trata de trabajar con Microsoft Teams que pueden afectar el rendimiento. El ancho de banda bajo es una de las situaciones que pueden resultar completamente fuera de su control. Considere las siguientes situaciones:
 
 - Una conexión a Internet de baja velocidad para la escuela.
 - Una conexión a Internet de baja velocidad para uno o más alumnos.
@@ -42,7 +42,7 @@ Este artículo le proporcionará las mejores prácticas para realizar diversas a
 
 ## <a name="resolving-low-bandwidth-issues-for-admins"></a>Resolver problemas de ancho de banda bajo para administradores
 
-Lo importante es recordar que, como administrador de TI, a pesar de que tiene soluciones para los problemas de ancho de banda bajo que se sabe que resolverán los problemas rápidamente, deben considerarse cuidadosamente las soluciones. Algunos problemas pueden solucionarse con una estrategia más limitada al nivel del formador o incluso del alumno/padre.
+Lo más importante que debe recordar, como administrador de TI, es que, aunque tenga soluciones para problemas de ancho de banda bajo que sean de amplia difusión y que resolverán los problemas rápidamente, las soluciones deben considerarse con cuidado. Algunos problemas pueden resolverse con un enfoque más limitado tomado a nivel del formador o incluso del alumno/padre.
 
 Es decir, si se produce un problema de ancho de banda bajo para un amplio grupo de alumnos, tomar medidas como un administrador de TI tiene sentido y también tiene sentido si las acciones emprendidas en el nivel de alumno/formador no le han sido útiles.
 
@@ -51,7 +51,7 @@ Es decir, si se produce un problema de ancho de banda bajo para un amplio grupo 
 
 ### <a name="meetings-and-video"></a>Reuniones y vídeo
 
-Un enfoque principal para los problemas de ancho de banda bajo son las reuniones y, específicamente, el vídeo en las reuniones. Un administrador de TI debe considerar las siguientes acciones cuando se trata de problemas informados por alumnos o formadores con respecto a tener la mejor experiencia de reunión en un entorno educativo.
+Un enfoque principal para los problemas de ancho de banda bajo son las reuniones; específicamente, vídeo en reuniones. Un administrador de TI debe tener en cuenta las siguientes acciones al tratar con problemas notificados por alumnos o educadores en relación con tener la mejor experiencia de reunión en un entorno educativo.
 
 #### <a name="meeting-policies"></a>Directivas de reunión
 
@@ -91,6 +91,6 @@ Para obtener más información, consulte [Usar Teams para el trabajo escolar cua
 
 También hay situaciones, y debe analizarlas de manera proactiva con los formadores, donde el problema de ancho de banda se encuentra en el lado del alumno (por ejemplo, un gran número de alumnos pueden ver las lecciones de vídeo sin problemas, pero un pequeño número de alumnos tienen dificultades).
 
-Es poco probable que sean muchos los padres que puedan solucionar estos problemas. Los problemas de ancho de banda bajo pueden estar fuera del control de un alumno o de los padres (su hogar puede no tener acceso a un ancho de banda alto, pueden que haya muchas personas en el área de consumo inmediato consumiendo ancho de banda y afectando lo que pueden hacer, probablemente el Internet es inestable, etc.).
+Es poco probable que sean muchos los padres que puedan solucionar estos problemas. Los problemas de ancho de banda bajo pueden estar fuera del control de un alumno o de los padres (su hogar puede no tener acceso a un ancho de banda alto, puede que tengan varias personas en el área inmediata consumiendo ancho de banda y afectando lo que pueden hacer, probablemente el Internet es inestable, etc.).
 
 Hemos incorporado una guía en nuestro artículo [Usar Teams para el trabajo escolar cuando el ancho de banda es bajo](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262) para padres y alumnos, también puede revisar y probar estas recomendaciones si tiene algún problema.

@@ -1,5 +1,5 @@
 ---
-title: Registro detallado de llamadas Crear nuevos o editar los existentes
+title: Registro detallado de llamadas Crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,20 @@ localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 4cc910c8278c42c39bafc053130fdc0589e4bada
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 989917de0482ef089c86133fd50271c26b563910bf8c14a3a0feb51787e86d37
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833680"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319443"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>Registro de detalles de llamadas: Crear nuevos o editar los existentes
  
 ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
   
-- [Habilitar el registro detallado de llamadas en Skype Empresarial Server](../../../manage/health-and-monitoring/enable-cdr.md)
+- [Habilitar la grabación de detalles de llamadas en Skype Empresarial Server](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [Especificar la retención de datos de CDR en Skype Empresarial Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [Especificar la retención de datos CDR en Skype Empresarial Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 

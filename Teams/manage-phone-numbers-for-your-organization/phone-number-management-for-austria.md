@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Austria para Microsoft Teams.
-ms.openlocfilehash: cf97ea8b64ffc8ba1072a0398a01e4986dbacec07ea51fe8f637cdedc4905559
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 323c5f8b1c748c164a5be8d83b6a8f0cac28171079c0e0de7cfd51a9810bd643
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848365"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299219"
 ---
 # <a name="phone-number-management-for-austria"></a>Teléfono de números para Austria
 
@@ -34,11 +34,11 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos y envíenoslos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario y servicio que no se muestran en el Microsoft Teams de administración.   <br/> |Descargue uno de estos formularios. <br/>  [Nueva solicitud de número de teléfono para Austria (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Nueva solicitud de número de teléfono para Austria (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) <br/>  <br/>También debe incluir una factura de utilidad de la dirección de empresa para la que desea obtener nuevos números. <br/> 
-|Transferirnos números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Austria (todos los números) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> <br/>También debe incluir una factura de utilidad de la dirección de empresa a la que desea transferir números.<br/> |
-|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |Póngase en contacto con el servicio de soporte [técnico de PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre cómo enviar la lista de números de teléfono que desea publicar o anular la publicación.      <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el servicio de soporte técnico [de PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre cómo enviar la lista de números de usuario que desea convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con [el Servicio de asistencia RTC para obtener instrucciones.](contact-pstn-service-desk.md) |
+|Obtenga nuevos números de teléfono de usuario y servicio que no se muestran en el Microsoft Teams de administración.   <br/> |Descargue uno de estos formularios. <br/>  [Nueva solicitud de número de teléfono para Austria (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Nueva solicitud de número de teléfono para Austria (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Rellene y [póngase en contacto con la RTC para obtener instrucciones](contact-pstn-service-desk.md). <br/>  <br/>También debe incluir una factura de utilidad de la dirección de empresa para la que desea obtener nuevos números. <br/> 
+|Transferirnos números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Austria (todos los números) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>Rellene y [póngase en contacto con la RTC para obtener instrucciones](contact-pstn-service-desk.md).  <br/> <br/>También debe incluir una factura de utilidad de la dirección de empresa a la que desea transferir números.<br/> |
+|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con PTSN para](contact-pstn-service-desk.md) obtener instrucciones sobre el envío de la lista de números de teléfono que desea publicar o anular la publicación.      <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con PTSN para](contact-pstn-service-desk.md) obtener instrucciones sobre cómo enviar la lista de números de usuario que desea convertir en números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas u operadores automáticos, póngase en contacto con [el servicio de asistencia de RTC](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>Temas relacionados
 

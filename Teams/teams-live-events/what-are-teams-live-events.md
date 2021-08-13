@@ -13,7 +13,7 @@ ms.collection:
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-description: Descubra la forma en que los eventos en directo permiten a los usuarios difundir vídeo y contenido a un amplio público en Teams, Yammer y Stream.
+description: Descubra cómo los eventos en directo permiten a los usuarios difundir vídeo y contenido a un amplio público en Teams, Yammer y Stream.
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,18 +22,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f18a6963c59aa371715d35b40137946d1b29b163b905d3ef842e8b3ddc434d63
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 83a1311df59ccad264951e8eeffa5052ac2231c15b000e4c25b1a36de227bca9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848265"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296517"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
 ## <a name="overview"></a>Información general
 
-Con los eventos en directo de Teams, los usuarios de su organización pueden difundir contenido en vídeo y reuniones a un amplio público en línea.
+Con los eventos en directo de Teams, los usuarios de su organización pueden difundir contenido de vídeo y reuniones a un amplio público en línea.
 
 Los eventos en directo de Microsoft 365 llevan el streaming de vídeo en directo a otro nivel. Los eventos en directo promueven la conexión durante todo el ciclo de vida de interacción con los participantes antes, durante y tras los eventos en directo. Puede crear un evento en directo dondequiera que se encuentre el público, el equipo o la comunidad, con Microsoft Stream, Teams o Yammer.  
 
@@ -43,7 +43,7 @@ Los eventos en directo de Teams se consideran la nueva versión de Difusión de 
 
 Así que, empecemos. En primer lugar, echemos un vistazo al siguiente diagrama, que muestra los componentes de alto nivel presentes en los eventos en directo de Microsoft 365 y cómo están conectados.
 
-![Componentes clave de los eventos en directo](../media/live-event-flow-diagram1.png  "Componentes clave de eventos en directo, programación, producción, plataforma de Stream, proveedores de terceros certificados de eCDN")
+![Componentes clave de los eventos en directo](../media/live-event-flow-diagram.png  "Componentes clave de eventos en directo, programación, producción, plataforma de Stream, proveedores de terceros certificados de eCDN")
 
 > [!Note]
 > Nos gustaría destacar que los eventos en directo de Teams, dada la naturaleza de la tecnología de difusión, a menudo superan las audiencias de reuniones normales (internas).
@@ -91,7 +91,7 @@ La entrada de vídeo constituye la base de un evento en directo y el método pue
 
 La plataforma de streaming de eventos en directo se compone de lo siguiente:
 
-- **Azure Media Services**: [Azure Media Services](/azure/media-services/previous/) ofrece servicios de streaming de vídeo de calidad para llegar a un público más amplio desde los dispositivos móviles más populares de la actualidad. Media Services mejora la accesibilidad, distribución y escalabilidad y hace que resulte más fácil y rentable transmitir contenido a un público local o global al tiempo que protege su contenido.
+- **Azure Media Services**: [Azure Media Services](/azure/media-services/previous/) ofrece servicios de streaming de vídeo de calidad para llegar a un público más amplio desde los dispositivos móviles más populares de la actualidad. Azure Media Services mejora la accesibilidad, distribución y escalabilidad y hace que resulte más fácil y rentable transmitir contenido a un público local o global, al tiempo que protege su contenido.
 - **Azure Content Delivery Network (CDN)**: La transmisión en directo la lleva a cabo [Azure Content Delivery Network (CDN)](/azure/cdn/). Azure Media Services ofrece puntos de conexión integrados de CDN para streaming. Esto permite a un público global seguir la transmisión sin almacenamiento en búfer.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Content Delivery Network para empresas (eCDN)

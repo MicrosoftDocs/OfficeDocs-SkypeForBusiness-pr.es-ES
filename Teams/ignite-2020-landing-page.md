@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: 81f50df8b008fe8be945917b6fa085ead85c2b25
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: ae47dbc052a656dc5411ade96c1efe7328065c4cd859c8681e0ff34e64cd3aaa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354396"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344013"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Teams sesiones en Ignite 2020
 

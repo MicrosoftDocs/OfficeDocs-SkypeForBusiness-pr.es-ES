@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Antes de empezar, le recomendamos que lea este documento y las siguientes guías para familiarizarse con la implementación de los roles correspondientes:'
-ms.openlocfilehash: 89249622af6285943de40eed643e2ca7bbed392d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 'Antes de empezar, se recomienda leer este documento y las siguientes guías para familiarizarse con la implementación de los roles correspondientes:'
+ms.openlocfilehash: d450ba89936e9b61f862d59072849fbe5d21e6b66c79ba351f5f275d2a4ff4e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319553"
 ---
 # <a name="before-you-begin-the-migration"></a>Antes de comenzar la migración
 
-Antes de empezar, le recomendamos que lea los artículos siguientes para familiarizarse con la implementación de los roles correspondientes.
+Antes de empezar, le recomendamos que lea los siguientes artículos para familiarizarse con la implementación de los roles correspondientes.
     
 ## <a name="in-this-section"></a>En esta sección
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e068e1ef9144bdb09a7f6009495ad1b89ce7accf
-ms.sourcegitcommit: f781600a40e174cfc522e29375a4820b1142e23a
+ms.openlocfilehash: c68e3efd00e0f9204f507b4c63977837076bb3beb75a958a0629f1e5da64f69e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53596388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344033"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Usar plantillas generales de equipo en el Centro de administración
 

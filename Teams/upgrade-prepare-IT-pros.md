@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c0933d9347a1aa2da49abf85e7b420413a5961a
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 2dc29f8656b4fdd69d0e6e59338e91341d32cc7e283b4bdd2cfb5680192e248b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343864"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Prepare a su personal de TI para Microsoft Teams
 

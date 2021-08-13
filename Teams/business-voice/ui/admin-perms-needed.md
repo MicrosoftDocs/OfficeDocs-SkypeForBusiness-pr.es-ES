@@ -16,12 +16,12 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFO
-ms.openlocfilehash: 236b3444d78950ea4f84fb28187d6d4d3046205c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 23fdfe702d4ae776893368838332ce4747463e0bfc15938c418f076279d8bf74
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102856"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299437"
 ---
 # <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>Permisos de administrador necesarios para comprar Microsoft 365 Business Voice
 
@@ -31,11 +31,11 @@ En primer lugar, si hizo clic en un vínculo por accidente y no quería intentar
 
 ## <a name="how-can-i-buy-business-voice"></a>¿Cómo puedo comprar Business Voice?
 
-Business Voice es un complemento para Microsoft 365 y Office 365. Antes de poder comprar Business Voice, debe registrarse para obtener Microsoft 365 o Office 365. Después de registrarse, o si ya tiene una suscripción Microsoft 365 o Office 365, puede comprar licencias de complementos de Business Voice yendo Microsoft 365 los complementos de servicios de compra de facturación del Centro de administración de Microsoft 365 (desplácese [hasta](https://admin.microsoft.com)la parte inferior de la  >    >    >   página) **> Microsoft 365 Business Voice**.
+Business Voice es un complemento para Microsoft 365 y Office 365. Antes de poder comprar Business Voice, debe registrarse para obtener Microsoft 365 o Office 365. Después de registrarse o si ya tiene una suscripción de Microsoft 365 o Office 365, puede comprar licencias de complementos de Business Voice yendo a los complementos de servicios de compra de facturación de [Centro de administración de Microsoft 365](https://admin.microsoft.com)(desplácese hasta la parte inferior de la  >    >    >   página) **> Microsoft 365 Business Voice**.
 
 ## <a name="why-dont-i-see-an-option-to-buy-business-voice"></a>¿Por qué no veo una opción para comprar Business Voice?
 
-Si no puede acceder al centro de administración de Microsoft 365, si no ve una opción para comprar Business Voice, o si recibe un error, podría deberse a uno de los siguientes motivos:
+Si no puede acceder a la Centro de administración de Microsoft 365, si no ve una opción para comprar Business Voice, o si recibe un error, podría deberse a uno de los siguientes motivos:
 
 - **Permisos insuficientes:** para agregar licencias, incluida Business Voice, a su organización de Microsoft 365 o Office 365, su cuenta debe ser administrador global o debe tener asignado el rol de administrador de facturación. Hable con su Microsoft 365 o Office 365 administrador para obtener ayuda para obtener los permisos adecuados o para agregar las licencias de Business Voice por usted.
 - Ha iniciado sesión en una cuenta que no es **administradora:** si es el administrador global o administrador de facturación de su organización de Microsoft 365 o Office 365, y sigue la práctica recomendada de tener una cuenta de usuario "normal" que sea independiente de su cuenta de administrador, salga de su cuenta de usuario normal e inicie sesión en su cuenta de administrador.

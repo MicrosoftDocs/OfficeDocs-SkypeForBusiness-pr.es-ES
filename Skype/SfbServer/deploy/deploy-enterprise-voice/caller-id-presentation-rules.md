@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
-description: 'Summary: Learn how to configure Caller ID by using the Skype for Business Server Control Panel.'
-ms.openlocfilehash: 2ffe547927c9f4d6df16a06cc8c95dff9814fc7f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to configure Caller ID by using the Skype Empresarial Server Control Panel.'
+ms.openlocfilehash: 039fe9181bad8edbb587a1b3739679137cf0cb8e98d9ce79859ae7a5e73a4e0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113036"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332032"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Crear o modificar una regla de traducción para la presentación del identificador de autor de la llamada en Skype Empresarial Server
 
-**Resumen:** Obtenga información sobre cómo configurar el identificador de llamada mediante el Panel de control de Skype Empresarial Server.
+**Resumen:** Obtenga información sobre cómo configurar el identificador de llamador mediante el Panel Skype Empresarial Server control.
 
-Con Skype Empresarial Server, el número de teléfono de la parte llamada (es decir, el número de teléfono llamado) se puede traducir del formato E.164 al formato de marcado local que requiere el tronco del mismo nivel  _(es_ decir, la puerta de enlace asociada, la central de conmutación de sucursal privada (PBX) o el tronco SIP). Para ello, defina una o varias reglas de traslación para traducir la URI de la solicitud antes de redirigirla al tronco de mismo nivel.
+Con Skype Empresarial Server, el número de teléfono de la parte llamada (es decir, el número de teléfono llamado) se puede traducir del formato E.164 al formato de marcado local que requiere el mismo nivel de tronco _(es_ decir, la puerta de enlace asociada, la central de conmutación de sucursal privada (PBX) o el tronco SIP). Para ello, defina una o varias reglas de traslación para traducir la URI de la solicitud antes de redirigirla al tronco de mismo nivel.
 
 Skype Empresarial Server también le ofrece la opción de traducir también el número de teléfono de la persona que realiza la llamada (es decir, el número de teléfono desde el que llama el autor de la llamada) del formato E.164 al formato de marcado local que requiere el mismo nivel de tronco. Por ejemplo, puede escribir una regla de conversión para quitar el prefijo +34 del principio de una cadena de llamada y sustituirlo por 0134.
 
-### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>Para configurar el identificador de llamada mediante el Panel de control de Skype Empresarial Server
+### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>Para configurar el identificador de autor de llamada mediante Skype Empresarial Server Panel de control
 
-1. Abra el Panel de control de Skype Empresarial Server.
+1. Abra Skype Empresarial Server Panel de control.
 
 2. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, después, en **Configuración de tronco**.
 

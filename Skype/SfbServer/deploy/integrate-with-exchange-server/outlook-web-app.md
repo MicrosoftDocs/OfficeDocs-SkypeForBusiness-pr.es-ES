@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Resumen: integrar Skype Empresarial Server y Outlook Web App.'
-ms.openlocfilehash: daa9430034d82a3a8dee980a9b075b2fc5656c86
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3bee7a66ec054e316f50ce86839b86d4ecb16ea2333302b12dedb408580c4f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109696"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331862"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurar la integración entre Skype Empresarial Server local y Outlook Web App
 
@@ -60,13 +60,13 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 - **Identity** especifica un identificador de valor de cadena único para el proveedor de hospedaje que está creando (por ejemplo, "Exchange Online"). Los valores que contienen espacios deben aparecer en comillas dobles.
 
-- **Habilitada** indica si la conexión de red entre el dominio y el proveedor de hospedaje está habilitada. Este parámetro debe estar configurado en True.
+- **Enabled** indica si la conexión de red entre su dominio y el proveedor de hospedaje está habilitada. Este parámetro debe estar configurado en True.
 
-- **EnabledSharedAddressSpace** indica si se usará el proveedor de hospedaje en un escenario de espacio de direcciones SIP compartido. Este parámetro debe estar configurado en True.
+- **EnabledSharedAddressSpace** indica si el proveedor de hospedaje se usará en un escenario de espacio de direcciones SIP compartido. Este parámetro debe estar configurado en True.
 
 - **HostsOCSUsers** indica si el proveedor de hospedaje se usa para hospedar Office Communications Server o Skype Empresarial Server. Este parámetro debe estar configurado en False.
 
-- **ProxyFQDN** especifica el nombre de dominio completo (FQDN) para el servidor proxy que usa el proveedor de hospedaje. Para Exchange Online, el FQDN es exap.um.outlook.com.
+- **ProxyFQDN** especifica el nombre de dominio completo (FQDN) para el servidor proxy usado por el proveedor de hospedaje. Para Exchange Online, el FQDN es exap.um.outlook.com.
 
 - **IsLocal** indica si el servidor proxy usado por el proveedor de hospedaje está contenido en la topología de Skype Empresarial Server. Este parámetro debe estar configurado en False.
 
@@ -90,7 +90,7 @@ Get-CsHostingProvider -LocalStore
 ```
 Compruebe doblemente si la información mostrada coincide con los cambios confirmados en los pasos anteriores.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Proporcionar correo de voz de usuarios de Skype Empresarial Server en mensajería unificada hospedada de Exchange](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)
 

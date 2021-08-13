@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
-description: 'Summary: Learn about monitoring and health configuration tasks in Skype for Business Server.'
-ms.openlocfilehash: 613df0616214e4fbe2a9504e930fcf76c4cfa8c4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumen: obtenga información sobre las tareas de supervisión y configuración de estado en Skype Empresarial Server.'
+ms.openlocfilehash: 259e3a939f53320d1bb8066bfa02a96c314c1d37dfb7e5d0ccbcd7a5d872a573
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095204"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297186"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Administrar el estado y la supervisión en Skype Empresarial Server
 
 **Resumen:** Obtenga información sobre las tareas de supervisión y configuración de estado en Skype Empresarial Server.
 
-Los temas de esta sección proporcionan procedimientos paso a paso para las tareas de supervisión y configuración de estado que puede realizar en el Panel de control de Skype Empresarial Server y el Shell de administración de Skype Empresarial Server.
+En los temas de esta sección se proporcionan procedimientos paso a paso para las tareas de supervisión y configuración de mantenimiento que puede realizar en el Panel de control Skype Empresarial Server y en el Shell Skype Empresarial Server administración.
 
 ## <a name="in-this-section"></a>En esta sección
 
@@ -31,11 +31,11 @@ Los temas de esta sección proporcionan procedimientos paso a paso para las tare
 
 - [Calidad de la experiencia (QoE) en Skype Empresarial Server](quality-of-experience.md)
 
-- [Supervisar la movilidad para el rendimiento en Skype Empresarial Server](monitor-mobility-performance.md)
+- [Supervisar la movilidad para obtener rendimiento en Skype Empresarial Server](monitor-mobility-performance.md)
 
 - [Uso de informes de supervisión en Skype Empresarial Server](monitoring-reports.md)
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

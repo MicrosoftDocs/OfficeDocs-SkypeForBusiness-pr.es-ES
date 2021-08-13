@@ -1,5 +1,5 @@
 ---
-title: Detalles de la tabla cdr en Skype Empresarial Server 2015
+title: Detalles de la tabla CDR en Skype Empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: En los siguientes temas se detallan las columnas de cada una de las tablas de esquema de base de datos de los registros detallados de llamadas (CDR).
-ms.openlocfilehash: 5b271d336cfe5dd17a83cf318debf7eb2675d344
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7b22676a675d70359cf895261f3f0ad3cec13a6835805efefaacb6be7a7416ce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813380"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296977"
 ---
-# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Detalles de la tabla cdr en Skype Empresarial Server 2015
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Detalles de la tabla CDR en Skype Empresarial Server 2015
  
 En los siguientes temas se detallan las columnas de cada una de las tablas de esquema de base de datos de los registros detallados de llamadas (CDR).
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Tabla Application en Skype Empresarial Server 2015](application.md)
+- [Tabla de aplicaciones en Skype Empresarial Server 2015](application.md)
     
 - [Tabla CallPriorities en Skype Empresarial Server 2015](callpriorities.md)
     
@@ -38,7 +38,7 @@ En los siguientes temas se detallan las columnas de cada una de las tablas de es
     
 - [Tabla ConferenceMessageCount en Skype Empresarial Server 2015](conferencemessagecount.md)
     
-- [Tabla Conferences en Skype Empresarial Server 2015](conferences.md)
+- [Tabla conferencias en Skype Empresarial Server 2015](conferences.md)
     
 - [Tabla ConferenceSessionDetails en Skype Empresarial Server 2015](conferencesessiondetails-0.md)
     
@@ -48,9 +48,9 @@ En los siguientes temas se detallan las columnas de cada una de las tablas de es
     
 - [Tabla DeRegisterType en Skype Empresarial Server 2015](deregistertype.md)
     
-- [Tabla Devices en Skype Empresarial Server 2015](devices.md)
+- [Tabla dispositivos en Skype Empresarial Server 2015](devices.md)
     
-- [Tabla Dialogs en Skype Empresarial Server 2015](dialogs.md)
+- [Tabla de cuadros de diálogo Skype Empresarial Server 2015](dialogs.md)
     
 - [Tabla EdgeServers en Skype Empresarial Server 2015](edgeservers.md)
     
@@ -66,7 +66,7 @@ En los siguientes temas se detallan las columnas de cada una de las tablas de es
     
 - [Tabla FrontEnd en Skype Empresarial Server 2015](frontend.md)
     
-- [Tabla Gateways en Skype Empresarial Server 2015](gateways.md)
+- [Tabla Puertas de enlace en Skype Empresarial Server 2015](gateways.md)
     
 - [Tabla HardwareVersions en Skype Empresarial Server 2015](hardwareversions.md)
     
@@ -74,13 +74,13 @@ En los siguientes temas se detallan las columnas de cada una de las tablas de es
     
 - [Tabla Ubicaciones en Skype Empresarial Server 2015](locations.md)
     
-- [Tabla Manufacturers en Skype Empresarial Server 2015](manufacturers.md)
+- [Tabla Fabricantes en Skype Empresarial Server 2015](manufacturers.md)
     
 - [Tabla McuJoinsAndLeaves en Skype Empresarial Server 2015](mcujoinsandleaves.md)
     
 - [Tabla Mcus en Skype Empresarial Server 2015](mcus.md)
     
-- [Tabla Multimedia](media.md)
+- [Tabla multimedia](media.md)
     
 - [Tabla MediaList](medialist.md)
     
@@ -100,7 +100,7 @@ En los siguientes temas se detallan las columnas de cada una de las tablas de es
     
 - [Tabla Roles](roles.md)
     
-- [Tabla Servers](servers.md)
+- [Tabla Servidores](servers.md)
     
 - [Tabla SessionDetails](sessiondetails.md)
     
@@ -110,13 +110,13 @@ En los siguientes temas se detallan las columnas de cada una de las tablas de es
     
 - [Tabla SyndicatorsTenantMap](syndicatorstenantmap.md)
     
-- [Tabla Task](task.md)
+- [Tabla de tareas](task.md)
     
-- [Tabla Tenants](tenants.md)
+- [Tabla Inquilinos](tenants.md)
     
 - [Tabla UriTypes](uritypes.md)
     
-- [Tabla Users](users.md)
+- [Tabla Usuarios](users.md)
     
 - [Tabla UserAgentDef](useragentdef.md)
     

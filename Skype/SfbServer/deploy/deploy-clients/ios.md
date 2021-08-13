@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
-description: 'Resumen: cómo instalar y probar la aplicación Skype Empresarial para iOS.'
-ms.openlocfilehash: d05c95230d23e3b223fb79edb0bc88b9dcf944bd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumen: cómo instalar y probar el Skype Empresarial para la aplicación de iOS.'
+ms.openlocfilehash: 28f91bccd32421c2442bfedb12eb5181311ed0ed990ebf4f3174898ddefff610
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805820"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332022"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Instalar y probar Skype Empresarial para iOS
  
 **Resumen:** Cómo instalar y probar la aplicación Skype Empresarial para iOS.
   
-La aplicación skype empresarial para iOS ofrece presencia de Skype Empresarial, mensajería instantánea (MI) y llamadas de voz y vídeo a dispositivos iOS. Los usuarios con Lync 2013 recibirán la aplicación actualizada automáticamente o se les pedirá que la actualicen manualmente, según la configuración del usuario. Los nuevos usuarios pueden descargarlo desde La App Store de Apple. La aplicación de Skype Empresarial para iOS solo está disponible en las versiones 8.0 y posteriores de iOS.
+La Skype Empresarial para iOS ofrece Skype Empresarial presencia, mensajería instantánea (MI) y llamadas de voz y vídeo a dispositivos iOS. Los usuarios con Lync 2013 recibirán la aplicación actualizada automáticamente o se les pedirá que la actualicen manualmente, según la configuración del usuario. Los nuevos usuarios pueden descargarlo desde la Tienda de aplicaciones de Apple. La Skype Empresarial para iOS solo está disponible en las versiones 8.0 y posteriores de iOS.
   
-## <a name="installing-skype-for-business-for-ios"></a>Instalación de Skype Empresarial para iOS
+## <a name="installing-skype-for-business-for-ios"></a>Instalación Skype Empresarial para iOS
 
-1. Desde su dispositivo iOS, pulse **Tienda de** aplicaciones y busque **Skype Empresarial para iOS.**
+1. Desde el dispositivo iOS, pulsa **Tienda de** aplicaciones y busca Skype Empresarial **para iOS**.
     
-2. Pulse **Descargar**  >  **abrir**. 
+2. Pulsa **Descargar**  >  **Abrir**. 
     
-3. Inicia sesión en la aplicación.
+3. Inicie sesión en la aplicación.
     
-## <a name="verifying-mobile-client-installation"></a>Comprobación de la instalación del cliente móvil
+## <a name="verifying-mobile-client-installation"></a>Comprobar la instalación de cliente móvil
 
-Después de iniciar sesión correctamente, use las siguientes pruebas para comprobar que la instalación de Skype Empresarial funciona correctamente en su dispositivo iOS. 
+Después de iniciar sesión correctamente, usa las siguientes pruebas para comprobar que la instalación Skype Empresarial está funcionando correctamente en el dispositivo iOS. 
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>Buscar un contacto en el directorio corporativo
 
@@ -43,19 +43,19 @@ Después de iniciar sesión correctamente, use las siguientes pruebas para compr
     
 2. Compruebe que el nombre de contacto aparece en los resultados de búsqueda. 
     
-### <a name="test-instant-messaging-and-presence"></a>Probar la mensajería instantánea y la presencia
+### <a name="test-instant-messaging-and-presence"></a>Probar la presencia y la mensajería instantánea
 
 1. En la lista de contactos, puntee un contacto. 
     
-2. Compruebe que aparece una ventana de mensajería instantánea (MI) y que puede escribir y enviar un mensaje instantáneo. 
+2. Compruebe que aparece una ventana de mensajería instantánea (MI) y que puede escribir y enviar una mensajería instantánea. 
     
 ### <a name="test-dial-out-conferencing"></a>Pobrar la conferencia saliente
 
-1. En Outlook, programe una reunión de Skype Empresarial. 
+1. En Outlook, programe una Skype Empresarial reunión. 
     
 2. En el dispositivo móvil, abra la invitación de la reunión. 
     
-3. Haga clic en el **botón Unirse a la** reunión.
+3. Haga clic en **el botón Unirse a la** reunión.
     
 4. Responda a la llamada del servicio de conferencia y compruebe que está conectado al audio de la reunión. 
     
