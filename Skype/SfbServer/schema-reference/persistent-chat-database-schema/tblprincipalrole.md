@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
 description: La tabla PrincipalRole contiene roles explícitos asignados a nodos.
-ms.openlocfilehash: 13c9c25db9ba1dbe281947468bbd834e80417899
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 28e639a4894b89e449a70fc527b7c4315be57403e15bb582bcdae3933e3790a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831560"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336390"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  

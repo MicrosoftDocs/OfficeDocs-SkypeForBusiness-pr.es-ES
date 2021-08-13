@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 'Resumen: obtenga información sobre los informes de control de admisión de llamadas usados en Skype Empresarial Server.'
-ms.openlocfilehash: ce7f8e622ece066d58cbc2c23a6423e19b084622
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 36dfe7c15948ea8405558d9e97fa4de4ac4a8081a22aa7e6bd83256a40c8c9f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336630"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Informe de control de admisión de llamadas en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre los informes de control de admisión de llamadas usados en Skype Empresarial Server.
   
-El Informe de control de admisión de llamadas ofrece información sobre las sesiones de punto a punto y de conferencia que se han llevado a cabo con restricciones definidas por el Control de admisión de llamadas. El servicio de control de admisión de llamadas permite a los administradores permitir (o no) sesiones de comunicación basadas en restricciones de ancho de banda. Por ejemplo, los administradores pueden crear directivas que impongan un límite a la cantidad de ancho de banda disponible para las llamadas de voz y vídeo. Si se alcanza ese límite de ancho de banda, no se podrán realizar nuevas llamadas de voz o vídeo hasta que finalice alguna de las llamadas en curso y se liberen los recursos de red necesarios.
+El Informe de control de admisión de llamadas ofrece información sobre las sesiones de punto a punto y de conferencia que se han llevado a cabo con restricciones definidas por el Control de admisión de llamadas. El control de admisión de llamadas permite a los administradores permitir (o no) sesiones de comunicación basadas en restricciones de ancho de banda. Por ejemplo, los administradores pueden crear directivas que impongan un límite a la cantidad de ancho de banda disponible para las llamadas de voz y vídeo. Si se alcanza ese límite de ancho de banda, no se podrán realizar nuevas llamadas de voz o vídeo hasta que finalice alguna de las llamadas en curso y se liberen los recursos de red necesarios.
   
 ## <a name="accessing-the-call-admission-control-report"></a>Acceso al Informe de control de admisión de llamadas
 
@@ -31,7 +31,7 @@ Al Informe de control de admisión de llamadas se accede desde la página de ini
   
 - Informe de detalles de conferencia: para obtener acceso a este informe, haga clic en la métrica Detalles de una sesión de conferencia. 
     
-- Informe de detalles de sesiones punto a punto: para obtener acceso a este informe, haga clic en la métrica Detalles de una sesión punto a punto.
+- Informe de detalles de sesión punto a punto: para obtener acceso a este informe, haga clic en la métrica Detalles de una sesión punto a punto.
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Cómo hacer el mejor uso del Informe de control de admisión de llamadas
 
@@ -51,11 +51,11 @@ En la tabla siguiente se muestran los filtros que se pueden utilizar con el Info
 
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|**From** <br/> |Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:  <br/> 17/7/12015 13:00  <br/> Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/17/12015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/13/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
-|**Para** <br/> |Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:  <br/> 17/7/12015 13:00  <br/> Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/17/12015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/13/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
+|**From** <br/> |Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:  <br/> 17/17/12015 1:00 PM  <br/> Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/17/12015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/13/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
+|**To** <br/> |Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:  <br/> 17/17/12015 1:00 PM  <br/> Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/17/12015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/13/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
 |**Grupo** <br/> |Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en **[Todo]** para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.<br/> |
-|**Tipo de actividad** <br/> | Tipo de actividad. Seleccione una de las siguientes actividades: <br/>  [Todos] <br/>  Punto a punto <br/>  Conferencia <br/> |
-|**Categoría de llamada** <br/> | Indica el motivo por el que se usó el control de admisión de llamadas para la llamada. Seleccione una de las siguientes opciones: <br/>  [Todos] <br/>  Llamada rechazada debido al control de admisión de llamadas <br/>  Llamadas que se han vuelto a enrutar a través de RTC debido al control de admisión de llamadas <br/> |
+|**Tipo de actividad** <br/> | Tipo de actividad. Seleccione una de las siguientes actividades: <br/>  [All] <br/>  Punto a punto <br/>  Conferencia <br/> |
+|**Categoría de llamada** <br/> | Indica el motivo por el que se usó el control de admisión de llamadas para la llamada. Seleccione una de las siguientes opciones: <br/>  [All] <br/>  Llamada rechazada debido al control de admisión de llamadas <br/>  Llamadas que se han vuelto a enrutar a través de RTC debido al control de admisión de llamadas <br/> |
    
 ## <a name="metrics-for-peer-to-peer-sessions"></a>Métricas de las sesiones punto a punto
 
@@ -63,7 +63,7 @@ En la siguiente tabla se muestra la información proporcionada por el Informe de
   
 **Métricas de las sesiones punto a punto**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Detalle** <br/> |No  <br/> |Cuando se hace clic en este elemento, el informe muestra un informe detallado de sesión punto a punto de la sesión específica.  <br/> |
 |**Remitente** <br/> |Sí  <br/> |Dirección SIP del usuario que inició la sesión.  <br/> |
@@ -80,7 +80,7 @@ En la siguiente tabla se muestra información proporcionada en el Informe de con
   
 **Métricas de las sesiones de conferencia**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**URI de conferencia** <br/> |Sí  <br/> |Identificador único de la conferencia. Cuando se hace clic en este elemento, el informe muestra los participantes individuales de la conferencia.  <br/> |
 |**Organizador** <br/> |Sí  <br/> |Dirección SIP del usuario que organizó la conferencia  <br/> |
@@ -94,7 +94,7 @@ En la siguiente tabla se muestra la información proporcionada en el Informe de 
   
 **Métricas de participantes en conferencias individuales**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Rol** <br/> |No  <br/> |Rol (por ejemplo, Moderador) que ocupó el participante de la conferencia.  <br/> |
 |**Participante** <br/> |No  <br/> |Dirección SIP del participante de la conferencia.  <br/> |

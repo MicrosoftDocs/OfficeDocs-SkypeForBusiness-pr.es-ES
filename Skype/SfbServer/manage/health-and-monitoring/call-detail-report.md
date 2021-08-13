@@ -1,5 +1,5 @@
 ---
-title: Informe de detalles de llamadas en Skype Empresarial Server
+title: Informe detallado de llamadas en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 'Resumen: obtenga información sobre el informe de detalles de llamadas usado en Skype Empresarial Server.'
-ms.openlocfilehash: 9b02722c8dd872b5703d6b459c2cd48568e39f94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn about the Call Detail Report used in Skype Empresarial Server.'
+ms.openlocfilehash: 42a0dd40bb32005fcae49464f5ebfc6570055f7078c22b6a8b5be6004793158b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336590"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>Informe de detalles de llamadas en Skype Empresarial Server
+# <a name="call-detail-report-in-skype-for-business-server"></a>Informe detallado de llamadas en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre el informe de detalles de llamadas usado en Skype Empresarial Server.
   
-El informe de detalles de llamadas proporciona una vista detallada de una llamada individual; El informe incluye casi todas las métricas y estadísticas de calidad de la experiencia recopiladas por Skype Empresarial Server, divididas en secciones de informes como:
+El Informe de detalles de llamadas proporciona una vista detallada de una llamada individual; el informe incluye casi todas las métricas y estadísticas de calidad de la experiencia recopiladas por Skype Empresarial Server, divididas en secciones de informe como:
   
 - Información de llamada 
     
@@ -53,15 +53,15 @@ Es posible tener acceso al Informe de detalles de llamadas desde cualquiera de l
   
 - [Informe de ubicación en Skype Empresarial Server (location-report.md) (haciendo clic en el volumen de llamadas o en la métrica Porcentaje de llamadas deficientes)
     
-- [Media Quality Summary Report in Skype for Business Server (summary.md) (haciendo clic en la métrica Volumen de llamadas o Porcentaje de llamadas deficientes)
+- [Informe de resumen de calidad multimedia en Skype Empresarial Server (summary.md) (haciendo clic en la métrica Volumen de llamadas o Porcentaje de llamadas deficientes)
     
-- Informe [de comparación de calidad de medios en Skype Empresarial Server](comparison.md) (haciendo clic en el Informe de lista de llamadas en Skype Empresarial [Server](call-list-report-0.md) y, a continuación, haciendo clic en la métrica Detalles).
+- El [Informe de comparación de](comparison.md) calidad multimedia en Skype Empresarial Server (haciendo clic en el Informe de lista de llamadas en [Skype Empresarial Server](call-list-report-0.md) y, a continuación, haciendo clic en la métrica Detalle).
     
-- Informe [de rendimiento del servidor en Skype Empresarial Server](server-performance.md) (haciendo clic en la métrica Volumen de llamadas o Porcentaje de llamadas deficientes)
+- Informe [de rendimiento del servidor en Skype Empresarial Server](server-performance.md) (haciendo clic en la métrica Volumen de llamadas o Porcentaje de llamadas deficiente)
     
-- Informe [de lista de llamadas en Skype Empresarial Server](call-list-report-0.md) (haciendo clic en la métrica Detalles)
+- Informe [de lista de llamadas en Skype Empresarial Server](call-list-report-0.md) (haciendo clic en la métrica Detalle)
     
-Desde el Informe de detalles de llamadas puede obtener acceso al informe [de dispositivos](device-report.md) en Skype Empresarial Server haciendo clic en cualquiera de las métricas siguientes:
+Desde dentro del Informe de detalles de llamadas, puedes acceder al informe de [dispositivos en Skype Empresarial Server](device-report.md) haciendo clic en cualquiera de las siguientes métricas:
   
 - Dispositivo de captura
     
@@ -73,9 +73,9 @@ También se puede tener acceso al Informe de tendencias de calidad de medios de 
 
 El Informe de detalles de llamadas incluye más de 250 métricas distintas e incluye elementos como, por ejemplo, el Desfase de marca de tiempo de micrófono, el Tiempo de SNR bajo y el Tiempo de extremo próximo a eco. Si no recuerda qué miden todas estas métricas, coloque el mouse sobre la etiqueta de la métrica para que se muestre información de descripción.
   
-Si tiene problemas para encontrar una métrica, escriba una parte de la etiqueta de la métrica en el cuadro de búsqueda y, a continuación, haga clic en **Buscar**. Por ejemplo, si no encuentra la métrica tiempo de SNR bajo, escriba SNR en el cuadro de búsqueda y, a continuación, haga clic en **Buscar**.
+Si tiene problemas para localizar una métrica, escriba parte de la etiqueta de métrica en el cuadro de búsqueda y, a continuación, haga clic en **Buscar**. Por ejemplo, si no encuentra la métrica de tiempo de SNR bajo, escriba SNR en el cuadro de búsqueda y, a continuación, haga clic en **Buscar**.
   
-Tenga en cuenta que el informe solo realiza un seguimiento de la información sobre una llamada. La llamada en sí no se registra.
+Tenga en cuenta que el informe solo realiza un seguimiento de la información acerca de una llamada. La llamada en sí no se registra.
   
 ## <a name="filters"></a>Filtros
 
@@ -87,7 +87,7 @@ En la tabla siguiente se muestra la información que recoge el informe de detall
   
 **Métricas del informe de detalles de llamadas**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**PAI de autor de la llamada** <br/> |No  <br/> |P-Asserted-Identity del usuario que inició la llamada. P-Asserted-Identity se utiliza para transmitir la identidad demostrada de un usuario en una red de confianza.  <br/> |
 |**URI de autor de la llamada** <br/> |No  <br/> |Dirección SIP del usuario que inició la llamada.  <br/> |

@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
-description: 'Resumen: obtenga información sobre los registros de registro detallado de llamadas (CDR) usados en Skype Empresarial Server.'
-ms.openlocfilehash: 566a345cb48cd318976c4653abc74cbb5d4c9747
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn about the Call detail recording (CDR) records used in Skype Empresarial Server.'
+ms.openlocfilehash: 8559104bffb4e1062f926e70972c0654522670887488740a2c9589d48b104959
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336620"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Registro detallado de llamadas (CDR) en Skype Empresarial Server
  
@@ -29,7 +29,7 @@ El registro detallado de llamadas (CDR) registra la información de uso y diagn�
 
 - [Ver información de configuración de CDR en Skype Empresarial Server](view-configuration-information.md)
     
-- [Habilitar el registro detallado de llamadas en Skype Empresarial Server](enable-cdr.md)
+- [Habilitar la grabación de detalles de llamadas en Skype Empresarial Server](enable-cdr.md)
     
 - [Crear o modificar una colección de opciones de configuración de CDR en Skype Empresarial Server](create-or-modify-a-collection-of-settings.md)
     
@@ -37,6 +37,6 @@ El registro detallado de llamadas (CDR) registra la información de uso y diagn�
     
 - [Purgar manualmente el registro detallado de llamadas y las bases de datos de calidad de la experiencia en Skype Empresarial Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-[Configurar el registro detallado de llamadas y la calidad de la experiencia en Skype Empresarial Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
+[Configurar la grabación detallada de llamadas y la configuración de calidad de la experiencia en Skype Empresarial Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo de grupos de servidores directores enumera los grupos de servidores directores de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 86a52e6016d6449e49eb067fe9ad9c3e51be896d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7ae37c6cdfc050a485d84f614052304da02af4e6b89ce03baf6279e441b9ec45
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335430"
 ---
 # <a name="directors-scope-node"></a>Nodo de ámbito de directores
  
@@ -30,7 +30,7 @@ El nodo de **grupos de servidores directores** enumera los grupos de servidores 
     
 Además de las opciones del grupo de servidores director, puede llevar a cabo las siguientes tareas generales:
   
-- **Topología**. Puede usar esta opción para definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
+- **Topología**. Puede usar esta opción para definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
     
 - **Ver**. Use esta opción para personalizar la vista del Generador de topologías seleccionando los elementos que se deben mostrar y ocultar en las vistas de árbol de consola.
     

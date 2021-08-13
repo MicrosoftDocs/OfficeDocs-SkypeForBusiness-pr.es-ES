@@ -1,5 +1,5 @@
 ---
-title: (Opcional) Comprobar la implementación de grupos de respuesta en Skype Empresarial
+title: (Opcional) Comprobar la implementación del grupo de respuesta en Skype Empresarial
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,30 +13,30 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Compruebe el éxito de la implementación del grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: e593b46d260e8cabb8a4cbb311a7a79852a93c18
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 130ec066682f246a13df32835cb1ed1e3bb40428b3c80ef820ab5ede1dc5c00f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324539"
 ---
-# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Opcional) Comprobar la implementación de grupos de respuesta en Skype Empresarial
+# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Opcional) Comprobar la implementación del grupo de respuesta en Skype Empresarial
  
 Compruebe el éxito de la implementación del grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
   
-Después de configurar el grupo de respuesta, debe comprobar la configuración para asegurarse de que los grupos de respuesta funcionan según lo esperado. Compruebe, como mínimo, los siguientes escenarios con los tipos de usuarios que se muestran a continuación:
+Después de configurar el grupo de respuesta, debe comprobar la configuración para asegurarse de que los grupos de respuesta funcionan como se esperaba. Compruebe, como mínimo, los siguientes escenarios con los tipos de usuarios que se muestran a continuación:
   
  **Usuarios**
   
-- Un usuario que está en Skype Empresarial
+- Un usuario que se encuentra en el Skype Empresarial
     
 - Un usuario externo que usa la red telefónica conmutada (RTC)
     
-- Un agente que está en Skype Empresarial
+- Un agente que se encuentra en Skype Empresarial
     
   **Scenarios**
   
-- El usuario de Skype Empresarial llama al grupo de respuesta.
+- El Skype Empresarial llama al grupo de respuesta.
     
 - El usuario externo llama al grupo de respuesta.
     

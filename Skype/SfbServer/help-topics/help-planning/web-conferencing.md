@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Skype Empresarial Server conferencia web de 2015 incluye colaboración de documentos, uso compartido de aplicaciones y uso compartido de escritorio.
-ms.openlocfilehash: c7e899f0131fbc478264d811a890763ac8b012b36868973ae49a9cb67613bb85
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: cdf85a0ef4f59f8b4773ce39e7bb5ffe35dc64c7
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590754"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232875"
 ---
 # <a name="skype-for-business-server-web-conferencing-planning-tool"></a>Skype Empresarial Server Herramienta de planeación de conferencia web
  

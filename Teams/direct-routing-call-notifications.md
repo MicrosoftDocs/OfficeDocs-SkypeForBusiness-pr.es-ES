@@ -18,12 +18,12 @@ description: Notificación de llamada de enrutamiento directo
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b251040f9433d9ac51b388d12fa530b7c982e0773580d6ac69d41825fbba1ae6
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 8326a9eb1f7a6ad9fb13c622c4f03d0f9af40af8
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848325"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233045"
 ---
 # <a name="manage-call-notifications"></a>Administrar notificaciones perdidas
 

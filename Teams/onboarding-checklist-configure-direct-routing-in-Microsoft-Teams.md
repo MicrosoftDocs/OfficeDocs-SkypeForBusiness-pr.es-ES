@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fbf882e3a54cedaa41a453c4cffb92ba0ed8fd40
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9a6dc19258066efe279e0cc6382839170b2f85c7cb270fda01577d85db25910e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098286"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324879"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Configurar enrutamiento directo en Microsoft Teams
 

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 'Esta sección de referencia incluye la información siguiente:'
-ms.openlocfilehash: 5c8a1ceb6b623466219cbd3df46ff2b39ccceb2c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 25532271f7a34b6861d0817de9e5e7526c1165d255f9a17a2b8a79414bc2ba05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831940"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352129"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Extensiones de esquema, clases y atributos de Active Directory
  
@@ -26,13 +26,13 @@ Esta sección de referencia incluye la información siguiente:
   
 - Extensiones de esquema de Active Directory nuevas o modificadas para Skype Empresarial Server
     
-    El esquema de Active Directory contiene las definiciones formales de todas las clases de objetos que se pueden crear en un bosque de Active Directory. El esquema contiene también las definiciones formales de todos los atributos que puede haber en un objeto de Active Directory. El catálogo global de Active Directory contiene replicaciones de todos los objetos del bosque, así como un subconjunto de los atributos de cada objeto. En esta sección se describen las clases y atributos nuevos o modificados en Skype Empresarial Server.
+    El esquema de Active Directory contiene las definiciones formales de todas las clases de objetos que se pueden crear en un bosque de Active Directory. El esquema contiene también las definiciones formales de todos los atributos que puede haber en un objeto de Active Directory. El catálogo global de Active Directory contiene replicaciones de todos los objetos del bosque, así como un subconjunto de los atributos de cada objeto. En esta sección se describen las clases y atributos que son nuevos o modificados en Skype Empresarial Server.
     
-- Todas las clases usadas por Skype Empresarial Server, con una descripción de cada una
+- Todas las clases usadas por Skype Empresarial Server, con una descripción de cada
     
 - Todos los atributos usados por Skype Empresarial Server, con una descripción de cada uno
     
-- Una lista de las clases usadas por Skype Empresarial Server, con los atributos que cada una puede contener
+- Una lista de las clases usadas por Skype Empresarial Server, con los atributos que cada uno puede contener
     
 - La configuración global y los objetos, así como los grupos universales de servicio y administración creados durante la preparación del bosque
     

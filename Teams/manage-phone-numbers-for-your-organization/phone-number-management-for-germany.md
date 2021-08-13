@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Alemania para Microsoft Teams.
-ms.openlocfilehash: de59a68301faabeb875a8b9348e12cf40986916b534e6929f4189b98f085d43a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5df4949bd69967173ec9cc20bae7af77c6d02fdc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334711"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232665"
 ---
 # <a name="phone-number-management-for-germany"></a>Administración de números de teléfono para Alemania
 
@@ -35,11 +35,11 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.  <br/> | En Alemania, no puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. Debe enviar una solicitud de número de teléfono nuevo. <br/><br/>Descargue uno de estos formularios. <br/>[Nueva solicitud de número de teléfono para Alemania (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Nueva solicitud de número de teléfono para Alemania (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>Rellene y [póngase en contacto con la RTC para obtener instrucciones](contact-pstn-service-desk.md).  <br/> |
-|Transferirnos números de teléfono.  <br/> | Descargue uno de estos formularios. <br/><br/> Para números de teléfono de usuario:<br/>[Carta de autorización (LOA) para Alemania (números geográficos) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  Para números de teléfono gratuitos:<br/>[Carta de autorización (LOA) para Alemania (números gratuitos) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> Rellene y [póngase en contacto con la RTC para obtener instrucciones](contact-pstn-service-desk.md).  <br/> |
-|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con la RTC para obtener instrucciones](contact-pstn-service-desk.md) sobre la lista de números de teléfono que quiere publicar o de la que quiere cancelar la publicación. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con la RTC para obtener instrucciones](contact-pstn-service-desk.md) sobre la lista de números de usuario que quiere convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas u operadores automáticos, póngase en contacto con [el servicio de asistencia de RTC](contact-pstn-service-desk.md). |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.  <br/> | En Alemania, no puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. Debe enviar una solicitud de número de teléfono nuevo. <br/><br/>Descargue uno de estos formularios. <br/>[Nueva solicitud de número de teléfono para Alemania (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Nueva solicitud de número de teléfono para Alemania (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> |
+|Transferirnos números de teléfono.  <br/> | Descargue uno de estos formularios. <br/><br/> Para números de teléfono de usuario:<br/>[Carta de autorización (LOA) para Alemania (números geográficos) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  Para números de teléfono gratuitos:<br/>[Carta de autorización (LOA) para Alemania (números gratuitos) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> |
+|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de soporte técnico de PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con [el Servicio de asistencia RTC para obtener instrucciones.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Temas relacionados
 

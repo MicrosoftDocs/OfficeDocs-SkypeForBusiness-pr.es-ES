@@ -15,24 +15,24 @@ localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Haga clic con el botón secundario en un tronco SIP existente en el Generador de topologías para realizar lo siguiente:'
-ms.openlocfilehash: 3b1d27e08c947d8558c888f2dd0ee5d2b59f1a66
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a4cb9dc241ce5e18610645431739422ad5949e6162eb82028771971cdcffd986
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335390"
 ---
 # <a name="trunk-scope-node"></a>Nodo de ámbito del tronco
  
 Haga clic con el botón secundario en un tronco SIP existente en el Generador de topologías para realizar lo siguiente:
   
-- **Editar propiedades:** inicia el **Asistente para** editar propiedades usado para editar o redefinir la configuración de un tronco SIP existente
+- **Editar propiedades:** inicia el Asistente **para editar propiedades** que se usa para editar o redefinir la configuración de un tronco SIP existente
     
 Además de la opción Editar propiedades, puede realizar las siguientes tareas generales:
   
 - **Topología**. Puede usar esta opción para definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores de Lync Server o quitar la implementación.
     
-- **Eliminar** Esta selección se usa para quitar el elemento seleccionado actualmente. Otras dependencias pueden impedir la eliminación. Un cuadro de diálogo indicará qué servicios y dependencias deben resolverse para poder quitar el elemento.
+- **Eliminar** Esta selección se usa para quitar el elemento seleccionado actualmente. Otras dependencias pueden impedir la eliminación. Un cuadro de diálogo indicará qué servicios y dependencias deben resolverse antes de poder quitar el elemento.
     
 - **Ayuda**. Use esta opción para obtener acceso a la Ayuda del nodo activo.
     

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Costa Rica.
-ms.openlocfilehash: 07b132d7d921d237e197e73e8d6d7e22bb666ad9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bfb23ad0b0d4b79ba13de1204f96f30b9450c3d5a425957dc9c44abedee8ba30
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118229"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336450"
 ---
 # <a name="availability-in-costa-rica"></a>Disponibilidad en Costa Rica
 

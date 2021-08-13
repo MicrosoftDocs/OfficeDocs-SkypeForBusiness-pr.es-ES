@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Puede usar los comandos Skype Empresarial Server Shell de administración para configurar y supervisar el servicio de copia de seguridad.
-ms.openlocfilehash: ea4dd6bba87b06cb9c51320be9c040869c17204619656dfc4291054fcb6c214a
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 1c2ec1ff2cd87388015515d092bdfc058aa10cb0
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849545"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232855"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>Configuración y supervisión del servicio de copia de seguridad en Skype Empresarial Server
 

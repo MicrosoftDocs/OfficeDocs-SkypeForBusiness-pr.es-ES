@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 78737ec26d0aabfedcefa01abc3fb14c4bf118c7
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: b6483ad432eb066e5f3a62e839704b33f65ed8e14ac2f32dedb227ba0c98d1ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948706"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336240"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub se ha retirado
 
@@ -163,7 +163,7 @@ Si esto es algo que le interesa, envíenos una solicitud a través del portal de
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>¿Los informes están disponibles para ver el uso de turnos en toda mi organización?
 
-Dado que Turnos es una aplicación de Teams, puede ver el uso a través de Teams informes. Para obtener más información, consulte [Teams](../../teams-analytics-and-reports/teams-reporting-reference.md) informes en el centro de administración de Microsoft Teams y Teams de actividad en el Microsoft 365 [de administración.](../../teams-activity-reports.md)
+Dado que Turnos es una aplicación de Teams, puede ver el uso a través de Teams informes. Para obtener más información, [consulte Teams informes](../../teams-analytics-and-reports/teams-reporting-reference.md) en el centro Microsoft Teams administración y Teams de actividad en el [Centro de administración de Microsoft 365](../../teams-activity-reports.md).
 
 #### <a name="where-can-i-provide-feedback"></a>¿Dónde puedo enviar comentarios?
   

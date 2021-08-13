@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en los Países Bajos para Microsoft Teams.
-ms.openlocfilehash: e45862c7958b1f65e5544af2582a201722cf3554b3139eca3f98087ced0e76a1
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: becfde9895b71e2010724ed67c91180bdcc8e30b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848925"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233025"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Administración de números de teléfono para los Países Bajos
 

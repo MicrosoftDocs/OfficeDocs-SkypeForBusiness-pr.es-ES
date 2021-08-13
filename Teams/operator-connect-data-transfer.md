@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78f602fcacf6ee2f9a29393aa9a4d6b860251e2d
-ms.sourcegitcommit: 39d26edd43b6066d5a6dee2a5ad1354a1e560a0d
+ms.openlocfilehash: 5849ccb07217766e39052376b5b0cb67500f56e91db7b034ca62e0a605954ffa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694572"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324829"
 ---
 # <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Transferencias de datos entre operadores y Microsoft para operadores Conectar
 
@@ -37,4 +37,4 @@ Microsoft proporcionará registros de detalles de llamadas y datos de calidad a 
 
 Cada operador proporcionará a Microsoft, a través de una API, la duración de las llamadas realizadas por sus clientes mediante Microsoft Teams. Microsoft usará estos registros para proporcionar a los clientes información de uso y para garantizar que nuestros registros sean coherentes con los del operador. Microsoft almacenará y procesará estos registros de acuerdo con las leyes y normativas aplicables, así como la Declaración de privacidad de Microsoft.
 
-Para obtener más información: [Comprar, configurar y habilitar El entrenador profesional para Microsoft Teams](career-coach.md)
+Para obtener más información: [Comprar, configurar y habilitar Asesor de carrera para Microsoft Teams](career-coach.md)
