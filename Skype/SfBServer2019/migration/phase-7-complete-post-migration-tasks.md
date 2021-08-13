@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Los temas de esta sección describen las tareas que deberá realizar después de completar la migración a Skype Empresarial Server 2019.
-ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: En los temas de esta sección se describen las tareas que deberá realizar después de completar la migración a Skype Empresarial Server 2019.
+ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298910"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: finalización de las tareas posteriores a la migración
 
-Los temas de esta sección describen las tareas que deberá realizar después de completar la migración a Skype Empresarial Server 2019.
+En los temas de esta sección se describen las tareas que deberá realizar después de completar la migración a Skype Empresarial Server 2019.
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -40,7 +40,7 @@ Los temas de esta sección describen las tareas que deberá realizar después de
     
 - [Configurar servidores de aplicaciones de confianza](configure-trusted-application-servers.md)
     
-- [Implementar clientes de Skype Empresarial Server 2019](deploy-clients.md)
+- [Implementar Skype Empresarial Server 2019](deploy-clients.md)
     
 - [Conectar una aplicación de sucursal con funciones de supervivencia](connect-a-survivable-branch-appliance.md)
     

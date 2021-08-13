@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solucionar problemas de la implementación de Cloud Connector Edition.
-ms.openlocfilehash: 9da10f1b3e8dd800e57b46f6a56eb6a82c29e22c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7982cd153dcd9cc615201044c080479e9693550a0446b12c9a8a73c4366a9d57
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094828"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344579"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solución de problemas con la implementación de Cloud Connector
 
 > [!Important]
-> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams enrutamiento [directo](/MicrosoftTeams/direct-routing-landing-page).
  
 Solucionar problemas de la implementación de Cloud Connector Edition.
   
@@ -34,7 +34,7 @@ En este tema se describen soluciones a problemas comunes con implementaciones de
   
 Cloud Connector proporciona mecanismos integrados para resolver automáticamente algunos problemas. Un proceso de detección automática busca posibles problemas con los dispositivos de Cloud Connector y, si es posible, realiza acciones correctivas para resolver esos problemas sin necesidad de intervención del administrador. El proceso de detección funciona de la siguiente manera:
   
-- **Secuencia de detección:** El servicio de administración de Cloud Connector ejecuta un proceso cada 60 segundos para detectar si un dispositivo está abajo. En Cloud Connector versión 2.0 y versiones posteriores, el proceso de detección usa el modificador Corpnet de Skype Empresarial para realizar conexiones de PowerShell a las máquinas de Cloud Connector; para versiones anteriores a la 2.0, el proceso de detección usa el conmutador de administración de Cloud Connector.
+- **Secuencia de detección:** El servicio de administración de Cloud Connector ejecuta un proceso cada 60 segundos para detectar si un dispositivo está abajo. En Cloud Connector versión 2.0 y versiones posteriores, el proceso de detección usa el conmutador Skype Empresarial Corpnet para realizar conexiones de PowerShell a las máquinas de Cloud Connector; para versiones anteriores a la 2.0, el proceso de detección usa el conmutador de administración de Cloud Connector.
     
     > [!NOTE]
     > Para que la recuperación automática se haga correctamente, debe haber conectividad de red entre el host y las máquinas virtuales a través del conmutador de red host. Asegúrese de comprobar la conectividad de red para asegurarse de que la detección automática y la recuperación pueden tener éxito. 
@@ -122,9 +122,9 @@ A continuación se ofrecen soluciones a los problemas que se encuentran habitual
 
 - 
     
-    **Problema: el servidor host se reinició cuando se aplicaron las actualizaciones de Windows y las llamadas a las que presta servicio el servidor están fallando.**
+    **Problema: el servidor host se reinició cuando se Windows actualizaciones y las llamadas a las que presta servicio el servidor están fallando.**
     
-    **Resolución:** Si implementó un entorno de alta disponibilidad, Microsoft proporciona un cmdlet para ayudar a mover una máquina host (instancia de implementación) dentro o fuera de la topología actual al comprobar e instalar Windows Update manualmente. Para ello, siga estos pasos:
+    **Resolución:** Si implementó un entorno de alta disponibilidad, Microsoft proporciona un cmdlet para ayudar a mover una máquina host (instancia de implementación) dentro o fuera de la topología actual al comprobar e instalar una actualización Windows manualmente. Para ello, siga estos pasos:
     
 1. En el servidor host, inicie una consola de PowerShell como administrador y, a continuación, ejecute:
     
@@ -142,19 +142,19 @@ A continuación se ofrecen soluciones a los problemas que se encuentran habitual
 
 - 
     
-    **Problema: cuando se realiza una llamada desde un cliente de Skype Empresarial mediante un número RTC, la llamada no se puede escalar a una conferencia invitando a otro número RTC.**
+    **Problema: cuando se realiza una llamada desde un cliente Skype Empresarial mediante un número RTC, la llamada no se puede escalar a una conferencia invitando a otro número RTC.**
     
-    **Resolución:** Para resolver este problema, vea [Configure online hybrid Mediation Server Settings](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer).
+    **Resolución:** Para resolver este problema, vea [Configure online hybrid Mediation Server Configuración](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer).
     
-- **Problema: se muestra un mensaje de advertencia sobre Windows Update al instalar el servidor de Active Directory: "La actualización automática de Windows no está habilitada. Para asegurarte de que tu función o característica recién instalada se actualice automáticamente, activa Windows Update".**
+- **Problema: se muestra un mensaje de advertencia sobre Windows update cuando se instala el servidor de Active Directory: "Windows la actualización automática no está habilitada. Para asegurarse de que su función o característica recién instalada se actualice automáticamente, active Windows Update".**
     
-    **Resolución:** Inicie una sesión de PowerShell remoto de inquilino con credenciales de administrador de inquilinos de Skype Empresarial y, a continuación, ejecute el siguiente cmdlet para comprobar la configuración _EnableAutoUpdate_ del sitio:
+    **Resolución:** Inicie una sesión de PowerShell remoto de inquilino con Skype Empresarial de administrador de inquilinos y, a continuación, ejecute el siguiente cmdlet para comprobar la configuración _EnableAutoUpdate_ del sitio:
     
   ```powershell
   Get-CsHybridPSTNSite
   ```
 
-    Si  _EnableAutoUpdate_ está establecido en **True**, puedes omitir este mensaje de advertencia de forma segura porque el servicio CCEManagement controlará la descarga e instalación de actualizaciones de Windows tanto para máquinas virtuales como para el servidor host. Si  _EnableAutoUpdate está_ establecido en **False**, ejecute el cmdlet siguiente para establecerlo en **True**.
+    Si _EnableAutoUpdate_ está establecido en **True**, puede omitir este mensaje de advertencia de forma segura porque el servicio CCEManagement controlará la descarga e instalación de actualizaciones Windows tanto para máquinas virtuales como para el servidor host. Si  _EnableAutoUpdate está_ establecido en **False**, ejecute el cmdlet siguiente para establecerlo en **True**.
     
   ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
@@ -170,7 +170,7 @@ A continuación se ofrecen soluciones a los problemas que se encuentran habitual
     
     En primer lugar, compruebe el archivo CloudConnector.ini en la sección directorio ApplianceRoot. Se \<SiteName\> obtienen y \<Mediation Server FQDN\> los valores en \<Mediation Server IP Address\> el archivo. \<ApplianceName\> es el nombre del servidor host.
     
-    En segundo lugar, inicie Tenant Remote PowerShell con sus credenciales de administrador de inquilinos de Skype Empresarial y, a continuación, ejecute el siguiente cmdlet para comprobar los dispositivos registrados.
+    En segundo lugar, inicie Tenant Remote PowerShell con sus credenciales de administrador de inquilinos Skype Empresarial y, a continuación, ejecute el siguiente cmdlet para comprobar los dispositivos registrados.
     
   ```powershell
   Get-CsHybridPSTNAppliance
@@ -185,7 +185,7 @@ A continuación se ofrecen soluciones a los problemas que se encuentran habitual
     
 - **Problema: el cmdlet Get-CcRunningVersion devuelve un valor vacío si hay un dispositivo implementado ejecutándose en el host.**
     
-  **Resolución:** Esto puede ocurrir cuando se actualiza de 1.3.4 o 1.3.8 a 1.4.1. Después de instalar la versión 1.4.1 con .msi, debe ejecutar antes de `Register-CcAppliance` ejecutar cualquier otro cmdlet. `Register-CcAppliance` migrará el archivo module.ini de %UserProfile%\CloudConnector a %ProgramData%\CloudConnector. Si no lo ha hecho, se creará un nuevo module.ini en la carpeta %ProgramData%\CloudConnector y reemplazará la información de versión de ejecución y copia de seguridad para 1.3.4 o 1.3.8.
+  **Resolución:** Esto puede ocurrir cuando se actualiza de 1.3.4 o 1.3.8 a 1.4.1. Después de instalar la versión 1.4.1 con el .msi, debe ejecutar antes de `Register-CcAppliance` ejecutar cualquier otro cmdlet. `Register-CcAppliance` migrará el archivo module.ini de %UserProfile%\CloudConnector a %ProgramData%\CloudConnector. Si no lo ha hecho, se creará un nuevo module.ini en la carpeta %ProgramData%\CloudConnector y reemplazará la información de versión de ejecución y copia de seguridad para 1.3.4 o 1.3.8.
     
   Compare module.ini archivos en la carpeta %UserProfile%\CloudConnector y %ProgramData%\CloudConnector. Si hay diferencias, elimine el archivo module.ini en %ProgramData%\CloudConnector y vuelva a ejecutar  `Register-CcAppliance` . También puede modificar el archivo manualmente a la versión correcta de ejecución y copia de seguridad.
     
@@ -197,7 +197,7 @@ A continuación se ofrecen soluciones a los problemas que se encuentran habitual
     
 - **Problema: los certificados de entidad de certificación o los certificados internos emitidos en el Almacén de administración central, el servidor de mediación y el servidor perimetral están a punto de expirar o están en peligro.**
     
-    **Resolución:** Los certificados de entidad de certificación de Skype Empresarial son válidos durante cinco años. Los certificados internos emitidos en el Almacén de administración central, el servidor de mediación y el servidor perimetral son válidos durante dos años.
+    **Resolución: Skype Empresarial** certificados de entidad de certificación son válidos durante cinco años. Los certificados internos emitidos en el Almacén de administración central, el servidor de mediación y el servidor perimetral son válidos durante dos años.
     
     > [!NOTE]
     > En Cloud Connector versión 2.0 y versiones posteriores, el cmdlet Renew-CcServerCertificate ha cambiado a Update-CcServerCertificate y el cmdlet Renew-CcCACertificate ha cambiado a Update-CcCACertificate. 
@@ -306,23 +306,23 @@ A continuación se ofrecen soluciones a los problemas que se encuentran habitual
      ```
     
     
-- **Problema: recibe el siguiente mensaje de error en el registro del servicio de administración de Cloud Connector, "C:\Archivos de programa\Skype Empresarial Cloud Connector Edition\ManagementService\CceManagementService.log": Error de CceService: 0 : Excepción inesperada al notificar el estado en línea: System.Management.Automation.CmdletInvocationException: Error de inicio de sesión para el usuario \<Global Tenant Admin\> . Cree un nuevo objeto de credencial para asegurarse de que ha usado el nombre de usuario y la contraseña correctos. ---\>**
+- **Problema: recibe el siguiente mensaje de error en el registro del servicio de administración de Cloud Connector, "C:\Archivos de programa\Skype for Business Edición de conector de nube\ManagementService\CceManagementService.log": Error de CceService: 0 : Excepción inesperada al notificar el estado en línea: System.Management.Automation.CmdletInvocationException: Error de inicio de sesión para el usuario \<Global Tenant Admin\> . Cree un nuevo objeto de credencial para asegurarse de que ha usado el nombre de usuario y la contraseña correctos. ---\>**
     
-    **Resolución:** Las credenciales de administrador global de inquilinos de Microsoft 365 u Office 365 se han cambiado desde que se registró el dispositivo de Cloud Connector. Para actualizar las credenciales almacenadas localmente en el dispositivo de Cloud Connector, ejecute lo siguiente desde PowerShell de administrador en el dispositivo host:
+    **Resolución:** Las Microsoft 365 o Office 365 de administrador global de inquilinos se han cambiado desde que se registró el dispositivo de Cloud Connector. Para actualizar las credenciales almacenadas localmente en el dispositivo de Cloud Connector, ejecute lo siguiente desde PowerShell de administrador en el dispositivo host:
     
   ```powershell
   Set-CcCredential -AccountType TenantAdmin
   ```
 
-- **Problema: después de cambiar la contraseña de la cuenta de servidor host que usó para la implementación, recibe el siguiente mensaje de error: "ConvertTo-SecureString: Key not valid for use in specified state." in %ProgramFiles%\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log o mientras ejecuta el cmdlet Get-CcCredential.**
+- **Problema: después de cambiar la contraseña de la cuenta de servidor host que usó para la implementación, recibe el siguiente mensaje de error: "ConvertTo-SecureString : Key not valid for use in specified state." in %ProgramFiles%\Skype for Business Edición de conector de nube\ManagementService\CceManagementService.log o mientras ejecuta el cmdlet Get-CcCredential.**
     
-    **Resolución:** Todas las credenciales de Cloud Connector se almacenan en el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . xml". Cuando cambie la contraseña en el servidor host, deberá actualizar las credenciales almacenadas localmente.
+    **Resolución:** Todas las credenciales de Cloud Connector se almacenan en el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml". Cuando cambie la contraseña en el servidor host, deberá actualizar las credenciales almacenadas localmente.
     
     **Si ejecuta Cloud Connector versión 1.4.2,** vuelva a generar todas las contraseñas de Cloud Connector siguiendo estos pasos:
     
   1. Reinicie el servidor host.
     
-  2. Elimine el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . xml".
+  2. Elimine el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml".
     
   3. Inicie una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance -Local" para volver a escribir las contraseñas después de la descripción. Escriba las mismas contraseñas que introdujo anteriormente para la implementación de Cloud Connector.
     
@@ -330,7 +330,7 @@ A continuación se ofrecen soluciones a los problemas que se encuentran habitual
     
   4. Reinicie el servidor host.
     
-  5. Elimine el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . xml" .
+  5. Elimine el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml" .
     
   6. Inicie una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance -Local" para volver a escribir las contraseñas después de la descripción. 
     
@@ -388,13 +388,13 @@ A continuación se ofrecen soluciones a los problemas que se encuentran habitual
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
-- **Problema: debes buscar e instalar las actualizaciones de Windows manualmente en el servidor host o las máquinas virtuales.**
+- **Problema: debe buscar e instalar las actualizaciones Windows manualmente en el servidor host o las máquinas virtuales.**
     
-   **Resolución:** Se recomienda aprovechar las actualizaciones automatizadas del sistema operativo proporcionadas por Skype Empresarial Cloud Connector Edition. Después de registrar un dispositivo para la administración en línea y de habilitar la actualización automática del sistema operativo, el servidor host y las máquinas virtuales comprobarán e instalarán actualizaciones de Windows automáticamente de acuerdo con la configuración de la ventana de tiempo de actualización del sistema operativo.
+   **Resolución:** Se recomienda aprovechar las actualizaciones automatizadas del sistema operativo proporcionadas por Skype for Business Edición de conector de nube. Una vez registrado un dispositivo para la administración en línea y habilitada la actualización automática del sistema operativo, el servidor host y las máquinas virtuales comprobarán e instalarán las actualizaciones de Windows automáticamente según la configuración de la ventana de tiempo de actualización del sistema operativo.
     
-   Si necesitas buscar e instalar actualizaciones de Windows manualmente, sigue los pasos de esta sección que se aplican al tipo de implementación. Debe planear la actualización del servidor host y las máquinas virtuales que se ejecutan en él al mismo tiempo para minimizar la cantidad de tiempo de inanidad necesario para las actualizaciones.
+   Si necesita buscar e instalar actualizaciones de Windows manualmente, siga los pasos de esta sección que se aplican al tipo de implementación. Debe planear la actualización del servidor host y las máquinas virtuales que se ejecutan en él al mismo tiempo para minimizar la cantidad de tiempo de inanidad necesario para las actualizaciones.
     
-   Si lo prefieres, puedes usar un servidor de Windows Server Update Services (WSUS) para proporcionar actualizaciones a los servidores de Cloud Connector. Asegúrate de configurar Windows Update para **que no se instale** automáticamente.
+   Si lo prefiere, puede usar un servidor Windows Server Update Services (WSUS) para proporcionar actualizaciones a los servidores de Cloud Connector. Asegúrese de configurar la actualización Windows para **que no se** instale automáticamente.
     
    Para obtener información sobre cómo actualizar manualmente la implementación de Cloud Connector, consulte la siguiente sección.
     
@@ -423,15 +423,15 @@ PowerShell crea este archivo como una memoria caché de cmdlets a partir de mód
      b. Para el cambio persistente, inicie PowerShell como administrador y ejecute los siguientes comandos, uno a uno: $CurrentValue = [Environment]::GetEnvironmentVariable("PSModulePath", "Machine") SetEnvironmentVariable("PSModulePath", $CurrentValue + "; C:\Program Files\WindowsPowerShell\Modules", "Machine")
 
     
-## <a name="install-windows-updates-manually"></a>Instalar actualizaciones de Windows manualmente
+## <a name="install-windows-updates-manually"></a>Instalar Windows actualizaciones manualmente
 
-Si no quieres usar actualizaciones automáticas en tu entorno, sigue estos pasos para buscar y aplicar manualmente las actualizaciones de Windows. La comprobación e instalación de actualizaciones de Windows puede requerir un reinicio del servidor. Cuando se reinicia un servidor host, los usuarios no podrán usar Cloud Connector para realizar o recibir llamadas. Puedes comprobar e instalar actualizaciones manualmente para controlar cuándo se llevan a cabo las actualizaciones y, a continuación, reiniciar las máquinas según sea necesario durante las horas que elijas para evitar la interrupción de los servicios.
+Si no desea usar actualizaciones automáticas en su entorno, siga estos pasos para buscar y aplicar manualmente actualizaciones Windows actualizaciones. La comprobación e instalación de Windows actualizaciones pueden requerir un reinicio del servidor. Cuando se reinicia un servidor host, los usuarios no podrán usar Cloud Connector para realizar o recibir llamadas. Puedes comprobar e instalar actualizaciones manualmente para controlar cuándo se llevan a cabo las actualizaciones y, a continuación, reiniciar las máquinas según sea necesario durante las horas que elijas para evitar la interrupción de los servicios.
   
-Para comprobar manualmente si hay actualizaciones, conéctese a cada servidor host y abra el **Panel de control**. Selecciona **Sistema y Seguridad de Windows \> Update** y, a continuación, administra las actualizaciones y los reinicios del servidor según corresponda para tu entorno.
+Para comprobar manualmente si hay actualizaciones, conéctese a cada servidor host y abra el **Panel de control**. Seleccione **System and Security Windows \> Update** y, a continuación, administre las actualizaciones y los reinicios del servidor según corresponda para su entorno.
   
-- Si solo hay un dispositivo en el sitio, conéctese a cada máquina virtual y abra el **Panel de control**. Selecciona **Sistema y Seguridad de Windows \> Update** y, a continuación, configura las actualizaciones y los reinicios del servidor según corresponda.
+- Si solo hay un dispositivo en el sitio, conéctese a cada máquina virtual y abra el **Panel de control**. Seleccione **System and Security Windows \> Update** y, a continuación, configure las actualizaciones y los reinicios del servidor según corresponda.
     
-- Si hay más de un dispositivo en el sitio, los usuarios no podrán acceder a la instancia que se está actualizando y reiniciando durante las actualizaciones. Los usuarios se conectarán a otras instancias de la implementación hasta que todas las máquinas virtuales y todos los servicios de Skype Empresarial comiencen en las máquinas virtuales una vez completadas las actualizaciones. Para evitar cualquier posible interrupción del servicio, puede quitar la instancia de HA mientras aplica las actualizaciones y, a continuación, restaurarla cuando se complete. Para ello:
+- Si hay más de un dispositivo en el sitio, los usuarios no podrán acceder a la instancia que se está actualizando y reiniciando durante las actualizaciones. Los usuarios se conectarán a otras instancias de la implementación hasta que todas las máquinas virtuales y todos los servicios Skype Empresarial comiencen en las máquinas virtuales una vez completadas las actualizaciones. Para evitar cualquier posible interrupción del servicio, puede quitar la instancia de HA mientras aplica las actualizaciones y, a continuación, restaurarla cuando se complete. Para ello:
     
 1. En cada servidor host, abra una consola de PowerShell como administrador.
     
@@ -463,7 +463,7 @@ Si necesita instalar software antivirus en el equipo host de Cloud Connector, de
     
 - El Directorio de sitios local del equipo hospeda la carpeta raíz del sitio compartido.
     
-- %ProgramFiles%\Skype Empresarial Cloud Connector Edition
+- %ProgramFiles%\Skype for Business Edición de conector de nube
     
 - %ALLUSERSPROFILE%\CloudConnector
     

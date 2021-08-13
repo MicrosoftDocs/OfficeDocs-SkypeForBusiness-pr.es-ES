@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 'Resumen: obtenga información sobre el informe de distribución de errores en Skype Empresarial Server.'
-ms.openlocfilehash: 251cf8e2017312d9e42e0d1aebcfe5d1d9bd3568
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6b6bedff59f73befbaa70dbc0eb4bf1b04b100022a7ca20c41245a07a082d4e3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344729"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>Informe de distribución de errores en Skype Empresarial Server
  
@@ -49,11 +49,11 @@ Puede tener acceso al Informe de distribución de errores desde cualquiera de lo
   
 - [Informe de errores principales en Skype Empresarial Server](top-failures-report.md)
     
-- [Informe de diagnósticos de conferencia en Skype Empresarial Server](conference-diagnostic-report.md)
+- [Informe de diagnóstico de conferencia en Skype Empresarial Server](conference-diagnostic-report.md)
     
 - [Informe de diagnóstico de actividad punto a punto en Skype Empresarial Server](peer-to-peer-activity-diagnostic-report.md)
     
-En el informe de distribución de errores, puede hacer clic en cualquiera de las métricas siguientes para ver el informe de lista de errores [en Skype Empresarial Server:](failure-list-report.md)
+En el Informe de distribución de errores, puede hacer clic en cualquiera de las siguientes métricas para ver [el informe de](failure-list-report.md)lista de errores en Skype Empresarial Server :
   
 - Motivos del diagnóstico principales (sesiones)
     
@@ -91,11 +91,11 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de resu
 
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|**From** <br/> |Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:  <br/> 7/7/2015 13:00  <br/> Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/7/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/3/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
-|**Para** <br/> |Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:  <br/> 7/7/2015 13:00  <br/> Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/7/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/3/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
+|**From** <br/> |Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:  <br/> 7/7/2015 1:00 PM  <br/> Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/7/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/3/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
+|**To** <br/> |Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:  <br/> 7/7/2015 1:00 PM  <br/> Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/7/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/3/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
 |**Grupo** <br/> |Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en **[Todo]** para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.<br/> |
-|**Tipo de actividad** <br/> | Tipo de actividad para filtrar. Seleccione una de las siguientes opciones: <br/>  [Todos] <br/>  Punto a punto <br/>  Conferencia <br/> |
-|**Categoría de sesión** <br/> | Indica si la actividad correspondiente se desarrolló correctamente o causó errores. Seleccione una de las siguientes opciones: <br/>  [Todos] <br/>  Correcto <br/>  Error esperado <br/>  Error inesperado <br/>  Un "error esperado" es aquel que se prevé que vaya a producirse. Por ejemplo, si un usuario ha establecido su estado en No molestar, se espera que las llamadas a ese usuario no se realicen. Un "error inesperado" es aquel que se produce en un sistema que está aparentemente en buen estado. Por ejemplo, una llamada no debería finalizarse si el autor de la llamada está en espera. De ser así, tal cosa se identificaría como un error inesperado. <br/> |
+|**Tipo de actividad** <br/> | Tipo de actividad para filtrar. Seleccione una de las siguientes opciones: <br/>  [All] <br/>  Punto a punto <br/>  Conferencia <br/> |
+|**Categoría de sesión** <br/> | Indica si la actividad correspondiente se desarrolló correctamente o causó errores. Seleccione una de las siguientes opciones: <br/>  [All] <br/>  Correcto <br/>  Error esperado <br/>  Error inesperado <br/>  Un "error esperado" es aquel que se prevé que vaya a producirse. Por ejemplo, si un usuario ha establecido su estado en No molestar, se espera que las llamadas a ese usuario no se realicen. Un "error inesperado" es aquel que se produce en un sistema que está aparentemente en buen estado. Por ejemplo, una llamada no debería finalizarse si el autor de la llamada está en espera. De ser así, tal cosa se identificaría como un error inesperado. <br/> |
 |**Id. de diagnóstico** <br/> |Identificador único (con formato de encabezado de ms-diagnostics) adjunto a un mensaje SIP que a menudo aporta información útil para solucionar errores. Los encabezados de diagnóstico son opcionales (es posible que haya sesiones SIP que no incluyan estos encabezados) y los identificadores de diagnóstico se notifican únicamente para las sesiones que tienen problemas de algún tipo.  <br/> |
    
 ## <a name="metrics-for-top-diagnostic-reasons"></a>Métricas para motivos del diagnóstico destacados
@@ -104,7 +104,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
   
 **Métricas para motivos del diagnóstico destacados**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en los Id. de diagnóstico. El Id. de diagnóstico es un identificador único (con el formato de un encabezado de diagnóstico MS) adjunto a un mensaje SIP que suele proporcionar información útil para resolver errores.  <br/> |
 |**Principales motivos de diagnóstico** <br/> |No  <br/> |Id. de diagnóstico generado en una sesión.  <br/> |
@@ -116,7 +116,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
   
 **Métricas para modalidades destacadas**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en los tipos de sesiones (por ejemplo, una conferencia de audio o vídeo o una sesión de transferencia de archivos de punto a punto).  <br/> |
 |**Principales modalidades** <br/> |No  <br/> |Tipo de sesión.  <br/> |
@@ -128,11 +128,11 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
   
 **Métricas para grupos destacados**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
-|**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores en función del grupo de registradores o del servidor perimetral donde se realizó la sesión.  <br/> |
+|**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores según el grupo de registradores o el servidor perimetral donde se llevó a cabo la sesión.  <br/> |
 |**Principales grupos de servidores** <br/> |No  <br/> |Nombre del grupo de registradores o del servidor perimetral.  <br/> |
-|**Sesiones** <br/> |No  <br/> |Número total de sesiones con errores por grupo de registrador o servidor perimetral.  <br/> |
+|**Sesiones** <br/> |No  <br/> |Número total de sesiones con errores por grupo de registradores o servidor perimetral.  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>Métricas para fuentes destacadas
 
@@ -140,7 +140,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
   
 **Métricas para fuentes destacadas**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores por equipo.  <br/> |
 |**Principales fuentes** <br/> |No  <br/> |Nombre del equipo que participó en la sesión con errores.  <br/> |
@@ -152,7 +152,7 @@ En la tabla siguiente se muestra la información proporcionada en el informe de 
   
 **Métricas para componentes destacados**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores en función del componente (por ejemplo, ExumRouting, GroupChat o MediationServer).  <br/> |
 |**Principales componentes** <br/> |No  <br/> |Nombre del componente que participó en la sesión con errores.  <br/> |
@@ -164,7 +164,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
   
 **Métricas para usuarios destacados**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el usuario invitado a unirse a la sesión.  <br/> |
 |**Principales remitentes** <br/> |No  <br/> |Dirección SIP del usuario invitado a unirse a la sesión.  <br/> |
@@ -174,7 +174,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 
 La siguiente tabla enumera la información proporcionada en el informe de distribución de errores basándose en los usuarios que experimentaron más errores cuando otro usuario intentó llamarlos (denominados destinatarios).
   
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el usuario que inició la sesión.  <br/> |
 |**Principales destinatarios** <br/> |No  <br/> |Dirección SIP del usuario que inició la sesión.  <br/> |
@@ -186,7 +186,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
   
 **Métricas para agentes de usuario destacados**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el agente de usuario (software) que participa en la sesión. Por ejemplo: RTCC/4.0.0.0 Enrutamiento de entrada/4.0.0.0.  <br/> |
 |**Principales agentes de usuario** <br/> |No  <br/> |Nombre del agente de usuario que participó en la sesión con errores.  <br/> |

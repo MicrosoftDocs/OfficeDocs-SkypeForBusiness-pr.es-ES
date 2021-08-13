@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: El administrador puede obtener información sobre cómo usar audioconferencias con enrutamiento directo en entornos GCCH y DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4daea8636ce99ed711d7fd982cd42eb9aa8c6b93
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 941d9b18944b0e521fdd3b8c2a830a123eb9c1d30d06aa8f9be21990f9e84f5e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230587"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344379"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audioconferencia con enrutamiento directo para GCC High y DoD
 

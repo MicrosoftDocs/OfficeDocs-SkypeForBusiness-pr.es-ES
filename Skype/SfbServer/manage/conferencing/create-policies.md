@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Resumen: obtenga información sobre cómo crear directivas de conferencia en Skype Empresarial Server.'
-ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2cce451135c82894d9d82c89e6a62682d95526d31082d209bcaf8144752426b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119529"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344749"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Crear directivas de conferencia en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo crear directivas de conferencia en Skype Empresarial Server.
   
-Puede crear directivas de conferencia mediante el Panel de control de Skype Empresarial Server o mediante el Shell de administración de Skype Empresarial Server.
+Puede crear directivas de conferencia mediante Skype Empresarial Server Panel de control o mediante el Shell Skype Empresarial Server administración.
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Crear directivas de conferencia mediante el Panel de control de Skype Empresarial Server
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Crear directivas de conferencia mediante Skype Empresarial Server Panel de control
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Abra el Panel de control de Skype Empresarial Server.
+2. Abra Skype Empresarial Server Panel de control.
     
 3. En la barra de navegación izquierda, haga clic **en Conferencia** y, a continuación, haga clic en Directiva **de conferencia.**
     
@@ -84,7 +84,7 @@ Puede crear directivas de conferencia mediante el Panel de control de Skype Empr
     
     - Para impedir la transferencia de archivos, desactive la casilla **Permitir a los participantes transferir archivos**. Normalmente, los usuarios pueden transferir archivos.
     
-    - Para impedir el uso de anotaciones, desactive la casilla **Habilitar anotaciones**. Para usar anotaciones en presentaciones compartidas de PowerPoint, desactive **habilitar anotaciones de PowerPoint**. Normalmente, las anotaciones se permiten.
+    - Para impedir el uso de anotaciones, desactive la casilla **Habilitar anotaciones**. Para el uso de anotaciones en presentaciones PowerPoint, desactive la casilla **Habilitar PowerPoint anotaciones**. Normalmente, las anotaciones se permiten.
     
     - Para impedir el uso de sondeos, desactive la casilla **Habilitar sondeos**. Normalmente, se permiten los sondeos.
     
@@ -116,7 +116,7 @@ Puede crear directivas de conferencia mediante el Panel de control de Skype Empr
     
 21. Haga clic en **Confirmar**.
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Crear directivas de conferencia mediante el Shell de administración de Skype Empresarial Server
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Crear directivas de conferencia mediante Skype Empresarial Server Shell de administración
 
 Para crear directivas de conferencia, use el cmdlet **New-CsConferencingPolicy.**
   

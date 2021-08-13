@@ -12,32 +12,32 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
-description: 'Resumen: obtenga información sobre la operación Obtener configuración de usuario, que forma parte del Servicio de configuración de usuario. El servicio de configuración de usuario forma parte de la API de repositorio para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: e2ebf39ba5a7de5d36a8b1ea0441808b6e71f97b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn about the Get User Configuración operation, which is part of the User Configuración Service. El servicio de Configuración usuario forma parte de la API de repositorio para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
+ms.openlocfilehash: b541cacf3c777ca5991640f3bff05265cf6eeeb5c88f59f9731d46318247c171
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832480"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298150"
 ---
 # <a name="get-user-settings"></a>Obtener configuración de usuario
  
-**Resumen:** Obtenga información sobre la operación Obtener configuración de usuario, que forma parte del Servicio de configuración de usuario. El servicio de configuración de usuario forma parte de la API de repositorio para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
+**Resumen:** Obtenga información sobre la operación Obtener Configuración usuario, que forma parte del Servicio de Configuración usuario. El servicio de Configuración usuario forma parte de la API de repositorio para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
   
-La operación Obtener configuración de usuario forma parte del Servicio de configuración de usuario en la API de repositorio para el panel de calidad de llamadas.
+La operación Obtener Configuración usuario forma parte del Servicio de Configuración usuario en la API de repositorio para el Panel de calidad de llamadas.
   
 ## <a name="get-user-settings"></a>Obtener configuración de usuario
 
-Obtener configuración de usuario devuelve una lista de configuraciones para un usuario especificado.
+Get User Configuración devuelve una lista de opciones de configuración para un usuario especificado.
   
 
 |**Método**|**URI de solicitud**|**Versión HTTP**|
 |:-----|:-----|:-----|
 |GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}/setting  <br/> |HTTP/1.1  <br/> |
    
- **Parámetros de URI**
+ **Parámetros uri**
   
-- *efectivo:*  opcional. Este parámetro solo se aplica cuando se usa el identificador de usuario especial predeterminado. En otros casos, se omitirá. `True` devuelve una configuración de usuario efectiva `false` y devuelve solo la configuración de usuario (valor predeterminado).
+- *efectivo:*  opcional. Este parámetro solo se aplica cuando se usa el identificador de usuario especial predeterminado. En otros casos, se omitirá. `True` devuelve una configuración de usuario eficaz `false` y devuelve solo la configuración de usuario (valor predeterminado).
     
   **Encabezados de solicitud:** no hay encabezados adicionales.
   
@@ -45,7 +45,7 @@ Obtener configuración de usuario devuelve una lista de configuraciones para un 
   
   **Respuesta:** la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
   
-  **Código de estado:** una operación correcta devuelve el código de estado 200 (Correcto).
+  **Código de estado:** una operación correcta devuelve el código de estado 200 (Aceptar).
   
   **Encabezados de respuesta:** no hay encabezados adicionales.
   

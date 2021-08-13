@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: En el cuadro de diálogo Editar directiva de movilidad, puede editar los detalles de una directiva de movilidad.
-ms.openlocfilehash: 7c72a586cc2fee883206491b399a7bf7ea4f73aa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bb3db80f77e96e3affa47265bdd105d1a3f7d3293743fc6f6f37a09d00accea2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100606"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330404"
 ---
 # <a name="edit-client-mobility-policy"></a>Editar directiva de movilidad de cliente
 
@@ -41,7 +41,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
 Para obtener detalles sobre las directivas de movilidad, vea [Mobility Policies](/previous-versions/office/lync-server-2013/lync-server-2013-mobility-policies).
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Planeación de la movilidad](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 

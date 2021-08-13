@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Use el cuadro de diálogo Seleccionar prefijo de hipervínculo para seleccionar los tipos de hipervínculos que desee bloquear, enviar un mensaje de advertencia, o permitir seleccionando (bloquear o enviar un mensaje de advertencia) o desactivando (permitir) las casillas desde las categorías dentro de Prefijos de hipervínculo. Haga clic en la flecha para expandir una categoría y ver todos los prefijos de hipervínculo para esa categoría. Si desea seleccionar todos los prefijos de hipervínculo para una categoría, seleccione el nombre de la categoría.
-ms.openlocfilehash: 69f0a9aba703b4e41b7ba99482a4f42814a18e1a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ba1301bc8c659b4be4a4e8a8a0c2cf8c2c4df2d66aa337dd8853e2d2b7eaf501
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810810"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330004"
 ---
 # <a name="select-hyperlink-prefix"></a>Seleccionar prefijo de hipervínculo
  
@@ -30,6 +30,6 @@ Si no ve un prefijo de hipervínculo que desea seleccionar en la lista de **Pref
   
 Después de agregar todos los prefijos de hipervínculo que desee a la lista **Prefijos de hipervínculo seleccionados**, haga clic en **Aceptar**.
   
-Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype Empresarial Server 2015](../../manage/manage.md).
   
 

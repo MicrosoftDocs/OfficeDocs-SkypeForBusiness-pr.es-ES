@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para configurar Notificaciones de inserción de Microsoft y Notificaciones de inserción de Apple, debe crear una directiva para definir qué tipos de notificaciones de inserción requiere.
-ms.openlocfilehash: 693b954fffbbce56a2d95ce29128482937b6fa05
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1400fe60ba9c0accad602a968a646a0f6a8aabe06ac7418dbdaf7d8cd492dc84
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836680"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316276"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Cliente móvil: Configuración de notificaciones de inserción
  
@@ -29,7 +29,7 @@ Para configurar **Notificaciones de inserción de Microsoft** y **Notificaciones
 En la pantalla de configuración principal, puede hacer clic en **Actualizar** para actualizar y volver a llenar la lista de directivas. Se proporciona un cuadro de búsqueda para delimitar la lista de directivas mostradas. Conforme escriba el nombre que está buscando, la lista de directivas se filtra automáticamente.
   
 > [!IMPORTANT]
-> Las opciones de configuración de directiva que se aplican en un nivel de directiva pueden sobrescribir la configuración que se aplica en otro nivel de directiva. La prioridad de la directiva es: la directiva de usuario (más influencia) invalida una directiva de sitio y, a continuación, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que cuanto más se aproxime la configuración de la directiva al objeto al que afecta la directiva, más influencia tendrá en el objeto. 
+> Las opciones de configuración de directiva que se aplican en un nivel de directiva pueden sobrescribir la configuración que se aplica en otro nivel de directiva. La prioridad de la directiva es: la directiva de usuario (la mayoría de la influencia) invalida una directiva de sitio y, a continuación, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que cuanto más se aproxime la configuración de la directiva al objeto al que afecta la directiva, más influencia tendrá en el objeto. 
   
 Hay dos selecciones disponibles para la creación y edición de directivas:
   
@@ -48,7 +48,7 @@ Hay dos selecciones disponibles para la creación y edición de directivas:
   
 La creación de una directiva nueva o la edición de una directiva existente están asociadas con dos acciones:
   
-- **Commit** La acción de confirmación crea o actualiza la directiva y guarda los cambios
+- **Confirmar** La acción de confirmación crea o actualiza la directiva y guarda los cambios
     
 - **Cancelar** La acción cancelar descarta los cambios realizados desde la última acción de confirmación. Si cancela, se perderán los cambios realizados.
     

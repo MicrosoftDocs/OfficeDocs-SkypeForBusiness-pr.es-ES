@@ -19,15 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0e20b4b9b696d7fc23c227afcd67d2132c5952
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
-ms.translationtype: MT
+ms.openlocfilehash: 0f146bca1268d370f53009b332aba15c86c9fab3ea24003c29a062ab80a88be8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598399"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298110"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Le damos la bienvenida a Microsoft Teams
-Si es administrador de Microsoft Teams en su organización, ahora está en el lugar adecuado. Cuando esté listo para utilizar Teams, empiece con [Cómo implantar Teams](./deploy-overview.md) y [Configurar la colaboración segura con Microsoft 365 y Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
+Si es administrador de Microsoft Teams en su organización, ahora está en el lugar adecuado. Cuando esté listo para utilizar Teams, empiece con [Cómo implantar Teams](./deploy-overview.md) y [Configurar la colaboración segura con Microsoft 365 y Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
 
 Si es la primera vez que usa Teams y desea informarse sobre el programa, vea nuestro breve vídeo de [Bienvenida a Teams](https://www.youtube.com/embed/s3aQV3T0D6c) (55 segundos).
 
@@ -74,12 +74,12 @@ Para obtener más información:
 Para estar al día de las próximas novedades de Teams y de otros productos y servicios de Microsoft 365 u Office 365 en su organización, consulte el [Centro de mensajes](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) y el [mapa de ruta de Microsoft Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Recibirá anuncios de las características nuevas y actualizadas, los cambios planificados y los problemas, de modo que siempre está bien informado y preparado. 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Actualización de Skype Empresarial a Microsoft Teams
-Teams es el cliente principal para las comunicaciones inteligentes en Microsoft 365 y Office 365 y, con el tiempo, sustituirá a Skype Empresarial Online. Para mantenerse al día sobre las nuevas características que habrá en Teams, consulte la [hoja de ruta de Microsoft 365](https://aka.ms/O365Roadmap). Para complementar las funciones de mensajería y chat persistente, Teams ofrece una experiencia completa de reuniones y llamadas con un sistema integrado de voz y vídeo. Consulte [Microsoft Teams es ahora una solución completa de reuniones y llamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) en el blog de Microsoft Teams.
+Teams es el cliente principal para las comunicaciones inteligentes en Microsoft 365 y Office 365 y, con el tiempo, sustituirá a Skype Empresarial Online. Para mantenerse al día sobre las nuevas características que habrá en Teams, consulte la [hoja de ruta de Microsoft 365](https://aka.ms/O365Roadmap). Para complementar las funciones de mensajería y chat persistente, Teams ofrece una experiencia completa de reuniones y llamadas con un sistema integrado de voz y vídeo. Consulte [Microsoft Teams es ahora una solución completa de reuniones y llamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) en el blog de Microsoft Teams.
 
 Si utiliza Skype Empresarial y ya está listo para actualizar a Teams, o si utiliza Skype Empresarial y Teams en paralelo y ya está listo para realizar el paso completo a Teams, tenemos herramientas, consejos y guías que le ayudarán a lograr una transición perfecta. Para obtener más información, consulte [Actualizar a Teams](upgrade-start-here.md).
 
 ## <a name="teamwork"></a>Trabajo en equipo
-Cada equipo es diferente; no existe un enfoque universal para la colaboración. Microsoft 365 y Office 365 están diseñados para cumplir las demandas exclusivas de cada equipo y facilita que los usuarios puedan comunicarse, colaborar y lograr más objetivos con sus aplicaciones integradas y diseñadas específicamente.
+Cada equipo es diferente; no hay un enfoque único para la colaboración. Microsoft 365 y Office 365 están diseñados para cumplir las demandas exclusivas de cada equipo y facilita que los usuarios puedan comunicarse, colaborar y lograr más objetivos con sus aplicaciones integradas y diseñadas específicamente.
 
 Cuando decida qué aplicaciones y servicios de Microsoft 365 u Office 365 va a usar, piense en el trabajo que realiza su organización y los tipos de conversaciones que deben tener los equipos. 
 

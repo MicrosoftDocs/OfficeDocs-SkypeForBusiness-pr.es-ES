@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: adcc6435de5392d8b752ab68e5d8a47ab8ec754e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 08570c70e1d56a2ca94aed050c00025c9bc131cbc47b2785334881fabf632352
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330374"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Configurar una ruta de región de red: Crear nuevos o editar los existentes
 

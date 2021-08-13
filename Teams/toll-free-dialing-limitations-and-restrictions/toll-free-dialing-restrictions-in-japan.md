@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en Japón, como la disponibilidad, la disponibilidad de la red móvil o por cable y de línea fija, y las restricciones.
-ms.openlocfilehash: 84992a40f778e3dd7319b65bbf734423b645bfda
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1815bec5c1f6ede6ae37f3ed717b145fb260800213bba97eecc6a6a6e83fff06
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097976"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297726"
 ---
 # <a name="toll-free-dialing-restrictions-in-japan"></a>Restricciones de marcado de número gratuito en Japón
 

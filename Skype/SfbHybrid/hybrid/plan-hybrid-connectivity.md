@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Planee implementar la conectividad híbrida entre Skype Empresarial Server y Teams mediante la configuración Skype Empresarial modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: fee78cf4532ff1cb0be7a24fc29e407001647f452cdef5fbb5e60859989f8112
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c52edf0fa8e90f0fc6a86f0d87192fdbba6a24c8ef540f18607645a82d7badfe
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849275"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planear la conectividad híbrida entre Skype Empresarial Server y Teams
 
@@ -45,7 +45,7 @@ Después de leer este tema y estar listo para configurar la conectividad híbrid
 ## <a name="implications-of-the-upcoming-retirement-of-skype-for-business-online"></a>Implicaciones de la próxima retirada de Skype Empresarial Online
 Es importante recordar que antes y después de la retirada de Skype Empresarial Online, los usuarios que se hospedaron en Skype Empresarial Server local pueden usar Teams, pero no pueden ser TeamsOnly. (De forma predeterminada, los usuarios están en modo Islas). Los usuarios solo pueden experimentar todas las ventajas de Teams, en particular la federación y la compatibilidad con RTC, una vez que estén en modo TeamsOnly. 
 
-La próxima retirada de Skype Empresarial Online no tiene ningún impacto en el ciclo de vida de soporte técnico existente de Skype Empresarial Server o Lync Server 2013.  Sin embargo, la próxima retirada de Skype Empresarial Online afectará a ciertos apsects de cómo los clientes con Skype Empresarial Server local o Lync Server 2013, incluidas las organizaciones híbridas existentes, se transiciónn a la nube. Lo que no cambiará después de la retirada es que el uso de híbrido como medio para la transición de local a la nube permanece sin cambios.
+La próxima retirada de Skype Empresarial Online no tiene ningún impacto en el ciclo de vida de soporte técnico existente de Skype Empresarial Server o Lync Server 2013.  Sin embargo, la próxima retirada de Skype Empresarial Online afectará a determinados aspectos de la transición a la nube de los clientes con Skype Empresarial Server o Lync Server 2013 locales, incluidas las organizaciones híbridas existentes. Lo que no cambiará después de la retirada es que el uso de híbrido como medio para la transición de local a la nube permanece sin cambios.
 
 Actualmente, y hasta la retirada de Skype Empresarial Online, las organizaciones híbridas pueden consistir en tres tipos básicos de usuarios: 
 - Usuarios locales (que pueden o no usar Teams, pero no en modo Teams solo) 
@@ -53,7 +53,7 @@ Actualmente, y hasta la retirada de Skype Empresarial Online, las organizaciones
 - Usuarios de TeamsOnly.
 
 Sin embargo, después de la retirada de Skype Empresarial Online, las organizaciones híbridas solo pueden consistir en dos tipos básicos de usuarios: 
-- Usuarios locales (Quién o pueden usar Teams, pero no en modo TeamsOnly)
+- Usuarios locales (Quién pueden o no usar Teams, pero no en modo TeamsOnly)
 - Teams Solo usuarios. 
 
 Para que las organizaciones pasen de Skype Empresarial Server o Lync Server 2013 a Teams, deben configurar y configurar híbridos con el mismo conjunto de *herramientas,* exactamente igual que antes de la retirada. Lo que ha cambiado es al mover un usuario de local a Teams, ya no es necesario especificar el cambio para mover usuarios directamente de local a `-MoveToTeams` `Move-CsUser` TeamsOnly. Anteriormente, si no se especificaba este modificador, los usuarios pasaron de hospedarse en Skype Empresarial Server local a Skype Empresarial Online y su modo permaneció sin cambios. En preparación para la retirada, al mover un usuario de local a la nube con , ahora los usuarios se asignan automáticamente al modo TeamsOnly y sus reuniones de locales se convierten automáticamente en reuniones de Teams, igual que si se hubiera especificado el modificador, independientemente de si el modificador se especifica `Move-CsUser` `-MoveToTeams` realmente. (Esto incluye las migraciones de Lync Server 2013, que nunca tuvieron el `MoveToTeams` modificador). 

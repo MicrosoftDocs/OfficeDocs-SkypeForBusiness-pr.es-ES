@@ -20,18 +20,18 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: El Skype Empresarial Online Plan 1 se ha retirado. Sin embargo, si tiene una suscripción actual a Skype Empresarial Plan en línea 1, este cambio no le afectará inmediatamente. Cuando esté listo para pasar a un nuevo plan, ya sea ahora o durante la renovación, tendrá tres opciones.
-ms.openlocfilehash: 11ee9f7ce323555b0ce7c21a326115ba05014c97
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1fcab902c9d3c05713a3bf263fa54cf33e7036f1b8cf9b7b8935fe966f8d5659
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238682"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316376"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype Empresarial Online Plan 1 jubilación 
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-El Skype Empresarial Online Plan 1 se ha retirado. Sin embargo, si tiene una suscripción actual a Skype Empresarial Plan en línea 1, este cambio no le afectará inmediatamente. Como administrador de Office 365 global, recibirá actualizaciones de correo electrónico y verá publicaciones en el centro de mensajes (parte del centro de administración de Microsoft 365) con información sobre cuándo debe tomar medidas. Mientras tanto, puede seguir usando las licencias existentes Skype Empresarial Plan 1 en línea.
+El Skype Empresarial Online Plan 1 se ha retirado. Sin embargo, si tiene una suscripción actual a Skype Empresarial Plan en línea 1, este cambio no le afectará inmediatamente. Como administrador de Office 365 global, recibirá actualizaciones de correo electrónico y verá publicaciones en el centro de mensajes (parte del Centro de administración de Microsoft 365) con información sobre cuándo debe tomar medidas. Mientras tanto, puede seguir usando las licencias existentes Skype Empresarial Plan 1 en línea.
 
 Cuando esté listo para cambiar a un nuevo plan , ya sea ahora o durante la renovación, tendrá la opción de cambiar a Office 365 F1 u otro plan Office 365 de su elección.
 
@@ -45,7 +45,7 @@ Esta opción es ideal si desea aprovechar la funcionalidad adicional que Office 
 
 ### <a name="how-to-switch"></a>Cómo cambiar 
 
-Puede cambiar a Office 365 F1 o esperar hasta que sea el momento de renovar y actualizar durante el proceso de renovación. En cualquier caso, trabajará con su representante de cuenta o partner para realizar el cambio, a menos que haya comprado la suscripción directamente a Microsoft, en cuyo caso puede cambiar a Office 365 F1 usted mismo en el centro de administración de Microsoft 365.
+Puede cambiar a Office 365 F1 o esperar hasta que sea el momento de renovar y actualizar durante el proceso de renovación. De cualquier forma, trabajará con su representante de cuenta o partner para realizar el cambio, a menos que haya comprado la suscripción directamente a Microsoft, en cuyo caso puede cambiar a Office 365 F1 usted mismo en el Centro de administración de Microsoft 365.
 
 
 ## <a name="switching-to-another-office-365-offer"></a>Cambiar a otra Office 365 oferta
