@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en los Países Bajos, incluida la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
-ms.openlocfilehash: e775437eab8e572f83deb5d04bcdbfc200e7c169
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 82af2a0a2e2ec8422a185fa3006d52f90962a2688f404ec990616dde1137b270
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097656"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318214"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-netherlands"></a>Restricciones de marcado de número gratuito en Países Bajos
 

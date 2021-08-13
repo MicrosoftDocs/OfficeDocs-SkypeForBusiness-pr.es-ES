@@ -1,5 +1,5 @@
 ---
-title: 'Skype Empresarial Server: configurar un tronco sin desvío de medios'
+title: Configurar un tronco sin desvío de medios en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Cómo configurar un tronco con la omisión de medios habilitada. '
-ms.openlocfilehash: 9bffb1d5d737e36a67c2f24fb890f5eab56cdc2be89ed418c9b3d33dbf0e5524
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: 'Siga estos pasos para configurar un tronco con la omisión de medios habilitada. '
+ms.openlocfilehash: c96e540cbb390f61279979d6a01cc29c69ab9fa5d879468c2361e03da8f472ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848425"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333492"
 ---
-# <a name="skype-for-business-server---configure-a-trunk-without-media-bypass"></a>Skype Empresarial Server: configurar un tronco sin desvío de medios
+# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurar un tronco sin desvío de medios en Skype Empresarial Server
 
 Si desea configurar un enlace troncal con el desvío de medios deshabilitado, siga estos pasos. Si desea configurar un tronco con la omisión de medios habilitada, vea [Configure a trunk with media bypass in Skype Empresarial Server](configure-a-trunk-with-media-bypass.md).
 

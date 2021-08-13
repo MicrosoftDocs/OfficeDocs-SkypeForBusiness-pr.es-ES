@@ -1,5 +1,5 @@
 ---
-title: Recursos de Microsoft Teams para administradores de educación
+title: Introducción a Microsoft Teams para el aprendizaje remoto
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
-ms.translationtype: MT
+ms.openlocfilehash: 5b811ca1dfbbe763fd2b5b31c762356951838ca77913319ca473883635b4d27b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849125"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
@@ -146,7 +146,7 @@ La creación automática de equipos ahorra tiempo tanto a los administradores de
 
 ##### <a name="considerations"></a>Consideraciones
 
-SDS crea equipos en dos pasos. El primer paso consiste en crear un grupo de Microsoft 365 en Azure Active Directory (Azure AD); en el segundo paso, el grupo se convierte automáticamente en un equipo. El segundo paso de creación de equipos es opcional en SDS. Es posible que un administrador no quiera crear automáticamente equipos en función del tiempo de implementación y el número de equipos sin usar que puedan resultar. Se recomienda que las instituciones con 500 000 equipos o más desactiven la creación automática de equipos en SDS y usen el [método de la creación de equipos dirigida por el profesor](#educator-led-team-creation-from-office-365-class-groups).  
+SDS crea equipos en dos pasos. El primer paso consiste en crear un grupo de Microsoft 365 en Azure Active Directory (Azure AD); en el segundo paso, el grupo se convierte automáticamente en un equipo. El segundo paso de creación de equipos es opcional en SDS. Es posible que un administrador no quiera crear automáticamente equipos en función del tiempo de implementación y el número de equipos sin usar que puedan resultar. Se recomienda que las instituciones con 500 000 equipos o más desactiven la creación automática de equipos en SDS y usen el [método de la creación de equipos dirigida por el profesor](#educator-led-team-creation-from-office-365-class-groups).  
 
 ##### <a name="get-started"></a>Introducción
 
@@ -154,7 +154,7 @@ Para empezar, vaya a [School Data Sync (SDS)](/SchoolDataSync) y contacte con as
 
 #### <a name="educator-led-team-creation-from-office-365-class-groups"></a>Creación de equipos dirigida por el profesor de grupos de clase de Office 365
 
-La creación de equipos dirigida por el profesor es una buena opción de implementación si quiere que los profesores creen rápidamente las clases que necesitan. También recomendamos que las instituciones que tengan más de 500 000 equipos usen este método para minimizar el número de equipos creados de forma superflua.  
+La creación de equipos dirigida por el profesor es una buena opción de implementación si quiere que los profesores creen rápidamente las clases que necesitan. También recomendamos que las instituciones que tengan más de 500 000 equipos usen este método para minimizar el número de equipos creados de forma superflua.  
 
 Esta estrategia híbrida le permite usar SDS para crear grupos para cada clase (recomendado) o usar la [API de Graph](/graph/api/educationroot-post-classes) para crearlos por su cuenta. Una vez preparados los grupos de clases, los formadores pueden convertir los grupos en equipos mediante el icono de **clases sugeridas**.
 
@@ -163,7 +163,7 @@ Esta estrategia híbrida le permite usar SDS para crear grupos para cada clase (
 ##### <a name="benefits"></a>Ventajas
 
 - [Acceso anticipado para profesores](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78): los formadores tienen tiempo para preparar el equipo antes de que los alumnos lo usen.  
-- Reduce el número de equipos sin usar e innecesarios. Las clases se preparan y sugieren, pero no se crean, a menos que el profesor tenga intención de usarlas. Se recomienda esta opción para grandes instituciones que tienen más de 500 000 equipos con objeto de reducir el desorden.
+- Reduce el número de equipos sin usar e innecesarios. Las clases se preparan y sugieren, pero no se crean, a menos que el profesor tenga intención de usarlas. Se recomienda esta opción para grandes instituciones que tienen más de 500 000 equipos con objeto de reducir el desorden.
 - SDS
     - Sincronización de la suscripción con SIS/LMS para guardar los cambios de suscripción de alumnos.
     - Equipo de satisfacción del cliente educativo disponible para ayudar de forma gratuita con la implementación.
@@ -215,7 +215,7 @@ Con PowerShell, puede escribir un script para crear equipos, canales y configura
 
 #### <a name="manual-team-creation"></a>Creación de equipos manual
 
-Los alumnos y los formadores podrán sacar el máximo partido a Teams cuando puedan usarlo con barreras mínimas y dispongan de la flexibilidad para adaptarlo a sus necesidades. Una forma en que los usuarios pueden adaptar su experiencia de Teams consiste en contar con la capacidad de crear equipos. Los formadores configuran su propio equipo de clase e invitan a alumnos como se muestra [aquí](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Los formadores pueden invitar a los alumnos[agregando alumnos al equipo](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [compartiendo un código de unión](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f) o [compartiendo un vínculo al equipo](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Si es posible, es mejor que los formadores agreguen a los alumnos al equipo para asegurarse de que los alumnos obtengan acceso y se les notifique que se les ha agregado a un equipo.
+Los alumnos y los formadores podrán sacar el máximo partido a Teams cuando puedan usarlo con barreras mínimas y dispongan de la flexibilidad para adaptarlo a sus necesidades. Una forma en que los usuarios pueden adaptar su experiencia de Teams consiste en contar con la capacidad de crear equipos. Los formadores configuran su propio equipo de clase e invitan a alumnos como se muestra [aquí](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Los formadores pueden invitar a los alumnos[agregando alumnos al equipo](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [compartiendo un código de unión](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f) o [compartiendo un vínculo al equipo](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Si es posible, es mejor que los formadores agreguen a los alumnos al equipo para asegurarse de que los alumnos obtengan acceso y se les notifique que se les ha agregado a un equipo.
 
 ##### <a name="benefits"></a>Ventajas
 
@@ -230,10 +230,10 @@ Los alumnos y los formadores podrán sacar el máximo partido a Teams cuando pue
 
 #### <a name="recommended-best-practices"></a>Procedimientos recomendados
 
-- Implementación anticipada. Implementación anticipada para asegurarse de que todo funciona de forma segura y está listo el primer día de clase.
-- Si tiene más de 500 000 equipos, le recomendamos que use el [método de la creación de equipos dirigida por el profesor](#educator-led-team-creation-from-office-365-class-groups). Reduce la cantidad de equipos sin usar y el desorden pues solo crea equipos relevantes y necesarios.  
+- ¡Implementación anticipada! Implementación anticipada para asegurarse de que todo funciona de forma segura y está listo el primer día de clase.
+- Si tiene más de 500 000 equipos, le recomendamos que use el [método de la creación de equipos dirigida por el profesor](#educator-led-team-creation-from-office-365-class-groups). Reduce la cantidad de equipos sin usar y el desorden pues solo crea equipos relevantes y necesarios.  
 - Si hay algún problema (por ejemplo, faltan clases) con la creación automática de equipos de SDS y los profesores los necesitan de forma inmediata, es posible usar el [método de creación de equipos dirigidos por el profesor](#educator-led-team-creation-from-office-365-class-groups) para intentarlo de nuevo. La [creación manual de equipos](#manual-team-creation) es otra solución, pero no actualizará la suscripción del equipo.  
-- El límite de equipos del espacio empresarial es 500 000 equipos. Por lo tanto, los administradores deben intentar reducir el número de equipos sin usar de manera proactiva para evitar alcanzar esos límites y que se prolongue el tiempo de configuración. Para obtener más información sobre los límites, consulte [Límites y especificaciones de Microsoft Teams](limits-specifications-teams.md).  
+- El límite de equipos del espacio empresarial es 500 000 equipos. Por lo tanto, los administradores deben intentar reducir el número de equipos sin usar de manera proactiva para evitar alcanzar esos límites y que se prolongue el tiempo de configuración. Para obtener más información sobre los límites, consulte [Límites y especificaciones de Microsoft Teams](limits-specifications-teams.md).  
 
 #### <a name="early-access-to-class-teams"></a>Acceso anticipado a los equipos de clase
 

@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c665b96c0c44c2ea763c343bb2857d4c2b9dbb26
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e33e31c5fc6b005459e8b216a2cfec984b80e73dc821d4e13fcaac0d02acf86
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319683"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Ejemplo de script de PowerShell: Crear un equipo y asignar una directiva de mensajería.
 
 Use este script de PowerShell para crear una directiva de mensajería en Microsoft Teams y asignarla a los usuarios. 
 
-Para obtener más información sobre el uso de este script de PowerShell, vea [Inicio rápido : Teams para el sector educativo.](../teams-quick-start-edu.yml)
+Para obtener más información sobre el uso de este script de PowerShell, vea [Inicio rápido : Teams para Educación](../teams-quick-start-edu.yml).
 
 Este script usa el cmdlet [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) que se encuentra en el módulo de PowerShell Skype Empresarial en línea. Vea [Teams información general de PowerShell](../teams-powershell-overview.md) para obtener más información sobre cómo administrar Teams con PowerShell.
 

@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad de servicios gratuitos en los que el servicio gratuito está disponible. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 6f4c27ed9794a24c2038a97f5ae10545035ba1e0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 95e39926af9684b1bbc93bda3ff25ebcc72d2cdd6e6ed776856a984f565d2eff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348425"
 ---
 # <a name="toll-free-dialing-restrictions-in-bulgaria"></a>Restricciones de marcado de número gratuito en Bulgaria
 

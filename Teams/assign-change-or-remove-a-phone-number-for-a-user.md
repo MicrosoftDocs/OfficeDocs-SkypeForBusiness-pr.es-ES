@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo para Teams usuarios para que los clientes y empresas externas puedan llamar.
-ms.openlocfilehash: 4f40049b3856f24d3ae5ddd3999be7213817bcdc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 443fdb5833e657c3f45c0f53d1d4ce6744bd67b0b83247e72084e3d29f6c1bc7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120822"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320033"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>Asignar, cambiar o quitar un número de teléfono para un usuario (Planes de llamadas)
 
@@ -38,7 +38,7 @@ Cuando configura usuarios para que puedan realizar y recibir llamadas telefónic
 Para obtener información sobre cómo obtener planes de llamadas en Teams y cuánto cuestan, vea Teams [licencias de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 > [!NOTE]
-> Una forma de ver si un usuario tiene una licencia asignada es yendo al centro de administración de Microsoft Teams de > **Usuarios.** Si se asigna una licencia, se indicará en la página.  También puede usar el centro Microsoft 365 administración.
+> Una forma de ver si un usuario tiene una licencia asignada es yendo al centro de administración de Microsoft Teams de > **Usuarios.** Si se asigna una licencia, se indicará en la página.  También puede usar la Centro de administración de Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Asignar un número de teléfono a un usuario
  

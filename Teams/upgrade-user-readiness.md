@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 705ad7ab9dbfccf12f269636e8c38312c3b8a3c7
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: af098209bf61ed26b90b1b109215ba13ad9a681205ebd8fcc6339f72cdaa588b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587229"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318144"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Preparar un plan de preparación del usuario
 

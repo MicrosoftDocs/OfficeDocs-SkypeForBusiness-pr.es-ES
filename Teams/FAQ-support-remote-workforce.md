@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos a ser productivos cuando trabajan desde casa (WFH) en respuesta al brote de COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f0177437f992bf7fce9a94eb09e5dc3861aeb00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0bb2924eddd957e2a56548df4426b74e782af56dc9e727142b17869e6630e273
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121568"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318633"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Preguntas más frecuentes: Soporte para los trabajadores remotos
 
@@ -81,7 +81,7 @@ Teams está disponible de forma gratuita a través de un par de programas difere
 
 - Si trabaja en el ámbito educativo y quiere configurar profesores, alumnos y administradores en Teams, use Office 365 A1, la versión gratuita de Office 365 que está disponible para las instituciones educativas. Regístrese en [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
-### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Tengo Microsoft 365, pero no uso Teams. ¿Proporcionan licencias de prueba?
+### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Ya tengo Microsoft 365, pero no uso Teams. ¿Proporcionan licencias de prueba?
 
 Si tiene Microsoft 365, también tiene Teams. [Actívelo](Office-365-set-up.md) para todos sus usuarios. Una vez que esté activado, sus usuarios podrán ejecutar Teams, bien instalando clientes de [escritorio](get-clients.md#desktop-client) o [móviles](get-clients.md#mobile-clients), o bien [desde el explorador](get-clients.md#mobile-clients) en [https://teams.microsoft.com](https://teams.microsoft.com). 
 

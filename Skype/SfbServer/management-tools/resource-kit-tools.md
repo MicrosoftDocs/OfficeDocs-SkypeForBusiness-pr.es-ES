@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: En este artículo se describen las herramientas del kit de recursos Skype Empresarial Server 2015, incluido el propósito de cada herramienta, y ejemplos de su uso. El Skype Empresarial Server de recursos de 2015 ayuda a facilitar las tareas rutinarias a los administradores de TI que implementan y administran Skype Empresarial Server 2015. Por ejemplo, la herramienta de datos de Web Conf se puede usar para controlar fácilmente los datos que cargan los usuarios durante una reunión en línea. La herramienta SEFAUtil se puede usar para configurar el reenvío delegado de llamadas y el contestado para los usuarios. Animamos a los administradores de TI a que usen estas herramientas para administrar de forma Skype Empresarial Server 2015.
-ms.openlocfilehash: 6c68a94d331f2ad5f9ffaa169228aa9d64e41293
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 421b0cbe3ec7644122d73365159714281a8e425e23392dab96d5b8923f5a8e89
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629049"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333282"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype Empresarial Server de herramientas del kit de recursos de 2015
 
@@ -1429,7 +1429,7 @@ SYSPrep.ps1 es un script Windows PowerShell que instalará los siguientes requis
 Antes de ejecutar el script SYSPrep.ps1, debe copiar los archivos de requisitos previos en una carpeta local en la máquina del sistema operativo Windows Server 2008 (por **ejemplo, D:\Setup).** Esta carpeta también debe incluir una copia de los archivos Skype Empresarial Server 2015, específicamente **Setup.exe.** Los archivos de requisitos previos se pueden descargar desde las siguientes ubicaciones:
 
 
-| **Requisito previo**                                | **Location**                                                            |
+| **Requisito previo**                                | **Ubicación**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
 | Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |

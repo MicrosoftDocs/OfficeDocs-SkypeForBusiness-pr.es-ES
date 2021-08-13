@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: El cmdlet Switch-CcVersion desconecta el dispositivo en ejecución y cambia a un dispositivo recién implementado o de copia de seguridad.
-ms.openlocfilehash: 31dbb841caae51de0accedf081fa576ec378044b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1558f34d2388dc75bf4398ba15fc09cd36c439e2d70a39588ee697bc0ef04341
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320043"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
@@ -33,7 +33,7 @@ Switch-CcVersion [-Force]
 
 ### <a name="example-1"></a>Ejemplo 1
 
-En el siguiente ejemplo se purgan los servicios del dispositivo en ejecución actual y, a continuación, se cambia a un dispositivo recién implementado o de copia de seguridad:
+En el siguiente ejemplo se agotan los servicios del dispositivo en ejecución actual y, a continuación, se cambia a un dispositivo recién implementado o de copia de seguridad:
   
 ```powershell
 Switch-CcVersion
@@ -41,7 +41,7 @@ Switch-CcVersion
 
 ### <a name="example-2"></a>Ejemplo 2
 
-En el siguiente ejemplo se purgan los servicios del dispositivo en ejecución actual y se detienen los servicios por la fuerza si se produce un error al purgar los servicios. A continuación, el comando cambia a un dispositivo recién implementado o de copia de seguridad:
+En el siguiente ejemplo se agotan los servicios del dispositivo en ejecución actual y se detienen los servicios por la fuerza si se produce un error en el vaciado de los servicios. A continuación, el comando cambia a un dispositivo de copia de seguridad o recién implementado:
   
 ```powershell
 Switch-CcVersion -Force
@@ -50,14 +50,14 @@ Switch-CcVersion -Force
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El cmdlet Switch-CcVersion purga los servicios de Cloud Connector en el servidor de mediación y el servidor perimetral. Todas las llamadas en ejecución se completarán, pero el dispositivo rechazará las llamadas nuevas. Después de purgar, el cmdlet desconecta el dispositivo en ejecución de las redes corporativas e Internet, desactiva todas las máquinas virtuales que pertenecen al dispositivo y, a continuación, conecta el dispositivo de copia de seguridad a las redes corporativas e Internet.
+El cmdlet Switch-CcVersion descarga los servicios de Cloud Connector en el servidor de mediación y el servidor perimetral. Todas las llamadas en ejecución se completarán, pero el dispositivo rechazará las llamadas nuevas. Después de vaciar, el cmdlet desconecta el dispositivo en ejecución de las redes corporativas e Internet, desactiva todas las máquinas virtuales que pertenecen al dispositivo y, a continuación, conecta el dispositivo de copia de seguridad a las redes corporativas e Internet.
   
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>
 
 |**Parámetro**|**Required**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| Force <br/> | Opcional <br/> |System.Management.Automation.SwitchParameter  <br/> | Detiene los servicios por la fuerza si se produce un error al purgar los servicios. <br/> |
+| Force <br/> | Opcional <br/> |System.Management.Automation.SwitchParameter  <br/> | Detiene los servicios por la fuerza si se produce un error en el vaciado de los servicios. <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
@@ -69,7 +69,7 @@ Ninguno
 
 Ninguno
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
 Ninguno

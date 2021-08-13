@@ -1,5 +1,5 @@
 ---
-title: Planeación de implementaciones de servidores perimetrales en Skype Empresarial Server
+title: Planear implementaciones de servidor perimetral en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
-description: 'Resumen: planee su entorno perimetral de Skype Empresarial Server. Este tema le presenta los conceptos de Edge y le permite organizarse con nuestros temas más exhaustivos.'
-ms.openlocfilehash: 277e344448f5229d15addf965695f19ec2884649
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumen: planee su entorno Skype Empresarial Server edge. Este tema le presenta los conceptos perimetrales y le permite organizarse con nuestros temas más profundos.'
+ms.openlocfilehash: 5a0541eabdc0f3db9a8fb23eaa9d20b0792750263e8d576bcf11e6d96c0fd2d1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813810"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320053"
 ---
-# <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planeación de implementaciones de servidores perimetrales en Skype Empresarial Server
+# <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planear implementaciones de servidor perimetral en Skype Empresarial Server
  
-**Resumen:** Planee su entorno perimetral de Skype Empresarial Server. Este tema le presenta los conceptos de Edge y le permite organizarse con nuestros temas más exhaustivos.
+**Resumen:** Planee el entorno Skype Empresarial Server edge. Este tema le presenta los conceptos perimetrales y le permite organizarse con nuestros temas más profundos.
   
-Cuando tiene un entorno de Skype Empresarial Server que funciona bien internamente, es posible que el siguiente paso sea introducir un servidor perimetral o un grupo de servidores perimetrales en el entorno. Este rol sería fundamental si quiere que los servicios proporcionados por Skype Empresarial Server sean usados por personas que están fuera de la red interna. Estos pueden incluir posiblemente:
+Cuando tiene un entorno Skype Empresarial Server que funciona bien internamente, es posible que el siguiente paso sea introducir un servidor perimetral o un grupo de servidores perimetrales en el entorno. Este rol sería vital si desea que los servicios proporcionados por Skype Empresarial Server los usan personas que están fuera de la red interna. Estos pueden incluir posiblemente:
   
 - Usuarios remotos: empleados que están fuera del sitio, ya sea temporalmente o de forma continua.
     
@@ -35,22 +35,22 @@ Cuando tiene un entorno de Skype Empresarial Server que funciona bien internamen
     
 - Usuarios móviles.
     
-- Posibles clientes, partners e incluso usuarios anónimos a los que quiera invitar a reuniones y presentaciones.
+- Clientes potenciales, partners e incluso usuarios anónimos que desea invitar a reuniones y presentaciones.
     
-El acceso de usuarios externos, que es lo que proporcionan los servidores perimetrales, permite que todo esto suceda. Los usuarios internos podrán disfrutar de los siguientes servicios hospedados en la implementación de Skype Empresarial Server:
+El acceso de usuarios externos, que es lo que proporcionan los servidores perimetrales, permiten que todo esto suceda. Los usuarios internos podrán disfrutar de los siguientes servicios hospedados por su Skype Empresarial Server implementación:
   
-- Mensajería instantánea y presencia para la comunicación: los usuarios externos autorizados pueden unirse a conversaciones y conferencias de mensajería instantánea. Pueden obtener información de presencia para otros usuarios (que también obtienen su información de presencia). No podrá realizar conferencias entre varias entidades si usa un proveedor de mensajería instantánea pública, que es estrictamente comunicación punto a punto. Pero se admiten los protocolos SIP y XMPP.
+- Mensajería instantánea y presencia para la comunicación: los usuarios externos autorizados pueden unirse a conversaciones y conferencias de mensajería instantánea. Pueden obtener información de presencia para otros usuarios (que también obtienen su información de presencia). No podrá realizar conferencias multipartid si usa un proveedor de mensajería instantánea pública, es decir, una comunicación estrictamente punto a punto. Pero se admiten los protocolos SIP y XMPP.
     
-- Conferencia de audio y vídeo (A/V): los usuarios externos autorizados pueden participar en las conferencias de audio y vídeo de Skype Empresarial Server.
+- Conferencias de audio y vídeo (A/V): los usuarios externos autorizados pueden participar en sus conferencias de audio y vídeo Skype Empresarial Server de audio y vídeo.
     
-- Conferencia web: los usuarios externos autorizados pueden participar en las conferencias de Skype Empresarial. También puede habilitar la participación de usuarios remotos, usuarios federados y usuarios anónimos si lo desea. Los usuarios de mensajería instantánea pública no pueden participar en conferencias. También hay opciones para permitir que estos usuarios participen en el uso compartido de aplicaciones y escritorios, e incluso actuar como organizadores o presentadores de reuniones.
+- Conferencia web: los usuarios externos autorizados pueden participar en sus Skype Empresarial conferencias. También puede habilitar la participación de usuarios remotos, usuarios federados y usuarios anónimos si lo desea. Los usuarios de mensajería instantánea pública no pueden participar en conferencias. También hay opciones para permitir que estos usuarios participen en el uso compartido de aplicaciones y escritorios, e incluso actuar como organizadores o presentadores de reuniones.
     
-Se admite el acceso a dispositivos móviles, como Telefonía IP empresarial. Puede invitar a usuarios externos a esas reuniones a las que desea que asistan, incluso a los usuarios anónimos, si desea concederles permisos.
+Se admite el acceso a dispositivos móviles, como Telefonía IP empresarial. Puede invitar a usuarios externos a aquellas reuniones a las que desee que asistan, incluso a usuarios anónimos, si desea concederles permisos.
   
-Si esto parece algo que necesita su organización, la planeación de un entorno perimetral le será de gran ayuda para implementarlo. Para obtener más información, tenemos los temas que se enumeran a continuación.
+If this sounds like something your organization needs, then planning for an Edge environment's going to be a big help in deploying it. Para obtener más información, tenemos los temas que se enumeran a continuación.
 
 > [!NOTE]
-> Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype Empresarial Server 2015, pero ya no se admiten en Skype Empresarial Server 2019. Consulte [Migración de la federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obtener más información. 
+> Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype Empresarial Server 2015, pero ya no se admiten en Skype Empresarial Server 2019. Consulte [Migración de federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obtener más información. 
   
 ## <a name="planning-topics"></a>Temas de planeación:
 

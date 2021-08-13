@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre los chats supervisados en Microsoft Teams reuniones.
-ms.openlocfilehash: e705120eb2f8b92ea437c78be67c139018f786fc
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 6962d38eb30a8f94893667d269f35ebe8e251a3df8896d574b2236ca29c91a09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506692"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318254"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Chats supervisados en Microsoft Teams
 

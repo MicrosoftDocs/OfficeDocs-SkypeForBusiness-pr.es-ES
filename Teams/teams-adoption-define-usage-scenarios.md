@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb5f1370369da20c14a658f7a2525704f71195a4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c3578b855745bde964825e265e871a27e4dacc4246b17cfe27f2892d26d7ecea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318264"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definir escenarios de uso para Microsoft Teams
 

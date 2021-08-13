@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para República Dominicana.
-ms.openlocfilehash: 8866188f177344035dc33533c2e4f61465f6281b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: af2ea42f9356bc35ebb681add6bc63c5d0ca1b650e77c0c5fdbeb4b4aa782850
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121438"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318503"
 ---
 # <a name="availability-in-the-dominican-republic"></a>Disponibilidad en la República Dominicana
 

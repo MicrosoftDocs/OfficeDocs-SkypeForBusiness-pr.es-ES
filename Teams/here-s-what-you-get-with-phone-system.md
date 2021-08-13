@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre las características, la disponibilidad y cómo planear y configurar Teléfono Microsoft sistema para su empresa. '
-ms.openlocfilehash: 2d4f4bada45242ddd5a3aa48308d2acaad495a23
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: ce4be849a1cf57dc47b6d41b84548b1e0e3591cdd2d963e60d5816c833579648
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491787"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349053"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Esto es lo obtiene con el Sistema telefónico
 

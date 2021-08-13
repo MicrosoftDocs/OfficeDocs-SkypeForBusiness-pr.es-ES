@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: Los servidores perimetrales se pueden configurar para permitir que los usuarios internos y externos accedan a los contactos en organizaciones o servicios asociados.
-ms.openlocfilehash: 05683829abf10d090062a43dd48a2405e900ef07
+ms.openlocfilehash: 9007f5285e9c76d3b3e8359ae1b1247c987c0534763bbdb934f4bb0e073466f9
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772391"
+ms.locfileid: "54348225"
 ---
 # <a name="lync-server-federation-planning-tool"></a>Herramienta de planeación de federación de Lync Server
  

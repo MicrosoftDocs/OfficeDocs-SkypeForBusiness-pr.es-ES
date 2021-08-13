@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre los idiomas que puede establecer en Skype Empresarial para los mensajes predeterminados del sistema y los saludos de correo de voz.
-ms.openlocfilehash: 78faf285e4875319d7495b4afb7d66f418ef9d37
-ms.sourcegitcommit: eca3f5e83e4a07be197936db19f539cbfa2c2bd2
+ms.openlocfilehash: f8e16be05b5c6001be8a9c37b6e0e23dac0525a16938c8c378450439f57aee88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52804657"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349003"
 ---
 # <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams idiomas para saludos y mensajes del correo de voz
 

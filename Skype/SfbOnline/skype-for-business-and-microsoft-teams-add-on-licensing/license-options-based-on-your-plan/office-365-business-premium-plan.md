@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre licencias de complementos, características y cómo comprar para Microsoft 365 Empresa Estándar planes. '
-ms.openlocfilehash: e7a63c210264109eab0df1e89cf214de3cc5d827
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c5469958a14c860223117742d4a0b3eb2c4d7a9e6f0168e3a7748413fc8426bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238488"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318035"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 Empresa Estándar
 

@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eeeaa0da5058abe4466cda3a063df96c5ea3098
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: a59589d848e7eb3a6ab938305386a7ef83089fa1951dc2672f37287abc4a2ec9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587029"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348605"
 ---
 # <a name="security-and-microsoft-teams"></a>Seguridad y Microsoft Teams
 

@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad de servicios gratuitos en los que el servicio gratuito está disponible. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 6adfcba7d369cde4ddb45c211eb1a59b2c701873
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0d1af78f04a0ed526b02f299e1b456550b6a37daec280fa122153229d3fcca5c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116848"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348595"
 ---
 # <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>Restricciones de marcado de número gratuito en Bosnia y Herzegovina
 

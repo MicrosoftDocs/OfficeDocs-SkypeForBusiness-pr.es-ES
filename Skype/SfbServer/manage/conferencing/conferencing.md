@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Resumen: obtenga información sobre cómo administrar conferencias en Skype Empresarial Server.'
-ms.openlocfilehash: 113fe27a71057fb36534b09d5e7531a25187dd9f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 94f59c2c2a8586ec1d0d47316e976d0e662b5bb0824ce34df9de327b0446fcae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099076"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333602"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Administrar conferencias en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo administrar conferencias en Skype Empresarial Server.
   
-En este tema se describe cómo administrar conferencias. Para obtener más información sobre cómo planear e implementar conferencias, vea [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) e Deploy [conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+En este tema se describe cómo administrar conferencias. Para obtener más información acerca de cómo planear e implementar conferencias, vea [Plan for conferencing in Skype Empresarial Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 En Skype Empresarial Server, puede administrar los detalles de las conferencias especificando la configuración y la configuración de la siguiente manera. Tenga en cuenta que los términos conferencia y reunión a veces se usan indistintamente. Pero, en general, puede pensar en una reunión como una instancia específica de conferencia.
   
@@ -31,21 +31,21 @@ En Skype Empresarial Server, puede administrar los detalles de las conferencias 
     
     Tenga en cuenta que las directivas de conferencia se aplican al usuario o al sitio y no se pueden aplicar a una reunión específica. Por lo tanto, la invitación a la reunión para la conferencia se puede crear con algunas semanas de antelación, pero la directiva de conferencia restrictiva debe aplicarse a la cuenta de Skype Empresarial del organizador de la reunión justo antes de que comience la conferencia. 
     
-    Si se usa una cuenta dedicada para el rol Organizador de reuniones, la directiva de conferencia puede permanecer asignada a esa cuenta. Si el organizador de la reunión usa una cuenta general de Skype Empresarial, la directiva debe quitarse una vez finalizada la conferencia.
+    Si se usa una cuenta dedicada para el rol Organizador de reuniones, la directiva de conferencia puede permanecer asignada a esa cuenta. Si el organizador de la reunión usa una cuenta Skype Empresarial general, la directiva debe quitarse una vez finalizada la conferencia.
     
 - **Las opciones de** configuración de reunión determinan el tipo de reuniones que los usuarios pueden crear, además de controlar cómo (o incluso si) los usuarios anónimos y los usuarios de conferencias de acceso telefónico local pueden unirse a estas reuniones. Tenga en cuenta que esta configuración solo afecta a las reuniones programadas. Las configuraciones de reunión se aplican por grupo, por sitio o globalmente.
     
 - **Las opciones de configuración de conferencia** determinan aspectos como el tamaño máximo permitido para contenido y entregas de reuniones; cantidad máxima de ancho de banda para el servicio de conferencia de uso compartido de aplicaciones; límites de almacenamiento y períodos de expiración; las direcciones URL de las descargas internas y externas del cliente admitido; punteros a direcciones URL internas y externas donde los usuarios pueden obtener recursos y ayuda para conferencias; y los puertos usados para el uso compartido de aplicaciones, el audio del cliente, las transferencias de archivos y el tráfico multimedia.
     
-    Esta configuración le permite administrar los propios servidores reales. Esta configuración solo se puede establecer mediante el Shell de administración de Skype Empresarial Server. 
+    Esta configuración le permite administrar los propios servidores reales. Esta configuración solo se puede establecer mediante Skype Empresarial Server Shell de administración. 
     
 - **La configuración de acceso telefónico** le permite definir información acerca de si los usuarios acceden desde un teléfono y cómo lo hace. Se especifica parte de la información de acceso telefónico local, como el número de acceso, desde la pestaña Conferencia del Panel de control y cierta información de acceso telefónico local (como el plan de marcado, la directiva de voz, la ruta y el uso de RTC) desde la pestaña Enrutamiento de voz del Panel de control.
     
 - **La configuración de directiva de PIN** permite nombrar y definir el PIN que los participantes usan para el acceso telefónico local.
     
-## <a name="manage-conferencing-by-using-skype-for-business-server-control-panel-or-by-using-skype-for-business-server-management-shell"></a>Administrar conferencias mediante el Panel de control de Skype Empresarial Server o mediante el Shell de administración de Skype Empresarial Server
+## <a name="manage-conferencing-by-using-skype-for-business-server-control-panel-or-by-using-skype-for-business-server-management-shell"></a>Administrar conferencias con el Panel de control Skype Empresarial Server o mediante el Shell Skype Empresarial Server administración
 
-Puede administrar la mayoría de las directivas de conferencia y las opciones de configuración mediante el Panel de control de Skype Empresarial Server o mediante el Shell de administración de Skype Empresarial Server. Algunas opciones de configuración solo están disponibles mediante el Shell de administración de Skype Empresarial Server.
+Puede administrar la mayoría de las directivas de conferencia y las opciones de configuración mediante Skype Empresarial Server Panel de control o mediante Skype Empresarial Server Shell de administración. Algunas opciones de configuración solo están disponibles mediante Skype Empresarial Server Shell de administración.
   
 - Para administrar la configuración de directiva de conferencia:
     
@@ -57,31 +57,31 @@ Puede administrar la mayoría de las directivas de conferencia y las opciones de
     
   - En el Panel de control, **seleccione Conferencia | Configuración de la reunión**.
     
-  - En el Shell de administración de Skype Empresarial Server, busque los **cmdlets -CsMeetingConfiguration.**
+  - En Skype Empresarial Server Shell de administración, busque los **cmdlets -CsMeetingConfiguration.**
     
 - Para administrar la configuración del número de acceso telefónico:
     
   - En el Panel de control, **seleccione Conferencia | Número de acceso telefónico.**
     
-  - En el Shell de administración de Skype Empresarial Server, busque los **cmdlets -CsDialInConferencing.**
+  - En Skype Empresarial Server Shell de administración, busque los **cmdlets -CsDialInConferencing.**
     
 - Para administrar la información de acceso telefónico local, como el plan de marcado, la directiva de voz, la ruta y el uso de RTC: 
     
   - En el Panel de control, **seleccione Conferencia | Enrutamiento de voz**.
     
-  - En el Shell de administración de Skype Empresarial Server, busque los **cmdlets -CsDialPlan** y **-CsVoice.**
+  - En Skype Empresarial Server Shell de administración, busque los **cmdlets -CsDialPlan** y **-CsVoice.**
     
 - Para administrar la configuración de directiva de PIN:
     
   - En el Panel de control, **seleccione Conferencia | Directiva de PIN**.
     
-  - En el Shell de administración de Skype Empresarial Server, busque los **cmdlets -CsPinPolicy.**
+  - En Skype Empresarial Server Shell de administración, busque los **cmdlets -CsPinPolicy.**
     
-- Para administrar las opciones de configuración de conferencia, debe usar el Shell de administración de Skype Empresarial Server. Busque **cmdlets -CsConferencingConfiguration.**
+- Para administrar las opciones de configuración de conferencia, debe usar el Shell Skype Empresarial Server administración. Busque **cmdlets -CsConferencingConfiguration.**
     
-## <a name="skype-for-business-server-management-shell-cmdlets"></a>Cmdlets del Shell de administración de Skype Empresarial Server
+## <a name="skype-for-business-server-management-shell-cmdlets"></a>Skype Empresarial Server Cmdlets del Shell de administración
 
-Puede usar los siguientes cmdlets del Shell de administración de Skype Empresarial Server para administrar conferencias: 
+Puede usar los siguientes cmdlets Skype Empresarial Server Shell de administración para administrar conferencias: 
   
 **Configuración de directiva de conferencia**
 
@@ -116,25 +116,25 @@ Puede usar los siguientes cmdlets del Shell de administración de Skype Empresar
 |**Cmdlet**|**Descripción**|
 |:-----|:-----|
 |[Get-CsConferenceDirectory](/powershell/module/skype/get-csconferencedirectory?view=skype-ps) <br/> |Devuelve información sobre los directorios de conferencia configurados en su organización. Los directorios de conferencia se usan para ayudar a los usuarios de conferencia de acceso telefónico local a localizar la información de conferencias.  <br/> |
-|[Get-CsDialInConferencingConfiguration](/powershell/module/skype/get-csdialinconferencingconfiguration?view=skype-ps) <br/> |Recupera información sobre cómo responde Skype Empresarial Server cuando los usuarios se unen o salen de una conferencia de acceso telefónico local.  <br/> |
+|[Get-CsDialInConferencingConfiguration](/powershell/module/skype/get-csdialinconferencingconfiguration?view=skype-ps) <br/> |Recupera información sobre cómo Skype Empresarial Server responde cuando los usuarios se unen o salen de una conferencia de acceso telefónico.  <br/> |
 |[Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps) <br/> |Devuelve información sobre todos los números de acceso a conferencias de acceso telefónico local configurados para su uso en la organización.  <br/> |
 |[Get-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |Devuelve la configuración de señalización de tono de marcado de frecuencia múltiple (DTMF) que se usa para las conferencias de acceso telefónico. DTMF permite a los usuarios que participan por teléfono en una conferencia controlar la configuración de la conferencia (por ejemplo, activar y desactivar el audio o bloquear y desbloquear la conferencia) con el teclado numérico del teléfono.  <br/> |
-|[Get-CsDialInConferencingLanguageList](/powershell/module/skype/get-csdialinconferencinglanguagelist?view=skype-ps) <br/> |Devuelve una lista de idiomas, incluidos los idiomas regionales o minoritarios, admitidos para su uso con conferencias de acceso telefónico local de Skype Empresarial Server. Estos idiomas se usan para retransmitir mensajes de audio e instrucciones a los usuarios que participan en una conferencia por teléfono.  <br/> |
+|[Get-CsDialInConferencingLanguageList](/powershell/module/skype/get-csdialinconferencinglanguagelist?view=skype-ps) <br/> |Devuelve una lista de idiomas, incluidos los idiomas regionales o minoritarios, admitidos para su uso con Skype Empresarial Server conferencias de acceso telefónico local. Estos idiomas se usan para retransmitir mensajes de audio e instrucciones a los usuarios que participan en una conferencia por teléfono.  <br/> |
 |[Get-CsDialPlan](/powershell/module/skype/get-csdialplan?view=skype-ps) <br/> |Devuelve información sobre los planes de marcado usados en la organización.  <br/> |
 |[Grant-CsDialPlan](/powershell/module/skype/grant-csdialplan?view=skype-ps) <br/> |Asigna un plan de marcado a uno o más usuarios o grupos.  <br/> |
 |[Import-CsLegacyConferenceDirectory](/powershell/module/skype/import-cslegacyconferencedirectory?view=skype-ps) <br/> |Importa directorios de conferencia de Microsoft Office Communications Server 2007 R2 a Skype Empresarial Server. Esto ayuda a proporcionar interoperabilidad entre Skype Empresarial Server y Office Communications Server 2007 R2.  <br/> |
 |[Move-CsConferenceDirectory](/powershell/module/skype/move-csconferencedirectory?view=skype-ps) <br/> |Mueve un directorio de conferencia existente de un grupo a otro. Los directorios de conferencia se usan para ayudar a los usuarios de conferencia de acceso telefónico local a localizar información sobre la conferencia.  <br/> |
 |[New-CsConferenceDirectory](/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |Crea un directorio de conferencia para su uso en la organización. Los directorios de conferencia se usan para ayudar a los usuarios de conferencia de acceso telefónico local a localizar la información de conferencias.  <br/> |
 |[New-CsDialInConferencingAccessNumber](/powershell/module/skype/new-csdialinconferencingaccessnumber?view=skype-ps) <br/> |Crea un número de acceso para conferencia de acceso telefónico local.  <br/> |
-|[New-CsDialInConferencingConfiguration](/powershell/module/skype/new-csdialinconferencingconfiguration?view=skype-ps) <br/> |Crea una colección de opciones de configuración de conferencias de acceso telefónico local. Esta configuración determina cómo responde Skype Empresarial Server cuando los usuarios se unen o salen de una conferencia de acceso telefónico local. Concretamente, la información se devuelve dependiendo de si es necesario o no que los participantes graben su nombre cuando se unen a una conferencia y de cómo (o si) el sistema anuncia que alguien se ha unido a la conferencia o la ha abandonado.  <br/> |
+|[New-CsDialInConferencingConfiguration](/powershell/module/skype/new-csdialinconferencingconfiguration?view=skype-ps) <br/> |Crea una colección de opciones de configuración de conferencias de acceso telefónico local. Esta configuración determina cómo Skype Empresarial Server responde cuando los usuarios se unen o salen de una conferencia de acceso telefónico. Concretamente, la información se devuelve dependiendo de si es necesario o no que los participantes graben su nombre cuando se unen a una conferencia y de cómo (o si) el sistema anuncia que alguien se ha unido a la conferencia o la ha abandonado.  <br/> |
 |[New-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |Crea una nueva colección de opciones de señalización de multifrecuencia de tono dual (DTMF) usadas para conferencias de acceso telefónico local.  <br/> |
 |[New-CsDialPlan](/powershell/module/skype/new-csdialplan?view=skype-ps) <br/> |Crea un plan de marcado.  <br/> |
 |[Remove-CsConferenceDirectory](/powershell/module/skype/remove-csconferencedirectory?view=skype-ps) <br/> |Quita un directorio de conferencia existente. Los directorios de conferencia se usan para ayudar a los usuarios de conferencia de acceso telefónico local a localizar información sobre la conferencia.  <br/> |
 |[Remove-CsDialInConferencingAccessNumber](/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps) <br/> |Quita un número de acceso de conferencias de acceso telefónico local.  <br/> |
-|[Remove-CsDialInConferencingConfiguration](/powershell/module/skype/remove-csdialinconferencingconfiguration?view=skype-ps) <br/> |Quita una o más colecciones de la configuración de conferencia de acceso telefónico local. Esta configuración determina cómo responde Skype Empresarial Server cuando los usuarios se unen o salen de una conferencia de acceso telefónico local.  <br/> |
+|[Remove-CsDialInConferencingConfiguration](/powershell/module/skype/remove-csdialinconferencingconfiguration?view=skype-ps) <br/> |Quita una o más colecciones de la configuración de conferencia de acceso telefónico local. Esta configuración determina cómo Skype Empresarial Server responde cuando los usuarios se unen o salen de una conferencia de acceso telefónico.  <br/> |
 |[Remove-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/remove-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |Quita una colección existente de opciones de señalización de frecuencia múltiple de tono dual (DTMF) usadas para conferencias de acceso telefónico local.  <br/> |
 |[Set-CsDialInConferencingAccessNumber](/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) <br/> |Modifica los valores de propiedad de un número de acceso de conferencia de acceso telefónico. La conferencia de acceso telefónico local permite a los usuarios usar un teléfono "normal", móvil u otro dispositivo de la red telefónica conmutada (RTC), para unirse a la parte de audio de una conferencia.  <br/> |
-|[Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |Modifica la configuración que determina cómo responde Skype Empresarial Server cuando los usuarios se unen o salen de una conferencia de acceso telefónico local.  <br/> |
+|[Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |Modifica la configuración que determina cómo Skype Empresarial Server responde cuando los usuarios se unen o salen de una conferencia de acceso telefónico.  <br/> |
 |[Set-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |Modifica la configuración de señalización tono de marcado de frecuencia múltiple (DTMF) usada para las conferencias de acceso telefónico local.  <br/> |
 |[Set-CsDialPlan](/powershell/module/skype/set-csdialplan?view=skype-ps) <br/> |Modifica un plan de marcado existente.  <br/> |
    
@@ -142,7 +142,7 @@ Puede usar los siguientes cmdlets del Shell de administración de Skype Empresar
 
 |**Cmdlet**|**Descripción**|
 |:-----|:-----|
-|[Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> |Devuelve información acerca de las directivas del número de identificación personal (PIN) de los clientes configuradas para el uso en la organización. La autenticación de PIN permite a los usuarios tener acceso a Skype Empresarial Server proporcionando un PIN en lugar de un nombre de usuario y una contraseña.  <br/> |
+|[Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> |Devuelve información acerca de las directivas del número de identificación personal (PIN) de los clientes configuradas para el uso en la organización. La autenticación de PIN permite a los usuarios acceder a Skype Empresarial Server proporcionando un PIN en lugar de un nombre de usuario y una contraseña.  <br/> |
 |[Grant-CsPinPolicy](/powershell/module/skype/grant-cspinpolicy?view=skype-ps) <br/> |Asigna una directiva de número de identificación personal (PIN) de cliente a un usuario o a un grupo de usuarios.  <br/> |
 |[New-CsPinPolicy](/powershell/module/skype/new-cspinpolicy?view=skype-ps) <br/> |Crea una nueva directiva de número de identificación personal de cliente (PIN).  <br/> |
 |[Remove-CsPinPolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps) <br/> |Elimina la directiva especificada de número de identificación personal (PIN).  <br/> |
@@ -152,13 +152,13 @@ Puede usar los siguientes cmdlets del Shell de administración de Skype Empresar
 
 |**Cmdlet**|**Descripción**|
 |:-----|:-----|
-|[Disable-CsMeetingRoom](/powershell/module/skype/disable-csmeetingroom?view=skype-ps) <br/> |Deshabilita una sala de reuniones de Skype Empresarial Server. Una sala de reuniones es un dispositivo de conferencias diseñado para abordar escenarios de colaboración y videoconferencia en pequeñas salas de reuniones. Al deshabilitar un objeto de sala de reuniones, se quitan todos los atributos de Active Directory específicos de Skype Empresarial Server asignados a la cuenta de usuario que representa la sala de reuniones. Sin embargo, la cuenta de usuario de Active Directory en sí no se elimina.  <br/> |
-|[Enable-CsMeetingRoom](/powershell/module/skype/enable-csmeetingroom?view=skype-ps) <br/> |Habilita una sala de reuniones de Skype Empresarial Server. Para habilitar una sala de reuniones, primero debe crear una cuenta de usuario de Active Directory que representa ese sistema. Tenga en cuenta que, aunque los objetos de la sala de reuniones se basan en las cuentas de usuario, estos objetos no se mostrarán cuando ejecute el cmdlet Get-CsUser.  <br/> |
+|[Disable-CsMeetingRoom](/powershell/module/skype/disable-csmeetingroom?view=skype-ps) <br/> |Deshabilita una sala Skype Empresarial Server de reuniones. Una sala de reuniones es un dispositivo de conferencias diseñado para abordar escenarios de colaboración y videoconferencia en pequeñas salas de reuniones. Al deshabilitar un objeto de sala de reuniones, se quitan todos los Skype Empresarial Server específicos de Active Directory asignados a la cuenta de usuario que representa la sala de reuniones. Sin embargo, la cuenta de usuario de Active Directory en sí no se elimina.  <br/> |
+|[Enable-CsMeetingRoom](/powershell/module/skype/enable-csmeetingroom?view=skype-ps) <br/> |Habilita una Skype Empresarial Server de reuniones. Para habilitar una sala de reuniones, primero debe crear una cuenta de usuario de Active Directory que representa ese sistema. Tenga en cuenta que, aunque los objetos de la sala de reuniones se basan en las cuentas de usuario, estos objetos no se mostrarán cuando ejecute el cmdlet Get-CsUser.  <br/> |
 |[Get-CsConferenceDisclaimer](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) <br/> |Devuelve información sobre el aviso de declinación de responsabilidades de conferencias usado en la organización. El aviso de declinación de responsabilidades de conferencias es un mensaje que se muestra a los usuarios que se unen a la conferencia a través de un hipervínculo (por ejemplo, aquéllos que pegan un vínculo que lleva a la conferencia en un explorador como Windows Internet Explorer).  <br/> |
-|[Get-CsMeetingRoom](/powershell/module/skype/get-csmeetingroom?view=skype-ps) <br/> |Devuelve información sobre todas las salas de reuniones de Skype Empresarial Server configuradas para su uso en la organización.  <br/> |
-|[Move-CsMeetingRoom](/powershell/module/skype/move-csmeetingroom?view=skype-ps) <br/> |Mueve un objeto de sala de reuniones de Skype Empresarial Server de un grupo de registradores a otro.  <br/> |
+|[Get-CsMeetingRoom](/powershell/module/skype/get-csmeetingroom?view=skype-ps) <br/> |Devuelve información sobre todas las salas Skype Empresarial Server de reuniones configuradas para su uso en la organización.  <br/> |
+|[Move-CsMeetingRoom](/powershell/module/skype/move-csmeetingroom?view=skype-ps) <br/> |Mueve un objeto Skype Empresarial Server sala de reuniones de un grupo de registradores a otro.  <br/> |
 |[Remove-CsConferenceDisclaimer](/powershell/module/skype/remove-csconferencedisclaimer?view=skype-ps) <br/> |Borra el texto del encabezado y el cuerpo de la declinación de responsabilidades de conferencias utilizada en la organización. El aviso de declinación de responsabilidades de conferencias es un mensaje que se muestra a los usuarios que se unen a la conferencia a través de un hipervínculo (por ejemplo, aquéllos que pegan un vínculo que lleva a la conferencia en un explorador como Windows Internet Explorer).  <br/> |
-|[Set-CsMeetingRoom](/powershell/module/skype/set-csmeetingroom?view=skype-ps) <br/> |Modifica los valores de propiedad de una sala de reuniones existente de Skype Empresarial Server.  <br/> |
+|[Set-CsMeetingRoom](/powershell/module/skype/set-csmeetingroom?view=skype-ps) <br/> |Modifica los valores de propiedad de una sala de reuniones Skype Empresarial Server existente.  <br/> |
    
 **Configuración de pruebas**
 
@@ -167,9 +167,9 @@ Puede usar los siguientes cmdlets del Shell de administración de Skype Empresar
 |[Test-CsASConference](/powershell/module/skype/test-csasconference?view=skype-ps) <br/> |Comprueba la capacidad de un par de usuarios para participar en una conferencia de uso compartido de aplicaciones.  <br/> |
 |[Test-CsAudioConferencingProvider](/powershell/module/skype/test-csaudioconferencingprovider?view=skype-ps) <br/> |Realiza una prueba para ver si un usuario puede conectar con el proveedor de servicios de audioconferencia. Estos proveedores son organizaciones de terceros que suministran servicios de audioconferencia a organizaciones. Entre otras cosas, los proveedores de audioconferencia permiten a los usuarios que no se encuentran en la oficina, y que no están conectados a la red corporativa o Internet, participar en la parte de audio de una conferencia o una reunión.  <br/> |
 |[Test-CsAVConference](/powershell/module/skype/test-csavconference?view=skype-ps) <br/> |Comprueba la capacidad de que un par de usuarios participen en una conferencia de audio o vídeo (A/V).  <br/> |
-|[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Comprueba si un par de usuarios pueden participar en una conferencia web de Skype Empresarial Server que incluya actividades como compartir o ver diapositivas de PowerPoint, pizarras o sondeos. El cmdlet también comprueba que el servicio de conferencia web de Skype Empresarial Server puede detectar Office Web Apps Server y que un cliente puede cargar un archivo de PowerPoint para su difusión por Office Web Apps Server.  <br/> |
+|[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Comprueba si un par de usuarios pueden participar en una conferencia web de Skype Empresarial Server que incluya actividades como compartir o ver PowerPoint diapositivas, pizarras o sondeos. El cmdlet también comprueba que el servicio de conferencia web de Skype Empresarial Server puede detectar Office Web Apps Server y que un cliente puede cargar un archivo PowerPoint para su difusión por Office Web Apps Server.  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Comprueba si un usuario puede participar en una sesión de conferencia de acceso telefónico local.  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Prueba un número de teléfono con un plan de marcado (antes denominado perfil de ubicación) y devuelve la regla de normalización que se aplicará al número, así como el número traducido después de haber aplicado la regla de normalización.  <br/> |
-|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Comprueba la capacidad de tres usuarios para participar en una conferencia del Servicio de movilidad de Skype Empresarial Server. El servicio de movilidad permite a los usuarios de teléfonos móviles, como iPhones y Windows Phones, realizar tareas como intercambiar mensajes instantáneos e información de presencia; almacenar y recuperar el correo de voz internamente en lugar de con su proveedor inalámbrico; y aproveche las capacidades de Skype Empresarial Server, como llamadas a través del trabajo y conferencias de acceso telefónico local.  <br/> **Nota:** Los clientes que usan MCX no son compatibles con Skype Empresarial Server 2019.|
+|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Comprueba la capacidad de tres usuarios para participar en una conferencia Skype Empresarial Server Mobility Service. El servicio de movilidad permite a los usuarios de teléfonos móviles, como iPhones y Windows Teléfonos móviles, realizar actividades tales como intercambiar mensajes instantáneos e información de presencia; almacenar y recuperar el correo de voz internamente en lugar de con su proveedor inalámbrico; y aproveche las Skype Empresarial Server como llamadas a través del trabajo y conferencias de acceso telefónico local.  <br/> **Nota:** Los clientes que usan MCX no se admiten en Skype Empresarial Server 2019.|
 |[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Comprueba la capacidad de un par de usuarios para programar, unirse y, a continuación, realizar una conferencia en línea con la API web de comunicaciones unificadas (UCWA).  <br/> |
-|[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Devuelve información de diagnóstico para las capacidades de conferencia de datos incluidas en Skype Empresarial Server.  <br/> |
+|[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Devuelve información de diagnóstico para las funciones de conferencia de datos incluidas en Skype Empresarial Server.  <br/> |

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: a8fe3f0c2375e7322397fabfeb1d3f5456d7c55b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c859cfe3b062bcf8ad379544078684624a6586cc6d528ac0dce6493de8004a0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319873"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
@@ -74,7 +74,7 @@ Debe ser un administrador de servicio de Teams para tener acceso a esta configur
 
 ## <a name="customize-meeting-invitations"></a>Personalice las invitaciones a reuniones
 
-Puede personalizar las invitaciones a reuniones de Teams para satisfacer las necesidades de su organización. Puede agregar el logotipo de su organización e incluir información útil, como enlaces a su sitio web de apoyo y renuncia a la responsabilidad legal, y un pie de página sólo de texto.
+Puede personalizar las invitaciones a la reunión de Teams para cumplir con las necesidades de su organización. Puede agregar el logotipo de su organización e incluir información útil, como enlaces a su sitio web de apoyo y renuncia a la responsabilidad legal, y un pie de página sólo de texto.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Consejos para crear un logotipo para las invitaciones a reuniones  
 
@@ -82,7 +82,7 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
 2. Guarde la imagen en formato JPG o PNG.
 3. Almacene la imagen en un lugar en el que todos los que reciban la invitación puedan acceder, como un sitio web público.
 
-    Ahora puede añadirlo a sus invitaciones a reuniones. Vea los siguientes pasos.
+    Ahora puede añadirlo a sus invitaciones a reuniones. Vea los pasos siguientes.
 
 ### <a name="customize-your-meeting-invitations"></a>Personalice sus invitaciones a reuniones
 

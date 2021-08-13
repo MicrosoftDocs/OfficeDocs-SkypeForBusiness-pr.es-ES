@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Ghana.
-ms.openlocfilehash: 7a3496fb8d04f2d72b4e346ec510926160ad7e65
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 966dfd2e9d7533c185a50547703c71367179b23b4dd44cd8f6e7f86259dcd2f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118098"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318543"
 ---
 # <a name="availability-in-ghana"></a>Disponibilidad en Ghana
 

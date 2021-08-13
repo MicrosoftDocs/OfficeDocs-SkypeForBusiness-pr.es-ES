@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Introducción al uso de Skype Empresarial de telemetría en línea para supervisar una implementación local en un escenario híbrido.
-ms.openlocfilehash: 5d14e5000b18680592084c45c798f7eead82a917
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509771"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318075"
 ---
 # <a name="plan-call-data-connector"></a>Plan del conector de datos de llamada
 
@@ -56,7 +56,7 @@ Por supuesto, es posible que desee mantener algunos datos de calidad de llamadas
 
 ![SfB Correo de voz en la nube](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Los siguientes requisitos suponen que ya Skype Empresarial Server implementado en una topología compatible.  Para obtener más información sobre cómo implementar Skype Empresarial Server topologías compatibles, vea [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md). Para configurar Call Data Connector, debe:
 

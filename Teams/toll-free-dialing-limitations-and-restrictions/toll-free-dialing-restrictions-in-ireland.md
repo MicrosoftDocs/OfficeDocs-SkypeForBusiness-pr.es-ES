@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en Irlanda, como la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
-ms.openlocfilehash: e8c8981c3e70f20c067aa910d0430478e08ced15
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7279312cf231a18d67d3719fbcf2bf1b23daa939ac96d3922e0b9b5337fe7eff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319693"
 ---
 # <a name="toll-free-dialing-restrictions-in-ireland"></a>Restricciones de marcado de número gratuito en Irlanda
 

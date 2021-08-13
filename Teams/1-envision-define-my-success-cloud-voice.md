@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 94430052082d523861ed4a938e0e0b02b70049f9
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 04cd584be5b6333c579ab8b4685ad917236e660474d9e49150eb0f563670fa6c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610989"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320013"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 

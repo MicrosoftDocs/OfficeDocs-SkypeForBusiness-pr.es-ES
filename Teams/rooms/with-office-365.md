@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este tema para obtener información sobre cómo implementar Salas de Microsoft Teams con Microsoft 365 o Office 365, donde Teams o Skype Empresarial y Exchange están en línea.
-ms.openlocfilehash: 64567cd9925a0a11d9e9b896c522a2c4bfe13f40
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: 5f700dfd839515cd34a1fec864994867055b11ec184bc0f70b4ea2107ddd16f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739650"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318274"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Implementar Salas de Microsoft Teams con Microsoft 365 o Office 365
 

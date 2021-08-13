@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Después de implementar uno o varios servidores perimetrales, debe habilitar los tipos de acceso de proveedor o dominio externo, acceso de usuarios remotos y acceso de usuarios anónimos a conferencias a través de los servidores perimetrales que se admiten para su organización.
-ms.openlocfilehash: 7f5ea6db17b498d2f1732cf72fc5462546d7598841a1bd489ac77c8749d86130
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: ffad5a6ed75e5d9e0476497182bd1d1dafe65675c1fb948ca98543858846512f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333532"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>Administrar la configuración perimetral de acceso para su organización
 
@@ -53,23 +53,23 @@ Estas opciones incluyen los siguientes tipos de acceso que se pueden configurar 
     
     Devolverá información similar a la siguiente:
     
-    Identity : Global<br/>
-    AllowAnonymousUsers : False<br/>
-    AllowFederatedUsers : False<br/>
-    AllowOutsideUsers : True<br/>
-    BeClearingHouse : False<br/>
-    EnablePartnerDiscovery : False<br/>
-    EnableArchivingDisclaimer : False<br/>
-    EnableUserReplicator : True<br/>
-    KeepCrlsUpToDateForPeers : True<br/>
-    MarkSourceVerifiableOnOutgoingMessages : True<br/>
-    OutgoingTlsCountForFederatedPartners : 4<br/>
-    DiscoveredPartnerStandardRate : 20<br/>
-    EnableDiscoveredPartnerContactsLimit : True<br/>
-    MaxContactsPerDiscoveredPartner : 1000<br/>
-    DiscoveredPartnerReportPeriodMinutes : 60<br/>
-    MaxAcceptedCertificatesStored : 1000<br/>
-    MaxRejectedCertificatesStored : 500<br/>
-    CertificatesDeletedPercentage : 20<br/>
-    RoutingMethod : UseDnsSrvRouting<br/>
+        Identity                               : Global
+        AllowAnonymousUsers                    : False
+        AllowFederatedUsers                    : False
+        AllowOutsideUsers                      : True
+        BeClearingHouse                        : False
+        EnablePartnerDiscovery                 : False
+        EnableArchivingDisclaimer              : False
+        EnableUserReplicator                   : True
+        KeepCrlsUpToDateForPeers               : True
+        MarkSourceVerifiableOnOutgoingMessages : True
+        OutgoingTlsCountForFederatedPartners   : 4
+        DiscoveredPartnerStandardRate          : 20
+        EnableDiscoveredPartnerContactsLimit   : True
+        MaxContactsPerDiscoveredPartner        : 1000
+        DiscoveredPartnerReportPeriodMinutes   : 60
+        MaxAcceptedCertificatesStored          : 1000
+        MaxRejectedCertificatesStored          : 500
+        CertificatesDeletedPercentage          : 20
+        RoutingMethod                          : UseDnsSrvRouting
 

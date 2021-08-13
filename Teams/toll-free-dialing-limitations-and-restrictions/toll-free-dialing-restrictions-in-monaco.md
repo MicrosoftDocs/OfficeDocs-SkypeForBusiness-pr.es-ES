@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad de servicios gratuitos en los que el servicio gratuito está disponible. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 253f1c45875d03c891963cdbccfdc76181ddb48e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5799975dbce16f4f5f1cee4b2608ea2cfcd8ff70f5787cebde2620ac59eeb427
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097866"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348405"
 ---
 # <a name="toll-free-dialing-restrictions-in-monaco"></a>Restricciones de marcado de número gratuito en Mónaco
 

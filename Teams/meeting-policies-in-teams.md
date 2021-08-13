@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Descubra cómo administrar la configuración de directiva de reunión en Teams. Use la configuración de directiva para controlar las características disponibles para los participantes de la reunión en las reuniones programadas por los usuarios.
-ms.openlocfilehash: 09d821eb4a0ae6f1315ff5ff817c4b702512a974
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
-ms.translationtype: MT
+ms.openlocfilehash: 3af33814333f23438c8c645b0a22782f231d275ce446a3816752aef8301dfd66
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282797"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319883"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -470,9 +470,9 @@ Esta es una directiva por organizador. Esta configuración controla si los usuar
 |---------|---------|
 |**Todos**   |Todos los participantes se unen a la reunión directamente sin tener que esperar en la sala de espera. Esto incluye a los usuarios autenticados, los usuarios externos de organizaciones de confianza (federados), los invitados y los usuarios anónimos.     |
 |**Usuarios de mi organización y de organizaciones de confianza e invitados**     |Los usuarios autenticados en la organización, incluidos los usuarios invitados y los usuarios de las organizaciones de confianza, pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Los usuarios anónimos aguardan en la sala de espera.   |
-|**Usuarios en mi organización e invitados**    |Los usuarios autenticados en la organización, incluidos los usuarios invitados, pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Los usuarios de organizaciones de confianza y los usuarios anónimos aguardan en la sala de espera. Esta configuración es la predeterminada.           |
+|**Usuarios en mi organización e invitados**    |Los usuarios autenticados de la organización, incluidos los usuarios invitados, se unen a la reunión directamente sin tener que esperar en la sala de espera. Los usuarios de organizaciones de confianza y los usuarios anónimos esperan en la sala de espera. Esta es la configuración predeterminada.           |
 |**Solo organizador**    |Solo los organizadores de la reunión se pueden unir a la reunión directamente sin tener que esperar en la sala de espera. Todos los usuarios, incluidos los usuarios autenticados de la organización, los invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera.           |
-|**Usuarios en mi organización**  |Los usuarios autenticados en la organización, excluidos los usuarios invitados, pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Los invitados y los usuarios de organizaciones de confianza y los usuarios anónimos aguardan en la sala de espera.|
+|**Usuarios en mi organización**  |Los usuarios autenticados de la organización, excluidos los usuarios invitados, se unen a la reunión directamente sin tener que esperar en la sala de espera. Los invitados y los usuarios de organizaciones de confianza y los usuarios anónimos esperan en la sala de espera.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de espera
 

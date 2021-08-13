@@ -10,34 +10,34 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Las reglas de normalización de Skype Empresarial Server .NET Framework expresiones regulares para traducir números de teléfono marcados al formato E.164; en otras palabras, las reglas de normalización toman el número de teléfono marcado por un usuario y convierten ese número al formato usado internamente por Skype Empresarial Server. Cada plan de marcado debe tener asignadas una o más reglas de normalización.
-ms.openlocfilehash: 1be34e5c40a4da4e9def4de294ece134f2fe229d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype Empresarial Server de normalización usan .NET Framework regulares para traducir números de teléfono marcados al formato E.164; en otras palabras, las reglas de normalización toman el número de teléfono marcado por un usuario y convierten ese número al formato usado internamente por Skype Empresarial Server. Cada plan de marcado debe tener asignadas una o más reglas de normalización.
+ms.openlocfilehash: bb229760bd8f41086211245e8e7090453fa8985abb72dc721b249c5c5df81238
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120922"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333442"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definición de reglas de normalización en Skype Empresarial Server
 
-Las reglas de normalización de Skype Empresarial Server .NET Framework expresiones regulares para traducir números de teléfono marcados al formato E.164; en otras palabras, las reglas de normalización toman el número de teléfono marcado por un usuario y convierten ese número al formato usado internamente por Skype Empresarial Server. Cada plan de marcado debe tener asignadas una o más reglas de normalización.
+Skype Empresarial Server de normalización usan .NET Framework regulares para traducir números de teléfono marcados al formato E.164; en otras palabras, las reglas de normalización toman el número de teléfono marcado por un usuario y convierten ese número al formato usado internamente por Skype Empresarial Server. Cada plan de marcado debe tener asignadas una o más reglas de normalización.
 
 Para obtener más información sobre las reglas de normalización, vea [Planes de marcado y reglas de normalización.](/previous-versions/office/lync-server-2013/lync-server-2013-dial-plans-and-normalization-rules)
 
 Para obtener más información sobre cómo escribir expresiones regulares, [vea .NET Framework Regular Expressions](/dotnet/standard/base-types/regular-expressions).
 
 Puede usar cualquiera de los siguientes métodos para definir o editar una regla de normalización:
-- Use la herramienta Crear una regla de [ **normalización**](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) para especificar los valores de los dígitos iniciales, la longitud, los dígitos que se quitarán y los dígitos que se agregarán y, a continuación, deje que el Panel de control de Skype Empresarial Server genere el patrón de coincidencia y la regla de traducción correspondientes.
+- Use la herramienta Crear una regla de [ **normalización**](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) para especificar los valores de los dígitos iniciales, la longitud, los dígitos que se quitarán y los dígitos que se agregarán y, a continuación, deje que Skype Empresarial Server Panel de control genere el patrón y la regla de traducción correspondientes.
 - [Escriba expresiones regulares manualmente](#create-or-modify-a-normalization-rule-manually) para definir el patrón de coincidencia y la regla de traducción. 
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>Crear o modificar una regla de normalización mediante Crear una regla de normalización
 
-Complete los pasos siguientes si desea crear o modificar una regla de normalización en el Panel de control de Skype Empresarial Server. 
+Complete los pasos siguientes si desea crear o modificar una regla de normalización en el Panel de control Skype Empresarial Server normalización. 
 
 **Para definir una regla mediante Generar regla de normalización**
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, vea [Delegate setup permissions](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions).
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control de Skype Empresarial, vea [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control Skype Empresarial, vea [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. (Opcional) Siga los pasos descritos en [Create a dial plan](../../deploy/deploy-enterprise-voice/dial-plans.md#to-create-a-dial-plan) through step 11 o Modify a dial [plan](../../deploy/deploy-enterprise-voice/dial-plans.md#to-modify-a-dial-plan) through step 10. 
 4. En **Nueva regla de normalización** o **Editar regla de normalización**, escriba un nombre que describa el patrón numérico que se normalizará en **Nombre** (por ejemplo, **Extension5digitos**).
 5. (Opcional) En **Descripción**, escriba una descripción de la regla de normalización (por ejemplo, "Convierte extensiones de 5 dígitos").
@@ -55,7 +55,7 @@ Complete los pasos siguientes si desea crear o modificar una regla de normalizac
     - Un valor que represente la cantidad de dígitos especificada en el patrón de coincidencia. Por ejemplo, si el patrón de coincidencia es **^(\d {7} )$**, $1 en la regla de traducción representa números marcados de 7 dígitos.
     - (Opcional) Escriba un valor en el campo **Dígitos que se agregarán** para especificar los dígitos que se agregarán al principio del número convertido (por ejemplo, **+1425**).
     
-    Por ejemplo, si **Pattern to match** contiene **^(\d {7} )$** como el patrón para números marcados y la regla de traducción contiene **+1425$1** como patrón para números de teléfono E.164, la regla normaliza 5550100 a +1425550100. 
+    Por ejemplo, si **Pattern to match** contiene **^(\d {7} )$** como el patrón para números marcados y la regla de traducción contiene **+1425$1** como patrón para números de teléfono E.164, la regla normaliza 5550100 a +14255550100. 
 
 8. (Opcional) Si la regla de normalización da un número de teléfono interno de la organización, seleccione **Extensión interna**.
 9. (Opcional) Especifique un número para probar la regla de normalización y después haga clic en **Ir**. Los resultados de la prueba se muestran en **Introducir un número para probarlo**.
@@ -75,7 +75,7 @@ Siga los pasos que se muestran a continuación si desea crear o modificar manual
 **Para definir una regla de normalización de forma manual**
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, vea [Delegate setup permissions](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions).
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control de Skype Empresarial, vea [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control Skype Empresarial, vea [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. (Opcional) Siga los pasos descritos en [Create a dial plan](GET LINK AFTER MIGRATION) through step 11 o Modify a dial [plan](GET LINK AFTER MIGRATION) through step 10.  
 4. En **Nueva regla de normalización** o **Editar regla de normalización**, escriba un nombre que describa el patrón numérico que se normalizará en **Nombre** (por ejemplo, llame a la regla de normalización **Extension5digitos**).
 5. (Opcional) En **Descripción**, escriba una descripción de la regla de normalización (por ejemplo, "Convierte extensiones de 5 dígitos").
@@ -84,7 +84,7 @@ Siga los pasos que se muestran a continuación si desea crear o modificar manual
     - En **Hacer coincidir este patrón**, especifique el patrón que desee usar para obtener como resultado el número de teléfono marcado.
     - En **Regla de conversión**, especifique un patrón para el formato de los números de teléfono E.164 convertidos.
 
-    Por ejemplo, si escribe **^(\d {7} )$** en Coincidir con este patrón y **+1425$1** en la regla de **traducción,** la regla normaliza 5550100 a +1425550100. 
+    Por ejemplo, si escribe **^(\d {7} )$** en Coincidir con este patrón y **+1425$1** en la regla de **traducción,** la regla normaliza 5550100 a +14255550100. 
 
 8. (Opcional) Si la regla de normalización da un número de teléfono interno de la organización, seleccione **Extensión interna**.
 9. (Opcional) Especifique un número para probar la regla de normalización y después haga clic en **Ir**. Los resultados de la prueba se muestran en **Introducir un número para probarlo**.

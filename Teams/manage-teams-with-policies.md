@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319953"
 ---
 # <a name="manage-teams-with-policies"></a>Administrar Teams con directivas
 
@@ -52,9 +52,9 @@ Además, se puede usar una directiva de reunión para controlar la configuració
 
 ### <a name="teams-for-education"></a>Teams para el ámbito educativo
 
-También puede usar el asistente [Teams](easy-policy-setup-edu.md) directivas de educación para configurar y administrar fácilmente directivas para su entorno de aprendizaje.
+También puede usar el asistente Teams para Educación de directivas [para](easy-policy-setup-edu.md) configurar y administrar fácilmente directivas para su entorno de aprendizaje.
 
-![Captura de pantalla Teams asistente para directivas de educación.](media/easy-policy-setup-quick-setup.png)
+![Captura de pantalla del Teams para Educación de directivas.](media/easy-policy-setup-quick-setup.png)
 
 ## <a name="types-of-policies"></a>Tipos de directivas
 
@@ -74,4 +74,4 @@ Tipo de directiva | Descripción
 * [Administrar directivas de comentarios en Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Administrar directivas de equipos en Microsoft Teams](teams-policies.md)
 * [Definir eventos en directo en Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
-* [Teams directivas y paquetes de directivas para el sector educativo](policy-packages-edu.md)
+* [Teams para Educación directivas y paquetes de directivas](policy-packages-edu.md)

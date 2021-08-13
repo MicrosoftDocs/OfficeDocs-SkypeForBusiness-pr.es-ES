@@ -13,23 +13,23 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumen: lea este tema para obtener información sobre cómo implementar el Administrador de estadísticas para Skype Empresarial Server.'
-ms.openlocfilehash: 406f4188347d32111bea4952815237b7f1015574
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105386"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333262"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implementar el administrador de estadísticas para Skype Empresarial Server
  
 **Resumen:** Lea este tema para obtener información sobre cómo implementar el Administrador de estadísticas para Skype Empresarial Server.
   
- El Administrador de estadísticas de Skype Empresarial Server es una herramienta eficaz que le permite ver datos de rendimiento y estado de Skype Empresarial Server en tiempo real. Puede sondear los datos de rendimiento en cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio web del Administrador de estadísticas.
+ Statistics Manager for Skype Empresarial Server es una herramienta eficaz que le permite ver Skype Empresarial Server datos de rendimiento y estado en tiempo real. Puede sondear los datos de rendimiento en cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio web del Administrador de estadísticas.
   
-Antes de intentar instalar el Administrador de estadísticas, asegúrese de que está familiarizado con los requisitos de software, redes y hardware. Para obtener más información, vea [Plan for Statistics Manager for Skype for Business Server](plan.md).
+Antes de intentar instalar el Administrador de estadísticas, asegúrese de que está familiarizado con los requisitos de software, redes y hardware. Para obtener más información, vea [Plan for Statistics Manager for Skype Empresarial Server](plan.md).
   
 > [!NOTE]
-> Si va a actualizar desde una versión anterior del Administrador de estadísticas, vea [Upgrade Statistics Manager for Skype for Business Server](upgrade.md). 
+> Si va a actualizar desde una versión anterior del Administrador de estadísticas, vea [Upgrade Statistics Manager for Skype Empresarial Server](upgrade.md). 
   
 > [!NOTE]
 > El sitio web del Administrador de estadísticas se ha probado y funciona correctamente en Internet Explorer 11+, Edge 20.10240+ y Chrome 46+ (versión perenne actual). 
@@ -55,12 +55,12 @@ Para implementar el Administrador de estadísticas, siga estos pasos:
     
 3. Instale el sitio web en el equipo host.
     
-4. Instale un agente en cada equipo de Skype Empresarial Server que desee supervisar.
+4. Instale un agente en cada Skype Empresarial Server equipo que desee supervisar.
     
 5. Importe la topología de los servidores que está supervisando.
     
 > [!NOTE]
-> Redis, el servicio de escucha y el sitio web deben instalarse en el mismo equipo host. Asegúrese de que el equipo host no tenga instalado Skype Empresarial Server. 
+> Redis, el servicio de escucha y el sitio web deben instalarse en el mismo equipo host. Asegúrese de que el equipo host no tiene Skype Empresarial Server instalado. 
   
 ### <a name="prepare-the-listener-host-machine"></a>Preparar el equipo host de escucha
 
@@ -126,7 +126,7 @@ Para validar la instalación, siga estos pasos:
     
 ### <a name="install-the-website"></a>Instalar el sitio web
 
-Instale el sitio web en el equipo host ejecutando el StatsManWebSite.msi (incluido con Skype Empresarial Server, administrador de estadísticas de [Real-Time (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)y especificando lo siguiente:
+Instale el sitio web en el equipo host ejecutando el StatsManWebSite.msi (incluido con [Skype Empresarial Server, Real-Time Statistics Manager (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)y especificando lo siguiente:
   
 1. Revise el Contrato de licencia y, si está de acuerdo, seleccione **Acepto** los términos del contrato de licencia y, a continuación, haga clic en **Siguiente**. 
     
@@ -179,13 +179,13 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>Importar la topología
 <a name="BKMK_ImportTopology"> </a>
 
-Después de instalar y ejecutar el Administrador de estadísticas, debe importar la topología de Skype Empresarial Server para que el Administrador de estadísticas conozca el sitio, el grupo y el rol de cada servidor. Para importar la topología de Skype Empresarial Server, usará el cmdlet [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) para recuperar información sobre cada grupo de servidores en uso en su organización y, a continuación, importar esta información en el Administrador de estadísticas.
+Después de instalar y ejecutar el Administrador de estadísticas, debe importar la topología Skype Empresarial Server para que el Administrador de estadísticas conozca el sitio, el grupo y el rol de cada servidor. Para importar la topología Skype Empresarial Server, usará el cmdlet [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) para recuperar información sobre cada grupo de servidores en uso en su organización y, a continuación, importar esta información al Administrador de estadísticas.
   
-Para importar la topología de Skype Empresarial Server, siga estos pasos:
+Para importar la topología Skype Empresarial Server, siga estos pasos:
   
-1. En un host que tenga los cmdlets de PowerShell de Skype Empresarial Server:
+1. En un host que tenga el Skype Empresarial Server cmdlets de PowerShell:
     
-    a. Ejecute el siguiente comando: 
+    a. Ejecute el comando siguiente: 
     
    ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
@@ -228,7 +228,7 @@ Si desea supervisar servidores que no están en la topología de Skype Empresari
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
-2. Ejecute el siguiente comando:
+2. Ejecute el comando siguiente:
     
    ```powershell
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
@@ -267,7 +267,7 @@ Si un agente no se inicia, compruebe lo siguiente:
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-Para obtener información sobre todos los eventos que puede ver en el registro de eventos de la aplicación, vea [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md).
+Para obtener información sobre todos los eventos que puede ver en el registro de eventos de la aplicación, vea [Troubleshoot Statistics Manager for Skype Empresarial Server](troubleshoot.md).
   
 ## <a name="create-a-self-signed-certificate"></a>Crear un certificado autofirmado
 <a name="BKMK_SelfCert"> </a>
@@ -286,7 +286,7 @@ Microsoft recomienda encarecidamente que use un certificado firmado por una enti
     
 4. Haga clic con el botón **secundario en StatsManListener: \> Todas las tareas: Administrar claves \> privadas...**
     
-5. Haga clic en **Agregar**.
+5. Seleccione **Agregar**.
     
 6. En el **cuadro Escriba los nombres de objeto que desea** seleccionar, escriba lo siguiente: Servicio de red
     
@@ -305,4 +305,4 @@ Para obtener más información, vea los artículos siguientes:
     
 - [Actualizar el administrador de estadísticas para Skype Empresarial Server](upgrade.md)
     
-- [Solucionar problemas del Administrador de estadísticas para Skype Empresarial Server](troubleshoot.md) ß
+- [Solucionar problemas del Administrador de estadísticas Skype Empresarial Server](troubleshoot.md) ß

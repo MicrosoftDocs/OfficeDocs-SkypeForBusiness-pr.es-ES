@@ -17,12 +17,12 @@ description: Los conectores mantienen su equipo al día haciendo llegar contenid
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0f0c063e9e92778e5c3f0c869d40f1a569a01c1e
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 63dc00716afebf7e9789430b339c6a32e7d414f95852b832168370e12a86628f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278663"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318616"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Use Microsoft 365 y conectores personalizados en Microsoft Teams
 
