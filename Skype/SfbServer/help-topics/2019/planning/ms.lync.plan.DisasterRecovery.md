@@ -1,5 +1,5 @@
 ---
-title: Recuperación ante desastres (Herramienta de planeación)
+title: Recuperación ante desastres (herramienta de planeación)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,17 +16,17 @@ localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Empresarial Server incluye medidas de recuperación ante desastres al permitirle emparejar grupos de servidores front-end ubicados en dos centros de datos.
-ms.openlocfilehash: 67f6842faa2b28e5a8c7606bb7ab639716693985
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cb361ee6d008b5b15169b976cd47bef0f0b0f693180b78a173392de3768a06a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801090"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304212"
 ---
-# <a name="disaster-recovery-planning-tool"></a>Recuperación ante desastres (Herramienta de planeación)
+# <a name="disaster-recovery-planning-tool"></a>Recuperación ante desastres (herramienta de planeación)
  
 Skype Empresarial Server incluye medidas de recuperación ante desastres al permitirle emparejar grupos de servidores front-end ubicados en dos centros de datos.
   
-Para obtener más información sobre cómo preparar su entorno para la recuperación ante desastres, consulte [Plan for high availability and disaster recovery in Skype for Business Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Para obtener más información sobre cómo preparar el entorno para la recuperación ante desastres, vea [Plan for high availability and disaster recovery in Skype Empresarial Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 

@@ -1,5 +1,5 @@
 ---
-title: Usar panel de calidad de llamadas para Skype Empresarial Server
+title: Use el Panel de calidad de llamadas para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumen: obtenga información sobre cómo usar el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: d4787671955159d2bef0144872c50caccbbbb8eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a2f5cbe503f914fe32b42119397be44ab82617cddd9951ab7064a2d08c0289f4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098966"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317585"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar panel de calidad de llamadas para Skype Empresarial Server
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Use el Panel de calidad de llamadas para Skype Empresarial Server
 
 **Resumen:** Obtenga información sobre cómo usar el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
 
@@ -28,7 +28,7 @@ El Panel de calidad de llamadas (CQD) permite a los profesionales de TI usar dat
 
 ## <a name="call-quality-dashboard-user-guide"></a>Guía del usuario del panel de calidad de llamadas
 
-CQD es un portal web para crear y organizar rápidamente informes basados en datos de calidad de experiencia (QoE). CQD implementa un cubo SSAS para agregar los datos en la base de datos de métricas de QoE y permite a los administradores crear y modificar informes o realizar investigaciones en tiempo real. Aunque es posible usar Excel para conectarse directamente al cubo, el portal está optimizado para varios flujos de trabajo que implican datos de QoE. Los datos incluyen:
+CQD es un portal web para crear y organizar rápidamente informes basados en datos de calidad de experiencia (QoE). CQD implementa un cubo SSAS para agregar los datos en la base de datos de métricas de QoE y permite a los administradores crear y modificar informes o realizar investigaciones en tiempo real. Aunque es posible usar Excel conectarse directamente al cubo, el portal está optimizado para varios flujos de trabajo que implican datos de QoE. Los datos incluyen:
 
 - Datos de informe almacenados en caché para un acceso rápido
 - Vínculos profundos a páginas de informes para compartir y publicar información
@@ -53,9 +53,9 @@ Mueva el mouse sobre los gráficos de barras y las líneas de tendencia para mos
 
 Cuando accede por primera vez al portal del Panel de calidad de llamadas, se crea automáticamente un conjunto predeterminado de informes. Estos informes a veces se conocen como informes del sistema. Puede modificar o eliminar libremente estos informes o extenderlos mediante la creación de nuevos informes secundarios y del mismo nivel.
 
-En el nivel superior, el informe "Tendencia mensual de secuencias de audio" muestra la tendencia mensual de todas las secuencias de audio. Mueva el mouse sobre las barras de un gráfico de barras para mostrar una vista más detallada de los datos representados por el gráfico de barras. Haga clic en el título del informe de tendencias mensuales de secuencias de audio para ir al informe "Secuencias de audio administradas frente a no administradas", donde los informes se dividen entre llamadas administradas y no administradas. Las llamadas administradas son llamadas realizadas desde dentro del firewall corporativo a través de conexiones cableadas. Las llamadas no administradas incluyen llamadas realizadas desde fuera del firewall corporativo y todas las llamadas realizadas a través de Wi-Fi.
+En el nivel superior, el informe "Tendencia Secuencias mensual" muestra la tendencia mensual de todas las secuencias de audio. Mueva el mouse sobre las barras de un gráfico de barras para mostrar una vista más detallada de los datos representados por el gráfico de barras. Haga clic en el título del informe de tendencias mensuales de Audio Secuencias para ir al informe "Managed vs Unmanaged Audio Secuencias", donde los informes se dividen entre llamadas administradas y no administradas. Las llamadas administradas son llamadas realizadas desde dentro del firewall corporativo a través de conexiones cableadas. Las llamadas no administradas incluyen llamadas realizadas desde fuera del firewall corporativo y todas las llamadas realizadas a través de Wi-Fi.
 
-El otro informe de nivel superior se denomina "Histograma de clasificación de calidad de llamada notificado por el usuario". Las clasificaciones de calidad de llamadas son los números que los usuarios de Skype Empresarial dan al final de una llamada para indicar la calidad de la llamada. Los números de clasificación oscilan entre 1 y 5, 1 es el peor y 5 es el mejor. El histograma muestra el número de llamadas de audio que tenían la clasificación indicada en un mes.
+El otro informe de nivel superior se denomina "Histograma de clasificación de calidad de llamada notificado por el usuario". Clasificaciones de calidad de llamadas son los números que Skype Empresarial usuarios al final de una llamada para indicar la calidad de la llamada. Los números de clasificación oscilan entre 1 y 5, 1 es el peor y 5 es el mejor. El histograma muestra el número de llamadas de audio que tenían la clasificación indicada en un mes.
 
 Haga clic en el título de cualquiera de los informes para navegar a los informes con más filtros en los datos. En los informes del sistema, cada informe secundario muestra un subconjunto de los datos disponibles en su informe primario. El modelo de solución de problemas es sencillo: investigar a qué subinforme se limitan los datos o tendencias que sugieren un problema y reducir gradualmente el espacio del problema. La capacidad de crear subinformes le permite investigar sus propias conjeturas sobre la causa de tendencias de datos específicas.
 
@@ -103,7 +103,7 @@ Los datos usados para estas tablas se definen de la siguiente manera:
 
 **CqdBuilding**
 
-|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
 |BuildingKey |Entero |No |Clave principal de la tabla CqdBuilding. |
 |BuildingName |varchar(80) |No |Nombre del edificio. |
@@ -123,7 +123,7 @@ Los datos usados para estas tablas se definen de la siguiente manera:
 
 **CqdNetwork**
 
-|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
 |Red |varchar(25) |No |Dirección de subred. |
 |NetworkRange |tinyint |Sí |Máscara de la subred. |
@@ -136,7 +136,7 @@ De forma predeterminada, esta tabla siguiente tiene una entrada (0, "Desconocido
 
 **CqdBuildingType**
 
-|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId |Entero |No |Clave principal de la tabla CqdBuildingType. |
 |BuildingTypeDesc |char(18) |No |Descripción del tipo de creación. |
@@ -146,19 +146,19 @@ De forma predeterminada, esta tabla siguiente tiene una entrada (0, 'Unknown', 0
 
 **CqdBuildingOwnershipType**
 
-|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
 |OwnershipTypeId |Entero |No |Clave principal de la tabla CqdBuildingOwnershipType. |
 |OwnershipTypeDesc |varchar(25) |No |Descripción del tipo de propiedad. |
 |LeaseInd |tinyint |Sí |Índice que hace referencia a otra fila de la tabla CqdBuildingOwnershipType, que se usa para identificar los edificios arrendados. |
-|Owner |varchar(50) |Sí |Propietario del edificio. |
+|Propietario |varchar(50) |Sí |Propietario del edificio. |
 |||||
 
 De forma predeterminada, esta tabla siguiente tiene una entrada (0, 'Unknown', 0, null).
 
 **CqdBssid**
 
-|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
 |bss |nvarchar(50) |No |Clave principal para la tabla CqdBssid. Es el BSSID del punto de acceso WiFi. |
 |ess |nvarchar(50) |Sí |Información del controlador de punto de acceso Wifi. |
@@ -167,14 +167,14 @@ De forma predeterminada, esta tabla siguiente tiene una entrada (0, 'Unknown', 0
 |Creación |nvarchar(500) |Sí |Nombre de edificio en el que se encuentra el punto de acceso WiFi. |
 ||||
 
-## <a name="cqd-streams"></a>Secuencias CQD
+## <a name="cqd-streams"></a>CQD Secuencias
 
 Una secuencia CQD se considera buena, mala o sin clasificar. CQM 1.5 ahora usa la siguiente definición de CQD:
 
 - Una secuencia deficiente es cualquier combinación de las métricas de llamadas deficientes más allá del umbral.
 - Cuando una secuencia de una llamada es deficiente, ambas secuencias de la llamada se marcan como deficientes. En las conferencias, cada participante se cuenta como una llamada única y se notifica de forma independiente de todas las demás.
 - Las secuencias sin clasificar son secuencias sin métricas de calidad (es decir, transacciones sintéticas o llamadas cortas).
-- Secuencias válidas = clientes que no son móviles
+- Valor Secuencias = clientes que no son móviles
 - Clasificador no se puede modificar
 
 **Definición o clasificador de llamadas deficientes**
@@ -222,9 +222,9 @@ Una consulta bien formada contiene los tres parámetros siguientes:
 
 - Medida
 - Dimension
-- Filter
+- Filtro
 
-Un ejemplo de una consulta bien formada sería "Show me Poor Streams [Measurement] by Subnet [Dimension] for Building 6 [Filter]".
+Un ejemplo de una consulta bien formada sería "Show me Poor Secuencias [Measurement] by Subnet [Dimension] for Building 6 [Filter]".
 
 ## <a name="what-does-union-do"></a>¿Qué hace UNION?
 
@@ -240,9 +240,9 @@ Si la tecnología inalámbrica se administra internamente, puede volver a crear 
 
 ## <a name="operational-processes"></a>Procesos operativos
 
-Revise y corrija primero las secuencias administradas. La calidad en esta área debe estar al 100 % dentro del control y, por lo tanto, es más fácil de corregir.
+Revise y corrija primero los Secuencias administrados. La calidad en esta área debe estar al 100 % dentro del control y, por lo tanto, es más fácil de corregir.
 
-### <a name="managed-streams"></a>Secuencias administradas
+### <a name="managed-streams"></a>Managed Secuencias
 
 Revise y corrija secuencias administradas en el siguiente orden:
 
@@ -250,7 +250,7 @@ Revise y corrija secuencias administradas en el siguiente orden:
 2. Server-Wired-Inside
 3. Wired-Wired-Inside
 
-### <a name="unmanaged-streams"></a>Secuencias no administradas
+### <a name="unmanaged-streams"></a>No administrado Secuencias
 
 Revise y corrija secuencias no administradas en el siguiente orden:
 

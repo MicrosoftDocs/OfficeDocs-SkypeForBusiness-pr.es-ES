@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 'Para especificar los detalles del sitio para un sitio, haga lo siguiente:'
-ms.openlocfilehash: ce3101141d25279a4509c7980800d0e3e2c3fd0c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 72f0641897e34ad7b42a6f1c9f49738d5e6b6895ab1b0d97ad06a90f8a91ae00
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303892"
 ---
 # <a name="add-branch-site-details"></a>Agregar detalles de sucursal
 

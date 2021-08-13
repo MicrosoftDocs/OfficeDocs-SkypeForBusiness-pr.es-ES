@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: cc4d0de8fd1d6c643f23b6e8215f0f7a343b2a8f
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: b25a3126e697b30093f38148c43cf29e55ba776a4b2adca14a75779dcd4dc8c8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777811"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315396"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -139,11 +139,11 @@ El formato necesario para introducir la extensión en el campo de número de tel
 - *+\<phone number>x\<extension>*
 - *x\<extension>*
 
-- Ejemplo 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+1555555678;ext=5678"
+- Ejemplo 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
 - Ejemplo 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+1555555678x5678"
 - Ejemplo 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-Puede establecer la extensión en el centro [Microsoft 365 de administración](https://admin.microsoft.com/) o en el Azure Active Directory de [administración.](https://aad.portal.azure.com) Los operadores automáticos y las colas de llamadas pueden tardar hasta 12 horas en estar disponibles para los cambios.
+Puede establecer la extensión en el centro [de Centro de administración de Microsoft 365](https://admin.microsoft.com/) o Azure Active Directory [de administración.](https://aad.portal.azure.com) Los operadores automáticos y las colas de llamadas pueden tardar hasta 12 horas en estar disponibles para los cambios.
 
 > [!NOTE]
 > Si desea usar las  características Marcar  por nombre y Marcar por extensión, puede asignar una clave de marcado al operador automático principal para que llegue a un operador automático habilitado para Marcar **por nombre.** Dentro de ese operador automático, puede asignar la tecla 1 (que no tiene letras asociadas) para que llegue al operador automático Marcar por **extensión.**

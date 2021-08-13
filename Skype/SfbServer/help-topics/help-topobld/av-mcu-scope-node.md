@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores y los grupos de servidores asociados para este grupo de servidores de conferencias A/V. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 6c74485692a7eaafde3c2b2079c4db2a3ee15c5f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6d6669d45c95acc419cdf8ad00d0760392ed8f5c77b2a961565fe4c2b308b029
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833300"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315756"
 ---
 # <a name="av-mcu-scope-node"></a>Nodo de ámbito MCU AV
  

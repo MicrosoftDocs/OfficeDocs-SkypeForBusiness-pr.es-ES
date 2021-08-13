@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Las propiedades del servidor front-end o del grupo de servidores front-end se modifican o configuran los atributos siguientes. La página de configuración consta de las secciones siguientes:'
-ms.openlocfilehash: 63c784cbd254decdb108d8d8408cd01ef44657a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c0174d6a0badadc217119b5b2ea1028bc01367278739d5b6b03bb4ae83c0f21d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118629"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315766"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general front-end para Lync Server 2010
 
@@ -39,15 +39,15 @@ Las propiedades del servidor front-end o del grupo de servidores front-end se mo
 
     **Características y funcionalidad**
 
-- **Conferencia**: seleccione esta casilla de verificación si desea tener características de conferencia en la implementación. La conferencia incluye, audio, vídeo, recurso compartido de aplicaciones y escritorio y conferencia web. Deberá crear y asociar una conferencia web de Office Web Apps Server (definida más adelante en esta página Propiedades).
+- **Conferencia**: seleccione esta casilla de verificación si desea tener características de conferencia en la implementación. La conferencia incluye, audio, vídeo, recurso compartido de aplicaciones y escritorio y conferencia web. Deberá crear y asociar un servidor Office Web Apps Server para conferencia web (definido más adelante en esta página Propiedades).
 
 - Si ha seleccionado Conferencia, puede seleccionar **Conferencia de acceso telefónico local (RTC)**. Seleccione la casilla de verificación para habilitar las características de conferencia de acceso telefónico local.
 
-- Active la casilla **Telefonía IP empresarial** si desea implementar características para permitir que Lync Server 2013 actúe como su sistema de voz telefónico mediante tecnologías de voz sobre IP (VoIP), incluida la opción de implementar teléfonos de teléfono, troncos SIP o conectividad de red telefónica conmutada con servidor de mediación, puertas de enlace RTC e IP-PBX, en combinación o solo, según el diseño y los requisitos. Para obtener más información Telefonía IP empresarial, vea [Telefonía IP empresarial](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) [y Plan for Telefonía IP empresarial in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Active la casilla **Telefonía IP empresarial** si desea implementar características para permitir que Lync Server 2013 actúe como su sistema de voz telefónico mediante tecnologías de voz sobre IP (VoIP), incluida la opción de implementar teléfonos de teléfono, troncos SIP o conectividad de red telefónica conmutada con servidor de mediación, puertas de enlace RTC e IP-PBX, en combinación o solo, según el diseño y los requisitos. Para obtener más información Telefonía IP empresarial, vea [Telefonía IP empresarial](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) [y Plan for Telefonía IP empresarial in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Asociaciones**
 
-- **SQL Server:** el FQDN de la SQL Server (y, opcionalmente, una instancia con nombre) asociada con el servidor front-end o el grupo de servidores front-end. Seleccione el almacén SQL Server de la lista o cree un nuevo almacén SQL Server haciendo clic en **Nuevo**
+- **SQL Server:** el FQDN de la SQL Server (y opcionalmente una instancia con nombre) asociada con el servidor front-end o el grupo de servidores front-end. Seleccione el almacén SQL Server de la lista o cree un nuevo almacén SQL Server haciendo clic en **Nuevo**
 
 - **Almacén** de archivos: seleccione el FQDN del servidor y el recurso compartido (con el formato ) que actuará como la ubicación del almacén de archivos para los archivos compartidos que Lync Server 2013 crea y usa para replicación, directorios de conferencia y otros  `\\<FQDN of server>\<share name>` fines. Seleccione el almacén de archivos de la lista o cree un nuevo almacén de archivos haciendo clic en **Nuevo**.
 
@@ -91,7 +91,7 @@ Las propiedades del servidor front-end o del grupo de servidores front-end se mo
     Si tiene más de una puerta de enlace asociada a un servidor de mediación, puede especificar la puerta de enlace predeterminada seleccionando la puerta de enlace que desea establecer como predeterminada y haciendo clic en **Hacer** predeterminado . Si decide eliminar la puerta de enlace que actualmente es la predeterminada, selecciónela y haga clic en **Eliminar predeterminado**.
 
 > [!IMPORTANT]
-> Si realiza cambios en las propiedades de este cuadro de diálogo, debe publicar la topología y ejecutar el Asistente para la implementación de Skype Empresarial Server en todos los servidores afectados. Después de publicar la nueva topología, se proporciona una lista de servidores afectados donde debe ejecutarse el Asistente para la implementación de Skype Empresarial Server como vínculo en la pantalla de resumen de publicación de topología correcta. Para más información sobre la topología actualizada, consulte [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Para obtener más información sobre el Asistente para la implementación de Skype Empresarial Server, vea [Lync Server Administrative Tools](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools).
+> Si realiza cambios en las propiedades de este cuadro de diálogo, debe publicar la topología y ejecutar el Asistente para Skype Empresarial Server implementación en todos los servidores afectados. Después de publicar la nueva topología, se proporciona una lista de servidores afectados en los que debe ejecutarse el Asistente para la implementación de Skype Empresarial Server como vínculo en la pantalla de resumen de publicación de topología correcta. Para más información sobre la topología actualizada, consulte [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Para obtener información detallada sobre Skype Empresarial Server de implementación, vea [Lync Server Administrative Tools](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools).
 
 Haga clic en **Aceptar** para guardar y confirmar los cambios en el documento de la topología.
 
@@ -99,6 +99,6 @@ Haga **clic en** Cancelar para descartar los cambios y cerrar las propiedades **
 
 Haga clic en **Ayuda** para leer este tema de la ayuda.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Definir y configurar un grupo de servidores front-end](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)

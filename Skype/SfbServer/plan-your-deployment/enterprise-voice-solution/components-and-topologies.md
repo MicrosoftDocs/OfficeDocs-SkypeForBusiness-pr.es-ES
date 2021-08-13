@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planeación del control de admisión de llamadas (CAC) si tiene una red MPLS, un tronco SIP o una puerta de enlace RTC o PBX de terceros. Se aplica a Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 771b98e10c28248bc917bff2b8128b6258c140c5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 33e13853e4c2ed9ab9cab328092f7bc44147607187c8f221993d88cb4114a6d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315556"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Componentes y topologías para el control de admisión de llamadas en Skype Empresarial
 
@@ -60,7 +60,7 @@ Para configurar el CAC en un tronco SIP, deberá realizar las siguientes tareas 
     > [!NOTE]
     > Para el ITSP, no funciona esta configuración de sitio de red. Los valores de la directiva de ancho de banda se aplican, en realidad, en el paso 2.
 
-2. Cree un vínculo entre sitios para el tronco SIP, usando los valores de los parámetros correspondientes al sitio que creó en el paso 1. Por ejemplo, use el nombre del sitio de red de su empresa como el valor del parámetro NetworkSiteID1 y el sitio de red ITSP como el valor del parámetro NetworkSiteID2. Para obtener más información, vea [Create network intersite policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) en la documentación sobre implementación y [New-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
+2. Cree un vínculo entre sitios para el tronco SIP, usando los valores de los parámetros correspondientes al sitio que creó en el paso 1. Por ejemplo, use el nombre del sitio de red de su empresa como el valor del parámetro NetworkSiteID1 y el sitio de red ITSP como el valor del parámetro NetworkSiteID2. Para obtener más información, vea [Create network intersite policies in Skype Empresarial Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) en la documentación sobre implementación y [New-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
 
 3. Obtiene la dirección IP del punto de terminación de medios del controlador de borde de sesión (SCB) de tu ITSP. Agregue esa dirección IP con una máscara de subred de 32 al sitio de red que representa al ITSP. Para ver más detalles, consulte [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site).
 
@@ -76,9 +76,9 @@ El CAC se puede implementar en el vínculo WAN desde la interfaz de puerta de en
 
 ![Caso 1: CAC entre la puerta de enlace RTC del servidor de mediación](../../media/CAC_gateways_1.jpg)
 
-En este ejemplo, el control de admisión de llamadas se aplica entre el servidor de mediación y una puerta de enlace RTC. Si un usuario cliente de Skype Empresarial en el sitio de red 1 hace una llamada RTC a través de la puerta de enlace RTC en el sitio de red 2, los medios fluyen a través del vínculo WAN. Por tanto, se llevan a cabo dos comprobaciones de control de admisión de llamadas para cada sesión RTC:
+En este ejemplo, el control de admisión de llamadas se aplica entre el servidor de mediación y una puerta de enlace RTC. Si un Skype Empresarial cliente en el sitio de red 1 hace una llamada RTC a través de la puerta de enlace RTC en el sitio de red 2, los medios fluyen a través del vínculo WAN. Por tanto, se llevan a cabo dos comprobaciones de control de admisión de llamadas para cada sesión RTC:
 
-- Entre la aplicación cliente de Skype Empresarial y el servidor de mediación
+- Entre la Skype Empresarial cliente y el servidor de mediación
 
 - Entre el servidor de mediación y la puerta de enlace RTC
 
@@ -101,9 +101,9 @@ Esta configuración es similar a la del Caso 1. En ambos casos, el servidor de m
 
 ![Caso 2: CAC entre PBX del servidor de mediación con MTP](../../media/CAC_gateways_2.jpg)
 
-En este ejemplo, el control de admisión de llamadas se aplica entre el servidor de mediación y el MTP o la PBX. Si un usuario cliente de Skype Empresarial en el sitio de red 1 hace una llamada RTC a través de la PBX/MTP ubicada en el sitio de red 2, los medios fluyen a través del vínculo WAN. Por tanto, se llevan a cabo dos comprobaciones de control de admisión de llamadas para cada sesión RTC:
+En este ejemplo, el control de admisión de llamadas se aplica entre el servidor de mediación y el MTP o la PBX. Si un usuario Skype Empresarial cliente en el sitio de red 1 hace una llamada RTC a través de la PBX/MTP ubicada en el sitio de red 2, el medio fluye a través del vínculo WAN. Por tanto, se llevan a cabo dos comprobaciones de control de admisión de llamadas para cada sesión RTC:
 
-- Entre la aplicación cliente de Skype Empresarial y el servidor de mediación
+- Entre la Skype Empresarial cliente y el servidor de mediación
 
 - Entre el servidor de mediación y la PBX o el MTP
 
@@ -126,7 +126,7 @@ El Caso 3 es ligeramente diferente a los dos primeros casos. Si no hay ningún M
 
 ![Caso 3: CAC entre PBX del servidor de mediación sin MTP](../../media/CAC_gateways_3.jpg)
 
-En este ejemplo, si un usuario cliente de Skype Empresarial en el sitio de red 1 realiza una llamada a un usuario a través de la PBX, el servidor de mediación solo puede realizar comprobaciones de CAC en el tramo de proxy (entre la aplicación cliente de Skype Empresarial y el servidor de mediación). Dado que el servidor de mediación no tiene información sobre el dispositivo del extremo, durante el proceso de solicitud de la sesión, no pueden realizarse comprobaciones de control de admisión de llamadas en el vínculo WAN (entre el servidor de mediación y el extremo de terceros) antes del establecimiento de llamada. Sin embargo, una vez establecida la sesión, el servidor de mediación facilita la cantidad de ancho de banda usada en el tronco.
+En este ejemplo, si un usuario cliente de Skype Empresarial en el sitio de red 1 realiza una llamada a un usuario a través de la PBX, el servidor de mediación solo puede realizar comprobaciones de CAC en el grupo de servidores proxy (entre la aplicación cliente de Skype Empresarial y el servidor de mediación). Dado que el servidor de mediación no tiene información sobre el dispositivo del extremo, durante el proceso de solicitud de la sesión, no pueden realizarse comprobaciones de control de admisión de llamadas en el vínculo WAN (entre el servidor de mediación y el extremo de terceros) antes del establecimiento de llamada. Sin embargo, una vez establecida la sesión, el servidor de mediación facilita la cantidad de ancho de banda usada en el tronco.
 
 Para las llamadas realizadas desde el extremo de terceros, la información sobre el dispositivo del extremo está disponible en el momento de la solicitud de la sesión y la comprobación de control de admisión de llamadas puede realizarse en ambas partes del servidor de mediación.
 

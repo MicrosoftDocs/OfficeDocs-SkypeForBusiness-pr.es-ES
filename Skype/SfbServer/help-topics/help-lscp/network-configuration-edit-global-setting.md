@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 6605f23a59106ed9ebba2f7c54b3ced471fc839f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 46d7f6c1ef6b71452f9420648f7558d45527e3f8b56c25c88304a9ac983a9c38
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099616"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304012"
 ---
 # <a name="network-configuration-edit-global-setting"></a>Configuración de red: Editar configuración global
 
@@ -30,4 +30,4 @@ ms.locfileid: "51099616"
 
 - [Habilitar la omisión de medios](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-network-media-bypass)
 
-Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype for Business Server 2015](../../manage/manage.md).
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype Empresarial Server 2015](../../manage/manage.md).

@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 'Resumen: obtenga información sobre cómo cambiar las directivas de archivado de usuarios para Skype Empresarial Server.'
-ms.openlocfilehash: 47c9d5938c22b93db48c96265831cbf24ecc24d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn how to change user archiving policies for Skype Empresarial Server.'
+ms.openlocfilehash: 571f32a4cf5fb0bddd006719f3a9886c852df3f7196adf774f554cda216ea0a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315716"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Cambiar una directiva de archivado existente en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo cambiar las directivas de archivado de usuarios para Skype Empresarial Server.
   
-Cuando implementa Skype Empresarial Server por primera vez, configura directivas de archivado iniciales que determinan cómo se implementa el archivado para los usuarios de su implementación. En este tema se describe cómo administrar y modificar directivas. 
+La primera vez que implemente Skype Empresarial Server, configure directivas de archivado iniciales que determinen cómo se implementa el archivado para los usuarios de la implementación. En este tema se describe cómo administrar y modificar directivas. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>Cambiar las directivas de archivado mediante el Panel de control
 
 1. Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
     
 3. En la barra de navegación izquierda, haga clic en **Configuración y archivado** y, a continuación, en **Directiva de archivado**.
     
@@ -50,21 +50,21 @@ Cuando implementa Skype Empresarial Server por primera vez, configura directivas
 6. Haga clic en **Confirmar**.
     
     > [!IMPORTANT]
-    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener más información, [consulte Aplicar una directiva de archivado a los usuarios de Skype Empresarial Server.](apply-a-policy-to-users.md) 
+    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener más información, [vea Apply an archiving policy to users in Skype Empresarial Server](apply-a-policy-to-users.md). 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Cambiar las directivas de archivado mediante Windows PowerShell
 
-También puede cambiar las directivas de archivado con Windows PowerShell **Cmdlet Set-CsArchivingPolicy.**
+También puede cambiar las directivas de archivado mediante el Windows PowerShell **cmdlet Set-CsArchivingPolicy.**
   
 ### <a name="enable-archiving-policies"></a>Habilitar directivas de archivado
 
-Para habilitar el archivado de sesiones de comunicación internas, establezca el valor del parámetro ArchiveInternal en True ($True): 
+Para habilitar el archivado de sesiones de comunicación interna, establezca el valor del parámetro ArchiveInternal en True ($True): 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
 ```
 
-Para habilitar el archivado de sesiones de comunicación externas, establezca el valor del parámetro ArchiveExternal en True ($True): 
+Para habilitar el archivado de sesiones de comunicación externa, establezca el valor del parámetro ArchiveExternal en True ($True): 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True

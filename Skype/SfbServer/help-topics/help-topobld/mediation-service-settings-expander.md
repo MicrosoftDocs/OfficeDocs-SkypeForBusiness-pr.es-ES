@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 description: 'Para Servidor de mediación, puede especificar lo siguiente:'
-ms.openlocfilehash: 60312afc4ab487be474eeef6a8432e3522058275
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c442971e64d31a3a009b602c4cf53387fc6a3fdfb038209854e52c427ec5570f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104426"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315746"
 ---
 # <a name="mediation-service-settings-expander"></a>Expansor de configuración del servidor de mediación
 
@@ -34,4 +34,4 @@ Defina las puertas de enlace de RTC asociadas con el servidor de mediación comb
 
 Si tiene asociada más de una puerta de enlace con un servidor de mediación, la primera puerta de enlace que esté asociada será la predeterminada. Si debe establecer como predeterminada otra puerta de enlace, seleccione la puerta de enlace correspondiente y haga clic en **Convertir en predeterminada**. Para anular la selección de la puerta de enlace como predeterminada, haga clic en **Anular como predeterminada**.
 
-Para obtener más información sobre cómo definir y configurar la configuración del grupo de servidores front-end Enterprise Edition o del servidor Standard Edition, vea [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) and [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
+Para obtener más información sobre cómo definir y configurar las opciones del grupo de servidores front-end de Enterprise Edition o el servidor Standard Edition, vea [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) and [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
