@@ -1,5 +1,5 @@
 ---
-title: Fase 3 Implementar grupo piloto de Skype Empresarial Server 2019
+title: Fase 3 Implementar Skype Empresarial Server grupo piloto de 2019
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
-description: En esta sección se deberán seguir los pasos necesarios para implementar un grupo piloto de Skype Empresarial Server 2019. La implementación de Skype Empresarial Server 2019 requiere el uso del Generador de topologías para definir la topología y los componentes que desea implementar, preparar el entorno para la implementación de los componentes de Skype Empresarial Server 2019, publicar el diseño de la topología en el primer servidor front-end y, a continuación, instalar y configurar el software de Skype Empresarial Server 2019 para los componentes de su implementación. Cuando se complete, la implementación del grupo piloto de Skype Empresarial Server 2019 coexistirá con un grupo heredado existente.
-ms.openlocfilehash: 53cbb0eca580a7dd70cf638a219615eafce8c14e
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: En esta sección se tratan los pasos necesarios para implementar un grupo piloto de Skype Empresarial Server 2019. La implementación de Skype Empresarial Server 2019 requiere usar el Generador de topologías para definir la topología y los componentes que desea implementar, preparar el entorno para la implementación de los componentes de Skype Empresarial Server 2019, publicar el diseño de topología en el primer servidor front Skype Empresarial Server-end y, a continuación, instalar y configurar un software de 2019 para los componentes de la implementación. Cuando se complete, la implementación Skype Empresarial Server grupo piloto de 2019 coexistirá con un grupo heredado existente.
+ms.openlocfilehash: e4ff2f9c28e01ada82fd827644e46542e18581bf8f1ff2e511883bc6bb27e96f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752352"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300576"
 ---
-# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>Fase 3: Implementar el grupo piloto de Skype Empresarial Server 2019
+# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>Fase 3: Implementar Skype Empresarial Server grupo piloto de 2019
 
-En esta sección se deberán seguir los pasos necesarios para implementar un grupo piloto de Skype Empresarial Server 2019. La implementación de Skype Empresarial Server 2019 requiere el uso del Generador de topologías para definir la topología y los componentes que desea implementar, preparar el entorno para la implementación de los componentes de Skype Empresarial Server 2019, publicar el diseño de la topología en el primer servidor front-end y, a continuación, instalar y configurar el software de Skype Empresarial Server 2019 para los componentes de su implementación. Cuando se complete, la implementación del grupo piloto de Skype Empresarial Server 2019 coexistirá con un grupo heredado existente.
+En esta sección se tratan los pasos necesarios para implementar un grupo piloto de Skype Empresarial Server 2019. La implementación de Skype Empresarial Server 2019 requiere usar el Generador de topologías para definir la topología y los componentes que desea implementar, preparar el entorno para la implementación de los componentes de Skype Empresarial Server 2019, publicar el diseño de topología en el primer servidor front Skype Empresarial Server-end y, a continuación, instalar y configurar un software de 2019 para los componentes de la implementación. Cuando se complete, la implementación Skype Empresarial Server grupo piloto de 2019 coexistirá con un grupo heredado existente.
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -29,7 +29,7 @@ En esta sección se deberán seguir los pasos necesarios para implementar un gru
     
 - [Descargar una topología desde una implementación existente](download-topology-from-existing-deployment.md)
     
-- [Implementar el grupo piloto de Skype Empresarial Server 2019](deploy-pilot-pool.md)
+- [Implementar Skype Empresarial Server grupo piloto de 2019](deploy-pilot-pool.md)
     
 - [Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado](verify-pilot-pool-coexistence-with-legacy-pool.md)
     

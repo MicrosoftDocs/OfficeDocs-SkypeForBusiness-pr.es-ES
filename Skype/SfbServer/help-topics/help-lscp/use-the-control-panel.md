@@ -1,5 +1,5 @@
 ---
-title: Usar el Panel de control de Skype Empresarial Server 2015
+title: Usar el panel Skype Empresarial Server de control de 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 79eff02f-4bc1-4e3a-bac5-2043e19f781a
-description: Para obtener más información sobre los distintos procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial Server 2015.
-ms.openlocfilehash: 671852a267c9c7f04e531c5961f10df55651a10d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea Manage Skype Empresarial Server 2015.
+ms.openlocfilehash: a8a1dcbe1cd620807f1eb9f2af34fdcbae60784038fbaff9f0c0841ea81224d2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826760"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335210"
 ---
-# <a name="use-the-skype-for-business-server-2015-control-panel"></a>Usar el Panel de control de Skype Empresarial Server 2015
+# <a name="use-the-skype-for-business-server-2015-control-panel"></a>Usar el panel Skype Empresarial Server de control de 2015
  
-Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
+Para obtener información detallada sobre los diferentes procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, vea [Manage Skype Empresarial Server 2015](../../manage/manage.md).
   
 

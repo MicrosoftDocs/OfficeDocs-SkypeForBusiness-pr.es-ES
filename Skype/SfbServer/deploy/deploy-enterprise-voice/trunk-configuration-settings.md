@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
-description: 'Summary: Learn how to create a new collection of trunk configuration settings by using the Skype for Business Server Control Panel.'
-ms.openlocfilehash: e11a372573655bb2a381b81352c20e05fd54db08
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to create a new collection of trunk configuration settings by using the Skype Empresarial Server Control Panel.'
+ms.openlocfilehash: 2fc0a939a5f321254378ae93afe56015135d4f9873482d8489e06568651913e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103326"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297566"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Crear una nueva colección de opciones de configuración de tronco en Skype Empresarial Server 
 
-**Resumen:** Obtenga información sobre cómo crear una nueva colección de opciones de configuración de tronco mediante el Panel de control de Skype Empresarial Server.
+**Resumen:** Obtenga información sobre cómo crear una nueva colección de opciones de configuración de tronco mediante el panel Skype Empresarial Server control.
   
 Las opciones de configuración del tronco SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de red telefónica conmutada (RTC), una central de conmutación (PBX) de sucursal de IP-Public o un controlador de borde de sesión (SBC) en el proveedor de servicios. Estos valores determinan lo siguiente:
   
@@ -37,7 +37,7 @@ Las opciones de configuración del tronco SIP definen la relación y las capacid
     
 Al instalar Skype Empresarial Server, se crea una colección global de opciones de configuración de tronco SIP. Los administradores también pueden crear colecciones de valores personalizadas en el ámbito del sitio o servicio (solo para el servicio de puerta de enlace de RTC).
   
-Al crear opciones de configuración de tronco SIP con el Panel de control de Skype Empresarial Server, las siguientes opciones están disponibles.
+Al crear opciones de configuración de tronco SIP mediante Skype Empresarial Server Panel de control, las siguientes opciones están disponibles.
   
 |**Valor de IU**|**Parámetro de PowerShell**|**Descripción**|
 |:-----|:-----|:-----|
@@ -61,11 +61,11 @@ Al crear opciones de configuración de tronco SIP con el Panel de control de Sky
 |Número llamado  <br/> |N/D  <br/> |Indica que el número de teléfono que se debe probar es el número telefónico de la persona llamada.  <br/> |
    
 > [!NOTE]
-> Los cmdlets CsTrunkConfiguration de Skype Empresarial Server admiten propiedades adicionales que no se muestran en el Panel de control de Skype Empresarial Server. Para obtener más información, vea el tema de ayuda para el cmdlet [New-CsTrunkConfiguration.](/powershell/module/skype/new-cstrunkconfiguration?view=skype-ps)
+> Los cmdlets Skype Empresarial Server CsTrunkConfiguration admiten propiedades adicionales que no se muestran en Skype Empresarial Server Panel de control. Para obtener más información, vea el tema de ayuda para el cmdlet [New-CsTrunkConfiguration.](/powershell/module/skype/new-cstrunkconfiguration?view=skype-ps)
   
-### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para crear nuevas opciones de configuración de tronco mediante el Panel de control de Skype Empresarial Server
+### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para crear nuevas opciones de configuración de tronco mediante Skype Empresarial Server Panel de control
 
-1. En el Panel de control de Skype Empresarial Server, haga clic en **Enrutamiento** de voz y, a continuación, haga clic en **Configuración de tronco.**
+1. En Skype Empresarial Server panel de control, haga clic en **Enrutamiento de** voz y, a continuación, haga clic en Configuración **del tronco**.
     
 2. En la pestaña **Configuración de tronco**, haga clic en **Nuevo** y luego haga clic en **Tronco de sitio** para crear el nuevo parámetro en el ámbito del sitio o en **Tronco de grupo** para crear el nuevo parámetro en el ámbito del servicio.
     
@@ -77,4 +77,4 @@ Al crear opciones de configuración de tronco SIP con el Panel de control de Sky
     
 6. En el cuadro de diálogo **Configuración de voz sin confirmar**, haga clic en **Aceptar**.
     
-7. En el **cuadro de diálogo Panel de control de Skype Empresarial Server,** haga clic en **Aceptar**.
+7. En el **cuadro Skype Empresarial Server panel de control,** haga clic en **Aceptar**.

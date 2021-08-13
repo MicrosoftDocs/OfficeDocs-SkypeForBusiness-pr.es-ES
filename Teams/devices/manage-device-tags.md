@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a4f8ac718a965834678098a8960347278d13aa3
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: a264b6f2679576fac0eb95dbbfafa93037b98cfc3b5f5dfbfa9a07d6b6eeb3bc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875000"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321492"
 ---
 # <a name="manage-microsoft-teams-device-tags"></a>Administrar Microsoft Teams etiquetas de dispositivo
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Resumen: administrar la autenticación en dos fases en Skype Empresarial Server.'
-ms.openlocfilehash: 1b899dce829e016e60435584c18481d03810a876e7c8b85665b75b94574374b7
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: d73f088798938da6f5a87a8d21fa2922188f3bdc35e589dcda32b3f62747f0d2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849995"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297306"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Administrar la autenticación en dos fases en Skype Empresarial Server
  
@@ -36,7 +36,7 @@ Las actualizaciones acumulativas para Lync Server 2013: cliente de escritorio de
   
 ## <a name="topology-requirements"></a>Requisitos de topología
 
-Se recomienda a los clientes que implemente la autenticación en dos fases Skype Empresarial Server con grupos de servidores perimetrales, directores y usuarios. Para habilitar la autenticación pasiva para los usuarios, se deben deshabilitar otros métodos de autenticación para otros roles y servicios, incluidos los siguientes:
+Se recomienda encarecidamente a los clientes que implemente la autenticación en dos fases mediante Skype Empresarial Server dedicados con grupos de servidores perimetrales, directores y usuarios. Para habilitar la autenticación pasiva para los usuarios, se deben deshabilitar otros métodos de autenticación para otros roles y servicios, incluidos los siguientes:
   
 |**Tipo de configuración**|**Tipo de servicio**|**Rol del servidor**|**Tipo de autenticación que se deshabilitará**|
 |:-----|:-----|:-----|:-----|
@@ -53,7 +53,7 @@ Los registros DNS usados por clientes internos o externos para detectar los serv
   
 ## <a name="exchange-authentication"></a>Exchange Autenticación
 
-Los clientes que han implementado la autenticación en dos fases para Microsoft Exchange pueden encontrar que ciertas características del cliente no están disponibles. Este comportamiento es por diseño, ya que el cliente Skype Empresarial no admite la autenticación en dos fases para las características que dependen de Exchange integración.
+Los clientes que han implementado la autenticación en dos fases para Microsoft Exchange pueden encontrar que ciertas características del cliente no están disponibles. Esto es actualmente por diseño, ya que el cliente Skype Empresarial no admite la autenticación en dos fases para las características que dependen de Exchange integración.
   
 ## <a name="contacts"></a>Contactos
 
@@ -81,11 +81,11 @@ Si a los usuarios se les piden credenciales sin especificar antes de que se les 
   
 Para evitar el mensaje adicional de credenciales, cree la siguiente entrada del Registro en la estación de trabajo local o use la plantilla administrativa Skype Empresarial para aplicar a todos los usuarios de un grupo determinado mediante la directiva de grupo:
   
-HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
+    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
-REG_DWORD: DisableNTCredentials
-
-Valor: 0x0
+    REG_DWORD: DisableNTCredentials
+  
+    Value: 0x0
   
 ### <a name="savepassword"></a>SavePassword
 
@@ -93,11 +93,11 @@ Cuando un usuario inicia sesión Skype Empresarial por primera vez, se le pide q
   
 La configuración del Registro **SavePassword** debe deshabilitarse Skype Empresarial se configura para admitir la autenticación en dos fases. Para evitar que los usuarios guarden sus contraseñas, cambie la siguiente entrada del Registro en la estación de trabajo local o use la plantilla administrativa Skype Empresarial para aplicar a todos los usuarios de un grupo determinado mediante la directiva de grupo:
   
-HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
+    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
-REG_DWORD: SavePassword
+    REG_DWORD: SavePassword
   
-Valor: 0x0
+    Value: 0x0
   
 ## <a name="ad-fs-20-token-replay"></a>Reproducción de tokens de AD FS 2.0
 
@@ -105,10 +105,10 @@ AD FS 2.0 proporciona una característica denominada detección de reproducción
   
 Esta característica debe habilitarse en situaciones en las que la seguridad es una preocupación muy alta, como cuando se usan quioscos. Para obtener más información acerca de la detección de reproducción de tokens, vea Procedimientos recomendados para la planeación e implementación seguras de [AD FS 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10)).
   
-## <a name="guest-user-access"></a>Acceso de usuario invitado
+## <a name="external-user-access"></a>Acceso de usuarios externos
 
 La configuración de un proxy ADFS o proxy inverso para admitir Skype Empresarial autenticación en dos fases desde redes externas no se trata en estos temas.
   
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 [Configurar la autenticación en dos fases en Skype Empresarial Server](configure-two-factor.md)

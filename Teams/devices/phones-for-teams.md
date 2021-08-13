@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se trata la lista de teléfonos certificados para Microsoft Teams y las características compatibles con los teléfonos certificados para Microsoft Teams.
-ms.openlocfilehash: 2299c16bb3849119b93eb5e3e7d03f5ef6744430
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ab205a8a23b2cc83461cfcab047458fa4027db7e4257f95891caa0a5a6998ec9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321462"
 ---
 # <a name="phones-for-microsoft-teams"></a>Teléfonos para Microsoft Teams
 
@@ -67,7 +67,7 @@ Administre y mantenga sus teléfonos Teams actualizados con el centro Microsoft 
 
 ## <a name="upgrade-your-phones-to-teams-displays"></a>Actualizar los teléfonos a Teams pantallas
 
-[Microsoft Teams pantallas](teams-displays.md) son una categoría de dispositivos Teams dedicados todo en uno que incluyen una pantalla táctil ambiente y una experiencia manos libres con tecnología de Cortana. Con Teams pantallas, los usuarios pueden usar un micrófono, una cámara y unos altavoces (o Bluetooth auriculares) para una experiencia de reunión y llamadas confiables. Teams se integra con los equipos Windows los usuarios para aportar una experiencia complementaria que permite una interacción sin problemas entre dispositivos
+[Microsoft Teams pantallas](teams-displays.md) son una categoría de dispositivos de Teams dedicados todo en uno que cuentan con una pantalla táctil ambiente y una experiencia manos libres con tecnología de Cortana. Con Teams pantallas, los usuarios pueden usar un micrófono, una cámara y unos altavoces (o Bluetooth auriculares) para una experiencia de reunión y llamadas confiables. Teams se integra con los equipos Windows los usuarios para aportar una experiencia complementaria que permite una interacción sin problemas entre dispositivos
 
 Puede actualizar Teams teléfonos de su organización para Teams pantallas en el centro Microsoft Teams administración. Esta opción solo está disponible para teléfonos compatibles con la actualización a Teams pantallas. Para obtener más información, vea [Actualizar Teams teléfonos a Teams pantallas.](upgrade-phones-to-displays.md)
 

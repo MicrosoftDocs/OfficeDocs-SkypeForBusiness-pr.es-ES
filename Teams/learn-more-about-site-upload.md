@@ -22,14 +22,15 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b04b75ca85a3a1ac148434de00cadfc78680ef2259a85c2eb2dab0a4181db82
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0a617cdabba70a836327f6b2153ccecacb5d695040c99007845c79e776e478a1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849515"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321332"
 ---
-# <a name="add-and-update-reporting-labels"></a>Agregar y actualizar etiquetas de informes
+<a name="add-and-update-reporting-labels"></a>Agregar y actualizar etiquetas de informes
+============================
 
 Las etiquetas de informes se usan en su organización para indicar las ubicaciones físicas de oficinas, edificios o sitios de la organización. La página Etiquetas de informes del Centro de administración de Microsoft Teams le permite proporcionar un archivo de texto (.csv o .tsv) que contiene una lista de ubicaciones físicas y sus subredes de red asociadas. Este archivo lo usa Call Analytics para generar informes. Al cargar la asignación de subred, los informes proporcionados por estos servicios también contendrán los nombres de ubicación, lo que facilitará la comprender y usar los informes para corregir posibles problemas.
 

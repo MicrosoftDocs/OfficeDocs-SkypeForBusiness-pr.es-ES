@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Resumen: obtenga información sobre el informe de lista de errores en Skype Empresarial Server.'
-ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn about the Failure List Report in Skype Empresarial Server.'
+ms.openlocfilehash: b132982af91f81af1ac1d151853a3f7fdc597ff31476e6a5484fc04b9d9efa4d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301356"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Informe de lista de errores en Skype Empresarial Server 
  
 **Resumen:** Obtenga información sobre el informe de lista de errores en Skype Empresarial Server.
   
-El informe de lista de errores proporciona información sobre los participantes individuales que participaron en una sesión punto a punto o de conferencia con errores. Esta información incluye el URI del usuario que experimentó el problema, así como el código de respuesta SIP y el id. de diagnóstico asociado al error.
+El informe de lista de errores proporciona información sobre los participantes individuales que participaron en una sesión de punto a punto o conferencia con errores. Esta información incluye el URI del usuario que experimentó el problema, así como el código de respuesta SIP y el identificador de diagnóstico asociado con el error.
   
 ## <a name="accessing-the-failure-list-report"></a>Acceso al informe de lista de errores
 
-Para obtener acceso al informe de lista de errores, haga clic en cualquiera de las métricas siguientes en el informe de distribución de errores [de Skype Empresarial Server:](failure-distribution-report.md)
+Para obtener acceso al informe de lista de errores, haga clic en cualquiera de las siguientes métricas del Informe de distribución de [errores Skype Empresarial Server](failure-distribution-report.md):
   
 - Motivos del diagnóstico principales (sesiones)
     
@@ -45,15 +45,15 @@ Para obtener acceso al informe de lista de errores, haga clic en cualquiera de l
     
 - Agentes de usuarios de origen principales (sesiones)
     
-Desde el informe de lista de errores puede obtener acceso al informe de detalles de sesiones punto a punto en [Skype Empresarial Server](peer-to-peer-session-detail-report.md) haciendo clic en la métrica de detalles de sesión de una sesión punto a punto. También puede obtener acceso al Informe de detalles de conferencia haciendo clic en la métrica Conferencia de una conferencia.
+En el Informe de lista de errores, puede obtener acceso al Informe de detalles de sesión punto a punto en [Skype Empresarial Server](peer-to-peer-session-detail-report.md) haciendo clic en la métrica Detalles de sesión de una sesión punto a punto. También puede obtener acceso al Informe de detalles de conferencia haciendo clic en la métrica de conferencia de una conferencia.
   
-## <a name="making-the-best-use-of-the-failure-list-report"></a>Aprovechar al máximo el informe de lista de errores
+## <a name="making-the-best-use-of-the-failure-list-report"></a>Hacer el mejor uso del informe de lista de errores
 
-En el informe de lista de errores, puede ver una descripción para cada código de respuesta o cada identificador de diagnóstico simplemente manteniendo el mouse sobre ese valor. Por ejemplo, si mantienes el mouse sobre el Id. de diagnóstico 7025, verás lo siguiente en una información sobre herramientas:
+En el Informe de lista de errores, puede ver una descripción para cada código de respuesta o cada identificador de diagnóstico simplemente manteniendo el mouse sobre ese valor. Por ejemplo, si mantiene el mouse sobre el identificador de diagnóstico 7025, verá lo siguiente en una información sobre herramientas:
   
-Error interno del servidor al crear medios para el usuario.
+Error de servidor interno al crear medios para el usuario.
   
-Es importante tener en cuenta que el informe de lista de errores no proporciona una forma sencilla de recuperar directamente una lista de todos los usuarios que participaron en al menos una sesión con errores, ni proporciona una forma de determinar qué usuarios participaron con más frecuencia en una sesión con errores. (Por un lado, el informe de lista de errores no tiene capacidades de filtrado). Sin embargo, si exporta los datos y los convierte en un archivo de valores separados por comas, puede usar Windows PowerShell para encontrar las respuestas a preguntas como estas. Por ejemplo, supongamos que guarda los datos en un archivo . Archivo CSV denominado C:\Data\Failure_List.csv. En función de los datos guardados en ese archivo, este comando enumera todos los usuarios que participaron en al menos una sesión con errores: 
+Es importante tener en cuenta que el informe de lista de errores no proporciona una forma sencilla de recuperar directamente una lista de todos los usuarios que participaron en al menos una sesión con errores, ni proporciona una forma de determinar qué usuarios participaron con más frecuencia en una sesión con errores. (Por un lado, el informe de lista de errores no tiene capacidades de filtrado). Sin embargo, si exporta los datos y, a continuación, los convierte en un archivo de valores separados por comas, puede usar Windows PowerShell para encontrar las respuestas a preguntas como esas. Por ejemplo, supongamos que guarda los datos en un archivo .CSV denominado C:\Data\Failure_List.csv. En función de los datos guardados en ese archivo, este comando enumera todos los usuarios que participaron en al menos una sesión con errores: 
   
 ```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
@@ -97,19 +97,19 @@ Ninguno. No puede filtrar el informe de lista de errores.
   
 ## <a name="metrics"></a>Métricas
 
-En la tabla siguiente se muestra la información proporcionada en el informe de lista de errores para cada llamada con errores.
+En la tabla siguiente se muestra la información proporcionada en el Informe de lista de errores para cada llamada con error.
   
-**Métricas del informe de lista de errores**
+**Métricas de informe de lista de errores**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
 |:-----|:-----|:-----|
 |**Hora notificada** <br/> |No  <br/> |Fecha y hora en que se registró el informe.  <br/> |
-|**Solicitud** <br/> |No  <br/> |Tipo de solicitud SIP con error. Por ejemplo, INVITE o BYE.  <br/> |
+|**Solicitud** <br/> |No  <br/> |Tipo de solicitud SIP que ha fallado. Por ejemplo, INVITE o BYE.  <br/> |
 |**Código de respuesta** <br/> |No  <br/> |Código de respuesta SIP enviado cuando la conferencia ha fallado.  <br/> |
 |**Id. de diagnóstico** <br/> |No  <br/> |Identificador único (con formato de encabezado de ms-diagnostics) adjunto a un mensaje SIP que a menudo aporta información útil para solucionar errores.  <br/> |
 |**Tiempo de costo de unión (ms)** <br/> |No  <br/> |Cantidad de tiempo (en milisegundos) necesario para que el usuario se una a la conferencia.  <br/> |
 |**Remitente** <br/> |No  <br/> |Dirección SIP del usuario que inició la llamada.  <br/> |
-|**Agente de remitente** <br/> |No  <br/> |Software usado por el punto de conexión del usuario que inició la llamada.  <br/> |
-|**Destinatario** <br/> |No  <br/> |Dirección SIP del usuario al que se ha llamado.  <br/> |
+|**Agente de remitente** <br/> |No  <br/> |Software usado por el extremo del usuario que inició la llamada.  <br/> |
+|**Destinatario** <br/> |No  <br/> |Dirección SIP del usuario al que se estaba llamado.  <br/> |
    
 

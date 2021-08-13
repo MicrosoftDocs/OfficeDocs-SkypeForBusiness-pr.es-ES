@@ -15,19 +15,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre cómo implementar Salas de Microsoft Teams en Android.
-ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3ea15b8d242c9aa4685b91cdffb13c7c3a55a752f8a1c9d387f7c858f04845ca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120802"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321502"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Implementar Salas de Microsoft Teams en Android
 
 La implementación de Salas de Microsoft Teams en Android se puede dividir en las siguientes fases:
 
 - **Preparación del sitio** Confirme que las ubicaciones de implementación (salas) cumplen los requisitos de implementación.
-- **Preparación del servicio** Cree cuentas de recursos y asígnelas a los dispositivos (vea Crear una cuenta de recursos con el [centro Microsoft 365 administración).](resource-account-ui.md) Aunque se recomienda usar una licencia de sala dedicada, una cuenta de usuario final con licencia adecuada también puede iniciar sesión en Salas de Teams en Android.
+- **Preparación del servicio** Cree cuentas de recursos y asígnelas a los dispositivos [(vea Crear](resource-account-ui.md)una cuenta de recursos con el Centro de administración de Microsoft 365 ). Aunque se recomienda usar una licencia de sala dedicada, una cuenta de usuario final con licencia adecuada también puede iniciar sesión en Salas de Teams en Android.
 - **Configuración e implementación** Configure Salas de Teams y conecte los dispositivos periféricos que necesita (consulte la documentación del fabricante para obtener más información).
 
 Para administrar Salas de Teams, debe ser administrador global, administrador Teams servicio o Teams de dispositivo. Para obtener más información sobre los roles de administrador, [vea Usar Microsoft Teams de administrador para administrar Teams](../using-admin-roles.md).
@@ -70,7 +70,7 @@ Al crear una cuenta de recursos, puede elegir si quiere permitir que la cuenta a
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-Para obtener más información sobre Microsoft 365 de recursos, vea Crear una cuenta de recursos con el [centro Microsoft 365 administración.](resource-account-ui.md)
+Para obtener más información sobre Microsoft 365 de recursos, vea Crear una cuenta de recursos [con el Centro de administración de Microsoft 365](resource-account-ui.md).
 
 |    |     |
 |-----------|------------|
@@ -89,7 +89,7 @@ La planificación de la configuración y la implementación abarca las siguiente
 
 ### <a name="account-provisioning"></a>Aprovisionamiento de cuentas
 
-Si planea usar cuentas de recursos Microsoft 365 para permitir que los usuarios reserven barras de colaboración, siga las instrucciones de Crear una cuenta de recursos con el Centro de administración de [Microsoft 365](resource-account-ui.md) para crear una cuenta de recursos Microsoft 365 para cada barra de colaboración que necesite una. Aquí también es donde tendrá que agregar una licencia de Sala de reuniones a la cuenta de recursos y, si desea realizar o recibir llamadas a o desde números de teléfono externos, una licencia de Plan de llamadas o voz empresarial si su organización no usa enrutamiento directo.
+Si planea usar cuentas de recursos Microsoft 365 para permitir que los usuarios reserven barras de colaboración, siga las instrucciones de Crear una cuenta de recursos con el [Centro de administración de Microsoft 365](resource-account-ui.md) para crear una cuenta de recursos Microsoft 365 para cada barra de colaboración que necesite una. Aquí también es donde tendrá que agregar una licencia de Sala de reuniones a la cuenta de recursos y, si desea realizar o recibir llamadas a o desde números de teléfono externos, una licencia de Plan de llamadas o voz empresarial si su organización no usa enrutamiento directo.
 
 Si desea asignar Salas de Teams usuarios individuales para su uso privado, no es necesario configurar cuentas adicionales. Los usuarios pueden iniciar sesión en barras de colaboración con sus cuentas personales.
 

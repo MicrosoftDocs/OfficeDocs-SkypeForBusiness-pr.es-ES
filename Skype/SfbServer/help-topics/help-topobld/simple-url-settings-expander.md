@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 'Para especificar nuevas direcciones URL, o bien quitar las ya existentes o cambiar las direcciones URL sencillas activas, efectúe lo siguiente:'
-ms.openlocfilehash: 69f98cf3402de39d24b1805b41e904c527ee4527
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4a3d0a885c0c963cb8ebe162f39858f1d399b85d5ea158053326436110eb9b78
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119609"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297406"
 ---
 # <a name="simple-url-settings-expander"></a>Expansor de configuración de dirección URL simple
 
@@ -48,6 +48,6 @@ Para editar o cambiar la dirección URL de acceso administrativo, edite la entra
 
 Una vez haya efectuado todos los cambios en la página Editar propiedades, haga clic en **Aceptar** para guardar los cambios. Haga clic en **Cancelar** para descartar los cambios.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 Para obtener más información, consulte [Planeación de direcciones URL sencillas](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-simple-urls)

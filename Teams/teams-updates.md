@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d2094761fbf58bbb084457fb5a75380883d09256
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: eb0ed3ad4e01cf0ffab4483799cebd03b749e0a3e0f28aa925175c716b4a490b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583809"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346097"
 ---
 # <a name="microsoft-teams-content-updates"></a>Microsoft Teams actualizaciones de contenido
 

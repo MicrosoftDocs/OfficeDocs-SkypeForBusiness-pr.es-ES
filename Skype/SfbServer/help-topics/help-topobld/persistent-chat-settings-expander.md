@@ -14,12 +14,12 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 12da11ea-3aca-4ef1-8367-f3f8a959f033
-ms.openlocfilehash: 394e1b5aed907daf651178dacacaadf601b5c695
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e9f1fd471237886f590604019ca27f784a0f11ed1ddde27556a63f9df4d77db1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335050"
 ---
 # <a name="persistent-chat-settings-expander"></a>Expansor de configuración del chat persistente
  

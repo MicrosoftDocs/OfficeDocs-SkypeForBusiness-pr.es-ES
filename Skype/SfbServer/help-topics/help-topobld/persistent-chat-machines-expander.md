@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
-description: Puede activar o desactivar un servidor de chat persistente o un grupo de servidores de chat persistente implementados mediante los servidores o grupos enumerados en la configuración de estado del equipo. Seleccione un servidor o grupo de servidores en la lista y haga clic en el botón Activar para establecer un servidor o grupo como activo.
-ms.openlocfilehash: f60b45fc764ac5620a33fe7bf012880f7cc89971
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Puede activar o desactivar un servidor de chat persistente o un grupo de servidores de chat persistente implementados mediante los servidores o grupos de servidores enumerados en Configuración de estado de la máquina. Seleccione un servidor o grupo de servidores en la lista y haga clic en el botón Hacer activo para establecer un servidor o grupo como activo.
+ms.openlocfilehash: 4086a5732d9bbb047d45d28295de272fc7649df5808bb4b18d8db9392a934ae3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335160"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expansor de equipos de chat persistente
  
-Puede activar o desactivar un servidor de chat persistente o un grupo de servidores de chat persistente implementados mediante los servidores o grupos enumerados en la configuración **de estado del equipo.** Seleccione un servidor o grupo de  servidores en la lista y haga clic en el botón Activar para establecer un servidor o grupo como activo.
+Puede activar o desactivar un servidor de chat persistente o un grupo de servidores de chat persistente implementados mediante los servidores o grupos de servidores enumerados en **Configuración de estado de la máquina.** Seleccione un servidor o grupo de  servidores en la lista y haga clic en el botón Hacer activo para establecer un servidor o grupo como activo.
   
-Para establecer un servidor de chat persistente implementado o un grupo de servidores de chat persistente en inactivos, seleccione el servidor o grupo de servidores de la lista y haga clic **en Activar.** Al menos un servidor debe establecerse en activo.
+Para establecer un servidor de chat persistente o un grupo de servidores de chat persistente implementado en inactivo, seleccione el servidor o grupo de servidores de la lista y haga clic **en Hacer inactivo**. Al menos un servidor debe estar establecido en activo.
   
  **Aceptar** Acepta y confirma los cambios realizados en el cuadro de diálogo.
   
@@ -34,8 +34,8 @@ Para establecer un servidor de chat persistente implementado o un grupo de servi
   
  **Ayuda** Muestra la ayuda de esta pantalla.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planear el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Agregar un servidor de chat persistente a la topología de Skype Empresarial Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Agregar servidor de chat persistente a la topología Skype Empresarial Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

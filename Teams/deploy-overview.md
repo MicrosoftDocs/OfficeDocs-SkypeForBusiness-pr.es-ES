@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22e2f243bfde3e4671727ce737ba62bc154adb0d
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
-ms.translationtype: MT
+ms.openlocfilehash: c0c5f5becb6ce22dc54f49d8f8aede6410cd0e20611f4add2ede192c4fd3cb65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726201"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301246"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Información general de la implementación de Microsoft Teams
 

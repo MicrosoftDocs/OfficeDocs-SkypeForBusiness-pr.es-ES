@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Puede mover un único usuario o grupos de usuarios a su nueva implementación de Microsoft Skype Empresarial Server 2019 con los dos métodos siguientes: Panel de control de Skype Empresarial Server y Shell de administración de Skype Empresarial Server. Los temas de esta sección describen las tareas que debe completar durante la implementación piloto, así como antes de mover la implementación de Skype Empresarial Server 2019 de una implementación piloto a una implementación de nivel de producción.'
-ms.openlocfilehash: 776cb3a3f7be7c610d0f796593e4ec4a4d25a285
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 'Puede mover un único usuario o grupos de usuarios a su nueva implementación de Microsoft Skype Empresarial Server 2019 mediante los dos métodos siguientes: Skype Empresarial Server Panel de control y Skype Empresarial Server Shell de administración. En los temas de esta sección se describen las tareas que debe completar durante la implementación piloto, así como antes de mover la implementación de Skype Empresarial Server 2019 de una implementación piloto a una implementación de nivel de producción.'
+ms.openlocfilehash: 612ec4dd77821a6ad36d6bb06feddd1c59f9cb3b0c78836db3b4133741aa3262
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300546"
 ---
 # <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Fase 4: Mover usuarios de prueba al grupo piloto
 
-Puede mover un único usuario o grupos de usuarios a su nueva implementación de Microsoft Skype Empresarial Server 2019 con los dos métodos siguientes: Panel de control de Skype Empresarial Server y Shell de administración de Skype Empresarial Server. Los temas de esta sección describen las tareas que debe completar durante la implementación piloto, así como antes de mover la implementación de Skype Empresarial Server 2019 de una implementación piloto a una implementación de nivel de producción.
+Puede mover un único usuario o grupos de usuarios a su nueva implementación de Microsoft Skype Empresarial Server 2019 mediante los dos métodos siguientes: Skype Empresarial Server Panel de control y Skype Empresarial Server Shell de administración. En los temas de esta sección se describen las tareas que debe completar durante la implementación piloto, así como antes de mover la implementación de Skype Empresarial Server 2019 de una implementación piloto a una implementación de nivel de producción.
   
 ## <a name="in-this-section"></a>En esta sección
 
