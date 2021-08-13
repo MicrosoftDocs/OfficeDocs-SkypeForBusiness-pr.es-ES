@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: Una directiva de versión de cliente está compuesta de un conjunto de reglas de versión de cliente. Estas reglas definen las acciones que se deben realizar cuando los usuarios intentan iniciar sesión con clientes y versiones de clientes específicos.
-ms.openlocfilehash: 4c46a93e46e1e07865a466a666a450a766c6897e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd35979ce67f33f053e89ea941f5e911733d6f16efa2b6b6a2a10c49d2e63884
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314636"
 ---
 # <a name="client-version-rule"></a>Regla de versiones de cliente
 
@@ -44,7 +44,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 |:-----|:-----|
 |Lync 2013, Lync 2010, Office Communicator  <br/> |OC  <br/> |
 |Lync Web App, Communicator Web Access  <br/> |CWA  <br/> |
-|Lync Phone Edition, Office Communicator Phone  <br/> |OCPhone  <br/> |
+|Lync Teléfono Edition, Office Communicator Teléfono  <br/> |OCPhone  <br/> |
 |Plataforma Communicator Phone Edition  <br/> |CPE  <br/> |
 |Plataforma de comunicaciones unificadas  <br/> |UCCP  <br/> |
 |Lync 2010 Attendee  <br/> |AOC  <br/> |
@@ -90,13 +90,13 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
   - **Permitir y actualizar** Permite al cliente iniciar sesión y recibir actualizaciones de Windows Server Update Service o Microsoft Update. Esta acción solo está disponible cuando se selecciona **OC** del agente del usuario.
 
     > [!NOTE]
-    > Al seleccionar esta acción, aparecerá una notificación la próxima vez que los usuarios inicien sesión en Skype Empresarial. La notificación comunica que hay una actualización disponible, aunque las actualizaciones aún no se hayan publicado en Windows Server Update Service o en Microsoft Update. Para evitar confusiones, se recomienda elegir esta acción solo después de que haya actualizaciones disponibles.
+    > Si selecciona esta acción, aparecerá una notificación la próxima vez que los usuarios inicien sesión en Skype Empresarial. La notificación comunica que hay una actualización disponible, aunque las actualizaciones aún no se hayan publicado en Windows Server Update Service o en Microsoft Update. Para evitar confusiones, se recomienda elegir esta acción solo después de que haya actualizaciones disponibles.
 
   - **Permitir con dirección URL** Permite al cliente iniciar sesión y muestra un mensaje sobre dónde descargar otra versión de cliente. Puede especificar la dirección URL en el campo **Dirección URL**.
 
   - **Bloquear** Impide que el cliente inicia sesión.
 
-  - **Bloquear y actualizar** Impide que el cliente se inicia sesión y permite que el cliente reciba actualizaciones del Servicio windows Server Update o Microsoft Update. Esta acción solo está disponible cuando se selecciona **OC** del agente del usuario.
+  - **Bloquear y actualizar** Impide que el cliente inicia sesión y permite al cliente recibir actualizaciones de Windows Servicio de actualización de servidor o Microsoft Update. Esta acción solo está disponible cuando se selecciona **OC** del agente del usuario.
 
   - **Bloquear con dirección URL**   Impide al cliente iniciar sesión y muestra un mensaje sobre dónde descargar otra versión del cliente. Puede especificar la dirección URL en el campo **Dirección URL**.
 

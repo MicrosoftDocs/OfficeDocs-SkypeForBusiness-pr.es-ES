@@ -1,5 +1,5 @@
 ---
-title: Personalizar la experiencia de cliente mac en Skype Empresarial
+title: Personalizar la experiencia del cliente mac en Skype Empresarial
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,40 +11,40 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
-description: En este artículo se describen las preferencias de cliente y los valores predeterminados disponibles para el cliente de Skype Empresarial en Mac y cómo editarlos desde fuera de la aplicación.
-ms.openlocfilehash: cdbd1c109fffddf6d922657285f60d9b4f06924a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: En este artículo se describen las preferencias de cliente y los valores predeterminados disponibles para el Skype Empresarial en el cliente Mac y cómo editarlas desde fuera de la aplicación.
+ms.openlocfilehash: bf93b08686ed245fab38364cf9aff4fee0526a8bd496231865640aeb2c6e67f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805760"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325497"
 ---
-# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar la experiencia de cliente mac en Skype Empresarial
+# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar la experiencia del cliente mac en Skype Empresarial
  
-En este artículo se describen las preferencias de cliente y los valores predeterminados disponibles para el cliente de Skype Empresarial en Mac y cómo editarlos desde fuera de la aplicación.
+En este artículo se describen las preferencias de cliente y los valores predeterminados disponibles para el Skype Empresarial en el cliente Mac y cómo editarlas desde fuera de la aplicación.
   
-## <a name="skype-for-business-on-mac-client-preference-settings"></a>Configuración de preferencias de cliente de Skype Empresarial en Mac
+## <a name="skype-for-business-on-mac-client-preference-settings"></a>Skype Empresarial configuración de preferencias de cliente mac
 
-Determinadas características y comportamientos que están disponibles para los clientes de Skype Empresarial en Mac están determinados por la configuración de preferencias en el cliente. Las preferencias de Skype Empresarial en Mac se encuentran en un archivo ubicado en mac que han instalado el cliente de Skype Empresarial ubicado en la siguiente ruta: 
+Determinadas características y comportamientos que están disponibles para Skype Empresarial en clientes Mac se determinan mediante la configuración de preferencias en el cliente. Las Skype Empresarial en las preferencias de Mac se encuentran en un archivo ubicado en Macs que han instalado el Skype Empresarial ubicado en la siguiente ruta de acceso: 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-Para establecer estas preferencias, llegue a un mensaje de terminal en el Mac del cliente y, según sea necesario, escriba los comandos de teclas com.microsoft.SkypeForBusiness con las teclas de preferencia que se describen en la tabla siguiente.
+Para establecer estas preferencias, accede a un mensaje de terminal en el Mac del cliente y, según sea necesario, escribe los comandos de teclas com.microsoft.SkypeForBusiness con las claves de preferencia que se describen en la tabla siguiente.
   
-**Claves de preferencias de cliente**
+**Claves de preferencia de cliente**
 
 
 | Key  | Tipo | Valor | Descripción |
 |:-----|:-----|:-----|:-----|
-|autoDetectAutoDicoveryURLs    |Bool    |0 = configuración manual del servidor  <br/> 1 = detección automática de servidores (valor predeterminado)    |Especifique cómo Skype Empresarial identifica el transporte y el servidor que se usarán durante el inicio de sesión. Si habilita esta configuración de directiva, debe especificar **internalAutoDiscoveryURL** y **externalAutoDiscoveryURL**.   |
-|internalAutoDiscoveryURL    |Cadena    |Dirección URL de detección automática completa    |Url de detección automática interna    |
-|externalAutoDiscoveryURL    |Cadena    |Dirección URL de detección automática completa    |Url de detección automática externa    |
-|httpProxyDomain    |Cadena    ||Dominio proxy HTTP    |
-|httpProxyUserName    |Cadena    ||Nombre de usuario de proxy HTTP    |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = configuración manual del servidor  <br/> 1 = detección automática del servidor (valor predeterminado)    |Especifique cómo Skype Empresarial identifica el transporte y el servidor que se va a usar durante el inicio de sesión. Si habilita esta configuración de directiva, debe especificar **internalAutoDiscoveryURL** y **externalAutoDiscoveryURL**.   |
+|internalAutoDiscoveryURL    |Cadena    |Dirección URL de detección automática completa    |Dirección URL de detección automática interna    |
+|externalAutoDiscoveryURL    |String    |Dirección URL de detección automática completa    |DIRECCIÓN URL de detección automática externa    |
+|httpProxyDomain    |String    ||Dominio proxy HTTP    |
+|httpProxyUserName    |String    ||Nombre de usuario de proxy HTTP    |
 |httpProxyPassword    |Cadena    ||Contraseña de proxy HTTP    |
 |trustedDomainList    |Matriz    ||Lista de dominios de confianza para redireccionamientos HTTP.    |
-|autoAcceptTimeout    |Número    |300 (valor predeterminado)    |Tiempo de espera de aceptación automática para usuarios sin historial de conversaciones del lado servidor.    |
-|warnWhenUnknownLocationForE911    |Bool    |0 = deshabilitado  <br/> 1 = habilitado    |Advierte al usuario al marcar un número de emergencia desde una ubicación desconocida.    |
+|autoAcceptTimeout    |Número    |300 (valor predeterminado)    |Aceptar automáticamente el tiempo de espera para los usuarios sin historial de conversaciones del lado servidor.    |
+|warnWhenUnknownLocationForE911    |Bool    |0 = Deshabilitado  <br/> 1 = habilitado    |Advierte al usuario al marcar un número de emergencia desde una ubicación desconocida.    |
 |sipAddress    |Cadena    ||La dirección SIP (correo electrónico) usada para iniciar sesión en Skype Empresarial.    |
 |userName    |Cadena    ||UPN (UserName) usado para iniciar sesión en Skype Empresarial.    |
 |userNameInAdvancedOnly    |Bool    |0 = mostrar el campo Nombre de usuario en la pantalla de inicio de sesión principal y en el cuadro de diálogo Propiedades avanzadas  <br/> 1 = mostrar el campo Nombre de usuario solo en el cuadro de diálogo Propiedades avanzadas (valor predeterminado)    |Especifique dónde se muestra el campo Nombre de usuario durante el inicio de sesión.    |
@@ -57,7 +57,7 @@ los valores predeterminados escriben com.microsoft.SkypeForBusiness trustedDomai
   
 Para agregar varios dominios a la lista de dominios de confianza, use la clave trustedDomainList como se muestra:
   
-defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
+los valores predeterminados escriben com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
   
 ### <a name="sample-unedited-settings"></a>Configuración sin editar de ejemplo
 

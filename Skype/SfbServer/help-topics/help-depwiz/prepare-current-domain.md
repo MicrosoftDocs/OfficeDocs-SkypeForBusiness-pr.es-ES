@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
-description: 'Para preparar un dominio para hospedar servidores que ejecuten usuarios de Skype Empresarial Server 2015 o Skype Empresarial Server, debe completar el paso 5: Preparar el dominio actual, tal como se describe en el tema Using Setup to Run Domain Preparation. Para completar el paso, debe haber iniciado sesión como miembro del grupo Administradores de dominio en el dominio que está preparando o como miembro del grupo Administradores de empresa del bosque al que pertenece el dominio. Para preparar el dominio:'
-ms.openlocfilehash: c9c33e466b7b0fcc7c2711603c284e5f419960a1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Para preparar un dominio para hospedar servidores que ejecuten usuarios de Skype Empresarial Server 2015 o Skype Empresarial Server, debe completar el paso 5: Preparar dominio actual, tal como se describe en el tema Using Setup to Run Domain Preparation. Para completar el paso, debe haber iniciado sesión como miembro del grupo Administradores de dominio en el dominio que está preparando o como miembro del grupo administradores de Enterprise del bosque al que pertenece el dominio. Para preparar el dominio:'
+ms.openlocfilehash: 5c9dca22bc0c9d633521b58fdc47effc72a20b2ef9871bd7f4330ed2edd39118
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096876"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311488"
 ---
 # <a name="prepare-current-domain"></a>Preparar dominio actual
 
-Para preparar un dominio para hospedar servidores que ejecuten usuarios de Skype Empresarial Server 2015 o Skype Empresarial Server, debe completar el paso **5: Preparar** dominio actual , tal como se describe en el tema [Using Setup to Run Domain Preparation](/previous-versions/office/lync-server-2013/lync-server-2013-running-domain-preparation). Para completar el paso, debe haber iniciado sesión como miembro del grupo Administradores de dominio en el dominio que está preparando o como miembro del grupo Administradores de empresa del bosque al que pertenece el dominio. Para preparar el dominio:
+Para preparar un dominio para hospedar servidores que ejecutan usuarios de Skype Empresarial Server 2015 o Skype Empresarial Server, debe completar el paso **5: Preparar** dominio actual , tal como se describe en el tema [Using Setup to Run Domain Preparation](/previous-versions/office/lync-server-2013/lync-server-2013-running-domain-preparation). Para completar el paso, debe haber iniciado sesión como miembro del grupo Administradores de dominio en el dominio que está preparando o como miembro del grupo administradores de Enterprise del bosque al que pertenece el dominio. Para preparar el dominio:
 
-1. Desde la carpeta o medios de instalación de Skype Empresarial Server 2015, ejecute Setup.exe para iniciar el Asistente para la implementación de Skype Empresarial Server.
+1. Desde la Skype Empresarial Server o medios de instalación de 2015, ejecute Setup.exe para iniciar el Asistente para Skype Empresarial Server implementación.
 
 2. Haga clic en **Preparar Active Directory** y espere a que se determine el estado de implementación.
 

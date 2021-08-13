@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar directivas de comentarios para controlar si Teams usuarios de su organización pueden enviar comentarios sobre Teams a Microsoft.
-ms.openlocfilehash: 66f14467e66456f244664a8273e0ff962297c05f
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 749027ae6dcb9766564444b659d5695abfe733210bc11837946bd4b328d3ab47
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656726"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310688"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Administrar directivas de comentarios en Microsoft Teams
 
@@ -47,7 +47,7 @@ Los usuarios también pueden calificar su experiencia con Teams y enviarnos deta
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>Establecer si los usuarios pueden enviar comentarios sobre Teams a Microsoft
 
-Como administrador, puede controlar si los usuarios de su organización pueden  enviar comentarios sobre Teams a Microsoft a través de Enviar comentarios y si reciben la encuesta. De forma predeterminada, a todos los usuarios de su organización se les  asigna automáticamente la directiva global (predeterminada para toda la organización) y la característica y la encuesta Dele comentarios están habilitadas en la directiva. La excepción es Teams educación, donde las características están habilitadas para los profesores y deshabilitadas para los alumnos.
+Como administrador, puede controlar si los usuarios de su organización pueden  enviar comentarios sobre Teams a Microsoft a través de Enviar comentarios y si reciben la encuesta. De forma predeterminada, a todos los usuarios de su organización se les  asigna automáticamente la directiva global (predeterminada para toda la organización) y la característica y la encuesta Dele comentarios están habilitadas en la directiva. La excepción es Teams para Educación, donde las características están habilitadas para los profesores y deshabilitadas para los alumnos.
 
 Puede editar la directiva global o crear y asignar una directiva personalizada. Después de editar la directiva global o asignar una directiva personalizada, los cambios pueden tardar unas horas en tener efecto.
 

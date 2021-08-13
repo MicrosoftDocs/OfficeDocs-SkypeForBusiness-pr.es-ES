@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Puede configurar cómo se conectan los usuarios a Skype Empresarial Online con la aplicación Skype Empresarial en dispositivos móviles, como una característica que permite a los usuarios realizar y recibir llamadas telefónicas en su teléfono móvil usando su número de teléfono del trabajo en lugar de su número de teléfono móvil. Las directivas de movilidad también se pueden usar para requerir conexiones WiFi para hacer o recibir llamadas.
-ms.openlocfilehash: e29a02bddcb9ace29ebd059f8cbc42c5a85c3f12
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3bb723c3ca1a9b867c37abf8e638436b4492ae2a7d40d16c22980c7873c70f98
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325607"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Establecer directivas móviles en su organización
 
@@ -118,7 +118,7 @@ Si ya ha creado una directiva, puede usar el cmdlet [Set-CsMobilityPolicy](/powe
     
   - [Seis motivos por los que es posible que desee usar Windows PowerShell administrar Microsoft 365 o Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso del centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en la velocidad, la simplicidad y la productividad en lugar de usar solo el Centro de administración de Microsoft 365 como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
   - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

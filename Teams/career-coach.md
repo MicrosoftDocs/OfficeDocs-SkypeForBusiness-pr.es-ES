@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e45732261d7ad9f1298d2aa865f84619bb7bbcd
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 798f9ff2a63291b3f110bf6fedd085609f71585c6b31a10d8afbe2e495f5ac0a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646941"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310838"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar y habilitar Asesor de carrera para Microsoft Teams
 

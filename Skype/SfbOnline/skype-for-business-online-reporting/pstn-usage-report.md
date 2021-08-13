@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: El nuevo Skype Empresarial de informes del Centro de administración muestra la actividad de llamadas y audioconferencias en su organización. Le permite explorar en profundidad los informes para proporcionar información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles de uso de RTC de audioconferencia, incluido el costo de la llamada para que pueda comprender los detalles de facturación de llamadas y uso para determinar el uso dentro de su organización.
-ms.openlocfilehash: 2c6a0410611919662f5eaf37a03bfcca11b543be
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 511065a4371ae4f9521022a27c2fdf6804736d48ccc807ee1d3aa0d0148fe3a8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278453"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300446"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 

@@ -15,22 +15,22 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
-description: Obtenga información sobre cómo preparar el dispositivo de Cloud Connector para su implementación y uso con Phone System (PBX en la nube).
-ms.openlocfilehash: 536e9b98520e4274e00d43d57224267f5b824dc9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Obtenga información sobre cómo preparar el dispositivo de Cloud Connector para su implementación y uso con Sistema telefónico (PBX en la nube).
+ms.openlocfilehash: 58f9765f211a3961db8baf5929956feecf1eb4fd7e7744490cb21f1967dcb46f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340816"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar el dispositivo de Cloud Connector
 
 > [!Important]
-> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams enrutamiento [directo](/MicrosoftTeams/direct-routing-landing-page).
 
-Obtenga información sobre cómo preparar el dispositivo de Cloud Connector para su implementación y uso con Phone System (PBX en la nube).
+Obtenga información sobre cómo preparar el dispositivo de Cloud Connector para su implementación y uso con Sistema telefónico (PBX en la nube).
 
-En esta sección se describe cómo obtener los archivos de instalación de Skype Empresarial Cloud Connector Edition, instalar el software de Cloud Connector y preparar el dispositivo de Cloud Connector para su implementación. Después de completar todos los pasos de esta sección, estará listo para implementar Cloud Connector para un solo sitio o varios sitios. Si tiene una implementación existente de Cloud Connector y aún no ha actualizado [a](upgrade-to-a-new-version-of-cloud-connector.md)Cloud Connector versión 2.1, consulte Upgrade to a new version of Cloud Connector .
+En esta sección se describe cómo obtener los archivos Skype for Business Edición de conector de nube instalación, instalar el software de Cloud Connector y preparar el dispositivo de Cloud Connector para la implementación. Después de completar todos los pasos de esta sección, estará listo para implementar Cloud Connector para un solo sitio o varios sitios. Si tiene una implementación existente de Cloud Connector y aún no ha actualizado [a](upgrade-to-a-new-version-of-cloud-connector.md)Cloud Connector versión 2.1, consulte Upgrade to a new version of Cloud Connector .
 
 > [!NOTE]
 > Microsoft admite la versión actual de Cloud Connector Edition, versión 2.1. Si configuró la actualización automática, Cloud Connector se actualizará automáticamente. Si configuró la actualización manual, tendrá que actualizar a la versión 2.1 en un plazo de 60 días desde su lanzamiento. Microsoft admitirá la versión anterior durante 60 días después de la versión 2.1 para permitirte tiempo para actualizar. 
@@ -39,12 +39,12 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
 > Para Cloud Connector versión 2.1 y versiones posteriores, el dispositivo host debe tener .NET Framework 4.6.1 o posterior instalado. 
 
 > [!IMPORTANT]
-> Para una implementación correcta, cuando ejecute los cmdlets para configurar Skype Empresarial Cloud Connector Edition, use siempre la misma sesión de consola que la que inició. Evite cambiar a diferentes sesiones durante la implementación y configuración. 
+> Para una implementación correcta, cuando ejecute los cmdlets para configurar Skype for Business Edición de conector de nube, use siempre la misma sesión de consola que la que inició. Evite cambiar a diferentes sesiones durante la implementación y configuración. 
 
 > [!NOTE]
 > Hay algunos pasos que solo se realizan para el primer dispositivo de la implementación: crear un recurso compartido para el directorio del sitio, descargar los bits y preparar un archivo de disco duro virtual (VHDX) desde la imagen ISO de Windows Server. 
 
-## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>Descargar el instalador de Skype Empresarial Cloud Connector Edition
+## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>Descargar el instalador Skype for Business Edición de conector de nube instalación
 
 1. En el servidor host donde se ejecutarán las máquinas virtuales de Cloud Connector, descargue los archivos de instalación: [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) . 
 
@@ -57,13 +57,13 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
 
 ## <a name="verify-the-installation-and-configure-the-environment"></a>Comprobar la instalación y configurar el entorno
 
-1. Abra una consola de PowerShell como administrador y confirme que los cmdlets de Skype Empresarial Cloud Connector Edition están disponibles con el siguiente cmdlet:
+1. Abra una consola de PowerShell como administrador y confirme que los cmdlets Skype for Business Edición de conector de nube están disponibles con el siguiente cmdlet:
 
    ```powershell
    Get-Command *-Cc*
    ```
 
-    El comando debe devolver una lista de cmdlets para Skype Empresarial Cloud Connector Edition.
+    El comando debe devolver una lista de cmdlets para Skype for Business Edición de conector de nube.
 
 2. Los archivos VHD, SfBBits y VersionInfo se almacenarán en el **Directorio del sitio**.
 
@@ -91,7 +91,7 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
 
     Cuando inicie sesión e implemente cada dispositivo en el sitio, asegúrese de que su cuenta de inicio de sesión actual tenga el acceso correcto al **Directorio del sitio**.
 
-3. El **Directorio del dispositivo** es el directorio raíz de trabajo local para Skype Empresarial Cloud Connector Edition y la ubicación donde se guardan certificados, instancias y registros externos. La ubicación predeterminada es: %USERPROFILE%\CloudConnector\ApplianceRoot.
+3. El **Directorio del dispositivo** es el directorio raíz de trabajo local para Skype for Business Edición de conector de nube y la ubicación donde se guardan certificados, instancias y registros externos. La ubicación predeterminada es: %USERPROFILE%\CloudConnector\ApplianceRoot.
 
     Para buscar la ubicación del **Directorio de dispositivos,** ejecute el siguiente cmdlet:
 
@@ -105,7 +105,7 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
    Set-CcApplianceDirectory <File path>
    ```
 
-    El directorio del dispositivo debe establecerse en una carpeta local del dispositivo. Solo debe establecer el directorio **de dispositivos antes** de iniciar la implementación de Skype Empresarial Cloud Connector Edition. Si lo cambia después de la implementación, tendrá que volver a implementar el servidor host.
+    El directorio del dispositivo debe establecerse en una carpeta local del dispositivo. Solo debe establecer el **Directorio de dispositivos** antes de iniciar la Skype for Business Edición de conector de nube implementación. Si lo cambia después de la implementación, tendrá que volver a implementar el servidor host.
 
     > [!IMPORTANT]
     > La ruta de acceso al **Directorio de dispositivos** no debe contener espacios.
@@ -124,7 +124,7 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
     Especifique la ruta de acceso completa al certificado externo, incluido el nombre del archivo. El certificado se puede almacenar localmente o en un recurso compartido de archivos. Si el certificado se almacena en una carpeta compartida, la carpeta compartida debe crearse en el primer dispositivo de cada sitio y debe ser accesible por otros dispositivos pertenecientes al mismo sitio. Este cmdlet copia el certificado externo en **el Directorio del dispositivo**.
 
     > [!IMPORTANT]
-    > Si se ha actualizado a Cloud Connector versión **1.4.2** o posterior, asegúrese de que el certificado externo preparado contiene claves privadas y la cadena de certificados completa, incluidos el certificado de CA raíz y los certificados de CA intermedios. Si aún no se ha actualizado a **Cloud Connector versión 1.4.2,** asegúrese de que el certificado externo preparado contiene claves privadas. Este certificado externo debe ser emitido por una entidad de certificación de confianza de Windows de forma predeterminada.
+    > Si se ha actualizado a Cloud Connector versión **1.4.2** o posterior, asegúrese de que el certificado externo preparado contiene claves privadas y la cadena de certificados completa, incluidos el certificado de CA raíz y los certificados de CA intermedios. Si aún no se ha actualizado a **Cloud Connector versión 1.4.2,** asegúrese de que el certificado externo preparado contiene claves privadas. Este certificado externo debe ser emitido por una entidad de certificación de confianza Windows de forma predeterminada.
 
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Establecer la ruta de acceso para la puerta de enlace RTC externa/certificado SBC
 
@@ -155,7 +155,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ## <a name="update-the-cloudconnectorini-configuration-file"></a>Actualizar el archivo CloudConnector.ini de configuración
 
-Prepare el CloudConnector.ini con la información que recopiló en [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) en el tema Plan for Skype for Business Cloud Connector [Edition.](plan-skype-for-business-cloud-connector-edition.md)
+Prepare el CloudConnector.ini con la información que recopiló en [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) en el tema Plan for [Skype for Business Edición de conector de nube.](plan-skype-for-business-cloud-connector-edition.md)
 
 Para actualizar el archivo, ejecute primero el siguiente cmdlet para obtener la plantilla de ejemplo (CloudConnector.Sample.ini):
 
@@ -167,18 +167,18 @@ La plantilla de ejemplo se almacena en el **Directorio de dispositivos**.
 
 Después de actualizarlo con los valores de su entorno, guarde el archivo como CloudConnector.ini en el **Directorio del dispositivo**. Puede ejecutar **Get-CcApplianceDirectory para** determinar la ruta de acceso al **directorio del dispositivo**.
 
-Al actualizar el archivo .ini, tenga en cuenta lo siguiente:
+Al actualizar el .ini, tenga en cuenta lo siguiente:
 
 > [!NOTE]
-> No todos los valores del archivo .ini se tratan en esta sección, solo los que tienen una consideración especial se tratan aquí. Para obtener una lista completa, vea la [sección Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) del tema Plan for Skype for Business Cloud Connector [Edition.](plan-skype-for-business-cloud-connector-edition.md) Para obtener más información acerca de los valores que deben cambiarse para dispositivos adicionales o sitios nuevos, vea [Single site with High Availability (HA) compared to multi-site deployments](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) en el tema Deploy multiple sites in Cloud [Connector](deploy-multiple-sites-in-cloud-connector.md). 
+> No todos los valores del archivo .ini se tratan en esta sección, solo los que tienen una consideración especial se tratan aquí. Para obtener una lista completa, vea la sección [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) del tema Plan for [Skype for Business Edición de conector de nube.](plan-skype-for-business-cloud-connector-edition.md) Para obtener más información acerca de los valores que deben cambiarse para dispositivos adicionales o sitios nuevos, vea [Single site with High Availability (HA) compared to multi-site deployments](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) en el tema Deploy multiple sites in Cloud [Connector](deploy-multiple-sites-in-cloud-connector.md). 
 
 - **SiteName:** El valor predeterminado es **Site1**. Debe actualizarlo antes de implementar Cloud Connector, ya que al ejecutar **Register-CcAppliance** para registrar un dispositivo en un sitio existente o nuevo, el cmdlet usará **SiteName** para determinar qué sitio registrar.
 
-     Si desea registrar el dispositivo en un nuevo sitio, el valor de **SiteName** debe ser único y diferente de los sitios existentes. Si desea registrar el dispositivo en un sitio existente, el valor de **SiteName** en el archivo .ini debe coincidir con el nombre definido en la configuración de la organización de Microsoft 365 u Office 365. Si va a copiar un archivo de configuración de un sitio a otro, asegúrese de actualizar el valor de **SiteName** para cada sitio en consecuencia.
+     Si desea registrar el dispositivo en un nuevo sitio, el valor de **SiteName** debe ser único y diferente de los sitios existentes. Si desea registrar el dispositivo en un sitio existente, el valor de **SiteName** en un archivo .ini debe coincidir con el nombre definido en la configuración Microsoft 365 o Office 365 organización. Si va a copiar un archivo de configuración de un sitio a otro, asegúrese de actualizar el valor de **SiteName** para cada sitio en consecuencia.
 
 - **ServerName:** El nombre del servidor no debe contener el nombre de dominio y debe limitarse a 15 caracteres.
 
-- **HardwareType:** Si no establece o deja el valor en null, se usará el valor predeterminado de **Normal.** Use **Normal** si tiene previsto implementar la versión más grande de Cloud Connector para admitir 500 llamadas simultáneas por equipo host, tal como se describe en [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md). Use **Minimum** para una implementación más pequeña que admita 50 llamadas simultáneas.
+- **HardwareType:** Si no establece o deja el valor en null, se usará el valor predeterminado de **Normal.** Use **Normal** si tiene previsto implementar la versión más grande de Cloud Connector para admitir 500 llamadas simultáneas por equipo host, tal como se describe en [Plan for Skype for Business Edición de conector de nube](plan-skype-for-business-cloud-connector-edition.md). Use **Minimum** para una implementación más pequeña que admita 50 llamadas simultáneas.
 
 - **Conmutadores virtuales de Internet/Corpnet/Management:**: Agregue el nombre de los conmutadores virtuales que haya creado. Para el conmutador virtual de administración, deje el valor predeterminado. El script de implementación creará el conmutador virtual de administración al principio de la implementación y lo eliminará cuando finalice la implementación.
 
@@ -186,7 +186,7 @@ Al actualizar el archivo .ini, tenga en cuenta lo siguiente:
 
     Los scripts de implementación crean un adaptador de red de administración en cada máquina virtual, asignan una IP de administración y la conectan a un conmutador virtual de administración. Esto permite al servidor host conectarse y administrar cada máquina virtual a través de esta red de administración. El conmutador virtual de administración se elimina cuando finaliza la implementación.
 
-- **Configuraciones específicas de vm base:** La configuración de esta sección debe configurarse para el cmdlet **Convert-CcIsoToVhdx.**
+- **Configuraciones específicas de** vm base: Configuración en esta sección debe configurarse para el cmdlet **Convert-CcIsoToVhdx.**
 
     Durante la preparación de la imagen de vm base, la máquina virtual base se conectará al conmutador de red interno. La siguiente configuración es fundamental para que la máquina virtual pueda tener acceso a Internet:
 
@@ -196,9 +196,9 @@ Al actualizar el archivo .ini, tenga en cuenta lo siguiente:
 
   - [Red] CorpnetDNSIPAddress: la dirección IP DNS que se asignará a la máquina virtual base.
 
-  - [Red] WSUSServer: la dirección IP del servicio Windows Server Update.
+  - [Red] WSUSServer: la dirección IP de Windows servicio de actualización de servidor.
 
-  - [Red] WSUSStatusServer: la dirección IP del servidor de estado de Windows Server Update Service.
+  - [Red] WSUSStatusServer: la dirección IP del Windows de estado del servicio de actualización del servidor.
 
   - [Red] EnableReferSupport: esto definirá si la compatibilidad con SIP REFER está habilitada o deshabilitada en la configuración de tronco a su IP/PBX.
 
@@ -241,7 +241,7 @@ Start-CcDownload
 
 ## <a name="prepare-base-virtual-disk-vhdx-from-the-downloaded-iso-file"></a>Preparar el disco virtual base (VHDX) desde el archivo ISO descargado
 
-Este paso prepara un archivo de disco duro virtual (VHDX) a partir de la imagen ISO de Windows Server 2012. El VHDX se usará para crear máquinas virtuales durante la implementación. Se creará una máquina virtual temporal (VM base) y Windows Server 2012 se instalará desde el archivo ISO. Después de crear la máquina virtual, se instalarán algunos componentes necesarios y se aplicará la actualización más reciente de Windows. Al final, la máquina virtual base se generalizará (sysprep) y se limpiará, dejando solo el archivo de disco virtual generado.
+En este paso se prepara un archivo de disco duro virtual (VHDX) a partir Windows Server 2012 imagen ISO. El VHDX se usará para crear máquinas virtuales durante la implementación. Se creará una máquina virtual temporal (VM base) y Windows Server 2012 se instalará desde el archivo ISO. Después de crear la máquina virtual, se instalarán algunos componentes necesarios y se aplicará Windows actualización. Al final, la máquina virtual base se generalizará (sysprep) y se limpiará, dejando solo el archivo de disco virtual generado.
 
 > [!NOTE]
 > Debe realizar este paso solo para el primer dispositivo. 
@@ -269,7 +269,7 @@ Especifique la ruta de acceso completa, incluido el nombre de archivo, a la imag
 El archivo VHD creado se almacena en la carpeta Directorio **del sitio** \Bits\VHD. Puede obtener la ruta de acceso al **Directorio del sitio** ejecutando **Get-CcSiteDirectory**.
 
 > [!IMPORTANT]
-> De forma predeterminada, la configuración de proxy no está configurada en la máquina virtual base. Si se necesita un proxy en el entorno de red para actualizar la máquina virtual a través de Windows Update, debes agregar el modificador -PauseBeforeUpdate al ejecutar "Convert-CcIsoToVhdx". El script se pausará antes de Windows Update y tendrás la oportunidad de configurar manualmente el proxy en la máquina virtual. Después de configurar el proxy y de que la máquina virtual pueda tener acceso a Internet, puede reanudar el script para completar los pasos restantes. 
+> De forma predeterminada, la configuración de proxy no está configurada en la máquina virtual base. Si se requiere un proxy en el entorno de red para actualizar la máquina virtual a través de Windows Update, debe agregar el modificador -PauseBeforeUpdate al ejecutar "Convert-CcIsoToVhdx". El script se pausará antes de Windows Update y tendrás la oportunidad de configurar el proxy manualmente en la máquina virtual. Después de configurar el proxy y de que la máquina virtual pueda tener acceso a Internet, puede reanudar el script para completar los pasos restantes. 
 
 ### <a name="create-vhds-for-a-multi-site-deployment"></a>Crear VHD para una implementación de varios sitios
 
@@ -298,7 +298,7 @@ Set-ExecutionPolicy RemoteSigned
 > [!NOTE]
 > Esta tarea no es necesaria para las versiones 1.4.2 y posteriores de Cloud Connector. 
 
-La cuenta CceService se crea durante la implementación de Skype Empresarial Cloud Connector Edition. Ejecuta el servicio de administración de Cloud Connector y requiere permiso para desinstalar el cloudconnector.msi. Debe cambiar la configuración de directiva de grupo en el equipo host de Cloud Connector para especificar que el registro de usuarios no se debe descargar cuando el usuario cierra sesión. Siga los pasos siguientes:
+La cuenta CceService se crea durante la Skype for Business Edición de conector de nube implementación. Ejecuta el servicio de administración de Cloud Connector y requiere permiso para desinstalar el cloudconnector.msi. Debe cambiar la configuración de directiva de grupo en el equipo host de Cloud Connector para especificar que el registro de usuarios no se debe descargar cuando el usuario cierra sesión. Siga los pasos siguientes:
 
 ### <a name="to-change-the-group-policy-setting"></a>Para cambiar la configuración de directiva de grupo
 
@@ -308,10 +308,10 @@ La cuenta CceService se crea durante la implementación de Skype Empresarial Clo
 
 3. Establezca su valor en **Enabled**.
 
-## <a name="set-up-your-microsoft-365-or-office-365-organization"></a>Configurar la organización de Microsoft 365 u Office 365
+## <a name="set-up-your-microsoft-365-or-office-365-organization"></a>Configurar la organización Microsoft 365 o Office 365 organización
 
-Se requiere una organización de Microsoft 365 u Office 365 con Skype Empresarial Online y sistema telefónico. Asegúrese de que el espacio empresarial está configurado y configurado antes de intentar usar Cloud Connector.
+Se Microsoft 365 o Office 365 organización con Skype Empresarial Online y Sistema telefónico. Asegúrese de que el espacio empresarial está configurado y configurado antes de intentar usar Cloud Connector.
 
-Algunos pasos de configuración de Microsoft 365 y Office 365 requieren que use PowerShell remoto de inquilino (TRPS) para configurar su organización de Microsoft 365 u Office 365. **Esto debe instalarse en el servidor host.** Puede descargar el módulo de Skype Empresarial Online para PowerShell desde: [Skype Empresarial Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366).
+Algunos Microsoft 365 y Office 365 de configuración requieren que use PowerShell remoto de inquilino (TRPS) para configurar su Microsoft 365 o Office 365 organización. **Esto debe instalarse en el servidor host.** Puede descargar el módulo Skype Empresarial Online para PowerShell desde: [Skype Empresarial Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366).
 
-Cree una cuenta de administrador de Skype Empresarial dedicada para la administración en línea de Cloud Connector, por ejemplo, CceOnlineManagmentAdministrator. El dispositivo usará esta cuenta para agregar o quitar el dispositivo, habilitar o deshabilitar la actualización automática del sistema operativo, habilitar o deshabilitar la actualización binaria automática. Establezca la contraseña de esta cuenta para que nunca expire para que no tenga que cambiarla para el servicio cada vez que expire.
+Cree una cuenta de administrador Skype Empresarial dedicada para la administración en línea de Cloud Connector, por ejemplo CceOnlineManagmentAdministrator. El dispositivo usará esta cuenta para agregar o quitar el dispositivo, habilitar o deshabilitar la actualización automática del sistema operativo, habilitar o deshabilitar la actualización binaria automática. Establezca la contraseña de esta cuenta para que nunca expire para que no tenga que cambiarla para el servicio cada vez que expire.

@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
-description: El Asistente para certificados se usa para solicitar, asignar, quitar o ver certificados. Debe haber iniciado sesión como miembro del grupo RTCUniversalServerAdmins. No hace falta pertenecer a ningún otro grupo para solicitar un certificado a una entidad de certificación pública. Para solicitar un certificado de la infraestructura de clave pública (PKI) de su organización, debe confirmar qué pertenencias a grupos adicionales (si las hay) necesitará. Durante la tarea Solicitar, puede especificar credenciales alternativas que se usarán para solicitar el certificado a la CA emisora de la PKI.
-ms.openlocfilehash: f8c21cf141d2145e7592a0615a32eafdfa8de10e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: El Asistente para certificados se usa para solicitar, asignar, quitar o ver certificados. Debe haber iniciado sesión como miembro del grupo RTCUniversalServerAdmins. No hace falta pertenecer a ningún otro grupo para solicitar un certificado a una entidad de certificación pública. Para solicitar un certificado de la infraestructura de clave pública (PKI) de su organización, debe confirmar qué pertenencias de grupo adicionales (si las hay) que necesitará. Durante la tarea Solicitar, puede especificar credenciales alternativas que se usarán para solicitar el certificado a la CA emisora de la PKI.
+ms.openlocfilehash: 03c4cd91137f30206d7a1e2076e2e2bdf72080b9221f0857b4f2e08b5df603b8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805090"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299886"
 ---
 # <a name="certificate-wizard"></a>Asistente para certificados
  
-El Asistente para certificados se usa para **solicitar**, **asignar**, **quitar** o **ver** certificados. Debe haber iniciado sesión como miembro del grupo RTCUniversalServerAdmins. No hace falta pertenecer a ningún otro grupo para solicitar un certificado a una entidad de certificación pública. Para solicitar un certificado de la infraestructura de clave pública (PKI) de su organización, debe confirmar qué pertenencias a grupos adicionales (si las hay) necesitará. Durante la tarea Solicitar, puede especificar credenciales alternativas que se usarán para solicitar el certificado a la CA emisora de la PKI.
+El Asistente para certificados se usa para **solicitar**, **asignar**, **quitar** o **ver** certificados. Debe haber iniciado sesión como miembro del grupo RTCUniversalServerAdmins. No hace falta pertenecer a ningún otro grupo para solicitar un certificado a una entidad de certificación pública. Para solicitar un certificado de la infraestructura de clave pública (PKI) de su organización, debe confirmar qué pertenencias de grupo adicionales (si las hay) que necesitará. Durante la tarea Solicitar, puede especificar credenciales alternativas que se usarán para solicitar el certificado a la CA emisora de la PKI.
   
 Para solicitar un nuevo certificado, haga clic en  **Solicitar**.
   
@@ -45,7 +45,7 @@ Para actualizar la pantalla de asignación de certificados, haga clic en  **Actu
 Para importar un certificado que no figure en el almacén de certificados, haga clic en  **Importar certificado**.
   
 > [!NOTE]
-> La opción **Importar certificado** suele usarse para procesar un certificado que se recibe a través de un proceso distinto al de una solicitud del Asistente para certificados. Por ejemplo, el administrador de la PKI crea un certificado y hace que esté disponible para el usuario. Use **Importar certificado** para importar el certificado en el almacén de certificados del equipo y hacer que esté disponible para que Skype Empresarial Server lo asigne.
+> La opción **Importar certificado** suele usarse para procesar un certificado que se recibe a través de un proceso distinto al de una solicitud del Asistente para certificados. Por ejemplo, el administrador de la PKI crea un certificado y hace que esté disponible para el usuario. Use **Importar certificado** para importar el certificado en el almacén de certificados del equipo y que esté disponible para Skype Empresarial Server asignar.
   
 Para completar el proceso de pedir una solicitud de certificado a una entidad de certificación de la organización que precisa la aprobación de un administrador de la entidad de certificación, haga clic en **Procesar solicitud pendiente**. La solicitud de certificado aparecerá con el estado de pendiente y mostrará el número de identificación de la solicitud pendiente. Para seguir procesando un certificado que tenga el estado de pendiente, haga clic en **Actualizar** para habilitar el botón **Procesar solicitud pendiente**. El botón **Procesar solicitud pendiente** dejará de estar deshabilitado (atenuado). A continuación, puede intentar recuperar la solicitud pendiente; sin embargo, la solicitud continuará teniendo el estado de pendiente hasta que se emita el certificado o el administrador de la entidad de certificación lo deniegue. El botón no estará disponible si no quedan solicitudes pendientes válidas creadas por el Asistente para certificados.
   

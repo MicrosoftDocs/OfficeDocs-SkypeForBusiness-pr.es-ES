@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6656871e2232df82f81bfea4568cf857e4271d79
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 58994b28bbcba6d88637dbd580b822d689a55124d85987e4b50a47400512cdb9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855909"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310858"
 ---
 # <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
 

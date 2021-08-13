@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Cree o modifique vínculos de región de red, que se usan Telefonía IP empresarial control de admisión de llamadas en Skype Empresarial Server.
-ms.openlocfilehash: 5fd9657b3919e80552a82912550e7314297182cc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a332d3cb966247118d951626ac305c4a9f85e21d4b90b6011a07a1220f01170a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325473"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Crear vínculos de región de red en Skype Empresarial Server
  
@@ -29,11 +29,11 @@ Cree o modifique vínculos de región de red, que se usan Telefonía IP empresar
   
 Las regiones de una red se vinculan mediante conexiones de red WAN físicas. Un vínculo de región de red crea un vínculo entre dos regiones configuradas para el Control de admisión de llamadas (CAC) y establece las limitaciones de ancho de banda en el tráfico de audio y vídeo entre estas regiones.
   
-La topología de ejemplo tiene un vínculo entre las regiones de Norteamérica y APAC, y uno entre las regiones de EMEA y APAC. Cada uno de estos vínculos de región está restringido por el ancho de banda WAN, como se describe en la tabla Información de ancho de banda de vínculos regionales en Ejemplo: Recopilación de requisitos para el control de [admisión](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)de llamadas en Skype Empresarial Server .
+La topología de ejemplo tiene un vínculo entre las regiones de Norteamérica y APAC, y uno entre las regiones de EMEA y APAC. Cada uno de estos vínculos de región está restringido por el ancho de banda wan, como se describe en la tabla Información de ancho de banda de vínculos regionales en [Ejemplo:](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)Recopilación de requisitos para el control de admisión de llamadas en Skype Empresarial Server .
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Para crear vínculos de región de red mediante el Shell de administración de Skype Empresarial Server
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Para crear vínculos de región de red mediante Skype Empresarial Server Shell de administración
 
-1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** en Todos los programas **,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración **de Skype Empresarial Server**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 2. Ejecute el cmdlet New-CsNetworkRegionLink para crear vínculos de región de red y aplicar los correspondientes perfiles de directiva de ancho de banda. Por ejemplo, ejecute lo siguiente:
     
@@ -45,9 +45,9 @@ La topología de ejemplo tiene un vínculo entre las regiones de Norteamérica y
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Para crear vínculos de región de red mediante el Panel de control de Skype Empresarial Server
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Para crear vínculos de región de red mediante Skype Empresarial Server Panel de control
 
-1. Abra el Panel de control de Skype Empresarial Server.
+1. Abra Skype Empresarial Server Panel de control.
     
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
     
@@ -70,7 +70,7 @@ La topología de ejemplo tiene un vínculo entre las regiones de Norteamérica y
     
 10. Para terminar de crear vínculos de región de red para la topología, repita los pasos del 4 al 9 con parámetros para otras regiones.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [New-CsNetworkRegionLink](/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   

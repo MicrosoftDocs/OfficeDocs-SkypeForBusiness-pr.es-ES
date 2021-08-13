@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Al ejecutar el cmdlet Move-CsUser, puede experimentar un error porque la información de usuario entre los Servicios de dominio de Active Directory (AD DS) y las bases de datos de Skype Empresarial Server 2019 no están sincronizadas porque la replicación inicial está incompleta. El tiempo que se tarda en completar correctamente la sincronización inicial del servicio replicador de usuarios de Skype Empresarial Server 2019 depende del número de controladores de dominio hospedados en el bosque de Active Directory que hospeda el grupo de servidores de Skype Empresarial Server 2019. El proceso de sincronización inicial del servicio replicador de usuarios de Skype Empresarial Server 2019 se produce cuando el servidor front-end de Skype Empresarial Server 2019 se inicia por primera vez. Tras ello, la sincronización se basa en el intervalo del replicador de usuarios. Realice los siguientes pasos para verificar que se haya completado la replicación de usuario antes de ejecutar el cmdlet Move-CsUser.
-ms.openlocfilehash: 5aa832216cc5eddce1d80cc9401ec9992c9edbf1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Al ejecutar el cmdlet Move-CsUser, puede experimentar un error porque la información de usuario entre los Servicios de dominio de Active Directory (AD DS) y las bases de datos de Skype Empresarial Server 2019 no están sincronizadas porque la replicación inicial está incompleta. El tiempo necesario para completar correctamente la sincronización inicial del servicio replicador de usuarios de Skype Empresarial Server 2019 depende del número de controladores de dominio hospedados en el bosque de Active Directory que hospeda el grupo de servidores de Skype Empresarial Server 2019. El Skype Empresarial Server de sincronización inicial del servicio replicador de usuarios de Skype Empresarial Server 2019 se produce cuando se inicia por primera vez el servidor front-end de Skype Empresarial Server 2019. Tras ello, la sincronización se basa en el intervalo del replicador de usuarios. Realice los siguientes pasos para verificar que se haya completado la replicación de usuario antes de ejecutar el cmdlet Move-CsUser.
+ms.openlocfilehash: 0fe1c205b04ed32f5ac4281e555d5a44262905aa23b74eb69148d447337b59f7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751652"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325687"
 ---
 # <a name="verify-user-replication-has-completed"></a>La comprobación de la replicación del usuario ha finalizado
 
-Al ejecutar el cmdlet **Move-CsUser,** puede producirse un error si la información de usuario entre los Servicios de dominio de Active Directory (AD DS) y las bases de datos de Skype Empresarial Server 2019 no están sincronizadas porque la replicación inicial está incompleta. El tiempo que se tarda en completar correctamente la sincronización inicial del servicio replicador de usuarios de Skype Empresarial Server 2019 depende del número de controladores de dominio hospedados en el bosque de Active Directory que hospeda el grupo de servidores de Skype Empresarial Server 2019. El proceso de sincronización inicial del servicio replicador de usuarios de Skype Empresarial Server 2019 se produce cuando se inicia por primera vez el servidor front-end de Skype Empresarial Server 2019. Después, la sincronización se basa en el intervalo de replicador de usuarios. Complete los pasos siguientes para comprobar que la replicación de usuarios se ha completado antes de ejecutar el cmdlet **Move-CsUser.** 
+Al ejecutar el cmdlet **Move-CsUser,** puede experimentar un error si la información de usuario entre los Servicios de dominio de Active Directory (AD DS) y las bases de datos de Skype Empresarial Server 2019 no están sincronizadas porque la replicación inicial está incompleta. El tiempo necesario para completar correctamente la sincronización inicial del servicio replicador de usuarios de Skype Empresarial Server 2019 depende del número de controladores de dominio hospedados en el bosque de Active Directory que hospeda el grupo de servidores de Skype Empresarial Server 2019. El Skype Empresarial Server de sincronización inicial del servicio replicador de usuarios de Skype Empresarial Server 2019 se produce cuando se inicia por primera vez el servidor front-end de Skype Empresarial Server 2019. Después, la sincronización se basa en el intervalo del replicador de usuarios. Complete los pasos siguientes para comprobar que la replicación del usuario se ha completado antes de ejecutar el cmdlet **Move-CsUser.** 
   
 ### <a name="to-verify-that-user-replication-has-completed"></a>Para comprobar que la replicación de usuarios se ha completado
 
@@ -30,7 +30,7 @@ Al ejecutar el cmdlet **Move-CsUser,** puede producirse un error si la informaci
     
 3. Escriba **eventvwr.exe** y, a continuación, haga clic en **Aceptar**.
     
-4. En el Visor de eventos, haga clic **en** Registros de aplicaciones y servicios para expandirlo y, a continuación, seleccione Skype Empresarial Server. 
+4. En el Visor de eventos, **haga clic en Registros de aplicaciones** y servicios para expandirlo y, a continuación, seleccione Skype Empresarial Server. 
     
 5. En el panel **Acciones**, haga clic en **Filtrar registro actual**.
     
@@ -38,6 +38,6 @@ Al ejecutar el cmdlet **Move-CsUser,** puede producirse un error si la informaci
     
 7. En **\<All Event IDs\>** , escriba **30024** y, a continuación, haga clic en **Aceptar**. 
     
-8. En la lista de eventos filtrados, en la pestaña **General,** busque una entrada que indica que la replicación de usuarios se ha completado correctamente. 
+8. En la lista de eventos filtrados, en la **pestaña General,** busque una entrada que indica que la replicación del usuario se ha completado correctamente. 
     
 

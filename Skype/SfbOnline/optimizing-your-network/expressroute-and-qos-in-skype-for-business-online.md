@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: b6f2ecbf53ab4fc7e2bb066b8eaf4e167a81f181
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0dd1b95006dcc493baa46a31ea34c5aaff1465010146c16926c9af151e6442af
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237186"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325667"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute y QoS en Skype Empresarial Online
 

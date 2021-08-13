@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateUpdating
 description: La validación de direcciones es una parte importante de la configuración de planes de llamadas. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
-ms.openlocfilehash: 2bc70c06ac5423864f7861fc44bbb2529a3d04f2
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 844c33efae8ce0492b55ea597fdf82e38356bd2462f67640f4e823728453bab1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237796"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325557"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>¿Por qué la activación del número se incluye como actualizándose?
 
@@ -96,7 +96,7 @@ La validación de direcciones es una parte importante de la configuración de pl
 8. Revise la información y, a continuación, haga clic en **Submit request** (Enviar solicitud).
     
 > [!TIP]
-> El número de referencia se mostrará en la **página Solicitudes de** servicio del centro de Microsoft 365 administración.
+> El número de referencia se mostrará en la **página Solicitudes de** servicio del Centro de administración de Microsoft 365.
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
-description: En este tema se analizan los procedimientos de implementación para usar Skype Empresarial al conectarse a un escritorio virtual remoto.
-ms.openlocfilehash: 6db05fb3bcd9638a3181eb454de3a3097831b997
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: En este tema se deba a los procedimientos de implementación para usar Skype Empresarial mientras se conecta a un escritorio virtual remoto.
+ms.openlocfilehash: 0a1e96db4dd59d57ea89a84624c3a103fb73669179130e82030d00b9943e0fb4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096004"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325517"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Implementar el complemento VDI de Lync con Skype Empresarial Server
  
-En este tema se analizan los procedimientos de implementación para usar Skype Empresarial al conectarse a un escritorio virtual remoto. Las consideraciones de planeación se [encuentran en Plan for Skype for Business in VDI environments](../../plan-your-deployment/clients-and-devices/vdi-environments.md).
+En este tema se deba a los procedimientos de implementación para usar Skype Empresarial mientras se conecta a un escritorio virtual remoto. Las consideraciones de planeación se encuentran en [Plan for Skype Empresarial en entornos VDI](../../plan-your-deployment/clients-and-devices/vdi-environments.md).
   
-Un entorno de infraestructura de escritorio virtual (VDI) se usa en algunas organizaciones donde los problemas de seguridad y cumplimiento son especialmente confidenciales. Sus usuarios están en equipos windows locales y usan clientes en un escritorio virtual. El uso de Skype Empresarial en una conexión como esa requiere software de complemento VDI adicional.
+Un Infraestructura de escritorio virtual (VDI) se usa en algunas organizaciones donde los problemas de seguridad y cumplimiento son especialmente confidenciales. Sus usuarios están en equipos Windows locales y usan clientes en un escritorio virtual. El Skype Empresarial en una conexión como esa requiere software de complemento VDI adicional.
   
 Hay dos soluciones disponibles para el componente de complemento VDI: una ofrecida por Microsoft y otra ofrecida por Citrix. Microsoft recomienda usar la nueva solución HDX RealTime Optimization Pack en nuevas implementaciones, pero seguirá siendo compatible con el complemento VDI de Lync original durante el resto de su ciclo de vida. 
   
@@ -34,7 +34,7 @@ En este tema se proporcionan detalles sobre la implementación del complemento V
 
 1. En Skype Empresarial Server, asegúrese de que EnableMediaRedirection está establecido en TRUE para todos los usuarios de complementos de Lync VDI. Para obtener más información, consulte los temas de ayuda para el cmdlet [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) y el cmdlet [Set-CsClientPolicy.](/powershell/module/skype/set-csclientpolicy?view=skype-ps)
     
-2. En el servidor del centro de datos, instale el cliente de Skype Empresarial en todos los escritorios virtuales.
+2. En el servidor del centro de datos, instale el Skype Empresarial en todos los escritorios virtuales.
     
 3. En los equipos locales, instale el complemento VDI de Lync.
     
@@ -45,7 +45,7 @@ En este tema se proporcionan detalles sobre la implementación del complemento V
 
 Para preparar la conexión de Escritorio remoto para el complemento VDI de Lync, siga estos pasos en el equipo local:
   
-1. Si el equipo local ejecuta Windows 8, omita este paso. Si el equipo local ejecuta Windows 7 con SP1, instale la versión más reciente de Windows 8 del cliente de [Servicios de Escritorio remoto](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients).
+1. Si el equipo local está ejecutando Windows 8, omita este paso. Si el equipo local se ejecuta Windows 7 con SP1, instale la versión Windows 8 del cliente de Servicios [de Escritorio remoto](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients).
     
 2. Inicie el cliente de servicios de escritorio remoto haciendo clic en **Iniciar** y después en **Conexión a escritorio remoto**.
     
@@ -63,16 +63,16 @@ Para preparar la conexión de Escritorio remoto para el complemento VDI de Lync,
     
 6. Haga clic en **la pestaña General.** En **Equipo**, escriba el nombre del escritorio virtual y, a continuación, haga clic **en Conectar**. 
     
-## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>Iniciar sesión y usar Skype Empresarial en el escritorio virtual
+## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>Inicie sesión y use Skype Empresarial en el escritorio virtual
 <a name="SfB_signin"> </a>
 
-Una vez habilitado el complemento VDI de Lync, el usuario sigue estos pasos al iniciar sesión en Skype Empresarial en el escritorio virtual.
+Una vez habilitado el complemento VDI de Lync, el usuario sigue estos pasos al iniciar sesión Skype Empresarial en el escritorio virtual.
   
-1. El usuario usa sus credenciales en el cliente de Skype Empresarial que se ejecuta en el escritorio virtual.
+1. El usuario teme sus credenciales en el Skype Empresarial que se ejecuta en el escritorio virtual.
     
-2. Después de que Skype Empresarial detecte el complemento VDI de Lync, Skype Empresarial solicita al usuario que vuelva a escribir las credenciales. En este cuadro de diálogo, conviene seleccionar la casilla **Guardar mi contraseña** para que no tener que escribir las credenciales en inicios de sesión posteriores.
+2. Después Skype Empresarial detectar el complemento VDI de Lync, Skype Empresarial solicita al usuario que vuelva a escribir las credenciales. En este cuadro de diálogo, conviene seleccionar la casilla **Guardar mi contraseña** para que no tener que escribir las credenciales en inicios de sesión posteriores.
     
-3. Skype Empresarial comienza el emparejamiento con el complemento VDI de Lync. Mientras esto sucede, el cliente muestra dos iconos en la barra de estado de Skype Empresarial. El icono de la parte inferior izquierda indica que no hay dispositivos de audio disponibles y el icono parpadeante de la parte inferior derecha indica que el emparejamiento de VDI está en curso: a. Una vez que el emparejamiento de VDI se realiza correctamente, los iconos cambian para indicar el dispositivo de audio que se usará para las llamadas y el emparejamiento de VDI correctamente: b. El usuario ahora puede ver su presencia en dispositivos compatibles con Skype Empresarial que están conectados al equipo local y realizar y responder llamadas como de costumbre.
+3. Skype Empresarial inicia el emparejamiento con el complemento VDI de Lync. Mientras esto sucede, el cliente muestra dos iconos en la Skype Empresarial de estado. El icono de la parte inferior izquierda indica que no hay dispositivos de audio disponibles y el icono parpadeante de la parte inferior derecha indica que el emparejamiento de VDI está en curso: a. Una vez que el emparejamiento de VDI se realiza correctamente, los iconos cambian para indicar el dispositivo de audio que se usará para las llamadas y el emparejamiento de VDI correctamente: b. El usuario ahora puede ver su presencia en Skype Empresarial dispositivos compatibles que están conectados al equipo local y realizar y responder llamadas como de costumbre.
     
 ## <a name="troubleshoot-the-lync-vdi-plug-in"></a>Solucionar problemas del complemento VDI de Lync
 <a name="tshoot_VDI"> </a>
@@ -95,7 +95,7 @@ Los siguientes son posibles motivos de errores y las acciones que puede realizar
   
 - **El usuario ha especificado credenciales incorrectas durante el inicio de sesión.**
     
-    El usuario debe cerrar sesión en Skype Empresarial e iniciar sesión de nuevo con las credenciales correctas. Volverá a aparecer el cuadro de diálogo de emparejamiento para mostrar si el emparejamiento se ha llevado a cabo correctamente.
+    El usuario debe cerrar sesión Skype Empresarial e iniciar sesión de nuevo con las credenciales correctas. Volverá a aparecer el cuadro de diálogo de emparejamiento para mostrar si el emparejamiento se ha llevado a cabo correctamente.
     
 - **Se está ejecutando otra instancia del cliente de escritorio remoto.**
     
@@ -117,11 +117,11 @@ Los siguientes son posibles motivos de errores y las acciones que puede realizar
     
   - UcVdi.dll
     
-- **El cliente de Skype Empresarial se está ejecutando en el equipo local.**
+- **El Skype Empresarial se ejecuta en el equipo local.**
     
-    Para usar el complemento VDI de Lync, un cliente de Skype Empresarial no debe ejecutarse en el equipo local, de lo contrario, se producirá un error en el emparejamiento. Como práctica recomendada, el usuario no debe instalar un cliente de Skype Empresarial en el equipo local.
+    Para usar el complemento VDI de Lync, un cliente de Skype Empresarial no debe ejecutarse en el equipo local, de lo contrario se producirá un error en el emparejamiento. Como procedimiento recomendado, el usuario no debe instalar un Skype Empresarial en el equipo local.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 <a name="tshoot_VDI"> </a>
 
-[Planeación de Skype Empresarial en entornos VDI](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+[Planeación de Skype Empresarial entornos VDI](../../plan-your-deployment/clients-and-devices/vdi-environments.md)

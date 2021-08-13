@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: 'Obtenga información sobre lo que puede y no puede usar en Skype Empresarial de administración y otras características cuando el servicio se migra a otro centro de datos de Microsoft. '
-ms.openlocfilehash: 725a60be96a2d61bcec6367e1a0a33f2bc5dcee6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f00f349a42ddea2de1019d206cc2097f1e7b29eaca78e5e0e19c1996f3782f43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238921"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300426"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>¿Por qué no puedo usar el Skype Empresarial de administración en línea en este momento?
 
@@ -48,7 +48,7 @@ En primer lugar, vamos a dividir algunos términos.
     
 - **Migrar** Esto es prácticamente lo mismo que "moverse". En este caso, significa que estamos moviendo la configuración y los usuarios de Skype Empresarial Online de un centro de datos a otro que está más cerca de usted para mejorar su servicio.
     
-- **Latencia** Esta es la cantidad de tiempo que tarda en acceder al centro de administración de Microsoft 365, realizar un cambio de configuración y, a continuación, guardar esos cambios.
+- **Latencia** Esto es la cantidad de tiempo que se tarda en acceder a la Centro de administración de Microsoft 365, realizar un cambio de configuración y, a continuación, guardar esos cambios.
     
 - **Id. de correlación** Es posible que haya visto esto en el mensaje del que acaba de llegar. Los ingenieros de soporte técnico de Microsoft usan esta información para ayudarle a solucionar un error. Si se contacta con el soporte técnico de Microsoft, es posible que se le pida el Id. de correlación.
     

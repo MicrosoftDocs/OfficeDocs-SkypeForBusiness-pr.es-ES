@@ -1,5 +1,5 @@
 ---
-title: Habilitar el estacionamiento de llamadas para los usuarios de Skype Empresarial
+title: Habilitar estacionamiento de llamadas para usuarios en Skype Empresarial
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
-description: Habilite a los usuarios para el estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: e9bbc42f5940af0cfc94ab83eae981dd023c9fcd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Habilitar usuarios para estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: 6ff85008481a1742fd0092aa83361917fd4cbf0795ec52304acc10631f00d621
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300326"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar el estacionamiento de llamadas para los usuarios de Skype Empresarial
+# <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar estacionamiento de llamadas para usuarios en Skype Empresarial
  
-Habilite a los usuarios para el estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
+Habilitar usuarios para estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
   
-De forma predeterminada, el estacionamiento de llamadas está deshabilitado para todos los usuarios. Los usuarios no pueden estacionar llamadas ni recuperar llamadas estacionadas hasta que estén habilitados para el estacionamiento de llamadas en la directiva de voz.
+De forma predeterminada, el estacionamiento de llamadas está deshabilitado para todos los usuarios. Los usuarios no pueden estacionar llamadas ni recuperar llamadas estacionadas hasta que estén habilitadas para el estacionamiento de llamadas en la directiva de voz.
   
-Puede habilitar el estacionamiento de llamadas en el ámbito global, en el ámbito de sitio o de usuario. El ámbito de usuario tiene prioridad sobre el ámbito de sitio y el ámbito de sitio tiene prioridad sobre el ámbito global. Si tiene varias directivas de voz, revise todas las directivas para habilitar el estacionamiento de llamadas, no solo la directiva global.
+Puede habilitar el estacionamiento de llamadas en el ámbito global, en el ámbito del sitio o en el ámbito de usuario. El ámbito de usuario tiene prioridad sobre el ámbito de sitio y el ámbito de sitio tiene prioridad sobre el ámbito global. Si tiene varias directivas de voz, revise todas las directivas para habilitar el estacionamiento de llamadas, no solo la directiva global.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Para usar el Panel de control de Skype Empresarial Server para habilitar el estacionamiento de llamadas para los usuarios
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Para usar Skype Empresarial Server panel de control para habilitar el estacionamiento de llamadas para los usuarios
 
 1. Inicie sesión en el equipo como miembro del grupo **RTCUniversalServerAdmins**, o bien como miembro del rol administrativo **CsVoiceAdministrator**, **CsServerAdministrator** o **CsAdministrator**.
     
-2. Abra el Panel de control de Skype Empresarial Server.
+2. Abra Skype Empresarial Server Panel de control.
     
 3. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz**.
     
@@ -47,13 +47,13 @@ Puede habilitar el estacionamiento de llamadas en el ámbito global, en el ámbi
     
 7. Haga clic en **Aceptar** para guardar la directiva de voz.
     
-### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Para usar cmdlets para habilitar el estacionamiento de llamadas para los usuarios
+### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Para usar cmdlets para habilitar el estacionamiento de llamadas para usuarios
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o bien como miembro del rol administrativo CsVoiceAdministrator, CsServerAdministrator o CsAdministrator.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** en Skype Empresarial **2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
-3. Ejecute:
+3. Ejecutar:
     
    ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
@@ -65,7 +65,7 @@ Puede habilitar el estacionamiento de llamadas en el ámbito global, en el ámbi
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

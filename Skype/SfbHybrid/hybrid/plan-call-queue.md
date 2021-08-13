@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre cómo usar un operador automático de nube Skype Empresarial Server 2019.
-ms.openlocfilehash: 79682e7079519c2c9532aecdd79a43a6d2e8b30b
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: fa1807c272c8d9bba8ae406a87dc55589560d870da5b59fc093c2d9d1a2933e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509811"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300516"
 ---
 # <a name="plan-cloud-call-queues"></a>Plan de colas de llamadas en la nube
 
@@ -35,7 +35,7 @@ A cada cola de llamadas se le asigna una cuenta de recursos **(consulte** [Confi
 > [!NOTE]
 > Puede asignar varios números de teléfono a una cola de llamadas, pero deben ser números de servicio de Microsoft, números de enrutamiento directo o números híbridos.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Los siguientes requisitos suponen que ya Skype Empresarial Server 2019 implementado en una topología compatible.  Los requisitos dependen del escenario:
 
@@ -53,7 +53,7 @@ Además de los requisitos anteriores, los siguientes requisitos deben configurar
 
 Cuando tenga una estructura sólida que satisfaga sus necesidades y un script que guía a los clientes de forma eficiente, vaya a  [Configurar cuentas de recursos](configure-onprem-ra.md).
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 [Configurar cuentas de recursos](configure-onprem-ra.md)
 

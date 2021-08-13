@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 98739cb8-829e-4baf-90f4-597cb894521e
 description: SyndicatorsTable es únicamente para uso interno. Esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: c1aaadba404a1f3a82ef5a4e7b4b0108697ef79a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f829f97ce48999a74288f727bf371632b866ee6e9c6303cc3f41a062cdf0bd08
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341695"
 ---
 # <a name="syndicators-table"></a>Tabla Syndicators
  

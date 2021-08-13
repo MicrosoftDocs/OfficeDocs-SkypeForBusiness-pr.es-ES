@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para agregar más direcciones URL sencillas a la definición de la implementación, indique la dirección URL de la nueva dirección URL sencilla.
-ms.openlocfilehash: 41cd5c4698157a9dde2d8c357a5b8aba753495f3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 962f3fbac8314eedb5df5416c7a68027ef3d2862f3c6f0c4bc906576328f0c16
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835840"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314736"
 ---
 # <a name="add-simple-url"></a>Agregar dirección URL simple
  
 Para agregar más direcciones URL sencillas a la definición de la implementación, indique la dirección URL de la nueva dirección URL sencilla. El formato de la dirección URL _es http:// \<simple URL type\> . \<domain name\>_ o _http:// \<domain name\> / \<simple URL type\>_, donde el tipo de dirección URL simple es uno de los siguientes:
   
-- Meet
+- Reunirse
     
 - Acceso telefónico local
     
