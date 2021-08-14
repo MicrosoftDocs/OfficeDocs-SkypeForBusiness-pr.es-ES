@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 ROBOTS: NOINDEX, NOFOLLOW
-description: El panel Información de la organización permite especificar el nombre de la organización y una unidad organizativa (normalmente la división o departamento) que solicita el certificado. La información que escriba en los cuadros de texto Organización y Unidad organizativa aparece en el certificado y se usa para identificar quién solicitó el certificado, cuando otros usuarios ven el certificado.
-ms.openlocfilehash: 6d57fce9ed94c915d4b8da1cc0791f72ccab4089
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: El panel Información de la organización permite especificar el nombre de la organización y una unidad organizativa (OU) (normalmente la división o departamento) que solicita el certificado. La información que escriba en los cuadros de texto Organización y Unidad organizativa aparece en el certificado y se usa para identificar quién solicitó el certificado, cuando el certificado lo ven otros usuarios.
+ms.openlocfilehash: 5140b4030f207c0ce677108ed6b8364225bf4d12c4a3008d122432772e40841e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836810"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330484"
 ---
 # <a name="certificate-request-organization-information"></a>Solicitud de certificados (información de la organización)
  
-El **panel Información de** la organización permite especificar el nombre de la organización y una unidad organizativa (normalmente la división o departamento) que solicita el certificado. La información que escriba  en  los cuadros de texto Organización y Unidad organizativa aparece en el certificado y se usa para identificar quién solicitó el certificado, cuando el certificado lo ven otros usuarios.
+El **panel Información de** la organización permite especificar el nombre de la organización y una unidad organizativa (OU) (normalmente la división o departamento) que solicita el certificado. La información que escriba  en  los cuadros de texto Organización y Unidad organizativa aparece en el certificado y se usa para identificar quién solicitó el certificado, cuando el certificado lo ven otros usuarios.
   
 > [!NOTE]
-> El nombre de unidad organizativa de un certificado no es necesariamente el mismo que el de una unidad organizativa en los Servicios de dominio de Active Directory. Según cómo haya configurado Active Directory, el nombre que use puede ser o no el mismo. 
+> El nombre de unidad organizativa de un certificado no es necesariamente el mismo que una ou en los servicios de dominio de Active Directory. Según cómo haya configurado Active Directory, el nombre que use puede o no ser el mismo. 
   
 

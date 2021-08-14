@@ -1,5 +1,5 @@
 ---
-title: Usuarios ver o configurar directiva de PIN
+title: Usuarios Ver o configurar directiva de PIN
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 5b71f396a448904b40a5428c2ad5b499857d0690
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: db8dde1d7db1b5ed3b200146f06eaaa2d3103bf0297b64f276353bf5167b433c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808000"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328595"
 ---
 # <a name="users-view-or-configure-pin-policy"></a>Usuarios: Ver o configurar directiva de PIN
  

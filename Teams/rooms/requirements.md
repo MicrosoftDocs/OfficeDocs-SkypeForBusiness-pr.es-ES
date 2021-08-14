@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre los requisitos para admitir Salas de Microsoft Teams, como elegir el dispositivo, los micrófonos, los altavoces, las cámaras y las pantallas adecuados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17f791298d86bfc6988899a2e090d0d11651e91558bc14c23d515c75ad91cce0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b0e7b0a80b188fb7b4abc5ba95473aa6e55f17c
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348825"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234225"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -75,6 +75,7 @@ Todos los dispositivos y paquetes actuales de la Sala de Microsoft Teams están 
   |[Partner de sector de HP listo con Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB| 
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
+  |Lenovo ThinkSmart Core Kit |Core i5|8 GB|128 GB|
   |[Logitech Tap con Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |Logitech Tap e Intel Tiger Canyon NUC PC |Core i5|8 GB|128 GB|
   |[Logitech Tap y Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
@@ -189,6 +190,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Sennheiser TCC2 Micrófono de techo]() +</br> [QSC EnergyStar Power Amplifier SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Conmutador de red de la serie NS de Q-SYS NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC Column Surface mount Speakers AD-C6T-LP](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) +</br> [Cámara QSC PTZ 20x60](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |Diseñador de preguntas y respuestas: 8.4.0.1 </br> <br> TCC2: 1.5.1 Dante 1.2.0 </br>  <br> N/D </br>  <br>N1100v6.4.2.8 </br> N/D </br> <br> 6.3.2.2|
 |[Procesador QSC Q-SYS Core 8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/) +</br> [Cámara QSC PTZ 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) +</br> [Sennheiser TCC2 Micrófono de techo](https://sennheiser.com/tcc2) +</br> [Altavoz de techo QSC AD-C6T-LP](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/ad-c6t-lp/) |QSC PTZ IP 20x60 Cámara: 9.0 </br> QSC Q-SYS Core 8-Flex: Diseñador de Q-SYS 9.0.1-2104.002 </br> QSC Q-SYS Nano: Diseñador de Q-SYS 9.0.1-2104.002 </br> Sennheiser TCC2 Micrófono de techo: TCC2 - 1.5.1 Dante 1.2.0 </br> Amplificadores EnergyStar de la serie SPA: N/A </br> Altavoces de la serie AcousticDesign: N/A|
 |[Procesador QSC Q-SYS Core Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) +</br> [Cámara QSC PTZ 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) +</br> [Sennheiser TCC2 Micrófono de techo](https://sennheiser.com/tcc2) +</br> [Altavoz de techo QSC AD-C6T-LP](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/ad-c6t-lp/) |QSC PTZ IP 20x60 Cámara: 9.0 </br> QSC Q-SYS Core 8-Flex: Diseñador de Q-SYS 9.0.1-2104.002 </br> QSC Q-SYS Nano: Diseñador de Q-SYS 9.0.1-2104.002 </br> Sennheiser TCC2 Micrófono de techo: TCC2 - 1.5.1 Dante 1.2.0 </br> Amplificadores EnergyStar de la serie SPA: N/A </br> Altavoces de la serie AcousticDesign: N/A|
+|[Cámara QSC PTZ IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) +</br> [Procesador QSC Q-SYS NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/) +</br> [Sennheiser TCC2 Micrófono de techo](https://sennheiser.com/tcc2) +</br> [QSC EnergyStar Power Amplifier SPA2-60](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/spa2-60/) o [QSC CX-Q 2K4 Network Amplifier](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-network-amplifiers/cx-q-series/cx-q-2k4/) +</br> [Conmutador de red serie NS de Q-SYS NS-1108P Netgear M4250-10G2XF](https://www.qsc.com/solutions-products/q-sys-ecosystem/networking/ns-series-network-switches/) +</br> [Altavoces de la serie AcousticDesign](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/surface-mount/acousticdesign-series/) +</br> QSC Q-Sys I/O USB Bridge |QSC PTZ IP 12x72 Cámara: 9.0 </br> Diseñador de Q-SYS 9.0.1-2104.002 </br> TCC2 - 1.5.1 Dante 1.2.0 </br> QSC EnergyStar Power Amplifier SPA2-60: N/A </br> QSC CX-Q 2K4 Network Amplifier: N/A </br> Conmutador de red serie NS de Q-SYS NS-1108P Netgear M4250-10G2XF: N1100v6.4.2.8 </br> Altavoces de la serie AcousticDesign: N/A </br> QSC Q-Sys I/O USB Bridge: Software de diseñador de Q-SYS 9.0.1|
 
 
 &Dagger; Los clientes pueden elegir la interfaz Dante o el conmutador de red recomendado por Biamp/Sennheiser para este paquete.

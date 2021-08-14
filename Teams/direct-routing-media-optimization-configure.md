@@ -1,5 +1,5 @@
 ---
-title: Optimización de medios locales de enrutamiento directo
+title: Configurar la optimización de medios locales para el enrutamiento directo en Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurar la optimización de medios locales para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b617ab6721b940756f1d2bc8c758f1eff39e38463dd01380bef9cebb48f09c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf370087d109ebd12da150af44d2f13b455f4f6e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318493"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235365"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurar la optimización de medios locales para enrutamiento directo
 
@@ -111,7 +111,7 @@ Todos los parámetros distinguen entre mayúsculas y minúsculas, por lo que deb
 
 ### <a name="define-network-regions"></a>Definir regiones de red
 
-Para definir regiones de red, use el cmdlet New-CsTenantNetworkRegion red. El parámetro Id.región es un nombre lógico que representa la geografía de la región y no tiene dependencias ni restricciones. El parámetro CentralSite <site ID> es opcional.
+Para definir regiones de red, use el cmdlet New-CsTenantNetworkRegion red. El parámetro Id.región es un nombre lógico que representa la geografía de la región y no tiene dependencias ni restricciones. El parámetro CentralSite `<site ID>` es opcional.
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -262,7 +262,7 @@ Nota: Dado que un usuario puede tener varios puntos de conexión, no es posible 
 
 En el siguiente diagrama se muestra la escala SIP para las llamadas entrantes con el modo AlwaysBypass y el usuario se encuentra en la misma ubicación que el SBC.
 
-![Diagrama que muestra la escala SIP](media/direct-routing-media-op-11.png)
+![Diagrama que muestra la escala SIP.](media/direct-routing-media-op-11.png)
 
 
 #### <a name="outbound-calls-and-the-user-is-external-with-always-bypass"></a>Llamadas salientes y el usuario es externo con Omitir siempre
@@ -274,7 +274,7 @@ AlwaysBypass |  Externo |  N/D | Saliente |
 
 En el siguiente diagrama se muestra la escala SIP para una llamada saliente con el modo AlwaysBypass y el usuario es externo:
 
-![Diagrama que muestra la escala SIP](media/direct-routing-media-op-12.png)
+![Diagrama muestra la escala SIP.](media/direct-routing-media-op-12.png)
 
 En la tabla siguiente se muestran los encabezados X-MS enviados por el servicio de enrutamiento directo:
 
@@ -294,7 +294,7 @@ Para una llamada entrante, el SBC conectado a Enrutamiento directo debe enviar u
 
 En el siguiente diagrama se muestra la escala SIP de una llamada entrante con el modo AlwaysBypass y el usuario es externo.
 
-![Diagrama que muestra la escala SIP](media/direct-routing-media-op-13.png)
+![Diagrama que muestra de nuevo la escala SIP.](media/direct-routing-media-op-13.png)
 
 
 ### <a name="only-for-local-users-mode"></a>Solo para el modo de usuarios locales
@@ -322,7 +322,7 @@ En la tabla siguiente se muestra la configuración y la acción del usuario fina
 
 En el siguiente diagrama se muestra una llamada saliente con el modo OnlyForLocalUsers y el usuario se encuentra en la misma ubicación que el SBC. Este es el mismo flujo que se muestra en las llamadas salientes cuando el [usuario se encuentra en la misma ubicación que el SBC.](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![Diagrama que muestra la escala SIP](media/direct-routing-media-op-14.png)
+![Diagrama muestra de nuevo la escala SIP.](media/direct-routing-media-op-14.png)
 
 
 #### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>Las llamadas entrantes y el usuario se encuentra en la misma ubicación que el SBC con solo para usuarios locales
@@ -333,7 +333,7 @@ En el siguiente diagrama se muestra una llamada saliente con el modo OnlyForLoca
 
 En el siguiente diagrama se muestra una llamada entrante con el modo OnlyForLocalUsers y el usuario se encuentra en la misma ubicación que el SBC. Este es el mismo flujo que se muestra en Las llamadas entrantes cuando el [usuario se encuentra en la misma ubicación que el SBC.](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![Diagrama que muestra la escala SIP](media/direct-routing-media-op-15.png)
+![Otro diagrama que muestra la escala SIP.](media/direct-routing-media-op-15.png)
 
 
 #### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>El usuario no está en la misma ubicación que el SBC, pero está en la red corporativa con Solo para usuarios locales
@@ -347,7 +347,7 @@ El enrutamiento directo calcula X-MediaPath en función de la ubicación notific
 
 En el siguiente diagrama se muestra una llamada saliente con el modo OnlyForLocalUsers y un usuario interno que no se encuentra en la misma ubicación que el SBC.
 
-![Diagrama que muestra la escala SIP](media/direct-routing-media-op-16.png)
+![Otro diagrama muestra la escala SIP.](media/direct-routing-media-op-16.png)
 
 
 #### <a name="inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users"></a>La llamada entrante y el usuario es interno, pero no se encuentra en la misma ubicación que el SBC con solo para usuarios locales
@@ -358,7 +358,7 @@ En el siguiente diagrama se muestra una llamada saliente con el modo OnlyForLoca
 
 En el siguiente diagrama se muestra una llamada entrante con el modo OnlyForLocalUsers y un usuario interno que no se encuentra en la misma ubicación que el SBC.
 
-![Diagrama que muestra la escala SIP](media/direct-routing-media-op-17.png)
+![Sin embargo, otro diagrama que muestra la escala SIP.](media/direct-routing-media-op-17.png)
 
 
 

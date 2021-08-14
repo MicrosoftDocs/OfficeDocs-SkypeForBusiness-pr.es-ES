@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudar con la supervisión y solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eba1acc94f87e59991230a85054cad14678efc9c92b8efa96567b81ef4e65ed6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a39078371ffa30caab6ee43df90bc825c4c081a3
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350902"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235325"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Use archivos de registro para supervisar y solucionar problemas Microsoft Teams
 
@@ -114,7 +114,6 @@ Consulte la _sección Recopilar y habilitar el registro_ para obtener Windows y 
 Para recopilar registros para Linux: Haga clic en el icono Microsoft Teams en la bandeja del sistema y seleccione **Obtener registros.**
 Los archivos estarán disponibles en ~/.config/Microsoft/Microsoft Teams/logs.txt.  
 
-
 ## <a name="browser-trace"></a>Seguimiento del explorador
 
 Para algunas categorías de errores, es posible que el soporte técnico de Microsoft requiera que recopile un seguimiento del explorador. Esta información puede proporcionar detalles importantes sobre el estado del Teams cliente cuando se produce el error.
@@ -132,7 +131,22 @@ Después de haber iniciado sesión, seleccione uno de los vínculos siguientes, 
 -   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
 
 > [!NOTE]
-> En los pasos, reemplace todas las referencias a Azure Portal por el Teams cliente. 
+> En los pasos, reemplace todas las referencias a Azure Portal por el Teams cliente.
+  
+## <a name="webrtc-logs-in-browsers"></a>Registros webRTC en exploradores
+Los registros webRTC pueden ayudar al soporte técnico de Microsoft proporcionando detalles de conexión para llamadas de audio y vídeo. Siga los pasos para obtener acceso a los registros webRTC en Edge (Chromium) o Chrome: 
+  
+1.  Abra una pestaña nueva y vaya a una de las siguientes direcciones URL:
+    -   Edge (Chromium): "edge://webrtc-internals/"
+    -   Chrome: "chrome://webrtc-internals/"
+  
+2.  Abra la Teams web y reproduzca el problema.
+  
+3.  Vuelva a la pestaña a la que se tuvo acceso en el paso 1 y verá al menos dos pestañas:
+    -   Solicitudes de GetUserMedia
+    -   https://teams.microsoft.com/url
+
+4.  Elija la pestaña con el nombre de la Teams y guarde el contenido de la página.
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -19,15 +19,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0acdfe123a8cd92dab773f5de2e831782d82473273ad01b32847cb5052d7f6c7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3bea5bda6f0a03fdd058898361d6cbaa787ae874
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299407"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234625"
 ---
-<a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
-==============================================================
+# <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 
 Esta guía le ayudará a poner en marcha un conjunto de usuarios para que puedan explorar planes de llamadas en Teams.
 
@@ -40,7 +39,7 @@ Al agregar planes de llamadas , una característica de Microsoft 365 y Office 36
 
 ![Captura de pantalla que muestra la página Contactos en Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Requisitos previos para habilitar la **pestaña** Llamadas en Teams
-Para habilitar  la pestaña Llamadas en Teams los usuarios deben tener las llamadas 1:1 habilitadas en Teams y usar un cliente de Teams compatible con las llamadas Teams 1:1. Para obtener información sobre cómo administrar las llamadas 1:1 en Teams, lea [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Para saber qué clientes admiten llamadas, lea [Límites y especificaciones para Microsoft Teams](./limits-specifications-teams.md).
+Para habilitar  la pestaña Llamadas en Teams los usuarios deben tener las llamadas 1:1 habilitadas en Teams y usar un cliente de Teams compatible con las llamadas Teams 1:1. Para obtener información sobre cómo administrar las llamadas 1:1 en Teams, lea [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy). Para saber qué clientes admiten llamadas, lea [Límites y especificaciones para Microsoft Teams](./limits-specifications-teams.md).
 
 > [!NOTE]
 > Actualmente, el correo de voz no estará disponible en la pestaña Llamadas a menos que el usuario esté habilitado para las llamadas RTC. 

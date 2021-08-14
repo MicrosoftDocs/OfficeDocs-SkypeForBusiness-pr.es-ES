@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 17e9a1c0e6fd35787ee451c0fc96f57da0a1dcaf736155d38aedcec05f90ae41
-ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
+ms.openlocfilehash: a10ff4c99508530b300ddb19546686763d38d458
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "57799051"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234815"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams dispositivos certificados
 
@@ -223,6 +223,25 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 |:--------------|:-----------------|:-------------------------|
 |Vista ThinkSmart de Lenovo| CD-18781Y.210507.111 |Actualización de 2021 #2 |
 |Vista ThinkSmart de Lenovo| CD-18781Y.210228.109 |Actualización de 2021 #1 |
+
+### <a name="product-release-information-for-teams-panels"></a>Información de la versión del producto para Teams paneles
+
+Las siguientes son las últimas Microsoft Teams aplicaciones y versiones de firmware de Paneles.
+
+#### <a name="app-versions"></a>Versiones de la aplicación
+
+|Versión del producto| Fecha de lanzamiento | Microsoft Teams de la aplicación | Portal de empresa versión | Versión del Agente de administración |
+|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Actualización de 2021 #1  |12 de agosto de 2021 |1449/1.0.97.2021070601|5.0.5211.0            |  268|
+
+#### <a name="firmware-versions"></a>Versiones de firmware
+
+Al instalar una nueva versión de firmware en el dispositivo, puede determinar las versiones correspondientes de la aplicación Microsoft Teams, Portal de empresa y agente de administración, que se instalan buscando la versión del producto en la columna Versión de producto **incluida.** A continuación, busque la versión del producto en la **tabla versiones de la** aplicación anterior.
+
+| Modelo de dispositivo  | Versión de firmware | Versión de producto incluida|
+|:--------------|:-----------------|:-------------------------|
+|Crestron -TSS770| 1.004.0115 |Actualización de 2021 #1 |
+|Crestron-TSS1070 | 1.004.0115 |Actualización de 2021 #1 |
 
 
 

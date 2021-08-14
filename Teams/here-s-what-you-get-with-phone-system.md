@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre las características, la disponibilidad y cómo planear y configurar Teléfono Microsoft sistema para su empresa. '
-ms.openlocfilehash: ce4be849a1cf57dc47b6d41b84548b1e0e3591cdd2d963e60d5816c833579648
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f1bd1ff71a0f8eec818e005e430618a1ef69b340
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349053"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235025"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Esto es lo obtiene con el Sistema telefónico
 
@@ -38,6 +38,10 @@ Los clientes están disponibles para PC, Mac y dispositivos móviles, lo que pro
 
  > [!Note]
 > Para obtener más información Teams sistemas telefónicos en diferentes plataformas, vea [Teams características por plataforma.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+
+Para usar Sistema telefónico características, su organización debe tener una Sistema telefónico licencia. Para obtener más información sobre las licencias, vea [Licencias complementarias de Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+Tenga en cuenta que la mayoría de las características requieren que asigne la Sistema telefónico licencia y asegúrese de que los usuarios están "habilitados para voz". Para asignar la licencia, use el [cmdlet Set-CsUser y](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) establezca el parámetro **enterprisevoiceenabled** en $true. Algunas características, como el operador automático en la nube, no requieren que un usuario tenga habilitada la voz. Las excepciones se llaman en la tabla siguiente.
   
 ## <a name="phone-system-features"></a>Sistema telefónico características
 

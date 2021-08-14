@@ -17,12 +17,12 @@ f1.keywords:
 description: hHw Direct Routing admite la omisión de medios con un controlador de borde de sesión habilitado para ICE Lite.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15ec422b59cfb19e63acb0c8b2768792d0e4387dc3200db720ec9c0d8d00f67b
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c32838d282d6f5fff5eb1e85c36d78eee8828d41
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849535"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234575"
 ---
 # <a name="overview"></a>Información general
 

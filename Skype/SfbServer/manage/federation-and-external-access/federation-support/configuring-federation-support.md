@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Si implementas Skype Empresarial en la organización, puedes federar con los dominios de uno o más Skype Empresarial online. '
-ms.openlocfilehash: c8e0481a85ff371e5454856d5b84a4dbccf50a97
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 2c737df9230b31c7e616cc456831b999041015c36b4fbb2c99032a8f5885fd26
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240534"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336880"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Configurar la compatibilidad de federación para un cliente Skype Empresarial Online en Skype Empresarial Server
 

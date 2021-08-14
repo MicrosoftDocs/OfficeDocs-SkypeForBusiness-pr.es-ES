@@ -1,5 +1,5 @@
 ---
-title: Enrutamiento directo del sistema telefónico
+title: 'Teams enrutamiento directo del sistema telefónico: Definiciones y estándares RFC'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Protocolos de enrutamiento directo
+description: Cómo Teléfono Microsoft System Direct Routing implementa los protocolos estándar RFC.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 015b07f538ad33079bbe04649849d22bfebbfb081feb30cea154cb30f9f10fd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26178fa52105f43ce9f7f18c0058a2ead3ef1c02
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347176"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235345"
 ---
 # <a name="direct-routing---definitions-and-rfc-standards"></a>Enrutamiento directo: definiciones y estándares RFC
 

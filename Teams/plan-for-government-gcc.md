@@ -20,12 +20,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ecc733c181e268dd6092f169e91d2f9acb4ee47
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 989d1cbd469edac8a4d69c9b5ac18f2965ddf21e3d273411f740a82d4ab220f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117838"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330904"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan para Microsoft 365 administración local: GCC implementaciones
 
@@ -110,7 +110,7 @@ Determine sus requisitos de gobernanza y cómo puede cumplirlos. Vaya a [Planear
 
 Después de que se haya incorporado a Microsoft 365 Government: GCC, siga la ruta de implementación recomendada que se describe en Cómo implementar [Microsoft Teams](./deploy-overview.md). Asegúrese de participar con su equipo de adopción y administración de cambios y con Teams usuarios.
 
-También puede trabajar con [FastTrack](https://www.microsoft.com/fasttrack) o su partner elegido para incorporar el servicio.
+También puede trabajar con [FastTrack](https://www.microsoft.com/fasttrack) su partner elegido para incorporar el servicio.
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Paso 7. Implementar Teams para reuniones y voz
 

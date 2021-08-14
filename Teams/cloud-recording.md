@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9664cbad906149eccfce3f93d366f93b53e77798be0c080c3b57c3e46d3114d6
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: b2402e94dbbf123d9a7df7f18cb99321c5fa331f
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848975"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234135"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -306,7 +306,7 @@ La fecha de expiración se calcula como el día en que se crea la grabación de 
   
 **¿Se puede cambiar la fecha de expiración de cada TMR, por ejemplo, de los datos A la fecha de expiración es de 30 días y de los datos B la fecha de expiración es de 60 días?**
 
-Sí, la fecha de expiración se establece por cada archivo. Los usuarios pueden modificar la fecha de expiración en el panel de detalles de un archivo seleccionado en OneDrive o SharePoint.
+Sí, la fecha de expiración se establece por archivo. Los usuarios pueden modificar la fecha de expiración en el panel de detalles de un archivo seleccionado en OneDrive o SharePoint.
 
 **¿Cómo puede un administrador cambiar la fecha de expiración?**
   

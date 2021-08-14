@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Luxemburgo para Microsoft Teams.
-ms.openlocfilehash: deccfda31aa0b13cd7dad8b99bc97db5ad55f3421db187be855cfbf28ba6906c
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 7fc768dfc6b7d4d953e0c90382d33721a0814029
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848825"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235305"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>Teléfono de números para Luxemburgo
 

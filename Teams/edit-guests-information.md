@@ -1,5 +1,5 @@
 ---
-title: Editar información del usuario invitado
+title: Editar información de invitado
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,25 +9,24 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
-- m365initiative-externalcollab
 ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: En este artículo, aprenderá cómo un administrador puede editar información sobre los usuarios invitados en el portal Azure Active Directory usuario.
+description: En este artículo, aprenderá cómo un administrador puede editar información sobre invitados en el portal Azure Active Directory usuario.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: d753b93d248a84632f4ce606ca6b31a1a25c39f089e798c0791c4517156c85e9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b3168c1302c5a735aeb416702cef5a78833c2bd2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321402"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234585"
 ---
-# <a name="edit-guest-user-information"></a>Editar información del usuario invitado
+# <a name="edit-guest-information"></a>Editar información de invitado
 
 Puede editar la información de invitado desde el Centro de administración de Microsoft 365 o el portal Azure Active Directory invitado.
 
@@ -47,4 +46,4 @@ Puede editar la información de invitado desde el Centro de administración de M
 
    ![Editar la información de contacto del usuario invitado](media/manage-guest-contact.png)
 
-También puede editar el usuario invitado desde [el portal Azure Active Directory invitado.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)
+También puede editar el invitado desde el [Azure Active Directory web.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)

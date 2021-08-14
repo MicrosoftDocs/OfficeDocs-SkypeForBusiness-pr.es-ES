@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo asignar una licencia Sistema telefónico usuario virtual o una licencia de usuario Sistema telefónico pago a cuentas de recursos de su organización.
-ms.openlocfilehash: 8e5322ccf7e3e7ad05c499b3dbcfdac65d0dfedb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2481d119bd1f053f0836c57d237d34edfbf6e260d9b8be9b9f7d40033dc6282a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116928"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328945"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Sistema telefónico: licencia de usuario virtual
 
@@ -65,7 +65,7 @@ Contoso debería considerar la posibilidad de rediseñar el operador automático
 Si decide cambiar la licencia de su cuenta de recursos de una Sistema telefónico a una licencia de usuario Microsoft 365 Sistema telefónico: Usuario virtual:
 
 1. Obtenga la nueva Microsoft 365 Sistema telefónico: licencia de usuario virtual.
-2. Siga los pasos vinculados en el Microsoft 365 de administración para [mover usuarios a una suscripción diferente.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+2. Siga los pasos vinculados del centro de Administración de Microsoft 365 para [mover usuarios a una suscripción diferente.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
 > Quite siempre una licencia Sistema telefónico licencia completa y asigne la Microsoft 365 Sistema telefónico : licencia de usuario virtual en la misma actividad de licencia. Si quita la licencia antigua, guarda los cambios de la cuenta, agrega la nueva licencia y, a continuación, vuelve a guardar la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto sucede, le recomendamos que cree una nueva cuenta de recursos para la licencia Microsoft 365 Sistema telefónico usuario virtual y quite la cuenta de recursos rota. 

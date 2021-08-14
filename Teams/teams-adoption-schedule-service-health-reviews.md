@@ -20,12 +20,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6447404b0fe7944808e02b2a73ebee03c2393f53
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bd66b3a5bed27a9fbe05ba4273c24a97cf837cda9bfab19a2e5ab9b4656d8f5a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806100"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330874"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Programar revisiones de estado del servicio para su adopción de Microsoft Teams
 

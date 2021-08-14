@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Estados Unidos (incluido Puerto Rico) para Microsoft Teams.
-ms.openlocfilehash: 7754c0bac7ed99be640c24242b63d4db7d13217be26d01cba9690f23b6017d7e
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 8893197e0ef25d855ef3fd990a76d74ae0676c56
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850125"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234065"
 ---
 # <a name="phone-number-management-for-the-united-states"></a>Teléfono de números para Estados Unidos
 

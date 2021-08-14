@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: En una implementación de Enterprise Edition, el servicio de conferencia A/V se combina en el grupo de servidores front-end. También puede combinar el servidor de mediación en el grupo de servidores front-end o puede implementarlo como servidor independiente. El servicio de conferencia A/V siempre se combina si la conferencia está habilitada.
-ms.openlocfilehash: f4513d8545b9dcbf55b702d3002547fefead8a78
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5ee77ad297e0313355dd5546f37c0345076d0e316e14b635824e42c9f3d32dd1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328555"
 ---
 # <a name="add-front-end-server-collocations"></a>Agregar colocación de servidor front-end
 
@@ -37,4 +37,4 @@ La función de servidor de mediación puede combinarse en un servidor front-end 
 
 Puede usar la Herramienta de planeación para evaluar si el grupo de servidores front-end donde desea colocar el servidor de mediación puede controlar la carga. Si su entorno no cumple con estos requisitos, debe implementar un grupo independiente de servidores de mediación.
 
-En general, no se recomienda combinar un servidor de mediación si la organización tiene requisitos de escalabilidad y alta disponibilidad. Para obtener más información sobre cómo combinar estos roles de servidor en un grupo de servidores front-end en una implementación Enterprise Edition, consulte [Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) en la documentación sobre implementación. Para obtener más información sobre las características y los componentes de conferencia A/V, consulte [Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing) en la documentación sobre planeación. Para obtener más información Telefonía IP empresarial características y componentes, incluido el servidor de mediación, vea [Plan for Telefonía IP empresarial in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) en la documentación sobre planeación.
+En general, no se recomienda combinar un servidor de mediación si la organización tiene requisitos de escalabilidad y alta disponibilidad. Para obtener más información sobre cómo combinar estos roles de servidor en un grupo de servidores front-end en una implementación Enterprise Edition, consulte [Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) en la documentación sobre implementación. Para obtener más información sobre las características y los componentes de conferencia A/V, consulte [Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing) en la documentación sobre planeación. Para obtener más información Telefonía IP empresarial características y componentes, incluido el servidor de mediación, vea [Plan for Telefonía IP empresarial in Skype Empresarial Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) en la documentación sobre planeación.

@@ -20,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: e34df0eebb9f6f8bee224c70c37504413115db7f3003359b1060f85ca17bec86
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: f864caee2eb81603bd5a298a01ac3573336fd22f
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848275"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234845"
 ---
 # <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Planear grupos Microsoft 365 al crear equipos en Microsoft Teams
 

@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: El esquema de alta disponibilidad principal para la mayoría de los roles de servidor en Skype Empresarial Server 2015 se basa en la redundancia del servidor mediante agrupación. Si se produce un error en un servidor que ejecuta un rol de servidor determinado, los demás servidores del grupo que ejecutan el mismo rol asumen la carga de dicho servidor.
-ms.openlocfilehash: d3897fa3989956604d2b06f33cd2ff6a36bf707645c80a61b02f6ac1ab62fd0e
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: d8c6a16ba29d5725a148810c71a17325bdbab763
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590704"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234705"
 ---
 # <a name="skype-for-business-server-high-availability-planning-tool"></a>Skype Empresarial Server Herramienta de planeación de alta disponibilidad
  

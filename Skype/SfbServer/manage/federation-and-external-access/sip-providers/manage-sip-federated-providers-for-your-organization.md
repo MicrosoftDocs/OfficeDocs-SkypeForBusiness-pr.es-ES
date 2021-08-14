@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Obtenga información sobre cómo configurar la compatibilidad con usuarios de proveedores federados SIP.
-ms.openlocfilehash: 8d4c6224a66454f8fb28bb4f991faf6ad672f596
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d356dd5fa4e8b98c3435d834b554d4b60b0269532737535d64e1a6c78557fec7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336700"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Administrar proveedores federados SIP para su organización en Skype Empresarial Server
 
@@ -34,11 +34,11 @@ Para configurar la admisión de los usuarios de proveedores federados de SIP, re
 
 ## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>Crear o editar proveedores federados SIP públicos en Skype Empresarial Server
 
-La conectividad de mensajería instantánea (MI) pública permite a los usuarios de su organización usar la mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por proveedores públicos.
+La conectividad de mensajería instantánea (MI) pública permite a los usuarios de la organización usar mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por proveedores públicos.
 
-Skype Empresarial Server tiene configuraciones de proveedor público para mensajería instantánea. Cada proveedor público se configura con el nombre de dominio completo del servidor perimetral del proveedor y el nivel de comprobación predeterminado Permite a los usuarios comunicarse solo con personas de su lista de contactos que usan **este proveedor.**
+Skype Empresarial Server tiene configuraciones de proveedor público para mensajería instantánea. Cada proveedor público está configurado con el nombre de dominio completo del servidor perimetral del proveedor y el nivel de verificación predeterminado Permitir a los usuarios comunicarse solo con personas de su lista de contactos que usan **este proveedor.**
 
-Como configuración predeterminada, no está habilitado ninguno de los proveedores públicos. Debe rellenar el contrato de licencia y proporcionar el trabajo antes de habilitar los proveedores públicos. Puede habilitar al proveedor antes de completar la licencia y proporcionar el trabajo. Los usuarios no podrán comunicarse con los contactos de estos proveedores hasta que haya finalizado el trabajo como requisito previo. Para obtener más información sobre la concesión de licencias y el aprovisionamiento de proveedores públicos, vea Configurar directivas para controlar la [obtención de acceso de usuarios públicos.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+Como configuración predeterminada, no está habilitado ninguno de los proveedores públicos. Debe rellenar el contrato de licencia y proporcionar el trabajo antes de habilitar los proveedores públicos. Puede habilitar al proveedor antes de completar la licencia y proporcionar el trabajo. Los usuarios no podrán comunicarse con los contactos de estos proveedores hasta que haya finalizado el trabajo como requisito previo. Para obtener más información sobre las licencias y el aprovisionamiento de proveedores públicos, vea [Configure policies to control public user acces](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
 Use el siguiente procedimiento para crear o editar proveedores públicos.
 
@@ -47,7 +47,7 @@ Use el siguiente procedimiento para crear o editar proveedores públicos.
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
 3.  En el barra de navegación izquierda, haga clic en **Acceso externo y federación** y luego en **Proveedores SIP federados**.
 
@@ -61,7 +61,7 @@ Use el siguiente procedimiento para crear o editar proveedores públicos.
     
       - **Nombre del proveedor:**    Una propiedad necesaria, escriba el nombre del proveedor como se reflejará en el listado de Proveedores federados de SIP.
     
-      - **Servicio perimetral de acceso (FQDN):**   Una propiedad obligatoria, escriba el nombre de dominio completo del servicio perimetral de acceso del proveedor que está configurando. Esta información se proporciona como un elemento predeterminado y debe cambiarse solo si el proveedor cambia el FQDN del servicio perimetral de acceso en el proveedor de público.
+      - **Servicio perimetral de acceso (FQDN):**    es una propiedad necesaria. Escriba el nombre de dominio completo del servicio perimetral de acceso del proveedor que está configurando. Esta información se proporciona como un elemento predeterminado y debe cambiarse solo si el proveedor cambia el FQDN del servicio perimetral de acceso en el proveedor de público.
     
       - **Nivel de comprobación predeterminado:**    el parámetro predeterminado, **Permitir a los usuarios comunicarse con las personas de su lista de contactos que usan este proveedor** limitará la comunicación a los contactos que han aceptado y están en la lista de contactos.
         
@@ -71,7 +71,7 @@ Use el siguiente procedimiento para crear o editar proveedores públicos.
 
 ## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>Crear o editar proveedores federados SIP hospedados en Skype Empresarial Server
 
-La conectividad de mensajería instantánea (MI) del proveedor hospedado permite a los usuarios de su organización usar la mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por proveedores hospedados.
+La conectividad de mensajería instantánea (MI) del proveedor hospedado permite a los usuarios de la organización usar mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por proveedores hospedados.
 
 Cada proveedor hospedado se configura con el nombre de dominio completo del servidor perimetral del proveedor y el nivel de verificación predeterminado **Permitir a los usuarios comunicarse solamente con personas de su Lista de contactos que utilizan este proveedor**.
 
@@ -81,7 +81,7 @@ Use el siguiente procedimiento para crear o editar proveedores hospedados.
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
 3.  En el barra de navegación izquierda, haga clic en **Acceso externo y de federación** y, a continuación, en **Proveedores federados de SIP**.
 
@@ -95,7 +95,7 @@ Use el siguiente procedimiento para crear o editar proveedores hospedados.
     
       - **Nombre del proveedor:**    Una propiedad necesaria, escriba el nombre del proveedor como se reflejará en el listado de Proveedores federados de SIP.
     
-      - **Servicio perimetral de acceso (FQDN):**   Una propiedad obligatoria, escriba el nombre de dominio completo del servicio perimetral de acceso del proveedor hospedado que está configurando. Esta información debe ser proporcionada por el proveedor hospedado y solo debe modificarse si el proveedor hospedado realiza un cambio al FQDN del servicio perimetral de acceso del proveedor hospedado.
+      - **Servicio perimetral de acceso (FQDN):**    Una propiedad necesaria, escriba el nombre de dominio completo del servicio perimetral de acceso del proveedor hospedado que está configurando. Esta información debe ser proporcionada por el proveedor hospedado y solo debe modificarse si el proveedor hospedado realiza un cambio al FQDN del servicio perimetral de acceso del proveedor hospedado.
     
       - **Nivel de verificación predeterminado:**    La configuración predeterminada, **Permitir a los usuarios comunicarse con personas de su Lista de contactos que utilizan este proveedor**, limitará la comunicación a los contactos que haya aceptado y estén en su lista de contactos.
         
@@ -104,10 +104,10 @@ Use el siguiente procedimiento para crear o editar proveedores hospedados.
 7.  Cuando haya terminado de configurar los parámetros, haga clic en **Confirmar** para guardar o haga clic en **Cancelar** para descartar los cambios.
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
-[Configurar directivas para controlar la a acces de usuarios públicos](../external-access-policies/configure-policies-to-control-public-user-access.md)
+[Configurar directivas para controlar los accesos de usuarios públicos](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 [Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
