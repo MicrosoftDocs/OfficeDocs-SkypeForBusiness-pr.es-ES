@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e0415f76-d125-4c15-861b-f5780ac1aef2
 description: La tabla MSMQProcessing es solo para uso interno. Esta tabla se introdujo en Skype Empresarial Server 2015.
-ms.openlocfilehash: 9f327df663a4261445d6c294be11b6f179057356
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1744a7e05a906d23d61ad4b55d2f85293ad98ab25699ed2c4b638ba0820afb6d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813120"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346366"
 ---
 # <a name="msmqprocessing-table"></a>Tabla MSMQProcessing
  

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Una aplicación de confianza es una aplicación basada en microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK que es de confianza para Skype Empresarial Server.
-ms.openlocfilehash: b174c0b45c3a90a1f0af53f31d7c507ffaca85cd
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f01ac47641dac417efc57b91d59ce3b6ef1c006f273ce41c29eae675db5129eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233995"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351700"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Administrar aplicaciones de confianza en Skype Empresarial Server
 
@@ -84,21 +84,24 @@ Puede ver información sobre las aplicaciones de confianza mediante Windows Powe
 
 Para ver todas las aplicaciones de confianza, escriba el siguiente comando en el Shell de administración de Skype Empresarial Server y, a continuación, presione ENTRAR:
     
-   **Get-CsConferenceDisclaimer**
+        Get-CsConferenceDisclaimer
     
    Este comando devuelve información similar a la siguiente para cada aplicación de confianza:
     
-   Identity : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC Service,CN=Services,CN=Configuration,DC=litware,DC=com<br/>
-   RegistrarPool : 487279971<br/>
-   HomeServer : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC Service,CN=Services,CN=Configuration,DC=litware,DC=com OwnerUrn : urn:application:helpdesk<br/>
-   SipAddress : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com<br/>
-   DisplayName :<br/>
-   DisplayNumber :<br/>
-   LineURI :<br/>
-   PrimaryLanguage : 0<br/>
-   SecondaryLanguages : {}<br/>
-   EnterpriseVoiceEnabled : True<br/>
-   ExUmEnabled : False<br/>
-   Enabled : True<br/>
+        Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
+                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
+        RegistrarPool          : 487279971
+        HomeServer             : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC
+                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
+        OwnerUrn               : urn:application:helpdesk
+        SipAddress             : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com
+        DisplayName            :
+        DisplayNumber          :
+        LineURI                :
+        PrimaryLanguage        : 0
+        SecondaryLanguages     : {}
+        EnterpriseVoiceEnabled : True
+        ExUmEnabled            : False
+        Enabled                : True
     
    Para obtener más información, [vea Get-CsTrustedApplication](/powershell/module/skype/Get-CsTrustedApplication).

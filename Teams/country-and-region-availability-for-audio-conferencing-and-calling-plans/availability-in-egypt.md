@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Egipto.
-ms.openlocfilehash: 412a43c5d71dce3a9a0ac0bda52c890dbf77af1b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0f5cb9be98dcde2ddac9866f74c72b2997e6d2683a81f0640dedd165ef0dabee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352378"
 ---
 # <a name="availability-in-egypt"></a>Disponibilidad en Egipto
 

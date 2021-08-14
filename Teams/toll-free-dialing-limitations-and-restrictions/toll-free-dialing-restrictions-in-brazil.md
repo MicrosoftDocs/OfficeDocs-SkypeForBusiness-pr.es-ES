@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en Brasil, como la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
-ms.openlocfilehash: 689be527186f51ebe24178eb11e015c01bc5ab1e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24d5ed2ae333a3188e5921ad2c23f72d99c1994d77c30380cf3d09aa854a4a8a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116838"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351730"
 ---
 # <a name="toll-free-dialing-restrictions-in-brazil"></a>Restricciones de marcado de número gratuito en Brasil
 

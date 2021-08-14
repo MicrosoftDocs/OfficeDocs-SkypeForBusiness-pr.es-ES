@@ -1,5 +1,5 @@
 ---
-title: Personalizar las propiedades de la cuenta de usuario para Skype Empresarial Server
+title: Personalizar las propiedades de cuenta de usuario para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Puede utilizar los procedimientos que se describen en esta sección para modificar las propiedades de cuenta de usuario individuales.
-ms.openlocfilehash: 6f2c3a76f9047da0a5d78695518cfb8355ab82e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b1c3bc75a59834c63f97c9425a775d902f246b299f76318ed890d060caf7e01b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826270"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351530"
 ---
-# <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personalizar las propiedades de la cuenta de usuario para Skype Empresarial Server
+# <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personalizar las propiedades de cuenta de usuario para Skype Empresarial Server
  
 Puede utilizar los procedimientos que se describen en esta sección para modificar las propiedades de cuenta de usuario individuales.
   
@@ -34,21 +34,21 @@ Hay dos operaciones básicas que se pueden realizar en el nivel de usuario indiv
 
 Puede personalizar la configuración de telefonía para un usuario específico (siempre que el usuario individual se haya habilitado para Skype Empresarial Server y la organización admita telefonía).
   
-Entre las opciones de telefonía de usuario de Skype Empresarial Server se incluyen las siguientes:
+Skype Empresarial Server opciones de telefonía del usuario son las siguientes:
   
 - **Audio/vídeo deshabilitado** El usuario no puede realizar llamadas con audio y vídeo.
     
-- **Solo de equipo a equipo** El usuario solo puede realizar llamadas de audio o vídeo de un equipo a otro.
+- **Solo pc a pc** El usuario solo puede realizar llamadas de audio o vídeo de pc a equipo.
     
-- **Telefonía IP empresarial** El usuario puede usar la infraestructura de Skype Empresarial Server para enrutar todas las llamadas entrantes y salientes. También puede realizar llamadas de equipo a equipo.
+- **Telefonía IP empresarial** El usuario puede usar la infraestructura Skype Empresarial Server para enrutar todas las llamadas entrantes y salientes. También puede realizar llamadas de equipo a equipo.
     
-- **Control remoto de llamadas** El usuario puede usar Skype Empresarial Server para controlar el teléfono de escritorio y también puede realizar llamadas de equipo a equipo.
+- **Control remoto de llamadas** El usuario puede usar Skype Empresarial Server para controlar el teléfono de escritorio y también puede realizar llamadas de EQUIPO a EQUIPO.
     
-Para obtener más información sobre cómo configurar la telefonía para una organización, consulte Habilitar usuarios para Telefonía IP empresarial en Skype Empresarial [Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) e Implementar Telefonía IP empresarial en Skype Empresarial [Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) en la documentación sobre implementación.
+Para obtener más información sobre cómo configurar la telefonía para una organización, consulte Habilitar usuarios para Telefonía IP empresarial en [Skype Empresarial Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) e Implementar Telefonía IP empresarial en [Skype Empresarial Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) en la documentación de implementación.
   
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
@@ -64,23 +64,23 @@ Para obtener más información sobre cómo configurar la telefonía para una org
     
    - Para habilitar las comunicaciones de audio de equipo a equipo para el usuario, pero no el control remoto de llamadas ni la Telefonía IP empresarial, haga clic en **Solo de equipo a equipo**. Especifique un valor para **URI de línea** para el teléfono que usa el usuario para comunicaciones de audio de equipo a equipo.
     
-   - Para enrutar las llamadas telefónicas del usuario mediante la infraestructura de Skype Empresarial de acuerdo con la clase de directiva de servicio, incluida la comunicación de audio de equipo a **equipo,** haga clic en Telefonía IP empresarial . En **URI de línea**, especifique el número de teléfono para la Telefonía IP empresarial. En **Directiva de plan de marcado** y **Directiva de voz**, especifique las directivas adecuadas para el usuario. Para especificar las reglas de normalización para convertir los números de teléfono que marque el usuario a formato E.164, seleccione el perfil de ubicación apropiado en **Directiva de ubicación**.
+   - Para enrutar las llamadas telefónicas del usuario mediante la infraestructura Skype Empresarial de acuerdo con la clase de directiva de servicio, incluida la comunicación de audio de equipo a **equipo,** haga clic en Telefonía IP empresarial . En **URI de línea**, especifique el número de teléfono para la Telefonía IP empresarial. En **Directiva de plan de marcado** y **Directiva de voz**, especifique las directivas adecuadas para el usuario. Para especificar las reglas de normalización para convertir los números de teléfono que marque el usuario a formato E.164, seleccione el perfil de ubicación apropiado en **Directiva de ubicación**.
     
-   - Para habilitar el control remoto de llamadas, que permite a los usuarios controlar su línea de teléfono de escritorio desde Skype Empresarial Server para realizar llamadas de equipo a equipo y de equipo a teléfono, haga clic en **Control** remoto de llamadas. En **URI de línea**, especifique el número de teléfono para el control remoto de llamadas. El usuario debe tener un teléfono de escritorio y una conexión de central de conmutación (PBX) para el enrutamiento de llamadas.
+   - Para habilitar el control remoto de llamadas, que permite a los usuarios controlar su línea de teléfono de escritorio desde Skype Empresarial Server para realizar llamadas de EQUIPO a EQUIPO y llamadas de equipo a teléfono, haga clic en Control remoto de **llamadas**. En **URI de línea**, especifique el número de teléfono para el control remoto de llamadas. El usuario debe tener un teléfono de escritorio y una conexión de central de conmutación (PBX) para el enrutamiento de llamadas.
     
 ## <a name="move-users-to-another-pool"></a>Mover usuarios a otro grupo
 <a name="Move_Users"> </a>
 
-Puede usar el Panel de control de Skype Empresarial Server para asignar usuarios a un servidor o grupo específico.
+Puede usar el Panel Skype Empresarial Server control para asignar usuarios a un servidor o grupo específico.
   
 > [!TIP]
-> Mover todos los usuarios existentes de un grupo de servidores de origen que ejecuta Lync Server 2010 o versiones anteriores a un grupo de destino de Skype Empresarial Server en un entorno complejo de Active Directory puede producir una replicación de Active Directory más lenta. Para evitar esto, puede usar filtros de búsqueda para mover usuarios de grupos que ejecutan Lync Server 2010 o versiones anteriores por separado, o puede usar el Shell de administración de Skype Empresarial Server para mover usuarios con cmdlets. Además, la funcionalidad de filtro funciona con usuarios de Skype Empresarial Server. 
+> Mover todos los usuarios existentes de un grupo de servidores de origen que ejecuta Lync Server 2010 o versiones anteriores a un grupo de destino de Skype Empresarial Server en un entorno complejo de Active Directory puede provocar una replicación de Active Directory más lenta. Para evitar esto, puede usar filtros de búsqueda para mover usuarios de grupos que ejecutan Lync Server 2010 o versiones anteriores por separado, o puede usar el Shell de administración de Skype Empresarial Server para mover usuarios con cmdlets. Además, la funcionalidad de filtro funciona con Skype Empresarial Server usuarios. 
   
 ### <a name="to-move-selected-users-to-a-different-server-or-pool"></a>Para mover determinados usuarios a otro servidor o grupo de servidores
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.  
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
@@ -101,7 +101,7 @@ Puede usar el Panel de control de Skype Empresarial Server para asignar usuarios
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.  
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
@@ -120,11 +120,11 @@ Puede usar el Panel de control de Skype Empresarial Server para asignar usuarios
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
-4. En **Búsqueda de usuarios,** haga **clic en** Buscar y, a continuación, haga clic en **Agregar filtro.**
+4. En **Búsqueda de usuarios,** haga clic **en Buscar** y, a continuación, haga clic en **Agregar filtro**.
     
 5. En los Criterios de búsqueda, seleccione **Grupo de registradores**, **Igual que**, **FQDN del grupo actual** y, a continuación, haga clic en **Buscar**.
     
@@ -142,15 +142,15 @@ Puede usar el Panel de control de Skype Empresarial Server para asignar usuarios
     > [!CAUTION]
     > Si selecciona **Forzar**, se mueve la cuenta de usuario pero se eliminan los datos de usuario asociados (por ejemplo, conferencias que el usuario ha programado y contactos). Si no se selecciona, se mueven la cuenta y los datos asociados. 
   
-### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>Para mover usuarios de un grupo a otro mediante cmdlets de Windows PowerShell
+### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>Para mover usuarios de un grupo a otro mediante Windows cmdlets de Powershell
 
-1. Dependiendo de cómo ejecute Windows PowerShell comandos (es decir, de forma local o remota), debe iniciar sesión como miembro de los roles administrativos correctos de Skype Empresarial Server de la siguiente manera:
+1. En función de cómo ejecute Windows PowerShell comandos (es decir, local o remotamente), debe iniciar sesión como miembro de los roles Skype Empresarial Server administrativos correctos de la siguiente manera:
     
-   a. Si ejecuta los comandos en el equipo local (por ejemplo, inicia sesión directamente en un servidor front-end): inicie sesión en el equipo donde está instalado el Shell de administración de Skype Empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, como se describe en Permisos de configuración **delegados.**
+   a. Si ejecuta los comandos en el equipo local (por ejemplo, inicia sesión directamente en un servidor front-end): inicie sesión en el equipo donde se instala el Shell de administración de Skype Empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegate Setup Permissions**.
     
-   b. Si ejecuta los comandos de forma remota en otro equipo (por ejemplo, inicia sesión en el equipo y ejecuta los comandos de forma remota en un servidor front-end Standard Edition): desde una cuenta de usuario asignada al rol CsUserAdministrator o al rol CsAdministrator, inicie sesión en cualquier equipo de la implementación interna.
+   b. Si ejecuta los comandos de forma remota en otro equipo (por ejemplo, inicia sesión en el equipo y ejecuta los comandos de forma remota en un servidor front-end de Standard Edition): desde una cuenta de usuario asignada al rol CsUserAdministrator o al rol CsAdministrator, inicie sesión en cualquier equipo de la implementación interna.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** en **Skype** Empresarial y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** en Todos los **programas,** haga clic en **Skype Empresarial** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 3. Para mover usuarios únicos, use el cmdlet Move-CsUser de la siguiente forma:
     

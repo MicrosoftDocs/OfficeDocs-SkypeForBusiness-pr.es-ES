@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8385e6721a24c3ad1bd320dd2f6e5e14091181b0
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
-ms.translationtype: MT
+ms.openlocfilehash: 510806c6b33260913454fa30f560b785b862b661dc04bf8eaf5279995c5a51a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768229"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352289"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams
 
@@ -42,14 +42,14 @@ Microsoft Teams tiene clientes disponibles para web, escritorio (Windows, Mac y 
 > [!TIP]
 > Vea la sesión siguiente para conocer las ventajas del cliente de escritorio de Windows, y cómo planearlo e implementarlo: [Cliente de escritorio de Teams para Windows](https://aka.ms/teams-clients)
 
-El cliente de escritorio de Microsoft Teams es una aplicación independiente y está también [disponible en Aplicaciones de Microsoft 365 para empresas](/deployoffice/teams-install). Teams está disponible para las versiones de 32 bits y 64 bits de Windows (8.1 o posterior), ARM64 para Windows 10 en ARM y Windows Server (2012 R2 o posterior), así como para macOS y Linux (en los formatos `.deb` y `.rpm`). En Windows, Teams requiere .NET Framework 4.5 o posterior; el instalador de Teams le ofrecerá instalarlo si no lo tiene. En Linux, los administradores de paquetes como `apt` y `yum` intentarán instalar los requisitos por usted. No obstante, si no lo hacen, deberá instalar todos los requisitos indicados antes de instalar Teams en Linux.
+El cliente de escritorio de Microsoft Teams es una aplicación independiente y está también [disponible en Aplicaciones de Microsoft 365 para empresas](/deployoffice/teams-install). Teams está disponible para las versiones de 32 bits y 64 bits de Windows (8.1 o posterior), ARM64 para Windows 10 en ARM y Windows Server (2012 R2 o posterior), así como para macOS y Linux (en los formatos `.deb` y `.rpm`). En Windows, Teams requiere .NET Framework 4.5 o posterior; el instalador de Teams le ofrecerá instalarlo si no lo tiene. En Linux, los administradores de paquetes como `apt` y `yum` intentarán instalar los requisitos por usted. No obstante, si no lo hacen, deberá instalar todos los requisitos indicados antes de instalar Teams en Linux.
 
 Los clientes de escritorio brindan asistencia en tiempo real para las comunicaciones (audio, vídeo y contenido compartido) para las reuniones de equipo, las llamadas grupales y las llamadas de uno a uno.
 
 Los usuarios pueden descargar e instalar los clientes de escritorio directamente desde [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) si tienen los permisos locales adecuados (no se requieren derechos de administrador para instalar el cliente de Teams en PC, pero sí son necesarios para Mac).
 
 > [!NOTE]
-> Para obtener más detalles sobre cómo instalar Teams en un Chromebook, consulte [Cómo instalar y ejecutar Microsoft Office en un Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
+> Para obtener más detalles sobre cómo instalar Teams en un Chromebook, consulte [Cómo instalar y ejecutar Microsoft Office en un Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
 
 Los administradores de TI pueden elegir el método que prefieran para distribuir los archivos de instalación en los equipos de su organización. Por ejemplo: Microsoft Endpoint Configuration Manager (Windows) o Jamf Pro (macOS). Para obtener el paquete de MSI de distribución de Windows, vea [Instalar Microsoft Teams con MSI](msi-deployment.md).
 
@@ -75,10 +75,10 @@ El cliente de Windows se implementará en la carpeta AppData ubicada en el perfi
 
 Cuando los usuarios inician una llamada utilizando el cliente de Microsoft Teams, podrían recibir una advertencia con la configuración del firewall de Windows que les pide que permitan la comunicación. Es posible que se indique a los usuarios que ignoren el mensaje porque la llamada funcionará, incluso si la advertencia se descarta.
 
-![Captura de pantalla de un cuadro de diálogo Alerta de seguridad de Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
+![Captura de pantalla de un cuadro de diálogo Alerta de Seguridad de Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> La configuración del Firewall de Windows se modificará incluso cuando se desecha la solicitud al seleccionar "Cancelar". Se crearán dos reglas de entrada para teams.exe con la opción Permitir acción para los protocolos TCP y UDP.
+> La configuración del firewall de Windows se modificará incluso si el mensaje se descarta seleccionando "Cancelar". Se crearán dos reglas de entrada para teams.exe con la acción de Permitir para los protocolos TCP y UDP.
 
 Si quiere evitar que Teams pida a los usuarios que creen reglas de firewall cuando los usuarios realicen su primera llamada desde Teams, use el [script de PowerShell de ejemplo: regla de firewall de entrada](#sample-powershell-script---inbound-firewall-rule).
 
@@ -190,7 +190,7 @@ El cliente web detecta la versión del explorador al conectarse con [https://tea
 
 ## <a name="mobile-clients"></a>Clientes móviles
 
-Las aplicaciones móviles de Microsoft Teams están disponibles para iOS y Android, y están pensadas para que los usuarios que no están en un lugar fijo participen en conversaciones basadas en chat y para permitir las llamadas de audio de par a par. Para las aplicaciones móviles, vaya a la tienda móvil correspondiente: Google Play y App Store de Apple. La aplicación de Windows Phone se retiró el 20 de julio de 2018 y podría dejar de funcionar.
+Las aplicaciones móviles de Microsoft Teams están disponibles para iOS y Android, y están pensadas para que los usuarios que no están en un lugar fijo participen en conversaciones basadas en chat y para permitir las llamadas de audio de par a par. Para las aplicaciones móviles, vaya a la tienda móvil correspondiente: Google Play y App Store de Apple. La aplicación de Windows Phone se retiró el 20 de julio de 2018 y podría no funcionar.
 
 Aquí puede ver cómo [obtener Teams para Android](get-teams-android-in-china.md) en China.
 
@@ -213,7 +213,7 @@ Las aplicaciones móviles solamente se distribuyen y actualizan en la tienda de 
 
 ## <a name="client-update-management"></a>Administración de actualizaciones del cliente
 
-Actualmente, el servicio de Microsoft Teams actualiza automáticamente los clientes sin que sea necesaria la intervención de los administradores de TI. Si hay una actualización disponible, el cliente descargará automáticamente la actualización y, si la aplicación ha estado inactiva durante un período de tiempo, se iniciará el proceso de actualización.
+Actualmente, el servicio de Microsoft Teams actualiza los clientes en forma automática, sin que se necesite la intervención del administrador de TI. Si hay una actualización disponible, el cliente descargará automáticamente la actualización y, cuando la aplicación esté inactiva durante un tiempo, comenzará el proceso de actualización.
 
 ## <a name="client-side-configurations"></a>Configuración del lado del cliente
 

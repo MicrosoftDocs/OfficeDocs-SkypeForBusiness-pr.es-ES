@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Obtenga información sobre las reglas de traducción y la normalización de cadenas de marcado en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: d02e4d3b84c03ee40dddbcb9b174adb66dcd6cd0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c053ea0244c6b8d0578b9776da9d7ecd40bb8043b0f5884c9d7437b688f5dd65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110636"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352698"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Reglas de traducción en Skype Empresarial Server
 
@@ -40,7 +40,7 @@ Los siguientes ejemplos de reglas de conversión muestran cómo se pueden desarr
 
 Para obtener más información acerca de cómo implementar reglas de conversión, consulte [Defining Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules) en la documentación referente a la implementación.
 
-|**Descripción**|**Dígitos iniciales**|**Length**|**Dígitos que se van a quitar**|**Dígitos que se van a agregar**|**Patrón de comparación**|**Conversión**|**Ejemplo**|
+|**Description**|**Dígitos iniciales**|**Length**|**Dígitos que se van a quitar**|**Dígitos que se van a agregar**|**Patrón de comparación**|**Conversión**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Marcado convencional de larga distancia en EE.UU.  <br/> (quitar el '+')  <br/> |+1  <br/> |Exactamente 12  <br/> |1  <br/> |0  <br/> |^\+(1\d {10} ) $  <br/> |$1  <br/> |+14255551010 se convierte en 14255551010  <br/> |
 |Marcado internacional de larga distancia de EE.UU.  <br/> (quitar '+' y agregar 011)  <br/> |+  <br/> |11 como mínimo  <br/> |1  <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010 se convierte en 011441235551010  <br/> |

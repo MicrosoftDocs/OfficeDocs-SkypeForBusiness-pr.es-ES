@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Los valores de configuración de tronco SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de la Red telefónica conmutada (RTC), una central de conmutación pública de IP (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios.
-ms.openlocfilehash: 03b2ea63df8135edfdb3d63d9010aaace9266fd1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8c57a29bd0117afe216d54204d4af275716c07278a311a34e3b5d391cadfed6e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102996"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351440"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Ver información de configuración de tronco en Skype Empresarial Server
 
@@ -28,14 +28,14 @@ Los valores de configuración de tronco SIP definen la relación y las capacidad
 
 Al instalar Skype Empresarial Server, se crea una colección global de opciones de configuración de tronco SIP. Los administradores también pueden crear colecciones de valores personalizadas en el ámbito del sitio o servicio (solo para el servicio de puerta de enlace de RTC).
 
-**Para ver la información de configuración del tronco SIP mediante el Panel de control de Skype Empresarial Server**
+**Para ver la información de configuración del tronco SIP mediante Skype Empresarial Server Panel de control**
 
-1. En el Panel de control de Skype Empresarial Server, haga clic en **Enrutamiento** de voz y, a continuación, haga clic en **Configuración de tronco.**
+1. En el Panel Skype Empresarial Server control, haga clic en **Enrutamiento** de voz y, a continuación, haga clic en **Configuración de tronco.**
 2. En la **pestaña Configuración de** tronco verá una lista de todas las colecciones de configuraciones de tronco; para cada colección, verá los valores de las propiedades **Name**, **Scope**, **State** y **Media bypass,** junto con el número de usos de RTC, las reglas de número de llamada y las reglas de número de llamada **asociadas** a la colección.  Para ver detalles adicionales sobre una colección de opciones de configuración de tronco, haga clic en la colección de interés, haga clic en **Editar** y, a continuación, haga clic **en Mostrar detalles.** Tenga en cuenta que solo puede ver información detallada para una colección de opciones de configuración de tronco a la vez.
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Visualización de información de configuración de tronco SIP mediante Windows PowerShell cmdlets
 
-Las opciones de configuración del tronco SIP se pueden ver con PowerShell de Skype Empresarial Server y el cmdlet Get-CsTrunkConfiguration. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell remoto para conectarse a Skype Empresarial Server, vea el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: Administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en https://go.microsoft.com/fwlink/p/?linkId=255876 . REEMPLACE O QUITE ESTE VÍNCULO.
+Las opciones de configuración del tronco SIP se pueden ver mediante Skype Empresarial Server PowerShell y el cmdlet Get-CsTrunkConfiguration web. Este cmdlet se puede ejecutar desde el Shell Skype Empresarial Server de administración o desde una sesión remota Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell remoto para conectarse Skype Empresarial Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: Administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en https://go.microsoft.com/fwlink/p/?linkId=255876 . REEMPLACE O QUITE ESTE VÍNCULO.
 
 
 **Para ver la información de configuración del tronco SIP**

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec27cba4336d86f51a32582440d5d7902ffca2b9
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 017656b0bacce810f26ac2821e07ba4dd8f08c9efad47717a94d6b3d95e4278f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684487"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351879"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>Usar plantillas de equipo de fabricación en el Centro de administración
 

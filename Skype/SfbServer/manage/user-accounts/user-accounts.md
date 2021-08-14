@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: En las secciones de este artículo se describe cómo habilitar, deshabilitar temporalmente o quitar usuarios de Active Directory de Skype Empresarial Server.
-ms.openlocfilehash: 27871597674724126369bd8f90fd6c2a67c2a8ea
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9ff446b6829ed0d6f8e7b36de5b20fe30db5c7ba7fcf426abfd2068ff549a5bc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232695"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351520"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Administrar cuentas de usuario para Skype Empresarial Server
 
@@ -74,7 +74,7 @@ Puede buscar usuarios mediante el panel de control Skype Empresarial Server o el
 
 Después de habilitar una cuenta de usuario en Usuarios y equipos de Active Directory, puede usar el Panel de control de Skype Empresarial Server para crear y habilitar nuevas cuentas de usuario de Skype Empresarial Server agregando un usuario de Active Directory Skype Empresarial Server.
 
-También puede usar un cmdlet, específicamente [Enable-CsUser](/powershell/module/skype/enable-csuser).
+También puede usar un cmdlet, específicamente [Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps).
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
@@ -133,7 +133,7 @@ Las cuentas de usuario se pueden deshabilitar temporalmente y, posteriormente, v
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-Para obtener más información, vea el tema de ayuda del cmdlet [Set-CsUser.](/powershell/module/skype/set-csuser)
+Para obtener más información, vea el tema de ayuda del cmdlet [Set-CsUser.](/powershell/module/skype/set-csuser?view=skype-ps)
 
 ## <a name="disable-a-user-for-enterprise-voice"></a>Deshabilitar un usuario para Telefonía IP empresarial
 <a name="Disable_EV"> </a>
@@ -195,13 +195,13 @@ Para quitar una cuenta de usuario, utilice el cmdlet Disable-CsUser. Por ejemplo
   Disable-CsUser -Identity "Ken Myer"
   ```
 
-Una vez que se haya ejecutado este comando, no hay manera de volver a habilitar la cuenta y las configuraciones previas. En su lugar, necesitará utilizar el cmdlet Enable-CsUser para crear una cuenta nueva para Ken Myer.
+    After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
 
-Para obtener más información, vea el tema de ayuda del cmdlet [Disable-CsUser.](/powershell/module/skype/disable-csuser)
+Para obtener más información, vea el tema de ayuda del cmdlet [Disable-CsUser.](/powershell/module/skype/disable-csuser?view=skype-ps)
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="Remove"> </a>
 
-[Enable-CsUser](/powershell/module/skype/enable-csuser)
+[Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps)
 
-[Disable-CsUser](/powershell/module/skype/disable-csusers)
+[Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps)

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para las Bahamas.
-ms.openlocfilehash: e0e0e72ba3e3c1ffded7689b20efddd2ff5e9468
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 71ec974345725d9bc33b320f425cb24989cdabe09b1eaf84940c18a5c76f34fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121468"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352299"
 ---
 # <a name="availability-in-the-bahamas"></a>Disponibilidad en las Bahamas
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 94e872130c57d08d509a99d6a2a1b593a79eb54f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0193b97c1c2fa6134b0ab5865dfc9d7306e796d0abf562856ad55ad36b3e5ef5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240240"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351740"
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
@@ -60,16 +60,16 @@ Si se pregunta cuál es el costo de las [](https://go.microsoft.com/fwlink/p/?Li
 Para usar números gratuitos, se requieren créditos de comunicaciones, ya que estas llamadas se facturan por minuto. Además, le recomendamos que configure créditos de comunicaciones para los usuarios del plan de llamadas y las audioconferencias que necesiten la posibilidad de llamar a cualquier destino **RTC.** Se incluyen muchos países o regiones, pero es posible que algunos destinos no se incluyan en sus planes de llamadas o en las suscripciones de audioconferencia. Si no configura créditos de comunicaciones o asigna una licencia a los usuarios y se le ejecutan minutos para su organización (según su plan de llamadas, su plan de audioconferencias o su país o región), esos usuarios no podrán realizar llamadas ni llamar desde reuniones de audioconferencia en línea.
   
 > [!NOTE]
-> Debe configurar créditos de comunicaciones y, a continuación, asignar una licencia de créditos de comunicaciones para cada usuario en el **centro** de administración de Microsoft 365  >  **Usuarios**  >  **activos.** Las licencias de créditos de comunicaciones aparecerán como ilimitadas en cantidad, ya que se usan para conceder acceso al saldo de créditos de comunicaciones para cualquier usuario al que asigne la licencia créditos de comunicaciones.
+> Debe configurar créditos de comunicaciones y, a continuación, asignar una licencia de créditos de comunicaciones para cada usuario Centro de administración de Microsoft 365   >  **usuarios**  >  **activos.** Las licencias de créditos de comunicaciones aparecerán como ilimitadas en cantidad, ya que se usan para conceder acceso al saldo de créditos de comunicaciones para cualquier usuario al que asigne la licencia créditos de comunicaciones.
   
 Se recomienda evaluar cuidadosamente el uso del servicio RTC de su organización para comprender la mejor configuración para créditos de comunicaciones. Para obtener más información sobre los servicios RTC, lea Sistema telefónico [planes](calling-plan-landing-page.md) de llamadas y [audioconferencias comunes.](Audio-Conferencing-common-questions.md)
   
 Puede configurar la facturación  del consumo con una financiación única del saldo de pago previo O configurando una cantidad de recarga automática **(recomendado)**  con un saldo mínimo que desencadenará una compra para esa cantidad de recarga.  Al principio, se recomienda establecer importes de recarga automática que le permitan controlar el uso real para establecer los límites de recarga automática que se ajusten a sus necesidades y patrones de uso. Los créditos de comunicaciones deben supervisarse a lo largo del tiempo y, después, ajustar el saldo mínimo y las cantidades de recarga según sea necesario para adaptarse a las necesidades de cada organización.
   
 > [!NOTE]
-> Para ver los planes y los precios, inicie [sesión](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) en el centro de administración de Microsoft 365 y vaya a **Suscripciones** de facturación  >    >  **Agregar suscripciones.** 
+> Puede ver los planes y precios [iniciando sesión](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) en el Centro de administración de Microsoft 365 y yendo **a** Suscripciones de facturación Agregar  >    >  **suscripciones.** 
   
-En el **Microsoft 365** de servicios de compra de facturación del centro de administración, puede seleccionar Créditos de comunicación para agregar los créditos y puede agregar crédito manualmente  >    >    >   en cualquier momento. Además, puede habilitar la opción de **recarga automática** para rellenar la cuenta de forma automática cuando el saldo sea inferior al límite fijado. Si decide financiar el saldo de créditos de comunicaciones con una cantidad de pago único y, después, el saldo cae a cero, los escenarios de llamadas adicionales anteriores ya no funcionarán, incluidos los números de teléfono gratuitos. Por lo tanto, se recomienda  usar la configuración recarga automática para evitar cualquier interrupción del servicio si el saldo de créditos de comunicaciones llega a 0 (cero). Puede ver el saldo de créditos de comunicación actual yendo a   >  **Facturación De créditos de**  >  **comunicaciones de sus productos.**
+En el **Centro de administración de Microsoft 365** de servicios de compra de facturación, puede seleccionar Créditos de comunicación para agregar los créditos y puede agregar crédito manualmente  >    >    >   en cualquier momento. Además, puede habilitar la opción de **recarga automática** para rellenar la cuenta de forma automática cuando el saldo sea inferior al límite fijado. Si decide financiar el saldo de créditos de comunicaciones con una cantidad de pago único y, después, el saldo cae a cero, los escenarios de llamadas adicionales anteriores ya no funcionarán, incluidos los números de teléfono gratuitos. Por lo tanto, se recomienda  usar la configuración recarga automática para evitar cualquier interrupción del servicio si el saldo de créditos de comunicaciones llega a 0 (cero). Puede ver el saldo de créditos de comunicación actual yendo a   >  **Facturación De créditos de**  >  **comunicaciones de sus productos.**
 
 > [!NOTE]
 >Se le enviarán correos electrónicos a **todos los usuarios** con administrador de servicio de Lync, administrador de la compañía, Administrador de facturación, administrador de la compañía, administrador de cuenta de usuario, administrador de soporte técnico, administrador de soporte técnico, administrador de facturación, administrador de servicios de Lync, administrador de dispositivos, administrador de licencias, administrador de dispositivos en la nube, administrador de autenticación privilegiado, administrador de comunicaciones de Teams Teams, ingeniero de soporte técnico de comunicaciones de Teams, especialista en soporte de comunicaciones de Teams, roles de administrador de Teams, cuando las transacciones de recarga se ejecutan correctamente, las transacciones de recarga no se ejecutan (como una tarjeta de crédito expirada) y el saldo de créditos de comunicaciones alcanza 0 (cero).
@@ -118,7 +118,7 @@ Puede ver los planes y precios visitando uno de los siguientes vínculos:
     
 - [Sistema telefónico](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-También puede ver información sobre precios iniciando [sesión](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) en el centro de administración de Microsoft 365 y yendo a Servicios **de compra** de  >  **facturación.**
+También puede ver información sobre precios iniciando [sesión](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) en el Centro de administración de Microsoft 365 y yendo a **Servicios de compra** de  >  **facturación.**
   
 Para ver una tabla con la licencia o licencias que necesitará para cada característica, vea Microsoft Teams [de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

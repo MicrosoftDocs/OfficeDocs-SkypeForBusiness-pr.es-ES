@@ -25,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: de844a68d29e0bcb1bc7144fb3101d69a13f2966
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 207f133f58098b95d7f00102a0be72a44ff9f1584975bae3af2cb936d708c1dc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129869"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352448"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>¿Qué debo comprar para usar Microsoft 365 Business Voice?
 
@@ -70,7 +70,7 @@ Los minutos totales de los Planes de llamadas son específicos del país o la re
 Las acciones que se producen cuando se usan todos los minutos de un Plan de llamadas dependen de si tiene disponibles Créditos de comunicación. (Hablaremos de los Créditos de comunicación más adelante en este artículo). Si tiene Créditos de comunicación, Business Voice empezará a usarlos. Si no tiene Créditos, los usuarios no podrán realizar llamadas de teléfono fuera de su organización hasta que la cantidad de minutos del Plan de llamadas se restablezca al principio del mes siguiente.
 
 > [!IMPORTANT]
-> El número de minutos total depende del país o la región, y del número de licencias de Business Voice asignadas a los usuarios, no del número de licencias de Business Voice que haya comprado. Por ejemplo, si ha adquirido 10 licencias de Business Voice en Canadá pero solo usa 3, tendrá un total de 9 000 minutos (3 licencias multiplicadas por 3 000 minutos por usuario).
+> El número de minutos total depende del país o la región, y del número de licencias de Business Voice asignadas a los usuarios, no del número de licencias de Business Voice que haya comprado. Por ejemplo, si ha adquirido 10 licencias de Business Voice en Canadá pero solo usa 3, tendrá un total de 9 000 minutos (3 licencias multiplicadas por 3 000 minutos por usuario).
 
 Hay dos tipos de Planes de llamadas:
 
@@ -80,9 +80,9 @@ El Plan de llamadas nacionales permite a los usuarios llamar a números de telé
 
 |Dónde se encuentra el usuario          |Asignación mensual para llamadas nacionales  |
 |-----------------------------------|--------------------------------------|
-|Canadá                             | 3 000                                |
-|Reino Unido                     | 1 200                                |
-|Estados Unidos                      | 3 000                                |
+|Canadá                             | 3 000                                |
+|Reino Unido                     | 1 200                                |
+|Estados Unidos                      | 3 000                                |
 
 El plan de llamadas no está incluido en Business Voice en los países o regiones que no aparecen en la tabla anterior. Para obtener una lista de todos los países y regiones en los que Business Voice está disponible, vea la [disponibilidad de Business Voice](country-region-availability.md).
 

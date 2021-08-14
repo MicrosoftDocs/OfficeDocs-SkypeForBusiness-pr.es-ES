@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9a3e24cf-6ef7-4b82-99fc-50ba41800b6f
 description: tblPrincipalMembers contiene pertenencias de la entidad principal.
-ms.openlocfilehash: 93a012ea82acf071a28752eb79682866c0faa418
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4b7ab1ca644fae9d6cf3029e555c7bdaf476a3e5113634a4c73fd1778bc3a0dd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346346"
 ---
 # <a name="tblprincipalmembers"></a>tblPrincipalMembers
  

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: a5cf7c91ef3b0e91504753a1e04ed334f4132adc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c4a5997de66f9b78280ba14837ffc64a64dd7bc1ecbdfce9a054b434f9b6c05b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094366"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346336"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 
@@ -105,7 +105,7 @@ El acceso externo (anteriormente conocido como federación) permite que los usua
 El acceso de invitado en Teams permite a personas fuera de su organización acceder a los equipos y canales. Puede usar la configuración de acceso de invitado para controlar qué características pueden o no usar los usuarios invitados. El acceso de invitado está desactivado de forma predeterminada. Para obtener más información, consulte [Acceso de invitado a Teams](./guest-access.md).
 
 > [!NOTE]
-> Para obtener más información sobre el acceso externo y el acceso de invitado, consulte: [Comunicación con usuarios de otras organizaciones en Microsoft Teams](communicate-with-users-from-other-organizations.md)
+> Para obtener más información sobre el acceso externo y el acceso de invitado, consulte: [Comunicación con usuarios de otras organizaciones en Microsoft Teams](communicate-with-users-from-other-organizations.md)
 
 
 |Pregúntese lo siguiente:|Acción |

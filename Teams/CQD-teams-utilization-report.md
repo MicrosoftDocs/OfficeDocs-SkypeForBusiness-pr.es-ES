@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use los Teams de uso Power BI para obtener acceso Microsoft Teams datos del Panel de calidad de llamadas (CQD) para realizar un seguimiento Microsoft Teams uso en su organización.
-ms.openlocfilehash: 719f02ce7a5cd36e96ed7fd563c259c6e77764fd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e32d321383621b4a961856ad091ba0497e41d7b27fa32925987a8bb093c7fc91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095044"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352508"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Ver Microsoft Teams uso en Power BI con datos CQD
 
