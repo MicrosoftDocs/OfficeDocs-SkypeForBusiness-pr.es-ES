@@ -1,5 +1,5 @@
 ---
-title: Supervisar la movilidad para el rendimiento en Skype Empresarial Server
+title: Supervisar la movilidad para obtener rendimiento en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-description: 'Resumen: obtenga información sobre el servicio de movilidad (Mcx) y la API web de comunicaciones unificadas (UCWA) en Skype Empresarial Server.'
-ms.openlocfilehash: d7473d22f2de0576bf6214ae43719c8bfc70d49a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Summary: Learn about the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype Empresarial Server.'
+ms.openlocfilehash: 3e7d64a4dbefed7132206186069ef9646deb802ac0eb9de02d39b602c2dc4ffe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816840"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345597"
 ---
-# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Supervisar la movilidad para el rendimiento en Skype Empresarial Server
+# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Supervisar la movilidad para obtener rendimiento en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre el servicio de movilidad (Mcx) y la API web de comunicaciones unificadas (UCWA) en Skype Empresarial Server.
+**Resumen:** Obtenga información sobre el Servicio de movilidad (Mcx) y la API web de comunicaciones unificadas (UCWA) en Skype Empresarial Server.
   
-El servicio de movilidad de Skype Empresarial Server (Mcx) y la API web de comunicaciones unificadas (UCWA) aumentan la carga en los servidores front-end y los grupos de servidores front-end. Los dispositivos móviles que mantienen una conexión con el servidor incluso cuando la aplicación móvil está minimizada, como los dispositivos Android y Nokia que ejecutan Lync 2010 Mobile, así como los dispositivos Android y Apple que ejecutan Lync 2013 Mobile, imponen una carga mayor que los dispositivos que finalizan su conexión con el servidor cuando la aplicación móvil está minimizada. A medida que aumenta el uso de la movilidad, debe supervisar el rendimiento de la movilidad para determinar cuándo necesita aumentar la capacidad.
+El Skype Empresarial Server mobility service (Mcx) y la API web de comunicaciones unificadas (UCWA) aumentan la carga en servidores front-end y grupos de servidores front-end. Los dispositivos móviles que mantienen una conexión al servidor incluso cuando se minimiza la aplicación móvil, como dispositivos Android y Nokia que ejecutan Lync 2010 Mobile, así como dispositivos Android y Apple que ejecutan Lync 2013 Mobile, imponen una carga mayor que los dispositivos que terminan su conexión con el servidor cuando se minimiza la aplicación móvil. A medida que aumenta el uso de la movilidad, debes supervisar el rendimiento de la movilidad para determinar cuándo necesitas aumentar la capacidad.
 
 > [!NOTE]
-> La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes móviles actuales de Skype Empresarial ya usan la API web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (MI), la presencia y los contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
+> La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes Skype Empresarial móviles ya usan la API web de comunicaciones unificadas (UCWA) para admitir mensajería instantánea (MI), presencia y contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
   
 Hay varios límites que afectan al rendimiento de la movilidad: 
   
@@ -48,7 +48,7 @@ Otros límites en los servidores que pueden influir en el rendimiento de la movi
     
 - [Configurar el servicio de movilidad para un alto rendimiento en Skype Empresarial Server](configure-service.md)
     
-- [Supervisión de archivos de registro de seguimiento de solicitudes IIS en Skype Empresarial Server](iis-request-tracing-log-files.md)
+- [Supervisión de archivos de registro de seguimiento de solicitudes iis en Skype Empresarial Server](iis-request-tracing-log-files.md)
     
 - [Contadores de rendimiento de movilidad en Skype Empresarial Server](performance-counters.md)
     

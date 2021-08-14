@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre la tienda de aplicaciones personalizadas en Microsoft Teams.
-ms.openlocfilehash: c3f034688170f73e0f41f284864d7b53937dea6d
-ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
+ms.openlocfilehash: 0a068634b0f951abff0ae2f1b310cd48bdb80a5d4b790d2fdb81755d05636868
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52212192"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342994"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Las aplicaciones personalizadas se almacenan en Microsoft Teams
 

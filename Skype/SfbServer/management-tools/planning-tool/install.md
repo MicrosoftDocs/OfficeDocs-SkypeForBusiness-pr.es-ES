@@ -13,24 +13,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
-description: Antes de empezar a diseñar y planear la infraestructura de Skype Empresarial Server 2015 mediante la Herramienta de planeación de Skype Empresarial Server 2015, primero debe instalar la herramienta de planeación. La herramienta de planeación no necesita implementarse en una estación de trabajo o servidor que forme parte del dominio o la infraestructura donde tiene previsto instalar Skype Empresarial Server 2015. El archivo Léame que acompaña a la herramienta de planeación detalla información importante sobre la instalación y el uso de la herramienta. Alguna de la información del archivo Léame también aparece aquí por motivos de claridad.
-ms.openlocfilehash: 29a3bd35191cf326cafd1f4ad4f14fab50e47ea3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Antes de empezar a diseñar y planear la infraestructura de Skype Empresarial Server 2015 mediante la herramienta de planeación de Skype Empresarial Server 2015, primero debe instalar la herramienta de planeación. La herramienta de planeación no necesita implementarse en una estación de trabajo o servidor que forma parte del dominio o la infraestructura donde tiene previsto instalar Skype Empresarial Server 2015. El archivo Léame que acompaña a la herramienta de planeación detalla información importante sobre la instalación y el uso de la herramienta. Alguna de la información del archivo Léame también aparece aquí por motivos de claridad.
+ms.openlocfilehash: ffa1bceca3e59e42276718b5f139ac6525d36f85face94c762ceebe3013c7487
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122384"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343414"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Instalar la herramienta de planeación en Skype Empresarial Server 2015
 
-Antes de empezar a diseñar y planear la infraestructura de Skype Empresarial Server 2015 mediante la Herramienta de planeación de Skype Empresarial Server 2015, primero debe instalar la herramienta de planeación. La herramienta de planeación no necesita implementarse en una estación de trabajo o servidor que forme parte del dominio o la infraestructura donde tiene previsto instalar Skype Empresarial Server 2015. El archivo Léame que acompaña a la herramienta de planeación detalla información importante sobre la instalación y el uso de la herramienta. Alguna de la información del archivo Léame también aparece aquí por motivos de claridad.
+Antes de empezar a diseñar y planear la infraestructura de Skype Empresarial Server 2015 mediante la herramienta de planeación de Skype Empresarial Server 2015, primero debe instalar la herramienta de planeación. La herramienta de planeación no necesita implementarse en una estación de trabajo o servidor que forma parte del dominio o la infraestructura donde tiene previsto instalar Skype Empresarial Server 2015. El archivo Léame que acompaña a la herramienta de planeación detalla información importante sobre la instalación y el uso de la herramienta. Alguna de la información del archivo Léame también aparece aquí por motivos de claridad.
 
 > [!IMPORTANT]
 > La herramienta de planeación requiere la instalación de un usuario con derechos de administrador y permisos en el equipo en el que se va a instalar la herramienta.
 
 Los sistemas operativos compatibles para la instalación y el funcionamiento de la herramienta de planeación son:
 
-- Windows 10
+- Windows 10
 
 - Windows 8
 
@@ -38,7 +38,7 @@ Los sistemas operativos compatibles para la instalación y el funcionamiento de 
 
 - Windows Server 2012
 
-- Windows Server 2012 R2
+- Windows Server 2012 R2
 
 - Edición de 32 bits de Windows 7
 
@@ -56,11 +56,11 @@ Una vez que se cumplen los requisitos de preinstalación, puede instalar la herr
 
 1. Inicie sesión en el equipo local como miembro del grupo Administradores.
 
-2. Con el Explorador de Windows o una ventana de comandos, busque el directorio donde descargó los archivos de instalación de la herramienta de planeación.
+2. Con Windows o una ventana de comandos, busque el directorio donde descargó los archivos de instalación de la herramienta de planeación.
 
 3. Busque el SkypeForBusinessPlanningTool.msi. En el Explorador de Windows, haga doble clic en el archivo. En la ventana de comandos, escriba el nombre del archivo y, a continuación, presione **ENTRAR** para ejecutar el archivo.
 
-4. En la página de bienvenida de **Skype Empresarial Server 2015, Asistente** para la configuración de herramientas de planeación, haga clic en **Siguiente**.
+4. En la página de bienvenida del **Skype Empresarial Server 2015,** Asistente para la configuración de herramientas de planeación , haga clic **en Siguiente**.
 
 5. Lea el **Contrato de licencia para el usuario final**, seleccione **Acepto los términos del contrato de licencia**, si quiere aceptar los términos de uso del contrato de licencia, y haga clic en **Siguiente**.
 
@@ -75,11 +75,11 @@ Una vez que se cumplen los requisitos de preinstalación, puede instalar la herr
 ## <a name="optional-software"></a>Software opcional
 <a name="Optional_Software"> </a>
 
-La herramienta de planeación de Skype Empresarial Server 2015 está diseñada para exportar a Microsoft Excel y Microsoft Visio. Aunque estas aplicaciones no son necesarias para el funcionamiento de la herramienta de planeación, sí agregan un valor significativo a la implementación y documentación del diseño.
+La Skype Empresarial Server de planeación de 2015 está diseñada para exportar a Microsoft Excel y Microsoft Visio. Aunque estas aplicaciones no son necesarias para el funcionamiento de la herramienta de planeación, sí agregan un valor significativo a la implementación y documentación del diseño.
 
 ### <a name="microsoft-excel"></a>Microsoft Excel
 
-Al exportar el diseño a Microsoft Excel, se crea un informe que muestra siete pestañas en la hoja de cálculo:
+Al exportar el diseño a Microsoft Excel crea un informe que muestra siete pestañas en la hoja de cálculo:
 
 - Resumen: muestra información sobre la configuración del sitio, incluido el recuento de usuarios, la configuración de capacidad y la información de perfil de servidor.
 
@@ -97,18 +97,18 @@ Al exportar el diseño a Microsoft Excel, se crea un informe que muestra siete p
 
 ### <a name="microsoft-visio"></a>Microsoft Visio
 
-Al exportar el diseño a Microsoft Visio, se crea un diagrama para usarlo en los fines de documentación de la infraestructura y la topología configuradas. El diagrama importado se puede editar y reorganizar para satisfacer sus necesidades de documentación. El diagrama típico de Visio incluirá:
+Al exportar el diseño a Microsoft Visio crea un diagrama para usarlo en los fines de documentación de la infraestructura y la topología configuradas. El diagrama importado se puede editar y reorganizar para satisfacer sus necesidades de documentación. El diagrama Visio típico incluirá:
 
 > [!NOTE]
 > Si el diseño es lo suficientemente grande como para requerir más de tres servidores front-end, se creará una página adicional para el grupo de servidores front-end, los servidores front-end, el equipo que ejecuta SQL Server, direcciones IP y FQDN.
 
-- Topología global: diagrama de sitios configurados de Skype Empresarial Server 2015.
+- Topología global: diagrama de sitios Skype Empresarial Server 2015.
 
-- Pestaña Nombre del sitio: muestra la topología de configuración del sitio con servidor perimetral, firewall, red telefónica conmutada (RTC) con puertas de enlace e implementación del servidor interno. La implementación interna consta de servidores y grupos configurados, incluidos los grupos de servidores front-end, los servidores basados en SQL Server, los servicios de dominio de Active Directory, los directores, los servidores de mensajería unificada (MU) de Exchange, los servidores de buzones de Exchange, los servidores de Office Web Apps, los servidores de mediación y los servidores de chat persistente.
+- Pestaña Nombre del sitio: muestra la topología de configuración del sitio con servidor perimetral, firewall, red telefónica conmutada (RTC) con puertas de enlace e implementación del servidor interno. La implementación interna consta de servidores y grupos configurados, incluidos los grupos de servidores front-end, los servidores basados en SQL Server, los servicios de dominio de Active Directory, los directores, los servidores de mensajería unificada (MU) de Exchange, los servidores de buzones de correo de Exchange, los servidores de aplicaciones web de Office, los servidores de mediación y los servidores de chat persistente.
 
 - Diagrama de red perimetral: diagrama que detalla la configuración del servidor perimetral con direcciones IP y FQDN asociados. También se incluyen equilibradores de carga dns y equilibradores de carga de hardware. Además, se muestran directores y el servidor front-end o grupo de servidores front-end, con DNS LB o HLB asociados y la dirección IP asignada (la Herramienta de planeación admite direcciones IPv4 e IPv6) y FQDN.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 <a name="Optional_Software"> </a>
 
 [Instalación de la herramienta de planeación](/previous-versions/office/lync-server-2013/lync-server-2013-installing-the-planning-tool)

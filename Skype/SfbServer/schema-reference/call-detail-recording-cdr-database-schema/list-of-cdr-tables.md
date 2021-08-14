@@ -1,5 +1,5 @@
 ---
-title: Lista de tablas de CDR en Skype Empresarial Server 2015
+title: Lista de tablas cdr en Skype Empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: El esquema de la base de datos del registro detallado de llamadas (CDR) incluye las tablas siguientes.
-ms.openlocfilehash: 7bd76a4cf374e72582c585908309605c4845454e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 27381a95a5de2613845fa831e8730a1bc06d374ae7936eaedb31d239b3dbb0cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343254"
 ---
-# <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Lista de tablas de CDR en Skype Empresarial Server 2015
+# <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Lista de tablas cdr en Skype Empresarial Server 2015
  
 El esquema de la base de datos del registro detallado de llamadas (CDR) incluye las tablas siguientes. 
   
 ## <a name="static-tables"></a>Tablas estáticas
 
-|**Table**|**Descripción**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Tabla CallPriorities en Skype Empresarial Server 2015](callpriorities.md) <br/> |Almacena la lista de posibles prioridades de llamada, como emergencia, urgente, normal, no urgente, etc.  <br/> |
 |[Tabla ConferenceJoinTimeThresholds en Skype Empresarial Server 2015](conferencejointimethresholds.md) <br/> |Almacena los límites de clasificación usados por el informe de resumen de hora de incorporación a la conferencia.  <br/> |
@@ -38,85 +38,85 @@ El esquema de la base de datos del registro detallado de llamadas (CDR) incluye 
    
 ## <a name="supporting-tables"></a>Tablas auxiliares
 
-|**Table**|**Descripción**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Tabla ClientVersions en Skype Empresarial Server 2015](clientversions.md) <br/> |Almacena los clientes (tipo de cliente y número de versión) de cada cliente que participa de una llamada con información capturada en esta base de datos.  <br/> |
 |[Tabla ConferenceUris en Skype Empresarial Server 2015](conferenceuris.md) <br/> |Almacena una lista de ConferenceURI utilizados en las llamadas de conferencia.  <br/> |
 |[Tabla ContentTypes en Skype Empresarial Server 2015](contenttypes.md) <br/> |Almacena una lista de tipos de contenido del Protocolo de inicio de sesión (SIP) utilizados en las llamadas punto a punto y las llamadas de conferencia.  <br/> |
-|[Tabla Devices en Skype Empresarial Server 2015](devices.md) <br/> |Almacena una lista de dispositivos, incluido el fabricante, la versión de hardware y la dirección MAC.  <br/> |
-|[Tabla Dialogs en Skype Empresarial Server 2015](dialogs.md) <br/> |Almacena información acerca del identificador de diálogo de cada sesión de la base de datos.  <br/> |
+|[Tabla dispositivos en Skype Empresarial Server 2015](devices.md) <br/> |Almacena una lista de dispositivos, incluido el fabricante, la versión de hardware y la dirección MAC.  <br/> |
+|[Tabla de cuadros de diálogo Skype Empresarial Server 2015](dialogs.md) <br/> |Almacena información acerca del identificador de diálogo de cada sesión de la base de datos.  <br/> |
 |[Tabla EdgeServers en Skype Empresarial Server 2015](edgeservers.md) <br/> |Almacena una lista de servidores perimetrales utilizados para las llamadas externas.  <br/> |
-|[Tabla Gateways en Skype Empresarial Server 2015](gateways.md) <br/> |Almacena una lista de puertas de enlace utilizadas para las llamadas de voz sobre IP (VoIP).  <br/> |
+|[Tabla Puertas de enlace en Skype Empresarial Server 2015](gateways.md) <br/> |Almacena una lista de puertas de enlace utilizadas para las llamadas de voz sobre IP (VoIP).  <br/> |
 |[Tabla HardwareVersions en Skype Empresarial Server 2015](hardwareversions.md) <br/> |Almacena una lista de versiones de hardware de dispositivos (teléfono de escritorio).  <br/> |
-|[Tabla Manufacturers en Skype Empresarial Server 2015](manufacturers.md) <br/> |Almacena una lista de fabricantes de dispositivos (teléfono de escritorio).  <br/> |
+|[Tabla Fabricantes en Skype Empresarial Server 2015](manufacturers.md) <br/> |Almacena una lista de fabricantes de dispositivos (teléfono de escritorio).  <br/> |
 |[Tabla Mcus en Skype Empresarial Server 2015](mcus.md) <br/> |Almacena información acerca de los diferentes servidores de conferencia A/V y sus URI.  <br/> |
 |[Tabla MediationServers](mediationservers.md) <br/> |Almacena una lista de servidores de mediación utilizados para las llamadas VoIP.  <br/> |
 |[Tabla Teléfonos](phones.md) <br/> |Almacena todos los números de teléfono utilizados en las llamadas VoIP que se archivaron o cuyos detalles se registraron.  <br/> |
 |[Tabla Pools](pools.md) <br/> |Almacena los nombres del grupo de servidores en el que se capturan los mensajes instantáneos.  <br/> |
-|[Tabla Servers](servers.md) <br/> |Almacena el nombre de los servidores que participan en llamadas.  <br/> |
-|[Tabla Tenants](tenants.md) <br/> |Almacena los inquilinos admitidos por la implementación actual. Existen inquilinos integrados para usuarios de empresa, federados, de conectividad de mensajería instantánea pública y anónimos.  <br/> |
-|[Tabla UserAgentDef](useragentdef.md) <br/> |Asigna identificadores de agente de usuario a los nombres descriptivos del agente.  <br/> |
-|[Tabla Users](users.md) <br/> |Almacena los URI de los usuarios que participaron de sesiones registradas o archivadas en esta base de datos.  <br/> |
+|[Tabla Servidores](servers.md) <br/> |Almacena el nombre de los servidores que participan en llamadas.  <br/> |
+|[Tabla Inquilinos](tenants.md) <br/> |Almacena los inquilinos admitidos por la implementación actual. Existen inquilinos integrados para usuarios de empresa, federados, de conectividad de mensajería instantánea pública y anónimos.  <br/> |
+|[Tabla UserAgentDef](useragentdef.md) <br/> |Mapas identificadores de agente de usuario a los nombres descriptivos del agente.  <br/> |
+|[Tabla Usuarios](users.md) <br/> |Almacena los URI de los usuarios que participaron de sesiones registradas o archivadas en esta base de datos.  <br/> |
 |[Tabla UserStatistics](userstatistics.md) <br/> |Almacena información sobre el uso del sistema por parte de un usuario individual.  <br/> |
    
 ## <a name="tables-specific-to-conference-cdr-records"></a>Tablas específicas de registros CDR de conferencias
 
-|**Table**|**Descripción**|
+|**Table**|**Description**|
 |:-----|:-----|
-|[Tabla Conferences en Skype Empresarial Server 2015](conferences.md) <br/> |Almacena información acerca de todas las conferencias que se archivaron o cuyos detalles se registraron, incluido el URI de conferencia, y la hora de inicio y de finalización.  <br/> |
+|[Tabla conferencias en Skype Empresarial Server 2015](conferences.md) <br/> |Almacena información acerca de todas las conferencias que se archivaron o cuyos detalles se registraron, incluido el URI de conferencia, y la hora de inicio y de finalización.  <br/> |
 |[Tabla ConferenceSessionDetails en Skype Empresarial Server 2015](conferencesessiondetails-0.md) <br/> |Almacena información acerca de cada sesión de conferencia basada en SIP, incluida la hora de inicio y de finalización, el identificador de usuario, el código de respuesta y el identificador de diagnóstico de cada sesión.  <br/> |
-|[Tabla FocusJoinsAndLeaves en Skype Empresarial Server 2015](focusjoinsandleaves.md) <br/> |Almacena información sobre las combinaciones y las hojas de conferencia, incluido el rol de los usuarios y la versión del cliente.  <br/> |
+|[Tabla FocusJoinsAndLeaves en Skype Empresarial Server 2015](focusjoinsandleaves.md) <br/> |Almacena información sobre las combinaciones y las hojas de conferencia, incluido el rol de los usuarios y la versión de cliente.  <br/> |
 |[Tabla McuJoinsAndLeaves en Skype Empresarial Server 2015](mcujoinsandleaves.md) <br/> |Almacena información acerca de los servidores de conferencia A/V utilizados en una conferencia, y la hora de conexión y desconexión del usuario.  <br/> |
    
 ## <a name="tables-for-messages-in-im-conferences"></a>Tablas para mensajes de conferencias de mensajería instantánea
 
-|**Table**|**Descripción**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Tabla ConferenceMessageCount en Skype Empresarial Server 2015](conferencemessagecount.md) <br/> |Para cada conferencia de mensajería instantánea, almacena el número de mensajes enviados por cada usuario.  <br/> |
 |[Tabla IMReportSummary en Skype Empresarial Server 2015](imreportsummary.md) <br/> |Proporciona un informe general de las sesiones de mensajería instantánea llevadas a cabo en una organización.  <br/> |
    
 ## <a name="tables-for-peer-to-peer-sessions"></a>Tablas para sesiones punto a punto
 
-|**Table**|**Descripción**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Tabla SessionDetails](sessiondetails.md) <br/> |Almacena información acerca de cada sesión punto a punto, incluida la hora de inicio y de finalización, el identificador de usuario, el código de respuesta y el recuento de mensajes de cada usuario.  <br/> |
 |[Tabla FileTransfers en Skype Empresarial Server 2015](filetransfers-0.md) <br/> |Almacena información acerca de las sesiones de transferencia de archivos, incluido el nombre de archivo y el resultado (aceptado, rechazado o cancelado).  <br/> |
-|[Tabla Multimedia](media.md) <br/> |Almacena información acerca de los diferentes tipos de medios utilizados en las sesiones punto a punto.  <br/> |
+|[Tabla multimedia](media.md) <br/> |Almacena información acerca de los diferentes tipos de medios utilizados en las sesiones punto a punto.  <br/> |
    
 ## <a name="table-for-voip-call-details"></a>Tabla para detalles de llamadas VoIP
 
-|**Table**|**Descripción**|
+|**Table**|**Description**|
 |:-----|:-----|
-|[Tabla VoipDetails](voipdetails-0.md) <br/> |Para cada llamada VoIP/RTC de dos participantes, almacena información acerca de la llamada, como el identificador del teléfono VoIP, la puerta de enlace utilizada y el participante que desconectó la llamada. Hace referencia a [la tabla SessionDetails para](sessiondetails.md) las horas de inicio y finalización de la llamada y el código de respuesta. <br/> |
+|[Tabla VoipDetails](voipdetails-0.md) <br/> |Para cada llamada VoIP/RTC de dos participantes, almacena información acerca de la llamada, como el identificador del teléfono VoIP, la puerta de enlace utilizada y el participante que desconectó la llamada. Hace referencia a [la tabla SessionDetails para](sessiondetails.md) las horas de inicio y finalización de llamadas y el código de respuesta. <br/> |
    
 > [!NOTE]
-> Si un participante de la llamada es un usuario VoIP o si se utilizó un servidor de mediación en la llamada, se creará un registro en esta tabla. La información sobre las llamadas VoIP/VoIP que no implican un teléfono de red telefónica conmutada (RTC) se captura en la tabla [SessionDetails](sessiondetails.md). 
+> Si un participante de la llamada es un usuario VoIP o si se utilizó un servidor de mediación en la llamada, se creará un registro en esta tabla. La información sobre las llamadas VoIP/VoIP que no implican un teléfono de red telefónica conmutada (RTC) se captura en la [tabla SessionDetails](sessiondetails.md). 
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>Tabla para auditoría de llamadas E9-1-1
 
-|**Table**|**Descripción**|
+|**Table**|**Description**|
 |:-----|:-----|
-|[Tabla Ubicaciones en Skype Empresarial Server 2015](locations.md) <br/> |Para cada llamada de emergencia, como una llamada Enhanced 9-1-1 (E9-1-1), almacena información acerca de la ubicación de la llamada. Hace referencia a [la tabla SessionDetails para](sessiondetails.md) las horas de inicio y finalización de la llamada y el código de respuesta. <br/> |
+|[Tabla Ubicaciones en Skype Empresarial Server 2015](locations.md) <br/> |Para cada llamada de emergencia, como una llamada Enhanced 9-1-1 (E9-1-1), almacena información acerca de la ubicación de la llamada. Hace referencia a [la tabla SessionDetails para](sessiondetails.md) las horas de inicio y finalización de llamadas y el código de respuesta. <br/> |
    
 > [!NOTE]
 > Esta tabla solamente contiene el objeto binario grande de la ubicación de la llamada E9-1-1. Remítase a la tabla SessionDetails para obtener información adicional sobre la llamada. 
   
 ## <a name="tables-for-troubleshooting"></a>Tablas para solución de problemas
 
-|**Table**|**Descripción**|
+|**Table**|**Description**|
 |:-----|:-----|
-|[Tabla Application en Skype Empresarial Server 2015](application.md) <br/> |Almacena información sobre los distintos procesos de Skype Empresarial Server 2015 implicados en el enrutamiento y las conexiones.  <br/> |
+|[Tabla de aplicaciones en Skype Empresarial Server 2015](application.md) <br/> |Almacena información sobre varios procesos dentro de Skype Empresarial Server 2015 que participan en el enrutamiento y las conexiones.  <br/> |
 |[Tabla CallType en Skype Empresarial Server 2015](calltype.md) <br/> |Almacena información sobre los tipos de llamada, como "audio", "Mensajería instantánea", "audio y vídeo" y "uso compartido de aplicaciones".  <br/> |
-|[Tabla ErrorCategory en Skype Empresarial Server 2015](errorcategory.md) <br/> |Almacena el nombre descriptivo de cada clasificación de diagnóstico de Skype Empresarial Server 2015.  <br/> |
+|[Tabla ErrorCategory en Skype Empresarial Server 2015](errorcategory.md) <br/> |Almacena el nombre descriptivo de cada Skype Empresarial Server de diagnóstico de 2015.  <br/> |
 |[Tabla ErrorDef en Skype Empresarial Server 2015](errordef.md) <br/> |Almacena información acerca de los tipos de errores y sus definiciones.  <br/> |
 |[Tabla ErrorReport en Skype Empresarial Server 2015](errorreport.md) <br/> |Almacena información acerca de los errores generados.  <br/> |
-|[Tabla ProgressReport](progressreport.md) <br/> |Almacena información sobre los informes de progreso de varios pasos implicados en los procesos de Skype Empresarial Server 2015.  <br/> |
+|[Tabla ProgressReport](progressreport.md) <br/> |Almacena información sobre los informes de progreso de varios pasos implicados Skype Empresarial Server procesos de 2015.  <br/> |
    
-Skype Empresarial Server 2015 usa internamente las tablas de la siguiente lista. Los detalles no se describen en este documento.
+Las tablas de la siguiente lista las usa internamente Skype Empresarial Server 2015. Los detalles no se describen en este documento.
   
 ## <a name="tables-for-internal-use-by-lync-server"></a>Tablas para uso interno de Lync Server
 
-|**Table**|**Descripción**|
+|**Table**|**Description**|
 |:-----|:-----|
 |**DbConfigDateTime** <br/> |Únicamente para uso interno.  <br/> |
 |**DbConfigInt** <br/> |Únicamente para uso interno.  <br/> |

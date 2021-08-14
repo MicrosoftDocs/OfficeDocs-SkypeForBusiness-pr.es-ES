@@ -14,34 +14,34 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
-description: 'Las configuraciones de archivado se usan para controlar las opciones de archivado para la implementación de Skype Empresarial Server, incluida la habilitación y deshabilitación de las siguientes opciones:'
-ms.openlocfilehash: 96a01579f43833017978fc6067b5a86f9e9951aa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Las configuraciones de archivado se usan para controlar las opciones de archivado Skype Empresarial Server implementación, incluida la habilitación y deshabilitación de las siguientes opciones:'
+ms.openlocfilehash: 117e77b61e68c0af012ad23abd4757b571c63300e54b66b3385872edf9060d10
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827010"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338448"
 ---
 # <a name="archiving-configuration"></a>Configuración de archivado
  
-Las configuraciones de archivado se usan para controlar las opciones de archivado para la implementación de Skype Empresarial Server, incluida la habilitación y deshabilitación de las siguientes opciones:
+Las configuraciones de archivado se usan para controlar las opciones de archivado Skype Empresarial Server implementación, incluida la habilitación y deshabilitación de las siguientes opciones:
   
 - Bloquear sesiones de mensajería instantánea o conferencias si no se pueden archivar
     
-- Integración con el almacenamiento de Exchange 2013 para los usuarios que están en Exchange 2013
+- Integración con Exchange 2013, para los usuarios que se alojen en Exchange 2013
     
 - Purgar datos archivados
     
 Las configuraciones de archivado incluyen la configuración global y, de forma opcional, una o varias configuraciones de archivado de sitio y grupo:
   
-- **Configuración global** La configuración global se crea de forma predeterminada en todas las implementaciones de Skype Empresarial Server. Puede editar la configuración global, pero no puede eliminar esta configuración de archivado. Si intenta eliminarla, todas las opciones se restablecerán a los valores predeterminados.
+- **Configuración global** La configuración global se crea de forma predeterminada en todas Skype Empresarial Server implementaciones. Puede editar la configuración global, pero no puede eliminar esta configuración de archivado. Si intenta eliminarla, todas las opciones se restablecerán a los valores predeterminados.
     
 - **Configuración del sitio (opcional)** Puede especificar una o varias configuraciones de archivado de sitios, cada una de las cuales puede configurar para controlar las opciones de archivado de un sitio específico. Una configuración de sitio anula la configuración global, pero solo para los sitios especificados en las configuraciones de sitios de archivado. Puede editar o eliminar las configuraciones de sitios.
     
-- **Configuración del grupo de servidores (opcional)** Puede especificar una o más configuraciones de archivado de grupo para controlar las opciones de archivado de un grupo específico. Una configuración de grupo anula la configuración global y la configuración del sitio, pero solo para los grupos especificados en las configuraciones de grupos de archivado. Puede editar o eliminar las configuraciones de grupos.
+- **Configuración del grupo (opcional)** Puede especificar una o más configuraciones de archivado de grupo para controlar las opciones de archivado de un grupo específico. Una configuración de grupo anula la configuración global y la configuración del sitio, pero solo para los grupos especificados en las configuraciones de grupos de archivado. Puede editar o eliminar las configuraciones de grupos.
     
 > [!NOTE]
-> Las configuraciones de archivado se aplican a los usuarios que se encuentran en Skype Empresarial Server y, si usa Exchange para almacenar datos de archivado en Microsoft Exchange, a los usuarios que están en Exchange 2013, pero se implementan de forma ligeramente diferente para los usuarios de Exchange 2013. Las diferencias se describen en la siguiente sección. 
+> Las configuraciones de archivado se aplican a los usuarios que se encuentran en Skype Empresarial Server y, si usa Exchange para almacenar datos de archivado en Microsoft Exchange, a los usuarios que se hospedaron en Exchange 2013, pero se implementan de forma ligeramente diferente para los usuarios que se hospedaron en Exchange 2013. Las diferencias se describen en la siguiente sección. 
   
 La página **Configuración de archivado** muestra cada directiva de archivado configurada para su implementación. También muestra el nombre de la directiva, el ámbito (global, sitio o usuario) y qué opciones de archivado están habilitadas para cada configuración de archivado. En la página **Configuración de archivado**, tiene las siguientes opciones:
 - **Nuevo** Puede agregar una o varias de las siguientes configuraciones de archivado opcionales.
@@ -68,5 +68,5 @@ La página **Configuración de archivado** muestra cada directiva de archivado c
     
 - **Actualizar** Puede actualizar la página **Configuración de** archivado para comprobar el estado de las opciones de todas las configuraciones de archivado.
     
-Para obtener más información sobre la característica y las capacidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), Deploy archiving for Skype for Business Server [2015](../../deploy/deploy-archiving/deploy-archiving.md)y [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
+Para obtener más información sobre la característica y las funcionalidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype Empresarial Server 2015](../../plan-your-deployment/archiving/archiving.md), Deploy archiving for Skype Empresarial Server [2015](../../deploy/deploy-archiving/deploy-archiving.md)y [Manage archiving in Skype Empresarial Server 2015](../../manage/archiving/archiving.md).
 

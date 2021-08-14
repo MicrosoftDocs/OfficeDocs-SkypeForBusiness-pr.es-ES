@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre cómo implementar Salas de Microsoft Teams, incluidas las fases de implementación.
-ms.openlocfilehash: 86564c8b90b0c7c8269d5de258c31d140eca7dc4
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 6c35b8c8456659c10f444defc9ff9f4809c032965f01a85c59d41cc67e6fa367
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646701"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342815"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 

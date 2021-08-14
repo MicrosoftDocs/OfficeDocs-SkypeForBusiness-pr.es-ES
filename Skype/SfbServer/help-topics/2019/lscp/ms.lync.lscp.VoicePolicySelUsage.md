@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar registro de uso de RTC para buscar un registro de red telefónica conmutada pública (RTC) existente que pueda usar.
-ms.openlocfilehash: f9d1ae171e81657813dbd1c7b7a929b77915a2b2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 475e620f1db1fd36695ab8b477b2bac1fa9feacf9ab20e3551e27e3cc3de4d9e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820030"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342555"
 ---
 # <a name="select-pstn-usage-record"></a>Seleccionar registro de uso de RTC
  

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Resumen: obtenga información sobre los informes de supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: 32e16d02f458ca36fb18b52790966c68a354503e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8a1dd4e75b813f2208eb59f7608622b757d4f3ac58c93a012722afbc051a6de1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345567"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Uso de informes de supervisión en Skype Empresarial Server 
  
@@ -25,23 +25,23 @@ ms.locfileid: "49827770"
   
 Skype Empresarial Server incluye un conjunto de informes estándar publicados por Microsoft SQL Server Reporting Service. Estos informes, a los que se puede acceder con un explorador web, proporcionan información de uso, diagnóstico de llamadas y calidad de medios, basada en la información del registro detallado de llamadas (CDR) y la calidad de la experiencia (QoE) almacenada en las bases de datos de CDR y QoE.
   
-Para usar estos informes, debe instalar los informes de supervisión en un equipo que ejecute una instancia de la SQL Server.
+Para usar estos informes, debe instalar informes de supervisión en un equipo que ejecute una instancia del SQL Server.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Uso del panel de supervisión en Skype Empresarial Server](monitoring-dashboard.md) Proporciona a los administradores una introducción rápida al estado del sistema y al uso del sistema.
+- [Uso del Panel de supervisión en Skype Empresarial Server](monitoring-dashboard.md) Proporciona a los administradores una introducción rápida del estado del sistema y el uso del sistema.
     
-- [Informes de uso del sistema en Skype Empresarial Server](system-usage-reports.md) Proporciona información de uso del sistema basada en los datos de CDR recopilados por Skype Empresarial Server.
+- [Informes de uso del sistema en Skype Empresarial Server](system-usage-reports.md) Proporciona información de uso del sistema basada en datos CDR recopilados por Skype Empresarial Server.
     
-- [Informes de diagnósticos de llamadas (por usuario) en Skype Empresarial Server](call-diagnostic-reports-per-user.md) Proporciona información por usuario sobre sesiones punto a punto y de conferencia con errores.
+- [Informes de diagnóstico de llamadas (por usuario) en Skype Empresarial Server](call-diagnostic-reports-per-user.md) Proporciona información por usuario sobre sesiones de conferencia y punto a punto con errores.
     
-- [Informes de diagnósticos de llamadas en Skype Empresarial Server](call-diagnostic-reports.md) Proporciona información de resumen y datos de diagnóstico para sesiones punto a punto y de conferencia con errores.
+- [Informes de diagnóstico de llamadas en Skype Empresarial Server](call-diagnostic-reports.md) Proporciona información de resumen y datos de diagnóstico para sesiones de conferencia y punto a punto con errores.
     
-- [Informes de diagnósticos de calidad de medios en Skype Empresarial Server](media-quality-diagnostic-reports.md) Proporciona información sobre la calidad de las llamadas, así como información de diagnóstico y solución de problemas para las llamadas con errores.
+- [Informes de diagnóstico de calidad multimedia en Skype Empresarial Server](media-quality-diagnostic-reports.md) Proporciona información sobre la calidad de las llamadas, así como información de diagnóstico y solución de problemas para llamadas con errores.
     
 ## <a name="locating-records"></a>Localización de registros
 
-Los informes de supervisión muestran únicamente un número limitado de registros en pantalla de cada vez. El número de registros que aparece en una pantalla varía en función del informe. Para ver los registros que no se muestran actualmente en la pantalla, puede usar el control estándar hacia delante y hacia atrás (que se encuentra en la barra de herramientas de cada informe) que permite paginar los datos. También se puede ir rápidamente a la primera o a la última página del conjunto de datos.
+Los informes de supervisión muestran únicamente un número limitado de registros en pantalla de cada vez. El número de registros que aparece en una pantalla varía en función del informe. Para ver los registros que no se muestran actualmente en la pantalla, puede usar el control estándar hacia delante y hacia atrás (que se encuentra en la barra de herramientas de cada informe) que le permite paginar los datos. También se puede ir rápidamente a la primera o a la última página del conjunto de datos.
   
 Además de estos controles, también se puede ir a cualquier página del conjunto de datos escribiendo el número de página en el cuadro **Página actual** y presionando la tecla ENTRAR.
   
@@ -49,7 +49,7 @@ Además de poder avanzar por los datos de página en página, todos los informes
   
 Tal y como se ha mencionado, los informes de supervisión ofrecen únicamente las funciones de búsqueda más básicas; así, por ejemplo, no se puede especificar el campo en el que buscar el valor, sino que se buscan automáticamente los valores coincidentes en todos los campos de todos los registros. Tampoco se pueden usar caracteres comodín en las búsquedas y en todos los casos se buscarán valores parciales. Esto quiere decir que, si se busca 111, la búsqueda detectará no solo el valor 111, sino también los valores 11100, 811, 3112, 611A5B y cualquier otro campo que incluya el valor 111.
   
-Cada informe está configurado para mostrar un conjunto predeterminado de registros. Por ejemplo, de forma predeterminada, el informe de registro de usuarios muestra las actividades de registro de usuarios de la semana pasada. En algunos casos, esto puede dar como resultado un informe que no devuelve ningún registro. En este caso, significa que no se han realizado registros de usuarios en la última semana. Si aparece el mensaje "No hay resultados que coincidan con los filtros del informe", intente cambiar los valores de filtro (por ejemplo, cambiar el período de tiempo al mes anterior en lugar de a la semana anterior) y vuelva a ejecutar la consulta. Para obtener más información, consulte la sección "Filtrar datos" más adelante en este tema.
+Cada informe está configurado para mostrar un conjunto predeterminado de registros. Por ejemplo, de forma predeterminada, el Informe de registro de usuarios muestra las actividades de registro de usuarios de la semana pasada. En algunos casos, esto puede dar como resultado un informe que no devuelve ningún registro. En este caso, significa que no se han realizado registros de usuarios en la última semana. Si ve el mensaje "Ningún resultado coincide con los filtros de informe", intente cambiar los valores de filtro (por ejemplo, cambiar el período de tiempo al mes pasado en lugar de la semana pasada) y vuelva a ejecutar la consulta. Para obtener más información, vea la sección "Filtrar datos" más adelante en este tema.
   
 ## <a name="filtering-data"></a>Filtrado de datos
 

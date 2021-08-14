@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
-description: El FQDN interno del grupo de servidores perimetrales de acceso se usa para una variedad de escenarios en los que los usuarios internos se comunican con usuarios externos para la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública. Si en el entorno heredado se había implementado un servidor perimetral con equilibrio de carga, especifique el nombre de dominio completo del equilibrador de carga interno.
-ms.openlocfilehash: 42771899ca4eb06b195db7365636dbef9c3d70d9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: El FQDN interno del grupo perimetral de acceso se usa para una variedad de escenarios en los que los usuarios internos se comunican con usuarios externos para la federación, el acceso remoto de usuarios y la conectividad de mensajería instantánea pública. Si en el entorno heredado se había implementado un servidor perimetral con equilibrio de carga, especifique el nombre de dominio completo del equilibrador de carga interno.
+ms.openlocfilehash: b9c2e2977f2cfb579bc4c96d76d49883198a80a6901ba3e0fb0200b6c4704f6d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803290"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336930"
 ---
 # <a name="legacy-merge-fqdn"></a>FQDN de combinación heredada
  

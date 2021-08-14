@@ -14,26 +14,26 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
-description: Defina las propiedades de los almacenes de SQL Server para el nuevo grupo de servidores front-end que está configurando.
-ms.openlocfilehash: 4a7dca6a9cb3d33a63d65e82459fb5cdab86703d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Defina las propiedades de los almacenes SQL Server para el nuevo grupo de servidores front-end que va a configurar.
+ms.openlocfilehash: 06f48b4f515db23980fb5aedbd701a43cb8c5854bff630586f059bc52e9de6f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824070"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343594"
 ---
 # <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Agregar página de almacén de SQL front-end para Lync Server 2010
  
-Defina las propiedades de los almacenes de SQL Server para el nuevo grupo de servidores front-end que está configurando.
+Defina las propiedades de los almacenes SQL Server para el nuevo grupo de servidores front-end que va a configurar.
   
 > [!IMPORTANT]
 > Si va a configurar un servidor Standard Edition, se mostrará este cuadro de diálogo, pero no podrá configurar las opciones. Haga clic en **Siguiente** para continuar.
   
 Opciones que se pueden configurar:
   
-- **Use un almacén de SQL Server** definido anteriormente: seleccione un almacén de SQL Server existente de la lista para el almacén del grupo de servidores front-end.
+- **Usar un almacén de SQL Server** definido anteriormente: seleccione un almacén de SQL Server existente de la lista para el almacén de grupo de servidores front-end.
     
-- Seleccione **Definir un nuevo almacén SQL Server para** crear un nuevo SQL Server almacén.
+- Selecciona **Definir un nuevo almacén SQL Server para** crear un nuevo SQL Server almacén.
     
     Escriba el nombre de dominio completo de la SQL Server en **SQL Server FQDN**
     

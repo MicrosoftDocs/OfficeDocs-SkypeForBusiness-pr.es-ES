@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
-description: Las conexiones SIP directas se admiten entre Skype Empresarial Server y las puertas de enlace RTC y ip-PBX en Telefonía IP empresarial.
-ms.openlocfilehash: 7a70a6f3afd303ef5847993240b26b47d1b4ceac
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Las conexiones SIP directas se admiten Skype Empresarial Server puertas de enlace RTC y IP-PBX en Telefonía IP empresarial.
+ms.openlocfilehash: cac0cf06843ed3bf623bd2d3bbe9e92cf6b32a091fd434ac4d422812cc59e60f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096420"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343374"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexiones SIP directas en Skype Empresarial Server
 
-Las conexiones SIP directas se admiten entre Skype Empresarial Server y las puertas de enlace RTC y ip-PBX en Telefonía IP empresarial.
+Las conexiones SIP directas se admiten Skype Empresarial Server puertas de enlace RTC y IP-PBX en Telefonía IP empresarial.
 
 Puede usar conexiones SIP directas para conectar Skype Empresarial Server a cualquiera de las siguientes opciones:
 
@@ -42,13 +42,13 @@ Para implementar una conexión SIP directa, deberá seguir básicamente los mism
 
 Si su organización usa una de las implementaciones descritas en esta sección, puede usar Skype Empresarial Server como única solución de telefonía para una parte o para toda una organización. En esta sección se describen detalladamente las siguientes implementaciones:
 
-- **Implementación incremental:** Esta opción supone que tiene una infraestructura de central de conmutación (PBX) privada existente y tiene la intención de introducir Telefonía IP empresarial grupos o equipos más pequeños dentro de su organización.
+- **Implementación incremental:** Esta opción supone que tiene una infraestructura de central de conmutación (PBX) privada existente y que tiene la intención de introducir Telefonía IP empresarial grupos o equipos más pequeños dentro de su organización.
 
 - **Implementación de solo VoIP:** esta opción supone que está considerando implementar Telefonía IP empresarial en un sitio que no tiene una infraestructura de telefonía tradicional.
 
 #### <a name="incremental-deployment"></a>Implementación incremental
 
-En la implementación incremental, Skype Empresarial Server es la única solución de telefonía para equipos o departamentos individuales, mientras que el resto de los usuarios de una organización siguen usando una PBX. Esta estrategia de implementación incremental proporciona una forma de introducir la telefonía IP en su empresa a través de programas piloto controlados. Los grupos de trabajo cuyas necesidades de comunicación sean más atendidas por las comunicaciones unificadas de Microsoft se mueven a Telefonía IP empresarial, mientras que otros usuarios permanecen en la PBX existente. Los grupos de trabajo adicionales se pueden migrar a Telefonía IP empresarial, según sea necesario.
+En la implementación incremental, Skype Empresarial Server es la única solución de telefonía para equipos o departamentos individuales, mientras que el resto de los usuarios de una organización siguen usando una PBX. Esta estrategia de implementación incremental proporciona una forma de introducir la telefonía IP en su empresa a través de programas piloto controlados. Los grupos de trabajo cuyas necesidades de comunicación mejor se atendidas por las comunicaciones unificadas de Microsoft se mueven a Telefonía IP empresarial, mientras que otros usuarios permanecen en la PBX existente. Los grupos de trabajo adicionales se pueden migrar a Telefonía IP empresarial, según sea necesario.
 
 La opción incremental se recomienda si tiene grupos de usuarios claramente definidos que tienen requisitos de comunicación en común y que se prestan a la administración centralizada. Esta opción también es eficaz si tiene equipos o departamentos que se extienden por amplias áreas geográficas, donde el ahorro en cargos de larga distancia puede ser significativo. De hecho, esta opción es útil para crear equipos virtuales cuyos miembros pueden estar dispersos por todo el mundo. Puede crear, modificar o disolver dichos equipos en respuesta rápida a los requisitos empresariales de cambio.
 
@@ -68,15 +68,15 @@ En esta topología, los departamentos o grupos de trabajo seleccionados están h
 
 Hay dos configuraciones recomendadas para conectar Telefonía IP empresarial a una infraestructura PBX existente para la interoperabilidad: Telefonía IP empresarial detrás de la PBX y Telefonía IP empresarial delante de la PBX.
 
-#### <a name="enterprise-voice-behind-the-pbx"></a>Telefonía IP empresarial detrás de la PBX
+#### <a name="enterprise-voice-behind-the-pbx"></a>Telefonía IP empresarial Detrás de la PBX
 
 Cuando Telefonía IP empresarial se implementa detrás de la PBX, todas las llamadas de la RTC llegan a la PBX, que enruta las llamadas Telefonía IP empresarial los usuarios a una puerta de enlace RTC y las llamadas a los usuarios de PBX a la PBX.
 
 #### <a name="enterprise-voice-in-front-of-the-pbx"></a>Telefonía IP empresarial delante de la PBX
 
-Cuando Telefonía IP empresarial se implementa delante de la PBX, todas las llamadas llegan a la puerta de enlace RTC, que enruta las llamadas de los usuarios de Telefonía IP empresarial a Skype Empresarial Server y las llamadas de los usuarios pbx a la PBX. Las llamadas a la RTC de los usuarios de Telefonía IP empresarial y PBX se enruta a través de la red IP a la puerta de enlace RTC más rentable. En la tabla siguiente se muestran las ventajas y desventajas de esta configuración.
+Cuando Telefonía IP empresarial se implementa delante de la PBX, todas las llamadas llegan a la puerta de enlace RTC, que enruta las llamadas de los usuarios de Telefonía IP empresarial Skype Empresarial Server y las llamadas de los usuarios pbx a la PBX. Las llamadas a la RTC de los usuarios de Telefonía IP empresarial y PBX se enruta a través de la red IP a la puerta de enlace RTC más rentable. En la tabla siguiente se muestran las ventajas y desventajas de esta configuración.
 
-**Ventajas y desventajas de la implementación de Telefonía IP empresarial en frente de PBX**
+**Ventajas y desventajas de implementar Telefonía IP empresarial en frente de PBX**
 
 |**Ventajas**|**Desventajas**|
 |:-----|:-----|
@@ -88,7 +88,7 @@ Cuando Telefonía IP empresarial se implementa delante de la PBX, todas las llam
 
 Telefonía IP empresarial proporciona nuevas empresas, y también nuevos sitios de oficina para empresas existentes, con la oportunidad de implementar una solución VoIP con todas las características sin tener que preocuparse por la integración de PBX o incurrir en los costos importantes de implementación y mantenimiento de una infraestructura IP-PBX. Esta solución admite trabajadores tanto in situ como remotos.
 
-En esta implementación, todas las llamadas se enruta a través de la red IP. Las llamadas a la RTC se enrutan a la puerta de enlace RTC adecuada. Skype Empresarial o Lync Phone Edition sirve como softphone. El control remoto de llamadas no está disponible e innecesario porque no hay teléfonos PBX que los usuarios puedan controlar. Los servicios de correo de voz y operadores automáticos están disponibles a través de la implementación opcional de mensajería unificada (MU) de Exchange.
+En esta implementación, todas las llamadas se enruta a través de la red IP. Las llamadas a la RTC se enrutan a la puerta de enlace RTC adecuada. Skype Empresarial o Lync Teléfono Edition sirve como softphone. El control remoto de llamadas no está disponible e innecesario porque no hay teléfonos PBX que los usuarios puedan controlar. Los servicios de correo de voz y operadores automáticos están disponibles mediante la implementación opcional de Exchange mensajería unificada (MU).
 
 > [!NOTE]
 > Además de la infraestructura de red necesaria para admitir Skype Empresarial Server, una implementación de solo VoIP puede usar una puerta de enlace pequeña y cualificada para admitir máquinas de fax y dispositivos analógicos.
@@ -126,7 +126,7 @@ A continuación presentamos las principales preguntas que hay que plantearse. Re
 
 Los servidores de mediación pueden enrutar llamadas a través de varias puertas de enlace, controladores de borde de sesión (SBC) proporcionados por proveedores de servicios de telefonía por Internet o una combinación de las dos. Además, varios servidores de mediación del grupo pueden interactuar con varias puertas de enlace. La ruta lógica definida entre un servidor de mediación y una puerta de enlace se denomina tronco. Cuando un usuario interno hace una llamada RTC, la lógica de enrutamiento saliente en el grupo de servidores front-end elige qué tronco enrutar de todas las combinaciones posibles que puedan estar disponibles para enrutar esa llamada en particular. Con el equilibrio de carga dns, si una llamada no llega a una puerta de enlace debido a un problema con un servidor de mediación determinado en el grupo de servidores, la llamada se volverá a llamar a un servidor de mediación alternativo en el grupo de servidores.
 
-Para obtener más información acerca de la planeación de varias puertas de enlace, vea [M:N trunk in Skype for Business Server](m-n-trunk.md).
+Para obtener más información acerca de la planeación de varias puertas de enlace, vea [M:N trunk in Skype Empresarial Server](m-n-trunk.md).
 
 Para obtener más información detallada sobre otras mejoras de enrutamiento saliente, vea [Call Routes](/previous-versions/office/lync-server-2013/lync-server-2013-voice-routes).
 

@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
-description: Topology Builder proporciona una forma de instalar bases de datos en un SQL Server web. Al instalar bases de datos mediante el Generador de topologías, la aplicación lee información de la topología y, a continuación, instala las bases de datos necesarias en el equipo SQL Server o el clúster SQL Server especificado. Es el único tipo de instalación de bases de datos disponible mediante Topology Builder. Si necesita instalar una base de datos específica en un equipo específico o si debe instalar una base de datos collocada Windows PowerShell, debe usar una interfaz de línea de comandos y el cmdlet Install-CsDatabase en su lugar.
-ms.openlocfilehash: 92e0c8c0221fbd697ce59587ff4543d6cf7e119d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Topology Builder proporciona una forma de instalar bases de datos en un SQL Server web. Al instalar bases de datos mediante el Generador de topologías, la aplicación lee información de la topología y, a continuación, instala las bases de datos necesarias en el equipo SQL Server o en el clúster SQL Server especificado. Es el único tipo de instalación de bases de datos disponible mediante Topology Builder. Si necesita instalar una base de datos específica en un equipo específico, o si debe instalar una base de datos collocada Windows PowerShell, debe usar una interfaz de línea de comandos y el cmdlet Install-CsDatabase en su lugar.
+ms.openlocfilehash: 916762135d89c242c00310e0f30e2acf10e3025a6f47175dac1a7988a06d5578
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101836"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343784"
 ---
 # <a name="create-database"></a>Crear base de datos
  
-Topology Builder proporciona una forma de instalar bases de datos en un SQL Server web. Al instalar bases de datos mediante el Generador de topologías, la aplicación lee información de la topología y, a continuación, instala las bases de datos necesarias en el equipo SQL Server o el clúster SQL Server especificado. Es el único tipo de instalación de bases de datos disponible mediante Topology Builder. Si necesita instalar una base de datos específica en un equipo específico o si debe instalar una base de datos collocada Windows PowerShell, debe usar una interfaz de línea de comandos y el cmdlet [Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps) en su lugar.
+Topology Builder proporciona una forma de instalar bases de datos en un SQL Server web. Al instalar bases de datos mediante el Generador de topologías, la aplicación lee información de la topología y, a continuación, instala las bases de datos necesarias en el equipo SQL Server o en el clúster SQL Server especificado. Es el único tipo de instalación de bases de datos disponible mediante Topology Builder. Si necesita instalar una base de datos específica en un equipo específico o si debe instalar una base de datos collocada Windows PowerShell, debe usar una interfaz de línea de comandos y el cmdlet [Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps) en su lugar.
   
 ### <a name="creating-a-database"></a>Creación de una base de datos
 
-1. Haga clic en el nodo Skype Empresarial Server y, a continuación, haga clic **en Instalar base de datos.**
+1. Haga clic en el Skype Empresarial Server y, a continuación, haga clic **en Instalar base de datos**.
     
 2. En el **cuadro de** diálogo  Instalar bases de datos, en la página Crear base de datos, seleccione el nombre de dominio completo (FQDN) del almacén de SQL Server donde se van a crear las nuevas bases de datos.
     

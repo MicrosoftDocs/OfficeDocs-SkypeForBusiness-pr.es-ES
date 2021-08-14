@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 809de40e8c97eefbd3fc1a938e53328c3be0020f
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 9f28ff0d0cffd3cd370d1454c84e6645fea1a2603fa61f9a21f519e84cef5d92
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52306034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342775"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender Microsoft Teams y Skype Empresarial coexistencia e interoperabilidad
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: 'Resumen: cree una nueva directiva de PIN en Skype Empresarial Server.'
-ms.openlocfilehash: b0d1be74e509fbaddfc59250f4f5ce05a2021260
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a4bacce5d6a3bcaae2d2c114b6b4dd7dfda5bf6147da4ba51c14abd4d10ed1d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828410"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345707"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Crear una nueva directiva de PIN en Skype Empresarial Server
  
@@ -32,7 +32,7 @@ Siga estos pasos para crear una directiva de PIN de nivel de usuario o de nivel 
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes) o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que implementó Skype Empresarial Server.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
     
 3. En la barra de navegación izquierda, haga clic en **Seguridad** y, a continuación, en **Directiva de PIN**.
     
@@ -56,7 +56,7 @@ Siga estos pasos para crear una directiva de PIN de nivel de usuario o de nivel 
     
 11. En **Recuento de historial de PIN**, escriba el número de PIN que debe crear un usuario antes de que pueda volver a usar el PIN. De forma predeterminada, los usuarios pueden volver a usar sus PIN.
     
-12. Para permitir patrones comunes de dígitos en los NÚMEROS PIN, como "1234"  y "8888", active la casilla Permitir patrones comunes. Si no selecciona esta opción, solamente se permitirán patrones complejos de dígitos. De forma predeterminada, solo se permiten patrones complejos de dígitos.
+12. Para permitir patrones comunes de dígitos en LOS PIN, como "1234" y "8888", active la casilla Permitir patrones **comunes.** Si no selecciona esta opción, solamente se permitirán patrones complejos de dígitos. De forma predeterminada, solo se permiten patrones complejos de dígitos.
     
     > [!IMPORTANT]
     > Se recomienda no permitir patrones comunes. 

@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
-description: Ejecute el Asistente para quitar implementación únicamente si desea retirar toda la implementación. Este asistente crea una topología vacía que se compone de un único servidor front-end. Después de ejecutar este asistente y publicar la topología vacía, no puede volver a la topología original.
-ms.openlocfilehash: a74209c643c4ff1aaac68e88e58fe015aaff6090
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Ejecute el Asistente para quitar implementación únicamente si desea retirar toda la implementación. El asistente crea una topología vacía formada por un solo servidor front-end. Una vez se haya ejecutado el asistente y publicado la topología vacía, no podrá volver a la topología original.
+ms.openlocfilehash: 63bc45f10f42afc9537f172bf9dcf658617ae8f2ba5666f871b1e7461daeb925
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818310"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343556"
 ---
 # <a name="remove-deployment-introduction"></a>Quitar introducción de implementación
  

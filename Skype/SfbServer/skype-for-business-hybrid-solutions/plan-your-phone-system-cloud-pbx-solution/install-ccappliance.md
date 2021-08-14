@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
-description: El cmdlet Install-CcAppliance instala el dispositivo de Skype Empresarial Cloud Connector Edition(incluidas las máquinas virtuales de AD, Almacén de administración central, Servidor de mediación y Servidor perimetral) en el servidor host.
-ms.openlocfilehash: fe1fab785e2681614f27035714b6ddead22b8707
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: El cmdlet Install-CcAppliance instala el dispositivo Skype for Business Edición de conector de nube , incluidas las máquinas virtuales ad, almacén de administración central, servidor de mediación y servidor perimetral, en el servidor host.
+ms.openlocfilehash: b88b869e3c30783a69bc16ab690a258506ebcc90e849eb474a17859140485e8d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343184"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
-El cmdlet Install-CcAppliance instala el dispositivo de Skype Empresarial Cloud Connector Edition(incluidas las máquinas virtuales de AD, Almacén de administración central, Servidor de mediación y Servidor perimetral) en el servidor host. 
+El cmdlet Install-CcAppliance instala el dispositivo Skype for Business Edición de conector de nube , incluidas las máquinas virtuales ad, almacén de administración central, servidor de mediación y servidor perimetral, en el servidor host. 
   
 ```powershell
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
@@ -51,7 +51,7 @@ Install-CcAppliance -Upgrade
 
 ### <a name="example-3"></a>Ejemplo 3
 
-En el siguiente ejemplo se quitan todas las credenciales de Cloud Connector almacenadas en caché en el servidor host, se solicita al usuario que vuelva a especificar toda la información de credenciales y, a continuación, se instala Cloud Connector:
+En el siguiente ejemplo se quitan todas las credenciales de Cloud Connector almacenadas en caché en el servidor host, se solicita al usuario que especifique de nuevo toda la información de credenciales y, a continuación, se instala Cloud Connector:
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials
@@ -69,7 +69,7 @@ El parámetro -ShowStepsOnly es solo para solucionar problemas.
   
 ### <a name="example-5"></a>Ejemplo 5
 
-En el siguiente ejemplo se generan archivos de configuración para cada paso de implementación en el servidor host. Los archivos de configuración se guardan en \< la carpeta ApplianceRoot \> \Instances \\<Version \> -default\ExportedConfig en el servidor host:
+En el siguiente ejemplo se generan archivos de configuración para cada paso de implementación en el servidor host. Los archivos de configuración se guardan en la carpeta \<ApplianceRoot\> \Instances \\<Version \> -default\ExportedConfig en el servidor host:
   
 ```powershell
 Install-CcAppliance -PrepareOnly
@@ -99,9 +99,9 @@ Install-CcAppliance -ShowStepsOnly
 
 El cmdlet Install-CcAppliance se usa para implementar Cloud Connector en un nuevo dispositivo o para actualizar un dispositivo existente a la versión más reciente.
   
-Si tiene un nuevo dispositivo, asegúrese de leer primero Prepare your environment for Cloud Connector, ejecute el cmdlet Register-CcAppliance para registrar el dispositivo y, a continuación, ejecute el cmdlet Install-CcAppliance. Para obtener más información, vea [Implementar un único sitio en Cloud Connector](deploy-a-single-site-in-cloud-connector.md) e implementar varios sitios en Cloud [Connector.](deploy-multiple-sites-in-cloud-connector.md) 
+Si tiene un nuevo dispositivo, asegúrese de leer Primero Preparar el entorno para Cloud Connector, ejecute el cmdlet Register-CcAppliance para registrar el dispositivo y, a continuación, ejecute el cmdlet Install-CcAppliance. Para obtener más información, vea [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) e Deploy multiple sites in Cloud [Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
-Si ya tiene una implementación de Cloud Connector y desea actualizar, siga las instrucciones de Actualización a una nueva versión [de Cloud Connector.](upgrade-to-a-new-version-of-cloud-connector.md)
+Si tiene una implementación existente de Cloud Connector y desea actualizar, siga las instrucciones de [Actualizar a una nueva](upgrade-to-a-new-version-of-cloud-connector.md)versión de Cloud Connector .
   
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>
@@ -118,14 +118,14 @@ Si ya tiene una implementación de Cloud Connector y desea actualizar, siga las 
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguno. El Install-CcAppliance no acepta entradas canalizadas.
+Ninguno. El cmdlet Install-CcAppliance no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
 
 Ninguno
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
 [Publish-CcAppliance](publish-ccappliance.md)

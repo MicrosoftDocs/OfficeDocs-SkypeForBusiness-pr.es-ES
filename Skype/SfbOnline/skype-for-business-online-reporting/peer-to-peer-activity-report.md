@@ -22,12 +22,12 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 4e46ef6c200ff82898b5a2c9cc89a512139d1404
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 29fad24fd9e6f3ea018b9e96f3390141c5281e3b72de91076495031a7e3486ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238235"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342635"
 ---
 # <a name="peer-to-peer-activity-report"></a>Informe de actividad punto a punto
 
@@ -40,7 +40,7 @@ Consulte información general [sobre informes.](https://support.office.com/artic
 Este informe, junto con el resto de Skype Empresarial, le proporciona detalles sobre la actividad en toda la organización. Estos detalles son muy útiles para investigar, planificar y tomar otras decisiones empresariales para su organización. 
   
 > [!NOTE]
-> Puede ver todos los informes Skype Empresarial al iniciar sesión como administrador en el centro de Microsoft 365 administración. 
+> Puede ver todos los informes Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>Cómo acceder al informe de actividad punto a punto de Skype Empresarial
 

@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 8290ffba7be56f3ede0e275c801110f8c9d9539e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 607e5680c180f8440f6e09dc28a8de0b069f98e996ccb9c5e6c1b45cbb0753f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44205691"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342895"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>¿Cuál es el estado de mis solicitudes de portabilidad?
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Eslovaquia.
-ms.openlocfilehash: 696cf7220dcfbab66b67e9d5dcdb81f48b2ed930
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: b0b64e9d540b64a7c8b2d5147af80c7259ff7c6422cec01d4da00eb32e98fcc4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129659"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343054"
 ---
 # <a name="availability-in-slovakia"></a>Disponibilidad en Eslovaquia
 

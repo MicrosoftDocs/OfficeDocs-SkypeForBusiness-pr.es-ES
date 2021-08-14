@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1e7391163ec41d385b99cab4ae6d135892284e2
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: 042973f245341c0e4badd221075b81023474b6124f55eeb021bd61d32dcc4bfa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536736"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342705"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación Walkie Talkie en Microsoft Teams
 

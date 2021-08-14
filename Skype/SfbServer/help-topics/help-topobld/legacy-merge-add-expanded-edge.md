@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
-description: Skype Empresarial Server no admite la combinación de una configuración de servidor perimetral expandido de Office Communications Server 2007 R2 heredada. El servidor perimetral ampliado primero se debe convertir a una configuración de servidor perimetral consolidada antes de fusionar la información del servidor perimetral.
-ms.openlocfilehash: 48f42fd211e190791027322b688bfde19d35a94e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype Empresarial Server admite la combinación de una configuración de servidor perimetral Office de Communications Server 2007 R2 expandida. El servidor perimetral ampliado primero se debe convertir a una configuración de servidor perimetral consolidada antes de fusionar la información del servidor perimetral.
+ms.openlocfilehash: f4ecddc1121dde4dcf5dff1a3e982ce81f11aefc25032cdc047d21f57f79bd7a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336946"
 ---
 # <a name="legacy-merge-add-expanded-edge"></a>Combinación heredada del perímetro expandido agregado
  
-Skype Empresarial Server no admite la combinación de una configuración de servidor perimetral expandido de Office Communications Server 2007 R2 heredada. El servidor perimetral ampliado primero se debe convertir a una configuración de servidor perimetral consolidada antes de fusionar la información del servidor perimetral. 
+Skype Empresarial Server admite la combinación de una configuración de servidor perimetral Office de Communications Server 2007 R2 expandida. El servidor perimetral ampliado primero se debe convertir a una configuración de servidor perimetral consolidada antes de fusionar la información del servidor perimetral. 
   
 

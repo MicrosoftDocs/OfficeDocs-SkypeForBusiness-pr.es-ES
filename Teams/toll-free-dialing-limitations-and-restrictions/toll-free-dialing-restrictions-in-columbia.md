@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad de servicios gratuitos en los que el servicio gratuito está disponible. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 955fa4c8978891c5ac71835ce5ef01c0ee16b8ac
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7b404293fc93123161767c58a7c6b1b7dbd3884bc6fa091cadfd394653f07455
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116778"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342745"
 ---
 # <a name="toll-free-dialing-restrictions-in-colombia"></a>Restricciones de marcado de número gratuito en Colombia
 

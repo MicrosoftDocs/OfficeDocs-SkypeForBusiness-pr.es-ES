@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Resumen: obtenga información sobre el Panel de supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: 83a04a60e63deb39666ee4d042f74973b7d16d0b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f731030d3534af9494a4d70d29b27cc8b3ec95bcd5eede97d3ab3c65c2a54b9f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118609"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345577"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Uso del Panel de supervisión en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre el Panel de supervisión en Skype Empresarial Server.
   
-El Panel de supervisión proporciona a los administradores una introducción rápida del estado del sistema de Skype Empresarial Server y el uso del sistema. El panel está diseñado para mostrar una vista agregada de las métricas clave del sistema y para ello se muestran las siguientes:
+El Panel de supervisión proporciona a los administradores una introducción rápida de su Skype Empresarial Server del sistema y el uso del sistema. El panel está diseñado para mostrar una vista agregada de las métricas clave del sistema y para ello se muestran las siguientes:
   
 - Totales del día actual. Tenga en cuenta que los valores mostrados para el día actual representan datos que se han registrado desde la medianoche hasta la hora actual (en función de la hora local del servidor de informes). Esto significa que normalmente verá datos durante un día parcial y no durante un período de 24 horas. Por ejemplo, si la hora local del servidor es las 8:00 a.m., verá ocho horas de datos porque hay ocho horas entre la medianoche y la hora actual de las 8:00 a.m.
     
@@ -31,7 +31,7 @@ El Panel de supervisión proporciona a los administradores una introducción rá
     
 - Totales del mes y totales de tendencia de los últimos seis meses (solo para uso del sistema).
     
-Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para devolver la dirección URL usada para obtener acceso a los informes de supervisión de Skype Empresarial Server:
+Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para devolver la dirección URL usada para obtener acceso a Skype Empresarial Server informes de supervisión:
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -179,7 +179,7 @@ El Panel de supervisión proporciona varias formas de exportar la vista del pane
     
 - Word
     
-Para exportar la vista de panel actual (y sus valores), haga clic en la opción de exportación deseada. Skype Empresarial Server genera un informe en el formato especificado y, a continuación, le ofrece la opción de abrir ese informe o guardarlo. Tenga en cuenta que, de forma predeterminada, Skype Empresarial Server título el panel de supervisión del informe y lo guarda en la carpeta descargas.  Para dar al informe un nombre diferente o para almacenarlo en  una carpeta diferente, haga clic en la flecha situada junto al botón Guardar y, a continuación, haga clic **en Guardar como**. Si está bien con el nombre **Panel de supervisión** y con el informe guardado en la carpeta Descargas, puede hacer clic en el **botón** Guardar.
+Para exportar la vista de panel actual (y sus valores), haga clic en la opción de exportación deseada. Skype Empresarial Server genera un informe en el formato especificado y, a continuación, le ofrece la opción de abrir dicho informe o guardarlo. Tenga en cuenta que, de forma predeterminada, Skype Empresarial Server títulos del Panel de supervisión del informe y lo guarda en la carpeta Descargas.  Para dar al informe un nombre diferente o para almacenarlo en  una carpeta diferente, haga clic en la flecha situada junto al botón Guardar y, a continuación, haga clic **en Guardar como**. Si está bien con el nombre **Panel de supervisión** y con el informe guardado en la carpeta Descargas, puede hacer clic en el **botón** Guardar.
   
 Es posible que, al intentar exportar datos  del panel, aparezca un cuadro de diálogo Alerta de seguridad junto con el mensaje "La configuración actual no permite descargar este archivo". Si esto ocurre, haga lo siguiente:
   
@@ -187,12 +187,12 @@ Es posible que, al intentar exportar datos  del panel, aparezca un cuadro de di�
     
 - En el cuadro **de diálogo Opciones de Internet,** en la **pestaña** Seguridad, haga clic en **Sitios** de confianza y, a continuación, haga clic **en Sitios**.
     
-- En el **cuadro de**  diálogo Sitios de confianza, haga clic en Agregar para agregar el Skype Empresarial Server que ejecuta informes de Skype Empresarial Server a las colecciones de sitios web de confianza.
+- En el **cuadro de**  diálogo Sitios de confianza, haga clic en Agregar para agregar el Skype Empresarial Server que se ejecuta Skype Empresarial Server informes a las colecciones de sitios web de confianza.
     
 - Haga clic **en Cerrar** y, a continuación, en **Aceptar**.
     
 A continuación, deberá actualizar el Panel de supervisión antes de que los cambios sumen efecto. Para ello, presione F5 o haga clic en el icono **Actualizar** de la barra de herramientas Panel. (El **icono Actualizar** es un círculo con un par de flechas verdes en él).
   
-También puede crear una hoja de cálculo de Excel que incluya fuentes de datos en directo, que incluya vínculos a los últimos datos del Panel de supervisión. Para crear un archivo de fuente de datos en directo, haga clic en el icono naranja **Exportar** a fuente de datos de la barra de herramientas.
+También puede crear una hoja de Excel que incluya fuentes de datos en directo, que incluya vínculos a los últimos datos del Panel de supervisión. Para crear un archivo de fuente de datos en directo, haga clic en el icono naranja **Exportar** a fuente de datos de la barra de herramientas.
   
 Si prefiere imprimir el panel actual, haga clic en el icono de impresora de la barra de herramientas.

@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
-description: Las vistas proporcionan una manera sencilla de acceder a la información sobre los escenarios más comunes utilizados para devolver datos de la base de datos de CDR. Se recomienda usar vistas para crear informes personalizados en lugar de usar las tablas reales de la base de datos de CDR; esto se debe a que es más probable que las vistas de base de datos mantengan la compatibilidad con versiones anteriores con versiones futuras.
-ms.openlocfilehash: 0a3b40c9b31bb521075e78a1a8d46479200249d5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Las vistas proporcionan una manera sencilla de acceder a la información sobre los escenarios más comunes utilizados para devolver datos de la base de datos de CDR. Se recomienda usar vistas para crear informes personalizados en lugar de usar las tablas de base de datos cdr reales ; esto se debe a que es más probable que las vistas de base de datos mantengan la compatibilidad con versiones anteriores con versiones futuras.
+ms.openlocfilehash: 3e0598c33dac7fb139166a8dd9b82deed134a59e24d59cbe8c1884778cb627a8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813160"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343244"
 ---
 # <a name="list-of-cdr-views"></a>Lista de vistas de CDR
  
-Las vistas proporcionan una manera sencilla de acceder a la información sobre los escenarios más comunes utilizados para devolver datos de la base de datos de CDR. Se recomienda usar vistas para crear informes personalizados en lugar de usar las tablas reales de la base de datos de CDR; esto se debe a que es más probable que las vistas de base de datos mantengan la compatibilidad con versiones anteriores con versiones futuras.
+Las vistas proporcionan una manera sencilla de acceder a la información sobre los escenarios más comunes utilizados para devolver datos de la base de datos de CDR. Se recomienda usar vistas para crear informes personalizados en lugar de usar las tablas de base de datos cdr reales ; esto se debe a que es más probable que las vistas de base de datos mantengan la compatibilidad con versiones anteriores con versiones futuras.
   
-|**Nombre de vista**|**Descripción**|
+|**Nombre de vista**|**Description**|
 |:-----|:-----|
 |[Vista ClientVersions](clientversions-0.md) <br/> |Devuelve información sobre los dispositivos o el software del cliente utilizados en una sesión de comunicación.  <br/> |
 |[Vista ConferenceMessageCount](conferencemessagecount-0.md) <br/> |Devuelve información sobre la cantidad de mensajes enviada por usuarios en una conferencia.  <br/> |
@@ -38,7 +38,7 @@ Las vistas proporcionan una manera sencilla de acceder a la información sobre l
 |[Vista Mcus](mcus-0.md) <br/> |Devuelve información sobre servidores de conferencias.  <br/> |
 |[Vista multimedia](media-0.md) <br/> |Devuelve información acerca de los tipos de medios utilizados en las sesiones de comunicación punto a punto.  <br/> |
 |[Vista ProgressReport](progressreport-0.md) <br/> |Devuelve información sobre sesiones completadas.  <br/> |
-|[Vista de registro](registration-0.md) <br/> |Devuelve información sobre los registros con Skype Empresarial Server 2015.  <br/> |
+|[Vista Registro](registration-0.md) <br/> |Devuelve información sobre los registros con Skype Empresarial Server 2015.  <br/> |
 |[Vista SessionDetails](sessiondetails-0.md) <br/> |Returns information sobre sesiones punto a punto, incluidas las llamadas telefónicas VoIP-VoIP, las sesiones de mensajería instantánea entre dos participantes u otras sesiones de comunicación punto a punto.  <br/> |
 |[Vista de usuario](user.md) <br/> |Devuelve información sobre los usuarios que han participado en sesiones de comunicación.  <br/> |
 |[Vista VoIPDetails](voipdetails.md) <br/> |Devuelve información para las sesiones punto a punto en las que haya participado al menos un usuario VoIP (Voz sobre IP).  <br/> |

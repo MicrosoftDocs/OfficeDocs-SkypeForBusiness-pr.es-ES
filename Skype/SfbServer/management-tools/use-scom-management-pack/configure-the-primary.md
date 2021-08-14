@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Summary: Configure your primary management server, install System Center Operations Manager, and import management packs for Skype Empresarial Server 2015.'
-ms.openlocfilehash: ed010eb8665a1d36644c2351f965398dcedaa014
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: c9a55c44dddbe542fc53e9e047d1309a02bacfaaceee04920d5b63a1f7e25e79
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343394"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>Cómo configurar el servidor de administración principal
 

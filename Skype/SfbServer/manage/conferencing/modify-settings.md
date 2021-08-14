@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: 'Summary: Learn how to modify meeting configuration settings in Skype for Business Server.'
-ms.openlocfilehash: 2f0d1220312ac810d26fdd4691492133e54db9b6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Learn how to modify meeting configuration settings in Skype Empresarial Server.'
+ms.openlocfilehash: e1b283c5d50c955464d4af9b8f92f9e210f60f35a1fad5320c9f6bb8b6ede11d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119419"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343464"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modificar las opciones de configuración de reunión en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo modificar las opciones de configuración de reuniones en Skype Empresarial Server.
   
-Puede modificar las opciones de configuración de reuniones mediante el Panel de control de Skype Empresarial Server o mediante el Shell de administración de Skype Empresarial Server.
+Puede modificar las opciones de configuración de reuniones mediante Skype Empresarial Server Panel de control o mediante Skype Empresarial Server Shell de administración.
   
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Modificar las opciones de configuración de reunión mediante el Panel de control de Skype Empresarial Server
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Modificar las opciones de configuración de reunión mediante Skype Empresarial Server Panel de control
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2.  Abra el Panel de control de Skype Empresarial Server.
+2.  Abra Skype Empresarial Server Panel de control.
     
 3. En la barra de navegación izquierda, haga clic **en Conferencia y,** a continuación, haga clic en **Configuración de reunión.**
     
@@ -40,7 +40,7 @@ Puede modificar las opciones de configuración de reuniones mediante el Panel de
     
 6. Haga clic en **Confirmar**.
     
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Modificar las opciones de configuración de reunión mediante el Shell de administración de Skype Empresarial Server
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Modificar las opciones de configuración de reunión mediante Skype Empresarial Server Shell de administración
 
 Para modificar las opciones de configuración de reunión, use el cmdlet **Set-CsMeetingConfiguration.**
   

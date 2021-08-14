@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo configurar ubicaciones de emergencia para Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8f740034a67e1f2199b5a18aa34d67e16df43e2
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: ade5e4d7ca978f2ed8690230e6a0636849155bc9da3a7602aa9d09710faa93d0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52907766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345517"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>Paso 1: Configurar una ubicación de emergencia de Business Voice
 

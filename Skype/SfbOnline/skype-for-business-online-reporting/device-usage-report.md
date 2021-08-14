@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
 description: En el panel Informes se muestra la información general sobre la actividad en Microsoft 365 o Office 365 productos de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de uso de dispositivos Skype Empresarial para ver los dispositivos, incluidos los sistemas operativos basados en Windows y los dispositivos móviles, que tienen la aplicación Skype Empresarial instalada y la usan para mensajería instantánea y reuniones. Consulte Informes de actividades en el Centro de administración para obtener más información.
-ms.openlocfilehash: d093e13a4f5895de2b31d00669e3aff3d28eee49
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f7a3269b19b2a051bfc6739b1c453bf33c7df1acf2976658a019e75c772d9223
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238245"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342685"
 ---
 # <a name="device-usage-report"></a>Informe del uso de los dispositivos
 
@@ -38,7 +38,7 @@ Consulte información general [sobre informes](https://support.office.com/articl
 Este informe, junto con los demás Skype Empresarial, le proporciona detalles sobre los tipos de clientes o dispositivos que se usan en toda la organización. Estos detalles son muy útiles para investigar, planificar y tomar otras decisiones empresariales para su organización.
   
 > [!NOTE]
-> Puede ver todos los informes Skype Empresarial al iniciar sesión como administrador en el centro de Microsoft 365 administración. 
+> Puede ver todos los informes Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>Cómo obtener acceso al informe Skype Empresarial uso de dispositivos
 

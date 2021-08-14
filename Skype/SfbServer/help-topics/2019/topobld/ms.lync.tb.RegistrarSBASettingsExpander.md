@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Modifique la configuración de la Resistencia y configure las siguientes propiedades:'
-ms.openlocfilehash: c53aa49771a7e2c1a239319901059dc5d22b7eaf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3a8fd98ac4b928eca8ce969c10b2de7410cbace623a09f5ef71de6e1a98b47a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121033"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343764"
 ---
 # <a name="registrar-sba-settings-expander"></a>Expansor de configuración SBA de registrador
 
@@ -41,6 +41,6 @@ Modifique la configuración de la **Resistencia** y configure las siguientes pro
 
   **Ayuda** Muestra la ayuda de esta pantalla.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 [Planeación de la resistencia de Enterprise Voice](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)

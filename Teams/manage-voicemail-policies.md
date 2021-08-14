@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Administrar directivas de correo de voz para los usuarios.
-ms.openlocfilehash: aa6b08cba7118a5e43f7f2bd3baea7fb3bc7f158
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 112a2ac98ee22c46cb78c579ead947f70a1d6d447ac81ace3aef224304a281dd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910062"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342974"
 ---
 # <a name="setting-voicemail-policies-in-your-organization"></a>Configuración de directivas de correo de voz en su organización
 
