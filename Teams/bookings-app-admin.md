@@ -1,7 +1,7 @@
 ---
 title: Visitas virtuales con Microsoft Teams y la aplicación Bookings
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams y visitas virtuales con la aplicación Bookings
-ms.openlocfilehash: 9d2c2fe9fd1852d030d512d95bf5c944b8b1e1ed119b97a2bac23569cbb83f69
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2ef4708cfcbdda5ba55c1aa7069e6e1e6babebc2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295207"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233405"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación Bookings
 
@@ -41,7 +41,7 @@ Los programadores pueden administrar varios calendarios de departamento y de per
 
 - Microsoft Bookings debe estar activado para la organización.
 
-- Los usuarios deben tener una licencia adecuada. Office 365 A3, A5, E3 y E5, así como Microsoft 365 Empresa Premium, Microsoft 365 Business Standard, A3, A5, E3 y E5 son compatibles.
+- Los usuarios deben tener una licencia adecuada. Office 365 A3, se admiten A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 y E5, Business Standard.
 
 - Todos los usuarios de la aplicación de Bookings y todo el personal que participe en las reuniones debe tener una licencia que admita la programación de reuniones de Teams.
 

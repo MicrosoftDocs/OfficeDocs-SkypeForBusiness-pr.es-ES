@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cómo configurar un tronco con la omisión de medios habilitada. "
-ms.openlocfilehash: 51456576091c1d9dba88aceec7835fb2a86e53cb8983631341c5ab8b8f4c3c23
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 72d0e4b3197fab76c0ac2963f3b1517e812862e9
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849965"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233985"
 ---
 # <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>Skype Empresarial Server: configurar un tronco con desvío de medios 
 

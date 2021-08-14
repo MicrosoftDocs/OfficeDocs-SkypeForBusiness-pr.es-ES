@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Puede descargar e imprimir estas etiquetas para llamadas de emergencia cuando usa planes de llamadas en Microsoft 365 o Office 365.
-ms.openlocfilehash: 30286acb1d1b91f52287d50eab7a72d7efe94915
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3dcfa43cfa1540621702e03408e9e38ada4f9b625945bddf9580ccdcd1e0fb8d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691466"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350922"
 ---
 # <a name="emergency-calling-labels"></a>Etiquetas de llamadas de emergencia
 

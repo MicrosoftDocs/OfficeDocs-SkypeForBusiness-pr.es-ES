@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams para audio y vídeo.
-ms.openlocfilehash: e599948a78baa96849e9ddaedf6eb2a4a131ebf4
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.openlocfilehash: a14bcdf1780a1d10f0b9604727126591105dbed04fa8b663eab968a93f45ac67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327556"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configuración de directiva de reunión para audio & vídeo
 

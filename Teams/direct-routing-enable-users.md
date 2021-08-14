@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo habilitar a los Teléfono Microsoft System Direct Routing.
-ms.openlocfilehash: 6dab88312634a0dc3c595fec109905b308acbdaa
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: e15e73c74b6597f754287077480316a8da98178985ef49603cf0fb3b8dc02bbe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354300"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327685"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar usuarios para enrutamiento directo, voz y correo de voz
 

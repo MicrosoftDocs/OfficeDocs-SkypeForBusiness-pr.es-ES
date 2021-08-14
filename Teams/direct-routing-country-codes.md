@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Lea este artículo para buscar códigos de país de ruta de acceso multimedia para enrutamiento directo para que pueda seleccionar la ruta de acceso multimedia óptima.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 330d178c7bfa969020ffc8c26b1e05283c182ae8
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 0d51a3a5d6b878a607d9e5ee6b71d75319c9802fa48b3192f2023df179db3b49
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718001"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327745"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Códigos de país de ruta de acceso multimedia de enrutamiento directo
 

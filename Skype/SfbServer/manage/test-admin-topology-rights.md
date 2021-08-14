@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cómo probar los derechos de topología en Skype Empresarial Server
-ms.openlocfilehash: 5826f62b120179533e531743b6e11ede5d9ba9d049d2a0a7252e57d6e7f922ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0284fc3a1af10958fa4e3182d9cec38940421229
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335010"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233615"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Probar los derechos de topología de administración en Skype Empresarial Server
 
-| | |
+|&nbsp; |&nbsp; |
 |--|--|
 |Programación de comprobación|Después de la Skype Empresarial Server implementación inicial. Según sea necesario si surgen problemas relacionados con permisos.|
 |Herramienta de prueba|Windows PowerShell|
 |Permisos necesarios|Cuando se ejecuta localmente mediante Skype Empresarial Server Shell de administración, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.<br/><br/>Cuando se ejecuta mediante una instancia remota de Windows PowerShell, se debe asignar a los usuarios un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsSetupPermission usuario. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el Windows PowerShell solicitud:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match "Test-CsSetupPermission"}|
 |||
 
-## <a name="description"></a>Descripción
+## <a name="description"></a>Description
 
 De forma predeterminada, solo los administradores de dominio pueden habilitar una topología Skype Empresarial Server y realizar grandes cambios en la infraestructura Skype Empresarial Server dominio. Esto no será un problema mientras los administradores de dominio y los administradores de Skype Empresarial Server sean uno y los mismos. En muchas organizaciones, Skype Empresarial Server administradores no tienen derechos administrativos en todo el dominio. De forma predeterminada, esto significa que estos administradores (definidos como miembros del grupo RTCUniversalServerAdmins) no pueden realizar cambios Skype Empresarial Server topología. Para conceder a los miembros del grupo RTCUniversalServerAdmins el derecho de realizar cambios en la topología, debe asignar los permisos de Active Directory necesarios mediante el cmdlet [Grant-CsSetupPermission.](/powershell/module/skype/Grant-CsSetupPermission)
  

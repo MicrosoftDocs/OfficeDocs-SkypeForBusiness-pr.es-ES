@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Los sitios de red se encuentran oficinas o ubicaciones dentro de cada región de la red de control de admisión de llamadas (CAC), E9-1-1 y las implementaciones de desvío de medios.
-ms.openlocfilehash: 39b9f4f82686a1ab4947e6d9b2175570615c84b65b8c7c0aa4cbbba45957e35d
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: fd353980e7ac2a367b05c0f0be6ce760b7102fcc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591004"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233675"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Administrar el control de admisión de llamadas para sitios en Skype Empresarial Server
 
@@ -193,7 +193,7 @@ Los sitios de red son las oficinas o ubicaciones configuradas dentro de cada reg
     > No se puede eliminar un sitio de red si está asociado con la subred de una red. Si intenta quitar un sitio asociado a una subred, recibirá un mensaje de error. Para ver si un sitio está asociado con alguna subred, haga clic en el sitio y, a continuación, haga clic en **Mostrar detalles** en el menú **Editar**.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 [New-CsNetworkInterSitePolicy](/powershell/module/skype/New-CsNetworkInterSitePolicy) 

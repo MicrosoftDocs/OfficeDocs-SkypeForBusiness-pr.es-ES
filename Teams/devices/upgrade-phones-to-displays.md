@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Obtenga información sobre cómo actualizar Teams teléfonos a Teams pantallas en el centro Microsoft Teams administración.
-ms.openlocfilehash: 9e08d0056c82c3ad37eb3479822d40d4190fcf1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d32703a2990c61eb7fdfaea06b6151baa4c638846c5fffbcc2a11077edf6dff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115588"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327765"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Actualizar Teams teléfonos a Teams pantallas
 
@@ -90,4 +90,4 @@ Si faltan ciertas aplicaciones en la pantalla Inicio después de la actualizaci�
 
 [Teléfonos IP certificados para Microsoft Teams](teams-ip-phones.md)
 
-[Asistencia de voz de Cortana en Teams](../cortana-in-teams.md)
+[Cortana de voz en Teams](../cortana-in-teams.md)

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb6e4a75c3405a2d1b2240d101327795fa3a2d1ad6626f4bd692d1fc4851277
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f635e3b5e292d6b9eeb62fc8cbbf9552e2d0b2e2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323822"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233635"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -471,6 +471,7 @@ if($cleanup){
 - En entornos Citrix, si el usuario se desconecta de la máquina virtual mientras Teams se está ejecutando, las actualizaciones de Teams pueden hacer que el usuario esté en un estado no optimizado para AV cuando se vuelva a conectar. Se recomienda a los usuarios que Teams antes de desconectarse de Citrix Virtual Machine para evitar este escenario.
 - Teams debe implementarse por usuario o por equipo. No se Teams la implementación de Teams por usuario y por equipo. Para migrar de una máquina o de un usuario a uno de estos modos, siga el procedimiento de desinstalación y vuelva a implementarlo en ambos modos.
 - Azure Virtual Desktop no es compatible con macOS y clientes basados en Linux en este momento.
+- El cambio de inquilino rápido puede provocar problemas relacionados con las llamadas en VDI. Reiniciar el cliente mitigará estos problemas.
 
 ### <a name="calling-and-meetings"></a>Llamadas y reuniones
 

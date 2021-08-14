@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Este artículo describe la funcionalidad de Microsoft Teams disponible para los invitados.
-ms.openlocfilehash: e0efaaf036816980f5e104efebda253411827258
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: e0bfd3cf10660b95b0a6ff40fa82bdb40a1b9cec6981aa207bb8dc1f709c4ee6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129729"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349063"
 ---
 # <a name="guest-experience-in-teams"></a>Experiencia de invitado en Teams
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Bermudas.
-ms.openlocfilehash: ef23963d67e57c70f28216ba0d067c36f1710d4d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aff9dd19246c124e489468ad80f2a24c69ef38653ea6455dcdbac357e16b394b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118339"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351110"
 ---
 # <a name="availability-in-bermuda"></a>Disponibilidad en Bermudas
 

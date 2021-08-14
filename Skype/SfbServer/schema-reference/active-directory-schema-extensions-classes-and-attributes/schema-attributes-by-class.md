@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-description: En esta sección se enumeran los atributos de esquema que se pueden incluir en cada clase de Skype Empresarial Server y las clases que se pueden incluir en otras clases. Para obtener una lista de todas las clases y sus descripciones, consulte Clases de esquema y descripciones en Skype Empresarial Server. Para obtener una lista de todos los atributos y sus descripciones, consulte Atributos de esquema y descripciones en Skype Empresarial Server.
-ms.openlocfilehash: 00f524fce7e786c9d30c9442eb964c5356db5e16
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: En esta sección se enumeran los atributos de esquema que pueden contenerse en cada clase Skype Empresarial Server clase y las clases que se pueden contener en otras clases. Para obtener una lista de todas las clases y sus descripciones, vea Clases de esquema y descripciones en Skype Empresarial Server. Para obtener una lista de todos los atributos y sus descripciones, vea Schema attributes and descriptions in Skype Empresarial Server.
+ms.openlocfilehash: 75ca1dea65462d97cdef8053ab24274646408dd135890592a7c93e2654638685
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813590"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326296"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Atributos de esquema por clase en Skype Empresarial Server
  
-En esta sección se enumeran los atributos de esquema que se pueden incluir en cada clase de Skype Empresarial Server y las clases que se pueden incluir en otras clases. Para obtener una lista de todas las clases y sus descripciones, consulte Clases de esquema [y descripciones en Skype Empresarial Server.](schema-classes-and-descriptions.md) Para obtener una lista de todos los atributos y sus descripciones, consulte Atributos de esquema y [descripciones en Skype Empresarial Server.](schema-attributes-and-descriptions.md)
+En esta sección se enumeran los atributos de esquema que pueden contenerse en cada clase Skype Empresarial Server clase y las clases que se pueden contener en otras clases. Para obtener una lista de todas las clases y sus descripciones, vea [Schema classes and descriptions in Skype Empresarial Server](schema-classes-and-descriptions.md). Para obtener una lista de todos los atributos y sus descripciones, vea [Schema attributes and descriptions in Skype Empresarial Server](schema-attributes-and-descriptions.md).
   
 ## <a name="attributes-by-class"></a>Atributos por clase
 
@@ -57,7 +57,7 @@ En esta sección se enumeran los atributos de esquema que se pueden incluir en c
 |msRTCSIP-TrustedWebComponentsServer  <br/> |msRTCSIP-TrustedWebComponentsServerData  <br/> msRTCSIP-TrustedWebComponentsServerFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> |
 |msRTCSIP-WebComponentsService  <br/> |msRTCSIP-WebComponentsServers  <br/> |
 |msRTCSIP-WebComponentSettings  <br/> |msRTCSIP-WebComponentsData  <br/> msRTCSIP-WebComponentsPoolAddress  <br/> msRTCSIP-ServerVersion  <br/> |
-|User  <br/> |msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|Usuario  <br/> |msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
    
 ### <a name="classes-contained-in-other-classes"></a>Clases incluidas en otras clases
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Luxemburgo.
-ms.openlocfilehash: af4117d0861b853dc81c3d392ebc6c065ada223f
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 6822cdd3e03c843176e4a7413b9d5b6398ae49eab3915e5c3ee7ec87466eef33
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130299"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349193"
 ---
 # <a name="availability-in-luxembourg"></a>Disponibilidad en Luxemburgo
 

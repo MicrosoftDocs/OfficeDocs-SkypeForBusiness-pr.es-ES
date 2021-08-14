@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: A continuación se indican los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para México.
-ms.openlocfilehash: 4cc7ffa8bd950aff457d37023b6590230b91db94
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 84cab723f6204906d5a26c830bb954a00697f19148374484eba457560ee83bbc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102486"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349133"
 ---
 # <a name="availability-in-mexico"></a>Disponibilidad en México
 

@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Obtenga información sobre las llamadas de emergencia, incluida la información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: ef3f9bcf3a8eab2edc4cff4d99c31a1eb4028cb26a32f40adf4e0eaaa68deeee
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 608971b330196127eb95a406b7c5330dd364e363
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849085"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233805"
 ---
 # <a name="manage-emergency-calling"></a>Administrar llamadas de emergencia
 

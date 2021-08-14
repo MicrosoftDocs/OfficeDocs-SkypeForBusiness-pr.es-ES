@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 'Resumen: administrar las opciones de configuración del servicio web en Skype Empresarial Server.'
-ms.openlocfilehash: 6d79e0567790f10dd86c68f64d7bde54d3540b44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a4fb1474655e695f030180a7345375ef1a1e53e3aaadad18167ed7d41d3a9864
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328165"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Administrar las opciones de configuración del servicio web en Skype Empresarial Server
  
 **Resumen:** Administrar las opciones de configuración del servicio web en Skype Empresarial Server.
   
-Puede usar la página **Servicio web** para configurar los métodos de autenticación para obtener acceso a los servidores web y servicios web relacionados con Skype Empresarial Server.
+Puede usar la página **Servicio web** para configurar los métodos de autenticación para obtener acceso a Skype Empresarial Server web y servicios web relacionados.
   
 Siga estos pasos para crear una nueva directiva de servicio web.
   
@@ -32,7 +32,7 @@ Siga estos pasos para crear una nueva directiva de servicio web.
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes) o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que implementó Skype Empresarial Server.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.  
     
 3. En la barra de navegación izquierda, haga clic en **Seguridad** y, a continuación, en **Servicio web**.
     
@@ -42,7 +42,7 @@ Siga estos pasos para crear una nueva directiva de servicio web.
     
    - Para configurar el servicio web para un grupo de servidores, haga clic en **Configuración del grupo.** En **Seleccionar un servicio**, haga clic en el servicio al que se aplicará la directiva de servicio web y haga clic en **Aceptar**. 
     
-5. En **Nueva configuración del servicio web**, en **Autenticación integrada de Windows,** seleccione **Negociar**, **Autenticación integrada de Windows** o **Ninguno**.
+5. En **Nueva configuración del servicio web**, en **Autenticación Windows integrada,** seleccione **Negociar**, **Windows autenticación** integrada o **Ninguno**.
     
 6. Seleccione uno o más de los siguientes elementos en función de las capacidades de los clientes y compatibilidad de su entorno.
     
@@ -56,7 +56,7 @@ Siga estos pasos para crear una nueva directiva de servicio web.
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>Modificar las opciones de configuración del servicio web existentes
 
-Puede usar la página **Servicio web** para configurar los métodos de autenticación para obtener acceso a los servidores web y servicios web relacionados con Skype Empresarial Server.
+Puede usar la página **Servicio web** para configurar los métodos de autenticación para obtener acceso a Skype Empresarial Server web y servicios web relacionados.
   
 Siga estos pasos para modificar una directiva de servicio web existente.
   
@@ -64,7 +64,7 @@ Siga estos pasos para modificar una directiva de servicio web existente.
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes) o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que implementó Skype Empresarial Server.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.  
     
 3. En la barra de navegación izquierda, haga clic en **Seguridad** y, a continuación, en **Servicio web**.
     
@@ -90,7 +90,7 @@ Siga estos pasos para eliminar las opciones de configuración del servicio web.
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes) o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que implementó Skype Empresarial Server.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.  
     
 3. En la barra de navegación izquierda, haga clic en **Seguridad** y, a continuación, en **Servicio web**.
     
@@ -100,9 +100,9 @@ Siga estos pasos para eliminar las opciones de configuración del servicio web.
     
 6. Haga clic en **Aceptar**.
     
-## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Eliminar las opciones de configuración del servicio web mediante Windows PowerShell cmdlets
+## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Eliminar la configuración del servicio web Configuración mediante cmdlets Windows PowerShell web
 
-Puede eliminar las opciones de configuración del servicio web mediante Windows PowerShell y el cmdlet **Remove-CsWebServiceConfiguration.** Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del Windows PowerShell remoto para conectarse a Skype Empresarial Server, vea el artículo de blog "Inicio rápido: Administración de [Microsoft Lync Server 2010 mediante PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
+Puede eliminar las opciones de configuración del servicio web mediante Windows PowerShell y el cmdlet **Remove-CsWebServiceConfiguration.** Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell para conectarse a Skype Empresarial Server, vea el artículo de blog "Inicio rápido: Administración de [Microsoft Lync Server 2010 mediante PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Para eliminar una colección específica de opciones de configuración de servicio web
 

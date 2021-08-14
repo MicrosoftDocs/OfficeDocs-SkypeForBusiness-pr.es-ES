@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Hungría para Microsoft Teams.
-ms.openlocfilehash: 37c6d559b85aa9cb7913d07f0c506dc30631a2af088364ae72c848f74c83a1d9
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 3546db5be8b487d7107ce6106153c9814547a5c4
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849735"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233275"
 ---
 # <a name="phone-number-management-for-hungary"></a>Teléfono de números para Hungría
 

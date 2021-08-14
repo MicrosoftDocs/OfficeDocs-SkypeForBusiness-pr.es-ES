@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: A continuación se describen las conferencias en red para audioconferencias.
-ms.openlocfilehash: b7851bd2457debe8ee0de3144e24a15edb521222
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 63a76bd8cb7765816c417d60640d931acbe856bae7c1c7c3531e9598524e59c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230567"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351230"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>Conferencias en red para audioconferencias
 

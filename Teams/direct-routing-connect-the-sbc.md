@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar y conectar su SBC a Sistema telefónico enrutamiento directo.
-ms.openlocfilehash: 697f426b9c9dc3215d653520658282fab1787001
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 46eabb56056526032d45669f0faf12fecf1762e10a1ee020dd9de9be17bff74e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327755"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Conectar controlador de borde de sesión (SBC) a Enrutamiento directo
 

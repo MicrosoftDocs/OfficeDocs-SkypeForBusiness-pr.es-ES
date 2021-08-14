@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Comportamiento de coexistencia entre Teams & Skype Empresarial, incluidos los parámetros de enrutamiento, el & de llamadas, los chats & llamadas de subprocesos preexistentes, & presencia.
-ms.openlocfilehash: f9bf83d9c61f759bc74c4e2c5b8d6b4db68c320d
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 2b98fead25ccfd8098e5281749358db931d64bc32a24be2a9d186c62a1d1a57b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453669"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351160"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Las opciones de configuración del tronco SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de red telefónica conmutada, una central de conmutación IP (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios. '
-ms.openlocfilehash: 7f6a0d0bd39ff466b279bbef3b5727e1d3ea17e3285e71f646b26ff2689fa760
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: befb9aac46d815cd89b25104c11a08ef2653a7ab
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849925"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233435"
 ---
 # <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype Empresarial Configuración del tronco SIP serverModify
 

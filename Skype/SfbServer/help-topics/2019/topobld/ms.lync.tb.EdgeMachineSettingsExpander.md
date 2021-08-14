@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar las propiedades de un servidor en un grupo de servidores perimetrales, efectúe las acciones siguientes:'
-ms.openlocfilehash: a1737303f0c1c6a6f9c9912104b28200eecdc205
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 17412ba6e4ef2a90d2227566a8e9762a0baaeda81b8c6834e00b910bb40323f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328475"
 ---
 # <a name="edge-machine-settings-expander"></a>Expansor de configuración de equipo perimetral
  

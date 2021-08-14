@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Una ruta de región de red define la ruta entre un par de regiones de red. Cada par de regiones de red en su implementación de control de admisión de llamadas requiere una ruta de región de red.
-ms.openlocfilehash: 822785657020e9f1f071623f844766cfb1a12dd1b5cee1c20c23edcf584addad
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: da9145f44765009659bbf648bc082e06d806ab60
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590764"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233645"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Administrar rutas de regiones de red en Skype Empresarial Server
 
@@ -136,7 +136,7 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administrar regiones de red en Skype Empresarial Server](managing-network-regions.md)
 

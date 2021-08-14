@@ -15,13 +15,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: 'Summary: Review the IP Address type considerations below before implementing Skype for Business Server.'
-ms.openlocfilehash: ba10dd223e7e099d27e31bddce478603f50e49a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Summary: Review the IP Address type considerations below before implementing Skype Empresarial Server.'
+ms.openlocfilehash: 2af34980f4a06189fdae996d01bfdf13a8fee7ac769f022b4dc1bc1e03d94a81
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101256"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351340"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurar tipos de direcciones IP en Skype Empresarial
 
@@ -81,8 +81,8 @@ Con el Generador de topologías, realice los pasos del siguiente procedimiento p
 > Solo se admiten dos tarjetas de red en *servidores de* mediación dedicados. Si el rol Servidor de mediación está situado en front-end, no se admiten tarjetas de red duales. 
 
 > [!NOTE]
-> - Para obtener más información acerca de las configuraciones de NIC compatibles para Skype Empresarial Server 2015, vea [Hardware for Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
-> - Para obtener más información acerca de las configuraciones de NIC compatibles para Skype Empresarial Server 2019, vea [Hardware for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+> - Para obtener más información acerca de las configuraciones de NIC admitidas para Skype Empresarial Server 2015, vea [Hardware for Skype Empresarial Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
+> - Para obtener más información acerca de las configuraciones de NIC admitidas para Skype Empresarial Server 2019, vea [Hardware for Skype Empresarial Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
 
 
 

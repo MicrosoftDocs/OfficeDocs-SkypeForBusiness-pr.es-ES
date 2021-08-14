@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f186be15-626a-4454-9b54-55aa5d90c520
 description: Especifique el nombre de dominio completo de cada equipo que desee agregar como servidor front-end en este grupo de servidores. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Una vez publicada la topología, para cambiar el nombre de dominio se debe eliminar el servidor del Topology Builder y, a continuación, agregar un nuevo servidor al grupo de servidores con el nuevo nombre de dominio completo.
-ms.openlocfilehash: ecca5fa38f74aa13ad9b181f9c08ebf38bfe0675
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ed42a617ff9a44b909fd6eb3dc109d95e00d9bec46c87bddb38680dc4cfcdb7a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824000"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328295"
 ---
 # <a name="add-mediation-machine"></a>Agregar equipo de mediación
  
