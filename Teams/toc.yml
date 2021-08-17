@@ -365,7 +365,7 @@ items:
                 href: guest-experience.md
               - name: Activar o desactivar el acceso de invitado
                 href: set-up-guests.md
-              - name: Agregar un invitado a un equipo
+              - name: Ver invitados en un equipo
                 href: view-guests.md
               - name: Editar la información de los invitados
                 href: edit-guests-information.md
@@ -915,7 +915,7 @@ items:
                 href: direct-routing-landing-page.md
               - name: Planear el enrutamiento directo
                 href: direct-routing-plan.md
-              - name: Lista de controladores de borde de sesión certificados para el enrutamiento directo
+              - name: Controladores de límites de sesión certificados para Enrutamiento directo
                 href: direct-routing-border-controllers.md
               - name: Configurar el enrutamiento directo
                 items:
@@ -1015,7 +1015,7 @@ items:
                 href: phone-number-calling-plans/port-order-status.md
           - name: Cobertura y centros de tasa compatibles
             href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
-      - name: Enrutamiento de llamada
+      - name: Enrutamiento de voz
         items:
           - name: ¿Qué son los planes de marcado?
             href: what-are-dial-plans.md
@@ -1049,7 +1049,7 @@ items:
                 href: emergency-calling-labels.md
           - name: Administrar directivas de llamadas de emergencia
             href: manage-emergency-calling-policies.md
-          - name: Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo
+          - name: Administrar directivas de enrutamiento de voz de emergencia para enrutamiento directo
             href: manage-emergency-call-routing-policies.md
       - name: Administrar directivas de voz y llamadas en Teams
         href: voice-and-calling-policies.md
@@ -1481,8 +1481,6 @@ items:
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Recursos de Teams para administradores de educación
             href: resources-teams-edu.md
-          - name: Dispositivos de Teams para el ámbito educativo
-            href: devices-for-education.md
           - name: Preguntas frecuentes de la administración de Microsoft Education para administradores
             href: plan-teams-governance-edu.md
           - name: Instalar la integración Moodle
@@ -1495,10 +1493,14 @@ items:
         items:
           - name: Guía de inicio rápido de Trabajador de primera línea
             href: flw-quickstart.yml
+          - name: Asistente para la incorporación de trabajadores de primera línea
+            href: flw-onboarding-wizard.md
           - name: Implementación mediante scripts para trabajadores de primera línea
             href: flw-scripted-deployment.md
           - name: Administrar el acceso de trabajadores de primera línea en función de sus turnos
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+          - name: Administrar propietarios de programación para la administración de turnos
+            href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
           - name: RealWear para Teams
             href: flw-realwear.md
           - name: Walkie-talkie
@@ -1574,6 +1576,8 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams
             href: sharepoint-onedrive-interact.md
+      - name: Dispositivos de Teams para el ámbito educativo
+        href: devices-for-education.md
       - name: Dispositivos admitidos
         items:
           - name: Administrar los dispositivos en Teams
