@@ -515,6 +515,8 @@ items:
         items:
           - name: Usar plantillas de equipo en el centro de administración
             href: get-started-with-teams-templates-in-the-admin-console.md
+          - name: Introducción a las plantillas de equipo con Microsoft Graph
+            href: get-started-with-teams-templates.md
           - name: Plantillas de equipo integradas en Graph para pequeñas y medianas empresas
             href: smb-templates.md
           - name: Crear una plantilla personalizada de equipo
@@ -1405,8 +1407,6 @@ items:
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: Todos los sectores
         items:
-          - name: Introducción a las plantillas de equipo
-            href: get-started-with-teams-templates.md
           - name: Turnos para Teams
             href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             items:
