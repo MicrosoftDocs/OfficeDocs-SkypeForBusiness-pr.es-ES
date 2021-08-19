@@ -305,7 +305,7 @@ items:
             href: location-of-data-in-teams.md
           - name: Privacidad de los comentarios de Microsoft Teams
             href: teams-privacy-feedback.md
-          - name: Bloquear el acceso a SharePoint Online para determinados usuarios
+          - name: Bloquear el acceso a SharePoint Online para usuarios específicos
             href: block-access-sharepoint.md
           - name: Información general sobre el control de directivas
             href: policy-control-overview.md
