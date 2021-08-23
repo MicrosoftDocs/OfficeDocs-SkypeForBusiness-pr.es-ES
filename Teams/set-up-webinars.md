@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Obtenga información sobre cómo administrar directivas de seminario web para Teams reuniones.
-ms.openlocfilehash: 8386ef4ea9dd90d60cdc8c891461c3dc1a6b37ad4f3f7c47e42808e3c8f826a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 23c637c1b4192f02ab3e95aa75bf434ae6453afd
+ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330884"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58392917"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurar seminarios web en Microsoft Teams
 
@@ -35,6 +35,28 @@ Este artículo le ayudará a configurar su organización para hospedar seminario
 Los seminarios web son reuniones estructuradas en las que los presentadores y los participantes tienen roles claros, a menudo usados con fines de aprendizaje o escenarios de generación de clientes potenciales de ventas y marketing.
 
 Después de configurar seminarios web en su organización, los usuarios pueden programar seminarios web y abrir el registro a los asistentes. A diferencia de las reuniones tradicionales que incluyen muchas discusiones y tareas, los seminarios web están diseñados para presentaciones interactivas y proporcionan herramientas para el análisis de los asistentes.
+
+## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Permitir a los usuarios programar seminarios web en el Teams de administración
+
+Puede usar el centro de Teams para configurar seminarios web para su organización. Encontrará las directivas para configurar seminarios web en el centro de administración de Teams en **Directivas de reunión** de  >  **reuniones.**
+
+### <a name="allow-meeting-registration"></a>Permitir el registro de la reunión
+
+Si activa esta opción, los usuarios pueden programar seminarios web. De forma predeterminada, esta opción está activada. Si desea desactivar el registro de la reunión, establezca esta directiva en **Desactivado.**
+
+> [!IMPORTANT]
+> **Permitir la programación de reuniones privadas** debe estar en para que el registro de la reunión funcione. De forma predeterminada, esta directiva está activada en el Teams de administración. Para los alumnos de los inquilinos educativos, esta directiva está desactivada de forma predeterminada. Para obtener más información sobre cómo habilitar la programación de reuniones privadas para los alumnos, vea Teams para Educación [directivas y paquetes de directivas.](policy-packages-edu.md)
+
+### <a name="who-can-register"></a>Quién registro
+
+Si selecciona **Todos, todos** los usuarios, incluidos los usuarios anónimos, pueden registrarse y asistir a seminarios web. Si selecciona **Todos los miembros de la organización,** solo los usuarios de su organización pueden registrarse en seminarios web. Si el registro de la reunión está desactivado, esta opción no estará disponible y nadie podrá registrarse en seminarios web.
+
+> [!NOTE]
+> El valor predeterminado de **Quién puede registrar** es Todos los miembros de la **organización** en inquilinos educativos. Para obtener más información, [vea Teams para Educación de directivas](easy-policy-setup-edu.md).
+
+### <a name="allow-engagement-report"></a>Permitir informe de participación
+
+Si activa esta opción, los organizadores pueden ver informes de quién se registró y asistió a los seminarios web que configuraron. Esta directiva está desactivada de forma predeterminada. Para obtener más información, vea Directivas de reunión [en Teams: Permitir informe de participación.](meeting-policies-in-teams-general.md#allow-engagement-report) Para obtener información sobre la experiencia del usuario final, vea [Ver y descargar informes de asistencia a reuniones.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>Permitir a los usuarios programar seminarios web con PowerShell
 
@@ -93,7 +115,7 @@ Si desea que los organizadores analicen quién se registró y asistió a seminar
 Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
 ```
 
-### <a name="configure-webinar-settings"></a>Configurar la configuración del seminario web
+## <a name="configure-webinar-settings"></a>Configurar la configuración del seminario web
 
 Después de habilitar su entorno para seminarios web, no se requiere más administración de administradores. La directiva controla qué opciones se muestran para los organizadores de seminarios web.
 
@@ -101,3 +123,4 @@ Después de habilitar su entorno para seminarios web, no se requiere más admini
 
 - [Directivas de reunión en Teams - General](meeting-policies-in-teams-general.md)
 - [Documentación de Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Teams para Educación Asistente para directivas](easy-policy-setup-edu.md)

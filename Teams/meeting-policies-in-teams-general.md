@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración general de la directiva de reunión en Teams.
-ms.openlocfilehash: 944f909dcbc3e1eb0592a73ad299358294958721
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e9e38f724d5327ed54bad8098c1f7fae0c300e34
+ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235215"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58392927"
 ---
 # <a name="meeting-policy-settings---general"></a>Configuración de la directiva de reunión. Aspectos generales
 
@@ -38,7 +38,9 @@ En este artículo se describen las siguientes opciones de configuración de dire
 - [Permitir la programación de reuniones privadas](#allow-scheduling-private-meetings)
 - [Permitir Reunirse ahora en reuniones privadas](#allow-meet-now-in-private-meetings)
 - [Modo de rol moderador designado](#designated-presenter-role-mode)
-- [Informe de asistencia a la reunión](#meeting-attendance-report)
+- [Permitir informe de participación](#allow-engagement-report)
+- [Permitir el registro de la reunión](#allow-meeting-registration)
+- [Quién registro](#who-can-register)
 - [Proveedor de reuniones para el modo Islas](#meeting-provider-for-islands-mode)
 
 ## <a name="allow-meet-now-in-channels"></a>Permitir la opción Reunirse ahora en canales
@@ -108,7 +110,7 @@ Esta es una directiva por usuario. Esta configuración le permite cambiar el val
 
 La configuración **¿Quién puede encargarse de la moderación?** permite a los organizadores de reuniones elegir quién puede moderar una reunión. Para obtener más información, consulte [Cambiar la configuración de los participantes para una reunión de Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) y [Roles en una reunión de Teams](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-Actualmente, solo puede usar PowerShell para establecer esta configuración de directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
+Actualmente, solo puede usar PowerShell para establecer esta configuración de directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
 
 Para especificar el valor predeterminado de la configuración **¿Quién puede encargarse de la moderación?** de Teams, establezca el parámetro **DesignatedPresenterRoleMode** en una de las siguientes opciones:
 
@@ -118,15 +120,44 @@ Para especificar el valor predeterminado de la configuración **¿Quién puede e
 
 Tenga en cuenta que, después de establecer el valor predeterminado, los organizadores de reuniones aún podrán cambiar esta configuración en Teams y elegir quién puede moderar las reuniones que programen.
 
-## <a name="meeting-attendance-report"></a>Informe de asistencia a la reunión
+## <a name="allow-engagement-report"></a>Permitir informe de participación
 
 Esta es una directiva por usuario. Esta configuración controla si los organizadores de reuniones pueden descargar el [informe de asistencia a reuniones](teams-analytics-and-reports/meeting-attendance-report.md).
 
-Actualmente, solo puede usar PowerShell para establecer esta configuración de directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
+Esta directiva está desactivada de forma predeterminada y permite a los organizadores ver quién se registró y asistió a las reuniones y seminarios web que han configurado. Para activar esta opción en el centro Teams de administración, vaya a Directivas de reunión de reuniones y establezca la directiva  >  en **Habilitado.**
 
-Para permitir que un organizador de la reunión descargue el informe de asistencia a la reunión, establezca el parámetro **AllowEngagementReport** en **Habilitado.** Cuando se habilita, la opción para descargar el informe se muestra en el panel **Participantes**. De forma predeterminada, esta configuración está habilitada.
+Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
+
+Para permitir que un organizador de la reunión descargue el informe de asistencia a la reunión, establezca el parámetro **AllowEngagementReport** en **Habilitado.** Cuando se habilita, la opción para descargar el informe se muestra en el panel **Participantes**. De forma predeterminada, esta configuración no está habilitada.
 
 Para impedir que el organizador de la reunión descargue el informe, establezca el parámetro en **Deshabilitado**.
+
+## <a name="allow-meeting-registration"></a>Permitir el registro de la reunión
+
+Esta es una directiva por usuario. Si activa esta opción, los usuarios de su organización pueden configurar seminarios web. Esta directiva está habilitada de forma predeterminada.
+
+Para editar esta directiva en el centro Teams de administración, vaya a **Directivas de reunión** de  >  **reuniones.** Para desactivar el registro de la reunión, establezca la directiva en **Desactivado.**
+
+Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
+
+Para activar el registro de la reunión, establezca el parámetro  **AllowMeetingRegistration** en **True**. Se establece en **True de** forma predeterminada.
+
+Para desactivar el registro de reuniones e impedir que los usuarios programe seminarios web, establezca el parámetro en **Falso.**
+
+## <a name="who-can-register"></a>Quién registro
+
+Esta directiva controla qué usuarios pueden registrarse y asistir a seminarios web. Esta directiva tiene dos opciones, que solo están disponibles si permitir el registro **de reunión** está activado.
+
+- Establezca Quién puede **registrarse**  en Todos si desea permitir que todos los usuarios, incluidos los usuarios anónimos, se registren y asistan a seminarios web que los usuarios de su organización configuren.
+- Establezca **Quién puede registrarse**  en Todos los miembros de la organización si desea permitir que solo los usuarios de su organización se registren y asistan a seminarios web.
+
+De forma predeterminada, **Quién puede registrar** se establece en **Todos.** Para editar esta directiva en el centro Teams de administración, vaya a **Directivas de reunión** de  >  **reuniones.**
+
+Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
+
+Para permitir que todos, incluidos los usuarios anónimos, se registren y asistan a seminarios web, establezca el parámetro **WhoCanRegister** en **Todos.** Se establece en Todos **de** forma predeterminada.
+
+Para permitir que solo los usuarios de su organización se registren y asistan a seminarios web, establezca el parámetro **en EveryoneInCompany**.
 
 ## <a name="meeting-provider-for-islands-mode"></a>Proveedor de reuniones para el modo Islas
 
@@ -134,7 +165,7 @@ Esta es una directiva por usuario. Esta configuración controla qué complemento
 
 Solo puede aplicar esta directiva a los usuarios que se encuentren en modo Aplicaciones aisladas y tengan el parámetro **AllowOutlookAddIn** establecido en **True** en la directiva de reuniones de Microsoft Teams.
 
-Actualmente, solo puede usar PowerShell para establecer esta directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
+Actualmente, solo puede usar PowerShell para establecer esta directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
 
 Para especificar qué complemento de la reunión desea que esté disponible para los usuarios, establezca el parámetro **PreferredMeetingProviderForIslandsMode** como se indica a continuación:
 
@@ -153,5 +184,5 @@ Las reacciones a la reunión están desactivadas de forma predeterminada. Desact
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
-- [Asignar directivas a los usuarios en Teams](assign-policies.md)
+- [Asignar directivas en Teams](policy-assignment-overview.md)
 - [Quitar a los usuarios la directiva de reunión de Teams RestrictedAnonymousAccess](meeting-policies-restricted-anonymous-access.md)

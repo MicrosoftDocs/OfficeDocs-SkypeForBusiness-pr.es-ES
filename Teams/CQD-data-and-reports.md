@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre los datos e informes disponibles en el Panel de calidad de llamadas de Microsoft (CQD).
-ms.openlocfilehash: 9d13823981ced4d631ed50fe9fd964765c761a029831d630de103bdc5c43e206
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04330069f04c948ad82b953bee20e5d20c9ab964
+ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331122"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58339868"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Datos e informes en panel de calidad de llamadas (CQD)
 
@@ -396,8 +396,6 @@ Al revisar los datos, es posible que vea diferencias en los datos entre Teams y 
   - Teams administración dinámica de ancho de banda. Skype Empresarial no.
 - Diferencias en [los intervalos de](Office-365-URLs-IP-address-ranges.md) direcciones IP entre Teams y Skype Empresarial. Los Teams ip son más recientes, lo que podría causar problemas de conectividad en el firewall.
 
-> [!IMPORTANT]
-> A partir del 1 de julio de 2020, la versión heredada de CQD (cqd.lync.com) tiene acceso a los datos del nuevo CQD ( y ya no puede exportar datos de creación e https://CQD.teams.microsoft.com) informe. A partir del 31 de julio de 2021, coincidiendo con la retirada de Skype Empresarial Online, desactivaremos el CQD heredado y ya no podrá acceder a él.
 
 
 ## <a name="related-topics"></a>Temas relacionados

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cff5f74d5ece9cf28887783ed07b9bfc8e5cd32287a96aeb2efbfaf29bce515
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9c1a08bfe63db87332035dd51b93281cc8ac0f25
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350452"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398959"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destinos de equipo
 
@@ -60,7 +60,7 @@ El permiso para publicar depende de si un usuario es miembro de algún equipo de
 
 ### <a name="guidelines"></a>Directrices
 
-* Solo puede haber un archivo de jerarquía aplicado por organización. Sin embargo, puede incluir diferentes partes de su organización conjuntamente como jerarquías distintas de nodos dentro de un archivo CSV. Por ejemplo, Contoso Pharmaceuticals tiene un nodo raíz de farmacia y un nodo raíz minorista. Ambos nodos raíz tienen varias filas de descendientes y no hay ninguna superposición entre ellos.
+* Solo puede haber un archivo de jerarquía aplicado por organización. Sin embargo, puede incluir diferentes partes de su organización conjuntamente como jerarquías distintas de nodos dentro de un archivo. Por ejemplo, Contoso Pharmaceuticals tiene un nodo raíz de farmacia y un nodo raíz minorista. Ambos nodos raíz tienen varias filas de descendientes y no hay ninguna superposición entre ellos.
 * Solo los nodos hoja pueden ser destinatarios de una publicación. Otros nodos de la jerarquía son útiles para seleccionar destinatarios de una publicación.
 * Un equipo solo se puede representar una vez en una jerarquía.
 * Una jerarquía puede contener hasta 15 000 nodos. Tenemos previsto trabajar con los clientes para aumentar este límite para las organizaciones más grandes.
@@ -76,7 +76,7 @@ Por ejemplo, en la siguiente jerarquía, Recuperar, Comunicaciones y RRHH puede 
 > [!NOTE]
 > En el resto de este artículo se describe la configuración de una jerarquía de equipos en el contexto de la publicación de tareas en los equipos destinatarios. Consulte Administrar [la aplicación Tareas](./manage-tasks-app.md) de su organización en Teams para obtener información general sobre la aplicación Tareas, donde la publicación de tareas aparece cuando está habilitada.
 
-El esquema que define la jerarquía se basa en un archivo de valores separados por comas (CSV). Cada fila del archivo CSV corresponde a un nodo dentro de la jerarquía de equipos. Cada fila contiene información que denomina el nodo dentro de la jerarquía, opcionalmente lo vincula a un equipo e incluye atributos que se pueden usar para filtrar equipos en aplicaciones que lo admitan.
+El esquema que define la jerarquía se basa en un archivo de valores separados por comas (CSV). El archivo debe estar en formato UTF-8. Cada fila del archivo CSV corresponde a un nodo dentro de la jerarquía de equipos. Cada fila contiene información que denomina el nodo dentro de la jerarquía, opcionalmente lo vincula a un equipo e incluye atributos que se pueden usar para filtrar equipos en aplicaciones que lo admitan.
 
 También puede definir **cubos,** que son categorías que el equipo de publicación puede usar para organizar el contenido enviado a los equipos destinatarios para que les resulte más fácil ver, ordenar y centrarse en el contenido relevante.
 

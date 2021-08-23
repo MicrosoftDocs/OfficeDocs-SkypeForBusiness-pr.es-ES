@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bffdaa51b26f1633d36885d9696db9dfca1edde
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 0642a35cb99e276b3df6e657c2bf5b68c8cdadb8
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233215"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380404"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -40,7 +40,7 @@ ms.locfileid: "58233215"
 Microsoft Teams tiene un nuevo método para guardar las grabaciones de reuniones. Como primera fase de una transición del Microsoft Stream clásico al [ nuevo Stream](/stream/streamnew/new-stream), este método almacena grabaciones en Microsoft OneDrive para la Empresa y SharePoint en Microsoft 365 y ofrece muchas ventajas.
 
 > [!NOTE]
-> Si una Teams de reunión no se carga correctamente en OneDrive/SharePoint, la grabación se guardará temporalmente en Azure Media Services (AMS). Una vez almacenado en AMS, no se intenta volver a intentar cargar automáticamente la grabación en OneDrive/SharePoint o Stream.
+> Si una grabación de reunión de Teams no se carga correctamente en OneDrive/SharePoint, aparecerá un mensaje de error "La grabación terminó inesperadamente" y la grabación se guardará temporalmente en Azure Media Services (AMS). Una vez almacenado en AMS, no se intenta volver a intentar cargar automáticamente la grabación en OneDrive/SharePoint o Stream.
 
 Las grabaciones de reuniones almacenadas en AMS estarán disponibles durante 21 días antes de eliminarse automáticamente. Los usuarios pueden descargar el vídeo de AMS si necesitan guardar una copia.
 
@@ -117,7 +117,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |Llamada uno a uno con partes internas             |Destinatario                 |Cuenta de OneDrive para la Empresa del destinatario                        |El destinatario es propietario y tiene todos los derechos. <br /><br />El autor de la llamada (si está en el mismo espacio empresarial) tiene acceso de solo lectura. Sin acceso de uso compartido. <br /><br />El autor de la llamada (si está en otro espacio empresarial) no tiene acceso. El destinatario debe compartirlo con el autor de la llamada.|
 |Llamada uno a uno con llamada externa             |Autor de la llamada                 |Cuenta de OneDrive para la Empresa del autor de la llamada                        |El autor de la llamada es propietario y tiene todos los derechos.<br /> <br />El destinatario no tiene acceso. El autor de la llamada debe compartirlo con el destinatario.|
 |Llamada uno a uno con llamada externa             |Destinatario                 |Cuenta de OneDrive para la Empresa del destinatario                        |El destinatario es propietario y tiene todos los derechos.<br /><br />El autor de la llamada no tiene acceso. El destinatario debe compartirlo con el autor de la llamada.|
-|Llamada grupal                                 |Cualquier miembro de la llamada |El miembro del grupo que hizo clic en la cuenta de OneDrive para la Empresa de la grabación  |El miembro que hizo clic en la grabación tiene todos los derechos. <br /><br /> Otros usuarios del mismo espacio empresarial tienen derechos de lectura. <br /><br /> Otros miembros del grupo de otro espacio empresarial no tienen derechos sobre él.|
+|Llamada grupal                                 |Cualquier miembro de la llamada |El miembro del grupo que hizo clic en la cuenta de OneDrive para la Empresa de la grabación  |El miembro que hizo clic en la grabación tiene todos los derechos. <br /><br /> Otros miembros del grupo del mismo inquilino tienen derechos de lectura. <br /><br /> Otros miembros del grupo de otro espacio empresarial no tienen derechos sobre él.|
 |Reunión programada/adhoc                    |Organizador              |Cuenta de OneDrive para la Empresa del organizador                     |El organizador tiene todos los derechos de la grabación. <br /><br /> El resto de los miembros de la reunión tienen acceso de lectura.|
 |Reunión programada/adhoc                    |Otro miembro de la reunión   |El miembro de la reunión que hizo clic en la grabación                                  |El miembro que hizo clic en la grabación tiene todos los derechos de la grabación. <br /><br />El organizador tiene derechos de edición y puede compartir.<br /><br /> El resto de los miembros de la reunión tienen acceso de lectura.|
 |Reunión programada/addhoc con usuarios externos|Organizador              |Cuenta de OneDrive para la Empresa del organizador                     |El organizador tiene todos los derechos de la grabación.<br /> <br /> Todos los demás miembros de la reunión del mismo espacio empresarial que el organizador tienen acceso de lectura. <br /><br /> Todos los demás miembros externos no tienen acceso y el organizador debe compartirlo.|

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: b5e9cf54430b82079429e1aab3ee98b802b875c1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8a805c90ef68f6ee5d6c754cdad7834c7a6ddff0
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233075"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398939"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -67,6 +67,8 @@ Escriba un nombre descriptivo para la cola.
 ![Captura de pantalla de la configuración de la cuenta de recursos](media/call-queue-name-language.png)
 
 Haga clic en **Agregar cuentas**, busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar** y, después, haga clic en **Agregar**. (Los agentes verán el nombre de la cuenta de recurso cuando reciban una llamada entrante).
+
+Vea [Administrar Teams cuentas de recursos para](manage-resource-accounts.md) obtener más información.
 
 ### <a name="assign-calling-id"></a>Asignar id. de llamada
 

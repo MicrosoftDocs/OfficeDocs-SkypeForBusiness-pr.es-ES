@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: b25a3126e697b30093f38148c43cf29e55ba776a4b2adca14a75779dcd4dc8c8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6db2dd5b63e26c74de09b8d4b563fe48393a3a37
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315396"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398909"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -215,7 +215,9 @@ Para agregar una cuenta de recurso, seleccione **Agregar cuenta** y busque la cu
 
 ![Captura de pantalla de la lista de cuentas de recursos que muestra la cuenta de recursos con el número de servicio asignado](media/auto-attendant-resource-account-assigned.png)
 
-Cuando haya terminado de agregar cuentas de servicio, seleccione **Enviar** para completar la configuración de operador automático.
+Cuando haya terminado de agregar cuentas de recursos, seleccione **Enviar** para completar la configuración de operador automático.
+
+Vea [Administrar Teams cuentas de recursos para](manage-resource-accounts.md) obtener más información.
 
 ## <a name="external-phone-number-transfers---technical-details"></a>Transferencias de números de teléfono externos: detalles técnicos
 

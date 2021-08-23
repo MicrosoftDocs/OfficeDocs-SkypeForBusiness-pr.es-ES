@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para encontrar información sobre cómo obtener y administrar números de teléfono en Polonia para Microsoft Teams.
-ms.openlocfilehash: 0c67e4766391f87269dcdad6073b12a3ba9b6157
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: fcfcc032e32a62d8e982c0ee37d93636b063960b
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232815"
+ms.locfileid: "58348482"
 ---
 # <a name="phone-number-management-for-poland"></a>Teléfono de números para Polonia
 
@@ -40,7 +40,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.  |En Polonia, puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y ponerse en contacto con el Servicio de atención al cliente de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)<br/><br/>[Nueva solicitud de número de teléfono para Polonia (v.1.0) (pl-pl).](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf) <br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y ponerse en contacto con el Servicio de asistencia de [PTSN](contact-pstn-service-desk.md)para obtener instrucciones.<br/><br/>Teléfono números se ordenarán en bloques de diez. Los clientes solo se cobrarán por las licencias del plan de llamadas suscritas.<br/><br/>Los nuevos pedidos pueden tardar entre cuatro y seis semanas en completarse en este mercado. |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.  |En Polonia, puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y ponerse en contacto con el Servicio de atención al cliente de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)<br/><br/>[Nueva solicitud de número de teléfono para Polonia (v.1.0) (pl-pl).](https://download.microsoft.com/download/a/1/3/a130f4bd-3d48-4918-aea2-62cc24874c78/new-phone-number-request-for-poland-(v1.0)-(pl-PL).pdf) <br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y ponerse en contacto con el Servicio de asistencia de [PTSN](contact-pstn-service-desk.md)para obtener instrucciones.<br/><br/>Teléfono números se ordenarán en bloques de diez. Los clientes solo se cobrarán por las licencias del plan de llamadas suscritas.<br/><br/>Los nuevos pedidos pueden tardar entre cuatro y seis semanas en completarse en este mercado. |
 |Transferirnos números de teléfono.| Descargue este formulario. <br/>[Carta de autorización (LOA) para Polonia (todos los números) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) <br/><br/>Transferir números puede tardar entre cuatro y seis semanas en completarse en este mercado. <br/><br/> Estos números no se pueden usar para conferencias en este momento.    |
 |Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
 |Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |

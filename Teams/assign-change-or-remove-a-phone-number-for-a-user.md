@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo para Teams usuarios para que los clientes y empresas externas puedan llamar.
-ms.openlocfilehash: 443fdb5833e657c3f45c0f53d1d4ce6744bd67b0b83247e72084e3d29f6c1bc7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79323338a901cf587b590b7930a11f6c296271e1
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320033"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372250"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>Asignar, cambiar o quitar un número de teléfono para un usuario (Planes de llamadas)
 
@@ -42,7 +42,7 @@ Para obtener información sobre cómo obtener planes de llamadas en Teams y cuá
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Asignar un número de teléfono a un usuario
  
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
     
 1. En el panel de navegación izquierdo, haga clic  >  **en Teléfono números.**
 2. En la **Teléfono números,** seleccione un número sinsignado en la lista y, a continuación, haga clic en **Editar.**  
@@ -51,10 +51,10 @@ Para obtener información sobre cómo obtener planes de llamadas en Teams y cuá
 5. Dependiendo de si desea enviar un correo electrónico al usuario con su información de número de teléfono, desactive o active Usuario de correo electrónico con información **de número de teléfono.** De forma predeterminada, está en. 
 6. Haga clic en **Guardar**.
 
-Para obtener un ejemplo de PowerShell, [vea Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
+Para obtener un ejemplo de PowerShell, [vea Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
 
-    > [!NOTE]
-    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!
+> [!NOTE]
+> Debido a la latencia entre Microsoft 365 o Office 365 y Teams, los usuarios pueden tardar hasta 24 horas en habilitarse. Si el número de teléfono no se asigna correctamente después de 24 horas, póngase en contacto con el soporte técnico para productos [empresariales: Ayuda para administradores.](/microsoft-365/admin/contact-support-for-business-products) Estamos aquí para ayudarle.
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>Cambiar un número de teléfono para un usuario
@@ -71,11 +71,11 @@ Para obtener un ejemplo de PowerShell, [vea Set-CsOnlineVoiceUser](/powershell/m
 8. Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia,** busque y seleccione la ubicación.
 9. Haga clic en **Guardar**.
 
-Para obtener un ejemplo de PowerShell, vea [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
+Para obtener un ejemplo de PowerShell, vea [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Quitar un número de teléfono de un usuario
  
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, haga clic en Usuarios **,** busque y haga doble clic en el usuario que desee, haga clic en Cuenta y, a continuación, en Información **general,** anote el número de teléfono asignado al usuario.
 2. En el panel de navegación izquierdo, haga clic  >  **en Teléfono números.**
@@ -83,7 +83,7 @@ Para obtener un ejemplo de PowerShell, vea [Set-CsOnlineVoiceUser](/powershell/m
 4. En el **panel Editar,** en **Asignado a**, haga clic en la **X** para quitar al usuario.
 5. Haga clic en **Guardar**.
 
-Para obtener un ejemplo de PowerShell, vea [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
+Para obtener un ejemplo de PowerShell, vea [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
 
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -95,6 +95,6 @@ Para obtener un ejemplo de PowerShell, vea [Set-CsOnlineVoiceUser](/powershell/m
 
 [Etiqueta de declinación de responsabilidades de llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
 
 [Planes de llamadas para Microsoft 365](./calling-plans-for-office-365.md)

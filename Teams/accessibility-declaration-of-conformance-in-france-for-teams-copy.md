@@ -20,14 +20,14 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et efficace. "
-ms.openlocfilehash: aeb76f4dca50fe3aad3ab5fb77b66d160102eeff02fcbdafbf48661e47f6766f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 92a982857f3530a5f03c2efafb2efbce83bfd23a
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286199"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372230"
 ---
-# <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformé en matière d'accessibilité
+#  <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformé en matière d'accessibilité
 
 
 ### <a name="section-1-champ-dapplication"></a>Sección 1 Champ d'application
@@ -736,7 +736,6 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 
 Cette section ne s'applique pas à Skype Entreprise2016.
 
-## 
 
 © Microsoft Corporation 2017. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication.
 Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Aprenda a configurar la seguridad de las aplicaciones móviles para los usuarios. '
-ms.openlocfilehash: 1adfc8e44880b89ab9f4b24be532ae4a327744cf69d0ef63ecea3f65ae684fc8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1669204e31c7597ec75f6c30570107bebf440e3b
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295117"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406989"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Seguridad de la aplicación para móviles de Skype Empresarial
 
@@ -34,9 +34,8 @@ ms.locfileid: "54295117"
 
 En este artículo se cubre la información relacionada con el cifrado de datos en las aplicaciones Skype Empresarial para móviles.
   
-|||||
-|:-----|:-----|:-----|:-----|
 ||**Nombre de usuario/Contraseña** <br/> |**Datos de la aplicación (conversaciones, <br/> lista de contactos, reuniones)** <br/> |**Registros de diagnóstico** <br/> |
+|:-----|:-----|:-----|:-----|
 |**Android** <br/> |La información de credenciales se almacena en Cuentas de Android. Antes de ello, también se cifra mediante el algoritmo " **AES/CBC/PKCS5Padding** ".<br/> |El almacenamiento se realiza en una base de datos SQL cifrada mediante una biblioteca llamada [sqlcipher](https://www.zetetic.net/sqlcipher/design/). Para ello se utiliza su algoritmo predeterminado de AES de 256 bits en modo CBC. Los datos en reposo están siempre cifrados en el archivo de la base de datos y solo se descifran en el tránsito interno de la memoria volátil de la aplicación y la pila de llamadas. También ciframos los archivos del buzón de voz con el mismo método que se utiliza para cifrar la contraseña y el nombre del usuario (no se almacenan en la base de datos). Los correos de voz se descifran temporalmente en el disco para poder reproducirlos.<br/> |Esta información no está cifrada.  <br/> |
 |**iOS** <br/> |El nombre de usuario y la contraseña NO se cifran en la cadena de claves. Sin embargo, la cadena de claves está cifrada por sí misma.  <br/> |Ahora usamos la etiqueta de protección de datos [NSFileProtectionCompleteUntilFirstUserAuthentication](https://developer.apple.com/reference/foundation/fileprotectiontype/1616633-completeuntilfirstuserauthentica) en todos los archivos del almacenamiento de aplicaciones. Esto significa que los archivos del almacenamiento de la aplicación estarían cifrados hasta que el usuario desbloquee el dispositivo por primera vez tras haberlo reiniciado.<br/> |Esta información no está cifrada.  <br/> |
 |**Windows Phone** <br/> |Windows Phone utiliza DPAPI (la API de protección de datos) de Windows para proteger las contraseñas. Creo que el esquema de cifrado que se utiliza es AES. Windows no nos da la opción de configurar el tamaño de la clave (o el esquema), por lo que es el que ofrece DPAPI, sea cual sea. Usará el TPM del dispositivo para proteger las claves que sean específicas del usuario y el dispositivo. Tenga en cuenta que las claves de DPAPI no son específicas de la aplicación.  <br/> |Los datos de las aplicaciones de Windows Phone se protegen con [DPAP](/previous-versions/windows/apps/hh487164(v=vs.105))I, como las credenciales. Dependiendo del nivel de detalle que queramos, parte de la información del índice de los datos de la aplicación se protege mediante el cifrado AES (que no es DPAPI) para evitar la sal, de manera que podamos buscar sin descifrar y que la clave, a su vez, esté protegida con DPAPI. Cualquier proceso del mismo teléfono puede leer los datos de la memoria caché, siempre que este pueda tener acceso a nuestra carpeta de datos. El cifrado de Windows no protege ante brechas del espacio aislado, sino que solo protege ante intentos de acceso externos.<br/> |Esta información no está cifrada.  <br/> |

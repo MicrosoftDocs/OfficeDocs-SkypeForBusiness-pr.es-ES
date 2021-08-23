@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c4e9b4e3133927aaea883fb64d4798b6761b65ebe83f6a887bf9b50ba589e70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9f97065a6bf7dd8be3d3a417b7482b3b5f50935
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285689"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365677"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Inicio rápido: reuniones, seminarios web y eventos en vivo 
 
@@ -83,7 +83,7 @@ En la tabla siguiente se resaltan los artículos clave que desea revisar:
 | Artículo | Descripción | 
 |----------|--------|
 | [Configuración de las reuniones](meeting-settings-in-teams.md) |  Describe cómo configurar las reuniones para usuarios anónimos, invitaciones a reuniones y tráfico multimedia.  |
-| [Directivas de reunión](meeting-policies-in-teams.md)  | Describe cómo crear y administrar las directivas que determinan qué características están disponibles para los participantes de la reunión. | 
+| [Directivas de reunión](meeting-policies-overview.md)  | Describe cómo crear y administrar las directivas que determinan qué características están disponibles para los participantes de la reunión. | 
 | [Administración de grabaciones de reuniones en la nube de Teams](cloud-recording.md) | Describe cómo administrar las grabaciones de reuniones. |
 | [Administración de los dispositivos de su organización](device-management.md)| Describe cómo administrar los dispositivos de su organización, como teléfonos y Salas de Teams. |
 ||

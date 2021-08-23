@@ -18,12 +18,12 @@ description: En este artículo, aprenderá acerca de los Teams que están dispon
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d134e80727a39d88239802b696b86565a60847aa0f7d934cfad5d53377b8668d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61e40646318105d633b14d44a2eb8bfe41f13fa8
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321282"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399109"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 
@@ -31,7 +31,7 @@ Una nueva experiencia de análisis e informes para Microsoft Teams está disponi
 
 ## <a name="how-to-access-the-reports"></a>Cómo obtener acceso a los informes
 
-Para obtener acceso a los informes, debe ser administrador global en Microsoft 365 o Office 365, Teams de servicio o Skype Empresarial administrador. Para obtener más información sobre Teams de administrador y a qué informes puede acceder cada rol de administrador, vea Usar Teams de administrador para [administrar](../using-admin-roles.md)Teams .
+Para obtener acceso a los informes, debe ser administrador global en Microsoft 365 o Office 365, lector global en Microsoft 365 o Office 365, Teams administrador del servicio o Skype Empresarial administrador. Para obtener más información sobre Teams de administrador y a qué informes puede acceder cada rol de administrador, vea Usar Teams de administrador para [administrar](../using-admin-roles.md)Teams .
 
 Vaya al centro Microsoft Teams de administración, en el panel de navegación izquierdo, seleccione **Análisis & informes** y, a continuación, en Informe, elija el informe que desea ejecutar. 
 
@@ -54,7 +54,7 @@ Estamos mejorando continuamente la experiencia Teams informes y agregando caract
 |[Teams Informe de grupos de minutos RTC](pstn-minute-pools-report.md) |  País o región<br>Funcionalidad (licencia) <br>Minutos totales<br>Minutos usados<br>Minutos disponibles|
 |[Teams Informe de uso de RTC: planes de llamadas](pstn-usage-report.md#calling-plans)|  Marca de tiempo<br>Nombre de usuario<br>Teléfono número<br>Tipo de llamada <br>Llamado a<br>Para país o región <br>Llamado desde <br>De país o región<br>Cargo<br>Moneda<br>Duración<br>Nacional/Internacional<br>Id. de llamada<br>Tipo de número<br>País o región<br>Id. de conferencia<br>Funcionalidad (licencia)|
 |[Teams Informe de uso de RTC: enrutamiento directo](pstn-usage-report.md#direct-routing)  |  Marca de tiempo<br>Nombre para mostrar<br>Dirección SIP<br>Teléfono número <br>Tipo de llamada<br>Llamado a<br>Hora de inicio<br>Hora de invitación<br>Tiempo de error<br>Hora de finalización<br>Duración<br>Tipo de número<br>Omisión de medios<br>SBC FQDN<br>Región de Azure<br>Tipo de evento<br>Código SIP final<br>Subcódigo final de Microsoft<br>Frase sip final<br>Id. de correlación  |
-|[Teams de licencia de protección de la información: enrutamiento directo](information-protection-license-report.md)  | <br>Si los usuarios tienen licencias válidas para insertar sus mensajes a través de notificaciones de cambio</br><br>Número total de eventos de notificación de cambio recortados por un usuario</br><br>Qué aplicaciones escuchan los eventos de notificación de cambio en toda la organización</br>|
+|[Teams de licencia de protección de la información: enrutamiento directo](information-protection-license-report.md)  | <br>Si los usuarios tienen licencias válidas para insertar sus mensajes a través de notificaciones de cambio</br><br>Número total de eventos de notificación de cambio desencadenados por un usuario</br><br>Qué aplicaciones escuchan los eventos de notificación de cambio en toda la organización</br>|
 
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]

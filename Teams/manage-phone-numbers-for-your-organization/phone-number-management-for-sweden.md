@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Suecia para Microsoft Teams.
-ms.openlocfilehash: f15b918536ff20f8baeeccbb5a11364346a173d3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 85d6d4c35acfa8a9768444d07f23d929227a934f
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233035"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380594"
 ---
 # <a name="phone-number-management-for-sweden"></a>Teléfono de números para Suecia
 
@@ -34,7 +34,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos y envíenoslos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.   <br/> |Descargue uno de estos formularios. <br/>  [Nueva solicitud de número de teléfono para Suecia (v.5.0) (sv-se)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [Nueva solicitud de número de teléfono para Suecia (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)|
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.   <br/> |Descargue uno de estos formularios. <br/>  [Nueva solicitud de número de teléfono para Suecia (v.5.0) (sv-se)](https://download.microsoft.com/download/5/e/3/5e3b17c3-9cc3-4098-8b03-4235dd42e724/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf) <br/>  [Nueva solicitud de número de teléfono para Suecia (v.5.0) (en-us)](https://download.microsoft.com/download/a/3/0/a30b10be-42db-458d-bda2-adb320f2e2f3/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf)<br/>  <br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)|
 Transferirnos números de teléfono.  <br/> |Descargue este formulario. <br/>[Carta de autorización (LOA) para Suecia (todos los números) (v.5.0) (sv-se)](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) <br/> |
 |Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de soporte técnico de PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación.      <br/> |
 |Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |

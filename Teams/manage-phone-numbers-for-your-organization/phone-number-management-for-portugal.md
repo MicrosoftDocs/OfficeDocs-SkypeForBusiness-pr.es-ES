@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Portugal para Microsoft Teams.
-ms.openlocfilehash: b21f6ed602f806c94ac67b28c933fbca34f4d585
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: b0f462ac4ade1c89e512a62f18cd219978533bd4
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233425"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380584"
 ---
 # <a name="phone-number-management-for-portugal"></a>Teléfono de números para Portugal
 
@@ -34,7 +34,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos y envíenoslos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.   <br/> |Descargue uno de estos formularios. <br/>  [Nueva solicitud de número de teléfono para Portugal (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [Nueva solicitud de número de teléfono para Portugal (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)<br/><br/> También debe rellenar un contrato de tres partes, firmarlo y ponerse en contacto con el Servicio de atención al cliente de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) Este formulario se le enviará por nuestro equipo de servicio RTC después de realizar un pedido para obtener nuevos números de teléfono. <br/><br/>|
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.   <br/> |Descargue uno de estos formularios. <br/>  [Nueva solicitud de número de teléfono para Portugal (v.5.0) (pt-pt)](https://download.microsoft.com/download/9/2/3/923a2900-c545-4823-aa51-b911ce06cd8d/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf) <br/>  [Nueva solicitud de número de teléfono para Portugal (v.5.0) (en-us)](https://download.microsoft.com/download/a/7/e/a7ec1596-eabc-49a7-ac47-9b399c847565/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf)<br/>  <br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)<br/><br/> También debe rellenar un contrato de tres partes, firmarlo y ponerse en contacto con el Servicio de atención al cliente de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) Este formulario se le enviará por nuestro equipo de servicio RTC después de realizar un pedido para obtener nuevos números de teléfono. <br/><br/>|
 |Transferirnos números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Portugal (todos los números) (v.6.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.6.0)-(pt-pt).pdf) <br/> <br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) <br/><br/> También debe rellenar un contrato de tres partes, firmarlo y ponerse en contacto con el Servicio de atención al cliente de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) Este formulario se le enviará por nuestro equipo de servicio RTC después de realizar un pedido para transferir números de teléfono.<br/><br/>|
 |Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de soporte técnico de PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación.      <br/> |
 |Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |

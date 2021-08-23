@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffcb99684c3f92bcc442c5f732d41643bf549b3f3c1d2aca7e5cb42df4269ebe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df725792ec8843b77ba2ff4956617d2959e718e2
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288428"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399089"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
@@ -45,7 +45,7 @@ En este artículo se describen los roles y requisitos de la aplicación Aprobaci
 
 ## <a name="required-permissions-and-licenses"></a>Permisos y licencias necesarios
 
-Para usar la aplicación Aprobaciones, necesita permisos para los elementos siguientes:
+Para implementar la aplicación Aprobaciones, necesita permiso para los siguientes elementos:
 
 - Permisos para crear una base de datos de CDS de Microsoft.
 
@@ -56,6 +56,8 @@ Para usar la aplicación Aprobaciones, necesita permisos para los elementos sigu
 - Licencia para un [Power Automate](/power-automate/get-started-approvals), un Office 365 o una Dynamics 365.
 
 - La licencia de Microsoft Forms es necesaria para que los usuarios configuren nuevas plantillas de aprobación.
+
+Para usar la aplicación Aprobaciones, necesita una licencia para Power Automate y su cuenta se agregará automáticamente al rol usuario de aprobaciones en el entorno de destino en la primera asignación de aprobación.
 
 ## <a name="storage-with-cds"></a>Almacenamiento con CDS
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para partners de Microsoft o operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c313ee09db068fca512a7f1c9c3478fad465ff4f9d64381f4f62790da4208ad2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bf5ec69e539796bb68325679da41c0954c3d6da6
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293917"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398969"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -137,7 +137,7 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
 ### <a name="activate-the-domain-name"></a>Activar el nombre de dominio
 
-Después de registrar un nombre de dominio Sistema telefónico, debe activarlo agregando al menos un usuario con una licencia y asignando una dirección SIP con la parte FQDN de la dirección SIP que coincida con el dominio base creado. La licencia se puede revocar después de la activación del dominio (puede tardar hasta 24 horas).
+Después de registrar un nombre de dominio Sistema telefónico, debe activarlo agregando al menos un usuario con una licencia y asignando una dirección SIP con la parte FQDN de la dirección SIP que coincida con el dominio base creado.
 
 > [!NOTE]
 > El inquilino del operador debe conservar al menos Sistema telefónico licencia asignada al inquilino para evitar la eliminación de Skype Empresarial configuración. 
@@ -205,7 +205,7 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
 ### <a name="activate-the-subdomain-name"></a>Activar el nombre del subdominio
 
-Después de registrar un nombre de dominio, debe activarlo agregando al menos un usuario y asignando una dirección SIP con la parte FQDN de la dirección SIP que coincida con el subdominio creado en el inquilino del cliente. La licencia se puede revocar del usuario después de la activación del subdominio (puede tardar hasta 24 horas).
+Después de registrar un nombre de dominio, debe activarlo agregando al menos un usuario y asignando una dirección SIP con la parte FQDN de la dirección SIP que coincida con el subdominio creado en el inquilino del cliente. 
 
 *Consulte [Obtener ayuda con Microsoft 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) o Office 365 para obtener más información sobre cómo agregar usuarios en Microsoft 365 o Office 365 organizaciones.*
 
@@ -255,7 +255,7 @@ Recomendamos encarecidamente migrar a la nueva solución lo antes posible, ya qu
 
 Consulte las instrucciones del proveedor [de SBC](#deploy-and-configure-the-sbc) sobre cómo configurar el envío del nombre FQDN de los subdominios en el encabezado Contacto.
 
-## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Consideraciones para configurar la conmutación por error de muti-tenant 
+## <a name="considerations-for-setting-up-multi-tenant-failover"></a>Consideraciones para configurar la conmutación por error de varios inquilinos 
 
 Para configurar la conmutación por error para un entorno de varios inquilinos, deberá hacer lo siguiente:
 

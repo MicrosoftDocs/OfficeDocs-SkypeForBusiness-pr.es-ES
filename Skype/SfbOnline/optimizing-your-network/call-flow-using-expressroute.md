@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Con este artículo tratamos de explicar el flujo de llamadas básico para Skype Empresarial Online y ExpressRoute, y darle algunos ejemplos detallados de flujos de llamada para que pueda entenderlo y planificarlo correctamente.
-ms.openlocfilehash: 098949c41430bc939197a21373489b1aaa10c1678943d0ee695cd7ade02be142
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 35936e1e33f2914345aa5443ca745dc2c5260ad7
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304642"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407209"
 ---
 # <a name="call-flow-using-expressroute"></a>Flujo de llamadas con ExpressRoute
 
@@ -196,9 +196,9 @@ Skype Empresarial Los escenarios de uso en línea implican usuarios que se encue
 
  **Resumen de los flujos de llamadas para Skype Empresarial Online**
 
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
 |**Escenario de uso** <br/> |**Puntos de conexión** <br/> |**Ruta de señalización** <br/> |**Ruta multimedia** <br/> |**Ejemplo de flujo** <br/> |**Notas** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |Llamada de punto a punto  <br/> |Dos clientes, ambos en su red.  <br/> |ExpressRoute  <br/> |Local  <br/> |[Llamada punto a punto para un usuario Microsoft 365 o Office 365 desde dentro de la red de clientes](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
 |Llamada de punto a punto  <br/> |Dos clientes, uno en su red (interno) y el otro cliente en Internet (externo).  <br/> |Usuario interno: ExpressRoute  <br/> Usuario externo: Internet  <br/> |Usuario interno: ExpressRoute  <br/> Usuario externo: Internet para Microsoft 365 o Office 365 servidor perimetral.  <br/> |[Llamada punto a punto para usuarios Microsoft 365 o Office 365 desde dentro de la red de clientes](call-flow-using-expressroute.md#bk_Figure2) <br/> |Asume que el firewall bloquea las conexiones directas entre clientes, que requiere un servidor perimetral en línea. El tráfico desde el usuario interno al servidor perimetral en línea sigue una ruta similar a la del servidor de conferencias para llamadas de conferencia.  <br/> |
 |La llamada de punto a punto a un usuario en una organización federada  <br/> |Dos clientes, en su red (interno) y el usuario en línea en la red de la organización federada (federado).  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Usuario en línea de su red que se une a una conferencia hospedada en línea](call-flow-using-expressroute.md#bk_Figure3) <br/> |Asume que un firewall bloquea las conexiones directas entre clientes, por lo que requiere un servidor perimetral en línea. El tráfico desde el usuario interno al servidor perimetral en línea sigue una ruta similar a la de un servidor de conferencias para la llamada de conferencia.  <br/> |
@@ -215,9 +215,10 @@ Skype Empresarial Los escenarios de uso en línea implican usuarios que se encue
 
 Los flujos de llamadas híbridos se aplican cuando tiene una implementación de Skype Empresarial que incluye al menos algunos usuarios que están hospedados en local. Los flujos de llamadas de esta sección incluyen conferencias locales y llamadas de punto a punto o RTC con al menos un usuario local.
 
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
+
 |**Escenario de uso** <br/> |**Puntos de conexión** <br/> |**Ruta de señalización** <br/> |**Ruta multimedia** <br/> |**Ejemplo de flujo** <br/> |**Notas** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |Llamada de punto a punto  <br/> |Dos clientes, en la red del cliente y alojados en local.  <br/> |Local  <br/> |Local  <br/> |[Llamada punto a punto para un usuario Microsoft 365 o Office 365 desde dentro de la red de clientes](call-flow-using-expressroute.md#bk_Figure2) <br/> |Dado que los usuarios se encuentran en el entorno local, la señalización fluye localmente al centro de datos local en lugar de a la nube.  <br/> |
 |Llamada de punto a punto  <br/> |Dos clientes, ambos conectados desde la red del cliente. Uno está alojado en línea y el otro en local.  <br/> |Usuario en línea: ExpressRoute  <br/> Usuario local: local  <br/> |Local  <br/> |[Llamada punto a punto para usuarios Microsoft 365 o Office 365 desde dentro de la red de clientes](call-flow-using-expressroute.md#bk_Figure2) <br/> |Solo el usuario conectado en línea envía tráfico de señalización a la nube.  <br/> |
 |La llamada de punto a punto a un usuario en una organización federada  <br/> |Dos clientes, uno local en la red del cliente (interno) y un usuario en línea en la red de la organización federada (federado).  <br/> |Usuario interno: local  <br/> Usuario federado: ExpressRoute  <br/> |Internet o ExpressRoute (depende de si se usa el servidor en línea o perimetral local)  <br/> |[Usuario en línea](call-flow-using-expressroute.md#bk_Figure3) de su red que se une a una conferencia hospedada en línea y parte del servidor perimetral local con Microsoft 365 o [Office 365](call-flow-using-expressroute.md#bk_Figure5) conferencias hospedadas (para tráfico multimedia). <br/> |Asume que un firewall bloquea las conexiones directas entre clientes, por lo que requiere un servidor perimetral en línea. La negociación de ICE ofrecerá tanto servidores en línea (por el usuario en línea) como servidores perimetrales en local (por el usuario local) para la conectividad.  <br/> |
@@ -228,9 +229,10 @@ Los flujos de llamadas híbridos se aplican cuando tiene una implementación de 
 
 Todos los usuarios que se conectarán a Cloud Connector Edition están alojados en línea. Esto significa que las conferencias serán en línea y que la señalización sigue los mismos patrones que los usuarios en línea. Para otros escenarios distintos de las llamadas RTC, el flujo de llamadas será exactamente el mismo que el descrito anteriormente para Skype Empresarial Online.
 
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
+
 |**Escenario de uso** <br/> |**Puntos de conexión** <br/> |**Ruta de señalización** <br/> |**Ruta multimedia** <br/> |**Ejemplo de flujo** <br/> |**Notas** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |Llamada RTC  <br/> |Usuario en línea en su red con Cloud Connector Edition.  <br/> |Local  <br/> |Local  <br/> |[Llamada RTC con Skype Empresarial Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |Llamada RTC  <br/> |Usuario en línea que usa Internet con Cloud Connector Edition.  <br/> |Internet  <br/> |Internet  <br/> |Combinación de servidor perimetral local con Microsoft 365 o [Office 365 conferencias](call-flow-using-expressroute.md#bk_Figure5) hospedadas y llamadas [RTC con Skype for Business Edición de conector de nube](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Los usuarios de Internet se conectarán a través del servidor perimetral que se incluye en Cloud Connector y Cloud Connector se conectará a la red RTC.  <br/> |
 

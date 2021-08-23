@@ -16,15 +16,14 @@ search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f78d4950f6c85910bb5b6c155c63a1048d73022d00ea9447fff3521c3b617fd6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5eb82e322f8e8f28c7e1afc8c3c0b76ce277a36
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295237"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372070"
 ---
-<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
-==================================================
+# <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 
 Las pestañas permiten a los miembros del equipo acceder a servicios y contenido en un espacio dedicado dentro de un canal o en un chat. Esto permite al equipo trabajar directamente con herramientas y datos, y mantener conversaciones sobre las herramientas y los datos, todo dentro del contexto del canal o chat.
 

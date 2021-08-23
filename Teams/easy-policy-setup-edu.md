@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el Teams para Educación de directivas de aprendizaje para aplicar fácilmente directivas a alumnos y profesores para mantener su entorno de aprendizaje seguro.
 f1keywords: ''
-ms.openlocfilehash: 335061c2dfb662673a4ec026bb3a29015cdb59b4b198bdafc9a971e4480938d4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e046e108f899f95e76df8c03d5fd6d25de4a942
+ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344063"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386689"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Asistente Teams para Educación directivas para aplicar fácilmente directivas para un entorno de aprendizaje seguro
 
@@ -205,6 +205,8 @@ Esta es una lista de las definiciones de directivas globales (predeterminadas pa
 |  |        |Permitir el complemento de Outlook         |Desactivado       |Activado|
 |  |        |Permitir la programación de reuniones de canal        |Desactivado      |Activado|
 |  |        |Permitir la programación de reuniones privadas       |Desactivado      |Activado|
+|  |        |Permitir el registro de la reunión              |Activado       |Activado|
+|  |        |Quién registro    |Todos los miembros de la organización      |Todos los miembros de la organización|
 |  |Vídeo & audio        |Permitir transcripción        |Activado       |Activado|
 |  |        |Permitir la grabación en la nube         |Desactivado      |Activado|
 |  |        |Modo de audio IP       |Audio entrante y saliente activado        |Audio entrante y saliente activado|
@@ -273,6 +275,8 @@ Esta es una lista de las definiciones de directiva personalizadas asignadas al g
 |  |        |Permitir el complemento de Outlook         |Activado       |Activado|
 |  |        |Permitir la programación de reuniones de canal        |Activado      |Activado|
 |  |        |Permitir la programación de reuniones privadas       |Activado      |Activado|
+|  |        |Permitir el registro de la reunión              |Activado       |Activado|
+|  |        |Quién registro    |Todos los miembros de la organización      |Todos los miembros de la organización|
 |  |Vídeo & audio        |Permitir transcripción        |Activado       |Activado|
 |  |        |Permitir la grabación en la nube         |Activado      |Activado|
 |  |        |Modo de audio IP       |Audio entrante y saliente activado        |Audio entrante y saliente activado|

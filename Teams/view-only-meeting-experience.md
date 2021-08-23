@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d12f09fe5043093b55e57d32bb70d9c332157511
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ba2a2a404c71aba007d667e5276d789b05890a8b
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234435"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380474"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiencia de reunión de solo vista para Teams
 
@@ -123,10 +123,12 @@ El asistente de solo vista no podrá experimentar las siguientes opciones en las
 ## <a name="view-only-feature-limitations"></a>Limitaciones de características de solo vista
 
 - Los asistentes de solo visualización solo podrán ver los subtítulos en directo en escritorio y web. Actualmente, solo se admiten subtítulos en inglés.
+- Los asistentes de solo vista no pueden registrarse en seminarios web.
 - La tecnología de streaming respaldará a los asistentes de solo vista
 - Los asistentes de solo vista no se incluirán en el informe de asistencia.
 - Los asistentes de solo vista tendrán una sola experiencia en vídeo. O bien podrán ver al orador activo o podrán ver el contenido que se comparte, pero no ambos.
-- Actualmente, no se admite el modo **Galería**, **Galería grande** o **Modo conferencia** para los asistentes de solo vista.  
+- Actualmente, no se admite el modo **Galería**, **Galería grande** o **Modo conferencia** para los asistentes de solo vista.
+- Los asistentes de solo visualización solo son compatibles con las siguientes directivas de la sala de espera: "Solo usted", "Personas de mi organización e invitados", "Personas de mi organización y organizaciones de confianza, e invitados" y "Todos los usuarios". Si usa una directiva de sala de espera que no admite asistentes de solo vista, los asistentes de solo vista se rechazarán de la reunión. 
 - Los asistentes de solo vista no tendrán la misma latencia que los asistentes normales. <sup>1</sup>
 
   <sup>1</sup> Los asistentes de solo vista se reunirán con un retraso de audio y vídeo de 30 segundos en la reunión.  

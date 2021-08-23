@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo se usan las etiquetas en su organización en Microsoft Teams.
-ms.openlocfilehash: d64b730549a98b597de0f28c53fbe45f793e9f77b5270aa464a722692f59aaae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a7b0eef37f335aeb0094dba568dcc98a3fd1bd07
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340446"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399059"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Administrar etiquetas en Microsoft Teams
 
@@ -35,7 +35,7 @@ Como se mencionó anteriormente, hay dos tipos de etiquetas en Teams.
 - **Etiquetado por** turnos: con esta característica, a los usuarios se les asignan automáticamente etiquetas que coinciden con su nombre de grupo de programación y turnos en la aplicación [Turnos](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) de Teams. Por ejemplo, la etiqueta "EngineerOnCall" llega a todos los ingenieros que están programados en Turnos para trabajar en el momento en que se usa la etiqueta en una publicación de chat o canal. Con el etiquetado por turnos, Teams las conjeturas de conocer el nombre del personal en turnos cuando los usuarios necesitan retransmitir información rápidamente. El etiquetado por turnos también se puede realizar con el respaldo de los principales sistemas de administración de la fuerza laboral como JDA, Kronos y AMiON integrándolos con Turnos en Teams. Para obtener más información sobre cómo configurar esta característica, vea [Configurar el etiquetado por turnos.](#set-up-tagging-by-shift)
 
 > [!NOTE]
-> Las etiquetas aún no son compatibles con los canales privados. Las etiquetas no están disponibles GCC organizaciones del Departamento de Defensa (DoD). 
+> Las etiquetas aún no son compatibles con los canales privados. Las etiquetas no están disponibles en organizaciones del Departamento de Defensa (DoD). 
 
 ## <a name="how-tags-work"></a>Cómo funcionan las etiquetas
 

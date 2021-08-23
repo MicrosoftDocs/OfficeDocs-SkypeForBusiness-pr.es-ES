@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en los Países Bajos para Microsoft Teams.
-ms.openlocfilehash: becfde9895b71e2010724ed67c91180bdcc8e30b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9678f889d77ea493c373cbeac737fb5b261b9faf
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233025"
+ms.locfileid: "58348342"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Administración de números de teléfono para los Países Bajos
 
@@ -36,7 +36,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.   <br/> | Descargue uno de estos formularios.</br> [Nueva solicitud de número de teléfono para los Países Bajos (v.5.0) (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf?raw=true) <br/>  [Nueva solicitud de número de teléfono para los Países Bajos (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.   <br/> | Descargue uno de estos formularios.</br> [Nueva solicitud de número de teléfono para los Países Bajos (v.5.0) (nl-nl)](https://download.microsoft.com/download/d/5/9/d5937e19-e9f7-4a08-9631-e5d456068726/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf) <br/>  [Nueva solicitud de número de teléfono para los Países Bajos (v.5.0) (en-us)](https://download.microsoft.com/download/9/f/4/9f42be90-1977-4ba7-887a-3772757e12fa/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf)<br/><br/>  Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> |
 |Transferirnos números de teléfono.  <br/> |Descargue uno de estos formularios: <br/> [Carta de autorización (LOA) para los Países Bajos (todos los números) (v.6.0) (nl-nl)](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.6.0)-(nl-nl).pdf) <br/> <br/>  Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> |
 |Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de soporte técnico de PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
 |Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Obtenga información sobre cómo usar el panel de calidad de Power BI para ver los datos históricos Operador automático y Cola de llamadas.
-ms.openlocfilehash: 04b18e8f1767f7c32818e53305aead863e1ed753bec23a6c6f86a43464b03d5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3bae6b1e874026a452798d27b4629207f7ec0035
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298100"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398949"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Operador automático & histórico de cola de llamadas
 
@@ -295,6 +295,10 @@ Realice los pasos siguientes:
 |Nombre de cola de llamadas                         |texto                     |Nombre de la cuenta de recursos adjunta a cola de llamadas<br><br>Si el nombre completo de la cuenta **de recursos cq_test@microsoft.com,** este valor será: **cq_test** |
 |Fecha                                    |fecha                     |                                                    |
 
+
+> [!NOTE]
+> 1) Este informe muestra los recuentos de llamadas desde la perspectiva de los agentes y, por lo tanto, el total de llamadas de este informe suele ser mayor que el número total de llamadas en el informe análisis de cola de llamadas **en la** nube. Cada llamada de la cola puede presentarse a uno o más agentes al menos una vez antes de que se le conteste. Cada llamada de cola de llamadas que se presenta a un agente se cuenta en este informe, incluso si el agente no la ha respondido. La diferencia en el recuento de llamadas entre  estos dos informes es más pronunciada con la opción de enrutamiento del operador, que llama a todos los agentes para cada llamada. 
+> 2) Cuando una llamada llega por primera vez a la primera cola de  llamadas, si el número de llamadas que ya están en espera en esa cola supera el límite de administración de desbordamiento de llamadas y si la opción redirigir envía llamadas a una segunda cola de llamadas, los agentes de la segunda cola de llamadas se mostrarán como en la primera cola de llamadas de este informe. 
 
 ## <a name="known-issues"></a>Problemas conocidos
 

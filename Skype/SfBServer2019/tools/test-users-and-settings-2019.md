@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Summary: Configure test user accounts and watcher node settings for Skype Empresarial Server synthetic transactions.'
-ms.openlocfilehash: ea85990cbec89ee872a00350cf23ef9f3d01cdfb3e80fb195db168e7f426039e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 777381be79811973f189b25bc533baa986a4f8c6
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277475"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372100"
 ---
-# <a name="configure-watcher-node-test-users-and-settings"></a>Configurar usuarios y opciones de prueba de nodo de monitor
+# <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>Skype Empresarial Server: Configurar usuarios y opciones de prueba de nodo de monitor
  
 **Resumen:** Configure las cuentas de usuario de prueba y la configuración del nodo de monitor Skype Empresarial Server transacciones sintéticas.
   
@@ -35,7 +35,7 @@ Después de configurar el equipo que funcionará como nodo de monitor, debe hace
 
 Las cuentas de prueba no necesitan representar personas reales, pero deben ser cuentas válidas de Active Directory. Además, estas cuentas deben estar habilitadas para Skype Empresarial Server, deben tener direcciones SIP válidas y deben estar habilitadas para Telefonía IP empresarial (para usar la Test-CsPstnPeerToPeerCall sintética). 
   
-Si usa el método de autenticación TrustedServer, lo único que debe hacer es asegurarse de que estas cuentas existen y configurarlas como se indica. Debe asignar al menos tres usuarios de prueba para cada grupo de servidores que desee probar. Si usa el método de autenticación Negotiate, también debe usar el cmdlet Set-CsTestUserCredential y el Shell de administración de Skype Empresarial Server para permitir que estas cuentas de prueba funcionen con las transacciones sintéticas. Para ello, ejecute un comando similar al siguiente (estos comandos suponen que se han creado las tres cuentas de usuario de Active Directory y que estas cuentas están habilitadas para Skype Empresarial Server):
+Si usa el método de autenticación TrustedServer, lo único que debe hacer es asegurarse de que estas cuentas existen y configurarlas como se indica. Asigne al menos tres usuarios de prueba para cada grupo de servidores que desee probar. Si usa el método de autenticación Negotiate, también debe usar el cmdlet Set-CsTestUserCredential y el Shell de administración de Skype Empresarial Server para permitir que estas cuentas de prueba funcionen con las transacciones sintéticas. Para ello, ejecute un comando similar al siguiente (estos comandos suponen que se han creado las tres cuentas de usuario de Active Directory y que estas cuentas están habilitadas para Skype Empresarial Server):
   
 ```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -43,7 +43,7 @@ Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "li
 Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
-Debe incluir no solo la dirección SIP, sino también el nombre de usuario y la contraseña. Si no incluye la contraseña, el cmdlet Set-CsTestUserCredential le pedirá que escriba esa información. El nombre de usuario se puede especificar mediante el formato de nombre de dominio\nombre de usuario que se muestra en el bloque de código anterior.
+Incluya no solo la dirección SIP, sino también el nombre de usuario y la contraseña. Si no incluye la contraseña, el cmdlet Set-CsTestUserCredential le pedirá que escriba esa información. El nombre de usuario se puede especificar mediante el formato de nombre de dominio\nombre de usuario que se muestra en el bloque de código anterior.
   
 Para comprobar que se crearon las credenciales de usuario de prueba, ejecute estos comandos desde el Shell Skype Empresarial Server administración:
   
@@ -77,7 +77,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 ### <a name="configuring-extended-tests"></a>Configurar pruebas extendidas
 
-Si desea habilitar la prueba RTC, que comprueba la conectividad con la red telefónica conmutada, debe realizar una configuración adicional al configurar el nodo de monitor. En primer lugar, debe asociar los usuarios de prueba con el tipo de prueba RTC ejecutando un comando similar al siguiente desde el Shell Skype Empresarial Server administración:
+Si desea habilitar la prueba RTC, que comprueba la conectividad con la red telefónica conmutada, debe hacer algo más de configuración al configurar el nodo de monitor. En primer lugar, debe asociar los usuarios de prueba con el tipo de prueba RTC ejecutando un comando similar al siguiente desde el Shell Skype Empresarial Server administración:
   
 ```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
@@ -158,11 +158,11 @@ Es posible agregar varias pruebas si se separan los nombres de las pruebas con c
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 ```
 
-Se producirá un error si ya se ha habilitado una o varias de estas pruebas (por ejemplo, DataConference) en el nodo de monitor. En este caso, aparecerá un mensaje de error similar al siguiente:
+Se producirá un error si ya se ha habilitado una o varias de estas pruebas (por ejemplo, DataConference) en el nodo de monitor. En este caso, recibirá un mensaje de error similar al siguiente:
   
 Set-CsWatcherNodeConfiguration: hay una secuencia de teclas duplicada 'DataConference' para 'urn:schema:Microsoft.Rtc.Management. Configuración. WatcherNode.2010:TestName' clave o restricción de identidad única.
   
-Cuando se produce este error, no se aplica ningún cambio. El comando debe volver a ejecutarse con la prueba duplicada eliminada.
+Cuando se produce este error, no se aplica ningún cambio. El comando se debe ejecutar de nuevo sin la prueba duplicada.
   
 Para quitar una transacción sintética de un nodo de monitor, use el método Remove. Por ejemplo, este comando quita la prueba ABWQ de un nodo de monitor:
   
@@ -180,13 +180,13 @@ Al ejecutar este comando, todas las transacciones sintéticas en el nodo de moni
   
 ### <a name="viewing-and-testing-the-watcher-node-configuration"></a>Ver y probar la configuración de nodo de monitor
 
-Si desea ver las pruebas que se asignaron a un nodo de monitor, use un comando similar a este:
+Si desea ver las pruebas que se han asignado a un nodo de monitor, use un comando similar al siguiente:
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
 ```
 
-Este comando devolverá información similar a esta, en función de las transacciones sintéticas que se hayan asignado al nodo:
+Este comando devolverá información similar a la siguiente, en función de las transacciones sintéticas que se hayan asignado al nodo:
   
 Registro GRUPO DE MENSAJERÍA INSTANTÁNEA P2PAV Presencia de AvConferencia PersistentChatMessage DataConference
 > [!TIP]
@@ -306,7 +306,7 @@ $cred2 = Get-Credential "contoso\testUser2"
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
 ```
 
-Debe ejecutar esta tarea de instalación desde dentro de la empresa:
+Ejecute esta tarea de configuración desde dentro de la empresa:
   
 - Si se ejecuta desde un equipo que no es servidor, el usuario que ejecuta el cmdlet debe ser miembro del rol CsPersistentChatAdministrators para Role-Based Access Control (RBAC).
     
@@ -369,7 +369,7 @@ En este ejemplo, una regla Skype Empresarial Server debe existir para enrutar lo
 
 La transacción sintética del servidor de interoperabilidad de vídeo (VIS) requiere que descargue e instale los archivos de compatibilidad de transacciones sintéticas ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
   
-Para instalar VISSTSupportPackage.msi asegúrese de que las dependencias (en Requisitos del sistema) del msi ya están instaladas. Ejecute VISSTSupportPackage.msi para realizar una instalación sencilla. El .msi instala todos los archivos en la siguiente ruta de acceso: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
+Para instalar VISSTSupportPackage.msi, asegúrese de que las dependencias (en Requisitos del sistema) del msi ya están instaladas. Ejecute VISSTSupportPackage.msi para realizar una instalación sencilla. El .msi instala todos los archivos en la siguiente ruta de acceso: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
 Para obtener más información sobre cómo ejecutar la transacción sintética vis, consulte la documentación del cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV.](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV)
   
@@ -378,7 +378,7 @@ Para obtener más información sobre cómo ejecutar la transacción sintética v
 
 De forma predeterminada, las transacciones sintéticas se ejecutarán con los usuarios configurados cada 15 minutos. Las transacciones sintéticas se ejecutan secuencialmente en un conjunto de usuarios para evitar que dos transacciones sintéticas entren en conflicto. Se necesita un intervalo más largo para proporcionar tiempo para que todas las transacciones sintéticas se completen.
   
-Si es conveniente ejecutar transacciones sintéticas con más frecuencia, el número de transacciones sintéticas que se ejecutan con un conjunto determinado de usuarios debe reducirse para que las pruebas puedan completarse en el intervalo de tiempo deseado con algún búfer para retrasos de red ocasionales. Si es conveniente ejecutar más transacciones sintéticas, cree más conjuntos de usuarios para ejecutar transacciones sintéticas adicionales.
+Si es conveniente ejecutar transacciones sintéticas con más frecuencia, el número de transacciones sintéticas que se ejecutan con un conjunto determinado de usuarios debe reducirse para que las pruebas puedan completarse en el intervalo de tiempo deseado con algún búfer para retrasos de red ocasionales. Si es conveniente ejecutar más transacciones sintéticas, cree más conjuntos de usuarios para ejecutar más transacciones sintéticas.
   
 Para cambiar la frecuencia con la que se ejecutan las transacciones sintéticas, siga estos pasos:
   
@@ -395,7 +395,7 @@ Para cambiar la frecuencia con la que se ejecutan las transacciones sintéticas,
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>Uso de registro enriquecido para transacciones sintéticas
 <a name="special_synthetictrans"> </a>
 
-Las transacciones sintéticas resultan extremadamente útiles para ayudar a identificar problemas con el sistema. Por ejemplo, el cmdlet Test-CsRegistration podría alertar a los administradores del hecho de que los usuarios tenían dificultades para registrarse con Skype Empresarial Server. Sin embargo, es posible que se necesiten detalles adicionales para determinar la causa real de un error.
+Las transacciones sintéticas son útiles para ayudar a identificar problemas con el sistema. Por ejemplo, el cmdlet Test-CsRegistration podría alertar a los administradores del hecho de que los usuarios tenían dificultades para registrarse con Skype Empresarial Server. Sin embargo, es posible que se necesiten más detalles para determinar la causa real de un error.
   
 Por este motivo, las transacciones sintéticas proporcionan un registro enriquecido. Con el registro enriquecido, para cada actividad que realiza una transacción sintética, se registra la siguiente información:
   

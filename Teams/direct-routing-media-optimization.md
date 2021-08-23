@@ -1,5 +1,5 @@
 ---
-title: Optimización de medios locales para la promocionación directa
+title: Optimización de medios locales para enrutamiento directo
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,14 +16,14 @@ f1.keywords:
 description: Optimización de medios locales para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42234a80d87b01f9ee4b87943216d104caaa7fde
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2513a72502573689b0ab988ea9647384688c9255
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233595"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365657"
 ---
-# <a name="local-media-optimization-for-direct-routing"></a>Optimización de medios locales para enrutamiento directo
+# <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planear la optimización de medios locales para enrutamiento directo
 
 La voz de red telefónica conmutada (RTC) se considera una aplicación crítica para la empresa con grandes expectativas de calidad de voz. Enrutamiento directo le permite controlar los flujos de tráfico multimedia para dar cabida a multitud de topologías de red y configuraciones de telefonía local para varias empresas de todo el mundo. 
 
@@ -43,6 +43,8 @@ En este artículo se describen las funciones de características y los escenario
 
   > [!NOTE]
   > Si desea mantener los medios locales dentro de los límites de la intranet, se recomienda optimizar los medios locales. Si ya tiene La omisión de medios y solo usa las direcciones IP públicas de los SBC, no es obligatorio desplazarse a Optimización de medios locales. Puede seguir usando La omisión de medios. Para obtener más información, vea [Planear la omisión de medios.](direct-routing-plan-media-bypass.md)
+
+Para obtener información sobre qué proveedores de SBC admiten la optimización de medios locales, vea Controladores de borde de sesión [certificados para enrutamiento directo.](direct-routing-border-controllers.md)
 
 
 ## <a name="supported-customer-scenarios"></a>Escenarios de cliente admitidos

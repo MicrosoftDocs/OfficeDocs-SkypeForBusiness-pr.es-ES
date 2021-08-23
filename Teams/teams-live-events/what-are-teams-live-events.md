@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: d4a4e57acf5987d670ebb75385bdcfc4406ba505
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2b445c44fa7517c7ffbc6bdefdb0505cff88c999
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233245"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359217"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -43,7 +43,7 @@ Los eventos en directo de Teams se consideran la nueva versión de Difusión de 
 
 Así que, empecemos. En primer lugar, echemos un vistazo al siguiente diagrama, que muestra los componentes de alto nivel presentes en los eventos en directo de Microsoft 365 y cómo están conectados.
 
-![Componentes clave de los eventos en directo](../media/live-event-flow-diagram1.png  "Componentes clave de eventos en directo, programación, producción, plataforma de Stream, proveedores de terceros certificados de eCDN")
+![Componentes clave de los eventos en directo](../media/live-events-flow-diagram.png  "Componentes clave de eventos en directo, programación, producción, plataforma de Stream, proveedores de terceros certificados de eCDN")
 
 > [!Note]
 > Nos gustaría destacar que los eventos en directo de Teams, dada la naturaleza de la tecnología de difusión, a menudo superan las audiencias de reuniones normales (internas).

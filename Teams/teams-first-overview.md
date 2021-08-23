@@ -15,12 +15,12 @@ description: Use esta guía para Microsoft Teams como su primera Microsoft 365 o
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddc107db668a582ad164e20f3b3ded169bd5d86125d949fe45d4d2f89090a8f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b52bbef87b08fd541a444e5613aed17032739f67
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312578"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380444"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Implementación en Microsoft Teams Primero
 
@@ -48,7 +48,7 @@ Para empezar con su Teams primera implementación, tendrá que cumplir como mín
 4.  Red de la organización preparada para Teams  
     Para comprender la preparación de la red, lea [Preparar la red de su organización para Teams](prepare-network.md).
 
-5.  Permitir el acceso de red a Exchange, Sharepoint y OneDrive para la Empresa en Microsoft 365 o Office 365: Office 365 direcciones URL e [intervalos de direcciones IP.](/office365/enterprise/urls-and-ip-address-ranges)
+5.  Permitir el acceso de red a Exchange, SharePoint y OneDrive para la Empresa en Microsoft 365 o Office 365: Office 365 direcciones URL e intervalos de direcciones [IP.](/office365/enterprise/urls-and-ip-address-ranges)
 
 > [!NOTE]
 > Los inquilinos creados después del 1 de septiembre de 2019 se aprovisionan en Teams modo único.

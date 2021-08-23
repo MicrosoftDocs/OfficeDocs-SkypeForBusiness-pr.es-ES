@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Security
 description: Guía de seguridad para Skype Empresarial Online <add description>
-ms.openlocfilehash: 0100eaab0a06cdbc618f39bd02ae832dca71abd5ac0498143fd51e8da9ea0e3e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6dca69d4ced66543845990f88e9c389936281c7a
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295947"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407029"
 ---
 # <a name="security-and-skype-for-business-online"></a>Seguridad y Skype Empresarial online
 
@@ -96,14 +96,14 @@ Las siguientes tablas enumeran los datos que se requieren para que SfBO funcione
 <!--start table here -->
 
 
-|                      |                                                                                            |   |
-|:---------------------|:-------------------------------------------------------------------------------------------|:--|
-| **Datos**             | **Configuración** **posible**                                                                  |   |
-| Datos personales        | Nombre, Título, Empresa, Dirección de correo electrónico, Zona horaria                                             |   |
-| Números de teléfono    | Trabajo, Móvil, Particular                                                                         |   |
-| Información de calendario | Disponibilidad, aviso de fuera de la ciudad, detalles de la reunión (para aquellos que tienen acceso a su calendario) |   |
-| Estado de presencia      | Ausente, Disponible, No disponible, No molestar, No conectado                                             |   |
-|                      |                                                                                            |   |
+
+| **Datos**             | **Configuración** **posible**                                                                  |
+|:---------------------|:-------------------------------------------------------------------------------------------|
+| Datos personales        | Nombre, Título, Empresa, Dirección de correo electrónico, Zona horaria                                             |
+| Números de teléfono    | Trabajo, Móvil, Particular                                                                         |
+| Información de calendario | Disponibilidad, aviso de fuera de la ciudad, detalles de la reunión (para aquellos que tienen acceso a su calendario) |
+| Estado de presencia      | Ausente, Disponible, No disponible, No molestar, No conectado                                             |
+|                      |                                                                                            |
 
 <!-- end of table -->
 
@@ -112,13 +112,12 @@ Las siguientes tablas enumeran los datos que se requieren para que SfBO funcione
 <!--start table here -->
 
 
-|              |                                                                 |   |
-|:-------------|:----------------------------------------------------------------|:--|
-| **Categoría** | **Posibles configuraciones**                                           |   |
-| Dirección IP   | Dirección real del equipo o dirección traducida                     |   |
-| URI del SIP      | <u>david.campbell@contoso.com</u>                               |   |
-| Nombre         | David Campbell (como se define en Servicios de dominio de Active Directory) |   |
-|              |                                                                 |   |
+| **Datos**             | **Configuración** **posible**                                                                  |
+|:---------------------|:-------------------------------------------------------------------------------------------|
+| Dirección IP   | Dirección real del equipo o dirección traducida                     |
+| URI del SIP      | <u>david.campbell@contoso.com</u>                               |
+| Nombre         | David Campbell (como se define en Servicios de dominio de Active Directory) |
+|              |                                                                 |
 
 <!-- end of table -->
 
@@ -166,9 +165,10 @@ La siguiente tabla resume el protocolo utilizado por SfBO.
 <!--start table here with header -->
 
 
-|||
-|:-----|:-----|
+
+
 |**Tipo de tráfico**|**Protegido por**|
+|:-----|:-----|
 |Servidor a servidor|MTLS|
 |Cliente a servidor|TLS|
 |Mensajería instantánea y presencia|TLS (si está configurado para TLS)|

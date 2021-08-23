@@ -21,22 +21,20 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lea las preguntas más frecuentes (PREGUNTAS FRECUENTES) y las respuestas Microsoft Teams panel de calidad de llamadas (CQD).
-ms.openlocfilehash: b6d2782418b2cba1c7268fdadad7c577a4730c18ddfb84903d13535185c2dd7b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a733abb5f1fb41e149dd0801b5e25dd1bf948bf6
+ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334851"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58339858"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Preguntas más frecuentes (PREGUNTAS FRECUENTES) del Panel de calidad de llamadas (CQD)
 
-## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 [¿Por qué CQD marca una llamada como "Buena" si uno o varios participantes de la reunión tuvieron una mala experiencia?](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
 
 [¿Por qué veo hasta un 0,2 % de diferencia en los valores de llamadas y recuento de usuarios en las medidas y cómo obtener volúmenes más precisos? ](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
-
-[¿Por qué los datos CQD de Skype Empresarial datos CQD de Teams?](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
 
 [¿Por qué no puedo ver EUII en CQD?](#why-cant-i-see-euii-in-cqd)
 
@@ -44,7 +42,7 @@ ms.locfileid: "54334851"
 
 [¿Por qué mis informes personalizados solo devuelven un máximo de 10 000 filas cuando sé que debería haber más entradas?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
-[¿Por qué las conexiones VPN WiFi se muestran como Cableadas en lugar de WiFi?](#why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi)
+[¿Por qué Wi-Fi conexiones VPN se muestran como cableadas en lugar de wi-fi?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>¿Por qué CQD marca una llamada como "Buena" si uno o varios participantes de la reunión tuvieron una mala experiencia?
 
@@ -73,23 +71,14 @@ Cree informes detallados en CQD y filtre en Id. de reunión para ver todos los u
 La telemetría no necesariamente resolverá el problema, pero puede ayudarle a comprender mejor dónde buscar e informar a sus decisiones. ¿Es la red, el dispositivo, el controlador o las actualizaciones de firmware, el uso o el usuario?
 
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>¿Por qué veo hasta un 0,2 % de diferencia en los valores de llamadas y recuento de usuarios en las medidas y cómo obtener volúmenes más precisos? 
+
 Para calcular las medidas de recuento de llamadas y recuento de usuarios, se realiza una operación countif distinta con los identificadores de llamada o de usuario del conjunto de datos. En conjuntos de datos grandes, hay un error de hasta un 0,2 % inherente a la operación countif distinta. Para obtener el volumen más preciso, debe basarse en las medidas de recuento de transmisiones, ya que no se basan en esta operación countif distinta. Filtrar para reducir el volumen de datos puede reducir el error, pero no puede eliminar esta fuente de error en diferentes recuentos de llamadas y usuarios. Consulte [Dimensiones y medidas disponibles en el Panel de](dimensions-and-measures-available-in-call-quality-dashboard.md) calidad de llamadas para qué medidas se verán afectadas.
-
-
-### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>¿Por qué los datos CQD de Skype Empresarial datos CQD de Teams? 
-
-
-> [!IMPORTANT]
-> A partir del 1 de julio de 2020, el CQD (CQD.lync.com) más antiguo usa datos del CQD más reciente (CQD.Teams.microsoft.com). Los datos CQD antiguos ya no están disponibles y no puede exportar los datos de creación o informe. Todavía puede usar CQD.lync.com (disponible desde el centro de administración de Skype Empresarial), pero desactivaremos el acceso CQD.lync.com, por lo que debería ir a CQD. Teams.microsoft.com si aún no lo ha hecho.
-
-
-Si intenta comparar datos entre el CQD anterior del portal heredado de Skype Empresarial (cqd.lync.com) y el CQD más reciente del Centro de administración de Teams (cqd.teams.microsoft.com), observará rápidamente que los datos no coinciden. Esto se debe a que los últimos informes de CQD en muchos escenarios de llamadas adicionales. Si sigue usando informes del CQD anterior, use este artículo para ayudarle a interpretar esos informes: Panel de calidad de llamadas para [Skype Empresarial Server](/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
-
 
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>¿Por qué no puedo ver EUII en CQD?
 
 Estos roles de administrador pueden obtener acceso a CQD, pero no pueden ver EUII (información de identificación del usuario final):
+
 - Microsoft 365 Lector de informes
 - Teams Especialista en soporte técnico de comunicaciones
 
@@ -101,9 +90,9 @@ Al filtrar por Teams solo en informes CQD (isTeams = 1), está  filtrando para t
 
 CQDv2 y CQDv3 siempre tendrán recuentos totales diferentes, ya que CQDv3 tendrá nuevos escenarios que CQDv2 no tendrá. Por eso, comparar el total de resumen o los números totales agregados sin filtros tendrá estas diferencias esperadas.  
 
-Según el escenario de los clientes, CQDv3 incluirá llamadas locales de SFB 2019 (si se usa SFB 2019 con un conector de datos), llamadas de bot de Skype (AA, CVI, VDI), eventos en directo y llamadas RTC. Escenarios o características que están disponibles para los clientes, pero sus datos no están en CQD V2.
+Según el escenario de los clientes, CQDv3 incluirá llamadas locales de SFB 2019 (si se usa SFB 2019 con un conector de datos), llamadas de bot de Skype (AA, CVI, VDI), Eventos en directo y llamadas RTC. Escenarios o características que están disponibles para los clientes, pero sus datos no están en CQD V2.
 
-Por ejemplo, se espera que sus clientes y usted vean 200 000 transmisiones de audio, con 5000 errores en el informe de resumen CQD V2; frente a 300 000 transmisiones de audio con 5500 errores (procedentes de llamadas locales de 2019, llamadas CVI, llamadas RTC, etc.) en CQD V3.
+Por ejemplo, se espera que sus clientes y usted vean 200 000 transmisiones de audio, con 5000 errores en el Informe de resumen CQD V2, frente a 300 000 transmisiones de audio con 5500 errores (procedentes de llamadas locales de 2019, llamadas CVI, llamadas RTC, y así sucesivamente) en CQD V3.
 
 Para determinar si hay diferencias inesperadas, debe observar varios desgloses de los datos generales.  Comparar con la intención.  Cortar los datos mediante el par de categorías de agente de usuario es una de las primeras cosas que recomendamos.  *El primer producto* y *el segundo producto* también son buenas segmentaciones de datos.  
 
@@ -111,11 +100,11 @@ Para determinar si hay diferencias inesperadas, debe observar varios desgloses d
 
 CQD está diseñado para consultas de datos resumidos y no está diseñado para la exportación de datos. Recomendamos que se restructuran los informes, siempre que sea posible, para evitar que se supere el límite de 10 000 filas. Empiece por ver sus KPI con dimensiones más amplias y de menor cardinalidad, como Mes, Año, Fecha, Región, País, etc. Desde allí, puede explorar en profundidad las dimensiones de mayor cardinalidad. Tanto el Departamento de soporte técnico como Location-Enhanced informes proporcionan buenos ejemplos de este flujo de trabajo de exploración en profundidad.
 
-### <a name="why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi"></a>¿Por qué las conexiones VPN WiFi se muestran como Cableadas en lugar de WiFi?
+### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>¿Por qué Wi-Fi conexiones VPN se muestran como cableadas en lugar de wi-fi?
 
-Esto es normal. El proveedor de VPN creó un adaptador ethernet virtual que se trata como una conexión cableada. Puesto que no está etiquetado correctamente, el sistema operativo no sabe que es una conexión WiFi e informa de que está conectado por cable.
+Esto es normal. El proveedor de VPN creó un adaptador ethernet virtual que se trata como una conexión por cable. Puesto que no está etiquetado correctamente, el sistema operativo no sabe que es una conexión WiFi e informa de que está conectado por cable.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Mejorar y supervisar la calidad de las llamadas Teams](monitor-call-quality-qos.md)
 

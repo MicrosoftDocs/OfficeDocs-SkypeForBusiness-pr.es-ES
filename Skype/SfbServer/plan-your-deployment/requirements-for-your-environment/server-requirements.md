@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumen: prepare los servidores Skype Empresarial Server 2015 con este tema. Hardware, sistema operativo, bases de datos, software, todos los requisitos y recomendaciones del sistema están aquí para ayudar a garantizar una instalación e implementación correctas de la granja de servidores.'
-ms.openlocfilehash: 8dd32e9d27120e4809cb2f5ce557657e0b4864d60d7095a5e2eb799dc7fdfc83
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c709dbc3afa2290cc9260dd71b73ab5da898d88
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276615"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372080"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos del servidor para Skype Empresarial Server 2015
  
@@ -51,7 +51,7 @@ Hardware recomendado para servidores front-end, servidores back-end, servidores 
 |:-----|:-----|
 |CPU  <br/> |Procesador dual de 64 bits, hex-core, 2,26 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no son compatibles Skype Empresarial Server roles de 2015.  <br/> |
 |Memoria  <br/> |32 gigabytes (GB).  <br/> |
-|Disco  <br/> |CUALQUIERA DE LAS DOS:  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos que usan RAID 1 y 6 con RAID 10).  <br/> O  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
+|Disco  <br/> |CUALQUIERA DE LAS DOS:  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos que usan RAID 1 y 6 con RAID 10).  <br/> OR  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
 |Red  <br/> |1 adaptador de red de doble puerto, 1 Gbps o superior (se pueden usar 2 adaptadores de red, pero deben estar asociados con una sola dirección MAC y una única dirección IP).  <br/> Las configuraciones duales o  multialod no son compatibles con servidores front-end, servidores back-end, servidores Standard Edition y servidores de chat persistente. <br/> Siempre que no estén expuestos al sistema operativo y se estén utilizando para supervisar y administrar el hardware del servidor, puede tener fuera de los sistemas de administración de bandas, como DRAC o ILO. Este escenario no constituye un servidor multialocución y es compatible.  <br/> |
    
 Hardware recomendado para servidores perimetrales, servidores de mediación independientes, servidores de interoperabilidad de vídeo y directores:
@@ -60,7 +60,7 @@ Hardware recomendado para servidores perimetrales, servidores de mediación inde
 |:-----|:-----|
 |CPU  <br/> |Procesador dual de 64 bits, cuatro núcleos, 2,26 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no son compatibles Skype Empresarial Server roles de 2015.  <br/> |
 |Memoria  <br/> |16 gigabytes.  <br/> |
-|Disco  <br/> |CUALQUIERA DE LAS DOS:  <br/> • 4 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (los discos deben estar en una configuración de 2x RAID 1).  <br/> O  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 4 unidades de disco mecánicas de 10000 RPM.  <br/> |
+|Disco  <br/> |CUALQUIERA DE LAS DOS:  <br/> • 4 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (los discos deben estar en una configuración de 2x RAID 1).  <br/> OR  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 4 unidades de disco mecánicas de 10000 RPM.  <br/> |
 |Red  <br/> |1 adaptador de red de doble puerto, 1 Gbps o superior (se pueden usar 2 adaptadores de red, pero deben estar asociados con una sola dirección MAC y una única dirección IP).  <br/> Las configuraciones duales o multialod no son **compatibles** con los servidores y directores de interoperabilidad de vídeo. <br/> Los servidores perimetrales necesitarán dos interfaces de red que sean adaptadores de red de doble puerto, 1 Gbps o superior (o dos adaptadores de red emparejados, para un total de cuatro, cada par se combina con una sola dirección MAC y una sola dirección IP, para un total de dos pares).  <br/> En servidores de mediación independientes, se admite la instalación de tarjetas de interfaz de red (NIC) adicionales para permitir la configuración de una dirección IP RTC específica.  <br/> |
    
 ## <a name="operating-systems-for-skype-for-business-server-2015"></a>Sistemas operativos para Skype Empresarial Server 2015
@@ -68,7 +68,7 @@ Hardware recomendado para servidores perimetrales, servidores de mediación inde
 
 Una vez que haya instalado el hardware, deberá instalar sistemas operativos (SO). Estos son los sos que le permitirán instalar y usar correctamente Skype Empresarial Server 2015.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |Windows Server 2019 (necesita Skype Empresarial acumulativa 9 o posterior). <br/> |Windows Server 2016 (necesita una Skype Empresarial acumulativa 5 o posterior. Para obtener más información, [compruebe KB4015888](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
 |Windows Server 2012 Sistema operativo de centro de datos R2 con todas las actualizaciones necesarias instaladas.  <br/> |Windows Server 2012 R2 Sistema operativo estándar con todas las actualizaciones necesarias instaladas.  <br/> |
@@ -98,7 +98,7 @@ Al instalar Skype Empresarial Server 2015 Standard Edition, tendrás que SQL Ser
   
 Skype Empresarial Server 2015 Enterprise Edition es un poco más complicado, pero la lista admitida está a continuación (todo es una edición de 64 bits, se dará cuenta, no use ediciones de 32 bits):
   
-||||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|:-----|
 |Microsoft SQL Server 2019 Enterprise (edición de 64 bits) y se recomienda ejecutar con el service pack más reciente. <br/> |Microsoft SQL Server 2017 Enterprise (edición de 64 bits) y se recomienda ejecutar con el service pack más reciente. <br/> |Microsoft SQL Server 2016 Enterprise (edición de 64 bits) con Service Pack 1 o posterior, y debe ejecutar con una actualización acumulativa 7 o posterior de Skype Empresarial ( descargar[Skype Empresarial actualización](https://support.microsoft.com/help/3061064)acumulativa ).  <br/> |Microsoft SQL Server 2014 Enterprise (edición de 64 bits) y debe ejecutar con la actualización acumulativa 6 o posterior ( descargar la actualización acumulativa[6](https://support.microsoft.com/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (edición de 64 bits) y se recomienda ejecutar con el service pack más reciente.  <br/> |
 |Microsoft SQL Server 2019 Standard (edición de 64 bits) y se recomienda ejecutar con el service pack más reciente. <br/> |Microsoft SQL Server 2017 Standard (edición de 64 bits) y se recomienda ejecutar con el service pack más reciente. <br/> |Microsoft SQL Server 2016 Standard (edición de 64 bits) con Service Pack 1 o posterior, y debe ejecutar con una actualización acumulativa 7 o posterior de Skype Empresarial ( descargar[Skype Empresarial actualización](https://support.microsoft.com/help/3061064)acumulativa ).  <br/> |Microsoft SQL Server 2014 Standard (edición de 64 bits) y debe ejecutar con la actualización acumulativa 6 o posterior ( descargar la actualización acumulativa[6](https://support.microsoft.com/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (edición de 64 bits) y se recomienda ejecutar con el service pack más reciente.  <br/> |
@@ -112,7 +112,7 @@ Si no ves la edición SQL Server que quieres usar, no puedes usarla.
 ### <a name="microsoft-exchange-storage"></a>Almacenamiento Exchange Microsoft
 Los archivos de contenido de las reuniones, como las presentaciones de PowerPoint, se archivan como datos adjuntos. Si desea almacenar datos de archivo Skype Empresarial con datos de cumplimiento de Exchange, debe usar Exchange para la implementación de Exchange y asegurarse de que el tamaño máximo de almacenamiento admite el almacenamiento de los archivos de contenido de la reunión. Debe implementar Exchange antes de implementar y habilitar el archivado mediante la opción de integración Exchange Microsoft. 
     
-    If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
+Si decide usar el almacenamiento Exchange, no es necesario implementar bases de datos de SQL Server independientes para el archivado, a menos que tenga usuarios Skype Empresarial que no estén en sus servidores Exchange. Si implementa el archivado mediante la opción de integración de Microsoft Exchange, los datos de archivo Skype Empresarial se almacenan con datos de cumplimiento Exchange solo para los usuarios que se encuentran en los servidores Exchange cliente. 
   
 ## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>Requisitos de hardware y software para archivado en Skype Empresarial Server 2015
   

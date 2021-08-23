@@ -1,7 +1,7 @@
 ---
 title: Visitas virtuales con Microsoft Teams y la aplicación Bookings
-author: cichur
-ms.author: v-cichur
+author: dmaguire
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams y visitas virtuales con la aplicación Bookings
-ms.openlocfilehash: 2ef4708cfcbdda5ba55c1aa7069e6e1e6babebc2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ca5b2391dc1f70188c3b0191fad09ee7cb46e457
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233405"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372210"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación Bookings
 

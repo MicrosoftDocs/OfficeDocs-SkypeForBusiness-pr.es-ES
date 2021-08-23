@@ -1,5 +1,5 @@
 ---
-title: Declaración de conformidad de accesibilidad - Francia
+title: 'Microsoft Teams: Declaración de conformidad de accesibilidad - Francia'
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et efficace. "
-ms.openlocfilehash: 269e53cf75938c789e3b51177ae02dcdbf40f14e1b24da96f327051a93433e5a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 24bb3c5e278ec2b046400308d0342fe4acfae687
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333022"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372090"
 ---
-# <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformé en matière d'accessibilité
+# <a name="microsoft-teams-en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Microsoft Teams: EN 301 549 Déclaration de conformé en matière d'accessibilité
 
 Fecha: 2 octubre 2018
 
@@ -109,7 +109,7 @@ Cette section ne s'applique pas à Microsoft Teams.
 
 ## <a name="section-11-logiciel"></a>Sección 11 Logiciel
 
-| **Critères** <br/>| **Fonctionnalités prises en charge** <br/>| **Volver a casar y explicar** <br/> |
+| **Critères** | **Fonctionnalités prises en charge** | **Volver a casar y explicar** |
 | --- | --- | --- |
 |**11.1.1.1.1 Contenu non textuel (lecture d'écran prise en charge)**<br/>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès WCAG 2.1 indiqués dans le Tableau 1.1.1 Contenu non textuel<br/>|Pris en charge <br/> | |
 |**11.1.2.1.1 Audio seulement et vidéo seulement (préenregistré)**<br/>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran et où aucune information sonore préenregistrée n'est nécessaire pour permettre l'utilisation des fonctions fermées de la TIC, elle remplit les Critères de Succès WCAG 2.1 indiqués dans le Tableau 1.2.1 Audio seulement et vidéo seulement (préenregistré).<br/>|No aplicable<br/>| |

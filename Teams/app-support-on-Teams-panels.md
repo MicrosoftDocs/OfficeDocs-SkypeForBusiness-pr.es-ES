@@ -20,33 +20,43 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb6950bbb78bf04b01194bbab5ec6d9030a53137
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f9d6f3f03e84e42f7aece380baedb928495560f8
+ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235745"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386779"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Microsoft Teams aplicaciones o la aplicación línea de negocio (LOB) en Teams paneles
 
-Teams paneles está agregando compatibilidad con Teams aplicaciones de línea de negocio (LOB). Esto permitirá a las empresas agregar experiencias adicionales en los paneles para satisfacer las necesidades de su organización. Esta versión admite contenido web estático.
+Teams paneles está agregando compatibilidad con Teams aplicaciones de línea de negocio [(LOB).](/microsoftteams/platform/overview) Esto permitirá a las empresas agregar experiencias adicionales en los paneles para satisfacer las necesidades de su organización. Esta versión admite contenido web estático.
 
 > [!IMPORTANT]
 > Esta característica solo está disponible después de actualizar Teams dispositivos de paneles. Debe tener la versión Teams 1449/1.0.97.2021070601 o posterior de la aplicación para tener compatibilidad con aplicaciones en Teams paneles.
 
+## <a name="teams-app-experience-on-teams-panels"></a>Teams de aplicaciones en Teams paneles
+
+![Captura de pantalla del Teams de administración que muestra qué sección permitirá a los usuarios navegar a las aplicaciones.](media/tac1update.png) 
+
+*La Teams de inicio de paneles incluye opciones de navegación de aplicaciones, que se describen en la captura de pantalla en rojo. Tenga en cuenta que estos son iconos de ejemplo y es posible que no estén disponibles para su uso.*
+
+![Captura de pantalla del lienzo de la aplicación donde se pueden agregar aplicaciones.](media/appscreen.png)
+
+*Cuando un usuario final pulse en uno de los iconos de la aplicación, verá la pantalla Teams aplicación que se muestra en la captura de pantalla anterior. El rectángulo gris de la captura de pantalla es donde se muestran las aplicaciones en el panel Teams pantalla. La barra de aplicaciones está fija y forma parte de la aplicación Teams paneles.*
+
 ## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>Configurar y administrar aplicaciones Teams paneles en Teams de administración 
 
-Microsoft Teams aplicaciones traen información clave, herramientas comunes y procesos de confianza para que las personas se reúnan, aprendan y trabajen. Teams aplicaciones funcionan [a través de funcionalidades integradas.](/platform/concepts/capabilities-overview) Ahora, como administrador de TI, tiene la opción de qué aplicaciones incluir en el dispositivo de paneles de Teams de su organización y personalizar los permisos a través del centro de administración de Teams organización.
+Microsoft Teams aplicaciones traen información clave, herramientas comunes y procesos de confianza para que las personas se reúnan, aprendan y trabajen. Teams aplicaciones funcionan [a través de funcionalidades integradas.](/microsoftteams/platform/concepts/capabilities-overview) Ahora, como administrador de TI, tiene la opción de qué aplicaciones incluir en el dispositivo de paneles de Teams de su organización y personalizar los permisos a través del centro de administración de Teams [organización.](https://admin.teams.microsoft.com/)
 
-Ahora puede usar las aplicaciones Teams en Teams paneles y personalizar la experiencia del usuario en función de las necesidades de su organización. Puede decidir a qué aplicación web pueden acceder los usuarios, usar y priorizar las vistas de la aplicación. Algunas opciones, como el bot y las capacidades de mensajería, no son compatibles en este momento. Obtenga más información sobre las Teams aplicaciones y cómo administrar sus dispositivos en Microsoft Teams.
+Ahora puede usar las aplicaciones Teams en Teams paneles y personalizar la experiencia del usuario en función de las necesidades de su organización. Puede decidir a qué aplicación web pueden acceder los usuarios, usar y priorizar las vistas de la aplicación. Algunas opciones, como el bot y las capacidades de mensajería, no son compatibles en este momento. Obtenga más información [sobre las Teams y](/microsoftteams/platform/overview) cómo administrar sus [dispositivos en Microsoft Teams](/microsoftteams/devices/device-management).
 
 ## <a name="manage-apps-on-teams-panels-in-teams-admin-center"></a>Administrar aplicaciones en Teams paneles en Teams centro de administración
 
-**Nota:** Debe ser un administrador global o un administrador Teams de servicio para acceder al centro Teams administración.
+**Nota:** Debe ser administrador global o administrador de Teams de servicio para acceder al centro [Teams administración.](https://admin.teams.microsoft.com/)
 
-Los usuarios finales pueden ver pero no instalar aplicaciones en Teams paneles. Como administrador, puede ver y administrar todas las Teams aplicaciones de su organización a través del centro Teams administración. Obtenga más información sobre cómo puede administrar las aplicaciones en el centro de Microsoft Teams a través de la **página** Administrar aplicaciones. La **página Administrar aplicaciones** del centro de Teams también es donde puede cargar aplicaciones [personalizadas.](/manage-apps#publish-a-custom-app-to-your-organizations-app-store)
+Los usuarios finales pueden ver pero no instalar aplicaciones en Teams paneles. Como administrador, puede ver y administrar todas las Teams aplicaciones de su organización a través del centro Teams administración. Obtenga más información sobre cómo puede administrar sus aplicaciones en el [centro de Microsoft Teams a](/microsoftteams/manage-apps) través de la **página** Administrar aplicaciones. La **página Administrar aplicaciones** del centro de Teams también es donde puede cargar aplicaciones [personalizadas.](/microsoftteams/manage-apps#publish-a-custom-app-to-your-organizations-app-store)
 
-Después de configurar aplicaciones, [](/teams-app-permission-policies) puede usar [](/teams-app-setup-policies) directivas de permisos de aplicación y directivas de configuración de aplicaciones para configurar la experiencia de aplicación para cuentas de salón específicas de su organización.
+Después de configurar aplicaciones, [](/microsoftteams/teams-app-permission-policies) puede usar [](/microsoftteams/teams-app-setup-policies) directivas de permisos de aplicación y directivas de configuración de aplicaciones para configurar la experiencia de aplicación para cuentas de salón específicas de su organización.
 
 ## <a name="pin-apps-on-teams-panels-with-app-setup-policies"></a>Anclar aplicaciones en Teams paneles con directivas de configuración de aplicaciones
 
@@ -58,19 +68,23 @@ Para administrar las aplicaciones ancladas que se muestran en los paneles de Tea
 
 ![Captura de pantalla de la sección de aplicaciones ancladas dentro de la interfaz de usuario.](media/appsetup2.png) 
 
+*Las aplicaciones incluidas en esta imagen son solo ejemplos y es posible que no estén disponibles para su uso.*
+
 Microsoft recomienda desactivar  Upload aplicaciones personalizadas  y Permitir la anclación de usuario para obtener la mejor experiencia Teams aplicaciones en Teams paneles.
 
-Para obtener más información sobre cómo anclar aplicaciones, vea [Administrar directivas de configuración de aplicaciones.](/teams-app-setup-policies)
+Para obtener más información sobre cómo anclar aplicaciones, vea [Administrar directivas de configuración de aplicaciones.](/microsoftteams/teams-app-setup-policies)
 
 ## <a name="manage-apps-display-order-in-teams-panels"></a>Administrar el orden de visualización de aplicaciones en Teams paneles 
 
-![Captura de pantalla de la sección aplicaciones de la interfaz de usuario.](media/appsetup3.png) 
+![Captura de pantalla de la sección aplicaciones de la interfaz de usuario.](media/appsetup3.png)
+
+*Las aplicaciones incluidas en esta imagen son solo ejemplos y es posible que no estén disponibles para su uso.*
 
 Para administrar el orden en que se muestran las aplicaciones en los paneles de Teams, inicie sesión en el Centro de administración de Teams para su organización y vaya **a directivas** de configuración de aplicaciones de Teams Seleccione las aplicaciones ancladas a directivas: Subir \>  \>  \>  **o** bajar.
 
 ## <a name="assigning-setup-policies-to-a-room-resource-account"></a>Asignar directivas de configuración a una cuenta de recursos de sala
 
-Después de crear la directiva de configuración, el administrador tendrá que asignar esta directiva a la cuenta de recursos de sala que se haya iniciado sesión en los paneles Teams sala. Para obtener más información, consulte [Asignar directivas a usuarios y grupos.](/assign-policies-users-and-groups)
+Después de crear la directiva de configuración, el administrador tendrá que asignar esta directiva a la cuenta de recursos de sala que se haya iniciado sesión en los paneles Teams sala. Para obtener más información, consulte [Asignar directivas a usuarios y grupos.](/microsoftteams/assign-policies-users-and-groups)
 
 ## <a name="faq"></a>Preguntas más frecuentes
 
@@ -102,10 +116,12 @@ Si las aplicaciones se instalaron previamente a través de otras directivas de a
 
 ### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>¿Por qué no puedo encontrar una aplicación en el panel "Agregar aplicaciones ancladas"?
 
-No todas las aplicaciones se pueden anclar a Teams a través de una directiva de configuración de aplicaciones. Es posible que algunas aplicaciones no admitan esta funcionalidad. Para buscar aplicaciones que se pueden anclar, busque la aplicación en el panel Agregar aplicaciones **ancladas.** Para obtener más información, consulte las preguntas [más frecuentes en Trabajar con directivas de configuración de aplicaciones.](/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)
+No todas las aplicaciones se pueden anclar a Teams a través de una directiva de configuración de aplicaciones. Es posible que algunas aplicaciones no admitan esta funcionalidad. Para buscar aplicaciones que se pueden anclar, busque la aplicación en el panel Agregar aplicaciones **ancladas.** Para obtener más información, consulte las preguntas [más frecuentes en Trabajar con directivas de configuración de aplicaciones.](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)
 
 ### <a name="why-am-i-seeing-an-allow-user-pinning-pop-up-in-the-setup-policies-panel-after-i-turn-off-allow-user-pinning"></a>¿Por qué veo una ventana emergente "Permitir anclación de usuario" en el panel directivas de configuración después de desactivar "Permitir anclación de usuario?"
 
-![Captura de pantalla de la sección de directiva de configuración dentro de la interfaz de usuario con una ventana emergente que confirma que la fijación de usuario está activa.](media/appsetup4.png) 
+![Captura de pantalla de la sección de directiva de configuración dentro de la interfaz de usuario con una ventana emergente que confirma que la fijación de usuario está activa.](media/appsetup4.png)
+
+*Las aplicaciones incluidas en esta imagen son solo ejemplos y es posible que no estén disponibles para su uso.* 
 
 Este comportamiento se espera para un dispositivo en un espacio compartido y ayuda a evitar la fijación involuntaria de aplicaciones.

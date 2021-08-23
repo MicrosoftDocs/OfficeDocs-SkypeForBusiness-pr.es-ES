@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Dinamarca para Microsoft Teams.
-ms.openlocfilehash: ee9e1172a521841dfe1db22f63ef43b450377390
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: cec34e720dbae4eac20bc448b1accee82e61fad2
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232615"
+ms.locfileid: "58348302"
 ---
 # <a name="phone-number-management-for-denmark"></a>Teléfono de números para Dinamarca
 
@@ -34,7 +34,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos y envíenoslos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario y servicio que no se muestran en el Microsoft Teams de administración.   <br/> |Descargue uno de estos formularios. <br/>  [Nueva solicitud de número de teléfono para Dinamarca (v.5.0) (da-dk)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[Nueva solicitud de número de teléfono para Dinamarca (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)
+|Obtenga nuevos números de teléfono de usuario y servicio que no se muestran en el Microsoft Teams de administración.   <br/> |Descargue uno de estos formularios. <br/>  [Nueva solicitud de número de teléfono para Dinamarca (v.5.0) (da-dk)](https://download.microsoft.com/download/a/6/2/a6245856-2c6e-49eb-925c-3dea674228bb/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf) <br/>[Nueva solicitud de número de teléfono para Dinamarca (v.5.0) (en-us)](https://download.microsoft.com/download/b/6/3/b63b7107-d933-45b3-a0ec-30efd2973fb9/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf)<br/><br/>  Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)
 |Transferirnos números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Dinamarca (todos los números) (v.5.0) (da-dk)](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) <br/> |
 |Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de soporte técnico de PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación.      <br/> |
 |Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |

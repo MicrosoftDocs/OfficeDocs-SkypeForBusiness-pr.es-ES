@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f635e3b5e292d6b9eeb62fc8cbbf9552e2d0b2e2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e3782d05697b602375385342d9f2a1248bbd95e3
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233635"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406959"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -100,7 +100,7 @@ Con la instalación por equipo, las actualizaciones automáticas están deshabil
 
 Para actualizar a la versión Teams, empiece con el procedimiento de desinstalación seguido de la implementación Teams versión.
 
-Para Teams av en entornos VDI funcione correctamente, el punto de conexión de cliente ligero debe tener acceso a Internet. Si el acceso a Internet no está disponible en el punto de conexión de cliente ligero, el inicio de optimización no se realiza correctamente. Esto significa que el usuario se encuentra en un estado multimedia no optimizado.
+Para Teams la optimización av en entornos VDI funcione correctamente, el punto de conexión de cliente ligero debe tener acceso a Internet. Si el acceso a Internet no está disponible en el punto de conexión de cliente ligero, el inicio de optimización no se realiza correctamente. Esto significa que el usuario se encuentra en un estado multimedia no optimizado.
 
 #### <a name="dedicated-persistent-setup"></a>Configuración persistente dedicada
 
@@ -471,7 +471,7 @@ if($cleanup){
 - En entornos Citrix, si el usuario se desconecta de la máquina virtual mientras Teams se está ejecutando, las actualizaciones de Teams pueden hacer que el usuario esté en un estado no optimizado para AV cuando se vuelva a conectar. Se recomienda a los usuarios que Teams antes de desconectarse de Citrix Virtual Machine para evitar este escenario.
 - Teams debe implementarse por usuario o por equipo. No se Teams la implementación de Teams por usuario y por equipo. Para migrar de una máquina o de un usuario a uno de estos modos, siga el procedimiento de desinstalación y vuelva a implementarlo en ambos modos.
 - Azure Virtual Desktop no es compatible con macOS y clientes basados en Linux en este momento.
-- El cambio de inquilino rápido puede provocar problemas relacionados con las llamadas en VDI. Reiniciar el cliente mitigará estos problemas.
+- El cambio rápido de inquilino puede provocar problemas relacionados con las llamadas en VDI, como el uso compartido de pantalla no disponible, una lista de participantes incorrecta, etc. Reiniciar el cliente mitigará estos problemas.
 
 ### <a name="calling-and-meetings"></a>Llamadas y reuniones
 
@@ -498,14 +498,14 @@ Los siguientes son problemas conocidos y limitaciones para llamadas y reuniones:
 - La resolución de transmisión de vídeo entrante y saliente está limitada a una resolución de 720p.
 - Solo se admite una transmisión de vídeo desde una cámara entrante o una transmisión de pantalla compartido. Cuando hay un recurso compartido de pantalla entrante, se muestra ese recurso compartido de pantalla, en lugar del vídeo del orador dominante.
 - Teams no cambia a usar el último dispositivo de audio que seleccionó un usuario, si el dispositivo está desconectado y, después, se vuelve a conectar.
+- Los eventos en directo no están optimizados.
 - Uso compartido de pantalla saliente:
     - El uso compartido de aplicaciones no es compatible.
 - Dar control y tomar el control:
     - No se admite durante una sesión de uso compartido de pantalla o de uso compartido de aplicaciones.
     - Compatible durante una sesión PowerPoint de uso compartido.
 - Limitaciones de Solo Citrix
-    - Cuando se comparte la pantalla en una configuración de varios monitores, solo se comparte el monitor principal.
-    - No se admite el escalado alto de PPP en CWA.
+   - No se admite el escalado alto de PPP en CWA.
 
 Para Teams problemas conocidos que no están relacionados con VDI, vea Soporte [técnico Teams su organización.](/MicrosoftTeams/troubleshoot/teams-welcome)
 
