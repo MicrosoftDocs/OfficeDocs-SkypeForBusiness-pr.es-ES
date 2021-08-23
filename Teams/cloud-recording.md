@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4688c0a7d86e09b8114ddd00c85996c6a7c917e10e561013b1a3e902ce98c0ac
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a07b6f46d24679b4e05ce826059958e0404ba084
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329285"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398979"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -262,6 +262,11 @@ El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de entender la c
 > La característica de expiración automática que se describe en este artículo aún no se ha iniciado. Consulte [la hoja de ruta (Id. de característica: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) para obtener más información sobre su fecha de entrega. 
 > 
 > Proporcionamos información sobre cómo funcionará esta característica en el FUTURO, para que pueda planear este cambio y modificar la configuración de directiva de Teams de antemano. 
+>
+> Aún no está disponible el CMD para cambiar de forma preventiva la configuración MeetingExpirationDays en Teams.  Cuando la configuración esté disponible para la modificación lo publicaremos en el centro de mensajes.
+>
+> Puede usar PowerShell para modificar “MeetingRecordingExpirationDays”. Esto se puede hacer después del 1 de septiembre una vez que la configuración esté en PowerShell, aunque la característica aún no esté habilitada. Un comando de ejemplo es: "Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50.”
+>
 
 Vea las preguntas más frecuentes para que los administradores y los usuarios finales recopilen información sobre cómo funcionará la expiración automática de las grabaciones de reuniones de Teams, qué acciones puede realizar ahora y qué acciones puede realizar después de que se inicie la característica. 
   
@@ -285,18 +290,42 @@ Los clientes han proporcionado comentarios abrumadores de que quieren más contr
   
 **¿Por qué está activado de forma predeterminada?**
   
-Creemos que casi todos los clientes se beneficiarán de la carga de almacenamiento reducida en su inquilino mediante la eliminación de grabaciones que probablemente nunca se volverán a ver después de 60 días. Nuestro objetivo es proporcionar una experiencia lo más limpia posible para todos los clientes de forma predeterminada. 
+Creemos que casi todos los clientes se beneficiarán de la carga de almacenamiento reducida en su espacio empresarial mediante la eliminación de grabaciones que probablemente nunca se volverán a ver después de 60 días. Nuestro objetivo es proporcionar una experiencia lo más limpia posible para todos los clientes de forma predeterminada. 
+  
+**¿Se eliminará automáticamente después de 30 días, incluso si se accede a los datos o si se descargan?**
+  
+El hecho de acceder al archivo no cambia la fecha de expiración. 
+  
+**¿La fecha de expiración se ve como una columna en la lista?**
+
+Todos los usuarios con acceso a vista de grabaciones verán un icono rojo junto al archivo en su carpeta de OneDrive o SharePoint 14 días antes de que expire el archivo. Actualmente no es posible agregar una columna a una lista con fecha de expiración.
   
 **Cómo se calcula la fecha de expiración?**
   
 La fecha de expiración se calcula como el día en que se crea la grabación de la reunión más el número predeterminado de días establecido en la configuración de Teams por el administrador. 
   
+**¿Se puede cambiar la fecha de expiración de cada TMR, por ejemplo, de los datos A la fecha de expiración es de 30 días y de los datos B la fecha de expiración es de 60 días?**
+
+Sí, la fecha de expiración se establece por archivo. Los usuarios pueden modificar la fecha de expiración en el panel de detalles de un archivo seleccionado en OneDrive o SharePoint.
+
 **¿Cómo puede un administrador cambiar la fecha de expiración?**
   
-Los administradores pueden cambiar la configuración de expiración predeterminada en PowerShell hoy mismo. Cuando se inicia la característica, los administradores pueden cambiar esta configuración en el Centro de administración de Teams. El cambio de la configuración de expiración afectará solo a los TMR recién creados a partir de ese momento. No afectará a las grabaciones realizadas antes de esa fecha. 
+Los administradores podrán cambiar la configuración de expiración predeterminada en PowerShell o en el Centro de administración de Teams antes de que se publique la característica. La configuración aún no está disponible para su modificación. Cuando la configuración esté disponible para la modificación lo publicaremos en el centro de mensajes. Cuando se inicia la característica, los administradores pueden cambiar esta configuración en el Centro de administración de Teams. El cambio de la configuración de expiración afectará solo a los TMR recién creados a partir de ese momento. No afectará a las grabaciones realizadas antes de esa fecha. 
 
 El valor máximo de días de expiración que puede aplicar un administrador es 99 999 días o 273 años. Los administradores no pueden cambiar la fecha de expiración de los TMR existentes ya cargados en OneDrive o SharePoint antes de que se publicara esta característica. Esto protege la intención del usuario propietario de TMR. 
+  
+**Si se reproduce una grabación, ¿cambia la fecha de expiración?**
 
+No, la reproducción no afecta a la fecha de expiración.
+  
+**¿Qué ocurre con la fecha de expiración si se descarga y se vuelve a cargar TMR?**
+
+La fecha de expiración se borrará al volver a cargar, independientemente de la SKU del usuario.
+  
+**¿Qué ocurre si copio o muevo el TMR a otra ubicación o sitio?**
+
+La fecha solo se conserva para un archivo TMR que se haya movido. Un archivo copiado no tendrá la fecha de expiración y lo mismo sucede con un TMR que se ha vuelto a cargar.
+  
   Ejemplo de comando de PowerShell: 
   
   ```powershell
@@ -317,13 +346,13 @@ El usuario puede aplazar la expiración 14, 30 o 60 días, o puede elegir una fe
   
 No, los administradores no deben confiar en esta característica para la protección legal, ya que los usuarios finales pueden modificar la fecha de expiración de las grabaciones que controlan. 
   
-**Contenga esta característica para exigir la retención de archivos?**
+**¿Esta característica exigirá la retención de archivos?**
   
 No, los archivos no se conservarán debido a esta característica o a su configuración. Si un usuario con permisos de eliminación intenta eliminar un TMR que tiene una configuración de expiración, se ejecutará la acción de eliminación de ese usuario.
  
-**Si deseo una directiva de retención o eliminación que he establecido en la seguridad y el centro de cumplimiento (S+C) invalida la configuración de expiración de TMR?**
+**¿Una directiva de retención o eliminación que he establecido en el centro de seguridad y cumplimiento (S+C) invalida la configuración de expiración de TMR?**
   
-Sí, todas las directivas que haya establecido en el centro de S+C tendrán prioridad completa. Per esempio: 
+Sí, todas las directivas que haya establecido en el centro de S+C tendrán prioridad completa. Por ejemplo: 
   
 - Si tiene una directiva que indica que todos los archivos de un sitio deben conservarse durante 100 días y la configuración de expiración de una TMR es de 30 días, el archivo de grabación se conservará durante los 100 días completos.  
 - Si tiene una directiva de eliminación que indica que todas las TMR se eliminarán después de 5 días y tiene una configuración de expiración en un archivo de grabación de 30 días, ese archivo se eliminará después de cinco días. 
@@ -346,7 +375,7 @@ Todas las SKU tendrán esta característica de forma predeterminada. Los usuario
   
 **Es la expiración del archivo un evento auditado y podré verlo en mis registros de auditoría?**
   
-Sí, las expiracións de archivos se mostrarán como eventos de eliminación del sistema en el registro de auditoría. 
+Sí, las expiraciones de archivos se mostrarán como eventos de eliminación del sistema en el registro de auditoría. 
   
 **Si quiero que el administrador tenga control total sobre el ciclo de vida de las TMR y no quiero dar a los usuarios finales la capacidad de invalidar la fecha de expiración?**
   
@@ -354,7 +383,7 @@ Se recomienda usar las directivas de retención y eliminación de S+C disponible
 
 Esta característica está pensada únicamente como un mecanismo ligero de mantenimiento para reducir el desorden de almacenamiento creado a partir de TMR en frío. 
   
-**Cuando se eliminará el archivo?**
+**¿Cuándo se eliminará el archivo?**
   
 El archivo se eliminará en un plazo de 5 días a partir de la fecha de expiración, aunque esto no es una garantía estricta. 
   

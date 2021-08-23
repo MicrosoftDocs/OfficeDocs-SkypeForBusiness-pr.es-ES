@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Introducción al uso de Skype Empresarial de telemetría en línea para supervisar una implementación local en un escenario híbrido.
-ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0288f07c942f003cfece5aceaddf4139af84569
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318075"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407179"
 ---
 # <a name="plan-call-data-connector"></a>Plan del conector de datos de llamada
 
@@ -40,7 +40,7 @@ Con Call Data Connector, puede realizar las siguientes tareas mediante un único
 
 Con Call Data Connector, el Skype Empresarial Server inserta los datos de llamadas al servicio en la nube para que pueda aprovechar las herramientas de análisis de llamadas en línea (CA) de Skype Empresarial y panel de calidad de llamadas (CQD), como se muestra en el siguiente diagrama:
 
-![SfB Correo de voz en la nube](../../sfbserver2019/media/call-data-connector-plan-1.png)
+![SfB Correo de voz en la nube diagrama.](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
 El servidor inserta los datos de calidad de experiencia (QoE) y registro detallado de llamadas (CDR) en el servicio en línea.
 
@@ -50,13 +50,13 @@ Las herramientas de análisis de llamadas y CQD le permiten supervisar la calida
 
 - El Panel de calidad de llamadas se centra en el rendimiento de la red y los problemas en toda una organización. Skype Empresarial administradores e ingenieros de red usan esta herramienta para solucionar problemas y optimizar el rendimiento de la red.
 
-Para obtener más información, consulte [Análisis de llamadas y Panel de calidad de llamadas.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
+Para obtener más información, vea Análisis de llamadas y Diagrama del panel de calidad de [llamadas con detalles del servidor de supervisión.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
 
 Por supuesto, es posible que desee mantener algunos datos de calidad de llamadas localmente. Este puede ser el caso, por ejemplo, si usa una solución de terceros con informes y flujos de trabajo personalizados.  Call Data Connector le permite configurar el envío de datos al servicio en línea al mismo tiempo que guarda una copia de los datos en el servidor local, como se muestra en el siguiente diagrama:
 
 ![SfB Correo de voz en la nube](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Los siguientes requisitos suponen que ya Skype Empresarial Server implementado en una topología compatible.  Para obtener más información sobre cómo implementar Skype Empresarial Server topologías compatibles, vea [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md). Para configurar Call Data Connector, debe:
 

@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Migre los puntos de conexión de la aplicación hirid antes de retirar Skype Empresarial entorno local.
-ms.openlocfilehash: e06411bfdbd5b74c2b9663ad1eb0441cfc0e2a42411b6bbc8e2c24700dee4993
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f655c232e8502e6309f57ce88af6ca0eebce9a43
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312288"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406979"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Migrar puntos de conexión de aplicaciones híbridas antes de retirar el entorno local
 
@@ -72,7 +72,7 @@ Para poder mover estos puntos de conexión a línea, debe asegurarse de que ha a
    }
    ```
 
-6. Asigne números de teléfono a las nuevas cuentas de recursos creadas en el paso 2. Para obtener más información acerca de cómo asignar un número de teléfono a una cuenta de recurso, vea el siguiente artículo: [Asignar un número de servicio](/microsoftteams/manage-resource-accounts#assign-a-service-number).
+6. Asigne números de teléfono a las nuevas cuentas de recursos creadas en el paso 2. Para obtener más información acerca de cómo asignar un número de teléfono a una cuenta de recurso, vea el siguiente artículo: [Asignar un número de servicio](/microsoftteams/manage-resource-accounts).
 
 7. Elimine los extremos locales ejecutando el siguiente comando local Skype Empresarial Server PowerShell:
 
