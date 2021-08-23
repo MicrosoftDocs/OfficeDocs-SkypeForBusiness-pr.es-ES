@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Obtenga información acerca de cómo usar y administrar canales privados en Microsoft Teams.
-ms.openlocfilehash: a8235f5a4ffe509de748a39254f38acf99e71f27a66286264392f71322fb0a67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 047ff506a2d9ebccda96ecadedb4a30222ba59bf
+ms.sourcegitcommit: 3884bd3a849e92cde5980c3185d53bd4287fe764
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341256"
+ms.lasthandoff: 08/21/2021
+ms.locfileid: "58455965"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canales privados en Microsoft Teams
 
@@ -92,14 +92,21 @@ Consulte [Administrar el ciclo de vida de canales privados en Teams](private-cha
 Cada canal privado tiene su propio sitio de SharePoint. La finalidad del sitio independiente es garantizar que el acceso a los archivos de canales privados esté restringido exclusivamente a los miembros del canal privado. Estos sitios se crean con una biblioteca de documentos de forma predeterminada y pueden ampliarse fácilmente a un sitio con todas las funciones mediante la [interfaz de administración de sitios](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada sitio se crea en la misma región geográfica que el sitio para el equipo principal. Estos sitios livianos tienen un identificador de plantilla personalizado, "TEAMCHANNEL # 0", para facilitar la administración mediante la API de PowerShell y Graph. 
 
 >[!NOTE]
+>Solo los usuarios con permisos de propietario o de miembro concedidos en Microsoft Teams tendrán acceso al contenido del sitio del canal privado.
 >Los sitios de SharePoint de canal privado no se incluyen en la página de Sitios activos del nuevo Centro de administración de SharePoint.
 >Los sitios de SharePoint de canal privado creados después del 28 de junio de 2021 tendrán el identificador de plantilla personalizado TEAMCHANNEL#1.
 
-Un sitio de canal privado sincroniza la clasificación de datos y hereda los permisos de acceso de invitado del sitio del equipo principal. La pertenencia del propietario del sitio y los grupos de miembros se mantienen sincronizados con la membresía del canal privado dentro de Teams. Todos los cambios que se realicen en la pertenencia a propietario o grupos de miembros en SharePoint se revertirán automáticamente en un plazo de cuatro horas. En escenarios donde ciertos usuarios necesitan acceder a documentos sin necesidad de acceder a mensajes de canales privados, agréguelos al grupo de visitantes del documento y la biblioteca, o a un grupo nuevo que sea independiente de los propietarios y miembros.
+
+Un sitio de canal privado sincroniza la clasificación de datos y hereda los permisos de acceso de invitado del sitio del equipo principal. La pertenencia del propietario del sitio y los grupos de miembros se mantienen sincronizados con la membresía del canal privado dentro de Teams. Todos los cambios que se realicen en la pertenencia a propietario o grupos de miembros en SharePoint se revertirán automáticamente en un plazo de cuatro horas. 
 
 Teams administra el ciclo de vida del sitio del canal privado. Si el sitio se elimina fuera de Teams, un trabajo en segundo plano restaura el sitio en un plazo de cuatro horas siempre y cuando el canal privado aún esté activo. Si se elimina el sitio permanentemente, se aprovisionará un nuevo sitio para el canal privado.
 
 Si se restaura un canal privado o un equipo que contiene un canal privado, los sitios se restaurarán con él. Si se restaura un sitio de canal privado y se encuentra fuera de la ventana de eliminación temporal de 30 días para el canal privado, el sitio funcionará como un sitio independiente.
+
+> [!NOTE]
+> Al crear un nuevo equipo o un nuevo canal privado en Microsoft Teams, se creará automáticamente un sitio de grupo en SharePoint. Si desea editar la descripción o clasificación de este sitio de grupo, vaya a la [configuración del canal correspondiente en Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
+>
+> Obtenga más información sobre cómo administrar los [Sitios de grupos conectados a Microsoft Teams](/SharePoint/teams-connected-sites).
 
 ## <a name="private-channel-message-compliance-records"></a>Registros de cumplimiento de mensajes de canal privado
 
