@@ -17,18 +17,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec7796d27f6606c4738d3ce415a32a6f966af6cead1a090dd053df293fcfadfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d8f77e1050e90821f8d99996022b4c97042a5f63
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332502"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483137"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en Microsoft Teams
 
 ## <a name="windows-users"></a>Usuarios de Windows
 
-Microsoft recomienda que las organizaciones usen las versiones más recientes de Windows 10 con una configuración de Hybrid Domain Join o Azure AD Join. Usar las últimas versiones garantiza que las cuentas de los usuarios estén desbloqueadas en el Administrador de cuentas web de Windows, el cual, a su vez, activará el inicio de sesión único para Teams y para otras aplicaciones de Microsoft. El inicio de sesión único ofrece una mejor experiencia de usuario (inicio de sesión silencioso) y una mejor postura de seguridad.
+Microsoft recomienda que las organizaciones usen las versiones más recientes de Windows 10 con una configuración de Hybrid Domain Join o Azure AD Join. Usar las últimas versiones garantiza que las cuentas de los usuarios estén desbloqueadas en el Administrador de cuentas web de Windows, el cual, a su vez, activará el inicio de sesión único para Teams y para otras aplicaciones de Microsoft. El inicio de sesión único ofrece una mejor experiencia de usuario (inicio de sesión silencioso) y una mejor posición de seguridad.
 
 Microsoft Teams usa la autenticación moderna para mantener la experiencia de inicio de sesión sencilla y segura. Para ver cómo inician sesión en Teams los usuarios, consulte [Iniciar sesión en Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
@@ -54,10 +54,6 @@ La autenticación moderna está disponible para cualquier organización que use 
 
     > [!NOTE]
     > La opción para omitir o ignorar el rellenado previo para los nombres de usuario que terminan en ".local" o ".corp" está activada de forma predeterminada, por lo que no es necesario establecer una clave del registro para desactivarlos.
-
-### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>Cerrar la sesión de Microsoft Teams una vez completada la autenticación moderna
-
-Para cerrar la sesión de Teams, los usuarios pueden seleccionar su imagen de perfil en la parte superior de la aplicación y seleccionar **Cerrar sesión**. También pueden hacer clic con el botón derecho en el icono de la aplicación en la barra de tareas y seleccionar **Cerrar sesión**. Una vez que haya finalizado la sesión en Teams, deberán volver a escribir sus credenciales para iniciar la aplicación.
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>Iniciar sesión en otra cuenta en un equipo unido a un dominio
 
@@ -88,7 +84,7 @@ Las siguientes imágenes muestran cómo los usuarios pueden agregar varias cuent
 
 ## <a name="restrict-sign-in-to-teams"></a>Restringir el inicio de sesión en Teams
 
-Es posible que la organización quiera restringir el uso de aplicaciones aprobadas por la empresa en los dispositivos administrados, por ejemplo, para restringir la capacidad de los estudiantes o empleados de acceder a los datos de otras organizaciones e incluso utilizar aplicaciones aprobadas por la empresa para situaciones personales. Estas restricciones se pueden aplicar al establecer directivas de dispositivos que reconozcan las aplicaciones de equipo.   
+Es posible que la organización quiera restringir el uso de aplicaciones aprobadas por la empresa en los dispositivos administrados, por ejemplo, para restringir la capacidad de los estudiantes o empleados de acceder a los datos de otras organizaciones e incluso utilizar aplicaciones aprobadas por la empresa para situaciones personales. Estas restricciones se pueden aplicar al establecer directivas de dispositivos que reconozcan las aplicaciones de equipo.
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Cómo restringir el inicio de sesión en dispositivos móviles
 
@@ -113,11 +109,13 @@ Para crear una directiva de configuración de la aplicación para dispositivos i
 Para crear una directiva de configuración de aplicaciones para dispositivos Android administrados, vea [Agregar directivas de configuración de aplicaciones para dispositivos Android administrados ](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>Cómo restringir el inicio de sesión en dispositivos de escritorio
+
 Las aplicaciones de Teams en Windows y macOS son compatibles con las directivas de dispositivos que restringen el inicio de sesión en su organización. Las directivas se pueden establecer mediante soluciones usuales de administración de dispositivos como MDM (administración de dispositivos móviles) o GPO (objeto de directiva de grupo). 
 
 Cuando esta directiva está configurada en un dispositivo, los usuarios solo pueden iniciar sesión con las cuentas hospedadas en un inquilino de Azure AD que se incluye en la "lista de permitidos de inquilino" definida en la directiva. La directiva se aplica a todos los inicios de sesión, entre los que se incluyen la primera cuenta y las cuentas adicionales. Si su organización abarca varios inquilinos de Azure AD, puede incluir varios Id. de inquilinos en la lista de permitidos. Es posible que los vínculos para agregar otra cuenta sigan siendo visibles en la aplicación de Teams, pero en este caso no se podrán utilizar.
 
 > [!NOTE]
+> 
 >1. La directiva solo restringe los inicios de sesión. No restringe la capacidad de los usuarios de ser agregados como invitados en otros espacios empresariales de Azure AD o cambiar a otros espacios empresariales (donde se ha invitado a los usuarios como invitados).
 >2. La directiva requiere Microsoft Teams para Windows versión 1.3.00.30866 o superior, y Microsoft Teams para MacOS versión 1.3.00.30882 (lanzado a mediados de noviembre de 2020).
 
@@ -139,21 +137,11 @@ Ejemplo: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAcco
 - Tipo de datos: cadena
 - Comentarios: escriba una lista separada por comas de los Id. de inquilino de Azure AD
 
+### <a name="global-sign-in"></a>Inicio de sesión global
 
-## <a name="sign-out-on-mobile-devices"></a>Cerrar sesión en dispositivos móviles
+La aplicación de Android de Teams ahora es compatible con el inicio de sesión global para que los trabajadores de primera línea pueden iniciar sesión sin problemas. Los empleados pueden elegir un dispositivo del grupo de dispositivos compartidos y realizar un inicio de sesión único para "hacerlo suyo" por la duración del turno. Una vez finalizado su turno, deberían ser capaces de realizar la sesión de forma global en el dispositivo. Consulte [Cerrar sesión en Teams](sign-out-of-teams.md) para más información. Este proceso quita toda su información personal y de la compañía del dispositivo para que pueda devolverlo al grupo de dispositivos. Para obtener esta funcionalidad, el dispositivo debe estar en modo compartido. Para obtener información sobre cómo configurar un dispositivo compartido, consulte [Cómo usar un modo de dispositivo compartido en Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
-Los usuarios de dispositivos móviles pueden cerrar sesión en Teams dirigiéndose al menú y eligiendo el menú **Más**, para luego elegir **Cerrar sesión**. Una vez que se hayan cerrado sesión, los usuarios deberán volver a introducir sus credenciales la próxima vez que inicien la aplicación.
-
-> [!NOTE]
-> Teams para Android utiliza el inicio de sesión único (SSO) para simplificar la experiencia de inicio de sesión. Los usuarios deben asegurarse de cerrar la sesión de **todas** las aplicaciones de Microsoft, además de Teams, para poder cerrar la sesión completamente en la plataforma Android.
-
-### <a name="global-sign-in-and-sign-out"></a>Inicio de sesión y registro global
-
-La aplicación de Android de Teams ahora es compatible con el inicio y cierre de sesión globales para que los trabajadores de primera línea pueden iniciar y cerrar sesión sin problemas. Los empleados pueden elegir un dispositivo del grupo de dispositivos compartidos y realizar un inicio de sesión único para "hacerlo suyo" por la duración del turno. Una vez finalizado su turno, deberían ser capaces de realizar la sesión de forma global en el dispositivo. Este proceso quita toda su información personal y de la compañía del dispositivo para que pueda devolverlo al grupo de dispositivos. Para obtener esta funcionalidad, el dispositivo debe estar en modo compartido. Para obtener información sobre cómo configurar un dispositivo compartido, consulte [Cómo usar un modo de dispositivo compartido en Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
-
-La experiencia de inicio de sesión tiene un aspecto similar al de la experiencia de inicio de sesión estándar de Teams, mientras que el cierre de sesión tendrá un aspecto parecido al de las dos imágenes siguientes:
-
-![se muestra el teléfono móvil con cierre de sesión](media/global-SignOut.png)  
+La experiencia de inicio de sesión es similar a nuestra experiencia de inicio de sesión estándar de Teams.
 
 ## <a name="urls-and-ip-address-ranges"></a>Intervalos de direcciones IP y URL
 

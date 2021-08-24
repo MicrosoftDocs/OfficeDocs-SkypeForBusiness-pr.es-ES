@@ -232,7 +232,7 @@ items:
                   - name: Deshabilitar híbrido para completar la migración solo a Teams
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
                   - name: Actualizar entradas DNS
-                    ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
                   - name: Decidir cómo administrar atributos después de la retirada
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: Mover puntos de conexión de aplicaciones a la nube
@@ -265,6 +265,8 @@ items:
             href: identify-models-authentication.md
           - name: Iniciar sesión en Microsoft Teams
             href: sign-in-teams.md
+          - name: Cerrar sesión en Microsoft Teams
+            href: sign-out-of-teams.md
           - name: Vínculos seguros en Teams
             href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Directivas de control de aplicaciones de AppLocker
@@ -757,6 +759,10 @@ items:
                 href: rooms/microsoft-teams-rooms-premium.md
               - name: Control de acceso basado en roles
                 href: rooms/microsoft-teams-rooms-premium-rbac.md
+              - name: Obtener y asignar una licencia
+                href: rooms/obtaining-assigning-license.md
+              - name: Inscripción en el servicio administrado de MTRP
+                href: rooms/enrolling-mtrp-managed-service.md
           - name: Plan
             items:
               - name: Información general sobre la planeación de Salas de Microsoft Teams
@@ -1497,6 +1503,8 @@ items:
             href: flw-onboarding-wizard.md
           - name: Implementación mediante scripts para trabajadores de primera línea
             href: flw-scripted-deployment.md
+          - name: Administrar la aplicación Turnos
+            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           - name: Administrar el acceso de trabajadores de primera línea en función de sus turnos
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
           - name: Administrar propietarios de programación para la administración de turnos
@@ -1620,6 +1628,8 @@ items:
             href: alerts/teams-admin-alerts.md
           - name: Supervisión del estado de dispositivos de Teams
             href: alerts/device-health-status.md
+          - name: Funcionalidad de unidad administrativa para la administración de dispositivos
+            href: administrative-unit.md
       - name: PowerShell para Teams
         items:
           - name: Información general
