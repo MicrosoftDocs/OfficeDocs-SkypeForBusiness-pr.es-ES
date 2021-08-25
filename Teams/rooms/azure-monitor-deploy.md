@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: En este artículo se describe cómo implementar la administración de Salas de Microsoft Teams de forma integrada y de un extremo a otro con Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0031b94f988cb300803617ce75df2d3afebf74e1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 84251e329645c6722125f21b4fe3cd146a1e3701
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234245"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505408"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Implementar :::no-loc text="Microsoft Teams Rooms"::: la administración con :::no-loc text="Azure Monitor":::
 
@@ -160,16 +160,9 @@ Después de recopilar datos y asignar campos personalizados, puede usar el Dise�
 
 > [!NOTE]
 > Los pasos anteriores de esta guía deberían haber sido completados para que los mosaicos del panel funcionen correctamente.
-
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>Crear un panel Salas de Microsoft Teams mediante el método de importación
-
-Puede importar un panel y empezar a :::no-loc text="Microsoft Teams Rooms"::: supervisar sus dispositivos rápidamente. Siga estos pasos para importar el panel:
-
-1.  Obtenga el [archivo de panel SkypeRoomSystems_v2.omsview.](https://go.microsoft.com/fwlink/?linkid=835675)
-2.  Inicie sesión en el [ :::no-loc text="Microsoft Azure"::: portal](https://portal.azure.com) y vaya :::no-loc text="Log Analytics"::: a y seleccione su área de trabajo.
-3.  Abra **el Diseñador de vistas**.
-4.  Seleccione **Importar** y, a continuación, **seleccione el SkypeRoomSystems_v2.omsview.**
-5.  Seleccione **Guardar**.
+>
+> [!IMPORTANT]
+> View Designer en Azure Monitor se retirará el 31 de agosto de [2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) y las funciones de creación y clonación se deshabilitaron el 30 de noviembre de 2020. Los libros se pueden usar en su lugar. Para obtener más información sobre la guía de transición del diseñador de vistas a los libros, vea Inicio rápido con plantillas de diseñador [de vistas predefinidas.](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates)
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Crear manualmente Salas de Microsoft Teams panel
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Obtenga información sobre cómo se clasifica la calidad de la transmisión en el Panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial online.
-ms.openlocfilehash: 595ed77fd0fa6c2fb3a9bf778ff8b94e837314da1c83acb5a099bb0c795eabe1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a717597151f0d933a8bbea49e6e71d070b063885
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341156"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505428"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Clasificación de transmisión en panel de calidad de llamada (CQD)
 
@@ -41,11 +41,9 @@ Si se cumplen una o varias de las condiciones siguientes, una transmisión de au
 
 |Métrica|Escenario|Condición|Explicación|
 |:-----|:-----|:-----|:-----|
-|Audio Degradation Avg|Descripción de carga no es SATÉN|>1,0|Media de degradación de la puntuación de opinión media de la red en la transmisión. Cuánta pérdida de red y vibración han afectado a la calidad del audio recibido.|
 |Round Trip|ALL|>500|Tiempo medio de propagación de red de ida y vuelta, calculado en milisegundos. Detalles disponibles en [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Packet Loss Rate|ALL|>0,1|Porcentaje medio de pérdida de paquetes en la transmisión.|
 |Vibración|ALL|>30|Vibración media producida en la transmisión en milisegundos.|
-|Ratio Concealed Samples Avg|Descripción de carga no es SATÉN|> 0,07|Relación media del número de tramas de audio con muestras ocultas generadas por la recuperación de pérdida de paquetes con el número total de tramas de audio.|
 ||||
 
 ### <a name="video-classifier-due-to-freeze"></a>Clasificador de vídeo debido a inmovilización
