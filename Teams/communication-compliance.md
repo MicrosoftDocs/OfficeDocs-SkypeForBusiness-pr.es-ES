@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fc66dda7b4c7c87b3b0dd97846f5e45aae20c4c70daa870f0cdb2adb2373529
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b697f83ce568004cfd94340d3d2d50f0e8dda54b
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308949"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523811"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Cumplimiento de comunicaciones con Microsoft Teams
 
@@ -46,7 +46,7 @@ Empezar a trabajar con el cumplimiento [](/microsoft-365/compliance/communicatio
 Teams administradores pueden configurar directivas de cumplimiento de comunicaciones en los siguientes niveles:
 
 - **Nivel de usuario:** las directivas de este nivel se aplican a un usuario Teams usuario o se pueden aplicar a todos los Teams usuarios de su organización. Estas directivas cubren los mensajes que estos usuarios pueden enviar en chats grupales o 1:1. Las comunicaciones de chat para los usuarios se supervisan automáticamente en todos los Microsoft Teams donde los usuarios son miembros.
-- **Teams:** las directivas de este nivel se aplican a un canal de Microsoft Team, incluido un canal privado. Estas directivas abarcan solo los mensajes enviados Teams canal.
+- **Teams:** las directivas de este nivel se aplican a un canal Microsoft Teams, incluido un canal privado. Estas directivas abarcan solo los mensajes enviados Teams canal.
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Actuar sobre mensajes inadecuados en Microsoft Teams
 

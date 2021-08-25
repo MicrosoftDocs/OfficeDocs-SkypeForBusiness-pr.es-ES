@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dda26fafd48c56c11e2d6e085a1932a00307c64e96996bc30f22faaa80ed5639
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8dc1c36c0a82bb7323f5919c788508a4ef028f21
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306392"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523821"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -36,7 +36,7 @@ En este artículo se describe cómo habilitar Location-Based enrutamiento direct
 - Configuraciones de puerta de enlace
 - Directivas de llamada
 
-Puede usar el Centro [de administración de Microsoft Team](#using-the-microsoft-teams-admin-center) o [PowerShel](#using-powershell)l para habilitar Location-Based enrutamiento.
+Puede usar el centro [Microsoft Teams de administración](#using-the-microsoft-teams-admin-center) o [PowerShel](#using-powershell)l para habilitar Location-Based enrutamiento.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 

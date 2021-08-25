@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b6483ad432eb066e5f3a62e839704b33f65ed8e14ac2f32dedb227ba0c98d1ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 07e2b94b1c4dea84136a2faad5748fcc412e4097
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336240"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523801"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub se ha retirado
 
@@ -31,7 +31,7 @@ Desde el 30 de junio de 2020 Microsoft StaffHub ha sido retirado. Estamos creand
 
 Estos cambios forman parte de nuestros esfuerzos continuos para empoderar a todos los empleados con Microsoft 365. Con las capacidades de los trabajadores de frontline ahora en Teams, todos los empleados de su organización podrán usar Teams para simplificar su día laboral, colaborar con compañeros de trabajo y acceder a información y experiencia para ayudarles a realizar su mejor trabajo.
 
-## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 ### <a name="about-staffhub-retirement"></a>Acerca de la jubilación de StaffHub
 
@@ -144,7 +144,7 @@ Para obtener más información, vea [Cómo SharePoint en línea OneDrive para la
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>¿Hay integración entre Turnos y el Outlook calendario? ¿Puedo exportar una programación a un calendario?
  
-Los trabajadores de primera línea pueden ver toda su programación de trabajo de un vistazo en Turnos. Apoyaremos la integración nativa con Outlook calendario como parte de nuestra hoja de ruta. Mientras tanto, use Microsoft Flow para configurar la integración con Turnos en Teams y Outlook calendarios de Google.
+Los trabajadores de primera línea pueden ver toda su programación de trabajo de un vistazo en Turnos. Apoyaremos la integración nativa con Outlook calendario como parte de nuestra hoja de ruta. Mientras tanto, use Power Automate para configurar la integración con Turnos en Teams y Outlook calendarios de Google.
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>¿Qué controles de administrador están disponibles para administrar si los usuarios de mi organización pueden usar Turnos?  
   

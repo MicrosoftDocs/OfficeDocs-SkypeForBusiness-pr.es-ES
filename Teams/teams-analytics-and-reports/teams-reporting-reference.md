@@ -18,12 +18,12 @@ description: En este artículo, aprenderá acerca de los Teams que están dispon
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61e40646318105d633b14d44a2eb8bfe41f13fa8
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 362dce90521cb5fe948735f7e8a435e5f158ed3e
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399109"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523831"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 
@@ -54,7 +54,7 @@ Estamos mejorando continuamente la experiencia Teams informes y agregando caract
 |[Teams Informe de grupos de minutos RTC](pstn-minute-pools-report.md) |  País o región<br>Funcionalidad (licencia) <br>Minutos totales<br>Minutos usados<br>Minutos disponibles|
 |[Teams Informe de uso de RTC: planes de llamadas](pstn-usage-report.md#calling-plans)|  Marca de tiempo<br>Nombre de usuario<br>Teléfono número<br>Tipo de llamada <br>Llamado a<br>Para país o región <br>Llamado desde <br>De país o región<br>Cargo<br>Moneda<br>Duración<br>Nacional/Internacional<br>Id. de llamada<br>Tipo de número<br>País o región<br>Id. de conferencia<br>Funcionalidad (licencia)|
 |[Teams Informe de uso de RTC: enrutamiento directo](pstn-usage-report.md#direct-routing)  |  Marca de tiempo<br>Nombre para mostrar<br>Dirección SIP<br>Teléfono número <br>Tipo de llamada<br>Llamado a<br>Hora de inicio<br>Hora de invitación<br>Tiempo de error<br>Hora de finalización<br>Duración<br>Tipo de número<br>Omisión de medios<br>SBC FQDN<br>Región de Azure<br>Tipo de evento<br>Código SIP final<br>Subcódigo final de Microsoft<br>Frase sip final<br>Id. de correlación  |
-|[Teams de licencia de protección de la información: enrutamiento directo](information-protection-license-report.md)  | <br>Si los usuarios tienen licencias válidas para insertar sus mensajes a través de notificaciones de cambio</br><br>Número total de eventos de notificación de cambio desencadenados por un usuario</br><br>Qué aplicaciones escuchan los eventos de notificación de cambio en toda la organización</br>|
+|[Teams de licencia de protección de información](information-protection-license-report.md)  | <br>Si los usuarios tienen licencias válidas para insertar sus mensajes a través de notificaciones de cambio</br><br>Número total de eventos de notificación de cambio desencadenados por un usuario</br><br>Qué aplicaciones escuchan los eventos de notificación de cambio en toda la organización</br>|
 
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]

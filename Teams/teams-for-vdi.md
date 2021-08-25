@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3782d05697b602375385342d9f2a1248bbd95e3
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: eabb53932dcc9892632e0e2ae58b7a4506595343
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406959"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523841"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -471,7 +471,7 @@ if($cleanup){
 - En entornos Citrix, si el usuario se desconecta de la máquina virtual mientras Teams se está ejecutando, las actualizaciones de Teams pueden hacer que el usuario esté en un estado no optimizado para AV cuando se vuelva a conectar. Se recomienda a los usuarios que Teams antes de desconectarse de Citrix Virtual Machine para evitar este escenario.
 - Teams debe implementarse por usuario o por equipo. No se Teams la implementación de Teams por usuario y por equipo. Para migrar de una máquina o de un usuario a uno de estos modos, siga el procedimiento de desinstalación y vuelva a implementarlo en ambos modos.
 - Azure Virtual Desktop no es compatible con macOS y clientes basados en Linux en este momento.
-- El cambio rápido de inquilino puede provocar problemas relacionados con las llamadas en VDI, como el uso compartido de pantalla no disponible, una lista de participantes incorrecta, etc. Reiniciar el cliente mitigará estos problemas.
+- El cambio rápido de inquilino puede provocar problemas relacionados con las llamadas en VDI, como el uso compartido de pantalla no disponible. Reiniciar el cliente mitigará estos problemas.
 
 ### <a name="calling-and-meetings"></a>Llamadas y reuniones
 
@@ -524,5 +524,5 @@ A continuación, reinicie VDA. Para obtener más información, vea este artícul
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Instalar Microsoft Teams con MSI](msi-deployment.md)
-- [Descripción de PowerShell para Teams](teams-powershell-overview.md)
+- [Información general de PowerShell para Teams](teams-powershell-overview.md)
 - [Usar Microsoft Teams escritorio virtual de Azure](/azure/virtual-desktop/teams-on-wvd)
