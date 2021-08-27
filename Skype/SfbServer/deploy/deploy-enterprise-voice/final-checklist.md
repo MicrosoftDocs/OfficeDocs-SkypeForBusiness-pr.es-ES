@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Lista de comprobación final para implementar el Control de admisión de llamadas (CAC) en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 89893e846d37a2a10cbf33de53b8426a0b9d3d642846455e1415991903b0f3e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 70fadce643fa21d9551a6a6ba26a2883579eee1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338738"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594148"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Implementación del control de admisión de llamadas: lista de comprobación final Skype Empresarial Server
  

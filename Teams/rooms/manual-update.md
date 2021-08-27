@@ -11,16 +11,16 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo actualizar manualmente el Salas de Microsoft Teams dispositivo a una versión específica.
-ms.openlocfilehash: 2a37a6b1eb349d38d1579bf5c69822db8dac7dd0dd000e60bfdba034cdf62680
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36d5477ef84eb97971727314aa39ab19e4139488
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350472"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578254"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Actualizar manualmente un Salas de Microsoft Teams móvil
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página ClientesDirectiva de movilidad muestra las directivas de movilidad disponibles en su implementación.
-ms.openlocfilehash: b70c79f0595be785ebc22f3a1685475e674c03e2a5fab06be0f7e2f3562b58f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5afd377b050cdd4062d85a2967a22f70fd526df7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302984"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607487"
 ---
 # <a name="clients-mobility-policy"></a>Clientes: directiva de movilidad
 

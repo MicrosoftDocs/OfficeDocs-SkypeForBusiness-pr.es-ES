@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre si audioconferencia, Sistema telefónico, planes de llamadas, créditos de comunicaciones y números de teléfono gratuitos y gratuitos están disponibles en un país o región.
-ms.openlocfilehash: 7711f9a978b3733dd305f5b35a125bfe2ea1c19555262d860205fb38b7530eae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2cf9eaf4dab9fa52fc077e964874182d85bf73d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278159"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578384"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 

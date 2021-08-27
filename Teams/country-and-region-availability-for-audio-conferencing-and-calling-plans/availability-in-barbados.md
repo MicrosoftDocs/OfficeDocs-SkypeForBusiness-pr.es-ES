@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Barbados.
-ms.openlocfilehash: 0b128a032ae67607f6fd4d167b1c4d8e76c10115f933799e3d3fdca8c6daed94
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4d23b504bb2483f19e7ccee8f7536d805732137e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314126"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601155"
 ---
 # <a name="availability-in-barbados"></a>Disponibilidad en Barbados
 

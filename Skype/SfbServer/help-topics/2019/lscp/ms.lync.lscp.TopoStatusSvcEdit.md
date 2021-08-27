@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: d9e2ac8ce611b2eb349c3123eaca6b41a202241000231be316a5af4969bf403f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cd153cabd03aad2ab30d48a9968c20549a1282fe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323482"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621602"
 ---
 # <a name="topology-view-service-detail"></a>Topología: Ver detalle del servicio
 

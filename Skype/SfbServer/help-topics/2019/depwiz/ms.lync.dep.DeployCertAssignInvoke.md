@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página Ejecutando comandos muestra las acciones emprendidas por las tareas para asignar el certificado al servidor. Una vez finalizadas las tareas, puede examinar el registro que contiene información sobre el proceso de asignación del certificado. Para visualizar el archivo de registro, haga clic en Ver registro.
-ms.openlocfilehash: 272d002f1f92175e5e07f08cdea0b95e628648df9832432b1f5042f1297c270f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9051f715ae0dc4d7b1539fd6659515b7733ab43f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291848"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594068"
 ---
 # <a name="certificate-assignment-invoke"></a>Asignación de certificados (invocar)
  

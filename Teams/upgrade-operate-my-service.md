@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Tareas y actividades necesarias para la Teams de servicios, incluida la supervisión del estado del servicio y la evaluación y la garantía de la calidad y el uso de la red
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b2d546465497a18791c0a3e31367622d09b8c6d16e81d5141cf5be338dd33ac
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4e51ae79f1bebf03c7f9b54f5390d57f134e9415
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327496"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578224"
 ---
 # <a name="operate-your-service"></a>Ejecutar los servicios
 

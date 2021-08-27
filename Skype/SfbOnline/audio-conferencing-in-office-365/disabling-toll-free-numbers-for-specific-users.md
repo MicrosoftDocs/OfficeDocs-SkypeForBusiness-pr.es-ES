@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar cómo los organizadores pueden usar los números gratuitos para sus reuniones.
-ms.openlocfilehash: aabc72f5e413b8f760981b8fac364afc836be5ce058d5999e2c19f96109141b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5ae82a1eef27793f700c50936e9dec37cd6c9ddd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310279"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587940"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Deshabilitar los números gratuitos para usuarios específicos de Skype for Business Online
 

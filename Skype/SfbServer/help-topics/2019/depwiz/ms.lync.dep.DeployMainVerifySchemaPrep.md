@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para comprobar que la extensión de esquema se ha replicado correctamente en el bosque de servicios de dominio de Active Directory, haga lo siguiente:'
-ms.openlocfilehash: 9da233460dd20548acd36bd90ef699359c77e4144eaea80576e1209df6a5c7fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eb0239df900547158cd670a43cdb6fc9e82dc377
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300226"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621582"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Comprobar la replicación de la partición del esquema
  

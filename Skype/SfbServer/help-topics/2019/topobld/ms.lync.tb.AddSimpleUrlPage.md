@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddSimpleUrlPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para agregar más direcciones URL sencillas a la definición de la implementación, indique la dirección URL de la nueva dirección URL sencilla.
-ms.openlocfilehash: 962f3fbac8314eedb5df5416c7a68027ef3d2862f3c6f0c4bc906576328f0c16
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2b765aacbaaefeecb8c5619572c83075c19ed3aa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314736"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581634"
 ---
 # <a name="add-simple-url"></a>Agregar dirección URL simple
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.MonArchQoeMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 9997a63ca3d53df1350eca65dba92a098492f6d5aef0b8b33e5cd573822f81f4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a5245c0456ca44b24cd07942f086622bab88b14
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338378"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581524"
 ---
 # <a name="quality-of-experience-qoe-data"></a>Datos referentes a la calidad de la experiencia (QoE)
  

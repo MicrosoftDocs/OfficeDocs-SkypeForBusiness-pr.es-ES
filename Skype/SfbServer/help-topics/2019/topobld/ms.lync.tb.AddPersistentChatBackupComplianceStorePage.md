@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatBackupComplianceStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Configure los almacenes de cumplimiento de SQL Server de copia de seguridad que proporcionarán bases de datos de copia de seguridad para el servidor de chat persistente o el servidor de chat persistente SQL Server almacenes.
-ms.openlocfilehash: 4d7f8e6eac4029b83e003b031dbcf90cee31924dd2f6f0643c152386f1461f9b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 91ff6cb39a627b6501b195faf9b54a8f582b6e9e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322132"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614718"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Agregar almacén de instancia de copia de seguridad de SQL Server del chat persistente
 

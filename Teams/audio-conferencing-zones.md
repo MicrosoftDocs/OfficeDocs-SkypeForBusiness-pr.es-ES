@@ -14,18 +14,18 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - seo-marvel-mar2020
 description: Enumera las zonas de Audioconferencia y el país y las regiones de cada zona.
-ms.openlocfilehash: 8f09956b2d5a2e0e874926c50b78f79f5357117ce76ba47126842c266777ceca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4723ca8cd6a0f9dc1488f2e587fa1929db8cc2a9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279787"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578424"
 ---
 # <a name="country-and-region-zones-for-audio-conferencing"></a>Zonas de país y región para audioconferencias
 

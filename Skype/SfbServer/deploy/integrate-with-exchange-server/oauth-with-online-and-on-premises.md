@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: La configuración de la autenticación de OAuth entre Exchange local y Skype Empresarial Online habilita las características Skype Empresarial y Exchange integración descritas en Compatibilidad con características.
-ms.openlocfilehash: 8342fefa10fcd66cd7cd10c121b787a05a7a0401d5235bbc70b2412bb538e5e4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8adb5209a00d1b42dc57f9de8635ade40966f9f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300286"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621782"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Configurar la integración y OAuth entre Skype Empresarial Online y Exchange Server 
 

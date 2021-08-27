@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad de servicios gratuitos en los que el servicio gratuito está disponible. El formato o los formatos de marcado muestran los códigos de acceso necesarios en cada país o región para marcar el número gratuito.
-ms.openlocfilehash: f03fd38c6ae06459c3099896fc936420565e60876a87df5867d93f6ec4a52425
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04bf9363511293a4c43bf0f035d6b692365c3156
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345179"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601065"
 ---
 # <a name="toll-free-dialing-restrictions-in-italy"></a>Restricciones de marcado gratuitos en Italia
 

@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Descubra lo que debe saber acerca de los PIN y cómo restablecerlos en Skype Empresarial Online. '
-ms.openlocfilehash: 79568b3b050f456d64ba4dfc9f1c86b46401536274caf88a4cbc51f20cbd14cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 22a95c12f1ffe05899194fa357fe33e619f337d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310249"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594290"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Restablecer el PIN de audioconferencia en Skype Empresarial Online
 

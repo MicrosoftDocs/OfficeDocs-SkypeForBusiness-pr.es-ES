@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Summary: Learn how to configure interoperability between your on-premises deployment and Teams.'
-ms.openlocfilehash: 8a5d40ea56ca4cfdce6f748bea1d276bbb2727eb2669390e6ee6fb006bfd22ed
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 98248452151f03cec803568c93549188f9cf8e5d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319573"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587972"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Configurar Skype Empresarial híbrido
 
@@ -95,6 +95,6 @@ Para obtener más información acerca de cómo establecer una sesión remota de 
   
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [New-CsHostingProvider](/powershell/module/skype/new-cshostingprovider?view=skype-ps)

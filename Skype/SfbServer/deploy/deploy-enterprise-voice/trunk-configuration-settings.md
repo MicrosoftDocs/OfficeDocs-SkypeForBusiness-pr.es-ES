@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Summary: Learn how to create a new collection of trunk configuration settings by using the Skype Empresarial Server Control Panel.'
-ms.openlocfilehash: 2fc0a939a5f321254378ae93afe56015135d4f9873482d8489e06568651913e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 74a1b9b88adcce3164cd8bebc761d9868e8b0f1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297566"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594098"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Crear una nueva colección de opciones de configuración de tronco en Skype Empresarial Server 
 

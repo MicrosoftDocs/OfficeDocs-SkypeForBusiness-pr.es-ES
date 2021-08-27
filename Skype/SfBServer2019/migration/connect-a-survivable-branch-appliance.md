@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'Cada aplicación de sucursal con funciones de supervivencia (SBA) está asociada a un grupo de servidores front-end que sirve como registrador de copia de seguridad para el SBA. Cuando el grupo de servidores front-end se migra Skype Empresarial Server Skype Empresarial Server 2019, el SBA debe desasociarse del grupo de servidores front-end mientras se actualiza el grupo de servidores, una vez que el grupo se ha migrado Skype Empresarial Server Skype Empresarial Server 2019, el SBA se puede volver a asociar con el grupo de servidores front-end actualizado. Esto implica eliminar el SBA de la topología heredada en el Generador de topologías y, a continuación, agregar el SBA a la topología de Skype Empresarial Server 2019. Los usuarios que se aloen en el SBA heredado primero deben moverse a otro grupo de servidores front-end antes de quitar el SBA de la topología. Una vez que se agrega el SBA a la topología Skype Empresarial Server 2019, esos usuarios se pueden volver a mover a la SBA. Estos pasos se sintetizan a continuación:'
-ms.openlocfilehash: 4977868c45b274adea514d84e251f682da02cc8ee486a5a182d984ee652f3ae2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c431451503efd23039b4c358488bfc5bce03ba65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313878"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588052"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Conectar una aplicación de sucursal con funciones de supervivencia
 

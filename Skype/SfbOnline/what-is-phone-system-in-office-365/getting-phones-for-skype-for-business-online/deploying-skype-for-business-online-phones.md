@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: Obtenga información sobre los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar la configuración para Skype Empresarial teléfonos en línea
-ms.openlocfilehash: 072a7caa6d5b9caa1827f5f93973a12e77c1823063fad8706469a4fabfa87ff2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a053928a242be3d7798a5d9c3cc608e3176807c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295807"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607447"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implementación de teléfonos de Skype Empresarial Online
 

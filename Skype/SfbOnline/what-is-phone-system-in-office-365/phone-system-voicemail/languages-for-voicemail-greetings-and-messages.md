@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre los idiomas que puede establecer en Skype Empresarial para los mensajes predeterminados del sistema y los saludos de correo de voz.
-ms.openlocfilehash: 3e19c01703ac1078bf6913b52aa1ca2dbfee9fc923184ab076791e234278ff0e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4138af4dfd73fd419416b76bc5e3e5bb3997be15
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295767"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607417"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Idiomas para los mensajes y los saludos de los correos de voz
 

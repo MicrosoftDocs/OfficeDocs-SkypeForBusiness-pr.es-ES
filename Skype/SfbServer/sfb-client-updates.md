@@ -9,15 +9,15 @@ ms.topic: reference
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Proporciona a los profesionales de TI vínculos a la información de actualización más reciente para versiones perpetuas de Skype Empresarial 2016, Skype Empresarial 2015 y clientes de Lync 2013
-ms.openlocfilehash: 93691e0bccf48e6f1be8a37f817ae3617a4a9301cf12c6e462bb1d66f57a7a84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bff52ddfd2a037af9bac9d79d36a2a7acd156baa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349682"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581344"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Actualizaciones más recientes para las versiones de Skype Empresarial que usan Windows Installer (MSI)
 

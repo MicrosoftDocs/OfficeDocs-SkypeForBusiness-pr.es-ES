@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre qué teléfonos funcionan con Skype for Business de Polycom, HP y Mitel, y las licencias necesarias. '
-ms.openlocfilehash: de18fdc6d7b945987efdde8eaffd8db0c0e5154cf4d1c758572db5696b23f617
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c2ada9df24a30a3acecf51d8d01377d117667ee9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320962"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607437"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtener teléfonos para Skype for Business Online
 

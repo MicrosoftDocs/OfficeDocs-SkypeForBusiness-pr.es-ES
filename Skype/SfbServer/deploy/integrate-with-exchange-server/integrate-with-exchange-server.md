@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: 'Resumen: revise los pasos de integración para Exchange Server 2016 o Exchange Server 2013 y Skype Empresarial Server.'
-ms.openlocfilehash: c2775133715ecae783880ed738784252ecab32e231a53db55579769f0e22320e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 44b27328252384d6c7635cee2f0c98dafdd180ac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282353"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621792"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Integrar Skype Empresarial Server con Exchange Server
 
