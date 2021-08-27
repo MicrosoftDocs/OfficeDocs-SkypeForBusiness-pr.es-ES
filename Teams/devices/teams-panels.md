@@ -14,14 +14,14 @@ f1.keywords:
 ms.collection:
 - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: En este artículo se proporciona información general sobre las características compatibles con Microsoft Teams paneles.
-ms.openlocfilehash: fe9d482cdce9cce9aa7f31735267b57f2e675c1c
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 5779d9e41cb7adb4a502e590c87babbb277cc33e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233065"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596244"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams paneles
 

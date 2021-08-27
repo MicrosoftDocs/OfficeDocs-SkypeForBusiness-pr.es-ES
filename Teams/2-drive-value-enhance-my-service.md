@@ -12,18 +12,18 @@ audience: admin
 description: Evalúe periódicamente las oportunidades para mejorar el Teams, supervise la hoja de ruta Teams para ver si hay mejoras de características interesantes.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa5102934cdeadf6b2418ab437bc0be28764307cda075139bfc6435c9d61948e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c74a59336dea5aa91ffd3b9b04206943df95bc4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278248"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578544"
 ---
 # <a name="enhance-my-service"></a>Mejorar mis servicios
 

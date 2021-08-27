@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 7c579e947383c9165035c7cd6a5baee6f2012a1f5bba063dd433f40b95faa164
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8bab15dacbf888b36e1f243d52f540fd22f75c25
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326672"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581974"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activar o desactivar los mensajes sin conexión para administradores
 

@@ -10,18 +10,18 @@ ms.reviewer: dstrome
 description: Conozca la funcionalidad que hay entre Microsoft Teams y las distintas configuraciones de Exchange, como crear equipos y unirse a ellos, crear canales y mucho más.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167c6534fbb8cade9c45b0d4d44441c3a385fd19
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 01335cce21a4550158f3c87da12c8a23166a39de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235395"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624812"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 

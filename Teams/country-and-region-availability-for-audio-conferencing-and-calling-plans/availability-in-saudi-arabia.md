@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Arabia Saudí.
-ms.openlocfilehash: a79694f0ad697c5fe8386dc96471409a2d7806850fbc9ab80fbbbfb736a9b40e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7cf4893d50a20e44c185f009627fed6e5228ed94
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343174"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624752"
 ---
 # <a name="availability-in-saudi-arabia"></a>Disponibilidad en Arabia Saudí
 

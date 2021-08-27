@@ -16,19 +16,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Consulte Microsoft Teams pasos para asignar una licencia de conferencia de acceso telefónico local e id. de conferencia a un usuario y muchas otras opciones de configuración de conferencias de acceso telefónico local. '
-ms.openlocfilehash: 24d779a0740e5f0a8c0b305e4b441c01b628571f9ddf3292a1d92cd6c2d3ecb3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 41ca513706e9aeb7028266d4ac6d494d1826af1d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276416"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624592"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para su organización en Microsoft Teams
 
@@ -60,7 +60,7 @@ Es posible que le resulte más fácil ver todas las opciones de configuración d
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Enable or disable emails sent to audio conferencing users
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
@@ -116,7 +116,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>Establecer los números de teléfono incluidos en las invitaciones
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, haga clic **en Usuarios** y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
@@ -186,7 +186,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Ver y establecer los idiomas principal (predeterminado) y secundario (alternativo) en un puente de audioconferencia
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 

@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: Puede adjuntar archivos a una reunión Skype Empresarial, que los participantes pueden abrir y descargar. Los archivos adjuntos Skype Empresarial las reuniones de Skype Empresarial se conservan en los buzones de cualquier participante cuyo buzón se coloca en retención por juicio, tiene una directiva de retención Microsoft 365 o Office 365 aplicada o se coloca en una retención asociada a un caso de exhibición de documentos electrónicos en el Centro de cumplimiento de Microsoft 365. Este contenido se guarda en las carpetas Elementos recuperables de los participantes en sus buzones.
-ms.openlocfilehash: 10d793afce0485de749a5609b77f2c769c55fa9d5305a4a815351ef62ff9a8b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1733cb1b0111bb83bbeddf5253bd1b65b919a4a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316496"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581994"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Conservar archivos de gran tamaño adjuntos a una reunión Skype Empresarial reunión
 

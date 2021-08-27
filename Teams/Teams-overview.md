@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: serdars
 description: Busque el camino correcto para implementar Microsoft Teams en su organización. Obtenga información sobre la infraestructura de Teams y cómo usar Teams con Microsoft 365 u Office 365.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f146bca1268d370f53009b332aba15c86c9fab3ea24003c29a062ab80a88be8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d16047b643ee8312a250156cbb5abcd083b01bc2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298110"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603649"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Le damos la bienvenida a Microsoft Teams
 Si es administrador de Microsoft Teams en su organización, ahora está en el lugar adecuado. Cuando esté listo para utilizar Teams, empiece con [Cómo implantar Teams](./deploy-overview.md) y [Configurar la colaboración segura con Microsoft 365 y Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).

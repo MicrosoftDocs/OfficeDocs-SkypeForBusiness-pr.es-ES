@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddArchivingServerPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a7106eb-8fd3-492a-a45c-f099496b11a2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para implementar un servidor de archivado en el diseño de la topología, se debe indicar el nombre de dominio completo del servidor en el que se desea implementar el archivado. Antes de publicar una topología que incluya archivado e instalación de Skype Empresarial Server, debería haber completado todos los requisitos previos para implementar el archivado.
-ms.openlocfilehash: f7951b9e65e2464ede7c57a9f75ecd25ba4fe16c0973acee66951846ba05f18a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 17fd5e5e0202b532e27c2fb89c58e2e0784c9945
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335580"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588812"
 ---
 # <a name="add-archiving-server"></a>Agregar servidor de archivado
  

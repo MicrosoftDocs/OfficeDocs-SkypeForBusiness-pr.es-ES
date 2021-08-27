@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Francia para Microsoft Teams.
-ms.openlocfilehash: 862f746c7911ab86d292a0d99699d8fcec86e52a
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 702feb6c3a6967b033ea111f8d0d28a7627dd0cb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348352"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617356"
 ---
 # <a name="phone-number-management-for-france"></a>Administración de números de teléfono para Francia
 

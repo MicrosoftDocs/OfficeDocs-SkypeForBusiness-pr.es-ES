@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre licencias de complementos, características y cómo comprar para Office 365 Enterprise planes. '
-ms.openlocfilehash: f5c77313562968d8cc62888059e64337e33ffe5173908e2e9d14d5b854db7898
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 42ebb9fc9d285eca8c45b3fdd6ec33d06c913e42
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316446"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624552"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

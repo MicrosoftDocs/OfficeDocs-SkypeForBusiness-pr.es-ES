@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
 description: Esto documenta el esquema de la base de datos de calidad de la experiencia (QoE) en Skype Empresarial Server 2015.
-ms.openlocfilehash: 2b10d72042c1e518bfd3741395d25dd6a28b0183c16f087d9dc59bd9222e9001
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 27a0c5f9e514dce2bbdc5edd90898f7841de80fa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347665"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578584"
 ---
 # <a name="quality-of-experience-qoe-database-schema"></a>Esquema de la base de datos de calidad de la experiencia (QoE)
  

@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instrucciones para implementar la conectividad híbrida entre Skype Empresarial Server y Teams.
-ms.openlocfilehash: d918dbf1916219f09b49b3b7d571985768653540d7f1be7be4375d2ae31a268c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67caabe77afb9f06dcf28f47a93f8eef06c08de8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304712"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624572"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Configurar la conectividad híbrida entre Skype Empresarial Server y Teams
 

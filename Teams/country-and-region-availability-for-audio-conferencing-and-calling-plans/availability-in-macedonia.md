@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Macedonia.
-ms.openlocfilehash: abf90958d43ee97bbb464f8a1dc18dc27c24755fd966d98209e5c7879df55c84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0c7a2c1a21691b8bfb21d092fc07df09ba8f6b31
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341386"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603469"
 ---
 # <a name="availability-in-macedonia"></a>Disponibilidad en Macedonia, ERY
 

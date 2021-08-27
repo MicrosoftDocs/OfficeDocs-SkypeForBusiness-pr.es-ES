@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Australia.
-ms.openlocfilehash: 1e6b99f955f0f095a36351b85ad4526608b53e412e071072f6eda3c87a1eca2f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 640fd651c4ba41c26dc9faf41c616ee887778947
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310828"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624802"
 ---
 # <a name="availability-in-australia"></a>Disponibilidad en Australia
 

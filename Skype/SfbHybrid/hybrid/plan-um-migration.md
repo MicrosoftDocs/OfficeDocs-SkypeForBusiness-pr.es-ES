@@ -8,15 +8,15 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.prod: skype-for-business-itpro
 description: En este tema se trata lo que debe tener en cuenta al decidir migrar las implementaciones de Skype Empresarial Server o Exchange Server existentes a la versión más reciente o a Skype Empresarial Online o Exchange Online.
-ms.openlocfilehash: e933f1754023daa0991961204224176c34254f7821168eedbc30956c0188410a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: edc6256bc9e366b4ee75a637c41141ec3d435da2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341076"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596124"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Plan para la migración de Skype Empresarial Server y Exchange Server
 

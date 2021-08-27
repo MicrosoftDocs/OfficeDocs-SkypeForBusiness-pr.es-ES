@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Use plantillas de equipo en el centro de administración o con Microsoft Graph para crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 050ddd4e9efabe3433257f0497081758767e1cfa38c16aa1102ff17554ce3391
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c5da6c5df17dacbfb38e519ca4f1f751ed40fc02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336260"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596184"
 ---
 # <a name="use-a-healthcare-team-templates"></a>Usar plantillas de equipo de atención sanitaria
 

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1751a6aa-a6e8-4f16-8eb7-ae731c2e3ee3
 description: La tabla Region es una tabla auxiliar. Cada registro representa un país/región definido en la configuración de red.
-ms.openlocfilehash: 538d574037d7cd3798b63c6d8773f99e1c376d9f5ad115f73bfa725a9aec6b55
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ba0937fba73810fce834a6da7472315147fbd501
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341665"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578574"
 ---
 # <a name="region-table"></a>Tabla región
  

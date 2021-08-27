@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 description: Obtenga información sobre cómo implementar características empresariales de Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8521de23466f0551d9c09e072aa0b10b487bbedd6ed473e4ff2a9997f456d28
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f6e6a2835df6f00bc9103594b1cfe5ae011c6960
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346316"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617426"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Información general de la implementación empresarial de Teams
 

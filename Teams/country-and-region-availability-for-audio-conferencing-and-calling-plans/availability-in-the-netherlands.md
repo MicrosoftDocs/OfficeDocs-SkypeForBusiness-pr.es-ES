@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para los Países Bajos.
-ms.openlocfilehash: 8b72d4ec30f229b0a7c726eb7891f519a4b2963c3922aecaa0edaf812d340e51
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5dad27a387e73cb1792409ae3a28fa41083d435
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339832"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624742"
 ---
 # <a name="availability-in-the-netherlands"></a>Disponibilidad en Países Bajos
 

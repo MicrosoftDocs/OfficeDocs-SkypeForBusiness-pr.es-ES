@@ -9,16 +9,16 @@ audience: admin
 ms.reviewer: ''
 description: En este artículo se describe cómo navegar por Teams.
 f1.keywords: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 7790714434dfa3fb6de6bf5808ec7f8f3097a50fdd79c540e0ef7ee70fc0861b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b8b3c057ae5748f135d9085a5a3caf8b26e7f72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350562"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617226"
 ---
 # <a name="navigate-microsoft-teams"></a>Navegar Microsoft Teams
 

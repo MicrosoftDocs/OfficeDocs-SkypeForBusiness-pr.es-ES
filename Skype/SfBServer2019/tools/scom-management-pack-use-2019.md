@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Summary: Learn how to configure your Skype Empresarial Server 2019 infrastructure to work with System Center Operations Manager.'
-ms.openlocfilehash: 2bb6e5600430cf8222d799fd42bade275d4e2f6d27fc6f6c4bfc05faad0e486d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cdb201280afb1419e5b8975b31e3c7725902cd72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277505"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582014"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Administrar Skype Empresarial Server 2019 con SCOM Management Pack
  
@@ -59,7 +59,7 @@ En la tabla siguiente se muestran los requisitos de capacidad y sistema operativ
 |:-----|:-----|
 |CPU  <br/> |Uno de los siguientes:  <br/> Procesador de 64 bits, cuatro núcleos, 2,33 GHz o superior  <br/> Procesador de 2 vías de 64 bits, doble núcleo, 2,33 GHz o superior  <br/> |
 |Memoria  <br/> |8 GB  <br/> |
-|Sistema operativo  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
+|Sistema operativo  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |Red  <br/> |1 adaptador de red a 1 Gbps  <br/> |
    
 ## <a name="prerequisites"></a>Requisitos previos
@@ -100,7 +100,7 @@ Las siguientes características son nuevas para Skype Empresarial Server de admi
 
 El Skype Empresarial Server 2019 Management Pack aprovecha una variedad de características para ayudarle a detectar y diagnosticar problemas. Estas características proporcionan visibilidad en tiempo real del estado de un Skype Empresarial Server de 2019.
   
-|**Escenario de supervisión**|**Description**|
+|**Escenario de supervisión**|**Descripción**|
 |:-----|:-----|
 |Transacciones sintéticas  <br/> | Windows PowerShell cmdlets para probar y ayudar a garantizar la alta disponibilidad de escenarios como inicio de sesión, presencia, mensajería instantánea y conferencias para los usuarios. <br/> Las transacciones sintéticas se pueden ejecutar desde cualquier ubicación geográfica, incluso dentro de la empresa, fuera de la empresa y en sucursales.  <br/> Cuando se produce un error en una transacción sintética, los registros HTML se crean para ayudar a determinar la naturaleza exacta del error. Esto incluye comprender qué acción falló, la latencia de cada acción, la línea de comandos usada para ejecutar la prueba y el error específico que se produjo.  <br/> |
 |Alertas de confiabilidad de llamadas  <br/> |Los registros de detalles de llamadas (CDR) escritos por Skype Empresarial Server servidores de 2019 reflejan si los usuarios pueden conectarse a una llamada o por qué finaliza una llamada. Las alertas de confiabilidad de llamadas consultan la base de datos de CDR para producir alertas que indican cuándo un gran número de usuarios experimentan problemas de conectividad para las llamadas punto a punto o la funcionalidad básica de conferencia.  <br/> La cobertura del escenario incluye llamadas de audio, mensajería instantánea punto a punto (MI) y otras características de conferencia.  <br/> |
@@ -128,7 +128,7 @@ Skype Empresarial Server módulos de administración de 2019 proporcionan una ma
 |:-----|:-----|:-----|
 |1  <br/> |Registro (inicio de sesión de usuario)  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
 |2  <br/> |Servicio de libreta de direcciones (descarga de archivos)  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
-|3  <br/> |Consulta web de la libreta de direcciones  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
+|3   <br/> |Consulta web de la libreta de direcciones  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
 |4   <br/> |Presencia  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
 |5   <br/> |Almacén de contactos unificado  <br/> |Lync Server 2013 y posteriores disponibles  <br/> |
    
@@ -148,12 +148,12 @@ Skype Empresarial Server módulos de administración de 2019 proporcionan una ma
 ||||
 |:-----|:-----|:-----|
 |9   <br/> |Conferencia de audio y videoconferencia  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
-|10   <br/> |Conferencia de datos  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
-|11  <br/> |Conferencia de mensajes instantáneos  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
+|10  <br/> |Conferencia de datos  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
+|11   <br/> |Conferencia de mensajes instantáneos  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
 |12   <br/> | Chat persistente <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
-|13  <br/> |Unirse Selector (reuniones programadas)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
+|13   <br/> |Unirse Selector (reuniones programadas)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
 |14   <br/> |Conferencia de acceso telefónico local  <br/> |Disponible en Skype Empresarial Server 2015 y posteriores <br/> |
-|15  <br/> |Conferencia de uso compartido de aplicaciones  <br/> |Disponible en Skype Empresarial Server 2015 y posteriores <br/> |
+|15   <br/> |Conferencia de uso compartido de aplicaciones  <br/> |Disponible en Skype Empresarial Server 2015 y posteriores <br/> |
 |16   <br/> |Conferencia UCWA (unirse a una reunión web)  <br/> |Disponible en Skype Empresarial Server 2015 y posteriores <br/> |
    
 **Transacciones sintéticas admitidas para dependencias de red y partners**
@@ -170,7 +170,7 @@ Skype Empresarial Server módulos de administración de 2019 proporcionan una ma
 
 En la tabla siguiente se muestran los estados de mantenimiento de los objetos Skype Empresarial Server de supervisión.
   
-|**Objeto Management Pack**|**Description**|
+|**Objeto Management Pack**|**Descripción**|
 |:-----|:-----|
 |Skype Empresarial Server Implementación  <br/> |Representa la implementación de Skype Empresarial Server 2019 en la organización.  <br/> |
 |Skype Empresarial Server Sitio  <br/> |Representa diferentes ubicaciones geográficas donde se implementan los servicios.  <br/> |

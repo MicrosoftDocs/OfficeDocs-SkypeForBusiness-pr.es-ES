@@ -13,19 +13,19 @@ audience: Admin
 appliesto:
 - Skype for Business Online
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 ms.service: msteams
 description: Obtenga información sobre el identificador de línea de llamadas y el nombre de la parte de llamadas.
-ms.openlocfilehash: 7baae8ff6ed48919e4ee540890dd31a47ad81c943e5ce8e9db8d934331d0ce75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13167e41a5e104e198c557af90ed121e90abcf55
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350642"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617246"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>Más información sobre Identificadores de línea de la llamada entrante y nombres para mostrar a la persona que llama
 

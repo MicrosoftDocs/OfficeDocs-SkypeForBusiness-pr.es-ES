@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode contiene el árbol de objetos (con nodos de categoría o salón de chat) administrado en el panel de control y cmdlets administrativos.
-ms.openlocfilehash: 2d26e61fc9404e2649ca71d4e48d4bb3f147c88ec787dfd798753eaa5f83a5b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f5df4f01482dfe2b44987d74ad650a310a192df
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306721"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578614"
 ---
 # <a name="tblnode"></a>tblNode
  

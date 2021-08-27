@@ -15,18 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en España para Microsoft Teams.
-ms.openlocfilehash: c09e2aa42bfeb9799f6c0ec5fc2a5143ed4b9e06
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: 4e92c20b7bad23d4487199b6f80126466bfd0f81
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380434"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624602"
 ---
 # <a name="phone-number-management-for-spain"></a>Administración de números de teléfono para España
 

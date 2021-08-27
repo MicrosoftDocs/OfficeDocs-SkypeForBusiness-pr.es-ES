@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
 description: Sincronizar datos del Sistema de información de estudiantes (SIS) con Insights para Educación en Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee041f0789f532e058d3cfc27d2cfa51cd88b9c511f50e52ebc36f44d0a0f33d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5a7a6ec9bab56bacc2eb8beab4c40da80946e60
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293817"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603459"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>Sincronizar datos del Sistema de información de estudiantes (SIS) con Insights para Educación
 Cuando más datos introduzca en [Insights para Educación](class-insights.md), mejor podrán los formadores ayudar a los alumnos y más fácil será para los líderes educativos ayudar a los formadores.

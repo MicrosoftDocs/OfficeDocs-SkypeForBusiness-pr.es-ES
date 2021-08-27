@@ -10,15 +10,15 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Busque y administre actualizaciones para Skype Empresarial Server o Lync 2013. Use los vínculos para obtener más información y, a continuación, descargar las actualizaciones.
-ms.openlocfilehash: 7358bf9c35ca516de84ca81ab91564946e13a754d6816c8e6378ccb9cf85d3c0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2da27f65f9468c164e706da05692919017ce5ea9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279856"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578554"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Descargas y actualizaciones de Skype Empresarial
 

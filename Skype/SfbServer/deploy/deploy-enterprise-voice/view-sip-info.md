@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 'Summary: Learn how to view information about SIP trunks in Skype Empresarial Server.'
-ms.openlocfilehash: bbb1a08252240341ceb6e27181dce999753924c897d470a182341be4178ae2a4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f4bd3ba4560980243fefe06b49a8f4aaa4a9625e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304472"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624412"
 ---
 # <a name="skype-for-business-server-view-information-about-individual-sip-trunks"></a>Skype Empresarial Server: ver información sobre troncos SIP individuales 
  

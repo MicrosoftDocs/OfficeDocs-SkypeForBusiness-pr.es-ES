@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Utilice Microsoft Teams para configurar el sistema de visitas virtuales
-ms.openlocfilehash: 24df1df8ad7aaa05e3738b6c963475dc1366fe01e2fcb90b6962c9cd78c7916a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5dd103651c4cd368b5304d4d33d753b5d13ab73d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336280"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596204"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuales con Teams: integración en EHR
 

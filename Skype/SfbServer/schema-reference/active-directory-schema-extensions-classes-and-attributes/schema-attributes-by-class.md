@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: En esta sección se enumeran los atributos de esquema que pueden contenerse en cada clase Skype Empresarial Server clase y las clases que se pueden contener en otras clases. Para obtener una lista de todas las clases y sus descripciones, vea Clases de esquema y descripciones en Skype Empresarial Server. Para obtener una lista de todos los atributos y sus descripciones, vea Schema attributes and descriptions in Skype Empresarial Server.
-ms.openlocfilehash: 75ca1dea65462d97cdef8053ab24274646408dd135890592a7c93e2654638685
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55975ac452c4bfde173bfbe75f1c9f0fee642372
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326296"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578634"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Atributos de esquema por clase en Skype Empresarial Server
  

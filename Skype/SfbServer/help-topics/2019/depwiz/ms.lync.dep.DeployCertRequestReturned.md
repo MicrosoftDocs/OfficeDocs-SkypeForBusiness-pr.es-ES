@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La página Estado de solicitud del certificado en línea muestra información importante que surge de la creación correcta y la emisión de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica al certificado de forma exclusiva. De forma predeterminada, se selecciona la casilla Asignar este certificado Skype Empresarial Server usos de certificados. Si hace clic en Finalizar, el certificado se asignará automáticamente a Skype Empresarial Server para los fines que definió durante los pasos de creación de la solicitud de certificado. De forma predeterminada, los usos que se asignan al certificado son:'
-ms.openlocfilehash: 8665053e3f625f39ec2843467a448f6620d9f7d0110e931ee6298f2be5c72193
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e181bc5389bc981eed0e3181d4fd5d5f02c179d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285500"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581784"
 ---
 # <a name="certificate-request-returned"></a>Solicitud de certificados (devuelto)
  

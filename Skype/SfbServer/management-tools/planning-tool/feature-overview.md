@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Descripbes la Skype Empresarial Server de planeación de 2015.
-ms.openlocfilehash: c642b08f87701335329d87fedc650884ded63105f4f9b9c0766e5fa04225b097
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cd225be2bed2eb211750f846cb12a186b045e8e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343424"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578754"
 ---
 # <a name="feature-overview-planning-tool"></a>Herramienta de planeación de información general de características
  

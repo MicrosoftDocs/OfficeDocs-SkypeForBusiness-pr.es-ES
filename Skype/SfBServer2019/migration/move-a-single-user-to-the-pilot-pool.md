@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Puede mover un usuario de su grupo heredado al grupo piloto de Skype Empresarial Server 201 Skype Empresarial Server 9 mediante el Panel de control de 2019 o el Shell de administración de Skype Empresarial Server 2019. En el ejemplo siguiente, en la columna Grupo de registradores, pool01.contoso.net es el grupo heredado y los seis usuarios están conectados a este grupo. Use los siguientes procedimientos para mover un usuario al grupo de servidores de Skype Empresarial Server 2019 mediante Skype Empresarial Server Panel de control de 2019 y Skype Empresarial Server Shell de administración.
-ms.openlocfilehash: 98fd1ce168cf5b44a85c1b0a93ee90634a84f885ced3cb3ffaaca8cee836a620
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 987eeec96d28257b995b5e27ce02e282df019980
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303394"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596164"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Mover un único usuario al grupo piloto
 

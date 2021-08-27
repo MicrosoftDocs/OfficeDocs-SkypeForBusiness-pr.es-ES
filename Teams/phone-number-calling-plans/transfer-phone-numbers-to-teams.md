@@ -15,16 +15,16 @@ ms.collection:
 - m365initiative-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el asistente de porte para transferir el número de teléfono de su proveedor de servicios actual a Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb098a13b157a7f95e93ab693ad2a83530571316689803069c696eccfede3929
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d39c580c2eb17c9555c2cb6ad335a19c48f6677
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336020"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617216"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de teléfono a Microsoft Teams
 

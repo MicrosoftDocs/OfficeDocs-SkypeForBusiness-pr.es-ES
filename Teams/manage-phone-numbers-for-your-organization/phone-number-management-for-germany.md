@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Alemania para Microsoft Teams.
-ms.openlocfilehash: 38d8f6d746e68340afd019666fac072054ef44c3
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 155ba545d0b11301e36c3a32066b9340aa56e9e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348492"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617346"
 ---
 # <a name="phone-number-management-for-germany"></a>Administración de números de teléfono para Alemania
 

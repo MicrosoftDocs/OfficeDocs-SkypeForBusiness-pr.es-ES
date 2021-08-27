@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: acolonna
 description: Obtenga información sobre cómo un usuario con el estado Ausente o No molestar puede establecer explícitamente a otro usuario como delegado en su mensaje de estado.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 967ed83f89d991ad001dbac9001d4d20b412efec80f0edb5bf4caca77e487a87
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd1b11038d4dbd0f1ea773065628170d7f55a33c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276535"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596194"
 ---
 # <a name="message-delegation"></a>Delegación de mensajes
 

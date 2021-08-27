@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Si la implementación heredada contenía un servidor de archivado o un servidor de supervisión, después de migrar a Skype Empresarial Server 2019, dichos servidores se pueden quitar del entorno heredado siempre que todos los usuarios se hayan quitado de los grupos heredados restantes. Puede quitar el servidor de archivado o de supervisión en cualquier secuencia. El requisito clave es quitar a todos los usuarios de todos los grupos de servidores heredados restantes.
-ms.openlocfilehash: 204c68a50585bae033149ea75077ab0801b0bcc4aecb642c52fa96442bfc42ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 94ea83f767327d2c53cf6125a9c439753637e7dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304722"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582104"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>Quitar los servidores de archivado y supervisión heredados
 

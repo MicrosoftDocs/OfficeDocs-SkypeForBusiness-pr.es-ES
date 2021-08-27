@@ -11,16 +11,16 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Vea qué dispositivos y periféricos USB (como auriculares, altavoces, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: a79cb575d6b55be691b0c51a127d4ba4cfafdc88
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 3512ea4dd830a3fcd8469c86061c2b1d641b96a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234605"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624672"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 

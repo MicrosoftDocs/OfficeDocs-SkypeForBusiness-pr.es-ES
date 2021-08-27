@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Finlandia para Microsoft Teams.
-ms.openlocfilehash: 96fac2abbfd1c5f8417665a8c2b3c4f921f00f01
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 4e84704a7587236a84100d7a05d00bd0e1f577a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348292"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617376"
 ---
 # <a name="phone-number-management-for-finland"></a>Teléfono de números para Finlandia
 

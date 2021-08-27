@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: 'Obtenga información sobre lo que puede y no puede usar en Skype Empresarial de administración y otras características cuando el servicio se migra a otro centro de datos de Microsoft. '
-ms.openlocfilehash: f00f349a42ddea2de1019d206cc2097f1e7b29eaca78e5e0e19c1996f3782f43
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e131e3c1013b496a6e3ad8581832c628ee2057ce
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300426"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581964"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>¿Por qué no puedo usar el Skype Empresarial de administración en línea en este momento?
 
