@@ -45,13 +45,13 @@ Puede crear una cuenta de recursos en el centro Teams administración.
 
 Debe asignar una licencia *Microsoft 365 Sistema telefónico usuario virtual* a la cuenta de recursos.
 
-1. En el Microsoft 365 de administración, haga clic en la cuenta de recursos a la que desea asignar una licencia.
+1. En el Centro de administración de Microsoft 365, haga clic en la cuenta de recursos a la que desea asignar una licencia.
 
 2. En la **pestaña Licencias y aplicaciones,** en **Licencias,** **seleccione Microsoft 365 Sistema telefónico - Usuario virtual.**
 
-3. Haga clic **en Guardar cambios.**
+3. Haga clic en **Guardar cambios**.
 
-    ![Captura de pantalla de la interfaz de usuario asignar licencias en el Microsoft 365 de administración](../media/resource-account-assign-virtual-user-license.png)
+    ![Captura de pantalla de la interfaz de usuario asignar licencias en el Centro de administración de Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="assign-a-service-number"></a>Asignar un número de servicio
 

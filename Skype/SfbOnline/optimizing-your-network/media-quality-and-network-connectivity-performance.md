@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: En este tema se define el conjunto de requisitos de rendimiento de red para los servicios de Microsoft Teams y cómo puede elegir usar Internet o ExpressRoute para la conectividad entre su red y Microsoft Teams según su evaluación de la conectividad de red. Si ha decidido implementar Azure ExpressRoute para la conectividad dedicada a Microsoft 365 o Office 365, este documento también proporciona instrucciones sobre cómo planear las conexiones de ExpressRoute en diferentes escenarios Microsoft Teams implementación.
-ms.openlocfilehash: c73922af3befc9070127d9b9937a82f8b8d94e0b
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 3699e225f69deda5fd69b2308dc50337a1d0b228
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407039"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618246"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-microsoft-teams"></a>Calidad de medios y rendimiento de conectividad de red en Microsoft Teams
 

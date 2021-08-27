@@ -1,7 +1,7 @@
 ---
 title: Configurar el Correo de voz en la nube
-author: dstrome
-ms.author: dstrome
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar Correo de voz en la nube para los usuarios. '
-ms.openlocfilehash: eb1d3d054cf1109ddb9ba048c69dc3dda665aa1e8e0d3e2b1d72926835389a39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 477bc16de7953033bafb0b32d0ac3d2eac74f90a
+ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316706"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548305"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar el Correo de voz en la nube
 
@@ -39,12 +39,9 @@ Este artículo es para el administrador Microsoft 365 o Office 365 como se descr
 > [!NOTE]
 > Cuando un delegado responde a una llamada en nombre de un delegado, las notificaciones no están disponibles en Correo de voz en la nube. Los usuarios pueden recibir notificaciones de llamadas perdidas.
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>Entornos solo en la nube: Configurar Correo de voz en la nube para usuarios Sistema telefónico en línea
+## <a name="cloud-voicemail-for-teams-users"></a>Correo de voz en la nube para Teams usuarios
 
-Para los usuarios Sistema telefónico online, Correo de voz en la nube se configura y aprovisiona automáticamente para los usuarios después de asignar una **Sistema telefónico** a los usuarios. 
-
-> [!NOTE]
-> Para usuarios Skype Empresarial Sistema telefónico en línea con números de teléfono proporcionados localmente, es posible que tenga que habilitar el correo de voz hospedado con [Set-CsUser -HostedVoicemail $True](/powershell/module/skype/set-csuser?view=skype-ps). 
+Para Teams usuarios, Correo de voz en la nube se configura y aprovisiona automáticamente. Tenga en cuenta que Sistema telefónico licencia no es necesaria para Correo de voz en la nube. 
 
 ## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Configurar Correo de voz en la nube usuarios Exchange Server buzón de correo
 

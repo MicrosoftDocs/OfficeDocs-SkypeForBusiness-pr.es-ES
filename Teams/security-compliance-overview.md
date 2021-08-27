@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: anwara
 audience: admin
 description: Información general sobre las Microsoft Teams seguridad y cumplimiento normativo, como privacidad y cifrado, auditorías e informes, etc.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25786377c85286820f7e1c475b6f37ff5e7b9174592b557d39b610d700ab7991
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03a4192a753a834c6af99927370b2856ff4d817d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312648"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590774"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Seguridad y cumplimiento en Microsoft Teams
 

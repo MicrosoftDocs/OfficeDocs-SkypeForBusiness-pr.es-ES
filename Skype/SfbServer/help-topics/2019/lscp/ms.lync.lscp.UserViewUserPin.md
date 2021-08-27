@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: db8dde1d7db1b5ed3b200146f06eaaa2d3103bf0297b64f276353bf5167b433c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 845573d04cc5d80cf8c4a4ceb6b09196d11080ab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328595"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604129"
 ---
 # <a name="users-view-or-configure-pin-policy"></a>Usuarios: Ver o configurar directiva de PIN
  

@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Lea este tema para obtener información sobre cómo asignar directivas de conferencia para Skype del sistema de sala.
-ms.openlocfilehash: 7f9d1e349563e20d29736d33900b4afce99f39c10b9222b23d291f5a9fa417b7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 202440953aedaa54ac69a7bd4549bf7dcbd8d865
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306022"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618206"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Directiva de conferencia para Skype del sistema de sala
  

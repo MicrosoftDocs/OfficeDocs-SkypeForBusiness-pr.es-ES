@@ -10,18 +10,18 @@ audience: admin
 description: Use este script de PowerShell para exportar una lista de administradores y sus directos para su organización, en preparación para crear un equipo para cada administrador con sus directos como miembros del equipo.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 120ee0fe4b0211d929722685700b3bbdbc4df2231b0bf5c9e3f53c5d423c2f75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a25e743f1f8191db8323b29bf33c3fed75261fa1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345339"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577824"
 ---
 # <a name="powershell-script-sample---export-managers-and-their-directs"></a>Ejemplo de script de PowerShell: exportar administradores y sus directos
 

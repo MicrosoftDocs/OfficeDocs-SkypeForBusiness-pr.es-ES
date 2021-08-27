@@ -41,7 +41,7 @@
 | 5/12/2021 | [Microsoft Teams Notas de la versión de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
 | 5/12/2021 | [Usar OneDrive para la Empresa y SharePoint para grabar las reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
 | 5/13/2021 | [Aplicación Walkie Talkie en Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modificado |
-| 5/13/2021 | [Controladores de borde de sesión certificados para enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 5/13/2021 | [Controladores de límites de sesión certificados para Enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
 | 5/13/2021 | [Configurar el controlador de borde de sesión: varios inquilinos](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modificado |
 | 5/13/2021 | [Esto es lo obtiene con el Sistema telefónico](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modificado |
 | 5/14/2021 | [Operador automático y referencia de marcación de cola de llamadas y reconocimiento de voz](/MicrosoftTeams/dial-voice-reference) | modificado |
@@ -154,17 +154,17 @@
 | 4/27/2021 | [Aprovisionamiento remoto e inicio de sesión para Teams dispositivos Android](/MicrosoftTeams/devices/remote-provision-remote-login) | modificado |
 | 4/27/2021 | [Flujos de llamadas de Microsoft Teams](/MicrosoftTeams/microsoft-teams-online-call-flows) | modificado |
 | 4/27/2021 | [Administrar directivas de configuración de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
-| 4/27/2021 | [Guía para administradores de TI para Reflect en Microsoft Teams](/MicrosoftTeams/reflect) | agregado |
+| 4/27/2021 | [Guía para administradores de TI para Reflect en Microsoft Teams](/MicrosoftTeams/reflect) | agregado |
 | 4/27/2021 | [Crear una cola de llamadas en Microsoft Teams - tutorial de pequeña empresa](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modificado |
-| 4/27/2021 | [Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams](/MicrosoftTeams/class-insights) | modificado |
+| 4/27/2021 | [Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams](/MicrosoftTeams/class-insights) | modificado |
 | 4/27/2021 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 4/28/2021 | [Guía para administradores de TI para Reflect en Microsoft Teams](/MicrosoftTeams/reflect) | modificado |
+| 4/28/2021 | [Guía para administradores de TI para Reflect en Microsoft Teams](/MicrosoftTeams/reflect) | modificado |
 | 4/28/2021 | [Requisitos de hardware para Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
 | 4/28/2021 | [Dispositivos para Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
 | 4/29/2021 | [Preguntas frecuentes de la administración de Microsoft Education para administradores](/MicrosoftTeams/plan-teams-governance-edu) | modificado |
 | 4/29/2021 | [Buscar eventos en el registro de auditoría en Microsoft Teams](/MicrosoftTeams/audit-log-events) | modificado |
 | 4/30/2021 | [Teléfonos y dispositivos para Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modificado |
-| 4/30/2021 | [Compre, configure y habilite El entrenador profesional para Microsoft Teams](/MicrosoftTeams/career-coach) | agregado |
+| 4/30/2021 | [Comprar, configurar y habilitar Asesor de carrera para Microsoft Teams](/MicrosoftTeams/career-coach) | agregado |
 | 4/30/2021 | [Planear el enrutamiento directo](/MicrosoftTeams/direct-routing-plan) | modificado |
 | 4/30/2021 | [Administrar las aplicaciones en el centro Microsoft Teams administración](/MicrosoftTeams/manage-apps) | modificado |
 | 4/30/2021 | [Asignar números de teléfono de Business Voice a los usuarios](/MicrosoftTeams/business-voice/set-up-assign-numbers) | agregado |
@@ -184,7 +184,7 @@
 
 | Fecha de publicación |Título del tema | Cambio |
 |------|------------|--------|
-| 4/19/2021 | [Asistencia de voz de Cortana en Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modificado |
+| 4/19/2021 | [Cortana de voz en Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modificado |
 | 4/19/2021 | [Dispositivos para Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
 | 4/19/2021 | [Teléfonos y dispositivos para Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modificado |
 | 4/19/2021 | [Microsoft Teams Notas de la versión de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
@@ -202,7 +202,7 @@
 | 4/21/2021 | [Configurar un operador automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
 | 4/21/2021 | [Informe de actividad de usuario de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modificado |
 | 4/22/2021 | [Dispositivos para Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
-| 4/22/2021 | [Controladores de borde de sesión certificados para enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 4/22/2021 | [Controladores de límites de sesión certificados para Enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
 | 4/22/2021 | [Microsoft StaffHub se ha retirado](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | modificado |
 | 4/22/2021 | [Instalar la integración de Moodle con Microsoft Teams](/MicrosoftTeams/install-moodle-integration) | modificado |
 | 4/22/2021 | [Configurar y administrar la moderación del canal](/MicrosoftTeams/manage-channel-moderation-in-teams) | modificado |
@@ -270,4 +270,4 @@
 | 4/16/2021 | [Teams para la infraestructura de escritorio virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
 | 4/16/2021 | [Introducción a Teams grabación basada en directivas para llamadas & reuniones](/MicrosoftTeams/teams-recording-policy) | modificado |
 | 4/16/2021 | [Dimensiones y medidas: Panel de calidad de llamadas (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
-| 4/16/2021 | [Instalar, administrar y asignar permisos para Microsoft Viva Learning (versión preliminar privada)](/MicrosoftTeams/teams-learning-app-overview) | modificado |
+| 4/16/2021 | [Instalar, administrar y asignar permisos para Aprendizaje Microsoft Viva (vista previa privada)](/MicrosoftTeams/teams-learning-app-overview) | modificado |

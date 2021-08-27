@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15345077914ae36abe18a0ec760c0506ce132f73
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 0def7a1b9938a97a09e08f158c45f04a69879d64
+ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365797"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531030"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -97,7 +97,7 @@ Si tiene alguna pregunta sobre el programa de certificación de CLS para Enrutam
 
 <br/>
 
-* Proveedores de servicios 911
+\* **Proveedores de servicios 911**
 
 - [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Servicio de enrutamiento de emergencia Intrado (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ArchivingServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 ROBOTS: NOINDEX, NOFOLLOW
 description: En el Generador de topologías, puede realizar tareas relacionadas con el servidor que ejecuta archivado haciendo clic con el botón secundario en el grupo en el árbol de consola y seleccionando Editar propiedades. En la página Editar propiedades puede cambar el nombre de dominio completo (FQDN) del servidor que ejecuta el Archivado, la base de datos del SQL Server de archivado y el almacén de archivos para el archivado.
-ms.openlocfilehash: 430a472a2cca1889c329fb8db9bcbdd119fcf895ce131b3becae2188f5edc2f4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a7753b8a7a27317e815f3402a58c734f627e1976
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313578"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584194"
 ---
 # <a name="archiving-server-scope-node"></a>Nodo de ámbito de servidor de archivado
  

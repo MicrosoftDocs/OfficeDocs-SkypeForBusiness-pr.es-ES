@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddBranchSiteNamePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 description: 'Para definir un nuevo sitio de sucursal, especifique lo siguiente:'
-ms.openlocfilehash: 0ec52f4d63be69efbdb3626c562c09bc3440abb5cac2d3cd05f2875d7110a8e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f0b5a215da3147e2385411f0156b5b5039cfa52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277035"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625252"
 ---
 # <a name="add-branch-site-name"></a>Agregar nombre de sucursal
 

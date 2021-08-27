@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre las características, la disponibilidad y cómo planear y configurar Teléfono Microsoft sistema para su empresa. '
-ms.openlocfilehash: f1bd1ff71a0f8eec818e005e430618a1ef69b340
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: eb39ea455ef298e00982a5ee414415ddbf66207a
+ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235025"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548295"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Esto es lo obtiene con el Sistema telefónico
 
@@ -66,8 +66,8 @@ Sistema telefónico proporciona las siguientes características. A menos que se 
 |[Teclado de marcado integrado](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Permite a los usuarios marcar por nombre o por número en cualquier lugar de la barra de búsqueda y en el teclado de marcado, acelerando el proceso de realizar llamadas salientes. <br/> |
 |Llamadas federadas  <br/> |Permite a los usuarios conectarse, comunicarse y colaborar de forma segura con los usuarios de inquilinos federados.  <br/> |
 |[Realizar y recibir una videollamada](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Si la cuenta del usuario está habilitada para videollamadas, el usuario puede realizar videollamadas cara a cara con sus contactos. Todo lo que necesitan es una cámara, los altavoces y el micrófono de su equipo. Los usuarios también pueden usar auriculares si su equipo no tiene un dispositivo de audio integrado.<br/> |
-|[Correo de voz en la nube*](set-up-phone-system-voicemail.md) <br/> | Cuando un usuario recibe un correo de voz, se entrega a su buzón de Exchange como correo electrónico con el mensaje de correo de voz como datos adjuntos. Los usuarios pueden escuchar sus mensajes en su teléfono de escritorio certificado y en todas Teams o Skype Empresarial aplicaciones. El soporte para la transcripción del correo de voz se ha agregado a partir de marzo de 2017 y está habilitado de forma predeterminada para todas las organizaciones y usuarios.   <br/> |
-|[Configuración del usuario del correo de voz en la nube*](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Permite a los usuarios configurar la configuración del cliente para saludos de correo de voz, reglas de respuesta de llamadas e idioma de saludo, incluidos los saludos fuera de la oficina.   |
+|[Correo de voz en la nube](set-up-phone-system-voicemail.md) <br/> | Cuando un usuario recibe un correo de voz, se entrega a su buzón de Exchange como correo electrónico con el mensaje de correo de voz como datos adjuntos. Los usuarios pueden escuchar sus mensajes en su teléfono de escritorio certificado y en todas Teams o Skype Empresarial aplicaciones. El soporte para la transcripción del correo de voz se ha agregado a partir de marzo de 2017 y está habilitado de forma predeterminada para todas las organizaciones y usuarios. <br> Tenga en cuenta que *los* usuarios no necesitan una licencia *Sistema telefónico,* ni necesitan tener habilitada la voz para usar Correo de voz en la nube características.   <br/> |
+|[Correo de voz en la nube de usuario](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Permite a los usuarios configurar la configuración del cliente para saludos de correo de voz, reglas de respuesta de llamadas e idioma de saludo, incluidos los saludos fuera de la oficina. <br> Tenga en cuenta que *los* usuarios no necesitan una licencia *Sistema telefónico,* ni necesitan tener habilitada la voz para usar Correo de voz en la nube características.  |
 |[Timbre secundario](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Los usuarios con varios dispositivos de altavoz conectados a su PC pueden elegir configurar un dispositivo secundario para que suene además de su altavoz predeterminado. Por ejemplo, un usuario con auriculares conectados al equipo y altavoces de escritorio puede elegir que los altavoces de auriculares y de escritorio suene cuando se produce una llamada para que no se pierda una llamada.  |
 |[Alertas de anillo distintivo](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (solo Teams)<br/> |Permite a los usuarios elegir tonos separados para llamadas normales, llamadas reenviadas y llamadas delegadas para que puedan distinguir el tipo de llamada.  <br/> |
 |[Apariencia de línea compartida](shared-line-appearance.md) <br/> | Permite a los usuarios compartir su línea telefónica para que otro usuario pueda realizar y recibir llamadas en su nombre.|
@@ -76,8 +76,6 @@ Sistema telefónico proporciona las siguientes características. A menos que se 
 |[Teléfonos de área común](set-up-common-area-phones.md) <br/> | Normalmente, un teléfono de área común se coloca en un área como una sala de espera o una sala de conferencias, lo que hace que esté disponible para varias personas. Los teléfonos de área común están configurados como dispositivos en lugar de como usuarios y pueden iniciar sesión automáticamente en una red.|
 |[Soporte de omisión de](direct-routing-plan-media-bypass.md) medios (solo Teams enrutamiento directo) <br/> | Para un mejor rendimiento, los medios se mantienen entre el controlador de borde de sesión (SBC) y el cliente en lugar de enviarlo a través del sistema Teléfono Microsoft sesión. |
 
-
-\* Los usuarios no necesitan tener habilitada la voz para usar las características del correo de voz.
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Disponibilidad en GCC nubes Altas y DoD
 <a name="bkmk_setup"> </a>

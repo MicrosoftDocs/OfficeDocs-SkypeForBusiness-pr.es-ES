@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Después de migrar a Microsoft Skype Empresarial Server 2019, debe completar algunas tareas para configurar Skype Empresarial Server 2019 para trabajar con System Center Operations Manager.
-ms.openlocfilehash: 477fbd3c405328ffac4aa70a722120d375e95b295bf5a23d19882248d1ece54e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 756e83ad0a8c964954f43518dc8603802d45c40d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279618"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590664"
 ---
 # <a name="configure-scom-monitoring"></a>Configurar la supervisión SCOM
 

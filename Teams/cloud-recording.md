@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a07b6f46d24679b4e05ce826059958e0404ba084
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
+ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398979"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531020"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -263,9 +263,8 @@ El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de entender la c
 > 
 > Proporcionamos información sobre cómo funcionará esta característica en el FUTURO, para que pueda planear este cambio y modificar la configuración de directiva de Teams de antemano. 
 >
-> Aún no está disponible el CMD para cambiar de forma preventiva la configuración MeetingExpirationDays en Teams.  Cuando la configuración esté disponible para la modificación lo publicaremos en el centro de mensajes.
+> El CMD para cambiar de forma preventiva la configuración MeetingExpirationDays en Teams (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) aún no está disponible para su configuración.  Cuando la configuración esté disponible para la modificación, lo publicaremos en el centro de mensajes.
 >
-> Puede usar PowerShell para modificar “MeetingRecordingExpirationDays”. Esto se puede hacer después del 1 de septiembre una vez que la configuración esté en PowerShell, aunque la característica aún no esté habilitada. Un comando de ejemplo es: "Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50.”
 >
 
 Vea las preguntas más frecuentes para que los administradores y los usuarios finales recopilen información sobre cómo funcionará la expiración automática de las grabaciones de reuniones de Teams, qué acciones puede realizar ahora y qué acciones puede realizar después de que se inicie la característica. 
@@ -310,9 +309,18 @@ Sí, la fecha de expiración se establece por archivo. Los usuarios pueden modif
 
 **¿Cómo puede un administrador cambiar la fecha de expiración?**
   
-Los administradores podrán cambiar la configuración de expiración predeterminada en PowerShell o en el Centro de administración de Teams antes de que se publique la característica. La configuración aún no está disponible para su modificación. Cuando la configuración esté disponible para la modificación lo publicaremos en el centro de mensajes. Cuando se inicia la característica, los administradores pueden cambiar esta configuración en el Centro de administración de Teams. El cambio de la configuración de expiración afectará solo a los TMR recién creados a partir de ese momento. No afectará a las grabaciones realizadas antes de esa fecha. 
+Los administradores podrán cambiar la configuración de expiración predeterminada en PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) o en el Centro de administración de Teams antes de que se publique la característica. La configuración aún no está disponible para su modificación. Cuando la configuración esté disponible para la modificación lo publicaremos en el centro de mensajes. Cuando se inicia la característica, los administradores pueden cambiar esta configuración en el Centro de administración de Teams. El cambio de la configuración de expiración afectará solo a los TMR recién creados a partir de ese momento. No afectará a las grabaciones realizadas antes de esa fecha. 
 
-El valor máximo de días de expiración que puede aplicar un administrador es 99 999 días o 273 años. Los administradores no pueden cambiar la fecha de expiración de los TMR existentes ya cargados en OneDrive o SharePoint antes de que se publicara esta característica. Esto protege la intención del usuario propietario de TMR. 
+Los valores de días de expiración se pueden establecer de la siguiente manera:
+  
+- El valor puede estar comprendido entre 1 y 99.999 (273 años como máximo).
+- El valor también puede ser -1 para establecer TMR para que nunca expire. 
+ 
+Los administradores no pueden cambiar la fecha de expiración de los TMR existentes ya cargados en OneDrive o SharePoint antes de que se publicara esta característica. Esto protege la intención del usuario propietario de TMR. 
+  
+**¿Puede un administrador establecer TMR que nunca expiren?**
+  
+ Sí, los administradores pueden establecer TMR para que nunca expiren mediante el siguiente cmdlet de PowerShell:(Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1)
   
 **Si se reproduce una grabación, ¿cambia la fecha de expiración?**
 

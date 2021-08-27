@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: v-rifer
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-voice
@@ -17,12 +17,12 @@ description: Cómo usar el informe Teams grupos de minutos RTC en el centro de a
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6e1d87ac58c6f5916a393e9e85351be12bdd7ae2ba0cd62f467b44b418470f6b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9dc0b12a17d54d6c0e5f858db92da3fc575d086f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316626"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577754"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams Informe de grupos de minutos RTC
 

@@ -16,18 +16,18 @@ ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
 - ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
 description: Obtenga más información sobre cómo habilitar o deshabilitar el acceso de invitado en Microsoft Teams como administrador de Office 365.
-ms.openlocfilehash: 58c8de6a54555ce9fea1e3880eabcb5b549684bd55c2b69585343058fe6dd18f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9701defbf987d68f2c0ce79a9797064a07111bf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327546"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590744"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Active o desactive el acceso de invitado a Microsoft Teams
 

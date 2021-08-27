@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: rakayala
 description: Obtenga información acerca de los Estados de presencia en Teams y la configuración administrativa para la Característica de presencia.
 ms.custom: seo-marvel-apr2020
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e863dc09d1a0497a532b9b9721a35ba2f8ef7b65
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 66c3aec34baa10dc0cda644d84611800a8e9d97a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233625"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597674"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 

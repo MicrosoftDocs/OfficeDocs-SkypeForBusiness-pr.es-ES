@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTrunkSelCallingRule
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: 'El cuadro de diálogo Seleccionar reglas de traducción de números de llamada muestra las reglas de traducción configuradas para su implementación. Para obtener información detallada sobre las reglas de traducción, vea los temas siguientes:'
-ms.openlocfilehash: 44559b33519c38ba85946b604bc880f9779ab8b182ae3e8694f20b01a4e0aa69
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29abcdfb2f707c607035b71c7861f72969b1acfd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338348"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625342"
 ---
 # <a name="select-calling-number-rules-translation"></a>Seleccionar traducción de reglas de números de llamada
 
