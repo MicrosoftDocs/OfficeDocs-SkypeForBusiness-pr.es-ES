@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Obtenga información sobre cómo configurar la compatibilidad con usuarios de proveedores federados SIP.
-ms.openlocfilehash: d356dd5fa4e8b98c3435d834b554d4b60b0269532737535d64e1a6c78557fec7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 552f0971685dd62dd89a27e03c62d0617b6c01d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336700"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612309"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Administrar proveedores federados SIP para su organización en Skype Empresarial Server
 

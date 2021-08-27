@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 'Resumen: Cómo administrar directivas de grupo.'
-ms.openlocfilehash: 8bf4d1eb07f2386d07c3cc9e4d529b06a392631ba5cea2d66cf02cc7742ed1f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3fccd578b18686ea6c9ce1a5686042f5c25c4f54
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294947"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578154"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>Configurar las directivas de arranque de cliente
  
@@ -53,7 +53,7 @@ Las directivas configuradas en el servidor tienen prioridad frente a la configur
 |:-----|:-----|
 |1  <br/> |Skype Empresarial Server aprovisionamiento en banda  <br/> |
 |2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|3   <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |4   <br/> |Cuadro de diálogo Opciones de Skype Empresarial  <br/> |
    
 ### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>Para definir la configuración de directiva de grupo mediante el Skype Empresarial archivos de plantilla administrativa

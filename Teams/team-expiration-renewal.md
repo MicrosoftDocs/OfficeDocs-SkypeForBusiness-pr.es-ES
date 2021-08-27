@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: abgupta
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b2b6b346e9ffed5a9f4d3e6b03519db2f716b3ed584e0fccdfcbcfd3326d32c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e8f123bf7a351689747649b75f429588445a5d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339408"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625932"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiración y renovación del equipo en Microsoft Teams
 

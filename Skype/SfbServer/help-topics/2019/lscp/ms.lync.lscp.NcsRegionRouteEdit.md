@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 08570c70e1d56a2ca94aed050c00025c9bc131cbc47b2785334881fabf632352
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1f073f74fee50fb120fd85fbe40341c5e912dbe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330374"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605409"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Configurar una ruta de región de red: Crear nuevos o editar los existentes
 

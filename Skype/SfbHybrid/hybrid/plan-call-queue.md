@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Información general sobre cómo usar un operador automático de nube Skype Empresarial Server 2019.
-ms.openlocfilehash: fa1807c272c8d9bba8ae406a87dc55589560d870da5b59fc093c2d9d1a2933e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1dffa2e0b92f9888fc9b24323c7fa638468c8b1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300516"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578174"
 ---
 # <a name="plan-cloud-call-queues"></a>Plan de colas de llamadas en la nube
 
@@ -35,7 +35,7 @@ A cada cola de llamadas se le asigna una cuenta de recursos **(consulte** [Confi
 > [!NOTE]
 > Puede asignar varios números de teléfono a una cola de llamadas, pero deben ser números de servicio de Microsoft, números de enrutamiento directo o números híbridos.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Los siguientes requisitos suponen que ya Skype Empresarial Server 2019 implementado en una topología compatible.  Los requisitos dependen del escenario:
 

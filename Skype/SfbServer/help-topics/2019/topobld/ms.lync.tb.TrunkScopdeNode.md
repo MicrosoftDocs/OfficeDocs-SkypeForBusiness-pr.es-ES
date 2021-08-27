@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.TrunkScopdeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Haga clic con el botón secundario en un tronco SIP existente en el Generador de topologías para realizar lo siguiente:'
-ms.openlocfilehash: a4cb9dc241ce5e18610645431739422ad5949e6162eb82028771971cdcffd986
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ccd49b54900a6f482cc672555e7ac9d6c839ebea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335390"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605239"
 ---
 # <a name="trunk-scope-node"></a>Nodo de ámbito del tronco
  

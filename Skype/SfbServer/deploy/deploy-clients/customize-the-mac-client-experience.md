@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: En este artículo se describen las preferencias de cliente y los valores predeterminados disponibles para el Skype Empresarial en el cliente Mac y cómo editarlas desde fuera de la aplicación.
-ms.openlocfilehash: bf93b08686ed245fab38364cf9aff4fee0526a8bd496231865640aeb2c6e67f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ece447b7d3bce37784e0f1d0b3f8fe3746fce86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325497"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578134"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar la experiencia del cliente mac en Skype Empresarial
  
@@ -38,9 +38,9 @@ Para establecer estas preferencias, accede a un mensaje de terminal en el Mac de
 |:-----|:-----|:-----|:-----|
 |autoDetectAutoDicoveryURLs    |Bool    |0 = configuración manual del servidor  <br/> 1 = detección automática del servidor (valor predeterminado)    |Especifique cómo Skype Empresarial identifica el transporte y el servidor que se va a usar durante el inicio de sesión. Si habilita esta configuración de directiva, debe especificar **internalAutoDiscoveryURL** y **externalAutoDiscoveryURL**.   |
 |internalAutoDiscoveryURL    |Cadena    |Dirección URL de detección automática completa    |Dirección URL de detección automática interna    |
-|externalAutoDiscoveryURL    |String    |Dirección URL de detección automática completa    |DIRECCIÓN URL de detección automática externa    |
-|httpProxyDomain    |String    ||Dominio proxy HTTP    |
-|httpProxyUserName    |String    ||Nombre de usuario de proxy HTTP    |
+|externalAutoDiscoveryURL    |Cadena    |Dirección URL de detección automática completa    |DIRECCIÓN URL de detección automática externa    |
+|httpProxyDomain    |Cadena    ||Dominio proxy HTTP    |
+|httpProxyUserName    |Cadena    ||Nombre de usuario de proxy HTTP    |
 |httpProxyPassword    |Cadena    ||Contraseña de proxy HTTP    |
 |trustedDomainList    |Matriz    ||Lista de dominios de confianza para redireccionamientos HTTP.    |
 |autoAcceptTimeout    |Número    |300 (valor predeterminado)    |Aceptar automáticamente el tiempo de espera para los usuarios sin historial de conversaciones del lado servidor.    |

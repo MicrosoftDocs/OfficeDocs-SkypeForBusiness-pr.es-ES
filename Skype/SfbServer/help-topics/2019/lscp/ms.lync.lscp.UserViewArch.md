@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: d422876cb4a6f93c5919346e7f99d5cc7b8983e5e373fae74d6f90e7e176ab5c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 89c1b6ec85ee6077a09315b943c1f4ba15897f24
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345130"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579214"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>Usuarios: Ver o configurar directiva de archivado
 

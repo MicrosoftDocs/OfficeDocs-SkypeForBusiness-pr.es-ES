@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Obtenga información sobre la administración de grupos de servidores front-end en Skype Empresarial Server, incluida la administración de grupos de servidores, la pérdida de quórum y los pasos especiales para grupos de servidores con solo dos servidores front-end.
-ms.openlocfilehash: 697cebf352d4fa0e2f245f50395107477ac3bae712346302e94746f173ce4d39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2eabc5e32937b88de4a3c4bbd474e20e132c1984
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276631"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585014"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Administración y alta disponibilidad del grupo de servidores front-end
  
@@ -46,16 +46,16 @@ La primera vez que inicie un nuevo grupo de servidores front-end, es esencial qu
 |Número total de servidores en el grupo  <br/> |Número de servidores que deben ejecutarse para que el grupo se pueda iniciar por primera vez  <br/> |
 |:-----|:-----|
 |2  <br/> |1  <br/> |
-|3  <br/> |3  <br/> |
-|4   <br/> |3  <br/> |
+|3   <br/> |3   <br/> |
+|4   <br/> |3   <br/> |
 |5   <br/> |4   <br/> |
 |6   <br/> |5   <br/> |
 |7   <br/> |5   <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
-|10   <br/> |8   <br/> |
-|11  <br/> |9   <br/> |
-|12   <br/> |10   <br/> |
+|10  <br/> |8   <br/> |
+|11   <br/> |9   <br/> |
+|12   <br/> |10  <br/> |
 |16 **For Skype Empresarial Server 2019** <br/> |12   <br/> |
 
 

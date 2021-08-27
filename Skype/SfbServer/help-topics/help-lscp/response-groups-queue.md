@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsQueueMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
-ms.openlocfilehash: 875a76febbee305e8e2f25c6efee087575fac8d0736bd4405557795bff38e04a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1343425fd84ad2d0ad8f09513f996dfe5c30cdc3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298370"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579014"
 ---
 # <a name="response-groups-queue"></a>Cola de grupos de respuesta
 

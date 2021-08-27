@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerInternalIpPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 description: La dirección IP interna es la dirección IP de la interfaz interna del servidor perimetral.
-ms.openlocfilehash: 5582f63fa4a555e3e2f0c1c81e8962b91ec38d675cc9333759af82aeae9e01e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 760445683092fb1ac5d40aa3e7ca9668b0ed63e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346616"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578970"
 ---
 # <a name="add-edge-server-internal-ip"></a>Agregar IP interna del servidor perimetral
 

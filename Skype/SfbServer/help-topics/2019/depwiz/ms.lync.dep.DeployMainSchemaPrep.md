@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para preparar el esquema para los Servicios de dominio de Active Directory, ejecute el paso Preparar esquema en el Asistente para Skype Empresarial Server implementación. Haga clic en Ejecutar para comenzar la preparación del esquema.
-ms.openlocfilehash: d2dfd0525d0ec1fa1ee46479194b029b1db591781303436f008ed5d3900f01be
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5dd2a7958eafc65f69a6df4344f10973714b58a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340126"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626062"
 ---
 # <a name="prepare-schema"></a>Preparar esquema
  

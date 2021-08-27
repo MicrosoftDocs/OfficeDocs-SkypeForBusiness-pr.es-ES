@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSave
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: Puede usar el cuadro de diálogo Información para guardar caso de prueba de enrutamiento de voz para guardar un caso de prueba de enrutamiento de voz temporal. En Información para guardar caso de prueba de enrutamiento de voz, escriba el nombre que desee dar a este caso de prueba en Nombre y, a continuación, haga clic en Aceptar.
-ms.openlocfilehash: 831b20ed5be936dcbcf9a634789dd28b80cac6004e68e865d58c880550df6058
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4a00cd0f267d5cb1b7b284f912a8dccbcf12a419
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291178"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579004"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Guardar información de caso de prueba de enrutamiento de voz
  

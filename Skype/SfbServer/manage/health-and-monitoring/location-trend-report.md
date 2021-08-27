@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
 description: 'Resumen: obtenga información sobre el informe de tendencias de ubicación en Skype Empresarial Server.'
-ms.openlocfilehash: 1ca84e4122c26743cfc97addad6c3ef09d568a28b838e1b93dc1f4e900d2e48a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e0d74d6c2ed44695ac95c47f3c9ad7313989d559
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276775"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598967"
 ---
 # <a name="location-trend-report-in-skype-for-business-server"></a>Informe de tendencias de ubicación en Skype Empresarial Server
  

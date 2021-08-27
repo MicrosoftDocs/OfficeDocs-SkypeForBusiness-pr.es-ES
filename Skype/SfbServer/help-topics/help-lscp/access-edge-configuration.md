@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ExtEdgeMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 2cdac6225967634ae4f560775c3467b267d3814f8761f71fceca2334610b1ca4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f6ec5daf5637cc0e635c73309eae46fd778a616
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321972"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579134"
 ---
 # <a name="access-edge-configuration"></a>Configuración perimetral de acceso
 

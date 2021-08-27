@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: daro
 audience: admin
 description: Instrucciones para los profesionales de TI para impulsar Office 365 en entidades que administran datos sujetos a la normativa del DoD del gobierno de EE. UU.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 318ea793a037ecf47d48663e94b1c19e09fb2bcb8556b9f401f314d0bb9e998d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c5503ceefb331098e62ef8aa72bc82119a6e563
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339478"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625992"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>Planear Office 365 Administración Pública: implementaciones de DoD
 

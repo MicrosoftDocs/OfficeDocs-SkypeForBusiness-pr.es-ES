@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
 description: 'Vea dónde asignar un plan de servicio válido para un usuario después de que un Skype Empresarial de servicio en línea no sea un error válido. '
-ms.openlocfilehash: f683a3f12e9149017c5f62375f188360a03f0e9fd8bb286f1e44f09b2c2b6ef7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 54ee5a1ba4e580c70d07930f99a084f60aede177
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314966"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592024"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>El plan de servicio Skype Empresarial online del usuario no es válido
 

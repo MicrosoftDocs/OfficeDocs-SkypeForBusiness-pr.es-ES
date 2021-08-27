@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: En la página Mover usuarios, puede seleccionar un grupo de destino al que mover el usuario seleccionado.
-ms.openlocfilehash: 485408dcf47d317b81e449bc39fd497a7e9c62572aa7c34917a39d9522004330
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8cec9cc3c78d233b82da6d7c5fa127d62c90f156
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287499"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626002"
 ---
 # <a name="move-user"></a>Mover usuario
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Summary: Learn about the Call Diagnostic Summary Report used in Skype Empresarial Server.'
-ms.openlocfilehash: 35b6a9ac84bf504b218200ec2ac49e6f19632e520eba90335e9ab0257f4bcfcc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b3da3315566db66876329ab257ff6fa8d78f81b3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281843"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585084"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Informe de resumen de diagnóstico de llamadas en Skype Empresarial Server
  
@@ -70,7 +70,7 @@ En la siguiente tabla se muestra la información recogida el informe de resumen 
   
 **Métricas de las sesiones punto a punto**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Total de sesiones** <br/> |No  <br/> |Número total de sesiones punto a punto que ha tenido lugar.  <br/> |
 |**Porcentaje de errores** <br/> |No  <br/> |Porcentaje de las sesiones punto a punto con errores. Al hacer clic en este elemento, el informe muestra el informe de diagnósticos de actividad punto a punto, que contiene información más detallada sobre las sesiones punto a punto con errores.  <br/> |
@@ -81,7 +81,7 @@ En la siguiente tabla se muestra la información recogida el informe de resumen 
   
 **Métricas de las sesiones de conferencia**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Total de conferencias** <br/> |No  <br/> |Número total de conferencias que ha tenido lugar.  <br/> |
 |**Total de sesiones de conferencias** <br/> |No  <br/> |Número total de sesiones de conferencia que ha tenido lugar.  <br/> |

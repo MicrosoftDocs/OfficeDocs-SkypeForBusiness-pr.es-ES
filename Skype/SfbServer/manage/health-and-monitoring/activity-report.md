@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 'Summary: Learn about the Conference Activity Report used in Skype Empresarial Server.'
-ms.openlocfilehash: ebee49f78d7f3ed83c5d8218357181d457fe04b73f638b4a70191bc975ba38de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d422f86789c8a488f6a1bbe954689a3e422e990f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336640"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612229"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Informe de actividad de conferencia en Skype Empresarial Server
  
@@ -64,7 +64,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
   
 **Métricas para conferencias por grupo**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Grupo** <br/> |No  <br/> |Nombre del grupo de registradores o servidor perimetral utilizado en la conferencia.  <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha y hora en que se desarrolló la conferencia.  <br/> |
@@ -76,7 +76,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
   
 **Métricas para conferencias por tipo de servidor**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Tipo de servidor de conferencia** <br/> |No  <br/> | Tipo de servidor usado en la conferencia, generalmente, uno de los siguientes: <br/>  Servidor de conferencia web <br/>  Servidor de conferencia de mensajería instantánea <br/>  Servidor de conferencia con telefonía <br/>  Servidor de conferencia A/V <br/>  Uso compartido de aplicaciones <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha y hora en que se desarrolló la conferencia.  <br/> |

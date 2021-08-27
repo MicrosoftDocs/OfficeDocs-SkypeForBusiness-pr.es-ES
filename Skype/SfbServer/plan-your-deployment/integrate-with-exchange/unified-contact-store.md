@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: 'Resumen: revise este tema al planear la integración de Skype Empresarial Server con Exchange 2013.'
-ms.openlocfilehash: 12f76c1e10eea445adb21147c20ab79f33e38f3c8c578aeab8ec24296bb06594
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 711340ebe7ef2b71d56bfefbb23fe50c0c230f82
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284630"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585004"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Planear el almacén de contactos unificado en Skype Empresarial Server 2015
  

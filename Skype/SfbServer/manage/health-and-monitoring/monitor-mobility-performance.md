@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: 'Summary: Learn about the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype Empresarial Server.'
-ms.openlocfilehash: 3e7d64a4dbefed7132206186069ef9646deb802ac0eb9de02d39b602c2dc4ffe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 556e50a162e455b1d0805c55fa34cb8f4de1603e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345597"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598894"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Supervisar la movilidad para obtener rendimiento en Skype Empresarial Server
  

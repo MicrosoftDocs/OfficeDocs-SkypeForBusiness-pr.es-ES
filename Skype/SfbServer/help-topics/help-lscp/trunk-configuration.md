@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTrunkMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: a7989af20ef622dd76a7d6cbef8f5d3e948e8bfece09c06ae525411a79fcc6e9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 82660e7da0db3d64fec8a4fd24179ad921c9f280
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342125"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578974"
 ---
 # <a name="trunk-configuration"></a>Configuración del tronco
 

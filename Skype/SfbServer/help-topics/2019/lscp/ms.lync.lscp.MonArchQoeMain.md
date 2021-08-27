@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 9680816cd7771b1a4829bccc91c2bd01c63af752c451abfd998dcf75dc9b681d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eee1e16c17955a27c357ac3bfe7c0697bd8cdf3c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277445"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626012"
 ---
 # <a name="quality-of-experience-qoe-data"></a>Datos referentes a la calidad de la experiencia (QoE)
  
