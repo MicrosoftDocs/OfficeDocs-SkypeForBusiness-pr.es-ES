@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Obtenga información sobre cómo admitir la resistencia de voz en Skype Empresarial Server Telefonía IP empresarial, tanto en sitios centrales como en sitios de sucursal. Las opciones de sitio de sucursal incluyen la implementación de aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
-ms.openlocfilehash: ed5a410c30d1091a335e3c3ce3e4c7a5523f28399281f3a3f6f4686de08024a4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08bfa774b52a59dcb9b88cdf9b41d11035f09417
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280045"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617746"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planear la Telefonía IP empresarial resistencia en Skype Empresarial Server
 
@@ -305,14 +305,14 @@ En un escenario en el que el vínculo WAN entre un sitio de sucursal y un sitio 
 
 También debe incluir números de extensión para escenarios específicos, como cuando el vínculo WAN entre un sitio de sucursal y un sitio central no está disponible y se debe enrutar una llamada desde un sitio de sucursal a través de la RTC. Durante una interrupción de WAN, si un usuario del sitio de sucursal llama a un usuario del sitio central solo marcando la extensión del usuario del sitio central, debe tener una regla de traducción saliente que agrega el número de teléfono completo del usuario del sitio central. Si el URI de línea de un usuario contiene el número de teléfono completo de la organización y el número de extensión único del usuario en lugar de un número de teléfono completo que es único para el usuario, debe tener una regla de traducción saliente que agrega el número de teléfono completo de la organización en su lugar. Por ejemplo:
 
-|**Description**|**Patrón de coincidencia**|**Conversión**|**Ejemplo**|
+|**Descripción**|**Patrón de coincidencia**|**Conversión**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
 |Traduce números de 5 dígitos al número de teléfono y la extensión de un usuario  <br/> |^(\d{5})$  <br/> |+14255550123;ext=$1  <br/> |10001 se traduce a +14255550123;ext=10001  <br/> |
 |Traduce números de 5 dígitos al número de teléfono de la organización y la extensión de un usuario  <br/> |^(\d{5})$  <br/> |+14255550100;ext=$1  <br/> |10001 se traduce a +14255550100;ext=10001  <br/> |
 
 En este escenario, si el tronco del mismo nivel que controla el rerouting a la RTC no admite números de extensión, la regla de traducción saliente también debe quitar el número de extensión. Por ejemplo:
 
-|**Description**|**Patrón de coincidencia**|**Conversión**|**Ejemplo**|
+|**Descripción**|**Patrón de coincidencia**|**Conversión**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
 |Quita extensión de números de teléfono con extensiones  <br/> |^\+(\d \* ); ext=(\d \* )$  <br/> |+$1  <br/> |+14255550123;ext=10001 se traduce a +14255550123  <br/> |
 

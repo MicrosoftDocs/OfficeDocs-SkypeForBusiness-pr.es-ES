@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 'Summary: Learn how to deploy an Edge Server or an Edge pool into your Skype Empresarial Server environment.'
-ms.openlocfilehash: 6855da316b72ff16468f0cc3ae2cabbba1154ea3429195805e5e871a700f5b0f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a956f82b3ef5e6b0860a160b264b365dc0f0aa06
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307941"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579374"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Implementar el servidor perimetral en Skype Empresarial Server
  

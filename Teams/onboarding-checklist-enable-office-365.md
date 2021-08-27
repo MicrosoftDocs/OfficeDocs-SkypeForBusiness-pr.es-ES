@@ -9,19 +9,19 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Siga las tareas principales y las actividades pendientes de esta lista de comprobación al configurar Microsoft 365 o Office 365 tareas pendientes Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e082b1226df351768d33e2ab04ed6902cafe55502816aa757de8d76a51004ea0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 88ddd7de72bbf9f39344776292573cbb85320e3e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324849"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582204"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Habilitar Microsoft 365 o Office 365
  

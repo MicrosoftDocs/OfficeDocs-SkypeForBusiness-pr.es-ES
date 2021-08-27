@@ -17,16 +17,16 @@ ms.custom:
 - seo-marvel-mar2020
 f1.keywords:
 - NOCSH
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de08e353a64d2b82c5d13baaeac54fcb7b2c70e0ca7a94eff31c22f01d1fb93a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8467132a365fcfdf105859a3404a4a63f4f1a67d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340466"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617476"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Más información sobre cómo implementar Audioconferencia en Microsoft Teams
 

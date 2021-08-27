@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'Obtenga información sobre cómo planear e implementar Skype Empresarial pequeñas, medianas y grandes organizaciones y hacer que esté disponible para los usuarios. '
-ms.openlocfilehash: e503455827759966af675ff186f3d72568df613ea407f372450691511a9a6ee5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3cfa319536c521ee4d0e3b297fd978071c93105d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300496"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589182"
 ---
 # <a name="deploy-the-skype-for-business-client-in-microsoft-365-or-office-365"></a>Implementar el Skype Empresarial en Microsoft 365 o Office 365
 

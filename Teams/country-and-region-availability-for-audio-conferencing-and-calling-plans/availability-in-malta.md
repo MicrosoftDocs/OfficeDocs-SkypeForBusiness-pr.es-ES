@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 de Skype Empresarial y Microsoft Teams disponibles para Malta.
-ms.openlocfilehash: 40b2ed11cf4e1d38a6208354dde68b74a346fd2997f1806e37a3dcabc250df5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7362e2c7a6255e95342c053aba3e6bfdfeaeb399
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296937"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617546"
 ---
 # <a name="availability-in-malta"></a>Disponibilidad en Malta
 

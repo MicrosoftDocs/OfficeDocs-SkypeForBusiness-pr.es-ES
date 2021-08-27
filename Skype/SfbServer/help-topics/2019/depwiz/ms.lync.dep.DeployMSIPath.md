@@ -11,18 +11,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server, vea Install Skype Empresarial Server.
-ms.openlocfilehash: ee477914b612197fb63adaca462195414e4601f54c34b031a57b843e1329aefc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 73e83e3f3393eeb107d75a4a14d8e3ba655594fb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303014"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579352"
 ---
-# <a name="deployment-wizard-path-to-msi-installer"></a>Asistente para la implementación: Ruta de acceso al instalador MSI
+# <a name="deployment-wizard-path-to-msi-installer"></a>Asistente para la implementación: Ruta de acceso al instalador MSI
  
 Para obtener más información acerca del uso del Asistente para la Skype Empresarial Server, vea [Install Skype Empresarial Server](../../../deploy/install/install.md).
   

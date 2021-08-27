@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Summary: Learn about the Call Detail Report used in Skype Empresarial Server.'
-ms.openlocfilehash: 42a0dd40bb32005fcae49464f5ebfc6570055f7078c22b6a8b5be6004793158b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 173df324b61fc719ee989a6102ccfbb9cf850f92
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336590"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617866"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Informe detallado de llamadas en Skype Empresarial Server
  
@@ -87,7 +87,7 @@ En la tabla siguiente se muestra la información que recoge el informe de detall
   
 **Métricas del informe de detalles de llamadas**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**PAI de autor de la llamada** <br/> |No  <br/> |P-Asserted-Identity del usuario que inició la llamada. P-Asserted-Identity se utiliza para transmitir la identidad demostrada de un usuario en una red de confianza.  <br/> |
 |**URI de autor de la llamada** <br/> |No  <br/> |Dirección SIP del usuario que inició la llamada.  <br/> |
@@ -104,7 +104,7 @@ En la tabla siguiente se muestra la información que recoge el informe de detall
 |**URI de destinatario de la llamada** <br/> |No  <br/> |Dirección SIP del usuario que recibió la llamada.  <br/> |
 |**Extremo de destinatario de la llamada** <br/> |No  <br/> |Dispositivo usado para recibir la llamada.  <br/> |
 |**Agente de usuario de destinatario de la llamada** <br/> |No  <br/> |Software usado en el dispositivo que recibió la llamada.  <br/> |
-|**Duración** <br/> |No  <br/> |Duración de la llamada.  <br/> |
+|**Duration** <br/> |No  <br/> |Duración de la llamada.  <br/> |
 |**Marcador de advertencia de desvío de medios** <br/> |No  <br/> |Advertencia emitida cuando se ignora el servidor de mediación.  <br/> |
 |**Sistema operativo del destinatario de la llamada** <br/> |No  <br/> |Sistema operativo del equipo del usuario que recibió la llamada.  <br/> |
 |**CPU de destinatario de la llamada** <br/> |No  <br/> |CPU instalada en el equipo del usuario que recibió la llamada.  <br/> |

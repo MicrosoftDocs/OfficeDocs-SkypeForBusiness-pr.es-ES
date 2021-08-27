@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 'Summary: Learn how to view meeting configuration settings in Skype Empresarial Server.'
-ms.openlocfilehash: 6bca4edebe82cfee421ed3163006b6bbe272f41ea1da2b9a2a0aa020f503fc7f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79a05b35d5bdac952d009445b92c9f1b30883027
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299487"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578824"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Ver las opciones de configuración de reunión en Skype Empresarial Server
  

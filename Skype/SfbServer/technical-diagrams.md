@@ -9,19 +9,19 @@ ms.topic: hub-page
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: 'Resumen: revise estos pósteres según sea necesario al planear, implementar o administrar Skype Empresarial Server.'
-ms.openlocfilehash: 1d25122d4372fb3bce7fa98f8c21e7b430b63a1221cecb0abceae92485025d85
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcbf454cbd59076dc8822719831da014eb17b5df
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302134"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617716"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Diagramas técnicos para Skype Empresarial Server
 
@@ -43,7 +43,7 @@ Estos pósteres detallan un área técnica específica y están diseñados para 
 
 Para obtener más información acerca del Microsoft Teams, [vea Microsoft Teams de arquitectura de TI](/MicrosoftTeams/teams-architecture-solutions-posters)y soluciones de telefonía .
 
-|Cargo|Descripción|
+|Título|Descripción|
 |:---|:---|
 |**Skype Empresarial Server Cargas de trabajo de protocolo** <br/>![Póster de cargas de trabajo del protocolo SfB](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[Versión PDF](https://go.microsoft.com/fwlink/p/?LinkId=550989) (mejor para dispositivos móviles o tabletas) <br/> [Visio (mejor](https://go.microsoft.com/fwlink/p/?LinkId=550991) para usuarios con Visio) |Descargue este póster para comprender mejor los requisitos de Skype Empresarial servidores y clientes en distintos niveles de complejidad de servicio.<br/> <br/> Tamaño: 11 por 17 pulgadas (varias hojas, convenientemente dimensionadas para imprimir en la mayoría de las impresoras de oficina) <br/> <br/> Este póster se creó con Visio 2015. No debe ser necesaria ninguna modificación para un entorno específico. |
 |**Skype Empresarial Metodología de calidad de llamadas** <br/> ![Versión PDF del](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[póster](https://go.microsoft.com/fwlink/p/?LinkId=617899) de metodología de calidad de llamadas (mejor para dispositivos móviles o tabletas) <br/> [Visio (mejor](https://go.microsoft.com/fwlink/p/?LinkId=617900) para usuarios con Visio) |Descargue este póster para obtener información sobre CQM, la metodología de calidad de llamadas para Skype Empresarial Server 2015 que le ayuda a encontrar y eliminar problemas que afectan a la calidad de las llamadas y a la experiencia del usuario para implementaciones que incluyen características de voz empresarial. <br/> <br/> Usa la [página de detalles de descarga](https://go.microsoft.com/fwlink/p/?LinkId=617898) para obtener las tarjetas imprimibles y las reglas si quieres jugar como un juego de mesa. Use este póster con el [cuadro de mandos CQM](https://go.microsoft.com/fwlink/p/?LinkId=617904). <br/><br/> Tamaño: 34 por 44 pulgadas <br/> <br/> Este póster se creó con Visio 2015. No debe ser necesaria ninguna modificación para un entorno específico. |

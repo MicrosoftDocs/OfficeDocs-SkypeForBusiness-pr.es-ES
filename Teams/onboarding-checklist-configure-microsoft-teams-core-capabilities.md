@@ -10,18 +10,18 @@ ms.reviewer: rowille
 audience: admin
 description: Siga las tareas principales y las actividades pendientes de esta lista de comprobación al configurar Teams para su organización.
 ms.custom: seo-marvel-apr2020
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be184b85474b164ec1390edc1431156912d1709632c8410869a26175eb0db670
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e721979303a9132a214d797e0a1887d2e0a691b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323972"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582214"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Configurar Microsoft Teams principales
 

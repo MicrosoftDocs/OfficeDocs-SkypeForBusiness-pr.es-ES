@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: La implementación del servidor de chat persistente puede hospedar muchos salas de chat persistente simultáneas. Los salones de chat se pueden organizar en un conjunto de categorías en el servidor. Cada salón de chat pertenece a una categoría, y hereda alguna configuración de esa categoría. Esta configuración crea una estructura útil para identificar conversaciones, en función de su propósito empresarial, y facilita la delegación y simplificación de la administración.
-ms.openlocfilehash: f02bd8eef8accc36b2e05525db180c8483aded94be08c06d090e42377b023c4c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a09ce98016ceb9db05d7d60dc34f945a0c0a5fd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301766"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579334"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Página principal de configuración de chat persistente
 

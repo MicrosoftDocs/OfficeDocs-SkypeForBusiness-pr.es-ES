@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: reference
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Lea este artículo para buscar códigos de país de ruta de acceso multimedia para enrutamiento directo para que pueda seleccionar la ruta de acceso multimedia óptima.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d51a3a5d6b878a607d9e5ee6b71d75319c9802fa48b3192f2023df179db3b49
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36124a8aadc94bfd73ffd195ec8ee0a2acf0c2a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327745"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582354"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Códigos de país de ruta de acceso multimedia de enrutamiento directo
 
@@ -213,7 +213,7 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Corea del Norte     | KP |
 | Macedonia del Norte | MK |
 | Islas Marianas del Norte | NP |
-| Noruega          | No |
+| Noruega          | NO |
 | Omán            | OM |
 | Pakistán        | PK |
 | Palaos           | PW |
@@ -273,7 +273,7 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Timor-Leste     | TL |
 | Togo            | TG |
 | Tokelau         | TK |
-| Tonga           | Para |
+| Tonga           | PARA |
 | Trinidad y Tobago | TT |
 | Túnez         | TN |
 | Turquía          | TR |

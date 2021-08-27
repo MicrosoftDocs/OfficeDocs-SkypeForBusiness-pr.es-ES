@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Summary: Learn how to add, remove, patch, or update Front End Servers in Skype Empresarial Server.'
-ms.openlocfilehash: b091f1fd74cfd2c3d93ee14e9ea6f1b584ec4111443b99f881786e94e038d8b2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4a58eb7ab54102d1287a61a9f736b9d0c1a87108
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290308"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578794"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Administrar servidores front-end en Skype Empresarial Server
  

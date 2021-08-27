@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre licencias de complementos, características y cómo comprar para Microsoft 365 Empresa Estándar planes. '
-ms.openlocfilehash: c5469958a14c860223117742d4a0b3eb2c4d7a9e6f0168e3a7748413fc8426bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f092b8f17eff3aa48717be385795a2ca1c18a36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318035"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589172"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 Empresa Estándar
 

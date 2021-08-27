@@ -12,16 +12,16 @@ ms.collection:
 f1.keywords:
 - CSH
 description: Obtenga información sobre cómo administrar y filtrar etiquetas en Microsoft Teams dispositivos.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a264b6f2679576fac0eb95dbbfafa93037b98cfc3b5f5dfbfa9a07d6b6eeb3bc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dec09762531b15e6889b2be77e7792d9313c606b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321492"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596304"
 ---
 # <a name="manage-microsoft-teams-device-tags"></a>Administrar Microsoft Teams etiquetas de dispositivo
 

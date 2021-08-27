@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que usa el Panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial Online.
-ms.openlocfilehash: 22829b91fe4e40d0690194eff37d60ca5b99d53f
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 366c68b0fdafedabd5af366ee2c4244ea4005576
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505438"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582394"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en panel de calidad de llamada (CQD)
 

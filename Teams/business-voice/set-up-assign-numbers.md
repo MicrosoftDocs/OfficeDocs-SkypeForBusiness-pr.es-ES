@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo asignar Microsoft 365 Business Voice números de teléfono a los usuarios de su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d4b32b6a255ef806e86848d068dc988548988a75fb76c16d2dc4334b0d51d7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 70cd47d9cb1163381ded1ee8ca1eeec0868fd2fc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282853"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582484"
 ---
 # <a name="step-5-assign-business-voice-phone-numbers-to-your-users"></a>Paso 5: Asignar números de teléfono de Business Voice a los usuarios
 
