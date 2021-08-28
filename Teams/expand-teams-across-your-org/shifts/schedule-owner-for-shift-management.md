@@ -14,7 +14,7 @@ searchScope:
 description: Obtenga información sobre cómo administrar los propietarios de turnos para la administración de programación. Puede establecer una directiva para elevar el permiso de un miembro del equipo a un propietario de programación.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9c0bc75e15439cf5fa7c3989bb0854521a1c45b8
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 702ca0fd5b392755b1966d16024d5ecf10cdacab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235755"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627542"
 ---
 # <a name="schedule-owner-for-shift-management"></a>Propietario de la programación para la administración de turnos
 

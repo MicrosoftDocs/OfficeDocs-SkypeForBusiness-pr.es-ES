@@ -14,19 +14,19 @@ ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Aprenda a formar a un equipo de campeones para promover Teams adopción mediante concienciación, adopción y educación en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a29e99a85e0759ca67cb94bd690dac3e690b07fd1269b33aa76e4ca315207d0c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 216323b34d2f0f2778844b901964d56a85d25716
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296627"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612919"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 

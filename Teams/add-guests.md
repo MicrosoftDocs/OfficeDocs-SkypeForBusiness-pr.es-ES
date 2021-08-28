@@ -14,17 +14,17 @@ search.appverid: MET150
 ms.reviewer: rafarhi
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
 description: Los administradores pueden aprender a agregar nuevos invitados a una organización Microsoft Teams clientes web y de escritorio y Azure Active Directory portal de colaboración B2B.
-ms.openlocfilehash: 1525a389b5299491dc7d0de2adfd744d0d3437aff7fbeb5832cd37790ab24ffb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e70b32face0948446ba084f0150dc4da7c9a69b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344399"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611779"
 ---
 # <a name="add-a-guest-to-a-team"></a>Agregar un invitado a un equipo
 

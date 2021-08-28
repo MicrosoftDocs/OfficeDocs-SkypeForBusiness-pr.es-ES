@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 - LIL_Placement
 description: Descargue, instale y, a continuación, use Windows PowerShell 5.1 para crear una sesión remota de PowerShell que se conecte a Skype Empresarial Online.
-ms.openlocfilehash: af3d4346b699c6511b17b0cce0e881c91ceb927cb4a9e5cba57674fb96751b77
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2cbfa65f3170dd516e8bb46365ef663fd237d542
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308041"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612839"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Descargar e instalar Windows PowerShell 5.1
 

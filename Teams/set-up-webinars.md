@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Obtenga información sobre cómo administrar directivas de seminario web para Teams reuniones.
-ms.openlocfilehash: 23c637c1b4192f02ab3e95aa75bf434ae6453afd
-ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
+ms.openlocfilehash: 1ab4f082a270e4d9b3107c0b6ffbb27bd7c70110
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58392917"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612979"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurar seminarios web en Microsoft Teams
 

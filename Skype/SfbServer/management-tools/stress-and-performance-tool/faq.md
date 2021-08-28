@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype Empresarial 2015 stress and performance tool frequently asked questions (FAQ), útil para averiguar qué configuraciones de herramientas son compatibles, solucionar problemas de la herramienta y aclarar comportamientos que puede ver al ejecutar las herramientas de esfuerzo y rendimiento.
-ms.openlocfilehash: 401377560183b598311ed58b1a60291ba84f00b06fb8c4a6bd8b7ec792405084
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 42fdf53965e190e98e716df0780eac04565d0767
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333172"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611939"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Faq for the Skype Empresarial Server 2015 Stress and Performance Tool
  

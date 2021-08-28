@@ -12,15 +12,15 @@ ms.custom:
 - ms.lync.plan.Monitoring
 - ms.lync.plan.Monitoring
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: En Skype Empresarial Server, la supervisión se usa para recopilar información de uso y datos de calidad de la experiencia (QoE) sobre las sesiones de comunicación en las que participan los usuarios.
-ms.openlocfilehash: c05ded292ff2e44de8356f91c73846d31b5bc960b41fd8b6e00241002cfa9648
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 679dcd2fd6d2ca34178ccabbce377e76896aea55
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322182"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627362"
 ---
 # <a name="skype-for-business-server-monitoring-planning-tool"></a>Skype Empresarial Server Herramienta de planeación de supervisión
 

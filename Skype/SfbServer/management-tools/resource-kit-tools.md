@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: En este artículo se describen las herramientas del kit de recursos Skype Empresarial Server 2015, incluido el propósito de cada herramienta, y ejemplos de su uso. El Skype Empresarial Server de recursos de 2015 ayuda a facilitar las tareas rutinarias a los administradores de TI que implementan y administran Skype Empresarial Server 2015. Por ejemplo, la herramienta de datos de Web Conf se puede usar para controlar fácilmente los datos que cargan los usuarios durante una reunión en línea. La herramienta SEFAUtil se puede usar para configurar el reenvío delegado de llamadas y el contestado para los usuarios. Animamos a los administradores de TI a que usen estas herramientas para administrar de forma Skype Empresarial Server 2015.
-ms.openlocfilehash: 421b0cbe3ec7644122d73365159714281a8e425e23392dab96d5b8923f5a8e89
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe281a83790d42cbb08e4f8b12e07d8f5ffcfcbc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333282"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612109"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype Empresarial Server de herramientas del kit de recursos de 2015
 
@@ -102,7 +102,7 @@ Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 ABSConfig proporciona una forma rápida y fácil de personalizar Skype Empresarial Server de libreta de direcciones de 2015.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 #### <a name="computer"></a>Equipo
 
@@ -170,7 +170,7 @@ No hay salida de línea de comandos; el resultado del programa se encuentra dent
 
 El propósito de la herramienta Detección de servicios de directivas de ancho de banda es permitir a los administradores visibilidad del estado de cada uno de los servicios de directiva de ancho de banda definidos en la topología. Además, los administradores pueden ver el uso de ancho de banda en tiempo real para todos los vínculos definidos en el documento de configuración de red.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 La herramienta de supervisión del servicio de directivas de ancho de banda debe ejecutarse en un equipo que forma parte de la topología Skype Empresarial Server directiva.
 
@@ -356,7 +356,7 @@ Filtrar por **región**. Seleccione una lista de regiones cuyos vínculos deben 
 
 ![Filtrado por región.](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 - El .NET Framework 3.5
 
@@ -419,7 +419,7 @@ Según los parámetros de entrada especificados en un símbolo del sistema, El p
 
 El propósito de la herramienta CPS es proporcionar acceso a la línea de comandos a la base de datos cps. El administrador puede ver el uso de CPS y determinar el número de órbitas asignadas a un grupo.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 No hay requisitos si esta herramienta se ejecuta en el mismo equipo que ejecuta CPS. Si esta herramienta se ejecuta en un equipo remoto, la base de datos SQL Server que usa Skype Empresarial Server 2015 debe configurarse para permitir el acceso remoto. El Parkometer de llamadas debe configurarse con una SQL Server de conexión de base de datos para conectarse a la red del grupo SQL Server. Esta SQL Server de conexión de base de datos se define en el archivo de **configuración,parkometer.exe.config**. Debe colocarse en el mismo directorio donde parkometer.exe se encuentra. El siguiente archivo XML es un ejemplo de una parkometer.exe.config. Los parámetros que deben configurarse son nombre de usuario (por ejemplo, mydomain\Administrator), contraseña (por ejemplo, mypassword) y nombre de host (por ejemplo, myserver).
 
@@ -498,7 +498,7 @@ Para instalar Dbanalyze.exe, cópielo en una carpeta local y, a continuación, e
 
 ![Opciones de línea de comandos para Dbanalyze.exe.](../media/Reskit_2012_Tools_Documentation_Image35.JPG)
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
  **Equipo** DBAnalyze solo se puede ejecutar desde un equipo unido a un dominio que Skype Empresarial Server 2015 instalado.
 
@@ -549,7 +549,7 @@ Esta herramienta aumentará la carga de CPU e E/S en el front-end en el que se e
 
 ![Eventos de Storage de eventos del servidor de ejemplo.](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 Instale las Skype Empresarial Server kit de recursos de 2015. La herramienta se ejecuta en máquinas unidas a un dominio donde Skype Empresarial Server y Skype Empresarial Server Shell de administración están instalados. La herramienta usa un cmdlet del shell de administración para identificar todos los Front-End del grupo de servidores. En segundo lugar, la herramienta debe ejecutarse desde una máquina del grupo que tenga instalada la base de datos **RtcLocal.** Esta base de datos la usa la herramienta para recuperar la ubicación del recurso compartido de archivos WEBSERVICE para el grupo. Además, antes de usar la herramienta, cada servidor Front-End debe habilitar primero la comunicación remota de Windows PowerShell con **Enable-PSRemoting** en cada servidor Front-End y la máquina desde la que se ejecuta la herramienta. De lo contrario, Windows PowerShell comandos remotos de esta herramienta producirán un error. Windows PowerShell La comunicación remota se puede desactivar en todos Front-End servidores del grupo una vez finalizada. Por último, la cuenta o credencial que invoca la herramienta debe tener permiso de lectura y escritura para el recurso compartido de archivos de servicio web para el grupo en el que están ejecutando esta herramienta. De lo contrario, la herramienta producirá un error con errores de permiso de E/S.
 
@@ -738,7 +738,7 @@ La herramienta LookupUserConsole muestra información Skype Empresarial Server d
 
  Al ejecutar LookupUserConsole.exe se abrirá un símbolo del sistema que acepta direcciones SIP e intenta mostrar información Skype Empresarial Server de enrutamiento que las relaciona. Escriba **exit** para salir de la herramienta LookupUserConsole.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 Instale el Skype Empresarial Server de recursos de 2015. La herramienta se ejecuta en máquinas unidas a un dominio donde Skype Empresarial Server está instalado.
 
@@ -825,7 +825,7 @@ La herramienta genera los resultados de cada una de las operaciones.
 
   - Resultados de prueba de los equipos que proporcionan el Skype Empresarial Server de directivas de ancho de banda (core) de 2015 en la topología
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 - Esta herramienta debe ejecutarse desde un equipo que se encuentra en la topología y que tiene el almacén local.
 
@@ -947,7 +947,7 @@ Las tres características principales siguientes están disponibles para los age
 
 - **Estadísticas en tiempo real:** Response Group Agent Live proporciona estadísticas en tiempo real para todos los grupos de agentes. La frecuencia de actualización es de un minuto. Cuando un grupo de respuesta responde a una llamada, se agrega un indicador visual junto al nombre del grupo con el número actual de llamadas en cola. Al pausar el puntero sobre un grupo también se muestra el tiempo de espera más largo.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 Response Group Agent Live requiere la .NET Framework 4.0. Además, para aprovechar las características de la presencia y la tarjeta de contacto, Skype Empresarial debe instalarse localmente (y estar en ejecución).
 
@@ -1039,7 +1039,7 @@ Estos son algunos de los escenarios clave en los que se puede usar esta herramie
 
 - Una práctica de servicio al cliente en el departamento de recursos humanos de Contoso es proporcionar servicio personal para todos los autores de llamadas desde la primera llamada. Dado que todos los miembros del departamento se sientan muy cerca unos de otros, hacer que todos los teléfonos suene al mismo tiempo con la llamada de equipo es perjudicial para el equipo. Para proporcionar el mejor servicio sin interrumpir a los miembros del equipo, el administrador de Skype Empresarial Server 2015 aprovecha la funcionalidad de recogida de llamadas en grupo. El administrador agrega todos los miembros del departamento a un grupo de recogida y comunica al departamento el número de grupo de recogida. Cuando Samantha está ausente de su escritorio, Joe observa su teléfono sonando y procede a responder la llamada desde su escritorio.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 La herramienta SEFAUtil solo se puede ejecutar en un equipo que forma parte de un grupo de aplicaciones de confianza. UCMA 3.0 debe instalarse en ese equipo. Para ejecutar la herramienta, se debe crear una nueva aplicación de confianza con el identificador de aplicación SEFAUtil en ese grupo.
 
@@ -1424,7 +1424,7 @@ SYSPrep.ps1 es un script Windows PowerShell que instalará los siguientes requis
 
   Aunque el nombre del script es similar a la Herramienta de preparación del sistema para los sistemas operativos de Microsoft Windows, son diferentes. Este script solo instalará los requisitos previos necesarios para Skype Empresarial Server 2015. Una vez instalados estos requisitos previos, Windows la herramienta SYSPrep se puede usar para crear una imagen del servidor.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 Antes de ejecutar el script SYSPrep.ps1, debe copiar los archivos de requisitos previos en una carpeta local en la máquina del sistema operativo Windows Server 2008 (por **ejemplo, D:\Setup).** Esta carpeta también debe incluir una copia de los archivos Skype Empresarial Server 2015, específicamente **Setup.exe.** Los archivos de requisitos previos se pueden descargar desde las siguientes ubicaciones:
 
@@ -1489,7 +1489,7 @@ El script de migración Anuncios de número sin signo se puede usar en los tres 
 
 - **Mover datos entre implementaciones:** Contoso está en el proceso de reemplazar todos los servidores de un grupo por servidores más recientes. Su estrategia es implementar un nuevo grupo Skype Empresarial Server 2015, mover todos los datos del grupo antiguo al nuevo y, a continuación, desuso del grupo antiguo. Una vez implementado el nuevo grupo de servidores, se usa la herramienta de migración Anuncios de números sinsignados para mover la configuración del grupo antiguo al nuevo.
 
-#### <a name="requirements"></a>Requirements
+#### <a name="requirements"></a>Requisitos
 
 Estos son los requisitos principales necesarios para ejecutar correctamente la herramienta:
 
@@ -1553,7 +1553,7 @@ Esta herramienta genera los resultados de cada una de las operaciones:
 
 - Si se realiza una eliminación, la herramienta genera la lista de todas las carpetas de datos de reunión cuyos datos se eliminarán.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 La herramienta debe ejecutarse en el mismo grupo en el que el organizador se encuentra actualmente.
 

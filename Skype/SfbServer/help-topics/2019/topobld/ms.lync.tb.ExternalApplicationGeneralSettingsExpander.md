@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ExternalApplicationGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para editar las propiedades de un servidor de aplicaciones de confianza que ya se ha definido, siga estas instrucciones.
-ms.openlocfilehash: 97a70b203995581c73556b478f7c15055e3e96694e4079d44b36513d491f4d63
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a19a2271caebe2dc0acc6c2c0609e76abfdb338c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330344"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626882"
 ---
 # <a name="external-application-general-settings-expander"></a>Expansor de configuración general de aplicación externa
  

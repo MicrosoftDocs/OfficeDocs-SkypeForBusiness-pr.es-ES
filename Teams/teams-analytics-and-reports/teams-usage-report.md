@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: kojika
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ description: Aprenda a usar el informe de uso de Teams en el centro de administr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 344a263d2512914571877f7761843f0cf85810335a234e154e9a7f3c021d0644
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2913093cfa45bb7e242dbe5452657cd74f9e187
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282543"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627252"
 ---
 # <a name="microsoft-teams-usage-report"></a>Informe de uso de Microsoft Teams
 

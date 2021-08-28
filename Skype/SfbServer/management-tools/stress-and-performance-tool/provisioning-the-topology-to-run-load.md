@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: Skype Empresarial Server la topología de 2015 o el aprovisionamiento para permitir que los usuarios ejecuten correctamente la herramienta De esfuerzo y rendimiento.
-ms.openlocfilehash: 750a53882344d4a1df357b049fbd1dcbf01c3368fb903552bc5f398761cce66a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 224a2c1afde71ce94b69826ee0222dce729d22d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328115"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611919"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Aprovisionamiento de la topología para ejecutar la carga en escenarios de estrés y rendimiento
  

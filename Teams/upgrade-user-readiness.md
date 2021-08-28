@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Planee comunicarse con, entrenar y dar soporte a los usuarios a medida que pilote, aborde y actualice a Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af098209bf61ed26b90b1b109215ba13ad9a681205ebd8fcc6339f72cdaa588b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61dd52a83620b0d4d20547e0da14cafa11ce30dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318144"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627392"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Preparar un plan de preparación del usuario
 

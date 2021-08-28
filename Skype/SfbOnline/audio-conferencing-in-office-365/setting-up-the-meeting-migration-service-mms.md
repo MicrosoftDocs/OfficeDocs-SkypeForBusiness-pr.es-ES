@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Servicio de migración de reuniones (MMS) es un servicio que se ejecuta en segundo plano y actualiza automáticamente Skype Empresarial y Microsoft Teams reuniones para los usuarios. MMS está diseñado para eliminar la necesidad de que los usuarios ejecuten la Herramienta de migración de reuniones para actualizar sus Skype Empresarial y Microsoft Teams reuniones.
-ms.openlocfilehash: 68a3ef384c67835b25ff5db7ee6dfccf8b2ca1a7
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 3fefc7aa45df3323f8c96801bde1cb301ff40572
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523871"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613269"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Usar el servicio de migración de reuniones (MMS)
 

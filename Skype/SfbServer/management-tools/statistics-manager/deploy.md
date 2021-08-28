@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumen: lea este tema para obtener información sobre cómo implementar el Administrador de estadísticas para Skype Empresarial Server.'
-ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 966d6aa71eff93f616ae0eb1a7443aebab600016
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333262"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612099"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implementar el administrador de estadísticas para Skype Empresarial Server
  
@@ -185,7 +185,7 @@ Para importar la topología Skype Empresarial Server, siga estos pasos:
   
 1. En un host que tenga el Skype Empresarial Server cmdlets de PowerShell:
     
-    a. Ejecute el comando siguiente: 
+    a. Ejecute el siguiente comando: 
     
    ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
@@ -228,7 +228,7 @@ Si desea supervisar servidores que no están en la topología de Skype Empresari
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
-2. Ejecute el comando siguiente:
+2. Ejecute el siguiente comando:
     
    ```powershell
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
@@ -286,7 +286,7 @@ Microsoft recomienda encarecidamente que use un certificado firmado por una enti
     
 4. Haga clic con el botón **secundario en StatsManListener: \> Todas las tareas: Administrar claves \> privadas...**
     
-5. Seleccione **Agregar**.
+5. Haga clic en **Agregar**.
     
 6. En el **cuadro Escriba los nombres de objeto que desea** seleccionar, escriba lo siguiente: Servicio de red
     

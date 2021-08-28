@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el Teams de uso de dispositiv
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15dfe1fe7e79e909b11093c019ac38c6cb5d967e46146d4ce0262499ca880018
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fdb7292ab36f41eb4c64233ea836f688cec49bb3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308381"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627532"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Informe de uso de dispositivos de Microsoft Teams
 

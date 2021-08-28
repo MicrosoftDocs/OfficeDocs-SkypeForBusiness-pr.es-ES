@@ -13,16 +13,16 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar el teclado de marcado en el cliente Teams para que los usuarios puedan acceder a la funcionalidad de red telefónica conmutada (RTC).
-ms.openlocfilehash: 848e52859be3b2339e1e1968631c6d55fc7a8df79dc3a691fd47e9613f7f583d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f67aeda059505ec5c1e78d117407f0e9703f732
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344319"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627622"
 ---
 # <a name="dial-pad-configuration"></a>Configuración del teclado de marcado
 

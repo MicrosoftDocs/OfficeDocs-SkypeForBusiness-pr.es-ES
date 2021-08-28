@@ -12,16 +12,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Enumera los planes de licencias de profesores y estudiantes de educación y los IDs de SKU.
 f1keywords: ''
-ms.openlocfilehash: 38bfcfc39179253a30b45f2ce2c52be1b605a4b65832a5565521209c308a6205
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0fd67dd27a497712e48cb0664712963a61d678c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297776"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627088"
 ---
 # <a name="education-sku-reference"></a>Referencia de SKU de educación
 

@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Estados Unidos (incluido Puerto Rico) para Microsoft Teams.
-ms.openlocfilehash: 367c61efc5a399945b628b1c4d13cb15b609e2a8
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: a7f1e12696f49ac09c473809d246cbdc8de8986c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399099"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627552"
 ---
 # <a name="phone-number-management-for-the-united-states"></a>Teléfono de números para Estados Unidos
 
