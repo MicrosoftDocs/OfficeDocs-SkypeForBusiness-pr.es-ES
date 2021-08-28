@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabla para encontrar información sobre cómo obtener y administrar números de teléfono en Australia para Microsoft Teams.
-ms.openlocfilehash: c9f74c8f3cb427c0b9870d0892a12ce4770dbb56
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 156fe90556f63aaadc298b2b7c4340f5e9aa1c33
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233845"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630152"
 ---
 # <a name="phone-number-management-for-australia"></a>Administración de números de teléfono para Australia
 

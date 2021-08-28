@@ -14,18 +14,18 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre las notificaciones de prioridad en Microsoft Teams mensajes.
-ms.openlocfilehash: f5d68de25daebe79604d8069966a855e0c5b2db9971c35e973c0a726df92bbcd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8ee9173aa0b6da0bfc72d8b9ebbf68047c4df69
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316676"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629992"
 ---
 # <a name="messaging-policies-licensing"></a>Licencias de directivas de mensajería
 

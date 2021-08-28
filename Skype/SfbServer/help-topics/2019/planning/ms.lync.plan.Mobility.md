@@ -12,15 +12,15 @@ ms.custom:
 - ms.lync.plan.Mobility
 - ms.lync.plan.Mobility
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: La característica de movilidad de Skype Empresarial Server admite Skype Empresarial funcionalidad en dispositivos móviles.
-ms.openlocfilehash: f8853aedbfcb59f43452c9d48eba9c782255b0005d90a27767dc939f522eb5c4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c03de74d6c67b005938405700ad5331030839001
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342525"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583004"
 ---
 # <a name="skype-for-business-server-mobility-planning-tool"></a>Skype Empresarial Server Herramienta de planeación de movilidad
  

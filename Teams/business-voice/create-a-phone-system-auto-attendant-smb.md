@@ -15,18 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para pequeñas empresas en Microsoft 365 Business Voice.
-ms.openlocfilehash: 0eaa5c61a85bcf189e13f9cdfff43e68f12090c42533c69b2d0154da81a6f3e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04df17f84bccb18f9cd1184574b118e8c870a0e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332972"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630264"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurar un operador automático : tutorial de pequeña empresa
 

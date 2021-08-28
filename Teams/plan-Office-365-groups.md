@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: Obtenga información sobre cómo planear Microsoft 365 grupos en Teams, incluidas las diferencias entre grupos & Teams conversaciones y cómo Teams directiva de nomenclatura de grupos.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -20,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f864caee2eb81603bd5a298a01ac3573336fd22f
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 29fd455954dc582e0e34c9e909611e609578f5fa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234845"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630092"
 ---
 # <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Planear grupos Microsoft 365 al crear equipos en Microsoft Teams
 

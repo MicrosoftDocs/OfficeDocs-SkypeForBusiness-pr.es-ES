@@ -14,18 +14,18 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre las licencias de complementos para Microsoft Teams y las características que obtiene con cada licencia.
-ms.openlocfilehash: 568ff0edd9dea24bca6eba02f0972f04990721cc4d68522fd6c9d6d76adc2bc0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 238b49964169e3128cd18d47eddc1f39255823aa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350432"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630012"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams de complementos
 
@@ -103,7 +103,7 @@ Créditos de comunicación de audioconferencia </td><td>O bien</td>
 <td>Créditos de comunicación de audioconferencia</td>
 </tr>
 <tr class="odd">
-<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1</td>
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1</td>
 <td>Microsoft 365 Empresa Voice<br>Plan de llamadas internacionales <br />(opcional) Créditos de comunicación </td><td>O bien</td>
 <td>Microsoft 365 Business Voice sin plan de llamadas</td><td>O bien</td>
 <td>Audioconferencia<br> Sistema telefónico<br>Plan de llamadas nacional<br>Plan de llamadas nacionales e internacionales (opcional)<br>Créditos de comunicación</td>
@@ -150,7 +150,7 @@ Este es un resumen, basado en el plan de licencias.
 <td></td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1<br></td><td>Audioconferencia<br>Sistema telefónico<br>Plan de llamadas nacional<br>Plan de llamadas nacionales e internacionales (opcional)<br>Créditos de comunicación</td>
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1<br></td><td>Audioconferencia<br>Sistema telefónico<br>Plan de llamadas nacional<br>Plan de llamadas nacionales e internacionales (opcional)<br>Créditos de comunicación</td>
 <td></td>
 </tr>
 <tr class="odd">

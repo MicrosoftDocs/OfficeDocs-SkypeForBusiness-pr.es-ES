@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Jamaica.
-ms.openlocfilehash: cc8063c9162e7a12c83ac6613d3024c56dfb41a261e2ff21dc0956b950c0ba6d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5a1ad442ad23aaf6fea64b9822feba536339c679
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284440"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607687"
 ---
 # <a name="availability-in-jamaica"></a>Disponibilidad en Jamaica
 

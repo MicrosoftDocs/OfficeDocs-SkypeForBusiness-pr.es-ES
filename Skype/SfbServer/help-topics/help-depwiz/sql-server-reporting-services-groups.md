@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeploySSRSGroups
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 description: En Especificar grupo de solo lectura, especifique el grupo al que desee conceder acceso de solo lectura a informes de supervisión.
-ms.openlocfilehash: 401aefb19ec192e4096bd956d54763c4c7663b0571cb9cfd708e34e6373084f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dfab2c42a40506194ebcb6909efc6eb893f9c51b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328355"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582944"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQL Server Reporting Services (grupos)
 

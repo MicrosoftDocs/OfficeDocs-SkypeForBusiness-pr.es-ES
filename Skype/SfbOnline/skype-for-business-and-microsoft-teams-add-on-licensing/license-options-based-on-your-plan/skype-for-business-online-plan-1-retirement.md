@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 description: El Skype Empresarial Online Plan 1 se ha retirado. Sin embargo, si tiene una suscripción actual a Skype Empresarial Plan en línea 1, este cambio no le afectará inmediatamente. Cuando esté listo para pasar a un nuevo plan, ya sea ahora o durante la renovación, tendrá tres opciones.
-ms.openlocfilehash: 1fcab902c9d3c05713a3bf263fa54cf33e7036f1b8cf9b7b8935fe966f8d5659
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0946ff0ee6b38f36cdb2f6bd8dcea728fc65c92a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316376"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583384"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype Empresarial Online Plan 1 jubilación 
 

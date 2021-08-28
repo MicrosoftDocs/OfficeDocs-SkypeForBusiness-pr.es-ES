@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Summary: Learn about the Failure List Report in Skype Empresarial Server.'
-ms.openlocfilehash: b132982af91f81af1ac1d151853a3f7fdc597ff31476e6a5484fc04b9d9efa4d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3943c802bd6f6bce593c8fdfafb05179252712b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301356"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582744"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Informe de lista de errores en Skype Empresarial Server 
  
@@ -101,7 +101,7 @@ En la tabla siguiente se muestra la información proporcionada en el Informe de 
   
 **Métricas de informe de lista de errores**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Hora notificada** <br/> |No  <br/> |Fecha y hora en que se registró el informe.  <br/> |
 |**Solicitud** <br/> |No  <br/> |Tipo de solicitud SIP que ha fallado. Por ejemplo, INVITE o BYE.  <br/> |
