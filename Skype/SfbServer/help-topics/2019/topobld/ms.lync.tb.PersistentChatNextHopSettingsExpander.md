@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para configurar el grupo de servidores de próximo salto de chat persistente, seleccione un servidor front-end o un grupo de servidores front-end de la lista.
-ms.openlocfilehash: 7944b51ad3f78db47be02d44aa51655775669c5b126252c09340304cfef3c804
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b062fd63f900ce6c4b95c290829b1f53a939976
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315986"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634654"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Expansor de configuración de próximo salto del chat persistente
 

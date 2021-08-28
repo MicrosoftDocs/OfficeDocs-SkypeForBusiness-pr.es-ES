@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Para editar la configuración de un grupo de servidores perimetrales de uno o varios servidores existentes, le presentamos las secciones siguientes:'
-ms.openlocfilehash: 28d998986f21e089b34c9a58b9acb238c2aa8ab3108296566ce14210c87220d7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d511f3fbb3e862016ddeeeae461c65af13f9598
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281123"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633654"
 ---
 # <a name="edge-settings-expander"></a>Expansor de configuración perimetral
 

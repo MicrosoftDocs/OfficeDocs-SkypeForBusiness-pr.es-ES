@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
 description: Skype Empresarial Server de seguridad.
-ms.openlocfilehash: ff8756b54d023f64e6cb6507f9033d4268c994ed6cdc4ec00c220448cd26d57e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b5aad37f50b1ea106c2dead8e2443a30c893bf2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337668"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627882"
 ---
 # <a name="plan-for-security-in-skype-for-business-server"></a>Plan for security in Skype For Business Server 
  

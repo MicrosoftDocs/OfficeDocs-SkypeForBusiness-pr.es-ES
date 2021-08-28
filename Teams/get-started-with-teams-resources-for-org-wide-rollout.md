@@ -12,7 +12,7 @@ description: Una vez configurados los primeros equipos, aprenda a implementar Mi
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-mar2020
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bccc3f9253a9aecdfe0b6fd99c9edd7653f408b653224f754d352ebb479a9cd1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d1d93cd4261dc1826351a18b8a325abe2a8913de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322572"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633314"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Iniciar la implementación de Microsoft Teams en toda la organización
 
@@ -43,7 +43,7 @@ Seleccione **Empresa grande** si quiere crear un proceso formal de adopción par
 
 #### <a name="small-business"></a>[Empresa pequeña](#tab/SmallBusiness)
 
-La configuración de Teams para empresas pequeñas es ideal para aquellas organizaciones que desean contar con todas las funciones de Teams pero que no tienen las características de las empresas grandes que requieren de una mayor planificación. Por ejemplo, las organizaciones pequeñas no necesariamente requieren procesos de implementación a gran escala ni cumplir con los requisitos de normativos de otros países.
+La configuración de Teams para empresas pequeñas es ideal para aquellas organizaciones que desean contar con todas las funciones de Teams pero que no tienen las características de las empresas grandes que requieren de una mayor planificación. Por ejemplo, las organizaciones pequeñas no necesariamente requieren procesos de implementación a gran escala ni cumplir con los requisitos de normativas de otros países.
 
 Si su organización cumple con estas características, puede completar el proceso de configuración de Teams para empresas pequeñas. La configuración para empresas pequeñas le permite comenzar a trabajar con Teams rápidamente al omitir las consideraciones específicas para empresas grandes.
 

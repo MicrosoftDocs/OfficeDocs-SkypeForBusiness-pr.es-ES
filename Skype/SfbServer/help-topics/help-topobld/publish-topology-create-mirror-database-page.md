@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologyCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco se incluyen para referencia futura.
-ms.openlocfilehash: 9ef9adcbf180a91a3e459e01d3f91b96e181a888b9a91eab91abdcf301a7c09c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 463886be1705ceb21994d66401887963fae04993
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307111"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627992"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>Publicar página de topología Crear base de datos de reflejo
  

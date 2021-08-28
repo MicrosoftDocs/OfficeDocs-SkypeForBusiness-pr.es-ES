@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 'Resumen: administrar las opciones de configuración del servicio web en Skype Empresarial Server.'
-ms.openlocfilehash: a4fb1474655e695f030180a7345375ef1a1e53e3aaadad18167ed7d41d3a9864
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f007a93eb71fc015f71ddef51011008315de82e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328165"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633614"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Administrar las opciones de configuración del servicio web en Skype Empresarial Server
  

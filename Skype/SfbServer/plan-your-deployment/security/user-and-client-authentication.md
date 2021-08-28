@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Un usuario de confianza es uno cuyas credenciales han sido autenticadas por un servidor de confianza en Skype Empresarial Server. Este servidor es, por lo general, un servidor Standard Edition, un servidor front-end Enterprise Edition o un director. Skype Empresarial Server se basa en los Servicios de dominio de Active Directory como el repositorio back-end único y de confianza de las credenciales de usuario.
-ms.openlocfilehash: 5c0a193f8164faac112a5539154eb95baac20ce5313d07607a96c509a3d06736
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 069ce556f37591f7332e8e968dc02e657b090d03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346416"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627802"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Autenticación de usuario y cliente para Skype Empresarial Server
  

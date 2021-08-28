@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lea este tema para obtener información sobre cómo supervisar la implementación de Cloud Connector versión 2.1 y versiones posteriores mediante Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 1e2156ec8cff777b7bbad595b9792972508edbd455d6a1d27a65b95ad01c5def
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 43ebfe689e113daa063a2ef2ed0d9b68a9d9d66a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339996"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627732"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Supervisar Cloud Connector con Operations Management Suite (OMS)
 

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 description: La tabla tblComplianceParticipant contiene los participantes actuales por canal y por servidor.
-ms.openlocfilehash: 4da7a5511caba65dc1ab4027647bed3262601dd4ef2e35949ae0bc0978451145
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c94aab78c7f0cc9a04e849a2ad798134ff38e42
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351929"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627772"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  

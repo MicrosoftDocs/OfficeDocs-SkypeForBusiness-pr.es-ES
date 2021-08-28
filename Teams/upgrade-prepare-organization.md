@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Evalúe la disposición de su organización para aceptar cambios y prepare un plan para preparar a los usuarios para actualizar de Skype Empresarial a Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68367cc1879ae514e430b26d46aeb5e830f5d5e3af69a7a60404cc3fe5333a33
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bf2faf2c70fb06efe67e2b108d44612fb2d4b430
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312438"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634794"
 ---
 # <a name="prepare-your-organization"></a>Preparar la organización
 

@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Summary: Learn how to configure your Skype Empresarial Server 2015 infrastructure to work with System Center Operations Manager.'
-ms.openlocfilehash: d2a026de164a58365377f697aa88cf91b728722875aa9cdf8733444055742ce1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5dc5a4c01cd4e45c6b1145725b17073d910e66f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283222"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627982"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Administrar Skype Empresarial Server 2015 con el módulo de administración de SCOM
  
@@ -60,7 +60,7 @@ En la tabla siguiente se muestran los requisitos de capacidad y sistema operativ
 |:-----|:-----|
 |CPU  <br/> |Uno de los siguientes:  <br/> Procesador de 64 bits, cuatro núcleos, 2,33 GHz o superior  <br/> Procesador de 2 vías de 64 bits, doble núcleo, 2,33 GHz o superior  <br/> |
 |Memoria  <br/> |8 GB  <br/> |
-|Sistema operativo  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
+|Sistema operativo  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |Red  <br/> |1 adaptador de red a 1 Gbps  <br/> |
    
 ## <a name="prerequisites"></a>Requisitos previos
@@ -130,7 +130,7 @@ Skype Empresarial Server módulos de administración de 2015 proporcionan una ma
 |:-----|:-----|:-----|
 |1  <br/> |Registro (inicio de sesión de usuario)  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
 |2  <br/> |Servicio de libreta de direcciones (descarga de archivos)  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
-|3  <br/> |Consulta web de la libreta de direcciones  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
+|3   <br/> |Consulta web de la libreta de direcciones  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
 |4   <br/> |Presencia  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
 |5   <br/> |Almacén de contactos unificado  <br/> |Lync Server 2013 y posteriores disponibles  <br/> |
 ||||   
@@ -148,12 +148,12 @@ Skype Empresarial Server módulos de administración de 2015 proporcionan una ma
 |Transacciones sintéticas admitidas para conferencias y chat persistente|||
 |:-----|:-----|:-----|
 |9   <br/> |Conferencia de audio y videoconferencia  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
-|10   <br/> |Conferencia de datos  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
-|11  <br/> |Conferencia de mensajes instantáneos  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
+|10  <br/> |Conferencia de datos  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
+|11   <br/> |Conferencia de mensajes instantáneos  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
 |12   <br/> | Chat persistente <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
-|13  <br/> |Unirse Selector (reuniones programadas)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
+|13   <br/> |Unirse Selector (reuniones programadas)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
 |14   <br/> |Conferencia de acceso telefónico local  <br/> |Nuevo en Skype Empresarial Server 2015  <br/> |
-|15  <br/> |Conferencia de uso compartido de aplicaciones  <br/> |Nuevo en Skype Empresarial Server 2015  <br/> |
+|15   <br/> |Conferencia de uso compartido de aplicaciones  <br/> |Nuevo en Skype Empresarial Server 2015  <br/> |
 |16   <br/> |Conferencia UCWA (unirse a una reunión web)  <br/> |Nuevo en Skype Empresarial Server 2015  <br/> |
 ||||
 

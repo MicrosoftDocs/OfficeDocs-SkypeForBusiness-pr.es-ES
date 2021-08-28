@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Summary: Review the Windows client support requirements while planning Skype Empresarial Server.'
-ms.openlocfilehash: e26390920334db03fe1d9f9652759f2018d8306f2d57fce50a32165c4d20bb28
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 755f60030c905bfb5a5f488e2573c12b3396ab1e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317475"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627952"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows cliente y compatibilidad con software
  

@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 'Resumen: bloquear o desbloquear el PIN de conferencia de acceso telefónico local de un usuario para Skype Empresarial Server.'
-ms.openlocfilehash: d0871622a045555dcd2da49a6bbbd6721a8d3302a6bf3c7800092e4f7e062d32
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8348685e925d9726c43ecd54b6116b9b40652208
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284810"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633644"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Bloquear o desbloquear un PIN de usuario en Skype Empresarial Server
  

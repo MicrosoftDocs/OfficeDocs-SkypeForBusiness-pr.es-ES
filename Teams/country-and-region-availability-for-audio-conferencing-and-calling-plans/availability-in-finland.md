@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Finlandia.
-ms.openlocfilehash: d6236374496f59172f3c54d9d156a39e0cedd674db5181ee3e86c1e47e2f80b0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 860fe2b7c63a86e7fe7bb05f683ca9c2fae6de52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332862"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634934"
 ---
 # <a name="availability-in-finland"></a>Disponibilidad en Finlandia
 

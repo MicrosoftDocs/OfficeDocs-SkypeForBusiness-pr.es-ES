@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: Tareas y actividades necesarias para la Teams de servicios, incluida la supervisión del estado del servicio y la evaluación y la garantía de la calidad y el uso de la red.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222d983a3fc67323ea3d7942c681a3c2ec3b41f00f597ead360869880881e83b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8376f6d2c385f2c7feee3c7051d7978e1deb04b9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302124"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633454"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 

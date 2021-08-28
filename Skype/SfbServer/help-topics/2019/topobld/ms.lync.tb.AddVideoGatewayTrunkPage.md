@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVideoGatewayTrunkPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9485bea9-c646-4eb7-b3d0-dcbc57cdfbda
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server.
-ms.openlocfilehash: 54b315fa464d21b006eefaf11fbd7db270ce728c5e819e9edca167a916e26a43
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3217962d3f3af889e70998243b7bdb85efc05eda
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317635"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634684"
 ---
 # <a name="add-video-gateway-trunk"></a>Agregar tronco de puerta de enlace de vídeo
  

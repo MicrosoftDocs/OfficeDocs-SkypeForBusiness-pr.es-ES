@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: akshbhat
 search.appverid: MET150
 description: Obtenga información sobre cómo usar Cortana de voz con Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Teams-upgrade-guidance
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6f411826b399c0fdbda5f4a6f23ebbcf68da10eca5f705bc88175bc27d97f5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 45d2112dc7b81d72ccffcb8b4f04471b629d52a1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329215"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633404"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana de voz en Teams
 

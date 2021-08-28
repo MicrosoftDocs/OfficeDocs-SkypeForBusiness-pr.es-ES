@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 5bd81e85f3944ce1a38bed2c1dc4110f3d3eaf9d7c59f3e0b3180c911d513f5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4ecdcf951fde12af53b64cdafd4028e5638f6f27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340516"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633434"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Idiomas admitidos para Audioconferencia
 

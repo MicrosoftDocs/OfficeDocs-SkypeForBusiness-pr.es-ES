@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Cada registro representa una secuencia de audio. Una línea de medios de audio normalmente contiene dos secuencias de audio.
-ms.openlocfilehash: 28111f9c97efdc729d13fda824f4236caad97eee1f08ff31eea0b751dda1cb88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b442c011d9e65e67fdc5cb06dd79c0f5fbee8c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309199"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627762"
 ---
 # <a name="audiostream-table"></a>Tabla AudioStream
  
