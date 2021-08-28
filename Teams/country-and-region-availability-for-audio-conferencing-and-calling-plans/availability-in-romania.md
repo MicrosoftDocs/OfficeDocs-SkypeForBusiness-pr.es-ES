@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios para Skype Empresarial y Microsoft Teams disponibles para Rumania.
-ms.openlocfilehash: 4d9bfd3b0d6f5dc13b6922b12b4c005fd86130889b5c923ecf9955a12852fc01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 101b240bd79aa7ef867e4dd5a26452a28676759d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337538"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618606"
 ---
 # <a name="availability-in-romania"></a>Disponibilidad en Rumania
 

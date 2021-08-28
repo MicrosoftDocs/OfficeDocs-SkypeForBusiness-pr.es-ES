@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Resumen: configure un tronco con la omisión de medios habilitada para Skype Empresarial Server. Esto le permitirá minimizar el número de servidores de mediación, presumiendo que el proveedor de troncos SIP lo admite.'
-ms.openlocfilehash: f009cc15279cde28b531747adf77a7adf89fa407efaa9a30ff731e37f2f23f0e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b7bb6be3e006043a59b833b5f9db26001c699847
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287629"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625632"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>Skype Empresarial Server: Configurar un tronco con desvío de medios
 

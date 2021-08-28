@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 'Para especificar nuevas direcciones URL, o bien quitar las ya existentes o cambiar las direcciones URL sencillas activas, efectúe lo siguiente:'
-ms.openlocfilehash: 4a3d0a885c0c963cb8ebe162f39858f1d399b85d5ea158053326436110eb9b78
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 230ad40510f02f5945bd0af2902c818af996ca70
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297406"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626682"
 ---
 # <a name="simple-url-settings-expander"></a>Expansor de configuración de dirección URL simple
 

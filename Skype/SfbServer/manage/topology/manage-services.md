@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Obtenga información sobre cómo ver el estado del servicio, iniciar y detener servicios e impedir sesiones para los servicios.
-ms.openlocfilehash: 01190d11339dd3549177964ae766a10668bc07e679ddc1f7580ac2339514e008
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c1f527e32d50624fddc1b4b261f6fbd20e97a47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604829"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Administrar servicios en Skype Empresarial Server
 

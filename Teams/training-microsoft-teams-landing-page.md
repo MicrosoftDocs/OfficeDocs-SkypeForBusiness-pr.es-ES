@@ -8,7 +8,7 @@ ms.author: v-cichur
 audience: admin
 manager: serdars
 ms.service: msteams
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: af234dd572b2a5aa63702a1c5495a19a648c037a6b98924b4d6b269abf902fe9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2f979b424ec9f0b27b179a69b7b784a2051dfb86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310399"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603181"
 ---
 # <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoicePublishSum
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 description: Si los cambios no se han completado, revise los mensajes de este cuadro de diálogo, cambie la configuración de enrutamiento de voz y vuelva a intentarlo.
-ms.openlocfilehash: 041a7a2ff9b9e13f93c392fbeaa18b055dd7db247c3647d4de269a5454f26b10
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4fa0de36774716805ad818176d0dce848ee8398d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315896"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626712"
 ---
 # <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>Enrutamiento de voz: Estado de confirmación de cambios para la configuración del enrutamiento de voz
  

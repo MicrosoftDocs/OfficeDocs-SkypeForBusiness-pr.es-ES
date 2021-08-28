@@ -9,19 +9,19 @@ manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: Revise los escenarios Skype Empresarial Server de implementación, tanto si desea un solo servidor como si prefiere un grupo de servidores con DNS o HLB.
-ms.openlocfilehash: 599cc1a779b0d62aa7870c07013e0766a9f8da1e4e5723e988b402b51a0c8f2c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5086d68f8cac1fd68dbc3c0414b0136e463efff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320133"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595498"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>Planear la implementación avanzada del servidor perimetral para Skype Empresarial Server
  
@@ -211,14 +211,14 @@ Todos los registros DNS de esta tabla son ejemplos.
   
 |**Registro GeoDNS**|**Registros de grupo**|**Registros CNAME**|**Configuración dns (seleccione una opción)**|
 |:-----|:-----|:-----|:-----|
-|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com  <br/>   <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com  <br/>   <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com   <br/>  <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com  <br/>  <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com   <br/>   <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com  <br/>  <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com   <br/>  <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com   <br/>  <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com  <br/>   <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com  <br/>   <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com   <br/>  <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com  <br/>  <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com   <br/>   <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com  <br/>  <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com   <br/>  <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com   <br/>  <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
    
 ## <a name="dns-load-balancing"></a>equilibrio de carga de DNS
 <a name="DNSLB"> </a>

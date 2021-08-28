@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype Empresarial Server incluye varias características de seguridad, como la autenticación de servidor a servidor, el control de acceso basado en roles y el almacenamiento centralizado de datos de configuración.
-ms.openlocfilehash: bf4b2c9bb96e7180b5da61462db137f0624ea9efa504295336ed05668bde4410
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eff104fa777837180f4c5b9118fd29a6341267e4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329534"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595374"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Características clave de seguridad en Skype Empresarial Server
  

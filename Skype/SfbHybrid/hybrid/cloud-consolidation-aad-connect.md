@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: En este apéndice se incluyen pasos detallados para actualizar los Conectar AAD para incluir más de un bosque como parte de la consolidación de la nube para Teams y Skype Empresarial.
-ms.openlocfilehash: 885e37b2131d455cc4c114f99bb4a95e7aa4896f2d43b55b398e543dc3674e55
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e803ae1e41fd0e68a56e059bbaf398ee30f807f6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295937"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625802"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>Actualizar AAD Connect para incluir más de un bosque
 
@@ -40,6 +40,6 @@ Azure AD Conectar [la sincronización desde varios bosques.](/azure/active-direc
  ![La página Identificación única de los usuarios](../media/cloud-consolidation-uniquely-identifying-your-users.png)
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Consolidación de nube para Teams y Skype Empresarial](cloud-consolidation.md)

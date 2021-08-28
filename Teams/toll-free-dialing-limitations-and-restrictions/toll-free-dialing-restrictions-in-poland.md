@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en Polonia, incluida la disponibilidad, la disponibilidad de la red móvil o por cable y de línea fija, y las restricciones.
-ms.openlocfilehash: f7b8fcfe3821f99e198ed2b33a6d7c05ba01ca8dbb05bf817c562234e901416e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d14f0dd9981c3002e7e230d65e2a4bc95f4394e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282493"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603245"
 ---
 # <a name="toll-free-dialing-restrictions-in-poland"></a>Restricciones de marcado de número gratuito en Polonia
 

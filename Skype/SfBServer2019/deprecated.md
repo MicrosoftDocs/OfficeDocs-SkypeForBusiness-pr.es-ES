@@ -9,15 +9,15 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumen: estas características se han quitado de Skype Empresarial Server 2019.'
-ms.openlocfilehash: c6ba9d9945ae5dde2a9898fe5adfd44192faceb5
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: cdc7b54f815c324707ee657d8365aa842f28293d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372060"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595034"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Lo que está en desuso Skype Empresarial Server 2019
 
@@ -71,7 +71,7 @@ Las siguientes herramientas no son compatibles con Skype Empresarial Server 2019
 - Skype Empresarial Server de planeación de 2015
 - Skype Empresarial Server 2015 Stress and Performance Tool
 
-### <a name="see-also"></a>Vea también
+### <a name="see-also"></a>Consulte también
 
 [Novedades de Skype Empresarial Server 2019](whats-new.md)
 

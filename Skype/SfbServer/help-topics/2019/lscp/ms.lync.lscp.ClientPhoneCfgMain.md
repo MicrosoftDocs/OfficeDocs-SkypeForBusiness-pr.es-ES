@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: Una configuración de dispositivo es una colección de opciones que se usan para administrar Skype Empresarial Teléfono Edition, ya sea globalmente o dentro de un sitio. Estos valores le permiten configurar aspectos como el modo de seguridad requerido, el nivel de registro del dispositivo, los ajustes de calidad de servicio de voz (QoS) y especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
-ms.openlocfilehash: c8f1b8e453bf92c103808c0e3500597d1a81b57ed61e4cc22856aeab2284e5b0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2a97c318d3d810e7479ed7b43ec75ebc24886a09
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316316"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625592"
 ---
 # <a name="device-configuration"></a>Configuración de dispositivo
  
@@ -42,7 +42,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
     
   - Global
     
-  - Site
+  - Sitio
     
 - **Editar** Puedes cambiar las opciones de una configuración de dispositivo en la lista. Al usar esta opción, puede hacer lo siguiente:
     

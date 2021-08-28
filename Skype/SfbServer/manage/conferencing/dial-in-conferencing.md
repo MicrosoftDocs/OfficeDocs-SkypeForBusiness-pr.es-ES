@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: 'Resumen: obtenga información sobre cómo administrar las conferencias de acceso telefónico local en Skype Empresarial Server.'
-ms.openlocfilehash: f091983f9db68e093712b0c5f87f09bb4991974cc593296f2511f5851223faf6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b15a3c8b6a92faaf552bb727e05afa5a618ddd12
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315586"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595542"
 ---
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Administrar conferencias de acceso telefónico local en Skype Empresarial Server
  
