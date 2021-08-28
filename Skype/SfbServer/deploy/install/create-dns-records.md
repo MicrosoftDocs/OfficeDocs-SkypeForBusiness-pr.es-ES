@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Resumen: obtenga información sobre cómo configurar DNS y crear registros DNS para una instalación de Skype Empresarial Server. Descargue una versión de prueba Skype Empresarial Server desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 94d4f9d0713c2516e466ae25faf05808a56ac103c0571dd151bdc25e2a892f8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8584f267f71f2f3af68875c6c2eee28b1d79dbfe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307751"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585536"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Crear registros DNS para Skype Empresarial Server
  
@@ -42,7 +42,7 @@ Los registros DNS son necesarios para que Skype Empresarial Server funcionen cor
 En este ejemplo se usa un FQDN equilibrado de carga DNS denominado pool.contoso.local. Este grupo consta de tres servidores que ejecutan Skype Empresarial Server Enterprise Edition. Un Standard Edition front-end solo puede contener un único servidor. Al usar Standard Edition, solo usaría el nombre de dominio completo (FQDN) del servidor de Standard Edition único al hacer referencia al rol front-end en lugar de crear un grupo de servidores con carga equilibrada dns, como se muestra en este ejemplo. En este ejemplo sencillo que solo usa el rol front-end se incluyen las entradas DNS de la tabla siguiente. Para planear los requisitos DNS específicos, vea [Requisitos dns para Skype Empresarial Server](../../plan-your-deployment/network-requirements/dns.md). 
   
  
-|**Description**|**Tipo de registro**|**Nombre**|**Da como resultado**|**Tipo de equilibrio de carga**|
+|**Descripción**|**Tipo de registro**|**Nombre**|**Da como resultado**|**Tipo de equilibrio de carga**|
 |:-----|:-----|:-----|:-----|:-----|
 |FQDN de servicios web internos  <br/> |A  <br/> |webint.contoso.local  <br/> |VIP para servicios web internos  <br/> |Software y hardware admitidos  <br/> |
 |FQDN del grupo de servidores  <br/> |A  <br/> |pool.contoso.local  <br/> |Dirección IP del servidor SFB01  <br/> |DNS  <br/> |

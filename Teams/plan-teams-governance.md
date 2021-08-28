@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: En este artículo, aprenderá a planear la implementación de capacidades de gobierno en Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f55183b114919048776b7fcb6f39ae6a084c29832652c32f87b97d258fb7f835
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 96052f270bb0b4a9c5a9da94131e55abf314fbf4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293077"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631284"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
@@ -143,7 +143,7 @@ Para obtener listas detalladas de todas las configuraciones, incluidas las instr
 - [Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [Canales privados en Microsoft Teams](private-channels.md)
 - [Administración de directivas de reunión en Teams](meeting-policies-in-teams.md)
-- [Administrar las directivas de mensajería en Teams](messaging-policies-in-teams.md)
+- [Administrar directivas de mensajería de Teams](messaging-policies-in-teams.md)
 - [Administrar las aplicaciones en el centro Microsoft Teams administración](manage-apps.md)
 
 Además, puede configurar la moderación de un canal y proporcionar capacidades de moderador a determinados usuarios para que puedan controlar quién puede crear publicaciones de canal y responder a ellas. Vea [Configurar y administrar la moderación](manage-channel-moderation-in-teams.md) del canal en Microsoft Teams para obtener más información.

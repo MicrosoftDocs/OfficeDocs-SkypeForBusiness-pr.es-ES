@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
 description: En este artículo se proporciona información sobre cómo usar un servidor proxy con Skype Empresarial.
-ms.openlocfilehash: c6c094bad366cf6a7febb092d471dd0723ce219b90664963a5e58a2ce64d70ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0f8e9898e2c898387e7f726b470013dcf62caae
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323522"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585994"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Servidores proxy para Skype Empresarial Online
 

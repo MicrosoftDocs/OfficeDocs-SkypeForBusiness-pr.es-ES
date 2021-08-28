@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsSiteMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 224493e188ef09d364e6f2dccacd4d2e33495e5b280ad46d2c41072d7f6c48bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9e9c69587a86fc742a7d167a5453113a0d5ced24
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348305"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631014"
 ---
 # <a name="configure-a-network-site"></a>Configurar un sitio de red
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: La directiva de conferencias define las características y capacidades que los usuarios tendrán a su disposición durante una conferencia (también denominada "reunión")
-ms.openlocfilehash: 0e39d37e3aa6a92a63fb4d5a62e34681f11d7ab9c5002e219db9df997c16247f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5b0b7e4f4d5198b824f917336ab56a96f11cc64
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316256"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608467"
 ---
 # <a name="conferencing-policy"></a>Directiva de conferencias
 

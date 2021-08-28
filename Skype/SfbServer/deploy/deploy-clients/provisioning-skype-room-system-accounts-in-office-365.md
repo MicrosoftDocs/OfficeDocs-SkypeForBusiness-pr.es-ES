@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lea este tema para obtener información sobre el aprovisionamiento Skype del sistema de sala en Microsoft 365 o Office 365.
-ms.openlocfilehash: e50d0df6b0ae3c03299756d9f917083fc2518cb64d7b049d0d7b23eb4f64b063
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d1b116308f091c535beceb5a82994ee155507548
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307951"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585954"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Aprovisionamiento Skype del sistema de sala en Microsoft 365 y Office 365
  

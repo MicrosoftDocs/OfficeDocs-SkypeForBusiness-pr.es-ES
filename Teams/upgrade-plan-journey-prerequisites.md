@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Use esta guía para obtener información sobre los requisitos previos y las dependencias ambientales para implementar Teams en su organización
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66a0bdeac2830fc6a3ebe9f5eae2f382187f384538f2d57c9cf27b56fbdd651a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3ade37518da516d219c3c54fd0ce4a280720c373
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323752"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631154"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Requisitos previos y dependencias ambientales para Teams
 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Este tema contiene todos los países y regiones en los que los usuarios pueden realizar llamadas si tienen un plan de llamadas.
-ms.openlocfilehash: 2ced238a1e339015cfec9b0263d78d1aa39cc1f5a704e1540d5b125e519f1fd7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 128a2cc8346bc7ac29d1d8e05a1cb4714b030b37
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299338"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584694"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden realizar llamadas a estos países y regiones
 

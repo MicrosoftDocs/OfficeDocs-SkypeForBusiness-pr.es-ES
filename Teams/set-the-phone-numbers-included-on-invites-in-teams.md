@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Siga estos pasos para crear un número de teléfono predeterminado para que los autores de llamadas se unan a Microsoft Teams reunión.
-ms.openlocfilehash: 11c9a31d723b5da63152f1a8a79d54938f9ecc31644afbe3421a2bd59f0f5626
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34fd1592729e18978e1bf5c3aa65e29659092cab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335900"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608807"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams
 
@@ -80,8 +80,8 @@ Windows PowerShell se centra en la administración de usuarios y en las acciones
 
 - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](/powershell/module/teams/?view=teams-ps).
-  
+Para establecer o cambiar el número de teléfono de audioconferencia predeterminado para un organizador de la reunión o un usuario con [Microsoft Teams PowerShell,](/powershell/module/teams/?view=teams-ps)establezca los parámetros o del **`ServiceNumber`** cmdlet **`TollFreeServiceNumber`** [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) en uno de los números disponibles.
+
 ## <a name="related-topics"></a>Temas relacionados
 
 [Pruebe o compre Audioconferencia en Microsoft 365 o Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

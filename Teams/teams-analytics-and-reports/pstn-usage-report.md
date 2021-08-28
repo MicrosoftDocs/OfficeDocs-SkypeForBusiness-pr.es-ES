@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: v-rifer
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-voice
@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el Teams de uso de RTC en el 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 790cef469c82ad8f20c35de04261ce882f7f6a7fedd7aedeed5e376075231953
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c83605e05e5d28b4ac230487baa5de47dd74aa5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312638"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631244"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams Informe de uso de RTC
 

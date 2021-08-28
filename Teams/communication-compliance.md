@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: anwara
 description: Learning sobre el cumplimiento de las comunicaciones, parte del conjunto de soluciones de riesgo de insider, desde la perspectiva Microsoft Teams (esto forma parte de la funcionalidad de cumplimiento de comunicaciones M365).
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b697f83ce568004cfd94340d3d2d50f0e8dda54b
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 767c69d2c529b7fe6c93b667d6150e7b64d46ef2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523811"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631374"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Cumplimiento de comunicaciones con Microsoft Teams
 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Sri Lanka.
-ms.openlocfilehash: e59a77caca6b168da5cea493b7293a79955a150e944b97aa2ee348255dce88f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c493199d163b2ffcbb14cd81f63d4ba492e6d044
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285999"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584714"
 ---
 # <a name="availability-in-sri-lanka"></a>Disponibilidad en Sri Lanka
 

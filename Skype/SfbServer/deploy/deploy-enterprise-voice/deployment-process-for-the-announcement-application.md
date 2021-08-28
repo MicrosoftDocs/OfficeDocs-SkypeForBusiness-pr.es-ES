@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Proceso de implementación y pasos para la aplicación de anuncio en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 18345e8265ffed46f2e39d4acc8e0fca115731b4381efc64b98ecb4aba9e49c9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7e374f1e4d6d63c34506fcce7e213697885c02f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305932"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608597"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Proceso de implementación de la aplicación Anuncio en Skype Empresarial Server
  
