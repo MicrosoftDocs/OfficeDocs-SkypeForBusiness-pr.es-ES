@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Summary: Learn how to deploy Telefonía IP empresarial for Skype Empresarial Server at a central site.'
-ms.openlocfilehash: 2a3f614d3d48758c28a8ac6036529db4aa668d2262d34edaee90a3ef4776884c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a47e66bf9ae65d0a994a25b40f182dcc95b87d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282363"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600695"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Implementar Telefonía IP empresarial en Skype Empresarial Server
 

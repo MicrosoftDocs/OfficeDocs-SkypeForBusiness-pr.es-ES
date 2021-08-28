@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: En esta sección se describe la configuración global y los objetos, así como el servicio universal y los grupos de administración, que se crean mediante el paso de preparación del bosque.
-ms.openlocfilehash: 8a613b4f71d26f06d36543ef4ec10dab39442860b0435ccd84417624d495c9fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c21e6dfac6cd3b6a9bb3c0b6b040138e6d8f8a52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349732"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614000"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Cambios realizados por la preparación del bosque en Skype Empresarial Server
 
@@ -46,7 +46,7 @@ En la tabla siguiente se describen los grupos administrativos.
 
 **Grupos administrativos creados durante la preparación de un bosque**
 
-|**Grupo administrativo**|**Description**|
+|**Grupo administrativo**|**Descripción**|
 |:-----|:-----|
 |RTCUniversalServerAdmins  <br/> |Permite a los miembros administrar la configuración de los servidores y grupos de servidores, incluidos todos los roles de servidor, la configuración global y los usuarios.  <br/> |
 |RTCUniversalUserAdmins  <br/> |Permite a los miembros administrar la configuración de los usuarios y mover los usuarios de un servidor o grupo de servidores a otro.  <br/> |
@@ -56,7 +56,7 @@ En la tabla siguiente se describen los grupos de infraestructura.
 
 **Grupos de infraestructura creados durante la preparación de un bosque**
 
-|**Grupo de infraestructura**|**Description**|
+|**Grupo de infraestructura**|**Descripción**|
 |:-----|:-----|
 |RTCUniversalGlobalWriteGroup  <br/> |Concede acceso de escritura a objetos de configuración global para Skype Empresarial Server.  <br/> |
 |RTCUniversalGlobalReadOnlyGroup  <br/> |Concede acceso de solo lectura a objetos de configuración global para Skype Empresarial Server.  <br/> |
@@ -68,7 +68,7 @@ En la tabla siguiente se describen los grupos de servicio.
 
 **Grupos de servicio creados durante la preparación de un bosque**
 
-|**Grupo de servicio**|**Description**|
+|**Grupo de servicio**|**Descripción**|
 |:-----|:-----|
 |RTCHSUniversalServices  <br/> |Incluye cuentas de servicio usadas para ejecutar servidores front-end y servidores Standard Edition cliente. Este grupo permite a los servidores acceso de lectura y escritura Skype Empresarial Server configuración global y objetos de usuario de Active Directory.  <br/> |
 |RTCComponentUniversalServices  <br/> |Incluye cuentas de servicio usadas para ejecutar servidores de conferencia A/V, servicios web, servidor de mediación, servidor de archivado y servidor de supervisión.  <br/> |

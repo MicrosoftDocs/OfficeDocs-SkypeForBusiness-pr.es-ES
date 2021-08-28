@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Empresarial Server Herramienta de planeación
-ms.openlocfilehash: 2bff4f6eb8774b9660f27cf2217eccd7b1b3c3dce469cab70ac7c96c9489b234
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c1272cf0809be097e9f5b0282b165ef899744520
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325127"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600505"
 ---
 # <a name="feature-overview-planning-tool"></a>Información general sobre características (herramienta de planeación)
  

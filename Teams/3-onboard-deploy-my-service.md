@@ -14,18 +14,18 @@ ms.reviewer: rowille
 description: Descargue el Playbook de habilitación del sitio para planear Teams implementación y acelerar y optimizar la adopción del usuario, la percepción de calidad y la satisfacción.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35ac2d0b8158a089e3f002108172066dcf6853c3525c6358dcdd2c8c57d19fa0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d79e1431d6743f60092acbfab82154037a4c5720
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288698"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624942"
 ---
 # <a name="deploy-my-service"></a>Implementar mis servicios
 

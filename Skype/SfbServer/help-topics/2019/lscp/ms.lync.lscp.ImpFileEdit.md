@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 5f8abdbd85b9fb81180b62cb41961ad8b47580013206ff329d3e804f2ad0aabe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bdea88e6ad601fa059fa8a87d855b2fe87c772a3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324399"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600555"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>Filtro de archivo: Crear nuevos o editar los existentes
 

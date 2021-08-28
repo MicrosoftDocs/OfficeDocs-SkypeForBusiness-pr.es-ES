@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
 description: tblServerIdentity contiene los servidores de chat activos del grupo de servidores de chat persistente.
-ms.openlocfilehash: 092331f275ef76372ad1bd2d2462acb9eb7848eea263d59c2276d7a4b6a83779
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1e6e70835865f2ca6ef992a879dad58011a5170c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303663"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613840"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  

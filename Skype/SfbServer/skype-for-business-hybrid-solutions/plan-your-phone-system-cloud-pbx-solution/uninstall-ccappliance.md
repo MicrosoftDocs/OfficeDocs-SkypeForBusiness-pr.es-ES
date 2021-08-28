@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: El cmdlet Uninstall-CcAppliance desinstala el dispositivo Skype for Business Edición de conector de nube del servidor host.
-ms.openlocfilehash: f82459e71ee3c7eea88030a2f265f0076a633a280ee3182920e599402f69a96c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12a15e7bc338fc503a1fafbd6e3059f73dcd40d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344559"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624952"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  

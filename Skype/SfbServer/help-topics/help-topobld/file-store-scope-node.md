@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FileStoreScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) y los grupos dependientes de este almacén de archivos. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 0d37bb084f4c25a95b4739e0dd19372b1a20905b2c9430fd360117279a8f9f4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd23a62d175e8cacbe265c4c807aafbc6d9f4181
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329704"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600190"
 ---
 # <a name="file-store-scope-node"></a>Nodo de ámbito del almacén de archivo
  

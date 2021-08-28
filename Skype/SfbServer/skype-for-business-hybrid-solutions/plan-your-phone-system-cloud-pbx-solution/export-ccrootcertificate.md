@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1499e33c-6a7c-46b9-b9a1-f78d7853b45d
 description: El cmdlet Export-CcRootCertificate exporta el certificado de ca raíz a un archivo local en el Skype for Business Edición de conector de nube host.
-ms.openlocfilehash: 04ba7af5801f124a76e515b311a0507e3cbb764a6f2769d9f1d9080ec8c7d9d9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e00041088af39bf6f11abd5309ff293bd37bf38f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326256"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625002"
 ---
 # <a name="export-ccrootcertificate"></a>Export-CcRootCertificate
  
@@ -49,7 +49,7 @@ El cmdlet Export-CcRootCertificate permite guardar los certificados raíz e inte
 
 |**Parámetro**|**Required**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-|Path  <br/> |Obligatorio  <br/> |System.String  <br/> |Ruta de acceso de archivo donde se almacenará el certificado.  <br/> |
+|Ruta de acceso  <br/> |Obligatorio  <br/> |System.String  <br/> |Ruta de acceso de archivo donde se almacenará el certificado.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

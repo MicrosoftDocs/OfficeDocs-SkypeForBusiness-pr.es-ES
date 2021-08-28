@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Cómo habilitar y deshabilitar el acceso de usuarios anónimos en Skype Empresarial Server.
-ms.openlocfilehash: 4f7fb11e7b168922a4027e75703c164638dd1f2d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 541ca4feabb91db29d15bb727b4a2f64b05cdd9e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234395"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614150"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Habilitar o deshabilitar el acceso de usuarios anónimos en Skype Empresarial Server
 
@@ -63,6 +63,6 @@ Puede administrar el acceso de usuarios anónimos mediante Windows PowerShell y 
   - Para deshabilitar el acceso de usuarios anónimos, establezca el valor de la **propiedad AllowAnonymousUsers** en False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

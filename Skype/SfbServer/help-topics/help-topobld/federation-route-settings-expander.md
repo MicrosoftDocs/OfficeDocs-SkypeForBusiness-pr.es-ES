@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FederationRouteSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: Para definir una asignación de ruta de federación de sitios, primero debe habilitarse la federación en el servidor o el grupo de servidores perimetrales. Si la federación no está habilitada en el servidor o el grupo de servidores perimetrales, las opciones de configuración para asignar rutas de federación no se podrán modificar.
-ms.openlocfilehash: a30fd8220a04b74e4ec2ba38414dc6c6408c59163577d98a5557a65413baff2f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2cdf676b0c3c24842c3818a42e360ceaeab86bbc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290738"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600205"
 ---
 # <a name="federation-route-settings-expander"></a>Expansor de configuración de ruta de federación
  

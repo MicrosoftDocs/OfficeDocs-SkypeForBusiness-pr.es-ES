@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: En este artículo se explica qué es la autenticación moderna (que se basa en la Biblioteca de autenticación de Active Directory (ADAL) y OAuth 2.0).
-ms.openlocfilehash: 317c899600730438a56dc3e52ddf76ce5eeb6d6da5297ab2732166ceb9880074
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29bbe33754b2363e84f449115bd51396ad9af932
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349922"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614020"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Cómo usar la autenticación moderna (ADAL) con Skype Empresarial
  

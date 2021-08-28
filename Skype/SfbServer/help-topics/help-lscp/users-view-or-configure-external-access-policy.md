@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewExternal
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 83632fedf380e20442f00a413eff7eb9442d17ff5370fc6b917d033e3797101f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fb83c5c43cafeace56c9739b119dcd58d643bf3b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320582"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600395"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>Usuarios: Ver o configurar directiva de acceso externo
 

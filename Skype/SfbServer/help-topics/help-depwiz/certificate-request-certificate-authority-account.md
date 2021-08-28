@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestCAAccount
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: Para enviar una solicitud, es posible que la entidad de certificación solicite credenciales diferentes a las del usuario que ha iniciado sesión. Para permitir una solicitud de certificado como otro usuario, seleccione la casilla de verificación Especificar otras credenciales para la entidad de certificación; a continuación, escriba el nombre de usuario o dominio\nombreusuario de un usuario que pueda solicitar el certificado. En el cuadro de texto Contraseña, escriba la contraseña del usuario que ha especificado. El nombre de usuario y la contraseña se envían como parte del proceso de solicitud del certificado, y no en la solicitud real del certificado, a una entidad de certificación en línea.
-ms.openlocfilehash: db1fb64f92e3f83d2e9506c73a3c9873131e128a690ceb95c8e16ae33aa34636
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7ff5c20d14e2d42688424866f2f463996aff0d8c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323212"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626772"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Solicitud de certificados (cuenta de entidad de certificación)
  

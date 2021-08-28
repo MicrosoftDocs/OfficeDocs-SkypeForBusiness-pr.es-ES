@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'Puede configurar vínculos entre dos regiones de red como parte del control de admisión de llamadas. '
-ms.openlocfilehash: 641d7b896c540301af1adaca24cb8e1057179262
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 56e94f6cc9e9bf0bd43c607eef53561a6129d468
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233685"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600075"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Vincular regiones de red en Skype Empresarial Server
 
@@ -127,7 +127,7 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 6.  Haga clic en **Aceptar**.
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [New-CsNetworkRegionLink](/powershell/module/skype/New-CsNetworkRegionLink)  
 
