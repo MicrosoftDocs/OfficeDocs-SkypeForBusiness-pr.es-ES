@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Obtenga información sobre los servidores de mediación en Skype Empresarial Server, incluidas sus topologías admitidas y sus relaciones con troncos M:N, desvío de medios y control de admisión de llamadas.
-ms.openlocfilehash: 9e333486eeae4831604a4e4593dc0a65b4e6588eb38cc08df1b9c2a7ee9dcdcd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6113bf05d788620c2ac0b4e91f74b4e347ecc121
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284660"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608017"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Componente del servidor de mediación en Skype Empresarial Server
  

@@ -10,7 +10,7 @@ ms.reviewer: svemu
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.analyticsandreports.overview
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,12 +18,12 @@ description: En este artículo, aprenderá acerca de los Teams que están dispon
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 362dce90521cb5fe948735f7e8a435e5f158ed3e
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 02353f540a3739f46e8e693ab4e83141b0bdfd3b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523831"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583554"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 

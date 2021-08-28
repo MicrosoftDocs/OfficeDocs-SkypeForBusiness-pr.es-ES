@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga información sobre los recursos para ayudar a la adopción de Business Voice una vez completada la configuración.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdf412c2279b0cb0740511534b7a839ad5434c12141d2cf225fdbf9d5e1b5924
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c803c5d8bf77810c90550ed321de8aaf4add04dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309009"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583614"
 ---
 # <a name="finished-business-voice-setup"></a>Configuración de Business Voice finalizada
 

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Summary: Read this topic to learn how to plan for high availability and disaster recovery for Persistent Chat Server in Skype Empresarial Server 2015.'
-ms.openlocfilehash: 18e5a3e87dae7f65cb8b58788bd1b1b1be02ccc9c6b1f14492cd7da629e5c790
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: beb1bf01748d9ebb7336238d3ba2d3f1379e7b0f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301346"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607977"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plan for high availability and disaster recovery for Persistent Chat Server in Skype Empresarial Server 2015
  

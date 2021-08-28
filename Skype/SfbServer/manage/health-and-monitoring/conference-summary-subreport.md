@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 description: 'Summary: Learn about the Conference Summary Subreport in Skype Empresarial Server.'
-ms.openlocfilehash: ec72c499a7a523dfcac3adaad43728c8e623526a5ff7264e12a7d6eb77df75cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 66ca2c80bb20026540e74c0ffd28c32be7f7343a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298170"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630604"
 ---
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>Subinforme de resumen de conferencia en Skype Empresarial Server
  
@@ -43,7 +43,7 @@ La siguiente tabla contiene la información que recoge el Subinforme de resumen 
   
 **Métricas del Subinforme de resumen de conferencia**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Total de conferencias** <br/> |No  <br/> |Número total de conferencias que ha tenido lugar.  <br/> |
 |**Total de sesiones de conferencias** <br/> |No  <br/> |Número total de sesiones de conferencia. Una única conferencia puede tener varias sesiones; por ejemplo, una conferencia podría incluir tanto una sesión de foco como una sesión MCU.  <br/> |

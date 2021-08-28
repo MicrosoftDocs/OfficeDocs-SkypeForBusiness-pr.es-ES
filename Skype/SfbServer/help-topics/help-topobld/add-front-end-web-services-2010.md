@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndWebServicesPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 97420584-3c2e-4d6d-9a2b-f7e361f1e2d1
 description: La dirección URL base es la identidad de servicios web de la dirección URL, menos https://. Por ejemplo, si la dirección URL completa de los servicios web del grupo es , la https://pool01.contoso.net dirección URL base pool01.contoso.net.
-ms.openlocfilehash: dad33773bc286e711c96eeb6157ff9ca53de789fc081b5abbfaf4e22e67fa119
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 378ca3c92441b78aca3c83256c46905da93e2ed8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314536"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583994"
 ---
 # <a name="add-front-end-web-services-2010"></a>Agregar servicios web front-end 2010
  

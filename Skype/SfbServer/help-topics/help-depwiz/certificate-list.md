@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertList
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 description: Para asignar un certificado, seleccione un certificado en el almacén de certificados local. Haga clic en Siguiente para continuar.
-ms.openlocfilehash: d2a9d267542acb537f999e6946c406ca8e4c66a6617eca3da49366c9f8449814
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 474c54b3d5b226fa4ec2282192916ec052de2a86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278888"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608357"
 ---
 # <a name="certificate-list"></a>Lista de certificados
  

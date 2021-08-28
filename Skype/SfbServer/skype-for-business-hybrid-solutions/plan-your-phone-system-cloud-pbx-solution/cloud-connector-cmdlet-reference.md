@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
 description: En la tabla siguiente se enumeran Skype for Business Edición de conector de nube cmdlets con una breve descripción y vínculos a más información.
-ms.openlocfilehash: a5a29003db50f79440b6bd0393bce63b8597d90df35cded4b7b6c0114b165b97
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 19fc33912075e7737a4fa7fc242e74dd1de92289
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341495"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583734"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>Referencia de cmdlets de Cloud Connector
  

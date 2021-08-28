@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Obtenga información sobre las regiones de red, los sitios de red y las subredes IP. Todos estos deben configurarse para implementar Plan for media bypass in Skype Empresarial, Plan for call admission control in Skype Empresarial Server) o Plan for emergency services in Skype Empresarial Server in Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: e502f1ec12628ef0e885d651ba38ed48a712eea0edb38976d7360ad7ac4333d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 97cf81bb3efa9aa5d4b8717018232d479fcbf2c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326396"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608007"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configuración de red para las características Telefonía IP empresarial avanzadas en Skype Empresarial Server
 

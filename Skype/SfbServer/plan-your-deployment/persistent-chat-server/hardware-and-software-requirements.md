@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Resumen: lea este tema para obtener información sobre los requisitos de hardware y software para el servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: 354ea7042cce2e413995dff242da21ce0cb5cc7aaacc35394110aab89a146383
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a8ee506d9bee1e99727dab2da18f70f3c6278664
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302294"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630434"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Requisitos de hardware y software para el servidor de chat persistente en Skype Empresarial Server 2015
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FeMediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 description: 'Para Servidor de mediación, puede especificar lo siguiente:'
-ms.openlocfilehash: c442971e64d31a3a009b602c4cf53387fc6a3fdfb038209854e52c427ec5570f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e6a480d001b9afa0d6e6042c3ab67c9d756b7aa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315746"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630774"
 ---
 # <a name="mediation-service-settings-expander"></a>Expansor de configuración del servidor de mediación
 

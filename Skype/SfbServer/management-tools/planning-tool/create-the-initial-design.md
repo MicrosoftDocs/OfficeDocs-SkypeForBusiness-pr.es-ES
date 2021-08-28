@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Una vez que haya terminado de instalar la herramienta de planeación de Skype Empresarial Server, estará listo para iniciar la herramienta de planeación y empezar a diseñar la infraestructura Skype Empresarial Server 2015.
-ms.openlocfilehash: b5590e3bfdf97a6816421a2164712b069884793958be1dbf38eba1d50ef95592
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a56bca532ad1eef25a249f1b45f880921d9ead58
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347945"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608037"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Crear el diseño de topología inicial para Skype Empresarial Server 2015
 

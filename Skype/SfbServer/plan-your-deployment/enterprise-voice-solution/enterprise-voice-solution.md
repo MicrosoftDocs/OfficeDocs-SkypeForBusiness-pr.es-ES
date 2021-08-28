@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Resumen: obtenga información sobre las opciones para planear una solución unificada de voz y comunicaciones en Skype Empresarial Server.'
-ms.openlocfilehash: 3ac268b69cc125ee6327244c8b7b9777b9886a16763f9831a2582a935f931432
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 186836f1640402ba2b92dea349525d8f15ef644f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286699"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583864"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planear la solución Telefonía IP empresarial en Skype Empresarial Server
  

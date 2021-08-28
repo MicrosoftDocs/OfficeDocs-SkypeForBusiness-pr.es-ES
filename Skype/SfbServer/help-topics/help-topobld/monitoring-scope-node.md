@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 'En el Generador de topologías de Lync Server 2013, puede realizar tareas relacionadas con un servidor individual que ejecuta supervisión haciendo clic con el botón secundario en el servidor que ejecuta supervisión en el árbol de consola, haciendo clic en Acción en la barra de herramientas o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en una de las siguientes opciones para el servidor que ejecuta la supervisión:'
-ms.openlocfilehash: 39197d9d926cecd7a1acf3834b0fff8ea7f71d92af82921f161f0502e00c415a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4513a0ea5c28d465cd1fc8d8cf949cb09499a7af
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299537"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630724"
 ---
 # <a name="monitoring-scope-node"></a>Supervisión del nodo de ámbito
  

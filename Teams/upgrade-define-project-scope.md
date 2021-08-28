@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: landerl
 description: Ajuste el ámbito del proyecto de actualización refinando su visión y objetivos para asegurarse de que todas las partes interesadas del proyecto estén alineadas y trabajando para obtener los mismos resultados finales.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1d1e887f34a9c2f058f04b6feee6b86af2869c09977d63ef01f9fff2ab0c4f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60951df95cca59b3b3a64104351bca8294800d2b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275986"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583514"
 ---
 # <a name="define-your-project-scope"></a>Definir el ámbito del proyecto
 

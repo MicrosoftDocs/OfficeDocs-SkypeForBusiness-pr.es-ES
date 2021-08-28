@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSelUser
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 description: Use el cuadro de diálogo Seleccionar Telefonía IP empresarial usuarios para buscar usuarios habilitados para Telefonía IP empresarial. En el cuadro de búsqueda, escriba la dirección SIP o nombre para mostrar del usuario que desee localizar y, a continuación, haga clic en Buscar. Para seleccionar un usuario, haga clic en el usuario de la lista de los resultados de la búsqueda y, a continuación, haga clic en Aceptar. Si no encuentra el usuario que está buscando, es posible que no esté habilitado para Telefonía IP empresarial.
-ms.openlocfilehash: f405214c5f775319c93eeb9fb342f52cf56fad97bb9165106626f29189fb1fce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d557cf654cd8b573dab7efe34afeebd240f46b5b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330074"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584014"
 ---
 # <a name="select-enterprise-voice-users"></a>Seleccionar usuarios de Telefonía IP empresarial
  

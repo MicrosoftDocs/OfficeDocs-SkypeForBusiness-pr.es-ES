@@ -1,5 +1,5 @@
 ---
-title: Enrutamiento entre troncos en Skype Empresarial Server
+title: 'Skype Empresarial Server: enrutamiento entre troncos'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'Skype Empresarial Server proporciona administración básica de sesiones mediante la compatibilidad con el enrutamiento entre intrusos. '
-ms.openlocfilehash: 2c2d2dfd1062414de0d11b9e77d7f9f1993a77a14266a8d121b43bfbc12335da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67e22f2727c9ef5f741b71c781084ab8fc2cea27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351500"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630514"
 ---
-# <a name="inter-trunk-routing-in-skype-for-business-server"></a>Enrutamiento entre troncos en Skype Empresarial Server
+# <a name="skype-for-business-server-inter-trunk-routing"></a>Skype Empresarial Server: enrutamiento entre troncos
 
 Skype Empresarial Server proporciona administración básica de sesiones mediante la compatibilidad con el enrutamiento entre intrusos. Esta funcionalidad permite a Skype Empresarial Server funciones de control de llamadas a los sistemas de telefonía descendente. El enrutamiento entre troncos puede interconectar sistemas IP-PBX con una puerta de enlace de red de telefonía conmutada (RTC) pública para que las llamadas realizadas desde un teléfono de central de conmutación PBX se puedan enrutan a la RTC y las llamadas RTC entrantes se puedan enrutar a un teléfono PBX. Del mismo modo, Skype Empresarial Server interconectar dos o más sistemas IP-PBX para que las llamadas se puedan colocar y recibir entre teléfonos PBX desde los diferentes sistemas IP-PBX. 
 

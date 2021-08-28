@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFileStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir un nuevo almacén de archivos, especifique lo siguiente:'
-ms.openlocfilehash: ac382b7368e1be8753f802e47961b35ba881f1fceeefeab7642b284d761b4e89
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd0538619ac22552a0247d8a02a4281a8b1f406d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302824"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608387"
 ---
 # <a name="add-file-store"></a>Agregar almacén de archivos
  

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 'Summary: Learn about the IP Teléfono Inventory Report in Skype Empresarial Server.'
-ms.openlocfilehash: 89596d09bff9c58901b54bed928020bae3fa90d5971a8be3929fdc5914b54488
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 00677d5ed31303cd87df6547d2cab99323f6ed53
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276805"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630594"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Informe Teléfono inventario de IP en Skype Empresarial Server
  
@@ -103,8 +103,8 @@ En la siguiente tabla verá una lista de los filtros que puede usar con el infor
 |**Versión de hardware** <br/> |Número de versión del teléfono IP; al usar los filtros fabricante y de versión de hardware, puede identificar de forma única un tipo determinado de teléfono. Los valores de este filtro se rellenan automáticamente a partir de los teléfonos IP que hay actualmente en la base de datos.  <br/> |
 |**Agente de usuario** <br/> |Identificador del software del teléfono IP. Los valores de este filtro se rellenan automáticamente a partir de los teléfonos IP que hay actualmente en la base de datos.  <br/> |
 |**Dirección MAC** <br/> |Identificador único de la interfaz de red del teléfono IP. La dirección Media Access Control (MAC) suele asignarse en el momento de fabricar el teléfono y está preprogramada en el hardware del dispositivo.  <br/> Para buscar registros correspondientes a una dirección MAC concreta, basta con escribir esa dirección. Por ejemplo:  <br/> 00-08-5D-16-16-48  <br/> Debe escribir la dirección completa. Si escribe parte de una dirección (por ejemplo, 00-08-5D), no obtendrá ningún resultado.  <br/> |
-|**Días anteriores a la última actividad** <br/> | Seleccione uno de los siguientes valores: <br/>  [All] <br/>  10  <br/>  20 <br/>  30 <br/> |
-|**Días anteriores a la hora del último cierre de sesión** <br/> | Seleccione uno de los siguientes valores: <br/>  [All] <br/>  10  <br/>  20 <br/>  30 <br/> |
+|**Días anteriores a la última actividad** <br/> | Seleccione uno de los siguientes valores: <br/>  [All] <br/>  10 <br/>  20 <br/>  30 <br/> |
+|**Días anteriores a la hora del último cierre de sesión** <br/> | Seleccione uno de los siguientes valores: <br/>  [All] <br/>  10 <br/>  20 <br/>  30 <br/> |
 |**Prefijo de URI de usuario** <br/> |Dirección SIP del usuario que usó el teléfono IP.  <br/> |
    
 ## <a name="metrics"></a>Métricas
@@ -113,7 +113,7 @@ En la tabla siguiente se muestra la información proporcionada en el informe de 
   
 **Métricas del informe de inventario de teléfono IP**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Fabricante** <br/> |Sí  <br/> |Nombre de la empresa que fabricó el teléfono IP.  <br/> |
 |**Versión de hardware** <br/> |Sí  <br/> |Número de versión del teléfono IP.  <br/> |
