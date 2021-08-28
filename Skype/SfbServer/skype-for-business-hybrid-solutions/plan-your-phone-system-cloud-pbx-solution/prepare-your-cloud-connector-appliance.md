@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Obtenga información sobre cómo preparar el dispositivo de Cloud Connector para su implementación y uso con Sistema telefónico (PBX en la nube).
-ms.openlocfilehash: 58f9765f211a3961db8baf5929956feecf1eb4fd7e7744490cb21f1967dcb46f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 255b276ebb0d192f876d07e318cf94ccf3698a1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340816"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590004"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar el dispositivo de Cloud Connector
 

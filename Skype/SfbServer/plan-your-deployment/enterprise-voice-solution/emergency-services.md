@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Obtenga información sobre los servicios mejorados de 9-1-1 (E9-1-1) en Skype Empresarial Server Telefonía IP empresarial, incluida la adquisición de ubicación y el enrutamiento de llamadas.
-ms.openlocfilehash: 064fd7b02ee9c96b571266046a6f11b03840fa47a8e9c006d6ac5c63db64bc81
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2e7e3a2464f7c6e3579a9779a7926be2d87492d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352139"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592514"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planeación de servicios de emergencia en Skype Empresarial Server
 

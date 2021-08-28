@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MachineScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del servidor y la configuración de la dirección IP del servidor. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 5c1bde7bc9f00c3d1706f6f55beaeb5c6af1c969ffa78009f220fbf709bc5079
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67a81ba8d6c9c3c811beb91f9bcb5ac3ff3b447e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329654"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591304"
 ---
 # <a name="machine-scope-node"></a>Nodo de ámbito de equipo
  

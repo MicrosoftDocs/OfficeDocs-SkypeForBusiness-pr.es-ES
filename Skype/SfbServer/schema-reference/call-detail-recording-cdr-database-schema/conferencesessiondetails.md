@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: La vista ConferenceSessionDetails almacena información sobre sesiones con varios participantes. Cada registro representa una sesión de conferencia, que podría ser la sesión con Foco o la sesión con un servidor de conferencia específico. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: d11573f8911f02001101c2d6f2e13dd5ec2112017ada115282b9c0ed008176f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 49d351030019d6d42862352913b90af68191c19a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337658"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590094"
 ---
 # <a name="conferencesessiondetails-view"></a>Vista ConferenceSessionDetails
  

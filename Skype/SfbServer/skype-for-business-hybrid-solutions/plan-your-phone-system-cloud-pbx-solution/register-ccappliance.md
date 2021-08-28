@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: El cmdlet Register-CcAppliance registra la información del dispositivo en un sitio RTC en una configuración de inquilino en línea. Un dispositivo debe registrarse para poder implementarlo y administrarlo mediante el servicio Skype for Business Edición de conector de nube administración.
-ms.openlocfilehash: 5b63ce38b358d41fea15551df1e8134d1b56db00851317cbc5c81ac8f3aea058
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 159e74f91ca26cd0f8bdd214c9cd6ac45b5c1196
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288808"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589964"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  

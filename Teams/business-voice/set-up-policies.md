@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,11 +17,11 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3bdf148526deb1b8bec24adef9d236e6dba7ae195de048f0ddb8e157b94e961c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 94f504e9c69602079d1de807d49ad0fd468d41a3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308969"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589884"
 ---
 [!INCLUDE [teams-calling-policy](../teams-calling-policy.md)]

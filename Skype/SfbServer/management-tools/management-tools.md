@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: 'Resumen: obtenga información sobre las herramientas de administración de servicios Skype Empresarial Server 2015.'
-ms.openlocfilehash: ebcd0708b1a7b4b1be90ba36da52246a7fe4d7906259c344e0ed1b3106999f7e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0aec5c778068e91b92ca5bd95c4681397c6a4cf8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278398"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591094"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Skype Empresarial Server de administración de 2015
  

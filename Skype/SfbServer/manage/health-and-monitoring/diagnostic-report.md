@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Summary: Learn about the Diagnostic Report in Skype Empresarial Server.'
-ms.openlocfilehash: ef930870e918cd11f2525914e6f5716d7d685bfec224480c1eb88b3a280e3fa3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dde192aa90cc0a9cd5b1d05fbe2852d1277a6953
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297226"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590154"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico en Skype Empresarial Server
  
@@ -45,7 +45,7 @@ En la tabla siguiente se muestra la información proporcionada en el Informe de 
   
 **Métricas de informe de diagnóstico**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Hora del informe** <br/> |No  <br/> |Fecha y hora en que se registró el informe.  <br/> |
 |**Código de respuesta** <br/> |No  <br/> |Código de respuesta SIP enviado cuando se produjo un error en la sesión.  <br/> |

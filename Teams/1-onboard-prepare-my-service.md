@@ -12,19 +12,19 @@ ms.reviewer: rowille
 description: Use listas de comprobación de incorporación para preparar Microsoft 365 o Office 365 para Teams y configurar Teams capacidades principales, redes y cargas de trabajo de voz en la nube.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a8aa2818cb2b4be85054f8804fa6a11112c4e8a68cc171e9b9f7191e3f3a5bfd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b42abb1f82dd5e080e98127d15435d3250a73d87
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322922"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590934"
 ---
 # <a name="prepare-my-service"></a>Preparar mis servicios
 

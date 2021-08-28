@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo usar el Panel de estado para supervisar la conexión entre el controlador de borde de sesión y el enrutamiento directo.
-ms.openlocfilehash: 2b5888ed6e8545eff64929ef24da7fd768c4d60b6bb0e4df5f4760dfd215c08d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aec8a0bb37af02f6103714a26c9d35e18879985c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327675"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592344"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Panel de estado para enrutamiento directo
 

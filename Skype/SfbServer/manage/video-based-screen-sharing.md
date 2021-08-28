@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype Empresarial Server planeación y configuración para uso compartido de pantalla basado en vídeo (VbSS)
-ms.openlocfilehash: 0dacf7372a0c72d8cdaf01c1e3b12564fb5580a4526738f401d2227983c25c01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349282"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591134"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Uso compartido de pantallas basado en vídeo para Skype Empresarial Server 
  
@@ -36,7 +36,7 @@ Parte del objetivo de mejorar el uso compartido de pantalla es que las transicio
 
 Cambiar a VbSS tiene como objetivo realizar tres mejoras clave:
   
-1. Hacer uso compartido de pantalla (hasta un 5 %) más confiable en comparación con RDP solo.
+1. Haga que el uso compartido de pantalla (hasta un 5 %) sea más confiable en comparación con RDP solo.
 
 2. Haga que la configuración de la sesión y la experiencia de vídeo sea más rápida en comparación con RDP solo (configuración en la mitad del tiempo, con una mejora de 6:1 en fotogramas por segundo).
 

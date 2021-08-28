@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et efficace. "
-ms.openlocfilehash: 92a982857f3530a5f03c2efafb2efbce83bfd23a
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 97ce2f3a4bd74d56b57a15a249b7b2fa50f27660
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372230"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589934"
 ---
 #  <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformé en matière d'accessibilité
 

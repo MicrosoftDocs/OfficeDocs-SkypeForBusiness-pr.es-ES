@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: vapati
 f1.keywords: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: ''
 ms.collection:
 - M365-collaboration
@@ -16,12 +16,12 @@ description: Obtenga información sobre las Teams de alertas y notificaciones di
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 1afe0ae7c8045b6a7e1c8b6eaf6f0e179e76a59e674c3a21b323eb9f123fd810
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 38380adecf3ce54d12b06e74f4467e39697d67f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314276"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592364"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams y alertas
 

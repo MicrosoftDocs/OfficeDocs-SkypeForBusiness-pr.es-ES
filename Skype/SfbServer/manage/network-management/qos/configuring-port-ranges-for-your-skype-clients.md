@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: En este artículo se describe cómo configurar intervalos de puertos para sus clientes y configurar directivas de calidad de servicio en Skype Empresarial Server para clientes que se ejecutan en Windows 10.
-ms.openlocfilehash: 4d8736c9249bbef25438be7232d7802f3ddb3e9a
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: d43b79d82e3099cbc471b12fba5ad7155de43e77
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234025"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591164"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configurar intervalos de puertos y una directiva de calidad de servicio para sus clientes en Skype Empresarial Server
 
@@ -259,6 +259,6 @@ Si desea etiquetar valores DSCP para todos los adaptadores de red de un equipo, 
 
 Después de crear y configurar el nuevo valor del Registro, deberá reiniciar el equipo para que los cambios entren en vigor.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Crear un objeto de directiva de grupo en Windows 10](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)

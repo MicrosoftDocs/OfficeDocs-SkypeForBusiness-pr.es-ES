@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planeación de llamadas a través del trabajo en Skype Empresarial Server, que permite la integración entre Skype Empresarial y el sistema telefónico PBX, de modo que los usuarios puedan usar Skype Empresarial para controlar sus teléfonos PBX.
-ms.openlocfilehash: 89810ab0459dca42d2ccbdc2317c35b4403006ab87094a2342941e986a81cc7a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 287f549d0b416e432eea771c07a7331e38a0b594
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347805"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592534"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Plan for Call Via Work in Skype Empresarial Server
  

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: La tabla AppSharingStream contiene métricas de calidad de la experiencia de los flujos de red utilizados para el uso compartido de las aplicaciones. Esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 68f43e9d783cd0f30d89bf9f4f13c0fe5329bbf3755e6b2c3eba897b86ead6c5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5577777c96618e6cf601e8b80763f74acdad5a5a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329355"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592424"
 ---
 # <a name="appsharingstream-table"></a>Tabla AppSharingStream
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SiteSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 'Para editar las propiedades de un sitio ya creado, efectúe las acciones siguientes:'
-ms.openlocfilehash: 9ace8cc0975e971e7f3c3fe55c89324330816f62d78b0ee5c9b23d16e9ff9689
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 09aa876d8f1624b626325c625b820ddb1f6b7aa5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305472"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591344"
 ---
 # <a name="lync-server-site-settings-expander"></a>Expansor de configuración de sitio de Lync Server
 

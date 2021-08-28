@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Priority
+ms.localizationpriority: high
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af0d35bf1c7183926607ec2aa6b35d0e74c67133a97fb8eb7de57b5acc45c053
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79e8b8faecf85f2aab1a8ee9c234746ddc9b195f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301975"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589924"
 ---
 # <a name="how-do-i-get-my-users-ready-for-microsoft-365-business-voice"></a>¿Cómo preparo a mis usuarios para Microsoft 365 Business Voice?
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 74f56877d322bfff24e7c5116bad43c26ec830b1204e747fdda3cc02a95d8ec4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4d696a280370e4cb992b3a043ea6a78a054948a2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281163"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592774"
 ---
 # <a name="users-view-or-configure-location-policy"></a>Usuarios: Ver o configurar directiva de ubicación
 

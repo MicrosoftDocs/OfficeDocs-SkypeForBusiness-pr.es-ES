@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Summary: Learn how to block IM and conferencing sessions in the case of a Skype Empresarial Server failure that would prevent archiving.'
-ms.openlocfilehash: 8baf245b1c8e95394aec756cb019b9562555f4bbe17dc0444615d5815da846df
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f86b26178963621b4d71a657e589a63f1351aeef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320272"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592574"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurar opciones de archivado para controlar errores en Skype Empresarial Server
 

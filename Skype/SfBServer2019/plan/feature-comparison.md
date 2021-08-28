@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: Skype Empresarial Server 2019 o Skype Empresarial Los administradores en línea pueden usar estas tablas para comprender qué características se admiten en qué clientes.'
-ms.openlocfilehash: a2f9e9284f929a1aacba2a6297295d492caa5feca1113638c8c08abbb9f28ed2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5cfe72bbb680a6b127505b57456de2d513fd41bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292527"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592954"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparación de características de cliente de escritorio Skype Empresarial Server 2019
 

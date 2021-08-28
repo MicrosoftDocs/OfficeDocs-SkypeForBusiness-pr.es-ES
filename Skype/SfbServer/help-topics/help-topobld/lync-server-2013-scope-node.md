@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LyncServer2013ScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server 2015.
-ms.openlocfilehash: 544c843b416f77aeaa2d7683bb3c0be7c1028b155c9356542f08f7f125da087f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a588938cf62de3ebd4be0e8ced442cceaacf9f5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297416"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591354"
 ---
 # <a name="lync-server-2013-scope-node"></a>Nodo del ámbito de Lync Server 2013
  

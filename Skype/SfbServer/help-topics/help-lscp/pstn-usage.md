@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceUsageMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 79f43bbeeeebfeb988dc85625539deb8b96f591e5ecf953ac0ec47f6eb87bca1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d04f055cd29a432263b508453447d658af1aec4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315926"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592705"
 ---
 # <a name="pstn-usage"></a>Uso de RTC
 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Trinidad y Tobago.
-ms.openlocfilehash: 9dde155abd6062ec259ec878e4b0245ee1ee668df6d6d2edb7ba6545c01e35c1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b3c68387a401eff31884a6e259dfcd6764cb57b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299348"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589790"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>Disponibilidad en Trinidad y Tobago
 

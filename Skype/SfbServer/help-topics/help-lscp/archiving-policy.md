@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 'Las directivas de archivado se usan para habilitar y deshabilitar el archivado para los usuarios que se hospedaron en Skype Empresarial Server. En cada directiva de archivado, puede habilitar o deshabilitar el archivado para una de las siguientes opciones o ambas:'
-ms.openlocfilehash: e4c51ed2103bf7abee6bc91fd4a5bd44cb68a2556ec409757d064ecdd7f745d0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd0bd831aeb408862ee16b9f09e2c5247f205e82
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301616"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591584"
 ---
 # <a name="archiving-policy"></a>Directiva de archivado
  
