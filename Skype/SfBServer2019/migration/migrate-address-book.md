@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'En general, la libreta de direcciones se migra junto con el resto de la topología. Sin embargo, es posible que deba realizar algunos pasos posteriores a la migración si personalizó lo siguiente en el entorno heredado:'
-ms.openlocfilehash: 19ff3b0ca389832cfb2b1739aeb85738c30238576143d3542388fd1ef97a6498
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0ef965ef67393604e257049681a64ffb3c5b8fb1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306223"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599725"
 ---
 # <a name="migrate-address-book"></a>Migrar la libreta de direcciones
 

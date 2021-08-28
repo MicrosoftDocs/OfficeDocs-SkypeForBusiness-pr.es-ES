@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Summary: Learn how to configure voice mail escape in Skype Empresarial Server by using the Skype Empresarial Server Management Shell.'
-ms.openlocfilehash: f94a9e78d5f1b88644691d43b7c24169e6122e6188f7ee45c095521230b6be3f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 469353dba39b5f4f6b7e4cdd458862d068da97c0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279428"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597224"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurar el escape de correo de voz en Skype Empresarial
 

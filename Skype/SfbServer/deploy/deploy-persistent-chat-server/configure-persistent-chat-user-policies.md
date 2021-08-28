@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Resumen: lea este tema para obtener información sobre cómo crear directivas de usuario iniciales para el servidor de chat persistente en Skype Empresarial Server 2015. Las directivas de usuario de chat persistente determinan si se permite o no el acceso de los usuarios a los salas de chat.'
-ms.openlocfilehash: fc0033eee8886ddccbe00ff3b3a7014a22eca2a9d19359c18cea46b9c9bdf6af
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0cf0bb4f241e6186dcf63c3678e36e11e65b0956
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283622"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624402"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configurar directivas de usuario de chat persistente en Skype Empresarial Server 2015
  

@@ -1,5 +1,5 @@
 ---
-title: Planear la actualización Skype Empresarial Microsoft Teams actualización
+title: Planear la actualización de Skype Empresarial a Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Obtenga información sobre cómo planear la actualización al reclutar a las partes interesadas y, a continuación, el ámbito del proyecto.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 186f7f2e3e4d6c07714925162b7aa492873824dd30bef23f4f64c68273b60c15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 33b6e23a5259c81612a392b6befd7b7e6d256287
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323742"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623162"
 ---
 # <a name="plan-for-your-upgrade"></a>Planear la actualización
 
-![Diagrama del Teams de actualización](media/upgrade-banner-main.png "Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito, los objetivos y la escala de tiempo del proyecto. Confirme la disponibilidad técnica y del usuario. Ejecute el plan de implementación. Mantenga el impulso para maximizar los resultados.")
+![Diagrama del viaje de actualización de Teams](media/upgrade-banner-main.png "Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito, los objetivos y la escala de tiempo del proyecto. Confirme la disponibilidad técnica y del usuario. Ejecute el plan de implementación. Mantenga el impulso para maximizar los resultados.")
 
 Un entorno técnico saludable, la adopción sostenida del usuario y la realización de sus objetivos empresariales comienzan con una planeación adecuada. Un plan sólido le proporciona un marco para su proyecto de actualización y garantiza que todas las partes interesadas están trabajando para alcanzar los mismos objetivos. Al tomar tiempo para definir correctamente el éxito, puede medir los resultados a medida que avanza en la implementación y comprobar que está logrando los resultados que quería. Planear el viaje incluye:
 

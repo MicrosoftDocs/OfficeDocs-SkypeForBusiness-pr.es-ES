@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Obtenga información sobre cómo implementar varios sitios RTC en Cloud Connector Edition.
-ms.openlocfilehash: cccef5ee25ec5f902ea40e39c923bf0c7394631cf8508d6b178e166f08aff709
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f771875605ffef130b430fd7c7a00d9d1a63873
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289388"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613770"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implementar varios sitios en Cloud Connector
 
@@ -85,7 +85,7 @@ En la tabla siguiente se enumeran las diferencias entre un solo sitio con compat
 |**Categoría**|**Elemento**|**Sitio único con HA**|**Multi-Site**|
 |:-----|:-----|:-----|:-----|
 |Configurar  <br/> |Nombre de host del dispositivo <br/> |**Diferentes** entre dispositivos <br/> |**Diferente** entre sitios RTC <br/> |
-|Configuración  <br/> |Carpeta compartida  <br/> |Requiere la **misma carpeta** compartida en todos los dispositivos <br/> |Requiere una **carpeta** compartida diferente en todos los dispositivos <br/> |
+|Instalación  <br/> |Carpeta compartida  <br/> |Requiere la **misma carpeta** compartida en todos los dispositivos <br/> |Requiere una **carpeta** compartida diferente en todos los dispositivos <br/> |
 |Configurar  <br/> |VirtualMachineDomain  <br/> |Requiere el **mismo dominio** en todos los dispositivos <br/> |Requiere el **mismo dominio** entre sitios RTC <br/> |
 |Configurar  <br/> |SIPDomains  <br/> |Los nombres de dominio y el orden deben ser **los mismos en** todos los dispositivos <br/> |Los nombres de dominio y el orden deben ser **los mismos** en los sitios RTC <br/> |
 |Configurar  <br/> |Nombre del sitio  <br/> |**Igual** Nombre del sitio en todos los dispositivos <br/> |**Diferente** Nombre de sitio en sitios RTC <br/> |
@@ -96,6 +96,6 @@ En la tabla siguiente se enumeran las diferencias entre un solo sitio con compat
 |Configurar  <br/> |IP externas  <br/> |**Diferentes** entre dispositivos <br/> |**Diferente** entre sitios RTC <br/> |
 |Configurar  <br/> |Configuración de RTC GW  <br/> |**Igual en** todos los dispositivos <br/> |**Diferente** entre sitios RTC <br/> |
 |Configurar  <br/> |Registro DNS  <br/> |Agregar registros con los **mismos** FQDN de acceso externo y **diferentes direcciones** IP <br/> |Agregar registros con **diferentes** FQDN de acceso externo y **distintas** direcciones IP <br/> |
-|Configuración  <br/> |Inquilino híbrido  <br/> |Establecer HybridPSTNSite  <br/> Establecer PeerDestination para reserva  <br/> |Establecer HybridPSTNSite  <br/> Establecer PeerDestination para reserva  <br/> |
-|Configuración  <br/> |Puerta de enlace  <br/> |Asignación **MS GW M:N** en este sitio <br/> |Las puertas de enlace RTC en cada sitio RTC solo deben conectarse a los servidores de mediación del mismo sitio  <br/> |
-|Configuración  <br/> |Usuario  <br/> |Establecer UserPSTNSettings  <br/> |Establecer UserPSTNSettings  <br/> |
+|Instalación  <br/> |Inquilino híbrido  <br/> |Establecer HybridPSTNSite  <br/> Establecer PeerDestination para reserva  <br/> |Establecer HybridPSTNSite  <br/> Establecer PeerDestination para reserva  <br/> |
+|Instalación  <br/> |Puerta de enlace  <br/> |Asignación **MS GW M:N** en este sitio <br/> |Las puertas de enlace RTC en cada sitio RTC solo deben conectarse a los servidores de mediación del mismo sitio  <br/> |
+|Instalación  <br/> |Usuario  <br/> |Establecer UserPSTNSettings  <br/> |Establecer UserPSTNSettings  <br/> |

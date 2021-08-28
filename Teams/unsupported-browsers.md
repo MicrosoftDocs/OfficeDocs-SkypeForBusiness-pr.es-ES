@@ -11,17 +11,17 @@ MS.collection:
 ms.reviewer: nakulm
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre Teams audio y vídeo en exploradores no compatibles.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f958f08609083aa9793d6e862944038010d3071ff7fcd40c34e5e59aa51dd5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62ba55bd7a199731956c37e4cd12ff1684c9a9a5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345967"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613439"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams reuniones en exploradores no compatibles
 

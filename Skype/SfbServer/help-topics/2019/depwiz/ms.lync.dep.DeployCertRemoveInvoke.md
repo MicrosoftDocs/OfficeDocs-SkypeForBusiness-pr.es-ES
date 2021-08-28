@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c62bc3e5-3f34-46cf-91a5-85f84d8f455e
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página Ejecutando comandos proporciona información para quitar el certificado. Consulte la información de resumen de eliminación del certificado. Asegúrese de que el archivo de registro Quitar certificados aparezca en la lista desplegable y haga clic en Ver registro para examinar los datos de la eliminación del certificado. Una vez examinados el resumen y el archivo de registro, haga clic en  Finalizar.
-ms.openlocfilehash: 6e1ef7cfd3a8c80c3921a1cdb005e6f55610d82bfcfc5fc1df7eb2e087f39ea0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1862bcb2175dee1cad7c12da40452a4bb308c894
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343824"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599495"
 ---
 # <a name="remove-certificate-invoke"></a>Quitar certificado (invocar)
  

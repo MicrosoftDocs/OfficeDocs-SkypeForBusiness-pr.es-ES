@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'Skype Empresarial Server 2019 admite implementaciones de varios sitios y varios servidores. El proceso de migración de varios grupos a Skype Empresarial Server 2019 requiere las siguientes consideraciones:'
-ms.openlocfilehash: 445c519fd9a470002258ff50c14ebac7328979acc667c60a77b15a503ec3f3fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 514c606b580f0602ebf8ce6b1a41e553445aa4f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303444"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613389"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>Migrar múltiples sitios y grupos de servidores
 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Brunei.
-ms.openlocfilehash: 2a35186ad5b062a16754332fff2f55a2828303df9f54d100845c2bf3eba3cf06
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dead8d3c52bb717d879f001f5cefcd32278bfb72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310808"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613689"
 ---
 # <a name="availability-in-brunei"></a>Disponibilidad en Brunéi
 

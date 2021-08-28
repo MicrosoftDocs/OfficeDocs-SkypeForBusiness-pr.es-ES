@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Summary: Read this topic to learn about planning your conferencing topology in Skype Empresarial Server.'
-ms.openlocfilehash: 711db1309ce31838f02bd705252693a58992e2ee9a21e12931c8a9c5fe064d92
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d5a048603e68b020f0aba750a4dd34cfd334f182
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283112"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599915"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planee la topología de conferencia para Skype Empresarial Server
  

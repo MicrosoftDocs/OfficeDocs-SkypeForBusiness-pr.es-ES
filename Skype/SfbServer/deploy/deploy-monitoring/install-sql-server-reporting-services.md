@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
 description: 'Summary: Learn where to go to find information about SQL Server Reporting Services used by Skype Empresarial Server.'
-ms.openlocfilehash: 5abf1a1ef2043ce4c82c61d1b0ff8585f02abdc4f697a9c1c265bb4c5ba22e6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e23d2dbe1ca4a09bcf258a273eb03a72aa3f70be
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322352"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599535"
 ---
 # <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Instalar SQL Server Reporting Services en Skype Empresarial Server 
  

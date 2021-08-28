@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype Empresarial Server admite dispositivos analógicos. En concreto, los dispositivos analógicos compatibles son teléfonos de audio analógico y máquinas de fax analógico. Puede configurar las puertas de enlace calificadas para admitir el uso de dispositivos analógicos en el entorno Skype Empresarial Server usuario. Después de migrar a Skype Empresarial Server 2019, también debe migrar los objetos de contacto asociados con los dispositivos analógicos. Use Skype Empresarial Server Shell de administración para recuperar primero todos los objetos de contacto asociados con los dispositivos analógicos heredados y, a continuación, mover esos objetos al grupo de servidores de Skype Empresarial Server 2019.
-ms.openlocfilehash: 464531fcffbe251d6a0868e86b1b9edccc898fdeeb0963ed0f10c2b653dfe93b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d64552a53b5cb37187a25febe5ce6171d1c64ec9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337270"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599695"
 ---
 # <a name="migrate-analog-devices"></a>Migrar dispositivos analógicos
 

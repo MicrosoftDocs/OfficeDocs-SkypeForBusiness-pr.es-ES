@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 'Resumen: lea este tema para obtener información sobre cómo implementar conferencias en Skype Empresarial Server.'
-ms.openlocfilehash: 7a8944f5e678450d492e9ef32d7d41d60743fc1d5718864100693a7c76b7ed61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 85aa9b28ddcc262ae65700e0b0425ebec3dd0d12
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303144"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599545"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Implementar conferencias en Skype Empresarial Server
 

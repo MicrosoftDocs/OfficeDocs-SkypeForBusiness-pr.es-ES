@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Lea este tema para obtener información sobre cómo unirse a un equipo Skype de sistema de sala a su dominio.
-ms.openlocfilehash: 77122dc71ec274aa8a0c42a04339c156441a4cffa5461cfb6e5fb439c5b04d4b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b7590f17e8572d4379324f13924a5b4d7d339753
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325477"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623042"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype Consideraciones de unión a dominios del sistema de sala
  

@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: pawa
 description: Instrucciones para usar Microsoft Teams de forma segura desde un equipo compartido en el lugar de trabajo.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d14ba7e4e850e5be06e8ce2a159c1b96af968623f94fae00fec2af9ef4132037
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 689899ed6e2aaf576a3d743c7a48ca36a647691c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321278"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623222"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>Usar Microsoft Teams de forma segura en equipos compartidos
 
