@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Resumen: obtenga información sobre los informes de diagnóstico de llamadas por usuario usados en Skype Empresarial Server.'
-ms.openlocfilehash: b04050b2d2efb94781d310983083c2c3b8e86c30965a3467cc5fcabfc2aa00fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c8caf074022514cca1792cedf60f77fae0506dfb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280973"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623672"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Informes de diagnóstico de llamadas (por usuario) en Skype Empresarial Server
   
@@ -132,7 +132,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 
 **Métricas de las sesiones punto a punto**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Detalle** <br/> |No  <br/> |Al hacer clic en este elemento, el informe le muestra el informe de detalles de sesiones punto a punto correspondiente a la sesión seleccionada.  <br/> |
 |**Remitente** <br/> |Sí  <br/> |Dirección SIP del usuario que inició la sesión punto a punto.  <br/> |
@@ -149,7 +149,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 
 **Métricas de las sesiones de conferencia**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**URI de conferencia** <br/> |Sí  <br/> |Identificador único de la conferencia. Al hacer clic en este elemento, el informe le muestra el informe de detalles de conferencia de la sesión seleccionada. Al desplegar este elemento, el informe le muestra información sobre los participantes en la conferencia. Para obtener más información, consulte la sección "Métricas de los participantes en las conferencias" en este mismo tema.  <br/> |
 |**Organizador** <br/> |Sí  <br/> |Dirección SIP del usuario que organizó la conferencia  <br/> |
@@ -163,7 +163,7 @@ En la tabla siguiente se muestra la información que recoge el informe de activi
 
 **Métricas de los participantes en conferencias**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Rol** <br/> |No  <br/> |Rol del usuario en la conferencia (por ejemplo, moderador).  <br/> |
 |**Participante** <br/> |No  <br/> |Dirección SIP del usuario.  <br/> |

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewPersistentChat
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: Los miembros del rol CsPersistentChatAdministrator (administradores de chat persistente) pueden conceder permisos y derechos de administrador de salas de chat a otros usuarios y a sí mismos.
-ms.openlocfilehash: 96bb8c4924fad3709d756696bb8965cafcbce676f8ac44865671cbbb895f9ca6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6cfe26fa2846e65ece57d3008eaae16abe2c2e89
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348235"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623872"
 ---
 # <a name="users-view-persistent-chat"></a>Usuarios: Ver chat persistente
 

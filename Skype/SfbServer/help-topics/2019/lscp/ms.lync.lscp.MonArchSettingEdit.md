@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Las configuraciones de archivado se usan para controlar las opciones de archivado de la implementación. Las configuraciones de archivado incluyen la configuración global y, de forma opcional, una o varias configuraciones de sitio y grupo:'
-ms.openlocfilehash: 74fc7795abdc97bc51404a88ef26cac3755d370a54e4b52fb53838cbd2fb11a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 01c14b482fb546a83d9cff8bdbbfd75f8f81f1bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325287"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597734"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuración de archivado: Crear nuevos o editar los existentes
  

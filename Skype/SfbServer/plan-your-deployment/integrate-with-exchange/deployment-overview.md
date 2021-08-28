@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: 'Resumen: revise este tema al planear la integración de Skype Empresarial Server con Exchange 2013 o 2016.'
-ms.openlocfilehash: 60d4d34a3563b5da0349b067827a0442276426a3ce1088af47e287f479a35917
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 46c5544607fa3451d4fed524532fa1cd6bcac8f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301376"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604709"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>Introducción al proceso de implementación para integrar la mensajería unificada local y Skype Empresarial
  

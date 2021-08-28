@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: Solucione problemas de creación de una sesión remota de PowerShell para conectarse a Skype Empresarial Online, incluidos los errores importar-módulo, shell simultáneo, Id. de vida y permisos.
-ms.openlocfilehash: 81b612b8b3e2ab82f0986110b2aa612fafe6402f
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 4834b06b454e621cd6c4c6ea54f55e3a7b191802
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407019"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597884"
 ---
 # <a name="diagnose-connection-problems-in-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión en el Skype Empresarial Online Connector
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AvMcuSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 'Para editar las propiedades de un grupo de servidores de conferencia A/V que ya haya definido, realice las acciones siguientes:'
-ms.openlocfilehash: e698860c9318fa4492d3fe3313a7c1c0105ad4fd74cc110642d282b281c171a5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 98a480eb80fbabeba5217a93cf841d6b732960c0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323092"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623802"
 ---
 # <a name="av-mcu-settings-expander"></a>Expansor de configuración MCU AV
  

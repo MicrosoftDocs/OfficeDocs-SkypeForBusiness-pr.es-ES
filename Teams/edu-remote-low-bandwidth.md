@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: jesegher
 description: Artículo de Microsoft Teams para EDU que le ayudará con los problemas de reunión y vídeo relacionados con el ancho de banda bajo. Tanto si es un padre, un formador o un administrador de TI, tiene opciones para mejorar la experiencia con Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87f1be3a538d708c62aef46dd673e7fd3ed5c1156c3e50c986fc9ec0753cad39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08241e16c4d63ddc8e1cdcaf2508ce5ceea01a1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299249"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635734"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>Ayuda para las situaciones de ancho de banda bajo para Teams para EDU
 

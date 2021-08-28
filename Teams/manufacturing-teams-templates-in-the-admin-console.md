@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar plantillas de equipo para crear estructuras de equipo diseñadas para las necesidades de fabricación proporcionando configuraciones predefinidas, canales y aplicaciones preinstaladas con el Centro de administración.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 017656b0bacce810f26ac2821e07ba4dd8f08c9efad47717a94d6b3d95e4278f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b030b3a9635c0ba3f7737e4b749d47ac93fba862
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351879"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604419"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>Usar plantillas de equipo de fabricación en el Centro de administración
 

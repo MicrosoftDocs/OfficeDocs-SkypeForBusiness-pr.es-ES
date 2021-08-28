@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 'Las directivas de archivado se usan para controlar el archivado de comunicaciones internas y externas en la implementación para los usuarios que se encuentran en Skype Empresarial Server. Las directivas de archivado incluyen la directiva global y, opcionalmente, una o varias directivas de sitio y de usuario:'
-ms.openlocfilehash: f50288ac1890cf3768b2b14164b9d4b2ddc78eece97767a58f41a2b072c48724
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 58c0fc4c8f480865eba78bdaa1ca6c31e3c6e6c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278828"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635444"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Directiva de archivado: Crear nuevos o editar los existente
  

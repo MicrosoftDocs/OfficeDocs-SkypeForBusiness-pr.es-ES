@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Servicios de dominio de Active Directory funciona como servicio de directorio para Windows Server 2003, Windows Server 2008, Windows Server 2012 y Windows Server 2012 redes R2. Los servicios de dominio de Active Directory también sirven de base para crear Skype Empresarial Server de seguridad. El propósito de esta sección es describir cómo Skype Empresarial Server servicios de dominio de Active Directory para crear un entorno de confianza para mensajería instantánea, conferencia web, medios y voz. Para obtener más información sobre cómo preparar el entorno para los Servicios de dominio de Active Directory, consulte Install Skype Empresarial Server en la documentación de implementación. Para obtener información detallada sobre el rol de los servicios de dominio de Active Directory en las redes Windows Server, consulte la documentación sobre la versión del sistema operativo que está usando.
-ms.openlocfilehash: 8044e79be38300c39790aeae3bd0ece9105f9a145e1185cef2980297674c16f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4af4e4b4dd7a64dd133d36a55ca1c334a12fe97e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346402"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604659"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Servicios de dominio de Active Directory para Skype Empresarial Server
  

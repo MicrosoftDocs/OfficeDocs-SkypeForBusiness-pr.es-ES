@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 description: 'El nodo Lync Server enumera los sitios centrales de la topología. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: cd97307d5f6f959d40f5f553addce4293aae1cee7e33d8e2572658fb3c7a945a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b4a7ac7a1db5d4494ff142f962b0335547aed8e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338188"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623742"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Nodo de ámbito raíz de Skype Empresarial Server
  

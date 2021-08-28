@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el informe Teams actividad de
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0c30de61ab01c10854fe54e07b92457926a221a0418bbe92a7b024bda1909404
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bda252656b47560f37ca7f01b6e3010736028bd4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282533"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635674"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Informe de actividad de usuario de Microsoft Teams
 

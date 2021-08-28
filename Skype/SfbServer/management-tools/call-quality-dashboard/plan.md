@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Summary: Learn about what to consider when you plan for the Call Quality Dashboard.'
-ms.openlocfilehash: 314c0c631cda29d23accc39980da25fdad567619797d515b90f31ebff9ccd450
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e93db0e3e297de8eff81cea16fa15ff9c7dd42e0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340896"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588582"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Plan for Call Quality Dashboard for Skype Empresarial Server 
  
@@ -193,7 +193,7 @@ En esta sección se supone que hay una única base de datos qoemetrics en el ent
   
 **Perfiles de equipo**
 
-|**Máquina**|**Núcleos de CPU**|**RAM**|**Archivo qoE y cubo en el mismo disco**|**QoE Archive and SQL Temp DB on same disk**|
+|**Máquina**|**Núcleos de CPU**|**Memoria RAM**|**Archivo qoE y cubo en el mismo disco**|**QoE Archive and SQL Temp DB on same disk**|
 |:-----|:-----|:-----|:-----|:-----|
 |Máquina virtual  <br/> |4   <br/> |7 GB  <br/> |Sí  <br/> |Sí  <br/> |
 |4 núcleos  <br/> |4   <br/> |20 GB  <br/> |Sí  <br/> |No  <br/> |
@@ -204,15 +204,15 @@ En esta sección se supone que hay una única base de datos qoemetrics en el ent
 
 |**Máquina**|**Tamaño de base de datos de métricas de QoE**|**SQL particiones**|**Tipo de disco**|**Número de secuencias**|**Proceso de archivo inicial**|**Proceso de cubo inicial**|**Proceso de archivo posterior**|**Proceso de cubo posterior**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Máquina virtual  <br/> |900 MB  <br/> |Simples  <br/> |VHD (tamaño variable)  <br/> |.5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
-|Máquina virtual  <br/> |9 GB  <br/> |Simples  <br/> |VHD (tamaño variable)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Máquina virtual  <br/> |9 GB  <br/> |Simples  <br/> |VHD (tamaño fijo)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Máquina virtual  <br/> |Más de 30 GB  <br/> |Simples  <br/> |VHD (tamaño fijo)  <br/> |10 M  <br/> |15 h  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
-|8 núcleos  <br/> |9 GB  <br/> |Simples  <br/> |Varios discos  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
+|Máquina virtual  <br/> |900 MB  <br/> |Simple  <br/> |VHD (tamaño variable)  <br/> |.5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
+|Máquina virtual  <br/> |9 GB  <br/> |Simple  <br/> |VHD (tamaño variable)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
+|Máquina virtual  <br/> |9 GB  <br/> |Simple  <br/> |VHD (tamaño fijo)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
+|Máquina virtual  <br/> |Más de 30 GB  <br/> |Simple  <br/> |VHD (tamaño fijo)  <br/> |10 M  <br/> |15 h  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
+|8 núcleos  <br/> |9 GB  <br/> |Simple  <br/> |Varios discos  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
 |8 núcleos  <br/> |9 GB  <br/> |Múltiples  <br/> |Varios discos  <br/> |5 M  <br/> |2 h  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
-|8 núcleos  <br/> |Más de 30 GB  <br/> |Simples  <br/> |Varios discos  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
+|8 núcleos  <br/> |Más de 30 GB  <br/> |Simple  <br/> |Varios discos  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
 |8 núcleos  <br/> |Más de 30 GB  <br/> |Múltiples  <br/> |Varios discos  <br/> |20 M  <br/> |9 h  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
-|4 núcleos  <br/> |200 GB  <br/> |Simples  <br/> |Varios discos  <br/> |125 m  <br/> |Más de 6 días  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
+|4 núcleos  <br/> |200 GB  <br/> |Simple  <br/> |Varios discos  <br/> |125 m  <br/> |Más de 6 días  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
 |16 núcleos  <br/> |500 GB  <br/> |Múltiples  <br/> |Varios ejes  <br/> |250 M  <br/> |8 días  <br/> |2 h  <br/> |2 m  <br/> |10 m  <br/> |
    
 \*No se espera que se encuentren en implementaciones reales porque la base de datos de métricas de QoE tendría que tener 9 y 18 meses de datos, respectivamente, pero se proporcionan aquí para completarse.

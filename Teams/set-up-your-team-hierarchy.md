@@ -9,18 +9,18 @@ ms.reviewer: andfried, acolonna
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar una jerarquía de equipos en su organización para publicar contenido en un gran conjunto de equipos.
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1a08bfe63db87332035dd51b93281cc8ac0f25
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 769790029adf0e18d6201b635659a5b267e5f27c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597954"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destinos de equipo
 

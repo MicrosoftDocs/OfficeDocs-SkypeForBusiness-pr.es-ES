@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Antes de empezar a diseñar y planear la infraestructura de Skype Empresarial Server 2015 mediante la herramienta de planeación de Skype Empresarial Server 2015, primero debe instalar la herramienta de planeación. La herramienta de planeación no necesita implementarse en una estación de trabajo o servidor que forma parte del dominio o la infraestructura donde tiene previsto instalar Skype Empresarial Server 2015. El archivo Léame que acompaña a la herramienta de planeación detalla información importante sobre la instalación y el uso de la herramienta. Alguna de la información del archivo Léame también aparece aquí por motivos de claridad.
-ms.openlocfilehash: ffa1bceca3e59e42276718b5f139ac6525d36f85face94c762ceebe3013c7487
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2cfa5e67d567c108d46db1bc52b5426971aa8ca8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343414"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616516"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Instalar la herramienta de planeación en Skype Empresarial Server 2015
 
@@ -38,7 +38,7 @@ Los sistemas operativos compatibles para la instalación y el funcionamiento de 
 
 - Windows Server 2012
 
-- Windows Server 2012 R2
+- Windows Server 2012 R2
 
 - Edición de 32 bits de Windows 7
 

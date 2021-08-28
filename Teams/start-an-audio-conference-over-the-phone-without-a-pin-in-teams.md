@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Obtenga información sobre cómo habilitar o deshabilitar a los autores de llamadas anónimos para que no se unan a una reunión desde el Teams de administración. '
-ms.openlocfilehash: 20fdf9a86da2daec297de88a435b70e84c191ff5af846a51aeae06ae4ba8832f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b67cf357b9230b4dfd2448d84d4ce007149efe9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285679"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604409"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Iniciar una audioconferencia por teléfono sin PIN en Microsoft Teams
 

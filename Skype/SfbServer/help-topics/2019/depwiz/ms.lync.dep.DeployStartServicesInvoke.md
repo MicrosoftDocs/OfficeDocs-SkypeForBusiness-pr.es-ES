@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: El panel de resumen del panel Ejecutar comandos muestra el estado de las tareas emitidas para iniciar los servicios para el servidor de roles Skype Empresarial Server que está implementando.
-ms.openlocfilehash: 3a63d15c96728d1503c3938e8466420895ad8fceb0a4636126055949dbea6c79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c53ea2bc52cee5213bfca585b14957d50581b98
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317785"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598004"
 ---
 # <a name="start-services-invoke"></a>Iniciar servicios (invocar)
  

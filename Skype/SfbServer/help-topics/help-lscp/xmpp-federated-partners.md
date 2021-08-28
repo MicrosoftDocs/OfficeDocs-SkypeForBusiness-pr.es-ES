@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ExtXmppPartnerMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 5fe9b0f9b740d57f4e652ebe17d24b7733bffb63594ea8204655838bb82d8c97
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 408fed92ae654db1aed177661bb4f2669c4cd669
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298360"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623822"
 ---
 # <a name="xmpp-federated-partners"></a>Asociados XMPP federados
 

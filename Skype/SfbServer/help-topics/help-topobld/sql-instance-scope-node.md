@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) de este Microsoft SQL Server y la instancia de SQL Server en ese servidor, y los grupos o servidores que usan este SQL Server. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 1abf5a3cf011d90f8efc81531d5f7fa052a57941ec7484b00435d285364ec134
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a6ae742e778ba105ab19b8e8459b1695fb82519
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338168"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588572"
 ---
 # <a name="sql-instance-scope-node"></a>Nodo de ámbito de instancia SQL
  

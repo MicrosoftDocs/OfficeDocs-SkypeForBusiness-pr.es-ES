@@ -16,13 +16,13 @@ f1keywords:
 description: Obtenga información sobre cómo administrar sus Teams aplicaciones en la página Administrar aplicaciones del centro de Microsoft Teams administración
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: bf286dd4be3c294d8da0928ddb2317814102e7fbadf6fac306919bbae1bb0b88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+ms.openlocfilehash: 63c3baabcacd10bbbc2f4003f33eb90a9c302e74
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304862"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604449"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro Microsoft Teams administración
 

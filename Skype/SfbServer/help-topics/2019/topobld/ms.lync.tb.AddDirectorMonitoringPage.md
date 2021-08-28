@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorMonitoringPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede Definir el almacén SQL Server de supervisión configurando las propiedades siguientes:'
-ms.openlocfilehash: dba4e21a540da7e77f44e3cdd94834e86246c840d8d99bde2d1facf5a54e1b65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79ebe44a4855e5b538a74f791d2183390f6509ce
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302954"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590354"
 ---
 # <a name="add-director-monitoring"></a>Agregar supervisión de director
  

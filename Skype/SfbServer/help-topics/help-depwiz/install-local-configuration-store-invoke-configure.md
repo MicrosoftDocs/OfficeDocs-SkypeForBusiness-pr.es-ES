@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployReplicaConfig
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 description: Para iniciar la instalación de la base de datos que va a contener la copia de solo lectura local del almacén de administración central, seleccione entre recuperar la configuración definida publicada mediante el Generador de topologías del almacén de administración central ya instalado y configurado, o leer la configuración definida desde otros medios. Para un equipo que se encuentra en la red interna de su organización, seleccione Recuperar configuración automáticamente desde el Almacén de administración central.
-ms.openlocfilehash: 6035603e638a8d1459310c8b73002b5c9e922fc76e166cbd880ad9614f161563
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c5b90e0758c892a42286637fa30a6739932bdfb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285126"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635484"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Instalar almacén de configuración local (invocar) (configurar)
  

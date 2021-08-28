@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planeación del enrutamiento basado en ubicación en Skype Empresarial Server Telefonía IP empresarial, incluida la interacción con llamadas y delegación simultáneas, y escenarios admitidos para el enrutamiento basado en ubicación.
-ms.openlocfilehash: 3d76fad2b87c850e18bf5d152234dea4d1321a3ed2e123be694e6a1f107f58ae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9c066aae2c70892b3d7dd6ed3180bb2fd0c9f969
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286629"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588522"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planear el enrutamiento Location-Based en Skype Empresarial
 
@@ -162,7 +162,7 @@ Con la actualización acumulativa 4, verá lo siguiente:
 
 En la tabla siguiente se le mostrarán algunos de los escenarios posteriores a la actualización acumulativa 4:
 
-|**Usuario de enrutamiento basado en ubicación**|**Otra parte**|**Acción**|**Resultado**|
+|**Usuario de enrutamiento basado en ubicación**|**Otra parte**|**Acción**|**Result**|
 |:-----|:-----|:-----|:-----|
 |Skype Empresarial Móvil  <br/> |RTC  <br/> |Skype Empresarial Mobile recibe una llamada RTC entrante.  <br/> |La llamada se enruta mediante llamada a través del trabajo (CvW) y no voIP.  <br/> |
 |Skype Empresarial Móvil  <br/> |RTC  <br/> |Skype Empresarial Mobile realiza una llamada RTC saliente.  <br/> |La llamada se enruta a través de CvW y no voIP.  <br/> |

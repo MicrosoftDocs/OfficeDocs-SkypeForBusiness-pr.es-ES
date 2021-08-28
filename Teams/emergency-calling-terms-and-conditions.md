@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo los servicios de emergencia (911) difieren de los servicios telefónicos tradicionales y cómo realizar una llamada. '
-ms.openlocfilehash: 3bceef7d98cb2598422bb30a827bd9a0608a515887f6f3963291c06f6e8505a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5dcc7195e4dc4d02bb6a9fb9dffde5aa044b3a0d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336290"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604479"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Términos y condiciones de las llamadas de emergencias
 

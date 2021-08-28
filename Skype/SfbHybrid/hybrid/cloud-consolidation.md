@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: En este artículo se describe cómo lograr esa consolidación para las organizaciones con implementaciones locales de Skype Empresarial (o Lync) que buscan mover su carga de trabajo de UC a Teams.
-ms.openlocfilehash: 268f9a7a35e53a514dda63c304c7a58e252004d3edf74d1342f4934ec4185aab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b44af6e5229f7bef90fff51d52dd4ff65fc57ed7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277465"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597914"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Consolidación de la nube para Teams y Skype Empresarial
 
@@ -181,7 +181,7 @@ Cuando se mueven usuarios locales a la nube en un entorno híbrido, estos usuari
     - Puede conceder una directiva para todo el espacio empresarial mediante este comando:<br>`Grant-CsTeamsUpgradePolicy -PolicyName SfBWithTeamsCollab -Global`
     - Nota: Debe hacerlo en un nivel de espacio empresarial porque la directiva no se puede asignar a usuarios individuales que no tienen una dirección SIP en el directorio en línea. Aunque ha deshabilitado los dominios SIP en línea para sus implementaciones locales puras, los usuarios de esos dominios no tendrán direcciones SIP en el directorio en línea por diseño. Por lo tanto, la única forma de aplicar la directiva a los usuarios locales es mediante la asignación en el nivel de inquilino. En cambio, en la implementación híbrida, los usuarios tendrán una dirección SIP en el directorio en línea para que se les pueda asignar explícitamente una directiva si se desea que tengan un valor diferente a la directiva global del espacio empresarial.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Actualizar el certificado de límite](cloud-consolidation-edge-certificates.md)
 

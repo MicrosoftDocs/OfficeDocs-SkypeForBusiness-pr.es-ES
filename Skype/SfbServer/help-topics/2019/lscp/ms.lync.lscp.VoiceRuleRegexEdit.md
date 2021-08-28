@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'En el campo Hacer coincidir este patrón, especifique el patrón que se usará para hacer coincidir los números objeto de la conversión. En el campo Regla de conversión, especifique un patrón para el formato de los números convertidos. '
-ms.openlocfilehash: 9b5a28f07689a83c9f5b35cfe6ba3ef6f80f396fa60d6fe3917f3a5e378ec2c8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 951da5e52f247c6649883354cb61c8064d495d40
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345927"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590374"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>Regla de conversión: Escribir una expresión regular
  
