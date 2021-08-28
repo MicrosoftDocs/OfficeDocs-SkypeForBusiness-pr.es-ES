@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Argentina.
-ms.openlocfilehash: 0794f16ac5e3511d6ce2daae83ff11a8e70bc5feef3d5c3165744601c0e6ffc6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 904731570fc53fd3db3939e4fab8897d634a4c63
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352428"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602285"
 ---
 # <a name="availability-in-argentina"></a>Disponibilidad en Argentina
 

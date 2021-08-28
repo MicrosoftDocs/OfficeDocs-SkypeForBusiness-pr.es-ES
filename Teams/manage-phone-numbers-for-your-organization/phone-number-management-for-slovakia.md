@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabla para encontrar información sobre cómo obtener y administrar números de teléfono en Eslovaquia para Microsoft Teams.
-ms.openlocfilehash: 119fe5257fd98560e1b28eeacf19271474196b2e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f3d108d5e2c28c86ff5c6104f18dc9c5095a5b10
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233255"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611669"
 ---
 # <a name="phone-number-management-for-slovakia"></a>Teléfono de números para Eslovaquia
 

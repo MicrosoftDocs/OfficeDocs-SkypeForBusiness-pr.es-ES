@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsQueueEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
-ms.openlocfilehash: 3029911d6b2290dc6d117f829d084d71a4bd5ed0f9dca652498088a87afcb643
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe8486ae94df3d7532f2a672cbd272000ff06f2f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319233"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602745"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Cola de grupos de respuesta: Crear nuevos o editar los existentes
 

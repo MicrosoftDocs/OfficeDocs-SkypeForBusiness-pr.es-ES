@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: Las opciones de configuración de reunión definen el tipo de conferencias (también denominadasmeetings) que los usuarios pueden crear y controlan cómo (o si) los usuarios anónimos y los usuarios de conferencias de acceso telefónico local pueden unirse a estas conferencias. Estas opciones solo se aplican a reuniones programadas. No se aplican a reuniones ad hoc creadas haciendo clic en la opción Reunirse ahora en el cliente.
-ms.openlocfilehash: acf91f927a9bace0e943dd657f3b2c3b000af5716d984d37add60dfe7f8fcb17
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0b5f10cbf76e90e58723be3ec05a918a2e2e6fc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319243"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610937"
 ---
 # <a name="meeting-configuration"></a>Configuración de reuniones
 

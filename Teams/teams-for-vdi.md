@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rafarhi, jmorrow
 audience: admin
 description: Obtenga información sobre cómo ejecutar Microsoft Teams en un entorno de infraestructura de escritorio virtualizada (VDI).
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eabb53932dcc9892632e0e2ae58b7a4506595343
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: be5a7181a3a3679b1cef33124bcd7ad9d689c7a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523841"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602085"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -524,5 +524,5 @@ A continuación, reinicie VDA. Para obtener más información, vea este artícul
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Instalar Microsoft Teams con MSI](msi-deployment.md)
-- [Información general de PowerShell para Teams](teams-powershell-overview.md)
+- [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 - [Usar Microsoft Teams escritorio virtual de Azure](/azure/virtual-desktop/teams-on-wvd)

@@ -20,13 +20,13 @@ ms.custom:
 description: El administrador de Teams o de TI puede configurar el acceso externo de otros dominios (federación) para permitir que los usuarios de esos dominios participen en Teams.
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
-ms.openlocfilehash: ff3b2bd28468c0db33194f5004bcaec026a037a861c28e3b9a3d442dab356410
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: high
+ms.openlocfilehash: 255b714980db3ac63e9251c8db7af243d91dc72d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310698"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610309"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 

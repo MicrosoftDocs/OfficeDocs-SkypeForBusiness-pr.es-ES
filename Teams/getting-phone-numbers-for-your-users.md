@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo obtener números nuevos, portabilidad o transferir números existentes para Teams y cómo mostrar los cambios a los usuarios. '
-ms.openlocfilehash: cb74b070e9c9c74c71e98309e9a06e3f9a85021872a2072f4852f89de52cbd01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5371a3d23e78017db34ae94cdd7516ce40b6347b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315286"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602275"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 'Summary: Learn about the Peer-to-Peer Activity Summary Report in Skype Empresarial Server.'
-ms.openlocfilehash: da8d23a0a51b23ccfbe0e15b7e2c79f81c88bf3559deb7005dc5d4f75f512ad2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cd228175d0b254e70d4df0019566ee7e8784b2de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286799"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622262"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Informe de resumen de actividad punto a punto en Skype Empresarial Server
  
@@ -75,9 +75,9 @@ En la tabla siguiente se muestra la información que recoge el Informe de resume
   
 **Métricas del Informe de resumen de actividad punto a punto**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Cada hora** <br/> **Diario** <br/> **Semanal** <br/> **Mensualmente** <br/> |No  <br/> |Indica el intervalo temporal que ha seleccionado en la barra de herramientas para filtros. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si usa el intervalo Diario y hace clic en 7/17/12015, verá un desglose por hora de la actividad de registro de usuarios para esa fecha.  <br/> |
+|**Cada hora** <br/> **Diario** <br/> **Semanalmente** <br/> **Mensualmente** <br/> |No  <br/> |Indica el intervalo temporal que ha seleccionado en la barra de herramientas para filtros. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si usa el intervalo Diario y hace clic en 7/17/12015, verá un desglose por hora de la actividad de registro de usuarios para esa fecha.  <br/> |
 |**Total de sesiones punto a punto** <br/> |No  <br/> |Número total de sesiones punto a punto realizadas, independientemente del tipo de sesión.  <br/> |
 |**Total de sesiones de MI punto a punto** <br/> |No  <br/> |Número total de sesiones de mensajería instantánea punto a punto. Cuando se hace clic en este elemento, el informe muestra el Informe de MI punto a punto para el período de tiempo seleccionado.  <br/> |
 |**Total de mensajes instantáneos punto a punto** <br/> |No  <br/> |Número total de mensajes instantáneos enviados en sesiones punto a punto. Cuando se hace clic en este elemento, el informe muestra el Informe de MI punto a punto para el período de tiempo seleccionado.  <br/> |

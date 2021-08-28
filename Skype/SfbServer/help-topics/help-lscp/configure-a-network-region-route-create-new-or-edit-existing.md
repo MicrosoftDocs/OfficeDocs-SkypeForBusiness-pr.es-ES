@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsRegionRouteEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 597956f8e37ee2a9e67ebdbafd955fd5abd91ed98ef9fa96fcaf46599a5a854f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b5ade2e0a4623104924daa344317741cc5ea954
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321962"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602815"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Configurar una ruta de región de red: Crear nuevos o editar los existentes
 

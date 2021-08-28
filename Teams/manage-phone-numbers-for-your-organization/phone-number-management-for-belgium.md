@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Bélgica para Microsoft Teams.
-ms.openlocfilehash: a11e33d8cccb955e59d6784a845e43952ce0fd95
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 0d359f20e56b626657201b6b3640a1fdc59fdea9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348522"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602235"
 ---
 # <a name="phone-number-management-for-belgium"></a>Administración de números de teléfono para Bélgica
 

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Inicie el Generador de topologías para configurar las propiedades y la configuración de la implementación. Al iniciarse, el Generador de topologías muestra un cuadro de diálogo que pregunta cuál será el origen del documento de topología. Debe seleccionar una de las tres opciones:'
-ms.openlocfilehash: 8259d8f552f0706d83f809c17802f54229d455910bf6da54eb14373e21f49a02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 07747193ba46d3159693991a9d304cb0aaec57d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335410"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621446"
 ---
 # <a name="topology-builder-startup-dialog"></a>Cuadro de diálogo de inicio del Generador de topologías
  

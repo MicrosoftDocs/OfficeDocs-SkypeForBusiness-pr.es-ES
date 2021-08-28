@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 'Resumen: vea la información del PIN del usuario en Skype Empresarial Server.'
-ms.openlocfilehash: 1b280f4e00bacab5c7def0d6ff6c274f64d9ef8651b6d2b0d328867260e77449
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eb30ae22f5a80835e73962f0e2441633fdc1d46e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315646"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622382"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>Ver información de PIN de usuario en Skype Empresarial Server
  

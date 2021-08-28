@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Summary: Learn how to enable Call detail recording (CDR) records in Skype Empresarial Server.'
-ms.openlocfilehash: 1d09e637d75b9617abf669f75e96076333380a075010bd3d641f4c5189be9d89
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cc9b3d4f19a4598638093d92733a0917fca7c2c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301386"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622372"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Habilitar la grabación de detalles de llamadas en Skype Empresarial Server
 

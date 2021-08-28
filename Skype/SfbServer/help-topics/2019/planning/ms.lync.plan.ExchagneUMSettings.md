@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.ExchagneUMSettings
 - ms.lync.plan.ExchagneUMSettings
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Empresarial Server 2015 admite la integración con Exchange mensajería unificada (UM) para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería.
-ms.openlocfilehash: 272c3d51085f9bac2491835bd44317e31784c4729393010f857d5f147fa6bd0c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65f2aa77f653d4b5c91c4049d1d2a567d2e337c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311868"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622772"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Exchange Mensajería unificada Configuración (herramienta de planeación) en Skype Empresarial 2015
 

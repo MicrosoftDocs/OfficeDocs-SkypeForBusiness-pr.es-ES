@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: 'Summary: Learn about the P2P Summary Subreport in Skype Empresarial Server.'
-ms.openlocfilehash: 07d354ba14c8503571459081aaaf3445ec540fdb9a5caecc4b40576f6662f038
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8304399106e17654ad350bc0a2e5eff1ecc90ace
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345557"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622332"
 ---
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Subinforme de resumen P2P en Skype Empresarial Server
  
@@ -43,7 +43,7 @@ En la tabla siguiente se muestra la información recogida en el Subinforme de re
   
 **Métricas del Subinforme de resumen de P2P**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Total de sesiones** <br/> |No  <br/> |Número total de sesiones, incluidas las sesiones correctas, las sesiones con errores (tanto esperados como inesperados) y las sesiones sin categoría.  <br/> |
 |**Porcentaje de errores** <br/> |No  <br/> |Porcentaje de las sesiones punto a punto con errores.  <br/> |

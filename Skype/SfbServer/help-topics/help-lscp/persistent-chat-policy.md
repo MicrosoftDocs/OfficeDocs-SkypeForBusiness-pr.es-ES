@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatPolicy
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: Puede usar la página Directiva de chat persistente del grupo chat persistente para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o más directivas de usuario y sitio adicionales para la implementación. Si el servidor de chat persistente está habilitado para un usuario por directiva, el entorno del servidor de chat persistente aparece en su cliente.
-ms.openlocfilehash: 0f8092afcb296ff1606769623ee52f5293eefa2b5bcf22f552f797f447f52f71
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6145740717ca4e240cde767535c91040c336cb90
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335350"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621396"
 ---
 # <a name="persistent-chat-policy"></a>Directiva de chat persistente
  

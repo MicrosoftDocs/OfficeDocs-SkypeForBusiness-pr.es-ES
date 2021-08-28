@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Resumen: obtenga información sobre el Panel de supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: f731030d3534af9494a4d70d29b27cc8b3ec95bcd5eede97d3ab3c65c2a54b9f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 544dfdc37f25fe60418dc190a76467c044a58d65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345577"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622352"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Uso del Panel de supervisión en Skype Empresarial Server
  

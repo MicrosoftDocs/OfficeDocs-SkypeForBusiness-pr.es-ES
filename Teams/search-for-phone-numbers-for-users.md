@@ -15,18 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: Vea cómo buscar números de teléfono que puede asignar a los usuarios, por país o región y ciudad, y especifique la cantidad de números que necesita.
-ms.openlocfilehash: 732f2128be87e71c2ce4e7d1a2ff618b5bf4960d07080bf0fa23218a736e9ad7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4fcc5d43ec232d57437cabdc09d38a75910b03f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602115"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Buscar números de teléfono para los usuarios
 

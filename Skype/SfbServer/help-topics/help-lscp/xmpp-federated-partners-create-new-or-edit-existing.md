@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ExtXmppPartnerEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 3b7bb978aa977f02a96a0c4a06f5b78cf23496fcd32fe4ebe1e714d1ac527874
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5961015fdbfd074d7d7b6189861fbcc6f7a6e3b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320552"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610857"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Socios federados de XMPP: Crear nuevos o editar los existentes
 

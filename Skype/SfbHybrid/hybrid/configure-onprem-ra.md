@@ -10,15 +10,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Configurar una cuenta de recurso para Skype Empresarial Server 2019.
-ms.openlocfilehash: 87db9779a6f90730d6aa53e3084a2014a71bad5aba91844d2e545f7d78ae37cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 473a8cbcd77e3e0cb212481a4837f1c50801f20f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304702"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602035"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 

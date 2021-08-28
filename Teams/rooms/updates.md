@@ -9,18 +9,18 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: El administrador puede obtener información sobre cómo administrar Windows actualizaciones y Windows de características de Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 67144ff29077a3dec6be79b9b68efb1162d31a9069b3436b29f9ac50a4857914
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 28f5d9def3a5217d1d34343e27cbaddb6a3433b9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275966"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602125"
 ---
 # <a name="manage-windows-updates"></a>Administrar Windows actualizaciones
 

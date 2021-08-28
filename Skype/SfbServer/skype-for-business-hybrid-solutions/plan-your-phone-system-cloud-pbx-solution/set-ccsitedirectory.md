@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: El cmdlet Set-CcSiteDirectory establece el directorio donde se almacenarán los archivos de configuración de nivel Skype for Business Edición de conector de nube sitio. La carpeta contendrá los archivos de configuración de VHD base y Cloud Connector.
-ms.openlocfilehash: 9642c91e811e62b08f2b0e219b5eaa7b9ac7359fcdb6114c028735851280da59
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5685ac8c203338365141a4a7ba59daa82a06ef0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286249"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610537"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
@@ -53,7 +53,7 @@ La carpeta predeterminada es C:\Users \% userprofile%\CloudConnector\SiteRoot. L
 
 |**Parámetro**|**Required**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| Path <br/> | Obligatorio <br/> | System.String <br/> |Proporciona la ruta de acceso a la carpeta donde se almacenarán los archivos de sitio de Cloud Connector.  <br/> |
+| Ruta de acceso <br/> | Obligatorio <br/> | System.String <br/> |Proporciona la ruta de acceso a la carpeta donde se almacenarán los archivos de sitio de Cloud Connector.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
