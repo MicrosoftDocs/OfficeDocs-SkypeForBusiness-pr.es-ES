@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.DeploymentSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Puede editar las propiedades de una implementación existente con las secciones siguientes:'
-ms.openlocfilehash: 79a2ab248e27037edf62ade9a3e9689d06be50c90a5fff33ab5b61acdaa5c355
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5dbe01c5c132bf3b9f3be2887752a799b29b131d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333722"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605029"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de configuración de implementación
 

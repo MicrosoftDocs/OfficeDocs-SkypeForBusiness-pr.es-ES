@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: Cree o modifique el horario comercial del grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 37195633064ab04f3d24f56b09760fb44b2ddd473da316898d1106cc13ef4bc3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8cceee13e18e8b4a44ba1cffcca68be7c5fd3bf7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338708"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579984"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Opcional) Definir el horario comercial del grupo de respuesta en Skype Empresarial 
  

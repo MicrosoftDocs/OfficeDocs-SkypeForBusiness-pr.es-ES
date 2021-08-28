@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ImpFileMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6178d9e5-a919-4a7d-9633-d5f155556306
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 61cb614a9b7efae4d220f965fbb14b4bdf4887f6b0778708b362263dce2fd712
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a75cbe412a396d56239312322964291de5298315
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305612"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605199"
 ---
 # <a name="file-filter"></a>Filtro de archivo
 

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Después de quitar un servidor de supervisión, puede quitar las bases de datos SQL Server que hospedaban los datos del servidor. Use los siguientes procedimientos para quitar las definiciones del Generador de topologías y, a continuación, quite los archivos de base de datos y registro del servidor de bases de datos.
-ms.openlocfilehash: cadb24e2dcbe88e643c234dd8559d07406e5566e3e7eea0e33eec796cd98cf52
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 23f58166c6a24680772d50c6bc484ba1bd02d754
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280395"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605759"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>Quitar la base de datos de SQL Server de un servidor de supervisión
 

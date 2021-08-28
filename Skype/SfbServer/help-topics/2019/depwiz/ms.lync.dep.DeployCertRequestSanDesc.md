@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página Nombre del sujeto o nombres alternativos del sujeto presentan un resumen del nombre del sujeto y de los nombres alternativos del sujeto que constarán en el certificado. Los nombres que se presentan para el nombre de sujeto y los nombres alternativos de sujeto se recopilan en el documento de definición, tal como se creó al definir la implementación en el Generador de topologías.
-ms.openlocfilehash: 24f47214797224ac0907c5478deef7db819fd57ec84bba87de256c6f5360c36c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 929d8611ce5040d93ab6f7f1a68a0c34957ab364
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325327"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605459"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>Solicitud de certificados (nombres alternativos de sujeto)
  

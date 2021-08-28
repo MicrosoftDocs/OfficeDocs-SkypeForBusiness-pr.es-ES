@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Nueva Zelanda.
-ms.openlocfilehash: 8ea346d34a89f7e52e21f16e78f3fd779d9e46fef750e8dca003042ebcaf63f4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 57f12881a3a3b73928af6186d415d772d4054b77
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332852"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605949"
 ---
 # <a name="availability-in-new-zealand"></a>Disponibilidad en Nueva Zelanda
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Paso 3: Solicitar, instalar o asignar certificados inicia el Asistente para certificados al hacer clic en Ejecutar. Los certificados que se configuran a través del asistente se basan en la definición de la topología de Skype Empresarial Server configurada y publicada por el Generador de topologías en el almacén de administración central. Para ejecutar correctamente el Asistente para certificados para una entidad de certificación en línea (CA) de la organización, debe haber iniciado sesión en el equipo como un usuario que sea miembro del grupo de administradores locales del equipo. También debe ser un usuario de dominio autenticado en el dominio donde existen el equipo y la CA. El asistente para certificados proporciona la capacidad de especificar credenciales alternativas para obtener acceso a la CA de la organización.'
-ms.openlocfilehash: 44eb8c3ca1361742a114b3763bde911842734c1ced498dfae73c1f8a7c3c3d45
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 63581c0a24d8bef811d77a5473326d17e404b8d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282183"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605449"
 ---
 # <a name="request-install-or-assign-certificates"></a>Solicitar, instalar o asignar certificados
  

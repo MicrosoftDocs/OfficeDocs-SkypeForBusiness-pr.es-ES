@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.TopoStatusMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: 'La página Topología: Estado muestra el estado de los servidores de la Skype Empresarial topología.'
-ms.openlocfilehash: a4af861e23592ce58590593ef3fd73af1b2a2a25b47b3b3ce1a8249544cf6b98
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4b500cf9f8144dac68ec0a01944f09b8c4555727
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331352"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605179"
 ---
 # <a name="topology-status"></a>Topología: Estado
 

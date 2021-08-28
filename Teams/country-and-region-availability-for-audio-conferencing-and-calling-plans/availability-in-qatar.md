@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Qatar.
-ms.openlocfilehash: e3035065a52279d090ae394217ccaa1bdd3576288b1c2d7e67c9262b3c5ec2ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 89d753251641a8e5f059128a21f1a394ca6e62ee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347225"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605889"
 ---
 # <a name="availability-in-qatar"></a>Disponibilidad en Catar
 

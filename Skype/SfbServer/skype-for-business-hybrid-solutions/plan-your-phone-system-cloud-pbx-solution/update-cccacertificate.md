@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
 description: El cmdlet Update-CcCACertificate renueva el Skype for Business Edición de conector de nube ca raíz que está cerca de expirar o que ya ha expirado.
-ms.openlocfilehash: 640ca982cd005e9805d7214212d847edcc6856456b6995fe1ae689778da58f61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 824959ab053c7eb7cc71eb60a5d6ecbeb2c7a847
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344539"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628412"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  

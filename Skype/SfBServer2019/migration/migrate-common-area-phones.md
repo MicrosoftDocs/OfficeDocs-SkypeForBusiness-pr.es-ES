@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Los teléfonos de área común son teléfonos IP que a menudo se encuentran en un espacio de trabajo compartido o un área común, como una sala de espera, cocina o una fábrica. Los teléfonos de área común no necesitan conectarse a un equipo para proporcionar Skype Empresarial Server de comunicaciones unificadas (UC). Después de migrar una implementación a Skype Empresarial Server 2019, también debe migrar los objetos de contacto asociados con el área común heredada Teléfono. Con Skype Empresarial Server Shell de administración, primero recuperará todos los objetos de contacto asociados con los teléfonos de área común heredados y, a continuación, moverá esos objetos al grupo de servidores de Skype Empresarial Server 2019.
-ms.openlocfilehash: 808e874216fac97b01face6efa7aae00e269b74ee0f009b106f872a33a6d6261
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dabb91925b2d5271ba2760f62dd962ed7fa7a24c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340436"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579534"
 ---
 # <a name="migrate-common-area-phones"></a>Migrar teléfonos de área común
 

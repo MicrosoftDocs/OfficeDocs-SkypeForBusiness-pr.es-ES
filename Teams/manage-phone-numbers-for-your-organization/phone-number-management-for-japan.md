@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Japón para Microsoft Teams.
-ms.openlocfilehash: 713897cbaf38e2e411db67e7b28358a4bd11d9d4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ed0b4403f28f825cdf98a7fde20d3fe4e3b88199
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234985"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628352"
 ---
 # <a name="phone-number-management-for-japan"></a>Teléfono de números para Japón
 

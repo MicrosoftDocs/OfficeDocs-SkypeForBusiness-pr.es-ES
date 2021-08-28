@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Busque información sobre Skype for Business Edición de conector de nube, un conjunto de máquinas virtuales (VM) empaquetadas que implementan la conectividad RTC local con Sistema telefónico (PBX en la nube).
-ms.openlocfilehash: 147fabd9866386b67c17022a37369149273de3caeecf40e471abbed40e0e33cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65e1d78a894b967391f44d6859c7fe50f42a7145
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628462"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planeación de Skype for Business Edición de conector de nube
 

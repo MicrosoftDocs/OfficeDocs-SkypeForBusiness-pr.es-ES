@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Summary: Configure test user accounts and watcher node settings for Skype Empresarial Server synthetic transactions.'
-ms.openlocfilehash: 777381be79811973f189b25bc533baa986a4f8c6
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 77e742940b75845e67a48bddb2c19a4450b289e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372100"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580074"
 ---
 # <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>Skype Empresarial Server: Configurar usuarios y opciones de prueba de nodo de monitor
  

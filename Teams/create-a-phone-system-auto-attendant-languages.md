@@ -15,18 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: Microsoft Teams idiomas admitidos por el operador automático
-ms.openlocfilehash: 18a2f54eea4fb0f4090b76bddd92da40263c6db0
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+ms.openlocfilehash: 52dc175b5c8d7379d538c3a80b28b763279c7c41
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58339848"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605839"
 ---
 # <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams idiomas admitidos por el operador automático
 

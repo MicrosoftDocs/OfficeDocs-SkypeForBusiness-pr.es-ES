@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: fafan
 audience: admin
 description: Obtenga más información Office 365 minutos de acceso telefónico extendidos de audioconferencia a EE. UU. y Canadá.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbc9687c6fa55f809a40e74b0013371e6ad9a64453498af416cdee0f741e205
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39b8bc2aee158ea5992c4255932606cf4f5f81ac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344329"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605809"
 ---
 # <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365 Minutos de acceso telefónico extendidos de audioconferencia a EE. UU. y Canadá
 

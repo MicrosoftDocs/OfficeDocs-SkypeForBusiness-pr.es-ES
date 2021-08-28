@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Después de quitar un grupo de servidores front-end o volver a configurar el grupo para que use una base de datos diferente, puede quitar las bases de datos SQL Server que hospedaban los datos del grupo. Use los siguientes procedimientos para quitar las definiciones del Generador de topologías y, a continuación, quite los archivos de base de datos y registro del servidor de bases de datos.
-ms.openlocfilehash: 01a28beabb85aa7cda25043680537f519872d58654dee5418f03ae9f5f702a19
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2a11057811035b0dc51810d3a6b7eb8220c7df1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340326"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580114"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Quitar la base de datos de SQL Server para un grupo de servidores front-end
 

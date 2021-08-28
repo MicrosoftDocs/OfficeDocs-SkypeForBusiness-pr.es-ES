@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Summary: Learn how to connect Skype Empresarial Server with Skype consumer. También se conoce como Skype conectividad.'
-ms.openlocfilehash: 752bae0797da1129d677dd962ad9dc6e4b9a6e99123babcf30ab8bd11bdbf668
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 962915a21b89a1d99fa6d788c677832bb470076b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307791"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605549"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implementar Skype conectividad en Skype Empresarial Server
 

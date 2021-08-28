@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Cada registro representa una secuencia de vídeo. Normalmente, una línea multimedia de vídeo contiene dos secuencias de vídeo.
-ms.openlocfilehash: fde5036803bd02bed4b766ca9e6d2419d9b4cca92d78968867e18e9e4083897e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: af8ae55e805019b91e9c1750d7bb036bcf79c6f7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322912"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628522"
 ---
 # <a name="videostream-table"></a>Tabla VideoStream
  

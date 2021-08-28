@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 'Para editar las propiedades de la aplicación de sucursal con funciones de supervivencia o del servidor de sucursal con funciones de supervivencia , en General, debe configurar:'
-ms.openlocfilehash: 178e7acd1a5e8b34bc4d3b01a10be369834636e6a67c6a2145f650e2211cadca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0a0451084067d31c6fc3f45ddd7b8e64a950c32f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313328"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605129"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general de aplicación de sucursal para Lync Server 2010
  

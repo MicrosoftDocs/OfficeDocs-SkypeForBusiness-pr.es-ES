@@ -10,18 +10,18 @@ audience: admin
 description: Obtenga información sobre cómo usar un script de PowerShell para crear un equipo para cada administrador con sus directos como miembros del equipo.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce7fb0a34f202481df0062367ec7a905b84848d21e7a2e5e4bce73bea4073eac
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cad2ed4fdbcec7f13f5b2e932d34395fe4b4c339
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282813"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628362"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>Crear equipos de administradores de personas en Microsoft Teams
 

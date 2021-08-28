@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Para definir el tronco raíz de la IP o red telefónica conmutada (RTC) debe configurar lo siguiente:'
-ms.openlocfilehash: ad9f98eae7220294ab18e48d49b01ee2fdcb6a97ce95fab28f2165760762a416
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf6cead37d229e2d276990434fa4b490d3eda472
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303723"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605049"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definir el tronco raíz para una nueva dirección IP o puerta de enlace RTC
 

@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Nigeria.
-ms.openlocfilehash: 054c1fcf357465f752f06abd968a454bd836e78580448bb0bbb6ae462237a6bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 77622c915cc616d94ff5f8624177a9d01101bc3b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336360"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605939"
 ---
 # <a name="availability-in-nigeria"></a>Disponibilidad en Nigeria
 

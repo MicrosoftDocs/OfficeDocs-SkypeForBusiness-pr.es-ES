@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Resumen: obtenga información sobre cómo definir e implementar un servidor de mediación en el Generador de topologías en Skype Empresarial Server.'
-ms.openlocfilehash: 852571234b531fddfbd55cce6444f4f00abc95fe97567a58fb7829f29c5a0701
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd6561ee90751eaedd2ef3fdd5ccb6a2ef950b56
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323512"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579994"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Implementar un servidor de mediación en el Generador de topologías en Skype Empresarial Server
  
