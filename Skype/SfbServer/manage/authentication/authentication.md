@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: 'Resumen: use los siguientes procedimientos para administrar la Skype Empresarial Server seguridad y autenticación.'
-ms.openlocfilehash: ce142b4f28c40e13d17e8990696d88a24e8e212bfbfe2b4f0c2635131b35f352
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 77d7163f6064be51ba4c835d7f61363820b23da8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341915"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603979"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>Administrar la autenticación en Skype Empresarial Server
  

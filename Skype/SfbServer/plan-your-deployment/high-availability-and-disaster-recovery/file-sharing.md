@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: Obtenga información sobre cómo garantizar la alta disponibilidad de los recursos compartidos de Skype Empresarial Server, mediante DFS.
-ms.openlocfilehash: c707a1049bf1c54302c4dde270856379e4731fd4e23b1e886b3144445b4e2aaf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6abdf9656ddca5148c9b04c6dbe11cdc5da7e840
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337768"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603819"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Alta disponibilidad de uso compartido de archivos en Skype Empresarial Server
  

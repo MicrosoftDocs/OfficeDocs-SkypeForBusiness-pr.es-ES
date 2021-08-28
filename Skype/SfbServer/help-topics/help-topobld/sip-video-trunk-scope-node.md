@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SipVideoTrunkScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1dc894e5-e2db-4c4d-9946-1d5f92090113
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server 2015.
-ms.openlocfilehash: eb8b862b63d3b1123f8cd8879dc4438db03ba250d007ffcad50c13da465a53ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2dda2ae9734a6bb149826d35f5ea8b9ed0b6f76c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297366"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616626"
 ---
 # <a name="sip-video-trunk-scope-node"></a>Nodo de ámbito del tronco de vídeo SIP
  

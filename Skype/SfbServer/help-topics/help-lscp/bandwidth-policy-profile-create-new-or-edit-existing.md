@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsProfileEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: f439d5f89add255f065fffd6d58b16779328854ab5cabc4e43f1b46db7c1637c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c7b020bd0ad9d7f93c032608b635d129eb4c0b4a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331612"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636264"
 ---
 # <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>Perfil de directivas de ancho de banda: Crear nuevos o editar los existentes
 

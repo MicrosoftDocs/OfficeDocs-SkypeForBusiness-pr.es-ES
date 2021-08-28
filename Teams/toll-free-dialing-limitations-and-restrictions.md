@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en un país o región, incluida la disponibilidad, la disponibilidad por cable o de línea fija y la disponibilidad de la red móvil y las restricciones.
-ms.openlocfilehash: ef461e5c69c84355e967fbb78317cbcbf87c751e7733fa817e13aab8a8cf84be
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6ebe1154638b615a31eda623c31683384412954f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332372"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589592"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Restricciones y limitaciones de marcado de número gratuito
 

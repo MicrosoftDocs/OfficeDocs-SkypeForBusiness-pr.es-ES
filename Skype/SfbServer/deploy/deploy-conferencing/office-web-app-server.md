@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Summary: Read this topic to learn how to configure integration between Office Web Apps Server and Skype Empresarial Server to enable PowerPoint presentations for web conferencing.'
-ms.openlocfilehash: abaf430ffd2f426d8ed4821409691cc140bb9fa8fe3dd0e23bcf10cbc444c33b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 753ab05e533d77311c9910cb26fe7980b83b1a36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338788"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596004"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Configurar la integración con Office Web Apps Server en Skype Empresarial Server
  

@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: 'Resumen: obtenga información sobre el Panel de calidad de llamadas, que es una herramienta de informes para Skype Empresarial Server.'
-ms.openlocfilehash: 919086cc217a7c0f6c851a926b36c1c41badf5622bfc276fbd388f36eea11198
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 940f19344db7a1d2710a44381926a70d9297df4e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351450"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616576"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Panel de calidad de llamadas para Skype Empresarial Server
  

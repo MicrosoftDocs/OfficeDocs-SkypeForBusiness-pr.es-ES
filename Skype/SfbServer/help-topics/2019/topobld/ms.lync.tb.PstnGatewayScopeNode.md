@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN), el servidor de mediación asociado e información básica relativa a esta puerta de enlace de RTC. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 3d6feb83a76ef1cd1df27e5c03fe7918df0ff7bf8f988e7f2fd1939904e3cc75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d9bcfdde0f77d5bfe0f19e6c5bda5af1f596b965
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281873"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624072"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nodo de ámbito de puerta de enlace de RTC
  

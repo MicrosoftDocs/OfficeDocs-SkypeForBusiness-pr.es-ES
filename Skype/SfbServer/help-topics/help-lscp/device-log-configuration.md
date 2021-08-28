@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientDeviceCfgMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 description: El servicio Device Update Web crea automáticamente archivos de registro que registran la actividad de actualización de dispositivos. Como parte de la estrategia de administración de datos de la organización, es posible que desee establecer umbrales en el tamaño de la memoria caché de datos de registro, el tamaño del archivo de registro o el tiempo que se conserva un archivo de registro antes de que se purgue. Puede cambiar esta configuración según los requisitos de su organización. Si no desea que el servicio Device Update Web purgue los archivos de registro de forma automática, puede purgarlos manualmente según sea necesario. La configuración de registros se puede cambiar de forma global o por sitio.
-ms.openlocfilehash: 0233c48334bf40e36a36a9cf9247a1f01364ef6e05dfb5ee0875b04d746dca5c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2077f0929261cf410d0d5aa4525c563d5d73e975
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307401"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604039"
 ---
 # <a name="device-log-configuration"></a>Configuración de registro de dispositivo
 
@@ -48,7 +48,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
   - Global
 
-  - Site
+  - Sitio
 
 - **Editar** Puedes cambiar las opciones de una configuración de registro de dispositivos en la lista. Al usar esta opción, puede hacer lo siguiente:
 

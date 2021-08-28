@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 'Para editar las propiedades del servicio de mediación, defina las propiedades siguientes:'
-ms.openlocfilehash: c1de5fa582df662dbb7e97c6e4402dd912524f6a4ddb8630e2341e06d9dec2a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 99443558dce6373063e060d9dec5a791ae41cee8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299557"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616656"
 ---
 # <a name="mediation-service-settings-expander-for-lync-server-2010"></a>Expansor de configuración del servicio de mediación para Lync Server 2010
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Para configurar Notificaciones de inserción de Microsoft y Notificaciones de inserción de Apple, debe crear una directiva para definir qué tipos de notificaciones de inserción requiere.
-ms.openlocfilehash: 2b018a6274d3e6a446a8bace17259ecf515423733c972b702c6413adec67167a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20b7602abc518f68b0ecb7866b99025fca8cb543
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320602"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595834"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Cliente móvil: Configuración de notificaciones de inserción
  

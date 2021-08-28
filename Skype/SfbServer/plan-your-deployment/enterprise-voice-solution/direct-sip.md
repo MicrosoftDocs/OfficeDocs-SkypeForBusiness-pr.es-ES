@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Las conexiones SIP directas se admiten Skype Empresarial Server puertas de enlace RTC y IP-PBX en Telefonía IP empresarial.
-ms.openlocfilehash: cac0cf06843ed3bf623bd2d3bbe9e92cf6b32a091fd434ac4d422812cc59e60f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 40c8f5df636fcb6219af3d428de41c206bae906c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343374"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596524"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexiones SIP directas en Skype Empresarial Server
 

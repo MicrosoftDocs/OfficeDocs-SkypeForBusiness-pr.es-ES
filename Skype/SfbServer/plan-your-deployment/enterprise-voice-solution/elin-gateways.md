@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Decisiones necesarias para planear una base de datos de información de ubicación, o una base de datos externa similar, para una implementación de E9-1-1 mediante puertas de enlace ELIN, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: e3843735006460792f414e685c15552c54a64e1c7896b02b1b0922b31a84e106
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb0656909866a793bc8d64635b17785020dd646d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323082"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596514"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Administrar ubicaciones para puertas de enlace ELIN en Skype Empresarial Server
 
@@ -66,7 +66,7 @@ Después de decidir cómo va a dividir el espacio del edificio en ubicaciones, d
 |:-----|:-----|:-----|
 |Primera planta  <br/> |1  <br/> |425-555-0100  <br/> |
 |Segunda planta  <br/> |2  <br/> |425-555-0111  <br/> |
-|Tercera planta  <br/> |3  <br/> |425-555-0123  <br/> |
+|Tercera planta  <br/> |3   <br/> |425-555-0123  <br/> |
 
 Las ubicaciones que defina deben:
 

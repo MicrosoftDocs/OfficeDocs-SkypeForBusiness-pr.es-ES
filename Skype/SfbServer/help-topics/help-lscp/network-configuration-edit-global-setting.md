@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsGlobalEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 46d7f6c1ef6b71452f9420648f7558d45527e3f8b56c25c88304a9ac983a9c38
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4d0b94ca2eeeadc1033e13805ceb976183635b9c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636254"
 ---
 # <a name="network-configuration-edit-global-setting"></a>Configuración de red: Editar configuración global
 

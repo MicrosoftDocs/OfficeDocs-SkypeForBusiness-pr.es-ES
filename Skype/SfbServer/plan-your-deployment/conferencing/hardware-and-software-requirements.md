@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Resumen: lea este tema para obtener información sobre los requisitos de hardware y software para conferencias en Skype Empresarial Server.'
-ms.openlocfilehash: ebc760ed628bda8485c49e4c6114e9e510d2ff717779862a5620f91fc51cb834
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f3eff319165a50aa52108903c5f091415a1018d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310868"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603859"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Requisitos de hardware y software para conferencias en Skype Empresarial Server
 

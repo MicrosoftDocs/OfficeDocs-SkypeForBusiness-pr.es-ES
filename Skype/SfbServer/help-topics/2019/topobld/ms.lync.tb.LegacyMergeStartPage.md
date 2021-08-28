@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeStartPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para empezar a combinar una implementación heredada con Skype Empresarial Server, haga clic en Siguiente.
-ms.openlocfilehash: f71187c29f087730fab71ecafd32edcaa0bb814c8629f8b55ef4bd48e74405fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 42912750d8fe8c554e4b879ab13dbba512fafd02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299936"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636294"
 ---
 # <a name="legacy-merge-start"></a>Inicio de combinación heredada
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ConfCAAEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 29592126ae2d62b74c164374215fbc69a4d34801f6a24196639cfe377507cd6d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 932e62ebf021f8320a1404bf9e6e06f9583465e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321932"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604019"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>Número de acceso telefónico local: Crear nuevos o editar los existentes
 

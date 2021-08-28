@@ -17,19 +17,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Guía paso a paso que detalla cómo configurar Sistema telefónico (PBX en la nube) para su organización en Microsoft 365 o Office 365.
-ms.openlocfilehash: 1fd75870b53dafa5ade4db4f66a82593cce81836994cd4b5e01f1f1bda4864b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ac52110762b6aad0b1041c14c55a39804e68a8c0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293007"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589652"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar Sistema telefónico en su organización
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 description: 'Resumen: Administrar la calidad de la experiencia (QoE) en Skype Empresarial Server.'
-ms.openlocfilehash: 26ed4266b9eac940f54e3f69fa0c14d0ec4e7438e35084831eb281e20e17041f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6ff01b4962971edd4ca2d12684dcb653875eb905
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286759"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603869"
 ---
 # <a name="quality-of-experience-qoe-in-skype-for-business-server"></a>Calidad de la experiencia (QoE) en Skype Empresarial Server
  

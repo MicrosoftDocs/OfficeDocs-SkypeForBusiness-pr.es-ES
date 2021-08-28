@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN), los grupos y servidores asociados y la información de resistencia sobre esta aplicación de sucursal con funciones de supervivencia. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 1783194430b8bbbf44f79d97f118dc89ccb32b498bb7471a4aebefe1f16d8ce5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 43803d250d7e5447ed6c34e2bd2d3ade32b912e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323352"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624182"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nodo de ámbito de aplicación de sucursal
  
