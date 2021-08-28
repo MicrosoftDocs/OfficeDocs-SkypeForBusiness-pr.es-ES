@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ExtDomainEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: eb502a04aede9287a444bb34ba2cad8e5583441e90769c3db98d2f1ec6778992
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d8e411c0aa03bb43c07ad16185af22a1834228a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309579"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596774"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>Dominios federados: Crear nuevos o editar los existentes
 

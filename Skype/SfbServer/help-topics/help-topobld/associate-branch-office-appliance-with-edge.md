@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: Si tiene implementados los servidores perimetrales y debe proporcionar servicios multimedia para uso externo, seleccione el servidor perimetral o el grupo de servidores que se asociarán con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia seleccionándose en la lista desplegable. Haga clic en Siguiente para continuar.
-ms.openlocfilehash: 075d05c97e8e9a4a1fccc69562fe390cc0e8ade15e00e515f0e6e4fd4706b5c6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 02a57ab5bcd4960e277b8ab433d9a76780482f38
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303822"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612439"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Asociar aplicación de sucursal con perímetro
  

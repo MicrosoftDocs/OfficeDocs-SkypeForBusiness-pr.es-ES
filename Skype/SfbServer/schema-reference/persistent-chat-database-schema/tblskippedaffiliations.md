@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
 description: tblSkippedAffiliations contiene las afiliaciones que no se pudieron leer (normalmente debido a errores de acceso de servicios de dominio de Active Directory).
-ms.openlocfilehash: ddc8ef78f083235ccde122a3f26fd7f37e34b71d9643b1c729f802e3e080c413
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3869107cf98251100ec7fa483bc403e1c19239a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305372"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622072"
 ---
 # <a name="tblskippedaffiliations"></a>tblSkippedAffiliations
  
@@ -34,7 +34,7 @@ tblSkippedAffiliations contiene las afiliaciones que no se pudieron leer (normal
    
 **Keys**
 
-|**Columna(s)**|**Description**|
+|**Columna(s)**|**Descripción**|
 |:-----|:-----|
 |\<prinID, affDescription\>  <br/> |Clave principal.  <br/> |
 |prinID  <br/> |Clave externa con búsqueda en la tabla tblPrincipal.prinID.  <br/> |

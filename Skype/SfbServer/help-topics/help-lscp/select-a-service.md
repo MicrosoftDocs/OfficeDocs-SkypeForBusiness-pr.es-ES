@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SelectPool
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Use el cuadro de diálogo Seleccionar un servicio para buscar servicios disponibles en su entorno. Para usar un servicio existente, haga clic en un servicio de la lista y, a continuación, haga clic en Aceptar.
-ms.openlocfilehash: 3f3576594714701d52d192fee88dc983bee91d92b81559b4b8efd0d0a790bb6f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c56da3540ba7a7563092bee8275f67f4401192ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311175"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595774"
 ---
 # <a name="select-a-service"></a>Seleccionar un servicio
 

@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: Obtenga información sobre cuántos números de teléfono puede obtener Microsoft Teams según el tipo de número y cuántas licencias tiene.
-ms.openlocfilehash: 0f31444cfa62bcbfe79059f985165526494cafc7813cefcfd18ce645e0763128
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8ee72f7af039fae5fc5f0a9b4983cc7d7691b2ce
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352249"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598534"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>¿Cuántos números de teléfono puede obtener?
 

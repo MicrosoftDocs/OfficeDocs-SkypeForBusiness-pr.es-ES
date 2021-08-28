@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página Ejecutar comandos muestra un resumen de los comandos emitidos para extender el esquema para Skype Empresarial Server.
-ms.openlocfilehash: c76a9ea02a1212441518192906b47e7a73a35d95fbc4db247f48981a035f7e35
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d02d891307c969852f6fd1f5e1dceab126383669
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307681"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598074"
 ---
 # <a name="prepare-schema-invoke"></a>Preparar esquema (invocar)
  

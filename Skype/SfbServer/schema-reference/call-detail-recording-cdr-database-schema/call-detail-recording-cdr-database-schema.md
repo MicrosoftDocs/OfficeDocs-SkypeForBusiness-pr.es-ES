@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 754642cd-051a-47da-bb08-27800dae39d1
 description: Esto documenta el esquema de la base de datos de registro detallado de llamadas (CDR) Skype Empresarial Server 2015 .
-ms.openlocfilehash: 706fd1fd3dce8866c00ac6af359d03954d0b674068afb280914adc1d8c998607
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5380b12ca6287fbaa6419ae6d79b9d8c722f6dc3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352099"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635994"
 ---
 # <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a>Esquema de base de datos de registro detallado de llamadas (CDR) en Skype Empresarial Server 2015
  

@@ -14,17 +14,17 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom: None
 description: Obtenga información sobre Correo de voz en la nube.
-ms.openlocfilehash: b58b0c8ef06f8c7c172172e7c1b53b20575d43d0c269f647913e7cb910f78ce0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ce71714daafd52f19fe5f0282048f23445564556
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295817"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598264"
 ---
 # <a name="license-options-based-on-your-plan"></a>Opciones de licencias en función de su plan
 

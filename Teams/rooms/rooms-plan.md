@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: En este artículo se explican las consideraciones de planeación relevantes para implementar Salas de Microsoft Teams, la siguiente generación de Skype de sala.
-ms.openlocfilehash: 6112e341d9a76b77d2c8f1a93d27c2c24d0d86cd7c17a499e0e55cfa7d2e1b23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e23c28bc39c9c4b70ae9ae10a6867427a5f51f39
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348785"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598354"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Plan Salas de Microsoft Teams
 
@@ -62,13 +62,13 @@ Puede implementar Salas de Microsoft Teams con Microsoft Teams, Skype Empresaria
 | ![identificar actividades](../media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Identifique quién llevará a cabo las actividades clave a lo largo de la implementación.</li><li>Revise las salas de reuniones que tiene (y tiene previsto configurar) para comprender dónde desea implementar Salas de Microsoft Teams y los dispositivos periféricos que serían adecuados para el tamaño de la sala.</li></ul> |
 | | |
 
-## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment&quot;></a>Identificar quién llevará a cabo las actividades clave a lo largo de la implementación
+## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Identificar quién llevará a cabo las actividades clave a lo largo de la implementación
 
 Use el método que se muestra a continuación para guiarlo a través de la implementación y personalizar los resultados de ejemplo proporcionados en estos artículos según sea necesario para su organización.
 
 Empiece por comprender qué salas de conferencias tiene y ver qué funcionaría mejor para usted en el futuro y, a continuación, haga clic en seleccionar y adquirir el equipo que necesita, preparar sus sitios, configurar e implementar el servicio, administrar el cambio y la adopción de usuarios, y desarrollar operaciones y procedimientos de mantenimiento.
 
-![Empiece por comprender lo que tiene y imaginar qué funcionaría mejor para usted y, a continuación, pase por seleccionar y adquirir el equipo que necesita, preparar los sitios, configurar e implementar el servicio, administrar el cambio y la adopción de usuarios, y desarrollar operaciones y procedimientos de mantenimiento.](../media/room-systems-image2.png &quot;Empiece por comprender lo que tiene y imaginar qué funcionaría mejor para usted y, a continuación, pase por seleccionar y adquirir el equipo que necesita, preparar los sitios, configurar e implementar el servicio, administrar el cambio y la adopción de usuarios, y desarrollar operaciones y procedimientos de mantenimiento.")
+![Empiece por comprender lo que tiene y imaginar qué funcionaría mejor para usted y, a continuación, pase por seleccionar y adquirir el equipo que necesita, preparar los sitios, configurar e implementar el servicio, administrar el cambio y la adopción de usuarios, y desarrollar operaciones y procedimientos de mantenimiento.](../media/room-systems-image2.png "Empiece por comprender lo que tiene y imaginar qué funcionaría mejor para usted y, a continuación, pase por seleccionar y adquirir el equipo que necesita, preparar los sitios, configurar e implementar el servicio, administrar el cambio y la adopción de usuarios, y desarrollar operaciones y procedimientos de mantenimiento.")
 
 Es posible que tenga que coordinar estas actividades en varios equipos. Proporcionamos una vista de alto nivel de las actividades principales que debe abarcar, así como sugerencias para los equipos que normalmente participan en la implementación y administración de sistemas de salas de conferencias, para ayudarle a decidir con quién necesita trabajar.
 

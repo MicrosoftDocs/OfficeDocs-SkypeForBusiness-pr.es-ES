@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerFqdnsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: Debe especificar el nombre de dominio completo para el servicio perimetral de acceso. Si no seleccionó la opción Usar una sola dirección IP FQDN en la página Seleccionar características, también debe especificar un FQDN para el servicio perimetral de conferencia web y para el servicio perimetral &amp; A/V.
-ms.openlocfilehash: 59b28a0dec7a8f4bded62c737ad484a7402a12182e64d6dbf895a4a174bca109
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d44deeacf065efd8cafec1660ccb771d3a5fb77b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335550"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612649"
 ---
 # <a name="add-edge-server-fqdn"></a>Agregar FQDN de servidor perimetral
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AvMcusScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 description: 'El nodo Grupos de servidores de conferencia A/V contiene los grupos de servidores de conferencia A/V de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: c2ab9ddccf2b9187899f618b930b350f623dfb1fbb80bf76f797b65fef8223d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20e3ed5c9e505907e7c4dc73c2c87a46b73aa956
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298290"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612419"
 ---
 # <a name="av-mcus-scope-node"></a>Nodo de ámbito MCU AV
  

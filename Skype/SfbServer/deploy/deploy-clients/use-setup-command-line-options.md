@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: 'Resumen: obtenga información sobre Setup.exe de línea de comandos en Office instalación.'
-ms.openlocfilehash: 1eb0a6b1e2050eb7152ff0eb65c7c08af57e307f5253a8ec8502fd3e7718aa3a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e59249a459e697aa18b9fb757c0cf03c036b5077
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300356"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598154"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Usar opciones de línea de comandos de instalación con Skype Empresarial cliente
  
@@ -29,7 +29,7 @@ La línea de comandos de Setup.exe de Office reconoce las opciones de línea de 
   
 **Opciones de línea de comandos del programa de instalación de Office**
 
-|**Opción de línea de comandos del programa de instalación**|**Description**|
+|**Opción de línea de comandos del programa de instalación**|**Descripción**|
 |:-----|:-----|
 |/admin  <br/> |Ejecuta la Herramienta de personalización del Office para crear un archivo de personalización del programa de instalación (archivo .msp).  <br/> |
 |/adminfile [path]  <br/> |Aplica a la instalación el archivo de personalización del programa de instalación especificado. Puede especificar una ruta de acceso a un archivo de personalización (archivo .msp) específico o a la carpeta donde guarde los archivos de personalización.  <br/> |

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: El cmdlet Install-CcAppliance instala el dispositivo Skype for Business Edición de conector de nube , incluidas las máquinas virtuales ad, almacén de administración central, servidor de mediación y servidor perimetral, en el servidor host.
-ms.openlocfilehash: b88b869e3c30783a69bc16ab690a258506ebcc90e849eb474a17859140485e8d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0ed13282039b84975bea3e26f5ae1d7f79122a11
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343184"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635844"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  

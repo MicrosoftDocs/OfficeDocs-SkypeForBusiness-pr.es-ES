@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
 description: Obtenga información sobre cómo se clasifica la calidad de la transmisión en el Panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial online.
-ms.openlocfilehash: a717597151f0d933a8bbea49e6e71d070b063885
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505428"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598344"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Clasificación de transmisión en panel de calidad de llamada (CQD)
 

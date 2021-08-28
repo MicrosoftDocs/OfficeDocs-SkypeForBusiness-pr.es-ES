@@ -14,15 +14,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo crear y administrar directivas de enrutamiento de voz en Microsoft Teams.
-ms.openlocfilehash: 3dbcd770a4806768e122caa4edb3293a349ea57c4c553434c530b1a2deb80ac9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15e0d14310865244570dee677ac19238e9510628
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350882"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598464"
 ---
 # <a name="manage-voice-routing-policies-for-direct-routing"></a>Administrar directivas de enrutamiento de voz para enrutamiento directo
 

@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Resumen: Información general sobre los métodos de instalación de cliente de empresa para Skype Empresarial.'
-ms.openlocfilehash: 592c8e3b6b29aba5ade30e61939ba2243864e45aa6079380b6c36feee60779f6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff173a5b0579e2a25044682190376c055cc16578
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340256"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598224"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Implementar clientes para Skype Empresarial Server
  

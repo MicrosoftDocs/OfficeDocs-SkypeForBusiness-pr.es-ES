@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Summary: Review the Simple URL considerations in this topic before implementing DNS records for Skype Empresarial Server.'
-ms.openlocfilehash: 11e3b5222e7ec1929580049f355525c40884b8d3aa9a55ccfbbdc18264a24500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a36805566b7bdb9f95ef14b572a8efdccdeb916b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280953"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622142"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Requisitos dns para direcciones URL sencillas en Skype Empresarial Server
 
@@ -71,7 +71,7 @@ Si se decanta por esta opción, necesitará un registro A de DNS por cada direcc
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
 | Reunirse  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com , y así sucesivamente (uno por cada dominio SIP de la organización)  <br/> |
 | Acceso telefónico  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
-| Admin  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
+| Administrador  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
 
 Con la opción 2, las direcciones URL sencillas se basan en el nombre de dominio SfB2015.contoso.com. Por lo tanto, solo necesita un registro DNS A que permita los tres tipos de direcciones URL sencillas. Este registro DNS A hace referencia SfB2015.contoso.com. Además, todavía necesita registros DNS A independientes para otros dominios SIP de la organización. 
 
@@ -82,7 +82,7 @@ Con la opción 2, las direcciones URL sencillas se basan en el nombre de dominio
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
 | Reunirse  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet , y así sucesivamente (uno por cada dominio SIP de la organización)  <br/> |
 | Acceso telefónico  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
-| Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
+| Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
 
 La opción 3 es la más práctica si existen muchos dominios SIP y quiere que cada uno de ellos tenga una dirección URL sencilla de reunión pero, al mismo tiempo, desea reducir al mínimo los requisitos de registros DNS y certificados para dichas direcciones. 
 
@@ -93,7 +93,7 @@ La opción 3 es la más práctica si existen muchos dominios SIP y quiere que c
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
 | Reunirse  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
 | Acceso telefónico  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
-| Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
+| Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
 
 ## <a name="disaster-recovery-option-for-simple-urls"></a>Opción de recuperación ante desastres para direcciones URL sencillas
 <a name="BK_Valid"> </a>

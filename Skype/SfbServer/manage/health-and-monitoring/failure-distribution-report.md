@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 'Resumen: obtenga información sobre el informe de distribución de errores en Skype Empresarial Server.'
-ms.openlocfilehash: 6b6bedff59f73befbaa70dbc0eb4bf1b04b100022a7ca20c41245a07a082d4e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2b925a84237ed0ef88012e63f9e5db4b561dd27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344729"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636064"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>Informe de distribución de errores en Skype Empresarial Server
  
@@ -104,7 +104,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
   
 **Métricas para motivos del diagnóstico destacados**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en los Id. de diagnóstico. El Id. de diagnóstico es un identificador único (con el formato de un encabezado de diagnóstico MS) adjunto a un mensaje SIP que suele proporcionar información útil para resolver errores.  <br/> |
 |**Principales motivos de diagnóstico** <br/> |No  <br/> |Id. de diagnóstico generado en una sesión.  <br/> |
@@ -116,7 +116,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
   
 **Métricas para modalidades destacadas**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en los tipos de sesiones (por ejemplo, una conferencia de audio o vídeo o una sesión de transferencia de archivos de punto a punto).  <br/> |
 |**Principales modalidades** <br/> |No  <br/> |Tipo de sesión.  <br/> |
@@ -128,7 +128,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
   
 **Métricas para grupos destacados**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores según el grupo de registradores o el servidor perimetral donde se llevó a cabo la sesión.  <br/> |
 |**Principales grupos de servidores** <br/> |No  <br/> |Nombre del grupo de registradores o del servidor perimetral.  <br/> |
@@ -140,7 +140,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
   
 **Métricas para fuentes destacadas**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores por equipo.  <br/> |
 |**Principales fuentes** <br/> |No  <br/> |Nombre del equipo que participó en la sesión con errores.  <br/> |
@@ -152,7 +152,7 @@ En la tabla siguiente se muestra la información proporcionada en el informe de 
   
 **Métricas para componentes destacados**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores en función del componente (por ejemplo, ExumRouting, GroupChat o MediationServer).  <br/> |
 |**Principales componentes** <br/> |No  <br/> |Nombre del componente que participó en la sesión con errores.  <br/> |
@@ -164,7 +164,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
   
 **Métricas para usuarios destacados**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el usuario invitado a unirse a la sesión.  <br/> |
 |**Principales remitentes** <br/> |No  <br/> |Dirección SIP del usuario invitado a unirse a la sesión.  <br/> |
@@ -174,7 +174,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 
 La siguiente tabla enumera la información proporcionada en el informe de distribución de errores basándose en los usuarios que experimentaron más errores cuando otro usuario intentó llamarlos (denominados destinatarios).
   
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el usuario que inició la sesión.  <br/> |
 |**Principales destinatarios** <br/> |No  <br/> |Dirección SIP del usuario que inició la sesión.  <br/> |
@@ -186,7 +186,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
   
 **Métricas para agentes de usuario destacados**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el agente de usuario (software) que participa en la sesión. Por ejemplo: RTCC/4.0.0.0 Enrutamiento de entrada/4.0.0.0.  <br/> |
 |**Principales agentes de usuario** <br/> |No  <br/> |Nombre del agente de usuario que participó en la sesión con errores.  <br/> |
