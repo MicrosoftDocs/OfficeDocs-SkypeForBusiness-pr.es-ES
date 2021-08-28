@@ -9,19 +9,19 @@ ms.service: msteams
 ms.reviewer: rahulmi
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-collaboration
 description: Obtenga información sobre análisis entre equipos, análisis por equipo y análisis por canal en Teams, que permiten a los usuarios ver los datos de uso de equipos o canales de los que forman parte.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5eac5dd4b16511041da58bc16d142a613c365982fb5f58b3c308b05df2924ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0aa140482188436a08732638196af64402e6ed15
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292957"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607003"
 ---
 # <a name="view-analytics-in-teams"></a>Ver análisis en Teams
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceFeaVacantNumMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: Los números sin asignar son números de teléfono válidos para su organización pero que no se han asignado a un usuario o teléfono. La tabla de números sin asignar identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: c3f6bcf9c60b8126416bd330eeb67b2a58cff3d9cf2ce8f905f429936f011a05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 661945c76bf6d85b0b55e602aad4f9bed4f6c0a9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309459"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580774"
 ---
 # <a name="unassigned-phone-number"></a>Número de teléfono sin asignar
 

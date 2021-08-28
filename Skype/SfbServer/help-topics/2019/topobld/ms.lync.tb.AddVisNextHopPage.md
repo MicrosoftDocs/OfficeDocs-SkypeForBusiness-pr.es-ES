@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVisNextHopPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c25449d-375b-477b-b8d0-ed19e6775906
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server.
-ms.openlocfilehash: 7319bcb140a6e3654ca763616d41a155be6c88f75842c0f6c74440f7b0bae0ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 608e497de01e2e8a8f451ad7b25fd20a77f39b71
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305642"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580964"
 ---
 # <a name="add-vis-next-hop"></a>Agregar próximo salto de VIS
  

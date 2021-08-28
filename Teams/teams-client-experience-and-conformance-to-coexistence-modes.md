@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
 description: Obtenga información sobre Teams cliente y la conformidad con los modos de coexistencia (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e49e8d7fd76bb3ecb14ad1c3d19142fbca28f978144578f42e5d106ef7c1d511
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dedac139aa4831b61a25bd6b65b6520288238d6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321252"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606971"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia
 

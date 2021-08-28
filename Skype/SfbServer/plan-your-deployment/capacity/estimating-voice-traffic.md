@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: Puede usar la siguiente métrica para estimar el tráfico de usuarios en cada sitio y el número de puertos necesarios para admitir ese tráfico.
-ms.openlocfilehash: 470590baf8ce5735b77576292fc6558d916dd3a7173b95c113b74d42f35c5224
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8661bf6c0222228ec22f582ebae0167cd23242a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318843"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629552"
 ---
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>Estimación del uso y el tráfico de voz para Skype Empresarial Server
  

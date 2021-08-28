@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 description: 'Este informe, junto con otros Skype Empresarial, le proporciona detalles sobre la actividad, incluido el uso de RTC en toda la organización. '
-ms.openlocfilehash: beacb15a283402c4ba4c7f2ec223eb6d9f48b2702e9aaabc565224eb0b391fc8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f2708512dfb1cf03e367af09abb288e62329eaf0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314946"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606729"
 ---
 # <a name="users-blocked-report"></a>Informe de usuarios bloqueados
 

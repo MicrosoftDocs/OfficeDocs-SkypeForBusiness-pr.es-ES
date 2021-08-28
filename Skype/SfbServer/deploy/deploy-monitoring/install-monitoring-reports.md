@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Resumen: obtenga información sobre cómo instalar un servicio que generará informes de supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: b97dbf30f5077caa5d7fa17850bb9e6bcad6fd016986cae2626ec7083552c874
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bda56b297f9e4f46033cb6d09c46c61f56092b4c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298560"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581034"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Instalar informes de supervisión en Skype Empresarial Server
  

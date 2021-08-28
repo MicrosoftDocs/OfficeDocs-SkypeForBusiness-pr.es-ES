@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Resumen: aprenda a permitir que los usuarios realicen y reciban llamadas mediante Telefonía IP empresarial en Skype Empresarial Server.'
-ms.openlocfilehash: 0bc680872d2b339c9db9d4b8f4e9acbe0106e3869b918e1b48e16d3676a45cd3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 68e12d072e01f9df3691401569a7759ef842570f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312068"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607263"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Habilitar usuarios para Telefonía IP empresarial en Skype Empresarial Server
  

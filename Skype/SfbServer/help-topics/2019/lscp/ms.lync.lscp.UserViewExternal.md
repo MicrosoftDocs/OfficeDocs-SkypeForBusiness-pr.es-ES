@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 91fedebfa80a078e28e3e4d7f3fc393ca96a85ab9e2697d49058fd864e08c738
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d96252c3ece3f6b5061bf772de3629cbbe66278f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300116"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580994"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>Usuarios: Ver o configurar directiva de acceso externo
 

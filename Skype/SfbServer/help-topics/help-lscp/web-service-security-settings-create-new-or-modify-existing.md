@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SecWebSvcEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 0835a3a2d1f883e3a91b489e44fd181cb8bc144ff41060c27435fab2817adef4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db5709f311a46283ea79c25f409359dac9366981
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629772"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Configuración de seguridad del servicio web: Crear nuevos o modificar los existentes
 

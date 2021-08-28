@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.Home1stRunChkList
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: Bienvenido al Panel de control Skype Empresarial Server web, la interfaz de usuario basada en web para la administración y administración de Skype Empresarial Server. Puede usar el panel de control para realizar los tipos de tareas administrativas que se realizaron con Microsoft Management Console en versiones anteriores.
-ms.openlocfilehash: eea197a27a1bb1f155231ec3d33c0f70e414f68e4b80932b7ff35b3b24b44a54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39fe263d41be18068935811efaec923473e59c95
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287129"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580794"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Lista de comprobación de la primera ejecución del Panel de control de Skype Empresarial Server
 

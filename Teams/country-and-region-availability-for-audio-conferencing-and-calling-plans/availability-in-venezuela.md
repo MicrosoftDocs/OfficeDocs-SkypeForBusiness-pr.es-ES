@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Venezuela.
-ms.openlocfilehash: ce3dda7268b1a5bc66ceef0a8616cc8fd892d10fb837bf735e77cdc3171a6126
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f85eb1c781d0cd7a3f10f3ce5218a1586ca5e159
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317435"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581314"
 ---
 # <a name="availability-in-venezuela"></a>Disponibilidad en Venezuela
 

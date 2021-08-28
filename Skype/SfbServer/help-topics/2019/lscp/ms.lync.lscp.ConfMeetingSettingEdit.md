@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los ajustes de configuración de reunión definen la experiencia de unión de los usuarios a conferencias programadas por usuarios. Estas opciones solo se aplican a reuniones programadas. No se aplican a reuniones ad hoc creadas haciendo clic en la opción Reunirse ahora en el cliente.
-ms.openlocfilehash: 4038f4175849481c43d2d8a9fc0849f44f0530906c3702580a892cd0edb17871
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13eb6ffb440bf50da7525b36307b56e158f6f93f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326496"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607233"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuración de reuniones: Crear nuevos o editar los existentes
 

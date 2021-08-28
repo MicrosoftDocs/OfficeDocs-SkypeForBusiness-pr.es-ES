@@ -1,5 +1,5 @@
 ---
-title: Administrar las directivas de mensajería en Teams
+title: Administrar directivas de mensajería de Teams
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,14 +20,14 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 3fc25286f9c17d2e4521fbbaa2ff438b33552d4344550d689043f571bfc5c4f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 535d240054f3bdb670594635e8b89a2f9785d7e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350692"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629322"
 ---
-# <a name="manage-messaging-policies-in-teams"></a>Administrar las directivas de mensajería en Teams
+# <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
 <!--- Add zone marker here--->
 

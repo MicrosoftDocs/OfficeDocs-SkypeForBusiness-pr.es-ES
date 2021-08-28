@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.WebConferencing
 - ms.lync.plan.WebConferencing
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Las conferencias web enSkype para Business Server 2015 incluyen colaboración de documentos, uso compartido de aplicaciones y uso compartido de escritorio.
-ms.openlocfilehash: d2ebdea99d8a82d4b53d0716825b8f96aee818050b24f14da57adb8b52a0efd2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 262eab31e28b9272c0e51de30d95071c69049140
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278378"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582624"
 ---
 # <a name="web-conferencing-planning-tool"></a>Herramienta de planeación de conferencia web
  

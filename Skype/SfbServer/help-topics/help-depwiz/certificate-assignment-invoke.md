@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertAssignInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 description: La página Ejecutando comandos muestra las acciones emprendidas por las tareas para asignar el certificado al servidor. Una vez finalizadas las tareas, puede examinar el registro que contiene información sobre el proceso de asignación del certificado. Para visualizar el archivo de registro, haga clic en Ver registro.
-ms.openlocfilehash: f14f1ab34c1efcd9d486624b08bc11ca924066747c85e4a1a429499d4d38d3ac
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 764b45f91bb04e568118aef0664174cc2328900d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320702"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629792"
 ---
 # <a name="certificate-assignment-invoke"></a>Asignación de certificados (invocar)
  

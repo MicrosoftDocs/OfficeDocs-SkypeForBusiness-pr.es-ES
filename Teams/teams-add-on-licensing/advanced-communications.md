@@ -8,7 +8,7 @@ audience: Admin
 ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Obtenga información sobre la SKU del complemento Comunicaciones avanzadas para Microsoft Teams.
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26b959f531daf7fa93bde07a44e4f29aa4a5e0dc
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 9f7b4ba9aa51f73fbe293f1516e265a877cfa1b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398929"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581214"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Complemento Comunicaciones avanzadas para Microsoft Teams
 

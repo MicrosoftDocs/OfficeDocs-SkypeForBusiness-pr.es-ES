@@ -11,14 +11,14 @@ audience: Admin
 ms.reviewer: roykuntz
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: ff1dfa87d6b88cdcab46a6ea080b2aa8b61d3ba757ab922ae04f2b4b2d2aa70d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b4c26fb1f0a34c2dd0b7fb5159398e7eaf54df3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342545"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581134"
 ---
 # <a name="block-inbound-calls"></a>Bloquear llamadas entrantes
 

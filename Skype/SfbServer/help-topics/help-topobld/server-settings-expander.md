@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MachineSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del servidor y la configuración de la dirección IP del servidor. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 4616f94ec6a09fa79bd4da985289d5bae279466d659a770cea671850c19c37be
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d6f2426529ace8a5335321aef49f412284fa6586
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303703"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629672"
 ---
 # <a name="server-settings-expander"></a>Expansor de configuración de servidor
  

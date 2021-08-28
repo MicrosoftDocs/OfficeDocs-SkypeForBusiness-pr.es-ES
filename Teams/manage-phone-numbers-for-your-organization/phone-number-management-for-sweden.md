@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Suecia para Microsoft Teams.
-ms.openlocfilehash: 85d6d4c35acfa8a9768444d07f23d929227a934f
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: 2fe5efcb45517f4060df96b713933390c57836bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380594"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629352"
 ---
 # <a name="phone-number-management-for-sweden"></a>Teléfono de números para Suecia
 

@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Compruebe el éxito de la implementación del grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 130ec066682f246a13df32835cb1ed1e3bb40428b3c80ef820ab5ede1dc5c00f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c3ac732b822d754048b8dbde96f272108958ab22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324539"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607253"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Opcional) Comprobar la implementación del grupo de respuesta en Skype Empresarial
  

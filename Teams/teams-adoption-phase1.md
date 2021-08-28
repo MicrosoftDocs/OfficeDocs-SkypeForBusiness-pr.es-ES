@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: En este artículo, aprenderá sobre las actividades en la fase de inicio de Microsoft Teams adopción. Comprenda los procedimientos recomendados Microsoft Teams configuración y planificación de equipos.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d9f81b222c0b780b6e03d2394c6481f75e648ad88ef8cb1fc0a6498e53240ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80f0b731df6444ff4ab20ac0f8575f03766c0a40
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312618"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607013"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Fase 1 de la adopción de Microsoft Teams: Inicio
 

@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 description: Obtenga información Skype las estadísticas de usuarios profesionales disponibles, como el número de usuarios habilitados, los usuarios habilitados para conferencias o los usuarios que están habilitados para Microsoft 365 o Office 365.
-ms.openlocfilehash: 3d5c2dfdde22893791144810f30f53576c897a61
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 5ac5663975bce1097da8e914def98410382150d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406999"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606759"
 ---
 # <a name="user-statistics-and-organization-information"></a>Estadísticas del usuario e información de la organización
 

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Obtenga información sobre cómo hacer una copia Servicio de grupo de respuesta datos de RGS en Skype Empresarial Server 2019.
-ms.openlocfilehash: 8b0cbbb41c7bf2a61d21043141d2475a8c69a79696e8cf5cbde6709e2d196c52
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7e3e4116a281584da7afc1807fe58e79d2528183
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280475"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581164"
 ---
 # <a name="back-up-response-group-service-rgs-data"></a>Copia de seguridad Servicio de grupo de respuesta datos (RGS)
 

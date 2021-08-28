@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Microsoft retirará el Exchange de mensajería unificada en línea (ExchUMO) antes del 28 de febrero de 2020. En este artículo se resume lo que los clientes afectados deben saber y hacer para planear la continuidad de su negocio.
-ms.openlocfilehash: 933ba625506496c01242b26712e9b6d5b020dbb199c5f515444f7a8734fb84b9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 66a3446b667d000e3cd0a043e60e2f0ea0eae183
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279598"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606829"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -131,14 +131,14 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 
 | Servicio | Nivel de característica | Característica | Notas  | VM/AA en la nube  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| VM  | Características del servicio| PBX de terceros compatible    | Incluir todas las características proporcionadas a PBX de terceros, como MWI (indicador de mensajes en espera) mediante mensajes de notificación SIP desde Exchange UM Online | N   | v    |
+| VM  | Características del servicio| PBX de terceros compatible    | Incluir todas las características proporcionadas a PBX de terceros, como MWI (indicador de mensajes en espera) mediante mensajes de notificación SIP desde Exchange UM Online | N   | Y    |
 | VM | Características del servicio  | Compatibilidad Skype Empresarial Server   |  | v | v    |
 | VM | Características del servicio | Compatibilidad Microsoft Teams|  | v | N    |
 | VM | Características del servicio | Exhibición de documentos electrónicos y retención  | Para seguridad y cumplimiento  | v | v    |
 | VM | Características del servicio | Exchange Compatibilidad con reglas | Para seguridad y cumplimiento  | v | v    |
-| VM | Características de usuario | Acceso telefónico local RTC  | Acceso de suscriptor  | N | v    |
-| VM | Características de usuario | Delegado  | correo electrónico de llamada perdida  | N | v    |
-| VM | Características de usuario | Rtc Outlook de voz   | Acceso de suscriptor  | N | v    |
+| VM | Características de usuario | Acceso telefónico local RTC  | Acceso de suscriptor  | N | Y    |
+| VM | Características de usuario | Delegado  | correo electrónico de llamada perdida  | N | Y    |
+| VM | Características de usuario | Rtc Outlook de voz   | Acceso de suscriptor  | N | Y    |
 | VM | Características de usuario | Acceso telefónico mediante un extremo autenticado | Llamar al servicio de correo de voz para escuchar mensajes de voz y cambiar la configuración del correo de voz| v | v    |
 | VM | Características de usuario | Configuración del usuario para deshabilitar el correo de voz   |  | v | v    |
 | VM | Características de usuario | Configuración del usuario para cambiar el saludo personal  |  | v | v    |
@@ -146,38 +146,38 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 | VM | Características de usuario | Configuración del usuario para cambiar el idioma predeterminado  |  | v | v    |
 | VM | Características de usuario | Configuración del usuario para sobrescribir el saludo predeterminado con TTS  |  | v | N    |
 | VM | Características de usuario | Grabar saludos personales (dispositivo autenticado) |  | v | v    |
-| VM | Características de usuario | Grabar saludos personales (RTC): reproducir en el teléfono |  | N | v    |
-| VM | Características de usuario | Configuración del usuario para deshabilitar la transcripción |  | N | v    |
+| VM | Características de usuario | Grabar saludos personales (RTC): reproducir en el teléfono |  | N | Y    |
+| VM | Características de usuario | Configuración del usuario para deshabilitar la transcripción |  | N | Y    |
 | VM | Características de usuario | Transcripción  |  | v | v    |
-| VM | Características de usuario | MWI (indicador de mensaje en espera) mediante mensajes de notificación SIP |  | N | v    |
+| VM | Características de usuario | MWI (indicador de mensaje en espera) mediante mensajes de notificación SIP |  | N | Y    |
 | VM | Características de usuario | Formato de archivo de audio MP3 en Outlook    |  | v | v    |
 | VM | Características de usuario | Control de reproducción de velocidad variable |  | v | v    |
 | VM | Características de usuario | Reenviar un correo de voz  | Reenviar un correo de voz recibido a otros usuarios | v | v    |
-| VM | Características de usuario | Enviar un mensaje de voz a un grupo de usuarios  |Difusión de correo de voz   | N | v   |
-| VM | Características de usuario | Notificación de correo de voz mediante SMS    | Los usuarios pueden recibir un SMS cuando tienen un nuevo correo de voz    | N | v    |
+| VM | Características de usuario | Enviar un mensaje de voz a un grupo de usuarios  |Difusión de correo de voz   | N | Y   |
+| VM | Características de usuario | Notificación de correo de voz mediante SMS    | Los usuarios pueden recibir un SMS cuando tienen un nuevo correo de voz    | N | Y    |
 | VM | Características de usuario | Idiomas de saludo compatibles | Detalles aquí: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
 | VM | Características de usuario | Reglas de contestador automático |  | v | v    |
-| VM | Características de usuario | Reproducir en teléfono (RTC):para reproducir el mensaje | Llámeme en mi celda para escuchar el mensaje de voz  | N | v    |
-| VM | Características de usuario | Reproducir en el teléfono (autenticación): para reproducir el mensaje | Llamarme en mi dispositivo autenticado  | N | v    |
+| VM | Características de usuario | Reproducir en teléfono (RTC):para reproducir el mensaje | Llámeme en mi celda para escuchar el mensaje de voz  | N | Y    |
+| VM | Características de usuario | Reproducir en el teléfono (autenticación): para reproducir el mensaje | Llamarme en mi dispositivo autenticado  | N | Y    |
 | VM | Características de usuario | Buzón compartido entre varios usuarios |  | v | v    |
-| VM | Características del autor de la llamada  | Experiencia del autor de la llamada: correo de voz protegido | El autor de la llamada puede elegir una opción para marcar un mensaje grabado como protegido| N | v    |
-| VM | Características del autor de la llamada  | Experiencia del autor de la llamada: correo de voz privado | El autor de la llamada puede elegir una opción para marcar un mensaje grabado como privado  | N | v    |
-| VM | Características del autor de la llamada  | Detección de silencio   |  | N | v    |
+| VM | Características del autor de la llamada  | Experiencia del autor de la llamada: correo de voz protegido | El autor de la llamada puede elegir una opción para marcar un mensaje grabado como protegido| N | Y    |
+| VM | Características del autor de la llamada  | Experiencia del autor de la llamada: correo de voz privado | El autor de la llamada puede elegir una opción para marcar un mensaje grabado como privado  | N | Y    |
+| VM | Características del autor de la llamada  | Detección de silencio   |  | N | Y    |
 | VM | Tenant-Admin características | Correo de voz protegido de nivel de servidor    | Tenant-admin puede configurar una regla de nivel de servicio para marcar el correo de voz entrante como protegido | v | v    |
 | VM | Tenant-Admin características | Cambiar el límite de tiempo de duración de la grabación  |     | v | v    |
-| VM | Tenant-Admin características | Cambiar tiempo de espera de detección de silencio    |  | N/D    | v    |
-| VM | Tenant-Admin características | Cambiar el número de errores de entrada | CVM: codificado de forma codificada en 3 | N | v    |
+| VM | Tenant-Admin características | Cambiar tiempo de espera de detección de silencio    |  | N/D    | Y    |
+| VM | Tenant-Admin características | Cambiar el número de errores de entrada | CVM: codificado de forma codificada en 3 | N | Y    |
 | VM | Tenant-Admin características | Cambiar el idioma predeterminado |  | v | v    |
 | VM | Tenant-Admin características | Deshabilitar/habilitar la transcripción |  | v | v    |
-| VM | Tenant-Admin características | Deshabilitar/habilitar la notificación de llamada perdida |  | N | v    |
+| VM | Tenant-Admin características | Deshabilitar/habilitar la notificación de llamada perdida |  | N | Y    |
 | VM | Tenant-Admin características | Ayudar a Microsoft a mejorar la vista previa del correo de voz    |  | v | v    |
-| VM | Tenant-Admin características | Personalizar mensaje de texto para usuarios habilitados|  | N/D    | v    |
+| VM | Tenant-Admin características | Personalizar mensaje de texto para usuarios habilitados|  | N/D    | Y    |
 | VM | Tenant-Admin características | Enmascaramiento de profanidad de transcripción|  | v | N    |
 | VM | Tenant-Admin características | Directiva de correo de voz    |   | v | v    |
-| VM | Tenant-Admin características | Administración del portal web   |  | CY19   | v    |
+| VM | Tenant-Admin características | Administración del portal web   |  | CY19   | Y    |
 | VM | Tenant-Admin características | PowerShell   |  | v | v    |
 | MENSAJERÍA UNIFICADA | Características de usuario | Indicador de espera de mensajes (MWI) en Skype Empresarial teléfonos certificados   |Puede ser proporcionado por un socio telefónico  | No | Sí    |
-| AA | Características del servicio | PBX de terceros compatible con AA    |  | N | v    |
+| AA | Características del servicio | PBX de terceros compatible con AA    |  | N | Y    |
 | AA | Características del servicio | Compatibilidad Skype Empresarial Server   |  | v | v    |
 | AA | Características del servicio | Compatibilidad Microsoft Teams|  | v | N    |
 | AA | Características del servicio | Marcado por nombre, entrada DTMF    |  | v | v    |
@@ -185,7 +185,7 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 | AA | Características del servicio | Compatibilidad con varios idiomas | Detalles del idioma aquí: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
 | AA | Características del servicio | Transferencia a operador, CQ o usuario |  | v | v    |
 | AA | Características del servicio | Transferencia a número RTC internamente (DID RNL)  |  | v | v    |
-| AA | Características del servicio | Transferir a un número RTC externamente  |  | Consulte la sección Problemas conocidos a continuación | v    |
+| AA | Características del servicio | Transferir a un número RTC externamente  |  | Consulte la sección Problemas conocidos a continuación | Y    |
 | AA | Características del servicio | Horario comercial |  | v | v    |
 | AA | Características del servicio | Opciones de menú | Opciones del menú IVR  | v | v    |
 | AA | Características del servicio | Asignar un número RTC de nube a AA |  | v | N    |
@@ -198,7 +198,7 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 | AA | Características del servicio | Varias asignaciones de números RTC a un AA|  | v | v    |
 | AA | Tenant-Admin características | Administración del portal web   |  | v | N    |
 | AA | Tenant-Admin características | Cmdlets de PowerShell  |  | v | v    |
-| Fax| Características del servicio | Integración de fax|  | N | v    |
+| Fax| Características del servicio | Integración de fax|  | N | Y    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Plan de prueba sugerido y validación posterior a la migración para administradores
 

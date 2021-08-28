@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sonua
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 description: Obtenga información sobre Teams usa Office 365 en varias topologías, así como flujos de equipo únicos usados para la comunicación multimedia punto a punto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebe6de7773ca77964619f5d90d1c189ea8d731c8d7c242c2a04a619a33c55414
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2e0e3ed2c9f0ac4e636b97065f9e2a4050f954b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319863"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607157"
 ---
 # <a name="microsoft-teams-call-flows"></a>Flujos de llamadas de Microsoft Teams
 

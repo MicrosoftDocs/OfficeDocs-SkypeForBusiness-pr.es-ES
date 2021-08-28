@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: 'Resumen: lea este tema para obtener información sobre cómo implementar el archivado para Skype Empresarial Server.'
-ms.openlocfilehash: 1bc478794c591e99d8372165491563c6c0b909caf94902741b03b21aef48c8cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 405946cb863c72399115b869f33bf8d107cec455
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287659"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606579"
 ---
 # <a name="deploy-archiving-for-skype-for-business-server"></a>Implementar el archivado para Skype Empresarial Server
  

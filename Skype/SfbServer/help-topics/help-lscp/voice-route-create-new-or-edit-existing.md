@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceRouteEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: e6a248c49495fa8ecd9ad4d9d21c8870ae440f9268af3f633d378ac06ec11016
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20d45867b28b66c32a0e91a5f0aa28832a037dfb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284900"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580754"
 ---
 # <a name="voice-route-create-new-or-edit-existing"></a>Ruta de voz: Crear nuevos o editar los existentes
 
