@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Información general sobre cómo usar un operador automático de nube Skype Empresarial Server 2019
-ms.openlocfilehash: 0a9eaa3498541371314f268f2d4dfaef2200ab457267fe98f631430ce7c2f035
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d28618efc2b02240cdfe3e4c05945f9a6e4b575
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315056"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610177"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Plan de los operadores automáticos en la nube
 
@@ -45,7 +45,7 @@ Consulte también:
 - [Configurar un operador automático en la nube](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Contestar y enrutar automáticamente las llamadas entrantes](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Los siguientes requisitos suponen que ya Skype Empresarial Server 2019 implementado en una topología compatible.  Los requisitos dependen del escenario:
 

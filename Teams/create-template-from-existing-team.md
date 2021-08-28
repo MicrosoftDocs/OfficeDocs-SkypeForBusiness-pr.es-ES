@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Obtenga información sobre cómo usar un equipo existente para crear una nueva plantilla en Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40eae307d4ec98f37f9ee88e986194ffe99600ae2d6b74430a7b3edfcee66b53
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 05fd28f19b5733ad34bcd12efa21be675cecfd31
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282693"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588232"
 ---
 # <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>Crear una plantilla de equipo a partir de un equipo existente en Microsoft Teams
 

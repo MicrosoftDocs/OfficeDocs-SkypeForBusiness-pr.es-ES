@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 'Resumen: obtenga información sobre el informe de rendimiento del servidor en Skype Empresarial Server.'
-ms.openlocfilehash: d635e1bd3cc76c9e1d2218c142b58b588a35330c4b132998060d31e40424ea48
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2e51832cf3d5d4b7dca816aa17ded0483dc88efd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317615"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632864"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>Informe de rendimiento del servidor en Skype Empresarial Server
  
@@ -81,9 +81,9 @@ En la tabla siguiente se muestra la información que recoge el informe de rendim
   
 **Métricas del informe de rendimiento del servidor: resumen de llamadas de audio**
 
-|**Nombre**|**¿Se pueden ordenar los datos por este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Server** <br/> |No  <br/> |Nombre/dirección IP del servidor.  <br/> |
+|**Servidor** <br/> |No  <br/> |Nombre/dirección IP del servidor.  <br/> |
 |**Volumen de llamadas** <br/> |No  <br/> |Número total de llamadas realizadas.  <br/> |
 |**Porcentaje de llamadas deficientes** <br/> |No  <br/> |Número total de llamadas clasificadas como deficientes. Una llamada deficiente es aquella durante la que al menos uno de los valores medidos supera el valor permitido, por ejemplo, una llamada con un exceso de vibraciones.  <br/> |
 |**Recorrido de ida y vuelta (ms)** <br/> |Sí  <br/> |Tiempo medio (en milisegundos) necesario para que un paquete de protocolo de transporte en tiempo real (RTP) llegue a otro extremo y, después, vuelva. Los tiempos de ida y vuelta de 100 milisegundos o menos se consideran de calidad aceptable.  <br/> Los valores elevados en los tiempos del recorrido de ida y vuelta pueden deberse a que se trata de enrutamientos de llamadas internacionales, una configuración incorrecta del enrutamiento o a la sobrecarga en el servidor de medios y causan dificultades en las conversaciones de audio en tiempo real bidireccionales.  <br/> |
@@ -96,7 +96,7 @@ En la tabla siguiente se muestra la información que recoge el informe de rendim
    
 **Métricas del informe de rendimiento del servidor: resumen de llamadas de vídeo**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Tipo de llamada/tipo de extremo** <br/> |No  <br/> | Cuando se hace clic en este elemento, el informe muestra información detallada sobre las llamadas de ese tipo. Los tipos de llamadas son: <br/>  Llamadas de punto a punto de UC <br/>  Sesiones de conferencia de UC <br/>  Sesiones de conferencia de RTC <br/>  Llamadas RTC: desvío de medios <br/>  Llamadas RTC (sin desvío): sección de UC <br/>  Llamadas RTC (sin desvío): sección de puerta de enlace <br/>  Otros tipos de llamada <br/> |
 |**Volumen de llamadas** <br/> |No  <br/> |Número total de llamadas por tipo.  <br/> |
@@ -115,7 +115,7 @@ En la tabla siguiente se muestra la información que recoge el informe de rendim
    
 **Métricas del informe de rendimiento del servidor: resumen de llamadas de uso compartido de aplicaciones**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Tipo de llamada/tipo de extremo** <br/> |No  <br/> | Cuando se hace clic en este elemento, el informe muestra información detallada sobre las llamadas de ese tipo. Los tipos de llamadas son: <br/>  Llamadas de punto a punto de UC <br/>  Sesiones de conferencia de UC <br/>  Sesiones de conferencia de RTC <br/>  Llamadas RTC: desvío de medios <br/>  Llamadas RTC (sin desvío): sección de UC <br/>  Llamadas RTC (sin desvío): sección de puerta de enlace <br/>  Otros tipos de llamada <br/> |
 |**Volumen de llamadas** <br/> |No  <br/> |Número total de llamadas por tipo.  <br/> |

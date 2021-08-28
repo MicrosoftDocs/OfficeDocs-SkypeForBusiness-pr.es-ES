@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Las directivas de archivado se usan para habilitar y deshabilitar el archivado para los usuarios que se hospedaron en Skype Empresarial Server. En cada directiva de archivado, puede habilitar o deshabilitar el archivado para una de las siguientes opciones o ambas:'
-ms.openlocfilehash: 2ad43ab7f80a84d471797690f1b7b79870a3342caf3b02d9e1902419c6ec6674
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dca1ec888a63297f89da062d22983d3d05182127
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325281"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610067"
 ---
 # <a name="archiving-policy"></a>Directiva de archivado
  

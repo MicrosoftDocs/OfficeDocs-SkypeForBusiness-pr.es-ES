@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MonitoringServersScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo Servidores de supervisión contiene los servidores de supervisión de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 548e7267fe6d6184e280db8eaaec42cb778e22bcacc87d758f039a2d7b40190f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4424bfca3c59f8b38cbd267b9b76fa59625618b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299906"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587552"
 ---
 # <a name="monitoring-servers-scope-node"></a>Nodo de ámbito de los servidores de supervisión
  

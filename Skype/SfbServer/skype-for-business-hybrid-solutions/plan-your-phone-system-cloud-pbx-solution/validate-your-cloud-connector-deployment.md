@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
 description: Después de completar los pasos para implementar y configurar Skype for Business Edición de conector de nube, compruebe que puede realizar y recibir llamadas.
-ms.openlocfilehash: 1cbfed0716ef88bf48f8dadf0214c48bcd2031e34343da0ce59bd84d6d82d2b2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ab02ba4059721d7a87b8fc2d6f40c30ac0bdbd20
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279926"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588392"
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>Validar la implementación de Cloud Connector
 

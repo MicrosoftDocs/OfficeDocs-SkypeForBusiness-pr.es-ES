@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Planee la implementación de Mobility for Skype Empresarial Server.
-ms.openlocfilehash: 4af41fd9b62205cc8672646bc8967426aa246ad1af495ccf1713090c32616698
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 59523076dc3b59b92af41fc85ef4193a92c87d08
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352678"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632724"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Plan for Mobility for Skype Empresarial Server
  
@@ -242,7 +242,7 @@ Tenemos una tabla para ayudar con algunas de las características que están dis
 > [!NOTE]
 > Los ámbitos de todas estas características son Global/Site/User. 
   
-|**Característica**|**Nombre del parámetro**|**Description**|**Configuración predeterminada**|
+|**Característica**|**Nombre del parámetro**|**Descripción**|**Configuración predeterminada**|
 |:-----|:-----|:-----|:-----|
 |Habilitar movilidad  <br/> |EnableMobility  <br/> |Controla los usuarios de un ámbito determinado que tienen Skype Empresarial cliente móvil instalado. Si la directiva se establece en False, los usuarios no podrán iniciar sesión con su cliente.  <br/> |Verdadero  <br/> |
 |Voz externa  <br/> |EnableOutsideVoice  <br/> |Habilita la capacidad de un usuario de usar Llamadas a través del trabajo, lo que permite a los usuarios enviar y recibir llamadas mediante el uso de su número de trabajo en lugar de su número de teléfono móvil. Si se establece en False, los usuarios no podrán realizar ni recibir llamadas en su teléfono móvil al usar su número de teléfono de trabajo.  <br/> |Verdadero  <br/> |

@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Este apéndice incluye pasos detallados para actualizar el certificado perimetral como parte de la consolidación de la nube para Teams y Skype Empresarial.
-ms.openlocfilehash: 7370fe6949c471a6aad9b45ee246f1565b43bdb465eba2110a03f53afa69fe28
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c4708f593b1a9bd8fbc2a427e2f0c5df9feab5c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330634"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610207"
 ---
 # <a name="update-the-edge-certificate"></a>Actualizar el certificado de límite
 
@@ -48,6 +48,6 @@ El nombre alternativo de sujeto (SAN) del certificado en todos los servidores pe
     Start-CsWindowsService
     ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Consolidación de nube para Teams y Skype Empresarial](cloud-consolidation.md)

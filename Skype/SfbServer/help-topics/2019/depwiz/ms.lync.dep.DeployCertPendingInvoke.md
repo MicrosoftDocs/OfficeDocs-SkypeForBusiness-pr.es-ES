@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: En la página Ejecutando comandos se muestra el estado de los comandos que recuperan el certificado pendiente. Cuando ha finalizado la tarea, el archivo de registro Recuperar certificados pendientes está disponible. Haga clic en Ver registro para ver el proceso y el estado de finalización de la tarea. Haga clic en Siguiente para continuar.
-ms.openlocfilehash: 2a5e755e07b8985563cd17df842d2f9b42b1e33b8e5967221c72e65228f39fca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e23ee50958462716c77f3f1f3bf8476adea75777
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298550"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587790"
 ---
 # <a name="pending-certificate-invoke"></a>Certificado pendiente (invocar)
  

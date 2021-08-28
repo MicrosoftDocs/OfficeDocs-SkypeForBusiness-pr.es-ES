@@ -9,7 +9,7 @@ metadata:
   audience: admin
   ms.reviewer: landerl
   description: Preguntas frecuentes que se plantean sobre el recorrido de Skype Empresarial a Microsoft Teams.
-  localization_priority: Priority
+  ms.localizationpriority: high
   search.appverid: MET150
   f1.keywords:
   - CSH
@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: a1733e76c93b7be0a4a4d34da53beafa89325edf891cc39df66526769937397e
-  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+  ms.openlocfilehash: 63752584ee557adcaa1a77c683b259dd06afff93
+  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 08/05/2021
-  ms.locfileid: "54282952"
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "58588402"
 title: 'Preguntas frecuentes: actualizar Skype Empresarial a Microsoft Teams'
 summary: ''
 sections:

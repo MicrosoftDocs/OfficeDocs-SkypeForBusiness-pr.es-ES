@@ -11,14 +11,14 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Actualizar Microsoft Teams teléfonos, paneles Teams y barras de colaboración de forma remota con el centro Teams administración
-ms.openlocfilehash: 8ff925756e91c72c42d1557a1c735e5323691272a82405d5e4047ab4ff9828b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4166d8543c0c0e847e4463ecf3cf0760876a7b37
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322692"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632184"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Actualizar Microsoft Teams dispositivos de forma remota
 

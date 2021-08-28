@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: daro
 audience: admin
 description: Instrucciones para los profesionales de TI para impulsar Microsoft 365 en entidades que administran datos sujetos a la normativa gubernamental de EE. UU.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 989d1cbd469edac8a4d69c9b5ac18f2965ddf21e3d273411f740a82d4ab220f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb39b2a123b4e997cb4e15f6f72e0193b41d9bee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330904"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632014"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan para Microsoft 365 administración local: GCC implementaciones
 

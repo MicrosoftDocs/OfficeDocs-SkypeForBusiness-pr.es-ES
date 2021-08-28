@@ -16,16 +16,16 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9f97065a6bf7dd8be3d3a417b7482b3b5f50935
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 4a089b94cdb8d5568fe864a91e2c98ef26ecc9b0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365677"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631984"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Inicio rápido: reuniones, seminarios web y eventos en vivo 
 

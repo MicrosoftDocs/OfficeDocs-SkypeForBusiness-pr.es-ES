@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 'Summary: Learn about the Peer-to-Peer IM Report in Skype Empresarial Server.'
-ms.openlocfilehash: 32f68fcf4d191896fc86aa1bc18007920f0b0f7cb29ba446385ced478dc5879c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26edc017b0877d08a5990e88dcfaf830bb7e4851
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276815"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632874"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Informe de mensajería instantánea punto a punto en Skype Empresarial Server
  
@@ -56,7 +56,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
   
 **Métricas para la mensajería instantánea punto a punto por grupo**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Grupo** <br/> |No  <br/> |Nombre del grupo de registradores o del servidor perimetral.  <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha y hora en las que tuvo lugar la sesión.  <br/> |
@@ -68,9 +68,9 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
   
 **Métricas para la mensajería instantánea punto a punto por tipo de autenticación**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Tipo de autenticación** <br/> |No  <br/> | Tipo de autenticación utilizado por los participantes de la sesión. Los valores suelen ser los siguientes: <br/>  Enterprise <br/>  Federado <br/>  PIC <br/> |
+|**Tipo de autenticación** <br/> |No  <br/> | Tipo de autenticación utilizado por los participantes de la sesión. Los valores suelen ser los siguientes: <br/>  Empresa <br/>  Federado <br/>  PIC <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha y hora en las que tuvo lugar la sesión.  <br/> |
 |**Total** <br/> |No  <br/> |Número total de sesiones o recuento total de mensajes.  <br/> |
    

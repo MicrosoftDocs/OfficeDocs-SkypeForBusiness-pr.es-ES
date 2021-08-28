@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e011d8f2203bbd1f12d2a4819cd284f5605d4af93a2e93a3e642b747972f99b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62cfe4d87ccb80333fcdd6ce227ab1cbccafa05e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286039"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632634"
 ---
 # <a name="microsoft-365-business-voice-partner-resources"></a>Microsoft 365 Business Voice de partners
 
