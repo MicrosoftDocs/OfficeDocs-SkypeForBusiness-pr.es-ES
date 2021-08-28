@@ -12,18 +12,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre las diferentes formas de asignar paquetes de directiva a usuarios y grupos en Microsoft Teams.
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 6fb97dd96718b7ba909a05161a36092600d47b38ad1478f8608919861c6e1c91
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 711e0fd321dd9eff16ad37d0f662c9f72159a955
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288349"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601205"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Asignar paquetes de directiva a usuarios y grupos
 

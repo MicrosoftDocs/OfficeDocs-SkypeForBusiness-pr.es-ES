@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Obtenga información sobre cómo estructurar las partes interesadas de su organización para asegurarse de que la Microsoft Teams actualización se realiza correctamente.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f821eb2e00725d484f816edcd352f1aa38934acb868b3468d1c7ef984b03b506
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 21e08060c61e78919e514a099413f6d70380cf11
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308211"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600925"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Incorporar a las partes interesadas del proyecto
 

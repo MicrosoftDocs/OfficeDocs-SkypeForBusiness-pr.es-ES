@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Obtenga información sobre las consideraciones de planeación para Sistema telefónico (PBX en la nube) con conectividad RTC local.
-ms.openlocfilehash: efaba8aae1175db526d9607e2eb8c7e382dbaf1f95ec948a0c34758a055d5c1e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9715a04eaa4955ca1ccb4d9bef56b3502039c225
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339876"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601265"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planear el Sistema telefónico con una conectividad RTC local en Skype Empresarial Server
 

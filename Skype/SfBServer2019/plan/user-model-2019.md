@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Los temas de esta sección le ayudarán a comprender cómo planear e implementar Skype Empresarial Server de modo que pueda planear adecuadamente el número de usuarios de su organización y planear la carga del servidor que generan sus actividades.
-ms.openlocfilehash: aaa34d4ec935735215da36d888ab3c5155f158b89fd366546eac14b3f6259482
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 090d209d1b60d866ddabe976ffb8b04394712525
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277645"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600895"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Planeación de capacidad para Skype Empresarial Server 2019
 
@@ -33,7 +33,7 @@ Hemos realizado nuestras pruebas de rendimiento en el hardware descrito en la ta
 |:-----|:-----|
 |CPU  <br/> |Procesador dual Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no son compatibles Skype Empresarial Server funciones de 2019.  <br/> |
 |Memoria  <br/> |32 gigabytes (GB).  <br/> |
-|Disco  <br/> |CUALQUIERA DE LAS DOS:  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos que usan RAID 1 y 6 con RAID 10).  <br/> O  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
+|Disco  <br/> |CUALQUIERA DE LAS DOS:  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos que usan RAID 1 y 6 con RAID 10).  <br/> OR  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
 |Red  <br/> |1 adaptador de red de doble puerto, 1 Gbps o superior (se pueden usar 2 adaptadores de red, pero deben estar asociados con una sola dirección MAC y una única dirección IP).  <br/> Las configuraciones duales o  multialod no son compatibles con servidores front-end, servidores back-end y servidores Standard Edition cliente. <br/> Siempre que no estén expuestos al sistema operativo y se estén utilizando para supervisar y administrar el hardware del servidor, puede tener sistemas de administración fuera de banda, como DRAC o ILO. Este escenario no constituye un servidor multialocución y es compatible.  <br/> |
 
 ## <a name="summary-of-results"></a>Resumen de resultados
@@ -174,7 +174,7 @@ Microsoft usó el hardware de la tabla siguiente para el servidor de bases de da
 |:-----|:-----|
 |CPU  <br/> |Procesador dual Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior.  <br/> |
 |Memoria  <br/> |48 GB  <br/> |
-|Disco  <br/> | CUALQUIERA DE LAS DOS:<br/> • 4 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (los discos deben estar en una configuración de 2x RAID 1). <br/>O <br/>• Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 4 unidades de disco mecánicas de 10000 RPM.   <br/> |
+|Disco  <br/> | CUALQUIERA DE LAS DOS:<br/> • 4 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (los discos deben estar en una configuración de 2x RAID 1). <br/>OR <br/>• Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 4 unidades de disco mecánicas de 10000 RPM.   <br/> |
 |Red  <br/> | 1 adaptador de red de doble puerto, 1 Gbps o superior (2 recomendado, lo que requiere la asociación con una sola dirección MAC y una sola dirección IP).  <br/> |
 
 **Configuraciones de disco recomendadas**
