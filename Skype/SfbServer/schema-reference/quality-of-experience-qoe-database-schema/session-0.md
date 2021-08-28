@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: La vista de sesión almacena información sobre las sesiones que tienen registros en la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 9f8fc3b22677da6794aeaaecdd180ade454fc36fbf9659c5f8196880c42c907b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e39f6c744280e96a6f0fd33c28125196f90ed7cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314436"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593354"
 ---
 # <a name="session-view"></a>Vista de sesión
  
@@ -29,9 +29,9 @@ La vista de sesión almacena información sobre las sesiones que tienen registro
 |ConferenceDateTime  <br/> |datetime  <br/> |Se obtiene de la tabla MediaLine.  <br/> |
 |ConferenceURI  <br/> |nvarchar(450)  <br/> |ConferenceURI, si se trata de una conferencia, o DialogID, si es una sesión punto a punto.  <br/> |
 |Correlation  <br/> |varchar(max)  <br/> |Id. de correlación de la sesión.  <br/> |
-|DialogCategory  <br/> |bit  <br/> |Categoría de cuadro de diálogo; 0 es Skype Empresarial Server a la pierna del servidor de mediación; 1 es Servidor de mediación a puerta de enlace RTC.  <br/> |
+|DialogCategory  <br/> |bit  <br/> |Categoría de cuadro de diálogo; 0 se Skype Empresarial Server al servidor de mediación; 1 es Servidor de mediación a puerta de enlace RTC.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |Indica si la llamada se pasó o no.  <br/> |
-|MediaBypassWarningFlag  <br/> |Entero  <br/> |Este campo (si existe) indica por qué la llamada no se pasó, aun cuando los identificadores de omisión coincidían. Para Skype Empresarial Server, solo se define un valor:  <br/> 0x0001: identificador de desvío desconocido para el adaptador de red predeterminado  <br/> |
+|MediaBypassWarningFlag  <br/> |Entero  <br/> |Este campo (si existe) indica por qué la llamada no se pasó, aun cuando los identificadores de omisión coincidían. Por Skype Empresarial Server, solo se define un valor:  <br/> 0x0001: identificador de desvío desconocido para el adaptador de red predeterminado  <br/> |
 |StartTime  <br/> |datetime  <br/> |Hora de inicio de la llamada.  <br/> |
 |EndTime  <br/> |datetime  <br/> |Hora de finalización de la llamada.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |FQDN del grupo de autores de llamadas.  <br/> |

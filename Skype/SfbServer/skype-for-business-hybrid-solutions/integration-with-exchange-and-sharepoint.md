@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Summary: Learn about Skype Empresarial Server 2015 integration with Exchange and SharePoint.'
-ms.openlocfilehash: 6026d66ec6972dc8d51857f185fccc0ff96482c4f658d6740034c94e9bbdaae2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5859e247f816739f9febadb9d973ab081d1e4ccc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340026"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593344"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integración con Exchange y SharePoint
 

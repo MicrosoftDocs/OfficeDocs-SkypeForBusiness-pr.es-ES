@@ -11,19 +11,19 @@ searchScope:
 - Microsoft Teams
 search.appverid: MET150
 description: Más información sobre la disponibilidad de la aplicación de aprobaciones en Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df725792ec8843b77ba2ff4956617d2959e718e2
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: f50a5f766740d3d5d8fa9effc0b49ec495c361cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399089"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593194"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 

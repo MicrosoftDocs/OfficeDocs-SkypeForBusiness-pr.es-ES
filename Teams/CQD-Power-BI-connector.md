@@ -13,14 +13,14 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Instalar Power BI connector para usar plantillas de consulta de panel de calidad de llamadas (CQD)
-ms.openlocfilehash: 7c82cfbb2279e680d6f088840302a6027d5bdd18
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 258d3be034bd956c518f1ed7a67273f064b383b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234345"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593324"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Instalar el conector de calidad de llamadas de Microsoft para Power BI usar plantillas de consulta de panel de calidad de llamadas
 
