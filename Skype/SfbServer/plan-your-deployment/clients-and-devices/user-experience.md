@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: "Summary: Learn about the new Skype Empresarial and the steps you can take to prepare your environment and your users for the update, whether you're using Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server 2015, Lync Server 2013, or Lync Server 2010."
-ms.openlocfilehash: d55d6d5adc45fa9d4aa78c1f1b9fc7489a9bef785d38300de0a6ad08dafe4b1b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b9ead36cb38c41376c80a85f1356e24e78b51eb7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318833"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586872"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planear la Skype Empresarial cliente de 2015 para los usuarios
  

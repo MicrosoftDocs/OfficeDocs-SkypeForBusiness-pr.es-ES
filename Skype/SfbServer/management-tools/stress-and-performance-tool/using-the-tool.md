@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Para ejecutar la herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015, deberá poder administrar usuarios, contactos y perfiles de usuario, configurar la herramienta para su ejecución y, a continuación, revisar los resultados o resultados que produce la herramienta.
-ms.openlocfilehash: c80f623476bcfd33979256185d87786e2cf92d6b48bc0467dc61c1773569e0fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6db23c259aa19e8ec9e590218ff233461c677aa0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283272"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586882"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Uso de la Skype Empresarial Server de esfuerzo y rendimiento de 2015
  

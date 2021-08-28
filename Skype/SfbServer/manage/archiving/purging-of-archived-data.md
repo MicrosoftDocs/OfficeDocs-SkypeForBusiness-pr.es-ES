@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 'Summary: Learn how to manage purging of archived data for Skype Empresarial Server.'
-ms.openlocfilehash: f6eafbacedc715dc3684a16eb17cd5e1b1ae59923046af5cf180e92bbf6a2266
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b071a464ab6c31d64441f06d73493c2bdbbf607a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307081"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587212"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Administrar la depuración de datos archivados en Skype Empresarial Server
 

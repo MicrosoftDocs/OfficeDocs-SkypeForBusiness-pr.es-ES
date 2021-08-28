@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: El Shell Skype Empresarial Server administración proporciona la interfaz de línea de comandos para la administración y administración del servidor. Se basa en Windows PowerShell e incluye un conjunto completo de cmdlets de administración y administración que son específicos de Skype productos de lync server heredados.
-ms.openlocfilehash: 7213941b6f664375a6c51c3decb3080321e916d231fea3d93e5a933e4f0281f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dbff67d52d616d55d8e183ffab91126f8546f1b1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313148"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609297"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Shell de administración de Skype Empresarial Server
  

@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumen: elija la topología para Skype Empresarial Server. Obtenga información sobre la ubicación del servidor para Skype Empresarial Server.'
-ms.openlocfilehash: 922bc26ee6eeea720c62cbbc744953aa5edecf4c03a792fac56ee7910806b6e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff527bc35f534de5a7c8830bbc4359626f8f09b9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349872"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609217"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Conceptos básicos de topología para Skype Empresarial Server
 
@@ -77,7 +77,7 @@ Para obtener más información, un sitio central también puede tener:
 
 - Director o grupo de directores. No es necesario, pero es útil si desea mejorar la resistencia y habilitar la redirección de Skype Empresarial solicitudes de usuario al grupo de servidores principal del usuario. Si desea implementar directores, se admite un máximo de 10 por grupo. Si esto es algo que necesita, definitivamente continúe leyendo en el tema Planning for Directors.
 
-- Proxy inverso No se trata de un componente de Skype Empresarial Server, pero si desea admitir el uso compartido de contenido web para usuarios federados, si quiere admitir el tráfico de movilidad, si los usuarios remotos desean usar la libreta de direcciones, unirse a reuniones, entre otras cosas, esto es algo que querrá tener en su entorno. Hay un tema Configuración del servidor proxy inverso que puede consultar para obtener más información, cuando esté listo.
+- Proxy inverso. No se trata de un componente de Skype Empresarial Server, pero si desea admitir el uso compartido de contenido web para usuarios federados, si quiere admitir el tráfico de movilidad, si los usuarios remotos desean usar la libreta de direcciones, unirse a reuniones, entre otras cosas, esto es algo que querrá tener en su entorno. Hay un tema Configuración del servidor proxy inverso que puede consultar para obtener más información, cuando esté listo.
 
 A continuación encontrará información adicional sobre la ubicación de estos servidores.
 
@@ -251,7 +251,7 @@ No se pueden colocar en el servidor Standard Edition, pero pueden ir en un únic
 
 - Cualquier base de datos back-end para un grupo Enterprise Edition front-end
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>Empresa
 
 Las siguientes bases de datos se pueden colocar en el mismo servidor back-end SQL Server:
 

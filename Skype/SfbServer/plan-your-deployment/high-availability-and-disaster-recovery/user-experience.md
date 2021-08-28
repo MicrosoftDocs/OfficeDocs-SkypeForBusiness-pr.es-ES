@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: Obtenga información sobre la experiencia de los usuarios cuando un grupo de servidores front-end conmuta por error o vuelve a fallar durante la recuperación ante desastres en Skype Empresarial Server.
-ms.openlocfilehash: f17e589175c0d91db074f7ff1a1808a32d65410a5c5d7639fa2bcb284ed67680
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b207fd34bc5eaaf2e02addc8040dc262709b2853
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276605"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609237"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Experiencia del usuario durante el error del grupo en Skype Empresarial Server
  

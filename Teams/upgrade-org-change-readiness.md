@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Obtenga información sobre cómo evaluar la preparación de su organización para una transición correcta a Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0385643a85f61cdeafa82169427d76d3951e3b54445d5eb25d419831f1fc56
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4eb739826ffa0523f30fd510aa9cdaec173f30c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321082"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586324"
 ---
 # <a name="assess-organizational-change-readiness"></a>Evaluar si la organización está preparada para el cambio
 

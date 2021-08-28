@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.InstallDatabaseOptionPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 'Puede configurar opciones avanzadas para la colocación de archivos de base de datos y registro en su SQL Server. Las opciones disponibles son:'
-ms.openlocfilehash: 6b9ad2dc1dd91eeb0834c43394f00221d687d0d66058c5037e6d90c83cd10bad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c8b26656f894fbf2c27b2321f30c174fe10472b3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321722"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587344"
 ---
 # <a name="install-database-options-page"></a>Página de opción Instalar base de datos
 

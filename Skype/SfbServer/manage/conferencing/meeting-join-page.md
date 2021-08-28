@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
 description: 'Resumen: obtenga información sobre cómo configurar la página de unión a la reunión en Skype Empresarial Server.'
-ms.openlocfilehash: d1615b2d436cf884ee8d37e911b7ca82c57289973279c6f98f4360a6a40d99e0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ba90c771321732956b38f5f07af10798829fc54f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313228"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587096"
 ---
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>Configurar la página de unión a la reunión en Skype Empresarial Server
  
@@ -31,7 +31,7 @@ Puede modificar el comportamiento de la página de unión a la reunión si desea
   
 **Parámetros de página de Set-CsWebServiceConfiguration reunión**
 
-|**Parámetro Set-CsWebServiceConfiguration**|**Description**|
+|**Parámetro Set-CsWebServiceConfiguration**|**Descripción**|
 |:-----|:-----|
 |ShowJoinUsingLegacyClientLink  <br/> |Este parámetro ha quedado en desuso para su uso con la versión local de Skype Empresarial Server.  <br/> Si se establece en True, los usuarios que se unan a una reunión mediante una aplicación cliente que no sea Skype Empresarial tendrán la oportunidad de unirse a la reunión mediante su aplicación cliente actual. El valor predeterminado es False.  <br/> |
 |ShowAlternateJoinOptionsExpanded  <br/> |Este parámetro ha quedado en desuso para su uso con la versión local de Skype Empresarial Server.  <br/>  Si se establece en True, las opciones alternativas para unirse a una conferencia en línea se expanden automáticamente y se muestran a los usuarios. Si se establece en False (el valor predeterminado), estas opciones estarán disponibles, pero el usuario tendrá que mostrar la lista de opciones por sí mismos.  <br/> |

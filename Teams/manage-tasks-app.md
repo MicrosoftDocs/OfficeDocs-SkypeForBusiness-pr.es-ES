@@ -12,19 +12,19 @@ searchScope:
 - Microsoft Cloud for Healthcare
 audience: admin
 description: Obtenga información sobre cómo administrar la aplicación Tasks para los usuarios de su organización.
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 962c1a92647a330f0b1772fb771f41b985e5bfcd572112566ef10cee84eec81c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 41fa4ea8b32b3c8a1b427f95afbc25317933b5cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351899"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586564"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Tasks para su organización en Microsoft Teams
 

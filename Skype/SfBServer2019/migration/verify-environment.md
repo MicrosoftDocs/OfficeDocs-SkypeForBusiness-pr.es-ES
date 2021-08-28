@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Antes de implementar Skype Empresarial Server 2019 en estado de coexistencia, debe comprobar que los servicios heredados se han configurado e iniciado. Es importante identificar los servicios y características clave que existen en el entorno heredado, antes de implementar un grupo piloto Skype Empresarial Server 2019. Antes de implementar XMPP de Microsoft Skype Empresarial Server 2019 en un estado de coexistencia con una implementación XMPP heredada, debe comprobar que los servicios XMPP heredados se han configurado e iniciado, e identificar qué socio federado admite la configuración XMPP heredada.
-ms.openlocfilehash: 67583f875a8da0e58cc2c380352a0e1a96415003a9f493ee4f3172f8942972ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c81686f77d42f855f61699d3f141ffcaa463bc9a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277655"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586244"
 ---
 # <a name="verify-the-legacy-environment"></a>Comprobar el entorno heredado
 

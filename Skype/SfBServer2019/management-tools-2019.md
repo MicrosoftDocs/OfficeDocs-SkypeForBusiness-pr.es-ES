@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumen: obtenga información sobre las herramientas de administración de servicios en Skype Empresarial Server 2019.'
-ms.openlocfilehash: 2d9f5dd8f6ad23efce052f9aef3d2e3c8b8c96dd861c2f1f5bc50cbc4a1fd74e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8828853ba35f8017f87878f668590adb74cc2a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277765"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586264"
 ---
 # <a name="skype-for-business-server-2019-management-tools"></a>Skype Empresarial Server de administración de 2019
  

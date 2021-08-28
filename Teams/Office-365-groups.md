@@ -7,7 +7,7 @@ manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Obtenga información sobre cómo Microsoft 365 grupos y pertenencias a grupos funcionan con Microsoft Teams.
-ms.openlocfilehash: 37668b4315f2a46a99f5d9409e395b70f5446ac0f9b0ab5fb86fdbbe644246d6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e74e2e8c11753fbf97ef1161e8443f57dbb6146d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282903"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631564"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Grupos y Microsoft Teams
 

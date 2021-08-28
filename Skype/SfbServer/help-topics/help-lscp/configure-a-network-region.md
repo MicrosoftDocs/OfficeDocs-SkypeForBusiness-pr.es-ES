@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsRegionMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1d3fe1f6-e987-4b21-aafd-4ceaf523027a
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 061a4c8570977e3109f1318d95e7001eb45bbe20dcb9012d75d2d6e64ce1166f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 962ccb8b7264bb9bdfe23dcc14a4b48aa958650d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345787"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609467"
 ---
 # <a name="configure-a-network-region"></a>Configurar una región de red
 

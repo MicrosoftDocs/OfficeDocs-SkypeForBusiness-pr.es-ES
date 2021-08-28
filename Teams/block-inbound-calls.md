@@ -12,14 +12,14 @@ audience: Admin
 ms.reviewer: roykuntz
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: 971235754c88d082a43c152867dee9d1b60d0da9adfb1fda9659c53aec71b829
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6388c65e5f2c8600c263153b1a943bf485670fe4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295217"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631434"
 ---
 # <a name="block-inbound-calls"></a>Bloquear llamadas entrantes
 

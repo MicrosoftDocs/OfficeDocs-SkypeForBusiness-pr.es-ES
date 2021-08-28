@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 'Summary: Learn how to modify meeting configuration settings in Skype Empresarial Server.'
-ms.openlocfilehash: e1b283c5d50c955464d4af9b8f92f9e210f60f35a1fad5320c9f6bb8b6ede11d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c3da96738e4902be94ed1efc3b5037b105c0771f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343464"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587076"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modificar las opciones de configuración de reunión en Skype Empresarial Server
  

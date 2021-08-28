@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumen: revise este tema para obtener información sobre cómo integrar Skype Empresarial Server con Exchange Server 2016 o Exchange Server 2013.'
-ms.openlocfilehash: 81217886028db9e8cb04296e5d665aada3a3337683f4b8276fb13d454cdc4b76
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c830636b8db5b2a4fba02a1a5f34489e691459c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284650"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609227"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan para la integración de Skype Empresarial y Exchange
  
@@ -98,18 +98,18 @@ En la tabla siguiente se detallan las características admitidas en varias combi
 |Presencia en Outlook  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |Responder a través de mensajería instantánea, llamada RTC, Skype o videollamada desde un correo Outlook correo electrónico  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |Programar y unirse a reuniones en línea a través de Outlook  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Presencia en Outlook Web App  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |v  <br/> |
-|Responder a través de mensajería instantánea, llamada RTC, Skype o videollamada desde un correo electrónico de OWA  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |v  <br/> |
-|Programar y unirse a reuniones en línea a través de Outlook Web App  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |v  <br/> |
+|Presencia en Outlook Web App  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|Responder a través de mensajería instantánea, llamada RTC, Skype o videollamada desde un correo electrónico de OWA  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|Programar y unirse a reuniones en línea a través de Outlook Web App  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |Y  <br/> |
 |Mensajería instantánea/presencia en clientes móviles  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |Unirse a reuniones en línea en clientes móviles  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |Estado de publicación basado en Outlook de disponibilidad del calendario  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Lista de contactos (a través del Almacén de contactos unificado)  <br/> |Y (necesita Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |v  <br/> |
+|Lista de contactos (a través del Almacén de contactos unificado)  <br/> |Y (necesita Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |Y  <br/> |
 |Foto de contacto de alta resolución (requiere Lync 2013 o Skype Empresarial clientes como mínimo. No compatible con LWA, aplicaciones móviles, Lync 2010, Lync para Mac y otros clientes antiguos).  <br/> |Y (necesita Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |v  <br/> |v  <br/> |
 |Delegación de reuniones  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |El historial de conversaciones perdidas y los registros de llamadas se escriben en el buzón de exchange del usuario  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Contenido de archivado (MI y reunión) en Exchange  <br/> |Y (necesita Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |v  <br/> |
-|Buscar contenido archivado  <br/> |Y (necesita Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |v  <br/> |
+|Contenido de archivado (MI y reunión) en Exchange  <br/> |Y (necesita Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|Buscar contenido archivado  <br/> |Y (necesita Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |Y  <br/> |
 |Exchange Correo de voz de mensajería unificada  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |N  <br/> |
 |Historial de conversaciones del lado servidor  <br/> |v  <br/> |v  <br/> |N  <br/> |v  <br/> |v  <br/> |
 

@@ -12,19 +12,19 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - microsoftcloud-healthcare
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams y visitas virtuales con la aplicación Bookings
-ms.openlocfilehash: ca5b2391dc1f70188c3b0191fad09ee7cb46e457
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: be3b4b60f7f4c3860d909757f2be6cdc75bc8491
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372210"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631424"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación Bookings
 

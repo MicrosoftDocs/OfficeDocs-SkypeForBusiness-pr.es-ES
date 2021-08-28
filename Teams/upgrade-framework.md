@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Use un marco de éxito comprobado para ayudar al viaje de actualización de su organización de Skype Empresarial a Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca14aaf3e0d61977abf0d03735fa2d5ec0f6995375e773931088f0979cba395c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 327a2ed1105439e88d1ad4a4a743cd3636f3ec0b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300726"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586462"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 

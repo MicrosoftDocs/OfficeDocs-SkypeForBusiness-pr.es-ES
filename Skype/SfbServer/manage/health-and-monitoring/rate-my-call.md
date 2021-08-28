@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Summary: Learn about the Rate My Call feature in Skype Empresarial Server.'
-ms.openlocfilehash: 6623729dced8128e010ac0a61dfd2fccd95f1c558deda1342b0db92936f0b31f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d084e80c94928fc11af099dbef5ad6cca6537b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326436"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586990"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Calificar mi llamada en Skype Empresarial Server
 
@@ -71,7 +71,7 @@ Las definiciones de token se codifican de la siguiente manera:
 |:-----|:-----|
 |1  <br/> |DistortedSpeech  <br/> |
 |2  <br/> | ElectronicFeedback <br/> |
-|3  <br/> | BackgroundNoise <br/> |
+|3   <br/> | BackgroundNoise <br/> |
 |4   <br/> |MuffledSpeech  <br/> |
 |5   <br/> |Echo  <br/> |
 | 21  <br/> | FrozenVideo <br/> |

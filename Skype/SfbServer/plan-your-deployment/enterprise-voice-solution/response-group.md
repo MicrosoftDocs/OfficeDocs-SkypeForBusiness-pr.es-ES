@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planeación de grupos de respuesta en Skype Empresarial Server Telefonía IP empresarial, lo que permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos de archivo de audio.
-ms.openlocfilehash: 6efc867a38ef919488786da908facb840e40725eaf36e60a3acbad3b72b4a3ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 41decf3e61e32867dd6b1d726bb551f8c2ae38f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290088"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631584"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planear la aplicación grupo de respuesta en Skype Empresarial Server
 
@@ -54,7 +54,7 @@ Para dar cabida al rol Administrador, la aplicación grupo de respuesta usa **un
 
 **Grupos de respuesta administrados y no administrados**
 
-|**Tipo de grupo de respuesta**|**Description**|
+|**Tipo de grupo de respuesta**|**Descripción**|
 |:-----|:-----|
 |No administrado  <br/> | Los grupos de respuesta no administrados no tienen ningún director asignado. Solo el administrador del grupo de respuesta puede configurar estos grupos de respuesta. <br/>  Varios grupos de respuesta no administrados pueden compartir un grupo de agentes o una cola. <br/>  Al migrar grupos de respuesta de una versión anterior a Skype Empresarial Server, el tipo se establece en No administrado. <br/> |
 |Administrados  <br/> | Los administradores de grupos de respuesta pueden configurar cualquier aspecto de los grupos de respuesta administrados. <br/>  Los administradores de grupos de respuesta no pueden ver ni modificar grupos de respuesta que no se les han asignado explícitamente. <br/>  Los administradores de grupos de respuesta solo pueden configurar algunas opciones para los grupos de respuesta que se les han asignado explícitamente. <br/>  Los grupos de respuesta administrados no pueden compartir grupos de agentes ni colas con otros grupos de respuesta, ya sean administrados o no administrados. <br/> |
@@ -148,7 +148,7 @@ La herramienta de configuración de grupo de respuesta admite las combinaciones 
 |Windows Server 2008 con SP2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 con Service Pack 1  <br/> |Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows Server 2012  <br/> ||
-|Windows Server 2012 R2  <br/> ||
+|Windows Server 2012 R2  <br/> ||
 
 ### <a name="response-group-agent-console"></a>Consola del agente del grupo de respuesta
 
@@ -166,7 +166,7 @@ La consola de agente admite combinaciones de los sistemas operativos y los explo
 |Windows Server 2008 con Service Pack 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 con Service Pack 1  <br/> |Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
 |Windows Server 2012  <br/> |
-|Windows Server 2012 R2  <br/> |
+|Windows Server 2012 R2  <br/> |
 
 ## <a name="client-support"></a>Compatibilidad con clientes
 

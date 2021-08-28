@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre los pasos para restablecer el id. de conferencia de reunión de un usuario en Skype Empresarial Online y obtenga vínculos a herramientas de actualización y migración de reuniones. '
-ms.openlocfilehash: 57523cfc0186120c42fffe01961cd71f623bfa964ecf0c8251a26e518a31abd4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b2f816cf423a25016a67176d6b1479f585ee14e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310269"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586138"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Restablecer un id. de conferencia para un usuario en Skype Empresarial Online
 
