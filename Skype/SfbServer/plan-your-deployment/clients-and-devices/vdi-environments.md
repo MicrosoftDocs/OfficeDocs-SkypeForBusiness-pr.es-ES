@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: En este tema se analizan las consideraciones de planeación para usar Skype Empresarial al conectarse a un escritorio virtual remoto.
-ms.openlocfilehash: 84a7c289b9c2cc284209861dca35921142fd87e16b3de3b1e42b6c82fb2b8eba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b169db870ad652dcf8b64552d9351e47e7117bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318763"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621016"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planeación de Skype Empresarial entornos VDI
  

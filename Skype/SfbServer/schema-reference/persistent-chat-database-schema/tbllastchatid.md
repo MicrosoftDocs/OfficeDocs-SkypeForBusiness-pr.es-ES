@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 description: tblLastChatId contiene el último id. de chat generado (y usado en la tabla tblChat) para cada usuario.
-ms.openlocfilehash: ecd707a8e6c9dbec220f137c69042c22ac6e1d8a4e46a46e4c2d8a6f035c8a0d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18fe97268f277de11740b2181235a5088807c49f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322942"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620866"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  

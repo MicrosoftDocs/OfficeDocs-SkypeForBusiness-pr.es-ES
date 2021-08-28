@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 'Resumen: asigne un certificado de autenticación de servidor a servidor para Skype Empresarial Server.'
-ms.openlocfilehash: b3d662dc3d0e18f0aefd1d8e643e09554fc39d652d31ac0bf8ed5540a5e34d8f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67e9b618e882a257047a4569e790d96c73bf386b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338158"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621086"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Asignar un certificado de autenticación de servidor a servidor a Skype Empresarial Server
 **Resumen:** Asigne un certificado de autenticación de servidor a servidor para Skype Empresarial Server.

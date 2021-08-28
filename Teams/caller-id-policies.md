@@ -15,15 +15,15 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar directivas de identificador de llamadas en Microsoft Teams para cambiar o bloquear el identificador de llamada de Teams usuarios de su organización.
-ms.openlocfilehash: 7157f1a2a7997a8278ac05ac74db676cb551b20d5858b8732e373429f4b5e5aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ee663a627e89d7ea2a569496a899d2d68b8366ef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341445"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619636"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Administrar directivas del id. de llamada en Microsoft Teams
 

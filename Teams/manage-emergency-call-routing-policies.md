@@ -15,18 +15,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar directivas de enrutamiento de voz de emergencia en Microsoft Teams configurar números de emergencia y especificar cómo se enrutar las llamadas de emergencia.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: d3266008f5e2c62ead297288a55caf1bbf8b473b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 5f6d3f45c2a3a97980bec3eb17ee1f6b35952fe5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234515"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619446"
 ---
 # <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>Administrar directivas de enrutamiento de voz de emergencia para enrutamiento directo
 

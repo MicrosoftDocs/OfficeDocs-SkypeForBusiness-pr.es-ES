@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoInteropServerPortSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server.
-ms.openlocfilehash: 2fe3b891812544e16a40fbe87f0ff17371a7c06e9a810aeba2158941ecd2e530
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6cbac23f76557cb62e8c7c8853e1bc496532c55c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311678"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619976"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>Expansor de configuración de puertos servidor de interoperabilidad de vídeo
  

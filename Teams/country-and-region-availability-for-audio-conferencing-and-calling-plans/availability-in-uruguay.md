@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Uruguay.
-ms.openlocfilehash: 38a761dd4696d0b958ab4635ec243a4b6fa916c4a5e6380261f330de4712832c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c6575df81607b534b0b3d22c76890d91ec7b7ffd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281643"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620686"
 ---
 # <a name="availability-in-uruguay"></a>Disponibilidad en Uruguay
 

@@ -10,19 +10,19 @@ audience: admin
 description: Obtenga información sobre los procedimientos recomendados para administrar equipos grandes Microsoft Teams para satisfacer las necesidades de su organización.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 18c711fbe7a84bffeb5b3e897b72325aae5281a4e0258da5be6f3df6f96ca43c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d856a47fb4d7888dcaa990cde9a3dd151dac79ea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310848"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619676"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Administrar equipos grandes en Microsoft Teams: procedimientos recomendados
 

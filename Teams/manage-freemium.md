@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
 description: Obtenga información sobre quién puede administrar usuarios de forma Teams y obtenga información sobre las diferencias entre los distintos Teams planes.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c07633edcb6c760c2018586957a0ebf73e8d8a2b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 89241d6fa9248b7ce1f5dd10b5c43ece8fcbd8c6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233865"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619436"
 ---
 # <a name="manage-the-free-version-of-microsoft-teams"></a>Administrar la versión gratuita de Microsoft Teams
 

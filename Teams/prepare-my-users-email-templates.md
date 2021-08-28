@@ -9,19 +9,19 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Use plantillas para enviar correos electrónicos a los usuarios a medida que implementa capacidades de voz en la nube en Teams o Skype Empresarial.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 03a770ddcc9806fdd21199da2661710acc7ca0cb10ab6bc0143267299754ac1b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34e15e3b9fccd466905572e6cd234da2f498216b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276116"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617206"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción por el usuario de su nuevo sistema telefónico en línea
 

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: En los temas de esta sección se describen las tareas que deberá realizar después de completar la migración a Skype Empresarial Server 2019.
-ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 69925a59b2ad34e57d24a86af21b36be76a3e571
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298910"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620636"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: finalización de las tareas posteriores a la migración
 

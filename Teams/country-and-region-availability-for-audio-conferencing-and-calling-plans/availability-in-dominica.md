@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Dominica.
-ms.openlocfilehash: 6b4f13de37c212aab4a6874bcd3614d9591c5913f8306ab54634c8e37ca274b0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eac947ef58bd6166f23451287bed2d419f57258e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338008"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619576"
 ---
 # <a name="availability-in-dominica"></a>Disponibilidad en Dominica
 

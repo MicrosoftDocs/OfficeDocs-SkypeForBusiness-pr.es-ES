@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Para editar la configuración de un grupo de servidores front-end o un servidor Standard Edition, cuenta con las secciones siguientes:'
-ms.openlocfilehash: c2dc27177898c4ec8dbd260b6539e877d5eaf4ede8f402e44f09c5d4e095f1f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5c662bf22ea59bb58637622556881afa07e9ba4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348075"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621266"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de configuración general front-end
 

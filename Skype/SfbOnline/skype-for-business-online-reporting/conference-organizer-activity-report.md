@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 14b46f6050b7634513b02cc5eaab11eac5d83f78a8e39b1cdca7cb301e7fa64b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 88f928facce4d384e38108c2e9d41820895be7be
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326656"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620286"
 ---
 # <a name="conference-organizer-activity-report"></a>Informe de actividad del organizador de la conferencia
 

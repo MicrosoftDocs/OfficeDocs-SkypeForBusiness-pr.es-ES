@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Summary: Learn how to modify SIP trunk configuration settings by using the Skype Empresarial Server Control Panel.'
-ms.openlocfilehash: fb590a53a510b73251a7cc47d0f66c20c5ed81cf104d626a0b4dd38e8937b43c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 370e6522d07461276c881798d094fa31fb71e9bb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283772"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620126"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>Skype Empresarial Server: Modificar las opciones de configuración del tronco SIP 
  

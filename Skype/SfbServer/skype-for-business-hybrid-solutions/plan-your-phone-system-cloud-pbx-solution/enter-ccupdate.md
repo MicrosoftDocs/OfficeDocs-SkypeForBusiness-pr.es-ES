@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: El cmdlet Enter-CcUpdate prepara el servidor host Skype for Business Edición de conector de nube para el proceso de actualización poniéndolo en modo de mantenimiento. El dispositivo detiene inmediatamente todos los servicios, finalizando las llamadas en curso y rechazando las llamadas nuevas.
-ms.openlocfilehash: 75be5933e31f3966ab36f9957b78cd89c21a4a31df23b5761000a6e96cd9806e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26f1874ca6c0b92836716d66031945adc864d0ff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303653"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620766"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 
@@ -58,7 +58,7 @@ Después de instalar las actualizaciones, el dispositivo puede volver al modo de
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguna. El cmdlet Enter-CCUpdate no acepta entradas canalizadas.
+Ninguno. El cmdlet Enter-CCUpdate no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>

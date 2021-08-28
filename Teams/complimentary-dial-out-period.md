@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - CSH
 ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Obtenga información sobre el período de acceso telefónico gratuito para Microsoft 365 o Office 365 de llamadas y Office 365 audioconferencia en Microsoft Teams.
-ms.openlocfilehash: bf82b9ffc24000244a2666dedf2bb3ff8cd280cb476d6550747807411a4b9475
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fa571a355f4eb9a546c2c231e9a06f83d4374029
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347395"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619606"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 

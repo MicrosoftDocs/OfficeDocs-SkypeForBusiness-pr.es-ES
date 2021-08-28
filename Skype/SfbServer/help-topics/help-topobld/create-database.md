@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologyCreateDatabasePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: Topology Builder proporciona una forma de instalar bases de datos en un SQL Server web. Al instalar bases de datos mediante el Generador de topologías, la aplicación lee información de la topología y, a continuación, instala las bases de datos necesarias en el equipo SQL Server o en el clúster SQL Server especificado. Es el único tipo de instalación de bases de datos disponible mediante Topology Builder. Si necesita instalar una base de datos específica en un equipo específico, o si debe instalar una base de datos collocada Windows PowerShell, debe usar una interfaz de línea de comandos y el cmdlet Install-CsDatabase en su lugar.
-ms.openlocfilehash: c854552d1a82e0f14492cff876189fd19f7eb7ba78d08269582f5a91c92ef028
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8c4cc75104093b868d40be18a540eea4019a0b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335190"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619896"
 ---
 # <a name="create-database"></a>Crear base de datos
  

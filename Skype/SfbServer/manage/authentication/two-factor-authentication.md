@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Resumen: administrar la autenticación en dos fases en Skype Empresarial Server.'
-ms.openlocfilehash: db40d3c2f899ec40ba01e0a45304e147513b9c03
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2b354c99b4e02536ff3db2043ec18fcd092d766e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235515"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621106"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Administrar la autenticación en dos fases en Skype Empresarial Server
  
@@ -55,7 +55,7 @@ Los registros DNS usados por clientes internos o externos para detectar los serv
 
 Los clientes que han implementado la autenticación en dos fases para Microsoft Exchange pueden encontrar que ciertas características del cliente no están disponibles. Este comportamiento es por diseño, ya que el cliente Skype Empresarial no admite la autenticación en dos fases para las características que dependen de Exchange integración.
   
-## <a name="contacts"></a>Contactos
+## <a name="contacts"></a>Contacts
 
 Skype Empresarial usuarios que están configurados para aprovechar la característica almacén de contactos unificados encontrarán que sus contactos ya no están disponibles después de iniciar sesión con la autenticación en dos fases.
   
@@ -109,6 +109,6 @@ Esta característica debe habilitarse en situaciones en las que la seguridad es 
 
 La configuración de un proxy ADFS o proxy inverso para admitir Skype Empresarial autenticación en dos fases desde redes externas no se trata en estos temas.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Configurar la autenticación en dos fases en Skype Empresarial Server](configure-two-factor.md)

@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para partners de Microsoft o operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf5ec69e539796bb68325679da41c0954c3d6da6
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 824b550200fcb04ecf26ec6f939515586ec64544
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398969"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619496"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 

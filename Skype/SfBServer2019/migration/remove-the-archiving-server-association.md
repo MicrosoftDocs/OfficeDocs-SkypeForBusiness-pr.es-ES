@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Para quitar un servidor de archivado, debe cambiar o borrar la dependencia del grupo de servidores front-end asociado, el servidor front-end, la aplicación de sucursal con funciones de supervivencia y el servidor de sucursal con funciones de supervivencia. Puede editar las propiedades del grupo de servidores front-end, el servidor front-end, la aplicación de sucursal con funciones de supervivencia y el servidor de sucursal con funciones de supervivencia para quitar la dependencia. Después de borrar la dependencia y eliminar el servidor en el Generador de topologías, se le notificará que también se eliminará el objeto de almacén de bases de datos asociado en el Generador de topologías.
-ms.openlocfilehash: 6265642a45b891180e53d3b00d39a9053b663a434aaa1a4a26e92b619dfba257
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 489eeb276b495598ec2f11fc9b4502935beedf30
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340336"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617076"
 ---
 # <a name="remove-the-archiving-server-association"></a>Quitar la asociación del servidor de archivado
 
@@ -24,11 +24,11 @@ Para quitar un servidor de archivado, debe cambiar o borrar la dependencia del g
   
 ### <a name="to-remove-the-archiving-server-association"></a>Para quitar la asociación del servidor de archivado
 
-1. En el servidor front-end de Skype Empresarial Server 2019, abra el Generador de topologías.
+1. En el Skype Empresarial Server front-end de 2019, abra el Generador de topologías.
     
 2. Vaya al nodo de instalación heredado.
     
-3. En el Generador de topologías, expanda Grupos de servidores **front-end Enterprise Edition,** **Servidores front-end Standard Edition** o Sitios **de** sucursal, en función de dónde se defina el servidor de archivado.
+3. En el Generador de topologías, expanda Enterprise Edition grupos de servidores **front-end**, **Standard Edition servidores front-end** o sitios **de** sucursal, en función de dónde se defina el servidor de archivado.
     
 4. Si tiene asociado el servidor de sucursal con funciones de supervivencia, expanda **Sitios** de sucursal, expanda el nombre del sitio de sucursal y, a continuación, expanda **Aplicaciones de sucursal con funciones de supervivencia.**
     
@@ -45,6 +45,6 @@ Para quitar un servidor de archivado, debe cambiar o borrar la dependencia del g
     
 9. En **Eliminar almacenes dependientes**, haga clic en **Aceptar**.
     
-10. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Asistente para la implementación de Skype Empresarial Server según sea necesario. 
+10. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Asistente Skype Empresarial Server implementación según sea necesario. 
     
 

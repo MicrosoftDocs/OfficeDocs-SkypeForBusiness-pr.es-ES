@@ -12,19 +12,19 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Guía práctica para implementar las características de voz en la nube en Teams para grabar reuniones de Teams y llamadas de grupo para capturar la actividad de audio, vídeo y uso compartido de la pantalla.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
-ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
+ms.openlocfilehash: 4024ca2b061f6fb2db463b2eebf5951da2f19304
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58531020"
+ms.locfileid: "58620706"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -291,7 +291,7 @@ Los clientes han proporcionado comentarios abrumadores de que quieren más contr
   
 Creemos que casi todos los clientes se beneficiarán de la carga de almacenamiento reducida en su espacio empresarial mediante la eliminación de grabaciones que probablemente nunca se volverán a ver después de 60 días. Nuestro objetivo es proporcionar una experiencia lo más limpia posible para todos los clientes de forma predeterminada. 
   
-**¿Se eliminará automáticamente después de 30 días, incluso si se accede a los datos o si se descargan?**
+**¿Se eliminará automáticamente incluso si se accede a los datos o si se descargan?**
   
 El hecho de acceder al archivo no cambia la fecha de expiración. 
   

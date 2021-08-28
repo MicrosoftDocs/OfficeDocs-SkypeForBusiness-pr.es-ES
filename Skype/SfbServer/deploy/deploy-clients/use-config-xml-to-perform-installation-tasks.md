@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 'Summary: How to use the Config.xml file to specify additional installation instructions.'
-ms.openlocfilehash: b7c04a9c08f6a5dd51c21a189ce3a07d81a589cf694e5020a75cf6f646bd1cef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f79dcc1d31fdd862ca8705552d7894dcdd90fcd7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332052"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620496"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Usar Config.xml para realizar tareas de instalación en Skype Empresarial cliente
 
@@ -48,13 +48,13 @@ Los Config.xml más usados para la Skype Empresarial se enumeran en la tabla sig
 **Elementos de Config.xml**
 
 
-| **Elemento**              | **Description**                                                                                                                                                                                                                                                                                         |
+| **Elemento**              | **Descripción**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configuración  <br/>     | Elemento de nivel superior (necesario). Contiene el atributo Product, por ejemplo: Product=Lync (Esto funcionará para Skype Empresarial clientes)  <br/>                                                                                                                                                          |
 | OptionState  <br/>       | Especifica cómo las características específicas del producto se controlan durante la instalación. Use los siguientes atributos para impedir la instalación de Servicios de conectividad empresarial, que incluye componentes compartidos que interfieren con Outlook: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
-| Visualización  <br/>           | El nivel de interfaz de usuario que el programa de instalación muestra al usuario. Los atributos típicos incluyen los siguientes: <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
+| Pantalla  <br/>           | El nivel de interfaz de usuario que el programa de instalación muestra al usuario. Los atributos típicos incluyen los siguientes: <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | Registro  <br/>           | Opciones para el tipo de registro que realiza el programa de instalación. Los atributos típicos incluyen los siguientes: <br/>  Tipo ="Off"                                                                                                                                                                                       |
-| Configuración  <br/>           | Especifica los valores de propiedades de Windows Installer. Los atributos típicos incluyen los siguientes:<br/>  Setting Id=" *name*" (el nombre de la propiedad Windows Installer)  <br/>  Valor=" *valor*" (el valor que se debe asignar a la propiedad)  <br/>                                                             |
+| Valor  <br/>           | Especifica los valores de propiedades de Windows Installer. Los atributos típicos incluyen los siguientes:<br/>  Setting Id=" *name*" (el nombre de la propiedad Windows Installer)  <br/>  Valor=" *valor*" (el valor que se debe asignar a la propiedad)  <br/>                                                             |
 | DistributionPoint  <br/> | La ruta de acceso completa del punto de instalación de red desde la que se ejecuta la instalación. Incluye el atributo de ubicación:<br/>  Ruta de *acceso* Location="  <br/>                                                                                                                                     |
 
 En el ejemplo siguiente se muestra un Config.xml archivo para una instalación silenciosa típica del Skype Empresarial cliente. 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 description: 'Este nodo muestra la información de configuración de este grupo de servidores front-end o servidor Standard Edition. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 45115749bdff31ecb4077559741a277037cd07d9c794e36a632e85ded328672e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1f23ab9a307afa27a986a29052e10f7ebcd1a6fb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281093"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621226"
 ---
 # <a name="front-end-server-scope-node"></a>Nodo de ámbito del servidor front-end
  

@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
 description: En este artículo, aprenderá a exportar contenido Teams mediante las Microsoft Teams Exportar API.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f69a46404278a86ef17a18398c9eb8e62c3ef7eb46acb3f39ec075d553ac7383
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b9d298ad18c6ed63c269c5f31b923a89e63a9f96
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299229"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620646"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportar contenido con las Microsoft Teams Exportar API
 

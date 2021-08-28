@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: 'Resumen: obtenga información sobre el servicio de movilidad en Skype Empresarial Server.'
-ms.openlocfilehash: 3029877aa6f252ada9bbb38bca0148b8a96908ad5cf4deded7cf48e6451ec833
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: da2685faae6bf44fee212132dba6a0f7e0fe2e76
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298140"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621036"
 ---
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Configurar el servicio de movilidad para un alto rendimiento en Skype Empresarial Server
  

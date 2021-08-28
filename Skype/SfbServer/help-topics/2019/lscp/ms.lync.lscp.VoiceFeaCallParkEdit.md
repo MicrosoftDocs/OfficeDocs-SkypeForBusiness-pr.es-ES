@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los intervalos de números de estacionamiento de llamadas definen los números temporales en los que se mantienen las llamadas estacionadas hasta que alguien las recupera o se desaten.
-ms.openlocfilehash: 7c4050ebf09d2b0f533aee9fecb4eda3c4f383b9a914886a125f150740cea07f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f541a05fffe7f3696cde151f2d9edc8fcb243d73
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294737"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620056"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Estacionamiento de llamadas: Crear nuevos o editar los existentes
 

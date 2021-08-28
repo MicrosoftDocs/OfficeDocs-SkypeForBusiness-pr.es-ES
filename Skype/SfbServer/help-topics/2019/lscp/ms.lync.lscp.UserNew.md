@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 4def26fd4e2e52c5b9871627f6612998343500bd355be0822f0d3f5f516fee15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 45d59cb92d06fcb3dcae0246586af6f212ec809c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280185"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620366"
 ---
 # <a name="users-new-user"></a>Usuarios: Nuevo usuario
 

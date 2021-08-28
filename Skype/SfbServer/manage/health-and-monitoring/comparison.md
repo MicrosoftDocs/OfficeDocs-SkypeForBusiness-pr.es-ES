@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 'Summary: Learn about the Media Quality Comparison Report in Skype Empresarial Server.'
-ms.openlocfilehash: 4ce020e923d66d5d5ee3b8757f3259e35c65ecbb306cbce238d68e8c05351039
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d8c39cd2c416917b8e0cc4dd7d7d911f21ec70c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345637"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619816"
 ---
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Informe de comparación de calidad de medios en Skype Empresarial Server
  
@@ -49,7 +49,7 @@ En la tabla siguiente se muestra la información que recoge el informe de compar
   
 **Métricas del informe de comparación de calidad de medios**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Volumen de llamadas** <br/> |No  <br/> |Número total de llamadas.  <br/> |
 |**Degradación (MOS)** <br/> |No  <br/> |Cantidad media de degradación de MOS (puntuación de opinión media) experimentada durante una llamada. Los valores de degradación oscilan entre un mínimo de 0,0 y un máximo de 5,0; un valor de 0,5 o menos constituye una degradación aceptable. Históricamente, las puntuaciones medias de opinión se calcularon haciendo que los usuarios calificaron la calidad de una llamada en una escala de 1 a 5. Skype Empresarial Server un conjunto de algoritmos para predecir cómo los usuarios habrían clasificado una llamada.  <br/> Los valores altos de degradación pueden ser producto de la congestión; la falta de ancho de banda; la congestión o las interferencias en una conexión inalámbrica, o la sobrecarga de un servidor multimedia o un extremo. Una degradación alta causa la distorsión o la pérdida del audio.  <br/> |

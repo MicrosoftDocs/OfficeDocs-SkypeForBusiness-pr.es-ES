@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 'Resumen: obtenga información sobre cómo instalar los archivos del servidor de mediación en Skype Empresarial Server.'
-ms.openlocfilehash: 767396de2c9b9878a072d0c5c66f7fea05c07e6446b1cde643d1270f5dbaabb1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5662e4e79534fd469c64005bba98d1c507defff8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322312"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620506"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Instalar los archivos del servidor de mediación en Skype Empresarial Server
  
