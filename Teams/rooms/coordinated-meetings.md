@@ -11,14 +11,14 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Configure Salas de Teams dispositivos y Surface Hub para unirse a reuniones cuando un dispositivo u otro se une a una reunión.
-ms.openlocfilehash: 5d46e8b43d0a8b31aa06dda78d1d2c0fb7a1ef55abdfffa2c4c6876be3938cb3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 21b8dc21b65748754f8a7903bc20cf55bd7c80c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339468"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592214"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Configurar reuniones coordinadas con Salas de Microsoft Teams y Surface Hub
 

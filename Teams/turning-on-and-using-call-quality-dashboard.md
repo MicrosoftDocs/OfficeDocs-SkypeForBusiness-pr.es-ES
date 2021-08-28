@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo activar y usar el Panel de calidad de llamadas y obtener informes de resumen de la calidad de las llamadas.
-ms.openlocfilehash: e7e376b0cb610f59a62dd5ee19dddb05423549a9
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+ms.openlocfilehash: a6f39fe728a6616e8f70edb86d18e8cc27cc8501
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58369234"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637055"
 ---
 # <a name="how-to-set-up-call-quality-dashboard"></a>Cómo configurar el panel de calidad de llamadas
 

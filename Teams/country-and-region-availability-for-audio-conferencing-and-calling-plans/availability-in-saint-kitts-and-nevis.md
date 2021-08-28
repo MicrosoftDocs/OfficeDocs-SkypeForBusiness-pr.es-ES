@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para San Cristóbal y Nieves.
-ms.openlocfilehash: 0aa5104bf7c8e141a4e0326a8f3c011794cf8978a116dc9cb0b299ed298077ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7c3bf480c8d705f94b681e7b939724b8caa8d290
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337498"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618556"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>Disponibilidad en San Cristóbal y Nieves
 

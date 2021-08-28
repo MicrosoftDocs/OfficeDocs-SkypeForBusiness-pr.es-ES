@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.TrunkSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:'
-ms.openlocfilehash: c29f7e62b047e06bfce20324a7edc8dc33d635ac416fb78ae31efaba63538141
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 64db5a170c09a1563797bba27f7c427f73af6a9b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290618"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599091"
 ---
 # <a name="trunk-settings-expander"></a>Expansor de configuración de tronco
 

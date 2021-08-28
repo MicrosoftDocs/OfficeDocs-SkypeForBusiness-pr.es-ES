@@ -13,17 +13,17 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0b9582635e89d9115a20df4a582e1894f608fadb7d2f624dbc6124732a76e74
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a2789e522e666894ca58c8b22e9d571b35a4fb26
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317421"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618516"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Conectores, bots y aplicaciones en Microsoft Teams
 

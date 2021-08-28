@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lea este tema para revisar las consideraciones de planeación para implementar la omisión de medios con Cloud Connector Edition versión 2.0 y versiones posteriores. Para obtener información sobre cómo implementar la omisión de medios, consulte Deploy media bypass in Cloud Connector Edition.
-ms.openlocfilehash: 622bb6cbc4acf5987d28a2c4823bdfd0e495445cba84ed01762423c8e65de576
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 659b735502b6efaabd9167a4b0d820828232f5dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339896"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626412"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Plan para la omisión de medios en Cloud Connector Edition
  

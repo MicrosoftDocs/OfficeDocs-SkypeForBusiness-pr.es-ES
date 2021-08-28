@@ -10,19 +10,19 @@ search.appverid: MET150
 ms.reviewer: sbhatta
 description: Obtenga información sobre cómo cerrar sesión en Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e1a81b4114814003a2d9c6ac7b41649fe34f8f1
-ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
+ms.openlocfilehash: 623c131357f8d5a82bdf6780ff94434d28b2da73
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483214"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637045"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>Cerrar sesión en Microsoft Teams
 

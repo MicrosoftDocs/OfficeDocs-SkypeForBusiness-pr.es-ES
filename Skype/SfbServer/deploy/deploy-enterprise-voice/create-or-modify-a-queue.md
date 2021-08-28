@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Cree o modifique una cola de grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: d8b875063d37d38ece7a6ec59c9b0bffbb16ee091e31f67087eb2cc0b52616e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8dc93e2d171b45b81527c4706b4b4bbb4f978015
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338748"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611265"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Crear o modificar una cola en Skype Empresarial
  
@@ -195,7 +195,7 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
    $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
    ```
 
-10. Confirme que se ha creado la cola. Ejecutar:
+10. Confirme que se ha creado la cola. Ejecute: 
     
     ```powershell
     Get-CsRgsQueue -Name "Help Desk"

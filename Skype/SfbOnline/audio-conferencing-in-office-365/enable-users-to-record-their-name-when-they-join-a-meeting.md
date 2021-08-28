@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Obtenga información sobre cómo habilitar o deshabilitar si los usuarios pueden grabar sus nombres cuando se unen a una reunión en Skype Empresarial Online.
-ms.openlocfilehash: 53d57583004a143f78900b7e195084465f3344bc2617c4682709cf223a1860e9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cad0f5a904fbec064fd07080b43af7ee6a8a9671
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335730"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626262"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Permitir que los usuarios graben su nombre cuando se unan a una reunión en Skype Empresarial Online
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.InstallMirrorDatabaseOptionPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 'Para configurar la base de datos reflejada Configuración definiendo lo siguiente:'
-ms.openlocfilehash: 0555d61a41d846404855fdf487f4bc70b8c9c75d0d4416b2eeb43187de916cf5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 894ff38814ef2c50f3492216531db45246a67548
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301426"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599111"
 ---
 # <a name="install-mirror-database-option-page"></a>Página de opción instalar base de datos de reflejo
  

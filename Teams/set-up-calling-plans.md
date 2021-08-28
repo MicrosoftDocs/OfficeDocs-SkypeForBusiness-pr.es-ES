@@ -17,7 +17,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Aprenda a configurar planes de llamadas, incluidos ver los planes disponibles en su región, comprar & asignar licencias, obtener números de teléfono y agregar direcciones de emergencia & ubicaciones.
-ms.openlocfilehash: 0eedd72947c4969fc7f42d75d5241ca38c69e0c2e22172444a0d349b6a77b611
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e44c9ec30efef26840bcb79582186ed5e0e3678
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348665"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618486"
 ---
 # <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
 

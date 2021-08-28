@@ -13,16 +13,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo una cuenta Salas de Microsoft Teams obtiene una licencia para obtener acceso al Salas de Microsoft Teams de administración premium.
 f1keywords: ''
-ms.openlocfilehash: 78ec170f329d6fdfdabaf7a6fc10f13ec1517b78
-ms.sourcegitcommit: 3ebf9c5d27263b7e92163f1a61844a5367a4744f
+ms.openlocfilehash: d37824c0cf496f7c059e081b73f6f8590b8b0429
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58449045"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637035"
 ---
 # <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>Introducción al servicio Salas de Microsoft Teams Premium administración de datos
 

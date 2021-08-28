@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: Puede permitir que sus Skype Empresarial usuarios puedan usar la herramienta integrada de comentarios de la aplicación Skype Empresarial para permitir que los usuarios informen de problemas y proporcionen comentarios directamente a Microsoft sobre su experiencia.
-ms.openlocfilehash: e480f9446f3418b2c68d2c74388b60009b81bc13f76e47c15c1f4e8e3f882984
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b7be0629e0944f55147a8f0a772663737412f910
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281343"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611459"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activar o desactivar los informes de comentarios de clientes de Skype Empresarial
 

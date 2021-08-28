@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoGatewayScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2071b375-4978-4ff5-ae38-5e4a621bf6a3
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server 2015.
-ms.openlocfilehash: ee4c132d213cb2dbf7531efb5a53bf1c463703030a5aec69fd0e0318f57ad9da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 38f3bfaaaea5aa976c370a2c46cf744d58021b3c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290678"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599061"
 ---
 # <a name="video-gateway-scope"></a>Ámbito de la puerta de enlace de vídeo
  

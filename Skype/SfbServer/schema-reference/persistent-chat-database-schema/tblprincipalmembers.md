@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9a3e24cf-6ef7-4b82-99fc-50ba41800b6f
 description: tblPrincipalMembers contiene pertenencias de la entidad principal.
-ms.openlocfilehash: 4b7ab1ca644fae9d6cf3029e555c7bdaf476a3e5113634a4c73fd1778bc3a0dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e35b64a34114a7135133175211ecec5a806332b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346346"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626462"
 ---
 # <a name="tblprincipalmembers"></a>tblPrincipalMembers
  

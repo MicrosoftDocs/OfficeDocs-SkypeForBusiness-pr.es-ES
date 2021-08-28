@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVisMachinePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acf278d6-36bc-4cfe-839e-54149e72dc1d
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server 2015.
-ms.openlocfilehash: 2f53df92d56d515ff0734ee0a7898a47d2b184ceb90a822354546ca7744b296c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7a122418e04eb039f9254205629d251393ad9fc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309429"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599212"
 ---
 # <a name="add-vis-machine"></a>Agregar máquina VIS
  

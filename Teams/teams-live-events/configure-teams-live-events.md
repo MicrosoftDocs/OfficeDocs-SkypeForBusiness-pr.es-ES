@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 604f33720b62d6ea675b7dc4604c3c493f88341be5a24e76c1474f6e06025b66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8eccc6e885cef67d4f6240483d3995df88d7cfc
+ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332382"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683314"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
 
@@ -90,6 +90,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 **Ramp** 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
+```
+**Peer5**
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
 ```
 
 Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).

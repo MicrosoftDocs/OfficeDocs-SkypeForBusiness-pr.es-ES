@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: troubleshooting
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo supervisar y solucionar problemas de configuración de enrutamiento directo, incluidos controladores de borde de sesión, componentes de enrutamiento directo y troncos de Telecom.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 534634beb302a5c7027b26a8fdaa305b824cf4efd3930d81f3c6b4d08559c32c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 537df3fb87386914b88da34dcdd5717cfd5700dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302015"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618506"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Supervisar y solucionar problemas de enrutamiento directo
 

@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: Las vistas proporcionan una manera sencilla de acceder a la información sobre los escenarios más comunes utilizados para devolver datos de la base de datos de CDR. Se recomienda usar vistas para crear informes personalizados en lugar de usar las tablas de base de datos cdr reales ; esto se debe a que es más probable que las vistas de base de datos mantengan la compatibilidad con versiones anteriores con versiones futuras.
-ms.openlocfilehash: 3e0598c33dac7fb139166a8dd9b82deed134a59e24d59cbe8c1884778cb627a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 24effb3b8c90721550ac813342965142f0e29875
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343244"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626482"
 ---
 # <a name="list-of-cdr-views"></a>Lista de vistas de CDR
  
 Las vistas proporcionan una manera sencilla de acceder a la información sobre los escenarios más comunes utilizados para devolver datos de la base de datos de CDR. Se recomienda usar vistas para crear informes personalizados en lugar de usar las tablas de base de datos cdr reales ; esto se debe a que es más probable que las vistas de base de datos mantengan la compatibilidad con versiones anteriores con versiones futuras.
   
-|**Nombre de vista**|**Description**|
+|**Nombre de vista**|**Descripción**|
 |:-----|:-----|
 |[Vista ClientVersions](clientversions-0.md) <br/> |Devuelve información sobre los dispositivos o el software del cliente utilizados en una sesión de comunicación.  <br/> |
 |[Vista ConferenceMessageCount](conferencemessagecount-0.md) <br/> |Devuelve información sobre la cantidad de mensajes enviada por usuarios en una conferencia.  <br/> |

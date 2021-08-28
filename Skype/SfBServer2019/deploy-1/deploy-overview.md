@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumen: explore estos vínculos para obtener información sobre cómo instalar y configurar Skype Empresarial Server 2019.'
-ms.openlocfilehash: 71458d532166b7877a23639955b86d15b913b9ec950b4b620c642ff1c8733725
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5a37015e9688274b53fb9b9f72b21d7ad04f150
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281513"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592154"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Implementar Skype Empresarial Server 2019
  

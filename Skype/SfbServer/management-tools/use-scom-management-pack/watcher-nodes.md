@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: Cómo instalar y configurar nodos de monitor para Skype Empresarial Server transacciones sintéticas.
-ms.openlocfilehash: 83e5fe9d6e825e7d27b590124c9f39b41ab75d10
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: c73958e9173040e7fb800fdb2d1fd36c7ab65ae1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53750826"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637015"
 ---
 # <a name="learn-how-to-install-and-configure-watcher-nodes"></a>Obtenga información sobre cómo instalar y configurar nodos de monitor
  

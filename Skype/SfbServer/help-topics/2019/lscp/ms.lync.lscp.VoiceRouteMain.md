@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 99d4d86c42534307a9f935cba81a314d33b931dd785e50c9c597a273661b49a9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 895d7f81967d1829af5ca384f84f5f4e8a7337d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277315"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591764"
 ---
 # <a name="voice-route"></a>Ruta de voz
 

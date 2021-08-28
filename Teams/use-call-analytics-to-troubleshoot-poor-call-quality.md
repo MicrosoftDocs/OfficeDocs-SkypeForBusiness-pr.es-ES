@@ -14,7 +14,7 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Use detalles de análisis de llamadas por usuario sobre dispositivos, redes y conectividad para solucionar problemas de usuario con Microsoft Teams llamadas y reuniones.
-ms.openlocfilehash: c6c95bd5fca4a5c1da84e5eedcc150242d4757adc03d309db66bbcb9fbbe0cef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 32dccd0f02c44e0da54e1c303cccfeca3fd6c624
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327376"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611509"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar análisis de llamadas para solucionar problemas de mala calidad de llamada
 

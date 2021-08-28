@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Summary: Learn about the Call List Report used in Skype Empresarial Server.'
-ms.openlocfilehash: 301ace0e4d9af8b2635f95f6c3a750c859ca1300f6f3cc277870bdac2c8cc989
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1e07eab0251218eaa66434dac6f15a6a782e10cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338128"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599009"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Informe de lista de llamadas en Skype Empresarial Server
  
@@ -75,7 +75,7 @@ En la tabla siguiente se muestra la información proporcionada en el Informe de 
   
 **Métricas de informe de lista de llamadas**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Detalles** <br/> |No  <br/> |Al hacer clic en este elemento, el informe muestra información adicional sobre la llamada.  <br/> |
 |**Caller** <br/> |Sí  <br/> |Dirección SIP de la persona que inició la llamada.  <br/> |

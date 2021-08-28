@@ -8,7 +8,7 @@ audience: Admin
 ms.reviewer: ''
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: Actualice a los usuarios de una versión de prueba de Teams Exploratory a una licencia de pago.
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d08f9363f3848a61602f00a92a98b672f999b73f13427ad014a0748a1bc0a09
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f40ddcfdd9e9491fd5d4fc7f82c77d5e5dca66f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347905"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636994"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Actualizar los usuarios de la versión de prueba de Teams Exploratory
 

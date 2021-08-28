@@ -12,18 +12,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre las diferentes formas de asignar directivas a los usuarios en Microsoft Teams.
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: deb5106ebca49644f6e3a23f607d5d1c352fc29e67c2390c39c1182d75a0bb53
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c33cfec3f0c242381ab4a3cd09b83eea02521375
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347555"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626402"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Asignar directivas a los usuarios de Microsoft Teams
 

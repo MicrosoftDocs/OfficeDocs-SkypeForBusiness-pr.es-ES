@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoGatewaySettingExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8dcd4168-60ed-4787-b6de-2b04268d6d0f
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server 2015.
-ms.openlocfilehash: 353c0aef1bd9af843dac93c28fafb6b1ef07c58b35fcb0f62b314b148a81ca34
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 373c3ad47caff08f2d74788d16d66532c689b065
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346496"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599051"
 ---
 # <a name="video-gateway-setting"></a>Configuración de puerta de enlace de vídeo
  

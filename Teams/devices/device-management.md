@@ -16,16 +16,16 @@ ms.custom:
 - ms.teamsadmincenter.managedevices.overview
 - ms.teamsadmincenter.devicemanagement.overview
 description: Obtenga información sobre cómo administrar los dispositivos que se usan Teams en su organización.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41213955c9e57829208ce0ec98448195dc266044
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 484ababae4faa4ba92594ab1afabc49e95a39156
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50350606"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637004"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Administrar sus dispositivos en Microsoft Teams
 
