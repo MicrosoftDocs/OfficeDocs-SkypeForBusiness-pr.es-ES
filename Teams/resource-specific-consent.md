@@ -9,16 +9,16 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Obtenga información sobre la configuración que necesita configurar para controlar si los propietarios de equipos de su organización pueden dar su consentimiento a las aplicaciones.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de17dcf2d070bb2cde5d8b56ddd706140714e9dac37b38ef6d6156c480add3b6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4587c17f1c6f0a6ad95f493876b456f6192f3aa0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319703"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636464"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentimiento específico de recursos en Microsoft Teams
 

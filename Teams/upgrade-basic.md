@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Siga este plan de acción acelerada de diez pasos para pasar de una configuración Skype Empresarial base a Microsoft Teams configuración.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24e13e7f1a47f993b6afc1d7e51496040c91c0ffb4ed1b0eff39ac47d62e2f3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8ccf491ed1e9ac8ee4b8bb9fbacfa2067c0e0f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300766"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636404"
 ---
 # <a name="upgrade-basic"></a>Actualizar Basic
 

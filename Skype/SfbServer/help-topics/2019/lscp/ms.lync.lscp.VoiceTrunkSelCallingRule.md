@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El cuadro de diálogo Seleccionar reglas de traducción de números de llamada muestra las reglas de traducción configuradas para su implementación. Para obtener información detallada sobre las reglas de traducción, vea los temas siguientes:'
-ms.openlocfilehash: aa0bb395fe292c4d8e12610269d192cb413ce4df1bc0ac53d35f6c150d0fb87f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 176a6cad3ff95dc62600e71342148adf2bc5b478
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294727"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593964"
 ---
 # <a name="select-calling-number-rules-translation"></a>Seleccionar traducción de reglas de números de llamada
 

@@ -10,7 +10,7 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
@@ -20,12 +20,12 @@ description: Configure eventos en directo en Teams, incluyendo configurar su red
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 30dd21b106c68aaad2760800184bc3daf4dd1741c86a19a1ce1f583186d5c3cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 81b86121aceb0b0044f8b7dca422437331803689
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282523"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636624"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configure los eventos en directo en Microsoft Teams
 

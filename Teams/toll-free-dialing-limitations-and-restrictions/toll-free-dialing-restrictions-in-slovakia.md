@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en Eslovaquia, incluida la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
-ms.openlocfilehash: 6242443e32660f8a106c5b0642076968f2f41b3f2a17096ad1fa72a062e90217
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d487f9601b1f4ea8afba817acd856922653727b8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285619"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636504"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovakia"></a>Restricciones de marcado de número gratuito en Eslovaquia
 

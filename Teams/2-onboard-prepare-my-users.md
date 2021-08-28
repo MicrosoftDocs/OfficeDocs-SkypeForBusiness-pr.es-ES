@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: Cree un plan para impulsar la adopción de los usuarios definiendo sus objetivos, entendiendo cómo es la aceptación y proporcionando formación y soporte técnico.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a98c2b847844de38608782c8feabf754ed25187d5cf4f041bcdf14a8dda8d56
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 30a844f0ecd619e609a61500ac1b845cfbbad553
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322882"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623392"
 ---
 # <a name="prepare-my-users"></a>Preparar a mis usuarios
 

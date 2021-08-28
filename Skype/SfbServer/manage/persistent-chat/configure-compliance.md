@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Resumen: obtenga información sobre cómo configurar el servicio de cumplimiento del servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: ff49a32009b60447823675b90ee4b633ff8f0cb7cfdf3529a3afc26f3c067f79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 50650c8f5c63d8d407a0660c24e82aab577e5817
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349312"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602525"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar el servicio de cumplimiento para el servidor de chat persistente en Skype Empresarial Server 2015
 

@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Resumen: lea este tema para obtener información sobre la planeación de conferencias de acceso telefónico local en Skype Empresarial Server.'
-ms.openlocfilehash: 963f8dd29cce1e086fd797b2872000ab5cb7b1c80e7c9884675f8a89c43cbebc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04d0202e9d5187e33172e8bb4c4f1e51f5563d19
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349982"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593564"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Plan for dial-in conferencing in Skype Empresarial Server
  

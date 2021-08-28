@@ -15,18 +15,18 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Use el Asesor de Teams para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: e22686ce1bda0e3721658f17e8a78250a8ed9345b2ea6e548e1c9ef3dedb29a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 68ac2ec927b1790502a8562c848f1e82f8913668
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296437"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594452"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 

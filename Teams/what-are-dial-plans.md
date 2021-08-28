@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Obtenga información sobre qué tipo de planes de llamadas de marcado (planes de marcado de llamadas RTC) están disponibles con Teams y cómo elegir uno para su organización.  '
-ms.openlocfilehash: cfe90a65fb7e1bbc0aae30cd5d0a0dc052f86cb4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 231df0f5fa5e025f81379c2736de54bcd0f353fb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234415"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594442"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 

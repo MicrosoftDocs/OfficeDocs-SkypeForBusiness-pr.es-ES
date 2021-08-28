@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddExternalApplicationNextHopPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir el próximo salto del servidor o grupo de servidores de aplicaciones de confianza, efectúe los pasos siguientes:'
-ms.openlocfilehash: e2a6b43c8f60d48182fdfb801a451ca05d310a93f81aa90ce58b30f1c03ba3fd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d6aae40e1455fea6e21b9223f6d1a607a26fff2e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302914"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593944"
 ---
 # <a name="add-nexthop-trusted-application-server"></a>Agregar servidor de aplicaciones de confianza de próximo salto
  

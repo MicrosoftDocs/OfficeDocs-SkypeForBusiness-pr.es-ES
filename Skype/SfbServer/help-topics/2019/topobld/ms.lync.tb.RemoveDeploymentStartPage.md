@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RemoveDeploymentStartPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: Ejecute el Asistente para quitar implementación únicamente si desea retirar toda la implementación. El asistente crea una topología vacía formada por un solo servidor front-end. Una vez se haya ejecutado el asistente y publicado la topología vacía, no podrá volver a la topología original.
-ms.openlocfilehash: 97f5122b791e6cf558e2f568b2c6dc42c5104496c845b3015b91b91bfa442ca2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4b56b2e48f50ebfdbb34debb4b98dfcf5fc25f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277205"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593814"
 ---
 # <a name="remove-deployment-introduction"></a>Quitar introducción de implementación
  

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 ROBOTS: NOINDEX, NOFOLLOW
 description: En Especificar grupo de solo lectura, especifique el grupo al que desee conceder acceso de solo lectura a informes de supervisión.
-ms.openlocfilehash: ce036b0026fbbb39e8a00973ab28bb6d0ff5dcf77a84826976ddc1e56fac7735
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cd411aa9edfb464adadb12ce5a6b054784097ad0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337798"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594664"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQL Server Reporting Services (grupos)
 

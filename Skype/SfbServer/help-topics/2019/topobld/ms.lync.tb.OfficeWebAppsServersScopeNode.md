@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.OfficeWebAppsServersScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: Haga clic con el botón Office servidores de aplicaciones web y seleccione Nuevo Office Web Apps Server para abrir el asistente.
-ms.openlocfilehash: 100ad2bfb8e7530659e5c74db01de2a14d6108891eb33b3d6966b9792f36309f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 85a1c45aafdcbe4f0f052df5e5ad89d34618e8a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334362"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593874"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nodo de ámbito de los servidores Office Web Apps
 

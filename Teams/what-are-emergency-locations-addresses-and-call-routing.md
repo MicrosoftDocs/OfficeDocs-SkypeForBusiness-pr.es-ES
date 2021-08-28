@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Obtenga información sobre las llamadas de emergencia, incluida la información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: 608971b330196127eb95a406b7c5330dd364e363
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 43ab5bcec3e0831e291ffc28608a1d9c270c1739
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233805"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594412"
 ---
 # <a name="manage-emergency-calling"></a>Administrar llamadas de emergencia
 

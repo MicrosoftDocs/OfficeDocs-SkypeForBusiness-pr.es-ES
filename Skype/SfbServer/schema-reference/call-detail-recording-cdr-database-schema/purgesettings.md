@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: 'La tabla PurgeSettings contiene información que especifica si los registros de detalles de llamadas obsoletos se eliminarán automáticamente de la base de datos de CDR (y, en caso de que sí, cuándo). Tenga en cuenta que la información relacionada con la depuración también se puede obtener desde dentro del Skype Empresarial Server 2015 ejecutando el siguiente comando:'
-ms.openlocfilehash: 80e8e19a8df9a6f597967a71430686fd399d9bb2e8647989a410845af5b66e0e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3f1f596bd6e8d61c491c93c3664e1f4d110ccf8b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343214"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623472"
 ---
 # <a name="purgesettings-table"></a>Tabla PurgeSettings
  

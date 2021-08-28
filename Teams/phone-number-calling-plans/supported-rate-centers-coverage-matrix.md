@@ -11,18 +11,18 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: Enumera los centros de tasas admitidos y la cobertura de planes de llamadas.
-ms.openlocfilehash: 7c294f01e84c7b846da81d1e685673ba309fd9398f0fe34513d292c01589e32a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 430d26c5a6742e63053313abdc9a2e18aadea055
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339488"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594544"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Centros de tarifas y cobertura admitidos para planes de llamadas
 

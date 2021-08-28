@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en Brasil, como la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
-ms.openlocfilehash: 24d5ed2ae333a3188e5921ad2c23f72d99c1994d77c30380cf3d09aa854a4a8a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03c2e90563bac0a22c4569418dd988ea9ceb5d6f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351730"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636594"
 ---
 # <a name="toll-free-dialing-restrictions-in-brazil"></a>Restricciones de marcado de número gratuito en Brasil
 

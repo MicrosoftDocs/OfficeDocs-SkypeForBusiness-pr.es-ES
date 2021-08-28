@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
 description: Importa la Skype for Business Edición de conector de nube de un archivo local al servidor host de Cloud Connector.
-ms.openlocfilehash: 4ac32f460c2c493f5d78f1a38adcdd0728763bbbcf57a67470823fb88d407d09
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: efcc73fd5883c61753688923d44c01e10fc74ea8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349502"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623408"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  

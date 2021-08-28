@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.AV
 - ms.lync.plan.AV
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: Skype Empresarial Server conferencia de audio y vídeo (A/V) de 2015 permite a los usuarios participar en conferencias de audio o vídeo en tiempo real.
-ms.openlocfilehash: f655f67c740f40de373d3d67a18a56f0ed935f00cf75679889cbe84ca5f08639
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7fb68bc9ca4bca4dc8f17da1b425233e7417481d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318883"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615646"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>Herramienta de planeación de audioconferencia
  

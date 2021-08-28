@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: landerl
 description: El administrador puede obtener información sobre cómo prepararse para una actualización al Microsoft Teams solo en el Microsoft Teams administrador.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da61c6fdda511375010375a785fc06c3549883bf56396fc87daaadb4472cf2af
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 95f1c33f102c76b6443e9b206ebcdf6921dff08e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312548"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636454"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 

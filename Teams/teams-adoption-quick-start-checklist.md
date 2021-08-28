@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Use esta lista de comprobación de inicio rápido para garantizar el éxito a medida que su organización empiece a adoptar Microsoft Teams.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7085716107b37d1d804d7c394aecb1472a0c75d8063aa237a9550702048e4249
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1eff8d3f830cda65e932a0884354c08e32b07ceb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316646"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594492"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Lista de comprobación para el inicio rápido de la adopción de Microsoft Teams
 

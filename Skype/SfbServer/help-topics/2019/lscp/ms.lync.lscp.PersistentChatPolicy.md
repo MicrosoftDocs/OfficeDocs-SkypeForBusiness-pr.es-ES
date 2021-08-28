@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede usar la página Directiva de chat persistente del grupo chat persistente para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o más directivas de usuario y sitio adicionales para la implementación. Si el servidor de chat persistente está habilitado para un usuario por directiva, el entorno del servidor de chat persistente aparece en su cliente.
-ms.openlocfilehash: 8d034c142dbfd07b63ec4a612970f6647e196bd025d78733a75fd80b8943467e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 05ebe66503560bdacd2f941cf08273031ddf744d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291618"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594674"
 ---
 # <a name="persistent-chat-policy"></a>Directiva de chat persistente
 

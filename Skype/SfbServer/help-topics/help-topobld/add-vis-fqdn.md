@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVisFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e868ae2-57d9-449f-85be-6133c0cbd4f6
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server 2015.
-ms.openlocfilehash: 28ebf9d2774caf659747f3b17ad312562b48b0ba716a415737a424d0ec94b9fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2269eb363141353bd7eef9a410f9a910cb7ddc7e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341965"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602595"
 ---
 # <a name="add-vis-fqdn"></a>Agregar FQDN de VIS
  

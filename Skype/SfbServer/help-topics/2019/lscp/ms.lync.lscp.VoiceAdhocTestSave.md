@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede usar el cuadro de diálogo Información para guardar caso de prueba de enrutamiento de voz para guardar un caso de prueba de enrutamiento de voz temporal. En Información para guardar caso de prueba de enrutamiento de voz, escriba el nombre que desee dar a este caso de prueba en Nombre y, a continuación, haga clic en Aceptar.
-ms.openlocfilehash: 09184f5f74bd509ed2e7cd37af48c0e45c19062a7e98bc02726047c66e28bbf9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1089a3666c153a6d51701087a9f065f662c859ce
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328585"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594654"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Guardar información de caso de prueba de enrutamiento de voz
  

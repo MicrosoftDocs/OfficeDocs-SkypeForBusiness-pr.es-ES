@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad de servicios gratuitos en los que el servicio gratuito está disponible. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: be68ecb8027efda096252c3395ab95871a2c4cb158c3845296764ab3134c3d5d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c732b4ef407cb2dfcb101c8c5bc5f1c079d079b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296457"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636584"
 ---
 # <a name="toll-free-dialing-restrictions-in-serbia"></a>Restricciones de marcado de número gratuito en Serbia
 

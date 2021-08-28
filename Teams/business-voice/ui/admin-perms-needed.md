@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -16,12 +16,12 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFO
-ms.openlocfilehash: 23fdfe702d4ae776893368838332ce4747463e0bfc15938c418f076279d8bf74
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f874669ec3961d1ec526d321b1704a384b9e15c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299437"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623352"
 ---
 # <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>Permisos de administrador necesarios para comprar Microsoft 365 Business Voice
 
