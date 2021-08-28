@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Obtenga información sobre cómo usar NDI en Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a9eed33ba105584379f207697c27e8d6bd6cde5
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.openlocfilehash: 9a82174fd09106f623bcf0f9a03a99c2978253ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359187"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615116"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Use la tecnología ® NDI en Microsoft Teams
 

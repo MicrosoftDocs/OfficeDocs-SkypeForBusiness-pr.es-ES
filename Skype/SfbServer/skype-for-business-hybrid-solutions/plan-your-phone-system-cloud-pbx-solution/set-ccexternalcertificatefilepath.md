@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: El cmdlet Set-CcExternalCertificateFilePath especifica la ruta de acceso donde se almacena el certificado para el servidor de mediación o el servidor perimetral.
-ms.openlocfilehash: 7b9b494b27f3ed05dd1ef1cdb91bd583abf2d2b391f1a49c0b2615fd3485187c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8555d3a3c6770481e1a66f79fd4a1060d3d9936
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344569"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615526"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
@@ -71,7 +71,7 @@ El certificado para el servidor de mediación es necesario si se usará TLS entr
 
 |**Parámetro**|**Required**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| Target <br/> | Obligatorio <br/> |System.String  <br/> |Tipo de ruta de acceso de archivo solicitada. Los tipos incluyen:  <br/> EdgeServer (predeterminado)  <br/> MediationServer  <br/> |
+| Objetivo <br/> | Obligatorio <br/> |System.String  <br/> |Tipo de ruta de acceso de archivo solicitada. Los tipos incluyen:  <br/> EdgeServer (predeterminado)  <br/> MediationServer  <br/> |
 |Importar  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Indica que el certificado debe importarse al servidor de mediación. Este parámetro no es necesario si implementa un dispositivo por primera vez. El parámetro es necesario si desea cambiar el certificado existente en una versión ya implementada.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada

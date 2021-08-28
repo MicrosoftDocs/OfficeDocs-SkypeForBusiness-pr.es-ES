@@ -15,13 +15,13 @@ f1keywords: ''
 description: Obtenga información sobre cómo comprar aplicaciones de terceros para Teams en el Microsoft Teams de administración.
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: c87b81fecd1e6624f8c36b1eebbe74a79994b7db
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: medium
+ms.openlocfilehash: da917d2c58282554e3e2a68464cea1f2249bd324
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235195"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616186"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicaciones de terceros para Teams
 

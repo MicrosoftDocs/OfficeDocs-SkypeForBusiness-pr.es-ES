@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: En este tema se resaltan las opciones de configuración que debe tener en cuenta antes de implementar Skype Empresarial Server servidor perimetral de 2019. Los procesos de implementación y configuración de Skype Empresarial Server 2019 son muy similares a Skype Empresarial Server 2015. En esta sección solo se detallan los aspectos clave que hay que considerar al implementar el grupo piloto. Para obtener pasos detallados, vea Deploying external user access in Skype Empresarial Server 2019 en la documentación sobre implementación, que describe el proceso de implementación y también proporciona información de configuración para el acceso de usuarios externos.
-ms.openlocfilehash: 24202bc84be67453eeff321b268f44769d5b11a8eafcd6d93098db7c7b8537fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315086"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615014"
 ---
 # <a name="deploy-pilot-edge-server"></a>Implementar el servidor perimetral piloto
 

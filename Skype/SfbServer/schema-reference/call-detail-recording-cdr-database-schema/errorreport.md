@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: La tabla ErrorReport almacena información sobre los errores que se han producido. Cada registro representa la aparición de un error. Los errores se capturan con el agente del CDR que se ejecuta en el servidor front-end o los envía el cliente.
-ms.openlocfilehash: 1cac143f50e361598c7985aa585485bd73c9aa79d3b47bd21fb0b70e75b9377e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d2fccd6f1f99884e9d4412cb9814f24d581248a5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634184"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>Tabla ErrorReport en Skype Empresarial Server 2015
  
@@ -34,7 +34,7 @@ La tabla ErrorReport almacena información sobre los errores que se han producid
 |**ConferenceUriId** <br/> |Entero  <br/> |Externo  <br/> |URI de conferencia relacionado con el error. Vea la [tabla ConferenceUris de Skype Empresarial Server 2015](conferenceuris.md) para obtener más información. Normalmente, si ConferenceUriId no es null, FromUserId o ToUserId serán null. <br/> |
 |**SessionIdTime** <br/> |datetime  <br/> |Externo  <br/> |Se usa junto con **SessionIdSeq** para identificar una sesión de manera exclusiva. Vea la [tabla Cuadros de diálogo de Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
 |**SessionIdSeq** <br/> |Entero  <br/> |Externo  <br/> |Número con el que se identifica la sesión. Se usa en combinación con **SessionIdTime** para identificar de forma única una sesión. Vea la [tabla Cuadros de diálogo de Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
-|**SourceId** <br/> |Entero  <br/> |Externo  <br/> |Servidor que envió el informe de error (si el informe se envía desde un componente de servidor). Vea la [tabla Servidores para](servers.md) obtener más información. <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**Proveniente** <br/> |Entero  <br/> |Externo  <br/> |Servidor que envió el informe de error (si el informe se envía desde un componente de servidor). Vea la [tabla Servidores para](servers.md) obtener más información. <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
 |**ApplicationId** <br/> |Entero  <br/> |Externo  <br/> |Servidor que envió el informe de error (si el informe se envía desde un componente de servidor). Vea la [tabla Application en Skype Empresarial Server 2015](application.md) para obtener más información. <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
 |**MsDiagHeader** <br/> |imagen  <br/> | <br/> |Más información sobre el error.  <br/> Estos datos pueden convertirse en formato de texto con esta sintaxis:  <br/>  `cast(cast(Detail as varbinary(max)) as varchar(max))` <br/> |
 |**ClientVersionId** <br/> |Entero  <br/> |Externo  <br/> |La versión de cliente del extremo que envía el informe de errores. Vea la [tabla ClientVersions en Skype Empresarial Server 2015](clientversions.md) para obtener más información. <br/> |

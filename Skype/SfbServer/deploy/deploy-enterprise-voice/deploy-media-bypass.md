@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Implementar la omisión de medios en Skype Empresarial Server Telefonía IP empresarial. Incluye requisitos previos y lista de comprobación del proceso de implementación.
-ms.openlocfilehash: 35b6ec05fe1ca410b51cf9d573e003774904d875182d195d8d221e45be42b9bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34294db2709de56d77ecd1365deac57ad94a86d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322462"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617036"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>Implementar la omisión de medios en Skype Empresarial Server
  

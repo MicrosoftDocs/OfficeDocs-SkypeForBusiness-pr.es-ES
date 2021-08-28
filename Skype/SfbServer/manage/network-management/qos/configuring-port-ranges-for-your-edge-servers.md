@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: En este artículo se describe cómo configurar intervalos de puertos para servidores perimetrales y cómo configurar una directiva de calidad de servicio para los servidores perimetrales A/V.
-ms.openlocfilehash: 076f7bd6f3118155eeed6a03268326247394e2b7
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9e9ec2e3f6aff938866655f3534b2a45ab77f726
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232645"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634284"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores perimetrales en Skype Empresarial Server
 

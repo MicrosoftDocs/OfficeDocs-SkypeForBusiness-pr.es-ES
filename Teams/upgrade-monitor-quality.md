@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: El administrador puede obtener información sobre las tareas y actividades necesarias para supervisar la calidad y el uso de Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f082f0fdfe7217025a8b9124e4445f35168ffeb413e14ed68a1c9af098ab4bfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b4bb596cd7903ec7ff9afdecac1436b4b4e2653c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345977"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633944"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 

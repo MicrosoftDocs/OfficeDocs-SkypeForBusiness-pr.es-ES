@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Uno de los primeros pasos necesarios para la migración a Skype Empresarial Server 2019 es implementar un grupo piloto. El grupo piloto es donde se prueba la coexistencia Skype Empresarial Server 2019 con la implementación heredada. La coexistencia es un estado temporal que dura hasta que se han movido todos los usuarios y grupos a Skype Empresarial Server 2019.
-ms.openlocfilehash: d7e02d1cb921f973d8851cfc3c8bbff0f3e81aa92f1945584ee94fa59a45e9ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e69e42e95ce7d13d8da88e91d6f1c266d7449f7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279608"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614994"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Implementar Skype Empresarial Server grupo piloto de 2019
 

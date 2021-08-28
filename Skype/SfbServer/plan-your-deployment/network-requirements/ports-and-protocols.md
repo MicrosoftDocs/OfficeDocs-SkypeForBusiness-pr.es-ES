@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumen: revise las consideraciones de uso del puerto antes de implementar Skype Empresarial Server.'
-ms.openlocfilehash: d2e3cf07dbdf7471cd1e2f535d619e8bece74ecc0a9f9e16d416b7cba46548c1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4e991d816ea00a51260b16d7af4cbe7e3f326688
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352628"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615586"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de puerto y protocolo para servidores
  

@@ -10,18 +10,18 @@ audience: admin
 description: Use este script de PowerShell para restablecer la configuración de inicio automático en Teams por usuario.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba0231e9cb8923dbd7243c9c2f54c552cacec596bf8bcd086f9b249f9bc1f5e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a0ffe1db589541e3e4301dd81f95546615be2db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301046"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634024"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Ejemplo de script de PowerShell: restablecer la configuración de inicio automático en Teams
 

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatMachinesExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede activar o desactivar un servidor de chat persistente o un grupo de servidores de chat persistente implementados mediante los servidores o grupos de servidores enumerados en Configuración de estado de la máquina. Seleccione un servidor o grupo de servidores en la lista y haga clic en el botón Hacer activo para establecer un servidor o grupo como activo.
-ms.openlocfilehash: 194555bd15b1142adb7035382d2cb57fc1b3e61f585a870a2ba2384353342ff1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2d1d179ed5f50bb6aea7e884dd3836e4430e2b89
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320742"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633864"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expansor de equipos de chat persistente
 

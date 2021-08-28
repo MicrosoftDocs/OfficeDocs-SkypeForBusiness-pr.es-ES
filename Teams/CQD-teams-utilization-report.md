@@ -14,14 +14,14 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Use los Teams de uso Power BI para obtener acceso Microsoft Teams datos del Panel de calidad de llamadas (CQD) para realizar un seguimiento Microsoft Teams uso en su organización.
-ms.openlocfilehash: e32d321383621b4a961856ad091ba0497e41d7b27fa32925987a8bb093c7fc91
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e026f2b6b2b5e04d98dbf14582e5ce1ffc7f5007
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352508"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616296"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Ver Microsoft Teams uso en Power BI con datos CQD
 

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Obtenga información sobre el plan de jubilación de Skype Empresarial Online y cómo Microsoft está ayudando a los clientes a migrar a Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 53eada98b5a52e5e943731e0037a064f37e50bd2
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 46bdd1c8e045d7046850cf7178e5682bc686b29d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372030"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615186"
 ---
 # <a name="skype-for-business-online-retirement"></a>Retirada de Skype Empresarial Online
 

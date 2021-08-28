@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en China norte, incluida la disponibilidad, la disponibilidad de la red móvil o por cable o fija, y las restricciones.
-ms.openlocfilehash: c30a0225e552f669300b9f087002712bbe89a986c89693b6431ba7f56c5e04a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3321bbf265dfab584236c298cc4e5d03f877aa68
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310439"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615176"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>Restricciones de marcado de número gratuito en China - Norte (intervalo 10 800 714 XXXX)
 

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Resumen: lea este tema para obtener información sobre categorías, salas de chat y roles de usuario y administrador para el servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: 9724daf78114ede5d46ae690f2ab41cc36c170d2dd73c3664718e7ac4bb995f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3740702f43ae677ef451049bfce2a4497a0b992
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352608"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615566"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Categorías de chat persistente, salas de chat y roles de usuario en Skype Empresarial Server 2015
  
@@ -60,7 +60,7 @@ Además de los miembros permitidos y denegados para las categorías, también pu
     > [!IMPORTANT]
     > En caso de que el administrador también sea autor en otra categoría, estará autorizado a cambiar la categoría a otra en la que esté autorizado a crear salones de chat. 
   
-- **Miembro:** usuarios que son miembros de un salón de chat. Estos usuarios pueden ver los salas de chat en el directorio (incluso si el salón de chat es secreto), así como suscribirse al salón de chat (incluidas las opciones de metadatos como mensajes no leídos, filtros de ego y filtros de palabras clave) y participar en el salón de chat (puede publicar, a menos que la sala sea una sala de auditorio donde solo los presentadores puedan publicar , obtener contenido y buscar). Los usuarios que no son miembros del salón de chat pueden buscar el salón de chat si están en la lista Miembros permitidos de la categoría, pero necesitan solicitar acceso para unirse a estos salón de chat para acceder al contenido. (No hay acceso a solicitudes ni aprobaciones integradas en el sistema; estas se realizan externamente por correo electrónico, teléfono u otras formas de contacto).
+- **Miembro:** usuarios que son miembros de un salón de chat. Estos usuarios pueden ver los salas de chat en el directorio (incluso si el salón de chat es secreto), así como suscribirse al salón de chat (incluidas las opciones de metadatos como mensajes no leídos, filtros de ego y filtros de palabras clave) y participar en el salón de chat (puede publicar, a menos que la sala sea una sala de auditorio donde solo los presentadores puedan publicar,  obtener contenido y buscar). Los usuarios que no son miembros del salón de chat pueden buscar el salón de chat si están en la lista Miembros permitidos de la categoría, pero necesitan solicitar acceso para unirse a estos salón de chat para acceder al contenido. (No hay acceso a solicitudes ni aprobaciones integradas en el sistema; estas se realizan externamente por correo electrónico, teléfono u otras formas de contacto).
     
 - **Moderador**: usuarios que pueden publicar contenido en un salón de auditorio.
     

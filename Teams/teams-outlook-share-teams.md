@@ -7,19 +7,19 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kblevens
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre la característica Compartir Teams, que permite a los usuarios compartir correos electrónicos y datos adjuntos de correo electrónico desde Outlook a cualquier chat o canal en Teams.
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 073f5ecf262d51853aecf14f982af144434791b19be617887f4ac788f11b301c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ebbfeecf72be2d042e3686d11be98d3343a3d5f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312508"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633984"
 ---
 # <a name="share-to-teams-from-outlook"></a>Compartir a Teams desde Outlook
 

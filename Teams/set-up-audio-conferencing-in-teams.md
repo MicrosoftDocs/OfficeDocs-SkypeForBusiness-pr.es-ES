@@ -16,19 +16,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Obtenga información acerca de cómo configurar las conferencias de acceso telefónico local o de audio para las personas de su empresa que necesitan usar un teléfono para unirse a llamadas de conferencia. '
-ms.openlocfilehash: 9045ae734eabdbb38af812610348f2e915b5a07ab481799215824f524b5ed756
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13cbbf8b8295886cec937091abd3b5a0d378f05e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332562"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615216"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar audioconferencias en Microsoft Teams
 

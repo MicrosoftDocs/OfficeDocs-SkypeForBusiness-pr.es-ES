@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Resumen: lea este tema para obtener información sobre la planeación de capacidad para el servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: 3b21ce2fdcb05101fb5a3fe1641e766003733fb7675331dbb12c273b1c44d7e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 430bceb547be9208348d61dc919ddb463f2d5ca2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334841"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615576"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planeación de capacidad para el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -70,17 +70,17 @@ La siguiente tabla de ejemplo puede ayudarle a planear la administración del ac
 ||**Salas de chat pequeñas**|**Salas de chat medianas**|**Salas de chat grandes**|**Total**|
 |:-----|:-----|:-----|:-----|:-----|
 |Tamaño de los salas de chat (número de usuarios conectados)  <br/> |30 por sala  <br/> |150 por sala  <br/> |16 000 por sala  <br/> ||
-|Salones de chat  <br/> |32,000  <br/> |1,067  <br/> |10   <br/> |33,077  <br/> |
-|% de salas que son auditorio  <br/> |1%  <br/> |1%  <br/> |50 %  <br/> ||
-|% de salas que están abiertas  <br/> |3%  <br/> |3%  <br/> |50 %  <br/> ||
+|Salones de chat  <br/> |32,000  <br/> |1,067  <br/> |10  <br/> |33,077  <br/> |
+|% de salas que son auditorio  <br/> |1%  <br/> |1%  <br/> |50 %  <br/> ||
+|% de salas que están abiertas  <br/> |3%  <br/> |3%  <br/> |50 %  <br/> ||
 |Salas abiertas (sin pertenencia explícita)  <br/> |960  <br/> |32  <br/> |5   <br/> |997  <br/> |
 |Salas no abiertas (salas regulares con pertenencia explícita)  <br/> |31,040  <br/> |1.035  <br/> |5   <br/> |32,080  <br/> |
 |Salas de auditorio (entrada de presentadores adicionales)  <br/> |0  <br/> |32  <br/> |5   <br/> ||
-|Salas administradas por pertenencia directa  <br/> |50 %  <br/> |10%  <br/> |0 %  <br/> ||
-|Salas administradas por grupos de usuarios  <br/> |50 %  <br/> |90 %  <br/> |100 %  <br/> ||
+|Salas administradas por pertenencia directa  <br/> |50 %  <br/> |10%  <br/> |0 %  <br/> ||
+|Salas administradas por grupos de usuarios  <br/> |50 %  <br/> |90 %  <br/> |100 %  <br/> ||
 |Grupos de usuarios en la lista de pertenencia de cada salón de chat para salas abiertas (no especificada explícitamente)  <br/> |0  <br/> |0  <br/> |0  <br/> ||
 |Usuarios de la lista de miembros de cada salón de chat para salas no abiertas  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|Grupos de usuarios en la lista de pertenencia de cada salón de chat para salas no abiertas  <br/> |3  <br/> |5   <br/> |10   <br/> ||
+|Grupos de usuarios en la lista de pertenencia de cada salón de chat para salas no abiertas  <br/> |3   <br/> |5   <br/> |10  <br/> ||
 |Usuarios y grupos de usuarios en la lista de administradores de cada salón de chat (para salas abiertas y no abiertas)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
 |Usuarios y grupos de usuarios en la lista de presentadores de cada salón de chat de auditorio (para salas abiertas y no abiertas)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
 |Entidades de pertenencia basadas en usuarios en todas las salas no abiertas  <br/> |465,600  <br/> |15,520  <br/> |-  <br/> ||
@@ -89,8 +89,8 @@ La siguiente tabla de ejemplo puede ayudarle a planear la administración del ac
 |Usuarios y entidades de administrador basadas en grupos de usuarios en todas las listas de administradores de salas de chat  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
 |Usuarios activos por salón de chat  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
 |Salas de chat por usuario  <br/> |12   <br/> |2  <br/> |2  <br/> |16   <br/> |
-|Grupos de usuarios en la lista de pertenencia de cada salón de chat  <br/> |10   <br/> |10   <br/> |15  <br/> ||
-|Salas administradas por grupos de usuarios  <br/> |50 %  <br/> |50 %  <br/> |50 %  <br/> ||
+|Grupos de usuarios en la lista de pertenencia de cada salón de chat  <br/> |10  <br/> |10  <br/> |15   <br/> ||
+|Salas administradas por grupos de usuarios  <br/> |50 %  <br/> |50 %  <br/> |50 %  <br/> ||
 |Entidades de pertenencia basadas en grupos de usuarios en todos los salón de chat  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
 |Entidades de pertenencia basadas en usuarios en todos los salón de chat  <br/> |465,600  <br/> |77,600  <br/> |72,000  <br/> ||
 |Usuarios y grupos de usuarios en las listas de administrador, moderador y ámbito de cada salón de chat  <br/> |6   <br/> |6   <br/> |6   <br/> ||
@@ -127,7 +127,7 @@ Los datos de ejemplo de la tabla  siguiente suponen que, en la página  Configur
 ||**Salas de chat pequeñas**|**Salas de chat medianas**|**Salas de chat grandes**|**Total**|
 |:-----|:-----|:-----|:-----|:-----|
 |Usuarios que pueden acceder al salón de chat  <br/> |30 por sala  <br/> |150 por sala  <br/> |16 000 por sala  <br/> ||
-|Porcentaje de salas que tienen invitaciones  <br/> |50 %  <br/> |50 %  <br/> |50 %  <br/> ||
+|Porcentaje de salas que tienen invitaciones  <br/> |50 %  <br/> |50 %  <br/> |50 %  <br/> ||
 |Salas de chat configuradas para enviar invitaciones  <br/> |16,000  <br/> |533  <br/> |5   <br/> ||
 |Usuarios que pueden acceder al salón de chat  <br/> |60  <br/> |225  <br/> |16,000  <br/> ||
 |Invitaciones generadas por el servidor de chat persistente  <br/> |960,000  <br/> |120,000  <br/> |80,000  <br/> |1,160,000  <br/> |
@@ -136,7 +136,7 @@ Los datos de ejemplo de la tabla  siguiente suponen que, en la página  Configur
 |Tasa de chat por sala (por día)  <br/> |50  <br/> |500  <br/> |100  <br/> |650  <br/> |
 |Tasa de chat (por segundo) en todas las salas  <br/> |55.56  <br/> |18.52  <br/> |0.03  <br/> |74  <br/> |
 |Modelo 2: empezar con el número de mensajes publicados por usuario y día  <br/> |||||
-|Tasa de chat por usuario y día  <br/> |15  <br/> |5   <br/> |0.1  <br/> |20  <br/> |
+|Tasa de chat por usuario y día  <br/> |15   <br/> |5   <br/> |0.1  <br/> |20  <br/> |
 |Tasa de chat por sala (por día)  <br/> |38  <br/> |375  <br/> |800  <br/> |1,213  <br/> |
 |Tasa de chat (por segundo) en todas las salas  <br/> |41.67  <br/> |13.89  <br/> |0.28  <br/> |56  <br/> |
    
@@ -156,7 +156,7 @@ En la tabla siguiente se describe el modelo de usuario para el servidor de chat 
 |Número total de salas de chat  <br/> |33,077  <br/> |
 |Número de salas de chat pequeñas  <br/> |32,000  <br/> |
 |Número de salas de chat medianas  <br/> |1,067  <br/> |
-|Número de salas de chat grandes  <br/> |10   <br/> |
+|Número de salas de chat grandes  <br/> |10  <br/> |
 |Número total de salas de chat por usuario  <br/> |16   <br/> |
 |Número de salas de chat pequeñas por usuario  <br/> |12   <br/> |
 |Número de salas de chat medianas por usuario  <br/> |2  <br/> |
@@ -167,9 +167,9 @@ En la tabla siguiente se describe el modelo de usuario para el servidor de chat 
 |Tasa de chat para salas de chat pequeñas  <br/> |22.22/segundo  <br/> |
 |Tasa de chat para salas de chat medianas  <br/> |1,67/segundo  <br/> |
 |Tasa de chat para salas de chat grandes  <br/> |~0,15/segundo  <br/> |
-|Porcentaje de salas de chat configuradas para invitaciones  <br/> |50 %  <br/> |
-|Porcentaje de pertenencias directas  <br/> |50 %  <br/> |
-|Porcentaje de pertenencias a grupos  <br/> |50 %  <br/> |
+|Porcentaje de salas de chat configuradas para invitaciones  <br/> |50 %  <br/> |
+|Porcentaje de pertenencias directas  <br/> |50 %  <br/> |
+|Porcentaje de pertenencias a grupos  <br/> |50 %  <br/> |
 |Promedio de afiliaciones antecesoras en servicios de dominio de Active Directory  <br/> |100 - 200  <br/> |
 |Número de contactos suscritos por usuario  <br/> |80  <br/> |
 |Número medio de puntos de conexión por usuario  <br/> |1,5  <br/> |

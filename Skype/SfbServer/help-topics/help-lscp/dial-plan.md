@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceDialPlanMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: c2e78d1de6b5834f096898dc567dc9839c6f6e02d5e30057b285a948a6d741ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ba3b74ac35b104a3fec7f9bb172dbac35e7931c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348295"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633794"
 ---
 # <a name="dial-plan"></a>Plan de marcado
 

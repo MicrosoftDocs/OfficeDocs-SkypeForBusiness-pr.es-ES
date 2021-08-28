@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar plantillas generales de equipo para crear estructuras de equipo proporcionando configuraciones predefinidas, canales y aplicaciones preinstaladas con el Centro de administración.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c68e3efd00e0f9204f507b4c63977837076bb3beb75a958a0629f1e5da64f69e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3427a14da3d994b10bf8d83f5d03f76769401670
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344033"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634054"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Usar plantillas generales de equipo en el Centro de administración
 

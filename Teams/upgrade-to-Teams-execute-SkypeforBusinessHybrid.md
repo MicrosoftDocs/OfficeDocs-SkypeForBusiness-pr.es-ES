@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Obtenga información sobre cómo actualizar su organización Microsoft Teams desde una Skype Empresarial implementación híbrida.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21e95d66ca0539c1e041123b082ce38c8b213fea9f9dc147ca42b8209f49935f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cc79cb570a92ac59bc820b8e10d750d9d926f287
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316616"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615136"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Actualizar de una Skype Empresarial híbrida a Teams
 

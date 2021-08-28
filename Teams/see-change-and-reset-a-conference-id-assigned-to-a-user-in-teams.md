@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo asignar un id. de conferencia a un usuario en Microsoft Teams y cuáles deben ser los parámetros de id. de conferencia.
-ms.openlocfilehash: 3086ff06d2a59028fd8b7c41aea8819cea733179e4596b036dc54d5eba927c91
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0faf91af7cf52dd620015e9ccc772a97f6964cb1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323962"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634034"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Ver y restablecer un id. de conferencia asignado a un usuario en Microsoft Teams
 
@@ -43,7 +43,7 @@ Se enviará un correo electrónico al usuario con el Id. de conferencia y los n�
 
 ### <a name="to-view-the-conference-id"></a>Para ver el id. de conferencia
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, haga clic **en Usuarios** y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 

@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 description: El nuevo Skype Empresarial de informes del Centro de administración muestra la actividad de llamadas y audioconferencias en su organización. Le permite explorar en profundidad los informes para proporcionar información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles de uso de RTC de audioconferencia, incluido el costo de la llamada para que pueda comprender los detalles de facturación de llamadas y uso para determinar el uso dentro de su organización.
-ms.openlocfilehash: 511065a4371ae4f9521022a27c2fdf6804736d48ccc807ee1d3aa0d0148fe3a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 313b6e7528604cfca3b7d7b4a66986337617afa0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300446"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614910"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 

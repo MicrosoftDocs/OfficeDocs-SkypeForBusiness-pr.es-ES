@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Obtenga información sobre el enlace troncal SIP en Skype Empresarial Server Telefonía IP empresarial
-ms.openlocfilehash: 8254df8366fdbfd03dd5ad0aa2f3253e5f4284b8248d26b131f056d28714bd77
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a27967f322db816285db100696fa061f339e9f71
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289738"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634204"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Enlace troncal SIP en Skype Empresarial Server
 

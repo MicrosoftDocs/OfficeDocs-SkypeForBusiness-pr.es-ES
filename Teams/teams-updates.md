@@ -9,7 +9,7 @@ audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
 description: Este tema es una lista de Microsoft Teams de ayuda que se han actualizado recientemente, incluidos vínculos a los temas actualizados.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eb0ed3ad4e01cf0ffab4483799cebd03b749e0a3e0f28aa925175c716b4a490b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6bc80d24c275188fb0b81a21c655aea4d7635a87
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346097"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616176"
 ---
 # <a name="microsoft-teams-content-updates"></a>Microsoft Teams actualizaciones de contenido
 

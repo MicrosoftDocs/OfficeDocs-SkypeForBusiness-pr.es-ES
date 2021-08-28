@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Cada registro representa una sesión punto a punto, que puede ser una llamada de teléfono de VoIP a VoIP, una sesión de mensajería instantánea entre dos partes o cualquier otro tipo de sesión. Puede realizar una combinación de tabla con la tabla Multimedia para encontrar los detalles de cada medio implicado en esta sesión.
-ms.openlocfilehash: eb47c87be69bfc9308c8c641c54a2173ba2ed03eeae7f7543ce6a5cbb97f7092
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 830e6e2266d77487848c4e49daeaa8462460c2dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284490"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615516"
 ---
 # <a name="sessiondetails-table"></a>Tabla SessionDetails
  

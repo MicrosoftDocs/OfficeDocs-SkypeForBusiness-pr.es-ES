@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lea las preguntas más frecuentes (PREGUNTAS FRECUENTES) y las respuestas Microsoft Teams panel de calidad de llamadas (CQD).
-ms.openlocfilehash: a733abb5f1fb41e149dd0801b5e25dd1bf948bf6
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+ms.openlocfilehash: 11b7691596192dbc96cd9deb7a0b64e363f6af4b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58339858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616306"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Preguntas más frecuentes (PREGUNTAS FRECUENTES) del Panel de calidad de llamadas (CQD)
 

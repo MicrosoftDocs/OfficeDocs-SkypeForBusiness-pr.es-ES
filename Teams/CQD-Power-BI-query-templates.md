@@ -14,14 +14,14 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Use Power BI para analizar datos CQD para Microsoft Teams.
-ms.openlocfilehash: 7314a0fb4a5bd1058e2270a3302e165eacc05d07dca4ebcc599a75aed687cd74
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67e6c8750d064c8472865a22f1367d297fd4fee5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286239"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616326"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Use Power BI datos CQD para Microsoft Teams
 

@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumen: obtenga información sobre cómo migrar la configuración de usuario y mover usuarios a Teams.'
-ms.openlocfilehash: 1b5a2f909a05ffd30902ca4ca32dc5b5621b3013e779cece3f0ffcd2dada731e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef1de7002bd3c757a9a08f3cbf8414a9cd4c32d9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324709"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614974"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover usuarios locales a Microsoft Teams
 
@@ -118,7 +118,7 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 De forma predeterminada, el valor de DownloadTeams es True; sin embargo, *solo se respeta* si NotifySfbUser = True para un usuario determinado.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Move-CsUser](/powershell/module/skype/move-csuser)
 

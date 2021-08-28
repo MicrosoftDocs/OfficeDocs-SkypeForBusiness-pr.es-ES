@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 1b1c37635abf71fef82330cba9b1749edac9f16fa7ae13bd4dbeb2274166deb2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c82cdd40eb69ea06443e06ed21ab5d613f0a220b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278228"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634074"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Planes de llamadas para Microsoft 365
 

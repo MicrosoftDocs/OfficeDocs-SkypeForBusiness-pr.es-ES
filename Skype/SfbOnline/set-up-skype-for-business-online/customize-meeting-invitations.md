@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Personalice Skype de reunión con logotipos gráficos, direcciones URL legales y de ayuda, y texto de pie de página. '
-ms.openlocfilehash: c7c642d13eb2e0ac76d4565a977faebe08c52b378f50e1e5193486002056c4ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306183"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614942"
 ---
 # <a name="customize-meeting-invitations"></a>Personalice las invitaciones a reuniones
 
@@ -43,7 +43,7 @@ Como administrador, puede asegurarse de que todas las invitaciones Skype Empresa
     
 3. Almacene la imagen en una ubicación central a la que todos los usuarios de su empresa puedan acceder, como un recurso compartido de red, una carpeta compartida OneDrive para la Empresa, Dropbox, etc.
     
-    Ahora puede añadirlo a sus invitaciones a reuniones. Vea los siguientes pasos.
+    Ahora puede añadirlo a sus invitaciones a reuniones. Vea los pasos siguientes.
     
 ## <a name="customize-your-meeting-invitations"></a>Personalice sus invitaciones a reuniones
 <a name="__top"> </a>

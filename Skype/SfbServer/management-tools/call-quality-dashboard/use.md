@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumen: obtenga información sobre cómo usar el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: a2f5cbe503f914fe32b42119397be44ab82617cddd9951ab7064a2d08c0289f4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 398550c80e77950d27be9160dd4f45c2f04acfff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317585"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634244"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Use el Panel de calidad de llamadas para Skype Empresarial Server
 
@@ -78,7 +78,7 @@ Cuando StartDate.Month se agrega como una dimensión y los datos se representan 
 
 Para que aparezcan los gráficos de barras y los minigráficos, se debe activar la casilla "Mostrar minigráficos" en la parte superior del Editor de informes. Esto selecciona la opción Tendencia y mueve Mes hacia abajo para ser la última dimensión, que también se puede lograr haciendo clic en Mes y usando las flechas arriba y abajo para desplazar StartDate.Month hacia arriba o hacia abajo.
 
-### <a name="settings"></a>Configuración
+### <a name="settings"></a>Configuraciones
 
 El menú de configuración contiene vínculos a páginas útiles como las páginas Estado del sistema y Acerca de, y se encuentra en la esquina superior derecha del panel.
 

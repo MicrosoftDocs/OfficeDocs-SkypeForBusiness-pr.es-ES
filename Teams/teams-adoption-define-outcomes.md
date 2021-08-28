@@ -14,19 +14,19 @@ ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo medir los resultados y el éxito de la habilitación a gran escala de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ef85a84c247c18528b8c13181943d970afe05d1c5c72976739b4b79a77cf8c6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0b8d55c16d900a418c11a92622619f4804876699
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332432"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634004"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir resultados y el éxito de su adopción de Microsoft Teams
 

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6acf3b86-da61-4923-9812-300db6f66dec
 description: La tabla ErrorDef almacena información sobre cada tipo de error que puede producirse. Cada registro es un tipo de error.
-ms.openlocfilehash: 428ce365de65be4d0bcd3776bfc069ffc9246fd869c54d819c6468f926c64351
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4d10e5c8a83e486fe16808a3cf5f38f7ffd15937
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344609"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615536"
 ---
 # <a name="errordef-table-in-skype-for-business-server-2015"></a>Tabla ErrorDef en Skype Empresarial Server 2015
  

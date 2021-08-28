@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Puede utilizar los procedimientos que se describen en esta sección para modificar las propiedades de cuenta de usuario individuales.
-ms.openlocfilehash: b1c3bc75a59834c63f97c9425a775d902f246b299f76318ed890d060caf7e01b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f145b1d1c0abd584a3771950d9960ccea30b85e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351530"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634254"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personalizar las propiedades de cuenta de usuario para Skype Empresarial Server
  

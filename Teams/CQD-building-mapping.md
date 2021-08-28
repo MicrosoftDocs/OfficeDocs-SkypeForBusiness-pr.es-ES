@@ -13,19 +13,19 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo crear un mapa de creación que puede usar para cargar datos de inquilino y creación en el Panel de calidad de llamadas (CQD).
-ms.openlocfilehash: fbe033511ad0c717dd79bb5d0bb5b480037175abaa9ce7e5dd40aee334094fff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a119324090d05b593eb1ed66f41efbb7a5bd7a0a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314296"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634104"
 ---
 # <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>Crear un mapa de creación para el panel de calidad de llamadas (CQD)
 
