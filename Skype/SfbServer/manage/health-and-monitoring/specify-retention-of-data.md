@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 'Summary: Learn how to manage call detail recording (CDR) data for Skype Empresarial Server.'
-ms.openlocfilehash: 3c911de717175ed825bead34ced8a73938b87ea208fe89f856b29f51e1e90872
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d79745de9e0194d52bfe3330e516b906fedf464c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317595"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593724"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Especificar la retención de datos CDR en Skype Empresarial Server
  

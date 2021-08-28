@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumen: explore estos vínculos para aprender a desarrollar diseños conceptuales, lógicos y físicos para configurar Skype Empresarial Server características, servidores y topologías de 2019.'
-ms.openlocfilehash: 68351c45d64647f3269772759d270a12fbf83279822175d2438d0ae9e9b6572a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3378c8d647230a87fe79cf28eee4614a693e7b66
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283942"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594964"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planear la implementación Skype Empresarial Server 2019
  

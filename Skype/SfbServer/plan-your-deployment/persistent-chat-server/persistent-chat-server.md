@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Resumen: lea este tema para obtener información sobre cómo planear el servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: db641945fe9dd75e7ec55241c4dc8cb7fac2279fa26fa9396f7b537ac7876c66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4bce3145c3f2e3974c2f57d75afbe297ce8d304
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351330"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623562"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planear el servidor de chat persistente en Skype Empresarial Server 2015
  

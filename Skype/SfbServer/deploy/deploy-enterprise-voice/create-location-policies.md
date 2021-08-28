@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Lea este tema para obtener información sobre cómo configurar directivas de ubicación del servicio de emergencia mejorado (E9-1-1) en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 46bd1167f573f1d43689d5d4ff145823dafa94a2ec64697e9c20a234b341619d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d601fddcb66fd5b963ab24caf3a7289a2188628b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340286"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594744"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Crear directivas de ubicación en Skype Empresarial Server
 

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Summary: Configure your primary management server, install System Center Operations Manager, and import management packs for Skype Empresarial Server 2019.'
-ms.openlocfilehash: f7fd7350cb4cf5a9697e789806c963f4fbe46636
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 4e0d8a1176beb9d5c82418b65c1a4ce67d587c6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372240"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594904"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype Empresarial Server: Configurar el servidor de administración principal
 

@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: En este artículo se describen las ventajas, consideraciones de planeación y requisitos para implementar el Correo de voz en la nube de Microsoft servicio. Para obtener información sobre cómo configurar Correo de voz en la nube, vea Configuring Correo de voz en la nube.
-ms.openlocfilehash: 7a2fea02417a271e3858adff435a2406fda8c5ae
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: df9675c7ebe36f73190240dc612ce83dd0de2263
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407169"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594874"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planeación Correo de voz en la nube servicio para usuarios locales
 
@@ -95,7 +95,7 @@ Si tiene previsto implementar Skype Empresarial Server 2019 o Exchange Server 20
 
 La interoperabilidad de versiones y las topologías admitidas para Correo de voz en la nube se enumeran en la tabla siguiente, que compara las versiones de Skype Empresarial Server en las que el usuario podría hospedarse con la versión posible que proporciona su buzón de correo Exchange. Debe usar Correo de voz en la nube si desea usar Skype Empresarial 2019 con Exchange Online o Exchange Server 2019.
 
-| Skype/Lync | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange en línea   |
+| Skype/Lync | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | Skype Empresarial Server 2019 | Exchange Server MENSAJERÍA UNIFICADA | Exchange Server MENSAJERÍA UNIFICADA | Correo de voz en la nube | Correo de voz en la nube |
 | Skype Empresarial Server 2015 | Exchange Server MENSAJERÍA UNIFICADA | Exchange Server MENSAJERÍA UNIFICADA | No admitido | Correo de voz en la nube |

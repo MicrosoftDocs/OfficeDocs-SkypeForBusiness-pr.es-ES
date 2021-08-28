@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: Obtenga información sobre Skype Empresarial Server Telefonía IP empresarial admite el enrutamiento entre troncos.
-ms.openlocfilehash: 32bb244ddc4496d3603d82c977f4f22667d19a6e29ef549ca3e6cdb72fcd67b6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e7b70ead822f9e80abf5a85a741492ec5608e8b3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286669"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593584"
 ---
 # <a name="about-inter-trunk-routing-in-skype-for-business-server"></a>Acerca del enrutamiento entre troncos en Skype Empresarial Server
  

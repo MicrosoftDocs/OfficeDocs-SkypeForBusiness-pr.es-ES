@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequest
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 description: Para obtener más información sobre cómo usar el Asistente para la implementación Skype Empresarial Server 2015, vea Install Skype Empresarial Server 2015.
-ms.openlocfilehash: 76a8bf66dee53aae95b15d9c5aa5d039cecdb5290ad2193bb0342fab5701cdb9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1329a79fa509d52967b84d7e3bdbd627406e2112
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314656"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615996"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>Asistente para la implementación: Solicitar un certificado
  

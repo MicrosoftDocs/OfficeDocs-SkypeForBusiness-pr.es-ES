@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 'Summary: Learn about the User Registration Report in Skype Empresarial Server.'
-ms.openlocfilehash: 1202c18f831c36fcc4b3ce7073b15c1ee5aa1776060cde5098b41dcb4f635130
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6424d3b0c90bf8b9286f03f7997e286b38193d6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315596"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593684"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Informe de registro de usuario en Skype Empresarial Server
  
@@ -87,9 +87,9 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
   
 **Métricas del informe de registro de usuario**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Cada hora** <br/> **Diario** <br/> **Semanal** <br/> **Mensualmente** <br/> |No  <br/> |Indica el intervalo temporal que ha seleccionado en la barra de herramientas para filtros. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si usa el intervalo Diario y hace clic en 7/7/2015, verá un desglose por hora de la actividad de registro de usuarios para esa fecha.  <br/> |
+|**Cada hora** <br/> **Diario** <br/> **Semanalmente** <br/> **Mensualmente** <br/> |No  <br/> |Indica el intervalo temporal que ha seleccionado en la barra de herramientas para filtros. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si usa el intervalo Diario y hace clic en 7/7/2015, verá un desglose por hora de la actividad de registro de usuarios para esa fecha.  <br/> |
 |**Total de inicios de sesión** <br/> |No  <br/> |Número total de sesiones de inicio correctas.  <br/> |
 |**Inicios de sesión internos** <br/> |No  <br/> |Número total de inicios de sesión en la red interna.  <br/> |
 |**Inicios de sesión externos** <br/> |No  <br/> |Número total de inicios de sesión realizados desde fuera de la red interna, por medio del servidor perimetral.  <br/> |

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumen: obtenga información sobre la compatibilidad de virtualización para Skype Empresarial Server 2019.'
-ms.openlocfilehash: 61b54a7e2d8fc170fe63137f637246f56dcce2a01dc7af0b41ea6dc5c5c56099
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3db97c5aeb2f0473b8b262f8a77e4e06af1b7d1d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334562"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594884"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>Compatibilidad con la virtualización Skype Empresarial Server 2019
 

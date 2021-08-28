@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Obtenga información sobre el control de admisión de llamadas, que puede impedir que las llamadas tengan lugar si tendrían mala calidad de medios, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: ee51e83c8c797a958ce520e0215b438927a65005d8cb1b3caf4c75793cb55f99
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 16b134e6d775d84be3fff97698d2f03ce7497c87
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306911"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623602"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planear el control de admisión de llamadas en Skype Empresarial Server
 

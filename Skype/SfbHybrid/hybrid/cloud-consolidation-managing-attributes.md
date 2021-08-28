@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: En este artículo se describe cómo administrar atributos después de retirar el entorno local.
-ms.openlocfilehash: 5f130cce4a464a2e7a7c1823d6b3d297931d02ab
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 9f78dbcfaf1c753d18cc2e85a6b209248c2feea8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365817"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636901"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Decidir cómo administrar atributos después de la retirada
 
@@ -197,7 +197,7 @@ Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que e
 12. Después de completar todos los pasos del método 2, vea Move [hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md) y Remove your [on-premises Skype Empresarial Server](decommission-remove-on-prem.md) for additional steps to remove your Skype Empresarial Server on-premises deployment.
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Consolidación de nube para Teams y Skype Empresarial](cloud-consolidation.md)
 
