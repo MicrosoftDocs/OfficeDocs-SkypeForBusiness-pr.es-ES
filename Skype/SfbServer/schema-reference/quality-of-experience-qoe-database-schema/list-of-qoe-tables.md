@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: El esquema de la base de datos incluye las tablas siguientes.
-ms.openlocfilehash: 02471ddc936c5dc0522e5ea3c9ad3c5f2859c6cd612b2618ace5d1dbe6be1078
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d6d60d06dcb6cbfdde6a4fdbbd2746d00aa8531
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351290"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601275"
 ---
 # <a name="list-of-qoe-tables"></a>Lista de tablas de QoE
  
@@ -26,7 +26,7 @@ El esquema de la base de datos incluye las tablas siguientes.
   
 **Tablas auxiliares**
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[Tabla AppSharingMetricsThreshold](appsharingmetricsthreshold.md) <br/> |Almacena los valores aceptables y óptimos para la métrica Calidad de la experiencia que se usa al compartir aplicaciones.  <br/> |
 |[Tabla CodecDescription](codecdescription.md) <br/> |Asigna identificadores de códecs únicos al códec correspondiente.  <br/> |
@@ -58,7 +58,7 @@ El esquema de la base de datos incluye las tablas siguientes.
    
 **Tablas para datos de métricas**
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[Tabla AppSharingStream](appsharingstream.md) <br/> |Almacena las métricas de Calidad de la experiencia para los flujos de red usados al compartir aplicaciones. Las métricas de calidad de la experiencia se usan al compartir aplicaciones.  <br/> |
 |[Tabla de sesión](session.md) <br/> |Almacena información general acerca de una sesión de audio o de audio/vídeo. Una sesión se define como un diálogo SIP de audio o vídeo entre dos extremos.  <br/> |
@@ -72,7 +72,7 @@ El esquema de la base de datos incluye las tablas siguientes.
    
 **Tablas para datos de resumen**
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |**Tabla ServerSummary** <br/> |Almacena datos de resumen para los servidores; estos datos se usan para los informes QoE (Calidad de la experiencia) únicamente.  <br/> |
 |**Tabla UserSummary** <br/> |Almacena datos de resumen para los usuarios; estos datos se usan para los informes QoE (Calidad de la experiencia) únicamente.  <br/> |
@@ -80,7 +80,7 @@ El esquema de la base de datos incluye las tablas siguientes.
    
 **Tablas para uso interno del servidor de supervisión**
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |**DbConfigDateTime** <br/> |Únicamente para uso interno.  <br/> |
 |**DbConfigInt** <br/> |Únicamente para uso interno.  <br/> |

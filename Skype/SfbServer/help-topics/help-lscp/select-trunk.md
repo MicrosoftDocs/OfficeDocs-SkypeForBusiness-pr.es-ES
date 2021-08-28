@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceRouteSelGateway
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 description: Use el cuadro de diálogo Seleccionar tronco para buscar un tronco existente que pueda usar.
-ms.openlocfilehash: ebfe837e6e67f060d619e74b6d1e8a1ec471478f995d00668eecee9c50ba4a5c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf0d3fc35f0fdfcd3c8bd4c1d8d14c7c58ad7602
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314616"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618896"
 ---
 # <a name="select-trunk"></a>Seleccionar tronco
  

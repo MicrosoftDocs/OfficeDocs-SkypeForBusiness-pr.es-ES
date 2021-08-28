@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Para preparar el bosque de Servicios de dominio de Active Directory, debe extender correctamente el esquema, tal como se describe en el tema Running Schema Preparation, y asegurarse de que el esquema se haya replicado.
-ms.openlocfilehash: 6b02ae0139c4ac813dd8562b237022112f76201d79e82b856e5bfe7e8d6972e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b4473eaf12133ca5f643c98778133a99a64e5a44
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309655"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619076"
 ---
 # <a name="prepare-current-forest"></a>Preparar bosque actual
 

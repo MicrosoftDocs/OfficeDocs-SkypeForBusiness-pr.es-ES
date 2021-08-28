@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserSelContact
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
 description: Use el cuadro de diálogo Seleccionar de Active Directory para buscar contactos que desee habilitar para Skype Empresarial. En el cuadro de búsqueda, escriba la dirección SIP o nombre para mostrar del contacto que desee localizar. Para recuperar todos los contactos disponibles, deje vacío el cuadro de búsqueda.
-ms.openlocfilehash: 6d6e6d402f8c9d52a984aa3dd0923a664c5963ae0a5b09ef7d35f4f8d9c44566
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c6fa948612269f84254ceed57faeb136cc9fe835
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338328"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601535"
 ---
 # <a name="select-contacts-from-active-directory"></a>Seleccionar contactos de Active Directory
  

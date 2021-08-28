@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Summary: Learn how to manage PIN policies for dial-in conferencing in Skype Empresarial Server.'
-ms.openlocfilehash: d803e7d21be9743704402e2d9532fcfee413d804296cade2e56cbb875c965361
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03f18a74045c7ea2af4ec3a80b25e65b3c2c5cb6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343444"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618846"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Administrar directivas de PIN para conferencias de acceso telefónico local en Skype Empresarial Server
  

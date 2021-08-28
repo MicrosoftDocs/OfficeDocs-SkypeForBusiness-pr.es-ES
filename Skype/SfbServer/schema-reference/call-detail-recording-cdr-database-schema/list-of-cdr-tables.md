@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: El esquema de la base de datos del registro detallado de llamadas (CDR) incluye las tablas siguientes.
-ms.openlocfilehash: 27381a95a5de2613845fa831e8730a1bc06d374ae7936eaedb31d239b3dbb0cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: acc509fc895c015ec213bd18560986b3f6d12aa7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635134"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Lista de tablas cdr en Skype Empresarial Server 2015
  
@@ -26,7 +26,7 @@ El esquema de la base de datos del registro detallado de llamadas (CDR) incluye 
   
 ## <a name="static-tables"></a>Tablas estáticas
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[Tabla CallPriorities en Skype Empresarial Server 2015](callpriorities.md) <br/> |Almacena la lista de posibles prioridades de llamada, como emergencia, urgente, normal, no urgente, etc.  <br/> |
 |[Tabla ConferenceJoinTimeThresholds en Skype Empresarial Server 2015](conferencejointimethresholds.md) <br/> |Almacena los límites de clasificación usados por el informe de resumen de hora de incorporación a la conferencia.  <br/> |
@@ -38,7 +38,7 @@ El esquema de la base de datos del registro detallado de llamadas (CDR) incluye 
    
 ## <a name="supporting-tables"></a>Tablas auxiliares
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[Tabla ClientVersions en Skype Empresarial Server 2015](clientversions.md) <br/> |Almacena los clientes (tipo de cliente y número de versión) de cada cliente que participa de una llamada con información capturada en esta base de datos.  <br/> |
 |[Tabla ConferenceUris en Skype Empresarial Server 2015](conferenceuris.md) <br/> |Almacena una lista de ConferenceURI utilizados en las llamadas de conferencia.  <br/> |
@@ -61,7 +61,7 @@ El esquema de la base de datos del registro detallado de llamadas (CDR) incluye 
    
 ## <a name="tables-specific-to-conference-cdr-records"></a>Tablas específicas de registros CDR de conferencias
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[Tabla conferencias en Skype Empresarial Server 2015](conferences.md) <br/> |Almacena información acerca de todas las conferencias que se archivaron o cuyos detalles se registraron, incluido el URI de conferencia, y la hora de inicio y de finalización.  <br/> |
 |[Tabla ConferenceSessionDetails en Skype Empresarial Server 2015](conferencesessiondetails-0.md) <br/> |Almacena información acerca de cada sesión de conferencia basada en SIP, incluida la hora de inicio y de finalización, el identificador de usuario, el código de respuesta y el identificador de diagnóstico de cada sesión.  <br/> |
@@ -70,14 +70,14 @@ El esquema de la base de datos del registro detallado de llamadas (CDR) incluye 
    
 ## <a name="tables-for-messages-in-im-conferences"></a>Tablas para mensajes de conferencias de mensajería instantánea
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[Tabla ConferenceMessageCount en Skype Empresarial Server 2015](conferencemessagecount.md) <br/> |Para cada conferencia de mensajería instantánea, almacena el número de mensajes enviados por cada usuario.  <br/> |
 |[Tabla IMReportSummary en Skype Empresarial Server 2015](imreportsummary.md) <br/> |Proporciona un informe general de las sesiones de mensajería instantánea llevadas a cabo en una organización.  <br/> |
    
 ## <a name="tables-for-peer-to-peer-sessions"></a>Tablas para sesiones punto a punto
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[Tabla SessionDetails](sessiondetails.md) <br/> |Almacena información acerca de cada sesión punto a punto, incluida la hora de inicio y de finalización, el identificador de usuario, el código de respuesta y el recuento de mensajes de cada usuario.  <br/> |
 |[Tabla FileTransfers en Skype Empresarial Server 2015](filetransfers-0.md) <br/> |Almacena información acerca de las sesiones de transferencia de archivos, incluido el nombre de archivo y el resultado (aceptado, rechazado o cancelado).  <br/> |
@@ -85,7 +85,7 @@ El esquema de la base de datos del registro detallado de llamadas (CDR) incluye 
    
 ## <a name="table-for-voip-call-details"></a>Tabla para detalles de llamadas VoIP
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[Tabla VoipDetails](voipdetails-0.md) <br/> |Para cada llamada VoIP/RTC de dos participantes, almacena información acerca de la llamada, como el identificador del teléfono VoIP, la puerta de enlace utilizada y el participante que desconectó la llamada. Hace referencia a [la tabla SessionDetails para](sessiondetails.md) las horas de inicio y finalización de llamadas y el código de respuesta. <br/> |
    
@@ -94,7 +94,7 @@ El esquema de la base de datos del registro detallado de llamadas (CDR) incluye 
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>Tabla para auditoría de llamadas E9-1-1
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[Tabla Ubicaciones en Skype Empresarial Server 2015](locations.md) <br/> |Para cada llamada de emergencia, como una llamada Enhanced 9-1-1 (E9-1-1), almacena información acerca de la ubicación de la llamada. Hace referencia a [la tabla SessionDetails para](sessiondetails.md) las horas de inicio y finalización de llamadas y el código de respuesta. <br/> |
    
@@ -103,7 +103,7 @@ El esquema de la base de datos del registro detallado de llamadas (CDR) incluye 
   
 ## <a name="tables-for-troubleshooting"></a>Tablas para solución de problemas
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[Tabla de aplicaciones en Skype Empresarial Server 2015](application.md) <br/> |Almacena información sobre varios procesos dentro de Skype Empresarial Server 2015 que participan en el enrutamiento y las conexiones.  <br/> |
 |[Tabla CallType en Skype Empresarial Server 2015](calltype.md) <br/> |Almacena información sobre los tipos de llamada, como "audio", "Mensajería instantánea", "audio y vídeo" y "uso compartido de aplicaciones".  <br/> |
@@ -116,7 +116,7 @@ Las tablas de la siguiente lista las usa internamente Skype Empresarial Server 2
   
 ## <a name="tables-for-internal-use-by-lync-server"></a>Tablas para uso interno de Lync Server
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |**DbConfigDateTime** <br/> |Únicamente para uso interno.  <br/> |
 |**DbConfigInt** <br/> |Únicamente para uso interno.  <br/> |

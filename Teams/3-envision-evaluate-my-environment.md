@@ -12,19 +12,19 @@ ms.reviewer: rowille
 description: Use personas y análisis de red para evaluar la preparación de su organización, abrir los puertos TCP y UDP correctos, realizar cualquier corrección de red.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2498d634bda4760d34b6d76762312e56ae51efe4ea08a9b42b875ac250759403
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f887916da6db1cb2412f8baa6ffacf6f74d3c5e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302094"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635094"
 ---
 # <a name="evaluate-my-environment"></a>Evaluar mi entorno
 

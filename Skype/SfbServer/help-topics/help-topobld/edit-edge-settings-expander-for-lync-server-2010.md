@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Para editar la configuración del servidor perimetral o el grupo de servidores perimetrales, configure las siguientes propiedades:'
-ms.openlocfilehash: 5b4f9e2f6b4c5b74b0c1eadb8d48bc5a4ade0375e48dfdf1ecf399032db5693e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b7784e15d7446a51dfa9aed03dd1154bba157485
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335180"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635334"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Editar expansor de configuración perimetral para Lync Server 2010
  

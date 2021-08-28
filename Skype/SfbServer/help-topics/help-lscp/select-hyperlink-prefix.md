@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ImpChooseImSchema
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Use el cuadro de diálogo Seleccionar prefijo de hipervínculo para seleccionar los tipos de hipervínculos que desee bloquear, enviar un mensaje de advertencia, o permitir seleccionando (bloquear o enviar un mensaje de advertencia) o desactivando (permitir) las casillas desde las categorías dentro de Prefijos de hipervínculo. Haga clic en la flecha para expandir una categoría y ver todos los prefijos de hipervínculo para esa categoría. Si desea seleccionar todos los prefijos de hipervínculo para una categoría, seleccione el nombre de la categoría.
-ms.openlocfilehash: ba1301bc8c659b4be4a4e8a8a0c2cf8c2c4df2d66aa337dd8853e2d2b7eaf501
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1cdbaad047fbac4f18509ec035bd2ffb2f1d15fd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330004"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619066"
 ---
 # <a name="select-hyperlink-prefix"></a>Seleccionar prefijo de hipervínculo
  

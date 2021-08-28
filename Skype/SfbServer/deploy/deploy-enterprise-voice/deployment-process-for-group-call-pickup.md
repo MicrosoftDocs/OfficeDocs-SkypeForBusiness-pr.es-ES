@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 description: Proceso de implementación y pasos para la recogida de llamadas de grupo en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: c802f36594704625258da31d18171499315f7e2f1c93020ba71ab42ebb3d97e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bd3f299e8121483cf8a6a7b332c806923a386c66
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280315"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601925"
 ---
 # <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>Proceso de implementación para la recogida de llamadas de grupo en Skype Empresarial
  

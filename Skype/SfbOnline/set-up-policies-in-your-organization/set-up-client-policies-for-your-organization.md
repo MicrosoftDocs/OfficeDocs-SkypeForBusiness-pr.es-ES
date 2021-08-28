@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: '[] Las directivas de cliente ayudan a determinar las funciones de Skype Empresarial Online que estarán disponibles para los usuarios. Por ejemplo, puede dar a algunos usuarios permiso para transferir archivos, pero no a otros.'
-ms.openlocfilehash: 5f5d0d0cb6f404c7c1bb26f763ba15a402db966fd07c4471d0d7ce115cfbf791
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5fe976e3adb566c469d2c58a5d2b6a976776ac3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282383"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619256"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Establecer directivas de cliente en su organización
 

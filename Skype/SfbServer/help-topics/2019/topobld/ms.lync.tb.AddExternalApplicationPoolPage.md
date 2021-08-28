@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddExternalApplicationPoolPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir un nombre de dominio completo (FQDN) de un grupo de aplicaciones de confianza, especifique lo siguiente:'
-ms.openlocfilehash: fa52ba0281b87c5e522403e8b88d50399128f041f52cc680c8718207b9b7f870
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0cd4a6be19c83f23d8e06d015c1b62015993d744
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302904"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601765"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>Agregar FQDN de grupo de servidores de aplicaciones de confianza
  

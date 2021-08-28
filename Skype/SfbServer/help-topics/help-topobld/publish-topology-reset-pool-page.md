@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologyResetPoolPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco se incluyen para referencia futura.
-ms.openlocfilehash: 6e942fbfdc1ea17c6c59a2aa7bf9595736afe193579a1dd134d00a5150daa8f2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7e7e4110232dd877f25e99294f868df5255886f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341935"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601485"
 ---
 # <a name="publish-topology-reset-pool-page"></a>Publicar página de grupo de servidores de restablecimiento de la topología
  

@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: En este artículo se debata sobre las consideraciones de planeación para usar Azure Monitor para administrar Salas de Microsoft Teams dispositivos en su Skype Empresarial o Teams implementación.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1cd848b6ccf963e7b21083ac65c0332f74542967
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 2808d424d79d8d2b60af0573678ee18d0a52bdeb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505418"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619366"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planear Salas de Microsoft Teams administración con Azure Monitor
  

@@ -13,14 +13,14 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Use el Microsoft Teams de enrutamiento directo RTC (CQD)) para supervisar y solucionar las llamadas RTC en Microsoft Teams.
-ms.openlocfilehash: 692247e79a951b775bdca0f13811e3480dcb8cfbb0a5e78a8f8f7b4b69f97add
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18e24690fe86bf7efd511bea674c3d3d7eba3e43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351260"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635064"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Usar el informe de enrutamiento directo RTC de CQD
 

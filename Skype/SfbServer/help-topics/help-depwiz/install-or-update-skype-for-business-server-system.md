@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainDeploySystem
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 description: Para comenzar la instalación o actualizar una implementación existente de Skype Empresarial Server 2015, haga clic en Instalar o actualizar Skype Empresarial Server. Los pasos de esta sección instalarán componentes específicos de un rol de servidor determinado, según el documento del Generador de topologías. Antes de comenzar esta serie de pasos, debe definir la implementación en el Generador de topologías. Debe iniciar sesión en el equipo que va a implementar como administrador local y como miembro del grupo Administradores de dominio en el dominio donde se encuentra el servidor. El equipo debe estar unido al dominio antes de completar este paso.
-ms.openlocfilehash: a088a700695bca1ceea05411003b48c1f6aa2ca6836d6628b84157a99c3305bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08574a5f4816eeb9a0e15a28c6e84180cf3af0e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313548"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601625"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Instalar o actualizar el sistema Skype Empresarial Server
 

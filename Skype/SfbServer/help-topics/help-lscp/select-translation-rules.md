@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTrunkSelRule
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 55776a94-4888-4436-a3b6-0e6f8252e392
 description: Enterprise Voice requiere que todas las cadenas de marcado se normalicen al formato E.164 con el objetivo de realizar la búsqueda inversa de números (RNL). El tronco (es decir, el tronco SIP, PBX o puerta de enlace asociada) puede requerir que los números estén en un formato de marcado local. Para convertir números del formato E.164 a un formato de marcado local, si lo desea, puede definir una o más reglas de conversión para manipular el URI de solicitud antes de enrutarlo a la entidad del mismo nivel que el tronco. Por ejemplo, puede escribir una regla de conversión para quitar +44 del inicio de la cadena de marcado y sustituirlo por 0144.
-ms.openlocfilehash: 15e3970b82cc0018d379133085bac7ba5fb78d835d7767557b91d1228af4c7ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8c59f3fda1f22a1d792e1c99c015ff974550c1e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287089"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618936"
 ---
 # <a name="select-translation-rules"></a>Seleccionar reglas de conversión
  

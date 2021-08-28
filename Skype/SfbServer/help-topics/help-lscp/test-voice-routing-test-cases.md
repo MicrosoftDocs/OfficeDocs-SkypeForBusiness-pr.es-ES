@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTestCaseMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 7a7c61d5a135a3a0c844c9efaa72e705dc5a6bc31abe356f427399b595c35cc2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f528ef867e8cfcc43d96830d64301ceee4623f30
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299697"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618906"
 ---
 # <a name="test-voice-routing-test-cases"></a>Probar enrutamiento de voz: Pruebas
 

@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Summary: Deploy the aplicación web de Skype Empresarial and Skype Meetings App used with Skype Empresarial.'
-ms.openlocfilehash: 2fca7600232e9293dedbe9228075470097335d5836fb77c0cb428625e809a609
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65b786cbdd999971c5825406087cd8d7f35a155e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330564"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601955"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implementar clientes descargables web en Skype Empresarial Server
 

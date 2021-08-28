@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 'Summary: Learn about the Peer-to-Peer Voice and Video Report in Skype Empresarial Server.'
-ms.openlocfilehash: 66d121965d7046a823e26bff8a14fba6ce8213690fcaa4a21ab7a31f4db9f904
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b5b9bb3ad0bed9182c41734ed6e173ae9e3febd1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324329"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601475"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Informe de voz y vídeo punto a punto en Skype Empresarial Server
  
@@ -70,7 +70,7 @@ En la tabla siguiente se muestra la información proporcionada en el informe de 
   
 **Métricas de actividad de voz y vídeo punto a punto por grupo**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Grupo** <br/> |No  <br/> |Nombre del grupo de registradores o servidor perimetral usado para la llamada.  <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Período de fecha y hora en el que se realizó la llamada.  <br/> |
@@ -82,7 +82,7 @@ En la tabla siguiente se muestra la información proporcionada en el informe de 
   
 **Métricas de actividad de voz y vídeo punto a punto por tipo de llamada**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Tipo de llamada** <br/> |No  <br/> | Indica el tipo de llamada que se realizó. Los valores son uno de los siguientes: <br/>  UC a UC <br/>  UC a RTC <br/>  RTC a UC <br/>  RTC a RTC <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Período de fecha y hora en el que se realizó la llamada.  <br/> |
@@ -94,7 +94,7 @@ En la tabla siguiente se muestra la información proporcionada en el Informe de 
   
 **Métricas de actividad de voz y vídeo punto a punto por tipo de acceso**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Tipo de actividad** <br/> |No  <br/> | Indica si los clientes iniciaron sesión en la red interna o en la red externa cuando se inició la llamada. Los valores suelen ser los siguientes: <br/>  Interno <br/>  Externo <br/>  Mixtos <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Período de fecha y hora en el que se realizó la llamada.  <br/> |
@@ -106,7 +106,7 @@ En la tabla siguiente se muestra la información proporcionada en el Informe de 
   
 **Métricas de actividad de voz y vídeo punto a punto por el servidor de mediación**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Servidor de mediación** <br/> |No  <br/> |Nombre del servidor de mediación.  <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Período de fecha y hora en el que se realizó la llamada.  <br/> |

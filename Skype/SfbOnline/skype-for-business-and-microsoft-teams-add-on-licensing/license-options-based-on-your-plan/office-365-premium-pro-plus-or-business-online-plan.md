@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: Obtenga información sobre licencias de complementos, características y cómo comprar para Aplicaciones Microsoft 365 para empresas o Skype Empresarial plan independiente en línea 2.
-ms.openlocfilehash: a873a35c9550d218fac56294d7b65006602cc5887b5ebba43535beb6bf2570e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 09f925201ea2d4d3d0248d57476b3b625349aa7d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316396"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619226"
 ---
 # <a name="microsoft-365-apps-for-enterprise-or-skype-for-business-online-standalone-plan-2"></a>Aplicaciones Microsoft 365 para empresas o Skype Empresarial plan independiente en línea 2
 

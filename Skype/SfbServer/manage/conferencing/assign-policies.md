@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: 'Resumen: obtenga información sobre cómo asignar directivas de conferencia en Skype Empresarial Server.'
-ms.openlocfilehash: aae4f76f333adef8e54eaa6627157d7424e11ee01c0b62ff9dc1eb24634fc604
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3ae21518cf53aad48d4fc9b6963d0e5402007db9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329584"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635284"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Asignar directivas de conferencia en Skype Empresarial Server
  

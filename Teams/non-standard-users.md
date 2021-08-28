@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Obtenga información sobre cómo las aplicaciones Microsoft Teams se comportan para los usuarios no estándar.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97431dae774569c60ddc3299ca1dc637a9c571239082dac3a8c9449ff0124e51
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 882fda0be339c8f9869c5b83fbeff3e97d5892ee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342885"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619406"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams de aplicaciones para usuarios no estándar
 

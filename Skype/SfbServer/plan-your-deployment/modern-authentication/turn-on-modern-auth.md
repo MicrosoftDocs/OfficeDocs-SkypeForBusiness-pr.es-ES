@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: En este artículo se describen los cmdlets que dan a los administradores un mayor control de los métodos de autenticación usados dentro y fuera de una empresa. Los administradores pueden activar o desactivar los métodos de autenticación interna o externamente en su red.
-ms.openlocfilehash: c9d4cce512ebb296cb442c6a78482f19bf7062aaceb8fe8704cbca3c277e4e92
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bad18e79e1595c7dfe4518d73b6dd764e313e22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306881"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601365"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planeación de desactivar los métodos de autenticación heredados interna y externamente en la red.
 

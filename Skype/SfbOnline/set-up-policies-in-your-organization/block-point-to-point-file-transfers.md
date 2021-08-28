@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: En Skype Empresarial Online, puede controlar las transferencias de archivos punto a punto (P2P) como parte de la configuración de directiva de conferencia existente. Sin embargo, esto permite o bloquea las transferencias de archivos para los usuarios, independientemente de si están transfiriendo o no archivos a un usuario de la misma organización o a un usuario federado de otra organización. Siguiendo los pasos siguientes, puede bloquear las transferencias de archivos P2P con organizaciones o partners federados.
-ms.openlocfilehash: f09f67793303d393b24cb40077fd3dd3b16d38f278460a2f4d747ef67b97aa96
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e5dc2f2407d5d510ec6dc559a8192d91ac3260f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306203"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619286"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquear las transferencias de archivos punto a punto
 

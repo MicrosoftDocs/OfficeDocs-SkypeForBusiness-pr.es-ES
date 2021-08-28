@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Priority
+ms.localizationpriority: high
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -24,12 +24,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 8ff4c2dd21e04f10023d5bd038b303eb6dac40355df4af1a50867029ac77e093
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 830ae9c32ab64d672582cb9620a94b320e15e6b0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341455"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618676"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>Obtener ayuda de un partner o distribuidor de Microsoft
 

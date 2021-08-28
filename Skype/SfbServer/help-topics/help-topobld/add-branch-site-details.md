@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddBranchSiteDetailsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 'Para especificar los detalles del sitio para un sitio, haga lo siguiente:'
-ms.openlocfilehash: 72f0641897e34ad7b42a6f1c9f49738d5e6b6895ab1b0d97ad06a90f8a91ae00
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 042ddbf1caa81bdfa322ea679b1bb735fba3f467
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303892"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618886"
 ---
 # <a name="add-branch-site-details"></a>Agregar detalles de sucursal
 
