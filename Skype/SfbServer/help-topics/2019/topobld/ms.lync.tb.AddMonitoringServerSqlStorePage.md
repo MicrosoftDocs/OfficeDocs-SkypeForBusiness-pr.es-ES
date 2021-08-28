@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddMonitoringServerSqlStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 ROBOTS: NOINDEX, NOFOLLOW
 description: El servidor de supervisión requiere una edición compatible de 64 bits SQL Server software de base de datos para almacenar los datos de supervisión. Puede seleccionar una base de datos SQL Server definida previamente para la supervisión o definir una nueva base de datos de SQL Server especificando un nombre de dominio completo (FQDN) del servidor en el que residirá la base de datos de SQL Server, además de la instancia de SQL Server que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
-ms.openlocfilehash: d750b58bce5fb634bc7bb64edd86c79cb5cdb238ec90435f00e3699c15cedf9e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 474259fc1985277b2ac795651d6115ec608a6b40
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328515"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606499"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>Agregar almacén SQL Server de servidor de supervisión
 

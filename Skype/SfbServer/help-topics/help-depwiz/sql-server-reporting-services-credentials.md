@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeploySSRSCredentials
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: 'Para especificar las credenciales de SQL Server Reporting Services (SSRS) para tener acceso a la base de datos de supervisión:'
-ms.openlocfilehash: 53c8d65f4f29c0e4beb4177fb7ceb35df11b2664aceee33cfd13a57d231dff90
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e32ff6c983516a8bb5fd4fc0267c1af7e9dd52e6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331672"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628922"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services (credenciales)
  

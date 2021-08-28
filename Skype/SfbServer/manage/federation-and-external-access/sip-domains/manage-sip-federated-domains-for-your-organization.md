@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Obtenga información sobre cómo administrar y configurar dominios SIP con los que puede federar,
-ms.openlocfilehash: 61313082b9581a0024895dd79e3c533c5cf778cd836d82d12c654549d78d7b63
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b2fc05f6837b48e353693b7d25a8bb469ca9d6b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336710"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628732"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Administrar dominios federados SIP para su organización en Skype Empresarial Server
 

@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.Dialin
 - ms.lync.plan.Dialin
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 description: Skype Empresarial Server conferencia de acceso telefónico local de 2015 permite a los usuarios unirse a la parte de audio de una conferencia de Skype Empresarial Server 2015 mediante un teléfono de red telefónica conmutada (RTC) sin necesidad de un proveedor de audioconferencia de terceros.
-ms.openlocfilehash: 835b28d8cd3e6b35e9500982cc27ffd77711033c5289c596a13024d25e15ff74
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9664cf06825156a2cae5889eca16859673ece63c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315876"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628822"
 ---
 # <a name="skype-for-business-server-dial-in-conferencing-planning-tool"></a>Skype Empresarial Server Herramienta de planeación de conferencias de acceso telefónico local
  

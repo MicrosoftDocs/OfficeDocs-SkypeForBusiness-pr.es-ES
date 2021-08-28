@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 'Resumen: obtenga información sobre cómo cambiar las opciones de la base de datos de archivado para Skype Empresarial Server.'
-ms.openlocfilehash: 74404b84be52a5a4b296029a61bd1060ebbc5f82a8aa1b3cdeb974cbfece6c44
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6fecfb4a10020c031ccd2b6ccebda1b016fd24ba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346476"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580704"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Cambiar las opciones de base de datos de archivado en Skype Empresarial Server
 

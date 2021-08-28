@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 'Summary: Learn about the Media Quality Metrics Distribution Report in Skype Empresarial Server.'
-ms.openlocfilehash: b90b54ede899d8eb085ad65392280e3910498128e5a43c927260b20e501e2292
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0ba1bfadee22d731a6ef6c523ba22261a8f22202
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290318"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606189"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Informe de distribución de métricas de calidad multimedia en Skype Empresarial Server 
  
@@ -29,14 +29,14 @@ El Informe de distribución de métricas de calidad de medios permite ver un gr�
 |:-----|:-----|
 |1  <br/> |50  <br/> |
 |2  <br/> |50  <br/> |
-|3  <br/> |50  <br/> |
+|3   <br/> |50  <br/> |
 |4   <br/> |50  <br/> |
 |5   <br/> |50  <br/> |
 |6   <br/> |50  <br/> |
 |7   <br/> |50  <br/> |
 |8   <br/> |4550  <br/> |
 |9   <br/> |50  <br/> |
-|10   <br/> |50  <br/> |
+|10  <br/> |50  <br/> |
    
 El promedio de esos tiempos de ida y vuelta es de 500 milisegundos (5000 divididos por 10). Quinientos milisegundos es un tiempo de ida y vuelta extremadamente grande; como resultado, es posible que crea que tiene un problema grave con la congestión de la red. (Los tiempos de ida y vuelta largos suelen ser el resultado de redes sobrecargadas).
   

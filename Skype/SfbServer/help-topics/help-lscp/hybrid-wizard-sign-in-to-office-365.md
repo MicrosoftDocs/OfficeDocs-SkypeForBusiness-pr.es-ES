@@ -12,19 +12,19 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.HybridSignIntoO365
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: Use el Skype Empresarial Server de administración híbrida para ayudarle a configurar el entorno para híbrido con Skype Empresarial Online.
-ms.openlocfilehash: 7e3feecccc4b256c045735ac278579db4f6a94a95a8bb285d44cbb395578c735
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b87b3fe9b7776d6c7e91bcfdbfbe67b9219e15c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319263"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606419"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Asistente híbrido: inicie sesión en Microsoft 365 o Office 365
 

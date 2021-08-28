@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: El esquema de base de datos de chat persistente consta de las tablas siguientes.
-ms.openlocfilehash: bc7189eac8e8fbd42cdaa5786b82d5652c616a69ae3fc4fc180c189416a94468
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2d5accc32b01c4c854fc3603e4ec3c1dc61a115b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280943"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606039"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>Lista de tablas de servidores de chat persistente
  
@@ -26,7 +26,7 @@ El esquema de base de datos de chat persistente consta de las tablas siguientes.
   
 ## <a name="active-directory-sync"></a>Sincronización de Active Directory
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[tblADCookie](tbladcookie.md) <br/> |Contiene las cookies de sincronización del Protocolo ligero de acceso a directorios (LDAP). Cada fila corresponde a un dominio de Servicios de dominio de Active Directory que el servidor de chat persistente supervisa activamente para los cambios. (Solo los dominios de Active Directory relevantes para el servidor de chat persistente se representan en esta tabla).  <br/> |
 |[tblPrincipalMemberDifference](tblprincipalmemberdifference.md) <br/> |Contiene cambios de pertenencia a grupos (miembros agregados y eliminados) que aún no han sido procesados por los pasos de sincronización de Active Directory posteriores y es una de las tablas temporales (junto con la tabla tblADUpdates) que se usa en el primer paso de Sincronización de Active Directory.  <br/> Los cambios de pertenencia se almacenan, procesan o ambos, solo para los grupos que aparecen en la tabla tblPrincipal o que ya tienen miembros enumerados allí.  <br/> |
@@ -37,7 +37,7 @@ El esquema de base de datos de chat persistente consta de las tablas siguientes.
    
 ## <a name="principals-affiliations-nodes-scopes-and-roles"></a>Entidades de seguridad, afiliaciones, nodos, ámbitos y roles
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[tblPrincipalType](tblprincipaltype.md) <br/> |Contiene tipos de entidad de seguridad para clasificar lo que está en la tabla tblPrincipal. Esta tabla es estática. Se configura durante la creación de la base de datos y no cambia.  <br/> |
 |[tblPrincipal](tblprincipal.md) <br/> |Contiene todas las entidades de seguridad (usuarios, carpetas, grupos, entre otras). El servidor de chat persistente lo controla como una lista heterogéneo plana. Varias columnas se basan en el tipo de cada entidad de seguridad.  <br/> La mayoría de estas entidades de seguridad son copias almacenadas en caché de objetos almacenados en Active Directory. La creación de la copia almacenada en caché en la tabla Principal de estos objetos de Active Directory se denomina aprovisionamiento.  <br/> Algunas entidades de seguridad se crean de forma más agresiva que otras y algunos objetos de Active Directory se omiten por completo.  <br/> |
@@ -52,7 +52,7 @@ El esquema de base de datos de chat persistente consta de las tablas siguientes.
    
 ## <a name="invites-chats-and-other-client-support"></a>Invitaciones, chats y otro soporte técnico de cliente
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[tblPrincipalInvites](tblprincipalinvites.md) <br/> |Contiene invitaciones para todos los usuarios aprovisionados en el sistema para todos los nodos con la invitación automática habilitada.  <br/> |
 |[tblChat](tblchat.md) <br/> |Contiene todos los mensajes de chat.  <br/> |
@@ -63,7 +63,7 @@ El esquema de base de datos de chat persistente consta de las tablas siguientes.
    
 ## <a name="server-support"></a>Compatibilidad con el servidor
 
-|**Table**|**Description**|
+|**Table**|**Descripción**|
 |:-----|:-----|
 |[tblServerIdentity](tblserveridentity.md) <br/> |Contiene los servidores activos del grupo de servidores de chat persistente.  <br/> |
 |[tblAdminLock](tbladminlock.md) <br/> |Contiene el bloqueo de administrador para ejecutar algunos comandos de administrador. La entrada de revisión del sistema en la tabla tblSystemRevision se incrementa después de cada versión del bloqueo.  <br/> |

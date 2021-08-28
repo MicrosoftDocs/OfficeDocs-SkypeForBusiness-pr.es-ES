@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a09858b6-d2cd-4d0c-87ef-37aacf733718
 description: La Tabla de tareas es solo para uso interno. Esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 9641e9e1863c03a7c93d650a318987d1415958a6cba0bddaaedb4f79b3cb20a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aab3cdc011a56f701c502b31613c4ed9758e9028
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343204"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580414"
 ---
 # <a name="task-table"></a>Tabla de tareas
  

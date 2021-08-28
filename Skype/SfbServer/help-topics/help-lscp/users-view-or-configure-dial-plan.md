@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewDialPlan
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 7db7ce2a911a7b8e483f456ba854310de3b33597b1574f6bfa3867098b8bdbab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7c91cb4badcb31d5a52a5c5f7c9aca73c3c6eba6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302594"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606389"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>Usuarios: Ver o configurar plan de marcado
 

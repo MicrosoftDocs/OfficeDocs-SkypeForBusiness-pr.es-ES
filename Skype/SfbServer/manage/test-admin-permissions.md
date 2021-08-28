@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Cómo probar los permisos de administrador en Skype Empresarial Server
-ms.openlocfilehash: 7dd9e1b95df35cb363617690cb9667c1a16ef904
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 08721b556de6e7b162eb76fbed953dae422b33b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232625"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580564"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Probar permisos de administrador en Skype Empresarial Server
 
@@ -27,7 +27,7 @@ ms.locfileid: "58232625"
 |Permisos necesarios|Cuando se ejecuta localmente mediante Skype Empresarial Server Shell de administración, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.<br><br/>Cuando se ejecuta mediante una instancia remota de Windows PowerShell, se debe asignar a los usuarios un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsOUPermission usuario. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el Windows PowerShell solicitud:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match "Test-CsOUPermission"}|
 |||
 
-## <a name="description"></a>Description
+## <a name="description"></a>Descripción
 
 Al instalar Skype Empresarial Server, una de las tareas realizadas por el programa de instalación proporciona al grupo RTCUniversalUserAdmins los permisos de Active Directory necesarios para administrar usuarios, equipos, contactos, contactos de aplicaciones y personas de InetOrg. Si ha deshabilitado la herencia de permisos en Active Directory, el programa de instalación no podrá asignar esos permisos. Como resultado, los miembros del grupo RTCUniversalUserAdmins no podrán administrar Skype Empresarial Server entidades. Estos privilegios de administración solo estarán disponibles para los administradores de dominio. 
 

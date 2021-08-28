@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Resumen: lea este tema para obtener información sobre las funciones y características de conferencia en Skype Empresarial Server.'
-ms.openlocfilehash: 67956a20727747d83889a88d359e145bc99775ffc2243fc3449f282875701820
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 90200648c8e370bd0e59f0b6759717cd706b683d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334861"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628592"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planear conferencias en Skype Empresarial Server
  

@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: e6238e51051586ffb579947f6c6c3b6693a1c0aebba40e56915c67b016190997
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 580a0c31d3321564d76f248408facaffa4f399a2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334986"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580524"
 ---
 # <a name="delegate-administrative-control-of-skype-for-business-server"></a>Delegar el control administrativo de Skype Empresarial Server 
 

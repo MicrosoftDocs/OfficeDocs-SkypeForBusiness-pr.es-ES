@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FileStoreSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar las propiedades de los almacenes de archivos definidos:'
-ms.openlocfilehash: afd151deb882351be24a737cea82316f60d62789d48086504b9be9ece9dda0eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ffa774ae6cab3ec681c0a7e228f92a6eb0db9a50
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291228"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628992"
 ---
 # <a name="file-store-settings-expander"></a>Expansor de configuración de almacén de archivos
  

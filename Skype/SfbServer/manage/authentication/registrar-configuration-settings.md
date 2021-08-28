@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 'Resumen: administrar las opciones de configuración del registrador para Skype Empresarial Server.'
-ms.openlocfilehash: c4dfe9ab3fb8694cf17ef7e4da18d0e8add8b80aabc074bce404947864bd68f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d1962bb7f2a8c6205bcc8bc5dee47217c21758f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336870"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580634"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Administrar las opciones de configuración del registrador en Skype Empresarial Server
  

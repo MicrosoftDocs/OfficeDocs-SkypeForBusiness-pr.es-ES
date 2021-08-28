@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 description: tblPrincipalAffiliations contiene las afiliaciones principales que describen pertenencias en ubicaciones, incluidos los grupos de seguridad de Servicios de dominio de Active Directory, en contenedores de Active Directory, en dominios.
-ms.openlocfilehash: 5eb67681e5823b8549deb01b44e0bcb771e26882a2cd713d9cf598ae0670335b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6126fb32b6b56c9a3ec142ad1b1186763f28d045
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341675"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580384"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  
@@ -35,7 +35,7 @@ tblPrincipalAffiliations contiene las afiliaciones principales que describen per
    
 **Keys**
 
-|**Columns**|**Description**|
+|**Columns**|**Descripción**|
 |:-----|:-----|
 |\<principalID, index, affiliationID\>  <br/> |Clave principal.  <br/> |
 |principalID  <br/> |Clave externa con búsqueda en la tabla tblPrincipal.prinID.  <br/> |

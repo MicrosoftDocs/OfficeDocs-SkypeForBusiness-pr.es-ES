@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: 'Summary: Learn about the Top Failures Report in Skype Empresarial Server.'
-ms.openlocfilehash: 04088bce640ec19675afb1513645639a59ed4351ab581280bbec4904d57f835e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b932833aa80d11134133b7b3ed13cdfd2a57e29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317564"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606159"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>Informe de errores principales en Skype Empresarial Server
  
@@ -72,7 +72,7 @@ En la tabla siguiente se muestra la información que recoge el informe de errore
   
 **Métricas del informe de errores más comunes**
 
-|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Description**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Sí  <br/> |Clasificación relativa basada en el número de sesiones de las que se informa.  <br/> |
 |**Sesiones de las que se informa** <br/> |Sí  <br/> |Número total de sesiones con error basadas en el Id. de diagnóstico y en el código de respuesta SIP.  <br/> |

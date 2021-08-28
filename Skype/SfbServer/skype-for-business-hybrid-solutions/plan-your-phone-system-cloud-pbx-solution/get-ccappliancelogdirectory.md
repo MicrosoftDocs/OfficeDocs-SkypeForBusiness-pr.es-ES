@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
 description: El cmdlet Get-CcApplianceLogDirectory muestra el directorio actual donde se almacenan los registros de Skype for Business Edición de conector de nube dispositivo.
-ms.openlocfilehash: 75f3ba3a5de5198456e053bd51ef567df1a0ae43461e9888e87294d3af406288
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 826599ab785d8b4d74f0792c6091b2a5e78b74e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318663"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580364"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorFeaturesPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 description: Si desea que el grupo de directores incluya el servidor de supervisión, seleccione Supervisión (métricas de CDR y QoE).
-ms.openlocfilehash: 205af3c41f46d18fb22cab816fb4ff9eac9c504624b71851319a6228da351071
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 672573d30d705f792bd3f1db39d4cf851a6ec5d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346776"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628782"
 ---
 # <a name="add-director-features"></a>Agregar características de director
 

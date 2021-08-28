@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: El FQDN interno del grupo perimetral de acceso se usa para una variedad de escenarios en los que los usuarios internos se comunican con usuarios externos para la federación, el acceso remoto de usuarios y la conectividad de mensajería instantánea pública. Si en el entorno heredado se había implementado un servidor perimetral con equilibrio de carga, especifique el nombre de dominio completo del equilibrador de carga interno.
-ms.openlocfilehash: 0bfbff4fcd04d0e2e202febe8601079364d4a02e966449242b1e87693c5634f9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25d366e963110e5f41e5fcc5787ef6c952784b99
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342335"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628972"
 ---
 # <a name="legacy-merge-fqdn"></a>FQDN de combinación heredada
  

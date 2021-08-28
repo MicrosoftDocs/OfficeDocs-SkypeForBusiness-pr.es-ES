@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Summary: Learn how to use the Centralized Logging Service (CLS) Logger in Skype Empresarial Server 2015.'
-ms.openlocfilehash: 38cc7007476fbdfa6a02cf4d244fa0173e958d6bfe055d042be8ba4cf2d049e4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317501"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628622"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Registrador de CLS para Skype Empresarial Server 2015
  

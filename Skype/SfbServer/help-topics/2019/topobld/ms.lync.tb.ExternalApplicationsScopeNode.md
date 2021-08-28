@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ExternalApplicationsScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo Servidores de aplicaciones de confianza muestra los grupos de aplicaciones de confianza de este sitio. Los grupos de aplicaciones de confianza contienen servidores que ejecutan aplicaciones de Comunicaciones unificadas de Microsoft de confianza, pero no ejecutan Skype Empresarial Server funciones. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 75341423b1df2f3ffde9536b342f08bfe91fb1dd896d43ffed206e60a993849e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f1324f73db7f102206177aaa74dddc02a1f69bbf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330284"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606449"
 ---
 # <a name="external-applications-scope-node"></a>Nodo de ámbito de aplicaciones externas
  
