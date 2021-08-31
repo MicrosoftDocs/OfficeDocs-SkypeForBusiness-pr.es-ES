@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Obtenga información sobre los servicios mejorados de 9-1-1 (E9-1-1) en Skype Empresarial Server Telefonía IP empresarial, incluida la adquisición de ubicación y el enrutamiento de llamadas.
-ms.openlocfilehash: 2e7e3a2464f7c6e3579a9779a7926be2d87492d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18cb4158e7e7d31772f365711b1ec5e0ed22357a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592514"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732759"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planeación de servicios de emergencia en Skype Empresarial Server
 
@@ -78,7 +78,7 @@ El cliente de Skype Empresarial incluye los datos PIDF-LO como parte de una llam
 
 El diagrama siguiente muestra cómo un cliente Skype Empresarial adquiere una ubicación (excepto para el método de ubicación basada en direcciones MAC del cliente de terceros):
 
-![Cómo el cliente adquiere un diagrama de ubicación](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
+![Cómo el cliente adquiere un diagrama de ubicación.](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
 
 Para que el cliente pueda adquirir la ubicación, deben llevarse a cabo los pasos siguientes:
 
@@ -98,7 +98,7 @@ En el siguiente diagrama se muestra cómo se enruta una llamada de emergencia de
 
 **Enrutamiento de llamadas E9-1-1 mediante troncos SIP**
 
-![Enrutamiento de llamadas de emergencia de Lync Server a PSAP](../../media/Plan_LyncServer_E911_CallRouting.jpg)
+![Enrutamiento de llamadas de emergencia de Lync Server a PSAP.](../../media/Plan_LyncServer_E911_CallRouting.jpg)
 
 Cuando se hace una llamada de emergencia desde un cliente Skype Empresarial Server compatible:
 

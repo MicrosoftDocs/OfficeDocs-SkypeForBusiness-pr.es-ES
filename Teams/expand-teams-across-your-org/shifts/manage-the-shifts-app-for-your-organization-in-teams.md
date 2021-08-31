@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8c2e8a8e976e6c92355bc894447353f436b706bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e58b7452ec3e89ded6f24da17490cf476885d72
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608977"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727839"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -78,7 +78,7 @@ Teams incluye una directiva de configuración de la aplicación FirstLineWorker 
 
 Para ver la directiva de FirstLineWorker, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya Teams directivas de configuración de aplicaciones  >  **de la aplicación.**
 
-![Captura de pantalla de la directiva de configuración de la aplicación FirstLineWorker](../../media/firstline-worker-app-setup-policy.png "Captura de pantalla de la directiva de configuración de la aplicación FirstLineWorker en el centro Microsoft Teams administración")
+![Captura de pantalla de la directiva de configuración de la aplicación FirstLineWorker.](../../media/firstline-worker-app-setup-policy.png "Captura de pantalla de la directiva de configuración de la aplicación FirstLineWorker en el centro Microsoft Teams administración")
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Asignar la directiva de configuración de la aplicación FirstLineWorker a los usuarios
 

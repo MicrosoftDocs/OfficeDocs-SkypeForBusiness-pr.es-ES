@@ -17,18 +17,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a433a7a372c89a2d22bac7991effdd5081ac298d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0fe0ac66b8d1ff9afe43d4d57783e803f426c23c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616256"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732959"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar la interoperabilidad de vídeos en la nube para Microsoft Teams
 
 Una vez que haya elegido sus partners de interoperabilidad de vídeo en la [nube,](cloud-video-interop.md)tendrá que planear la implementación, configurarse con detalles de aprovisionamiento y clave de inquilino de partners, y dar su consentimiento a la aplicación de interoperabilidad de vídeo de su organización. En el siguiente diagrama se describe el proceso. 
 
-![Implementar CVI en su organización](media/deploying-cvi.png)
+![Implementar CVI en su organización.](media/deploying-cvi.png)
 
 ## <a name="plan"></a>Plan
 
@@ -57,7 +57,7 @@ Para configurar la interoperabilidad de vídeo en la nube, siga estos pasos.
  
 La clave de inquilino será la llamada al servicio de partners. En el ejemplo siguiente, 813878896@t.plcm.vc es la clave de inquilino. 
 
-![Ejemplo de clave de inquilino](media/tenant-key-example.png) 
+![Ejemplo de clave de inquilino.](media/tenant-key-example.png) 
 
 Tendrá que ejecutar los siguientes cmdlets para aprovisionar la clave de inquilino y también habilitar usuarios seleccionados o toda la organización para crear reuniones con coordenadas de interoperabilidad de vídeo.
 

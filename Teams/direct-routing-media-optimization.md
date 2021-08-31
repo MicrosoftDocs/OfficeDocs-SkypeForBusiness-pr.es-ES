@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimización de medios locales para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2513a72502573689b0ab988ea9647384688c9255
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: ef1d4f0a2b2770f048d308f8f497754e33f8f797
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365657"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725519"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planear la optimización de medios locales para enrutamiento directo
 
@@ -181,7 +181,7 @@ En el siguiente diagrama se muestra el flujo de tráfico cuando un usuario está
 
 Diagrama 4. Flujo de tráfico cuando el usuario es externo con un SBC proxy y con SBC descendente conectado
 
-![Diagrama muestra de nuevo la optimización de medios locales del flujo de tráfico](media/direct-routing-media-op-4.png "Flujo de tráfico en caso de SBC proxy con SBC descendente conectado cuando el usuario es externo")
+![Diagrama muestra de nuevo la optimización de medios locales del flujo de tráfico.](media/direct-routing-media-op-4.png "Flujo de tráfico en caso de SBC proxy con SBC descendente conectado cuando el usuario es externo")
 
 ## <a name="local-media-optimization-modes"></a>Modos de optimización de medios locales
 
@@ -258,7 +258,7 @@ En el siguiente diagrama se muestra el flujo de tráfico de alto nivel cuando el
 
 Diagrama 6.  Flujo de tráfico con el modo "Omitir siempre" y el usuario no está en el sitio "inicio", sino en la red interna
 
-![Un diagrama muestra la optimización de medios locales del flujo de tráfico](media/direct-routing-media-op-6.png "El flujo de tráfico con el modo &quot;Omitir siempre&quot; y el usuario no está en el sitio &quot;inicio&quot;, sino en la red interna")
+![Un diagrama muestra la optimización de medios locales del flujo de tráfico.](media/direct-routing-media-op-6.png "El flujo de tráfico con el modo &quot;Omitir siempre&quot; y el usuario no está en el sitio &quot;inicio&quot;, sino en la red interna")
 
 ### <a name="mode-2-only-for-local-users"></a>Modo 2: Solo para usuarios locales
 

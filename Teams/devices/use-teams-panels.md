@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: En este artículo se proporcionan instrucciones sobre cómo usar Teams dispositivos de paneles.
-ms.openlocfilehash: 0fccd3e733cdeec2cfe84b721cbade5834b05b03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a172eab55e8e9b16432da5ce2f26b39cf71886d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626272"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732709"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Cómo usar Microsoft Teams paneles
 
@@ -54,7 +54,7 @@ Desde la pantalla Inicio, puede ver los detalles de la reunión y la ubicación,
 
 La siguiente captura de pantalla muestra diferentes partes o mosaicos en la Teams pantalla inicio de los paneles:
 
-:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="Esta captura de pantalla muestra diferentes áreas en la Teams pantalla inicio de los paneles":::
+:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="Esta captura de pantalla muestra diferentes áreas en la Teams pantalla inicio.":::
 
 Consulte la tabla siguiente para obtener una descripción de cada mosaico:
 
@@ -73,7 +73,7 @@ La apariencia de este icono y sus capacidades varían según la disponibilidad d
 
 El mosaico aparece en color púrpura para un espacio de reunión reservado para una reunión programada (programada a través de Outlook o Teams). Muestra el título de la reunión en texto prominente, horas de inicio y finalización de la reunión y el nombre del organizador de la reunión. Para una reunión Teams, también aparece Teams logotipo. Con los detalles de la reunión destacados, los asistentes pueden confirmar fácilmente que están en el espacio de reunión adecuado, en el momento adecuado y para la reunión correcta.
 
-:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams pantalla inicio de paneles que muestran que el espacio de reunión está reservado para una reunión programada":::
+:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams paneles inicio que muestran que el espacio de reunión está reservado para una reunión programada.":::
 
 > [!NOTE]
 >
@@ -84,13 +84,13 @@ El mosaico aparece en color púrpura para un espacio de reunión reservado para 
 
 El mosaico aparece en color púrpura para un espacio de reunión reservado [para una reunión ad hoc.](#reserve-meeting-spaces-for-ad-hoc-meetings) Muestra Reservado **en** texto prominente junto con las horas de inicio y finalización de la reunión. Las reuniones ad hoc se programan automáticamente como Teams reuniones, por lo que el logotipo de Teams siempre aparece en la pantalla.
 
-:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams paneles inicio que muestran que el espacio de reunión está reservado para una reunión ad hoc":::
+:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams paneles de inicio que muestran que el espacio de reunión está reservado para una reunión ad hoc.":::
 
 #### <a name="meeting-space-is-available"></a>El espacio de reunión está disponible
 
 El mosaico aparece en verde para un espacio de reunión disponible. Muestra Disponible **en** texto prominente  y también aparece un botón Reservar que puede pulsar para reservar el espacio de reunión [para una reunión ad hoc.](#reserve-meeting-spaces-for-ad-hoc-meetings) Puede comprobar el calendario próximo del espacio de reunión (mosaico inferior derecho) para decidir la hora de finalización de la reunión ad hoc.
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="Esta captura de pantalla muestra cómo aparece Teams pantalla inicio de los paneles cuando el espacio de reunión está disponible":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="Esta captura de pantalla muestra cómo aparece la Teams de inicio de los paneles cuando el espacio de reunión está disponible.":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a>Reservar espacios de reunión para reuniones ad hoc
 
@@ -104,10 +104,10 @@ Para reuniones ad hoc que se reservan directamente desde paneles:
 Para reservar un espacio de reunión disponible para una reunión ad hoc:
 
 1. En la pantalla Inicio, pulse el **botón** Reservar.
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams paneles inicio que muestran el botón Reservar":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams paneles inicio que muestran el botón Reservar.":::
 2. En la **pantalla Reunión ad hoc,** revise las opciones de hora de finalización disponibles. Puede usar las flechas derecha o izquierda para examinar las opciones de hora de finalización disponibles.
 
-    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Pantalla de reunión ad hoc que muestra las franjas horarias de finalización":::
+    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Pantalla de reunión ad hoc que muestra las franjas horarias de finalización.":::
 
     > [!Note]
     >
@@ -118,10 +118,10 @@ Para reservar un espacio de reunión disponible para una reunión ad hoc:
 3. Pulse el intervalo de tiempo de finalización deseado y, a continuación, pulse **Reservar**.
 
     Aparecerá una ventana de confirmación con un emoji de pulgar hacia arriba, la hora de inicio y finalización de la reunión y el nombre del espacio de reunión.
-    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Mensaje de confirmación de reunión ad hoc":::
+    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Mensaje de confirmación de reunión ad hoc.":::
 El icono derecho de la pantalla Inicio ahora aparece en color púrpura y muestra el texto **reservado** y el Teams texto. Esto indica que el espacio de reunión ahora está reservado para una reunión ad hoc Teams reunión.
   
-    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Pantalla principal que muestra que el espacio de reunión está reservado para una reunión ad hoc":::
+    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Pantalla principal que muestra que el espacio de reunión está reservado para una reunión ad hoc.":::
 
     > [!NOTE]
     > Si el espacio de reunión es una  sala Microsoft Teams, puede unirse a esta reunión Teams con la sala Microsoft Teams sala o Surface Hub dispositivos.
@@ -185,7 +185,7 @@ Para obtener acceso a **la opción Configuración** paneles:
 5. Pulse el **botón Panel de Configuración** de la pantalla derecha.
     Se muestra la pantalla con la configuración **de la aplicación** Paneles disponible.
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="Esta captura de pantalla muestra la pantalla con la configuración de la aplicación Paneles disponible":::
+    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="Esta captura de pantalla muestra la pantalla con la configuración de la aplicación Paneles disponible.":::
 
     Use esta pantalla para actualizar la siguiente configuración **de la aplicación Paneles** para el dispositivo:
 
@@ -199,7 +199,7 @@ Cambiar la imagen de fondo de pantalla inicio.
 1. [Aplicación **Paneles de Access Configuración**](#access-panels-app-settings).
 2. Pulse **Fondos de pantalla**.
 3. En **Elegir la imagen,** seleccione una imagen para establecerla como imagen de fondo de la pantalla inicio. Obtener una vista previa de la imagen seleccionada en **Fondo.**
-:::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Esta captura de pantalla muestra la pantalla de configuración del fondo de pantalla":::
+:::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Esta captura de pantalla muestra la pantalla de configuración del fondo de pantalla.":::
 4. Vuelva a la pantalla Inicio y compruebe que el fondo de pantalla está actualizado.
 
 #### <a name="change-the-busy-state-led-color"></a>Cambiar el color del LED de estado ocupado
@@ -209,7 +209,7 @@ Los administradores pueden elegir rojo o púrpura como color LED para indicar qu
 1. [Aplicación **Paneles de Access Configuración**](#access-panels-app-settings).
 2. Pulse **LED Configuración**.
 3. En **Elegir el color del LED,** selecciona el color que quieras.
-:::image type="content" source="../media/panels-led-settings.png" alt-text="Esta captura de pantalla muestra la configuración de estado ocupado del color DEL LED":::
+:::image type="content" source="../media/panels-led-settings.png" alt-text="Esta captura de pantalla muestra la configuración de estado ocupado del color del LED.":::
 4. Vuelva a la pantalla Inicio y compruebe que el color del LED para el estado ocupado está actualizado. Si el espacio de reunión está disponible actualmente, intente programar una reunión de prueba para comprobar el cambio en el color del LED para el estado ocupado.
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes

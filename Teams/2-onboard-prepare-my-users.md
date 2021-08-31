@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30a844f0ecd619e609a61500ac1b845cfbbad553
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd7c41070e867b96d9238ba280d828a3081352f5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623392"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725689"
 ---
 # <a name="prepare-my-users"></a>Preparar a mis usuarios
 
@@ -48,7 +48,7 @@ Establecer la visión del proyecto permite a las partes interesadas clave ver el
 
 La siguiente imagen es un ejemplo de una declaración de visión a valor para un cliente que actualiza de Skype Empresarial a Teams.
 
-![Tabla de dos columnas que muestra Visión y Valor](media/prepare-my-users-new-image1.png "Tabla de dos columnas con Visión: ¿por qué hacemos esto? (nivel de organización) a la izquierda y Valor: ¿qué hay en él para mí? (nivel de usuario) a la derecha")
+![Tabla de dos columnas que muestra Visión y Valor.](media/prepare-my-users-new-image1.png "Tabla de dos columnas con Visión: ¿por qué hacemos esto? (nivel de organización) a la izquierda y Valor: ¿qué hay en él para mí? (nivel de usuario) a la derecha")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Ha articulado el beneficio y el valor para los usuarios de forma que se beneficie de esta nueva solución?</li></ul></td></tr>
@@ -128,7 +128,7 @@ Para cada grupo de personas, hable de lo siguiente con el equipo del proyecto:
 
 La siguiente imagen es un ejemplo de una tabla de personas.
 
-![Detalles de los personajes de la tabla Valores](media/prepare-my-users-image2.png "Tabla que enumera personas con sus roles comunes y dependencias de soluciones de comunicación y colaboración. La persona ejecutiva se resalta con detalles sobre el perfil (día de la vida) y las características, dispositivos y formación que necesita un ejecutivo.")
+![Tabla valores que muestra detalles de los personajes.](media/prepare-my-users-image2.png "Tabla que enumera personas con sus roles comunes y dependencias de soluciones de comunicación y colaboración. La persona ejecutiva se resalta con detalles sobre el perfil (día de la vida) y las características, dispositivos y formación que necesita un ejecutivo.")
 
 Para cada caso de uso, hable de lo siguiente con el equipo del proyecto:
 

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Resumen: revise un tutorial y ejemplos de desarrollo para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 83fdfdee2b7b55cb9ba0ef0651f8e1994bb182df
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603879"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727519"
 ---
 # <a name="cqd-development-samples"></a>Ejemplos de desarrollo del Panel de calidad de llamadas
 
@@ -42,7 +42,7 @@ CQD ofrece acceso rápido y fácil a la información de calidad de llamadas agre
 
 Los informes que se muestran en el portal web se agrupan en "conjuntos de informes". La figura muestra un conjunto de informes con dos informes. Cada informe de este panel siguiente muestra los resultados de la consulta sobre el número de llamadas buenas, llamadas deficientes y un porcentaje de llamadas deficiente durante varios meses, con varios filtros aplicados. 
 
-![Informe de ejemplo CQD](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
+![Informe de ejemplo CQD.](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
 CQD se crea siguiendo la metodología de calidad de llamadas (CQM), por lo que el conjunto predeterminado de informes está diseñado para alinearse con el flujo de investigación introducido por CQM. Los usuarios también tienen la flexibilidad de editar o crear informes personalizados para satisfacer sus necesidades. Sin embargo, dado que hay varias formas de visualizar los datos, es posible que la visualización proporcionada por CQD no se alome completamente a las necesidades de cada usuario. En tales situaciones, un usuario puede aprovechar las API de datos y las API de repositorio para crear páginas de informe personalizadas. Vamos a ver una serie de ejemplos en este tutorial.
 
@@ -54,7 +54,7 @@ Al navegar a la página principal de CQD (por ejemplo, el conjunto de informes y
 
 CQD ya tiene mucha flexibilidad en la personalización de informes, pero puede haber situaciones en las que los usuarios quieran agregar datos en varios informes creados en CQD. Por ejemplo, podría ser necesario crear un informe que muestre los porcentajes de llamadas deficientes de todas las combinaciones posibles de llamadas cableadas en una tabla (un resultado como la figura):
 
-![Tabla CQD](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
+![Tabla CQD.](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
 Con el Portal proporcionado por CQD, un usuario tendría que navegar a varios informes para extraer y registrar el porcentaje de llamadas deficientes para cada uno, lo que puede ser laborioso si hay muchos puntos de datos que deben recopilarse. Las API de datos proporcionan a los usuarios una forma programática de lograrlo mediante la recuperación de datos del servicio de datos (por ejemplo, a través de llamadas AJAX). 
 
@@ -62,7 +62,7 @@ Con el Portal proporcionado por CQD, un usuario tendría que navegar a varios in
 
 En primer lugar, tomemos un ejemplo sencillo. Si queremos mostrar el recuento de secuencias audio buena y mala de audio de febrero de 2015 en una página HTML como la figura:
 
-![Informe de ejemplo de CQD](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
+![Informe de ejemplo de CQD.](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
 Lo que necesitamos es enviar una llamada al servicio de datos con los parámetros adecuados y mostrar los resultados de la consulta en una tabla HTML. A continuación se muestra un ejemplo del código JavaScript:
 
@@ -199,7 +199,7 @@ Puede ser difícil para alguien averiguar cómo escribir la lista completa de me
 
 En este ejemplo, crearemos una página web como la que se muestra en la figura donde un usuario puede escribir el identificador de cualquier conjunto de informes existente (o informe) y mostrar la definición del conjunto de informes o informe en la página web. A continuación, el usuario puede conectar la cadena JSON de cada informe en un código similar al que se muestra en el ejemplo 1 y crear cualquier informe personalizado que el usuario desee. 
 
-![Ejemplo de CQD](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
+![Ejemplo de CQD.](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
 Para crear la herramienta visor de definiciones de informe, debemos enviar llamadas al Servicio de repositorio para recuperar las representaciones de cadena JSON de las definiciones de cada conjunto de informes que queremos. La API de repositorio devolverá la definición del conjunto de informes en función de un identificador de conjunto de informes determinado. 
 

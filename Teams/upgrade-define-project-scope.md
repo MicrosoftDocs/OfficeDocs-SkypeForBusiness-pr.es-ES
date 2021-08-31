@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60951df95cca59b3b3a64104351bca8294800d2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 49ca0fb50f6e78f8c9ee3cd37aaba21c0929e014
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583514"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732789"
 ---
 # <a name="define-your-project-scope"></a>Definir el ámbito del proyecto
 
-![Diagrama de viaje de actualización, que resalta la fase Project definición](media/upgrade-banner-project-definition.png "Fases del itinerario de la actualización, con énfasis en la fase de definición del proyecto")
+![Actualizar diagrama de viaje, resaltando la Project definición.](media/upgrade-banner-project-definition.png "Fases del itinerario de la actualización, con énfasis en la fase de definición del proyecto")
 
 Este artículo forma parte de la fase de definición de Project del viaje de actualización, una actividad que completa después de crear una coalición de patrocinio y un equipo de proyecto de las partes interesadas que ha identificado son clave para el éxito de su proyecto. Antes de continuar, confirme que ha completado las siguientes actividades:
 
@@ -39,8 +39,8 @@ Tomar tiempo para definir la visión, el ámbito, los objetivos y el gobierno de
 
 | &nbsp;| &nbsp;|
 |---|---|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué desea lograr con este proyecto (es decir, por qué lo está haciendo)?</li><li>¿Cómo es el éxito?</li><li>¿Cuáles son los riesgos y cuál es su plan para mitigar esos riesgos?</li></ul> |
-| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Hable sobre las siguientes secciones con el equipo del proyecto y los patrocinadores.</li><li>Documente su visión, ámbito, objetivos y riesgos para este proyecto.</li><li>Vuelva a visitar el equipo del proyecto para validar que ha contratado al equipo adecuado.</li></ul>|
+| ![Un icono que muestra los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué desea lograr con este proyecto (es decir, por qué lo está haciendo)?</li><li>¿Cómo es el éxito?</li><li>¿Cuáles son los riesgos y cuál es su plan para mitigar esos riesgos?</li></ul> |
+| ![Un icono que muestra los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Hable sobre las siguientes secciones con el equipo del proyecto y los patrocinadores.</li><li>Documente su visión, ámbito, objetivos y riesgos para este proyecto.</li><li>Vuelva a visitar el equipo del proyecto para validar que ha contratado al equipo adecuado.</li></ul>|
 
 ## <a name="project-vision"></a>Project visión
 

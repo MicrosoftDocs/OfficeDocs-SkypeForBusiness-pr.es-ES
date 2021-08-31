@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumen: configure los requisitos que no son del servidor para Skype Empresarial Server 2015. Hay una variedad de cosas que querrá configurar antes de realizar la implementación, incluidos Active Directory, DNS, Certs y Fileshares.'
-ms.openlocfilehash: dfaf19ac3c34a13055cd496ad25d02cd4b89c783
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e27d854b2755a3d0d8613f12fb80342879faab26
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601335"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725959"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos del entorno Skype Empresarial Server 2015
  
@@ -113,17 +113,17 @@ Skype Empresarial Server las topologías admitidas de 2015 son:
     
 Tenemos diagramas y descripciones para ayudarle a determinar qué topología tiene en su entorno o qué puede necesitar configurar antes de instalar Skype Empresarial Server 2015. Para que sea sencillo, también estamos incluyendo una clave:
   
-![Es una clave de los iconos usados para Skype Empresarial diagramas de topología](../../media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
+![Es una clave de los iconos usados para Skype Empresarial diagramas de topología.](../../media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
 #### <a name="single-forest-with-single-domain"></a>Un solo bosque con un solo dominio
 
-![Diagrama de bosque único de Active Directory con un solo dominio](../../media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
+![Diagrama de bosque único de Active Directory con un solo dominio.](../../media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
   
 No es más fácil que esto, es un bosque de dominio único, es una topología común.
   
 #### <a name="single-forest-with-a-single-tree-and-multiple-domains"></a>Un solo bosque con un solo árbol y varios dominios
 
-![Un solo bosque, un solo árbol y un diagrama de dominios mutiple](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
+![Un solo bosque, un solo árbol y un diagrama de dominios mutiple.](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
 Este diagrama muestra un solo bosque, de nuevo, pero también tiene uno o varios dominios secundarios (hay tres en este ejemplo específico). Por lo tanto, el dominio en el que se crean los usuarios puede ser diferente del dominio Skype Empresarial Server se implementa 2015. ¿Por qué preocuparse por esto? Es importante recordar que al implementar un grupo Skype Empresarial Server front-end, todos los servidores de ese grupo deben estar en un solo dominio. Puede tener administración entre dominios a través de Skype Empresarial Server la compatibilidad de Windows grupos de administrador universales.
   
@@ -131,7 +131,7 @@ De vuelta al diagrama anterior, puede ver que los usuarios de un dominio pueden 
   
 #### <a name="single-forest-with-multiple-trees-and-disjoint-namespaces"></a>Un solo bosque con varios árboles y espacios de nombres separados
 
-![Un solo bosque, varios árboles y un diagrama de espacios de nombres distintos](../../media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
+![Un solo bosque, varios árboles y un diagrama de espacios de nombres distintos.](../../media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
 Puede ser que tenga una topología similar a este diagrama, donde tiene un bosque, pero dentro de ese bosque hay varios dominios, con espacios de nombres de AD independientes. Si ese es el caso, este diagrama es una buena ilustración, ya que tenemos usuarios en tres dominios diferentes que tienen acceso a Skype Empresarial Server 2015. Las líneas sólidas indican que tienen acceso a un grupo de Skype Empresarial Server en su propio dominio, mientras que una línea discontinua indica que van a un grupo de servidores en un árbol diferente por completo.
   
@@ -139,7 +139,7 @@ Como puede ver, los usuarios del mismo dominio, el mismo árbol o incluso un ár
   
 #### <a name="multiple-forests-in-a-central-forest-topology"></a>Varios bosques en una topología de bosque central
 
-![Varios bosques en un diagrama de topología de bosque central](../../media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
+![Varios bosques en un diagrama de topología de bosque central.](../../media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
 Skype Empresarial Server 2015 admite varios bosques configurados en una topología de bosque central. Si no está seguro de que eso es lo que tiene, el bosque central de la topología usa objetos en él para representar a los usuarios de los demás bosques y hospeda cuentas de usuario para los usuarios del bosque.
   
@@ -150,7 +150,7 @@ Claramente, si la infraestructura de AD se está moviendo a esta topología podr
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>Varios bosques en una topología Skype Empresarial bosque de recursos
 <a name="BKMK_multipleforestopology"> </a>
 
-![Varios bosques en un diagrama de topología de bosque de recursos](../../media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
+![Varios bosques en un diagrama de topología de bosque de recursos.](../../media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 También se admite una topología de bosque de recursos; es donde un bosque está dedicado a ejecutar las aplicaciones de servidor, como Microsoft Exchange Server y Skype Empresarial Server 2015. Este bosque de recursos también hospeda una representación sincronizada de objetos de usuario activos, pero no cuentas de usuario habilitadas para inicio de sesión. Por lo tanto, el bosque de recursos es un entorno de servicios compartidos para otros bosques en los que residen objetos de usuario y tienen una relación de confianza de nivel de bosque con el bosque de recursos.
   

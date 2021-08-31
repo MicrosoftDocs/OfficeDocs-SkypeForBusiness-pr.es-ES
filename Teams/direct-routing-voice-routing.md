@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar el enrutamiento de voz con Teléfono Microsoft System Direct Routing.
-ms.openlocfilehash: b5f3cc1cec5928a423e2dfb74d4c5921047e7330
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7d02eb6a2eb1546e11693e8e2475b1ed6e2b7685
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632174"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727139"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>Configurar el enrutamiento de voz para enrutamiento directo
 
@@ -68,7 +68,7 @@ En el siguiente diagrama se muestran dos ejemplos de directivas de enrutamiento 
 
 **Llamar Flow 2 (a la derecha):** Si un usuario realiza una llamada a +1 425 XXX XX XX o +1 206 XXX XX XX, la llamada se enruta primero a SBC sbc1.contoso.biz o sbc2.contoso.biz. Si no hay ninguna SBC disponible, se probará la ruta con menor prioridad (sbc3.contoso.biz y sbc4.contoso.biz). Si ninguno de los SBC está disponible, la llamada se descarta. 
 
-![Muestra ejemplos de directivas de enrutamiento de voz](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
+![Muestra ejemplos de directivas de enrutamiento de voz.](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
 En ambos ejemplos, mientras se asignan prioridades a la ruta de voz, los SBC de las rutas se prueban en orden aleatorio.
 
@@ -77,7 +77,7 @@ En ambos ejemplos, mientras se asignan prioridades a la ruta de voz, los SBC de 
 
 En el ejemplo que se muestra en el siguiente diagrama, se agrega una ruta de voz para enviar llamadas a todos los demás números de EE. UU. y Canadá (llamadas que van a patrón de número llamado +1 XXX XXX XX XX).
 
-![Muestra la directiva de enrutamiento de voz con una tercera ruta](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
+![Muestra la directiva de enrutamiento de voz con una tercera ruta.](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
 Para todas las demás llamadas, si un usuario tiene ambas licencias (Teléfono Microsoft System y Microsoft Calling Plan), se usa la ruta automática. Si nada coincide con los patrones de número en las rutas de voz en línea creadas por el administrador, la llamada se enruta a través del Plan de llamadas de Microsoft. Si el usuario solo tiene Teléfono Microsoft sistema, la llamada se descarta porque no hay reglas que coincidan.
 
@@ -310,11 +310,11 @@ Los ejemplos que se muestran asignan la directiva Solo ee. UU. al usuario Spence
 
 - John Woods: política internacional.  Las llamadas se permiten a cualquier número. Al llamar al rango de números de Redmond, debe usarse el conjunto específico de SBC. Los números que no sean de EE. UU. se enrutarán con sbc2.contoso.biz y sbc5.contoso.biz.
 
-![Muestra la directiva de enrutamiento de voz asignada al usuario Spencer Low](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
+![Muestra la directiva de enrutamiento de voz asignada al usuario Spencer Low.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
 Para todas las demás llamadas, si un usuario tiene ambas licencias (Teléfono Microsoft System y Microsoft Calling Plan), se usa la ruta automática. Si nada coincide con los patrones de número en las rutas de voz en línea creadas por el administrador, la llamada se enruta con Microsoft Calling Plan.  Si el usuario solo tiene Teléfono Microsoft sistema, la llamada se descarta porque no hay reglas que coincidan.
 
-![Muestra la directiva de enrutamiento de voz asignada al usuario John Woods](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
+![Muestra la directiva de enrutamiento de voz asignada al usuario John Woods.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
 En la tabla siguiente se resumen las designaciones de uso y las rutas de voz de la directiva de enrutamiento "Sin restricciones". 
 

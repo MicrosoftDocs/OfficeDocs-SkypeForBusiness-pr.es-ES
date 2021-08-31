@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumen: obtenga información sobre cómo migrar la configuración de usuario y mover usuarios a Teams.'
-ms.openlocfilehash: ef1de7002bd3c757a9a08f3cbf8414a9cd4c32d9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2206c9b155c26a8559dd32346e1d9ad9e0e54978
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614974"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725489"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover usuarios locales a Microsoft Teams
 
@@ -39,7 +39,7 @@ Cuando un usuario se mueve de local a solo Teams, la casa de Skype Empresarial d
 - Las reuniones preexistentes del usuario programadas para el futuro se migrarán de local a Teams.
 - Los contactos que existían localmente están disponibles en Teams poco después de que el usuario inicie sesión por primera vez.
 - Los usuarios no pueden iniciar llamadas o chats desde Skype Empresarial, ni pueden programar nuevas reuniones en Skype Empresarial. Si intentan abrir el cliente Skype Empresarial, se les redirigirá para que usen Teams como se muestra a continuación. Si el Teams no está instalado, se dirigirá a la versión web de Teams el explorador.<br><br>
-    ![Mensaje que redirige a un usuario a Teams](../media/go-to-teams-page.png)
+    ![Mensaje que redirige a un usuario a Teams.](../media/go-to-teams-page.png)
 
 Antes de mover usuarios, asegúrese de revisar los [requisitos previos](move-users-between-on-premises-and-cloud.md#prerequisites) para mover usuarios a la nube. Asegúrese también de revisar las instrucciones de migración e interoperabilidad para las organizaciones que [usan Teams junto con Skype Empresarial](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
@@ -101,7 +101,7 @@ Las herramientas de administración locales de Skype Empresarial Server 2015 con
 > [!TIP]
 > Es posible que algunos servidores deba reiniciar para que esto funcione en Skype Empresarial 2015 con CU8.
 
-![Notificación del próximo movimiento a Teams](../media/teams-upgrade-notification.png)
+![Notificación del próximo movimiento a Teams.](../media/teams-upgrade-notification.png)
 
 Para notificar a los usuarios locales que pronto se actualizarán a Teams, cree una nueva instancia de TeamsUpgradePolicy con NotifySfBUsers=true. A continuación, asigne esa directiva a los usuarios a los que desea notificar, ya sea asignando la directiva directamente al usuario o estableciendo la directiva en el sitio, grupo o nivel global. Los cmdlets siguientes crean y conceden una directiva de nivel de usuario:
 
@@ -118,7 +118,7 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 De forma predeterminada, el valor de DownloadTeams es True; sin embargo, *solo se respeta* si NotifySfbUser = True para un usuario determinado.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Move-CsUser](/powershell/module/skype/move-csuser)
 

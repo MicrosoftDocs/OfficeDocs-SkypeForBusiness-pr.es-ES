@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Puede editar las propiedades del servidor Office Web Apps Server configurado. Pueden modificarse las siguientes propiedades:'
-ms.openlocfilehash: 25372d8e6a6748c91f17c3d0ca7e8de7f8d63c44
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9872a1700ca31dfeaa0e2466c1b341c88114db3d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606349"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725719"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Editar configuración del servidor Office Web Apps
 
@@ -32,8 +32,8 @@ Puede editar las propiedades del servidor Office Web Apps Server configurado. Pu
 
 Active la casilla **El Servidor de Office Web Apps está implementado como una red externa** si este servidor está implementado en su red perimetral o en otra zona de red que se encuentra fuera del firewall interno que separa la red perimetral, las redes de poca confianza e Internet de la implementación interna.
 
-![Office Expansor de Configuración aplicaciones web](../../media/OfficeWebApps_Settings_Expander.jpg)
+![Office Expansor Configuración aplicaciones web.](../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Componentes y topologías para conferencias](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

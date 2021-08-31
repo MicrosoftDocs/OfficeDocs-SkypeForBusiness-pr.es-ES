@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: En este artículo se explican las consideraciones de planeación relevantes para implementar Salas de Microsoft Teams, la siguiente generación de Skype de sala.
-ms.openlocfilehash: e23c28bc39c9c4b70ae9ae10a6867427a5f51f39
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70fd1fabd416628fac4b934c2db5700f4e0f36c0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598354"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727809"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Plan Salas de Microsoft Teams
 
@@ -58,8 +58,8 @@ Puede implementar Salas de Microsoft Teams con Microsoft Teams, Skype Empresaria
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-|![decidir la implementación](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Implementará Salas de Microsoft Teams en su organización? </li><li>¿Cómo adquirirá sus sistemas Salas de Microsoft Teams, incluidos, como componentes independientes o como una unidad integrada?</li></ul> |
-| ![identificar actividades](../media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Identifique quién llevará a cabo las actividades clave a lo largo de la implementación.</li><li>Revise las salas de reuniones que tiene (y tiene previsto configurar) para comprender dónde desea implementar Salas de Microsoft Teams y los dispositivos periféricos que serían adecuados para el tamaño de la sala.</li></ul> |
+|![decidir la implementación.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Implementará Salas de Microsoft Teams en su organización? </li><li>¿Cómo adquirirá sus sistemas Salas de Microsoft Teams, incluidos, como componentes independientes o como una unidad integrada?</li></ul> |
+| ![identificar actividades.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Identifique quién llevará a cabo las actividades clave a lo largo de la implementación.</li><li>Revise las salas de reuniones que tiene (y tiene previsto configurar) para comprender dónde desea implementar Salas de Microsoft Teams y los dispositivos periféricos que serían adecuados para el tamaño de la sala.</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Identificar quién llevará a cabo las actividades clave a lo largo de la implementación
@@ -96,7 +96,7 @@ Como parte de su detección, es clave tener en cuenta la acústica y el diseño 
 
 | &nbsp;   | &nbsp;    |
 |-----------|------------|
-| ![salas de deplyment](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Revise los salas del ámbito y defina Salas de Microsoft Teams configuraciones para ellos.</li></ul>|
+| ![salas de deplyment.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Revise los salas del ámbito y defina Salas de Microsoft Teams configuraciones para ellos.</li></ul>|
 
 _Inventario de salón de reuniones o conferencias de ejemplo_
 
@@ -117,8 +117,8 @@ En función del proveedor que prefiera, use la información proporcionada en el 
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-| ![salas en ámbito](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Desde el inventario, ¿qué tipos de salas están en el ámbito de la implementación?</li><li>¿Qué sistemas implementará para cada tipo de salón?</li></ul>|
-| ![recopilar material](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a recopilar material operativo clave para los sistemas elegidos e interactúe con el equipo de compras.</li></ul>|
+| ![salas en ámbito.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Desde el inventario, ¿qué tipos de salas están en el ámbito de la implementación?</li><li>¿Qué sistemas implementará para cada tipo de salón?</li></ul>|
+| ![recopilar material.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a recopilar material operativo clave para los sistemas elegidos e interactúe con el equipo de compras.</li></ul>|
 
 _Ejemplo Salas de Microsoft Teams de implementación de su organización_
 
@@ -141,8 +141,8 @@ Según la escala y el enfoque de implementación, es posible que decida que los 
 
 |   &nbsp; |  &nbsp;   |
 |-----------|------------|
-| ![componentes de envío](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Enviará los componentes directamente a un sitio o a una instalación de ensayo?</li><li>Quién administrará la instalación de ensayo (si decide usar una)?</li></ul>|
-| ![planear operaciones](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Planear las operaciones.</li><li>Planear la adopción y la administración de cambios.</li></ul>|
+| ![enviar componentes.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Enviará los componentes directamente a un sitio o a una instalación de ensayo?</li><li>Quién administrará la instalación de ensayo (si decide usar una)?</li></ul>|
+| ![planear operaciones.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Planear las operaciones.</li><li>Planear la adopción y la administración de cambios.</li></ul>|
 
 ## <a name="plan-for-operations"></a>Plan de operaciones 
 
@@ -154,8 +154,8 @@ Considere qué cola de departamento de soporte técnico enrutará Salas de Micro
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![elegir administrador](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida quién administrará Salas de Microsoft Teams.</li><li>Decida a qué cola del departamento de soporte técnico se Salas de Microsoft Teams llamadas relacionadas.</li></ul>|
-| ![preparar cuentas de host](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Prepararse para hospedar cuentas. </li></ul>|
+| ![elija administrador.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida quién administrará Salas de Microsoft Teams.</li><li>Decida a qué cola del departamento de soporte técnico se Salas de Microsoft Teams llamadas relacionadas.</li></ul>|
+| ![preparar cuentas de host.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Prepararse para hospedar cuentas. </li></ul>|
 
 
 ## <a name="plan-for-adoption-and-change-management"></a>Planear la adopción y la administración de cambios

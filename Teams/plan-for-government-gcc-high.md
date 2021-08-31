@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34ef18970aa601c359aacbcfd8239d9fca2419d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ba5a17ab83cd390a4aae121ccae93adcdda3595
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625982"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732899"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Planear Office 365 Administración Pública: GCC implementaciones altas
 
@@ -53,7 +53,7 @@ La [Office 365 de servicio del](/office365/servicedescriptions/office-365-platfo
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si Office 365 Administración Pública: GCC High es adecuado para su organización.</li><li>Confirme que su organización cumple los requisitos de elegibilidad.</li></ul> |
+| ![Un icono que muestra los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si Office 365 Administración Pública: GCC High es adecuado para su organización.</li><li>Confirme que su organización cumple los requisitos de elegibilidad.</li></ul> |
 
 > [!Note]
 > Office 365 Administración Pública: GCC High solo está disponible en Estados Unidos. Los clientes que no son del gobierno de EE. UU. pueden elegir entre una serie [de Office 365 Administración Pública planes.](https://products.office.com/en/government/compare-office-365-government-plans)
@@ -69,7 +69,7 @@ Le recomendamos que se tome [](enable-features-office-365.md) un tiempo para rev
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si tendrá que modificar cualquiera de las opciones de Office 365 Administración Pública: GCC configuración de seguridad alta, resolviendo primero el impacto de los cambios que pueda realizar.</li></ul> |
+| ![Un icono que muestra un punto de decisión.](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si tendrá que modificar cualquiera de las opciones de Office 365 Administración Pública: GCC configuración de seguridad alta, resolviendo primero el impacto de los cambios que pueda realizar.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>Paso 4. Comprender qué Teams están disponibles actualmente en Office 365 Administración Pública- GCC High

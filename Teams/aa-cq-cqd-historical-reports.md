@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Obtenga información sobre cómo usar el panel de calidad de Power BI para ver los datos históricos Operador automático y Cola de llamadas.
-ms.openlocfilehash: cd32c732162c15cdaf4cfeac4c83cb53ebd5fe10
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a474b2f8e4acc89a92edcc0b20f1414d8cf38fde
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598624"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732739"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Operador automático & histórico de cola de llamadas
 
@@ -64,7 +64,7 @@ Realice los pasos siguientes:
 
 - Se le pedirá que seleccione la región de canalización de datos CQD. Seleccione la región donde se encuentra el inquilino.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de pantalla que selecciona la región de canalización de datos CQD":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de pantalla que selecciona la región de canalización de datos de CQD.":::
 
 - La región donde se encuentra el espacio empresarial se puede obtener mediante el cmdlet [Get-CsTenant.](/powershell/module/skype/get-cstenant)
 
@@ -81,11 +81,11 @@ Realice los pasos siguientes:
  
  - Para ver sus propios datos, seleccione **Actualizar en** la pestaña Inicio en Consultas en Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de pantalla seleccionando la opción de actualización":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de pantalla que selecciona la opción de actualización.":::
 
 - A continuación, se le pedirá que inicie sesión. Seleccione **Cuenta de la organización** y, a continuación, seleccione Iniciar **sesión.**
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de pantalla que muestra inicio de sesión":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de pantalla que muestra el inicio de sesión.":::
 
 - Seleccione **Conectar** y vea la actualización de datos.
 
@@ -108,11 +108,11 @@ En los pasos siguientes se supone que ya ha completado los pasos de instalación
 Realice los pasos siguientes:
 - Seleccione **la pestaña Vista** en la cinta de opciones.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de pantalla seleccionando la pestaña vista para cambiar la combinación de colores":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de pantalla seleccionando la pestaña vista para cambiar la combinación de colores.":::
 
 - Seleccione el esquema de color de la lista desplegable.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de pantalla que muestra varias combinación de colores":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de pantalla que muestra varias combinación de colores.":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Operador automático y definiciones de informes históricos de cola de llamadas
 

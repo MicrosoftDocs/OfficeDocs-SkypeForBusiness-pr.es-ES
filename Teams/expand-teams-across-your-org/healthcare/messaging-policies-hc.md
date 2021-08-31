@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Aprenda a personalizar una directiva de mensajería segura para Microsoft Teams que pueda incluir confirmaciones de lectura y notificaciones de prioridad.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: efad01c1731ba3c7bacbae012c0062350bd92b39
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72a0ab4ebce59a9fa65ec67b413892afa0b1e045
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595084"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727249"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>Mensajería segura para organizaciones sanitarias
 
@@ -37,11 +37,11 @@ Puede usar la directiva global (predeterminada para toda la organización) o bie
 
 Las directivas se administran fácilmente en el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com) iniciando sesión con las credenciales de administrador y eligiendo **Directivas de mensajería** en el panel de navegación izquierdo.
 
- ![Captura de pantalla de la página Directivas de mensajería](../../media/hc-messaging-policy-admin-center.png)
+ ![Captura de pantalla de la página Directivas de mensajería.](../../media/hc-messaging-policy-admin-center.png)
 
 Para editar la directiva de mensajería predeterminada existente para la organización, haga clic en **Global (predeterminada para toda la organización)**, tras lo cual realice los cambios. Para crear una nueva directiva de mensajería predeterminada, haga clic en **Añadir** y, después, seleccione la configuración deseada. Seleccione **Guardar** cuando termine.
 
-![Captura de pantalla de la configuración de la directiva de mensajería](../../media/hc-messaging-policy.png)
+![Captura de pantalla de la configuración de directiva de mensajería.](../../media/hc-messaging-policy.png)
 
 Las siguientes configuraciones son de especial interés como aplicaciones del sector sanitario y deberían tenerse en cuenta al diseñar una directiva personalizada que se use en el mismo:
 

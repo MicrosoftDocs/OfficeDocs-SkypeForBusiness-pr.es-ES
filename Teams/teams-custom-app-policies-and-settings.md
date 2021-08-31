@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: c00c06f86e55ed0f2c8b28315c6d83cc36ef3c25
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0eae158891648fb061c508b6702f05c1813eeea
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634834"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725739"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Administrar configuración y directivas de aplicación personalizadas en Microsoft Teams
 
@@ -41,7 +41,7 @@ Como administrador, puede usar las directivas y la configuración de aplicacione
 
 Los usuarios pueden agregar una aplicación personalizada a Teams cargando un paquete de aplicación (en un archivo .zip) directamente a un equipo o en el contexto personal. Esto es diferente de cómo se agregan las aplicaciones a través Teams de aplicaciones. Agregar una aplicación personalizada cargando un paquete de aplicación, también conocido como sideloading, le permite probar una aplicación a medida que se está desarrollando, antes de que esté lista para distribuirse ampliamente. También le permite crear una aplicación solo para uso interno y compartirla con su equipo sin enviarla al catálogo de aplicaciones de Teams en el Teams de aplicaciones.
 
-![Captura de pantalla que muestra la opción cargar una aplicación personalizada en la tienda de aplicaciones](media/teams-custom-app-policy-and-settings-upload-app.png)
+![Captura de pantalla que muestra la opción cargar una aplicación personalizada en la tienda de aplicaciones.](media/teams-custom-app-policy-and-settings-upload-app.png)
 
 ## <a name="custom-app-policy-and-settings"></a>Configuración y directiva de aplicaciones personalizadas
 
@@ -98,7 +98,7 @@ Si esta configuración está activada:
 2. Haga **clic Configuración** y, a continuación, expanda Permisos de **miembro.**
 3. Active o desactive la casilla Permitir que **los miembros carguen aplicaciones** personalizadas.
 
-    ![Captura de pantalla que muestra la configuración de la aplicación personalizada del equipo](media/teams-custom-app-policy-and-settings-team.png)
+    ![Captura de pantalla que muestra la configuración de la aplicación personalizada del equipo.](media/teams-custom-app-policy-and-settings-team.png)
 
 ### <a name="org-wide-custom-app-setting"></a>Configuración de aplicaciones personalizadas para toda la organización
 
@@ -110,7 +110,7 @@ La configuración Permitir **interacción** con aplicaciones personalizadas [](m
 2. Haga clic **en Configuración de la aplicación para toda la organización.**
 3. En **Aplicaciones personalizadas,** activa o desactiva **Permitir interacción con aplicaciones personalizadas.**
 
-    ![Captura de pantalla que muestra la configuración de la aplicación personalizada para toda la organización](media/teams-custom-app-policy-and-settings-org-wide.png)
+    ![Captura de pantalla que muestra la configuración de la aplicación personalizada para toda la organización.](media/teams-custom-app-policy-and-settings-org-wide.png)
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>Cómo funcionan conjuntamente las directivas y la configuración de aplicaciones personalizadas
 

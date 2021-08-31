@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Obtenga información sobre el control de admisión de llamadas, que puede impedir que las llamadas tengan lugar si tendrían mala calidad de medios, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 16b134e6d775d84be3fff97698d2f03ce7497c87
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b57d9f4d6a26acb33b03ab1befb9132ffebc9a20
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623602"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725969"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planear el control de admisión de llamadas en Skype Empresarial Server
 
@@ -98,7 +98,7 @@ En la siguiente figura se muestra cómo se aplica el CAC a las conexiones RTC co
 
 **Aplicación del control de admisión de llamadas en conexiones al RTC**
 
-![Aplicación de conexión de desvío de medios cac de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Aplicación de conexión de omisión de medios cac de voz.](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 ## <a name="defining-your-requirements-for-call-admission-control"></a>Definir los requisitos para el control de admisión de llamadas
 

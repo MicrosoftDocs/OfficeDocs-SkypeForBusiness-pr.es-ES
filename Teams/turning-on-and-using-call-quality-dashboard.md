@@ -23,18 +23,18 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo activar y usar el Panel de calidad de llamadas y obtener informes de resumen de la calidad de las llamadas.
-ms.openlocfilehash: a6f39fe728a6616e8f70edb86d18e8cc27cc8501
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 292fa240b9298bd60715d812ec95d8e53403c489
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637055"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58750063"
 ---
 # <a name="how-to-set-up-call-quality-dashboard"></a>Cómo configurar el panel de calidad de llamadas
 
 Abra el Panel de calidad de llamadas de Microsoft (CQD) en [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (inicie sesión con sus credenciales de administrador). O bien, vaya al centro Teams de administración y seleccione **Panel de calidad de llamadas.** 
 
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración":::
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración.":::
 
 En la página que se abre, haga clic en **Iniciar sesión** y escriba su cuenta de administrador global o Microsoft Teams cuenta de administrador. Después de la primera vez que inicie sesión, CQD empezará a recopilar y procesar datos. Tenga en cuenta que puede tardar una o más horas en procesar datos suficientes para mostrar resultados significativos en los informes.
 

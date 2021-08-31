@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Aprenda a configurar planes de llamadas, incluidos ver los planes disponibles en su región, comprar & asignar licencias, obtener números de teléfono y agregar direcciones de emergencia & ubicaciones.
-ms.openlocfilehash: 0e44c9ec30efef26840bcb79582186ed5e0e3678
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7593155711597ae94d2db97573c6b6ba7afcc18
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618486"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725729"
 ---
 # <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
 
@@ -78,7 +78,7 @@ Microsoft recomienda enviar correo o usar el método de comunicación preferido 
  
 En **Microsoft Teams**, los usuarios pueden ver su número de teléfono haciendo clic en **Llamadas** en el panel de navegación izquierdo. El número de teléfono se muestra encima del teclado de marcado.
 
-![Captura de pantalla de las opciones disponibles después de hacer clic en Llamadas](media/teams-phone-number.png)
+![Captura de pantalla de las opciones disponibles después de hacer clic en Llamadas.](media/teams-phone-number.png)
 
 
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>¿Quiere automatizar la asignación de números de teléfono?

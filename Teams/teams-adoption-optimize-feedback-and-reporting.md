@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4023a5bf998b4cc53ad0651d7af1e9146c05a110
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8aaee7a8c0b649150f93ea2a4a86a5130b80456f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631974"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732689"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimizar los comentarios y los informes sobre su adopción de Microsoft Teams
 
@@ -60,4 +60,4 @@ Hay tres tipos de informes que debe revisar a medida que implementa y adopta Mic
 - [Microsoft 365 informes en](/microsoft-365/admin/activity-reports/activity-reports) el centro de administración, desde Microsoft 365 o Office 365 vista Microsoft 365 informes en el centro de [administración,](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)Microsoft Teams actividad del usuario . También puede usar información de otros sistemas de su organización.
 - Satisfacción del servicio: se ha recopilado de foros internos de la comunidad y encuestas sobre experiencias específicas
 
-![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Impulsar el conocimiento e implementar el aprendizaje](teams-adoption-drive-awareness.md)
+![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Impulsar el conocimiento e implementar la formación](teams-adoption-drive-awareness.md)

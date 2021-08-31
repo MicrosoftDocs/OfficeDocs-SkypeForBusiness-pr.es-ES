@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1dbd1d7c586c989484fa71b1e0b0e3d1fb47550
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634844"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727409"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Administrar directivas de retención de Microsoft Teams
 
@@ -81,16 +81,16 @@ Esa página contiene información adicional sobre cómo crear y administrar dire
 
 En el caso de los chats privados (chats 1:1) o de grupo los usuarios verán que los chats anteriores a la configuración de la directiva de retención se eliminan y que se muestra un mensaje generado automáticamente que indica que «Hemos eliminado mensajes más antiguos debido a la directiva de retención de su organización» encima de los mensajes que aún no se han eliminado. Por ejemplo:
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="El usuario informó en Teams de que los mensajes de chat se eliminan debido a una directiva de retención de Teams":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="Usuario informado en Teams que el mensaje de chat se elimina debido a una Teams de retención.":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="El usuario de Teams explica que los mensajes se eliminan como resultado de una directiva de retención de Teams":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="El usuario Teams explicar los mensajes se eliminan como resultado de una Teams de retención.":::
 
 En el caso de los mensajes de canal, los usuarios (miembros del canal) verán que los mensajes eliminados desaparecen de la vista después de expirar. Si el mensaje eliminado era un mensaje primario de una conversación encadenada, en lugar del mensaje primario se mostrará un mensaje que indica «Este mensaje se ha eliminado debido a una directiva de retención». Por ejemplo:
 
-:::image type="content" source="media/retention-policies-image3.png" alt-text="Captura de pantalla del canal antes de la retención":::
+:::image type="content" source="media/retention-policies-image3.png" alt-text="Captura de pantalla del canal antes de la retención.":::
 
-:::image type="content" source="media/retention-policies-image4.png" alt-text="Captura de pantalla del canal después de la retención":::
+:::image type="content" source="media/retention-policies-image4.png" alt-text="Captura de pantalla del canal después de la retención.":::
 
 > [!NOTE]
 > Los mensajes que se muestran a los usuarios como resultado de los mensajes eliminados no se pueden configurar en este momento.

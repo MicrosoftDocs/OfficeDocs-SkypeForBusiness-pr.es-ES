@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3916eaad8834bc48c0bf937dd1ce561e720f5cf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8786d85a66d28914ead7ec11fd4185b0b0e9adfd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631344"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732539"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -91,7 +91,7 @@ En esta sección se describen diferentes escenarios para restringir la omisión 
 
 En el siguiente diagrama se muestran las restricciones habilitadas por Location-Based enrutamiento en cada escenario. Los usuarios, sitios de red y puertas de enlace habilitados para Location-Based enrutamiento tienen un borde alrededor de ellos. Use el diagrama como guía para ayudarle a comprender cómo funciona Location-Based enrutamiento en cada escenario.  
 
-![Diagrama que muestra escenarios para Location-Based enrutamiento](media/lbr-direct-routing.png "Diagrama que muestra escenarios para Location-Based enrutamiento")
+![Diagrama que muestra escenarios para Location-Based enrutamiento.](media/lbr-direct-routing.png "Diagrama que muestra escenarios para Location-Based enrutamiento")
 
 ### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams usuario coloca una llamada saliente a la RTC
 

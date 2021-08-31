@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Obtenga información sobre cómo activar o desactivar las notificaciones de teléfonos móviles para que los usuarios puedan recibir alertas sobre los mensajes instantáneos entrantes, de voz y de los mensajes instantáneos perdidos.
-ms.openlocfilehash: f44daa163dcce9298a43310b9157256c4b44fbb2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c085c02dbae8fa07b73c39c6592f4ffa0da12d55
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584424"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727569"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activar o desactivar las notificaciones del teléfono móvil
 
@@ -41,7 +41,7 @@ En los teléfonos Android y Windows Phone, las notificaciones de Skype Empresari
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Desactive las notificaciones de inserción en todos los dispositivos Windows Phone o Apple de su organización
 <a name="__top"> </a>
 
-![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
+![Un icono que muestra Skype Empresarial logotipo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Inicie sesión en Microsoft 365.
     

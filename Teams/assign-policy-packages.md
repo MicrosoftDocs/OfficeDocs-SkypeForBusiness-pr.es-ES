@@ -18,12 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar paquete
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 711e0fd321dd9eff16ad37d0f662c9f72159a955
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601205"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727199"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Asignar paquetes de directiva a usuarios y grupos
 
@@ -42,7 +42,7 @@ Un paquete de directivas en Teams es una colección de directivas predefinidas y
 2. En la página del usuario, seleccione **Directivas** y, a continuación, junto **a Paquete de directivas,** seleccione **Editar.**
 3. En el **panel Asignar paquete de** directiva, seleccione el paquete que desea asignar y, a continuación, seleccione **Guardar.**
 
-![Teams captura de pantalla del Centro de administración para la asignación de paquetes de directivas a un usuario](media/assign-policypackages-user.png)
+![Teams captura de pantalla del Centro de administración para la asignación de paquetes de directivas a un usuario.](media/assign-policypackages-user.png)
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Asignar un paquete de directiva a varios usuarios
 
@@ -51,7 +51,7 @@ Un paquete de directivas en Teams es una colección de directivas predefinidas y
 3. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 4. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
 
-![Teams captura de pantalla del Centro de administración para la asignación de paquetes de directivas a varios usuarios](media/assign-policypackages-multipleusers.png)
+![Teams captura de pantalla del Centro de administración para la asignación de paquetes de directivas a varios usuarios.](media/assign-policypackages-multipleusers.png)
 
 ## <a name="assign-a-policy-package-to-a-group"></a>Asignar un paquete de directivas a un grupo
 
@@ -79,7 +79,7 @@ Al asignar el paquete de directiva, se asigna inmediatamente al grupo. Sin embar
 
     d. Seleccione **Aplicar**.
 
-![muestra la asignación de directiva de grupo](media/group-pkg-assignment.png)
+![muestra la asignación de directiva de grupo.](media/group-pkg-assignment.png)
 
 5. Para administrar la clasificación de un tipo de directiva específico, vaya a la página de directiva específica.
 6. Para reasignar un paquete de directiva a un grupo, primero quite la asignación de directiva de grupo. A continuación, siga los pasos anteriores para asignar el paquete de directiva a un grupo.

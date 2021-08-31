@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumen: revise este tema al planear la integración de Skype Empresarial Server con Exchange 2013 o 2016.'
-ms.openlocfilehash: 382d432947ea099db35831a5db0d9ba649796b88
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc378579d9d01fe783baa96d5869b3d340588b42
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633534"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725679"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planear la Exchange de mensajería unificada en Skype Empresarial
 
@@ -117,7 +117,7 @@ Los siguientes ejemplos de configuraciones ofrecen resistencia a la mensajería 
 
 **Ejemplo 1: resistencia de la mensajería unificada de Exchange**
 
-![Exchange Diagrama de resistencia de mensajería unificada](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
+![Exchange Diagrama de resistencia de mensajería unificada.](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
 En el Ejemplo 1, los servidores de mensajería unificada de Exchange 1 y 2 están habilitados en el centro de datos de Tukwila, y los servidores de mensajería unificada de Exchange 3 y 4 están habilitados en el centro de datos de Dublín. En caso de una interrupción de mensajería unificada de Exchange en Tukwila, los registros A del sistema de nombres de dominio (DNS) de los servidores 1 y 2 deben configurarse para que apunten a los servidores 3 y 4, respectivamente. En caso de una interrupción Exchange mensajería unificada en Dublín, los registros DNS A de los servidores 3 y 4 deben configurarse para que apunten a los servidores 1 y 2, respectivamente.
 
@@ -126,7 +126,7 @@ En el Ejemplo 1, los servidores de mensajería unificada de Exchange 1 y 2 está
 
 **Ejemplo 2: resistencia de la mensajería unificada de Exchange**
 
-![Exchange Diagrama de resistencia de mensajería unificada](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
+![Exchange Diagrama de resistencia de mensajería unificada.](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
 
 En el Ejemplo 2, en condiciones normales de funcionamiento, los servidores de mensajería unificada de Exchange 1 y 2 están habilitados en el centro de datos de Tukwila, y los servidores de mensajería unificada de Exchange 3 y 4 están habilitados en el centro de datos de Dublín. Los cuatro servidores están incluidos en el plan de marcado URI del SIP de los usuarios de Tukwila; sin embargo, los servidores 3 y 4 están deshabilitados. En el caso de que se produzca una interrupción de la mensajería unificada de Exchange en Tukwila, por ejemplo, los servidores 1 y 2 de mensajería unificada de Exchange deben deshabilitarse y los servidores 3 y 4 de mensajería unificada de Exchange deben habilitarse para que el tráfico de mensajería unificada de Exchange de Tukwila se enrute a los servidores de Dublín.
 
@@ -143,6 +143,6 @@ Para obtener más información sobre cómo habilitar o deshabilitar la mensajer�
 Exchange La mensajería unificada ya no está presente en Exchange 2019, si tiene Exchange 2019 y desea una funcionalidad equivalente, deberá usar el servicio Correo de voz en la nube descrito en [Plan Correo de voz en la nube service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Introducción al proceso de implementación para integrar la mensajería unificada local y Skype Empresarial](deployment-overview.md)

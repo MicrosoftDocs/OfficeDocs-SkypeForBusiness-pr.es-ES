@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar directivas de comentarios para controlar si Teams usuarios de su organización pueden enviar comentarios sobre Teams a Microsoft.
-ms.openlocfilehash: 2308b196dfd31f6d6576f57dbe06ed5eda42cb86
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5aa828a68de40ec369a6b19bf57f065ab1f483a6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635684"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733119"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Administrar directivas de comentarios en Microsoft Teams
 
@@ -37,13 +37,13 @@ Los usuarios de su organización pueden enviar comentarios sobre Teams a Microso
 
 Los usuarios pueden enviar comentarios y sugerencias sobre Teams a nosotros yendo a **Ayuda**  >  **para enviar comentarios** en Teams. Los datos  enviados a través de Enviar comentarios se consideran "Datos de soporte técnico" en virtud de su contrato de Microsoft 365 o Office 365, incluida la información que de otro modo se consideraría "Datos del cliente" o "Datos personales".
 
-![Captura de pantalla de la opción Enviar comentarios en Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
+![Captura de pantalla de la opción Enviar comentarios en Teams.](media/manage-feedback-policies-in-teams-give-feedback.png)
 
 **Encuestas**
 
 Los usuarios también pueden calificar su experiencia con Teams y enviarnos detalles sobre la clasificación que dan. Esta encuesta emergente se muestra a los usuarios de vez en cuando en Teams. Cuando un usuario selecciona **Proporcionar comentarios** en la notificación, se muestra la encuesta para que se complete.
 
-![la notificación de encuesta y el formulario en Teams](media/manage-feedback-policies-in-teams-survey.png)
+![la notificación de encuesta y el formulario en Teams.](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>Establecer si los usuarios pueden enviar comentarios sobre Teams a Microsoft
 

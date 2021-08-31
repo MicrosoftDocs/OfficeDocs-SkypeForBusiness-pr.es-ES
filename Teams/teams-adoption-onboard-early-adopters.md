@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbc7deee746679b4e82b34dae8a0dd89b07ed37d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4b62032ac94bed2c8f393e36724249abd4c9bb81
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583584"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727789"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Incorporar usuarios pioneros y recopilar comentarios para Microsoft Teams
 
@@ -43,10 +43,10 @@ Complete los pasos siguientes con estos primeros adoptantes:
 
 Use los componentes de Microsoft 365 o Office 365 para recopilar comentarios para su proyecto.
   
-![Un icono que representa un punto de decisión](media/teams-adoption-decision-icon.png) Decisión: Si su organización ya tiene una inversión en una red Yammer, puede usarla como foro de comentarios para su programa de adopción anticipado. Si no es así, y el programa de adopción anticipado tiene menos de 5000 miembros, cree un equipo en Teams para recopilar comentarios y proporcionar formación.
+![Un icono que representa un punto de decisión.](media/teams-adoption-decision-icon.png) Decisión: Si su organización ya tiene una inversión en una red Yammer, puede usarla como foro de comentarios para su programa de adopción anticipado. Si no es así, y el programa de adopción anticipado tiene menos de 5000 miembros, cree un equipo en Teams para recopilar comentarios y proporcionar formación.
   
 > [!Note]
 > Algunas organizaciones combinarán los canales para los comentarios de los primeros usuarios en el equipo del programa de campeones del trabajo en equipo. Este es un buen enfoque porque muchos usuarios iniciales pueden convertirse en campeones en el futuro y crearán una comunidad más sólida. 
 
 
-![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Compatibilidad integrada.](teams-adoption-onboard-support.md)
+![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Soporte técnico integrado.](teams-adoption-onboard-support.md)

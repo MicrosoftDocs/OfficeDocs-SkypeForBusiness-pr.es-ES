@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Obtenga información sobre qué tipo de planes de llamadas de marcado (planes de marcado de llamadas RTC) están disponibles con Teams y cómo elegir uno para su organización.  '
-ms.openlocfilehash: 231df0f5fa5e025f81379c2736de54bcd0f353fb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 405a8902c9c367c09f7f467cb00358d75112de1f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594442"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727379"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
@@ -47,7 +47,7 @@ Los planes de marcado de inquilinos se pueden dividir en dos ámbitos: espacio e
 
 A continuación se muestra el modelo de herencia de los planes de marcado en Teams.
 
-![Cómo se heredan los planes de marcado en Teams](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![Cómo se heredan los planes de marcado en Teams.](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 Los siguientes son los posibles planes de marcado efectivos:
 

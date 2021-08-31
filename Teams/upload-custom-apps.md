@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo cargar las aplicaciones personalizadas en la tienda de aplicaciones de su organización en el Microsoft Teams de administración.
-ms.openlocfilehash: 2e5eecc0bb5f5ed7c03552057cca6d42f7395ca2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a5f145f32f86f47aac65573303fb4e7a08a8a368
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634704"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727589"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar una aplicación personalizada cargando un paquete de aplicación
 
@@ -31,7 +31,7 @@ ms.locfileid: "58634704"
 
 En este artículo se proporcionan instrucciones de un extremo a otro sobre cómo llevar la aplicación Teams desde el desarrollo hasta la implementación hasta la detección. Esta guía se centra en los Teams de la aplicación y está destinada a administradores y profesionales de TI. Para obtener más información sobre el desarrollo de Teams aplicaciones, consulte la Teams <a href="/microsoftteams/platform" target="_blank">de desarrolladores.</a>
 
-![Información general sobre la aplicación desde el desarrollo hasta la implementación](media/upload-custom-apps.png)
+![Información general sobre la aplicación desde el desarrollo hasta la implementación.](media/upload-custom-apps.png)
 
 ## <a name="develop"></a>Desarrollar
 
@@ -77,7 +77,7 @@ Para que la aplicación esté disponible para los usuarios de la tienda de aplic
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**.
 2. Haga **clic Upload**, haga clic en Seleccionar un archivo y, **a** continuación, seleccione el paquete de aplicación que recibió del desarrollador.
 
-   ![Captura de pantalla de carga de una aplicación en el centro de administración](media/manage-your-lob-apps-upload-new-app.png) 
+   ![Captura de pantalla de carga de una aplicación en el centro de administración.](media/manage-your-lob-apps-upload-new-app.png) 
 
 ## <a name="set-up-and-manage"></a>Configurar y administrar
 
@@ -99,7 +99,7 @@ Para que pueda buscar en el registro de auditoría, primero debe activar la cara
 
 Los usuarios que tengan permisos para la aplicación pueden encontrarla en la tienda de aplicaciones de su organización. Vaya a **Nombre de la organización *integrado*** en la página Aplicaciones para buscar las aplicaciones personalizadas de su organización.
 
-![Captura de pantalla de la página Aplicaciones que muestra la aplicación publicada ](media/custom-app-lifecycle-discovery.png)
+![Captura de pantalla de la página Aplicaciones que muestra la aplicación publicada.](media/custom-app-lifecycle-discovery.png)
 
 Si creó y asignó una directiva de configuración de aplicaciones, la aplicación se ancla a la barra de aplicaciones en Teams para facilitar el acceso a los usuarios a los que se les asignó la directiva.
 
@@ -123,9 +123,9 @@ En la mayoría de los casos, después de completar una actualización de la apli
 * Se ha agregado una nueva pestaña configurable
 * Se han cambiado las propiedades dentro de "webApplicationInfo"
 
-![Captura de pantalla de la lista de aplicaciones, que muestra las aplicaciones que tienen una nueva versión disponible](media/manage-your-custom-apps-update1.png)
+![Captura de pantalla de la lista de aplicaciones, que muestra las aplicaciones que tienen una nueva versión disponible.](media/manage-your-custom-apps-update1.png)
 
-![Captura de pantalla de la opción de actualización de una aplicación](media/manage-your-custom-apps-update2.png)
+![Captura de pantalla de la opción de actualización de una aplicación.](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-topics"></a>Temas relacionados
 

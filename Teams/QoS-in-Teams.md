@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3547f23d43f07d8de28ba8ca53626be119de30de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f87dfea2eb847a8bf6ae4c6aa95b099d93b0c1e0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595292"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732939"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar calidad de servicio (QoS) en Microsoft Teams
 
@@ -45,7 +45,7 @@ Para que QoS sea eficaz, debe aplicar una configuración de QoS coherente en tod
 
 _Figura 1. La relación entre las redes de una organización y Microsoft 365 servicios Office 365 organización_
 
-![Ilustración de la relación entre redes y servicios](media/Qos-in-Teams-Image1.png "La relación entre las redes de una organización y los servicios Microsoft 365 o Office 365: la red local y los dispositivos se conectan con una red de interconexión, que a su vez se conecta con los servicios de audioconferencia y voz en la nube de Microsoft 365 o Office 365.")
+![Ilustración de la relación entre redes y servicios.](media/Qos-in-Teams-Image1.png "La relación entre las redes de una organización y los servicios Microsoft 365 o Office 365: la red local y los dispositivos se conectan con una red de interconexión, que a su vez se conecta con los servicios de audioconferencia y voz en la nube de Microsoft 365 o Office 365.")
 
 ## <a name="qos-implementation-checklist"></a>Lista de comprobación de implementación de QoS
 
@@ -102,7 +102,7 @@ Al implementar QoS, define varias colas con una de las varias características d
 
 _Figura 2. Ejemplos de colas de QoS_
 
-![Ilustración de las colas de QoS y la división de ancho de banda](media/Qos-in-Teams-Image2.png "El ancho de banda total disponible se divide entre varias colas (audio, vídeo y otro tráfico) a las que se han asignado diferentes prioridades.")
+![Ilustración de las colas de QoS y la división de ancho de banda.](media/Qos-in-Teams-Image2.png "El ancho de banda total disponible se divide entre varias colas (audio, vídeo y otro tráfico) a las que se han asignado diferentes prioridades.")
 
 Una analogía simple es que QoS crea "carriles de uso compartido de coches" virtuales en su red de datos para que algunos tipos de datos nunca o rara vez se encuentren con un retraso. Una vez creados esos carriles, puede ajustar su tamaño relativo y administrar de forma mucho más eficaz el ancho de banda de conexión que tiene, a la vez que ofrece experiencias de nivel empresarial para los usuarios de su organización.
 

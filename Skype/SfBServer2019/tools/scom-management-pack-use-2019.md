@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Summary: Learn how to configure your Skype Empresarial Server 2019 infrastructure to work with System Center Operations Manager.'
-ms.openlocfilehash: cdb201280afb1419e5b8975b31e3c7725902cd72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 90c40560ef1d39b462ce58b39804006dc7121024
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582014"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727599"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Administrar Skype Empresarial Server 2019 con SCOM Management Pack
  
@@ -58,7 +58,7 @@ En la tabla siguiente se muestran los requisitos de capacidad y sistema operativ
 |**Componente de hardware**|**Requisito mínimo**|
 |:-----|:-----|
 |CPU  <br/> |Uno de los siguientes:  <br/> Procesador de 64 bits, cuatro núcleos, 2,33 GHz o superior  <br/> Procesador de 2 vías de 64 bits, doble núcleo, 2,33 GHz o superior  <br/> |
-|Memoria  <br/> |8 GB  <br/> |
+|Memoria  <br/> |8 GB  <br/> |
 |Sistema operativo  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |Red  <br/> |1 adaptador de red a 1 Gbps  <br/> |
    
@@ -128,7 +128,7 @@ Skype Empresarial Server módulos de administración de 2019 proporcionan una ma
 |:-----|:-----|:-----|
 |1  <br/> |Registro (inicio de sesión de usuario)  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
 |2  <br/> |Servicio de libreta de direcciones (descarga de archivos)  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
-|3   <br/> |Consulta web de la libreta de direcciones  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
+|3  <br/> |Consulta web de la libreta de direcciones  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
 |4   <br/> |Presencia  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
 |5   <br/> |Almacén de contactos unificado  <br/> |Lync Server 2013 y posteriores disponibles  <br/> |
    
@@ -151,7 +151,7 @@ Skype Empresarial Server módulos de administración de 2019 proporcionan una ma
 |10  <br/> |Conferencia de datos  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
 |11   <br/> |Conferencia de mensajes instantáneos  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
 |12   <br/> | Chat persistente <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
-|13   <br/> |Unirse Selector (reuniones programadas)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
+|13  <br/> |Unirse Selector (reuniones programadas)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
 |14   <br/> |Conferencia de acceso telefónico local  <br/> |Disponible en Skype Empresarial Server 2015 y posteriores <br/> |
 |15   <br/> |Conferencia de uso compartido de aplicaciones  <br/> |Disponible en Skype Empresarial Server 2015 y posteriores <br/> |
 |16   <br/> |Conferencia UCWA (unirse a una reunión web)  <br/> |Disponible en Skype Empresarial Server 2015 y posteriores <br/> |
@@ -185,13 +185,13 @@ En la tabla siguiente se muestran los estados de mantenimiento de los objetos Sk
 |Skype Empresarial Server Port Watcher  <br/> |Instancia de comprobaciones de puerto que se ejecutan en un grupo de servidores.  <br/> |
 |Simple URL Watcher  <br/> |Realiza el sondeo HTTPS de las direcciones URL sencillas configuradas en una implementación.  <br/> |
    
-![Paquete acumulativo de SCOM](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
+![Paquete acumulativo de SCOM.](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
 Un grupo Skype Empresarial Server puede contener varios sistemas de Skype Empresarial Server individuales (con más de un rol Skype Empresarial Server, Skype Empresarial Server servicio y Skype Empresarial Server componente). Por lo tanto, el error de un servidor o componente individual es menos crítico para el estado general del grupo de servidores de Skype Empresarial Server, ya que otros servidores del mismo grupo pueden proporcionar el servicio de aplicación al cliente. El estado se revertirá en un nivel porcentual al Skype Empresarial Server grupo de servidores. 
   
 El Skype Empresarial Server grupo de servidores realiza transacciones sintéticas en un grupo Skype Empresarial Server grupo de servidores. El error consecutivo de una o más transacciones sintéticas (un proceso conocido como intervalo de sondeo consecutivo) subirá el estado de estado crítico al nivel de grupo (peor de cualquier transacción sintética), como se muestra en el siguiente diagrama. 
   
-![Sondeo consecutivo de paquete acumulativo de SCOM](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
+![Sondeo consecutivo de paquete acumulativo de SCOM.](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
 ## <a name="best-practice-create-a-management-pack-for-customizations"></a>Procedimiento recomendado: Crear un módulo de administración para personalizaciones
 
@@ -256,6 +256,6 @@ Para obtener información adicional acerca de Operations Manager, consulte los b
 > [!IMPORTANT]
 > Toda la información y el contenido de los sitios que no sean propiedad de Microsoft han sido proporcionados por el propietario o los usuarios del sitio web. Microsoft no ofrece garantías, expresas, implícitas o estatutarias, en cuanto a la información de este sitio web. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Skype Empresarial Server de administración de 2019](../management-tools-2019.md)

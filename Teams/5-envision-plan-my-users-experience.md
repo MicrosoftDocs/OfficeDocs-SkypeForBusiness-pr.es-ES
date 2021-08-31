@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6482baa6738d4f7c3495085f86ae9b9a054d0eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5176f40886bdc086df43a130cb9d8414bd8f40a3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624842"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732969"
 ---
 # <a name="plan-my-users-experience"></a>Planear la experiencia de mis usuarios
 
@@ -43,7 +43,7 @@ Una de las ventajas clave de Teams es que el cliente se mantiene actualizado aut
 
 Como puede ver en el siguiente diagrama, los puntos de conexión son un bloque de creación importante para proporcionar una experiencia de calidad para los usuarios.
 
-![Diagrama que describe los tres componentes de calidad](media/plan-my-users-experience-image1.png "Diagrama que describe los tres componentes de calidad y cómo la administración de servicios se superpone a los tres componentes. Con un foco en los puntos de conexión.")
+![Diagrama que describe los tres componentes de calidad.](media/plan-my-users-experience-image1.png "Diagrama que describe los tres componentes de calidad y cómo la administración de servicios se superpone a los tres componentes. Con un foco en los puntos de conexión.")
 
 Teams pueden ejecutarse en muchos dispositivos, incluidos equipos PC, Mac, tabletas y dispositivos móviles. Parte de la experiencia no solo abarca el dispositivo, sino cómo un usuario se conecta al dispositivo, por ejemplo, con el micrófono o altavoz integrado del dispositivo, auriculares o auriculares optimizados. El uso de un auricular con micrófono optimizado, se puede enriquecer la experiencia general del usuario.
 

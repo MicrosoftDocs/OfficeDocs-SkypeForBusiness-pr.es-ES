@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lea este tema para obtener información sobre cómo controlar las conmutación por error del tronco en las llamadas salientes desde Teams al controlador de borde de sesión (SBC).
-ms.openlocfilehash: 878a4735585ee183f0156b44c253b079c2e6e24c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83320e93df7cbf476d71b3b9165d50ca387292b9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619456"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727869"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Conmutación por error de tronco en llamadas salientes
 
@@ -45,12 +45,12 @@ Este SBC en particular podría tener dificultades para conectarse al destinatari
 En el siguiente diagrama, cuando un usuario realiza una llamada a un número de teléfono, hay dos SBC en la ruta que potencialmente pueden entregar esta llamada. Inicialmente, SBC1.contoso.com está seleccionado para la llamada, pero SBC1.contoso.com no puede llegar a una red PTSN debido a un problema de red.
 De forma predeterminada, la llamada se completará en este momento. 
  
-![Diagrama que muestra que SBC no puede llegar a RTC debido a un problema de red](media/direct-routing-failover-response-codes1.png)
+![Diagrama que muestra que SBC no puede llegar a RTC debido a un problema de red.](media/direct-routing-failover-response-codes1.png)
 
 Pero hay un SBC más en la ruta que potencialmente puede entregar la llamada.
 Si configura el parámetro , se probará el segundo `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"` SBC SBC2.contoso.com en el siguiente diagrama:
 
-![Diagrama que muestra el enrutamiento al segundo SBC](media/direct-routing-failover-response-codes2.png)
+![Diagrama que muestra el enrutamiento al segundo SBC.](media/direct-routing-failover-response-codes2.png)
 
 Establecer el parámetro -FailoverResponseCodes y especificar los códigos le ayuda a ajustar el enrutamiento y evitar posibles problemas cuando un SBC no puede realizar una llamada debido a problemas de red u otros.
 

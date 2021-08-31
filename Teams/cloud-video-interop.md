@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39452a659f1a95d66aeac4a18a4d7801764437ae
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e48b29ec04d10c899d646f4a28605e40fc2da09
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618646"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725509"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidad de vídeos en la nube para Microsoft Teams
 
@@ -59,10 +59,10 @@ Los siguientes partners tienen soluciones de interoperabilidad de vídeo para Mi
 
 |Partner|Solución de partner|
 |----|---|
-|![El logotipo que representa Poly RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect Service</a> |
-|![El logotipo que representa Pexip Infinity](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity para Microsoft Teams</a> | 
-|![El logotipo que representa BlueJeans Gateway](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway para Microsoft Teams</a> |
-|![El logotipo que representa Cisco CVI](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Integración de vídeo de Cisco Webex para Microsoft Teams</a>|
+|![El logotipo que representa Poly RealConnect.](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect Service</a> |
+|![El logotipo que representa Pexip Infinity.](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity para Microsoft Teams</a> | 
+|![El logotipo que representa BlueJeans Gateway.](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway para Microsoft Teams</a> |
+|![El logotipo que representa Cisco CVI.](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Integración de vídeo de Cisco Webex para Microsoft Teams</a>|
 
 ### <a name="cloud-video-interop-overview"></a>Información general sobre la interoperabilidad de vídeo en la nube
 
@@ -72,14 +72,14 @@ Las soluciones ofrecidas por nuestros partners consisten en componentes que se p
      
 En el siguiente diagrama se muestra la arquitectura de alto nivel de nuestras soluciones de partners.
 
-![Diagrama que describe una solución Teams partner de interoperabilidad de vídeo en la nube](media/teams-cloud-video-interop-partner-solution.png)
+![Diagrama que describe una solución Teams partner de interoperabilidad de vídeo en la nube.](media/teams-cloud-video-interop-partner-solution.png)
 
 
 ## <a name="deploy-cloud-video-interop"></a>Implementar la interoperabilidad de vídeo en la nube
 
 Al implementar una solución de interoperabilidad de vídeo en la nube, es importante comprender que va a implementar una solución de partner. Los pasos generales que debe seguir para implementar la interoperabilidad de vídeo en la nube se muestran en el siguiente diagrama.
 
-![Diagrama que describe la implementación de CVI en su organización](media/deploying-cvi.png)
+![Diagrama que describe la implementación de CVI en su organización.](media/deploying-cvi.png)
 
 ### <a name="plan"></a>Plan
 

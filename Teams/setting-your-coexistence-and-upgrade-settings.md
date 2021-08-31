@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb4c5de3db934b9a14a58504b9a7b7b676a038051b347560f3f7121577849d1a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39d2592d15e0c74f21109edae9e5af29206e6050
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345329"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725989"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>Establecer configuración de actualización y coexistencia
 
@@ -38,7 +38,7 @@ Puede comprender mejor los modos disponibles leyendo Comprender [Microsoft Teams
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>Establecer opciones de actualización para todos los usuarios de su organización
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
 
 1. En el [Microsoft Teams de administración](https://admin.teams.microsoft.com/), en el panel de navegación izquierdo, vaya a Configuración **de** toda la organización  >  **Teams actualización.** 
 
@@ -70,7 +70,7 @@ Puede comprender mejor los modos disponibles leyendo Comprender [Microsoft Teams
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Establecer opciones de actualización para un solo usuario de la organización
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, vaya **a Usuarios** y, a continuación, seleccione el usuario de la lista. 
 2. En la **pestaña Cuenta** del usuario, en **Teams,** haga clic en **Editar.**

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Siga estos pasos para crear un número de teléfono predeterminado para que los autores de llamadas se unan a Microsoft Teams reunión.
-ms.openlocfilehash: 34fd1592729e18978e1bf5c3aa65e29659092cab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c740147e551dade443852a98c5cdafac047815f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608807"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732719"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams
 
@@ -51,7 +51,7 @@ Una vez que el usuario está habilitado para el servicio de audioconferencia, el
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Establecer o cambiar el número de teléfono de audioconferencia predeterminado para un organizador o usuario de la reunión
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
+![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
 
 Debe ser administrador de servicio de Teams para poder realizar estos cambios. Consulte [Usar los roles de administrador de Teams para administrar Teams](./using-admin-roles.md) para obtener información sobre cómo obtener roles de administrador y permisos.
 
@@ -59,13 +59,13 @@ Debe ser administrador de servicio de Teams para poder realizar estos cambios. C
 
 2. En el panel de navegación izquierdo, haga clic en **Usuarios.**
 
-    ![Muestra la selección de usuarios en el Microsoft Teams de administración](media/Admin-users.png)
+    ![Muestra la selección de usuarios en el Microsoft Teams de administración.](media/Admin-users.png)
 
 3. Haga clic en el nombre de usuario de la lista de usuarios disponibles.
 
 4. Junto a **Audioconferencia,** haga clic en **Editar.**
 
-    ![Haga clic en Editar junto a Audioconferencia](media/teams-set-phone-numbers-on-invites-image3.png)
+    ![Haga clic en Editar junto a Audioconferencia.](media/teams-set-phone-numbers-on-invites-image3.png)
 
 5. Use los **campos Número de pago** o **Número** gratuito para escribir los números del usuario.
 

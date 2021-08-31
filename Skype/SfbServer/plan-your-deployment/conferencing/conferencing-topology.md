@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Summary: Read this topic to learn about planning your conferencing topology in Skype Empresarial Server.'
-ms.openlocfilehash: d5a048603e68b020f0aba750a4dd34cfd334f182
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 09d793a75ab72ef96d3ded85156c99a7590e087d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599915"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732639"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planee la topología de conferencia para Skype Empresarial Server
  
@@ -103,7 +103,7 @@ Una única reunión grande requiere al menos un servidor front-end y un servidor
   
 **Topología de reunión grande**
 
-![Topología de reunión grande](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
+![Topología de reunión grande.](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
   
 El usuario que hospeda las reuniones grandes debe tener su cuenta de usuario hospedada en el grupo de servidores front-end. Sin embargo, no se recomienda hospedar otras cuentas de usuario en este grupo. Úselo solo para reuniones grandes. El procedimiento recomendado es crear una cuenta de usuario especial en este grupo y usarla solo para hospedar reuniones grandes. Dado que la configuración de reunión grande está optimizada para el rendimiento, su uso como usuario normal podría tener problemas, como la incapacidad de promover una sesión P2P a una reunión cuando se trata de un extremo RTC.
   

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7590d2041ed64f62765b33c291414abb618d1699
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1c4c31687e5812c14b4a62deacb16fdd3550969
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625872"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725539"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Darlo a conocer e implementar formación para Microsoft Teams
 
@@ -71,4 +71,4 @@ Comparta la información que obtiene de sus canales de comentarios con el hashta
 
 [Obtenga más información sobre los Microsoft Teams de uso en el Centro de administración de Microsoft 365.](teams-activity-reports.md)
 
-![Un icono que muestra los pasos ](media/teams-adoption-next-icon.png) siguientes: Programar [revisiones de estado del servicio](teams-adoption-schedule-service-health-reviews.md)
+![Un icono que muestra los pasos siguientes.](media/teams-adoption-next-icon.png) Siguiente: Programar [revisiones de estado del servicio](teams-adoption-schedule-service-health-reviews.md)

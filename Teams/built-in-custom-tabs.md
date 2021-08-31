@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5eb82e322f8e8f28c7e1afc8c3c0b76ce277a36
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: cf48eef40ec71d1ca661b98ce6f6c842fe636942
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372070"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727179"
 ---
 # <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 
@@ -53,7 +53,7 @@ Los propietarios y los miembros del equipo pueden agregar pestañas adicionales 
 
 - Se proporcionan instrucciones detalladas cuando un miembro del equipo intenta agregar una pestaña personalizada a su canal o chat. Cuando se agrega una pestaña personalizada a un canal, se crea una conversación **tab** que permite a los miembros del equipo tener discusiones centradas sobre el contenido.
 
-    ![Captura de pantalla de una pestaña personalizada con una conversación de pestaña a la derecha](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![Captura de pantalla de una pestaña personalizada con una conversación de pestaña a la derecha.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 ## <a name="develop-custom-tabs"></a>Desarrollar fichas personalizadas
 

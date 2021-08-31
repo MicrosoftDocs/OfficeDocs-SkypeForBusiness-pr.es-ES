@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: En este artículo se debata sobre las consideraciones de planeación para usar Azure Monitor para administrar Salas de Microsoft Teams dispositivos en su Skype Empresarial o Teams implementación.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2808d424d79d8d2b60af0573678ee18d0a52bdeb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cdd5d95d6f5f94bbe73da63b6d0b0f8e8e070cf9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619366"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726029"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planear Salas de Microsoft Teams administración con Azure Monitor
  
@@ -32,7 +32,7 @@ En este artículo se describe los requisitos, el diseño y la arquitectura y los
   
 ## <a name="functional-overview"></a>Descripción del funcionamiento
 
-![diagrama de Salas de Microsoft Teams administración con Azure Monitor](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
+![diagrama de Salas de Microsoft Teams con Azure Monitor.](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
   
 La Salas de Microsoft Teams en el dispositivo de consola escribe eventos en su Windows de eventos. Una vez instalado, un agente de Supervisión de Microsoft pasa la información al servicio Azure Monitor. 
   

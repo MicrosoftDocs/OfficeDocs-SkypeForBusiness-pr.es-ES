@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Use una cámara de contenido en una Sala de Microsoft Teams, que utiliza software de procesamiento de imágenes para que los presentadores puedan dibujar en una pizarra tradicional.
-ms.openlocfilehash: e24a90e65a5d844a5431951283153a5de2406498
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae919e50e7e38394e3e9af70a927d5bcdd959f50
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613009"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726019"
 ---
 # <a name="content-cameras"></a>Cámaras de contenido
 
@@ -48,7 +48,7 @@ La colocación ideal de una cámara de contenido es centrarla vertical y horizon
 
 Puede instalar la cámara hasta 152 mm más alto que la parte superior de la pizarra y centrarla en la pizarra, como se muestra abajo. Asegúrese de que la imagen de cámara incluya al menos un borde de 152 mm a ambos lados horizontalmente. Puede usar la vista previa de la cámara en la aplicación Salas de Microsoft Teams para determinar la ubicación final de la cámara.
 
-![Diagrama de colocación de la cámara de contenido](../media/Magic-whiteboard.png)
+![Diagrama de ubicación de la cámara de contenido.](../media/Magic-whiteboard.png)
 
 ### <a name="camera-distances"></a>Distancias de la cámara
 
@@ -88,12 +88,12 @@ También puede consultar el catálogo de dispositivos de Microsoft Teams en [aka
 
 Una vez que la cámara esté instalada en la sala, puede configurarla en la consola de Salas de Microsoft Teams de esa sala:
 
-1. Seleccione **Configuración** ![icono de Configuración](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png), inicie sesión como administrador y seleccione **Configuración del dispositivo**.
+1. Seleccione **Configuración** Configuración icono. , inicie sesión como ![ administrador y seleccione Dispositivo ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) **Configuración**.
 2. En la sección **valores predeterminados de la cámara**, seleccione la cámara de contenido y asegúrese de que esté seleccionada la opción **Mejoras de contenido**.
 3. (Opcional) Si la cámara se instaló al revés porque estaba instalada desde el techo, compruebe la opción **Girar la cámara de contenido 180°**.
 4. Seleccione **Guardar y salir**.
 
-![Configuración de la cámara de contenido](../media/content-camera.png)
+![Configuración de la cámara de contenido.](../media/content-camera.png)
 
 También puede ajustar estas opciones de forma remota con un [archivo de configuración XML](xml-config-file.md).
 

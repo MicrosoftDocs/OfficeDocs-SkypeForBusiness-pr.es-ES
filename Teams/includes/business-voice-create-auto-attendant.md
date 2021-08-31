@@ -33,13 +33,13 @@ Puede crear una cuenta de recursos en el centro Teams administración.
 
 3. En el **panel Agregar cuenta de** recursos, rellene **Nombre** para mostrar, Nombre de **usuario** y elija **Operador automático** para el tipo de **cuenta Recurso**
 
-    ![Captura de pantalla de la interfaz de usuario agregar cuenta de recursos](../media/resource-account-add.png)
+    ![Captura de pantalla de la interfaz de usuario agregar cuenta de recursos.](../media/resource-account-add.png)
 
 4. Haga clic en **Guardar**.
 
     La nueva cuenta aparecerá en la lista de cuentas.
 
-    ![Captura de pantalla de una lista de cuentas de recursos](../media/resource-accounts-page.png)
+    ![Captura de pantalla de una lista de cuentas de recursos.](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>Asignar una licencia
 
@@ -51,7 +51,7 @@ Debe asignar una licencia *Microsoft 365 Sistema telefónico usuario virtual* a 
 
 3. Haga clic en **Guardar cambios**.
 
-    ![Captura de pantalla de la interfaz de usuario asignar licencias en el Centro de administración de Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
+    ![Captura de pantalla de la interfaz de usuario asignar licencias en el Centro de administración de Microsoft 365.](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="assign-a-service-number"></a>Asignar un número de servicio
 
@@ -63,7 +63,7 @@ Si necesita que este operador automático sea accesible mediante un número de t
 
 3. En el **cuadro Número de teléfono** asignado, busque el número que desea usar y haga clic en **Agregar.**
 
-    ![Captura de pantalla de la interfaz de usuario asignar número de servicio](../media/resource-account-assign-phone-number.png)
+    ![Captura de pantalla de la interfaz de usuario asignar número de servicio.](../media/resource-account-assign-phone-number.png)
 
 4. Haga clic en **Guardar**.
 
@@ -86,7 +86,7 @@ Para configurar un operador automático
 
 6. Elija si desea habilitar las entradas de voz. Cuando se habilita, el nombre de cada opción de menú se convierte en una palabra clave de reconocimiento de voz. Por ejemplo, los autores de llamadas pueden decir "Uno" para seleccionar la opción de menú asignada a la tecla 1, o pueden decir "Ventas" para seleccionar la opción de menú denominada "Ventas".
 
-    ![Captura de pantalla de la configuración del operador automático para el nombre, el operador, la zona horaria, el idioma y las entradas de voz](../media/auto-attendant-general-info-page-new.png)
+    ![Captura de pantalla de la configuración del operador automático para el nombre, el operador, la zona horaria, el idioma y las entradas de voz.](../media/auto-attendant-general-info-page-new.png)
 
 7. Haga clic en **Siguiente**.
 
@@ -103,7 +103,7 @@ Elegir las opciones de flujo de llamadas
 
     Si selecciona Escribir un mensaje **de** saludo, el sistema leerá el texto que escriba (hasta 1000 caracteres) cuando el operador automático responda a una llamada.
 
-    ![Captura de pantalla de la configuración del mensaje de saludo](../media/auto-attendant-call-flow-greeting-message.png)
+    ![Captura de pantalla de la configuración del mensaje de felicitación.](../media/auto-attendant-call-flow-greeting-message.png)
 
 2. Elija cómo desea enrutar la llamada.
 
@@ -113,7 +113,7 @@ Elegir las opciones de flujo de llamadas
 
     Si selecciona Opciones **de menú** Reproducir, puede elegir Reproducir un archivo de **audio** o Escribir en un mensaje de saludo y, **a** continuación, elegir entre las opciones de menú y la búsqueda de directorio.
 
-    ![Captura de pantalla de la configuración de enrutamiento de llamadas](../media/auto-attendant-call-flow-route-call-message.png)
+    ![Captura de pantalla de la configuración de enrutamiento de llamadas.](../media/auto-attendant-call-flow-route-call-message.png)
 
 3. Si desea que los autores de llamadas usen teclas de marcado para navegar, en Establecer opciones de **menú,** elija lo que quiere que suceda cuando los autores de llamadas presionen una tecla de marcado. (Si va a crear este operador automático como directorio de la empresa, deje las opciones de la tecla de marcado en blanco).
 
@@ -135,7 +135,7 @@ Elegir las opciones de flujo de llamadas
 
     - **Redirigir a:** a dónde quiere que vaya la llamada cuando los autores de llamadas elijan esta opción. Si va a redirigir a un operador automático o a una cola de llamadas, elija la cuenta de recursos asociada.
 
-    ![Captura de pantalla de las opciones de la tecla de marcado](../media/auto-attendant-call-flow-menu-options-complete.png)
+    ![Captura de pantalla de las opciones de la tecla de marcado.](../media/auto-attendant-call-flow-menu-options-complete.png)
 
 4. Si desea usar este operador automático como directorio de la empresa, en **Búsqueda** de directorios, **seleccione Marcar por nombre.** Al habilitar esta opción, los autores de llamadas pueden decir el nombre del usuario o escribirlo en el teclado del teléfono. Cualquier usuario en línea con una Sistema telefónico es un usuario apto y se puede encontrar con Marcado por nombre. 
 
@@ -154,7 +154,7 @@ Según cómo haya configurado los operadores automáticos y las colas de llamada
 
 Si quiere un enrutamiento de llamadas independiente para las personas que llaman fuera del horario laboral, especifique su horario laboral para cada día. Haga **clic en Agregar nueva hora** para especificar varios conjuntos de horas para un día determinado, por ejemplo, para especificar un descanso para el almuerzo.
 
-![Captura de pantalla de la configuración de días y horas adicionales](../media/auto-attendant-business-hours.png)
+![Captura de pantalla de la configuración de días y horas adicionales.](../media/auto-attendant-business-hours.png)
 
 Una vez que haya especificado el horario laboral, elija las opciones de enrutamiento de llamadas para horas adicionales. Las mismas opciones están disponibles que para el enrutamiento de llamadas en horario laboral que especificó en **el paso 3 : flujo de llamadas.**
 
@@ -177,19 +177,19 @@ El operador automático puede tener un flujo de llamadas para cada día festivo 
 
 4. Elija el tipo de saludo que desea usar.
 
-    ![Captura de pantalla de la configuración de saludo navideña y navideña](../media/auto-attendant-holiday-greeting.png)
+    ![Captura de pantalla de la configuración de saludo navideña y navideña.](../media/auto-attendant-holiday-greeting.png)
 
 5. Elija si desea desconectar **o** **redirigir** la llamada.
 
 6. Si elige redirigir, elija el destino de enrutamiento de llamadas para la llamada.
 
-    ![Captura de pantalla de la configuración de acción de llamada navideña](../media/auto-attendant-holiday-actions.png)
+    ![Captura de pantalla de la configuración de acción de llamada navideña.](../media/auto-attendant-holiday-actions.png)
 
 7. Haga clic en **Guardar**.
 
     Repita el procedimiento según sea necesario para cada vacaciones adicionales.
 
-    ![Captura de pantalla de la configuración de vacaciones con días festivos en la lista](../media/auto-attendant-holiday-call-settings.png)
+    ![Captura de pantalla de la configuración de vacaciones con días festivos en la lista.](../media/auto-attendant-holiday-call-settings.png)
 
     Cuando haya agregado todos los días festivos, haga clic en **Siguiente.**
 
@@ -202,7 +202,7 @@ El *ámbito de marcado* define qué usuarios están disponibles en el directorio
 
 Puede incluir o excluir usuarios  específicos seleccionando  Grupo de usuarios personalizados en Incluir o Excluir y eligiendo uno o varios grupos de Microsoft 365, listas de distribución o grupos de seguridad.  Por ejemplo, es posible que desee excluir ejecutivos de su organización del directorio de marcado. (Si un usuario está en ambas listas, se excluirá del directorio).
 
-![Captura de pantalla del ámbito de marcado para incluir y excluir opciones](../media/auto-attendant-dial-scope.png)
+![Captura de pantalla del ámbito de marcado incluir y excluir opciones.](../media/auto-attendant-dial-scope.png)
 
 > [!NOTE]
 > Un nuevo usuario puede tardar hasta 36 horas en aparecer en el directorio.
@@ -220,11 +220,11 @@ Para agregar una cuenta de recursos
 
 1. Haga **clic en** Agregar y busque la cuenta que desea agregar. Haga **clic en Agregar** y, a continuación, haga clic en **Agregar.**
 
-    ![Captura de pantalla del panel agregar cuentas de la cuenta de recursos](../media/auto-attendant-add-resource-account.png)
+    ![Captura de pantalla del panel agregar cuentas de la cuenta de recursos.](../media/auto-attendant-add-resource-account.png)
 
 2. Cuando haya terminado de agregar cuentas de servicio, haga clic en **Enviar.**
 
-    ![Captura de pantalla de la lista de cuentas de recursos que muestra la cuenta de recursos con el número de servicio asignado](../media/auto-attendant-resource-account-assigned.png)
+    ![Captura de pantalla de la lista de cuentas de recursos que muestra la cuenta de recursos con el número de servicio asignado.](../media/auto-attendant-resource-account-assigned.png)
 
     Esto completa la configuración del operador automático.
 

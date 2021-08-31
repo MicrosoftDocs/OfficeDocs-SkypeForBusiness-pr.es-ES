@@ -18,12 +18,12 @@ description: Notificación de llamada de enrutamiento directo
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 27e06a45cef49f2291fdf75a8375026b9a930953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 80c7c5487d61447a38852ca30328126b19c0499b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617416"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725929"
 ---
 # <a name="manage-call-notifications"></a>Administrar notificaciones perdidas
 
@@ -37,7 +37,7 @@ En el diagrama siguiente, el usuario Irena tiene dos puntos de conexión:
 Cuando llega una llamada, el SBC bifurca la llamada entre Sistema telefónico enrutamiento directo y el SBC de terceros.
 
 
-![Diagrama que muestra puntos de conexión Teams bifurcados](media/direct-routing-call-notification-1.png)
+![Diagrama que muestra puntos de conexión Teams bifurcados.](media/direct-routing-call-notification-1.png)
 
 Si la llamada se acepta en Bifurcación 2 (por el SBC de terceros), Teams generará una notificación de "Llamada perdida".  
 
@@ -50,4 +50,4 @@ La llamada no se registrará en los registros de detalles de llamada de Teléfon
 
 En el diagrama siguiente se muestra la escala SIP de Bifurcación 1, se explica el flujo de llamadas y la RAZÓN esperada en el mensaje Cancelar. 
 
-![Diagrama muestra puntos de conexión Teams bifurcados](media/direct-routing-call-notification-2.png)
+![Diagrama muestra puntos de conexión Teams bifurcados.](media/direct-routing-call-notification-2.png)

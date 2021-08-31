@@ -18,12 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar directi
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: c33cfec3f0c242381ab4a3cd09b83eea02521375
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 858a28843fc883712ab12b868eca505069e5ab4f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626402"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727889"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Asignar directivas a los usuarios de Microsoft Teams
 
@@ -41,17 +41,17 @@ Un usuario tiene una directiva eficaz para cada tipo de directiva. Es posible, o
 
 Si a un usuario se le asigna directamente una directiva (ya sea individualmente o a través de una asignación por lotes), esa directiva tiene prioridad. En el siguiente ejemplo visual, la directiva efectiva del usuario es la directiva de reunión de Lincoln Square, que se asigna directamente al usuario.
 
-![Diagrama que muestra cómo una directiva asignada directamente tiene prioridad](media/assign-policies-example-directly-assigned.png)
+![Diagrama que muestra cómo una directiva asignada directamente tiene prioridad.](media/assign-policies-example-directly-assigned.png)
 
 Si a un usuario no se le asigna directamente una directiva de un tipo determinado, la directiva asignada a un grupo del que el usuario es miembro tiene prioridad. Si un usuario es miembro de varios grupos, [](#group-assignment-ranking) la directiva que tiene la clasificación de asignaciones de grupo más alta para el tipo de directiva determinado tiene prioridad.
 
 En este ejemplo visual, la directiva efectiva del usuario es la directiva Exec Teams y HD, que tiene la clasificación de asignaciones más alta con respecto a otros grupos a los que el usuario es miembro y a los que también se les asigna una directiva del mismo tipo de directiva.  
 
-![Diagrama que muestra cómo una directiva heredada del grupo tiene prioridad](media/assign-policies-example-group.png)
+![Diagrama que muestra cómo una directiva heredada del grupo tiene prioridad.](media/assign-policies-example-group.png)
 
 Si a un usuario no se le asigna directamente una directiva o no es miembro de ningún grupo al que se le haya asignado una directiva, el usuario obtiene la directiva global (predeterminada para toda la organización) para ese tipo de directiva. Este es un ejemplo visual.
 
-![Diagrama que muestra cómo una directiva global tiene prioridad](media/assign-policies-example-global.png)
+![Diagrama que muestra cómo una directiva global tiene prioridad.](media/assign-policies-example-global.png)
 
 Para obtener más información, vea [Reglas de prioridad](#precedence-rules).
 
@@ -476,7 +476,7 @@ Al asignar el paquete de directiva, se asigna inmediatamente al grupo. Sin embar
     
     1. Seleccione **Aplicar**.
     
-    ![muestra la asignación de directiva de grupo](media/group-pkg-assignment.png)
+    ![muestra la asignación de directiva de grupo.](media/group-pkg-assignment.png)
 
 5. Para administrar la clasificación de un tipo de directiva específico, vaya a la página de directiva específica.
 

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dedac139aa4831b61a25bd6b65b6520288238d6d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4cb617c1d3d73e38ce1d66c4c261f9b0e74e845b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606971"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732849"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia
 
@@ -50,11 +50,11 @@ La funcionalidad disponible en Teams depende del modo de coexistencia del usuari
 
 Las siguientes capturas de pantalla ilustran la **diferencia entre Teams modo Solo** o Islas y todos los demás modos.  Tenga en cuenta que los iconos de chat y  llamadas están disponibles de forma predeterminada con el modo **solo Teams** o Islas (captura de pantalla izquierda), pero no con los otros modos (captura de pantalla derecha):
 
-![Una comparación en paralelo de los Teams modos](media/teams-mode-comparison.png)
+![Una comparación en paralelo de Teams modos.](media/teams-mode-comparison.png)
 
 Además, la presencia personal no está disponible en los otros modos, como se muestra aquí.
 
-![Captura de pantalla de presencia personal en Reuniones Primero](media/meetings-first-no-self-presence-general.png)
+![Captura de pantalla de presencia personal en Reuniones primero.](media/meetings-first-no-self-presence-general.png)
  
 **Nota:** 
  <sup>1</sup> En este momento, SfBwithTeamsCollab y SfBOnly se comportan igual, pero la intención es que el modo SfBOnly también deshabilite la funcionalidad Canales y archivos en Teams. Entre tanto, los canales se pueden ocultar con la directiva permisos de aplicación.

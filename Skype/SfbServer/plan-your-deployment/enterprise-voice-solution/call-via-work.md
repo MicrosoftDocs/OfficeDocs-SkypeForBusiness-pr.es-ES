@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planeación de llamadas a través del trabajo en Skype Empresarial Server, que permite la integración entre Skype Empresarial y el sistema telefónico PBX, de modo que los usuarios puedan usar Skype Empresarial para controlar sus teléfonos PBX.
-ms.openlocfilehash: 287f549d0b416e432eea771c07a7331e38a0b594
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc2a20741f4f89d4a535b9aa0278fea85a8f44c6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592534"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732589"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Plan for Call Via Work in Skype Empresarial Server
  
@@ -47,7 +47,7 @@ Call Via Work usa la API web de comunicaciones unificadas (UCWA) como agente de 
 
 A continuación se muestra cómo un usuario habilitado para llamar a través del trabajo puede usar el Skype Empresarial Server realizar una llamada:
   
-![Muestra los pasos durante una llamada a Través del trabajo; primero el autor de la llamada hace clic para llamar a alguien en el Skype Empresarial cliente; a continuación, la UCWA llama al teléfono del autor de la llamada. Cuando el autor de la llamada toma el teléfono, se llama al destinatario](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
+![Muestra los pasos durante una llamada a Través del trabajo; primero el autor de la llamada hace clic para llamar a alguien en el Skype Empresarial cliente; a continuación, la UCWA llama al teléfono del autor de la llamada. Cuando el autor de la llamada toma el teléfono, se llama al destinatario.](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
 1. El usuario selecciona un usuario en su Skype Empresarial y hace clic en el icono de teléfono para llamarlos. O bien, durante una conversación de mensajería instantánea, el usuario hace clic para llamar al usuario con el que está teniendo la sesión.
     
@@ -99,7 +99,7 @@ Call Via Work es una solución de voz que requiere poca configuración de hardwa
 
 Para habilitar cualquier usuario para llamar a través del trabajo, debe tener algunos requisitos previos en su lugar. Para obtener más información sobre estos requisitos previos y para ver los pasos para habilitar a los usuarios para llamadas a través del trabajo, vea [Deploy Call Via Work in Skype Empresarial Server 2015](../../deploy/deploy-call-via-work.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear el control remoto de llamadas en Skype Empresarial](remote-call-control.md)
   

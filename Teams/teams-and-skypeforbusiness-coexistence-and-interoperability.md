@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d06a49069e04b9c2bce05c0ede214f9cbd8fec12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 69a197d75f3b229f32117e7923a390691e8c4fa5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627502"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727389"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender Microsoft Teams y Skype Empresarial coexistencia e interoperabilidad
 
-![Diagrama de itinerario de actualización, énfasis en la fase de definición del proyecto](media/upgrade-banner-project-definition.png "Fases del itinerario de la actualización, con énfasis en la fase de definición del proyecto")
+![Diagrama de viaje de actualización, haciendo hincapié en la Project definición.](media/upgrade-banner-project-definition.png "Fases del itinerario de la actualización, con énfasis en la fase de definición del proyecto")
 
 Este artículo forma parte de la fase de definición de proyecto de su vía de actualización. Completado después de crear una coalición de patrocinio y un equipo de proyecto y definir el ámbito, los objetivos y el plan para el proyecto. Antes de continuar, confirme que ha completado las siguientes actividades:
 
@@ -87,7 +87,7 @@ Cuando esté **en Teams solo,** Teams es la aplicación predeterminada para el p
 
 Para obtener consideraciones adicionales sobre cómo **pasar al Teams solo,** vea [Teams consideraciones](teams-only-mode-considerations.md)de modo solo para usuarios .
 
-![Captura de pantalla de Teams mensaje de confirmación](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype Empresarial cliente que se ejecuta en un modo especial después de actualizar el usuario como un Teams de solo lectura")
+![Captura de pantalla de Teams mensaje de confirmación.](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype Empresarial cliente que se ejecuta en un modo especial después de actualizar el usuario como un Teams de solo lectura")
 
 ### <a name="skype-for-business-only"></a>Solo Skype Empresarial
 
@@ -155,11 +155,11 @@ Según los modos de coexistencia asignados a los usuarios (como se ha descrito a
 
 Skype Empresarial usuarios pueden chatear uno a uno con Teams usuarios y viceversa. Un chat de interoperabilidad debe pasar por una puerta de enlace de interoperabilidad que forma parte de Teams servicios en la nube (y, por lo tanto, solo existe en línea). Los chats de interoperabilidad son texto sin formato: el texto enriquecido y los emoticonos no son compatibles. Los usuarios Teams y en Skype Empresarial se les notifica que la conversación es una conversación de interoperabilidad.
 
-<!--![Screen shot of Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
+<!--![Screen shot of Interop chat experience from Teams.](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
 
 Skype Empresarial usuarios pueden realizar llamadas de voz y videollamadas uno a uno a Teams usuarios y Teams usuarios pueden hacer lo mismo.
 
-<!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
+<!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
 > Las experiencias de interoperabilidad con una implementación local de Skype Empresarial requieren que el entorno local esté en modo híbrido con Microsoft 365 o Office 365 Skype Empresarial. Para obtener más información, vea [Instrucciones de migración e interoperabilidad.](./migration-interop-guidance-for-teams-with-skype.md)
@@ -200,11 +200,11 @@ Cuando la señalización indicaba que la respuesta provenía de (o a través) de
 
 Para evitar estos falsos positivos, el servicio de presencia ahora informa al cliente de Skype Empresarial cuando la otra parte es un **Teams solo** el usuario real. Esto permite Skype Empresarial tener en cuenta que necesita crear una conversación de interoperabilidad antes de que se haya creado y que la ventana de conversación sea específica para la interoperabilidad.
 
-![Captura de pantalla del Teams para crear una conversación de interoperabilidad con un Skype Empresarial usuario](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
+![Captura de pantalla del Teams para crear una conversación de interoperabilidad con un Skype Empresarial usuario.](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
 
 Si el Skype Empresarial quiere compartir su escritorio, por ejemplo, se les informa de que iniciaremos una reunión y se les guiará por los pasos.
 
-![Captura de pantalla del Teams para empezar a reunirse con un Teams usuario](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
+![Captura de pantalla de Teams mensaje para empezar a reunirse con un Teams usuario.](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
 
 Mientras tanto, Teams usuario recibe un mensaje de chat entrante con el vínculo a la reunión y se le guía para unirse.
 
@@ -220,7 +220,7 @@ En los hilos de interoperabilidad y en los hilos de interoperabilidad de federac
 
 Si los usuarios estaban en una llamada, el menú también les advierte de que la llamada actual entre Teams y Skype Empresarial se finalizará cuando se coloquen en una reunión Teams llamada. Si lo eligen, pueden advertir al usuario Skype Empresarial antes de aceptarlo.
 
-![Captura de pantalla de Teams mensaje para compartir reunión con un Skype Empresarial usuario](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
+![Captura de pantalla de Teams mensaje para compartir reunión con un Skype Empresarial usuario.](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
 
 Tras la aceptación, se colocarán en la Teams reunión; deben empezar a compartir desde la bandeja de uso compartido de la reunión.
 
@@ -287,15 +287,15 @@ Estas diferencias se muestran en las siguientes capturas de pantalla:
 
 Una conversación Teams a Teams con la prueba G3 de usuario
 
-![Diagrama que muestra una conversación Teams a Teams nativa](media/teams-upgrade-native-thread.png)
+![Diagrama que muestra una conversación Teams a Teams nativa.](media/teams-upgrade-native-thread.png)
 
 Una conversación de interoperabilidad con la misma prueba G3 de usuario
 
-![Diagrama que muestra una conversación Teams de Teams de datos](media/teams-upgrade-interop-thread.png)
+![Diagrama que muestra una conversación Teams de Teams de interoperabilidad.](media/teams-upgrade-interop-thread.png)
 
 Una vez que se crea un hilo de conversación, su tipo nunca cambia. Una vez creado, una conversación de interoperabilidad en Teams siempre se dirigirá al cliente de Skype Empresarial usuario de destino. Una conversación nativa siempre se dirigirá al cliente Teams usuario de destino.  Si cambia el modo de un usuario destinatario, los hilos de Teams existentes para ese usuario ya no funcionarán y se mostrará una nota en ese chat con un vínculo para iniciar una nueva conversación nativa como se muestra en la siguiente captura de pantalla.
 
-![Diagrama que muestra un chat con el usuario Skype Empresarial actualizado](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
+![Diagrama que muestra un chat con el Skype Empresarial actualizado.](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
 
 ### <a name="presence"></a>Presence
 

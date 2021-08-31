@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Envíe a los usuarios un correo electrónico con su información de audioconferencia en Skype Empresarial Online.
-ms.openlocfilehash: 8cb4d51fedc5cd12a3ee7a95b0d83c254526abd8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 428ff78fe501200ef9607a03d76c034007517cf0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584454"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727679"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Enviar un correo electrónico a un usuario con su información de audioconferencia en Skype Empresarial Online
 
@@ -44,7 +44,7 @@ A Skype Empresarial es posible que los usuarios necesiten enviarles su informaci
    
 Este es un ejemplo del correo electrónico que se envía:
   
-![Correo electrónico de conferencia de acceso telefónico](../images/audio-conferencing-info.png)
+![Correo electrónico de conferencias de acceso telefónico local.](../images/audio-conferencing-info.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

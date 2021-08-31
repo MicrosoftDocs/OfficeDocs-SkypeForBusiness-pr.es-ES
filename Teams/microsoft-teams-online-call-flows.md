@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 description: Obtenga información sobre Teams usa Office 365 en varias topologías, así como flujos de equipo únicos usados para la comunicación multimedia punto a punto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2e0e3ed2c9f0ac4e636b97065f9e2a4050f954b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f152caaa90562a5223590ebcf97623646237e40
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607157"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727849"
 ---
 # <a name="microsoft-teams-call-flows"></a>Flujos de llamadas de Microsoft Teams
 
@@ -114,7 +114,7 @@ Para obtener más información sobre los detalles de la ruta de acceso multimedi
 
 Esta topología la usan los clientes que aprovechan Teams servicios de la nube sin ninguna implementación local, como Skype Empresarial Server o Sistema telefónico enrutamiento directo. Además, la interfaz para Microsoft 365 o Office 365 se realiza a través de Internet sin Azure Express Route.
 
-[![Microsoft Teams Figura 01 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
+[![Microsoft Teams Figura 01 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
 
 *Figura 1: Teams topología*
 
@@ -159,7 +159,7 @@ Si un cliente es interno en la red de clientes y un cliente es externo (por ejem
 
 **Dentro de la red de clientes:**
 
-[![Microsoft Teams Figura 02 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)
+[![Microsoft Teams Figura 02 Flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)
 
 *Figura 2: Dentro de la red de clientes*
 
@@ -169,7 +169,7 @@ Los medios son bidireccionales. La dirección del flujo 5 indica que un lado ini
 
 **Red de cliente a usuario externo (multimedia retransmitido por Teams de transporte):**
 
-[![Microsoft Teams Figura 03 flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
+[![Microsoft Teams Figura 03 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
 
 *Figura 3: Red de cliente a usuario externo (medios retransmitido por Teams relé de transporte)*
 
@@ -179,7 +179,7 @@ Los medios son bidireccionales, donde la dirección indica qué lado inicia la c
 
 **Red de cliente a usuario externo (medios directos):**
 
-[![Microsoft Teams Figura 04 flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)
+[![Microsoft Teams Figura 04 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)
 
 *Figura 4: Red de cliente a usuario externo (medios directos)*
 
@@ -191,7 +191,7 @@ En el paso 7, se selecciona el flujo 2, desde la red de clientes a Internet (el 
 
 **Usuario de VPN a usuario interno (multimedia retransmitido por Teams de transporte)**
 
-[![Microsoft Teams Figura 05 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
+[![Microsoft Teams Figura 05 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
 
 *Figura 5: usuario VPN a usuario interno (multimedia retransmitido por Teams de transporte)*
 
@@ -199,7 +199,7 @@ La señalización entre la RED VPN a la red del cliente está usando el flujo 2'
 
 **Usuario de VPN a usuario interno (medios directos)**
 
-[![Microsoft Teams Figura 06 flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)
+[![Microsoft Teams Figura 06 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)
 
 *Figura 6: usuario DE VPN a usuario interno (medios directos)*
 
@@ -209,7 +209,7 @@ Los medios son bidireccionales. La dirección del flujo 2 para el usuario móvil
 
 **Usuario de VPN a usuario externo (medios directos)**
 
-[![Microsoft Teams flujos de llamadas de llamada, figura 07](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
+[![Microsoft Teams flujo de llamadas, figura 07.](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
 
 *Figura 7: usuario DE VPN a usuario externo (medios directos)*
 
@@ -221,7 +221,7 @@ Los medios son bidireccionales. La dirección del flujo 6 para el usuario móvil
 
 Microsoft 365 y Office 365 tienen un Sistema telefónico que permite realizar y recibir llamadas desde la red telefónica conmutada (RTC). Si el tronco RTC está conectado mediante el plan Sistema telefónico llamadas, no hay requisitos de conectividad especiales para este caso de uso. (Si desea conectar su propio tronco RTC local a Microsoft 365 o Office 365, puede usar Sistema telefónico enrutamiento directo).
 
-[![Microsoft Teams Figura 08 flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)
+[![Microsoft Teams Figura 08 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)
 
 *Figura 8: Teams a RTC a través Office 365 tronco*
 
@@ -239,7 +239,7 @@ Ten en cuenta que:
 
 - Un usuario invitado o un usuario cliente pueden unirse desde una red privada de invitados, que está protegida con FW/NAT con reglas estrictas.
 
-[![Microsoft Teams Figura 09 flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)
+[![Microsoft Teams Figura 09 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)
 
 *Figura 9: Teams reunión*
 
@@ -247,7 +247,7 @@ Ten en cuenta que:
 
 **Retransmisión multimedia por Teams de transporte en Microsoft 365 o Office 365**
 
-[![Microsoft Teams Figura 10 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)
+[![Microsoft Teams Figura 10 Flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)
 
 *Figura 10: Retransmisión multimedia por Teams de transporte en Office 365*
 
@@ -263,7 +263,7 @@ Ten en cuenta que:
 
 **Retransmisión multimedia por Skype Empresarial Multimedia Relay en inquilino federado**
 
-[![Microsoft Teams Figura 11 flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)
+[![Microsoft Teams Figura 11 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)
 
 *Figura 11: Retransmisión multimedia por Skype Empresarial Multimedia Relay en inquilino federado*
 
@@ -277,7 +277,7 @@ Ten en cuenta que:
 
 **Directo (punto a punto)**
 
-[![Microsoft Teams Figura 12 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)
+[![Microsoft Teams Figura 12 Flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)
 
 *Figura 12: Directa (punto a punto)*
 
@@ -285,7 +285,7 @@ Ten en cuenta que:
 
 Esta topología incluye Teams una implementación Skype Empresarial local.
 
-[![Microsoft Teams Figura 13 flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)
+[![Microsoft Teams Figura 13 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)
 
 *Figura 13: Teams topología híbrida*
 
@@ -301,7 +301,7 @@ Flujo adicional (encima de Teams topología):
 
 **Híbrido dentro de la red de clientes**
 
-[![Microsoft Teams Figura 14 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)
+[![Microsoft Teams Figura 14 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)
 
 *Figura 14: híbrido dentro de la red de clientes*
 
@@ -309,7 +309,7 @@ La señalización entre Teams y Skype Empresarial está puenteada por una puerta
 
 **Red híbrida de clientes con usuarios Skype Empresarial externos, retransmisión por Microsoft 365 o Office 365**
 
-[![Microsoft Teams Figura 15 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)
+[![Microsoft Teams Figura 15 Flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)
 
 *Figura 15: Red híbrida de clientes con usuarios Skype Empresarial externos, retransmitido por Office 365*
 
@@ -323,7 +323,7 @@ Ten en cuenta que:
 
 **Red híbrida de clientes con usuarios Skype Empresarial externos, retransmitido por edge local**
 
-[![Microsoft Teams Figura 16 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
+[![Microsoft Teams Figura 16 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
 
 *Figura 16: Red híbrida de clientes con usuarios Skype Empresarial externos, retransmitido por edge local*
 
@@ -343,7 +343,7 @@ Enrutamiento directo le permite usar un proveedor de servicios de red telefónic
 
 Para admitir este escenario, el cliente debe implementar un SBC certificado para enrutamiento directo de uno de los partners certificados de Microsoft. El SBC debe configurarse según lo recomendado por el proveedor y ser enrutable desde Microsoft 365 o Office 365 para el tráfico UDP directo. Los medios pueden fluir directamente desde Teams y/o el cliente de Skype Empresarial a la SBC (omitiendo la puerta de enlace Teams) o atravesar la puerta de enlace Teams. La conectividad con el SBC, cuando el tronco está configurado para omitir la puerta de enlace de Teams, se basa en ICE, donde SBC admite ICE-Lite, mientras que el punto de conexión multimedia Teams/Skype Empresarial admite el formulario completo de ICE.
 
-[![Microsoft Teams Figura 17 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
+[![Microsoft Teams Figura 17 Flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
 
 *Figura 17: Teams con Sistema telefónico topología de enrutamiento directo
 
@@ -361,7 +361,7 @@ Flujos adicionales (encima de Teams topología en línea):
 
 **Usuario interno con enrutamiento directo (retransmisión multimedia por Teams de transporte)**
 
-[![Microsoft Teams Figura 18 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)
+[![Microsoft Teams Figura 18 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)
 
 *Figura 18: usuario interno con enrutamiento directo (retransmisión multimedia Teams relé de transporte)*
 
@@ -375,7 +375,7 @@ Ten en cuenta que:
 
 **Usuario remoto con enrutamiento directo (los medios se enruta a través de un servidor multimedia (MP))**
 
-[![Microsoft Teams Figura 19 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)
+[![Microsoft Teams Figura 19 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)
 
 *Figura 19: Usuario remoto con enrutamiento directo (los medios se enruta a través de un servidor multimedia (MP))*
 
@@ -389,7 +389,7 @@ Ten en cuenta que:
 
 **Enrutamiento directo interno del usuario (omisión de medios)**
 
-[![Microsoft Teams Figura 20 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)
+[![Microsoft Teams Figura 20 Flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)
 
 *Figura 20: Enrutamiento directo del usuario interno (omisión de medios)*
 
@@ -405,7 +405,7 @@ Ten en cuenta que:
 
 **Usuario remoto con enrutamiento directo (desvío multimedia retransmitido por Teams de transporte)**
 
-[![Microsoft Teams Figura 21 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)
+[![Microsoft Teams Figura 21 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)
 
 *Figura 21: Usuario remoto con enrutamiento directo (desvío de medios retransmitido por Teams de transporte)*
 
@@ -421,7 +421,7 @@ Ten en cuenta que:
 
 **Enrutamiento directo del usuario remoto (desvío de medios directo)**
 
-[![Microsoft Teams Figura 22 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)
+[![Microsoft Teams Figura 22 Flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)
 
 *Figura 22: Enrutamiento directo del usuario remoto (desvío directo de medios)*
 
@@ -437,7 +437,7 @@ Ten en cuenta que:
 
 **Enrutamiento directo (omisión de medios): llamada de la horquilla RTC (debido al desvío o transferencia de llamadas)**
 
-[![Microsoft Teams Figura 23 flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
+[![Microsoft Teams Figura 23 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
 
 *Figura 23 - Enrutamiento directo (desvío de medios) - Llamada de la horquilla RTC (debido a desvío de llamadas/transferencia)*
 
@@ -453,7 +453,7 @@ Ten en cuenta que:
 
 **Enrutamiento directo (multimedia a Microsoft 365 o Office 365): llamada de la horquilla RTC en dos inquilinos**
 
-[![Microsoft Teams Figura 24 flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
+[![Microsoft Teams Figura 24 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
 
 *Figura 24: Enrutamiento directo (medios a través de Microsoft 365 o Office 365): llamada de la horquilla RTC en dos inquilinos*
 
@@ -469,7 +469,7 @@ Ten en cuenta que:
 
 ## <a name="teams-with-express-route-optimization"></a>Teams con la optimización de Express Route
 
-[![Microsoft Teams Figura 25 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)
+[![Microsoft Teams Figura 25 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)
 
 *Figura 25: Teams optimización de rutas rápidas*
 
@@ -482,7 +482,7 @@ Para evitar flujos asimétricos, el redireccionamiento debe estar en ambas direc
 
 **Red de cliente a usuario externo (multimedia retransmitido por Teams de transporte):**
 
-[![Microsoft Teams Figura 26 Flujos de llamadas en línea](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
+[![Microsoft Teams Figura 26 flujos de llamadas en línea.](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
 
 *Figura 26: Red de cliente a usuario externo (medios retransmitido por Teams retransmisión de transporte)*
 

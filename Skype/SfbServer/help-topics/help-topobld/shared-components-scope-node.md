@@ -15,28 +15,28 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: Haga clic con el botón secundario en Componentes compartidos en el árbol de jerarquía del Generador de topologías para crear nuevos componentes compartidos o para obtener acceso a las opciones de nivel de topología.
-ms.openlocfilehash: 01f5d0e2a4a507800055a53adffeff4e8df5bb4a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9090ced9082a989fdb2894b94b6ce4caf1609937
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606315"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726009"
 ---
 # <a name="shared-components-scope-node"></a>Nodo de ámbito de componentes compartidos
  
 Haga clic con el botón secundario **en Componentes compartidos** en el árbol de jerarquía del Generador de topologías para crear nuevos componentes compartidos o para obtener acceso a las opciones de nivel de topología.
   
-![Nodo de ámbito de componentes compartidos](../../media/Shared_Components_Scope_Node.jpg)
+![Nodo de ámbito de componentes compartidos.](../../media/Shared_Components_Scope_Node.jpg)
   
 Seleccione **Nuevo** para crear un nuevo almacén de archivos, una nueva puerta de enlace IP/RTC, un nuevo servidor de aplicaciones web de Office, un nuevo almacén de SQL Server o un nuevo tronco.
   
 > [!NOTE]
 > Consulte los temas de Ayuda de cada una de estas opciones. 
   
-![Nodo de ámbito de componentes compartidos](../../media/Shared_Components_Scope_NodeB.jpg)
+![Nodo de ámbito de componentes compartidos.](../../media/Shared_Components_Scope_NodeB.jpg)
   
 Seleccione **Topología para hacer clic** en opciones para abrir un nuevo documento de topología. Abra un documento de topología existente, Descargue topología actual del almacén de administración central, Guarde una copia del documento de topología actual, Publique el documento de topología actual, Instalar base de datos para crear las configuraciones de base de datos configuradas actualmente, Combinar Office Communications Server 2007 R2 en la implementación actual o Quitar implementación.
   
-![Nodo de ámbito de componentes compartidos C](../../media/Shared_Components_Scope_NodeC.jpg)
+![Nodo de ámbito de componentes compartidos C.](../../media/Shared_Components_Scope_NodeC.jpg)
   
 

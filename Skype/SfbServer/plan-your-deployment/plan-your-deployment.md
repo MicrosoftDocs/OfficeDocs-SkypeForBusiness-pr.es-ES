@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: 'Resumen: explore estos vínculos para obtener información sobre cómo desarrollar diseños conceptuales, lógicos y físicos para configurar Skype Empresarial Server características, servidores y topologías de 2015.'
-ms.openlocfilehash: 1408b3ff5cd609ccb3a415a0bd42867e81de2ecc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b21bb0e5d2b557fa442857f6bc17e33c04d8f5e4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578744"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732569"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>Planear la implementación Skype Empresarial Server 2015
  
@@ -37,8 +37,8 @@ Vea los siguientes recursos para obtener información sobre cómo planear la Sky
   
 ||**Contenido**|**Descripción**|
 |:--- |:--- |:--- |
-|![Icono para diagramas técnicos](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Diagramas técnicos para Skype Empresarial Server 2015](../technical-diagrams.md) <br/> |Consulte fácilmente las opciones de arquitectura en estos diagramas de formato grande.  <br/> |
-|![Icono para vídeos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|[Skype Empresarial: una introducción rápida](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) <br/> [Skype Empresarial: guía paso a paso para nuevos usuarios](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be) <br/> |Descubra presentaciones de vídeo y aprendizaje para Skype Empresarial.  <br/> |
+|![Icono para diagramas técnicos.](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Diagramas técnicos para Skype Empresarial Server 2015](../technical-diagrams.md) <br/> |Consulte fácilmente las opciones de arquitectura en estos diagramas de formato grande.  <br/> |
+|![Icono para vídeos.](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|[Skype Empresarial: una introducción rápida](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) <br/> [Skype Empresarial: guía paso a paso para nuevos usuarios](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be) <br/> |Descubra presentaciones de vídeo y aprendizaje para Skype Empresarial.  <br/> |
    
 ##  <a name="articles-about-planning-for-skype-for-business-server"></a>Artículos sobre planeación de Skype Empresarial Server
 
@@ -46,7 +46,7 @@ Los siguientes artículos sobre cómo planear los Skype Empresarial Server está
   
 |**Planeación de soluciones**|**Planeación de la arquitectura del servidor, los clientes y los dispositivos**|
 |:-----|:-----|
-|![Icono de contenido de soluciones](../media/3959ce46-bd94-40be-8a58-6108bc3583a8.png)           <br/> Lea los siguientes artículos para determinar qué soluciones son adecuadas para su organización:  <br/> |![Icono para contenido de arquitectura de servidor](../media/1d7d8156-1ca9-4124-a17f-6bce5aa91966.png)           <br/> Lea los artículos siguientes para planear la arquitectura del servidor y la compatibilidad con clientes y dispositivos:  <br/> |
+|![Icono de contenido de soluciones.](../media/3959ce46-bd94-40be-8a58-6108bc3583a8.png)           <br/> Lea los siguientes artículos para determinar qué soluciones son adecuadas para su organización:  <br/> |![Icono para contenido de arquitectura de servidor](../media/1d7d8156-1ca9-4124-a17f-6bce5aa91966.png)           <br/> Lea los artículos siguientes para planear la arquitectura del servidor y la compatibilidad con clientes y dispositivos:  <br/> |
 |**[Planear la mensajería instantánea y la presencia en Skype Empresarial Server 2015](instant-messaging-and-presence.md)** ¿Cuáles son los requisitos para la mensajería instantánea (MI) y la presencia? Aunque la mensajería instantánea (MI) y la presencia se incluyen en todas las implementaciones de Skype Empresarial Server, deberá tomar decisiones sobre los requisitos técnicos, las comunicaciones con usuarios externos y el archivado. <br/> |**[Requisitos del entorno Skype Empresarial Server 2015](requirements-for-your-environment/environmental-requirements.md)** <br/> **[Requisitos del servidor para Skype Empresarial Server 2015](requirements-for-your-environment/server-requirements.md)** <br/> **[Planear los requisitos de red para Skype Empresarial 2015](network-requirements/network-requirements.md)** <br/> Primero querrá leer estos temas para determinar los requisitos previos para Skype Empresarial Server.  <br/> |
 |**[Planear la solución Telefonía IP empresarial en Skype Empresarial Server 2015](enterprise-voice-solution/enterprise-voice-solution.md)** ¿Cuáles son los requisitos de voz? Defina cómo integrará el sistema telefónico de su organización con su Skype Empresarial Server implementación. Telefonía IP empresarial es la oferta de voz más completa: una solución de Voz sobre IP (VoIP), que proporciona un conjunto de características enriquecido, incluida la integración con Outlook y Exchange. Call Via Work ofrece una forma de integrar la solución Skype Empresarial con los sistemas telefónicos PBX existentes. <br/> |**[Conceptos básicos de topología para Skype Empresarial Server 2015](topology-basics/topology-basics.md)** Antes de preparar cualquier otra cosa, querrá saber que está planeando la topología adecuada para la implementación de Skype Empresarial Server. Lo primero que debe decidir es si va a tener una implementación local de Skype Empresarial Server o si va a combinar esto con una implementación de Skype Empresarial Server Online en una implementación híbrida. Lea los temas de esta sección para planear los escenarios de colocación de servidores y topología. <br/> |
 |**[Plan for Video Interop Server in Skype Empresarial Server 2015](video-interop-server.md)** ¿Cuáles son los requisitos de vídeo para su organización? El Skype Empresarial Server de interoperabilidad de vídeo ahora puede integrarse directamente con los sistemas de teleconferencia de Cisco (VTC). Obtenga información sobre las características de vídeo y los requisitos técnicos. <br/> |**[Planear la actualización a Skype Empresarial Server 2015](upgrade.md)** ¿Está actualizando desde una versión anterior de Lync Server? Encuentre información sobre cómo planear la actualización. <br/> |
@@ -62,6 +62,6 @@ Los siguientes recursos sobre cómo planear la Skype Empresarial Server están d
   
 ||**Contenido**|**Descripción**|
 |:--- |:--- |:--- |
-|![Icono para documentos](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype Empresarial Server para profesionales de TI](../../Hub/index.yml) <br/> |Visite el centro de recursos para obtener acceso a vídeos, sitios de la comunidad, documentación, descargas y mucho más.  <br/> |
-|![Icono de contenido para desarrolladores](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Plataforma para desarrolladores](/skype-sdk/skypedeveloperplatform) <br/> |Busque recursos para desarrolladores Skype Empresarial Server, incluidos ejemplos de código, aprendizaje y SDK.  <br/> |
-|![Icono de noticias, blogs, y así sucesivamente](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Administración y adopción de cambios](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype blog del equipo](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Manténgase al día con las noticias de los equipos que crean y documentan Skype Empresarial Server.  <br/> |
+|![Icono de Docs.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype Empresarial Server para profesionales de TI](../../Hub/index.yml) <br/> |Visite el centro de recursos para obtener acceso a vídeos, sitios de la comunidad, documentación, descargas y mucho más.  <br/> |
+|![Icono de contenido para desarrolladores.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Plataforma para desarrolladores](/skype-sdk/skypedeveloperplatform) <br/> |Busque recursos para desarrolladores Skype Empresarial Server, incluidos ejemplos de código, aprendizaje y SDK.  <br/> |
+|![Icono de noticias, blogs, y así sucesivamente.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Administración y adopción de cambios](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype blog del equipo](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Manténgase al día con las noticias de los equipos que crean y documentan Skype Empresarial Server.  <br/> |

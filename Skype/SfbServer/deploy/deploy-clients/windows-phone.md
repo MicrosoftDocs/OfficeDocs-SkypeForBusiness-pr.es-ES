@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Summary: Learn how to install and test Skype Empresarial on your Windows Phone.'
-ms.openlocfilehash: f912c1f5bd3c0bd5f8c3cc553c64ee3b7850f63e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 53a06d80deb99c5f05a9f7a21ab5a5fd171e2797
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618156"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727329"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Instalar y probar Skype Empresarial para Windows Phone
  
@@ -76,7 +76,7 @@ Después de configurar el cliente e iniciar sesión correctamente, use las sigui
 
 1. En la lista de contactos, puntee un contacto.
     
-2. En la tarjeta de contacto, pulsa la mensajería instantánea (MI) ![Icono de mensajería instantánea en Skype Empresarial](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png).
+2. En la tarjeta de contacto, pulsa la mensajería instantánea (MI) ![Icono de mensajería instantánea en Skype Empresarial.](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png).
     
 3. Compruebe que aparece una ventana de mensajería instantánea y que puede escribir y enviar una mensajería instantánea.
     
