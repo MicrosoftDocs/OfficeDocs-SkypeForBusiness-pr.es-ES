@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumen: obtenga información sobre el proceso de implementación del Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: af43865c76b565ac126d80193b3b32b0bd870260
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc07bb721c0319d041bd7bbee4a4a327d77f28b9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596574"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733599"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implementar panel de calidad de llamadas para Skype Empresarial Server
  
@@ -34,7 +34,7 @@ El Panel de calidad de llamadas (CQD) consta de tres componentes principales:
     
 - **Portal**, donde los usuarios pueden consultar y visualizar fácilmente los datos de QoE.
     
-![Componentes de CQD](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![Componentes CQD.](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 El proceso de instalación de QoE Archive implica la creación de la base de datos de archivos qoE, la implementación de un procedimiento almacenado de SQL Server que moverá los datos de la base de datos de métricas qoE de origen a la base de datos de archivo qoE y la configuración del trabajo del agente de SQL Server para ejecutar el procedimiento almacenado en un intervalo regular. 
   
@@ -146,18 +146,18 @@ Para administrar la autorización de usuario en el Portal, se recomienda usar la
   
 Cualquier sitio web o aplicación web hereda la autorización de dirección URL predeterminada configurada para todo IIS, que suele ser "Permitir todos los usuarios". Si el acceso al Portal debe ser más restrictivo, los administradores solo pueden conceder acceso al grupo específico de usuarios editando las "Reglas de autorización".
   
-![Implementar calidad de llamadas: reglas de autorización en IIS](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
+![Implementar calidad de llamada: reglas de autorización en IIS.](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
   
 > [!NOTE]
 > El icono Reglas de autorización no debe confundirse con la "Autorización de.NET" en la sección ASP.NET, que es un mecanismo de autorización diferente. 
   
 Los administradores deben quitar primero la regla heredada "Permitir todos los usuarios". Esto impide que los usuarios no autorizados accedan al Portal.
   
-![Implementar CQD](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
+![Implementar CQD.](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
   
 A continuación, los administradores deben agregar nuevas reglas de permiso y conceder a usuarios específicos el permiso para acceder al Portal. Se recomienda crear un grupo local denominado "CQDPortalUsers" para administrar los usuarios.
   
-![Implementar el panel de calidad de llamadas](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
+![Implementar panel de calidad de llamadas.](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
   
 Los detalles de configuración se almacenan en el web.config ubicado en el directorio físico del portal.
   
@@ -174,15 +174,15 @@ El siguiente paso es configurar el panel del CQD. Una vez que IIS autentique a l
 
 1. Abra el Editor de configuración para CQD.
     
-     ![Implementar el panel de calidad de llamadas](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
+     ![Implementar panel de calidad de llamadas.](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
   
 2. En Sección, elija **system.webServer/serverRuntime**.
     
-     ![Implementar el panel de calidad de llamadas](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
+     ![Implementar panel de calidad de llamadas.](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
   
 3. Cambie authenticatedUserOverride a **UseWorkerProcessUser**.
     
-     ![Implementar panel de calidad de llamadas: Editor de configuración](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
+     ![Implementar panel de calidad de llamadas: Editor de configuración.](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
   
 4. Haga **clic en** Aplicar en el lado derecho de la página.
     
@@ -213,19 +213,19 @@ En raras ocasiones, el instalador no puede crear la configuración correcta en I
   
 1. Abra el Administrador de IIS y vaya a Sitio web predeterminado.
     
-     ![Implementar el panel de calidad de llamadas](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
+     ![Implementar panel de calidad de llamadas.](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
   
 2. Haga clic en "Autenticación". Si "Autenticación anónima", "suplantación de ASP.NET", "Autenticación de formulario" y "Autenticación de Windows" no coinciden con la configuración que se muestra a continuación, cámbienlas manualmente para que coincidan con la configuración siguiente. Todos los demás mecanismos de autenticación deben deshabilitarse.
     
-     ![Implementar el panel de calidad de llamadas](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
+     ![Implementar panel de calidad de llamadas.](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
 3. Para "Windows autenticación", haga clic en Advanced Configuración en el lado derecho.
     
-     ![Implementar el panel de calidad de llamadas](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
+     ![Implementar panel de calidad de llamadas.](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
 4. Establezca "Protección extendida" en Aceptar y active la casilla "Habilitar autenticación en modo kernel".
     
-     ![Implementar el panel de calidad de llamadas](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
+     ![Implementar panel de calidad de llamadas.](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
   
 5. Repita los pasos anteriores para cada una de las entradas "CQD", "QoEDataService" y "QoERepositoryService" debajo de "Sitio web predeterminado".
     
@@ -432,7 +432,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (debe usar el fformat delimitado)  <br/> |
 |Controlador  <br/> |Creación  <br/> |Aruba AP 7  <br/> |
-|Dispositivo  <br/> |ess  <br/> |Controlador1  <br/> |
+|Device  <br/> |ess  <br/> |Controlador1  <br/> |
 |Radio  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>Procesamiento de los datos importados

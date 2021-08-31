@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e8f123bf7a351689747649b75f429588445a5d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14c76bd56fa7e6e9392550fa61385539415e52eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625932"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733559"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiración y renovación del equipo en Microsoft Teams
 
@@ -31,7 +31,7 @@ Para reducir el número de equipos sin usar, [](/microsoft-365/admin/create-grou
 
 Cuando aplica una directiva de expiración a un equipo, el propietario del equipo recibe una notificación para la renovación del equipo 30 días, 15 días y 1 día antes de la fecha de expiración del equipo. Cuando el propietario del equipo reciba la notificación, puede hacer clic en Renovar **ahora** en la configuración del equipo para renovar el equipo.
 
-![Captura de pantalla del botón Renovar ahora para renovar un equipo en la configuración del equipo](media/team-expiration.png "Captura de pantalla del botón Renovar ahora para renovar un equipo en la configuración del equipo")
+![Captura de pantalla del botón Renovar ahora para renovar un equipo en la configuración del equipo.](media/team-expiration.png "Captura de pantalla del botón Renovar ahora para renovar un equipo en la configuración del equipo")
 
 Si el propietario del equipo no renueva el equipo y no hay más actividad en el equipo hasta el final de la directiva de expiración, el equipo se pone en estado "eliminado temporalmente", lo que significa que se puede restaurar en los próximos 30 días.
 

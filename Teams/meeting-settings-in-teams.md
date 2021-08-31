@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: c8f0be7df08524e4ab4b95375198a93781a77418
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 25d66dfc6487d411185e421a7bdef07c1e135156
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629332"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730649"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
@@ -37,7 +37,7 @@ Como administrador, usted utiliza la configuración de las reuniones de Teams pa
 
 Con la unión anónima, cualquiera puede unirse a la reunión como usuario anónimo haciendo clic en el enlace de la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
+![Icono que muestra el logotipo de Microsoft Teams.](media/teams-logo-30x30.png) **Utilización del centro de administración de Microsoft Teams**
 
 Debe ser administrador de servicio de Teams para poder realizar estos cambios. Consulte [Usar los roles de administrador de Teams para administrar Teams](./using-admin-roles.md) para obtener información sobre cómo obtener roles de administrador y permisos.
 
@@ -47,7 +47,7 @@ Debe ser administrador de servicio de Teams para poder realizar estos cambios. C
 
 3. En **Participantes**, Active **Usuarios anónimos pueden unirse a una reunión**.
 
-    ![Captura de pantalla de la configuración de los participantes para las reuniones en el centro de administración](media/meeting-settings-participants.png "Captura de pantalla de la configuración de los participantes para las reuniones de Teams en el centro de administración de Microsoft Teams.")
+    ![Captura de pantalla de la configuración de los participantes para las reuniones en el centro de administración.](media/meeting-settings-participants.png "Captura de pantalla de la configuración de los participantes para las reuniones de Teams en el centro de administración de Microsoft Teams.")
 
 > [!CAUTION]
 > Si no desea que los usuarios anónimos se unan a las reuniones programadas por los usuarios de su organización, desactive esta opción.
@@ -59,7 +59,7 @@ Los usuarios anónimos ahora heredarán la directiva de permisos globales predet
 > [!IMPORTANT]
 > De forma predeterminada, la configuración para permitir que los usuarios anónimos interactúen con las aplicaciones en las reuniones está habilitada.
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+![Icono que muestra el logotipo de Microsoft Teams.](media/teams-logo-30x30.png) **Utilización del centro de administración de Microsoft Teams**
 
 Debe ser un administrador de servicio de Teams para tener acceso a esta configuración. Consulte [Usar los roles de administrador de Teams para administrar Teams](./using-admin-roles.md) para obtener información sobre cómo obtener roles de administrador y permisos.
 
@@ -86,13 +86,13 @@ Puede personalizar las invitaciones a la reunión de Teams para cumplir con las 
 
 ### <a name="customize-your-meeting-invitations"></a>Personalice sus invitaciones a reuniones
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
+![Icono que muestra el logotipo de Microsoft Teams.](media/teams-logo-30x30.png) **Utilización del centro de administración de Microsoft Teams**
 
 1. Vaya al Centro de administración.
 2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
 3. En **Invitación por correo electrónico**, haga lo siguiente:
 
-    ![Captura de pantalla de la configuración de la invitación a reunión que puede personalizar](media/meeting-settings-invitation.png "Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar para las reuniones de Teams")
+    ![Captura de pantalla de la configuración de invitaciones a las reuniones que puede personalizar.](media/meeting-settings-invitation.png "Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar para las reuniones de Teams")
 
     - **URL del logotipo** escriba la dirección URL en donde esté almacenado el logotipo.
     - **URL jurídica** si su organización tiene un sitio web legal al que quiere que la gente vaya para cualquier asunto legal, introduzca la URL aquí.
@@ -111,12 +111,12 @@ Si utiliza la Calidad de servicio (QoS) para priorizar el tráfico de la red, pu
 > [!IMPORTANT]
 > Si habilita la QoS o cambia la configuración en el Centro de administración de Microsoft Teams para el servicio de Teams, también deberá [aplicar la configuración correspondiente a todos los dispositivos de usuario](QoS-in-Teams-clients.md) y a todos los dispositivos de la red interna para implementar completamente los cambios en la QoS en Teams.
 
- ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+ ![Icono que muestra el logotipo de Microsoft Teams.](media/teams-logo-30x30.png) **Utilización del centro de administración de Microsoft Teams**
 1. Vaya al Centro de administración.
 2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
 3. En **Red**, haga lo siguiente:
 
-    ![Captura de pantalla de la configuración de la red para las reuniones en el centro de administración](media/meeting-settings-network.png "Captura de pantalla de la configuración de la red para las reuniones de Teams en el centro de administración de Microsoft Teams")
+    ![Captura de pantalla de la configuración de red para las reuniones en el centro de administración.](media/meeting-settings-network.png "Captura de pantalla de la configuración de la red para las reuniones de Teams en el centro de administración de Microsoft Teams")
 
     - Para permitir que las marcas de DSCP se utilicen para QoS, Active **Insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Sólo tienes la opción de usar marcadores o no; no puedes establecer marcadores personalizados para cada tipo de tráfico. Consulte [Seleccionar un método de implementación de QoS ](QoS-in-Teams.md#select-a-qos-implementation-method) para más información sobre los marcadores DSCP.
         > [!NOTE]

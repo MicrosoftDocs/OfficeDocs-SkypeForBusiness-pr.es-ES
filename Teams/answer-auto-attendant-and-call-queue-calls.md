@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb35bc5a035c03080ce44fa19fa3ecf5a5c674a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6c60f0f3bcf5fc683a15c5b22cc7b98aa384d477
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580294"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733369"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder al operador automático y llamar a la cola de llamadas directamente desde Teams
 
@@ -42,7 +42,7 @@ Los usuarios podrán diferenciar las llamadas entrantes de un operador automáti
 
 En la ilustración siguiente se muestra cómo se mostrará a un usuario una llamada entrante desde un operador automático o una cola de llamadas.
 
-![Captura de pantalla de una notificación de llamada entrante](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![Captura de pantalla de una notificación de llamada entrante.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 Una vez que se responde a un operador automático o llamada de cola de llamadas, el usuario puede procesar la llamada como cualquier otra llamada &#x2014; puede agregar o conferenciar en otro usuario o transferir la llamada a otra parte. Además, las llamadas de operador automático se reenviarán en función de la configuración del usuario.
 

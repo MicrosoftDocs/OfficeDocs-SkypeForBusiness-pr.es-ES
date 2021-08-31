@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5503ceefb331098e62ef8aa72bc82119a6e563
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dfe5daabc060a3d6a6e83ba78d90a33b35ec4398
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625992"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730469"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>Planear Office 365 Administración Pública: implementaciones de DoD
 
@@ -53,7 +53,7 @@ La [Office 365 de servicio del](/office365/servicedescriptions/office-365-platfo
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si Office 365 Administración Pública- DoD es adecuado para su organización.</li><li>Confirme que su organización cumple los requisitos de elegibilidad.</li></ul> |
+| ![Un icono que muestra los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si Office 365 Administración Pública- DoD es adecuado para su organización.</li><li>Confirme que su organización cumple los requisitos de elegibilidad.</li></ul> |
 
 > [!Note]
 > Office 365 Administración Pública: DoD solo está disponible en Estados Unidos. Los clientes que no son del gobierno de EE. UU. pueden elegir entre una serie [de Office 365 Administración Pública planes.](https://products.office.com/en/government/compare-office-365-government-plans)
@@ -69,7 +69,7 @@ Le recomendamos que se tome [](enable-features-office-365.md) un tiempo para rev
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si tendrá que modificar cualquiera de las opciones predeterminadas Office 365 Administración Pública: configuración de seguridad del DoD, resolviendo primero el impacto de los cambios que pueda realizar.</li></ul> |
+| ![Un icono que muestra un punto de decisión.](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si tendrá que modificar cualquiera de las opciones predeterminadas Office 365 Administración Pública: configuración de seguridad del DoD, resolviendo primero el impacto de los cambios que pueda realizar.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---dod"></a>Paso 4. Comprender qué Teams disponibles actualmente en Office 365 Administración Pública- DoD

@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5fdbf1d81383dc00ca6e6d39db72446ca6a3012
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61952bd58543be73b72a4179119a18cb00873609
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586314"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731299"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Evalúe su entorno antes de actualizar a Teams
 
-![Diagrama de viaje de actualización, haciendo hincapié en la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase preparación técnica")
+![Diagrama de viaje de actualización, haciendo hincapié en la fase de preparación técnica.](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase preparación técnica")
 
 Este artículo forma parte de la fase preparación técnica del viaje de actualización, una actividad que se completa en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha completado estas actividades de fases anteriores:
 

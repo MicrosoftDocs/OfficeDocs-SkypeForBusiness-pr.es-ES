@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577060d46bea2196c17a42d82827bdcad7062285
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632044"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733847"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar equipos en el Centro de administración de Microsoft Teams
 
@@ -45,7 +45,7 @@ Puede obtener más información acerca de los roles de administrador en Teams en
 
 Las herramientas de administración para equipos se encuentran en el nodo **Equipos** en el centro de administración de Microsoft Teams. (En el Centro de administración, seleccione **Equipos** > **Administrar equipos**). Cada equipo se basa en un grupo de Microsoft 365 y este nodo ofrece una vista de los grupos que se han habilitado para Microsoft Teams en la organización.
 
-![Captura de pantalla de la cuadrícula de información general de equipos](media/manage-teams-in-modern-portal-grid.png)  
+![Captura de pantalla de la cuadrícula de información general de Teams.](media/manage-teams-in-modern-portal-grid.png)  
 
 La cuadrícula muestra las siguientes propiedades:
 
@@ -94,7 +94,7 @@ Puede ir a la página de perfil de equipo de cualquier equipo desde la cuadrícu
 - Agregar o quitar canales (tenga en cuenta que no se puede quitar el canal General).
 - Cambiar la configuración de grupo y equipo.
  
-![Captura de pantalla de un perfil de equipo de ejemplo](media/manage-teams-in-modern-portal-team-profile-page.png)
+![Captura de pantalla de un perfil de equipo de ejemplo.](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## <a name="making-changes-to-teams"></a>Realizar cambios en los equipos
 

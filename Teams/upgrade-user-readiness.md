@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61dd52a83620b0d4d20547e0da14cafa11ce30dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6fd023e96301661db9e181ab38e1b9b1f9fe3515
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627392"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731559"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Preparar un plan de preparación del usuario
 
-![Fases del viaje de actualización, resaltando la fase de preparación del usuario](media/upgrade-banner-user-readiness.png "Fases del viaje de actualización, con énfasis en la fase de preparación del usuario")
+![Fases del viaje de actualización, resaltando la fase de preparación del usuario.](media/upgrade-banner-user-readiness.png "Fases del viaje de actualización, con énfasis en la fase de preparación del usuario")
 
 Este artículo forma parte de la fase de preparación del usuario del viaje de actualización, una actividad que se completa en paralelo con la fase preparación técnica. Antes de continuar, confirme que ha completado estas actividades de fases anteriores:
 
@@ -45,8 +45,8 @@ Un plan de preparación óptima para el usuario incorpora la manera en que se co
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cómo puede crear un plan de preparación para facilitar y acelerar la adopción por el usuario de la nueva solución?</li><li>¿Tiene los recursos de conocimiento, aprendizaje y soporte adecuados que se alinean con la capacidad de los usuarios para hacer frente al cambio y a las personas de usuario que ha definido?</li></ul> |
-| ![Un icono que representa el siguiente paso](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Use la lista siguiente para generar ideas para su plan de preparación. Seleccione las actividades más relevantes o agregue las suyas propias para diseñar un plan de preparación optimizado para su organización. Recuerde usar una combinación de campañas de alcance amplio (para toda la organización) y campañas dirigidas (para personas con retraso o personas específicas) para obtener los máximos resultados.</li></ul>|
+| ![Un icono que muestra los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cómo puede crear un plan de preparación para facilitar y acelerar la adopción por el usuario de la nueva solución?</li><li>¿Tiene los recursos de conocimiento, aprendizaje y soporte adecuados que se alinean con la capacidad de los usuarios para hacer frente al cambio y a las personas de usuario que ha definido?</li></ul> |
+| ![Un icono que muestra el paso siguiente.](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Use la lista siguiente para generar ideas para su plan de preparación. Seleccione las actividades más relevantes o agregue las suyas propias para diseñar un plan de preparación optimizado para su organización. Recuerde usar una combinación de campañas de alcance amplio (para toda la organización) y campañas dirigidas (para personas con retraso o personas específicas) para obtener los máximos resultados.</li></ul>|
 
 <div class="mx-tableFixed">
 <table>

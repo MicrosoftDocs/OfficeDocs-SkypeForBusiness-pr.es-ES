@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: En este artículo se describen las herramientas del kit de recursos Skype Empresarial Server 2015, incluido el propósito de cada herramienta, y ejemplos de su uso. El Skype Empresarial Server de recursos de 2015 ayuda a facilitar las tareas rutinarias a los administradores de TI que implementan y administran Skype Empresarial Server 2015. Por ejemplo, la herramienta de datos de Web Conf se puede usar para controlar fácilmente los datos que cargan los usuarios durante una reunión en línea. La herramienta SEFAUtil se puede usar para configurar el reenvío delegado de llamadas y el contestado para los usuarios. Animamos a los administradores de TI a que usen estas herramientas para administrar de forma Skype Empresarial Server 2015.
-ms.openlocfilehash: fe281a83790d42cbb08e4f8b12e07d8f5ffcfcbc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b12a09a2b69c3ee11aa9f773e0663a8d67b63063
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612109"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730789"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype Empresarial Server de herramientas del kit de recursos de 2015
 
@@ -98,7 +98,7 @@ ABSConfig almacena la configuración del servicio de libreta de direcciones en l
 Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 ```
 
-### <a name="purpose"></a>Objetivo
+### <a name="purpose"></a>Finalidad
 
 ABSConfig proporciona una forma rápida y fácil de personalizar Skype Empresarial Server de libreta de direcciones de 2015.
 
@@ -166,7 +166,7 @@ La **pestaña Información de** topología muestra una lista de todos los víncu
 
 No hay salida de línea de comandos; el resultado del programa se encuentra dentro de la interfaz gráfica de usuario (GUI) principal.
 
-### <a name="purpose"></a>Objetivo
+### <a name="purpose"></a>Finalidad
 
 El propósito de la herramienta Detección de servicios de directivas de ancho de banda es permitir a los administradores visibilidad del estado de cada uno de los servicios de directiva de ancho de banda definidos en la topología. Además, los administradores pueden ver el uso de ancho de banda en tiempo real para todos los vínculos definidos en el documento de configuración de red.
 
@@ -191,7 +191,7 @@ El Analizador de uso de ancho de banda se implementa como una aplicación basada
 
 El Analizador de uso de ancho de banda proporciona gráficas gráficas de capacidad de ancho de banda y uso de audio para todos los vínculos WAN configurados en el sistema.
 
-### <a name="purpose"></a>Objetivo
+### <a name="purpose"></a>Finalidad
 
 En cualquier implementación de voz y vídeo, es fundamental supervisar y comprender la tendencia del uso del ancho de banda del tráfico multimedia en toda la red empresarial. La herramienta Analizador de uso de ancho de banda permite que un administrador logre eso. Esta herramienta hace lo siguiente:
 
@@ -256,7 +256,7 @@ El registro de la escala de tiempo permite al usuario de la herramienta especifi
 
 2. **Fecha de finalización** Esta es la fecha de finalización de la escala de tiempo para la que se va a generar el informe; por ejemplo, 30 de septiembre de 2010.
 
-     ![Fechas de inicio y finalización en el uso de ancho de banda A](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
+     ![Fechas de inicio y finalización en el uso de ancho de banda A.](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
 
 #### <a name="step-2---specify-the-file-directories"></a>Paso 2: especificar los directorios de archivos
 
@@ -266,7 +266,7 @@ El usuario puede especificar los siguientes directorios de archivos como se mues
 
 - **Ubicación de almacenamiento temporal de archivos** Ubicación de archivo temporal donde se almacenan los archivos intermedios mientras se genera el informe.
 
-    ![Directorios de archivos en el anal de uso de ancho de banda](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+    ![Directorios de archivos en el anal de uso de ancho de banda.](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
     > [!NOTE]
     > Asegúrese de que se proporciona suficiente acceso a los registros del servidor y a la carpeta de almacén de archivos temporales al usuario de la herramienta.
@@ -275,11 +275,11 @@ El usuario puede especificar los siguientes directorios de archivos como se mues
 
 Para recopilar los registros e iniciar el visor de informes, haga clic **en Ejecutar** como se muestra a continuación. En este paso se recopilan los datos necesarios.
 
-![Recopilación de datos en el análisis de uso de ancho de banda](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
+![Recopilación de datos en el análisis de uso de ancho de banda.](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
 
 Cuando la validación de entrada se realiza correctamente, se muestra el mensaje que se muestra a continuación.
 
-![Registra la notificación recopilada en el Utili de ancho de banda](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
+![Registra la notificación recopilada en el Utili de ancho de banda.](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
 Haga clic en **Aceptar**. BandwidthUtilizationAnalyzer.xlsm se inicia automáticamente. Siga las instrucciones del cuadro de mensaje. Para obtener más información, **consulte Using BandwidthUtilizationAnalyzer.xlsm** en la sección siguiente.
 
@@ -288,7 +288,7 @@ Haga clic en **Aceptar**. BandwidthUtilizationAnalyzer.xlsm se inicia automátic
 
 1. Cuando BandwidthUtilizationAnalyzer.xlsm se inicie automáticamente, haga clic **en Actualizar** como se muestra a continuación.
 
-     ![BandwidthUtilizationAnalyzer.xlsm](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
+     ![BandwidthUtilizationAnalyzer.xlsm.](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
 2. Cuando se abra una carpeta de archivos, seleccione consolidated.csv de la ubicación especificada en el cuadro de mensaje como se muestra a continuación. También muestra la ubicación como **C:\Temp**.
 
@@ -415,7 +415,7 @@ Según los parámetros de entrada especificados en un símbolo del sistema, El p
 
 - Órbitas reservadas para probar valores de órbita uniformes y aleatorios
 
-### <a name="purpose"></a>Objetivo
+### <a name="purpose"></a>Finalidad
 
 El propósito de la herramienta CPS es proporcionar acceso a la línea de comandos a la base de datos cps. El administrador puede ver el uso de CPS y determinar el número de órbitas asignadas a un grupo.
 
@@ -492,7 +492,7 @@ Esta herramienta se puede usar para diagnosticar diversos problemas o para ayuda
 
 Esta herramienta genera informes predefinidos sobre la Skype Empresarial Server base de datos de 2015. **Ruta** de acceso: %ProgramFiles%\Skype Empresarial Server 2015\Reskit
 
-### <a name="purpose"></a>Objetivo
+### <a name="purpose"></a>Finalidad
 
 Para instalar Dbanalyze.exe, cópielo en una carpeta local y, a continuación, ejecute la herramienta. Para usar la herramienta, ejecute el siguiente comando desde la línea de comandos. `dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]` A continuación se muestran las descripciones de las opciones de línea de comandos.
 
@@ -870,7 +870,7 @@ El Visor de configuración de red (NetworkConfigurationViewer.exe) permite a los
 
 - Vea la información del sitio de topología de red cac, la información de región y las directivas de ancho de banda aprovisionados y los vínculos de red.
 
-### <a name="purpose"></a>Objetivo
+### <a name="purpose"></a>Finalidad
 
 Vea los vínculos de topología de red cac de empresa en una interfaz gráfica.
 
@@ -902,7 +902,7 @@ Guardar y almacenar el diagrama de topología de red cac en formato JPG o BMP: l
 
  Definir conectores personalizados para vínculos de topología de red **cac (como vínculos** de sitio a región, de región a región y de sitio a sitio): los administradores de Skype Empresarial Server 2015 pueden definir conectores gráficos personalizados para vínculos WAN de configuración de red cac mediante la opción Configuración como se muestra a continuación. Esto ayuda a diferenciar entre varios tipos de vínculos de red que se aprovisionan en la configuración de red.
 
-![Herramientas](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
+![Herramientas.](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
 
  Ver la información del sitio de topología de red **cac,** la información de región y las directivas de ancho de banda aprovisionados: Skype Empresarial Server los administradores de 2015 pueden ver información de región de red cac relacionada, información del sitio e información de aprovisionamiento de ancho de banda de CAC mediante las opciones que se muestran a continuación. (Por ejemplo, haga clic **en Información** en una región de red o un objeto de sitio de red).
 
@@ -921,7 +921,7 @@ La aplicación grupo de respuesta ofrece a los agentes la capacidad de obtener a
 
 Response Group Agent Live es una aplicación de Windows que proporciona funciones de inicio de sesión y de inicio de sesión, así como información en tiempo real (como la pertenencia a grupos y el número actual de llamadas) a los agentes del grupo de respuesta. Está pensado para ser una versión mejorada de la página Grupos de agentes (accesible desde Skype Empresarial.
 
-### <a name="purpose"></a>Objetivo
+### <a name="purpose"></a>Finalidad
 
 La aplicación Grupo de respuesta pone en cola las llamadas entrantes y, a continuación, las enruta a grupos de agentes. Para tomar decisiones fundamentadas sobre las llamadas al servicio, los agentes pueden obtener acceso a información en tiempo real sobre sus grupos de agentes, como qué otros agentes están disponibles y cuántas llamadas esperan en cada cola. Esta información, accesible inicialmente solo a través del servicio grupo de respuesta, está disponible de forma intuitiva por el agente de grupo de respuesta Live.
 
@@ -1025,7 +1025,7 @@ Esta herramienta tiene las siguientes limitaciones:
 
 La versión actual de esta herramienta solo proporciona resultados en la ventana del símbolo del sistema. Para obtener más información, vea la sección Ejemplos más adelante en este documento.
 
-### <a name="purpose"></a>Objetivo
+### <a name="purpose"></a>Finalidad
 
 Estos son algunos de los escenarios clave en los que se puede usar esta herramienta:
 
@@ -1429,7 +1429,7 @@ SYSPrep.ps1 es un script Windows PowerShell que instalará los siguientes requis
 Antes de ejecutar el script SYSPrep.ps1, debe copiar los archivos de requisitos previos en una carpeta local en la máquina del sistema operativo Windows Server 2008 (por **ejemplo, D:\Setup).** Esta carpeta también debe incluir una copia de los archivos Skype Empresarial Server 2015, específicamente **Setup.exe.** Los archivos de requisitos previos se pueden descargar desde las siguientes ubicaciones:
 
 
-| **Requisito previo**                                | **Ubicación**                                                            |
+| **Requisito previo**                                | **Location**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
 | Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
@@ -1479,7 +1479,7 @@ El script **Move-CsAnnouncementConfiguration** indica en la ventana del Shell de
 
 Si la ejecución de la operación se interrumpe por algún error, los intervalos de números sin signo que se movieron correctamente al destino permanecerán en el destino en un formulario operativo y el resto de los intervalos de números sinsignación que se migrarán permanecerán en el origen, así como en un formulario operativo. Para migrar completamente el resto de la configuración, vuelva a ejecutar el script después de solucionar el error.
 
-### <a name="purpose"></a>Objetivo
+### <a name="purpose"></a>Finalidad
 
 El script de migración Anuncios de número sin signo se puede usar en los tres escenarios siguientes:
 

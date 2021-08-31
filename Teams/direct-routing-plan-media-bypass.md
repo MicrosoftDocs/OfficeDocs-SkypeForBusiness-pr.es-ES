@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo planear la omisión de medios con Sistema telefónico enrutamiento directo, lo que le permite acortar la ruta del tráfico multimedia y mejorar el rendimiento.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3350f1152f26841489a846749eecc6ad58117215
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8231a57d844539272c65709270b0a0477c50e214
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610337"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730489"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -37,7 +37,7 @@ Los diagramas siguientes ilustran la diferencia en el flujo de llamadas con y si
 Sin omisión de medios, cuando un cliente realiza o recibe una llamada, tanto la señalización como el flujo multimedia entre el SBC, el sistema Teléfono Microsoft y el cliente Teams, como se muestra en el siguiente diagrama:
 
 > [!div class="mx-imgBorder"]
-> ![Muestra la señalización y el flujo de medios sin omisión de medios](media/direct-routing-media-bypass-1.png)
+> ![Muestra la señalización y el flujo multimedia sin omisión de medios.](media/direct-routing-media-bypass-1.png)
 
 
 Pero supongamos que un usuario está en el mismo edificio o red que el SBC. Por ejemplo, supongamos que un usuario que se encuentra en un edificio de Fráncfort realiza una llamada a un usuario RTC: 
@@ -49,7 +49,7 @@ Pero supongamos que un usuario está en el mismo edificio o red que el SBC. Por 
 - **Con la omisión** de medios, el medio se mantiene directamente entre el Teams y el SBC como se muestra en el diagrama siguiente:
 
   > [!div class="mx-imgBorder"]
-  > ![Muestra la señalización y el flujo multimedia con la omisión de medios](media/direct-routing-media-bypass-2.png)
+  > ![Muestra la señalización y el flujo de medios con la omisión de medios.](media/direct-routing-media-bypass-2.png)
 
 La omisión de medios usa protocolos denominados Establecimiento de conectividad interactiva (ICE) en el cliente Teams y ICE lite en el SBC. Estos protocolos permiten que el enrutamiento directo use la ruta multimedia más directa para obtener una calidad óptima. ICE y ICE Lite son estándares webRTC. Para obtener información detallada sobre estos protocolos, vea RFC 5245.
 
@@ -75,7 +75,7 @@ En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la o
 - La señalización SIP siempre toma trayectorias 4 y 4' (según la dirección del tráfico). Multimedia permanece local y toma la ruta 5b.
 
 > [!div class="mx-imgBorder"]
-> ![Muestra el flujo de llamadas con la omisión de medios habilitada, el cliente es interno](media/direct-routing-media-bypass-3.png)
+> ![Muestra el flujo de llamadas con la omisión de medios habilitada, el cliente es interno.](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Flujo de llamadas si el usuario no tiene acceso a la dirección IP pública del SBC
@@ -96,7 +96,7 @@ En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la o
 - Los medios se retransmiten a través de las rutas 3, 3', 4 y 4'
 
 > [!div class="mx-imgBorder"]
-> ![Muestra el flujo de llamadas si el usuario no tiene acceso a la IP pública del SBC](media/direct-routing-media-bypass-4.png)
+> ![Muestra el flujo de llamadas si el usuario no tiene acceso a la DIRECCIÓN IP pública del SBC.](media/direct-routing-media-bypass-4.png)
 
 
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Flujo de llamadas si un usuario está fuera de la red y tiene acceso a la DIRECCIÓN IP pública del SBC
@@ -111,7 +111,7 @@ En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la o
 - La señalización SIP siempre toma trayectorias 3 y 3' (según la dirección del tráfico). Los flujos multimedia usan la ruta 2.
 
 > [!div class="mx-imgBorder"]
-> ![Muestra el flujo de llamadas si el usuario no tiene acceso a la IP pública del SBC](media/direct-routing-media-bypass-5.png)
+> ![Muestra el flujo de llamadas si el usuario no tiene acceso a la DIRECCIÓN IP pública del SBC.](media/direct-routing-media-bypass-5.png)
 
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>Uso de procesadores multimedia y retransmisión de transporte
@@ -136,7 +136,7 @@ En el siguiente diagrama se muestran dos flujos de llamadas: uno con la omisión
 - El proxy SIP es un componente que traduce la señalización HTTP REST que se usa en Teams a SIP.    
 
 > [!div class="mx-imgBorder"]
-> ![Muestra los flujos de llamadas con la omisión de medios habilitada y deshabilitada](media/direct-routing-media-bypass-6.png)
+> ![Muestra los flujos de llamadas con la omisión de medios habilitada y deshabilitada.](media/direct-routing-media-bypass-6.png)
 
 
 En la tabla siguiente se resume la diferencia entre los procesadores multimedia y los relés de transporte.
@@ -352,7 +352,7 @@ Usuarios con tronco de omisión multimedia | 20 | sbc2.contoso.com:5060 | verdad
 Ambos troncos pueden apuntar al mismo SBC con la misma dirección IP pública. Los puertos de señalización TLS del SBC deben ser diferentes, como se muestra en el siguiente diagrama. Tenga en cuenta que tendrá que asegurarse de que el certificado admite ambos troncos. En SAN, debe tener dos nombres **(sbc1.contoso.com** y **sbc2.contoso.com)** o tener un certificado comodín.
 
 > [!div class="mx-imgBorder"]
-> ![Muestra que ambos troncos pueden apuntar al mismo SBC con la misma IP pública](media/direct-routing-media-bypass-7.png)
+> ![Muestra que ambos troncos pueden apuntar al mismo SBC con la misma IP pública.](media/direct-routing-media-bypass-7.png)
 
 Para obtener información sobre cómo configurar dos troncos en el mismo SBC, vea la documentación proporcionada por el proveedor de SBC:
 

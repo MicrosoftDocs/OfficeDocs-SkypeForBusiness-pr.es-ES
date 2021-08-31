@@ -21,12 +21,12 @@ f1.keywords:
 description: Obtenga información sobre cómo medir los resultados y el éxito de la habilitación a gran escala de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b8d55c16d900a418c11a92622619f4804876699
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 41253843ccfd3a628963a89d42af1eef7ede4b6c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634004"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734089"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir resultados y el éxito de su adopción de Microsoft Teams
 
@@ -36,7 +36,7 @@ Lo que sigue es una estrategia recomendada para asignar estos criterios. Hay muc
   
 Hay cuatro categorías de resultados que se pueden priorizar para su empresa. Están interconectadas y forman la base de la modernización y transformación digital que experimentarán los empleados individuales.  
 
-![Gráfico que ilustra las cuatro categorías de resultados](media/teams-adoption-outcomes.png)
+![Gráfico que ilustra las cuatro categorías de resultados.](media/teams-adoption-outcomes.png)
 
 Ejemplo de resultados en cada categoría son:
 
@@ -70,7 +70,7 @@ Ejemplo de resultados en cada categoría son:
  
 En general, debería pensar en estas medidas agregando para crear un cociente de cambio para su empresa de esta manera:
 
-![Medidas concretas divididas por sentimiento individual = cociente de cambio](media/teams-adoption-change-quotient.png)
+![Medidas concretas divididas por sentimiento individual = cociente de cambio.](media/teams-adoption-change-quotient.png)
 
 ## <a name="select-a-service-enablement-strategy"></a>Seleccionar una estrategia de habilitación del servicio
 
@@ -95,7 +95,7 @@ Las siguientes son nuestras recomendaciones para la mayoría de las organizacion
 
 Para cada estrategia de habilitación, es esencial trabajar estrechamente con su equipo de preparación técnica para asegurarse de que su entorno ofrezca una gran experiencia de empleados. 
 
-![Un icono que representa puntos de decisión](media/teams-adoption-decision-icon.png) Decisión: Seleccione una estrategia de habilitación que admita mejor los resultados empresariales para Microsoft Teams y que pueda habilitar el equipo de implementación técnica. Esta es una decisión conjunta entre los líderes de IT, los clientes potenciales de administración de programas y los especialistas en adopción de usuarios. Esta decisión suele estar en la parte interesada ejecutiva, que es el propietario del éxito final para los servicios de Microsoft Teams o colaboración de su organización.
+![Un icono que representa los puntos de decisión.](media/teams-adoption-decision-icon.png) Decisión: Seleccione una estrategia de habilitación que admita mejor los resultados empresariales para Microsoft Teams y que pueda habilitar el equipo de implementación técnica. Esta es una decisión conjunta entre los líderes de IT, los clientes potenciales de administración de programas y los especialistas en adopción de usuarios. Esta decisión suele estar en la parte interesada ejecutiva, que es el propietario del éxito final para los servicios de Microsoft Teams o colaboración de su organización.
 
 Procedimientos recomendados: las estrategias de habilitación pueden ser adecuadas para una fase determinada de su programa de implementación de proyectos o divisionales. Use personas clave y sus necesidades para realizar selecciones. Trabaje en estrecha colaboración con el equipo de implementación técnica para garantizar una experiencia de alta calidad para los usuarios.  
 
@@ -103,7 +103,7 @@ Procedimientos recomendados: las estrategias de habilitación pueden ser adecuad
 
 La comunicación y la administración de expectativas son elementos clave en un proyecto de cambio exitoso. Es importante comunicar periódicamente su visión general y su progreso hacia ese objetivo a las partes interesadas y a otras personas de su organización. 
 
-![Un icono que representa puntos de decisión](media/teams-adoption-decision-icon.png) Decisión: Decida su ritmo y método para comunicarse con las partes interesadas en alineación con la cultura de su empresa. Dirigir las comunicaciones a los distintos niveles de participación e interés en toda la organización. 
+![Un icono que representa los puntos de decisión.](media/teams-adoption-decision-icon.png) Decisión: Decida su ritmo y método para comunicarse con las partes interesadas en alineación con la cultura de su empresa. Dirigir las comunicaciones a los distintos niveles de participación e interés en toda la organización. 
 
 Opción: Para crear una base de conocimiento continua de información sobre su proyecto, considere la posibilidad de usar páginas de noticias en su SharePoint de comunicación. La biblioteca de páginas de noticias (páginas de sitio en el sitio SharePoint asociado con su equipo de planificación) se puede hacer pública para que se puedan compartir con todas las partes interesadas.
 
@@ -111,7 +111,7 @@ Opción: Para crear una base de conocimiento continua de información sobre su p
 
 En una organización grande, debe intentar incorporar muchos roles diferentes en su amplia fase de habilitación. Esto puede incluir patrocinadores empresariales adicionales, personal de soporte técnico de IT, miembros adicionales de su comunidad de campeones y, en algunos casos, administración de cambios formales o personal de aprendizaje. La ilustración siguiente muestra un equipo de adopción a gran escala que permite una separación de deberes.
 
-![Ilustración del modelo de equipo de adopción corporativa a gran escala](media/teams-adoption-large-scale-model.png)
+![Ilustración del modelo de equipo de adopción corporativa a gran escala.](media/teams-adoption-large-scale-model.png)
 
 En una organización más pequeña, uno o varios de estos roles pueden ser realizados por una sola persona, pero las aptitudes necesarias siguen siendo las mismas.  Las aptitudes técnicas, de comunicación y de aprendizaje son importantes en un proyecto de cambio exitoso. 
 
@@ -147,4 +147,4 @@ Siga los pasos siguientes para simplificar su trabajo con unidades de negocio.  
 4. Capturar comentarios y desarrollar a los campeones con conocimientos de unidad de negocio para admitir la transición,
 5. Configure puntos de comprobación mensuales para analizar el progreso y priorizar el trabajo pendiente de proyectos adicionales.
 
-![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Optimizar los comentarios y los informes](teams-adoption-optimize-feedback-and-reporting.md)
+![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Optimizar comentarios e informes](teams-adoption-optimize-feedback-and-reporting.md)

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df894e5ece2b75bc2168c02d4005b3e522bacab5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 82e1ba3c58dca1326cb942726efa7d0006aa622f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617556"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731239"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>Compruebe la conexión a Internet para Business Voice
 
@@ -64,22 +64,22 @@ Siga estos pasos:
 2. Abra **Planificación** y seleccione **Planeamiento de red**.
 3. En **Planes de red**, seleccione **Agregar**. Escriba un nombre para su plan y después, seleccione **Aplicar**. El plan de red debe tener el siguiente aspecto:
 
-    ![Pantalla principal de Planeamiento de red](../media/network-planner-main.png)
+    ![Pantalla principal de Planeamiento de red.](../media/network-planner-main.png)
 1. Seleccione el nombre de su plan de red. (Es la **Oficina principal** en la imagen anterior).
 2. En la página siguiente, seleccione **Agregar un sitio de red** en la pestaña **Sitios de red**.
 3. Rellene solo los campos que se indican en la siguiente captura de pantalla y después, seleccione **Guardar**. Deje en blanco los otros campos en esta pantalla y no active las opciones **ExpressRoute** o **Conectado a WAN**.
 
-    ![Información del sitio de Planeamiento de red](../media/network-planner-site-info.png)
+    ![Información del sitio de Planeamiento de red.](../media/network-planner-site-info.png)
 1. En la pestaña **Informe**, seleccione **Iniciar un informe**.
 1. Escriba la siguiente información y después, seleccione **Generar informe** para crear un informe que muestre los requisitos de ancho de banda para Teams. En la siguiente sección se muestra cómo leer el informe.
 
-    ![Información del informe de Planeamiento de red](../media/network-planner-report-info.png)
+    ![Información del informe de Planeamiento de red.](../media/network-planner-report-info.png)
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>Averigüe cuál es la velocidad mínima de la conexión a Internet
 
 Cuando selecciona **Generar informe**, Microsoft 365 u Office 365 crean un informe similar a este:
 
-![Detalles del informe de Planeamiento de red](../media/network-planner-report.png)
+![Detalles del informe de Planeamiento de red.](../media/network-planner-report.png)
 
 El número resaltado muestra qué proporción de su conexión a Internet usarán Teams y Business Voice. Se recomienda que este número no supere el 30 por ciento de la velocidad total de conexión a Internet. Por ejemplo, si su conexión a Internet es de 60 Mbps, Teams y Business Voice no deberían usar más de 18 Mbps.
 
@@ -87,7 +87,7 @@ Use esta ecuación para determinar la velocidad mínima de conexión a Internet:
 
 Si Teams y Business Voice usarán más de un 30 por ciento de la velocidad total de conexión a Internet, el número resaltado aparecerá en rojo. En ese caso, es posible que tenga que actualizar la conexión a Internet.
 
-![Advertencia de velocidad de conexión](../media/network-planner-report-speed-warning.png)
+![Advertencia de velocidad de conexión.](../media/network-planner-report-speed-warning.png)
 
 ## <a name="make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365"></a>Asegúrese de que los equipos y dispositivos de su red puedan conectarse a Microsoft 365
 

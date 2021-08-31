@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Obtenga información sobre la configuración de administración en Elogio aplicación en el centro Microsoft Teams administración
-ms.openlocfilehash: 3f3269f812113d63c6c4abfeed9a2d00aa2354b4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 684e6c7feaa19ab7aecdc77eebd6cb1764f431d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581234"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733419"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la Elogio en el centro Microsoft Teams administración
 
@@ -25,7 +25,7 @@ La Elogio en Microsoft Teams ayuda a los usuarios a mostrar aprecio a los miembr
 
 Los administradores pueden controlar qué distintivos están disponibles para su organización desde el Microsoft Teams de administración. En el panel de navegación izquierdo, vaya **a Teams aplicaciones > Administrar aplicaciones.** En la lista de aplicaciones, haga **clic Elogio** y, a continuación, **seleccione Configuración**.  Desde aquí, puede habilitar conjuntos de distintivos predeterminados e integrados y crear distintivos personalizados.
 
-![Captura de pantalla de Configuración pestaña de la Elogio aplicación](media/manage-praise-app-settings.png)
+![Captura de pantalla Configuración pestaña de la Elogio aplicación.](media/manage-praise-app-settings.png)
 
 > [!NOTE]
 > La Elogio de aplicaciones no está disponible para las nubes gubernamentales de EE. UU.
@@ -40,7 +40,7 @@ Los conjuntos integrados son colecciones de distintivos diseñados por Microsoft
 
 El conjunto de distintivos predeterminado está diseñado para ayudar Teams los usuarios reconocen a sus compañeros por ir más allá y más allá con su trabajo.
 
-![Vista previa del conjunto de distintivos predeterminado](media/default-set-praise.png)
+![Vista previa del conjunto de distintivos predeterminado.](media/default-set-praise.png)
 
 <a name="sel-edu-badges"></br></a>
 
@@ -48,7 +48,7 @@ El conjunto de distintivos predeterminado está diseñado para ayudar Teams los 
 
 Los profesores pueden reconocer a alumnos individuales por logros y comportamientos de aprendizaje social y emocional (SEL) con distintivos que ilustran estos conceptos.
 
-![Vista previa de los distintivos de aprendizaje social y emocional para el sector educativo](media/sel-edu-set-praise.png)
+![Vista previa de los distintivos de aprendizaje social y emocional para el sector educativo.](media/sel-edu-set-praise.png)
 
 <a name="create-your-own-badges"></br></a>
 
@@ -56,7 +56,7 @@ Los profesores pueden reconocer a alumnos individuales por logros y comportamien
 
 Seleccione **Crear un distintivo personalizado.** Desde aquí, puede diseñar un distintivo personalizado en el panel lateral. Puede crear hasta 25 distintivos personalizados. 
 
-![Captura de pantalla del panel Crear un distintivo personalizado](media/manage-praise-app-create-custom-badge.png)
+![Captura de pantalla de Crear un panel de insignia personalizado.](media/manage-praise-app-create-custom-badge.png)
 
 1. Escriba un nombre de distintivo. Este es el nombre que aparecerá en el distintivo cuando los usuarios envíen elogios.
 
@@ -66,7 +66,7 @@ Seleccione **Crear un distintivo personalizado.** Desde aquí, puede diseñar un
    > Si es nuevo en los valores hexadecimales, en este artículo se incluye una [introducción](#hex-colors-intro) rápida para mostrarle cómo usarlos.
 
 3. Upload una imagen de distintivo. El tipo de archivo aceptado es .PNG. El archivo de imagen debe tener menos de 40 KB con dimensiones máximas de 216 x 216 píxeles.
-![Distintivo con campos de fondo, texto e imagen etiquetados](media/praise-app-badge-fields.png)
+![Distintivo con campos de fondo, texto e imagen etiquetados.](media/praise-app-badge-fields.png)
 
 4. Localice el nombre del distintivo: en **Nombres de insignia localizados,** seleccione **Agregar**. Seleccione la configuración regional que desee en la lista desplegable. A continuación, escriba el nombre del distintivo en el idioma designado.
 
@@ -93,12 +93,12 @@ A continuación se muestra una lista de colores de ejemplo para empezar:
 
 |Color  |Valor hexadecimal|
 |-------|---------|
-|![color hexadecimal #FF6666](media/hexColor1.png)|  #FF6666   |
-|![hex color #7FFFD4](media/hexColor2.png)|  #7FFFD4   |
-|![color hexadecimal #FF75F0](media/hexColor3.png)|  #FF75F0   |
-|![color hexadecimal #00BFFF](media/hexColor4.png)|  #00BFFF   |
-|![color hexadecimal #800080](media/hexColor5.png)|  #800080   |
-|![hex color #000000](media/hexColor6.png)|  #000000   |
+|![color hexadecimal #FF6666.](media/hexColor1.png)|  #FF6666   |
+|![color hexadecimal #7FFFD4.](media/hexColor2.png)|  #7FFFD4   |
+|![color hexadecimal #FF75F0.](media/hexColor3.png)|  #FF75F0   |
+|![color hexadecimal #00BFFF.](media/hexColor4.png)|  #00BFFF   |
+|![color hexadecimal #800080.](media/hexColor5.png)|  #800080   |
+|![color hexadecimal #000000.](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 
@@ -112,7 +112,7 @@ A continuación se muestra una lista de colores de ejemplo para empezar:
 
 **Si la imagen de distintivo no es rectangular, haga que la imagen sea transparente.** Tendrá que hacerlo antes de cargar el archivo de imagen en Elogio.
 
-![Izquierda: distintivo con imagen no transparente, derecha: distintivo con imagen transparente](media/praise-app-best-practices.png)
+![Izquierda: distintivo con imagen no transparente, derecha: distintivo con imagen transparente.](media/praise-app-best-practices.png)
 
 ## <a name="badge-set-assets"></a>Activos de conjunto de distintivos
 

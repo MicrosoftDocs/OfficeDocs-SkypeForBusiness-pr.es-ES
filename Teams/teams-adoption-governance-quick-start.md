@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b47f0d9229a695b595255d26da773204e5b21a2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eaeec25c90e800fcc688dad924ecac8de687841a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608713"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733719"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Comenzar el inicio rápido para Microsoft Teams
 
@@ -37,7 +37,7 @@ Las siguientes actividades se realizarán simultáneamente y pueden implicar a t
 
 Para obtener más información, lea [Planear el](plan-teams-governance.md) gobierno en Teams y Planear la administración del ciclo de vida en [Teams](plan-teams-lifecycle.md).
 
-## <a name="an-icon-representing-a-decision-pointdecisions"></a>![Un icono que representa un punto de decisión](media/teams-adoption-decision-icon.png)Decisiones
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![Un icono que representa un punto de decisión.](media/teams-adoption-decision-icon.png)Decisiones
 
 Tome las siguientes decisiones (en este momento, estas decisiones solo se aplican a la fase 2):
 
@@ -72,4 +72,4 @@ En preparación para su amplia implementación, puede optar por usar etiquetas d
 
 Una implementación Teams se realiza a un ritmo adecuado para garantizar el impulso, el enfoque y los aprendizajes adecuados. Le recomendamos que esta fase del proyecto tenga una duración de 60 días para asegurarse de que sus primeros usuarios completen ciclos empresariales suficientes. Extender la experimentación durante un tiempo demasiado largo aumenta el riesgo de un programa de cambio fallido; sin embargo, este tiempo variará para cada organización.  
 
-![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Definir escenarios de uso](teams-adoption-define-usage-scenarios.md)
+![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Definir escenarios de uso](teams-adoption-define-usage-scenarios.md)

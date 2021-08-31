@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c44d988bdcfbd08f462a99c76b4095bb01ac60c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca1be1e71578f9ef43e785af5a3e3fd9b047e6ed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619346"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733919"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>Estrategias de actualización para administradores de TI
 
-![Fases del viaje de actualización, con énfasis en la fase implementación e implementación](media/upgrade-banner-deployment.png "Fases del viaje de actualización, con énfasis en la fase implementación e implementación")
+![Etapas del viaje de actualización, con énfasis en la fase implementación e implementación.](media/upgrade-banner-deployment.png "Fases del viaje de actualización, con énfasis en la fase implementación e implementación")
 
 Este artículo es para administradores de TI que desean implementar su actualización para Teams desde Skype Empresarial.
 
@@ -93,7 +93,7 @@ Notas
 
 En el siguiente diagrama se muestran las fases conceptuales de la actualización de capacidades de selección para una organización sin el uso previo de Teams. El alto de las barras representa el número de usuarios. Durante cualquier fase de la actualización, todos los usuarios pueden comunicarse entre sí.  Skype Empresarial se comunican con los usuarios de TeamsOnly mediante interoperabilidad y viceversa. Los usuarios en modo Islas deben asegurarse de ejecutar ambos clientes.
 
-![Diagrama que muestra la actualización de capacidades de selección sin el uso previo de Teams](media/teams-upgrade-1.png)
+![Diagrama que muestra la actualización de capacidades de selección sin el uso previo de Teams.](media/teams-upgrade-1.png)
 
 
 ## <a name="a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode"></a>Una actualización de capacidades de selección para una organización que ya usa Teams en modo Islas
@@ -137,7 +137,7 @@ Si algunos usuarios de su organización usan activamente Teams modo Islas, es pr
 El siguiente diagrama muestra las fases conceptuales de una transición de capacidades de selección en la que hay usuarios activos de islas al principio. El alto de las barras representa el número de usuarios. Durante cualquier fase de la actualización, todos los usuarios pueden comunicarse entre sí.  Skype Empresarial usuarios se comunican con los usuarios de TeamsOnly mediante la interoperabilidad y viceversa. 
 
 
-![Diagrama que muestra la actualización de capacidades de selección con usuarios activos en modo Islas](media/teams-upgrade-2.png)
+![Diagrama que muestra la actualización de capacidades selectas con usuarios activos en modo Islas.](media/teams-upgrade-2.png)
 
    
 

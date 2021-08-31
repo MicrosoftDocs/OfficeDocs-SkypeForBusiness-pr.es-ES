@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Skype Empresarial Server proporciona administración básica de sesiones mediante la compatibilidad con el enrutamiento entre intrusos. '
-ms.openlocfilehash: 67e22f2727c9ef5f741b71c781084ab8fc2cea27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e8ed3ab7b72474614011e4b9f7aaf49ffd5160b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630514"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730919"
 ---
 # <a name="skype-for-business-server-inter-trunk-routing"></a>Skype Empresarial Server: enrutamiento entre troncos
 
@@ -25,9 +25,9 @@ Skype Empresarial Server proporciona administración básica de sesiones mediant
 
 En la figura siguiente se Skype Empresarial Server proporciona interconectividad entre una puerta de enlace RTC y una IP-PBX.
 
-![Interconectividad entre una puerta de enlace RTC y una IP-PBX](../../media/pstn-gateway-ip-pbx.jpg)
+![Interconectividad entre una puerta de enlace RTC y una IP-PBX.](../../media/pstn-gateway-ip-pbx.jpg)
 
 En la siguiente ilustración se Skype Empresarial Server conexión de dos sistemas IP-PBX.
 
-![Skype Empresarial Server conectar dos sistemas IP-PGX](../../media/two-ip-pbx-systems.jpg)
+![Skype Empresarial Server dos sistemas IP-PGX.](../../media/two-ip-pbx-systems.jpg)
 

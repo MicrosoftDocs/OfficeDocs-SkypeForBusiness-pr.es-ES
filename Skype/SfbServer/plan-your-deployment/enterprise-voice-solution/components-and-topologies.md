@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planeación del control de admisión de llamadas (CAC) si tiene una red MPLS, un tronco SIP o una puerta de enlace RTC o PBX de terceros. Se aplica a Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 42fa61908ff13b6323215f2760b113e5d104553d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6964d57af7f4b1218e502e1b7b8ffc6afee3f5d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631644"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730915"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Componentes y topologías para el control de admisión de llamadas en Skype Empresarial
 
@@ -35,13 +35,13 @@ En una red de conmutación de etiquetas multiprotocolo (MPLS), todos los sitios 
 
 **Red MPLS de ejemplo**
 
-![CAC con MPLS](../../media/CAC_MPLS_1.jpg)
+![CAC con MPLS.](../../media/CAC_MPLS_1.jpg)
 
 Para implementar el control admisión de llamadas (CAC) en una red MPLS, debe crear una región de red que represente la nube MPLS y un sitio de red que represente cada uno de los sitios satélite MPLS. En la siguiente figura se muestra cómo deberán configurarse la región de red y los sitios de red para representar la red MPLS de ejemplo de la figura anterior. Los límites de ancho de banda generales y los límites de sesión de ancho de banda se basan en la capacidad del vínculo WAN desde el sitio de red hasta la región de red que representa la nube MPLS.
 
 **Región de red y sitios de red para una red MPLS**
 
-![Control de admisión de llamadas (CAC) con diagrama de MPLS](../../media/CAC_MPLS_2.jpg)
+![Control de admisión de llamadas (CAC) con diagrama de MPLS.](../../media/CAC_MPLS_2.jpg)
 
 ## <a name="call-admission-control-on-a-sip-trunk"></a>Control de admisión de llamadas en un tronco SIP
 
@@ -51,7 +51,7 @@ La siguiente ilustración muestra un ejemplo de implementación de CAC en un tro
 
 **Configuración de CAC en un tronco SIP**
 
-![Diagrama de enlace troncal SIP de control de admisión de llamadas](../../media/CAC_SIP_trunk_1.jpg)
+![Diagrama de enlace troncal SIP de control de admisión de llamadas.](../../media/CAC_SIP_trunk_1.jpg)
 
 Para configurar el CAC en un tronco SIP, deberá realizar las siguientes tareas durante la implementación de CAC:
 
@@ -74,7 +74,7 @@ El CAC se puede implementar en el vínculo WAN desde la interfaz de puerta de en
 
 **Caso 1: Control de admisión de llamadas entre el servidor de mediación y una puerta de enlace RTC**
 
-![Caso 1: CAC entre la puerta de enlace RTC del servidor de mediación](../../media/CAC_gateways_1.jpg)
+![Caso 1: CAC entre la puerta de enlace RTC del servidor de mediación.](../../media/CAC_gateways_1.jpg)
 
 En este ejemplo, el control de admisión de llamadas se aplica entre el servidor de mediación y una puerta de enlace RTC. Si un Skype Empresarial cliente en el sitio de red 1 hace una llamada RTC a través de la puerta de enlace RTC en el sitio de red 2, los medios fluyen a través del vínculo WAN. Por tanto, se llevan a cabo dos comprobaciones de control de admisión de llamadas para cada sesión RTC:
 
@@ -99,7 +99,7 @@ Esta configuración es similar a la del Caso 1. En ambos casos, el servidor de m
 
 **Caso 2: Control de admisión de llamadas entre el servidor de mediación y una PBX de terceros con MTP**
 
-![Caso 2: CAC entre PBX del servidor de mediación con MTP](../../media/CAC_gateways_2.jpg)
+![Caso 2: CAC entre PBX del servidor de mediación con MTP.](../../media/CAC_gateways_2.jpg)
 
 En este ejemplo, el control de admisión de llamadas se aplica entre el servidor de mediación y el MTP o la PBX. Si un usuario Skype Empresarial cliente en el sitio de red 1 hace una llamada RTC a través de la PBX/MTP ubicada en el sitio de red 2, el medio fluye a través del vínculo WAN. Por tanto, se llevan a cabo dos comprobaciones de control de admisión de llamadas para cada sesión RTC:
 
@@ -124,7 +124,7 @@ El Caso 3 es ligeramente diferente a los dos primeros casos. Si no hay ningún M
 
 **Caso 3: Control de admisión de llamadas entre el servidor de mediación y una PBX de terceros sin MTP**
 
-![Caso 3: CAC entre PBX del servidor de mediación sin MTP](../../media/CAC_gateways_3.jpg)
+![Caso 3: CAC entre PBX del servidor de mediación sin MTP.](../../media/CAC_gateways_3.jpg)
 
 En este ejemplo, si un usuario cliente de Skype Empresarial en el sitio de red 1 realiza una llamada a un usuario a través de la PBX, el servidor de mediación solo puede realizar comprobaciones de CAC en el grupo de servidores proxy (entre la aplicación cliente de Skype Empresarial y el servidor de mediación). Dado que el servidor de mediación no tiene información sobre el dispositivo del extremo, durante el proceso de solicitud de la sesión, no pueden realizarse comprobaciones de control de admisión de llamadas en el vínculo WAN (entre el servidor de mediación y el extremo de terceros) antes del establecimiento de llamada. Sin embargo, una vez establecida la sesión, el servidor de mediación facilita la cantidad de ancho de banda usada en el tronco.
 

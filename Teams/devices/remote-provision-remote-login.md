@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo aprovisionar e iniciar sesión de forma remota Teams dispositivos Android
-ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632204"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733319"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Aprovisionamiento remoto e inicio de sesión para Teams dispositivos Android
 
@@ -70,7 +70,7 @@ En la **ventana Aprovisionar nuevos dispositivos,** puede agregar la dirección 
 
 1. En la **pestaña Activación en** espera, seleccione Agregar **id. de MAC.**
 
-   ![Agregar manualmente una dirección mac del dispositivo](../media/remote-provision-6.png)
+   ![agregar manualmente una dirección mac del dispositivo.](../media/remote-provision-6.png)
 
 1. Escriba el id. de MAC.
 1. Escriba una ubicación que ayude a los técnicos a identificar dónde instalar los dispositivos.
@@ -98,15 +98,15 @@ Cuando el dispositivo está encendido y conectado a la red, el técnico aprovisi
 
 1. El técnico selecciona **Aprovisionar dispositivo** en **el Configuración**.  
 
-   ![Opción Aprovisionar nuevo dispositivo desde la pestaña Acciones](../media/provision-device1.png)
+   ![Aprovisionar nueva opción de dispositivo desde la pestaña Acciones.](../media/provision-device1.png)
   
 2. El técnico escribe el código de verificación específico del dispositivo en el campo de entrada proporcionado.
 
-   ![Aprovisionar verificación de nuevo dispositivo](../media/provision-device-verification1.png)
+   ![Aprovisionar la verificación del nuevo dispositivo.](../media/provision-device-verification1.png)
 
    Una vez que el dispositivo se aprovisiona correctamente, el nombre del inquilino aparece en la página de inicio de sesión.
 
-   ![Nombre del inquilino en la página de inicio de sesión](../media/provision-code.png)
+   ![Nombre del inquilino en la página de inicio de sesión.](../media/provision-code.png)
 
 ## <a name="sign-in-remotely"></a>Iniciar sesión de forma remota
 
@@ -118,7 +118,7 @@ El dispositivo aprovisionado aparece en la **pestaña Esperando inicio de sesió
 
 2. Siga las instrucciones de **Iniciar sesión en un usuario** y, a continuación, seleccione **Cerrar**.
 
-   ![la ventana Iniciar sesión en un usuario para un dispositivo individual](../media/sign-in-user.png)
+   ![la ventana Iniciar sesión en un usuario para un dispositivo individual.](../media/sign-in-user.png)
 
 ## <a name="related-article"></a>Artículo relacionado
 

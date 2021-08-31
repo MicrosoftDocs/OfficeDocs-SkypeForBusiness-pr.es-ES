@@ -26,12 +26,12 @@ description: Obtenga información sobre características relacionadas con el ám
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: b88edf016ae59eab6f2d92b1671c39996cb38464
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627572"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730679"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 
@@ -72,7 +72,7 @@ Use la plataforma completa de reuniones en Microsoft Teams para programar, admin
 - Si su organización ya utiliza la historia clínica electrónica o EHR, puede integrar Microsoft Teams para disfrutar de una experiencia más sencilla. El conector de Microsoft Teams para la historia clínica electrónica (EHR) hace que resulte fácil para el personal médico iniciar una visita virtual con un paciente o una consulta con otro proveedor en Teams directamente desde el sistema de EHR. Para más información, consulte [Visitas virtuales con Teams: integración en EHR](ehr-admin.md).
 - Si no usa una EHR admitida, puede usar Microsoft Bookings y la aplicación de Bookings en Teams. Para más información, consulte [Aplicación de reservas y visitas virtuales de Microsoft Teams](../../bookings-app-admin.md).
 
-![Visitas virtuales con Microsoft Teams](../../media/virtual-visits-teams.png)
+![Visitas virtuales con Microsoft Teams.](../../media/virtual-visits-teams.png)
 
 ## <a name="teams-policy-packages"></a>Paquetes de directivas de Teams
 
@@ -105,7 +105,7 @@ Se ha desarrollado nuevas plantillas para crear equipos para aplicar a hospitale
 
 Estreche la colaboración de su equipo sanitario para coordinar el cuidado de la salud y colaborar con Microsoft Teams.
 
-![Cuidado de la salud: colabore con su equipo sanitario en Teams](../../media/teams-healthcare-collaborate-in-teams.png)
+![Atención sanitaria: Colabore con su equipo de salud en Teams.](../../media/teams-healthcare-collaborate-in-teams.png)
 
 Microsoft Teams permite al personal médico, personal clínico, personal de enfermería y otros colaborar de manera eficiente con características incluidas de colaboración en Microsoft Teams, tales como:
 
@@ -134,7 +134,7 @@ Por ejemplo, un miembro del personal encargado de enfermería puede crear una li
 
 Aquí tiene una lista de muestra para guardias de pacientes.
 
-:::image type="content" source="../../media/lists-patients-example.png" alt-text="Recorte de pantalla de lista de muestra para guardias de pacientes":::
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="Captura de pantalla de lista de ejemplo para el redondeo de pacientes.":::
 
 Para más información, consulte [Administrar la aplicación Listas para su organización en Teams](../../manage-lists-app.md).
 

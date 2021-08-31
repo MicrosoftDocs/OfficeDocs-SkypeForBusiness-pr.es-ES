@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Aprenda a usar el Microsoft Teams de administración para ver una lista de todos los números de teléfono de su organización y todos los números asignados a usuarios o no asignados.
-ms.openlocfilehash: 1bad09f115ae31bf392fe14e4d00e1b59b00e3c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7de480508020dac24a63b5923af9cf2481c691b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608797"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733979"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver una lista de números de teléfono de su organización
 
@@ -36,7 +36,7 @@ Hay diferentes tipos de números de teléfono que puede asignar a usuarios u otr
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Para ver una lista de todos los números de teléfono de los que dispone para su organización
 
-![Un icono que muestra el Teams ](media/teams-logo-30x30.png) **con el Microsoft Teams de administración**
+![Un icono que muestra Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
 
 1. Vaya al centro **Microsoft Teams de administración.**
 
@@ -63,7 +63,7 @@ Hay diferentes tipos de números de teléfono que puede asignar a usuarios u otr
 
 Al configurar usuarios, es posible que solo desee ver la lista de los números de teléfono que ya están asignados a los usuarios y qué números de teléfono están disponibles para asignarlos.
   
-![Un icono que muestra el Teams ](media/teams-logo-30x30.png) **con el Microsoft Teams de administración**
+![Un icono que muestra Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
 
 1. Vaya al centro **Microsoft Teams de administración.**
 
@@ -84,7 +84,7 @@ Al configurar usuarios, es posible que solo desee ver la lista de los números d
 
 Al configurar los usuarios de su organización para realizar y recibir llamadas telefónicas, deberá obtener primero los números de teléfono y después asignarlos a los usuarios. Después de obtener los números de teléfono, es posible que desee ver el estado de activación de las asignaciones de números.
 
-![Un icono que muestra el Teams ](media/teams-logo-30x30.png) **con el Microsoft Teams de administración.**
+![Un icono que muestra Teams logotipo.](media/teams-logo-30x30.png) **Usar el Microsoft Teams de administración !**
   
 1. Vaya al centro **Microsoft Teams de administración.**
 

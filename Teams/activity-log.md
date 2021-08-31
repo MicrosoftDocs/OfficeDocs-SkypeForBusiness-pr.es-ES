@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5d1e593159d5dcc93e75a618224eaacdb7becf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 58df214ec15153abcee4275f42c6ae6208b5d4b1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610407"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731249"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Ver las asignaciones de directivas en el registro de actividades
 
 Al asignar directivas a usuarios en el centro de administración de Microsoft Teams, puede ver el estado de esas asignaciones de directivas en el registro de actividades. El registro de actividades muestra las asignaciones de directivas a lotes de más de 20 usuarios a través del centro de administración de Microsoft Teams desde los últimos 30 días. Tenga en cuenta que el registro de actividades no muestra asignaciones de paquetes de directiva, asignaciones de directivas a lotes de menos de 20 usuarios a través del centro de administración de Microsoft Teams o asignaciones de directivas a través de PowerShell.
 
-![Captura de pantalla de la página Registro de actividades](media/activity-log.png)
+![Captura de pantalla de la página Registro de actividades.](media/activity-log.png)
 
 ## <a name="view-your-policy-assignment-activities-in-the-activity-log"></a>Ver las actividades de asignación de directivas en el registro de actividades
 
@@ -39,7 +39,7 @@ Para ver las asignaciones de directivas en el registro de actividades:
 2. Puede ver todas las asignaciones de directivas o filtrar la lista por estado para mostrar solo las tareas no iniciadas, en curso **o** **completadas.** Verá la siguiente información sobre cada tarea:
     - **Nombre:** el nombre de la asignación de directivas. Haga clic en el vínculo para ver más detalles. Esto incluye el número de usuarios a los que se asignó la directiva y el número de tareas completadas, en curso y no iniciadas. También verá la lista de usuarios en el lote, así como el estado y el resultado de cada usuario. Aquí se muestra un ejemplo:
 
-        ![Captura de pantalla de la](media/activity-log-policy-assignment-detail.png)
+        ![Captura de pantalla de la.](media/activity-log-policy-assignment-detail.png)
 
     - **Enviado:** Fecha y hora en que se envió la asignación de directiva.
     - **Hora de finalización:** fecha y hora en que se completó la asignación de directivas.

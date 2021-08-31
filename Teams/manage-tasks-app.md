@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41fa4ea8b32b3c8a1b427f95afbc25317933b5cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 875aeeee6d283a97325ef5aa66402b2c112c4bbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586564"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730639"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Tasks para su organización en Microsoft Teams
 
@@ -35,7 +35,7 @@ La aplicación Tasks ofrece una experiencia de administración de tareas uniform
 > [!NOTE]
 > A medida que implementamos la experiencia de Tasks en los clientes de escritorio de Teams, el nombre de la aplicación aparecerá inicialmente como **Planner** para los usuarios. Después, el nombre cambiará temporalmente a **Tasks de Planner y To Do** y, posteriormente, a **Tasks**. En los clientes móviles de Teams, los usuarios siempre verán el nombre de la aplicación como **Tasks**. Una vez que la experiencia de escritorio esté disponible, puede haber un retraso breve en la disponibilidad de la experiencia móvil.
 
-   ![Captura de pantalla de la vista de lista de tareas en la lista de Teams](media/manage-tasks-app-tasks.png)
+   ![Captura de pantalla de la vista de lista de tareas Teams lista.](media/manage-tasks-app-tasks.png)
 
 Para las organizaciones que desean simplificar la administración de tareas para los trabajadores de primera línea, Tasks también permite dirigir, publicar y seguir las tareas a escala para todos los trabajadores de primera línea. Por ejemplo, los líderes corporativos y regionales pueden crear y publicar listas de tareas dirigidas a ubicaciones relevantes, como tiendas minoristas específicas, y seguir el progreso a través de informes en tiempo real. Los administradores pueden asignar tareas a su personal y actividades directas dentro de sus ubicaciones, mientras que los trabajadores de primera línea tienen una lista prioritaria de tareas asignadas en dispositivos móviles o de escritorio. Para habilitar la [publicación de tareas](#task-publishing), primero debe configurar una jerarquía de destino de equipo para su organización, que defina cómo están relacionados todos los equipos en la jerarquía.
 
@@ -90,12 +90,12 @@ No recomendamos usar esto con sus trabajadores de TI. Sin embargo, es útil para
 Con la publicación de tareas, la organización puede publicar listas de tareas dirigidas a ubicaciones específicas (equipos) de su organización para definir y compartir un plan de trabajo que se vaya a completar en esas ubicaciones.
 
 - Los miembros del equipo de publicación, como la dirección regional o corporativa, pueden crear listas de tareas y publicarlas en equipos específicos.<br>
-    ![Captura de pantalla de la publicación de tareas](media/manage-tasks-app-publish.png)
+    ![Captura de pantalla de la publicación de tareas.](media/manage-tasks-app-publish.png)
 - Los administradores de los equipos de destinatarios pueden revisar las listas de tareas publicadas y asignar tareas individuales a los miembros del equipo.<br>
-    ![Captura de pantalla de asignación de una tarea](media/manage-tasks-app-assign.png)
+    ![Captura de pantalla de asignación de una tarea.](media/manage-tasks-app-assign.png)
 - Los trabajadores pueden ver sus tareas asignadas de forma sencilla en sus móviles. Pueden adjuntar fotos para mostrar su trabajo cuando corresponda y marcar sus tareas como completadas.
 - Quienes publiquen tareas y los administradores podrán ver en los informes a quiénes se han asignado las tareas y su progreso en cada nivel, incluidas la ubicación (equipo), la lista de tareas y la tarea individual.<br>
-    ![Captura de pantalla de tareas asignadas en dispositivos móviles](media/manage-tasks-app-reporting.png)
+    ![Captura de pantalla de tareas asignadas en dispositivos móviles.](media/manage-tasks-app-reporting.png)
 
 Los usuarios podrán crear, administrar y publicar listas de tareas en la pestaña **Listas publicadas** de la aplicación Tasks. En esta pestaña solo se muestra a un usuario si su organización [configura una jerarquía basada en equipos](#set-up-your-team-targeting-hierarchy) y si el usuario se encuentra en un equipo incluido en la jerarquía. La jerarquía determina si el usuario puede publicar o recibir listas de tareas y ver los informes de las listas recibidas.
 

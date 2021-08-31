@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 'Resumen: revise este tema al planear la integración de Skype Empresarial Server con dispositivos de teleconferencia de terceros.'
-ms.openlocfilehash: 0e94a7fc84d4174c3fe562355a6550a1b77d909c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0210082f4e505152833b68c182ddfcdd1ea7c2dc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607907"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731429"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planear el servidor de interoperabilidad de vídeo en Skype Empresarial Server
  
@@ -56,7 +56,7 @@ Los VTC compatibles actualmente son:
 
 El servidor de interoperabilidad de vídeo funciona en modo troncal SIP, donde los VTC siguen registrándose con la infraestructura de Cisco existente, por ejemplo, Cisco Call Manager (CUCM). Se define un tronco SIP de vídeo entre CUCM y el VIS para que las llamadas se puedan enrutar entre los dos sistemas. Solo se admiten llamadas a través del tronco SIP desde VTC al VIS. Por lo tanto, los VTC pueden llamar a una conferencia de Skype Empresarial (marcando el número de teléfono asociado con el operador automatizado de llamadas), pero no se pueden arrastrar y dejar caer en la conferencia.
   
-![Diagrama de VIS en SfB](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
+![Diagrama de VIS en SfB.](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
   
 ## <a name="features"></a>Características
 
@@ -101,7 +101,7 @@ El VIS admite llamadas entrantes de un CUCM que se llevan a través de un tronco
   
 1. **Conmutación por error del grupo vis** Si el grupo de VIS principal al que apunta la puerta de enlace de vídeo está abajo, la recuperación es posible si la puerta de enlace de vídeo ha definido troncos en dos (o más) grupos de servidores VIS. Si la puerta de enlace de vídeo determina que no puede realizar llamadas al grupo vis principal, simplemente enruta las llamadas a un grupo de VIS secundario.
     
-     ![Diagrama de conmutación por error del grupo vis](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
+     ![Diagrama de conmutación por error del grupo vis.](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
   
     Un grupo de vis determinado puede tener troncos para varias puertas de enlace, pero normalmente una puerta de enlace determinada no puede tener troncos en varios grupos de servidores VIS, por lo que es necesario realizar un truco para admitir esta conmutación por error: definir 2 FDQN en DNS que se resuelven en la misma dirección IP de una puerta de enlace de vídeo. Represente cada FQDN como una puerta de enlace de vídeo independiente en el documento de topología donde cada puerta de enlace de vídeo tiene un tronco a un grupo de VIS diferente y ahora es posible la recuperación. (Si se usa TLS, los varios nombres tendrán que estar en el SAN del certificado de puerta de enlace de vídeo).
     
@@ -110,7 +110,7 @@ El VIS admite llamadas entrantes de un CUCM que se llevan a través de un tronco
   
 2. **Conmutación por error front-end** Si un grupo de servidores VIS recibe una llamada de CUCM pero no puede llegar a su registrador de próximo salto principal o grupo de servidores front-end, las llamadas se enruta a un grupo de servidores front-end de copia de seguridad.
     
-     ![Diagrama de conmutación por error front-end](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
+     ![Diagrama de conmutación por error front-end.](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
   
     El VIS realizará un seguimiento del estado de su grupo de servidores front-end principal y su grupo de servidores front-end de copia de seguridad (la configuración se encuentra en la configuración de copia de seguridad del servicio registrador en el documento de topología). Envía sondeos de opciones una vez al minuto a ambos grupos de servidores y, si hay cinco errores consecutivos, el VIS supone que un grupo de servidores front-end determinado está abajo. Si el grupo de servidores front-end principal está marcado como hacia abajo y hay una copia de seguridad configurada disponible, el VIS envía nuevas llamadas desde la puerta de enlace al grupo de servidores front-end de copia de seguridad. Una vez que vuelva el grupo de servidores front-end principal, el VIS se reanudará con el grupo de servidores front-end principal para las llamadas nuevas.
     
@@ -184,7 +184,7 @@ La compatibilidad con VTC que se unen a reuniones en línea a través del VIS lo
 
 La compatibilidad con VTC que se unen a reuniones federadas a través de VIS no forma parte de Skype Empresarial.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="resiliency"> </a>
 
 [Implementar el servidor de interoperabilidad de vídeo en Skype Empresarial Server](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)

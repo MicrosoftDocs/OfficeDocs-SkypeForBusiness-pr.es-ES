@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Obtenga información sobre cómo configurar la integración de Cloud Connector con su Microsoft 365 o Office 365 organización.
-ms.openlocfilehash: 5e6cf8033a4207b79ff2f7d0915849b19eec2b65
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3b8b13669a2e52ed5146e1bd0ca179a5542e43d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628532"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733379"
 ---
 # <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>Configurar la integración de Cloud Connector con su Microsoft 365 o Office 365 organización
 
@@ -66,7 +66,7 @@ Agregue los siguientes registros DNS a su Microsoft 365 o Office 365 organizaci�
     
 2. Los registros SRV se crearán automáticamente mediante Microsoft 365 o Office 365 y los scripts de implementación. Confirme que puede buscar los dos servicios SIP siguientes en edge: \_ sip y \_ sipfederationtls.
     
-     ![Confirmación de registros SRV](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
+     ![Confirmación de registros SRV.](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-microsoft-365-or-office-365"></a>Configurar la conectividad híbrida entre Cloud Connector Edition y Microsoft 365 o Office 365
 

@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las Microsoft Teams de voz en la nube y las decisiones de implementación que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b82b858e49040628cd53c06c03be4235b3fdac9fa674cd733bd84f6ba8816cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eb6796dff27cf078c2f8f1d2d2f1ffc00fddc5e0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347505"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730519"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear su Teams de voz 
 
@@ -37,7 +37,7 @@ Este artículo le ayuda a decidir qué solución de voz de Microsoft es la adecu
 
 Es posible que desee la solución más &mdash; sencilla Sistema telefónico con Plan de llamadas. Esta es la solución todo en la nube de Microsoft que proporciona funcionalidades de Exchange de sucursal privada (PBX) y llamadas a la red telefónica conmutada (RTC), como se muestra en el siguiente diagrama. Con esta solución, Microsoft es su operador RTC.
 
-![Diagrama 1 muestra Sistema telefónico con plan de llamadas](media/voice-solutions-simple.png)
+![El diagrama 1 muestra Sistema telefónico con plan de llamadas.](media/voice-solutions-simple.png)
 
 Si responde sí a lo siguiente, Sistema telefónico con Plan de llamadas es la solución adecuada para usted:
 
@@ -96,7 +96,7 @@ En este artículo se presentan las Sistema telefónico características y funcio
 - [Correo de voz en la nube](#cloud-voicemail)
 - [Identidad de llamada](#calling-identity)
 
-![El diagrama 3 muestra Teléfono con operadores automáticos y consultas de llamadas, correo de voz en la nube e identidad de llamadas](media/phone-system-contains.png)
+![El diagrama 3 muestra Teléfono con operadores automáticos y consultas de llamadas, correo de voz en la nube e identidad de llamadas.](media/phone-system-contains.png)
 
 Para obtener información sobre todas Sistema telefónico características y cómo configurar Sistema telefónico, vea los siguientes artículos:
 

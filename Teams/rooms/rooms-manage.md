@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo desarrollar y ejecutar operaciones y mantenimiento continuos para asegurarse de que sus Salas de Microsoft Teams están disponibles para los usuarios.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbe3a22b86fa9f4b0773e1a7397bb206deb093e1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7ab88563b26faef5be188454126f3bb4df484fe4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636644"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733589"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Administrar Salas de Microsoft Teams
 
@@ -36,7 +36,7 @@ Con Microsoft Teams de administración, puede:
 
 Para administrar Salas de Teams dispositivos, abra [el Microsoft Teams de administración y](https://admin.teams.microsoft.com) vaya a **Dispositivos**  >  **Salas de Teams**.
 
-:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Salas de Teams de resumen en Teams de administración":::
+:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Salas de Teams de resumen en Teams de administración.":::
 
 > [!IMPORTANT]
 > Para administrar dispositivos con el Teams de administración, debe tener asignado el administrador global, Teams administrador o Teams administrador de dispositivos.
@@ -147,7 +147,7 @@ Para ver información detallada sobre un dispositivo, seleccione su nombre en la
 
 La **pestaña** Actividad de Teams detalles del dispositivo de sala muestra información detallada y de alto nivel sobre todas las reuniones en las que ha participado el dispositivo a lo largo del tiempo. En la **pestaña** Actividad, puede ver cuándo se celebró una reunión, cuántos participantes asistieron a la reunión y la calidad del audio durante la reunión.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Lista de resumen de actividad del dispositivo de sala":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Lista de resumen de actividad del dispositivo de sala.":::
 
 Para ver la información detallada sobre una reunión específica, seleccione la fecha y hora de la reunión sobre la que desea obtener más información. Si una reunión solo tiene dos participantes, verá la página de detalles del participante, de lo contrario verá una página de resumen del participante.
 
@@ -155,10 +155,10 @@ Para ver la información detallada sobre una reunión específica, seleccione la
 
 La página de resumen del participante muestra todos los participantes que asistieron a la reunión. Puede ver cuándo se unió cada participante a la reunión, su nombre, calidad de audio y qué características se usaron durante la sesión. Para ver los detalles de la sesión de un participante, seleccione la hora de inicio de la sesión para ese participante.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Detalles de la conferencia del dispositivo de sala":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Detalles de la conferencia del dispositivo de la sala.":::
 
 ##### <a name="participant-details"></a>Detalles del participante
 
 La página de detalles del participante muestra información de diagnóstico de un extremo a otro para la sesión de ese participante. Como se muestra en el siguiente  **gráfico,** se proporciona información de **dispositivo,** sistema y conectividad para el participante y para el Salas de Teams dispositivo. **También** se proporciona información de diagnóstico de red entre el participante y Salas de Teams dispositivo. Seleccione el icono del contexto sobre el que desea obtener más información. Para obtener información de diagnóstico adicional, seleccione la **pestaña** Avanzadas.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Detalles de la llamada del dispositivo de la sala":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Detalles de la llamada del dispositivo de la sala.":::

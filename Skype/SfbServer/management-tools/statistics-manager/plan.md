@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumen: lea este tema para obtener información sobre el Administrador de estadísticas para Skype Empresarial Server.'
-ms.openlocfilehash: 17b01924db7522e2fefc9fbdf399d223429b6c4a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2ba909e5bcc526a40374f5f9fdbbcf15c1cf7c39
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612079"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730759"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Plan para el administrador de estadísticas para Skype Empresarial Server
 
@@ -122,7 +122,7 @@ En una implementación local, un solo servidor hospeda todos los componentes del
 
 En el siguiente diagrama se muestra una implementación local, en la que el sitio web del Administrador de estadísticas, el sistema de almacenamiento en caché de Concentrador, Escucha y Redis se hospedan en un solo equipo. El Administrador de estadísticas supervisa tres Skype Empresarial, cada uno de los cuales tiene un único agente que transmite datos al agente de escucha. Los usuarios se conectan a un único sitio web para ver todos los datos agregados por el Administrador de estadísticas:
 
-![Implementación local del Administrador de estadísticas](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Implementación local del Administrador de estadísticas.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## <a name="requirements"></a>Requisitos
 <a name="BKMK_Requirements"> </a>

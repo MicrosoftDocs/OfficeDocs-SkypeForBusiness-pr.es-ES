@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo asignar directivas a grandes conjuntos de usuarios de su institución educativa en función de la pertenencia a grupos o directamente a través de una asignación por lotes para fines educativos remotos (teleescuelas, teleescuelas).
 f1keywords: ''
-ms.openlocfilehash: 29e32229462d9ac9e256c3c8ece0ab3f02312631
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8d7eed80375b87eb09cbad803e99d35578c5bbc8
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619656"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731379"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Asignar directivas a grandes conjuntos de usuarios de la escuela
 
@@ -51,7 +51,7 @@ Tenga en cuenta que la directiva global se aplicará a todos los usuarios de su 
 
 En este tutorial, los alumnos recibirán la directiva de reunión global y asignaremos una directiva de reunión personalizada denominada EducatorMeetingPolicy a docentes y docentes. Suponemos que ha editado la directiva global para adaptar la configuración de la reunión [a](policy-packages-edu.md) los alumnos y ha creado una directiva personalizada que define la experiencia de la reunión para el personal y los profesores.
 
-![Captura de pantalla de la página Directivas de reunión en el Teams de administración](media/batch-group-policy-assignment-edu-meeting-policies.png)
+![Captura de pantalla de la página Directivas de reunión en el Teams de administración.](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## <a name="assign-a-policy-to-a-group"></a>Asignar una directiva a un grupo
 
@@ -89,7 +89,7 @@ Si no puede implementar SDS en su entorno, use este script de [PowerShell](scrip
 2. Seleccione la **pestaña Asignación de directivas de** grupo.
 3. Seleccione **Agregar grupo** y, a continuación, en el panel Asignar **directiva** al grupo, haga lo siguiente:
 
-    ![Captura de pantalla del panel Editar configuración, que muestra la directiva de reunión](media/batch-group-policy-assignment-edu-group.png)
+    ![Captura de pantalla del panel Editar configuración, que muestra la directiva de reunión.](media/batch-group-policy-assignment-edu-group.png)
     1. En el **cuadro Seleccionar un grupo,** busque y agregue el grupo de seguridad que contiene el personal y los profesores.
     2. En el **cuadro Seleccionar jerarquía,** escriba **1**.
     3. En el **cuadro Seleccionar una directiva,** seleccione **EducatorMeetingPolicy**.

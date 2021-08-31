@@ -1,5 +1,5 @@
 ---
-title: Aprovisionamiento de Microsoft Teams en escala para los trabajadores de primera línea
+title: Aprovisionamiento de Microsoft Teams en escala para el personal de primera línea
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: keschm
-description: Guía sobre el uso de scripts para implementar o aprovisionar Microsoft Teams para los trabajadores de primera línea.
+description: Guía sobre el uso de scripts para implementar o aprovisionar Microsoft Teams para personal de primera línea.
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e50c0c3b7051ec713fff72058a53bd261ab650c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607697"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733439"
 ---
-# <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Cómo proporcionar Teams a escala para trabajadores de primera línea
+# <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Cómo proporcionar Teams a escala para personal de primera línea
 
 ¿Necesita incorporar rápidamente un gran número de usuarios a Microsoft Teams y configurar una experiencia optimizada para ellos? Puede aprovisionar rápidamente identidades, aprovisionar equipos y asignar todas las directivas relevantes para controlar la experiencia de usuario final siguiendo las siguientes instrucciones.
 
@@ -132,11 +132,11 @@ Tendrá que instalar y conectarse a varios módulos de PowerShell, como Azure AD
 
 ## <a name="create-and-set-up-teams"></a>Crear y configurar Teams
 
-Para poder comunicarse y colaborar con sus trabajadores de primera línea, primero tendrá que establecer una serie de equipos y agregar canales estándar a estos equipos. Le indicaremos cómo hacerlo a continuación.
+Para poder comunicarse y colaborar con su personal de primera línea, primero tendrá que establecer una serie de equipos y agregar canales estándar a estos equipos. Le indicaremos cómo hacerlo a continuación.
 
 ### <a name="create-teams"></a>Crear equipos
 
-Los equipos son un conjunto de personas, contenido y herramientas de su organización. Para la mayoría de las organizaciones centradas en trabajadores de primera línea, se recomienda fijar un equipo en torno a una ubicación física. Por ejemplo, un equipo para cada uno de los siguientes:
+Los equipos son un conjunto de personas, contenido y herramientas de su organización. Para la mayoría de las organizaciones centradas en el personal de primera línea, se recomienda fijar un equipo en torno a una ubicación física. Por ejemplo, un equipo para cada uno de los siguientes:
 
 - Tienda
 - Centro de distribución
@@ -179,13 +179,13 @@ Los canales son secciones dedicadas dentro de un equipo para mantener las conver
 
 Como administrador de, puede usar las directivas de equipo en Microsoft Teams para controlar lo que los usuarios de su organización ven y pueden ver. Por ejemplo, puede controlar qué aplicaciones están fijadas en el raíl izquierdo desde su Escritorio o en el Explorador Web, o en la barra inferior desde los dispositivos móviles, para simplificar la experiencia del usuario final al incorporar una gran cantidad de usuarios. Algunas de estas directivas se pueden crear con PowerShell y otras se deben crear manualmente en el Centro de administración de Teams.
 
-*Discusión de prácticas recomendadas*: para cada una de las siguientes directivas, estamos eligiendo crear dos directivas: una para los trabajadores de primera línea y otra para los administradores de primera línea. Puede elegir crear tantos o tan pocos como quiera. Para la mayoría de los clientes, dos es un buen punto de partida, incluso si se asigna la misma configuración a cada grupo inicialmente. A medida que su experiencia con Teams crezca, puede elegir diferenciar más su experiencia y tener las dos directivas separadas ya creadas puede hacer eso más simple.
+*Discusión de prácticas recomendadas*: para cada una de las siguientes directivas, estamos eligiendo crear dos directivas: una para el personal de primera línea y otra para los administradores de primera línea. Puede elegir crear tantos o tan pocos como quiera. Para la mayoría de los clientes, dos es un buen punto de partida, incluso si se asigna la misma configuración a cada grupo inicialmente. A medida que su experiencia con Teams crezca, puede elegir diferenciar más su experiencia y tener las dos directivas separadas ya creadas puede hacer eso más simple.
 
 ### <a name="create-teams-messaging-policies"></a>Cree directivas de mensajería de Teams
 
 Las directivas de mensajería se usan para controlar cuáles de las características de mensajería y chat en los canales están disponibles para los usuarios en Microsoft Teams.
 
-*Discusión de prácticas recomendadas*: aunque puede usar la directiva global predeterminada que se crea automáticamente, hemos optado por crear una directiva personalizada siguiendo estos pasos para ofrecer una experiencia más estable, simple y diferenciada para los administradores de primera línea y los trabajadores de primera línea.
+*Discusión de prácticas recomendadas*: aunque puede usar la directiva global predeterminada que se crea automáticamente, hemos optado por crear una directiva personalizada siguiendo estos pasos para ofrecer una experiencia más estable, simple y diferenciada para los administradores de primera línea y personal de primera línea.
 
 #### <a name="steps-to-create-teams-messaging-policies"></a>Pasos para crear directivas de mensajería de Teams
 
@@ -207,7 +207,7 @@ La aplicaciones se anclan a la barra de aplicaciones. Esta es la barra situada e
 |---------|---------|---------|
 |![Recorte de pantalla del cliente de escritorio de Teams con aplicaciones ancladas a la barra de aplicaciones.](media/flw-teams-desktop-client.png)         |         |![Recorte de pantalla del cliente de escritorio de Teams con aplicaciones ancladas a la barra inferior.](media/flw-teams-mobile-client.png) |
 
-*Discusión de prácticas recomendadas*: puede administrar las directivas de configuración de la aplicación en el Centro de administración de Microsoft Teams. No se pueden crear con PowerShell. Puede usar la directiva global (predeterminada para toda la organización) o crear directivas personalizadas y asignarlas a los usuarios. Los usuarios de su organización serán asignados automáticamente a la directiva global, a menos que cree y asigne una directiva personalizada. Para nuestros propósitos, crearemos dos nuevas directivas para los trabajadores de primera línea y los administradores de primera línea con el fin de proporcionarles una experiencia más sencilla y optimizada y facilitar la incorporación simultánea de un gran número de usuarios. Puede elegir personalizar la experiencia según las necesidades de su empresa.
+*Discusión de prácticas recomendadas*: puede administrar las directivas de configuración de la aplicación en el Centro de administración de Microsoft Teams. No se pueden crear con PowerShell. Puede usar la directiva global (predeterminada para toda la organización) o crear directivas personalizadas y asignarlas a los usuarios. Los usuarios de su organización serán asignados automáticamente a la directiva global, a menos que cree y asigne una directiva personalizada. Para nuestros propósitos, crearemos dos nuevas directivas para el personal de primera línea y los administradores de primera línea con el fin de proporcionarles una experiencia más sencilla y optimizada y facilitar la incorporación simultánea de un gran número de usuarios. Puede elegir personalizar la experiencia según las necesidades de su empresa.
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>Cree la directiva de configuración de la aplicación de administradores de primera línea
 
@@ -216,14 +216,14 @@ Se pueden personalizar las siguientes configuraciones para satisfacer las necesi
 1. En el panel de navegación izquierda del centro de administración de Microsoft Teams, vaya a  **Directivas de** > **configuración de aplicaciones de Teams**.
 2. Haga clic en **Agregar**.  
 3. Escriba un nombre y una descripción para la directiva. Por ejemplo, Directiva de configuración de la aplicación para administradores de primera línea.
-    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Recorte de pantalla del nombre de ejemplo y la descripción de la directiva de configuración de aplicaciones del administrador de primera línea":::
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Captura de pantalla del nombre y descripción de ejemplo de la directiva de configuración de aplicaciones del administrador de primera línea.":::
 
 4. Deshabilite **Cargar aplicaciones personalizadas**.
 5. Deshabilite **Permitir el anclaje de usuarios**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Recorte de pantalla del ajuste Permitir anclaje de usuario":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Captura de pantalla de la configuración Permitir anclaje de usuario":::
 
 6. Si aún no aparece en la lista, agregue la aplicación **Turnos**. Para obtener más información acerca de Turnos, haga clic [aquí](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
-    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Recorte de pantalla de Agregar aplicaciones ancladas en la que se muestra el botón Agregar de la aplicación Turnos":::
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Captura de pantalla de Agregar aplicaciones ancladas en la que se muestra el botón Agregar de la aplicación Turnos":::
 
 7. Quitar Llamada, si aparece. Si quita esta función no se deshabilitará para el usuario, sino que se evitará que aparezca en la barra de aplicaciones para simplificar la experiencia del usuario final.
 8. Organice las aplicaciones de la siguiente forma para dictar su orden en la barra de aplicaciones de Teams y luego, haga clic en  **Guardar**.
@@ -234,24 +234,24 @@ Se pueden personalizar las siguientes configuraciones para satisfacer las necesi
     - Calendario
     - Turnos
 
-    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Recorte de pantalla de las aplicaciones para administradores de primera línea en orden":::
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Captura de pantalla de las aplicaciones para administradores de primera línea en orden.":::
 
-#### <a name="create-the-frontline-worker-app-setup-policy"></a>Cree la directiva de configuración de la aplicación para los trabajadores de primera línea
+#### <a name="create-the-frontline-worker-app-setup-policy"></a>Cree la directiva de configuración de la aplicación para el personal de primera línea
 
 Se pueden personalizar las siguientes configuraciones para satisfacer las necesidades de su empresa. Hemos elegido algunas opciones recomendadas basándonos en las prácticas recomendadas y mejorar la facilidad de incorporación de nuevos usuarios a escala. Para obtener más información, haga clic [here](teams-app-setup-policies.md).
 
 1. En el panel de navegación izquierda del centro de administración de Microsoft Teams, vaya a  **Directivas de** > **configuración de aplicaciones de Teams**.
 2. Haga clic en **Agregar**.
-3. Escriba un nombre y una descripción para la directiva. Por ejemplo: Directiva de configuración de la aplicación para trabajadores de primera línea.
-    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Recorte de pantalla del nombre de ejemplo y la descripción de la directiva de configuración de la aplicación para trabajadores de primera línea":::
+3. Escriba un nombre y una descripción para la directiva. Por ejemplo: directiva de configuración de la aplicación para personal de primera línea.
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Captura de pantalla del nombre de ejemplo y la descripción de la directiva de configuración de la aplicación para personal de primera línea.":::
 
 4. Deshabilite **Cargar aplicaciones personalizadas**.
 5. Deshabilite **Permitir el anclaje de usuarios**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Recorte de pantalla del ajuste Permitir anclaje de usuario":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Captura de pantalla de la configuración Permitir anclaje de usuario":::
 
 6. Si aún no aparece en la lista, agregue la aplicación **Turnos**. Para obtener más información acerca de Turnos, haga clic [aquí](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
-    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Recorte de pantalla de Agregar aplicaciones ancladas en la que se muestra el botón Agregar de la aplicación Turnos":::
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Captura de pantalla de Agregar aplicaciones ancladas en la que se muestra el botón Agregar de la aplicación Turnos":::
 
 7. Quitar Reuniones y Llamadas, si aparecen. Si quita estas funciones no se deshabilitarán para el usuario, sino que se evitará que aparezcan en la barra de aplicaciones para simplificar la experiencia del usuario final.
 8. Organice las aplicaciones de la siguiente forma para dictar su orden en la barra de aplicaciones de Teams y luego, haga clic en  **Guardar**.
@@ -260,13 +260,13 @@ Se pueden personalizar las siguientes configuraciones para satisfacer las necesi
     - Teams
     - Turnos
 
-    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Recorte de pantalla de las aplicaciones para trabajadores de primera línea en orden":::
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Captura de pantalla de las aplicaciones para personal de primera línea en orden":::
 
 ### <a name="create-teams-app-permission-policies"></a>Cree directivas de permisos de aplicación de Teams
 
 Como administrador, puede usar las directivas de permisos de aplicación para controlar qué aplicaciones están disponibles para los usuarios de Microsoft Teams de su organización. Puede permitir o bloquear todas las aplicaciones, o aplicaciones específicas publicadas por Microsoft, terceros y su organización. Cuando bloquee una aplicación, los usuarios que tienen la directiva no pueden instalarla desde la tienda de aplicaciones de Teams. Debe ser un administrador global o un administrador de servicio de Teams para administrar estas directivas.
 
-*Discusión de prácticas recomendadas*: puede administrar las directivas de configuración de la aplicación en el Centro de administración de Microsoft Teams. No se pueden crear con PowerShell. Puede usar la directiva global (predeterminada para toda la organización) o crear directivas personalizadas y asignarlas a los usuarios. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada. Para nuestros propósitos, crearemos dos nuevas directivas para los trabajadores de primera línea y los administradores de primera línea con el fin de proporcionarles una experiencia más segura y optimizada y facilitar la incorporación simultánea de un gran número de usuarios. Por supuesto, puede elegir la personalización de su experiencia de acuerdo con las necesidades de su empresa.
+*Discusión de prácticas recomendadas*: puede administrar las directivas de configuración de la aplicación en el Centro de administración de Microsoft Teams. No se pueden crear con PowerShell. Puede usar la directiva global (predeterminada para toda la organización) o crear directivas personalizadas y asignarlas a los usuarios. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada. Para nuestros propósitos, crearemos dos nuevas directivas para el personal de primera línea y los administradores de primera línea con el fin de proporcionarles una experiencia más segura y optimizada y facilitar la incorporación simultánea de un gran número de usuarios. Por supuesto, puede elegir la personalización de su experiencia de acuerdo con las necesidades de su empresa.
 
 #### <a name="create-the-frontline-manager-app-permission-policy"></a>Crear la directiva de permisos de la aplicación para los administradores de primera línea
 
@@ -275,7 +275,7 @@ Se pueden personalizar las siguientes configuraciones para satisfacer las necesi
 1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a  **Aplicaciones de Teams** > **Directivas de permisos**.
 2. Haga clic en **Agregar**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Recorte de pantalla de la página Agregar página directiva de permisos de la aplicación":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Captura de pantalla de la página Agregar directiva de permisos de la aplicación.":::
 
 3. Escriba un nombre y una descripción para la directiva. Por ejemplo: Directiva de permisos de la aplicación para administradores de primera línea
 4. En  **Microsoft Apps**, seleccione **Permitir todas las aplicaciones**.
@@ -283,16 +283,16 @@ Se pueden personalizar las siguientes configuraciones para satisfacer las necesi
 6. En **Aplicaciones personalizadas**, seleccione **Permitir todas las aplicaciones**.
 7. Haga clic en  **Guardar**.
 
-#### <a name="create-the-frontline-worker-app-permission-policy"></a>Crear la directiva de permisos de la aplicación para los trabajadores de primera línea
+#### <a name="create-the-frontline-worker-app-permission-policy"></a>Crear la directiva de permisos de la aplicación para el personal de primera línea
 
 Se pueden personalizar las siguientes configuraciones para satisfacer las necesidades de su empresa. Estas son algunas de las opciones recomendadas en base a las prácticas recomendadas para mejorar el nivel de incorporación fácil de los nuevos usuarios. Para más información, haga clic [aquí](teams-app-permission-policies.md).
 
 1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a  **Aplicaciones de Teams** > **Directivas de permisos**.
 2. Haga clic en **Agregar**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Recorte de pantalla de la página Agregar página directiva de permisos de la aplicación":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Captura de pantalla de la página Agregar directiva de permisos de la aplicación.":::
 
-3. Escriba un nombre y una descripción para la directiva. Por ejemplo, Directiva de permisos de la aplicación para trabajadores de primera línea
+3. Escriba un nombre y una descripción para la directiva. Por ejemplo, directiva de permisos de la aplicación para personal de primera línea.
 4. En  **Microsoft Apps**, seleccione **Permitir todas las aplicaciones**.
 5. En  **Aplicaciones de terceros**, seleccione **Bloquear todas las aplicaciones**.
 6. En **Aplicaciones personalizadas**, seleccione **Permitir todas las aplicaciones**.
@@ -309,7 +309,7 @@ Crear los usuarios en Azure AD es lo primero que necesita para trabajar con una 
   - Día de laborable: [Tutorial: configurar el aprovisionamiento automático de usuarios para el día laborable](/azure/active-directory/saas-apps/workday-inbound-tutorial).
 - Si tiene su información de usuario en otros sistemas, siga estos pasos.
 
-Para administrar estos usuarios de forma más eficaz, debe crear dos grupos de seguridad para trabajadores y administradores de primera línea y aprovisionar estos usuarios directamente en los grupos de seguridad siguiendo estos pasos:
+Para administrar estos usuarios de forma más eficaz, debe crear dos grupos de seguridad para personal y administradores de primera línea y aprovisionar estos usuarios directamente en los grupos de seguridad siguiendo estos pasos:
 
 1. Busque el archivo **Users.csv** en la carpeta de scripts del repositorio.
 1. Actualice el archivo **Users.csv** con la información específica de su organización.

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lea este artículo para obtener información sobre cómo usar dispositivos analógicos con Teléfono Microsoft system direct routing.
-ms.openlocfilehash: 93ce20366cfb29d5719a94af0842285d299e50e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 083c5dd5b577e319a9e5308a4ec3630614254628
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619486"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733499"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Cómo usar dispositivos analógicos con Sistema telefónico enrutamiento directo
 
@@ -32,7 +32,7 @@ Cuando un usuario realiza una llamada desde un dispositivo analógico, la señal
 En el siguiente diagrama, enrutamiento directo está configurado de modo que cualquier llamada Teams a y desde los números entre +1425 4XX XX XX y +1425 5XX XX XX debe tomar la ruta roja (línea de puntos), y cualquier llamada RTC a y desde números entre +1425 4XX XX XX y cualquier otro número excepto el rango de números +1425 5XX XX XX debe tomar la ruta azul (línea sólida). 
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama que muestra la configuración de enrutamiento directo](media/direct-routing-analog-device.png)
+> ![Diagrama que muestra la configuración de enrutamiento directo.](media/direct-routing-analog-device.png)
 
 ## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>Ejemplo: Cómo configurar el uso de dispositivos analógicos con enrutamiento directo
 

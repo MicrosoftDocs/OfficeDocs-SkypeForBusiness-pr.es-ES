@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo enviar a los usuarios un correo electrónico con su información de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: 7b92cfd6b030dab4dcf823abc17baeb048a0dc42
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20050f2e4c0e2c8905b552e914c39b72de63c439
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594502"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733239"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar un correo electrónico a un usuario con su información de Audioconferencia en Microsoft Teams
 
@@ -40,14 +40,14 @@ A Microsoft Teams es posible que los usuarios necesiten enviarles su informació
    
 Este es un ejemplo del correo electrónico que se envía:
   
-![Ejemplo de un mensaje de correo electrónico de conferencia de acceso telefónico local](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![Ejemplo de un mensaje de correo electrónico de conferencia de acceso telefónico local.](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar un correo electrónico con información de audioconferencia a un usuario
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) Usar el Centro de administración de Microsoft Teams
 
 1. En el panel de navegación izquierdo, haga clic **en Usuarios** y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 

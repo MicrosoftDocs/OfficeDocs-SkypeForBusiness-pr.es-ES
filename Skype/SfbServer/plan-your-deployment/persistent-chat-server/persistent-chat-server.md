@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Resumen: lea este tema para obtener información sobre cómo planear el servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: e4bce3145c3f2e3974c2f57d75afbe297ce8d304
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cb584fc1b618794d9956c2d91c004b8ecc008aa0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623562"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731099"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planear el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -45,7 +45,7 @@ El servidor de chat persistente puede ayudar a mejorar la comunicación dentro d
 
 En el diagrama siguiente se muestra una vista de alto nivel de la arquitectura del servidor de chat persistente. 
   
-![Arquitectura de alto nivel del servidor de chat persistente](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
+![Arquitectura del servidor de High-Level chat persistente.](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
 El chat persistente consta de un rol de servidor front-end que proporciona los servicios de chat persistente, así como un componente de base de datos SQL back-end. Los componentes front-end y back-end se incluyen en un grupo de chat persistente dedicado. Cada equipo que hospeda el servidor de chat persistente debe tener acceso a una topología Skype Empresarial Server 2015. En este diagrama, hay un grupo de servidores de chat persistente (A), que depende de Skype Empresarial Server grupo A para enrutar mensajes a él.
   
@@ -57,7 +57,7 @@ Skype Empresarial Server 2015 se comunica con el servicio de chat persistente me
 
 En el diagrama siguiente se muestran los servicios front-end del servidor de chat persistente y cómo estos servicios se comunican con los componentes de la base de datos back-end. Los componentes front-end incluyen los servicios de chat persistente y el servicio de cumplimiento. Los componentes back-end incluyen el almacén de chat persistente y el almacén de cumplimiento de chat persistente.
   
-![Servicios de alto nivel del servidor de chat persistente](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
+![Servicios de servidor de High-Level chat persistente.](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
   
 ### <a name="chat-service"></a>Servicio de chat
 

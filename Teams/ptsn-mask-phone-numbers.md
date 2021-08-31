@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo enmascarar números de teléfono Microsoft Teams reuniones
-ms.openlocfilehash: 1a006450c1d98e6db0b02ceb953682efdbe3fd6a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9e7fd76f0b9afa9776e554cbde87a0b302c7011
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631994"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733769"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Enmascarar números de teléfono en Microsoft Teams reuniones
 
 Para mayor privacidad, los números de teléfono de los participantes que se marcan en una reunión de Teams mediante audioconferencia se muestran por completo a los participantes internos. Los números se enmascaran de los participantes fuera de su organización. Esta configuración es la predeterminada para todas las organizaciones. El número enmascarado se muestra como se muestra en la siguiente imagen:
 
-![un ejemplo de un número de teléfono enmascarado](media/hiddenPhoneNum.png)
+![un ejemplo de un número de teléfono enmascarado.](media/hiddenPhoneNum.png)
 
 Para casos de uso específicos del sector, los administradores tienen la capacidad de elegir cómo aparecen los números de teléfono de los participantes de las audioconferencias en las reuniones que están organizadas en su inquilino. Los administradores pueden elegir entre tres opciones:
 

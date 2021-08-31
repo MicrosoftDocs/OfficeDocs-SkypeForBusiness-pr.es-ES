@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Diseñe y cree flujos de trabajo de grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial. Se tratan los flujos de trabajo de grupo de extensiones y los flujos de trabajo interactivos.
-ms.openlocfilehash: 63069268621ff7f5e2b3783a661e163ff6fe6416
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603125"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730959"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Diseño y creación de flujos de trabajo de grupo de respuesta en Skype Empresarial
 
@@ -51,7 +51,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
     > [!NOTE]
     > Se abre la Herramienta de configuración de grupo de respuesta. También puede abrir la Herramienta de configuración de grupo de respuesta directamente desde un explorador web escribiendo la siguiente dirección URL: https:// \<webPoolFqdn\> /RgsConfig.
 
-6. Realice una de las siguientes acciones:
+6. Realiza una de las siguientes acciones:
 
    - En **Crear nuevo flujo de trabajo**, junto a **Grupo de búsqueda**, haga clic en **Crear**.
 
@@ -317,7 +317,7 @@ En la figura siguiente se muestra el flujo de la llamada.
 
  **Flujo de llamada interactiva de un nivel**
 
-![Diseñar flujos de llamadas mediante Respo de voz interactiva](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![Diseñar flujos de llamadas mediante Respo de voz interactiva.](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### <a name="ivr-with-two-levels-of-questions"></a>IVR con dos niveles de preguntas
 
@@ -349,7 +349,7 @@ En la figura siguiente se muestra el flujo de la llamada.
 
  **Flujo de llamada interactiva de dos niveles**
 
-![Diseñar flujos de llamadas mediante Respo de voz interactiva](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![Diseñar flujos de llamadas mediante Respo de voz interactiva.](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### <a name="best-practices"></a>Recomendaciones
 
@@ -644,7 +644,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
      > [!NOTE]
      > Todos los usuarios designados como administradores de un grupo de respuesta deben tener asignado el rol CsResponseGroupManager. De lo contrario, no podrán administrar los grupos de respuesta.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [(Opcional) Definir conjuntos de días festivos de grupo de respuesta Skype Empresarial](optional-define-response-group-holiday-sets.md)
 

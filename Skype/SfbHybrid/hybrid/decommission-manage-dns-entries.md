@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instrucciones para administrar las entradas DNS al retirar el entorno Skype Empresarial local.
-ms.openlocfilehash: a69b99f8adf5cf520f08ebef5f08de82426d5723
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70255314ecf87d55ef578a4daa0390b46179349c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636786"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58735327"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>Actualizar entradas DNS para permitir que la organización sea Teams solo
 
@@ -55,8 +55,8 @@ En cada dominio en el que encuentre cualquiera de los siguientes registros, actu
 
 | Tipo de registro | Nombre | TTL | Prioridad | Peso | Puerto | Valor |
 | :-----| :-----| :---- | :-----| :-----| :-----| :-----|
-| SRV | _sipfederationtls.tcp | 3600 |  100 | 1 | 5061  | sipfed.online.lync.com |
-| SRV | _sip.tls | 3600  | 100 |    1   | 443   | sipdir.online.lync.com |
+| SRV | _sipfederationtls._tcp |    3600 |  100 | 1 | 5061  | sipfed.online.lync.com |
+| SRV | _sip._tls | 3600     | 100 |    1   | 443   | sipdir.online.lync.com |
 | CNAME | lyncdiscover |    3600 |  N/D |   N/D |   N/D |   webdir.online.lync.com |
 | CNAME |   sip | 3600 |    N/D |   N/D  | N/D |    sipdir.online.lync.com |
 |||||||

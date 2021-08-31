@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 767c69d2c529b7fe6c93b667d6150e7b64d46ef2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: accdfbb8edc7e47013a96574c1a0a0b1ed46a89e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631374"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731079"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Cumplimiento de comunicaciones con Microsoft Teams
 
@@ -52,18 +52,18 @@ Teams administradores pueden configurar directivas de cumplimiento de comunicaci
 
 Después de configurar las directivas y haber recibido alertas de cumplimiento de comunicaciones para mensajes Microsoft Teams, es el momento de que los revisores de cumplimiento de su organización tomen medidas sobre estos mensajes. Los revisores pueden ayudar a proteger su organización revisando las alertas de cumplimiento de comunicaciones y quitando los mensajes marcados de la vista en Microsoft Teams.
 
-![Quitar un mensaje en Teams](./media/communication-compliance-remove-teams-message.png)
+![Quite un mensaje en Teams.](./media/communication-compliance-remove-teams-message.png)
 
 Los mensajes y el contenido eliminados se reemplazan por notificaciones para los visores que explican que el mensaje o el contenido se ha quitado y qué directiva se aplica a la eliminación. Al remitente del mensaje o contenido quitado también se le notifica el estado de eliminación y se le proporciona el contenido original del mensaje para el contexto relacionado con su eliminación. El remitente también puede ver la condición de directiva específica que se aplica a la eliminación del mensaje.
 
 Ejemplo de sugerencia de directiva que ve el remitente:
 
-![Sugerencia de directiva para remitente](./media/communication-compliance-warning-1.png)
+![Sugerencia de directiva para el remitente.](./media/communication-compliance-warning-1.png)
 
 Ejemplo de notificación de condición de directiva que ha visto el remitente:
 
-![Información de condición de directiva para el remitente](./media/communication-compliance-warning-2.png)
+![Información de condición de directiva para el remitente.](./media/communication-compliance-warning-2.png)
 
 Ejemplo de sugerencia de directiva que ve el destinatario:
 
-![Sugerencia de directiva para el destinatario](./media/communication-compliance-warning-3.png)
+![Sugerencia de directiva para el destinatario.](./media/communication-compliance-warning-3.png)

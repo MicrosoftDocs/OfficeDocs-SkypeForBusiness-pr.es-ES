@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 7e0606848d5a6d3816ef0c6d16bb46e069b0941b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70862d2d48d98517365b35d05ccd36dd9cb4ffd3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625832"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734039"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Cómo usa Microsoft Teams la memoria
 
@@ -36,7 +36,7 @@ Vea [Chromium uso de memoria](https://www.chromium.org/developers/memory-usage-b
 
 La siguiente imagen muestra los usos de memoria en paralelo de la aplicación de escritorio Teams para Windows y la aplicación web Teams (en este ejemplo, ejecutándose en Google Chrome).
 
-![Teams de memoria para la aplicación de escritorio y la aplicación web](media/teams-memory-clientweb.png)
+![Teams de memoria para la aplicación de escritorio y la aplicación web.](media/teams-memory-clientweb.png)
 
 ## <a name="memory-usage-in-teams"></a>Uso de memoria en Teams
 
@@ -50,7 +50,7 @@ De este modo, Chromium cargas de trabajo similares pueden usar distintas cantida
 
 En el siguiente gráfico se muestra el uso de la memoria Teams en cuatro sistemas independientes, cada uno con diferentes cantidades de memoria disponibles. Cada uno de los sistemas está procesando cargas de trabajo similares (las mismas aplicaciones abiertas y en ejecución).
 
-![Teams de memoria en diferentes sistemas](media/teams-memory-usage.png)
+![Teams de memoria en diferentes sistemas.](media/teams-memory-usage.png)
 
 Cuando los equipos tienen más memoria, Teams usarán esa memoria. En sistemas donde la memoria es escasa, Teams usarán menos.
 
@@ -64,6 +64,6 @@ Si ve uno o varios de los siguientes síntomas en el equipo, podría tener un pr
 
 Las siguientes imágenes muestran ejemplos de vistas en el Administrador de tareas cuando el uso de memoria del sistema es anormalmente alto.
 
-![Teams de uso de memoria en el Administrador de tareas](media/teams-memory-high-mem-process-list.png)
+![Teams de uso de memoria en el Administrador de tareas.](media/teams-memory-high-mem-process-list.png)
 
-![Teams gráfico de uso de memoria en el Administrador de tareas](media/teams-memory-high-mem-process-list2.png)
+![Teams gráfico de uso de memoria en el Administrador de tareas.](media/teams-memory-high-mem-process-list2.png)

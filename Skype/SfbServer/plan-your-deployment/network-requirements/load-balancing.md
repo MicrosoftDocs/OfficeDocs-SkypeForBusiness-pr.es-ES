@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumen: revise las consideraciones de equilibrio de carga antes de implementar Skype Empresarial Server.'
-ms.openlocfilehash: 9b47c87fa834de6b0a7b3ddddaf6493a9c95f363
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba8ab3e4659ea7e17e91b4bf725e8bd1fe8b59ca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623592"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733399"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de equilibrio de carga para Skype Empresarial
  
@@ -145,8 +145,8 @@ Es necesario definir la supervisión de puertos en los equilibradores de carga d
 
 |**Puerto/IP virtual**|**Puerto de nodo**|**Monitor/máquina de nodo**|**Perfil de persistencia**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-end  <br/> 5061  <br/> |Ninguno  <br/> |HTTPS  <br/> |
-|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-end  <br/> 5061  <br/> |Ninguno  <br/> |HTTP  <br/> |
+|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-end  <br/> 5061  <br/> |None  <br/> |HTTPS  <br/> |
+|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-end  <br/> 5061  <br/> |None  <br/> |HTTP  <br/> |
    
 ## <a name="dns-load-balancing"></a>Equilibrio de carga de DNS
 <a name="BKMK_DNSLoadBalancing"> </a>
@@ -159,7 +159,7 @@ En el siguiente diagrama se muestra un ejemplo que incluye equilibrio de carga D
   
 **Diagrama de red perimetral con direcciones IPv4 públicas**
 
-![ejemplo de diagrama de red DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![ejemplo del diagrama de red DNS.](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
 Si se utiliza el equilibrio de carga de DNS también podría adquirir equilibradores de carga de hardware a un precio más económico que si usa equilibradores de carga de hardware para todos los tipos de tráfico. Debe usar equilibradores de carga que han pasado las pruebas de cualificación de interoperabilidad con Skype Empresarial Server. Para obtener más información sobre las pruebas de interoperabilidad del equilibrador de carga, vea [Lync Server 2010 Load Balancer Partners](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). El contenido que se aplica a Skype Empresarial Server.
   

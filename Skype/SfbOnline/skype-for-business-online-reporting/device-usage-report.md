@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
 description: En el panel Informes se muestra la información general sobre la actividad en Microsoft 365 o Office 365 productos de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de uso de dispositivos Skype Empresarial para ver los dispositivos, incluidos los sistemas operativos basados en Windows y los dispositivos móviles, que tienen la aplicación Skype Empresarial instalada y la usan para mensajería instantánea y reuniones. Consulte Informes de actividades en el Centro de administración para obtener más información.
-ms.openlocfilehash: 73f0558a295e6a11988331c48255a102dcc9d6eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca77c8728d691acb8c7e89824906f9fdd880c57f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612829"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730529"
 ---
 # <a name="device-usage-report"></a>Informe del uso de los dispositivos
 
@@ -46,7 +46,7 @@ Este informe, junto con los demás Skype Empresarial, le proporciona detalles so
     
 2. En la **página Uso,** haga **clic Skype Empresarial uso del dispositivo** en la lista Seleccionar un informe **a** la izquierda. O bien, haga clic en Skype Empresarial de **actividad** y, a continuación, **haga clic Skype Empresarial uso de dispositivos** en la **Skype Empresarial actividad.**
     
-     ![Skype Empresarial de informe de uso de dispositivos](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
+     ![Skype Empresarial de informe de uso de dispositivos.](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
     Dependiendo de Microsoft 365 o Office 365 suscripción que tenga, es posible que no vea todos los productos y los informes de actividades que se muestran aquí.
     
@@ -54,31 +54,31 @@ Este informe, junto con los demás Skype Empresarial, le proporciona detalles so
 
 Puede obtener una vista en los dispositivos que usan la aplicación Skype Empresarial consultando los **gráficos** de usuario **y** distribución.
   
-![Skype para el informe de uso del dispositivo de empresa](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
+![Skype Empresarial de uso de dispositivos.](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>El **Skype Empresarial de** uso del dispositivo se puede ver para ver las tendencias de los últimos 7 días, 30 días, 90 días o 180 días. Sin embargo, si hace clic en un día determinado en el informe, la tabla (vea el número 7) mostrará los datos durante 30 días, hasta la fecha (vea el número 2) para cuando se generó el informe.
+![Número 1.](../images/sfbcallout1.png)<br/>El **Skype Empresarial de** uso del dispositivo se puede ver para ver las tendencias de los últimos 7 días, 30 días, 90 días o 180 días. Sin embargo, si hace clic en un día determinado en el informe, la tabla (vea el número 7) mostrará los datos durante 30 días, hasta la fecha (vea el número 2) para cuando se generó el informe.
 
 > [!NOTE]
 > Si hace clic en los detalles de un día específico, la tabla solo mostrará los datos de los 30 días hasta la fecha en que se generó el informe.
     
 ***
-![Número 2](../images/sfbcallout2.png)<br/>
+![Número 2.](../images/sfbcallout2.png)<br/>
 Cada informe tiene la fecha del momento en que se generó. Los informes normalmente reflejan una latencia de 24 a 48 horas desde el momento de la actividad. 
 ***
-![Número 3](../images/sfbcallout3.png)<br/>Use los datos del  gráfico interactivo en el gráfico Usuarios para comprender las tendencias de uso y ver el número de usuarios conectados con la aplicación Skype Empresarial que se usan en su organización. Le mostrará el número total de usuarios y tipos de **dispositivos Windows**, **Windows Phone,** **Teléfono Android,** **iPhone** y **iPad** que tienen la aplicación Skype Empresarial instalada y que se están utilizando en toda la organización.
+![Número 3.](../images/sfbcallout3.png)<br/>Use los datos del  gráfico interactivo en el gráfico Usuarios para comprender las tendencias de uso y ver el número de usuarios conectados con la aplicación Skype Empresarial que se usan en su organización. Le mostrará el número total de usuarios y tipos de **dispositivos Windows**, **Windows Phone,** **Teléfono Android,** **iPhone** y **iPad** que tienen la aplicación Skype Empresarial instalada y que se están utilizando en toda la organización.
 ***
-![Número 4](../images/sfbcallout4.png)<br/>Use los datos del gráfico interactivo en el gráfico **de** barras de distribución para comprender el uso para ver el número de usuarios que usan dispositivos únicos en su organización. Le mostrará el número total de usuarios  Windows **,** **Windows Phone**, **teléfono Android**, **iPhone** y iPad usuarios con un dispositivo que se está utilizando. 
+![Número 4.](../images/sfbcallout4.png)<br/>Use los datos del gráfico interactivo en el gráfico **de** barras de distribución para comprender el uso para ver el número de usuarios que usan dispositivos únicos en su organización. Le mostrará el número total de usuarios  Windows **,** **Windows Phone**, **teléfono Android**, **iPhone** y iPad usuarios con un dispositivo que se está utilizando. 
 ***
-![Número 5](../images/sfbcallout5.png)<br/>Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo,  en el gráfico Usuarios, haga clic o pulse **Windows**, **Windows Phone**, **Teléfono Android**, **iPhone** o **iPad** para ver solo la información relacionada con cada uno de ellos. Cambiar esta selección no cambia la información en la tabla de cuadrícula. 
+![Número 5.](../images/sfbcallout5.png)<br/>Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo,  en el gráfico Usuarios, haga clic o pulse **Windows**, **Windows Phone**, **Teléfono Android**, **iPhone** o **iPad** para ver solo la información relacionada con cada uno de ellos. Cambiar esta selección no cambia la información en la tabla de cuadrícula. 
 ***
-![Número 6](../images/sfbcallout6.png)<br/>Cada gráfico tiene un eje X (horizontal) y un eje Y (vertical).
+![Número 6.](../images/sfbcallout6.png)<br/>Cada gráfico tiene un eje X (horizontal) y un eje Y (vertical).
 *    En el **gráfico Usuarios,** el eje Y es el número total de usuarios conectados con un dispositivo que tiene Skype Empresarial aplicación instalada.
 *    En el **gráfico Actividad** de distribución, el eje Y es el número de usuarios que están conectados con un determinado tipo de dispositivo con la aplicación Skype Empresarial instalada. 
 
 En ambos gráficos, el eje X es el intervalo de fechas seleccionado para este informe específico.
 ***
-![Número 7](../images/sfbcallout7.png)<br/>La tabla muestra un desglose de todas las actividades de conferencia por usuario. Se muestran todos los usuarios que tienen Skype Empresarial asignado y sus actividades de conferencia. Puede agregar columnas a la tabla.
+![Número 7.](../images/sfbcallout7.png)<br/>La tabla muestra un desglose de todas las actividades de conferencia por usuario. Se muestran todos los usuarios que tienen Skype Empresarial asignado y sus actividades de conferencia. Puede agregar columnas a la tabla.
 *    **Nombre de usuario** es el nombre del usuario. 
 *    **Fecha de última actividad (UTC)** es la última vez que el usuario interactuó en una sesión de punto a punto u organizó una conferencia o participó en ella.
 *    **Windows** se selecciona si el usuario tiene la aplicación cliente Skype Empresarial instalada en un sistema operativo basado en Windows y lo está usando. 
@@ -89,9 +89,9 @@ En ambos gráficos, el eje X es el intervalo de fechas seleccionado para este in
 
 Si las directivas de la organización le impiden ver los informes en los que la información del usuario es identificable, puede cambiar la configuración de privacidad de todos estos informes. Consulte la sección **¿Cómo puedo ocultar los detalles del** nivel de usuario? en los Informes de actividades del Centro de [administración.](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 
 ***
-![Número 8](../images/sfbcallout8.png)<br/>Haga clic o pulse en **el icono** Columnas de cualquiera de las columnas para agregar o quitar columnas del informe.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+![Número 8.](../images/sfbcallout8.png)<br/>Haga clic o pulse en **el icono** Columnas de cualquiera de las columnas para agregar o quitar columnas del informe.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
-![Número 9](../images/sfbcallout9.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o pulsando o tocando en **Exportar**.           <br/> ![Skype Empresarial Botón Exportar informes.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos. 
+![Número 9.](../images/sfbcallout9.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o pulsando o tocando en **Exportar**.           <br/> ![Skype Empresarial Botón Exportar informes.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos. 
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros Skype Empresarial informes?
 

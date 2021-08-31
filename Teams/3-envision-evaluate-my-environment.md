@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f887916da6db1cb2412f8baa6ffacf6f74d3c5e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0fbbc32c1a22fb5a2144231964b8498291ca009d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635094"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730729"
 ---
 # <a name="evaluate-my-environment"></a>Evaluar mi entorno
 
@@ -79,7 +79,7 @@ Use las siguientes consideraciones para evaluar la preparación de su organizaci
 
 Teams tecnología de audio y vídeo (códecs) que puede adaptarse a la mayoría de las condiciones de red y, por lo tanto, mejorar su rendimiento. Para garantizar un rendimiento óptimo y coherente, debe preparar la red para Teams.
 
-![Diagrama que describe los tres componentes de calidad](media/evaluate-my-environment-image1.png "Diagrama que describe los tres componentes de calidad y cómo la administración de servicios se superpone a los tres componentes. Con un foco en la red.")
+![Diagrama que describe los tres componentes de calidad.](media/evaluate-my-environment-image1.png "Diagrama que describe los tres componentes de calidad y cómo la administración de servicios se superpone a los tres componentes. Con un foco en la red.")
 
 ## <a name="key-takeaways"></a>Sorteos clave
 

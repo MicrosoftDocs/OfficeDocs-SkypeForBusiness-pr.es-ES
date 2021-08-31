@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8cfa1ea62472255825684d2e168be1411bb643
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604539"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730689"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Administrar el acceso de usuarios a Insights para Educación
 
@@ -41,7 +41,7 @@ Para emplear Insights a nivel de la organización, es necesario [importar los da
 
 * Abra la aplicación Insights, haga clic en **Configuración** y, después, seleccione **Permisos de usuario**
 
-:::image type="content" source="media/insights-user-permissions.png" alt-text="Configuración":::
+:::image type="content" source="media/insights-user-permissions.png" alt-text="Configuración.":::
 
 > [!NOTE]
 > Cuando se proporcionan permisos para un nivel organizativo, el usuario puede ver todas las unidades organizativas debajo de él.
@@ -62,7 +62,7 @@ Si usa el [formato de archivo SDS V2.1](/schooldatasync/sds-v2.1-csv-file-format
 
   Verá una lista de los roles de la organización educativa, el nivel de esa jerarquía para cada uno, cuántos usuarios tienen asignado ese rol y el nivel de permisos del rol. 
   
-  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Permisos basados en roles":::
+  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Permisos basados en roles.":::
   
   Si hay un rol en más de un nivel de organización, ese rol aparece varias veces, una vez para cada nivel. En la captura de pantalla, tenemos directores en el nivel de la escuela y en el de distrito, por lo que hay dos líneas para "director".
   
@@ -86,7 +86,7 @@ Use permisos individuales para ajustar el permiso de un usuario o para asignar p
   
   Verá que los usuarios de la organización educativa han concedido un permiso individual. 
   
-  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Permisos individuales":::
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Permisos individuales.":::
   
 ### <a name="grant-individual-permission-to-a-user"></a>Conceder permisos individuales a un usuario
 * Haga clic en **Conceder permisos individuales** en la parte superior izquierda de la pantalla.
@@ -103,6 +103,6 @@ Use permisos individuales para ajustar el permiso de un usuario o para asignar p
   * **Organización específica** significa que el usuario ve la unidad organizativa seleccionada y todas las unidades organizativas debajo de ella. Comience a escribir y seleccione la unidad organizativa de la lista.
   * **Ninguna** significa que el usuario solo ve las unidades organizativas asignadas automáticamente por su rol (si las hay).
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Panel de permisos individuales":::
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Panel de permisos individuales.":::
 
 * Haga clic en **Guardar cambios** para guardar.

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 769790029adf0e18d6201b635659a5b267e5f27c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4571ef220fe972fb1aab27021ea22c01c5a836b4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597954"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734129"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destinos de equipo
 
@@ -31,7 +31,7 @@ Configurar una jerarquía de segmentación de equipos permitirá a su organizaci
 
 Este es un ejemplo de cómo se representa la jerarquía en la aplicación Tareas en Teams. Después de crear una lista de tareas, los miembros del equipo de publicación pueden seleccionar los equipos destinatarios a los que enviar (publicar) la lista de tareas. Al seleccionar equipos, el equipo de publicación puede filtrar por jerarquía, por atributos o por una combinación de ambos.<br>
 
-![Captura de pantalla de la publicación de tareas](media/manage-tasks-app-publish.png)
+![Captura de pantalla de la publicación de tareas.](media/manage-tasks-app-publish.png)
 
 ## <a name="terminology"></a>Terminología
 
@@ -69,7 +69,7 @@ El permiso para publicar depende de si un usuario es miembro de algún equipo de
 
 Por ejemplo, en la siguiente jerarquía, Recuperar, Comunicaciones y RRHH puede publicar tareas en todos los nodos inferiores (equipo) de la jerarquía, pero zona noreste solo puede publicar tareas en los equipos de la Tienda Nueva York y la Tienda Boston. La jerarquía de ejemplo permite a los grupos Recuperar, Comunicaciones y RRHH publicar tareas que se aplican a toda la empresa, como información de beneficios o mensajes del director general. Zona noreste puede publicar tareas como programación de personal, información meteorológica, entre otras, solo en los equipos de la Tienda Nueva York y la Tienda Boston.
 
-![Ejemplo jerárquico de equipo](media/team-targeting-schema-example-new.png)
+![Ejemplo jerárquico de equipo.](media/team-targeting-schema-example-new.png)
 
 ## <a name="create-your-hierarchy"></a>Crear la jerarquía
 

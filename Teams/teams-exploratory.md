@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edeb3180710dede90df8cd2bd5ba54c7f2996bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 057ac60f2033336df024b8a26daa6dff963dafa7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627072"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734099"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Administrar la licencia de Microsoft Teams Exploratory
 
@@ -94,9 +94,9 @@ Puede desactivar la capacidad de un usuario para instalar aplicaciones y servici
 
     ![Captura de pantalla de la página Servicios en el centro de administración.](media/iw-trial-services.png)
 
-2. Quite la marca de verificación de **Permitir que los usuarios instalen aplicaciones y servicios de prueba**.
+2. Desactive la marca de verificación de **Permitir que los usuarios instalen aplicaciones y servicios de prueba**.
 
-    ![Captura de pantalla de la página Aplicaciones y servicios en propiedad del usuario en el centro de administración.](media/iw-trial-user-owned-apps-services.png)
+    ![Captura de pantalla de la página Aplicaciones y servicios pertenecientes al usuario en el centro de administración.](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
     > Si su organización no es apta para la experiencia de Teams Exploratory, no verá la opción **Dejar que los usuarios instalen aplicaciones y servicios de prueba**. 

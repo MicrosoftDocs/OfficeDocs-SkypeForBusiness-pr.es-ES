@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'Vea cómo configurar Skype Empresarial permitir que los usuarios hablen con los usuarios de otra organización o que los contactos externos hablen con ellos. '
-ms.openlocfilehash: 987fc8120a06e1a96df4d33cf3f42ba90bc123ed
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e98f30718bb44a3ca2e5f48560d7f38552a2ef49
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602025"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731119"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial
 
@@ -53,7 +53,7 @@ Siga los pasos de este artículo cuando:
 
 Debe tener permisos [de administrador en](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Microsoft 365 o Office 365 en ambas organizaciones para realizar esta comunicación.
 
-![Un icono que muestra el Microsoft Teams ](../images/teams-logo-30x30.png) **con el centro Teams administración**
+![Un icono que muestra Microsoft Teams logotipo.](../images/teams-logo-30x30.png) **Usar el Teams de administración**
   
 1. Inicie sesión con su cuenta Microsoft 365 o Office 365 administrador.
 
@@ -83,7 +83,7 @@ Debe tener permisos [de administrador en](https://support.office.com/article/da5
 
 10. **AGUARDE HASTA 24 HORAS PARA LA PRUEBA**. Al cambiar la configuración de comunicaciones externas, los cambios pueden tardar hasta 24 horas en rellenarse en todos los centros de datos.
 
-![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Puede permitir a los usuarios que busquen a todos los que usen Skype, la aplicación de consumidor gratuita, y que se comuniquen con ellos con mensajería instantánea. Para obtener más información, vea [Permitir que Skype Empresarial usuarios agreguen Skype contactos.](let-skype-for-business-users-add-skype-contacts.md)
+![Skype.](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Puede permitir que los usuarios busquen e mi mi con todos los usuarios que Skype, la aplicación gratuita para consumidores. Para obtener más información, vea [Permitir que Skype Empresarial usuarios agreguen Skype contactos.](let-skype-for-business-users-add-skype-contacts.md)
   
 ## <a name="test-and-troubleshoot"></a>Probar y solucionar problemas
 
@@ -135,13 +135,13 @@ Después de habilitar la comunicación externa para toda su empresa, puede desac
 
 3. En la lista de usuarios, elija el usuario y, a continuación, en **Más configuraciones**, haga clic en **Editar propiedades de Skype Empresarial**.
 
-    ![Choose Skype for Business](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
+    ![Elija Skype Empresarial.](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
 4. En el **Skype Empresarial de administración,** elija **Comunicaciones externas.**
 
     En la **página Opciones,** se seleccionarán todas las opciones. Desactive las comunicaciones que desea deshabilitar. En la siguiente imagen se muestra que Jakob podrá comunicarse con personas de otras empresas de confianza, pero no con otros usuarios de Skype.
 
-    ![Choose External contacts](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
+    ![Elija Contactos externos.](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   
 5. Elija **Guardar**.
 

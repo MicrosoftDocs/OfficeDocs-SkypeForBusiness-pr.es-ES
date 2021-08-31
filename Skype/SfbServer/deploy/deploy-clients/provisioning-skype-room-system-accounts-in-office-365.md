@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lea este tema para obtener información sobre el aprovisionamiento Skype del sistema de sala en Microsoft 365 o Office 365.
-ms.openlocfilehash: d1b116308f091c535beceb5a82994ee155507548
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e3976d5763128354c934f477003532bf6bbcd3f6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585954"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731109"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Aprovisionamiento Skype del sistema de sala en Microsoft 365 y Office 365
  
@@ -57,7 +57,7 @@ Para la Skype room, se requieren las siguientes licencias:
 
 En el siguiente diagrama se proporciona información general sobre el flujo Skype de aprovisionamiento de cuentas del sistema de sala.
   
-![Skype Pasos de aprovisionamiento del sistema de sala](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype Pasos de aprovisionamiento del sistema de sala.](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>Identificar una nueva sala de conferencias
 

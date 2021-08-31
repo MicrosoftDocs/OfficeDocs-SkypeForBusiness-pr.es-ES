@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3affebfebdfb34923fbdff37a71f652077d7aa7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a8323c2d8dfd6023a9e27de9a6f0d47c87ae67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596334"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730899"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Información general de la implementación de Microsoft Teams
 
@@ -32,7 +32,7 @@ Hola: Gracias por elegir Microsoft Teams. Tanto si es un bufete de abogados de c
 
 Como Teams es compatible con una amplia variedad de tipos de organización y puntos de inicio, hay varias opciones para configurarlo. Para ayudarle a encontrar la información que necesita, hemos dividido algunos artículos en dos audiencias: **Pequeña Empresa** (menos de 50 usuarios) y **Mediana y Grande Empresa** (más de 50 usuarios). Al leer un artículo, seleccione la pestaña de la audiencia que mejor se adapte a su organización. Este es el aspecto de las pestañas:
 
-:::image type="content" source="media/small-large-tabs-example.png" alt-text="Ejemplo que muestra las pestañas de audiencia pequeña y grande que aparecen en algunos artículos":::
+:::image type="content" source="media/small-large-tabs-example.png" alt-text="Ejemplo que muestra las pestañas de pequeña y gran audiencia que aparecen en algunos artículos.":::
 
 Esta es una lista de secciones entre las que puede elegir en la sección **Introducción** y una breve descripción de cada una.
 

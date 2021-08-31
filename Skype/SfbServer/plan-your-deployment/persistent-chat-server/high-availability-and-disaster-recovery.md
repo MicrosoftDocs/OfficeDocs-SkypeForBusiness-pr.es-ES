@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Summary: Read this topic to learn how to plan for high availability and disaster recovery for Persistent Chat Server in Skype Empresarial Server 2015.'
-ms.openlocfilehash: beb1bf01748d9ebb7336238d3ba2d3f1379e7b0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a07b9e84e390f8d012308895229eb0da369107c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607977"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731439"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plan for high availability and disaster recovery for Persistent Chat Server in Skype Empresarial Server 2015
  
@@ -84,7 +84,7 @@ La figura 1 muestra una topología de grupo de servidores de chat persistente es
     
 **Grupo de servidores de chat persistente extendido cuando los centros de datos están ubicados geográficamente con ancho de banda alto/baja latencia**
 
-![Grupo extendido de chat persistente con ancho de banda alto/baja latencia](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
+![Grupo extendido de chat persistente con ancho de banda alto/baja latencia.](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
 La figura 2 muestra una topología de grupo de servidores de chat persistente estirada donde los centros de datos se ubican geográficamente con un ancho de banda bajo/latencia alta.
   
@@ -108,6 +108,6 @@ La figura 2 muestra una topología de grupo de servidores de chat persistente es
     
 **Grupo de servidores de chat persistente extendido cuando los centros de datos se ubican geográficamente con bajo ancho de banda/alta latencia**
 
-![Grupo extendido de chat persistente con bajo ancho de banda/latencia alta](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
+![Grupo extendido de chat persistente con bajo ancho de banda/alta latencia.](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
   
 

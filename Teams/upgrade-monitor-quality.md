@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4bb596cd7903ec7ff9afdecac1436b4b4e2653c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2edea426fbc9ad0a7c6de026af2a9b5ecf893e1a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633944"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733929"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
-![Diagrama que resalta la fase de excelencia operativa del viaje de actualización](media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase excelencia operativa")
+![Diagrama que resalta la fase de excelencia operativa del viaje de actualización.](media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase excelencia operativa")
 
 Este artículo forma parte de la fase excelencia operativa del viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype Empresarial a Teams.
 

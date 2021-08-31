@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Obtenga información sobre cómo configurar teléfonos de área común para lobbies, áreas de recepción y salas de conferencias '
-ms.openlocfilehash: 928c4c2a81f2e19524aa7dc43ac2bd597b1293dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad38f753b109aefd0e7628efe3e61472e7149597
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597964"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733759"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configuración de la licencia de teléfono de área común de Microsoft Teams
 > [!NOTE]
@@ -42,7 +42,7 @@ En primer lugar, debe comprar una licencia de área Teléfono común (CAP) y ase
 
 1. En el Centro de administración de Microsoft 365, vaya a Servicios **de**  >  **compra de facturación** y, a continuación, expanda **Otros planes.**
 
-    ![Captura de pantalla que muestra el icono Teléfono área común](media/set-up-common-area-phone-image1.png)
+    ![Captura de pantalla que muestra el icono área Teléfono común.](media/set-up-common-area-phone-image1.png)
 
 2. Selecciona **Área común Teléfono** Comprar  >  **ahora.**
 
@@ -92,7 +92,7 @@ La licencia de Teléfono común es compatible con:
 
 6. Asigne las licencias al usuario. En la misma página, haga clic para expandir las **Licencias de producto**. Active el área común Teléfono y elija un plan de llamadas nacionales o un **plan** de llamadas nacionales **e internacionales.** 
 
-    ![Captura de pantalla que muestra la asignación de licencias con el plan de llamadas nacionales y las opciones de planes nacionales e internacionales resaltadas](media/set-up-common-area-phone-image2.png)
+    ![Captura de pantalla que muestra la asignación de licencias con el plan de llamadas nacionales y las opciones de planes nacionales e internacionales resaltadas.](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
 > Si usa Teléfono Microsoft system direct routing, no es necesario asignar una licencia del Plan de llamadas.
@@ -113,7 +113,7 @@ Use el Teams de administración para asignar un número al usuario.
 
 6. Haga clic en **Guardar** y el usuario debería tener este aspecto:
 
-   ![Captura de pantalla que muestra una asignación de licencia de usuario de ejemplo](media/set-up-common-area-phone-image3.png)
+   ![Captura de pantalla que muestra una asignación de licencia de usuario de ejemplo.](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
 > Los usuarios solo se mostrarán si tienen una licencia Sistema telefónico aplicación. Si acaba de aplicársela, el usuario a veces tarda un poco de tiempo en aparecer en la lista.

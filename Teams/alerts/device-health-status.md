@@ -16,12 +16,12 @@ description: Obtenga información sobre cómo usar Teams de supervisión y alert
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 844dddfc04e1dc29311a237c3fc4f7ac41a1ce7f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636765"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58735357"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams de estado del dispositivo
 
@@ -33,7 +33,7 @@ Antes de empezar, necesitará los permisos de creación de equipos o canales en 
 
 1. En el panel de navegación izquierdo del Microsoft Teams de administración, seleccione **Notificaciones & reglas de**  >  **alertas.**
 
-   ![Sección Reglas en el Centro de administración](../media/select-rules.png)
+   ![Sección Reglas del Centro de administración.](../media/select-rules.png)
 
 2. En la **página** Reglas, seleccione **Regla de estado del dispositivo**.
 

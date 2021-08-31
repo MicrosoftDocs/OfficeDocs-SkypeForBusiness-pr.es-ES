@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el Teams para Educación de directivas de aprendizaje para aplicar fácilmente directivas a alumnos y profesores para mantener su entorno de aprendizaje seguro.
 f1keywords: ''
-ms.openlocfilehash: d7e2959b5b824d8b053d9b912d0450c2209b4b1b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54a5371ce0fe0aaca86f57d4004525e3fb9959d0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604599"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733869"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Asistente Teams para Educación directivas para aplicar fácilmente directivas para un entorno de aprendizaje seguro
 
@@ -36,7 +36,7 @@ Para mantener un entorno de aprendizaje seguro y centrado, es importante estable
 
 Las directivas deben ajustarse tanto para los alumnos como para los profesores para mantener la experiencia de aprendizaje segura. Las directivas para los alumnos deben ser más restrictivas para reducir el riesgo de recibir niveles de acceso inadecuados. Los profesores y el personal necesitan un conjunto independiente de directivas que puedan ser más permisivas para que puedan tener éxito. Por ejemplo, permita que los profesores programe reuniones y restrinja a los alumnos que lo hacen.
 
-:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Captura de pantalla del asistente":::
+:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Captura de pantalla del asistente.":::
 
 En este artículo se explica cómo ejecutar el asistente.
 
@@ -71,24 +71,24 @@ Siga estos pasos para ejecutar el asistente.
 
 1. Si no es nuevo en Teams, el asistente se iniciará automáticamente. En caso contrario, puede iniciar el asistente en cualquier momento desde el panel. En la navegación izquierda del centro de administración de Microsoft Teams, vaya a Panel y, **a** continuación, en el icono Configuración de directivas fácil para un entorno de aprendizaje seguro, seleccione **Configuración rápida.**
 
-    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de pantalla del asistente en el panel":::
+    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de pantalla del asistente en el panel.":::
 
 2. Seleccione el tipo de institución educativa **(Educación primaria o secundaria** o educación **superior)** y, a continuación, **seleccione Siguiente.**
 
-    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Captura de pantalla de la página del asistente para seleccionar el tipo de institución":::
+    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Captura de pantalla de la página del asistente para seleccionar el tipo de institución.":::
 
 3. Busque y seleccione un grupo que contenga a los profesores y al personal y, a continuación, seleccione **Siguiente**. Si aún no tiene ningún grupo configurado para los profesores y el personal, cree un grupo y vuelva [a](/microsoft-365/admin/create-groups/create-groups)ejecutar el asistente. <br/><br/>Actualmente, solo puede seleccionar un grupo. A los formadores y al personal del grupo que seleccione se les asignará [un conjunto](#policies-applied-by-the-wizard) de directivas personalizadas adaptadas a sus necesidades. Recuerde que este conjunto de directivas es independiente de las directivas aplicadas a los alumnos.
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Captura de pantalla de la página en el asistente para seleccionar el grupo de profesores y docentes":::
+    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Captura de pantalla de la página en el asistente para seleccionar el profesor y el grupo de docentes.":::
 
 4. Revise las selecciones.
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Captura de pantalla de página en el asistente para revisar selecciones":::
+    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Captura de pantalla de página en el asistente para revisar selecciones.":::
 
 5. Seleccione **Aplicar** para aplicar los cambios. Esto puede tardar unos minutos en completarse.<br/><br/>Las definiciones de directiva global (predeterminada para toda la organización) se aplican inmediatamente a los alumnos. Para los profesores y el personal, las directivas personalizadas podrían tardar varias horas en asignarse a cada miembro del grupo seleccionado, según el tamaño del grupo. Esto ocurre en segundo plano, después de completar correctamente este paso.
 6. Estás en camino, pero aún no has terminado. Hay algunas cosas más que tener en cuenta. A continuación, consulte los pasos de la [sección Qué hacer después](#what-to-do-after-running-the-wizard) de ejecutar el asistente de este artículo.
 
-    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Captura de pantalla de la página en el asistente para los pasos siguientes":::
+    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Captura de pantalla de página en el asistente para los pasos siguientes.":::
 
 ## <a name="what-to-do-after-running-the-wizard"></a>Qué hacer después de ejecutar el asistente
 

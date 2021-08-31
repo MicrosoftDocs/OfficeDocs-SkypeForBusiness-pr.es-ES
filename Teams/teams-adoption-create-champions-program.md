@@ -21,12 +21,12 @@ f1.keywords:
 description: Aprenda a formar a un equipo de campeones para promover Teams adopción mediante concienciación, adopción y educación en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 216323b34d2f0f2778844b901964d56a85d25716
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9a6c9c81b1f36655d99b9fdfeecacda406bab6f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612919"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731189"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 
@@ -34,7 +34,7 @@ Los campeones son esenciales para impulsar la concienciación, la adopción y la
 
 Los campeones se ajustarán a la planificación general del lanzamiento de varias maneras, como se muestra a continuación.
 
-![Ilustración de la planificación de inicio de Champions](media/teams-adoption-champions.png)
+![Ilustración de la planificación de inicio de Champions.](media/teams-adoption-champions.png)
 
 Los campeones deben:
 
@@ -60,5 +60,5 @@ Use nuestra [Guía del programa Campeones](https://go.microsoft.com/fwlink/?link
 
 - Entrenar a los campeones con antelación y con frecuencia: el programa comienza y las reuniones mensuales se pueden usar para crear aptitudes en la comunidad de campeones. Use estas oportunidades para traerlos a bordo, llevar a cabo su formación inicial, animarlos a asistir a nuestros cursos y asegurarse de que están listos para apoyar a sus empleados a medida que avanzan en la fase de experimentación.  
 
-![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Completar el inicio rápido del gobierno](teams-adoption-governance-quick-start.md)
+![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Completar el inicio rápido del gobierno](teams-adoption-governance-quick-start.md)
 

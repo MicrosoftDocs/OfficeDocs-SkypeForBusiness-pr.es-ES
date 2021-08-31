@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa38282f0c5dbaecfbea88deaf9a5efb88be08cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3406e14b64c0c15b2f76a84e42d22a2f726d9b3e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628302"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730879"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar controles de tecnología de reconocimiento de voz para un altavoz inteligente
 
@@ -62,11 +62,11 @@ Un altavoz inteligente debe colocarse como mínimo a 20 cm de distancia de las p
 
    El diagrama muestra cómo el altavoz inteligente está conectado al dispositivo si el dispositivo incluye un cuadro de datos.
 
-   ![La configuración del altavoz inteligente con el altavoz, el cuadro de datos y la potencia. Una línea va al puerto USB de la consola y la otra línea a la alimentación. ](../media/intelligent-speakers1.png)
+   ![La configuración del altavoz inteligente con el altavoz, el cuadro de datos y la potencia. Una línea va al puerto USB de la consola y la otra línea a la alimentación.](../media/intelligent-speakers1.png)
 
    El diagrama muestra cómo el altavoz inteligente está conectado al dispositivo si el dispositivo no incluye un cuadro de datos.
 
-   ![La configuración del altavoz inteligente con el altavoz conectado directamente a la consola. ](../media/intelligent-speakers2.png)
+   ![La configuración del altavoz inteligente con el altavoz conectado directamente a la consola.](../media/intelligent-speakers2.png)
 
 > [!Note]
 > Los dispositivos EPOS y Yealink deben tener el prefijo "EPS" o "Yealink" y contener "UAC2_RENDER" en el nombre del altavoz y "UAC2_TEAMS" en el nombre del micrófono. Si no encuentra estos nombres de micrófono y altavoz en el menú desplegable, reinicie el dispositivo De altavoz inteligente.
@@ -88,7 +88,7 @@ Las siguientes son las directivas necesarias para establecer un altavoz intelige
 
 En el Teams de administración, establezca la **directiva Permitir transcripción.** Configuración están **desactivados** de forma predeterminada.
 
-![el centro de administración con las directivas de reunión resaltadas y permitir la transcripción seleccionada](../media/allow-transcription1.png)
+![el centro de administración con las directivas de reunión resaltadas y permitir la transcripción seleccionada.](../media/allow-transcription1.png)
 
 ## <a name="frequently-asked-questions-faq"></a>Preguntas más frecuentes (P+F)
 

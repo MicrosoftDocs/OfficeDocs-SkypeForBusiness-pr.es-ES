@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar exhi
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a895b804d78dd3fe5ff45fac40457eaed2cf9c43d80e85137ad2a570c1e2018d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 95f284211f76017ee4dca85fbbf03c8a454aaa26
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322592"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733889"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -84,7 +84,7 @@ Microsoft Teams datos aparecerán como mensajería instantánea o Conversaciones
 
 Al ver el archivo .pst para el equipo, todas las conversaciones se encuentran en la carpeta Chat de grupo en Historial de conversaciones. El título del mensaje contiene el nombre del equipo y el nombre del canal. Por ejemplo, en la imagen siguiente se muestra un mensaje de Bob que envía un mensaje al canal Project 7 estándar del equipo de Especificaciones de fabricación.
 
-![Captura de pantalla de una carpeta chat de grupo en el buzón de un usuario en Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![Captura de pantalla de una carpeta chat de grupo en el buzón de un usuario en Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
 Los chats privados en el buzón de un usuario se almacenan en la carpeta Chat de grupo en Historial de conversaciones.
 
@@ -204,11 +204,11 @@ Al ver el contenido de la tarjeta en los resultados de búsqueda de contenido, e
 
 **Contenido de tarjeta en Teams**
 
-![Contenido de la tarjeta en Teams de canal](media/CardContentTeams.png)
+![Contenido de tarjeta en Teams de canal.](media/CardContentTeams.png)
 
 **Contenido de la tarjeta en los resultados de búsqueda**
   
-![Mismo contenido de tarjeta en los resultados de una búsqueda de contenido](media/CardContentEdiscoverySearchResults.png)
+![El mismo contenido de tarjeta en los resultados de una búsqueda de contenido.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
 > Para mostrar imágenes del contenido de la tarjeta en los resultados de búsqueda en este momento (como las marcas de verificación de la captura de pantalla anterior), debe haber iniciado sesión en Teams (en una pestaña diferente en la misma sesión del explorador que usa para ver los resultados de https://teams.microsoft.com) búsqueda. En caso contrario, se mostrarán marcadores de posición de imagen.

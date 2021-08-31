@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo asignar una licencia Sistema telefónico usuario virtual o una licencia de usuario Sistema telefónico pago a cuentas de recursos de su organización.
-ms.openlocfilehash: 0b45bc0c44ae8d3719636b85409c669dcadf07db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b9ffe0e5f489aebb2aff75988dbbe557e88c845d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627092"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734199"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Sistema telefónico: licencia de usuario virtual
 
@@ -34,7 +34,7 @@ Las organizaciones con Sistema telefónico usuarios con licencia pueden asignar 
 > [!TIP]
 > No se necesita ninguna licencia para las cuentas de recursos que se usarán con operadores automáticos anidados o colas de llamadas que no tengan asignado un número de teléfono. Vea el siguiente diagrama para obtener referencia: 
 
-![Licencias de usuario virtual](../media/resource-account.png)
+![Licencias de usuario virtual.](../media/resource-account.png)
 
 ## <a name="virtual-user-license-allocation"></a>Asignación de licencias de usuario virtual
 

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d79e1431d6743f60092acbfab82154037a4c5720
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5c027da20c6c305fd5924cd6483c5cbd63b8ddd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624942"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733549"
 ---
 # <a name="deploy-my-service"></a>Implementar mis servicios
 
@@ -69,7 +69,7 @@ El foco del libro de reproducción es abordar los factores que influyen en la pe
 
 El [Libro de reproducción de habilitación del sitio para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) es un libro Microsoft Excel usuario. Cada una de estas cinco áreas de enfoque es una hoja independiente en el libro y cada tarea y actividad de implementación se agrupa en una de estas hojas.
 
-![Captura de pantalla del libro de reproducción de habilitación del sitio](media/deploy-my-service-image1.png "Captura de pantalla del libro de reproducción")
+![Captura de pantalla del libro de reproducción de habilitación del sitio.](media/deploy-my-service-image1.png "Captura de pantalla del libro de reproducción")
 
 > [!NOTE]
 > Creará una instancia independiente del libro de reproducción para cada sitio en el ámbito de Teams implementación.
@@ -88,17 +88,17 @@ Independientemente del tamaño y la complejidad de la ubicación, la habilitaci�
 
 4. Escriba el **nombre del sitio, el código del** sitio y la fecha de inicio **planificada,** como se muestra a continuación. Este es un paso crítico, ya que ajusta las fechas límite recomendadas para cada actividad del libro de reproducción.
 
-   ![Ejemplo con nombre de sitio, código de sitio y fecha de inicio planeada](media/deploy-my-service-image2.png "Ejemplo con el nombre del sitio de Nueva York, el código de sitio NY01 y la fecha de lanzamiento planeada del 20 de marzo al 18")
+   ![Ejemplo con nombre de sitio, código de sitio y fecha de inicio planeada.](media/deploy-my-service-image2.png "Ejemplo con el nombre del sitio de Nueva York, el código de sitio NY01 y la fecha de lanzamiento planeada del 20 de marzo al 18")
 
 5. Revise cada actividad, haga las acciones necesarias y actualice el estado a medida que pase por la escala de tiempo. El estado se representa gráficamente, como se describe a continuación:
   
-   - ![Ilustración de una marca de verificación verde Sí o no aplicable ](media/deploy-my-service-image3.png) **(verde):** la actividad se ha completado o no es aplicable para este sitio y no se necesita ninguna acción adicional.</li>
-   - ![Ilustración de un signo de exclamación amarillo La actividad aún no se ha completado (amarillo): la actividad aún no se ha completado y debe actualizarse a Sí o No en ](media/deploy-my-service-image4.png) <strong></strong> su programación.</li>
-   - ![Ilustración de una X roja que indica que no ](media/deploy-my-service-image5.png) <strong>(rojo):</strong> la actividad no se puede completar debido a un problema y debe llevarse a la reunión de estado del proyecto.</li></ul>
+   - ![Ilustración de una marca de verificación verde.](media/deploy-my-service-image3.png) **Sí, o no aplicable (verde):** La actividad se ha completado o no es aplicable a este sitio y no es necesario realizar ninguna acción adicional.</li>
+   - ![Ilustración de un signo de exclamación amarillo.](media/deploy-my-service-image4.png) <strong>La actividad aún no se ha completado (amarillo):</strong> La actividad aún no se ha completado y debe actualizarse a Sí o No en su programación.</li>
+   - ![Ilustración de una X roja que indica que no.](media/deploy-my-service-image5.png) <strong>No (rojo):</strong> La actividad no se puede completar debido a un problema y debe llevarse a la reunión de estado del proyecto.</li></ul>
 
 6. El estado se incluye en cada sección y el encabezado de sección tiene formato con uno de estos indicadores de estado. **El estado semanal** también se actualiza automáticamente.
 
-![Captura de pantalla de las actualizaciones semanales de estado en el libro de reproducción](media/deploy-my-service-image6.png "Captura de pantalla de las actualizaciones semanales de estado en el libro de reproducción")
+![Captura de pantalla de las actualizaciones semanales de estado en el libro de reproducción.](media/deploy-my-service-image6.png "Captura de pantalla de las actualizaciones semanales de estado en el libro de reproducción")
 
 > [!TIP]
 > Repita los pasos anteriores para todas las ubicaciones que tiene.

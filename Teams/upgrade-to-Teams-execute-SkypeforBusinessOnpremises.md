@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 690595338cbf8f6f2689a6bd4d75842b00afaf28
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e8d8b104354e442116dd908b686bc5e1d18f22d2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582130"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731159"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Actualizar de una Skype Empresarial local a Teams
 
-![Fases del viaje de actualización, con énfasis en la fase implementación e implementación](media/upgrade-banner-deployment.png "Fases del viaje de actualización, con énfasis en la fase implementación e implementación")
+![Etapas del viaje de actualización, con énfasis en la fase implementación e implementación.](media/upgrade-banner-deployment.png "Fases del viaje de actualización, con énfasis en la fase implementación e implementación")
 
 Este artículo forma parte de la fase implementación e implementación del viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
 

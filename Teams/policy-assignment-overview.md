@@ -18,12 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar directi
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: fb85ae05925a44db75ed63ada899c6fca92cbceb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e17b468d2c3336dd6b34d0574b7a7c4e7c069186
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621992"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731059"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Asignar directivas en Teams: introducción
 
@@ -43,17 +43,17 @@ Un usuario tiene una directiva eficaz para cada tipo de directiva. Es posible, o
 
 Si a un usuario se le asigna directamente una directiva (ya sea individualmente o a través de una asignación por lotes), esa directiva tiene prioridad. En el siguiente ejemplo visual, la directiva efectiva del usuario es la directiva de reunión de Lincoln Square, que se asigna directamente al usuario.
 
-![Diagrama que muestra cómo una directiva asignada directamente tiene prioridad](media/assign-policies-example-directly-assigned.png)
+![Diagrama que muestra cómo una directiva asignada directamente tiene prioridad.](media/assign-policies-example-directly-assigned.png)
 
 Si a un usuario no se le asigna directamente una directiva de un tipo determinado, la directiva asignada a un grupo del que el usuario es miembro tiene prioridad. Si un usuario es miembro de varios grupos, la directiva que tiene la mayor (clasificación de asignaciones de[grupo)](assign-policies-users-and-groups.md#group-assignment-ranking)para el tipo de directiva determinado tiene prioridad.
 
 En este ejemplo visual, la directiva efectiva del usuario es la directiva Exec Teams y HD, que tiene la clasificación de asignaciones más alta con respecto a otros grupos a los que el usuario es miembro y a los que también se les asigna una directiva del mismo tipo de directiva.  
 
-![Diagrama que muestra cómo una directiva heredada del grupo tiene prioridad](media/assign-policies-example-group.png)
+![Diagrama que muestra cómo una directiva heredada del grupo tiene prioridad.](media/assign-policies-example-group.png)
 
 Si a un usuario no se le asigna directamente una directiva o no es miembro de ningún grupo al que se le haya asignado una directiva, el usuario obtiene la directiva global (predeterminada para toda la organización) para ese tipo de directiva. Este es un ejemplo visual.
 
-![Diagrama que muestra cómo una directiva global tiene prioridad](media/assign-policies-example-global.png)
+![Diagrama que muestra cómo una directiva global tiene prioridad.](media/assign-policies-example-global.png)
 
 Para obtener más información, vea ([Reglas de prioridad).](assign-policies-users-and-groups.md#precedence-rules)
 
@@ -82,7 +82,7 @@ Siga estos pasos para establecer las directivas globales (predeterminadas para t
 2. Seleccione la **directiva Global (predeterminada para toda la organización)** para ver la configuración actual.
 3. Actualice la directiva según sea necesario y, a continuación, **seleccione Aplicar**.
 
-![Actualizar la directiva global en Teams centro de administración](media/assign-globalpolicy.png)
+![Actualice la directiva global en Teams de administración.](media/assign-globalpolicy.png)
 
 ### <a name="using-powershell"></a>Con PowerShell
 
@@ -122,7 +122,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 Al asignar directivas a usuarios en el centro de administración de Microsoft Teams, puede ver el estado de esas asignaciones de directivas en el registro de actividades. El registro de actividades muestra las asignaciones de directivas a lotes de más de 20 usuarios a través del centro de administración de Microsoft Teams desde los últimos 30 días. Tenga en cuenta que el registro de actividades no muestra asignaciones de paquetes de directiva, asignaciones de directivas a lotes de menos de 20 usuarios a través del centro de administración de Microsoft Teams o asignaciones de directivas a través de PowerShell.
 
-![Captura de pantalla de la página Registro de actividades](media/activity-log.png)
+![Captura de pantalla de la página Registro de actividades.](media/activity-log.png)
 
 ## <a name="view-your-policy-assignment-activities-in-the-activity-log"></a>Ver las actividades de asignación de directivas en el registro de actividades
 
@@ -132,7 +132,7 @@ Para ver las asignaciones de directivas en el registro de actividades:
 2. Puede ver todas las asignaciones de directivas o filtrar la lista por estado para mostrar solo las tareas no iniciadas, en curso **o** **completadas.** Verá la siguiente información sobre cada tarea:
     - **Nombre:** el nombre de la asignación de directivas. Haga clic en el vínculo para ver más detalles. Esto incluye el número de usuarios a los que se asignó la directiva y el número de tareas completadas, en curso y no iniciadas. También verá la lista de usuarios en el lote, así como el estado y el resultado de cada usuario. Aquí se muestra un ejemplo:
 
-        ![Captura de pantalla de la](media/activity-log-policy-assignment-detail.png)
+        ![Captura de pantalla de la.](media/activity-log-policy-assignment-detail.png)
 
     - **Enviado:** Fecha y hora en que se envió la asignación de directiva.
     - **Hora de finalización:** fecha y hora en que se completó la asignación de directivas.

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcc9d8c4ed101017206e086a2282679ec698df27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: afef90629f771520bc4f61758c9ad6e51f22246a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634824"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734165"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams y Outlook de correo electrónico
 
@@ -29,7 +29,7 @@ Microsoft Teams incluye características que permiten a los usuarios de su organ
 
 **Compartir a Outlook** permite a los usuarios compartir una copia de una conversación Teams a un correo electrónico en Outlook, sin tener que Teams. Esta característica es útil si los usuarios necesitan compartir conversaciones o actualizaciones de estado con usuarios fuera de su equipo inmediato o incluso de su organización. Vaya a la parte superior de la conversación en Teams, seleccione **Outlook**  Para obtener más información, vea [Compartir Outlook desde Teams](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d).
 
-![Captura de pantalla que muestra la característica Compartir Outlook en Teams](media/share-to-outlook.png)
+![Captura de pantalla que muestra la característica Compartir Outlook en Teams.](media/share-to-outlook.png)
 
 Para usar esta característica, Outlook en la Web debe estar activada para el usuario. Si Outlook en la Web está desactivado, la opción Compartir a **Outlook** no se muestra en Teams para el usuario. Para obtener pasos sobre cómo activar y desactivar Outlook en la Web, vea Habilitar o deshabilitar Outlook en la Web [para un buzón.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
 
@@ -40,9 +40,9 @@ Los usuarios obtienen automáticamente correos electrónicos de actividad perdid
 > [!NOTE]
 > Esta característica no es compatible con Outlook para Mac versiones anteriores de Outlook para Windows. Para obtener más información, vea [Mensajes que se pueden](/outlook/actionable-messages/)Outlook y Office 365 grupos .
 
-![Captura de pantalla que muestra un correo electrónico de actividad perdida](media/missed-activity-email.png)
+![Captura de pantalla que muestra un correo electrónico de actividad perdido.](media/missed-activity-email.png)
 
-![Captura de pantalla que muestra cómo responder a un correo electrónico de actividad perdido](media/missed-activity-email-reply.png)
+![Captura de pantalla que muestra cómo responder a un correo electrónico de actividad perdido.](media/missed-activity-email-reply.png)
 
 Puede usar el cmdlet [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) junto con el parámetro **SmtpActionableMessagesEnabled** para desactivar los correos electrónicos que se pueden usar. De forma predeterminada, el **parámetro SmtpActionableMessagesEnabled** se establece en **true**. Al establecer el parámetro en **false,** se desactivan los mensajes de correo electrónico que se pueden usar en Office 365. Para Teams usuarios, esto significa  que la opción Responder para responder directamente en Outlook no está disponible en los correos electrónicos de actividad perdidos. En su lugar, los correos electrónicos de actividad perdidos incluyen una opción **Responder en Teams** para que los usuarios respondan en Teams.
 

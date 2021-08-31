@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c954d83e7c007a60d382cf0ae541daca1439d59d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11644e527338e4c37056071893c3d3ad735253f0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589480"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733709"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Elegir la vía de actualización de Skype Empresarial a Teams
 
-![Diagrama de itinerario de actualización, énfasis en la fase de definición del proyecto](media/upgrade-banner-project-definition.png "Fases del itinerario de la actualización, con énfasis en la fase de definición del proyecto")
+![Diagrama de viaje de actualización, haciendo hincapié en la Project definición.](media/upgrade-banner-project-definition.png "Fases del itinerario de la actualización, con énfasis en la fase de definición del proyecto")
 
 Este artículo forma parte de la fase de definición de proyecto de su vía de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
 

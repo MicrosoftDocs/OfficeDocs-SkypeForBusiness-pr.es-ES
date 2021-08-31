@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el panel de calidad de Power BI para ver los datos históricos Operador automático y Cola de llamadas.
-ms.openlocfilehash: 57cd28fef4a1e24ecc4f29344a6ec91af5e2dbec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 73ffd8e993a3dacd0412123d49e19c704df0cb8c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593294"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731389"
 ---
 # <a name="what-are-the-requirements"></a>¿Cuáles son los requisitos? 
 Debe tener Power BI Desktop instalado. Puede instalarlo desde Microsoft [Windows Store.](https://aka.ms/pbidesktopstore)
@@ -48,7 +48,7 @@ Siga estos pasos:
 
 - Se le pedirá que seleccione la región de canalización de datos CQD. Seleccione la región donde se encuentra el inquilino.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración.":::
 
  - Puede ver la región con el cmdlet Skype Empresarial PS en línea (Get-CsTenant). Resultado de ServiceInstance. 
  La región se mostrará después del /me gusta en este ejemplo: 
@@ -59,11 +59,11 @@ Siga estos pasos:
  
  - Para ver sus propios datos, haga clic en **Actualizar** en la pestaña Inicio en Consultas en Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración.":::
 
 - A continuación, se le pedirá que inicie sesión. Seleccione **Cuenta de la organización** y, a continuación, seleccione Iniciar **sesión.**
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración.":::
 
 - Seleccione **Conectar** y vea la actualización de datos.
 
@@ -83,11 +83,11 @@ En los pasos siguientes se supone que ya ha completado los pasos de instalación
 Siga estos pasos:
 - Seleccione **la pestaña Vista** en la cinta de opciones.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración.":::
 
 - Seleccione el esquema de color de la lista desplegable.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración.":::
 
 
 ## <a name="cqd-fields-description"></a>Descripción de campos CQD

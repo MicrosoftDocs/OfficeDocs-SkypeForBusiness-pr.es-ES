@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar directivas de identificador de llamadas en Microsoft Teams para cambiar o bloquear el identificador de llamada de Teams usuarios de su organización.
-ms.openlocfilehash: ee663a627e89d7ea2a569496a899d2d68b8366ef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 455bf7e6f2b0e29824188dab3c14ff6cc6b51c91
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619636"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731229"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Administrar directivas del id. de llamada en Microsoft Teams
 
@@ -40,7 +40,7 @@ Para administrar las directivas de identificación de llamadas, vaya **a** Direc
 
 1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya **a** Directivas de identificación de llamadas  >  **de voz.**
 2. Haga clic en **Agregar**. <br>
-![Captura de pantalla de la nueva página de directiva de identificación de llamadas en el Centro de administración](media/caller-id-policies-add-policy.png)
+![Captura de pantalla de la nueva página de directiva de identificación de llamadas en el centro de administración.](media/caller-id-policies-add-policy.png)
 3. Escriba un nombre y una descripción para la directiva.
 4. Desde aquí, elija la configuración que desee:
 
