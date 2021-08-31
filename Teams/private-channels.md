@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información acerca de cómo usar y administrar canales privados en Microsoft Teams.
-ms.openlocfilehash: b9f0accb9436ade4bb084b825662ec92453bba24
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0eddd5f7af724d9b981091ea1fca7f95ee1af8d9
+ms.sourcegitcommit: 1904d6a6b91ce613e2cf61af1e784ae046c3d6b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734179"
+ms.locfileid: "58744463"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canales privados en Microsoft Teams
 
@@ -91,13 +91,12 @@ Consulte [Administrar el ciclo de vida de canales privados en Teams](private-cha
 
 Cada canal privado tiene su propio sitio de SharePoint. La finalidad del sitio independiente es garantizar que el acceso a los archivos de canales privados esté restringido exclusivamente a los miembros del canal privado. Estos sitios se crean con una biblioteca de documentos de forma predeterminada y pueden ampliarse fácilmente a un sitio con todas las funciones mediante la [interfaz de administración de sitios](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada sitio se crea en la misma región geográfica que el sitio para el equipo principal. Estos sitios livianos tienen un identificador de plantilla personalizado, "TEAMCHANNEL # 0", para facilitar la administración mediante la API de PowerShell y Graph. 
 
->[!NOTE]
->- Solo los usuarios con permisos de propietario o de miembro concedidos en Microsoft Teams tendrán acceso al contenido del sitio del canal privado.
->- Los sitios de SharePoint de canal privado no se incluyen en la página de Sitios activos del nuevo Centro de administración de SharePoint.
->- Los sitios de SharePoint de canal privado creados después del 28 de junio de 2021 tendrán el identificador de plantilla personalizado TEAMCHANNEL#1.
+> [!NOTE]
+> Solo los usuarios con permisos de propietario o de miembro concedidos en Microsoft Teams tendrán acceso al contenido del sitio del canal privado.
+> Los sitios de SharePoint de canal privado no se incluyen en la página de Sitios activos del nuevo Centro de administración de SharePoint.
+> Los sitios de SharePoint de canal privado creados después del 28 de junio de 2021 tendrán el identificador de plantilla personalizado TEAMCHANNEL#1.
 
-
-Un sitio de canal privado sincroniza la clasificación de datos y hereda los permisos de acceso de invitado del sitio del equipo principal. La pertenencia del propietario del sitio y los grupos de miembros se mantienen sincronizados con la membresía del canal privado dentro de Teams. Todos los cambios que se realicen en la pertenencia a propietario o grupos de miembros en SharePoint se revertirán automáticamente en un plazo de cuatro horas. 
+Un sitio de canal privado sincroniza la clasificación de datos y hereda los permisos de acceso de invitado del sitio del equipo principal. La pertenencia del propietario del sitio y los grupos de miembros se mantienen sincronizados con la membresía del canal privado dentro de Teams. Los permisos de sitio para un sitio de canal privado no se pueden administrar de forma independiente a través de SharePoint. 
 
 Teams administra el ciclo de vida del sitio del canal privado. Si el sitio se elimina fuera de Teams, un trabajo en segundo plano restaura el sitio en un plazo de cuatro horas siempre y cuando el canal privado aún esté activo. Si se elimina el sitio permanentemente, se aprovisionará un nuevo sitio para el canal privado.
 

@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf2faf2c70fb06efe67e2b108d44612fb2d4b430
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7438b1b4e1625e4c3e0cabed77af517eff3cb7b3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634794"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731589"
 ---
 # <a name="prepare-your-organization"></a>Preparar la organización
 
-![Fases del viaje de actualización, con énfasis en la fase de preparación del usuario](media/upgrade-banner-user-readiness.png "Fases del viaje de actualización, con énfasis en la fase de preparación del usuario")
+![Fases del viaje de actualización, con énfasis en la fase de preparación del usuario.](media/upgrade-banner-user-readiness.png "Fases del viaje de actualización, con énfasis en la fase de preparación del usuario")
 
 Este artículo forma parte de la fase de preparación del usuario del viaje de actualización, una actividad que se completa en paralelo con la fase preparación técnica. Antes de continuar, confirme que ha completado estas actividades de fases anteriores:
 

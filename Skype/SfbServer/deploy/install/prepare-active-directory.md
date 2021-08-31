@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Resumen: obtenga información sobre cómo preparar el dominio de Active Directory para una instalación de Skype Empresarial Server. Descargue una versión de prueba Skype Empresarial Server desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: a4a224da84d1e6b4b001e9c561529b1c64b0e995
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 928873f44b9cb3ad12069964e1b7f93b410f13de
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609817"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731641"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>Skype Empresarial Server: Preparar Active Directory
  
@@ -30,7 +30,7 @@ ms.locfileid: "58609817"
   
 Skype Empresarial Server funciona estrechamente con Active Directory. Debe preparar el dominio de Active Directory para que funcione con Skype Empresarial Server. Este proceso se lleva a cabo en el Asistente para implementación y solo se realiza una vez para el dominio. Esto se debe a que el proceso crea grupos y modifica el dominio, y solo debe hacerlo una vez. Puede realizar los pasos del 1 al 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden y después de los pasos del 1 al 5, tal como se describe en el diagrama. Preparar Active Directory es el paso 4 de 8. Para obtener más información acerca de la planeación de Active Directory, vea [Requisitos](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) del entorno para Skype Empresarial Server o Requisitos de servidor [para Skype Empresarial Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
-![diagrama de información general](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
+![diagrama de información general.](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>Preparar Active Directory
 
@@ -176,6 +176,6 @@ Vea los pasos de vídeo para **Preparar Active Directory:**
      ![Preparar Active Directory completado.](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
  
 [Servicios de dominio de Active Directory para Skype Empresarial Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)

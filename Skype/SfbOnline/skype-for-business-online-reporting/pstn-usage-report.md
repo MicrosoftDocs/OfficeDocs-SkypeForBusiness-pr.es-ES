@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: El nuevo Skype Empresarial de informes del Centro de administración muestra la actividad de llamadas y audioconferencias en su organización. Le permite explorar en profundidad los informes para proporcionar información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles de uso de RTC de audioconferencia, incluido el costo de la llamada para que pueda comprender los detalles de facturación de llamadas y uso para determinar el uso dentro de su organización.
-ms.openlocfilehash: 313b6e7528604cfca3b7d7b4a66986337617afa0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad2ac65300e0cb1f1d1b3e879199f04506ceeb6c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614910"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731629"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -41,7 +41,7 @@ Este informe, junto con el resto de Skype Empresarial, le proporciona detalles s
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Cómo acceder al informe Detalles de uso de RTC de Skype Empresarial
 
-![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
+![Un icono que muestra Skype Empresarial logotipo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 - Vaya al centro de administración > **centros** de administración Skype Empresarial centro de  >  **administración**  >  **Informes de** detalles de uso de  >  **RTC.**
     
@@ -54,10 +54,10 @@ Puede analizar el uso de RTC de Skype Empresarial de sus usuarios consultando ca
   
 Este es el aspecto del informe.
   
-[![Skype Empresarial de uso de RTC ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
+[![Skype Empresarial de uso de RTC. ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
-![Número 1](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de todo el uso de RTC por usuario. Esto muestra todos los usuarios que Skype Empresarial asignados a ellos y su uso de RTC. Puede agregar o quitar columnas en la tabla.
+![Número 1.](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de todo el uso de RTC por usuario. Esto muestra todos los usuarios que Skype Empresarial asignados a ellos y su uso de RTC. Puede agregar o quitar columnas en la tabla.
 *    **Id. de** llamada es el id. de llamada de una llamada. Es un identificador para la llamada que se usa al llamar al servicio de soporte técnico de Microsoft.
 *    **Identificador de usuario** es el nombre de inicio de sesión del usuario.
 *    **Teléfono es** el Skype Empresarial de teléfono que recibió la llamada para las llamadas entrantes o el número marcado para las llamadas salientes.
@@ -107,7 +107,7 @@ Este es el aspecto del informe.
 > [!NOTE]
 > Si tiene un plan de llamadas de Telstra o Softbank, no verá ningún registro de detalles de llamadas en el informe de uso de RTC. Póngase en contacto con Telstra o Softbank para sus necesidades de informes. 
 ***
-![Número 2](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
+![Número 2.](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
  ***
 
 ## <a name="exporting-pstn-usage-report"></a>Exportar informe de uso de RTC

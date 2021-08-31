@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: 'Obtenga información sobre lo que puede y no puede usar en Skype Empresarial de administración y otras características cuando el servicio se migra a otro centro de datos de Microsoft. '
-ms.openlocfilehash: e131e3c1013b496a6e3ad8581832c628ee2057ce
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81badc1ab12a767ab106222ebf28fff4c54867e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581964"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731699"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>¿Por qué no puedo usar el Skype Empresarial de administración en línea en este momento?
 
@@ -54,7 +54,7 @@ En primer lugar, vamos a dividir algunos términos.
     
 Por lo tanto, todo esto significa que estamos en el proceso de mover todos los usuarios de Skype Empresarial Online y la configuración del servicio a otra ubicación que esté más cerca de usted. Cuanto más cerca, mejor. La buena noticia es que, después de este breve período de tiempo, Skype Empresarial servicio en línea mejorará.
   
-![Migración de servicios en Microsoft 365 o Office 365](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![Migración de servicios en Microsoft 365 o Office 365.](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
 ## <a name="what-skype-for-business-online-features-will-still-work"></a>¿Skype Empresarial las características de Online seguirán funcionando?
 

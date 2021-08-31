@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración general de la directiva de reunión en Teams.
-ms.openlocfilehash: 72cfbc77b6abcf264ddf96f66d3726031a2e31cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be28acd1a343988fef94546f405a1f7a3684d4ce
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589682"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731669"
 ---
 # <a name="meeting-policy-settings---general"></a>Configuración de la directiva de reunión. Aspectos generales
 
@@ -47,13 +47,13 @@ En este artículo se describen las siguientes opciones de configuración de dire
 
 Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión ad hoc en un canal Teams usuario. Si activa esta opción, los  usuarios pueden hacer clic en el botón Reunirse para iniciar una reunión ad hoc o programar una reunión en el canal. El valor predeterminado es True.
 
-[![Captura de pantalla que muestra el icono Reunirse ahora debajo de un mensaje ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+[![Captura de pantalla que muestra el icono Reunirse ahora debajo de un mensaje. ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ## <a name="allow-the-outlook-add-in"></a>Permitir el complemento de Outlook
 
 Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si se pueden programar reuniones de Teams desde Outlook (en Windows, Mac, web y dispositivos móviles).
 
-![Captura de pantalla que muestra la posibilidad de programar una nueva reunión](media/meeting-policies-outlook-add-in.png)
+![Captura de pantalla que muestra la capacidad de programar una nueva reunión.](media/meeting-policies-outlook-add-in.png)
 
 Si desactiva esta opción, los usuarios no podrán programar Teams reuniones cuando creen una nueva reunión en Outlook. Por ejemplo, en Outlook en Windows, la opción **Nueva reunión de Teams** no se mostrará en la cinta de opciones.
 
@@ -65,7 +65,7 @@ Si esta directiva está desactivada, los usuarios no podrán crear nuevas reunio
 
 Programar una reunión se deshabilitará.
 
-![Captura de pantalla que muestra la opción Programar una reunión en Teams](media/schedule-meeting-option.png)
+![Captura de pantalla que muestra la opción Programar una reunión en Teams.](media/schedule-meeting-option.png)
 
 La selección de canales está desactivada.
 

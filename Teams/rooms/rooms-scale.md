@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 6102b193f49953787f9ab25d491da76f3f567dac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27cd37df8516973ddf9fbe6401a1e4c21ce01e0a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588122"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731579"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implementar Salas de Microsoft Teams mediante Microsoft Endpoint Configuration Manager
 
@@ -49,7 +49,7 @@ Con los métodos fáciles de usar proporcionados por Configuration Manager, pued
 
 Use el método que se muestra a continuación para guiarlo por la configuración de Configuration Manager y personalizar los paquetes y scripts de ejemplo proporcionados a lo largo de esta guía según sea necesario para su organización.
 
-![Salas de Microsoft Teams de implementación con Configuration Manager](../media/room-systems-scale-image1.png)
+![Salas de Microsoft Teams de implementación con Configuration Manager.](../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
 > Esta solución solo se ha probado con Surface Pro implementaciones basadas en aplicaciones. Siga las directrices del fabricante para las configuraciones que no se basan en Surface Pro.
@@ -746,7 +746,7 @@ Después de completar las Microsoft Endpoint Configuration Manager de tareas, de
 
 9.  Cuando la secuencia de tareas de implementación termine de configurar el dispositivo, verá la siguiente pantalla de configuración en la que se le pedirá que configure la configuración Salas de Microsoft Teams aplicación.
 
-    ![Pantalla de configuración inicial para Salas de Microsoft Teams aplicación](../media/room-systems-scale-image2.png)
+    ![Pantalla de configuración inicial para Salas de Microsoft Teams aplicación.](../media/room-systems-scale-image2.png)
 
 10.  Conecta el Surface Pro a la Salas de Microsoft Teams y configura la configuración de la aplicación.
 
