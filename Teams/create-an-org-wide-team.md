@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6faac9e0c04f71bddb69b0a8bd7748072699edb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a3322c55e61fc674be6647b192aff86e4412975
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589754"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728209"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Crear un equipo de toda la organización en Microsoft Teams
 
@@ -34,7 +34,7 @@ Con equipos de toda la organización, los administradores globales pueden crear 
 
 Solo los administradores globales pueden crear equipos para toda la organización. Actualmente, un equipo de toda la organización está limitado a organizaciones con no más de 10 000 usuarios. También hay un límite de cinco equipos de toda la organización por inquilino. Al crear un equipo, si se cumplen  estos requisitos, los administradores globales verán a toda la organización como una opción cuando seleccione Crear un equipo **desde cero.** 
 
-![Captura de pantalla de la opción para toda la organización para crear un equipo de toda la organización](media/create-org-wide-team.png "Captura de pantalla de la opción de toda la organización para crear un equipo de toda la organización")
+![Captura de pantalla de la opción para toda la organización para crear un equipo de toda la organización.](media/create-org-wide-team.png "Captura de pantalla de la opción de toda la organización para crear un equipo de toda la organización")
 
 Cuando se crea un equipo de toda la organización, todos los administradores globales y Teams administradores de servicios se agregan como propietarios del equipo y todos los usuarios activos se agregan como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, al usuario se le asigna una Microsoft Teams licencia exploratoria. Para obtener más información sobre la licencia exploratoria, consulte Administrar [la Microsoft Teams de Exploración.](teams-exploratory.md) 
 

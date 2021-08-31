@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b760d5fad3a694fd0dd41c34116d09297d25dd22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579584"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731949"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 
@@ -92,7 +92,7 @@ A continuación puede ver algunos ejemplos de cómo los distintos tipos de usuar
 
 Teams es ideal para combatir el aislamiento comunicativo de los departamentos en su organización y fomentar equipos multidisciplinares. Anime a sus usuarios a que trabajen con la idea de equipos funcionales en mente y a que eviten las barreras organizacionales.
 
-|Tipos de equipos  |Canales potenciales  |Aplicaciones (fichas) ![Un ícono que representa una carpeta con una pestaña](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Un icono que representa los bloques de conexión](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Un icono que representa un robot pequeño](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|Tipos de equipos  |Canales potenciales  |Aplicaciones (fichas) ![Un ícono que representa una carpeta con una pestaña.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Un icono que representa los bloques de conexión](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Un icono que representa un robot pequeño](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |Ventas     |Reunión anual de ventas<br></br> Revisión empresarial trimestral<br></br> Revisión del proceso de ventas mensual<br></br> Guía de tácticas de ventas |Power BI<br></br>Trello<br></br>CRM<br></br>Bot de resúmenes         |
 |Relaciones públicas     |Comunicados de prensa<br></br>Noticias y actualizaciones<br></br>Verificación de datos         |fuente RSS<br></br>Twitter         |

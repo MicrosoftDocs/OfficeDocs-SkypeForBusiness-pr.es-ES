@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18a9d5f7adac8c2f3fd615085b3f03d2b3733142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce16e1cf59f720402c2b5f1628c268aed927d145
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628262"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732409"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Crear sus primeros equipos en Microsoft Teams
 
@@ -40,7 +40,7 @@ La mejor manera de impulsar la adopción de Teams es usar el producto. Le recome
 
 En Microsoft Teams, la [](/microsoftteams/platform/concepts/tabs/tabs-overview) galería de pestañas le proporciona acceso a todas las aplicaciones Microsoft 365 o Office 365 y de terceros que ha activado el administrador. Para obtener el máximo valor de su producto, le recomendamos que anclar recursos clave como pestañas en cada uno de los canales adecuados. Vea el ejemplo siguiente.
 
-![Captura de pantalla que muestra pestañas predeterminadas y personalizadas](media/teams-adoption-tab-example.png)
+![Captura de pantalla que muestra pestañas predeterminadas y personalizadas.](media/teams-adoption-tab-example.png)
 
 En los equipos iniciales, le recomendamos que anclar los siguientes elementos para facilitar la referencia en los canales de su equipo. Estos activos se sume a las secciones OneNote bloc de notas. Si trabaja con nuestro equipo de FastTrack, le ayudarán a configurar estos primeros equipos. 
 
@@ -66,4 +66,4 @@ En los equipos iniciales, le recomendamos que anclar los siguientes elementos pa
 
 A medida que empiece Teams Teams, será importante que usted y el resto del equipo del proyecto se comprometan a usar un chat, canales y recursos para ejecutar el proyecto. Su propio uso de Teams es fundamental para la calidad del proyecto de adopción. Le recomendamos que se resista a fragmentar el proyecto continuando con conversaciones con el equipo principal del proyecto en el correo electrónico. Al cambiar a Teams, modelará el comportamiento que desea que adopte en última instancia sus empleados. Establezca el tono, vaya primero y empiece a disfrutar de la información de su proyecto en un solo lugar.  
 
-![Un icono que muestra el siguiente paso Siguiente: ¿Qué tan lista está ](media/teams-adoption-next-icon.png) [su organización para Microsoft Teams?](teams-adoption-assess-readiness.md)
+![Un icono que muestra el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [¿Qué tan lista está su organización para Microsoft Teams?](teams-adoption-assess-readiness.md)

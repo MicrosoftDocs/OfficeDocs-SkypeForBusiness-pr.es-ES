@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 275d1c9b3b60a5a1cd25c0991e35f40712fa332e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8f9ea93f972f542adb743f0dba066e703358912d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627322"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732309"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>Use CQD para administrar la calidad de las llamadas y las reuniones en Microsoft Teams 
 
@@ -248,7 +248,7 @@ Poner en marcha un conjunto de prácticas de administración de calidad: esto le
 
     -   En segundo lugar, se encuentran las tareas que su organización administra para garantizar un acceso confiable al servicio, como actualizar la información de creación y mantener firewalls para nuevas direcciones IP de Office 365 a medida que se agrega infraestructura al servicio.
 
-![Graph de las categorías de calidad de una organización](media/qerguide-image-categories.png "Las categorías de calidad de una organización: administración de servicios, puntos de conexión y la red.")
+![Graph de las categorías de calidad de una organización.](media/qerguide-image-categories.png "Las categorías de calidad de una organización: administración de servicios, puntos de conexión y la red.")
 
 Revise la siguiente lista de tareas recomendadas para mantener la calidad. Debe realizar estas tareas periódicamente, por ejemplo, semanalmente.
 
@@ -309,7 +309,7 @@ CQD puede informar sobre Teams y Skype Empresarial. Sin embargo, puede haber oca
 
 Para modificar la página de informes de resumen para ver solo Teams  o Skype Empresarial, seleccione el menú desplegable Filtro de producto de la parte superior de la pantalla y, a continuación, seleccione el producto que desee.
 
-![Captura de pantalla del menú desplegable que muestra las opciones de filtro](media/qerguide-image-productfilter.png)
+![Captura de pantalla del menú desplegable que muestra las opciones de filtro.](media/qerguide-image-productfilter.png)
 
 #### <a name="detailed-reports"></a>Informes detallados
 
@@ -327,7 +327,7 @@ Para obtener más información sobre los filtros de dirección URL, lea [Filtrar
 
 Para filtrar un informe detallado individual, agregue el filtro al informe y establezca el filtro ``Is Teams`` en Verdadero o Falso.
 
-![Captura de pantalla de la página Agregar filtro](media/qerguide-image-addteamsfilter.png)
+![Captura de pantalla de la página Agregar filtro.](media/qerguide-image-addteamsfilter.png)
 
 ### <a name="managed-versus-unmanaged-networks"></a>Redes administradas frente a redes no administradas
 
@@ -550,7 +550,7 @@ Aunque las dimensiones usadas pueden diferir ligeramente entre el informe, cada 
 > Las subredes comunes son difíciles de recortar debido a su uso generalizado. Se ha agregado un informe independiente que muestra la IP pública del cliente (SECOND Reflexive Local IP) a la plantilla Todas las redes para ayudar a corregir las oficinas que usan redes comunes.
 
 
-![Captura de pantalla que muestra el resumen de la transmisión de audio deficiente](media/qerguide-image-poorqualitysummary.png)
+![Captura de pantalla que muestra el resumen de la transmisión de audio deficiente.](media/qerguide-image-poorqualitysummary.png)
 
 ##### <a name="remediation"></a>Corrección
 
@@ -590,7 +590,7 @@ Los informes de esta sección no distinguen entre transmisiones buenas y malas. 
 
 Los informes TCP indican el uso total de TCP en los últimos siete meses. Todos los informes lejos de esta sección se centrarán en restringir edificios y subredes específicos en los que se usa con mayor frecuencia TCP. Hay informes independientes disponibles para conferencias y transmisiones de dos partes.
 
-![Gráfico que muestra el porcentaje de transmisiones de audio que usan TCP](media/qerguide-image-audiostreamswithtcp.png)
+![Gráfico que muestra el porcentaje de transmisiones de audio que usan TCP.](media/qerguide-image-audiostreamswithtcp.png)
 
 ##### <a name="investigation"></a>Investigación
 
@@ -607,7 +607,7 @@ Si observa que la tendencia de uso de TCP está aumentando o por encima del uso 
 
 Este informe identifica el volumen de informes de uso TCP frente a UDP del último mes para el uso compartido de pantalla basado en audio, vídeo y vídeo (VBSS). 
 
-![Informe que muestra el volumen de transmisiones que usan TCP frente a UDP](media/qerguide-image-tcpvsudp.png)
+![Informe que muestra el volumen de transmisiones que usan TCP frente a UDP.](media/qerguide-image-tcpvsudp.png)
 
 ##### <a name="analysis"></a>Análisis
 
@@ -644,7 +644,7 @@ Siempre se recomienda configurar el cliente para conectarse directamente a Teams
 
 El informe de secuencias de proxy HTTP en esta sección de la plantilla es muy parecido a los informes TCP. No mira si las llamadas son malas o buenas, pero si la llamada está conectada a través de HTTP.
 
-![Captura de pantalla del informe de transmisiones de audio que usan HTTP](media/qerguide-image-audiostreamswithhttp.png)
+![Captura de pantalla del informe de transmisiones de audio que usan HTTP.](media/qerguide-image-audiostreamswithhttp.png)
 
 ##### <a name="analysis"></a>Análisis
 

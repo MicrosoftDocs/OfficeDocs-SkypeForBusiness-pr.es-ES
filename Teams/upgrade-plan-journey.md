@@ -1,5 +1,5 @@
 ---
-title: Planear la actualización de Skype Empresarial a Microsoft Teams
+title: Planear la actualización Skype Empresarial Microsoft Teams actualización
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33b6e23a5259c81612a392b6befd7b7e6d256287
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd03d8de8d5b5d8f9f7223b8b04671559edfcec6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623162"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728459"
 ---
 # <a name="plan-for-your-upgrade"></a>Planear la actualización
 
-![Diagrama del viaje de actualización de Teams](media/upgrade-banner-main.png "Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito, los objetivos y la escala de tiempo del proyecto. Confirme la disponibilidad técnica y del usuario. Ejecute el plan de implementación. Mantenga el impulso para maximizar los resultados.")
+![Diagrama del Teams de actualización.](media/upgrade-banner-main.png "Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito, los objetivos y la escala de tiempo del proyecto. Confirme la disponibilidad técnica y del usuario. Ejecute el plan de implementación. Mantenga el impulso para maximizar los resultados.")
 
 Un entorno técnico saludable, la adopción sostenida del usuario y la realización de sus objetivos empresariales comienzan con una planeación adecuada. Un plan sólido le proporciona un marco para su proyecto de actualización y garantiza que todas las partes interesadas están trabajando para alcanzar los mismos objetivos. Al tomar tiempo para definir correctamente el éxito, puede medir los resultados a medida que avanza en la implementación y comprobar que está logrando los resultados que quería. Planear el viaje incluye:
 

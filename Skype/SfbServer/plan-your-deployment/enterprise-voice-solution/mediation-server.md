@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Obtenga información sobre los servidores de mediación en Skype Empresarial Server, incluidas sus topologías admitidas y sus relaciones con troncos M:N, desvío de medios y control de admisión de llamadas.
-ms.openlocfilehash: 6113bf05d788620c2ac0b4e91f74b4e347ecc121
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a41303072866aa47d5e5f45ff157d5812be2febc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608017"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728249"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Componente del servidor de mediación en Skype Empresarial Server
  
@@ -57,7 +57,7 @@ En la figura siguiente se muestran los protocolos de señalización y medios que
   
 **Señalización y protocolos multimedia que usa el servidor de mediación**
 
-![Diagrama de protocolos de servidor de mediación](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
+![Diagrama de protocolos de servidor de mediación.](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
   
 > [!NOTE]
 > Si usa TCP o RTP/RTCP (en lugar de SRTP o SRTCP) en la red entre la puerta de enlace RTC y el servidor de mediación, le recomendamos que tome medidas para garantizar la seguridad y privacidad de la red. 
@@ -122,13 +122,13 @@ En la siguiente figura se muestra una topología sencilla que consta de dos siti
   
 **Ejemplo de sitios conectados mediante un vínculo WAN con un servidor de mediación en el Sitio 1 y una puerta de enlace RTC en el Sitio 2**
 
-![Topología de voz con puerta de enlace WAN del servidor de mediación](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
+![Topología de voz con puerta de enlace WAN del servidor de mediación.](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
   
 La siguiente figura muestra una topología sencilla donde el servidor de mediación se coloca en el grupo de servidores front-end en el sitio 1 y tiene una conexión SIP directa a la IP-PBX en el sitio 1. En esta figura, el servidor de mediación también controla una puerta de enlace RTC en el sitio 2. Suponga que Skype Empresarial usuarios existen en los sitios 1 y 2. Asimismo, suponga que la IP-PBX tiene un procesador de medios asociado que todos los medios que se originaron en los puntos de conexión de Skype Empresarial deben atravesar antes de enviarse a extremos multimedia controlados por la IP-PBX. En esta topología, el desvío de medios se habilita globalmente para usar la información de sitio y de región, y los troncos a la puerta de enlace RTC y al PBX tienen el desvío de medios habilitado.
   
 **Ejemplo de sitios conectados mediante un vínculo WAN con un servidor de mediación en el Sitio 1 y un sistema PBX en el Sitio 2**
 
-![PBX WAN del servidor de mediación de topología de voz](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
+![PBX WAN del servidor de mediación de topología de voz.](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
 La última figura de este tema muestra una topología donde el servidor de mediación está conectado al SBC de un proveedor de servicios de telefonía por Internet. 
   

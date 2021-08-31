@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar la configuración de Skype Empresarial características en el centro Microsoft Teams administración.
-ms.openlocfilehash: e3679f80057349b60af9bc11b2aa43c3ceb6a431
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a21ea4d51902fc755f1a36e58e3faf0f70fa837b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636444"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731755"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Administrar Skype Empresarial configuración en el centro Microsoft Teams administración
 
@@ -56,7 +56,7 @@ En el panel de navegación izquierdo del Microsoft Teams de administración, vay
 
 Use la siguiente configuración para administrar Skype [difusión de reunión](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) en su organización.
 
-:::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="Captura de pantalla Skype configuración de difusión de reunión en el centro de administración":::
+:::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="Captura de pantalla Skype configuración de difusión de reunión en el centro de administración.":::
 
 - **Skype difusión de reunión:** active esta opción para habilitar Skype difusión de reunión para su organización. Después de habilitar esta característica, debe configurar su red para Skype [difusión de reunión.](/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast)
 - **Vea características de vista previa:** Active esta opción para obtener acceso anticipado a las nuevas características.
@@ -73,7 +73,7 @@ Use la siguiente configuración para administrar Skype [difusión de reunión](h
 
 Use la siguiente configuración para administrar la privacidad Skype Empresarial presencia y las notificaciones móviles en su organización.
 
-:::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="Captura de pantalla de la configuración de presencia en el Centro de administración":::
+:::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="Captura de pantalla de la configuración de presencia en el Centro de administración.":::
 
 #### <a name="presence"></a>Presence
 
@@ -103,7 +103,7 @@ Tenga en cuenta lo siguiente:
 
 Para administrar la configuración de Skype Empresarial para usuarios individuales, en la navegación izquierda del centro de administración de Teams, vaya a **Usuarios,** haga clic en el nombre para mostrar del usuario para abrir la página de detalles del usuario y, a continuación, seleccione la pestaña **configuración** Skype Empresarial usuario. Desde aquí, puede configurar el acceso externo y la configuración de la reunión para el usuario.
 
-:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Captura de pantalla de Skype Empresarial pestaña en la página de detalles del usuario":::
+:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Captura de pantalla Skype Empresarial pestaña en la página de detalles del usuario.":::
 
 ### <a name="external-access-settings"></a>Configuración de acceso externo
 

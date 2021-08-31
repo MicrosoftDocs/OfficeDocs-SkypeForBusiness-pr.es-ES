@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el Teams de uso de dispositiv
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fdb7292ab36f41eb4c64233ea836f688cec49bb3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 53aa8d88edd906e13532a452190234decf80d5db
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627532"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730179"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Informe de uso de dispositivos de Microsoft Teams
 
@@ -33,7 +33,7 @@ El Teams de uso de dispositivos del centro de administración de Microsoft Teams
 1. En el panel de navegación izquierdo del centro Microsoft Teams administración, haga clic **en Análisis & informes de**  >  **uso.** En la **pestaña Ver informes,** en **Informe,** **seleccione Teams uso del dispositivo.**
 2. En **Intervalo de fechas**, seleccione un rango y haga clic en **Ejecutar informe**.
 
-    ![Captura de pantalla del Teams de uso del dispositivo en el Teams de administración con llamadas](../media/teams-reports-device-usage-with-callouts.png "Captura de pantalla del Teams de uso del dispositivo en el Teams de administración con llamadas")
+    ![Captura de pantalla del Teams de uso de dispositivos en el Teams de administración con llamadas.](../media/teams-reports-device-usage-with-callouts.png "Captura de pantalla del Teams de uso del dispositivo en el Teams de administración con llamadas")
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 
@@ -44,7 +44,7 @@ El Teams de uso de dispositivos del centro de administración de Microsoft Teams
 |**3**   |<ul><li>El eje X del gráfico representa los diferentes dispositivos **(Windows,** **Mac,** **Linux,** **iOS,** **Android Teléfono,** **Web)** que se usan para conectarse a Teams. </li><li>El eje Y es el número de usuarios que usan el dispositivo durante el período de tiempo seleccionado.</li> </ul>Mantenga el puntero sobre la barra que representa un dispositivo para ver el número de usuarios que usan el dispositivo para conectarse a Teams.|
 |**4**   |La tabla le proporciona un desglose del uso del dispositivo por usuario. <ul><li>**Nombre** de usuario es el nombre para mostrar del usuario. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del usuario en el Microsoft Teams de administración. </li><li>**Windows** se selecciona si el usuario estaba activo en el Teams de escritorio en un Windows equipo basado en Windows usuario.</li><li>**Mac** está seleccionado si el usuario estaba activo en el cliente de escritorio de Teams en un equipo macOS. </li> <li>**Linux** está seleccionado si el usuario estaba activo en el cliente de escritorio de Teams en un equipo Linux. </li> <li>**iOS** está seleccionado si el usuario estaba activo en el cliente móvil e Teams para iOS.</li><li>**El teléfono Android** está seleccionado si el usuario estaba activo en el Teams móvil para Android. <li><li>**Web** está seleccionado si el usuario estaba activo en el cliente web de Teams. <li>**La última actividad** es la última fecha (UTC) en la que el usuario participó en una Teams actividad.</li> </ul> Tenga en cuenta que si una cuenta de usuario ya no existe en Azure AD, el nombre de usuario se muestra como "--" en la tabla. <br><br>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
 |**5**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla. |
-|**6**   |Puede exportar el informe a un archivo CSV para analizarlo sin conexión. Haga **clic en Exportar Excel** y, a continuación, en la pestaña Descargas, haga clic en Descargar para descargar el informe cuando esté listo.  <br><br>![Captura de pantalla de la pestaña Descargas que muestra los informes exportados](../media/teams-reports-export-to-csv.png)|
+|**6**   |Puede exportar el informe a un archivo CSV para analizarlo sin conexión. Haga **clic en Exportar Excel** y, a continuación, en la pestaña Descargas, haga clic en Descargar para descargar el informe cuando esté listo.  <br><br>![Captura de pantalla de la pestaña Descargas que muestra los informes exportados.](../media/teams-reports-export-to-csv.png)|
 
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Convertir en anónimos los datos específicos del usuario

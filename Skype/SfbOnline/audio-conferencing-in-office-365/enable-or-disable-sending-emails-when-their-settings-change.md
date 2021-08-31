@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 7bcbfc305ce250abb5f11aa1498a18802dde066c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2f322f9cfc9ba7daa60d030c043bdfda4d511d2c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589212"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728029"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Habilitar o deshabilitar el envío de correos electrónicos cuando la configuración de conferencias de audio cambie en Skype Empresarial Online
 
@@ -41,7 +41,7 @@ Si deshabilita el envío de correos electrónicos, los correos electrónicos de 
   
 Este es un ejemplo del correo electrónico que se envía a los usuarios cuando están habilitados para las audioconferencias:
   
-![Correo electrónico de audioconferencia](../images/audio-conferencing-user-enabled.png)
+![Correo electrónico de audioconferencia.](../images/audio-conferencing-user-enabled.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>¿Cuándo se envían correos electrónicos a los usuarios?
 
@@ -65,7 +65,7 @@ Este es un ejemplo del correo electrónico que se envía a los usuarios cuando e
 Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de acceso telefónico local
 
  
-![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
+![Un icono que muestra Skype Empresarial logotipo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     
 1. En el **Skype Empresarial de administración**, en el panel de navegación izquierdo, haga clic en **Audioconferencia.**
     

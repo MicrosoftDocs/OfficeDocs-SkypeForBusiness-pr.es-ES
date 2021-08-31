@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Instalar Power BI connector para usar plantillas de consulta de panel de calidad de llamadas (CQD)
-ms.openlocfilehash: 258d3be034bd956c518f1ed7a67273f064b383b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e72f5731358ae1856b0379b47faefc5346ee3831
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593324"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730349"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Instalar el conector de calidad de llamadas de Microsoft para Power BI usar plantillas de consulta de panel de calidad de llamadas
 
@@ -51,11 +51,11 @@ Para crear un informe y ejecutar consultas, primero tendrá que conectarse al or
 
 1. En la pestaña Inicio de Power BI Desktop, haga clic en *Obtener datos.*
 
-    ![Captura de pantalla: Power BI Connector](media/CQD-power-bi-connector1-resize.png)
+    ![Captura de pantalla: Power BI Connector.](media/CQD-power-bi-connector1-resize.png)
 
 2. La *ventana Obtener* datos debería aparecer en este momento. Vaya a *Servicios en línea* y, a continuación, seleccione Calidad de llamada de Microsoft *(Beta)* y pulse *Conectar*.
 
-    ![Captura de pantalla: Power BI Connector](media/CQD-power-bi-connector2-resize.png)
+    ![Captura de pantalla: Power BI Connector.](media/CQD-power-bi-connector2-resize.png)
 
 3. Se le pedirá que inicie sesión a continuación. Use las mismas credenciales que usa para el Panel de calidad de llamadas. <sup>2</sup>
 
@@ -73,18 +73,18 @@ Una vez completada la configuración, verá los nombres de varios cientos de dim
 
 1. Seleccione la visualización que desea usar en el *panel Visualizaciones.* Una versión en blanco de esa visualización debería aparecer en la página. Para los fines de este ejemplo, usaremos la visualización *Tabla.*
 
-    ![Captura de pantalla: Power BI Connector](media/CQD-power-bi-connector3-resize.png)
+    ![Captura de pantalla: Power BI Connector.](media/CQD-power-bi-connector3-resize.png)
 
 2. Determine qué dimensiones y medidas (que se indican con un símbolo de agregación por su nombre) que desea usar para la consulta y, a continuación, selecciónelos manualmente y arrástrelos a la visualización negra. Como alternativa, arrástrelos al *campo Valores* debajo de las opciones de visualización.
 
-    ![Captura de pantalla: Power BI Connector](media/CQD-power-bi-connector4-resize2.png)
+    ![Captura de pantalla: Power BI Connector.](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > El Panel de calidad de llamadas requiere una medida para que se ejecute cualquier consulta. Si no se agrega una medida a una consulta, se producirá un error en dicha consulta.
 
 3. A continuación, seleccione las dimensiones que quiera filtrar y arrástrelas al campo Filtros de este *campo visual* en el *panel* Filtros. El conector de calidad de llamada de Microsoft admite actualmente filtrado básico (valores de selección de una lista de posibles valores de dimensión), filtrado  avanzado  (especificar manualmente valores y operandos para filtrar, similar al Panel de calidad de llamada) y filtrado de fecha relativa *(solo* disponible para las dimensiones Hora de finalización e Hora de inicio).   El filtrado según *la parte superior N* no es compatible con el Panel de calidad de llamadas.
 
-    ![Captura de pantalla: Power BI Connector](media/CQD-power-bi-connector5-resize.png)
+    ![Captura de pantalla: Power BI Connector.](media/CQD-power-bi-connector5-resize.png)
 
     > [!IMPORTANT]
     > Los filtros solo son compatibles cuando se aplican a Dimensiones. El filtrado de los valores de Medidas no es compatible con el Panel de calidad de llamadas.
@@ -102,11 +102,11 @@ Una vez completada la configuración, verá los nombres de varios cientos de dim
 
 2. Seleccione la dimensión que desea usar como filtro de obtención de detalles y arrástrela al campo *Obtención* de detalles en el *panel Visualizaciones.*
 
-    ![Captura de pantalla: Power BI Connector](media/CQD-power-bi-connector6-resize.png)
+    ![Captura de pantalla: Power BI Connector.](media/CQD-power-bi-connector6-resize.png)
 
 3. **Eso es todo\!** Cualquier otra consulta de otra página que use esa dimensión ahora puede explorar en profundidad esa página, aplicando automáticamente el valor de la dimensión de obtención de detalles como filtro.
 
-    ![Captura de pantalla: Power BI Connector](media/CQD-power-bi-connector7-resize.png)
+    ![Captura de pantalla: Power BI Connector.](media/CQD-power-bi-connector7-resize.png)
 
 A diferencia del Panel de calidad de llamadas, Power BI permite la obtención de detalles no secuencial. Si una consulta incluye la dimensión necesaria, puede explorar en profundidad cualquier otra página.
 

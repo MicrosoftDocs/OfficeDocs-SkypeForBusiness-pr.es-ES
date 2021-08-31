@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración de la directiva de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: 54a209756db16788e6f46f3b34a4367277ca8354
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b377c1c391f1fb3a82976db6d58e84c9eb2f9b94
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635664"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728639"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -52,7 +52,7 @@ Esta configuración es una directiva por organizador que permite reuniones de co
 
 Esta es una directiva por organizador. Esta configuración controla si los usuarios pueden unirse a una reunión directamente o esperar en la sala de espera hasta que un usuario autenticado los admita. Esta configuración no se aplica a los usuarios de marcado.
 
-![Captura de pantalla que muestra una reunión con un usuario en la sala de espera](media/meeting-policies-lobby.png)
+![Captura de pantalla que muestra una reunión con un usuario en la sala de espera.](media/meeting-policies-lobby.png)
 
  Los organizadores de la reunión pueden hacer clic en las **Opciones de reunión** en la invitación a la reunión para cambiar esta configuración en cada una de las reuniones programadas.
 
@@ -79,7 +79,7 @@ Esta es una directiva por organizador. Esta opción controla si las personas que
 
 Esta configuración es una directiva por usuario y se aplica durante una reunión. Esta configuración controla si la opción **Activar los subtítulos en directo** está disponible para que el usuario active y desactive los subtítulos en directo en las reuniones a las que asista.  
 
-![Captura de pantalla que muestra la opción Activar subtítulos en directo](media/meeting-policies-live-captions.png)
+![Captura de pantalla que muestra la opción Activar subtítulos en directo.](media/meeting-policies-live-captions.png)
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|

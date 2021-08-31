@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo cargar inquilinos y crear datos en el Panel de calidad de llamadas (CQD).
-ms.openlocfilehash: 847abe5aeb18f7cb19bdad9213334f119c101e20
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02984b413418fff22da44d4edd4349a1bf980ed7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583704"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733139"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Upload inquilino y generar datos en el Panel de calidad de llamadas (CQD)
 
@@ -39,11 +39,11 @@ En el panel Informes de resumen de CQD, seleccione Datos de **inquilino Upload**
 
 1. Abra CQD (desde el centro de administración de Teams o en) y, a continuación, seleccione el icono de engranaje en la esquina superior derecha y elija Datos de inquilino Upload en la página Informes de [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) resumen.  
 
-   ![Captura de pantalla del cuadro de diálogo que aparece mientras se cargan los datos](media/qerguide-image-tenantdataupload.png)
+   ![Captura de pantalla del cuadro de diálogo que aparece mientras se cargan los datos.](media/qerguide-image-tenantdataupload.png)
     
 2. Como alternativa, si es la primera vez que visita CQD, se le pedirá que cargue datos de creación. Puede seleccionar Upload **Ahora para** ir rápidamente a la página Datos del espacio **empresarial Upload** usuario.
 
-   ![Captura de pantalla de banner que notifica a un usuario que cargue datos de creación](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Captura de pantalla de banner que notifica a un usuario que cargue datos de creación.](media/qerguide-image-buildingdatauploadbanner.png)
 
 3. En la **página Datos Upload** inquilino, seleccione **Examinar** para elegir un archivo de datos.
 
@@ -51,7 +51,7 @@ En el panel Informes de resumen de CQD, seleccione Datos de **inquilino Upload**
 
 5. Después de seleccionar **Fecha de inicio,** **Upload** para cargar el archivo en CQD. <br><br>Antes de cargar el archivo, se valida. Si se produce un error en la validación, se muestra un mensaje de error en el que se le solicita que corrija el archivo. En la siguiente ilustración se muestra un error que se produce cuando el número de columnas del archivo de datos es incorrecto.
 
-   ![Ejemplo de cuadro de diálogo que muestra un error de carga de datos de creación](media/qerguide-image-buildingdatauploaderror.png)
+   ![Ejemplo de cuadro de diálogo que muestra un error de carga de datos de creación.](media/qerguide-image-buildingdatauploaderror.png)
  
 6. Si no se producen errores durante la validación, la carga del archivo se realizará correctamente. A continuación, puede ver el archivo de datos cargado en la tabla Mis cargas, que muestra la lista completa de todos los archivos **cargados** para el inquilino actual en la parte inferior de esa página.
 
@@ -146,11 +146,11 @@ La calidad de los datos de experiencia (QoE) que los clientes envían a Microsof
 
 - Para definir **un nombre de red,** escriba "VPN" en este campo para las subredes VPN.
 
-  ![Captura de pantalla del informe de QCD que muestra la VPN con el nombre de red](media/qerguide-image-vpnnetworkname.png)
+  ![Captura de pantalla del informe de QCD que muestra la VPN con el nombre de red.](media/qerguide-image-vpnnetworkname.png)
 
 - Para definir **un nombre de edificio,** escriba "VPN" en este campo para subredes VPN.
 
-  ![Captura de pantalla del informe de QCD en la que se muestra la VPN con el nombre del edificio](media/qerguide-image-vpnbuildingname.png)
+  ![Captura de pantalla del informe de QCD que muestra la VPN con el nombre del edificio.](media/qerguide-image-vpnbuildingname.png)
 
 > [!NOTE]
 > Se ha sabido que las conexiones VPN identificaron erróneamente el tipo de conexión de red como cableada cuando la conexión subyacente es inalámbrica. Al ver la calidad a través de las conexiones VPN, no puede suponer que el tipo de conexión se ha identificado con precisión.

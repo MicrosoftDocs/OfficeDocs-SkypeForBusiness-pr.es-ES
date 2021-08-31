@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Summary: Learn how to use the Centralized Logging Service (CLS) Logger in Skype Empresarial Server 2015.'
-ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e35375dd1715f2d9b2e64cc42339af7247d098d4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628622"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730239"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Registrador de CLS para Skype Empresarial Server 2015
  
@@ -71,7 +71,7 @@ Para detener un escenario existente:
     
 4. La interfaz de usuario se habilitará de nuevo una vez que el escenario se haya detenido, los detalles de la acción también se mostrarán en el área De salida de comandos de PowerShell.
     
-![Inicio y detenerse del registrador CLS](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![Inicio y detenerse del registrador CLS.](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>Buscar registros
 
@@ -109,7 +109,7 @@ Para buscar registros, seleccione la pestaña "Registros cls de búsqueda" y hag
 > 
 > **Omitir registros de red** Omite la búsqueda en los registros de red si está activada.
     
-![Registros de búsqueda del registrador cls](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![Registros de búsqueda del registrador cls.](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>Crear un escenario
 
@@ -124,7 +124,7 @@ Para buscar registros, seleccione la pestaña "Registros cls de búsqueda" y hag
     
 ## <a name="modify-a-scenario"></a>Modificar un escenario
 
-![Captura de pantalla del registrador CLS, escenarios de edición](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![CLS Logger Screen shot, edit scenarios.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. En la **pestaña Editar escenarios,** busque el escenario que desea modificar.
     

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Este informe, junto con otros Skype Empresarial, le proporciona detalles sobre la actividad, incluido el uso de RTC en toda la organización. '
-ms.openlocfilehash: f2708512dfb1cf03e367af09abb288e62329eaf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c88614d4ca7745f972f42b9fcf19a2858a1c6992
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606729"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732289"
 ---
 # <a name="users-blocked-report"></a>Informe de usuarios bloqueados
 
@@ -39,7 +39,7 @@ El nuevo panel Skype Empresarial **informes** le muestra la información general
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Cómo obtener acceso al informe Skype Empresarial usuarios bloqueados
 
-![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
+![Un icono que muestra Skype Empresarial logotipo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 - Vaya al centro de administración > **centros de** administración Skype Empresarial centro  >  **de administración** Informa que  >  **los** usuarios están  >  **bloqueados.**
     
@@ -49,21 +49,21 @@ Puede obtener una vista en usuarios bloqueados consultando cada una de las colum
   
 Este es el aspecto del informe. 
   
-![Informe de usuarios bloqueados](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
+![Informe de usuarios bloqueados.](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
 
 La tabla muestra un desglose de todos los usuarios que están bloqueados para realizar llamadas. Esto muestra todos los usuarios que tienen Sistema telefónico o Audioconferencia asignados a ellos. Puede agregar o quitar columnas en la tabla.
 ***
-![Número 1](../images/sfbcallout1.png)
+![Número 1.](../images/sfbcallout1.png)
 *   **Id. de** usuario es el inicio de sesión del usuario.
 *   **Teléfono es** el número asignado a un usuario. 
 *   **Bloquear el tiempo de** acción es la hora (UTC) en la que el usuario no ha hecho llamadas.
 *   **Bloquear acción** es el tipo de acción que se ha realizado para bloquear al usuario.
 *   **El motivo de la acción** de bloqueo es la razón por la que el usuario se ha bloqueado para realizar llamadas.
 ***
-![Número 2](../images/sfbcallout2.png)<br/>
+![Número 2.](../images/sfbcallout2.png)<br/>
 Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
 ***
-![Número 3](../images/sfbcallout3.png)<br/>
+![Número 3.](../images/sfbcallout3.png)<br/>
 También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o tocando pulsando en el botón **Exportar a Excel**.
 
 De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el propio informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos.

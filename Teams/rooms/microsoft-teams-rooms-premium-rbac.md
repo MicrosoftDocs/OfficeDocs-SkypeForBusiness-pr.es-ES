@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre el control de acceso basado en roles con el Salas de Microsoft Teams administrado.
 f1keywords: ''
-ms.openlocfilehash: dd6c89f9e391e2ae7234510c26304076bdee5226
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b1a3a770c8b56c9d9ed3b589fa13163d955c294
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608817"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728079"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Control de acceso basado en roles con el Salas de Microsoft Teams administrado
 
@@ -80,7 +80,7 @@ Para asignar roles, debe ser administrador global o administrador de servicios a
 
 1. En el panel de navegación izquierdo del Salas de Microsoft Teams de servicio administrado, vaya a **Configuración**  >  **Roles.**
 
-    :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Captura de pantalla de la página de control de Access que muestra los roles":::
+    :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Captura de pantalla de la página de control de Access que muestra los roles.":::
 
 2. Seleccione el rol que desea asignar.
 3. En el panel de roles, seleccione **Tareas**  >  **agregar**.

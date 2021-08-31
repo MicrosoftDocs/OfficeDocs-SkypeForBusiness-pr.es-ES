@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Inicie el Generador de topologías para configurar las propiedades y la configuración de la implementación. Al iniciarse, el Generador de topologías muestra un cuadro de diálogo que pregunta cuál será el origen del documento de topología. Debe seleccionar una de las tres opciones:'
-ms.openlocfilehash: 07747193ba46d3159693991a9d304cb0aaec57d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f50a5d69de9c22665585eb50dd19ab3b39a9c76
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621446"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732349"
 ---
 # <a name="topology-builder-startup-dialog"></a>Cuadro de diálogo de inicio del Generador de topologías
  
@@ -32,5 +32,5 @@ Inicie el Generador de topologías para configurar las propiedades y la configur
     
 - **Nueva topología** Seleccione esta opción para iniciar la configuración de un nuevo documento de topología. Esta opción abre un nuevo documento de topología que puede configurar para que cumpla los requisitos de implementación que usted configure.
     
-![Cuadro de diálogo de inicio del Topology Builder](../../../media/Topology_Builder_Startup_Dialog.jpg)
+![Diálogo de inicio del Generador de topologías.](../../../media/Topology_Builder_Startup_Dialog.jpg)
   

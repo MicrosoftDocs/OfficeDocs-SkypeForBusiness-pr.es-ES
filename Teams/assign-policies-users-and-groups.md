@@ -18,12 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar directi
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: f3832c28f22c8e0a86b5c4f87a7d85e54420858e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a8182e1fe9058a5b7b7e8c88d0fdbac4070d48b7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631524"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732092"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Asignar directivas a usuarios y grupos
 
@@ -41,7 +41,7 @@ Para asignar una directiva a un usuario:
 2. Seleccione el usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, **seleccione Editar configuración.**
 3. Seleccione la directiva que desea asignar y, a continuación, **seleccione Aplicar.**
 
-![Asignar una directiva a un usuario en el centro Teams administración](media/assign-policy-user.png)
+![Asigne una directiva a un usuario en el centro Teams administración.](media/assign-policy-user.png)
 
 También puede hacer lo siguiente:
 
@@ -51,7 +51,7 @@ También puede hacer lo siguiente:
 4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando haya terminado de agregar usuarios, seleccione **Aplicar**.
 
-![Asignar una directiva a un usuario en el centro de Teams a través del segundo método](media/assign-policy-user2.png)
+![Asigne una directiva a un usuario del centro de Teams a través del segundo método.](media/assign-policy-user2.png)
 
 ### <a name="use-powershell"></a>Usar PowerShell
 
@@ -136,7 +136,7 @@ Si no especifica una clasificación, la asignación de directivas se asigna a la
     3. Seleccione la directiva que desea asignar.
     4. Seleccione **Aplicar**.
     
-![Asignar una directiva a un grupo en el centro Teams administración](media/assign-policy-group.png)
+![Asigne una directiva a un grupo en el centro Teams administración.](media/assign-policy-group.png)
 
 Para quitar una asignación de directiva de grupo, en la pestaña **Asignación** de directivas de grupo de la página directiva, seleccione la asignación de grupo y, a continuación, **seleccione Quitar**.
 

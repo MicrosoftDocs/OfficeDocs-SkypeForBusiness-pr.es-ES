@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Después de completar las preguntas de entrevista iniciales, puede editar el nombre de dominio completo (FQDN) y las direcciones IP del sitio. Para ello, en la página Topología global, haga clic con el botón secundario en el sitio que desea editar.
-ms.openlocfilehash: 6c18b980f7dca770de46a8eaeed01e7c508486b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 75eadc6234c9ac6e4e8a869df2da4d246b60f9ed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626602"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732329"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Editar la topología en Skype Empresarial Server 2015
 
@@ -27,7 +27,7 @@ Después de completar las preguntas de entrevista iniciales, puede editar el nom
 
 La herramienta de planeación muestra la topología del sitio seleccionado. En la parte inferior de la página del sitio hay cuatro pestañas:
 
-![Topología de sitio de herramienta de planeación](../../media/Planning_Tool_Site_Topology.png)
+![Topología de sitio de herramienta de planeación.](../../media/Planning_Tool_Site_Topology.png)
 
 - Topología de sitio: la página que se muestra actualmente con una visión general visual de la topología según se recomienda.
 
@@ -35,7 +35,7 @@ La herramienta de planeación muestra la topología del sitio seleccionado. En l
 
 - Informe de administración perimetral: el informe de administración perimetral contiene un total de cuatro informes:
 
-     ![Página Informe de administración perimetral](../../media/Planning_Tool_Summary_Report.png)
+     ![Página Informe de administración perimetral.](../../media/Planning_Tool_Summary_Report.png)
 
   - Informe de resumen: un informe general de la configuración de la configuración de red perimetral. Si edita los valores de la página **Diagrama** de red perimetral para los valores TCP/IP y FQDN de topología de los que se usarán en la implementación real, esas direcciones y nombres se representarán aquí. De lo contrario, aparecerá el texto predeterminado.
 
@@ -55,7 +55,7 @@ La herramienta de planeación muestra la topología del sitio seleccionado. En l
 
 La mayor parte del trabajo que realiza un diseñador en la herramienta de planeación de Skype Empresarial Server 2015 consiste en definir las entradas de las direcciones IP y los nombres de dominio completos (FQDN) para las entradas del diagrama de red. La información que se introduce en esta página se traslada a los informes y otra información contenida en la Herramienta de planeación.
 
-![Diagrama de red de herramientas de planeación](../../media/Planning_Tool_Network_Diagram.png)
+![Diagrama de red de herramientas de planeación.](../../media/Planning_Tool_Network_Diagram.png)
 
 La Herramienta de planeación crea un diagrama de red con texto predeterminado para direcciones IP y FQDN.
 
@@ -81,7 +81,7 @@ Después de completar todas las ediciones, guarde la topología completando los 
 
 Para guardar el diseño de la herramienta de planeación, haga clic **en** Archivo y, a continuación, haga clic en Guardar topología **o** Guardar topología **como**. Si aparece el cuadro de diálogo **Guardar herramienta de planeación como**, escriba el nombre del archivo en **Nombre de archivo** y haga clic en **Guardar**.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="Edit_Network_diagram"> </a>
 
 [Edición del diseño](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)

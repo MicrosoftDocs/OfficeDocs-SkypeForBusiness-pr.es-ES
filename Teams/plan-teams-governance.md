@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96052f270bb0b4a9c5a9da94131e55abf314fbf4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca020de2f2ce96daa3fe213b7b5c0d80b720165b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631284"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728629"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
@@ -46,7 +46,7 @@ Es posible que su organización requiera implementar controles estrictos sobre c
 > Para ayudarle a planear con antelación, obtenga más información sobre cómo configurar [estas directivas y qué licencias requieren.](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)
 > 
 > [!NOTE]
-> Limitar la creación de grupos y equipos puede ralentizar la productividad de los usuarios, ya que muchos Microsoft 365 y Office 365 requieren que se cree un grupo para que el servicio funcione. Para obtener más información, vaya a y expanda [¿Por qué controlar quién crea Microsoft 365 grupos?](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)
+> Limitar la creación de grupos y equipos puede ralentizar la productividad de los usuarios, ya que muchos Microsoft 365 y Office 365 requieren que se cree un grupo para que el servicio funcione. Para obtener más información, visite Plan de gobernanza [en Teams](/microsoft-365/solutions/manage-creation-of-groups).
 
 
 #### <a name="additional-information"></a>Información adicional
@@ -69,8 +69,8 @@ Es posible que su organización tenga requisitos adicionales para configurar dir
 
 |-          |-           |
 |-----------|------------|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Su organización requiere especificar una fecha de expiración para los equipos?</li><li>¿Su organización requiere que se apliquen directivas de retención de datos específicas a los equipos?</li><li>¿Su organización espera requerir la capacidad de archivar equipos inactivos para conservar el contenido en un estado de solo lectura?</li></ul>|
-| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documente los requisitos de su organización para la expiración del equipo, la retención de datos y el archivado.</li><li>Planee implementar estos requisitos como parte de Teams implementación.</li><li>Comunique y publique las directivas para informar a Teams usuarios del comportamiento que pueden esperar.</li></ul>|
+| ![Un icono que muestra los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Su organización requiere especificar una fecha de expiración para los equipos?</li><li>¿Su organización requiere que se apliquen directivas de retención de datos específicas a los equipos?</li><li>¿Su organización espera requerir la capacidad de archivar equipos inactivos para conservar el contenido en un estado de solo lectura?</li></ul>|
+| ![Un icono que muestra los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documente los requisitos de su organización para la expiración del equipo, la retención de datos y el archivado.</li><li>Planee implementar estos requisitos como parte de Teams implementación.</li><li>Comunique y publique las directivas para informar a Teams usuarios del comportamiento que pueden esperar.</li></ul>|
 
 > [!TIP]
 > Use la tabla siguiente para capturar los requisitos de su organización.
@@ -130,8 +130,8 @@ Otro aspecto importante del gobierno y la administración del ciclo de vida de T
 
 |-        |-        |
 |---------|---------|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Necesita su organización limitar Teams características para todo el espacio empresarial?</li><li>¿Necesita su organización limitar Teams características específicas para usuarios específicos?</li></ul>|
-| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documente los requisitos de su organización para limitar Teams características en el nivel de inquilino y usuario.</li><li>Planee implementar sus requisitos específicos como parte de Teams implementación.</li><li>Comunique y publique las directivas para informar a Teams usuarios del comportamiento que pueden esperar.</li></ul>|
+| ![Un icono que muestra los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Necesita su organización limitar Teams características para todo el espacio empresarial?</li><li>¿Necesita su organización limitar Teams características específicas para usuarios específicos?</li></ul>|
+| ![Un icono que muestra los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documente los requisitos de su organización para limitar Teams características en el nivel de inquilino y usuario.</li><li>Planee implementar sus requisitos específicos como parte de Teams implementación.</li><li>Comunique y publique las directivas para informar a Teams usuarios del comportamiento que pueden esperar.</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>Teams áreas de foco de administración de características
 

@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo se usan las etiquetas en su organización en Microsoft Teams.
-ms.openlocfilehash: b7d6e6c5995a642c45fdc1d91b4a526495a8f1a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e98c085dee7f91aebc6e34552217230384ba80b6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579654"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732529"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Administrar etiquetas en Microsoft Teams
 
@@ -53,7 +53,7 @@ Cuando una etiqueta se @mentioned en una conversación de canal, los miembros de
 
 Como administrador, puede controlar cómo se usan las etiquetas en toda la organización en el centro Microsoft Teams administración. Actualmente, no puede usar PowerShell para administrar etiquetas.
 
-![Captura de pantalla de la configuración de etiquetado en el Microsoft Teams de administración](media/manage-tags-admin-settings.png)
+![Captura de pantalla de la configuración de etiquetado en el Microsoft Teams de administración.](media/manage-tags-admin-settings.png)
 
 Un equipo puede tener hasta 100 etiquetas, se pueden asignar hasta 100 miembros del equipo a una etiqueta y se pueden asignar hasta 25 etiquetas a un solo usuario. 
 
@@ -83,7 +83,7 @@ Puede configurar las siguientes opciones de etiquetas para controlar cómo se us
 
 Si ha activado  la opción Permitir que los propietarios del equipo invalide quién puede administrar etiquetas en el centro de administración de Microsoft Teams, los propietarios de los equipos pueden establecer si los miembros pueden agregar etiquetas en el nivel de equipo. Para ello, en la **Configuración** de un equipo, vaya a Etiquetas **y,** a continuación, elija quién puede agregar etiquetas.
 
-![Captura de pantalla de la configuración de etiquetas en el nivel de equipo](media/manage-tags-team-settings.png)
+![Captura de pantalla de la configuración de etiquetas en el nivel de equipo.](media/manage-tags-team-settings.png)
 
 ## <a name="use-tags"></a>Usar etiquetas
 
@@ -93,7 +93,7 @@ Esta es la manera de agregar etiquetas personalizadas y cómo configurar el etiq
 
 Para crear y asignar etiquetas personalizadas, **seleccione Teams** en el lado izquierdo de la aplicación y, a continuación, busque su equipo en la lista. Seleccione   Aquí puede crear etiquetas y asignarlas a personas de su equipo.
 
-![Captura de pantalla de cómo aplicar etiquetas en Teams cliente ](media/manage-tags-teams.png)
+![Captura de pantalla de cómo aplicar etiquetas en Teams cliente.](media/manage-tags-teams.png)
 
 Para eliminar una etiqueta, seleccione **además de** más opciones junto a la etiqueta y, a continuación, seleccione Eliminar **etiqueta.**
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar la omisión de medios con Sistema telefónico enrutamiento directo para Microsoft Teams cambiando todos los usuarios a la vez o implementando un enfoque por fases (recomendado).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcbc893d3549e491d40268ae3417f5203d755ff6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0f0ad9d25157058c048b0f12cf72b3755e65e11
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598584"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728689"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurar el desvío de medios con enrutamiento directo
 
@@ -47,7 +47,7 @@ Puede cambiar todos los usuarios a la vez o puede implementar un enfoque por fas
 
   Este es el enfoque recomendado porque permite una transición más suave y una experiencia de usuario sin interrupciones. Este enfoque requiere la configuración del SBC, un nuevo nombre FQDN y la configuración del firewall. Tenga en cuenta que tendrá que asegurarse de que el certificado admite ambos troncos. En SAN, debe tener dos nombres **(sbc1.contoso.com** y **sbc2.contoso.com)** o tener un certificado comodín.
 
-![Migrar de troncos no omitido a troncos habilitados para omitir)](media/direct-routing-media-bypass-8.png)
+![Migrar de troncos no omitido a troncos habilitados para omitir).](media/direct-routing-media-bypass-8.png)
 
 Para obtener instrucciones sobre cómo configurar los troncos y realizar la migración, consulte la documentación de su proveedor de SBC:
 

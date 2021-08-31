@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Summary: Review the DNS considerations in this topic before implementing Skype Empresarial Server.'
-ms.openlocfilehash: d065ad5d893cd42b853a3510bbda1c8449c6e970
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a39cbfc05505e6c53b8874e3611dea8dae9d8c0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610627"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730379"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Requisitos dns para Skype Empresarial Server
 
@@ -44,7 +44,7 @@ En las tablas siguientes se muestran los registros DNS Skype Empresarial Server 
 
 **Asignaciones dns internas**
 
-|Tipo de registro|Valor|Se resuelve en|Objetivo|Obligatorio|
+|Tipo de registro|Valor|Se resuelve en|Finalidad|Necesario|
 |:-----|:-----|:-----|:-----|:-----|
 |A/AAAA   |FQDN del grupo de servidores front-end  <br/> *FE-pool. <span></span> contoso <span></span> .com*   |Direcciones IP del servidor de grupo de servidores front-end  <br/>  DNS LB a *192.168.21.122 192.168.21.123 192.168.21.124*   |Equilibrio de carga DNS de grupos de servidores front-end. Mapas el nombre del grupo de servidores front-end a un conjunto de direcciones IP.  <br/> Consulte [Implementación del equilibrio de carga DNS en grupos de servidores front-end y grupos de directores](load-balancing.md#BK_FE_Dir)  |Y   |
 |A/AAAA   | FQDN de cada servidor front-end o Standard Edition servidor de un grupo de servidores o un servidor independiente <br/>  *FE01. <span></span> contoso. <span></span> com FE02. <span></span> contoso <span></span> .com FE03. <span></span> contoso <span></span> .com*   |IP correspondiente de cada servidor  <br/> *192.168.21.122 192.168.21.123 192.168.21.124*   |Mapas el nombre del servidor a su dirección IP.   |Y   |
@@ -82,11 +82,11 @@ En el diagrama siguiente se muestra un ejemplo que incluye registros DNS interno
 
 **Diagrama de red perimetral con direcciones IPv4 públicas**
 
-![ejemplo de diagrama de red DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![ejemplo del diagrama de red DNS.](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
 
 **Asignaciones dns de red perimetral (interfaces internas y externas)**
 
-|Tipo de registro|Valor|Se resuelve en|Objetivo|Obligatorio|
+|Tipo de registro|Valor|Se resuelve en|Finalidad|Necesario|
 |:--- |:--- |:--- |:--- |:--- |
 |A/AAAA   |FQDN del grupo perimetral interno  <br/>*EdgePool-int. <span></span> contoso <span></span> .com*  |Direcciones IP de grupo perimetral interno  <br/> 172.25.33.10, 172.25.33.11   |Direcciones IP de interfaz interna del grupo perimetral consolidado   |Y   |
 |A/AAAA   |FQDN del servidor perimetral  <br/>*Cons-1. <span></span> contoso <span></span> .com*  |IP de servidor de cara interna para un servidor en el grupo de servidores perimetrales  <br/> 172.25.33.10   |Cree un registro para cada servidor del grupo con el FQDN del servidor que apunte a su DIRECCIÓN IP del nodo de servidor interno en el grupo de servidores, vea Equilibrio de carga DNS en grupos de servidores [perimetrales.](load-balancing.md#BK_Edge)   |Y   |
@@ -99,7 +99,7 @@ En el diagrama siguiente se muestra un ejemplo que incluye registros DNS interno
 |SRV   |\_xmpp-server. \_ tcp. *<sipdomain \>* <br/>\_xmpp-server. \_ tcp. *<span></span> contoso <span></span> .com*  |FQDN perimetral de acceso externo  <br/>*Access1. <span></span> contoso <span></span> .com*  |El servicio proxy XMPP acepta y envía mensajes de protocolo de presencia y mensajería extensible (XMPP) a y desde socios federados XMPP configurados.   |Y, para implementar federación, de lo contrario opcional  <br/> No disponible en Skype Empresarial Server 2019.|
 |SRV   |\_sipfederationtls. \_ tcp.*\<sipdomain\>* <br/>\_sipfederationtls. \_ tcp. *<span></span> contoso <span></span> .com*  |FQDN perimetral de acceso externo  <br/>*Access1. <span></span> contoso <span></span> .com*  |Para admitir el servicio de notificaciones de inserción y el servicio de notificaciones de inserción de Apple, creas un registro SRV para cada dominio SIP. &#x2778;  ||
 |A/AAAA   |FQDN de servicios web de grupo de servidores front-end externos  <br/>*Web-ext. <span></span> contoso <span></span> .com*  |Dirección IP pública de proxy inverso, servidores proxy a la VIP de servicios web externos para el grupo de servidores front-end &#x2776; <br/> 131.107.155.1 proxy a 192.168.21.120   |Interfaz externa del grupo front-end usada por aplicación web de Skype Empresarial   |Y   |
-|A/AAAA/CNAME   |lyncdiscover.*\<sipdomain\>* <br/> lyncdiscover. *<span></span> contoso <span></span> .com*  |Dirección IP pública de proxy inverso, se resuelve en la VIP de servicios web externos para el grupo de directores, si tiene uno, o para el grupo de servidores front-end si no tiene un director &#x2777; <br/> 131.107.155.1 proxy a 192.168.21.120   | Registro externo para la detección automática de cliente, también usado por Mobility, aplicación web de Skype Empresarial y la aplicación web del programador, resuelto por el servidor proxy inverso <br/> Para admitir el servicio de notificaciones de inserción y el servicio de notificación de inserción de Apple, se crea un registro SRV para cada dominio SIP que tenga clientes de Microsoft Lync Mobile. 3   |Y   |
+|A/AAAA/CNAME   |lyncdiscover.*\<sipdomain\>* <br/> lyncdiscover. *<span></span> contoso <span></span> .com*  |Dirección IP pública de proxy inverso, se resuelve en la VIP de servicios web externos para el grupo de directores, si tiene uno, o para el grupo de servidores front-end si no tiene un director &#x2777; <br/> 131.107.155.1 proxy a 192.168.21.120   | Registro externo para la detección automática de cliente, también usado por Mobility, aplicación web de Skype Empresarial y la aplicación web del programador, resuelto por el servidor proxy inverso <br/> Para admitir el servicio de notificaciones de inserción y el servicio de notificación de inserción de Apple, se crea un registro SRV para cada dominio SIP que tenga clientes de Microsoft Lync Mobile. 3  |Y   |
 |A/AAAA   |meet.*\<sipdomain\>* <br/> meet. *<span></span> contoso <span></span> .com*  |Dirección IP pública de proxy inverso, se resuelve en la interfaz web externa del grupo de servidores front-end  <br/> 131.107.155.1 proxy a 192.168.21.120   |Proxy para Skype Empresarial web  <br/> Ver [direcciones URL sencillas](dns.md#BK_Simple)  |Y   |
 |A/AAAA   |acceso telefónico.*\<sipdomain\>* <br/> acceso telefónico. *<span></span> contoso <span></span> .com*  |Dirección IP pública de proxy inverso, servidores proxy a la interfaz web externa para el grupo de servidores front-end  <br/> 131.107.155.1 proxy a 192.168.21.120   |Proxy para Skype Empresarial web  <br/> Ver [direcciones URL sencillas](dns.md#BK_Simple)  |Y   |
 |A/AAAA   |Office FQDN del grupo de servidores de Web Apps Server  <br/> OWA. <span></span> contoso <span></span> .com   | Dirección IP pública de proxy inverso, servidores proxy a la interfaz web externa para el servidor Office Web Apps Server <br/> 131.107.155.1 proxy a 192.168.1.5   | Office Dirección VIP del grupo de servidores de Web Apps Server <br/> 192.168.1.5   |Define el FQDN Office grupo de servidores de Web Apps Server   |

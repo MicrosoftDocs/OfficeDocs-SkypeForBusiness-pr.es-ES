@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 189ceea1b1b3450968610bef5034a97114b40085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd7f42efd4b3c605f31bb7788fb6dbc5f097f764
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625922"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729939"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definir escenarios de uso para Microsoft Teams
 
@@ -36,7 +36,7 @@ Asegúrese de comprender los proyectos empresariales (escenarios) que estarán e
 - Administración de proyectos moderna
 - Reuniones modernas
 
-![Ilustración de los tres escenarios principales](media/teams-adoption-modernizing-core-scenarios.png)
+![Ilustración de los tres escenarios principales.](media/teams-adoption-modernizing-core-scenarios.png)
 
 Los escenarios adicionales a tener en cuenta son:
 
@@ -45,7 +45,7 @@ Los escenarios adicionales a tener en cuenta son:
 - Aumentar la productividad de las ventas y aumentar los ingresos
 - Simplificar las opiniones empresariales
 
-![Ilustración de Teams casos de uso para cada escenario](media/teams-adoption-use-cases.png)
+![Ilustración de Teams casos de uso para cada escenario.](media/teams-adoption-use-cases.png)
 
 Piense en este escenario de modernización como un proceso acumulado: haga que las cosas funcionen con escenarios más básicos para crear entusiasmo, familiaridad y credibilidad con esta nueva forma de trabajar. A continuación, pase a áreas de impacto más ambiciosas. A medida que se Microsoft Teams más impacto con sus compañeros de negocios, más de ellos se comprometerán y se desarrollará el impulso. Para muchos de nuestros clientes, una vez que han hecho este proceso, descubren que las partes interesadas empresariales se acercan a ellos después de aprender cómo sus compañeros obtienen valor de Microsoft Teams.
 
@@ -63,13 +63,13 @@ Para confirmar la selección de estos primeros proyectos, recomendamos reunirse 
 
 Para asegurarse de que tiene la información adecuada sobre el escenario empresarial, considere la posibilidad de usar el siguiente formato para documentar el escenario desde la perspectiva del empleado que completa el trabajo y el propietario empresarial del proceso. Ambas perspectivas son necesarias para crear una ruta de acceso correcta.
 
-![Ilustración del marco para identificar escenarios](media/teams-adoption-identify-scenarios.png)
+![Ilustración del marco para identificar escenarios.](media/teams-adoption-identify-scenarios.png)
 
 Después de hablar con una o varias partes interesadas empresariales, puede priorizar los escenarios en función del impacto frente a la dificultad. (Los escenarios pueden ser además de los escenarios que sugerimos anteriormente). Los candidatos adecuados para la fase de experimentación deben tener un mayor impacto y dificultades de baja a mediana. Esto asegurará que el proyecto no se ve afectado por la extensión o las dificultades técnicas antes de poder mostrar el valor de su trabajo. A continuación se muestra un gráfico de ejemplo.
 
-![Ilustración que muestra impacto de escenario frente a dificultad](media/teams-adoption-impact-difficulty.png)
+![Ilustración que muestra impacto de escenario frente a dificultad.](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
 > Siempre estamos dispuestos a aprender cómo nuestros clientes usan Teams de nuevas formas innovadoras. Comparta sus #TeamsStories con nosotros en nuestro foro de discusión Sobre la [adopción.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) Incluya el hashtag **#TeamsStories** en la publicación. Siempre estamos interesados en cómo usa Teams en su organización.
 
-![Un icono que representa el siguiente paso Siguiente: Incorporar a los primeros ](media/teams-adoption-next-icon.png) [usuarios y recopilar comentarios.](teams-adoption-onboard-early-adopters.md)
+![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Incorporar a los primeros usuarios y recopilar comentarios.](teams-adoption-onboard-early-adopters.md)

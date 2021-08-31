@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: bdb7f0df8148b89b90eac073a1d709aa658f06d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f6a54e75c240a3a2a1381597598f8486afa25d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605659"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730259"
 ---
 # <a name="activity-report"></a>Informe de actividad
 
@@ -51,35 +51,35 @@ Este informe, junto con el resto de Skype Empresarial, le proporciona detalles s
 
 Puede obtener una vista de la actividad de Skype Empresarial de su usuario consultando los gráficos **Actividad** y **Usuarios**.
   
-![Skype for Business Online Activity Report](../images/670c8bc6-d29c-4033-87fc-a20d324c9aae.png)
+![Skype Empresarial Informe de actividad en línea.](../images/670c8bc6-d29c-4033-87fc-a20d324c9aae.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>
+![Número 1.](../images/sfbcallout1.png)<br/>
 El **Skype Empresarial actividad** de correo electrónico de actividad se puede ver para ver las tendencias de los últimos 7 días, 30 días, 90 días o 180 días. Sin embargo, si hace clic en un día determinado en el informe, la tabla (vea el número 7) mostrará los datos durante un máximo de 28 días a partir de la fecha actual (no la fecha en que se generó el informe).
 
 > [!NOTE]
 > Si hace clic en los detalles de un día específico, la tabla solo mostrará los datos de los 30 días hasta la fecha en que se generó el informe.
 
 ***
-![Número 2](../images/sfbcallout2.png)<br/>
+![Número 2.](../images/sfbcallout2.png)<br/>
 Cada informe tiene la fecha del momento en que se generó. Los informes normalmente reflejan una latencia de 24 a 48 horas desde el momento de la actividad. 
 ***
-![Número 3](../images/sfbcallout3.png)<br/>Utilice los datos del gráfico interactivo **Actividad** para comprender las tendencias de uso y ver el número de actividades de conferencia que se están llevando a cabo en su organización. Le mostrará el número total y los tipos de sesiones **Punto a punto**, **Organizadas** y **Participadas** en las sesiones de conferencia de toda su organización.  
+![Número 3.](../images/sfbcallout3.png)<br/>Utilice los datos del gráfico interactivo **Actividad** para comprender las tendencias de uso y ver el número de actividades de conferencia que se están llevando a cabo en su organización. Le mostrará el número total y los tipos de sesiones **Punto a punto**, **Organizadas** y **Participadas** en las sesiones de conferencia de toda su organización.  
 ***
-![Número 4](../images/sfbcallout4.png)<br/>
+![Número 4.](../images/sfbcallout4.png)<br/>
 Utilice los datos del gráfico interactivo **Usuarios** para comprender las tendencias de uso y ver el número de usuarios únicos que participan en las actividades de conferencia realizadas en su organización. Le mostrará el número total de usuarios junto con los tipos de sesiones punto **a** punto , **Organizado** y **Participado** en sesiones de conferencia.
 ***
-![Número 5](../images/sfbcallout5.png)<br/>
+![Número 5.](../images/sfbcallout5.png)<br/>
 Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo,  en el gráfico Actividad, haga clic o pulse sesiones punto a punto **,** Organizado o **Participado** para ver solo la información relacionada con cada una de ellas. Cambiar esta selección no cambia la información en la tabla de cuadrícula. 
 ***
-![Número 6](../images/sfbcallout6.png)<br/>
+![Número 6.](../images/sfbcallout6.png)<br/>
 Cada gráfico tiene un eje X (horizontal) y un eje Y (vertical).
 *    En el **gráfico Actividad,** el eje Y es el número total de sesiones de punto a punto, organizadas y participadas en las sesiones de conferencia que se celebren.
 *    En el **gráfico de** actividades Usuarios, el eje Y es el número de usuarios únicos que asisten en cada tipo de conferencia de punto a punto, organizados y participantes.
 
 En ambos gráficos, el eje X es el intervalo de fechas seleccionado para este informe específico. 
 ***
-![Número 7](../images/sfbcallout7.png)<br/>
+![Número 7.](../images/sfbcallout7.png)<br/>
 La tabla muestra un desglose de todas las actividades de conferencia por usuario. Esto muestra todos los usuarios que tienen Skype Empresarial asignados a ellos y sus actividades de conferencia. Puede agregar columnas a la tabla.
 * **Nombre** de usuario es el nombre del usuario.
 * **Eliminado** indica que se ha quitado la licencia del usuario.<br/><br/>
@@ -95,10 +95,10 @@ La tabla muestra un desglose de todas las actividades de conferencia por usuario
 
 Si las directivas de su organización le impiden ver informes en los que la información de usuario es identificable, puede cambiar la configuración de privacidad de todos estos informes. Consulte la sección **Ocultar detalles de usuario en la sección Informes** de actividades del Centro de [administración.](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 ***
-![Número 8](../images/sfbcallout8.png)<br/>
+![Número 8.](../images/sfbcallout8.png)<br/>
 Haga clic o pulse en **el icono** Columnas de cualquiera de las columnas para agregar o quitar columnas del informe.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
-![Número 9](../images/sfbcallout9.png)<br/>
+![Número 9.](../images/sfbcallout9.png)<br/>
 También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o pulsando o tocando en **Exportar**.           <br/> ![Skype Empresarial Botón Exportar informes.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el propio informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos. 
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros informes de Skype Empresarial?

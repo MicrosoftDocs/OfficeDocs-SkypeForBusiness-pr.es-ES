@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurar la optimización de medios locales para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 004f4ba43bda1502041ba2ec9e34194fd8be93fb
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 49ed6df64957eea2f68a35554d0569ec1e6efaa0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365637"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730319"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurar la optimización de medios locales para enrutamiento directo
 
@@ -36,7 +36,7 @@ Para configurar la optimización de medios locales, se necesitan los pasos sigui
 
 En el siguiente diagrama se muestra la configuración de red usada en los ejemplos de este artículo.
 
-![Diagrama que muestra la configuración de red para ejemplos](media/direct-routing-media-op-9.png "Configuración de red para ejemplos")
+![Diagrama que muestra la configuración de red para ejemplos.](media/direct-routing-media-op-9.png "Configuración de red para ejemplos")
 
 
 ## <a name="configure-the-user-and-the-sbc-sites"></a>Configurar el usuario y los sitios de SBC
@@ -207,7 +207,7 @@ En la tabla siguiente se muestra la configuración y la acción del usuario fina
 
 En el siguiente diagrama se muestra la escala SIP para una llamada saliente con el modo Desviado siempre y el usuario en la misma ubicación que el SBC.
 
-![Diagrama que muestra las llamadas salientes](media/direct-routing-media-op-10.png "Llamadas salientes")
+![Diagrama que muestra las llamadas salientes.](media/direct-routing-media-op-10.png "Llamadas salientes")
 
 En la tabla siguiente se muestran los encabezados X-MS enviados por Enrutamiento directo:
 

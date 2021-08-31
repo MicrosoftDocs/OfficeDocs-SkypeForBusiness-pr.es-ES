@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5c5040ba402a14f87ead8156569552c510db63c
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ce4bf4f19aa9bee13aa41a1a7090172e41cb5851
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233475"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730119"
 ---
 # <a name="teams-for-healthcare"></a>Teams para sanidad
 
@@ -30,6 +30,6 @@ Teams proporciona a los equipos de salud y a los profesionales de la salud una f
 
 |    &nbsp;           |         &nbsp;      |
 | ------------- | ------------- |
-| ![Captura de pantalla de la mano con un dedo apuntando a un icono de flecha](../media/get-started-teams.svg)  |  [Introducción a Teams para organizaciones sanitarias](./healthcare/teams-in-hc.md) |
-| ![Captura de pantalla de un icono de mapa](../media/walkthrough-map-teams.svg) | [Introducción a las plantillas para las organizaciones sanitarias de Teams](./healthcare/healthcare-templates-admin-console.md) |
-| ![Captura de pantalla del icono burbujas del cuadro de diálogo](../media/chat.svg)  |  [Introducción a la mensajería segura para las organizaciones sanitarias](./healthcare/messaging-policies-hc.md) |
+| ![Captura de pantalla de la mano con un dedo apuntando a un icono de flecha.](../media/get-started-teams.svg)  |  [Introducción a Teams para organizaciones sanitarias](./healthcare/teams-in-hc.md) |
+| ![Captura de pantalla de un icono de mapa.](../media/walkthrough-map-teams.svg) | [Introducción a las plantillas para las organizaciones sanitarias de Teams](./healthcare/healthcare-templates-admin-console.md) |
+| ![Captura de pantalla del icono burbujas del cuadro de diálogo.](../media/chat.svg)  |  [Introducción a la mensajería segura para las organizaciones sanitarias](./healthcare/messaging-policies-hc.md) |

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Resumen: revise estos escenarios para ayudarle a planear la topología del servidor perimetral en Skype Empresarial Server.'
-ms.openlocfilehash: 213081e5e232ff2d033c556fa9e037cdf813da3a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4035418426975b79a35be7ec84c6affac3ab92d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622182"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732101"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Escenarios de servidor perimetral en Skype Empresarial Server
  
@@ -46,53 +46,53 @@ Hay dispositivos NAT que permiten NAT64 (IPv6 a IPv4) y NAT66 (IPv6 a IPv6)) y e
 
 Con este escenario, no hay ninguna opción para la alta disponibilidad. Esto significará que gastará menos en hardware y tendrá una implementación más sencilla. Si la alta disponibilidad es imprescindible, consulte los siguientes escenarios consolidados escalados.
   
-![Escenario perimetral para un único servidor perimetral consolidado con IP privada mediante NAT](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
+![Escenario perimetral para un único servidor perimetral consolidado con IP privada mediante NAT.](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
   
 ### <a name="port-diagram"></a>Diagrama de puertos
 
 También tenemos un diagrama de puertos para servidores perimetrales consolidados únicos.
   
-![Perímetro de red para escenario perimetral Único perimetral consolidado](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Perímetro de red para escenario perimetral Único perimetral consolidado.](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>Servidor perimetral consolidado Skype Empresarial Server único con direcciones IP públicas
 
 Con este escenario, no hay ninguna opción para la alta disponibilidad. Esto significará que gastará menos en hardware y tendrá una implementación más sencilla. Si la alta disponibilidad es imprescindible, consulte los siguientes escenarios consolidados escalados.
   
-![Escenario perimetral para un único servidor perimetral consolidado con IP pública](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
+![Escenario perimetral para un único servidor perimetral consolidado con IP pública.](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
   
 ### <a name="port-diagram"></a>Diagrama de puertos
 
 También tenemos un diagrama de puertos para servidores perimetrales consolidados únicos.
   
-![Perímetro de red para escenario perimetral Único perimetral consolidado](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Perímetro de red para escenario perimetral Único perimetral consolidado.](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Grupo perimetral consolidado Skype Empresarial Server escalado, con equilibrio de carga DNS y direcciones IP privadas y NAT
 
 Con este escenario, puede tener alta disponibilidad en la implementación perimetral, lo que le ofrece las ventajas de la escalabilidad y la compatibilidad con conmutación por error.
   
-![Escenario perimetral para edge consolidado escalado, DNS LB con IP privada con NAT](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
+![Escenario perimetral para perímetro consolidado escalado, DNS LB con IP privada mediante NAT.](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
   
 ### <a name="port-diagram"></a>Diagrama de puertos
 
 También tenemos un diagrama para grupos perimetrales consolidados escalados con equilibrio de carga DNS.
   
-![Perímetro de red para escenario perimetral perimetral consolidado escalado con DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Perímetro de red para escenario perimetral perimetral consolidado escalado mediante DNS LB.](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>Grupo perimetral consolidado Skype Empresarial Server escalado, con equilibrio de carga DNS y direcciones IP públicas
 
 Con este escenario, puede tener alta disponibilidad en la implementación perimetral, lo que le ofrece las ventajas de la escalabilidad y la compatibilidad con conmutación por error.
   
-![Escenario perimetral para edge consolidado escalado, DNS LB con IP pública](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
+![Escenario perimetral para edge consolidado escalado, DNS LB con IP pública.](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
   
 ### <a name="port-diagram"></a>Diagrama de puertos
 
 También tenemos un diagrama para grupos perimetrales consolidados escalados con equilibrio de carga DNS.
   
-![Perímetro de red para escenario perimetral perimetral consolidado escalado con DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Perímetro de red para escenario perimetral perimetral consolidado escalado mediante DNS LB.](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Grupo perimetral consolidado Skype Empresarial Server escalado, con equilibrio de carga de hardware
 
 Con este escenario, puede tener alta disponibilidad en la implementación perimetral, lo que le ofrece las ventajas de la escalabilidad y la compatibilidad con conmutación por error.
   
-![Escenario perimetral para perímetro consolidado escalado con HLB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
+![Escenario perimetral para perímetro consolidado escalado con HLB.](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
  

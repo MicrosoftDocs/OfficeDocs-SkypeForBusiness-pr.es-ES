@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Summary: Learn how to create a Windows Server file share as part of the installation of Skype Empresarial Server. Descargue una versión de prueba Skype Empresarial Server desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: c3ffda81449a3719e6ba3feffba14266b7f79cb3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7d766a38791a7fc21b4e86844684ed174769e60
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595964"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727969"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Crear un recurso compartido de archivos en Skype Empresarial Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "58595964"
   
 Skype Empresarial Server un recurso compartido de archivos para que los equipos de toda la topología puedan intercambiar archivos. Crear un recurso compartido de archivos es el paso 2 de 8 en el proceso de instalación para Skype Empresarial Server. Puede realizar los pasos del 1 al 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden y después de los pasos del 1 al 5 tal como se describe en el diagrama. Para obtener información sobre la planeación del recurso compartido de archivos, vea Requisitos del [entorno para Skype Empresarial Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o Requisitos de servidor para Skype Empresarial Server [2019](../../../SfBServer2019/plan/system-requirements.md).
   
-![Diagrama de información general](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
+![Diagrama de información general.](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
 ## <a name="create-a-basic-file-share"></a>Crear un recurso compartido de archivos básico
 

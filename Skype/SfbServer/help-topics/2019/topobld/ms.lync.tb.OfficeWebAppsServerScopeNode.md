@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Haga clic con el botón secundario en Office servidores de aplicaciones web en el Generador de topologías para realizar lo siguiente:'
-ms.openlocfilehash: 08ea9171b7bd1d3c9585c9c8a8a291ac7c504ef5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1993d208f9af37485736ce6d72b0a8fa246371a7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629862"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728279"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expansor de nodo de ámbito del servidor Office Web Apps
  
@@ -30,7 +30,7 @@ Haga clic con el botón **secundario en Office servidores de aplicaciones web** 
     
 Además de la opción Nuevo Office Web Apps Server, puede realizar las siguientes tareas generales:
   
-![Office Nodo de ámbito del servidor WebApps](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office Nodo de ámbito del servidor WebApps.](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **Topología**. Puede usar esta opción para definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
     

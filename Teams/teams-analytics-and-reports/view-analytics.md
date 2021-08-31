@@ -16,12 +16,12 @@ MS.collection:
 description: Obtenga información sobre análisis entre equipos, análisis por equipo y análisis por canal en Teams, que permiten a los usuarios ver los datos de uso de equipos o canales de los que forman parte.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0aa140482188436a08732638196af64402e6ed15
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54abc3545ca6d2935a78e3924cbd62e948c02bf1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607003"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731741"
 ---
 # <a name="view-analytics-in-teams"></a>Ver análisis en Teams
 
@@ -39,7 +39,7 @@ Los usuarios pueden filtrar cualquiera de estas vistas para ver los datos de un 
 2. Haga clic en **la pestaña Análisis.**
 3. Seleccione un intervalo de fechas para mostrar los datos de uso de todos los equipos de los que es miembro o propietario.
 
-    ![Captura de pantalla de la vista de análisis entre equipos](../media/view-analytics-cross-team.png)
+    ![Captura de pantalla de la vista de análisis entre equipos.](../media/view-analytics-cross-team.png)
 
     |Elemento |Descripción  |
     |--------|-------------|
@@ -57,7 +57,7 @@ Los usuarios pueden filtrar cualquiera de estas vistas para ver los datos de un 
 2. Haga clic en **la pestaña Análisis.**
 4. Seleccione un intervalo de fechas para mostrar los datos de uso del equipo.  
 
-    ![Captura de pantalla de la vista de análisis por equipo](../media/view-analytics-per-team.png)
+    ![Captura de pantalla de la vista de análisis por equipo.](../media/view-analytics-per-team.png)
 
     |Elemento |Descripción  |
     |--------|-------------|
@@ -76,7 +76,7 @@ Los usuarios pueden filtrar cualquiera de estas vistas para ver los datos de un 
 2. Haga clic en **la pestaña Análisis.**
 3. Seleccione un intervalo de fechas para mostrar los datos de uso del canal.  
 
-    ![Captura de pantalla de la vista de análisis por canal](../media/view-analytics-per-channel.png)
+    ![Captura de pantalla de la vista de análisis por canal.](../media/view-analytics-per-channel.png)
 
     |Elemento |Descripción  |
     |--------|-------------|

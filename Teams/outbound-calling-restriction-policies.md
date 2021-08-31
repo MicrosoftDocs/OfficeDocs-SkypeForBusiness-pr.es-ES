@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Los administradores pueden controlar el tipo de audioconferencia y las llamadas RTC de usuario final que pueden realizar los usuarios.
-ms.openlocfilehash: 9e7f656cd51131237507cc184e021128a33d9268
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe63a29bf4cde46ee881d7a425839073ed4b4b7f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598414"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730329"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 
@@ -49,7 +49,7 @@ Para saber qué países y regiones se consideran zona A, vea Zonas de país y [r
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir las llamadas salientes de audioconferencia
 
-![el Microsoft Teams con ](media/teams-logo-30x30.png) **el centro Microsoft Teams administración**
+![el Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, seleccione **Usuarios** y, a continuación, seleccione el nombre para mostrar del usuario en la lista de usuarios disponibles.
 
@@ -59,7 +59,7 @@ Para saber qué países y regiones se consideran zona A, vea Zonas de país y [r
 
 5. Seleccione **Guardar**.
 
-![Icono que muestra el logotipo de Skype Empresarial](media/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
+![Un icono que muestra Skype Empresarial logotipo.](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. En el **Skype Empresarial** de administración , en el panel de navegación izquierdo, vaya a **Usuarios** de audioconferencia y, a continuación, seleccione el usuario de la lista de  >  usuarios disponibles.
 
@@ -67,7 +67,7 @@ Para saber qué países y regiones se consideran zona A, vea Zonas de país y [r
 
 3.  En **Restricciones a las salidas** de acceso telefónico de las reuniones de este usuario, seleccione la opción de restricción de acceso telefónico que desee.
 
-      ![Las opciones restricciones de acceso telefónico](media/restrictions-to-dial-outs.png)
+      ![Las opciones Restricciones de acceso telefónico.](media/restrictions-to-dial-outs.png)
 
 4. Seleccione **Guardar**.
 

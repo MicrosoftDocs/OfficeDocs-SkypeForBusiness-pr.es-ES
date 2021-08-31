@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo personalizar aplicaciones en Microsoft Teams.
-ms.openlocfilehash: 0a3a6b21b34fba7c45ca272f5eefd3eb047a1f7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634064"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730229"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicaciones en Microsoft Teams
 
@@ -53,21 +53,21 @@ Para empezar a personalizar una aplicación, siga estos pasos:
 2. Expanda **Teams aplicaciones y** seleccione Administrar **aplicaciones.**
 3. Compruebe la **columna Personalizable** de la lista de aplicaciones y ordene por aplicaciones que se pueden personalizar.
 
-   ![La columna personalizar que está ordenada](media/customize-column.png)
+   ![La columna personalizar que está ordenada.](media/customize-column.png)
 
    Hay tres puntos de entrada para acceder a la característica de personalización:
 
    - Seleccione junto a la aplicación que desea personalizar y, a continuación, seleccione **Personalizar**.
 
-     ![La opción de selección personalizar 1](media/select-app-to-customize1.png)
+     ![La opción de selección personalizar 1.](media/select-app-to-customize1.png)
 
    - Seleccione el nombre de la aplicación y, a continuación, **Personalizable.**
 
-     ![La opción de selección personalizar 2](media/app-details-customizable.png)
+     ![La opción personalizar selección 2.](media/app-details-customizable.png)
 
    - Seleccione el nombre de la aplicación y, a continuación, **seleccione Personalizar en** el **menú** desplegable Acciones.
 
-     ![La opción de selección personalizar 3](media/customize-action-menu.png)
+     ![La opción de selección personalizar 3.](media/customize-action-menu.png)
 
 4. Expanda la **sección Detalles** y personalice los campos siguientes:
 
@@ -78,7 +78,7 @@ Para empezar a personalizar una aplicación, siga estos pasos:
     - Dirección URL de la directiva de privacidad
     - Url de términos de uso
 
-   ![La configuración de personalización](media/customize-settings.png)
+   ![La configuración de personalización.](media/customize-settings.png)
 
 > [!Note]
 > Solo estarán visibles los campos que el desarrollador de aplicaciones haya asignado como personalizables.
@@ -91,7 +91,7 @@ Para empezar a personalizar una aplicación, siga estos pasos:
 
    c. Seleccione un color de acento de aplicación que coincida con el icono.
 
-    ![Personalizar las opciones de color del panel de iconos](media/customize-app-colors.png)
+    ![Personalizar las opciones de color del panel de iconos.](media/customize-app-colors.png)
 
 6. Una vez que la aplicación se haya personalizado, seleccione **Aplicar**.
 
@@ -101,7 +101,7 @@ Para empezar a personalizar una aplicación, siga estos pasos:
 
 Ahora, Teams usuarios finales pueden abrir su Teams cliente para ver la aplicación personalizada.
 
-   ![Aplicación personalizada en Teams cliente](media/contoso-app.png)
+   ![Aplicación personalizada en Teams cliente.](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>Consideraciones especiales para personalizar una aplicación
 
@@ -127,7 +127,7 @@ Es posible que quiera ver los detalles de la aplicación para revisar la informa
 
 4. Ver los detalles de la aplicación, incluido el nombre original de la aplicación **Nombre corto del editor.**
 
-   ![Personalizar el nombre de la aplicación del panel de iconos](media/original-app-version.png)
+   ![Personalice el nombre de la aplicación del panel de iconos.](media/original-app-version.png)
 
    El **campo Nombre corto del editor** solo está visible si ha cambiado el nombre corto de la aplicación.
 
@@ -143,7 +143,7 @@ En cualquier momento, puede restablecer los detalles de la aplicación a la conf
 
 4. Seleccione **Restablecer de forma predeterminada** en el menú **desplegable** Acciones.
 
-   ![Seleccionar restablecer como resaltado predeterminado](media/select-reset.png)
+   ![Seleccione Restablecer como resaltado predeterminado.](media/select-reset.png)
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: El nuevo Skype Empresarial de informes del Centro de administración muestra la actividad de llamadas y audioconferencias en su organización. Le permite explorar en profundidad los informes para proporcionar información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Skype Empresarial grupos de minutos RTC para ver el número de minutos consumidos durante el mes actual dentro de su organización.
-ms.openlocfilehash: 3c9999a642480442f25dddad9daca503ade7851a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3b75fd81628e4cfcd49b7b120ceed3e3f327bdc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592904"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728000"
 ---
 # <a name="pstn-minute-pools-report"></a>Informe de grupos de minutos de RTC
 
@@ -44,7 +44,7 @@ Este informe, junto con el resto de Skype Empresarial, le proporciona detalles s
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Cómo obtener acceso al informe de Skype Empresarial de minutos RTC
 
-![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
+![Un icono que muestra Skype Empresarial logotipo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 - Vaya al centro de administración > **centros de administración** Skype Empresarial grupos de minutos RTC informes del centro de  >    >    >  **administración.**
     
@@ -57,10 +57,10 @@ Puede obtener una vista en los grupos de Skype Empresarial minutos del usuario c
   
 Este es el aspecto del informe.
 
-![Skype Empresarial Informe de grupos de minutos RTC](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
+![Skype Empresarial Informe de grupos de minutos RTC.](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de los grupos de minutos por licencia (capacidad) y ubicación de uso. 
+![Número 1.](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de los grupos de minutos por licencia (capacidad) y ubicación de uso. 
 *    **La funcionalidad** es el plan de licencia o servicio que se usa para la llamada. Los planes de licencia o servicio que puede ver en este informe incluyen:
      * MCOPSTN1: Plan de llamadas nacionales (planes de 3000 minutos para EE. UU. y 1200 minutos para la UE
      * MCOPSTN2: Plan de llamadas internacionales de & nacionales desde el que verá una piscina nacional (3000 minutos EE.UU./Canadá/PR, países europeos de 1200 minutos) y una piscina internacional (600 minutos). El límite de minutos se alcanza siempre que se alcance el límite nacional -O- internacional dentro del mes calendario. 
@@ -73,9 +73,9 @@ Este es el aspecto del informe.
 *    **Total Minutos** es el número total de minutos disponibles para el mes. 
 *    **Porcentaje usado** es el porcentaje de minutos usados para el mes. 
 ***
-![Número 2](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas. 
+![Número 2.](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas. 
 ***
-![Número 3](../images/sfbcallout3.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o tocando pulsando en el botón **Exportar a Excel**. <br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el propio informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos.
+![Número 3.](../images/sfbcallout3.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o tocando pulsando en el botón **Exportar a Excel**. <br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el propio informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos.
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros informes de Skype Empresarial?
 

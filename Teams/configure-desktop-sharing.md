@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad66efadda775c11ab653cbe1bc46b2c5a4ab3c3a80edf77265dddabbb71c4a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347285"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732319"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configure el uso compartido del escritorio en Microsoft Teams
 
@@ -39,11 +39,11 @@ Para configurar el uso compartido de la pantalla, debe crear una nueva Directiva
 
 1. Seleccione **Reuniones** > **Directivas de reunión**.
 
-    ![Directivas de reuniones seleccionadas](media/configure-desktop-sharing-image1.png)
+    ![Directivas de reunión seleccionadas.](media/configure-desktop-sharing-image1.png)
 
 2. En la página **Directivas de reunión**, seleccione **Agregar**.
 
-    ![El mensaje de directivas de reunión](media/addMeeting.png)
+    ![Mensaje Directivas de reunión.](media/addMeeting.png)
 
 3. Asigne un título único a la directiva y escriba una breve descripción.
 
@@ -53,7 +53,7 @@ Para configurar el uso compartido de la pantalla, debe crear una nueva Directiva
    - **Una sola aplicación**: esto permite a los usuarios limitar el uso compartido de la pantalla a una única aplicación activa.
    - **Deshabilitada**: desactiva el uso compartido de la pantalla.
 
-    ![Las opciones del modo de uso compartido](media/configure-desktop-sharing-image3.png)
+    ![Las opciones del modo de uso compartido.](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
   > No tiene que habilitar la directiva de llamada para que los usuarios puedan usar el recurso compartido de pantalla desde el chat. Sin embargo, su audio se desactivará hasta lo activen ellos mismos. Además, el usuario que comparte la pantalla puede hacer clic en **Agregar audio** para habilitar el audio. Si la directiva de llamada está deshabilitada, los usuarios no podrán agregar audio a la pantalla compartida desde una sesión de chat.

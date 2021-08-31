@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 327a2ed1105439e88d1ad4a4a743cd3636f3ec0b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f18f35a061334e9a7e426614574afcc6eda42df9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586462"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728479"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 
@@ -33,7 +33,7 @@ Para ayudar a quitar las conjeturas de su viaje de actualización, hemos emplead
 
 Empiece por reunir a las partes interesadas correctas y definir su plan de actualización (por ejemplo, ámbito, objetivos y escala de tiempo). Con un plan en su lugar, confirme que su entorno técnico y los usuarios finales están listos para Teams. A continuación, implemente la actualización por fases, pasando de un piloto a una actualización de toda la organización cuando esté listo. Una vez que su organización esté Teams, establezca un plan operativo que controle la calidad y acelere la adopción de usuarios.
 
-![Ilustración del marco de viaje de actualización](media/upgrade-banner-main.png "Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito, los objetivos y la escala de tiempo del proyecto. Confirme la disponibilidad técnica y del usuario. Ejecute el plan de implementación. Mantenga el impulso para maximizar los resultados.")
+![Ilustración del marco de viaje de actualización.](media/upgrade-banner-main.png "Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito, los objetivos y la escala de tiempo del proyecto. Confirme la disponibilidad técnica y del usuario. Ejecute el plan de implementación. Mantenga el impulso para maximizar los resultados.")
 
 Busque este gráfico de marco en páginas relacionadas para identificar dónde se encuentra en el proceso de actualización.
 

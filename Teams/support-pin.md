@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo buscar el PIN de soporte técnico.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2c222b74a5fb539b3a492aac833070573775a08629025e3a23f71f8ff76905f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f5acc34efa0d93d1a89edcdec9774fb21e1fb54
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332412"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733189"
 ---
 # <a name="how-to-look-up-your-support-pin"></a>Cómo buscar el PIN de soporte técnico
 
@@ -30,7 +30,7 @@ Para buscar el PIN de soporte técnico, que permite el soporte al cliente de Mic
 
 3. El PIN de soporte técnico se mostrará en el panel inferior derecho. También puede volver a generar el PIN si es necesario.  
 
-   ![Diagrama que muestra el PIN de soporte técnico](media/support-pin.png)
+   ![Diagrama que muestra el PIN de soporte técnico.](media/support-pin.png)
 
 
 

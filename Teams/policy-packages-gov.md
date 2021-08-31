@@ -17,12 +17,12 @@ ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar Teams paquetes de directivas para su organización gubernamental.
-ms.openlocfilehash: 4f796a2fc3c7e359f311f2a709f058e172f8f454
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8f0b998540121e05f4113b298446dffefc832cb5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582174"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731989"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams paquetes de directivas para el gobierno
 
@@ -49,11 +49,11 @@ Teams incluye actualmente los siguientes paquetes de directivas para el gobierno
 |Administrador de primera línea  |Administradores de primera línea en su organización gubernamental |Crea un conjunto de directivas y aplica esa configuración a los administradores de primera línea de su organización.|
 |Trabajador en primera línea  |Trabajadores de primera línea en su organización gubernamental |Crea un conjunto de directivas y aplica esa configuración a Los trabajadores de frontline de su organización.|
 
-![Captura de pantalla de paquetes de directivas de cuidados de la salud](media/policy-packages-gov.png)
+![Captura de pantalla de paquetes de directivas de salud.](media/policy-packages-gov.png)
 
 Cada directiva individual se indica con el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, al asignar el paquete de directiva oficial de seguridad pública a los usuarios de su organización, se crea una directiva denominada PublicSafety_Officer para cada directiva del paquete.
 
-![Captura de pantalla de las directivas del paquete de trabajadores clínicos sanitarios](media/policy-packages-public-safety-officer.png)
+![Captura de pantalla de las directivas del paquete de trabajadores clínicos de Sanidad.](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Administrar los paquetes de directivas
 
@@ -80,7 +80,7 @@ Asigne el paquete de directiva a los usuarios. Si un usuario tiene asignada una 
 
 Para asignar un paquete de directivas a uno o más usuarios, vaya al panel de navegación izquierdo del Centro de administración de Microsoft Teams. Allí, seleccione **Paquetes de directivas** y, después, **Administrar usuarios**.  
 
-![Captura de pantalla que muestra cómo asignar un paquete de directivas en el Centro de administración](media/policy-packages-healthcare-assign.png)
+![Captura de pantalla de cómo asignar un paquete de directiva en el centro de administración.](media/policy-packages-healthcare-assign.png)
 
 Para obtener más información, consulte [Asignar un paquete de directivas](manage-policy-packages.md#assign-a-policy-package).
 

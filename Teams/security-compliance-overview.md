@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03a4192a753a834c6af99927370b2856ff4d817d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61a6cba9ff05e6ee088c96231e8eb947e5d56fed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590774"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733169"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Seguridad y cumplimiento en Microsoft Teams
 
@@ -195,12 +195,12 @@ En Microsoft, proteger los datos es nuestra prioridad más alta. Para obtener in
 La siguiente ilustración indica el flujo de ingestión de Teams datos a Exchange y SharePoint para Teams archivos y mensajes.
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama del flujo de trabajo Teams datos a Exchange y SharePoint](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+> ![Diagrama del flujo de trabajo de los datos de Teams en Exchange y SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 La siguiente ilustración indica el flujo de ingestión de Teams reuniones y llamadas a Exchange.
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama del flujo de trabajo de Teams reuniones y llamadas a Exchange](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
+> ![Diagrama del flujo de trabajo de Teams reuniones y llamadas a Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
 > Puede haber hasta un retraso de 24 horas para descubrir Teams contenido.
@@ -221,7 +221,7 @@ Los datos de Teams residen en la región geográfica asociada con su organizaci�
 Si necesita ver qué región aloja los datos [](https://portal.office.com/adminportal/home)de su inquilino, vaya al Centro de administración de Microsoft 365  >  **Configuración**  >  **de la organización.** Desplácese hacia abajo hasta **Ubicación de datos**.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla de la tabla Ubicación de datos Teams en el Centro de administración](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+> ![Captura de pantalla de la tabla Ubicación de datos Teams en el centro de administración.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 ## <a name="compliance-standards"></a>Estándares de cumplimiento
 

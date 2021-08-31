@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Obtenga información sobre qué información se envía automáticamente a los usuarios por correo electrónico cuando la configuración de las conferencias de acceso telefónico local cambia en Microsoft Teams. '
-ms.openlocfilehash: 288df4ebe5b207d08556eee14f08eb012a87a879
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3c09ab0ebe00df0df99d9f0bb0576d99cf1b44da
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604499"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729979"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Correos electrónicos que se envían a los usuarios cuando cambia la configuración en Microsoft Teams
 
@@ -43,7 +43,7 @@ De forma predeterminada, hay cuatro tipos de correo electrónico que se enviará
 
     Este es un ejemplo de este correo electrónico:
 
-     ![Skype Empresarial: comprobar licencia](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+     ![Skype Empresarial Compruebe la licencia.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
     Para obtener más información sobre las licencias, [vea Microsoft Teams de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
@@ -86,7 +86,7 @@ Al deshabilitar el envío de correos electrónicos a los usuarios, el correo ele
 
 De forma predeterminada, los correos electrónicos se enviarán a los usuarios, pero si desea evitar que reciban correo electrónico para audioconferencias, puede usar Microsoft Teams o Windows PowerShell. 
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 

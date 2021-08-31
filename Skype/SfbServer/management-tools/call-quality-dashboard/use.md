@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumen: obtenga información sobre cómo usar el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 398550c80e77950d27be9160dd4f45c2f04acfff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634244"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728269"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Use el Panel de calidad de llamadas para Skype Empresarial Server
 
@@ -40,7 +40,7 @@ Además, CQD expone las API web que dan a los usuarios acceso mediante programac
 
 Cuando visite el Panel de calidad de llamadas, verá la siguiente pantalla:
 
-![Usar CQD](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
+![Use CQD.](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
 
 1. El "Panel de resumen" es donde se encuentra el contexto del "Conjunto de informes" (a la derecha).
 2. Haga clic en "Editar" en el PaneReport de resumen para establecer las propiedades de nivel (incluido el alto del eje Y).
@@ -63,7 +63,7 @@ Haga clic en el título de cualquiera de los informes para navegar a los informe
 
 Haga clic en "Editar" en el menú de acciones de un informe para ver el Editor de informes. Cada informe tiene una copia de seguridad de una consulta en el cubo. Un informe es una visualización de los datos devueltos por su consulta. El Editor de informes le ayuda a editar estas consultas y las opciones de presentación del informe. Al abrir el Editor de informes, verá:
 
-![Usar CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
+![Use CQD.](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
 1. Las dimensiones, las medidas y los filtros se eligen en el panel izquierdo. Mantenga el mouse sobre uno de los valores existentes para mostrar un botón "x" que permita quitar el valor. Haga clic en el botón "más" junto a un encabezado para abrir el cuadro de diálogo donde puede agregar una nueva dimensión, medida o filtro.
 2. Las opciones de personalización del gráfico se muestran en la parte superior.
@@ -74,15 +74,15 @@ Haga clic en "Editar" en el menú de acciones de un informe para ver el Editor d
 
 Cuando StartDate.Month se agrega como una dimensión y los datos se representan como una tendencia en forma de tabla, los gráficos de barras y los minigráficos se pueden mostrar dentro de las celdas de la tabla. Mueva el puntero del mouse sobre el gráfico de barras y los minigráficos para mostrar los valores de los meses individuales.
 
-![Usar CQD](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
+![Use CQD.](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
 
 Para que aparezcan los gráficos de barras y los minigráficos, se debe activar la casilla "Mostrar minigráficos" en la parte superior del Editor de informes. Esto selecciona la opción Tendencia y mueve Mes hacia abajo para ser la última dimensión, que también se puede lograr haciendo clic en Mes y usando las flechas arriba y abajo para desplazar StartDate.Month hacia arriba o hacia abajo.
 
-### <a name="settings"></a>Configuraciones
+### <a name="settings"></a>Configuración
 
 El menú de configuración contiene vínculos a páginas útiles como las páginas Estado del sistema y Acerca de, y se encuentra en la esquina superior derecha del panel.
 
-![Usar CQD](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
+![Use CQD.](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
 Si se muestran descripciones y marcas de tiempo para usuarios individuales, esta configuración solo afecta a la versión individual del panel y no modifica el conjunto de informes ni lo que otros usuarios ven. Borrar la memoria caché hace que todas las consultas vuelvan a cargar sus datos del cubo, mientras que la restauración de valores predeterminados elimina todos los informes creados o modificados por el usuario y vuelve a crear el conjunto de informes del sistema, lo que un usuario vería al iniciar sesión por primera vez.
 
@@ -151,7 +151,7 @@ De forma predeterminada, esta tabla siguiente tiene una entrada (0, 'Unknown', 0
 |OwnershipTypeId |Entero |No |Clave principal de la tabla CqdBuildingOwnershipType. |
 |OwnershipTypeDesc |varchar(25) |No |Descripción del tipo de propiedad. |
 |LeaseInd |tinyint |Sí |Índice que hace referencia a otra fila de la tabla CqdBuildingOwnershipType, que se usa para identificar los edificios arrendados. |
-|Propietario |varchar(50) |Sí |Propietario del edificio. |
+|Owner |varchar(50) |Sí |Propietario del edificio. |
 |||||
 
 De forma predeterminada, esta tabla siguiente tiene una entrada (0, 'Unknown', 0, null).
@@ -236,7 +236,7 @@ Ejemplo: para obtener todas las secuencias de un edificio, UNION proporciona una
 
 Si la tecnología inalámbrica se administra internamente, puede volver a crear los informes inalámbricos en el cubo administrado.
 
-![Desglose de informes CQD](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
+![Desglose del informe CQD.](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
 
 ## <a name="operational-processes"></a>Procesos operativos
 

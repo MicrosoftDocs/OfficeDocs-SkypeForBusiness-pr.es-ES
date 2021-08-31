@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo administrar sus Teams aplicaciones
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 63c3baabcacd10bbbc2f4003f33eb90a9c302e74
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2541f23342613b585622577b3c5ebe2d3a8c97c0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604449"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728649"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro Microsoft Teams administración
 
@@ -39,11 +39,11 @@ En el panel de navegación izquierdo del Centro de administración de Microsoft 
 
 Puede ver todas las aplicaciones, incluida la siguiente información sobre cada aplicación.
 
-![Captura de pantalla de la página Aplicaciones administradas](media/manage-apps.png)
+![Captura de pantalla de la página Aplicaciones administradas.](media/manage-apps.png)
 
 - **Nombre:** el nombre de la aplicación. Seleccione el nombre de la aplicación para ir a la página de detalles de la aplicación para ver más información sobre la aplicación. Esto incluye una descripción de la aplicación, ya sea permitido o bloqueado, versión, directiva de privacidad, términos de uso, categorías que se aplican a la aplicación, estado de certificación, capacidades compatibles e id. de aplicación. Aquí se muestra un ejemplo:
 
-  ![Captura de pantalla de la página de detalles de aplicaciones para una aplicación](media/manage-apps-app-details.png)
+  ![Captura de pantalla de la página de detalles de aplicaciones para una aplicación.](media/manage-apps-app-details.png)
   
 - **Certificación:** Si la aplicación ha pasado por la certificación, verá Microsoft 365 **certificado** o **Publisher certificación**. Seleccione el vínculo para ver los detalles de certificación de la aplicación. Si ve " **--** ", no tenemos información de certificación para la aplicación. Para obtener más información sobre las aplicaciones certificadas en Teams, [Microsoft 365 programa de certificación de aplicaciones](/teams-app-certification/all-apps).  
 - **Publisher:** Nombre del editor.
@@ -107,7 +107,7 @@ Al bloquear o permitir una aplicación en la página Administrar aplicaciones, e
 
 Use el botón **Agregar al equipo** para instalar una aplicación en un equipo. Tenga en cuenta que esto es solo para aplicaciones que se pueden instalar en un ámbito de grupo. El **botón Agregar al** equipo no está disponible para aplicaciones que solo se pueden instalar en el ámbito personal.
 
-![Captura de pantalla del botón Agregar al equipo](media/manage-apps-add-app-team.png)
+![Captura de pantalla del botón Agregar al equipo.](media/manage-apps-add-app-team.png)
 
 1. Busque la aplicación que quiera y, a continuación, seleccione la aplicación haciendo clic a la izquierda del nombre de la aplicación.
 2. Seleccione **Agregar al equipo**.
@@ -138,7 +138,7 @@ Use la configuración de aplicaciones de toda la organización para controlar si
 
 1. En la página Administrar aplicaciones, seleccione **Configuración de la aplicación para toda la organización.** Después, podrá configurar las opciones que desee en el panel.
 
-    ![Captura de pantalla de Configuración de aplicaciones para toda la organización](media/manage-apps-org-wide-app-settings.png)
+    ![Captura de pantalla de la configuración de la aplicación para toda la organización.](media/manage-apps-org-wide-app-settings.png)
 
 2. En **Aplicaciones de terceros**, desactive o active esta configuración para controlar el acceso a aplicaciones de terceros:
 
@@ -169,7 +169,7 @@ Para obtener acceso a la información de MCAS, siga estos pasos:
 1. Elija una Microsoft 365 certificada.
 1. Seleccione la **pestaña Seguridad y** cumplimiento.
 
-![Captura de pantalla de Teams de seguridad y cumplimiento del centro de administración](media/mcas.png)
+![Captura de pantalla de Teams de seguridad y cumplimiento del centro de administración.](media/mcas.png)
 
 En esta pestaña, encontrará información sobre seguridad, cumplimiento y protección de datos. También puede expandir cada lista desplegable para obtener más detalles sobre qué capacidades son compatibles con la aplicación seleccionada.
 

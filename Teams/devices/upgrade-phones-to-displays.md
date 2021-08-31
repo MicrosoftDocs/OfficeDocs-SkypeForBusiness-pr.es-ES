@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Obtenga información sobre cómo actualizar Teams teléfonos a Teams pantallas en el centro Microsoft Teams administración.
-ms.openlocfilehash: e504bde3b291deb0d38821a0551e70f1f7ac1d4d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a097cde5f8630e3a2ac8a6a932434baae2d92de6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588192"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728659"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Actualizar Teams teléfonos a Teams pantallas
 
@@ -55,11 +55,11 @@ Tenga en cuenta que después de actualizar un teléfono Teams a un Teams de visu
 1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a **Teléfonos**  >  **de dispositivos.**
 2. Seleccione el Teams teléfonos que desea actualizar y, a continuación, seleccione **Actualizar.**
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Captura de pantalla Teams teléfonos seleccionados para actualizar a Teams pantallas":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Captura de pantalla Teams teléfonos seleccionados para actualizar a Teams pantallas.":::
 
 3. En el **cuadro de diálogo Actualizar** Teams  mostrar, seleccione Programar actualización para establecer una fecha y hora para la actualización o **Actualizar ahora.**
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Captura de pantalla que muestra actualizar Teams cuadro de diálogo mostrar":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Captura de pantalla que muestra actualizar Teams cuadro de diálogo mostrar.":::
 
 > [!NOTE]
 > Si recibe un mensaje que indica que los teléfonos seleccionados no [](#which-teams-phones-can-be-upgraded)se pueden actualizar, asegúrese de seleccionar teléfonos compatibles con la actualización y, después, inténtelo de nuevo.

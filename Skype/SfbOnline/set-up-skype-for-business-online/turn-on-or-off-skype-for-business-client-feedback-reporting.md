@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Puede permitir que sus Skype Empresarial usuarios puedan usar la herramienta integrada de comentarios de la aplicación Skype Empresarial para permitir que los usuarios informen de problemas y proporcionen comentarios directamente a Microsoft sobre su experiencia.
-ms.openlocfilehash: b7be0629e0944f55147a8f0a772663737412f910
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9382c19c5abf78dc47dcaa3de33841a64e96f490
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611459"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728289"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activar o desactivar los informes de comentarios de clientes de Skype Empresarial
 
@@ -32,11 +32,11 @@ ms.locfileid: "58611459"
 
 Puede permitir que los usuarios de Skype Empresarial Online usen la herramienta integrada de comentarios de la aplicación Skype Empresarial para permitir que los usuarios informen de problemas y proporcionen comentarios directamente a Microsoft sobre su experiencia. 
   
-![Icono Proporcionar comentarios](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
+![Icono Proporcionar comentarios.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
 Con esta herramienta, un usuario puede copiar los registros de la aplicación en su dispositivo para ayudar a Microsoft a investigar y solucionar mejor los problemas que puedan tener. 
   
-![Informar de un problema con Configuración icono](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
+![Informe de un problema con Configuración icono.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
 También puede utilizar la configuración  _EnableOnlineFeedbackScreenshot_ para que los usuarios puedan incluir una captura de pantalla de su dispositivo como parte de los comentarios.
   

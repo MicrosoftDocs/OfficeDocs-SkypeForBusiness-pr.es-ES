@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Como administrador de Microsoft 365 o Office 365, puede editar la configuración de audioconferencia en línea de Skype Empresarial (como el proveedor, número de pago o gratuito predeterminado, id. de conferencia o PIN) para un usuario individual de su organización. '
-ms.openlocfilehash: 7f25df3c9f395583273a4bf8ce68f3c93699a41d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 555902f233733ac31613a3ecb23f7aa8eec7af67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614952"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730059"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Administrar la configuración de conferencias de audio para un usuario en Skype Empresarial Online
 
@@ -44,7 +44,7 @@ Como administrador de Microsoft 365 o Office 365, puede editar la configuración
     
 3. En el Skype Empresarial de administración, elija **Usuarios.**
     
-4. Seleccione el usuario para el que desea administrar la configuración y, a continuación, en el panel Acción, haga clic en **Editar**![Muestra el icono Editar](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png).
+4. Seleccione el usuario para el que desea administrar la configuración y, a continuación, en el panel de acciones, haga clic **en Editar** Muestra el ![ icono Editar. ](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png) .
     
 5. Elija **Audioconferencia** en el panel de navegación izquierdo y, a continuación, en la página **Propiedades** para el usuario, modifique cualquiera de las siguientes opciones:
     
@@ -60,7 +60,7 @@ Como administrador de Microsoft 365 o Office 365, puede editar la configuración
 |**Permitir que los autores de llamadas sin autenticar sean las primeras personas en una reunión** <br/> |Seleccione esta opción para permitir que los autores de llamadas sin autenticar sean los primeros en unirse a las reuniones.  <br/> |
 |**Restricciones al marcado de salida desde reuniones de este usuario** <br/> |Si desea restringir el marcado de salida solo a llamadas nacionales, o si desea impedir completamente el marcado de salida de las reuniones, seleccione una opción de la lista.  <br/> |
   
-![Muestra la página de propiedades de Audioconferencia de un usuario](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
+![Muestra la página Propiedades de audioconferencia de un usuario.](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

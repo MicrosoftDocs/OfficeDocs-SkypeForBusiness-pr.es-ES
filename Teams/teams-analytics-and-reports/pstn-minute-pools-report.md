@@ -17,12 +17,12 @@ description: Cómo usar el informe Teams grupos de minutos RTC en el centro de a
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9dc0b12a17d54d6c0e5f858db92da3fc575d086f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f6ea18ce789ab08a92849833f72d1bf291ebaec9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577754"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730279"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams Informe de grupos de minutos RTC
 
@@ -32,7 +32,7 @@ El informe Teams grupos de minutos RTC en el Centro de administración de Micros
 
 En el panel de navegación izquierdo del centro Microsoft Teams administración, haga clic **en Análisis & informes de**  >  **uso.** En la pestaña **Ver informes,** **en** Informe, seleccione Grupos de minutos **RTC** y, a continuación, haga clic en **Ejecutar informe.**
 
-![Captura de pantalla del Teams de minutos RTC en el centro de administración](../media/teams-reports-pstn-minute-pools-with-callouts.png "Captura de pantalla del Teams de minutos RTC en el centro de Microsoft Teams con llamadas numeradas")
+![Captura de pantalla del Teams de minutos RTC en el centro de administración.](../media/teams-reports-pstn-minute-pools-with-callouts.png "Captura de pantalla del Teams de minutos RTC en el centro de Microsoft Teams con llamadas numeradas")
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 

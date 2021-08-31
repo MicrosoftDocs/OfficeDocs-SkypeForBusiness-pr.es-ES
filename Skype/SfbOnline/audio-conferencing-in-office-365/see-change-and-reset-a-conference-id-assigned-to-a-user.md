@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo asignar un id. de conferencia a un usuario en Skype Empresarial Online y cuáles deben ser los parámetros de id. de conferencia. '
-ms.openlocfilehash: c8c3abcf515a0a60046cd2438833467b8be78231
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a400536050ea22d4f841e3b401e30c3c14729093
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607677"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728009"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Ver y restablecer un Id. de conferencia asignado a un usuario en Skype for Business Online
 
@@ -48,7 +48,7 @@ Se enviará un correo electrónico al usuario con el Id. de conferencia y los n�
 
 ### <a name="to-view-the-conference-id"></a>Para ver el id. de conferencia
 
-![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
+![Un icono que muestra Skype Empresarial logotipo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 Puede ver el Id. de conferencia y enviárselo a los usuarios.
 
@@ -78,7 +78,7 @@ Vea [Get-CsOnlineDialInConferencingUser](/powershell/module/skype/Get-CsOnlineDi
 
 Puede restablecer un Id. de conferencia para un usuario si, por ejemplo, este lo olvida.
 
-![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
+![Un icono que muestra Skype Empresarial logotipo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Inicie sesión con su cuenta de trabajo o escuela.
 

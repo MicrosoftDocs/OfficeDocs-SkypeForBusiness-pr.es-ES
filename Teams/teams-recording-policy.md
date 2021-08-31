@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08faea7d5926a35ac4c663cd2df4b51b8c4472dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 824e03ea5affc4e8c08534b0328632ac3fb4b6f6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597934"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728489"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a la Teams basada en directivas para llamadas & reuniones
 
@@ -111,7 +111,7 @@ Teams ofrece varias capacidades para [la grabación](./cloud-recording.md) prác
 Las soluciones de grabación de cumplimiento se integran Teams como se muestra en el siguiente diagrama:
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla que muestra la configuración de la aplicación personalizada del equipo](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "Las imágenes muestran el flujo cuando se envía y recibe Teams reunión o llamada.")
+> ![Captura de pantalla que muestra la configuración de la aplicación personalizada del equipo.](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "Las imágenes muestran el flujo cuando se envía y recibe Teams reunión o llamada.")
 
 ## <a name="recorder"></a>Grabadora
 

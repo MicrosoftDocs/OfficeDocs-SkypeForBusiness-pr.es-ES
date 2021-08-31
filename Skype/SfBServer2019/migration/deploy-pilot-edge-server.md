@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: En este tema se resaltan las opciones de configuración que debe tener en cuenta antes de implementar Skype Empresarial Server servidor perimetral de 2019. Los procesos de implementación y configuración de Skype Empresarial Server 2019 son muy similares a Skype Empresarial Server 2015. En esta sección solo se detallan los aspectos clave que hay que considerar al implementar el grupo piloto. Para obtener pasos detallados, vea Deploying external user access in Skype Empresarial Server 2019 en la documentación sobre implementación, que describe el proceso de implementación y también proporciona información de configuración para el acceso de usuarios externos.
-ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ec659c5099a7be9587c630aa487ddeda1df500
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615014"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728049"
 ---
 # <a name="deploy-pilot-edge-server"></a>Implementar el servidor perimetral piloto
 
@@ -31,11 +31,11 @@ Al navegar por el asistente **Definir nuevo grupo de servidores perimetrales**, 
     
 2. Vaya al nodo Skype Empresarial Server 2019. haga clic con el botón secundario en **Grupos de servidores perimetrales** y en **Nuevo grupo de servidores perimetrales**.
     
-     ![Definir el cuadro de diálogo Nuevo grupo perimetral](../media/migration_ocs_topo_edgepool_page1.JPG)
+     ![Defina el cuadro de diálogo Nuevo grupo de servidores perimetrales.](../media/migration_ocs_topo_edgepool_page1.JPG)
   
 3. Un grupo de servidores perimetrales puede ser un **Grupo de varios equipos** o un **Grupo de un solo equipo**.
     
-     ![Definir el cuadro de diálogo FQDN del grupo de servidores perimetrales](../media/migration_ocs_topo_edgepool_page2.JPG)
+     ![Defina el cuadro de diálogo FQDN del grupo de servidores perimetrales.](../media/migration_ocs_topo_edgepool_page2.JPG)
   
 4. En la página **Seleccionar características**, no habilite la federación ni la federación XMPP. La federación y la federación XMPP se enrutan actualmente a través del servidor perimetral heredado. Estas características se configurarán en una fase posterior de la migración. 
 
@@ -44,11 +44,11 @@ Al navegar por el asistente **Definir nuevo grupo de servidores perimetrales**, 
     
 6. En la **página Definir el servidor del** próximo salto, seleccione director para el próximo salto del grupo perimetral heredado. 
     
-     ![Definir el cuadro de diálogo Siguiente salto](../media/migration_ocs_topo_edgepool_page7.JPG)
+     ![Defina el cuadro de diálogo Siguiente salto.](../media/migration_ocs_topo_edgepool_page7.JPG)
   
 7. En la página Asociar grupos de servidores **front-end** o de mediación, no asocie un grupo con este grupo de servidores perimetrales en este momento. El tráfico de medios externos se enruta actualmente a través del servidor perimetral heredado. Definiremos esta configuración en una fase posterior de la migración. 
     
-     ![Cuadro de diálogo Asociar grupos de servidores front-end](../media/migration_ocs_topo_edgepool_page8.JPG)
+     ![Cuadro de diálogo Asociar grupos de servidores front-end.](../media/migration_ocs_topo_edgepool_page8.JPG)
   
 8. Haga clic en **Finalizar** y después en **Publicar** para publicar la topología. 
     

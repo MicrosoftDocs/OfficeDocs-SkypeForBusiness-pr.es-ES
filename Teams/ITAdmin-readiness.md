@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b89dc087f97a924aeb89130a4dd9536a3afceb76b5cdfe8d96d60c3af02653b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62f1400c67ddda93feaf57fd0c47f9b062eff911
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298120"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731779"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción a la formación de administradores para Microsoft Teams
 
@@ -32,8 +32,8 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-|![una mano y una flecha hacia arriba](/office/media/icons/get-started-teams.png) |[Iniciar la implementación aquí](./get-started-with-teams-quick-start.md)     |![documento con una lista](/office/media/icons/document-teams.png)|[Ver Teams características por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
-|![un botón de reproducción de vídeo](/office/media/icons/video-play.png) |[Ver procedimientos recomendados y vídeos paso a paso en el canal Coffee in the Cloud ("Café en la nube") en YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![persona con una llave inglesa](/office/media/icons/administrator.png) |[Teams Tizas: aprenda los procedimientos recomendados y las instrucciones prácticas sobre Teams escenarios populares](./chalk-talks-landing-page.yml)         |
+|![una mano y una flecha hacia arriba.](/office/media/icons/get-started-teams.png) |[Iniciar la implementación aquí](./get-started-with-teams-quick-start.md)     |![documento con una lista](/office/media/icons/document-teams.png)|[Ver Teams características por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|![un botón de reproducción de vídeo.](/office/media/icons/video-play.png) |[Ver procedimientos recomendados y vídeos paso a paso en el canal Coffee in the Cloud ("Café en la nube") en YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![persona con una llave inglesa](/office/media/icons/administrator.png) |[Teams Tizas: aprenda los procedimientos recomendados y las instrucciones prácticas sobre Teams escenarios populares](./chalk-talks-landing-page.yml)         |
 |  |  | |
 
 <h2>Ofertas y cursos de aprendizaje clave</h2>

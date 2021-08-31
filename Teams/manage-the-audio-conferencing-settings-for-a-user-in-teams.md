@@ -23,18 +23,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Un administrador Microsoft 365 o Office 365 puede editar la configuración de audioconferencia de Teams, incluidos el proveedor, el número de pago o gratuito predeterminado, el id. de conferencia o el PIN de un usuario.
-ms.openlocfilehash: 2dcfb194f6721ca121ca45ff6a0fcd0b07eeb10a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c565537adfc8eeae295c1608a335b8282d3372df
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603275"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732489"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para un usuario en Microsoft Teams
 
 Como administrador de Microsoft 365 o Office 365, puede editar la configuración de audioconferencia (como el proveedor, número de pago o gratuito predeterminado, id. de conferencia o PIN) para un usuario individual de su organización. Si desea editar la configuración de su organización, vea Administrar la configuración de [audioconferencias de su organización.](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) Usar el Centro de administración de Microsoft Teams
 
 1. En el panel de navegación izquierdo, haga clic **en Usuarios** y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
@@ -53,7 +53,7 @@ Como administrador de Microsoft 365 o Office 365, puede editar la configuración
 |**Los usuarios no autenticados pueden ser la primera persona en la reunión**|Para cambiar esta configuración, active o desactive los usuarios **no** autenticados.
 |**Permisos de acceso telefónico**|Para cambiar esta  configuración, haga clic en Editar junto a **Audioconferencias** y, en el panel **Audioconferencia,** elija una opción en Llamar desde **reuniones.**|
 
-![Muestra la configuración de conferencias de audio para un usuario](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
+![Muestra la configuración de conferencias de audio para un usuario.](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
  
 
 > [!Note]

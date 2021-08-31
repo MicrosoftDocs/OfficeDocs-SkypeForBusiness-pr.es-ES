@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Decisiones necesarias para planear la omisión de medios en Skype Empresarial Server Telefonía IP empresarial. Incluye interoperación con el control de admisión de llamadas (CAC).
-ms.openlocfilehash: 7bf6be9a279d5b5f90da0274b8d271767be87f36
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b931d2415e0ac7563735181e76f539723330fe92
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630444"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733149"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planear la omisión de medios en Skype Empresarial
 
@@ -39,7 +39,7 @@ La siguiente ilustración muestra las rutas de señalización y los medios bási
 
 **Rutas de señalización y medios con desvío de medios y sin él**
 
-![Aplicación de conexión de desvío de medios cac de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Aplicación de conexión de omisión de medios cac de voz.](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 El desvío de medios es útil para minimizar la cantidad de servidores de mediación implementados. En general, un grupo de servidores de mediación se implementa en un sitio central y controla puertas de enlace en los sitios de sucursal. Habilitar el desvío de medios permite que las llamadas de red telefónica conmutada (RTC) desde clientes en sitios de sucursal se dirijan directamente a través de las puertas de enlace a esos sitios. Skype Empresarial Server rutas de llamadas salientes y directivas de Telefonía IP empresarial deben configurarse correctamente para que las llamadas RTC de clientes en un sitio de sucursal se enrutan a la puerta de enlace adecuada.
 

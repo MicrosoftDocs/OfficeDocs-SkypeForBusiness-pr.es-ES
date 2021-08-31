@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre los datos e informes disponibles en el Panel de calidad de llamadas de Microsoft (CQD).
-ms.openlocfilehash: 313ea0556f9f7ff8c0663209c6857f3d12e8ffe7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e184137c927361b1a557973d4ac8e55ea49cf1ea
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593314"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731809"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Datos e informes en panel de calidad de llamadas (CQD)
 
@@ -144,7 +144,7 @@ Si desea usar Power BI para analizar los datos de CQD, lea Usar Power BI para an
 En los informes de resumen y Location-Enhanced,  puede usar la lista desplegable Filtro de productos para mostrar todos los datos del producto, solo Microsoft Teams datos o solo Skype Empresarial datos en línea.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla: muestra las opciones de control filtro de producto](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
+> ![Captura de pantalla: muestra las opciones de control filtro de producto.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
 En informes detallados, puede usar la dimensión Es Teams **para** filtrar los datos Microsoft Teams o Skype Empresarial datos en línea.
 
@@ -164,19 +164,19 @@ Estos son los informes que verá en el panel de CQD cuando inicie sesión por pr
 Use los datos de esta pestaña para evaluar el estado y las tendencias de calidad de las llamadas en función de los recuentos de transmisiones y los porcentajes deficientes. La leyenda de la esquina superior derecha muestra qué colores y elementos visuales representan estas métricas.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla: mostrar la pestaña Calidad de llamada](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+> ![Captura de pantalla: mostrar la pestaña Calidad de llamada.](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
 Secuencias se clasifican en tres grupos: Bueno, Pobre y Sin clasificar. También hay valores  *calculados de Porcentaje*  pobre que le dan la relación de transmisiones clasificadas como Mala *con*  el recuento total de transmisiones clasificadas. Puesto *que Poor % = Poor streams/ (Poor streams+ Good streams) * 100*, poor *%*  is unffected by the presence of multiple *Unclassified*  streams. Para ver qué clasifica una transmisión como mala o buena, consulte Clasificación de transmisión en panel de calidad [de llamadas.](stream-classification-in-call-quality-dashboard.md)
   
 Use la escala de la izquierda para medir los valores de recuento de transmisiones.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla: muestra los valores de recuento de transmisiones](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+> ![Captura de pantalla: muestra los valores de recuento de transmisiones.](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
 Use la escala de la derecha para medir los valores del porcentaje de pobres.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla: muestra los valores % deficientes](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+> ![Captura de pantalla: muestra los valores % deficientes.](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
 También puede obtener los valores numéricos reales si mantiene el mouse sobre una barra.
   
@@ -184,7 +184,7 @@ También puede obtener los valores numéricos reales si mantiene el mouse sobre 
 > El ejemplo siguiente es de un conjunto de datos de ejemplo muy pequeño y los valores no son realistas para una implementación real.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla: muestra el mouse usado para obtener acceso a los datos](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+> ![Captura de pantalla: muestra el mouse usado para obtener acceso a los datos.](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
 El volumen general de transmisiones ayuda a determinar qué tan relevantes son los porcentajes de pobres calculados. Cuanto menor sea el volumen de las transmisiones generales, menos confiables son los valores de porcentaje de mala calidad notificados.
   
@@ -288,7 +288,7 @@ Use filtros de informe CQD para restringir el foco de las investigaciones. Use f
 
 Los informes de CQD incluyen varios filtros de desglose, que son herramientas eficaces para restringir el foco de las investigaciones de calidad de llamadas. Si selecciona un campo de desglose, el informe abre automáticamente la pestaña correspondiente y filtra el valor seleccionado. Si esa pestaña tiene sus propios campos de desglose y uno está seleccionado, se aplican ambos conjuntos de filtros, lo que reduce progresivamente el conjunto de datos resultante.
 
-![Diagrama que ilustra el flujo de informes en profundidad](media/qerguide-image-drillthrureportflow.png)
+![Diagrama que ilustra el flujo de informes en profundidad.](media/qerguide-image-drillthrureportflow.png)
 
 
 #### <a name="adding-and-editing-drill-down-fields"></a>Agregar y editar campos de obtención de detalles
@@ -297,11 +297,11 @@ Al editar un informe, tiene la opción de especificar campos de desglose propios
 
 Para empezar, haga clic **en ...** para el informe que desea editar y, a continuación, seleccione **Editar.**
 
-![Captura de pantalla de edición de un campo de desglose](media/qerguide-image-addeditdrilldownfields.png)
+![Captura de pantalla de edición de un campo de desglose.](media/qerguide-image-addeditdrilldownfields.png)
 
 Seleccione una dimensión de la lista en el lado izquierdo del Editor de consultas. A continuación, haga  clic en el menú desplegable debajo de la etiqueta Navegar a y seleccione la pestaña y el grupo de expansor a los que desea que Dimension explore. Nota: Actualmente, la funcionalidad de desglose solo funciona navegando a diferentes pestañas. Más adelante, se agregará compatibilidad para la exploración a un expander específico. Por último, haga clic **en** Cerrar para  guardar los cambios en la dimensión y, a continuación, haga clic en Guardar para guardar y cerrar el Editor de consultas.
 
-![Captura de pantalla de selección de una dimensión en el Editor de consultas](media/qerguide-image-selectquerydimension.png)
+![Captura de pantalla de selección de una dimensión en el Editor de consultas.](media/qerguide-image-selectquerydimension.png)
 
 ### <a name="multi-select-filters"></a>Filtros de selección múltiple
 
@@ -309,7 +309,7 @@ Además de la funcionalidad de desglose, CQD también admite la especificación 
 
 Para seleccionar varios valores de filtro, empiece agregando un nuevo filtro al informe. Haga **+** clic junto a la **etiqueta** Filtros, escriba el nombre de la dimensión que desea usar y haga clic en **Agregar.**
 
-![Captura de pantalla de agregar un filtro de selección múltiple](media/qerguide-image-addmultiselectfilter.png)
+![Captura de pantalla de agregar un filtro de selección múltiple.](media/qerguide-image-addmultiselectfilter.png)
 
 A continuación, **haga clic en Buscar** (un icono de lupa junto al nuevo filtro). Verá un campo de texto y varias opciones, como **Seleccionar todo** e **Invertir.** Escriba un valor y haga clic **en Buscar** junto a ese campo para buscar. Como alternativa, deje el campo de texto vacío y haga clic en **Buscar** para ver hasta las primeras 100 opciones.
 
@@ -319,12 +319,12 @@ A continuación, **haga clic en Buscar** (un icono de lupa junto al nuevo filtro
 
 Ejemplo:  
 
-![Captura de pantalla de agregar un filtro de consulta](media/qerguide-image-addfilter.png)
+![Captura de pantalla de agregar un filtro de consulta.](media/qerguide-image-addfilter.png)
 
 ### <a name="dashboard-level-filters"></a>Filtros de nivel de panel
 Algunos informes de CQD tienen filtros de nivel de panel agregados a ellos, por lo que es fácil filtrar por parámetros comunes. Estos filtros aparecen fuera de las pestañas de informe normales y directamente debajo del filtro Producto, y se aplican a todos los filtros del panel.
 
-![Captura de pantalla de un filtro de panel](media/qerguide-image-dashboardfilters.png)
+![Captura de pantalla de un filtro de panel.](media/qerguide-image-dashboardfilters.png)
 ```powershell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```

@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización sanitaria.
-ms.openlocfilehash: e81741e40928ec92717b686773078781b51b73be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d71945508055ddc7b6f6661d93e8918879d59d23
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608847"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731969"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Paquetes de directivas de Teams para sanidad
 
@@ -52,11 +52,11 @@ Teams actualmente incluye los siguientes paquetes de directivas:
 |Trabajador de la información sanitaria  |Profesionales de la información de su organización sanitaria |Crea un conjunto de directivas y configuraciones de directivas que dan a los trabajadores de la información como el personal de TI, el personal informático, el personal del departamento financiero y los responsables de cumplimiento normativo, acceso completo a chat, llamadas y reuniones.|
 |Sala de pacientes de cuidado de la salud  |Dispositivos de sala de pacientes|Crea un conjunto de directivas y configuraciones de directivas que se aplican a las salas de pacientes de su organización de cuidados de la salud.|
 
-![Captura de pantalla de paquetes de directivas de cuidados de la salud](media/policy-packages-healthcare.png)
+![Captura de pantalla de paquetes de directivas de salud.](media/policy-packages-healthcare.png)
 
 Cada directiva individual se indica con el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, cuando asigna el paquete de directivas de trabajadores clínicos sanitarios a clínicas de su organización, se crea una directiva denominada Healthcare_ClinicalWorker para cada directiva del paquete.
 
-![Captura de pantalla de las directivas del paquete de trabajadores clínicos sanitarios](media/policy-packages-healthcare-clinical-worker.png)
+![Captura de pantalla de las directivas del paquete de trabajadores clínicos de Sanidad.](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>Introducción a los paquetes de directiva
 
@@ -93,7 +93,7 @@ Asigne el paquete de directiva a los usuarios. Si un usuario tiene asignada una 
 
 Para asignar un paquete de directivas a uno o más usuarios, vaya al panel de navegación izquierdo del Centro de administración de Microsoft Teams. Allí, seleccione **Paquetes de directivas** y, después, **Administrar usuarios**.  
 
-![Captura de pantalla que muestra cómo asignar un paquete de directivas en el Centro de administración](media/policy-packages-healthcare-assign.png)
+![Captura de pantalla de cómo asignar un paquete de directiva en el centro de administración.](media/policy-packages-healthcare-assign.png)
 
 Para obtener más información, consulte [Asignar un paquete de directivas](manage-policy-packages.md#assign-a-policy-package).
 

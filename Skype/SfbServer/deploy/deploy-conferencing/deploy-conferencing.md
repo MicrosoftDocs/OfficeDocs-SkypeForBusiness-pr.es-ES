@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 'Resumen: lea este tema para obtener información sobre cómo implementar conferencias en Skype Empresarial Server.'
-ms.openlocfilehash: 85aa9b28ddcc262ae65700e0b0425ebec3dd0d12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cded58690f7ecc8481f3f273e0eba5e5ef20f03a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599545"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730039"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Implementar conferencias en Skype Empresarial Server
 
@@ -65,7 +65,7 @@ El diagrama de flujo de conferencia de acceso telefónico local muestra los paso
 
 **Diagrama de flujo de conferencia de acceso telefónico local**
 
-![Implementar diagrama de flujo de conferencia de acceso telefónico local](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
+![Implementar el gráfico de flujo de conferencia de acceso telefónico local.](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
 
 **Lista de comprobación de implementación de conferencias de acceso telefónico local**
 

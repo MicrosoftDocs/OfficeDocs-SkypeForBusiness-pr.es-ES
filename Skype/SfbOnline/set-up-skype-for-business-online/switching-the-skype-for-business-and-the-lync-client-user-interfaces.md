@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Obtenga información sobre cómo cambiar entre Skype Empresarial y las interfaces de usuario de cliente de Lync con PowerShell en Microsoft 365 o Office 365 '
-ms.openlocfilehash: 0a57bc5c246ac94926247805a0e1134f29e54937
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2345e30bf43a00342b1238533884d749e32095f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621902"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732269"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Cambiar de la interfaz de usuario del cliente de Lync a la de Skype Empresarial
 
@@ -61,7 +61,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 Si configura la directiva de forma correcta, verá:
   
-![PowerShell: SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
+![PowerShell: SkypeUIEnabled.](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
   
 Para habilitar que todos los usuarios de su organización utilicen el cliente de Skype Empresarial (Lync), abra el PowerShell remoto y escriba lo siguiente: 
   
@@ -71,7 +71,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 Si configura la directiva de forma correcta, verá:
   
-![PowerShell: SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
+![PowerShell: SkypeUIDisabled.](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
   
 Para permitir que solo un usuario de su organización utilice el cliente de Skype Empresarial, abra el PowerShell remoto y escriba lo siguiente:
   
@@ -81,7 +81,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 
 Si configura la directiva de forma correcta, verá:
   
-![Skype Empresarial Online - Activar IU](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
+![Skype Empresarial En línea: habilitar la interfaz de usuario.](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
   
 Para permitir que solo un usuario de su organización utilice el cliente de Skype Empresarial (Lync), abra el PowerShell remoto y escriba lo siguiente:
   
@@ -91,7 +91,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 
 Si configura la directiva de forma correcta, verá:
   
-![Skype Empresarial Online - IU deshabilitada](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
+![Skype Empresarial En línea: interfaz de usuario deshabilitada.](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
   
 Para permitir que varios usuarios de su organización utilicen el cliente de Skype Empresarial, abra el PowerShell remoto y escriba lo siguiente:
   

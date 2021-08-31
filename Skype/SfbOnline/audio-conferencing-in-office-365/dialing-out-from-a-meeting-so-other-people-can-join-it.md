@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Obtenga más información sobre qué necesita y cómo los organizadores de una reunión pueden llamar a otras personas con Skype for Business.
-ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe8102db8306e4651de532b6e00de88ddb46247
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581984"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732389"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Marcar desde una reunión Skype Empresarial para que otras personas puedan unirse a ella
 
@@ -52,7 +52,7 @@ Para agregar otros participantes a través del acceso telefónico a las reunione
   
  **Paso 2:** Escriba el número de teléfono completo incluyendo el código del país o la región en el cuadro.
   
-![Número de teléfono de acceso telefónico de salida en Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Número de teléfono de salida en Skype Empresarial.](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## <a name="supported-countries-and-regions"></a>Países y regiones admitidas
 

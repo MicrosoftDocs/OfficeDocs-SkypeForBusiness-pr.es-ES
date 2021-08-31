@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Información general sobre cómo usar un operador automático de nube Skype Empresarial Server 2019
-ms.openlocfilehash: 5d28618efc2b02240cdfe3e4c05945f9a6e4b575
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19be069ac5f61c9fb2b81df76156e6752350073b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610177"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728445"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Plan de los operadores automáticos en la nube
 
@@ -34,7 +34,7 @@ Un operador automático es un servicio en la nube que acepta llamadas de cliente
 
 Una llamada entrante a un operador automático de nube puede tomar una de varias rutas de acceso, como se muestra aquí:
 
-![Diagrama para operadores automáticos](../../SfBServer2019/media/AA-plan-concept.png)
+![Diagrama para operadores automáticos.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype Empresarial Server 2019
 2. A través [de un controlador de borde de sesión](/MicrosoftTeams/direct-routing-border-controllers.md) y enrutamiento [directo](/MicrosoftTeams/direct-routing-plan.md)
@@ -98,7 +98,7 @@ Cuando tenga una estructura sólida que satisfaga sus necesidades y un script qu
 > [!CAUTION]
 > Como se mencionó en [KB4480742,](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)no se recomienda mover Exchange operadores automáticos de mensajería unificada creados en server 2015 a servidores que ejecutan Server 2019. De momento, tendrías que mantenerlos en un grupo de servidores Skype Empresarial Server 2015 en modo de coexistencia.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulta también
 
 [Planificar la migración de Skype Empresarial Server y Exchange Server](plan-um-migration.md)
 

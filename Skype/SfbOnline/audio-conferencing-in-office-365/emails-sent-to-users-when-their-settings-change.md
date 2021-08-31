@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre qué información se envía automáticamente a los usuarios por correo electrónico cuando la configuración de las conferencias de acceso telefónico local cambia en Skype Empresarial Online. '
-ms.openlocfilehash: 7f095e42eae2ba47573193546e441809ce3ae6e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b33fc6176d4103125432ebe0896ccab34e8fe269
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618306"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728039"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Correos electrónicos enviados a los usuarios cuando su configuración cambia en Skype Empresarial Online
 
@@ -48,7 +48,7 @@ De forma predeterminada, hay cuatro tipos de correo electrónico que se enviará
   
     Este es un ejemplo de este correo electrónico:
     
-     ![Skype Empresarial: comprobar licencia](../images/audio-conferencing-user-enabled.png)
+     ![Skype Empresarial Compruebe la licencia.](../images/audio-conferencing-user-enabled.png)
   
     Para más información sobre las licencias de Skype Empresarial, vea [Licencias complementarias de Skype Empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
@@ -114,7 +114,7 @@ Al deshabilitar el envío de correos electrónicos a los usuarios, el correo ele
   
 De forma predeterminada, los correos electrónicos se enviarán a los usuarios, pero si quiere evitar que reciban correo electrónico para audioconferencias, puede usar el centro de administración de Skype Empresarial o Windows PowerShell. 
  
-![Un icono que muestra el Skype Empresarial ](../images/sfb-logo-30x30.png) **con el centro Skype Empresarial administración**  
+![Un icono que muestra Skype Empresarial logotipo.](../images/sfb-logo-30x30.png)  **Using the Skype for Business admin center**
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
@@ -143,7 +143,7 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](/previous-version
     
     Este es un ejemplo del correo electrónico que se les enviará:
     
-     ![Correo electrónico de conferencia de acceso telefónico](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
+     ![Correo electrónico de conferencias de acceso telefónico local.](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 

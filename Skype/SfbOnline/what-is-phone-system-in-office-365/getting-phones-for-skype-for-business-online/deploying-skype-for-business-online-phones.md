@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar la configuración para Skype Empresarial teléfonos en línea
-ms.openlocfilehash: a053928a242be3d7798a5d9c3cc608e3176807c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d67badf0bd5ff27466315a5731c2ac9a2117f74e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607447"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728019"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implementación de teléfonos de Skype Empresarial Online
 
@@ -74,7 +74,7 @@ Comprueba la versión de firmware de tus teléfonos. Para:
   
 Las actualizaciones de firmware las administra el servicio de Skype for Business. Todos los firmware de teléfono certificados para Skype for Business se cargan en el servidor de actualización de Skype for Business, y la actualización del dispositivo está habilitada en todos los teléfonos de forma predeterminada. En función del tiempo de inactividad del teléfono y de los intervalos de sondeo, los teléfonos descargarán e instalarán automáticamente las últimas compilaciones certificadas. Puede deshabilitar la configuración de actualización del dispositivo mediante el cmdlet [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy) y estableciendo el _parámetro EnableDeviceUpdate_ en `false` .
   
-![Captura de pantalla que muestra la implementación de teléfonos](../../images/be727622-1924-439f-96ca-89230739db9e.png)
+![Captura de pantalla que muestra la implementación de teléfonos.](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
 Cuando haya un nuevo firmware disponible y preparado para la descarga y la instalación, el teléfono notificará al usuario. Los teléfonos Polycom notificarán al usuario y les proporcionarán una opción para **Actualizar** o **Posponer.**
   
@@ -82,7 +82,7 @@ Cuando haya un nuevo firmware disponible y preparado para la descarga y la insta
   
 En un teléfono Polycom, puede actualizar el firmware desde el teléfono seleccionando **ActualizaciónSw**.
   
-![Captura de pantalla que muestra la opción SwUpdate](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
+![Captura de pantalla que muestra la opción SwUpdate.](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
   
 También puede optar por administrar las actualizaciones de firmware usando un sistema de aprovisionamiento de nuestros socios. Para obtener información sobre la administración de los sistemas de aprovisionamiento de nuestros socios y la personalización avanzada de teléfonos, consulte las guías de administración del fabricante.
   
@@ -105,7 +105,7 @@ Para obtener más información sobre planes de llamadas, lea [Sistema telefónic
     
   - Los usuarios **con teléfonos Polycom VVX 5XX/6XX** verán:
     
-     ![Captura de pantalla que muestra el inicio de sesión de teléfonos Polycom](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
+     ![Captura de pantalla que muestra el inicio de sesión de los teléfonos Polycom.](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
   - Los usuarios **con teléfonos Yealink T48G/T46G** verán:
     
@@ -115,7 +115,7 @@ Para obtener más información sobre planes de llamadas, lea [Sistema telefónic
     
 - **Id. de usuario**: usando el teclado del teléfono o el teclado en pantalla (si está disponible), los usuarios pueden usar el nombre de usuario y la contraseña de su organización para iniciar sesión en el teléfono. Por ejemplo, deben usar el formato UPN, como <em>amosm@contoso.com</em>  , en el nombre de usuario.
     
-     ![Captura de pantalla que muestra la pantalla de inicio de sesión](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![Captura de pantalla que muestra la pantalla de inicio de sesión.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
     > [!NOTE]
     > La autenticación con PIN no se admite en Skype Empresarial Online con teléfonos LPE y teléfonos IP de socios. 
@@ -125,47 +125,47 @@ Para obtener más información sobre planes de llamadas, lea [Sistema telefónic
   > [!NOTE]
   > Los usuarios deben usar el nombre de usuario y la contraseña de su organización para iniciar sesión en el teléfono. Por ejemplo, deben usar el formato UPN, como  <em>amosm@contoso.com</em>  , en el nombre de usuario.
   
-     ![Captura de pantalla que muestra la pantalla de inicio de sesión](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![Captura de pantalla que muestra la pantalla de inicio de sesión.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
 - **Usar un inicio de sesión web:** esta es una nueva forma de que los usuarios en línea se autentiquen con un explorador web estándar. Los usuarios recibirán un conjunto de instrucciones para seguir cuando usen un explorador para iniciar sesión.
     
   - Los usuarios **con teléfonos Polycom VVX 5XX/6XX** verán:
     
-     ![Captura de pantalla que muestra las instrucciones de Polycom](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
+     ![Captura de pantalla que muestra las instrucciones de Polycom.](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
   - Los usuarios **con teléfonos Yealink T48G/T46G** verán:
     
-     ![Captura de pantalla que muestra instrucciones de Yealink](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
+     ![Captura de pantalla que muestra instrucciones de Yealink.](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
     El código que se genera expira en 15 minutos. Cuando expire, el usuario tendrá que hacer clic en **Reintentar** o **Aceptar** para generar un código nuevo, según el teléfono.
     
   - Los usuarios **con teléfonos Polycom VVX 5XX/6XX** verán:
     
-     ![Captura de pantalla que muestra el código Polycom expirado](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
+     ![Captura de pantalla que muestra el código Polycom expirado.](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
   - Los usuarios **con teléfonos Yealink T48G/T46G** verán:
     
-     ![Captura de pantalla que muestra el código Yealink expirado](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
+     ![Captura de pantalla que muestra el código Yealink expirado.](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
     Usando un explorador, vaya a la dirección que se muestra en el teléfono e introduzca su nombre de usuario de Skype Empresarial.
     
-     ![Captura de pantalla que muestra la verificación por correo electrónico](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
+     ![Captura de pantalla que muestra la verificación por correo electrónico.](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
   
     Introduzca el código que se muestra en el teléfono.
     
-     ![Captura de pantalla que muestra la introducción de código en la pantalla de inicio de sesión](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
+     ![Captura de pantalla que muestra la introducción de código en la pantalla de inicio de sesión.](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
     Compruebe que el sitio muestra "[Teléfono nombre del fabricante] Skype Empresarial **certificado Teléfono**" y haga clic en **Continuar**.
     
-     ![Captura de pantalla que muestra la verificación del nombre](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
+     ![Captura de pantalla que muestra la verificación del nombre.](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
     Haga clic en las credenciales de usuario o en **Usar otra cuenta**:
     
-     ![Captura de pantalla que muestra las opciones de credenciales](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
+     ![Captura de pantalla que muestra las opciones de credenciales.](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
     Cuando se muestra la página siguiente, es seguro cerrar el explorador.
     
-     ![Captura de pantalla que muestra un mensaje de confirmación](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
+     ![Captura de pantalla que muestra un mensaje de confirmación.](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
     > [!NOTE]
     > Los teléfonos LPE para Skype Empresarial Online solo admiten el inicio de sesión mediante tethering USB. 
@@ -206,7 +206,7 @@ BToE se puede configurar para que funcione en dos modos: *Automático* (predeter
   
 1. Conecte los equipos con los teléfonos usando el puerto de los equipos.
     
-     ![Captura de pantalla que muestra la conexión a un equipo PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
+     ![Captura de pantalla que muestra la conexión a un equipo PC.](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
 2. Descargue el software BToE más reciente desde el sitio web del fabricante utilizando los vínculos que se ofrecen a continuación e instálelo. Para una mejor experiencia de usuario, puede distribuir e instalar el software BToE con una solución de distribución de administración como Microsoft Endpoint Configuration Manager. Para obtener ayuda con Configuration Manager, vea [Paquetes y programas en Configuration Manager.](/configmgr/apps/deploy-use/packages-and-programs)
     

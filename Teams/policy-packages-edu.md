@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: Más información sobre las directivas en una configuración educativa o EDU, y cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: 8120000599f2e0406d80a7e61b2e5720ffe2fd71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608867"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728169"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Directivas de Teams y paquetes de directivas para educación
 
@@ -148,7 +148,7 @@ Microsoft Teams actualmente incluye los siguientes paquetes de directiva:
 
 Cada directiva individual recibe el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, cuando asigna el paquete de directiva de Education_Teacher a educadores en la institución educativa, se crea una directiva denominada Education_Teacher para cada directiva del paquete.
 
-![Captura de pantalla del paquete de directiva de Education_Teacher](media/policy-packages-education_teacher.png)
+![Captura de pantalla del paquete de directivas de Education_Teacher](media/policy-packages-education_teacher.png)
 
 > [!NOTE]
 > Si decide que los educadores y el personal de apoyo administrativo necesitan directivas diferentes, puede reutilizar un paquete existente: identifique un paquete que no esté utilizando actualmente y cambie la configuración para que sea apropiado para ese grupo. Es posible que tenga que anotarse qué grupo tiene cada paquete, pero ese es el único impedimento para reutilizar un paquete.
@@ -178,7 +178,7 @@ Asigne el paquete de directiva a los usuarios. Si un usuario tiene asignada una 
 
 Para asignar un paquete de directivas a uno o más usuarios, vaya al panel de navegación izquierdo del Centro de administración de Microsoft Teams. Allí, seleccione **Paquetes de directivas** y, después, **Administrar usuarios**.  
 
-![Captura de pantalla que muestra cómo asignar un paquete de directivas en el Centro de administración](media/policy-packages-healthcare-assign.png)
+![Captura de pantalla de cómo asignar un paquete de directivas en el Centro de administración](media/policy-packages-healthcare-assign.png)
 
 Para obtener más información, consulte [Asignar un paquete de directivas](manage-policy-packages.md#assign-a-policy-package).
 

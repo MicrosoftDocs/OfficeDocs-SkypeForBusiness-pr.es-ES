@@ -21,12 +21,12 @@ description: Obtenga información sobre cómo administrar tareas en el centro Mi
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd8aef1a8d84a77f14824379383c5f77679f8c6f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef615924a4c449a3b2b408d929cf3d2678e4a1e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592296"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728679"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 
@@ -100,11 +100,11 @@ La consola de administración es donde puede crear una integración y una clave 
 
 Seleccione **Integraciones en** el menú lateral, seleccione **Agregar integración** y asigne un nombre a la integración.
 
-![Captura de pantalla que muestra cómo agregar una nueva integración](./educationImages/Assignments_mopo_turnitin2.png)
+![Captura de pantalla que muestra cómo agregar una nueva integración.](./educationImages/Assignments_mopo_turnitin2.png)
 
 El **TurnitinApiKey** se le dará después de seguir las indicaciones. Copie la clave de API y péguela en el Microsoft Teams de administración.  Esta es la única vez que puede ver la clave.
 
-![Captura de pantalla que muestra cómo copiar la clave de API](./educationImages/Assignments_mopo_turnitin3.png)
+![Captura de pantalla que muestra cómo copiar la clave de API.](./educationImages/Assignments_mopo_turnitin3.png)
 
 Al hacer clic en **el botón** Guardar del Centro de administración para esta configuración, espere unas horas para que esta configuración suba a efecto.
 

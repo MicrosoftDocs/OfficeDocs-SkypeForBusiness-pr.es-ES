@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Obtenga información sobre el enlace troncal SIP en Skype Empresarial Server Telefonía IP empresarial
-ms.openlocfilehash: a27967f322db816285db100696fa061f339e9f71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d10f14a8c3f65309c52351a0721aa042faad47b6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634204"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728239"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Enlace troncal SIP en Skype Empresarial Server
 
@@ -151,7 +151,7 @@ En la siguiente figura se muestra la topología de enlace troncal SIP en Skype E
 
 **Topología del enlace troncal SIP**
 
-![Topología de enlace troncal SIP](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
+![Topología de enlace troncal SIP.](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
 
 Como se muestra en el diagrama, se usa una red privada virtual (VPN) de IP para la conectividad entre la red empresarial y el proveedor de servicios de la red telefónica conmutada (RTC). El objetivo de esta red privada es proporcionar conectividad IP, mejorar la seguridad y obtener garantías (opcionales) de Calidad de servicio (QoS). Dada la naturaleza de una VPN, no necesita usar Seguridad de la capa de transporte (TLS) para el tráfico de señalización SIP ni el Protocolo de transporte en tiempo real seguro (SRTP) para el tráfico de medios. Las conexiones entre la empresa y el proveedor de servicios constan, por lo tanto, de conexiones TCP simples para SIP y el Protocolo de transporte en tiempo real (RTP) simple (sobre UDP) para los medios de túnel a través de una VPN de IP. Asegúrese de que todos los firewalls que hay entre los enrutadores de VPN tienen los puertos abiertos para permitir la comunicación de dichos enrutadores, y que las direcciones IP de los bordes externos de los enrutadores de VPN se pueden redirigir públicamente.
 
@@ -183,6 +183,6 @@ Si usa un servidor de VPN, se recomienda seguir estas instrucciones:
 
 - Cifre los datos de la VPN mediante encapsulación de enrutamiento genérico (GRE).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Enlace troncal SIP del sitio de sucursal en Skype Empresarial Server](branch-site.md)

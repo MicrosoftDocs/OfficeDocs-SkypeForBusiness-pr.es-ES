@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo usar el Panel de estado para supervisar la conexión entre el controlador de borde de sesión y el enrutamiento directo.
-ms.openlocfilehash: aec8a0bb37af02f6103714a26c9d35e18879985c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4927f6473e74a6fc14add9105022fc8efbade260
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592344"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728219"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Panel de estado para enrutamiento directo
 
@@ -38,7 +38,7 @@ Puede ver el Panel de estado en el centro Microsoft Teams y Skype Empresarial ad
 
 El panel de estado proporciona la siguiente información relacionada con el estado general de los SBC conectados:
 
- ![Muestra estadísticas del panel de estado](media/direct-routing-dashboard-stats1.png)
+ ![Muestra las estadísticas del panel de estado.](media/direct-routing-dashboard-stats1.png)
 
 - **Resumen de enrutamiento directo:** muestra el número total de SBC registrados en el sistema. Registro significa que el administrador de inquilinos agregó un SBC mediante el New-CsOnlinePSTNGateway usuario. Si el SBC se agregó en PowerShell, pero nunca se conectó, el Panel de estado lo muestra en un estado incorrecto.
 
@@ -82,7 +82,7 @@ El panel de estado proporciona la siguiente información relacionada con el esta
 
 También puede ver la información detallada de un SBC específico como se muestra en la siguiente captura de pantalla:
 
-![Detalles del SBC del panel de estado](media/direct-routing-dashboard-SBC-detail1.png)
+![Detalles del SBC del panel de estado.](media/direct-routing-dashboard-SBC-detail1.png)
 
 La vista detallada muestra los siguientes parámetros adicionales:
 

@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Ver informes de administradores para Teams de conectorES EHR
-ms.openlocfilehash: cebd427096baae564f020694e18fc6023a560790
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd1b7577079c65d12fa85cc4098702cb26b2a1da
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588172"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730199"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Informes de administrador del conector EHR
 
@@ -38,7 +38,7 @@ Puede ver el informe Microsoft Teams administrador del conector EHR yendo al pan
 
 Acceda al informe desde el panel Microsoft Teams centro de administración.
 
- ![un cuadro de diálogo de las asignaciones y límites de las visitas virtuales](../../media/admin-connector-report.png)
+ ![un cuadro de diálogo de las asignaciones y límites de las visitas virtuales.](../../media/admin-connector-report.png)
 
 El cuadro de diálogo proporciona los siguientes datos:
 

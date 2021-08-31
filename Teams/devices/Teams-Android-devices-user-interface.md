@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo configurar la interfaz de usuario en Teams dispositivos Android.
-ms.openlocfilehash: 07d8b42de16c71a63efe7a3c18955e457577d60c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4d17158a6d76dd0d735392c8a441ca184968897a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637086"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732459"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Establecer Microsoft Teams interfaz de usuario de dispositivos Android
 
@@ -34,15 +34,15 @@ Si [](/microsoftteams/user-access) asigna una licencia de usuario a una cuenta, 
 
 Las tres imágenes siguientes muestran cómo cambia la interfaz de usuario en función de la licencia asignada a la cuenta de usuario. En la primera imagen, se asigna a la cuenta de usuario una licencia E5. Se trata de una licencia de usuario, por lo que el dispositivo muestra la interfaz de usuario final predeterminada:
 
-:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="Interfaz de modo de usuario":::
+:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="Interfaz de modo de usuario.":::
 
 En esta imagen, se ha asignado a la cuenta de usuario una [licencia de teléfono de área común.](/microsoftteams/set-up-common-area-phones) Los teléfonos de área común se usan principalmente para realizar y recibir llamadas telefónicas. Como tal, el teclado de marcado se muestra en la pantalla:
 
-:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="Interfaz de teléfono de área común":::
+:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="Interfaz de teléfono de área común.":::
 
 Por último, esta imagen muestra una cuenta de usuario con una [Salas de Microsoft Teams licencia estándar asignada.](/MicrosoftTeams/rooms/rooms-licensing) Salas de Teams licencias están pensadas para usarse en salas de reuniones o espacios compartidos, por lo que la interfaz de usuario cambia para que sea más fácil unirse a una reunión mostrando la vista calendario:
 
-:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="Interfaz de reunión":::
+:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="Interfaz de reunión.":::
 
 > [!NOTE]
 > Cambiar la interfaz de usuario no afecta a su capacidad para usar otras características con licencia. Por ejemplo, aunque la vista predeterminada de la licencia salas de grupo es la vista calendario, aún puede realizar y recibir llamadas telefónicas de red telefónica de cambio público (RTC) si la cuenta está correctamente licenciada y configurada.

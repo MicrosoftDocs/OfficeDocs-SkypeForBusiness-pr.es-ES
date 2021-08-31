@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre cómo implementar Salas de Microsoft Teams, incluidas las fases de implementación.
-ms.openlocfilehash: 51a30137a2164651fe17f3910b17312fd6d45d6b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3c7420880bd36d1ebacd778d623da14e1705e324
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627172"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730409"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -49,8 +49,8 @@ Puede obtener más información sobre estas dependencias en los siguientes vínc
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
-| ![confirmar sitios](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que los sitios cumplen los requisitos clave para Salas de Microsoft Teams.</li><li>Confirme que ha proporcionado ancho de banda suficiente para cada sitio.</li></ul>| 
-| ![planear la implementación de dispositivos](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a planear la configuración y la implementación del dispositivo.</li></ul>| 
+| ![confirmar sitios.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que los sitios cumplen los requisitos clave para Salas de Microsoft Teams.</li><li>Confirme que ha proporcionado ancho de banda suficiente para cada sitio.</li></ul>| 
+| ![planear la implementación de dispositivos.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a planear la configuración y la implementación del dispositivo.</li></ul>| 
 
 ## <a name="service-readiness"></a>Preparación del servicio
 
@@ -74,8 +74,8 @@ Para obtener más información sobre Salas de Microsoft Teams cuentas, vea [Conf
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![compatibilidad con escenarios](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida qué escenarios admitirá e identifique los requisitos de licencia para sus Salas de Microsoft Teams de servicio.</li></ul>| 
-| ![preparar el equipo host](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Prepararse para hospedar cuentas de máquina y servicio.</li></ul>| 
+| ![soporte técnico para escenarios.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida qué escenarios admitirá e identifique los requisitos de licencia para sus Salas de Microsoft Teams de servicio.</li></ul>| 
+| ![preparar el equipo host.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Prepararse para hospedar cuentas de máquina y servicio.</li></ul>| 
 
 
 _Ejemplo Salas de Microsoft Teams tabla de planificación de cuentas de servicio_
@@ -123,8 +123,8 @@ Cada Salas de Microsoft Teams dispositivo requiere una cuenta de recursos dedica
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
-| ![decidir convención de nomenclatura](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la convención de nomenclatura para sus Salas de Microsoft Teams cuentas.</li><li>Decida si va a crear cuentas individuales o usar scripts de aprovisionamiento masivo.</li></ul>| 
-| ![pasos siguientes](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a planear la implementación del dispositivo.</li></ul>| 
+| ![decidir convención de nomenclatura.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la convención de nomenclatura para sus Salas de Microsoft Teams cuentas.</li><li>Decida si va a crear cuentas individuales o usar scripts de aprovisionamiento masivo.</li></ul>| 
+| ![pasos siguientes.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a planear la implementación del dispositivo.</li></ul>| 
 
 
 ### <a name="device-software-installation"></a>Instalación del software del dispositivo 
@@ -148,8 +148,8 @@ Una consideración adicional es si el Salas de Microsoft Teams se unirá al domi
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-| ![nombres de dispositivos de puntos de decisión](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la Salas de Microsoft Teams de nomenclatura de dispositivos que se usará durante la implementación.</li><li>Decida si se unirá a Salas de Microsoft Teams dispositivos a su dominio y cómo administrar y configurar cuentas locales. </li><li>Decida si usará Operations Management Suite para supervisar la Salas de Microsoft Teams implementación.</li><li>Decida qué método usará para implementar el software y los agentes en el sistema de Salas de Microsoft Teams en preparación para la implementación del dispositivo. </li></ul>| 
-| ![dispositivo de plan de pasos siguientes](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a planear el enfoque de implementación de dispositivos.</li></ul>| 
+| ![nombres de dispositivos de puntos de decisión.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la Salas de Microsoft Teams de nomenclatura de dispositivos que se usará durante la implementación.</li><li>Decida si se unirá a Salas de Microsoft Teams dispositivos a su dominio y cómo administrar y configurar cuentas locales. </li><li>Decida si usará Operations Management Suite para supervisar la Salas de Microsoft Teams implementación.</li><li>Decida qué método usará para implementar el software y los agentes en el sistema de Salas de Microsoft Teams en preparación para la implementación del dispositivo. </li></ul>| 
+| ![dispositivo del plan de pasos siguientes.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a planear el enfoque de implementación de dispositivos.</li></ul>| 
 
 
 ### <a name="device-deployment"></a>Implementación de dispositivos
@@ -159,8 +159,8 @@ Después de implementar el software en las unidades Salas de Microsoft Teams, cr
 
 |  &nbsp;  |   &nbsp;  |
 |-----------|------------|
-| ![administrar la implementación de sitio a sitio](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida quién administrará la implementación de sitio por sitio.</li><li> Identifique los recursos que instalarán los Salas de Microsoft Teams en el sitio y realice la configuración y las pruebas.</li></ul>| 
-| ![iniciar pruebas de dispositivos](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Iniciar pruebas de dispositivos.</li></ul>| 
+| ![administrar la implementación de sitio por sitio.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida quién administrará la implementación de sitio por sitio.</li><li> Identifique los recursos que instalarán los Salas de Microsoft Teams en el sitio y realice la configuración y las pruebas.</li></ul>| 
+| ![iniciar pruebas de dispositivos.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Iniciar pruebas de dispositivos.</li></ul>| 
 
 _Tabla de implementación de ejemplo_
 
@@ -181,8 +181,8 @@ Puede usar [PowerShell remoto](rooms-operations.md#remote-management-using-power
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-| ![configurar el punto de decisión](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si va a configurar manualmente cada sistema Salas de Microsoft Teams o usar un archivo XML central (uno por Salas de Microsoft Teams dispositivo).</li></ul>| 
-| ![enfoque remoto de los pasos siguientes](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Definir el enfoque de administración remota.</li></ul>| 
+| ![configurar el punto de decisión.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si va a configurar manualmente cada sistema Salas de Microsoft Teams o usar un archivo XML central (uno por Salas de Microsoft Teams dispositivo).</li></ul>| 
+| ![siguiente enfoque remoto de pasos.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Definir el enfoque de administración remota.</li></ul>| 
 
 ### <a name="testing"></a> Pruebas
 
