@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar la configuración para teléfonos de área común.
-ms.openlocfilehash: 14c7a76ed8f0aa319049d4352c1cdc6ce4c4ce98
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cbf1c5f211eba09ee90a0358b175332fa64de4e2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607427"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726979"
 ---
 # <a name="set-up-common-area-phones"></a>Configurar teléfonos de área común
 
@@ -54,7 +54,7 @@ Tendrá que seguir estos pasos:
 ### <a name="step-1---buy-the-licenses"></a>Paso 1: comprar las licencias
 1. En el centro de administración, vaya a **Servicios de** compra  >  **de facturación** y agregue Otros **planes.**
 
-    ![Captura de pantalla del área común Teléfono licencia](../../images/cap-license.png)
+    ![Captura de pantalla de Área Teléfono licencia.](../../images/cap-license.png)
 2. Haga clic en **Teléfono de área común** > **Comprar ahora** > y en la página de **Pago** haga clic en **Compra ahora**.
 3. Haga clic para expandir las **Suscripciones de complementos** y luego haga clic para comprar un plan de llamadas. Elija el Plan **de llamadas nacionales** o el Plan **de llamadas nacionales e internacionales.**
 
@@ -75,7 +75,7 @@ Para obtener más información sobre licencias, [vea Skype Empresarial y Microso
 
      La asignación de licencias tendrá este aspecto:
 
-     ![TurnOnCapLicense.png](../../images/cap-license-turn-on.png)
+     ![TurnOnCapLicense.png.](../../images/cap-license-turn-on.png)
 
      > [!Note]
      > Para su interés, el Plan 2 de Skype for Business se incluye con la licencia del **teléfono de área común**.
@@ -84,7 +84,7 @@ Para más detalles, consulte [Agregar un usuario](https://support.office.com/art
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Paso 3: asignar un número de teléfono a la cuenta de usuario del teléfono de área común
 
-![Icono que muestra el logotipo Skype Empresarial asignar un número de teléfono al usuario con el ](../../images/sfb-logo-30x30.png) **centro Skype Empresarial administración**
+![Un icono que muestra Skype Empresarial logotipo.](../../images/sfb-logo-30x30.png) Asignar un número de teléfono al usuario mediante el **centro Skype Empresarial administración**
 
 1. En el centro de administración > **centros de administración**  >  **Skype Empresarial**.
 2. En el **centro de administración de Skype for Business** >  **Voz** > **Números de teléfono**.
@@ -93,7 +93,7 @@ Para más detalles, consulte [Agregar un usuario](https://support.office.com/art
 5. Allí deberá agregar también una dirección de emergencia. Tras hacer la búsqueda, revise **Seleccionar dirección de emergencia** para elegir la correcta en su caso.
 6. Haga clic en **Guardar** y el usuario debería tener este aspecto:
 
-    ![Captura de pantalla del número de teléfono del usuario](../../images/cap-user-number.png)
+    ![Captura de pantalla del número de teléfono del usuario.](../../images/cap-user-number.png)
 
    > [!Note]
    > Los usuarios solo aparecerán si tienen aplicada una licencia de **sistema telefónico**. Si acaba de aplicársela, el usuario a veces tarda un poco de tiempo en aparecer en la lista.

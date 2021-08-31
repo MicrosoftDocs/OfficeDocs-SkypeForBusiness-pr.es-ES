@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar etiquetas de confidencialidad para proteger los equipos en Microsoft Teams.
-ms.openlocfilehash: d00ebe1861596ddb41e852c7e8fe6360df024ab7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e4f6f3b790bb84b4d628760548b6ab1115f6326d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621962"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729599"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Etiquetas de confidencialidad para Microsoft Teams
 
@@ -53,22 +53,22 @@ Por ejemplo, crea y publica una etiqueta de confidencialidad denominada "Confide
 
 Cuando un usuario crea un equipo  y selecciona la etiqueta Confidencial, la única opción de privacidad disponible para el usuario es **Privado.** Otras opciones de privacidad como Público y Toda la organización no están disponibles para que el usuario seleccione:
 
-![Captura de pantalla de la etiqueta confidencialidad](media/sensitivity-labels-confidential-example.png)
+![Captura de pantalla de etiqueta confidencialidad.](media/sensitivity-labels-confidential-example.png)
 
 De forma similar, cree y publique una etiqueta de confidencialidad denominada "General" que tenga la opción de privacidad de etiqueta configurada como **Público.** Cuando un usuario crea un equipo nuevo, solo puede crear equipos públicos o de toda la organización al seleccionar esta etiqueta:
 
-![Captura de pantalla de la etiqueta confidencialidad general](media/sensitivity-labels-general-example.png)
+![Captura de pantalla de etiqueta de confidencialidad general.](media/sensitivity-labels-general-example.png)
 
 Cuando se crea el equipo, la etiqueta de confidencialidad está visible en la esquina superior derecha de los canales del equipo. 
 
 > [!NOTE]
 > Si usa etiquetas jerárquicas de elementos primarios y secundarios como "Confidencial\Finanzas", solo se mostrará la etiqueta principal en el encabezado del canal.
 
-![Captura de pantalla de la etiqueta de confidencialidad en el canal de grupo](media/sensitivity-labels-channel.png)
+![Captura de pantalla de la etiqueta de confidencialidad en el canal de grupo.](media/sensitivity-labels-channel.png)
 
 El propietario de un equipo puede cambiar la etiqueta de confidencialidad y la configuración de privacidad del equipo en cualquier momento yendo al equipo y, a continuación, haga clic **en Editar equipo.**
 
-![Captura de pantalla de etiqueta de confidencialidad en las propiedades del equipo](media/sensitivity-labels-edit-team.png)
+![Captura de pantalla de etiqueta de confidencialidad en las propiedades del equipo.](media/sensitivity-labels-edit-team.png)
 
 ### <a name="control-guest-access-to-teams"></a>Controlar el acceso de invitado a los equipos
 

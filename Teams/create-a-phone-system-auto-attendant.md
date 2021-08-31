@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: 16a26cd3384ddaaa3003649a3026bbe876a38399
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 59d12bc7d7bde68be6c42aff4e415713d641679f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634874"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729089"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -60,7 +60,7 @@ En este vídeo se muestra un ejemplo básico de cómo crear un operador automát
 
 ## <a name="general-info"></a>Información general
 
-![Captura de pantalla de la configuración del operador automático para el nombre, el operador, la zona horaria, el idioma y las entradas de voz](media/auto-attendant-general-info-page-new.png)
+![Captura de pantalla de la configuración del operador automático para el nombre, el operador, la zona horaria, el idioma y las entradas de voz.](media/auto-attendant-general-info-page-new.png)
 
 1. Escriba un nombre para el operador automático en el cuadro de la parte superior.
 
@@ -79,7 +79,7 @@ En este vídeo se muestra un ejemplo básico de cómo crear un operador automát
 
 ## <a name="call-flow"></a>Flujo de llamadas
 
-![Captura de pantalla de la configuración del mensaje de saludo](media/auto-attendant-call-flow-greeting-message.png)
+![Captura de pantalla de la configuración del mensaje de felicitación.](media/auto-attendant-call-flow-greeting-message.png)
 
 Elija si desea reproducir un saludo cuando el operador automático responda a una llamada.
 
@@ -87,7 +87,7 @@ Si selecciona **Reproducir un archivo de audio,** puede usar el botón **Upload*
 
 Si selecciona **Escribir un mensaje de** saludo, el sistema leerá el texto que escriba (hasta 1000 caracteres) cuando el operador automático responda a una llamada.
 
-![Captura de pantalla de la configuración de enrutamiento de llamadas](media/auto-attendant-call-flow-route-call-message.png)
+![Captura de pantalla de la configuración de enrutamiento de llamadas.](media/auto-attendant-call-flow-route-call-message.png)
 
 Elija cómo desea enrutar la llamada.
 
@@ -99,7 +99,7 @@ Si selecciona Opciones **de menú** Reproducir, puede elegir Reproducir un archi
 
 ### <a name="menu-options"></a>Opciones de menú
 
-![Captura de pantalla de las opciones de la tecla de marcado](media/auto-attendant-call-flow-menu-options-complete.png)
+![Captura de pantalla de las opciones de la tecla de marcado.](media/auto-attendant-call-flow-menu-options-complete.png)
 
 Para las opciones de marcado, asigne las teclas 0-9 del teclado del teléfono a uno de los destinos de enrutamiento de llamadas. (Las teclas \* (Repetir) y \# (Atrás) están reservados por el sistema y no se pueden reasignar).
 
@@ -152,7 +152,7 @@ Una vez que haya seleccionado una **opción de búsqueda de** directorio, selecc
 
 ## <a name="call-flow-for-after-hours"></a>Flujo de llamadas para horas pasadas
 
-![Captura de pantalla de la configuración de días y horas adicionales](media/auto-attendant-business-hours.png)
+![Captura de pantalla de la configuración de días y horas adicionales.](media/auto-attendant-business-hours.png)
 
 El horario laboral se puede establecer para cada operador automático. Si el horario laboral no está establecido, todos los días y todas las horas del día se consideran horario laboral porque una programación 24/7 está establecida de forma predeterminada. El horario laboral se puede establecer con descansos en el tiempo durante el día y todas las horas que no se establecen como horas laborables se consideran fuera del horario laboral. Puede establecer diferentes opciones de administración de llamadas entrantes y saludos para las horas adicionales.
 
@@ -166,7 +166,7 @@ Seleccione **Siguiente** cuando haya terminado.
 
 ## <a name="call-flows-during-holidays"></a>Flujos de llamadas durante los días festivos
 
-![Captura de pantalla de la configuración de saludo navideña y navideña](media/auto-attendant-holiday-greeting.png)
+![Captura de pantalla de la configuración de saludo navideña y navideña.](media/auto-attendant-holiday-greeting.png)
 
 El operador automático puede tener un flujo de llamadas para cada [vacaciones que haya configurado.](set-up-holidays-in-teams.md) Puede agregar un máximo de 20 días festivos programados a cada operador automático.
 
@@ -178,7 +178,7 @@ El operador automático puede tener un flujo de llamadas para cada [vacaciones q
 
 4. Elija el tipo de saludo que desea usar.
 
-    ![Captura de pantalla de la configuración de acción de llamada navideña](media/auto-attendant-holiday-actions.png)
+    ![Captura de pantalla de la configuración de acción de llamada navideña.](media/auto-attendant-holiday-actions.png)
 
 5. Elija si desea desconectar **o** **redirigir** la llamada.
 
@@ -186,7 +186,7 @@ El operador automático puede tener un flujo de llamadas para cada [vacaciones q
 
 7. Seleccione **Guardar**.
 
-![Captura de pantalla de la configuración de vacaciones con días festivos en la lista](media/auto-attendant-holiday-call-settings.png)
+![Captura de pantalla de la configuración de vacaciones con días festivos en la lista.](media/auto-attendant-holiday-call-settings.png)
 
 Repita el procedimiento según sea necesario para cada vacaciones adicionales.
 
@@ -194,7 +194,7 @@ Cuando haya agregado todos los días festivos, seleccione **Siguiente.**
 
 ## <a name="dial-scope"></a>Ámbito de marcado
 
-![Captura de pantalla del ámbito de marcado para incluir y excluir opciones](media/auto-attendant-dial-scope.png)
+![Captura de pantalla del ámbito de marcado incluir y excluir opciones.](media/auto-attendant-dial-scope.png)
 
 El *ámbito de marcado* define qué usuarios están disponibles en el directorio cuando un autor de la llamada usa marcado por nombre o marcado por extensión. El valor predeterminado de **Todos los usuarios en** línea incluye todos los usuarios de su organización que son usuarios en línea o hospedados localmente mediante Skype Empresarial Server.
 
@@ -209,11 +209,11 @@ Cuando haya terminado de configurar el ámbito de marcado, seleccione **Siguient
 
 Todos los operadores automáticos deben tener una cuenta de recursos asociada.  Los operadores automáticos de primer nivel necesitarán al menos una cuenta de recursos que tenga un número de servicio asociado. Si lo desea, puede asignar varias cuentas de recursos a un operador automático, cada una con un número de servicio independiente.
 
-![Captura de pantalla del panel agregar cuentas de la cuenta de recursos](media/auto-attendant-add-resource-account.png)
+![Captura de pantalla del panel agregar cuentas de la cuenta de recursos.](media/auto-attendant-add-resource-account.png)
 
 Para agregar una cuenta de recurso, seleccione **Agregar cuenta** y busque la cuenta que desea agregar. Seleccione **Agregar** y, a continuación, **seleccione Agregar**.
 
-![Captura de pantalla de la lista de cuentas de recursos que muestra la cuenta de recursos con el número de servicio asignado](media/auto-attendant-resource-account-assigned.png)
+![Captura de pantalla de la lista de cuentas de recursos que muestra la cuenta de recursos con el número de servicio asignado.](media/auto-attendant-resource-account-assigned.png)
 
 Cuando haya terminado de agregar cuentas de recursos, seleccione **Enviar** para completar la configuración de operador automático.
 

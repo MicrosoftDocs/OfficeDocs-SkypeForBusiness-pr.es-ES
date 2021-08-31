@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Introducción al uso de Skype Empresarial de telemetría en línea para supervisar una implementación local en un escenario híbrido.
-ms.openlocfilehash: 9d71a362de36d865ba6595626d971206bdbb974a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608647"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726489"
 ---
 # <a name="plan-call-data-connector"></a>Plan del conector de datos de llamada
 
@@ -54,7 +54,7 @@ Para obtener más información, vea Análisis de llamadas y Diagrama del panel d
 
 Por supuesto, es posible que desee mantener algunos datos de calidad de llamadas localmente. Este puede ser el caso, por ejemplo, si usa una solución de terceros con informes y flujos de trabajo personalizados.  Call Data Connector le permite configurar el envío de datos al servicio en línea al mismo tiempo que guarda una copia de los datos en el servidor local, como se muestra en el siguiente diagrama:
 
-![SfB Correo de voz en la nube](../../sfbserver2019/media/call-data-connector-plan-2.png)
+![SfB Correo de voz en la nube.](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
 ## <a name="requirements"></a>Requisitos
 

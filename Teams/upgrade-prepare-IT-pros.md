@@ -19,16 +19,16 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53e0e8e57a7948947878fe93bcf358c83adeac52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b9aad81e00b90a5a87df363a4257ed0c68e08977
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618336"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729319"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Prepare a su personal de TI para Microsoft Teams
 
-![Diagrama de viaje de actualización, haciendo hincapié en la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase preparación técnica")
+![Diagrama de viaje de actualización, haciendo hincapié en la fase de preparación técnica.](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase preparación técnica")
 
 Este artículo forma parte de la fase preparación técnica del viaje de actualización, una actividad que se completa en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha completado estas actividades de fases anteriores:
 
@@ -50,7 +50,7 @@ Comparta los siguientes recursos con los miembros del personal de TI y confirme 
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Ha implicado a todo el personal de soporte técnico que probablemente esté implicado en la implementación y el soporte técnico Teams?</li><li>¿Ha desarrollado un plan de aprendizaje para incorporar personal adicional a medida que avanza la actualización?</li></ul> |
-| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Compruebe que el personal de IT tiene la información que necesitan.</li><li>Revise sus planes de formación y preparación a medida que se van publicando nuevas características.</li></ul>|
+| ![Un icono que muestra los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Ha implicado a todo el personal de soporte técnico que probablemente esté implicado en la implementación y el soporte técnico Teams?</li><li>¿Ha desarrollado un plan de aprendizaje para incorporar personal adicional a medida que avanza la actualización?</li></ul> |
+| ![Un icono que muestra los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Compruebe que el personal de IT tiene la información que necesitan.</li><li>Revise sus planes de formación y preparación a medida que se van publicando nuevas características.</li></ul>|
 
 Después de preparar a su personal de TI para Teams, compruebe que su entorno cumple todos los [requisitos previos.](upgrade-plan-journey-prerequisites.md)

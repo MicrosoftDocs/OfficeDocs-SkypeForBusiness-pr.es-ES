@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el Teams de uso de eventos en
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ea415e849f4255b38432d227a9d26452b3fc9275
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0d9f11e64daf1b530704d79c512e5741cda18a48
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631214"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729559"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams de uso de eventos en directo
 
@@ -35,7 +35,7 @@ El Teams de uso de eventos en directo en el centro de administración de Microso
 3. (Opcional) En **Organizador,** puede elegir mostrar solo eventos en directo organizados por un usuario específico.
 4. Haga clic **en Ejecutar informe.**  
 
-    ![Captura de pantalla del Teams de uso de eventos en directo en el centro Teams de administración con llamadas](../media/teams-live-event-usage-report-with-callouts.png "Captura de pantalla del Teams de uso de eventos en directo en el centro Teams de administración con llamadas")
+    ![Captura de pantalla del Teams de uso de eventos en directo en el Teams de administración con llamadas.](../media/teams-live-event-usage-report-with-callouts.png "Captura de pantalla del Teams de uso de eventos en directo en el centro Teams de administración con llamadas")
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 
@@ -54,7 +54,7 @@ Mostrar hasta 100 eventos en directo que coincidan con los criterios de informe 
 
 La página de detalles del evento en directo le proporciona un resumen de los detalles de un evento en directo y enumera todos los archivos, incluidas transcripciones y grabaciones, asociados con el evento. Haga clic en un nombre de archivo para ver o descargar el archivo.
 
-![Captura de pantalla que muestra detalles de un evento en directo](../media/teams-live-event-usage-report-event-detail.png)
+![Captura de pantalla que muestra detalles de un evento en directo.](../media/teams-live-event-usage-report-event-detail.png)
 
 Si su organización está habilitada para el eCDN de [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) o [el ECDN de Kollective,](https://kollective.com) puede obtener análisis de asistentes adicionales haciendo clic en el vínculo del informe de partners.
 

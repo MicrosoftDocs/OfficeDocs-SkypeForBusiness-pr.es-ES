@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8733dde289cfc595d8db7b56652cb28dcc646b8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3c388ab19d74370612531e3ac998ff3e928e0d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589774"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726899"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Crear una plantilla de equipo personalizada en Microsoft Teams
 
@@ -86,11 +86,11 @@ Para empezar:
 
 3. En la **sección Agregar una aplicación para esta plantilla,** agregue una aplicación sitio web.
 
-    ![agregar una aplicación para esta opción de plantilla](media/add-an-app-template.png)
+    ![agregar una aplicación para esta opción de plantilla.](media/add-an-app-template.png)
 
 4. Seleccione el icono de edición e introduzca la dirección URL que prefiera.
 
-    ![agregar una dirección URL de la aplicación](media/add-url-app-template.png)
+    ![agregar una dirección URL de la aplicación.](media/add-url-app-template.png)
 
 5. Seleccione **Guardar** para las modificaciones de la aplicación de pestaña y, a continuación, **seleccione Aplicar** para guardar los cambios.
 
@@ -104,7 +104,7 @@ Actualmente estamos trabajando en una corrección para futuros equipos creados a
 
 **Problema:** Al usar Teams en el explorador, algunos sitios web no admiten que se represente dentro de una Teams pestaña.
 
-![mensaje de error del explorador](media/browser-error-message.png)
+![mensaje de error del explorador.](media/browser-error-message.png)
 
 **Solución:** Si tiene problemas para ver el contenido de la pestaña del sitio web, se le redirigirá a abrir la pestaña en una página web independiente o a abrir Teams en la aplicación de escritorio en su lugar para ver la aplicación de pestaña del sitio web.
 

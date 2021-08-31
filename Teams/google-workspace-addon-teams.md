@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f4fe6a61dd4891f457656e0659243c75c372142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb5f7574bd5e07598c412cd7d17f02625de2f095
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598544"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729919"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar un Microsoft Teams de reunión para Google Workspace
 
@@ -43,11 +43,11 @@ El complemento está habilitado de forma predeterminada.
 
 3. Busque el **Microsoft Teams reunión de Google Workspace.**
 
-   ![Azure Portal que muestra todas las aplicaciones](media/aad-add-google-workspace.png)
+   ![Azure Portal que muestra todas las aplicaciones.](media/aad-add-google-workspace.png)
 
 4. Seleccione **Sí**.
 
-   ![Azure Portal que muestra las propiedades del área de trabajo de Google](media/google-workspace-properties.png)
+   ![Azure Portal que muestra las propiedades del área de trabajo de Google.](media/google-workspace-properties.png)
 
 5. (Opcional) Para deshabilitar el complemento, seleccione **No** en lugar de **Sí** en el paso 4.
 

@@ -17,18 +17,18 @@ description: Obtenga un informe de asistencia a reuniones desde Teams. Este info
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 233a76bf8c3ae2d3cd71aeddd487f606dcdbaea6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93aad3cdee1c3819ee0d524a8538608dbeba1b0c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592194"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726379"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Informe de asistencia a reuniones de Microsoft Teams
 
 Los organizadores de reuniones pueden ver y descargar informes de asistencia a reuniones. Para buscar este informe en el panel **Participantes** de la reunión, haga clic en la flecha de descarga como se muestra a continuación. Puede descargar el informe como un archivo .CSV (formato de texto).
 
-:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Controlar la descarga de informes de asistencia a reuniones en Microsoft Teams":::
+:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Controlar la descarga de informes de asistencia a reuniones en Microsoft Teams.":::
 
 Para los espacios empresariales de educación, este informe es útil para realizar un seguimiento de la asistencia de los alumnos a las clases en línea. Por ejemplo, el profesor puede descargar el informe de asistencia al principio de la clase como una forma sencilla de realizar una "llamada de lanzamiento". Para obtener más información, lea [Descargar informes de asistencia en Teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: dc2bbff037a5e35b1fdb2c9b23c03246eee4a25b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7136a8108a5ecd9e55d2def1e4cedd1076b270ff
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594864"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729059"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Establecer los números de teléfono incluidos en las invitaciones en Skype Empresarial Online
 
@@ -56,7 +56,7 @@ Un puente de conferencias le proporciona un conjunto de números de teléfono de
     
 3. Seleccione **Usuarios**.
     
-    ![Muestra la selección de usuarios en el Skype Empresarial de administración](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
+    ![Muestra la selección de usuarios en el Skype Empresarial de administración.](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
 4. Elija los usuarios que desea editar:
     

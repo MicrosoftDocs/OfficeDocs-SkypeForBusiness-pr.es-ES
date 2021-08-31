@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lea este tema para obtener información sobre cómo supervisar la implementación de Cloud Connector versión 2.1 y versiones posteriores mediante Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 43ebfe689e113daa063a2ef2ed0d9b68a9d9d66a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627732"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729029"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Supervisar Cloud Connector con Operations Management Suite (OMS)
 
@@ -55,7 +55,7 @@ Antes de usar OMS para supervisar la implementación de Cloud Connector, necesit
 
 Deberá configurar el entorno local de Cloud Connector para usar OMS. Para ello, necesitará el identificador y la clave del área de trabajo OMS, que puede encontrar mediante el portal OMS de la siguiente manera: Configuración-- Orígenes conectados \> , \> Windows servidores:
 
-![Captura de pantalla de OMS de Cloud Connector](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
+![Captura de pantalla de OMS de Cloud Connector.](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
 La configuración de Cloud Connector para usar OMS depende del escenario:
 
@@ -104,7 +104,7 @@ En el portal oms, debe especificar información sobre los registros de eventos y
 
    - Lync Server
 
-   - Aplicación
+   - Application
 
      > [!NOTE]
      > Debe escribir manualmente Lync Server en el cuadro de texto. No aparece como una opción en la lista desplegable. 
@@ -246,7 +246,7 @@ A continuación se enumeran los contadores de capacidad de llamada que se deben 
 
 - LS:MediationServer: llamadas salientes (_Total) Llamadas de desvío de \- medios activas
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 Para obtener más información sobre cómo trabajar con OMS, vea lo siguiente:
 

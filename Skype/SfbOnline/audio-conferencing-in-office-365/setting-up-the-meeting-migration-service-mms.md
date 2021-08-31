@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Servicio de migración de reuniones (MMS) es un servicio que se ejecuta en segundo plano y actualiza automáticamente Skype Empresarial y Microsoft Teams reuniones para los usuarios. MMS está diseñado para eliminar la necesidad de que los usuarios ejecuten la Herramienta de migración de reuniones para actualizar sus Skype Empresarial y Microsoft Teams reuniones.
-ms.openlocfilehash: 3fefc7aa45df3323f8c96801bde1cb301ff40572
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 008974d71d92667da96316aafa7b8c4adf478026
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613269"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726699"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Usar el servicio de migración de reuniones (MMS)
 
@@ -57,7 +57,7 @@ Cuando mms se desencadena para un usuario determinado, una solicitud de migraci�
 3. En el mensaje de correo electrónico, reemplaza el bloque de reunión en línea en los detalles de la reunión.
 4. Envía la versión actualizada de esa reunión a todos los destinatarios de la reunión en nombre del organizador de la reunión. Los invitados a la reunión recibirán una actualización de la reunión con las coordenadas de reunión actualizadas en su correo electrónico. 
 
-    ![El bloque de reunión que MMS actualiza](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
+    ![El bloque de reunión que mms actualiza.](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
 
 Desde el momento en que se activa MMS, normalmente se tarda unas 2 horas hasta que se migran las reuniones del usuario. Sin embargo, si el usuario tiene un gran número de reuniones, puede tardar más tiempo. Si MMS encuentra un error al migrar una o más reuniones para el usuario, volverá a intentarlo periódicamente hasta 9 veces durante un período de 24 horas.
 

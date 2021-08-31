@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2bd70c0b46d48333552a862ab26a763cfe5473d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd526f78a04bc71b2992aa8f3f0bcd15b3b77df0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613569"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726769"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>¿Hasta qué punto está preparada su organización para Microsoft Teams?
 
@@ -72,7 +72,7 @@ Nuestra Guía del programa de adopción temprana es un recurso útil para inicia
 
 El cambio es un proceso humano que no tiene nada que ver con la tecnología. Existe la psicología conductual y la neurociencia que nos educa sobre la resistencia natural al cambio. Para que el cambio sea aceptable, es fundamental anticipar las necesidades de los usuarios, expresar su comprensión de su situación y crear soluciones que mejoren esa situación. Incluso al hacerlo, se encontrará con una resistencia natural al cambio.  
 
-![Graph ilustrar la resistencia al cambio](media/teams-adoption-resistance.png)
+![Graph que ilustra la resistencia al cambio.](media/teams-adoption-resistance.png)
 
 Los enfoques de cada organización cambian de forma diferente, dependiendo de la región, el estilo de trabajo, el perfil profesional y otros elementos de la organización. Para evaluar la preparación de su organización, vea Evaluar la [preparación para los cambios organizativos.](upgrade-org-change-readiness.md) Use las directrices para responder a las siguientes preguntas:
 
@@ -104,4 +104,4 @@ Combine estos datos con los perfiles de las partes interesadas y los empleados q
 
 Puede usar los campeones internos para solucionar el problema de tener diferentes tipos de cambio. Aquí, los comentarios son la clave del éxito: anime a las personas a compartir sus retos y necesidades. Abrace a los disruptores y disidentes al dar a estos individuos o grupos un puesto en la tabla durante la experimentación. Este procedimiento recomendado allanará el camino para una implementación más fluida y amplia de las mejoras de colaboración.  
 
-![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Microsoft Teams fase de adopción 2: Experimento](teams-adoption-phase2-experiment.md) 
+![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Microsoft Teams fase de adopción 2: Experimento](teams-adoption-phase2-experiment.md) 

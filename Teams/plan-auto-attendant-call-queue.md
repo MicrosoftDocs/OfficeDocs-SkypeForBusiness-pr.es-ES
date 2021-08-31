@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre operadores automáticos y colas de llamadas y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para llegar a personas o departamentos de su organización.
-ms.openlocfilehash: 9d4a3a71e2d94de88f01c3a62dc507095ffef49e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1bd9f1d299123812c4a2621e48578730126fe619
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613609"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729579"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear Teams operadores automáticos y colas de llamadas
 
@@ -166,7 +166,7 @@ Las llamadas redirigidos fuera de una cola se pueden enviar a cualquiera de los 
 
 En el ejemplo siguiente se muestra un ejemplo de enrutamiento de llamadas con operadores automáticos y colas de llamadas.
 
-![Diagrama de enrutamiento de llamadas con operadores automáticos y colas de llamadas](media/attendant-and-queue-call-routing.png)
+![Diagrama de enrutamiento de llamadas con operadores automáticos y colas de llamadas.](media/attendant-and-queue-call-routing.png)
 
 En el ejemplo anterior:
 

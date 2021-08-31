@@ -19,12 +19,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar la configuración de red para las características de voz en la nube en Microsoft Teams.
-ms.openlocfilehash: 7ed9837b676197b588669ae95db77c9e834371dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 701e3900980b628f66d9d62d3dade987fee821fe
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598424"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726579"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Administre la topología de red para las características de voz en la nube en Microsoft Teams
 
@@ -43,7 +43,7 @@ Defina regiones de red, sitios de red y subredes en la pestaña Sitios **de** re
 1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Topología de red de ubicaciones y, a continuación, haga clic en  >  la pestaña **Sitios de** red.
 2. Haga **clic en** Agregar y, a continuación, escriba un nombre y una descripción para el sitio.
 
-    ![Captura de pantalla de la página Agregar sitio de red](media/manage-network-topology-add-site.png)
+    ![Captura de pantalla de la página Agregar sitio de red.](media/manage-network-topology-add-site.png)
 
 3. Para asociar el sitio a una región de red, haga  clic en Agregar región de **red,** seleccione una región existente o haga clic en Agregar para agregar una región y, a continuación, haga clic en **Vincular.**  
 4. Para habilitar Location-Based enrutamiento para el sitio, active **Enrutamiento basado en ubicación.**
@@ -71,7 +71,7 @@ Puede administrar direcciones IP de confianza externa en la pestaña **Ip de** c
 2. Haga clic en **Nuevo**.
 3. En el **panel Agregar dirección IP de** confianza, especifique la versión IP, la dirección IP, el rango de red, agregue una descripción y, a continuación, haga clic en **Aplicar.**
 
-    ![Captura de pantalla del panel Agregar dirección IP de confianza](media/manage-network-topology-add-trusted-ip.png)
+    ![Captura de pantalla del panel Agregar dirección IP de confianza.](media/manage-network-topology-add-trusted-ip.png)
 
 #### <a name="edit-a-trusted-ip-address"></a>Editar una dirección IP de confianza
 

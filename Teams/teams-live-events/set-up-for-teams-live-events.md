@@ -20,12 +20,12 @@ description: Configure eventos en directo en Teams, incluyendo configurar su red
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 81b86121aceb0b0044f8b7dca422437331803689
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 261bea1f2abbe4194d0906078977bf870581d31c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636624"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726719"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configure los eventos en directo en Microsoft Teams
 
@@ -59,7 +59,7 @@ Las directivas de los eventos en directo se usan para controlar qué usuarios de
 
     Puede cambiar estas opciones de configuración para satisfacer las necesidades de su organización.
 
-    ![Captura de pantalla de la configuración de los eventos en directo de Teams](../media/teams-live-events-policies.png "Captura de pantalla de la configuración de la directiva de eventos en directo en el centro de administración de Microsoft Teams")
+    ![Captura de pantalla de la configuración de directiva de eventos en directo.](../media/teams-live-events-policies.png "Captura de pantalla de la configuración de la directiva de eventos en directo en el centro de administración de Microsoft Teams")
 
 |Setting  |Descripción  |
 |---------|---------|

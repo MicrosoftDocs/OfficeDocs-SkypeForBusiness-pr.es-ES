@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Lea este tema para obtener información sobre cómo planear los sitios RTC de Cloud Connector Edition para garantizar un enrutamiento de llamadas eficaz y rentable.
-ms.openlocfilehash: 54f8ec9f89c6a3ef88b5ac8e70e9eebfd2968d2d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 50b30a5071dd14cc0016419d85406b7c50d85387
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616336"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729239"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Plan de sitios de RTC con Cloud Connector Edition
 
@@ -74,7 +74,7 @@ Dado que el usuario A en Redmond (Centro de datos A) y el usuario B en Bellevue 
   
 Por lo tanto, los usuarios A y B, y los troncos de Cloud Connector para Bellevue y Redmond, probablemente pueden estar en el mismo sitio RTC de Cloud Connector como se muestra en el diagrama siguiente. Las llamadas de emergencia de los usuarios de una oficina se pueden enrutar a troncos en la otra. Sin embargo, debe comprobar con su operador que esto funcionará.
   
-![Cómo configurar sitios RTC](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
+![Cómo configurar sitios RTC.](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
   
 Tenga en cuenta también los siguientes ejemplos:
   

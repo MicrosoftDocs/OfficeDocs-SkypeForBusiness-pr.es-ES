@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 124908362a762a9940f87713dd4e699459443e85
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630214"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729229"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introducción a Microsoft Teams
 
@@ -43,7 +43,7 @@ Recomendamos implementar Teams por fases, con una carga de trabajo cada vez, en 
 - [Reuniones y conferencias](deploy-meetings-microsoft-teams-landing-page.md)
 - [Voz en la nube](cloud-voice-landing-page.md)
 
-![Diagrama que muestra los caminos de implementación de Teams](media/get-started-with-teams-quick-start-pathways.png)
+![Diagrama que muestra los caminos de implementación de Teams.](media/get-started-with-teams-quick-start-pathways.png)
 
 Si tiene una organización mediana o grande, [use el Asesor para Teams para implementar Microsoft Teams](use-advisor-teams-roll-out.md) y planificar la implementación de estas cargas de trabajo en toda la organización. El Asesor para Teams usa al mismo Teams para crear las tareas del plan y asignarlas a sus respectivos propietarios, compartir documentos y habilitar discusiones entre los miembros de su equipo de implementación.
 

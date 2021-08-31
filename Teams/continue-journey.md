@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415535ea4ec2902d089d0229cd6c4b578837f03f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4572e39eeb2093c69de5b055436b330428763380
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628392"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728919"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Cómo usar Microsoft Teams eficaz
 
-![Diagrama de viaje de actualización, haciendo hincapié en la fase de excelencia operativa](media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase excelencia operativa")
+![Diagrama de viaje de actualización, haciendo hincapié en la fase de excelencia operativa.](media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase excelencia operativa")
 
 Este artículo forma parte de la fase excelencia operativa del viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype Empresarial a Teams.
 
@@ -60,4 +60,4 @@ El ciclo de vida de cualquier tecnología determinada se ha desplazado a un cicl
 - Implemente un formulario de planificación de cambios (como se muestra a continuación) para preparar e implementar nuevas funciones. Asegúrese de incluir las actividades técnicas y de preparación del usuario.
 
 
-![Formulario de ejemplo que muestra las fechas y notas de la versión esperada](media/upgrade-change-plan-form.png "Formulario de ejemplo que muestra fechas de lanzamiento esperadas y notas sobre nuevas funciones, que se muestran con los siguientes pasos y propietarios")
+![Formulario de ejemplo que muestra las fechas y notas de la versión esperada.](media/upgrade-change-plan-form.png "Formulario de ejemplo que muestra fechas de lanzamiento esperadas y notas sobre nuevas funciones, que se muestran con los siguientes pasos y propietarios")

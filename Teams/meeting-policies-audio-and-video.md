@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams para audio y vídeo.
-ms.openlocfilehash: 2fcfb2525abf935cc8d26e7fe330fa4edff48f90
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578364"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726569"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configuración de directiva de reunión para audio & vídeo
 
@@ -54,7 +54,7 @@ Esta es una combinación de directiva por organizador y por usuario. Esta config
 
 Las personas de fuera de su organización, como los usuarios federados y anónimos, no pueden iniciar la grabación. Los usuarios invitados no pueden iniciar o detener la grabación.
 
-![Captura de pantalla que muestra las opciones de grabación](media/meeting-policies-recording.png)
+![Captura de pantalla que muestra las opciones de grabación.](media/meeting-policies-recording.png)
 
 Veamos el ejemplo siguiente.
 
@@ -116,7 +116,7 @@ Las reuniones organizadas por un usuario que tiene habilitada esta configuració
 
 | Clientes de escritorio y web de Teams |Cliente móvil de Teams  |
 |:-------:|:-------:|
-|![Captura de pantalla que muestra información para unirse a la reunión y la configuración de audio o vídeo en el cliente de escritorio](media/meeting-policies-audio-video-settings.png)    |![Captura de pantalla que muestra la pantalla para unirse a la reunión y la configuración de audio o vídeo en el cliente de móvil](media/meeting-policies-mobile-join.png)          |
+|![Captura de pantalla que muestra la combinación de reuniones con la configuración de audio y vídeo en el escritorio.](media/meeting-policies-audio-video-settings.png)    |![Captura de pantalla que muestra la pantalla para unirse a la reunión y la configuración de audio o vídeo en el cliente de móvil](media/meeting-policies-mobile-join.png)          |
 
 Veamos el ejemplo siguiente.
 
@@ -199,7 +199,7 @@ Puede agregar imágenes de fondo personalizadas para que se utilicen por espacio
 
 2. Seleccione **Directivas de reunión Personalizar** imágenes de  >  **reunión.**
 
-   ![La selección de directivas de reunión con el botón Personalizar imágenes de reunión resaltado](media/custom-background-image-button.png)
+   ![La selección de directivas de reunión con el botón Personalizar imágenes de reunión resaltado.](media/custom-background-image-button.png)
 
 3. Seleccione **Activar en** imágenes de fondo ancho de la **organización.**
 

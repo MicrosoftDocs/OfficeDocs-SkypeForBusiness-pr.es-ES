@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el Microsoft Teams de administración o Windows PowerShell para crear y administrar planes de marcado (planes de marcado de llamadas RTC).
-ms.openlocfilehash: e6cc5e751efa412c24eb13f182ab5967360c677e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44ecabfb04d8919ac289067818e736e170e6d181
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628382"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728709"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
@@ -38,7 +38,7 @@ Después de planear los planes de marcado para su organización y de averiguar t
 
 1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Plan **de marcado**  >  **de voz.**
 2. Haga **clic en** Agregar y escriba un nombre y una descripción para el plan de marcado.
-    ![Captura de pantalla que muestra la página Agregar para crear un plan de marcado](media/create-dial-plan.png)
+    ![Captura de pantalla que muestra la página Agregar para crear un plan de marcado.](media/create-dial-plan.png)
 3. En **Detalles del plan de** marcado, especifique un prefijo de marcado externo si los usuarios necesitan marcar uno o más dígitos iniciales adicionales (por ejemplo, 9) para obtener una línea externa. Para ello:
     1. En el **cuadro Prefijo de marcado externo,** escriba un prefijo de marcado externo. El prefijo puede tener hasta cuatro caracteres (#,*y 0-9).
     2. Activar la **marcación de dispositivo optimizada**. Si especifica un prefijo de marcado externo, también debe activar esta configuración para aplicar el prefijo para que las llamadas se puedan realizar fuera de su organización.

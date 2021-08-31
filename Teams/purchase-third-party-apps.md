@@ -16,12 +16,12 @@ description: Obtenga información sobre cómo comprar aplicaciones de terceros p
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: da917d2c58282554e3e2a68464cea1f2249bd324
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05b280a789a6d41e459e2b8598606e1a7f11226f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616186"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726809"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicaciones de terceros para Teams
 
@@ -34,7 +34,7 @@ La [página Administrar aplicaciones](manage-apps.md) del centro Microsoft Teams
 
 Aquí también puede comprar licencias para los servicios ofrecidos por aplicaciones de terceros para los usuarios de su organización. La **columna Licencias de** la tabla indica si una aplicación ofrece una suscripción saas para la compra.
 
-:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Captura de pantalla que muestra aplicaciones de terceros que tienen suscripciones de SaaS":::
+:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Captura de pantalla que muestra aplicaciones de terceros que tienen suscripciones de SaaS.":::
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>Buscar y comprar servicios para una aplicación de terceros
 
@@ -56,7 +56,7 @@ Después de comprar la oferta SaaS asociada Teams la aplicación Teams, puede ve
 - **Fecha de activación de licencia:** fecha en la que se activó la licencia. Si su cuenta aún no está configurada, se muestra como **Suscripción pendiente de activación.**
 - **Licencias:** Número de licencias que ha comprado.
 
-:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Captura de pantalla de la pestaña Planes y precios de la página de detalles de la aplicación":::
+:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Captura de pantalla de la pestaña Planes y precios de la página de detalles de la aplicación.":::
 
 Seleccione **Administrar licencias para** ir a la Centro de administración de Microsoft 365 ver y administrar las licencias que compró y administrar las asignaciones de licencias para los usuarios.
 

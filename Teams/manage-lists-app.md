@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fa5d9c3f1c74133b96eda81d7c56c3f353265b99
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b8d593d4f3238bb588159290655f1aa241beffc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615346"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727009"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Lists para su organización en Microsoft Teams
 
@@ -37,11 +37,11 @@ La aplicación Lists en Microsoft Teams ayuda a los usuarios de su organización
 
 En Teams, los usuarios acceden a Lists como una pestaña de un canal. Haga clic en **+** para abrir la galería de pestañas y agregar una nueva instancia de pestaña de la aplicación Lists a un canal para empezar.
 
-![Aplicación Lists en la galería de pestañas](media/lists-tab.png)
+![Lista de aplicaciones en la galería de pestañas.](media/lists-tab.png)
 
 Los usuarios pueden crear nuevas listas o anclar listas existentes desde el mismo equipo o desde un sitio de SharePoint al que tengan acceso. Las listas nuevas se pueden crear desde cero, a partir de plantillas integradas, en función de la estructura de una lista existente o importando datos de un libro de Excel. La aplicación Lists está disponible en clientes móviles, web y de escritorio de Teams.
 
-![Cómo crear una lista en la aplicación Lists](media/lists-create-list.png)
+![cómo crear una lista en la aplicación Listas.](media/lists-create-list.png)
 
 ## <a name="templates"></a>Plantillas
 

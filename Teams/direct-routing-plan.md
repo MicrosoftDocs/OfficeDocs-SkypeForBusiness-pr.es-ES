@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre Teléfono Microsoft system direct routing le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Teléfono Microsoft system.
-ms.openlocfilehash: 8c699b8893a35383b106271eacea2503f77495dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1239445effd958b97e9f50d4be9ed686ed594685
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582344"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728899"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -32,7 +32,7 @@ ms.locfileid: "58582344"
 
 Teléfono Microsoft System Direct Routing le permite conectar un controlador de borde de sesión (SBC) compatible y proporcionado por el cliente a Teléfono Microsoft Sistema.  Con esta capacidad, por ejemplo, puede configurar la conectividad de red telefónica conmutada (RTC) local con un cliente Microsoft Teams, como se muestra en el siguiente diagrama: 
 
-![Diagrama que muestra la configuración de conectividad RTC local](media/PlanDirectRouting1-PSTNwithTeams.png "Configuración de conectividad RTC local con Microsoft Teams cliente")
+![Diagrama que muestra la configuración de conectividad RTC local.](media/PlanDirectRouting1-PSTNwithTeams.png "Configuración de conectividad RTC local con Microsoft Teams cliente")
 
   > [!NOTE]
   > Skype Empresarial Online también le permite emparejar un SBC proporcionado por el cliente, pero esto requiere una implementación de Skype Empresarial Server local o una edición especial de Skype Empresarial, denominada Conector en la nube, entre el SBC y Microsoft Cloud. Este escenario se conoce como voz híbrida. Por el contrario, enrutamiento directo permite una conexión directa entre el SBC compatible y Microsoft Cloud.

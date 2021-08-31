@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: En este artículo se describen las ventajas, consideraciones de planeación y requisitos para implementar el Correo de voz en la nube de Microsoft servicio. Para obtener información sobre cómo configurar Correo de voz en la nube, vea Configuring Correo de voz en la nube.
-ms.openlocfilehash: df9675c7ebe36f73190240dc612ce83dd0de2263
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe3cc4cc9a7c009b2291875c6ffb4b9e8df4dbac
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594874"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729299"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planeación Correo de voz en la nube servicio para usuarios locales
 
@@ -55,7 +55,7 @@ Con Correo de voz en la nube, las tareas de administración se simplifican en gr
 
 El siguiente diagrama muestra Correo de voz en la nube en una implementación híbrida:
 
-![SfB Correo de voz en la nube](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
+![SfB Correo de voz en la nube.](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
 Las llamadas sin respuesta se controlan de la siguiente manera:  
 

@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ee333cd789b908851358f537e940c77543210e48feb86b2174cb9e289a2d160
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1cdb474bfab7d6f8f6cb54c4d93a225e844e1b3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304902"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729159"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de información en Microsoft Teams
 
@@ -51,7 +51,7 @@ Sin embargo, desde la introducción de los IB, muchas otras áreas han encontrad
 
 Por ejemplo, Enrico pertenece al segmento bancario y Pradeep pertenece al segmento asesor financiero. Enrico y Pradeep no pueden comunicarse entre sí porque la directiva del IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos. Sin embargo, Enrico y Pradeep pueden comunicarse con Lee en RECURSOS HUMANOS.
 
-![Ejemplo que muestra barreras de información que impiden la comunicación entre segmentos](media/information-barriers-example.png)
+![Ejemplo que muestra barreras de información que impiden la comunicación entre segmentos.](media/information-barriers-example.png)
 
 ## <a name="when-to-use-information-barriers"></a>Cuándo usar barreras de información
 
@@ -79,35 +79,35 @@ Las directivas del IB se activan cuando se Teams eventos:
 
 - **Los miembros se agregan a** un equipo: siempre que agregue un usuario a un equipo, la directiva del usuario debe evaluarse con las directivas del IB de otros miembros del equipo. Después de agregar correctamente al usuario, el usuario puede realizar todas las funciones del equipo sin más comprobaciones. Si la directiva del usuario impide que se le agregó al equipo, el usuario no se mostrará en la búsqueda.
 
-    ![Captura de pantalla de búsqueda de un nuevo miembro para agregar a un equipo y no encontrar coincidencias](media/information-barriers-add-members.png)
+    ![Captura de pantalla de búsqueda de un nuevo miembro para agregar a un equipo y no encontrar coincidencias.](media/information-barriers-add-members.png)
 
 - Se solicita un **nuevo chat:** cada vez que un usuario solicita un nuevo chat con uno o varios usuarios, el chat se evalúa para asegurarse de que no infringe ninguna política del IB. Si la conversación infringe una directiva del IB, la conversación no se inicia.
 
     Este es un ejemplo de un chat 1:1.
 
     > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra la comunicación bloqueada en el chat 1:1](media/information-barriers-one-one-chat.png)
+    > ![Captura de pantalla que muestra la comunicación bloqueada en un chat de 1:1.](media/information-barriers-one-one-chat.png)
 
     Este es un ejemplo de un chat grupal.
 
     > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra el chat grupal](media/information-barriers-group-chat.png)
+    > ![Captura de pantalla que muestra el chat grupal.](media/information-barriers-group-chat.png)
 
 - Se invita a un usuario a unirse **a** una reunión: cuando se invita a un usuario a unirse a una reunión, la directiva del IB que se aplica al usuario se evalúa con las directivas del IB que se aplican a los demás miembros del equipo. Si hay una infracción, el usuario no podrá unirse a la reunión.
 
-    ![Captura de pantalla que muestra el usuario bloqueado de la reunión](media/information-barriers-meeting.png)
+    ![Captura de pantalla que muestra el usuario bloqueado de la reunión.](media/information-barriers-meeting.png)
 
 - **Una pantalla** se comparte entre dos o más usuarios: cuando un usuario comparte una pantalla con otros usuarios, el uso compartido debe evaluarse para asegurarse de que no infringe las directivas del IB de otros usuarios. Si se infringe una directiva del IB, no se permitirá el uso compartido de pantalla.
 
     Este es un ejemplo de uso compartido de pantalla antes de aplicar la directiva.
 
     > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra un chat de usuario](media/ib-before-screen-share-policy.png)
+    > ![Captura de pantalla que muestra un chat de usuario.](media/ib-before-screen-share-policy.png)
 
     Este es un ejemplo de uso compartido de pantalla después de aplicar la directiva. Los iconos de pantalla y de llamada no son visibles.
 
     > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra el carácter de usuario con la configuración bloqueada](media/ib-after-screen-share-policy.png)
+    > ![Captura de pantalla que muestra el carácter de usuario con la configuración bloqueada.](media/ib-after-screen-share-policy.png)
 
 - Un usuario realiza una llamada de teléfono en **Teams:** siempre que un usuario inicia una llamada de voz (a través de VOIP) a otro usuario o grupo de usuarios, la llamada se evalúa para asegurarse de que no infringe las directivas del IB de otros miembros del equipo. Si hay alguna infracción, la llamada de voz está bloqueada.
 
@@ -124,22 +124,22 @@ Si hay un chat existente u otra comunicación entre los usuarios, y se establece
     Este es un ejemplo que muestra que el chat está visible.
 
     > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra que el chat de usuario está disponible](media/ib-before-1-1chat-policy.png)
+    > ![Captura de pantalla que muestra el chat de usuario está disponible.](media/ib-before-1-1chat-policy.png)
 
     Este es un ejemplo que muestra que el chat está deshabilitado.
 
     > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra que el chat de usuario está deshabilitado](media/ib-after-1-1chat-policy.png)
+    > ![La captura de pantalla que muestra el chat de usuario está deshabilitada.](media/ib-after-1-1chat-policy.png)
 
 - Chat **grupal:** si ya no se permite la comunicación de un usuario a un grupo (por ejemplo, porque un usuario cambió los trabajos), el usuario, junto con los demás usuarios cuya participación infringe la directiva, puede quitarse del chat grupal y no se permitirá una comunicación adicional con el grupo. El usuario todavía puede ver conversaciones antiguas, pero no podrá ver ni participar en nuevas conversaciones con el grupo. Si la directiva nueva o modificada que impide la comunicación se aplica a más de un usuario, es posible que los usuarios afectados por la directiva se quiten del chat grupal. Todavía pueden ver conversaciones antiguas.
 
   En este ejemplo, Enrico se mueve a otro departamento de la organización y se quita del chat grupal.
 
-  ![Captura de pantalla de un chat grupal del que se ha quitado un usuario](media/information-barriers-user-changes-job.png)
+  ![Captura de pantalla de un chat grupal del que se ha quitado un usuario.](media/information-barriers-user-changes-job.png)
 
   Enrico ya no puede enviar mensajes al chat grupal.
 
-  ![Captura de pantalla de no poder enviar mensajes al chat grupal porque el usuario se quitó del grupo](media/information-barriers-user-changes-job-2.png)
+  ![Captura de pantalla de no poder enviar mensajes al chat grupal porque el usuario se quitó del grupo.](media/information-barriers-user-changes-job-2.png)
 
 - **Equipo:** todos los usuarios que se han quitado del grupo se quitan del equipo y no podrán ver ni participar en conversaciones existentes o nuevas.
 
@@ -151,14 +151,14 @@ Actualmente, los usuarios experimentan los siguientes escenarios si una directiv
 
 - **Selector de personas:** los usuarios bloqueados no estarán visibles en el selector de personas.
 
-    ![Captura de pantalla Teams alerta al usuario de que la directiva impide mostrar la información de otro usuario](media/information-barriers-people-picker.png)
+    ![Captura de pantalla Teams alerta al usuario de que la directiva impide mostrar la información de otro usuario.](media/information-barriers-people-picker.png)
 
 - **Pestaña Actividad:** si un usuario visita **la** pestaña Actividad de un usuario bloqueado, no aparecerá ninguna publicación. (La **pestaña Actividad** solo muestra publicaciones de canal y no habría canales comunes entre los dos usuarios).
 
     Este es un ejemplo de la vista de pestaña actividad que está bloqueada.
 
     > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra la pestaña actividad que está bloqueada](media/ib-after-activity-tab-policy.png)
+    > ![Captura de pantalla que muestra la pestaña actividad que está bloqueada.](media/ib-after-activity-tab-policy.png)
 
 - **Organigramas:** si un usuario accede a un organigrama en el que aparece un usuario bloqueado, el usuario bloqueado no aparecerá en el organigrama. En su lugar, aparecerá un mensaje de error.
 
@@ -173,12 +173,12 @@ Actualmente, los usuarios experimentan los siguientes escenarios si una directiv
     Este es un ejemplo de un usuario bloqueado en la lista de contactos de llamadas.
 
     > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra el chat de usuario](media/ib-before-chat-contacts-policy.png)
+    > ![Captura de pantalla que muestra el chat de usuario.](media/ib-before-chat-contacts-policy.png)
 
     Este es un ejemplo de que el chat está deshabilitado para un usuario en la lista de contenido de llamadas.
 
     > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra el usuario bloqueado del chat](media/ib-after-chat-contacts-policy.png)
+    > ![Captura de pantalla que muestra el usuario bloqueado del chat.](media/ib-after-chat-contacts-policy.png)
 
 - Skype para **Teams:** durante una migración de Skype Empresarial a Teams, todos los usuarios, incluso aquellos que están bloqueados por directivas del IB, se migrarán a Teams. A continuación, esos usuarios se administran como se describe anteriormente.
 

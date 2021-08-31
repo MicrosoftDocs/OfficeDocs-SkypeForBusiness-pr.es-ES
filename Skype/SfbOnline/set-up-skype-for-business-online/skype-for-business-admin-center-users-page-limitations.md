@@ -21,29 +21,29 @@ ms.custom:
 - Setup
 - ms.lync.lac.UsersCountLimitationWarning
 description: 'Obtenga información sobre cómo trabajar dentro de las limitaciones de Skype Empresarial la presentación de usuarios de los administradores en línea. '
-ms.openlocfilehash: e05a07bbf4cca57a8f5c983dedec159956250cc0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fd99672f266a2ffa56bb36b1cafc0484c3bd760
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592084"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729279"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype Empresarial Limitaciones de página de usuarios del Centro de administración en línea
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Por motivos de **rendimiento, Skype Empresarial centro** de administración muestra los primeros 1.000 usuarios de la lista de usuarios. Si tiene más de 1.000 usuarios, **use** Filtro de filtro y Búsqueda de búsqueda para encontrar las personas específicas ![ que ](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)  ![ ](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) busca.
+Por motivos de **rendimiento, Skype Empresarial centro** de administración muestra los primeros 1.000 usuarios de la lista de usuarios. Si tiene más de 1.000 usuarios, use **Filtro de** ![ filtro.](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) y **Buscar** ![ para buscar a las personas específicas que está ](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) buscando.
   
 ## <a name="bulk-editing"></a>Edición en masa
 <a name="__top"> </a>
 
 1. Para seleccionar los primeros 1.000 usuarios (o todos los usuarios  devueltos por el filtro o la búsqueda), active la casilla situada junto a Nombre para mostrar en la parte superior de la lista.
     
-2. Haga clic **en Editar** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) edición.
+2. Haga **clic en** Editar ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) edición. .
     
 Puede cambiar el número de usuarios que se muestran en cada página con el control en la parte inferior de la lista:
   
-![Navegación de página de usuarios para cambiar la cantidad de usuarios en la página](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
+![Navegación de página de usuarios para cambiar la cantidad de usuarios en la página.](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
 ## <a name="related-topics"></a>Temas relacionados
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)

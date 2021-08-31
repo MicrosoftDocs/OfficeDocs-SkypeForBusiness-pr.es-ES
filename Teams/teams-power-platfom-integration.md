@@ -17,18 +17,18 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga más información Teams integración con las herramientas de Microsoft Power Platform, incluidas Power BI, power apps, Power automate y Power Virtual Agents.
-ms.openlocfilehash: 521085303ed77f23aae0bd8a87001483cc8d530f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: af15b1cff05224a023fcbc80a166ed836d583ba5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629952"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729509"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams integración con Microsoft Power Platform
 
 Microsoft Power Platform ayuda a los usuarios a acelerar su desarrollo con herramientas de código bajo para analizar datos con **Power BI,** crear aplicaciones personalizadas con **Power Apps,** automatizar procesos con **Power Automate** y crear bots inteligentes **con Power Virtual Agents** más rápido que nunca. Con el cambio al trabajo remoto e híbrido, Microsoft Teams ha permitido que personas de todo el mundo puedan seguir crear, colaborar y comunicarse. Con más de 75 millones de usuarios activos diarios, Teams es la manera en que los usuarios realizan el trabajo.
 
-:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Imagen que resume Teams y Microsoft Power Platform":::
+:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Imagen que resume Teams Microsoft Power Platform.":::
 
 Microsoft Power Platform ofrece muchas capacidades de integración con Teams donde puede insertar informes Power BI en el área de trabajo de Teams, insertar aplicaciones creadas con **Power Apps** como una pestaña o una aplicación personal, desencadenar un flujo **Power Automate** desde cualquier mensaje o usar tarjetas adaptables, y agregar el bot creado con **Power Virtual Agents** a Teams para que otros miembros de su organización interactúen con ellos. 
 

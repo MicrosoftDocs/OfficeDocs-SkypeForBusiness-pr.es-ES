@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Summary: Learn about what to consider when you plan for the Call Quality Dashboard.'
-ms.openlocfilehash: e93db0e3e297de8eff81cea16fa15ff9c7dd42e0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d50b8eba500a6197eb12bad98de0ef72c054f26b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588582"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728859"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Plan for Call Quality Dashboard for Skype Empresarial Server 
  
@@ -57,7 +57,7 @@ Para resumir, CQD requiere los siguientes elementos:
     
 - IIS hospeda CQD Web Portal
     
-![Componentes de CQD](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![Componentes CQD.](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 La misma arquitectura de CQD admite Lync Server 2013 y Skype Empresarial. 
   
@@ -128,7 +128,7 @@ CQD viene con varios componentes y ayuda a comprender los requisitos de cada com
 > [!NOTE]
 > Para QoE Archive y Cube, determinadas opciones de implementación requieren Business Intelligence o Enterprise ediciones de Microsoft SQL Server. Consulte la sección [Requisitos de infraestructura para CQD](plan.md#Infrastructure_Req) a continuación para obtener más información.
   
-![Componentes de CQD](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
+![Componentes CQD.](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
   
 ### <a name="single-server-configuration"></a>Configuración de un solo servidor
 
@@ -146,11 +146,11 @@ En una configuración multiservidor, el archivo QoE, el cubo y el portal pueden 
     
   **Hospedar CQD Web Portal y CQD Cube en diferentes máquinas.** Las organizaciones que pueden tener requisitos para separar el Portal de CQD de la instalación de SQL Server o que podrían querer mezclar y coincidir ediciones SQL Server para la instancia de SQL Server y la instancia de SQL Server Analysis Services pueden elegir instalar el portal de CQD y el cubo CQD en diferentes máquinas. El componente archivo qoE también puede ser el único componente CQD que se instala si la organización simplemente quiere tener un método sostenible para archivar los datos de QoE sin alcanzar los límites de rendimiento en el servidor de supervisión.
   
-![CQD de servidor único](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
+![CQD de servidor único.](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
  **Hospedar un portal de "desarrollo" independiente del Portal de "producción".** Es posible que las organizaciones que desarrollen sus propios informes personalizados (a través de las API de REST) prefieran implementar instancias adicionales del Portal (CQD) junto con el Portal de producción al que los usuarios normales tienen acceso para investigaciones o supervisión de calidad de llamadas. El portal de desarrollo puede aislar cualquier modificación del Portal del entorno de producción. Los portales web adicionales se pueden implementar en diferentes máquinas (se muestra a continuación) o implementarse en diferentes directorios web en el mismo equipo (no se muestra). Para ello, el portal web CQD adicional debe copiarse en el equipo de producción manualmente porque el proceso de instalación de CQD siempre implementa el portal web CQD en el sitio web predeterminado con nombres de aplicación web predefinidos.
   
-![Planear CQD Multi Server](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
+![Plan CQD Multi Server.](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
   
 ### <a name="supported-topologies"></a>Topologías admitidas
 
@@ -307,7 +307,7 @@ Aunque no se recomienda, standard edition también es compatible. El procesamien
   
 En todos los casos, deben instalarse "Motor de base de datos services" y "Analysis Services". Se recomienda, pero no es necesario, instalar también la característica "Herramientas de administración - Completa", que agrega SQL Server Management Studio compatibilidad con Analysis Services. La pantalla de selección de características debe ser como la figura.
   
-![SQL Server de características](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
+![SQL Server características.](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
   
 Al configurar la configuración de SSAS, en configuración de Analysis Services, establezca "Modo de servidor" en "Modo de minería de datos y multidimensionales". 
   

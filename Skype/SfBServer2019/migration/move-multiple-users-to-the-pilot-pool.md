@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Puede mover varios usuarios del grupo heredado al grupo piloto de Skype Empresarial Server 201 Skype Empresarial Server 9 mediante el Panel de control de 2019 o el Shell de administración de Skype Empresarial Server 2019.
-ms.openlocfilehash: 50525ce139cb324d71ebcdce54ef96463dc933b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc4d14d26a76ff4dbfc690fc7517aba77afd253f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624582"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726319"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Mover varios usuarios al grupo piloto
 
@@ -40,7 +40,7 @@ Puede mover varios usuarios del grupo heredado al grupo piloto de Skype Empresar
     
 3. Seleccione dos usuarios que desea mover al grupo Skype Empresarial Server 2019. En este ejemplo, moveremos los usuarios Chen Yang y Claus Hansen.
     
-     ![Mover usuarios a un grupo de registro específico](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
+     ![Mover usuarios a un grupo de registros específico.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
   
 4. En el menú **Acción** seleccione **Mover usuarios seleccionados a grupo**.
     
@@ -48,7 +48,7 @@ Puede mover varios usuarios del grupo heredado al grupo piloto de Skype Empresar
     
 6. Haga clic en **Acción** y, a continuación, en **Mover usuarios seleccionados a grupo**. Haga clic en **Aceptar**.
     
-     ![Cuadro de diálogo Mover usuarios, grupo de registradores de destino](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
+     ![Cuadro de diálogo Mover usuarios, grupo de registradores de destino.](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
 7. Compruebe que la **columna Grupo de** registradores para los usuarios ahora contiene el grupo de servidores Skype Empresarial Server 2019, lo que indica que los usuarios se han movido correctamente. 
     
@@ -63,7 +63,7 @@ Puede mover varios usuarios del grupo heredado al grupo piloto de Skype Empresar
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
-    ![Ejemplo del cmdlet Get-CsUser PowerShell](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![Ejemplo de cmdlet Get-CsUser PowerShell.](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. Escriba lo siguiente en la línea de comandos: 
     
@@ -73,7 +73,7 @@ Puede mover varios usuarios del grupo heredado al grupo piloto de Skype Empresar
 
 4. Ahora, la identidad **Grupo de registradores** debería apuntar al grupo que especificó como **pool_FQDN** en el paso anterior. La presencia de esta identidad confirma que se ha movido correctamente al usuario. Repita el paso para comprobar que **user2** se ha movido. 
     
-     ![Salida del cmdlet Get-UsUser -Identity de PowerShell](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
+     ![Salida del cmdlet Get-UsUser -Identity de PowerShell.](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
 ## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>Para mover todos los usuarios al mismo tiempo mediante el Shell de administración Skype Empresarial Server 2019
 <a name="sectionSection2"> </a>
@@ -88,7 +88,7 @@ En este ejemplo, todos los usuarios se han devuelto al grupo heredado (pool01.co
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
-     ![Cmdlet de PowerShell y resultados en Shell de administración](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
+     ![Cmdlet de PowerShell y resultados en shell de administración.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
 3. Ejecute **Get-CsUser** para uno de los usuarios piloto. 
     
@@ -100,6 +100,6 @@ En este ejemplo, todos los usuarios se han devuelto al grupo heredado (pool01.co
     
 5. Además, podemos ver la lista de usuarios en el Panel de control de Skype Empresarial Server 2019 y comprobar que el valor del grupo de registradores ahora apunta al grupo de servidores Skype Empresarial Server 2019.
     
-     ![Skype Empresarial Server de usuario del Panel de control de 2019](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
+     ![Skype Empresarial Server de usuarios del Panel de control de 2019.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
   
 

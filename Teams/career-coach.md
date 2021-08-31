@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d1d63b827775f00aa4d6a2a53603a84b4e39edf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0dd2bb016498df23a98c1e289679fd1c4e4cfa38
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595124"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729699"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar y habilitar Asesor de carrera para Microsoft Teams
 
@@ -136,7 +136,7 @@ Use la [página Administrar aplicaciones](/microsoftteams/manage-apps) para ver 
 
 4. Seleccione **Asesor de carrera** y, a **continuación, seleccione Configuración.**  
 
-    ![muestra la Asesor de carrera seleccionada con la Configuración que se muestra](media/career-coach-app.png)
+    ![muestra la Asesor de carrera aplicación seleccionada con la Configuración que se muestra.](media/career-coach-app.png)
 
 ### <a name="configure-the-career-coach-app-settings"></a>Configurar la configuración Asesor de carrera aplicación
 
@@ -162,7 +162,7 @@ Establezca el nombre, el logotipo y el idioma predeterminado de la institución 
 > [!NOTE]
 > Esta es una sección obligatoria: Asesor de carrera no se puede habilitar sin la marca y las preferencias enviadas.
 
-![la Asesor de carrera personal de marca del Centro de administración](media/career-coach-brand.png)
+![la Asesor de carrera personal de marca del Centro de administración.](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>Icono de institución educativa
 
@@ -197,17 +197,17 @@ Determine la página de LinkedIn de la institución educativa. Busque la página
 
 2. Busque la página de LinkedIn buscando en LinkedIn y seleccionando Filtro escolar. O conéctate con un miembro del personal de servicios profesionales para determinar la página educativa de LinkedIn correcta para usar. [Cómo identificar páginas de LinkedIn](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
 
-    ![linkedin search for school](media/career-coach-school-search.png)
+    ![linkedin buscar la escuela.](media/career-coach-school-search.png)
 
 3. Agregue la dirección URL de la página educativa de LinkedIn. La dirección URL debe ser una página educativa y no una página de la empresa y normalmente tiene el formato de `https://www.linkedin.com/school/willow-university/` .
 
-   ![ejemplo de página de la escuela linkedin](media/career-coach-linkedin-page-url.png)
+   ![ejemplo de página de la escuela linkedin.](media/career-coach-linkedin-page-url.png)
 
 4. Seleccione **Enviar**.
 
 5. Si se envía correctamente, la página se actualizará para mostrar el vínculo Verificación **y** la expiración **del vínculo Verificación.** El vínculo de verificación expira después de 30 días.
 
-   ![conexiones de linkedin para la aplicación de entrenador profesional](media/career-coach-linked-in.png)  
+   ![conexiones de linkedin para la aplicación de entrenador profesional.](media/career-coach-linked-in.png)  
 
 6. Copie el vínculo de verificación y compártello con el superadministrador de la página de LinkedIn de su institución educativa. Obtenga más información sobre el rol de superadministrador de la página de LinkedIn en la [documentación de administrador de la página de LinkedIn.](https://www.linkedin.com/help/linkedin/answer/102672)
 
@@ -216,7 +216,7 @@ Determine la página de LinkedIn de la institución educativa. Busque la página
 > [!NOTE]
 > La verificación del superadministrador de la página de LinkedIn es necesaria para completar la conexión de LinkedIn Asesor de carrera.
 
-   ![verificación de página de linkedin en el portal de desarrollador de linkedin](media/career-coach-linkedin-verification.png)
+   ![verificación de página de linkedin en el portal de desarrolladores linkedin.](media/career-coach-linkedin-verification.png)
 
 #### <a name="course-catalog"></a>Catálogo de cursos
 
@@ -267,7 +267,7 @@ Incluir los campos recomendados mejora la experiencia de los alumnos al devolver
 
 4. Seleccione **Enviar**.
 
-   ![la sección catálogo de cursos de la aplicación de entrenador profesional](media/course-catalog.png)
+   ![la sección catálogo de cursos de la aplicación de entrenador profesional.](media/course-catalog.png)
 
 #### <a name="fields-of-study"></a>Campos de estudio
 

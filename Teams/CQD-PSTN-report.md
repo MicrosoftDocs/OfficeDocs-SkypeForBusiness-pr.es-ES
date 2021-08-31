@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Use el Microsoft Teams de enrutamiento directo RTC (CQD)) para supervisar y solucionar las llamadas RTC en Microsoft Teams.
-ms.openlocfilehash: 18e24690fe86bf7efd511bea674c3d3d7eba3e43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae36ff214de2142b74b8493e925e25f32572709c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635064"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726429"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Usar el informe de enrutamiento directo RTC de CQD
 
@@ -45,23 +45,23 @@ El informe de enrutamiento directo RTC de CQD tiene cuatro secciones:
 1. Analizar por tipo de llamada, SBC, autor de la llamada y país de destinatario
 
    El informe enrutamiento directo RTC CQD agrega métricas de confiabilidad y uso para todos los SBC del inquilino durante los últimos 7, 30 o 180 días (6 meses). Puede analizar datos por tipo de llamada, SBC, autor de la llamada y país de destinatario. Si está interesado en un determinado SBC o país, podrá identificar los cambios en las tendencias en el intervalo de tiempo seleccionado.
-   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Captura de pantalla de los filtros disponibles en el informe de enrutamiento directo RTC CQD":::
+   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Captura de pantalla de los filtros disponibles en el informe enrutamiento directo RTC CQD.":::
    
 2. Control de tendencias
 
     El análisis de tendencias es esencial al intentar comprender el uso y la confiabilidad del servicio. Las tendencias por horas proporcionan un vistazo al rendimiento diario, lo que ayuda a identificar incidentes en tiempo real. Las tendencias diarias le permiten ver el estado del servicio desde una perspectiva a largo plazo. Es importante poder cambiar entre esos dos modos con la granularidad de datos adecuada. El informe enrutamiento directo RTC de CQD proporciona información general sobre tendencias de 6 meses, tendencias diarias de 7 y 30 días y tendencias por hora para que pueda analizar el rendimiento en cada nivel.
-    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="Captura de pantalla de los gráficos de tendencias en el informe de enrutamiento directo RTC CQD":::
+    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="Captura de pantalla de los gráficos de tendencias en el informe de enrutamiento directo RTC CQD.":::
 
 3. Explorar en profundidad hasta SBC o nivel de usuario
 
    Hemos ido creando capacidades de obtención de detalles en muchas categorías de datos en CQD, lo que le permite comprender rápidamente el uso o la distribución de confiabilidad a nivel de SBC o usuario. Al usar la exploración en profundidad, puede ver rápidamente los problemas de puntos de vista y comprender el impacto real de los usuarios. El informe enrutamiento directo RTC de CQD incluye información detallada sobre las métricas Detalle del servicio y Relación de eficacia de red. Haga clic en el punto de datos en el que está interesado para explorar los detalles de SBC o de nivel de usuario.
-   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="Captura de pantalla que muestra la capacidad de obtención de detalles en un punto de datos":::
+   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="Captura de pantalla que muestra la capacidad de obtención de detalles en un punto de datos.":::
 
 
 ## <a name="pstn-overview"></a>Información general sobre RTC
 
 El informe de enrutamiento directo RTC de CQD proporciona la siguiente información relacionada con el estado general del servicio durante los últimos 180 días.
-![Captura de pantalla: informe CQD RTC](media/CQD-PSTN-report1.png)
+![Captura de pantalla: Informe CQD RTC.](media/CQD-PSTN-report1.png)
 
 Por ejemplo, si está interesado en el uso general y el estado de todas las llamadas entrantes que pasan por SBC abc.bca.adatum.biz ee. UU. como país interno:
 
@@ -89,7 +89,7 @@ Esta página proporciona tendencias de uso del servicio por día y un desglose d
 
   - **Comentarios de los usuarios:** La puntuación "Calificar mi llamada" proviene del usuario. 3-5 se considera una buena llamada. 1-2 se considera una mala llamada.
 
-![Captura de pantalla: informe CQD RTC](media/CQD-PSTN-report2.png)
+![Captura de pantalla: Informe CQD RTC.](media/CQD-PSTN-report2.png)
 
 Por ejemplo:
 
@@ -111,15 +111,15 @@ Esta es la misma métrica que aparece en el panel Estado general. Puede comproba
 
   - **Número de llamadas afectadas:** el número total de llamadas se ha visto afectada durante el intervalo de tiempo seleccionado.
 
-> ![Captura de pantalla: informe CQD RTC](media/CQD-PSTN-report3.png)
+> ![Captura de pantalla: Informe CQD RTC.](media/CQD-PSTN-report3.png)
 > 
 Por ejemplo:
 
-![Captura de pantalla: informe CQD RTC](media/CQD-PSTN-report4.png)
+![Captura de pantalla: Informe CQD RTC.](media/CQD-PSTN-report4.png)
 
 Si el 02/05/2020 del 02/05/2020, puede hacer clic en la fecha y otros gráficos se acercarán a esa fecha específica.
 
-![Captura de pantalla: informe CQD RTC](media/CQD-PSTN-report5.png)
+![Captura de pantalla: Informe CQD RTC.](media/CQD-PSTN-report5.png)
 
 En la Tendencia buena por hora porcentual de NER, puede encontrar que la caída se produce alrededor de las 21:00. A continuación, haga clic de nuevo para acercar a la hora 21 y compruebe Detalles de la llamada efectiva para ver cuántas llamadas fallaron en esa hora y cuáles son los motivos de finalización de la llamada. Puede empezar con la grabación con problemas personales en cualquier problema de SBC o informar a Service Desk si el problema no está relacionado con SBC.
 
@@ -133,13 +133,13 @@ Todos los parámetros de red se miden desde la interfaz de enrutamiento directo 
 
   - **Latencia:** (también conocido como tiempo de ida y vuelta) es el tiempo que se tarda en enviar una señal más el tiempo que tarda en recibirse la confirmación de esa señal. Este retraso de tiempo consiste en los tiempos de propagación entre los dos puntos de una señal.
 
-> ![Captura de pantalla: informe CQD RTC](media/CQD-PSTN-report6.png)
+> ![Captura de pantalla: Informe CQD RTC.](media/CQD-PSTN-report6.png)
 
 Por ejemplo:
 
 Si ve un pico en cualquiera de los cuatro gráficos (Latencia, Vibración, Tasa de pérdida de paquetes, Retraso de marcado posterior) para una fecha específica, por ejemplo, Latencia el 14/02/2020, haga clic en el punto de fecha. Y el gráfico de tendencia por hora en la parte inferior se actualizará para mostrar el número por hora. Puede comprobar los SBC o aumentar un vale con MS Service Desk.
 
-![Captura de pantalla: informe CQD RTC](media/CQD-PSTN-report7.png)
+![Captura de pantalla: Informe CQD RTC.](media/CQD-PSTN-report7.png)
 
 
 

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Summary: Learn how to connect Skype Empresarial Server with Skype consumer. También se conoce como Skype conectividad.'
-ms.openlocfilehash: 962915a21b89a1d99fa6d788c677832bb470076b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 467d87968e7e5b0357e8d23b578a511adb281e27
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605549"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729889"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implementar Skype conectividad en Skype Empresarial Server
 
@@ -54,8 +54,8 @@ En la tabla siguiente se describe la compatibilidad Skype búsqueda de directori
 
 ||**Skype Empresarial Server Front-End**|**Front-End de Lync Server 2013 (o versiones anteriores)**|**Comments**|
 |:-----|:-----|:-----|:-----|
-|Skype Empresarial Server Edge  <br/> |Compatible  <br/> |No se admite  <br/> |Skype Empresarial Server y Edge son requisitos previos para la Skype búsqueda de directorios  <br/> |
-|Skype Empresarial Server Edge + Lync Server 2013 Edge implementados en paralelo  <br/> |Compatible  <br/> |No se admite  <br/> |Skype El tráfico de búsqueda de directorios fluye Skype Empresarial Server servidores perimetrales. El tráfico de federación pasa por el perímetro configurado por el administrador. Por ejemplo, el administrador podría optar por continuar con el envío de tráfico de federación a través de servidores perimetrales de Lync Server 2013 que no admitirían la búsqueda Skype directorio.  <br/> |
+|Skype Empresarial Server Edge  <br/> |Compatible.  <br/> |No se admite  <br/> |Skype Empresarial Server y Edge son requisitos previos para la Skype búsqueda de directorios  <br/> |
+|Skype Empresarial Server Edge + Lync Server 2013 Edge implementados en paralelo  <br/> |Compatible.  <br/> |No se admite  <br/> |Skype El tráfico de búsqueda de directorios fluye Skype Empresarial Server servidores perimetrales. El tráfico de federación pasa por el perímetro configurado por el administrador. Por ejemplo, el administrador podría optar por continuar con el envío de tráfico de federación a través de servidores perimetrales de Lync Server 2013 que no admitirían la búsqueda Skype directorio.  <br/> |
 |Lync Server 2013 (o versiones anteriores) perimetral  <br/> |No se admite  <br/> |No se admite  <br/> ||
    
 > [!NOTE]
@@ -158,7 +158,7 @@ La federación es necesaria para permitir que Skype usuarios se comuniquen con S
   
 La federación es necesaria para permitir que Skype usuarios se comuniquen con Skype Empresarial usuarios de la organización. La conectividad de mensajería instantánea (PIC) pública es una clase de federación y debe configurarse para permitir que los usuarios de Skype Empresarial Server puedan comunicarse con Skype usuarios. La federación y pic se configuran mediante el cuadro de diálogo Configuración perimetral del panel de control Skype Empresarial Server como se muestra en la figura.
   
-![Definir nuevo grupo de servidores perimetrales](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
+![Definir nuevo grupo de servidores perimetrales.](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
   
 > [!NOTE]
 > Los atributos EnableSkypeIdRouting y EnableSkypeDirectorySearch deben establecerse en true en la configuración del proveedor público (consulte las instrucciones posteriores) para que la búsqueda funcione. 
@@ -178,7 +178,7 @@ Con el Shell Skype Empresarial Server administración, un administrador debe con
   
 Para las nuevas instalaciones, puede configurar Skype conectividad mediante la habilitación de un proveedor Skype público mediante el Panel de control Skype Empresarial Server como se muestra en la figura.
   
-![Proveedores federados SIP](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
+![Proveedores federados SIP.](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
   
 > [!NOTE]
 > Para configurar Skype conectividad al actualizar a Skype Empresarial Server debe quitar y volver a agregar el proveedor público Skype existente. 

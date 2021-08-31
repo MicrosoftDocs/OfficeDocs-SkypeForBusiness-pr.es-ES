@@ -22,12 +22,12 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 7616e13f81b2b8ec204409f7a90e275dab795742
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 263f5eed834ebacdfafc3b09ff95f8cc5f6ddea5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592944"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726459"
 ---
 # <a name="peer-to-peer-activity-report"></a>Informe de actividad punto a punto
 
@@ -55,30 +55,30 @@ Puede obtener una vista de su actividad punto a punto de Skype Empresarial en lo
 ![Skype de punto a punto con llamadas.](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>El informe de **actividad punto a punto de Skype Empresarial** se puede usar para ver las tendencias de los últimos 7 días, 30 días, 90 días o 180 días. Sin embargo, si hace clic en un día determinado en el informe, la tabla (vea el número 7) mostrará los datos durante 30 días, hasta la fecha (vea el número 2) para cuando se generó el informe.
+![Número 1.](../images/sfbcallout1.png)<br/>El informe de **actividad punto a punto de Skype Empresarial** se puede usar para ver las tendencias de los últimos 7 días, 30 días, 90 días o 180 días. Sin embargo, si hace clic en un día determinado en el informe, la tabla (vea el número 7) mostrará los datos durante 30 días, hasta la fecha (vea el número 2) para cuando se generó el informe.
 
 > [!NOTE]
 > Si hace clic en los detalles de un día específico, la tabla solo mostrará los datos de los 30 días hasta la fecha en que se generó el informe.
 
 ***
-![Número 2](../images/sfbcallout2.png)<br/>Cada informe tiene la fecha del momento en que se generó. Los informes normalmente reflejan una latencia de 24 a 48 horas desde el momento de la actividad. 
+![Número 2.](../images/sfbcallout2.png)<br/>Cada informe tiene la fecha del momento en que se generó. Los informes normalmente reflejan una latencia de 24 a 48 horas desde el momento de la actividad. 
 ***
-![Número 3](../images/sfbcallout3.png)<br/>Utilice los datos del gráfico interactivo **Actividad** para comprender las tendencias de uso y ver el número total de sesiones por tipo de sesión que se realizan en su organización. Le mostrará el número total y los tipos de sesiones de **mensajería** instantánea, **audio,** **vídeo,** uso compartido de **aplicaciones** y transferencias de archivos en toda la organización. 
+![Número 3.](../images/sfbcallout3.png)<br/>Utilice los datos del gráfico interactivo **Actividad** para comprender las tendencias de uso y ver el número total de sesiones por tipo de sesión que se realizan en su organización. Le mostrará el número total y los tipos de sesiones de **mensajería** instantánea, **audio,** **vídeo,** uso compartido de **aplicaciones** y transferencias de archivos en toda la organización. 
 ***
-![Número 4](../images/sfbcallout4.png)<br/>Utilice los datos del gráfico interactivo **Usuarios** para comprender las tendencias de uso y ver el número de usuarios únicos que participan en las actividades punto a punto realizadas en su organización. Le mostrará el número total de usuarios junto con los tipos de  mensajería **instantánea,** **audio,** **vídeo,** uso compartido de aplicaciones y transferencias de archivos en sesiones de punto a punto.
+![Número 4.](../images/sfbcallout4.png)<br/>Utilice los datos del gráfico interactivo **Usuarios** para comprender las tendencias de uso y ver el número de usuarios únicos que participan en las actividades punto a punto realizadas en su organización. Le mostrará el número total de usuarios junto con los tipos de  mensajería **instantánea,** **audio,** **vídeo,** uso compartido de aplicaciones y transferencias de archivos en sesiones de punto a punto.
 ***
-![Número 5](../images/sfbcallout5.png)<br/>Utilice los datos del gráfico interactivo **Minutos** para comprender las tendencias de uso y ver el número de minutos utilizados por los usuarios al realizar actividades de punto a punto con audio y vídeo. Muestra el número total de minutos de **Audio** y **Vídeo** que se utilizan en las sesiones de punto a punto. 
+![Número 5.](../images/sfbcallout5.png)<br/>Utilice los datos del gráfico interactivo **Minutos** para comprender las tendencias de uso y ver el número de minutos utilizados por los usuarios al realizar actividades de punto a punto con audio y vídeo. Muestra el número total de minutos de **Audio** y **Vídeo** que se utilizan en las sesiones de punto a punto. 
 ***
-![Número 6](../images/sfbcallout6.png)<br/>Cada gráfico tiene un eje X (horizontal) y un eje Y (vertical). 
+![Número 6.](../images/sfbcallout6.png)<br/>Cada gráfico tiene un eje X (horizontal) y un eje Y (vertical). 
 *    En el gráfico de actividad **Actividad**, el eje Y es el número total de sesiones de MI, audio, vídeo, uso compartido de aplicaciones y transferencia de archivos que han realizado sus usuarios en su organización.
 *    En el **gráfico de actividades** Usuarios, el eje Y es el número total de usuarios que celebraron sesiones de mensajería instantánea, audio, vídeo, uso compartido de aplicaciones y transferencia de archivos. 
 *    En el gráfico de actividad **Minutos**, el eje Y es el número total de minutos que han pasado los usuarios de su organización en sesiones de punto a punto de audio y vídeo. 
 
 En ambos gráficos, el eje X es el intervalo de fechas seleccionado para este informe específico.
 ***
-![Número 7](../images/sfbcallout7.png)<br/>Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo,  en el gráfico Actividad, haga clic o pulse  **MI,** **Audio,**  **Vídeo,** Uso compartido de aplicaciones y Transferencias de archivos para ver solo la información relacionada con cada una de ellas. Cambiar esta selección no cambia la información en la tabla de cuadrícula. 
+![Número 7.](../images/sfbcallout7.png)<br/>Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo,  en el gráfico Actividad, haga clic o pulse  **MI,** **Audio,**  **Vídeo,** Uso compartido de aplicaciones y Transferencias de archivos para ver solo la información relacionada con cada una de ellas. Cambiar esta selección no cambia la información en la tabla de cuadrícula. 
 ***
-![Número 8](../images/sfbcallout8.png)<br/>La tabla muestra un desglose de todas las actividades de punto a punto por usuario. Se muestran todos los usuarios que tienen Skype Empresarial asignado y sus actividades de punto a punto. Puede agregar columnas a la tabla.
+![Número 8.](../images/sfbcallout8.png)<br/>La tabla muestra un desglose de todas las actividades de punto a punto por usuario. Se muestran todos los usuarios que tienen Skype Empresarial asignado y sus actividades de punto a punto. Puede agregar columnas a la tabla.
 *    **Nombre de usuario** es el nombre del usuario.
 *    **Eliminado** indica que se ha quitado la licencia del usuario. <br/> <br/> **Nota:**  La actividad de un usuario eliminado aún se mostrará en un informe siempre y cuando se le haya concedido una licencia en algún momento durante el período de tiempo seleccionado. La columna **Eliminado** ayuda a ver que el usuario ya no está activo, pero que ha contribuido a los datos del informe.  <br/><br/>
 *    **Fecha de eliminación** es la fecha en que se quitó la licencia del usuario. 
@@ -93,9 +93,9 @@ En ambos gráficos, el eje X es el intervalo de fechas seleccionado para este in
 
 Si las directivas de la organización le impiden ver los informes en los que la información del usuario es identificable, puede cambiar la configuración de privacidad de todos estos informes. Consulte la sección **¿Cómo puedo ocultar los detalles del** nivel de usuario? en los Informes de actividades del Centro de [administración.](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 
 ***
-![Número 9](../images/sfbcallout9.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o pulsando o tocando en **Exportar**.           <br/> ![Skype Empresarial Botón Exportar informes.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos.
+![Número 9.](../images/sfbcallout9.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o pulsando o tocando en **Exportar**.           <br/> ![Skype Empresarial Botón Exportar informes.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos.
 ***
-![Número 10](../images/sfbcallout10.png)<br/>![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)<br/>Haga clic o pulse en **el icono** Columnas de cualquiera de las columnas para agregar o quitar columnas del informe.         
+![Número 10.](../images/sfbcallout10.png)<br/>![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)<br/>Haga clic o pulse en **el icono** Columnas de cualquiera de las columnas para agregar o quitar columnas del informe.         
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros informes de Skype Empresarial?
 

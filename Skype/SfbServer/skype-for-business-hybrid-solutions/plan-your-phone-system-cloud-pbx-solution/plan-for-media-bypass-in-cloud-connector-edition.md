@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lea este tema para revisar las consideraciones de planeación para implementar la omisión de medios con Cloud Connector Edition versión 2.0 y versiones posteriores. Para obtener información sobre cómo implementar la omisión de medios, consulte Deploy media bypass in Cloud Connector Edition.
-ms.openlocfilehash: 659b735502b6efaabd9167a4b0d820828232f5dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 182defd3d1fb7acf1fb2ba6fcc4e15e88e24a82c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626412"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729749"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Plan para la omisión de medios en Cloud Connector Edition
  
@@ -41,7 +41,7 @@ Por ejemplo, en la siguiente topología(que no emplea desvío de medios), un cli
   
 **Caminos de señalización y medios sin desvío de medios**
 
-![señalización sin desvío de medios](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
+![señalización sin desvío de medios.](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
 Una llamada entrante de la RTC usa la misma ruta de señalización en la dirección inversa. Para los usuarios internos, los medios seguirán fluyendo en última instancia entre el cliente Skype Empresarial y el servidor de mediación de Cloud Connector y, a continuación, el SBC o la puerta de enlace.
   
@@ -49,7 +49,7 @@ En la topología siguiente, que emplea la omisión de medios, la señalización 
   
 **Vías de señalización y medios con desvío de medios**
 
-![señalización con desvío de medios](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
+![señalización con desvío de medios.](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
 ## <a name="multi-site-scenario-and-media-bypass"></a>Escenario multis sitios y desvío de medios
 
@@ -57,7 +57,7 @@ La omisión de medios también es útil cuando desea proporcionar servicios de t
   
 **Aplicación multis sitios**
 
-![Ejemplo de multisitio de Cloud Connector](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
+![Ejemplo de multisitio de Cloud Connector.](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
 1. El tráfico SIP fluye desde el usuario en Zúrich Microsoft 365 o Office 365.
     
@@ -71,7 +71,7 @@ La omisión de medios también es útil cuando desea proporcionar servicios de t
   
 Si un cliente está fuera de la red corporativa realizando una llamada saliente, el tráfico multimedia fluye a través de los servidores perimetrales y de mediación de Cloud Connector y el vínculo WAN entre Zúrich y Ámsterdam, como se muestra en el siguiente diagrama:
   
-![Ejemplo 2 de Multisitio de Cloud Connector](../../media/ef95839c-4552-440e-9698-7615707a1b50.png)
+![Ejemplo 2 de Multisitio de Cloud Connector.](../../media/ef95839c-4552-440e-9698-7615707a1b50.png)
   
 ## <a name="supported-clients-for-media-bypass"></a>Clientes compatibles para la omisión de medios
 
@@ -104,7 +104,7 @@ Para obtener más información, vea [Plan for Skype for Business Edición de con
   
 Por ejemplo, en el diagrama siguiente, los usuarios de Europa deben estar bien conectados a los tres controladores de borde de sesión (SBC) de Ámsterdam, mientras que los usuarios de Ee.UU. Oeste deben estar bien conectados a los dos SBC de Seattle. Bien conectado significa que se encuentran en los mismos sitios de red que los SBC o puertas de enlace, o a través de vínculos WAN con ancho de banda adecuado.
   
-![Capacidad de Cloud Connector](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
+![Capacidad de Cloud Connector.](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   
 > [!NOTE]
 > Si un usuario de Zúrich viaja a la oficina de Seattle y desea usar la red interna para entregar tráfico multimedia entre el usuario que viaja y las puertas de enlace en Europa (en lugar de ir a través de Internet), debe asegurarse de que la oficina de Seattle y la oficina de Ámsterdam donde se encuentran los SBC europeos o las puertas de enlace estén bien conectadas. 
@@ -113,6 +113,6 @@ Por ejemplo, en el diagrama siguiente, los usuarios de Europa deben estar bien c
 
 Con la omisión de medios habilitada, el tráfico multimedia entre un cliente y un SBC o una puerta de enlace usa el códec G.711. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Implementar la omisión de medios en Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md)

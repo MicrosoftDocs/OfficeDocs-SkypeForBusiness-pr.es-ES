@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f50a5f766740d3d5d8fa9effc0b49ec495c361cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f3b1942e1d9b6e93d78694c2b02027bf32c5d7d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593194"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726219"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
 La aplicación Aprobaciones está disponible como una aplicación personal para todos los usuarios de Microsoft Teams.
 La aplicación Aprobaciones ofrece una forma sencilla de ejercer las auditorías, el cumplimiento, la responsabilidad y los flujos de trabajo tanto a Aprobaciones estructuradas y no estructuradas en Teams.
 
- ![muestra la aplicación de aprobaciones](media/approvals-selection.png)
+ ![muestra la aplicación de aprobaciones.](media/approvals-selection.png)
 
 Los usuarios pueden anclar la aplicación Aprobaciones para guardarla en la barra de menús.
 
- ![muestra la aplicación de aprobaciones con la opción de ancla](media/approvalApp-pin.png)
+ ![muestra la aplicación de aprobaciones con la opción de anclar.](media/approvalApp-pin.png)
 
 La primera aprobación creada a partir de la aplicación Aprobaciones desencadenará el aprovisionamiento de la solución de aprobación en el entorno predeterminado del Servicio de datos comunes (CDS). Las aprobaciones creadas a partir de la aplicación Aprobaciones se almacenarán en el entorno de CDS predeterminado.
 
@@ -114,13 +114,13 @@ La aplicación Aprobaciones está disponible de forma predeterminada. Puede desh
 
   3. Busque la aplicación Aprobaciones.
 
-     ![muestra la navegación del Centro de administración donde se muestra Aplicaciones de Microsoft Teams > Administrar aplicaciones de forma resaltada](media/manage-approval-apps.png)
+     ![muestra la navegación del Centro de administración con Teams aplicaciones > Administrar aplicaciones resaltadas.](media/manage-approval-apps.png)
 
   4. Seleccione Aprobaciones.
 
   5. Seleccione el botón de alternancia para deshabilitar la aplicación para su organización.
 
-     ![muestra los detalles de la aplicación Aprobaciones](media/approvals-details.png)
+     ![muestra los detalles de la aplicación Aprobaciones.](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>Directiva de retención
 

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Para la recuperación ante desastres, Skype Empresarial Server el emparejamiento de grupos con conmutación por error en caso de que un grupo de servidores se desalome.
-ms.openlocfilehash: 728419a20fe99db004b739e599355c9b64a8844f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603839"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728839"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Recuperación ante desastres del grupo front-end en Skype Empresarial Server
  
@@ -26,7 +26,7 @@ Para la recuperación ante desastres, Skype Empresarial Server el emparejamiento
   
 Para las opciones de recuperación ante desastres más sólidas de Skype Empresarial Server, implemente pares de grupos de servidores front-end en dos sitios geográficamente dispersos. Cada sitio tiene un grupo de servidores front-end que está emparejado con un grupo de servidores front-end correspondiente en el otro sitio. Ambos sitios están activos y el servicio de copia de seguridad proporciona replicación de datos en tiempo real para mantener sincronizados los grupos de servidores. Consulte [Deploy paired Front End pools for disaster recovery in Skype Empresarial Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) if you want to implement Front End pool pairing.
   
-![Muestra grupos de servidores front-end en dos sitios diferentes, emparejados entre sí](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
+![Muestra grupos de servidores front-end en dos sitios diferentes, emparejados entre sí.](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
 Si se produce un error en el grupo de servidores de un sitio, puede conmutar por error los usuarios de ese grupo al grupo del otro sitio, que sirve a todos los usuarios de ambos grupos. Para la planeación de capacidad, debe diseñar cada grupo para poder controlar la carga de trabajo de todos los usuarios de ambos grupos en caso de desastre.
   
@@ -66,7 +66,7 @@ El almacén de administración central contiene datos de configuración sobre lo
   
 Si empareja el grupo que hospeda el almacén de administración central, se configura una base de datos del almacén de administración central de copia de seguridad en el grupo de copias de seguridad. En cualquier momento, una de las dos bases de datos del almacén de administración central está activa y la otra es una espera. El servicio de copia de seguridad replica el contenido desde la base de datos activa hasta la espera.
   
-![Muestra dos grupos de servidores front-end, uno con el almacén de CMS activo y otro con el almacén de CMS de copia de seguridad pasiva](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
+![Muestra dos grupos de servidores front-end, uno con el almacén de CMS activo y otro con el almacén de CMS de copia de seguridad pasiva.](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
 Durante una conmutación por error del grupo que implica el grupo de servidores que hospeda el almacén de administración central, debe conmutar por error el almacén de administración central antes de conmutar por error el grupo de servidores front-end.
   
@@ -99,6 +99,6 @@ Otra solución posible es usar IPSec solo para ayudar a proteger los datos envia
 > [!CAUTION]
 >  IPsec no está pensado como un reemplazo para la seguridad de nivel de aplicación, como SSL/TLS. Una ventaja de usar IPsec es que puede proporcionar seguridad de tráfico de red para las aplicaciones existentes sin tener que cambiarlas. Las empresas que quieran proteger el transporte entre los dos centros de datos deben consultar a sus respectivos proveedores de hardware de red sobre formas de configurar conexiones WAN seguras mediante el equipamiento del proveedor.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Implementar grupos de servidores front-end emparejados para la recuperación ante desastres en Skype Empresarial Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

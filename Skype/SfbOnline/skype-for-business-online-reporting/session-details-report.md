@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: En el panel Informes se muestra la información general sobre la actividad en Microsoft 365 o Office 365 productos de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto.
-ms.openlocfilehash: c369f93c126629673996aec44d1ce86f561c4947
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 30d6f28c193f303d4cbc21467fb05e260e75a595
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592924"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726689"
 ---
 # <a name="session-details-report"></a>Informe de detalles de la sesión
 
@@ -62,13 +62,13 @@ Este es el aspecto del informe.
 ![Skype Empresarial Panel Informe de detalles de la sesión.](../images/3d87ab39-6eaa-46b5-b5f9-7f54dc987ae0.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>**Buscar usuario por alias** le permite buscar un único usuario y muestra todos los detalles de sesión del usuario en la tabla siguiente. 
+![Número 1.](../images/sfbcallout1.png)<br/>**Buscar usuario por alias** le permite buscar un único usuario y muestra todos los detalles de sesión del usuario en la tabla siguiente. 
 ***
-![Número 2](../images/sfbcallout2.png)<br/>**Escribir a partir de la hora** de la fecha le permite colocar la fecha de inicio. Puede usar el calendario para seleccionar la fecha o escribir la fecha manualmente. Este campo debe rellenarse.
+![Número 2.](../images/sfbcallout2.png)<br/>**Escribir a partir de la hora** de la fecha le permite colocar la fecha de inicio. Puede usar el calendario para seleccionar la fecha o escribir la fecha manualmente. Este campo debe rellenarse.
 ***
-![Número 3](../images/sfbcallout3.png)<br/>**Escribir la hora de fecha** le permite poner la fecha de finalización. Puede usar el calendario para seleccionar la fecha o escribir la fecha manualmente. Si no se establece ninguna fecha de finalización, el valor predeterminado es 30 días a partir de la fecha de inicio.
+![Número 3.](../images/sfbcallout3.png)<br/>**Escribir la hora de fecha** le permite poner la fecha de finalización. Puede usar el calendario para seleccionar la fecha o escribir la fecha manualmente. Si no se establece ninguna fecha de finalización, el valor predeterminado es 30 días a partir de la fecha de inicio.
 ***
-![Número 4](../images/sfbcallout4.png)<br/>La tabla muestra un desglose de todos los detalles de la sesión por usuario. Esto muestra todos los usuarios que Skype Empresarial asignados a ellos y su información de sesión. Puede agregar o quitar columnas en la tabla. <br/><br/>La tabla tiene las siguientes columnas para cada sesión:
+![Número 4.](../images/sfbcallout4.png)<br/>La tabla muestra un desglose de todos los detalles de la sesión por usuario. Esto muestra todos los usuarios que Skype Empresarial asignados a ellos y su información de sesión. Puede agregar o quitar columnas en la tabla. <br/><br/>La tabla tiene las siguientes columnas para cada sesión:
 *    **Id. de** cuadro de diálogo es el id. de identificador único de la sesión SIP.
 *    **Descripción de tipos de** medios describe si la sesión es una llamada de conferencia o una sesión P2P y el tipo de medios usados (audio/vídeo/uso compartido de aplicaciones).
 *    **La hora de** inicio es la hora en la que se inició la sesión.
@@ -98,9 +98,9 @@ Para cada sesión, hay una subclave con datos diferentes disponibles en función
 *    La pestaña TRACEROUTES muestra los saltos de red recopilados a través de traceroute durante la sesión. La ruta de acceso multimedia real usada para la sesión puede variar y estos datos solo están disponibles cuando hay audio en la sesión.
 *    La pestaña FEEDBACKREPORTS muestra los datos de la encuesta de finalización de la llamada proporcionados por los usuarios en la sesión.
 ***
-![Número 5](../images/sfbcallout5.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas. 
+![Número 5.](../images/sfbcallout5.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas. 
 ***
-![Número 6](../images/sfbcallout6.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o tocando pulsando en el botón **Exportar a Excel**. <br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos.  
+![Número 6.](../images/sfbcallout6.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o tocando pulsando en el botón **Exportar a Excel**. <br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos.  
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros Skype Empresarial informes?
 

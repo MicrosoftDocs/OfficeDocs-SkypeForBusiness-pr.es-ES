@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 00296ddb8de58d01880ce951a11688c50bf8de41
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2163201f4b9b1090c62fbe42f5236665b09164f6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577784"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729549"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Cómo SharePoint y OneDrive interactúan con Microsoft Teams
 
@@ -53,7 +53,7 @@ El sitio SharePoint y la biblioteca de documentos predeterminadas no se pueden r
 
 Para cada usuario, la carpeta de OneDrive **Archivos de chat de Microsoft Teams** se usa para almacenar todos los archivos compartidos en los chat privados con otros usuarios (1:1 o 1:varios), y los permisos se configuran automáticamente para restringir el acceso sólo a usuarios autorizados.
 
-![Diagrama de la carpeta OneDrive llamada Microsoft Teams archivos de chat](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+![Diagrama de la carpeta OneDrive llamada Microsoft Teams archivos de chat.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
 Tenga en cuenta que, en el caso de los equipos públicos, SharePoint sitio de grupo está aprovisionado con el acceso "Todos excepto los usuarios externos". El equipo público no se muestra en Teams personas que no son miembros de ese equipo. Sin embargo, pueden obtener acceso al contenido del SharePoint de grupo mediante la dirección URL del SharePoint de grupo. 
 

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: En este artículo se describe cómo administrar atributos después de retirar el entorno local.
-ms.openlocfilehash: 9f78dbcfaf1c753d18cc2e85a6b209248c2feea8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64ba4844a1958cfd386a177d91b9c4f2dff89102
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636901"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58736029"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Decidir cómo administrar atributos después de la retirada
 
@@ -57,7 +57,7 @@ Si desea realizar cambios en la dirección sip de un usuario o en el número de 
 
 - Para modificar el número de teléfono de un usuario, modifique `msRTCSIP-Line` *si ya tiene un valor*.
 
-  ![Herramienta de equipos y usuarios de Active Directory](../media/disable-hybrid-1.png)
+  ![Herramienta de equipos y usuarios de Active Directory.](../media/disable-hybrid-1.png)
   
 -  Si el usuario no tenía originalmente un valor para local antes del movimiento, puede modificar el número de teléfono mediante el parámetro - en el `msRTCSIP-Line` `onpremLineUri` cmdlet [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) del módulo Teams PowerShell.
 
@@ -197,7 +197,7 @@ Esta opción requiere un esfuerzo adicional y una planeación adecuada, ya que e
 12. Después de completar todos los pasos del método 2, vea Move [hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md) y Remove your [on-premises Skype Empresarial Server](decommission-remove-on-prem.md) for additional steps to remove your Skype Empresarial Server on-premises deployment.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Consolidación de nube para Teams y Skype Empresarial](cloud-consolidation.md)
 

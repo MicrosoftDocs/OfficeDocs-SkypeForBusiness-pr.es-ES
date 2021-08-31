@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Resumen: obtenga información sobre cómo configurar DNS y crear registros DNS para una instalación de Skype Empresarial Server. Descargue una versión de prueba Skype Empresarial Server desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 8584f267f71f2f3af68875c6c2eee28b1d79dbfe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08a652f3ed2dd19d40aa1830ac91459d205b618a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585536"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726329"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Crear registros DNS para Skype Empresarial Server
  
@@ -33,7 +33,7 @@ Para que Skype Empresarial Server funcione correctamente, debe haber una serie d
 > [!IMPORTANT]
 > Es importante tener en cuenta que este es solo un ejemplo de cómo crear registros DNS en un entorno DNS Windows servidor DNS. Hay muchas otras entradas DNS que son necesarias para Skype Empresarial Server y el procedimiento para crear registros DNS depende del sistema que use para administrar DNS en su organización. Para obtener una lista completa de los requisitos para DNS, vea [Requisitos dns para Skype Empresarial Server](../../plan-your-deployment/network-requirements/dns.md). 
   
-![Diagrama de información general](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
+![Diagrama de información general.](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
 ## <a name="configure-dns"></a>Configurar DNS
 
@@ -68,7 +68,7 @@ En este ejemplo se usa un FQDN equilibrado de carga DNS denominado pool.contoso.
     
 4. Haga clic con el botón secundario en el dominio SIP y **seleccione Nuevo host (A o AAAA),** como se muestra en la figura.
     
-     ![seleccionar nuevo registro A](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
+     ![seleccionar nuevo registro A.](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
   
 5. En el **cuadro** Nombre, escriba el nombre del registro host (el nombre de dominio se anexará automáticamente).
     

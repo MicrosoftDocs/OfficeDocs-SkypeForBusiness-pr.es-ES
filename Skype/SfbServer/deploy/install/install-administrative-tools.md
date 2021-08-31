@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Resumen: obtenga información sobre cómo instalar las herramientas administrativas necesarias para una instalación de Skype Empresarial Server. Descargue una versión de prueba Skype Empresarial Server desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 4e5ec73f4702f3011d09b3338489cb397b7c5922
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 346022633f4c15d2e1601fddbca174f5b0e6f67d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607627"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726299"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Instalar herramientas administrativas en Skype Empresarial Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "58607627"
   
 Las herramientas administrativas incluyen el Generador de topologías y el Panel de control. Las herramientas administrativas deben instalarse en al menos un servidor de la topología o en una estación de trabajo de administración de 64 bits que ejecute una versión del sistema operativo Windows compatible con Skype Empresarial Server. Puede realizar los pasos del 1 al 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden y después de los pasos del 1 al 5, tal como se describe en el diagrama. Instalar las herramientas administrativas es el paso 3 de 8.
   
-![Diagrama de información general](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
+![Diagrama de información general.](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
   
 ## <a name="install-skype-for-business-server-administrative-tools"></a>Instalar Skype Empresarial Server administrativas
 
@@ -65,7 +65,7 @@ Vea los pasos de vídeo de **Instalar herramientas administrativas:**
     
      Una vez completada la instalación de los componentes principales, el Asistente Skype Empresarial Server implementación se iniciará automáticamente, como se muestra en la figura. 
     
-     ![Skype Empresarial Server Asistente para implementación](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
+     ![Skype Empresarial Server Asistente para implementación.](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
 6. Además de los componentes principales, también tendrá que instalar Skype Empresarial Server Generador de topologías y Skype Empresarial Server panel de control en al menos un servidor del entorno. Haga **clic en Instalar herramientas administrativas** en el Asistente para implementación.
     
@@ -73,7 +73,7 @@ Vea los pasos de vídeo de **Instalar herramientas administrativas:**
     
 8. Una vez completada la instalación, haga clic **en Finalizar**. Las herramientas administrativas ahora se agregan al servidor, como se muestra en la figura.
     
-    ![Skype Empresarial Server Herramientas administrativas](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
+    ![Skype Empresarial Server Herramientas administrativas.](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
   
    - **Skype Empresarial Server generador de topologías** Un programa que se usa para compilar, implementar y administrar topologías.
     

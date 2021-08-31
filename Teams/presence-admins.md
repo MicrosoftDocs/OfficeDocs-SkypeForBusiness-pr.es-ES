@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66c3aec34baa10dc0cda644d84611800a8e9d97a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597674"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725831"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
@@ -38,21 +38,21 @@ La Presencia forma parte del perfil del usuario en Microsoft Teams (así como ta
 
 |Configurado por el usuario|Aplicación configurada|
 |:--- |:---|
-| ![Marca de verificación verde sólida, indica Presencia disponible](media/Presence_Available.png) Disponible|![Marca de verificación verde sólida, indica Presencia disponible](media/Presence_Available.png) Disponible|
-|| ![Marca de verificación verde sólida, indica Presencia Abierta marca de verificación verde, indica disponible oof](media/Presence_Available_OOF.png) Disponible, Fuera de la oficina. Nota: Fuera de la oficina se configura automáticamente durante los períodos en los que el usuario establece las "Respuestas automáticas". Si el usuario está usando la aplicación durante estos períodos, es posible que se muestre una presencia doble, como "Fuera de la oficina, disponible". |
-|  ![Círculo rojo sólido, indica Ocupado](media/Presence_Busy.png) Ocupado |  ![Círculo rojo sólido, indica Ocupado](media/Presence_Busy.png) Ocupado  |
+| ![Una marca de verificación verde sólida indica Presencia disponible.](media/Presence_Available.png) Disponible|![Marca de verificación verde sólida, indica Presencia disponible](media/Presence_Available.png) Disponible|
+|| ![Marca de verificación verde abierta indica disponible fuera de la oficina.](media/Presence_Available_OOF.png) Disponible, Fuera de la oficina. Nota: Fuera de la oficina se configura automáticamente durante los períodos en los que el usuario establece las "Respuestas automáticas". Si el usuario está usando la aplicación durante estos períodos, es posible que se muestre una presencia doble, como "Fuera de la oficina, disponible". |
+|  ![Círculo rojo sólido indica Ocupado](media/Presence_Busy.png) Ocupado |  ![Círculo rojo sólido, indica Ocupado](media/Presence_Busy.png) Ocupado  |
 || ![Círculo rojo sólido, indica Ocupado en una llamada](media/Presence_Busy.png) Al teléfono|
 || ![Círculo rojo sólido, indica Ocupado en una reunión](media/Presence_Busy.png) En una reunión |
-|| ![Círculo rojo abierto, indica Ocupado](media/Presence_Busy_OOF.png) En una llamada, fuera de la oficina|
-|  ![Círculo rojo con línea blanca, indica No molestar](media/Presence_DND.png) No molestar ||
-|| ![Círculo rojo con línea blanca, indica Presentando](media/Presence_DND.png) Presentando|
-|| ![Círculo rojo con línea blanca, indica Modo enfoque](media/Presence_DND.png) Concentración. El estado de concentración se produce cuando los usuarios programan el tiempo de concentración en MyAnalytics/Insights en sus calendarios.|
-| ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Ausente| ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Ausente|
+|| ![Círculo rojo abierto indica Ocupado](media/Presence_Busy_OOF.png) En una llamada, fuera de la oficina|
+|  ![Círculo rojo con línea blanca indica No molestar](media/Presence_DND.png) No molestar ||
+|| ![Círculo rojo con línea blanca indica Presentando](media/Presence_DND.png) Presentando|
+|| ![Círculo rojo con línea blanca indica Concentración.](media/Presence_DND.png) Concentración. El estado de concentración se produce cuando los usuarios programan el tiempo de concentración en MyAnalytics/Insights en sus calendarios.|
+| ![Icono del reloj amarillo indica que está ausente.](media/Presence_Away.png) Ausente| ![Icono del reloj amarillo indica que está ausente.](media/Presence_Away.png) Ausente|
 || ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Última vez visto ausente *hora*|
-|![Icono del reloj amarillo, indica que está ausente, ahora vuelvo.](media/Presence_Away.png) Ahora vuelvo| |
-|![El círculo gris con una x, indica Sin conexión](media/Presence_Offline.png) Desconectado|![El círculo gris con una x, indica Sin conexión](media/Presence_Offline.png) Desconectado. Cuando los usuarios no tienen la sesión iniciada en ninguno de sus dispositivos durante unos minutos, aparecen como desconectados. | |
-|| ![Círculo gris abierto, indica estado desconocido](media/Presence_Unknown.png) Estado desconocido|
-|| ![El círculo púrpura con una flecha, indica Fuera de la oficina](media/Presence_OOF.png) Fuera de la oficina. Fuera de la oficina se usa cuando se establece una respuesta automática. |
+|![Icono del reloj amarillo indica ausente, ahora vuelvo.](media/Presence_Away.png) Ahora vuelvo| |
+|![El círculo gris con una x indica Desconectado](media/Presence_Offline.png) Desconectado|![El círculo gris con una x indica Desconectado](media/Presence_Offline.png) Desconectado. Cuando los usuarios no tienen la sesión iniciada en ninguno de sus dispositivos durante unos minutos, aparecen como desconectados. | |
+|| ![Un círculo gris abierto indica estado desconocido.](media/Presence_Unknown.png) Estado desconocido|
+|| ![El círculo púrpura con una flecha indica Fuera de la oficina.](media/Presence_OOF.png) Fuera de la oficina. Fuera de la oficina se usa cuando se establece una respuesta automática. |
 |||
  > [!NOTE]
  > Para los usuarios que tienen su buzón hospedado en un entorno local, se esperan retrasos de una hora (como máximo) en la presencia.

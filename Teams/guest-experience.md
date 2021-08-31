@@ -19,22 +19,22 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Este artículo describe la funcionalidad de Microsoft Teams disponible para los invitados.
-ms.openlocfilehash: 2469fe840d09708187c47671335992021c4b60b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d8c3656abe6f1749251574ab01368a46984cee9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632144"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729619"
 ---
 # <a name="guest-experience-in-teams"></a>Experiencia de invitado en Teams
 
 Cuando se invita a un invitado a unirse a un equipo, recibirá un mensaje de correo electrónico de bienvenida. Este mensaje contiene cierta información sobre el equipo y lo que puede esperar de él ahora que es miembro. El invitado debe aceptar la invitación seleccionando el enlace **Abrir Microsoft Teams** incluido en el mensaje de correo electrónico antes de poder acceder al equipo y a sus canales.
     
-![Recorte de pantalla que muestra un ejemplo de correo electrónico de bienvenida](media/guest-experience-image1.png)
+![Captura de pantalla que muestra un ejemplo de un mensaje de correo electrónico de bienvenida.](media/guest-experience-image1.png)
     
 Todos los miembros del equipo ven un mensaje en el hilo del canal en el que se anuncia que el propietario del equipo ha agregado a un invitado y da el nombre del invitado. Todos los miembros del equipo pueden identificar con facilidad quién es un invitado. Una etiqueta en la esquina superior derecha de la conversación del canal indica el número de invitados en el equipo y la etiqueta **(Invitado)** se muestra junto al nombre de cada invitado.
 
-![Recorte de pantalla en donde se muestra la etiqueta que indica el número de invitados en un equipo](media/guest-experience-image2.png)
+![Captura de pantalla que muestra una etiqueta que indica el número de invitados del equipo.](media/guest-experience-image2.png)
 
 Consulte los siguientes vídeos sobre la experiencia de invitado en Teams:
 - [Unirse a un equipo como invitado](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)

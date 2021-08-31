@@ -18,12 +18,12 @@ description: Obtenga más información sobre la versión preliminar pública en 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 84e37bc76fe6c9f52aedae95c3ef01bb49e00cf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79d5467bd57900dfe62006a09d5f5cafaf662640
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586554"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726839"
 ---
 # <a name="microsoft-teams-public-preview"></a>Versión preliminar pública en Microsoft Teams
 
@@ -54,7 +54,7 @@ La versión preliminar pública se habilita independientemente para cada usuario
  
    - **No habilitado**: las características de la versión preliminar pública de Teams no estarán disponibles para los usuarios finales.
 
-    ![muestra el cuadro de diálogo de configuración de la versión preliminar](media/public-preview-policy.png)  
+    ![muestra el cuadro de diálogo de configuración de la versión preliminar.](media/public-preview-policy.png)  
 
 También puede establecer la directiva mediante PowerShell con el cmdlet `Set-CsTeamsUpdateManagementPolicy` con el parámetro `-AllowPublicPreview` .
 

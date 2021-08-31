@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e2bcffd23a8603acbb0954ddb6a24dad9000332
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd02c93639f0756982c35972e563e06cc41a0687
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584614"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726829"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Administrar el acceso basado en turnos para los trabajadores de primera línea en Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "58584614"
 
 La presencia en Microsoft Teams indica la disponibilidad y el estado actuales de un usuario a otros usuarios. La presencia de los trabajadores de primera línea suele ser menos predecible que el resto del personal, ya que su horario laboral normalmente no es el mismo cada día. Como administrador, puede configurar Teams para mostrar un conjunto de estados de presencia basados en turnos para que los trabajadores de la primera línea de su organización indiquen cuándo están en o fuera del turno.
 
-Estos estados de presencia basados en turnos Marca de verificación Verde sólido, indica En turno En turno, Círculo gris con x, indica Desactivado mayús, Círculo rojo sólido, indica que Ocupado ocupado son independientes del conjunto predeterminado de estados de &mdash; ![ ](../../media/flw-presence-on-shift.png)  ![ presencia en ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; Teams. [](../../presence-admins.md) Con estos dos conjuntos de estados de presencia, puede configurar experiencias diferentes para los usuarios de su organización en función de su rol.
+Esta presencia basada en turnos indica &mdash; ![ Marca de verificación verde sólida, indica En turno.](../../media/flw-presence-on-shift.png) **En mayús,** ![ círculo gris con x, indica Desactivado mayús.](../../media/flw-presence-off-shift.png) **Off shift**, Círculo rojo sólido, indica que Ocupado está separado del conjunto predeterminado de estados de ![ presencia en ](../../media/flw-presence-busy.png)  &mdash; Teams. [](../../presence-admins.md) Con estos dos conjuntos de estados de presencia, puede configurar experiencias diferentes para los usuarios de su organización en función de su rol.
 
 Con el acceso basado en turnos, puede administrar el acceso a Teams cuando los trabajadores de primera línea están fuera del turno. Por ejemplo, puede establecer Teams mostrar un mensaje que los trabajadores de primera línea deben reconocer antes de que puedan usar Teams cuando no están en un turno programado.  
 
@@ -51,9 +51,9 @@ Estos son los estados de presencia basados en turnos.
 
 |Aplicación configurada |Configurado por el usuario  |Más información  |
 |---------|---------|---------|
-|![Marca de verificación verde sólida, indica En turno](../../media/flw-presence-on-shift.png) En turno     |         |Se establece automáticamente al principio de un turno         |
+|![Marca de verificación verde sólida, indica En turno.](../../media/flw-presence-on-shift.png) En turno     |         |Se establece automáticamente al principio de un turno         |
 |![Círculo gris con x, indica Desactivado mayús](../../media/flw-presence-off-shift.png) Desactivar turno     |         |Se establece automáticamente al final de un turno         |
-|![Círculo rojo sólido, indica Ocupado](../../media/flw-presence-busy.png) Ocupado      | ![Círculo rojo sólido, indica Ocupado](../../media/flw-presence-busy.png) Ocupado         |Establecer automáticamente. También se puede establecer manualmente cuando el trabajador de primera línea está en turno.|
+|![Círculo rojo sólido, indica Ocupado.](../../media/flw-presence-busy.png) Ocupado      | ![Círculo rojo sólido, indica Ocupado](../../media/flw-presence-busy.png) Ocupado         |Establecer automáticamente. También se puede establecer manualmente cuando el trabajador de primera línea está en turno.|
 
 ## <a name="off-shift-access-to-teams"></a>Desactivar el acceso por turnos a Teams
 
@@ -61,7 +61,7 @@ Esta característica le permite administrar el acceso a Teams cuando los trabaja
 
 Puede usar el mensaje predeterminado, elegir entre un conjunto de mensajes predefinidos o personalizar el mensaje para mostrar el texto que desee. Este es el mensaje predeterminado:
 
-![Captura de pantalla del mensaje predeterminado](../../media/shifts-presence-message.png)
+![Captura de pantalla del mensaje predeterminado.](../../media/shifts-presence-message.png)
 
 También puede establecer la frecuencia cuando se muestra el mensaje y establecer un período de gracia entre cuando se inicia el primer turno o finaliza el último turno y cuando el acceso a Teams está restringido.
 

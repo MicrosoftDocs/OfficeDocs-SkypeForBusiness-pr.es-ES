@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Las siguientes secciones descrbien cómo configurar un entorno que tiene varios bosques en un modelo de bosque de recursos o usuarios para proporcionar funcionalidad en un escenario híbrido.
-ms.openlocfilehash: 146537c6b2ff51d6e2a68c0f4fbb59dfee55b1b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a6ca7c559a2c79979a44d8ca7c8555abf432b4d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625782"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727059"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implementación del recurso de topología entre bosques
 
@@ -32,7 +32,7 @@ ms.locfileid: "58625782"
  
 En las secciones siguientes se describe cómo configurar un entorno que tiene varios bosques en un modelo de bosque de recursos o usuarios para proporcionar funcionalidad en un escenario híbrido. 
   
-![Entorno de varios bosques para híbrido](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
+![Entorno de varios bosques para híbrido.](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
 ## <a name="topology-requirements"></a>Requisitos de la topología
 
@@ -104,7 +104,7 @@ Esta implementación será una implementación estándar del Windows Server 2012
   
 Una vez implementado, debe editar la regla de notificaciones para que coincida con el delimitador de origen seleccionado anteriormente. En LA MMC de AD FS, en Confianzas de usuario de confianza, haga clic con el botón secundario en **Microsoft 365 Identity Platform** o Microsoft Office 365 Identity Platform y, **a** continuación, seleccione Editar **reglas de** notificación. Edite la primera regla y cambie ObjectSID a **employeeNumber**. 
   
-![Pantalla De reglas de edición de varios bosques](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
+![Pantalla De reglas de edición de varios bosques.](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
 ## <a name="configure-aad-connect"></a>Configurar AAD Conectar
 
@@ -114,7 +114,7 @@ Tenga en cuenta que Azure AD Conectar no proporciona sincronización local entre
   
 Cuando termine y azure AD Conectar se combina, si observa un objeto en el metaverso, debería ver algo similar a lo siguiente: 
   
-![Pantalla de objetos metaverso de varios bosques](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
+![Pantalla de objetos metaverso de varios bosques.](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
 Los atributos resaltados en verde se combinaron Microsoft 365, los amarillos son del bosque de usuarios y el azul del bosque de recursos. 
   

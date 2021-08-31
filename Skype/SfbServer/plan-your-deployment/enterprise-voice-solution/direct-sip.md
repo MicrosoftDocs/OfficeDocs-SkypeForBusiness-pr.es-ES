@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Las conexiones SIP directas se admiten Skype Empresarial Server puertas de enlace RTC y IP-PBX en Telefonía IP empresarial.
-ms.openlocfilehash: 40c8f5df636fcb6219af3d428de41c206bae906c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a3a2354074819f40780896897a8e9a2790a9421
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596524"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726269"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexiones SIP directas en Skype Empresarial Server
 
@@ -56,7 +56,7 @@ En la siguiente figura se muestra la topología genérica para la implementació
 
 **Opción de implementación incremental**
 
-![Diagrama de opciones de migración departamental](../../media/Fig28_Departmental_migration_option.jpg)
+![Diagrama de opciones de migración departamental.](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
 > Si va a conectar la implementación de Skype Empresarial Server a un partner SIP directo certificado, no es necesaria una puerta de enlace de red telefónica conmutada (RTC) entre el servidor de mediación y la PBX. Para obtener una lista de asociados SIP directos certificados, vea el Programa de interoperabilidad abierta de comunicaciones unificadas  [de Microsoft](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
@@ -97,7 +97,7 @@ En la siguiente figura se muestra una topología típica para una implementació
 
 **Opción de implementación de solo VoIP**
 
-![Opción de implementación de Greenfidle](../../media/Fig29_Greenfield_deployment_option.jpg)
+![Opción de implementación de Greenfidle.](../../media/Fig29_Greenfield_deployment_option.jpg)
 
 > [!NOTE]
 > La ruta de acceso multimedia que se muestra en esta figura tiene habilitada la omisión de medios (la configuración recomendada). Si opta por deshabilitar la omisión de medios, la ruta de acceso multimedia se enruta a través del servidor de mediación.

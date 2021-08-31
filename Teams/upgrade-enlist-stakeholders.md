@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21e08060c61e78919e514a099413f6d70380cf11
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 56a0c236b1fcbae2765c28ddcff424009b57b099
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600925"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729449"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Incorporar a las partes interesadas del proyecto
 
-![Ilustración que muestra el estado de las partes interesadas del viaje de actualización](media/upgrade-banner-stakeholders.png "Etapas del viaje de actualización, con énfasis en reunir a su equipo de partes interesadas del proyecto")
+![Ilustración que muestra el estado de las partes interesadas del viaje de actualización.](media/upgrade-banner-stakeholders.png "Etapas del viaje de actualización, con énfasis en reunir a su equipo de partes interesadas del proyecto")
 
 Este artículo forma parte de la Project stakeholders del viaje de actualización, la primera y más esencial actividad que complete para el éxito de su proyecto.
 
@@ -42,8 +42,8 @@ Opcionalmente, puede crear un comité de dirección. A veces, proyectos grandes 
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión | <ul><li>Quién Son las personas correctas para servir como su equipo de partes interesadas para este proyecto?</li></ul> |
-| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Tenga en cuenta el ámbito del proyecto y asigne las partes interesadas relevantes.</li><li>Use la tabla siguiente como guía, pero tenga en cuenta que esta lista no es todo incluido.<br><strong>Sugerencia</strong><br>Cree una matriz responsable-responsable-consultada-informada [(RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para distinguir aún más a los que serán responsables de aquellos que simplemente necesitan mantenerse informados en un área específica del proyecto.</li> |
+| ![Un icono que muestra los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión | <ul><li>Quién Son las personas correctas para servir como su equipo de partes interesadas para este proyecto?</li></ul> |
+| ![Un icono que muestra los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Tenga en cuenta el ámbito del proyecto y asigne las partes interesadas relevantes.</li><li>Use la tabla siguiente como guía, pero tenga en cuenta que esta lista no es todo incluido.<br><strong>Sugerencia</strong><br>Cree una matriz responsable-responsable-consultada-informada [(RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para distinguir aún más a los que serán responsables de aquellos que simplemente necesitan mantenerse informados en un área específica del proyecto.</li> |
 | <li>Decida si desea crear un comité de dirección y asignar roles según corresponda.</li></ul> | |
 
 | Roles | Responsabilidad |

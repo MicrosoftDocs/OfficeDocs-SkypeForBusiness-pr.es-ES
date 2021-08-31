@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Planee implementar la conectividad híbrida entre Skype Empresarial Server y Teams mediante la configuración Skype Empresarial modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: c1faef42d6c5842649bfb8b8bf79531ac2e367b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 26b837b72769380c3b67e1d24eee54cefc2b7575
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600885"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727019"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planear la conectividad híbrida entre Skype Empresarial Server y Teams
 
@@ -74,7 +74,7 @@ Los modos de coexistencia seguirán existiendo después de la retirada de Skype 
 
 Este tipo de configuración se basa en la funcionalidad de espacio de direcciones SIP compartida y a veces se conoce como "dominio dividido", lo que significa que los usuarios de un dominio, como contoso.com, se dividen entre usar Skype Empresarial Server local y Teams, como se muestra en el diagrama siguiente:
 
-![Skype Empresarial Hybrid: dominio dividido](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
+![Skype Empresarial Hybrid: dominio dividido.](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 Cuando se configura el espacio de direcciones SIP compartido:
 
@@ -120,7 +120,7 @@ Para configurar la implementación para la implementación híbrida **Teams,** d
   - Lync Server 2013 y Skype Empresarial Server 2019
   - Lync Server 2013 y Skype Empresarial Server 2015
 
-*Si se desea* una voz híbrida en cualquier topología, tanto el servidor perimetral designado como el servidor perimetral de federación como el grupo asociado a la federación SIP deben ejecutarse Skype Empresarial 2015 o posterior. Los usuarios pueden permanecer en un grupo de Lync 2013 si existe uno. Para obtener más información, vea [Plan your voice solution](/MicrosoftTeams/cloud-voice-landing-page.md).
+*Si se desea* una voz híbrida en cualquier topología, tanto el servidor perimetral designado como el servidor perimetral de federación como el grupo asociado a la federación SIP deben ejecutarse Skype Empresarial 2015 o posterior. Los usuarios pueden permanecer en un grupo de Lync 2013 si existe uno. Para obtener más información, vea [Plan your voice solution](/MicrosoftTeams/cloud-voice-landing-page).
 
 > [!NOTE]
 > Lync Server 2010 no se admite con Teams.

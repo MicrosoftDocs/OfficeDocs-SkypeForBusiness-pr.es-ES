@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 2d8f2e0eefd3e600b57f1a5fdeafc0a813dc4c22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e7696878ba84942c2dcc88a1df3d5fc29144f883
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595104"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728739"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -64,7 +64,7 @@ Escriba un nombre descriptivo para la cola.
 
 ## <a name="resource-accounts"></a>Cuentas de recursos
 
-![Captura de pantalla de la configuración de la cuenta de recursos](media/call-queue-name-language.png)
+![Captura de pantalla de la configuración de la cuenta de recursos.](media/call-queue-name-language.png)
 
 Haga clic en **Agregar cuentas**, busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar** y, después, haga clic en **Agregar**. (Los agentes verán el nombre de la cuenta de recurso cuando reciban una llamada entrante).
 
@@ -72,7 +72,7 @@ Vea [Administrar Teams cuentas de recursos para](manage-resource-accounts.md) ob
 
 ### <a name="assign-calling-id"></a>Asignar id. de llamada
 
-![Captura de pantalla de la configuración de id. de llamada](media/call-queue-assign-calling-id.png)
+![Captura de pantalla de la configuración de id. de llamada.](media/call-queue-assign-calling-id.png)
 
 Si tiene previsto usar un canal Teams para los agentes de llamada, puede asignar un número de identificación de llamada saliente para los agentes especificando una o más cuentas de recursos con un número de teléfono.
 
@@ -82,13 +82,13 @@ Si no usa un canal Teams para controlar la pertenencia al agente, considere la p
 
 ## <a name="language"></a>Idioma
 
-![Captura de pantalla de la configuración de idioma](media/call-queue-language.png)
+![Captura de pantalla de la configuración de idioma.](media/call-queue-language.png)
 
 Elija un [idioma compatible.](create-a-phone-system-call-queue-languages.md) Este idioma se usará para los mensajes de voz generados por el sistema y la transcripción de correo de voz (si las habilita).
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>Saludos y música en espera en cola
 
-![Captura de pantalla de saludos y música en espera en la configuración de cola](media/call-queue-greetings-music.png)
+![Captura de pantalla de saludos y música en espera en la configuración de cola.](media/call-queue-greetings-music.png)
 
 Especifique si quiere reproducir un saludo a los autores de llamadas cuando lleguen a la cola. Debe cargar un archivo MP3, WAV o WMA que contenga el saludo que desea reproducir. La grabación cargada no puede ser superior a 5 MB.
 
@@ -101,7 +101,7 @@ Los equipos proporcionan música predeterminada a los autores de llamadas mientr
 
 Revise los [requisitos previos para agregar agentes a una cola de llamadas.](plan-auto-attendant-call-queue.md#prerequisites)
 
-![Captura de pantalla de la configuración de usuarios y grupos para las colas de llamadas](media/call-queue-users-groups.png)
+![Captura de pantalla de la configuración de usuarios y grupos para las colas de llamadas.](media/call-queue-users-groups.png)
 
 ##### <a name="teams-channel"></a>Teams canal
 
@@ -132,7 +132,7 @@ Para agregar un grupo a la cola, haga clic en **Agregar grupos**, busque el grup
 
 ## <a name="call-routing"></a>Enrutamiento de llamada
 
-![Captura de pantalla de la configuración del modo de conferencia y del método de enrutamiento](media/call-queue-conference-mode-routing-method.png)
+![Captura de pantalla de la configuración del modo de conferencia y del método de enrutamiento.](media/call-queue-conference-mode-routing-method.png)
 
 **El modo de conferencia** reduce de forma significativa la cantidad de tiempo que tarda un autor de llamada en estar conectado con un agente, después de que el agente acepte la llamada. Para que el modo de conferencia funcione, los agentes en la cola de llamadas deben usar uno de los siguientes clientes:
 
@@ -160,7 +160,7 @@ Las cuentas de Teams de los agentes deben establecerse en modo solo Teams. Los a
 > [!TIP]
 > Establecer **El método de enrutamiento** en **Redondear** o Más **tiempo** inactivo es la configuración recomendada.
 
-![Captura de pantalla de configuración de enrutamiento, de baja y de hora de alerta](media/call-queue-presence-agents-time.png)
+![Captura de pantalla del enrutamiento, la opción de no participar y la configuración de la hora de alerta.](media/call-queue-presence-agents-time.png)
 
 **La red de enrutamiento basada en** usa el estado de disponibilidad de los agentes de llamada para determinar si un agente debe incluirse en la lista de enrutamiento de llamadas para el método de enrutamiento seleccionado. Los agentes de llamadas cuyo estado de disponibilidad está establecido en **Disponible** se incluyen en la lista de enrutamiento de llamadas y pueden recibir llamadas. Los agentes cuyo estado de disponibilidad se establezca en cualquier otro estado se excluyen de la lista de enrutamiento de llamadas y no recibirán llamadas hasta que el estado de disponibilidad vuelva a cambiar a **Disponible**. 
 
@@ -185,7 +185,7 @@ Si un agente opta por no recibir llamadas, no se incluirán en la lista de enrut
 
 ## <a name="call-overflow-handling"></a>Gestión de desbordamiento de llamadas
 
-![Captura de pantalla de la configuración de desbordamiento de llamadas](media/call-queue-overflow-handling.png)
+![Captura de pantalla de la configuración de desbordamiento de llamadas.](media/call-queue-overflow-handling.png)
 
 **Número máximo de llamadas en la cola**: use esta opción para establecer el número máximo de llamadas que pueden esperar en la cola al mismo tiempo. El valor predeterminado es 50, pero puede elegir un valor entre 0 y 200. Una vez alcanzado el límite, la llamada se administrará del modo que establezca en el ajuste **Cuando se alcanza el número máximo de llamadas**, que se describe a continuación.
 
@@ -196,7 +196,7 @@ Puede elegir desconectar la llamada o redirigirla a cualquiera de los destinos d
 
 ## <a name="call-timeout-handling"></a>Gestión de la caducidad de la llamada
 
-![Captura de pantalla de la configuración del tiempo de espera de la llamada](media/call-queue-timeout-handling.png)
+![Captura de pantalla de la configuración de tiempo de espera de la llamada.](media/call-queue-timeout-handling.png)
 
 **Tiempo de espera de la llamada: tiempo máximo** especifica el tiempo máximo en que una llamada puede estar en espera en la cola antes de que se redirija o se desconecta. Puede establecer un intervalo de entre 0 y 45 minutos.
 

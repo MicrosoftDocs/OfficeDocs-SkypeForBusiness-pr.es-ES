@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Obtenga información sobre cómo admitir la resistencia de voz en Skype Empresarial Server Telefonía IP empresarial, tanto en sitios centrales como en sitios de sucursal. Las opciones de sitio de sucursal incluyen la implementación de aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
-ms.openlocfilehash: 08bfa774b52a59dcb9b88cdf9b41d11035f09417
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cccce61eb575caaf6037d1d916f428aeecb452e4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617746"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729769"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planear la Telefonía IP empresarial resistencia en Skype Empresarial Server
 
@@ -222,7 +222,7 @@ La siguiente figura refleja las topologías recomendadas de resistencia en las s
 
 **Opciones de resistencia de las sucursales**
 
-![Opciones de resistencia de la rama de voz](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
+![Opciones de resistencia de la rama de voz.](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
 
 #### <a name="survivable-branch-appliance-details"></a>Detalles de la aplicación de sucursal con funciones de supervivencia
 

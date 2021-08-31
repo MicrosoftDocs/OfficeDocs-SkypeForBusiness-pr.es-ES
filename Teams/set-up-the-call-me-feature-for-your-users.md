@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9ffdd467f73b590aae153cb8606c225258ef384c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a19a11e76320de08281079557344d9806f01332a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618446"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727079"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configure la característica llamarme para sus usuarios
 
@@ -41,19 +41,19 @@ En Microsoft Teams, la característica **Llamarme** ofrece a los usuarios una fo
 
 Haga **clic en** Unirse para unirse a una reunión, Teléfono **audio** en la pantalla Elegir las opciones de vídeo y **audio** y haga clic **en Unirse ahora.** Desde aquí, los usuarios pueden hacer la llamada de reunión y unirse a ellas o llamar manualmente a la reunión.
 
-![Captura de pantalla de la Teléfono de audio](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
+![Captura de pantalla de la Teléfono de audio.](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
 **Permitir que la Teams llamada de reunión**
 
 En la **pantalla Usar teléfono para audio,** el usuario escribe su número de teléfono y, a continuación, hace clic en **Llamarme.** La reunión llama al usuario y los une a la reunión.
 
-![Captura de pantalla de la opción Llamarme en la pantalla Usar teléfono para audio](media/set-up-the-call-me-feature-for-your-users-call-me.png)
+![Captura de pantalla de la opción Llamarme en la pantalla Usar teléfono para audio.](media/set-up-the-call-me-feature-for-your-users-call-me.png)
 
 **Marcar manualmente**
 
 Otra forma de unirse es llamar directamente a la reunión. En la pantalla Usar teléfono  **para audio,** haga clic en Marcar manualmente para obtener una lista de números de teléfono que se usarán para llamar a la reunión.
 
-![Captura de pantalla de la opción Marcar manualmente](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
+![Captura de pantalla de la opción Marcar manualmente.](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
 
 ### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a>Obtener una llamada cuando hay un problema con el audio durante una reunión
 
@@ -61,7 +61,7 @@ Si un usuario experimenta problemas de audio al usar su equipo durante una reuni
 
 Este es un ejemplo del  mensaje y la opción Llamarme atrás que se muestra cuando Teams no detecta un micrófono.
 
-![Captura de pantalla de la opción Llamarme atrás](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
+![Captura de pantalla de la opción Llamarme atrás.](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
 El usuario hace clic **en Llamarme** de nuevo, que muestra la **pantalla Usar teléfono para audio.** Desde aquí, pueden escribir su número de teléfono y tener la llamada Teams reunión y unirse a la reunión o llamar manualmente a la reunión.
 

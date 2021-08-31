@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Obtenga información acerca de cómo buscar y agregar usuarios de fuera de la organización en Microsoft Teams, así como cómo llamarlos y chatear con ellos, mediante el acceso externo (federación) y el acceso de invitado.
-ms.openlocfilehash: b2a8b7a4fb7042596b5f96ab8ac59b65c5b2df58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b4665c17559f94152279e86a82bb44c3c73f016
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582414"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729869"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización
 
@@ -40,7 +40,7 @@ Configure el acceso externo si necesita buscar personas de fuera de su organizac
 
 De forma predeterminada, el acceso externo está habilitado para todos los dominios. Puede permitir o bloquear dominios específicos, o desactivar el acceso externo, para restringirlo.
 
-![Captura de pantalla de la configuración de acceso externo](media/external-access-federation-settings.png)
+![Captura de pantalla de la configuración de acceso externo.](media/external-access-federation-settings.png)
 
 Para configurar el acceso externo, vea [Administrar el acceso externo](manage-external-access.md). 
 

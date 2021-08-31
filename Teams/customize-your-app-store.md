@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre la tienda de aplicaciones personalizadas en Microsoft Teams.
-ms.openlocfilehash: 12893fc0a424fc85b0bb72dd58da3008c2ba5085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 06663505a173d7fa1a5d53957fbf2df8fdd232d0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584664"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728909"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Las aplicaciones personalizadas se almacenan en Microsoft Teams
 
@@ -34,7 +34,7 @@ Ahora puede personalizar la tienda de aplicaciones de su organización en Teams 
 
 Puede acceder a la tienda de personalización en el centro de administración seleccionando Teams **aplicaciones**  >  **Personalizar tienda.**
 
-  ![La consola de administración personaliza la característica de tienda resaltada](media/customize-app-store.png)
+  ![La consola de administración personaliza la característica de tienda resaltada.](media/customize-app-store.png)
 
 En este artículo se describen las características de la tienda de aplicaciones personalizadas y cómo usarlas.
 
@@ -99,14 +99,14 @@ Asegúrese de que el color del texto tiene suficiente contraste con el fondo par
 
 Al seleccionar **Elegir un color personalizado,** se abre un selector de color. Seleccione el color que desee ajustando la escala del selector de color.
 
- ![el selector de color](media/choose-a-custom-color.png)
+ ![el selector de color.](media/choose-a-custom-color.png)
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>Completar la personalización de la tienda de aplicaciones de grupo
 
 Cuando haya terminado de personalizar la tienda de aplicaciones, asegúrese de seleccionar **Guardar** para guardar los cambios.
 Para obtener una vista previa de los cambios, seleccione Vista previa de la tienda **de** aplicaciones para ver una representación de la tienda de aplicaciones personalizadas.
 
-![vista previa de la tienda de aplicaciones personalizadas](media/PowerAppsInStore650w.png)
+![vista previa de la tienda de aplicaciones personalizadas.](media/PowerAppsInStore650w.png)
 
 > [!Note]
 > La representación puede variar de la versión final de la tienda de aplicaciones personalizadas porque algunos colores predeterminados se basan en la versión de los usuarios de Teams cliente.

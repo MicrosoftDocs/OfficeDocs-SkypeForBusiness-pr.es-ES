@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a6bafcc7aade115684bce8621877f6fa6f196435b69c4b8388af731997b5dab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e0b4f3c19ed82362a066044ff9dd1c695b6690e2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321452"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729679"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo: protocolo SIP
 
@@ -185,7 +185,7 @@ Un Teams usuario puede tener varios puntos de conexión al mismo tiempo. Por eje
 5.  Se envía un mensaje de aceptación de llamadas con los candidatos finales del punto de conexión que aceptaron la llamada. El mensaje Aceptación de llamadas se convierte en mensaje SIP 200. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama que muestra varios puntos de conexión que suenan con respuesta provisional](media/direct-routing-protocols-1.png)
+> ![Diagrama que muestra varios puntos de conexión que suenan con respuesta provisional.](media/direct-routing-protocols-1.png)
 
 #### <a name="multiple-endpoints-ringing-without-provisional-answer"></a>Varios puntos de conexión que suenan sin respuesta provisional
 
@@ -198,7 +198,7 @@ Un Teams usuario puede tener varios puntos de conexión al mismo tiempo. Por eje
 4.  Se envía un mensaje de aceptación de llamadas con los candidatos finales del punto de conexión que aceptaron la llamada. El mensaje Aceptación de llamadas se convierte en mensaje SIP 200. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama que muestra varios puntos de conexión que suenan sin respuesta provisional](media/direct-routing-protocols-2.png)
+> ![Diagrama que muestra varios puntos de conexión que suenan sin respuesta provisional.](media/direct-routing-protocols-2.png)
 
 ### <a name="media-bypass-flow"></a>Flujo de omisión de medios
 
@@ -210,7 +210,7 @@ En el esquema siguiente se muestra un ejemplo del flujo de llamadas de omisión.
 > Los candidatos multimedia pueden venir de distintos puntos de conexión. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama que muestra varios puntos de conexión que suenan con respuesta provisional](media/direct-routing-protocols-3.png)
+> ![Diagrama que muestra varios puntos de conexión que suenan con respuesta provisional.](media/direct-routing-protocols-3.png)
 
 ## <a name="replaces-option"></a>Opción Reemplazar
 
@@ -256,7 +256,7 @@ Si el SBC indicaba que el método Refer no es compatible, el proxy SIP actúa co
 La solicitud de referencia que proviene del cliente se finalizará en el proxy SIP. (La solicitud De referencia del cliente se muestra como "Transferencia de llamadas a Dave" en el siguiente diagrama.  Para obtener más información, vea la sección 7.1 de [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt). 
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama que muestra varios puntos de conexión que suenan con respuesta provisional](media/direct-routing-protocols-4.png)
+> ![Diagrama que muestra varios puntos de conexión que suenan con respuesta provisional.](media/direct-routing-protocols-4.png)
 
 ### <a name="sip-proxy-send-the-refer-to-the-sbc-and-acts-as-a-transferor"></a>El proxy SIP envía la referencia al SBC y actúa como transferor
 
@@ -297,7 +297,7 @@ El encabezado REFERRED-BY es un URI SIP con MRI transferor codificado en él, as
 En este caso, el tamaño del encabezado Referencia puede ser de hasta 400 símbolos. El SBC debe admitir la administración de mensajes De referencia con un tamaño de hasta 400 símbolos.
 
 > [!div class="mx-imgBorder"]
-> ![Diagrama que muestra varios puntos de conexión que suenan con respuesta provisional](media/direct-routing-protocols-5.png)
+> ![Diagrama que muestra varios puntos de conexión que suenan con respuesta provisional.](media/direct-routing-protocols-5.png)
 
 ## <a name="session-timer"></a>Temporizador de sesión
 

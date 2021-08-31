@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5560373705a12c3d3f1a03c657e8e5bd3565a55
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d98257e9a29564d22b57c5cc537d703bbb1fe842
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613429"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729309"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Herramientas para actualizar a Teams &mdash; para administradores de TI
 
@@ -80,7 +80,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 Los administradores tienen la opción de proporcionar notificaciones de usuario final en el cliente de Skype Empresarial para informar a los usuarios de que pronto se actualizarán Teams, como se muestra en el siguiente diagrama. Por ejemplo, una semana antes de que el administrador tenga previsto actualizar un grupo de usuarios al modo TeamsOnly, es posible que el administrador quiera activar estas notificaciones para ese grupo de usuarios. Estas notificaciones se habilitan con una instancia de TeamsUpgradePolicy con NotifySfbUsers=true.  Para todos los modos distintos de TeamsOnly, en realidad hay dos instancias por modo, correspondientes a los dos valores de NotifySfbUsers.  Para todos los modos distintos de TeamsOnly, en realidad hay dos instancias por modo, correspondientes a los dos valores de NotifySfbUsers. 
 
-![Diagrama que muestra notificaciones](media/teams-upgrade-sfb-with-notifications.png)
+![Diagrama que muestra notificaciones.](media/teams-upgrade-sfb-with-notifications.png)
 
 Si los usuarios se encuentran en Skype Empresarial Online, simplemente asigne la instancia de directiva que tenga el mismo modo que el usuario, pero con NotifySfbUsers=true. 
 

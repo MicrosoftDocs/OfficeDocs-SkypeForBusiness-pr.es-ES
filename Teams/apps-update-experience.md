@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo actualizar aplicaciones en Microsoft Teams.
-ms.openlocfilehash: 156bafa45fe51884d6697bb4121143fad98fc7cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0755c505a25d4c858afd104331d193edd8b2b27c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593174"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726209"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Actualizar aplicaciones en Microsoft Teams
 
@@ -37,9 +37,9 @@ En la mayoría de los casos, después de que los desarrolladores de aplicaciones
 * Se ha agregado un nuevo conector
 * Se han cambiado las propiedades dentro de "webApplicationInfo"
 
-![nueva versión disponible](media/manage-your-custom-apps-update1.png)
+![nueva versión disponible.](media/manage-your-custom-apps-update1.png)
 
-![opción de actualización para una aplicación](media/manage-your-custom-apps-update2.png)
+![opción de actualización para una aplicación.](media/manage-your-custom-apps-update2.png)
 
 > [!NOTE] 
 > El proceso de actualización se aplica a todas las actualizaciones de aplicaciones de Microsoft, aplicaciones personalizadas y aplicaciones de terceros. 

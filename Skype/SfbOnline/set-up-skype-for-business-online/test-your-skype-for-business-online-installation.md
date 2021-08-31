@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 12622339c6a09c5bd651a712ff5210df92d04e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611469"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729909"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Probar la instalación de Skype Empresarial Online
 
@@ -53,7 +53,7 @@ Esto es lo que necesita:
 ## <a name="set-up-test-accounts"></a>Configurar cuentas de prueba
 <a name="__toc328126910"> </a>
 
-1. Vaya a **Administrador Microsoft 365** o Office 365 Usuarios y grupos y, a continuación, seleccione  >   Agregar y escriba la   >   ![ información ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) necesaria.
+1. Vaya a **Administrador Microsoft 365** o Office 365 usuarios y grupos y, a continuación,  >   seleccione   >   ![ Agregar.](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) e introduce la información necesaria.
 
 2. Cuando llegue al Paso 4 (correo electrónico), escriba su propia dirección de correo electrónico. Tendrá entonces un registro del nombre y la contraseña del nuevo usuario.
 
@@ -66,7 +66,7 @@ En cada equipo de prueba:
 
 1. Vaya a la Microsoft 365 o Office 365 página principal e inicie sesión con las credenciales de una de las cuentas de prueba.
 
-2. Vaya a **Configuración**![Configuración: actualizar el perfil, instalar software y conectarse a la nube](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) y, a continuación, haga clic en **Instalar el software y conectarlo a la nube**.
+2. Vaya **a Configuración** Configuración: actualice su perfil, instale software y conéctelo a la nube. Y, a continuación, haga clic en Instalar software y conéctelo a ![ ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) la **nube.**
 
 ## <a name="set-up-audio-conferencing"></a>Configurar Audioconferencia
 <a name="__toc328126912"> </a>
@@ -83,7 +83,7 @@ Después de configurar los usuarios para las audioconferencias, estos reciben un
 
 1. Haga clic **en Usuarios de audioconferencia.**  >  
 
-2. Haga clic en los nombres de los usuarios que desea configurar para conferencias de acceso telefónico y, a continuación, haga clic en **Editar**![Editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+2. Haga clic en los nombres de los usuarios que desea configurar para las conferencias de acceso telefónico local y, a continuación, haga clic **en Editar** ![ edición. ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
 
 3. Seleccione el proveedor de audioconferencias, escriba la información solicitada y, a continuación, haga clic en **Guardar**.
 

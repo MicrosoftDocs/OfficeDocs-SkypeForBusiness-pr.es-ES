@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo supervisar y solucionar problemas de configuración de enrutamiento directo, incluidos controladores de borde de sesión, componentes de enrutamiento directo y troncos de Telecom.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 537df3fb87386914b88da34dcdd5717cfd5700dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aeff22bf3558c64111f0d1b66c2fd76288f81477
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618506"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726889"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Supervisar y solucionar problemas de enrutamiento directo
 
@@ -46,7 +46,7 @@ Por ejemplo, si, para un usuario específico, hay varios SBC disponibles para en
 
 En el siguiente diagrama se muestra un ejemplo de la configuración: 
 
-![Ejemplo de configuración de opciones SIP](media/sip-options-config-example.png)
+![Ejemplo de configuración de opciones SIP.](media/sip-options-config-example.png)
 
 Cuando un usuario realiza una llamada al número +1 425, \<any seven digits> Enrutamiento directo evalúa la ruta. Hay dos SBC en la ruta: sbc1.contoso.com y sbc2.contoso.com. Ambos SBC tienen la misma prioridad en la ruta. Antes de elegir un SBC, el mecanismo de enrutamiento evalúa el estado de los SBC en función de cuándo el SBC envió las opciones SIP la última vez. 
 
@@ -83,6 +83,6 @@ El Panel de calidad de llamadas proporciona información sobre la calidad y la c
 
 En caso de errores de llamada, Análisis de llamadas proporciona códigos SIP estándar para ayudarle con la solución de problemas. 
 
-![Código SIP de ejemplo para errores de llamada](media/failed-response-code.png)
+![Código SIP de ejemplo para errores de llamada.](media/failed-response-code.png)
 
 Sin embargo, Análisis de llamadas solo puede ayudar cuando las llamadas llegan a los componentes internos de Enrutamiento directo y fallan. En caso de problemas con el emparejamiento SBC o problemas en los que se rechazó la opción "Invitar" sip (por ejemplo, el nombre del FQDN del tronco está mal configurado), Análisis de llamadas no le ayudará. En este caso, consulte los registros de SBC. Enrutamiento directo envía una descripción detallada de los problemas a los SBC; estos problemas se pueden leer en los registros de SBC.

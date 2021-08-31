@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo obtener números nuevos, portabilidad o transferir números existentes para Teams y cómo mostrar los cambios a los usuarios. '
-ms.openlocfilehash: 5371a3d23e78017db34ae94cdd7516ce40b6347b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 368a9d2c699fa631ff98b343d6c2f9562efc62e1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602275"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729629"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 
@@ -45,7 +45,7 @@ Hay tres formas de obtener números de usuario:
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Get new phone numbers for your users
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
+![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
 
 Debe ser administrador de servicio de Teams para poder realizar estos cambios. Consulte [Usar los roles de administrador de Teams para administrar Teams](./using-admin-roles.md) para obtener información sobre cómo obtener roles de administrador y permisos.
 
@@ -72,7 +72,7 @@ Debe ser administrador de servicio de Teams para poder realizar estos cambios. C
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Ver los números de teléfono de su organización
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Centro de administración de Microsoft Teams en uso**
+![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
 
 En el panel de navegación izquierdo del centro de administración, vaya a Números de Teléfono para ver los números de su organización, incluidos la ubicación, el tipo de número y la información  >   de estado.
   

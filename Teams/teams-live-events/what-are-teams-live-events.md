@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 90804c7d266df81813aeccd4ed91711d6b4eaf27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b861278bd4ae8081f7bb930a94c602ba4f7507a7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635654"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726529"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -43,7 +43,7 @@ Los eventos en directo de Teams se consideran la nueva versión de Difusión de 
 
 Así que, empecemos. En primer lugar, echemos un vistazo al siguiente diagrama, que muestra los componentes de alto nivel presentes en los eventos en directo de Microsoft 365 y cómo están conectados.
 
-![Componentes clave de los eventos en directo](../media/live-events-flow-diagram.png  "Componentes clave de eventos en directo, programación, producción, plataforma de Stream, proveedores de terceros certificados de eCDN")
+![Componentes clave de los eventos en directo.](../media/live-events-flow-diagram.png  "Componentes clave de eventos en directo, programación, producción, plataforma de Stream, proveedores de terceros certificados de eCDN")
 
 > [!Note]
 > Nos gustaría destacar que los eventos en directo de Teams, dada la naturaleza de la tecnología de difusión, a menudo superan las audiencias de reuniones normales (internas).
@@ -69,7 +69,7 @@ Como puede ver en la imagen superior, hay cinco componentes clave que se emplean
 
 Teams ofrece la posibilidad de que los organizadores puedan crear un evento con los permisos de asistente correspondientes, designar miembros del equipo de eventos, seleccionar un método de producción e invitar a los asistentes. Si el evento en directo se creó desde un grupo de Yammer, los asistentes al evento en directo podrán usar la conversación de Yammer para interactuar con las personas en el evento.
 
-![la pantalla de Nuevos eventos en directo](../media/teams-live-events-schedule.png "Captura de pantalla de la pantalla de Nuevo evento en directo para crear y programar un nuevo evento en directo")
+![pantalla de Nuevos eventos en directo.](../media/teams-live-events-schedule.png "Captura de pantalla de la pantalla de Nuevo evento en directo para crear y programar un nuevo evento en directo")
 
 > [!IMPORTANT]
 > Microsoft Teams no permitirá que los usuarios programen reuniones o eventos en directo cuando estén desconectados o tengan un ancho de banda limitado.
@@ -82,7 +82,7 @@ La entrada de vídeo constituye la base de un evento en directo y el método pue
 
 - **Aplicación o dispositivo externos**: los codificadores externos permiten a los usuarios producir eventos en directo de manera directa desde un codificador externo basado en hardware o en software con [Stream](https://stream.microsoft.com). Esta es la mejor opción si ya cuenta con equipo de estudio de calidad (por ejemplo, mezcladoras de sonido) que sea compatible con la transmisión a un servicio de protocolo de mensajería en tiempo real (RTMP). Este tipo de producción se suele usar en eventos de gran escala, como asambleas públicas, en las que se transmite desde un solo equipo de mezcladora de sonido al público.
 
-    ![un evento en directo producido con un dispositivo o aplicación externa](../media/teams-live-events-external-encoder.png "Captura de pantalla de un nuevo evento producido con el método de producción con aplicación o dispositivo externo")
+    ![un evento en directo generado con una aplicación o dispositivo externos.](../media/teams-live-events-external-encoder.png "Captura de pantalla de un nuevo evento producido con el método de producción con aplicación o dispositivo externo")
 
 >[!Note]
 > El cambio de uso desde Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabar las reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, en noviembre tendrá que cancelar la suscripción si desea continuar usando Stream y por un tiempo, a principios de 2021, requeriremos que todos los clientes usen OneDrive para la Empresa y SharePoint para grabar nuevas reuniones.
@@ -108,7 +108,7 @@ El objetivo de eCDN consiste en tomar el contenido de vídeo de internet y distr
 
 La experiencia de los asistentes es el aspecto más importante de los eventos en directo y es fundamental que los asistentes puedan participar en el evento en directo sin experimentar problemas. La experiencia de los asistentes utiliza Stream Player (para eventos producidos en Teams) y Azure Media Player (para eventos producidos en una aplicación o dispositivo externos) y funciona en escritorios, exploradores y dispositivos móviles (iOS, Android). Microsoft 365 y Office 365 ofrecen Yammer y Teams como dos centros de colaboración, y la experiencia de los asistentes de eventos en directo se integra en estas herramientas de colaboración.
 
-![Ejemplo de la experiencia de los asistentes de eventos en directo](../media/teams-live-events-attendee.png "Captura de pantalla de la experiencia de los asistentes de eventos en directo")
+![Ejemplo de la experiencia de los asistentes a eventos en directo.](../media/teams-live-events-attendee.png "Captura de pantalla de la experiencia de los asistentes de eventos en directo")
 
 ### <a name="live-event-usage-report"></a>Informe de uso de eventos en directo
 

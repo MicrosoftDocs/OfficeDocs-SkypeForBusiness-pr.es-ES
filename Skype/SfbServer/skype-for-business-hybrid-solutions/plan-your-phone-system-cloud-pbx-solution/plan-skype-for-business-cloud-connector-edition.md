@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Busque información sobre Skype for Business Edición de conector de nube, un conjunto de máquinas virtuales (VM) empaquetadas que implementan la conectividad RTC local con Sistema telefónico (PBX en la nube).
-ms.openlocfilehash: 65e1d78a894b967391f44d6859c7fe50f42a7145
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bff341213e9426f72fc0a78a9076b5b784871106
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628462"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728809"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planeación de Skype for Business Edición de conector de nube
 
@@ -106,7 +106,7 @@ En este artículo se incluyen las siguientes secciones:
 
 Con Cloud Connector Edition, implementa un conjunto de máquinas virtuales empaquetadas que contienen una topología de Skype Empresarial Server mínima, que consta de un componente perimetral, un componente de mediación y un rol de Almacén de administración central (CMS). También instalará un controlador de dominio, que es necesario para el funcionamiento interno de Cloud Connector. Estos servicios están configurados para ser híbridos con Microsoft 365 o Office 365 organización que incluye Skype Empresarial online.
 
-![Componentes de Cloud Connector Edition](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
+![Componentes de Cloud Connector Edition.](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
 Los componentes de Cloud Connector proporcionan la siguiente funcionalidad:
 
@@ -182,7 +182,7 @@ Al planear la topología, tenga en cuenta lo siguiente:
 
 En el diagrama siguiente se muestra un único dispositivo Cloud Connector Edition dentro de un solo sitio RTC. Tenga en cuenta que Cloud Connector consta de cuatro máquinas virtuales instaladas en una máquina host física que se encuentra dentro de una red perimetral por motivos de seguridad.
 
-![One Cloud Connector with One PSTN Site](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
+![One Cloud Connector con un sitio RTC.](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
 
 ### <a name="multiple-cloud-connector-appliances-within-a-single-pstn-site"></a>Varios dispositivos de Cloud Connector dentro de un solo sitio RTC
 
@@ -200,7 +200,7 @@ En el diagrama siguiente se muestra un único dispositivo Cloud Connector Editio
 
     Para la versión más pequeña de Cloud Connector, los cuadros N+2 admiten llamadas simultáneas de 50 N con una disponibilidad del \* 99,9 %.
 
-![Dos conectores en la nube dentro de 1 sitio RTC](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
+![Dos conectores en la nube dentro de 1 sitio RTC.](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
 
 ### <a name="multiple-pstn-sites-with-one-or-more-cloud-connectors-per-site"></a>Varios sitios RTC con uno o más conectores en la nube por sitio
 
@@ -208,7 +208,7 @@ También puede elegir tener varios sitios RTC con una o más ediciones de Cloud 
 
 Varios sitios RTC también permiten proporcionar conectividad a puertas de enlace más cercanas a los usuarios. Por ejemplo, supongamos que tiene puertas de enlace RTC en Seattle y Ámsterdam. Puede implementar dos sitios RTC (uno en Seattle y otro en Ámsterdam) y asignar a los usuarios que usen el sitio RTC más cercano a ellos. Los usuarios de Seattle se enrutarán al sitio RTC y puertas de enlace de Seattle, mientras que los usuarios de Ámsterdam se enrutarán al sitio RTC de Ámsterdam y las puertas de enlace:
 
-![Cloud Connector Edition dentro de 2 sitios RTC](../../media/16ead6d3-67da-4e71-b4d5-d895b4c9384e.png)
+![Cloud Connector Edition dentro de 2 sitios RTC.](../../media/16ead6d3-67da-4e71-b4d5-d895b4c9384e.png)
 
 ## <a name="requirements-for-deployment"></a>Requisitos para la implementación
 <a name="BKMK_Requirements"> </a>
@@ -422,7 +422,7 @@ En este caso, todo el tráfico multimedia del punto final de Internet puede flui
 
 El equipo host debe poder llegar a recursos externos para instalar, actualizar y administrar correctamente Cloud Connector. En la tabla siguiente se muestran los destinos y puertos necesarios entre el equipo host y los recursos externos.
 
-|Dirección  <br/> |IP de origen  <br/> |IP de destino  <br/> |Puerto de origen  <br/> |Puerto de destino  <br/> |Protocolo  <br/> |Objetivo  <br/> |
+|Dirección  <br/> |IP de origen  <br/> |IP de destino  <br/> |Puerto de origen  <br/> |Puerto de destino  <br/> |Protocolo  <br/> |Finalidad  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Salida  <br/> |IP de host de Cloud Connector  <br/> |cualquiera  <br/> |cualquiera  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Salida  <br/> |IP de host de Cloud Connector  <br/> |cualquiera  <br/> |cualquiera  <br/> |80, 443  <br/> |TCP  <br/> |Lista de revocación de certificados (CRL)  <br/> |
@@ -647,7 +647,7 @@ En el primer diagrama, un usuario interno coloca una llamada saliente de la sigu
 
 6. El componente de mediación envía el tráfico a la puerta de enlace RTC.
 
-![Flujo de medios salientes para Cloud Connector](../../media/c495a2bb-305c-46ef-b16d-b8f9f2b937a8.png)
+![Flujo de medios salientes para Cloud Connector.](../../media/c495a2bb-305c-46ef-b16d-b8f9f2b937a8.png)
 
 En el siguiente diagrama, un usuario interno recibe una llamada entrante de la siguiente manera:
 
@@ -663,7 +663,7 @@ En el siguiente diagrama, un usuario interno recibe una llamada entrante de la s
 
 6. El tráfico de medios se establecerá entre la puerta de enlace y el componente de mediación y entre el componente de mediación y el punto final.
 
-![Inbound Media Flow para Cloud Connector](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
+![Inbound Media Flow para Cloud Connector.](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
 
 ## <a name="monitoring-and-troubleshooting"></a>Supervisión y solución de problemas
 <a name="BKMK_Monitor"> </a>

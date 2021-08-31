@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: ddf90000de18f1fafd60896134eee21574605c8b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 32d9a3f6be35077f274f0a8ab9facc462a3fe6b4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610197"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729789"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute y QoS en Skype Empresarial Online
 
@@ -311,7 +311,7 @@ Los servicios diferenciados (DiffServ) son un mecanismo "general" para clasifica
    
  **Encabezado ip versión 4**
   
-![Encabezado IPv4](../images/c8a6a714-2784-4328-8297-2e62706f302d.png)
+![Encabezado IPv4.](../images/c8a6a714-2784-4328-8297-2e62706f302d.png)
   
 ### <a name="layer-2-qos-ieee-8021pwi-fi-multi-media-ieee-80211e"></a>QoS de capa 2: IEEE 802.1p/Wi-Fi Multimedia (IEEE 802.11e)
 
