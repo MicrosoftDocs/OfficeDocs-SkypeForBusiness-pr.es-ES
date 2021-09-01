@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb1898d5c172c6f0ebc4f56cf9059bbb5986077b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 493d31189c4136799075554343aaddd694922b30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586756"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728229"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 
@@ -34,7 +34,7 @@ El complemento para reunión de equipo permite a los usuarios programar reunione
 
 El complemento Reunión de Teams se instala automáticamente para los usuarios que tienen Microsoft Teams y Office 2013, Office 2016 u Office 2019 instalados en su PC Windows. Los usuarios verán el complemento reunión de Teams en la cinta de opciones Calendario de Outlook.
 
-![Captura de pantalla del complemento de reunión de equipo en la cinta de Outlook.](media/Teams-add-in-for-Outlook.png)
+![Captura de pantalla del complemento reunión de Teams en la cinta de Outlook.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
 > - No hay **ninguna URL directa** que esté vinculada al complemento de Teams.
@@ -53,7 +53,7 @@ La información de acceso a la reunión (el enlace para unirse a Teams y los nú
 
 El botón Reunión de equipo en Outlook Web App se mostrará en la creación del nuevo evento si el usuario se encuentra en una versión anterior de la nueva aplicación de Outlook en la Web. Consulte el [Blog de Outlook](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral) para obtener información sobre cómo pueden los usuarios probar la versión anterior de la nueva aplicación de Outlook en la Web.
 
-![Captura de pantalla del complemento de reunión de equipo en Outlook Web App](media/teams-meeting-add-in-web.png)
+![Captura de pantalla del complemento reunión de Teams en Outlook Web App.](media/teams-meeting-add-in-web.png)
 
 Las coordenadas de la reunión (el enlace para unirse a Teams y los números de acceso telefónico) se añadirán a la invitación a la reunión cuando el usuario haga clic en **Enviar**.  
 
@@ -61,7 +61,7 @@ Las coordenadas de la reunión (el enlace para unirse a Teams y los números de 
 
 En la última compilación de la aplicación de Outlook para iOS y Android se muestra el botón Reunión de equipo.
 
-![Captura de pantalla del complemento de reunión de equipo en Outlook para dispositivos móviles](media/teams-meeting-add-in-mobile.png)
+![Captura de pantalla del complemento reunión de Teams en Outlook para dispositivos móviles](media/teams-meeting-add-in-mobile.png)
 
 Las coordenadas de la reunión (el enlace para unirse a Teams y los números de acceso telefónico) se añadirán a la invitación a la reunión cuando el usuario haga clic en **Enviar**.  
 

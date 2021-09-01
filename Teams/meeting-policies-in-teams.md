@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Descubra cómo administrar la configuración de directiva de reunión en Teams. Use la configuración de directiva para controlar las características disponibles para los participantes de la reunión en las reuniones programadas por los usuarios.
-ms.openlocfilehash: 7f981ed6d4397d07dc0aae5bffc6174983e12e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4809fab0976eda2b109620f2a2716ccb10e80318
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629372"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728429"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -119,13 +119,13 @@ Seleccionar una directiva existente en la página **Directivas de reunión** o s
 
 Permitir **Reunirse ahora** es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión no planeada en un canal de Teams. Si activa esta configuración, los usuarios podrán seleccionar el botón **Reunirse** para iniciar una reunión no planeada o programar una reunión en el canal. El valor predeterminado es True.
 
-![Captura de pantalla que muestra el icono Reunirse ahora debajo de un mensaje](media/meeting-policies-meet-now.png)
+![Captura de pantalla que muestra el icono Reunirse ahora debajo de un mensaje.](media/meeting-policies-meet-now.png)
 
 ### <a name="allow-the-outlook-add-in"></a>Permitir el complemento de Outlook
 
 Permitir el complemento de Outlook es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si se pueden programar reuniones de Teams desde Outlook (en Windows, Mac, web y dispositivos móviles).
 
-![Captura de pantalla que muestra la posibilidad de programar una nueva reunión](media/meeting-policies-outlook-add-in.png)
+![Captura de pantalla que muestra la posibilidad de programar una nueva reunión.](media/meeting-policies-outlook-add-in.png)
 
 Si desactiva esta característica, los usuarios no podrán programar ninguna. reuniones de Teams cuando creen una nueva reunión en Outlook. Por ejemplo, en Outlook en Windows, la opción **Nueva reunión de Teams** no se mostrará en la cinta de opciones.
 
@@ -137,7 +137,7 @@ Si esta directiva está desactivada, los usuarios no podrán crear nuevas reunio
 
 Programar una reunión se deshabilitará.
 
- ![La opción Programar una reunión en Teams](media/schedule-meeting-option.png)
+ ![La opción Programar una reunión en Teams.](media/schedule-meeting-option.png)
 
 La selección de canales está desactivada.
 
@@ -146,15 +146,15 @@ La selección de canales está desactivada.
 En la página publicaciones del canal, se deshabilitarán las características siguientes:
 
 - El botón **Programar una reunión** en el cuadro de redactar respuesta del canal.
-  ![El botón Programar una reunión en el cuadro de redactar respuesta](media/schedule-meeting-disabled-in-chat2.png)
+  ![El botón Programar una reunión en el cuadro de redactar respuesta.](media/schedule-meeting-disabled-in-chat2.png)
   
 - El botón **Programar una reunión** en el encabezado del canal.
-  ![El botón Programar una reunión en el encabezado del canal](media/schedule-now-in-header.png)
+  ![El botón Programar una reunión en el encabezado del canal.](media/schedule-now-in-header.png)
 
 En el calendario del canal:
 
 - El botón **Agregar nuevo evento** en el encabezado del calendario del canal se deshabilitará.
-  ![El botón en el encabezado del calendario del canal está deshabilitado](media/add-new-event-disabled.png)
+  ![El botón en el encabezado del calendario del canal está deshabilitado.](media/add-new-event-disabled.png)
 
 - Los usuarios no podrán arrastrar y seleccionar un bloque de tiempo en el calendario del canal para crear una reunión de canal.
 
@@ -164,7 +164,7 @@ En el Centro de administración:
 
 La aplicación Calendario de canal se mostrará en la sección **Aplicaciones de Microsoft** en la página de directivas de permisos de la aplicación.
 
- ![la directiva de permisos de la aplicación en el Centro de administración de Teams](media/manage-microsoft-apps-policy.png)
+ ![la directiva de permisos de la aplicación en el Centro de administración de Teams.](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>Permitir la programación de reuniones privadas
 
@@ -191,7 +191,7 @@ Esta es una directiva por usuario y se aplica antes de que se inicie la reunión
 
 Esta directiva activa la transcripción en directo. Permitir transcripción es una directiva por usuario. Esta configuración controla si se puede transcribir la reunión en concreto de Teams.
 
-![opciones de transcripción en directivas de reunión](media/live-transcription.png)
+![opciones de transcripción en directivas de reunión.](media/live-transcription.png)
 
 La transcripción en directo muestra la conversión de voz en texto de contenido hablado durante una reunión de Teams casi en tiempo real. El texto aparece junto al vídeo de la reunión, incluido el nombre del orador y una marca de tiempo. Para obtener más información, consulte [Ver transcripción en directo de una reunión de Teams](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b).
 
@@ -212,7 +212,7 @@ Permitir la grabación en la nube se controla mediante una directiva por usuario
 
 Las personas de fuera de su organización, como los usuarios federados y anónimos, no pueden iniciar la grabación. Los usuarios invitados no pueden iniciar o detener la grabación.
 
-![las opciones de grabación](media/meeting-policies-recording.png)
+![las opciones de grabación.](media/meeting-policies-recording.png)
 
 Para más información sobre la grabación de reuniones en la nube, consulte [Grabación de reuniones en la nube de Teams](cloud-recording.md).
 
@@ -264,7 +264,7 @@ Las reuniones organizadas por un usuario que tiene habilitada esta configuració
 
 | Clientes de escritorio y web de Teams |Cliente móvil de Teams  |
 |:-------:|:-------:|
-|![Captura de pantalla que muestra información para unirse a la reunión y la configuración de audio o vídeo en el cliente de escritorio](media/meeting-policies-audio-video-settings.png)    |![Captura de pantalla que muestra la pantalla para unirse a la reunión y la configuración de audio o vídeo en el cliente de móvil](media/meeting-policies-mobile-join.png)          |
+|![Captura de pantalla que muestra información para unirse a la reunión y la configuración de audio o vídeo en el cliente de escritorio.](media/meeting-policies-audio-video-settings.png)    |![Captura de pantalla que muestra la pantalla para unirse a la reunión y la configuración de audio o vídeo en el cliente de móvil](media/meeting-policies-mobile-join.png)          |
 
 Veamos el ejemplo siguiente.
 
@@ -358,11 +358,11 @@ Esta es una directiva por usuario. Esta configuración controla si el usuario pu
 
 Si esta configuración está activada para el usuario, la opción **Ceder el control** se mostrará en la barra superior de una sesión compartida.
 
-![Captura de pantalla que muestra la opción Ceder el control](media/meeting-policies-give-control.png)
+![Captura de pantalla que muestra la opción Ceder el control.](media/meeting-policies-give-control.png)
 
 Si la configuración está desactivada para el usuario, la opción **Ceder el control** no estará disponible.
 
-![Captura de pantalla que muestra que la opción Ceder el control no está disponible](media/meeting-policies-give-control-not-available.png)
+![Captura de pantalla que muestra que la opción Ceder el control no está disponible.](media/meeting-policies-give-control-not-available.png)
 
 Veamos el ejemplo siguiente.
 
@@ -459,7 +459,7 @@ Se trata de una directiva por organizador que permite reuniones de conferencia s
 
 Esta es una directiva por organizador. Esta configuración controla si los usuarios pueden unirse a una reunión directamente o esperar en la sala de espera hasta que un usuario autenticado los admita. Esta configuración no se aplica a los usuarios de marcado.
 
-![Captura de pantalla que muestra una reunión con un usuario en la sala de espera](media/meeting-policies-lobby.png)
+![Captura de pantalla que muestra una reunión con un usuario en la sala de espera.](media/meeting-policies-lobby.png)
 
  Los organizadores de la reunión pueden seleccionar las **Opciones de reunión** en la invitación a la reunión para cambiar esta configuración en cada una de las reuniones programadas.
 
@@ -489,7 +489,7 @@ Las directivas de reuniones tienen una configuración para dejar que los miembro
 
 Esta es una directiva por usuario y se aplica durante la reunión. Esta configuración controla si la opción **Activar los subtítulos en directo** está disponible para que el usuario active y desactive los subtítulos en directo en las reuniones a las que asista.  
 
-![Captura de pantalla que muestra la opción Activar subtítulos en directo](media/meeting-policies-live-captions.png)
+![Captura de pantalla que muestra la opción Activar subtítulos en directo.](media/meeting-policies-live-captions.png)
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|

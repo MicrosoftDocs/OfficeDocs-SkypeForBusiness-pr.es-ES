@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df39e778998d01b31b08ec0f537d4a35905a2ce2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622012"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727829"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
@@ -153,8 +153,8 @@ Utilice estos vínculos para obtener más información sobre cómo se organizan 
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cuál es el propósito del equipo?</li><li>¿Quién pertenece al equipo?</li><li>¿El equipo será privado o público?</li><li>¿Los miembros nuevos pueden agregarse a sí mismos o lo hacen los propietarios de equipo?</li><li>¿Quién tendrá permisos para crear canales o agregar fichas, bots y conectores?</li></ul> |
-| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Crear el equipo.</li><li>Planificar los canales.</li></ul>|
+| ![Un icono que representa los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cuál es el propósito del equipo?</li><li>¿Quién pertenece al equipo?</li><li>¿El equipo será privado o público?</li><li>¿Los miembros nuevos pueden agregarse a sí mismos o lo hacen los propietarios de equipo?</li><li>¿Quién tendrá permisos para crear canales o agregar fichas, bots y conectores?</li></ul> |
+| ![Un icono que representa los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Crear el equipo.</li><li>Planificar los canales.</li></ul>|
 
 
 #### <a name="set-up-channels"></a>Configurar los canales
@@ -167,8 +167,8 @@ Considere la posibilidad de usar nombres de canal antes de crearlos, ya que camb
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué canales iniciales se agregarán al equipo?</li><li>¿Qué instrucciones, en caso de haber alguna, se ofrecerán para agregar nuevos canales? (¿Se configurarán según el proyecto, el tema, etc.?)</li></ul> |
-| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Crear canales iniciales.</li><li>Publicar un mensaje de bienvenida.</li><li>Empezar a colaborar.</li></ul>|
+| ![Un icono que representa los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué canales iniciales se agregarán al equipo?</li><li>¿Qué instrucciones, en caso de haber alguna, se ofrecerán para agregar nuevos canales? (¿Se configurarán según el proyecto, el tema, etc.?)</li></ul> |
+| ![Un icono que representa los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Crear canales iniciales.</li><li>Publicar un mensaje de bienvenida.</li><li>Empezar a colaborar.</li></ul>|
 
 ### <a name="stage-2-middle"></a>Fase 2: Parte central
 
@@ -188,8 +188,8 @@ Como los equipos son organismos vivos, precisan que se les revise y se les atien
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Quién supervisará el uso para identificar los problemas?</li><li>¿Qué métricas se usarán para determinar si un equipo está en buen estado?</li><li>Identifique qué equipos han llegado al final de su vida útil.</li><li>Identifique los equipos que no están bien y que siguen teniendo un propósito, pero necesitan revitalizarse.</li></ul> |
-| ![Un icono que representa el siguiente paso](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Implemente un proceso que supervise el estado de cada equipo.</li></ul>|
+| ![Un icono que representa los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Quién supervisará el uso para identificar los problemas?</li><li>¿Qué métricas se usarán para determinar si un equipo está en buen estado?</li><li>Identifique qué equipos han llegado al final de su vida útil.</li><li>Identifique los equipos que no están bien y que siguen teniendo un propósito, pero necesitan revitalizarse.</li></ul> |
+| ![Un icono que representa el paso siguiente.](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Implemente un proceso que supervise el estado de cada equipo.</li></ul>|
 
 ### <a name="stage-3-end"></a>Fase 3: Final
 
@@ -205,8 +205,8 @@ Para obtener información sobre cómo se configuran las directivas de expiració
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Defina cómo es el final de la vida de un equipo.</li><li>Decida si desea mantener disponible el contenido de un equipo y durante cuánto tiempo.</li></ul> |
-| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documentar las prácticas recomendadas y las lecciones aprendidas.</li><li>Archivar los datos, en caso necesario.</li></ul>|
+| ![Un icono que representa los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Defina cómo es el final de la vida de un equipo.</li><li>Decida si desea mantener disponible el contenido de un equipo y durante cuánto tiempo.</li></ul> |
+| ![Un icono que representa los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documentar las prácticas recomendadas y las lecciones aprendidas.</li><li>Archivar los datos, en caso necesario.</li></ul>|
 
 ## <a name="related-topics"></a>Temas relacionados
 
