@@ -13,12 +13,12 @@ f1.keywords:
 description: Información general sobre el centro de contacto integrado como solución de servicio (CCaaS) para Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec4dc5dceccaa515223d3a53255258e190da8788
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eea312f8943e05b870f7e72409e551869c950c4e
+ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606939"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864210"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integraciones del centro de contacto para Microsoft Teams
 
@@ -57,6 +57,7 @@ Los siguientes proveedores ofrecen soluciones de centro de contacto que se integ
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
+| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
@@ -67,7 +68,6 @@ Los siguientes proveedores ofrecen soluciones de centro de contacto que se integ
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
-| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
