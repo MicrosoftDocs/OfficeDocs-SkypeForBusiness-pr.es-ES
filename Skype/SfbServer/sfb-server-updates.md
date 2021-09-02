@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones para Skype Empresarial Server 2015/2019 y Lync 2013 en un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
-ms.openlocfilehash: aa9ae8c2b3b28790028635a9604687995549e6eb
-ms.sourcegitcommit: 22328f851153f3768175321b8b128a672d6adc50
+ms.openlocfilehash: fcdd7212cf7a3f612434594d028b2e7be104af36
+ms.sourcegitcommit: 5a4108219dd1b77468b3ef4aff0500cd19473fa5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58807453"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58852048"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
@@ -32,6 +32,8 @@ Kb 4470124 es el KB principal de Skype Empresarial Server 2019 que tiene toda la
 
 |Nombre del paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
+|Skype Empresarial Server 2019 Actualización acumulativa 5 |[KB 4470124 (MACP3)](https://support.microsoft.com/kb/4470124)| Marzo de 2021 |
+|Skype Empresarial Server 2019 Actualización acumulativa 4 Revisión 1 |[Kb 4470124](https://support.microsoft.com/kb/4470124)| Noviembre de 2020 |
 |Skype Empresarial Server 2019 Actualización acumulativa 4 |[Kb 4470124](https://support.microsoft.com/kb/4470124)| Septiembre de 2020 |
 |Skype Empresarial Server 2019 Actualización acumulativa 3 Revisión 1 |[Kb 4470124](https://support.microsoft.com/kb/4470124)| Julio de 2020 |
 |Skype Empresarial Server 2019 Actualización acumulativa 3 |[Kb 4470124](https://support.microsoft.com/kb/4470124)| Marzo de 2020 |
@@ -57,6 +59,7 @@ Kb 4470124 es el KB principal de Skype Empresarial Server 2019 que tiene toda la
 |Nombre del paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
 |Skype Empresarial Server 2015 Actualización acumulativa 12|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2021 |
+|Skype Empresarial Server 2015 Actualización acumulativa 11 Revisión 2|[KB 3061064](https://support.microsoft.com/kb/3061064)| Noviembre de 2020 |
 |Skype Empresarial Server 2015 Actualización acumulativa 11 Revisión 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Julio de 2020 |
 |Skype Empresarial Server 2015 Actualización acumulativa 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 de mayo de 2020 |
 |Skype Empresarial Server 2015 Actualización acumulativa 10 Revisión 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2019 |

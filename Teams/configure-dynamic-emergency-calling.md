@@ -18,12 +18,12 @@ description: Obtenga información sobre cómo configurar los planes de llamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7774b6ebf062f3df9f27736b3c6cc68e4151e14b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6b01a3f73de3803ca428acd8cd43de8c405fc4f9
+ms.sourcegitcommit: 8dc037a3e6df50dc81f47b630c59db6b972535ff
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584824"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58853176"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -92,7 +92,9 @@ Actualmente, se admiten los siguientes clientes.  Vuelva a comprobarlo a menudo 
 
 > [!NOTE]
 > Las ubicaciones basadas en Subred y WiFi son compatibles con todos Teams clientes. <br>
-> Ethernet/Switch (LLDP) solo es compatible en Windows y solo en Windows versiones 8.1 y posteriores en este momento.
+> Ethernet/Switch (LLDP) es compatible con:
+> - Windows versión 8.1 y posteriores en este momento.<br>
+> - Mac OS, que requiere software [de habilitación lldp.](https://www.microsoft.com/download/details.aspx?id=103383)
 
 ## <a name="assign-emergency-addresses"></a>Asignar direcciones de emergencia
 
