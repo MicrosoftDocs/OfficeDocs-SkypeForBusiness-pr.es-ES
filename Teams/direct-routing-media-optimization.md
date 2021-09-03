@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimización de medios locales para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1d4f0a2b2770f048d308f8f497754e33f8f797
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e30b5928fb775453db9a4b149f4f464b30401a80
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725519"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866402"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planear la optimización de medios locales para enrutamiento directo
 
@@ -340,3 +340,4 @@ A continuación se muestra una lista de los problemas conocidos que están prese
 | Las escalaciones de llamadas resultan en llamadas descartadas cuando el Teams se identifica como interno.| Deshabilite la optimización de medios locales en el SBC de enrutamiento directo.|
 | Escalaciones de llamadas de 1 a 1 llamada entre clientes internos a llamadas multipartes con el resultado de cliente o recurso externo en llamadas descartadas | Trabajar en curso en una corrección. Como alternativa, deshabilite la optimización de medios locales en el SBC de enrutamiento directo.|
 | Teams usuario pone la llamada en espera. Música se reproduce en el extremo RTC y la optimización de medios locales funciona. El Teams reanudará la llamada. La llamada a RTC se reanuda, pero la optimización de medios locales no funciona y la llamada continúa a través de SBC central (proxy) | Cuando un usuario aparca una llamada para iniciar la música en espera (MoH), el controlador de llamadas está escalando de 1:1 a una llamada multiparte para invocar el controlador multimedia y el procesador multimedia (que sirve como mezclador AVMCU) a través del cual el MoH llega a un usuario que se ha puesto en espera. La desescalación a una llamada de 1:1 después de reanudar la llamada nunca se produce según el diseño. Deshabilite la optimización de medios locales en el SBC de enrutamiento directo.|
+|Mientras se establece una llamada durante unos segundos, es posible que el usuario oiga silencio.| Debido a la complejidad de la arquitectura de optimización de medios locales, esto puede ocurrir en algunos casos.|

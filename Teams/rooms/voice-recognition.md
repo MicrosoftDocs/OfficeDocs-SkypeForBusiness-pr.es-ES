@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3406e14b64c0c15b2f76a84e42d22a2f726d9b3e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e4b67041b0fa78a43705f5421881ae751175fcdb
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730879"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866372"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar controles de tecnología de reconocimiento de voz para un altavoz inteligente
 
@@ -82,7 +82,7 @@ Las siguientes son las directivas necesarias para establecer un altavoz intelige
 |Directiva|Descripción|Valores y comportamiento|
 |-|-|-|
 |enrollUserOverride|Se usa para establecer la captura de perfil de voz o la inscripción en Teams configuración de un inquilino. |**Deshabilitado**<br><ul><li> Los usuarios que nunca se han inscrito no pueden ver, inscribirse o volver a inscribirse.<li>El punto de entrada al flujo de inscripción se ocultará.<li>Si los usuarios seleccionan un vínculo a la página de inscripción, verán un mensaje que indica que esta característica no está habilitada para su organización.  <li>Los usuarios que se han inscrito pueden ver y quitar su perfil de voz en la Teams configuración. Una vez que quiten su perfil de voz, no podrán ver, acceder ni completar el flujo de inscripción.</li></ul><br>**Habilitado**<br><ul><li> Los usuarios pueden ver, acceder y completar el flujo de inscripción.<li>El punto de entrada se mostrará en la Teams de configuración de la pestaña **Reconocimiento.**</li></ul>|
-|roomAttributeUserOverride|Controle la identificación de usuario basada en voz en salas de reuniones. Esta configuración es necesaria para Salas de Teams cuentas.| **Desactivado**<br><ul><li>El Salas de Teams no enviará el ancho de banda de almacenamiento en secuencias de audio desde la sala. <li>Los usuarios de salas de reuniones no se atribuirán ni distinguirán y sus firmas de voz no se recuperarán ni se usarán en absoluto.<li>Se desconocen los usuarios de la sala de reuniones.</li></ul> <br>**Atributo**<br><ul><li>Los usuarios de salas se atribuirán en función de su estado de inscripción.<li>Los usuarios inscritos se muestran con su nombre en la transcripción.  <li>Los usuarios que no están inscritos se muestran como Altavoz n.<li>El Salas de Teams de audio enviará siete transmisiones de audio desde la sala.</ul> <br>**Distinguir**<br> *Esta configuración estará disponible más adelante.*|
+|roomAttributeUserOverride|Controle la identificación de usuario basada en voz en salas de reuniones. Esta configuración es necesaria para Salas de Teams cuentas.| **Desactivado**<br><ul><li>El Salas de Teams no enviará el ancho de banda de almacenamiento en secuencias de audio desde la sala. <li>Los usuarios de salas de reuniones no se atribuirán ni distinguirán y sus firmas de voz no se recuperarán ni se usarán en absoluto.<li>Se desconocen los usuarios de la sala de reuniones.</li></ul> <br>**Atributo**<br><ul><li>Los usuarios de salas se atribuirán en función de su estado de inscripción.<li>Los usuarios inscritos se muestran con su nombre en la transcripción.  <li>Los usuarios que no están inscritos se muestran como \<n> orador.<li>El Salas de Teams de audio enviará siete transmisiones de audio desde la sala.</ul> <br>**Distinguir**<br> <ul><li>Los usuarios de salas se distinguirán y separarán como orador 1, orador 2, .... orador \<n> en la transcripción.</li><li>Independientemente del estado de inscripción del usuario, su nombre no se mostrará en la transcripción.</li><li>El Salas de Teams de audio enviará siete transmisiones de audio desde la sala.</li></ul>
 |AllowTranscription|Necesario para cuentas de Teams y salas.|**Verdadero** y **Falso**|
 ||||
 

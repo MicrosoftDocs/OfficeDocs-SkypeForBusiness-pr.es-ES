@@ -12,12 +12,12 @@ ms.collection:
 description: Obtenga información sobre cómo pasar de Skype Empresarial Online Connector al módulo Teams PowerShell para administrar Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd03b414eba2ebc10dcfdbbb4e0ea2712fff73ca2cb0eb643aa132936ab1470
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cdd6460e6a17a15193104a0871a57fa6dbff8105
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299010"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866362"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Migrar desde Skype Empresarial Online Connector al módulo Teams PowerShell
 
@@ -27,9 +27,6 @@ Teams El módulo de PowerShell proporciona un conjunto completo de cmdlets para 
 > Teams a través de la publicación del Centro de mensajes (MC244740, fechada el 16 de marzo de 2021; MC250940, fechado el 16 de abril de 2021) sobre este cambio.
 >
 > Teams El módulo de PowerShell usa la autenticación moderna, pero el Windows de administración remota (WinRM) subyacente debe configurarse para permitir la autenticación básica. Vea [Descargar e instalar Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) instrucciones sobre cómo habilitar WinRM para autenticación básica.
-
-> [!WARNING]
-> Skype Empresarial Las conexiones de Conector en línea se rechazarán a partir del 17 de mayo de 2021. Póngase en contacto con el soporte técnico de Microsoft para obtener ayuda y soporte técnico para migrar a Teams módulo de PowerShell.
 
 ## <a name="how-to-migrate"></a>Cómo migrar
 
@@ -75,20 +72,6 @@ Migrar desde el Skype Empresarial Online Connector a Teams módulo de PowerShell
          # Disconnecting and closing the Session  
          Disconnect-MicrosoftTeams
     ```
-
-## <a name="online-support"></a>Soporte técnico en línea
-
-Ahorre tiempo iniciando la solicitud de servicio en línea. Te ayudaremos a encontrar una solución o a conectarte con el soporte técnico.
-
-1.  Vaya al Centro de administración en [https://admin.microsoft.com](https://admin.microsoft.com) . Si recibe un mensaje que indica que no tiene permiso para acceder a esta página o realizar esta acción, entonces no es administrador. Quién tiene permisos de administrador en mi empresa?
-
-2.  Seleccione **¿Necesita ayuda?** botón.
-
-3.  ¿Necesita **ayuda?** panel, díganos con qué necesita ayuda y, a continuación, presione Entrar.
-
-4.  Si los resultados no le ayudan, seleccione **Ponerse en contacto con el soporte técnico.**
-
-5.  Escriba una descripción del problema, confirme su número de contacto y su dirección de correo electrónico, seleccione el método de contacto que prefiera y, a continuación, seleccione **Contacto.** El tiempo de espera esperado se indica en el cuadro ¿Necesita ayuda? panel.
 
 ## <a name="related-topics"></a>Temas relacionados
 
