@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b69f885eee0b96b87b5f22d04abbd16d0389b904
+ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730689"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864200"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Administrar el acceso de usuarios a Insights para Educación
 
@@ -64,7 +64,7 @@ Si usa el [formato de archivo SDS V2.1](/schooldatasync/sds-v2.1-csv-file-format
   
   :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Permisos basados en roles.":::
   
-  Si hay un rol en más de un nivel de organización, ese rol aparece varias veces, una vez para cada nivel. En la captura de pantalla, tenemos directores en el nivel de la escuela y en el de distrito, por lo que hay dos líneas para "director".
+  Si hay un rol en más de un nivel de organización, ese rol aparece varias veces, una vez para cada nivel. En la captura de pantalla, tenemos directores de escuela, a nivel de distrito y departamento, por lo que hay tres líneas para "director".
   
 * Para cada rol, haga clic en el icono de lápiz para seleccionar el nivel de permisos. El valor predeterminado es que el rol no tiene permiso para ver Conclusiones.
 * Seleccione el nivel de permisos: **Ver datos de la organización** o **Ninguno**.
