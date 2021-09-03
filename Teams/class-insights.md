@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b09b6c6e42fcdd150d5aa95ebd56c9eaec36e01c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ec523475d109c5658a3e30d679b2f06425e4ced8
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726669"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866412"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams
 
@@ -171,6 +171,8 @@ Insights se ha diseñado para ofrecer soporte a alumnos y formadores en el marco
 
 ### <a name="licensing"></a>Licencias
 Para acceder a Insights, los usuarios deben tener una licencia para profesores A1, A3 o A5 para Microsoft 365.
+
+*Insights Premium para Educación* es una actualización de pago que proporciona a los líderes educativos una vista de nivel organizativo de los datos de Education Insights, así como un acceso ampliado a vistas de datos históricos para educadores. Las instituciones educativas aptas pueden adquirir una licencia de complemento de *Insights Premium para Educación* a través de la Inscripción a Education Solutions (EES), Proveedores de servicios en la nube (CSP) y Centro de administración de Microsoft 365 (web directo).
 
 ## <a name="student-information-system-sis-integration"></a>Integración con el Sistema de información de alumnos (SIS)
 Cuantos más datos introduzca en Insights, mejor podrán los formadores ayudar a los alumnos y más fácil será para los líderes educativos ayudar a los formadores.
