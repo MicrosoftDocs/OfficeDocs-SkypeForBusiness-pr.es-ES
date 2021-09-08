@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams y visitas virtuales con la aplicación Bookings
-ms.openlocfilehash: be3b4b60f7f4c3860d909757f2be6cdc75bc8491
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cf6154099db5b6c6b52b9d82b4e58cd6c00c07b3
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631424"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935866"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación Bookings
 
@@ -97,6 +97,8 @@ Agradecemos sus comentarios sobre:
 Para enviar comentarios, haga clic en el botón **Ayuda**, situado cerca de la parte inferior de la barra de navegación izquierda de Teams y haga clic en **Informar de un problema** para **TODOS** los problemas. Al principio del informe de comentarios, informe de que está enviando comentarios sobre "Bookings" para que podamos identificar fácilmente los problemas de Bookings.
 
 ## <a name="related-topics"></a>Temas relacionados
+
+[Administrar la experiencia de combinación para Teams visitas virtuales en exploradores móviles](expand-teams-across-your-org/mobile-browser-join.md)
 
 
   [Documentación de Bookings para usuarios finales](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
