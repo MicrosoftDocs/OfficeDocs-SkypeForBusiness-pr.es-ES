@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 333afdd88313a34b7331617220fa335237a8fbbb
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: c1e8bc4836cab206389fcc011e4d7a41d2b54f74
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935886"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973068"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -39,13 +39,13 @@ Cuando se graba una reunión, sucede lo siguiente automáticamente:
 - Se agrega a varias listas de archivos en Microsoft 365: Compartidos conmigo, office.com, Recomendado, Reciente, etc.
 - Se indexa para la búsqueda de Microsoft 365
 
-Relacionado: [Documentación de usuario final de grabación de reuniones de Teams](https://aka.ms/recordmeeting)
+Relacionado: [Documentación de usuario final de grabación de reuniones de Teams](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
 > El cambio del uso de Microsoft Stream (clásico) a OneDrive para la Empresa y SharePoint Online para grabaciones de reuniones se producirá automáticamente en agosto de 2021. Para obtener información detallada, consulte [Usar OneDrive para la Empresa y SharePoint Online o Stream para las grabaciones de reuniones](tmr-meeting-recording-change.md).
 
 > [!NOTE]
-> Para obtener más información sobre el uso de los roles en reuniones de Teams y cómo cambiar los roles de los usuarios, consulte [roles en una reunión de Teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us). Para ver las opciones de grabación de eventos en directo, consulte [Directivas de grabación de eventos en directo en Teams](teams-live-events/live-events-recording-policies.md).
+> Para obtener más información sobre el uso de los roles en reuniones de Teams y cómo cambiar los roles de los usuarios, consulte [roles en una reunión de Teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019). Para ver las opciones de grabación de eventos en directo, consulte [Directivas de grabación de eventos en directo en Teams](teams-live-events/live-events-recording-policies.md).
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Requisitos previos para grabación de reuniones en la nube de Teams
 
@@ -73,20 +73,20 @@ Para que se graben las reuniones de un usuario de Teams, OneDrive para la Empres
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurar la grabación de reuniones en la nube de Teams para los usuarios de su organización
 
-En esta sección se explica cómo puede configurar y planear la grabación de reuniones de Teams a través de [directivas de reunión de Teams](./assign-policies.md).
+En esta sección se explica cómo puede configurar y planear la grabación de reuniones de Teams a través de [directivas de reunión de Teams](policy-assignment-overview.md).
 
 ### <a name="turn-on-or-turn-off-cloud-recording"></a>Activar o desactivar la grabación en la nube
 
 Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer una directiva de reunión de Teams para controlar si se pueden grabar las reuniones del usuario.
 
-En el centro de administración de Microsoft Teams, active o desactive la opción **Permitir la grabación en la nube** en la directiva de reunión. Para más información, consulte [Configuración de la directiva de reunión para audio y vídeo](meeting-policies-audio-and-video.md#allow-cloud-recording).
+En el centro de administración de Microsoft Teams, active o desactive la opción **Permitir la grabación en la nube** en la directiva de reunión. Para más información, consulte [Configuración de la directiva de reunión para audio y vídeo](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
 
 Con PowerShell, configure la opción AllowCloudRecording en TeamsMeetingPolicy. Para obtener más información, consulte [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 Tenga en cuenta que tanto el organizador de la reunión como el iniciador la grabación necesitan tener permisos de grabación para grabar la reunión. A menos que haya asignado una directiva personalizada a los usuarios, a estos se les aplicará la directiva global, que tiene AllowCloudRecording habilitada de forma predeterminada.
 
 > [!NOTE]
-> Para obtener más información sobre el uso de los roles en Teams para configurar quién tiene permiso para grabar una reunión, vea [roles en una reunión de Teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+> Para obtener más información sobre el uso de los roles en Teams para configurar quién tiene permiso para grabar una reunión, vea [roles en una reunión de Teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
 Para que un usuario revierta a la directiva global, use el siguiente cmdlet para quitar una asignación de directiva específica para un usuario:
 
@@ -111,7 +111,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 <a name="bd-channel"></a>
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>Bloquear o permitir la descarga de grabaciones de reuniones de canal
 
-Esta configuración controla si las reuniones de canal se guardan en una carpeta "Grabaciones" o en una carpeta "Solo grabaciones\Ver" en el canal. La configuración se aplica a la directiva del usuario que selecciona el registro para la reunión del canal. 
+Esta configuración controla si las reuniones de canal se guardan en una carpeta "Grabaciones" o en una carpeta "Solo grabaciones\Ver" en el canal. La configuración se aplica a la directiva del usuario que selecciona el registro para la reunión del canal.
 
 Los dos valores de esta configuración son los siguientes:
 
@@ -151,7 +151,7 @@ Esta configuración controla si se pueden usar las características de subtítul
 
 Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer una directiva de reunión de Teams para controlar si el iniciador de la reunión tiene la opción de transcribir la grabación de la reunión.
 
-En el centro de administración de Microsoft Teams, active o desactive la opción **Permitir transcripción** en la directiva de reunión. Para más información, consulte [Configuración de la directiva de reunión para audio y vídeo](meeting-policies-audio-and-video.md#allow-transcription).
+En el centro de administración de Microsoft Teams, active o desactive la opción **Permitir transcripción** en la directiva de reunión. Para más información, consulte [Configuración de la directiva de reunión para audio y vídeo](meetings-policies-recording-and-transcription.md#allow-transcription).
 
 Con PowerShell, configure la opción AllowTranscription en TeamsMeetingPolicy. Para obtener más información, consulte [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -200,7 +200,7 @@ Las grabaciones de reuniones se almacenan en OneDrive para la Empresa y en el al
 
 Si `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` está establecido en Permitir (valor predeterminado):
 
-- La grabación se almacena en la biblioteca de documentación del sitio de Teams, en una carpeta denominada **Grabaciones**. 
+- La grabación se almacena en la biblioteca de documentación del sitio de Teams, en una carpeta denominada **Grabaciones**.
 
   Ejemplo: <i>Nombre de Teams: nombre del canal</i>/**Documentos**/**Grabaciones**
 
@@ -257,31 +257,31 @@ El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de entender la c
  <a name="auto-expiration"></a>
 ### <a name="auto-expiration-of-teams-meeting-recordings"></a>Expiración automática de las grabaciones de reuniones de Teams: 
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 >
-> La característica de expiración automática que se describe en este artículo aún no se ha iniciado. Consulte [la hoja de ruta (Id. de característica: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) para obtener más información sobre su fecha de entrega. 
+> La característica de expiración automática que se describe en este artículo aún no se ha iniciado. Consulte [la hoja de ruta (Id. de característica: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) para obtener más información sobre su fecha de entrega.
 > 
-> Proporcionamos información sobre cómo funcionará esta característica en el FUTURO, para que pueda planear este cambio y modificar la configuración de directiva de Teams de antemano. 
+> Proporcionamos información sobre cómo funcionará esta característica en el FUTURO, para que pueda planear este cambio y modificar la configuración de directiva de Teams de antemano.
 >
 > El CMD para cambiar de forma preventiva la configuración de expiración predeterminada en Teams aún no está disponible para su establecimiento.  Cuando la configuración esté disponible para la modificación, lo publicaremos en el centro de mensajes.
 >
 >
 
-Vea las preguntas más frecuentes para que los administradores y los usuarios finales recopilen información sobre cómo funcionará la expiración automática de las grabaciones de reuniones de Teams, qué acciones puede realizar ahora y qué acciones puede realizar después de que se inicie la característica. 
+Vea las preguntas más frecuentes para que los administradores y los usuarios finales recopilen información sobre cómo funcionará la expiración automática de las grabaciones de reuniones de Teams, qué acciones puede realizar ahora y qué acciones puede realizar después de que se inicie la característica.
   
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 **¿Cuál es el cambio?**
   
-Presentamos una configuración de expiración predeterminada de 60 días para todas las grabaciones de reuniones (TMR) de Teams recién creadas. Esto significa que, de forma predeterminada, todos los TMR creados después de habilitar esta característica se eliminarán 60 días después de su fecha de creación. Si los administradores quieren que las grabaciones de reuniones expiren antes o después del valor predeterminado, pueden modificar la configuración de expiración. Los sistemas OneDrive y SharePoint supervisarán la fecha de expiración establecida en todas las grabaciones de reuniones y las moverán automáticamente a la papelera de reciclaje en su fecha de expiración. 
+Presentamos una configuración de expiración predeterminada de 60 días para todas las grabaciones de reuniones (TMR) de Teams recién creadas. Esto significa que, de forma predeterminada, todos los TMR creados después de habilitar esta característica se eliminarán 60 días después de su fecha de creación. Si los administradores quieren que las grabaciones de reuniones expiren antes o después del valor predeterminado, pueden modificar la configuración de expiración. Los sistemas OneDrive y SharePoint supervisarán la fecha de expiración establecida en todas las grabaciones de reuniones y las moverán automáticamente a la papelera de reciclaje en su fecha de expiración.
 
 **Espero afecta esto?**
   
-Cualquier persona que almacene una grabación de reunión de Teams (no canal, canal o reunión ad hoc) en OneDrive o SharePoint. 
+Cualquier persona que almacene una grabación de reunión de Teams (no canal, canal o reunión ad hoc) en OneDrive o SharePoint.
 
 **¿Por qué debo usar esta característica?**
   
-Debe usar esta característica para limitar el almacenamiento de OneDrive o SharePoint consumido por las grabaciones de reuniones de Teams (nota: normalmente usan alrededor de 400 MB por hora de grabación). 
+Debe usar esta característica para limitar el almacenamiento de OneDrive o SharePoint consumido por las grabaciones de reuniones de Teams (nota: normalmente usan alrededor de 400 MB por hora de grabación).
   
 **¿Por qué presentamos este cambio?**
   
@@ -289,11 +289,11 @@ Los clientes han proporcionado comentarios abrumadores de que quieren más contr
   
 **¿Por qué está activado de forma predeterminada?**
   
-Creemos que casi todos los clientes se beneficiarán de la carga de almacenamiento reducida en su espacio empresarial mediante la eliminación de grabaciones que probablemente nunca se volverán a ver después de 60 días. Nuestro objetivo es proporcionar una experiencia lo más limpia posible para todos los clientes de forma predeterminada. 
+Creemos que casi todos los clientes se beneficiarán de la carga de almacenamiento reducida en su espacio empresarial mediante la eliminación de grabaciones que probablemente nunca se volverán a ver después de 60 días. Nuestro objetivo es proporcionar una experiencia lo más limpia posible para todos los clientes de forma predeterminada.
   
 **¿Se eliminará automáticamente incluso si se accede a los datos o si se descargan?**
   
-El hecho de acceder al archivo no cambia la fecha de expiración. 
+El hecho de acceder al archivo no cambia la fecha de expiración.
   
 **¿La fecha de expiración se ve como una columna en la lista?**
 
@@ -301,7 +301,7 @@ Todos los usuarios con acceso a vista de grabaciones verán un icono rojo junto 
   
 **Cómo se calcula la fecha de expiración?**
   
-La fecha de expiración se calcula como el día en que se crea la grabación de la reunión más el número predeterminado de días establecido en la configuración de Teams por el administrador. 
+La fecha de expiración se calcula como el día en que se crea la grabación de la reunión más el número predeterminado de días establecido en la configuración de Teams por el administrador.
   
 **¿Se puede cambiar la fecha de expiración de cada TMR, por ejemplo, de los datos A la fecha de expiración es de 30 días y de los datos B la fecha de expiración es de 60 días?**
 
@@ -309,14 +309,14 @@ Sí, la fecha de expiración se establece por archivo. Los usuarios pueden modif
 
 **¿Cómo puede un administrador cambiar la fecha de expiración?**
   
-Los administradores podrán cambiar la configuración de expiración predeterminada en PowerShell o en el Centro de administración de Teams antes de que se publique la característica. La configuración aún no está disponible para su modificación. Cuando la configuración esté disponible para la modificación lo publicaremos en el centro de mensajes. Cuando se inicia la característica, los administradores pueden cambiar esta configuración en el Centro de administración de Teams. El cambio de la configuración de expiración afectará solo a los TMR recién creados a partir de ese momento. No afectará a las grabaciones realizadas antes de esa fecha. 
+Los administradores podrán cambiar la configuración de expiración predeterminada en PowerShell o en el Centro de administración de Teams antes de que se publique la característica. La configuración aún no está disponible para su modificación. Cuando la configuración esté disponible para la modificación lo publicaremos en el centro de mensajes. Cuando se inicia la característica, los administradores pueden cambiar esta configuración en el Centro de administración de Teams. El cambio de la configuración de expiración afectará solo a los TMR recién creados a partir de ese momento. No afectará a las grabaciones realizadas antes de esa fecha.
 
 Los valores de días de expiración se pueden establecer de la siguiente manera:
   
-- El valor puede estar comprendido entre 1 y 99.999 (273 años como máximo).
-- El valor también puede ser -1 para establecer TMR para que nunca expire. 
- 
-Los administradores no pueden cambiar la fecha de expiración de los TMR existentes ya cargados en OneDrive o SharePoint antes de que se publicara esta característica. Esto protege la intención del usuario propietario de TMR. 
+- El valor puede estar comprendido entre 1 y 99 999 (273 años como máximo).
+- El valor también puede ser -1 para establecer que TMR nunca expire.
+
+Los administradores no pueden cambiar la fecha de expiración de los TMR existentes ya cargados en OneDrive o SharePoint antes de que se publicara esta característica. Esto protege la intención del usuario propietario de TMR.
   
 **¿Puede un administrador establecer los TMR para que nunca expiren?**
   
@@ -332,38 +332,38 @@ La fecha de expiración se borrará al volver a cargar, independientemente de la
   
 **¿Qué ocurre si copio o muevo el TMR a otra ubicación o sitio?**
 
-La fecha solo se conserva para un archivo TMR que se haya movido. Un archivo copiado no tendrá la fecha de expiración y lo mismo sucede con un TMR que se ha vuelto a cargar. 
+La fecha solo se conserva para un archivo TMR que se haya movido. Un archivo copiado no tendrá la fecha de expiración y lo mismo sucede con un TMR que se ha vuelto a cargar.
   
 **¿Cómo pueden los usuarios finales modificar la fecha de expiración de un archivo TMR específico?**
   
-Cualquier persona que tenga permisos de edición y eliminación en una TMR puede modificar la fecha de expiración en el panel de detalles del archivo en OneDrive o SharePoint. 
+Cualquier persona que tenga permisos de edición y eliminación en una TMR puede modificar la fecha de expiración en el panel de detalles del archivo en OneDrive o SharePoint.
 
-El usuario puede aplazar la expiración 14, 30 o 60 días, o puede elegir una fecha específica en el futuro, o puede seleccionar que el archivo nunca expire. 
+El usuario puede aplazar la expiración 14, 30 o 60 días, o puede elegir una fecha específica en el futuro, o puede seleccionar que el archivo nunca expire.
   
 **¿Los administradores pueden confiar en esta característica para el cumplimiento estricto de la seguridad y el cumplimiento?**
   
-No, los administradores no deben confiar en esta característica para la protección legal, ya que los usuarios finales pueden modificar la fecha de expiración de las grabaciones que controlan. 
+No, los administradores no deben confiar en esta característica para la protección legal, ya que los usuarios finales pueden modificar la fecha de expiración de las grabaciones que controlan.
   
 **¿Esta característica exigirá la retención de archivos?**
   
 No, los archivos no se conservarán debido a esta característica o a su configuración. Si un usuario con permisos de eliminación intenta eliminar un TMR que tiene una configuración de expiración, se ejecutará la acción de eliminación de ese usuario.
- 
+
 **¿Una directiva de retención o eliminación que he establecido en el centro de seguridad y cumplimiento (S+C) invalida la configuración de expiración de TMR?**
   
-Sí, todas las directivas que haya establecido en el centro de S+C tendrán prioridad completa. Por ejemplo: 
+Sí, todas las directivas que haya establecido en el centro de S+C tendrán prioridad completa. Por ejemplo:
   
 - Si tiene una directiva que indica que todos los archivos de un sitio deben conservarse durante 100 días y la configuración de expiración de una TMR es de 30 días, el archivo de grabación se conservará durante los 100 días completos.  
-- Si tiene una directiva de eliminación que indica que todas las TMR se eliminarán después de 5 días y tiene una configuración de expiración en un archivo de grabación de 30 días, ese archivo se eliminará después de cinco días. 
+- Si tiene una directiva de eliminación que indica que todas las TMR se eliminarán después de 5 días y tiene una configuración de expiración en un archivo de grabación de 30 días, ese archivo se eliminará después de cinco días.
 
 **¿Qué sucede cuando un TMR “expira”?**
   
-En la fecha de expiración, TMR se mueve a la papelera de reciclaje de OneDrive o SharePoint y se borra el campo de fecha de expiración. Esta acción del sistema es exactamente la misma que si un usuario eliminara el archivo. Posteriormente, el ciclo de vida de la papelera de reciclaje seguirá la ruta de acceso normal. Si el usuario recupera la TMR de la papelera de reciclaje, esta característica no la eliminará de nuevo desde que se haya borrado la fecha de expiración, a menos que el usuario final establezca una nueva fecha de expiración en el archivo. 
+En la fecha de expiración, TMR se mueve a la papelera de reciclaje de OneDrive o SharePoint y se borra el campo de fecha de expiración. Esta acción del sistema es exactamente la misma que si un usuario eliminara el archivo. Posteriormente, el ciclo de vida de la papelera de reciclaje seguirá la ruta de acceso normal. Si el usuario recupera la TMR de la papelera de reciclaje, esta característica no la eliminará de nuevo desde que se haya borrado la fecha de expiración, a menos que el usuario final establezca una nueva fecha de expiración en el archivo.
   
 **¿Cómo se me notificará la expiración de un archivo?**
   
-Todos los usuarios con acceso de vista verán una notificación sobre la fecha de expiración en el archivo de grabación en la ventana de chat de Teams. 
+Todos los usuarios con acceso de vista verán una notificación sobre la fecha de expiración en el archivo de grabación en la ventana de chat de Teams.
   
-Todos los usuarios con acceso de vista verán un icono rojo junto al archivo en su carpeta de OneDrive o SharePoint 14 días antes de que expire el archivo. 
+Todos los usuarios con acceso de vista verán un icono rojo junto al archivo en su carpeta de OneDrive o SharePoint 14 días antes de que expire el archivo.
   
 El propietario del archivo recibirá una notificación por correo electrónico cuando expire TMR y se le dirigirá a la papelera de reciclaje para recuperar la TMR si desea hacerlo.
   
@@ -373,17 +373,17 @@ Todas las SKU tendrán esta característica de forma predeterminada. Los usuario
   
 **Es la expiración del archivo un evento auditado y podré verlo en mis registros de auditoría?**
   
-Sí, las expiraciones de archivos se mostrarán como eventos de eliminación del sistema en el registro de auditoría. 
+Sí, las expiraciones de archivos se mostrarán como eventos de eliminación del sistema en el registro de auditoría.
   
 **Si quiero que el administrador tenga control total sobre el ciclo de vida de las TMR y no quiero dar a los usuarios finales la capacidad de invalidar la fecha de expiración?**
   
-Se recomienda usar las directivas de retención y eliminación de S+C disponibles como parte de la SKU de cumplimiento de E5. Esta oferta está destinada a resolver problemas administrativos complejos basados en políticas y acuerdos de nivel de servicio. 
+Se recomienda usar las directivas de retención y eliminación de S+C disponibles como parte de la SKU de cumplimiento de E5. Esta oferta está destinada a resolver problemas administrativos complejos basados en políticas y acuerdos de nivel de servicio.
 
-Esta característica está pensada únicamente como un mecanismo ligero de mantenimiento para reducir el desorden de almacenamiento creado a partir de TMR en frío. 
+Esta característica está pensada únicamente como un mecanismo ligero de mantenimiento para reducir el desorden de almacenamiento creado a partir de TMR en frío.
   
 **¿Cuándo se eliminará el archivo?**
   
-El archivo se eliminará en un plazo de 5 días a partir de la fecha de expiración, aunque esto no es una garantía estricta. 
+El archivo se eliminará en un plazo de 5 días a partir de la fecha de expiración, aunque esto no es una garantía estricta.
   
 **Si se migran futuros TMR de Classic Stream después de publicar esta característica, también se les ha aplicado la expiración automática?**
   
