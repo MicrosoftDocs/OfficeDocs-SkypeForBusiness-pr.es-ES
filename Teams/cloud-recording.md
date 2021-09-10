@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f88345045a24fc664458e3c67eb71243a663287
-ms.sourcegitcommit: 8ea133b6ac867496930efb933e84531e5617fb37
+ms.openlocfilehash: 333afdd88313a34b7331617220fa335237a8fbbb
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58924084"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935886"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -263,7 +263,7 @@ El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de entender la c
 > 
 > Proporcionamos información sobre cómo funcionará esta característica en el FUTURO, para que pueda planear este cambio y modificar la configuración de directiva de Teams de antemano. 
 >
-> El CMD para cambiar de forma preventiva la configuración MeetingExpirationDays en Teams aún no está disponible para su configuración.  Cuando la configuración esté disponible para la modificación, lo publicaremos en el centro de mensajes.
+> El CMD para cambiar de forma preventiva la configuración de expiración predeterminada en Teams aún no está disponible para su establecimiento.  Cuando la configuración esté disponible para la modificación, lo publicaremos en el centro de mensajes.
 >
 >
 
