@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: e7696878ba84942c2dcc88a1df3d5fc29144f883
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 308eb31592b6b98d613ccfb4ed41f421d51bd9e2
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728739"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973008"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -137,7 +137,7 @@ Para agregar un grupo a la cola, haga clic en **Agregar grupos**, busque el grup
 **El modo de conferencia** reduce de forma significativa la cantidad de tiempo que tarda un autor de llamada en estar conectado con un agente, después de que el agente acepte la llamada. Para que el modo de conferencia funcione, los agentes en la cola de llamadas deben usar uno de los siguientes clientes:
 
   - Última versión del cliente de escritorio de Microsoft Teams, la aplicación de Android o la aplicación de iOS
-  - Versión de teléfono 1449/1.0.94.2020051601 o posterior de Microsoft Teams
+  - Microsoft Teams Teléfono versión 1449/1.0.94.2020051601 o posterior
   
 Las cuentas de Teams de los agentes deben establecerse en modo solo Teams. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas. Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
 
@@ -159,6 +159,9 @@ Las cuentas de Teams de los agentes deben establecerse en modo solo Teams. Los a
 
 > [!TIP]
 > Establecer **El método de enrutamiento** en **Redondear** o Más **tiempo** inactivo es la configuración recomendada.
+
+> [!NOTE]
+> Si [la grabación de cumplimiento](teams-recording-policy.md) está habilitada en los agentes, no se admite la combinación del modo **de** conferencia y **el** enrutamiento del operador. Si necesita usar el modo **conferencia,** seleccione Enrutamiento **en serie,** Cíclico **redondo** o **Inactivo más** largo como método **de enrutamiento.** Si necesita usar el enrutamiento **del operador,** establezca **el modo de conferencia** en **Desactivado.**
 
 ![Captura de pantalla del enrutamiento, la opción de no participar y la configuración de la hora de alerta.](media/call-queue-presence-agents-time.png)
 
@@ -247,7 +250,7 @@ También puede usar Windows PowerShell para crear y configurar colas de llamadas
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Esto es lo obtiene con el Sistema telefónico](here-s-what-you-get-with-phone-system.md)
+[Esto es lo que obtienes con Microsoft Teams Teléfono](here-s-what-you-get-with-phone-system.md)
 
 [Obtener números de teléfono de servicio](getting-service-phone-numbers.md)
 

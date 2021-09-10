@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el Centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0e2c1cf68097aede8fefd6410791ac103fcea68
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 28aa07c3d9fa832e126bd6694b5d004c02c97d99
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725669"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972888"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -32,7 +32,8 @@ El registro de auditoría puede ayudarle a investigar actividades específicas e
 - Creación de equipos
 - Eliminación de equipos
 - Agregación de canales
-- Cambios en la configuración
+- Canal eliminado
+- Configuración del canal cambiada
 
 Para obtener una lista completa de Teams actividades [](#teams-activities) que se auditan, vea Teams actividades y turnos en Teams actividades [(en versión preliminar).](#shifts-in-teams-activities)
 

@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Comportamiento de coexistencia entre Teams & Skype Empresarial, incluidos los parámetros de enrutamiento, el & de llamadas, los chats & llamadas de subprocesos preexistentes, & presencia.
-ms.openlocfilehash: efd40be76e1a733e74d3e85c767cf2847d3cccbc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5383ff8c68b8950b449b5159a530a1439156a945
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582434"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972928"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
@@ -173,7 +173,8 @@ Skype Empresarial hilos no se conservan más allá del tiempo de espera de sesi�
 Están disponibles tanto los comportamientos dentro del espacio empresarial como los federados descritos anteriormente, con las siguientes limitaciones:
 
 - Los asistentes externos cuyos inquilinos residen en una implementación o geografía de GoLocal diferente no verán el chat de mensajería instantánea mientras están en una reunión "federada".
-- La federación y la interoperabilidad entre O365 Multitenant y Nubes soberanas no son compatibles
+- La federación y la interoperabilidad entre Office 365 y Office 365 21Vianet se admiten en escenarios limitados.
+
 
 ## <a name="presence"></a>Presence
 
@@ -227,6 +228,20 @@ En la tabla siguiente se describe la presencia del Publisher que verá un watche
 Para alinear la presencia y la capacidad de alcance en los hilos preexistedos, la presencia del destino expuesta en esa conversación debe alinearse con el enrutamiento de la conversación, suponiendo que el enrutamiento sea posible.
 
 En particular, si un destinatario con el que tenía anteriormente una conversación de interoperabilidad persistente se actualizó a Teams, esa conversación ya no reflejará la presencia precisa y ya no será enrutable. Debe iniciar una nueva conversación.
+
+### <a name="federation-and-interop-with-office-365-operated-by-21vianet"></a>Federación e interoperabilidad con Office 365 21Vianet
+
+La federación y la interoperabilidad entre Office 365 multiinquilino y Office 365 que opera 21Vianet son compatibles cuando los usuarios de Office 365 multiinquilino están en modo Teams único. En este escenario, los usuarios de Skype Empresarial Online en Office 365 operados por 21Vianet podrán comunicarse con Teams Solo los usuarios de Office 365 a través de chats y llamadas. En la tabla siguiente se muestran los escenarios admitidos en esta configuración:
+ 
+|Escenario|Origen|Destinatario|¿Compatible?|
+|---|---|---|---|
+|Presence|Microsoft Teams <br> Skype Empresarial <br> | Skype Empresarial <br> Teams|Sí<br>Sí|
+|Chat|Teams <br> Skype Empresarial <br> | Skype Empresarial <br> Teams|Sí (solo 1:1)<br>Sí(solo 1:1)|
+|Llamadas de audio|Microsoft Teams <br> Skype Empresarial <br> | Skype Empresarial <br> Teams|Sí (solo 1:1)<br>Sí (solo 1:1)|
+|Videollamadas|Microsoft Teams <br> Skype Empresarial <br> | Skype Empresarial <br> Teams|Sí (solo 1:1)<br>Sí (solo 1:1)|
+|Uso compartido de pantalla|Microsoft Teams <br> Skype Empresarial <br> | Skype Empresarial <br> Teams |Sí (a través de una reunión Teams promoción)<br>Sí (a través de una reunión de SfB promovida)|
+|||||
+
 
 ## <a name="related-links"></a>Vínculos relacionados
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](./migration-interop-guidance-for-teams-with-skype.md)

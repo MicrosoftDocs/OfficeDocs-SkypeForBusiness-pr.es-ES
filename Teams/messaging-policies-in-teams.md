@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 535d240054f3bdb670594635e8b89a2f9785d7e1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 73c354261d92044fea0a2efeb4e1613b3f3a63a9
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629322"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973028"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -76,35 +76,36 @@ Solo se puede asignar una directiva de mensajería a un usuario a la vez.
 Estas son las opciones de configuración de directiva de mensajería que puede configurar.
 
 - **Los propietarios pueden eliminar los mensajes enviados**  Use esta configuración para permitir que los propietarios eliminen los mensajes que los usuarios enviaron en el chat.
-- **Los usuarios pueden eliminar mensajes enviados** Use esta configuración para permitir que los usuarios eliminen los mensajes que enviaron en el chat.
-- **Los usuarios pueden editar mensajes enviados** Use esta configuración para permitir a los usuarios editar los mensajes que enviaron en el chat.
+- **Eliminar mensajes enviados** Use esta configuración para permitir que los usuarios eliminen los mensajes que enviaron en el chat.
+- **Editar mensajes enviados** Use esta configuración para permitir a los usuarios editar los mensajes que enviaron en el chat.
 - **Confirmaciones de lectura** Las confirmaciones de lectura permiten que el remitente de un mensaje de chat reciba una notificación cuando el destinatario lee el mensaje en 1:1 y los chats grupales de 20 personas o menos. Las confirmaciones de lectura de mensajes quitan de forma incierta si se ha leído un mensaje y mejoran la comunicación del equipo. Las confirmaciones de lectura no se capturan en los informes de exhibición de documentos electrónicos.  
     - **Controlado por el usuario** Esto significa que los usuarios pueden decidir si quieren recibir confirmaciones de lectura on o OFF. La configuración predeterminada dentro de la aplicación está EN. A continuación, los usuarios pueden desactivarlo.
-    - **En para todos los usuarios** Esto significa que todos los usuarios del espacio empresarial tendrán la característica ON sin opción de desactivarla. Al usar  la configuración De para todos los usuarios, la única forma de establecer confirmaciones para todo el espacio empresarial es tener solo una directiva de mensajería para todo el espacio empresarial (la directiva predeterminada denominada "Global (org-wide Default)") o que todas las directivas de mensajería del inquilino usen la misma configuración para las confirmaciones. Las característica de confirmaciones de lectura es más efectiva cuando se encuentra activa como **Habilitadas para todos**.
+    - **Activado para todos los usuarios** Esto significa que todos los usuarios del espacio empresarial tendrán la característica ON sin opción de desactivarla. Al usar  la configuración De para todos los usuarios, la única forma de establecer confirmaciones para todo el espacio empresarial es tener solo una directiva de mensajería para todo el espacio empresarial (la directiva predeterminada denominada "Global (org-wide Default)") o que todas las directivas de mensajería del inquilino usen la misma configuración para las confirmaciones. Las característica de confirmaciones de lectura es más efectiva cuando se encuentra activa como **Habilitadas para todos**.
     - **Desactivado para todos los usuarios** Esto significa que la característica está deshabilitada y que nadie del inquilino tiene confirmaciones de lectura ni puede activarla.
 <a name="bkchat"> </a>
 
 - **Chat** Active esta opción si desea que los usuarios de su organización puedan chatear con otras personas con la aplicación de Teams.
-- **Usar Giphys en conversaciones**  Si activa Giphys, los usuarios pueden incluir Giphys en conversaciones de chat con otras personas. Giphy es una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir archivos GIF animados. A cada Giphy se le asigna una clasificación de contenido. Además de activar esta configuración, debe habilitar [Las](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) experiencias conectadas opcionales para permitir giphys en las conversaciones.
+- **Usar Giphy en conversaciones**  Si activa Giphys, los usuarios pueden incluir Giphys en conversaciones de chat con otras personas. Giphy es una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir archivos GIF animados. A cada Giphy se le asigna una clasificación de contenido. Además de activar esta configuración, debe habilitar [Las](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) experiencias conectadas opcionales para permitir giphys en las conversaciones.
 - **Clasificación de contenido de Giphy**
-    - **Sin restricciones** Esto significa que los usuarios podrán insertar cualquier giphy en los chats independientemente de la clasificación de contenido.
-    - **Moderado**  Esto significa que los usuarios podrán insertar Giphys en chats, pero estarán moderadamente restringidos del contenido adulto.
-    - **Estricto**  Esto significa que los usuarios podrán insertar Giphys en chats, pero estarán estrictamente restringidos al contenido de adultos.
+  - **Sin restricciones** Esto significa que los usuarios podrán insertar cualquier giphy en los chats independientemente de la clasificación de contenido.
+  - **Moderado**  Esto significa que los usuarios podrán insertar Giphys en chats, pero estarán moderadamente restringidos del contenido adulto.
+  - **Estricto**  Esto significa que los usuarios podrán insertar Giphys en chats, pero estarán estrictamente restringidos al contenido de adultos.
 - **Usar memes en conversaciones** Si activa Memes, los usuarios pueden incluir Memes en conversaciones de chat con otras personas.
-- **Usar adhesivos en las conversaciones** Si activa esta opción, los usuarios podrán incluir adhesivos en las conversaciones de chat que mantengan con otras personas.
+- **Usar adhesivos en conversaciones** Si activa esta opción, los usuarios pueden incluir adhesivos en conversaciones de chat con otras personas.
 - **Permitir vistas previas de URL** Use esta opción si desea activar o desactivar la visualización previa automática de direcciones URL en los mensajes.
-- **Permitir que los usuarios traduzcan mensajes** Active esta configuración para permitir que los usuarios traduzcan automáticamente Teams mensajes al idioma especificado por su configuración de idioma personal para Microsoft 365 o Office 365.
+- **Traducir mensajes** Active esta configuración para permitir que los usuarios traduzcan automáticamente Teams mensajes al idioma especificado por su configuración de idioma personal para Microsoft 365 o Office 365.
 - **Permitir lector inmersivo para ver mensajes** Active esta configuración para permitir que los usuarios puedan ver los mensajes en Microsoft Lector inmersivo. Lector inmersivo es una herramienta de aprendizaje que proporciona una experiencia de lectura en pantalla completa para aumentar la legibilidad del texto.
 - **Enviar mensajes urgentes con notificaciones de prioridad** Si activa esta opción, los usuarios pueden enviar mensajes con notificaciones [de prioridad.](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) Las notificaciones de prioridad notifican a los usuarios cada 2  minutos durante 20 minutos o hasta que los mensajes marcados como urgentes sean recogidos y leídos por el destinatario. Esta característica aumenta la probabilidad de que el mensaje se actúe de forma oportuna.
-- **Creación de mensajes de audio**
+- **Crear mensajes de voz**
   > [!Important]
   > Los mensajes de audio no se capturan en los informes de exhibición de documentos electrónicos.
-    - **Permitido en chats y canales** Esto significa que los usuarios pueden dejar mensajes de audio en chats y canales.
-    - **Permitido solo en chats** Esto significa que los usuarios pueden dejar mensajes de audio en chats, pero no en canales.
-    - **Deshabilitado** Esto significa que los usuarios no pueden crear mensajes de audio en chats o canales.  
+  - **Permitido en chats y canales** Esto significa que los usuarios pueden dejar mensajes de audio en chats y canales.
+  - **Permitido solo en chats** Esto significa que los usuarios pueden dejar mensajes de audio en chats, pero no en canales.
+  - **No habilitado** Esto significa que los usuarios no pueden crear mensajes de audio en chats o canales.  
 - **En dispositivos móviles, mostrar canales favoritos por encima de chats recientes** Habilite esta configuración para mover los canales favoritos a la parte superior de la pantalla del dispositivo móvil para que un usuario no tenga que desplazarse para encontrarlos.
-- **Permitir que un usuario quite usuarios de un chat grupal** Active esta configuración para permitir que un usuario quite otros usuarios de un chat grupal. Esta característica te permite continuar un chat con un grupo más pequeño de personas sin perder el historial de chats.
-- **Habilitar respuestas sugeridas**  Active esta configuración para habilitar las respuestas sugeridas para los mensajes de chat.
+- **Quitar usuarios de chats grupales** Active esta configuración para permitir que un usuario quite otros usuarios de un chat grupal. Esta característica te permite continuar un chat con un grupo más pequeño de personas sin perder el historial de chats.
+- **Predicciones de texto** Active esta configuración para permitir que un usuario obtenga predicciones de texto para los mensajes de chat.
+- **Respuestas sugeridas**  Active esta configuración para habilitar las respuestas sugeridas para los mensajes de chat.
 - **Rol de permisos de chat** Use esta configuración para definir el rol de chat supervisado del usuario.  Obtenga más información acerca del [chat supervisado](supervise-chats-edu.md).
 
 > [!NOTE]

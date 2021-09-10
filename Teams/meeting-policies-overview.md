@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra cómo administrar la configuración de una directiva de reunión en Teams con el fin de controlar las características disponibles para sus participantes en reuniones programadas por usuarios.
-ms.openlocfilehash: f471d9513995a13eb32eaacd118cd2f3874cda7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dc2a57daccd9f252abe912892f0475a38859007f
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627342"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973048"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>Administrar directivas de reunión en Microsoft Teams
 
@@ -100,12 +100,12 @@ Al seleccionar una directiva existente en la página **Directivas de reunión** 
 
 - [General](meeting-policies-in-teams-general.md)
 - [Audio y vídeo](meeting-policies-audio-and-video.md)
+- [Grabación & transcripción](meetings-policies-recording-and-transcription.md)
 - [Uso compartido de contenido](meeting-policies-content-sharing.md)
 - [Participantes e invitados](meeting-policies-participants-and-guests.md)
-
 
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
-- [Asignar directivas a los usuarios en Teams](assign-policies.md)
+- [Asignar directivas a los usuarios en Teams](policy-assignment-overview.md)
 - [Quitar a los usuarios la directiva de reunión de Teams RestrictedAnonymousAccess](meeting-policies-restricted-anonymous-access.md)

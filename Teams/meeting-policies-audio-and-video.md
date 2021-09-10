@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams para audio y vídeo.
-ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9b7c2fd2ac98237383b8aaa1dff8fa764c6df2be
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726569"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973038"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configuración de directiva de reunión para audio & vídeo
 
@@ -33,40 +33,12 @@ ms.locfileid: "58726569"
 
 En este artículo se describen las configuraciones de directiva de reunión específicas de audio y vídeo. Entre ellas se incluyen las siguientes:
 
-- [Permitir transcripción](#allow-transcription)
-- [Permitir la grabación en la nube](#allow-cloud-recording)
 - [Modo de audio IP](#mode-for-ip-audio)
 - [Modo de vídeo IP](#mode-for-ip-video)
 - [Permitir vídeo IP](#allow-ip-video)
 - [Velocidad de bits multimedia (kb/s)](#media-bit-rate-kbs)
 - [Modo filtros de vídeo](#video-filters-mode)
 - [Permitir la configuración de fondo personalizada](#allow-custom-background-settings)
-
-### <a name="allow-transcription"></a>Permitir transcripción
-
-Esta es una combinación de directiva por organizador y por usuario. Esta configuración controla si se pueden usar las características de subtítulos y transcripción durante la reproducción de las grabaciones de la reunión. Si desactiva esta opción, las opciones de **Búsqueda** y **CC** no estarán disponibles durante la reproducción de la grabación de una reunión. La persona que ha iniciado la grabación necesita que esta opción esté activada para que la grabación también incluya transcripción.
-
-Nota: Actualmente, la transcripción de reuniones grabadas solo es posible si los usuarios tienen configurado el idioma de Teams en inglés y si se habla inglés en la reunión.
-
-### <a name="allow-cloud-recording"></a>Permitir la grabación en la nube
-
-Esta es una combinación de directiva por organizador y por usuario. Esta configuración controla si se pueden grabar las reuniones de este usuario. La grabación la puede iniciar el organizador de la reunión u otro participante de la reunión si la configuración de directiva está activada para el participante y si es un usuario autenticado de la misma organización.
-
-Las personas de fuera de su organización, como los usuarios federados y anónimos, no pueden iniciar la grabación. Los usuarios invitados no pueden iniciar o detener la grabación.
-
-![Captura de pantalla que muestra las opciones de grabación.](media/meeting-policies-recording.png)
-
-Veamos el ejemplo siguiente.
-
-|Usuario |Directiva de reuniones  |Permitir la grabación en la nube |
-|---------|---------|---------|
-|Daniela | Global   | Desactivado |
-|Amanda | Location1MeetingPolicy | Activado|
-|John (usuarios externos) | No aplicable | No aplicable|
-
-Las reuniones organizadas por Daniela no se pueden grabar y Amanda, que tiene la configuración de directiva habilitada, no puede grabar las reuniones organizadas por Daniela. Las reuniones organizadas por Amanda sí se pueden grabar, pero Daniela, que tiene la configuración de directiva deshabilitada y John, un usuario externo, no pueden grabar las reuniones organizadas por Amanda.
-
-Para más información sobre la grabación de reuniones en la nube, consulte [Grabación de reuniones en la nube de Teams](cloud-recording.md).
 
 ### <a name="mode-for-ip-audio"></a>Modo de audio IP
 
@@ -116,7 +88,7 @@ Las reuniones organizadas por un usuario que tiene habilitada esta configuració
 
 | Clientes de escritorio y web de Teams |Cliente móvil de Teams  |
 |:-------:|:-------:|
-|![Captura de pantalla que muestra la combinación de reuniones con la configuración de audio y vídeo en el escritorio.](media/meeting-policies-audio-video-settings.png)    |![Captura de pantalla que muestra la pantalla para unirse a la reunión y la configuración de audio o vídeo en el cliente de móvil](media/meeting-policies-mobile-join.png)          |
+|![Captura de pantalla que muestra información para unirse a la reunión y la configuración de audio o vídeo en el cliente de escritorio.](media/meeting-policies-audio-video-settings.png)    |![Captura de pantalla que muestra la pantalla para unirse a la reunión y la configuración de audio o vídeo en el cliente de móvil](media/meeting-policies-mobile-join.png)          |
 
 Veamos el ejemplo siguiente.
 
@@ -228,4 +200,4 @@ Los asistentes a la reunión verán una selección de imágenes de fondo que pue
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
-- [Asignar directivas a los usuarios en Teams](assign-policies.md)
+- [Asignar directivas a los usuarios en Teams](policy-assignment-overview.md)
