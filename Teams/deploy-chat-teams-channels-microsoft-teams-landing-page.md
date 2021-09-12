@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: e7ebfeea83a34bec241c5de29f8d8445410a97d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617456"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973018"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 
@@ -93,7 +93,7 @@ Las directivas de mensajería controlan qué características de mensajería est
 
 ### <a name="external-access"></a>Acceso externo
 
-El acceso externo (anteriormente conocido como federación) permite que los usuarios de Teams y de Skype Empresarial se comuniquen con usuarios de fuera de la organización. Al activarlo y agregar dominios a la lista de permitidos, los usuarios pueden comunicarse con usuarios en otros dominios y organizaciones. El acceso externo se diferencia del acceso de invitado en que se le da permiso de acceso a un dominio completo, no solo a un usuario individual. El acceso externo está desactivado de forma predeterminada.
+El acceso externo (anteriormente conocido como federación) permite que los usuarios de Teams y de Skype Empresarial se comuniquen con usuarios de fuera de la organización. Al activarlo y agregar dominios a la lista de permitidos, los usuarios pueden comunicarse con usuarios en otros dominios y organizaciones. El acceso externo se diferencia del acceso de invitado en que se le da permiso de acceso a un dominio completo, no solo a un usuario individual. El acceso externo estáactivado de forma predeterminada.
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -102,10 +102,10 @@ El acceso externo (anteriormente conocido como federación) permite que los usua
 
 ### <a name="guest-access"></a>Acceso de invitado
 
-El acceso de invitado en Teams permite a personas fuera de su organización acceder a los equipos y canales. Puede usar la configuración de acceso de invitado para controlar qué características pueden o no usar los usuarios invitados. El acceso de invitado está desactivado de forma predeterminada. Para obtener más información, consulte [Acceso de invitado a Teams](./guest-access.md).
+El acceso de invitado en Teams permite a personas fuera de su organización acceder a los equipos y canales. Puede usar la configuración de acceso de invitado para controlar qué características pueden o no usar los invitados. El acceso de invitado está activado de forma predeterminada. Para obtener más información, consulte [Acceso de invitado a Teams](./guest-access.md).
 
 > [!NOTE]
-> Para obtener más información sobre el acceso externo y el acceso de invitado, consulte: [Comunicación con usuarios de otras organizaciones en Microsoft Teams](communicate-with-users-from-other-organizations.md)
+> Para obtener más información sobre el acceso externo y el acceso de invitado, consulte: [Comunicación con usuarios de otras organizaciones en Microsoft Teams](communicate-with-users-from-other-organizations.md)
 
 
 |Pregúntese lo siguiente:|Acción |
