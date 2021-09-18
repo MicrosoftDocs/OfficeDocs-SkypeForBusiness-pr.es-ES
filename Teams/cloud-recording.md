@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1e8bc4836cab206389fcc011e4d7a41d2b54f74
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 22d57e349d22deb6d40227ba15d73a7958bad894
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973068"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432442"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -309,13 +309,13 @@ Sí, la fecha de expiración se establece por archivo. Los usuarios pueden modif
 
 **¿Cómo puede un administrador cambiar la fecha de expiración?**
   
-Los administradores podrán cambiar la configuración de expiración predeterminada en PowerShell o en el Centro de administración de Teams antes de que se publique la característica. La configuración aún no está disponible para su modificación. Cuando la configuración esté disponible para la modificación lo publicaremos en el centro de mensajes. Cuando se inicia la característica, los administradores pueden cambiar esta configuración en el Centro de administración de Teams. El cambio de la configuración de expiración afectará solo a los TMR recién creados a partir de ese momento. No afectará a las grabaciones realizadas antes de esa fecha.
+Los administradores podrán cambiar la configuración de expiración predeterminada en PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) o en el Centro de administración de Teams antes de que se publique la característica. **La configuración aún no está disponible para su modificación**. Cuando la configuración esté disponible para su modificación lo publicaremos en el centro de mensajes. Cuando se inicia la característica, los administradores pueden cambiar esta configuración en el centro de administración de Teams. El cambio de la configuración de expiración afectará solo a los TMR recién creados a partir de ese momento. No afectará a las grabaciones realizadas antes de esa fecha. 
 
 Los valores de días de expiración se pueden establecer de la siguiente manera:
   
-- El valor puede estar comprendido entre 1 y 99 999 (273 años como máximo).
-- El valor también puede ser -1 para establecer que TMR nunca expire.
-
+- El valor puede estar comprendido entre 1 y 9 999.
+- El valor también puede ser -1 para establecer que TMR nunca expire. 
+ 
 Los administradores no pueden cambiar la fecha de expiración de los TMR existentes ya cargados en OneDrive o SharePoint antes de que se publicara esta característica. Esto protege la intención del usuario propietario de TMR.
   
 **¿Puede un administrador establecer los TMR para que nunca expiren?**
@@ -333,6 +333,11 @@ La fecha de expiración se borrará al volver a cargar, independientemente de la
 **¿Qué ocurre si copio o muevo el TMR a otra ubicación o sitio?**
 
 La fecha solo se conserva para un archivo TMR que se haya movido. Un archivo copiado no tendrá la fecha de expiración y lo mismo sucede con un TMR que se ha vuelto a cargar.
+  
+
+**Es el ámbito de control de la directiva de administración?**
+  
+Tanto las reuniones como las llamadas se controlarán mediante el mismo `CsTeamsMeetingPolicy` setting, `MeetingRecordingExpirationDays`. 
   
 **¿Cómo pueden los usuarios finales modificar la fecha de expiración de un archivo TMR específico?**
   
@@ -369,7 +374,7 @@ El propietario del archivo recibirá una notificación por correo electrónico c
   
 **¿Qué SKU se requieren para esta función?**
   
-Todas las SKU tendrán esta característica de forma predeterminada. Los usuarios A1 tendrán como valor predeterminado un período de expiración de 30 días y no podrán modificar la fecha de expiración
+Todas las SKU tendrán esta característica de forma predeterminada. Los usuarios A1 tendrán como valor predeterminado un período de expiración de 30 días.
   
 **Es la expiración del archivo un evento auditado y podré verlo en mis registros de auditoría?**
   

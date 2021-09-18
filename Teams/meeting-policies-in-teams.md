@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Descubra cómo administrar la configuración de directiva de reunión en Teams. Use la configuración de directiva para controlar las características disponibles para los participantes de la reunión en las reuniones programadas por los usuarios.
-ms.openlocfilehash: 4809fab0976eda2b109620f2a2716ccb10e80318
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 92df4086252eb27c47615daafad0179f4c505d95
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728429"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432322"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -547,7 +547,7 @@ Para especificar qué complemento de la reunión desea que esté disponible para
 - Establezca el parámetro en **TeamsAndSfB** para habilitar tanto el complemento de reuniones de Teams como el complemento de Skype Empresarial en Outlook. Este es el valor predeterminado.
 - Establezca el parámetro en **Teams** para habilitar solo el complemento de la reunión de Teams en Outlook. Esta configuración de directiva garantiza que todas las reuniones futuras tengan un vínculo para unirse a una reunión de Teams. No migra a Teams los vínculos existentes para unirse a reuniones de Skype Empresarial. Esta configuración de directiva no afecta a la presencia, el chat, las llamadas RTC ni cualquier otra función en Skype Empresarial, lo que significa que los usuarios seguirán empleando Skype Empresarial para estas funciones.
 
-  Si establece el parámetro como **Teams** y, a continuación, vuelve a **TeamsAndSfB**, se habilitan los complementos de la reunión. Los vínculos existentes para unirse a reuniones de Teams **no** se migrarán a Skype Empresarial. Solo las reuniones de Skype Empresarial programadas tras el cambio tendrán un vínculo para unirse a reuniones de Skype Empresarial.
+Si establece el parámetro como **Teams** y, a continuación, vuelve a **TeamsAndSfB**, se habilitan los complementos de la reunión. Los vínculos existentes para unirse a reuniones de Teams **no** se migrarán a Skype Empresarial. Solo las reuniones de Skype Empresarial programadas tras el cambio tendrán un vínculo para unirse a reuniones de Skype Empresarial.
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>Configuración de la directiva de reuniones. Modo de filtros de vídeo
 
@@ -581,3 +581,4 @@ Las reacciones a la reunión están desactivadas de forma predeterminada. Desact
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 - [Asignar directivas a los usuarios en Teams](assign-policies.md)
 - [Quitar a los usuarios la directiva de reunión de Teams RestrictedAnonymousAccess](meeting-policies-restricted-anonymous-access.md)
+- [Configurar seminarios web en Microsoft Teams](set-up-webinars.md)

@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a089b94cdb8d5568fe864a91e2c98ef26ecc9b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3e3a74b5e156817ec9b28608d725800858c3b350
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631984"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432542"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Inicio rápido: reuniones, seminarios web y eventos en vivo 
 
@@ -156,8 +156,7 @@ En la tabla siguiente se enumeran artículos con los que puede obtener más info
 | Artículo | Descripción | 
 |----------|--------|
 | [Aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) | Introducción a las aplicaciones y cómo implementarlas en su organización. |
-| [Aplicaciones para reuniones de Teams](/platform/apps-in-teams-meetings/teams-apps-in-meetings.md) | Información general sobre la extensibilidad de aplicaciones de reuniones, referencias de API y cómo habilitar y configurar aplicaciones para reuniones. |
-| [Más información sobre las aplicaciones para reuniones de Teams](/platform/apps-in-teams-meetings/teams-apps-in-meetings.md) | Incluye vínculos a aplicaciones disponibles para reuniones de Teams. |
+| [Aplicaciones para reuniones de Teams] (/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings | Información general sobre la extensibilidad de aplicaciones de reuniones, referencias de API y cómo habilitar y configurar aplicaciones para reuniones. |
 | [Administrar Microsoft Whiteboard en Teams](manage-whiteboard.md) | Describe la funcionalidad de Whiteboard y cómo habilitarla y deshabilitarla en su organización. |
 ||
 
