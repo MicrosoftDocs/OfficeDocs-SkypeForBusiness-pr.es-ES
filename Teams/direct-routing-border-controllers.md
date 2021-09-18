@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d3476b5ae1049e207f07d064ca1548e53fd3635
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c2214b13eacbb58d3c8b3fff3b544afcba009b6
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609017"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432662"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -49,13 +49,14 @@ Si tiene alguna pregunta sobre el programa de certificación de CLS para Enrutam
 
 |                                                       Proveedor                                                        |       Producto       | Omisión de los que no son medios | Omisión de medios | Versión de software | Compatible con el proveedor de servicios 911* | Compatible con ELIN |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   SBC Mediant 500   |     &#10004;     |   &#10004;    |  Compatible con 7.20A.250 (recomendado 7.20A.258)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   SBC Mediant 800   |     &#10004;     |   &#10004;     |  Compatible con 7.20A.250 (recomendado 7.20A.258)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  SBC Mediant 2600   |     &#10004;     |   &#10004;    |  Compatible con 7.20A.250 (recomendado 7.20A.258)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  SBC Mediant 4000   |     &#10004;     |   &#10004;     |  Compatible con 7.20A.250 (recomendado 7.20A.258)   |  &#10004;   |  &#10004;  |
-|                                                                                                                     | SBC Mediant 1000B  |     &#10004;     |   Pending     |  Compatible con 7.20A.250 (recomendado 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | SBC Mediant 9000  |     &#10004;     |   &#10004;     |  Compatible con 7.20A.250 (recomendado 7.20A.258)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | SBC Virtual Edition |     &#10004;     |   &#10004;     |  Compatible con 7.20A.250 (recomendado 7.20A.258) |  &#10004;    |  &#10004;  |
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   SBC Mediant 500   |     &#10004;     |   &#10004;    |  Compatible con 7.40A.100 (recomendado 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |   SBC Mediant 800   |     &#10004;     |   &#10004;     |  Compatible con 7.40A.100 (recomendado 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  SBC Mediant 2600   |     &#10004;     |   &#10004;    |  Compatible con 7.40A.100 (recomendado 7.40A.100)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  SBC Mediant 4000   |     &#10004;     |   &#10004;     |  Compatible con 7.40A.100 (recomendado 7.40A.100)   |  &#10004;   |  &#10004;  |
+|                                                                                                                     | SBC Mediant 1000B  |     &#10004;     |   &#10004;     |  Compatible con 7.20A.250 (recomendado 7.20A.258)  |  &#10004;   |  &#10004;  |
+|                                                                                                                     | SBC Mediant 9000  |     &#10004;     |   &#10004;     |  Compatible con 7.40A.100 (recomendado 7.40A.100)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | SBC Virtual Edition |     &#10004;     |   &#10004;     |  Compatible con 7.40A.100 (recomendado 7.40A.100) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | SBC de Mediant Cloud Edition  |     &#10004;     |   &#10004;     |  Compatible con 7.40A.100 (recomendado 7.40A.100) |  &#10004;    |  &#10004;  |
 |  [Comunicaciones de cinta](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Compatible con 8.2 y 7.2 (recomendado 9.2)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Compatible con 8.2 y 7.2 (recomendado 9.2)       |   &#10004; |    |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Compatible con 8.2 y 7.2 (recomendado 9.2)       |   &#10004;  | |
@@ -102,6 +103,8 @@ Si tiene alguna pregunta sobre el programa de certificación de CLS para Enrutam
 - [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Servicio de enrutamiento de emergencia Intrado (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [Puerta de enlace de emergencia Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
+- [Inteliquent](https://www.inteliquent.com/services/emergency-services/e911)
+
 <br/>
 
 ## <a name="support-for-local-media-optimization"></a>Soporte para la optimización de medios locales

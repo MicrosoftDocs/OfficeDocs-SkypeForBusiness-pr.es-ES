@@ -1,5 +1,5 @@
 ---
-title: Obtener números de teléfono de servicio
+title: Obtener números de teléfono de servicio para planes de llamadas
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,16 +22,18 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo obtener nuevos números de teléfono y portabilidad o transferir números existentes para audioconferencias, operadores automáticos y colas de llamadas (números de servicio) para Teams.
-ms.openlocfilehash: fb0025796ad9bbb91c5172cf2cb551de6ecf619b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6a065c5661fc4b0a716d2aab31687e20645473fb
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732919"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432502"
 ---
-# <a name="getting-service-phone-numbers"></a>Obtener números de teléfono de servicio
+# <a name="srvice-phone-numbers-for-calling-plans"></a>Números de teléfono de Srvice para planes de llamadas
 
-Además de obtener números de teléfono para los [usuarios,](./getting-phone-numbers-for-your-users.md)puede obtener números de teléfono gratuitos o de pago para servicios como Audioconferencia (para puentes de conferencia), operadores automáticos y colas de llamadas (también denominados números de servicio). Los números de teléfono de servicio tienen una mayor capacidad de llamadas simultáneas que los números de teléfono de usuario o suscriptor. Por ejemplo, un número de servicio puede controlar cientos de llamadas simultáneamente, mientras que el número de teléfono de un usuario solo puede controlar algunas llamadas simultáneamente.
+**NOTA PARA LOS REVISORES: ESTO PARECE ESPECÍFICO PARA LOS PLANES DE LLAMADAS. ¿DEBO MOVERLO EN EL NODO PLANES DE LLAMADAS?**
+
+Además de obtener números de teléfono para los [usuarios,](./getting-phone-numbers-for-your-users.md)puede obtener números de teléfono gratuitos o de pago para servicios como Audioconferencia (para puentes de conferencia), Operadores automáticos y Colas de llamadas (también denominados números de servicio). Los números de teléfono de servicio tienen una mayor capacidad de llamadas simultáneas que los números de teléfono de usuario o suscriptor. Por ejemplo, un número de servicio puede controlar cientos de llamadas simultáneamente, mientras que el número de teléfono de un usuario solo puede controlar algunas llamadas simultáneamente.
   
 > [!NOTE]
 > Primero tiene que configurar créditos de comunicaciones para poder obtener números gratuitos. Para obtener más información, vea [Configurar créditos de comunicaciones para su organización.](./set-up-communications-credits-for-your-organization.md)
@@ -49,17 +51,21 @@ Hay tres formas de obtener números de servicio:
   
 ## <a name="get-new-service-numbers"></a>Obtener nuevos números de servicio
 
-![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
+Para obtener nuevos números de servicio, en el Teams de administración:
 
 1. En el panel de navegación izquierdo, vaya **a Números** de Teléfono  >  **y,** a continuación, haga clic en **Agregar**.
+
 2. Escriba un nombre para el pedido y agregue una descripción.
+
 3. En la página Ubicación y cantidad, haga lo siguiente:
-    1. En **País o región,** seleccione un país o región.
-    1. En **Tipo de número**, seleccione el tipo de número de servicio que desee.
-    1. En **Ubicación**, seleccione una ubicación. Si necesita crear una nueva ubicación, haga clic **en Agregar una ubicación.**
-    1. En **Código de área,** seleccione un código de área. 
-    2. En **Cantidad**, escriba el número de números que desea para su organización y, a continuación, haga clic **en Siguiente** para seleccionar los números.
+    - En **País o región,** seleccione un país o región.
+    - En **Tipo de número**, seleccione el tipo de número de servicio que desee.
+    - En **Ubicación**, seleccione una ubicación. Si necesita crear una nueva ubicación, haga clic **en Agregar una ubicación.**
+    - En **Código de área,** seleccione un código de área. 
+    - En **Cantidad**, escriba el número de números que desea para su organización y, a continuación, haga clic **en Siguiente** para seleccionar los números.
+
 4. Seleccione los números que desee. Tienes 10 minutos para seleccionar tus números de teléfono y realizar el pedido. Si lleva más de 10 minutos, los números de teléfono se devolverán al grupo de números.
+
 5. Cuando esté listo para realizar el pedido, haga clic **en Realizar pedido.**
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>Portabilidad o trasferencia de números de servicio existentes
@@ -73,9 +79,7 @@ Si su país o región no aparece en el asistente de portabilidad, puede enviar m
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Ver los números de teléfono de su organización
 
-![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams** 
-
-En el panel de navegación izquierdo, vaya a Números Teléfono voz para ver los números de su organización, incluida la ubicación, el tipo de número y la  >   información de estado.
+En el Teams de administración, en el panel de navegación izquierdo, vaya a Números de voz Teléfono para ver los números de su organización, incluida la ubicación, el tipo de número y la información  >   de estado.
 
 ## <a name="assign-service-phone-numbers"></a>Asignar números de teléfono de servicio
 

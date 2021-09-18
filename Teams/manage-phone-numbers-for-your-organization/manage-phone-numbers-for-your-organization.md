@@ -1,5 +1,5 @@
 ---
-title: Administrar los números de teléfono para su organización
+title: Administrar números de teléfono para plan de llamadas
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,16 +27,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo obtener y administrar números de teléfono de usuario (suscriptor) y de servicio (gratuitos y gratuitos) para Microsoft Teams para su organización.
-ms.openlocfilehash: 03c8fd0c265918a2ef664f668e2900d85ac50cf8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cc36fbd39ea470aa9e4175a13af574134d7ec42a
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630192"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432532"
 ---
-# <a name="manage-phone-numbers-for-your-organization"></a>Administrar los números de teléfono para su organización
+# <a name="manage-phone-numbers-for-calling-plan"></a>Administrar números de teléfono para plan de llamadas
 
-Hay cuatro formas de obtener números de teléfono de usuario (suscriptor) y de servicio (gratuitos y gratuitos) para su organización:
+Hay cuatro formas de obtener números de teléfono de usuario (suscriptor) y de servicio (gratuitos y gratuitos) para el Plan de llamadas:
 
 - [Obtener nuevos números de teléfono de usuario en el Microsoft Teams de administración.](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)
 - [Obtener nuevos números de teléfono de servicio en el centro Microsoft Teams administración.](../getting-service-phone-numbers.md#get-new-service-numbers)
@@ -82,7 +82,9 @@ Si sabe qué tipo de formularios está buscando, use la lista desplegable para s
 
 ***
 
-## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Aquí hay un poco más de información acerca de esos formularios de solicitud de un número
+## <a name="number-request-forms"></a>Formularios de solicitud de número
+
+En las secciones siguientes se describen formularios de solicitud de números nuevos y para transferir números existentes.
 
 ### <a name="request-forms-for-new-phone-numbers"></a>Formularios de solicitud para números de teléfono nuevos
 
@@ -92,9 +94,9 @@ A veces (dependiendo de su país o región) no podrá obtener números de teléf
 
 Si es así, tendrá que descargar el formulario LOA PDF correcto (por país o región y tipo de números de teléfono) y enviarlo de nuevo a nosotros. Nuestro servicio de atención al cliente lo llevará desde allí y comenzará a procesar su solicitud.
 
-### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers-from-another-service-provider-to-microsoft-teams"></a>Cartas de autorización (LOA) para transferir o transferir números de teléfono existentes de otro proveedor de servicios a Microsoft Teams
+### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers"></a>Cartas de autorización (LOA) para transferir o transferir números de teléfono existentes 
 
-Si necesita transferir o transferir sus números de teléfono existentes, tendrá que descargar, rellenar y enviarnos una Carta de autorización (LOA), que nos da permiso para solicitar y transferir, en su nombre, esos números existentes de otro proveedor de servicios a Microsoft Teams.
+Si necesita transferir o transferir sus números de teléfono existentes de otro proveedor de servicios a Teams, tendrá que descargar, rellenar y enviarnos una Carta de autorización (LOA). La LOA concede a Microsoft permiso para solicitar y transferir, en su nombre, esos números existentes de otro proveedor de servicios a Teams.
 
 Envíenos una **LOA** si actualmente tiene lo siguiente con otro operador:
 
@@ -107,7 +109,7 @@ Una vez que tenga su LOA **rellenada** y firmada, póngase en contacto con nuest
 
 ## <a name="still-need-assistance"></a>¿Todavía necesita ayuda?
 
-[Ponte en contacto con nuestro servicio de atención](./contact-pstn-service-desk.md) RTC y te ayudaremos lo antes posible.
+Si necesita ayuda, póngase [en contacto con el Servicio de asistencia RTC.](./contact-pstn-service-desk.md)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

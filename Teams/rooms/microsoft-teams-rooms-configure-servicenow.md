@@ -12,12 +12,12 @@ appliesto:
 localization_priority: Normal
 description: Obtenga información sobre cómo configurar ServiceNow en el Salas de Teams Premium web
 f1keywords: ''
-ms.openlocfilehash: a7e1313321c5e556be814d7aa0bd0b80ae9bcb35
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: a8f1e43ca52ee9fa155115fb911f88221cb6fdd0
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973289"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432712"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>Configurar ServiceNow para Salas de Teams
 
@@ -36,7 +36,7 @@ En este artículo se describen los requisitos previos y los pasos para configura
 - Un rol de incident_manager o superior
 - Una versión de software de ServiceNow compatible con Table API
 
-## <a name="set-up-servicenow-configuration-to-teams-rooms"></a>Configurar la configuración de ServiceNow para Salas de Teams
+## <a name="configure-your-environment"></a>Configurar el entorno
 
 La configuración de su entorno es altamente personalizable y dependerá de las necesidades de su organización. A continuación se explica cómo copiar la configuración existente en ServiceNow en el portal Salas de Teams Premium usuario.
 
@@ -45,7 +45,7 @@ La configuración de su entorno es altamente personalizable y dependerá de las 
 3. Seleccione un método de autenticación para iniciar sesión y escribir el Host de instancia de ServiceNow y el URI de la API.
 4. Todos los elementos necesarios en la columna Campo de ServiceNow de la sección Asignación de campos deben rellenarse previamente. La tabla siguiente contiene cada campo ServiceNow y sus correspondientes Salas de Microsoft Teams campo. Complete la acción de cada fila de la sección Asignación de campos. Para obtener definiciones de cada campo de ServiceNow, vea [Definiciones de campo de ServiceNow](#servicenow-field-definitions).
 
-| **Campo ServiceNow** | **Salas de Microsoft Teams campo** | **Acción** |
+| Campo ServiceNow | Salas de Microsoft Teams campo | Action |
 | --- | --- | --- |
 | short_description | Descripción del incidente | No se necesita ninguna acción. El Salas de Teams se rellena automáticamente. |
 | descripción | Primer mensaje | No se necesita ninguna acción. El Salas de Teams se rellena automáticamente. |
@@ -62,7 +62,7 @@ La configuración de su entorno es altamente personalizable y dependerá de las 
 
 Para agregar campos necesarios adicionales a la sección Resolver incidente, seleccione **Agregar**.
 
-## <a name="test-and-enable-your-servicenow-configuration"></a>Probar y habilitar la configuración de ServiceNow
+## <a name="test-and-enable"></a>Probar y habilitar
 
 Después de completar el formulario de configuración, seleccione **Probar** en la parte inferior de la página. Las pruebas son necesarias para enviar la configuración.
 

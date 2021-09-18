@@ -1,7 +1,7 @@
 ---
-title: Administrar directivas de equipos en Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: Administrar directivas de canal en Microsoft Teams
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -23,15 +23,15 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-description: Obtenga información sobre cómo usar y administrar directivas de equipos en su organización para controlar lo que los usuarios pueden hacer en equipos y canales.
-ms.openlocfilehash: 92b49a31a4ae8cdedb9243293547c42699fed919
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Obtenga información sobre cómo usar y administrar directivas de canal de equipos en su organización para controlar lo que los usuarios pueden hacer en equipos y canales.
+ms.openlocfilehash: 727bb8b133d5119cd396c79561dde453281206f0
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725499"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432272"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a>Administrar directivas de equipos en Microsoft Teams
+# <a name="manage-channel-policies-in-microsoft-teams"></a>Administrar directivas de canal en Microsoft Teams
 
 Como administrador, puede usar directivas de equipos en Microsoft Teams controlar lo que los usuarios de su organización pueden hacer en equipos y canales. Por ejemplo, puede establecer si los usuarios pueden crear canales privados.
 

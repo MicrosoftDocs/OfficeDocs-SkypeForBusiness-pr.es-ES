@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Obtenga información sobre cómo usar la aplicación Bookings en Teams programar, administrar y realizar visitas virtuales.
-ms.openlocfilehash: 9c925e07bebe20e1f103a4f3acf3dc60f8409bcf
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: a37a024e31c75bbedbdb36d9aa0d6acfd2af614c
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973343"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432462"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación Bookings
 
@@ -43,8 +43,8 @@ Con Bookings, obtiene una experiencia adaptada a su sector. Estos son algunos ej
 |Sector | Ejemplos |
 |---------|---------|
 |Servicios financieros    |  Visitas virtuales para ventas y servicios remotos<br/>Programe y administre citas virtuales para administradores de relaciones bancarias, asesores financieros y ajustadores de reclamaciones, por citar algunos, para servir a sus clientes con mayor eficiencia y comodidad.  |
-|Sanidad   |  Visitas virtuales para la atención de pacientes <br/>Programe y administre visitas virtuales para que los miembros del equipo de atención se reúnan con pacientes u otros proveedores de servicios de salud para hablar sobre la atención médica.   |         |
-|Retail   | Experiencias de compra virtuales <br/>Programe y administre citas para sus asociados de ventas, expertos en productos y consultores de diseño para llevar a cabo experiencias de compra virtuales con los clientes.   |         |
+|Sanidad   |  Visitas virtuales para la atención de pacientes <br/>Programe y administre visitas virtuales para que los miembros del equipo de atención se reúnan con pacientes u otros proveedores de servicios de salud para hablar sobre la atención médica.   |
+|Retail   | Experiencias de compra virtuales <br/>Programe y administre citas para sus asociados de ventas, expertos en productos y consultores de diseño para llevar a cabo experiencias de compra virtuales con los clientes.   |
 
 En este artículo se ofrece información general sobre cómo usar la aplicación Bookings en Teams programar, administrar y realizar visitas virtuales.
 

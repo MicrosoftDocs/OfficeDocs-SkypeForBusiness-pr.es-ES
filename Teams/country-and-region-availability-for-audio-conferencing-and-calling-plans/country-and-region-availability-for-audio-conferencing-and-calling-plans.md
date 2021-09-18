@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre si audioconferencia, Sistema telefónico, planes de llamadas, créditos de comunicaciones y números de teléfono gratuitos y gratuitos están disponibles en un país o región.
-ms.openlocfilehash: 2cf9eaf4dab9fa52fc077e964874182d85bf73d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b34ae51dae05d59b320f4d3285efe57131db58d6
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578384"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432302"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -195,9 +195,9 @@ Llamar desde una reunión a otro país o región del mundo que no se muestra a c
 
 Con Sistema telefónico, puede crear operadores automáticos y colas de llamadas (con un número gratuito o de pago) para responder a las llamadas entrantes de su organización. Al agregar un plan de llamadas para los usuarios, pueden usar Skype Empresarial para ocuparse de las tareas básicas de control de llamadas, como realizar y recibir llamadas, transferir llamadas y silenciar y desmutar llamadas. **Sistema telefónico** usuarios hacen clic en un nombre en su libreta de direcciones y Skype Empresarial realizarán una llamada a esa persona. Para realizar y recibir **llamadas,** Sistema telefónico usuarios usan sus dispositivos móviles, unos auriculares con un portátil o un PC, o uno de los muchos teléfonos IP que funcionan con Skype Empresarial.
 
-> La disponibilidad de números de teléfono de pago en algunas de estas ubicaciones puede variar en cualquier momento, según los niveles de inventario. Además de obtener números de teléfono para usuarios individuales, también es posible buscar y adquirir números de teléfono gratuitos o de pago para servicios como conferencias de audio (para puentes de conferencia), operadores automáticos y colas de llamadas. Se denominan números de servicio. Vea [Recepción de números de teléfono de servicio](../getting-service-phone-numbers.md) para obtener números de teléfono. Pero, para sus usuarios, después de asignarles un Plan de llamadas, puede asignar un número de teléfono de usuario para que puedan hacer y recibir llamadas de teléfono. Para encontrar estos números de teléfono, vaya a [Obtener números de teléfono para los usuarios](../getting-phone-numbers-for-your-users.md). También puede consultar [Asignar, cambiar o quitar un número de teléfono para un usuario](../assign-change-or-remove-a-phone-number-for-a-user.md).
+La disponibilidad de números de teléfono de pago en algunas de estas ubicaciones puede variar en cualquier momento, según los niveles de inventario. Además de obtener números de teléfono para usuarios individuales, también es posible buscar y adquirir números de teléfono gratuitos o de pago para servicios como conferencias de audio (para puentes de conferencia), operadores automáticos y colas de llamadas. Se denominan números de servicio. Vea [Recepción de números de teléfono de servicio](../getting-service-phone-numbers.md) para obtener números de teléfono. Pero, para sus usuarios, después de asignarles un Plan de llamadas, puede asignar un número de teléfono de usuario para que puedan hacer y recibir llamadas de teléfono. Para encontrar estos números de teléfono, vaya a [Obtener números de teléfono para los usuarios](../getting-phone-numbers-for-your-users.md). También puede consultar [Asignar, cambiar o quitar un número de teléfono para un usuario](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
-[Precios de Sistema telefónico](https://products.office.com/skype-for-business/phone-system#Requirements)
+[Precios de Sistema telefónico](https://www.microsoft.com/microsoft-teams/voice-calling?#office-StandaloneSKU-pkdogb9)
 
 > [!NOTE]
 > La disponibilidad de números de teléfono de pago en algunas de estas ubicaciones puede variar en cualquier momento, según los niveles de inventario.

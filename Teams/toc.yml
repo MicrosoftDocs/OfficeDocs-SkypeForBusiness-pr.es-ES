@@ -901,6 +901,8 @@ items:
             href: shared-line-appearance.md
           - name: Configuración del teclado de marcado
             href: dial-pad-configuration.md
+          - name: Música en espera.
+            href: music-on-hold.md
       - name: Opciones de conectividad RTC
         items:
           - name: Información general
@@ -1000,33 +1002,39 @@ items:
       - name: Números de teléfono
         items:
           - name: Administrar los números de teléfono de la organización
-            href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-          - name: Tipos de números de teléfono que se usan para el plan de llamadas
-            href: different-kinds-of-phone-numbers-used-for-calling-plans.md
-          - name: Obtener números de teléfono para los usuarios
-            href: getting-phone-numbers-for-your-users.md
+            href: manage-phone-numbers-landing-page.md
           - name: ¿Cuántos números de teléfono puede obtener?
             href: how-many-phone-numbers-can-you-get.md
           - name: Buscar números de teléfono para los usuarios
             href: search-for-phone-numbers-for-users.md
           - name: Consultar una lista de números de teléfono de su organización
             href: see-a-list-of-phone-numbers-in-your-organization.md
-          - name: 'Asignar, cambiar o quitar un teléfono móvil de un usuario'
-            href: assign-change-or-remove-a-phone-number-for-a-user.md
-          - name: Obtener números de teléfono de servicio
-            href: getting-service-phone-numbers.md
-          - name: Transferir números de teléfono
+          - name: Tipos de números de teléfono que se usan para el plan de llamadas
             items:
-              - name: ¿Qué es un pedido de portabilidad?
-                href: phone-number-calling-plans/port-order-overview.md
-              - name: Transferir números de teléfono a Teams
-                href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
-              - name: Enviar una solicitud de portabilidad manualmente
-                href: phone-number-calling-plans/manually-submit-port-order.md
-              - name: ¿Cuál es el estado de mis solicitudes de portabilidad?
-                href: phone-number-calling-plans/port-order-status.md
-          - name: Cobertura y centros de tasa compatibles
-            href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+              - name: Información general
+                href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
+              - name: Obtener números de teléfono para los usuarios
+                href: getting-phone-numbers-for-your-users.md
+              - name: 'Asignar, cambiar o quitar un teléfono móvil de un usuario'
+                href: assign-change-or-remove-a-phone-number-for-a-user.md
+              - name: Obtenga los números de teléfono de servicio y del usuario.
+                href: getting-service-phone-numbers.md
+              - name: Transferir números de teléfono
+                items:
+                  - name: ¿Qué es un pedido de portabilidad?
+                    href: phone-number-calling-plans/port-order-overview.md
+                  - name: Transferir números de teléfono a Teams
+                    href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
+                  - name: Enviar una solicitud de portabilidad manualmente
+                    href: phone-number-calling-plans/manually-submit-port-order.md
+                  - name: ¿Cuál es el estado de mis solicitudes de portabilidad?
+                    href: phone-number-calling-plans/port-order-status.md
+              - name: Cobertura y centros de tasa compatibles
+                href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+          - name: Administrar números de teléfono para Conexión con operador
+            href: operator-connect-configure.md#set-up-phone-numbers
+          - name: Administrar números de teléfono para enrutamiento directo
+            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
       - name: Enrutamiento de voz
         items:
           - name: ¿Qué son los planes de marcado?
