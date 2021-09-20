@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Obtenga información sobre cómo administrar directivas de seminario web para Teams reuniones.
-ms.openlocfilehash: 1ab4f082a270e4d9b3107c0b6ffbb27bd7c70110
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 78c81e25d246dc450ffcd821d22148c330d38f23
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612979"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456320"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurar seminarios web en Microsoft Teams
 
@@ -73,7 +73,7 @@ Lea [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy
 
 ### <a name="allow-users-to-schedule-webinars"></a>Permitir a los usuarios programar seminarios web
 
-Puede restringir el registro solo a los usuarios de su organización o abrirlo a todos los usuarios, tanto dentro como fuera de su inquilino. De forma predeterminada, **WhoCanRegister** está habilitado y establecido en **Todos.** Si desea desactivar el registro de la reunión, establezca **AllowMeetingRegistration** en **False**.
+Puede restringir el registro solo a los usuarios de su organización o abrirlo a todos los usuarios, tanto dentro como fuera de su inquilino. De forma predeterminada, **WhoCanRegister** está habilitado y establecido en **Todos** para la **directiva global (predeterminada para** toda la organización). Si desea desactivar el registro de la reunión, establezca **AllowMeetingRegistration** en **False**.
 
 > [!IMPORTANT]
 > **AllowPrivateMeetingScheduling** debe establecerse en **True** para **que AllowMeetingRegistration** funcione. Además, Listas Microsoft debe configurarse en SharePoint. Para obtener más información, vea [Configuración de control para Listas Microsoft](/sharepoint/control-lists).

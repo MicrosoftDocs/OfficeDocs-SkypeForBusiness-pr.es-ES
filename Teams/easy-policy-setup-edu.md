@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el Teams para Educación de directivas de aprendizaje para aplicar fácilmente directivas a alumnos y profesores para mantener su entorno de aprendizaje seguro.
 f1keywords: ''
-ms.openlocfilehash: 54a5371ce0fe0aaca86f57d4004525e3fb9959d0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cafe6e9725f8b365601d3d9152187b546cf2205a
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733869"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456330"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Asistente Teams para Educación directivas para aplicar fácilmente directivas para un entorno de aprendizaje seguro
 
@@ -69,7 +69,7 @@ Ahora, empecemos.
 
 Siga estos pasos para ejecutar el asistente.
 
-1. Si no es nuevo en Teams, el asistente se iniciará automáticamente. En caso contrario, puede iniciar el asistente en cualquier momento desde el panel. En la navegación izquierda del centro de administración de Microsoft Teams, vaya a Panel y, **a** continuación, en el icono Configuración de directivas fácil para un entorno de aprendizaje seguro, seleccione **Configuración rápida.**
+1. Si no es nuevo en Teams, el asistente se iniciará automáticamente. En caso contrario, puede iniciar el asistente en cualquier momento desde el panel. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a Inicio y, **a** continuación, en el icono Configuración de directivas fácil para un entorno de aprendizaje seguro, seleccione **Configuración rápida.**
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de pantalla del asistente en el panel.":::
 
@@ -147,7 +147,7 @@ Pero compruebe el [Centro](https://admin.microsoft.com/AdminPortal/Home?#/Messag
 
 Si necesita realizar cambios después de ejecutar el asistente, puede volver a ejecutarlo y cambiar las selecciones.
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a Panel y, **a** continuación, en el icono Configuración de directivas fácil para un entorno de aprendizaje seguro, seleccione **Cambiar.**
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a Inicio **y,** **a** continuación, en el icono Configuración de directivas fácil para un entorno de aprendizaje seguro, seleccione **Cambiar.**
 2. Desde aquí, continúe por cada página del asistente para realizar los cambios. Puede cambiar el tipo de institución, el grupo de profesores y el personal al que desea asignar directivas, o ambos.
 
 En la tabla siguiente se resume lo que ocurre al realizar un cambio en el asistente.

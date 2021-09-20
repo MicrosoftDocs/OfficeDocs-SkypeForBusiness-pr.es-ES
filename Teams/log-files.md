@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudar con la supervisión y solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a39078371ffa30caab6ee43df90bc825c4c081a3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: a82b2e9fe2db41e0609b7483bded813eae29cf92
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235325"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456530"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Use archivos de registro para supervisar y solucionar problemas Microsoft Teams
 
@@ -46,16 +46,28 @@ Windows: Haga clic con el botón derecho en el icono Teams en la bandeja del sis
 
 Mac: seleccione el menú Ayuda y elija **Recopilar archivos de soporte técnico.**
 
+
 Los registros de depuración, escritorio y medios se recopilarán en una carpeta con el nombre Registro de diagnóstico de MSTeams. <local data and time> Esta carpeta se puede comprimir y compartir al abrir una solicitud de soporte técnico con el soporte técnico de Microsoft. La carpeta contendrá carpetas para escritorio, reunión (multimedia) y depuración (web). Puede recopilar los archivos con los siguientes métodos abreviados de teclado:
 
 Windows: Ctrl + Alt + Mayús + 1
 
 Mac: Opción + Comando + Mayús + 1
 
+
 El registro multimedia está desactivado de forma predeterminada. Para habilitar el registro multimedia, los usuarios deben activar la opción en Teams cliente. Vaya a **Configuración** General y seleccione Habilitar registro para diagnósticos de reuniones  >   **(requiere reiniciar Teams).** El Teams cliente debe reiniciarse para que comience el registro.
+
+Si se produce un problema con una reunión específica o un evento en directo, es útil tener la dirección URL asociada a la reunión. Esto proporciona información adicional para ayudar a identificar la reunión exacta o el evento en directo en los registros. Esta información se puede recopilar de cualquier participante para una reunión o del moderador o productor de un evento en directo. Esta dirección URL se puede capturar si mantiene el puntero sobre la dirección URL de combinación y elige **Copiar hipervínculo.**
 
 > [!NOTE]
 > Si el registro multimedia está habilitado, habrá archivos adicionales incluidos en la carpeta Reunión que son necesarios para investigar problemas de audio y vídeo. Si el registro multimedia no está habilitado, habrá un número limitado de registros disponibles.
+  
+> [!NOTE]
+> Los registros de depuración se recopilaban previamente con los métodos abreviados de teclado siguientes. Estos siguen funcionando y completarán la misma captura de registro que la **opción Recopilar archivos de** soporte técnico.
+
+> Windows: Crtl + Alt + Mayús + 1
+
+> Mac: Opción + Comando + Mayús + 1
+
 
 En la tabla siguiente se describen los distintos clientes y sus registros asociados. Los archivos de registro se almacenan en ubicaciones específicas del cliente y del sistema operativo.
 

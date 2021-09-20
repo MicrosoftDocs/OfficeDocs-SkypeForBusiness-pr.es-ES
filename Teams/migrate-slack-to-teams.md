@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Instrucciones detalladas para migrar de Slack a Microsoft Teams.
-ms.openlocfilehash: 508224759ccfe741a4d7c6810a3edb4748f9cfa7
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 9342c7e251cc7466df0d70e8cb699d7e514455b4
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432642"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456360"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migración de Slack a Microsoft Teams
 
@@ -157,8 +157,6 @@ foreach ($slackUser in $users) {
     $output.Add($user)
 }
 
-$output | Export-Csv -Path .\SlackToAzureADIdentityMapping.csv -NoTypeInformation
-Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exiting..."
 $output | Export-Csv -Path .\SlackToAzureADIdentityMapping.csv -NoTypeInformation
 Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exiting..."
 ```

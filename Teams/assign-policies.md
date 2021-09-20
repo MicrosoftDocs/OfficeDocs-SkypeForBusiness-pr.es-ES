@@ -18,12 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar directi
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 858a28843fc883712ab12b868eca505069e5ab4f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ed0ed4b03d6472a646cd19897b33a22b2fc4df06
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727889"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456370"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Asignar directivas a los usuarios de Microsoft Teams
 
@@ -136,7 +136,7 @@ También puede hacer lo siguiente:
 
 ### <a name="use-powershell"></a>Usar PowerShell
 
-Cada tipo de directiva tiene su propio conjunto de cmdlets para administrarlo. Use el ```Grant-``` cmdlet de un tipo de directiva determinado para asignar la directiva. Por ejemplo, use el ```Grant-CsTeamsMeetingPolicy``` cmdlet para asignar una Teams de reunión a los usuarios. Estos cmdlets se incluyen en el módulo Teams PowerShell y se documentan en la referencia Skype Empresarial [cmdlet.](/powershell/skype/intro?view=skype-ps)
+Cada tipo de directiva tiene su propio conjunto de cmdlets para administrarlo. Use el `Grant-` cmdlet de un tipo de directiva determinado para asignar la directiva. Por ejemplo, use el `Grant-CsTeamsMeetingPolicy` cmdlet para asignar una Teams de reunión a los usuarios. Estos cmdlets se incluyen en el módulo Teams PowerShell y se documentan en la referencia Skype Empresarial [cmdlet.](/powershell/skype/intro?view=skype-ps&preserve-view=true)
 
 Descargue e instale la Teams pública de [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (si aún no lo ha hecho) y, a continuación, ejecute lo siguiente para conectarse.
 
@@ -308,7 +308,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 Este es un ejemplo de cómo cambiar la directiva eficaz para un usuario al que se le asigna directamente una directiva.
 
-En primer lugar, usamos el cmdlet [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) junto con el parámetro para obtener detalles de las directivas de difusión de reunión de Teams asociadas `PolicySource` con el usuario.
+En primer lugar, usamos el cmdlet [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) junto con el parámetro para obtener detalles de las directivas de difusión de reunión de Teams asociadas ```PolicySource``` con el usuario.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -394,7 +394,7 @@ Cuando se le solicite, inicie sesión con las mismas credenciales de administrad
 
 #### <a name="assign-a-setup-policy-to-a-batch-of-users"></a>Asignar una directiva de configuración a un lote de usuarios
 
-En este ejemplo, usamos el cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para asignar una directiva de configuración de aplicaciones denominada Directiva de configuración de aplicaciones de HR a un lote de usuarios que aparecen en el archivo Users_ids.txt aplicación.
+En este ejemplo, usamos el cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para asignar una directiva de configuración de aplicaciones denominada Directiva de configuración de aplicaciones de HR a un lote de usuarios que aparecen en el archivo Users_ids.text.
 
 ```powershell
 $users_ids = Get-Content .\users_ids.txt
@@ -461,6 +461,11 @@ Al asignar el paquete de directiva, se asigna inmediatamente al grupo. Sin embar
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Asignar un paquete de directiva a un grupo de usuarios en el centro de administración
 
 1. Inicie la sesión en el Centro de administración de Teams
+2. En el panel de navegación izquierdo, vaya a la página del paquete de directivas.
+3. Seleccione la pestaña Tarea de paquetes de grupo.
+4. Seleccione **Agregar grupo** y, a continuación, en el panel Asignar un paquete de directiva al grupo, haga lo siguiente:
+
+   - Busque y agregue el grupo al que desea asignar el paquete de directiva.
 
 2. En el panel de navegación izquierdo, vaya a la página del paquete de directivas.
 

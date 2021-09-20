@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f41f1caf5956134c46ad16fceca41843e5edb9de
-ms.sourcegitcommit: 5712b5583f9b6e151f00f003a8fbea7ead07b09c
+ms.openlocfilehash: 6d8f04eebbd1123bf753c221e49a2b523d91ff43
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58941837"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456400"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
 > [!NOTE]
-> El cambio de almacenamiento Teams las grabaciones de reuniones de Classic Stream a OneDrive y SharePoint (ODSP) se ha completado el 30 de agosto de 2020. Todas las grabaciones se almacenan ahora en ODSP. Este cambio reemplaza la directiva RecordingStorageMode y modificar la configuración en PowerShell ya no tiene ningún impacto.
+> El cambio de almacenamiento de Teams las grabaciones de reuniones clásicas a OneDrive y SharePoint (ODSP) se completó el 30 de agosto de 2021. Todas las grabaciones se almacenan ahora en ODSP. Este cambio reemplaza la directiva RecordingStorageMode y modificar la configuración en PowerShell ya no tiene ningún impacto.
 
 |Fecha&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Evento&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

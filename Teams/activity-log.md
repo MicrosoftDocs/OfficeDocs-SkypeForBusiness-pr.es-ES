@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58df214ec15153abcee4275f42c6ae6208b5d4b1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5735d69d45785e63cefbbea646a1780dc3aa4ecf
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731249"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456500"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Ver las asignaciones de directivas en el registro de actividades
 
@@ -35,7 +35,7 @@ Al asignar directivas a usuarios en el centro de administración de Microsoft Te
 
 Para ver las asignaciones de directivas en el registro de actividades:
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Panel y, a continuación, en Registro de actividades, seleccione Ver **detalles.**
+1. En la navegación izquierda del centro de Microsoft Teams, vaya a Inicio **y,** a continuación, en Registro de actividades, seleccione Ver **detalles.**
 2. Puede ver todas las asignaciones de directivas o filtrar la lista por estado para mostrar solo las tareas no iniciadas, en curso **o** **completadas.** Verá la siguiente información sobre cada tarea:
     - **Nombre:** el nombre de la asignación de directivas. Haga clic en el vínculo para ver más detalles. Esto incluye el número de usuarios a los que se asignó la directiva y el número de tareas completadas, en curso y no iniciadas. También verá la lista de usuarios en el lote, así como el estado y el resultado de cada usuario. Aquí se muestra un ejemplo:
 
