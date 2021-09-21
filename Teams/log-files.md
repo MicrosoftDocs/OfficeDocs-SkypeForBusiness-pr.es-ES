@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudar con la supervisión y solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a82b2e9fe2db41e0609b7483bded813eae29cf92
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 8f29271485024445d3494c0b2ee7213253bd64ca
+ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456530"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460649"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Use archivos de registro para supervisar y solucionar problemas Microsoft Teams
 
@@ -46,8 +46,7 @@ Windows: Haga clic con el botón derecho en el icono Teams en la bandeja del sis
 
 Mac: seleccione el menú Ayuda y elija **Recopilar archivos de soporte técnico.**
 
-
-Los registros de depuración, escritorio y medios se recopilarán en una carpeta con el nombre Registro de diagnóstico de MSTeams. <local data and time> Esta carpeta se puede comprimir y compartir al abrir una solicitud de soporte técnico con el soporte técnico de Microsoft. La carpeta contendrá carpetas para escritorio, reunión (multimedia) y depuración (web). Puede recopilar los archivos con los siguientes métodos abreviados de teclado:
+Los registros de depuración, escritorio y medios se recopilarán en una carpeta con el nombre Registro de diagnóstico _de MSTeams. \<local data and time\>_ Esta carpeta se puede comprimir y compartir al abrir una solicitud de soporte técnico con el soporte técnico de Microsoft. La carpeta contendrá carpetas para escritorio, reunión (multimedia) y depuración (web). Puede recopilar los archivos con los siguientes métodos abreviados de teclado:
 
 Windows: Ctrl + Alt + Mayús + 1
 

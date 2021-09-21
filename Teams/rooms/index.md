@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Obtenga información sobre cómo configurar Salas de Microsoft Teams, incluida la planificación, implementación y administración del sistema para crear su sala de reuniones virtual ideal.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: beaae12c62ca39315275df58e4c95b5163a10843
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: cb360bbecb36b8ec10324d05722456cf6bf5636b
+ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432292"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460659"
 ---
 # <a name="microsoft-teams-rooms"></a>Salas de Microsoft Teams
 
@@ -40,7 +40,9 @@ ms.locfileid: "59432292"
     :::column-end:::
 :::row-end:::
 
-|    <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
+<!-- The following three links to icon images work with site-relative URLs when published on docs.microsoft.com. -->
+
+|    <img src="/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
 | ------------- | ------------- | ------------- |
 |  **[Plan](./rooms-plan.md)** |  **[Implementación](./rooms-deploy.md)** |  **[Manage](./rooms-manage.md)** |
 
