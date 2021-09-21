@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c2214b13eacbb58d3c8b3fff3b544afcba009b6
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: b02bd27f15b6db4fed2835513d043c7f6561a681
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432662"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456540"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -75,11 +75,11 @@ Si tiene alguna pregunta sobre el programa de certificación de CLS para Enrutam
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Compatible con 3.20 (recomendado 4.0)        |  &#10004;    |  &#10004;   |
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     SBC Perimeta        |     &#10004;   | &#10004; |      4.7 (4.9 para omisión de medios)      | &#10004; | &#10004; |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Elemento de borde unificado de Cisco (CUBE) para enrutadores de servicios integrados de la serie 1000        |     &#10004;   | &#10004; |      IOS XE Ámsterdam 17.2.1r compatible (recomendado 17.3.2)         |    &#10004;     |   |  
-|                                   |     Elemento de borde unificado de Cisco (CUBE) para enrutadores de servicios integrados de la serie 4000        |     &#10004;   | &#10004; |   IOS XE Ámsterdam 17.2.1r compatible (recomendado 17.3.2)         |   &#10004;      |    |  
-|                                   |     Elemento de borde unificado de Cisco (CUBE) para enrutador de servicios en la nube serie 1000V       |     &#10004;   | &#10004; |      IOS XE Ámsterdam 17.2.1r compatible (recomendado 17.3.2)         |    &#10004;     |    |  
-|                                 |     Elemento de borde unificado de Cisco (CUBE) para enrutadores de servicios de agregación de la serie 1000      |     &#10004;   | &#10004; |      IOS XE Ámsterdam 17.2.1r compatible (recomendado 17.3.2)         |    &#10004;     |    |
-|                                 |     Elemento de borde unificado de Cisco (CUBE) para plataformas perimetrales de Catalyst 8000      |     &#10004;   | &#10004; |      IOS XE Ámsterdam 17.3.2      |    &#10004;     |    |
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Elemento de borde unificado de Cisco (CUBE) para enrutadores de servicios integrados de la serie 1000        |     &#10004;   | &#10004; |      IOS XE Ámsterdam 17.2.1r compatible (recomendado 17.6.1a)         |    &#10004;     |   |  
+|                                   |     Elemento de borde unificado de Cisco (CUBE) para enrutadores de servicios integrados de la serie 4000        |     &#10004;   | &#10004; |   IOS XE Ámsterdam 17.2.1r compatible (recomendado 17.6.1a)         |   &#10004;      |    |  
+|                                   |     Elemento de borde unificado de Cisco (CUBE) para enrutador de servicios en la nube serie 1000V       |     &#10004;   | &#10004; |      IOS XE Ámsterdam 17.2.1r compatible (recomendado 17.3.3)         |    &#10004;     |    |  
+|                                 |     Elemento de borde unificado de Cisco (CUBE) para enrutadores de servicios de agregación de la serie 1000      |     &#10004;   | &#10004; |      IOS XE Ámsterdam 17.2.1r compatible (recomendado 17.6.1a)         |    &#10004;     |    |
+|                                 |     Elemento de borde unificado de Cisco (CUBE) para plataformas perimetrales de Catalyst 8000      |     &#10004;   | &#10004; |      IOS XE Ámsterdam 17.3.2 compatible (recomendado 17.6.1a)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de límites de sesión de Avaya para empresas (ASBCE)    |     &#10004;     |       &#10004;     |       Versión 8.1.1 (8.1.2 para omisión de medios)      |     |    |
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de límites de sesión Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    Controlador de límites de sesión Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |

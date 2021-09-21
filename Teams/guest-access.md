@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales.
-ms.openlocfilehash: 83ad01ef738cc8e68d0cfdf41ea082493eb7c7b1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa14fc3a59d893b152f96d31a20c46119f8a71f9
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603399"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456340"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 
@@ -53,7 +53,7 @@ El acceso de invitado en Teams requiere que se establezcan otras opciones de con
 - Para configurar el acceso de invitado para Microsoft Teams para un uso general, consulte [Colaborar con invitados en un equipo](/microsoft-365/solutions/collaborate-as-team).
 - Para colaborar con una organización asociada que usa Azure Active Directory y permitir que los invitados se inscriban a sí mismos para tener acceso al equipo, consulte [Crear una extranet de B2B con invitados administrados](/microsoft-365/solutions/b2b-extranet).
 
-El acceso de invitado en Microsoft Teams es una configuración a nivel de toda la organización y está desactivada de forma predeterminada. Puede controlar el acceso de invitado a equipos individuales mediante [etiquetas de confidencialidad](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+El acceso de invitado en Teams es una configuración a nivel de toda la organización que está activada de forma predeterminada. Puede controlar el acceso de invitado a equipos individuales mediante [etiquetas de confidencialidad](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 ### <a name="turning-guest-access-off"></a>Desactivar el acceso de invitado
 
