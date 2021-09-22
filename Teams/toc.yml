@@ -755,6 +755,8 @@ items:
         items:
           - name: Información general
             href: rooms/index.md
+          - name: Guía de la sala de reuniones de Teams
+            href: teams-meeting-room-guidance.md
           - name: Servicio administrado de Salas de Microsoft Teams
             items:
               - name: Planeación de la administración
@@ -1608,8 +1610,6 @@ items:
             href: sharepoint-onedrive-interact.md
       - name: Dispositivos de Teams para el ámbito educativo
         href: devices-for-education.md
-      - name: Guía de la sala de reuniones de Teams
-        href: teams-meeting-room-guidance.md
       - name: Dispositivos admitidos
         items:
           - name: Administrar los dispositivos en Teams
