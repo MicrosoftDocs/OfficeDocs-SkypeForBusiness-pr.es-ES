@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre Teléfono Microsoft system direct routing le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Teléfono Microsoft system.
-ms.openlocfilehash: 1239445effd958b97e9f50d4be9ed686ed594685
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 546a26422ff4f907f88c3a47808ff0f9ea546d00
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728899"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482414"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -235,12 +235,6 @@ Los FQDN (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com y sip3.pstnhub.m
 - 52.120.0.0/14
 
 Debe abrir puertos para todos estos intervalos de direcciones IP en el firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si el firewall admite nombres DNS, el FQDN **sip-all.pstnhub.microsoft.com** se resuelve en todas estas subredes IP. 
-
-> [!IMPORTANT]
-> Como parte de Teams expansión y mejora del servicio de enrutamiento directo, hemos implementado nuevas instancias de infraestructura de enrutamiento directo en Australia en noviembre de 2020. Esto se refleja en dos direcciones IP adicionales (52.114.16.74 y 52.114.20.29) a las que se resolverán los siguientes FQDN para los clientes australianos: sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com y sip3.pstnhub.microsoft.com. Debe asegurarse de que estas dos direcciones IP (52.114.16.74 y 52.114.20.29) están permitidas en las listas de control de acceso IP (ACL) y los puertos están abiertos para todas estas direcciones IP del firewall para permitir el tráfico entrante y saliente a y desde las direcciones para la señalización.
-
-> [!IMPORTANT]
-> Como parte de Teams expansión y mejora del servicio de enrutamiento directo, hemos implementado nuevas instancias de infraestructura de enrutamiento directo en Japón en mayo de 2021. Esto se refleja en dos direcciones IP adicionales (52.114.36.156 y 52.114.32.169) a las que se resolverán los siguientes FQDN para los clientes japoneses: sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com y sip3.pstnhub.microsoft.com. Debe asegurarse de que estas dos direcciones IP (52.114.36.156 y 52.114.32.169) están permitidas en las listas de control de acceso IP (ACL) y los puertos están abiertos para todas estas direcciones IP del firewall para permitir el tráfico entrante y saliente a y desde las direcciones para la señalización.
 
 ### <a name="office-gcc-dod-environment"></a>Office GCC doD
 

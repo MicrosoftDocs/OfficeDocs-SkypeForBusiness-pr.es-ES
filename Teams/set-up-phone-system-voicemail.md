@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar Correo de voz en la nube para los usuarios. '
-ms.openlocfilehash: c9e073a61501143c478d78b9184602f4eebe9264
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 37cf89d4c728cab491d0312762a2c845bb711dcd
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590734"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482424"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar el Correo de voz en la nube
 
@@ -61,6 +61,7 @@ Cuando alguien deja un mensaje de correo de voz para un usuario de su organizaci
 
 Para obtener más información sobre el cifrado de mensajes, vea [Cifrado de correo electrónico.](/microsoft-365/compliance/email-encryption?view=o365-worldwide)
 
+
 Para configurar el correo de voz protegido, haga lo siguiente:
 
 1. Vaya a https://admin.microsoft.com e inicie sesión con una cuenta con permisos de administrador global.
@@ -74,6 +75,9 @@ Para configurar el correo de voz protegido, haga lo siguiente:
     > - [Configurar nuevas funcionalidades de cifrado de mensajes](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
     > - [Configurar y administrar plantillas para Azure Information Protection](/information-protection/deploy-use/configure-policy-templates)
     > - [Opción No reenviar para correos electrónicos](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
+
+    > [!NOTE]
+    > Debe establecer la siguiente clave del Registro para usuarios, empresas y organizaciones que quieran que aparezca el formulario Correo de voz: [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins] "AllowVoicemailForm"=dword:00000001                           
 
 ## <a name="help-your-users-learn-teams-voicemail-features"></a>Ayudar a los usuarios a aprender Teams de correo de voz
 
