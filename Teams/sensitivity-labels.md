@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar etiquetas de confidencialidad para proteger los equipos en Microsoft Teams.
-ms.openlocfilehash: 5337f623a8535a840f1eead45c53506fb8f3fee7
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 135049e80d6a8c0e008886ca924cca64b5943695
+ms.sourcegitcommit: 9fd9cfe3683503f3c35ad5591324396e2532caef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935846"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59496697"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Etiquetas de confidencialidad para Microsoft Teams
 
@@ -30,13 +30,13 @@ ms.locfileid: "58935846"
 
 Actualmente, las etiquetas de confidencialidad no son compatibles en los equipos de clase para los clientes que usan Teams SKU de educación. Para obtener más información sobre las licencias, [vea Microsoft Teams descripción del servicio](/office365/servicedescriptions/teams-service-description).
 
-## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>¿Cuál es la diferencia entre las etiquetas de confidencialidad Teams etiquetas de clasificación?
+## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification"></a>¿Cuál es la diferencia entre las etiquetas de confidencialidad y Teams clasificación?
 
-Las etiquetas de confidencialidad son diferentes de las etiquetas de clasificación, también conocidas como clasificación de grupo de Azure AD. Las etiquetas de clasificación son cadenas de texto que se pueden asociar a un grupo Microsoft 365 pero que no tienen ninguna directiva real asociada. Use etiquetas de clasificación como metadatos y, a continuación, debe usar otros métodos, como herramientas internas y scripts, para aplicar directivas.
+Las etiquetas de confidencialidad son diferentes de Teams clasificación, también conocida como clasificación de grupo de Azure AD. Las clasificaciones son cadenas de texto que se pueden asociar a un grupo Microsoft 365 pero que no tienen ninguna directiva real asociada. Use la clasificación como metadatos y, a continuación, debe usar otros métodos, como herramientas internas y scripts, para aplicar directivas.
 
 La ventaja de usar etiquetas de confidencialidad es que sus directivas se aplican automáticamente de un extremo a otro a través de una combinación de la plataforma grupos de Microsoft 365, el centro de cumplimiento y Teams servicios. Las etiquetas de confidencialidad proporcionan un soporte de infraestructura eficaz para proteger los datos confidenciales de su organización y garantizar el cumplimiento de sus directivas internas o normativas.
 
-Si actualmente usa etiquetas de clasificación, consulte la documentación siguiente para obtener más información e instrucciones sobre cómo migrarlas a etiquetas de confidencialidad: clasificación de grupo clásica [de Azure AD.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)
+Si actualmente usa Teams clasificación, consulte la documentación siguiente para obtener más información e instrucciones sobre cómo convertir estos valores en etiquetas de confidencialidad: clasificación de grupo clásica [de Azure AD.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>Escenarios de ejemplo para etiquetas de confidencialidad
 
@@ -59,10 +59,7 @@ De forma similar, cree y publique una etiqueta de confidencialidad denominada "G
 
 ![Captura de pantalla de etiqueta de confidencialidad general.](media/sensitivity-labels-general-example.png)
 
-Cuando se crea el equipo, la etiqueta de confidencialidad está visible en la esquina superior derecha de los canales del equipo. 
-
-> [!NOTE]
-> Si usa etiquetas jerárquicas de elementos primarios y secundarios como "Confidencial\Finanzas", solo se mostrará la etiqueta principal en el encabezado del canal.
+Cuando se crea el equipo, la etiqueta de confidencialidad es visible para los usuarios en la esquina superior derecha de los canales del equipo. 
 
 ![Captura de pantalla de la etiqueta de confidencialidad en el canal de grupo.](media/sensitivity-labels-channel.png)
 
@@ -83,10 +80,6 @@ Las etiquetas de confidencialidad también  están visibles en las propiedades d
 ## <a name="limitations"></a>Limitaciones
 
 Antes de usar etiquetas de Teams, tenga en cuenta las siguientes limitaciones:
-
-- **Los nombres de etiquetas primarias no se muestran para etiquetas subatiquetas**
-    
-    Teams admite subetiquetas, pero no muestra el nombre de la etiqueta principal. Por ejemplo, **Confidencial** \\ **Todos los empleados** se muestra **como Todos los empleados.**
 
 - **Las etiquetas de confidencialidad no son compatibles Teams Graph API, cmdlets de PowerShell y plantillas**
     

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Vea cómo buscar números de teléfono que puede asignar a los usuarios, por país o región y ciudad, y especifique la cantidad de números que necesita.
-ms.openlocfilehash: fc7edf9c31f0b934bb2e1dea2fb44437b8092c59
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: cb4bcac5a79f782e87ce53eb9cb93f8a024260bf
+ms.sourcegitcommit: 9fd9cfe3683503f3c35ad5591324396e2532caef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432252"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59496687"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>Buscar números de teléfono para usuarios
 
@@ -65,7 +65,7 @@ Para buscar números de teléfono para los usuarios:
 8. En la **página Obtener números,** seleccione los números de teléfono que desee, haga clic **en Adquirir números** y, a continuación, haga clic en **Siguiente.**
 
     > [!IMPORTANT]
-    > Puede adquirir más números de teléfono de los que tiene licencias de Microsoft. Para determinar cuántos números de teléfono puede adquirir, tome su número de licencias de Microsoft Calling Plan, agregue el 10 por ciento del número de licencias, agregue 10 y, a continuación, quite las muchas que ya haya adquirido. Por ejemplo, si tiene 100 licencias del **Plan** de llamadas nacionales de Microsot o del **Plan** de llamadas internacionales de Microsoft, puede reservar 120 números de teléfono, suponiendo que aún no ha adquirido algunos números de teléfono para esos 100 usuarios. Para obtener más información, consulte [¿Cuántos números de teléfono puede obtener?](./how-many-phone-numbers-can-you-get.md)
+    > Puede adquirir más números de teléfono de los que tiene licencias de Microsoft. Para determinar cuántos números de teléfono puede adquirir, tome su número de licencias de Microsoft Calling Plan, agregue el 10 por ciento del número de licencias, agregue 10 y, a continuación, quite las muchas que ya haya adquirido. Por ejemplo, si tiene 100 licencias de **Microsoft Domestic Calling Plan** o Microsoft International Calling **Plan,** puede reservar 120 números de teléfono, suponiendo que aún no ha adquirido algunos números de teléfono para esos 100 usuarios. Para obtener más información, consulte [¿Cuántos números de teléfono puede obtener?](./how-many-phone-numbers-can-you-get.md)
 
 9. En la **página Confirmación,** compruebe las opciones y, a continuación, haga clic **en Realizar pedido.**
 

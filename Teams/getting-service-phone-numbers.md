@@ -22,16 +22,14 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo obtener nuevos números de teléfono y portabilidad o transferir números existentes para audioconferencias, operadores automáticos y colas de llamadas (números de servicio) para Teams.
-ms.openlocfilehash: 6a065c5661fc4b0a716d2aab31687e20645473fb
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: abb313a169c3f9b3626e219f64810e6333e6147b
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432502"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491730"
 ---
-# <a name="srvice-phone-numbers-for-calling-plans"></a>Números de teléfono de Srvice para planes de llamadas
-
-**NOTA PARA LOS REVISORES: ESTO PARECE ESPECÍFICO PARA LOS PLANES DE LLAMADAS. ¿DEBO MOVERLO EN EL NODO PLANES DE LLAMADAS?**
+# <a name="service-phone-numbers-for-calling-plans"></a>Números de teléfono de servicio para planes de llamadas
 
 Además de obtener números de teléfono para los [usuarios,](./getting-phone-numbers-for-your-users.md)puede obtener números de teléfono gratuitos o de pago para servicios como Audioconferencia (para puentes de conferencia), Operadores automáticos y Colas de llamadas (también denominados números de servicio). Los números de teléfono de servicio tienen una mayor capacidad de llamadas simultáneas que los números de teléfono de usuario o suscriptor. Por ejemplo, un número de servicio puede controlar cientos de llamadas simultáneamente, mientras que el número de teléfono de un usuario solo puede controlar algunas llamadas simultáneamente.
   

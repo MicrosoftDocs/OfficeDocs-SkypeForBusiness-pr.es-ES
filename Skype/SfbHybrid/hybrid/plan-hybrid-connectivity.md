@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Planee implementar la conectividad híbrida entre Skype Empresarial Server y Teams mediante la configuración Skype Empresarial modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: ede3c000bf46cc5b3e1e2a181da2adc6dda93855
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 40d89076973e4667c41676684841e8c35c356396
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482404"
+ms.locfileid: "59491720"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planear la conectividad híbrida entre Skype Empresarial Server y Teams
 
@@ -64,7 +64,7 @@ Los modos de coexistencia siguen existiendo después de la retirada de Skype Emp
 
 > [!Important]
 > - Las organizaciones híbridas existentes con usuarios que se encuentran en Skype Empresarial Online que no son TeamsOnly deben centrarse en actualizar estos usuarios al modo Teams solo lo antes posible. Si su organización todavía tiene usuarios en Skype Empresarial Online que no son TeamsOnly, es posible que se programe una actualización asistido por Microsoft para realizar la transición de estos usuarios a TeamsOnly. Esto no afectará a los usuarios que se encuentran en Skype Empresarial Server local. Las notificaciones de programación se enviarán por adelantado a clientes híbridos con usuarios que se encuentran en Skype Empresarial Online antes de que estos usuarios que no sean de TeamsOnly se actualicen a Teams.
-> - Pronto ya no será posible asignar un modo distinto de TeamsOnly a un usuario que esté en línea.
+> - Ya no es posible asignar un modo distinto de TeamsOnly a un usuario que esté conectado.
 
 ## <a name="about-shared-sip-address-space-functionality"></a>Acerca de la funcionalidad de espacio de direcciones SIP compartido
 

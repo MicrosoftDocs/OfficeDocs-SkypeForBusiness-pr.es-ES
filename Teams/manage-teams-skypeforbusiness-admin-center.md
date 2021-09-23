@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: ''
-search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: Obtenga información sobre cómo administrar la configuración de usuario y todo el espacio empresarial para Teams durante la transición de Teams en el Centro de administración de Microsoft 365 al nuevo centro de administración de Teams inquilino.
 ms.localizationpriority: medium
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 32e863b244453599bed9c71fc2dede4df14ff1a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 727aa58f3e7a91336355730ce5f0a552ea09fdc9
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615336"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491740"
 ---
 # <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
 
