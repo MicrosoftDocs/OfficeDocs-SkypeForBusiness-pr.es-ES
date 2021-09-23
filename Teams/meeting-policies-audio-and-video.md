@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams para audio y vídeo.
-ms.openlocfilehash: 9b7c2fd2ac98237383b8aaa1dff8fa764c6df2be
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 7dcd3f73d29dcbe635793d4a67db602b8e4c8a1c
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973038"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482394"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configuración de directiva de reunión para audio & vídeo
 
@@ -149,16 +149,16 @@ Para las reuniones que necesitan una experiencia de vídeo de mayor calidad, com
 
 Esta configuración se aplica por participante. Esta configuración controla si los usuarios pueden personalizar su fondo de vídeo en una reunión.
 
-Actualmente, solo puede usar PowerShell para establecer esta directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
+Puede usar tanto el centro Teams administración como PowerShell para establecer esta directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
 
-Para especificar si los usuarios pueden personalizar su fondo de vídeo en una reunión, establezca el parámetro **VideoFiltersMode** como se indica a continuación:
+Para especificar si los usuarios pueden personalizar su fondo de vídeo en una reunión, establezca el parámetro **VideoFiltersMode** **(configuración** Seleccionar filtros de vídeo en Teams centro de administración) de la siguiente manera:
 
-|Establecer valor en PowerShell |Comportamiento  |
-|---------|---------|
-|**NoFilters**     |El usuario no puede personalizar su fondo de vídeo.|
-|**BlurOnly**     |El usuario tiene la opción de difuminar el fondo de vídeo. |
-|**BlurandDefaultBackgrounds**     |El usuario tiene la opción de difuminar su fondo de vídeo o elegir un conjunto de imágenes predeterminado para usarlo como fondo. |
-|**AllFilters**     |El usuario tiene la opción de difuminar su fondo de vídeo, elegir entre un conjunto de imágenes predeterminado o cargar una imagen personalizada para usarla como fondo. |
+|Establecer valor en PowerShell|Valor de configuración en Teams de administración |Comportamiento  |
+|---------|---------|---------|
+|**NoFilters** |**Sin filtro**    |El usuario no puede personalizar su fondo de vídeo.|
+|**BlurOnly**     |**Solo desenfoque de fondo**|El usuario tiene la opción de difuminar el fondo de vídeo. |
+|**BlurandDefaultBackgrounds**|**Desenfoque de fondo e imágenes predeterminadas**     |El usuario tiene la opción de difuminar su fondo de vídeo o elegir un conjunto de imágenes predeterminado para usarlo como fondo. |
+|**AllFilters**|**Todos los filtros**     |El usuario tiene la opción de difuminar su fondo de vídeo, elegir entre un conjunto de imágenes predeterminado o cargar una imagen personalizada para usarla como fondo. |
 
 > [!NOTE]
 > Teams no puede filtrar las imágenes cargadas por los usuarios. Al usar la configuración **AllFilters**, debe tener directivas de organización internas para evitar que los usuarios puedan cargar imágenes ofensivas, inadecuadas, o para las cuales la organización no tenga derechos de uso en el contexto de fondos para reuniones de Teams.

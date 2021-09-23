@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudar con la supervisión y solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f29271485024445d3494c0b2ee7213253bd64ca
-ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
+ms.openlocfilehash: 04fe77022a6a74084fce2396a3cba53fb1487dea
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460649"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482384"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Use archivos de registro para supervisar y solucionar problemas Microsoft Teams
 
@@ -94,9 +94,11 @@ Los registros de depuración muestran los siguientes flujos de datos:
 
 -   Llamada/conversación
 
-Para recopilar registros para Linux: Método abreviado de teclado: Ctrl + Alt + Mayús + 1 Los archivos estarán disponibles en ~/Descargas
+Para recopilar registros para Linux: Método abreviado de teclado: Ctrl + Alt + Mayús + 1  
+      Los archivos estarán disponibles en ~/Descargas
 
-Para recopilar registros para el explorador: Método abreviado de teclado: Ctrl + Alt + Mayús + 1 Los archivos estarán disponibles en %userprofile%\Downloads
+Para recopilar registros para el explorador y Windows: Método abreviado de teclado: Ctrl + Alt + Mayús + 1  
+      Los archivos estarán disponibles en %userprofile%\Downloads
 
 ## <a name="media-logs"></a>Registros de medios
 
@@ -106,7 +108,11 @@ El registro multimedia está desactivado de forma predeterminada. Para registrar
 
 Cuando envíe los archivos de registro al soporte técnico de Microsoft, compruebe la marca de tiempo de los archivos de registro para asegurarse de que los registros cubren el período de tiempo cuando reproduzca el problema.
 
-Para recopilar registros para Linux: los archivos estarán disponibles en ~/.config/Microsoft/Microsoft Teams/media-stack/ .blog y *~/.config/Microsoft/Microsoft Teams/skylib/*.blog.
+Para recopilar registros para Linux:  
+Los archivos estarán disponibles en ~/.config/Microsoft/Microsoft Teams/media-stack/ blog y \* \. ~/.config/Microsoft/Microsoft Teams/skylib/ \* \. blog.
+
+Para recopilar registros para Windows:  
+Los archivos estarán disponibles en %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack \\ \* \. blog and %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib \\ \* \. blog.  
 
 Esta es una lista de los archivos de registro que se generan y la información que contienen.
 
@@ -123,7 +129,10 @@ Esta es una lista de los archivos de registro que se generan y la información q
 Consulte la _sección Recopilar y habilitar el registro_ para obtener Windows y Mac. Los registros de escritorio, también conocidos como registros de arranque, contienen datos de registro que se producen entre el cliente de escritorio y el explorador. Al igual que los registros multimedia, estos registros solo son necesarios si Microsoft lo solicita. Los registros están basados en texto y se pueden leer con cualquier editor basado en texto en un formato de arriba abajo.
 
 Para recopilar registros para Linux: Haga clic en el icono Microsoft Teams en la bandeja del sistema y seleccione **Obtener registros.**
-Los archivos estarán disponibles en ~/.config/Microsoft/Microsoft Teams/logs.txt.  
+Los archivos estarán disponibles en ~/.config/Microsoft/Microsoft Teams/logs.txt.
+  
+Para recopilar registros para Windows: Haga clic en el icono Microsoft Teams en la bandeja del sistema y seleccione **Obtener registros.**
+El logs.txt se abrirá automáticamente Bloc de notas archivo.    
 
 ## <a name="browser-trace"></a>Seguimiento del explorador
 
