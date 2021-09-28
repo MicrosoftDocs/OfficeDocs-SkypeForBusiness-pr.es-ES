@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d875108648ca8fe91d67c03b7c569c59048cfa43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 189b821e7238911190c4c72c07b863fc961f3074
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589724"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984615"
 ---
 # <a name="add-and-update-reporting-labels"></a>Agregar y actualizar etiquetas de informes
 
@@ -40,7 +40,7 @@ Los datos de etiquetas y ubicaciones de informe que proporciona son una única e
 
 **Para editar la tabla de subredes y ubicaciones**
 
-1. En el panel de navegación izquierdo del centro Microsoft Teams administración, haga clic en **Etiquetas**  >  **de informes de ubicaciones.**
+1. En el panel de navegación izquierdo del centro Microsoft Teams administración, haga clic **en Análisis & informes**  >  **etiquetas de informes.**
 2. Haga **clic Upload datos**.
 3. En el **Upload de** datos, haga clic en Seleccionar un archivo y, **a** continuación, busque y cargue el archivo editado .csv o .tsv.
 4. Haga **clic Upload**.

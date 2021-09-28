@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: En este artículo se proporciona información general sobre las características compatibles con Microsoft Teams paneles.
-ms.openlocfilehash: 5779d9e41cb7adb4a502e590c87babbb277cc33e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 217cd39499975668677c0ec452ce2dd299b464bf
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596244"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984591"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams paneles
 
@@ -56,7 +56,7 @@ Los requisitos de hardware, software y red para implementar dispositivos de pane
 
 ## <a name="license-requirement"></a>Requisito de licencia
 
-Para usar Teams paneles, [necesita Salas de Microsoft Teams licencia estándar.](../rooms/rooms-licensing.md)
+Para usar Teams paneles, necesita [Salas de Microsoft Teams Estándar licencia](../rooms/rooms-licensing.md).
 
 > [!Note]
 > Si ya tiene Salas de Microsoft Teams en el espacio de reunión donde va Teams paneles, no necesita una licencia adicional para usar Teams paneles.
@@ -105,11 +105,11 @@ La planificación de la configuración y la implementación abarca las siguiente
 
 Cada Teams de paneles requiere una Microsoft 365 de recursos de sala. Use las credenciales de la cuenta de recurso para iniciar sesión Microsoft Teams aplicación en el dispositivo de paneles.
 
-Para configurar una cuenta Microsoft 365 de recursos para Teams paneles, le recomendamos que compre una Salas de Microsoft Teams [licencia estándar.](#license-requirement) Para obtener información sobre cómo crear una cuenta de recursos y asignarle una licencia, vea Crear una cuenta de recursos [con el Centro de administración de Microsoft 365](resource-account-ui.md).
+Para configurar una cuenta Microsoft 365 de recursos para Teams paneles, le recomendamos que compre una [Salas de Microsoft Teams Estándar licencia.](#license-requirement) Para obtener información sobre cómo crear una cuenta de recursos y asignarle una licencia, vea Crear una cuenta de recursos [con el Centro de administración de Microsoft 365](resource-account-ui.md).
 
 > [!NOTE]
 >
->- Si ya tiene una cuenta de recursos de sala configurada para el espacio de reunión donde va a instalar paneles, use la misma cuenta de recursos de sala para iniciar sesión en el dispositivo de paneles. Sin embargo, asegúrese de que la cuenta de recursos de sala tiene asignada Salas de Microsoft Teams licencia estándar para usarla como cuenta de recursos de paneles.
+>- Si ya tiene una cuenta de recursos de sala configurada para el espacio de reunión donde va a instalar paneles, use la misma cuenta de recursos de sala para iniciar sesión en el dispositivo de paneles. Sin embargo, asegúrese de que la cuenta de recursos de sala tiene la Salas de Microsoft Teams Estándar licencia asignada para usarla como cuenta de recursos de paneles.
 >
 >- Si ya tiene una Salas de Microsoft Teams en el espacio de reunión donde va a instalar Teams paneles, no es necesario comprar una licencia independiente para implementar paneles. El administrador inicia sesión en el dispositivo de paneles con las mismas credenciales que el Salas de Microsoft Teams para el mismo espacio.
 >
@@ -125,7 +125,7 @@ Después de implementar paneles, debe probarlos. Compruebe que las [característ
 
 ## <a name="manage-teams-panels-in-your-organization"></a>Administrar Teams paneles de la organización
 
-Para administrar los dispositivos Teams paneles, en la navegación izquierda del centro de administración de Microsoft Teams, vaya a Dispositivos  >  **Teams paneles.** Desde aquí, puede cambiar el perfil de configuración del dispositivo, administrar actualizaciones, reiniciar dispositivos, agregar y quitar etiquetas de dispositivo y mucho más. Para obtener más información, vea [Administrar los dispositivos en Teams](device-management.md).
+Para administrar los dispositivos Teams paneles, en la navegación izquierda del centro de administración de Microsoft Teams, vaya Teams **Dispositivos** Teams  >  **paneles.** Desde aquí, puede cambiar el perfil de configuración del dispositivo, administrar actualizaciones, reiniciar dispositivos, agregar y quitar etiquetas de dispositivo y mucho más. Para obtener más información, vea [Administrar los dispositivos en Teams](device-management.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

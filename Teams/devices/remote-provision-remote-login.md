@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo aprovisionar e iniciar sesión de forma remota Teams dispositivos Android
-ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733319"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984745"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Aprovisionamiento remoto e inicio de sesión para Teams dispositivos Android
 
@@ -61,7 +61,7 @@ En la lista siguiente se muestran los requisitos de firmware del dispositivo And
 Complete los pasos siguientes para aprovisionar un nuevo dispositivo.
 
 1. Inicie la sesión en el Centro de administración de Teams
-2. Expandir **dispositivos**.
+2. Expandir **Teams dispositivos**.
 3. Seleccione **Aprovisionar nuevo dispositivo** en la **pestaña** Acciones.
 
 En la **ventana Aprovisionar nuevos dispositivos,** puede agregar la dirección MAC manualmente o cargar un archivo.

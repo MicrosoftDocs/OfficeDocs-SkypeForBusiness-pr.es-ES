@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo desarrollar y ejecutar operaciones y mantenimiento continuos para asegurarse de que sus Salas de Microsoft Teams están disponibles para los usuarios.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab88563b26faef5be188454126f3bb4df484fe4
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4ee508c923b3241be3ecf6b9fc3234f934153888
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733589"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984675"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Administrar Salas de Microsoft Teams
 
@@ -34,7 +34,7 @@ Con Microsoft Teams de administración, puede:
 - Revisar la actividad de reunión actual y pasada (por ejemplo, detalles sobre la calidad de las llamadas, el estado de la red y la conectividad, y el número de participantes)
 - Ver periféricos (como cámaras y proyectores) conectados a un dispositivo Microsoft Teams room
 
-Para administrar Salas de Teams dispositivos, abra [el Microsoft Teams de administración y](https://admin.teams.microsoft.com) vaya a **Dispositivos**  >  **Salas de Teams**.
+Para administrar Salas de Teams dispositivos, abra el Microsoft Teams [de administración y](https://admin.teams.microsoft.com) vaya a Teams **dispositivos**  >  **Salas de Teams**.
 
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="Salas de Teams de resumen en Teams de administración.":::
 
@@ -109,7 +109,7 @@ Si quita un dispositivo y sigue configurado con un nombre de usuario y una contr
 
 Para quitar uno o varios dispositivos, haga lo siguiente:
 
-1. Vaya a  >  **Dispositivos Salas de Teams** y seleccione los dispositivos que desea quitar.
+1. Ve a **Teams**  >  **dispositivos Salas de Teams** y selecciona los dispositivos que quieras quitar.
 1. Seleccione **Quitar**.
 
 ## <a name="download-device-logs"></a>Descargar registros de dispositivos
@@ -118,7 +118,7 @@ Puede descargar una copia de los archivos de registro de diagnóstico de un disp
 
 Para descargar registros desde un Salas de Teams en el equipo, haga lo siguiente:
 
-1. Vaya a **Dispositivos** Salas de Teams y seleccione el nombre del dispositivo desde el que  >   desea descargar registros.
+1. Vaya a **Teams dispositivos** Salas de Teams y seleccione el nombre del dispositivo desde el  >   que desea descargar registros.
 1. Seleccione **Descargar registros de dispositivos**. Los registros de dispositivos pueden tardar varios minutos en estar disponible.
 1. Seleccione la **pestaña** Historial y, a continuación, seleccione el vínculo archivo de registro en **Archivo de diagnóstico.** Un archivo zip que contiene los archivos de registro de diagnóstico del dispositivo se descargará en la carpeta descargas predeterminada del explorador.
 

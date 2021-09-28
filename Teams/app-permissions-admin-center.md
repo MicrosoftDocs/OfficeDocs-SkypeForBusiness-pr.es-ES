@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8a74e03b56b841fed8cce3558fad96fe5c8680
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 352091de241c37508b4a8bc05be550fa1b4664e5
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733355"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984605"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Ver permisos de aplicación y conceder consentimiento de administrador en el Microsoft Teams de administración
 
@@ -59,7 +59,7 @@ Para conceder el consentimiento de toda la organización a una aplicación, siga
 
 Después de aceptar los permisos, verá un  mensaje en Permisos para toda la organización en la página de detalles de la aplicación para que sepa que se ha concedido el consentimiento. Para ver detalles sobre los permisos de la aplicación, haga clic en el vínculo Azure Active Directory para ir **a** la página de la aplicación en el portal de Azure AD.
 
-:::image type="content" source="media/app-perm-admin-center-org-wide-accepted.png" alt-text="Captura de pantalla del mensaje que se muestra cuando se concede el consentimiento.":::
+:::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="Captura de pantalla del mensaje que se muestra cuando se concede el consentimiento.":::
 
 Si los usuarios de su organización pueden conceder consentimiento y si uno o varios usuarios han concedido el consentimiento a una aplicación en particular, también verá el mismo mensaje para que sepa que se ha concedido el consentimiento y el vínculo Azure Active Directory a la página de la aplicación en el portal de Azure AD.
 
@@ -80,7 +80,7 @@ Para ver los permisos de RSC para una aplicación, siga estos pasos:
 2. Busque la aplicación que desee, haga clic en el nombre de la aplicación para ir a la página de detalles de la aplicación y, a continuación, seleccione la **pestaña** Permisos.
 3. En Microsoft Graph permisos de consentimiento específico de recursos **(RSC),** revise los permisos de RSC solicitados por la aplicación.
 
-    :::image type="content" source="media/app-perm-admin-center-rsc.png" alt-text="Captura de pantalla de los permisos de RSC para una aplicación.":::
+    :::image type="content" source="media/app-perm-admin-center-rsc-new.png" alt-text="Captura de pantalla de los permisos de RSC para una aplicación.":::
 
 ## <a name="known-issues"></a>Problemas conocidos
 

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Actualizar Microsoft Teams teléfonos, paneles Teams y barras de colaboración de forma remota con el centro Teams administración
-ms.openlocfilehash: c35fc24be2456c4ee1583e7a073a7c4dcf8e7214
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 68abf87a0e7e84f3fe5b9e6d7e4f57db55c63450
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727469"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984735"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Actualizar Microsoft Teams dispositivos de forma remota
 
@@ -49,7 +49,7 @@ Las actualizaciones de firmware del dispositivo se aplican automáticamente. Pue
 Para elegir el comportamiento de actualización automática de los dispositivos, haga lo siguiente:
 
 1. Inicie sesión en Microsoft Teams de administración visitando https://admin.teams.microsoft.com .
-2. Navegue **por**  >  **teléfonos IP de dispositivos,** **barras de colaboración** o Teams **paneles.**
+2. Navegue **Teams dispositivos**  >  **IP o** barras de **colaboración** **o Teams paneles.**
 3. Seleccione uno o varios dispositivos y, a continuación, **seleccione Actualizar**.
 4. En **Actualización automática del firmware,** seleccione una de las siguientes opciones:
     - **Tan pronto como esté disponible** La segunda actualización de firmware del dispositivo más reciente se aplica el primer fin de semana después de que se publicó la última actualización.
@@ -66,7 +66,7 @@ Al actualizar uno o varios dispositivos con el Centro de administración, puede 
 Para actualizar manualmente los dispositivos remotos, haga lo siguiente:
 
 1. Inicie sesión en Microsoft Teams de administración visitando https://admin.teams.microsoft.com .
-2. Navegue **por**  >  **teléfonos IP de dispositivos,** **barras de colaboración** o Teams **paneles.**
+2. Navegue **Teams dispositivos**  >  **IP o** barras de **colaboración** **o Teams paneles.**
 3. Seleccione uno o varios dispositivos y, a continuación, **seleccione Actualizar**.
 4. En **Actualizaciones manuales,** seleccione **Programar** si desea programar la actualización para una fecha y hora futuras. Las actualizaciones se aplican en la fecha y hora en la zona horaria seleccionada en **zona horaria.**
 

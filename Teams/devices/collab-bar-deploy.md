@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre cómo implementar Salas de Microsoft Teams en Android.
-ms.openlocfilehash: 472ccc8c71f05510101b9b0549b454d2f04e71f6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2f513bdd8d286c256de97e00373bf8e392080b33
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728669"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984575"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Implementar Salas de Microsoft Teams en Android
 
@@ -53,7 +53,7 @@ Para ver las consideraciones de instalación física, consulte la documentación
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra los puntos de decisión.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que los sitios cumplen los requisitos de preparación del sitio para las barras de colaboración Microsoft Teams.</li><li>Confirme que ha proporcionado ancho de banda suficiente para cada sitio.</li></ul>|
+| ![Un icono que representa los puntos de decisión.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que los sitios cumplen los requisitos de preparación del sitio para las barras de colaboración Microsoft Teams.</li><li>Confirme que ha proporcionado ancho de banda suficiente para cada sitio.</li></ul>|
 | ![Un icono que muestra los pasos siguientes.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a planear la implementación y la configuración de la barra de colaboración.</li></ul>|
 
 ## <a name="service-readiness"></a>Preparación del servicio
@@ -74,7 +74,7 @@ Para obtener más información sobre Microsoft 365 de recursos, vea Crear una cu
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra los puntos de decisión.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si desea realizar o recibir llamadas telefónicas externas e identificar los requisitos de licencia para sus cuentas de recursos.</li></ul>|
+| ![Un icono que representa los puntos de decisión.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si desea realizar o recibir llamadas telefónicas externas e identificar los requisitos de licencia para sus cuentas de recursos.</li></ul>|
 | ![Un icono que muestra los pasos siguientes.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Preparar cuentas de recursos.</li></ul>|
 
 ## <a name="configuration-and-deployment"></a>Configuración e implementación
@@ -98,7 +98,7 @@ Si desea asignar Salas de Teams usuarios individuales para su uso privado, no es
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra los puntos de decisión.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la convención de nomenclatura para sus cuentas de recursos dedicadas.</li><li>Decida si va a crear cuentas individuales o usar scripts de aprovisionamiento masivo.</li></ul>|
+| ![Un icono que representa los puntos de decisión.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la convención de nomenclatura para sus cuentas de recursos dedicadas.</li><li>Decida si va a crear cuentas individuales o usar scripts de aprovisionamiento masivo.</li></ul>|
 | ![Un icono que muestra los pasos siguientes.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a planear la implementación del dispositivo.</li></ul>|
 
 ### <a name="device-deployment"></a>Implementación de dispositivos
@@ -107,12 +107,12 @@ A continuación, debe crear su plan para entregar los dispositivos y sus disposi
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra los puntos de decisión.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida quién administrará la implementación de sitio por sitio.</li><li> Identifique los recursos que instalarán Salas de Teams en el sitio y realice la configuración y las pruebas.</li></ul>|
+| ![Un icono que representa los puntos de decisión.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida quién administrará la implementación de sitio por sitio.</li><li> Identifique los recursos que instalarán Salas de Teams en el sitio y realice la configuración y las pruebas.</li></ul>|
 | ![Un icono que muestra los pasos siguientes.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Iniciar pruebas de dispositivos.</li></ul>|
 
 ### <a name="testing"></a> Pruebas
 
-Después de implementar Salas de Teams, debe probarlos. Inicie sesión en Salas de Teams y compruebe que las capacidades esperadas funcionan. Le recomendamos que compruebe que aparecen  en la sección  Barras de colaboración de la pestaña Dispositivos de Microsoft Teams centro de administración. También es importante que realice una serie de llamadas de prueba y reuniones para comprobar la calidad y el rendimiento.
+Después de implementar Salas de Teams, debe probarlos. Inicie sesión en Salas de Teams y compruebe que las capacidades esperadas funcionan. Le recomendamos que compruebe que aparecen  en la sección Barras de colaboración de la pestaña Teams **dispositivos** de Microsoft Teams centro de administración. También es importante que realice una serie de llamadas de prueba y reuniones para comprobar la calidad y el rendimiento.
 
 Le recomendamos que, como parte de la implementación general de Microsoft Teams, configure la creación de archivos para el Panel de calidad de llamadas (CQD), supervise las tendencias de calidad y participe en el proceso de revisión de calidad de la experiencia. Para obtener más información, vea la [Guía de revisión de calidad de la experiencia.](../quality-of-experience-review-guide.md)
 
