@@ -1,9 +1,8 @@
 ---
 title: Administrar números de teléfono para plan de llamadas
-author: CarolynRowe
-ms.author: crowe
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -27,12 +26,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo obtener y administrar números de teléfono de usuario (suscriptor) y de servicio (gratuitos y gratuitos) para Microsoft Teams para su organización.
-ms.openlocfilehash: cc36fbd39ea470aa9e4175a13af574134d7ec42a
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 05228657489d2e76dee1b08f630b056606c5a83a
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432532"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942343"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>Administrar números de teléfono para plan de llamadas
 
@@ -56,8 +55,10 @@ Si sabe qué tipo de formularios está buscando, use la lista desplegable para s
 > - [Austria](phone-number-management-for-austria.md)
 > - [Bélgica](phone-number-management-for-belgium.md)
 > - [Canadá](phone-number-management-for-canada.md)
+> - [Croacia](phone-number-management-for-croatia.md)
 > - [República Checa](phone-number-management-for-czech-republic.md)
 > - [Dinamarca](phone-number-management-for-denmark.md)
+> - [Estonia](phone-number-management-for-estonia.md)
 > - [Finlandia](phone-number-management-for-finland.md)
 > - [Francia](phone-number-management-for-france.md)
 > - [Alemania](phone-number-management-for-germany.md)
@@ -65,6 +66,8 @@ Si sabe qué tipo de formularios está buscando, use la lista desplegable para s
 > - [Irlanda](phone-number-management-for-ireland.md)
 > - [Italia](phone-number-management-for-italy.md)
 > - [Japón](phone-number-management-for-japan.md)
+> - [Letonia](phone-number-management-for-latvia.md)
+> - [Lituania](phone-number-management-for-lithuania.md)
 > - [Luxemburgo](phone-number-management-for-luxembourg.md)
 > - [Nueva Zelanda](phone-number-management-for-new-zealand.md)
 > - [Noruega](phone-number-management-for-norway.md)
@@ -73,6 +76,7 @@ Si sabe qué tipo de formularios está buscando, use la lista desplegable para s
 > - [Rumania](phone-number-management-for-romania.md)
 > - [Singapur](phone-number-management-for-singapore.md)
 > - [Eslovaquia](phone-number-management-for-slovakia.md)
+> - [Eslovenia](phone-number-management-for-slovenia.md)
 > - [España](phone-number-management-for-spain.md)
 > - [Suecia](phone-number-management-for-sweden.md)
 > - [Suiza](phone-number-management-for-switzerland.md)

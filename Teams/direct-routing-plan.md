@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre Teléfono Microsoft system direct routing le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Teléfono Microsoft system.
-ms.openlocfilehash: 546a26422ff4f907f88c3a47808ff0f9ea546d00
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: a747879a0e95ab524e1a45cf12a366f0bd7e4fe4
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482414"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942385"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -320,11 +320,8 @@ El rango de puertos de los procesadores multimedia se muestra en la tabla siguie
 
 ## <a name="media-traffic-media-processors-geography"></a>Tráfico multimedia: geografía de los procesadores multimedia
 
-El tráfico multimedia fluye a través de componentes denominados procesadores multimedia. Los procesadores multimedia se colocan en los mismos centros de datos que los servidores proxy SIP. Además, hay procesadores multimedia adicionales para optimizar el flujo de medios. Por ejemplo, ahora no tenemos un componente de proxy SIP en Australia (flujos SIP a través de Singapur o Hong Kong), pero tenemos el procesador multimedia localmente en Australia. La necesidad de los procesadores multimedia localmente se determina por la latencia que experimentamos al enviar tráfico de larga distancia, por ejemplo de Australia a Singapur o Hong Kong. Aunque la latencia en el ejemplo de tráfico que fluye de Australia a Hong Kong o Singapur es aceptable para conservar la buena calidad de las llamadas para el tráfico SIP, para el tráfico multimedia en tiempo real no lo es.
+El tráfico multimedia fluye a través de componentes denominados procesadores multimedia. Los procesadores multimedia se colocan en los mismos centros de datos que los servidores proxy SIP:
 
-Ubicación de los procesadores multimedia:
-
-Ubicaciones en las que se implementaron tanto los componentes del proxy SIP como del procesador multimedia:
 - EE. UU. (dos en centros de datos de EE. UU. Oeste y Este de EE. UU.)
 - Europa (centros de datos de Ámsterdam y Dublín)
 - Asia (centro de datos de Singapur)

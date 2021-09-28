@@ -1,9 +1,9 @@
 ---
 title: Disponibilidad en Lituania
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: c3a51334-fff3-4b31-9618-c150adb53a0c
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Lituania.
-ms.openlocfilehash: b61d09f9e6045580de9161bcca82b0bb811c2ce9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0eb3979986546f9b99437bba568a1d9cd9e69460
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603529"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942073"
 ---
 # <a name="availability-in-lithuania"></a>Disponibilidad en Lituania
 
@@ -59,11 +59,10 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los planes de llamada están disponibles para la compra?  <br/> |No  <br/> |
-|Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
-|¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
-
-Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el [enrutamiento directo del sistema telefónico](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier proveedor de servicios de telefonía.
+|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
+|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales -O- 600 minutos de llamadas internacionales (lo que se alcance primero en el mes calendario)</li></li></ul>|
+|¿Se pueden realizar llamadas a números premium?  <br/> | No se admite en este momento. <br/> |
+|¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países o regiones, [incluidos estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Al obtener números de teléfono o portar (transferir) números para su organización, es posible que necesite obtener ayuda y soporte técnico en el departamento de soporte técnico de RTC.
-ms.openlocfilehash: 01c54f1b6c5592626349841dea0dd4ec197d7488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65ebe954fb9a8b101489c9add7739b24bdd529bc
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598474"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941863"
 ---
 # <a name="pstn-service-desk"></a>Departamento de servicio RTC 
 
@@ -61,7 +61,6 @@ Desde el Centro de servicio de números de teléfono, puede crear nuevos casos, 
 - **[Enviar comentarios](#view-and-manage-existing-cases)**: compartir sus comentarios con nosotros. 
 
 - **[Su nombre]** : actualizar su página de perfil. 
-
 
 ## <a name="create-a-new-case"></a>Crear un nuevo caso
 

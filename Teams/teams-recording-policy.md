@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6e154f6e972fe54c29f8fcded8c554bf8893795
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 0bbfb13aac415d89f6853fe993ac8c7110ba7fa8
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432282"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941895"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a la Teams basada en directivas para llamadas & reuniones
 
@@ -112,6 +112,10 @@ Las soluciones de grabación de cumplimiento se integran Teams como se muestra e
 
 > [!div class="mx-imgBorder"]
 > ![Captura de pantalla que muestra la configuración de la aplicación personalizada del equipo.](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "Las imágenes muestran el flujo cuando se envía y recibe Teams reunión o llamada.")
+
+> [!NOTE]
+> Esta solución está diseñada específicamente para habilitar la grabación de cumplimiento basada en directivas con Teams. Cualquier otro uso de esta solución no será compatible.
+
 
 ## <a name="recorder"></a>Grabadora
 
@@ -239,6 +243,6 @@ Los siguientes partners están en proceso de certificar su solución para Micros
 
 Esta lista se actualizará a medida que más partners se unan y cumplan los criterios de certificación.
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Si es un proveedor que desea unirse al programa de certificación, envíe correo a [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).

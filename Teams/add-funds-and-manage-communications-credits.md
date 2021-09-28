@@ -30,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Obtenga información sobre cómo pagar créditos de comunicación (consumo RTC) para los servicios Skype Empresarial y vea planes para mantener a los usuarios con acceso continuo al sistema telefónico. '
-ms.openlocfilehash: fe3b80e41c6fdc411304ec43eebb0ab560063033
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d2b6eb0a1f487794cc93f9639e49e9557ca4fcd
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617616"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942053"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 
@@ -60,10 +60,10 @@ Esta opción recarga automáticamente su saldo cuando se encuentra por debajo de
   
 Puede actualizar las opciones de pago en cualquier momento. En la **página Suscripciones,** seleccione **Créditos de** comunicaciones y realice las actualizaciones.
   
-Los fondos se aplicarán solo a los créditos de comunicaciones con las tarifas publicadas por Microsoft cuando se usan los servicios. Los fondos que no se usen dentro de los doce (12) meses siguientes a la fecha de compra expirarán y se perderán.
+Los fondos se aplicarán solo a los créditos de comunicaciones con las tarifas publicadas por Microsoft cuando se usan los servicios. Los fondos que no se usen en 12 meses desde la fecha de compra se perderán.
   
 > [!TIP]
-> Te enviaremos notificaciones por correo electrónico cuando se agregan fondos a través de la recarga automática, cuando se produce un error en la recarga automática (por ejemplo, cuando expira una tarjeta de crédito) y cuando el saldo está por debajo de cero.
+> Te enviaremos notificaciones por correo electrónico cuando se agregan fondos a través de la recarga automática, cuando se produce un error en la recarga automática (por ejemplo, cuando expira una tarjeta de crédito) y cuando el saldo llega a cero.
   
 Para obtener más información, vea [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md)
   
