@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 484ababae4faa4ba92594ab1afabc49e95a39156
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2baa4755f63bbb5867a1e259c9edc9a3aeca0718
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637004"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59993241"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Administrar sus dispositivos en Microsoft Teams
 
@@ -50,13 +50,13 @@ Puede administrar cualquier dispositivo certificado para, y inscrito en, Teams. 
 - [Teams pantallas](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Teams paneles](teams-panels.md)
 
-Para administrar dispositivos, en el panel de navegación izquierdo del [centro de administración de Microsoft Teams](https://admin.teams.microsoft.com), vaya a Dispositivos y, a continuación, seleccione el tipo de dispositivo. Cada tipo de dispositivo tiene su propia sección respectiva, que le permite administrarlos por separado.
+Para administrar dispositivos, en la navegación izquierda del centro de administración de Microsoft Teams , vaya a **Teams Dispositivos** y, [a](https://admin.teams.microsoft.com)continuación, seleccione el tipo de dispositivo. Cada tipo de dispositivo tiene su propia sección respectiva, que le permite administrarlos por separado.
 
 ## <a name="manage-teams-rooms-devices"></a>Administrar Salas de Teams dispositivos
 
 Puede usar el centro Teams administración para ver y administrar de forma remota sus Salas de Teams dispositivos en toda la organización. El centro de administración de Teams permite ver fácilmente, de un vistazo, qué dispositivos están en buen estado y que necesitan atención, y le permite centrarse en dispositivos específicos para ver información detallada sobre el estado del dispositivo, el rendimiento de las reuniones, la calidad de las llamadas y los periféricos. 
 
-Estas son algunas cosas que puede hacer para administrar sus Salas de Teams dispositivos. Salas de Teams en el Centro de administración de Microsoft Teams [en](https://admin.teams.microsoft.com) **Dispositivos**  >  **Salas de Teams**.
+Estas son algunas cosas que puede hacer para administrar sus Salas de Teams dispositivos. Salas de Teams dispositivos se pueden encontrar en el [centro Microsoft Teams administración](https://admin.teams.microsoft.com) en Teams **dispositivos**  >  **Salas de Teams**.
 
 Para obtener información detallada sobre cómo administrar Salas de Teams dispositivos, vea [Administrar Salas de Microsoft Teams](../rooms/rooms-manage.md).
 
@@ -84,7 +84,7 @@ Estos son algunos ejemplos de cómo puede administrar teléfonos, barras de cola
 | Agregar o quitar etiquetas de dispositivo               | Seleccione uno o varios dispositivos > **Administrar etiquetas.** Para obtener más información sobre las etiquetas de dispositivo, [vea Administrar Teams etiquetas de dispositivo.](manage-device-tags.md)                                                                                                                                                                 |
 | Reiniciar dispositivos                         | Seleccione uno o varios dispositivos > **Reiniciar**.                                                                                                                                                                                                                                                                    |
 | Filtrar dispositivos con etiquetas de dispositivo        | Seleccione el icono de filtro, seleccione el **campo Etiqueta,** especifique una etiqueta de dispositivo en la que filtrar y seleccione **Aplicar.** Para obtener más información sobre cómo filtrar dispositivos con etiquetas de dispositivo, vea [Usar filtros para devolver dispositivos con una etiqueta específica.](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag) |
-| Ver el historial de dispositivos y diagnósticos     | En la **columna** Historial, haga clic **en** el vínculo Ver de un dispositivo para ver su historial de actualizaciones y detalles diagosticos.                                                                                                                                                                                         |
+| Ver el historial de dispositivos y diagnósticos     | En la **columna** Historial, haga clic **en** el vínculo Ver de un dispositivo para ver su historial de actualizaciones y los detalles de diagnóstico.                                                                                                                                                                                         |
 
 ### <a name="use-configuration-profiles-in-teams"></a>Usar perfiles de configuración en Teams
 
@@ -94,7 +94,7 @@ Use perfiles de configuración para administrar la configuración y las caracter
 
 Para crear un perfil de configuración para un Teams de dispositivo:
 
-1. En el panel de navegación izquierdo, vaya a **Dispositivos** > seleccione el tipo Teams dispositivo > **perfiles de configuración**. Por ejemplo, seleccione  >  **Dispositivos Teams paneles**  >  **Perfiles** de configuración para crear un nuevo perfil de configuración para Teams paneles.
+1. En el panel de navegación izquierdo, vaya **a Teams Dispositivos** > seleccione el tipo Teams dispositivo > **perfiles de configuración.** Por ejemplo, seleccione **Teams dispositivos** Teams paneles Perfiles de configuración para crear un nuevo perfil de configuración  >    >   para Teams paneles.
 2. Haga clic en **Agregar**.
 3. Escriba un nombre para el perfil y, opcionalmente, agregue una descripción descriptivo.
 4. Especifique la configuración que desea para el perfil y, a continuación, haga clic en **Guardar.**
@@ -103,7 +103,7 @@ Para crear un perfil de configuración para un Teams de dispositivo:
 #### <a name="assign-a-configuration-profile"></a>Asignar un perfil de configuración
 Después de crear un perfil de configuración para Teams tipo de dispositivo, asígnelo a uno o varios dispositivos.
 
-1. En el panel de navegación izquierdo, vaya **a Dispositivos** > seleccione Teams tipo de dispositivo. Por ejemplo, para asignar un perfil de configuración a un dispositivo Teams paneles, **seleccione**  >  **Dispositivos Teams paneles**.
+1. En el panel de navegación izquierdo, vaya **a Teams Dispositivos** > seleccione el tipo Teams dispositivo. Por ejemplo, para asignar un perfil de configuración a un Teams paneles, seleccione Teams **dispositivos**  >  **Teams paneles**.
 2. Seleccione uno o varios dispositivos y, a continuación, haga clic **en Asignar configuración.**  
 3. En el **panel Asignar una configuración,** busque el perfil de configuración que desea asignar a los dispositivos seleccionados.
 4. Haga clic en **Aplicar**.

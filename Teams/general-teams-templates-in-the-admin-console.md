@@ -1,17 +1,17 @@
 ---
 title: Usar plantillas generales de equipo en el Centro de administración
-author: cichur
-ms.author: v-cichur
-manager: serdars
+author: lanachin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo usar plantillas generales de equipo para crear estructuras de equipo proporcionando configuraciones predefinidas, canales y aplicaciones preinstaladas con el Centro de administración.
+description: Obtenga información sobre cómo administrar y usar plantillas generales de equipo en el centro de Teams administración para crear equipos de forma rápida y sencilla.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,43 +19,31 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3427a14da3d994b10bf8d83f5d03f76769401670
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 262194a13cb38a267d5030358a612a8475cd2427
+ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634054"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "59991139"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Usar plantillas generales de equipo en el Centro de administración
 
-Las plantillas de equipo le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
+Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y sencilla proporcionando una estructura de equipo predefinida de configuración, canales y aplicaciones preinstaladas.
 
-Las plantillas de equipo tienen definiciones predefinidas de estructuras de equipo diseñadas en función de las necesidades financieras. También puede ampliar las plantillas de equipo para crear equipos que se adapten a sus necesidades organizativas específicas.
+Use plantillas de equipo para implementar equipos coherentes en toda la organización. Las plantillas también pueden ayudar a los usuarios a orientarse con la manera de usar de forma eficaz Teams. También puede ampliar las plantillas para crear equipos que se adapten a sus necesidades organizativas específicas.
 
-En este artículo, presentamos cada una de las plantillas de equipo y le recomendamos cómo usarlas.
+Teams incluye plantillas predefinidas que hemos creado para necesidades empresariales y proyectos específicos. En este artículo, le presentamos la categoría general de plantillas que puede usar en su organización para varios escenarios.
 
-Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización. Ya ha implementado el servicio de Teams en su organización. Si aún no ha Teams, empiece leyendo la página [Cómo](./deploy-overview.md)Microsoft Teams .
-
-Para obtener más información sobre las plantillas de equipo en general, consulte Introducción [a las plantillas de equipo.](get-started-with-teams-templates-in-the-admin-console.md)
-
-## <a name="global-crisis-or-event"></a>Crisis o evento global
-
-Centralice la colaboración para su equipo de crisis en todas las unidades de negocio y ayude a crear planes de continuidad empresarial, compartir sugerencias de trabajo remotas, realizar un seguimiento de las comunicaciones de los clientes y mantener a todos al día con anuncios y noticias.
-
-> [!div class="mx-tdBreakAll"]
-> | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
-> | ------------------ |--|----------------------------------------------------------|
-> | Colaborar en eventos o crisis globales |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` | Canales: <ul><li>General<li>Anuncios</li><li>Noticias del mundo</li><li>Continuidad empresarial</li><li>Comms externos</li><li>Solicitud de aprobaciones</li><li>Trabajo remoto</li><li>Comunicación interna</li><li>Comms externos</li><li>Quejas de clientes</li><li>Kudos</li><li>Actualización ejecutiva</li></ul>Aplicaciones: <ul><li>Elogio</li><li>Wiki</li><li>Sitio web</li><li>Planner</li></ul>|
-> ||||
+Para obtener más información sobre las plantillas de equipo en general, vea Introducción a las plantillas de equipo [en el centro Teams de administración.](get-started-with-teams-templates-in-the-admin-console.md)
 
 ## <a name="adopt-office-365"></a>Adoptar Office 365
 
 Ayude a crear, crecer y mantener la implementación de la comunidad champions al evangelizar y ayudar a sus compañeros con la nueva tecnología.
 
 > [!div class="mx-tdBreakAll"]
-> | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
+> | Tipo de plantilla |TemplateId| Propiedades que vienen con esta plantilla |
 > | ------------------|--|-----------------------------------------------------------|
-> | Adoptar Office 365 | `com.microsoft.teams.template.AdoptOffice365` | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Esquina Campeones</li> <li>Formularios de equipo</li></ul> Aplicaciones: <ul><li>Wiki</li>  <li>Calendario</li><li>Desarrollo de aptitudes</li><li>Procesamiento de préstamo</li><li>Quejas de clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>|
+> | Adoptar Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Canales: <ul><li>General</li> <li>Anuncios</li> <li>Esquina Campeones</li> <li>Formularios de equipo</li><li>Calendario</li></ul> Aplicaciones: <ul><li>Wiki</li>  <li>Calendario del canal</li> <li>Hitos</li><li>Boletines</li></ul>|
 > ||||
 
 ## <a name="manage-a-project"></a>Administrar un proyecto
@@ -63,11 +51,10 @@ Ayude a crear, crecer y mantener la implementación de la comunidad champions al
 Administre tareas, comparta documentos, realice reuniones de proyecto y tome decisiones y riesgos de documentos con esta plantilla para la administración general de proyectos.
 
 > [!div class="mx-tdBreakAll"]
-> | Tipo de plantilla base| baseTemplateId| Propiedades que vienen con esta plantilla base |
+> | Tipo de plantilla| TemplateId| Propiedades que vienen con esta plantilla |
 > | ------------------|--|-----------------------------------------------------------|
-> | Administrar un proyecto| `com.microsoft.teams.template.ManageAProject`  | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Recursos</li> <li>Planeación</li></ul> Aplicaciones:<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>Listas</li> </ul> |
+> | Administrar un proyecto |`com.microsoft.teams.template.ManageAProject`| Canales: <ul><li>General</li> <li>Anuncios</li> <li>Recursos</li> <li>Planeación</li></ul> Aplicaciones:<ul><li>Wiki</li><li>OneNote</li><li>Tareas</li><li>Listas</li><li>Power Automate</li></ul> |
 > ||||
-
 ## <a name="manage-an-event"></a>Administrar un evento
 
 Administre tareas, documentos y colabore en todo lo que necesite para ofrecer un evento atractivo. Invite a los usuarios invitados a que tengan colaboración segura dentro y fuera de su empresa.
@@ -75,9 +62,9 @@ Administre tareas, documentos y colabore en todo lo que necesite para ofrecer un
 Es posible que no tenga acceso a determinadas aplicaciones en función de la directiva de permisos de la aplicación.
 
 > [!div class="mx-tdBreakAll"]
-> | Tipo de plantilla base | baseTemplateId| Propiedades que vienen con esta plantilla base |
+> | Tipo de plantilla | TemplateId| Propiedades que vienen con esta plantilla |
 > | ------------------ |--|-----------------------------------------------------------|
-> | Administrar un evento| `com.microsoft.teams.template.ManageAnEvent` | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Budget</li> <li>Contenido</li><li>Logística</li> <li>Planeación</li> <li> Marketing y relaciones públicas</li></ul> Aplicaciones:<ul><li>Wiki</li><li>Sitio web</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+> | Administrar un evento|`com.microsoft.teams.template.ManageAnEvent` | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Budget</li> <li>Contenido</li><li>Logística</li> <li>Planeación</li> <li> Marketing y relaciones públicas</li></ul> Aplicaciones:<ul><li>Wiki</li><li>Sitio web</li> <li>YouTube</li> <li>Tareas</li> <li>OneNote</li> <li>Ideas de empleados</li> <li>Issue Reporter</li><li>Power Automate</li><li>Boletines</li><li>Hitos</li></ul> |
 > ||||
 
 ## <a name="onboard-employees"></a>Incorporar empleados
@@ -85,9 +72,9 @@ Es posible que no tenga acceso a determinadas aplicaciones en función de la dir
 Mejore su cultura y simplifico la incorporación de sus empleados con este equipo central para obtener recursos, preguntas y un poco de diversión.
 
 > [!div class="mx-tdBreakAll"]
-> | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
+> | Tipo de plantilla |TemplateId| Propiedades que vienen con esta plantilla |
 > | ------------------|--|-----------------------------------------------------------|
-> | Incorporar empleados|`com.microsoft.teams.template.OnboardEmployees`  | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleados</li> <li>Aprendizaje</li></ul>Aplicaciones:<ul><li>Wiki</li><li>Comunidades</li><li>Planner</li></ul>|
+> |Incorporar empleados|`com.microsoft.teams.template.OnboardEmployees` | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleados</li> <li>Aprendizaje</li></ul>Aplicaciones:<ul><li>Wiki</li><li>Comunidades</li><li>Tareas</li><li>Ideas de empleados</li><li>Power Automate</li><li>Boletines</li><li>Hitos</li></ul>|
 > ||||
 
 ## <a name="organize-a-help-desk"></a>Organizar un servicio de ayuda
@@ -95,7 +82,17 @@ Mejore su cultura y simplifico la incorporación de sus empleados con este equip
 Colabore en documentación, directivas y procesos que admitan su departamento de soporte técnico. Integre su sistema de venta de entradas existente o use nuestra plantilla para administrar solicitudes.
 
 > [!div class="mx-tdBreakAll"]
-> | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
+> | Tipo de plantilla |TemplateId| Propiedades que vienen con esta plantilla |
 > | ------------------|--|------------------------------------------------------------|
-> | Organizar el servicio de ayuda|`com.microsoft.teams.template.OrganizeHelpDesk`| Canales: <ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Aplicaciones:<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>Elogio </li></ul> |
+> |Organizar el servicio de ayuda| `com.microsoft.teams.template.OrganizeHelpDesk`|Canales:<ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Aplicaciones:<ul><li>Wiki</li><li>OneNote</li><li>Tareas </li><li>Elogio</li><li>Issue Reporter</li><li>Power Automate</li><li>Boletines</li></ul> |
+> ||||
+
+## <a name="crisis-communication"></a>Comunicación de crisis
+
+Centralice la colaboración para su equipo de crisis en todas las unidades de negocio y ayude a crear planes de continuidad empresarial, compartir sugerencias de trabajo remotas, realizar un seguimiento de las comunicaciones de los clientes y mantener a todos al día con anuncios y noticias.
+
+> [!div class="mx-tdBreakAll"]
+> | Tipo de plantilla |TemplateId| Propiedades que vienen con esta plantilla |
+> | ------------------ |--|----------------------------------------------------------|
+> | Comunicación de crisis |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canales: <ul><li>General<li>Anuncios</li><li>Noticias del mundo</li><li>Comunicación interna</li><li>Comms externos</li><li>Solicitud de aprobaciones</li><li>Escalas de clientes</li><li>Actualización ejecutiva</li><li>Planeación</li><li>Logística</li></ul>Aplicaciones: <ul><li>Sitio web</li><li>Tareas</li><li>Issue Reporter</li><li>Aprobaciones</li><li>Boletines</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
 > ||||

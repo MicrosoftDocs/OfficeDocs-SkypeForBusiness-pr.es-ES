@@ -1548,7 +1548,7 @@ items:
       - name: Teams para el comercio
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: Introducción a las plantillas de equipo de comercio
+          - name: Usar plantillas de equipo de venta al por menor
             href: get-started-with-retail-teams-templates.md
       - name: Teams para la Administración Pública
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
