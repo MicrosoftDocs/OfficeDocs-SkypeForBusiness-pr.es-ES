@@ -1,17 +1,17 @@
 ---
-title: Introducción a una plantilla de equipo financiero con el Centro de administración
-author: cichur
-ms.author: v-cichur
-manager: serdars
+title: Usar plantillas de equipo financiero
+author: lanachin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
-description: Obtenga información sobre cómo usar Teams para crear estructuras de equipo diseñadas para las necesidades financieras proporcionando configuraciones predefinidas, canales y aplicaciones preinstaladas con el Centro de administración.
+description: Obtenga información sobre cómo administrar y usar plantillas de equipo financiero en el Centro de administración de Teams y con Microsoft Graph para crear equipos de forma rápida y sencilla para su organización de servicios financieros.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,39 +19,57 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 291c9e28dec5f779c8a23888b28d78c79919f1f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: MT
+ms.openlocfilehash: 9273f8519fd7aeea90ff35f49ca0d6986afa2d59
+ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603439"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "59991109"
 ---
-# <a name="use-financial-team-templates-in-the-admin-center"></a>Usar plantillas de equipo financiero en el Centro de administración
+# <a name="use-financial-team-templates"></a>Usar plantillas de equipo financiero
 
-Las plantillas de equipo le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
+Las plantillas de equipo de Microsoft Teams le permiten crear equipos de forma rápida y sencilla al proporcionar una estructura predefinida de equipos de configuración, canales y aplicaciones preinstaladas.
 
-Las plantillas de equipo tienen definiciones predefinidas de estructuras de equipo diseñadas en función de las necesidades financieras. También puede ampliar las plantillas de equipo para crear equipos que se adapten a sus necesidades organizativas específicas.
+Para las organizaciones de servicios financieros, las plantillas de equipo pueden ser especialmente eficaces, ya que le ayudan a implementar rápidamente equipos coherentes en toda la organización. Las plantillas también ayudan al personal a orientarse con la forma de usar Teams de forma eficaz.
 
-En este artículo, presentaremos cada una de las plantillas de equipo y le recomendamos cómo usarlas.
+Teams incluye plantillas diseñadas para organizaciones de servicios financieros. Use estas plantillas predefinidas para crear de forma rápida equipos para que el personal pueda comunicarse y colaborar. En este artículo, le presentamos cada una de estas plantillas y le recomendamos que las use.
 
-Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda su organización financiera. Ya ha implementado el servicio de Teams en su organización. Si todavía no ha implementado Teams, empiece por leer [Cómo implementar Microsoft Teams](./deploy-overview.md).
+La forma de administrar y trabajar con plantillas de equipo depende de si es administrador o desarrollador.
 
-Para obtener más información sobre las plantillas de equipo en general, consulte Introducción [a las plantillas de equipo.](get-started-with-teams-templates-in-the-admin-console.md)
+|Si está: | A continuación, usted: |
+| ---- | --------- |
+| Un administrador o un profesional de TI |[Administrador de plantillas de equipo en el Centro de administración de Teams](#manage-team-templates-in-the-teams-admin-center). Vea las plantillas de equipo y aplique directivas de plantillas para controlar cuales puede usar su personal en Teams para crear equipos. |
+| Un desarrollador | [Use Microsoft Graph](#use-team-templates-with-microsoft-graph) para crear equipos a partir de plantillas de equipo. |
 
-## <a name="global-crisis-or-event"></a>Crisis o evento global
+## <a name="manage-team-templates-in-the-teams-admin-center"></a>Administrar plantillas de equipo en el Centro de administración de Teams
 
-Centralice la colaboración para su equipo de crisis en todas las unidades de negocio y ayude a crear planes de continuidad empresarial, compartir sugerencias de trabajo remotas, realizar un seguimiento de las comunicaciones de los clientes y mantener a todos al día con anuncios y noticias.
+Como un administrador, puede administrar plantillas de equipo en el Centro de administración de Microsoft Teams. Aquí puede ver los detalles acerca de cada plantilla. También puede [crear y asignar directivas de plantillas](templates-policies.md) al personal para controlar qué plantillas ven en Teams para [crear equipos](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c).
 
-| Tipo de plantilla base|baseTemplateId | Propiedades que vienen con esta plantilla base |
-| ------------------|-- |----------------------------------------------------- |
-| Colaborar en eventos o crisis globales|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canales: <ul><li>General<li>Anuncios</li><li>Noticias del mundo</li><li>Continuidad empresarial</li><li>Trabajo remoto</li><li>Comunicación interna</li><li>Comms externos</li><li>Solicitud de aprobaciones</li><li>Quejas de clientes</li><li>Kudos</li><li>Actualización ejecutiva</li></ul>Aplicaciones: <ul><li>Elogio</li><li>Wiki</li><li>Sitio web</li><li>Planner</li></ul>|
-||||
+Para obtener más información sobre las plantillas de equipo en general, vea [Introducción a las plantillas de Teams en el Centro de administración](get-started-with-teams-templates-in-the-admin-console.md).
 
-## <a name="collaborate-within-a-bank-branch"></a>Colaborar en una sucursal bancaria
+Actualmente ofrecemos las siguientes plantillas de equipo predefinidas para organizaciones de servicios financieros. Para verlos, en el panel de navegación izquierdo del Centro de administración de Teams, vaya a **Teams** > **Plantillas de equipo**.
 
-Centralice la colaboración para los empleados de la sucursal bancaria en Huddles, Reuniones de clientes, Procesos empresariales como colaboración hipotecaria y mantenga a todos al día con Anuncios y Kudos.
+### <a name="collaborate-within-a-bank-branch"></a>Colaborar en una sucursal bancaria
 
-| Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
+Centralice la colaboración para los empleados de las sucursales bancarias en grupos, reuniones de clientes, procesos empresariales como la colaboración en cláusulas financieras y mantenga a todos al día con anuncios y elogios.
+
+| Tipo de plantilla |TemplateId| Propiedades que vienen con esta plantilla |
 | ------------------ |--|----------------------------------------------------- |
-|Colaborar en una sucursal bancaria|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Canales: <ul><li>General<li>Anuncios</li><li>Reuniones</li><li>Reuniones de clientes</li><li>Solicitud de aprobaciones</li><li>Coaching</li><li>Desarrollo de aptitudes</li><li>Procesamiento de préstamo</li><li>Quejas de clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>Aplicaciones:<ul><li>Elogio</li></ul>|
+|Sucursal bancaria| `CollaborateWithinABankBranch`|Canales: <ul><li>General<li>Anuncios</li><li>Reuniones</li><li>Reuniones de clientes</li><li>Solicitud de aprobaciones </li><li>Asesoramiento</li><li>Desarrollo de aptitudes</li><li>Procesamiento de préstamos</li><li>Quejas de clientes</li><li>Elogios</li><li>Material divertido</li><li>Cumplimiento</li></ul>Aplicaciones:<ul><li>Elogiar </li><li>Informador del problema</li><li>Wiki</li><li>Calendario</li><li>Aprobaciones</li><li>Boletines</li><li>Ideas</li></ul>|
 ||||
+
+## <a name="use-team-templates-with-microsoft-graph"></a>Uso de plantillas de equipo con Microsoft Graph
+
+Los desarrolladores pueden usar Microsoft Graph para crear equipos a partir de plantillas de equipo predefinidas. Para obtener más información sobre el uso de plantillas de equipo con Microsoft Graph, vea[Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md), [información general de la API de Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0)y [tipo de recurso teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+
+### <a name="bank-branch"></a>Sucursal bancaria
+
+Centralice la colaboración para los empleados de las sucursales bancarias en grupos, reuniones de clientes, procesos empresariales como la colaboración en cláusulas financieras y mantenga a todos al día con anuncios y elogios.
+
+| Tipo de plantilla |TemplateId| Canales de plantilla |
+| ------------------ |--|----------------------------------------------------- |
+|Sucursal bancaria|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|General<br>Anuncios<br>Reuniones<br>Reuniones de clientes<br>Solicitud de aprobaciones<br>Asesoramiento<br>Desarrollo de aptitudes<br>Procesamiento de préstamos<br>Quejas de clientes<br>Elogios<br>Material divertido<br>Cumplimiento|
+||||
+
+> [!NOTE]
+> Para obtener plantillas adicionales que se aplican a la organización de servicios financieros, vea [Plantillas de equipo integradas en Microsoft Graph para pequeñas y medianas empresas](smb-templates.md).
