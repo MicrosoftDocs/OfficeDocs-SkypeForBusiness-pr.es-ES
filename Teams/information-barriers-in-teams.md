@@ -16,24 +16,30 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1cdb474bfab7d6f8f6cb54c4d93a225e844e1b3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e829cb078ee334c36c69aa489c9dec6f3c5eaa10
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729159"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60007790"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de información en Microsoft Teams
 
 Las barreras de información (IB) son directivas que un administrador puede configurar para evitar que individuos o grupos se comuniquen entre sí. Los IB son útiles si, por ejemplo, un departamento administra información que no debería compartirse con otros departamentos. Los IB también son útiles cuando es necesario aislar un grupo o impedir que se comunique con cualquier persona que no sea de ese grupo.
 
->[!NOTE]
->- Los grupos de barreras de información (IB) no se pueden crear entre inquilinos.
->- La versión 1 no admite el uso de bots, Azure Active Directory (Azure AD), API para enviar notificaciones de fuente de actividades y algunas API para agregar usuarios.
->- Los canales privados son compatibles con las directivas del IB que configure.
->- Nuevo: Para obtener información sobre la compatibilidad con barreras SharePoint sitios conectados a Teams, vea Segmentos asociados con [Microsoft Teams web.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
+Por Microsoft Teams, las barreras de información pueden determinar y evitar los siguientes tipos de colaboraciones no autorizadas:
 
-Las directivas del IB también impiden las búsquedas y la detección. Si intenta comunicarse con alguien con quien no debería comunicarse, no encontrará ese usuario en el selector de personas.
+- Agregar un usuario a un equipo o canal
+- Acceso de usuario al contenido del equipo o del canal
+- Acceso de usuario a chats grupales y 1:1
+- Acceso de usuario a reuniones
+- Impide las búsquedas y la detección, los usuarios no estarán visibles en el selector de personas.
+
+>[!NOTE]
+>- Los grupos de barreras de información no se pueden crear entre inquilinos.
+>- La versión 1 no admite el uso de bots, Azure Active Directory (Azure AD), API para enviar notificaciones de fuente de actividades y algunas API para agregar usuarios.
+>- Los canales privados son compatibles con las directivas de barreras de información que configure.
+>- Para obtener información sobre la compatibilidad con barreras SharePoint sitios conectados a Teams, vea Segmentos [asociados](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)a Microsoft Teams sitios .
 
 ## <a name="background"></a>Información general
 
@@ -41,13 +47,10 @@ El controlador principal de los IB proviene del sector de servicios financieros.
 
 Sin embargo, desde la introducción de los IB, muchas otras áreas han encontrado que son útiles. Otros escenarios comunes incluyen:
 
-- Educación: Los alumnos de una escuela no pueden buscar detalles de contacto para los alumnos de otras escuelas.
-
-- Legal: Mantener la confidencialidad de los datos obtenidos por el abogado de un cliente e impedir que un abogado de la misma empresa que representa a un cliente diferente pueda acceder a ellos.
-
-- Gobierno: el acceso a la información y el control están limitados entre departamentos y grupos.
-
-- Professional: un grupo de personas de una empresa solo puede chatear con un cliente o con un cliente específico a través del acceso de invitado durante una participación del cliente.
+- **Educación:** Los alumnos de una escuela no pueden buscar detalles de contacto para los alumnos de otras escuelas.
+- **Legal:** Mantener la confidencialidad de los datos obtenidos por el abogado de un cliente e impedir que un abogado de la misma empresa que representa a un cliente diferente pueda acceder a ellos.
+- **Gobierno:** el acceso a la información y el control están limitados entre departamentos y grupos.
+- **Professional:** un grupo de personas de una empresa solo puede chatear con un cliente o con un cliente específico a través del acceso de invitado durante una participación del cliente.
 
 Por ejemplo, Enrico pertenece al segmento bancario y Pradeep pertenece al segmento asesor financiero. Enrico y Pradeep no pueden comunicarse entre sí porque la directiva del IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos. Sin embargo, Enrico y Pradeep pueden comunicarse con Lee en RECURSOS HUMANOS.
 
@@ -66,8 +69,8 @@ El servicio de evaluación de directivas de barrera de información determina si
 
 Las directivas del IB se administran en Microsoft 365 de cumplimiento (SCC) con cmdlets de PowerShell. Para obtener más información, vea [Definir directivas para barreras de información.](/office365/securitycompliance/information-barriers-policies)
 
-> [!IMPORTANT]
-> Antes de configurar o definir directivas, debe habilitar la búsqueda de directorios de ámbito en Microsoft Teams. Espere al menos unas horas después de habilitar la búsqueda de directorios de ámbito antes de configurar o definir directivas para barreras de información. Para obtener más información, vea [Definir directivas de barreras de información.](/office365/securitycompliance/information-barriers-policies#prerequisites)
+>[!IMPORTANT]
+>Antes de configurar o definir directivas, debe habilitar la búsqueda de directorios de ámbito en Microsoft Teams. Espere al menos unas horas después de habilitar la búsqueda de directorios de ámbito antes de configurar o definir directivas para barreras de información. Para obtener más información, vea [Definir directivas de barreras de información.](/office365/securitycompliance/information-barriers-policies#prerequisites)
 
 ## <a name="information-barriers-administrator-role"></a>Rol de administrador de barreras de información
 
@@ -85,13 +88,11 @@ Las directivas del IB se activan cuando se Teams eventos:
 
     Este es un ejemplo de un chat 1:1.
 
-    > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra la comunicación bloqueada en un chat de 1:1.](media/information-barriers-one-one-chat.png)
+    ![Captura de pantalla que muestra la comunicación bloqueada en un chat de 1:1.](media/information-barriers-one-one-chat.png)
 
     Este es un ejemplo de un chat grupal.
 
-    > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra el chat grupal.](media/information-barriers-group-chat.png)
+    ![Captura de pantalla que muestra el chat grupal.](media/information-barriers-group-chat.png)
 
 - Se invita a un usuario a unirse **a** una reunión: cuando se invita a un usuario a unirse a una reunión, la directiva del IB que se aplica al usuario se evalúa con las directivas del IB que se aplican a los demás miembros del equipo. Si hay una infracción, el usuario no podrá unirse a la reunión.
 
@@ -101,17 +102,15 @@ Las directivas del IB se activan cuando se Teams eventos:
 
     Este es un ejemplo de uso compartido de pantalla antes de aplicar la directiva.
 
-    > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra un chat de usuario.](media/ib-before-screen-share-policy.png)
+    ![Captura de pantalla que muestra un chat de usuario.](media/ib-before-screen-share-policy.png)
 
     Este es un ejemplo de uso compartido de pantalla después de aplicar la directiva. Los iconos de pantalla y de llamada no son visibles.
 
-    > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra el carácter de usuario con la configuración bloqueada.](media/ib-after-screen-share-policy.png)
+    ![Captura de pantalla que muestra el carácter de usuario con la configuración bloqueada.](media/ib-after-screen-share-policy.png)
 
-- Un usuario realiza una llamada de teléfono en **Teams:** siempre que un usuario inicia una llamada de voz (a través de VOIP) a otro usuario o grupo de usuarios, la llamada se evalúa para asegurarse de que no infringe las directivas del IB de otros miembros del equipo. Si hay alguna infracción, la llamada de voz está bloqueada.
+- Un usuario realiza una llamada de teléfono en **Teams:** Siempre que un usuario inicia una llamada de voz (a través de VOIP) a otro usuario o grupo de usuarios, la llamada se evalúa para asegurarse de que no infringe las directivas del IB de otros miembros del equipo. Si hay alguna infracción, la llamada de voz está bloqueada.
 
-- **Las condiciones de Teams** - IB también se aplican a los Teams invitados. Si los invitados necesitan ser reconocibles en la lista global de direcciones de su organización, vea Administrar el acceso de invitado [en Microsoft 365 grupos.](/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Una vez que los invitados se puedan descubrir, puede [definir las directivas del IB.](/office365/securitycompliance/information-barriers-policies)
+- **Invitados en Teams:** las condiciones del IB también se aplican a los Teams invitados. Si los invitados necesitan ser reconocibles en la lista global de direcciones de su organización, vea Administrar el acceso de invitado [en Microsoft 365 grupos.](/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Una vez que los invitados se puedan descubrir, puede [definir las directivas del IB.](/office365/securitycompliance/information-barriers-policies)
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Cómo afectan los cambios de directiva a los chats existentes
 
@@ -119,19 +118,17 @@ Cuando el administrador de directivas del IB realiza cambios en una directiva o 
 
 Si hay un chat existente u otra comunicación entre los usuarios, y se establece una nueva directiva o se cambia una directiva existente, el servicio evalúa las comunicaciones existentes para asegurarse de que las comunicaciones siguen estando permitidas. 
 
-- **Chat 1:1:** si ya no se permite la comunicación entre dos usuarios (debido a la aplicación a uno o ambos usuarios de una directiva que bloquea la comunicación), se bloquea la comunicación adicional. Sus conversaciones de chat existentes se convierten en de solo lectura.
+- **Chat 1:1:** Si ya no se permite la comunicación entre dos usuarios (debido a la aplicación a uno o ambos usuarios de una directiva que bloquea la comunicación), se bloquea la comunicación adicional. Sus conversaciones de chat existentes se convierten en de solo lectura.
 
     Este es un ejemplo que muestra que el chat está visible.
 
-    > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra el chat de usuario está disponible.](media/ib-before-1-1chat-policy.png)
+    ![Captura de pantalla que muestra el chat de usuario está disponible.](media/ib-before-1-1chat-policy.png)
 
     Este es un ejemplo que muestra que el chat está deshabilitado.
 
-    > [!div class="mx-imgBorder"]
-    > ![La captura de pantalla que muestra el chat de usuario está deshabilitada.](media/ib-after-1-1chat-policy.png)
+    ![La captura de pantalla que muestra el chat de usuario está deshabilitada.](media/ib-after-1-1chat-policy.png)
 
-- Chat **grupal:** si ya no se permite la comunicación de un usuario a un grupo (por ejemplo, porque un usuario cambió los trabajos), el usuario, junto con los demás usuarios cuya participación infringe la directiva, puede quitarse del chat grupal y no se permitirá una comunicación adicional con el grupo. El usuario todavía puede ver conversaciones antiguas, pero no podrá ver ni participar en nuevas conversaciones con el grupo. Si la directiva nueva o modificada que impide la comunicación se aplica a más de un usuario, es posible que los usuarios afectados por la directiva se quiten del chat grupal. Todavía pueden ver conversaciones antiguas.
+- Chat **grupal:** si la comunicación de un usuario a un grupo ya no está permitida (por ejemplo, porque un usuario cambió los trabajos), el usuario, junto con los demás usuarios cuya participación infringe la directiva, puede quitarse del chat grupal y no se permitirá una comunicación adicional con el grupo. El usuario todavía puede ver conversaciones antiguas, pero no podrá ver ni participar en nuevas conversaciones con el grupo. Si la directiva nueva o modificada que impide la comunicación se aplica a más de un usuario, es posible que los usuarios afectados por la directiva se quiten del chat grupal. Todavía pueden ver conversaciones antiguas.
 
   En este ejemplo, Enrico se mueve a otro departamento de la organización y se quita del chat grupal.
 
@@ -141,7 +138,7 @@ Si hay un chat existente u otra comunicación entre los usuarios, y se establece
 
   ![Captura de pantalla de no poder enviar mensajes al chat grupal porque el usuario se quitó del grupo.](media/information-barriers-user-changes-job-2.png)
 
-- **Equipo:** todos los usuarios que se han quitado del grupo se quitan del equipo y no podrán ver ni participar en conversaciones existentes o nuevas.
+- **Equipo:** los usuarios que se han quitado del grupo se quitan del equipo y no podrán ver ni participar en conversaciones existentes o nuevas.
 
 ## <a name="scenario-a-user-in-an-existing-chat-becomes-blocked"></a>Escenario: Un usuario de un chat existente se bloquea
 
@@ -157,18 +154,17 @@ Actualmente, los usuarios experimentan los siguientes escenarios si una directiv
 
     Este es un ejemplo de la vista de pestaña actividad que está bloqueada.
 
-    > [!div class="mx-imgBorder"]
-    > ![Captura de pantalla que muestra la pestaña actividad que está bloqueada.](media/ib-after-activity-tab-policy.png)
+    ![Captura de pantalla que muestra la pestaña actividad que está bloqueada.](media/ib-after-activity-tab-policy.png)
 
 - **Organigramas:** si un usuario accede a un organigrama en el que aparece un usuario bloqueado, el usuario bloqueado no aparecerá en el organigrama. En su lugar, aparecerá un mensaje de error.
 
-- **Tarjeta Personas:** si un usuario participa en una conversación y el usuario se bloquea más tarde, otros usuarios verán un mensaje de error en lugar de la tarjeta de personas cuando pase el puntero sobre el nombre del usuario bloqueado. Las acciones enumeradas en la tarjeta (como llamadas y chats) no estarán disponibles.
+- **Tarjeta personas:** si un usuario participa en una conversación y el usuario se bloquea más tarde, otros usuarios verán un mensaje de error en lugar de la tarjeta de personas cuando pase el puntero sobre el nombre del usuario bloqueado. Las acciones enumeradas en la tarjeta (como llamadas y chats) no estarán disponibles.
 
 - **Contactos sugeridos:** los usuarios bloqueados no aparecen en la lista de contactos sugeridos (la lista de contactos inicial que aparece para los nuevos usuarios).
 
-- **Contactos de chat:** un usuario puede ver usuarios bloqueados en la lista de contactos de chats, pero los usuarios bloqueados se identificarán. La única acción que el usuario puede realizar en los usuarios bloqueados es eliminarlos. El usuario también puede hacer clic en ellos para ver su conversación anterior.
+- **Contactos de chat:** un usuario puede ver usuarios bloqueados en la lista de contactos de chats, pero los usuarios bloqueados se identificarán. La única acción que el usuario puede realizar en los usuarios bloqueados es eliminarlos. El usuario también puede seleccionarlo para ver su conversación anterior.
 
-- **Contactos de llamadas:** un usuario puede ver usuarios bloqueados en la lista de contactos de llamadas, pero se identificarán los usuarios bloqueados. La única acción que el usuario puede realizar en el bloque de usuarios es eliminarlos.
+- **Contactos de llamadas:** un usuario puede ver usuarios bloqueados en la lista de contactos de llamadas, pero los usuarios bloqueados se identificarán. La única acción que el usuario puede realizar en el bloque de usuarios es eliminarlos.
 
     Este es un ejemplo de un usuario bloqueado en la lista de contactos de llamadas.
 
@@ -180,34 +176,52 @@ Actualmente, los usuarios experimentan los siguientes escenarios si una directiv
     > [!div class="mx-imgBorder"]
     > ![Captura de pantalla que muestra el usuario bloqueado del chat.](media/ib-after-chat-contacts-policy.png)
 
-- Skype para **Teams:** durante una migración de Skype Empresarial a Teams, todos los usuarios, incluso aquellos que están bloqueados por directivas del IB, se migrarán a Teams. A continuación, esos usuarios se administran como se describe anteriormente.
+- Skype a **Teams:** durante una migración de Skype Empresarial a Teams, todos los usuarios, incluso aquellos que están bloqueados por directivas del IB, se migrarán a Teams. A continuación, esos usuarios se administran como se describe anteriormente.
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams directivas y SharePoint sitios
 
-Cuando se crea un equipo, SharePoint sitio se aprovisiona y se asocia con Microsoft Teams para la experiencia de archivos. Las directivas de barrera de información no se respetan en SharePoint sitio y archivos de forma predeterminada. Para habilitar las barreras de información en SharePoint y OneDrive, siga las instrucciones y los pasos del tema Usar [barreras](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) de información SharePoint información.
+Cuando se crea un equipo, SharePoint sitio se aprovisiona y se asocia con Microsoft Teams para la experiencia de archivos. Las directivas de barrera de información no se respetan en SharePoint sitio y archivos de forma predeterminada. Para habilitar las barreras de información en SharePoint y OneDrive, siga las instrucciones y los pasos del artículo Usar [barreras](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) de información SharePoint información.
+
+## <a name="information--barrier-modes-and-teams"></a>Modos de barrera de información y Teams
+
+El modo barreras de información ayuda a fortalecer quién se puede agregar o quitar de un equipo. Al usar barreras de información con Teams, se admiten los siguientes modos de IB:
+
+- **Abrir:** esta configuración es el modo IB predeterminado para todos los grupos existentes que se aprovisionaron antes de habilitar las barreras de información. En este modo, no hay directivas del IB aplicables.
+- **Implícito:** esta configuración es el modo IB predeterminado cuando se aprovisiona un equipo después de habilitar las barreras de información. El modo implícito le permite agregar todos los usuarios compatibles en el grupo.
+
+Microsoft 365 Los grupos creados antes de activar una directiva de barrera de información se establecen automáticamente en *modo* Abierto de forma predeterminada. Una vez que active las directivas del IB en su inquilino, se le obligaría a actualizar el modo que reevaluará los grupos y sitios y dará como resultado que los usuarios que no cumplan se quiten automáticamente de estos grupos y sitios. Si necesita cambiar  la configuración de modo abierto en grupos conectados Teams existentes para cumplir los requisitos de cumplimiento de su organización, tendrá que actualizar los modos [del IB](/sharepoint/information-barriers.md#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell) para los sitios SharePoint conectados al equipo de Teams.
+
+Use el cmdlet *Set-UnifiedGroup* con el parámetro *InformationBarrierMode* que corresponde al modo que desea usar para los segmentos. La lista de valores permitidos para *el parámetro InformationBarrierMode* son *Open* e *Implicit*.
+
+Por ejemplo, para configurar el *modo* implícito para un grupo Microsoft 365, usará el siguiente comando de PowerShell:
+
+```powershell
+Set-UnifiedGroup -InformationBarrierMode Implicit
+```
+
+>[!NOTE]
+>Si el administrador global actualiza el modo IB de un grupo de Microsoft 365 existente conectado Microsoft Teams a Implícito, asegúrese de actualizar el modo IB del sitio Teams conectado a *Implícito.* Para obtener más información, vea [Introducción a las barreras de información](/microsoft-365/compliance-information-barriers.md#information-barriers-modes-preview)]
+
+Para obtener más información sobre cómo los usuarios se pueden quitar automáticamente de los grupos, vea el artículo Asistente para el cumplimiento de barreras de información [(versión](/sharepoint/information-barriers-compliance-assistant) preliminar).
 
 ## <a name="required-licenses-and-permissions"></a>Licencias y permisos necesarios
 
-Para obtener más información sobre licencias y permisos, incluidos los planes y los precios, consulte Microsoft 365 de licencias para el cumplimiento de & [seguridad.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+Para obtener más información sobre licencias y permisos, planes y precios, consulte Microsoft 365 de licencias para el cumplimiento de & [seguridad.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="known-issues"></a>Problemas conocidos
 
-- Los usuarios no pueden unirse a reuniones ad hoc: si las directivas del IB están **habilitadas,** los usuarios no pueden unirse a reuniones si el tamaño de la lista de reuniones es mayor que los límites de asistencia a la [reunión.](limits-specifications-teams.md) La causa principal es que las comprobaciones del IB dependen de si los usuarios se pueden agregar a una lista de chat de reunión y solo cuando se pueden agregar a la lista se les permite unirse a la reunión. Un usuario que se une a una reunión una vez agrega ese usuario a la lista; por lo tanto, para las reuniones periódicas, la lista puede rellenarse rápidamente. Una vez que la lista de chat alcanza los límites [de](limits-specifications-teams.md)asistencia a la reunión, no se permite agregar usuarios adicionales a la reunión. Si IB está habilitado para el inquilino y la lista de chats está completa para una reunión, los usuarios nuevos (aquellos usuarios que aún no están en la lista) no podrán unirse a la reunión. Pero si ELI no está habilitado para el inquilino y la lista de chats de la reunión está completa, los nuevos usuarios (aquellos usuarios que aún no están en la lista) pueden unirse a la reunión, aunque no verán la opción de chat en la reunión. Una solución a corto plazo es quitar miembros inactivos de la lista de chats de la reunión para crear espacio para los nuevos usuarios. Sin embargo, aumentaremos el tamaño de las listas de chat de reunión más adelante.
-- Los usuarios no pueden unirse a las reuniones del canal: si las directivas del IB están **habilitadas,** los usuarios no pueden unirse a las reuniones del canal si no son miembros del equipo. La causa principal es que las comprobaciones del IB dependen de si los usuarios se pueden agregar a una lista de chat de reunión y solo cuando se pueden agregar a la lista se les permite unirse a la reunión. El hilo de chat de una reunión de canal solo está disponible para los miembros del equipo o del canal, y los que no son miembros no pueden ver ni acceder a la conversación de chat. Si IB está habilitado para el inquilino y un miembro que no es del equipo intenta unirse a una reunión del canal, ese usuario no puede unirse a la reunión. Sin embargo,  si ib no está habilitado para el inquilino y un miembro que no es del equipo intenta unirse a una reunión del canal, el usuario puede unirse a la reunión, pero no verá la opción de chat en la reunión.
-- Los propietarios de equipos no se quitan: si se aplica una nueva directiva del IB que da como resultado dos o más segmentos en conflicto presentes en un canal de Teams, los segmentos con propietarios de equipo tienen una preferencia más alta y se quitan otros usuarios del segmento. Además, en este momento, los propietarios de equipos no se quitan, incluso si están en conflicto con otros propietarios o usuarios. Los administradores de inquilinos y otros propietarios de canales tendrán que quitar los propietarios en conflicto manualmente.
-- **Número máximo de segmentos permitidos en un** espacio empresarial: cada espacio empresarial puede configurar hasta 100 segmentos al configurar directivas de IB. No hay ningún límite en el número de directivas que se pueden configurar.
-
-- **Las directivas del IB** no funcionan para usuarios federados: si permite la federación con inquilinos externos, las directivas del IB no restringirán los usuarios de esos inquilinos. Si los usuarios de su organización se unen a un chat o reunión organizado por usuarios federados externos, las directivas del IB tampoco restringirán la comunicación entre los usuarios de su organización.
+- Los usuarios no pueden unirse a reuniones ad hoc: si las directivas del IB están **habilitadas,** los usuarios no pueden unirse a reuniones si el tamaño de la lista de reuniones es mayor que los límites de asistencia a la [reunión.](limits-specifications-teams.md) La causa principal es que las comprobaciones del IB dependen de si los usuarios se pueden agregar a una lista de chat de reunión y solo cuando se pueden agregar a la lista se les permite unirse a la reunión. Un usuario que se une a una reunión una vez agrega ese usuario a la lista; por lo tanto, para las reuniones periódicas, la lista puede rellenarse rápidamente. Una vez que la lista de chat alcanza los límites [de](limits-specifications-teams.md)asistencia a la reunión, no se pueden agregar usuarios adicionales a la reunión. Si IB está habilitado para la organización y la lista de chats está completa para una reunión, los usuarios nuevos (aquellos usuarios que aún no están en la lista) no pueden unirse a la reunión. Pero si ELI no está habilitado para la organización y la lista de chats de la reunión está completa, los nuevos usuarios (aquellos usuarios que aún no están en la lista) pueden unirse a la reunión, aunque no verán la opción de chat en la reunión. Una solución a corto plazo es quitar miembros inactivos de la lista de chats de la reunión para crear espacio para los nuevos usuarios. Sin embargo, aumentaremos el tamaño de las listas de chat de reunión más adelante.
+- Los usuarios no pueden unirse a las reuniones del canal: si las directivas del IB están **habilitadas,** los usuarios no pueden unirse a las reuniones del canal si no son miembros del equipo. La causa principal es que las comprobaciones del IB dependen de si los usuarios se pueden agregar a una lista de chat de reunión y solo cuando se pueden agregar a la lista se les permite unirse a la reunión. El hilo de chat de una reunión de canal solo está disponible para los miembros del equipo o del canal, y los que no son miembros no pueden ver ni acceder a la conversación de chat. Si ELI está habilitado para la organización y un miembro que no es del equipo intenta unirse a una reunión del canal, ese usuario no puede unirse a la reunión. Sin embargo,  si ib no está habilitado para la organización y un miembro que no es del equipo intenta unirse a una reunión del canal, el usuario puede unirse a la reunión, pero no verá la opción de chat en la reunión.
+- **Número máximo de segmentos permitidos en** una organización: cada organización puede configurar hasta 100 segmentos al configurar directivas del IB. No hay ningún límite en el número de directivas que se pueden configurar.
+- **Las directivas del IB** no funcionan para usuarios federados: si permite la federación con organizaciones externas, las directivas del IB no restringirán los usuarios de dichas organizaciones. Si los usuarios de su organización se unen a un chat o reunión organizado por usuarios federados externos, las directivas del IB tampoco restringirán la comunicación entre los usuarios de su organización.
 
 ## <a name="more-information"></a>Más información
 
 - Para obtener más información sobre los IB, vea [Barreras de información.](/office365/securitycompliance/information-barriers)
-
-- Para configurar directivas del IB, vea [Definir directivas para barreras de información.](/office365/securitycompliance/information-barriers-policies)
-
-- Para editar o quitar directivas del IB, vea [Editar (o quitar) directivas de](/microsoft-365/compliance/information-barriers-edit-segments-policies)barrera de información.
+- Para configurar directivas del IB, vea [Introducción a las barreras de información.](/office365/securitycompliance/information-barriers-policies)
+- Para editar o quitar directivas del IB, vea [Administrar directivas de barreras de información.](/microsoft-365/compliance/information-barriers-edit-segments-policies)
 
 ## <a name="availability"></a>Disponibilidad
 
-- La característica está disponible en nuestra nube pública; en enero de 2021, se han lanzado barreras de información en la GCC nube.
-- La característica aún no está disponible en las nubes GCCH y DOD.
+- La característica está disponible en nuestra nube pública; en enero de 2021, hemos lanzado barreras de información en la GCC nube.
+- La característica aún no está disponible en el GCC: nubes altas y dod.
