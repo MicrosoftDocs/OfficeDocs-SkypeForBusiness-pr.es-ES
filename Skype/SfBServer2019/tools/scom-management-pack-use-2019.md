@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Summary: Learn how to configure your Skype Empresarial Server 2019 infrastructure to work with System Center Operations Manager.'
-ms.openlocfilehash: 90c40560ef1d39b462ce58b39804006dc7121024
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a58b98790b955953d916b26276e8579fb7989028
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727599"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011594"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Administrar Skype Empresarial Server 2019 con SCOM Management Pack
  
@@ -42,25 +42,25 @@ Identificar y [configurar el servidor de administración principal](../../SfbSer
 
 Los módulos de administración se pueden usar con System Center Operations Manager 2007 R2 (64 bits) (compatible solo con fines de migración) o System Center Operations Manager 2012 SP1 &amp; R2 (64 bits). En la tabla siguiente se muestran las configuraciones admitidas para los módulos de administración para Skype Empresarial Server 2019: 
   
-|**Configuración**|**¿Es compatible?**|
+|Configuración|¿Se admite?|
 |:-----|:-----|
-|Sistema operativo Windows Server 2008 R2  <br/> Windows Server 2012 Sistema operativo R2  <br/> |Sí. Tanto en Skype Empresarial Server servidor de 2019 como en nodos de monitor de transacciones sintéticas.  <br/> |
-|Servidores agrupados  <br/> |No admitida.  <br/> |
-|Supervisión sin agente  <br/> |No admitida.  <br/> |
-|Entorno virtual  <br/> |Sí.  <br/> |
-|Roles de servidor unidos a un dominio  <br/> |Todos los Skype Empresarial Server servidores internos de 2019 deben estar unidos a un dominio.  <br/> |
-|Roles de servidor independientes  <br/> |Skype Empresarial Server no es necesario que los servidores perimetrales de 2019 estén unidos a un dominio.  <br/> |
-|Limitaciones de topología  <br/> |Todos los roles de servidor de una implementación deben supervisarse desde el mismo grupo de administración de Operations Manager.  <br/> |
-|Nodo de monitor de transacciones sintéticas  <br/> |Se admite la disponibilidad de escenarios de supervisión con un nodo de monitor de transacciones sintéticas (se requiere una configuración adicional). Los nodos de monitor no son necesarios para unirse a un dominio.  <br/> |
+|Sistema operativo Windows Server 2008 R2  <br/> Windows Server 2012 Sistema operativo R2   |Sí. Tanto en Skype Empresarial Server servidor de 2019 como en nodos de monitor de transacciones sintéticas.   |
+|Servidores agrupados   |No admitida.   |
+|Supervisión sin agente   |No admitida.   |
+|Entorno virtual   |Sí.   |
+|Roles de servidor unidos a un dominio   |Todos los Skype Empresarial Server servidores internos de 2019 deben estar unidos a un dominio.   |
+|Roles de servidor independientes   |Skype Empresarial Server no es necesario que los servidores perimetrales de 2019 estén unidos a un dominio.   |
+|Limitaciones de topología   |Todos los roles de servidor de una implementación deben supervisarse desde el mismo grupo de administración de Operations Manager.   |
+|Nodo de monitor de transacciones sintéticas   |Se admite la disponibilidad de escenarios de supervisión con un nodo de monitor de transacciones sintéticas (se requiere una configuración adicional). Los nodos de monitor no son necesarios para unirse a un dominio.   |
    
 En la tabla siguiente se muestran los requisitos de capacidad y sistema operativo para un nodo de monitor de transacciones sintéticas:
   
-|**Componente de hardware**|**Requisito mínimo**|
+|Componente de hardware|Requisito mínimo|
 |:-----|:-----|
-|CPU  <br/> |Uno de los siguientes:  <br/> Procesador de 64 bits, cuatro núcleos, 2,33 GHz o superior  <br/> Procesador de 2 vías de 64 bits, doble núcleo, 2,33 GHz o superior  <br/> |
-|Memoria  <br/> |8 GB  <br/> |
-|Sistema operativo  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
-|Red  <br/> |1 adaptador de red a 1 Gbps  <br/> |
+|CPU   |Uno de los siguientes:  <br/> Procesador de 64 bits, cuatro núcleos, 2,33 GHz o superior  <br/> Procesador de 2 vías de 64 bits, doble núcleo, 2,33 GHz o superior   |
+|Memoria   |8 GB   |
+|Sistema operativo   |Windows Server 2008 R2 Windows Server 2012 R2   |
+|Red   |1 adaptador de red a 1 Gbps   |
    
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -100,13 +100,13 @@ Las siguientes características son nuevas para Skype Empresarial Server de admi
 
 El Skype Empresarial Server 2019 Management Pack aprovecha una variedad de características para ayudarle a detectar y diagnosticar problemas. Estas características proporcionan visibilidad en tiempo real del estado de un Skype Empresarial Server de 2019.
   
-|**Escenario de supervisión**|**Descripción**|
+|Escenario de supervisión|Descripción|
 |:-----|:-----|
-|Transacciones sintéticas  <br/> | Windows PowerShell cmdlets para probar y ayudar a garantizar la alta disponibilidad de escenarios como inicio de sesión, presencia, mensajería instantánea y conferencias para los usuarios. <br/> Las transacciones sintéticas se pueden ejecutar desde cualquier ubicación geográfica, incluso dentro de la empresa, fuera de la empresa y en sucursales.  <br/> Cuando se produce un error en una transacción sintética, los registros HTML se crean para ayudar a determinar la naturaleza exacta del error. Esto incluye comprender qué acción falló, la latencia de cada acción, la línea de comandos usada para ejecutar la prueba y el error específico que se produjo.  <br/> |
-|Alertas de confiabilidad de llamadas  <br/> |Los registros de detalles de llamadas (CDR) escritos por Skype Empresarial Server servidores de 2019 reflejan si los usuarios pueden conectarse a una llamada o por qué finaliza una llamada. Las alertas de confiabilidad de llamadas consultan la base de datos de CDR para producir alertas que indican cuándo un gran número de usuarios experimentan problemas de conectividad para las llamadas punto a punto o la funcionalidad básica de conferencia.  <br/> La cobertura del escenario incluye llamadas de audio, mensajería instantánea punto a punto (MI) y otras características de conferencia.  <br/> |
-|Alertas de calidad de medios  <br/> |Consultas de base de datos que miran los informes de calidad de la experiencia (QoE) publicados por Skype Empresarial Server 2019 al final de cada llamada. Estas consultas producen alertas que localizan escenarios en los que es más probable que los usuarios experimente una calidad de medios comprometida durante las llamadas y conferencias. Los datos se basa en métricas clave, como la latencia y la pérdida de paquetes, que contribuyen directamente a la calidad de la experiencia del usuario.  <br/> |
-|Alertas de estado de componentes  <br/> |Los componentes de servidor individuales elevan alertas a través de registros de eventos y contadores de rendimiento para indicar condiciones de error que pueden afectar significativamente a los escenarios de usuario. Estas alertas indican una variedad de condiciones, como servicios que no se ejecutan, tasas de error elevadas, latencia de mensajes alta o problemas de conectividad.  <br/> |
-|Supervisión del estado de dependencia  <br/> |Skype Empresarial Server puede producir un error por diversos motivos externos. El Módulo de administración supervisa y recopila datos de dependencias externas críticas que pueden indicar problemas graves. Estas dependencias incluyen Internet Information Services (IIS) y CPU de servidores usados para Skype Empresarial Server.  <br/> |
+|Transacciones sintéticas   | Windows PowerShell cmdlets para probar y ayudar a garantizar la alta disponibilidad de escenarios como inicio de sesión, presencia, mensajería instantánea y conferencias para los usuarios. <br/> Las transacciones sintéticas se pueden ejecutar desde cualquier ubicación geográfica, incluso dentro de la empresa, fuera de la empresa y en sucursales.  <br/> Cuando se produce un error en una transacción sintética, los registros HTML se crean para ayudar a determinar la naturaleza exacta del error. Esto incluye comprender qué acción falló, la latencia de cada acción, la línea de comandos usada para ejecutar la prueba y el error específico que se produjo.   |
+|Alertas de confiabilidad de llamadas   |Los registros de detalles de llamadas (CDR) escritos por Skype Empresarial Server servidores de 2019 reflejan si los usuarios pueden conectarse a una llamada o por qué finaliza una llamada. Las alertas de confiabilidad de llamadas consultan la base de datos de CDR para producir alertas que indican cuándo un gran número de usuarios experimentan problemas de conectividad para las llamadas punto a punto o la funcionalidad básica de conferencia.  <br/> La cobertura del escenario incluye llamadas de audio, mensajería instantánea punto a punto (MI) y otras características de conferencia.   |
+|Alertas de calidad de medios   |Consultas de base de datos que miran los informes de calidad de la experiencia (QoE) publicados por Skype Empresarial Server 2019 al final de cada llamada. Estas consultas producen alertas que localizan escenarios en los que es más probable que los usuarios experimente una calidad de medios comprometida durante las llamadas y conferencias. Los datos se basa en métricas clave, como la latencia y la pérdida de paquetes, que contribuyen directamente a la calidad de la experiencia del usuario.   |
+|Alertas de estado de componentes   |Los componentes de servidor individuales elevan alertas a través de registros de eventos y contadores de rendimiento para indicar condiciones de error que pueden afectar significativamente a los escenarios de usuario. Estas alertas indican una variedad de condiciones, como servicios que no se ejecutan, tasas de error elevadas, latencia de mensajes alta o problemas de conectividad.   |
+|Supervisión del estado de dependencia   |Skype Empresarial Server puede producir un error por diversos motivos externos. El Módulo de administración supervisa y recopila datos de dependencias externas críticas que pueden indicar problemas graves. Estas dependencias incluyen Internet Information Services (IIS) y CPU de servidores usados para Skype Empresarial Server.   |
    
 ### <a name="alert-prioritization"></a>Priorización de alertas
 
@@ -124,70 +124,70 @@ Skype Empresarial Server módulos de administración de 2019 proporcionan una ma
   
 **Transacciones sintéticas admitidas para registro, presencia y contactos**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|1  <br/> |Registro (inicio de sesión de usuario)  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
-|2  <br/> |Servicio de libreta de direcciones (descarga de archivos)  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
-|3  <br/> |Consulta web de la libreta de direcciones  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
-|4   <br/> |Presencia  <br/> |Lync Server 2010 y posteriores disponibles  <br/> |
-|5   <br/> |Almacén de contactos unificado  <br/> |Lync Server 2013 y posteriores disponibles  <br/> |
+|1   |Registro (inicio de sesión de usuario)   |Lync Server 2010 y posteriores disponibles   |
+|2   |Servicio de libreta de direcciones (descarga de archivos)   |Lync Server 2010 y posteriores disponibles   |
+|3   |Consulta web de la libreta de direcciones   |Lync Server 2010 y posteriores disponibles   |
+|4    |Presencia   |Lync Server 2010 y posteriores disponibles   |
+|5   |Almacén de contactos unificado   |Lync Server 2013 y posteriores disponibles   |
    
 **Transacciones sintéticas admitidas para servicios punto a punto**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|6   <br/> |Mensajería instantánea punto a punto  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
-|7   <br/> |Vídeo de audio punto a punto  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
-|8   <br/> |Mensaje instantáneo punto a punto de MCX (móvil)  <br/> |Disponible en la versión de septiembre de 2011 de Lync Server 2010 a Skype Empresarial 2019  <br/> |
+|6    |Mensajería instantánea punto a punto   |Disponible en Lync Server 2010 y posteriores   |
+|7    |Vídeo de audio punto a punto   |Disponible en Lync Server 2010 y posteriores   |
+|8    |Mensaje instantáneo punto a punto de MCX (móvil)   |Disponible en la versión de septiembre de 2011 de Lync Server 2010 a Skype Empresarial 2019   |
  
 > [!NOTE]
 > La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes Skype Empresarial móviles ya usan la API web de comunicaciones unificadas (UCWA) para admitir mensajería instantánea (MI), presencia y contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
   
 **Transacciones sintéticas admitidas para conferencias y chat persistente**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|9   <br/> |Conferencia de audio y videoconferencia  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
-|10  <br/> |Conferencia de datos  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
-|11   <br/> |Conferencia de mensajes instantáneos  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
-|12   <br/> | Chat persistente <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
-|13  <br/> |Unirse Selector (reuniones programadas)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
-|14   <br/> |Conferencia de acceso telefónico local  <br/> |Disponible en Skype Empresarial Server 2015 y posteriores <br/> |
-|15   <br/> |Conferencia de uso compartido de aplicaciones  <br/> |Disponible en Skype Empresarial Server 2015 y posteriores <br/> |
-|16   <br/> |Conferencia UCWA (unirse a una reunión web)  <br/> |Disponible en Skype Empresarial Server 2015 y posteriores <br/> |
+|9    |Conferencia de audio y videoconferencia   |Disponible en Lync Server 2010 y posteriores   |
+|10   |Conferencia de datos   |Disponible en Lync Server 2013 y posteriores   |
+|11   |Conferencia de mensajes instantáneos   |Disponible en Lync Server 2010 y posteriores   |
+|12    | Chat persistente  |Disponible en Lync Server 2013 y posteriores   |
+|13   |Unirse Selector (reuniones programadas)   |Disponible en Lync Server 2013 y posteriores   |
+|14    |Conferencia de acceso telefónico local   |Disponible en Skype Empresarial Server 2015 y posteriores  |
+|15    |Conferencia de uso compartido de aplicaciones   |Disponible en Skype Empresarial Server 2015 y posteriores  |
+|16   |Conferencia UCWA (unirse a una reunión web)   |Disponible en Skype Empresarial Server 2015 y posteriores  |
    
 **Transacciones sintéticas admitidas para dependencias de red y partners**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|17   <br/> |Conectividad perimetral av  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
-|18   <br/> |Conectividad perimetral AV Exchange de mensajes unificados (correo de voz)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
-|19  <br/> |Llamada de punto a punto RTC  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
-|20  <br/> |Mensajería instantánea XMPP (federación)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
-| 21  <br/> |Servidor de interoperabilidad de vídeo  <br/> |Disponible en Skype Empresarial Server 2015 y posteriores  <br/> |
+|17    |Conectividad perimetral av   |Disponible en Lync Server 2013 y posteriores   |
+|18    |Conectividad perimetral AV Exchange de mensajes unificados (correo de voz)   |Disponible en Lync Server 2013 y posteriores   |
+|19   |Llamada de punto a punto RTC   |Disponible en Lync Server 2010 y posteriores   |
+|20   |Mensajería instantánea XMPP (federación)   |Disponible en Lync Server 2013 y posteriores   |
+| 21   |Servidor de interoperabilidad de vídeo   |Disponible en Skype Empresarial Server 2015 y posteriores   |
    
 ## <a name="how-health-rolls-up"></a>Cómo se revierte el estado
 
 En la tabla siguiente se muestran los estados de mantenimiento de los objetos Skype Empresarial Server de supervisión.
   
-|**Objeto Management Pack**|**Descripción**|
+|Objeto Management Pack|Descripción|
 |:-----|:-----|
-|Skype Empresarial Server Implementación  <br/> |Representa la implementación de Skype Empresarial Server 2019 en la organización.  <br/> |
-|Skype Empresarial Server Sitio  <br/> |Representa diferentes ubicaciones geográficas donde se implementan los servicios.  <br/> |
-|Skype Empresarial Server Grupo de servidores  <br/> |Un grupo de servidores (dentro de un sitio) que proporciona servicios de comunicaciones, como mensajería instantánea y conferencia, a los usuarios. Aplicable a grupos de servidores front-end, grupos de servidores perimetrales y grupos de directores, incluso si solo hay una sola máquina en un grupo determinado.  <br/> |
-|Skype Empresarial Server Rol  <br/> |Un rol de servidor que hospeda Skype Empresarial Server servicio.  <br/> |
-|Skype Empresarial Server Servicio  <br/> |Representa una funcionalidad implementada en un equipo específico (por ejemplo, servicio de usuario en fp01.contoso.com).  <br/> |
-|Skype Empresarial Server Componente  <br/> |Un componente del servicio (por ejemplo, el componente de descarga de libreta de direcciones forma parte del servicio web).  <br/> |
-|Skype Empresarial Server Pool Watcher  <br/> |Instancia de transacciones sintéticas que se ejecutan en un grupo.  <br/> |
-|Skype Empresarial Server Registrador  <br/> |Instancia de transacciones sintéticas que se ejecutan en un grupo de registradores.  <br/> |
-|Skype Empresarial Server User Services Pool Watcher  <br/> |Instancia de transacciones sintéticas que se ejecutan en un grupo de servicios de usuario.  <br/> |
-|Skype Empresarial Server Watcher de grupo de voz  <br/> |Una instancia de transacciones sintéticas que se ejecutan en un grupo de servidores de voz.  <br/> |
-|Skype Empresarial Server Port Watcher  <br/> |Instancia de comprobaciones de puerto que se ejecutan en un grupo de servidores.  <br/> |
-|Simple URL Watcher  <br/> |Realiza el sondeo HTTPS de las direcciones URL sencillas configuradas en una implementación.  <br/> |
+|Skype Empresarial Server Implementación   |Representa la implementación de Skype Empresarial Server 2019 en la organización.   |
+|Skype Empresarial Server Sitio   |Representa diferentes ubicaciones geográficas donde se implementan los servicios.   |
+|Skype Empresarial Server Grupo de servidores   |Un grupo de servidores (dentro de un sitio) que proporciona servicios de comunicaciones, como mensajería instantánea y conferencia, a los usuarios. Aplicable a grupos de servidores front-end, grupos de servidores perimetrales y grupos de directores, incluso si solo hay una sola máquina en un grupo determinado.   |
+|Skype Empresarial Server Rol   |Un rol de servidor que hospeda Skype Empresarial Server servicio.   |
+|Skype Empresarial Server Servicio   |Representa una funcionalidad implementada en un equipo específico (por ejemplo, servicio de usuario en fp01.contoso.com).   |
+|Skype Empresarial Server Componente   |Un componente del servicio (por ejemplo, el componente de descarga de libreta de direcciones forma parte del servicio web).   |
+|Skype Empresarial Server Pool Watcher   |Instancia de transacciones sintéticas que se ejecutan en un grupo.   |
+|Skype Empresarial Server Registrador   |Instancia de transacciones sintéticas que se ejecutan en un grupo de registradores.   |
+|Skype Empresarial Server User Services Pool Watcher   |Instancia de transacciones sintéticas que se ejecutan en un grupo de servicios de usuario.   |
+|Skype Empresarial Server Watcher de grupo de voz   |Una instancia de transacciones sintéticas que se ejecutan en un grupo de servidores de voz.   |
+|Skype Empresarial Server Port Watcher   |Instancia de comprobaciones de puerto que se ejecutan en un grupo de servidores.   |
+|Simple URL Watcher   |Realiza el sondeo HTTPS de las direcciones URL sencillas configuradas en una implementación.   |
    
 ![Paquete acumulativo de SCOM.](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
-Un grupo Skype Empresarial Server puede contener varios sistemas de Skype Empresarial Server individuales (con más de un rol Skype Empresarial Server, Skype Empresarial Server servicio y Skype Empresarial Server componente). Por lo tanto, el error de un servidor o componente individual es menos crítico para el estado general del grupo de servidores de Skype Empresarial Server, ya que otros servidores del mismo grupo pueden proporcionar el servicio de aplicación al cliente. El estado se revertirá en un nivel porcentual al Skype Empresarial Server grupo de servidores. 
+Un grupo Skype Empresarial Server puede contener varios sistemas de Skype Empresarial Server individuales (con más de Skype Empresarial Server función, Skype Empresarial Server servicio y Skype Empresarial Server). Por lo tanto, el error de un servidor o componente individual es menos crítico para el estado general del grupo de servidores de Skype Empresarial Server, ya que otros servidores del mismo grupo pueden proporcionar el servicio de aplicación al cliente. El estado se revertirá en un nivel porcentual al Skype Empresarial Server grupo de servidores. 
   
 El Skype Empresarial Server grupo de servidores realiza transacciones sintéticas en un grupo Skype Empresarial Server grupo de servidores. El error consecutivo de una o más transacciones sintéticas (un proceso conocido como intervalo de sondeo consecutivo) subirá el estado de estado crítico al nivel de grupo (peor de cualquier transacción sintética), como se muestra en el siguiente diagrama. 
   
@@ -243,18 +243,11 @@ Para obtener información adicional acerca de Operations Manager, consulte los b
   
 - [Blog del equipo de Operations Manager](https://blogs.technet.com/momteam/default.aspx)
     
-- [Blog de OpsMgr de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
-    
 - [Ideas sobre OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
-- [Blog de Rafael Burri](https://rburri.wordpress.com/)
-    
-- [Espacio de administración de BWren](https://blogs.technet.com/brianwren/default.aspx)
-    
-- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
-> Toda la información y el contenido de los sitios que no sean propiedad de Microsoft han sido proporcionados por el propietario o los usuarios del sitio web. Microsoft no ofrece garantías, expresas, implícitas o estatutarias, en cuanto a la información de este sitio web. 
+> Toda la información y el contenido de los sitios que no sean propiedad de Microsoft han sido proporcionados por el propietario o los usuarios del sitio web. Microsoft no ofrece garantías, expresas, implícitas o estatutarias, en cuanto a la información de este sitio web.
   
 ## <a name="see-also"></a>Vea también
 

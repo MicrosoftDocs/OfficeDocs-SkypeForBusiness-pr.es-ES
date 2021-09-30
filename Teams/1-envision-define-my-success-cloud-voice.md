@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Definir el éxito de la implementación de audioconferencias, Sistema telefónico con planes de llamadas o Sistema telefónico enrutamiento directo para su organización.
+description: Definir el éxito de la implementación de audioconferencias, sistema telefónico con planes de llamadas o enrutamiento directo del sistema telefónico para su organización.
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -19,24 +19,24 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 749cea72707f03b738330a39457d95fdfad33a43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4e669e0454f65ef4d3d5ecc0b4832b33201d2703
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609067"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011764"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
-En este artículo se proporciona información general sobre los requisitos para definir el éxito de la implementación de audioconferencias, Sistema telefónico con planes de llamadas o Sistema telefónico enrutamiento directo para su organización. Al definir correctamente el aspecto del éxito, puede medir los resultados a medida que avanza en la implementación y comprobar que los resultados que obtiene son los que desea.
+En este artículo se proporciona información general sobre los requisitos para definir el éxito para la implementación de audioconferencias, sistema telefónico con planes de llamadas o enrutamiento directo del sistema telefónico para su organización. Al definir correctamente el aspecto del éxito, puede medir los resultados a medida que avanza en la implementación y comprobar que los resultados que obtiene son los que desea.
 
 <!--ENDOFSECTION-->
 
  Las audioconferencias proporcionan a las organizaciones puntos de entrada adicionales a cualquier reunión (ad hoc o programada) al permitir que los participantes de la reunión se unan a través de la red telefónica conmutada (RTC) mediante llamadas telefónicas con teléfono fijo tradicional, centrales privadas (PBX) o teléfonos móviles. Esto es útil cuando el organizador o los participantes no están delante de un equipo, o cuando las conexiones de datos no están disponibles o son demasiado poco confiables para admitir las comunicaciones de voz, como en un área remota con cobertura de datos móviles impecable, o conectada a un servicio Wi-Fi público gratuito con ancho de banda limitado, o cuando los participantes de la reunión prefieren llamar a la reunión mediante un punto de conexión de telefonía fácilmente accesible para ellos.
 
-Sistema telefónico planes de llamadas ("Planes de **llamadas")** ofrece a las organizaciones una forma de modernizar su lugar de trabajo al permitir a los usuarios realizar llamadas telefónicas relacionadas con la empresa desde sus equipos y dispositivos móviles. La modernización del lugar de trabajo puede formar parte de cualquier número de escenarios: una implementación de trabajo basada en actividades, un movimiento de oficina importante, una actualización de adaptación de la oficina, la retirada de una solución PBX heredada, la conclusión de un contrato de proveedor de servicios RTC, y así sucesivamente. Con planes de llamadas, Microsoft facilita la conectividad a la RTC.
+**El sistema telefónico con planes** de llamadas ("Planes de llamadas") ofrece a las organizaciones una forma de modernizar su lugar de trabajo al permitir a los usuarios realizar llamadas telefónicas relacionadas con la empresa desde sus equipos y dispositivos móviles. La modernización del lugar de trabajo puede formar parte de cualquier número de escenarios: una implementación de trabajo basada en actividades, un movimiento de oficina importante, una actualización de adaptación de la oficina, la retirada de una solución PBX heredada, la conclusión de un contrato de proveedor de servicios RTC, y así sucesivamente. Con planes de llamadas, Microsoft facilita la conectividad a la RTC.
 
-Sistema telefónico enrutamiento directo **("Enrutamiento directo")** proporciona a las organizaciones las mismas ventajas enumeradas anteriormente para planes de llamadas, excepto que la conectividad RTC se facilita por un proveedor de terceros en lugar de Microsoft. Esto permite la implementación en países donde los planes de llamadas no están disponibles o en implementaciones en las que es necesario mantener un contrato de proveedor de servicios RTC existente o interoperabilidad con determinados sistemas locales. Un escenario adicional para considerar enrutamiento directo es la interoperabilidad del sistema de telefonía. Mientras los usuarios se están transición a Llamadas en Teams, es posible que algunos usuarios permanezcan en PBX heredados. Enrutamiento directo permite que ambos casos de uso coexistan. El tráfico de llamadas entre los usuarios de sistemas heredados Teams los usuarios permanecen dentro de la organización.
+El enrutamiento directo del sistema telefónico **("enrutamiento directo")** proporciona a las organizaciones las mismas ventajas enumeradas anteriormente para los planes de llamadas, excepto que la conectividad RTC se facilita por un proveedor de terceros en lugar de Microsoft. Esto permite la implementación en países donde los planes de llamadas no están disponibles o en implementaciones en las que es necesario mantener un contrato de proveedor de servicios RTC existente o interoperabilidad con determinados sistemas locales. Un escenario adicional para considerar enrutamiento directo es la interoperabilidad del sistema de telefonía. Mientras los usuarios se están transición a Llamadas en Teams, es posible que algunos usuarios permanezcan en PBX heredados. Enrutamiento directo permite que ambos casos de uso coexistan. El tráfico de llamadas entre los usuarios de sistemas heredados y los usuarios de Teams permanece dentro de la organización.
 
 <!--ENDOFSECTION-->
 
@@ -62,7 +62,7 @@ Los casos de uso empresarial están diseñados para definir y documentar los res
 > |**Descripción del proceso de negocio actual**<br>Contoso utiliza en estos momentos los servicios de Conferencia RTC que ofrece el proveedor de telefonía local que le corresponde y que se cobran por minutos de reunión en reuniones internas y reuniones en las que participan usuarios externos.|
 > |**Retos que se deben conseguir con el proceso de negocio actual definido**<br>Contoso gasta aproximadamente un millón de usd al año para el servicio de conferencias RTC actual, con el 75 % del costo en que se incurre para las reuniones internas. El uso de puntos de conexión de telefonía tradicionales para unirse a las reuniones hospedadas por el servicio de conferencias RTC no está alineado con el plan para que la organización adopte Teams como una plataforma moderna de comunicaciones y colaboración.|
 > |**De qué manera la tecnología puede ayudar a alcanzar estos retos**<br>Con la adopción de Microsoft Teams como una plataforma moderna de comunicaciones y colaboración, se espera que los usuarios internos se unan principalmente a las reuniones con sus equipos equipados con auriculares optimizados y dispositivos de salas de reuniones. El servicio de audioconferencia estará disponible para admitir participantes externos o para admitir situaciones en las que el uso del audio del equipo no sea favorable para los participantes internos.|
-> |**Propósitos y medición de los resultados de negocio**<br>El paso a Teams como una plataforma moderna de comunicaciones y colaboración, combinada con el servicio de audioconferencia, reducirá en gran medida el costo de la entrega del servicio de conferencias RTC.|
+> |**Propósitos y medición de los resultados de negocio**<br>El cambio a Teams como una plataforma moderna de comunicaciones y colaboración, combinada con el servicio de audioconferencia, reducirá en gran medida el costo de la entrega del servicio de conferencias RTC.|
 
 <br>
 
@@ -73,7 +73,7 @@ Los casos de uso empresarial están diseñados para definir y documentar los res
 > |---------|
 > |**Descripción del proceso de negocio actual**<br>La configuración estándar de las áreas de trabajo de office de Contoso incluye un teléfono de escritorio para cada escritorio. A cada empleado se le ha concedido un número de teléfono de marcación directa (DID). Los teléfonos de escritorio están conectados a un sistema PBX y conectados a RTC a través de un tronco de protocolo de inicio de sesión (SIP). Los empleados solo pueden realizar y recibir llamadas telefónicas en sus teléfonos de escritorio asignados.|
 > |**Retos que se deben conseguir con el proceso de negocio actual definido**<br>El análisis de uso de los teléfonos de escritorio muestra que solo el 10 % de los teléfonos de escritorio se usan activamente, mientras que el resto está configurado para reenviar llamadas a teléfonos móviles o para llamar simultáneamente a teléfonos móviles. Mantener el sistema PBX existente y los teléfonos de escritorio asociados contribuye al 20 % del costo mensual del servicio de telefonía de Contoso.|
-> |**De qué manera la tecnología puede ayudar a alcanzar estos retos**<br>Los planes de llamadas permitirán al equipo personal de un usuario recibir y realizar llamadas telefónicas a través de la red de datos aprovechando la aplicación nativa Microsoft Teams usuario. Esto quita la necesidad de implementar y mantener teléfonos de escritorio y abre la oportunidad de retirar el sistema PBX existente, ya que el servicio telefónico se puede entregar a través de la nube a través de la red sin dependencia de un sistema telefónico tradicional.|
+> |**De qué manera la tecnología puede ayudar a alcanzar estos retos**<br>Los planes de llamadas permitirán al equipo personal de un usuario recibir y realizar llamadas telefónicas a través de la red de datos aprovechando la aplicación nativa de Microsoft Teams. Esto quita la necesidad de implementar y mantener teléfonos de escritorio y abre la oportunidad de retirar el sistema PBX existente, ya que el servicio telefónico se puede entregar a través de la nube a través de la red sin dependencia de un sistema telefónico tradicional.|
 > |**Propósitos y medición de los resultados de negocio**<br>La eliminación de los requisitos de mantenimiento y la retirada de PBX y teléfonos de escritorio heredados permitirá una reducción del 20 % en los gastos mensuales del servicio de telefonía. Los planes de llamadas simplificarán los espacios de trabajo de office, lo que permite a Contoso expandir sus operaciones estableciendo nuevas oficinas con costos de telefonía inicial mínimos.|
 
 <br>
@@ -85,18 +85,18 @@ Los casos de uso empresarial están diseñados para definir y documentar los res
 > |---------|
 > |**Descripción del proceso de negocio actual**<br>La configuración estándar de las áreas de trabajo de office de Contoso incluye un teléfono de escritorio para cada escritorio. A cada empleado se le ha concedido un número de teléfono de marcación directa (DID). Los teléfonos de escritorio están conectados a un sistema PBX y conectados a RTC a través de un tronco de protocolo de inicio de sesión (SIP). Los empleados solo pueden realizar y recibir llamadas telefónicas en sus teléfonos de escritorio asignados.|
 > |**Retos que se deben conseguir con el proceso de negocio actual definido**<br>El análisis de uso de los teléfonos de escritorio muestra que solo el 10 % de los teléfonos de escritorio se usan activamente, mientras que el resto está configurado para reenviar llamadas a teléfonos móviles o para llamar simultáneamente a teléfonos móviles. Mantener el sistema PBX existente y los teléfonos de escritorio asociados contribuye al 20 % del costo mensual del servicio de telefonía de Contoso.|
-> |**De qué manera la tecnología puede ayudar a alcanzar estos retos**<br>El contrato de proveedor de troncos SIP se firmó recientemente y estará en su lugar durante tres años. Enrutamiento directo permite que el proveedor de troncos SIP pueda proporcionar conectividad RTC y también permitirá que el equipo personal de un usuario reciba y haga llamadas telefónicas a través de la red de datos aprovechando la aplicación nativa Microsoft Teams datos. Esto quita la necesidad de implementar y mantener los teléfonos de escritorio y abre la oportunidad de retirar el sistema PBX existente, al tiempo que se mantiene una huella limitada del controlador de borde de sesión local (SBC).|
+> |**De qué manera la tecnología puede ayudar a alcanzar estos retos**<br>El contrato de proveedor de troncos SIP se firmó recientemente y estará en su lugar durante tres años. Enrutamiento directo permite que el proveedor de troncos SIP pueda proporcionar conectividad RTC y también permitirá al equipo personal de un usuario recibir y realizar llamadas telefónicas a través de la red de datos aprovechando la aplicación nativa de Microsoft Teams. Esto quita la necesidad de implementar y mantener los teléfonos de escritorio y abre la oportunidad de retirar el sistema PBX existente, al tiempo que se mantiene una huella limitada del controlador de borde de sesión local (SBC).|
 > |**Propósitos y medición de los resultados de negocio**<br>La eliminación de los requisitos de mantenimiento y la retirada de PBX y teléfonos de escritorio heredados permitirá una reducción del 20 % en los gastos mensuales del servicio de telefonía. Enrutamiento directo simplificará los espacios de trabajo de office, lo que permite a Contoso expandir sus operaciones estableciendo nuevas oficinas con costos de telefonía inicial mínimos.|
 
 Además de definir los casos de uso de su empresa, para establecer los límites del proyecto, debe apuntar a mejorar la claridad:
 
 -   **Ámbito de la organización:** La implementación de audioconferencias, planes de llamadas o enrutamiento directo puede abarcar toda la organización o solo unidades de negocio específicas.
 
--   **Project escala de tiempo:** La escala de tiempo específica que se ejecutará el proyecto.
+-   **Escala de tiempo del proyecto:** La escala de tiempo específica que se ejecutará el proyecto.
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |Puntos de decisión|<ul><li>¿Cuáles son todos los casos de uso empresarial para las audioconferencias que puede identificar en su organización?</li><li>¿Cuáles son todos los casos de uso empresarial para planes de llamadas que puede identificar en su organización?</li><li>¿Cuáles son todos los casos de uso empresarial para enrutamiento directo que puede identificar en su organización?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente todos los casos de uso empresarial para conferencias de audio para su organización.</li><li>Documente todos los casos de uso empresarial para planes de llamadas de su organización.</li><li>Documente todos los casos de uso empresarial para enrutamiento directo para su organización.</li></ul>|
@@ -112,7 +112,7 @@ Los casos de uso empresarial definidos en el paso anterior incluyen un ámbito o
 > 
 > |Rol  |Descripción  |Nombre, información de contacto, ubicación  |
 > |---------|---------|---------|
-> |Patrocinador ejecutivo de proyecto|<ul><li>Tome la máxima autoridad y responsabilidad para el proyecto y la entrega de los objetivos del proyecto.</li><li>Ayude a resolver los problemas que ha escalado el Project cliente potencial.</li><li>Comunicación de patrocinador dentro de la empresa sobre los objetivos del proyecto.</li><li>Tome decisiones estratégicas clave.</li><li>Asegúrese de la disponibilidad de los recursos y el presupuesto necesarios.</li><li>Liderar revisiones empresariales trimestrales (QBR).</li><li>Impulsar la compra y el soporte de los esfuerzos de campaña de concienciación.</li><li>Sirva como el Project patrocinador del lanzamiento del programa.</li></ul>|Por añadir|
+> |Patrocinador ejecutivo de proyecto|<ul><li>Tome la máxima autoridad y responsabilidad para el proyecto y la entrega de los objetivos del proyecto.</li><li>Ayude a resolver los problemas que ha escalado el cliente potencial del proyecto.</li><li>Comunicación de patrocinador dentro de la empresa sobre los objetivos del proyecto.</li><li>Tome decisiones estratégicas clave.</li><li>Asegúrese de la disponibilidad de los recursos y el presupuesto necesarios.</li><li>Liderar revisiones empresariales trimestrales (QBR).</li><li>Impulsar la compra y el soporte de los esfuerzos de campaña de concienciación.</li><li>Servir como patrocinador del proyecto para la implementación del programa.</li></ul>|Por añadir|
 > |Responsable de proyecto|<ul><li>Administrar y dirigir el equipo del proyecto.</li><li>Coordinar partners y equipos de trabajo implicados en el proyecto.</li><li>Sea responsable de la creación y administración de planes de proyecto para cumplir los resultados clave trimestrales.</li><li>Resolver problemas entre funciones.</li><li>Proporcione actualizaciones periódicas a los patrocinadores del proyecto.</li><li>Incorporar aspectos de adopción en el plan de proyecto integral.</li><li>Dirigir revisiones operativas y empresariales mensuales (MBR), contribuir a los QBR.</li></ul>|Por añadir|
 > |Arquitecto/responsable de colaboración|<ul><li>Ejecutar en la estrategia de colaboración definida por los ejecutivos de la compañía.</li><li>Analice y elija productos de colaboración que cumplan los objetivos empresariales de la empresa.</li><li>Diseñar operaciones para productos de colaboración.</li><li>Definir modelos de operación y soporte técnico.</li><li>Contribuya a las revisiones empresariales mensuales y trimestrales.</li></ul>|Por añadir|
 > |Consultor|<ul><li>Ser responsable de los servicios de configuración</li><li>Contribuya a la arquitectura general de la solución.</li></ul>|Por añadir|
@@ -131,9 +131,9 @@ Los casos de uso empresarial definidos en el paso anterior incluyen un ámbito o
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Puntos de decisión|<ul><li>Quién ocupará cada rol clave de las partes interesadas de su organización?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Puntos de decisión|<ul><li>¿Quién ocupará cada rol clave de las partes interesadas de su organización?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente a todas las partes interesadas clave y comunique las responsabilidades y expectativas del rol a cada persona asignada.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -150,7 +150,7 @@ Los OKR contienen los objetivos que estableció al principio del proyecto y defi
 > A continuación se puede hacer referencia a ejemplos de OKR relevantes para una implementación de audioconferencia:
 > <br>
 > 
-> **Visión: Aumentar la productividad maximizando Microsoft 365 o Office 365 inversiones**
+> **Visión: Aumentar la productividad maximizando las inversiones de Microsoft 365 u Office 365**
 > 
 > |Objetivos  |Resultados clave  |Para hacer  |
 > |---------|---------|---------|
@@ -163,7 +163,7 @@ Los OKR contienen los objetivos que estableció al principio del proyecto y defi
 > A continuación se puede hacer referencia a ejemplos de OKR relevantes para una implementación de planes de llamadas:
 > <br>
 > 
-> **Visión: Aumentar la productividad maximizando Microsoft 365 o Office 365 inversiones**
+> **Visión: Aumentar la productividad maximizando las inversiones de Microsoft 365 u Office 365**
 > 
 > |Objetivos  |Resultados clave  |Para hacer  |
 > |---------|---------|---------|
@@ -174,7 +174,7 @@ Los OKR contienen los objetivos que estableció al principio del proyecto y defi
 > A continuación se puede hacer referencia a ejemplos de OKR relevantes para una implementación de enrutamiento directo:
 > <br>
 > 
-> **Visión: Aumentar la productividad maximizando Microsoft 365 o Office 365 inversiones**
+> **Visión: Aumentar la productividad maximizando las inversiones de Microsoft 365 u Office 365**
 > 
 > |Objetivos  |Resultados clave  |Para hacer  |
 > |---------|---------|---------|
@@ -204,7 +204,7 @@ Al definir las KSIs, le recomendamos que use criterios "específicos, mensurable
 > |---------|---------|---------|---------|---------|---------|
 > |Uso/adopción|La calidad de las llamadas es igual o mejor que en la solución anterior|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de tecnología de la información|
 > |Uso/adopción|El proceso de comunicación fue más sencillo gracias a Microsoft Teams|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
-> |Uso/adopción|Los usuarios utilizan la solución activamente|Microsoft 365, Panel de calidad de llamadas|El 80 % de los usuarios son usuarios activos diarios|A diario|Equipo de administración de cambios|
+> |Uso/adopción|Los usuarios utilizan la solución activamente|Informes de Microsoft 365, panel de calidad de llamadas|El 80 % de los usuarios son usuarios activos diarios|A diario|Equipo de administración de cambios|
 > |Uso/calidad|El porcentaje de llamadas/conferencias de mala calidad debe ser mínimo|Panel de calidad de llamadas|Menos del 5 % de llamadas de mala calidad al mes|A diario|Equipo de tecnología de la información|
 > |Uso/soporte|Sé cómo conseguir soporte técnico|Encuesta|El 90% de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
 > |Uso/soporte|Estoy satisfecho con la calidad del soporte técnico|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras cada incidente|Equipo de tecnología de la información|
@@ -224,7 +224,7 @@ Debe identificar los riesgos empresariales como parte de este ejercicio y defini
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Puntos de decisión|<ul><li>¿Cuáles son las&#39;de la organización y los KSIs?</li><li>¿Qué riesgos ha identificado relevantes para la implementación de audioconferencias en su organización? ¿Cuáles son los planes de mitigación para los riesgos identificados?</li><li>¿Qué riesgos ha identificado relevantes para la implementación de planes de llamadas en su organización? ¿Cuáles son los planes de mitigación para los riesgos identificados?</li><li>¿Qué riesgos ha identificado relevantes para la implementación de Enrutamiento directo en su organización? ¿Cuáles son los planes de mitigación para los riesgos identificados?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente los OKR y los KSIs y establezca el registro de riesgos.</li></ul>|
@@ -265,7 +265,7 @@ El comité de dirección se reúne en un intervalo periódico durante toda la vi
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Puntos de decisión|<ul><li>Decida si es necesario un comité de dirección para su organización.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Identifique a los miembros del comité de dirección.</li><li>Programar reuniones del comité de dirección.</li><li>Prepararse para las reuniones del comité de dirección.</li><li>Celebrar reuniones del comité de dirección.</li><li>Tome medidas basadas en la información de la reunión del comité de dirección.</li></ul>|

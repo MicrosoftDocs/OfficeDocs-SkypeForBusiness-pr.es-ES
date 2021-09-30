@@ -18,12 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar paquete
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 553e30fa694403b2ad5e2edfd86b53fe8231eed3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727199"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015074"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Asignar paquetes de directiva a usuarios y grupos
 
@@ -39,7 +39,9 @@ Un paquete de directivas en Teams es una colección de directivas predefinidas y
 ### <a name="assign-a-policy-package-to-one-user"></a>Asignar un paquete de directiva a un usuario
 
 1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a **Usuarios** y, a continuación, seleccione el usuario.
+
 2. En la página del usuario, seleccione **Directivas** y, a continuación, junto **a Paquete de directivas,** seleccione **Editar.**
+
 3. En el **panel Asignar paquete de** directiva, seleccione el paquete que desea asignar y, a continuación, seleccione **Guardar.**
 
 ![Teams captura de pantalla del Centro de administración para la asignación de paquetes de directivas a un usuario.](media/assign-policypackages-user.png)
@@ -47,11 +49,16 @@ Un paquete de directivas en Teams es una colección de directivas predefinidas y
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Asignar un paquete de directiva a varios usuarios
 
 1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a Paquetes de directiva y, a continuación, seleccione el paquete de directiva que desea asignar haciendo clic a la izquierda del nombre del paquete.
+
 2. Seleccione **Administrar usuarios**.
+
 3. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
+
 4. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
 
+
 ![Teams captura de pantalla del Centro de administración para la asignación de paquetes de directivas a varios usuarios.](media/assign-policypackages-multipleusers.png)
+
 
 ## <a name="assign-a-policy-package-to-a-group"></a>Asignar un paquete de directivas a un grupo
 
@@ -67,21 +74,26 @@ Al asignar el paquete de directiva, se asigna inmediatamente al grupo. Sin embar
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Asignar un paquete de directiva a un grupo de usuarios en el centro de administración
 
 1. Inicie la sesión en el Centro de administración de Teams
+
 2. En el panel de navegación izquierdo, vaya a la página del paquete de directivas.
+
 3. Seleccione la pestaña Asignación de directivas de grupo.
+
 4. Seleccione **Agregar grupo** y, a continuación, en el panel Asignar un paquete de directiva al grupo, haga lo siguiente:
 
-    a. Busque y agregue el grupo al que desea asignar el paquete de directiva.
+    1. Busque y agregue el grupo al que desea asignar el paquete de directiva.
 
-    b. Seleccione un paquete de directiva.
+    1. Seleccione un paquete de directiva.
 
-    c. Establezca la clasificación para cada tipo de directiva.
+    1. Establezca la clasificación para cada tipo de directiva.
 
-    d. Seleccione **Aplicar**.
+    1. Seleccione **Aplicar**.
 
-![muestra la asignación de directiva de grupo.](media/group-pkg-assignment.png)
+
+       ![muestra la asignación de directiva de grupo.](media/group-pkg-assignment.png)
 
 5. Para administrar la clasificación de un tipo de directiva específico, vaya a la página de directiva específica.
+
 6. Para reasignar un paquete de directiva a un grupo, primero quite la asignación de directiva de grupo. A continuación, siga los pasos anteriores para asignar el paquete de directiva a un grupo.
 
 ### <a name="work-with-powershell"></a>Trabajar con PowerShell
@@ -134,13 +146,13 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 
 ### <a name="see-the-status-of-a-batch-assignment"></a>Ver el estado de una asignación por lotes
 
-Ejecute lo siguiente para obtener el estado de una asignación por lotes, donde OperationId es el id. de operación devuelto por el ```New-CsBatchPolicyAssignmentOperation``` cmdlet para un lote determinado.
+Ejecute lo siguiente para obtener el estado de una asignación por lotes, donde OperationId es el id. de operación devuelto por el `New-CsBatchPolicyAssignmentOperation` cmdlet para un lote determinado.
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-Si el resultado muestra que se ha producido un error, ejecute lo siguiente para obtener más información sobre los errores, que se encuentran en la ```UserState``` propiedad.
+Si el resultado muestra que se ha producido un error, ejecute lo siguiente para obtener más información sobre los errores, que se encuentran en la `UserState` propiedad.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState

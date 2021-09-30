@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Para que un usuario use Sistema telefónico (PBX en la nube), primero debe habilitarlos para Telefonía IP empresarial y asignarles un número de teléfono. Para ello, use la implementación local mientras el usuario aún esté en la implementación local.
-ms.openlocfilehash: 28943670a0919d80c96c97b7574cdc82ac68cfde
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613699"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012514"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Habilitar los usuarios para Telefonía IP empresarial local
  
@@ -51,7 +51,7 @@ Para que un usuario use Sistema telefónico (PBX en la nube), primero debe habil
     
 7. En **Telefonía,** haga clic **Telefonía IP empresarial**.
     
-8. Haga **clic en URI** de línea y escriba un número de teléfono único normalizado (por ejemplo, tel:+14255550200). A continuación, haga clic **en Confirmar**.
+8. Haga **clic en URI** de línea y escriba un número de teléfono único normalizado (por ejemplo, `tel:+14255550200` ). A continuación, haga clic **en Confirmar**.
     
 ## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>Consideraciones especiales al habilitar usuarios para Telefonía IP empresarial locales
 

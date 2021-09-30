@@ -1,5 +1,5 @@
 ---
-title: Plan for Call Quality Dashboard for Skype Empresarial Server
+title: 'Skype Empresarial Server: Planear el Panel de calidad de llamadas'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Summary: Learn about what to consider when you plan for the Call Quality Dashboard.'
-ms.openlocfilehash: d50b8eba500a6197eb12bad98de0ef72c054f26b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6e77e3e6dc4441c7089df9ef6cc0d08c9f3ad270
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728859"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011554"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Plan for Call Quality Dashboard for Skype Empresarial Server 
+# <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>Skype Empresarial Server: Planear el Panel de calidad de llamadas 
  
 **Resumen:** Obtenga información sobre qué tener en cuenta al planear el Panel de calidad de llamadas.
   
@@ -85,7 +85,7 @@ Los datos de CQD se pueden ver a través del Portal de CQD y se puede acceder a 
 
 El Portal es la forma más rápida de ver los datos en el cubo. El Portal viene con varios informes integrados que se pueden hacer de inmediato. Los informes integrados se vinculan de forma estructurada para guiar al usuario a segmentos sucesivamente más pequeños y pequeños de los datos de llamada. Los informes integrados también destacan las distintas formas en que se pueden mostrar los datos mostrando una combinación de gráficos y tablas con diferentes pivotes, filtros y medidas. Cada usuario que tiene acceso al Portal puede tener su propio conjunto de informes que puede modificar y compartir. Para obtener más información sobre el uso del portal web de CQD, vea [Use Call Quality Dashboard for Skype Empresarial Server](use.md).
   
-Sistemas operativos compatibles para CQD Portal: Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 y Windows Server 2016 (solo Skype Empresarial Server CQD de 2019).
+Sistemas operativos compatibles para CQD Portal: Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 y Windows Server 2016 (Skype Empresarial Server 2019 CQD solamente).
   
 Exploradores compatibles para CQD Portal: Internet Explorer 11, Internet Explorer 10 e Internet Explorer 9.
   
@@ -118,12 +118,12 @@ CQD proporciona archivado de datos QoE y análisis rápido y profundo de los dat
 CQD viene con varios componentes y ayuda a comprender los requisitos de cada componente y su relación entre sí para obtener la implementación más sencilla y de mejor rendimiento de la herramienta. En la tabla siguiente se describe el componente dependiente de cada componente CQD.
   
 
-|**Nombre del componente**|**Componente dependiente**|
+|Nombre del componente|Componente dependiente|
 |:-----|:-----|
-|Archivo QoE  <br/> |Microsoft SQL Server  <br/> |
-|Cubo  <br/> |Microsoft SQL Server Analysis Services  <br/> |
-|Portal  <br/> |Microsoft Information Services  <br/> |
-|Servicio de repositorio (parte de la instalación del portal)  <br/> |Microsoft SQL Server  <br/> |
+|Archivo QoE   |Microsoft SQL Server   |
+|Cubo   |Microsoft SQL Server Analysis Services   |
+|Portal   |Microsoft Information Services   |
+|Servicio de repositorio (parte de la instalación del portal)   |Microsoft SQL Server   |
    
 > [!NOTE]
 > Para QoE Archive y Cube, determinadas opciones de implementación requieren Business Intelligence o Enterprise ediciones de Microsoft SQL Server. Consulte la sección [Requisitos de infraestructura para CQD](plan.md#Infrastructure_Req) a continuación para obtener más información.
@@ -161,17 +161,17 @@ CQD no combina datos de varias bases de datos QoEMetrics, como es el caso de var
 
 CQD, incluidos todos sus componentes y componentes dependientes, se puede implementar en una máquina virtual, en una sola máquina o en varias máquinas. A continuación se enumeran los requisitos mínimos de software y hardware. La disponibilidad de los datos y el rendimiento de las consultas pueden variar de minutos a horas, según el número de usuarios activos Skype Empresarial Server y el hardware y la configuración, por lo que a continuación se indican algunas medidas de rendimiento.
   
-|||
-|:-----|:-----|
-|Para CQD 2015 <br/> |  <br/> |
-|Sistemas operativos compatibles   <br/> |Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2  <br/> |
-|Compatible SQL Server  <br/> |SQL Server 2012, SQL Server 2014, SQL Server 2016  <br/> |
 
-|||
+|Para CQD 2015 |&nbsp;  |
 |:-----|:-----|
-|Para CQD 2019 <br/> |  <br/> |
-|Sistemas operativos compatibles   <br/> |Windows Server 2016, Windows Server 2019  <br/> |
-|Compatible SQL Server  <br/> |SQL Server 2017, SQL Server 2019  <br/> |
+|Sistemas operativos compatibles    |Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2   |
+|Compatible SQL Server   |SQL Server 2012, SQL Server 2014, SQL Server 2016   |
+
+
+|Para CQD 2019  |&nbsp;  |
+|:-----|:-----|
+|Sistemas operativos compatibles    |Windows Server 2016, Windows Server 2019   |
+|Compatible SQL Server   |SQL Server 2017, SQL Server 2019   |
    
 CQD usa Microsoft SQL Server, Microsoft SQL Server Analysis Services y Microsoft Internet Information Services para que los requisitos mínimos de hardware y software de CQD sean básicamente los mismos que los componentes dependientes. Sin embargo, en función de los requisitos de la organización en torno a la actualización de datos (que dependerá en parte del volumen de datos de QoE que genere la organización) y el costo de implementación, deben tenerse en cuenta otras consideraciones sobre la implementación.
   
@@ -193,27 +193,27 @@ En esta sección se supone que hay una única base de datos qoemetrics en el ent
   
 **Perfiles de equipo**
 
-|**Máquina**|**Núcleos de CPU**|**Memoria RAM**|**Archivo qoE y cubo en el mismo disco**|**QoE Archive and SQL Temp DB on same disk**|
+|Equipo|Núcleos de CPU|RAM|Archivo qoE y cubo en el mismo disco|QoE Archive and SQL Temp DB on same disk|
 |:-----|:-----|:-----|:-----|:-----|
-|Máquina virtual  <br/> |4   <br/> |7 GB  <br/> |Sí  <br/> |Sí  <br/> |
-|4 núcleos  <br/> |4   <br/> |20 GB  <br/> |Sí  <br/> |No  <br/> |
-|8 núcleos  <br/> |8   <br/> |32 GB  <br/> |Sí  <br/> |No  <br/> |
-|16 núcleos  <br/> |16   <br/> |128 GB  <br/> |No  <br/> |No  <br/> |
+|Máquina virtual   |4    |7 GB   |Sí   |Sí   |
+|4 núcleos   |4    |20 GB   |Sí   |No   |
+|8 núcleos   |8    |32 GB   |Sí   |No   |
+|16 núcleos   |16   |128 GB   |No   |No   |
    
 **Resultados de rendimiento**
 
-|**Máquina**|**Tamaño de base de datos de métricas de QoE**|**SQL particiones**|**Tipo de disco**|**Número de secuencias**|**Proceso de archivo inicial**|**Proceso de cubo inicial**|**Proceso de archivo posterior**|**Proceso de cubo posterior**|
+|Equipo|Tamaño de base de datos de métricas de QoE|SQL particiones|Tipo de disco|Número de secuencias|Proceso de archivo inicial|Proceso de cubo inicial|Proceso de archivo posterior|Proceso de cubo posterior|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Máquina virtual  <br/> |900 MB  <br/> |Simple  <br/> |VHD (tamaño variable)  <br/> |.5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
-|Máquina virtual  <br/> |9 GB  <br/> |Simple  <br/> |VHD (tamaño variable)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Máquina virtual  <br/> |9 GB  <br/> |Simple  <br/> |VHD (tamaño fijo)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Máquina virtual  <br/> |Más de 30 GB  <br/> |Simple  <br/> |VHD (tamaño fijo)  <br/> |10 M  <br/> |15 h  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
-|8 núcleos  <br/> |9 GB  <br/> |Simple  <br/> |Varios discos  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
-|8 núcleos  <br/> |9 GB  <br/> |Múltiples  <br/> |Varios discos  <br/> |5 M  <br/> |2 h  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
-|8 núcleos  <br/> |Más de 30 GB  <br/> |Simple  <br/> |Varios discos  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
-|8 núcleos  <br/> |Más de 30 GB  <br/> |Múltiples  <br/> |Varios discos  <br/> |20 M  <br/> |9 h  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
-|4 núcleos  <br/> |200 GB  <br/> |Simple  <br/> |Varios discos  <br/> |125 m  <br/> |Más de 6 días  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
-|16 núcleos  <br/> |500 GB  <br/> |Múltiples  <br/> |Varios ejes  <br/> |250 M  <br/> |8 días  <br/> |2 h  <br/> |2 m  <br/> |10 m  <br/> |
+|Máquina virtual   |900 MB   |Simple   |VHD (tamaño variable)   |.5 M   |30 m   |2 m   |30 s   |1 m   |
+|Máquina virtual   |9 GB   |Simple   |VHD (tamaño variable)   |5 M   |4 h   |15 m   |1 m   |5 m   |
+|Máquina virtual   |9 GB   |Simple   |VHD (tamaño fijo)   |5 M   |2 h   |5 m   |1 m   |5 m   |
+|Máquina virtual   |Más de 30 GB   |Simple   |VHD (tamaño fijo)   |10 M   |15 h   |20 m   |2 m   |45 m   |
+|8 núcleos   |9 GB   |Simple   |Varios discos   |5 M   |2 h   |5 m   |25 s   |5 m   |
+|8 núcleos   |9 GB   |Múltiples   |Varios discos   |5 M   |2 h   |15 m   |35 s   |2 m   |
+|8 núcleos   |Más de 30 GB   |Simple   |Varios discos   |20 M   |9 h   |20 m   |1 m   |20 m   |
+|8 núcleos   |Más de 30 GB   |Múltiples   |Varios discos   |20 M   |9 h   |30 m   |2 m   |2 m   |
+|4 núcleos   |200 GB   |Simple   |Varios discos   |125 m   |Más de 6 días   |7 h   |2 m   |6 h   |
+|16 núcleos   |500 GB   |Múltiples   |Varios ejes   |250 M   |8 días   |2 h   |2 m   |10 m   |
    
 \*No se espera que se encuentren en implementaciones reales porque la base de datos de métricas de QoE tendría que tener 9 y 18 meses de datos, respectivamente, pero se proporcionan aquí para completarse.
   
@@ -295,11 +295,9 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 ```
 
 Se admiten las SQL Server siguientes:
-  
-|||
-|:-----|:-----|
-| CQD 2015 <br/> |  SQL Server 2012, SQL Server 2014, SQL Server 2016  |
-|CQD 2019 <br/> |  SQL Server 2017, SQL Server 2019  |
+
+- CQD 2015: SQL Server 2012, SQL Server 2014, SQL Server 2016
+- CQD 2019: SQL Server 2017, SQL Server 2019 
     
 Se recomienda business intelligence o Enterprise edición por motivos de rendimiento. Estas ediciones permiten el uso de varios archivos de partición que se pueden procesar en paralelo, lo que resulta beneficioso para procesar datos que abarcan varios meses o más. 
   

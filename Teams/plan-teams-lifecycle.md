@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 539597393f34f2f02734c57df57097281a4d7839
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456380"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012824"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
@@ -109,7 +109,7 @@ Utilice estos vínculos para obtener más información sobre cómo se organizan 
 -   [Implementar voz en la nube](cloud-voice-landing-page.md)
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Un icono que representa los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cuál es el propósito del equipo?</li><li>¿Quién pertenece al equipo?</li><li>¿El equipo será privado o público?</li><li>¿Los miembros nuevos pueden agregarse a sí mismos o lo hacen los propietarios de equipo?</li><li>¿Quién tendrá permisos para crear canales o agregar fichas, bots y conectores?</li></ul> |
 | ![Un icono que representa los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Crear el equipo.</li><li>Planificar los canales.</li></ul>|
@@ -123,7 +123,7 @@ Para despertar el interés, el propietario del canal puede publicar un mensaje d
 
 Considere la posibilidad de usar nombres de canal antes de crearlos, ya que cambiar el nombre de un canal en el equipo no cambiará el nombre de la carpeta correspondiente de la biblioteca de documentos de SharePoint, lo que puede resultar confuso para el usuario final. 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Un icono que representa los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué canales iniciales se agregarán al equipo?</li><li>¿Qué instrucciones, en caso de haber alguna, se ofrecerán para agregar nuevos canales? (¿Se configurarán según el proyecto, el tema, etc.?)</li></ul> |
 | ![Un icono que representa los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Crear canales iniciales.</li><li>Publicar un mensaje de bienvenida.</li><li>Empezar a colaborar.</li></ul>|
@@ -144,7 +144,7 @@ Como los equipos son organismos vivos, precisan que se les revise y se les atien
 - Pruebe con diferentes colaboraciones de canal, como las reuniones de canal o las conversaciones en ficha sobre documentos.
 - Use la aplicación móvil de Microsoft Teams para aumentar la participación.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Un icono que representa los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Quién supervisará el uso para identificar los problemas?</li><li>¿Qué métricas se usarán para determinar si un equipo está en buen estado?</li><li>Identifique qué equipos han llegado al final de su vida útil.</li><li>Identifique los equipos que no están bien y que siguen teniendo un propósito, pero necesitan revitalizarse.</li></ul> |
 | ![Un icono que representa el paso siguiente.](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Implemente un proceso que supervise el estado de cada equipo.</li></ul>|
@@ -161,7 +161,7 @@ Puede que las directivas de retención aplicadas a Teams o a servicios asociados
 
 Para obtener información sobre cómo se configuran las directivas de expiración y retención, consulte [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md).
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Un icono que representa los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Defina cómo es el final de la vida de un equipo.</li><li>Decida si desea mantener disponible el contenido de un equipo y durante cuánto tiempo.</li></ul> |
 | ![Un icono que representa los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documentar las prácticas recomendadas y las lecciones aprendidas.</li><li>Archivar los datos, en caso necesario.</li></ul>|

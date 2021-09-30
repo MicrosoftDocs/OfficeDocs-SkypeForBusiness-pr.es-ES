@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar y configurar la Salas de Microsoft Teams y sus periféricos.
-ms.openlocfilehash: 81da06df24dc98e0cde2bc18c081ff46b54e07b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0acd5449c97f1a42f1a1c015b74df8f7cdaf3e4c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629312"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011564"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar una consola de sala de Microsoft Teams
 
@@ -228,34 +228,36 @@ Use la siguiente lista de comprobación mientras hace una comprobación final de
   
 **Configuración de la aplicación**
 
-|||
-|:-----|:-----|
-|☐  <br/> |El número de teléfono y el nombre de cuenta de la sala (si RTC está habilitado) se muestran correctamente en la parte superior derecha de la pantalla de la consola.  <br/> |
-|☐  <br/> |El nombre del equipo con Windows está correctamente configurado (muy útil para la administración remota).  <br/> |
-|☐  <br/> |La contraseña de la cuenta de administrador está configurada y comprobada.  <br/> |
-|☐  <br/> |Se han aplicado todas las actualizaciones de firmware  <br/> |
+|Completado |Comprobar |
+|:-----:|:-----|
+|☐   |El número de teléfono y el nombre de cuenta de la sala (si RTC está habilitado) se muestran correctamente en la parte superior derecha de la pantalla de la consola.   |
+|☐   |El nombre del equipo con Windows está correctamente configurado (muy útil para la administración remota).   |
+|☐   |La contraseña de la cuenta de administrador está configurada y comprobada.   |
+|☐   |Se han aplicado todas las actualizaciones de firmware   |
    
 **Periféricos de audio y vídeo**
 
-|||
-|:-----|:-----|
-|☐  <br/> |La versión de firmware del periférico de cámara es correcta (si corresponde).  <br/> |
-|☐  <br/> |Cámara funcional y posicionada de forma óptima  <br/> |
-|☐  <br/> |Configuración del dispositivo de reproducción predeterminado y del dispositivo de comunicaciones predeterminado para la reproducción establecida en el periférico de audio correspondiente.  <br/> |
-|☐  <br/> |Configuración del dispositivo de comunicaciones predeterminado para la grabación establecida en el periférico de audio correspondiente.  <br/> |
-|☐  <br/> |La versión de firmware del periférico de audio es correcta (si corresponde).  <br/> |
-|☐  <br/> |El dispositivo de entrada de audio funciona y está posicionado correctamente.  <br/> |
-|☐  <br/> |El dispositivo de salida de audio funciona y está posicionado correctamente.  <br/> |
-   
+|Completado |Comprobar |
+|:-----:|:-----|
+|☐   |La versión de firmware del periférico de cámara es correcta (si corresponde).   |
+|☐   |Cámara funcional y posicionada de forma óptima   |
+|☐   |Configuración del dispositivo de reproducción predeterminado y del dispositivo de comunicaciones predeterminado para la reproducción establecida en el periférico de audio correspondiente.   |
+|☐   |Configuración del dispositivo de comunicaciones predeterminado para la grabación establecida en el periférico de audio correspondiente.   |
+|☐   |La versión de firmware del periférico de audio es correcta (si corresponde).   |
+|☐   |El dispositivo de entrada de audio funciona y está posicionado correctamente.   |
+|☐   |El dispositivo de salida de audio funciona y está posicionado correctamente.   |
+
 **Base**
 
-|||
-|:-----|:-----|
-|☐  <br/> |Los cables están protegidos y no están apretados.  <br/> |
-|☐  <br/> |La transmisión de audio a través de HDMI funciona.  <br/> |
-|☐  <br/> |La transmisión de vídeo a través de HDMI funciona.  <br/> |
-|☐  <br/> |La base puede girar sin obstáculos.  <br/> |
-|☐  <br/> |El brillo de la pantalla es el adecuado para el entorno.  <br/> |
+|Completado |Comprobar |
+|:-----:|:-----|
+|☐   |Los cables están protegidos y no están apretados.   |
+|☐   |La transmisión de audio a través de HDMI funciona.   |
+|☐   |La transmisión de vídeo a través de HDMI funciona.   |
+|☐   |La base puede girar sin obstáculos.   |
+|☐   |El brillo de la pantalla es el adecuado para el entorno.   |
+
+
    
 ## <a name="see-also"></a>Vea también
 <a name="Checklist"> </a>

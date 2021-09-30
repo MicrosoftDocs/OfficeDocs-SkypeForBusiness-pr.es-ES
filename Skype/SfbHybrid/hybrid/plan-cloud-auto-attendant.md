@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Información general sobre cómo usar un operador automático de nube Skype Empresarial Server 2019
-ms.openlocfilehash: 19be069ac5f61c9fb2b81df76156e6752350073b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ee79c52b8aaf4518511a51cea95b16d32008694c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728445"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011514"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Plan de los operadores automáticos en la nube
 
@@ -27,7 +27,7 @@ El operador automático usado con la mensajería unificada de Exchange (Exchange
 
 Esto significa inherentemente que tendrá una implementación híbrida de Skype Empresarial Server 2019 si desea usar características de mensajería unificada como operadores automáticos. Consulte [Configure hybrid connectivity between Skype Empresarial Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md) para obtener más información.
 
-Un operador automático es un servicio en la nube que acepta llamadas de clientes y reproduce saludos, les proporciona opciones de menú e interactúa con los autores de llamadas mediante voz o el panel de marcado para enrutar sus llamadas al destino correcto. A cada operador automático se le asigna una cuenta de recurso *(consulte* [Configurar](configure-onprem-ra.md)cuentas de recursos ) en el sistema de Skype Empresarial Server 2019 que se vinculará directamente a un operador automático en el centro de administración de Microsoft Teams. Consulte [¿Qué son los operadores automáticos](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) en la nube? para obtener más información sobre qué son los operadores automáticos y qué opciones y características existen para los operadores automáticos.
+Un operador automático es un servicio en la nube que acepta llamadas de clientes y reproduce saludos, les proporciona opciones de menú e interactúa con los autores de llamadas mediante voz o el panel de marcado para enrutar sus llamadas al destino correcto. A cada operador automático se le asigna una cuenta de recurso *(consulte* [Configurar](configure-onprem-ra.md)cuentas de recursos ) en el sistema de Skype Empresarial Server 2019 que se vinculará directamente a un operador automático en el centro de administración de Microsoft Teams. Consulte [Configurar un operador automático](/microsoftteams/create-a-phone-system-auto-attendant) para obtener más información sobre qué son los operadores automáticos y qué opciones y características existen para los operadores automáticos.
 
 > [!NOTE]
 > Puede asignar varios números de servicio de Microsoft, números de enrutamiento directo o números híbridos a un operador automático.
@@ -37,7 +37,7 @@ Una llamada entrante a un operador automático de nube puede tomar una de varias
 ![Diagrama para operadores automáticos.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype Empresarial Server 2019
-2. A través [de un controlador de borde de sesión](/MicrosoftTeams/direct-routing-border-controllers.md) y enrutamiento [directo](/MicrosoftTeams/direct-routing-plan.md)
+2. A través [de un controlador de borde de sesión](/MicrosoftTeams/direct-routing-border-controllers) y enrutamiento [directo](/microsoftteams/direct-routing-plan-media-bypass).
 3. A través de un número en línea en Microsoft 365 o Office 365.
 
 Consulte también:
@@ -45,7 +45,7 @@ Consulte también:
 - [Configurar un operador automático en la nube](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Contestar y enrutar automáticamente las llamadas entrantes](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Los siguientes requisitos suponen que ya Skype Empresarial Server 2019 implementado en una topología compatible.  Los requisitos dependen del escenario:
 
@@ -57,10 +57,10 @@ Además de los requisitos anteriores, los siguientes requisitos deben configurar
 
 - Conectividad híbrida. Si ya ha implementado Skype Empresarial Server y desea habilitar el operador automático en la nube para los usuarios locales, debe asegurarse de que tiene la conectividad híbrida configurada entre los entornos locales y en línea. A veces se denomina configuración de dominio dividido.
 
-   Para obtener más información, vea [Plan hybrid connectivity between Skype Empresarial Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) y Configure hybrid connectivity between Skype Empresarial Server and Microsoft 365 or [Office 365](configure-hybrid-connectivity.md).
+   Para obtener más información, vea [Plan hybrid connectivity between Skype Empresarial Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) y Configure hybrid connectivity between Skype Empresarial Server and Microsoft 365 [or Office 365](configure-hybrid-connectivity.md).
 
 - Si va a asignar un número de teléfono al operador automático, necesitará una licencia [Office 365 Enterprise E5.](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
-- Cree una cuenta [de recurso en línea](/MicrosoftTeams/manage-resource-accounts.md) o una cuenta de recursos local para cada operador automático y asigne números de teléfono y licencias. [](configure-onprem-ra.md) 
+- Cree una cuenta [de recurso en línea](/MicrosoftTeams/manage-resource-accounts) o una cuenta de recursos local para cada operador automático y asigne números de teléfono y licencias. [](configure-onprem-ra.md) 
 
 ## <a name="migration-and-interoperability"></a>Migración e interoperabilidad
 
@@ -98,7 +98,7 @@ Cuando tenga una estructura sólida que satisfaga sus necesidades y un script qu
 > [!CAUTION]
 > Como se mencionó en [KB4480742,](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)no se recomienda mover Exchange operadores automáticos de mensajería unificada creados en server 2015 a servidores que ejecutan Server 2019. De momento, tendrías que mantenerlos en un grupo de servidores Skype Empresarial Server 2015 en modo de coexistencia.
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 [Planificar la migración de Skype Empresarial Server y Exchange Server](plan-um-migration.md)
 

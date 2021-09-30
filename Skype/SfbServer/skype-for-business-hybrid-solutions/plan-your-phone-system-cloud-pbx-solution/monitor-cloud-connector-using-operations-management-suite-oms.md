@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lea este tema para obtener información sobre cómo supervisar la implementación de Cloud Connector versión 2.1 y versiones posteriores mediante Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cf8a79b9b504b5a98592a169d3a507eb938353b9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729029"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012314"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Supervisar Cloud Connector con Operations Management Suite (OMS)
 
 > [!Important]
-> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams enrutamiento [directo](/MicrosoftTeams/direct-routing-landing-page).
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo.](/MicrosoftTeams/direct-routing-landing-page)
 
 Lea este tema para obtener información sobre cómo supervisar la implementación de Cloud Connector versión 2.1 y versiones posteriores mediante Microsoft Operations Management Suite (OMS).
 
@@ -53,7 +53,7 @@ Antes de usar OMS para supervisar la implementación de Cloud Connector, necesit
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>Configurar Cloud Connector para usar OMS
 
-Deberá configurar el entorno local de Cloud Connector para usar OMS. Para ello, necesitará el identificador y la clave del área de trabajo OMS, que puede encontrar mediante el portal OMS de la siguiente manera: Configuración-- Orígenes conectados \> , \> Windows servidores:
+Deberá configurar el entorno local de Cloud Connector para usar OMS. Para ello, necesitarás el identificador y la clave del área de trabajo oms, que puedes encontrar usando el portal OMS de la siguiente manera: Configuración -- Orígenes \> conectados-- \> Servidores windows:
 
 ![Captura de pantalla de OMS de Cloud Connector.](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
@@ -86,7 +86,7 @@ La configuración de Cloud Connector para usar OMS depende del escenario:
 
 - **Para todos los escenarios, compruebe que los agentes están conectados de la siguiente manera:**
 
-    En el portal oms, vaya a Configuración - \> Orígenes conectados - Windows \> servidores. Verá una lista de máquinas conectadas. 
+    En el portal oms, ve a Configuración - \> Orígenes conectados- \> Servidores de Windows. Verá una lista de máquinas conectadas. 
 
 ## <a name="configure-oms"></a>Configurar OMS
 
@@ -100,22 +100,22 @@ A continuación, deberá especificar la configuración de OMS mediante el portal
 
 En el portal oms, debe especificar información sobre los registros de eventos y los contadores de rendimiento de la siguiente manera:
 
-1. Vaya a Configuración- Data- Windows Registros de eventos \> y agregue registros de eventos \> para: 
+1. Vaya a Configuración- Datos: registros de eventos \> de Windows y agregue registros de eventos \> para: 
 
    - Lync Server
 
-   - Application
+   - Aplicación
 
      > [!NOTE]
      > Debe escribir manualmente Lync Server en el cuadro de texto. No aparece como una opción en la lista desplegable. 
 
-     Para obtener más información, [consulte Windows de datos de registro de eventos en Log Analytics](/azure/log-analytics/log-analytics-data-sources-windows-events)
+     Para obtener más información, consulta Orígenes de [datos del registro de eventos de Windows en Log Analytics](/azure/log-analytics/log-analytics-data-sources-windows-events)
 
-2. Vaya a Configuración- \> Data- \> Windows Performance Counters y agregue contadores de rendimiento para: 
+2. Ve a Configuración- Datos: Contadores de rendimiento de \> \> Windows y agrega contadores de rendimiento para: 
 
    - **Contadores de nivel del sistema operativo**. Puede agregar contadores de nivel de sistema operativo, como el uso del procesador, el uso de memoria, el uso de red, o puede usar soluciones existentes como Capacidad y rendimiento, Monitor de rendimiento de red sin agregar contadores explícitamente. Independientemente de cómo decida supervisarlos, Microsoft recomienda supervisar estos contadores del sistema operativo.
 
-   - **Skype Empresarial contadores**. Hay numerosos contadores proporcionados por Skype Empresarial. Puede encontrar estos contadores iniciando sesión en cualquier servidor de mediación y abriendo el Monitor de rendimiento. Estos contadores comienzan por "LS:". Microsoft recomienda empezar con los siguientes contadores de capacidad como mínimo y agregar otros que sean de interés:
+   - **Contadores de Skype Empresarial**. Skype Empresarial proporciona numerosos contadores. Puede encontrar estos contadores iniciando sesión en cualquier servidor de mediación y abriendo el Monitor de rendimiento. Estos contadores comienzan por "LS:". Microsoft recomienda empezar con los siguientes contadores de capacidad como mínimo y agregar otros que sean de interés:
 
      Total de llamadas activas:
 
@@ -132,7 +132,7 @@ En el portal oms, debe especificar información sobre los registros de eventos y
      > [!NOTE]
      > Debe escribir manualmente los contadores de rendimiento en el cuadro de texto. No aparecen como opciones en la lista desplegable. 
 
-     Para obtener más información, vea Windows y orígenes de datos de rendimiento [de Linux en Log Analytics](/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     Para obtener más información, consulta Orígenes de datos de rendimiento de [Windows y Linux en Log Analytics](/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>Crear alertas
 
@@ -164,7 +164,7 @@ Para crear este par de alertas:
 
     La consulta usa el filtro de equipo *donde Computer contiene "MediationServer".* El filtro selecciona solo el equipo cuyo nombre contiene la cadena "MediationServer".
 
-     Reemplazaría el filtro por su propio filtro de equipo o simplemente lo quitaría. Puede crear filtros de cadena complejos sin expresiones regulares. Para obtener más información, vea [Operadores de cadena](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). También puede elegir usar expresiones regulares. Además, puede crear un grupo de equipos guardando una consulta de búsqueda y usando ese grupo como filtro de equipo en la consulta de alerta. Para obtener más información, vea [Grupos de equipos en las búsquedas de registro de Log Analytics](/azure/log-analytics/log-analytics-computer-groups).
+     Reemplazaría el filtro por su propio filtro de equipo o simplemente lo quitaría. Puede crear filtros de cadena complejos sin expresiones regulares. También puede elegir usar expresiones regulares. Además, puede crear un grupo de equipos guardando una consulta de búsqueda y usando ese grupo como filtro de equipo en la consulta de alerta. Para obtener más información, vea [Grupos de equipos en las búsquedas de registro de Log Analytics](/azure/log-analytics/log-analytics-computer-groups).
 
     Para cada equipo, la consulta de error recibirá el último registro de eventos tanto para el inicio del servicio RTCMEDSRV como para la detenerse del servicio. Devolverá un registro si el último evento es el evento de detenerse de servicio; no devolverá nada si el último evento es el evento de inicio del servicio. En resumen, la consulta devolvería una lista de servidores cuyo RTCMEDSRV se detiene en la ventana de tiempo. 
 
@@ -252,8 +252,6 @@ Para obtener más información sobre cómo trabajar con OMS, vea lo siguiente:
 
 - [Buscar datos mediante búsquedas de registros en Log Analytics](/azure/log-analytics/log-analytics-log-searches)
 
-- [Referencia de idioma de Azure Log Analytics](https://docs.loganalytics.io/docs/Language-Reference)
-
 - [Descripción de alertas en Log Analytics](/azure/log-analytics/log-analytics-alerts)
 
-- [Conectar Windows equipos al servicio Log Analytics en Azure](/azure/log-analytics/log-analytics-windows-agents)
+- [Conectar equipos Windows al servicio Log Analytics en Azure](/azure/log-analytics/log-analytics-windows-agents)

@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Summary: Configure your primary management server, install System Center Operations Manager, and import management packs for Skype Empresarial Server 2019.'
-ms.openlocfilehash: 4e0d8a1176beb9d5c82418b65c1a4ce67d587c6d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e5bbe28afbc3b579700686b1fab1af3f420dd83e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594904"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012544"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype Empresarial Server: Configurar el servidor de administración principal
 
@@ -43,13 +43,9 @@ Al instalar System Center Operations Manager, deberá instalar todos los compone
 - Almacén de datos
 
 > [!IMPORTANT]
-> El "[Microsoft Report Viewer paquete redistribuible de 2010](https://www.microsoft.com/download/details.aspx?id=6442)" debe instalarse antes de instalar System Center Operations Manager 2012.
+> El Microsoft Report Viewer redistribuible de 2010 debe instalarse antes de instalar System Center Operations Manager 2012.
 
-Para obtener más información sobre estos productos y su instalación, consulte los siguientes vínculos:
-
-- [System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
-
-- [System Center Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
+Para obtener más información sobre estos productos y su instalación, [vea System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
 Tenga en cuenta que solo puede tener un servidor de administración raíz por Skype Empresarial Server implementación.
 

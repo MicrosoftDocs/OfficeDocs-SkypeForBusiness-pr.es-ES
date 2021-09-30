@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 51a7aa95eb74e7baa199ac8d43dd5f89b352c95c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: de233212a4baf6ce5cfaf771bb809d5522d7ad0a
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584504"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013344"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -103,7 +103,7 @@ Para obtener más información, vea [Directivas de llamadas en Teams](teams-call
     ```
     En la tabla siguiente se muestran las directivas de enrutamiento de voz definidas en este ejemplo. 
     
-    ||Directiva de enrutamiento de voz 1|Directiva de enrutamiento de voz 2|
+    |&nbsp;|Directiva de enrutamiento de voz 1|Directiva de enrutamiento de voz 2|
     |---------|---------|---------|
     |Id. de directiva de voz en línea   |Directiva de enrutamiento de voz en línea de Delhi   |Directiva de enrutamiento de voz en línea de Hyderabad    |
     |Usos de RTC en línea  |Larga distancia  |Distancia larga, Local, Interno  |
@@ -127,9 +127,9 @@ Para obtener más información, vea [Directivas de llamadas en Teams](teams-call
     ```
     En la tabla siguiente se muestran los sitios habilitados para Location-Based enrutamiento en este ejemplo.
 
-    ||Sitio 1 (Delhi)  |Sitio 2 (Hyderabad)  |
+    |&nbsp;|Sitio 1 (Delhi)  |Sitio 2 (Hyderabad)  |
     |---------|---------|---------|
-|Nombre del sitio    |Sitio 1 (Delhi)    |Sitio 2 (Hyderabad)   
+    |Nombre del sitio    |Sitio 1 (Delhi)    |Sitio 2 (Hyderabad)|
     |EnableLocationBasedRouting    |True    |True    |
     |Subredes     |Subred 1 (Delhi)     |Subred 2 (Hyderabad)     |
 

@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: La Skype Empresarial Server de esfuerzo y rendimiento de 2015 se usa durante la planeación de capacidad y la optimización del rendimiento en entornos de prueba o no de producción.
-ms.openlocfilehash: 381e6178994ce8d4ce2f3558bd075cf6fc3b6d43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0ce2c4f4a608f6ecba980d7f8fe77fbc2863d81d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611899"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012374"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype Empresarial Server 2015 Stress and Performance Tool
  
@@ -42,27 +42,27 @@ Normalmente, esta herramienta se usa después de usar la herramienta de planeaci
 
 La Herramienta de esfuerzo y rendimiento puede simular estos tipos de carga de usuario:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
-|Mensajería instantánea (MI) y presencia  <br/> |Audioconferencia  <br/> |
-|Uso compartido de aplicaciones  <br/> |Simulación de voz sobre IP (VoIP), incluida la simulación de red telefónica conmutada (PTSN)  <br/> |
-|Conferencias de cliente de Web Access  <br/> |Operador automático de conferencia  <br/> |
-|Grupos de respuesta  <br/> |Expansión de listas de distribución  <br/> |
-|Descarga de libreta de direcciones y consulta de libreta de direcciones  <br/> |Llamadas mejoradas 911 (E911) y perfil de ubicación (plan de marcado)  <br/> |
-|MultiView  <br/> |Colaboración de datos  <br/> |
-|Movilidad  <br/> ||
+|Mensajería instantánea (MI) y presencia   |Audioconferencia   |
+|Uso compartido de aplicaciones   |Simulación de voz sobre IP (VoIP), incluida la simulación de red telefónica conmutada (PTSN)   |
+|Conferencias de cliente de Web Access   |Operador automático de conferencia   |
+|Grupos de respuesta   |Expansión de listas de distribución   |
+|Descarga de libreta de direcciones y consulta de libreta de direcciones   |Llamadas mejoradas 911 (E911) y perfil de ubicación (plan de marcado)   |
+|MultiView   |Colaboración de datos   |
+|Movilidad   ||
    
 ## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Aplicaciones y archivos incluidos con la Skype Empresarial Server de esfuerzo y rendimiento de 2015
 
 Estas aplicaciones forman parte de la Skype Empresarial Server de esfuerzo y rendimiento:
   
-|**Herramienta**|**Descripción**|
+|Herramienta|Descripción|
 |:-----|:-----|
-|UserProvisioningTool.exe  <br/> |Esta herramienta se usa para crear usuarios y contactos.  <br/> |
-|UserProfileGenerator.exe  <br/> |Se usa para configurar las características de la carga de usuario que está simulando.  <br/> |
-|LyncPerfTool.exe  <br/> |La herramienta que simula la carga del usuario.  <br/> |
-|Default.tmx  <br/> |Necesario para usar la Skype Empresarial Server de registro de 2015.  <br/> |
-|Ejemplos de script de aprovisionamiento  <br/> |Se usa para configurar la topología para ejecutar pruebas de carga, en función de escenarios específicos. Es probable que deba modificarlos para que sean relevantes para su entorno en particular.  <br/> |
+|UserProvisioningTool.exe   |Esta herramienta se usa para crear usuarios y contactos.   |
+|UserProfileGenerator.exe   |Se usa para configurar las características de la carga de usuario que está simulando.   |
+|LyncPerfTool.exe   |La herramienta que simula la carga del usuario.   |
+|Default.tmx   |Necesario para usar la Skype Empresarial Server de registro de 2015.   |
+|Ejemplos de script de aprovisionamiento   |Se usa para configurar la topología para ejecutar pruebas de carga, en función de escenarios específicos. Es probable que deba modificarlos para que sean relevantes para su entorno en particular.   |
    
 ## <a name="topics-in-this-section"></a>Temas de esta sección
 

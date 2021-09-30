@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo configurar Microsoft Teams y Skype Empresarial usar otro idioma para el saludo predeterminado del correo de voz de su organización.
-ms.openlocfilehash: f204cdfca0be7eab5964b2c9c50c57f306af94ff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c509edf6efa2fe660a59772f3266e6d49be8d31
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607877"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014424"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Cambiar el idioma predeterminado en los saludos y los correos electrónicos
 

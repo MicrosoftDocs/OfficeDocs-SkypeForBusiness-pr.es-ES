@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Resumen: aprenda a permitir que los usuarios realicen y reciban llamadas mediante Telefonía IP empresarial en Skype Empresarial Server.'
-ms.openlocfilehash: 68e12d072e01f9df3691401569a7759ef842570f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04533245348672afedfac113f3fd64188a2efba2
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607263"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012774"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Habilitar usuarios para Telefonía IP empresarial en Skype Empresarial Server
  
@@ -54,7 +54,7 @@ Después de implementar Telefonía IP empresarial o Llamar a través del trabajo
     
 7. En la **página Editar Skype Empresarial Server usuario,** en **Telefonía**, haga clic **en Telefonía IP empresarial**.
     
-8. Haga clic en **URI de línea** y, a continuación, escriba un número de teléfono exclusivo y normalizado (por ejemplo, tel:+14255550200).
+8. Haga **clic en URI** de línea y, a continuación, escriba un número de teléfono único normalizado (por ejemplo, `tel:+14255550200` ).
     
 9. Haga clic en **Confirmar**.
     

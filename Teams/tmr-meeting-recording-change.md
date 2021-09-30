@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d8f04eebbd1123bf753c221e49a2b523d91ff43
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: edacf3cd2691a4f037882e25251ead3ec2521882
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456400"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011914"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -142,7 +142,7 @@ De forma predeterminada, todos los archivos de grabación se guardan en la cuent
 
 **¿Cómo administro las grabaciones de antiguos empleados?**
 
-Dado que los vídeos son iguales que cualquier otro archivo de OneDrive para la Empresa y SharePoint, el control de la propiedad y la retención después de que un empleado se va seguirá el proceso normal de [OneDrive para la Empresa y SharePoint](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+Dado que los vídeos son iguales que cualquier otro archivo de OneDrive para la Empresa y SharePoint, el control de la propiedad y la retención después de que un empleado se va seguirá el proceso normal de [OneDrive para la Empresa y SharePoint](/onedrive/retention-and-deletion).
 
 **¿Quién tiene los permisos para ver la grabación de la reunión?**
 
@@ -155,7 +155,7 @@ Dado que los vídeos son iguales que cualquier otro archivo de OneDrive para la 
 
 **¿Cómo puedo administrar los subtítulos?**
 
-Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponibles durante la reproducción si el usuario tenía activada la transcripción en el momento de la grabación. Los administradores deben [activar la transcripción de la grabación a través de la directiva](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) para asegurarse de que los usuarios tengan la opción de grabar reuniones con transcripción.
+Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponibles durante la reproducción si el usuario tenía activada la transcripción en el momento de la grabación. Los administradores deben [activar la transcripción de la grabación a través de la directiva](/microsoftteams/cloud-recording) para asegurarse de que los usuarios tengan la opción de grabar reuniones con transcripción.
 
 Los subtítulos ayudan a crear contenido inclusivo para espectadores de todas las capacidades. Como propietario, puede ocultar los subtítulos en la grabación de la reunión, aunque la transcripción de la reunión seguirá estando disponible en Teams a menos que la elimine de allí.
 
@@ -182,7 +182,7 @@ Stream como plataforma no quedará en desuso en un futuro próximo. Los vídeos 
 
 **¿Cómo puedo aplicar una etiqueta de retención a Microsoft Teams de reunión?**
 
-Consulte [Cómo aplicar automáticamente una etiqueta de retención](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+Consulte [Cómo aplicar automáticamente una etiqueta de retención](/microsoft-365/compliance/apply-retention-labels-automatically).
 
 **¿Cómo asigno directivas a mis usuarios en Microsoft Teams y qué directivas tienen prioridad?**
 

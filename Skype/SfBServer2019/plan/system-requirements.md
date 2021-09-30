@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: ''
-description: 'Resumen: prepare los servidores Skype Empresarial Server 2019 y la infraestructura de dominio con este tema. Hardware, sistema operativo, bases de datos, software, todos los requisitos y recomendaciones del sistema, junto con dns de certificado, recurso compartido de archivos e información de Active Directory, están aquí para ayudar a garantizar una instalación e implementación correctas de la granja de servidores.'
-ms.openlocfilehash: d5714c5606c69d6aba0befa03a6556a5da8ab443
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 'Summary: Prepare your Skype for Business Server 2019 servers and domain infrastructure with this topic. Hardware, sistema operativo, bases de datos, software, todos los requisitos y recomendaciones del sistema, junto con dns de certificado, recurso compartido de archivos e información de Active Directory, están aquí para ayudar a garantizar una instalación e implementación correctas de la granja de servidores.'
+ms.openlocfilehash: cb1d7464406ae089fd31c31971cb246d79a83edb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728369"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011754"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos del sistema para Skype Empresarial Server 2019
  
@@ -45,35 +45,35 @@ Como es de esperar, hay algunos preparativos que debe realizar antes de empezar 
 ## <a name="hardware-for-skype-for-business-server-2019"></a>Hardware para Skype Empresarial Server 2019
 <a name="Hardware"> </a>
 
-Una vez que haya bajado la topología (y si no lo hace, puede consultar el tema [Topology Basics for Skype Empresarial Server 2019),](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) es hora de pensar en los servidores. Skype Empresarial Server servidores de 2019 requieren hardware de 64 bits. A continuación se indican nuestras recomendaciones para hardware. No son requisitos, pero reflejan los requisitos necesarios para un rendimiento óptimo. Tenemos documentación de planeación de capacidad que le ayudará a determinar si necesita más de esto, en función de sus circunstancias.
+Después de tener la topología abajo (y si no lo hace, puede consultar el tema [Topology Basics for Skype for Business Server 2019),](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) es hora de pensar en los servidores. Los servidores de Skype Empresarial Server 2019 requieren hardware de 64 bits. A continuación se indican nuestras recomendaciones para hardware. No son requisitos, pero reflejan los requisitos necesarios para un rendimiento óptimo. Tenemos documentación de planeación de capacidad que le ayudará a determinar si necesita más de esto, en función de sus circunstancias.
   
-Hardware recomendado para Standard Edition servidores:
+Hardware recomendado para servidores Standard Edition:
 
-|**Componente de hardware**|**Recomendada**|
+|Componente de hardware|Recomendado|
 |:-----|:-----|
-|CPU  <br/> |Procesador dual Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no son compatibles Skype Empresarial Server funciones de 2019.  <br/> |
-|Memoria  <br/> |32 gigabytes (GB).  <br/> |
-|Disco  <br/> |CUALQUIERA DE LAS DOS:  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos que usan RAID 1 y 6 con RAID 10).  <br/> OR  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
-|Red  <br/> |1 adaptador de red de doble puerto, 1 Gbps o superior (se pueden usar 2 adaptadores de red, pero deben estar asociados con una sola dirección MAC y una única dirección IP).  <br/> Las configuraciones duales o  multialod no son compatibles con servidores front-end, servidores back-end y servidores Standard Edition cliente. <br/> Siempre que no estén expuestos al sistema operativo y se estén utilizando para supervisar y administrar el hardware del servidor, puede tener sistemas de administración fuera de banda, como DRAC o ILO. Este escenario no constituye un servidor multialocución y es compatible.  <br/> |
+|CPU   |Procesador dual Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no son compatibles con roles de Skype Empresarial Server 2019.   |
+|Memoria   |32 gigabytes (GB).   |
+|Disco   |CUALQUIERA DE LAS DOS:  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos que usan RAID 1 y 6 con RAID 10).  <br/> OR  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.   |
+|Red   |1 adaptador de red de doble puerto, 1 Gbps o superior (se pueden usar 2 adaptadores de red, pero deben estar asociados con una sola dirección MAC y una única dirección IP).  <br/> Las configuraciones duales o  multialod no son compatibles con servidores front-end, servidores back-end y servidores Standard Edition. <br/> Siempre que no estén expuestos al sistema operativo y se estén utilizando para supervisar y administrar el hardware del servidor, puede tener sistemas de administración fuera de banda, como DRAC o ILO. Este escenario no constituye un servidor multialocución y es compatible.   |
 
 
 Hardware recomendado para servidores front-end y servidores back-end:
   
-|**Componente de hardware**|**Recomendada**|
+|Componente de hardware|Recomendado|
 |:-----|:-----|
-|CPU  <br/> |Procesador dual Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior. <br/> Los procesadores Intel Itanium no son compatibles Skype Empresarial Server funciones de 2019.  <br/> |
-|Memoria  <br/> |64 gigabytes (GB).  <br/> |
-|Disco  <br/> |CUALQUIERA DE LAS DOS:  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos que usan RAID 1 y 6 con RAID 10).  <br/> OR  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
-|Red  <br/> |1 adaptador de red de doble puerto, 1 Gbps o superior (se pueden usar 2 adaptadores de red, pero deben estar asociados con una sola dirección MAC y una única dirección IP).  <br/> Las configuraciones duales o  multialod no son compatibles con servidores front-end, servidores back-end y servidores Standard Edition cliente. <br/> Siempre que no estén expuestos al sistema operativo y se estén utilizando para supervisar y administrar el hardware del servidor, puede tener sistemas de administración fuera de banda, como DRAC o ILO. Este escenario no constituye un servidor multialocución y es compatible.  <br/> |
+|CPU   |Procesador dual Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior. <br/> Los procesadores Intel Itanium no son compatibles con roles de Skype Empresarial Server 2019.   |
+|Memoria   |64 gigabytes (GB).   |
+|Disco   |CUALQUIERA DE LAS DOS:  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos que usan RAID 1 y 6 con RAID 10).  <br/> OR  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.   |
+|Red   |1 adaptador de red de doble puerto, 1 Gbps o superior (se pueden usar 2 adaptadores de red, pero deben estar asociados con una sola dirección MAC y una única dirección IP).  <br/> Las configuraciones duales o  multialod no son compatibles con servidores front-end, servidores back-end y servidores Standard Edition. <br/> Siempre que no estén expuestos al sistema operativo y se estén utilizando para supervisar y administrar el hardware del servidor, puede tener sistemas de administración fuera de banda, como DRAC o ILO. Este escenario no constituye un servidor multialocución y es compatible.   |
    
 Hardware recomendado para servidores perimetrales, servidores de mediación independientes y directores:
   
-|**Componente de hardware**|**Recomendada**|
+|Componente de hardware|Recomendado|
 |:-----|:-----|
-|CPU  <br/> |Procesador dual Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no son compatibles Skype Empresarial Server funciones de 2019.  <br/> |
-|Memoria  <br/> |32 gigabytes.  <br/> |
-|Disco  <br/> |CUALQUIERA DE LAS DOS:  <br/> • 4 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (los discos deben estar en una configuración de 2x RAID 1).  <br/> OR  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 4 unidades de disco mecánicas de 10000 RPM.  <br/> |
-|Red  <br/> |1 adaptador de red de doble puerto, 1 Gbps o superior (se pueden usar 2 adaptadores de red, pero deben estar asociados con una sola dirección MAC y una única dirección IP).  <br/> Las configuraciones duales o multialod no son **compatibles** con los servidores y directores de interoperabilidad de vídeo. <br/> Los servidores perimetrales necesitarán dos interfaces de red que sean adaptadores de red de doble puerto, 1 Gbps o superior (o dos adaptadores de red emparejados, para un total de cuatro, cada par se combina con una sola dirección MAC y una sola dirección IP, para un total de dos pares).  <br/> En servidores de mediación independientes, se admite la instalación de tarjetas de interfaz de red (NIC) adicionales para permitir la configuración de una dirección IP RTC específica.  <br/> |
+|CPU   |Procesador dual Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no son compatibles con roles de Skype Empresarial Server 2019.   |
+|Memoria   |32 gigabytes.   |
+|Disco   |CUALQUIERA DE LAS DOS:  <br/> • 4 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (los discos deben estar en una configuración de 2x RAID 1).  <br/> OR  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 4 unidades de disco mecánicas de 10000 RPM.   |
+|Red   |1 adaptador de red de doble puerto, 1 Gbps o superior (se pueden usar 2 adaptadores de red, pero deben estar asociados con una sola dirección MAC y una única dirección IP).  <br/> Las configuraciones duales o multialod no son **compatibles** con los servidores y directores de interoperabilidad de vídeo. <br/> Los servidores perimetrales necesitarán dos interfaces de red que sean adaptadores de red de doble puerto, 1 Gbps o superior (o dos adaptadores de red emparejados, para un total de cuatro, cada par se combina con una sola dirección MAC y una sola dirección IP, para un total de dos pares).  <br/> En servidores de mediación independientes, se admite la instalación de tarjetas de interfaz de red (NIC) adicionales para permitir la configuración de una dirección IP RTC específica.   |
 
 
 > [!NOTE]
@@ -88,50 +88,47 @@ Hardware recomendado para servidores perimetrales, servidores de mediación inde
 
 Una vez que haya instalado el hardware, necesitará el sistema operativo de instalación (SO) que le permitirá instalar y usar correctamente Skype Empresarial Server 2019.
   
-|||
-|:-----|:-----|
-|Windows Server 2019 <br/> |
-|Windows Server 2016 <br/> ||
-||
+- Windows Server 2019 
+- Windows Server 2016
    
-Cualquier otra cosa que no sea los sistemas operativos enumerados aquí no funcionará correctamente; por favor, no lo pruebes para las Skype Empresarial Server 2019. Por ejemplo, la opción Server Core no aparece y, por lo tanto, no se admite.
+Cualquier otra cosa que no sea los sistemas operativos enumerados aquí no funcionará correctamente; por favor, no lo pruebe para las instalaciones de Skype Empresarial Server 2019. Por ejemplo, la opción Server Core no aparece y, por lo tanto, no se admite.
 
 > [!NOTE]
 > La actualización local del sistema operativo no se admite con Lync Server 2013. Debe implementar un grupo de servidores independiente y migrar usuarios al nuevo grupo con un sistema operativo diferente. Todos los servidores de un grupo deben tener la misma versión del sistema operativo.
 
 > [!NOTE]
 > 
-> Si va a instalar Windows Admin Center 2019 en su equipo de Windows Server 2019, le pedirá un puerto en el que escuchar. Hay un liklihood que puede elegir el puerto 443, pero si esa máquina tiene Skype Empresarial Server 2019 instalado o va a tener Skype Empresarial Server 2019 instalado en él, debe elegir un número de puerto diferente.
+> Si vas a instalar Windows Admin Center 2019 en tu máquina de Windows Server 2019, te pedirá un puerto en el que escuchar. Hay una liklihood que puede elegir el puerto 443, pero si esa máquina tiene instalado Skype Empresarial Server 2019 o va a tener Instalado Skype Empresarial Server 2019, debe elegir un número de puerto diferente.
 > 
->¿Por qué es así? Si Windows Admin Center 2019 se ejecuta en el puerto 443, no podrá conectarse al servidor mediante el Panel de control de Skype Empresarial ni podrá conectarse a ningún servicio web interno que se ejecute en el servidor (servicio web de libreta de direcciones, servicio de detección automática, servicio WebTicket, etc.).  De hecho, no podrá conectarse a ninguna dirección URL del servicio web interno. Elija otro puerto, en caso de que necesite o desee colocar Windows Centro de administración de 2019 en un servidor con Skype Empresarial Server 2019.
+>¿Por qué es así? Si Windows Admin Center 2019 se ejecuta en el puerto 443, no podrá conectarse al servidor mediante el Panel de control de Skype Empresarial ni podrá conectarse a ningún servicio web interno que se ejecute en el servidor (servicio web de libreta de direcciones, servicio de detección automática, servicio WebTicket, etc.).  De hecho, no podrá conectarse a ninguna dirección URL del servicio web interno. Elija otro puerto, en caso de que necesite o desee colocar Windows Admin Center 2019 en un servidor con Skype Empresarial Server 2019.
 > 
 
   
-## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2019-deployment"></a>Software que debe instalarse antes de una implementación Skype Empresarial Server 2019
+## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2019-deployment"></a>Software que debe instalarse antes de una implementación de Skype Empresarial Server 2019
 <a name="Software"> </a>
 
 Hay algunas cosas que tendrá que instalar o configurar para cualquier servidor que ejecute Skype Empresarial Server 2019. Estos se enumeran a continuación, seguidos de requisitos adicionales para roles de servidor específicos.
 
 > [!IMPORTANT]
-> Skype For Business 2019 admite .Net Framework 4.8. 
+> Skype Empresarial 2019 admite .Net Framework 4.8. 
   
  **Todos los servidores:**
   
-|**Software/rol**|**Detalles**|
+|Software/rol|Detalles|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |Todos Skype Empresarial Server servidores necesitan Windows PowerShell 3.0 instalado.  <br/> • Debe instalarse de forma predeterminada con Windows Server 2016.<br/> |
-|Microsoft .NET Framework  <br/> |Los servicios WCF son **una característica** que se instala como una característica Windows, en **el Administrador** del servidor, inicialmente no se necesitan descargas. <br/> • Debe asegurarse de que, al instalar esta característica, o si ya está instalada y está comprobando, que la opción activación **HTTP** también está activada e instalada, de este modo: <br/> ![Captura de pantalla que muestra la opción activación HTTP .NET Framework características 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> No se preocupe si obtiene una ventana emergente adicional que dice que es necesario instalar otras cosas para que se instale la activación HTTP. Eso es normal; haga clic en Aceptar y vaya adelante. Si no obtiene esta ventana emergente, puede asumir que esas cosas ya están instaladas y seguir adelante.  <br/> Microsoft .NET Framework suele instalarse cuando Windows Server 2016 está instalado. Skype Empresarial Server requiere Microsoft .NET Framework 4.7 o 4.8, por lo que probablemente deba actualizarlo. Puede encontrar la actualización [aquí](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
-|Media Foundation  <br/> |Por Windows Server 2016, el tiempo de ejecución Windows media format runtime se instala con Microsoft Media Foundation.  <br/> Todos los servidores front-end y los servidores Standard Edition usados para conferencias requieren Windows Media Format Runtime para ejecutar los archivos de audio multimedia (.wma) de Windows que las aplicaciones de estacionamiento de llamadas, anuncio y grupo de respuesta reproducen para anuncios y música.  <br/> |
-|Windows Identity Foundation  <br/> |Necesitamos Windows Identity Foundation 3.5 para admitir escenarios de autenticación de servidor a servidor para Skype Empresarial Server 2019.  <br/> • Por Windows Server 2016, no es necesario descargar nada. Abra **el Administrador del** servidor y vaya al Asistente para agregar roles y **características.** **Windows Identity Foundation 3.5** aparece en la **sección** Características. Si está seleccionado, estás bien. De lo contrario, selecciónelo **y haga** clic en Siguiente para llegar al **botón** Instalar. <br/> |
-|Herramientas de administración de servidor remoto  <br/> |Herramientas de administración de roles: herramientas de AD DS y AD LDS  <br/> |
+|Windows PowerShell 3.0   |Todos los servidores de Skype Empresarial Server Windows PowerShell 3.0 instalados.  <br/> • Debe instalarse de forma predeterminada con Windows Server 2016. |
+|Microsoft .NET Framework   |Los servicios WCF **son una característica** que se instala como una característica de Windows, en El **Administrador** del servidor, inicialmente no se necesitan descargas. <br/> • Debe asegurarse de que, al instalar esta característica, o si ya está instalada y está comprobando, que la opción activación **HTTP** también está activada e instalada, de este modo: <br/>![Captura de pantalla que muestra la opción activación HTTP .NET Framework características 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> No se preocupe si obtiene una ventana emergente adicional que dice que es necesario instalar otras cosas para que se instale la activación HTTP. Eso es normal; haga clic en Aceptar y vaya adelante. Si no obtiene esta ventana emergente, puede asumir que esas cosas ya están instaladas y seguir adelante.  <br/> Microsoft .NET Framework suele instalarse cuando se instala Windows Server 2016. Skype Empresarial Server requiere Microsoft .NET Framework 4.7 o 4.8, por lo que probablemente deba actualizarlo. Puede encontrar la actualización [aquí](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) |
+|Media Foundation   |Para Windows Server 2016, Windows Media Format Runtime se instala con Microsoft Media Foundation.  <br/> Todos los servidores front-end y los servidores Standard Edition usados para conferencias requieren Windows Media Format Runtime para ejecutar los archivos de Audio de Windows Media (.wma) que las aplicaciones de Estacionamiento de llamadas, Anuncio y Grupo de respuesta reproducen para anuncios y música.   |
+|Windows Identity Foundation   |Necesitamos Windows Identity Foundation 3.5 para admitir escenarios de autenticación de servidor a servidor para Skype Empresarial Server 2019.  <br/> • Para Windows Server 2016, no es necesario descargar nada. Abra **el Administrador del** servidor y vaya al Asistente para agregar roles y **características.** **Windows Identity Foundation 3.5** aparece en la **sección** Características. Si está seleccionado, estás bien. De lo contrario, selecciónelo **y haga** clic en Siguiente para llegar al **botón** Instalar.  |
+|Herramientas de administración de servidor remoto   |Herramientas de administración de roles: herramientas de AD DS y AD LDS   |
    
- **Los servidores front-end Standard Edition servidor también necesitan:**
+ **Los servidores front-end y el servidor Standard Edition también necesitan:**
   
-|**Software/rol**|**Detalles**|
+|Software/rol|Detalles|
 |:-----|:-----|
-|Internet Information Services (IIS)  <br/> |IIS es necesario en todos los servidores front-end, así como en todos los servidores Standard Edition, con los siguientes módulos seleccionados:  <br/> • Características HTTP comunes: documento predeterminado, errores HTTP, contenido estático  <br/> • Estado y diagnóstico: registro HTTP, herramientas de registro, seguimiento  <br/> • Rendimiento: compresión de contenido estático, compresión dinámica de contenido  <br/> • Seguridad: filtrado de solicitudes, autenticación de asignación de certificados de cliente, Windows autenticación  <br/> • Desarrollo de aplicaciones: extensibilidad de .NET 3.5, extensibilidad de .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, extensiones ISAPI, filtros ISAPI  <br/> • Herramientas de administración: Consola de administración de IIS, Scripts y herramientas de administración de IIS  <br/> Tenga en cuenta que el acceso anónimo también es necesario, pero se obtiene al instalar IIS, por lo que no tiene un lugar para seleccionarlo en la lista.  <br/> |
-|Motor en tiempo de ejecución de Windows Media Format  <br/> | Por Windows Server 2016, deberá instalar la característica **Media Foundation** en **el Administrador del servidor**. En realidad, puede iniciar la instalación de Skype Empresarial Server 2019 sin esto, pero se le pedirá que la instale y, a continuación, reinicie el servidor, antes de que continúe la instalación de Skype Empresarial Server 2019. Es mejor hacerlo con antelación. <br/> |
-|Silverlight  <br/> |Puede instalar la versión más reciente de Silverlight [aquí](https://www.microsoft.com/silverlight/).  <br/> |
+|Internet Information Services (IIS)   |IIS es necesario en todos los servidores front-end, así como en todos los servidores Standard Edition, con los siguientes módulos seleccionados:  <br/> • Características HTTP comunes: documento predeterminado, errores HTTP, contenido estático  <br/> • Estado y diagnóstico: registro HTTP, herramientas de registro, seguimiento  <br/> • Rendimiento: compresión de contenido estático, compresión dinámica de contenido  <br/> • Seguridad: filtrado de solicitudes, autenticación de asignación de certificados de cliente, autenticación de Windows  <br/> • Desarrollo de aplicaciones: extensibilidad de .NET 3.5, extensibilidad de .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, extensiones ISAPI, filtros ISAPI  <br/> • Herramientas de administración: Consola de administración de IIS, Scripts y herramientas de administración de IIS  <br/> Tenga en cuenta que el acceso anónimo también es necesario, pero se obtiene al instalar IIS, por lo que no tiene un lugar para seleccionarlo en la lista.   |
+|Motor en tiempo de ejecución de Windows Media Format   | Para Windows Server 2016, tendrás que instalar la característica **de Media Foundation** en el Administrador del **servidor.** En realidad, puede iniciar la instalación de Skype Empresarial Server 2019 sin esto, pero se le pedirá que lo instale y, a continuación, reinicie el servidor antes de que continúe la instalación de Skype Empresarial Server 2019. Es mejor hacerlo con antelación.  |
+|Silverlight   |Puede instalar la versión más reciente de Silverlight [aquí](https://www.microsoft.com/silverlight/).   |
    
 Para ayudarle, este es un script de PowerShell de ejemplo que puede ejecutar para automatizar esto:
   
@@ -185,7 +182,7 @@ IIS, con los siguientes módulos seleccionados:
     
   - Filtros ISAPI
     
-(Si se lo está preguntando, es el mismo conjunto de módulos que los servidores front-end y los servidores Standard Edition, con las herramientas de administración y compresión de contenido dinámicos que se han quedado fuera).
+(Si se lo está preguntando, es el mismo conjunto de módulos que los servidores front-end y los servidores Standard Edition, con las herramientas de compresión y administración de contenido dinámicos no disponibles).
   
 Y también tenemos código de PowerShell a continuación:
   
@@ -196,26 +193,24 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 ## <a name="back-end-databases-that-will-work-with-skype-for-business-server-2019"></a>Bases de datos back-end que funcionarán con Skype Empresarial Server 2019
 <a name="DBs"> </a>
 
-Al instalar Skype Empresarial Server 2019 Standard Edition, tendrás SQL Server 2016 Express (edición de 64 bits).
+Al instalar Skype Empresarial Server 2019 Standard Edition, tendrá SQL Server 2016 Express (edición de 64 bits).
 
-Skype Empresarial Server 2019 Enterprise Edition necesitará un SQL Server completo, como se indica a continuación (solo edición de 64 bits; no use ediciones de 32 bits):
+Skype Empresarial Server 2019 Enterprise Edition requerirá un SQL Server completo, como se indica a continuación (solo edición de 64 bits; no use ediciones de 32 bits):
   
-||||
-|:-----|:-----|:-----|
-|Microsoft SQL Server 2019 (edición de 64 bits) y debe ejecutar con las actualizaciones más recientes.  <br/> |Microsoft SQL Server 2017 (edición de 64 bits) y debe ejecutar con las actualizaciones más recientes.  <br/> |
-Microsoft SQL Server 2016 (edición de 64 bits) y debe ejecutar con las actualizaciones más recientes.|
- |
+- Microsoft SQL Server 2019 (edición de 64 bits) y debe ejecutar con las actualizaciones más recientes.
+- Microsoft SQL Server 2017 (edición de 64 bits) y debe ejecutar con las actualizaciones más recientes.
+- Microsoft SQL Server 2016 (edición de 64 bits) y debe ejecutar con las actualizaciones más recientes.
 
 Si no ves la edición SQL Server que quieres usar, no puedes usarla.
   
 > [!NOTE]
 > También debe instalar SQL Server Reporting Services para el rol servidor de supervisión. 
   
-### <a name="sql-clustering-and-sql-always-on"></a>SQL Agrupación en clústeres y SQL AlwaysOn
+### <a name="sql-clustering-and-sql-always-on"></a>SQL clústeres y SQL AlwaysOn
 
-SQL Se admite la agrupación Skype Empresarial Server 2019. Si desea configurar la SQL clústeres, se realiza en SQL Server.
+SQL clústeres con Skype Empresarial Server 2019. Si desea configurar la SQL clústeres, se realiza en SQL Server.
   
-Asegúrese de que tiene una configuración activa/pasiva para SQL clustering, que es compatible. No comparta el nodo pasivo con ninguna otra SQL instancia.
+Asegúrese de que tiene una configuración activa/pasiva para la SQL clústeres, que es compatible. No comparta el nodo pasivo con ninguna otra SQL instancia.
   
 Puede tener lo siguiente para clústeres de conmutación por error:
   
@@ -231,7 +226,7 @@ Dieciséis nodos:
 - Microsoft SQL Server 2017 Enterprise (edición de 64 bits) y se recomienda ejecutar con el service pack más reciente.
 - Microsoft SQL Server 2016 Enterprise (edición de 64 bits) y se recomienda ejecutar con el service pack más reciente.
 
-SQL AlwaysOn es compatible y puede leer más sobre él en [Back End Server high availability in Skype Empresarial Server 2019](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
+SQL se admite AlwaysOn y puede leer más sobre él en [Back End Server high availability in Skype for Business Server 2019](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
   
 
 ###  <a name="additional-server-installation-recommendations"></a>Recomendaciones adicionales de instalación del servidor:
@@ -242,17 +237,17 @@ No instale ningún software cliente del servidor de Microsoft Internet Security 
 ## <a name="active-directory"></a>Active Directory
 <a name="AD"> </a>
 
-Aunque gran parte de los datos de configuración de servidores y servicios se almacenan en el almacén de administración central de Skype Empresarial Server 2019, todavía hay algunas cosas almacenadas en Active Directory:
+Aunque gran parte de los datos de configuración de servidores y servicios se almacenan en el almacén de administración central de Skype Empresarial Server 2019, todavía hay algunos elementos almacenados en Active Directory:
   
-|**Objetos de Active Directory**|**Tipos de objeto**|
+|Objetos de Active Directory|Tipos de objeto|
 |:-----|:-----|
-|Extensiones de esquema  <br/> |Extensiones de objetos de usuario  <br/> |
-||Extensiones para Skype Empresarial Server 2015 y Lync Server 2013, para mantener la compatibilidad con versiones anteriores admitidas  <br/> |
-|Datos  <br/> |URI de SIP del usuario y otros parámetros de usuario  <br/> |
-||Objetos de contacto para aplicaciones (como la aplicación grupo de respuesta y el aplicación Operador de conferencia)  <br/> |
-||Datos publicados para lograr compatibilidad con versiones anteriores  <br/> |
-||Un punto de control de servicio (SCP) para el almacén de administración central  <br/> |
-||Cuenta de autenticación Kerberos (un objeto de equipo opcional)  <br/> |
+|Extensiones de esquema   |Extensiones de objetos de usuario   |
+||Extensiones para Skype Empresarial Server 2015 y Lync Server 2013, para mantener la compatibilidad con versiones anteriores admitidas   |
+|Datos   |URI de SIP del usuario y otros parámetros de usuario   |
+||Objetos de contacto para aplicaciones (como la aplicación Grupo de respuesta y la aplicación Operador de conferencia)   |
+||Datos publicados para lograr compatibilidad con versiones anteriores   |
+||Un punto de control de servicio (SCP) para el almacén de administración central   |
+||Cuenta de autenticación Kerberos (un objeto de equipo opcional)   |
    
 ### <a name="os-for-domain-controllers"></a>Sistema operativo para controladores de dominio
 
@@ -278,13 +273,13 @@ El nivel funcional de dominio de cualquier dominio en el que implemente Skype Em
   
 Es importante saber que Skype Empresarial Server 2019 no admite dominios con etiqueta única. ¿Cuáles son? Si tiene un dominio raíz etiquetado como contoso.local, estará bien. Si tiene un dominio raíz que se acaba de llamar local, no funcionará y no se admite como resultado. Un poco más sobre esto se ha escrito [en este artículo de Knowledge Base](https://support.microsoft.com/kb/300684/).
   
-Skype Empresarial Server 2019 tampoco admite el cambio de nombre de dominios. Si realmente tiene que cambiar el nombre del dominio, deberá desinstalar Skype Empresarial Server 2019, cambiar el nombre del dominio y volver a instalar Skype Empresarial Server 2019.
+Skype Empresarial Server 2019 tampoco admite el cambio de nombre de dominios. Si realmente tiene que cambiar el nombre de su dominio, tendrá que desinstalar Skype Empresarial Server 2019, cambiar el nombre del dominio y volver a instalar Skype Empresarial Server 2019.
   
 Por último, es posible que esté tratando con un dominio con un entorno de AD DS bloqueado, y eso está bien. Tenemos más información sobre cómo implementar Skype Empresarial Server 2019 en un entorno de AD DS bloqueado en la documentación de implementación.
   
 ### <a name="ad-topologies"></a>Topologías de AD
 
-Las topologías admitidas Skype Empresarial Server 2019 son:
+Las topologías admitidas en Skype Empresarial Server 2019 son:
   
 - Un solo bosque con un solo dominio
     
@@ -296,13 +291,13 @@ Las topologías admitidas Skype Empresarial Server 2019 son:
     
 - Varios bosques en una topología de bosque de recursos
     
-- Varios bosques en una topología Skype Empresarial bosque de recursos con Exchange Online
+- Varios bosques en una topología de bosque de recursos de Skype Empresarial con Exchange Online
     
-- Varios bosques en una topología de bosque de recursos con Skype Empresarial Online y Azure Active Directory Conectar
+- Varios bosques en una topología de bosque de recursos con Skype Empresarial Online y Azure Active Directory Connect
     
 Tenemos diagramas y descripciones para ayudarle a determinar qué topología tiene en su entorno o qué puede necesitar configurar antes de instalar Skype Empresarial Server 2019. Para que sea sencillo, también estamos incluyendo una clave:
   
-![Es una clave de los iconos usados para Skype Empresarial diagramas de topología.](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
+![Es una clave de los iconos usados para los diagramas de topología de Skype Empresarial.](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
 #### <a name="single-forest-with-single-domain"></a>Un solo bosque con un solo dominio
 
@@ -314,15 +309,15 @@ No es más fácil que esto; es un bosque de dominio único, una topología comú
 
 ![Un solo bosque, un solo árbol y un diagrama de dominios mutiple.](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
-Este diagrama muestra un solo bosque, de nuevo, pero también tiene uno o varios dominios secundarios (hay tres en este ejemplo específico). Por lo tanto, el dominio en el que se crean los usuarios puede ser diferente del dominio en el que Skype Empresarial Server se implementa 2019. ¿Por qué preocuparse por esto? Es importante recordar que al implementar un grupo Skype Empresarial Server front-end, todos los servidores de ese grupo deben estar en un solo dominio. Puede tener administración entre dominios a través de Skype Empresarial Server compatibilidad con Windows grupos de administradores universales.
+Este diagrama muestra un solo bosque, de nuevo, pero también tiene uno o varios dominios secundarios (hay tres en este ejemplo específico). Por lo tanto, el dominio en el que se crean los usuarios puede ser diferente del dominio en el que se implementa Skype Empresarial Server 2019. ¿Por qué preocuparse por esto? Es importante recordar que al implementar un grupo de servidores front-end de Skype Empresarial Server, todos los servidores de ese grupo deben estar en un solo dominio. Puede tener la administración entre dominios a través de la compatibilidad de Skype Empresarial Server con grupos de administradores universales de Windows.
   
-En el diagrama anterior, puede ver que los usuarios de un dominio pueden tener acceso Skype Empresarial Server grupos de servidores desde el mismo dominio o desde dominios diferentes, incluso si esos usuarios están en un dominio secundario.
+En el diagrama anterior, puede ver que los usuarios de un dominio pueden tener acceso a grupos de Skype Empresarial Server desde el mismo dominio o desde dominios diferentes, incluso si esos usuarios están en un dominio secundario.
   
 #### <a name="single-forest-with-multiple-trees-and-disjoint-namespaces"></a>Un solo bosque con varios árboles y espacios de nombres separados
 
 ![Un solo bosque, varios árboles y un diagrama de espacios de nombres distintos.](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
-Es posible que tenga una topología similar a este diagrama, donde tiene un bosque, pero dentro de ese bosque hay varios dominios, con espacios de nombres de AD independientes. En este caso, este diagrama es una buena ilustración, ya que incluye usuarios en tres dominios diferentes que acceden a Skype Empresarial Server 2019. Las líneas sólidas indican que tienen acceso a un grupo de Skype Empresarial Server en su propio dominio, mientras que una línea discontinua indica que van a un grupo de servidores en un árbol diferente por completo.
+Es posible que tenga una topología similar a este diagrama, donde tiene un bosque, pero dentro de ese bosque hay varios dominios, con espacios de nombres de AD independientes. En este caso, este diagrama es una buena ilustración, ya que incluye usuarios en tres dominios diferentes que tienen acceso a Skype Empresarial Server 2019. Las líneas sólidas indican que tienen acceso a un grupo de Skype Empresarial Server en su propio dominio, mientras que una línea discontinua indica que van a un grupo de servidores en un árbol diferente por completo.
   
 Como puede ver, los usuarios del mismo dominio, el mismo árbol o incluso un árbol diferente pueden tener acceso a los grupos de servidores correctamente.
   
@@ -334,40 +329,40 @@ Skype Empresarial Server 2019 admite varios bosques configurados en una topolog�
   
 ¿Cómo funciona esto? Un producto de sincronización de directorios (como Forefront Identity Manager o FIM) administra las cuentas de usuario de la organización durante toda su existencia. Cuando se crea o elimina una cuenta de un bosque, ese cambio se sincroniza con el contacto correspondiente en el bosque central.
   
-Claramente, si la infraestructura de AD está en su lugar, es posible que mover a esta topología no sea fácil, pero si ya está allí o aún planea la infraestructura del bosque, esta puede ser una buena opción. Puede centralizar la implementación Skype Empresarial Server 2019 en un solo bosque, mientras que los usuarios pueden buscar, comunicarse y ver la presencia de otros usuarios en cualquier bosque. Todas las actualizaciones de contacto de usuario se controlan automáticamente con software de sincronización.
+Claramente, si la infraestructura de AD está en su lugar, es posible que mover a esta topología no sea fácil, pero si ya está allí o aún planea la infraestructura del bosque, esta puede ser una buena opción. Puede centralizar la implementación de Skype Empresarial Server 2019 en un solo bosque, mientras que los usuarios pueden buscar, comunicarse y ver la presencia de otros usuarios en cualquier bosque. Todas las actualizaciones de contacto de usuario se controlan automáticamente con software de sincronización.
   
-#### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>Varios bosques en una topología Skype Empresarial bosque de recursos
+#### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>Varios bosques en una topología de bosque de recursos de Skype Empresarial
 <a name="BKMK_multipleforestopology"> </a>
 
 ![Varios bosques en un diagrama de topología de bosque de recursos.](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 También se admite una topología de bosque de recursos; es donde un bosque está dedicado a ejecutar las aplicaciones de servidor, como Microsoft Exchange Server y Skype Empresarial Server 2019. Este bosque de recursos también hospeda una representación sincronizada de objetos de usuario activos, pero no cuentas de usuario habilitadas para inicio de sesión. Por lo tanto, el bosque de recursos es un entorno de servicios compartidos para otros bosques en los que residen objetos de usuario y tienen una relación de confianza de nivel de bosque con el bosque de recursos.
   
-Tenga en cuenta que Exchange Server puede implementarse en el mismo bosque de recursos que Skype Empresarial Server o en un bosque diferente.
+Tenga en cuenta Exchange Server puede implementarse en el mismo bosque de recursos que Skype Empresarial Server o en un bosque diferente.
   
-Para implementar Skype Empresarial Server 2019 en este tipo de topología, crearía un objeto de usuario deshabilitado en el bosque de recursos para cada cuenta de usuario de los bosques de usuarios (si Microsoft Exchange Server ya está en el entorno, esto podría hacerse automáticamente). A continuación, necesita una herramienta de sincronización de directorios (como Forefront Identity Manager o FIM) para administrar cuentas de usuario durante su ciclo de vida.
+Para implementar Skype Empresarial Server 2019 en este tipo de topología, crearía un objeto de usuario deshabilitado en el bosque de recursos para cada cuenta de usuario de los bosques de usuarios (si Microsoft Exchange Server ya está en el entorno, esto podría hacerse por usted). A continuación, necesita una herramienta de sincronización de directorios (como Forefront Identity Manager o FIM) para administrar cuentas de usuario durante su ciclo de vida.
   
-#### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>Varios bosques en una topología Skype Empresarial bosque de recursos con Exchange Online
+#### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>Varios bosques en una topología de bosque de recursos de Skype Empresarial con Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
 
-Esta topología es similar a la topología descrita en [Multiple forests in a Skype Empresarial resource forest topology](system-requirements.md#BKMK_multipleforestopology).
+Esta topología es similar a la topología descrita en Varios bosques en una topología de bosque de recursos [de Skype Empresarial.](system-requirements.md#BKMK_multipleforestopology)
   
-En esta topología, hay uno o más bosques de usuarios y Skype Empresarial Server se implementa en un bosque de recursos dedicado. Exchange Server puede implementarse localmente en el mismo bosque de recursos o en un bosque diferente y configurarse para servicios híbridos con Exchange Online, o los servicios de correo electrónico pueden ser proporcionados exclusivamente por Exchange Online para las cuentas locales. No hay ningún diagrama disponible para esta topología.
+En esta topología, hay uno o más bosques de usuarios y Skype Empresarial Server se implementa en un bosque de recursos dedicado. Exchange Server puede implementarse localmente en el mismo bosque de recursos o en un bosque diferente y configurarse para híbridos con Exchange Online, o los servicios de correo electrónico pueden ser proporcionados exclusivamente por Exchange Online para las cuentas locales. No hay ningún diagrama disponible para esta topología.
   
-#### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Varios bosques en una topología de bosque de recursos con Skype Empresarial Online y Azure Active Directory Conectar
+#### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Varios bosques en una topología de bosque de recursos con Skype Empresarial Online y Azure Active Directory Connect
 <a name="BKMK_multipleforestopology"> </a>
 
-![Muestra dos bosques de AD, un bosque de usuarios y un bosque de recursos. Los dos bosques tienen una relación de confianza. Se sincronizan con Microsoft 365 con Azure AD Conectar. Todos los usuarios están habilitados para Skype Empresarial mediante Microsoft 365.](../../SfbServer/media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![Muestra dos bosques de AD, un bosque de usuarios y un bosque de recursos. Los dos bosques tienen una relación de confianza. Se sincronizan con Microsoft 365 mediante Azure AD Connect. Todos los usuarios están habilitados para Skype Empresarial a través de Microsoft 365.](../../SfbServer/media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-Con este escenario, hay varios bosques locales, con una topología de bosque de recursos. Existe una relación de plena confianza entre los bosques de Active Directory. La Azure Active Directory Conectar se usa para sincronizar cuentas entre los bosques de usuarios locales y Microsoft 365 o Office 365.
+Con este escenario, hay varios bosques locales, con una topología de bosque de recursos. Existe una relación de plena confianza entre los bosques de Active Directory. La herramienta Azure Active Directory Connect se usa para sincronizar cuentas entre los bosques de usuarios locales y Microsoft 365 u Office 365.
   
- La organización también tiene Microsoft 365 o Office 365 y [](/azure/active-directory/connect/active-directory-aadconnect) usa Azure Active Directory Conectar para sincronizar sus cuentas locales con Microsoft 365 o Office 365. Los usuarios que están habilitados para Skype Empresarial están habilitados mediante Microsoft 365 o Office 365 y Skype Empresarial Online. Skype Empresarial Server no se implementa localmente.
+ La organización también tiene Microsoft 365 u Office 365 y usa [Azure Active Directory Connect](/azure/active-directory/connect/active-directory-aadconnect) para sincronizar sus cuentas locales con Microsoft 365 u Office 365. Los usuarios habilitados para Skype Empresarial están habilitados a través de Microsoft 365 u Office 365 y Skype Empresarial Online. Skype Empresarial Server no se implementa localmente.
   
 La autenticación de inicio de sesión único la proporciona una granja de servicios de federación de Active Directory ubicada en el bosque de usuarios.
   
-En este escenario, se admite implementar Exchange local, Exchange Online, una solución de Exchange híbrida o no tener Exchange implementado en absoluto. (El diagrama solo muestra Exchange local, pero las otras Exchange también son totalmente compatibles).
+En este escenario, se admite implementar Exchange local, Exchange Online, una solución híbrida de Exchange o no tener Exchange implementado en absoluto. (El diagrama muestra solo Exchange local, pero las otras soluciones de Exchange también son totalmente compatibles).
   
-#### <a name="multiple-forests-in-a-resource-forest-topology-with-hybrid-skype-for-business"></a>Varios bosques en una topología de bosque de recursos con Skype Empresarial
+#### <a name="multiple-forests-in-a-resource-forest-topology-with-hybrid-skype-for-business"></a>Varios bosques en una topología de bosque de recursos con Skype Empresarial híbrido
 <a name="BKMK_multipleforestopology"> </a>
 
 En este escenario, hay uno o varios bosques de usuarios locales y Skype Empresarial se implementa en un bosque de recursos dedicado y se configura para el modo híbrido con Skype Empresarial Online. Exchange Server puede implementarse localmente en el mismo bosque de recursos o en un bosque diferente y puede configurarse para híbrido con Exchange Online. Como alternativa, los servicios de correo electrónico pueden ser proporcionados exclusivamente por Exchange Online para las cuentas locales.
@@ -461,39 +456,39 @@ Para que las cosas sean sencillas, hemos incluido los requisitos de certificado 
     
 Certificados para servidores Standard Edition:
   
-|**Certificado**|**Nombre de sujeto/nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|**Comments**|
+|Certificado|Nombre de sujeto/nombre común|Nombre alternativo de sujeto|Ejemplo|Comentarios|
 |:-----|:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |En Standard Edition servidores, el FQDN del servidor es el mismo que el FQDN del grupo.  <br/> El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
-|Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web interno (que es el mismo que el FQDN del servidor)  <br/> AND  <br/> • Reunirse con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com  <br/> |No puede invalidar el FQDN web interno en el Generador de topologías.  <br/> Si tiene varias direcciones URL sencillas de Meet, debe incluirlas todas como SAN.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
-|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web externo  <br/> AND  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Reunirse con direcciones URL sencillas por dominio SIP  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Predeterminado   |FQDN del grupo de servidores   |FQDN del grupo de servidores y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).   |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com   |En Standard Edition servidores, el FQDN del servidor es el mismo que el FQDN del grupo.  <br/> El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.   |
+|Web interno   |FQDN del servidor   |Cada uno de los siguientes elementos:  <br/> • FQDN web interno (que es el mismo que el FQDN del servidor)  <br/> AND  <br/> • Reunirse con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas   |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com   |No puede invalidar el FQDN web interno en el Generador de topologías.  <br/> Si tiene varias direcciones URL sencillas de Meet, debe incluirlas todas como SAN.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.   |
+|Web externo   |FQDN del servidor   |Cada uno de los siguientes elementos:  <br/> • FQDN web externo  <br/> AND  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Reunirse con direcciones URL sencillas por dominio SIP  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas   |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com   |Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.   |
    
 Certificados para servidores front-end en un grupo de servidores front-end:
   
-|**Certificado**|**Nombre de sujeto/nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|**Comments**|
+|Certificado|Nombre de sujeto/nombre común|Nombre alternativo de sujeto|Ejemplo|Comentarios|
 |:-----|:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
-|Web interno  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web interno (que NO es el mismo que el FQDN del servidor)  <br/> • FQDN de servidor  <br/> • Skype Empresarial FQDN del grupo de servidores  <br/> AND  <br/> • Reunirse con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com  <br/> |Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
-|Web externo  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web externo  <br/> AND  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Predeterminado   |FQDN del grupo de servidores   |FQDN del grupo de servidores y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).   |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com   |El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.   |
+|Web interno   |FQDN del grupo de servidores   |Cada uno de los siguientes elementos:  <br/> • FQDN web interno (que NO es el mismo que el FQDN del servidor)  <br/> • FQDN de servidor  <br/> • FQDN del grupo de Skype Empresarial  <br/> AND  <br/> • Reunirse con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas   |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com   |Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.   |
+|Web externo   |FQDN del grupo de servidores   |Cada uno de los siguientes elementos:  <br/> • FQDN web externo  <br/> AND  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas   |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com   |Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.   |
    
 Certificados para el director:
   
-|**Certificado**|**Nombre de sujeto/nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|
+|Certificado|Nombre de sujeto/nombre común|Nombre alternativo de sujeto|Ejemplo|
 |:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |Grupo de servidores Director  <br/> |FQDN del director, FQDN del grupo de directores.  <br/> Si este grupo es el servidor de inicio de sesión automático para clientes y se requiere una coincidencia de DNS estricta en la directiva de grupo, también necesitará entradas para sip.sipdomain (para cada dominio SIP que tenga).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> Si este grupo de servidores del director es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
-|Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web interno (que es el mismo que el FQDN del servidor)  <br/> • FQDN de servidor  <br/> • Skype Empresarial FQDN del grupo de servidores  <br/> AND  <br/> • Reunirse con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com  <br/> |
-|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web externo  <br/> AND  <br/> • Reunirse con direcciones URL sencillas por dominio SIP  <br/> • Dirección URL sencilla de acceso telefónico  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |El FQDN web externo de Director debe ser diferente del grupo de servidores front-end o el servidor front-end.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com  <br/> |
+|Predeterminado   |Grupo de servidores Director   |FQDN del director, FQDN del grupo de directores.  <br/> Si este grupo es el servidor de inicio de sesión automático para clientes y se requiere una coincidencia de DNS estricta en la directiva de grupo, también necesitará entradas para sip.sipdomain (para cada dominio SIP que tenga).   |pool.contoso.com; SAN=dir01.contoso.com  <br/> Si este grupo de servidores del director es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com   |
+|Web interno   |FQDN del servidor   |Cada uno de los siguientes elementos:  <br/> • FQDN web interno (que es el mismo que el FQDN del servidor)  <br/> • FQDN de servidor  <br/> • FQDN del grupo de Skype Empresarial  <br/> AND  <br/> • Reunirse con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas   |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com   |
+|Web externo   |FQDN del servidor   |Cada uno de los siguientes elementos:  <br/> • FQDN web externo  <br/> AND  <br/> • Reunirse con direcciones URL sencillas por dominio SIP  <br/> • Dirección URL sencilla de acceso telefónico  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas   |El FQDN web externo de Director debe ser diferente del grupo de servidores front-end o el servidor front-end.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com   |
    
 Certificados para servidor de mediación independiente:
   
-|**Certificado**|**Nombre de sujeto/nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|
+|Certificado|Nombre de sujeto/nombre común|Nombre alternativo de sujeto|Ejemplo|
 |:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores  <br/> FQDN del servidor miembro del grupo  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
+|Predeterminado   |FQDN del grupo de servidores   |FQDN del grupo de servidores  <br/> FQDN del servidor miembro del grupo   |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net   |
    
 Certificados para la aplicación de sucursal con funciones de supervivencia (específicamente, aplicación de sucursal con funciones de supervivencia de 2015 para Skype Empresarial Server 2019):
   
-|**Certificado**|**Nombre de sujeto/nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|
+|Certificado|Nombre de sujeto/nombre común|Nombre alternativo de sujeto|Ejemplo|
 |:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN de la aplicación  <br/> |SIP.\<sipdomain\> (solo necesita una entrada por dominio SIP)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
+|Predeterminado   |FQDN de la aplicación   |SIP.\<sipdomain\> (solo necesita una entrada por dominio SIP)   |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com   |
    
 ### <a name="certificates-for-external-user-access-edge"></a>Certificados para el acceso de usuarios externos (Edge)
 
@@ -521,18 +516,18 @@ Si eso es lo que está viendo y si tiene muchos dominios SIP (lo que haría que 
   
 Requisitos de certificado de grupo de directores y grupo de servidores front-end:
   
-|**Descripción**|**Entrada san**|
+|Descripción|Entrada san|
 |:-----|:-----|
-|Dirección URL del servicio de detección automática interna  <br/> |SAN=lyncdiscoverinternal.\<sipdomain\>  <br/> |
-|Dirección URL del servicio de detección automática externa  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
+|Dirección URL del servicio de detección automática interna   |SAN=lyncdiscoverinternal.\<sipdomain\>   |
+|Dirección URL del servicio de detección automática externa   |SAN=lyncdiscover.\<sipdomain\>   |
    
 También puede usar SAN= \* .\<sipdomain\>
   
 Requisitos de certificado de proxy inverso (CA pública):
   
-|**Descripción**|**Entrada san**|
+|Descripción|Entrada san|
 |:-----|:-----|
-|Dirección URL del servicio de detección automática externa  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
+|Dirección URL del servicio de detección automática externa   |SAN=lyncdiscover.\<sipdomain\>   |
    
 Este SAN debe asignarse al certificado asignado al agente de escucha SSL en el proxy inverso.
   

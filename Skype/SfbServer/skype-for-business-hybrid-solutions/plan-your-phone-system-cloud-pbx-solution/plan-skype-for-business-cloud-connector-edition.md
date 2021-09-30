@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Busque información sobre Skype for Business Edición de conector de nube, un conjunto de máquinas virtuales (VM) empaquetadas que implementan la conectividad RTC local con Sistema telefónico (PBX en la nube).
-ms.openlocfilehash: bff341213e9426f72fc0a78a9076b5b784871106
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f27fdd41978cd686a7019876dedbfe63a29af9e9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728809"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014154"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planeación de Skype for Business Edición de conector de nube
 
@@ -61,7 +61,7 @@ Tenga en cuenta lo siguiente al planear la implementación de Cloud Connector Ed
 
 - Cloud Connector no requiere una implementación Skype Empresarial Server local completa.
 
-    Actualmente, Cloud Connector no puede coexistir con Lync ni Skype Empresarial servidores locales. Si desea mover usuarios de Lync o Skype Empresarial existentes a Microsoft 365 y seguir proporcionando telefonía local a los usuarios, considere la posibilidad de Sistema telefónico con conectividad local mediante una implementación Skype Empresarial Server local. Para obtener más información, [vea Plan your Sistema telefónico (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page.md) y Plan Sistema telefónico with [on-premises PSTN connectivity in Skype Empresarial Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
+    Actualmente, Cloud Connector no puede coexistir con Lync ni Skype Empresarial servidores locales. Si desea mover usuarios de Lync o Skype Empresarial existentes a Microsoft 365 y seguir proporcionando telefonía local a los usuarios, considere la posibilidad de Sistema telefónico con conectividad local mediante una implementación Skype Empresarial Server local. Para obtener más información, [vea Plan your Sistema telefónico (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page) y Plan Sistema telefónico with [on-premises PSTN connectivity in Skype Empresarial Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 - Si tenía una implementación anterior de Skype Empresarial o Lync Server y extendió el esquema, no es necesario limpiar el esquema para la implementación de Cloud Connector, siempre que haya quitado todos los componentes de Skype Empresarial o Lync Server del entorno.
 
@@ -422,7 +422,7 @@ En este caso, todo el tráfico multimedia del punto final de Internet puede flui
 
 El equipo host debe poder llegar a recursos externos para instalar, actualizar y administrar correctamente Cloud Connector. En la tabla siguiente se muestran los destinos y puertos necesarios entre el equipo host y los recursos externos.
 
-|Dirección  <br/> |IP de origen  <br/> |IP de destino  <br/> |Puerto de origen  <br/> |Puerto de destino  <br/> |Protocolo  <br/> |Finalidad  <br/> |
+|Dirección  <br/> |IP de origen  <br/> |IP de destino  <br/> |Puerto de origen  <br/> |Puerto de destino  <br/> |Protocolo  <br/> |Objetivo  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Salida  <br/> |IP de host de Cloud Connector  <br/> |cualquiera  <br/> |cualquiera  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Salida  <br/> |IP de host de Cloud Connector  <br/> |cualquiera  <br/> |cualquiera  <br/> |80, 443  <br/> |TCP  <br/> |Lista de revocación de certificados (CRL)  <br/> |
@@ -432,7 +432,7 @@ Si se requieren reglas más restrictivas, consulte las siguientes direcciones UR
 
 - [Direcciones URL de lista de](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) revocación de certificados Office 365 direcciones URL e [intervalos de direcciones IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-- Windows Update: [How to Configure a Firewall for Software Updates](https://technet.microsoft.com/library/bb693717.aspx)
+- Windows Actualización: administrar [la configuración Windows actualización adicional](/windows/deployment/update/waas-wu-settings)
 
 - Skype Empresarial PowerShell de administración en línea: \* .online.lync.com
 
@@ -458,7 +458,7 @@ En el archivo .ini, si establece el nombre de FQDN de las puertas de enlace desd
 En primer lugar, debe definir los siguientes parámetros de implementación comunes:
 
 
-|**Elemento**|**Descripción**|**Notas**|
+|**Item**|**Descripción**|**Notas**|
 |:-----|:-----|:-----|
 |Dominios SIP  <br/> |URI de SIP en uso por los usuarios de la compañía. Proporcione todos los dominios SIP que proporcionará esta implementación. Puede tener más de un dominio SIP.  <br/> ||
 |Número de sitios RTC  <br/> |El número de sitios RTC que va a implementar.  <br/> ||

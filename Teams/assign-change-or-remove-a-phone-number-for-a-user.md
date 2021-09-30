@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo para Teams usuarios para que los clientes y empresas externas puedan llamar.
-ms.openlocfilehash: 44254c8d8c8886e72b699c3890017a2b817cd135
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 91460769639fc773877105003e8f6b00cd87eb7d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727509"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013544"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>Asignar, cambiar o quitar un número de teléfono para un usuario (Planes de llamadas)
 
@@ -42,13 +42,18 @@ Para obtener información sobre cómo obtener planes de llamadas en Teams y cuá
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Asignar un número de teléfono a un usuario
  
-![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
+![Icono que muestra el logotipo de Microsoft Teams.](media/teams-logo-30x30.png) **Utilización del centro de administración de Microsoft Teams**
     
 1. En el panel de navegación izquierdo, haga clic  >  **en Teléfono números.**
+
 2. En la **Teléfono números,** seleccione un número sinsignado en la lista y, a continuación, haga clic en **Editar.**  
+
 3. En el **panel Editar,** en **Asignado a**, busque al usuario por nombre para mostrar o nombre de usuario y, a continuación, haga clic en **Asignar**.
+
 4. Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia,** busque y seleccione la ubicación.
+
 5. Dependiendo de si desea enviar un correo electrónico al usuario con su información de número de teléfono, desactive o active Usuario de correo electrónico con información **de número de teléfono.** De forma predeterminada, está en. 
+
 6. Haga clic en **Guardar**.
 
 Para obtener un ejemplo de PowerShell, [vea Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
@@ -59,28 +64,40 @@ Para obtener un ejemplo de PowerShell, [vea Set-CsOnlineVoiceUser](/powershell/m
   
 ## <a name="change-a-phone-number-for-a-user"></a>Cambiar un número de teléfono para un usuario
  
-![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
+![Icono que muestra el logotipo de Microsoft Teams.](media/teams-logo-30x30.png) **Utilización del centro de administración de Microsoft Teams**
     
 1. En el panel de navegación izquierdo, haga clic en Usuarios **,** busque y haga doble clic en el usuario que desee, haga clic en Cuenta y, a continuación, en Información **general,** anote el número de teléfono asignado al usuario.
+
 2. En el panel de navegación izquierdo, haga clic  >  **en Teléfono números.**
+
 3. En la **página Teléfono números,** seleccione el número que identificó en el paso 1 y, a continuación, haga clic en **Editar.**  
+
 4. En el **panel Editar,** en **Asignado a**, haga clic en la **X** para quitar al usuario.
+
 5. Haga clic en **Guardar**.
+
 6. En la **Teléfono números,** seleccione un número sinsignado en la lista y, a continuación, haga clic en **Editar.**  
+
 7. En el **panel Editar,** en **Asignado a**, busque al usuario por nombre para mostrar o nombre de usuario y, a continuación, haga clic en **Asignar**.
+
 8. Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia,** busque y seleccione la ubicación.
+
 9. Haga clic en **Guardar**.
 
 Para obtener un ejemplo de PowerShell, vea [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Quitar un número de teléfono de un usuario
  
-![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
+![Icono que muestra el logotipo de Microsoft Teams.](media/teams-logo-30x30.png) **Utilización del centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, haga clic en Usuarios **,** busque y haga doble clic en el usuario que desee, haga clic en Cuenta y, a continuación, en Información **general,** anote el número de teléfono asignado al usuario.
+
 2. En el panel de navegación izquierdo, haga clic  >  **en Teléfono números.**
+
 3. En la **Teléfono números,** seleccione el número que identificó en el paso 2 y, a continuación, haga clic en **Editar.**  
+
 4. En el **panel Editar,** en **Asignado a**, haga clic en la **X** para quitar al usuario.
+
 5. Haga clic en **Guardar**.
 
 Para obtener un ejemplo de PowerShell, vea [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).

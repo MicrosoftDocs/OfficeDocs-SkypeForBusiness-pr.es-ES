@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Summary: Read this topic to learn how to configure dial-in conferencing in Skype Empresarial Server.'
-ms.openlocfilehash: a9d48b5232a446f81de1acf14cddfa054f74d488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3533220dc84f131b02f180bb863883b371cbf365
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609957"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013794"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar conferencias de acceso telefónico local en Skype Empresarial Server
  
@@ -157,7 +157,7 @@ Para poder crear números de acceso telefónico local, primero debe planear las 
     
 6. En **Nombre para mostrar,** escriba una descripción para el número de acceso telefónico. Este es el nombre asociado al número de acceso telefónico en los resultados Skype Empresarial búsqueda. Este nombre se muestra en el cliente cuando un usuario llama al número de acceso. 
     
-7. En **URI** de línea , escriba el número E.164 del número de acceso telefónico en formato URI de TEL, incluido el símbolo + antes del número y excluyendo espacios. Por ejemplo, tel:+14255550200.
+7. En **URI** de línea , escriba el número E.164 del número de acceso telefónico en formato URI de TEL, incluido el símbolo + antes del número y excluyendo espacios. Por ejemplo, `tel:+14255550200`.
     
     > [!NOTE]
     > Otro número de acceso de conferencia de acceso telefónico local no puede reutilizar el mismo URI de línea. 

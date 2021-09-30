@@ -20,12 +20,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3013b89ab384ca3f66c04bee06ccbbaf57445ff
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a55c7440b7d3183e93391ecc0e4f8781ba7b690f
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727609"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013304"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan para Microsoft 365 administración local: GCC implementaciones
 
@@ -64,9 +64,9 @@ En [Microsoft 365 descripción del](/office365/servicedescriptions/office-365-pl
 > [!Tip]
 > Es posible que desee transferir las tablas de información de la descripción del servicio Excel un libro de Excel y agregar dos columnas: Relevante para mi organización **Y/N** y Satisface las necesidades de mi organización **Y/N**. Después, puede revisar esta lista con sus compañeros para confirmar que este servicio satisface las necesidades de su organización.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![Un icono que muestra los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si Microsoft 365 gobierno: GCC es adecuado para su organización.</li><li>Confirme que su organización cumple los requisitos de elegibilidad.</li></ul> |
+| ![Un icono que representa los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si Microsoft 365 gobierno: GCC es adecuado para su organización.</li><li>Confirme que su organización cumple los requisitos de elegibilidad.</li></ul> |
 
 > [!Note]
 > Microsoft 365 Gobierno: GCC solo está disponible en Los Estados Unidos. Los clientes que no son del gobierno de EE. UU. pueden elegir entre una serie [de Microsoft 365 planes gubernamentales.](https://products.office.com/en/government/compare-office-365-government-plans)
@@ -80,9 +80,9 @@ Después de haber decidido que este servicio es adecuado para su organización, 
 
 Le recomendamos que se tome [](enable-features-office-365.md) un tiempo para revisar detenidamente la configuración de seguridad y administración antes de modificarlas, y tenga en cuenta los impactos en el cumplimiento antes de realizar cambios en la configuración de seguridad predeterminada.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión.](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si va a modificar cualquiera de las opciones predeterminadas de Microsoft 365: GCC de seguridad, resolviendo primero el impacto de los cambios que pueda realizar.</li></ul> |
+| ![Un icono que representa un punto de decisión.](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si va a modificar cualquiera de las opciones predeterminadas de Microsoft 365: GCC de seguridad, resolviendo primero el impacto de los cambios que pueda realizar.</li></ul> |
 
 ## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Paso 4. Comprender qué capacidades no están disponibles o deshabilitadas de forma predeterminada.
 
@@ -94,17 +94,17 @@ Para adaptarse a los requisitos de nuestros clientes en la nube del gobierno, ha
 > Una vez que otras cargas de trabajo estén totalmente disponibles en la GCC, estarán disponibles en Teams cuando se complete todo el trabajo de integración adicional.
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión.](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si el conjunto Teams características cumple las necesidades de su organización.</li></ul> |
+| ![Un icono que representa un punto de decisión.](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si el conjunto Teams características cumple las necesidades de su organización.</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>Paso 5. Plan de gobernanza
 
 Determine sus requisitos de gobernanza y cómo puede cumplirlos. Vaya a [Planear el gobierno en Teams](plan-teams-governance.md) para obtener más información.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión.](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Determine y documente los requisitos de gobernanza siguiendo las directrices de Plan de gobernanza [en Teams](plan-teams-governance.md).</li></ul> |
+| ![Un icono que representa un punto de decisión.](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Determine y documente los requisitos de gobernanza siguiendo las directrices de Plan de gobernanza [en Teams](plan-teams-governance.md).</li></ul> |
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Paso 6. Implementar Teams colaboración
 

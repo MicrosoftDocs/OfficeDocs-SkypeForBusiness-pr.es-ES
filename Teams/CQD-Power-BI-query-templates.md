@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Use Power BI para analizar datos CQD para Microsoft Teams.
-ms.openlocfilehash: 67e6c8750d064c8472865a22f1367d297fd4fee5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4a96a53454f1f4d89feed3ea87342a7991d7975c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616326"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013774"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Use Power BI datos CQD para Microsoft Teams
 
@@ -33,7 +33,7 @@ Antes de poder usar estos archivos PBIT, deberá instalar el conector de Power B
 
 Asegúrese de que tiene el rol de [acceso CQD adecuado](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) para obtener acceso a Power BI informes. 
 
-|  |  |
+|&nbsp;|&nbsp;|
 |---------|---------|
 |<strong>(¡Nuevo!)</strong> CQD Teams Operador automático & histórico de cola de llamadas.pbit     |  Esta plantilla proporciona los tres informes siguientes:</p><li>Operador automático: muestra análisis de las llamadas que llegan a los Operadores automáticos.</li><li>Cola de llamadas: muestra análisis de las llamadas que llegan a las colas de llamadas.</li><li>Escala de tiempo del agente: muestra una vista de escala de tiempo de los agentes que están activos en las llamadas de cola de llamadas.</li><br>Para obtener más información, lea Operador automático & informe histórico [de cola de llamadas](aa-cq-cqd-historical-reports.md).        |
 |Informe del departamento de soporte técnico de CQD.pbit     |Integrando datos de creación y EUII, este informe está diseñado para que pueda explorar en profundidad a un solo usuario para encontrar la causa raíz ascendente de la mala calidad de las llamadas para ese usuario (por ejemplo, el usuario se encuentra en un edificio que experimenta problemas de red).         |

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9177f4fd3a95cfd0f69aeb122c6de1b1b244f9f9
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 04f0a500a22868156850ef1ddcf800aeb0ec07c7
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942365"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012304"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -114,13 +114,13 @@ En la tabla siguiente se describe qué proveedores de SBC admiten la [Optimizaci
 | Proveedor | Producto |    Versión de software |
 |:------------|:-------|:-------|
 | [AudioCodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    SBC Mediant 500 |   7.20A.256 | 
-|            |  SBC Mediant 800 |   7.20A.256 | 
-|            |  SBC Mediant 2600 |  7.20A.256 | 
-|            |  SBC Mediant 4000 |  7.20A.256 | 
+|            |  SBC Mediant 800 |   7.40A.100 | 
+|            |  SBC Mediant 2600 |  7.40A.100 | 
+|            |  SBC Mediant 4000 |  7.40A.100 | 
 |            |  SBC Mediant 1000B | 7.20A.256 | 
-|            |  SBC Mediant 9000 |  7.20A.256 | 
-|            |  SBC de Mediant Virtual Edition |   7.20A.256 | 
-|            |  SBC de Mediant Cloud Edition | 7.20A.256 |
+|            |  SBC Mediant 9000 |  7.40A.100 | 
+|            |  SBC de Mediant Virtual Edition |   7.40A.100 | 
+|            |  SBC de Mediant Cloud Edition | 7.40A.100 |
 | [Cinta de SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
 |            |  SBC 5210         | 8.2  |
 |            |  SBC 5400         | 8.2  |

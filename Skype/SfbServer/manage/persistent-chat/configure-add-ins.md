@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Summary: Learn how to configure add-ins for Persistent Chat Server chat rooms in Skype Empresarial Server 2015.'
-ms.openlocfilehash: f6ff42e57f72a6fa875e8123af91caa7f4e3efc0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab2ccbe3c9f23a7397ecdf7510da63bbd84b9d95
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599985"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013394"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurar complementos para salas de chat persistente en Skype Empresarial Server 2015
  
@@ -71,7 +71,7 @@ Puede configurar complementos para los salas de chat mediante los siguientes cmd
 
 Puede crear un nuevo complemento mediante el cmdlet **New-CsPersistentChatAddin.**
   
-Por ejemplo, el siguiente comando crea un nuevo complemento (con el nombre ITPersistentChatAddin) para el grupo atl-cs-001.contoso.com. El parámetro URL y el valor del parámetro especifican la ubicación de la página http://atl-cs-001.contoso.com/itchat web del complemento:
+Por ejemplo, el siguiente comando crea un nuevo complemento (con el nombre ITPersistentChatAddin) para el grupo `atl-cs-001.contoso.com` . El parámetro URL y el valor del parámetro especifican la ubicación de la página `http://atl-cs-001.contoso.com/itchat` web del complemento:
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>Configurar la configuración de un complemento existente
 
-Puede configurar las opciones de un complemento existente mediante el cmdlet **Set-CsPersistentChatAddIn.** Por ejemplo, el siguiente comando modifica la dirección URL asignada al complemento de chat persistente ITPersistentChatAddin. En este caso, la dirección URL se cambia a http://atl-cs-001.contoso.com/itchat2:
+Puede configurar las opciones de un complemento existente mediante el cmdlet **Set-CsPersistentChatAddIn.** Por ejemplo, el siguiente comando modifica la dirección URL asignada al complemento de chat persistente ITPersistentChatAddin. En este caso, la dirección URL se cambia a `http://atl-cs-001.contoso.com/itchat2` :
   
 ```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>Quitar un complemento
 
-Puede quitar un complemento mediante el cmdlet **Remove-CsPersistentChatAddIn.** Por ejemplo, el siguiente comando quita el complemento de chat persistente ITChatAddin que se encuentra en el grupo de atl-cs-001.contoso.com:
+Puede quitar un complemento mediante el cmdlet **Remove-CsPersistentChatAddIn.** Por ejemplo, el siguiente comando quita el complemento de chat persistente ITChatAddin que se encuentra en el grupo `atl-cs-001.contoso.com` de servidores:
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

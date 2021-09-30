@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar directivas de comentarios para controlar si Teams usuarios de su organización pueden enviar comentarios sobre Teams a Microsoft.
-ms.openlocfilehash: 582c5e39fca8dc37cefe8b480b2ff886779f6fa0
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 2357af358dad4407fd401b08ff75dfc2560593a2
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942105"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013014"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Administrar directivas de comentarios en Microsoft Teams
 
@@ -47,6 +47,7 @@ Obtener acceso a los comentarios en **dispositivos móviles Configuración**  > 
  Los datos  enviados  a través de Enviar comentarios y Enviar comentarios se consideran "Datos de soporte técnico" en virtud de su contrato de Microsoft 365 o Office 365, incluida la información que de otro modo se consideraría "Datos del cliente" o "Datos personales".
 
 
+
 **Encuestas**
 
 Los usuarios también pueden calificar su experiencia con Teams y enviarnos detalles sobre la clasificación que dan. Esta encuesta emergente se muestra a los usuarios de vez en cuando en Teams. Cuando un usuario selecciona **Proporcionar comentarios** en la notificación, se muestra la encuesta para que se complete.
@@ -66,7 +67,9 @@ Puede administrar directivas de comentarios con PowerShell. Use el cmdlet [ **Ne
 Para desactivar y activar las características, establezca los siguientes parámetros:
 
  - **Enviar comentarios:** Establezca el **parámetro userInitiatedMode** en **habilitado** para permitir que los usuarios a los que se les asigne la directiva puedan enviar comentarios. Al establecer el parámetro en **deshabilitado** se desactiva la característica y los usuarios a los que se les asigna la directiva no tienen la opción de enviar comentarios.
+
  - **Encuestas:** establezca el **parámetro receiveSurveysMode** en **habilitado** para permitir que los usuarios a los que se les asigne la directiva reciban la encuesta. Para que los usuarios reciban la encuesta y les permitan optar por no participar, establezca el parámetro en **enabledUserOverride**. En Teams, los usuarios pueden ir **a Configuración** privacidad y elegir si quieren participar en  >   encuestas. Al establecer el parámetro en **deshabilitado,** se desactiva la característica y los usuarios a los que se les asigna la directiva no recibirán la encuesta.
+
  - **Correo** electrónico: use la **marca AllowEmailCollection** para agregar un campo de correo electrónico.
  - **Colección de registros:** use la **marca AllowLogCollection** para agregar la suscripción a la colección de registros para los usuarios. Actualmente, la colección de registros solo está habilitada en dispositivos móviles. Para obtener más información sobre qué datos se comparten a través de registros, [obtenga más información.](https://go.microsoft.com/fwlink/?linkid=2168178)
 

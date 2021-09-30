@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Summary: Read this topic to learn how to assign a voice policy for users using Sistema telefónico with on-premises PSTN connectivity.'
-ms.openlocfilehash: a3524c77cf27dc4fd9ab3a4f74211fc9040aad75
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa31624921aefd1065b0719966af1df9d2b38793
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582544"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013174"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Asignar una directiva de enrutado de voz
  
@@ -37,10 +37,10 @@ Una vez que un usuario está en Skype Empresarial Online y Sistema telefónico c
   
 La otra directiva de voz define qué características de llamada están disponibles para el usuario; Microsoft define esta directiva de voz y es idéntica para todos los Sistema telefónico con usuarios de conectividad RTC locales. Se asigna automáticamente a Sistema telefónico usuarios.
   
-||**Usuario local**|**Sistema telefónico con el usuario de conectividad RTC local**|
+|&nbsp;|Usuario local|Sistema telefónico con el usuario de conectividad RTC local|
 |:-----|:-----|:-----|
-|Características de llamada definidas en  <br/> |Directiva de voz  <br/> |Directiva de voz predefinida, asignada automáticamente cuando el usuario tiene licencia para Sistema telefónico.  <br/> |
-|Registros de uso de RTC asociados con  <br/> |Directiva de voz  <br/> |Directiva de enrutamiento de voz, asignada mientras el usuario aún está interno.  <br/> |
+|Características de llamada definidas en   |Directiva de voz   |Directiva de voz predefinida, asignada automáticamente cuando el usuario tiene licencia para Sistema telefónico.   |
+|Registros de uso de RTC asociados con   |Directiva de voz   |Directiva de enrutamiento de voz, asignada mientras el usuario aún está interno.   |
    
 Realice los siguientes pasos con la implementación local, mientras que el usuario aún está en la implementación local.
   
@@ -112,4 +112,4 @@ Independientemente de si usa la directiva de enrutamiento de voz global o las es
 
 En este ejemplo, el usuario con el nombre para mostrar Bob Kelly se asigna a la directiva de voz creada anteriormente con el nombre HybridVoice.
   
-Para obtener más información acerca de las directivas de enrutamiento de voz, vea Create [or modify a voice policy y configure PSTN usage records in Skype Empresarial 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)y [Grant-CsVoicePolicy](/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).
+Para obtener más información acerca de las directivas de enrutamiento de voz, vea Create [or modify a voice policy y configure PSTN usage records in Skype Empresarial 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy)y [Grant-CsVoicePolicy](/powershell/module/skype/grant-csvoicepolicy).

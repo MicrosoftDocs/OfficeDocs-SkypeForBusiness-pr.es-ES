@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8a928b532dcfb87a866f25502f4523078ce9cd48
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725831"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012964"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
@@ -33,6 +33,7 @@ La Presencia forma parte del perfil del usuario en Microsoft Teams (así como ta
 
  > [!NOTE]
  > Teams respeta su configuración de privacidad, de modo que, si tiene habilitado el modo de privacidad, su presencia no será visible para los usuarios externos.
+
 ## <a name="presence-states-in-teams"></a>Estados de presencia en Teams
 
 
@@ -50,10 +51,10 @@ La Presencia forma parte del perfil del usuario en Microsoft Teams (así como ta
 | ![Icono del reloj amarillo indica que está ausente.](media/Presence_Away.png) Ausente| ![Icono del reloj amarillo indica que está ausente.](media/Presence_Away.png) Ausente|
 || ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Última vez visto ausente *hora*|
 |![Icono del reloj amarillo indica ausente, ahora vuelvo.](media/Presence_Away.png) Ahora vuelvo| |
-|![El círculo gris con una x indica Desconectado](media/Presence_Offline.png) Desconectado|![El círculo gris con una x indica Desconectado](media/Presence_Offline.png) Desconectado. Cuando los usuarios no tienen la sesión iniciada en ninguno de sus dispositivos durante unos minutos, aparecen como desconectados. | |
+|![El círculo gris con una x indica Desconectado](media/Presence_Offline.png) Desconectado|![El círculo gris con una x indica Desconectado](media/Presence_Offline.png) Desconectado. Cuando los usuarios no tienen la sesión iniciada en ninguno de sus dispositivos durante unos minutos, aparecen como desconectados. |
 || ![Un círculo gris abierto indica estado desconocido.](media/Presence_Unknown.png) Estado desconocido|
 || ![El círculo púrpura con una flecha indica Fuera de la oficina.](media/Presence_OOF.png) Fuera de la oficina. Fuera de la oficina se usa cuando se establece una respuesta automática. |
-|||
+
  > [!NOTE]
  > Para los usuarios que tienen su buzón hospedado en un entorno local, se esperan retrasos de una hora (como máximo) en la presencia.
 
@@ -82,7 +83,6 @@ Los estados configurados por el usuario tienen una configuración de caducidad p
 | No disponible|1 día|
 | No molestar|1 día|
 | Otros|7 días|
-|||
 
 > [!NOTE]
 > El usuario también puede configurar de forma manual la duración de su presencia. Por ejemplo, un usuario puede establecer el estado Desconectado hasta la mañana siguiente.

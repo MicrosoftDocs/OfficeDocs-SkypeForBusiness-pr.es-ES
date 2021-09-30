@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumen: revise este tema para obtener información sobre cómo integrar Skype Empresarial Server con Exchange Server 2016 o Exchange Server 2013.'
-ms.openlocfilehash: 6c830636b8db5b2a4fba02a1a5f34489e691459c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f2650e8a18767e70ab98e8763e9ec2863e99df90
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609227"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012564"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan para la integración de Skype Empresarial y Exchange
  
@@ -93,31 +93,31 @@ Si va a integrar Skype Empresarial Server con Exchange Online, los pasos siguien
 
 En la tabla siguiente se detallan las características admitidas en varias combinaciones de elementos locales o en línea para Exchange y Skype Empresarial.
   
-||**Exchange 2016/2013/2010 (local) + Skype Empresarial Server (local)**|**Exchange Online + Skype Empresarial Server (local)**|**Exchange 2010 (local) + Skype Empresarial Online**|**Exchange 2016/2013(local) + Skype Empresarial Online**|**Exchange Online + Skype Empresarial Online**|
+|&nbsp;|Exchange 2016/2013/2010 (local) + Skype Empresarial Server (local)|Exchange Online + Skype Empresarial Server (local)**|**Exchange 2010 (local) + Skype Empresarial Online|Exchange 2016/2013(local) + Skype Empresarial Online**|**Exchange Online + Skype Empresarial Online|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Presencia en Outlook  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Responder a través de mensajería instantánea, llamada RTC, Skype o videollamada desde un correo Outlook correo electrónico  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Programar y unirse a reuniones en línea a través de Outlook  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Presencia en Outlook Web App  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Responder a través de mensajería instantánea, llamada RTC, Skype o videollamada desde un correo electrónico de OWA  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Programar y unirse a reuniones en línea a través de Outlook Web App  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Mensajería instantánea/presencia en clientes móviles  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Unirse a reuniones en línea en clientes móviles  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Estado de publicación basado en Outlook de disponibilidad del calendario  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Lista de contactos (a través del Almacén de contactos unificado)  <br/> |Y (necesita Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Foto de contacto de alta resolución (requiere Lync 2013 o Skype Empresarial clientes como mínimo. No compatible con LWA, aplicaciones móviles, Lync 2010, Lync para Mac y otros clientes antiguos).  <br/> |Y (necesita Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |v  <br/> |v  <br/> |
-|Delegación de reuniones  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|El historial de conversaciones perdidas y los registros de llamadas se escriben en el buzón de exchange del usuario  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Contenido de archivado (MI y reunión) en Exchange  <br/> |Y (necesita Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Buscar contenido archivado  <br/> |Y (necesita Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Exchange Correo de voz de mensajería unificada  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |N  <br/> |
-|Historial de conversaciones del lado servidor  <br/> |v  <br/> |v  <br/> |N  <br/> |v  <br/> |v  <br/> |
+|Presencia en Outlook   |v   |v   |v   |v   |v   |
+|Responder a través de mensajería instantánea, llamada RTC, Skype o videollamada desde un correo Outlook correo electrónico   |v   |v   |v   |v   |v   |
+|Programar y unirse a reuniones en línea a través de Outlook   |v   |v   |v   |v   |v   |
+|Presencia en Outlook Web App   |v   |v   |N   |N   |Y   |
+|Responder a través de mensajería instantánea, llamada RTC, Skype o videollamada desde un correo electrónico de OWA   |v   |v   |N   |N   |Y   |
+|Programar y unirse a reuniones en línea a través de Outlook Web App   |v   |v   |N   |N   |Y   |
+|Mensajería instantánea/presencia en clientes móviles   |v   |v   |v   |v   |v   |
+|Unirse a reuniones en línea en clientes móviles   |v   |v   |v   |v   |v   |
+|Estado de publicación basado en Outlook de disponibilidad del calendario   |v   |v   |v   |v   |v   |
+|Lista de contactos (a través del Almacén de contactos unificado)   |Y (necesita Exchange 2016/2013)   |v   |N   |N   |Y   |
+|Foto de contacto de alta resolución (requiere Lync 2013 o Skype Empresarial clientes como mínimo. No compatible con LWA, aplicaciones móviles, Lync 2010, Lync para Mac y otros clientes antiguos).   |Y (necesita Exchange 2016/2013)   |v   |N   |v   |v   |
+|Delegación de reuniones   |v   |v   |v   |v   |v   |
+|El historial de conversaciones perdidas y los registros de llamadas se escriben en el buzón de exchange del usuario   |v   |v   |v   |v   |v   |
+|Contenido de archivado (MI y reunión) en Exchange   |Y (necesita Exchange 2016/2013)   |v   |N   |N   |Y   |
+|Buscar contenido archivado   |Y (necesita Exchange 2016/2013)   |v   |N   |N   |Y   |
+|Exchange Correo de voz de mensajería unificada   |v   |v   |N   |N   |N   |
+|Historial de conversaciones del lado servidor   |v   |v   |N   |v   |v   |
 
 > [!NOTE]
 > Hay un servicio Correo de voz en la nube compatible con Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server 2015 y Lync Server 2013.
 > 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="feature_support"> </a>
 
 [Configurar la integración entre las Skype Empresarial Server locales y Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)

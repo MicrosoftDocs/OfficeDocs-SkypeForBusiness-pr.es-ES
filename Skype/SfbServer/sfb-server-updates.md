@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones para Skype Empresarial Server 2015/2019 y Lync 2013 en un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
-ms.openlocfilehash: 4f9b8e4de19778d2ded55f14e0de894528590d50
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432312"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012384"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
@@ -157,7 +157,7 @@ Nombre del paquete |Fecha de lanzamiento|
 | Lync Connectivity Analyzer (64 bits) RETIRED |Junio de 2017 |
 | Analizador de procedimientos recomendados de Lync Server 2013 |Octubre de 2012 |
 |[Calculadora de capacidad de Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=36828) |Julio de 2013 |
-|[Herramientas de depuración de Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35453) |Enero de 2014 |
+|Herramientas de depuración de Lync Server 2013 |Enero de 2014 |
 | Módulo de administración de Lync Server 2013 |Mayo de 2016 |
 | Kit de recursos de chat persistente de Lync Server 2013 |Julio de 2013 |
 | Herramienta de planeación de Lync Server 2013 |Julio de 2013 |
@@ -231,7 +231,7 @@ Nombre del paquete |Fecha de lanzamiento|
 | Herramienta de planeación de Lync Server 2010 |Febrero de 2011 |
 | Herramientas del Kit de recursos de Lync Server 2010|Mayo de 2012 |
 | Herramienta de esfuerzo y rendimiento de Lync Server 2010 |Marzo de 2011 |
-|[Galería de símbolos Visio Lync Server 2010](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|Febrero de 2011 |
+|[Galería de símbolos de Lync Server 2010 Visio](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|Febrero de 2011 |
 | Programador web de Lync Server 2010 |Abril de 2011 |
 
 ### <a name="lync-2010-downloadable-documentation"></a>Documentación descargable de Lync 2010

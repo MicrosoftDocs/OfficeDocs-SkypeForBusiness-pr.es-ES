@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre el Salas de Microsoft Teams administrado.
 f1keywords: ''
-ms.openlocfilehash: b60f920d6364599021f77d23fe890e11fae5c43e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7584011b3fc2f20318801b33e2be87f0f0cfe83e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597594"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012744"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salas de Microsoft Teams administrado
 
@@ -74,7 +74,7 @@ Su organización o un partner contratado por su organización deben estar prepar
 
 El Salas de Microsoft Teams administrado se admite a través de un SOC Salas de Microsoft Teams de servicio administrado. El modo principal de comunicación desde el soc Salas de Microsoft Teams de servicio administrado a los clientes es a través del Salas de Microsoft Teams de servicio administrado. El SALAS DE MICROSOFT TEAMS de servicio administrado proporciona la primera respuesta y la escalación adecuada en los vales elevados por el sistema o por su organización.
 
-|  |  |
+|  | Descripción |
 |---------|---------|
 |**Ámbito**   |Los incidentes relacionados con la aplicación de la sala de reuniones, los dispositivos de la sala y los periféricos se incluyen en Salas de Microsoft Teams servicio administrado.|
 |**Audiencia**  |Solo operaciones de TI         |
@@ -111,7 +111,7 @@ La Salas de Microsoft Teams Premium está disponible en todos los países y regi
 |**Experiencia de reunión**   |         |         |
 |Investigar problemas dentro de la configuración de la reunión en Salas de Microsoft Teams aplicación y las instrucciones para configurar correctamente la calidad del servicio en el dispositivo se proporcionan a petición.      |El análisis de la causa raíz o las investigaciones de problemas de calidad de llamadas o problemas relacionados con la red se excluyen de este ámbito.         |Soporte técnico estándar de Microsoft         |
 |**Corrección, incorporación y continuación**     |         |         |
-|Los clientes reciben instrucciones para llevar sus salas a los estándares recomendados por Salas de Microsoft Teams servicio administrado en la incorporación    |Las investigaciones con respecto a las imágenes de software personalizadas locales o no cumplen con las instrucciones de versión de software recomendadas de Salas de Microsoft Teams servicio administrado no están en el ámbito.          |         |
+|Los clientes reciben instrucciones para llevar sus salas a los estándares recomendados por Salas de Microsoft Teams servicio administrado en la incorporación    |Las investigaciones con respecto a las imágenes de software personalizadas locales o no cumplen con las instrucciones de versión de software recomendadas de Salas de Microsoft Teams servicio administrado no están en el ámbito.   | |       
 
 ## <a name="data-collection"></a>Recolección de datos
 

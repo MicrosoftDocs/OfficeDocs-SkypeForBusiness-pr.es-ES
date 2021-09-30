@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumen: instale los archivos del agente de Operations Manager en el equipo de Skype Empresarial Server 2019 que se va a supervisar y configure el equipo para que actúe como proxy System Center usuario.'
-ms.openlocfilehash: 06d44ec8ec46ceff07955eea8615bb00ed46c01c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb8dce9edf44557632fc4e84188606152c76d646
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605749"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012184"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>Configurar el Skype Empresarial Server equipos para supervisar
 
@@ -31,7 +31,7 @@ Cada Skype Empresarial Server 2019 que desee supervisar debe poder notificar su 
 
 System Center Los agentes de Operations Manager que se ejecutan en una red perimetral (como un servidor perimetral de Skype Empresarial Server), fuera de la empresa (como un nodo de monitor de transacciones sintéticas externo) o en un límite de confianza de Active Directory, pueden requerir la configuración de un servidor de puerta de enlace de System Center Operations Manager. Este rol de servidor permite a los agentes que no tienen una relación de confianza con el servidor de administración raíz generar alertas. Para obtener más información, vea [Managing Gateway Servers in Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12)).
 
-Si implementa un agente en una de estas ubicaciones, también tendrá que solicitar y configurar un certificado que permita al nodo de monitor enviar alertas a System Center Operations Manager. Para simplificar este proceso, el equipo de Operations Manager creó una serie de utilidades para que pueda solicitar e instalar el tipo correcto de certificado en la PC nodo de supervisión. Para obtener más información y descargar estas utilidades, vea [Obtaining Certificates for Non-Domain Joined Agents Made Easy with Certificate Generation Wizard](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409).
+Si implementa un agente en una de estas ubicaciones, también tendrá que solicitar y configurar un certificado que permita al nodo de monitor enviar alertas a System Center Operations Manager. Para simplificar este proceso, el equipo de Operations Manager creó una serie de utilidades para que pueda solicitar e instalar el tipo correcto de certificado en la PC nodo de supervisión. Para obtener más información y descargar estas utilidades, vea [Obtaining Certificates for Non-Domain Joined Agents Made Easy With Certificate Generation Wizard](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467).
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Instalación de los archivos del agente Operations Manager
 

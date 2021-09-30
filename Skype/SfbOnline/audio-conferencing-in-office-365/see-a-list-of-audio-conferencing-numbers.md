@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo buscar los números de conferencia de acceso telefónico local desde Skype Empresarial Online. '
-ms.openlocfilehash: 3be641b2a5c4b626f414d1a8ae8ee1b16adc7146
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e152cd5d54cd9e1e318027c57cbc4ffda938360b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586038"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012104"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver una lista de números de Audioconferencia de Skype for Business Online
 
@@ -37,7 +37,7 @@ ms.locfileid: "58586038"
 
 Cuando establece una Audioconferencia para usuarios de Skype for Business, puede ver los números de teléfono que están a su disposición para audioconferencias. Esta lista tendrá todos los números de teléfono de audioconferencia que están disponibles para su organización.
   
- **¿Busca los precios?** Vea [Precios para audioconferencias.](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+ **¿Busca los precios?** Vea [audioconferencia]. https://www.microsoft.com/microsoft-teams/audio-conferencing)
   
 > [!IMPORTANT]
 > **No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia.** Si quiere ver si hay números de teléfono de acceso telefónico telefónico disponible en su área o país o región, vaya Skype Empresarial centro de administración Números de voz Teléfono, haga clic en Agregar **y, a continuación,** haga clic en Nuevos números de  >    >  servicio.   Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Además, si busca números de servicio gratuitos, **seleccione** Gratuito en la lista Estado **o Región.**
@@ -87,7 +87,7 @@ Puede ver [Establecer los números de teléfono incluidos en las invitaciones](s
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en Descargar e instalar el módulo Teams [PowerShell.](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)
   
 ## <a name="related-topics"></a>Temas relacionados
 

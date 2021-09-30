@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre los datos e informes disponibles en el Panel de calidad de llamadas de Microsoft (CQD).
-ms.openlocfilehash: e184137c927361b1a557973d4ac8e55ea49cf1ea
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0f54b6c3c69d65b12aa248f7180dec3617273857
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731809"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014624"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Datos e informes en panel de calidad de llamadas (CQD)
 
@@ -38,7 +38,7 @@ El Panel de calidad de llamadas (CQD) de Microsoft usa una fuente de datos en ti
 
 Puede acceder a los datos de CQD por varias vías diferentes. Elija el que mejor se adapte a sus necesidades:
 
-|  |  |
+|&nbsp;|&nbsp;|
 |---------|---------|
 |Teams de administración [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | Los datos de CQD se incluyen en la página Usuarios del centro de administración de Teams, que muestra los datos más comunes que necesita en un formato fácil de leer.  No puede personalizar los datos de CQD que encuentre en **Usuarios.**  |
 |Portal CQD [( https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | Informes detallados y de resumen sólidos que satisfacen la mayoría de las necesidades, con filtrado detallado. También puede personalizar informes en el portal de CQD. <br><br>Obtenga dos [plantillas de informe CQD](#import-the-cqd-report-templates) para ayudarle a analizar datos en el portal de CQD.       |

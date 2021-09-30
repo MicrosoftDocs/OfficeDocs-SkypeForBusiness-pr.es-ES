@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Summary: Review the Simple URL considerations in this topic before implementing DNS records for Skype Empresarial Server.'
-ms.openlocfilehash: a36805566b7bdb9f95ef14b572a8efdccdeb916b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cbc8a6f99704f9c450847d0ca3c5173b0066715e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622142"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011724"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Requisitos dns para direcciones URL sencillas en Skype Empresarial Server
 
@@ -42,14 +42,14 @@ Definir una dirección URL sencilla también requerirá establecer un registro A
 
 El Generador de topologías y los cmdlets Skype Empresarial Server Shell de administración aplican varias reglas de validación para las direcciones URL sencillas. Las direcciones URL sencillas para reunión y acceso telefónico deben definirse obligatoriamente, si bien esto es opcional en el caso de las direcciones URL de administración. Cada dominio SIP debe tener una dirección URL sencilla de reunión particular, mientras que solo es preciso tener una dirección URL sencilla de acceso telefónico y de administración para toda la organización.
 
-Cada dirección URL sencilla de la organización debe tener un nombre único y no puede ser un prefijo de otra dirección URL sencilla (por ejemplo, no se pudo establecer SfB2015.contoso.com/Meet como dirección URL sencilla de reunión y SfB2015.contoso.com/Meet/Dialin como la dirección URL sencilla de Dialin). Los nombres de dirección URL simples no pueden contener el FQDN de ninguno de los grupos de servidores ni ninguna información de puerto (por ejemplo, https://FQDN:88/meet no está permitido). Todas las direcciones URL sencillas deben empezar por el prefijo https://. 
+Cada dirección URL sencilla de la organización debe tener un nombre único y no puede ser un prefijo de otra dirección URL sencilla (por ejemplo, no se pudo establecer como la dirección URL sencilla de Reunión y como dirección URL sencilla de `SfB2015.contoso.com/Meet` `SfB2015.contoso.com/Meet/Dialin` Dialin). Los nombres de dirección URL simples no pueden contener el FQDN de ninguno de los grupos de servidores ni ninguna información de puerto (por ejemplo, https://FQDN:88/meet no está permitido). Todas las direcciones URL sencillas deben empezar por el prefijo https://. 
 
 Las direcciones URL sencillas solo pueden contener caracteres alfanuméricos, esto es, a-z, A-Z, 0-9 y el signo de punto (.); si usa otros caracteres, podrían no funcionar del modo previsto.
 
 ## <a name="changing-simple-urls-after-deployment"></a>Cambio de direcciones URL sencillas después de la implementación
 <a name="BK_Valid"> </a>
 
-Si modifica una dirección URL sencilla tras la implementación inicial, deberá tener presentes los cambios que podrían afectar a los registros DNS y certificados de dichas direcciones. Si el cambio afecta a la base de una dirección URL sencilla, deberá modificar también los certificados y registros DNS. Por ejemplo, cambiar de a cambia la dirección URL base de SfB2015.contoso.com a meet.contoso.com, por lo que tendría que cambiar los registros y certificados DNS para hacer referencia a https://SfB2015.contoso.com/Meet https://meet.contoso.com meet.contoso.com. Si ha cambiado la dirección URL sencilla de a , la dirección URL base de SfB2015.contoso.com permanece igual, por lo que no se necesitan cambios de https://SfB2015.contoso.com/Meet https://SfB2015.contoso.com/Meetings DNS ni de certificado.
+Si modifica una dirección URL sencilla tras la implementación inicial, deberá tener presentes los cambios que podrían afectar a los registros DNS y certificados de dichas direcciones. Si el cambio afecta a la base de una dirección URL sencilla, deberá modificar también los certificados y registros DNS. Por ejemplo, cambiar de a cambia la dirección URL base de a , por lo que tendría que cambiar los registros DNS y certificados para `https://SfB2015.contoso.com/Meet` `https://meet.contoso.com` hacer referencia a `SfB2015.contoso.com` `meet.contoso.com` `meet.contoso.com` . Si cambió la dirección URL sencilla de a , la dirección URL base de permanece igual, por lo que no se necesitan cambios `https://SfB2015.contoso.com/Meet` de DNS ni de `https://SfB2015.contoso.com/Meetings` `SfB2015.contoso.com` certificado.
 
 Sin embargo, siempre que cambie un nombre de dirección URL simple, debe ejecutar **Enable-CsComputer** en cada director y servidor front-end para registrar el cambio.
 
@@ -69,20 +69,20 @@ Si se decanta por esta opción, necesitará un registro A de DNS por cada direcc
 
 | **Direcciones URL sencillas** <br/> | **Ejemplo** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Reunirse  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com , y así sucesivamente (uno por cada dominio SIP de la organización)  <br/> |
-| Acceso telefónico  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
-| Administrador  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
+| Reunirse  <br/>          | `https://meet.contoso.com`, `https://meet.fabrikam.com` , y así sucesivamente (uno por cada dominio SIP de la organización)  <br/> |
+| Acceso telefónico  <br/>       | `<https://dialin.contoso.com>`  <br/>                                                                                  |
+| Admin  <br/>         | `<https://admin.contoso.com>`  <br/>                                                                                   |
 
-Con la opción 2, las direcciones URL sencillas se basan en el nombre de dominio SfB2015.contoso.com. Por lo tanto, solo necesita un registro DNS A que permita los tres tipos de direcciones URL sencillas. Este registro DNS A hace referencia SfB2015.contoso.com. Además, todavía necesita registros DNS A independientes para otros dominios SIP de la organización. 
+Con la opción 2, las direcciones URL sencillas se basan en el nombre de dominio `SfB2015.contoso.com` . Por lo tanto, solo necesita un registro DNS A que permita los tres tipos de direcciones URL sencillas. Este registro DNS A hace referencia `SfB2015.contoso.com` a . Además, todavía necesita registros DNS A independientes para otros dominios SIP de la organización. 
 
 **Opción 2 de nomenclatura de dirección URL sencilla**
 
 
 | **Direcciones URL sencillas** <br/> | **Ejemplo** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Reunirse  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet , y así sucesivamente (uno por cada dominio SIP de la organización)  <br/> |
-| Acceso telefónico  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
-| Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
+| Reunirse  <br/>          | `https://SfB2015.contoso.com/Meet`, `https://SfB2015.fabrikam.com/Meet` , y así sucesivamente (uno por cada dominio SIP de la organización)  <br/> |
+| Acceso telefónico  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                                          |
+| Admin  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                                           |
 
 La opción 3 es la más práctica si existen muchos dominios SIP y quiere que cada uno de ellos tenga una dirección URL sencilla de reunión pero, al mismo tiempo, desea reducir al mínimo los requisitos de registros DNS y certificados para dichas direcciones. 
 
@@ -91,9 +91,9 @@ La opción 3 es la más práctica si existen muchos dominios SIP y quiere que c
 
 | **Direcciones URL sencillas** <br/> | **Ejemplo** <br/>                                                                                                      |
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| Reunirse  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
-| Acceso telefónico  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
-| Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
+| Reunirse  <br/>          | `<https://SfB2015.contoso.com/contosoSIPdomain/Meet>`  <br/> `<https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>`  <br/> |
+| Acceso telefónico  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                            |
+| Admin  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                             |
 
 ## <a name="disaster-recovery-option-for-simple-urls"></a>Opción de recuperación ante desastres para direcciones URL sencillas
 <a name="BK_Valid"> </a>
@@ -114,7 +114,7 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-Luego cree registros CNAME que se resuelven su dirección URL sencilla de Reunión (como meet.contoso.com) en las dos direcciones de GeoDNS.
+A continuación, cree registros CNAME que resuelvan la dirección URL simple de Meet (por `meet.contoso.com` ejemplo) en las dos direcciones GeoDNS.
 
 > [!NOTE]
 > Si su red utiliza vinculaciones (enrutamiento de todo su tráfico de direcciones URL sencillas a través del enlace externo, incluido el tráfico que proviene desde su organización), entonces puede simplemente configurar la dirección de GeoDNS externa y resolver su dirección URL sencilla de Reunión en solo esa dirección externa.

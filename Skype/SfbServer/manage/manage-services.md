@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: En este artículo se describe cómo administrar los servicios que se ejecutan en una Skype Empresarial Server topología.
-ms.openlocfilehash: 45af8756feda61d0a0bac06beedddcc693591346
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be613203b9e15640ead1b136ebe1b89f4c4c50ea
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593644"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014184"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Administrar servicios para Skype Empresarial Server
 
@@ -55,7 +55,7 @@ Puede usar el Panel Skype Empresarial Server control para ver todos los servicio
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Visualización del estado del servicio con Windows cmdlets de Powershell
 
-También puede ver el estado del servicio mediante Windows PowerShell y el cmdlet **Get-CsWindowsService.** Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell para conectarse a Skype Empresarial Server, vea el artículo de blog "Inicio rápido: Administración de [Microsoft Lync Server 2010 mediante PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
+También puede ver el estado del servicio mediante Windows PowerShell y el cmdlet **Get-CsWindowsService.** Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell para conectarse a Skype Empresarial Server, vea [Administración remota de PowerShell de Microsoft Lync](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). El proceso es el mismo en Skype Empresarial Server.
   
 ### <a name="to-view-service-status"></a>Para ver el estado del servicio
 

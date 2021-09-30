@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Summary: Learn about Skype Empresarial Server 2015 integration with Exchange and SharePoint.'
-ms.openlocfilehash: 5859e247f816739f9febadb9d973ab081d1e4ccc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a2caf4cf409f3631ebc0a85cd2957b30e9d36d2a
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593344"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013144"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integración con Exchange y SharePoint
 
@@ -54,7 +54,7 @@ En las tablas siguientes se muestran las características admitidas en una imple
 |Estado de publicación basado en Outlook de disponibilidad del calendario  <br/> ||
 |Lista de contactos (a través del Almacén de contactos unificado)  <br/> |Requiere Exchange 2016 o Exchange 2013.  <br/> Se requiere un cliente de escritorio Skype Empresarial Lync 2013 o de escritorio.  <br/>  Para obtener más información, vea [Configure Skype Empresarial Server 2015 to use the unified contact store](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
 |Foto de contacto de alta resolución en el cliente de Lync 2013, Skype Empresarial cliente y Lync Web App.  <br/> |Requiere Exchange 2016 o Exchange 2013.  <br/> Para obtener más información, vea [Configure the use of high-resolution photos in Skype Empresarial Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Para las fotos de la aplicación Skype Empresarial para MAC y Móvil, la integración entre Skype Empresarial Server 2015 y Exchange Server debe configurarse como se describe en Configurar aplicaciones de partners en Skype Empresarial Server y [Exchange Server](../deploy/integrate-with-exchange-server/configure-partner-applications.md). <br/> |
-|Delegación de reuniones  <br/> |Solo se admite cuando ambos usuarios se encuentran en línea en el mismo bosque o cuando ambos se encuentran en el entorno local. Para obtener más información, [vea Skype Empresarial soluciones híbridas](/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Delegación de reuniones  <br/> |Solo se admite cuando ambos usuarios se encuentran en línea en el mismo bosque o cuando ambos se encuentran en el entorno local. Para obtener más información, vea [Configure hybrid connectivity between Skype Empresarial Server and Teams](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md). <br/> |
 |El historial de conversaciones perdidas y los registros de llamadas se escriben en el buzón de exchange del usuario  <br/> ||
 |Contenido de archivado (MI y reunión) en Exchange  <br/> |Requiere Exchange 2016 o Exchange 2013.  <br/> Para obtener más información, vea [Deployment Checklist for Archiving](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving).  <br/> |
 |Buscar contenido archivado  <br/> |Requiere Exchange 2016 o Exchange 2013.  <br/> |
@@ -73,7 +73,7 @@ En las tablas siguientes se muestran las características admitidas en una imple
 |Unirse a una reunión en línea en clientes móviles  <br/> ||
 |Estado de publicación basado en Outlook de disponibilidad del calendario  <br/> ||
 |Lista de contactos (a través del Almacén de contactos unificado).  <br/> |Solo Lync Server 2013. Se requiere un cliente de escritorio Skype Empresarial Lync 2013 o de escritorio.  <br/> Para obtener más información, [vea Configure Skype Empresarial Server 2015 to use the unified contact store](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
-|Foto de contacto de alta resolución en el cliente de Lync 2013, Skype Empresarial cliente y Lync Web App.  <br/> |Para obtener más información, vea [Configure the use of high-resolution photos in Skype Empresarial Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Para las fotos de la aplicación de Skype Empresarial para MAC y Móviles, la integración entre Skype Empresarial Server 2015 y Exchange Server debe configurarse como se describe en Configurar la integración entre Skype Empresarial Server local [y Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md). <br/> |
+|Foto de contacto de alta resolución en el cliente de Lync 2013, Skype Empresarial cliente y Lync Web App.  <br/> |Para obtener más información, vea [Configure the use of high-resolution photos in Skype Empresarial Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Para las fotos de la aplicación de Skype Empresarial para MAC y Móvil, la integración entre Skype Empresarial Server 2015 y Exchange Server debe configurarse como se describe en Configurar la integración entre aplicaciones locales Skype Empresarial Server y [ Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md). <br/> |
 |Delegación de reuniones  <br/> |Solo se admite cuando ambos usuarios se encuentran en línea en el mismo bosque o cuando ambos se encuentran en el entorno local. Para obtener más información, [vea Skype Empresarial soluciones híbridas](/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |El historial de conversaciones perdidas y los registros de llamadas se escriben en el buzón de correo Exchange usuario  <br/> ||
 |Contenido de archivado (MI y reunión) en Exchange  <br/> |Para obtener más información, vea [Deployment Checklist for Archiving](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving).  <br/> |

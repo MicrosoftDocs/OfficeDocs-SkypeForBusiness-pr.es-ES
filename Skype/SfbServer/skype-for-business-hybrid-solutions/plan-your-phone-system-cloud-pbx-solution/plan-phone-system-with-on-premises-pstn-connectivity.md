@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Obtenga información sobre las consideraciones de planeación para Sistema telefónico (PBX en la nube) con conectividad RTC local.
-ms.openlocfilehash: 9715a04eaa4955ca1ccb4d9bef56b3502039c225
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 074afcd05b62501784d5c37d10d698f6c29bdd78
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601265"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014314"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planear el Sistema telefónico con una conectividad RTC local en Skype Empresarial Server
 
@@ -102,16 +102,16 @@ Antes de configurar Sistema telefónico con conectividad RTC local y mover usuar
 
 Además, debe asegurarse de lo siguiente:
 
-- **El Telefonía IP empresarial local se configura y prueba para los** usuarios locales Esto incluye componentes de conectividad RTC. Para obtener más información, vea los siguientes temas si usa Skype Empresarial Server 2015, vea [Plan for Telefonía IP empresarial in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) e Deploy Telefonía IP empresarial in Skype Empresarial Server [2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md).
+- **El Telefonía IP empresarial local se configura y prueba para los** usuarios locales Esto incluye componentes de conectividad RTC. Para obtener más información, vea los siguientes temas si usa Skype Empresarial Server 2015, vea [Plan for Telefonía IP empresarial in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) e Deploy Telefonía IP empresarial [in Skype Empresarial Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md).
 
     Si usa Lync Server 2013, vea [Planning for Telefonía IP empresarial in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice) and [Deploying Telefonía IP empresarial in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice).
 
-- **Sincronización de Active Directory** Debe configurar la sincronización de Active Directory con Azure AD Conectar. Para obtener más información, vea [Managing Azure AD Conectar](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
+- **Sincronización de Active Directory** Debe configurar la sincronización de Active Directory con Azure AD Conectar. Para obtener más información, [vea Azure AD Conectar](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-custom).
 
     > [!NOTE]
     > La versión de AAD Conectar debe ser la versión 1.0.9125.0 o posterior. Si usa una versión anterior de AAD Conectar o DirSync, actualice a la versión compatible. Puede actualizar la instalación actual y mantener las reglas personalizadas que haya definido en su entorno. 
 
-- **Configurar la implementación híbrida** Tanto si todos los usuarios de Skype Empresarial se encuentran actualmente en línea o localmente, o si actualmente tiene una combinación, debe completar los pasos para configurar una implementación híbrida de Skype Empresarial Server o Lync Server 2013, tal como se describe en [Deploy hybrid connectivity between Skype Empresarial Server and Office 365](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). Para obtener más información sobre implementaciones híbridas, vea [Plan hybrid connectivity between Skype Empresarial Server and Office 365](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). 
+- **Configurar la implementación híbrida** Tanto si todos los usuarios de Skype Empresarial se encuentran actualmente en línea o localmente, o si actualmente tiene una combinación, debe completar los pasos para configurar una implementación híbrida de Skype Empresarial Server o Lync Server 2013, tal como se describe en Implementar la conectividad híbrida entre [Skype Empresarial Server y  Office 365](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). Para obtener más información sobre implementaciones híbridas, vea [Plan hybrid connectivity between Skype Empresarial Server and Office 365](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). 
 
     Si usa Lync Server 2013, vea [Lync Server 2013 hybrid](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-2013-hybrid).
 

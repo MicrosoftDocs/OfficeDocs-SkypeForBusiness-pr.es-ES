@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Obtenga información sobre cómo ver el estado del servicio, iniciar y detener servicios e impedir sesiones para los servicios.
-ms.openlocfilehash: 8c1f527e32d50624fddc1b4b261f6fbd20e97a47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 52d87c8e2f803f31496e773e82d7466a22711550
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604829"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015114"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Administrar servicios en Skype Empresarial Server
 
@@ -77,7 +77,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-Para obtener más información, [vea Get-CsWindowsService](/powershell/module/skype/Get-CsWindowsService).
+Para obtener más información, [vea Get-CsWindowsService](/powershell/module/skype/get-cswindowsservice).
 
 ## <a name="start-or-stop-skype-for-business-services"></a>Iniciar o detener Skype Empresarial servicios
 

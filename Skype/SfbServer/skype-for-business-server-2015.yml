@@ -11,12 +11,12 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: eac647429a962ae1d6797f1ec9a21b5992c4323ee3f3573cc2096f53d5b6617a
-  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+  ms.openlocfilehash: b4ebe6851e6ee92d5b43fd781a3111fd015ba062
+  ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 08/05/2021
-  ms.locfileid: "54279886"
+  ms.lasthandoff: 09/30/2021
+  ms.locfileid: "60014904"
 landingContent:
 - title: Acerca Skype Empresarial Server 2015
   linkLists:
@@ -68,8 +68,6 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Skype Empresarial de preparación
-      url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
     - text: Skype Empresarial Server de 2019
       url: ../SfBServer2019/skype-for-business-server-2019.yml
     - text: Documentación de Lync Server 2013

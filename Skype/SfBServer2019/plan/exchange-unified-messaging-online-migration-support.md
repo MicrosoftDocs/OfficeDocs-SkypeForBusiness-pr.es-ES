@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft retirará el Exchange de mensajería unificada en línea (ExchUMO) antes del 28 de febrero de 2020. En este artículo se resume lo que los clientes afectados deben saber y hacer para planear la continuidad de su negocio.
-ms.openlocfilehash: 66a3446b667d000e3cd0a043e60e2f0ea0eae183
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6d24b05b8f1c6b8d2b47533edbd9ad79c5022e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606829"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013294"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -113,10 +113,15 @@ Los administradores de la organización de Microsoft 365 y Office 365 deben volv
 Le recomendamos encarecidamente que inicie la configuración de los nuevos operadores automáticos antes de tiempo para evitar problemas de última hora y familiarizarse con la funcionalidad y experiencia del servicio de Operador automático nube. Para los operadores automáticos que requieren una o más características de espacio, puede crear y probar los operadores automáticos cuando las características de espacio estén disponibles para prepararse para la implementación. Para obtener más información acerca de las características de [separación,](#appendix)vea el Apéndice .
 
 1. Use el Exchange cmdlets UMO para exportar la configuración de operadores automáticos existentes mediante [Get-UMAutoAttendant](/powershell/module/exchange/unified-messaging/get-umautoattendant).  
+
 2. Use el cmdlet [Export-UMprompt](/powershell/module/exchange/unified-messaging/export-umprompt) en Exchange Online PowerShell para exportar los archivos multimedia de saludo (si se usan) y convertirlos a .mp3 formato.
-3. Siga las instrucciones de [Plan Cloud auto attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) y Set up a Cloud auto attendant to create auto [attendants](/microsoftteams/create-a-phone-system-auto-attendant) by using the Microsoft Teams admin center or Powershell.
+
+3. Siga las instrucciones de [Plan Cloud auto attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) y [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant) to create auto attendants by using the Microsoft Teams admin center or PowerShell.
+
 4. Revisa los saludos si cambiaron las opciones del menú.
+
 5. Configure las transferencias a los grupos de respuesta mediante la solución alternativa "Operador automático transferencia de llamadas a RTC" en la [sección Problemas](#known-issues) conocidos de este artículo.  
+
 6. Pruebe los nuevos operadores automáticos llamándolos internamente o asignando un número de teléfono de prueba.  
 
 ### <a name="cutover"></a>Total
@@ -155,7 +160,7 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 | VM | Características de usuario | Reenviar un correo de voz  | Reenviar un correo de voz recibido a otros usuarios | v | v    |
 | VM | Características de usuario | Enviar un mensaje de voz a un grupo de usuarios  |Difusión de correo de voz   | N | Y   |
 | VM | Características de usuario | Notificación de correo de voz mediante SMS    | Los usuarios pueden recibir un SMS cuando tienen un nuevo correo de voz    | N | Y    |
-| VM | Características de usuario | Idiomas de saludo compatibles | Detalles aquí: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| VM | Características de usuario | Idiomas de saludo compatibles | Detalles aquí: [¿Qué son los operadores automáticos en la nube?](/microsoftteams/what-are-phone-system-auto-attendants) | v | v    |
 | VM | Características de usuario | Reglas de contestador automático |  | v | v    |
 | VM | Características de usuario | Reproducir en teléfono (RTC):para reproducir el mensaje | Llámeme en mi celda para escuchar el mensaje de voz  | N | Y    |
 | VM | Características de usuario | Reproducir en el teléfono (autenticación): para reproducir el mensaje | Llamarme en mi dispositivo autenticado  | N | Y    |
@@ -182,7 +187,7 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 | AA | Características del servicio | Compatibilidad Microsoft Teams|  | v | N    |
 | AA | Características del servicio | Marcado por nombre, entrada DTMF    |  | v | v    |
 | AA | Características del servicio | Marcado por nombre, entrada de voz  |  | v | v    |
-| AA | Características del servicio | Compatibilidad con varios idiomas | Detalles del idioma aquí: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| AA | Características del servicio | Compatibilidad con varios idiomas | Detalles del idioma aquí: [¿Qué son los operadores automáticos en la nube?](/microsoftteams/what-are-phone-system-auto-attendants) | v | v    |
 | AA | Características del servicio | Transferencia a operador, CQ o usuario |  | v | v    |
 | AA | Características del servicio | Transferencia a número RTC internamente (DID RNL)  |  | v | v    |
 | AA | Características del servicio | Transferir a un número RTC externamente  |  | Consulte la sección Problemas conocidos a continuación | Y    |

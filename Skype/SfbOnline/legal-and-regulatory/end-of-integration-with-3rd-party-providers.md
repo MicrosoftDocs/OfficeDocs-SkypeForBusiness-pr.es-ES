@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: El 31 de julio de 2021 finalizará el programa de fin de vida para la integración de Skype Empresarial con proveedores de audioconferencia de terceros (ACP de terceros).
-ms.openlocfilehash: 75ee6616634b4670c633fe24d1c623bbe3d39499
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c159d201a284b683237df22688878ef268c442b1
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609997"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014384"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programa de fin de vida para la integración de Skype Empresarial con proveedores de audioconferencia de terceros 
 
@@ -49,7 +49,7 @@ Como parte del anuncio del inicio del programa de fin de vida, el siguiente camb
 
 Para prepararse para este cambio, recomendamos a las organizaciones afectadas que notifiquen a sus usuarios habilitados esta actualización planeada antes del 31 de julio de 2021. 
 
-Después del 31 de julio de 2021, los usuarios pueden seguir usando Skype Empresarial sin interrupciones en sus reuniones en línea; sin embargo, las organizaciones tendrán que habilitar a sus usuarios para las audioconferencias proporcionadas por Microsoft si requieren conferencias de acceso telefónico local con Skype Empresarial o Microsoft Teams. Para obtener más información sobre Las audioconferencias de Microsoft, vea [Conferencias de audio.](https://products.office.com/skype-for-business/audio-conferencing) 
+Después del 31 de julio de 2021, los usuarios pueden seguir usando Skype Empresarial sin interrupciones en sus reuniones en línea; sin embargo, las organizaciones tendrán que habilitar a sus usuarios para las audioconferencias proporcionadas por Microsoft si requieren conferencias de acceso telefónico local con Skype Empresarial o Microsoft Teams. Para obtener más información sobre Las audioconferencias de Microsoft, vea [Audioconferencia.](https://www.microsoft.com/microsoft-teams/audio-conferencing) 
 
 Según el estado final deseado de una organización, hay tres rutas que se pueden seguir:
 

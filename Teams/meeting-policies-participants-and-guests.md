@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración de la directiva de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: b377c1c391f1fb3a82976db6d58e84c9eb2f9b94
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2ca320db9c4020c6b79f38af86ed5083ae17fb89
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728639"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014544"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -93,9 +93,6 @@ Esta configuración es una directiva por usuario y se aplica durante una reunió
 Esta configuración es una configuración por participante. Esta configuración controla si se permite el chat de reunión en la reunión del usuario.
 
 <a name="bkparticipantsandguests"> </a>
-
-
-
 
 
 

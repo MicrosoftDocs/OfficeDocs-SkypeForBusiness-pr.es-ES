@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Summary: Learn how to connect Skype Empresarial Server with Skype consumer. También se conoce como Skype conectividad.'
-ms.openlocfilehash: 467d87968e7e5b0357e8d23b578a511adb281e27
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c63e476cc413bbf0a676c7b28d02519bbc6f223d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729889"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013194"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implementar Skype conectividad en Skype Empresarial Server
 
@@ -52,11 +52,11 @@ Skype La funcionalidad de búsqueda de directorios Skype Empresarial usuarios co
 En la tabla siguiente se describe la compatibilidad Skype búsqueda de directorios.
   
 
-||**Skype Empresarial Server Front-End**|**Front-End de Lync Server 2013 (o versiones anteriores)**|**Comments**|
+|&nbsp;|Skype Empresarial Server Front-End|Front-End de Lync Server 2013 (o versiones anteriores)|Comentarios|
 |:-----|:-----|:-----|:-----|
-|Skype Empresarial Server Edge  <br/> |Compatible.  <br/> |No se admite  <br/> |Skype Empresarial Server y Edge son requisitos previos para la Skype búsqueda de directorios  <br/> |
-|Skype Empresarial Server Edge + Lync Server 2013 Edge implementados en paralelo  <br/> |Compatible.  <br/> |No se admite  <br/> |Skype El tráfico de búsqueda de directorios fluye Skype Empresarial Server servidores perimetrales. El tráfico de federación pasa por el perímetro configurado por el administrador. Por ejemplo, el administrador podría optar por continuar con el envío de tráfico de federación a través de servidores perimetrales de Lync Server 2013 que no admitirían la búsqueda Skype directorio.  <br/> |
-|Lync Server 2013 (o versiones anteriores) perimetral  <br/> |No se admite  <br/> |No se admite  <br/> ||
+|Skype Empresarial Server Edge   |Compatible   |No se admite   |Skype Empresarial Server y Edge son requisitos previos para la Skype búsqueda de directorios   |
+|Skype Empresarial Server Edge + Lync Server 2013 Edge implementados en paralelo   |Compatible   |No se admite   |Skype El tráfico de búsqueda de directorios fluye Skype Empresarial Server servidores perimetrales. El tráfico de federación pasa por el perímetro configurado por el administrador. Por ejemplo, el administrador podría optar por continuar con el envío de tráfico de federación a través de servidores perimetrales de Lync Server 2013 que no admitirían la búsqueda Skype directorio.   |
+|Lync Server 2013 (o versiones anteriores) perimetral   |No se admite   |No se admite   ||
    
 > [!NOTE]
 > El servicio de libreta de direcciones que se ejecuta en Skype Empresarial Server front-end encuentra el servidor perimetral por la existencia del puerto de búsqueda Skype 4443 en el servidor perimetral. 
@@ -77,7 +77,7 @@ En la tabla siguiente se describe la compatibilidad Skype búsqueda de directori
 
 Skype La conectividad también es una característica de Skype Empresarial Online, que forma parte de Microsoft 365 y Office 365. Puede habilitar la característica Skype conectividad desde el Centro Skype Empresarial administración en el Centro de administración de Microsoft 365.
   
-For Microsoft 365 Midsize Business, Office 365 Enterprise, Microsoft 365 Educación, and Office 365 for Government: Sign in to the Centro de administración de Microsoft 365 and navigate to the Skype Empresarial Administration Center. Vaya a Comunicaciones externas. En Proveedores de servicios de mensajería instantánea pública, haga clic en Habilitar. Si desea controlar el acceso de usuarios individuales a Skype conectividad, puede hacerlo editando la configuración de comunicaciones externas de los usuarios individuales.
+For Microsoft 365 Midsize Business, Office 365 Enterprise, Microsoft 365 Educación, and Office 365 for Government: Sign in to the Centro de administración de Microsoft 365 and navigate to the Skype Empresarial Centro de administración. Vaya a Comunicaciones externas. En Proveedores de servicios de mensajería instantánea pública, haga clic en Habilitar. Si desea controlar el acceso de usuarios individuales a Skype conectividad, puede hacerlo editando la configuración de comunicaciones externas de los usuarios individuales.
   
 Para Office 365 Pequeña Empresa Premium: inicie sesión en Office 365 y vaya a Servicio de administración Configuración mensajería instantánea, reuniones \> \> y conferencias. Activar comunicaciones externas. El conmutador de comunicaciones externas activa tanto Skype conectividad como las comunicaciones con otras organizaciones que usan Skype Empresarial.
   
@@ -221,29 +221,29 @@ La configuración Skype conectividad también se puede realizar con PowerShell �
 En la tabla siguiente se describe el estado de interoperabilidad entre la última versión de Skype consumidor y la versión más reciente de Skype Empresarial.
   
 
-|**Skype Clientes**|**Agregar contactos, mensajería instantánea, presencia, audio y videollamadas**|**Comment**|
+|Skype Clientes|Agregar contactos, mensajería instantánea, presencia, audio y videollamadas|Comentario|
 |:-----|:-----|:-----|
-|Skype Windows escritorio  <br/> |7.6 o superior, Windows XP y versiones posteriores  <br/> |**NUEVO:** compatibilidad agregada para Windows Skype cliente que se ejecuta en Windows XP y Windows Vista (requiere la versión **7.26 del** cliente más reciente o posterior) <br/> |
-|Skype Móvil: androide Teléfono y tableta  <br/> |6.19 o posterior, ejecutando Android OS versión 4.0.3 o posterior  <br/> |Es posible que los dispositivos de especificaciones bajas no admitan llamadas de vídeo  <br/> |
-|Skype Móvil: iOS  <br/> |6.11 o superior, en IOS 7 o posterior  <br/> |No se admiten iPhone 4 y versiones anteriores, la 4ª generación del iPod y versiones anteriores, iPad 1ª generación  <br/> |
-|Skype Mac  <br/> |7.19 o superior, en Mac OS X 10.9 (Mavericks) o posterior  <br/> |Requiere Mac OSX 10.9 o posterior  <br/> |
-|Skype Aplicación Windows universal (Windows 10) escritorio y móvil  <br/> |Windows 10 (actualización de Redstone 1 o posterior)  <br/> |Windows La aplicación universal recibirá la actualización en otoño de 2016 agregando compatibilidad con interoperabilidad  <br/> |
+|Skype Windows escritorio   |7.6 o superior, Windows XP y versiones posteriores   |**NUEVO:** compatibilidad agregada para Windows Skype cliente que se ejecuta en Windows XP y Windows Vista (requiere la versión **7.26 del** cliente más reciente o posterior)  |
+|Skype Móvil: androide Teléfono y tableta   |6.19 o posterior, ejecutando Android OS versión 4.0.3 o posterior   |Es posible que los dispositivos de especificaciones bajas no admitan llamadas de vídeo   |
+|Skype Móvil: iOS   |6.11 o superior, en IOS 7 o posterior   |No se admiten iPhone 4 y versiones anteriores, la 4ª generación del iPod y versiones anteriores, iPad 1ª generación   |
+|Skype Mac   |7.19 o superior, en Mac OS X 10.9 (Mavericks) o posterior   |Requiere Mac OSX 10.9 o posterior   |
+|Skype Aplicación Windows universal (Windows 10) escritorio y móvil   |Windows 10 (actualización de Redstone 1 o posterior)   |Windows La aplicación universal recibirá la actualización en otoño de 2016 agregando compatibilidad con interoperabilidad   |
    
 En la tabla siguiente se describe el estado de interoperabilidad entre la última versión de Skype Empresarial y la versión más reciente de Skype consumidor. 
   
-|**Cliente**|**Skype Búsqueda de directorios y agregar contactos**|**Skype A/V, interoperabilidad de mensajería instantánea**|
+|Cliente|Skype Búsqueda de directorios y agregar contactos|Skype A/V, interoperabilidad de mensajería instantánea|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |Sí  <br/> |Sí  <br/> |
-|Skype Empresarial en Mac  <br/> |Puede agregar (sin búsqueda)  <br/> |Sí  <br/> |
-|Lync Desktop 2013  <br/> |Puede agregar (sin búsqueda)  <br/> |Sí  <br/> |
-|Lync Web App: en línea y local  <br/> |N/D  <br/> |N/D  <br/> |
-|Lync Mobile: Windows Phone  <br/> |Próximamente.  <br/> |Sí  <br/> |
-|Lync Mobile - Android  <br/> |Próximamente.  <br/> |Sí  <br/> |
-|Lync Mobile: iOS  <br/> |Próximamente.  <br/> |Sí  <br/> |
-|Sistema Lync Room  <br/> |Próximamente.  <br/> |Sí  <br/> |
-|Aplicación moderna de Lync (Win 8.1)  <br/> |Sí  <br/> |Sí  <br/> |
-|Lync Mac 2011  <br/> |Puede agregar (sin búsqueda)  <br/> |Sí  <br/> |
-|Lync Desktop 2010  <br/> |Puede agregar (sin búsqueda)  <br/> |Sí  <br/> |
-|Lync Phone Edition  <br/> |N/D  <br/> |N/D  <br/> |
-|Operador de Lync  <br/> |N/D  <br/> |N/D  <br/> |
+|Skype for Business   |Sí   |Sí   |
+|Skype Empresarial en Mac   |Puede agregar (sin búsqueda)   |Sí   |
+|Lync Desktop 2013   |Puede agregar (sin búsqueda)   |Sí   |
+|Lync Web App: en línea y local   |N/D   |N/D   |
+|Lync Mobile: Windows Phone   |Próximamente.   |Sí   |
+|Lync Mobile - Android   |Próximamente.   |Sí   |
+|Lync Mobile: iOS   |Próximamente.   |Sí   |
+|Sistema Lync Room   |Próximamente.   |Sí   |
+|Aplicación moderna de Lync (Win 8.1)   |Sí   |Sí   |
+|Lync Mac 2011   |Puede agregar (sin búsqueda)   |Sí   |
+|Lync Desktop 2010   |Puede agregar (sin búsqueda)   |Sí   |
+|Lync Phone Edition   |N/D   |N/D   |
+|Operador de Lync   |N/D   |N/D   |
    

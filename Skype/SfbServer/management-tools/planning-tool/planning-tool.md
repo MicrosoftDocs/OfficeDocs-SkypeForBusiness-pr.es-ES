@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Instrucciones sobre cómo usar la Skype Empresarial Server de planeación de 2015.
-ms.openlocfilehash: 7e532f33710da1f0a9f82f2c8169b5258dab50ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 55c45f4df4a30b223c76fcbdf829357e7410d4b1
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626572"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014744"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype Empresarial Server de planeación de 2015
  
 Instrucciones sobre cómo usar la Skype Empresarial Server de planeación de 2015.
   
-La herramienta de planeación de Skype Empresarial Server 2015 es una herramienta basada en asistentes y de tipo entrevista que hace preguntas sobre la topología de Skype Empresarial Server 2015 que está diseñando. La herramienta de planeación usa la información suministrada, junto con los procedimientos preferidos para el diseño y la capacidad de la topología, para presentar una topología recomendada en función de las respuestas proporcionadas. Puede descargar la herramienta de planeación desde [la Skype Empresarial Server 2015 Planning Tool](https://go.microsoft.com/fwlink/p/?LinkID=282725).
+La herramienta de planeación de Skype Empresarial Server 2015 es una herramienta basada en asistentes y de tipo entrevista que hace preguntas sobre la topología de Skype Empresarial Server 2015 que está diseñando. La herramienta de planeación usa la información suministrada, junto con los procedimientos preferidos para el diseño y la capacidad de la topología, para presentar una topología recomendada en función de las respuestas proporcionadas.
   
 En última instancia, el objetivo de la herramienta de planeación es facilitar la complejidad potencial de diseñar una topología Skype Empresarial Server 2015. La herramienta también proporciona referencias contextuales a la documentación de planeación e implementación dentro de la herramienta, siempre que una conexión a Internet esté disponible para conectarse al sitio web de Microsoft.
   
@@ -57,7 +57,7 @@ En los temas siguientes se presenta y se detalla la herramienta de planeación.
     
 - [Revisar los informes de administrador en Skype Empresarial Server 2015](review-the-administrator-reports.md)
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Instalar Skype Empresarial Server 2015](../../deploy/install/install.md)
   

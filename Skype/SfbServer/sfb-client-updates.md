@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Proporciona a los profesionales de TI vínculos a la información de actualización más reciente para versiones perpetuas de Skype Empresarial 2016, Skype Empresarial 2015 y clientes de Lync 2013
-ms.openlocfilehash: bff52ddfd2a037af9bac9d79d36a2a7acd156baa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 574deac22c50cfedc71d7d289cfcbe0ecc9e8286
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581344"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013944"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Actualizaciones más recientes para las versiones de Skype Empresarial que usan Windows Installer (MSI)
 
@@ -245,15 +245,15 @@ Nombre del paquete|Número de KB|Fecha de lanzamiento|
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>Clientes de Lync Teléfono Edition en el Centro de descarga
 
-Nombre del paquete|Fecha de lanzamiento|
-|:--- |:--- |:--- |
+| Nombre del paquete | Fecha de lanzamiento|
+|:--- |:--- |
 |[Lync Teléfono Edition para HP 4110 y HP 4120](https://www.microsoft.com/download/en/details.aspx?id=28158) | Abril de 2017 |
 |[Lync Teléfono Edition para Polycom CX500, Polycom CX600 y Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | Abril de 2017 |
 |[Lync Teléfono Edition para Polycom CX700 y LG-Nortel IP Teléfono 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | Diciembre de 2015 |
 
 ### <a name="lync-basic-2013-software"></a>Lync Basic 2013 Software
 
-Nombre del paquete|Fecha de lanzamiento|
+|Nombre del paquete|Fecha de lanzamiento| |
 |:--- |:--- |:--- |
 |[Lync Basic 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35451) | Octubre de 2012 |
 |[Lync Basic 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35450) | Octubre de 2012 |

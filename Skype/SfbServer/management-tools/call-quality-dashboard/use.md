@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumen: obtenga información sobre cómo usar el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8bd18b7be66c4ea9b3a69cd81d4c72fb641603eb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728269"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015084"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Use el Panel de calidad de llamadas para Skype Empresarial Server
 
@@ -78,7 +78,7 @@ Cuando StartDate.Month se agrega como una dimensión y los datos se representan 
 
 Para que aparezcan los gráficos de barras y los minigráficos, se debe activar la casilla "Mostrar minigráficos" en la parte superior del Editor de informes. Esto selecciona la opción Tendencia y mueve Mes hacia abajo para ser la última dimensión, que también se puede lograr haciendo clic en Mes y usando las flechas arriba y abajo para desplazar StartDate.Month hacia arriba o hacia abajo.
 
-### <a name="settings"></a>Configuración
+### <a name="settings"></a>Configuraciones
 
 El menú de configuración contiene vínculos a páginas útiles como las páginas Estado del sistema y Acerca de, y se encuentra en la esquina superior derecha del panel.
 
@@ -103,13 +103,13 @@ Los datos usados para estas tablas se definen de la siguiente manera:
 
 **CqdBuilding**
 
-|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
-|BuildingKey |Entero |No |Clave principal de la tabla CqdBuilding. |
+|BuildingKey |int |No |Clave principal de la tabla CqdBuilding. |
 |BuildingName |varchar(80) |No |Nombre del edificio. |
 |BuildingShortName |varchar(10) |No |Versión más corta del nombre del edificio. |
-|OwnershipTypeId |Entero |No |Clave externa, coincide con una de las entradas de la tabla CqdBuildingOwners. |
-|BuildingTypeId |Entero |No |Clave externa, coincide con una de las entradas de la tabla CqdBuildingType. |
+|OwnershipTypeId |int |No |Clave externa, coincide con una de las entradas de la tabla CqdBuildingOwners. |
+|BuildingTypeId |int |No |Clave externa, coincide con una de las entradas de la tabla CqdBuildingType. |
 |Latitude |float |Sí |Latitud del edificio. |
 |Longitude |float |Sí |Longitud del edificio. |
 |CityName |varchar(30) |Sí |Nombre de la ciudad donde se encuentra el edificio. |
@@ -119,53 +119,53 @@ Los datos usados para estas tablas se definen de la siguiente manera:
 |InsideCorp |bit |Sí |Bit indica si el edificio forma parte de la red corporativa. |
 |BuildingOfficeType |nvarchar(150) |Sí |Descripción del tipo de oficina de creación. |
 |Región |varchar(25) |Sí |Región donde se encuentra el edificio. |
-|||||
+
 
 **CqdNetwork**
 
-|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
 |Red |varchar(25) |No |Dirección de subred. |
 |NetworkRange |tinyint |Sí |Máscara de la subred. |
-|NetworkNameID |Entero |Sí |Opcionalmente se asigna a una fila de la tabla CqdNetworkName. |
-|BuildingKey |Entero |Sí |Clave externa, coincide con una de las entradas de la tabla CqdBuilding. |
+|NetworkNameID |int |Sí |Opcionalmente se asigna a una fila de la tabla CqdNetworkName. |
+|BuildingKey |int |Sí |Clave externa, coincide con una de las entradas de la tabla CqdBuilding. |
 |UpdatedDate |datetime |No |Fecha y hora de la última actualización de la entrada. |
-||||||
+
 
 De forma predeterminada, esta tabla siguiente tiene una entrada (0, "Desconocido").
 
 **CqdBuildingType**
 
-|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
-|BuildingTypeId |Entero |No |Clave principal de la tabla CqdBuildingType. |
+|BuildingTypeId |int |No |Clave principal de la tabla CqdBuildingType. |
 |BuildingTypeDesc |char(18) |No |Descripción del tipo de creación. |
-|||||
+
 
 De forma predeterminada, esta tabla siguiente tiene una entrada (0, 'Unknown', 0, null).
 
 **CqdBuildingOwnershipType**
 
-|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
-|OwnershipTypeId |Entero |No |Clave principal de la tabla CqdBuildingOwnershipType. |
+|OwnershipTypeId |int |No |Clave principal de la tabla CqdBuildingOwnershipType. |
 |OwnershipTypeDesc |varchar(25) |No |Descripción del tipo de propiedad. |
 |LeaseInd |tinyint |Sí |Índice que hace referencia a otra fila de la tabla CqdBuildingOwnershipType, que se usa para identificar los edificios arrendados. |
 |Owner |varchar(50) |Sí |Propietario del edificio. |
-|||||
+
 
 De forma predeterminada, esta tabla siguiente tiene una entrada (0, 'Unknown', 0, null).
 
 **CqdBssid**
 
-|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
 |bss |nvarchar(50) |No |Clave principal para la tabla CqdBssid. Es el BSSID del punto de acceso WiFi. |
 |ess |nvarchar(50) |Sí |Información del controlador de punto de acceso Wifi. |
 |phy |nvarchar(50) |Sí |Información de Phy. |
 |ap |nvarchar(50) |Sí |Nombre del punto de acceso Wifi. |
 |Creación |nvarchar(500) |Sí |Nombre de edificio en el que se encuentra el punto de acceso WiFi. |
-||||
+
 
 ## <a name="cqd-streams"></a>CQD Secuencias
 
@@ -186,7 +186,7 @@ Una secuencia CQD se considera buena, mala o sin clasificar. CQM 1.5 ahora usa l
 |PacketLossRate |Mayor que 0,1 (10 %) |
 |JitterInterArrival |Mayor de 30 |
 |RatioConcealedSamplesAvg |Mayor que 0,07 |
-|||
+
 
 Definición de JPDR = Definición de llamada deficiente menos RatioConcealedSamplesAvg
 
@@ -205,7 +205,7 @@ CQD no usa campos de llamador o destinatario de llamada, sino que usa "First" y 
 |2 (AVMCU) |4 (Skype Empresarial) |Extremo 1 |Extremo 2 |
 |2 (AVMCU) |1 (mMediationServer) |Extremo 2 |Extremo 1 |
 |4 (Skype Empresarial) |4 (Skype Empresarial) |El autor de la llamada en MediaLine |El destinatario de la llamada en MMediaLine |
-|||||
+
 
 Si ambos extremos son del mismo tipo, CQD hace que la entrada autor de la llamada sea First y la Llamada Second. Para obtener más información acerca de los nombres de los puntos de conexión, [vea este blog](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks).
 

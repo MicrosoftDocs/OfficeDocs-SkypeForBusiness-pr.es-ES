@@ -19,26 +19,26 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62f1400c67ddda93feaf57fd0c47f9b062eff911
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 548e370988f8604c7bc76d7e983a85c14b782f2b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731779"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012584"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción a la formación de administradores para Microsoft Teams
 
 Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o realizar talleres. Vuelva aquí con frecuencia para ver nuevos contenidos.
 
-|               |               |               |               |
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | :------------ | :------------ | :------------ | :------------ |
 |![una mano y una flecha hacia arriba.](/office/media/icons/get-started-teams.png) |[Iniciar la implementación aquí](./get-started-with-teams-quick-start.md)     |![documento con una lista](/office/media/icons/document-teams.png)|[Ver Teams características por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
 |![un botón de reproducción de vídeo.](/office/media/icons/video-play.png) |[Ver procedimientos recomendados y vídeos paso a paso en el canal Coffee in the Cloud ("Café en la nube") en YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![persona con una llave inglesa](/office/media/icons/administrator.png) |[Teams Tizas: aprenda los procedimientos recomendados y las instrucciones prácticas sobre Teams escenarios populares](./chalk-talks-landing-page.yml)         |
-|  |  | |
+
 
 <h2>Ofertas y cursos de aprendizaje clave</h2>
 
-| | |  |
+|&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
 |[**Teams esenciales**](https://aka.ms/MicrosoftTeamsforIT) para TI: la serie de vídeo "Teams para TI" de Microsoft Mechanics le muestra , el administrador, cómo realizar, configurar y administrar Teams.     |[**Apoyar a los trabajadores**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) remotos con Microsoft Teams: obtenga las instrucciones que necesita (incluidos los vínculos a la formación) para dar soporte a los usuarios que trabajan desde casa.         |[**Administrar la colaboración del**](/learn/paths/m365-manage-team-collaboration) equipo para TI: aprenda a usar Teams para facilitar el trabajo en equipo y la comunicación dentro de su organización en aplicaciones y dispositivos.         |
 |[**Certificación de especialista en adopción de**](/learn/paths/m365-service-adoption) servicios: el curso de certificación especialista en adopción de servicios de Microsoft Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.     |[**Introducción al trabajo en equipo en Microsoft 365:**](/learn/modules/intro-to-teamwork-in-m365/index) el curso de certificación de especialistas en adopción de servicios de Microsoft Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.        |[**Microsoft 365 Certified: Asociado**](/learn/certifications/m365-teamwork-administrator) de administrador de trabajo en equipo: los administradores de trabajo en equipo de Microsoft 365 configuran, implementan y administran cargas de trabajo Microsoft 365 o Office 365, como SharePoint (en línea, local e híbrida), OneDrive y Teams.        |
@@ -96,7 +96,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identity, Access management & Threat Protection for Teams                   | Obtenga información sobre cómo usar los centros de administración de Microsoft y PowerShell para configurar las directivas de acceso e identidad y Habilitar Office 365 protección contra amenazas avanzada para Teams                                                            | [Teams de seguridad](https://aka.ms/teamsesecurityinteractiveguide)         |
 | Directivas de prevención de pérdida de datos (DLP) para Microsoft Teams                     | Obtenga información sobre cómo agregar Microsoft Teams a una directiva DLP existente y cómo crear una nueva directiva, ya sea basada en una plantilla o totalmente personalizada para las necesidades de protección de datos de su organización.                        | [Teams Guía DLP](https://aka.ms/teamsdlpguide)         |
-| Administrar el cumplimiento en Teams                                                | Use los centros de Microsoft 365 seguridad, cumplimiento de Microsoft 365 y Microsoft Teams, así como Windows PowerShell para administrar y configurar las directivas y la configuración de Office 365 organización Microsoft Teams organización. | [Administrar el cumplimiento en Teams guía](https://aka.ms/complianceinteamsinteractiveguide)      |
+| Administrar el cumplimiento en Teams                                                | Use los centros de Microsoft 365 seguridad, cumplimiento de Microsoft 365 y Microsoft Teams, así como Windows PowerShell para administrar y configurar las directivas de Office 365 de Microsoft Teams organización y Configuración. | [Administrar el cumplimiento en Teams guía](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams Asesor: Implementar chats, equipos, canales y aplicaciones en Microsoft Teams | Obtenga información sobre cómo usar Teams asesor para evaluar su entorno y crear un plan para implementar chats, equipos, canales y aplicaciones.                                                                                         |  [Teams Guía del asesor](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Streamlining Teams administración con PowerShell y grupos dinámicos        | Convierta un Office 365 de pertenencia estática a dinámica y use Windows PowerShell para asignar una nueva directiva de permisos de aplicación a todos los miembros.                                                                         |  [Guía de Teams administración](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Administrar Teams y acceso de invitado en el centro de Microsoft Teams de administración         | Obtenga información sobre cómo configurar y administrar Microsoft Teams y el acceso de invitado para su organización.                                                                                                                              | [Administrar Teams y guía de acceso de invitado](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |

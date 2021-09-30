@@ -11,7 +11,7 @@
 | 9/20/2021 | [Ver las asignaciones de directivas en el registro de actividades en el centro Microsoft Teams administración](/MicrosoftTeams/activity-log) | modificado |
 | 9/20/2021 | [Aprobaciones de disponibilidad de aplicaciones en Teams](/MicrosoftTeams/approval-admin) | modificado |
 | 9/20/2021 | [Asignar directivas a los usuarios de Microsoft Teams](/MicrosoftTeams/assign-policies) | modificado |
-| 9/20/2021 | [Controladores de límites de sesión certificados para Enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 9/20/2021 | [Controladores de borde de sesión certificados para Enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
 | 9/20/2021 | [Teams para Educación Asistente para directivas para aplicar fácilmente directivas para un aprendizaje seguro](/MicrosoftTeams/easy-policy-setup-edu) | modificado |
 | 9/20/2021 | [Obtener clientes para Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
 | 9/20/2021 | [Acceso de invitado en Microsoft Teams](/MicrosoftTeams/guest-access) | modificado |
@@ -45,11 +45,11 @@
 |------|------------|--------|
 | 9/13/2021 | [Introducción a Teams grabación basada en directivas para llamadas & reuniones](/MicrosoftTeams/teams-recording-policy) | modificado |
 | 9/13/2021 | [Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams](/MicrosoftTeams/class-insights) | modificado |
-| 9/13/2021 | [Controladores de límites de sesión certificados para Enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
-| 9/13/2021 | [Administrar las aplicaciones en el centro Microsoft Teams administración](/MicrosoftTeams/manage-apps) | modificado |
-| 9/14/2021 | [Controladores de límites de sesión certificados para Enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 9/13/2021 | [Controladores de borde de sesión certificados para Enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 9/13/2021 | [Administrar las aplicaciones en el Centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
+| 9/14/2021 | [Controladores de borde de sesión certificados para Enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
 | 9/14/2021 | [Requisitos de las Salas de Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
-| 9/15/2021 | [Administrar la experiencia de combinación para Teams visitas virtuales en exploradores móviles](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | modificado |
+| 9/15/2021 | [Administrar la experiencia de unirse a las visitas virtuales de Teams en exploradores móviles](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | modificado |
 | 9/16/2021 | [Disponibilidad de país o región: audioconferencias, planes de llamadas](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modificado |
 | 9/16/2021 | [Teams: Administrar directivas de reunión](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
 | 9/17/2021 | [Audioconferencia con pago por minuto](/MicrosoftTeams/audio-conferencing-pay-per-minute) | modificado |
@@ -80,11 +80,11 @@
 | 9/8/2021 | [Dispositivos para Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
 | 9/8/2021 | [Dimensiones y medidas: Panel de calidad de llamadas (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
 | 9/8/2021 | [Teams para visitas virtuales](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
-| 9/8/2021 | [Administrar la experiencia de combinación para Teams visitas virtuales en exploradores móviles](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | agregado |
+| 9/8/2021 | [Administrar la experiencia de unirse a las visitas virtuales de Teams en exploradores móviles](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | agregado |
 | 9/8/2021 | [Etiquetas de confidencialidad para Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | modificado |
 | 9/8/2021 | [Usar OneDrive para la Empresa y SharePoint para grabar las reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
 | 9/9/2021 | [Administrar directivas de reunión para grabación y transcripción](/MicrosoftTeams/meetings-policies-recording-and-transcription) | agregado |
-| 9/9/2021 | [Configurar ServiceNow para Salas de Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | agregado |
+| 9/9/2021 | [Configurar ServiceNow para salas de Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | agregado |
 | 9/9/2021 | [Guía de la sala de reuniones para Teams](/MicrosoftTeams/teams-meeting-room-guidance) | agregado |
 | 9/9/2021 | [Administrar directivas de reunión para audio y vídeo](/MicrosoftTeams/meeting-policies-audio-and-video) | modificado |
 | 9/9/2021 | [Administrar directivas de reunión en Microsoft Teams](/MicrosoftTeams/meeting-policies-overview) | modificado |

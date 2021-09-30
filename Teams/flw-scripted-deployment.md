@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733439"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012764"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Cómo proporcionar Teams a escala para personal de primera línea
 
@@ -203,7 +203,7 @@ Como administrador, puede usar las directivas de configuración de la aplicació
 
 La aplicaciones se anclan a la barra de aplicaciones. Esta es la barra situada en el lateral del cliente de escritorio de Teams y en la parte inferior de los clientes móviles (iOS y Android).
 
-|Cliente de escritorio de Teams  |         |Cliente móvil de Teams  |
+|Cliente de escritorio de Teams  | &nbsp; |Cliente móvil de Teams  |
 |---------|---------|---------|
 |![Recorte de pantalla del cliente de escritorio de Teams con aplicaciones ancladas a la barra de aplicaciones.](media/flw-teams-desktop-client.png)         |         |![Recorte de pantalla del cliente de escritorio de Teams con aplicaciones ancladas a la barra inferior.](media/flw-teams-mobile-client.png) |
 

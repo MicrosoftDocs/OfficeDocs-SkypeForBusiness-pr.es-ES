@@ -19,19 +19,19 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 7ddce7d633028ee3087cb8f29b6f47d593e664ae
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 85810f800424ddc0453b554ee8ab3a8863766150
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730479"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013984"
 ---
 # <a name="teams-for-education"></a>Teams para el ámbito educativo
 
 Con Teams, los profesores y los profesores pueden crear aulas de colaboración, conectarse en comunidades de aprendizaje profesionales y comunicarse con alumnos y profesores. Use los recursos de administración aquí para ayudarle a implementar, adoptar y administrar correctamente Teams en su escuela o institución. 
 
 
-|               |               |
+|&nbsp;|&nbsp;|
 | ------------- | ------------- |
 | ![Captura de pantalla del icono de flecha derecha.](../media/arrow-right-2-teams.svg)  |  [Inicio rápido: Administradores de Teams para el ámbito educativo](../teams-quick-start-edu.yml) |
 | ![Captura de pantalla del icono de papel y lápiz.](../media/sign-up-teams.svg) | [Tareas en Teams para educación](./assignments-in-teams.md) |

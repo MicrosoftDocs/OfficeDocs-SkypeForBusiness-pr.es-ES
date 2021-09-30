@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: El uso compartido de llamadas y la recogida de llamadas grupales permiten a los usuarios compartir llamadas entrantes con compañeros de trabajo para que las llamadas se puedan capturar cuando el usuario no esté disponible.
-ms.openlocfilehash: ce4f51fe2ffeef6051212b825bde84612e766115
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f9e24114d47ff331ad36a653a2bbe0f31fcad08
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619646"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014134"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartir llamadas y atender llamadas grupales en Microsoft Teams
 
@@ -39,11 +39,11 @@ La recogida de llamadas grupales es menos perjudicial para los destinatarios que
 Para compartir llamadas con otros usuarios, un usuario crea un grupo de llamadas y agrega los usuarios con los que desea compartir sus llamadas. A continuación, eligen una configuración de llamada o reenvío simultánea. Vea [Reenvío de llamadas y llamada simultánea en Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) para obtener más información. Ten en cuenta que los dispositivos móviles solo recibirán notificaciones si están configurados para banner y tono de llamada.
 
 > [!IMPORTANT]
-> Los usuarios, el propietario del grupo de llamadas y los miembros del grupo de llamadas deben estar Teams modo de implementación solo. Para obtener más información sobre Teams de implementación, vea Comprender [Microsoft Teams y Skype Empresarial coexistencia e interoperabilidad](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Los usuarios, el propietario del grupo de llamadas y los miembros del grupo de llamadas deben estar Teams modo de implementación solo. Para obtener más información sobre Teams de implementación, vea Comprender [Microsoft Teams y Skype Empresarial e interoperabilidad.](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>Licencia necesaria
 
-Los usuarios deben tener asignada una Microsoft Teams Sistema telefónico para configurar y usar el uso compartido de llamadas y la recogida de llamadas grupales. Para obtener más información sobre el modelo de licencias, vea Esto es lo [que obtiene](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)con Sistema telefónico .
+Los usuarios deben tener asignada una Microsoft Teams Sistema telefónico para configurar y usar el uso compartido de llamadas y la recogida de llamadas grupales. Para obtener más información sobre el modelo de licencias, vea Esto es lo [que obtiene](/MicrosoftTeams/here-s-what-you-get-with-phone-system)con Sistema telefónico .
 
 ## <a name="configure-group-call-pickup"></a>Configurar la recogida de llamadas grupales
 

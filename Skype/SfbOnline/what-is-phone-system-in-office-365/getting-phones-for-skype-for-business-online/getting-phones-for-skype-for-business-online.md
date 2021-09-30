@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre qué teléfonos funcionan con Skype for Business de Polycom, HP y Mitel, y las licencias necesarias. '
-ms.openlocfilehash: c2ada9df24a30a3acecf51d8d01377d117667ee9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4b4a5e48a531a694b006126221ddc7fcba40e1c3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607437"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013154"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtener teléfonos para Skype for Business Online
 
@@ -46,12 +46,11 @@ Microsoft se asocia y trabaja estrechamente con Polycom, Yealink y AudioCodes pa
   
 Al solicitar teléfonos nuevos para Skype Empresarial, es importante comprar teléfonos con el *id. de producto adecuado.* Estos IDs de producto garantizarán que los teléfonos que recibas tengan la Skype Empresarial versión calificada en línea ya instalada.
   
-|||
+|Socio fabricante de teléfonos  |Identificación de producto específica para Skype for Business  |
 |:-----|:-----|
-|**Socio fabricante de teléfonos** <br/> |**Identificación de producto específica para Skype for Business** <br/> |
-|Polycom  <br/> |Identificación de producto: 019  <br/> |
-|Yealink  <br/> |SIP-TXXG versión para Skype Empresarial  <br/> |
-|AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
+|Polycom   |Identificación de producto: 019   |
+|Yealink   |SIP-TXXG versión para Skype Empresarial   |
+|AudioCodes   |UCXXXHDEG (SfB)   |
    
 Para obtener más información sobre los teléfonos Polycom, vea [Biblioteca de documentación poly.](https://documents.polycom.com/category/voice)
   
@@ -68,13 +67,13 @@ Para obtener más información sobre los teléfonos AudioCodes, [vea Skype Empre
 
 Esta es la versión mínima de software necesaria para que los teléfonos compatibles funcionen con Sistema telefónico:
   
-||||
+
+|Tipo de teléfono |Firmware mínimo |Fecha de lanzamiento |
 |:-----|:-----|:-----|
-|**Tipo de teléfono** <br/> |**Firmware mínimo** <br/> |**Fecha de lanzamiento** <br/> |
-|Optimizado (Lync Phone Edition)  <br/> |4.0.7577.4463  <br/> |Mayo de 2015  <br/> |
-|Polycom VVX Series certificado  <br/> |5.4.0A  <br/> |Diciembre de 2015  <br/> |
-|Yealink  <br/> |X.8.1.52  <br/> |Febrero de 2017  <br/> |
-|AudioCodes  <br/> |3.0.0.459.1  <br/> |Diciembre de 2016  <br/> |
+|Optimizado (Lync Phone Edition)   |4.0.7577.4463   |Mayo de 2015   |
+|Polycom VVX Series certificado   |5.4.0A   |Diciembre de 2015   |
+|Yealink   |X.8.1.52   |Febrero de 2017   |
+|AudioCodes   |3.0.0.459.1   |Diciembre de 2016   |
 
 Para obtener más información sobre las versiones de firmware certificadas actuales, [vea Skype Empresarial teléfonos IP.](../../../SfbPartnerCertification/certification/devices-ip-phones.md)
 
@@ -91,29 +90,29 @@ Los modelos de licencias del fabricante pueden variar entre sip abierto y Skype 
 
 Para obtener características y funcionalidades completas del dispositivo, consulte las guías de usuario del fabricante.
   
-||||||
+
+|Característica  |3PIP de Polycom  |3PIP de Yealink |3PIP de AudioCodes |LPE |
 |:-----|:-----|:-----|:-----|:-----|
-|**Característica** <br/> |**3PIP de Polycom** <br/> |**3PIP de Yealink** <br/> |**3PIP de AudioCodes** <br/> |**LPE** <br/> |
-|Inicio de sesión con las credenciales del usuario  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
-|Inicio de sesión con un equipo (emparejamiento), solo Windows  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Inicio de sesión con (inicio de sesión web)  <br/>  <br/> **Nota:** Compruebe la matriz de compatibilidad en la guía de implementación.           |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
-|Unirse a la reunión con un solo clic  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Clic para marcar (emparejamiento)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Controles de reunión  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Correo de voz visual  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Bloqueo de teléfono  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Actualización de dispositivo  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Aprovisionamiento en banda  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|QoE  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
-|Carga de registros  <br/> <br/> **Nota:** Actualmente, todos los registros se cargan solo en el equipo de soporte técnico de Microsoft; el acceso de los clientes a los registros telefónicos aún no está disponible.           |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Autenticación moderna  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
-|Varios números de emergencia  <br/> |Sí  <br/> |No  <br/> |No  <br/> |Sí  <br/> |
-|Integración con el calendario de Exchange*  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> <br/> **Nota:** Requiere tethering de PC           |
-|Integración de presencia  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Directorio corporativo  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Delegación  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
-|Integración de imagen de contacto  <br/> |No  <br/> |Sí  <br/> |No  <br/> |Sí  <br/> |
-||||||
+|Inicio de sesión con las credenciales del usuario   |Sí  |Sí   |Sí   |No   |
+|Inicio de sesión con un equipo (emparejamiento), solo Windows   |Sí   |Sí   |Sí   |Sí   |
+|Inicio de sesión con (inicio de sesión web)  <br/>  <br/> **Nota:** Compruebe la matriz de compatibilidad en la guía de implementación.  |Sí   |Sí   |Sí   |No   |
+|Unirse a la reunión con un solo clic   |Sí   |Sí   |Sí   |Sí   |
+|Clic para marcar (emparejamiento)   |Sí   |Sí   |Sí   |Sí > |
+|Controles de reunión   |Sí   |Sí   |Sí   |Sí   |
+|Correo de voz visual   |Sí   |Sí   |Sí   |Sí   |
+|Bloqueo de teléfono   |Sí   |Sí   |Sí   |Sí   |
+|Actualización de dispositivo   |Sí   |Sí   |Sí   |Sí   |
+|Aprovisionamiento en banda   |Sí   |Sí   |Sí   |Sí   |
+|QoE   |Sí   |Sí   |Sí   |No  |
+|Carga de registros  <br/> <br/> **Nota:** Actualmente, todos los registros se cargan solo en el equipo de soporte técnico de Microsoft; el acceso de los clientes a los registros telefónicos aún no está disponible.           |Sí   |Sí   |Sí   |Sí   |
+|Autenticación moderna   |Sí   |Sí   |Sí   |No   |
+|Varios números de emergencia   |Sí   |No   |No   |Sí   |
+|Integración con el calendario de Exchange*   |Sí   |Sí   |Sí   |Sí  <br/> <br/> **Nota:** Requiere tethering de PC           |
+|Integración de presencia   |Sí   |Sí   |Sí   |Sí   |
+|Directorio corporativo   |Sí   |Sí   |Sí   |Sí   |
+|Delegación   |Sí   |Sí   |Sí   |No   |
+|Integración de imagen de contacto   |No   |Sí  |No   |Sí   |
+
 
      
 > [!NOTE]

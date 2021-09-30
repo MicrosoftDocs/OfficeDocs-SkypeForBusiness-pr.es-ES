@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumen: explore estos vínculos para aprender a desarrollar diseños conceptuales, lógicos y físicos para configurar Skype Empresarial Server características, servidores y topologías de 2019.'
-ms.openlocfilehash: f3db20e81646418f6f7a2b49001573155ed3fabd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 7ffc0941bfa7b98723498d567567005a167e6135
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728399"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013524"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planear la implementación Skype Empresarial Server 2019
  
@@ -35,7 +35,7 @@ Los autores los actualizan de forma constante a medida que disponen de nueva inf
 
 Vea los siguientes recursos para obtener información sobre cómo planear la Skype Empresarial Server implementación.
   
-||Contenido|Descripción|
+|&nbsp;|Contenido|Descripción|
 |:--- |:--- |:--- |
 |![Icono para vídeos.](../media/get_started.png)|<UL><LI>[Skype Empresarial: una introducción rápida](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) </li><li>  [Skype Empresarial: guía paso a paso para nuevos usuarios](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)</li></ul>   |Descubra presentaciones de vídeo y aprendizaje para Skype Empresarial.    |
    
@@ -62,4 +62,4 @@ Los siguientes recursos sobre cómo planear la Skype Empresarial Server están d
 |:--- |:--- |:--- |
 |![Icono para DMC.](../media/paragraph_writing.png)| [Skype Empresarial Server para profesionales de TI](../../Hub/index.yml)   |Visite docs.microsoft.com y centros de recursos para obtener acceso a vídeos, sitios de la comunidad, documentación, descargas y mucho más.    |
 |![Icono de contenido para desarrolladores.](../media/developer.png)|[Skype Plataforma para desarrolladores](/skype-sdk/skypedeveloperplatform)   | Busque recursos para desarrolladores Skype Empresarial Server, incluidos ejemplos de código, aprendizaje y SDK.    |
-|![Icono de noticias, blogs, y así sucesivamente.](../media/blog_site.png) | <UL><LI>[Administración y adopción de cambios](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 Blog técnico](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype blog del equipo](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Manténgase al día con las noticias de los equipos que crean y documentan Skype Empresarial Server.    |
+|![Icono de noticias, blogs, y así sucesivamente.](../media/blog_site.png) | <UL><LI>   [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 Blog técnico](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype blog del equipo](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Manténgase al día con las noticias de los equipos que crean y documentan Skype Empresarial Server.    |

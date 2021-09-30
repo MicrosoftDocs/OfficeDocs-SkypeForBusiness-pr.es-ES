@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre las licencias de complementos, las características que tendrá con él, cómo comprarlas para su producto y cómo usar su operador existente con ellas. Obtenga información sobre los precios y detalles de los planes de Office 365, los créditos de comunicación y los planes de llamadas. '
-ms.openlocfilehash: 60684102e563e23e99ea5ea18a16bcf51f6d82db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 92205ce6c4acd66759e782c6cfdf4fc0fc59ed77
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624532"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014764"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Licencias complementarias de Skype Empresarial
 
@@ -46,24 +46,24 @@ Para la mayoría de las empresas, comprar un paquete de software en un plan para
 
 Para obtener más información sobre costes, consulte [Cómo ver los precios y comprar licencias de complementos](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) o uno de los siguientes:
 
-- [Precios de Audio Conferencia](https://products.office.com/skype-for-business/audio-conferencing)
+- [Precios de Audio Conferencia](https://www.microsoft.com/microsoft-teams/audio-conferencing)
 
 - [Precios de Sistema telefónico](https://products.office.com/skype-for-business/phone-system)
 
-- [Precios de planes de llamadas](https://products.office.com/skype-for-business/calling-plans)
+- [Precios de planes de llamadas](https://docs.microsoft.com/microsoftteams/set-up-audio-conferencing-in-team)
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>¿Qué características puedo obtener con las licencias complementarias?
 
 En función de su plan, puede comprar licencias de complementos para las siguientes características de Skype Empresarial:
 
-|||
+
+|Característica |Descripción |
 |:-----|:-----|
-|**Característica** <br/> |**Descripción** <br/> |
-|**Audioconferencia** <br/> |A veces, los usuarios de su organización tendrán que usar un teléfono para llamar a una reunión Skype Empresarial, en lugar de usar su equipo. Use la característica Conferencia de audio para este caso.  <br/> Para averiguar si la audioconferencia está disponible en su país o región, vea [Disponibilidad de país y región para las audioconferencias y los planes de llamadas](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Si quiere saber cuánto cuesta, vea [Requisitos para audioconferencias](https://products.office.com/skype-for-business/audio-conferencing#requirements).  <br/> |
-|**Números de teléfono gratuitos para el acceso telefónico local a sus conferencias y la capacidad de realizar una llamada de salida desde una conferencia para agregar a alguien llamando a cualquier número de teléfono de todo el mundo** <br/> |Si agrega audioconferencias, se recomienda que [Configure los créditos de comunicaciones](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
-|**Sistema telefónico** <br/> |Un sistema PBX es un sistema telefónico en una empresa. Sistema telefónico es un servicio telefónico hospedado. Proporciona capacidades de PBX tradicionales e innovadoras, pero sin el equipamiento costoso y complejo. [Esto es lo que obtiene con Sistema telefónico](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> Si quiere saber cuánto cuesta, vea [Requisitos del sistema telefónico](https://products.office.com/skype-for-business/cloud-pbx#requirements).  <br/> |
-|**Planes de llamadas** <br/> |Las llamadas a Skype Empresarial usuarios son gratuitas, pero si quiere que los usuarios puedan llamar a números de teléfono fuera de su empresa, obtenga un [Plan de llamadas.](/MicrosoftTeams/calling-plans-for-office-365) Hay planes de llamadas nacionales y planes de llamadas nacionales e internacionales.  <br/> Si quiere saber cuánto cuesta, vea [Requisitos para los planes de llamadas](https://products.office.com/skype-for-business/pstn-calling-plans#requirements).  <br/> |
-|**Salas de Microsoft Teams** <br/> |Este no es un complemento, sino una característica que lleva el vídeo, audio y uso compartido de contenido a las salas de conferencias. Vea [Salas de Microsoft Teams](/MicrosoftTeams/rooms/rooms-licensing)  <br/> |
+|**Audioconferencia**  |A veces, los usuarios de su organización tendrán que usar un teléfono para llamar a una reunión Skype Empresarial, en lugar de usar su equipo. Use la característica Conferencia de audio para este caso.  <br/> Para averiguar si la audioconferencia está disponible en su país o región, vea [Disponibilidad de país y región para las audioconferencias y los planes de llamadas](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Si quiere saber cuánto cuesta, vea [Requisitos para audioconferencias](https://products.office.com/skype-for-business/audio-conferencing#requirements).   |
+|**Números de teléfono gratuitos para el acceso telefónico local a sus conferencias y la capacidad de realizar una llamada de salida desde una conferencia para agregar a alguien llamando a cualquier número de teléfono de todo el mundo**  |Si agrega audioconferencias, se recomienda que [Configure los créditos de comunicaciones](/microsoftteams/set-up-communications-credits-for-your-organization).  |
+|**Sistema telefónico**  |Un sistema PBX es un sistema telefónico en una empresa. Sistema telefónico es un servicio telefónico hospedado. Proporciona capacidades de PBX tradicionales e innovadoras, pero sin el equipamiento costoso y complejo. [Esto es lo que obtiene con Sistema telefónico](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> Si quiere saber cuánto cuesta, vea [Requisitos del sistema telefónico](https://products.office.com/skype-for-business/cloud-pbx#requirements).   |
+|**Planes de llamadas**  |Las llamadas a Skype Empresarial usuarios son gratuitas, pero si quiere que los usuarios puedan llamar a números de teléfono fuera de su empresa, obtenga un [Plan de llamadas.](/MicrosoftTeams/calling-plans-for-office-365) Hay planes de llamadas nacionales y planes de llamadas nacionales e internacionales.  <br/> Si quiere saber cuánto cuesta, vea [Requisitos para los planes de llamadas](https://products.office.com/skype-for-business/pstn-calling-plans#requirements).   |
+|**Salas de Microsoft Teams**  |Este no es un complemento, sino una característica que lleva el vídeo, audio y uso compartido de contenido a las salas de conferencias. Vea [Salas de Microsoft Teams](/MicrosoftTeams/rooms/rooms-licensing)   |
 
 ¿Necesitas hablar con alguien sobre todas las opciones de complementos? [Contactar con el soporte técnico para productos empresariales: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

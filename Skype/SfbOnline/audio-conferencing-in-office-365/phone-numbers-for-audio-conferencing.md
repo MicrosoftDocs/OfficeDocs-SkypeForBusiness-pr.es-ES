@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Obtenga información sobre qué países y regiones tienen números de conferencia de marcado, y cómo asignarlos automáticamente.
-ms.openlocfilehash: 9ad8f10a35ff712d8ee80822343c5098f0b2a907
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2db747bafbce39bbf6fa9331dc9331e52d1ffd55
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586148"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013124"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Números de teléfono para Audioconferencia en Skype for Business Online
 
@@ -43,7 +43,7 @@ Al configurar **audioconferencias** para Skype Empresarial, los números de tel�
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Cobertura y precios de Audioconferencia
 
-Para obtener una lista completa de todos los países o regiones y ciudades donde Audioconferencia está disponible, vea [Disponibilidad de países y regiones de Audioconferencia y planes de llamada](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). Para obtener información sobre precios, consulte [Precios de Audioconferencia](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Para obtener una lista completa de todos los países o regiones y ciudades donde Audioconferencia está disponible, vea [Disponibilidad de países y regiones de Audioconferencia y planes de llamada](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). Para obtener más información, vea [Audioconferencia.](https://www.microsoft.com/microsoft-teams/audio-conferencing)
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Números de teléfono de acceso telefónico local en la invitación a la reunión
 

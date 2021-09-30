@@ -21,20 +21,21 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre los idiomas que puede establecer en Skype Empresarial para los mensajes predeterminados del sistema y los saludos de correo de voz.
-ms.openlocfilehash: 78c3bd30da636bb9a38d413275e2d5b1ae59f0c5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8393e8a50913548a8e6ec64bcf26154e0af5b148
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590804"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011944"
 ---
 # <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams idiomas para saludos y mensajes del correo de voz
 
 Teams los siguientes idiomas para saludos de correo de voz.
   
-||||||
+
+
+|Idioma  |País o región |¿Está disponible para que un usuario lo vea en el correo electrónico? |¿Está disponible cuando el usuario llama? |¿La transcripción está disponible?  |
 |:-------------|:------------------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
-|**Idioma**  |**País o región** |**¿Está disponible para que un usuario lo vea en el correo electrónico?** |**¿Está disponible cuando el usuario llama?** |**¿La transcripción está disponible?**  |
 |Árabe        |Egipto              |Sí                                          |Sí                                   |No  |
 |Árabe        |Arabia Saudí       |Sí, pero se usa el árabe (Egipto).             |No                                    |No  |
 |Búlgaro     |Bulgaria           |Sí                                          |Sí                                   |No  |

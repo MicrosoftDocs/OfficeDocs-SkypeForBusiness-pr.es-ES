@@ -15,16 +15,16 @@ f1.keywords:
 description: Aprenda a poner a un usuario o un equipo de Microsoft Teams en retención legal mediante el Centro de seguridad y cumplimiento, y conozca qué debe poner en retención legal en función de los requisitos de datos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 714b96f4ba2ea49d158bcc360a6fa95814674f1551935db64a87fd684ed0010c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ace4098b56539408e8c29e5d16e43c8ae255f372
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321322"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013354"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Poner a un usuario o un equipo de Microsoft Teams en retención legal
 
-Cuando existe una expectativa razonable de litigio, se requiere que las organizaciones conserven la información almacenada electrónicamente (ESI), incluidos Teams mensajes de chat relevantes para el caso. Es posible que las organizaciones necesiten conservar todos los mensajes relacionados con un tema específico o con determinados individuos. En este artículo se tratará la retención legal en Microsoft Teams. Para contener contenido en Microsoft 365, vea [Crear una retención de exhibición de documentos electrónicos.](https://docs.microsoft.com/microsoft-365/compliance/create-ediscovery-holds)
+Cuando existe una expectativa razonable de litigio, se requiere que las organizaciones conserven la información almacenada electrónicamente (ESI), incluidos Teams mensajes de chat relevantes para el caso. Es posible que las organizaciones necesiten conservar todos los mensajes relacionados con un tema específico o con determinados individuos. En este artículo se tratará la retención legal en Microsoft Teams. Para contener contenido en Microsoft 365, vea [Crear una retención de exhibición de documentos electrónicos.](/microsoft-365/compliance/create-ediscovery-holds)
 
 > [!NOTE]
 > En febrero de 2020, se ha activado la retención legal para los canales privados. Los chats de canal privado se almacenan en buzones de usuario, mientras que los chats de canal normales se almacenan en el Teams del grupo. Si ya hay una retención legal en su lugar para un buzón de usuario, la directiva de retención se aplicará automáticamente a los mensajes de canal privado almacenados en ese buzón. No es necesaria ninguna acción adicional para que un administrador active esta opción. También se admite la retención legal de archivos compartidos en canales privados.
@@ -44,7 +44,7 @@ Para poner a un usuario o un equipo en retención legal en un caso de eDiscovery
    ![Microsoft Teams pestaña eDiscovery está seleccionada, que muestra el botón Crear un caso.](media/LegalHold1.png)
 
    > [!NOTE]
-   > También puede colocar a un usuario en una retención asociada con un Advanced eDiscovery mayúsculas y minúsculas. Para obtener más información, vea [Administrar retenciones en Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/managing-holds).
+   > También puede colocar a un usuario en una retención asociada con un Advanced eDiscovery mayúsculas y minúsculas. Para obtener más información, vea [Administrar retenciones en Advanced eDiscovery](/microsoft-365/compliance/managing-holds).
 
 3. Vaya a la **pestaña Retenciones** del menú superior y haga clic **en Crear** para crear una retención. La colocación de un usuario o un equipo en espera conserva todos los mensajes intercambiados por esos usuarios o mensajes. Al crear un nuevo caso, se le presenta la opción de poner buzones o sitios en espera.
 
@@ -77,8 +77,8 @@ Como guía útil, puede usar la tabla siguiente para comprender qué ubicación 
 |Teams de archivo (por ejemplo, contenido wiki y archivos)     |SharePoint sitio usado por el equipo.         |
 |Teams archivos de canal privado     |Sitio SharePoint dedicado para canales privados.     |
 |Contenido privado del usuario     |La cuenta de OneDrive para la Empresa usuario.         |
-|Contenido de tarjeta en chats|Buzón de usuario para chats de 1:1, chats grupales 1:N y conversaciones de canal privado o buzón de grupo para contenido de tarjeta en mensajes de canal. Para obtener más información, vea la sección "Conservar contenido de tarjeta" en [Crear una retención de exhibición de documentos electrónicos.](/microsoft-365/compliance/create-ediscovery-holds#preserve-card-content)
-||||
+|Contenido de tarjeta en chats|Buzón de usuario para chats de 1:1, chats grupales 1:N y conversaciones de canal privado o buzón de grupo para contenido de tarjeta en mensajes de canal. Para obtener más información, vea la sección "Conservar contenido de tarjeta" en [Crear una retención de exhibición de documentos electrónicos.](/microsoft-365/compliance/create-ediscovery-holds#preserve-card-content)|
+
 
 > [!NOTE]
 > Para conservar la comunicación en canales privados, debe poner los buzones de usuario (usuarios del canal privado) en espera y, al usar la herramienta eDiscovery para buscar, debe buscar en el buzón de ese usuario. Como se indicó anteriormente, los chats de canal privado se almacenan en buzones de usuario, no en el buzón de grupo de un equipo.

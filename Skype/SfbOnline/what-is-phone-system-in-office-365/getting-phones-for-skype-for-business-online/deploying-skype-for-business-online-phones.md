@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar la configuración para Skype Empresarial teléfonos en línea
-ms.openlocfilehash: d67badf0bd5ff27466315a5731c2ac9a2117f74e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b9724677a3217b73b727a72343f35ebe51a4de09
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728019"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011904"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implementación de teléfonos de Skype Empresarial Online
 
@@ -120,7 +120,7 @@ Para obtener más información sobre planes de llamadas, lea [Sistema telefónic
     > [!NOTE]
     > La autenticación con PIN no se admite en Skype Empresarial Online con teléfonos LPE y teléfonos IP de socios. 
   
-- **Usar un EQUIPO** Cuando el software Better Together over Ethernet (BToE) está instalado en el equipo del usuario y está habilitado, los usuarios pueden iniciar sesión en sus teléfonos con la ventana de autenticación en su Windows Skype Empresarial aplicación. Vea Paso 7 (opcional): si tiene emparejamiento de dispositivos y [Better Together over Ethernet (BToE)](deploying-skype-for-business-online-phones.md#BK_BTOE) para obtener más información.
+- **Usar un EQUIPO** Cuando el software Better Together over Ethernet (BToE) está instalado en el equipo del usuario y está habilitado, los usuarios pueden iniciar sesión en sus teléfonos con la ventana de autenticación en su Windows Skype Empresarial aplicación. Vea [¿Qué es Skype Operations Framework (SOF) y Skype Academy?](https://techcommunity.microsoft.com/t5/skype-for-business-blog/what-is-skype-operations-framework-sof-and-skype-academy/ba-p/30506) para obtener más información.
     
   > [!NOTE]
   > Los usuarios deben usar el nombre de usuario y la contraseña de su organización para iniciar sesión en el teléfono. Por ejemplo, deben usar el formato UPN, como  <em>amosm@contoso.com</em>  , en el nombre de usuario.
@@ -171,17 +171,19 @@ Para obtener más información sobre planes de llamadas, lea [Sistema telefónic
     > Los teléfonos LPE para Skype Empresarial Online solo admiten el inicio de sesión mediante tethering USB. 
   
 - **Implementaciones admitidas**: la siguiente tabla muestra los tipos de autenticación compatibles con los modelos de implementación que se admiten actualmente, incluidos la integración de Exchange, la autenticación moderna con Multi-factor Authentication (MFA) y Skype Empresarial Online y local.
-    
-|||||||
+
+  
+ 
+ 
+|Skype Empresarial |Exchange |Método de inicio de sesión en el teléfono |Skype Empresarial acceso |Acceso a Exchange con autenticación moderna y MFA desactivados |Acceso a Exchange con autenticación moderna y MFA activados |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Skype Empresarial** <br/> |**Exchange** <br/> |**Método de inicio de sesión en el teléfono** <br/> |**Skype Empresarial acceso** <br/> |**Acceso a Exchange con autenticación moderna y MFA desactivados** <br/> |**Acceso a Exchange con autenticación moderna y MFA activados** <br/> |
-|En línea  <br/> |En línea  <br/> |Inicio de sesión web  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|En línea  <br/> |En línea  <br/> |Nombre de usuario y contraseña  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
-|En línea  <br/> |Local  <br/> |Inicio de sesión web  <br/> |Sí  <br/> |No  <br/> |No  <br/> |
-|En línea  <br/> |Local  <br/> |Nombre de usuario y contraseña  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
-|Local  <br/> |En línea/local  <br/> |Autenticación de PIN  <br/> |Sí  <br/> |No  <br/> |No  <br/> |
-|Local  <br/> |En línea/local  <br/> |Nombre de usuario y contraseña  <br/> |Sí  <br/> |Sí  <br/> |N/D  <br/> |
-|Local  <br/> |En línea/local  <br/> |Inicio de sesión vía equipo (BTOE)  <br/> |Sí  <br/> |Sí  <br/> |N/D  <br/> |
+|En línea   |En línea   |Inicio de sesión web   |Sí   |Sí   |Sí   |
+|En línea   |En línea   |Nombre de usuario y contraseña   |Sí   |Sí   |No   |
+|En línea   |Local   |Inicio de sesión web   |Sí   |No   |No   |
+|En línea   |Local   |Nombre de usuario y contraseña   |Sí   |Sí   |No   |
+|Local   |En línea/local   |Autenticación de PIN   |Sí   |No   |No   |
+|Local   |En línea/local   |Nombre de usuario y contraseña   |Sí   |Sí   |N/D   |
+|Local   |En línea/local   |Inicio de sesión vía equipo (BTOE)  |Sí   |Sí   |N/D   |
    
 - **Teléfono características** El conjunto de características puede variar ligeramente en función del partner del teléfono IP. Para obtener el conjunto de características completo y para obtener más información sobre las características de cada fabricante de teléfonos, vea Obtener [teléfonos para Skype Empresarial en línea.](getting-phones-for-skype-for-business-online.md)
     
@@ -228,4 +230,3 @@ BToE se puede configurar para que funcione en dos modos: *Automático* (predeter
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-  

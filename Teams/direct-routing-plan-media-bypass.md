@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo planear la omisión de medios con Sistema telefónico enrutamiento directo, lo que le permite acortar la ruta del tráfico multimedia y mejorar el rendimiento.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8231a57d844539272c65709270b0a0477c50e214
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 35d67f2547011d15fe7d72ab99a34ca507394f7a
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730489"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013134"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -114,6 +114,7 @@ En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la o
 > ![Muestra el flujo de llamadas si el usuario no tiene acceso a la DIRECCIÓN IP pública del SBC.](media/direct-routing-media-bypass-5.png)
 
 
+
 ## <a name="use-of-media-processors-and-transport-relays"></a>Uso de procesadores multimedia y retransmisión de transporte
 
 Hay dos componentes en microsoft cloud que pueden estar en la ruta del tráfico multimedia: procesadores multimedia y retransmisión de transporte. 
@@ -141,13 +142,13 @@ En el siguiente diagrama se muestran dos flujos de llamadas: uno con la omisión
 
 En la tabla siguiente se resume la diferencia entre los procesadores multimedia y los relés de transporte.
 
-|    | Procesadores multimedia | Retransmisión de transporte|
+|  &nbsp; | Procesadores multimedia | Retransmisión de transporte|
 | :--------------|:---------------|:------------|
-En la ruta de acceso multimedia para llamadas no omitida para usuarios finales | Siempre | Si el cliente no puede ponerse en contacto directamente con el Procesador multimedia | 
-En la ruta de acceso multimedia para llamadas omitida para usuarios finales | Nunca | Si el cliente no puede llegar al SBC en la dirección IP pública | 
-En la ruta de acceso multimedia para aplicaciones de voz | Siempre | Nunca | 
-Puede realizar la transcodificación (B2BUA)\* | Sí | No, solo retransmite audio entre puntos de conexión | 
-Número de instancias en todo el mundo y ubicación | 10 total: 2 en Ee. UU. Este y Oeste; 2 en Ámsterdam y Dublín; 2 en Hong Kong y Singapur; 2 en Japón; 2 en Australia Este y Sureste | Múltiplo
+|En la ruta de acceso multimedia para llamadas no omitida para usuarios finales | Siempre | Si el cliente no puede ponerse en contacto directamente con el Procesador multimedia |
+|En la ruta de acceso multimedia para llamadas omitida para usuarios finales | Nunca | Si el cliente no puede llegar al SBC en la dirección IP pública |
+|En la ruta de acceso multimedia para aplicaciones de voz | Siempre | Nunca |
+|Puede realizar la transcodificación (B2BUA)\* | Sí | No, solo retransmite audio entre puntos de conexión |
+|Número de instancias en todo el mundo y ubicación | 10 total: 2 en Ee. UU. Este y Oeste; 2 en Ámsterdam y Dublín; 2 en Hong Kong y Singapur; 2 en Japón; 2 en Australia Este y Sureste | Múltiplo|
 
 Los rangos IP son:
 - 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254)
@@ -239,7 +240,7 @@ Debe usar los siguientes puertos:
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Definido en el SBC |
+| SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Definido en el SBC |
 | SIP/TLS | SBC | SIP Proxy | Definido en el SBC | 5061 |
 
 
@@ -256,7 +257,7 @@ El cliente debe tener acceso a los puertos especificados (ver tabla) en la direc
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Cliente | SBC | 3478-3481 y 49152 - 53247| Definido en el SBC |
+| UDP/SRTP | Cliente | SBC | 3478-3481 y 49152 - 53247| Definido en el SBC |
 | UDP/SRTP | SBC | Cliente | Definido en el SBC | 3478-3481 y 49152 - 53247  |
 
 
@@ -285,7 +286,7 @@ El rango de puertos de Teams relés de transporte (aplicables a todos los entorn
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Retransmisión de transporte | SBC | 50 000 -59 999    | Definido en el SBC |
+| UDP/SRTP | Retransmisión de transporte | SBC | 50 000 -59 999    | Definido en el SBC |
 | UDP/SRTP | SBC | Retransmisión de transporte | Definido en el SBC | 50 000 – 59 999, 3478-3481     |
 
 
@@ -323,7 +324,7 @@ El rango de puertos de los procesadores multimedia (aplicable a todos los entorn
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Procesador multimedia | SBC | 3478-3481 y 49 152 - 53 247    | Definido en el SBC |
+| UDP/SRTP | Procesador multimedia | SBC | 3478-3481 y 49 152 - 53 247    | Definido en el SBC |
 | UDP/SRTP | SBC | Procesador multimedia | Definido en el SBC | 3478-3481 y 49 152 - 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurar troncos independientes para la omisión de medios y la omisión no multimedia  
@@ -346,8 +347,8 @@ En el ejemplo siguiente se muestra esta lógica.
 
 | Conjunto de usuarios | Número de usuarios | FQDN de tronco asignado en OVRP | Omisión de medios habilitada |
 | :------------ |:----------------- |:--------------|:--------------|
-Usuarios con tronco de omisión no multimedia | 980 | sbc1.contoso.com:5061 | falso |
-Usuarios con tronco de omisión multimedia | 20 | sbc2.contoso.com:5060 | verdadero | 
+| Usuarios con tronco de omisión no multimedia | 980 | sbc1.contoso.com:5061 | falso |
+| Usuarios con tronco de omisión multimedia | 20 | sbc2.contoso.com:5060 | verdadero | 
 
 Ambos troncos pueden apuntar al mismo SBC con la misma dirección IP pública. Los puertos de señalización TLS del SBC deben ser diferentes, como se muestra en el siguiente diagrama. Tenga en cuenta que tendrá que asegurarse de que el certificado admite ambos troncos. En SAN, debe tener dos nombres **(sbc1.contoso.com** y **sbc2.contoso.com)** o tener un certificado comodín.
 

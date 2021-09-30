@@ -1,5 +1,5 @@
 ---
-title: Introducción a las plantillas de grupo en el centro Teams administración
+title: Introducción a las plantillas de equipo en el centro de administración de Teams
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -18,14 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19333badf3df580129ab7a805cf27c670748d299
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 30d2ef7baf485e617ac5d703659a79d6f57e7f76
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991149"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011784"
 ---
-# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introducción a las plantillas de grupo en el centro Teams administración
+# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introducción a las plantillas de equipo en el centro de administración de Teams
 
 **La capacidad de crear plantillas personalizadas aún no es compatible con los clientes de EDU.**
 
@@ -71,17 +71,17 @@ Puede duplicar plantillas predefinidas, pero no editarlas. Si desea cambiar las 
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Adoptar Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Canales: <ul><li>General</li> <li>Anuncios</li> <li>Esquina Campeones</li> <li>Formularios de equipo</li><li>Calendario</li></ul> Aplicaciones: <ul><li>Wiki</li>  <li>Calendario del canal</li> <li>Hitos</li><li>Boletines</li></ul>|
 | Administrar un proyecto |`com.microsoft.teams.template.ManageAProject`| Canales: <ul><li>General</li> <li>Anuncios</li> <li>Recursos</li> <li>Planeación</li></ul> Aplicaciones:<ul><li>Wiki</li><li>OneNote</li><li>Tareas</li><li>Listas</li><li>Power Automate</li></ul> |
-| Administrar un evento|`com.microsoft.teams.template.ManageAnEvent` | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Budget</li> <li>Contenido</li><li>Logística</li> <li>Planeación</li> <li> Marketing y relaciones públicas</li></ul> Aplicaciones:<ul><li>Wiki</li><li>Sitio web</li> <li>YouTube</li> <li>Tareas</li> <li>OneNote</li> <li>Ideas de empleados</li> <li>Issue Reporter</li><li>Power Automate</li><li>Boletines</li><li>Hitos</li></ul> |
+| Administrar un evento|`com.microsoft.teams.template.ManageAnEvent` | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Budget</li> <li>Contenido</li><li>Logística</li> <li>Planeación</li> <li> Marketing y relaciones públicas</li></ul> Aplicaciones:<ul><li>Wiki</li><li>Sitio web</li> <li>YouTube</li> <li>Tareas</li> <li>OneNote</li> <li>Ideas de empleados</li> <li>Informador del problema</li><li>Power Automate</li><li>Boletines</li><li>Hitos</li></ul> |
 |Incorporar empleados|`com.microsoft.teams.template.OnboardEmployees` | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleados</li> <li>Aprendizaje</li></ul>Aplicaciones:<ul><li>Wiki</li><li>Comunidades</li><li>Tareas</li><li>Ideas de empleados</li><li>Power Automate</li><li>Boletines</li><li>Hitos</li></ul>|
-|Organizar el servicio de ayuda| `com.microsoft.teams.template.OrganizeHelpDesk`|Canales:<ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Aplicaciones:<ul><li>Wiki</li><li>OneNote</li><li>Tareas </li><li>Elogio</li><li>Issue Reporter</li><li>Power Automate</li><li>Boletines</li></ul> |
-| Atención al paciente| `com.microsoft.teams.template.healthcareWard`| Canales:<ul><li>General</li><li>Anuncios</li><li>Reuniones</li><li>Rondas</li><li>Personal</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Listas  </li><li>Aprobaciones</li><li>Boletines</li><li>Inspección</li></ul>|
-| Comunicación de crisis |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canales: <ul><li>General<li>Anuncios</li><li>Noticias del mundo</li><li>Comunicación interna</li><li>Comms externos</li><li>Solicitud de aprobaciones</li><li>Escalas de clientes</li><li>Actualización ejecutiva</li><li>Planeación</li><li>Logística</li></ul>Aplicaciones: <ul><li>Sitio web</li><li>Tareas</li><li>Issue Reporter</li><li>Aprobaciones</li><li>Boletines</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-|Sucursal bancaria| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canales: <ul><li>General<li>Anuncios</li><li>Reuniones</li><li>Reuniones de clientes</li><li>Solicitud de aprobaciones </li><li>Coaching</li><li>Desarrollo de aptitudes</li><li>Procesamiento de préstamo</li><li>Quejas de clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>Aplicaciones:<ul><li>Elogio </li><li>Issue Reporter</li><li>Wiki</li><li>Calendario</li><li>Aprobaciones</li><li>Boletines</li><li>Ideas</li></ul>|
+|Organizar el servicio de ayuda| `com.microsoft.teams.template.OrganizeHelpDesk`|Canales:<ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Aplicaciones:<ul><li>Wiki</li><li>OneNote</li><li>Tareas </li><li>Elogiar</li><li>Informador del problema</li><li>Power Automate</li><li>Boletines</li></ul> |
+| Cuidado del paciente| `com.microsoft.teams.template.healthcareWard`| Canales:<ul><li>General</li><li>Anuncios</li><li>Reuniones</li><li>Rondas</li><li>Personal</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Listas  </li><li>Aprobaciones</li><li>Boletines</li><li>Inspección</li></ul>|
+| Comunicación de crisis |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canales: <ul><li>General<li>Anuncios</li><li>Noticias del mundo</li><li>Comunicación interna</li><li>Comms externos</li><li>Solicitud de aprobaciones</li><li>Escalas de clientes</li><li>Actualización ejecutiva</li><li>Planeación</li><li>Logística</li></ul>Aplicaciones: <ul><li>Sitio web</li><li>Tareas</li><li>Informador del problema</li><li>Aprobaciones</li><li>Boletines</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
+|Sucursal bancaria| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canales: <ul><li>General<li>Anuncios</li><li>Reuniones</li><li>Reuniones de clientes</li><li>Solicitud de aprobaciones </li><li>Asesoramiento</li><li>Desarrollo de aptitudes</li><li>Procesamiento de préstamos</li><li>Quejas de clientes</li><li>Elogios</li><li>Material divertido</li><li>Cumplimiento</li></ul>Aplicaciones:<ul><li>Elogiar </li><li>Informador del problema</li><li>Wiki</li><li>Calendario</li><li>Aprobaciones</li><li>Boletines</li><li>Ideas</li></ul>|
 |Respuesta a incidentes| `com.microsoft.teams.template.CoordinateIncidentResponse`|Canales: <ul><li>General<li>Anuncios</li><li>Logística</li><li>Planeación</li><li>Recuperación</li><li>Urgente</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Tareas</li> <li>Aprobaciones</li> <li>Inspección</li> <li>Power Automate</li><li>Boletines</li><li>Hitos</li></ul>|
 |Hospital| `com.microsoft.teams.template.healthcareHospital` |Canales: <ul><li>General</li><li>Anuncios</li><li>Cumplimiento</li><li>Custodia</li><li>Recursos humanos</li><li>Farmacia</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Listas</li><li>Tareas</li><li>Aprobaciones</li><li>Turnos</li><li>Boletines</li><li>Inspección</li><li>Ideas</li></ul>|
-|Organizar una tienda| `com.microsoft.teams.template.retailStore` |Canales: <ul><li>General<li>Cambio de turno</li><li>Preparación de la tienda</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li><li>Turnos</li><li>Inspección</li></ul>|
-|Retail para administradores| `com.microsoft.teams.template.retailManagerCollaboration` |Canales: <ul><li>General<li>Operaciones</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li><li>Inspección</li></ul>|
-|Calidad y seguridad |`com.microsoft.teams.template.QualitySafety`|Canales: <ul><li>General<li>Anuncios</li><li>Liderazgo</li><li>Mantenimiento</li><li>Línea de producción 1</li><li>Línea de producción 2</li><li>Línea de producción 3</li><li>Salud y seguridad</li><li>Aprendizaje</li><li>Cosas divertidas</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li> <li>Issue Reporter</li> <li>Inspección</li> </ul>|
+|Organizar una tienda| `com.microsoft.teams.template.retailStore` |Canales: <ul><li>General<li>Cambio de turno</li><li>Preparación del almacén</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li><li>Turnos</li><li>Inspección</li></ul>|
+|Venta al por menor para administradores| `com.microsoft.teams.template.retailManagerCollaboration` |Canales: <ul><li>General<li>Operaciones</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li><li>Inspección</li></ul>|
+|Calidad y seguridad |`com.microsoft.teams.template.QualitySafety`|Canales: <ul><li>General<li>Anuncios</li><li>Liderazgo</li><li>Mantenimiento</li><li>Línea de producción 1</li><li>Línea de producción 2</li><li>Línea de producción 3</li><li>Salud y seguridad</li><li>Aprendizaje</li><li>Material divertido</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li> <li>Informador del problema</li> <li>Inspección</li> </ul>|
 
 ### <a name="team-templates-by-category-and-industry"></a>Plantillas de equipo por categoría e industria
 
@@ -112,7 +112,7 @@ Para obtener más información, vea [Límites y especificaciones de Teams](limit
 
 ## <a name="manage-team-templates"></a>Administrar plantillas de equipo
 
-### <a name="manage-team-templates-in-the-teams-admin-center"></a>Administrar plantillas de equipo en el centro Teams administración
+### <a name="manage-team-templates-in-the-teams-admin-center"></a>Administrar plantillas de equipo en el Centro de administración de Teams
 
 #### <a name="view-team-templates"></a>Ver plantillas de equipo
 
@@ -134,10 +134,10 @@ Para controlar las plantillas que los usuarios ven en Teams para crear equipos, 
 
 Use los cmdlets siguientes para administrar las plantillas en PowerShell.
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
 - [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
 - [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## <a name="related-articles"></a>Artículos relacionados

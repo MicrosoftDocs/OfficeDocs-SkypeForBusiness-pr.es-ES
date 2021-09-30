@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype Empresarial Server se basa en certificados para la autenticación de servidor y para establecer una cadena de confianza entre clientes y servidores y entre los distintos roles de servidor. Las Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 y Windows Server 2008 Public Key Infrastructure (PKI) proporcionan la infraestructura para establecer y validar esta cadena de confianza.
-ms.openlocfilehash: 733b1bb946147edd184a7b0fecb16ffab2adba51
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1e9e7844641fae3c864f9ae15e7a639cdeb8724
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627932"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014704"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>Infraestructura de clave pública para Skype Empresarial Server
  
@@ -31,7 +31,7 @@ Incluso si la información incluida en el certificado es válida, es preciso com
 Cada certificado está asociado a una clave pública. El servidor indicado en el certificado tiene una clave privada correspondiente que solo él conoce. El cliente o servidor que se conecta usa la clave pública para cifrar un fragmento de información aleatorio y enviarlo al servidor. Si el servidor descifra la información y la devuelve como texto sin formato, la entidad que se conecta puede estar segura de que el servidor tiene la clave privada asociada al certificado y, por consiguiente, es el servidor indicado en el certificado.
   
 > [!NOTE]
-> No todas las CA públicas cumplen los requisitos de Skype Empresarial Server certificados. Para los certificados públicos, se recomienda consultar la lista de proveedores autorizados de CA públicas. Para obtener más información, vea [Unified Communications Certificate Partners](https://go.microsoft.com/fwlink/p/?LinkId=140898). 
+> No todas las CA públicas cumplen los requisitos de Skype Empresarial Server certificados. Para los certificados públicos, se recomienda consultar la lista de proveedores autorizados de CA públicas. 
   
 ## <a name="crl-distribution-points"></a>Puntos de distribución CRL
 

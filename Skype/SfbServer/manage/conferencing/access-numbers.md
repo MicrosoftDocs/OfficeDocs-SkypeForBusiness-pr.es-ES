@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Resumen: obtenga información sobre cómo administrar los números de acceso a conferencias de acceso telefónico local en Skype Empresarial Server.'
-ms.openlocfilehash: fd1d32ff82fc7bd922acfaea567780b5683eb684
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d76d6135f32b3ea46368080169bf288a637e7546
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621076"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011524"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Administrar números de acceso a conferencias de acceso telefónico local en Skype Empresarial Server
  
@@ -97,7 +97,7 @@ Puede modificar los números de acceso telefónico mediante Skype Empresarial Se
     
     Este nombre se muestra en el cliente cuando un usuario llama al número de acceso. 
     
-7. En **URI** de línea , escriba el número E.164 del número de acceso telefónico en formato URI de TEL, incluido el símbolo + antes del número y excluyendo espacios. Por ejemplo, tel:+14255550200.
+7. En **URI** de línea , escriba el número E.164 del número de acceso telefónico en formato URI de TEL, incluido el símbolo + antes del número y excluyendo espacios. Por ejemplo, `tel:+14255550200`.
     
     > [!NOTE]
     > Otro número de acceso de conferencia de acceso telefónico local no puede reutilizar el mismo URI de línea. 

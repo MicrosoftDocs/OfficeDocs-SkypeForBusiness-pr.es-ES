@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: db18448960d2a2106005d292ebe6f232327fad2f
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729229"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014244"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introducción a Microsoft Teams
 
@@ -44,6 +44,7 @@ Recomendamos implementar Teams por fases, con una carga de trabajo cada vez, en 
 - [Voz en la nube](cloud-voice-landing-page.md)
 
 ![Diagrama que muestra los caminos de implementación de Teams.](media/get-started-with-teams-quick-start-pathways.png)
+
 
 Si tiene una organización mediana o grande, [use el Asesor para Teams para implementar Microsoft Teams](use-advisor-teams-roll-out.md) y planificar la implementación de estas cargas de trabajo en toda la organización. El Asesor para Teams usa al mismo Teams para crear las tareas del plan y asignarlas a sus respectivos propietarios, compartir documentos y habilitar discusiones entre los miembros de su equipo de implementación.
 
@@ -76,8 +77,8 @@ Siga los pasos a continuación para configurar un par de equipos e incorporar a 
 
 Si migra a Teams desde Skype Empresarial (en línea o local) o si necesita una configuración híbrida, podría interesarle seguir la ruta recomendada anterior para implementar Teams, pero necesitará hacer una planificación adicional. Empiece por revisar las instrucciones de la siguiente tabla que se aplique al perfil de su organización.
 
-|  |Perfil de su organización|Instrucciones  |
+|&nbsp;|Perfil de su organización|Instrucciones  |
 |---------|---------|---------|
-|<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|Actualmente utilizo Skype Empresarial Online y estoy listo para migrar a Teams. |Vaya a [Actualizar a Teams](upgrade-start-here.md).        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Mi organización utiliza Skype Empresarial Server y quiero implementar Teams. |Para implementar Teams a gran escala, primero necesita configurar una conectividad híbrida entre su entrono local y Microsoft 365. Empiece leyendo el [Plan de conectividad híbrida entre Skype Empresarial Server y Microsoft 365 u Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>También debería consultar [Actualizar a Teams](upgrade-start-here.md).   |
-|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|No tengo Skype Empresarial Server pero sí una solución RTC local. Quiero implementar Teams pero también mantener la solución RTC local. |Implemente Teams siguiendo las sugerencias de este artículo.<br><br>Después, lea [Planear el enrutamiento directo](direct-routing-plan.md) para obtener información sobre el uso de enrutamiento directo del sistema telefónico para conectar su solución RTC local con Teams.|
+|<IMG src="/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|Actualmente utilizo Skype Empresarial Online y estoy listo para migrar a Teams. |Vaya a [Actualizar a Teams](upgrade-start-here.md). |
+|<IMG SRC="/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Mi organización utiliza Skype Empresarial Server y quiero implementar Teams. |Para implementar Teams a gran escala, primero necesita configurar una conectividad híbrida entre su entrono local y Microsoft 365. Empiece leyendo el [Plan de conectividad híbrida entre Skype Empresarial Server y Microsoft 365 u Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>También debería consultar [Actualizar a Teams](upgrade-start-here.md).   |
+|<IMG src="/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|No tengo Skype Empresarial Server pero sí una solución RTC local. Quiero implementar Teams pero también mantener la solución RTC local. |Implemente Teams siguiendo las sugerencias de este artículo.<br><br>Después, lea [Planear el enrutamiento directo](direct-routing-plan.md) para obtener información sobre el uso de enrutamiento directo del sistema telefónico para conectar su solución RTC local con Teams.|

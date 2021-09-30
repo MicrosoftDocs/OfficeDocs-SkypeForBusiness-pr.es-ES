@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Resumen: lea este tema para obtener información sobre los requisitos de hardware y software para conferencias en Skype Empresarial Server.'
-ms.openlocfilehash: bfc449abc2e01676a412fc0ead85eeae12aa2610
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5209b024ae3e5f5161e7ff777c30b66c3237b3c3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733545"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013384"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Requisitos de hardware y software para conferencias en Skype Empresarial Server
 
@@ -108,8 +108,6 @@ aplicación Operador de conferencia y aplicación Anuncio de conferencia requier
 ### <a name="audio-file-requirements-for-dial-in-conferencing"></a>Requisitos de archivos de audio para conferencias de acceso telefónico local
 
 Skype Empresarial Server no admite la personalización de mensajes de voz y música para conferencias de acceso telefónico local. Sin embargo, si tiene una necesidad empresarial sólida que requiere cambiar los archivos de audio predeterminados, consulte el artículo de Microsoft Knowledge Base 961177, How [to customize voice prompts or music files for dial-in audio conferencing](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177).
-
-También puede usar la utilidad de administración de mensajes de voz personalizados de [Microsoft Lync Server Operador de conferencia,](https://go.microsoft.com/fwlink/p/?LinkId=396880) que permite a los administradores reemplazar los mensajes de voz predeterminados usados cuando un llamador de teléfono se une a una reunión de Skype Empresarial con mensajes personalizados para proporcionar una experiencia de entrada de reunión diferente. Los mensajes de voz personalizados se pueden instalar en un Enterprise o Standard Edition servidor.
 
 aplicación Operador de conferencia y aplicación Anuncio de conferencia los siguientes requisitos para la música en espera, el nombre grabado y los archivos de símbolo del sistema de audio:
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Use una cámara de contenido en una Sala de Microsoft Teams, que utiliza software de procesamiento de imágenes para que los presentadores puedan dibujar en una pizarra tradicional.
-ms.openlocfilehash: ae919e50e7e38394e3e9af70a927d5bcdd959f50
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 61c0a1a36630fa31190e57de08379d6e80321a34
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726019"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013164"
 ---
 # <a name="content-cameras"></a>Cámaras de contenido
 
@@ -65,7 +65,7 @@ La distancia de la cámara desde la pizarra, la resolución de la cámara y el c
 | 100°        | 0,38 m| 0,77 m   | 1,15 m   |1,53 m   |1,61 m |
 | 110°        | 0,32 m| 0,64 m   | 0,96 m   |1,28 m    |1,31 m |
 | 120°        | 0,26 m| 0,52 m   | 0,79 m   |1,05 m   |1,10 m |
-|             |               |                  |                  |        |                    |                  |
+             
 
 La distancia entre la cámara de contenido y la pared en la que se encuentra la pizarra depende del campo de visión horizontal, que varía según el modelo de cámara. Instale cámaras con un campo de visión horizontal superior (120 grados, por ejemplo) más cerca de la pared y cámaras con un campo de visión horizontal inferior, lejos de la pared. Encuentre el campo de visión horizontal antes de empezar a instalar la cámara seleccionada.
 

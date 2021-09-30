@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Summary: Review the network component considerations below before implementing Skype Empresarial Server.'
-ms.openlocfilehash: 272ac60f4322d1d9153a6518e20d02c07e066def
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0441b64014f7754d30f8040d059f2fac15c9cb5d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623582"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014674"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Planear los requisitos de red para Skype Empresarial
 
@@ -192,7 +192,7 @@ Además del ancho de banda requerido para el tráfico de protocolo seguro en tie
 
 |**Media**|**Ancho de banda máximo RTCP (Kbps)**|
 |:-----|:-----|
-|Audio  <br/> |5   <br/> |
+|Audio  <br/> |5  <br/> |
 |Video (solo se envía/recibe H.264 o RTVideo)  <br/> |10  <br/> |
 |Video (se envía/recibe H.264 y RTVideo)  <br/> |15   <br/> |
 
@@ -276,11 +276,11 @@ Skype Empresarial Server ofrece compatibilidad completa con QoS: esto significa 
 
 
 > [!NOTE]
-> Si usa Windows Server 2012 o Windows Server 2012 R2, es posible que le interese el nuevo conjunto de cmdlets Windows PowerShell disponibles para administrar QoS en esa plataforma. Para obtener más información, consulte [Network QoS Cmdlets in Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=285379).
+> Si usa Windows Server 2012 o Windows Server 2012 R2, es posible que le interese el nuevo conjunto de cmdlets Windows PowerShell disponibles para administrar QoS en esa plataforma. Para obtener más información, [vea Windows PowerShell Cmdlets for Networking](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717268(v=ws.11)).
 
 QoS también se describe en las notas del producto Sobre planeación [de red,](https://www.microsoft.com/download/details.aspx?id=39084) supervisión y solución de problemas con Lync Server con detalles y profundidad adicionales. Aunque el contenido hace referencia explícitamente a Lync 2010 y Lync 2013, las consideraciones para Skype Empresarial Server no cambian.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="man_QOS"> </a>
 
 [Planear IPv6 en Skype Empresarial](ipv6.md)

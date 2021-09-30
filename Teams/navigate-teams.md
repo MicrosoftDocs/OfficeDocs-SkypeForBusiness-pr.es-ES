@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 9b8b3c057ae5748f135d9085a5a3caf8b26e7f72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5e9c92d977cc7ca5d61a4cf35fd00288e6151a5
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617226"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014824"
 ---
 # <a name="navigate-microsoft-teams"></a>Navegar Microsoft Teams
 
@@ -42,7 +42,7 @@ La funcionalidad de Kaizala tarjetas de acción existentes actualmente en Micros
 
 Puede compartir actualizaciones e información importantes con sus empleados con [Anuncios en Teams](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992).
 
-Cree y envíe mensajes destinados a varios equipos o a un gran número de empleados a través del chat con la [aplicación comunicador de la](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) empresa. Su interfaz sencilla permite a los usuarios designados crear, obtener una vista previa, colaborar y enviar mensajes de forma dirigida. Cree capacidades de comunicación personalizadas dirigidas, como telemetría personalizada, sobre cuántos usuarios han reconocido o interactuado con un mensaje con información directamente vinculada a decisiones de administración.
+Cree y envíe mensajes destinados a varios equipos o a un gran número de empleados a través del chat con la [aplicación comunicador de la](/microsoftteams/platform/samples/app-templates#company-communicator) empresa. Su interfaz sencilla permite a los usuarios designados crear, obtener una vista previa, colaborar y enviar mensajes de forma dirigida. Cree capacidades de comunicación personalizadas dirigidas, como telemetría personalizada, sobre cuántos usuarios han reconocido o interactuado con un mensaje con información directamente vinculada a decisiones de administración.
 
 ### <a name="check-ins"></a>Check-ins
 

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Introducción al uso de Skype Empresarial de telemetría en línea para supervisar una implementación local en un escenario híbrido.
-ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2584453ca120c3dce9b4b0ce432e244cd15ec53b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726489"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013334"
 ---
 # <a name="plan-call-data-connector"></a>Plan del conector de datos de llamada
 
@@ -50,19 +50,19 @@ Las herramientas de análisis de llamadas y CQD le permiten supervisar la calida
 
 - El Panel de calidad de llamadas se centra en el rendimiento de la red y los problemas en toda una organización. Skype Empresarial administradores e ingenieros de red usan esta herramienta para solucionar problemas y optimizar el rendimiento de la red.
 
-Para obtener más información, vea Análisis de llamadas y Diagrama del panel de calidad de [llamadas con detalles del servidor de supervisión.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
+Para obtener más información, [vea Microsoft Teams: Supervisar y mejorar la calidad de la llamada](/monitor-call-quality-qos).
 
 Por supuesto, es posible que desee mantener algunos datos de calidad de llamadas localmente. Este puede ser el caso, por ejemplo, si usa una solución de terceros con informes y flujos de trabajo personalizados.  Call Data Connector le permite configurar el envío de datos al servicio en línea al mismo tiempo que guarda una copia de los datos en el servidor local, como se muestra en el siguiente diagrama:
 
 ![SfB Correo de voz en la nube.](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Los siguientes requisitos suponen que ya Skype Empresarial Server implementado en una topología compatible.  Para obtener más información sobre cómo implementar Skype Empresarial Server topologías compatibles, vea [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md). Para configurar Call Data Connector, debe:
 
 - Habilitar la conectividad híbrida. Si ya ha implementado Skype Empresarial Server y desea habilitar Call Data Connector, debe asegurarse de que tiene la conectividad híbrida configurada entre los entornos locales y los entornos en línea. A veces se denomina configuración de dominio dividido.
 
-   Para obtener más información, vea [Plan hybrid connectivity between Skype Empresarial Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) y Configure hybrid connectivity between Skype Empresarial Server and Microsoft 365 or [Office 365](configure-hybrid-connectivity.md).
+   Para obtener más información, vea [Plan hybrid connectivity between Skype Empresarial Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) y Configure hybrid connectivity between Skype Empresarial Server and Microsoft 365 [or Office 365](configure-hybrid-connectivity.md).
 
 - Autentique en su Microsoft 365 o Office 365 y asegúrese de que tiene los siguientes roles habilitados:
 
