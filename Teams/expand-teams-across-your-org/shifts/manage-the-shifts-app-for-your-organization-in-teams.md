@@ -1,7 +1,7 @@
 ---
 title: Administrar la aplicación Turnos para su organización
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7e58b7452ec3e89ded6f24da17490cf476885d72
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d7c1bdde4764b56e8c45a8ad9356437525f00b56
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727839"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045726"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -68,7 +68,7 @@ De forma predeterminada, Turnos está habilitado para todos los usuarios de Team
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Turnos para usuarios específicos de su organización
 
-Para permitir o bloquear usuarios específicos de su organización de usar Turnos, asegúrese de que Turnos está activado para su organización en la página Administrar [aplicaciones.](../../manage-apps.md) A continuación, cree una directiva de permisos de aplicación personalizada y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](../../teams-app-permission-policies.md).
+Para permitir o bloquear usuarios específicos de su organización de usar Turnos, asegúrese de que los turnos están activados para su organización en la página Administrar [aplicaciones.](../../manage-apps.md) A continuación, cree una directiva de permisos de aplicación personalizada y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](../../teams-app-permission-policies.md).
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Use la directiva de configuración de la aplicación FirstLineWorker para anclar Turnos a Teams
 
@@ -76,9 +76,9 @@ Las directivas de configuración de aplicaciones le permiten personalizar Teams 
  
 Teams incluye una directiva de configuración de la aplicación FirstLineWorker integrada que puede asignar a los trabajadores de primera línea de su organización. De forma predeterminada, la directiva incluye las aplicaciones Actividad, Turnos, Chat y Llamadas.
 
-Para ver la directiva de FirstLineWorker, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya Teams directivas de configuración de aplicaciones  >  **de la aplicación.**
+Para ver la directiva de FirstLineWorker, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a Teams **directivas** de configuración  >  **de aplicaciones.**
 
-![Captura de pantalla de la directiva de configuración de la aplicación FirstLineWorker.](../../media/firstline-worker-app-setup-policy.png "Captura de pantalla de la directiva de configuración de la aplicación FirstLineWorker en el centro Microsoft Teams administración")
+:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="Captura de pantalla de la directiva de configuración de la aplicación FirstLineWorker en el centro Microsoft Teams administración" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Asignar la directiva de configuración de la aplicación FirstLineWorker a los usuarios
 

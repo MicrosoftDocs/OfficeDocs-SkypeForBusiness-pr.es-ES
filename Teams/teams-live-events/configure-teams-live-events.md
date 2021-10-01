@@ -1,7 +1,7 @@
 ---
 title: Configurar eventos en directo en Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc4321adbbb8073b3ba290ab3236c543ae6bd320
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d1d1608bda574e504e6985ee55c8f06607f710a4
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733579"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046046"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
 
@@ -35,7 +35,7 @@ Use la configuración de eventos en directo de Teams para establecer la configur
 
 Puede administrar fácilmente estas opciones de configuración en el centro de administración de Microsoft Teams. En el panel de navegación izquierdo, vaya a **Reuniones** > **Configuración eventos en directo**.
 
-![Captura de pantalla de Teams configuración de eventos en directo.](../media/teams-live-events-settings.png "Captura de pantalla de las opciones de configuración de eventos en directo de Teams que puede configurar en el centro de administración de Microsoft Teams")
+![Captura de pantalla de Teams configuración de eventos en directo.](../media/teams-live-events-settings-new.png "Captura de pantalla de las opciones de configuración de eventos en directo de Teams que puede configurar en el centro de administración de Microsoft Teams")
 
 ## <a name="set-up-event-support-url"></a>Configurar la URL de soporte de eventos
 
@@ -55,23 +55,22 @@ Ejecute lo siguiente:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
+Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
 ## <a name="configure-a-third-party-video-distribution-provider"></a>Configurar un proveedor de distribución de vídeo de terceros 
 
 Si compró y configuró una solución de red definida por software (SDN) o una solución de red de entrega de contenido para empresas (eCDN) a través de un partner de entrega de vídeo de Microsoft, configure el proveedor para eventos en directo en Teams. 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra Microsoft Teams logotipo.](../media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra Microsoft Teams logotipo.](../media/teams-logo-30x30.png) Usando el Microsoft Teams de administración,
 
 1. En la navegación izquierda, vaya a **Reuniones** > **Configuración de eventos en directo**.
 2. En **Proveedores de distribución de vídeo de terceros**, siga este procedimiento: 
 
-    ![Configuración del proveedor de distribución de vídeo de terceros en el centro de administración.](../media/teams-live-events-settings-distribution-provider.png "Captura de pantalla de la configuración del proveedor de distribución de vídeo de terceros para eventos en directo")
+    ![Configuración del proveedor de distribución de vídeo de terceros en el centro de administración.](../media/teams-live-events-settings-distribution-provider-new.png "Captura de pantalla de la configuración del proveedor de distribución de vídeo de terceros para eventos en directo")
 
-    - **Usar un proveedor de distribución de terceros** active esta opción para habilitar el proveedor de distribución de vídeo de terceros.
+    - **Usar un proveedor de distribución de terceros** Active esta opción para habilitar el proveedor de distribución de vídeo de terceros.
     - **Nombre del proveedor de SDN** elija el proveedor que está usando.
-    - **Clave de licencia de proveedor** especifique el ID. de licencia que obtuvo del proveedor.
-    - **URL de la plantilla de API de SDN** especifique la dirección URL de la plantilla API que obtuvo del proveedor.
-
+    - **Configuración de SDN** Escriba los detalles de configuración de SDN.
+        
 ### <a name="using-windows-powershell"></a>Usar Windows PowerShell
 Obtenga el ID. de licencia, el token de API y la plantilla de API del proveedor y, después, ejecute uno de los siguientes procedimientos, en función del proveedor que use:
 
@@ -96,7 +95,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
 ```
 
-Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
+Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
 
 > [!NOTE]
 > Si tiene previsto crear eventos en directo con una aplicación o dispositivo externo, también tendrá que [configurar el proveedor de eCDN con Microsoft Stream](/stream/network-caching). 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Obtenga información sobre cómo configurar colas de llamadas para pequeñas empresas en Microsoft 365 Business Voice.
-ms.openlocfilehash: 3a67771127d5c359d798dd5de688d4f26b3cf39e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 527d0512ae7e58e2141fcc913ba633ea991cc6e5
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732133"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045746"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Crear una cola de llamadas: tutorial para pequeñas empresas
 
@@ -102,7 +102,7 @@ Cada cola de llamadas que cree requiere una cuenta de recursos. Esto es similar 
 
 Puede crear una cuenta de recursos en el centro Teams administración.
 
-1. En el Teams de administración, expanda **Configuración de** toda la organización y, a continuación, haga clic en Cuentas **de recursos.**
+1. En el Teams de administración, expanda **Voz** y, a continuación, haga clic **en Cuentas de recursos.**
 
 2. Haga clic en **Agregar**.
 

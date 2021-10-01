@@ -17,16 +17,16 @@ appliesto:
 ms.reviewer: lavenkat
 description: Use Microsoft Teams plantillas predefinidas integradas en Microsoft Graph crear equipos para pequeñas y medianas empresas de forma rápida y sencilla.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0855e7a61b52582b283a5c1f7c4c4f966045d743
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 324470ffc3366750777c75776e4ae4e783dbb17f
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991219"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045686"
 ---
 # <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Plantillas de equipo integradas en Microsoft Graph para pequeñas y medianas empresas
 
-Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y sencilla proporcionando una estructura de equipo predefinida de configuración, canales y aplicaciones preinstaladas.
+Las plantillas de equipo de Microsoft Teams le permiten crear equipos de forma rápida y sencilla al proporcionar una estructura predefinida de equipos de configuración, canales y aplicaciones preinstaladas.
 
 Para pequeñas y medianas empresas, las plantillas pueden ser especialmente eficaces, ya que le ayudan a implementar rápidamente Teams toda la organización. Las plantillas también ayudan a los usuarios a orientarse con la manera de usar de forma eficaz Teams. Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización.
 
@@ -181,6 +181,6 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Introducción a las Teams en la consola de administración](get-started-with-teams-templates-in-the-admin-console.md)
-- [Introducción a las plantillas de Teams](get-started-with-teams-templates.md)
+- [Introducción a las plantillas de equipo en el centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md)
+- [Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md)
 - [Crear equipo](/graph/api/team-post?view=graph-rest-beta) (en vista previa)

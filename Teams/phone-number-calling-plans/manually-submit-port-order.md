@@ -1,7 +1,7 @@
 ---
 title: Enviar una solicitud de portabilidad manualmente
-ms.author: v-cichur
-author: cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo enviar manualmente una solicitud de portabilidad.
-ms.openlocfilehash: 5313e7f19554c3c4a82514a247b1bb81b589b5a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a372ee26b9cb7b52b72c635c90a6e0435b7c729
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577944"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045876"
 ---
 # <a name="manually-submit-a-port-order"></a>Enviar una solicitud de portabilidad manualmente
 
 En algunos países y regiones, es posible que tenga que enviar manualmente una solicitud de servicio para obtener números de teléfono, transferir números de teléfono, liberar números de teléfono o cambiar direcciones. Para ver lo que se necesita para cada país y región o para obtener más información sobre la pornografía de números, vea Administrar números de teléfono [para su organización.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-Siga los pasos descritos en este artículo para enviar manualmente una solicitud de portabilidad si su país o región no aparece en el asistente de portabilidad en el centro de administración de [Microsoft Teams.](transfer-phone-numbers-to-teams.md)
+Siga los pasos de este artículo para enviar manualmente una solicitud de portabilidad si su país o región no aparece en el asistente [de portabilidad de Microsoft. ](transfer-phone-numbers-to-teams.md)
 
 ## <a name="manually-submit-a-new-port-order-request"></a>Enviar manualmente una nueva solicitud de portabilidad
 

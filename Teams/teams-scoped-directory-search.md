@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 844681b4941ef19db21d90e9e1bbc9ed7ee1dde9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f69a4d94743e443fd20f53f5eb35d26b6d69e3b3
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733079"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046236"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar la búsqueda de directorios enfocada de Microsoft Teams
 
@@ -58,7 +58,6 @@ Para obtener información sobre cómo usar directivas de libreta de direcciones,
 3. En **Buscar**, junto a Búsqueda de directorio de ámbito en Teams mediante una directiva de libreta de direcciones **(ABP)** de Exchange , active el **botón de alternancia .**
 
     ![Búsqueda de directorios con ámbito en Microsoft Teams de administración.](media/teams-scoped-directory-search-image1.png)
-
 
 > [!IMPORTANT]
 > Este cambio puede tardar unas horas en replicarse.

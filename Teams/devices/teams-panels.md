@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: En este artículo se proporciona información general sobre las características compatibles con Microsoft Teams paneles.
-ms.openlocfilehash: 217cd39499975668677c0ec452ce2dd299b464bf
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 872aeed96b12679c809194425a1c7823ac6e663a
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984591"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045618"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams paneles
 
@@ -125,7 +125,7 @@ Después de implementar paneles, debe probarlos. Compruebe que las [característ
 
 ## <a name="manage-teams-panels-in-your-organization"></a>Administrar Teams paneles de la organización
 
-Para administrar los dispositivos Teams paneles, en la navegación izquierda del centro de administración de Microsoft Teams, vaya Teams **Dispositivos** Teams  >  **paneles.** Desde aquí, puede cambiar el perfil de configuración del dispositivo, administrar actualizaciones, reiniciar dispositivos, agregar y quitar etiquetas de dispositivo y mucho más. Para obtener más información, vea [Administrar los dispositivos en Teams](device-management.md).
+Para administrar los dispositivos Teams paneles, en la navegación izquierda del centro de administración de Microsoft Teams, vaya a **Teams Paneles de**  >  **dispositivos**. Desde aquí, puede cambiar el perfil de configuración del dispositivo, administrar actualizaciones, reiniciar dispositivos, agregar y quitar etiquetas de dispositivo y mucho más. Para obtener más información, vea [Administrar los dispositivos en Teams](device-management.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

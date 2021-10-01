@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd80e9bf911287800443a29c4a21674d11014d58
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 056e2e8d626e8993577b945a38b560cc41a1e90b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727049"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045547"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Preparar el servicio para actualizar a Teams
 
@@ -66,7 +66,7 @@ Aunque le recomendamos que siga las listas de comprobación en orden, la secuenc
 Cuando está incorporando usuarios en cada sitio, le recomendamos encarecidamente que use el Playbook de habilitación del sitio para voz [(Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) como guía complementaria de estas listas de comprobación.
 
 >[!NOTE]
->La mayoría de las opciones de configuración son comunes entre Teams y Skype Empresarial online. Use el centro Microsoft Teams administración para configurar dichas opciones.
+> La mayoría de las opciones de configuración son comunes entre Teams y Skype Empresarial online. Use el centro Microsoft Teams administración para configurar dichas opciones.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Punto de decisión</td><td><ul><li>Quién será responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>

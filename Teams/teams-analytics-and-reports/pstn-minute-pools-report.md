@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Informe de grupos de minutos RTC
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Cómo usar el informe Teams grupos de minutos RTC en el centro de a
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6ea18ce789ab08a92849833f72d1bf291ebaec9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ef2e207352bf4ad7ee3d0f6c8fae674c4022e0b0
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730279"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045996"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams Informe de grupos de minutos RTC
 
@@ -30,7 +30,7 @@ El informe Teams grupos de minutos RTC en el Centro de administración de Micros
 
 ## <a name="view-the-pstn-minute-pools-report"></a>Ver el informe de grupos de minutos RTC
 
-En el panel de navegación izquierdo del centro Microsoft Teams administración, haga clic **en Análisis & informes de**  >  **uso.** En la pestaña **Ver informes,** **en** Informe, seleccione Grupos de minutos **RTC** y, a continuación, haga clic en **Ejecutar informe.**
+En el panel de navegación izquierdo del centro Microsoft Teams administración, haga clic **en Análisis & informes de**  >  **uso.** En la **pestaña Ver informes,** **en** Informe, seleccione Grupos de minutos RTC y **SMS (vista previa)** y, a continuación, haga clic **en Ejecutar informe.**
 
 ![Captura de pantalla del Teams de minutos RTC en el centro de administración.](../media/teams-reports-pstn-minute-pools-with-callouts.png "Captura de pantalla del Teams de minutos RTC en el centro de Microsoft Teams con llamadas numeradas")
 

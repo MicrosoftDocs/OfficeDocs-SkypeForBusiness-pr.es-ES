@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30d2ef7baf485e617ac5d703659a79d6f57e7f76
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 636cd41a6107f8fb43b42a6118b8ead9d2b754ef
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011784"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045576"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introducción a las plantillas de equipo en el centro de administración de Teams
 
@@ -128,7 +128,7 @@ Puede crear sus propias plantillas personalizadas desde cero, desde un equipo ex
 
 #### <a name="apply-team-template-policies"></a>Aplicar directivas de plantilla de equipo
 
-Para controlar las plantillas que los usuarios ven en Teams para crear equipos, puede establecer directivas de plantillas y asignarlas a usuarios y grupos de su organización. Para obtener más información, vea Administrar plantillas de equipo [en el Teams de administración.](templates-policies.md)
+Para controlar las plantillas que los usuarios ven en Teams para crear [equipos,](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)puede establecer directivas de plantillas y asignarlas a usuarios y grupos de su organización. Para obtener más información, vea Administrar plantillas de equipo [en el Teams de administración.](templates-policies.md)
 
 ### <a name="manage-team-templates-using-powershell"></a>Administrar plantillas de equipo con PowerShell
 
@@ -142,5 +142,5 @@ Use los cmdlets siguientes para administrar las plantillas en PowerShell.
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-- [Crear un equipo a partir de una plantilla](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
-- [Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md) 
+- [Crear un equipo a partir de una plantilla](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+- [Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md)

@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el Teams de uso de aplicacion
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fcf56c69824d1926a61b7fe09afc4e0d7cf474d9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f58634bea7a2846e35ddc4dbc8da0be13396e616
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730849"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046016"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams de uso de aplicaciones
 
@@ -48,8 +48,10 @@ El Teams de uso de aplicaciones en el centro de administración de Microsoft Tea
 |**4**   |Mantenga el puntero sobre el punto que representa el uso de aplicaciones en una fecha determinada para ver el número de instancias del total de usuarios activos de esa aplicación en esa fecha determinada.  |
 |**5**   |Se incluirán todas las aplicaciones, pero al elegir el icono Filtro, habrá filtros adicionales disponibles.  |
 |**6**   |La tabla proporciona un desglose de los usuarios y equipos activos por nombre de aplicación.<br><ul><li>**El nombre de** la aplicación es el nombre para mostrar de la aplicación que se usa en Teams.</li><li>**Usuarios activos** es el número de usuarios que abrieron la aplicación al menos una vez durante el período de tiempo especificado.</li><li>**El tipo de** aplicación es un valor estático de "Microsoft" o "Tercero".</li><li>**Equipos activos** es el número de equipos que han abierto la aplicación por al menos un miembro del equipo y durante los períodos de tiempo especificados.</li><li>**Publisher** es el editor de software de la aplicación.</li><li>**Versión** es la versión de software de la aplicación, del editor de aplicaciones.</li></ul><b> Nota:</b> Actualmente, "Usuarios activos" y "Equipos activos" se calculan para las aplicaciones que se usan solo en los canales.     
-
-<br>![Captura de pantalla de un informe de uso de aplicaciones.](media/app-usage-report4.png)  | | **7**  | Seleccione **Editar columnas** para agregar o quitar columnas en la tabla.<br><br>![Captura de pantalla de la página Editar columnas.](media/app-usage-report5.png)  | | **8**  | Puede exportar el informe a un archivo CSV para analizarlo sin conexión. Haga **clic en Exportar Excel** y, a continuación, en la pestaña Descargas, haga clic en Descargar para descargar el informe cuando esté listo.  <br>![Captura de pantalla de la página Descargas.](media/app-usage-report7.png)  | | **9** | Al ver el informe en Excel, también verá una columna **Id,** que representa el id. de la aplicación. Un id. de equipo suele ser una cadena alfanumérica. Si la **columna Id** se muestra como **\n****, esto significa que un usuario solicitó que se eliminara su información.<br>![Captura de pantalla del informe Excel descargado.](media/app-usage-report8.png)  |
+<br>![Captura de pantalla de un informe de uso de aplicaciones.](media/app-usage-report4.png)|
+|**7**  |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla.<br><br>![Captura de pantalla de la página Editar columnas.](media/app-usage-report5.png)  |
+|**8**  |Puede exportar el informe a un archivo CSV para analizarlo sin conexión. Haga **clic en Exportar Excel** y, a continuación, en la pestaña Descargas, haga clic en Descargar para descargar el informe cuando esté listo.  <br>![Captura de pantalla de la página Descargas.](media/app-usage-report7.png)  |
+|**9**   |Al ver el informe en Excel, también verá una columna **Id,** que representa el id. de la aplicación. Un id. de equipo suele ser una cadena alfanumérica. Si la **columna Id** se muestra como **\n****, esto significa que un usuario solicitó que se eliminara su información.<br>![Captura de pantalla del informe Excel descargado.](media/app-usage-report8.png)  |
 
 ## <a name="related-topics"></a>Temas relacionados
 

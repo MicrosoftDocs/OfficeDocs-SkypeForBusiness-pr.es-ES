@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 6c66556cdcd32bb99b29bd66291d47bad28d44fd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2fc412627bc211d3ec3290d2cb4c64698e0bca9b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608777"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045902"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -85,9 +85,9 @@ Para obtener más información, [vea Microsoft Teams de complementos](./teams-ad
     >[!IMPORTANT]
     >Si es un cliente de licencias por volumen, puede elegir su número de enterprise agreement para el pago. Si tiene varios números, podrá seleccionar qué enterprise agreement prefiere usar para dicho pago. También podrá especificar un número de pedido de compra que asociar al número del enterprise agreement (si procede).
     
-Cada organización tendrá un uso diferente del volumen y las tarifas del Plan de llamadas a tener en cuenta. You will need to get this type of usage data from your current service provider. Las organizaciones que ya usan Skype Empresarial Online como su proveedor de servicios pueden obtener datos de uso revisándose en el informe de detalles de uso rtc de informes del Centro de administración de  >    >   Microsoft Teams.
+Cada organización tendrá un uso diferente del volumen y las tarifas del Plan de llamadas a tener en cuenta. You will need to get this type of usage data from your current service provider. Las organizaciones que ya usan Skype Empresarial Online como su proveedor de servicios pueden obtener datos de uso revisándose en el informe de uso de informes de uso de informes de uso RTC y SMS  >    >    >  **(versión preliminar)** del Centro de administración de Microsoft Teams &.
   
-Cuando esté configurando créditos de comunicaciones, tendrá que investigar el uso de llamadas de su organización para determinar los importes que necesita. Puede obtener la información del uso de llamadas en el informe **Detalles de uso de RTC**. Este informe le permite exportar los registros de datos de llamada a Excel si necesita almacenar los datos o crear informes personalizados. Para obtener información sobre cómo ver el uso, lea [Informe de uso de RTC.](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+Cuando esté configurando créditos de comunicaciones, tendrá que investigar el uso de llamadas de su organización para determinar los importes que necesita. Puede obtener información de uso de llamadas revisando el informe de uso de RTC y **SMS (versión** preliminar). Este informe le permite exportar los registros de datos de llamada a Excel si necesita almacenar los datos o crear informes personalizados. Para obtener información sobre cómo ver el uso, lea [Informe de uso de RTC.](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Paso 3: Asignar una licencia de créditos de comunicaciones a los usuarios
 
@@ -103,7 +103,7 @@ Cuando esté configurando créditos de comunicaciones, tendrá que investigar el
     > Incluso si tiene usuarios a los que se les ha **asignado Enterprise licencia de E5,** se recomienda que lo haga.
 
     > [!TIP]
-    > Puede usar [Powershell para](/powershell/module/skype/?view=skype-ps) asignar licencias y aplicaciones a varios usuarios con un solo comando.
+    > Puede usar [Powershell para](/powershell/module/skype/?view=skype-ps&preserve-view=true) asignar licencias y aplicaciones a varios usuarios con un solo comando.
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>¿Desea obtener información acerca de los planes y los precios?
 

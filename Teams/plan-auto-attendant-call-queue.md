@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre operadores automáticos y colas de llamadas y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para llegar a personas o departamentos de su organización.
-ms.openlocfilehash: 1bd9f1d299123812c4a2621e48578730126fe619
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 04cebedc40e64531b272fb5420d19120e15329f1
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729579"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045736"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear Teams operadores automáticos y colas de llamadas
 
@@ -71,8 +71,11 @@ Para configurar operadores automáticos y colas de llamadas, necesita los siguie
 
 - Una cuenta de recursos para cada operador automático y cada cola de llamadas
 - Una Sistema telefónico: licencia de usuario virtual para cada cuenta de recursos
-- Al menos un número [de servicio de Microsoft,](getting-service-phone-numbers.md)un número de enrutamiento directo o un número híbrido para cada cuenta de recurso que desea que se pueda marcar directamente
+- Al menos un número de servicio de [Microsoft,](getting-service-phone-numbers.md)un número de operador Conectar, un número de enrutamiento directo o un número híbrido para cada cuenta de recurso que desea que se pueda marcar directamente
  - El número de servicio puede ser un número gratuito o de pago
+
+> [!NOTE]
+> Las cuentas de recursos están deshabilitadas para iniciar sesión y deben permanecer así. El chat y la presencia no son disponibles para estas cuentas.
 
 Los agentes que reciben llamadas de las colas de llamadas deben estar Telefonía IP empresarial habilitados para usuarios en línea o locales. Además, si las colas de llamadas usan números de enrutamiento directo, los agentes que necesitan realizar conferencias o transferir llamadas también requieren:
 
@@ -84,11 +87,14 @@ Si los agentes usan la aplicación Microsoft Teams para llamadas en cola de llam
 Al transferir llamadas a un número de teléfono externo, la cuenta de recursos que realiza la transferencia (es decir, la asociada con el operador automático o la cola de llamadas) debe tener una licencia de usuario virtual de Microsoft 365 Sistema telefónico y una de las siguientes asignadas:
 
 - Una [licencia del plan de](calling-plans-for-office-365.md) llamadas y un número de teléfono asignado
+- Un [operador Conectar](operator-connect-plan.md) número de teléfono asignado
 - Una [directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md) (la asignación de número de teléfono es opcional al usar enrutamiento directo)
 
 > [!NOTE]
-> Los números de servicio de enrutamiento directo para operadores automáticos y colas de llamadas solo son compatibles Microsoft Teams usuarios y agentes de llamadas.<br>
-> Las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directo no son compatibles.<br>
+> Los números de servicio de enrutamiento directo para operadores automáticos y colas de llamadas solo son compatibles Microsoft Teams usuarios y agentes de llamadas.
+> 
+> Las transferencias entre plan de llamadas, Conectar operadores y troncos de enrutamiento directo no son compatibles.
+> 
 > En un escenario híbrido, la cuenta de recursos debe crearse localmente. Para obtener más información, vea Planear colas [de llamadas en la nube.](/skypeforbusiness/hybrid/plan-call-queue)
 
 ## <a name="business-decisions"></a>Decisiones empresariales
@@ -116,7 +122,7 @@ Los agentes se pueden agregar a las colas de llamadas de las siguientes maneras:
 - Grupos de seguridad, incluidos los grupos de seguridad habilitados para correo
 - Microsoft 365 Grupos o Teams
 
-Puede usar una combinación de estas opciones para cada cola si es necesario. Los grupos que tienen una dirección de correo electrónico se pueden usar para el correo de voz. Usar Teams ofrece una serie de ventajas, como el almacenamiento de archivos compartidos y el chat entre agentes, un buzón común donde se pueden recibir correos de voz y una plataforma extensible que puede incluir integración con su línea de aplicaciones empresariales o Power Apps.
+Puede usar una combinación de estas opciones para cada cola si es necesario. Los grupos que tienen una dirección de correo electrónico se pueden usar para el correo de voz. Usar Teams ofrece una serie de ventajas, como el almacenamiento de archivos compartidos y el chat entre agentes, un buzón común donde se pueden recibir correos de voz y una plataforma extensible que puede incluir la integración con sus aplicaciones de línea de negocio o Power Apps.
 
 Se recomienda elegir una estrategia para agregar agentes de llamadas a las colas antes de iniciar la configuración.
 
@@ -125,7 +131,7 @@ Si tiene un operador automático y una infraestructura de cola de llamadas exist
 *El modo de* conferencia es una opción en las colas de llamadas que reduce significativamente la cantidad de tiempo que se tarda en conectarse Teams llamadas VOIP y llamadas RTC a un agente. Para que el modo de conferencia funcione, los agentes en la cola de llamadas deben usar uno de los siguientes clientes:
 
 - Última versión del cliente de escritorio de Microsoft Teams, la aplicación de Android o la aplicación de iOS
-  - Versión de teléfono 1449/1.0.94.2020051601 o posterior de Microsoft Teams
+- Microsoft Teams Teléfono versión 1449/1.0.94.2020051601 o posterior
   
 Establezca las cuentas de Teams agentes en Teams modo de solo lectura. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas.
 

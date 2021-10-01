@@ -1,7 +1,7 @@
 ---
 title: Configure los eventos en directo en Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ description: Configure eventos en directo en Teams, incluyendo configurar su red
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f33490fdccbb67a000278d1e9085b0305204c8f5
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 4d9e21872adb0fb0e34280d29fe928ea3ac056da
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432332"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046196"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configure los eventos en directo en Microsoft Teams
 
@@ -50,16 +50,16 @@ Las directivas de los eventos en directo se usan para controlar qué usuarios de
 
 <a name="bkcreatepolicy"> </a>
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a **Directivas de** eventos en directo  >  **de reuniones.**
+1. En el panel de navegación izquierdo del centro Microsoft Teams de administración, vaya a **La** pestaña Directivas de administración de eventos en directo de  >    >   Reuniones.
 2. Realice una de las siguientes opciones:
 
     - Si desea editar la directiva predeterminada actual, elija **Global (predeterminado para toda la organización)**.
-    - Si desea crear una nueva directiva personalizada, elija **Agregar**.
+    - Si desea crear una nueva directiva personalizada, elija **+Agregar**.
     - Si desea editar una directiva personalizada, selecciónela y, a continuación, elija **Editar**.
 
     Puede cambiar estas opciones de configuración para satisfacer las necesidades de su organización.
 
-    ![Captura de pantalla de la configuración de directiva de eventos en directo.](../media/teams-live-events-policies.png "Captura de pantalla de la configuración de la directiva de eventos en directo en el centro de administración de Microsoft Teams")
+    ![Captura de pantalla de la configuración de directiva de eventos en directo.](../media/teams-live-events-policies-new.png "Captura de pantalla de la configuración de la directiva de eventos en directo en el centro de administración de Microsoft Teams")
 
 |Setting  |Descripción  |
 |---------|---------|

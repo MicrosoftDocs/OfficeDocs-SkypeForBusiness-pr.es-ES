@@ -1,7 +1,7 @@
 ---
 title: Aprovisionamiento remoto e inicio de sesión para Teams dispositivos Android
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: prgholve
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo aprovisionar e iniciar sesión de forma remota Teams dispositivos Android
-ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984745"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046156"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Aprovisionamiento remoto e inicio de sesión para Teams dispositivos Android
 
@@ -68,9 +68,9 @@ En la **ventana Aprovisionar nuevos dispositivos,** puede agregar la dirección 
 
 ### <a name="manually-add-a-device-mac-address"></a>Agregar manualmente una dirección MAC del dispositivo
 
-1. En la **pestaña Activación en** espera, seleccione Agregar **id. de MAC.**
+1. En la **pestaña Esperando la activación,** seleccione **Agregar id. de MAC.**
 
-   ![agregar manualmente una dirección mac del dispositivo.](../media/remote-provision-6.png)
+   ![agregar manualmente una dirección mac del dispositivo.](../media/remote-provision-6-new.png)
 
 1. Escriba el id. de MAC.
 1. Escriba una ubicación que ayude a los técnicos a identificar dónde instalar los dispositivos.
@@ -78,7 +78,7 @@ En la **ventana Aprovisionar nuevos dispositivos,** puede agregar la dirección 
 
 ### <a name="upload-a-file-to-add-a-device-mac-address"></a>Upload un archivo para agregar una dirección MAC del dispositivo
 
-1. En la **pestaña Activación en** espera, seleccione Upload de **MAC.**
+1. En la **pestaña Esperando la** activación, seleccione Upload de **MAC.**
 2. Descargue la plantilla de archivo.
 3. Escriba el id. y la ubicación de MAC y, después, guarde el archivo.
 4. **Seleccione archivo** y, a continuación, **seleccione Upload**.
@@ -87,7 +87,7 @@ En la **ventana Aprovisionar nuevos dispositivos,** puede agregar la dirección 
 
 Necesita un código de verificación para los dispositivos. El código de verificación se genera en masa o en el nivel del dispositivo y es válido durante 24 horas.
 
-1. En la **pestaña Activación en** espera, seleccione un id. de MAC existente.
+1. En la **pestaña Esperando la activación,** seleccione un id. de MAC existente.
    Se crea una contraseña para la dirección MAC y se muestra en la **columna Código de** verificación.
 
 2. Proporcione la lista de los IDs MAC y los códigos de verificación a los técnicos de campo. Puede exportar los detalles directamente en un archivo y compartir el archivo con el técnico que está realizando el trabajo de instalación real.

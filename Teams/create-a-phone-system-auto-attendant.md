@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: 59d12bc7d7bde68be6c42aff4e415713d641679f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 29e746c9db2da970d4709da126297b6cc38b6c81
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729089"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046036"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -223,13 +223,13 @@ Vea [Administrar Teams cuentas de recursos para](manage-resource-accounts.md) ob
 
 Consulte Los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) para permitir que los operadores automáticos transfieran llamadas externamente.  Además:
 
-- Para una cuenta de recurso con una licencia de [Plan](calling-plans-for-office-365.md)de llamadas, el número de teléfono de transferencia externa debe especificarse en formato E.164 (+[código de país][código de área][número de teléfono]).
+- Para una cuenta de recurso con una licencia de [plan](calling-plans-for-office-365.md) de llamadas o un número de operador [Conectar,](operator-connect-plan.md) el número de teléfono de transferencia externa debe especificarse en formato E.164 (+[código de país][código de área][número de teléfono]).
 
 - Para una cuenta de recursos con una directiva de enrutamiento de voz Sistema telefónico licencia y enrutamiento directo en línea, el formato de número de teléfono de transferencia externa depende de la configuración del Controlador de borde de sesión [(SBC).](direct-routing-connect-the-sbc.md)
 
 El número de teléfono saliente que se muestra se determina de la siguiente manera:
 
-  - Para los números de plan de llamadas, se muestra el número de teléfono del autor de la llamada original.
+  - Para el plan de llamadas y el operador Conectar, se muestra el número de teléfono del autor de la llamada original.
   - Para los números de enrutamiento directo, el número enviado se basa en la configuración P-Asserted-Identity (PAI) en el SBC, como se muestra a continuación:
     - Si se establece en Deshabilitado, se muestra el número de teléfono del autor de la llamada original. Esta es la configuración predeterminada y recomendada.
     - Si se establece en Habilitado, se muestra el número de teléfono de la cuenta de recurso.

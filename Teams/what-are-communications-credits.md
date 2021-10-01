@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: cd52426a26a5dcefe3a5051a8c8e03e56a2991de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab0daa196de9768e277b292baf1de2b5d456fa78
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626992"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045856"
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
@@ -72,11 +72,11 @@ Puede configurar la facturación  del consumo con una financiación única del s
 En el **Centro de administración de Microsoft 365** de servicios de compra de facturación, puede seleccionar Créditos de comunicación para agregar los créditos y puede agregar crédito manualmente  >    >    >   en cualquier momento. Además, puede habilitar la opción de **recarga automática** para rellenar la cuenta de forma automática cuando el saldo sea inferior al límite fijado. Si decide financiar el saldo de créditos de comunicaciones con una cantidad de pago único y, después, el saldo cae a cero, los escenarios de llamadas adicionales anteriores ya no funcionarán, incluidos los números de teléfono gratuitos. Por lo tanto, se recomienda  usar la configuración recarga automática para evitar cualquier interrupción del servicio si el saldo de créditos de comunicaciones llega a 0 (cero). Puede ver el saldo de créditos de comunicación actual yendo a   >  **Facturación De créditos de**  >  **comunicaciones de sus productos.**
 
 > [!NOTE]
->Se le enviarán correos electrónicos a **todos los usuarios** con administrador de servicio de Lync, administrador de la compañía, Administrador de facturación, administrador de la compañía, administrador de cuenta de usuario, administrador de soporte técnico, administrador de soporte técnico, administrador de facturación, administrador de servicios de Lync, administrador de dispositivos, administrador de licencias, administrador de dispositivos en la nube, administrador de autenticación privilegiado, administrador de comunicaciones de Teams Teams, ingeniero de soporte técnico de comunicaciones de Teams, especialista en soporte de comunicaciones de Teams, roles de administrador de Teams, cuando las transacciones de recarga se ejecutan correctamente, las transacciones de recarga no se ejecutan (como una tarjeta de crédito expirada) y el saldo de créditos de comunicaciones alcanza 0 (cero).
+>Se le enviarán  correos electrónicos a todos los usuarios con administrador de servicios de Lync, administrador de la compañía, administrador de facturación, administrador de la compañía, administrador de cuenta de usuario, administrador del departamento de soporte técnico, administrador de soporte técnico, administrador de facturación, administrador de dispositivos de Lync, administrador de aplicaciones, administrador de licencias, administrador de dispositivos en la nube, administrador de autenticación, administrador de autenticación privilegiada, Teams Administrador de comunicaciones, ingeniero de soporte técnico de Teams Comunicaciones, especialista en soporte técnico de comunicaciones de Teams, roles de administrador de Teams, cuando las transacciones de recarga se realiza correctamente, las transacciones de recarga fallan (como una tarjeta de crédito expirada) y el saldo de créditos de comunicaciones alcanza 0 (cero).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
-Cada organización tendrá un uso diferente del volumen y las tarifas de planes de llamadas a tener en cuenta. You will need to get this type of usage data from your current service provider. Para las organizaciones que ya usan Teams como su proveedor de servicios, puede obtener datos de uso revisándose en el Centro de administración de Microsoft Teams > **Analytics &** informes de uso y, a continuación, seleccione Uso  >   **de** RTC.
+Cada organización tendrá un uso diferente del volumen y las tarifas de planes de llamadas a tener en cuenta. You will need to get this type of usage data from your current service provider. Para las organizaciones que ya usan Teams como su proveedor de servicios, puede obtener datos de uso revisándose en el Centro de administración de Microsoft Teams > **Analytics &** informes de uso y, a continuación, seleccione Uso de RTC y  >  SMS **(versión preliminar).**
   
 Cuando esté configurando créditos de comunicaciones, tendrá que investigar el uso de llamadas de su organización para determinar las cantidades que tendrá que poner. Puede obtener información de uso de llamadas revisando el informe de uso de RTC. Este informe le permite exportar los registros de datos de llamada Excel crear informes personalizados.
 

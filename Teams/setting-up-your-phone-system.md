@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Guía paso a paso que detalla cómo configurar Sistema telefónico (PBX en la nube) para su organización en Microsoft 365 o Office 365.
-ms.openlocfilehash: ac52110762b6aad0b1041c14c55a39804e68a8c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 51884f63485b1509dbf9ee72739bc0e85385e940
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589652"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046146"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar Sistema telefónico en su organización
 
@@ -52,6 +52,7 @@ Si los planes de llamadas no están disponibles para su país o región, conside
 [] Para poder configurar los usuarios de su organización para que puedan recibir y realizar llamadas telefónicas, debe usar el Centro de administración de Skype Empresarial para obtener los números de teléfono.
 
 Tiene tres formas de obtener números para los usuarios:
+
 - Obtenga nuevos números con el centro Teams administración.
 - Obtenga nuevos números que no están disponibles en el centro Teams administración.
 - Transfiera o transfiera los números existentes desde su proveedor de servicios o operador de telefonía actual a Microsoft 365 o Office 365.

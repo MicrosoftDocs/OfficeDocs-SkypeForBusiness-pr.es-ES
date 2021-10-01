@@ -1009,6 +1009,8 @@ items:
             href: how-many-phone-numbers-can-you-get.md
           - name: Buscar números de teléfono para los usuarios
             href: search-for-phone-numbers-for-users.md
+          - name: 'Asignar, cambiar o quitar un teléfono móvil de un usuario'
+            href: assign-change-or-remove-a-phone-number-for-a-user.md
           - name: Consultar una lista de números de teléfono de su organización
             href: see-a-list-of-phone-numbers-in-your-organization.md
           - name: Tipos de números de teléfono que se usan para el plan de llamadas
@@ -1017,8 +1019,6 @@ items:
                 href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
               - name: Obtener números de teléfono para los usuarios
                 href: getting-phone-numbers-for-your-users.md
-              - name: 'Asignar, cambiar o quitar un teléfono móvil de un usuario'
-                href: assign-change-or-remove-a-phone-number-for-a-user.md
               - name: Obtenga los números de teléfono de servicio y del usuario.
                 href: getting-service-phone-numbers.md
               - name: Transferir números de teléfono
