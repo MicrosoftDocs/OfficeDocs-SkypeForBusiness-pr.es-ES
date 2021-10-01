@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9273f8519fd7aeea90ff35f49ca0d6986afa2d59
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 19c6676bb742deacf97afae54f29b369d551b9ae
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991109"
+ms.locfileid: "60007770"
 ---
 # <a name="use-financial-team-templates"></a>Usar plantillas de equipo financiero
 
@@ -72,4 +72,4 @@ Centralice la colaboración para los empleados de las sucursales bancarias en gr
 ||||
 
 > [!NOTE]
-> Para obtener plantillas adicionales que se aplican a la organización de servicios financieros, vea [Plantillas de equipo integradas en Microsoft Graph para pequeñas y medianas empresas](smb-templates.md).
+> Para obtener plantillas de equipo adicionales que se aplican a la organización de servicios financieros, vea [Plantillas de equipo integradas en Microsoft Graph para pequeñas y medianas empresas](smb-templates.md).

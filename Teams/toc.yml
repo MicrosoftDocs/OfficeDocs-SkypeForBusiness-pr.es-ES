@@ -411,6 +411,8 @@ items:
                 href: set-up-call-analytics.md
               - name: Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas
                 href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+              - name: Usar la telemetría en tiempo real para solucionar problemas de mala calidad de reuniones
+                href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
           - name: Calidad de servicio (QoS)
             items:
               - name: Configurar la calidad del servicio en Teams
