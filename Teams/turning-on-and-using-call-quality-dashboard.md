@@ -23,16 +23,16 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo activar y usar el Panel de calidad de llamadas y obtener informes de resumen de la calidad de las llamadas.
-ms.openlocfilehash: 292fa240b9298bd60715d812ec95d8e53403c489
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5a220ac01965623417354df35a9052648652f607
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58750063"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60081625"
 ---
-# <a name="how-to-set-up-call-quality-dashboard"></a>Cómo configurar el panel de calidad de llamadas
+# <a name="set-up-call-quality-dashboard"></a>Configurar el panel de calidad de llamadas
 
-Abra el Panel de calidad de llamadas de Microsoft (CQD) en [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (inicie sesión con sus credenciales de administrador). O bien, vaya al centro Teams de administración y seleccione **Panel de calidad de llamadas.** 
+Abra el Panel de calidad de llamadas de Microsoft (CQD) en [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (inicie sesión con sus credenciales de administrador). O vaya al centro de Teams de administración y seleccione **Análisis & informes de** calidad de  >  **llamadas.**
 
 :::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Captura de pantalla del botón Panel de calidad de llamadas Teams centro de administración.":::
 
@@ -72,15 +72,11 @@ Para obtener más información sobre estos roles, vea Acerca [de Office 365 de a
 
 Después de la primera vez que inicie sesión, CQD empezará a recopilar y procesar datos.
 
-
-
-
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Usar Power BI para analizar datos CQD
 
 Nuevo en enero de 2020: [Descargar Power BI plantillas de consulta de CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Plantillas Power BI personalizables que puede usar para analizar e informar de los datos de CQD.
 
 Lea [Usar Power BI para analizar datos CQD](CQD-Power-BI-query-templates.md) para obtener más información.
-
 
 ## <a name="related-topics"></a>Temas relacionados
 
