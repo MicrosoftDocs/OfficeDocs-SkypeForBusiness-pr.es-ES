@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9d298ad18c6ed63c269c5f31b923a89e63a9f96
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 84f53b5c75c9e99e3a3bfc2877c096b32fe3b9c0
+ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620646"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "60082870"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportar contenido con las Microsoft Teams Exportar API
 
@@ -45,37 +45,55 @@ A continuación se muestran algunos ejemplos sobre cómo puede usar estas API de
 - **Datos adjuntos de mensajes:** Las API de exportación incluyen los vínculos a los datos adjuntos que se envían como parte de los mensajes. Con Exportar API puede recuperar los archivos adjuntos en los mensajes.
 - **Propiedades del mensaje de chat:** Consulte la lista completa de propiedades que Teams la compatibilidad de las API de exportación [aquí.](/graph/api/resources/chatmessage?view=graph-rest-beta#properties)
 
+>[!NOTE]
+>Las API de exportación no *admiten reacciones.*
+
 ## <a name="how-to-access-teams-export-apis"></a>Cómo obtener acceso a Teams Exportar API
 
 - **Ejemplo 1** es una consulta sencilla para recuperar todos los mensajes de un usuario o equipo sin filtros:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages
+    GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages
     ```
      ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages
+    GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages
     ```
 
 - **Ejemplo 2** es una consulta de ejemplo para recuperar todos los mensajes de un usuario o equipo especificando filtros de fecha y 50 mensajes principales:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
     ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
 >La API devuelve respuesta con el vínculo de página siguiente en caso de varios resultados. Para obtener el siguiente conjunto de resultados, simplemente llame a OBTENER en la dirección URL desde @odata.nextlink. Si @odata.nextlink no está presente o es nulo, se recuperarán todos los mensajes.
 
 ## <a name="prerequisites-to-access-teams-export-apis"></a>Requisitos previos para obtener Teams exportar API 
 
-- Teams Las API de exportación están actualmente en versión preliminar. Solo estará disponible para usuarios e inquilinos que tengan las [licencias necesarias](/graph/teams-licenses) para las API. En el futuro, Microsoft puede requerir que usted o sus clientes paguen tarifas adicionales en función de la cantidad de datos a los que se accede a través de la API.
 - Microsoft Teams Las API de Microsoft Graph acceso a datos confidenciales se consideran API protegidas. Las API de exportación requieren que tenga una validación adicional, más allá de los permisos y el consentimiento, antes de poder usarlas. Para solicitar acceso a estas API protegidas, complete el [formulario de solicitud.](https://aka.ms/teamsgraph/requestaccess)
 - Las aplicaciones que se ejecutan sin un usuario que ha iniciado sesión usan los permisos de aplicación; los permisos de la aplicación solo pueden ser consentidos por un administrador. Se necesitan los siguientes permisos:
 
     - *Chat.Read.All:* permite el acceso a todos los mensajes de chat de reunión, chat de grupo y 1:1 
     - *ChannelMessage.Read.All:* permite el acceso a todos los mensajes del canal  
     - *User.Read.All:* permite el acceso a la lista de usuarios de un espacio empresarial
+
+## <a name="license-requirements-for-teams-export-apis"></a>Requisitos de licencia Teams Exportar API
+
+La API de exportación admite escenarios de seguridad y cumplimiento (S+C) y de uso general a través de un parámetro de consulta de modelo. Los escenarios de S+C (modelo A) incluyen capacidad de seed y requieren una suscripción E5 y los escenarios de uso general (modelo B) están disponibles para todas las suscripciones y solo son de consumo. Para obtener más información sobre las tarifas de consumo y capacidad de seeded, vea Requisitos de licencia y pago para [Microsoft Graph Teams API.](/graph/teams-licenses)
+
+### <a name="scmodel-a-scenarios"></a>Escenarios de S+C/Model A
+
+Restringido a las aplicaciones que realizan funciones de seguridad y/o cumplimiento, los usuarios deben tener licencias E5 específicas para usar esta funcionalidad y recibir capacidad de semilla. La capacidad seeded es por usuario y se calcula por mes y se agrega en el nivel de inquilino. Para el uso más allá de la capacidad de la semilla, los propietarios de aplicaciones se facturan por consumo de API. El modelo A solo puede obtener acceso a los mensajes de los usuarios con una licencia E5 asignada.
+
+### <a name="general-usagemodel-b-scenarios"></a>Uso general/Escenarios del modelo B
+
+Disponible para todos los escenarios relacionados que no sean de S+C, no hay requisitos de licencia ni capacidad de semilla. Cuando los contadores de consumo estén disponibles, los propietarios de las aplicaciones se cobrarán por todas las llamadas mensuales de la API. 
+
+### <a name="evaluation-mode-default"></a>Modo de evaluación (predeterminado)
+
+Ninguna declaración de modelo permite el acceso a las API con uso limitado por cada aplicación solicitante con fines de evaluación. 
 
 ## <a name="json-representation"></a>Representación JSON
 

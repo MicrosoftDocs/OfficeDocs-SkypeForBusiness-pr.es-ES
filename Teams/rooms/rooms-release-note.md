@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la Salas de Microsoft Teams, que incluyen mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aed319f4621cb95b653294f4b27d2ff37ffafb72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f4f6c719a0be5e1d400eae37ba19be8e0dbd0214
+ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629242"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "60082880"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión de Salas de Microsoft Teams
 
@@ -29,6 +29,7 @@ En este artículo se deba a las mejoras acumulativas Salas de Microsoft Teams.
 
 |Versión |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
@@ -74,6 +75,25 @@ En este artículo se deba a las mejoras acumulativas Salas de Microsoft Teams.
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas de Microsoft Teams de características y resolución de problemas
+
+### <a name="410100-1012021"></a>4.10.10.0 (10/1/2021)
+
+Se ha introducido en esta actualización:
+- El control remoto de sala permite a los usuarios controlar la funcionalidad básica de la sala Teams en su dispositivo móvil *
+- Soporte de cámara de contenido de Logitech para el botón BLE para compartir en una reunión
+- Las burbujas de chat proporcionan notificaciones en el chat de reunión para llamar la atención sobre lo que se dice con el chat de reunión *
+- La galería grande y la compatibilidad con el modo Juntos ahora están disponibles en GCC High
+- Nuevas aptitudes agregadas a Cortana, Agregar persona por nombre a la reunión y Llamar por nombre 
+- Cortana Push to Talk está habilitado de forma predeterminada en todos los dispositivos. Para obtener más [información, vea Cortana de voz en Teams](../cortana-in-teams.md).
+
+> [!NOTE]
+> Compatibilidad con 19H1 en desuso. La versión mínima del sistema operativo compatible con la versión 4.10 es 19H2.
+
+> [!NOTE]
+> *Estas características se incluyen con Teams y funcionarán con todas las versiones de aplicaciones superiores a 4.9.
+
+> [!NOTE]
+> Para unirse a la reunión programada tanto desde la aplicación móvil de Teams como desde MTR-W, busque la cuenta de sala en la lista en la aplicación móvil de Teams y presione el menú "Controlar esta sala" y puede controlar los controles de llamada desde la aplicación.
 
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 

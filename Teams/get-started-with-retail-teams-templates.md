@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c2bda6467bf819bdf9cf82713c24e8e9cd18d9d
-ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
+ms.openlocfilehash: f3cf6d2e7eb23517477572775e7d18571463957b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60007800"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046346"
 ---
 # <a name="use-retail-team-templates"></a>Usar plantillas de equipo de venta minorista
 
@@ -38,12 +38,12 @@ La forma de administrar y trabajar con plantillas de equipo depende de si es adm
 
 |Si está: | A continuación, usted: |
 | ---- | --------- |
-| Un administrador o un profesional de TI |[Administrador de plantillas de equipo en el Centro de administración de Teams](#manage-team-templates-in-the-teams-admin-center). Vea las plantillas de equipo y aplique directivas de plantillas para controlar cuales puede usar su personal en Teams para crear equipos. |
+| Un administrador o un profesional de TI |[Administrar plantillas de equipo en el centro de administración de Teams](#manage-team-templates-in-the-teams-admin-center). Vea las plantillas de equipo y aplique directivas de plantillas para controlar qué plantillas puede usar el personal para crear equipos en Teams. |
 | Un desarrollador | [Use Microsoft Graph](#use-team-templates-with-microsoft-graph) para crear equipos a partir de plantillas de equipo. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Administrar plantillas de equipo en el Centro de administración de Teams
 
-Como un administrador, puede administrar plantillas de equipo en el Centro de administración de Microsoft Teams. Aquí puede ver los detalles acerca de cada plantilla. También puede [crear y asignar directivas de plantillas](templates-policies.md) al personal para controlar qué plantillas ven en Teams para [crear equipos](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c). 
+Como un administrador, puede administrar plantillas de equipo en el Centro de administración de Microsoft Teams. Aquí puede ver los detalles acerca de cada plantilla. También puede [crear y asignar directivas de plantillas](templates-policies.md) al personal para controlar qué plantillas ven en Teams para [crear equipos](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b).
 
 Para obtener más información sobre las plantillas de equipo en general, vea [Introducción a las plantillas de equipo en el Centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md).
 
@@ -72,7 +72,7 @@ La plantilla de colaboración de administrador es ideal para crear un equipo par
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Uso de plantillas de equipo con Microsoft Graph
 
-Los desarrolladores pueden usar Microsoft Graph para crear equipos a partir de plantillas de equipo predefinidas. Para obtener más información acerca el uso de plantillas de equipo con Microsoft Graph, vea [Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md), [información general de la API de Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0), y [tipo de recurso teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Los desarrolladores pueden usar Microsoft Graph para crear equipos a partir de plantillas de equipo predefinidas. Para obtener más información sobre el uso de plantillas de equipo con Microsoft Graph, vea [Introducción a las plantillas de equipo mediante Microsoft Graph](get-started-with-teams-templates.md), [información general de la API de Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) y [tipo de recurso teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 Estas son las plantillas de equipo de venta directa predefinidas.
 
@@ -133,6 +133,6 @@ Para usar estas plantillas, cambie la propiedad "template@odata.bind" en el cuer
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-- [Introducción a las plantillas de equipo en el Centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md)
-- [Cree un equipo a partir de una plantilla en la aplicación Teams](https://support.microsoft.com/en-us/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
+- [Introducción a las plantillas de equipo en el centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md)
+- [Crear un equipo a partir de una plantilla](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md)
