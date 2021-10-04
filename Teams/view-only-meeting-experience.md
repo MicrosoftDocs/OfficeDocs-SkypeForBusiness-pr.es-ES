@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b2af0ae753357497be6ea54b89534f2220b7cbf6
 ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/30/2021
 ms.locfileid: "58732299"
@@ -29,31 +29,31 @@ ms.locfileid: "58732299"
 > Las difusiones de solo vista están disponibles en Microsoft 365 E3/E5 y Microsoft 365 A3/A5. Esta característica se habilitará el 1 de marzo de 2021 como desactivada de forma predeterminada. La característica de Microsoft 365 Government Community Cloud (GCC) comenzará a implantarse a finales de marzo de 2021. Government Community Cloud High (GCCH) y el Departamento de Defensa (DoD) se implementarán en una fecha posterior. Debe cambiar la directiva predeterminada después de esa fecha si quiere que la característica esté ACTIVADA de forma predeterminada. Use PowerShell para habilitar la directiva `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
-> Si la reunión alcanza la capacidad, Teams escalará sin problemas para dar cabida a una experiencia de difusión solo para 10 000 personas. Además, en estos tiempos de aumento del trabajo remoto, le ofrecemos hasta finales de año la opción de difusiones de hasta 20 000 personas. Actualmente, los seminarios web no admiten una experiencia de difusión solo vista.
+> Si la reunión alcanza su capacidad máxima, Teams escalará sin problemas para dar cabida a una experiencia de difusión de solo vista de 10 000 personas. Además, en estos tiempos de aumento del trabajo remoto, le ofrecemos hasta finales de año la opción de difusiones de hasta 20 000 personas. Actualmente, los seminarios web no admiten una experiencia de difusión de solo vista.
 
-Microsoft Teams permite un máximo de 10 000 asistentes en una reunión de Teams. Una vez que se haya alcanzado la capacidad de la reunión principal (que es cuando 1000 usuarios entran en una reunión), los asistentes adicionales se unirán con una experiencia de solo vista.
+Microsoft Teams permite un máximo de 10 000 asistentes en una reunión de Teams. Una vez alcanzada la capacidad de la reunión principal (que es cuando 1 000 usuarios entran en una reunión), se unirán asistentes adicionales con una experiencia de solo vista.
 
-Los asistentes que se unan a la reunión en primer lugar, hasta la capacidad de la reunión principal, recibirán la experiencia Teams reunión. Podrán compartir audio y vídeo, ver vídeos compartidos y participar en el chat de la reunión.
+Los asistentes que se unan a la reunión antes de alcanzar su capacidad máxima, disfrutarán de la experiencia completa de la reunión de Teams. Podrán compartir audio y vídeo, ver vídeos compartidos y participar en el chat de la reunión.
 
 Los asistentes que se unan después de alcanzar la capacidad máxima de la reunión principal tendrán una experiencia de solo vista.
 
-Los asistentes podrán unirse a la experiencia de solo visualización a través de escritorio, web y Teams móvil (Android e iOS).
+Los asistentes podrán unirse a la experiencia de solo vista a través del escritorio, la Web y la versión móvil de Teams (Android e iOS).
 
 > [!Note]
-> La capacidad límite actual de la "reunión principal" o, en otras palabras, el número de usuarios totalmente interactivos es de 1000 e incluye GCC seminarios web.
+> La capacidad límite actual de la "reunión principal" (es decir, el número de usuarios totalmente interactivos) es de 1 000 e incluye GCC y seminarios web.
 
-## <a name="teams-view-only-experience-controls"></a>Teams de experiencia de solo vista
+## <a name="teams-view-only-experience-controls"></a>Controles de experiencia de solo vista de Teams
 
-Puede habilitar la experiencia de solo vista con el cmdlet desde el módulo [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) [de PowerShell de SkypeForBusiness](/powershell/module/skype/?view=skype-ps) o al menos la versión 2.0.0 del módulo [MicrosoftTeams.](https://www.powershellgallery.com/packages/MicrosoftTeams)
+Habilite la experiencia de solo vista mediante el cmdlet [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) del [módulo de PowerShell SkypeForBusiness](/powershell/module/skype/?view=skype-ps) o al menos la versión 2.0.0 del [módulo MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
-Para usar el módulo `MicrosoftTeams` recomendado:
+Para usar el módulo de `MicrosoftTeams` recomendado:
 
 ```PowerShell
 Install-Module -Name "MicrosoftTeams" -MinimumVersion 2.0.0
 Connect-MicrosoftTeams
 ```
 
-Para habilitar la experiencia de solo vista, puede usar el siguiente fragmento de PowerShell:
+Para habilitar la experiencia de solo vista, puede usar el siguiente fragmento de código de PowerShell:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
@@ -65,7 +65,7 @@ Para deshabilitar la experiencia de solo vista, también puede usar PowerShell.
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ```
 
-En el futuro, podrá habilitar o deshabilitar la experiencia de solo vista en el centro de administración Teams vista.
+En el futuro, podrá habilitar o deshabilitar la experiencia de solo vista en el Centro de administración de Teams.
 
 ## <a name="impact-to-users"></a>Impacto en los usuarios
 
@@ -73,31 +73,31 @@ La experiencia de un usuario puede variar en función de varios factores.
 
 Cuando se alcance la capacidad máxima de la reunión principal, un asistente no podrá unirse a la reunión si se cumple alguno de estos requisitos:
 
-- Un administrador ha deshabilitado la Teams solo vista para el organizador o para todo el espacio empresarial.
-- El asistente de solo vista no puede omitir la sala de espera. Como ejemplo, si un organizador de una  reunión elige que solo personas de mi organización omitan la sala de espera y un asistente que está fuera de la organización intenta unirse como asistente de solo vista, no podrá unirse.
+- Un administrador ha deshabilitado la experiencia de solo vista de Teams para el organizador o para todo el inquilino.
+- El asistente de solo vista no puede omitir la sala de espera. Por ejemplo, si un organizador de una reunión elige que solo **Personas de mi organización** omitan la sala de espera y un asistente que está fuera de la organización intenta unirse como asistente de solo vista, no podrá unirse.
 
-Cuando se haya alcanzado la capacidad de la reunión principal, el organizador de la reunión y los presentadores verán una pancarta en la que se les informará de que los nuevos asistentes se unirán como asistentes de solo visualización.
+Cuando se alcance la capacidad máxima de la reunión principal, se informará de ello al organizador de la reunión y a los presentadores con una pancarta en la que se les indicará que los nuevos asistentes se unirán como asistentes de solo vista.
 
-  ![el Teams cliente y banner para organizadores y presentadores.](media/chat-and-banner-message.png)
+  ![el cliente y el mensaje de banner de Teams para organizadores y presentadores.](media/chat-and-banner-message.png)
 
 Cuando se alcance la capacidad máxima de la reunión principal, se informará a los asistentes a la reunión en una pantalla previa de que se encuentran en modo de solo vista.
 
-  ![la Teams anterior a la unirse y el mensaje para los participantes que les indica que se unirán en modo de solo vista.](media/view-only-pre-join-screen.png)
+  ![la pantalla previa a unirse a la reunión de Teams y el mensaje para los participantes donde se les indica que se unen en modo de solo vista.](media/view-only-pre-join-screen.png)
 
-Siempre que haya espacio, un usuario podrá unirse a la reunión principal. Si la reunión principal alcanza su capacidad máxima y uno o más asistentes la dejan, esta tendrá de nuevo capacidad disponible. Los asistentes que se unan (o vuelvan a unirse) entonces a la reunión, podrán hacerlo hasta que llegue de nuevo a su capacidad máxima. Los asistentes que se encuentran en la experiencia de solo visualización no se promoverán automáticamente a la reunión principal y no se pueden promover manualmente a la reunión principal.
+Siempre que haya espacio, un usuario podrá unirse a la reunión principal. Si la reunión principal alcanza su capacidad máxima y uno o más asistentes la dejan, esta tendrá de nuevo capacidad disponible. Los asistentes que se unan (o vuelvan a unirse) entonces a la reunión, podrán hacerlo hasta que llegue de nuevo a su capacidad máxima. No se transferirá a los asistentes en modo solo vista a la reunión principal automáticamente y tampoco se les puede transferir manualmente.
 
-Si se han establecido roles de moderador y asistente y un moderador intenta unirse a una reunión después de que la reunión principal haya alcanzado la capacidad, se unirán como asistentes de solo vista y tendrán las mismas limitaciones que otros asistentes de solo vista. Soporte técnico para garantizar que todos los presentadores se unan a la reunión principal se llevará a cabo más adelante. El organizador siempre tendrá garantizado el espacio en la reunión principal.
+Si se han establecido roles de moderador y asistente y un moderador intenta unirse a una reunión después de que la reunión principal haya alcanzado su capacidad, se unirá como asistente de solo vista y tendrá las mismas limitaciones que otros asistentes de solo vista. El soporte para asegurarse de que todos los moderadores se unan a la reunión principal se implementará más adelante. El organizador siempre tendrá un espacio garantizado en la reunión principal.
 
-## <a name="impact-to-meeting-presenters-and-organizers"></a>Impacto para los presentadores y organizadores de la reunión
+## <a name="impact-to-meeting-presenters-and-organizers"></a>Impacto en los moderadores y organizadores de reuniones
 
-Entre las limitaciones para los organizadores y los organizadores de la reunión se incluyen:
+Las limitaciones para los moderadores y organizadores de reuniones incluyen:
 
 - No tendrá información sobre el asistente de solo vista. eDiscovery no es compatible para los asistentes de solo vista.
-- Los usuarios de la reunión principal no pueden ver a los asistentes de solo vista.
+- Los usuarios de la reunión principal no pueden ver los asistentes de solo vista.
 - No puede quitar a un asistente de solo vista de la reunión.
 
 > [!Note]
-> El recuento de asistentes solo reflejará las personas de la reunión principal y no las personas de la sala de solo vista. Por lo tanto, los presentadores no pueden obtener un recuento exacto de quién está en la experiencia de solo vista.
+> El número de asistentes solo contará a las personas presentes en la reunión principal y no a las que estén en la sala de solo vista. Por lo tanto, los presentadores no pueden obtener un recuento exacto de quién está en la experiencia de solo vista.
 
 ## <a name="experience-for-view-only-attendees"></a>Experiencia para asistentes de solo vista
 
@@ -105,30 +105,30 @@ La experiencia de solo vista de Teams permite a los asistentes:
 
 - Escuchar a los participantes de la reunión principal de Teams.
 - Consultar la fuente de vídeo del orador activo (si este comparte vídeo).
-- Vea el contenido que se comparte con la funcionalidad compartir escritorio o pantalla.
+- Ver el contenido que se comparte con la funcionalidad Compartir escritorio o pantalla.
 
 El asistente de solo vista no podrá experimentar las siguientes opciones en las reuniones:
 
 - Unirse a la reunión si el asistente no tiene permiso para omitir la sala de espera según las directivas u opciones de sala de espera establecidas.
 - Unirse a la sala de solo vista con Audioconferencia.
-- Únase a la sala de solo vista con Salas de Microsoft Teams o con los servicios de interoperabilidad de vídeo en la nube (CVI).
+- Unirse a la sala de solo vista con el sistema de Salas de Microsoft Teams o los servicios de Interoperabilidad de Vídeo en la Nube (CVI).
 - Compartir su audio o vídeo.
 - Ver el chat de reunión o participar en él.
 - Ver la fuente de vídeo de los participantes de la reunión a menos que el participante sea el orador activo.
-- Vea PowerPoint que se comparten con la funcionalidad PowerPoint Live o recursos compartidos de aplicaciones individuales (distintos del uso compartido de pantalla o escritorio).
-- Levante la mano en la reunión.
+- Ver los archivos de PowerPoint que se comparten con la funcionalidad de PowerPoint Live o los recursos compartidos de aplicaciones individuales (distintos del uso compartido de pantalla o escritorio).
+- Levantar la mano en la reunión.
 - Enviar o ver reacciones.
-- Interactúe con cualquier aplicación 3P que se integre en la Teams, incluidos sondeos.
+- Interactuar con cualquier aplicación 3P que se integre en la reunión de Teams, incluyendo Encuestas.
 
 ## <a name="view-only-feature-limitations"></a>Limitaciones de características de solo vista
 
-- Los asistentes de solo visualización solo podrán ver los subtítulos en directo en escritorio y web. Actualmente, solo se admiten subtítulos en inglés.
+- Los asistentes de solo vista solo podrán ver subtítulos en directo en el escritorio y en la Web. Actualmente, solo se admiten subtítulos en inglés.
 - Los asistentes de solo vista no pueden registrarse en seminarios web.
 - La tecnología de streaming respaldará a los asistentes de solo vista
 - Los asistentes de solo vista no se incluirán en el informe de asistencia.
 - Los asistentes de solo vista tendrán una sola experiencia en vídeo. O bien podrán ver al orador activo o podrán ver el contenido que se comparte, pero no ambos.
 - Actualmente, no se admite el modo **Galería**, **Galería grande** o **Modo conferencia** para los asistentes de solo vista.
-- Los asistentes de solo visualización solo son compatibles con las siguientes directivas de la sala de espera: "Solo usted", "Personas de mi organización e invitados", "Personas de mi organización y organizaciones de confianza, e invitados" y "Todos los usuarios". Si usa una directiva de sala de espera que no admite asistentes de solo vista, los asistentes de solo vista se rechazarán de la reunión. 
+- Los asistentes de solo vista solo son compatibles con las siguientes directivas de sala de espera: "Solo usted", "Personas de mi organización e invitados", "Personas de mi organización y organizaciones de confianza, e invitados" y "Todos". Si usa una directiva de sala de espera que no admite asistentes de solo vista, los asistentes de solo vista se rechazarán para la reunión. 
 - Los asistentes de solo vista no tendrán la misma latencia que los asistentes normales. <sup>1</sup>
 
   <sup>1</sup> Los asistentes de solo vista se reunirán con un retraso de audio y vídeo de 30 segundos en la reunión.  
