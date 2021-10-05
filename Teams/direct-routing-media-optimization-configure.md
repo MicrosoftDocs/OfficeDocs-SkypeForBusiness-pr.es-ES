@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurar la optimización de medios locales para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49ed6df64957eea2f68a35554d0569ec1e6efaa0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3e383a9d0435dde2c17a38d8a1879b3bf3fb6e4d
+ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730319"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60127407"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurar la optimización de medios locales para enrutamiento directo
 
@@ -36,7 +36,8 @@ Para configurar la optimización de medios locales, se necesitan los pasos sigui
 
 En el siguiente diagrama se muestra la configuración de red usada en los ejemplos de este artículo.
 
-![Diagrama que muestra la configuración de red para ejemplos.](media/direct-routing-media-op-9.png "Configuración de red para ejemplos")
+> [!div class="mx-imgBorder"]
+> ![Diagrama que muestra la configuración de red para ejemplos.](media/direct-routing-media-op-9.png "Configuración de red para ejemplos")
 
 
 ## <a name="configure-the-user-and-the-sbc-sites"></a>Configurar el usuario y los sitios de SBC
@@ -48,6 +49,14 @@ Para configurar el usuario y los sitios de SBC, deberá:
 2. [Defina la topología de red](#define-the-network-topology) configurando las regiones de red, los sitios de red y las subredes de red.
 
 3. [Defina la topología de red virtual](#define-the-virtual-network-topology) asignando SBC a sitios con modos relevantes y valores SBC proxy.
+
+> [!NOTE]
+> La lógica de optimización de medios locales se basa en que las direcciones de cliente se configuran como externas o internas, en relación con las redes corporativas con acceso a una interfaz interna del Controlador de borde de sesión (SBC) certificado para enrutamiento directo. La ubicación del cliente (interna/externa) se determina durante el procesamiento de cada llamada, observando la dirección que se usa para llegar a los relés de transporte.
+> 
+> En escenarios vpn de túnel dividido en los que los relés son accesibles a través del ISP, la lógica de mejor ruta del cliente prefiere la ruta predeterminada de la interfaz local (por ejemplo, WiFi público). Esto hace que Microsoft señale al SBC que el cliente es externo, aunque puede llegar a la interfaz interna del SBC de enrutamiento directo del cliente. Los clientes de enrutamiento directo que usan optimización de medios locales pueden experimentar tiempos de configuración de llamadas prolongados y, en algunos casos, no hay audio al recibir llamadas desde la RTC.
+> 
+> Para evitar esto, los administradores de VPN deben bloquear el acceso entre los usuarios de VPN remotos y la interfaz interna de SBC de enrutamiento directo.
+
 
 
 ## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>Configurar SBC para optimización de medios locales según la especificación de proveedor de SBC
@@ -84,13 +93,13 @@ Todos los parámetros distinguen entre mayúsculas y minúsculas, por lo que deb
 
 Para definir regiones de red, use el cmdlet New-CsTenantNetworkRegion red. El parámetro Id.región es un nombre lógico que representa la geografía de la región y no tiene dependencias ni restricciones. El parámetro CentralSite `<site ID>` es opcional.
 
-```
+```powershell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
 En el ejemplo siguiente se crea una región de red denominada APAC:
 
-```
+```powershell
 New-CsTenantNetworkRegion -NetworkRegionID "APAC"  
 ```
 
@@ -98,13 +107,13 @@ New-CsTenantNetworkRegion -NetworkRegionID "APAC"
 
 Para definir sitios de red, use el cmdlet New-CsTenantNetworkSite red. Cada sitio de red debe estar asociado a una región de red.
 
-```
+```powershell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
 En el ejemplo siguiente se crean tres nuevos sitios de red, Vietnam, Indonesia y Singapur en la región de APAC:
 
-```
+```powershell
 New-CsTenantNetworkSite -NetworkSiteID "Vietnam" -NetworkRegionID "APAC"
 New-CsTenantNetworkSite -NetworkSiteID "Indonesia" -NetworkRegionID "APAC"
 New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
@@ -114,13 +123,13 @@ New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
 
 Para definir subredes de red y asociarlas a sitios de red, use el cmdlet New-CsTenantNetworkSubnet red. Cada subred de red solo se puede asociar a un sitio. 
 
-```
+```powershell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
 En el ejemplo siguiente se definen tres subredes de red y se asocian a los tres sitios de red: Vietnam, Indonesia y Singapur:
 
-```
+```powershell
 New-CsTenantNetworkSubnet -SubnetID 192.168.1.0 -MaskBits 24 -NetworkSiteID “Vietnam”
 New-CsTenantNetworkSubnet -SubnetID 192.168.2.0 -MaskBits 24 -NetworkSiteID “Indonesia”
 New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “Singapore”
@@ -131,7 +140,7 @@ New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “S
 En primer lugar, el administrador de inquilinos crea una nueva configuración de SBC para cada SBC relevante mediante el cmdlet New-CsOnlinePSTNGateway espacio empresarial.
 El administrador de inquilinos define la topología de red virtual especificando los sitios de red para los objetos de puerta de enlace RTC con el cmdlet Set-CsOnlinePSTNGateway datos:
 
-```
+```powershell
 PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -MediaBypass <true/false> -BypassMode <Always/OnlyForLocalUsers> -ProxySBC  <proxy SBC FQDN or $null>
 ```
 
@@ -139,11 +148,11 @@ Tenga en cuenta lo siguiente:
    - Si el cliente tiene un único SBC, el parámetro -ProxySBC debe ser obligatorio $null o fqdn de SBC (escenario de SBC central con troncos centralizados).
    - El parámetro -MediaBypass debe establecerse en $true para admitir la optimización de medios locales.
    - Si el SBC no tiene el conjunto de parámetros -BypassMode, los encabezados X-MS no se enviarán. 
-   - Todos los parámetros distinguen entre mayúsculas y minúsculas, por lo que debe asegurarse de que usa el mismo caso que se usó durante la configuración.  (Por ejemplo, los valores GatewaySiteID "Vietnam" y "vietnam" se tratarán como sitios diferentes).
+   - Todos los parámetros distinguen entre mayúsculas y minúsculas, por lo que debe asegurarse de usar el mismo caso que se usó durante la configuración.  (Por ejemplo, los valores GatewaySiteID "Vietnam" y "vietnam" se tratarán como sitios diferentes).
 
 En el ejemplo siguiente se agregan tres SBC a los sitios de red Vietnam, Indonesia y Singapur en la región de APAC con el modo Omitir siempre:
 
-```
+```powershell
 Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “Singapore” -MediaBypass $true -BypassMode “Always” -ProxySBC $null
 
 Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Vietnam” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
@@ -151,7 +160,8 @@ Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Viet
 Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 ```
 
-Nota: Para garantizar las operaciones sin interrupciones cuando la optimización de medios locales y el enrutamiento Location-Based (LBR) están configurados al mismo tiempo, los SBC descendentes deben habilitarse para LBR estableciendo el parámetro GatewaySiteLbrEnabled en $true para cada SBC descendente. (Esta configuración no es obligatoria para el SBC proxy).
+> [!NOTE]
+> Para garantizar las operaciones ininterrumpidas cuando la optimización de medios locales y el enrutamiento Location-Based (LBR) están configurados al mismo tiempo, los SBC descendentes deben estar habilitados para LBR estableciendo el parámetro GatewaySiteLbrEnabled en $true para cada SBC descendente. (Esta configuración no es obligatoria para el SBC proxy).
 
 Según la información anterior, enrutamiento directo incluirá tres encabezados SIP propietarios a invitaciones SIP y re-invitaciones, como se muestra en la tabla siguiente.
 
@@ -207,7 +217,8 @@ En la tabla siguiente se muestra la configuración y la acción del usuario fina
 
 En el siguiente diagrama se muestra la escala SIP para una llamada saliente con el modo Desviado siempre y el usuario en la misma ubicación que el SBC.
 
-![Diagrama que muestra las llamadas salientes.](media/direct-routing-media-op-10.png "Llamadas salientes")
+> [!div class="mx-imgBorder"]
+> ![Diagrama que muestra las llamadas salientes.](media/direct-routing-media-op-10.png "Llamadas salientes")
 
 En la tabla siguiente se muestran los encabezados X-MS enviados por Enrutamiento directo:
 
@@ -233,7 +244,8 @@ Nota: Dado que un usuario puede tener varios puntos de conexión, no es posible 
 
 En el siguiente diagrama se muestra la escala SIP para las llamadas entrantes con el modo AlwaysBypass y el usuario se encuentra en la misma ubicación que el SBC.
 
-![Diagrama que muestra la escala SIP.](media/direct-routing-media-op-11.png)
+> [!div class="mx-imgBorder"]
+> ![Diagrama que muestra la escala SIP.](media/direct-routing-media-op-11.png)
 
 
 #### <a name="outbound-calls-and-the-user-is-external-with-always-bypass"></a>Llamadas salientes y el usuario es externo con Omitir siempre
@@ -245,7 +257,8 @@ AlwaysBypass |  Externo |  N/D | Saliente |
 
 En el siguiente diagrama se muestra la escala SIP para una llamada saliente con el modo AlwaysBypass y el usuario es externo:
 
-![Diagrama muestra la escala SIP.](media/direct-routing-media-op-12.png)
+> [!div class="mx-imgBorder"]
+> ![Diagrama muestra la escala SIP.](media/direct-routing-media-op-12.png)
 
 En la tabla siguiente se muestran los encabezados X-MS enviados por el servicio de enrutamiento directo:
 
@@ -265,7 +278,8 @@ Para una llamada entrante, el SBC conectado a Enrutamiento directo debe enviar u
 
 En el siguiente diagrama se muestra la escala SIP de una llamada entrante con el modo AlwaysBypass y el usuario es externo.
 
-![Diagrama que muestra de nuevo la escala SIP.](media/direct-routing-media-op-13.png)
+> [!div class="mx-imgBorder"]
+> ![Diagrama que muestra de nuevo la escala SIP.](media/direct-routing-media-op-13.png)
 
 
 ### <a name="only-for-local-users-mode"></a>Solo para el modo de usuarios locales
@@ -293,7 +307,8 @@ En la tabla siguiente se muestra la configuración y la acción del usuario fina
 
 En el siguiente diagrama se muestra una llamada saliente con el modo OnlyForLocalUsers y el usuario se encuentra en la misma ubicación que el SBC. Este es el mismo flujo que se muestra en las llamadas salientes cuando el [usuario se encuentra en la misma ubicación que el SBC.](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![Diagrama muestra de nuevo la escala SIP.](media/direct-routing-media-op-14.png)
+> [!div class="mx-imgBorder"]
+> ![Diagrama muestra de nuevo la escala SIP.](media/direct-routing-media-op-14.png)
 
 
 #### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>Las llamadas entrantes y el usuario se encuentra en la misma ubicación que el SBC con solo para usuarios locales
@@ -304,7 +319,8 @@ En el siguiente diagrama se muestra una llamada saliente con el modo OnlyForLoca
 
 En el siguiente diagrama se muestra una llamada entrante con el modo OnlyForLocalUsers y el usuario se encuentra en la misma ubicación que el SBC. Este es el mismo flujo que se muestra en Las llamadas entrantes cuando el [usuario se encuentra en la misma ubicación que el SBC.](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![Otro diagrama que muestra la escala SIP.](media/direct-routing-media-op-15.png)
+> [!div class="mx-imgBorder"]
+> ![Otro diagrama que muestra la escala SIP.](media/direct-routing-media-op-15.png)
 
 
 #### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>El usuario no está en la misma ubicación que el SBC, pero está en la red corporativa con Solo para usuarios locales
@@ -318,7 +334,8 @@ El enrutamiento directo calcula X-MediaPath en función de la ubicación notific
 
 En el siguiente diagrama se muestra una llamada saliente con el modo OnlyForLocalUsers y un usuario interno que no se encuentra en la misma ubicación que el SBC.
 
-![Otro diagrama muestra la escala SIP.](media/direct-routing-media-op-16.png)
+> [!div class="mx-imgBorder"]
+> ![Otro diagrama muestra la escala SIP.](media/direct-routing-media-op-16.png)
 
 
 #### <a name="inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users"></a>La llamada entrante y el usuario es interno, pero no se encuentra en la misma ubicación que el SBC con solo para usuarios locales
@@ -329,13 +346,6 @@ En el siguiente diagrama se muestra una llamada saliente con el modo OnlyForLoca
 
 En el siguiente diagrama se muestra una llamada entrante con el modo OnlyForLocalUsers y un usuario interno que no se encuentra en la misma ubicación que el SBC.
 
-![Sin embargo, otro diagrama que muestra la escala SIP.](media/direct-routing-media-op-17.png)
-
-
-
-
-
-
-
-
+> [!div class="mx-imgBorder"]
+> ![Sin embargo, otro diagrama que muestra la escala SIP.](media/direct-routing-media-op-17.png)
 

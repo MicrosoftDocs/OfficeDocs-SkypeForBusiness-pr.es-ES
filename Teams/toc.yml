@@ -111,8 +111,6 @@ items:
                 href: teams-for-vdi.md
               - name: Teams para el entorno de Escritorio remoto (CREATIVE)
                 href: teams-on-rdp.md
-              - name: Implementar Microsoft Teams para Surface Hub
-                href: teams-surface-hub.md
               - name: Actualizaciones del cliente de Teams
                 href: teams-client-update.md
               - name: Solución de problemas de instalación y actualización
@@ -645,6 +643,8 @@ items:
                 href: cloud-video-interop.md
               - name: Experiencia de reunión de solo vista
                 href: view-only-meeting-experience.md
+              - name: Stream de reuniones de Teams
+                href: stream-teams-meetings.md
           - name: Configurar el servicio de migración de reuniones (MMS)
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Configurar para los seminarios web en Microsoft Teams
@@ -1666,8 +1666,6 @@ items:
             href: alerts/device-health-status.md
           - name: Dispositivos y periféricos de Teams
             href: teams-device-health.md
-          - name: Funcionalidad de unidad administrativa para la administración de dispositivos
-            href: administrative-unit.md
       - name: PowerShell para Teams
         items:
           - name: Información general

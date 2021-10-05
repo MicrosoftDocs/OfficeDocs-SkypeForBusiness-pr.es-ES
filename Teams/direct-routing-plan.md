@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre Teléfono Microsoft system direct routing le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Teléfono Microsoft system.
-ms.openlocfilehash: a747879a0e95ab524e1a45cf12a366f0bd7e4fe4
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: a0fe8cc7604e34fabb4c68ecb00c9a7a448afea4
+ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942385"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60127397"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -196,6 +196,7 @@ El certificado debe ser generado por una de las siguientes autoridades de certif
 - USERTrust RSA Certification Authority
 - Hongkong Post Root CA 1,2,3
 - Sectigo Root CA
+- Harica  
 
 Para enrutamiento directo en Office 365 entornos GCCH y DoD, el certificado debe ser generado por una de las siguientes autoridades de certificación raíz:
 - DigiCert Global Root CA
