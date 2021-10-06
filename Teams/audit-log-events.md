@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el Centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c176369914a2908134d541d30b8908aecef43cd4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b6c3b90906fe5a65d0c4fab2fdc20aeb69099743
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015434"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138276"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -64,11 +64,12 @@ La duración del tiempo que un registro de auditoría se conserva y se puede bus
 
 Estas son sugerencias para buscar Teams actividades en el registro de auditoría.
 
-![Captura de pantalla de la página de búsqueda del registro de auditoría.](media/audit-log-search-page.png)
+![Captura de pantalla de la página registro de auditoría](media/audit-log-search-page.png)
+
 
 - Puede seleccionar actividades específicas para buscar haciendo clic en el nombre de la actividad. También puede buscar todas las actividades de un grupo (como Actividades de archivo y **carpetas)** haciendo clic en el nombre del grupo. Si se selecciona una actividad, puede hacer clic en ella para cancelar la selección. También puede usar el cuadro de búsqueda para mostrar las actividades que contienen la palabra clave que escribe.
 
-  ![Captura de pantalla de la búsqueda del registro de auditoría.](media/audit-log-search.png)
+  ![Captura de pantalla de la lista de actividades de búsqueda de registros de auditoría](media/audit-log-search.png)
 
 - Para mostrar los eventos de las actividades que se ejecutan con cmdlets, seleccione **Mostrar resultados para todas** las actividades de la **lista** Actividades. Si conoce el nombre de la operación para estas actividades, busque todas las actividades y, después, filtre los resultados escribiendo el nombre de la operación en el cuadro de la columna **Actividad.** Para obtener más información, vea [Paso 3: Filtrar los resultados de la búsqueda.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)
 

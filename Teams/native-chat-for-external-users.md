@@ -15,16 +15,16 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre la experiencia de Teams de chat nativa para usuarios de acceso externo (federado) en Microsoft Teams donde ambos usuarios están en el modo de actualización de TeamsOnly.
-ms.openlocfilehash: 3d94c55dc184d80edbc22be53f1df18c256423c5aa04b7e342b8964463db1aa7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 992b4dd28d17f1ba8abf7217d622da18813c3118
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350602"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138236"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Experiencia de chat nativa para usuarios externos (federados) en Microsoft Teams
 
-Cuando un Microsoft Teams está chateando con un usuario externo (federado), la experiencia de chat se limita al texto. Sin embargo, si tanto el usuario de Teams como la persona de otra organización están en el modo de actualización de TeamsOnly, puede tener una "experiencia de chat nativa de Teams", que incluye formato enriquecido, @mentions y otras características de chat. Los Teams chats nativos con personas de otras organizaciones solo están limitados a chats de 1:1.
+Cuando un Microsoft Teams está chateando con un usuario externo (federado), la experiencia de chat se limita al texto. Sin embargo, si tanto el usuario de Teams como la persona de otra organización están en el modo de actualización de TeamsOnly, puede tener una "experiencia de chat nativa de Teams", que incluye formato enriquecido, @mentions y otras características de chat.
 
 La experiencia de chat nativa para personas de otras organizaciones está activada para todos los Teams inquilinos, pero no todas las personas son aptas. Para ofrecer una experiencia de chat nativa, tanto el remitente como el receptor deben configurarse para el modo de actualización de TeamsOnly. Para obtener más información sobre las directivas de actualización, lea [Establecer la configuración de coexistencia y actualización.](setting-your-coexistence-and-upgrade-settings.md)
 

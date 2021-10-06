@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Use telemetría en tiempo real con detalles sobre dispositivos, redes y conectividad para solucionar problemas de usuario con Microsoft Teams reuniones programadas.
-ms.openlocfilehash: 2730cb41267e8d02572f72d4d9ed7f154e021d9d
-ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
+ms.openlocfilehash: 94b303687995ac3bcd765991dbfeb41c6f1459e7
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "60082960"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138366"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Usar telemetría en tiempo real para solucionar problemas de mala calidad de la reunión
 
@@ -65,6 +65,19 @@ Para obtener información adicional sobre los participantes de una reunión que 
 Para ver la telemetría de un usuario determinado para una reunión en curso, incluida la información sobre los detalles del dispositivo, la red, el audio, el vídeo y el uso compartido de contenido, seleccione el Id. de **reunión.**
 
 ![Captura de pantalla de los datos de sesión de usuario de análisis de llamadas.](media/real-time-telemetry.png)
+
+## <a name="measures-available-in-real-time-analytics"></a>Medidas disponibles en Real-Time Analytics
+
+|Nombre de la medida |Unidades |Umbral bueno |Descripción |
+|:---|:---|:---|:---|
+|Vibración |Milisegundos |Menos de 30 ms |Vibración es una medida de la variación en el retraso de paquetes para una transmisión de datos. Cuando esto es demasiado alto, el audio puede ser entrecortado. | 
+|Pérdida de paquetes |Porcentaje |Menos del 5 % |La pérdida de paquetes se produce cuando los paquetes de datos no llegan a su destino. El porcentaje de paquetes perdidos se basa en el número total de paquetes enviados. |
+|Hora de ida y vuelta |Milisegundos |Menos de 500 ms |El tiempo de ida y vuelta es el tiempo que tarda un único paquete en desplazarse desde el cliente hasta el punto de conexión remoto y volver al cliente. El tiempo alto de ida y vuelta puede causar retrasos en la reproducción en streaming. Un ejemplo de esto es cuando dos personas de una reunión hablan involuntarlamente entre sí debido al retraso. |
+|Velocidad de bits (audio) |Kilobits por segundo (Kbps) |Mayor que 24 Kbps |Rendimiento de la transmisión de audio expresada en kilobits por segundo. |
+|Velocidad de bits (vídeo & uso compartido de aplicaciones) |Megabits por segundo (Mbps) | Solo información |Rendimiento de la transmisión de vídeo expresada en megabits por segundo. |
+|Velocidad de fotogramas (vídeo) |Fotogramas por segundo |360p o mejor: 25-30 FPS <br/> 270p o inferior: 7-15 FPS |Para las transmisiones de vídeo salientes, la velocidad de fotogramas (FPS) es el número de fotogramas por segundo de vídeo que envía el cliente. Los valores inferiores a los esperados aquí pueden sugerir restricciones de recursos del sistema, ancho de banda de red insuficiente o mal comportamiento de los dispositivos de captura de vídeo. Las diferentes resoluciones tienen diferentes rangos de FPS aceptables. |
+|Velocidad de fotogramas (uso compartido de aplicaciones) |Fotogramas por segundo (FPS) |Solo información |Para el uso compartido de aplicaciones, la velocidad de fotogramas es consciente del contenido para asegurarse de que se envían tantos fotogramas como sea necesario para garantizar una buena experiencia y evitar el envío de fotogramas si no son necesarios. Por ejemplo, compartir un documento de texto en pantalla solo requiere 1 fotograma por segundo para producir una buena experiencia, mientras que compartir un vídeo o contenido con más actividad aumentará fotogramas por segundo a un máximo de 30 FPS para producir una experiencia más fluida. |
+
 
 ## <a name="client-platforms-supported-for-real-time-telemetry"></a>Plataformas cliente compatibles con telemetría en tiempo real
 
