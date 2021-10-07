@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae6b338f8e4ab80dc90d06acbf706c1c336c062d
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 1d9859b15b881d53a2f1b3c5b39442331e51be2e
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127387"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138226"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -47,14 +47,14 @@ En las tablas siguientes se enumeran los dispositivos certificados para Enrutami
 
 |                                                       Proveedor                                                        |       Producto       | Omisión de los que no son medios | Omisión de medios | Versión de software | Compatible con el proveedor de servicios 911* | Compatible con ELIN |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   SBC Mediant 500   |     &#10004;     |   &#10004;    |  Compatible con 7.40A.100 (recomendado 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   SBC Mediant 800   |     &#10004;     |   &#10004;     |  Compatible con 7.40A.100 (recomendado 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  SBC Mediant 2600   |     &#10004;     |   &#10004;    |  Compatible con 7.40A.100 (recomendado 7.40A.100)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  SBC Mediant 4000   |     &#10004;     |   &#10004;     |  Compatible con 7.40A.100 (recomendado 7.40A.100)   |  &#10004;   |  &#10004;  |
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   SBC Mediant 500   |     &#10004;     |   &#10004;    |  Compatible con 7.20A.258 (recomendado 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |   SBC Mediant 800   |     &#10004;     |   &#10004;     |  Compatible con 7.20A.258 (recomendado 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  SBC Mediant 2600   |     &#10004;     |   &#10004;    |  Compatible con 7.20A.258 (recomendado 7.40A.100)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  SBC Mediant 4000   |     &#10004;     |   &#10004;     |  Compatible con 7.20A.258 (recomendado 7.40A.100)   |  &#10004;   |  &#10004;  |
 |                                                                                                                     | SBC Mediant 1000B  |     &#10004;     |   &#10004;     |  Compatible con 7.20A.250 (recomendado 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | SBC Mediant 9000  |     &#10004;     |   &#10004;     |  Compatible con 7.40A.100 (recomendado 7.40A.100)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | SBC Virtual Edition |     &#10004;     |   &#10004;     |  Compatible con 7.40A.100 (recomendado 7.40A.100) |  &#10004;    |  &#10004;  |   
-|                                                                                                                     | SBC de Mediant Cloud Edition  |     &#10004;     |   &#10004;     |  Compatible con 7.40A.100 (recomendado 7.40A.100) |  &#10004;    |  &#10004;  |
+|                                                                                                                     | SBC Mediant 9000  |     &#10004;     |   &#10004;     |  Compatible con 7.20A.258 (recomendado 7.40A.100)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | SBC Virtual Edition |     &#10004;     |   &#10004;     |  Compatible con 7.20A.258 (recomendado 7.40A.100) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | SBC de Mediant Cloud Edition  |     &#10004;     |   &#10004;     |  Compatible con 7.20A.258 (recomendado 7.40A.100) |  &#10004;    |  &#10004;  |
 |  [Comunicaciones de cinta](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Compatible con 8.2 y 7.2 (recomendado 9.2)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Compatible con 8.2 y 7.2 (recomendado 9.2)       |   &#10004; |    |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Compatible con 8.2 y 7.2 (recomendado 9.2)       |   &#10004;  | |
@@ -112,13 +112,13 @@ En la tabla siguiente se describe qué proveedores de SBC admiten la [Optimizaci
 | Proveedor | Producto |    Versión de software |
 |:------------|:-------|:-------|
 | [AudioCodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    SBC Mediant 500 |   7.20A.256 | 
-|            |  SBC Mediant 800 |   7.40A.100 | 
-|            |  SBC Mediant 2600 |  7.40A.100 | 
-|            |  SBC Mediant 4000 |  7.40A.100 | 
+|            |  SBC Mediant 800 |   7.20A.258 | 
+|            |  SBC Mediant 2600 |  7.20A.258 | 
+|            |  SBC Mediant 4000 |  7.20A.258 | 
 |            |  SBC Mediant 1000B | 7.20A.256 | 
-|            |  SBC Mediant 9000 |  7.40A.100 | 
-|            |  SBC de Mediant Virtual Edition |   7.40A.100 | 
-|            |  SBC de Mediant Cloud Edition | 7.40A.100 |
+|            |  SBC Mediant 9000 |  7.20A.258 | 
+|            |  SBC de Mediant Virtual Edition |   7.20A.258 | 
+|            |  SBC de Mediant Cloud Edition | 7.20A.258 |
 | [Cinta de SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
 |            |  SBC 5210         | 8.2  |
 |            |  SBC 5400         | 8.2  |

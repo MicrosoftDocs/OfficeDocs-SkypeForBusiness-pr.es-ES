@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el Centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6c3b90906fe5a65d0c4fab2fdc20aeb69099743
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 5d19e29734f8e62b77a0a355c366c2bdc7a6bbde
+ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138276"
+ms.locfileid: "60148911"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -42,18 +42,20 @@ Para obtener una lista completa de Teams actividades [](#teams-activities) que s
 
 ## <a name="turn-on-auditing-in-teams"></a>Activar la auditoría en Microsoft Teams
 
-Antes de poder ver los datos de auditoría, primero debe activar la auditoría en el Centro de [& cumplimiento.](https://protection.office.com) Para obtener ayuda con la activación de la auditoría, lea Activar o desactivar la búsqueda del [registro de auditoría.](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
+Antes de poder ver los datos de auditoría, primero debe activar la auditoría en el Centro de cumplimiento de Microsoft 365. Para obtener más información, vea [Activar o desactivar la auditoría.](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 > [!IMPORTANT]
 > Los datos de auditoría solo están disponibles desde el punto en que ha activado la auditoría.
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>Recuperar datos de Microsoft Teams del registro de auditoría
 
-1. Para recuperar los registros de auditoría, vaya al [Centro de seguridad y cumplimiento](https://go.microsoft.com/fwlink/?linkid=855775). En **Buscar,** seleccione **Búsqueda de registro de auditoría.**
+1. Para recuperar registros de auditoría para Teams actividades, vaya a <https://compliance.microsoft.com> Auditoría y seleccione **Auditoría.**
 
-2. Use **Buscar** para filtrar por las actividades, las fechas y los usuarios que desee auditar.
+2. En la **página Buscar,** filtre las actividades, las fechas y los usuarios que desea auditar.
 
 3. Exporte los resultados a Excel para continuar el análisis.
+
+Para obtener instrucciones paso a paso, vea Buscar el registro de [auditoría en el centro de cumplimiento.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)
 
 > [!IMPORTANT]
 > Los datos de auditoría solo están visibles en el registro de auditoría si la auditoría está activada.
@@ -64,18 +66,17 @@ La duración del tiempo que un registro de auditoría se conserva y se puede bus
 
 Estas son sugerencias para buscar Teams actividades en el registro de auditoría.
 
-![Captura de pantalla de la página registro de auditoría](media/audit-log-search-page.png)
+![Captura de pantalla de la página de búsqueda del registro de auditoría en el centro de cumplimiento](media/audit-log-search-page.png)
 
+- Puede seleccionar actividades específicas para las que buscar haciendo clic en la casilla situada junto a una o más actividades. Si se selecciona una actividad, puede hacer clic en ella para cancelar la selección. También puede usar el cuadro de búsqueda para mostrar las actividades que contienen la palabra clave que escribe.
 
-- Puede seleccionar actividades específicas para buscar haciendo clic en el nombre de la actividad. También puede buscar todas las actividades de un grupo (como Actividades de archivo y **carpetas)** haciendo clic en el nombre del grupo. Si se selecciona una actividad, puede hacer clic en ella para cancelar la selección. También puede usar el cuadro de búsqueda para mostrar las actividades que contienen la palabra clave que escribe.
+  ![Captura de pantalla de la lista desplegable de actividades en la página de búsqueda del registro de auditoría](media/audit-log-search.png)
 
-  ![Captura de pantalla de la lista de actividades de búsqueda de registros de auditoría](media/audit-log-search.png)
+- Para mostrar los eventos de las actividades que se ejecutan con cmdlets, seleccione **Mostrar resultados para todas** las actividades de la **lista** Actividades. Si conoce el nombre de la operación para estas actividades, pónselo en el cuadro de búsqueda para mostrar la actividad y, después, selecciónelo.
 
-- Para mostrar los eventos de las actividades que se ejecutan con cmdlets, seleccione **Mostrar resultados para todas** las actividades de la **lista** Actividades. Si conoce el nombre de la operación para estas actividades, busque todas las actividades y, después, filtre los resultados escribiendo el nombre de la operación en el cuadro de la columna **Actividad.** Para obtener más información, vea [Paso 3: Filtrar los resultados de la búsqueda.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)
+- Para borrar los criterios de búsqueda actuales, haga **clic en Borrar todo.** El intervalo de fechas vuelve al valor predeterminado de los últimos siete días.
 
-- Para borrar los criterios de búsqueda actuales, haga clic en **Borrar**. El intervalo de fechas vuelve al valor predeterminado de los últimos siete días. También puede hacer clic en **Borrar todo para mostrar los resultados** de todas las actividades para cancelar todas las actividades seleccionadas.
-
-- Si se encuentran 5.000 resultados, es probable que suponga que hay más de 5 000 eventos que cumplen los criterios de búsqueda. Puede refinar los criterios de búsqueda y volver a ejecutar la búsqueda para devolver menos resultados, o puede exportar todos los resultados de búsqueda seleccionando Exportar  >  **Descargar todos los resultados.**
+- Si se encuentran 5.000 resultados, es probable que suponga que hay más de 5 000 eventos que cumplen los criterios de búsqueda. Puede refinar los criterios de búsqueda y volver a ejecutar la búsqueda para devolver menos resultados, o puede exportar todos los resultados de búsqueda seleccionando Exportar  >  **Descargar todos los resultados.** Para obtener instrucciones paso a paso para exportar registros de auditoría, vea Exportar los resultados de [búsqueda a un archivo.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file)
 
 Consulte este [vídeo para](https://www.youtube.com/embed/UBxaRySAxyE) usar la búsqueda de registros de audio. Únase a Ansuman Acharya, un administrador de programas para Teams, ya que muestra cómo realizar una búsqueda de registro de auditoría para Teams.
 

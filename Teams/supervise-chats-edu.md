@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre los chats supervisados en Microsoft Teams reuniones.
-ms.openlocfilehash: 439c62b4993b68ba0c17f83857ad74034fdcd0c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcf2a14b2c05f657a3342c6a0a193b841df4ce27
+ms.sourcegitcommit: 689387de6a07e3f50b3ea65b33bda6960cf30356
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629202"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60216018"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Chats supervisados en Microsoft Teams
 
@@ -68,7 +68,7 @@ Los roles no se pueden asignar a los invitados de su inquilino. A los invitados 
 
 ### <a name="allow-supervised-chat"></a>Permitir el chat supervisado
 
-El chat supervisado está deshabilitado de forma predeterminada para el inquilino. Después de establecer roles de permisos de chat para los usuarios, puede  habilitar el chat supervisado dentro de su inquilino yendo a Configuración de toda la organización Teams Configuración y estableciendo la directiva de permisos de chat basado en roles en &gt;  *Activar.*  También puede usar PowerShell para habilitar el chat supervisado estableciendo AllowRoleBasedChatPermissions en True. Este cmdlet se encuentra en CsTeamsClientConfiguration.
+El chat supervisado está deshabilitado de forma predeterminada para el inquilino. Después de establecer roles de permisos de chat para los usuarios, puede habilitar el chat supervisado dentro de su espacio empresarial yendo **Teams** Teams configuración y estableciendo la directiva de permisos de chat basado en roles en &gt;  *Activar.*  También puede usar PowerShell para habilitar el chat supervisado estableciendo AllowRoleBasedChatPermissions en True. Este cmdlet se encuentra en CsTeamsClientConfiguration.
 
 El chat supervisado debe estar habilitado para todos los usuarios del inquilino y no se puede habilitar solo para una parte de los usuarios.
 
