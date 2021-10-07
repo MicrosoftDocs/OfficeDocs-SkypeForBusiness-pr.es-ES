@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre Teléfono Microsoft system direct routing le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Teléfono Microsoft system.
-ms.openlocfilehash: a0fe8cc7604e34fabb4c68ecb00c9a7a448afea4
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: d2069b7811b570bfa711e6d6c641c1ca9340c7bc
+ms.sourcegitcommit: d67617d5042d25ed0bf36c66c3a0605c3d4d233e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127397"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60224843"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -323,11 +323,13 @@ El rango de puertos de los procesadores multimedia se muestra en la tabla siguie
 
 El tráfico multimedia fluye a través de componentes denominados procesadores multimedia. Los procesadores multimedia se colocan en los mismos centros de datos que los servidores proxy SIP:
 
-- EE. UU. (dos en centros de datos de EE. UU. Oeste y Este de EE. UU.)
-- Europa (centros de datos de Ámsterdam y Dublín)
+- NOAM (Centro sur de EE. UU., dos en centros de datos de EE. UU. oeste y este de EE. UU.)
+- Europa (centros de datos del Sur de Reino Unido, Francia Central, Ámsterdam y Dublín)
 - Asia (centro de datos de Singapur)
 - Japón (centros de datos de JP East y West)
 - Australia (centros de datos de Este y Sureste de AUSTRALIA)
+- LATAM (Brasil Sur)
+- África (Norte de Sudáfrica)
 
 ## <a name="media-traffic-codecs"></a>Tráfico multimedia: Códecs
 
