@@ -775,6 +775,8 @@ items:
             items:
               - name: Información general sobre la planeación de Salas de Microsoft Teams
                 href: rooms/rooms-plan.md
+              - name: Comparación de características de dispositivos de Teams entre Windows y Android
+                href: rooms/teams-devices-feature-comparison.md
               - name: Soporte de versión
                 href: rooms/rooms-lifecycle-support.md
               - name: Notas de la versión
