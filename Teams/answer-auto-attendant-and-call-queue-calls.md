@@ -1,8 +1,8 @@
 ---
 title: Responder llamadas de operador automático y cola de llamadas
 ms.reviewer: colongma
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c60f0f3bcf5fc683a15c5b22cc7b98aa384d477
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 83659cba18674e04daa0f9d181b9ac5acf53b146
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733369"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249492"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder al operador automático y llamar a la cola de llamadas directamente desde Teams
 
@@ -73,8 +73,9 @@ Cuando un agente de la cola de llamadas recibe una llamada en su dispositivo mó
 
 ## <a name="related-topics"></a>Temas relacionados
 
--    [¿Qué Sistema telefónico en Microsoft 365 o Office 365](what-is-phone-system-in-office-365.md)
--    [Crear una cola de llamadas en la nube](create-a-phone-system-call-queue.md)
--    [¿Qué son los operadores automáticos en la nube?](what-are-phone-system-auto-attendants.md)
--    [Configurar un operador automático en la nube](create-a-phone-system-auto-attendant.md)
+[Crear una cola de llamadas en la nube](create-a-phone-system-call-queue.md)
+
+[¿Qué son los operadores automáticos en la nube?](what-are-phone-system-auto-attendants.md)
+
+[Configurar un operador automático en la nube](create-a-phone-system-auto-attendant.md)
 

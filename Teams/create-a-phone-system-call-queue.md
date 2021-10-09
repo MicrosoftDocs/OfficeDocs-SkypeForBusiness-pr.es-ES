@@ -1,7 +1,7 @@
 ---
 title: Crear una cola de llamadas en Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 308eb31592b6b98d613ccfb4ed41f421d51bd9e2
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 2967c2ce5f6d058415e39e68f6870aacf575377c
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973008"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249522"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -95,7 +95,7 @@ Especifique si quiere reproducir un saludo a los autores de llamadas cuando lleg
 Los equipos proporcionan música predeterminada a los autores de llamadas mientras están en espera en una cola. La música predeterminada que se proporciona en las colas de llamadas de Teams no tiene que pagar ningún pago de la organización. Si desea reproducir un archivo de audio específico, elija **Reproducir un archivo de audio en** y cargar un archivo MP3, WAV o WMA.
 
 > [!NOTE]
-> Usted es responsable de borrar y proteger de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de música o audio con su Microsoft Teams servicio, que puede incluir propiedad intelectual y otros derechos en cualquier música, efectos de sonido, audio, marcas, nombres y otros contenidos del archivo de audio de todos los titulares de derechos pertinentes, que pueden incluir artistas, actores, intérpretes, músicos, compositores, etiquetas de grabación, editores de música, uniones, cofradías, asociaciones de derechos, organizaciones de administración colectiva y cualquier otra parte que tenga, controle o licencia los derechos de propiedad intelectual, efectos de sonido, audio y otros derechos de propiedad intelectual.
+> Usted es responsable de borrar y asegurar de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de audio o música con su servicio de Microsoft Teams, que puede incluir propiedad intelectual y otros derechos sobre cualquier música, efectos de sonido, audio, marcas, nombres y otro contenido en el archivo de audio de todos los titulares de derechos pertinentes, que pueden incluir artistas,  actores, intérpretes o ejecutantes, músicos, compositores, compositores, discográficas, editores de música, sindicatos, cofradías, asociaciones de derechos, organizaciones de administración colectiva y cualquier otra parte que posee, controla o licencia los derechos de propiedad intelectual, efectos de sonido, audio y otros derechos de propiedad intelectual.
 
 ## <a name="call-agents"></a>Llamar a agentes
 
@@ -105,9 +105,9 @@ Revise los [requisitos previos para agregar agentes a una cola de llamadas.](pla
 
 ##### <a name="teams-channel"></a>Teams canal
 
-Puede agregar hasta 200 agentes a través de un Teams.
+Puede agregar hasta 200 agentes a través de un Teams. Tenga en cuenta que debe ser miembro del equipo, creador o propietario del canal para agregar un canal a la cola.
 
-Si desea usar un [canal Teams](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)para administrar la  cola, seleccione la opción Elegir un equipo y haga clic **en Agregar un canal.** Busque el equipo que desea usar, selecciónelo y haga clic en **Agregar**. Seleccione el canal que desea usar (solo se admiten los canales estándar) y haga clic en **Aplicar.** Debe ser miembro del equipo, creador o propietario del canal.
+Si desea usar un [canal Teams](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)para administrar la  cola, seleccione la opción Elegir un equipo y haga clic **en Agregar un canal.** Busque el equipo que desea usar, selecciónelo y haga clic en **Agregar**. Seleccione el canal que desea usar (solo se admiten los canales estándar) y haga clic en **Aplicar.** 
 
 Los clientes siguientes son compatibles al usar un canal Teams para las colas de llamadas: 
 

@@ -1,7 +1,7 @@
 ---
 title: Configurar un operador automático para Microsoft Teams - tutorial de pequeña empresa
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: dobro
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para pequeñas empresas en Microsoft 365 Business Voice.
-ms.openlocfilehash: 04df17f84bccb18f9cd1184574b118e8c870a0e8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 176dc3c742ea60dbf5bf9b7bf0e6ce077957ace1
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630264"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249482"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurar un operador automático : tutorial de pequeña empresa
 

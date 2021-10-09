@@ -3,7 +3,7 @@ title: Operador Conectar
 author: cazawideh
 ms.author: czawideh
 manager: serdars
-ms.date: 04/12/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0351fe60d46f8bf96dd06df3c64048e390991410
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: bf1e158eb491f0b4b4f2df19c4aa7ebe46f08950
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046116"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249672"
 ---
 # <a name="plan-for-operator-connect"></a>Plan para operadores Conectar
 

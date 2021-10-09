@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams idiomas admitidos en la cola de llamadas
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams idiomas admitidos en la cola de llamadas
-ms.openlocfilehash: 775b8c01f2638ffb2e13c25edf265f9abdd65989
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54d9a49dc3671a2b7148ba964c20dcb50def0622
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634864"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249552"
 ---
 # <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams idiomas admitidos en la cola de llamadas
 

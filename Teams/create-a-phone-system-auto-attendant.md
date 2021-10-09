@@ -1,7 +1,7 @@
 ---
 title: Configurar un operador automático para Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: 29e746c9db2da970d4709da126297b6cc38b6c81
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 50c024854481a30f4a612db6320f51818b6d3b0d
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046036"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249532"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -260,7 +260,7 @@ También puede usar PowerShell para crear y configurar operadores automáticos. 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Esto es lo obtiene con el Sistema telefónico](./here-s-what-you-get-with-phone-system.md)
+[Esto es lo que obtienes con Teams Teléfono](./here-s-what-you-get-with-phone-system.md)
 
 [Obtener números de teléfono de servicio](./getting-service-phone-numbers.md)
 

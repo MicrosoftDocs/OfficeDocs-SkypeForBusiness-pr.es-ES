@@ -19,16 +19,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: Obtenga información sobre la experiencia de unirse Teams visitas virtuales en exploradores móviles.
-ms.openlocfilehash: 6183fccce1c455ac46f4eb7c166530535d5dbbe8
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432692"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249762"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Administrar la experiencia de combinación para Teams visitas virtuales en exploradores móviles
 
-Microsoft Teams facilita que los usuarios se unan a citas en sus dispositivos móviles sin tener que descargar Teams. Para disfrutar de una experiencia más fluida, los asistentes pueden unirse a citas como visitas sanitarias, consultas financieras, horas de oficina de educadores, etc. desde un explorador móvil. Los asistentes no necesitan instalar la aplicación Teams móvil en sus dispositivos móviles Android o iOS.
+Microsoft Teams facilita que los usuarios se unan a citas en sus dispositivos móviles sin tener que descargar Teams. Para disfrutar de una experiencia más fluida, los asistentes pueden unirse a citas como visitas sanitarias, consultas financieras, horas de oficina de educadores, etc., desde un explorador móvil. Los asistentes no necesitan instalar la aplicación Teams móvil en sus dispositivos móviles Android o iOS.
 
 Con unirse al explorador móvil, cuando un asistente se une a una cita desde un dispositivo móvil, no se le pedirá que descargue Teams. En su lugar, Teams en un explorador móvil, donde el asistente puede seleccionar **Unirse ahora** para unirse. Con esta característica, tenga en cuenta que si Teams ya está instalado en el dispositivo móvil de un asistente, Teams se abrirá en un explorador móvil y no en la aplicación.
 
@@ -76,6 +76,10 @@ Estos son los exploradores móviles compatibles actualmente. Se admite la últim
 &sup1; Las aplicaciones de iOS en Safari no pueden seleccionar dispositivos de micrófono y altavoz. Por ejemplo, Bluetooth dispositivos. Esta es una limitación del sistema operativo, que controla la selección predeterminada del dispositivo.
 
 &sup2; Safari 14+ y macOS 11+ son necesarios para el soporte de vídeo saliente.
+
+## <a name="things-to-consider"></a>Cosas a tener en cuenta
+
+El miembro del personal que realiza la visita virtual puede compartir su pantalla desde su cliente Teams de escritorio, móvil o web con un asistente que se une desde un explorador móvil. Sin embargo, los asistentes no pueden compartir su pantalla desde un explorador móvil.
 
 > [!NOTE]
 > Estamos agregando más funcionalidades a la experiencia de unirse a la reunión en futuras versiones de Teams, así que vuelva a consultar la información más actualizada. Para mantenerse al tanto de las próximas Teams, consulte el [mapa de ruta Microsoft 365 ruta.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)

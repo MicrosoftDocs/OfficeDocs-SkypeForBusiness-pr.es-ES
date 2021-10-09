@@ -1,7 +1,7 @@
 ---
 title: Operador automático y referencia de marcación de cola de llamadas y reconocimiento de voz
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre las opciones De marcado y reconocimiento de voz del operador automático y la cola de llamadas en Teams.
-ms.openlocfilehash: 8201389c39dc58f80596a6055c927ecfbbf86e38
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: acd3202a3f27beaf40af09422687be490f0695c5
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605789"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249692"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Operador automático y referencia de marcación de cola de llamadas y reconocimiento de voz
 
@@ -124,8 +124,6 @@ Los siguientes comandos de voz están disponibles para el reconocimiento de voz:
 |Nueve  |Presione 9.|
 
 ## <a name="related-topics"></a>Temas relacionados
-
-[Esto es lo obtiene con el Sistema telefónico](here-s-what-you-get-with-phone-system.md)
 
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](./getting-service-phone-numbers.md)
 
