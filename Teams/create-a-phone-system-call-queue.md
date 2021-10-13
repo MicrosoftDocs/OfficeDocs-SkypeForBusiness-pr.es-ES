@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 2967c2ce5f6d058415e39e68f6870aacf575377c
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 073f1fa2fbc96ed78cddb6e16201476df2cafa96
+ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249522"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275614"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -155,13 +155,15 @@ Las cuentas de Teams de los agentes deben establecerse en modo solo Teams. Los a
 
 - **Distribución equilibrada** equilibra el enrutamiento de llamadas entrantes para que cada agente de llamadas reciba el mismo número de llamadas de la cola. Esto puede ser deseable en un entorno de ventas de entrada para asegurar la misma oportunidad entre todos los agentes de llamada.
 
-- **Inactividad mayor** dirige cada llamada al agente que ha estado inactivo por más tiempo. Un agente se considera inactivo si su estado de presencia está disponible o si su estado de presencia ha estado inactivo durante menos de 10 minutos. Los agentes cuyo estado de presencia ha estado inactivo durante más de 10 minutos no se consideran inactivos y no podrán recibir llamadas hasta que cambien su presencia a Disponible. 
+- **Inactividad mayor** dirige cada llamada al agente que ha estado inactivo por más tiempo. Un agente se considera inactivo si su estado de presencia es Disponible. Los agentes cuyo estado de presencia no esté disponible no podrán recibir llamadas hasta que cambien su presencia a Disponible. 
 
 > [!TIP]
 > Establecer **El método de enrutamiento** en **Redondear** o Más **tiempo** inactivo es la configuración recomendada.
 
 > [!NOTE]
 > Si [la grabación de cumplimiento](teams-recording-policy.md) está habilitada en los agentes, no se admite la combinación del modo **de** conferencia y **el** enrutamiento del operador. Si necesita usar el modo **conferencia,** seleccione Enrutamiento **en serie,** Cíclico **redondo** o **Inactivo más** largo como método **de enrutamiento.** Si necesita usar el enrutamiento **del operador,** establezca **el modo de conferencia** en **Desactivado.**
+> 
+> Al usar **el** modo inactivo más largo, es posible que haya ocasiones en las que un agente reciba una llamada de la cola poco después de que no esté disponible o si hay un breve retraso en recibir una llamada de la cola después de estar disponible.
 
 ![Captura de pantalla del enrutamiento, la opción de no participar y la configuración de la hora de alerta.](media/call-queue-presence-agents-time.png)
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47ed8fc4f8ca36a1d987456ff393a1b771c6fb10
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 6c19981f4cc7edb556b245da2aac0b320705cc64
+ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249682"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275574"
 ---
 # <a name="configure-operator-connect"></a>Configurar operador Conectar
 
@@ -108,7 +108,7 @@ Para obtener más información sobre las llamadas de emergencia, vea Administrar
    Para quitar el URI de línea predefinida, ejecute el siguiente comando de PowerShell:  
 
    ```
-   Set-CsUser -identity <user> - OnPremLineURI $null 
+   Set-CsUser -Identity <user> -OnPremLineURI $null 
    ```
 
 2. Quite cualquier RTC asociado a los usuarios, de lo contrario, las llamadas se enrutarán a la puerta de enlace especificada en el uso de RTC. Para obtener información sobre cómo quitar el uso de RTC, vea [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps).

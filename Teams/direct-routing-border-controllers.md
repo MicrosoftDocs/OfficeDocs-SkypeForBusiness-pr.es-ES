@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d9859b15b881d53a2f1b3c5b39442331e51be2e
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: e5aeecf93146a628c897e22868dc6b4f6ed7b795
+ms.sourcegitcommit: 428eda4236bd063f44e2571563dd96bd6ed1749a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138226"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60268284"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -38,10 +38,14 @@ Microsoft trabaja con cada proveedor para:
 
   > [!NOTE]
   > Microsoft solo admite el Sistema telefónico si hay uno o varios dispositivos certificados conectados a través del Enrutamiento directo. Microsoft se reserva el derecho a rechazar casos de soporte técnico de dispositivos no certificados conectados al Sistema telefónico a través del Enrutamiento directo. Si Microsoft determina que el problema de Enrutamiento directo de un cliente está relacionado con el dispositivo CLS de un proveedor, el cliente deberá ponerse en contacto con el proveedor deL CLS para obtener soporte técnico.
+  > La certificación se concede a versiones de firmware SBC específicas. Cualquier versión de firmware SBC documentada a continuación está certificada y admitida. Se admiten versiones de firmware superiores a las documentadas siempre que la versión principal.secundaria sea la misma.
+  > Ejemplo: Compatible con 6.10.258; en este caso, también se admiten las versiones de firmware 6.10.(258 o superior) Recomendado 6.20.100; en este caso, también se recomiendan las versiones de firmware 6.20.(100 o superior). Si tiene preguntas de soporte técnico sobre una versión específica, póngase en contacto con su proveedor de CLS.
 
 En las tablas siguientes se enumeran los dispositivos certificados para Enrutamiento directo. (Para obtener información sobre qué proveedores de CLS admiten la optimización de medios locales, vea [Configurar la optimización de medios locales para el enrutamiento directo](direct-routing-media-optimization-configure.md)).
 
-[Más información sobre el Enrutamiento directo](https://aka.ms/dr). Si tiene alguna pregunta sobre el programa de certificación de CLS para Enrutamiento directo, escriba un correo electrónico a drsbccertification@microsoft.com<br/>
+[Obtenga más información sobre el Enrutamiento directo](https://aka.ms/dr).
+Si tiene alguna pregunta sobre el programa de certificación de CLS para Enrutamiento directo, escriba un correo electrónico a drsbccertification@microsoft.com Tenga en cuenta que no aceptamos nuevas nominaciones para la certificación hasta nuevo aviso.
+<br/>
 
 ## <a name="certified-sbc-vendors"></a>Proveedores de CLS certificados
 
