@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e5aeecf93146a628c897e22868dc6b4f6ed7b795
-ms.sourcegitcommit: 428eda4236bd063f44e2571563dd96bd6ed1749a
+ms.openlocfilehash: a5dd419bab9fbe885d3d361d2fdb19758bd392e3
+ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60268284"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275584"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -38,8 +38,14 @@ Microsoft trabaja con cada proveedor para:
 
   > [!NOTE]
   > Microsoft solo admite el Sistema telefónico si hay uno o varios dispositivos certificados conectados a través del Enrutamiento directo. Microsoft se reserva el derecho a rechazar casos de soporte técnico de dispositivos no certificados conectados al Sistema telefónico a través del Enrutamiento directo. Si Microsoft determina que el problema de Enrutamiento directo de un cliente está relacionado con el dispositivo CLS de un proveedor, el cliente deberá ponerse en contacto con el proveedor deL CLS para obtener soporte técnico.
-  > La certificación se concede a versiones de firmware SBC específicas. Cualquier versión de firmware SBC documentada a continuación está certificada y admitida. Se admiten versiones de firmware superiores a las documentadas siempre que la versión principal.secundaria sea la misma.
-  > Ejemplo: Compatible con 6.10.258; en este caso, también se admiten las versiones de firmware 6.10.(258 o superior) Recomendado 6.20.100; en este caso, también se recomiendan las versiones de firmware 6.20.(100 o superior). Si tiene preguntas de soporte técnico sobre una versión específica, póngase en contacto con su proveedor de CLS.
+  >
+  > La certificación se concede a versiones de firmware CLS específicas. Cualquier versión de firmware CLS documentada a continuación está certificada y admitida. Se admiten versiones de firmware superiores a las documentadas siempre que la versión principal secundaria sea la misma.
+  >
+  > Ejemplo:
+  >
+  > - Compatible con 6.10.258: en este caso, también se admiten las versiones de firmware 6.10. (258 o superior).
+  > - Recomendado 6.20.100: en este caso, también se recomienda la versión de firmware 6.20. (100 o superior).
+  > - Si tiene preguntas de compatibilidad sobre una versión específica, póngase en contacto con su proveedor de CLS.
 
 En las tablas siguientes se enumeran los dispositivos certificados para Enrutamiento directo. (Para obtener información sobre qué proveedores de CLS admiten la optimización de medios locales, vea [Configurar la optimización de medios locales para el enrutamiento directo](direct-routing-media-optimization-configure.md)).
 

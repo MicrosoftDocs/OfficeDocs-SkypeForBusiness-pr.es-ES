@@ -15,17 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 060604853b29111372a605ff0ad6212ba1e56a8a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 056c82b1f2c7a1872693cc9f4298cee6eea1eefb
+ms.sourcegitcommit: 11882e93618b8d69d21586c7b1f6a4460b96dd7d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046426"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60283034"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Usar el Asistente para la incorporación de trabajadores en primera línea para que su fuerza de trabajo de primera línea esté en funcionamiento
-
-> [!NOTE]
-> ¿Todavía no ve esta característica? Actualmente se está ejecutando y es posible que todavía no esté disponible en su organización. Para mantenerse al tanto de las próximas Teams, consulte el [mapa de ruta Microsoft 365 ruta.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
 
 ## <a name="overview"></a>Información general
 
@@ -38,7 +35,10 @@ Actualmente, el asistente admite la adición de 100 usuarios cada vez que lo eje
 El asistente está disponible para todas las organizaciones que tienen al menos una licencia Microsoft 365 F. Puede ejecutar el asistente tantas veces como necesite para Teams personal de primera línea en diferentes ubicaciones o sitios de su organización.
 
 > [!NOTE]
-> Este asistente le permite incorporar rápidamente a sus trabajadores de primera línea para Teams a través del Centro de administración de Microsoft 365. Para obtener más información sobre cómo implementar Teams a los trabajadores de primera línea con scripts, vea Cómo aprovisionar Teams a escala para los trabajadores [de frontline](flw-scripted-deployment.md).
+> Este asistente le permite incorporar rápidamente a sus trabajadores de primera línea para Teams a través del Centro de administración de Microsoft 365. Para obtener información sobre cómo implementar Teams a los trabajadores de primera línea con scripts, vea Cómo aprovisionar Teams a escala para los trabajadores [de frontline](flw-scripted-deployment.md).
+
+> [!NOTE]
+> El asistente aún no admite etiquetas [de confidencialidad.](sensitivity-labels.md) Si su organización requiere etiquetas de confidencialidad para crear un equipo, no verá el asistente en el Centro de administración de Microsoft 365.
 
 ## <a name="run-the-wizard"></a>Ejecutar el asistente
 

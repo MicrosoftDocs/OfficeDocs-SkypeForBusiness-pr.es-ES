@@ -20,21 +20,21 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo asignar una licencia Sistema telefónico usuario virtual o una licencia de usuario Sistema telefónico pago a cuentas de recursos de su organización.
-ms.openlocfilehash: b9ffe0e5f489aebb2aff75988dbbe557e88c845d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f0a26c03a5654a3f2df9538fe8bbb74c4a5b58e4
+ms.sourcegitcommit: 11882e93618b8d69d21586c7b1f6a4460b96dd7d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734199"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60283004"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Sistema telefónico: licencia de usuario virtual
 
-Las organizaciones con Sistema telefónico usuarios con licencia pueden asignar una licencia gratuita Microsoft 365 Sistema telefónico usuario virtual o una licencia de usuario Sistema telefónico a cuentas de recursos. No se requiere un plan de llamadas. Todos los operadores automáticos o las colas de llamadas requieren una cuenta de recursos asociada. Las cuentas de recursos que requieren un número de teléfono necesitan un Microsoft 365 Sistema telefónico gratuito: una licencia de usuario virtual o una licencia de usuario de Sistema telefónico de pago antes de que se pueda aplicar un número de teléfono a la cuenta de recursos.
+Las organizaciones con Sistema telefónico usuarios con licencia pueden asignar una licencia gratuita Microsoft 365 Sistema telefónico usuario virtual o una licencia de usuario Sistema telefónico a cuentas de recursos. No siempre es necesario un plan de llamadas (consulte Planear para Teams operador automático y colas de llamadas para obtener los [requisitos](../plan-auto-attendant-call-queue.md#prerequisites) previos al transferir llamadas a un número de teléfono externo). Todos los operadores automáticos o las colas de llamadas requieren una cuenta de recursos asociada. Las cuentas de recursos que requieren un número de teléfono necesitan un Microsoft 365 Sistema telefónico gratuito: una licencia de usuario virtual o una licencia de usuario de Sistema telefónico de pago antes de que se pueda aplicar un número de teléfono a la cuenta de recursos.
 
 > [!TIP]
-> No se necesita ninguna licencia para las cuentas de recursos que se usarán con operadores automáticos anidados o colas de llamadas que no tengan asignado un número de teléfono. Vea el siguiente diagrama para obtener referencia: 
+> No se necesita ninguna licencia para las cuentas de recursos que se usarán con operadores automáticos anidados o colas de llamadas que no tengan asignado un número de teléfono. Vea el siguiente diagrama para obtener referencia.
 
-![Licencias de usuario virtual.](../media/resource-account.png)
+:::image type="content" alt-text="Licencias de usuario virtual." source="../media/resource-account.png":::
 
 ## <a name="virtual-user-license-allocation"></a>Asignación de licencias de usuario virtual
 
@@ -57,8 +57,8 @@ Contoso debería considerar la posibilidad de rediseñar el operador automático
 2. Ir a **Complementos de servicios** de  >  **compra**  >  **de facturación**
 3. Desplácese hasta el final para buscar la **Microsoft 365 Sistema telefónico de usuario** virtual. Selecciona **Comprar ahora**.
 
-> [!NOTE]
-> Tenga en cuenta que aún debe  **comprar** la licencia aunque tenga un costo de cero.
+   > [!NOTE]
+   > Tenga en cuenta que aún debe **comprar** la licencia aunque tenga un costo de cero.
 
 ## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Cambiar una cuenta de recurso existente para usar una Microsoft 365 Sistema telefónico: licencia de usuario virtual
 
