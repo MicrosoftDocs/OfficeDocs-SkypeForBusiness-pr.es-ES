@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el Centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d19e29734f8e62b77a0a355c366c2bdc7a6bbde
-ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
+ms.openlocfilehash: e769de858a7c0cb1ab14a538b1b1dc2a6559b21f
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60148911"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356478"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -35,7 +35,7 @@ El registro de auditoría puede ayudarle a investigar actividades específicas e
 - Canal eliminado
 - Configuración del canal cambiada
 
-Para obtener una lista completa de Teams actividades [](#teams-activities) que se auditan, vea Teams actividades y turnos en Teams actividades [(en versión preliminar).](#shifts-in-teams-activities)
+Para obtener una lista completa de Teams actividades [](#teams-activities) que se auditan, vea Teams actividades y turnos en [Teams actividades.](#shifts-in-teams-activities)
 
 > [!NOTE]
 > Los eventos de auditoría de canales privados también se registran tal y como están para equipos y canales estándar.
@@ -80,46 +80,6 @@ Estas son sugerencias para buscar Teams actividades en el registro de auditoría
 
 Consulte este [vídeo para](https://www.youtube.com/embed/UBxaRySAxyE) usar la búsqueda de registros de audio. Únase a Ansuman Acharya, un administrador de programas para Teams, ya que muestra cómo realizar una búsqueda de registro de auditoría para Teams.
 
-## <a name="use-cloud-app-security-to-set-activity-policies"></a>Usar Cloud App Security para establecer directivas de actividad
-
-Con [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) integración, puede [](/cloud-app-security/user-activity-policies) establecer directivas de actividad para exigir una amplia gama de procesos automatizados con las API del proveedor de aplicaciones. Estas directivas le permiten supervisar actividades específicas realizadas por varios usuarios o seguir tasas inesperadamente altas de un determinado tipo de actividad.
-
-Después de establecer una directiva de detección de actividad, comienza a generar alertas. Las alertas solo se generan en las actividades que se producen después de crear la directiva. Estos son algunos escenarios de ejemplo para cómo puede usar directivas de actividad en Cloud App Security para supervisar Teams actividades.
-
-### <a name="external-user-scenario"></a>Escenario de usuario externo
-
-Un escenario en el que puede que desee estar atento, desde una perspectiva empresarial, es la adición de usuarios externos a su entorno Teams empresa. Si los usuarios externos están habilitados, supervisar su presencia es una buena idea.  Puede usar [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) identificar amenazas potenciales.
-
-![Directiva para supervisar la adición de usuarios externos.](media/TeamsExternalUserAddPolicy.png)
-
-La captura de pantalla de esta directiva para supervisar la adición de usuarios externos le permite nombrar la directiva, establecer la gravedad según las necesidades de su empresa, establecerla como (en este caso) una sola actividad y, a continuación, establecer los parámetros que supervisarán específicamente solo la adición de usuarios no internos y limitar esta actividad a Teams.
-
-Los resultados de esta directiva se pueden ver en el registro de actividades:
-
-![Eventos desencadenados por la directiva de usuarios externos.](media/TeamsExternalUserList.png)
-
-Aquí puede revisar coincidencias con la directiva que ha establecido y realizar los ajustes necesarios, o exportar los resultados para usarlos en otro lugar.
-
-### <a name="mass-delete-scenario"></a>Escenario de eliminación masiva
-
-Como se mencionó anteriormente, puede supervisar escenarios de eliminación. Es posible crear una directiva que supervise la eliminación masiva de Teams sitios. En este ejemplo, se configura una directiva basada en alertas para detectar la eliminación masiva de equipos en un intervalo de 30 minutos.
-
-![Directiva que muestra la configuración de una directiva para la detección masiva de eliminación de equipos.](media/TeamsMassDeletePolicy.png)
-
-Como se muestra en la captura de pantalla, puede establecer muchos parámetros diferentes para esta directiva para supervisar las eliminaciones de Teams, incluida la gravedad, la acción única o repetida, y los parámetros que limitan esto Teams la eliminación del sitio. Esto se puede hacer independientemente de una plantilla, o es posible que tenga una plantilla creada para basar esta directiva en, dependiendo de las necesidades de la organización.
-
-Después de establecer una directiva que funcione para su empresa, puede revisar los resultados del registro de actividades a medida que se desencadenan los eventos:
-
-![Eventos de captura de pantalla desencadenados por eliminaciones masivas.](media/TeamsMassDeleteList.png)
-
-Puede filtrar hacia abajo hasta la directiva que haya establecido para ver los resultados de esa directiva. Si los resultados que está obteniendo en el registro de actividades no son satisfactorios (tal vez está viendo una gran cantidad de resultados, o nada en absoluto), esto puede ayudarle a ajustar la consulta para que sea más relevante para lo que necesita que haga.
-
-### <a name="alert-and-governance-scenario"></a>Escenario de alerta y gobierno
-
-Puede establecer alertas y enviar correos electrónicos a administradores y otros usuarios cuando se desencadene una directiva de actividad. Puede establecer acciones de gobierno automatizadas como suspender un usuario o hacer que un usuario vuelva a iniciar sesión de forma automatizada. En este ejemplo se muestra cómo se puede suspender una cuenta de usuario cuando se desencadena una directiva de actividad y se determina que un usuario eliminó dos o más equipos en 30 minutos.
-
-![Captura de pantalla de alertas y acciones de gobierno para una directiva de actividad.](media/audit-log-governance.png)
-
 ## <a name="teams-activities"></a>Teams actividades
 
 Esta es una lista de todos los eventos que se registran para las actividades de usuario y administrador en Teams en el registro Microsoft 365 auditoría. La tabla incluye el nombre descriptivo que  se muestra en la columna Actividades y el nombre de la operación correspondiente que aparece en la información detallada de un registro de auditoría y en el archivo CSV al exportar los resultados de la búsqueda.
@@ -129,6 +89,8 @@ Esta es una lista de todos los eventos que se registran para las actividades de 
 |Bot agregado al equipo   |BotAddedToTeam        |Un usuario agrega un bot a un equipo.        |
 |Agregación de canales   |Canal agregado         |Un usuario agrega un canal a un equipo.         |
 |Conector agregado  |Conector agregado          |Un usuario agrega un conector a un canal.        |
+|Se han agregado detalles sobre Teams reunión|MeetingDetail|Teams información agregada sobre una reunión, incluida la hora de inicio, la hora de finalización y la dirección URL para unirse a la reunión.|
+|Información agregada sobre los participantes de la reunión|MeetingParticipantTrack|Teams información sobre los participantes de una reunión, incluido el id. de usuario de cada participante, la hora en que un participante se unió a la reunión y la hora en que un participante abandonó la reunión.|
 |Miembros agregados    |Miembro agregado         |El propietario de un equipo agrega miembros a un equipo, canal o chat grupal.         |
 |Pestaña Agregado    |Pestaña Agregada         |Un usuario agrega una pestaña a un canal.        |
 |Configuración del canal cambiada    |ChannelSettingChanged         |La operación ChannelSettingChanged se registra cuando un miembro del equipo realiza las siguientes actividades. Para cada una de estas actividades, se muestra una descripción de la configuración  que se ha cambiado (se muestra entre paréntesis en la columna Elemento en los resultados de búsqueda del registro de auditoría. <ul><li>Cambia el nombre de un canal de grupo (**nombre del canal**)</li><li>Cambiar la descripción de un canal de grupo (**Descripción del canal**)</li> </ul>      |
@@ -217,7 +179,47 @@ Puede usar la API Office 365 actividad de administración para recuperar informa
 
 ## <a name="attribution-in-teams-audit-logs"></a>Atribución en Teams registros de auditoría
 
-Los cambios de pertenencia a Teams (como usuarios agregados o eliminados) realizados Azure Active Directory través de Azure Active Directory (Azure AD), un portal de administración de Microsoft 365 o la API Graph grupos de Microsoft 365 aparecerán en los mensajes de auditoría de Teams y en el canal General con una atribución a un propietario existente del equipo y no al iniciador real de la acción. En estos escenarios, consulte Azure AD [o Microsoft 365 de auditoría](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) del grupo para ver la información relevante.
+Los cambios de pertenencia a Teams (como usuarios agregados o eliminados) realizados Azure Active Directory través de Azure Active Directory (Azure AD), el portal de administración de Microsoft 365 o la API de Microsoft 365 Groups Graph aparecerán en los mensajes de auditoría de Teams y en el General canal con una atribución a un propietario existente del equipo y no al iniciador real de la acción. En estos escenarios, consulte Azure AD o [Microsoft 365 de auditoría](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) del grupo para ver la información relevante.
+
+## <a name="use-cloud-app-security-to-set-activity-policies"></a>Usar Cloud App Security para establecer directivas de actividad
+
+Con [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) integración, puede [](/cloud-app-security/user-activity-policies) establecer directivas de actividad para exigir una amplia gama de procesos automatizados con las API del proveedor de aplicaciones. Estas directivas le permiten supervisar actividades específicas realizadas por varios usuarios o seguir tasas inesperadamente altas de un determinado tipo de actividad.
+
+Después de establecer una directiva de detección de actividad, comienza a generar alertas. Las alertas solo se generan en las actividades que se producen después de crear la directiva. Estos son algunos escenarios de ejemplo para cómo puede usar directivas de actividad en Cloud App Security para supervisar Teams actividades.
+
+### <a name="external-user-scenario"></a>Escenario de usuario externo
+
+Un escenario en el que puede que desee estar atento, desde una perspectiva empresarial, es la adición de usuarios externos a su entorno Teams empresa. Si los usuarios externos están habilitados, supervisar su presencia es una buena idea.  Puede usar [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) identificar amenazas potenciales.
+
+![Directiva para supervisar la adición de usuarios externos.](media/TeamsExternalUserAddPolicy.png)
+
+La captura de pantalla de esta directiva para supervisar la adición de usuarios externos le permite nombrar la directiva, establecer la gravedad según las necesidades de su empresa, establecerla como (en este caso) una sola actividad y, a continuación, establecer los parámetros que supervisarán específicamente solo la adición de usuarios no internos y limitar esta actividad a Teams.
+
+Los resultados de esta directiva se pueden ver en el registro de actividades:
+
+![Eventos desencadenados por la directiva de usuarios externos.](media/TeamsExternalUserList.png)
+
+Aquí puede revisar coincidencias con la directiva que ha establecido y realizar los ajustes necesarios, o exportar los resultados para usarlos en otro lugar.
+
+### <a name="mass-delete-scenario"></a>Escenario de eliminación masiva
+
+Como se mencionó anteriormente, puede supervisar escenarios de eliminación. Es posible crear una directiva que supervise la eliminación masiva de Teams sitios. En este ejemplo, se configura una directiva basada en alertas para detectar la eliminación masiva de equipos en un intervalo de 30 minutos.
+
+![Directiva que muestra la configuración de una directiva para la detección masiva de eliminación de equipos.](media/TeamsMassDeletePolicy.png)
+
+Como se muestra en la captura de pantalla, puede establecer muchos parámetros diferentes para esta directiva para supervisar las eliminaciones de Teams, incluida la gravedad, la acción única o repetida, y los parámetros que limitan esto Teams la eliminación del sitio. Esto se puede hacer independientemente de una plantilla, o es posible que tenga una plantilla creada para basar esta directiva en, dependiendo de las necesidades de la organización.
+
+Después de establecer una directiva que funcione para su empresa, puede revisar los resultados del registro de actividades a medida que se desencadenan los eventos:
+
+![Eventos de captura de pantalla desencadenados por eliminaciones masivas.](media/TeamsMassDeleteList.png)
+
+Puede filtrar hacia abajo hasta la directiva que haya establecido para ver los resultados de esa directiva. Si los resultados que está obteniendo en el registro de actividades no son satisfactorios (tal vez está viendo una gran cantidad de resultados, o nada en absoluto), esto puede ayudarle a ajustar la consulta para que sea más relevante para lo que necesita que haga.
+
+### <a name="alert-and-governance-scenario"></a>Escenario de alerta y gobierno
+
+Puede establecer alertas y enviar correos electrónicos a administradores y otros usuarios cuando se desencadene una directiva de actividad. Puede establecer acciones de gobierno automatizadas como suspender un usuario o hacer que un usuario vuelva a iniciar sesión de forma automatizada. En este ejemplo se muestra cómo se puede suspender una cuenta de usuario cuando se desencadena una directiva de actividad y se determina que un usuario eliminó dos o más equipos en 30 minutos.
+
+![Captura de pantalla de alertas y acciones de gobierno para una directiva de actividad.](media/audit-log-governance.png)
 
 ## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Usar Cloud App Security para establecer directivas de detección de anomalías
 

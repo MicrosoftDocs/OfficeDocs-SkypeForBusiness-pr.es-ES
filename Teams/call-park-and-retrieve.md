@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el parque de llamadas y recuperar para poner una llamada en espera en Microsoft Teams.
-ms.openlocfilehash: 9092e76b9d8db5e29c1dd5881cd6b0f69d70ae4a
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: ad35f5bdfa6cb60a842705c150f0f511ba45cb63
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249512"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356508"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
@@ -47,9 +47,13 @@ Para estacionar y recuperar llamadas, un usuario debe ser Telefonía IP empresar
 
 Debe ser un administrador Teams configurar el parque de llamadas y recuperarlo. Está deshabilitado de forma predeterminada. Puede habilitarlo para los usuarios y crear grupos de usuarios con la directiva de parque de llamadas. Al aplicar la misma directiva a un conjunto de usuarios, pueden estacionar y recuperar llamadas entre ellos.
 
-El rango de números de recogida de llamadas está predefinido entre 10 y 99 y no se puede modificar. La primera llamada estacionada se representará con un código de recogida de 10, la siguiente llamada estacionada se representará con un código de recogida de 11, etc. hasta que 99 se represente como un código de recogida. Después de lo cual, los códigos de recogida representados comienzan de nuevo a partir de las 10.  Si hay más de 89 llamadas activas aparcados, los códigos de recogida representados seguirán incrementándose más allá de 99, de modo que la 90.ª llamada activa estacionada se representaría en 100 para un código de recogida, la llamada activa 91 se representaría en un código de recogida de 101.
+De forma predeterminada, el rango de números de recogida de llamadas es de 10 a 99. También puede crear su propio rango personalizado entre 10 y 9999. La primera llamada estacionada se representará un código de recogida del inicio del rango (por ejemplo, 10). La siguiente llamada estacionada se representará un código de recogida incrementado en 1; es decir, 11, y así sucesivamente, hasta que el final del rango se represente como un código de recogida. Después de lo cual, los códigos de recogida representados comienzan de nuevo desde el principio del rango una vez más. 
 
-Para habilitar una directiva de parque de llamadas
+Puede especificar un tiempo de espera como el número de segundos que debe esperar antes de llamar de nuevo cuando la llamada estacionada no se haya recogido. El rango permitido es de 120-1800 segundos y el valor predeterminado es 300 segundos.
+
+Para establecer el intervalo de parque personalizado y el tiempo de espera del parque, use los cmdlets Nuevo y Set-CsTeamsCallParkPolicy disponibles en Teams Módulo de PowerShell 2.6.0 o posterior. (Los cambios de intervalo de parque personalizado y tiempo de espera de parque no se pueden administrar en el centro Teams administrador. Tenga en cuenta que Teams centro de administración seguirá mostrando los valores predeterminados).
+
+Para habilitar una directiva de parque de llamadas:
 
 1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Directivas de **parque**  >  **de llamadas de voz.**
 2. En la **pestaña Administrar directivas,** haga clic en **Agregar.**

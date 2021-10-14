@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurar la optimización de medios locales para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e383a9d0435dde2c17a38d8a1879b3bf3fb6e4d
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 59524c620525505b9fcc19d909f5b4b84cc60720
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127407"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356444"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurar la optimización de medios locales para enrutamiento directo
 
@@ -51,10 +51,8 @@ Para configurar el usuario y los sitios de SBC, deberá:
 3. [Defina la topología de red virtual](#define-the-virtual-network-topology) asignando SBC a sitios con modos relevantes y valores SBC proxy.
 
 > [!NOTE]
-> La lógica de optimización de medios locales se basa en que las direcciones de cliente se configuran como externas o internas, en relación con las redes corporativas con acceso a una interfaz interna del Controlador de borde de sesión (SBC) certificado para enrutamiento directo. La ubicación del cliente (interna/externa) se determina durante el procesamiento de cada llamada, observando la dirección que se usa para llegar a los relés de transporte.
-> 
-> En escenarios vpn de túnel dividido en los que los relés son accesibles a través del ISP, la lógica de mejor ruta del cliente prefiere la ruta predeterminada de la interfaz local (por ejemplo, WiFi público). Esto hace que Microsoft señale al SBC que el cliente es externo, aunque puede llegar a la interfaz interna del SBC de enrutamiento directo del cliente. Los clientes de enrutamiento directo que usan optimización de medios locales pueden experimentar tiempos de configuración de llamadas prolongados y, en algunos casos, no hay audio al recibir llamadas desde la RTC.
-> 
+> Optimización de medios locales se basa en las ubicaciones de cliente que se detectan como externas o internas en relación con las redes de la empresa con acceso a una interfaz interna del Controlador de borde de sesión (SBC) de enrutamiento directo (DR).
+> En escenarios de VPN de túnel dividido cuando el punto de conexión del cliente se detecta como externo a la red del cliente, Microsoft señalará la ubicación externa al SBC aunque el cliente pueda llegar a la interfaz interna del SBC de enrutamiento directo del cliente. Los clientes de enrutamiento directo que usan optimización de medios locales pueden experimentar tiempos de configuración de llamadas prolongados y, en algunos casos, no hay audio al recibir llamadas desde la RTC.
 > Para evitar esto, los administradores de VPN deben bloquear el acceso entre los usuarios de VPN remotos y la interfaz interna de SBC de enrutamiento directo.
 
 

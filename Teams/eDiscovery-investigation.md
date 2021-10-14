@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar exhi
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95f284211f76017ee4dca85fbbf03c8a454aaa26
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6fd0a7b8108ef0c8d56a814558ae0bd055dc8ef5
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733889"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356488"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -115,13 +115,15 @@ Antes de realizar estos pasos, instale SharePoint Shell de administración en l�
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. Para cada id. de grupo o equipo, ejecute el siguiente script de PowerShell para identificar todos los sitios de canal privado relevantes, donde $groupID es el id. de grupo del equipo.
+3. Para cada id. de grupo o equipo, ejecute el siguiente script de PowerShell para identificar todos los sitios de canal privado relevantes, donde se encuentra el `$groupID` id. de grupo del equipo.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
+> [!NOTE]
+> SharePoint para los canales privados creados después del 28 de junio de 2021 usan el valor `teamchannel#1` del id. de plantilla personalizada. Por lo tanto, para los canales privados creados después de esta fecha, use el valor `teamchannel#1` al ejecutar los dos scripts anteriores.
 
 ### <a name="include-private-channel-messages-in-an-ediscovery-search"></a>Incluir mensajes de canal privado en una búsqueda de exhibición de documentos electrónicos
 
@@ -147,9 +149,9 @@ Puede usar herramientas de exhibición de documentos electrónicos para buscar T
 
 Para buscar contenido para los usuarios invitados:
 
-1. Conectar a Azure AD PowerShell. Para obtener instrucciones, vea la sección "Conectar con Azure Active Directory PowerShell" en Conectar para Microsoft 365 [con PowerShell.](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) Asegúrese de completar los pasos 1 y 2 en el tema anterior.
+1. Conectar para Azure AD PowerShell. Para obtener instrucciones, vea la sección "Conectar con Azure Active Directory PowerShell" en Conectar para Microsoft 365 [con PowerShell.](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) Asegúrese de completar los pasos 1 y 2 en el tema anterior.
 
-2. Después de conectarse correctamente a Azure AD PowerShell, ejecute el siguiente comando para mostrar el nombre principal de usuario (UPN) para todos los usuarios invitados de su organización. Debe usar el UPN del usuario invitado al crear la búsqueda en el paso 4.
+2. Después de conectarse correctamente Azure AD PowerShell, ejecute el siguiente comando para mostrar el nombre principal de usuario (UPN) para todos los usuarios invitados de su organización. Debe usar el UPN del usuario invitado al crear la búsqueda en el paso 4.
 
    ```powershell
    Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName

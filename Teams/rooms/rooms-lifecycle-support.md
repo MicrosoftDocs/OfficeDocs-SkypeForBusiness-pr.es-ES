@@ -14,27 +14,23 @@ f1.keywords:
 ms.localizationpriority: medium
 description: Obtenga información sobre el soporte para el ciclo de Salas de Microsoft Teams, incluida la estructura de soporte dinámico y sus fases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ecfd878b5d8aa22a19b4b2831c04a73e0d8911e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e7a82d7643a925d5c997c9d6fe5661a421d47ab
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607033"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356428"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Salas de Microsoft Teams versión de la aplicación
  
-La Salas de Microsoft Teams aplicación obtiene actualizaciones varias veces al año. Cada actualización es compatible durante doce (12) meses desde su fecha de publicación de disponibilidad general (GA). Se proporciona soporte técnico durante los doce (12) meses completos. Sin embargo, la estructura de soporte es dinámica, con dos fases distintas que dependen de la disponibilidad de la versión más reciente:
+La Salas de Microsoft Teams aplicación obtiene actualizaciones trimestrales a través de Windows tienda. Se puede realizar una actualización fuera de banda entre medias para solucionar problemas urgentes. Microsoft Teams La aplicación Sala usa un ciclo de vida de producto permanente y solo la versión actual y la última de la aplicación son compatibles en un momento determinado. La Microsoft Teams de sala incluye una versión específica de la aplicación de escritorio Teams que se modifica para el uso del salón. La Teams aplicación de escritorio se actualiza cada dos semanas. Obtenga más información sobre el [Teams de actualización.](../teams-client-update.md) Esto significa que Salas de Teams la versión actual de la aplicación de escritorio 1 puede tener hasta seis actualizaciones de aplicaciones de escritorio de Teams, por lo que se recomienda mantener la aplicación de salón de Teams actualizada a la última versión de la aplicación Salas de Teams en todo momento. 
 
-- **Fase De mantenimiento** y actualizaciones críticas: cuando ejecuta la última versión de la aplicación Salas de Microsoft Teams, recibe actualizaciones periódicas que contienen actualizaciones de seguridad *y* mantenimiento.
-
-- Solo fase actualizaciones de **seguridad:** cuando se publica una nueva versión de la aplicación Salas de Microsoft Teams, las versiones anteriores de la aplicación tienen un nivel de soporte técnico reducido con actualizaciones de seguridad solo para el resto del ciclo de vida de doce (12) meses. 
-
-> [!NOTE]
-> La versión más reciente siempre está en la fase mantenimiento y actualizaciones críticas. Cuando se produce un defecto de código que justifica una actualización crítica, también debe tener instalada la versión más reciente para recibir una corrección. Todas las demás versiones compatibles solo podrán recibir actualizaciones de seguridad.
-
-Todo el soporte técnico finaliza después de que el ciclo de vida de doce (12) meses de una versión haya expirado o si se han publicado más de dos actualizaciones desde entonces. A continuación, los clientes deben actualizar a una versión compatible.
+La estructura de soporte para Salas de Teams es dinámica y depende de la disponibilidad de la última versión. Cuando se produce un defecto de código en una versión de la aplicación que no es la más reciente, debe instalar la versión más reciente para recibir una corrección.
 
 Todas las versiones se muestran en las [Salas de Microsoft Teams de la versión.](rooms-release-note.md)
+
+> [!IMPORTANT]
+> Al instalar un nuevo dispositivo que venía con una versión anterior de [](manual-update.md) la aplicación de sala de Teams, se recomienda actualizar manualmente la aplicación después de configurar la cuenta, antes de descargar Windows actualizaciones. Esto garantiza que la versión del sistema operativo correbt y las actualizaciones estén instaladas en el dispositivo.  
 
 ## <a name="windows-10-release-support"></a>Windows 10 soporte técnico para la versión de lanzamiento
 
@@ -44,7 +40,7 @@ Salas de Microsoft Teams requiere las Windows 10 IoT Enterprise o Windows 10 Ent
 - Windows 10 Internet de las cosas (IoT) Enterprise ediciones LTSB /LTSC
 - cualquier otra edición de Windows como Windows 10 Pro o Edición principal
 
-Las Windows 10 nuevas características no se ofrecen en Salas de Microsoft Teams dispositivos inmediatamente. Un retraso intencionado de hasta seis meses después de la fecha de disponibilidad general publicada en la [Windows 10 información de la versión.](/windows/release-information/) El tiempo de retraso se usa para validar la compatibilidad Windows 10 versión de la aplicación Salas de Microsoft Teams, el hardware del dispositivo y los periféricos certificados de audio y vídeo. La validación comienza y continúa durante el desarrollo activo de cada versión principal de Windows 10. Se necesita tiempo adicional para validar que todos los fabricantes de dispositivos han creado imágenes actualizadas para sus dispositivos y para Microsoft Teams certificar y probar esas imágenes. Durante el período de validación, la aplicación Microsoft Teams Room usa Windows [de](/windows/deployment/update/waas-manage-updates-wufb) grupo Actualizar para empresas para retrasar las Windows 10 características. Una vez que se encuentran y se resuelven los problemas de compatibilidad, el bloque se levanta mediante la actualización de directivas de grupo a través de una nueva versión de la aplicación en Windows store. Los dispositivos que ejecutan Salas de Microsoft Teams aplicación se actualizan automáticamente a una versión Windows 10 durante el reinicio de mantenimiento nocturno. Una versión msi está disponible para los clientes que deseen administrar manualmente las actualizaciones.  
+Las Windows 10 nuevas características no se ofrecen en Salas de Microsoft Teams dispositivos inmediatamente. Hay un retraso intencionado de hasta seis meses o más después de la fecha de disponibilidad general publicada en la Windows 10 [información de la](/windows/release-information/) versión. Esta vez se usa para validar la Windows 10 versión para la aplicación Salas de Microsoft Teams, el hardware del dispositivo y los periféricos certificados de audio y vídeo. La validación comienza y continúa durante el desarrollo activo de cada versión principal de Windows 10. Se necesita tiempo adicional para validar que todos los fabricantes de dispositivos han creado imágenes actualizadas para sus dispositivos y para Microsoft Teams certificar y probar esas imágenes. Durante el período de validación, la aplicación Microsoft Teams Room usa Windows [de](/windows/deployment/update/waas-manage-updates-wufb) grupo Actualizar para empresas para retrasar las Windows 10 características. Una vez que se encuentran y se resuelven los problemas de compatibilidad, el bloque se levanta mediante la actualización de directivas de grupo a través de una nueva versión de la aplicación en Windows store. Los dispositivos que ejecutan Salas de Microsoft Teams aplicación se actualizan automáticamente a una versión Windows 10 durante el reinicio de mantenimiento nocturno. Una versión msi está disponible para los clientes que deseen administrar manualmente las actualizaciones.  
 
 > [!IMPORTANT]
 > Durante el período de validación, Salas de Microsoft Teams dispositivos no **deben** actualizarse a la siguiente versión de Windows 10 por ningún medio. Esto incluye reemplazar las directivas de grupo existentes o usar System Center servicios de administración de dispositivos de terceros. Cualquiera de estas opciones puede causar problemas en la aplicación Microsoft Teams Room o puede dejar los dispositivos inutilizables.  
@@ -53,7 +49,7 @@ En la tabla siguiente se muestran las versiones recomendadas y compatibles Windo
 
 |Versión  |Fecha de disponibilidad   |Salas de Microsoft Teams de soporte técnico   |Salas de Microsoft Teams Versión mínima de la aplicación | Compilación recomendada del sistema operativo  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 20H2 |2020-10-20 |Compatible, <br/>Recomendado|4.8.31.0 |19042.631 |
+| 20H2 |2020-10-20 |Compatible, <br/>Recomendado|4.10.10.0 |19042.631 |
 | 2004 |2020-05-27 |Omitido, <br/> No recomendado &#x2780;|&#x2014; |&#x2014; |
 | 1909 |2019-11-12 |Compatible |4.5.33.0 |18363.418  |
 | 1903 |2019-05-21 |No compatible  |&#x2014; |&#x2014; |
@@ -68,12 +64,6 @@ En la tabla siguiente se muestran las versiones recomendadas y compatibles Windo
 
 Cuando use una versión compatible de Windows 10, siempre recibirá las últimas actualizaciones de la aplicación para Salas de Microsoft Teams aplicación.  
 
-> [!IMPORTANT]
-> La Windows 10 20H2 aún no está disponible para los siguientes dispositivos Salas de Teams debido a problemas de compatibilidad. Los OEM de dispositivos están trabajando para resolver estos problemas lo antes posible. Windows 10 20H2 no se ofrecerán en estos dispositivos. No actualice manualmente estos dispositivos a 20H2 anulando los objetos de directiva de grupo (GPO) o la administración de dispositivos móviles (MDM). 
-> 
-> Los dispositivos con problemas de compatibilidad son:
-> 
-> - Crestron UC-Engine (la versión/fecha del BIOS contiene "KYSKLI", que indica un BIOS de Skull Canyon) 
 
 ## <a name="related-topics"></a>Temas relacionados
 
