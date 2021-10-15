@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 22d57e349d22deb6d40227ba15d73a7958bad894
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 9bdf14874765a8cd67f0ea7ffcfdcb05358b061b
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432442"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356458"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -147,7 +147,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 Esta configuración controla si se pueden usar las características de subtítulos y transcripción durante la reproducción de las grabaciones de la reunión. Si desactiva esta opción, las opciones de **Búsqueda** y **CC** no estarán disponibles durante la reproducción de la grabación de una reunión. La persona que ha iniciado la grabación necesita que esta opción esté activada para que la grabación también incluya transcripción.
 
 > [!NOTE]
-> Actualmente, la transcripción de reuniones grabadas solo es compatible con los usuarios que tengan el idioma de los equipos en inglés y cuando se habla inglés en la reunión. Se almacenan junto con las grabaciones de reuniones en OneDrive para la Empresa y el almacenamiento en la nube de SharePoint Online.
+> Actualmente, esa transcripción para reuniones grabadas solo se admite para inglés (EE. UU.), inglés (Canadá), inglés (India), inglés (Reino Unido), inglés (Australia), inglés (Nueva Zelanda), alemán (Alemania), portugués (Brasil), neerlandés (Países Bajos), neerlandés (Bélgica), francés (Francia), español (España), japonés (Japón), francés (Canadá), chino (cantonés, tradicional), chino (mandarín, simplificado), hindi (India), italiano (Italia), coreano (Corea), español (México), sueco (Suecia), Polaco (Polonia), árabe (Emiratos Árabes Unidos), árabe (Arabia Saudí), danés (Dinamarca), finés (Finlandia), noruego (Noruega) y ruso (Rusia). Se almacenan junto con las grabaciones de reuniones en OneDrive para la Empresa y el almacenamiento en la nube de SharePoint Online.
 
 Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer una directiva de reunión de Teams para controlar si el iniciador de la reunión tiene la opción de transcribir la grabación de la reunión.
 
@@ -309,7 +309,7 @@ Sí, la fecha de expiración se establece por archivo. Los usuarios pueden modif
 
 **¿Cómo puede un administrador cambiar la fecha de expiración?**
   
-Los administradores podrán cambiar la configuración de expiración predeterminada en PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) o en el Centro de administración de Teams antes de que se publique la característica. **La configuración aún no está disponible para su modificación**. Cuando la configuración esté disponible para su modificación lo publicaremos en el centro de mensajes. Cuando se inicia la característica, los administradores pueden cambiar esta configuración en el centro de administración de Teams. El cambio de la configuración de expiración afectará solo a los TMR recién creados a partir de ese momento. No afectará a las grabaciones realizadas antes de esa fecha. 
+Los administradores podrán cambiar la configuración de expiración predeterminada en PowerShell o en el Centro de administración de Teams antes de que se publique la característica. **La configuración aún no está disponible para su modificación**. Cuando la configuración esté disponible para su modificación lo publicaremos en el centro de mensajes. Cuando se inicia la característica, los administradores pueden cambiar esta configuración en el centro de administración de Teams. El cambio de la configuración de expiración afectará solo a los TMR recién creados a partir de ese momento. No afectará a las grabaciones realizadas antes de esa fecha. 
 
 Los valores de días de expiración se pueden establecer de la siguiente manera:
   
@@ -411,7 +411,7 @@ En estos momentos, los subtítulos del archivo de vídeo de la grabación están
 Cualquier cambio futuro que se realice en el vínculo entre la transcripción en Teams y la grabación se explica aquí y en las notificaciones del centro de mensajes. Si se realiza cualquier cambio en el futuro, nos aseguraremos de que los archivos de grabación con menos de 60 días de antigüedad muestren la transcripción de la reunión como subtítulos.
 
 > [!NOTE]
-> Los subtítulos estarán solo en inglés (la transcripción de reuniones aún no está disponible en GCC).
+> La transcripción de reuniones aún no está disponible en GCC.
 
 ## <a name="ediscovery-and-compliance-for-meeting-recordings"></a>eDiscovery y cumplimiento para grabaciones de reuniones
 
