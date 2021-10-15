@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: f79fbab055e7dbc9148e2be11539ecbfbc9b0c03
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dfb36cd78923257d76ebe33069e6e4cc642e7e40
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727269"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367538"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Planes de llamadas para Microsoft 365
 
@@ -48,7 +48,11 @@ Todos los usuarios del mismo país o región (esta es la ubicación del país de
 Visite [Disponibilidad de país y región](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) para obtener información sobre los minutos mensuales disponibles para cada organización en cada país o región.
   
 > [!IMPORTANT]
-> El país o región se basa en la ubicación de la licencia del usuario en **el** Centro de administración de Microsoft 365 Usuarios activos y NO en la dirección de facturación que aparece en el perfil de la organización en el  >   **Centro de administración de Microsoft 365**.     
+> El país o región se basa en la ubicación de la licencia del usuario en **el** Centro de administración de Microsoft 365 Usuarios activos y NO en la dirección de facturación que aparece en el perfil de la organización en el  >   **Centro de administración de Microsoft 365**.   
+
+> [!NOTE]
+> La agrupación solo está disponible en planes de llamadas idénticos.
+
 ![Captura de pantalla de la ubicación de licencia del usuario.](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Para obtener información detallada sobre los límites de uso y los términos de uso, vea Período de acceso telefónico gratuito de [audioconferencia.](complimentary-dial-out-period.md)

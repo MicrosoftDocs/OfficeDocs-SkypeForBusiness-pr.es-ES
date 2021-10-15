@@ -14,12 +14,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: Obtenga información sobre el soporte para el ciclo de Salas de Microsoft Teams, incluida la estructura de soporte dinámico y sus fases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e7a82d7643a925d5c997c9d6fe5661a421d47ab
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 937c6b43ebdc7c775251f0a7fc576cc11e666a7f
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356428"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367502"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Salas de Microsoft Teams versión de la aplicación
  
@@ -30,7 +30,7 @@ La estructura de soporte para Salas de Teams es dinámica y depende de la dispon
 Todas las versiones se muestran en las [Salas de Microsoft Teams de la versión.](rooms-release-note.md)
 
 > [!IMPORTANT]
-> Al instalar un nuevo dispositivo que venía con una versión anterior de [](manual-update.md) la aplicación de sala de Teams, se recomienda actualizar manualmente la aplicación después de configurar la cuenta, antes de descargar Windows actualizaciones. Esto garantiza que la versión del sistema operativo correbt y las actualizaciones estén instaladas en el dispositivo.  
+> Al instalar un nuevo dispositivo que venía con una versión anterior de [](manual-update.md) la aplicación de sala de Teams, se recomienda actualizar manualmente la aplicación después de configurar la cuenta, antes de descargar Windows actualizaciones. Esto garantiza la versión correcta del sistema operativo y Windows actualizaciones están instaladas en el dispositivo.  
 
 ## <a name="windows-10-release-support"></a>Windows 10 soporte técnico para la versión de lanzamiento
 

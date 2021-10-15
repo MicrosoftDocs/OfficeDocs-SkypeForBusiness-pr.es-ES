@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 636cd41a6107f8fb43b42a6118b8ead9d2b754ef
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 1f51c262e26613cf29a7dd2883afbf1cc6871b26
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045576"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367522"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introducción a las plantillas de equipo en el centro de administración de Teams
 
@@ -144,3 +144,4 @@ Use los cmdlets siguientes para administrar las plantillas en PowerShell.
 
 - [Crear un equipo a partir de una plantilla](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md)
+- [Clonar un equipo](/graph/api/team-clone?view=graph-rest-1.0&tabs=http)
