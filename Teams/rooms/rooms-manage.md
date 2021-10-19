@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo desarrollar y ejecutar operaciones y mantenimiento continuos para asegurarse de que sus Salas de Microsoft Teams están disponibles para los usuarios.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4ee508c923b3241be3ecf6b9fc3234f934153888
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 406f083f41b0d07f6cafff273de071f11d0f2e94
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984675"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462314"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Administrar Salas de Microsoft Teams
 
@@ -88,6 +88,28 @@ Si selecciona más de un dispositivo, las opciones que admiten la edición en ma
 | **Girar la cámara de contenido 180 grados**                        | Activado<br>Desactivado                                              | No                 |
 | *Theming*                                                    |                                                        |                    |
 |                                                              | Valor predeterminado<br>Sin tema<br>Personalizado<br>Lista de temas integrados   | Sí                |
+
+## <a name="cortana-settings"></a>Cortana configuración 
+Puede habilitar Cortana activación  por voz o _Push_ para hablar con PowerShell para todos los dispositivos de su organización o para cada dispositivo por separado. 
+-   En el nivel de organización y grupo, debe usar PowerShell.
+-   En el nivel de dispositivo, tiene algunas opciones. Puede usar PowerShell, editar el archivo de configuración XML o cambiar la configuración en Teams de administración. 
+
+Para obtener más información sobre el uso de PowerShell para configurar Cortana, vea Control de administración y limitaciones para Cortana [en Teams](/microsoftteams/cortana-in-teams#admin-control-and-limitations).
+
+Para obtener más información sobre cómo configurar el dispositivo con el archivo de configuración XML, vea Administrar una configuración de Salas de Microsoft Teams consola de forma remota [con un archivo de configuración XML.](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file)
+
+En el nivel de dispositivo, puede configurar Cortana que se active para:
+- _Pulsar para hablar_ con PowerShell  
+  - Cómo activarlo: Cortana Push _to talk_ está habilitado de forma predeterminada para todos los dispositivos configurados con configuración regional independientemente de la región geográfica
+  - Cómo desactivarlo: use Powershell. 
+- _Activación por voz_ con archivo de configuración XML o Teams de administración.
+  - Cómo activarlo: establecerlo en el archivo de configuración XML o usar la configuración correspondiente en Teams `<CortanaWakeWord>true</>` centro de administración
+  - Cómo desactivarla: Cortana activación de voz está desactivada de forma predeterminada 
+  
+  Tenga en cuenta que deben cumplirse tres condiciones para tener Cortana _activación de voz_ en el dispositivo:
+    1. Su organización debe tener Cortana habilitado
+    2. El dispositivo debe configurarse con una de las siguientes configuraciones regionales: en-au, en-ca, en-gb, en-in, en-us
+    3. Debe tener un dispositivo Cortana certificado conectado a su sala Teams más [información](/microsoftteams/cortana-in-teams)   
 
 ### <a name="device-restart-options"></a>Opciones de reinicio del dispositivo
 

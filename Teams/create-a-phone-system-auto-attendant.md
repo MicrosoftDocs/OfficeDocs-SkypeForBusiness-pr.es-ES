@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: 50c024854481a30f4a612db6320f51818b6d3b0d
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: a17921eee249d8baf10256e0d0ea17d4462494c0
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249532"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462364"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -257,6 +257,19 @@ También puede usar PowerShell para crear y configurar operadores automáticos. 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+
+## <a name="auto-attendant-diagnostic-tool"></a>Operador automático de diagnóstico
+
+Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que un operador automático puede recibir llamadas:
+
+1. Seleccione **Ejecutar pruebas** a continuación, que rellenará el diagnóstico en el Administración de Microsoft 365 centro. 
+
+   > [!div class="nextstepaction"]
+   > [Ejecutar pruebas: Teams federación](https://aka.ms/TeamsAADiag)
+
+2. En el panel Ejecutar diagnóstico, escriba la cuenta de recursos en el campo Nombre de usuario o **Correo** electrónico y, a continuación, **seleccione Ejecutar pruebas.**
+
+3. Las pruebas identificarán las configuraciones de cuenta de inquilino, directiva o recurso que impiden que el operador automático pueda recibir llamadas y proporcionará pasos para solucionar los problemas identificados.
 
 ## <a name="related-topics"></a>Temas relacionados
 

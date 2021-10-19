@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1518c2bbdf39c53f21026edc9da3dae8cc8ef90c
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 9ac3ebe8d4b8e2572c5e4d6766d671a86101340b
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942395"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465830"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -67,7 +67,6 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 
 Los usuarios que participen en las conversaciones que forman parte de la lista de chats en Teams deben tener un buzón de Exchange Online (basado en la nube) para que el administrador pueda buscar en las conversaciones de chat. Esto se debe a que las conversaciones que forman parte de la lista de chat se almacenan en los buzones de los participantes del chat basados en la nube. Si algún participante del chat no tiene buzón de Exchange Online, el administrador no podrá buscar ni suspender la conversación. Por ejemplo, en una implementación híbrida de Exchange, es posible que los usuarios con buzones locales puedan participar en conversaciones que formen parte de la lista de chat en Teams. Sin embargo, en este caso, el contenido de estas conversaciones no es susceptible de búsqueda y no se puede suspender, ya que los usuarios carecen de buzones basados en la nube. Para obtener más información, consulte [Cómo interactúan Exchange y Microsoft Teams](exchange-teams-interact.md).
 
-El chat de Teams funciona en un servidor back-end de Microsoft Exchange, por lo que los límites de mensajes de Exchange se aplican a la función de chat dentro de Teams.
 
 |Característica  | Límite máximo  |
 |---------|---------|

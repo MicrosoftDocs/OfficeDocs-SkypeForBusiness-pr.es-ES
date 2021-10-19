@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e829cb078ee334c36c69aa489c9dec6f3c5eaa10
-ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
+ms.openlocfilehash: b0843ce2adf400dca9cf426789adc6180daf3f57
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60007790"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465850"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de información en Microsoft Teams
 
@@ -37,7 +37,7 @@ Por Microsoft Teams, las barreras de información pueden determinar y evitar los
 
 >[!NOTE]
 >- Los grupos de barreras de información no se pueden crear entre inquilinos.
->- La versión 1 no admite el uso de bots, Azure Active Directory (Azure AD), API para enviar notificaciones de fuente de actividades y algunas API para agregar usuarios.
+>- Con bots, Azure Active Directory (Azure AD), API para enviar notificaciones de fuente de actividades y algunas API para agregar usuarios no es compatible con la versión 1.
 >- Los canales privados son compatibles con las directivas de barreras de información que configure.
 >- Para obtener información sobre la compatibilidad con barreras SharePoint sitios conectados a Teams, vea Segmentos [asociados](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)a Microsoft Teams sitios .
 
@@ -191,7 +191,7 @@ El modo barreras de información ayuda a fortalecer quién se puede agregar o qu
 
 Microsoft 365 Los grupos creados antes de activar una directiva de barrera de información se establecen automáticamente en *modo* Abierto de forma predeterminada. Una vez que active las directivas del IB en su inquilino, se le obligaría a actualizar el modo que reevaluará los grupos y sitios y dará como resultado que los usuarios que no cumplan se quiten automáticamente de estos grupos y sitios. Si necesita cambiar  la configuración de modo abierto en grupos conectados Teams existentes para cumplir los requisitos de cumplimiento de su organización, tendrá que actualizar los modos [del IB](/sharepoint/information-barriers.md#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell) para los sitios SharePoint conectados al equipo de Teams.
 
-Use el cmdlet *Set-UnifiedGroup* con el parámetro *InformationBarrierMode* que corresponde al modo que desea usar para los segmentos. La lista de valores permitidos para *el parámetro InformationBarrierMode* son *Open* e *Implicit*.
+Use el cmdlet [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) con el parámetro *InformationBarrierMode* que corresponde al modo que desea usar para los segmentos. La lista de valores permitidos para *el parámetro InformationBarrierMode* son *Open* e *Implicit*.
 
 Por ejemplo, para configurar el *modo* implícito para un grupo Microsoft 365, usará el siguiente comando de PowerShell:
 

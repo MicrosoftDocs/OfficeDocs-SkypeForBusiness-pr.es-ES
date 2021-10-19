@@ -18,18 +18,16 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo agregar, cambiar o quitar un lugar para una ubicación de emergencia para su organización en el centro de Microsoft Teams administración.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0f61a16caa40a1470031ec5f680d529522d49c1d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2bf3e2fad1ee0f0182e2b3a25f2be78f5ef68823
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629382"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465970"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
 Según el número de ubicaciones físicas de su organización, puede agregar lugares para edificios, pisos y oficinas para crear una ubicación de emergencia más específica. Vea [Administrar llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md) para obtener más información.
-  
-Para obtener información sobre cómo obtener un plan de llamadas y cuánto cuestan, consulte Teams [licencias de complementos.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 Puede administrar las ubicaciones de emergencia de su organización en el Microsoft Teams de administración o mediante PowerShell.
   

@@ -1,7 +1,7 @@
 ---
 title: Administrar directivas de llamadas de emergencia en Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -20,16 +20,20 @@ description: Obtenga información sobre cómo usar y administrar directivas de l
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: c05318f34f7c52570a061aa66644cde4b8ac020c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4b44cf8ae822a3ab390e4247396ff326eb39501
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632094"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465990"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Administrar directivas de llamadas de emergencia en Microsoft Teams
 
-Si su [](set-up-calling-plans.md) organización usa planes de llamadas o enrutamiento directo implementado [Sistema telefónico](direct-routing-landing-page.md), puede usar directivas de llamadas de emergencia en Microsoft Teams para definir lo que sucede cuando un usuario de Teams de su organización realiza una llamada de emergencia. Puede establecer a quién notificar y cómo se les notifica cuando un usuario al que se le asigna la directiva llama a los servicios de emergencia. Por ejemplo, puede configurar la configuración de directiva para notificar automáticamente al servicio de seguridad de su organización y hacer que escuche las llamadas de emergencia.  
+**Si su organización usa planes de llamadas de Microsoft, Operador Conectar o Enrutamiento directo como opción de conectividad [RTC,](pstn-connectivity.md)puede usar directivas de llamadas de emergencia en Microsoft Teams para definir lo que sucede cuando un usuario de Teams de su organización realiza una llamada de emergencia.**
+
+**TODO LO SIGUIENTE SE APLICA A LOS 3?**
+
+Puede establecer a quién notificar y cómo se les notifica cuando un usuario al que se le asigna la directiva llama a los servicios de emergencia. Por ejemplo, puede configurar la configuración de directiva para notificar automáticamente al servicio de seguridad de su organización y hacer que escuche las llamadas de emergencia.  
 
 Para administrar las directivas de llamadas de emergencia, vaya a Directivas de emergencia de voz en el centro Microsoft Teams de administración o mediante  >   Windows PowerShell. Las directivas se pueden asignar a usuarios y sitios [de red.](cloud-voice-network-settings.md)
 

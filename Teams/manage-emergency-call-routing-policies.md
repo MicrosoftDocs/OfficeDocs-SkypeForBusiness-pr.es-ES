@@ -21,16 +21,19 @@ description: Obtenga información sobre cómo usar y administrar directivas de e
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 5f6d3f45c2a3a97980bec3eb17ee1f6b35952fe5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e7744f87d4fe5be9fb0788166a172ea9709206b
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619446"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465810"
 ---
 # <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>Administrar directivas de enrutamiento de voz de emergencia para enrutamiento directo
 
-Si ha implementado [](direct-routing-landing-page.md) Sistema telefónico enrutamiento directo en su organización, puede usar directivas de enrutamiento de voz de emergencia en Microsoft Teams para configurar números de emergencia y especificar cómo se enruten las llamadas de emergencia. Una directiva de enrutamiento de voz de emergencia determina si los servicios de emergencia mejorados están habilitados para los usuarios a los que se les ha asignado la directiva, los números usados para llamar a servicios de emergencia (por ejemplo, 911 en Estados Unidos) y cómo se enrutar las llamadas a los servicios de emergencia.
+Si ha implementado [](direct-routing-landing-page.md) enrutamiento directo en su organización, puede usar directivas de enrutamiento de voz de emergencia en Microsoft Teams para configurar números de emergencia y especificar cómo se enruten las llamadas de emergencia. Una directiva de enrutamiento de voz de emergencia determina si los servicios de emergencia mejorados están habilitados para los usuarios a los que se les ha asignado la directiva, los números usados para llamar a servicios de emergencia (por ejemplo, 911 en Estados Unidos) y cómo se enrutar las llamadas a los servicios de emergencia. 
+
+> [!Note]
+> **Tenga en cuenta que estas directivas de enrutamiento de voz solo se aplican al enrutamiento directo: no se aplican a planes de llamadas ni a Conectar.**
 
 Para administrar las directivas de enrutamiento de voz de emergencia, vaya a Directivas de emergencia de voz en el centro de administración de Microsoft Teams o mediante  >   Windows PowerShell. Las directivas se pueden asignar a usuarios y sitios [de red.](cloud-voice-network-settings.md)
 
@@ -49,7 +52,7 @@ Si asignó una directiva de enrutamiento de voz de emergencia a un sitio de red 
 5. Defina uno o varios números de emergencia. Para ello, en **Números de emergencia,** haga clic **en Agregar** y, a continuación, haga lo siguiente:
     1. **Cadena de marcado de emergencia:** escriba la cadena de marcado de emergencia. Esta cadena de marcado indica que una llamada es una llamada de emergencia.
         > [!NOTE]
-        > Para enrutamiento directo, nos estamos alejando de Teams clientes que envían llamadas de emergencia con un "+" delante de la cadena de marcado de emergencia. Hasta que se complete la transición, el patrón de ruta de voz para que coincida con una cadena de marcado de emergencia debe asegurarse de que se realiza una coincidencia para las cadenas que tienen y no tienen un "+" anterior, como 911 y +911. Por ejemplo, ^ \\ +?911 o .*.
+        > **Para enrutamiento directo, Teams clientes ya no envían llamadas de emergencia con un "+" delante de la cadena de marcado de emergencia. Asegúrese de que el patrón de ruta de voz para que coincida con una cadena de marcado de emergencia refleja este cambio.**
     2. **Máscara de marcado de** emergencia: para cada número de emergencia, puede especificar cero o más máscaras de marcado de emergencia. Una máscara de marcado es el número que desea traducir al valor de la cadena de marcado de emergencia. Esto permite que se marquen números de emergencia alternativos y que la llamada llegue a los servicios de emergencia. <br>Por ejemplo, agregue 112 como máscara de marcado de emergencia, que es el número de servicio de emergencia de la mayor parte de Europa, y 911 como cadena de marcado de emergencia. Un Teams de Europa que está de visita puede no saber que el 911 es el número de emergencia en Los Estados Unidos y, cuando llaman al 112, la llamada se realiza al 911. Para definir varias máscaras de marcado, separe cada valor por punto y coma. Por ejemplo, 112;212.
     3. **Registro de uso rtc:** seleccione el registro de uso de red telefónica conmutada (RTC). El registro de uso de RTC se usa para determinar qué ruta se usa para enrutar llamadas de emergencia de usuarios autorizados a usarlas. La ruta asociada con este uso debe apuntar a un tronco del Protocolo de inicio de sesión (SIP) dedicado a las llamadas de emergencia o a una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) que enruta las llamadas de emergencia al Punto de respuesta de seguridad pública (PSAP) más próximo.
 

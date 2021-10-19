@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 073f1fa2fbc96ed78cddb6e16201476df2cafa96
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 40dd229a94a92dde70cf50c0a2a3018dab19a9a0
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275614"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462361"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -249,6 +249,19 @@ También puede usar Windows PowerShell para crear y configurar colas de llamadas
 - [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
 
 - [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
+
+## <a name="call-queue-diagnostic-tool"></a>Herramienta de diagnóstico de cola de llamadas
+
+Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que una cola de llamadas puede recibir llamadas:
+
+1. Seleccione **Ejecutar pruebas** a continuación, que rellenará el diagnóstico en el Administración de Microsoft 365 centro. 
+
+   > [!div class="nextstepaction"]
+   > [Ejecutar pruebas: Teams cola de llamadas](https://aka.ms/TeamsCallQueueDiag)
+
+2. En el panel Ejecutar diagnóstico, escriba la cuenta de recursos en el campo Nombre de usuario o **Correo** electrónico y, a continuación, **seleccione Ejecutar pruebas.**
+
+3. Las pruebas devolverán los mejores pasos siguientes para abordar cualquier configuración de cuenta de inquilino, directiva y recurso para validar que la cola de llamadas pueda recibir llamadas.
 
 ## <a name="related-topics"></a>Temas relacionados
 

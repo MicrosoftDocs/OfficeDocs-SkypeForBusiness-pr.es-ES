@@ -1,7 +1,7 @@
 ---
 title: Asignar o cambiar la ubicación de emergencia de un usuario
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -18,18 +18,24 @@ f1.keywords:
 - NOCSH
 description: En este artículo, aprenderá a asignar o cambiar una ubicación de emergencia para los usuarios de su organización.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36be65ef14cfe0fc97ce49dfa9227fe50daa18f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5395c74bfab124cb1036d696dd3613c920bed1e9
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588382"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465796"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Asignar o cambiar la ubicación de emergencia de un usuario
 
-Cuando configura planes de llamadas, debe asignar una ubicación de emergencia a cada número de teléfono o usuario. En los países europeos, la ubicación de emergencia está asociada con el número de teléfono cuando lo obtiene de Microsoft 365 o Office 365 o al transferir un número de teléfono a Microsoft 365 o Office 365. En Estados Unidos, la ubicación de emergencia está asociada con el número de teléfono cuando se asigna al usuario. La dirección de emergencia se puede cambiar si el usuario al que está asignada se mueve a una nueva ubicación. Para obtener más información sobre las direcciones y ubicaciones de emergencia, vea ¿Qué son las ubicaciones de emergencia, los lugares [y el enrutamiento de llamadas?](./what-are-emergency-locations-addresses-and-call-routing.md).
-  
-Para obtener información sobre cómo obtener un plan de llamadas y cuánto cuestan, consulte Teams [licencias de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+**¿SE APLICA LO SIGUIENTE A TODOS LOS 3?**
+
+**Es necesario asignar una ubicación de emergencia a cada número de teléfono o usuario. Para obtener más información sobre las direcciones y ubicaciones de emergencia, vea ¿Qué son las ubicaciones de emergencia, los lugares [y el enrutamiento de llamadas?](./what-are-emergency-locations-addresses-and-call-routing.md).**
+
+**Para los planes de llamadas de Microsoft, en los países europeos, la ubicación de emergencia está asociada con el número de teléfono al obtenerlo de Microsoft 365 o al transferir un número de teléfono a Microsoft 365. En Estados Unidos, la ubicación de emergencia está asociada con el número de teléfono cuando se asigna al usuario. La dirección de emergencia se puede cambiar si el usuario al que está asignada se mueve a una nueva ubicación.**
+
+**Para Operador Conectar, ...**
+
+**Para enrutamiento directo,...**
   
 Puede asignar o cambiar una ubicación de emergencia para un usuario en el centro de Microsoft Teams o mediante PowerShell.
 

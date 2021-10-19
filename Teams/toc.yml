@@ -1047,6 +1047,8 @@ items:
             href: what-are-dial-plans.md
           - name: Crear y administrar planes de marcado
             href: create-and-manage-dial-plans.md
+          - name: Enrutar llamadas a números sin asignar
+            href: routing-calls-to-unassigned-numbers.md
           - name: Agregar y actualizar etiquetas de informes
             href: learn-more-about-site-upload.md
       - name: Configuración de red y topología

@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre las características, la disponibilidad y cómo planear y configurar Teléfono Microsoft sistema para su empresa. '
-ms.openlocfilehash: 6784018e9bda245ab162b68cae88ef69ac15238f
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 57bffbdb9d8a6b7955106d369284f716b2723a97
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012974"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465820"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Esto es lo obtiene con el Sistema telefónico
 
@@ -51,7 +51,7 @@ Sistema telefónico proporciona las siguientes características. A menos que se 
 |:-----|:-----|
 |[Operadores automáticos en la nube](what-are-phone-system-auto-attendants.md)  |Le permite crear un sistema de menús que permite a los autores de llamadas externos e internos localizar y realizar o transferir llamadas a usuarios o departamentos de la empresa de su organización.  <br/> Tenga en cuenta *que los usuarios no* necesitan estar habilitados para recibir llamadas del operador automático. |
 |[Colas de llamadas en la nube](create-a-phone-system-call-queue.md) <br> |Le permite configurar cómo se administran las colas de llamadas para su organización: por ejemplo, configurar saludos y música en espera, buscar el siguiente agente de llamada disponible para administrar la llamada, y así sucesivamente.  <br/> Tenga en cuenta que *los usuarios* necesitan estar habilitados para recibir llamadas desde una cola de llamadas.|
-|Música en espera | Reproduce música predeterminada definida por el servicio cuando una llamada externa de la red telefónica conmutada (RTC) está en espera. Esta característica funciona para llamadas RTC a Teams llamadas, además de las llamadas realizadas a una cola de llamadas. Esta característica proporciona paridad de notificaciones en espera con otras plataformas. Esta característica es configurable por el administrador, pero [actualmente solo a través de PowerShell.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) La música de retención tampoco es compatible con la transferencia consultiva de una llamada RTC.|
+|Música en espera | Reproduce música predeterminada definida por el servicio cuando una llamada externa de la red telefónica conmutada (RTC) está en espera. Esta característica funciona para llamadas RTC a Teams llamadas, además de las llamadas realizadas a una cola de llamadas. Esta característica proporciona paridad de notificaciones en espera con otras plataformas. Esta característica es configurable por el administrador, pero [actualmente solo a través de PowerShell.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) La música de retención tampoco es compatible con la transferencia consultiva de una llamada RTC. Para obtener más información, [vea Música en espera.](music-on-hold.md)|
 |Iniciar/responder llamadas (por nombre y número)   |Permite a los usuarios responder llamadas entrantes con un toque y realizar llamadas salientes marcando el número de teléfono completo o haciendo clic en un nombre en el cliente.   |
 |[Opciones de reenvío de llamadas y llamada simultánea](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)  |Permite a los usuarios configurar reglas de reenvío para que las llamadas puedan ir con ellas a cualquier lugar, o las llamadas se pueden reenviar a compañeros o al correo de voz.   |
 |[Recogida de llamadas grupales y reenvío al grupo](call-sharing-and-group-call-pickup.md)  | Permite a los usuarios compartir llamadas entrantes con compañeros de trabajo para que los compañeros puedan responder a las llamadas que se producen mientras el usuario no está disponible. Menos perjudicial para los destinatarios que otras formas de uso compartido de llamadas (como el reenvío de llamadas o la llamada simultánea) porque los usuarios pueden configurar cómo quieren recibir una notificación de una llamada compartida entrante. |
@@ -85,7 +85,7 @@ Las siguientes funcionalidades aún no están disponibles en GCC nubes altas y d
 - [Transferir al correo de voz a mitad de llamada](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Llamar al número de teléfono desde la barra de búsqueda
 - Música en espera
-- Búsqueda inversa de números de Azure AD
+- Azure AD de números inversos
 
 ## <a name="related-topics"></a>Temas relacionados
 

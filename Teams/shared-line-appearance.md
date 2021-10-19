@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo enviar a los usuarios un correo electrónico con su información de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: e9954f85d9f5676635dc8d4616c08d0e0d3ac6be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 057c9a91e1eab20ab7f9ece6c427b6c39ef762b9
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617176"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462384"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Apariencia de línea compartida en Microsoft Teams
 
@@ -38,7 +38,7 @@ La apariencia de línea compartida forma parte de la característica de delegaci
 
 ## <a name="license-required"></a>Licencia necesaria
 
-Un usuario debe tener Sistema telefónico conectividad RTC (ya sea una licencia de Plan de llamadas o Direct Routing OnlineVoiceRoutingPolicy) para ser delegado o configurar una delegación y permitir que otros usuarios realicen o reciban llamadas en su nombre.
+Un usuario debe tener Sistema telefónico conectividad RTC (ya sea una licencia del Plan de llamadas o Direct Routing OnlineVoiceRoutingPolicy) para ser delegado o configurar una delegación y permitir que otros usuarios realicen o reciban llamadas en su nombre.
 
 Tanto los administradores como los delegados deben tener Sistema telefónico con conectividad RTC (ya sea una licencia de Plan de llamadas o Direct Routing OnlineVoiceRoutingPolicy). La experiencia de línea compartida forma parte de la delegación y se incluye con Sistema telefónico. Para obtener más información sobre el modelo de licencias, [vea Microsoft Teams descripción del servicio](/office365/servicedescriptions/teams-service-description).
 
@@ -63,10 +63,10 @@ La apariencia de línea compartida es compatible actualmente con las siguientes 
 | Recibir llamadas en nombre de otro usuario | Sí | Sí | Sí | Sí | Sí |
 | Llamar a un número de teléfono en nombre de otro | Sí | Sí | Sí | Sí | Sí |
 | Llamar a Teams usuario en nombre de otro usuario | Sí | Sí | Sí | Sí | Sí |
-| Ver la vista de administrador de líneas compartidas | Sí | Sí | Sí | No | No |
-| Ver la vista de administrador de las actividades de llamada del administrador | Sí | Sí | Sí | No | No |
+| Ver la vista de delegado de líneas compartidas | Sí | Sí | Sí | No | No |
+| Ver la vista de delegado de las actividades de llamada del administrador | Sí | Sí | Sí | No | No |
 | Ver la vista de administrador de delegados | Sí | Sí | Sí | No | No |
-| Administrador o administrador puede retener o reanudar | Sí | Sí | Sí | No | No |
+| El delegado o el administrador pueden retener o reanudar | Sí | Sí | Sí | No | No |
 
 ## <a name="limitations"></a>Limitaciones
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo supervisar y solucionar problemas de configuración de enrutamiento directo, incluidos controladores de borde de sesión, componentes de enrutamiento directo y troncos de Telecom.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aeff22bf3558c64111f0d1b66c2fd76288f81477
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 97bc8afb3645fca4e06b859b765dfbf1e3fe1859
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726889"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462324"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Supervisar y solucionar problemas de enrutamiento directo
 
@@ -37,6 +37,19 @@ La capacidad de realizar y recibir llamadas mediante enrutamiento directo implic
 Si tiene dificultades para solucionar problemas, puede abrir un caso de soporte técnico con su proveedor de SBC o Microsoft. 
 
 Microsoft está trabajando en proporcionar más herramientas para la solución de problemas y la supervisión. Compruebe periódicamente si hay actualizaciones en la documentación. 
+
+## <a name="direct-routing-diagnostic-tool"></a>Herramienta de diagnóstico de enrutamiento directo
+
+Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que un usuario está configurado correctamente para enrutamiento directo:
+
+1. Seleccione **Ejecutar pruebas** a continuación, que rellenará el diagnóstico en el Administración de Microsoft 365 centro. 
+
+   > [!div class="nextstepaction"]
+   > [Ejecutar pruebas: Enrutamiento directo](https://aka.ms/TeamsDirectRoutingDiag)
+
+2. En el panel Ejecutar diagnóstico, escriba el correo electrónico  del usuario que desea probar en el campo Nombre de usuario o Correo electrónico y, a continuación, **seleccione Ejecutar pruebas.**
+
+3. Las pruebas devolverán los mejores pasos siguientes para abordar cualquier configuración de inquilino, usuario o directiva para validar que el usuario está configurado correctamente para enrutamiento directo en Microsoft Teams.
 
 ## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>Supervisar la disponibilidad de los controladores de borde de sesión con mensajes de opciones del Protocolo de inicio de sesión (SIP)
 

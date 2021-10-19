@@ -1,7 +1,7 @@
 ---
 title: Asignar y cambiar lugares para ubicaciones de emergencia para los usuarios
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: En este artículo, aprenderá a asignar o cambiar el lugar de una ubicación de emergencia para los usuarios de su organización.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 146c97be9b416b0e338b6b6c49eeb19171b26cee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1edc7bd6f5a1ea1b7a09f6747c1ee61f7dd74758
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617606"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465980"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Asignar o cambiar el lugar de una ubicación de emergencia para un usuario
 
-Cada número de teléfono activo debe tener una ubicación de emergencia asociada al asignar el número de teléfono a un usuario. (Se asocia la dirección al obtener un número de teléfono en Office 365 o al transferir un número de teléfono). Al asociar el número a una ubicación de emergencia, también puede agregar un lugar para proporcionar una ubicación más exacta dentro de una ubicación física. Un lugar puede ser el piso, el ala del edificio u número de oficina donde se encuentra el usuario. Puede tener un número ilimitado de lugares para una ubicación de emergencia determinada y puede cambiar el lugar si el usuario se mueve a otra oficina o edificio. Por ejemplo, si el usuario se mueve del piso 34 al piso 35.
-  
-Para obtener información sobre cómo obtener planes de llamadas y cuánto cuestan, consulte Teams [licencias de complementos.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Cada número de teléfono activo debe tener una ubicación de emergencia asociada al asignar el número de teléfono a un usuario. **La dirección se asocia cuando recibe un número de teléfono en Microsoft 365, cuando transfiere un número de teléfono a Microsoft 365 o cuando recibe un número de teléfono de su proveedor.**
+
+Al asociar el número a una ubicación de emergencia, también puede agregar un lugar para proporcionar una ubicación más exacta dentro de una ubicación física. Un lugar puede ser el piso, el ala del edificio u número de oficina donde se encuentra el usuario. Puede tener un número ilimitado de lugares para una ubicación de emergencia determinada y puede cambiar el lugar si el usuario se mueve a otra oficina o edificio. Por ejemplo, si el usuario se mueve del piso 34 al piso 35.
   
 Puede asignar o cambiar el lugar de una ubicación de emergencia para un usuario en el centro de administración de Microsoft Teams o mediante PowerShell.
 

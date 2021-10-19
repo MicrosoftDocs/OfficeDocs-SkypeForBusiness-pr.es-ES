@@ -1,7 +1,7 @@
 ---
-title: Administrar la topología de red para las características de voz en la nube en Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: Administre la topología de red para las características de voz en la nube en Microsoft Teams
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -19,28 +19,26 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar la configuración de red para las características de voz en la nube en Microsoft Teams.
-ms.openlocfilehash: 571b2e2f4c502a41604b5e2660d7e59990dd49bb
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: f949016a06c9b9f5b2d0d87649a46396c8bb54d8
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015344"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465780"
 ---
-# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Administrar la topología de red para las características de voz en la nube en Microsoft Teams
+# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Administre la topología de red para las características de voz en la nube en Microsoft Teams
 
-Si su organización [](location-based-routing-plan.md) implementa enrutamiento basado en la ubicación para enrutamiento directo o llamadas de emergencia dinámicas, [](configure-dynamic-emergency-calling.md)debe configurar la configuración de red para usarla con estas características de voz en la nube en Microsoft Teams. La configuración de red se usa para determinar la ubicación de un cliente de Teams e incluye regiones de red, sitios de red, subredes y direcciones IP de confianza. En función de la característica y la capacidad de voz en la nube que implemente, puede configurar algunas o todas estas opciones de configuración. Para obtener más información sobre estos términos, vea [Configuración de red para las características de voz en la nube.](cloud-voice-network-settings.md)
+Si su organización [](location-based-routing-plan.md) está implementando enrutamiento basado en la ubicación para enrutamiento directo o llamadas de emergencia dinámicas, [](configure-dynamic-emergency-calling.md)debe configurar la configuración de red para su uso con estas características de voz en la nube en Microsoft Teams. La configuración de red se usa para determinar la ubicación de un cliente Teams e incluyen regiones de red, sitios de red, subredes y direcciones IP de confianza. En función de la característica y la capacidad de voz en la nube que implemente, puede configurar algunas o todas estas opciones de configuración. Para obtener más información sobre estos términos, vea [Configuración de red para las características de voz en la nube.](cloud-voice-network-settings.md)
 
-Puede configurar la configuración de red en la **página Topología de** red del Centro de administración de Microsoft Teams o mediante Windows PowerShell.
+Puede configurar la configuración de red en la **página** Topología de red del Microsoft Teams de administración o mediante Windows PowerShell.
 
-## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>Configurar la configuración de red en el Centro de administración de Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>Configurar la configuración de red en el Microsoft Teams de administración
 
 Defina regiones de red, sitios de red y subredes en la pestaña Sitios **de** red de la **página Topología de** red. Aquí puede crear o modificar un sitio de red, asociar un sitio a una región de red, asociar una subred al sitio, activar enrutamiento basado en ubicación y asignar directivas de emergencia al sitio. También puede agregar regiones de red que se pueden usar globalmente para todos los sitios.
 
 #### <a name="add-and-configure-a-network-site"></a>Agregar y configurar un sitio de red
 
-1. En la navegación izquierda del Centro de administración de Microsoft Teams, vaya **a** Topología de red de ubicaciones y, a continuación, haga clic en la  >  pestaña Sitios **de** red.
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Topología de red de ubicaciones y, a continuación, haga clic en  >  la pestaña **Sitios de** red.
 2. Haga **clic en** Agregar y, a continuación, escriba un nombre y una descripción para el sitio.
 
     ![Captura de pantalla de la página Agregar sitio de red.](media/manage-network-topology-add-site.png)
@@ -49,25 +47,25 @@ Defina regiones de red, sitios de red y subredes en la pestaña Sitios **de** re
 4. Para habilitar Location-Based enrutamiento para el sitio, active **Enrutamiento basado en ubicación.**
 5. Para asignar directivas de servicios de emergencia al sitio, realice una o ambas acciones:
 
-    - Si su organización usa planes de llamadas o enrutamiento directo del sistema telefónico implementado, en **Directiva** de llamadas de emergencia, seleccione la directiva que desee.
-    - Si su organización implementó enrutamiento directo del sistema telefónico, en Directiva de enrutamiento de **llamadas de emergencia,** seleccione la directiva que desee.
+    - Si su organización usa Planes de llamadas, Operador Conectar o Enrutamiento directo, en **Directiva** de llamadas de emergencia, seleccione la directiva que desee.
+    - Si su organización implementó enrutamiento directo, en Directiva de enrutamiento de **llamadas de emergencia,** seleccione la directiva que desee.
 
 6. Para asociar una subred al sitio, en **Subredes,** haga clic **en Agregar subredes.** Especifique la versión IP, la dirección IP, el rango de red, agregue una descripción y, a continuación, haga clic en **Aplicar.** Cada subred debe estar asociada a un sitio específico.
 7. Haga clic en **Guardar**.
 
 #### <a name="modify-a-network-site"></a>Modificar un sitio de red
 
-1. En la navegación izquierda del Centro de administración de Microsoft Teams, vaya **a** Topología de red de ubicaciones y, a continuación, haga clic en la  >  pestaña Sitios **de** red.
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Topología de red de ubicaciones y, a continuación, haga clic en  >  la pestaña **Sitios de** red.
 2. Seleccione el sitio haciendo clic a la izquierda del nombre del sitio y, a continuación, haga clic en **Editar.**
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar.**
 
 ### <a name="manage-external-trusted-ip-addresses"></a>Administrar direcciones IP de confianza externa
 
-Puede administrar direcciones IP de confianza externa en la pestaña **Ip de** confianza en la página Topología **de** red del Centro de administración de Microsoft Teams. Puede agregar un número ilimitado de direcciones IP de confianza externa.
+Puede administrar direcciones IP de confianza externa en la pestaña **Ip de** confianza en la **página** Topología de red del centro de Microsoft Teams administración. Puede agregar un número ilimitado de direcciones IP de confianza externa.
 
 #### <a name="add-a-trusted-ip-address"></a>Agregar una dirección IP de confianza
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Topología de red de ubicaciones y, a continuación, haga clic en  >  la pestaña **Ip de** confianza.
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Topología de red de ubicaciones y, a continuación, haga clic en la pestaña  >   **Ip de** confianza.
 2. Haga clic en **Nuevo**.
 3. En el **panel Agregar dirección IP de** confianza, especifique la versión IP, la dirección IP, el rango de red, agregue una descripción y, a continuación, haga clic en **Aplicar.**
 
@@ -75,13 +73,13 @@ Puede administrar direcciones IP de confianza externa en la pestaña **Ip de** c
 
 #### <a name="edit-a-trusted-ip-address"></a>Editar una dirección IP de confianza
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Topología de red de ubicaciones y, a continuación, haga clic en  >  la pestaña **Ip de** confianza.
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Topología de red de ubicaciones y, a continuación, haga clic en la pestaña  >   **Ip de** confianza.
 2. Seleccione la dirección IP haciendo clic a la izquierda y, a continuación, haga clic en **Editar.**
 3. En el **panel Editar dirección IP de** confianza, realice los cambios que desee y, a continuación, haga clic en **Aplicar.**
 
 ## <a name="configure-network-settings-using-powershell"></a>Configurar la configuración de red con PowerShell
 
-Para completar los pasos de esta sección, necesitará familiarizarse con los cmdlets de PowerShell. Para obtener más información, vea [Información general de PowerShell de Teams.](teams-powershell-overview.md)
+Para completar los pasos de esta sección, necesitará familiarizarse con los cmdlets de PowerShell. Para obtener más información, [vea Teams información general de PowerShell](teams-powershell-overview.md).
 
 ### <a name="define-network-regions"></a>Definir regiones de red
 
@@ -184,4 +182,4 @@ Vea también [Set-CsTenantTrustedIPAddress](/powershell/module/skype/set-cstenan
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Configuración de red para características de voz en la nube en Teams](cloud-voice-network-settings.md)
+- [Configuración de red para las características de voz en la nube en Teams](cloud-voice-network-settings.md)
