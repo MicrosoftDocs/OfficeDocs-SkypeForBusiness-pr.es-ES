@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bdf14874765a8cd67f0ea7ffcfdcb05358b061b
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 2d84d42849667c1cd87a90f9cd8b3480b5ed8bbd
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356458"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462394"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -435,6 +435,33 @@ También puede aplicar directivas DLP a archivos de grabación de reuniones medi
 - Valor = *Media.Meeting*
 
 Para más información sobre DLP, consulte el artículo [Información sobre la prevención de pérdida de datos](/microsoft-365/compliance/dlp-learn-about-dlp)
+
+## <a name="meeting-recording-diagnostic-tools"></a>Herramientas de diagnóstico de grabación de reuniones
+  ### <a name="user-cannot-record-meetings"></a>El usuario no puede grabar reuniones
+
+Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que se ha configurado correctamente al usuario para grabar una reunión en Teams:
+
+1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
+
+   > [!div class="nextstepaction"]
+   > [Ejecutar pruebas: Grabación de reuniones](https://aka.ms/MeetingRecordingDiag)
+
+2. En el panel Ejecutar diagnóstico, escriba el correo electrónico del usuario que no puede grabar reuniones en el campo **Nombre de usuario** o Correo electrónico y, a continuación, seleccione **Ejecutar pruebas**.
+
+3. Las pruebas devolverán los mejores pasos siguientes para abordar cualquier configuración de inquilino o directiva para validar que el usuario esté configurado correctamente para grabar una reunión en Teams.
+  
+  ### <a name="meeting-record-is-missing"></a>Falta un registro de reunión
+
+Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que la grabación de la reunión se ha completado correctamente y se ha cargado en Stream o OneDrive, según el id. de la reunión y la hora de inicio de la grabación:
+
+1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
+
+   > [!div class="nextstepaction"]
+   > [Ejecutar pruebas: falta la grabación de la reunión](https://aka.ms/MissingRecordingDiag)
+
+2. En el panel Ejecutar diagnóstico, escriba la dirección URL de la reunión en el campo de la **dirección URL de la reunión que se registró** (normalmente se encuentra en la invitación a la reunión), así como la fecha de la reunión en el campo **¿Cuándo se registró la reunión? ** y, a continuación, seleccione **Ejecutar pruebas**.
+
+3. Las pruebas validarán que la grabación de la reunión se haya completado correctamente y se haya cargado en Stream o OneDrive.
 
 ## <a name="related-topics"></a>Temas relacionados
 
