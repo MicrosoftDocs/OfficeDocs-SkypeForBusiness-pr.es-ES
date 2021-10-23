@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ed307d811322d2c217a117d192731cf5d42edcb7
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973018"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536711"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 
@@ -34,11 +34,11 @@ Teams proporciona una experiencia de colaboración excelente para su organizaci�
 
 Para empezar, vea nuestro breve vídeo sobre el chat, los equipos y los canales de Teams (4:30 minutos):
 
+<br/>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*Novedades de noviembre de 2019*
- - Ahora puede [Usar el Asesor de Teams (versión preliminar) para ayudar a implementar Microsoft Teams](use-advisor-teams-roll-out.md). El Asesor de Teams (versión preliminar) le guiará a través de la implementación de Teams. Evalúa el entorno de Microsoft 365 u Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams.
- - [Conceptos básicos de Microsoft Teams para TI](https://aka.ms/MicrosoftTeamsforIT), incluidos vídeos breves (8-10 minutos) que muestran cómo implementar, configurar y administrar Teams.
+Puede usar el [Asesor para Teams](use-advisor-teams-roll-out.md) para ayudar a implementar Microsoft Teams. El Asesor para Teams le guiará a través de la implementación de Teams. Evalúa el entorno de Microsoft 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams.
 
 > [!TIP]
 > Le recomendamos que incluya nuestras aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Añada otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que fomenta el uso de Teams.

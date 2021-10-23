@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c28a79ddd3608e2e10d3e722577fc9e8d49334cb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727819"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537061"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en Microsoft Teams
 
@@ -99,8 +99,8 @@ Establezca los siguientes parámetros de configuración en el portal de Azure In
 |Plataforma |Clave  |Valor  |
 |---------|---------|---------|
 |iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Habilitado**: la única cuenta permitida es la cuenta de usuario administrada definida por la clave IntuneMAMUPN.<br> **Deshabilitado** (o cualquier valor que no sea una coincidencia insensible a las mayúsculas y minúsculas con **Habilitado**): cualquier cuenta está permitida.        |
-|iOS     |   **IntuneMAMUPN**      |   UPN de la cuenta permitida para acceder a Teams.<br> En el caso de los dispositivos inscritos en Intune, se puede utilizar el símbolo {{nombre del usuario principal}} para representar la cuenta de usuario inscrito.       |
-|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Sólo se permiten las cuentas de usuario administradas definidas por esta clave.<br> Uno o más punto y coma ;]- UPN delimitados.<br> En el caso de los dispositivos inscritos en Intune, se puede utilizar el símbolo {{nombre del usuario principal}} para representar la cuenta de usuario inscrito.
+|iOS     |   **IntuneMAMUPN**      |   UPN de la cuenta permitida para acceder a Teams.<br> En el caso de los dispositivos inscritos en Intune, se puede utilizar el símbolo {{userprincipalname}} para representar la cuenta de usuario inscrito.       |
+|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Sólo se permiten las cuentas de usuario administradas definidas por esta clave.<br> Uno o más punto y coma ;]- UPN delimitados.<br> En el caso de los dispositivos inscritos en Intune, se puede utilizar el símbolo {{userprincipalname}} para representar la cuenta de usuario inscrito.
 
 Una vez que se haya establecido la configuración de la cuenta, Teams restringirá la posibilidad de iniciar sesión, de modo que sólo se concederá acceso a las cuentas permitidas en los dispositivos inscritos.
 
@@ -119,7 +119,7 @@ Cuando esta directiva está configurada en un dispositivo, los usuarios solo pue
 >1. La directiva solo restringe los inicios de sesión. No restringe la capacidad de los usuarios de ser agregados como invitados en otros espacios empresariales de Azure AD o cambiar a otros espacios empresariales (donde se ha invitado a los usuarios como invitados).
 >2. La directiva requiere Microsoft Teams para Windows versión 1.3.00.30866 o superior, y Microsoft Teams para MacOS versión 1.3.00.30882 (lanzado a mediados de noviembre de 2020).
 
-**Las directivas para los archivos de la plantilla administrativa (ADMX/ADML) de Windows** están disponibles en el [Centro de descargas](https://www.microsoft.com/download/details.aspx?id=49030) (el nombre descriptivo de la configuración de directiva en el archivo de plantilla administrativa es "Restringir el inicio de sesión en Teams a cuentas de espacios empresariales específicos"). Además, puede establecer manualmente las teclas en el registro de Windows:
+Las **directivas para los archivos de la plantilla administrativa (ADMX/ADML) de Windows** están disponibles en el [Centro de descargas](https://www.microsoft.com/download/details.aspx?id=49030) (el nombre descriptivo de la configuración de directiva en el archivo de plantilla administrativa es "Restringir el inicio de sesión en Teams a cuentas de espacios empresariales específicos"). Además, puede establecer de forma manual las claves en el Registro de Windows:
 
 - Nombre del valor: RestrictTeamsSignInToAccountsFromTenantList
 - Tipo de valor: cadena
@@ -145,10 +145,8 @@ La experiencia de inicio de sesión es similar a nuestra experiencia de inicio d
 
 ## <a name="urls-and-ip-address-ranges"></a>Intervalos de direcciones IP y URL
 
-Teams requiere conectividad a Internet. Para comprender los puntos de conexión que deben ser accesibles para los clientes que usan Teams en los planes de Office 365, gobierno y otras nubes, consulte [Intervalos de la dirección IP y URL de Office 365](/office365/enterprise/urls-and-ip-address-ranges).
+Teams requiere conexión a internet. Para obtener más información sobre los puntos de conexión que deben ser accesibles para los clientes que usan Teams en los planes de Office 365, así como en la nube de la administración pública y otras nubes, consulte [Intervalos de direcciones IP y URL de Office 365](/office365/enterprise/urls-and-ip-address-ranges).
 
-> [!IMPORTANT]
-> En la actualidad, Teams necesita acceso (puerto TCP 443) al servicio de Google ssl.gstatic.com para todos los usuarios, esto sucede aunque no esté usando Gstatic. Teams quitará este requisito pronto (principios de 2020), y actualizaremos este artículo en consecuencia en ese momento.
 
 ## <a name="related-topics"></a>Temas relacionados
 
