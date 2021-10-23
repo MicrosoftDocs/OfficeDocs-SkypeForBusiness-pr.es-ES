@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el Centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e769de858a7c0cb1ab14a538b1b1dc2a6559b21f
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: d817a89b60de260529b1e9d4a9891290d9ea404b
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356478"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536891"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -89,8 +89,6 @@ Esta es una lista de todos los eventos que se registran para las actividades de 
 |Bot agregado al equipo   |BotAddedToTeam        |Un usuario agrega un bot a un equipo.        |
 |Agregación de canales   |Canal agregado         |Un usuario agrega un canal a un equipo.         |
 |Conector agregado  |Conector agregado          |Un usuario agrega un conector a un canal.        |
-|Se han agregado detalles sobre Teams reunión|MeetingDetail|Teams información agregada sobre una reunión, incluida la hora de inicio, la hora de finalización y la dirección URL para unirse a la reunión.|
-|Información agregada sobre los participantes de la reunión|MeetingParticipantTrack|Teams información sobre los participantes de una reunión, incluido el id. de usuario de cada participante, la hora en que un participante se unió a la reunión y la hora en que un participante abandonó la reunión.|
 |Miembros agregados    |Miembro agregado         |El propietario de un equipo agrega miembros a un equipo, canal o chat grupal.         |
 |Pestaña Agregado    |Pestaña Agregada         |Un usuario agrega una pestaña a un canal.        |
 |Configuración del canal cambiada    |ChannelSettingChanged         |La operación ChannelSettingChanged se registra cuando un miembro del equipo realiza las siguientes actividades. Para cada una de estas actividades, se muestra una descripción de la configuración  que se ha cambiado (se muestra entre paréntesis en la columna Elemento en los resultados de búsqueda del registro de auditoría. <ul><li>Cambia el nombre de un canal de grupo (**nombre del canal**)</li><li>Cambiar la descripción de un canal de grupo (**Descripción del canal**)</li> </ul>      |

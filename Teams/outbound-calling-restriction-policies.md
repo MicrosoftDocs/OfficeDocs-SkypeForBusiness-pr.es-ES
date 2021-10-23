@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Los administradores pueden controlar el tipo de audioconferencia y las llamadas RTC de usuario final que pueden realizar los usuarios.
-ms.openlocfilehash: fe63a29bf4cde46ee881d7a425839073ed4b4b7f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 93f219feea677afe83c1c1dc031d6b878b219a45
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730329"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536881"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 
@@ -49,7 +49,7 @@ Para saber qué países y regiones se consideran zona A, vea Zonas de país y [r
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir las llamadas salientes de audioconferencia
 
-![el Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
+**Usar el Centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, seleccione **Usuarios** y, a continuación, seleccione el nombre para mostrar del usuario en la lista de usuarios disponibles.
 
@@ -59,20 +59,6 @@ Para saber qué países y regiones se consideran zona A, vea Zonas de país y [r
 
 5. Seleccione **Guardar**.
 
-![Un icono que muestra Skype Empresarial logotipo.](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
-
-1. En el **Skype Empresarial** de administración , en el panel de navegación izquierdo, vaya a **Usuarios** de audioconferencia y, a continuación, seleccione el usuario de la lista de  >  usuarios disponibles.
-
-2. En el panel de acciones, seleccione **Editar**.
-
-3.  En **Restricciones a las salidas** de acceso telefónico de las reuniones de este usuario, seleccione la opción de restricción de acceso telefónico que desee.
-
-      ![Las opciones Restricciones de acceso telefónico.](media/restrictions-to-dial-outs.png)
-
-4. Seleccione **Guardar**.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 **Con PowerShell**
 
@@ -82,13 +68,13 @@ Puede usar el cmdlet Get-CSOnlineDialOutPolicy para ver las directivas de llamad
 
 **Establezca la directiva en un nivel por usuario con el siguiente cmdlet.** (El cmdlet Grant no contiene la palabra "En línea" como lo hace el cmdlet Get).
 
-```
+```powershell
 Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>    
 ```
 
 **Establezca la directiva en el nivel de inquilino con el cmdlet siguiente.**
 
-```
+```powershell
 Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
 ```
 

@@ -20,26 +20,28 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo para Teams usuarios para que los clientes y empresas externas puedan llamar.
-ms.openlocfilehash: a6e2c8075134817b61d99366633f29140599b447
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 92c19912e566f7dbea09b4849d9970619551b4a4
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046186"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536511"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un teléfono móvil de un usuario
 
-Al configurar Planes de llamadas **u Operador Conectar**, se asignan números de teléfono a los usuarios. En Microsoft Teams, el número de teléfono que asigna se muestra cuando un usuario hace clic en **Llamadas.** 
+Al configurar planes de llamadas u Conectar operador, se asignan números de teléfono a los usuarios. En Microsoft Teams, el número de teléfono que asigna se muestra cuando un usuario hace clic en **Llamadas.** 
 
-**Este artículo se aplica a planes de llamadas y Conectar.** Para obtener información sobre cómo asignar, cambiar o quitar un número de teléfono de un usuario en un escenario de enrutamiento directo, vea Habilitar usuarios para enrutamiento directo, voz y correo [de voz.](./direct-routing-enable-users.md)
+Este artículo se aplica a planes de llamadas y Conectar. Para obtener información sobre cómo asignar, cambiar o quitar un número de teléfono de un usuario en un escenario de enrutamiento directo, vea Habilitar usuarios para enrutamiento directo, voz y correo [de voz.](./direct-routing-enable-users.md)
 
-**Antes de asignar un número para un plan de llamadas u operador Conectar usuario, debe obtener números para los usuarios. Para obtener más información, vea [Obtener números para usuarios del plan](getting-phone-numbers-for-your-users.md) de llamadas o Configurar números para usuarios Conectar [operadores.](operator-connect-configure.md#set-up-phone-numbers)**
+Antes de asignar un número para un plan de llamadas u operador Conectar usuario, debe obtener números para los usuarios. Para obtener más información, vea [Obtener números para usuarios del plan](getting-phone-numbers-for-your-users.md) de llamadas o Configurar números para usuarios Conectar [operadores.](operator-connect-configure.md#set-up-phone-numbers)
 
   
 > [!NOTE]
 > Una forma de ver si un usuario tiene una licencia asignada es yendo al centro de administración de Microsoft Teams de > **Usuarios.** Si se asigna una licencia, se indicará en la página.  También puede usar la Centro de administración de Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Asignar un número de teléfono a un usuario
+
+Al asignar un número de teléfono a un usuario, asegúrese de que el número de teléfono y la ubicación de uso del usuario son del mismo país.
 
 Para asignar un número mediante el centro Teams administración:
     
@@ -52,7 +54,7 @@ Para asignar un número mediante el centro Teams administración:
 4. Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia,** busque y seleccione la ubicación.
 
    > [!NOTE]
-   > **Si va a asignar números al operador Conectar usuarios, es posible que no pueda asignar o cambiar la ubicación de emergencia asociada. Esta funcionalidad dependerá del operador. Póngase en contacto con su operador para obtener más información.**
+   > Si va a asignar números al operador Conectar usuarios, es posible que no pueda asignar o cambiar la ubicación de emergencia asociada. Esta funcionalidad dependerá del operador. Póngase en contacto con su operador para obtener más información.
 
 5. Dependiendo de si desea enviar un correo electrónico al usuario con su información de número de teléfono, desactive o active Usuario de correo electrónico con información **de número de teléfono.** De forma predeterminada, está en. 
 
@@ -95,7 +97,7 @@ Para cambiar un número de teléfono para un usuario mediante el centro de Teams
 8. Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia,** busque y seleccione la ubicación.
 
       > [!NOTE]
-      > **Si va a cambiar los números de operador Conectar usuarios, es posible que no pueda asignar o cambiar la ubicación de emergencia asociada. Esta funcionalidad dependerá del operador. Póngase en contacto con su operador para obtener más información.**
+      > Si va a cambiar los números de operador Conectar usuarios, es posible que no pueda asignar o cambiar la ubicación de emergencia asociada. Esta funcionalidad dependerá del operador. Póngase en contacto con su operador para obtener más información.
 
 9. Haga clic en **Guardar**.
 

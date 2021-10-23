@@ -18,24 +18,18 @@ f1.keywords:
 - NOCSH
 description: En este artículo, aprenderá a asignar o cambiar una ubicación de emergencia para los usuarios de su organización.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5395c74bfab124cb1036d696dd3613c920bed1e9
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465796"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537291"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Asignar o cambiar la ubicación de emergencia de un usuario
 
-**¿SE APLICA LO SIGUIENTE A TODOS LOS 3?**
+Es necesario asignar una ubicación de emergencia a cada número de teléfono o usuario. Para obtener más información sobre las direcciones y ubicaciones de emergencia, vea ¿Qué son las ubicaciones de emergencia, los lugares [y el enrutamiento de llamadas?](./what-are-emergency-locations-addresses-and-call-routing.md).
 
-**Es necesario asignar una ubicación de emergencia a cada número de teléfono o usuario. Para obtener más información sobre las direcciones y ubicaciones de emergencia, vea ¿Qué son las ubicaciones de emergencia, los lugares [y el enrutamiento de llamadas?](./what-are-emergency-locations-addresses-and-call-routing.md).**
-
-**Para los planes de llamadas de Microsoft, en los países europeos, la ubicación de emergencia está asociada con el número de teléfono al obtenerlo de Microsoft 365 o al transferir un número de teléfono a Microsoft 365. En Estados Unidos, la ubicación de emergencia está asociada con el número de teléfono cuando se asigna al usuario. La dirección de emergencia se puede cambiar si el usuario al que está asignada se mueve a una nueva ubicación.**
-
-**Para Operador Conectar, ...**
-
-**Para enrutamiento directo,...**
+Para los planes de llamadas de Microsoft, en los países europeos, la ubicación de emergencia está asociada con el número de teléfono al obtenerlo de Microsoft 365 o al transferir un número de teléfono a Microsoft 365. En Estados Unidos, la ubicación de emergencia está asociada con el número de teléfono cuando se asigna al usuario. La dirección de emergencia se puede cambiar si el usuario al que está asignada se mueve a una nueva ubicación.
   
 Puede asignar o cambiar una ubicación de emergencia para un usuario en el centro de Microsoft Teams o mediante PowerShell.
 

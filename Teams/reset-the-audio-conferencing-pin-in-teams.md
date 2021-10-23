@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo restablecer el PIN de audioconferencia de un usuario en Microsoft Teams y obtenga información importante sobre los PIN.
-ms.openlocfilehash: 6e2e25f05be1b2e14a41d8a102e05f735ef6c09b
-ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
+ms.openlocfilehash: 8c7525605f0dedaed05ba9b98db689715e468865
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60007780"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537301"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Restablecer el PIN de Audioconferencia en Microsoft Teams
 
@@ -37,7 +37,7 @@ Las reuniones se pueden iniciar cuando un usuario autenticado se une con la apli
 
 ## <a name="reset-a-users-pin"></a>Restablecer el PIN de un usuario
 
-![Icono que muestra el logotipo de Microsoft Teams.](media/teams-logo-30x30.png) **Utilización del centro de administración de Microsoft Teams**
+ **Usar el Centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, haga clic **en Usuarios** y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 

@@ -1,7 +1,7 @@
 ---
 title: Agregar, cambiar y quitar ubicaciones de emergencia
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -18,29 +18,24 @@ f1.keywords:
 - NOCSH
 description: 'Obtenga información sobre cómo agregar, cambiar o quitar una ubicación de emergencia para su organización en el centro Microsoft Teams administración. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e6523a3a3f19b2c3145bb6e89f47029c4d982ab1
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 601d8ce50d5fcf06574f08abb2c78c73a40fefda
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465800"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536541"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
-**Independientemente de la opción de conectividad [RTC](pstn-connectivity.md) que elija (Planes de llamadas de Microsoft, Operador Conectar o Enrutamiento directo), las ubicaciones de emergencia se pueden asociar con un número de teléfono. Sin embargo, dependiendo de la opción de conectividad RTC, los requisitos de ubicación pueden variar.**
+Independientemente de la opción de conectividad [RTC](pstn-connectivity.md) que elija (Planes de llamadas de Microsoft, Operador Conectar o Enrutamiento directo), las ubicaciones de emergencia se pueden asociar con un número de teléfono. Sin embargo, dependiendo de la opción de conectividad RTC, los requisitos de ubicación pueden variar.
 
 **Para planes de llamadas,** una ubicación de emergencia debe estar asociada con un número de teléfono, pero cuando esto sucede puede variar entre países y regiones. Por ejemplo, en Estados Unidos, debe asociar una ubicación de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una ubicación de emergencia al número de teléfono cuando reciba los números de teléfono de Microsoft 365 o transfiera números de teléfono de su proveedor de servicios actual.
 
-**Para Operador Conectar, ...**
-
-**Para enrutamiento directo...**
-
-**¿ESTO ES CIERTO PARA LOS 3?**
 Independientemente del país o región en el que se encuentra, puede agregar un lugar o lugares a una ubicación de emergencia y quitar una ubicación de emergencia. Según el número de ubicaciones físicas de su organización, puede crear lugares para edificios, pisos y oficinas. Vea [Administrar llamadas de emergencia.](what-are-emergency-locations-addresses-and-call-routing.md)
 
 Puede administrar las ubicaciones de emergencia de su organización en el Microsoft Teams de administración o mediante PowerShell.
 
-**Para asignar una ubicación de emergencia, los usuarios, los números de teléfono y las ubicaciones de emergencia deben estar en el mismo país.**  Para obtener más información, vea [Asignar o cambiar una ubicación de emergencia para un usuario.](assign-change-emergency-location-user.md)
+Para asignar una ubicación de emergencia, los usuarios, los números de teléfono y las ubicaciones de emergencia deben estar en el mismo país.  Para obtener más información, vea [Asignar o cambiar una ubicación de emergencia para un usuario.](assign-change-emergency-location-user.md)
   
 ## <a name="add-an-emergency-location"></a>Agregar una ubicación de emergencia
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: a17921eee249d8baf10256e0d0ea17d4462494c0
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 28f3334ed2ddfdff8e43ba7853f6a4d279211b96
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462364"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536911"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -262,10 +262,10 @@ También puede usar PowerShell para crear y configurar operadores automáticos. 
 
 Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que un operador automático puede recibir llamadas:
 
-1. Seleccione **Ejecutar pruebas** a continuación, que rellenará el diagnóstico en el Administración de Microsoft 365 centro. 
+1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
 
    > [!div class="nextstepaction"]
-   > [Ejecutar pruebas: Teams federación](https://aka.ms/TeamsAADiag)
+   > [Ejecutar pruebas: Teams Operador automático](https://aka.ms/TeamsAADiag)
 
 2. En el panel Ejecutar diagnóstico, escriba la cuenta de recursos en el campo Nombre de usuario o **Correo** electrónico y, a continuación, **seleccione Ejecutar pruebas.**
 

@@ -18,16 +18,16 @@ f1.keywords:
 - NOCSH
 description: En este artículo, aprenderá a asignar o cambiar el lugar de una ubicación de emergencia para los usuarios de su organización.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1edc7bd6f5a1ea1b7a09f6747c1ee61f7dd74758
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 8cb8d51f35799ddb8610e7b3b36b43bf7f1fb890
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465980"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537211"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Asignar o cambiar el lugar de una ubicación de emergencia para un usuario
 
-Cada número de teléfono activo debe tener una ubicación de emergencia asociada al asignar el número de teléfono a un usuario. **La dirección se asocia cuando recibe un número de teléfono en Microsoft 365, cuando transfiere un número de teléfono a Microsoft 365 o cuando recibe un número de teléfono de su proveedor.**
+Cada número de teléfono activo debe tener una ubicación de emergencia asociada al asignar el número de teléfono a un usuario. La dirección se asocia cuando recibe un número de teléfono en Microsoft 365, cuando transfiere un número de teléfono a Microsoft 365 o cuando recibe un número de teléfono de su proveedor.
 
 Al asociar el número a una ubicación de emergencia, también puede agregar un lugar para proporcionar una ubicación más exacta dentro de una ubicación física. Un lugar puede ser el piso, el ala del edificio u número de oficina donde se encuentra el usuario. Puede tener un número ilimitado de lugares para una ubicación de emergencia determinada y puede cambiar el lugar si el usuario se mueve a otra oficina o edificio. Por ejemplo, si el usuario se mueve del piso 34 al piso 35.
   

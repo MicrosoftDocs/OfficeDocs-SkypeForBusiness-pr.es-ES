@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ee0e8e7da6410b26f9c4fc256a12c563f15e9bed1562823792bda73c1c29d70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282673"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536761"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Dispositivo de sucursal con funciones de supervivencia (SBA) para enrutamiento directo
 
@@ -46,6 +46,11 @@ Para obtener el firmware más reciente del controlador de borde de sesión con e
 - El SBC debe configurarse para la omisión de medios para asegurarse de que el cliente Microsoft Teams en el sitio de sucursal puede tener los medios fluyendo directamente con el SBC. 
 
 - TLS1.2 debe estar habilitado en el sistema operativo de máquina virtual de SBA.
+- Microsoft SBA Server usa los puertos 3443, 4444 y 8443 para comunicarse con el cliente Teams y debe permitirse en el firewall. 
+- Microsoft SBA Server usa el puerto 5061 (o el configurado en el SBC) para comunicarse con el SBC y debe permitirse en el firewall. 
+- Microsoft SBA Server usa el puerto UDP 123 para comunicarse con el servidor NTP y debe permitirse en el firewall.
+- Microsoft SBA Server usa el puerto 443 para comunicarse con Microsoft 365 y debe permitirse en el firewall.
+- Los intervalos IP de Azure y las etiquetas de servicio para la nube pública deben definirse según las directrices descritas en: https://www.microsoft.com/download/details.aspx?id=56519
 
 ## <a name="supported-teams-clients"></a>Clientes Teams compatibles
 
@@ -207,7 +212,7 @@ Informe de cualquier problema a la organización de soporte técnico de su prove
 
 - Al asignar una directiva de aplicación de sucursal con funciones de supervivencia a un usuario, puede que el SBA se muestra en el resultado de Get-CsOnlineUser. 
 
-- No se realiza la búsqueda inversa de números en contactos de Azure AD. 
+- Invierta la búsqueda de números Azure AD no se realizan los contactos. 
 
 - El SBA no admite la configuración de reenvío de llamadas. 
 

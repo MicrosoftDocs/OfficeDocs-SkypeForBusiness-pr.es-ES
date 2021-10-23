@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1d1608bda574e504e6985ee55c8f06607f710a4
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: a1c25ed5b00adf162ceb5d75d9207e43e489f3c6
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046046"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536531"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
 
@@ -41,7 +41,7 @@ Puede administrar fácilmente estas opciones de configuración en el centro de a
 
 Esta dirección URL se muestra a los asistentes del evento en directo. Agregue la dirección URL de soporte de la organización para ofrecer a los asistentes una manera de ponerse en contacto con el soporte técnico durante un evento en directo.
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra Microsoft Teams logotipo.](../media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
 
 1. En la navegación izquierda, vaya a **Reuniones** > **Configuración de eventos en directo**.
 2. En **dirección URL de soporte**, escriba la dirección URL de soporte técnico de su organización.
@@ -60,7 +60,7 @@ Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](/
 
 Si compró y configuró una solución de red definida por software (SDN) o una solución de red de entrega de contenido para empresas (eCDN) a través de un partner de entrega de vídeo de Microsoft, configure el proveedor para eventos en directo en Teams. 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra Microsoft Teams logotipo.](../media/teams-logo-30x30.png) Usando el Microsoft Teams de administración,
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
 
 1. En la navegación izquierda, vaya a **Reuniones** > **Configuración de eventos en directo**.
 2. En **Proveedores de distribución de vídeo de terceros**, siga este procedimiento: 

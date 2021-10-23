@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Obtenga información sobre los pasos necesarios para asignar un nuevo número de teléfono de servicio al puente de conferencias para expandir la cobertura para los usuarios.
-ms.openlocfilehash: ba12596ea7a10a0d2b0c5fea75beb4ae96b10f07
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f39a963759e768f4fab70d2a06e6d90b480699e0
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726939"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536721"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
@@ -43,7 +43,7 @@ Además de los números de teléfono ya asignados al puente de conferencias, pue
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Paso 1: Asignar el nuevo número de teléfono al puente de audioconferencia
 
-![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
+ **Usar el Centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, vaya **a Números** de  >  **Teléfono voz.**
 
@@ -57,7 +57,7 @@ El número de teléfono predeterminado del puente de conferencia define el ident
 
 Solo se puede establecer un número de pago de servicio como el número predeterminado para el puente de conferencias; los números gratuitos del servicio no se pueden establecer **como el número predeterminado del puente de conferencias.** Si va a asignar un número de pago de servicio y desea establecerlo como el nuevo número predeterminado para el puente de audioconferencia, siga estos pasos:
 
-![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
+ **Usar el Centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, vaya a **Puentes de conferencia**  >  **reuniones.**
 
@@ -69,7 +69,7 @@ Solo se puede establecer un número de pago de servicio como el número predeter
 
 Los números de teléfono predeterminados de un usuario son los que se incluyen en las invitaciones de reunión cuando programan una reunión. Para obtener más información, incluido cómo se asignan los números de teléfono predeterminados a los nuevos usuarios, vea Establecer los números de teléfono [incluidos](set-the-phone-numbers-included-on-invites-in-teams.md) en las invitaciones en Microsoft Teams o Establecer los números de teléfono incluidos en las invitaciones [en Skype Empresarial Online.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
-![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
+ **Usar el Centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, vaya a **Usuarios** y haga clic en el nombre para mostrar del usuario deseado en la lista.
 

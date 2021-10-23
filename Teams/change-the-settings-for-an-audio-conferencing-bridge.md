@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Cambie la configuración del puente de audioconferencia, incluidas las notificaciones de entrada y salida, reproducir nombres o números de teléfono, tonos y pedir a los autores de llamadas que graben su nombre.
-ms.openlocfilehash: 413cd4eeb54785f32e0916b5872c477095318cda
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0c64fa8c8717ae7fd401c4476896e6e52e833769
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729099"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537053"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de Audioconferencias.
 
@@ -43,7 +43,7 @@ El puente de conferencia responde a una llamada y le pide al autor de la llamada
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) Usar el Centro de administración de Microsoft Teams
+##  <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
 1. En el panel de navegación izquierdo, vaya a **Puentes de conferencia**  >  **reuniones.** 
 

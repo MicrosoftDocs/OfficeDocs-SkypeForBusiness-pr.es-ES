@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Obtenga información sobre cómo habilitar o deshabilitar Skype enviar correos electrónicos a los usuarios cuando la configuración, como los cambios de anclar o el número de conferencia predeterminado, cambie en Microsoft Teams. '
-ms.openlocfilehash: f81572feb976ab68a6a65631ec772ec4421f2b1e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fa52306afbee534b52e9bfdbd304a22cda395704
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727449"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537231"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de Audioconferencia en Microsoft Teams
 
@@ -59,7 +59,7 @@ Este es un ejemplo del correo electrónico que se envía a los usuarios cuando e
 
 Puede usar Microsoft Teams o Windows PowerShell para habilitar o deshabilitar el correo electrónico enviado a los usuarios.
 
-![Un icono que muestra Microsoft Teams logotipo.](media/teams-logo-30x30.png) **Usar el Centro de administración de Microsoft Teams**
+ **Usar el Centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 

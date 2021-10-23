@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Supervisión y alertas de dispositivos
-author: cichur
-ms.author: v-cichur
+author: cazawideh
+ms.author: czawideh
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ description: Obtenga información sobre cómo usar Teams de supervisión y alert
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ac8ace461e2fb2f5ca8c163a5972fa575baec21d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735357"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536921"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams de estado del dispositivo
 
@@ -72,7 +72,7 @@ Todos los dispositivos de inicio de sesión usados por la lista seleccionada de 
 
 ## <a name="notifications-in-teams-client"></a>Notificaciones en Teams cliente
 
-Las notificaciones se entregan en el canal **MonitoringAlerts** creado automáticamente del equipo de notificaciones y **alertas de** administrador.
+Las notificaciones se entregan en el canal **MonitoringAlerts** creado automáticamente del equipo de notificaciones y **alertas de** administrador. Recibirás una alerta en un plazo de 15 minutos desde que el dispositivo se desconecta. 
 
 Una notificación de dispositivo sin conexión puede incluir la siguiente información:
 

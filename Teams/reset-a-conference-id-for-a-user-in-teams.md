@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Obtenga información sobre los pasos para restablecer el id. de conferencia de reunión de un usuario en Microsoft Teams y obtener vínculos a herramientas de actualización y migración de reuniones.
-ms.openlocfilehash: 9faff7e86480d85c08e4aba4efdce218ee74a9b0
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 3a308be01f84509ea93793d7c2b1bdfd6e084268
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045522"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536491"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Restablecer un Id. de conferencia para un usuario en Microsoft Teams
 
@@ -37,7 +37,7 @@ Se incluye un id. de conferencia dinámico en la parte inferior de las invitacio
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Restablecer el id. de conferencia de un usuario
 
-![Icono que muestra el logotipo de Microsoft Teams.](media/teams-logo-30x30.png) **Utilización del centro de administración de Microsoft Teams**
+ **Usar el Centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, haga clic **en Usuarios** y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
