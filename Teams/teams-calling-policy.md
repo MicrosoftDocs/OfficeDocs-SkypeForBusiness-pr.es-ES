@@ -20,14 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88e4da290fe19f852d18687227768535d405ebd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636754"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60596953"
 ---
-#  <a name="calling-and-call-forwarding-in-teams"></a>Llamadas y reenvío de llamadas en Teams
+# <a name="calling-and-call-forwarding-in-teams"></a>Llamadas y reenvío de llamadas en Teams
 
 En Microsoft Teams, las directivas de llamadas controlan qué características de llamadas y de reenvío de llamadas están disponibles para los usuarios. Las directivas de llamadas determinan si un usuario puede realizar llamadas privadas, usar el reenvío de llamadas o llamadas simultáneas a otros usuarios o números de teléfono externos, dirigir llamadas al correo de voz, enviar llamadas a grupos de llamadas, usar la delegación para llamadas entrantes y salientes, y así sucesivamente.
 
@@ -57,7 +57,7 @@ Siga estos pasos para editar una directiva de llamadas existente.
 
 ## <a name="calling-policy-settings"></a>Configuración de directiva de llamadas
 
-Esta es la configuración que puede configurar para las directivas de llamadas.
+Estas son las opciones de configuración que puede configurar para las directivas de llamadas.
 
 ### <a name="make-private-calls"></a>Realizar llamadas privadas
 
@@ -65,7 +65,7 @@ Esta configuración controla todas las capacidades de llamadas de Teams. Desacti
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Reenvío de llamadas y llamadas simultáneas a personas de su organización
 
-Esta configuración controla si las llamadas entrantes se pueden reenviar a otros usuarios o pueden llamar a otra persona al mismo tiempo. 
+Esta configuración controla si las llamadas entrantes se pueden reenviar a otros usuarios o pueden llamar a otra persona al mismo tiempo.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>Reenvío de llamadas y llamadas simultáneas a números de teléfono externos
 

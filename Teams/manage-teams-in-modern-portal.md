@@ -1,5 +1,5 @@
 ---
-title: Administrar Microsoft Teams en el Centro de administración de Microsoft Teams
+title: Administrar equipos en el Centro de administración de Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b84957e7451b75b804d2c279e160a260dabfbea8
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733847"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579540"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar equipos en el Centro de administración de Microsoft Teams
 
