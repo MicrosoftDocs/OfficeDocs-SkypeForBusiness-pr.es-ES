@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo para Teams usuarios para que los clientes y empresas externas puedan llamar.
-ms.openlocfilehash: 92c19912e566f7dbea09b4849d9970619551b4a4
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 5e8041ce0a8cc95549a9dc75c0c8d74cd2438e1c
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536511"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579520"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un teléfono móvil de un usuario
 
@@ -38,6 +38,9 @@ Antes de asignar un número para un plan de llamadas u operador Conectar usuario
   
 > [!NOTE]
 > Una forma de ver si un usuario tiene una licencia asignada es yendo al centro de administración de Microsoft Teams de > **Usuarios.** Si se asigna una licencia, se indicará en la página.  También puede usar la Centro de administración de Microsoft 365.
+
+> [!NOTE]
+> Esta nota se aplica a los clientes que tienen una implementación híbrida con un Active Directory local. Si desea asignar un plan de llamadas u operador Conectar un número de teléfono a un usuario o cuenta de recursos, debe asegurarse de que se ha quitado el número de teléfono del Active Directory local y que el cambio se ha sincronizado con Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Asignar un número de teléfono a un usuario
 

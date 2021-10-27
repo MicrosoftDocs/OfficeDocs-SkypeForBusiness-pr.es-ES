@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instrucciones para administrar las entradas DNS al retirar el entorno Skype Empresarial local.
-ms.openlocfilehash: 70255314ecf87d55ef578a4daa0390b46179349c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 7c6e803b089d8a34703dc26ea93e207c6d7aedf6
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735327"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579670"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>Actualizar entradas DNS para permitir que la organización sea Teams solo
 
@@ -35,7 +35,7 @@ Al intentar conceder TeamsOnly a todo el inquilino, Teams comprobará DNS para d
 
 ## <a name="how-to-identify-stale-dns-records"></a>Cómo identificar registros DNS obsoletos
 
-Para identificar los registros DNS que impiden que su organización se convierta en Teams Solo, puede usar el Centro de administración de Teams para cambiar el modo de coexistencia a TeamsOnly. Vaya a **Configuración de toda la** organización Teams  ->  **Actualizar**. Los registros DNS que impidan que la organización se convierta en Teams Solo se incluirán en el mensaje de error.  En el caso de que no se encuentra ningún registro DNS, el modo de coexistencia de la organización se cambiará a TeamsOnly.   
+Para identificar los registros DNS que impiden que su organización se convierta en Teams Solo, puede usar el Centro de administración de Teams para cambiar el modo de coexistencia a TeamsOnly. Vaya a **Teams**  >  **Teams de actualización**. Los registros DNS que impidan que la organización se convierta en Teams Solo se incluirán en el mensaje de error.  En el caso de que no se encuentra ningún registro DNS, el modo de coexistencia de la organización se cambiará a TeamsOnly.   
 
 Como alternativa, puede usar Teams PowerShell para hacer lo mismo, como se muestra a continuación:
 
