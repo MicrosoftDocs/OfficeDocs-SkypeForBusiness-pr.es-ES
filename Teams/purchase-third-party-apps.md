@@ -16,12 +16,12 @@ description: Obtenga información sobre cómo comprar aplicaciones de terceros p
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 6d7a6e1a38327cef327a9de119321127b58909fb
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: 19403d35ad2e7263ad6f0d5a2c7a2b22d4249664
+ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367542"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60600224"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicaciones de terceros para Teams
 
@@ -38,7 +38,7 @@ Aquí también puede comprar licencias para los servicios ofrecidos por aplicaci
 > [!IMPORTANT]
 > Si quiere bloquear a los usuarios para que no compren una aplicación a través Teams tienda de aplicaciones, tiene que bloquear la aplicación. Para obtener más información sobre cómo bloquear una aplicación, vea Administrar directivas de [aplicación](app-policies.md) o obtenga información sobre cómo bloquear una aplicación [a nivel de organización.](manage-apps.md#allow-and-block-apps)
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**. Debe ser administrador global o administrador Teams de servicio para acceder a la página.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**. Debe ser administrador global o administrador Teams servicio para acceder a la página.
 2. Busca la aplicación que quieras. Para identificar las aplicaciones que tienen una suscripción de SaaS de pago, busque en la **columna** Licencias. Cada aplicación tendrá uno de los siguientes valores:
     - **Compra:** La aplicación ofrece una suscripción SaaS y está disponible para comprar.  
     - **Comprado:** la aplicación ofrece una suscripción SaaS y ha comprado licencias para ella.
@@ -53,13 +53,9 @@ Aquí también puede comprar licencias para los servicios ofrecidos por aplicaci
 6. Compruebe que la cuenta de facturación y la dirección de venta son correctas. Si aún no la tiene, agregue una nueva **seleccionando Agregar**. Para obtener más información sobre las cuentas de facturación, vea [Comprender cuentas de facturación.](/microsoft-365/commerce/manage-billing-accounts)
 
 > [!NOTE]
-> Tienes que ser un administrador global para agregar una nueva cuenta de facturación.
+> Debes ser administrador global para agregar una nueva cuenta de facturación.
 
-7. Compruebe que el perfil de facturación correcto está seleccionado. Si aún no la tiene, agregue una nueva **seleccionando Agregar nuevo**. Tiene la opción de pagar con una tarjeta de crédito, tarjeta de débito o con facturación de factura. El perfil de facturación también le permite agregar un número de pedido de compra para identificar el pedido más adelante. Para obtener más información sobre los perfiles de facturación, vea [Comprender los perfiles de facturación.](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles)
-
-> [!NOTE]
-> La facturación solo está disponible para transacciones de más de 500 $.
-
+7. Compruebe que el perfil de facturación correcto está seleccionado. Si aún no la tiene, agregue una nueva **seleccionando Agregar nuevo**. Tiene la opción de pagar con una tarjeta de crédito, tarjeta de débito o con [facturación de factura.](#invoice-billing) El perfil de facturación también le permite agregar un número de pedido de compra para identificar el pedido más adelante. Para obtener más información sobre los perfiles de facturación, vea [Comprender los perfiles de facturación.](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles)
 8. Seleccione **Realizar pedido.**
 9. Seleccione **Configurar para** activar la suscripción en el sitio web del editor. Si no configura la suscripción después de la compra, puede hacerlo más adelante seleccionando Administrar **licencias.**
 
@@ -76,6 +72,13 @@ Los administradores globales pueden agregar más licencias, quitar licencias y c
 
 > [!NOTE]
 > Si un administrador global quiere administrar una suscripción comprada por otro administrador global, debe estar en la misma cuenta de facturación. Puede dar a otro administrador global acceso a una suscripción que compró seleccionando la aplicación en el Centro de administración de Microsoft 365. Desde allí, vaya a Ver perfil **de facturación** Seleccionar cuenta  >  **de facturación Asignar**  >  **roles** Agregar  >  **otros administradores globales.**
+
+### <a name="invoice-billing"></a>Facturación de facturas
+
+- La facturación de facturas está disponible como opción de pago para algunas transacciones.
+- Se requiere una revisión de crédito la primera vez que use la facturación de factura, que puede tardar hasta 24 o 48 horas en aprobarse. La facturación de factura no estará disponible hasta que se complete la comprobación de crédito. Puede realizar el pedido con una tarjeta de crédito o volver a intentarlo más tarde después de aprobar la revisión de crédito.
+- La facturación solo está disponible para administradores globales o administradores con Teams de servicio y de administración de facturación.
+- La facturación de facturas no está disponible al comprar un plan con una prueba gratuita de 30 días.
 
 ## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>¿Tiene una oferta saas para una aplicación Teams que desea enumerar y vender en el centro de administración de Microsoft Teams y AppSource?
 

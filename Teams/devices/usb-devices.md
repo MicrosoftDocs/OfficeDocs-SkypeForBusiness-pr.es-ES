@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Vea qué dispositivos y periféricos USB (como auriculares, altavoces, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: 8c7e4f64abd706b40e3dadb86d4d8eaac2886cc7
-ms.sourcegitcommit: 428eda4236bd063f44e2571563dd96bd6ed1749a
+ms.openlocfilehash: 8339a4e1bd31daee25c149fe3da69184bf13b2c1
+ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60268294"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60600244"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -78,6 +78,9 @@ Si es un fabricante y desea unirse al programa de certificación, [vea](/skypefo
 
 | Fabricante        | Modelo                                                     | Cualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Poly                 |Voyager Focus 2 y Voyager Office Base                    |10/20/2021      |Certificado para Microsoft Teams                           |
+|Poly                 |Base de Office Voyager 4320 y Office Voyager                       |10/20/2021      |Certificado para Microsoft Teams                           |
+|Poly                 |Base de Office Voyager 4310 y Office Voyager                       |10/20/2021      |Certificado para Microsoft Teams                           |
 |Jabra                |Evolve 2 75 Auriculares                                        |10/8/2021       |Certificado para Microsoft Teams                           |
 |Logitech             |Auriculares con cable de zona                                         |9/2/2021        |Certificado para Microsoft Teams                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |Certificado para Microsoft Teams                           |
