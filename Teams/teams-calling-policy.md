@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 60a6f78d99f6481f2c10db5467f3e7e7bad9f7fb
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60596953"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60606959"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Llamadas y reenvío de llamadas en Teams
 
@@ -87,7 +87,7 @@ Esta configuración controla si las llamadas entrantes se pueden reenviar a un g
 
 Esta configuración permite enrutar las llamadas entrantes a los delegados, lo que permite a los delegados realizar llamadas salientes en nombre de los usuarios para los que tienen permisos delegados. Para obtener más información, vea [Compartir una línea telefónica con un delegado.](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Evitar la omisión de pago y enviar llamadas a través de la RTC 
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Evitar la omisión de pago y enviar llamadas a través de la RTC
 
 Si establece este valor **en "En",** se enviarán llamadas a través de la RTC e incurrirá en cargos en lugar de enviarlos a través de la red y omitir los peajes.
 
@@ -111,4 +111,4 @@ Esta configuración le permite activar o desactivar la música en espera cuando 
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-[Asignar directivas a los usuarios en Teams](assign-policies.md)
+[Asignar directivas a los usuarios en Teams](policy-assignment-overview.md)
