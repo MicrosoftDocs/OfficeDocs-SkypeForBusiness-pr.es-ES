@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 307eccf1d6e919593cdfadaf2b902a7a15c7b4cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a08e48a37b90a7d8a99053d01a844c3451314e00
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588152"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605596"
 ---
 # <a name="manage-teams-with-policies"></a>Administrar Teams con directivas
 
@@ -63,7 +63,7 @@ Las siguientes directivas se pueden administrar con Microsoft Teams.
 Tipo de directiva | Descripción
 ------------|------------
 [Paquetes de directivas](manage-policy-packages.md) | Un paquete de directivas en Microsoft Teams es una colección de directivas y configuraciones predefinidas que puede asignar a usuarios que tienen roles similares en su organización.
-[Directivas de reunión](meeting-policies-in-teams.md) | Una directiva de reunión se usa para controlar las características que están disponibles para los participantes de la reunión para las reuniones programadas por los usuarios de su organización. Las directivas de reunión incluyen los temas siguientes.<br> - Directivas de audio y vídeo<br> - Directivas de uso compartido de pantalla y contenido<br> - Participantes, invitados y directivas de acceso<br> - Directivas generales
+[Directivas de reunión](meeting-policies-overview.md) | Una directiva de reunión se usa para controlar las características que están disponibles para los participantes de la reunión para las reuniones programadas por los usuarios de su organización. Las directivas de reunión incluyen los temas siguientes.<br> - Directivas de audio y vídeo<br> - Directivas de uso compartido de pantalla y contenido<br> - Participantes, invitados y directivas de acceso<br> - Directivas generales
 [Directivas de voz y llamadas](voice-and-calling-policies.md)| Las directivas de llamadas y llamadas administran esta configuración a través de equipos como llamadas de emergencia, enrutamiento de llamadas e id. de llamada.
 [Directivas de aplicaciones](app-policies.md)| Las directivas de aplicación se usan para controlar las aplicaciones en Microsoft Teams. Los administradores pueden permitir o bloquear las aplicaciones que los usuarios pueden instalar, anclar aplicaciones a la barra de aplicaciones de Teams de un usuario e instalar la aplicación en nombre de los usuarios.
 [Directivas de mensajería](messaging-policies-in-teams.md)| Las directivas de mensajería controlan la disponibilidad de las características de chat y canal.

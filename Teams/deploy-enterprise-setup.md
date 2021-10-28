@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d67dbb494a0bde5212d405e5710a7c2730734e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f05616de4f315cee115ee9767a52eea09297dfcf
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584634"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605826"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Configurar Microsoft Teams en su organización
 
@@ -95,7 +95,7 @@ El asistente de **Audioconferencia** permite a los participantes unirse a las re
 | Decision | Descripción |
 |--|--|
 | Qué configuraciones de reunión a nivel de la organización deben aplicarse| Las directivas de reunión controlan las características de la reunión que están disponibles para los organizadores y los participantes de las reuniones. Usted decide si los participantes anónimos pueden unirse a las reuniones, y puede personalizar las invitaciones a reuniones, controlar la forma en que se manejan los medios audiovisuales en tiempo real y mucho más. Cuando realice cambios en esta configuración, se aplicarán a todas las reuniones de su organización. <p>[Administrar la configuración de reuniones en Microsoft Teams](meeting-settings-in-teams.md)|
-| ¿Qué directivas de reuniones deben aplicarse? | Las Directivas de reunión se usan para controlar las características disponibles para sus participantes en reuniones programadas por usuarios de la organización. Puede controlar si los usuarios tienen la opción de programar reuniones privadas, así como habilitar la opción Reunirse ahora, permitir grabar reuniones y mucho más. Teams tiene una directiva global que se aplica a todos los usuarios.<p> Si quiere que la misma directiva se aplique a todos los usuarios, solo tiene que realizar cambios en esta directiva global (por ejemplo, desactivar la grabación de conversaciones). <p>Si quiere usar diferentes directivas para distintos grupos de personas (por ejemplo, una directiva para los trabajadores de oficinas y otra para los ejecutivos), puede crear y asignar directivas. Al asignar una directiva a un usuario, la directiva global ya no se aplica a este.<p> [Administración de directivas de reunión en Teams](meeting-policies-in-teams.md)|
+| ¿Qué directivas de reuniones deben aplicarse? | Las Directivas de reunión se usan para controlar las características disponibles para sus participantes en reuniones programadas por usuarios de la organización. Puede controlar si los usuarios tienen la opción de programar reuniones privadas, así como habilitar la opción Reunirse ahora, permitir grabar reuniones y mucho más. Teams tiene una directiva global que se aplica a todos los usuarios.<p> Si quiere que la misma directiva se aplique a todos los usuarios, solo tiene que realizar cambios en esta directiva global (por ejemplo, desactivar la grabación de conversaciones). <p>Si quiere usar diferentes directivas para distintos grupos de personas (por ejemplo, una directiva para los trabajadores de oficinas y otra para los ejecutivos), puede crear y asignar directivas. Al asignar una directiva a un usuario, la directiva global ya no se aplica a este.<p> [Administración de directivas de reunión en Teams](meeting-policies-overview.md)|
 | ¿Desea permitir la grabación y el archivado de la reunión?| Los organizadores de la reunión pueden grabar y archivar reuniones en la nube. Puede activar y desactivar la grabación y el archivado de reuniones con las directivas de reunión.<p> [Grabación de reuniones en la nube de Teams](cloud-recording.md) |
 
 ### <a name="audio-conferencing"></a>Audioconferencia
@@ -145,12 +145,12 @@ Teams y Microsoft 365 proporcionan muchas herramientas que pueden ayudarle a cum
 | [Cumplimiento de las comunicaciones](communication-compliance.md)| Ayuda a reducir los riesgos de comunicación mediante la identificación y la toma de medidas contra lenguaje ofensivo, obsceno o intimidatorio; imágenes sexuales o sangrientas, y el uso compartido de información confidencial. |
 | [Grabación basada en directiva para llamadas y reuniones](teams-recording-policy.md)| Le permite controlar si las llamadas y reuniones deben grabarse y almacenarse automáticamente para su posterior procesamiento, retención o análisis, así cómo decidir cuándo esto puede hacerse.|
 | [Etiquetas de confidencialidad](sensitivity-labels.md)| Le ayuda a proteger y regular el acceso a la información confidencial mediante la creación de etiquetas que exijan opciones de privacidad seleccionadas.|
-| [Prevención de pérdida de datos](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| Le permite crear reglas que determinen cómo debe tratarse cierta información, como números de la seguridad social, números de tarjeta de crédito... Puede impedir, entre otras cosas, que determinada información se envíe o salga de la organización.|
+| [Prevención de pérdida de datos](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Le permite crear reglas que determinen cómo debe tratarse cierta información, como números de la seguridad social, números de tarjeta de crédito... Puede impedir, entre otras cosas, que determinada información se envíe o salga de la organización.|
 | [eDiscovery](eDiscovery-investigation.md)| Le ayuda a buscar y recuperar contenido de su organización cuando esta recibe solicitudes de descubrimiento en procesos legales. |
 | [Suspensión legal](legal-hold.md)| Le ayuda a conservar información en la organización, incluso si la elimina un usuario, cuando es necesario durante un procedimiento legal, de modo que pueda ser detectada durante las investigaciones de exhibición de documentos electrónicos. |
 | [Búsqueda de contenido](content-search.md)| Permite consultar información sobre Teams. Abarca Exchange, SharePoint Online y OneDrive para la Empresa.|
 | [Auditoría](audit-log-events.md)| Le permite ver información sobre una acción especificada, como quién realizó la acción, cuándo se realizó la acción, la dirección IP que se usó, etc. Entre las acciones se incluyen la creación o eliminación de equipos, la creación de canales, los cambios en la configuración de Teams, entre otros.|
-| [Clave de cliente](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| Le permite crear una directiva de cifrado de datos con las claves de cifrado que proporcione.|
+| [Clave de cliente](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Le permite crear una directiva de cifrado de datos con las claves de cifrado que proporcione.|
 
 ## <a name="clients"></a>Clientes
 

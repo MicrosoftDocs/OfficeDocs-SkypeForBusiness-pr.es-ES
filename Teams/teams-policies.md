@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: Obtenga información sobre cómo usar y administrar directivas de canal de equipos en su organización para controlar lo que los usuarios pueden hacer en equipos y canales.
-ms.openlocfilehash: 727bb8b133d5119cd396c79561dde453281206f0
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 787978d6863a66b39c75f3f2c7315fe1495730c3
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432272"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605616"
 ---
 # <a name="manage-channel-policies-in-microsoft-teams"></a>Administrar directivas de canal en Microsoft Teams
 
@@ -68,6 +68,6 @@ Puede editar la directiva global o las directivas personalizadas que cree.
 
 [Canales privados en Teams](private-channels.md)
 
-[Asignar directivas a los usuarios en Teams](assign-policies.md)
+[Asignar directivas a los usuarios en Teams](policy-assignment-overview.md)
 
-[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
+[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy)

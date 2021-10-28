@@ -16,12 +16,12 @@ ms.reviewer: ''
 description: Guía de artículos sobre cómo administrar y supervisar Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3c30bb4aeba2866bcce042c3ce11840ec8e9d68e73386bfcb4f3b434a136506
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9dde19876721cde124bb72f8ced2a5dc2e84102f
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279707"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605786"
 ---
 # <a name="manage-and-monitor-teams"></a>Administrar y supervisar Teams
 
@@ -39,7 +39,7 @@ En este artículo se proporciona una guía del contenido que necesitará para ad
 
 - [Comunicarse con usuarios de otras organizaciones.](communicate-with-users-from-other-organizations.md) Lea este artículo para comprender las diferencias entre el acceso de invitado y el externo y qué funcionalidad está disponible con ambos. En artículos adicionales de esta sección se describe cómo administrar el acceso externo y de invitado.
 
-- [Administrar directivas](assign-policies.md). Lea este artículo para comprender cómo definir y asignar directivas para administrar usuarios, permisos y Teams funcionalidad.
+- [Administrar directivas](policy-assignment-overview.md). Lea este artículo para comprender cómo definir y asignar directivas para administrar usuarios, permisos y Teams funcionalidad.
 
 - [Supervisar y administrar la calidad de la llamada.](monitor-call-quality-qos.md) Lea este artículo para comprender cómo usar las herramientas disponibles para supervisar y mejorar la calidad de las llamadas para su organización.
 

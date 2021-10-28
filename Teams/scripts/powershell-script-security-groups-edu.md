@@ -1,7 +1,7 @@
 ---
 title: 'Ejemplo de script de PowerShell: crear grupos de seguridad para profesores y alumnos en la escuela'
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3cb1f40d79c25b7e0832c5d1576427b83ba980b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05b94c3c5deedcaf0cc375685eb00555288c3b24
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577814"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605166"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Ejemplo de script de PowerShell: crear grupos de seguridad para profesores y alumnos en la escuela
 
-Use este script de PowerShell para crear los grupos de seguridad que necesita para administrar Microsoft Teams directivas de su centro educativo. La [característica de asignación](../assign-policies.md#assign-a-policy-to-a-group) de directivas a grupos Teams permite asignar una directiva a un grupo de usuarios, como un grupo de seguridad. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente.
+Use este script de PowerShell para crear los grupos de seguridad que necesita para administrar Microsoft Teams directivas de su centro educativo. La [característica de asignación](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) de directivas a grupos Teams permite asignar una directiva a un grupo de usuarios, como un grupo de seguridad. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente.
 
 Este script de PowerShell crea dos grupos de seguridad, uno para docentes y docentes y otro para los alumnos de su escuela, según el tipo de licencia. A continuación, puede asignar directivas a los grupos de seguridad que ha creado. Para obtener más información sobre el uso de este script, vea Asignar directivas a grandes [conjuntos de usuarios de su centro educativo.](../batch-group-policy-assignment-edu.md)
 
@@ -39,7 +39,7 @@ Este script hace lo siguiente:
 Tendrá que ejecutar este script periódicamente para mantener los grupos de seguridad actualizados y actualizados.
 
 > [!IMPORTANT]
-> Es importante comprender las reglas de [prioridad](../assign-policies.md#precedence-rules) y la clasificación de las asignaciones de [grupo](../assign-policies.md#group-assignment-ranking) al asignar directivas a grupos. Asegúrese de leer y comprender los conceptos de Lo que necesita saber sobre la asignación de directivas [a grupos.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
+> Es importante comprender las reglas de [prioridad](../assign-policies-users-and-groups.md#precedence-rules) y la clasificación de las asignaciones de [grupo](../assign-policies-users-and-groups.md#group-assignment-ranking) al asignar directivas a grupos. Asegúrese de leer y comprender los conceptos de Lo que necesita saber sobre la asignación de directivas [a grupos.](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
 ## <a name="before-you-start"></a>Antes de empezar
 
@@ -275,4 +275,4 @@ Stop-Transcript
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Asignar directivas a los usuarios en Teams](../assign-policies.md)
+[Asignar directivas a los usuarios en Teams](../policy-assignment-overview.md)

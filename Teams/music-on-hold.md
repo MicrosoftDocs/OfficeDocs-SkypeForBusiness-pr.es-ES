@@ -13,21 +13,22 @@ ms.reviewer: roykuntz
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.custom: Learn how to manage the Music on Hold feature in Phone System.
-ms.openlocfilehash: 5e28aa4774d105b687551601ba89657d91a08170
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.custom: ''
+description: Obtenga información sobre cómo administrar la característica Música en espera en Sistema telefónico.
+ms.openlocfilehash: 7f67e4f26ecac837b93257ca79a757d49daf239b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356558"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605566"
 ---
 # <a name="music-on-hold"></a>Música en espera
 
 Cuando un Microsoft Teams coloca una llamada entrante de la red telefónica conmutada (RTC) en espera, el autor de la llamada RTC puede escuchar la música seleccionada.
 
-La música que se reproduce es la música predeterminada proporcionada por Microsoft o la música personalizada que carga y configura. Como administrador de inquilinos, puede configurar si Música en espera está disponible creando una directiva de llamada de Teams y asignando la directiva al Teams usuario. 
+La música que se reproduce es la música predeterminada proporcionada por Microsoft o la música personalizada que carga y configura. Como administrador de inquilinos, puede configurar si Música en espera está disponible creando una directiva de llamada de Teams y asignando la directiva al Teams usuario.
 
-Tenga en cuenta que los autores de llamadas RTC también pueden escuchar Música en espera en otros escenarios; por ejemplo, cuando llaman a una cola de llamadas en la nube o cuando su llamada está estacionada por un Microsoft Teams usuario. Estas situaciones no están cubiertas ni controladas por las características mencionadas en este artículo. 
+Tenga en cuenta que los autores de llamadas RTC también pueden escuchar Música en espera en otros escenarios; por ejemplo, cuando llaman a una cola de llamadas en la nube o cuando su llamada está estacionada por un Microsoft Teams usuario. Estas situaciones no están cubiertas ni controladas por las características mencionadas en este artículo.
 
 ## <a name="configure-music-on-hold"></a>Configurar Música en espera
 
@@ -118,30 +119,24 @@ En la tabla siguiente se indican las características en las que los clientes y 
 
 - En algunos escenarios, una llamada de omisión de medios de enrutamiento directo se convertirá en omisión no multimedia para reproducir Música en espera y la llamada permanecerá como omisión no multimedia hasta que finalice la llamada.
 
-
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Asignar directivas a los usuarios](assign-policies.md)
+- [Asignar directivas a los usuarios](policy-assignment-overview.md)
 
-- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy?view=skype-ps)
+- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
 
-- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-- [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile?view=skype-ps)
+- [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile)
 
-- [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile?view=skype-ps)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile)
 
-- [New-CsTeamsCallHoldPolicy](/powershell/module/skype/new-csteamscallholdpolicy?view=skype-ps)
+- [New-CsTeamsCallHoldPolicy](/powershell/module/skype/new-csteamscallholdpolicy)
 
-- [Get-CsTeamsCallHoldPolicy](/powershell/module/skype/get-csteamscallholdpolicy?view=skype-ps)
+- [Get-CsTeamsCallHoldPolicy](/powershell/module/skype/get-csteamscallholdpolicy)
 
-- [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy?view=skype-ps)
+- [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy)
 
-- [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy?view=skype-ps)
+- [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
-- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile?view=skype-ps)
-
-
-
-
-
+- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)

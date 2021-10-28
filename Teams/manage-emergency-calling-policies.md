@@ -20,12 +20,12 @@ description: Obtenga información sobre cómo usar y administrar directivas de l
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 842fa95be2c9aecaa14b1902ed5b3feb4ca0da7a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 1d4bfe0305939e287c262848dd25665898ba79a6
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536551"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605456"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Administrar directivas de llamadas de emergencia en Microsoft Teams
 
@@ -94,4 +94,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emerg
 
 [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 
-[Asignar directivas a los usuarios en Teams](assign-policies.md)
+[Asignar directivas a los usuarios en Teams](policy-assignment-overview.md)

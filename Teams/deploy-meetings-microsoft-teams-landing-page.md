@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7ed3de69ed5deffcd0681f9f040dfeb074b2aa1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c41219f080e2270ed27d52688a03891f74ac26d
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596354"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605366"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
@@ -103,7 +103,7 @@ Las directivas de reunión se usan para controlar qué características están d
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
-|<ul><li>¿Voy a personalizar las directivas iniciales de reuniones?</li><li>¿Necesito varias directivas de reuniones?</li><li>¿Cómo determino qué directiva de reuniones se aplica a cada grupo de usuarios?</li></ul>|<br>Lea [Administrar directivas de reunión en Teams](meeting-policies-in-teams.md).|
+|<ul><li>¿Voy a personalizar las directivas iniciales de reuniones?</li><li>¿Necesito varias directivas de reuniones?</li><li>¿Cómo determino qué directiva de reuniones se aplica a cada grupo de usuarios?</li></ul>|<br>Lea [Administrar directivas de reunión en Teams](meeting-policies-overview.md).|
 |||
 
 ### <a name="audio-conferencing"></a>Audioconferencia
@@ -137,12 +137,12 @@ Use los informes de actividad para ver cómo los usuarios de su organización us
 
 Puede que le interese cambiar esta configuración en función de las necesidades y la configuración de su organización.
 
-### <a name="bandwidth-planning"></a>Planeamiento del ancho de banda 
+### <a name="bandwidth-planning"></a>Planeamiento del ancho de banda
 
 El planeamiento de ancho de banda permite a las organizaciones estimar el ancho de banda que necesitarán para dar soporte a las reuniones en sus redes de área extensa y vínculos de internet, de esta manera pueden confirmar que la red está preparada correctamente para admitir un servicio de reuniones escalado.
 
 > [!IMPORTANT]
-> Microsoft Teams no permitirá que los usuarios programen reuniones o eventos en directo cuando estén desconectados o tengan un ancho de banda limitado. 
+> Microsoft Teams no permitirá que los usuarios programen reuniones o eventos en directo cuando estén desconectados o tengan un ancho de banda limitado.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
@@ -160,7 +160,7 @@ Para obtener más información, consulte [Grabación de reuniones en la nube de 
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
-| ¿Voy a activar el servicio de transcripción de reuniones?|Vea [Activar o desactivar la transcripción de grabaciones](cloud-recording.md#turn-on-or-turn-off-cloud-recording)|
+| ¿Voy a activar el servicio de transcripción de reuniones?|Vea [Activar o desactivar la transcripción de grabaciones](meetings-policies-recording-and-transcription.md#allow-transcription)|
 |||
 
 

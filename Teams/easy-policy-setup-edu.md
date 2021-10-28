@@ -1,7 +1,7 @@
 ---
 title: Teams para Educación Asistente para directivas para aplicar fácilmente directivas para un aprendizaje seguro
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el Teams para Educación de directivas de aprendizaje para aplicar fácilmente directivas a alumnos y profesores para mantener su entorno de aprendizaje seguro.
 f1keywords: ''
-ms.openlocfilehash: cafe6e9725f8b365601d3d9152187b546cf2205a
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: de58471732304cf551d3c798f7f52a3bf9be1126
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456330"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605406"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Asistente Teams para Educación directivas para aplicar fácilmente directivas para un entorno de aprendizaje seguro
 
@@ -105,21 +105,21 @@ En Teams, para un área de directiva determinada, una directiva se puede aplicar
 - Asignación a un grupo del que el usuario es miembro
 - Si el usuario no tiene asignada directamente una directiva o no es miembro de ningún grupo al que se ha asignado una directiva, el usuario obtiene automáticamente la directiva Global (predeterminada para toda la organización)
 
-Si existen más de una de estas asignaciones de directivas para un usuario, Teams el siguiente orden para determinar qué asignación de directiva entra en vigor. Para obtener más información, vea [¿Qué directiva tiene prioridad?](assign-policies.md#which-policy-takes-precedence) y [Reglas de prioridad.](assign-policies.md#precedence-rules)
+Si existen más de una de estas asignaciones de directivas para un usuario, Teams el siguiente orden para determinar qué asignación de directiva entra en vigor. Para obtener más información, vea [Qué directiva tiene prioridad](policy-assignment-overview.md#which-policy-takes-precedence) o Reglas de prioridad para los [grupos.](assign-policies-users-and-groups.md#precedence-rules)
 
 |Asignaciones de directivas de un usuario|Directiva que entra en vigor |
 |---------|---------|
 |Directiva asignada al grupo: No<br/>Directiva asignada directamente al usuario: No    |Directiva predeterminada global (para toda la organización)      |
 |Directiva asignada al grupo: No<br/>Directiva asignada directamente al usuario: Sí    |Directiva asignada directamente al usuario         |
 |Directiva asignada al grupo: Sí<br/>Directiva asignada directamente al usuario: Sí     |Directiva asignada directamente al usuario         |
-|Directiva asignada al grupo: Sí<br/>Directiva asignada directamente al usuario: No     |Directiva asignada al grupo<br/><br/>Si el usuario es miembro de varios grupos y a cada grupo se le asigna una directiva del mismo área de directiva, la directiva que tiene la clasificación de asignaciones de [grupo](assign-policies.md#group-assignment-ranking) más alta entra en vigor.       |
+|Directiva asignada al grupo: Sí<br/>Directiva asignada directamente al usuario: No     |Directiva asignada al grupo<br/><br/>Si el usuario es miembro de varios grupos y a cada grupo se le asigna una directiva del mismo área de directiva, la directiva que tiene la clasificación de asignaciones de [grupo](assign-policies-users-and-groups.md#group-assignment-ranking) más alta entra en vigor.       |
 
 Debido a este orden, las directivas creadas por el asistente no se verán efectivas si un usuario tiene asignaciones directas o asignaciones de grupo existentes. Esto significa que tendrá que quitar las asignaciones de directivas existentes del usuario para que la directiva aplicada por el asistente suba a efecto.
 
 Para cada [área de directiva aplicada por el asistente,](#policies-applied-by-the-wizard)haga lo siguiente:
 
 - Quite todas las asignaciones directas y las asignaciones de grupo existentes de los alumnos para que la definición de directiva global (predeterminada para toda la organización) aplicada por el asistente suba a efecto.
-- Quite las asignaciones directas en conflicto para los profesores y el personal para que la definición de directiva personalizada creada por el asistente suba a efecto. Use la tabla anterior para determinar los escenarios que se le aplican. <br/><br/>Tenga en cuenta que el asistente asigna directivas [a](assign-policies.md#group-assignment-ranking) los profesores y al grupo de docentes con una clasificación de tareas de grupo de 1, que es la clasificación más alta. Si el grupo de profesores y docentes tiene asignada una directiva existente del mismo área de directiva, esa directiva existente se mueve a una clasificación inferior y la directiva asignada por el asistente entra en vigor.
+- Quite las asignaciones directas en conflicto para los profesores y el personal para que la definición de directiva personalizada creada por el asistente suba a efecto. Use la tabla anterior para determinar los escenarios que se le aplican. <br/><br/>Tenga en cuenta que el asistente asigna directivas [a](assign-policies-users-and-groups.md#group-assignment-ranking) los profesores y al grupo de docentes con una clasificación de tareas de grupo de 1, que es la clasificación más alta. Si el grupo de profesores y docentes tiene asignada una directiva existente del mismo área de directiva, esa directiva existente se mueve a una clasificación inferior y la directiva asignada por el asistente entra en vigor.
 
 [Obtenga más información](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) sobre cómo quitar directivas que están asignadas directamente a los usuarios.
 

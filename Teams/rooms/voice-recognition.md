@@ -1,7 +1,7 @@
 ---
 title: Control de administración de inquilinos para el reconocimiento de voz (perfil de voz) en Salas de Teams
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4b67041b0fa78a43705f5421881ae751175fcdb
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: b42d60b644d202abecd061e5cece9169cd184a7d
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866372"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605856"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar controles de tecnología de reconocimiento de voz para un altavoz inteligente
 
@@ -73,7 +73,7 @@ Un altavoz inteligente debe colocarse como mínimo a 20 cm de distancia de las p
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>Habilitar un reconocimiento de usuario de Altavoz inteligente
 
-Los datos de perfil de voz se pueden usar en cualquier reunión con un altavoz inteligente. Vea [Teams de reuniones y](../meeting-policies-in-teams.md#allow-transcription) los cmdlets de reunión de [PowerShell](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) para obtener información sobre la configuración de la reunión.
+Los datos de perfil de voz se pueden usar en cualquier reunión con un altavoz inteligente. Vea [Teams de reuniones y](../meetings-policies-recording-and-transcription.md#allow-transcription) los cmdlets de reunión de [PowerShell](/powershell/module/skype/set-csteamsmeetingpolicy) para obtener información sobre la configuración de la reunión.
 
 Los datos de perfil de voz del usuario se crean cuando la directiva se establece para distinguir o un invitado que no es de reunión entra durante la reunión. Los datos de perfil de voz se descartan al final de la reunión.
 

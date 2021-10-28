@@ -1,7 +1,7 @@
 ---
 title: 'Ejemplo de script de PowerShell: crear & directiva de mensajería'
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 323809b5a47168c67f2a7a01e45922c69fc248ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c76f7441e335532fcacaf3fe41561fc0ef7ef516
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601125"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605196"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Ejemplo de script de PowerShell: Crear un equipo y asignar una directiva de mensajería.
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> También puede asignar una directiva de mensajería directamente a los usuarios a escala a través de una asignación de directiva por lotes o a un grupo del que los usuarios son miembros. Para obtener más información, vea Asignar [directivas a](../batch-group-policy-assignment-edu.md) grandes conjuntos de usuarios de la escuela y Asignar directivas a los usuarios [en Teams](../assign-policies.md).
+> También puede asignar una directiva de mensajería directamente a los usuarios a escala a través de una asignación de directiva por lotes o a un grupo del que los usuarios son miembros. Para obtener más información, vea Asignar [directivas a](../batch-group-policy-assignment-edu.md) grandes conjuntos de usuarios de la escuela y Asignar directivas a los usuarios [en Teams](../policy-assignment-overview.md).

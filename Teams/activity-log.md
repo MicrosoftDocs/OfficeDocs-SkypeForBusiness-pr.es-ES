@@ -1,7 +1,7 @@
 ---
 title: Ver las asignaciones de directivas en el registro de actividades en el centro Microsoft Teams administración
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: jastark
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5735d69d45785e63cefbbea646a1780dc3aa4ecf
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 0c1ce06f8c74570a7d5da5056b89772d5446562b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456500"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605646"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Ver las asignaciones de directivas en el registro de actividades
 
@@ -51,4 +51,4 @@ Para ver las asignaciones de directivas en el registro de actividades:
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Asignar directivas a los usuarios](assign-policies.md)
+- [Asignar directivas a los usuarios](policy-assignment-overview.md)

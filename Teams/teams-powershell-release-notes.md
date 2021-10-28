@@ -13,12 +13,12 @@ ms.collection:
 description: Obtenga información sobre los cambios más recientes en Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 232a41dce111b0d913c3888c0e00140bf2b904c0
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 0c95ce8097d8ce70d1f19ac91c8ef66f21453562
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579620"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605176"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams Notas de la versión de PowerShell
 
@@ -49,7 +49,7 @@ En esta página se proporcionan las últimas Teams de cambios de PowerShell para
 | Noviembre de 2020 | [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Usa MSAL para la autenticación & autorización</li><li>Cmdlets de paquete de directivas refactorizado y agrega asignación de paquetes de grupo</li><li>Comandos de carga de jerarquía de segmentación refactorizado para usar un modelo asíncrono</li> <li>Se le pedirá al usuario dos veces durante la autenticación inicial cuando no use el parámetro -credential. Los usuarios pueden pasar credenciales con el parámetro -credential para evitar un mensaje duplicado. Este comportamiento se solucionará en la próxima versión.</li> |
 | Septiembre de 2020 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Skype Empresarial Integración con Conectores en línea</li> |
 | Septiembre de 2020 | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype Empresarial Integración con Conectores en línea</li> |
-| Julio de 2020 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Cmdlets de [asignación de directivas de grupo agregados](./assign-policies.md#assign-a-policy-to-a-group)</li> |
+| Julio de 2020 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Cmdlets de [asignación de directivas de grupo agregados](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)</li> |
 | Junio de 2020 | [1.1.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype Empresarial Integración con Conectores en línea<li>Get-Team optimizaciones<li>Confiabilidad mejorada</li> |
 | Junio de 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Se ha agregado la precarga del cmdlet<li>.NET Framework optimizaciones</li>   |
 | Abril de 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Firma de autenticación y ensamblado<li>Se agregaron Get-CsPolicyPackage<li>Se agregaron Get-CsUserPolicyPackage<li>Se agregaron Get-CsUserPolicyPackageRecommendation<li>Se agregaron Grant-CsUserPolicyPackage<li>Se agregaron New-CsBatchPolicyPackageAssignmentOperation<li>Se agregaron Set-TeamArchivedState<li>Se agregaron Set-TeamPicture<li>Eliminado Get-TeamHelp</li>  |

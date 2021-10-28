@@ -1,7 +1,7 @@
 ---
 title: Teams para la infraestructura de escritorio virtualizada
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1353d46d77f12ea7d829f4170f6dedf335e9395
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ddd91c477f02e8e573c0850898a21b11586821ef
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729539"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605226"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -266,7 +266,7 @@ Puede establecer directivas mediante el centro Microsoft Teams de administració
 
 [**Directivas de llamadas:**](teams-calling-policy.md)Teams incluye la directiva de llamadas Desautorizado integrada, en la que todas las características de llamadas están desactivadas. Asigne la directiva DisallowCalling a todos los usuarios de su organización que usen Teams en un entorno virtualizado.
 
-[**Directivas de**](meeting-policies-in-teams.md)reunión: Teams incluye la directiva de reunión de AllOff integrada, en la que todas las características de la reunión están desactivadas. Asigne la directiva AllOff a todos los usuarios de su organización que usen Teams en un entorno virtualizado.
+[**Directivas de**](meeting-policies-overview.md)reunión: Teams incluye la directiva de reunión de AllOff integrada, en la que todas las características de la reunión están desactivadas. Asigne la directiva AllOff a todos los usuarios de su organización que usen Teams en un entorno virtualizado.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Asignar directivas con el Centro Microsoft Teams administración
 
@@ -322,7 +322,7 @@ Puede usar el centro de Microsoft Teams o PowerShell para establecer y asignar d
 
 [**Directivas de llamadas:**](teams-calling-policy.md)las directivas de llamadas Teams controlar qué características de llamadas están disponibles para los usuarios. Teams incluye la directiva de llamadas AllowCalling integrada, en la que todas las características de llamadas están activadas. Para activar todas las características de llamadas, asigne la directiva AllowCalling. O bien, cree una directiva de llamadas personalizada para activar las características de llamada que desee y asígnela a los usuarios.
 
-[**Directivas de**](meeting-policies-in-teams.md)reunión: las directivas de reunión de Teams controlan los tipos de reuniones que los usuarios pueden crear y las características que están disponibles para los participantes de la reunión programadas por los usuarios de su organización. Teams incluye la directiva de reunión de AllOn integrada, en la que todas las características de la reunión están activadas. Para activar todas las características de la reunión, asigne la directiva AllOn. O bien, cree una directiva de reunión personalizada para activar las características de la reunión que desee y asígnele usuarios.
+[**Directivas de**](meeting-policies-overview.md)reunión: las directivas de reunión de Teams controlan los tipos de reuniones que los usuarios pueden crear y las características que están disponibles para los participantes de la reunión programadas por los usuarios de su organización. Teams incluye la directiva de reunión de AllOn integrada, en la que todas las características de la reunión están activadas. Para activar todas las características de la reunión, asigne la directiva AllOn. O bien, cree una directiva de reunión personalizada para activar las características de la reunión que desee y asígnele usuarios.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Asignar directivas con el Centro Microsoft Teams administración
 

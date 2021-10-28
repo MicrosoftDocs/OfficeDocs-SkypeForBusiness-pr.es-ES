@@ -1,7 +1,7 @@
 ---
 title: Administrar plantillas de equipo en el Centro de administración
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar plantillas de equipo en el Centro de administración
-ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c8b9926290e58fe190d2351820e2bb63560c8c8c
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732829"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605376"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Administrar plantillas de equipo en el Centro de administración
 
@@ -90,7 +90,7 @@ Puede ocultar un máximo de 100 plantillas por directiva. El **botón** Ocultar 
 
 **P: ¿Puedo asignar usuarios por lotes a directivas de plantillas de equipo?**
   
-A: Sí, se admite la asignación por lotes para la directiva de plantilla en PowerShell. El tipo de directiva para esta acción es TeamsTemplatePermissionPolicy. [Aprende más](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+A: Sí, se admite la asignación por lotes para la directiva de plantilla en PowerShell. El tipo de directiva para esta acción es TeamsTemplatePermissionPolicy. [Más información](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **P: ¿Se pueden asignar grupos a directivas de plantillas de equipo?**
 
@@ -111,8 +111,7 @@ A: Sí.
 1. En el Centro de administración, vaya a **Usuarios.**
 1. En la tabla de lista Usuarios, seleccione los usuarios que desea asignar a una directiva de plantillas determinada.
 1. Seleccione Editar configuración y cambie el campo Directivas de plantillas.
-1. Seleccione Aplicar.
-   Más información [Asignar directivas a los usuarios en Microsoft Teams - Microsoft Teams Microsoft \| Docs](./assign-policies.md#assign-a-policy-to-a-batch-of-users).
+1. Seleccione Aplicar. [Más información](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
 
 **P: ¿Cómo puedo ver todos los usuarios asignados a una directiva específica?**
 
@@ -142,6 +141,6 @@ A: No, no se admiten las directivas de plantilla para EDU.
 
 - [Crear una plantilla de equipo a partir de una plantilla de equipo existente](./create-template-from-existing-template.md)
 
-- [Asignar directivas a los usuarios en Microsoft Teams: Microsoft Teams \| Microsoft Docs](./assign-policies.md)
+- [Asignar directivas a los usuarios en Microsoft Teams: Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
 
 - [Asignar usuarios por lotes a una directiva](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

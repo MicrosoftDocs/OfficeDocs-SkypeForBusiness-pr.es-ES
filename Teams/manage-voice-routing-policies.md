@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo crear y administrar directivas de enrutamiento de voz en Microsoft Teams.
-ms.openlocfilehash: 1717f1b0400f67346034bd9e92bd698305fdd324
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d9bd26f2322d9b99b0e2ff8e8ba01f0569abc24e
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727099"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605586"
 ---
 # <a name="manage-voice-routing-policies-for-direct-routing"></a>Administrar directivas de enrutamiento de voz para enrutamiento directo
 
@@ -78,4 +78,4 @@ Vea también [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-c
 
 [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
 
-[Asignar directivas a los usuarios en Teams](assign-policies.md)
+[Asignar directivas a los usuarios en Teams](policy-assignment-overview.md)

@@ -1,7 +1,7 @@
 ---
 title: Usar OneDrive para la Empresa y SharePoint para grabar las reuniones
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edacf3cd2691a4f037882e25251ead3ec2521882
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6467aedfec406837dcbc79ddf6902aa95d6dde88
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011914"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605216"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -96,7 +96,7 @@ La opción de grabación de la reunión es una configuración en el nivel de dir
    ```
 
 > [!Note]
-> Si algunos de los usuarios han asignado una directiva por organizador o por usuario, debe establecer esta configuración en esta directiva si quiere que también almacenen las grabaciones de reuniones en OneDrive para la Empresa y SharePoint. Para más información, consulte [Administrar directivas de reunión en Teams](meeting-policies-in-teams.md).
+> Si algunos de los usuarios han asignado una directiva por organizador o por usuario, debe establecer esta configuración en esta directiva si quiere que también almacenen las grabaciones de reuniones en OneDrive para la Empresa y SharePoint. Para más información, consulte [Administrar directivas de reunión en Teams](meeting-policies-overview.md).
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Optar por no usar OneDrive para la Empresa y SharePoint para seguir usando Microsoft Stream
 
@@ -155,7 +155,7 @@ Dado que los vídeos son iguales que cualquier otro archivo de OneDrive para la 
 
 **¿Cómo puedo administrar los subtítulos?**
 
-Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponibles durante la reproducción si el usuario tenía activada la transcripción en el momento de la grabación. Los administradores deben [activar la transcripción de la grabación a través de la directiva](/microsoftteams/cloud-recording) para asegurarse de que los usuarios tengan la opción de grabar reuniones con transcripción.
+Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponibles durante la reproducción si el usuario tenía activada la transcripción en el momento de la grabación. Los administradores [deben activar la transcripción de la grabación](meetings-policies-recording-and-transcription.md#allow-transcription) para asegurarse de que sus usuarios tienen la opción de grabar reuniones con transcripción.
 
 Los subtítulos ayudan a crear contenido inclusivo para espectadores de todas las capacidades. Como propietario, puede ocultar los subtítulos en la grabación de la reunión, aunque la transcripción de la reunión seguirá estando disponible en Teams a menos que la elimine de allí.
 
@@ -186,7 +186,7 @@ Consulte [Cómo aplicar automáticamente una etiqueta de retención](/microsoft-
 
 **¿Cómo asigno directivas a mis usuarios en Microsoft Teams y qué directivas tienen prioridad?**
 
-Consulte [¿Qué directivas tienen prioridad?](./assign-policies.md#which-policy-takes-precedence).
+Consulte [¿Qué directivas tienen prioridad?](./policy-assignment-overview.md#which-policy-takes-precedence).
 
 **¿Dónde se encuentra la grabación si el usuario no tiene OneDrive para la Empresa o SharePoint, o si la cuota de almacenamiento está completa?**
 

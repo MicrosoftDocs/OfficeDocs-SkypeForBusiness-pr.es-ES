@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729819"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605846"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
@@ -93,12 +93,12 @@ Para obtener un tutorial sobre cómo crear Equipos, consulte: [Crear un equipo d
 
 Las directivas de Teams ofrecen la posibilidad de controlar las opciones disponibles para determinados usuarios o grupos de usuarios. Las directivas se pueden aplicar para definir los usuarios a los que se les permite usar chat privado, llamadas privadas, programación de reuniones, tipos de contenido que se puede compartir y mucho más.
 
-**El personal de educación superior, los formadores y los alumnos** se benefician de las funciones que se incluyen con las directivas predeterminadas (globales). Se pueden habilitar algunas opciones de configuración adicionales para agregar más funciones a Teams, incluidas [habilitar la función de traducción en la directiva de mensajería](messaging-policies-in-teams.md#messaging-policy-settings) y [permitir la transcripción de las reuniones de forma automática](meeting-policies-in-teams.md#allow-transcription) en la directiva de la reunión.
+**El personal de educación superior, los formadores y los alumnos** se benefician de las funciones que se incluyen con las directivas predeterminadas (globales). Se pueden habilitar algunas opciones de configuración adicionales para agregar más funciones a Teams, incluidas [habilitar la función de traducción en la directiva de mensajería](messaging-policies-in-teams.md#messaging-policy-settings) y [permitir la transcripción de las reuniones de forma automática](meetings-policies-recording-and-transcription.md#allow-transcription) en la directiva de la reunión.
 
 Es posible que se deban restringir funciones a los **alumnos de primaria y secundaria**. Las directivas establecen límites para lo que pueden hacer los alumnos. Dado que la población de alumnos es, por lo general, el conjunto más grande de usuarios y a menudo recibe la configuración más restrictiva, se recomienda que se realicen cambios a la directiva "Global (configuración predeterminada para toda la organización)".
 
 > [!IMPORTANT]
-> Para las directivas de reunión asignadas a usuarios, recomendamos configurar la opción "Admitir personas automáticamente" a "Todos los usuarios de su organización". Esta configuración asegurará que los usuarios no autenticados deban ser admitidos desde la sala de espera antes de que puedan unirse a reuniones de Teams. Para obtener más información, consulte [administrar directivas de reunión de Teams](./meeting-policies-in-teams.md#automatically-admit-people).
+> Para las directivas de reunión asignadas a usuarios, recomendamos configurar la opción "Admitir personas automáticamente" a "Todos los usuarios de su organización". Esta configuración asegurará que los usuarios no autenticados deban ser admitidos desde la sala de espera antes de que puedan unirse a reuniones de Teams. Para obtener más información, consulte [administrar directivas de reunión de Teams](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 **Los formadores y el personal de las escuelas primarias** deben tener asignadas directivas que otorguen las funciones fundamentales que pueden estar restringidas para los alumnos. Cree nuevas directivas que permitan el chat privado y la programación de reuniones (la configuración predeterminada de una nueva directiva). [Asigne estas directivas de forma masiva al personal y los formadores](batch-group-policy-assignment-edu.md).
 

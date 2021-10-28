@@ -1,7 +1,7 @@
 ---
 title: Usar Teams con servicios de escritorio remoto
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fbb5fbd43d9fdc702d0fb9a0a0de446b3a50087
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8250991790b6fc2e326a31829e8afc3f8659df74
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635644"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605582"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams en Servicios de escritorio remoto
 
@@ -47,7 +47,7 @@ Puede establecer directivas mediante el centro Microsoft Teams de administració
 
 [**Directivas de llamadas:**](teams-calling-policy.md)Teams incluye la directiva de llamadas Desautorizado integrada, en la que todas las características de llamadas están desactivadas. Asigne la directiva DisallowCalling a todos los usuarios de su organización que usen Teams en un entorno virtualizado.
 
-[**Directivas de**](meeting-policies-in-teams.md)reunión: Teams incluye la directiva de reunión de AllOff integrada, en la que todas las características de la reunión están desactivadas. Asigne la directiva AllOff a todos los usuarios de su organización que usen Teams en un entorno virtualizado.
+[**Directivas de**](meeting-policies-overview.md)reunión: Teams incluye la directiva de reunión de AllOff integrada, en la que todas las características de la reunión están desactivadas. Asigne la directiva AllOff a todos los usuarios de su organización que usen Teams en un entorno virtualizado.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Asignar directivas con el Centro Microsoft Teams administración
 

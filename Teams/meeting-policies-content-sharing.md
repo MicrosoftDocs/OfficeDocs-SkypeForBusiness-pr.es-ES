@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams para el uso compartido de contenido.
-ms.openlocfilehash: f1fe77b2a8be552e2c156fda8d0b1bd89fa83d4c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726509"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605626"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Configuración de la directiva de reunión. Uso compartido de contenido
 
@@ -66,11 +66,11 @@ Esta configuración es una directiva por usuario. Esta configuración controla s
 
 Si esta configuración está activada para el usuario, la opción **Ceder el control** se mostrará en la barra superior de una sesión compartida.
 
-![Captura de pantalla que muestra la opción Dar control.](media/meeting-policies-give-control.png)
+![Captura de pantalla que muestra la opción Ceder el control.](media/meeting-policies-give-control.png)
 
 Si la configuración está desactivada para el usuario, la opción **Ceder el control** no estará disponible.
 
-![Captura de pantalla que muestra que la opción Dar control no está disponible.](media/meeting-policies-give-control-not-available.png)
+![Captura de pantalla que muestra que la opción Ceder el control no está disponible.](media/meeting-policies-give-control-not-available.png)
 
 Veamos el ejemplo siguiente.
 
@@ -144,5 +144,5 @@ Daniela puede tomar notas en las reuniones de Amanda, pero Amanda no puede tomar
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
-- [Asignar directivas a los usuarios en Teams](assign-policies.md)
+- [Asignar directivas a los usuarios en Teams](policy-assignment-overview.md)
 - [Quitar a los usuarios la directiva de reunión de Teams RestrictedAnonymousAccess](meeting-policies-restricted-anonymous-access.md)

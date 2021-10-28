@@ -21,12 +21,12 @@ description: Obtenga información sobre cómo usar y administrar directivas de e
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 0e7744f87d4fe5be9fb0788166a172ea9709206b
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: f7a62338cc8fe3fbdc73e88cfca5dd9e525ff150
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465810"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605206"
 ---
 # <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>Administrar directivas de enrutamiento de voz de emergencia para enrutamiento directo
 
@@ -101,4 +101,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 
-[Asignar directivas a los usuarios en Teams](assign-policies.md)
+[Asignar directivas a los usuarios en Teams](policy-assignment-overview.md)

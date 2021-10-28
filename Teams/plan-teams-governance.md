@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca020de2f2ce96daa3fe213b7b5c0d80b720165b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 947ced749db6922d756400e99fb61035c5a86600
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728629"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605656"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
@@ -33,7 +33,7 @@ Teams proporciona un conjunto enriquecido de herramientas para implementar las c
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>Creación de grupos y equipos, nomenclatura, clasificación y acceso de invitado
 
-Es posible que su organización requiera implementar controles estrictos sobre cómo se denominan y clasifican los equipos, si los invitados se pueden agregar como miembros del equipo y quién puede crear equipos. Puede configurar estas áreas mediante Azure Active Directory (Azure AD) y etiquetas de confidencialidad. 
+Es posible que su organización requiera implementar controles estrictos sobre cómo se denominan y clasifican los equipos, si los invitados se pueden agregar como miembros del equipo y quién puede crear equipos. Puede configurar estas áreas usando Azure Active Directory (Azure AD) y etiquetas de confidencialidad. 
 
 <br>
 
@@ -51,7 +51,7 @@ Es posible que su organización requiera implementar controles estrictos sobre c
 
 #### <a name="additional-information"></a>Información adicional
 
-Después de determinar los requisitos, puede implementarlos mediante controles de Azure AD. Para obtener instrucciones técnicas sobre cómo implementar esta configuración, vea:
+Después de determinar los requisitos, puede implementarlos mediante Azure AD controles. Para obtener instrucciones técnicas sobre cómo implementar esta configuración, vea:
 
 - [Azure Active Directory cmdlets para configurar la configuración del grupo](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
@@ -69,8 +69,8 @@ Es posible que su organización tenga requisitos adicionales para configurar dir
 
 |-          |-           |
 |-----------|------------|
-| ![Un icono que muestra los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Su organización requiere especificar una fecha de expiración para los equipos?</li><li>¿Su organización requiere que se apliquen directivas de retención de datos específicas a los equipos?</li><li>¿Su organización espera requerir la capacidad de archivar equipos inactivos para conservar el contenido en un estado de solo lectura?</li></ul>|
-| ![Un icono que muestra los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documente los requisitos de su organización para la expiración del equipo, la retención de datos y el archivado.</li><li>Planee implementar estos requisitos como parte de Teams implementación.</li><li>Comunique y publique las directivas para informar a Teams usuarios del comportamiento que pueden esperar.</li></ul>|
+| ![Un icono que representa los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Su organización requiere especificar una fecha de expiración para los equipos?</li><li>¿Su organización requiere que se apliquen directivas de retención de datos específicas a los equipos?</li><li>¿Su organización espera requerir la capacidad de archivar equipos inactivos para conservar el contenido en un estado de solo lectura?</li></ul>|
+| ![Un icono que representa los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documente los requisitos de su organización para la expiración del equipo, la retención de datos y el archivado.</li><li>Planee implementar estos requisitos como parte de Teams implementación.</li><li>Comunique y publique las directivas para informar a Teams usuarios del comportamiento que pueden esperar.</li></ul>|
 
 > [!TIP]
 > Use la tabla siguiente para capturar los requisitos de su organización.
@@ -130,8 +130,8 @@ Otro aspecto importante del gobierno y la administración del ciclo de vida de T
 
 |-        |-        |
 |---------|---------|
-| ![Un icono que muestra los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Necesita su organización limitar Teams características para todo el espacio empresarial?</li><li>¿Necesita su organización limitar Teams características específicas para usuarios específicos?</li></ul>|
-| ![Un icono que muestra los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documente los requisitos de su organización para limitar Teams características en el nivel de inquilino y usuario.</li><li>Planee implementar sus requisitos específicos como parte de Teams implementación.</li><li>Comunique y publique las directivas para informar a Teams usuarios del comportamiento que pueden esperar.</li></ul>|
+| ![Un icono que representa los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Necesita su organización limitar Teams características para todo el espacio empresarial?</li><li>¿Necesita su organización limitar Teams características específicas para usuarios específicos?</li></ul>|
+| ![Un icono que representa los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documente los requisitos de su organización para limitar Teams características en el nivel de inquilino y usuario.</li><li>Planee implementar sus requisitos específicos como parte de Teams implementación.</li><li>Comunique y publique las directivas para informar a Teams usuarios del comportamiento que pueden esperar.</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>Teams áreas de foco de administración de características
 
@@ -142,7 +142,7 @@ Para obtener listas detalladas de todas las configuraciones, incluidas las instr
 - [Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md)
 - [Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [Canales privados en Microsoft Teams](private-channels.md)
-- [Administración de directivas de reunión en Teams](meeting-policies-in-teams.md)
+- [Administración de directivas de reunión en Teams](meeting-policies-overview.md)
 - [Administrar directivas de mensajería de Teams](messaging-policies-in-teams.md)
 - [Administrar las aplicaciones en el centro Microsoft Teams administración](manage-apps.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Quitar a los usuarios la directiva de reunión de Teams RestrictedAnonymousAccess
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,16 +16,16 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: Obtenga información sobre cómo quitar la directiva RestrictedAnonymousAccess Teams reunión de los usuarios de su organización.
-ms.openlocfilehash: fbb34974c435db12880ab68b7af4372a17a6b63b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ba00e8d68a4c30a31ca929e1a41e07cc0fbc104
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590784"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605766"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>Quitar a los usuarios la directiva de reunión de Teams RestrictedAnonymousAccess
 
-[Las directivas de](meeting-policies-in-teams.md) Microsoft Teams se usan para controlar las características que están disponibles para los participantes de la reunión para las reuniones programadas por los usuarios de su organización. 
+[Las directivas de](meeting-policies-overview.md) Microsoft Teams se usan para controlar las características que están disponibles para los participantes de la reunión para las reuniones programadas por los usuarios de su organización. 
 
 Teams incluye una directiva integrada denominada RestrictedAnonymousAccess, que contiene configuraciones predefinidas que incluyen restringir el inicio de una reunión a usuarios anónimos. (Los usuarios anónimos son usuarios que no se han autenticado). Los administradores no pueden modificar ni cambiar la configuración predefinida de la directiva de reunión.
 
@@ -55,7 +55,7 @@ Count  Name                               Group
 
 ## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>Unassign the RestrictedAnonymous meeting policy from users
 
-Para quitar la directiva de reunión RestrictedAnonymous de los usuarios, puede usar el cmdlet [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) si tiene un número reducido de usuarios (por ejemplo, menos de 100 usuarios). Si tiene un gran número de usuarios (por ejemplo, más de 100 usuarios), es más eficaz usar el cmdlet  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) para enviar una operación por lotes.
+Para quitar la directiva de reunión RestrictedAnonymous de los usuarios, puede usar el cmdlet [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) si tiene un número reducido de usuarios (por ejemplo, menos de 100 usuarios). Si tiene un gran número de usuarios (por ejemplo, más de 100 usuarios), es más eficaz usar el cmdlet  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para enviar una operación por lotes.
 
 ### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>Usar el cmdlet Grant-CsTeamsMeeting directiva
 
@@ -67,10 +67,10 @@ Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-
 
 ### <a name="use-the-new-csbatchpolicyassignmentoperation-cmdlet"></a>Usar el cmdlet New-CsBatchPolicyAssignmentOperation de datos
 
-Con [la asignación de directivas](assign-policies.md#assign-a-policy-to-a-batch-of-users)por lotes, el número máximo de usuarios para los que puede quitar o actualizar directivas es de 5 000 a la vez. Por ejemplo, si tiene más de 5.000 usuarios, tendrá que enviar varios lotes. Para obtener los mejores resultados, no envíe varios lotes a la vez. Permitir que los lotes completen el procesamiento antes de enviar más lotes.
+Con [la asignación de directivas](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)por lotes, el número máximo de usuarios para los que puede quitar o actualizar directivas es de 5 000 a la vez. Por ejemplo, si tiene más de 5.000 usuarios, tendrá que enviar varios lotes. Para obtener los mejores resultados, no envíe varios lotes a la vez. Permitir que los lotes completen el procesamiento antes de enviar más lotes.
 
 > [!NOTE]
-> El cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) se encuentra en el módulo Teams PowerShell. Antes de seguir estos pasos, instale y conéctese al módulo [Teams PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams) Para obtener instrucciones paso a paso, vea [Instalar Microsoft Teams PowerShell](teams-powershell-install.md).
+> El cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) se encuentra en el módulo Teams PowerShell. Antes de seguir estos pasos, instale y conéctese al módulo [Teams PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams) Para obtener instrucciones paso a paso, vea [Instalar Microsoft Teams PowerShell](teams-powershell-install.md).
 
 Ejecute los siguientes comandos para quitar la directiva de reunión RestrictedAnonymousAccess de un lote de usuarios.
 
@@ -94,6 +94,6 @@ Asegúrese de que **ErrorCount** es **0** (cero) y **que OverallStatus** está *
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Administración de directivas de reunión en Teams](meeting-policies-in-teams.md)
+- [Administración de directivas de reunión en Teams](meeting-policies-overview.md)
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
-- [Asignar directivas a los usuarios en Teams](assign-policies.md)
+- [Asignar directivas a los usuarios en Teams](policy-assignment-overview.md)

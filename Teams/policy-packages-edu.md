@@ -21,19 +21,19 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: Más información sobre las directivas en una configuración educativa o EDU, y cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 80e4b7becb720a6e4e89740ce7bf8c1c49e33af9
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728169"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605386"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Directivas de Teams y paquetes de directivas para educación
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> Para más información sobre las directivas en Microsoft Teams, consulte [Asignar directivas a los usuarios en Microsoft Teams](assign-policies.md).
+> Para más información sobre las directivas en Microsoft Teams, consulte [Asignar directivas a los usuarios en Microsoft Teams](policy-assignment-overview.md).
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>Administradores: Introducción a la administración de directivas de Microsoft Teams
 
@@ -41,7 +41,7 @@ Microsoft Teams permite a los usuarios realizar tareas como asistir a reuniones 
 
 Esta es una lista de las principales áreas de directivas que encontrará en Microsoft Teams. Para obtener más información sobre las directivas en cada área y las funciones que controlan, use los siguientes vínculos:
 
-- [Reuniones](meeting-policies-in-teams.md)
+- [Reuniones](meeting-policies-overview.md)
 - [Eventos en directo](teams-live-events/configure-teams-live-events.md)
 - [Llamadas](teams-calling-policy.md) 
 - [Mensajería](messaging-policies-in-teams.md)
@@ -121,7 +121,7 @@ Un paquete de directivas en Teams recopila directivas predefinidas y configuraci
 
 Las instituciones educativas en general tienen un gran número de usuarios con necesidades diferentes, en función de la edad y la madurez de los alumnos. Por ejemplo, es posible que quiera conceder a los educadores y al personal acceso total a Microsoft Teams, pero quiera limitar las funciones de Microsoft Teams para los alumnos, para fomentar un entorno de aprendizaje seguro y centrado. Puede usar paquetes de directivas para adaptar las configuraciones en función de las necesidades de los distintos grupos en la comunidad de su institución educativa.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Nuestra recomendación principal es que use la definición de directiva Global (predeterminada para toda la organización) para los alumnos, en lugar de un paquete de directivas. Esto garantiza que los nuevos usuarios en sus organizaciones siempre tengan el conjunto más estricto de directivas adecuadas para los alumnos. Si esta recomendación no cubre las necesidades de su institución, es posible que alguno de los siguientes paquetes de directiva para alumnos sea una buena alternativa. 
 
 Al igual que en la lista de directivas citada anteriormente en este artículo, los paquetes de directivas predefinen directivas para:
@@ -180,7 +180,7 @@ Para asignar un paquete de directivas a uno o más usuarios, vaya al panel de na
 
 ![Captura de pantalla de cómo asignar un paquete de directivas en el Centro de administración](media/policy-packages-healthcare-assign.png)
 
-Para obtener más información, consulte [Asignar un paquete de directivas](manage-policy-packages.md#assign-a-policy-package).
+Para obtener más información, consulte [Asignar un paquete de directivas](assign-policy-packages.md).
 
 Si un usuario tiene una directiva asignada y posteriormente asigna otra directiva, la asignación más reciente tendrá prioridad.
 
@@ -190,13 +190,13 @@ Si un usuario tiene una directiva asignada y posteriormente asigna otra directiv
 
 La opción de asignar un paquete de directiva a grupos le permite asignar múltiples directivas a un grupo de usuarios, como un grupo de seguridad o una lista de distribución. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente. Este método es el recomendado para grupos de hasta 50 000 usuarios, pero también funciona con grupos más grandes.
 
-Para obtener más información, consulte [Asignar un paquete de directivas a un grupo](assign-policies.md#assign-a-policy-package-to-a-group).
+Para obtener más información, consulte [Asignar un paquete de directivas a un grupo](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Asignar un paquete de directivas a un conjunto amplio (un lote) de usuarios
 
 Use la asignación de paquete de directiva por lotes para asignar un paquete de directivas a grandes grupos de usuarios de una sola vez. Use el cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar un lote de usuarios y el paquete de directivas que quiera asignar. Las asignaciones se procesan como una operación de segundo plano y se genera un identificador de operación para cada lote.
 
-Un lote puede contener hasta 5000 usuarios. Puede especificar los usuarios por su identificador de objeto, UPN, dirección SIP o dirección de correo electrónico. Para obtener más información, consulte [Asignar un paquete de directivas a un lote de usuarios](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+Un lote puede contener hasta 5000 usuarios. Puede especificar los usuarios por su identificador de objeto, UPN, dirección SIP o dirección de correo electrónico. Para obtener más información, consulte [Asignar un paquete de directivas a un lote de usuarios](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>Directivas que se deben asignar para la seguridad de los alumnos
 
