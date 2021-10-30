@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0dd2bb016498df23a98c1e289679fd1c4e4cfa38
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8be2464d765ef45097a1f78681933fa798c129c3
+ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729699"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "60624241"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar y habilitar Asesor de carrera para Microsoft Teams
 
@@ -91,7 +91,7 @@ Para obtener instrucciones paso a paso, vea [Asignar licencias a usuarios.](/mic
 
 Asesor de carrera **requiere** que los usuarios de la institución educativa tengan la capacidad de conectar su cuenta de Microsoft 365 a su cuenta de LinkedIn que se facilita dentro de Asesor de carrera
 
-1. Inicie sesión en el [Centro de administración de Azure AD](https://aad.portal.azure.com/) con una cuenta que sea administrador global de la organización de Azure AD.
+1. Inicie sesión en el [Azure AD de](https://aad.portal.azure.com/) administración con una cuenta que sea administrador global de la Azure AD organización.
 
 2. Seleccione **Usuarios**.
 
@@ -361,6 +361,18 @@ Anclar Asesor de carrera hará que la aplicación sea más accesible y visible p
 > Se notificará a los alumnos en Microsoft Teams que Asesor de carrera se ha anclado.
 
 Para obtener más información, haga referencia a Administrar directivas de configuración de [aplicaciones en Microsoft.](/microsoftteams/teams-app-setup-policies)
+
+## <a name="removing-your-tenant-data"></a>Quitar los datos del inquilino
+
+Los datos del inquilino incluyen información que se carga o se genera como parte de la configuración de la aplicación. Para eliminar todos los datos de un inquilino Asesor de carrera, [](https://edusupport.microsoft.com/support?product_id=career_coach) haga que el administrador global del inquilino abra un vale de soporte técnico solicitando que los datos del inquilino se eliminen permanentemente. Tenga en cuenta que este proceso no es reversible. Una vez completada la eliminación de datos, la aplicación Asesor de carrera volverá Asesor de carrera su estado preconfigurado no personalizado para todos los usuarios y un administrador de Teams tendrá que configurar la aplicación de nuevo para seguir usla.
+
+A continuación se explica el proceso de eliminación:
+
+- Un vale de soporte técnico debe ser presentado por un administrador global de inquilinos que indique claramente la solicitud de eliminación permanente de los datos del inquilino. No se puede limitar el conjunto de datos **ni la ventana de tiempo de la eliminación.**
+
+- Una vez que se haya presentado, el vale de soporte técnico se abordará después de una semana para cumplir con la directiva de retención mínima del cumplimiento. Puede cancelar la operación durante este tiempo.
+
+- Después de una semana, Asesor de carrera equipo garantiza que se eliminen todos los datos relacionados con el espacio empresarial. El soporte técnico de Microsoft supervisa el vale y le notificará una vez completado el proceso de eliminación, en **un no más de 30 días.**
 
 ## <a name="resources"></a>Recursos
 

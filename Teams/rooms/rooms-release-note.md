@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la Salas de Microsoft Teams, que incluyen mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4f6c719a0be5e1d400eae37ba19be8e0dbd0214
-ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
+ms.openlocfilehash: 6f49c2d3babfdf97bb39405d1f48a84deb724db5
+ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "60082880"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "60624251"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión de Salas de Microsoft Teams
 
@@ -29,6 +29,7 @@ En este artículo se deba a las mejoras acumulativas Salas de Microsoft Teams.
 
 |Versión |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|Teams Web-Client versión | Octubre de 2021 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
@@ -76,6 +77,23 @@ En este artículo se deba a las mejoras acumulativas Salas de Microsoft Teams.
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas de Microsoft Teams de características y resolución de problemas
 
+### <a name="teams-rooms-web-client-update-october-2021"></a>Salas de Teams Actualización de cliente web (octubre de 2021)
+
+Se ha introducido en esta actualización:
+- Control de lista unificado con un cliente de escritorio Teams con agrupación de reuniones estructuradas, opciones de reunión y controles para los presentadores/asistentes, aumentar el criterio de ordenación a mano y la capacidad de invitar usuarios desde chat o invitación a reuniones directamente desde la lista 
+- Alineación de controles de llamada de barra universal con cliente de escritorio en controles de llamada de reunión, botón Diseño e información de estado de la reunión
+- Soporte de galería dinámica para pantallas frontales de sala individuales y dobles
+- Selector de diseño unificado para la opción de diseño frontal del salón consolidada
+- Destacar o anclar varios participantes en Teams reuniones
+- Soporte técnico para reuniones grandes con los controles de moderador o asistentes accesibles pulsando participante desde la lista
+- Capacidad de bloquear una reunión para reuniones en las que la sala es organizadora, así como conciencia de la reunión que está bloqueada
+- Compatibilidad con el consumo del modo moderador (hombre del tiempo) cuando un usuario remoto comparte contenido con la opción de vista moderador
+- Soporte de reacción en Teams reuniones 
+
+
+> [!NOTE]
+> Las actualizaciones de cliente web están disponibles para todos los Salas de Teams con las versiones 4.10 y 4.9 de la aplicación. Los administradores podrán inscribirse en Salas de Teams de vista previa pública para obtener pronto el máximo de las características del cliente web.
+
 ### <a name="410100-1012021"></a>4.10.10.0 (10/1/2021)
 
 Se ha introducido en esta actualización:
@@ -84,7 +102,7 @@ Se ha introducido en esta actualización:
 - Las burbujas de chat proporcionan notificaciones en el chat de reunión para llamar la atención sobre lo que se dice con el chat de reunión *
 - La galería grande y la compatibilidad con el modo Juntos ahora están disponibles en GCC High
 - Nuevas aptitudes agregadas a Cortana, Agregar persona por nombre a la reunión y Llamar por nombre 
-- Cortana Push to Talk está habilitado de forma predeterminada en todos los dispositivos. Para obtener más [información, vea Cortana de voz en Teams](../cortana-in-teams.md).
+- Cortana Push to Talk está habilitado de forma predeterminada en todos los dispositivos. Para obtener más información, [vea Cortana de voz en Teams](../cortana-in-teams.md).
 
 > [!NOTE]
 > Compatibilidad con 19H1 en desuso. La versión mínima del sistema operativo compatible con la versión 4.10 es 19H2.
@@ -169,7 +187,7 @@ Se ha introducido en esta actualización:
 Se ha introducido en esta actualización:
 
 - Reuniones coordinadas entre Microsoft Teams y Surface Hub 2S
-- Corrección del Skype de inicio de sesión de Windows 10 para empresas al instalar la actualización [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) o Windows 10 actualización [KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709)
+- Corrección para Skype de inicio de sesión de Windows 10 cuando se instala la actualización [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) o Windows 10 actualización [KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709)
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
@@ -231,7 +249,7 @@ Se ha introducido en esta actualización:
 
 Se ha introducido en esta actualización:
 
-- Respuesta automática a llamadas basadas en proximidad y configuración de administrador para controlar esta
+- Respuesta automática a llamadas basadas en proximidad y configuración de administrador para controlar este
 - Administrador de dispositivos Configuración la interfaz de usuario con la adición de la configuración del dispositivo en la pestaña Acerca de
 - Control de sala de nuevo a la pantalla principal
 - Sala de reuniones SKU disponible en GCC
@@ -251,7 +269,7 @@ Se ha introducido en esta actualización:
 - Una nueva característica de cámara de contenido que permite a los usuarios incluir de forma inteligente una pizarra tradicional en su Teams reunión
 - Mejoras adicionales en la interfaz de usuario de la consola para reducir el desorden y mover Configuración a una nueva barra lateral a la que se accede a través de Más en la consola
 - Botón De la bandeja de compartir deshabilitada si el cable de contenido local no está conectado o una cámara de contenido no está conectada
-- Se ha corregido un problema con el teclado táctil en el que no aparecía la primera vez después de reiniciar un sistema MTR.
+- Se ha corregido un problema con el teclado táctil en el que no aparecía por primera vez solo después de reiniciar un sistema MTR
 - Correcciones de calidad y confiabilidad
 
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
@@ -260,7 +278,7 @@ Se ha introducido en esta actualización:
 
 - Skype La aplicación de la tienda Room System vuelve a cambiar el nombre a "Salas de Microsoft Teams"
 - Salas de Microsoft Teams interfaz de usuario de la consola se vuelve a alinear a Microsoft Teams
-- Actualización del tema: solo mantenga la imagen de fondo personalizada delante de las pantallas de la sala, mientras que hace que el fondo de la consola sea un color neutro para garantizar que los controles de la interfaz de usuario de la consola cumplan con el contraste de color, requisitos de accesibilidad
+- Actualización del tema: solo mantenga la imagen de fondo personalizada delante de las pantallas de la sala, mientras que hace que el fondo de la consola sea un color neutro para garantizar que los controles de la interfaz de usuario de la consola cumplan con el contraste de color: requisitos de accesibilidad
 - Barra universal para controles de llamadas en la reunión para Teams llamadas o reuniones para proporcionar una experiencia coherente con Microsoft Teams clientes de PC/ Web/ Mobile<sup>1</sup>
 - Clasificación de comentarios sobre la calidad de las llamadas Teams llamadas o reuniones<sup>1</sup>
 - Recibir o representar Microsoft Whiteboard en Salas de Microsoft Teams pantalla frontal de la sala cuando se comparte desde PC/ Web/ Mobile Teams cliente<sup>1</sup> <sup>2</sup>
@@ -459,7 +477,7 @@ Se ha introducido en esta actualización:
 - Reutilizar las inversiones existentes en la pantalla frontal de la sala o proyectores
 - Funciona en todo tipo de áreas de reuniones, desde los espacios más apiñados a las salas de conferencias más amplias.
 - Los dispositivos de audio y vídeo certificados de Skype Empresarial están disponibles para diversos tamaños de salas.
-- Transmisión por cable integrada para compartir el escritorio del proyecto con la sala y con la reunión de Skype.
+- Ingestión por cable integrada para proyectar el uso compartido del escritorio en la sala y en la Skype reunión
 
  **Fácil de implementar, sencillo de administrar.**
 

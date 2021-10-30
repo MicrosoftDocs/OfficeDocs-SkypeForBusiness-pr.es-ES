@@ -22,18 +22,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: b861278bd4ae8081f7bb930a94c602ba4f7507a7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: adf3f91e7a2237c52cdd25892a1eb6b3d634ecf7
+ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726529"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "60624231"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
 ## <a name="overview"></a>Información general
 
-Con los eventos en directo de Teams, los usuarios de su organización pueden difundir contenido en vídeo y reuniones a un amplio público en línea.
+Con los eventos en directo de Teams, los usuarios de su organización pueden difundir contenido de vídeo y reuniones a un amplio público en línea.
 
 Los eventos en directo de Microsoft 365 llevan el streaming de vídeo en directo a otro nivel. Los eventos en directo promueven la conexión durante todo el ciclo de vida de interacción con los participantes antes, durante y tras los eventos en directo. Puede crear un evento en directo dondequiera que se encuentre el público, el equipo o la comunidad, con Microsoft Stream, Teams o Yammer.  
 
