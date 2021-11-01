@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b4f3c19ed82362a066044ff9dd1c695b6690e2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 01748c0e344cbadf2d771d2ab4bf6ad1f9b14dfb
+ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729679"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "60633526"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo: protocolo SIP
 
@@ -56,7 +56,7 @@ A continuación se muestra un ejemplo del mensaje Invitar SIP en una llamada ent
 | Request-URI | INVITAR sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0 |
 | A través del encabezado | A través de: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards encabezado | Max-Forwards:68 |
-| Desde encabezado | Del encabezado de: <sip:7168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
+| Desde encabezado | Desde encabezado de: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | A Encabezado | Para: sip:+183338006777@sbc1.adatum.biz | 
 | Encabezado CSeq | CSeq: 1 INVITACIÓN | 
 | Encabezado de contacto | Contacto: <sip: 68712781@sbc1.adatum.biz:5058;transport=tls> | 
@@ -115,6 +115,15 @@ Actualmente, el número de teléfono debe contener un signo más (+) como se mue
 
 ```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
+```
+#### <a name="from-header"></a>Desde encabezado
+
+Para todas las llamadas entrantes, el encabezado De se usa para hacer coincidir el número de teléfono del autor de la llamada con la lista de números de teléfono bloqueados del destinatario.
+
+El número de teléfono debe contener un signo + como se muestra en el ejemplo siguiente.
+
+```console
+From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
 ```
 
 ## <a name="contact-and-record-route-headers-considerations"></a>Consideraciones de Record-Route de contacto y encabezados
@@ -220,7 +229,7 @@ El SBC debe admitir Invitar con reemplazos.
 
 La interfaz de enrutamiento directo puede enviar un mensaje SIP que supere los 1.500 bytes.  El tamaño de SDP causa principalmente esto. Sin embargo, si hay un tronco UDP detrás del SBC, puede rechazar el mensaje si se reenvía desde el proxy SIP de Microsoft al tronco sin modificar. Microsoft recomienda quitar algunos valores de SDP en el SBC al enviar el mensaje a los troncos UDP. Por ejemplo, los candidatos del ICE o los códecs sin usar se pueden quitar.
 
-## <a name="call-transfer"></a>Transferencia de llamadas
+## <a name="call-transfer"></a>Transferencia de llamada
 
 Enrutamiento directo admite dos métodos para la transferencia de llamadas:
 

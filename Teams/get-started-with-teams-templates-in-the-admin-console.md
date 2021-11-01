@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f51c262e26613cf29a7dd2883afbf1cc6871b26
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: a22ced459a9e014b92a7141a224ea20d5f7022d2
+ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367522"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "60633516"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introducción a las plantillas de equipo en el centro de administración de Teams
 
@@ -82,6 +82,11 @@ Puede duplicar plantillas predefinidas, pero no editarlas. Si desea cambiar las 
 |Organizar una tienda| `com.microsoft.teams.template.retailStore` |Canales: <ul><li>General<li>Cambio de turno</li><li>Preparación del almacén</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li><li>Turnos</li><li>Inspección</li></ul>|
 |Venta al por menor para administradores| `com.microsoft.teams.template.retailManagerCollaboration` |Canales: <ul><li>General<li>Operaciones</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li><li>Inspección</li></ul>|
 |Calidad y seguridad |`com.microsoft.teams.template.QualitySafety`|Canales: <ul><li>General<li>Anuncios</li><li>Liderazgo</li><li>Mantenimiento</li><li>Línea de producción 1</li><li>Línea de producción 2</li><li>Línea de producción 3</li><li>Salud y seguridad</li><li>Aprendizaje</li><li>Material divertido</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li> <li>Informador del problema</li> <li>Inspección</li> </ul>|
+|Administrar voluntarios| `com.microsoft.teams.template.ManageVolunteers` |Canales: <ul><li>General<li>Anuncios</li><li>Informes</li><li>Administración de voluntarios</li><li>Oportunidades de participación</li><li>Incorporación de voluntarios</li></ul> Aplicaciones: <ul><li>Sitio web</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tareas</li><li>SharePoint</li><li>OneNote</li></ul>|
+||||
+
+&sup1; Aplicación agregada al canal como una pestaña.
+
 
 ### <a name="team-templates-by-category-and-industry"></a>Plantillas de equipo por categoría e industria
 
@@ -92,6 +97,7 @@ Para obtener más información sobre formas de usar las plantillas predefinidas 
 - [Plantillas de equipo de gobierno](government-teams-templates-in-the-admin-console.md)
 - [Plantillas de equipo de atención sanitaria](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Plantillas de equipo de fabricación](manufacturing-teams-templates-in-the-admin-console.md)
+- [Plantillas de equipo sin ánimo de lucro](team-templates-nonprofit.md)
 - [Plantillas de equipo de retail](retail-teams-templates-in-the-admin-console.md)
 
 ## <a name="team-template-size-limits"></a>Límites de tamaño de plantilla de equipo
