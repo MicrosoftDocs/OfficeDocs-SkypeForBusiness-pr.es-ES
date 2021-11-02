@@ -945,7 +945,7 @@ items:
                     href: direct-routing-connect-the-sbc.md
                   - name: 'Paso 2: habilitar usuarios'
                     href: direct-routing-enable-users.md
-                  - name: 'Paso 3: configurar el enrutamiento de voz'
+                  - name: 'Paso 3: Configure el enrutamiento de llamadas.'
                     href: direct-routing-voice-routing.md
                   - name: 'Paso 4: convertir números de teléfono'
                     href: direct-routing-translate-numbers.md
@@ -953,7 +953,7 @@ items:
                     href: direct-routing-sbc-multiple-tenants.md
                   - name: Cómo usar dispositivos analógicos con enrutamiento directo
                     href: direct-routing-analog-devices.md
-                  - name: Administrar directivas de enrutamiento de voz
+                  - name: Administrar directivas de enrutamiento de llamadas
                     href: manage-voice-routing-policies.md
                   - name: Administrar notificaciones perdidas
                     href: direct-routing-call-notifications.md
@@ -1077,7 +1077,7 @@ items:
                 href: emergency-calling-labels.md
           - name: Administrar directivas de llamadas de emergencia
             href: manage-emergency-calling-policies.md
-          - name: Administrar directivas de enrutamiento de voz de emergencia para enrutamiento directo
+          - name: Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo
             href: manage-emergency-call-routing-policies.md
       - name: Administrar directivas de voz y llamadas en Teams
         href: voice-and-calling-policies.md

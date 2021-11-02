@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2551d0de27bd945dfda1ba943462b33489d7cd42
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6ba80c74e905fa80f42095afd7a524d202661f21
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733989"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641200"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Descripción de los equipos y canales en Microsoft Teams
 
@@ -41,7 +41,7 @@ Para obtener más información sobre los equipos y canales, vea información gen
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
-| Ver este breve vídeo   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| Ver este breve vídeo   | <iframe width="350" height="200" src="https://youtu.be/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
 
 
 
@@ -61,4 +61,4 @@ En un equipo de la organización (que se muestra a la izquierda), se puede compa
   
 Trabajará más en la estructura de los equipos en [la fase 2](teams-adoption-phase2-experiment.md) de la implementación.
 
-![Un icono que muestra el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Crear los primeros equipos](teams-adoption-your-first-teams.md)
+![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Crear los primeros equipos](teams-adoption-your-first-teams.md)

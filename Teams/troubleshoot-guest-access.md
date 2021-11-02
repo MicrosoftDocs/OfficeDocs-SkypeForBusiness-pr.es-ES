@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b539116fb5e81156a56c5f73146b92eea898765
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8d54e236583211c2a8169987bf03ceba756facf
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600935"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641220"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solución de problemas con el acceso de invitado en Microsoft Teams
 
@@ -41,14 +41,10 @@ El acceso de invitado en Teams usa Azure Active Directory (Azure AD) negocio a n
 > [!NOTE]
 > Teams estar habilitado en el espacio empresarial de un invitado para que los invitados puedan iniciar sesión y usar Teams como invitado en otro espacio empresarial (recurso).
 
-Si ve errores de licencia, asegúrese de leer el modelo de facturación de identidades externas de [Azure AD](/azure/active-directory/external-identities/external-identities-pricing) para determinar los requisitos de licencias para satisfacer sus necesidades de acceso de invitado en su organización.
+Si ve errores de licencia, asegúrese [](/azure/active-directory/external-identities/external-identities-pricing) de leer el modelo de facturación para Azure AD Identidades externas para determinar los requisitos de licencia para satisfacer sus necesidades de acceso de invitado en su organización.
 
 - Las licencias de invitado se cuentan contra la organización que invita. Considere esto al calcular el número de licencias que necesita.
 - Las licencias se cuentan en su organización tanto si los invitados invitados proceden de otra organización Microsoft 365 como si usan sus direcciones de correo electrónico personales.
-
-## <a name="support-for-b2b-user-types"></a>Soporte técnico para los tipos de usuario B2B
-
-Actualmente, Teams solo admiten los tipos de estado 1 y estado 2 de usuarios invitados [definido por Azure B2B](/azure/active-directory/b2b/user-properties).
 
 ## <a name="related-topics"></a>Temas relacionados
 
