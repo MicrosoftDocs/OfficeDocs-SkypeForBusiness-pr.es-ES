@@ -1,5 +1,5 @@
 ---
-title: Administrar directivas de enrutamiento de voz para enrutamiento directo
+title: Administrar directivas de enrutamiento de llamadas para enrutamiento directo
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,25 +16,25 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo crear y administrar directivas de enrutamiento de voz en Microsoft Teams.
-ms.openlocfilehash: d9bd26f2322d9b99b0e2ff8e8ba01f0569abc24e
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+description: Obtenga información sobre cómo crear y administrar directivas de enrutamiento de llamadas en Microsoft Teams.
+ms.openlocfilehash: dec6f19dea1f2a44f1c550bf4ae6b9c4f4dedc77
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605586"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634939"
 ---
-# <a name="manage-voice-routing-policies-for-direct-routing"></a>Administrar directivas de enrutamiento de voz para enrutamiento directo
+# <a name="manage-call-routing-policies-for-direct-routing"></a>Administrar directivas de enrutamiento de llamadas para enrutamiento directo
 
-Si ha implementado Sistema telefónico Enrutamiento directo en su organización, use directivas de enrutamiento de voz para permitir que los usuarios de Teams y Skype Empresarial Online reciban y realicen llamadas telefónicas [a](direct-routing-landing-page.md) la red telefónica conmutada (RTC) con su infraestructura de telefonía local.
+Si ha implementado [](direct-routing-landing-page.md) enrutamiento directo en su organización, use directivas de enrutamiento de llamadas para permitir que los usuarios de Teams reciban y realicen llamadas telefónicas a la red telefónica conmutada (RTC) con su infraestructura de telefonía local.
 
-Una directiva de enrutamiento de voz es un contenedor para los registros de uso de RTC. Para crear y administrar directivas de enrutamiento de voz, vaya a Directivas de enrutamiento de voz en el centro de administración de Microsoft Teams voz o mediante  >   Windows PowerShell.
+Una directiva de enrutamiento de llamadas (también denominada directiva de enrutamiento de voz) es un contenedor para los registros de uso de RTC. Para crear y administrar directivas de enrutamiento de voz, vaya a Directivas de enrutamiento de voz en el centro de administración de Microsoft Teams voz o mediante  >   Windows PowerShell.
 
 Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios recibirán automáticamente la directiva global a menos que cree y asigne una directiva personalizada. Tenga en cuenta que puede editar la configuración de la directiva global, pero no puede cambiar el nombre ni eliminarlo.
 
 Es importante saber que asignar una directiva de enrutamiento de voz a un usuario no permite realizar llamadas RTC en Teams. También tendrá que habilitar al usuario para Sistema telefónico enrutamiento directo y completar otros pasos de configuración. Para obtener más información, vea [Configurar enrutamiento directo.](direct-routing-configure.md)
 
-## <a name="create-a-custom-voice-routing-policy"></a>Crear una directiva de enrutamiento de voz personalizada
+## <a name="create-a-custom-call-routing-policy"></a>Crear una directiva de enrutamiento de llamadas personalizada
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
@@ -50,7 +50,7 @@ Es importante saber que asignar una directiva de enrutamiento de voz a un usuari
 
 Vea [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy).
 
-## <a name="edit-a-voice-routing-policy"></a>Editar una directiva de enrutamiento de voz
+## <a name="edit-a-call-routing-policy"></a>Editar una directiva de enrutamiento de llamadas
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
@@ -64,7 +64,7 @@ Puede editar la directiva global o las directivas personalizadas que cree.
 
 Vea [Set-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/set-csonlinevoiceroutingpolicy).
 
-## <a name="assign-a-custom-voice-routing-policy-to-users"></a>Asignar una directiva de enrutamiento de voz personalizada a los usuarios
+## <a name="assign-a-custom-call-routing-policy-to-users"></a>Asignar una directiva de enrutamiento de llamadas personalizada a los usuarios
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
@@ -74,7 +74,7 @@ Vea también [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-c
 
 [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 
-[Configurar el enrutamiento de voz para enrutamiento directo](direct-routing-voice-routing.md)
+[Configurar el enrutamiento de llamadas para enrutamiento directo](direct-routing-voice-routing.md)
 
 [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
 

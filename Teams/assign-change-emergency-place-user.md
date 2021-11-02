@@ -1,5 +1,5 @@
 ---
-title: Asignar y cambiar lugares para ubicaciones de emergencia para los usuarios
+title: Asignar o cambiar lugares para ubicaciones de emergencia para los usuarios
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,20 +18,22 @@ f1.keywords:
 - NOCSH
 description: En este artículo, aprenderá a asignar o cambiar el lugar de una ubicación de emergencia para los usuarios de su organización.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8cb8d51f35799ddb8610e7b3b36b43bf7f1fb890
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 9bd69356be22954ee1b1b44b2dcc1a52c1e72507
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537211"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634889"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Asignar o cambiar el lugar de una ubicación de emergencia para un usuario
 
-Cada número de teléfono activo debe tener una ubicación de emergencia asociada al asignar el número de teléfono a un usuario. La dirección se asocia cuando recibe un número de teléfono en Microsoft 365, cuando transfiere un número de teléfono a Microsoft 365 o cuando recibe un número de teléfono de su proveedor.
+Independientemente de la opción de conectividad [RTC](pstn-connectivity.md) que elija Planes de llamadas de Microsoft, Operador Conectar o Enrutamiento directo, es necesario asignar una ubicación de emergencia a cada número de teléfono &mdash; o &mdash; usuario.
 
-Al asociar el número a una ubicación de emergencia, también puede agregar un lugar para proporcionar una ubicación más exacta dentro de una ubicación física. Un lugar puede ser el piso, el ala del edificio u número de oficina donde se encuentra el usuario. Puede tener un número ilimitado de lugares para una ubicación de emergencia determinada y puede cambiar el lugar si el usuario se mueve a otra oficina o edificio. Por ejemplo, si el usuario se mueve del piso 34 al piso 35.
-  
-Puede asignar o cambiar el lugar de una ubicación de emergencia para un usuario en el centro de administración de Microsoft Teams o mediante PowerShell.
+Sin embargo, según la opción de conectividad RTC, la forma en que administra y asigna ubicaciones de emergencia para un usuario puede variar. Para obtener más información, vea [Administrar llamadas de emergencia.](what-are-emergency-locations-addresses-and-call-routing.md)
+
+En este artículo se describe  cómo asignar o cambiar el lugar de una ubicación de emergencia para un usuario en el centro de administración de Microsoft Teams o mediante PowerShell.
+
+Este artículo se aplica a planes de llamadas y Conectar.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
@@ -56,8 +58,8 @@ Vea [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation).
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Administrar llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Asignar o cambiar la ubicación de emergencia de un usuario](assign-change-emergency-location-user.md)
 - [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-remove-emergency-location-organization.md)
 - [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-remove-emergency-place-organization.md)
-- [Asignar o cambiar la ubicación de emergencia de un usuario](assign-change-emergency-location-user.md)
 - [Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Términos y condiciones de las llamadas de emergencia](./emergency-calling-terms-and-conditions.md)

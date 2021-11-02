@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar Teléfono Microsoft System Direct Routing para conectar su infraestructura de telefonía local a Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f2e0277afeb7fefc3715aef00138fab3b3ff62bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05e3152c13b0cf6559964d3926d7c66e7cf376e8
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582364"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634899"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -52,7 +52,7 @@ Para configurar Teléfono Microsoft sistema y permitir a los usuarios usar enrut
 
 - **Paso 1.** [Conectar el SBC con Teléfono Microsoft y validar la conexión](direct-routing-connect-the-sbc.md)
 - **Paso 2.** [Habilitar usuarios para enrutamiento directo, voz y correo de voz](direct-routing-enable-users.md)
-- **Paso 3.** [Configurar el enrutamiento de voz](direct-routing-voice-routing.md)
+- **Paso 3.** [Configurar el enrutamiento de llamadas](direct-routing-voice-routing.md)
 - **Paso 4.** [Traducir números a un formato alternativo](direct-routing-translate-numbers.md) 
 
 Si está configurando un SBC para varios inquilinos, también querrá leer Configurar un [SBC para varios inquilinos.](direct-routing-sbc-multiple-tenants.md)

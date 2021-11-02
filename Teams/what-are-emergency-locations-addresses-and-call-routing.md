@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Obtenga información sobre las llamadas de emergencia, incluida la información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: 7a4bb05c9c3a4f4dc08a7bdd51711391e05f9b8d
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: f6c1dd766ae14d855b9f2ffcf21c41ed8a5a1550
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465860"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634869"
 ---
 # <a name="manage-emergency-calling"></a>Administrar llamadas de emergencia
 
@@ -191,7 +191,7 @@ En las secciones siguientes se describe cómo administrar las llamadas de emerge
 
 ### <a name="emergency-call-enablement-for-direct-routing"></a>Habilitación de llamadas de emergencia para enrutamiento directo
 
-Para enrutamiento directo, debe definir directivas de llamadas de emergencia para los usuarios mediante una directiva de enrutamiento de llamadas de emergencia de Teams (TeamsEmergencyCallRoutingPolicy) para definir los números de emergencia y su destino de enrutamiento asociado. (Actualmente, las ubicaciones de emergencia registradas no son compatibles con los usuarios de Enrutamiento directo).
+Para enrutamiento directo, debe definir directivas de [](manage-emergency-call-routing-policies.md) llamadas de emergencia para los usuarios mediante una directiva de enrutamiento de llamadas de emergencia Teams para definir los números de emergencia y su destino de enrutamiento asociado. (Actualmente, las ubicaciones de emergencia registradas no son compatibles con los usuarios de Enrutamiento directo).
 
 Puede asignar una directiva de enrutamiento de llamadas de emergencia a una cuenta de usuario de Enrutamiento directo, un sitio de red o ambos. Cuando un Teams inicia o cambia una conexión de red, Teams realiza una búsqueda del sitio de red donde se encuentra el cliente de la siguiente manera:
 

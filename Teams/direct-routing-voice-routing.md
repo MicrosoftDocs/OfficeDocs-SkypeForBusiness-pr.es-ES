@@ -1,5 +1,5 @@
 ---
-title: Configurar el enrutamiento de voz para enrutamiento directo
+title: Configurar el enrutamiento de llamadas para enrutamiento directo
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,26 +15,26 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Obtenga información sobre cómo configurar el enrutamiento de voz con Teléfono Microsoft System Direct Routing.
-ms.openlocfilehash: 7d02eb6a2eb1546e11693e8e2475b1ed6e2b7685
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Obtenga información sobre cómo configurar el enrutamiento de llamadas con Microsoft Direct Routing.
+ms.openlocfilehash: cb8f33d8e5e2ea3e3e14ac47b57d9b5920f2bb2a
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727139"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60635049"
 ---
-# <a name="configure-voice-routing-for-direct-routing"></a>Configurar el enrutamiento de voz para enrutamiento directo
+# <a name="configure-call-routing-for-direct-routing"></a>Configurar el enrutamiento de llamadas para enrutamiento directo
 
-En este artículo se describe cómo configurar el enrutamiento de voz para Sistema telefónico enrutamiento directo.  Este es el paso 3 de los pasos siguientes para configurar enrutamiento directo:
+En este artículo se describe cómo configurar el enrutamiento de llamadas para enrutamiento directo. Este es el paso 3 de los pasos siguientes para configurar enrutamiento directo:
 
 - Paso 1. [Conectar el SBC con Teléfono Microsoft y validar la conexión](direct-routing-connect-the-sbc.md) 
 - Paso 2. [Habilitar usuarios para enrutamiento directo, voz y correo de voz](direct-routing-enable-users.md)
-- **Paso 3. Configurar el enrutamiento de** voz (este artículo)
+- **Paso 3. Configurar el enrutamiento de** llamadas (este artículo)
 - Paso 4. [Traducir números a un formato alternativo](direct-routing-translate-numbers.md) 
 
 Para obtener información sobre todos los pasos necesarios para configurar el enrutamiento directo, vea [Configurar enrutamiento directo.](direct-routing-configure.md)
 
-## <a name="voice-routing-overview"></a>Información general sobre enrutamiento de voz
+## <a name="call-routing-overview"></a>Introducción al enrutamiento de llamadas
 
 Teléfono Microsoft El sistema tiene un mecanismo de enrutamiento que permite enviar una llamada a un controlador de borde de sesión (SBC) específico en función de: 
 
@@ -43,9 +43,9 @@ Teléfono Microsoft El sistema tiene un mecanismo de enrutamiento que permite en
  
 Los SBC se pueden designar como activos y de copia de seguridad. Cuando el SBC configurado como activo no está disponible para una ruta de llamada específica, la llamada se enruta a un SBC de copia de seguridad.
  
-El enrutamiento de voz está hecho de los siguientes elementos: 
+El enrutamiento de llamadas está hecho de los siguientes elementos: 
 
-- **Directiva de enrutamiento de** voz: un contenedor para usos RTC, que se puede asignar a un usuario o a varios usuarios. 
+- **Directiva de enrutamiento de** llamadas: también denominada directiva de enrutamiento de voz. Un contenedor para usos RTC, que se puede asignar a un usuario o a varios usuarios. 
 
 - **Usos rtc:** un contenedor para rutas de voz y usos rtc, que se pueden compartir en distintas directivas de enrutamiento de voz. 
 
