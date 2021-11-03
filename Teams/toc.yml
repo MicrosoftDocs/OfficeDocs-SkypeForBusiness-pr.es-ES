@@ -533,6 +533,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Plantillas de equipo de la categoría de fabricación
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: Plantillas de equipo de categoría sin ánimo de lucro
+            href: team-templates-nonprofit.md
           - name: Administrar directivas de plantillas de equipo
             href: templates-policies.md
       - name: Trabajar con personas fuera de la organización
@@ -1553,6 +1555,11 @@ items:
             href: flw-realwear.md
           - name: Walkie-talkie
             href: walkie-talkie.md
+      - name: Teams para ONG
+        href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
+        items:
+          - name: Uso de plantillas de equipo sin ánimo de lucro
+            href: team-templates-nonprofit.md
       - name: Teams para el comercio
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
