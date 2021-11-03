@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: dea6c465600229414dba30c0b0adecc7e5a5caad
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 731ed3aa7b9cb7b2511d7ffa1614bdf06522ac0e
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537101"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641240"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
@@ -106,9 +106,17 @@ Puede personalizar las invitaciones a la reunión de Teams para cumplir con las 
 
 <a name="bknetwork"> </a>
 
-Si utiliza la Calidad de servicio (QoS) para priorizar el tráfico de la red, puede habilitar los marcadores QoS y establecer intervalos de puertos para cada tipo de tráfico de medios. Establecer los intervalos de puertos para los diferentes tipos de tráfico es sólo un paso en el manejo de los medios en tiempo real; consulte [Calidad de Servicio (QoS) en Teams](qos-in-teams.md) para más detalles.
+Si utiliza la Calidad de servicio (QoS) para priorizar el tráfico de la red, puede habilitar los marcadores de QoS y establecer intervalos de puertos para cada tipo de tráfico de medios. Establecer los intervalos de puertos para los diferentes tipos de tráfico es sólo un paso en el manejo de los medios en tiempo real; consulte [Calidad de Servicio (QoS) en Teams](qos-in-teams.md) para más detalles.
 
 > [!IMPORTANT]
+> Sistemas basados en Apple: la única instancia que sabemos en que los dispositivos basados en Apple establecen realmente el valor DSCP es si se cumplen todas las condiciones siguientes:
+> - iOS
+> - Red Wi-Fi.
+> - Conmutadores Cisco.
+> - El administrador de red ha agregado la aplicación a la lista aprobada.
+>
+> Sistemas basados en Android: no hay limitaciones conocidas.
+>
 > Si habilita la QoS o cambia la configuración en el Centro de administración de Microsoft Teams para el servicio de Teams, también deberá [aplicar la configuración correspondiente a todos los dispositivos de usuario](QoS-in-Teams-clients.md) y a todos los dispositivos de la red interna para implementar completamente los cambios en la QoS en Teams.
 
   **Usar el Centro de administración de Microsoft Teams**
@@ -119,6 +127,10 @@ Si utiliza la Calidad de servicio (QoS) para priorizar el tráfico de la red, pu
     ![Captura de pantalla de la configuración de red para las reuniones en el centro de administración.](media/meeting-settings-network.png "Captura de pantalla de la configuración de la red para las reuniones de Teams en el centro de administración de Microsoft Teams")
 
     - Para permitir que las marcas de DSCP se utilicen para QoS, Active **Insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Sólo tienes la opción de usar marcadores o no; no puedes establecer marcadores personalizados para cada tipo de tráfico. Consulte [Seleccionar un método de implementación de QoS ](QoS-in-Teams.md#select-a-qos-implementation-method) para más información sobre los marcadores DSCP.
+
+        > [!IMPORTANT]
+        > Tenga en cuenta que la habilitación de QoS solo se realiza en los puntos de conexión para etiquetar paquetes que salen del cliente. Se recomienda aplicar reglas de QoS coincidentes en todos los dispositivos de red internos para el tráfico entrante.
+        
         > [!NOTE]
         > El etiquetado DSCP normalmente se realiza a través de los puertos de origen y el tráfico UDP se redirigirá a retransmisión de transporte con el puerto de destino 3478 como valor predeterminado. Si su empresa necesita etiquetado en los puertos de destino, contacte al servicio de soporte técnico para habilitar la comunicación a la retransmisión de transporte con los puertos UDP 3479 (Audio), 3480 (Vídeo) y 3481 (Uso compartido).
     - Para especificar los intervalos de los puertos, junto a **Seleccione un rango de puertos para cada tipo de tráfico de medios en tiempo real**, seleccione **Especificar rangos de puertos** y luego introduzca los puertos inicial y final para compartir audio, video y pantalla. La selección de esta opción es necesaria para implementar la QoS. 

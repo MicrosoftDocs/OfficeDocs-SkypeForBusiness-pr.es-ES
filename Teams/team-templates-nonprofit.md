@@ -19,13 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 07c335797b2092b42cacb8f0daa92947e7a2349a
-ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
+ms.openlocfilehash: 2f0a6218d9843c0ed99c80c517fe9986f41d79b6
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "60633564"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641350"
 ---
 # <a name="use-nonprofit-team-templates"></a>Uso de plantillas de equipo sin ánimo de lucro
 
@@ -41,7 +40,7 @@ En este artículo, aprenderá sobre la plantilla Administrar equipos de voluntar
 
 Reúna a su personal para que se comuniquen y colaboren en tareas y actividades de administración voluntarias.
 
-Esta plantilla incluye canales y aplicaciones diseñados para simplificar las actividades de administración de voluntarios. El personal puede organizar y compartir materiales de incorporación y documentos usados con frecuencia, ver informes, estar al corriente de los anuncios importantes de equipos y eventos, y mucho más. La plantilla también se integra con Administración de voluntarios, una aplicación que forma parte de Microsoft Cloud para ONG, lo que permite al personal administrar las oportunidades de participación de voluntarios en Teams.
+Esta plantilla incluye canales y aplicaciones diseñados para simplificar las actividades de administración de voluntarios. El personal puede organizar y compartir materiales de incorporación y documentos usados con frecuencia, ver informes, estar al corriente de los anuncios importantes de equipos y eventos, y mucho más. La plantilla también se integra con la [Administración de voluntarios](/dynamics365/industry/nonprofit/volunteer-management-use), una aplicación que forma parte de [Microsoft Cloud for Nonprofit](/industry/nonprofit/), lo que permite al personal administrar las oportunidades de participación de voluntarios dentro de Teams.
 
 Estos son los canales y aplicaciones que se incluyen con la plantilla Administrar equipo de voluntarios.
 
@@ -88,3 +87,4 @@ Para obtener más información sobre las plantillas de equipo en general, vea [I
 ## <a name="related-articles"></a>Artículos relacionados
 
 - [Documentación de ayuda de Teams](https://support.microsoft.com/teams)
+- [Documentación de Microsoft Cloud para ONG](/industry/nonprofit/)
