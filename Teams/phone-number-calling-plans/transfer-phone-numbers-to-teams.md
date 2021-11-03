@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el asistente de porte para transferir el número de teléfono de su proveedor de servicios actual a Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3d39c580c2eb17c9555c2cb6ad335a19c48f6677
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b8c2b96da4750ec31616fa577063f58b57a17986
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617216"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733081"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de teléfono a Microsoft Teams
 
@@ -87,7 +87,7 @@ Antes de empezar, le recomendamos que revise la información en [¿Qué es una o
 
 ## <a name="what-happens-next"></a>¿Qué sucede ahora?
 
-Cuando recibamos tu solicitud de portabilidad, recibirás un correo electrónico que comprueba tu solicitud. Su solicitud se comprueba y actualiza diariamente y se le notificará su progreso y estado en el correo electrónico. Si su solicitud de puerto es rechazada por el operador que pierde, póngase en contacto con el [servicio rtc.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+Cuando recibamos tu solicitud de portabilidad, recibirás un correo electrónico que comprueba tu solicitud. Su solicitud se comprueba y actualiza diariamente y se le notificará su progreso y estado en el correo electrónico. Si el operador que pierde la solicitud de portabilidad lo rechaza, póngase en contacto con el Servicio de atención al [cliente de TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 Para ver el estado del pedido de portabilidad, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya > Pedidos de portabilidad de voz y, **a** continuación, haga clic en Historial  >  de **pedidos.** Cada estado del pedido de portabilidad se muestra en la **columna** Estado. Para obtener más información, [consulte ¿Cuál es el estado de los pedidos de portabilidad?](port-order-status.md)
 

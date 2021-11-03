@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para encontrar información sobre cómo obtener y administrar números de teléfono en Australia para Microsoft Teams.
-ms.openlocfilehash: 156fe90556f63aaadc298b2b7c4340f5e9aa1c33
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 282c52a16cb632b15c3c0aa5d07d9a8cf1a4a07c
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630152"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733541"
 ---
 # <a name="phone-number-management-for-australia"></a>Administración de números de teléfono para Australia
 
@@ -39,13 +39,13 @@ Para obtener más información, vea [Administrar números de teléfono para su o
 |**¿Qué acción desea realizar?**|**Siga estos pasos y descargue los formularios correctos**|
 |:-----|:-----|
 |Obtenga números de teléfono de nuevo usuario para planes de llamadas en Australia.   <br/> |Póngase [en contacto con Telstra Calling](https://aka.ms/TelstraVoicePlan) para obtener nuevos números de teléfono para los usuarios. A continuación, agregarán esos números a su organización para que pueda asignarlos a los usuarios. <br/>
-|Si usa Llamadas de Telstra, es posible que reciba nuevos números de teléfono de servicio que se pueden usar con operadores automáticos en la nube y colas de llamadas para Australia desde Telstra. <br/> |Póngase [en contacto con Telstra Calling](https://aka.ms/TelstraVoicePlan) para obtener nuevos números de teléfono. A continuación, agregarán esos números a su organización para que pueda asignarlos a los operadores automáticos y a las colas de llamadas. Si no **usa Telstra** Calling, puede ponerse en contacto con nuestro servicio de administración de números de Microsoft para obtener números de servicio de Microsoft. [Póngase en contacto con el Servicio de asistencia RTC para](contact-pstn-service-desk.md) obtener instrucciones y le ayudaremos lo antes posible. <br/>|
-|Obtenga los nuevos números de teléfono de servicio para audioconferencias en Australia.   <br/> |[Póngase en contacto con El servicio rtc](contact-pstn-service-desk.md).|
+|Si usa Llamadas de Telstra, es posible que reciba nuevos números de teléfono de servicio que se pueden usar con operadores automáticos en la nube y colas de llamadas para Australia desde Telstra. <br/> |Póngase [en contacto con Telstra Calling](https://aka.ms/TelstraVoicePlan) para obtener nuevos números de teléfono. A continuación, agregarán esos números a su organización para que pueda asignarlos a los operadores automáticos y a las colas de llamadas. Si no **usa Telstra** Calling, puede ponerse en contacto con nuestro servicio de administración de números de Microsoft para obtener números de servicio de Microsoft. Póngase en contacto con el servicio de asistencia de [TNS para](contact-TNS-Service-Desk.md) obtener instrucciones y le ayudaremos lo antes posible. <br/>|
+|Obtenga los nuevos números de teléfono de servicio para audioconferencias en Australia.   <br/> |[Póngase en contacto con el servicio de atención al cliente de TNS](contact-TNS-Service-Desk.md).|
 |Transfiera números de teléfono a Microsoft 365 o Office 365 usuarios, operadores automáticos y colas de llamadas.  <br/> | Póngase [en contacto con Telstra Calling](https://aka.ms/TelstraVoicePlan) para transferir números de teléfono. A continuación, agregarán esos números a su organización.  <br/> |
-|Obtenga números de teléfono transferidos a Microsoft 365 o Office 365 para su uso con audioconferencias.  |[Póngase en contacto con el Servicio de atención RTC para obtener instrucciones](contact-pstn-service-desk.md) |
+|Obtenga números de teléfono transferidos a Microsoft 365 o Office 365 para su uso con audioconferencias.  |[Póngase en contacto con el Servicio de atención al cliente de TNS para obtener instrucciones](contact-TNS-Service-Desk.md) |
 |Cambie el direccionamiento de emergencia asignado a los usuarios que tienen un número de teléfono con plan de llamadas. |Póngase [en contacto con Telstra Calling](https://aka.ms/TelstraVoicePlan) para realizar cambios en la dirección de emergencia. Pueden actualizar esta información por usted.|
 |Cambie un número de usuario a un número de servicio. |Compatible al usar llamadas de Telstra.|
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con [el Servicio de asistencia RTC para obtener instrucciones.](contact-pstn-service-desk.md) |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de asistencia de [TNS para obtener instrucciones.](contact-TNS-Service-Desk.md) |
 
 ## <a name="related-topics"></a>Temas relacionados
 

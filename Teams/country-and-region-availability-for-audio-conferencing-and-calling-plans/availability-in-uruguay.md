@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Uruguay.
-ms.openlocfilehash: c6575df81607b534b0b3d22c76890d91ec7b7ffd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 056ec9181042faa0463c83fa09fe304071ba7c09
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620686"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733461"
 ---
 # <a name="availability-in-uruguay"></a>Disponibilidad en Uruguay
 
@@ -69,8 +69,8 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | Montevideo ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | Montevideo ([bajo petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
+|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
  Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md).

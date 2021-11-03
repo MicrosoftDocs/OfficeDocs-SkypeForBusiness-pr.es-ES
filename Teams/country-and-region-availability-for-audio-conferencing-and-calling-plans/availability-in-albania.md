@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Albania.
-ms.openlocfilehash: a0bcffec1ad4e147abf0d0ca21877541dedd3dae
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a886e43ead05024e745d960db51d38e038e7730d
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592354"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733830"
 ---
 # <a name="availability-in-albania"></a>Disponibilidad en Albania
 
@@ -69,7 +69,7 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Tirana <br/> |
-|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
    
  Si quiere números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, vea [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md).

@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 9bf0b66af230ee27036a891572dc92f292cb4d50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3699a7ccbc2aa7a54c70c9cd99c9277f56ea40fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613049"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733101"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>¿Cuál es el estado de mis solicitudes de portabilidad?
 
@@ -36,13 +36,13 @@ En la tabla siguiente se enumeran los estados de portabilidad, así como las acc
 |**Ponerse en contacto con el operador** <br/> |Sí  <br/> |No  <br/> |Sí  <br/> |No  <br/> |Microsoft ha recibido y aprobado el pedido y estamos trabajando con el operador que pierde para que se apruebe.  <br/> |
 |**Transferencia aprobada** <br/> |Sí  <br/> |No  <br/> |Sí  <br/> |No  <br/> |El transportista perdedor ha aceptado el pedido y se ha establecido la fecha compromiso de pedido en firme (FOC).  <br/> |
 |**Transferencia pendiente** <br/> |Sí  <br/> |No  <br/> |No  <br/> |No  <br/> |La transferencia está a menos de 24 horas de distancia, por lo que el pedido ya no se puede modificar ni cancelar.  <br/> |
-|**Error** <br/> |No  <br/> |Sí  <br/> |Sí  <br/> |Sí (en este momento, no puede eliminar la orden de portabilidad si hay un error. Es necesario volver a crear la orden de portabilidad o ponerse en contacto con la ayuda del servicio [rtc.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |El operador perdedor rechazó el pedido.  <br/> |
+|**Error** <br/> |No  <br/> |Sí  <br/> |Sí  <br/> |Sí (en este momento, no puede eliminar la orden de portabilidad si hay un error. Es necesario volver a crear el pedido de portabilidad o ponerse en contacto con el Servicio de atención al [cliente de TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |El operador perdedor rechazó el pedido.  <br/> |
 |**Completado** <br/> |Sí  <br/> |No  <br/> |No  <br/> |No  <br/> |Los números se han transferido correctamente.  <br/> |
 |**Cancelado** <br/> |No  <br/> |Sí  <br/> |No  <br/> |No  <br/> |El administrador canceló el pedido.  <br/> |
 
 Para obtener instrucciones detalladas completas, vea [Transferir números de](transfer-phone-numbers-to-teams.md)teléfono a Teams .
 
-Si necesita ayuda o si necesita obtener más números de teléfono, póngase en contacto con el servicio [rtc.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+Si necesita ayuda o si necesita obtener más números de teléfono, póngase en contacto con el Servicio de atención al [cliente de TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="related-topics"></a>Temas relacionados
 

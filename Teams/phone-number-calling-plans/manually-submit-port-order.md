@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo enviar manualmente una solicitud de portabilidad.
-ms.openlocfilehash: 2a372ee26b9cb7b52b72c635c90a6e0435b7c729
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 221f35bf300ed9ab33ab3088f18e154ecbecc5e3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045876"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733501"
 ---
 # <a name="manually-submit-a-port-order"></a>Enviar una solicitud de portabilidad manualmente
 
@@ -33,11 +33,11 @@ Siga los pasos de este artículo para enviar manualmente una solicitud de portab
 
 ## <a name="manually-submit-a-new-port-order-request"></a>Enviar manualmente una nueva solicitud de portabilidad
 
-Para enviar manualmente una nueva solicitud de portabilidad, envíe el formulario de carta de autorización (LOA) completado directamente al servicio rtc de su región.
+Para enviar manualmente una nueva solicitud de portabilidad, envíe el formulario de carta de autorización (LOA) completado directamente al servicio de atención al cliente de TNS para su región.
 
 1. Descargue la [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para su país o región.
 2. Complete el formulario.
-3. Envíelo al servicio [RTC de](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) su región.
+3. Envíelo al servicio de atención al cliente de [TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) para su región.
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>¿Qué más debería saber sobre la pornografía de números?
 

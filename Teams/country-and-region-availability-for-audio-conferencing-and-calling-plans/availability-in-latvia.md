@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Letonia.
-ms.openlocfilehash: 3004aa00132e60b1136be24426ed3ed80d72c6c6
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: dac4a1294020414e01c901d2593180d16beacfb3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942405"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733051"
 ---
 # <a name="availability-in-latvia"></a>Disponibilidad en Letonia
 
@@ -68,9 +68,9 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Riiga ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Riiga ([a petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
-|¿Hay números gratuitos disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|¿Hay números gratuitos disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
    
 Para obtener números de teléfono gratuitos y gratuitos para audioconferencias, operadores automáticos y colas de llamadas, vea Obtener números de teléfono de servicio para Skype Empresarial y [Microsoft Teams](../getting-service-phone-numbers.md).
   

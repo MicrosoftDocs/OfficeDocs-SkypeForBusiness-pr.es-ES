@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Kazajistán.
-ms.openlocfilehash: 148eb72fd906398cb7ed7b12c083d1ec5f4c68a3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e9950242a6d3658f9fe49c04b188f03202bea585
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589874"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733291"
 ---
 # <a name="availability-in-kazakhstan"></a>Disponibilidad en Kazajistán
 
@@ -68,8 +68,8 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Almaty ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))<br/> |
-|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Almaty ([a petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))<br/> |
+|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
    
  Si quiere números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, vea [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md).

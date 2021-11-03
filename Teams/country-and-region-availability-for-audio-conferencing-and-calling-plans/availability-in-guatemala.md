@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Guatemala.
-ms.openlocfilehash: 437250e1805515ada7dd1d668d47374456e72f24
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1d99352da922f2fa51850aca41be2fcc022ed1e6
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610377"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732702"
 ---
 # <a name="availability-in-guatemala"></a>Disponibilidad en Guatemala
 
@@ -69,7 +69,7 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Cuidad de Guatemala<br/> |
-|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> Los números de pago solo son accesibles desde dentro del país.|
+|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> Los números de pago solo son accesibles desde dentro del país.|
 |¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
 
  Si quiere números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, vea [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md).

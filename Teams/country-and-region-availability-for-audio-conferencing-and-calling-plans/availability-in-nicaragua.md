@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Nicaragua.
-ms.openlocfilehash: 6954f5a708f624637f338aedbb1c2971c430ca44
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d289a6283d5854e427a35dcf7cac9fd11fbbec29
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598594"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733651"
 ---
 # <a name="availability-in-nicaragua"></a>Disponibilidad en Nicaragua
 
@@ -68,8 +68,8 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Managua ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Managua ([bajo petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
+|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
    
  Si quiere números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, vea [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md).

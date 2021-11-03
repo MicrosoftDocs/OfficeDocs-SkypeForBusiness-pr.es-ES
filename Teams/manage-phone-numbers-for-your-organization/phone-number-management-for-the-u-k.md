@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en el Reino Unido para Microsoft Teams.
-ms.openlocfilehash: a5de05c71d333a593806dc26990783c41cf57739
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 151b2f764498d64bb32d258adf1f2b1e006f11e1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616216"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733111"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>Teléfono de números para el Reino Unido
 
@@ -36,11 +36,11 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.   <br/> |Descargue este formulario. <br/> [Nueva solicitud de número de teléfono para el Reino Unido (v.5.0) (es-gb)](https://download.microsoft.com/download/e/e/9/ee9f629e-4f2b-41c3-8fa3-f206660f4db3/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf) <br/><br/>Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> |
-|Transferirnos números de teléfono.  <br/> |Descargue este formulario: <br/> [Carta de autorización (LOA) para el Reino Unido (todos los números) (v.6.1) (en-us)](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> |
-|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de soporte técnico de PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de asistencia de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.   <br/> |Descargue este formulario. <br/> [Nueva solicitud de número de teléfono para el Reino Unido (v.5.0) (es-gb)](https://download.microsoft.com/download/e/e/9/ee9f629e-4f2b-41c3-8fa3-f206660f4db3/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf) <br/><br/>Rellene y póngase en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md)  <br/> |
+|Transferirnos números de teléfono.  <br/> |Descargue este formulario: <br/> [Carta de autorización (LOA) para el Reino Unido (todos los números) (v.6.1) (en-us)](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> Rellene y póngase en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md)  <br/> |
+|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |Póngase en contacto con el Servicio de atención al cliente de [TNS](contact-tns-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de atención al cliente de [TNS](contact-tns-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de asistencia de [TNS para obtener instrucciones.](contact-tns-service-desk.md) |
 
 ## <a name="related-topics"></a>Temas relacionados
 

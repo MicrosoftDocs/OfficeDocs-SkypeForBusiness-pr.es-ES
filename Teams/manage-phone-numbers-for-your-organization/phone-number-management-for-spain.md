@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en España para Microsoft Teams.
-ms.openlocfilehash: 4e92c20b7bad23d4487199b6f80126466bfd0f81
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ec714bf538d96bdb9b14422ab301108e9614a95b
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624602"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733091"
 ---
 # <a name="phone-number-management-for-spain"></a>Administración de números de teléfono para España
 
@@ -36,11 +36,11 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.   <br/> | Descargue uno de estos formularios.</br> [Solicitud de nuevo número de teléfono solicitado para España (v.5.0) (es-es)](https://download.microsoft.com/download/a/b/3/ab310e4a-2d25-4cf1-a413-cfb84d66c7ad/new-phone-number-request-for-spain-(v.5.0)-(es-es).pdf) <br/>  [Solicitud de nuevo número de teléfono solicitado para España (v.5.0) (en-us)](https://download.microsoft.com/download/9/e/8/9e8bef13-808d-418b-aafa-af36d1e76984/new-phone-number-request-for-spain-(v.5.0)-(en-us).pdf)<br/><br/>    Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> |
-|Transferirnos números de teléfono.  <br/> |Descargue este formulario. <br/>[Carta de autorización (LOA) para España (todos los números) (v.5.0)(es-es)](https://download.microsoft.com/download/e/8/b/e8bd034a-c5fa-4da2-8fd6-3dd13988b834/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf)<br/><br/> Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md)para obtener[instrucciones.](mailto:ptneu@microsoft.com) <br/> |
-|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de soporte técnico de PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de asistencia de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.   <br/> | Descargue uno de estos formularios.</br> [Solicitud de nuevo número de teléfono solicitado para España (v.5.0) (es-es)](https://download.microsoft.com/download/a/b/3/ab310e4a-2d25-4cf1-a413-cfb84d66c7ad/new-phone-number-request-for-spain-(v.5.0)-(es-es).pdf) <br/>  [Solicitud de nuevo número de teléfono solicitado para España (v.5.0) (en-us)](https://download.microsoft.com/download/9/e/8/9e8bef13-808d-418b-aafa-af36d1e76984/new-phone-number-request-for-spain-(v.5.0)-(en-us).pdf)<br/><br/>    Rellene y póngase en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md)  <br/> |
+|Transferirnos números de teléfono.  <br/> |Descargue este formulario. <br/>[Carta de autorización (LOA) para España (todos los números) (v.5.0)(es-es)](https://download.microsoft.com/download/e/8/b/e8bd034a-c5fa-4da2-8fd6-3dd13988b834/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf)<br/><br/> Rellene y póngase en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md) <br/> |
+|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |Póngase en contacto con el Servicio de atención al cliente de [TNS](contact-tns-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de atención al cliente de [TNS](contact-tns-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de asistencia de [TNS para obtener instrucciones.](contact-tns-service-desk.md) |
 
 ## <a name="related-topics"></a>Temas relacionados
 

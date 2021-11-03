@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo obtener nuevos números de teléfono y portabilidad o transferir números existentes para audioconferencias, operadores automáticos y colas de llamadas (números de servicio) para Teams.
-ms.openlocfilehash: abb313a169c3f9b3626e219f64810e6333e6147b
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+ms.openlocfilehash: 34ff296ce94afa4888e8fd4b0ad23c00d0402468
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491730"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733311"
 ---
 # <a name="service-phone-numbers-for-calling-plans"></a>Números de teléfono de servicio para planes de llamadas
 
@@ -45,7 +45,7 @@ Hay tres formas de obtener números de servicio:
 - **Usar un formulario de solicitud para números nuevos.** A veces (dependiendo de su país o región) no podrá obtener sus nuevos números de teléfono con el centro de administración de Microsoft Teams, o necesitará números de teléfono o códigos de área específicos. Si es así, tendrá que descargar un formulario y enviarlo de nuevo a nosotros. Para obtener más información, vea [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
-> Los números de servicio son necesarios para que pueda obtener una mayor capacidad de llamadas simultáneas para un número específico. Cuando nos transfiera el número, puede [](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) ponerse en contacto con el servicio rtc para asegurarse de que el número de servicio que va a transferir tiene una capacidad de llamada simultánea alta.
+> Los números de servicio son necesarios para que pueda obtener una mayor capacidad de llamadas simultáneas para un número específico. Cuando nos transfiera el número, puede ponerse en contacto con el servicio de atención al cliente de [TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) para asegurarse de que el número de servicio que va a transferir tiene una capacidad de llamada simultánea alta.
   
 ## <a name="get-new-service-numbers"></a>Obtener nuevos números de servicio
 
@@ -73,7 +73,7 @@ Para transferir los números de teléfono de su proveedor de servicios u operado
 Si su país o región no aparece en el asistente de portabilidad, puede enviar manualmente una solicitud de portabilidad o ir [a](phone-number-calling-plans/manually-submit-port-order.md) Administrar números de teléfono para su [organización,](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)seleccionar su país o región y, a continuación, descargar una Carta de autorización (LOA). Tendrá que enviar pedidos de portabilidad independientes para cada tipo de número de servicio (por ejemplo, de pago frente a gratuito) que va a transferir mediante una LOA. En la LOA, debe seleccionar el tipo de número de servicio correcto. Asegúrese de especificar que va a transferir un número de servicio (y no un número de usuario o suscriptor), o que la capacidad de llamadas simultáneas puede no ser suficiente para controlar los volúmenes de llamadas.  
 
 > [!NOTE]
-> Si necesita obtener más números de teléfono que este, póngase [en contacto con el servicio rtc.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+> Si necesita obtener más números de teléfono que este, póngase en contacto con el servicio de atención [al cliente de TNS.](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Ver los números de teléfono de su organización
 

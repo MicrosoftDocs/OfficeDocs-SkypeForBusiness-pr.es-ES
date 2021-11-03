@@ -21,22 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 5cd7cfcbacd2799c89e764fe456954c2cf61f0ec
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 6be1415d752bdde9afd6c34419b94912a61eb35d
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579560"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733711"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams dispositivos certificados
 
 Los Microsoft Teams de certificación garantizan que los clientes que usan teléfonos de escritorio certificados y teléfonos de conferencia experimentarán una experiencia de reuniones y llamadas de audio de alta calidad.
 
-Microsoft Teams Los programas de certificación garantizan una barra de mayor calidad con objetivos de rendimiento más altos y métricas de calidad de audio. Los partners están trabajando activamente para cumplir con esta barra superior y son dispositivos que cumplen los requisitos de certificación. Algunos de nuestros partners también están trabajando para proporcionar soporte técnico para el servicio de Skype Empresarial en el mismo hardware que los Teams teléfonos. Las ventajas de Microsoft Teams dispositivos certificados incluyen:
-
-- Experiencia Teams nativa con integración de botones de hardware y notificaciones LED
-- Integración del calendario y unirse a una reunión con un solo toque
-- Implementado y administrado a través Teams centro de administración con integración de Intune
+Microsoft Teams Los programas de certificación garantizan una barra de mayor calidad con objetivos de rendimiento más altos y métricas de calidad de audio. Los partners están trabajando activamente para cumplir con esta barra superior y son dispositivos que cumplen los requisitos de certificación. Algunos de nuestros partners también están trabajando para proporcionar soporte técnico para el servicio de Skype Empresarial en el mismo hardware que los Teams teléfonos. 
 
 ## <a name="currently-certified-teams-phones"></a>Teléfonos Teams certificados actualmente
 

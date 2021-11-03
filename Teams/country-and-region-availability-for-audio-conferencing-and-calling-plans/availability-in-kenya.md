@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Kenia.
-ms.openlocfilehash: f7ec89f4508b383d14b51e36775e5b12a1c6a06f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b27487cdc1ff88717ce3860e159d0b8373b6ba60
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586658"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733661"
 ---
 # <a name="availability-in-kenya"></a>Disponibilidad en Kenia
 
@@ -69,8 +69,8 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Nairobi ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
-|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Nairobi ([a petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))  <br/> |
+|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
  Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md).

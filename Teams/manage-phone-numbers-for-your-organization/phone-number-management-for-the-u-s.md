@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Estados Unidos (incluido Puerto Rico) para Microsoft Teams.
-ms.openlocfilehash: a7f1e12696f49ac09c473809d246cbdc8de8986c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 88fb9be16081a471fa55611d2bd97762c0b0c937
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627552"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732861"
 ---
 # <a name="phone-number-management-for-the-united-states"></a>Teléfono de números para Estados Unidos
 
@@ -37,11 +37,11 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 | ¿Qué acción desea realizar? | Siga estos pasos y descargue los formularios correctos |
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.  <br/> |Descargue este formulario.<br/>  [Nueva solicitud de número de teléfono para Estados Unidos (v.5.0) (en-us)](https://download.microsoft.com/download/5/a/1/5a1c41d1-6ef1-4716-8bdd-985cf894bb86/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf) <br/><br/> Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) |
-|Transferirnos números de teléfono.  <br/> | Descargue uno de estos formularios: <br/> [Carta de autorización (LOA) para los Estados Unidos (números de usuario y servicio) (v.3.3)(en-us)](https://download.microsoft.com/download/7/3/8/73843692-632f-4078-874d-021f9680e12b/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf)<br/>[Carta de autorización (LOA) para los Estados Unidos (números gratuitos) (v.3.3)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**Nota** Si intenta obtener más de 999 números de teléfono de suscriptores o usuarios, tendrá que rellenar una Carta de autorización (LOA) y enviarla a nosotros. Vea [Transferir números de teléfono a Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) para obtener más información.          <br/>  <br/>   Rellene y póngase en contacto con el Servicio de soporte técnico de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md)  <br/> |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.  <br/> |Descargue este formulario.<br/>  [Nueva solicitud de número de teléfono para Estados Unidos (v.5.0) (en-us)](https://download.microsoft.com/download/5/a/1/5a1c41d1-6ef1-4716-8bdd-985cf894bb86/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf) <br/><br/> Rellene y póngase en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md) |
+|Transferirnos números de teléfono.  <br/> | Descargue uno de estos formularios: <br/> [Carta de autorización (LOA) para los Estados Unidos (números de usuario y servicio) (v.3.3)(en-us)](https://download.microsoft.com/download/7/3/8/73843692-632f-4078-874d-021f9680e12b/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf)<br/>[Carta de autorización (LOA) para los Estados Unidos (números gratuitos) (v.3.3)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**Nota** Si intenta obtener más de 999 números de teléfono de suscriptores o usuarios, tendrá que rellenar una Carta de autorización (LOA) y enviarla a nosotros. Vea [Transferir números de teléfono a Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) para obtener más información.          <br/>  <br/>   Rellene y póngase en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md)  <br/> |
 |Cambiar el número de un usuario a un número de servicio o un número de servicio a un número de usuario  <br/> |Inicie sesión en el Teams de administración, vaya a la página "Teléfono números" y seleccione Obtener soporte técnico **de número de teléfono.**  <br/> |
-|Transferir números de una Microsoft 365 o Office 365 a otra.  <br/> |Póngase en contacto con el Servicio de soporte técnico de [PTSN](contact-pstn-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono de usuario (suscriptor) que desea transferir junto con el PIN de la organización de origen desde la que desea transferir los números. Para configurar un PIN, vea [aquí](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier).  <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de asistencia de [PTSN para obtener instrucciones.](contact-pstn-service-desk.md) |
+|Transferir números de una Microsoft 365 o Office 365 a otra.  <br/> |Póngase en contacto con el Servicio de atención al cliente de [TNS](contact-tns-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono de usuario (suscriptor) que desea transferir junto con el PIN de la organización de origen desde la que desea transferir los números. Para configurar un PIN, vea [aquí](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier).  <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de asistencia de [TNS para obtener instrucciones.](contact-tns-service-desk.md) |
 
 ## <a name="related-topics"></a>Temas relacionados
 

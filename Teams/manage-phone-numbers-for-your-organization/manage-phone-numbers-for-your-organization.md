@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo obtener y administrar números de teléfono de usuario (suscriptor) y de servicio (gratuitos y gratuitos) para Microsoft Teams para su organización.
-ms.openlocfilehash: 05228657489d2e76dee1b08f630b056606c5a83a
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 3f913ec3a64ab0c3444cdbfd951d3eae0152a974
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942343"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733551"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>Administrar números de teléfono para plan de llamadas
 
@@ -109,11 +109,11 @@ Envíenos una **LOA** si actualmente tiene lo siguiente con otro operador:
 - Toll-Free números de teléfono.
 - Más de 999 números de teléfono de usuario que necesita transferir o portabilidad, pero que no puede obtener en el centro de administración de Microsoft Teams con el asistente de portabilidad de números local.
 
-Una vez que tenga su LOA **rellenada** y firmada, póngase en contacto con nuestro Servicio de atención [RTC](./contact-pstn-service-desk.md) para que podamos ayudarle.
+Una vez que tenga su LOA **rellenada** y firmada, póngase en contacto con nuestro servicio de atención al cliente de [TNS](./contact-tns-service-desk.md) para que podamos ayudarle.
 
 ## <a name="still-need-assistance"></a>¿Todavía necesita ayuda?
 
-Si necesita ayuda, póngase [en contacto con el Servicio de asistencia RTC.](./contact-pstn-service-desk.md)
+Si necesita ayuda, póngase [en contacto con el Servicio de asistencia de TNS.](./contact-tns-service-desk.md)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

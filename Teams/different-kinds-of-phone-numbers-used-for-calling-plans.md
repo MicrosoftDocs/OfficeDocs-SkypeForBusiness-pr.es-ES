@@ -22,18 +22,18 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
 description: En este artículo, aprenderá sobre los distintos tipos de número de teléfono que Microsoft Teams usa.
-ms.openlocfilehash: 0aa75c9052e269d6e45054cdf5b6cf73042c55ac
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 69eaa94320a540ca0e7ad560e4ff27a7a4bc44e0
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432652"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733701"
 ---
 # <a name="types-of-phone-numbers"></a>Tipos de números de teléfono
 
 Microsoft Teams diferentes tipos de número de teléfono según el propósito para el que quiera usar el número de teléfono. 
 
-Teams usa números  de usuario, que se pueden asignar  a los usuarios de su organización, y números de servicio, que se asignan a servicios como Audioconferencia, operadores automáticos o colas de llamadas. Los números de teléfono de servicio tienen *una mayor capacidad de llamada simultánea que*  los números de usuario. Los números de teléfono de servicio están disponibles, pero variarán según el país o la región y el tipo de número (ya sea un número gratuito o de pago). Si necesita tipos de número adicionales o de otro tipo distintos a los que se ven en el centro de administración de Microsoft Teams, puede enviar una solicitud de número de teléfono al servicio [rtc.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+Teams usa números  de usuario, que se pueden asignar  a los usuarios de su organización, y números de servicio, que se asignan a servicios como Audioconferencia, operadores automáticos o colas de llamadas. Los números de teléfono de servicio tienen *una mayor capacidad de llamada simultánea que*  los números de usuario. Los números de teléfono de servicio están disponibles, pero variarán según el país o la región y el tipo de número (ya sea un número gratuito o de pago). Si necesita tipos de número adicionales u otros tipos de números distintos de los que se ven en el Centro de administración de Microsoft Teams, puede enviar una solicitud de número de teléfono al Servicio de atención al cliente de [TNS.](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
   
 - **Números de usuario**
     
@@ -59,7 +59,7 @@ Teams usa números  de usuario, que se pueden asignar  a los usuarios de su orga
     > Algunos países o regiones y los tipos de número de origen, como las llamadas procedentes de teléfonos móviles, pueden en algunos casos incurrir en un costo de pago para la persona que llama. 
   
 > [!NOTE]
-> Si necesita obtener más números de teléfono que este, póngase [en contacto con el servicio rtc.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+> Si necesita obtener más números de teléfono que este, póngase en contacto con el Servicio de atención al [cliente de TNS.](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="related-topics"></a>Temas relacionados
 

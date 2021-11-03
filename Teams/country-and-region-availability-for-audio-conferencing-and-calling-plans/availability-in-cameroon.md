@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Camerún.
-ms.openlocfilehash: 6b47e7488aa7c9e33bc00c82b337ea5b67ab5b10
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e63bdf922073c57df9cd2d914c982d6197847ac9
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605959"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733751"
 ---
 # <a name="availability-in-cameroon"></a>Disponibilidad en Camerún
 
@@ -69,7 +69,7 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | No geográfico. Los números de teléfono no se vinculan a una ciudad o ubicación específica. <br/> |
-|¿Hay números de pago disponibles?  <br/> |No geográfico ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|¿Hay números de pago disponibles?  <br/> |No geográfico ([a petición](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
    
  Si quiere números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, vea [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md).
