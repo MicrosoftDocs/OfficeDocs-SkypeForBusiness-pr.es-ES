@@ -1,7 +1,7 @@
 ---
 title: Agregar dirección IP interna de equipo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilice esta página para especificar la dirección IP interna y el nombre de dominio completo (FQDN) del servidor perimetral.
-ms.openlocfilehash: f14762642eb828e5fccd1fb436352e41263a6ed2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00439632436292c0e61887794f28262cacb9af99
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608417"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752549"
 ---
 # <a name="add-edge-machine-internal-ip"></a>Agregar dirección IP interna de equipo
 

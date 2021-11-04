@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración general de director
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar la configuración de un Director existente, le presentamos las secciones siguientes:'
-ms.openlocfilehash: b2800e7b7148650af9cfff785cd7452bb3843cc7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 773f687baaa9ea4d416fb31d46d0e8afb0e409e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601715"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778560"
 ---
 # <a name="director-general-settings-expander"></a>Expansor de configuración general de director
  

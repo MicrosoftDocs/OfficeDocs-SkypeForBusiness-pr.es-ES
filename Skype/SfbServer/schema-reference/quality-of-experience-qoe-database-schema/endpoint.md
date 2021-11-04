@@ -1,7 +1,7 @@
 ---
 title: Tabla de extremo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 description: La tabla Endpoint es una tabla de soporte técnico que almacena información sobre los puntos de conexión que han participado en sesiones registradas en la base de datos. Cada registro de la tabla representa un extremo.
-ms.openlocfilehash: cdf909bf8c34153fb34d1462acce9726b7eaa359
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 40c5ee0962059644db998fe7706fe53e212564c2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603679"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741846"
 ---
 # <a name="endpoint-table"></a>Tabla de extremo
  

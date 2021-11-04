@@ -1,7 +1,7 @@
 ---
 title: Tabla ProgressReport
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: Los informes de progreso se basan en datos cargados por el cliente en la base de datos tras completarse una llamada o sesión. Los informes de progreso solo se escribirán para llamadas y sesiones que Skype Empresarial Server 2015 determine que pueden ser útiles para fines de diagnóstico.
-ms.openlocfilehash: 2c744cbf3755118a6d6fbee4837363e80b00ae44
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 666320d64e319816666404dff3afd4f27b7413f4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623532"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740286"
 ---
 # <a name="progressreport-table"></a>Tabla ProgressReport
  
@@ -33,7 +33,7 @@ Los campos ErrorTime, ErrorReportSeq y ProgressReportSeq no hacen referencia nec
 |**ErrorReportSeq** <br/> |Entero  <br/> |Principal, Exterior  <br/> |Número de id. que identifica el informe de errores. ErrorReporSeq se usa junto con ErrorTime para identificar de manera única un informe de errores. Vea la [tabla ErrorReport en Skype Empresarial Server 2015](errorreport.md) para obtener más información <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
 |**ProgressReportSeq** <br/> |Entero  <br/> |Principal  <br/> |Número de identificación usado para identificar el informe de progreso. Se utiliza junto con ErrorTime y ErrorReportSeq para identificar de manera única un informe de progreso.  <br/> |
 |**MsDiagId** <br/> |Entero  <br/> ||Id. de diagnóstico del informe de progreso.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**Proveniente** <br/> |Entero  <br/> |Externo  <br/> |Servidor que envió el informe de error (si el informe se envió desde un componente de servidor). Vea la [tabla Servidores para](servers.md) obtener más información. Este campo se introdujo en Microsoft Lync Server 2013. <br/> |
+|**SourceId** <br/> |Entero  <br/> |Externo  <br/> |Servidor que envió el informe de error (si el informe se envió desde un componente de servidor). Vea la [tabla Servidores para](servers.md) obtener más información. Este campo se introdujo en Microsoft Lync Server 2013. <br/> |
 |**ApplicationId** <br/> |Entero  <br/> ||El proceso de Lync Server al que se refiere el informe. Vea la tabla de aplicaciones para obtener más información.  <br/> |
 |**Detalle** <br/> |imagen  <br/> ||Detalles del informe de progreso, almacenados en formato binario para ahorrar espacio. Estos datos pueden convertirse en formato de texto usando esta sintaxis:  <br/> cast(cast(Detail as varbinary(max)) as varchar(max))  <br/> |
 |**TelemetryId** <br/> |uniqueIdentifier  <br/> ||Identificador único que correlaciona información de hora de conexión para los diferentes componentes que participan en una conferencia.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |

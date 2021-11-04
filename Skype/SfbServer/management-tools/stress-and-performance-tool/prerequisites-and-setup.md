@@ -1,7 +1,7 @@
 ---
 title: Requisitos previos y configuración de la Skype para la herramienta de rendimiento y esfuerzo de Busines
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 12/20/2018
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Requisitos o requisitos previos para la Skype Empresarial Server 2015 Stress and Performance Tool. Cómo instalar o configurar la Herramienta de esfuerzo y rendimiento.
-ms.openlocfilehash: 5d86dbc085929bfcb9bd52dd7d25f46f92fda8fb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 87c42d63e394c6beea68c23b8e1d7cff7b07266c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611929"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771926"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Requisitos previos y configuración de la Skype para la herramienta de rendimiento y esfuerzo de Busines
  

@@ -1,7 +1,7 @@
 ---
 title: Configurar una aplicación de asociado local para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Resumen: configure una aplicación de socio local para Skype Empresarial Server.'
-ms.openlocfilehash: d0907d73d6a23c0a5b9a1f1725503b72c5bce993
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 65e5d32787b13043d30b6cb03a7d9cdbc047c46a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012624"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772126"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Configurar una aplicación de asociado local para Skype Empresarial Server
  

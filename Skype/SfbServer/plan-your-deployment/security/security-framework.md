@@ -1,7 +1,7 @@
 ---
 title: Marco de seguridad para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: En esta sección se proporciona información general sobre los elementos fundamentales que forman el marco de seguridad para Skype Empresarial Server. Comprender el modo en que estos elementos funcionan juntos es esencial para tomar decisiones fundamentadas sobre cómo proteger su implementación Skype Empresarial Server implementación.
-ms.openlocfilehash: 27c5cdd1e9ff662a2a7d39ded04782af666ddb29
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a560d903b2a08e6444e561cb0fcdd9da978edb0c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627912"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740346"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>Marco de seguridad para Skype Empresarial Server
  

@@ -1,7 +1,7 @@
 ---
 title: Administración de perfiles de directiva de ancho de banda de red
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Use los procedimientos de este artículo para ver, crear, modificar o eliminar perfiles de directiva de ancho de banda de red.
-ms.openlocfilehash: f8a710dffce93c7dc3a0c54be1e3830ce87f41de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c109c5512bfc3e0876aef036b8bb645cd2791fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631624"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742126"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Administrar perfiles de directivas de ancho de banda de red en Skype Empresarial Server
 

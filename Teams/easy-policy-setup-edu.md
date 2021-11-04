@@ -1,7 +1,7 @@
 ---
 title: Teams para Educación Asistente para directivas para aplicar fácilmente directivas para un aprendizaje seguro
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el Teams para Educación de directivas de aprendizaje para aplicar fácilmente directivas a alumnos y profesores para mantener su entorno de aprendizaje seguro.
 f1keywords: ''
-ms.openlocfilehash: de58471732304cf551d3c798f7f52a3bf9be1126
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 2d58372af73bd1b0b62ed0d320ac2d0b9097a326
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605406"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741656"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Asistente Teams para Educación directivas para aplicar fácilmente directivas para un entorno de aprendizaje seguro
 

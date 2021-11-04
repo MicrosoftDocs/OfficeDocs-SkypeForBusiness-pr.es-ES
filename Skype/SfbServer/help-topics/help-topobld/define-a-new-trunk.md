@@ -1,7 +1,7 @@
 ---
 title: Definir un nuevo tronco
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 description: 'Para definir un nuevo un tronco de protocolo de inicio de sesión (SIP) proporcione la información siguiente:'
-ms.openlocfilehash: 313eef07ed8156b72fc3f326c779448744bbca8e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5aaaa05a340a503cf69f8ca78240794d29058655
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619866"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778510"
 ---
 # <a name="define-a-new-trunk"></a>Definir un nuevo tronco
 

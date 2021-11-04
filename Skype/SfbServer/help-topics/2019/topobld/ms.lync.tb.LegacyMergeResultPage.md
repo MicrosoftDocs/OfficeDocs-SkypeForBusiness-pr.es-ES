@@ -1,7 +1,7 @@
 ---
 title: Resultados de la combinación de información heredada
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para empezar a combinar una implementación heredada con Skype Empresarial Server, haga clic en Siguiente. Para obtener más información sobre cómo ejecutar el asistente para combinar el Generador de topologías, consulte Merge Using Topology Builder Merge Wizard en la documentación sobre migración.
-ms.openlocfilehash: 11d7662fbdbe5a3a83a78115b3d107aabde766d5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4fc5dc60aee7efb8f8c5ed4c8dab5873252387f3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636334"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778520"
 ---
 # <a name="legacy-merge-results"></a>Resultados de combinación heredada
 

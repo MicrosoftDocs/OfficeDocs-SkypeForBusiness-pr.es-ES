@@ -1,7 +1,7 @@
 ---
 title: Usuarios Ver o configurar directiva de acceso externo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: d96252c3ece3f6b5061bf772de3629cbbe66278f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 87ba07ccff068687e578a5aa0a9a51f4bdcffa11
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580994"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752709"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>Usuarios: Ver o configurar directiva de acceso externo
 

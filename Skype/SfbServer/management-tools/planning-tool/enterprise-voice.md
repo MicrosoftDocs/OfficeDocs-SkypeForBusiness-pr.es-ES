@@ -1,7 +1,7 @@
 ---
 title: Telefonía IP empresarial de planeación
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 description: Con Telefonía IP empresarial, Skype Empresarial Server 2015 ofrece una oferta independiente de voz sobre protocolo de Internet (VoIP) para mejorar o reemplazar sistemas PBX tradicionales. Los usuarios pueden llamar a compañeros en la red VoIP o PBX de la organización y pueden llamar a números de teléfono fuera de la organización. La solución Telefonía IP empresarial incluye características comunes de llamadas como responder, reenviar, transferir, retener, desviar, liberar y estacionar, y llamadas mejoradas 9-1-1 (E9-1-1) (E9-1-1 solo está disponible en Los Estados Unidos). Telefonía IP empresarial también admite una amplia variedad de dispositivos IP y USB actuales y antiguos.
-ms.openlocfilehash: d74544660802505c4d8ddde35cc578fccfe36040
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 013d79a6588df6c7c55961ea78a7ba8fa86aa00a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626592"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741996"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Telefonía IP empresarial de planeación
  

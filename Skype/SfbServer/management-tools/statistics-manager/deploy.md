@@ -1,7 +1,7 @@
 ---
 title: Implementar el administrador de estadísticas para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumen: lea este tema para obtener información sobre cómo implementar el Administrador de estadísticas para Skype Empresarial Server.'
-ms.openlocfilehash: 966d6aa71eff93f616ae0eb1a7443aebab600016
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6444f89f43ea4951e186af589f5986e5a3e7bc9e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612099"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778160"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implementar el administrador de estadísticas para Skype Empresarial Server
  
@@ -185,7 +185,7 @@ Para importar la topología Skype Empresarial Server, siga estos pasos:
   
 1. En un host que tenga el Skype Empresarial Server cmdlets de PowerShell:
     
-    a. Ejecute el siguiente comando: 
+    a. Ejecute el comando siguiente: 
     
    ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
@@ -228,7 +228,7 @@ Si desea supervisar servidores que no están en la topología de Skype Empresari
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
-2. Ejecute el siguiente comando:
+2. Ejecute el comando siguiente:
     
    ```powershell
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
@@ -286,7 +286,7 @@ Microsoft recomienda encarecidamente que use un certificado firmado por una enti
     
 4. Haga clic con el botón **secundario en StatsManListener: \> Todas las tareas: Administrar claves \> privadas...**
     
-5. Haga clic en **Agregar**.
+5. Seleccione **Agregar**.
     
 6. En el **cuadro Escriba los nombres de objeto que desea** seleccionar, escriba lo siguiente: Servicio de red
     

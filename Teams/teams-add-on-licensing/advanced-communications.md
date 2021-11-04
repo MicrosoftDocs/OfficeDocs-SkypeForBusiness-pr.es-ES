@@ -1,7 +1,7 @@
 ---
 title: Complemento Comunicaciones avanzadas para Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f7b4ba9aa51f73fbe293f1516e265a877cfa1b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ea12429b0ae8e63e0e1ee43ae66af4aea1a81672
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581214"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759212"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Complemento Comunicaciones avanzadas para Microsoft Teams
 

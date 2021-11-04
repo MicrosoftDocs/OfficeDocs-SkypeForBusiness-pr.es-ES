@@ -1,7 +1,7 @@
 ---
 title: Planear varios números de emergencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Lea este tema para obtener información sobre cómo planear varios números de emergencia en Skype Empresarial Server.
-ms.openlocfilehash: 06b65e889c4a1ae9badf84d3d6fc948405ed4db9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e4761b22295d71c33af414e2a92dac7bf1210d6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634234"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741967"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planear varios números de emergencia en Skype Empresarial Server
  
@@ -94,17 +94,17 @@ En la tabla siguiente se muestran directivas de ubicación de ejemplo (para fine
 
 En la tabla siguiente se muestra la compatibilidad del cliente con varios números de emergencia. Microsoft seguirá pruebando y liberando soporte técnico para clientes adicionales. Consúltelo con frecuencia.
 
-|**Windows**|**Version**|
+|**Windows**|**Versión**|
 |:-----|:-----|
 |**Hacer clic y ejecutar** <br/> |CC (Canal actual) publicado el 10 de mayo de 2016 - Versión 1604 (compilación 6868.2062)  <br/> |
 ||FRDC (First Release Current Channel) publicado el 14 de junio de 2016 - Versión 1605 (compilación 6965.2058)  <br/> |
 ||DC (Canal diferido) publicado el 11 de octubre de 2016 - Versión 1605 (compilación 6965.2092)  <br/> |
 |**MSI** <br/> |Actualización del 7 de junio: [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
-|**Mac e iOS** <br/> |**Version** <br/> |
+|**Mac e iOS** <br/> |**Versión** <br/> |
 ||Skype Empresarial Versión 16.9 del cliente Mac  <br/> Skype Empresarial cliente de iOS 6.16  <br/> |
-|**Android** <br/> |**Version** <br/> |
+|**Android** <br/> |**Versión** <br/> |
 ||Skype Empresarial Versión 6.17 del cliente Android  <br/> |
-|**Lync Phone Edition** <br/> |**Version** <br/> |
+|**Lync Phone Edition** <br/> |**Versión** <br/> |
 || Teléfonos Aastra 6721ip y Aastra 6725ip - Actualización acumulativa de septiembre de 2016 (compilación 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || Teléfonos HP 4110 y HP 4120: actualización acumulativa de septiembre de 2016 (compilación 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
 ||Teléfonos Polycom CX500, Polycom CX600 y Polycom CX3000: actualización acumulativa de septiembre de 2016 (compilación 7577.4512) - [https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |

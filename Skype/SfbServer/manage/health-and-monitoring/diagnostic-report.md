@@ -1,7 +1,7 @@
 ---
 title: Informe de diagnóstico en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Summary: Learn about the Diagnostic Report in Skype Empresarial Server.'
-ms.openlocfilehash: dde192aa90cc0a9cd5b1d05fbe2852d1277a6953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 84274659a45d33a144324334cec8b9f1b25c471b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590154"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740636"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico en Skype Empresarial Server
  

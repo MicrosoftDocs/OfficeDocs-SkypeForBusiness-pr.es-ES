@@ -1,7 +1,7 @@
 ---
 title: Agregar servidor
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 'Para agregar un nuevo servidor a un grupo de servidores ya creado que puede ser uno de los siguientes:'
-ms.openlocfilehash: 6bd3e18654bf5a9dd0fdb9d0ad4d63ddbc30d4be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04a6412419ba9828dbb4dea70fcd4b30604c2213
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634444"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772286"
 ---
 # <a name="add-server"></a>Agregar servidor
  

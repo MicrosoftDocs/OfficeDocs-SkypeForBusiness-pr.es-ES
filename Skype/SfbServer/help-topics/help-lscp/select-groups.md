@@ -1,7 +1,7 @@
 ---
 title: Seleccionar grupos
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: Las colas de grupo de respuesta mantienen llamadas a grupos de respuesta hasta que un agente responde a la llamada. Las colas tienen grupos de agentes asignados. Al crear o editar una cola, use el cuadro de diálogo Seleccionar grupos para seleccionar uno o varios grupos de agentes para que se asignen a la cola.
-ms.openlocfilehash: 5f1c0da28929f4bf5f99f78c2a9bfbe35a351c88
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3c81cca2c396b158521866c27d06300fc2f4001
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619086"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742266"
 ---
 # <a name="select-groups"></a>Seleccionar grupos
 

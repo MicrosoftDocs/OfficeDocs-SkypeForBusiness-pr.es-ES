@@ -1,7 +1,7 @@
 ---
 title: Agregar dominios SIP adicionales
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ece37fc3-365a-439e-ad03-800f8e7a33eb
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique el nombre de dominio de cada dominio adicional que desea admitir en la implementación. Por ejemplo, si ha especificado contoso.net como dominio principal del protocolo de inicio de sesión (SIP) y también quiere admitir fabrikam.net para el tráfico SIP en la implementación, especifique fabrikam.net como dominio admitido adicional.
-ms.openlocfilehash: 0533b6daf4dd4b3b7aac35dd7fb11635592c7474
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c85cee7f70f6f9d8fc0f2e69a9b8e224af5a57a1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588822"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738366"
 ---
 # <a name="add-additional-sip-domains"></a>Agregar dominios SIP adicionales
  

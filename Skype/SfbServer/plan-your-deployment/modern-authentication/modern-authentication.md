@@ -1,7 +1,7 @@
 ---
 title: Planear la autenticación moderna en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: Temas de planeación de autenticación y autorización para Skype Empresarial Server, incluida la integración con otros productos
-ms.openlocfilehash: a0d9e8dff4a08c670ce2af0b6eb9399146cef006
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0cdfd5ead32ce69e918a9353fbaa35c1904de791
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632684"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741936"
 ---
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Hablar de autenticación y autorización en Skype Empresarial
 
@@ -25,7 +25,7 @@ La autenticación y la autorización son conceptos relacionados, pero hacen un t
 
 La autorización (AuthZ) se preocupa por lo que tiene acceso después de haber probado quién es. Determina lo que se le ha permitido ver, editar y obtener acceso de otro modo. Por ejemplo, puede que tenga acceso de administrador de colección de sitios eficaz a SharePoint Online, pero si cambia a otra carga de trabajo en línea, como Skype Empresarial Online, puede tener los privilegios para solucionar problemas de usuario y no cambiar la configuración del servidor o los servidores. En una tercera carga de trabajo, como Exchange Online, es posible que solo tenga acceso al usuario promedio. AuthZ comprueba qué y cuánto acceso tiene a los servicios/worloads, aplicaciones, archivos y otros datos.
 
-Nuestros ejemplos incluyen propiedades en línea como SharePoint y Exchange en línea, pero los procesos de AuthN y AuthZ funcionan localmente y en un local híbrido del mismo modo. En última instancia, herramientas como AAD Conectar y ADFS participan en el artículo de AuthN y AuthZ sincronizando cuentas y contraseñas locales en ad de la nube (que es Azure AD) o inmiscuyendo en el flujo de AuthZ para que no se pida a un usuario con frecuencia sus credenciales, por ejemplo, al cambiar entre cargas de trabajo en la nube, crear escenarios de Sign-On único. Pero no son, en sí mismos, AuthN o AuthZ responsables, solo forman parte de la mecánica.
+Nuestros ejemplos incluyen propiedades en línea como SharePoint y Exchange en línea, pero los procesos de AuthN y AuthZ funcionan localmente y en un local híbrido del mismo modo. En última instancia, las herramientas como AAD Conectar y ADFS participan en el artículo de AuthN y AuthZ sincronizando cuentas locales y contraseñas en el AD de la nube (que es Azure AD) o inmiscuyendo en el flujo de AuthZ para que a un usuario no se le pidan con frecuencia sus credenciales, por ejemplo, al cambiar entre cargas de trabajo en la nube, crear escenarios de Sign-On únicos. Pero no son, en sí mismos, AuthN o AuthZ responsables, solo forman parte de la mecánica.
 
 Hoy en día, muchas tecnologías consideran que estos procesos (AuthN y AuthZ) son un mecanismo y oirá muchas referencias al proceso de autenticación que también incluyen autorización en ellos. Es importante recordar que el primer paso en el acceso de usuario es AuthN, lo que demuestra que es quien dice ser y que AuthZ usa el conocimiento de quién es el usuario para determinar a qué tiene acceso (como verá con Open Authorization u OAuth).
 

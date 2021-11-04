@@ -1,7 +1,7 @@
 ---
 title: Administrar anuncios de unirse y dejar conferencias en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 'Summary: Learn how to manage conference join and leave announcements in Skype Empresarial Server.'
-ms.openlocfilehash: f2219fc8d55485a4c34a8730fbec6b556d57b728
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 375cd1da4e60ccd9c6d7e4eb2864d49279e3c62a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625212"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765488"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Administrar anuncios de unirse y dejar conferencias en Skype Empresarial Server
  

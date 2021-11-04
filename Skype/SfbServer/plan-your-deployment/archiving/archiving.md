@@ -1,7 +1,7 @@
 ---
 title: Planear el archivado en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Resumen: lea este tema para obtener información sobre cómo planear el archivado en Skype Empresarial Server.'
-ms.openlocfilehash: e9ebe5aa0b2e4e84d436d24f9d8b7db3b450825d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7ed504558274da06d8f49b38a297626ff22f86c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629582"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740463"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planear el archivado en Skype Empresarial Server
  
@@ -99,7 +99,7 @@ El archivado se instala automáticamente en cada servidor front-end al implement
 - Usar Skype Empresarial Server almacenamiento
     
 > [!NOTE]
-> Si implementa las bases de datos de archivado de Skype Empresarial Server y habilita la integración de Microsoft Exchange, las directivas de Exchange invalidan las directivas de archivado de Skype Empresarial Server, pero solo para los usuarios que se encuentran en Exchange y han puesto sus buzones en retención In-Place. Skype Empresarial archivado depende de la directiva de retención Exchange In-Place Microsoft. 
+> Si implementa las bases de datos de archivado de Skype Empresarial Server y habilita la integración de Microsoft Exchange, las directivas de Exchange invalidan las directivas de archivado de Skype Empresarial Server, pero solo para los usuarios que se encuentran en Exchange y han tenido sus buzones put on In-Place Hold. Skype Empresarial archivado depende de la directiva de retención Exchange In-Place Microsoft. 
   
 Si implementa el archivado para un grupo de servidores front-end o un servidor Standard Edition, debe habilitarlo para todos los demás grupos de servidores front-end y Standard Edition servidores de la implementación. Si el archivado no está habilitado en el grupo donde se hospeda una conversación o reunión, es posible que no se archiven todos los datos de la conferencia. El archivado seguirá funcionando para los mensajes de mensajería instantánea, pero es posible que el contenido y los eventos de conferencia no se archiven.
   
@@ -136,7 +136,7 @@ Al agregar SQL Server de almacenamiento a la topología, puede optar por asociar
 > [!NOTE]
 > El servidor que hospeda la base de datos de archivado puede hospedar otras bases de datos. Sin embargo, si piensa combinar la base de datos de archivado con otras bases de datos, tenga en cuenta que si va a archivar mensajes de más de unos pocos usuarios, el espacio en disco que necesita la base de datos de archivado puede crecer mucho. Por este motivo, no se recomienda la combinación de la base de datos de archivado con la base de datos back-end. 
   
-Si coloca la base de datos de archivado con la base de datos de supervisión, la base de datos back-end o ambas bases de datos, puede usar una sola instancia de SQL para cualquiera o todas las bases de datos, o puede usar una instancia SQL independiente para cada base de datos, con la siguiente limitación: cada instancia SQL puede contener solo una base de datos back-end, una sola base de datos de supervisión y una sola base de datos de archivado.
+Si coloca la base de datos de archivado con la base de datos de supervisión, la base de datos back-end o ambas bases de datos, puede usar una sola instancia SQL para cualquiera o todas las bases de datos, o puede usar una instancia SQL independiente para cada base de datos, con la siguiente limitación: cada instancia SQL puede contener solo una base de datos back-end única,  base de datos de supervisión única y base de datos de archivado única.
   
 Para obtener más información acerca de la ubicación de todas las bases de datos y roles de servidor, vea [Topology Basics for Skype Empresarial Server](../../plan-your-deployment/topology-basics/topology-basics.md). Para obtener más información sobre cómo actualizar la topología para incluir bases de datos de almacenamiento, vea [Create and publish new topology in Skype Empresarial Server](../../deploy/install/create-and-publish-new-topology.md).
   

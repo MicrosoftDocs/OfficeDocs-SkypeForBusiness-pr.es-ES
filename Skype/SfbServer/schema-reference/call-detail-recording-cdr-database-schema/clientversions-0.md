@@ -1,7 +1,7 @@
 ---
 title: Vista ClientVersions
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: La vista ClientVersions almacena información sobre los diversos tipos de clientes y versiones que han participado en las sesiones registradas en la base de datos. Cada registro de la vista representa una versión de cliente. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: bb17827f018919ba7b6088da884904a959bd6398
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 91f206a482803cbecd2704638cffdff1aec5c8c8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593484"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740316"
 ---
 # <a name="clientversions-view"></a>Vista ClientVersions
  
@@ -30,7 +30,7 @@ La vista ClientVersions almacena información sobre los diversos tipos de client
 |**Columna**|**Tipo de datos**|**Detalles**|
 |:-----|:-----|:-----|
 |**VersionId** <br/> |Entero  <br/> |Número único de identificación de esta versión y este tipo de cliente.  <br/> |
-|**Version** <br/> |nvarchar(256)  <br/> |Representa el agente de usuario.  <br/> |
+|**Versión** <br/> |nvarchar(256)  <br/> |Representa el agente de usuario.  <br/> |
 |**ClientType** <br/> |Entero  <br/> |Tipo de cliente.  <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |Categoría a la que pertenece el cliente. Por ejemplo, el cliente Conferencing_Attendant_1.0 pertenece a ClientCategory CAA.  <br/> |
    

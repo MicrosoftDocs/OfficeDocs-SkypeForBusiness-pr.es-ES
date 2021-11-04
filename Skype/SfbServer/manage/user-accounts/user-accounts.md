@@ -1,7 +1,7 @@
 ---
 title: Administrar cuentas de usuario para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: En las secciones de este artículo se describe cómo habilitar, deshabilitar temporalmente o quitar usuarios de Active Directory de Skype Empresarial Server.
-ms.openlocfilehash: 8e33d22c8a4e3359a7fdbbb4c8420f3a0e65f5a4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: e079895d80366ecbd6a10be864b78b0d625e495a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015164"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742086"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Administrar cuentas de usuario para Skype Empresarial Server
 
@@ -199,7 +199,7 @@ Una vez que se haya ejecutado este comando, no hay manera de volver a habilitar 
 
 Para obtener más información, vea el tema de ayuda del cmdlet [Disable-CsUser.](/powershell/module/skype/disable-csuser)
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="Remove"> </a>
 
 [Enable-CsUser](/powershell/module/skype/enable-csuser)

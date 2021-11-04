@@ -1,7 +1,7 @@
 ---
 title: Informe de resumen de calidad de medios en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: 'Summary: Learn about the Media Quality Summary Report in Skype Empresarial Server.'
-ms.openlocfilehash: 8478ed9d4ba3bc35451c140346bec4e407c25596
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7dad97de5c763dd578b90559653606911e03c78a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598854"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765408"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>Informe de resumen de calidad de medios en Skype Empresarial Server
  

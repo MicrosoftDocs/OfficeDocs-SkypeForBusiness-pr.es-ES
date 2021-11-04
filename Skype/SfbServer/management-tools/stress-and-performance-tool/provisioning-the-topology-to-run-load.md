@@ -1,7 +1,7 @@
 ---
 title: Aprovisionamiento de la topología para ejecutar la carga en escenarios de estrés y rendimiento
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 12/17/2015
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: Skype Empresarial Server la topología de 2015 o el aprovisionamiento para permitir que los usuarios ejecuten correctamente la herramienta De esfuerzo y rendimiento.
-ms.openlocfilehash: 224a2c1afde71ce94b69826ee0222dce729d22d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1967e923bff7ed0321b3b6b59dce763ba4f448bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611919"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771916"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Aprovisionamiento de la topología para ejecutar la carga en escenarios de estrés y rendimiento
  

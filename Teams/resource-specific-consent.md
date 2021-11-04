@@ -1,7 +1,7 @@
 ---
 title: Consentimiento específico de recursos en Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: nkramer
 manager: serdars
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92064eb31561f74285c338edc6d482fad0b7496f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f12acd7d99f8ab841f47ca84bc677f104cc0f164
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734149"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740236"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentimiento específico de recursos en Microsoft Teams
 
@@ -54,7 +54,7 @@ Esta configuración controla si los usuarios de su organización pueden dar su c
 
 ### <a name="settings-in-the-microsoft-teams-admin-center"></a>Configuración en el centro Microsoft Teams administración
 
-Además de la configuración de Azure [AD,](manage-apps.md#manage-org-wide-app-settings) la configuración de la aplicación para toda [](manage-apps.md#allow-and-block-apps) la organización en [](teams-app-permission-policies.md) la página Administrar aplicaciones, si una aplicación está bloqueada o está permitida en la página Administrar aplicaciones, y la directiva de permisos de aplicación asignada al propietario del equipo determina si el propietario del equipo puede dar su consentimiento. [](manage-apps.md)
+Además de la configuración en [Azure AD,](manage-apps.md#manage-org-wide-app-settings) la configuración [](manage-apps.md) de la aplicación para toda la organización en la página [](teams-app-permission-policies.md) Administrar aplicaciones, si una aplicación está bloqueada o está permitida en la página Administrar aplicaciones, y la directiva de permisos de aplicación asignada al propietario del equipo determina si el propietario del equipo puede dar su consentimiento. [](manage-apps.md#allow-and-block-apps)
 
 > [!IMPORTANT]
 > Cambiar cualquiera de estas opciones de configuración no afecta al acceso a los datos de las aplicaciones a las que ya se les ha concedido el consentimiento. Por ejemplo, si deshabilita aplicaciones de terceros en toda la organización o si bloquea aplicaciones específicas para impedir que los propietarios del equipo concedan su consentimiento, estos cambios no quitan el acceso a datos que ya se ha concedido.  
@@ -91,7 +91,7 @@ Los propietarios de equipos solo pueden dar consentimiento a las aplicaciones qu
 
 ## <a name="uploading-custom-apps"></a>Cargar aplicaciones personalizadas
 
-Al cargar una aplicación personalizada (también conocida como sideloading) que usa el consentimiento específico de los recursos, la aplicación debe venir del inquilino en el que se está instalando. En otras palabras, el registro de la aplicación de Azure AD debe ser de este inquilino. Los administradores globales están exentos de esta restricción y pueden cargar aplicaciones personalizadas desde cualquier espacio empresarial, ya sea directamente a un equipo (carga lateral) o al catálogo de aplicaciones de inquilino.
+Al cargar una aplicación personalizada (también conocida como sideloading) que usa el consentimiento específico de los recursos, la aplicación debe venir del inquilino en el que se está instalando. En otras palabras, el Azure AD de la aplicación debe ser de este espacio empresarial. Los administradores globales están exentos de esta restricción y pueden cargar aplicaciones personalizadas desde cualquier espacio empresarial, ya sea directamente a un equipo (carga lateral) o al catálogo de aplicaciones de inquilino.
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -1,7 +1,7 @@
 ---
 title: Plan para el administrador de estadísticas para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumen: lea este tema para obtener información sobre el Administrador de estadísticas para Skype Empresarial Server.'
-ms.openlocfilehash: 2ba909e5bcc526a40374f5f9fdbbcf15c1cf7c39
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 79f8bc38169d6cba52160772cd9ba0869e761b30
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730759"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778150"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Plan para el administrador de estadísticas para Skype Empresarial Server
 
@@ -32,7 +32,7 @@ Puede implementar el Administrador de estadísticas en una implementación local
 
 En este tema se presentan las siguientes secciones:
 
-- [Características y capacidades](plan.md#BKMK_Features)
+- [Características y funciones](plan.md#BKMK_Features)
 
 - [Novedades de la versión 2.0](plan.md#BKMK_WhatsNew)
 
@@ -44,7 +44,7 @@ En este tema se presentan las siguientes secciones:
 
 - [Consideraciones de seguridad](plan.md#BKMK_Security)
 
-## <a name="features-and-capabilities"></a>Características y capacidades
+## <a name="features-and-capabilities"></a>Características y funciones
 <a name="BKMK_Features"> </a>
 
 El Administrador de estadísticas le permite:

@@ -1,7 +1,7 @@
 ---
 title: Agregar uso de VIS
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server.
-ms.openlocfilehash: 7ff9dc67c16a4eb8e35a0dda7dfd0215d83af6bf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 80fb5df0d5a0d34af2b61df67eaedde7b4096b41
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584224"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778580"
 ---
 # <a name="add-vis-usage"></a>Agregar uso de VIS
  

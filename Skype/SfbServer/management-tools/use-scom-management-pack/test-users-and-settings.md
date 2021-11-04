@@ -1,7 +1,7 @@
 ---
 title: Cómo configurar usuarios y opciones de prueba de nodo de monitor
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: Cómo configurar cuentas de usuario de prueba y opciones de nodo de monitor para Skype Empresarial Server transacciones sintéticas.
-ms.openlocfilehash: 7e7c318f6e9176c46a7dbbab6c8d1833f74911e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d80e939132c609f9ed6f505a4f759f3fc2c46e07
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599945"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759652"
 ---
 # <a name="how-to-configure-watcher-node-test-users-and-settings"></a>Cómo configurar usuarios y opciones de prueba de nodo de monitor
  

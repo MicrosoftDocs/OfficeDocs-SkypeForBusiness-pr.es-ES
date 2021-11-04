@@ -1,6 +1,6 @@
 ---
 title: Centros de tarifas y cobertura admitidos para planes de llamadas
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, julienp
@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Enumera los centros de tasas admitidos y la cobertura de planes de llamadas.
-ms.openlocfilehash: 430d26c5a6742e63053313abdc9a2e18aadea055
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c0bd4d80005bdd38b044a27a5de4a16bbd999c8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594544"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759252"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Centros de tarifas y cobertura admitidos para planes de llamadas
 

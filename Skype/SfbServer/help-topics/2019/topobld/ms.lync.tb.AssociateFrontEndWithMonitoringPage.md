@@ -1,7 +1,7 @@
 ---
 title: Asociar front-end con supervisión
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cada grupo de servidores front-end y cada aplicación de sucursal con funciones de supervivencia solo pueden tener asociado un servidor de supervisión. Si se ha habilitado la supervisión en el sitio, el servidor de supervisión proporciona datos e informes del registro de detalles de las llamadas (CDR) y de calidad de la experiencia (QoE).
-ms.openlocfilehash: 046a7e333c777d2c5b6abf7e6af1616de9625a71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3cfe2f1da82f838f4f0c3afa60562308f3447cf5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633254"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738256"
 ---
 # <a name="associate-front-end-with-monitoring"></a>Asociar front-end con supervisión
  

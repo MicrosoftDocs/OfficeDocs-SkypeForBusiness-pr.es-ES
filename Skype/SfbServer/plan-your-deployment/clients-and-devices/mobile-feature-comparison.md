@@ -1,6 +1,6 @@
 ---
 title: Comparación de características de cliente móvil para Skype Empresarial
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Resumen: revise la compatibilidad de características para el cliente móvil mientras planea la Skype Empresarial Server.'
-ms.openlocfilehash: 576947499c506052c5204d4826489ae9a2a60037
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b619219666a89e40870caf4cea80a683011775c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614130"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759572"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparación de características de cliente móvil para Skype Empresarial
  

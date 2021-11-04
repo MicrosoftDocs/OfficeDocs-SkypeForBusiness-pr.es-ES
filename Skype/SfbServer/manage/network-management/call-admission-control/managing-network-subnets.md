@@ -1,7 +1,7 @@
 ---
 title: Administración de subredes de red
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: En la mayoría de las implementaciones Skype Empresarial Server donde se implementa el control de admisión de llamadas (CAC), normalmente habrá un gran número de subredes. Debido a esto, a menudo es mejor configurar subredes desde el Shell Skype Empresarial Server administración.
-ms.openlocfilehash: d7942026a00bd74a7cb21adb045b78dba3b93594
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7abe489d6424cf7a1468060b54d5df99b123bf4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600045"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740486"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Administrar subredes de red en Skype Empresarial Server
 

@@ -1,6 +1,6 @@
 ---
 title: Planear la Skype Empresarial cliente de 2015 para los usuarios
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,17 +16,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: "Summary: Learn about the new Skype Empresarial and the steps you can take to prepare your environment and your users for the update, whether you're using Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server 2015, Lync Server 2013, or Lync Server 2010."
-ms.openlocfilehash: b9ead36cb38c41376c80a85f1356e24e78b51eb7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: "Summary: Learn about the new Skype Empresarial and the steps you can take to prepare your environment and your users for the update, whether you're using Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server 2015, Lync Server 2013 o Lync Server 2010."
+ms.openlocfilehash: a35a447d9810952e9aac149f2297eda87575bdf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586872"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740466"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planear la Skype Empresarial cliente de 2015 para los usuarios
  
-**Resumen:** Obtenga información sobre el nuevo Skype Empresarial y los pasos que puede seguir para preparar el entorno y los usuarios para la actualización, tanto si usa Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server 2015, Lync Server 2013 o Lync Server 2010.
+**Resumen:** Obtenga información sobre el nuevo Skype Empresarial y los pasos que puede seguir para preparar el entorno y los usuarios para la actualización, tanto si usa Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server 2015, Lync Server 2013 o Lync  Servidor 2010.
   
 The April 14th, 2015 Office Update for Lync 2013 includes the new Skype Empresarial user interface. Esta actualización permite a los administradores controlar la apariencia del cliente y elegir si conservar la experiencia de cliente de Lync 2013 o usar la experiencia de cliente Skype Empresarial cliente mejorada. El Skype Empresarial de Skype Empresarial reemplazó eficazmente al cliente de Lync 2013 y agregó la capacidad para que los administradores elijan entre la experiencia de cliente de Lync existente y la nueva experiencia de cliente Skype Empresarial cliente. Para obtener información acerca de esta actualización, vea actualización del 14 de abril de [2015 para Lync 2013 (Skype Empresarial) (KB2889923).](https://support.microsoft.com/kb/2889923/)
   

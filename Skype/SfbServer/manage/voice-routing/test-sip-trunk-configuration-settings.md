@@ -1,7 +1,7 @@
 ---
 title: 'Skype Empresarial Server: probar las opciones de configuración del tronco SIP'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Las opciones de configuración del tronco SIP definen la relación y las capacidades entre una puerta de enlace del servidor de mediación y la puerta de enlace PST, una PBX o un SBC en el proveedor de servicios. '
-ms.openlocfilehash: 1684a2a45de1dd6608ab5fea70fa3bf2e1652723
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e0d8a5807f97924c0b733d75065f0ce3d512255e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617826"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765368"
 ---
 # <a name="skype-for-business-server---test-sip-trunk-configuration-settings"></a>Skype Empresarial Server: probar las opciones de configuración del tronco SIP
 

@@ -1,7 +1,7 @@
 ---
 title: Administrar aplicaciones de Microsoft Power Platform en el centro Microsoft Teams administración
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: joglocke
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar el acceso a aplicaciones personalizadas integradas en Microsoft Power Platform en el Microsoft Teams de administración.
-ms.openlocfilehash: d3bf125415f3459913d7b23f5a496cb44eb51856
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5e372c69f30fc3c8758a389c705653b8ab04f310
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730669"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759282"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Administrar aplicaciones de Microsoft Power Platform en el centro Microsoft Teams administración
 
@@ -43,7 +43,7 @@ Cuando se crea o comparte una aplicación de Microsoft Power Platform, los usuar
 
 Un usuario verá una aplicación integrada por sus compañeros **si** la aplicación cumple una de las siguientes condiciones.
 
-|Power Apps |Power Virtual Agents  |
+|Power Apps |Power Virtual Agents  |
 |---------|---------|
 |<ul><li>El usuario creó la aplicación.</li><li>La aplicación se compartió directamente con el usuario.</li><li>El usuario ha usado recientemente la aplicación. </li></ul>| <ul><li>El usuario creó el bot.</li><li>El bot es propiedad de un equipo del que es miembro el usuario. </li></ul>        |
 

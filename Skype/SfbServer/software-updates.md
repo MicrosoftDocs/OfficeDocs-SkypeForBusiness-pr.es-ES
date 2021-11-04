@@ -1,7 +1,7 @@
 ---
 title: Descargas y actualizaciones de Skype Empresarial
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 07/23/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Busque y administre actualizaciones para Skype Empresarial Server o Lync 2013. Use los vínculos para obtener más información y, a continuación, descargar las actualizaciones.
-ms.openlocfilehash: 2da27f65f9468c164e706da05692919017ce5ea9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 60fa56020a9a0a59f7890e71009cd65acd6636b4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578554"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741736"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Descargas y actualizaciones de Skype Empresarial
 

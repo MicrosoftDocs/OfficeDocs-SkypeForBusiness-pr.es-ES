@@ -1,7 +1,7 @@
 ---
 title: Usuarios Ver o configurar directiva de ubicación
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 4d696a280370e4cb992b3a043ea6a78a054948a2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1fcc38d79662470f459770d41825cbc19ae4c1a5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592774"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752699"
 ---
 # <a name="users-view-or-configure-location-policy"></a>Usuarios: Ver o configurar directiva de ubicación
 

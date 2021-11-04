@@ -1,7 +1,7 @@
 ---
 title: Supervisar la movilidad para obtener rendimiento en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: 'Summary: Learn about the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype Empresarial Server.'
-ms.openlocfilehash: 556e50a162e455b1d0805c55fa34cb8f4de1603e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5f8adbbdc653d8cdf2e19ce3f82fc4fdb0383505
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598894"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746926"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Supervisar la movilidad para obtener rendimiento en Skype Empresarial Server
  

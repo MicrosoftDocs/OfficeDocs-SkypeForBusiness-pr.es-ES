@@ -1,7 +1,7 @@
 ---
 title: Amenazas de seguridad comunes en la informática moderna
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/22/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Dado Skype Empresarial Server es un sistema de comunicaciones de clase empresarial, debe ser consciente de los ataques de seguridad comunes que podrían afectar a su infraestructura y comunicaciones.
-ms.openlocfilehash: 04fa1eb040c1e208781d862da0bd92bc68a77dbd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dcc889ea43c06c2f8166d588b8d7e5eb7075b52c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629518"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741926"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Amenazas de seguridad comunes en la informática moderna
  

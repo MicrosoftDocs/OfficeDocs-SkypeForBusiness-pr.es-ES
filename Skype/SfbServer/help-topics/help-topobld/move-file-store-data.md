@@ -1,7 +1,7 @@
 ---
 title: Mover datos del almacén de archivos a un nuevo almacén de archivos en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/30/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Si necesita quitar el servidor de archivos que actualmente actúa como almacén de archivos para la implementación de Skype Empresarial Server 2015 o si necesita realizar otros cambios que hagan que el almacén de archivos actual no esté disponible, primero debe crear un nuevo recurso compartido. A continuación, debe realizar los pasos siguientes:'
-ms.openlocfilehash: 10571b398b6e39624c408f0e36baa317212f9b21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 73e66930f4c47ead3df01e04d30930b0257204e2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614260"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778380"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Mover datos del almacén de archivos a un nuevo almacén de archivos en Skype Empresarial Server 2015
 

@@ -1,7 +1,7 @@
 ---
 title: Tabla Inquilinos
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 description: La tabla Inquilinos es una tabla auxiliar que almacena una lista de los diversos inquilinos. Cada registro de la tabla representa a un inquilino.
-ms.openlocfilehash: 2705b44830efef4a8f921bf9ccc9c7b8e49f72ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6cb4c5edbf2751e06012628be48690c46592ca9a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583794"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759412"
 ---
 # <a name="tenants-table"></a>Tabla Inquilinos
  

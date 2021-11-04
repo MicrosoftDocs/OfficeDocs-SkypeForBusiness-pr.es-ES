@@ -1,7 +1,7 @@
 ---
 title: Control de administración de inquilinos para el reconocimiento de voz (perfil de voz) en Salas de Teams
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b42d60b644d202abecd061e5cece9169cd184a7d
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 8e78ab7b7a2448ebb996a1c04e95bc22049954b4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605856"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759232"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar controles de tecnología de reconocimiento de voz para un altavoz inteligente
 

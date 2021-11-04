@@ -1,7 +1,7 @@
 ---
 title: Planear el enrutamiento de voz saliente en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Obtenga información sobre el enrutamiento de voz saliente en Skype Empresarial Server Telefonía IP empresarial, incluida la configuración de enrutamiento de llamadas, los planes de marcado, las reglas de normalización, las directivas de voz, los registros de uso de RTC y las rutas de voz.
-ms.openlocfilehash: 233556993c5feb3eac9a6b773161a2491361e35e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 47b0b196579d69612c3c9d62c8ca9aade008535e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593554"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759512"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planear el enrutamiento de voz saliente en Skype Empresarial Server
  

@@ -1,7 +1,7 @@
 ---
 title: test
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 1/1/2010
 manager: serdars
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ''
 description: Inserte aquí la introducción.
-ms.openlocfilehash: 33a22570249415ab2abb58ae015106a1087628f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0ab3fb41ef91b20e4683065de5e95497640e6f1b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636084"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765548"
 ---
 # <a name="testing-sfb-csh"></a>Prueba de SfB CSH
 

@@ -1,7 +1,7 @@
 ---
 title: Recuperación ante desastres del grupo front-end en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Para la recuperación ante desastres, Skype Empresarial Server el emparejamiento de grupos con conmutación por error en caso de que un grupo de servidores se desalome.
-ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6559b5af285027d9f1cb6ea3682304dedbbb4165
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728839"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740436"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Recuperación ante desastres del grupo front-end en Skype Empresarial Server
  
@@ -99,6 +99,6 @@ Otra solución posible es usar IPSec solo para ayudar a proteger los datos envia
 > [!CAUTION]
 >  IPsec no está pensado como un reemplazo para la seguridad de nivel de aplicación, como SSL/TLS. Una ventaja de usar IPsec es que puede proporcionar seguridad de tráfico de red para las aplicaciones existentes sin tener que cambiarlas. Las empresas que quieran proteger el transporte entre los dos centros de datos deben consultar a sus respectivos proveedores de hardware de red sobre formas de configurar conexiones WAN seguras mediante el equipamiento del proveedor.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Implementar grupos de servidores front-end emparejados para la recuperación ante desastres en Skype Empresarial Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

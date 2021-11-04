@@ -1,7 +1,7 @@
 ---
 title: Informe de rendimiento del servidor en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 'Resumen: obtenga información sobre el informe de rendimiento del servidor en Skype Empresarial Server.'
-ms.openlocfilehash: 2e51832cf3d5d4b7dca816aa17ded0483dc88efd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1d276d0dd4deec374ff88ca32d143855dae8919b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632864"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746916"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>Informe de rendimiento del servidor en Skype Empresarial Server
  
@@ -83,7 +83,7 @@ En la tabla siguiente se muestra la información que recoge el informe de rendim
 
 |**Nombre**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Servidor** <br/> |No  <br/> |Nombre/dirección IP del servidor.  <br/> |
+|**Server** <br/> |No  <br/> |Nombre/dirección IP del servidor.  <br/> |
 |**Volumen de llamadas** <br/> |No  <br/> |Número total de llamadas realizadas.  <br/> |
 |**Porcentaje de llamadas deficientes** <br/> |No  <br/> |Número total de llamadas clasificadas como deficientes. Una llamada deficiente es aquella durante la que al menos uno de los valores medidos supera el valor permitido, por ejemplo, una llamada con un exceso de vibraciones.  <br/> |
 |**Recorrido de ida y vuelta (ms)** <br/> |Sí  <br/> |Tiempo medio (en milisegundos) necesario para que un paquete de protocolo de transporte en tiempo real (RTP) llegue a otro extremo y, después, vuelva. Los tiempos de ida y vuelta de 100 milisegundos o menos se consideran de calidad aceptable.  <br/> Los valores elevados en los tiempos del recorrido de ida y vuelta pueden deberse a que se trata de enrutamientos de llamadas internacionales, una configuración incorrecta del enrutamiento o a la sobrecarga en el servidor de medios y causan dificultades en las conversaciones de audio en tiempo real bidireccionales.  <br/> |

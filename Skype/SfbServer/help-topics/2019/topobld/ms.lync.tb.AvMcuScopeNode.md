@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito MCU AV
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores y los grupos de servidores asociados para este grupo de servidores de conferencias A/V. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: e12e878d1561fb25a986331b7214d29184b83f5d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8d8f35c18a0d45947bc888f613ee274b16928654
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634664"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752509"
 ---
 # <a name="av-mcu-scope-node"></a>Nodo de ámbito MCU AV
  

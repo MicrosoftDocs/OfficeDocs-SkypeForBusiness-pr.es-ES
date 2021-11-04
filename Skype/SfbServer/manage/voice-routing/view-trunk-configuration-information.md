@@ -1,7 +1,7 @@
 ---
 title: Ver información de configuración de tronco en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Los valores de configuración de tronco SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de la Red telefónica conmutada (RTC), una central de conmutación pública de IP (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios.
-ms.openlocfilehash: 204f6f17387499719cf3b4bbe33638a849a4e363
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b27e3dd72e7a4aebee907541b1ec0250cf7cfd3f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614070"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778260"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Ver información de configuración de tronco en Skype Empresarial Server
 

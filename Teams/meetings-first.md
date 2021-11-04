@@ -1,7 +1,7 @@
 ---
 title: 'Reunión en primer lugar: Microsoft Teams'
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45f2bb9cc09625bcaaa27115745f19efbcaa14f7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2aafa115d6da600df17ac18e4b1af66358efb16b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728409"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741646"
 ---
 # <a name="meetings-first"></a>Reuniones primero
 
@@ -107,7 +107,7 @@ Es posible que considere la posibilidad de ejecutar un piloto preparado para pro
 
 Una vez que haya autorizado a los usuarios y preparado su organización para Teams reuniones, es el momento de habilitar los usuarios para Reuniones primero. Lo hemos hecho fácil: una sola configuración lo hará todo.
 
-Todas las capacidades y experiencias de usuario en Reuniones en primer lugar, incluida la configuración de cliente de Teams y la [conformidad](teams-client-experience-and-conformance-to-coexistence-modes.md) automática de la experiencia de usuario, el servicio de migración de reuniones y las capacidades de Better Together, se configuran otorgando al usuario (o grupo de usuarios o inquilino predeterminado) el modo de coexistencia [SfBWithTeamsCollabAndMeetings,](setting-your-coexistence-and-upgrade-settings.md) ya sea en el centro de administración de [Microsoft Teams](manage-teams-in-modern-portal.md) o mediante [PowerShell.](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+Todas las capacidades y experiencias de usuario en Reuniones en primer lugar, incluida la configuración de cliente de Teams y la [conformidad](teams-client-experience-and-conformance-to-coexistence-modes.md) automática de la experiencia de usuario, servicio de migración de reuniones y capacidades de Better Together, se configuran otorgando al usuario (o grupo de usuarios, o de forma predeterminada del inquilino) el modo de coexistencia [sfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) en el centro de administración de [Microsoft Teams](manage-teams-in-modern-portal.md) o mediante [PowerShel l](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
 ![Captura de pantalla de la configuración de administrador para habilitar Reuniones en primer lugar.](media/teams-meeting-admin-settings.png)
 

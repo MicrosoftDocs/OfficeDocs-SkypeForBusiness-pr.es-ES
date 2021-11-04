@@ -1,7 +1,7 @@
 ---
 title: Servicios de dominio de Active Directory para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Servicios de dominio de Active Directory funciona como servicio de directorio para Windows Server 2003, Windows Server 2008, Windows Server 2012 y Windows Server 2012 redes R2. Los servicios de dominio de Active Directory también sirven de base para crear Skype Empresarial Server de seguridad. El propósito de esta sección es describir cómo Skype Empresarial Server servicios de dominio de Active Directory para crear un entorno de confianza para mensajería instantánea, conferencia web, medios y voz. Para obtener más información sobre cómo preparar el entorno para los Servicios de dominio de Active Directory, consulte Install Skype Empresarial Server en la documentación de implementación. Para obtener información detallada sobre el rol de los servicios de dominio de Active Directory en las redes Windows Server, consulte la documentación sobre la versión del sistema operativo que está usando.
-ms.openlocfilehash: 4af4e4b4dd7a64dd133d36a55ca1c334a12fe97e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 496abf7f0210a1663c1158da56c8fb1cce66f068
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604659"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759472"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Servicios de dominio de Active Directory para Skype Empresarial Server
  
@@ -101,7 +101,7 @@ En Skype Empresarial Server, los servidores de confianza son los especificados a
     
 Si falta alguno de estos criterios, el servidor no es de confianza y se rechaza la conexión con él. Este doble requisito evita un posible ataque, si es poco probable, en el que un servidor no autorizado intenta asumir el FQDN de un servidor válido.
   
-Además, para habilitar las implementaciones de Microsoft Office Communications Server 2007 R2 y Microsoft Office Communications Server 2007 para comunicarse con servidores Skype Empresarial Server, Skype Empresarial Server crea contenedores durante la preparación del bosque para contener listas de servidores de confianza para versiones anteriores. En la tabla siguiente se describen los contenedores creados para habilitar la compatibilidad con implementaciones anteriores.
+Además, para habilitar las implementaciones de Microsoft Office Communications Server 2007 R2 y Microsoft Office Communications Server 2007 para comunicarse con servidores Skype Empresarial Server, Skype Empresarial Server crea contenedores durante el bosque preparación para contener listas de servidores de confianza para versiones anteriores. En la tabla siguiente se describen los contenedores creados para habilitar la compatibilidad con implementaciones anteriores.
   
 **Listas de servidores de confianza y sus contenedores de Active Directory para compatibilidad con versiones anteriores**
 

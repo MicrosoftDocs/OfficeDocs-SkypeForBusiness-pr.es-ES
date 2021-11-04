@@ -1,7 +1,7 @@
 ---
 title: Planear implementaciones de servidor perimetral en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 'Resumen: planee su entorno Skype Empresarial Server edge. Este tema le presenta los conceptos perimetrales y le permite organizarse con nuestros temas más profundos.'
-ms.openlocfilehash: 9acdb42e4ebc46fd6597ab047ee523b0ff309fb5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad92c0d61381595ac2274bf52aa108efe5703a90
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602465"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746866"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planear implementaciones de servidor perimetral en Skype Empresarial Server
  
