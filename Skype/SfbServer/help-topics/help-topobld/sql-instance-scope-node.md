@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito de instancia SQL
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) de este Microsoft SQL Server y la instancia de SQL Server en ese servidor, y los grupos o servidores que usan este SQL Server. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 3a6ae742e778ba105ab19b8e8459b1695fb82519
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4d8df1c33f08a31b7c76945bfd006233b83a369d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588572"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766648"
 ---
 # <a name="sql-instance-scope-node"></a>Nodo de ámbito de instancia SQL
  

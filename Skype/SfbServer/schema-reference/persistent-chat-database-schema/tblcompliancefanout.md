@@ -1,7 +1,7 @@
 ---
 title: tblComplianceFanout
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
 description: La tabla ComplianceFanout contiene todos los servidores que han procesado un evento de cumplimiento.
-ms.openlocfilehash: 34f1a5d7d6ea9f1f37e0f9e8d43159523f0f183a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6c0ae5a9b00945494c125511e1206f4177432703
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623462"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765078"
 ---
 # <a name="tblcompliancefanout"></a>tblComplianceFanout
  

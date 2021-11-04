@@ -1,7 +1,7 @@
 ---
 title: Skype Empresarial de vídeo de cliente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Resumen: revise los requisitos de vídeo del cliente al planear la Skype Empresarial Server.'
-ms.openlocfilehash: 75929db21edec514865b6cdc0d48cbda9e21fbbe
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6a483a67b298f2d1ce9a32fbcd7e89882c0598aa
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014734"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745886"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype Empresarial de vídeo de cliente
  

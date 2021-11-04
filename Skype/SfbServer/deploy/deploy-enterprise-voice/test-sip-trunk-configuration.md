@@ -1,7 +1,7 @@
 ---
 title: 'Skype Empresarial Server: Probar las opciones de configuración del tronco SIP'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 'Summary: Learn how to test SIP trunk configuration settings by using the Skype Empresarial Server Management Shell.'
-ms.openlocfilehash: 08bcbc0548af42b7242047ce9c848f00f1af7096
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e6acdc50aaabffabf5b54dd0566143ea0d27d155
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617006"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764868"
 ---
 # <a name="skype-for-business-server-test-sip-trunk-configuration-settings"></a>Skype Empresarial Server: Probar las opciones de configuración del tronco SIP
  

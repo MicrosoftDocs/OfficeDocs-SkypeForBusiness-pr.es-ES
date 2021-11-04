@@ -1,7 +1,7 @@
 ---
 title: Administrar directivas de conferencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: 'Resumen: obtenga información sobre cómo administrar directivas de conferencia en Skype Empresarial Server.'
-ms.openlocfilehash: 1dd9c13735d08826316c8b9f80c5274759363040
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f2678c964cc56de44aff37d49aae5f3c61ebc298
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606219"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766628"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Administrar directivas de conferencia en Skype Empresarial Server
  

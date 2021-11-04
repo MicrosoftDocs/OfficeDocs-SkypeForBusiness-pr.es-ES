@@ -1,7 +1,7 @@
 ---
 title: Categorías de chat persistente, salas de chat y roles de usuario en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Resumen: lea este tema para obtener información sobre categorías, salas de chat y roles de usuario y administrador para el servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: e3740702f43ae677ef451049bfce2a4497a0b992
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c468092016fae578e3c96987fed88b37db9d1c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615566"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765218"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Categorías de chat persistente, salas de chat y roles de usuario en Skype Empresarial Server 2015
  

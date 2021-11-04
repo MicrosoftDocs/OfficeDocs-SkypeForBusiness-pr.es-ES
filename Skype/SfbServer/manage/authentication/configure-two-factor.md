@@ -1,7 +1,7 @@
 ---
 title: Configurar la autenticación en dos fases en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Resumen: configure la autenticación en dos fases en Skype Empresarial Server.'
-ms.openlocfilehash: 447039a5dd137482c330325fcf479dade583f395
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c1749c6fcd97e10f7e09ddc243059cedc695fb65
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014374"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751799"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurar la autenticación en dos fases en Skype Empresarial Server
 
@@ -342,7 +342,7 @@ En los pasos siguientes se describe cómo crear una configuración de proxy pers
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Administrar la autenticación en dos fases en Skype Empresarial Server](two-factor-authentication.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Plan for Group Call Pickup in Skype Empresarial
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planeación de la recogida de llamadas de grupo en Skype Empresarial Server Telefonía IP empresarial, lo que permite a los usuarios responder a llamadas diseñadas originalmente para otros usuarios.
-ms.openlocfilehash: 1127c1bb01e39d784f82dd7d451f3445f4210510
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27d0ae55891981c715127cf6d61aab7135448cc3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590124"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765258"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Plan for Group Call Pickup in Skype Empresarial
  

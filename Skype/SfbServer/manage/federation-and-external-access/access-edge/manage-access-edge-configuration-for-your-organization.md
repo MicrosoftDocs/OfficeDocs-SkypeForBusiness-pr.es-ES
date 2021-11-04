@@ -5,7 +5,7 @@ ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
 ms:contentKeyID: 48679555
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Después de implementar uno o varios servidores perimetrales, debe habilitar los tipos de acceso de proveedor o dominio externo, acceso de usuarios remotos y acceso de usuarios anónimos a conferencias a través de los servidores perimetrales que se admiten para su organización.
-ms.openlocfilehash: af03dbd058884d0a09b5cb68c5f43e030c84fb06
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18d4f6e0225c14d3eb5198cb1dc9214c10875267
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634334"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766518"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>Administrar la configuración perimetral de acceso para su organización
 

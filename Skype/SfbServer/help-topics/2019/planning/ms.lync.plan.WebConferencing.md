@@ -1,7 +1,7 @@
 ---
 title: Conferencia web (herramienta de planeación)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Empresarial Server conferencia web incluye colaboración de documentos, uso compartido de aplicaciones y uso compartido de escritorio.
-ms.openlocfilehash: cc6f04d3ab116b4bfcd86e808bae177a9883a9fd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e1aa9f5cb4b4e079336f4eff3f0d5bb20941fee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588862"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776890"
 ---
 # <a name="web-conferencing-planning-tool"></a>Conferencia web (herramienta de planeación)
  

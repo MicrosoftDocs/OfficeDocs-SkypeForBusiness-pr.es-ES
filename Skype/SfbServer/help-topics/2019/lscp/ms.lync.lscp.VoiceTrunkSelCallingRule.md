@@ -1,7 +1,7 @@
 ---
 title: Seleccionar traducción de reglas de números de llamada
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El cuadro de diálogo Seleccionar reglas de traducción de números de llamada muestra las reglas de traducción configuradas para su implementación. Para obtener información detallada sobre las reglas de traducción, vea los temas siguientes:'
-ms.openlocfilehash: 176a6cad3ff95dc62600e71342148adf2bc5b478
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21a22cfe066ced83ec9583f35d77fd91114b646c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593964"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750929"
 ---
 # <a name="select-calling-number-rules-translation"></a>Seleccionar traducción de reglas de números de llamada
 

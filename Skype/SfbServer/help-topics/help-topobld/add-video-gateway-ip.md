@@ -1,7 +1,7 @@
 ---
 title: Agregar IP de puerta de enlace de vídeo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: edc4cc21-7803-400d-8152-595228a3d27d
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server 2015.
-ms.openlocfilehash: f032da788fed52fdcd0eaabfbc099ff60998ae21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d2891124b670ff19efc7fdf722ad486d7f9dde10
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580714"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744216"
 ---
 # <a name="add-video-gateway-ip"></a>Agregar IP de puerta de enlace de vídeo
  

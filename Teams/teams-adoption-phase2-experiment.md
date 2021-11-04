@@ -1,7 +1,7 @@
 ---
 title: 'Fase 2 de la adopción de Microsoft Teams: Experimento'
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9cd56875378d7e38660fd1dfd7a4228e7ce5a7e8
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 177ce9d4ee32f1cb620482acfdbf12086e5b5966
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726749"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745466"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Fase 2 de la adopción de Microsoft Teams: Experimento
 

@@ -1,7 +1,7 @@
 ---
 title: Enlace troncal SIP en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Obtenga información sobre el enlace troncal SIP en Skype Empresarial Server Telefonía IP empresarial
-ms.openlocfilehash: d10f14a8c3f65309c52351a0721aa042faad47b6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 599745b59d3597afa9e9f4cdc23b6c648fdbbab0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728239"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744196"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Enlace troncal SIP en Skype Empresarial Server
 
@@ -183,6 +183,6 @@ Si usa un servidor de VPN, se recomienda seguir estas instrucciones:
 
 - Cifre los datos de la VPN mediante encapsulación de enrutamiento genérico (GRE).
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Enlace troncal SIP del sitio de sucursal en Skype Empresarial Server](branch-site.md)

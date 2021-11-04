@@ -1,7 +1,7 @@
 ---
 title: Tabla de servidor
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: La tabla Server es una tabla auxiliar. Cada registro representa a un servidor.
-ms.openlocfilehash: 5e8173236122c6127c9e741700a5f0200c311eee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e2a1007afa545a5b70b60f0e22f69826daebcda0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593364"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776040"
 ---
 # <a name="server-table"></a>Tabla de servidor
  

@@ -1,7 +1,7 @@
 ---
 title: Tabla de diálogo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
 description: La tabla Diálogo es una tabla de apoyo, en la que cada registro representa un cuadro de diálogo de protocolo de inicio de sesión (SIP).
-ms.openlocfilehash: 0310845ada3b86346ccc6b410a5c7539b16689f3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bccc053855ae88bc453aeef27d13732166cc6760
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603729"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765048"
 ---
 # <a name="dialog-table"></a>Tabla de diálogo
  

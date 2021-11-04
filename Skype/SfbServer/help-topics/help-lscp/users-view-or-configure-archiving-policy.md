@@ -1,7 +1,7 @@
 ---
 title: Usuarios Ver o configurar directiva de archivado
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: eaa117ad4334bc0002192e18e23f0e38542fedd7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eb947a2e151dd9e7df4a26bf47cfed3a8ab5b2a5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623962"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776560"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>Usuarios: Ver o configurar directiva de archivado
 

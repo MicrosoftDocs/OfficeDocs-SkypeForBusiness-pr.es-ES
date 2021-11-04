@@ -1,7 +1,7 @@
 ---
 title: Ejemplos de desarrollo del Panel de calidad de llamadas
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Resumen: revise un tutorial y ejemplos de desarrollo para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ba49af8e8ce79b87c57d761a47b54b6574f3a7f5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727519"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751719"
 ---
 # <a name="cqd-development-samples"></a>Ejemplos de desarrollo del Panel de calidad de llamadas
 

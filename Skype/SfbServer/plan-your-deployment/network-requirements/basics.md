@@ -1,7 +1,7 @@
 ---
 title: Conceptos básicos sobre DNS
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 software integrado que puede proporcionar servicios DNS, por lo que es posible que desee revisar la documentación disponible, como la Guía de escenarios de directivas DNS. Puedes elegir una solución de terceros si lo prefieres.
-ms.openlocfilehash: 2ee4ee73a6cb85ac51785a47e4f0ec86d581b809
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe5c38aa22f87e9096d9c887c387938e1cf66ab3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602345"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765238"
 ---
 # <a name="dns-basics"></a>Conceptos básicos sobre DNS
  

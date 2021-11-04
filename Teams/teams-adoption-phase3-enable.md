@@ -1,7 +1,7 @@
 ---
 title: 'Fase 3 de la adopción de Microsoft Teams: Escala'
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86de4726585f067235c578353a30e0f5ad86574d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: acf0e51436aaad905c1713af7f6131be08b9e704
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733729"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745456"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Fase 3 de la adopción de Microsoft Teams: Escala
 

@@ -1,7 +1,7 @@
 ---
 title: Administrar Skype Empresarial Server 2019 con SCOM Management Pack
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/26/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Summary: Learn how to configure your Skype Empresarial Server 2019 infrastructure to work with System Center Operations Manager.'
-ms.openlocfilehash: a58b98790b955953d916b26276e8579fb7989028
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 69954c7568702e4e3d6e9618bdd7e37243c61ef6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011594"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751499"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Administrar Skype Empresarial Server 2019 con SCOM Management Pack
  
@@ -129,7 +129,7 @@ Skype Empresarial Server módulos de administración de 2019 proporcionan una ma
 |1   |Registro (inicio de sesión de usuario)   |Lync Server 2010 y posteriores disponibles   |
 |2   |Servicio de libreta de direcciones (descarga de archivos)   |Lync Server 2010 y posteriores disponibles   |
 |3   |Consulta web de la libreta de direcciones   |Lync Server 2010 y posteriores disponibles   |
-|4    |Presencia   |Lync Server 2010 y posteriores disponibles   |
+|4   |Presencia   |Lync Server 2010 y posteriores disponibles   |
 |5   |Almacén de contactos unificado   |Lync Server 2013 y posteriores disponibles   |
    
 **Transacciones sintéticas admitidas para servicios punto a punto**
@@ -249,6 +249,6 @@ Para obtener información adicional acerca de Operations Manager, consulte los b
 > [!IMPORTANT]
 > Toda la información y el contenido de los sitios que no sean propiedad de Microsoft han sido proporcionados por el propietario o los usuarios del sitio web. Microsoft no ofrece garantías, expresas, implícitas o estatutarias, en cuanto a la información de este sitio web.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Skype Empresarial Server de administración de 2019](../management-tools-2019.md)

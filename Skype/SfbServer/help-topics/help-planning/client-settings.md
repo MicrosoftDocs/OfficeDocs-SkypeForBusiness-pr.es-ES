@@ -1,7 +1,7 @@
 ---
 title: Skype Empresarial Server Herramienta de planeación Configuración cliente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 description: La característica Skype Empresarial Server de movilidad admite Skype funcionalidad en dispositivos móviles. Para obtener más información, consulte Planning for Mobility.
-ms.openlocfilehash: 4ee155d492e47cb834758e8ba9894805643c1198
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20ff25a3596c5c30543dd47c5c3890528f3101bb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602715"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746176"
 ---
 # <a name="skype-for-business-server-client-settings-planning-tool"></a>Skype Empresarial Server Herramienta de planeación Configuración cliente
 

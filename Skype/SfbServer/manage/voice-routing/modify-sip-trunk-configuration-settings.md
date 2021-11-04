@@ -1,7 +1,7 @@
 ---
 title: Skype Empresarial Configuración del tronco SIP serverModify
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Las opciones de configuración del tronco SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de red telefónica conmutada, una central de conmutación IP (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios. '
-ms.openlocfilehash: dbc7dec8af1f27769505b39b5cd2778f66dec0a4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ebec5a350dc46a4deb85546e885429ff72737cb2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582734"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751729"
 ---
 # <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype Empresarial Configuración del tronco SIP serverModify
 

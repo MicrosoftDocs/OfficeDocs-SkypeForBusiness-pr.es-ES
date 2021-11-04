@@ -1,7 +1,7 @@
 ---
 title: Crear un equipo de toda la organización en Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: phlouie
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 058aa530508c03587eae3ff6a55e218bc109bbd2
-ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
+ms.openlocfilehash: b266bf4cfef25761ce492cb93090ff3df380994d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60641180"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745616"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Crear un equipo de toda la organización en Microsoft Teams
 

@@ -1,7 +1,7 @@
 ---
 title: Skype Empresarial Server Herramienta de planeación de audioconferencia
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: Skype Empresarial Server conferencia de audio y vídeo (A/V) de 2015 permite a los usuarios participar en conferencias de audio o vídeo en tiempo real.
-ms.openlocfilehash: 0cd2c3eea2fe37310c52d0b5aa5c72af4b7a85be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 86075ef9b92c9558fe961ca8c506166501e7c5fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602711"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746256"
 ---
 # <a name="skype-for-business-server-audio-video-conferencing-planning-tool"></a>Skype Empresarial Server Herramienta de planeación de audioconferencia
  

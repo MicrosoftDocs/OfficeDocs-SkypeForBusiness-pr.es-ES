@@ -1,7 +1,7 @@
 ---
 title: Navegar por la herramienta de planeación en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Puede navegar por la Skype Empresarial Server planeación de 2015 mediante una combinación de una barra de herramientas, botones y vínculos específicos de página y paneles específicos del contexto. Los paneles específicos del contexto proporcionan información de diseño para la planeación y la capacidad que es relevante para las opciones de selección de una página específica.
-ms.openlocfilehash: 37a5a3e9ba2934422ef9a89ef7c0cb3df25f1a4a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6601b4830c1bee071ea5ad7e9dbaaa533d7d761a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725709"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751599"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navegar por la herramienta de planeación en Skype Empresarial Server 2015
 
@@ -45,7 +45,7 @@ Además, se muestra información sobre el hardware en la información general de
 
 ![Panel de acciones de la herramienta de planeación.](../../media/Planning_Tool_Actions_Pane.jpg)
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Crear el diseño de topología inicial para Skype Empresarial Server 2015](create-the-initial-design.md)
 

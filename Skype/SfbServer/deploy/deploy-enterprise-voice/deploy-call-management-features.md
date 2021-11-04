@@ -1,7 +1,7 @@
 ---
 title: Implementar características de administración de llamadas en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Implementar características de administración de llamadas en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 3d577e1ea74ef3d8a6152a457d82506927a19763
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c2ec7aa07d85bc2765dde5d497ba75e6a2932f81
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610137"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751329"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>Implementar características de administración de llamadas en Skype Empresarial
  

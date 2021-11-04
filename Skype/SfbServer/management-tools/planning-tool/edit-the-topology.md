@@ -1,7 +1,7 @@
 ---
 title: Editar la topología en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Después de completar las preguntas de entrevista iniciales, puede editar el nombre de dominio completo (FQDN) y las direcciones IP del sitio. Para ello, en la página Topología global, haga clic con el botón secundario en el sitio que desea editar.
-ms.openlocfilehash: 75eadc6234c9ac6e4e8a869df2da4d246b60f9ed
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2276f2959329c77744054976e3a49f5ad72778ae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732329"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776170"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Editar la topología en Skype Empresarial Server 2015
 
@@ -81,7 +81,7 @@ Después de completar todas las ediciones, guarde la topología completando los 
 
 Para guardar el diseño de la herramienta de planeación, haga clic **en** Archivo y, a continuación, haga clic en Guardar topología **o** Guardar topología **como**. Si aparece el cuadro de diálogo **Guardar herramienta de planeación como**, escriba el nombre del archivo en **Nombre de archivo** y haga clic en **Guardar**.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="Edit_Network_diagram"> </a>
 
 [Edición del diseño](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)

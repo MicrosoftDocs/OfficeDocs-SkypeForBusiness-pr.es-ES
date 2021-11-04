@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración general del servidor de supervisión
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'En el Generador de topologías, puede editar las propiedades de un servidor de supervisión individual haciendo clic con el botón secundario en el servidor de supervisión del árbol de consola y, a continuación, haciendo clic en Acción en la barra de herramientas, o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en Editar propiedades y cambiando cualquiera de las siguientes opciones:'
-ms.openlocfilehash: 0b3aec1737d4b36a05ca8f0c01f41cce686f386f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f4238d253207e2dca28154bc50fc7d806e53c57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618066"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750719"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expansor de configuración general del servidor de supervisión
  

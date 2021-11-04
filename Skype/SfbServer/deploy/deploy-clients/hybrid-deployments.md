@@ -1,6 +1,6 @@
 ---
 title: Skype Implementaciones híbridas del sistema de sala
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Lea este tema para obtener información sobre cómo implementar Skype room system en un entorno híbrido.
-ms.openlocfilehash: b5a512871a60a502d1e2f5e981593291149d3361
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c47809fcf5277ed34f11955b19306e6a4078d650
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598194"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751359"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype Implementaciones híbridas del sistema de sala
 
@@ -60,6 +60,6 @@ Para fines ilustrativos, usamos LyncSample.com para el dominio local y LyncSampl
    ```
 
 > [!NOTE]
-> Si tiene Skype Empresarial Online en lugar de Skype Empresarial Server en el escenario anterior, después de aprovisionar el buzón de recursos de Exchange, aprovisione una cuenta Skype Empresarial como se describe en Skype Empresarial Online Provisioning. 
+> Si ha Skype Empresarial Online en lugar de Skype Empresarial Server en el escenario anterior, después de aprovisionar el buzón de recursos de Exchange, aprovisione una cuenta Skype Empresarial como se describe en Skype Empresarial Online Aprovisionamiento. 
   
 

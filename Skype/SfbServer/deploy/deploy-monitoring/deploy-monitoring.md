@@ -1,7 +1,7 @@
 ---
 title: Implementar la supervisión en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Resumen: obtenga información sobre cómo implementar la supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: c05cddb344f97b066d8d6ea0121cb5942c59d131
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cbb5fe0974e1b02ce5be472ba91d01221fb7df82
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604219"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764848"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Implementar la supervisión en Skype Empresarial Server
 

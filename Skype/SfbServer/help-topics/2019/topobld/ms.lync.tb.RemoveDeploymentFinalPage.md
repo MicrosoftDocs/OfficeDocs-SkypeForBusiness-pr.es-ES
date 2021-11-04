@@ -1,7 +1,7 @@
 ---
 title: Eliminar implementación
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 068b518d-a982-4668-862b-b36fb74f04ec
 ROBOTS: NOINDEX, NOFOLLOW
 description: Haga clic en Finalizar para crear una topología vacía como primer paso para retirar toda la implementación.
-ms.openlocfilehash: 5190c7e2f2e69752eba5e080291c80751dd61f17
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5c961a28a5999b98bf3776b5342cea7ccc406cad
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634624"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776700"
 ---
 # <a name="remove-deployment"></a>Eliminar implementación
  

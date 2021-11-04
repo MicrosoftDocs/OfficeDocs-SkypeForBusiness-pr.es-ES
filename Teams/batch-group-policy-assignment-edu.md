@@ -1,6 +1,6 @@
 ---
 title: Asignar directivas a grandes conjuntos de usuarios de la escuela
-author: cichur
+author: serdars
 ms.author: serdars
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo asignar directivas a grandes conjuntos de usuarios de su institución educativa en función de la pertenencia a grupos o directamente a través de una asignación por lotes para fines educativos remotos (teleescuelas, teleescuelas).
 f1keywords: ''
-ms.openlocfilehash: 839a66cbaad393f21053ee385017f6a870c60d83
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 3cd0bfd791d2416de31d998c693002cce87f6fcd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605186"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745706"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Asignar directivas a grandes conjuntos de usuarios de la escuela
 

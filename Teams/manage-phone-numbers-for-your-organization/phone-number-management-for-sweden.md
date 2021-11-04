@@ -1,7 +1,7 @@
 ---
 title: Teléfono de números para Suecia
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Suecia para Microsoft Teams.
-ms.openlocfilehash: e9bdf7dd2eeb07acf77e0dce0363f6c6e11127a4
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 3cb5152fea4897e4970775b17bb3b4a41959b37b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733351"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775970"
 ---
 # <a name="phone-number-management-for-sweden"></a>Teléfono de números para Suecia
 

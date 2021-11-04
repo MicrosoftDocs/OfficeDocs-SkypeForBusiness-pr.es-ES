@@ -1,7 +1,7 @@
 ---
 title: Detalles del equipo de vista de topología
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 482d8d7b-d674-46b5-b8b7-19bc0f20e9b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 2dfaf5437120d8fa8093ae4ed0b4727ac96cce0d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7a04ce91356d0ffbf60027af22af27864a19b3f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622792"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750979"
 ---
 # <a name="topology-view-computer-detail"></a>Topología: Ver detalle del equipo
 

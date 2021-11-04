@@ -1,7 +1,7 @@
 ---
 title: Consultas de base de datos de QoE de ejemplo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: Esta sección contiene ejemplos de consultas de la base de datos QoE (Calidad de la experiencia).
-ms.openlocfilehash: 9caa43ca38a089422670e256f77aa7d186ddbbf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4e8abfb4cbc66b5976db92b2023fff957147d6bc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633464"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776100"
 ---
 # <a name="sample-qoe-database-queries"></a>Consultas de base de datos de QoE de ejemplo
  

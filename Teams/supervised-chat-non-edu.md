@@ -1,7 +1,7 @@
 ---
 title: Usar chats supervisados para inquilinos no educativos
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre los chats supervisados para inquilinos no educativos en Microsoft Teams reuniones.
-ms.openlocfilehash: f7e0ad99f50e8d0089aa6edf122458f429792aba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d56a41e3c168aea1d5454fb38ae2aac0c033fe64
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586502"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745486"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Chats supervisados para inquilinos no educativos
 

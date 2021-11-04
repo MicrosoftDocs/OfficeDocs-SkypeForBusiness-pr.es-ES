@@ -1,7 +1,7 @@
 ---
 title: Experiencia del usuario durante el error del grupo en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: Obtenga información sobre la experiencia de los usuarios cuando un grupo de servidores front-end conmuta por error o vuelve a fallar durante la recuperación ante desastres en Skype Empresarial Server.
-ms.openlocfilehash: b207fd34bc5eaaf2e02addc8040dc262709b2853
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 568f0bce49379e10da8e64ca1eb4507b9319d250
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609237"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744166"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Experiencia del usuario durante el error del grupo en Skype Empresarial Server
  

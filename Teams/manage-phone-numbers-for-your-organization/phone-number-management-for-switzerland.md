@@ -1,7 +1,7 @@
 ---
 title: Teléfono de números para Suiza
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Suiza para Microsoft Teams.
-ms.openlocfilehash: 4fdab301299e39f82fb545f5b2e3d228f7d140b9
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 8730acfa92a42f349296b756d8783d2240d6b533
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732931"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775960"
 ---
 # <a name="phone-number-management-for-switzerland"></a>Teléfono de números para Suiza
 

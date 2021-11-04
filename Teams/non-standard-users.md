@@ -1,7 +1,7 @@
 ---
 title: Teams de aplicaciones para usuarios no estándar
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882fda0be339c8f9869c5b83fbeff3e97d5892ee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ad7f7c5f92a5bbde4e8a01d8616305bbf06f980
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619406"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745546"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams de aplicaciones para usuarios no estándar
 

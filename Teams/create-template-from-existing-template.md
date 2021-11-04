@@ -1,7 +1,7 @@
 ---
 title: Crear una plantilla nueva a partir de una plantilla de equipo existente en Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56af8756282a4d2cc40ebf33a620855785c67306
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 095596684c52615340efa32e7dcfd78eb3e9e823
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588222"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745596"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>Crear una nueva plantilla de equipo a partir de una plantilla de equipo existente en Microsoft Teams
 

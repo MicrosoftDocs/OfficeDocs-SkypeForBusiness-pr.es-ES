@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito MCU AV
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo Grupos de servidores de conferencia A/V contiene los grupos de servidores de conferencia A/V de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: ede42d0a3cef45f3dbb4d3265a2c24805e5fb921
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e9bdbaaf5e000f761ee67ffed1f4764c5c293b2a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601705"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750729"
 ---
 # <a name="av-mcus-scope-node"></a>Nodo de ámbito MCU AV
  

@@ -1,7 +1,7 @@
 ---
 title: Configurar complementos para salas de chat persistente en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Summary: Learn how to configure add-ins for Persistent Chat Server chat rooms in Skype Empresarial Server 2015.'
-ms.openlocfilehash: ab2ccbe3c9f23a7397ecdf7510da63bbd84b9d95
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 183ac4cbbdcdddfea65b3a6acab44ef4c81fe662
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013394"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745956"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurar complementos para salas de chat persistente en Skype Empresarial Server 2015
  

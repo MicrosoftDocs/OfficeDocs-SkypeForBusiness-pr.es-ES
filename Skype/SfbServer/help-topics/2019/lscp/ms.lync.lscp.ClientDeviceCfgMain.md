@@ -1,7 +1,7 @@
 ---
 title: Configuración de registro de dispositivo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: El servicio Device Update Web crea automáticamente archivos de registro que registran la actividad de actualización de dispositivos. Como parte de la estrategia de administración de datos de la organización, es posible que desee establecer umbrales en el tamaño de la memoria caché de datos de registro, el tamaño del archivo de registro o el tiempo que se conserva un archivo de registro antes de que se purgue. Puede cambiar esta configuración según los requisitos de su organización. Si no desea que el servicio Device Update Web purgue los archivos de registro de forma automática, puede purgarlos manualmente según sea necesario. La configuración de registros se puede cambiar de forma global o por sitio.
-ms.openlocfilehash: 553de81699f3fba068b40e8774a67c04db29238a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 655c8451ac40cd31787282ab0b804d4309aa34a8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585546"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764698"
 ---
 # <a name="device-log-configuration"></a>Configuración de registro de dispositivo
 
@@ -48,7 +48,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
   - Global
 
-  - Sitio
+  - Site
 
 - **Editar** Puedes cambiar las opciones de una configuración de registro de dispositivos en la lista. Al usar esta opción, puede hacer lo siguiente:
 

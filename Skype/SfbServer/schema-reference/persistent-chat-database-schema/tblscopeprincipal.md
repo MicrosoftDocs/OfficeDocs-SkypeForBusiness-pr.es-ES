@@ -1,7 +1,7 @@
 ---
 title: tblScopePrincipal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
 description: La tabla tblScopePrincipal contiene ámbitos asignados a nodos.
-ms.openlocfilehash: 2848d3dd6c0dcc99933dba9dda1bc712e9ad0564
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f2bcb7734badde8f734c30f074ba6dda82cc7eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613850"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745716"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  

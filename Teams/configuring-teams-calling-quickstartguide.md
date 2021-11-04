@@ -1,7 +1,7 @@
 ---
 title: 'Guía de inicio rápido: Configurar planes de llamadas'
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a222dd7734fd8df3885b0601a5e511d1936922a3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: aeb9fae94d186e841cdacbd05879ab2891b9ba2a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726419"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745696"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 
@@ -51,7 +51,7 @@ Además, para Teams usuarios, debe asegurarse de que "Permitir llamadas privadas
 > También puede usar enrutamiento directo para permitir que los usuarios realicen y reciban llamadas RTC. Para obtener información sobre cómo configurar enrutamiento directo, lea [Configurar enrutamiento directo.](./direct-routing-configure.md)
 
 ## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Usar TeamsUpgradePolicy para controlar la tierra de las llamadas
-Para controlar si las llamadas entrantes (y los chats) se desplome en [](https://aka.ms/teamsadmincenter) Teams o Skype Empresarial, los administradores usan TeamsUpgradePolicy, ya sea con un centro de administración Microsoft Teams o con una sesión de Windows PowerShell remota con los cmdlets [Skype Empresarial.](/powershell/module/skype)
+Para controlar si las llamadas entrantes (y los chats) se desplome en [](https://aka.ms/teamsadmincenter) Teams o Skype Empresarial, los administradores usan TeamsUpgradePolicy, ya sea con un centro de administración Microsoft Teams o con una sesión de Windows PowerShell remota con el [Skype Empresarial](/powershell/module/skype) cmdlets.
 
 
 La configuración predeterminada de TeamsUpgradePolicy es el modo Islas, que está diseñado para asegurarse de que los flujos de trabajo empresariales existentes no se interrumpen durante una Teams implementación. De forma predeterminada, voIP, RTC y llamadas federadas a los usuarios seguirán enrutadas a Skype Empresarial hasta que actualice la directiva para habilitar las llamadas entrantes Teams.  Cuando los destinatarios están en modo islas:

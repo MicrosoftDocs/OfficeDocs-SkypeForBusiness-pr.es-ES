@@ -1,7 +1,7 @@
 ---
 title: Crear una nueva directiva de PIN en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: 'Resumen: cree una nueva directiva de PIN en Skype Empresarial Server.'
-ms.openlocfilehash: 2b777cbf3f130222cda40811e0bb310cf895c79e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24d131792fdc7ae90a8799f231dd94a3e854c576
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583954"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751789"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Crear una nueva directiva de PIN en Skype Empresarial Server
  

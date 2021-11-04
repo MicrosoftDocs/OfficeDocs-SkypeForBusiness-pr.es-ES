@@ -1,7 +1,7 @@
 ---
 title: Implementar Skype conectividad en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Summary: Learn how to connect Skype Empresarial Server with Skype consumer. También se conoce como Skype conectividad.'
-ms.openlocfilehash: c63e476cc413bbf0a676c7b28d02519bbc6f223d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 003e9a69dc4213b662795b0570afb3ca152d7e00
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013194"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751309"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implementar Skype conectividad en Skype Empresarial Server
 
@@ -231,7 +231,7 @@ En la tabla siguiente se describe el estado de interoperabilidad entre la últim
    
 En la tabla siguiente se describe el estado de interoperabilidad entre la última versión de Skype Empresarial y la versión más reciente de Skype consumidor. 
   
-|Cliente|Skype Búsqueda de directorios y agregar contactos|Skype A/V, interoperabilidad de mensajería instantánea|
+|Client|Skype Búsqueda de directorios y agregar contactos|Skype A/V, interoperabilidad de mensajería instantánea|
 |:-----|:-----|:-----|
 |Skype for Business   |Sí   |Sí   |
 |Skype Empresarial en Mac   |Puede agregar (sin búsqueda)   |Sí   |

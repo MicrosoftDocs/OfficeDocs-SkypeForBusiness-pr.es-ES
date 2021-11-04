@@ -1,7 +1,7 @@
 ---
 title: Implementar SRS v1 Administrative Web Portal en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: El portal web administrativo de Skype Empresarial Server Skype Room Systems v1 (SRS v1, anteriormente conocido como Lync Room System) es un portal web que las organizaciones pueden usar para mantener sus salas de conferencias Skype Room Systems. Los administradores pueden usar el Portal web administrativo de SRS v1 para supervisar el estado del dispositivo, por ejemplo, supervisando dispositivos de audio y vídeo. Con este portal, los administradores pueden recopilar de forma remota información de diagnóstico para supervisar el estado de la sala de conferencias.
-ms.openlocfilehash: 0b52657d33b4da97266a635b53459ed21fd4a944
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: aa59b142ee7147772af3c13a7e9bf4dffbbc520c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729119"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751349"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Implementar SRS v1 Administrative Web Portal en Skype Empresarial Server
 
@@ -172,7 +172,7 @@ La página de resumen proporciona la siguiente información para todas las salas
 
 La sección Información de la sala del portal le permite ver y configurar salas SRS individuales. Contiene cuatro secciones: Configuración, Detalles, Registro y Estado.
 
-#### <a name="settings"></a>Configuración
+#### <a name="settings"></a>Configuraciones
 
 En la Configuración, puede establecer la contraseña, la etiqueta de sala y los niveles de volumen predeterminados para la sala. Si configura estas opciones, los cambios solo se replicarán después de reiniciar la consola srs. Solo verás la configuración de actualizaciones del sistema para dispositivos SRS con la versión 15.12 y versiones posteriores.
 
@@ -188,7 +188,7 @@ La sección Detalles proporciona un resumen de solo lectura de la configuración
 
 La sección Solución de problemas se puede usar para recopilar registros de forma remota y guardarlos en una ubicación especificada. También puede reiniciar la consola SRS (interfaz de usuario de SRS) o reiniciar todo el sistema. Para recopilar registros, proporcione una ruta de acceso de carpeta en el formato especificado y asegúrese de que la carpeta tiene permisos de escritura concedidos a la cuenta del equipo SRS. Si el tamaño del registro es demasiado grande, puede tardar hasta 5 minutos en finalizar la recopilación de registros. Actualizar la página le dará el estado más reciente.
 
-#### <a name="health"></a>Salud
+#### <a name="health"></a>Mantenimiento
 
 La sección Estado proporciona una indicación visual del estado de la conexión Skype Empresarial Server, dispositivo de audio, dispositivo de vídeo, estado de resistencia y dispositivo de pantalla.
 
@@ -209,7 +209,7 @@ No hay ningún límite en el número de salas SRS que puede seleccionar para la 
 
 Para realizar una operación de administración masiva, seleccione las salas que desea supervisar y haga clic en el menú Administración masiva.
 
-### <a name="frequently-asked-questions"></a>Preguntas frecuentes.
+### <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>¿Por qué no puedo iniciar sesión en el portal web administrativo?
 

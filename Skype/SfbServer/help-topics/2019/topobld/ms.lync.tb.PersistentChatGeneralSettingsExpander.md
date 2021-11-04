@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración general del chat persistente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar la configuración general del servidor de chat persistente o el grupo de servidores de chat persistente, configure o defina estas propiedades:'
-ms.openlocfilehash: 907a534aee6a3d55cca899d3ade036c6dbe8bba3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bf79fac6f47b0db90aa8beb0ac6fe191cdd5cb95
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591624"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776726"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expansor de configuración general del chat persistente
 

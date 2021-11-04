@@ -1,7 +1,7 @@
 ---
 title: Habilitar o deshabilitar conferencias de acceso telefónico local en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 'Summary: Learn how to use Control Panel or Management Shell to enable or disable dial-in conferencing in Skype Empresarial Server.'
-ms.openlocfilehash: ebdc13d94a840b3eaceb37332a6775e5d725bb9a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 45a47d411570d20273c9a3a9ace3536641157fde
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609287"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766578"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Habilitar o deshabilitar conferencias de acceso telefónico local en Skype Empresarial Server
  

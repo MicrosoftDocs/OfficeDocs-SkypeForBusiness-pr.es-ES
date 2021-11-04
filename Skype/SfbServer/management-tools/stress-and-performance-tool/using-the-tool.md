@@ -1,7 +1,7 @@
 ---
 title: Uso de la Skype Empresarial Server de esfuerzo y rendimiento de 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/13/2018
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Para ejecutar la herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015, deberá poder administrar usuarios, contactos y perfiles de usuario, configurar la herramienta para su ejecución y, a continuación, revisar los resultados o resultados que produce la herramienta.
-ms.openlocfilehash: 6db23c259aa19e8ec9e590218ff233461c677aa0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d54374e81319a6a95ec61fbb2ab5885e2ec368ca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586882"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751589"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Uso de la Skype Empresarial Server de esfuerzo y rendimiento de 2015
  
