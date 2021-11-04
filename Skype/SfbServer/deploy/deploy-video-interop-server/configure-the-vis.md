@@ -1,7 +1,7 @@
 ---
 title: Configurar el servidor de interoperabilidad de vídeo en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Resumen: configure el rol servidor de interoperabilidad de vídeo (VIS) en Skype Empresarial Server.'
-ms.openlocfilehash: cebfb35f740a0060a22bd125ccc2448c0092e87c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61ab8f8b5c6538491de63696d9445672ce9211cf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595984"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741306"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar el servidor de interoperabilidad de vídeo en Skype Empresarial Server
  

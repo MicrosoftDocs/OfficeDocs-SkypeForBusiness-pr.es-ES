@@ -1,6 +1,6 @@
 ---
 title: Windows cliente y compatibilidad con software
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Summary: Review the Windows client support requirements while planning Skype Empresarial Server.'
-ms.openlocfilehash: 755f60030c905bfb5a5f488e2573c12b3396ab1e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 143fdf0e03f6ea125e7b1cbfb3aa0e7a6a93788b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627952"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770218"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows cliente y compatibilidad con software
  

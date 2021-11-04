@@ -1,7 +1,7 @@
 ---
 title: Tabla conferencias en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Cada registro de esta tabla contiene detalles de llamadas sobre una conferencia.
-ms.openlocfilehash: dfc1c12908e60c7a5b205c154e30175168871ceb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 22d394ca447852a32d8028770d7ceefea7adbcf1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635214"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763418"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Tabla conferencias en Skype Empresarial Server 2015
  
@@ -34,7 +34,7 @@ Cada registro de esta tabla contiene detalles de llamadas sobre una conferencia.
 |**ConferenceEndTime** <br/> |datetime  <br/> | <br/> |Hora de inicio de la conferencia.  <br/> |
 |**PoolId** <br/> |Entero  <br/> |Externo  <br/> |Número de identificador para identificar el grupo en el que se capturó la conferencia. Vea la [tabla Grupos de servidores](pools.md) para obtener más información. <br/> |
 |**OrganizerId** <br/> |Int  <br/> |Externo  <br/> |Número de identificador para identificar el URI del organizador de esta conferencia. Consulta la [tabla Usuarios](users.md) para obtener más información. <br/> |
-|**Flag** <br/> |smallint  <br/> || Máscara de bits que contiene atributos de conferencia. Los valores posibles son: <br/>  0X01 <br/>  Synthetic <br/>  Transacción <br/> |
+|**Flag** <br/> |smallint  <br/> || Máscara de bits que contiene atributos de conferencia. Los posibles valores son: <br/>  0X01 <br/>  Synthetic <br/>  Transacción <br/> |
 |**Procesado** <br/> |bit  <br/> ||Campo interno usado por el servicio de supervisión.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> ||Para uso interno del servicio de supervisión.  <br/> Este campo se introdujo en Skype Empresarial Server 2015.  <br/> |
    

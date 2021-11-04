@@ -1,7 +1,7 @@
 ---
 title: Configurar la omisión de medios de configuración global Skype Empresarial Server para usar información de sitio y región
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Configure la omisión de medios para que se utilice solo para determinados sitios y regiones de Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: d90393c19dffaac425025379258a0ceae24da9cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d1c10ce06421635783a50bf97286c8d752f478b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588992"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741356"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurar la omisión de medios de configuración global Skype Empresarial Server para usar información de sitio y región
  

@@ -1,7 +1,7 @@
 ---
 title: Administrar ubicaciones para puertas de enlace ELIN en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Decisiones necesarias para planear una base de datos de información de ubicación, o una base de datos externa similar, para una implementación de E9-1-1 mediante puertas de enlace ELIN, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: bb0656909866a793bc8d64635b17785020dd646d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f8440e4e125773e91850b890bb2a02c7d1312fde
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596514"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756527"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Administrar ubicaciones para puertas de enlace ELIN en Skype Empresarial Server
 
@@ -62,11 +62,11 @@ Después de decidir cómo va a dividir el espacio del edificio en ubicaciones, d
 
 **Ubicación y asignaciones ELIN de ejemplo**
 
-|**Área del edificio**|**Ubicación**|**ELIN**|
+|**Área del edificio**|**Location**|**ELIN**|
 |:-----|:-----|:-----|
 |Primera planta  <br/> |1  <br/> |425-555-0100  <br/> |
 |Segunda planta  <br/> |2  <br/> |425-555-0111  <br/> |
-|Tercera planta  <br/> |3   <br/> |425-555-0123  <br/> |
+|Tercera planta  <br/> |3  <br/> |425-555-0123  <br/> |
 
 Las ubicaciones que defina deben:
 

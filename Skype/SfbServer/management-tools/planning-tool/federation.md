@@ -1,7 +1,7 @@
 ---
 title: Herramienta de planeación de federación
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: Puede configurar los servidores perimetrales para permitir que los usuarios internos y externos puedan acceder a los contactos en organizaciones o servicios asociados.
-ms.openlocfilehash: b216357f19903af19fd633b9fc3484eabd7c71d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc41d892dd37f618c4b296a1262841fa92383dec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601405"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756931"
 ---
 # <a name="federation-planning-tool"></a>Herramienta de planeación de federación
  

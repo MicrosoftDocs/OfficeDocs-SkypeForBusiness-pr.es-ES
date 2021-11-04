@@ -1,7 +1,7 @@
 ---
 title: Solicitud de certificado (entidad de certificación)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 description: 'Al realizar una solicitud de certificado a una entidad de certificación en línea (CA) (normalmente, se trata de servidores que están en la red interna) en la página Elegir una entidad de certificación (CA), se le presentan dos opciones:'
-ms.openlocfilehash: f5dd0c39c9e97edad8c4a9a3cbe850894c288ea5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 226a653c08a176e64b0b908d0276549e62c00273
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614514"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741036"
 ---
 # <a name="certificate-request-certificate-authority"></a>Solicitud de certificado (entidad de certificación)
  

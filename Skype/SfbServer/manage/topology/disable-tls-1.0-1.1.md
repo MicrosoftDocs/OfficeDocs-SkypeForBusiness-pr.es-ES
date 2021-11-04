@@ -1,7 +1,7 @@
 ---
 title: Deshabilitar TLS 1.0/1.1 en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Preparar e implementar la deshabilitación de TLS 1.0 y 1.1 en los entornos.
-ms.openlocfilehash: 93ebf65101cd3e8ddc36a3a17e945035ad770d49
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 86df7a322642682748c0ec31b3f07b6572b5b7d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731469"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757153"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Deshabilitar TLS 1.0/1.1 en Skype Empresarial Server 2015
 
@@ -119,7 +119,7 @@ PIC (conectividad de mensajería instantánea pública) para Skype servicio de c
 
 Excepto donde se indica anteriormente, una vez que TLS 1.0 y 1.1 están deshabilitados servidores fuera del ámbito, los clientes y dispositivos funcionarán más tiempo correctamente o en absoluto. Esto puede significar que debes pausar y esperar a que Microsoft te actualice las instrucciones. Una vez que esté satisfecho de que cumple todos los requisitos y tiene un plan para solucionar las diferencias, continúe.
 
-En un nivel alto, mientras Skype Empresarial Server 2019 está listo para el procedimiento en la instalación, Skype Empresarial Server 2015 requerirá instalar CU9, aplicar actualizaciones previas a .NET y SQL, implementar claves de registro de requisitos previos y, por último, una ronda independiente de actualizaciones de configuración del sistema operativo (es decir, deshabilitar TLS 1.0 y 1.1 mediante la importación de archivos del Registro). Es fundamental que complete la instalación de todos los requisitos previos, incluido Skype Empresarial Server 2015 CU6 HF2, antes de deshabilitar TLS 1.0 y 1.1 en cualquier servidor del entorno. Todos Skype Empresarial servidor, incluidos los roles perimetrales y SQL back-end, requieren las actualizaciones. Asegúrese también de que todos los clientes compatibles (en el ámbito) se hayan actualizado a las versiones mínimas necesarias. No olvide actualizar las estaciones de trabajo de administración también.
+En un nivel alto, mientras Skype Empresarial Server 2019 está listo para el procedimiento en la instalación, Skype Empresarial Server 2015 requerirá instalar CU9, aplicar actualizaciones previas a .NET y SQL, implementar claves de registro de requisitos previos y, por último, una ronda independiente de actualizaciones de configuración del sistema operativo (es decir, deshabilitar TLS 1.0 y 1.1 a través del archivo del Registro)  import). Es fundamental que complete la instalación de todos los requisitos previos, incluido Skype Empresarial Server 2015 CU6 HF2, antes de deshabilitar TLS 1.0 y 1.1 en cualquier servidor del entorno. Todos Skype Empresarial servidor, incluidos los roles perimetrales y SQL back-end, requieren las actualizaciones. Asegúrese también de que todos los clientes compatibles (en el ámbito) se hayan actualizado a las versiones mínimas necesarias. No olvide actualizar las estaciones de trabajo de administración también.
 
 Queremos seguir el orden habitual de las operaciones de "inside out" para actualizar Skype Empresarial servidores. Trate grupos de directores, chat persistente y grupos emparejados de la misma manera que lo haría normalmente. El orden y los métodos de actualización se tratan [aquí](topology.md) [y aquí](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
 

@@ -1,7 +1,7 @@
 ---
 title: Agregar almacén SQL
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 description: Para definir un nuevo almacén de SQL, lo que significa que está especificando una base de datos basada en SQL Server y una instancia de SQL Server, ya sea una instancia predeterminada o una instancia con nombre, especifique lo siguiente.
-ms.openlocfilehash: 1a33e6ad6222414f96fe613e81f3f36926726dff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e72569385a4cabf02cdaf1ddd71fd56ecc34909
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588682"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770498"
 ---
 # <a name="add-sql-store"></a>Agregar almacén SQL
 

@@ -1,7 +1,7 @@
 ---
 title: Herramienta de movimiento panorámico de alta disponibilidad
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: El esquema de alta disponibilidad principal para la mayoría de los roles de servidor en Skype Empresarial Server 2015 se basa en la redundancia del servidor mediante agrupación. Si se produce un error en un servidor que ejecuta un rol de servidor determinado, los demás servidores del grupo que ejecutan el mismo rol toman la carga de ese servidor.
-ms.openlocfilehash: e39a49b5cef508b5858c564636b575c20f48ac75
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e8fbc679d4711ae41306a60d6a9c40114fab5f29
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630454"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756921"
 ---
 # <a name="high-availability-planning-tool"></a>Herramienta de planeación de alta disponibilidad
  

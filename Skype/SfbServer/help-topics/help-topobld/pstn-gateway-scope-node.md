@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito de puerta de enlace de RTC
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 description: 'Este nodo muestra el nombre de dominio completo (FQDN), el servidor de mediación asociado e información básica relativa a esta puerta de enlace de RTC. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 88d4aecd950c7f8e4d6caa79fd307b2ef333115e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27fbbb3f19bbb49c3e8c273b8252d3e77a88a280
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623782"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770368"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nodo de ámbito de puerta de enlace de RTC
  

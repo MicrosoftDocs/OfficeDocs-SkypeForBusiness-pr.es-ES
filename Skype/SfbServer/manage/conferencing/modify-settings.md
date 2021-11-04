@@ -1,7 +1,7 @@
 ---
 title: Modificar las opciones de configuración de reunión en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 'Summary: Learn how to modify meeting configuration settings in Skype Empresarial Server.'
-ms.openlocfilehash: c3da96738e4902be94ed1efc3b5037b105c0771f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cf04c8c9d503f60b81d8016a2942bb62005f81f3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587076"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770278"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modificar las opciones de configuración de reunión en Skype Empresarial Server
  

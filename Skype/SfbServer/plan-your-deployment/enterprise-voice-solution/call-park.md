@@ -1,7 +1,7 @@
 ---
 title: Planear el estacionamiento de llamadas en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planear el estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial, lo que permite poner las llamadas en espera y transferir llamadas a departamentos. Incluye la planeación de capacidad, las llamadas admitidas y los clientes compatibles.
-ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cba225d966f835e59f75c359cee49ab183d21eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625182"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770188"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planear el estacionamiento de llamadas en Skype Empresarial
  
@@ -56,7 +56,7 @@ La aplicación estacionamiento de llamadas se instala automáticamente al implem
   
 ### <a name="software-requirements"></a>Requisitos de software
 
-Todos los servidores front-end y los servidores de Standard Edition donde se implementa el estacionamiento de llamadas deben tener el tiempo de ejecución de formato multimedia de Windows instalado para servidores que ejecuten Windows Server 2008 R2 o Microsoft Media Foundation para servidores que ejecuten Windows Server 2012 o Windows Server 2012 R2. Para Windows Server 2008 R2, Windows Media Format Runtime se instala como parte de Windows experiencia de escritorio. Windows Media Format Runtime o Microsoft Media Foundation es necesario Windows archivos de audio multimedia (.wma) que el estacionamiento de llamadas reproduce para la música en espera.
+Todos los servidores front-end y los servidores de Standard Edition donde se implementa el estacionamiento de llamadas deben tener instalado el tiempo de ejecución de formato multimedia de Windows para servidores que ejecuten Windows Server 2008 R2 o Microsoft Media Foundation para servidores que ejecuten Windows Server 2012 o Windows Server 2012 R2 . Para Windows Server 2008 R2, Windows Media Format Runtime se instala como parte de Windows experiencia de escritorio. Windows Media Format Runtime o Microsoft Media Foundation es necesario Windows archivos de audio multimedia (.wma) que el estacionamiento de llamadas reproduce para la música en espera.
   
 ### <a name="port-requirements"></a>Requisitos de puerto
 

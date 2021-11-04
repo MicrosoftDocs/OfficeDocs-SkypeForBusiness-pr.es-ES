@@ -1,7 +1,7 @@
 ---
 title: Planee la topología de conferencia para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Summary: Read this topic to learn about planning your conferencing topology in Skype Empresarial Server.'
-ms.openlocfilehash: 09d793a75ab72ef96d3ded85156c99a7590e087d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a4d458bf7bea512e773a09551e2fa0c72a982592
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732639"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737716"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planee la topología de conferencia para Skype Empresarial Server
  

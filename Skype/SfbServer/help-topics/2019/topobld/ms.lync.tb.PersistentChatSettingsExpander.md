@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración del chat persistente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 12da11ea-3aca-4ef1-8367-f3f8a959f033
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e8fb972bebbc5ff86e3450f86f26db848e763d42
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9108ca37e40f7629b07ef68b863db0e8054fdb4c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633234"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741066"
 ---
 # <a name="persistent-chat-settings-expander"></a>Expansor de configuración del chat persistente
 

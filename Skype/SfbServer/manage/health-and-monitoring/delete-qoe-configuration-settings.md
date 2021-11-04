@@ -1,7 +1,7 @@
 ---
 title: Eliminar las opciones de configuración de calidad de la experiencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: 'Summary: Learn how to delete Quality of Experience (QoE) settings in Skype Empresarial Server.'
-ms.openlocfilehash: e82e844fb217f8c2e71ecb21a6d70e26c4b90ade
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 036944af245b608ccae9836670133f99f8004068
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014504"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763668"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Eliminar las opciones de configuración de calidad de la experiencia en Skype Empresarial Server
  
@@ -73,6 +73,6 @@ Puede eliminar las opciones de configuración de QoE mediante Windows PowerShell
 
 Para obtener más información, [vea Remove-CsQoEConfiguration](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Purgar manualmente el registro detallado de llamadas y las bases de datos de calidad de la experiencia en Skype Empresarial Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)

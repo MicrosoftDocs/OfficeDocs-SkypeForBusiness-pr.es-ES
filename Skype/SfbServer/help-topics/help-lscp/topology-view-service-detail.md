@@ -1,7 +1,7 @@
 ---
 title: Detalles del servicio de vista de topología
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 8ab0148fd30cdd6e956d610f915672db56d431ff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f7693435d418f07652dd57b3445730a2810c1edb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578984"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740746"
 ---
 # <a name="topology-view-service-detail"></a>Topología: Ver detalle del servicio
 

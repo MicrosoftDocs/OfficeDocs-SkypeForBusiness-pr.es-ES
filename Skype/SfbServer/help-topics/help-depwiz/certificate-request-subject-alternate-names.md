@@ -1,7 +1,7 @@
 ---
 title: Solicitud de certificado (nombres alternativos de sujeto)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 description: La página Nombre del sujeto o nombres alternativos del sujeto presentan un resumen del nombre del sujeto y de los nombres alternativos del sujeto que constarán en el certificado. Los nombres que se presentan para el nombre de sujeto y los nombres alternativos de sujeto se recopilan en el documento de definición, tal como se creó al definir la implementación en el Generador de topologías.
-ms.openlocfilehash: de0ebd21def75b3b90af1fa406b94b9542767127
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 33e9281931d05fb4a13ad75a66ed7f2ed7b9fe65
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612629"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748346"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>Solicitud de certificados (nombres alternativos de sujeto)
  

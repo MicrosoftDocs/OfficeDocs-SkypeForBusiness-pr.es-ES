@@ -1,7 +1,7 @@
 ---
 title: Tabla multimedia
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: Cada registro representa un tipo de medios utilizado en una sesión punto a punto. Una sesión estará representada por diferentes registros en la tabla, si se utilizan varios tipos de medios.
-ms.openlocfilehash: 98c849c4ecde8e1c3be40d0aab3af606a400fb0e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a32a61d5ba7c3aa7d3a77008af373a5ea45daeda
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629432"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756473"
 ---
 # <a name="media-table"></a>Tabla multimedia
  

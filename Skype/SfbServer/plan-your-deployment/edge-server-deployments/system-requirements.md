@@ -1,7 +1,7 @@
 ---
 title: Requisitos del sistema del servidor perimetral en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumen: obtenga información sobre los requisitos del sistema para el servidor perimetral en Skype Empresarial Server.'
-ms.openlocfilehash: bc8a6666f46d093c9f3d2da41f2663c79e94ddf3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 573c9c71493c4bed59ce6fbde4dafa95848b469f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622162"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763498"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos del sistema del servidor perimetral en Skype Empresarial Server
  

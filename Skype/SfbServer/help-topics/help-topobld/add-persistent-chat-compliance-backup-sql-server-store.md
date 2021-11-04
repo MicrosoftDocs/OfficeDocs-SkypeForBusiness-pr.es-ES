@@ -1,7 +1,7 @@
 ---
 title: Agregar almacén de SQL Server de copia de seguridad de cumplimiento del chat persistente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: Configure los almacenes de cumplimiento de SQL Server de copia de seguridad que proporcionarán bases de datos de copia de seguridad para el servidor de chat persistente o el servidor de chat persistente SQL Server almacenes.
-ms.openlocfilehash: b15cfb3ed23147bb6a6c9e2ea816350343cadf72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8d70a8f82c58d0a66fef00695b3677305e5e6a9e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615776"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747866"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Agregar almacén de instancia de copia de seguridad de SQL Server del chat persistente
  

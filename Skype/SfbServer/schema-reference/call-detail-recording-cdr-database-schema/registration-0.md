@@ -1,7 +1,7 @@
 ---
 title: Vista Registro
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: La vista de registro almacena información sobre el registro de usuarios. Esta vista se introdujo en Lync Server 2013.
-ms.openlocfilehash: d754c4027c6440aa8f53a9dac78f1ce1b00c9488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4714a4cb0f24a359157ede44b5ab2271a2ff1c7a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611889"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763308"
 ---
 # <a name="registration-view"></a>Vista Registro
  

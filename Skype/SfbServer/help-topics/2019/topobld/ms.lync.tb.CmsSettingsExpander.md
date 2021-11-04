@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración de CMS
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: El servidor de administración central se puede cambiar de un grupo de servidores front-end definido a otro. Para cambiar la ubicación del servidor de administración central, en la lista desplegable debajo de Servidor front-end en el que instalar el servidor de administración central, seleccione el grupo de servidores front-end. Un servidor front-end puede ser un grupo de servidores front-end de Enterprise Edition o un servidor front-end de Standard Edition.
-ms.openlocfilehash: da0392b6b591e2602300aed38badc321fceae2dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 171fa12dd073cd1ca2b2bbb92c103263ea2a6a0c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614564"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757722"
 ---
 # <a name="cms-settings-expander"></a>Expansor de configuración de CMS
  

@@ -1,7 +1,7 @@
 ---
 title: Seleccionar prefijo de hipervínculo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Use el cuadro de diálogo Seleccionar prefijo de hipervínculo para seleccionar los tipos de hipervínculos que desee bloquear, enviar un mensaje de advertencia, o permitir seleccionando (bloquear o enviar un mensaje de advertencia) o desactivando (permitir) las casillas desde las categorías dentro de Prefijos de hipervínculo. Haga clic en la flecha para expandir una categoría y ver todos los prefijos de hipervínculo para esa categoría. Si desea seleccionar todos los prefijos de hipervínculo para una categoría, seleccione el nombre de la categoría.
-ms.openlocfilehash: 1cdbaad047fbac4f18509ec035bd2ffb2f1d15fd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3cb7fec0387ed36a40c050fc7858fbf87e42168f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619066"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748126"
 ---
 # <a name="select-hyperlink-prefix"></a>Seleccionar prefijo de hipervínculo
  

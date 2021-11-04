@@ -1,7 +1,7 @@
 ---
 title: 'Skype Empresarial Server: crear una nueva colección de opciones de configuración de tronco'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Las opciones de configuración del tronco SIP definen la relación entre un servidor de mediación y la puerta de enlace de red telefónica conmutada (RTC), una central de conmutación IP (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios.
-ms.openlocfilehash: a2117858b34bc6c90c30444b3ab53a025f062152
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 863123c21db831146a03de946992a1eb7ed06840
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602515"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763558"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype Empresarial Server: crear una nueva colección de opciones de configuración de tronco
 

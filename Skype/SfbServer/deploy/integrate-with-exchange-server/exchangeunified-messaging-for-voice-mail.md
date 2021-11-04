@@ -1,7 +1,7 @@
 ---
 title: Configurar Exchange Server mensajería unificada para Skype Empresarial Server de voz
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/11/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumen: configure la Exchange Server mensajería unificada para Skype Empresarial Server de voz.'
-ms.openlocfilehash: 94aa013a8330f6469af5a237911b4e627047f7a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621822"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741296"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar Exchange Server mensajería unificada para Skype Empresarial Server de voz
  
@@ -107,7 +107,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>Configuración de mensajería unificada en Microsoft Exchange Server 
 > [!IMPORTANT]
-> Si desea usar la mensajería unificada (MU) de Exchange para proporcionar servicios de contestación de llamadas, acceso de voz de Outlook o operadores automáticos para usuarios de Telefonía IP empresarial, lea [Plan for Exchange Unified Messaging integration in Skype Empresarial](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)y, a continuación, siga las instrucciones de esta sección. 
+> Si desea usar la mensajería unificada (MU) de Exchange para proporcionar servicios de contestación de llamadas, acceso de voz de Outlook o operadores automáticos para usuarios de Telefonía IP empresarial, lea [Plan for Exchange Unified Messaging integration in Skype Empresarial](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)y, a continuación, siga las instrucciones en en esta sección. 
 
 Para configurar Exchange mensajería unificada (MU) para que funcione con Telefonía IP empresarial, deberá realizar las siguientes tareas:
 
@@ -175,7 +175,7 @@ Para comprobar que el script ExchUcUtul.ps1 se ha completado correctamente, haga
 
 ### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>Configurar certificados en el servidor que ejecuta Exchange Server mensajería unificada
  
-Si ha implementado la mensajería unificada (UM) de Exchange, tal como se describe en Planning for Exchange Unified Messaging integration in Skype Empresarial Server en la documentación sobre planeación, y desea proporcionar características de mensajería unificada Exchange los usuarios de Telefonía IP empresarial de su organización, puede usar los siguientes procedimientos para configurar el certificado en el servidor que ejecuta la mensajería unificada Exchange.
+Si ha implementado la mensajería unificada (UM) de Exchange, tal como se describe en Planning for Exchange Unified Messaging integration in Skype Empresarial Server en la documentación sobre planeación, y desea proporcionar características de mensajería unificada Exchange los usuarios de Telefonía IP empresarial en su organización, puede usar los siguientes procedimientos para configurar el certificado en el servidor que ejecuta Exchange mensajería unificada.
 
 > [!IMPORTANT]
 > Para los certificados internos, tanto los servidores que ejecutan Skype Empresarial Server como los servidores que ejecutan Microsoft Exchange deben tener certificados de entidad de certificación raíz de confianza que sean de confianza mutua. La entidad de certificación (CA) puede ser la misma o una entidad de certificación diferente, siempre que los servidores tengan el certificado raíz de la entidad de certificación registrado en su almacén de certificados de entidad raíz de confianza. 

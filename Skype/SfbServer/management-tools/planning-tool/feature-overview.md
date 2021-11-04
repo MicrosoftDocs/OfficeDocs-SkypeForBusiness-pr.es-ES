@@ -1,7 +1,7 @@
 ---
 title: Herramienta de planeación de información general de características
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Descripbes la Skype Empresarial Server de planeación de 2015.
-ms.openlocfilehash: cd225be2bed2eb211750f846cb12a186b045e8e3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 87250dba5df1b7f338f4cb9159a7583f1fd5f4fa
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578754"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756941"
 ---
 # <a name="feature-overview-planning-tool"></a>Herramienta de planeación de información general de características
  

@@ -1,7 +1,7 @@
 ---
 title: Definición de reglas de traducción en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype Empresarial Server Telefonía IP empresarial llamadas basadas en números de teléfono normalizados al formato E.164. Esto significa que todas las cadenas marcados deben normalizarse al formato E.164 con el fin de realizar búsquedas de números inversos (RNL) para que se puedan traducir a su URI sip correspondiente. Skype Empresarial Server permite manipular el identificador llamado y la presentación del identificador de autor de la llamada.
-ms.openlocfilehash: ca51ef7cbb1619877abf1291ffaa2c76087ec6d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9dee0e90a9cd06abef43d190cc391861f4ad1438
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629642"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737726"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definición de reglas de traducción en Skype Empresarial Server
 

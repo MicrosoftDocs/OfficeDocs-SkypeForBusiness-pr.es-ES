@@ -1,7 +1,7 @@
 ---
 title: 'Skype Empresarial Server: crear una nueva colección de opciones de configuración de tronco'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Summary: Learn how to create a new collection of trunk configuration settings by using the Skype Empresarial Server Control Panel.'
-ms.openlocfilehash: a538ad2ff5e19c21ba36afaf928144c7d255e8e2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 95eae0c14aad532b3f3f80e01c2acc0918751496
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012334"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755659"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype Empresarial Server: crear una nueva colección de opciones de configuración de tronco
 

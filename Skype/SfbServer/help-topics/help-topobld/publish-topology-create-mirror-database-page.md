@@ -1,7 +1,7 @@
 ---
 title: Publicar página de topología Crear base de datos de reflejo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco se incluyen para referencia futura.
-ms.openlocfilehash: 463886be1705ceb21994d66401887963fae04993
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcf84d4ee1a83ce83a7c30c63ba7cab5db15e672
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627992"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763878"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>Publicar página de topología Crear base de datos de reflejo
  

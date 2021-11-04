@@ -3,7 +3,7 @@ title: Turnos para Teams
 description: Obtenga las instrucciones de administración que necesita para configurar y administrar Turnos, la herramienta de administración de programación, en Teams.
 ms.topic: conceptual
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 audience: admin
 manager: serdars
 f1.keywords:
@@ -21,12 +21,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 07f31d3f37cc1ebf68c9337afab6605ff894fe9b
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 5e8de5e2c43751c1578678bff9e1f6e9099c4a6a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012554"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756101"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 

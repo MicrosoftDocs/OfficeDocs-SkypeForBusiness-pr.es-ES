@@ -1,7 +1,7 @@
 ---
 title: Planear la mensajería instantánea y la presencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Resumen: obtenga información sobre cómo planear la mensajería instantánea y la presencia en Skype Empresarial Server.'
-ms.openlocfilehash: 8498526c97794dce29d791318b025321e932081b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20de382c034e2049bdb7bb2b36f2da9bc847b876
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599895"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737666"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planear la mensajería instantánea y la presencia en Skype Empresarial Server
  
@@ -27,7 +27,7 @@ Planee la mensajería instantánea y la presencia en Skype Empresarial Server. P
   
 ## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planear la mensajería instantánea y la presencia en Skype Empresarial Server
 
-Los servidores front-end proporcionan funciones Skype Empresarial Server, como la mensajería instantánea (MI) y la presencia, y se incluyen en todas las Skype Empresarial Server implementación. Hay dos ediciones disponibles: Skype Empresarial Server Enterprise Edition, que está diseñada principalmente para organizaciones más grandes, y Skype Empresarial Server Standard Edition, que está diseñada principalmente para organizaciones más pequeñas que desean una inversión de hardware más pequeña y no requieren opciones de alta disponibilidad completa. Ambas ediciones admiten todas las Skype Empresarial Server de trabajo, incluidas mensajería instantánea, presencia, conferencia y Telefonía IP empresarial.
+Los servidores front-end proporcionan funciones Skype Empresarial Server, como la mensajería instantánea (MI) y la presencia, y se incluyen en todas las Skype Empresarial Server implementación. Hay dos ediciones disponibles: Skype Empresarial Server Enterprise Edition, que está diseñada principalmente para organizaciones más grandes, y Skype Empresarial Server Standard Edition, que está diseñada principalmente para organizaciones más pequeñas que desean una menor inversión de hardware y no requieren opciones de alta disponibilidad completa. Ambas ediciones admiten todas las Skype Empresarial Server de trabajo, incluidas mensajería instantánea, presencia, conferencia y Telefonía IP empresarial.
   
 La mensajería instantánea (MI) permite a los usuarios comunicarse entre sí en tiempo real desde sus equipos y mediante mensajes basados en texto. Se admiten sesiones de mensajería instantánea con dos participantes y con varios participantes. Un participante de una conversación de mensajería instantánea entre dos participantes puede agregar a la conversación a un tercer participante en cualquier momento. Cuando esto ocurre, la ventana Conversación cambia para admitir características de conferencia.
   

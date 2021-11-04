@@ -1,7 +1,7 @@
 ---
 title: Definir resultados y éxitos para la adopción de Microsoft Teams - Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ f1.keywords:
 description: Obtenga información sobre cómo medir los resultados y el éxito de la habilitación a gran escala de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41253843ccfd3a628963a89d42af1eef7ede4b6c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a7f7d8f050464d18d2360e530f9d4c25c5e47962
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734089"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777470"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir resultados y el éxito de su adopción de Microsoft Teams
 

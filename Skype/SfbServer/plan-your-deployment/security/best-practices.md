@@ -1,7 +1,7 @@
 ---
 title: Procedimientos recomendados para la infraestructura principal en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Es probable que ya haya tomado las medidas necesarias para diseñar la tolerancia a errores en el sistema, mediante el uso de prácticas como garantizar la redundancia de hardware, la protección frente a interrupciones del suministro eléctrico, realizar instalaciones rutinarias de las actualizaciones de seguridad y las medidas contra virus, además de la supervisión de la actividad del servidor. Estas prácticas benefician no solo a Skype Empresarial Server infraestructura, sino también a toda la red. Si no ha implementado estos procedimientos, se recomienda hacerlo antes de implementar Skype Empresarial Server.
-ms.openlocfilehash: c1fe367921344fb62440ce804a8bde4287bfb381
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3f07914f69881f4a9ce0c1f7d4451809b06f8e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584914"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737636"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Procedimientos recomendados para la infraestructura principal en Skype Empresarial Server
  

@@ -1,7 +1,7 @@
 ---
 title: Teléfono de números para Italia
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Italia para Microsoft Teams.
-ms.openlocfilehash: f1a664882f0bb17590f83686efd6afaf86bcdd59
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 1b74b96e37fdb4bbe98c68567e619d146e20fa06
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733271"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737526"
 ---
 # <a name="phone-number-management-for-italy"></a>Teléfono de números para Italia
 

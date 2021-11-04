@@ -1,7 +1,7 @@
 ---
 title: Configurar los Skype Empresarial Server que se supervisarán
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumen: instale los archivos del agente de Operations Manager en el equipo de Skype Empresarial Server 2019 que se va a supervisar y configure el equipo para que actúe como proxy System Center usuario.'
-ms.openlocfilehash: bb8dce9edf44557632fc4e84188606152c76d646
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c0ceac289fa9185c38b68a3824faa29a3db7433d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012184"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777120"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>Configurar el Skype Empresarial Server equipos para supervisar
 

@@ -1,7 +1,7 @@
 ---
 title: Url sencilla de vista de topología
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 9f51899b11ccd2eb9fded8c371c728640d5128bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f7513a2b2450a381e6e6b5fcc4496e9eb15e06e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622802"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741126"
 ---
 # <a name="topology-view-simple-url"></a>Topología: Ver URL sencilla
 

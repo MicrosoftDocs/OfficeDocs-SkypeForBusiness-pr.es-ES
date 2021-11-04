@@ -1,7 +1,7 @@
 ---
 title: Administrar la configuración de puente en Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar la configuración de puente en Microsoft Teams
-ms.openlocfilehash: 9241699f20d989ff90ec858c591e74c07f022b79
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 28db50677b9ef09fb7ac7da7f080da034d56de17
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630172"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737456"
 ---
 # <a name="manage-bridge-settings-in-teams"></a>Administrar la configuración de puente en Teams
 

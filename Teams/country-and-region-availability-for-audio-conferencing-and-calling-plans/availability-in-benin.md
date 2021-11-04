@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Benín
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 de Skype Empresarial y Microsoft Teams disponibles para Benin.
-ms.openlocfilehash: fb5918c01bc1e1ef0d12f1f0be0897fece7f78cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1959c1debcf128ea1ba82b1201039e69adf54ef6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624792"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777600"
 ---
 # <a name="availability-in-benin"></a>Disponibilidad en Benín
 

@@ -1,7 +1,7 @@
 ---
 title: Planeación de líneas telefónicas privadas con Skype Empresarial
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: Planeación de líneas telefónicas privadas (secundarias) en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 3f682d6d150bd52093d8c7bbb050b53b95ac3125
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c4a03d539835a1b776b729c83bdd1bf19e0ff82
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603849"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763478"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>Planeación de líneas telefónicas privadas con Skype Empresarial
  

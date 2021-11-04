@@ -1,7 +1,7 @@
 ---
 title: Modificar la configuración de calidad de la experiencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 'Summary: Learn how to specify retention of QoE data in Skype Empresarial Server.'
-ms.openlocfilehash: c8480b5deb8007c050968c399ee20eb14755e6ba
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 38bc88866e4bd8b677873b2d502e9268305ccf49
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013954"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770248"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Modificar la configuración de calidad de la experiencia en Skype Empresarial Server
 
@@ -68,6 +68,6 @@ Puede crear la configuración de retención de QoE mediante Windows PowerShell y
 
 Para obtener más información, vea el tema de ayuda del cmdlet [Set-CsQoEConfiguration.](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Implementación de supervisión](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

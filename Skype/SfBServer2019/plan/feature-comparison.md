@@ -1,6 +1,6 @@
 ---
 title: Comparación de características de cliente de escritorio Skype Empresarial Server 2019
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: Skype Empresarial Server 2019 o Skype Empresarial Los administradores en línea pueden usar estas tablas para comprender qué características se admiten en qué clientes.'
-ms.openlocfilehash: 5cfe72bbb680a6b127505b57456de2d513fd41bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 556b88bfe587d1d5a5a1c78461863f0ae8f8fbbf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592954"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777410"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparación de características de cliente de escritorio Skype Empresarial Server 2019
 
@@ -34,7 +34,7 @@ Algunas características disponibles con Skype Empresarial Server 2019 no están
 En las tablas siguientes se muestran las características disponibles con cada cliente que funciona con Skype Empresarial Server 2019 o Skype Empresarial Online. Es posible que también quieras hacer referencia a la comparación de características de cliente móvil [Skype Empresarial](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) para las comparaciones de características de cliente de teléfonos inteligentes y tabletas. La licencia de acceso de cliente o la licencia de suscripción de usuario las compras de la organización también tendrán un impacto en las características disponibles para los usuarios. Si implementa el cliente completo o básico para los usuarios depende de la licencia o del plan que su organización elija comprar. Consulta la [Guía de licencias](https://products.office.com/skype-for-business/it-pros) para obtener más información.
 
 > [!IMPORTANT]
-> Skype Empresarial Server 2019 y Skype Empresarial Online admiten los siguientes clientes publicados anteriormente: Lync 2013, Skype Empresarial 2015 y Skype Empresarial 2016, así como el cliente de Skype Empresarial 2019. Para obtener información acerca de estos clientes cuando se usan con otros servidores, vea las tablas de comparación de clientes para [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) y comparación de características de cliente de escritorio [para Skype Empresarial 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
+> Skype Empresarial Server 2019 y Skype Empresarial Online admiten los siguientes clientes publicados anteriormente: Lync 2013, Skype Empresarial 2015 y Skype Empresarial 2016, así como el Skype Empresarial 2019 cliente. Para obtener información acerca de estos clientes cuando se usan con otros servidores, vea las tablas de comparación de clientes para [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) y comparación de características de cliente de escritorio [para Skype Empresarial 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
 
 
 > [!NOTE]

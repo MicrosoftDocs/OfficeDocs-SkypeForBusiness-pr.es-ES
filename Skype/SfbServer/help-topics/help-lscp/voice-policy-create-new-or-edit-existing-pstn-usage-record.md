@@ -1,7 +1,7 @@
 ---
 title: Directiva de voz Crear nuevo o editar registro de uso de RTC existente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
 description: UNRESOLVED_TOKEN_VAL(¡bigfin_UI_help_intro)
-ms.openlocfilehash: b10e235651585f05610603463748dd32012864eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08235867ad3f71426681da0d12c6a0c6169cf84b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623832"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777400"
 ---
 # <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a>Directiva de voz: Crear nuevos o editar los registros existentes de uso de RTC
 

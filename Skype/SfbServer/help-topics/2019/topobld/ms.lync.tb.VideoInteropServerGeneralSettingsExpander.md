@@ -1,7 +1,7 @@
 ---
 title: Configuración general del servidor de interoperabilidad de vídeo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server.
-ms.openlocfilehash: 31286a27236adc0861b72a6a4cc6690f76089ec3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: add82d5b90b9315c45d0045fcde4840f4ef8b074
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597044"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738096"
 ---
 # <a name="video-interop-server-general-settings"></a>Configuración general del servidor de interoperabilidad de vídeo
  

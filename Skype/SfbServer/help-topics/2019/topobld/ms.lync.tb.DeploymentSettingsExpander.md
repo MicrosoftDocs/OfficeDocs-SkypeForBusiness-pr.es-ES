@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración de implementación
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede editar las propiedades de una implementación existente con las secciones siguientes:'
-ms.openlocfilehash: ee6e5dd07351f8d63ea706d9428de16ff5ec0652
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c49a82a0e21fdda5fa9f81df598fcf9087f9d2c5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580954"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757692"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de configuración de implementación
 

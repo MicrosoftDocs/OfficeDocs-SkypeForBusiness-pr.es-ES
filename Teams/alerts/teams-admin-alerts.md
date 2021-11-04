@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Supervisión y alertas
 author: vaibhav
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -16,12 +16,12 @@ description: Obtenga información sobre las Teams de alertas y notificaciones di
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 38380adecf3ce54d12b06e74f4467e39697d67f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f97905320912ec1a63aa4580018c134bed3589c4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592364"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737476"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams y alertas
 

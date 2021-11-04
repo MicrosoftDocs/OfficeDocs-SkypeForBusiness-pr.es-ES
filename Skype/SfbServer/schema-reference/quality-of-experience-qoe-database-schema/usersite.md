@@ -1,7 +1,7 @@
 ---
 title: Tabla UserSite
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
 description: La tabla UserSite es una tabla de soporte técnico. Cada registro representa un sitio de usuario definido en la configuración de red.
-ms.openlocfilehash: 5e7ae6f304d836fc2413cbbaf696200c3f514bd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d8e7ccea49d00355a3e114833518cf5e6f762674
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595270"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737486"
 ---
 # <a name="usersite-table"></a>Tabla UserSite
  

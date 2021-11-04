@@ -1,7 +1,7 @@
 ---
 title: Tabla MacAddress
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
 description: La tabla MacAddress es una tabla compatible. Cada registro representa un origen.
-ms.openlocfilehash: 7def3c1499f8884d8c79f747017ff73736558738
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8c9e739b9fc558dde2a2e517526f5fb8bebec30
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607897"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737516"
 ---
 # <a name="macaddress-table"></a>Tabla MacAddress
  

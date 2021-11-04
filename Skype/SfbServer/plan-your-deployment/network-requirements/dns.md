@@ -1,7 +1,7 @@
 ---
 title: Requisitos dns para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Summary: Review the DNS considerations in this topic before implementing Skype Empresarial Server.'
-ms.openlocfilehash: 1a39cbfc05505e6c53b8874e3611dea8dae9d8c0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4c332d9b7e315a928d488861363c2080ecf0997c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730379"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770078"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Requisitos dns para Skype Empresarial Server
 
@@ -33,7 +33,7 @@ Un servidor de servicio de nombres de dominio (DNS) asigna nombres de host (como
 
 Aunque esto puede parecer un poco desalentador al principio, el trabajo pesado para planear esto se puede hacer con la herramienta de planeación [Skype Empresarial Server 2015](https://www.microsoft.com/download/details.aspx?id=50357). Una vez que haya pasado por las preguntas del asistente acerca de las características que planea usar, para cada sitio que defina puede ver el informe DNS en el Informe de administración perimetral y usar la información que aparece allí para crear los registros DNS. También puede realizar ajustes en muchos de los nombres y direcciones IP usados, para obtener más información, vea [Review the DNS Report](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Tenga en cuenta que puede exportar el informe de administración perimetral a una hoja de cálculo Excel y el informe DNS será una de las hojas de cálculo del archivo. Aunque esta herramienta incluye características en desuso Skype Empresarial Server [2019,](../../../SfBServer2019/deprecated.md)aún se puede usar para crear un plan inicial si esas características no están seleccionadas.
 
-Al instalar una nueva implementación, tal como se describe en Crear registros DNS para [Skype Empresarial Server](../../deploy/install/create-dns-records.md) y crear la topología para Skype Empresarial Server, reconocemos que puede elegir usar las funcionalidades DNS integradas en Windows Server 2016 o un paquete DNS de terceros, por lo que conservaremos las discusiones de este artículo general en lugar de específicas. Estamos detallando lo que se necesita y la forma en que cumple esa necesidad es su decisión de tomar.
+Al instalar una nueva implementación, tal como se describe en Crear registros DNS para [Skype Empresarial Server](../../deploy/install/create-dns-records.md) y crear la topología para Skype Empresarial Server, reconocemos que puede elegir usar las funcionalidades DNS integradas en Windows Server 2016 o un paquete DNS de terceros, por lo que no explica en este artículo general en lugar de específico. Estamos detallando lo que se necesita y la forma en que cumple esa necesidad es su decisión de tomar.
 
 Los administradores Skype Empresarial, Lync y Office Communications Suite probablemente encontrarán útiles las tablas siguientes. Si la tabla le resulta confusa, las secciones o artículos posteriores mostrarán algo de luz sobre los siguientes conceptos:
 
@@ -44,7 +44,7 @@ En las tablas siguientes se muestran los registros DNS Skype Empresarial Server 
 
 **Asignaciones dns internas**
 
-|Tipo de registro|Valor|Se resuelve en|Finalidad|Necesario|
+|Tipo de registro|Valor|Se resuelve en|Objetivo|Obligatorio|
 |:-----|:-----|:-----|:-----|:-----|
 |A/AAAA   |FQDN del grupo de servidores front-end  <br/> *FE-pool. <span></span> contoso <span></span> .com*   |Direcciones IP del servidor de grupo de servidores front-end  <br/>  DNS LB a *192.168.21.122 192.168.21.123 192.168.21.124*   |Equilibrio de carga DNS de grupos de servidores front-end. Mapas el nombre del grupo de servidores front-end a un conjunto de direcciones IP.  <br/> Consulte [Implementación del equilibrio de carga DNS en grupos de servidores front-end y grupos de directores](load-balancing.md#BK_FE_Dir)  |Y   |
 |A/AAAA   | FQDN de cada servidor front-end o Standard Edition servidor de un grupo de servidores o un servidor independiente <br/>  *FE01. <span></span> contoso. <span></span> com FE02. <span></span> contoso <span></span> .com FE03. <span></span> contoso <span></span> .com*   |IP correspondiente de cada servidor  <br/> *192.168.21.122 192.168.21.123 192.168.21.124*   |Mapas el nombre del servidor a su dirección IP.   |Y   |
@@ -86,7 +86,7 @@ En el diagrama siguiente se muestra un ejemplo que incluye registros DNS interno
 
 **Asignaciones dns de red perimetral (interfaces internas y externas)**
 
-|Tipo de registro|Valor|Se resuelve en|Finalidad|Necesario|
+|Tipo de registro|Valor|Se resuelve en|Objetivo|Obligatorio|
 |:--- |:--- |:--- |:--- |:--- |
 |A/AAAA   |FQDN del grupo perimetral interno  <br/>*EdgePool-int. <span></span> contoso <span></span> .com*  |Direcciones IP de grupo perimetral interno  <br/> 172.25.33.10, 172.25.33.11   |Direcciones IP de interfaz interna del grupo perimetral consolidado   |Y   |
 |A/AAAA   |FQDN del servidor perimetral  <br/>*Cons-1. <span></span> contoso <span></span> .com*  |IP de servidor de cara interna para un servidor en el grupo de servidores perimetrales  <br/> 172.25.33.10   |Cree un registro para cada servidor del grupo con el FQDN del servidor que apunte a su DIRECCIÓN IP del nodo de servidor interno en el grupo de servidores, vea Equilibrio de carga DNS en grupos de servidores [perimetrales.](load-balancing.md#BK_Edge)   |Y   |

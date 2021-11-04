@@ -1,7 +1,7 @@
 ---
 title: Tabla TraceRoute
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
 description: La tabla TraceRoute contiene información de enrutamiento de las llamadas. Esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 2cecfb0fe941404668d6eedd7c146fdc92aaadd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b06b312abf00bcec5726741cfc7d5dc8eeb4520
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578564"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756121"
 ---
 # <a name="traceroute-table"></a>Tabla TraceRoute
  

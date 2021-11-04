@@ -1,7 +1,7 @@
 ---
 title: Página de opción instalar base de datos de reflejo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para configurar la base de datos reflejada Configuración definiendo lo siguiente:'
-ms.openlocfilehash: 3df4f9b5e2f11127249c597671152c2f1a6e9f78
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 050463b6323b2ec75b0bc2980eb79311f3200183
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591634"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748496"
 ---
 # <a name="install-mirror-database-option-page"></a>Página de opción instalar base de datos de reflejo
  

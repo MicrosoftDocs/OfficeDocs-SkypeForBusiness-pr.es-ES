@@ -1,7 +1,7 @@
 ---
 title: 'Skype Empresarial Server: Planear el Panel de calidad de llamadas'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Summary: Learn about what to consider when you plan for the Call Quality Dashboard.'
-ms.openlocfilehash: 6e77e3e6dc4441c7089df9ef6cc0d08c9f3ad270
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 42b80c8e426f438a1608d3c71a41b20dd9d27a63
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011554"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777350"
 ---
 # <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>Skype Empresarial Server: Planear el Panel de calidad de llamadas 
  
@@ -195,8 +195,8 @@ En esta sección se supone que hay una única base de datos qoemetrics en el ent
 
 |Equipo|Núcleos de CPU|RAM|Archivo qoE y cubo en el mismo disco|QoE Archive and SQL Temp DB on same disk|
 |:-----|:-----|:-----|:-----|:-----|
-|Máquina virtual   |4    |7 GB   |Sí   |Sí   |
-|4 núcleos   |4    |20 GB   |Sí   |No   |
+|Máquina virtual   |4   |7 GB   |Sí   |Sí   |
+|4 núcleos   |4   |20 GB   |Sí   |No   |
 |8 núcleos   |8    |32 GB   |Sí   |No   |
 |16 núcleos   |16   |128 GB   |No   |No   |
    

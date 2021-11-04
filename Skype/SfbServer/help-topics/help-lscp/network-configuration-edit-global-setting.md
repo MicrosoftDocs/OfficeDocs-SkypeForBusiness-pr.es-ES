@@ -1,7 +1,7 @@
 ---
 title: Configuración de red Editar configuración global
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 4d0b94ca2eeeadc1033e13805ceb976183635b9c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24478094099064918e2158a39f4b9575c1aba76e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636254"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757352"
 ---
 # <a name="network-configuration-edit-global-setting"></a>Configuración de red: Editar configuración global
 
