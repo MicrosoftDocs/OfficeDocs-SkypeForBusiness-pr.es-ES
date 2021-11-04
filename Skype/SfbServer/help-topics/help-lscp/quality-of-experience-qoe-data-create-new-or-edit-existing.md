@@ -1,7 +1,7 @@
 ---
 title: Datos de calidad de la experiencia (QoE) Crear nuevos o editar existentes
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: e8b9c7dc773f5356458760bcd632a3e1ce3e80df
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4eafa425c14c6368dec5d53f94ba134675daec56
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581544"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758392"
 ---
 # <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Datos referentes a la calidad de la experiencia (QoE): Crear nuevos o editar los existentes
  

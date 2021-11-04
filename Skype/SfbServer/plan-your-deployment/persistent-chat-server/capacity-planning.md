@@ -1,7 +1,7 @@
 ---
 title: Planeación de capacidad para el servidor de chat persistente en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/23/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Resumen: lea este tema para obtener información sobre la planeación de capacidad para el servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: d3ff8076a922d6242de0079239a3ff2c73b539a8
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: afa8ecb47913d722a1e1049a549bc6ab2f3800ed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012164"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777870"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planeación de capacidad para el servidor de chat persistente en Skype Empresarial Server 2015
  

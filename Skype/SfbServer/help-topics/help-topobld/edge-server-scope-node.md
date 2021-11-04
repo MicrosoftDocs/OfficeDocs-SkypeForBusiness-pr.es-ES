@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito del servidor perimetral
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores y demás configuración básica de este grupo de servidores perimetrales. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 3d4a8d02110876efa9a10774c610497553b739a8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 16d8a6fa7d336011a7d76333b901c4dfcb6b7eee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633674"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762658"
 ---
 # <a name="edge-server-scope-node"></a>Nodo de ámbito del servidor perimetral
  

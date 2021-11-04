@@ -1,7 +1,7 @@
 ---
 title: Solicitud de certificado (devuelto)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La página Estado de solicitud del certificado en línea muestra información importante que surge de la creación correcta y la emisión de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica al certificado de forma exclusiva. De forma predeterminada, se selecciona la casilla Asignar este certificado Skype Empresarial Server usos de certificados. Si hace clic en Finalizar, el certificado se asignará automáticamente a Skype Empresarial Server para los fines que definió durante los pasos de creación de la solicitud de certificado. De forma predeterminada, los usos que se asignan al certificado son:'
-ms.openlocfilehash: e181bc5389bc981eed0e3181d4fd5d5f02c179d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f92c95fa5d1588d7563791dca38da46c550048b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581784"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740056"
 ---
 # <a name="certificate-request-returned"></a>Solicitud de certificados (devuelto)
  

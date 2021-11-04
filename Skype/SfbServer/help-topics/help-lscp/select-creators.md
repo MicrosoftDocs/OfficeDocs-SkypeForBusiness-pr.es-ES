@@ -1,7 +1,7 @@
 ---
 title: Seleccionar creadores
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Crear y administrar salas de chat persistente es mucho más fácil con el uso correcto de categorías. Un administrador de chat persistente puede definir AllowedMembers y Creators para cada categoría y también puede definir la configuración y los comportamientos predeterminados del salón de chat que se aplicarán a todos los salón de chat creados en la categoría. Los administradores de chat persistente crean y administran categorías mediante Skype Empresarial Server panel de control o Windows PowerShell cmdlets.
-ms.openlocfilehash: 742ec61eca055e9bf6c8d0578023da2b6553cb84
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e3494f80864b14a3aae457f3a2c808690df52c77
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609407"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739526"
 ---
 # <a name="select-creators"></a>Seleccionar creadores
 

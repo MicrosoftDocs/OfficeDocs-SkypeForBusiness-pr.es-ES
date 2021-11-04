@@ -1,7 +1,7 @@
 ---
 title: Cambios realizados por la preparación del dominio en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 description: En la tabla siguiente se enumeran las entradas de control de acceso (ACE) que crea la preparación del dominio en la raíz del dominio. Todas las ACE se heredan, salvo que se indique lo contrario.
-ms.openlocfilehash: af84828aac349f4b09627d96d3a84cc97ff49a79
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a1e5b8d7de785d08686de074e251e8c1c20709c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630394"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777800"
 ---
 # <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Cambios realizados por la preparación del dominio en Skype Empresarial Server
  

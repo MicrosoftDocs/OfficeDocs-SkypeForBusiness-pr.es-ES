@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración SBA de registrador
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 'Modifique la configuración de la Resistencia y configure las siguientes propiedades:'
-ms.openlocfilehash: 328b26565f6f38f62e24bf264ef1f870435056e6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f983f51d71f0024f2a3101bb6e6feca36e6edbad
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610747"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762538"
 ---
 # <a name="registrar-sba-settings-expander"></a>Expansor de configuración SBA de registrador
 

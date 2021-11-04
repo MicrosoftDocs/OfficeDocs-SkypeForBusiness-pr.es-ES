@@ -1,7 +1,7 @@
 ---
 title: Ruta de voz Crear nuevo o editar existente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 20d45867b28b66c32a0e91a5f0aa28832a037dfb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 294185cba208fd29c8a20b5ea0ef63f3fbc7f5f4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580754"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744496"
 ---
 # <a name="voice-route-create-new-or-edit-existing"></a>Ruta de voz: Crear nuevos o editar los existentes
 

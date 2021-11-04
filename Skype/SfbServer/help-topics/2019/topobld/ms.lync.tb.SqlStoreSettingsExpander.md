@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración de almacén SQL
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para editar las propiedades de una SQL Server base de datos, debe cambiar la SQL Server de base de datos. No puede usar el cuadro de diálogo Editar propiedades para realizar tareas como mover la base de datos del servidor de archivado de un equipo a otro. Además, no puede usar el cuadro de diálogo Editar propiedades para cambiar la instancia de SQL Server que hospeda el almacén de administración central.
-ms.openlocfilehash: 46fc03549c4ced4f0a3c44882eab3fcfc03e7df5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 53d0092b634e102f7fd2511ff57d32fe575e886e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625382"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739696"
 ---
 # <a name="sql-store-settings-expander"></a>Expansor de configuración de almacén SQL
  

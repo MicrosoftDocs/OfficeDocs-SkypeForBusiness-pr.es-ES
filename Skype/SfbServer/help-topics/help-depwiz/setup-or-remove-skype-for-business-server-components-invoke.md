@@ -1,7 +1,7 @@
 ---
 title: Instalar o quitar componentes de Skype Empresarial Server (invocar)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 description: Ejecutar comandos muestra un resumen de ejecución de las tareas que se llevan a cabo para implementar el rol de servidor. Una vez completadas las tareas, se muestra un resumen de implementación y activación o desactivación y desinstalación. Además, en la lista desplegable puede seleccionar cualquiera de los archivos de registro que se hayan creado durante la ejecución de comandos. En la lista desplegable, seleccione el archivo de registro que desee ver y haga clic en Ver registro.
-ms.openlocfilehash: 86e795c208e148077c858ebaefe00675bfbbc71d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 17b06cbed1eca6fd5586000cad33b98b23a44475
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604049"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758522"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Instalar o quitar componentes de Skype Empresarial Server (invocar)
  

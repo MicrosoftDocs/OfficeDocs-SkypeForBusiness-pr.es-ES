@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito del almacén de archivo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) y los grupos dependientes de este almacén de archivos. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: fd23a62d175e8cacbe265c4c807aafbc6d9f4181
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 809816ea175e97943268c7a123484d3519d3a45a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600190"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762598"
 ---
 # <a name="file-store-scope-node"></a>Nodo de ámbito del almacén de archivo
  

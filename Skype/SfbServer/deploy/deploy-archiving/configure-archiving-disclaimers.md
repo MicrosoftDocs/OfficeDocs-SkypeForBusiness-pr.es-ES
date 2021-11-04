@@ -1,7 +1,7 @@
 ---
 title: Configurar declinaciones de responsabilidades de archivado para usuarios externos en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Resumen: lea este tema para obtener información sobre cómo configurar una declinación de responsabilidades de archivado para Skype Empresarial Server.'
-ms.openlocfilehash: fd9af58e6418dac7d6abd995f33faa1def84c004
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a5777a416d634f6d767efbec97f2c72bc7899c47
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611319"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773400"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurar declinaciones de responsabilidades de archivado para usuarios externos en Skype Empresarial Server
  

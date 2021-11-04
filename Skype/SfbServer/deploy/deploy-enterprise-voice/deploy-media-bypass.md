@@ -1,7 +1,7 @@
 ---
 title: Implementar la omisión de medios en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Implementar la omisión de medios en Skype Empresarial Server Telefonía IP empresarial. Incluye requisitos previos y lista de comprobación del proceso de implementación.
-ms.openlocfilehash: 34294db2709de56d77ecd1365deac57ad94a86d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f5bed4cf31158ea170b78110f3b6f5561aedb21d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617036"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769668"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>Implementar la omisión de medios en Skype Empresarial Server
  

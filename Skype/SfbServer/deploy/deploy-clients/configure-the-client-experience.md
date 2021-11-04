@@ -1,7 +1,7 @@
 ---
 title: Configurar la experiencia del cliente con Skype Empresarial 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Summary: Read this topic to learn how to configure the client experience for Skype Empresarial users.'
-ms.openlocfilehash: 61bb5e83378215561be2e073883b2e573d141000
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f7cbbe60de10d50d231faa201f3c8830c14f7450
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581834"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773390"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar la experiencia del cliente con Skype Empresarial 2015
  
@@ -183,8 +183,8 @@ El siguiente procedimiento describe cómo modificar el Registro para que se mues
     
    |**Field**|**Valor para seleccionar o escribir**|
    |:-----|:-----|
-   |**Acción** <br/> |**Crear** <br/> |
-   |**Subárbol** <br/> | HKEY_CURRENT_USER <br/> |
+   |**Action** <br/> |**Crear** <br/> |
+   |**Hive** <br/> | HKEY_CURRENT_USER <br/> |
    |**Ruta de acceso clave** <br/> |Software\Microsoft\Office\Lync  <br/> |
    |**Nombre del valor** <br/> |EnableSkypeUI  <br/> |
    |**Tipo de valor** <br/> |REG_BINARY  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Plan para eventos en directo en Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b66ef3032f5048cdde377b6a907ce4e8eee739a9
-ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
+ms.openlocfilehash: 84a167e2b53ce61d7d06848b10f63c7419bc9260
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60641230"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769818"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 

@@ -1,7 +1,7 @@
 ---
 title: Informe de uso de Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Aprenda a usar el informe de uso de Teams en el centro de administr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 112e21d01034765c4cb7cd31b40e1bb83f613b32
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: deb29f1a625d2a19e65315dbaf2a11de4ae121b3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733999"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763018"
 ---
 # <a name="microsoft-teams-usage-report"></a>Informe de uso de Microsoft Teams
 

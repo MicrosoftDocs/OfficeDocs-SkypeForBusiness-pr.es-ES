@@ -1,7 +1,7 @@
 ---
 title: Vista de usuario
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: La vista de usuario almacena información sobre usuarios que han participado en llamadas o sesiones con registros en la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 59b7371336ec900d6474016bb366407d4ffb7c14
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6508bac1b40ca88429cc0504982ed9d2464ee5d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616386"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777740"
 ---
 # <a name="user-view"></a>Vista de usuario
  

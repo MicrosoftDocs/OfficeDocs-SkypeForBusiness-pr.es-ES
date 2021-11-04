@@ -1,7 +1,7 @@
 ---
 title: Tabla Puertas de enlace en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a909daad-d137-45e0-b149-1de9f8e1e029
 description: La tabla Puertas de enlace es una tabla de soporte técnico. Cada registro almacena información sobre una puerta de enlace que está implicada en llamadas de red telefónica conmutada (RTC) que tienen registros en la base de datos.
-ms.openlocfilehash: 7d0481def0d8693563b2558f6fa605c12d69ddfe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 35b552239d272f47d1f21c0940620dda4e6f075d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601305"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777760"
 ---
 # <a name="gateways-table-in-skype-for-business-server-2015"></a>Tabla Puertas de enlace en Skype Empresarial Server 2015
  

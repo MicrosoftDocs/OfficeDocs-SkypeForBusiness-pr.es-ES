@@ -1,7 +1,7 @@
 ---
 title: Agregar asociaciones front-end 2010
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: 'Para habilitar la compatibilidad con características específicas que requieren la implementación de otros servidores, asocie los roles de servidor con el grupo de servidores front-end en este momento. También puede asociar los roles de servidor con el grupo de servidores front-end más adelante. Los roles de servidor que se pueden asociar con un grupo de servidores front-end incluyen:'
-ms.openlocfilehash: aaf43da757283779899a9efab5bcff0751ee48cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f0c5e27b26ed6bae0d6d0be68dee47d42311586a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608247"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762718"
 ---
 # <a name="add-front-end-associations-2010"></a>Agregar asociaciones front-end 2010
 

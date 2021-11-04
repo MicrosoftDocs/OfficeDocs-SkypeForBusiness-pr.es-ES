@@ -1,7 +1,7 @@
 ---
 title: Usar PowerShell para establecer directivas de eventos en directo
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -18,12 +18,12 @@ description: Ejemplos de cómo usar PowerShell para establecer directivas en Tea
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd408ab17d91a826b0d85a6c2515e8f21013242a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c167d29811008718b7de080e79b62da1117d118
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629182"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769798"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Usar PowerShell para establecer directivas de eventos en directo en Microsoft Teams
 
@@ -146,5 +146,5 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ```
 
 ### <a name="related-topics"></a>Temas relacionados
-- [Configuración de eventos en directo en Teams](set-up-for-teams-live-events.md)
+- [Configuración de Eventos en Directo de Teams](set-up-for-teams-live-events.md)
 - [Descripción de PowerShell para Teams](../teams-powershell-overview.md)

@@ -1,7 +1,7 @@
 ---
 title: Configuración del dispositivo Crear nuevo o editar existente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: En la página Nueva configuración de dispositivo o Editar configuración de dispositivo, puedes crear o modificar una colección de configuraciones usadas para administrar Skype Empresarial Teléfono Edition. Estos valores le permiten configurar aspectos como el modo de seguridad requerido, el nivel de registro del dispositivo, los ajustes de calidad de servicio de voz (QoS) y especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
-ms.openlocfilehash: bcd0cccbb0bba00d40a25e6683baf2d12b6f54c5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8211e31ddb4f28d72c50b90d982fbb1e16ab0f63
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588732"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758452"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Configuración de dispositivo: Crear nuevos o editar los existentes
  

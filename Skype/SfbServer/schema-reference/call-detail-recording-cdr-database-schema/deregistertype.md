@@ -1,7 +1,7 @@
 ---
 title: Tabla DeRegisterType en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
 description: La tabla DeRegisterType es una tabla estática que almacena la lista de posibles tipos de desregladores de usuarios, como "cliente iniciado", "el registro expiró" o "el cliente dejó de responder".
-ms.openlocfilehash: 93d06117974377b6df489f376aedf4ad88235fa2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f369416a15f0b1c024dd70fbe97042193940f669
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599885"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743996"
 ---
 # <a name="deregistertype-table-in-skype-for-business-server-2015"></a>Tabla DeRegisterType en Skype Empresarial Server 2015
  

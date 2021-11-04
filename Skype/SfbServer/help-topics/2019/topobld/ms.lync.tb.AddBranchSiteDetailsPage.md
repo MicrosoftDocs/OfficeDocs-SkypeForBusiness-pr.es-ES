@@ -1,7 +1,7 @@
 ---
 title: Agregar detalles de sucursal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para especificar los detalles del sitio para un sitio, haga lo siguiente:'
-ms.openlocfilehash: 0e76decbb2c19783fabf6083ac66e31760be0ddd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2580233ad8e915f94315ef2260f2a6c70301ff47
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582974"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745066"
 ---
 # <a name="add-branch-site-details"></a>Agregar detalles de sucursal
 

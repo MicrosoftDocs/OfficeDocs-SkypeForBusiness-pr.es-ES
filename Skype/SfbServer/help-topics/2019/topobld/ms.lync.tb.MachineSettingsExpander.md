@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración de servidor
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del servidor y la configuración de la dirección IP del servidor. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: fdf5aaec2c0a6ebf8fd5cd7051ae9c62e1860815
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 41597c963ee9a2642fd93db5fbca296ba4bab004
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609607"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739706"
 ---
 # <a name="server-settings-expander"></a>Expansor de configuración de servidor
  

@@ -1,7 +1,7 @@
 ---
 title: Agregar RTC de aplicación de sucursal con funciones de supervivencia
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir la puerta de enlace de la red telefónica conmutada (RTC) de una aplicación de sucursal con funciones de supervivencia en una sucursal, especifique los elementos siguientes:'
-ms.openlocfilehash: cadb307c0b1081e27e319c404bac94c16ad53262
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1b8470f88217a5ded93094bc83cc0f31c8c916ca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595914"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745096"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>Agregar RTC de aplicación de sucursal con funciones de supervivencia
  

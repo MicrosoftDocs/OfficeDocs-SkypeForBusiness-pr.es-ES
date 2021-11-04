@@ -1,7 +1,7 @@
 ---
 title: Agregar almacén de archivos de director
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a15b69e0-d3d1-4648-af25-1c0f25e5da8e
 description: Debe especificar un recurso compartido de archivos para usarlo como almacén de archivos de los directores. Puede utilizar un recurso compartido de archivos existente como almacén o elegir uno nuevo especificando el nombre de dominio completo (FQDN) del servidor de archivos en el que se deba ubicar el recurso compartido de archivos y un nombre de carpeta para el nuevo recurso compartido de archivos.
-ms.openlocfilehash: 5de21190637cbbac65d5cb7f4dc69f8a7591b962
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f8df1864b3645caa04c469e616d63970760c615e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600295"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762858"
 ---
 # <a name="add-director-file-store"></a>Agregar almacén de archivos de director
 

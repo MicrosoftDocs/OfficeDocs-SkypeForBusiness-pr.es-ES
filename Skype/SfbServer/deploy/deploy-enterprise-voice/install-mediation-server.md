@@ -1,7 +1,7 @@
 ---
 title: Instalar los archivos del servidor de mediación en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 'Resumen: obtenga información sobre cómo instalar los archivos del servidor de mediación en Skype Empresarial Server.'
-ms.openlocfilehash: 5662e4e79534fd469c64005bba98d1c507defff8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8dcc6862b55a4620030d03ed442a24e22ccde54b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620506"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769628"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Instalar los archivos del servidor de mediación en Skype Empresarial Server
  

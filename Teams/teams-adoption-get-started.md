@@ -1,7 +1,7 @@
 ---
 title: Comenzar a impulsar la adopción de Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab173455ea4de3ee141fb1d498945f22a3e3e9ae
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8634e1071585fe026faec0fcfc5b2753317ae6b4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733739"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769828"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Comenzar a impulsar la adopción de Microsoft Teams
 

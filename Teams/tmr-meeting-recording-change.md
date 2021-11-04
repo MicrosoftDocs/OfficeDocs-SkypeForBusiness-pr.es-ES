@@ -1,7 +1,7 @@
 ---
 title: Usar OneDrive para la Empresa y SharePoint para grabar las reuniones
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6467aedfec406837dcbc79ddf6902aa95d6dde88
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 62e09ef5226e4b934ff4077f095fac931b786d49
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605216"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769758"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 

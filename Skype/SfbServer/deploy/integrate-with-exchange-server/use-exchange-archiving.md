@@ -1,7 +1,7 @@
 ---
 title: Configurar Skype Empresarial Server para usar el Exchange Server archivado
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Resumen: configure las transcripciones de mensajería instantánea Exchange Server 2016 o Exchange Server 2013 y Skype Empresarial Server.'
-ms.openlocfilehash: f264b347660df032b67f06ddf605e99ba97a32b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44dbe1418176d7f0c33a6355480913a68baea0dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603067"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745296"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Configurar Skype Empresarial Server para usar el Exchange Server archivado
 

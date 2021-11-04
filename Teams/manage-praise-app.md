@@ -1,7 +1,7 @@
 ---
 title: Administrar la Elogio en el centro Teams administración
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jozhuan
 audience: admin
@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Obtenga información sobre la configuración de administración en Elogio aplicación en el centro Microsoft Teams administración
-ms.openlocfilehash: 684e6c7feaa19ab7aecdc77eebd6cb1764f431d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a65fae76440a520e4ed0054f9ac039e417c0e60e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733419"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763058"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la Elogio en el centro Microsoft Teams administración
 

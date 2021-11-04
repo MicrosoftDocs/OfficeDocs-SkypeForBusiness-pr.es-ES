@@ -1,7 +1,7 @@
 ---
 title: Encuestas de comentarios en Teams o Skype Empresarial
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f08760e7af5b40a063f0dd43c1b728444884bb9d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e98ec763d93609d0b5b4a37cf6fa02b71c478def
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594522"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773440"
 ---
 # <a name="user-feedback-surveys"></a>Encuestas de comentarios de usuarios 
 

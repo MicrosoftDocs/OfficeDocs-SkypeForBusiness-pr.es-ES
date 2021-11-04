@@ -1,7 +1,7 @@
 ---
 title: Actualización básica de PowerShell| Microsoft Teams| Conceder directiva de interoperabilidad de actualización
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61201e52eabd9a921da432ac7081329a643664c7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a281a835240db1ee61959e468eb868e833878f16
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628222"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762948"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Actualizar los usuarios de Skype Empresarial Online a Microsoft Teams
 

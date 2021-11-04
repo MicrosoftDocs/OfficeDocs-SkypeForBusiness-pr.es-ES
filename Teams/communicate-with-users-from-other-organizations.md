@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Obtenga información acerca de cómo buscar y agregar usuarios de fuera de la organización en Microsoft Teams, así como cómo llamarlos y chatear con ellos, mediante el acceso externo (federación) y el acceso de invitado.
-ms.openlocfilehash: 8b4665c17559f94152279e86a82bb44c3c73f016
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 63077f500f1cf4953abf200913d39c37846eb4e5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729869"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763078"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización
 
@@ -49,7 +49,7 @@ Para configurar el acceso externo, vea [Administrar el acceso externo](manage-ex
 
 ## <a name="guest-access"></a>Acceso de invitado
 
-Use el acceso de invitado para agregar a una persona de fuera de su organización a un equipo, donde puede chatear, llamar, reunirse y colaborar en archivos. A un invitado se le pueden dar casi todos los mismos permisos de Teams que a un miembro nativo de un equipo.
+Use el acceso de invitado para agregar a una persona de fuera de su organización a un equipo, donde puede chatear, llamar, reunirse y colaborar en archivos. A un invitado se le pueden dar casi todos los mismos permisos de Teams que a un miembro nativo de un equipo. Para obtener más información, consulte [Experiencia de invitado en Teams](guest-experience.md).
 
 Los invitados se agregan al directorio de Azure Active Directory de la organización como usuarios B2B y deben iniciar sesión en Teams con su cuenta de invitado. Esto significa que es posible que un invitado tenga que cerrar sesión en su propia organización para iniciar sesión en la suya.
 

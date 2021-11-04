@@ -1,6 +1,6 @@
 ---
 title: Restricciones de marcado de número gratuito en Dinamarca
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad de servicios gratuitos en los que el servicio gratuito está disponible. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 3937ec6401177b666f7596e9cb392db9875427b4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f7ec53112c2b3b72ab620b86b30b90bfcce5e0a8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611549"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745426"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>Restricciones de marcado de número gratuito en Dinamarca
 

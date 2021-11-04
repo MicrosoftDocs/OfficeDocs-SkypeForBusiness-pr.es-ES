@@ -1,7 +1,7 @@
 ---
 title: Asistente híbrido Inicie sesión en Microsoft 365 o Office 365
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -19,12 +19,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: Use el Skype Empresarial Server de administración híbrida para ayudarle a configurar el entorno para híbrido con Skype Empresarial Online.
-ms.openlocfilehash: b87b3fe9b7776d6c7e91bcfdbfbe67b9219e15c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c060fe6f0e8b91538ede3b656152d1bf43d78d63
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606419"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739576"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Asistente híbrido: inicie sesión en Microsoft 365 o Office 365
 

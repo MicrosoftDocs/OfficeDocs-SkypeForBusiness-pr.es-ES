@@ -1,6 +1,6 @@
 ---
 title: Zonas de país y región para audioconferencias
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: tonysmit
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-mar2020
 description: Enumera las zonas de Audioconferencia y el país y las regiones de cada zona.
-ms.openlocfilehash: 4723ca8cd6a0f9dc1488f2e587fa1929db8cc2a9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ed4897b00a4596d962493b58f3a1cdcb8f5964fe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578424"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763068"
 ---
 # <a name="country-and-region-zones-for-audio-conferencing"></a>Zonas de país y región para audioconferencias
 

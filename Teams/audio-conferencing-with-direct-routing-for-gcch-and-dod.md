@@ -1,7 +1,7 @@
 ---
 title: Audioconferencia con enrutamiento directo, GCCH y DoD
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: El administrador puede obtener información sobre cómo usar audioconferencias con enrutamiento directo en entornos GCCH y DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4137aaa3157d680d7758e425db1e9d09dcf9e612
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a1fade545e2896dac9bc9e486db2b3d31475fe2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578434"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763088"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audioconferencia con enrutamiento directo para GCC High y DoD
 

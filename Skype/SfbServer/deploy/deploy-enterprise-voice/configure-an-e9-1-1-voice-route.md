@@ -1,7 +1,7 @@
 ---
 title: Configurar una ruta de voz E9-1-1 en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configure las rutas de voz de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: efab6698aef0c212bb6a52f6f50e2b2bbbe47141
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae44eca22212de41a2c4edc9da31b88a112525b9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605589"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769708"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configurar una ruta de voz E9-1-1 en Skype Empresarial Server
  

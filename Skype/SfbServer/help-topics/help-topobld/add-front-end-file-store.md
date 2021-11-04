@@ -1,7 +1,7 @@
 ---
 title: Agregar almacén de archivos front-end
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 description: Debe especificar el recurso compartido de archivos que debe usarse como almacén de archivos para el servidor Standard Edition o el grupo de servidores front-end de Enterprise Edition. Para ello, use un recurso compartido de archivos ya creado o especifique uno nuevo indicando el nombre de dominio completo del servidor de archivos donde debe ubicarse el recurso compartido de archivos y un nombre de carpeta para dicho recurso.
-ms.openlocfilehash: cb5393c4867b6f21ac6a325eb9044889738e9142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2427c5c90fb60d5a0ddef0ca428d336406e15c03
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596714"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739456"
 ---
 # <a name="add-front-end-file-store"></a>Agregar almacén de archivos front-end
 

@@ -2,7 +2,7 @@
 title: 'Recursos de aprendizaje para administradores: Microsoft Teams'
 ms.reviewer: jhwang
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 548e370988f8604c7bc76d7e983a85c14b782f2b
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6b25a360219477d5dd698f6ef7cbd79f664f4b92
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012584"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777750"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción a la formación de administradores para Microsoft Teams
 

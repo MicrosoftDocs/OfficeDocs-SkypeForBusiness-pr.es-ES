@@ -1,7 +1,7 @@
 ---
 title: Tareas de Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,12 +21,12 @@ description: Obtenga información sobre cómo administrar tareas en el centro Mi
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef615924a4c449a3b2b408d929cf3d2678e4a1e6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1c2dbc67fdbc55c9ff2a7b2e16cb0957886de3dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728679"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758312"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 
