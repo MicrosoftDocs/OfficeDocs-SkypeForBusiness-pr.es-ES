@@ -17,18 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b79319da9f901fc4546c25d5165f4d2361521a7
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8cd05f6ad2b238b4db2d611a6fc00e5f8a57189f
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537011"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60785153"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>Implementar la aplicación padres en Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-Habilitar la aplicación padres en Microsoft Teams es un proceso sencillo para los administradores, que ofrece un método seguro para que los profesores se comuniquen con los alumnos y sus contactos que permanecen en el inquilino y que se escalarán en toda la organización del profesor.
+La aplicación Padres ayuda Teams los profesores a conectarse e interactuar de forma segura con los padres y tutores de los alumnos en sus clases mediante un chat que se ampliará en toda la organización del profesorado. Todos los datos de padres y tutores se aprovisionan con School Data Sync, lo que permite a los profesores y al personal de IT configurar las cosas sin problemas.
 
 ## <a name="requirements"></a>Requirements
 
@@ -45,7 +43,7 @@ Habilitar la aplicación padres en Microsoft Teams es un proceso sencillo para l
 
 - El propietario de la clase debe tener el chat habilitado
 - El propietario de la clase debe tener **habilitado el acceso externo Teams cuentas no administradas por una organización.** 
-  - Esta configuración se puede encontrar en La configuración de toda la organización > Acceso externo para el nivel de inquilino, o si desea habilitar para un determinado conjunto de usuarios, vea powershell a continuación.
+  - Esta configuración se puede encontrar en Usuarios > acceso externo para el nivel de espacio empresarial, o si desea habilitar para un determinado conjunto de usuarios, vea powershell a continuación.
 
 ## <a name="enabling-federated-chat-on-a-per-user-basis"></a>Habilitar el chat federado por usuario
 
@@ -63,7 +61,7 @@ Habilitar la aplicación padres en Microsoft Teams es un proceso sencillo para l
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-De forma predeterminada, la configuración de nivel de inquilino que controla el Teams externo del consumidor para el inquilino (AllowTeamsConsumer) está deshabilitada. Sin embargo, la configuración de directiva que permite Teams acceso externo del consumidor en el nivel de usuario (EnableTeamsConsumerAccess) está habilitada de forma predeterminada para todas las directivas de acceso externo de nivel de usuario. Tanto la configuración de nivel de inquilino como la configuración de directiva de nivel de usuario deben estar habilitadas para que un usuario Teams acceso externo del consumidor. Teams Si no desea que todos los usuarios de su espacio empresarial tengan un acceso externo de consumidor habilitado, debe actualizar las directivas de acceso externo a nivel de usuario asignadas a los usuarios antes de habilitar la configuración de nivel de inquilino.
+La configuración de directiva que permite Teams el acceso externo del consumidor en el nivel de usuario (EnableTeamsConsumerAccess) está habilitada de forma predeterminada para todas las directivas de acceso externo de nivel de usuario. Tanto la configuración de nivel de inquilino (AllowTeamsConsumer) como la configuración de directiva de nivel de usuario deben estar habilitadas para que un usuario tenga acceso externo Teams consumidor. Teams Si no desea que todos los usuarios de su espacio empresarial tengan un acceso externo de consumidor habilitado, debe actualizar las directivas de acceso externo a nivel de usuario asignadas a los usuarios antes de habilitar la configuración de nivel de inquilino.
 
 Si necesita comprobar qué directivas de acceso externo a nivel de usuario existen y a quién están asignadas, puede seguir estos pasos:
     
@@ -76,7 +74,7 @@ Si necesita comprobar qué directivas de acceso externo a nivel de usuario exist
 4. Para cada directiva que no sea la directiva "Global", compruebe qué usuarios tienen asignada la directiva. Nota: los usuarios que no tengan asignada una directiva específica volverán a la directiva "Global".
 
     ```powershell
-    Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq “<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
+    Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
 ### <a name="further-powershell-options"></a>Más opciones de PowerShell

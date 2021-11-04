@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33286dccf3d54ac694b4d74b736b6d899c035aa8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f23f00249c23acb8397127bd51fd05206ce2f3f6
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760548"
+ms.locfileid: "60785093"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar y habilitar Asesor de carrera para Microsoft Teams
 
@@ -165,15 +165,15 @@ Personalice Asesor de carrera para que coincida con la marca de su institución 
 
 3. Upload el **icono de institución educativa**. El icono se usa en Asesor de carrera para identificar contenido exclusivo de su institución educativa, recursos del catálogo de cursos en toda la aplicación y en la sección experiencias del mundo real del panel. El icono tiene el formato más adecuado:
 
-- Un PNG transparente
-- Relación de aspecto de 1:1
-- Tamaño máximo de 64 px x 64 px
+    - Un PNG transparente
+    - Relación de aspecto de 1:1
+    - Tamaño máximo de 64 px x 64 px
 
 4. Upload miniatura **de la institución educativa.** La miniatura se usará para los recursos del catálogo del curso en toda la aplicación cuando una imagen específica no esté disponible para un curso. La miniatura tiene el formato más adecuado:
 
-- UN PNG
-- Relación de aspecto de 16:9
-- Tamaño máximo de 360 px x 200 px
+    - UN PNG
+    - Relación de aspecto de 16:9
+    - Tamaño máximo de 360 px x 200 px
 
 5. Agregue la **dirección URL de la directiva de privacidad de la institución educativa.** Si se agrega, la directiva de privacidad de la institución estará disponible para que los alumnos puedan revisarla en Asesor de carrera aplicación.
 
@@ -325,8 +325,8 @@ Después de completar la configuración, habilite la aplicación para alumnos y 
 
 2. Mueva el botón de alternancia Estado a **Permitido.**  
 
-  > [!NOTE]
-  > **Permitido** significa que la aplicación está disponible para los usuarios de su institución educativa. Bloqueado significa que la aplicación no está disponible para los alumnos.
+   > [!NOTE]
+   > **Permitido** significa que la aplicación está disponible para los usuarios de su institución educativa. Bloqueado significa que la aplicación no está disponible para los alumnos.
 
 ### <a name="add-career-coach-as-an-installed-app"></a>Agregar Asesor de carrera como una aplicación instalada
 
