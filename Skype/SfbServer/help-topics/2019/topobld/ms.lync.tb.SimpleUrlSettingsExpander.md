@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración de dirección URL simple
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para especificar nuevas direcciones URL, o bien quitar las ya existentes o cambiar las direcciones URL sencillas activas, efectúe lo siguiente:'
-ms.openlocfilehash: dabe18dd42794e0fc9a73f2c92cb871a8c03ed5d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d900e8998d5fe741087d13c187c1d7dcb91c676
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619986"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772656"
 ---
 # <a name="simple-url-settings-expander"></a>Expansor de configuración de dirección URL simple
 

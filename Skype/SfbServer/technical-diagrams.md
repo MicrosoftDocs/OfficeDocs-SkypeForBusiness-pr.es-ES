@@ -1,7 +1,7 @@
 ---
 title: Pósteres de Skype Empresarial Server 2015 | RTC de voz
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: 'Resumen: revise estos pósteres según sea necesario al planear, implementar o administrar Skype Empresarial Server.'
-ms.openlocfilehash: efca09a1481417c6623b0c610c7e95a5aa15ad7d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a5ad11aca26d279be415d558be89505f37e0f7ba
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732989"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754237"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Diagramas técnicos para Skype Empresarial Server
 
@@ -47,7 +47,7 @@ Para obtener más información acerca del Microsoft Teams, [vea Microsoft Teams 
 |:---|:---|
 |**Skype Empresarial Server Cargas de trabajo de protocolo** <br/>![Póster de cargas de trabajo del protocolo SfB.](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[Versión PDF](https://go.microsoft.com/fwlink/p/?LinkId=550989) (mejor para dispositivos móviles o tabletas) <br/> [Visio (mejor](https://go.microsoft.com/fwlink/p/?LinkId=550991) para usuarios con Visio) |Descargue este póster para comprender mejor los requisitos de Skype Empresarial servidores y clientes en distintos niveles de complejidad de servicio.<br/> <br/> Tamaño: 11 por 17 pulgadas (varias hojas, convenientemente dimensionadas para imprimir en la mayoría de las impresoras de oficina) <br/> <br/> Este póster se creó con Visio 2015. No debe ser necesaria ninguna modificación para un entorno específico. |
 |**Skype Empresarial Metodología de calidad de llamadas** <br/> ![Póster de metodología de calidad de llamada. ](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[Versión PDF](https://go.microsoft.com/fwlink/p/?LinkId=617899) (mejor para dispositivos móviles o tabletas) <br/> [Visio (mejor](https://go.microsoft.com/fwlink/p/?LinkId=617900) para usuarios con Visio) |Descargue este póster para obtener información sobre CQM, la metodología de calidad de llamadas para Skype Empresarial Server 2015 que le ayuda a encontrar y eliminar problemas que afectan a la calidad de las llamadas y a la experiencia del usuario para implementaciones que incluyen características de voz empresarial. <br/> <br/> Usa la [página de detalles de descarga](https://go.microsoft.com/fwlink/p/?LinkId=617898) para obtener las tarjetas imprimibles y las reglas si quieres jugar como un juego de mesa. Use este póster con el [cuadro de mandos CQM](https://go.microsoft.com/fwlink/p/?LinkId=617904). <br/><br/> Tamaño: 34 por 44 pulgadas <br/> <br/> Este póster se creó con Visio 2015. No debe ser necesaria ninguna modificación para un entorno específico. |
-|**Skype Empresarial Soluciones de voz** <br/> ![Póster Planear soluciones de voz.](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [Versión PDF](https://go.microsoft.com/fwlink/?linkid=869123) (mejor para dispositivos móviles o tabletas) <br/> [Visio (mejor](https://go.microsoft.com/fwlink/?linkid=869124) para usuarios con Visio) |Microsoft ofrece una variedad de opciones para permitir a los usuarios llamar a teléfonos fijos y móviles a través de la red telefónica conmutada (RTC), ya sea que sus cuentas existan en Microsoft 365 o Office 365 en Skype Empresarial Online o en la implementación local de Skype Empresarial Server 2015. En este póster se describen las distintas ofertas de voz de Microsoft y, a continuación, se proporcionan instrucciones sobre qué opciones podrían ser las mejores para usted, en función del estado actual y los planes futuros de su organización. <br/> <br/> Tamaño: 34 por 44 pulgadas <br/><br/> Este póster se creó con Visio 2015. No debe ser necesaria ninguna modificación para un entorno específico. |
+|**Skype Empresarial Soluciones de voz** <br/> ![Póster Planear soluciones de voz.](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [Versión PDF](https://go.microsoft.com/fwlink/?linkid=869123) (mejor para dispositivos móviles o tabletas) <br/> [Visio (mejor](https://go.microsoft.com/fwlink/?linkid=869124) para usuarios con Visio) |Microsoft ofrece una variedad de opciones para permitir a los usuarios llamar a teléfonos fijos y móviles a través de la red telefónica conmutada (RTC), ya sea que sus cuentas existan en Microsoft 365 o Office 365 en Skype Empresarial Online o en su Skype Empresarial Server local de 2015 implementación. En este póster se describen las distintas ofertas de voz de Microsoft y, a continuación, se proporcionan instrucciones sobre qué opciones podrían ser las mejores para usted, en función del estado actual y los planes futuros de su organización. <br/> <br/> Tamaño: 34 por 44 pulgadas <br/><br/> Este póster se creó con Visio 2015. No debe ser necesaria ninguna modificación para un entorno específico. |
 |**Skype Empresarial Modelos de arquitectura** <br/> ![Skype Empresarial Modelos de arquitectura.](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [Versión PDF](https://go.microsoft.com/fwlink/?linkid=869125) (mejor para dispositivos móviles o tabletas) <br/> [Visio (mejor](https://go.microsoft.com/fwlink/?linkid=869126) para usuarios con Visio) |Esta serie de pósteres está diseñada para que el público Pro de TI haga conciencia de los diferentes modelos de arquitectura fundamentales a través de los cuales se pueden consumir Skype Empresarial Online y Skype Empresarial Server 2015 local. Comience con la configuración que mejor se adapte a las necesidades y planes futuros de su organización. Considere la posibilidad de usar otras cuando lo necesite. Por ejemplo, es posible que desee considerar la integración con Exchange y SharePoint o una solución que aproveche la oferta de PBX en la nube de Microsoft. <br/><br/> Tamaño: 11 por 17 pulgadas <br/><br/> Este póster se creó con Visio 2010. No debe ser necesaria ninguna modificación para un entorno específico. |
 
 ## <a name="visual-assets"></a>Activos visuales

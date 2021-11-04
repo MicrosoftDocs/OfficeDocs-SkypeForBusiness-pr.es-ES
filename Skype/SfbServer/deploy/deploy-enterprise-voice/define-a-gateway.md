@@ -1,7 +1,7 @@
 ---
 title: Definir una puerta de enlace en el Generador de topologías en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 'Resumen: aprenda a definir una puerta de enlace RTC en el Generador de topologías en Skype Empresarial Server.'
-ms.openlocfilehash: fe570a849a9a63199eddce63280741c39a8a65eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3ea9b02f39b3ef93c7c725735599a3940f33641
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625622"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753611"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Definir una puerta de enlace en el Generador de topologías en Skype Empresarial Server
  

@@ -1,7 +1,7 @@
 ---
 title: Tabla MediaLine
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Cada registro representa una línea multimedia. (Una sesión de audio normalmente contiene una línea de medios de audio. Una sesión de audio y vídeo (A/V) normalmente contiene una línea de medios de audio y una línea de medios de vídeo, aunque la sesión puede contener dos líneas multimedia de vídeo si se usa un dispositivo de conferencia o si se usa la vista galería.
-ms.openlocfilehash: 9f96c18fcbe5799440e557cb180a52e990f61ec8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae2d776b47f7fe0ef172c9904ea77ae6188535fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627722"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754289"
 ---
 # <a name="medialine-table"></a>Tabla MediaLine
  

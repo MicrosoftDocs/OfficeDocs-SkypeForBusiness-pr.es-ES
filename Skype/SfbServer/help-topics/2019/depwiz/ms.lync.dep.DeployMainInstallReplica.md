@@ -1,7 +1,7 @@
 ---
 title: Instalar almacén de configuración local
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para comenzar la instalación de un nuevo servidor de Skype Empresarial Server de roles, primero debe instalar el SQL Server local que hospedará el almacén de configuración local. El almacén de configuración local actuará como una réplica de solo lectura del Skype Empresarial Server de administración central (CMS).
-ms.openlocfilehash: 2b5ce85cbcfe907ed56c855929ed534bc755ec3e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 993eaa4e07a1b14e1ddeef11c80a15b4869b7719
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621632"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738666"
 ---
 # <a name="install-local-configuration-store"></a>Instalar almacén de configuración local
 

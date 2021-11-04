@@ -1,7 +1,7 @@
 ---
 title: Skype Empresarial Server Herramienta de planeación de conferencia web
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Skype Empresarial Server conferencia web de 2015 incluye colaboración de documentos, uso compartido de aplicaciones y uso compartido de escritorio.
-ms.openlocfilehash: d298f13b788d3f154e2ebca0b33fb61797837eda
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c264d339482f7e0d2eeace34248c7ccb222e6075
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628132"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772356"
 ---
 # <a name="skype-for-business-server-web-conferencing-planning-tool"></a>Skype Empresarial Server Herramienta de planeación de conferencia web
  

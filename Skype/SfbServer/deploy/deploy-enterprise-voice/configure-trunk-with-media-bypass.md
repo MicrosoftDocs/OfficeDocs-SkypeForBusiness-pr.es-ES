@@ -1,7 +1,7 @@
 ---
 title: 'Skype Empresarial Server: Configurar un tronco con desvío de medios'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Resumen: configure un tronco con la omisión de medios habilitada para Skype Empresarial Server. Esto le permitirá minimizar el número de servidores de mediación, presumiendo que el proveedor de troncos SIP lo admite.'
-ms.openlocfilehash: b7bb6be3e006043a59b833b5f9db26001c699847
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aeb65216a3d001d4fe78808985a1010c23427277
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625632"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753831"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>Skype Empresarial Server: Configurar un tronco con desvío de medios
 

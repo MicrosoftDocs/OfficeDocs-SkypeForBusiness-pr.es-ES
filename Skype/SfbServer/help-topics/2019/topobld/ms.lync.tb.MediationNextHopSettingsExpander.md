@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración de próximo salto de mediación
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Se especifica el servidor de mediación o el grupo de servidores de mediación del próximo salto seleccionando el grupo de servidores front-end Enterprise Edition o el servidor front-end Standard Edition en la lista desplegable. Un servidor o un grupo de servidores director no son una selección válida para el siguiente salto de un servidor de mediación o un grupo de servidores de mediación; por lo tanto, no figurarán en la lista. Haga clic en Aceptar para aceptar y guardar los cambios. Haga clic en Cancelar para descartar los cambios y salir de la página de propiedades.
-ms.openlocfilehash: 8b119df27b1f082186fd84bca14059919b4a3883
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 51c0ab15d173a7355aa599adae353e14904d70d0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580914"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772800"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>Expansor de configuración de próximo salto de mediación
  

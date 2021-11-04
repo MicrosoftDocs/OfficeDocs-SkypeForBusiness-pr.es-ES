@@ -1,7 +1,7 @@
 ---
 title: Darlo a conocer e implementar formación
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1c4c31687e5812c14b4a62deacb16fdd3550969
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9d3ba97744998014d0cfb6199aac71d63590a41f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725539"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753891"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Darlo a conocer e implementar formación para Microsoft Teams
 
@@ -71,4 +71,4 @@ Comparta la información que obtiene de sus canales de comentarios con el hashta
 
 [Obtenga más información sobre los Microsoft Teams de uso en el Centro de administración de Microsoft 365.](teams-activity-reports.md)
 
-![Un icono que muestra los pasos siguientes.](media/teams-adoption-next-icon.png) Siguiente: Programar [revisiones de estado del servicio](teams-adoption-schedule-service-health-reviews.md)
+![Un icono que representa los pasos siguientes.](media/teams-adoption-next-icon.png) Siguiente: Programar [revisiones de estado del servicio](teams-adoption-schedule-service-health-reviews.md)

@@ -1,7 +1,7 @@
 ---
 title: (Opcional) Comprobar la implementación del anuncio en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: Comprobar la implementación de la aplicación announcement en Skype Empresarial Server Telefonía IP empresarial. Esto afecta al modo en que se controlan las llamadas a números sin signo.
-ms.openlocfilehash: 8de808b9818811c124a40e684d0bd3b23a27079e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8dbc5e2165d02d87b968620e835405cf6dc634ef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626182"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753477"
 ---
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(Opcional) Comprobar la implementación del anuncio en Skype Empresarial
  

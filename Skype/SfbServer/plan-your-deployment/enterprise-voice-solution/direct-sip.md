@@ -1,7 +1,7 @@
 ---
 title: Conexiones SIP directas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Las conexiones SIP directas se admiten Skype Empresarial Server puertas de enlace RTC y IP-PBX en Telefonía IP empresarial.
-ms.openlocfilehash: 1a3a2354074819f40780896897a8e9a2790a9421
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b08067518f4f9e60214a34d8220a7ae367978ee5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726269"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754457"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexiones SIP directas en Skype Empresarial Server
 

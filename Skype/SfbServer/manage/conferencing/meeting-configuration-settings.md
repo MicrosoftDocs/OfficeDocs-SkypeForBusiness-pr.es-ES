@@ -1,7 +1,7 @@
 ---
 title: Administrar las opciones de configuración de reuniones en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: 'Summary: Learn how to manage meeting configuration settings in Skype Empresarial Server.'
-ms.openlocfilehash: 14e84021e398308fe1b2d3d2187329c30dcb8412
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe622a04e25795471e8f757c352fcaebd7fb1e3b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603929"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754839"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Administrar las opciones de configuración de reuniones en Skype Empresarial Server
  

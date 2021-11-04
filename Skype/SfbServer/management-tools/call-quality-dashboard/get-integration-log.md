@@ -1,7 +1,7 @@
 ---
 title: Obtener integración de registro
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 'Resumen: obtenga información sobre la operación Obtener registro de integración, que forma parte de la API de datos para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: c4d94497a7ed2b7ca1a9c716ede0eef466b0f1ad
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8eca61cf97cc79f34be1f6473f3223b9f2a639d4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578774"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759712"
 ---
 # <a name="get-integration-log"></a>Obtener integración de registro
  

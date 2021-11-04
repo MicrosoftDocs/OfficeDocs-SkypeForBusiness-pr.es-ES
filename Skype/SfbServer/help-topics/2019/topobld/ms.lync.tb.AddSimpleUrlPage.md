@@ -1,7 +1,7 @@
 ---
 title: Agregar dirección URL simple
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para agregar más direcciones URL sencillas a la definición de la implementación, indique la dirección URL de la nueva dirección URL sencilla.
-ms.openlocfilehash: 2b765aacbaaefeecb8c5619572c83075c19ed3aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6248a816697e22a348c296904966eda0d9a5418c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581634"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778600"
 ---
 # <a name="add-simple-url"></a>Agregar dirección URL simple
  

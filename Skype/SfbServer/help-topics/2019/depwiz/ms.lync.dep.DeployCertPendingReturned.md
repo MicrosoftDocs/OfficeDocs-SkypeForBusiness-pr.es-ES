@@ -1,7 +1,7 @@
 ---
 title: Certificado pendiente (devuelto)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página Estado de solicitud del certificado en línea proporciona el estado actual del certificado. Si el certificado continúa pendiente de aprobación por parte del administrador de la entidad de certificación, es decir, si aún no se ha aprobado, el estado indicará que el certificado se está procesando todavía.
-ms.openlocfilehash: 65a97828988a59cb45005423c00288dc9b566bfe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 74d121dfa0884a4898229790b66f48f658bee6eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599525"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753177"
 ---
 # <a name="pending-certificate-returned"></a>Certificado pendiente (devuelto)
  

@@ -1,7 +1,7 @@
 ---
 title: Implementar Telefonía IP empresarial en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Summary: Learn how to deploy Telefonía IP empresarial for Skype Empresarial Server at a central site.'
-ms.openlocfilehash: 3a47e66bf9ae65d0a994a25b40f182dcc95b87d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: df2926bc0d425057431db68e9800763f6f49d4d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600695"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765898"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Implementar Telefonía IP empresarial en Skype Empresarial Server
 

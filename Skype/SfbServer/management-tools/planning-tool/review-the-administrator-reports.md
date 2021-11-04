@@ -1,7 +1,7 @@
 ---
 title: Revisar los informes de administrador en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Los informes de administrador consisten en información detallada acerca de la implementación y las diversas operaciones. Los informes se generan en función de las selecciones marcadas en Sitios de diseño. El diseñador puede seguir incorporando valor agregado a los informes de administrador; para ello, puede editar los diagramas de red y definir todas las direcciones IP y los nombres de dominio completos (FQDN) de servidores, grupos y equilibradores de carga.
-ms.openlocfilehash: fe2d14856a1d884dc04ff8cf2de4ebba41eb95eb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e2a30e27b5b1928dacc36e5592033090484f065a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730399"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766298"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Revisar los informes de administrador en Skype Empresarial Server 2015
 
@@ -85,7 +85,7 @@ El informe DNS, que forma parte del informe de administrador, detalla todas las 
 
 Debe hacer que el equipo de administración de DNS revise exhaustivamente el informe dns para asegurarse de que no hay errores que puedan causar dificultades durante la implementación o que puedan complicar una sesión de solución de problemas.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="DNS_Report"> </a>
 
 [Revisión de los informes del administrador](/previous-versions/office/lync-server-2013/lync-server-2013-reviewing-the-administrator-reports)

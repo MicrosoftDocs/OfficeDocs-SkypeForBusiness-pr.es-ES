@@ -1,7 +1,7 @@
 ---
 title: Instalar informes de supervisión en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Resumen: obtenga información sobre cómo instalar un servicio que generará informes de supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: bda56b297f9e4f46033cb6d09c46c61f56092b4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5dd24524feecf8792f864d44e0d898166c9717e1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581034"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753447"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Instalar informes de supervisión en Skype Empresarial Server
  
@@ -45,7 +45,7 @@ En la documentación sobre los informes de supervisión se puede encontrar más 
 > [!NOTE]
 > Hay otro informe , QoE Call Detail Subreport, incluido en Skype Empresarial Server. Sin embargo, este informe se utiliza principalmente con fines internos y no está pensado para usarse mediante un acceso directo. 
   
-Hay dos formas de instalar Skype Empresarial Server de supervisión: puede usar el Asistente para la implementación de Skype Empresarial Server o puede usar un script Windows PowerShell incluido con los archivos de instalación Skype Empresarial Server instalación. Independientemente del método que elija, asegúrese de que:
+Existen dos formas de instalar informes de supervisión Skype Empresarial Server: puede usar el Asistente para la implementación de Skype Empresarial Server o puede usar un script Windows PowerShell incluido con la instalación Skype Empresarial Server archivos. Independientemente del método que elija, asegúrese de que:
   
 - Dispone del derecho para agregar un rol de base de datos a una cuenta de usuario de la base de datos de supervisión.
     

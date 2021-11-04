@@ -1,7 +1,7 @@
 ---
 title: Compruebe la topología en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Summary: Learn how to verify the Skype Empresarial Server topology and Active Directory servers are working as expected. Descargue una versión de prueba Skype Empresarial Server desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 0d8bc0a8ead8d435acf23965c461b57dab93edc2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba098dd808fec192cc944ed3796d5e11b0d8af31
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605529"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753243"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Compruebe la topología en Skype Empresarial Server
  

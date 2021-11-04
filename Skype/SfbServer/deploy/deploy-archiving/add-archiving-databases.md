@@ -1,7 +1,7 @@
 ---
 title: Agregar bases de datos de archivado a una implementación existente en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Summary: Read this topic to learn how to add archiving databases to your Skype Empresarial Server deployment.'
-ms.openlocfilehash: 36d825ef79befa430edfd126bd9cd5a5d840b2f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7174919ef34cd77bf7da316d23808ea1cfaff7f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611329"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778940"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Agregar bases de datos de archivado a una implementación existente en Skype Empresarial Server
  
@@ -72,7 +72,7 @@ Debe incorporar el archivado a la topología para poder configurar la implementa
     
      c. Si la instancia SQL Server especificada está en una relación de creación de reflejo, active la casilla Esta instancia **SQL** está en relación de creación de reflejos y, a continuación, en Número de puerto **reflejado,** especifique el número de puerto.
     
-   - Si habilita la creación de reflejos de SQL Server y desea incluir un testigo de creación de reflejo de SQL Server (una tercera instancia independiente de SQL Server que pueda detectar el estado de las instancias SQL Server y reflejadas principales), active la casilla Usar un testigo de creación de reflejos SQL Server para habilitar la conmutación por error automática y, **a** continuación, realice una de las siguientes acciones:
+   - Si habilita la creación de reflejos de SQL Server y desea incluir un testigo de creación de reflejo de SQL Server (una tercera instancia independiente de SQL Server que pueda detectar el estado de las instancias de reflejo y SQL Server principales **SQL Server),** active la casilla Usar un testigo de creación de reflejos para habilitar la conmutación por error automática y, a continuación, realice una de las siguientes e a continuación:
     
      a. En **SQL Server FQDN**, especifique el FQDN del servidor en el que desea crear el nuevo testigo SQL Server creación de reflejo.
     
@@ -87,7 +87,7 @@ Debe incorporar el archivado a la topología para poder configurar la implementa
 1. En un equipo que ejecute Skype Empresarial Server o en el que estén instaladas las herramientas administrativas de Skype Empresarial Server, inicie sesión con una cuenta que sea miembro del grupo usuarios local (o una cuenta con derechos de usuario equivalentes).
     
     > [!NOTE]
-    > Puede definir una topología mediante una cuenta que sea miembro del grupo usuarios local, pero para publicar una topología, que es necesaria para agregar  un servidor a la topología, debe usar una cuenta que sea miembro del grupo Administradores de dominio y del grupo **RTCUniversalServerAdmins,** y que tenga permisos de control total (lectura, escritura y modificación) en el recurso compartido de archivos que está usando para el almacén de archivos de Skype Empresarial Server (de modo que el Generador de topologías pueda configurar la lista de control de acceso discrecional (DACL) necesaria o una cuenta con derechos equivalentes.
+    > Puede definir una topología mediante una cuenta que sea miembro del grupo usuarios local, pero para publicar una topología, que es necesaria para agregar  un servidor a la topología, debe usar una cuenta que sea miembro del grupo Administradores de dominio y del grupo **RTCUniversalServerAdmins,** y que tenga permisos de control total (lectura,  escribir y modificar) en el recurso compartido de archivos que está usando para el almacén de archivos de Skype Empresarial Server (para que el Generador de topologías pueda configurar la lista de control de acceso discrecional (DACL) necesaria o una cuenta con derechos equivalentes.
   
 2. Abra la topología que creó en la sección anterior con el Generador de topologías.
     

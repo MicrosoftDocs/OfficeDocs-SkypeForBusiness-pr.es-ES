@@ -1,7 +1,7 @@
 ---
 title: Seleccionar grupos
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: Las colas de grupo de respuesta mantienen llamadas a grupos de respuesta hasta que un agente responde a la llamada. Las colas tienen grupos de agentes asignados. Al crear o editar una cola, use el cuadro de diálogo Seleccionar grupos para seleccionar uno o varios grupos de agentes para que se asignen a la cola.
-ms.openlocfilehash: 73c52e37624dc2468ea25aa7d892e8ebaa21ba04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3202887986c3a384f158b487148d09fece3df2d5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610027"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742706"
 ---
 # <a name="select-groups"></a>Seleccionar grupos
 

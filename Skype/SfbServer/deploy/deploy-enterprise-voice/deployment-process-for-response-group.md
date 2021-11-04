@@ -1,7 +1,7 @@
 ---
 title: Proceso de implementación para grupo de respuesta en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Proceso de implementación y pasos para grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: ef3c5810758d7d3c4df070ca2adf70ef80025ffe
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: cbc8a26e88cc98f32042ba00fab1ecf181af67d4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015304"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765878"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Proceso de implementación para grupo de respuesta en Skype Empresarial
 

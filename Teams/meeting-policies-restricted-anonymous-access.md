@@ -1,7 +1,7 @@
 ---
 title: Quitar a los usuarios la directiva de reunión de Teams RestrictedAnonymousAccess
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: Obtenga información sobre cómo quitar la directiva RestrictedAnonymousAccess Teams reunión de los usuarios de su organización.
-ms.openlocfilehash: 3ba00e8d68a4c30a31ca929e1a41e07cc0fbc104
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: e1b5cc0f72419bc17fcca34e3a586ef781f93c93
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605766"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766139"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>Quitar a los usuarios la directiva de reunión de Teams RestrictedAnonymousAccess
 

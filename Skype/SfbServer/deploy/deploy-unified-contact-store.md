@@ -1,7 +1,7 @@
 ---
 title: 'Implementar el almacén de contactos unificado en Skype Empresarial Server '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Resumen: habilite el almacén de contactos unificado en Skype Empresarial Server.'
-ms.openlocfilehash: 181c23b9dc7ab1c4361e3406a9f1f61b4bcf5057
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 459626fe40f76cc19534aaff67d1b1b39c268469
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609937"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748836"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Implementar el almacén de contactos unificado en Skype Empresarial Server
  
@@ -139,7 +139,7 @@ La importación de datos del almacén de contactos unificado desde una base de d
 - Si exporta datos de usuario después de migrar usuarios a Exchange 2013, revierte la migración y, por algún motivo, importa los datos después de la migración, los datos del almacén de contactos unificados y las listas de contactos se dañarán.
     
 > [!IMPORTANT]
-> Antes de mover un buzón de Exchange de Exchange 2013 a Exchange 2010, el administrador de Exchange debe asegurarse de que el administrador de Skype Empresarial Server revierte primero los contactos de usuario de Skype Empresarial Server de Exchange 2013 a Skype Empresarial Server. Para revertir los contactos del almacén de contactos unificados a Skype Empresarial Server, consulte el procedimiento "Para revertir los contactos del almacén de contactos unificados de Exchange 2013 a Skype Empresarial Server", más adelante en esta sección. 
+> Antes de mover un buzón de Exchange de Exchange 2013 a Exchange 2010, el administrador de Exchange debe asegurarse de que el administrador de Skype Empresarial Server revierte primero al usuario de Skype Empresarial Server contactos de Exchange 2013 a Skype Empresarial Server. Para revertir los contactos del almacén de contactos unificados a Skype Empresarial Server, consulte el procedimiento "Para revertir los contactos del almacén de contactos unificados de Exchange 2013 a Skype Empresarial Server", más adelante en esta sección. 
   
  **Cómo revertir contactos de usuario:** Si usa el cmdlet **Move-CsUser** para mover usuarios entre Skype Empresarial Server 2015 y Lync Server 2010, puede omitir estos pasos porque el cmdlet **Move-CsUser** revierte automáticamente el almacén de contactos unificado cuando mueve usuarios de Skype Empresarial Server 2015 a Lync Server 2010. **Move-CsUser** no deshabilita la directiva de almacén de contactos unificado, por lo que la migración al almacén de contactos unificado se repetirá si el usuario vuelve a Skype Empresarial Server 2015.
   

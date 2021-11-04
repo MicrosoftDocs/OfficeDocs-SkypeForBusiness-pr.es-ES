@@ -1,7 +1,7 @@
 ---
 title: Tabla FileTransfers en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
 description: Cada registro representa una sesión de transferencia de archivos.
-ms.openlocfilehash: 59a8346bb000af9c556306d1314c93e45feb28ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2cd28adc21fd5ea5b19b03c0e527ea4097463943
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593424"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754367"
 ---
 # <a name="filetransfers-table-in-skype-for-business-server-2015"></a>Tabla FileTransfers en Skype Empresarial Server 2015
  

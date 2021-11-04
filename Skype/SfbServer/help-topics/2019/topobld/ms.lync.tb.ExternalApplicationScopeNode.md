@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito de aplicación externa
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores, la opción de replicación y el grupo de servidores del próximo salto para este grupo de servidores de aplicaciones de confianza. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 2328a261e5e99bfbff62e0969a4509026b5dd849
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02f865e486ce26ac65679ad20b395fa6b9ab7f70
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611023"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772820"
 ---
 # <a name="external-application-scope-node"></a>Nodo de ámbito de aplicación externa
  

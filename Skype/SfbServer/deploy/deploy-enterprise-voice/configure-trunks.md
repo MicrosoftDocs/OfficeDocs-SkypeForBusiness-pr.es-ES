@@ -1,7 +1,7 @@
 ---
 title: Configurar troncos en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: 'Summary: Learn how to configure a trunk between a Mediation Server and peers for Telefonía IP empresarial in Skype Empresarial Server.'
-ms.openlocfilehash: 0b3846a79d05d6b3eaea664f919dfbca61b036b7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 128be18c31802787c173c8d180de80f5ae5a64fb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617046"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748896"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>Configurar troncos en Skype Empresarial Server
  

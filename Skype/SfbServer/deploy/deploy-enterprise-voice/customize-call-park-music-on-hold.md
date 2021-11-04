@@ -1,7 +1,7 @@
 ---
 title: Personalizar la música de estacionamiento de llamadas en espera enSkype para empresas
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Personalice la música de estacionamiento de llamadas en espera en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 5fd9872c0cc6ac8c63e996d38b3cfe2c34b6fc68
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 925749819a041ed451df816902dae8b932cffbbd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585852"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753621"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Personalizar la música de estacionamiento de llamadas en espera enSkype para empresas
  

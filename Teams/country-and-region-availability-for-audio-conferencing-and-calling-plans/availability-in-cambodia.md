@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Camboya
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Camboya.
-ms.openlocfilehash: 1e0f9ec723ad9bb079a5a48c3d529db52cb3d705
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1ae270e993ec90a3ce83b739de5c519d9151e39
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607807"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754115"
 ---
 # <a name="availability-in-cambodia"></a>Disponibilidad en Camboya
 

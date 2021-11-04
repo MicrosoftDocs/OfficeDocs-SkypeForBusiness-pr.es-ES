@@ -1,7 +1,7 @@
 ---
 title: Tabla ConferenceMessageCount en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
 description: Cada registro de esta tabla representa un usuario en una conferencia de mensajería instantánea e incluye el número de mensajes enviados por ese usuario. Cada conferencia se representa mediante varios registros en esta tabla; un registro para cada usuario.
-ms.openlocfilehash: 17b6d97da1795762419fe84527d9b4f5e7bcc137
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3504a7cb9affbd4c9e26518dbf9d7e404ad9d90e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590974"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754413"
 ---
 # <a name="conferencemessagecount-table-in-skype-for-business-server-2015"></a>Tabla ConferenceMessageCount en Skype Empresarial Server 2015
  

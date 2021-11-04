@@ -1,7 +1,7 @@
 ---
 title: Crear o modificar un intervalo de números sin signo en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Cree, modifique o elimine intervalos de números sin signo para la aplicación Anuncio en Skype Empresarial Server Telefonía IP empresarial. Esto afecta al modo en que se controlan las llamadas a números sin signo.
-ms.openlocfilehash: eb20f43729c29911cb9f45888564c8ab5a0ac739
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ad3193994d41d26546da36614baee64c2298cec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620246"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753757"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Crear o modificar un intervalo de números sin signo en Skype Empresarial Server
  

@@ -1,7 +1,7 @@
 ---
 title: Informes de diagnóstico de calidad multimedia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 description: 'Summary: Learn about the Media Quality Diagnostic Reports in Skype Empresarial Server.'
-ms.openlocfilehash: 406eb2208b6f2f53e708732f2de751786ab296a2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba646f0043eb57a97374b7843263e9994d4aa889
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592554"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754749"
 ---
 # <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Informes de diagnóstico de calidad multimedia en Skype Empresarial Server
  

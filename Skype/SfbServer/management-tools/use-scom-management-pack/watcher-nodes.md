@@ -1,7 +1,7 @@
 ---
 title: Cómo instalar y configurar nodos de monitor
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/20/2015
@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: Cómo instalar y configurar nodos de monitor para Skype Empresarial Server transacciones sintéticas.
-ms.openlocfilehash: c73958e9173040e7fb800fdb2d1fd36c7ab65ae1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aca051b005c3ec9a901c5366a7788af5e95d06f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637015"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766218"
 ---
-# <a name="learn-how-to-install-and-configure-watcher-nodes"></a>Obtenga información sobre cómo instalar y configurar nodos de monitor
+# <a name="how-to-install-and-configure-watcher-nodes"></a>Cómo instalar y configurar nodos de monitor
  
 **Resumen:** Instale y configure nodos de monitor para Skype Empresarial Server transacciones sintéticas.
   
@@ -112,7 +112,7 @@ Para instalar los Skype Empresarial Server principales de 2015 y la base de dato
   
 1. En el equipo nodo de supervisor, haga clic en Inicio, Todos los programas, Accesorios, haga clic con el botón secundario en Símbolo del sistema y haga clic en Ejecutar como administrador.
     
-2. En la ventana de consola, escriba el siguiente comando y presione ENTRAR. Asegúrese de escribir la ruta de acceso adecuada a los archivos de instalación de Skype Empresarial Server: D:\Setup.exe /BootstrapLocalMgmtPara comprobar que los componentes principales de Skype Empresarial Server se han instalado correctamente, haga clic en Inicio **,** en Todos los programas, haga clic en **Skype Empresarial Server 2015** y, **a** continuación, haga clic en Shell de administración de Skype Empresarial Server . En el Shell Skype Empresarial Server administración, escriba el siguiente comando Windows PowerShell y presione ENTRAR:
+2. En la ventana de consola, escriba el siguiente comando y presione ENTRAR. Asegúrese de escribir la ruta de acceso adecuada a los archivos de instalación de Skype Empresarial Server: D:\Setup.exe /BootstrapLocalMgmtTo comprobar que los componentes principales de Skype Empresarial Server se han instalado correctamente, haga clic en Inicio **,** haga clic en Todos los programas **,** haga clic en **Skype Empresarial Server 2015**, y, a **continuación, haga clic Skype Empresarial Server Shell de administración**. En el Shell Skype Empresarial Server administración, escriba el siguiente comando Windows PowerShell y presione ENTRAR:
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration

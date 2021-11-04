@@ -1,7 +1,7 @@
 ---
 title: Probar los derechos de topología de administración en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cómo probar los derechos de topología en Skype Empresarial Server
-ms.openlocfilehash: 7e1d7b8fe1f2b35cffd63aa8816b36946cdc500f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2da77957baaa510ef7669fb6a980de2aacf428a4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580544"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759722"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Probar los derechos de topología de administración en Skype Empresarial Server
 
@@ -57,7 +57,7 @@ Falso
 
 ADVERTENCIA: el procesamiento de "Test-CsSetupPermission" se ha completado con advertencias. Durante esta ejecución se registraron advertencias "2". 
 
-ADVERTENCIA: los resultados detallados se pueden encontrar en "C:\Users\Admin\AppData\Local\Temp\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.html". 
+ADVERTENCIA: Los resultados detallados se pueden encontrar en "C:\Users\Admin\AppData\Local\Temp\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.html". 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que la prueba pudo haber fallado
 

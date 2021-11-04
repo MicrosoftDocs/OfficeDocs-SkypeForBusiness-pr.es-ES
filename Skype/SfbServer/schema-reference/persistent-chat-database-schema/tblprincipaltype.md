@@ -1,7 +1,7 @@
 ---
 title: tblPrincipalType
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan para clasificar lo que aparece en la tabla tblPrincipal.
-ms.openlocfilehash: 5a4e38c7e29de235c4244e0617575f0732ab4362
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3fa86d3cfed058387681ff0fc5eb2b3ec7afb26d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633504"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743116"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -45,9 +45,9 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 |:-----|:-----|:-----|:-----|
 |1  <br/> |Cualquiera  <br/> |Entidad de seguridad genérica sin tipo conocido. No se utiliza en la tabla tblPrincipal.  <br/> ||
 |2  <br/> |AnyUser  <br/> |Entidad de seguridad genérica de tipo de usuario. No se utiliza en la tabla tblPrincipal.  <br/> |Sí  <br/> |
-|3   <br/> |AnyGroup  <br/> |Entidad de seguridad genérica con semántica de grupo. No se utiliza en la tabla tblPrincipal.  <br/> ||
-|4   <br/> |SystemUser  <br/> |Entidad de seguridad usada internamente por el servidor de chat persistente.  <br/> ||
-|5   <br/> |Usuario  <br/> |Usuario habitual.  <br/> |Sí  <br/> |
+|3  <br/> |AnyGroup  <br/> |Entidad de seguridad genérica con semántica de grupo. No se utiliza en la tabla tblPrincipal.  <br/> ||
+|4  <br/> |SystemUser  <br/> |Entidad de seguridad usada internamente por el servidor de chat persistente.  <br/> ||
+|5  <br/> |Usuario  <br/> |Usuario habitual.  <br/> |Sí  <br/> |
 |8   <br/> |DC  <br/> |Controlador de dominio de Servicios de dominio de Active Directory.  <br/> ||
 |9   <br/> |Grupo  <br/> |Grupo de seguridad de Active Directory.  <br/> ||
 |10  <br/> |Folder  <br/> |Unidad organizativa o contenedor de Active Directory.  <br/> ||

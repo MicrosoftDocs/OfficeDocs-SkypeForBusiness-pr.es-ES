@@ -1,7 +1,7 @@
 ---
 title: Solicitud de certificado (nombres alternativos de sujeto adicionales)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: La opción Configurar nombres alternativos de sujeto ofrece la oportunidad de agregar nombres alternativos de sujeto adicionales (SAN) al certificado antes de finalizar y solicitar el certificado. Para incorporar un nombre alternativo de sujeto, escriba su nombre de dominio completo y haga clic en Agregar. Si ha agregado un nombre alternativo de sujeto que se debe eliminar, seleccione la entrada correspondiente y haga clic en Quitar. Si desea quitar todas las entradas de nombres alternativos de sujeto que ha agregado, haga clic en Borrar todo.
-ms.openlocfilehash: 217343ab9481545654bad94f382637473da4b4f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b0819a0f04532b41b8645f09d9bac92a9fff3370
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609786"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748776"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>Solicitud de certificados (nombres alternativos de sujeto adicionales)
  

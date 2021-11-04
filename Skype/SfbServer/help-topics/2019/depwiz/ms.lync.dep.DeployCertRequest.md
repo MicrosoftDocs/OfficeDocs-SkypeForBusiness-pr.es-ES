@@ -1,7 +1,7 @@
 ---
 title: Asistente para implementación Solicitar un certificado
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server, vea Install Skype Empresarial Server.
-ms.openlocfilehash: bfff9a2b403a60241a84e9474fa669477700855c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e4a369b9ca88814f5c4d2b656db7c15f35bb8f87
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620476"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753155"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>Asistente para la implementación: Solicitar un certificado
  

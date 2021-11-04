@@ -1,7 +1,7 @@
 ---
 title: Mediación de colocación (herramienta de planeación)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El servidor de mediación se asocia con el servidor front-end de forma predeterminada. El servidor de mediación también se puede implementar en un grupo independiente por motivos de rendimiento o si implementa el enlace troncal SIP, en cuyo caso se recomienda encarecidamente el grupo independiente. La colocación en Skype Empresarial Server funciona igual que en Lync Server 2013. Para obtener más información, consulte los temas siguientes:'
-ms.openlocfilehash: b1a8c1652281240f24eb488931272ccf040166f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7899d15384a093c37701f977a12e08bbc1636406
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580974"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742476"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Mediación de colocación (herramienta de planeación)
  

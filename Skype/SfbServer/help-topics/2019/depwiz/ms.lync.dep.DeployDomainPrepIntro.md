@@ -1,7 +1,7 @@
 ---
 title: Preparar dominio actual (introducción)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 25f2e262-d6ed-4081-bbfd-5f8be5997e6b
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página Preparar dominio comienza el proceso de preparación del dominio para Skype Empresarial Server. Haga clic en Siguiente para preparar el dominio.
-ms.openlocfilehash: 1149e57e4f3b8aa71273740f0fcaa1327c603c34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 69e5747bcb11b9dcfa139837414f189be0a46886
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621652"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738756"
 ---
 # <a name="prepare-current-domain-intro"></a>Preparar dominio actual (introducción)
  

@@ -1,7 +1,7 @@
 ---
 title: Agregar servidor de chat persistente a la topología Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Summary: Read this topic to learn how to add Persistent Chat Server to your Skype Empresarial Server 2015 topology.'
-ms.openlocfilehash: 1ea8904ea59dd7ac7d35df1ed0ebcbbe0e3cd9f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3fe63921ca666844776c420a27cd2717d6f84be
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607243"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753417"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Agregar servidor de chat persistente a la topología Skype Empresarial Server 2015
  
@@ -42,7 +42,7 @@ Para implementar varios grupos de servidores de chat persistente, repita el mism
 1. En un equipo que ejecute Skype Empresarial Server o en el que estén instaladas las herramientas administrativas de Skype Empresarial Server, inicie sesión con una cuenta que sea miembro del grupo usuarios local (o una cuenta con derechos de usuario equivalentes).
     
     > [!NOTE]
-    > Puede definir una topología mediante una cuenta que sea miembro del grupo usuarios local, pero para publicar una topología, que es necesaria para  instalar Skype Empresarial Server, debe usar una cuenta que sea miembro del grupo Administradores de dominio y del grupo **RTCUniversalServerAdmins,** y que tenga permisos de control total (lectura, escritura y modificación) en el almacén de archivos que va a usar para el almacén de archivos del servidor de chat persistente (para que el Generador de topologías pueda configurar las DACL necesarias) o una cuenta con derechos equivalentes.
+    > Puede definir una topología mediante una cuenta que sea miembro del grupo usuarios local, pero para publicar una topología, que es necesaria para  instalar Skype Empresarial Server, debe usar una cuenta que sea miembro del grupo Administradores de dominio y del grupo **RTCUniversalServerAdmins,** y que tenga permisos de control total (lectura,  escribir y modificar) en el almacén de archivos que va a usar para el almacén de archivos del servidor de chat persistente (para que el Generador de topologías pueda configurar las DACL necesarias) o una cuenta con derechos equivalentes.
   
 2. Inicie el Generador de topologías.
     
@@ -109,7 +109,7 @@ Después de actualizar la topología en el Generador de topologías, debe public
   
 Antes de publicar la topología, instale las bases de datos del servidor de chat persistente. Use el Generador de topologías para instalar bases de datos **seleccionando Acción** e **Instalar base de datos**.
   
-1. En un equipo que ejecute Skype Empresarial Server o en el que estén instaladas las herramientas administrativas de Skype Empresarial Server,  inicie sesión con una cuenta que sea miembro del grupo Administradores de dominio y del grupo **RTCUniversalServerAdmins,** y que tenga permisos de control total (lectura, escritura y modificación) en el almacén de archivos que se usará para el almacén de archivos del servidor de chat persistente (para que el Generador de topologías pueda configurar las listas de control de acceso discrecional (DACL) necesarias o una cuenta con derechos de usuario equivalentes.
+1. En un equipo que ejecute Skype Empresarial Server o en el que estén instaladas las herramientas administrativas de Skype Empresarial Server, inicie  sesión con una cuenta que sea miembro del grupo Administradores de dominio y del grupo **RTCUniversalServerAdmins,** y que tenga permisos de control total (lectura, escritura y modificación) en el almacén de archivos que se usará para pers Almacén de archivos de servidor de chat istent (para que el Generador de topologías pueda configurar las listas de control de acceso discrecional (DACL) necesarias) o una cuenta con derechos de usuario equivalentes.
     
 2. Inicie el Generador de topologías. Seleccione **Abrir topología desde un archivo local** si lo guardó localmente.
     

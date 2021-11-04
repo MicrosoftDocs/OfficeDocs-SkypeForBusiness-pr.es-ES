@@ -1,7 +1,7 @@
 ---
 title: Teams integración con Microsoft Power Platform
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: kvivek
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga más información Teams integración con las herramientas de Microsoft Power Platform, incluidas Power BI, power apps, Power automate y Power Virtual Agents.
-ms.openlocfilehash: af15b1cff05224a023fcbc80a166ed836d583ba5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: afba854409d36cc7f16a1a753f79d06b2ad880b6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729509"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742956"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams integración con Microsoft Power Platform
 
@@ -30,7 +30,7 @@ Microsoft Power Platform ayuda a los usuarios a acelerar su desarrollo con herra
 
 :::image type="content" source="media/teams-power-platform-integration.png" alt-text="Imagen que resume Teams Microsoft Power Platform.":::
 
-Microsoft Power Platform ofrece muchas capacidades de integración con Teams donde puede insertar informes Power BI en el área de trabajo de Teams, insertar aplicaciones creadas con **Power Apps** como una pestaña o una aplicación personal, desencadenar un flujo **Power Automate** desde cualquier mensaje o usar tarjetas adaptables, y agregar el bot creado con **Power Virtual Agents** a Teams para que otros miembros de su organización interactúen con ellos. 
+Microsoft Power Platform ofrece muchas capacidades de integración con Teams donde puede insertar informes Power BI en el área de trabajo de Teams, insertar aplicaciones creadas con **Power Apps** como pestaña o aplicación personal, desencadenar un flujo **Power Automate** desde cualquier mensaje o usar tarjetas adaptables, y agregar el bot  **creado con Power Virtual Agents** que Teams otros miembros de su organización puedan interactuar con ellos.
 
 A partir de septiembre de 2020, la integración con Microsoft Power Platform ha mejorado para permitir que los usuarios realicen lo siguiente sin salir de la *Teams interfaz:*
 
