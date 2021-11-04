@@ -1,6 +1,6 @@
 ---
 title: Skype Empresarial compatibilidad con Office aplicaciones
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Comprenda las formas en que puede obtener acceso Skype Empresarial características desde Outlook y otras Microsoft Office aplicaciones.
-ms.openlocfilehash: e8d2ec9d3785d03c0f853021bcb4f33f6eb2c4aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e4b826cf6ba79b8db31ec5dec57c8d6bfca5280f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599925"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773570"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype Empresarial compatibilidad con Office aplicaciones
  

@@ -1,7 +1,7 @@
 ---
 title: Informe de diagnóstico de conferencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 'Resumen: obtenga información sobre el Informe de diagnóstico de conferencia usado en Skype Empresarial Server.'
-ms.openlocfilehash: 578f4f2a60ca5dd1706d3b366e4decc35effeb7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c62a45c6bff7a91e6d0252ecc1a8010e5098f42b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630644"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773590"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico de conferencia en Skype Empresarial Server
  
@@ -33,7 +33,7 @@ Observe que las métricas Correcta, Error esperado y Error inesperado podrían n
   
 |**Operaciones correctas.**|**Errores esperados**|**Errores inesperados**|**Total de sesiones**|
 |:-----|:-----|:-----|:-----|
-|2024  <br/> |469  <br/> |16   <br/> |2521  <br/> |
+|2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
 Si sumamos 2024 + 469 + 16, obtenemos un total de 2.509 sesiones y, sin embargo, la columna Total de sesiones muestra 2.521 sesiones. Las 12 sesiones "que faltan" son las sesiones que el sistema no ha podido clasificar como de correcta ni de error. Esto a veces ocurre cuando un producto de terceros introduce un nuevo código de diagnóstico que no está familiarizado con el servidor de supervisión. Cuando esto ocurre, las llamadas realizadas mediante este producto que ocasionen ese código de diagnóstico no siempre se clasificarán como Correcta, Error esperado o Error inesperado.
   

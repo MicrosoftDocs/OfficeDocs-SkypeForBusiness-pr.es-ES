@@ -1,7 +1,7 @@
 ---
 title: Agregar dirección IP interna de equipo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 description: Utilice esta página para especificar la dirección IP interna y el nombre de dominio completo (FQDN) del servidor perimetral.
-ms.openlocfilehash: c3e9e5b9263da95509aff4a2950b3273d7609707
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f75904bdc1bf1637d17f2fe05b0a1453538b514
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634494"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774060"
 ---
 # <a name="add-edge-machine-internal-ip"></a>Agregar dirección IP interna de equipo
 

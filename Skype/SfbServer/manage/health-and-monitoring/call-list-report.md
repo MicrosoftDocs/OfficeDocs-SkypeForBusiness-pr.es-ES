@@ -1,7 +1,7 @@
 ---
 title: Informe de lista de llamadas de grupo de respuesta en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 'Summary: Learn about the Response Group application in Skype Empresarial Server.'
-ms.openlocfilehash: 8d801b15dbcd9c040f2f1bb3d5e3dfb7fa5d198f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 46193159c9cb29f63b3fc4ca9053a3e9dd098d01
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612199"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773620"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>Informe de lista de llamadas de grupo de respuesta en Skype Empresarial Server
 

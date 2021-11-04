@@ -1,7 +1,7 @@
 ---
 title: Usuarios Ver directiva de movilidad
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 ROBOTS: NOINDEX, NOFOLLOW
 description: El cuadro de diálogo Ver - Directiva de movilidad muestra las propiedades de la directiva de movilidad seleccionada.
-ms.openlocfilehash: a984edb9063b0013f583f99eda3966bb25a4f0ae
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 973844e405f83cbbc1eb4146ec1709e4ddc5d364
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602959"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769428"
 ---
 # <a name="users-view-mobility-policy"></a>Usuarios: Ver directiva de movilidad
 

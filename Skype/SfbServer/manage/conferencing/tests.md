@@ -1,7 +1,7 @@
 ---
 title: Probar conferencias de acceso telefónico local en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Resumen: obtenga información sobre cómo probar las conferencias de acceso telefónico local en Skype Empresarial Server.'
-ms.openlocfilehash: f02796fff9e610e20751e4e1ca3094d89435a98f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0a2a612b242a83c5e1d98525f040bf96c4e69ca8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578834"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773630"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Probar conferencias de acceso telefónico local en Skype Empresarial Server
  

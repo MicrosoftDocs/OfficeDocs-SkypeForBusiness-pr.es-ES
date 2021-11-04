@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito de aplicaciones de sucursal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: 'El nodo Aplicaciones de sucursal con funciones de supervivencia ofrece una lista de las aplicaciones de sucursal con funciones de supervivencia de este sitio de sucursal. Puede realizar la acción siguiente:'
-ms.openlocfilehash: 929837dc520c372e4ec5bed63f878a86013d5a65
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d56135fd85c4ac29021904cff04b8fdf1c774e44
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582804"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773950"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Nodo de ámbito de aplicaciones de sucursal
  
