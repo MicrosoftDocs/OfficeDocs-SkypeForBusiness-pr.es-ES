@@ -1,7 +1,7 @@
 ---
 title: Microsoft StaffHub se ha retirado
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ef05d7cf25f015932f55491368ed8fd4f3131692
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64bb304ab7c29c0266e4df22f36c96587c0fd10e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584584"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774590"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub se ha retirado
 
@@ -124,7 +124,7 @@ De forma predeterminada, Teams está habilitado para todas las organizaciones. A
 
 Teams admite la coexistencia con Skype Empresarial. Para obtener más información, vea Comprender Teams y [Skype Empresarial](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) coexistencia e interoperabilidad, así como instrucciones de migración e interoperabilidad para organizaciones que usan Teams junto con [Skype Empresarial](../../migration-interop-guidance-for-teams-with-skype.md).
 
-#### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>¿Necesita cada usuario tener una cuenta Microsoft 365 o Office 365 o una cuenta Azure Active Directory (Azure AD)?
+#### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>¿Necesita cada usuario tener una cuenta Microsoft 365 o Office 365 o Azure Active Directory (Azure AD) ?
 
 Sí, cada administrador y miembro del equipo que use Teams y Turnos dentro de Teams debe tener una cuenta de Microsoft 365 o Office 365 (Azure AD) y debe tener asignada una licencia válida.
 

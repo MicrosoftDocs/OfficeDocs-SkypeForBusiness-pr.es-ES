@@ -1,7 +1,7 @@
 ---
 title: Informe de errores principales en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: 'Summary: Learn about the Top Failures Report in Skype Empresarial Server.'
-ms.openlocfilehash: 5b932833aa80d11134133b7b3ed13cdfd2a57e29
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11a71d2c4a68f15e334f913d7672bf49319f77dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606159"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774790"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>Informe de errores principales en Skype Empresarial Server
  

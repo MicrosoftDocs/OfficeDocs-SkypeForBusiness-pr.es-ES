@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración general de aplicación de sucursal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar la configuración de una Aplicación de sucursal con funciones de supervivencia o un Servidor de sucursal con funciones de supervivencia, dispone de las secciones siguientes:'
-ms.openlocfilehash: 2941d7d8c2b38bb20015c5f5005e4ba5aa347fa9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 687b5ea791b246d0bef2d460376c809f9272417a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624192"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775410"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de configuración general de aplicación de sucursal
 

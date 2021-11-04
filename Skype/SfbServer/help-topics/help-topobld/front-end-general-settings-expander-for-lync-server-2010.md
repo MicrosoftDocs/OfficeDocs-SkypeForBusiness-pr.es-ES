@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración general front-end para Lync Server 2010
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Las propiedades del servidor front-end o del grupo de servidores front-end se modifican o configuran los atributos siguientes. La página de configuración consta de las secciones siguientes:'
-ms.openlocfilehash: 60f926a796ce38ecc17e033a4eef3dcd10ae1904
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7257a8abf61f2d081562e72b40811017dcefaa0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600135"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768778"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general front-end para Lync Server 2010
 
@@ -43,7 +43,7 @@ Las propiedades del servidor front-end o del grupo de servidores front-end se mo
 
 - Si ha seleccionado Conferencia, puede seleccionar **Conferencia de acceso telefónico local (RTC)**. Seleccione la casilla de verificación para habilitar las características de conferencia de acceso telefónico local.
 
-- Active la casilla **Telefonía IP empresarial** si desea implementar características para permitir que Lync Server 2013 actúe como su sistema de voz telefónico mediante tecnologías de voz sobre IP (VoIP), incluida la opción de implementar teléfonos de teléfono, troncos SIP o conectividad de red telefónica conmutada con servidor de mediación, puertas de enlace RTC e IP-PBX, en combinación o solo, según el diseño y los requisitos. Para obtener más información Telefonía IP empresarial, vea [Telefonía IP empresarial](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) [y Plan for Telefonía IP empresarial in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Active la casilla **Telefonía IP empresarial** si desea implementar características para permitir que Lync Server 2013 actúe como su sistema de voz telefónico con tecnologías de voz sobre IP (VoIP), incluida la opción de implementar teléfonos de teléfono, troncos SIP o conectividad de red telefónica conmutada mediante el servidor de mediación, puertas de enlace RTC e IP-PBX, en combinación o solo,  en función del diseño y los requisitos. Para obtener más información Telefonía IP empresarial, vea [Telefonía IP empresarial](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) [y Plan for Telefonía IP empresarial in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Asociaciones**
 

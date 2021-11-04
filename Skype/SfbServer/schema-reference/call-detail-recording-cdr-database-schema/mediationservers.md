@@ -1,7 +1,7 @@
 ---
 title: Tabla MediationServers
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
 description: La tabla MediationServers es una tabla de soporte técnico. Cada registro almacena información sobre un servidor de mediación que está implicado en las llamadas que tienen registros en la base de datos.
-ms.openlocfilehash: 946b5750f90ed753f137e0b249af8164e3619f08
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11a064f33ed4f38017cd0fb23ace687662af357f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583804"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762078"
 ---
 # <a name="mediationservers-table"></a>Tabla MediationServers
  

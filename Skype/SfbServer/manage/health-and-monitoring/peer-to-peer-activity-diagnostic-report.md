@@ -1,7 +1,7 @@
 ---
 title: Informe de diagnóstico de actividad punto a punto en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 'Summary: Learn about the Peer-to-Peer Activity Diagnostic Report in Skype Empresarial Server.'
-ms.openlocfilehash: de0bbd43b12209cacac319952040afc526556db6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 703592939b5f90311a4b9da551a6ebfe28989c31
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622292"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774840"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico de actividad punto a punto en Skype Empresarial Server
  
@@ -33,7 +33,7 @@ Tenga en cuenta que es posible que las métricas de éxito, errores esperados y 
   
 |**Operaciones correctas.**|**Errores esperados**|**Errores inesperados**|**Total de sesiones**|
 |:-----|:-----|:-----|:-----|
-|2024  <br/> |469  <br/> |16   <br/> |2521  <br/> |
+|2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
 Si suma 2024 + 469 + 16, obtiene un total de 2.509 sesiones, aunque la columna Total de sesiones muestra un total de 2.521 sesiones. Las 12 sesiones "que faltan" son sesiones que el sistema no puede clasificar como correctas o no correctas. Esto a veces ocurre cuando un producto de terceros introduce un nuevo código de diagnóstico que no está familiarizado con Skype Empresarial Server. Cuando eso sucede, las llamadas realizadas usando ese producto, y la notificación de ese código de diagnóstico, no siempre se pueden clasificar como correcto, un error esperado o un error inesperado.
   

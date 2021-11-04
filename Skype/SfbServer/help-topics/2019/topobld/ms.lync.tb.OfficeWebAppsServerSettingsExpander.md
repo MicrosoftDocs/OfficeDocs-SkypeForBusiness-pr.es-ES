@@ -1,7 +1,7 @@
 ---
 title: Editar configuración del servidor Office Web Apps
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede editar las propiedades del servidor Office Web Apps Server configurado. Pueden modificarse las siguientes propiedades:'
-ms.openlocfilehash: 708687ddc191e11d4563445bd2146e928cda1fad
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 75a9822fb91e145eb28d8df506eaa392663e1fd1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726289"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769248"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Editar configuración del servidor Office Web Apps
 
@@ -34,6 +34,6 @@ Active la casilla **El Servidor de Office Web Apps está implementado como una r
 
 ![Office Expansor Configuración aplicaciones web.](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Componentes y topologías para conferencias](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

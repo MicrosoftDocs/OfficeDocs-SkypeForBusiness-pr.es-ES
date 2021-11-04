@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración general de aplicación externa
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para editar las propiedades de un servidor de aplicaciones de confianza que ya se ha definido, siga estas instrucciones.
-ms.openlocfilehash: a19a2271caebe2dc0acc6c2c0609e76abfdb338c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3820e426d90a0c35c54798080308319a5184cf0d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626882"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775380"
 ---
 # <a name="external-application-general-settings-expander"></a>Expansor de configuración general de aplicación externa
  

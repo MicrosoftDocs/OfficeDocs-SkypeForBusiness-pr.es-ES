@@ -1,7 +1,7 @@
 ---
 title: tblSystemRevision
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
 description: tblSystemRevision contiene el número de revisión que se utiliza con la tabla tblAdminLock para conseguir coherencia entre varios clientes de administrador.
-ms.openlocfilehash: d2667f216e20566db0e62f57c24895e1030c94d9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54cb50da7b0bba19e45b245784815f1890b2419a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613820"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761888"
 ---
 # <a name="tblsystemrevision"></a>tblSystemRevision
  

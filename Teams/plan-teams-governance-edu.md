@@ -1,7 +1,7 @@
 ---
 title: Preguntas frecuentes de la administración de Microsoft Education para administradores
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9739b33f061f06420dfc194aaa12a12162adf808
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e9af313bc24919f96008d7f1ff5bf7383df3260
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579620"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774450"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Preguntas frecuentes de la administración de Microsoft Education para administradores
 
@@ -38,7 +38,7 @@ Para evitar nombres inapropiados o engañosos, o simplemente para proporcionar m
 -   **Clasificación** Puede crear clasificaciones que los usuarios de su organización pueden establecer al crear un Microsoft 365 grupo. 
 
 > [!IMPORTANT]
-> Usar la directiva de nomenclatura Microsoft 365 grupos requiere licencias Azure Active Directory Premium P1 o licencias educaciones básicas de Azure AD para cada usuario único que sea miembro de uno o varios Microsoft 365 grupos.
+> Usar la directiva de nomenclatura Microsoft 365 grupos de Azure Active Directory Premium P1 requiere licencias Azure Active Directory Premium P1 o licencias educaciones básicas Azure AD cada usuario único que sea miembro de uno o varios Microsoft 365 grupos.
 
 Para obtener instrucciones detalladas, [vea Office directiva de nomenclatura de grupos.](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
@@ -61,7 +61,7 @@ Si está seguro de que desea controlar quién puede crear equipos, vea Administr
 
 Al principio de cada semestre o trimestre, necesitará varios equipos nuevos. Es posible que tenga sentido tomar un enfoque automatizado para crear estos equipos automáticamente, rellenarlos con los usuarios adecuados y establecer los permisos adecuados:
 
--   School Data Sync puede crear grupos de Microsoft 365 para Exchange Online y SharePoint Online, equipos de clase para blocs de notas de clase de Microsoft Teams y OneNote, grupos escolares para Intune para educación e integración de listas e inicio de sesión único (SSO) para muchas otras aplicaciones de terceros. Obtenga más información en [Información general sobre School Data Sync](/schooldatasync/overview-of-school-data-sync).
+-   School Data Sync crear grupos de Microsoft 365 para Exchange Online y SharePoint Online, equipos de clase para blocs de notas de clase de Microsoft Teams y OneNote, grupos educativos para Intune para el sector educativo y listas y inicio de sesión único (SSO) ) para muchas otras aplicaciones de terceros. Obtenga más información en [Información general sobre School Data Sync](/schooldatasync/overview-of-school-data-sync).
 -   Con PowerShell, puede crear equipos y canales y configurar la configuración automáticamente. Vea [Microsoft Teams PowerShell para](/powershell/module/teams/?view=teams-ps) obtener más información.
 -   Puede usar la API Graph Microsoft (actualmente en beta) para crear, configurar, clonar y archivar equipos. Vea [Usar la API Graph Microsoft para trabajar con Microsoft Teams](/graph/api/resources/teams-api-overview) para obtener más información.
 

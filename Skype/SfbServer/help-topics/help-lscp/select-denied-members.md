@@ -1,7 +1,7 @@
 ---
 title: Seleccionar miembros denegados
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Un administrador de chat persistente puede crear y administrar categorías de salón de chat. Como parte de la creación y administración de categorías de salón de chat, un administrador de chat persistente puede configurar entidades de seguridad (grupos/contenedores/usuarios de servicios de dominio de Active Directory) que tienen acceso a ser miembros o creadores de salas de chat de una categoría determinada. Un administrador de chat persistente también puede agregar DeniedMembers a una categoría y estas se convierten en exclusiones explícitas en la lista permitida. DeniedMembers invalida lo que hay en AllowedMembers.
-ms.openlocfilehash: ee1221e7d6b7e898018018e0b7be930f289bec50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c888368f5f26ccfb9f37445c0a0fdddf563a4c71
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612489"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764068"
 ---
 # <a name="select-denied-members"></a>Seleccionar miembros denegados
 

@@ -1,7 +1,7 @@
 ---
 title: Administrar servicios para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: En este artículo se describe cómo administrar los servicios que se ejecutan en una Skype Empresarial Server topología.
-ms.openlocfilehash: be613203b9e15640ead1b136ebe1b89f4c4c50ea
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6ef87e9dfba890e36a0a00fb9d7fd1161ca2f04d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014184"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768698"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Administrar servicios para Skype Empresarial Server
 

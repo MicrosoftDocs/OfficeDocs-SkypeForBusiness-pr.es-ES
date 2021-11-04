@@ -1,7 +1,7 @@
 ---
 title: Crear nodo de ámbito de servidores de chat persistente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Haga clic con el botón secundario en Grupo de chat persistente en el Generador de topologías para realizar lo siguiente:'
-ms.openlocfilehash: d360190053f084a15c8a54a3ae2970a8cab3fb80
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c39123b939da54308e436e7b73f39e1383c07ace
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619876"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775160"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Crear nodo de ámbito de servidores de chat persistente
  

@@ -1,7 +1,7 @@
 ---
 title: Agregar equipo de aplicación de confianza
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e951328e-d06b-4c9d-af21-305b2357188b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique el nombre de dominio completo (FQDN) de cada equipo que desee agregar como servidor de aplicaciones de confianza en este grupo de servidores. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Una vez publicada la topología, para cambiar el nombre de dominio se debe eliminar el servidor del Topology Builder y, a continuación, agregar un nuevo servidor al grupo de servidores con el nuevo nombre de dominio completo.
-ms.openlocfilehash: fd272ebda966646dbdf0c8d92a1292c76fe2fab4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81b11630fbed10b5411e9777651e5b657d4c1558
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584264"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761278"
 ---
 # <a name="add-trusted-application-machine"></a>Agregar equipo de aplicación de confianza
  

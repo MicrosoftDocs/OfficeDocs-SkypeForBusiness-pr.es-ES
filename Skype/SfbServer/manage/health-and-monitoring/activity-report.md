@@ -1,7 +1,7 @@
 ---
 title: Informe de actividad de conferencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 'Summary: Learn about the Conference Activity Report used in Skype Empresarial Server.'
-ms.openlocfilehash: d422f86789c8a488f6a1bbe954689a3e422e990f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcbe28d031abc7803cd8b84a67c3baeef42eff08
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612229"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774950"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Informe de actividad de conferencia en Skype Empresarial Server
  

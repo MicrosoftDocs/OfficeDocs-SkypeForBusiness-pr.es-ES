@@ -1,7 +1,7 @@
 ---
 title: Requisitos del entorno Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumen: configure los requisitos que no son del servidor para Skype Empresarial Server 2015. Hay una variedad de cosas que querrá configurar antes de realizar la implementación, incluidos Active Directory, DNS, Certs y Fileshares.'
-ms.openlocfilehash: e27d854b2755a3d0d8613f12fb80342879faab26
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ab3192e7a9459f86ed61277db682a8b22f0725ec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725959"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749929"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos del entorno Skype Empresarial Server 2015
  
@@ -168,7 +168,7 @@ En esta topología, hay uno o más bosques de usuarios y Skype Empresarial Serve
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Varios bosques en una topología de bosque de recursos con Skype Empresarial Online y Azure Active Directory Conectar
 <a name="BKMK_multipleforestopology"> </a>
 
-![Muestra dos bosques de AD, un bosque de usuarios y un bosque de recursos. Los dos bosques tienen una relación de confianza. Se sincronizan con Microsoft 365 o Office 365 con Azure AD Conectar. Todos los usuarios están habilitados para Skype Empresarial mediante Microsoft 365 o Office 365.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![Muestra dos bosques de AD, un bosque de usuarios y un bosque de recursos. Los dos bosques tienen una relación de confianza. Se sincronizan con Microsoft 365 o Office 365 mediante Azure AD Conectar. Todos los usuarios están habilitados para Skype Empresarial mediante Microsoft 365 o Office 365.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
 Con este escenario, hay varios bosques locales, con una topología de bosque de recursos. Existe una relación de plena confianza entre los bosques de Active Directory. La Azure Active Directory Conectar se usa para sincronizar cuentas entre los bosques de usuarios locales y Microsoft 365 o Office 365.
   

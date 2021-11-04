@@ -1,6 +1,6 @@
 ---
 title: Plan for Meetings clients (Web App and Meetings App)
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumen: los profesionales de TI deben revisar los requisitos de soporte técnico para la aplicación aplicación web de Skype Empresarial y Skype reuniones mientras planean Skype Empresarial Server. Este artículo no está pensado para los usuarios de estas aplicaciones.'
-ms.openlocfilehash: 29464c7dffbeee1a8ae6eed33764453bed948c58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 615fff0be39afd41745087d4dae4ea40385e034b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608027"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762268"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Plan for Meetings clients (Web App and Meetings App)
  
@@ -40,7 +40,7 @@ Más adelante, esos usuarios pueden crear reuniones e invitar a usuarios de fuer
   
 De forma predeterminada, el servidor que hospeda la reunión dirigirá al usuario a descargar e instalar aplicación web de Skype Empresarial para unirse a la reunión. El aplicación web de Skype Empresarial se almacena en el servidor front-end y se envía al asistente a la reunión. 
   
-Por Skype Empresarial Server, Skype Meetings App (en Windows) y Skype Empresarial para Mac (en Mac) están disponibles como reemplazos para aplicación web de Skype Empresarial empezando por CU5, pero proporcionar las aplicaciones de reemplazo requiere la configuración adicional descrita en [Enable Skype Meetings App to replace aplicación web de Skype Empresarial (Optional).](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable) Si Skype Meetings App y Skype Empresarial para Mac están habilitados, los usuarios descargarán la versión más reciente de las aplicaciones desde Microsoft 365 o Office 365 Content Delivery Network (CDN) en lugar de desde el servidor Skype Empresarial. Para Skype Empresarial Server 2019, usar Skype meetings app y Skype Empresarial para Mac es la única opción.
+Por Skype Empresarial Server, Skype Meetings App (en Windows) y Skype Empresarial para Mac (en Mac) están disponibles como reemplazos para aplicación web de Skype Empresarial a partir de CU5, pero proporcionando el las aplicaciones de reemplazo requieren la configuración adicional descrita en [Enable Skype Meetings App to replace aplicación web de Skype Empresarial (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Si Skype meetings App y Skype Empresarial para Mac están habilitados, los usuarios descargarán la versión más reciente de las aplicaciones desde Microsoft 365 o Office 365 Content Delivery Network (CDN) en lugar de desde su Skype Empresarial servidor. Para Skype Empresarial Server 2019, usar Skype meetings app y Skype Empresarial para Mac es la única opción.
   
 Skype Meetings App ofrece una experiencia de explorador simplificada para descargar e instalar la aplicación y unirse a reuniones, incluido unirse con un solo clic para los usuarios de Internet Explorer. Skype Meetings App también tiene muchas mejoras sobre el aplicación web de Skype Empresarial para la confiabilidad y la experiencia de la reunión. 
   

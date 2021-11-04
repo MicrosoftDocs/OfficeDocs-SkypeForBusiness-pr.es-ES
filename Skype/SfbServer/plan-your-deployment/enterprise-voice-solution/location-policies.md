@@ -1,7 +1,7 @@
 ---
 title: Planear directivas de ubicación para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Lea este tema para obtener información sobre cómo planear directivas de ubicación para una implementación mejorada de servicios de emergencia (E9-1-1) en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: b250108fb20a9a1d75069b1036ab7c2fba332443
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d305d2e453c375616dbba7e077c552372767f2ae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601415"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762138"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Planear directivas de ubicación para Skype Empresarial Server
  
@@ -38,7 +38,7 @@ Cada directiva de ubicación contiene la información siguiente:
   
 Cuando se habilita este valor, el cliente está habilitado para servicios de emergencia mejorados (E9-1-1). Cuando un cliente se registra, intenta adquirir una ubicación del servicio de información de ubicación e incluirá la información de ubicación como parte de una llamada de emergencia.
   
- **Ubicación**
+ **Location**
   
 Esta configuración solo se usa cuando **habilitar 9-1-1** mejorado está habilitado.
   

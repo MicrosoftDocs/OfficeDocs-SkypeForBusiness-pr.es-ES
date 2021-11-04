@@ -1,7 +1,7 @@
 ---
 title: Iniciar o detener la captura de registro de CLS en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Summary: Learn how to start or stop a Centralized Logging Service log capture session in Skype Empresarial Server 2015.'
-ms.openlocfilehash: 5ed9630f21e409c240871c981db6346d2d2d9599
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 051ea00f65e6bdcce563c9f4e9d3c0f634e8c09b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726959"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774616"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Iniciar o detener la captura de registro de CLS en Skype Empresarial Server 2015
  
@@ -142,7 +142,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     > No se eliminan los registros creados durante esta sesión de registro con el escenario de UserReplicator. El registro todavía está disponible para que ejecute las búsquedas con el comando Search-CsClsLogging. Para obtener detalles, vea [Search-CsClsLogging](/powershell/module/skype/search-csclslogging?view=skype-ps). 
   
 Actuando como el comando complementario para Start-CsClsLogging, el cmdlet Stop-CsClsLogging termina la sesión de registro, definida por los escenarios, y conserva los registros creados por la sesión de registro. Puede ejecutar dos escenarios en un equipo determinado en cualquier momento. El método de detener un escenario para recopilar información usando otro escenario es una tarea común que puede llevar a cabo durante la mayor parte de la solución de problemas de carga de trabajo.
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="stop"> </a>
 
 [Servicio de registro centralizado en Skype Empresarial 2015](centralized-logging-service.md)

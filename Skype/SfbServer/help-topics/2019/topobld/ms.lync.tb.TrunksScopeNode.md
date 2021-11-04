@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito de troncos
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Haga clic con el botón secundario en Troncos en el Generador de topologías para realizar lo siguiente:'
-ms.openlocfilehash: 8e12ed1aa93bc1b5a2ea9db5c3dd734fe5ca938c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dfb2c6914bc92e3db0b35d0fc764146dd8f0ea29
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729999"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775240"
 ---
 # <a name="trunks-scope-node"></a>Nodo de ámbito de troncos
  

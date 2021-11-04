@@ -1,7 +1,7 @@
 ---
 title: Implementar Skype Empresarial Server 2019
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/9/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumen: explore estos vínculos para obtener información sobre cómo instalar y configurar Skype Empresarial Server 2019.'
-ms.openlocfilehash: 44f1b932451d1e9da3bdf52066ad91d553f86b2b
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: defa81886e5ae2cda536776b35722d3c08e9700e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012144"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761624"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Implementar Skype Empresarial Server 2019
  

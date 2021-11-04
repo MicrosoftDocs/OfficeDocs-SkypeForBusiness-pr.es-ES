@@ -1,7 +1,7 @@
 ---
 title: Uso compartido de pantallas basado en vídeo para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/20/2018
 manager: serdars
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype Empresarial Server planeación y configuración para uso compartido de pantalla basado en vídeo (VbSS)
-ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2921330887b4e52aee5069d2bd1f97992a015ba9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591134"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762338"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Uso compartido de pantallas basado en vídeo para Skype Empresarial Server 
  
@@ -68,7 +68,7 @@ Si QoS está habilitado para los siguientes puertos multimedia y VbSS también e
   
 **Configuración necesaria de QoS/VbSS de Application Server**
 
-|**Property**|**Valor de puerto**|**Protocolo**|
+|**Propiedad**|**Valor de puerto**|**Protocolo**|
 |:-----|:-----|:-----|
 |AudioPortStart  <br/> |49152  <br/> |UDP  <br/> |
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |

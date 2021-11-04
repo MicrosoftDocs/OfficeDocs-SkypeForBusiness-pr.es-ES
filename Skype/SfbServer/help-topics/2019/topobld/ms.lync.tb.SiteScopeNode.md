@@ -1,7 +1,7 @@
 ---
 title: 'Prueba: Nodo de ámbito de sitio de Skype Empresarial Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra uno de los sitios definidos en la topología. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 7523eb1871eb0eb6ea1780cc3818635cbd6886a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1243a5984f847a24471c08157ad0726cb2f19d5f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622642"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769158"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Prueba: Nodo de ámbito de sitio de Skype Empresarial Server
  

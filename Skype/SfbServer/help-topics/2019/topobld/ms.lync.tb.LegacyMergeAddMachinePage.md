@@ -1,7 +1,7 @@
 ---
 title: Combinación de información heredada Agregar equipo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir los equipos que forman el grupo de servidores perimetrales, escriba el nombre de dominio completo (FQDN) de al menos un equipo que forma parte del grupo perimetral consolidado y equilibrado de carga heredado.
-ms.openlocfilehash: 133d7d212ff624098af73c41a776fbc1519d83fb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5c70f907ee1e9953cfebe5d1677c6e7c46f3453c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602875"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775350"
 ---
 # <a name="legacy-merge-add-machine"></a>Combinación heredada de Agregar equipo
  

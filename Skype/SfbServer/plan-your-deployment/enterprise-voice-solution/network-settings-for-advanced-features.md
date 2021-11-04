@@ -1,7 +1,7 @@
 ---
 title: Configuración de red para las características Telefonía IP empresarial avanzadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Obtenga información sobre las regiones de red, los sitios de red y las subredes IP. Todos estos deben configurarse para implementar Plan for media bypass in Skype Empresarial, Plan for call admission control in Skype Empresarial Server) o Plan for emergency services in Skype Empresarial Server in Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 97cf81bb3efa9aa5d4b8717018232d479fcbf2c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd81c9084ca94e7b0884d1c496c153fd964bcf89
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608007"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762118"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configuración de red para las características Telefonía IP empresarial avanzadas en Skype Empresarial Server
 
 Obtenga información sobre las regiones de red, los sitios de red y las subredes IP. Todos estos deben configurarse para implementar [Plan for media bypass in Skype Empresarial](media-bypass.md), Plan for call admission control in [Skype Empresarial Server](call-admission-control.md)o Plan for emergency services [in Skype Empresarial Server](emergency-services.md) in Skype Empresarial Server Telefonía IP empresarial.
 
-Skype Empresarial Server tiene tres características avanzadas de Telefonía IP empresarial: [Plan for call admission control in Skype Empresarial Server](call-admission-control.md), Plan for emergency services in [Skype Empresarial Server](emergency-services.md)y Plan for media bypass [in Skype Empresarial](media-bypass.md). Estas características comparten ciertos requisitos de configuración para las regiones de red, los sitios de red y la asociación de cada subred de la topología Skype Empresarial Server con un sitio de red.
+Skype Empresarial Server tiene tres características avanzadas Telefonía IP empresarial: [Planear](call-admission-control.md)el control de admisión de llamadas en Skype Empresarial Server , Planear los servicios de emergencia en [Skype Empresarial Server](emergency-services.md)y [ Planear la omisión de medios en Skype Empresarial](media-bypass.md). Estas características comparten ciertos requisitos de configuración para las regiones de red, los sitios de red y la asociación de cada subred de la topología Skype Empresarial Server con un sitio de red.
 
 En este tema se proporciona información general sobre los requisitos de configuración que son comunes a las tres características Telefonía IP empresarial avanzadas.
 

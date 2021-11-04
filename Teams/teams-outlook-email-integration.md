@@ -1,7 +1,7 @@
 ---
 title: Teams y Outlook de correo electrónico
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afef90629f771520bc4f61758c9ad6e51f22246a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 16103b19385af5d9e4519302df1ecde62c0b6cc3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734165"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774320"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams y Outlook de correo electrónico
 

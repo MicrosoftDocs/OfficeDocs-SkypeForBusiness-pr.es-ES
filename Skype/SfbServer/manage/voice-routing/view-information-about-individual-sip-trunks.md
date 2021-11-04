@@ -1,7 +1,7 @@
 ---
 title: 'Skype Empresarial Server: ver información sobre troncos SIP individuales'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: En Skype Empresarial Server, se pueden asignar varios troncos a una única puerta de enlace RTC. Las puertas de enlace y los troncos no son iguales y los administradores deben usar el cmdlet Get-CsTrunk para ver información sobre un tronco SIP individual.
-ms.openlocfilehash: 2c39a35ee0a42e2f54e87541cec857b3d90cd2c6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dc5ccfdb5e248d843fb3a8a4e926a7e462097789
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617806"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774720"
 ---
 # <a name="skype-for-business-server---view-information-about-individual-sip-trunks"></a>Skype Empresarial Server: ver información sobre troncos SIP individuales
 

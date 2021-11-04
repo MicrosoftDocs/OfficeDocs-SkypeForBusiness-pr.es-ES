@@ -1,7 +1,7 @@
 ---
 title: Configurar una ruta de región de red
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: d87cfef2202948c70d179698bf2192e4fda75d73
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 872911779e168b97bea846349a7405508ade1d23
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609497"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769028"
 ---
 # <a name="configure-a-network-region-route"></a>Configurar una ruta de región de red
 

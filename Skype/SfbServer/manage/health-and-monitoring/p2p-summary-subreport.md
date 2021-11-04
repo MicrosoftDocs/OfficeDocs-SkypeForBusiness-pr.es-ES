@@ -1,7 +1,7 @@
 ---
 title: Subinforme de resumen P2P en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: 'Summary: Learn about the P2P Summary Subreport in Skype Empresarial Server.'
-ms.openlocfilehash: 8304399106e17654ad350bc0a2e5eff1ecc90ace
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14472ee8ede0e05d56f026561dfd8884c3d6c152
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622332"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774860"
 ---
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Subinforme de resumen P2P en Skype Empresarial Server
  

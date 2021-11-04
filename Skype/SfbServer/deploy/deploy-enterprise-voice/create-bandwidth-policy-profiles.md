@@ -1,7 +1,7 @@
 ---
 title: Crear perfiles de directiva de ancho de banda en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Cree o modifique directivas de ancho de banda, que se usan Telefonía IP empresarial control de admisión de llamadas en Skype Empresarial Server.
-ms.openlocfilehash: 4ba24c7f1fa170386e6d74fc34ef99e580d5ac91
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 458ab2d93f1e099aef32521129700921caebba50
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583214"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761548"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Crear perfiles de directiva de ancho de banda en Skype Empresarial Server 
  

@@ -1,7 +1,7 @@
 ---
 title: Configurar conferencias de acceso telefónico local en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Summary: Read this topic to learn how to configure dial-in conferencing in Skype Empresarial Server.'
-ms.openlocfilehash: 3533220dc84f131b02f180bb863883b371cbf365
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 8cc3a27e9051d0fd73bff68cc4213020d6658844
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013794"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761568"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar conferencias de acceso telefónico local en Skype Empresarial Server
  

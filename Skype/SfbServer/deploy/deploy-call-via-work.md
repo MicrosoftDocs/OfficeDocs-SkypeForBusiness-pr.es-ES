@@ -1,7 +1,7 @@
 ---
 title: Implementar llamadas a través del trabajo en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Summary: Learn how to deploy Call Via Work in Skype Empresarial Server for some or all of your users.'
-ms.openlocfilehash: c6113c4447e30d59a262bf2c02b3f7ff2db171f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 98d7cc08b2cb4101f1d9d062e62ef32a3998691b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624422"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761614"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Implementar llamadas a través del trabajo en Skype Empresarial Server
  

@@ -1,7 +1,7 @@
 ---
 title: Agregar almacén de SQL Server del servidor de archivado
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
-description: El servidor de archivado requiere una edición compatible de 64 bits del software SQL Server base de datos para almacenar los datos de archivo. Puede seleccionar una base de datos de SQL Server definida previamente para el archivado o definir una nueva base de datos de SQL Server especificando un nombre de dominio completo (FQDN) del servidor en el que residirá la base de datos de SQL Server y la instancia de SQL Server que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
-ms.openlocfilehash: b192bc1663585c3edd62dad758498e7b40ffd21c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: El servidor de archivado requiere una edición compatible de 64 bits del software SQL Server base de datos para almacenar los datos de archivo. Puede seleccionar una base de datos SQL Server definida previamente para su archivado o definir una nueva base de datos de SQL Server especificando un nombre de dominio completo (FQDN) del servidor en el que residirá la base de datos de SQL Server y la instancia de SQL Server que desea usar para el nuevo datab de SQL Server ase (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
+ms.openlocfilehash: 11ca3b8a83d565064e573ae8a080f896f846175a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609667"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775470"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>Agregar almacén de SQL Server del servidor de archivado
 
-El servidor de archivado requiere una edición compatible de 64 bits del software SQL Server base de datos para almacenar los datos de archivo. Puede seleccionar una base de datos de SQL Server definida previamente para el archivado o definir una nueva base de datos de SQL Server especificando un nombre de dominio completo (FQDN) del servidor en el que residirá la base de datos de SQL Server y la instancia de SQL Server que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
+El servidor de archivado requiere una edición compatible de 64 bits del software SQL Server base de datos para almacenar los datos de archivo. Puede seleccionar una base de datos SQL Server definida previamente para su archivado o definir una nueva base de datos de SQL Server especificando un nombre de dominio completo (FQDN) del servidor en el que residirá la base de datos de SQL Server y la instancia de SQL Server que desea usar para el nuevo datab de SQL Server ase (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
 
 > [!NOTE]
 > Si la cuenta que se usa para publicar la topología dispone de los permisos y derechos de usuario pertinentes, puede crear la base de datos de archivado (LcsLog) al publicar la topología. La base de datos también puede crearse más adelante, como parte del procedimiento de instalación, o de otra forma.

@@ -1,7 +1,7 @@
 ---
 title: Planear el control de admisión de llamadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Obtenga información sobre el control de admisión de llamadas, que puede impedir que las llamadas tengan lugar si tendrían mala calidad de medios, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: b57d9f4d6a26acb33b03ab1befb9132ffebc9a20
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 59b8d3f74d138e087f4a5b49b7a40d6ec935a829
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725969"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768648"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planear el control de admisión de llamadas en Skype Empresarial Server
 

@@ -1,7 +1,7 @@
 ---
 title: Usar Teams con servicios de escritorio remoto
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8250991790b6fc2e326a31829e8afc3f8659df74
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 063ded4b2e2963ab30126c5af967017bf4981cef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605582"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774370"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams en Servicios de escritorio remoto
 

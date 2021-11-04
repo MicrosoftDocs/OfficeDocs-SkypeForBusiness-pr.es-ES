@@ -1,6 +1,6 @@
 ---
 title: Implementar clientes descargables web en Skype Empresarial Server
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Summary: Deploy the aplicación web de Skype Empresarial and Skype Meetings App used with Skype Empresarial.'
-ms.openlocfilehash: 65b786cbdd999971c5825406087cd8d7f35a155e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c262ab4e9180ae9e02bc899793437a86ffe12ead
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601955"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761598"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implementar clientes descargables web en Skype Empresarial Server
 

@@ -1,7 +1,7 @@
 ---
 title: tblChat
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: tblChat contiene todos los mensajes de chat.
-ms.openlocfilehash: eda5842381767d3ebed9a732ee805f3621ad1160
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 12b5d1e7b7614ad68b054b5344c7758ca7eaa185
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635084"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761927"
 ---
 # <a name="tblchat"></a>tblChat
  

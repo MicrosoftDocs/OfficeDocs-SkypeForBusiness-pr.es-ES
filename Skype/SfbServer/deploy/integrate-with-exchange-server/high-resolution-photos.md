@@ -1,7 +1,7 @@
 ---
 title: Configurar el uso de fotos de alta resolución en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Resumen: configure el uso de fotos de alta resolución en Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 o Exchange Online y Skype Empresarial Server.'
-ms.openlocfilehash: d82a8aa665a699e7589a3a477023be55ea0407ea
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 342d00be9f2c4d52483ff7da931bfc8f47c9e2e2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621802"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761468"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Configurar el uso de fotos de alta resolución en Skype Empresarial Server
  

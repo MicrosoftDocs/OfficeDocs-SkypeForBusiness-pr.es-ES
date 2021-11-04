@@ -1,7 +1,7 @@
 ---
 title: Versión IP (herramienta de planeación)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Tiene tres opciones al configurar direcciones IP en Skype Empresarial Server. Puede configurar Skype Empresarial Server para admitir solo IP versión 4 (IPv4), solo ip versión 6 (IPv6) o una combinación de ambos (conocida como pila dual).
-ms.openlocfilehash: 2eb6b4600626c976375bb5e6bb5091f9fe00fece
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d956f769e849def97df44c101e14642f6543c830
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584294"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775540"
 ---
 # <a name="ip-version-planning-tool"></a>Versión IP (herramienta de planeación)
  

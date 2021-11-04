@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito del servidor front-end
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra la información de configuración de este grupo de servidores front-end o servidor Standard Edition. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 5ba5167ac9300d412bcfdde38e86f0c25a9246f7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1f8bb297965e2ef39d94bd4cb399b00d24c9ad4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628982"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775370"
 ---
 # <a name="front-end-server-scope-node"></a>Nodo de ámbito del servidor front-end
  

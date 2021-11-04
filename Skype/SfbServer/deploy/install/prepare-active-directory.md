@@ -1,7 +1,7 @@
 ---
 title: 'Skype Empresarial Server: Preparar Active Directory'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Resumen: obtenga información sobre cómo preparar el dominio de Active Directory para una instalación de Skype Empresarial Server. Descargue una versión de prueba Skype Empresarial Server desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 928873f44b9cb3ad12069964e1b7f93b410f13de
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 882a57aa5ee857b0a4c633b6365c7a89c6266669
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731641"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775760"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>Skype Empresarial Server: Preparar Active Directory
  
@@ -176,6 +176,6 @@ Vea los pasos de vídeo para **Preparar Active Directory:**
      ![Preparar Active Directory completado.](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
  
 [Servicios de dominio de Active Directory para Skype Empresarial Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)
