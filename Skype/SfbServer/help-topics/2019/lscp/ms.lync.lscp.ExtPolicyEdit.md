@@ -1,7 +1,7 @@
 ---
 title: Directiva de acceso externo Crear nueva o editar existente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: e9783bdee0cdb08731b716b89a43ff207414e619
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b055f88cbe10ac7db0d22054c7b038c25389cff2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595954"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760338"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>Directiva de acceso externo: Crear nuevos o editar los existentes
 

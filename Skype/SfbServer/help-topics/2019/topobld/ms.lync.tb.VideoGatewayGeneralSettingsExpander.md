@@ -1,7 +1,7 @@
 ---
 title: Configuración general de la puerta de enlace de vídeo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5d1485ab-f912-4153-9839-4717f0314729
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server.
-ms.openlocfilehash: 6e70cdcc824f549ec3f2c6314b77b18283f7a4ae
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6df7122036a8a32c8779f732825cc4ea38f4f718
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618046"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761108"
 ---
 # <a name="video-gateway-general-settings"></a>Configuración general de la puerta de enlace de vídeo
  

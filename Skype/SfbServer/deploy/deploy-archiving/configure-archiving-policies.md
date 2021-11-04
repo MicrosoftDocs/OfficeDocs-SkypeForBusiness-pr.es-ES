@@ -1,7 +1,7 @@
 ---
 title: Configurar directivas de archivado para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 'Resumen: lea este tema para obtener información sobre cómo configurar directivas de archivado iniciales para Skype Empresarial Server usuarios.'
-ms.openlocfilehash: 545febf0e84aa7ff9ad6295978f88a2dca406792
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 62e61d951c7e05effa68afd13c849c027b40a896
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611299"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749529"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configurar directivas de archivado para Skype Empresarial Server
  

@@ -1,7 +1,7 @@
 ---
 title: Habilitar la calidad de la experiencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: 'Summary: learn how to enable Quality of Experience (QoE) in Skype Empresarial Server.'
-ms.openlocfilehash: 3edd7aa136499dcc4b1fd423a1369dcff33f0968
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: aa1f755dbc19da959f54f6af882bff2049363d6f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014754"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767708"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Habilitar la calidad de la experiencia en Skype Empresarial Server
 
@@ -70,7 +70,7 @@ Puede habilitar QoE mediante Windows PowerShell y el cmdlet **Set-CsQoEConfigura
 
 Para obtener más información, [vea Set-CsQoEConfiguration](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps).
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planeación de la supervisión](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 

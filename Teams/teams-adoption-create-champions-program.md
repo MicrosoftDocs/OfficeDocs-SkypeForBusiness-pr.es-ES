@@ -1,7 +1,7 @@
 ---
 title: Crear su programa para expertos para Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -21,12 +21,12 @@ f1.keywords:
 description: Aprenda a formar a un equipo de campeones para promover Teams adopción mediante concienciación, adopción y educación en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9a6c9c81b1f36655d99b9fdfeecacda406bab6f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: aba4c0ffcf13e93c0fd0c39a64a8135e54fa592f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731189"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760408"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 

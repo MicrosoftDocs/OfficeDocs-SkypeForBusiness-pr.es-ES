@@ -1,7 +1,7 @@
 ---
 title: Configurar el servidor de administración principal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Summary: Configure your primary management server, install System Center Operations Manager, and import management packs for Skype Empresarial Server 2019.'
-ms.openlocfilehash: e5bbe28afbc3b579700686b1fab1af3f420dd83e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 8dd5b3ff94f393ccce88dd5a27bd8133810b4c1c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012544"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760348"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype Empresarial Server: Configurar el servidor de administración principal
 

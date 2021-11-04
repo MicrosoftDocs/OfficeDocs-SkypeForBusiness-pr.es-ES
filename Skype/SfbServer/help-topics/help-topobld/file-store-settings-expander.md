@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración de almacén de archivos
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 description: 'Para editar las propiedades de los almacenes de archivos definidos:'
-ms.openlocfilehash: e81e1c20a66c0d379debc6af33e47ea9b87a55d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0391348cf394d8efc09894f1124f598796f82c4b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600165"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760794"
 ---
 # <a name="file-store-settings-expander"></a>Expansor de configuración de almacén de archivos
  

@@ -1,7 +1,7 @@
 ---
 title: Planear la actualización a Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Summary: Learn about the things you should consider when you plan an upgrade to Skype Empresarial Server 2015. Descargue una prueba gratuita de Skype Empresarial Server 2015 desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: e503fc555901a78fb2a6cc0fa5b7bc7f112f3eb2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3cd670d239d04f51ef8268ca74e0bba13f29d249
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729249"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768488"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planear la actualización a Skype Empresarial Server 2015
  
@@ -186,7 +186,7 @@ Al migrar una topología de Lync Server 2010 a Skype Empresarial Server 2015, el
   
 Para topologías de coexistencia de Lync Server 2010 y Lync Server 2013, alinee primero las recomendaciones realizadas en la sección "Compatibilidad para la coexistencia con Lync Server 2013 y Lync Server 2010".
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
 [Actualizar a Skype Empresarial Server 2015](../deploy/upgrade-to-skype-for-business-server.md)

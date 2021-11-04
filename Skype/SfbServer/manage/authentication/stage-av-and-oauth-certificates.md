@@ -1,7 +1,7 @@
 ---
 title: Stage AV and OAuth certificates in Skype Empresarial Server using -Roll in Set-CsCertificate
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Resumen: Certificados de fase AV y OAuth para Skype Empresarial Server.'
-ms.openlocfilehash: 335b1a3db8044329fd8055cf2a97f6e4e2bffc02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0d5a5a68ac63b514967b33692abfeb15d8459995
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591224"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767858"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Stage AV and OAuth certificates in Skype Empresarial Server using -Roll in Set-CsCertificate
  
@@ -88,8 +88,8 @@ Para comprender mejor el proceso que Set-CsCertificate, -Roll y -EffectiveDate u
 |:-----|:-----|
 |1  <br/> |Inicio: 7/22/2015 12:00:00 AM  <br/> El certificado AudioVideoAuthentication actual expirará a las 2:00:00 PM del 22/2015. Esto viene determinado por la marca de tiempo de expiración en el certificado. Planee el reemplazo y la reversión del certificado para que se den cuenta de una superposición de 8 horas (duración predeterminada del token) antes de que el certificado existente alcance el tiempo de expiración. En este ejemplo, se usa el tiempo de ejecución de las 2:00:00 a.m. para permitir al administrador el tiempo adecuado para colocar y aprovisionar los nuevos certificados antes del tiempo efectivo de las 6:00:00 a.m.  <br/> |
 |2  <br/> |22/7/2015 2:00:00 AM - 7/22/2015 5:59:59 AM  <br/> Establecer certificados en servidores perimetrales con un tiempo efectivo de 6:00:00 a.m. (el tiempo de ejecución de 4 horas es para este ejemplo, pero puede ser más largo) mediante Set-CsCertificate -Type \<certificate usage type\> -Thumbprint \<thumbprint of new certificate\> -Roll -EffectiveDate \<datetime string of the effective time for new certificate\>  <br/> |
-|3   <br/> |22/7/2015 6:00 AM - 7/22/2015 2:00 PM  <br/> Para validar tokens, el nuevo certificado se intenta primero y, si el nuevo certificado no puede validar el token, se intenta el certificado antiguo. Este proceso se usa para todos los tokens durante el período de superposición de 8 horas (duración predeterminada del token).  <br/> |
-|4   <br/> |Fin: 22/7/2015 2:00:01 PM  <br/> El certificado antiguo ha expirado y el nuevo certificado se ha hecho cargo. El certificado antiguo se puede quitar de forma segura Remove-CsCertificate -Type \<certificate usage type\> -Previous  <br/> |
+|3  <br/> |22/7/2015 6:00 AM - 7/22/2015 2:00 PM  <br/> Para validar tokens, el nuevo certificado se intenta primero y, si el nuevo certificado no puede validar el token, se intenta el certificado antiguo. Este proceso se usa para todos los tokens durante el período de superposición de 8 horas (duración predeterminada del token).  <br/> |
+|4  <br/> |Fin: 22/7/2015 2:00:01 PM  <br/> El certificado antiguo ha expirado y el nuevo certificado se ha hecho cargo. El certificado antiguo se puede quitar de forma segura Remove-CsCertificate -Type \<certificate usage type\> -Previous  <br/> |
    
 Cuando se alcanza el tiempo efectivo (22/22/2015 6:00:00 AM), el nuevo certificado emite todos los tokens nuevos. Cuando se validan los tokens, estos se validarán primero con el nuevo certificado. Si se produce un error en la validación, se prueba el antiguo certificado. El proceso de probar el nuevo y recurrir al antiguo certificado continuará hasta la hora de expiración del antiguo certificado. Una vez que el certificado antiguo ha expirado (22/7/2015 2:00:00 PM), los tokens solo serán validados por el nuevo certificado. El certificado antiguo se puede quitar de forma segura mediante el cmdlet Remove-CsCertificate con el parámetro -Previous.
 

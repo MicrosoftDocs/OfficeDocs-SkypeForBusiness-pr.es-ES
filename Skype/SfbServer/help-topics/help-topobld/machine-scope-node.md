@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito de equipo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del servidor y la configuración de la dirección IP del servidor. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 67a81ba8d6c9c3c811beb91f9bcb5ac3ff3b447e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 158913442441abcaa05737f7e78a96c22bfa8d2c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591304"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760778"
 ---
 # <a name="machine-scope-node"></a>Nodo de ámbito de equipo
  

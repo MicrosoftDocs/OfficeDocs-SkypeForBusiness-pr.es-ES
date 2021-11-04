@@ -1,7 +1,7 @@
 ---
 title: Implementar el servidor de chat persistente en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: 'Summary: Read this topic to learn how to deploy Skype Empresarial Server 2015 Persistent Chat Server.'
-ms.openlocfilehash: ad0b78366613355859f8fec512d427ef3e3d5bdb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2fa97848809a05f87a700d71decd2c61be26bb70
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619206"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759012"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>Implementar el servidor de chat persistente en Skype Empresarial Server 2015
  

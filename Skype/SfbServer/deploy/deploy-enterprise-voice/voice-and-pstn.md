@@ -1,7 +1,7 @@
 ---
 title: Configurar directivas de voz, registros de uso de RTC y rutas de voz en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: 'Resumen: obtenga información sobre cómo configurar directivas de voz, registros de uso de RTC y rutas de voz en Skype Empresarial Server.'
-ms.openlocfilehash: d38e843645b9c3e45103fb7ea52f4c5f7cd5ceea
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 62fcd557a0cdbaf8064e49f7c1c695f0f6f31880
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621842"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759062"
 ---
 # <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Configurar directivas de voz, registros de uso de RTC y rutas de voz en Skype Empresarial
  

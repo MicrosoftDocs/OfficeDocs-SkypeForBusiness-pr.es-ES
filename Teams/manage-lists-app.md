@@ -1,7 +1,7 @@
 ---
 title: Administrar la aplicación Lists para su organización
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: anach,v-jasuk
 manager: serdars
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 9b8d593d4f3238bb588159290655f1aa241beffc
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fdcb2b5bee239bd5dada14689080c3e1cca248a9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727009"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746446"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Lists para su organización en Microsoft Teams
 

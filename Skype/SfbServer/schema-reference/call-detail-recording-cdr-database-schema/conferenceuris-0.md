@@ -1,7 +1,7 @@
 ---
 title: Vista ConferenceUris
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
 description: La vista ConferenceUris almacena información sobre los URI que han participado en sesiones de conferencia. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 40c4538df2b551b86826b3601b901f66b4e917d5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79b4efda696bd757cb63d681e2c82f00d7a7b263
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598694"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749899"
 ---
 # <a name="conferenceuris-view"></a>Vista ConferenceUris
  

@@ -1,7 +1,7 @@
 ---
 title: tblFileToken
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 description: La tabla tblFileToken contiene símbolos temporales con fines de transferencia de archivos.
-ms.openlocfilehash: d39eeaec0bd2b9ba799b45d6feca06d8751536e3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18c9ca4927c8d31f9fb519ce43035003ffd1d286
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582584"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749769"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  

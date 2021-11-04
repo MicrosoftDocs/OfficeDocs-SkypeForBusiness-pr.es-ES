@@ -1,7 +1,7 @@
 ---
 title: Lista de tablas de QoE
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: El esquema de la base de datos incluye las tablas siguientes.
-ms.openlocfilehash: 1d6d60d06dcb6cbfdde6a4fdbbd2746d00aa8531
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0532d1574bcbbe80a58195d2c14ea6920375153f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601275"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767298"
 ---
 # <a name="list-of-qoe-tables"></a>Lista de tablas de QoE
  

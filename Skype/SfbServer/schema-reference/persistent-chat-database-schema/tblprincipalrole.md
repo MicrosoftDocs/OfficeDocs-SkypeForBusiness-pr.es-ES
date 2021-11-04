@@ -1,7 +1,7 @@
 ---
 title: tblPrincipalRole
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
 description: La tabla PrincipalRole contiene roles explícitos asignados a nodos.
-ms.openlocfilehash: e899bc7763966ab3d7dd537aa162d8a716f958b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bedb7025605dc5cd3e5808ac265931d8623060b3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603799"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767328"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  

@@ -1,7 +1,7 @@
 ---
 title: Tabla MediaList
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/12/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: La lista MediaList es una tabla estática que almacena la lista de los diferentes tipos de medios.
-ms.openlocfilehash: a72a409e9cc50fb5c8a7b340674276299e0ac4e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00667806e5099db35cce29b07248569faf09ee24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596424"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767498"
 ---
 # <a name="medialist-table"></a>Tabla MediaList
  

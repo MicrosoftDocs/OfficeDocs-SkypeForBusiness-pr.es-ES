@@ -1,7 +1,7 @@
 ---
 title: Tabla ConferenceJoinTimeThresholds en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 description: 'La tabla ConferenceJoinTimeThresholds contiene los límites de clasificación usados por el informe de resumen de hora de incorporación a la conferencia. El informe de resumen de hora de incorporación a la conferencia resume el tiempo que necesitaron los usuarios para unirse a la conferencia. Estos valores de tiempo se registran como promedio y en una de las categorías siguientes:'
-ms.openlocfilehash: 0102e8e99b09ab53a26f77405ebb2a86c3c9f09d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61267cb92e543da3b07b97bd344bc07d2845d6a6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630374"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749909"
 ---
 # <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>Tabla ConferenceJoinTimeThresholds en Skype Empresarial Server 2015
  
@@ -39,6 +39,6 @@ Esta tabla se introdujo en Microsoft Lync Server 2013.
 |**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
 |**ThresholdId** <br/> |Entero  <br/> |Principal  <br/> |Identificador único de la clasificación.  <br/> |
-|**ThresholdValue** <br/> |Entero  <br/> || Límite máximo de la clasificación. Los valores permitidos son: <br/>  2 <br/>  5  <br/>  10 <br/> |
+|**ThresholdValue** <br/> |Entero  <br/> || Límite máximo de la clasificación. Los valores permitidos son: <br/>  2 <br/>  5 <br/>  10 <br/> |
    
 

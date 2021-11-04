@@ -1,6 +1,6 @@
 ---
 title: Skype Implementaciones locales de bosque único del sistema de sala
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Lea este tema para obtener información sobre cómo implementar Skype room system en un único bosque entorno local.
-ms.openlocfilehash: 7a68171ebf8d56b61ed77c6cef9739b701a0c07e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8768ecfa8aba01074bee5315580fde79ba9c3afc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591944"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759152"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Implementaciones locales de bosque único del sistema de sala
  

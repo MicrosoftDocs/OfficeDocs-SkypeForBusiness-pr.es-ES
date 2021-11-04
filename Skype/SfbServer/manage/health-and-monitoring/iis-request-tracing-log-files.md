@@ -1,7 +1,7 @@
 ---
 title: Supervisión de archivos de registro de seguimiento de solicitudes iis en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: 'Summary: Learn about the Mobility Service (Mcx) in Skype Empresarial Server 2015 support for legacy clients.'
-ms.openlocfilehash: 3a07279a099df44e72b65475af63340f27dc35d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 36a376428191723d8cc4d2d6e100391646c7e7c9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632884"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767678"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Supervisión de archivos de registro de seguimiento de solicitudes iis en Skype Empresarial Server 2015
  

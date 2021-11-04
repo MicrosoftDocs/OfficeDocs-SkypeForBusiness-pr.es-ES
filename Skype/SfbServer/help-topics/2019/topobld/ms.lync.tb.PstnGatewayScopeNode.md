@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito de puerta de enlace de RTC
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN), el servidor de mediación asociado e información básica relativa a esta puerta de enlace de RTC. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: d9bcfdde0f77d5bfe0f19e6c5bda5af1f596b965
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcad34392b76e19deb18611e0585d086d363a1cb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624072"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766898"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nodo de ámbito de puerta de enlace de RTC
  

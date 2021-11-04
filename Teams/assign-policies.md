@@ -1,7 +1,7 @@
 ---
 title: Asignar directivas a los usuarios de Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tomkau, saragava, ritikag, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar directi
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: ed0ed4b03d6472a646cd19897b33a22b2fc4df06
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: e29ee61183b0c831fc6d638bf20e6edaab050e8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456370"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760558"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Asignar directivas a los usuarios de Microsoft Teams
 
@@ -380,9 +380,9 @@ Connect-MicrosoftTeams
 
 Cuando se le solicite, inicie sesión con sus credenciales de administrador.
 
-#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Instalar y conectarse a Azure AD PowerShell para Graph módulo (opcional)
+#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Instalar y conectarse al Azure AD PowerShell para Graph (opcional)
 
-Es posible que también desee descargar e instalar el módulo [Azure AD PowerShell](/powershell/azure/active-directory/install-adv2) para Graph (si aún no lo ha hecho) y conectarse a Azure AD para que pueda recuperar una lista de usuarios de su organización.
+Es posible que también desee descargar e instalar el módulo [Azure AD PowerShell](/powershell/azure/active-directory/install-adv2) para Graph (si aún no lo ha hecho) y conectarse Azure AD para que pueda recuperar una lista de usuarios de su organización.
 
 Ejecute lo siguiente para conectarse a Azure AD.
 
@@ -401,7 +401,7 @@ $users_ids = Get-Content .\users_ids.txt
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
 ```
 
-En este ejemplo, nos conectamos a Azure AD para recuperar una colección de usuarios y, a continuación, asignamos una directiva de mensajería denominada Nueva directiva de mensajería de contratación a un lote de usuarios especificado mediante su dirección SIP.
+En este ejemplo, nos conectamos a Azure AD para recuperar una colección de usuarios y, después, asignar una directiva de mensajería denominada Nueva directiva de mensajería de contratación a un lote de usuarios especificado mediante su dirección SIP.
 
 ```powershell
 Connect-AzureAD

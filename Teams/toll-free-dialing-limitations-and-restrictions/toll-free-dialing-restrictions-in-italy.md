@@ -1,6 +1,6 @@
 ---
 title: Restricciones de marcado gratuitos en Italia
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad de servicios gratuitos en los que el servicio gratuito está disponible. El formato o los formatos de marcado muestran los códigos de acceso necesarios en cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 04bf9363511293a4c43bf0f035d6b692365c3156
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: efb87d7032e8313d5fab979b1adcb17ecddea292
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601065"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760358"
 ---
 # <a name="toll-free-dialing-restrictions-in-italy"></a>Restricciones de marcado gratuitos en Italia
 

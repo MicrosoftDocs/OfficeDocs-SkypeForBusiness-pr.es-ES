@@ -1,7 +1,7 @@
 ---
 title: Planear la aplicación grupo de respuesta en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planeación de grupos de respuesta en Skype Empresarial Server Telefonía IP empresarial, lo que permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos de archivo de audio.
-ms.openlocfilehash: 41decf3e61e32867dd6b1d726bb551f8c2ae38f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ca8159ca3d6fc37aa5c8f1f3f88f8188929f71f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631584"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767558"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planear la aplicación grupo de respuesta en Skype Empresarial Server
 
@@ -148,7 +148,7 @@ La herramienta de configuración de grupo de respuesta admite las combinaciones 
 |Windows Server 2008 con SP2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 con Service Pack 1  <br/> |Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows Server 2012  <br/> ||
-|Windows Server 2012 R2  <br/> ||
+|Windows Server 2012 R2  <br/> ||
 
 ### <a name="response-group-agent-console"></a>Consola del agente del grupo de respuesta
 
@@ -166,7 +166,7 @@ La consola de agente admite combinaciones de los sistemas operativos y los explo
 |Windows Server 2008 con Service Pack 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 con Service Pack 1  <br/> |Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
 |Windows Server 2012  <br/> |
-|Windows Server 2012 R2  <br/> |
+|Windows Server 2012 R2  <br/> |
 
 ## <a name="client-support"></a>Compatibilidad con clientes
 
@@ -209,7 +209,7 @@ En la tabla siguiente se describe el modelo de usuario grupo de respuesta que pu
 
 |**Métrica**|**Por Enterprise Edition de <br/> servidores (con 8 servidores front-end)**|**Por Standard Edition servidor**|
 |:-----|:-----|:-----|
-|Llamadas entrantes por segundo  <br/> |16   <br/> |2  <br/> |
+|Llamadas entrantes por segundo  <br/> |16  <br/> |2  <br/> |
 |Llamadas simultáneas conectadas a IVR o MoH  <br/> |480  <br/> |60  <br/> |
 |Sesiones anónimas simultáneas (sin mensajería instantánea)  <br/> |224  <br/> |28  <br/> |
 |Sesiones anónimas simultáneas (con MI)  <br/> |64  <br/> |8   <br/> |

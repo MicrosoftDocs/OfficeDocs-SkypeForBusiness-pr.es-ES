@@ -1,7 +1,7 @@
 ---
 title: Cambiar las opciones de base de datos de archivado en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 'Resumen: obtenga información sobre cómo cambiar las opciones de la base de datos de archivado para Skype Empresarial Server.'
-ms.openlocfilehash: 6fecfb4a10020c031ccd2b6ccebda1b016fd24ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 240d590b7f22e4756351939be6ecab55ea108b79
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580704"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767938"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Cambiar las opciones de base de datos de archivado en Skype Empresarial Server
 
@@ -36,7 +36,7 @@ Para realizar cualquiera de estos cambios, debe ejecutar el Generador de topolog
 1. En un equipo que ejecuta Skype Empresarial Server o en el que están instaladas las herramientas administrativas de Skype Empresarial Server, inicie sesión con una cuenta que sea miembro del grupo usuarios local (o una cuenta con derechos de usuario equivalentes).
     
     > [!NOTE]
-    > Puede definir una topología mediante una cuenta que sea miembro del grupo usuarios local, pero para publicar una topología, que es necesaria para agregar  un componente a la topología, debe usar una cuenta que sea miembro del grupo Administradores de dominio y del grupo **RTCUniversalServerAdmins,** y que tenga permisos de control total (es decir, lectura, escritura y modificación) en el recurso compartido de archivos que está usando para el almacén de archivos de Skype Empresarial Server (es decir, para que el Generador de topologías pueda configurar las listas de control de acceso discrecional (DAC) necesarias o una cuenta con derechos equivalentes.
+    > Puede definir una topología mediante una cuenta que sea miembro del grupo usuarios local, pero para publicar una topología, que es necesaria para agregar  un componente a la topología, debe usar una cuenta que sea miembro del grupo Administradores de dominio y del grupo **RTCUniversalServerAdmins,** y que tenga permisos de control total (es decir,  read, write, and modify) on the file share that you are using for the Skype Empresarial Server file store (that is, so that Topology Builder can configure the discretionary access control lists (DACLs), or an account with equivalent rights.
   
 2. Inicie el Generador de topologías.
     
@@ -78,7 +78,7 @@ Para realizar cualquiera de estos cambios, debe ejecutar el Generador de topolog
     
        c. Si la instancia SQL Server especificada está en una relación de creación de reflejo, active la casilla Esta instancia **SQL** está en relación de creación de reflejos y, a continuación, en Número de puerto **reflejado,** especifique el número de puerto.
     
-   - Si habilita la creación de reflejos de SQL Server y desea agregar o cambiar un testigo de creación de reflejo de SQL Server (una tercera instancia independiente de SQL Server que pueda detectar el estado del servidor principal de SQL Server y las instancias reflejadas **SQL Server),** active la casilla Usar un testigo de creación de reflejos para habilitar la conmutación por error automática y, a continuación, realice una de las siguientes acciones:
+   - Si habilita la creación de reflejos de SQL Server y desea agregar o cambiar un testigo de creación de reflejo de SQL Server (una tercera instancia de SQL Server independiente que pueda detectar el estado del servidor principal de SQL Server y las instancias reflejadas SQL Server), active la casilla Usar un testigo de creación de reflejos para habilitar la conmutación por error automática **y, a** continuación,  realice una de las siguientes acciones:
     
       a. En **SQL Server FQDN**, especifique el FQDN del servidor en el que desea crear el nuevo testigo SQL Server creación de reflejo.
     

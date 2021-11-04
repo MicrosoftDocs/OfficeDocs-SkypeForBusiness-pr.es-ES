@@ -1,7 +1,7 @@
 ---
 title: Vista SessionDetails
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: La vista SessionDetails almacena información sobre sesiones punto a punto, que podrían ser una llamada telefónica VoIP-VoIP, una sesión de mensajería instantánea (MI) entre dos partes o cualquier otro tipo de sesión. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 454cefc905409e0488121addab2cac5df55ef34d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a278960912ac38dc75fe398e3d75de710785800
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625132"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767458"
 ---
 # <a name="sessiondetails-view"></a>Vista SessionDetails
  
@@ -73,7 +73,7 @@ La vista SessionDetails almacena información sobre sesiones punto a punto, que 
 |**FromUserFlag** <br/> |smallint  <br/> |Indica los atributos del usuario que inició la sesión. Las definiciones de atributos permitidas son las siguientes:  <br/> 0x01 - Integrado en teléfono de escritorio  <br/> |
 |**ToUserFlag** <br/> |smallint  <br/> |Indica los atributos del usuario que inició la sesión. Las definiciones de atributos permitidas son las siguientes:  <br/> 0x01 - Integrado en teléfono de escritorio  <br/> |
 |**CallFlag** <br/> |smallint  <br/> |Indica los atributos de llamada. Se permiten las siguientes definiciones de atributo:  <br/> 0x01 - Reintento de sesión  <br/> 0x02 - Una llamada realizada por un agente en nombre de un Grupo de respuesta  <br/> |
-|**Ubicación** <br/> |varchar(max)  <br/> |Ubicación de una llamada de emergencia.  <br/> |
+|**Location** <br/> |varchar(max)  <br/> |Ubicación de una llamada de emergencia.  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> |Para uso interno del servicio de supervisión.  <br/> Este campo se introdujo en Skype Empresarial Server 2015.  <br/> |
    
 

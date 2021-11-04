@@ -1,7 +1,7 @@
 ---
 title: Lista de vistas de CDR
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: Las vistas proporcionan una manera sencilla de acceder a la información sobre los escenarios más comunes utilizados para devolver datos de la base de datos de CDR. Se recomienda usar vistas para crear informes personalizados en lugar de usar las tablas de base de datos cdr reales ; esto se debe a que es más probable que las vistas de base de datos mantengan la compatibilidad con versiones anteriores con versiones futuras.
-ms.openlocfilehash: 24effb3b8c90721550ac813342965142f0e29875
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7154319dba584516dcff3c41d23e5af31bee4621
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626482"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746616"
 ---
 # <a name="list-of-cdr-views"></a>Lista de vistas de CDR
  

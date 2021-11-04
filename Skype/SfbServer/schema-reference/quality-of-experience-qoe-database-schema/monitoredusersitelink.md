@@ -1,7 +1,7 @@
 ---
 title: Tabla MonitoredUserSiteLink
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
 description: La tabla MonitoredUserSiteLink es una tabla auxiliar. Cada registro representa un vínculo entre dos sitios de usuario.
-ms.openlocfilehash: a5a8802f3821fff3d08c2365d4f76655b5824606
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3cc8c11f049e98223c80756eb2dc83f1b9354ec7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610577"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768368"
 ---
 # <a name="monitoredusersitelink-table"></a>Tabla MonitoredUserSiteLink
  

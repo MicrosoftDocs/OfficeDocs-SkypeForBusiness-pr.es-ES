@@ -1,7 +1,7 @@
 ---
 title: Seleccionar un servicio
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Use el cuadro de diálogo Seleccionar un servicio para buscar servicios disponibles en su entorno. Para usar un servicio existente, haga clic en un servicio de la lista y, a continuación, haga clic en Aceptar.
-ms.openlocfilehash: c56da3540ba7a7563092bee8275f67f4401192ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc4f3f7c52bc1cb97b4f67c999fa0b417c71d053
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595774"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752159"
 ---
 # <a name="select-a-service"></a>Seleccionar un servicio
 

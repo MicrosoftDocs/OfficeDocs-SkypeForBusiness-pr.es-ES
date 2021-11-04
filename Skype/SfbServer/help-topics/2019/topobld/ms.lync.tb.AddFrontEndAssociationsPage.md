@@ -1,7 +1,7 @@
 ---
 title: Agregar asociaciones front-end
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede habilitar la compatibilidad con determinadas características que requieran la implementación de otros servidores asociando los roles de servidor con el grupo de servidores front-end ahora. También puede asociar los roles de servidor con el grupo de servidores front-end más adelante. Los roles de servidor que se pueden asociar con un grupo de servidores front-end incluyen:'
-ms.openlocfilehash: cb83c621b18b5864180a31327c50a014ff37590a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a4b0a563576a99a08e020e82bab7637e6900fd13
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587704"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761228"
 ---
 # <a name="add-front-end-associations"></a>Agregar asociaciones front-end
 

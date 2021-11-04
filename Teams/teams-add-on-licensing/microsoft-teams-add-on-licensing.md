@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams de complementos
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: mikedav
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre las licencias de complementos para Microsoft Teams y las características que obtiene con cada licencia.
-ms.openlocfilehash: 238b49964169e3128cd18d47eddc1f39255823aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 456d65bee894fa57483ac48223d79074c2b9e4c4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630012"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767128"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams de complementos
 

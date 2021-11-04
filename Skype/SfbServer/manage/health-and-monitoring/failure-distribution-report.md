@@ -1,7 +1,7 @@
 ---
 title: Informe de distribución de errores en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 'Resumen: obtenga información sobre el informe de distribución de errores en Skype Empresarial Server.'
-ms.openlocfilehash: e2b925a84237ed0ef88012e63f9e5db4b561dd27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f34c326225fd4b923027b4f476b89cc68b5f224
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636064"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767698"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>Informe de distribución de errores en Skype Empresarial Server
  

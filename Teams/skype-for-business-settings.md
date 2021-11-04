@@ -1,7 +1,7 @@
 ---
 title: Administrar Skype Empresarial configuración en el centro Microsoft Teams administración
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar la configuración de Skype Empresarial características en el centro Microsoft Teams administración.
-ms.openlocfilehash: a21ea4d51902fc755f1a36e58e3faf0f70fa837b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 90748d968b2540ea6ee7e5c542623ceb0bc0fbb1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731755"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767138"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Administrar Skype Empresarial configuración en el centro Microsoft Teams administración
 
@@ -42,7 +42,7 @@ Solo verá la página de **Skype Empresarial** si el modo de coexistencia de su 
 > [!NOTE]
 > Skype Empresarial configuración anterior se encontraba en **el portal** heredado del centro de Microsoft Teams administración. Con la retirada del portal heredado, migramos la configuración a estas nuevas ubicaciones en el centro de administración de Teams para Skype Empresarial administración.
 
-Debe tener asignado el rol de administrador de [Azure AD](/azure/active-directory/roles/permissions-reference) de administrador global o Skype Empresarial administrador para administrar Skype Empresarial características en el centro Microsoft Teams administración.
+Debe tener asignado [](/azure/active-directory/roles/permissions-reference) el rol Azure AD administrador global o Skype Empresarial administrador para administrar Skype Empresarial características en el centro Microsoft Teams administración.
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>Administrar Skype Empresarial configuración de la organización
 

@@ -1,7 +1,7 @@
 ---
 title: tblPrincipalMembers
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9a3e24cf-6ef7-4b82-99fc-50ba41800b6f
 description: tblPrincipalMembers contiene pertenencias de la entidad principal.
-ms.openlocfilehash: e35b64a34114a7135133175211ecec5a806332b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1763244620d8ffd0ed86837b18eabc97bc72781
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626462"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749739"
 ---
 # <a name="tblprincipalmembers"></a>tblPrincipalMembers
  

@@ -1,7 +1,7 @@
 ---
 title: Registro detallado de llamadas (CDR) en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 'Summary: Learn about the Call detail recording (CDR) records used in Skype Empresarial Server.'
-ms.openlocfilehash: 0453bbe4e8bbd4a9bf8c2fe06b33599375171280
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93085e0078456cfe371eafe1103bd54ae8006802
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610657"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767768"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Registro detallado de llamadas (CDR) en Skype Empresarial Server
  

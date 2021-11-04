@@ -1,7 +1,7 @@
 ---
 title: Usuarios Ver chat persistente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los miembros del rol CsPersistentChatAdministrator (administradores de chat persistente) pueden conceder permisos y derechos de administrador de salas de chat a otros usuarios y a sí mismos.
-ms.openlocfilehash: 76dab78156888f2858a77c80bd125779995e5085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2ba6a7a79e8ecd234a56c37b0b0d85a344fdd5eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610007"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758832"
 ---
 # <a name="users-view-persistent-chat"></a>Usuarios Ver chat persistente
 

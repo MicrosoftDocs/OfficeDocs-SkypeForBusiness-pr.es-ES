@@ -1,7 +1,7 @@
 ---
 title: Informe de mensajería instantánea punto a punto en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 'Summary: Learn about the Peer-to-Peer IM Report in Skype Empresarial Server.'
-ms.openlocfilehash: 26edc017b0877d08a5990e88dcfaf830bb7e4851
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 999750f039b2ca57cc31198bcf1599f042763ed3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632874"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767668"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Informe de mensajería instantánea punto a punto en Skype Empresarial Server
  
@@ -70,7 +70,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 
 |**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Tipo de autenticación** <br/> |No  <br/> | Tipo de autenticación utilizado por los participantes de la sesión. Los valores suelen ser los siguientes: <br/>  Empresa <br/>  Federado <br/>  PIC <br/> |
+|**Tipo de autenticación** <br/> |No  <br/> | Tipo de autenticación utilizado por los participantes de la sesión. Los valores suelen ser los siguientes: <br/>  Enterprise <br/>  Federado <br/>  PIC <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha y hora en las que tuvo lugar la sesión.  <br/> |
 |**Total** <br/> |No  <br/> |Número total de sesiones o recuento total de mensajes.  <br/> |
    

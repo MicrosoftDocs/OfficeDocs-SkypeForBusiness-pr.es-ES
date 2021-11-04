@@ -1,7 +1,7 @@
 ---
 title: Directiva de ubicación Crear nuevo o editar existente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: Puede configurar directivas de ubicación para determinar si enhanced 9-1-1 (E9-1-1) está habilitado y cómo se usa, así como cómo se usa la información de ubicación para los usuarios y los contactos.
-ms.openlocfilehash: 53af748db0c5a3ea2a8df8fe0aa19e58cb39e7d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a52d74a6131ee22a47d3e59cdff4c220a3d86cb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582924"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760898"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Directiva de ubicación: Crear nuevos o editar los existentes
 

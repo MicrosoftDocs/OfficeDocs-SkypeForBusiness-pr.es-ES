@@ -1,7 +1,7 @@
 ---
 title: Configurar opciones de archivado para controlar errores en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Summary: Learn how to block IM and conferencing sessions in the case of a Skype Empresarial Server failure that would prevent archiving.'
-ms.openlocfilehash: f86b26178963621b4d71a657e589a63f1351aeef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24bfa5190f4aa86a51d7737c952e6536a7d89b34
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592574"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767928"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurar opciones de archivado para controlar errores en Skype Empresarial Server
 

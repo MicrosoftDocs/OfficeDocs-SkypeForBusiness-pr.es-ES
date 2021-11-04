@@ -1,7 +1,7 @@
 ---
 title: Administrar el acceso basado en turnos para los trabajadores de primera línea en Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aaku
 manager: serdars
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd02c93639f0756982c35972e563e06cc41a0687
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: db646690e61696857a3fdcfc051ccc03216ebb24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726829"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749076"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Administrar el acceso basado en turnos para los trabajadores de primera línea en Teams
 
@@ -53,7 +53,7 @@ Estos son los estados de presencia basados en turnos.
 |---------|---------|---------|
 |![Marca de verificación verde sólida, indica En turno.](../../media/flw-presence-on-shift.png) En turno     |         |Se establece automáticamente al principio de un turno         |
 |![Círculo gris con x, indica Desactivado mayús](../../media/flw-presence-off-shift.png) Desactivar turno     |         |Se establece automáticamente al final de un turno         |
-|![Círculo rojo sólido, indica Ocupado.](../../media/flw-presence-busy.png) Ocupado      | ![Círculo rojo sólido, indica Ocupado](../../media/flw-presence-busy.png) Ocupado         |Establecer automáticamente. También se puede establecer manualmente cuando el trabajador de primera línea está en turno.|
+|![Círculo rojo sólido indica Ocupado](../../media/flw-presence-busy.png) Ocupado      | ![Círculo rojo sólido, indica Ocupado](../../media/flw-presence-busy.png) Ocupado         |Establecer automáticamente. También se puede establecer manualmente cuando el trabajador de primera línea está en turno.|
 
 ## <a name="off-shift-access-to-teams"></a>Desactivar el acceso por turnos a Teams
 

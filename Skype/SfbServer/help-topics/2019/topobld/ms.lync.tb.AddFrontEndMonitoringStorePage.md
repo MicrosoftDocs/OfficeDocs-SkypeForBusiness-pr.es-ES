@@ -1,7 +1,7 @@
 ---
 title: Página Agregar almacén de supervisión de front-end
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para Definir el almacén de SQL Server de supervisión, configure las propiedades siguientes:'
-ms.openlocfilehash: caaf519fd65e4262b48eddcec335a06539684eb3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 074d7aefa6e5b724d7266fbfb9d2b05dd558e4fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601755"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766928"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Página Agregar almacén de supervisión de front-end
  

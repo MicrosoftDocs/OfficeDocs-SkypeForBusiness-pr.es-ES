@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Mensajes de correo electrónico y encuestas de transición | Actualización básica
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c23c2818c791915aa2a8e6c772510c6a50094c1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4bda42ca439268a4d1e14c8b10d26e0dcea38332
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583474"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760368"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Mensajes de correo electrónico de ejemplo y encuestas para actualizar las comunicaciones básicas
 

@@ -1,7 +1,7 @@
 ---
 title: Configurar el almacén de contactos personales en equipos cliente de Lync 2010
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/29/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 'Resumen: configure el almacén de contactos personal que usan los clientes heredados.'
-ms.openlocfilehash: 1be9aa65c9f2080f3ef775c330dad3c88f2fbf75
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9a9b5938d7e97460a6b8582f1563eeeb4c369272
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621742"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749361"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Configurar el almacén de contactos personales en equipos cliente de Lync 2010
   

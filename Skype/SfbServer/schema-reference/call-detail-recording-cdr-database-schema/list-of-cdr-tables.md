@@ -1,7 +1,7 @@
 ---
 title: Lista de tablas cdr en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: El esquema de la base de datos del registro detallado de llamadas (CDR) incluye las tablas siguientes.
-ms.openlocfilehash: acc509fc895c015ec213bd18560986b3f6d12aa7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e8c76080089005977154c3e23d924a4b98dc6b5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635134"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746666"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Lista de tablas cdr en Skype Empresarial Server 2015
  

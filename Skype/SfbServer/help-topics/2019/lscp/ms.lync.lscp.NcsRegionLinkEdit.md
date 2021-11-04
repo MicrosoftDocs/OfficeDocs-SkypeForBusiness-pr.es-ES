@@ -1,7 +1,7 @@
 ---
 title: Configurar un vínculo de región de red Crear nuevo o editar existente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 78813cf22452f8ec337ed154f970ae6dc64e33b9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9ce19db736c2272ac7b4ce4822582ea04559cfe3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600545"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758902"
 ---
 # <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Configurar un vínculo de región de red: Crear nuevos o editar los existentes
 

@@ -1,7 +1,7 @@
 ---
 title: Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones asociadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: 'Resumen: Administrar OAuth y aplicaciones de partners en Skype Empresarial Server.'
-ms.openlocfilehash: 1f2b963ad8a116236e3a0bdb33307e9f9d4a95f7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d49006bd01de80bd23d8f70954478b6b6a2bbea4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608207"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760748"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones asociadas en Skype Empresarial Server
  
 **Resumen:** Administrar OAuth y aplicaciones de partners en Skype Empresarial Server.
   
-Skype Empresarial Server ser capaz de comunicarse de forma segura y sin problemas con otras aplicaciones y productos de servidor. Por ejemplo, puede configurar los Skype Empresarial Server para que los datos de contacto o los datos de archivado se almacenen en Microsoft Exchange Server 2013; sin embargo, esto solo se puede hacer si Skype Empresarial Server y Exchange pueden comunicarse de forma segura entre sí. Del mismo modo, puede programar una conferencia Skype Empresarial Server desde Office Web Apps Server; de nuevo, esto solo se puede hacer si los dos servidores (SharePoint y Skype Empresarial Server) confían entre sí. Aunque es posible usar un mecanismo de autenticación para la comunicación entre Skype Empresarial Server y Exchange pero un mecanismo independiente para la comunicación Skype Empresarial Server y SharePoint, un enfoque mejor y más eficaz es usar un método estandarizado para toda la autenticación y autorización de servidor a servidor.
+Skype Empresarial Server ser capaz de comunicarse de forma segura y sin problemas con otras aplicaciones y productos de servidor. Por ejemplo, puede configurar los Skype Empresarial Server para que los datos de contacto o los datos de archivado se almacenen en Microsoft Exchange Server 2013; sin embargo, esto solo se puede hacer si Skype Empresarial Server y Exchange pueden comunicarse de forma segura entre sí. Del mismo modo, puede programar una conferencia Skype Empresarial Server desde Office Web Apps Server; de nuevo, esto solo se puede hacer si los dos servidores (SharePoint y Skype Empresarial Server) confían entre sí. Aunque es posible usar un mecanismo de autenticación para la comunicación entre Skype Empresarial Server y Exchange pero un mecanismo independiente para la comunicación Skype Empresarial Server y SharePoint, un enfoque mejor y más eficaz es usar un método estandarizado para todos autenticación y autorización de servidor a servidor.
   
 El uso de un único método estandarizado para la autenticación de servidor a servidor es el enfoque que Skype Empresarial Server. Iniciada con la versión de Office Servers 2013, Skype Empresarial Server (así como otros productos de Microsoft Server, incluido Exchange Server y SharePoint Server) admiten el protocolo OAuth (Open Authorization) para la autenticación y autorización de servidor a servidor. Con OAuth, un protocolo de autorización estándar usado por varios sitios web principales, las credenciales de usuario y las contraseñas no se pasan de un equipo a otro. En su lugar, la autenticación y la autorización se basan en el intercambio de tokens de seguridad; estos tokens conceden acceso a un conjunto específico de recursos durante un período de tiempo específico.
   

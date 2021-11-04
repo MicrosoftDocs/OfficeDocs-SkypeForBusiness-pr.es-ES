@@ -1,7 +1,7 @@
 ---
 title: Planeación de servicios de emergencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Obtenga información sobre los servicios mejorados de 9-1-1 (E9-1-1) en Skype Empresarial Server Telefonía IP empresarial, incluida la adquisición de ubicación y el enrutamiento de llamadas.
-ms.openlocfilehash: 18cb4158e7e7d31772f365711b1ec5e0ed22357a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f3efcea6747c27e041e581b5d0461fd4c925eb84
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732759"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767618"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planeación de servicios de emergencia en Skype Empresarial Server
 
@@ -43,7 +43,7 @@ Skype Empresarial Server admite dos métodos para enrutar llamadas de emergencia
 
 - Una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) a un proveedor de servicios E9-1-1 basado en una Red telefónica conmutada (RTC).
 
-Cuando se usa un proveedor de servicios E9-1-1 de tronco SIP, se agregan ERLs a la base de datos del servicio de información de ubicación y, a continuación, se validan las ubicaciones con una Guía maestra de direcciones de calle (MSAG) que mantiene el proveedor de servicios E9-1-1. Si un proveedor de servicios E9-1-1 recibe una llamada que no tiene información de ubicación o tiene una ubicación que no se ha validado en MSAG, el proveedor de servicios E9-1-1 enruta la llamada a un Centro de respuesta a llamadas de emergencia (ECRC) nacional o regional, que está formado por personal especialmente formado que obtiene verbalmente la ubicación del autor de la llamada, si es posible, y enruta manualmente la llamada al PSAP adecuado. Algunos proveedores de servicios E9-1-1 de enlace troncal SIP también proporcionan a los clientes un número de marcado directo (DID) de RTC para el ECRC, que constituye un medio alternativo de enrutamiento de las llamadas al 9-1-1 si por algún motivo se produce un error en el enlace troncal SIP.
+Cuando se usa un proveedor de servicios E9-1-1 de tronco SIP, se agregan ERLs a la base de datos del servicio de información de ubicación y, a continuación, se validan las ubicaciones con una Guía maestra de direcciones de calle (MSAG) que mantiene el proveedor de servicios E9-1-1. Si un proveedor de servicios E9-1-1 recibe una llamada que no tiene información de ubicación o tiene una ubicación que no se ha validado con MSAG, el proveedor de servicios E9-1-1 enruta la llamada a un Centro de respuesta a llamadas de emergencia (ECRC) nacional o regional, que está formado por personal especialmente formado que obtiene verbalmente la ubicación del autor de la llamada, si es posible,  y enrutar manualmente la llamada al PSAP adecuado. Algunos proveedores de servicios E9-1-1 de enlace troncal SIP también proporcionan a los clientes un número de marcado directo (DID) de RTC para el ECRC, que constituye un medio alternativo de enrutamiento de las llamadas al 9-1-1 si por algún motivo se produce un error en el enlace troncal SIP.
 
 A diferencia de la multiplexación de división de tiempo (TDM) y los teléfonos de central de conmutación (PBX) basados en IP, que tienen ubicaciones fijas, un punto de conexión Skype Empresarial puede ser muy móvil. Al implementar la característica E9-1-1, Skype Empresarial Server ayuda a garantizar que, independientemente de dónde se encuentra el autor de la llamada, la llamada de emergencia se puede enrutar al PSAP que sirve la ubicación del autor de la llamada. Por ejemplo, si la oficina principal de un usuario se encuentra en Redmond, Washington, pero el usuario hace una llamada de emergencia desde un equipo de una sucursal en Wichita, Kansas, el tronco SIP o el proveedor de servicios E9-1-1 basado en RTC enrutarán la llamada al PSAP en Wichita, no al PSAP en Redmond.
 

@@ -1,7 +1,7 @@
 ---
 title: Definir los elementos de red usados para determinar la ubicación en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: Decisiones necesarias para planear los componentes de red que usará para asignar autores de llamadas a ubicaciones para la implementación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: e3a1ef0c5f500327d97a263b4dad206624617ffa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 908e8b45f1825d7bd98693810ac97b13d4aa3273
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632704"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768508"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Definir los elementos de red usados para determinar la ubicación en Skype Empresarial Server
  

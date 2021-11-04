@@ -1,7 +1,7 @@
 ---
 title: Informe de uso de dispositivos de Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el Teams de uso de dispositiv
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 53aa8d88edd906e13532a452190234decf80d5db
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 261a25cd998243c205424dd1a403166e03e1d921
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730179"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749579"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Informe de uso de dispositivos de Microsoft Teams
 
@@ -49,7 +49,7 @@ El Teams de uso de dispositivos del centro de administración de Microsoft Teams
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Convertir en anónimos los datos específicos del usuario
 
-Para que los datos de Teams informe de uso de dispositivos sean anónimos, debe ser administrador global. Esto ocultará información identificable, como el nombre para mostrar, el correo electrónico y el id. de AAD en el informe y su exportación.
+Para que los datos de Teams informe de uso de dispositivos sean anónimos, debe ser administrador global. Esto ocultará información identificable, como el nombre para mostrar, el correo electrónico y AAD id. en el informe y su exportación.
 
 1. En Centro de administración de Microsoft 365, vaya a  la Configuración de Configuración y, en la pestaña \> Servicios, elija **Informes.** 
     
