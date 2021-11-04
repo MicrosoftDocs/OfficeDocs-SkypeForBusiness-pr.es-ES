@@ -1,7 +1,7 @@
 ---
 title: Agregar IP de NAT de equipo perimetral
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Si una traducción de direcciones de red (NAT) traduce la dirección IP pública de este grupo de servidores perimetrales, debe especificarse la dirección IP pública que se debe traducir. En principio debería ser la dirección IP externa del servicio perimetral A/V.
-ms.openlocfilehash: 206db8bb6c7674f2818f4adea2b8c86fef2e2e2a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 03decce6d76ef5f7e30e45c7beba20d4462cd576
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629142"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757752"
 ---
 # <a name="add-edge-machine-nat-ip"></a>Agregar IP de NAT de equipo perimetral
  

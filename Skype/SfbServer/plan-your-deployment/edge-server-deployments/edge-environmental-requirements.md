@@ -1,7 +1,7 @@
 ---
 title: Requisitos del entorno del servidor perimetral en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Summary: Learn about the environmental requirements for Edge Server in Skype Empresarial Server.'
-ms.openlocfilehash: 492a4c2ec5a90ea8e2c3eb55ea48a4afec16c67f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7dbd2b3c40b60f69813edbfee29a29fb003fb703
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635244"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749969"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos del entorno del servidor perimetral en Skype Empresarial Server
  
@@ -103,18 +103,18 @@ Puede ser un poco más complicado con topologías consolidadas a escala, por lo 
 |**Número de servidores perimetrales por grupo**|**Número de direcciones IP necesarias para el equilibrio de carga DNS**|**Número de direcciones IP necesarias para el equilibrio de carga de hardware**|
 |:-----|:-----|:-----|
 |2  <br/> |6   <br/> |3 (1 por VIP) + 6  <br/> |
-|3   <br/> |9   <br/> |3 (1 por VIP) + 9  <br/> |
-|4   <br/> |12   <br/> |3 (1 por VIP) + 12  <br/> |
-|5   <br/> |15   <br/> |3 (1 por VIP) +15  <br/> |
+|3  <br/> |9   <br/> |3 (1 por VIP) + 9  <br/> |
+|4  <br/> |12   <br/> |3 (1 por VIP) + 12  <br/> |
+|5  <br/> |15   <br/> |3 (1 por VIP) +15  <br/> |
    
 #### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>Requisitos de dirección IP para el perímetro consolidado de escala (dirección IP única para todos los roles)
 
 |**Número de servidores perimetrales por grupo**|**Número de direcciones IP necesarias para el equilibrio de carga DNS**|**Número de direcciones IP necesarias para el equilibrio de carga de hardware**|
 |:-----|:-----|:-----|
 |2  <br/> |2  <br/> |1 (1 por VIP) + 2  <br/> |
-|3   <br/> |3   <br/> |1 (1 por VIP) + 3  <br/> |
-|4   <br/> |4   <br/> |1 (1 por VIP) + 4  <br/> |
-|5   <br/> |5  <br/> |1 (1 por VIP) + 5  <br/> |
+|3  <br/> |3  <br/> |1 (1 por VIP) + 3  <br/> |
+|4  <br/> |4  <br/> |1 (1 por VIP) + 4  <br/> |
+|5  <br/> |5  <br/> |1 (1 por VIP) + 5  <br/> |
    
 Echemos un vistazo a algunas cosas adicionales en las que pensar durante la planeación.
   
@@ -179,7 +179,7 @@ Las conferencias web y las direcciones IP públicas perimetrales A/V son direcci
     
 - Puede tener tres adaptadores de red externos en lugar de uno y asignar una de las direcciones IP de servicio a cada uno. ¿Por qué hacerlo? Separaría los servicios y, si algo sale mal, esto facilitaría la solución de problemas y podría permitir que los demás servicios sigan funcionando mientras resuelve un problema.
     
-|**Ubicación**|**Tipo**|**Port**|**Registro DNS o FQDN**|**Dirección IP o FQDN**|**Notas**|
+|**Location**|**Tipo**|**Port**|**Registro DNS o FQDN**|**Dirección IP o FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externo  <br/> |Un registro  <br/> |N/D  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |Una interfaz externa para el servicio perimetral de acceso. Necesitará uno para cada dominio SIP con Skype Empresarial usuarios.  <br/> |
 |DNS externo  <br/> |Un registro  <br/> |N/D  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 <br/> **private:** 10.45.16.20 <br/> |Una interfaz externa para el servicio perimetral de conferencia web.  <br/> |
@@ -253,7 +253,7 @@ Aquí hay otras configuraciones posibles:
     
 - Puede tener tres adaptadores de red externos en lugar de uno y asignar una de las direcciones IP de servicio a cada uno. ¿Por qué hacerlo? Separaría los servicios y, si algo sale mal, esto facilitaría la solución de problemas y podría permitir que los demás servicios sigan funcionando mientras resuelve un problema.
     
-|**Ubicación**|**Tipo**|**Port**|**Registro DNS o FQDN**|**Dirección IP o FQDN**|**Notas**|
+|**Location**|**Tipo**|**Port**|**Registro DNS o FQDN**|**Dirección IP o FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externo  <br/> |Un registro  <br/> |N/D  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 y 131.107.155.11 <br/> **private:** 10.45.16.10 y 10.45.16.11 <br/> |Una interfaz externa para el servicio perimetral de acceso. Necesitará uno para cada dominio SIP con Skype Empresarial usuarios.  <br/> |
 |DNS externo  <br/> |Un registro  <br/> |N/D  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 y 131.107.155.21 <br/> **private:** 10.45.16.20 y 10.45.16.21 <br/> |Una interfaz externa para el servicio perimetral de conferencia web.  <br/> |
@@ -264,13 +264,13 @@ Aquí hay otras configuraciones posibles:
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>Registro DNS para federación (todos los escenarios)
 
-|**Ubicación**|**Tipo**|**Port**|**FQDN**|**Registro de host FQDN**|**Notas**|
+|**Location**|**Tipo**|**Port**|**FQDN**|**Registro de host FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externo  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |La interfaz externa perimetral de acceso SIP necesaria para la detección automática de DNS. Usado por los demás socios de federación potenciales. También se conoce como "Permitir dominios SIP". Necesitará uno de estos para cada dominio SIP con Skype Empresarial usuarios.  <br/><br/> **Nota:** Necesitará este registro SRV para movilidad y la cámara de compensación de notificaciones de inserción. <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>Registros DNS para mensajería extensible y protocolo de presencia
 
-|**Ubicación**|**Tipo**|**Port**|**FQDN**|**Dirección IP o registro de host FQDN**|**Notas**|
+|**Location**|**Tipo**|**Port**|**FQDN**|**Dirección IP o registro de host FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externo  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |La interfaz de proxy XMPP en el servicio perimetral de acceso o el grupo de servidores perimetrales. Debe repetir esto según sea necesario para todos los dominios SIP internos con Skype Empresarial Server usuarios habilitados, donde se permite el contacto con contactos XMPP a través de:  <br/> • una directiva global  <br/> • una directiva de sitio donde el usuario está habilitado  <br/> • una directiva de usuario aplicada al usuario Skype Empresarial Server habilitado  <br/> Una directiva XMPP permitida también debe configurarse en la directiva de usuarios federados XMPP.  <br/> |
 |DNS externo  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |Dirección IP del servicio perimetral de acceso en el servidor perimetral o grupo de servidores perimetrales que hospeda el servicio de proxy XMPP  <br/> |Esto apunta al servicio perimetral de acceso en el servidor perimetral o grupo de servidores perimetrales que hospeda el servicio proxy XMPP. Normalmente, el registro SRV que cree apuntará a este registro host (A o AAAA).  <br/> |

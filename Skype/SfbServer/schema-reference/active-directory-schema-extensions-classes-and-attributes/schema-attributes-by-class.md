@@ -1,7 +1,7 @@
 ---
 title: Atributos de esquema por clase en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: En esta sección se enumeran los atributos de esquema que pueden contenerse en cada clase Skype Empresarial Server clase y las clases que se pueden contener en otras clases. Para obtener una lista de todas las clases y sus descripciones, vea Clases de esquema y descripciones en Skype Empresarial Server. Para obtener una lista de todos los atributos y sus descripciones, vea Schema attributes and descriptions in Skype Empresarial Server.
-ms.openlocfilehash: 55975ac452c4bfde173bfbe75f1c9f0fee642372
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e3443155c4dec7d68ab2bb971f5fd9cad024eafe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578634"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743306"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Atributos de esquema por clase en Skype Empresarial Server
  

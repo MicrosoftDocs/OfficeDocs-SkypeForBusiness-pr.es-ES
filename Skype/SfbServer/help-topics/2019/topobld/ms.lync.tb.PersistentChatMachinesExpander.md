@@ -1,7 +1,7 @@
 ---
 title: Expansor de equipos de chat persistente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede activar o desactivar un servidor de chat persistente o un grupo de servidores de chat persistente implementados mediante los servidores o grupos de servidores enumerados en Configuración de estado de la máquina. Seleccione un servidor o grupo de servidores en la lista y haga clic en el botón Hacer activo para establecer un servidor o grupo como activo.
-ms.openlocfilehash: 2d1d179ed5f50bb6aea7e884dd3836e4430e2b89
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb47b572aae7859071edae4c6c38a905c6a9e1ab
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633864"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764328"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expansor de equipos de chat persistente
 

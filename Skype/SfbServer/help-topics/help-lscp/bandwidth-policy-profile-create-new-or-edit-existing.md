@@ -1,7 +1,7 @@
 ---
 title: Perfil de directiva de ancho de banda Crear nuevo o editar existente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: c7b020bd0ad9d7f93c032608b635d129eb4c0b4a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a865d0add8618636a535ffcb211a3e00325cda0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636264"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770858"
 ---
 # <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>Perfil de directivas de ancho de banda: Crear nuevos o editar los existentes
 

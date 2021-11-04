@@ -1,7 +1,7 @@
 ---
 title: Personalizar las propiedades de cuenta de usuario para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Puede utilizar los procedimientos que se describen en esta sección para modificar las propiedades de cuenta de usuario individuales.
-ms.openlocfilehash: 9f145b1d1c0abd584a3771950d9960ccea30b85e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 47e1c09e898a023bbebacbeb57f855568a9a0131
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634254"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750159"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personalizar las propiedades de cuenta de usuario para Skype Empresarial Server
  
@@ -44,7 +44,7 @@ Skype Empresarial Server opciones de telefonía del usuario son las siguientes:
     
 - **Control remoto de llamadas** El usuario puede usar Skype Empresarial Server para controlar el teléfono de escritorio y también puede realizar llamadas de EQUIPO a EQUIPO.
     
-Para obtener más información sobre cómo configurar la telefonía para una organización, consulte Habilitar usuarios para Telefonía IP empresarial en [Skype Empresarial Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) e Implementar Telefonía IP empresarial en [Skype Empresarial Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) en la documentación de implementación.
+Para obtener más información sobre cómo configurar la telefonía para una organización, vea Habilitar usuarios para Telefonía IP empresarial en [Skype Empresarial Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) e Implementar Telefonía IP empresarial en [Skype Empresarial Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) en la implementación documentación.
   
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     

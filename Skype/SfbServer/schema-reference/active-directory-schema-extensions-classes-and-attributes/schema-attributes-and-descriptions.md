@@ -1,7 +1,7 @@
 ---
 title: Atributos de esquema y descripciones en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b009df76-9c22-471d-b57a-bda009a98261
 description: En esta sección se describen todos los atributos de esquema usados por Skype Empresarial Server. Para las clases asociadas con atributos, vea Schema attributes by class in Skype Empresarial Server.
-ms.openlocfilehash: 8b09b55abadb6fe234f88b11962e77d0d5d374ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 26ae05a66094401d594ddb3cb844805b8a40e12d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636024"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743326"
 ---
 # <a name="schema-attributes-and-descriptions-in-skype-for-business-server"></a>Atributos de esquema y descripciones en Skype Empresarial Server
  

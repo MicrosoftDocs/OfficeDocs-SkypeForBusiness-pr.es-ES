@@ -1,7 +1,7 @@
 ---
 title: Requisitos de puerto y protocolo para servidores
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumen: revise las consideraciones de uso del puerto antes de implementar Skype Empresarial Server.'
-ms.openlocfilehash: 2ed181bd7bbcdce772e7db88a29e60d4f78e9fe2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a1523ccb821006737a53094151d4a6694c502fc4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012994"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777940"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de puerto y protocolo para servidores
  

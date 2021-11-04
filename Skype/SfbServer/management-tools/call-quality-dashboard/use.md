@@ -1,7 +1,7 @@
 ---
 title: Use el Panel de calidad de llamadas para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumen: obtenga información sobre cómo usar el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 8bd18b7be66c4ea9b3a69cd81d4c72fb641603eb
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ad4c1b295b672900b632903fc653691c03cc5193
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015084"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739106"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Use el Panel de calidad de llamadas para Skype Empresarial Server
 
@@ -103,13 +103,13 @@ Los datos usados para estas tablas se definen de la siguiente manera:
 
 **CqdBuilding**
 
-|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
-|BuildingKey |int |No |Clave principal de la tabla CqdBuilding. |
+|BuildingKey |Entero |No |Clave principal de la tabla CqdBuilding. |
 |BuildingName |varchar(80) |No |Nombre del edificio. |
 |BuildingShortName |varchar(10) |No |Versión más corta del nombre del edificio. |
-|OwnershipTypeId |int |No |Clave externa, coincide con una de las entradas de la tabla CqdBuildingOwners. |
-|BuildingTypeId |int |No |Clave externa, coincide con una de las entradas de la tabla CqdBuildingType. |
+|OwnershipTypeId |Entero |No |Clave externa, coincide con una de las entradas de la tabla CqdBuildingOwners. |
+|BuildingTypeId |Entero |No |Clave externa, coincide con una de las entradas de la tabla CqdBuildingType. |
 |Latitude |float |Sí |Latitud del edificio. |
 |Longitude |float |Sí |Longitud del edificio. |
 |CityName |varchar(30) |Sí |Nombre de la ciudad donde se encuentra el edificio. |
@@ -123,12 +123,12 @@ Los datos usados para estas tablas se definen de la siguiente manera:
 
 **CqdNetwork**
 
-|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
 |Red |varchar(25) |No |Dirección de subred. |
 |NetworkRange |tinyint |Sí |Máscara de la subred. |
-|NetworkNameID |int |Sí |Opcionalmente se asigna a una fila de la tabla CqdNetworkName. |
-|BuildingKey |int |Sí |Clave externa, coincide con una de las entradas de la tabla CqdBuilding. |
+|NetworkNameID |Entero |Sí |Opcionalmente se asigna a una fila de la tabla CqdNetworkName. |
+|BuildingKey |Entero |Sí |Clave externa, coincide con una de las entradas de la tabla CqdBuilding. |
 |UpdatedDate |datetime |No |Fecha y hora de la última actualización de la entrada. |
 
 
@@ -136,9 +136,9 @@ De forma predeterminada, esta tabla siguiente tiene una entrada (0, "Desconocido
 
 **CqdBuildingType**
 
-|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
-|BuildingTypeId |int |No |Clave principal de la tabla CqdBuildingType. |
+|BuildingTypeId |Entero |No |Clave principal de la tabla CqdBuildingType. |
 |BuildingTypeDesc |char(18) |No |Descripción del tipo de creación. |
 
 
@@ -146,9 +146,9 @@ De forma predeterminada, esta tabla siguiente tiene una entrada (0, 'Unknown', 0
 
 **CqdBuildingOwnershipType**
 
-|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
-|OwnershipTypeId |int |No |Clave principal de la tabla CqdBuildingOwnershipType. |
+|OwnershipTypeId |Entero |No |Clave principal de la tabla CqdBuildingOwnershipType. |
 |OwnershipTypeDesc |varchar(25) |No |Descripción del tipo de propiedad. |
 |LeaseInd |tinyint |Sí |Índice que hace referencia a otra fila de la tabla CqdBuildingOwnershipType, que se usa para identificar los edificios arrendados. |
 |Owner |varchar(50) |Sí |Propietario del edificio. |
@@ -158,7 +158,7 @@ De forma predeterminada, esta tabla siguiente tiene una entrada (0, 'Unknown', 0
 
 **CqdBssid**
 
-|Column|Tipo de datos|¿Permitir valores Null?|Detalles|
+|Columna|Tipo de datos|¿Permitir valores Null?|Detalles|
 |:-----|:-----|:-----|:-----|
 |bss |nvarchar(50) |No |Clave principal para la tabla CqdBssid. Es el BSSID del punto de acceso WiFi. |
 |ess |nvarchar(50) |Sí |Información del controlador de punto de acceso Wifi. |

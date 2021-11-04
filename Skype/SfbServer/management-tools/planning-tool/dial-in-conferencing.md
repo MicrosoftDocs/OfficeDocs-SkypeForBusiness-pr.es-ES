@@ -1,7 +1,7 @@
 ---
 title: Herramienta de planeación de conferencias de acceso telefónico local
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 description: Skype Empresarial Server conferencia de acceso telefónico local de 2015 permite a los usuarios unirse a la parte de audio de una conferencia de Skype Empresarial Server 2015 mediante un teléfono de red telefónica conmutada sin necesidad de un proveedor de audioconferencia de terceros.
-ms.openlocfilehash: c791b25e715ea26af7be2ee2ec1bb7b3a6e464aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9a6a12e87f89b580147ec04c3a5f81d5cbda026e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632804"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750129"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Herramienta de planeación de conferencias de acceso telefónico local
  

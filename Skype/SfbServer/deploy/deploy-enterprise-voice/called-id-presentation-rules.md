@@ -1,7 +1,7 @@
 ---
 title: Crear o modificar una regla de traducción para la presentación de id. denominada en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Resumen: aprenda a definir una regla de traducción mediante la herramienta Crear una regla de traducción en Skype Empresarial Server.'
-ms.openlocfilehash: 2d920f7706514df56c1814b5a61f40e0182412d5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 780fc46c93d1f183263192edb33999d758b95c8c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597284"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738946"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Crear o modificar una regla de traducción para la presentación de id. denominada en Skype Empresarial Server
 

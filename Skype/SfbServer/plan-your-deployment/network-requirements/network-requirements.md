@@ -1,7 +1,7 @@
 ---
 title: Planear los requisitos de red para Skype Empresarial
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Summary: Review the network component considerations below before implementing Skype Empresarial Server.'
-ms.openlocfilehash: 0441b64014f7754d30f8040d059f2fac15c9cb5d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b2b8496b307111261c77f93d45d3332b42ead90d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014674"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777930"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Planear los requisitos de red para Skype Empresarial
 
@@ -280,7 +280,7 @@ Skype Empresarial Server ofrece compatibilidad completa con QoS: esto significa 
 
 QoS también se describe en las notas del producto Sobre planeación [de red,](https://www.microsoft.com/download/details.aspx?id=39084) supervisión y solución de problemas con Lync Server con detalles y profundidad adicionales. Aunque el contenido hace referencia explícitamente a Lync 2010 y Lync 2013, las consideraciones para Skype Empresarial Server no cambian.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="man_QOS"> </a>
 
 [Planear IPv6 en Skype Empresarial](ipv6.md)

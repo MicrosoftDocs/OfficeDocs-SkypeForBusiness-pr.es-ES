@@ -1,7 +1,7 @@
 ---
 title: Planear la Exchange de mensajería unificada en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumen: revise este tema al planear la integración de Skype Empresarial Server con Exchange 2013 o 2016.'
-ms.openlocfilehash: bc378579d9d01fe783baa96d5869b3d340588b42
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ad9b51a282bdd2e1f922368fad29037515ef7bb5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725679"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777990"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planear la Exchange de mensajería unificada en Skype Empresarial
 
@@ -63,7 +63,7 @@ Skype Empresarial Server, Telefonía IP empresarial usa la infraestructura de me
 
 ### <a name="exchange-server-components"></a>Componentes de Exchange Server
 
-Para proporcionar las características y servicios de mensajería unificada de Exchange que se describen en Características de mensajería unificada integrada y [Skype Empresarial Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) para los usuarios de Telefonía IP empresarial de la organización, debe implementar un servidor de buzones de correo de Microsoft Exchange y un servidor de acceso de cliente, que hospeda buzones de usuario y proporciona una única ubicación de almacenamiento para correo electrónico y correo de voz. Exchange La mensajería unificada se ejecuta como un servicio en Exchange buzones de correo y servidores de acceso de cliente.
+Para proporcionar las características y servicios de mensajería unificada de Exchange que se describen en Características de mensajería unificada integrada y [Skype Empresarial Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) Telefonía IP empresarial los usuarios de la organización, debe implementar un servidor de buzones de correo de Microsoft Exchange y un servidor de acceso de cliente, que hospeda buzones de usuario y proporciona una única ubicación de almacenamiento para correo electrónico y correo de voz. Exchange La mensajería unificada se ejecuta como un servicio en Exchange buzones de correo y servidores de acceso de cliente.
 
 Para obtener más información Exchange componentes de mensajería unificada en Microsoft Exchange Server 2010, vea [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail) .
 
@@ -100,7 +100,7 @@ Las siguientes son directrices y procedimientos recomendados a tener en cuenta a
     > [!IMPORTANT]
     > Cuando Exchange mensajería unificada (UM), se configura para usar un certificado autofirmado. El certificado autofirmado no permite Skype Empresarial Server y Exchange mensajería unificada confiar entre sí, por lo que es necesario solicitar un certificado independiente de una entidad de certificación en la que ambos servidores confíen.
 
-- Si Skype Empresarial Server y Exchange um están instalados en bosques diferentes, configure cada bosque de Exchange para que confíe en el bosque de Skype Empresarial Server y el bosque Skype Empresarial Server para que confíen en cada bosque Exchange. Además, establezca la configuración de mensajería unificada de Exchange de los usuarios en los objetos de usuario del bosque de Skype Empresarial Server, normalmente mediante un script o una herramienta entre bosques, como Identity Lifecycle Manager (ILM).
+- Si Skype Empresarial Server y Exchange um están instaladas en bosques diferentes, configure cada bosque de Exchange para que confíe en el bosque de Skype Empresarial Server y el bosque Skype Empresarial Server para que confíen en cada uno Exchange bosque. Además, establezca la configuración de mensajería unificada de Exchange de los usuarios en los objetos de usuario del bosque de Skype Empresarial Server, normalmente mediante un script o una herramienta entre bosques, como Identity Lifecycle Manager (ILM).
 
 - Si es necesario, instale la Consola de administración de Exchange de modo que administre los servidores de mensajería unificada.
 
@@ -143,6 +143,6 @@ Para obtener más información sobre cómo habilitar o deshabilitar la mensajer�
 Exchange La mensajería unificada ya no está presente en Exchange 2019, si tiene Exchange 2019 y desea una funcionalidad equivalente, deberá usar el servicio Correo de voz en la nube descrito en [Plan Correo de voz en la nube service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Introducción al proceso de implementación para integrar la mensajería unificada local y Skype Empresarial](deployment-overview.md)

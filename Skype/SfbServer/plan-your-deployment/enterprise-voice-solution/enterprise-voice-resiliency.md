@@ -1,7 +1,7 @@
 ---
 title: Planear la Telefonía IP empresarial resistencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Obtenga información sobre cómo admitir la resistencia de voz en Skype Empresarial Server Telefonía IP empresarial, tanto en sitios centrales como en sitios de sucursal. Las opciones de sitio de sucursal incluyen la implementación de aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
-ms.openlocfilehash: cccce61eb575caaf6037d1d916f428aeecb452e4
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ec0d542318023fdc638926e78ff6ffdeceefba5f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729769"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778010"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planear la Telefonía IP empresarial resistencia en Skype Empresarial Server
 
@@ -282,7 +282,7 @@ Se recomienda crear una directiva de voz sobre protocolo de Internet (VoIP) inde
 > [!IMPORTANT]
 > Al crear una ruta de copia de seguridad de sucursal, se recomienda agregar dos registros de uso de teléfono RTC a la directiva de usuario de sucursal y asignar rutas independientes a cada una de ellas. La primera ruta, o principal, dirigiría llamadas a la puerta de enlace asociada con la aplicación de sucursal con funciones de supervivencia (SBA) o el servidor de sucursal; la segunda ruta, o copia de seguridad, dirigiría llamadas a la puerta de enlace en el sitio central. Al dirigir llamadas, el SBA o el servidor de sucursal intentarán todas las rutas asignadas al primer registro de uso de RTC antes de intentar el segundo registro de uso.
 
-Para ayudar a garantizar que las llamadas entrantes a los usuarios del sitio de sucursal lleguen a esos usuarios cuando la puerta de enlace de sucursal o el componente Windows del sitio de aplicación de sucursal con funciones de supervivencia no están disponibles (lo que ocurriría, por ejemplo, si la aplicación de sucursal con funciones de supervivencia o la puerta de enlace de sucursal estuvieran sin mantenimiento), cree una ruta de conmutación por error en la puerta de enlace (o trabaje con su proveedor de marcado directo interno (DID) para redirigir las llamadas entrantes al grupo de registradores de copia de seguridad en el sitio central. A partir de ahí, las llamadas se enrutarán a través del vínculo WAN a los usuarios de sucursal. Asegúrese de que la ruta traduce números para cumplir con la puerta de enlace RTC u otros formatos de número de teléfono aceptados del mismo nivel del tronco. Para obtener más información sobre cómo crear una ruta de conmutación por error, vea [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route). También cree planes de marcado de nivel de servicio para el tronco asociado con la puerta de enlace en el sitio de sucursal para normalizar las llamadas entrantes. Si tiene dos aplicaciones de sucursal con funciones de supervivencia en un sitio de sucursal, puede crear un plan de marcado de nivel de sitio para ambos a menos que sea necesario un plan de nivel de servicio independiente para cada uno.
+Para ayudar a garantizar que las llamadas entrantes a los usuarios del sitio de sucursal lleguen a esos usuarios cuando la puerta de enlace de sucursal o el componente Windows del sitio de aplicación de sucursal con funciones de supervivencia no están disponibles (lo que ocurriría, por ejemplo, si la aplicación de sucursal con funciones de supervivencia o la puerta de enlace de sucursal estuvieran sin mantenimiento), cree una ruta de conmutación por error en la puerta de enlace (o trabaje con su proveedor de marcado directo hacia dentro (DID) para redirigir las llamadas entrantes al grupo de registradores de copia de seguridad en el grupo central de registradores sitio. A partir de ahí, las llamadas se enrutarán a través del vínculo WAN a los usuarios de sucursal. Asegúrese de que la ruta traduce números para cumplir con la puerta de enlace RTC u otros formatos de número de teléfono aceptados del mismo nivel del tronco. Para obtener más información sobre cómo crear una ruta de conmutación por error, vea [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route). También cree planes de marcado de nivel de servicio para el tronco asociado con la puerta de enlace en el sitio de sucursal para normalizar las llamadas entrantes. Si tiene dos aplicaciones de sucursal con funciones de supervivencia en un sitio de sucursal, puede crear un plan de marcado de nivel de sitio para ambos a menos que sea necesario un plan de nivel de servicio independiente para cada uno.
 
 > [!NOTE]
 > Para tener en cuenta el consumo de recursos del sitio central por parte de los usuarios del sitio de sucursal que dependen del sitio central para la presencia, conferencia o conmutación por error, se recomienda tener en cuenta cada usuario del sitio de sucursal como si el usuario estuviera registrado en el sitio central. Actualmente no hay límites en el número de usuarios del sitio de sucursal, incluidos los usuarios registrados con una aplicación de sucursal con funciones de supervivencia.

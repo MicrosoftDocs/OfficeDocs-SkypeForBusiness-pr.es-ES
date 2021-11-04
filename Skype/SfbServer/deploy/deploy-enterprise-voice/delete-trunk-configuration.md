@@ -1,7 +1,7 @@
 ---
 title: 'Skype Empresarial Server: eliminar una colección existente de opciones de configuración de tronco SIP'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Summary: Learn how to delete a collection of trunk configuration settings by using the Skype Empresarial Server Control Panel.'
-ms.openlocfilehash: ffc9a5cf91c9cdc19c47e3558ace3a040e7fb33e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19de05f2b31bc7a083aca7a04d71c32f17d0ea85
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592844"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771545"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype Empresarial Server: eliminar una colección existente de opciones de configuración de tronco SIP 
  

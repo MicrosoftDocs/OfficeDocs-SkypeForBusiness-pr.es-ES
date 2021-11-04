@@ -1,7 +1,7 @@
 ---
 title: Agregar opciones IP de servidor perimetral
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Skype Empresarial Server permite configurar direcciones IPv4 e IPv6 para cada interfaz para el servidor perimetral y el grupo de servidores perimetrales. Para ello, siga este procedimiento:'
-ms.openlocfilehash: 3ff5b8a1c829d1a01e26f6b2e854010a2a971a4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ec350921c0a3778b6474d555f0ca0950a2b1518d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631904"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772900"
 ---
 # <a name="add-edge-server-ip-options"></a>Agregar opciones IP de servidor perimetral
  

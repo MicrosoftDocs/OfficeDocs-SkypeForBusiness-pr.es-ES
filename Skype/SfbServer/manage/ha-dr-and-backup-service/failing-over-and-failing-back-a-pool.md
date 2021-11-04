@@ -2,7 +2,7 @@
 title: Conmutar por error y conmutar por recuperación un grupo
 ms.reviewer: ''
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 0e738faa84053f9a4d4c92127b008d397f042499
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a9f4296ce122cdb539cae4d1f3cb7ef14262efc7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013914"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750329"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Con error y con error de un grupo de servidores en Skype Empresarial Server
 
@@ -249,13 +249,13 @@ En el siguiente procedimiento, EdgePool1 es el grupo de servidores, que original
     Start-CsWindowsService
     ```
 
-## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Conmutación por recuperación del grupo perimetral usado para la federación de Skype Empresarial Server o la federación XMPP 
+## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Conmutación por recuperación del grupo de servidores perimetrales usado Skype Empresarial Server federación o federación XMPP 
 
-Después de que se haya vuelto a crear un grupo perimetral con errores que usaba para hospedar la federación, use este procedimiento para devolver la conmutación por recuperación de la ruta de federación de Skype Empresarial Server o la ruta de federación XMPP para volver a usar este grupo perimetral restaurado.
+Después de que un grupo perimetral con errores que usaba para hospedar la federación se haya vuelto a en línea, use este procedimiento para devolver la conmutación por recuperación de la ruta de federación de Skype Empresarial Server o la ruta de federación XMPP para volver a usar este grupo perimetral restaurado.
 
 1.  En el grupo de servidores perimetrales que vuelve a estar disponible, inicie los servicios perimetrales.
 
-2.  Si desea devolver la conmutación por recuperación de la ruta de federación de Skype Empresarial Server para usar el servidor perimetral restaurado, haga lo siguiente:
+2.  Si desea devolver la conmutación por recuperación Skype Empresarial Server de federación para usar el servidor perimetral restaurado, haga lo siguiente:
     
     1. En un servidor front-end, abra el Generador de topologías. Expanda **Grupos de servidores perimetrales** y, a continuación, haga clic con el botón secundario en el servidor perimetral o grupo de servidores perimetrales que está configurado actualmente para federación. Seleccione **Editar propiedades**.
     
@@ -267,7 +267,7 @@ Después de que se haya vuelto a crear un grupo perimetral con errores que usaba
     
     1. Select **Action**, select **Topology**, select **Publish**. Cuando se le pida **en Publicar la topología,** seleccione **Siguiente**. Cuando finalice la publicación, seleccione **Finalizar**.
     
-    1. En el servidor perimetral, abra el Asistente para la implementación de Skype Empresarial Server. Seleccione **Instalar o actualizar el sistema de Skype Empresarial Server** y, a continuación, seleccione Configurar o Quitar componentes de Skype Empresarial **Server**. Seleccione **Ejecutar de nuevo**.
+    1. En el servidor perimetral, abra el asistente Skype Empresarial Server implementación. Seleccione **Instalar o actualizar Skype Empresarial Server system** y, a continuación, seleccione Configurar o Quitar Skype Empresarial Server **componentes**. Seleccione **Ejecutar de nuevo**.
     
     1. Seleccione **Siguiente**. La pantalla de resumen mostrará las acciones a medida que se ejecuten. Una vez realizada la implementación, seleccione **Ver registro** para ver los archivos de registro disponibles. Seleccione **Finalizar** para completar la implementación.
 

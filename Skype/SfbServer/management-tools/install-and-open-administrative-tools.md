@@ -1,7 +1,7 @@
 ---
 title: Instalar y abrir herramientas administrativas
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: En este tema se describe cómo instalar y abrir las herramientas administrativas que necesita para implementar y administrar Skype Empresarial.
-ms.openlocfilehash: 70f7732c9db49f5a089e9d5008a27902e5aac51c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a40a1617490f22c37ec2a8173118dcb289ec8ff8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630484"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743436"
 ---
 # <a name="install-and-open-administrative-tools"></a>Instalar y abrir herramientas administrativas
 
@@ -64,7 +64,7 @@ Use el siguiente procedimiento para abrir el Generador de topologías para defin
 
 1. Inicie sesión en el equipo en el que Topology Builder esté instalado como miembro del grupo Admins. del dominio y el grupo RTCUniversalServerAdmins.
     > [!NOTE]
-    > Puede definir una topología mediante una cuenta que sea miembro del grupo usuarios local, pero para leer, publicar o habilitar una topología, que es necesaria para instalar Skype Empresarial Server en un servidor, debe usar una cuenta que sea miembro del grupo Administradores de dominio y del grupo RTCUniversalServerAdmins y que tenga permisos de control total (es decir, lectura, escritura y modificación) en el recurso compartido de archivos que va a usar para el almacén de archivos de archivado para que el Generador de topologías pueda configurar la lista de control de acceso discrecional (DACL) necesaria o una cuenta con derechos de usuario equivalentes.
+    > Puede definir una topología mediante una cuenta que sea miembro del grupo usuarios local, pero para leer, publicar o habilitar una topología, que es necesaria para instalar Skype Empresarial Server en un servidor, debe usar una cuenta que sea miembro del grupo Administradores de dominio y del grupo RTCUniversalServerAdmins,  y que tiene permisos de control total (es decir, lectura, escritura y modificación) en el recurso compartido de archivos que va a usar para el almacén de archivos de archivado para que el Generador de topologías pueda configurar la lista de control de acceso discrecional (DACL) necesaria o una cuenta con derechos de usuario equivalentes.
  
 2. Iniciar generador de topologías: haga clic **en Inicio**, todos los **programas,** haga clic **en Skype Empresarial Server** y, a continuación, haga clic Skype Empresarial Server Generador **de topologías**.
 

@@ -1,7 +1,7 @@
 ---
 title: Herramienta de planeación de recuperación ante desastres
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Skype Empresarial Server 2015 incluye medidas de recuperación ante desastres al habilitar el emparejamiento de grupos de servidores front-end ubicados en dos centros de datos.
-ms.openlocfilehash: bea9b6148468e2b4e36f8aa058811b6864ee1d0e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eac6989373fd0b8fef404c07efc83d106a1137ed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583944"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739096"
 ---
 # <a name="disaster-recovery-planning-tool"></a>Herramienta de planeación de recuperación ante desastres
  

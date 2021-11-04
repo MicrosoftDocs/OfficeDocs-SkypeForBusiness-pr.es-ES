@@ -1,7 +1,7 @@
 ---
 title: Edición de configuración perimetral de Access
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: b6c04646071bec1b0299624ff49be0447f9b5ef0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 52674e7b218dcc1e00c577e974374278dc338f66
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606559"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771408"
 ---
 # <a name="access-edge-configuration-edit"></a>Configuración perimetral de acceso: Editar
 

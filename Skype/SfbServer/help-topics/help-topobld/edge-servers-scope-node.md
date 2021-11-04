@@ -1,7 +1,7 @@
 ---
 title: Nodo de ámbito de servidores perimetrales
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 description: 'El nodo Grupos de servidores perimetrales contiene los nodos perimetrales de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: a3a61c5405b9298a10bfc72ff6d7167c574aecc6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6dfb5db87604b7b1d57f36d33daf66e736d30c6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633664"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743726"
 ---
 # <a name="edge-servers-scope-node"></a>Nodo de ámbito de servidores perimetrales
  

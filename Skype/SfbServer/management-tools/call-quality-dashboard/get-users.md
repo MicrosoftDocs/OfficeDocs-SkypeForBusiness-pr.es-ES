@@ -1,7 +1,7 @@
 ---
 title: Obtener usuarios
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: 'Resumen: obtenga información sobre la operación Obtener usuarios, que forma parte del servicio de usuario. El servicio de usuario forma parte de la API de repositorio para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 1f9df5bb241f6263bc298060442581f740303c71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ecf549dccf73ec6adae7360efbe516ae3710bf17
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630524"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739126"
 ---
 # <a name="get-users"></a>Obtener usuarios
  

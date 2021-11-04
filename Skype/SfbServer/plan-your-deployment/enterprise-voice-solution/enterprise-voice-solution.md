@@ -1,7 +1,7 @@
 ---
 title: Planear la solución Telefonía IP empresarial en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Resumen: obtenga información sobre las opciones para planear una solución unificada de voz y comunicaciones en Skype Empresarial Server.'
-ms.openlocfilehash: 186836f1640402ba2b92dea349525d8f15ef644f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2cd47f1b3655166ced3bec5591a7b8197639544a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583864"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749959"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planear la solución Telefonía IP empresarial en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre las opciones para planear una solución unificada de voz y comunicaciones en Skype Empresarial Server.
   
-Skype Empresarial Server ofrece dos opciones de Telefonía IP empresarial locales(Telefonía IP empresarial y Llamar a través del trabajo) para que integre el sistema telefónico de su organización con la implementación de Skype Empresarial Server, lo que permite una solución de comunicaciones unificadas verdadera. Ambas opciones permiten a los usuarios usar Skype Empresarial cliente para iniciar llamadas de voz con otros usuarios, tanto dentro como fuera de la organización.
+Skype Empresarial Server ofrece dos opciones de Telefonía IP empresarial locales(Telefonía IP empresarial y Llamada a través del trabajo) para que integre el sistema telefónico de su organización con la implementación Skype Empresarial Server, crear una verdadera solución de comunicaciones unificadas. Ambas opciones permiten a los usuarios usar Skype Empresarial cliente para iniciar llamadas de voz con otros usuarios, tanto dentro como fuera de la organización.
   
 También puede usar tanto Telefonía IP empresarial como Llamar a través del trabajo juntos.
   

@@ -1,6 +1,6 @@
 ---
 title: Skype Dominios de confianza del sistema de sala
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: Lea este tema para obtener información sobre cómo configurar dominios de confianza para Skype Room System y Skype Empresarial.
-ms.openlocfilehash: fae745d1380e8d75d88e446275d7073e92ae5632
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 68449fcb0c1bf4fb608f7d1172b45776fe109958
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583274"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738977"
 ---
 # <a name="skype-room-system-trusted-domains"></a>Skype Dominios de confianza del sistema de sala
  

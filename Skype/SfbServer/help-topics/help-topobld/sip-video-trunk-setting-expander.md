@@ -1,7 +1,7 @@
 ---
 title: Expansor de configuración de tronco de vídeo SIP
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server 2015.
-ms.openlocfilehash: 032216be3120fa23ba68dd37083273f544da4edd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 59bb7c2cd65b6bcd947acc2fadcc5017ff21016a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604839"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750389"
 ---
 # <a name="sip-video-trunk-setting-expander"></a>Expansor de configuración de tronco de vídeo SIP
  

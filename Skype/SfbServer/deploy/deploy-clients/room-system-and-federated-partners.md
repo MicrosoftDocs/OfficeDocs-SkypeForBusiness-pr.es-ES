@@ -1,6 +1,6 @@
 ---
 title: Skype Sistema de sala y Skype Empresarial asociados federados
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: Lea este tema para obtener información sobre cómo configurar Skype room system para Skype Empresarial asociados federados.
-ms.openlocfilehash: 2f0a44538839fd6c722021f806bd8623f0c210ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57c143559af533e1a2a8ef6577a1fe6e9f9de660
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620516"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771672"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Sistema de sala y Skype Empresarial asociados federados
  

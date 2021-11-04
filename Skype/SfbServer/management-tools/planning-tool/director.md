@@ -1,7 +1,7 @@
 ---
 title: Herramienta de planeación de directores
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: Un director es un servidor que Skype Empresarial Server software de comunicaciones de 2015 que puede autenticar solicitudes de usuario pero no alberga cuentas de usuario.
-ms.openlocfilehash: 0ba0163ebb07554c1f402183fd84f3818d4c4ebb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bd2a7dfef3be16f8e2916a76c1bcb40971cdf8cc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610607"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750119"
 ---
 # <a name="director-planning-tool"></a>Herramienta de planeación de directores
  
